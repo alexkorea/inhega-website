@@ -40,7 +40,7 @@ export default function ContactPage() {
         {/* Hero Banner */}
         <section className="relative pt-20 min-h-[400px] flex items-center">
           <div className="absolute inset-0">
-            <Image src="/slides/cityscape.jpg" alt="상담문의" fill className="object-cover" priority sizes="100vw" />
+            <Image src="/slides/consultation.jpg" alt="상담문의" fill className="object-cover" priority sizes="100vw" />
             <div className="absolute inset-0 bg-black/50" />
           </div>
           <div className="relative mx-auto max-w-7xl px-6 py-20 text-center text-white w-full">
