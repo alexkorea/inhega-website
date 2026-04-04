@@ -114,9 +114,22 @@ export function ContactForm() {
             <option value="" disabled>
               문의 유형을 선택해 주세요
             </option>
-            <option value="인허가 상담">인허가 상담</option>
-            <option value="서류 준비 대행">서류 준비 대행</option>
-            <option value="절차 안내">절차 안내</option>
+            <option value="국제물류주선업 + 화물운송주선업자 등록">국제물류주선업 + 화물운송주선업자 등록</option>
+            <option value="환전업 등록">환전업 등록</option>
+            <option value="외국인도시민박업">외국인도시민박업</option>
+            <option value="호스텔업">호스텔업</option>
+            <option value="한옥체험업">한옥체험업</option>
+            <option value="건축물 용도변경">건축물 용도변경</option>
+            <option value="식품제조가공업">식품제조가공업</option>
+            <option value="여성기업인증">여성기업인증</option>
+            <option value="비영리사단법인">비영리사단법인</option>
+            <option value="담배수입판매업 등록">담배수입판매업 등록</option>
+            <option value="기업 인증(벤처/이노비즈)">기업 인증(벤처/이노비즈)</option>
+            <option value="식품 인허가 & HACCP">식품 인허가 &amp; HACCP</option>
+            <option value="의약외품/화장품 허가">의약외품/화장품 허가</option>
+            <option value="조달청 나라장터 등록">조달청 나라장터 등록</option>
+            <option value="기업부설연구소 설립">기업부설연구소 설립</option>
+            <option value="전자담배 수입허가">전자담배 수입허가</option>
             <option value="기타">기타</option>
           </select>
         </div>
