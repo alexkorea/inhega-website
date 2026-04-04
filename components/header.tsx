@@ -28,8 +28,14 @@ export function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl h-20 flex items-center justify-between px-6">
-        <Link href="/" className="text-xl font-bold text-slate-900">
-          행정사사무소
+        <Link href="/" className="flex items-center gap-2">
+          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+            <span className="text-white font-serif font-bold text-lg">V</span>
+          </div>
+          <div className="flex flex-col leading-tight">
+            <span className="font-serif text-lg font-semibold text-slate-900">VISION</span>
+            <span className="text-[10px] text-slate-500 -mt-1 hidden sm:block">행정사사무소</span>
+          </div>
         </Link>
 
         {/* Desktop nav */}

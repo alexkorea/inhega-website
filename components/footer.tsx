@@ -8,7 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-white mb-3">비전행정사사무소</h3>
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-serif font-bold text-lg">V</span>
+              </div>
+              <span className="font-serif text-lg font-semibold text-white">VISION</span>
+            </div>
             <p className="text-sm leading-relaxed">
               인허가 업무 전문 행정사사무소입니다.
             </p>
