@@ -34,7 +34,7 @@ const contactInfo = [
     icon: Phone,
     title: "전화 문의",
     primary: "02-363-2251",
-    secondary: "평일 09:00 - 18:00",
+    secondary: "월~금 9:30 AM - 5:30 PM",
   },
   {
     icon: Mail,
