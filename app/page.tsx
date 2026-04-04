@@ -1,5 +1,7 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
+import { Messenger } from "@/components/messenger"
+import { Team } from "@/components/team"
 import { Intro } from "@/components/intro"
 import { Services } from "@/components/services"
 import { WhyUs } from "@/components/why-us"
@@ -11,6 +13,8 @@ export default function HomePage() {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <Messenger />
+      <Team />
       <Intro />
       <Services />
       <WhyUs />
