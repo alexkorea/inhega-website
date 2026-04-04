@@ -35,7 +35,7 @@ export function Hero() {
   }, [next])
 
   return (
-    <section className="relative h-[600px] pt-20 overflow-hidden">
+    <section className="relative min-h-[600px] pt-20 overflow-hidden">
       {slides.map((slide, i) => (
         <div
           key={i}
@@ -56,7 +56,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-black/50" />
 
           {/* Content */}
-          <div className="relative h-full flex items-center justify-center">
+          <div className="relative h-full flex items-end justify-center pb-24">
             <div className="mx-auto max-w-7xl px-6 text-center text-white">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 {slide.title}

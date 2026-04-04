@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import {
   Building2,
@@ -92,10 +93,14 @@ export default function AboutPage() {
       <Header />
       <main>
         {/* Hero Banner */}
-        <section className="bg-gradient-to-r from-slate-900 to-slate-700 py-20">
-          <div className="mx-auto max-w-7xl px-4 text-center text-white">
+        <section className="relative pt-20 min-h-[400px] flex items-center">
+          <div className="absolute inset-0">
+            <Image src="/slides/meeting.jpg" alt="회사소개" fill className="object-cover" priority sizes="100vw" />
+            <div className="absolute inset-0 bg-black/50" />
+          </div>
+          <div className="relative mx-auto max-w-7xl px-6 py-20 text-center text-white w-full">
             <h1 className="text-4xl font-bold md:text-5xl">회사소개</h1>
-            <p className="mt-4 text-lg text-slate-300">
+            <p className="mt-4 text-lg text-white/80">
               인허가 업무에 특화된 전문 행정사사무소
             </p>
           </div>

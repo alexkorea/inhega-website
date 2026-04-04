@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import { Calendar } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -39,12 +40,16 @@ export default function BlogPage() {
       <Header />
       <main>
         {/* Hero Banner */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-20">
-          <div className="mx-auto max-w-7xl px-4 text-center text-white">
+        <section className="relative pt-20 min-h-[400px] flex items-center">
+          <div className="absolute inset-0">
+            <Image src="/slides/documents.jpg" alt="인허가 정보 블로그" fill className="object-cover" priority sizes="100vw" />
+            <div className="absolute inset-0 bg-black/50" />
+          </div>
+          <div className="relative mx-auto max-w-7xl px-6 py-20 text-center text-white w-full">
             <h1 className="text-4xl font-bold md:text-5xl">
               인허가 정보 블로그
             </h1>
-            <p className="mt-4 text-lg text-blue-200">
+            <p className="mt-4 text-lg text-white/80">
               인허가 업무에 필요한 유용한 정보와 실무 가이드를 제공합니다.
             </p>
           </div>
