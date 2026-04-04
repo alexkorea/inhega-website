@@ -46,14 +46,23 @@ export function Footer() {
         </div>
       </div>
 
+      {/* Business Registration */}
+      <div className="border-t border-slate-800">
+        <div className="mx-auto max-w-7xl px-6 pt-8 pb-4">
+          <p className="text-sm text-slate-500 text-center">
+            © 2018 비전행정사사무소 | 사업자등록번호: 405-05-54079 | 대표: 이원중 | 개인정보관리자: 김영주
+          </p>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div className="border-t border-slate-800">
         <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <span>&copy; 2018 비전행정사사무소. All rights reserved.</span>
           <div className="flex items-center gap-4">
-            <Link href="/privacy" className="hover:text-slate-300 transition-colors">개인정보처리방침</Link>
+            <Link href="/contact" className="hover:text-slate-300 transition-colors">개인정보처리방침</Link>
             <span>|</span>
-            <Link href="/terms" className="hover:text-slate-300 transition-colors">이용약관</Link>
+            <Link href="/contact" className="hover:text-slate-300 transition-colors">이용약관</Link>
           </div>
         </div>
       </div>
