@@ -7,18 +7,18 @@ import Link from 'next/link'
 const slides = [
   {
     title: '인허가 전문 행정사사무소',
-    subtitle: '복잡한 인허가 업무를 명확하고 정확하게 지원합니다',
-    image: '/slides/documents.jpg',
+    subtitle: '의약외품·화장품 허가부터 식품 인허가까지 전문적으로 지원합니다',
+    image: '/slides/pharma.jpg',
   },
   {
-    title: '사업자의 행정절차를',
-    subtitle: '빠르고 안정적으로 지원합니다',
-    image: '/slides/meeting.jpg',
+    title: '기업 인증 · 연구소 설립',
+    subtitle: '벤처기업 확인, 이노비즈 인증, 기업부설연구소 설립을 대행합니다',
+    image: '/slides/research.jpg',
   },
   {
-    title: '다양한 업종의 허가, 등록, 인증',
-    subtitle: '전문적이고 체계적인 업무 처리를 약속합니다',
-    image: '/slides/cityscape.jpg',
+    title: '국제물류 · 수출입 인허가',
+    subtitle: '국제물류주선업 등록부터 수입 허가까지 체계적으로 처리합니다',
+    image: '/slides/logistics.jpg',
   },
 ]
 
