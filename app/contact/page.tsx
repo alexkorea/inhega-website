@@ -9,6 +9,24 @@ export const metadata: Metadata = {
   title: "상담문의 - 비전행정사사무소",
   description:
     "인허가 업무 관련 무료 상담을 신청하세요. 업종과 상황에 맞는 맞춤형 행정 지원을 제공합니다.",
+  alternates: {
+    canonical: "https://inhega.co.kr/contact",
+  },
+  openGraph: {
+    title: "상담문의 - 비전행정사사무소",
+    description:
+      "인허가 업무 관련 무료 상담을 신청하세요. 업종과 상황에 맞는 맞춤형 행정 지원을 제공합니다.",
+    url: "https://inhega.co.kr/contact",
+    siteName: "비전행정사사무소",
+    type: "website",
+    images: [{ url: "https://inhega.co.kr/og-image.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "상담문의 - 비전행정사사무소",
+    description:
+      "인허가 업무 관련 무료 상담을 신청하세요. 업종과 상황에 맞는 맞춤형 행정 지원을 제공합니다.",
+  },
 }
 
 const contactInfo = [

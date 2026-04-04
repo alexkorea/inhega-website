@@ -16,6 +16,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} - 비전행정사사무소`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://inhega.co.kr/blog/${slug}`,
+    },
+    openGraph: {
+      title: `${post.title} - 비전행정사사무소`,
+      description: post.excerpt,
+      url: `https://inhega.co.kr/blog/${slug}`,
+      siteName: "비전행정사사무소",
+      type: "article",
+      images: [{ url: `https://inhega.co.kr${post.image}` }],
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: `${post.title} - 비전행정사사무소`,
+      description: post.excerpt,
+    },
   }
 }
 

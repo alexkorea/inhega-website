@@ -8,7 +8,26 @@ import { getAllPosts } from "@/lib/blog"
 
 export const metadata: Metadata = {
   title: "인허가 정보 블로그 - 비전행정사사무소",
-  description: "인허가 업무에 필요한 유용한 정보와 실무 가이드를 제공합니다.",
+  description:
+    "인허가 업무에 필요한 유용한 정보와 실무 가이드를 제공합니다. 식품인허가, 용도변경, 법인설립 등 실무 노하우.",
+  alternates: {
+    canonical: "https://inhega.co.kr/blog",
+  },
+  openGraph: {
+    title: "인허가 정보 블로그 - 비전행정사사무소",
+    description:
+      "인허가 업무에 필요한 유용한 정보와 실무 가이드를 제공합니다.",
+    url: "https://inhega.co.kr/blog",
+    siteName: "비전행정사사무소",
+    type: "website",
+    images: [{ url: "https://inhega.co.kr/og-image.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "인허가 정보 블로그 - 비전행정사사무소",
+    description:
+      "인허가 업무에 필요한 유용한 정보와 실무 가이드를 제공합니다.",
+  },
 }
 
 export default function BlogPage() {

@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     siteName: '비전행정사사무소',
     title: '비전행정사사무소 - 인허가 전문',
     description: '인허가 업무 전문 행정사사무소. 다양한 업종의 허가·등록·인증을 전문적으로 지원합니다.',
+    images: [{ url: 'https://inhega.co.kr/og-image.png' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '비전행정사사무소 - 인허가 전문',
+    description: '인허가 업무 전문 행정사사무소. 다양한 업종의 허가·등록·인증을 전문적으로 지원합니다.',
   },
 }
 

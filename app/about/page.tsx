@@ -19,6 +19,24 @@ export const metadata: Metadata = {
   title: "회사소개 - 비전행정사사무소",
   description:
     "인허가 업무에 특화된 비전행정사사무소를 소개합니다. 다양한 인허가 분야의 실무 노하우를 갖춘 전문가 팀.",
+  alternates: {
+    canonical: "https://inhega.co.kr/about",
+  },
+  openGraph: {
+    title: "회사소개 - 비전행정사사무소",
+    description:
+      "인허가 업무에 특화된 비전행정사사무소를 소개합니다. 다양한 인허가 분야의 실무 노하우를 갖춘 전문가 팀.",
+    url: "https://inhega.co.kr/about",
+    siteName: "비전행정사사무소",
+    type: "website",
+    images: [{ url: "https://inhega.co.kr/og-image.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "회사소개 - 비전행정사사무소",
+    description:
+      "인허가 업무에 특화된 비전행정사사무소를 소개합니다. 다양한 인허가 분야의 실무 노하우를 갖춘 전문가 팀.",
+  },
 }
 
 const stats = [
