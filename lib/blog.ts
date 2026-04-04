@@ -1,6 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { remark } from 'remark'
+import html from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'content/blog')
 
@@ -25,6 +27,9 @@ export function getPostBySlug(slug: string): BlogPost {
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
+  const processedContent = remark().use(html).processSync(content)
+  const contentHtml = processedContent.toString()
+
   return {
     slug: data.slug || slug,
     title: data.title,
@@ -32,7 +37,7 @@ export function getPostBySlug(slug: string): BlogPost {
     category: data.category,
     excerpt: data.excerpt,
     image: data.image || '/slides/documents.jpg',
-    content,
+    content: contentHtml,
   }
 }
 
