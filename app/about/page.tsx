@@ -14,6 +14,7 @@ import {
 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { PageBreadcrumb } from "@/components/page-breadcrumb"
 
 export const metadata: Metadata = {
   title: "회사소개 - 비전행정사사무소",
@@ -110,6 +111,7 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
+        <PageBreadcrumb items={[{ label: "회사소개", path: "/about" }]} />
         {/* Hero Banner */}
         <section className="relative pt-20 min-h-[400px] flex items-center">
           <div className="absolute inset-0">

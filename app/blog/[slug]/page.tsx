@@ -2,6 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { PageBreadcrumb } from "@/components/page-breadcrumb"
+import { ArticleJsonLd } from "@/components/structured-data"
 import { getPostBySlug, getPostSlugs, getAllPosts } from "@/lib/blog"
 import { Calendar, Tag, ArrowLeft } from "lucide-react"
 
@@ -43,8 +45,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <>
+      <ArticleJsonLd
+        title={post.title}
+        description={post.excerpt}
+        url={`https://inhega.co.kr/blog/${slug}`}
+        image={`https://inhega.co.kr${post.image}`}
+        datePublished={post.date}
+      />
       <Header />
       <main>
+        <PageBreadcrumb items={[{ label: "블로그", path: "/blog" }, { label: post.title, path: `/blog/${slug}` }]} />
         {/* Hero Banner */}
         <section className="relative pt-20">
           <div className="relative h-[280px] md:h-[380px] overflow-hidden">

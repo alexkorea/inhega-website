@@ -3,6 +3,7 @@ import Image from "next/image"
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { PageBreadcrumb } from "@/components/page-breadcrumb"
 import { ContactForm } from "./contact-form"
 
 export const metadata: Metadata = {
@@ -55,6 +56,7 @@ export default function ContactPage() {
     <>
       <Header />
       <main>
+        <PageBreadcrumb items={[{ label: "상담문의", path: "/contact" }]} />
         {/* Hero Banner */}
         <section className="relative pt-20 min-h-[400px] flex items-center">
           <div className="absolute inset-0">

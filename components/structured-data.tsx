@@ -65,3 +65,136 @@ export function WebSiteJsonLd() {
     />
   )
 }
+
+export function ServiceJsonLd({
+  name,
+  description,
+  url,
+}: {
+  name: string
+  description: string
+  url: string
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: name,
+    name,
+    description,
+    url,
+    provider: {
+      "@type": "ProfessionalService",
+      name: "비전행정사사무소",
+      url: "https://inhega.co.kr",
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "KR",
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+export function ArticleJsonLd({
+  title,
+  description,
+  url,
+  image,
+  datePublished,
+  dateModified,
+}: {
+  title: string
+  description: string
+  url: string
+  image: string
+  datePublished: string
+  dateModified?: string
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url,
+    image,
+    datePublished,
+    dateModified: dateModified || datePublished,
+    author: {
+      "@type": "Organization",
+      name: "비전행정사사무소",
+      url: "https://inhega.co.kr",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "비전행정사사무소",
+      url: "https://inhega.co.kr",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://inhega.co.kr/og-image.png",
+      },
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[]
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+export function FaqJsonLd({
+  questions,
+}: {
+  questions: { question: string; answer: string }[]
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: questions.map((q) => ({
+      "@type": "Question",
+      name: q.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: q.answer,
+      },
+    })),
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}

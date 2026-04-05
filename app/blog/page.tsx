@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Calendar, Tag } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { PageBreadcrumb } from "@/components/page-breadcrumb"
 import { getAllPosts } from "@/lib/blog"
 
 export const metadata: Metadata = {
@@ -37,6 +38,7 @@ export default function BlogPage() {
     <>
       <Header />
       <main>
+        <PageBreadcrumb items={[{ label: "블로그", path: "/blog" }]} />
         {/* Hero Banner */}
         <section className="relative pt-20 min-h-[400px] flex items-center">
           <div className="absolute inset-0">
