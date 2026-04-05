@@ -4,7 +4,7 @@ date: "2026-04-05"
 category: "인허가"
 excerpt: "건축물 용도변경 허가의 절차, 필요서류, 주의사항을 상세히 안내합니다."
 image: "/slides/documents.jpg"
-slug: "2026-04-05-building-use-change-guide"
+slug: "building-use-change-guide"
 ---
 
 <nav>
