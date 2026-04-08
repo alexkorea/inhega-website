@@ -33,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko">
       <head>
+        <meta property="og:locale" content="ko_KR" />
         <link
           rel="stylesheet"
           as="style"
