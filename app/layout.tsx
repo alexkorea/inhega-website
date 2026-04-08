@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   title: '비전행정사사무소 - 인허가 전문',
   description: '인허가 업무 전문 행정사사무소. 국제물류주선업, 환전업, 식품제조가공업, 건축물 용도변경 등 다양한 업종의 허가·등록·인증을 전문적으로 지원합니다.',
   keywords: ['행정사', '인허가', '허가', '등록', '인증', '행정사사무소', '비전행정사', '식품인허가', '용도변경', '물류주선업'],
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     type: 'website',
     locale: 'ko_KR',

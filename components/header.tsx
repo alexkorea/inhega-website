@@ -6,8 +6,8 @@ import { Menu, X } from 'lucide-react'
 
 const navLinks = [
   { label: '홈', href: '/' },
-  { label: 'About Us', href: '/about' },
-  { label: 'Blog', href: '/blog' },
+  { label: '회사소개', href: '/about' },
+  { label: '인허가 정보', href: '/blog' },
   { label: '상담문의', href: '/contact' },
 ]
 
