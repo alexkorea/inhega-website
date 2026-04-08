@@ -10,6 +10,7 @@ export function ContactForm() {
     type: "",
     message: "",
   })
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle")
 
   function handleChange(
     e: React.ChangeEvent<
@@ -19,9 +20,37 @@ export function ContactForm() {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }))
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    alert("상담 문의가 접수되었습니다.")
+    setStatus("sending")
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+      if (res.ok) {
+        setStatus("sent")
+      } else {
+        setStatus("error")
+      }
+    } catch {
+      setStatus("error")
+    }
+  }
+
+  if (status === "sent") {
+    return (
+      <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm text-center">
+        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
+          <svg className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-bold text-slate-900">상담 신청이 접수되었습니다!</h3>
+        <p className="mt-2 text-slate-600">빠른 시일 내에 연락드리겠습니다.</p>
+      </div>
+    )
   }
 
   return (
@@ -157,10 +186,14 @@ export function ContactForm() {
         {/* 제출 버튼 */}
         <button
           type="submit"
-          className="w-full rounded-lg bg-blue-600 px-6 py-4 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
+          disabled={status === "sending"}
+          className="w-full rounded-lg bg-blue-600 px-6 py-4 text-sm font-semibold text-white transition-colors hover:bg-blue-700 disabled:bg-blue-400"
         >
-          상담 문의하기
+          {status === "sending" ? "전송 중..." : "상담 문의하기"}
         </button>
+        {status === "error" && (
+          <p className="text-red-500 text-sm text-center">전송에 실패했습니다. 직접 전화 또는 이메일로 문의해주세요.</p>
+        )}
       </div>
     </form>
   )
