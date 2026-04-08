@@ -52,6 +52,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         image={`https://inhega.co.kr${post.image}`}
         datePublished={post.date}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "datePublished": post.date,
+        "author": { "@type": "Organization", "name": "비전행정사사무소" },
+        "publisher": { "@type": "Organization", "name": "비전행정사사무소" },
+        "description": post.excerpt,
+        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://inhega.co.kr/blog/${slug}` }
+      }) }} />
       <Header />
       <main>
         <PageBreadcrumb items={[{ label: "블로그", path: "/blog" }, { label: post.title, path: `/blog/${slug}` }]} />
