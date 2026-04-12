@@ -21,6 +21,17 @@ slug: "hygiene-products-manufacturing-report"
   <strong style="color:#92400e">⚠️ 주의:</strong> 사전 준비가 미흡할 경우, 신고가 반려될 위험이 매우 높습니다. 법정 요건을 철저히 파악하세요.
 </div>
 
+<nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
+  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <ul style="list-style:none;padding-left:0">
+    <li style="margin:8px 0"><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 1. 위생용품 제조업 신고 대상과 기본 요건</a></li>
+    <li style="margin:8px 0"><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 2. 위생용품 제조업 신고 절차 단계별 안내</a></li>
+    <li style="margin:8px 0"><a href="#section-3" style="color:#2563eb;text-decoration:none">3. 3. 신고 시 제출 서류와 작성 팁</a></li>
+    <li style="margin:8px 0"><a href="#section-4" style="color:#2563eb;text-decoration:none">4. 4. 위생용품 제조업 시설 기준 상세 해설</a></li>
+    <li style="margin:8px 0"><a href="#section-5" style="color:#2563eb;text-decoration:none">5. 5. 신고 준비 체크리스트 및 비교표</a></li>
+  </ul>
+</nav>
+
 <h2 id="section-1">1. 위생용품 제조업 신고 대상과 기본 요건</h2>
 
 ### 위생용품 제조업 신고 대상
