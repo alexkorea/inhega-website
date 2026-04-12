@@ -6,7 +6,6 @@ excerpt: "위생용품 제조업 신고 절차와 시설 기준을 실제 법령
 image: "/slides/consultation.jpg"
 slug: "hygiene-products-manufacturing-report"
 ---
-```html
 # 위생용품 제조업 신고 절차와 시설 기준 완벽 가이드
 
 위생용품 제조업은 **관할 시·군·구청(보건소)에서 신고를 완료해야** 합법적으로 영업할 수 있으며, 법적 시설 기준(위생용품관리법)을 반드시 준수해야 영업 신고가 승인됩니다. 신고 절차는 다음과 같은 단계를 거치며, 모든 세부 요건을 반드시 충족해야 원활히 진행됩니다:
@@ -22,9 +21,7 @@ slug: "hygiene-products-manufacturing-report"
   <strong style="color:#92400e">⚠️ 주의:</strong> 사전 준비가 미흡할 경우, 신고가 반려될 위험이 매우 높습니다. 법정 요건을 철저히 파악하세요.
 </div>
 
----
-
-## <h2 id="section-1">1. 위생용품 제조업 신고 대상과 기본 요건</h2>
+<h2 id="section-1">1. 위생용품 제조업 신고 대상과 기본 요건</h2>
 
 ### 위생용품 제조업 신고 대상
 
@@ -71,9 +68,7 @@ slug: "hygiene-products-manufacturing-report"
   <strong style="color:#1e40af">💡 실무 팁:</strong> 대상 품목은 보건복지부 고시와 지역 보건소마다 상이할 수 있으므로, 사전에 숙지하고 준비하세요.
 </div>
 
----
-
-## <h2 id="section-2">2. 위생용품 제조업 신고 절차 단계별 안내</h2>
+<h2 id="section-2">2. 위생용품 제조업 신고 절차 단계별 안내</h2>
 
 위생용품 제조업 신고 과정은 아래와 같이 7단계로 이루어집니다:
 
@@ -91,9 +86,7 @@ slug: "hygiene-products-manufacturing-report"
   <strong style="color:#92400e">⚠️ 주의:</strong> 지역마다 신고 절차와 요건이 다를 수 있습니다. 관할 보건소의 세부 절차를 확인하세요.
 </div>
 
----
-
-## <h2 id="section-3">3. 신고 시 제출 서류와 작성 팁</h2>
+<h2 id="section-3">3. 신고 시 제출 서류와 작성 팁</h2>
 
 ### 주요 제출 서류
 
@@ -143,9 +136,7 @@ slug: "hygiene-products-manufacturing-report"
   </ul>
 </div>
 
----
-
-## <h2 id="section-4">4. 위생용품 제조업 시설 기준 상세 해설</h2>
+<h2 id="section-4">4. 위생용품 제조업 시설 기준 상세 해설</h2>
 
 위생용품 제조업 시설 기준은 아래와 같은 주요 항목으로 구성됩니다. 이를 반드시 충족해야 합니다.
 
@@ -184,9 +175,7 @@ slug: "hygiene-products-manufacturing-report"
 위생용품관리법은 종종 개정될 수 있습니다. 법적 세부 사항은 보건복지부와 지역 보건소 자료를 참고하세요.
 </small>
 
----
-
-## <h2 id="section-5">5. 신고 준비 체크리스트 및 비교표</h2>
+<h2 id="section-5">5. 신고 준비 체크리스트 및 비교표</h2>
 
 아래 표는 준비 단계에서 반드시 점검할 항목을 요약한 비교표입니다:
 
@@ -219,7 +208,11 @@ slug: "hygiene-products-manufacturing-report"
   </tbody>
 </table>
 
----
-
 **자세한 추가 FAQ는 원문 참고**.
-```
+
+<div style="background:#1e40af;color:white;padding:30px;border-radius:8px;margin:40px 0">
+  <h3 style="color:white;margin-top:0;text-align:center">비전 행정사사무소</h3>
+  <p style="margin:12px 0;text-align:center"><strong>전화:</strong> 02-363-2251　|　<strong>이메일:</strong> 5000meter@gmail.com</p>
+  <p style="margin:12px 0;text-align:center;font-size:14px;line-height:1.6"><strong>방문 상담:</strong> (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩) | 동대문역사문화공원역 4번출구 10미터</p>
+</div>
+
