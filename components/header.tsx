@@ -28,14 +28,14 @@ export function Header() {
         scrolled ? 'shadow-md' : ''
       }`}
     >
-      <div className="mx-auto max-w-7xl h-20 flex items-center justify-between px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-serif font-bold text-lg">V</span>
+      <div className="mx-auto max-w-7xl h-24 flex items-center justify-between px-6">
+        <Link href="/" className="flex items-center gap-3">
+          <div className="w-11 h-11 bg-blue-600 rounded-lg flex items-center justify-center">
+            <span className="text-white font-serif font-bold text-2xl">V</span>
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="font-serif text-lg font-semibold text-slate-900">VISION</span>
-            <span className="text-[10px] text-slate-500 -mt-1 hidden sm:block">행정사사무소</span>
+            <span className="font-serif text-2xl font-semibold text-slate-900">VISION</span>
+            <span className="text-xs text-slate-500 -mt-0.5 hidden sm:block">행정사사무소</span>
           </div>
         </Link>
 
@@ -45,14 +45,14 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors"
+              className="text-base font-medium text-slate-700 hover:text-blue-600 transition-colors"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="/contact"
-            className="ml-2 inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition-colors"
+            className="ml-2 inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-base font-semibold text-white hover:bg-blue-700 transition-colors"
           >
             상담문의
           </Link>
@@ -76,7 +76,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors"
+                className="text-base font-medium text-slate-700 hover:text-blue-600 transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
@@ -84,7 +84,7 @@ export function Header() {
             ))}
             <Link
               href="/contact"
-              className="mt-2 inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition-colors"
+              className="mt-2 inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-base font-semibold text-white hover:bg-blue-700 transition-colors"
               onClick={() => setMobileOpen(false)}
             >
               상담문의
