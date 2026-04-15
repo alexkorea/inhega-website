@@ -23,7 +23,7 @@ type AnswerMap = Record<string, string>
 
 type Status = "idle" | "sending" | "sent" | "error"
 
-const stepLabels = ["카테고리", "공통질문", "세부질문", "연락처", "완료"] as const
+const allStepLabels = ["카테고리", "공통질문", "세부질문", "연락처", "완료"] as const
 
 export function QuoteWizard() {
   const [step, setStep] = useState(0)
@@ -47,6 +47,8 @@ export function QuoteWizard() {
     [categorySlug]
   )
 
+  const skipCategoryStep = Boolean(category) && category!.questions.length === 0
+
   const canGoNext = useMemo(() => {
     if (step === 0) return Boolean(categorySlug)
     if (step === 1)
@@ -59,11 +61,19 @@ export function QuoteWizard() {
 
   function goNext() {
     if (!canGoNext) return
+    if (step === 1 && skipCategoryStep) {
+      setStep(3)
+      return
+    }
     if (step < 3) setStep(step + 1)
     else handleSubmit()
   }
 
   function goBack() {
+    if (step === 3 && skipCategoryStep) {
+      setStep(1)
+      return
+    }
     if (step > 0) setStep(step - 1)
   }
 
@@ -99,9 +109,13 @@ export function QuoteWizard() {
     <div className="mx-auto max-w-3xl">
       {/* Progress */}
       <ol className="mb-10 flex items-center justify-between">
-        {stepLabels.map((label, i) => {
-          const active = i === step
-          const done = i < step
+        {(skipCategoryStep
+          ? allStepLabels.filter((_, i) => i !== 2)
+          : allStepLabels
+        ).map((label, i) => {
+          const targetStep = skipCategoryStep && i >= 2 ? i + 1 : i
+          const active = targetStep === step
+          const done = targetStep < step
           return (
             <li key={label} className="flex-1">
               <div className="flex flex-col items-center">

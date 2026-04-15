@@ -672,6 +672,11 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    slug: "other",
+    name: "기타 (위에 해당 없음)",
+    questions: [],
+  },
 ]
 
 export function getCategoryBySlug(slug: string): Category | undefined {
