@@ -8,6 +8,7 @@ const navLinks = [
   { label: '홈', href: '/' },
   { label: '회사소개', href: '/about' },
   { label: '인허가 정보', href: '/blog' },
+  { label: '견적문의', href: '/quote' },
   { label: '상담문의', href: '/contact' },
 ]
 
