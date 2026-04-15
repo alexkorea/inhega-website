@@ -85,6 +85,14 @@ export async function POST(request: Request) {
     console.error("[quote] email failed:", e instanceof Error ? e.message : e)
   }
 
+  // Save to Notion DB (best-effort; env optional for local dev)
+  let notionOk = false
+  try {
+    notionOk = await saveToNotion({ category, commonAnswers, categoryAnswers, contact })
+  } catch (e) {
+    console.error("[quote] notion failed:", e instanceof Error ? e.message : e)
+  }
+
   if (!dbOk && !emailOk) {
     return NextResponse.json(
       { error: "저장과 메일 전송에 모두 실패했습니다. 잠시 후 다시 시도해주세요.", detail: dbError },
@@ -92,7 +100,82 @@ export async function POST(request: Request) {
     )
   }
 
-  return NextResponse.json({ ok: true, dbOk, emailOk })
+  return NextResponse.json({ ok: true, dbOk, emailOk, notionOk })
+}
+
+async function saveToNotion({
+  category,
+  commonAnswers,
+  categoryAnswers,
+  contact,
+}: {
+  category: { slug: string; name: string; questions: { id: string; label: string }[] }
+  commonAnswers: Record<string, string>
+  categoryAnswers: Record<string, string>
+  contact: NonNullable<Payload["contact"]>
+}): Promise<boolean> {
+  const token = process.env.NOTION_QUOTE_API_KEY
+  const dbId = process.env.NOTION_QUOTE_DB_ID
+  if (!token || !dbId) {
+    console.warn("[quote] NOTION_QUOTE_API_KEY/DB_ID not set — skipping Notion")
+    return false
+  }
+
+  const rt = (s: string | null | undefined) =>
+    s ? { rich_text: [{ text: { content: String(s).slice(0, 1990) } }] } : { rich_text: [] }
+  const title = (s: string) => ({ title: [{ text: { content: s.slice(0, 90) } }] })
+  const select = (name?: string | null) => (name ? { select: { name } } : { select: null })
+  const today = new Date().toISOString().slice(0, 10)
+
+  // Build 세부 Q/A pairs from the category's question definitions so labels stay in sync.
+  const qaPairs: { label: string; answer: string }[] = []
+  for (const q of category.questions.slice(0, 5)) {
+    qaPairs.push({ label: q.label, answer: categoryAnswers[q.id] || "" })
+  }
+  while (qaPairs.length < 5) qaPairs.push({ label: "", answer: "" })
+
+  const properties: Record<string, unknown> = {
+    "01고객명": title(contact.name || "이름없음"),
+    "02카테고리": select(category.name),
+    "03현재상황": select("신규"),
+    "04접수일": { date: { start: today } },
+    "05이메일": { email: contact.email || null },
+    "06연락처": { phone_number: contact.phone || null },
+    "07SNS": rt(contact.sns_id),
+    "08회사명": rt(contact.company),
+    "09주소": rt(contact.address),
+    "10메시지": rt(contact.message),
+    "11진행단계": select(commonAnswers.stage),
+    "12사업형태": select(commonAnswers.business_type),
+    "13장소확보": select(commonAnswers.place),
+    "14희망진행방식": select(commonAnswers.scope),
+    "15세부Q1라벨": rt(qaPairs[0].label),
+    "16세부Q1답변": rt(qaPairs[0].answer),
+    "17세부Q2라벨": rt(qaPairs[1].label),
+    "18세부Q2답변": rt(qaPairs[1].answer),
+    "19세부Q3라벨": rt(qaPairs[2].label),
+    "20세부Q3답변": rt(qaPairs[2].answer),
+    "21세부Q4라벨": rt(qaPairs[3].label),
+    "22세부Q4답변": rt(qaPairs[3].answer),
+    "23세부Q5라벨": rt(qaPairs[4].label),
+    "24세부Q5답변": rt(qaPairs[4].answer),
+  }
+
+  const res = await fetch("https://api.notion.com/v1/pages", {
+    method: "POST",
+    headers: {
+      Authorization: "Bearer " + token,
+      "Notion-Version": "2022-06-28",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ parent: { database_id: dbId }, properties }),
+  })
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}))
+    console.error("[quote] notion API error:", res.status, data)
+    return false
+  }
+  return true
 }
 
 async function sendEmail({
