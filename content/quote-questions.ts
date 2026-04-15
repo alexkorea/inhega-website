@@ -673,6 +673,56 @@ export const categories: Category[] = [
     ],
   },
   {
+    slug: "social-enterprise-cert",
+    name: "사회적기업 인증",
+    questions: [
+      {
+        id: "cert_type",
+        label: "희망 인증 유형은 무엇인가요?",
+        options: [
+          "일자리 제공형",
+          "사회서비스 제공형",
+          "지역사회 공헌형",
+          "혼합형",
+          "아직 미정",
+        ],
+      },
+      {
+        id: "org_form",
+        label: "조직 형태는 어떻게 되시나요?",
+        options: [
+          "법인",
+          "협동조합",
+          "비영리법인",
+          "개인사업자",
+          "설립 예정",
+          "미정",
+        ],
+      },
+      {
+        id: "workforce",
+        label: "유급 근로자 고용 현황은 어떻게 되나요?",
+        options: ["이미 고용 중", "채용 예정", "없음", "미정"],
+      },
+      {
+        id: "social_activity",
+        label: "사회적 목적 관련 사업의 현재 상태는 어떤가요?",
+        options: ["이미 운영 중", "준비 중", "아이디어 단계", "미정"],
+      },
+      {
+        id: "need",
+        label: "현재 가장 필요한 도움은 무엇인가요?",
+        options: [
+          "인증 가능성 진단",
+          "유형 및 구조 설계",
+          "전체 컨설팅",
+          "신청서·서류 작성",
+          "상담 후 결정",
+        ],
+      },
+    ],
+  },
+  {
     slug: "other",
     name: "기타 (위에 해당 없음)",
     questions: [],
