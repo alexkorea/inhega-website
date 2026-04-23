@@ -93,6 +93,22 @@ export async function POST(request: Request) {
     console.error("[quote] notion failed:", e instanceof Error ? e.message : e)
   }
 
+  // Notion CRM (unified)
+  try {
+    const { saveToCRM } = await import("@/lib/notion-crm")
+    const commonSummary = Object.entries(body.common_answers || {}).map(([k,v]) => `${k}: ${v}`).join('\n')
+    const catSummary = Object.entries(body.category_answers || {}).map(([k,v]) => `${k}: ${v}`).join('\n')
+    await saveToCRM({
+      brand: 'inhega', formType: 'quote',
+      siteUrl: 'https://www.inhega.co.kr/quote',
+      name: contact.name, email: contact.email, phone: contact.phone,
+      serviceRaw: category?.name || slug,
+      message: contact.company ? `회사: ${contact.company}` : undefined,
+      quoteAnswersSummary: `[공통]\n${commonSummary}\n\n[${category?.name}]\n${catSummary}`.substring(0, 2000),
+      rawPayload: body,
+    })
+  } catch (e) { console.error("[quote] CRM failed:", e) }
+
   if (!dbOk && !emailOk) {
     return NextResponse.json(
       { error: "저장과 메일 전송에 모두 실패했습니다. 잠시 후 다시 시도해주세요.", detail: dbError },
