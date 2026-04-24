@@ -77,6 +77,18 @@ export async function POST(request: Request) {
     console.error("[quote] supabase failed:", dbError)
   }
 
+  // Telegram notification
+  try {
+    const commonSummary = Object.entries(body.common_answers || {}).map(([k,v]) => `${k}: ${v}`).join('\n')
+    const catSummary = Object.entries(body.category_answers || {}).map(([k,v]) => `${k}: ${v}`).join('\n')
+    const tgText = `[인허가 견적문의] 새 접수\n\n이름: ${contact.name || '-'}\n이메일: ${contact.email || '-'}\n전화: ${contact.phone || '-'}\n회사: ${contact.company || '-'}\n카테고리: ${category?.name || slug}\n\n${commonSummary}\n${catSummary}`.substring(0, 4000)
+    await fetch('https://api.telegram.org/bot8748564690:AAEGsXxcfqrHmGue8lkqUaa2E0Q8CDCY-Eo/sendMessage', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: '5533847195', text: tgText }),
+    })
+  } catch (e) { console.error('[quote] telegram failed:', e) }
+
   // Send email to both recipients (returns false if env not set or send failed)
   let emailOk = false
   try {
