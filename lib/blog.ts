@@ -41,7 +41,7 @@ export async function getPostSlugs(): Promise<string[]> {
     .select('slug')
     .eq('locale', 'ko')
     .eq('published', true)
-  if (error) throw error
+  if (error) return [] // table may not exist yet
   return Array.from(new Set((data || []).map((r) => r.slug)))
 }
 
@@ -65,6 +65,6 @@ export async function getAllPosts(): Promise<BlogPost[]> {
     .eq('locale', 'ko')
     .eq('published', true)
     .order('post_date', { ascending: false })
-  if (error) throw error
+  if (error) return [] // table may not exist yet
   return (data || []).map((r) => toPost(r as Row))
 }
