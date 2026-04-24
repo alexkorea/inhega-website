@@ -44,7 +44,7 @@ async function sendEmail(fields: Record<string, string>, senderName: string, sen
 
 
 const NOTION_KEY = process.env.NOTION_API_KEY || ""
-const NOTION_DB = "33d557c9-c8f8-8187-b39d-c7c9ee18a7e1"
+const NOTION_DB = "34c5bd7c-ac5a-8166-b4a2-e74a6ccf2a6b"
 
 async function saveToNotion(data: Record<string, string>) {
   if (!NOTION_KEY) return

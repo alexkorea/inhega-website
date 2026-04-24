@@ -1,11 +1,4 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { remark } from 'remark'
-import remarkGfm from 'remark-gfm'
-import html from 'remark-html'
-
-const postsDirectory = path.join(process.cwd(), 'content/blog')
+import { getAnonClient } from './supabase/server'
 
 export interface BlogPost {
   slug: string
@@ -17,35 +10,61 @@ export interface BlogPost {
   content: string
 }
 
-export function getPostSlugs(): string[] {
-  if (!fs.existsSync(postsDirectory)) return []
-  const files = fs.readdirSync(postsDirectory)
-  return files.filter(f => f.endsWith('.md')).map(f => f.replace('.md', ''))
+const TABLE = 'inhega_blog_posts'
+
+type Row = {
+  slug: string
+  title: string
+  category: string | null
+  excerpt: string | null
+  image: string | null
+  content: string
+  post_date: string
 }
 
-export function getPostBySlug(slug: string): BlogPost {
-  const fullPath = path.join(postsDirectory, `${slug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
-
-  const processedContent = remark().use(remarkGfm).use(html, { sanitize: false }).processSync(content)
-  const contentHtml = processedContent.toString()
-
+function toPost(row: Row): BlogPost {
   return {
-    slug: data.slug || slug,
-    title: data.title,
-    date: typeof data.date === 'string' ? data.date : new Date(data.date).toISOString().slice(0, 10),
-    category: data.category,
-    excerpt: data.excerpt,
-    image: data.image || '/slides/documents.jpg',
-    content: contentHtml,
+    slug: row.slug,
+    title: row.title,
+    date: row.post_date,
+    category: row.category || '',
+    excerpt: row.excerpt || '',
+    image: row.image || '/slides/documents.jpg',
+    content: row.content,
   }
 }
 
-export function getAllPosts(): BlogPost[] {
-  const slugs = getPostSlugs()
-  const posts = slugs
-    .map(slug => getPostBySlug(slug))
-    .sort((a, b) => (a.date > b.date ? -1 : 1))
-  return posts
+export async function getPostSlugs(): Promise<string[]> {
+  const sb = getAnonClient()
+  const { data, error } = await sb
+    .from(TABLE)
+    .select('slug')
+    .eq('locale', 'ko')
+    .eq('published', true)
+  if (error) throw error
+  return Array.from(new Set((data || []).map((r) => r.slug)))
+}
+
+export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+  const sb = getAnonClient()
+  const { data } = await sb
+    .from(TABLE)
+    .select('*')
+    .eq('slug', slug)
+    .eq('locale', 'ko')
+    .eq('published', true)
+    .maybeSingle()
+  return data ? toPost(data as Row) : null
+}
+
+export async function getAllPosts(): Promise<BlogPost[]> {
+  const sb = getAnonClient()
+  const { data, error } = await sb
+    .from(TABLE)
+    .select('*')
+    .eq('locale', 'ko')
+    .eq('published', true)
+    .order('post_date', { ascending: false })
+  if (error) throw error
+  return (data || []).map((r) => toPost(r as Row))
 }

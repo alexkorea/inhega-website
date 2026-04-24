@@ -4,17 +4,17 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { PageBreadcrumb } from "@/components/page-breadcrumb"
 import { ArticleJsonLd } from "@/components/structured-data"
-import { getPostBySlug, getPostSlugs, getAllPosts } from "@/lib/blog"
+import { getPostBySlug, getAllPosts } from "@/lib/blog"
+import { notFound } from "next/navigation"
 import { Calendar, Tag, ArrowLeft } from "lucide-react"
 
-export function generateStaticParams() {
-  const slugs = getPostSlugs()
-  return slugs.map((slug) => ({ slug }))
-}
+export const revalidate = 60
+export const dynamicParams = true
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const post = getPostBySlug(slug)
+  const post = await getPostBySlug(slug)
+  if (!post) return { title: "Not found" }
   return {
     title: `${post.title} - 비전행정사사무소`,
     description: post.excerpt,
@@ -39,8 +39,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const post = getPostBySlug(slug)
-  const allPosts = getAllPosts()
+  const post = await getPostBySlug(slug)
+  if (!post) notFound()
+  const allPosts = await getAllPosts()
   const relatedPosts = allPosts.filter((p) => p.slug !== slug).slice(0, 3)
 
   return (
