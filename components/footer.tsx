@@ -65,9 +65,9 @@ export function Footer() {
         <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <span>&copy; 2018 비전행정사사무소. All rights reserved.</span>
           <div className="flex items-center gap-4">
-            <Link href="/contact" className="hover:text-slate-300 transition-colors">개인정보처리방침</Link>
+            <Link href="/privacy" className="hover:text-slate-300 transition-colors">개인정보처리방침</Link>
             <span>|</span>
-            <Link href="/contact" className="hover:text-slate-300 transition-colors">이용약관</Link>
+            <Link href="/terms" className="hover:text-slate-300 transition-colors">이용약관</Link>
           </div>
         </div>
       </div>
