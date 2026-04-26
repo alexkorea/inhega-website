@@ -58,9 +58,15 @@ export function Hero() {
           {/* Content */}
           <div className="relative h-full flex items-end justify-center pb-24">
             <div className="mx-auto max-w-7xl px-6 text-center text-white">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                {slide.title}
-              </h1>
+              {i === 0 ? (
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                  {slide.title}
+                </h1>
+              ) : (
+                <div className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight" role="presentation">
+                  {slide.title}
+                </div>
+              )}
               <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto">
                 {slide.subtitle}
               </p>

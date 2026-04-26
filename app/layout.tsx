@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://inhega.co.kr'),
+  metadataBase: new URL('https://www.inhega.co.kr'),
   verification: {
     google: 'yl4GX6YzjWjM6GVzL-IRULv9r23VIb9go1mPpGBjm0E',
   },
@@ -13,14 +13,17 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: 'https://www.inhega.co.kr',
+  },
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    url: 'https://inhega.co.kr',
+    url: 'https://www.inhega.co.kr',
     siteName: '비전행정사사무소',
     title: '비전행정사사무소 - 인허가 전문',
     description: '인허가 업무 전문 행정사사무소. 다양한 업종의 허가·등록·인증을 전문적으로 지원합니다.',
-    images: [{ url: 'https://inhega.co.kr/og-image.png' }],
+    images: [{ url: 'https://www.inhega.co.kr/og-image.png' }],
   },
   twitter: {
     card: 'summary_large_image',

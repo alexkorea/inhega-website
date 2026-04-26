@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Phone } from 'lucide-react'
 
 const navLinks = [
   { label: '홈', href: '/' },
@@ -50,6 +50,13 @@ export function Header() {
               {link.label}
             </Link>
           ))}
+          <a
+            href="tel:02-363-2251"
+            className="inline-flex items-center gap-1.5 text-base font-medium text-slate-700 hover:text-blue-600 transition-colors"
+          >
+            <Phone className="w-4 h-4" />
+            02-363-2251
+          </a>
           <Link
             href="/contact"
             className="ml-2 inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-base font-semibold text-white hover:bg-blue-700 transition-colors"
