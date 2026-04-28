@@ -13,7 +13,7 @@ slug: "logistics-forwarding-vs-freight-forwarding-comparison"
 실무에서 가장 많이 꼬이는 지점은 바로 이 부분입니다. 창업 상담 중에 "포워딩 회사를 차리려고 한다"고 하시는데, 취급하려는 화물이 국내 택배·국내 트럭 운송이면 국제물류주선업 등록이 아니라 화물운송주선업 허가를 받아야 합니다. 반대로 해상·항공 수출입을 주선하려면 화물자동차 운송주선사업 허가로는 영업이 불가능합니다. 먼저 본인이 취급할 화물의 동선을 정확히 정의해야 등록 절차가 꼬이지 않습니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 두 업종의 핵심 차이 - 한 줄 요약</a></li>
     <li><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 국제물류주선업이란 - 취급 범위와 실무</a></li>

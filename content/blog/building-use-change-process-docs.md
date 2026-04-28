@@ -13,7 +13,7 @@ slug: "building-use-change-process-docs"
 ---
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li style="margin:8px 0"><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 허가 가능한 용도변경 범위</a></li>
     <li style="margin:8px 0"><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 건축물 용도변경 허가 절차 단계</a></li>
@@ -27,7 +27,7 @@ slug: "building-use-change-process-docs"
   </ul>
 </nav>
 
-<h2 id="section-1">허가 가능한 용도변경 범위</h2>
+<h2 id="section-1">허가 가능한 용도변경 범위
 
 ### 허가가 되는 경우와 막히는 경우
 
@@ -50,7 +50,7 @@ slug: "building-use-change-process-docs"
 
 ---
 
-<h2 id="section-2">건축물 용도변경 허가 절차 단계</h2>
+<h2 id="section-2">건축물 용도변경 허가 절차 단계
 
 ### 접수부터 완료까지 핵심 단계
 
@@ -76,7 +76,7 @@ slug: "building-use-change-process-docs"
 
 ---
 
-<h2 id="section-3">용도변경 필요서류와 실제 심사 핵심</h2>
+<h2 id="section-3">용도변경 필요서류와 실제 심사 핵심
 
 ### 필수 서류와 자주 부족한 부분
 
@@ -105,7 +105,7 @@ slug: "building-use-change-process-docs"
 
 ---
 
-<h2 id="section-4">본문 중간 상담 안내</h2>
+<h2 id="section-4">본문 중간 상담 안내
 
 작년 기준부터 주차장·위생 기준이 새롭게 적용되고 있습니다. 이 기준은 관할 기관마다 적용 방식이 다르므로, 정확한 요건과 비용은 상담을 통해 확인하세요.
 
@@ -121,7 +121,7 @@ slug: "building-use-change-process-docs"
 </figure>
 
 
-<h2 id="section-5">허가 심사 중 자주 걸리는 부분과 보완 방법</h2>
+<h2 id="section-5">허가 심사 중 자주 걸리는 부분과 보완 방법
 
 ### 보통은 이 단계에서 걸립니다
 
@@ -147,7 +147,7 @@ slug: "building-use-change-process-docs"
 
 ---
 
-<h2 id="section-6">처리 기간과 비용 안내, 관할 기관별 주의사항</h2>
+<h2 id="section-6">처리 기간과 비용 안내, 관할 기관별 주의사항
 
 ### 허가 처리 기간
 
@@ -165,7 +165,7 @@ slug: "building-use-change-process-docs"
 
 ---
 
-<h2 id="section-7">FAQ: 실제 검색 질문형</h2>
+<h2 id="section-7">FAQ: 실제 검색 질문형
 
 **Q1. 건축물 용도변경 허가를 받으려면 꼭 현장 실사가 필요한가요?**  
 A1. 보통은 설계 도면만으로는 부족하며, 실제 현장 상태를 직접 확인하기 위해 담당 공무원 실사가 필수로 진행됩니다.
@@ -184,7 +184,7 @@ A5. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드
 
 ---
 
-<h2 id="section-8">마지막 상담 안내 및 연락처</h2>
+<h2 id="section-8">마지막 상담 안내 및 연락처
 
 건축물 용도변경 허가 절차와 필요서류는 실제 현장 조건·자료 준비에서 많은 차이가 생깁니다. 본인 상황에 따른 심사 기준, 요건, 비용은 무료 상담에서 바로 안내 드릴 수 있습니다. 최신 기준과 실제 사례 적용 여부는 상담 시 확인하세요.
 
@@ -195,7 +195,7 @@ A5. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드
 
 ---
 
-<h2 id="section-9">전문가 상담이 필요하신가요?</h2>
+<h2 id="section-9">전문가 상담이 필요하신가요?
 
 복잡한 절차, 혼자 고민하지 마세요. 전문 행정사가 친절하게 안내해 드립니다.
 

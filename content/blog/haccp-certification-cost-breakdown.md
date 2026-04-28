@@ -13,7 +13,7 @@ HACCP 인증 비용을 물어보는 분들이 가장 많이 놓치는 부분은 
 유지관리비용은 더 자주 빠지는 항목입니다. 인증 후에도 매년 사후심사 수수료, 내부심사·CCP 모니터링, 교육비, 기록물 관리, 컨설팅사 월 자문료 등이 계속 나갑니다. 보통 연간 **300만원~1,500만원** 선이고, 장비 교체나 재인증 시점(유효기간 3년)에는 수천만원 단위 추가 비용이 생깁니다. 아래에서 업종별·규모별·항목별로 끊어 정리했습니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li><a href="#section-1" style="color:#2563eb;text-decoration:none">1. HACCP 인증 비용의 전체 구성</a></li>
     <li><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 심사 수수료: 업종·규모별 실제 금액</a></li>

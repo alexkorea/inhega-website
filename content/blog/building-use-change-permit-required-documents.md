@@ -11,7 +11,7 @@ slug: "building-use-change-permit-required-documents"
 건축물 용도변경은 단순히 간판을 바꾸는 일이 아니라 건축법상 시설군 분류와 면적, 주차, 정화조, 소방까지 동시에 점검받는 절차입니다. 상가·창고·근린생활시설을 다른 용도로 바꿔 쓰려는 임차인, 매매를 앞둔 건물주, 신규 사업 인허가를 준비 중인 사업자가 가장 먼저 마주치는 관문이기도 합니다. 아래에서는 신고와 허가의 구분, 시설군별 절차, 실제로 많이 막히는 서류 지점, FAQ까지 실무 순서대로 풀어드립니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li style="margin:8px 0"><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 건축물 용도변경 허가 절차와 필요서류의 출발점</a></li>
     <li style="margin:8px 0"><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 건축물 용도변경 절차 — 신청부터 사용까지</a></li>
@@ -25,7 +25,7 @@ slug: "building-use-change-permit-required-documents"
   </ul>
 </nav>
 
-<h2 id="section-1">건축물 용도변경 허가 절차와 필요서류의 출발점</h2>
+<h2 id="section-1">건축물 용도변경 허가 절차와 필요서류의 출발점
 
 ### 신고 대상과 허가 대상이 갈리는 기준
 
@@ -47,7 +47,7 @@ slug: "building-use-change-permit-required-documents"
 
 > **주의:** 시설군 표는 건축법 시행령 별표1을 따라 갱신되므로, 변경을 시작하기 전 [국가법령정보센터](https://www.law.go.kr)에서 최신 조문을 확인해야 합니다.
 
-<h2 id="section-2">건축물 용도변경 절차 — 신청부터 사용까지</h2>
+<h2 id="section-2">건축물 용도변경 절차 — 신청부터 사용까지
 
 ### 사전 검토 단계에서 먼저 봐야 할 것
 
@@ -68,7 +68,7 @@ slug: "building-use-change-permit-required-documents"
 
 상위 시설군으로 옮기는 허가는 위 흐름에 **건축위원회 심의, 구조 안전 확인, 에너지 절약계획서, 장애인 편의시설 검토**가 더 들어갑니다. 연면적 100㎡ 이상이면서 사용승인까지 받아야 하는 사례에서는 사용승인 전 현장조사가 별도로 진행됩니다. 이 부분이 약하면 서류는 다 갖춰도 사용승인이 나오지 않아 영업 개시가 미뤄집니다.
 
-<h2 id="section-3">건축물 용도변경 필요서류 — 실무 체크리스트</h2>
+<h2 id="section-3">건축물 용도변경 필요서류 — 실무 체크리스트
 
 ### 공통으로 들어가는 기본 서류
 
@@ -98,7 +98,7 @@ slug: "building-use-change-permit-required-documents"
 
 실제로 많이 막히는 부분은 **주차장과 정화조**입니다. 근린생활시설에서 음식점으로 바꾸는 흔한 사례를 보면, 주차대수 산정 기준이 바뀌면서 추가 주차 확보가 필요해지고, 정화조 용량도 BOD 기준이 달라져 증설이 요구됩니다. 겉으로는 간단해 보여도 이 두 항목 때문에 일정이 한두 달 밀리는 경우가 많습니다.
 
-<h2 id="section-4">위반건축물·미등재 면적이 있을 때</h2>
+<h2 id="section-4">위반건축물·미등재 면적이 있을 때
 
 ### 먼저 정리해야 할 것
 
@@ -116,7 +116,7 @@ slug: "building-use-change-permit-required-documents"
 </figure>
 
 
-<h2 id="section-5">사용승인과 후속 인허가 연결</h2>
+<h2 id="section-5">사용승인과 후속 인허가 연결
 
 ### 사용승인 단계의 함정
 
@@ -126,11 +126,11 @@ slug: "building-use-change-permit-required-documents"
 
 음식점 영업신고, 학원 등록, 의료기관 개설 등은 용도변경 완료 후에야 접수가 가능합니다. 임대차 계약상 개점일이 정해져 있다면 역산해서 일정을 짜야 합니다. 실무에서는 ① 용도변경 신청 ② 건축물대장 변경 ③ 후속 인허가 신청 사이에 최소 4~8주의 여유를 둡니다.
 
-<h2 id="section-6">비용과 처리 기간</h2>
+<h2 id="section-6">비용과 처리 기간
 
 처리 기간은 신고 약 7~14일, 허가 약 14~30일이 일반적이지만 부서 협의가 길어지면 더 늘어날 수 있습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다. 정부 고시 수수료 + 행정 처리비 외에 도면 작성비, 구조 안전 확인비, 정화조·주차 보완 공사비가 별도로 들 수 있고, 이 부분은 관할 기관 확인이 필요합니다.
 
-<h2 id="section-7">FAQ</h2>
+<h2 id="section-7">FAQ
 
 **Q1. 건축물대장 기재내용 변경만 하면 끝나는 경우는 언제인가요?**
 같은 시설군·같은 세부 용도 안에서 명칭만 바뀌거나, 면적 변동 없이 같은 호실을 같은 용도로 다시 쓰는 경우입니다. 시설군이 달라지면 신고나 허가로 넘어갑니다.
@@ -150,7 +150,7 @@ slug: "building-use-change-permit-required-documents"
 **Q6. 처리 도중 보완 요청이 오면 어떻게 대응하나요?**
 보완 사유는 보통 도면 불일치, 주차·정화조 산정 오류, 협의 부서 의견 미반영입니다. 보완 기간 내 회신하지 않으면 반려되므로, 회신 일정을 미리 확보해두어야 합니다.
 
-<h2 id="section-8">비전 행정사사무소 상담 안내</h2>
+<h2 id="section-8">비전 행정사사무소 상담 안내
 
 건축물 용도변경은 시설군 판정, 도면 정비, 부서 협의, 후속 인허가까지 한 줄로 이어지는 절차입니다. 한 단계만 어긋나도 일정 전체가 밀리기 때문에, 임대차 개시일이 정해진 사안일수록 사전 검토가 먼저 필요합니다.
 
@@ -163,7 +163,7 @@ slug: "building-use-change-permit-required-documents"
 
 ---
 
-<h2 id="section-9">전문가 상담이 필요하신가요?</h2>
+<h2 id="section-9">전문가 상담이 필요하신가요?
 
 복잡한 절차, 혼자 고민하지 마세요. 전문 행정사가 친절하게 안내해 드립니다.
 

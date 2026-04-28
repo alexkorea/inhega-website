@@ -13,7 +13,7 @@ slug: "building-use-change-cost-and-duration"
 먼저 봐야 할 것은 지금 쓰는 용도와 바꾸려는 용도가 **같은 시설군 안에 있느냐, 상위 시설군으로 올라가느냐**입니다. 상위 시설군으로 올라가면 허가, 하위나 동일군이면 신고, 같은 시설군 안 세부용도만 바꾸면 건축물대장 기재변경으로 끝납니다. 이 구분이 비용과 기간을 결정하는 첫 갈림길입니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 용도변경 3단계 구조: 허가·신고·기재변경</a></li>
     <li><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 실제 비용 구성: 수수료 vs 부대비용</a></li>
@@ -92,7 +92,7 @@ slug: "building-use-change-cost-and-duration"
 
 ## <span id="section-3"></span>2. 시설군별 처리기간과 비용 차이
 
-<h2 id="section-3"></h2>
+<h2 id="section-3">
 
 같은 "용도변경"이라도 바꾸려는 용도가 무엇이냐에 따라 비용·기간의 기준선이 다릅니다. 실무에서 가장 많이 문의 들어오는 전환 유형을 기준으로 정리합니다.
 

@@ -13,7 +13,7 @@ slug: "building-use-change-permit-procedure"
 실무에서 가장 많이 막히는 부분은 서류 준비가 아니라, **내 건물이 허가 대상인지 신고 대상인지를 정확히 파악하는 단계**입니다. 여기서 잘못 판단하면 서류를 아무리 잘 갖춰도 접수 자체가 반려됩니다. 먼저 용도변경 시설군 분류표를 확인하고, 변경 전·후 용도가 각각 몇 군에 해당하는지 파악하는 것이 첫 번째 순서입니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 용도변경이란? 허가와 신고의 차이</a></li>
     <li><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 건축법상 시설군 분류와 용도변경 방향</a></li>
@@ -30,7 +30,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-1">1. 용도변경이란? 허가와 신고의 차이</h2>
+<h2 id="section-1">1. 용도변경이란? 허가와 신고의 차이
 
 ### 용도변경의 정의
 
@@ -95,7 +95,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-2">2. 건축법상 시설군 분류와 용도변경 방향</h2>
+<h2 id="section-2">2. 건축법상 시설군 분류와 용도변경 방향
 
 ### 9개 시설군 분류표
 
@@ -172,7 +172,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-3">3. 용도변경 허가 절차 – 단계별 흐름</h2>
+<h2 id="section-3">3. 용도변경 허가 절차 – 단계별 흐름
 
 ### 전체 흐름 요약
 
@@ -213,7 +213,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-4">4. 용도변경 신고 절차 – 허가와 뭐가 다른가</h2>
+<h2 id="section-4">4. 용도변경 신고 절차 – 허가와 뭐가 다른가
 
 ### 신고 대상
 
@@ -270,7 +270,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-5">5. 필요서류 총정리</h2>
+<h2 id="section-5">5. 필요서류 총정리
 
 ### 허가 신청 시 필요서류
 
@@ -321,7 +321,7 @@ slug: "building-use-change-permit-procedure"
 </figure>
 
 
-<h2 id="section-6">6. 비용과 처리 기간</h2>
+<h2 id="section-6">6. 비용과 처리 기간
 
 ### 비용 구성
 
@@ -379,7 +379,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-7">7. 실무에서 자주 막히는 포인트</h2>
+<h2 id="section-7">7. 실무에서 자주 막히는 포인트
 
 ### 주차장 확보 기준
 
@@ -405,7 +405,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-8">8. 자주하는 실수 5가지</h2>
+<h2 id="section-8">8. 자주하는 실수 5가지
 
 ### 실수 1: 임대차 계약 후 용도변경 가능 여부를 확인
 
@@ -429,7 +429,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-9">9. 자주 묻는 질문 (FAQ)</h2>
+<h2 id="section-9">9. 자주 묻는 질문 (FAQ)
 
 **Q1. 같은 근린생활시설 내에서 업종만 바꿔도 용도변경 절차가 필요한가요?**
 
@@ -453,7 +453,7 @@ slug: "building-use-change-permit-procedure"
 
 ---
 
-<h2 id="section-10">10. 비전 행정사사무소 상담 안내</h2>
+<h2 id="section-10">10. 비전 행정사사무소 상담 안내
 
 건축물 용도변경은 건축법, 소방법, 주차장법, 개별 업종 법령이 복합적으로 얽혀 있어 혼자 진행하다 보완 요청이 반복되거나, 사전 검토 없이 시작해서 시간과 비용을 낭비하는 경우가 흔합니다.
 

@@ -13,7 +13,7 @@ slug: "restaurant-permit-vs-report-guide"
 영업신고는 일정한 시설기준을 갖추고 관할 구청이나 보건소에 신고하면 즉시 영업이 가능한 제도인 반면, 영업허가는 행정기관의 심사와 승인을 거쳐야 영업을 시작할 수 �습니다. 일반음식점(휴게음식점 포함)은 영업신고 대상이며, 집단급식소(1회 50인 이상 식사 제공 시설)나 위탁급식영업은 영업허가 대상입니다. 이 글에서는 두 제도의 명확한 차이점, 각각의 신청 절차, 필요 서류, 시설기준, 그리고 실무에서 자주 발생하는 실수까지 체계적으로 안내해드립니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li style="margin:8px 0"><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 영업신고와 영업허가의 기본 개념</a></li>
     <li style="margin:8px 0"><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 신고 대상 업종과 허가 대상 업종 구분</a></li>
@@ -26,7 +26,7 @@ slug: "restaurant-permit-vs-report-guide"
   </ul>
 </nav>
 
-<h2 id="section-1">영업신고와 영업허가의 기본 개념</h2>
+<h2 id="section-1">영업신고와 영업허가의 기본 개념
 
 ### 영업신고란?
 
@@ -92,7 +92,7 @@ slug: "restaurant-permit-vs-report-guide"
   </tbody>
 </table>
 
-<h2 id="section-2">신고 대상 업종과 허가 대상 업종 구분</h2>
+<h2 id="section-2">신고 대상 업종과 허가 대상 업종 구분
 
 ### 영업신고 대상 업종
 
@@ -149,7 +149,7 @@ slug: "restaurant-permit-vs-report-guide"
 - **유흥주점**: 지자체별로 최소 100㎡ 이상 등 규정 가능
 - **집단급식소**: 조리장, 식당 등 용도에 맞는 적정 면적 필요
 
-<h2 id="section-3">음식점 영업신고 신청 절차</h2>
+<h2 id="section-3">음식점 영업신고 신청 절차
 
 ### 사전 준비 단계
 
@@ -210,7 +210,7 @@ slug: "restaurant-permit-vs-report-guide"
 - **수수료**: 대부분 무료 (일부 지자체는 신고증 발급 수수료 부과 가능)
 - **위생교육비**: 별도 (6,000원~8,000원, 지역별 상이)
 
-<h2 id="section-4">음식점 영업허가 신청 절차</h2>
+<h2 id="section-4">음식점 영업허가 신청 절차
 
 ### 허가 신청 전 준비사항
 
@@ -272,7 +272,7 @@ slug: "restaurant-permit-vs-report-guide"
 <strong>💡 팁:</strong> 허가 신청 전 시설 공사를 완료하고 신청하는 것이 원칙입니다. 공사 중에 신청하면 현장점검 시 부적합 판정을 받을 수 있으므로, 모든 시설을 완비한 후 신청하시기 바랍니다.
 </div>
 
-<h2 id="section-5">공통 시설기준 및 준비사항</h2>
+<h2 id="section-5">공통 시설기준 및 준비사항
 
 ### 필수 시설기준 (영업신고·허가 공통)
 
@@ -376,7 +376,7 @@ slug: "restaurant-permit-vs-report-guide"
 - 소방시설 (소화기, 화재감지기 등) 설치
 - 가스안전 설비
 
-<h2 id="section-6">필요 서류 및 수수료</h2>
+<h2 id="section-6">필요 서류 및 수수료
 
 ### 영업신고 시 필요 서류
 
@@ -452,7 +452,7 @@ slug: "restaurant-permit-vs-report-guide"
   </tbody>
 </table>
 
-<h2 id="section-7">자주 하는 실수와 주의사항</h2>
+<h2 id="section-7">자주 하는 실수와 주의사항
 
 ### 실무에서 자주 발생하는 실수
 
@@ -604,7 +604,7 @@ slug: "restaurant-permit-vs-report-guide"
   </tbody>
 </table>
 
-<h2 id="section-8">자주 묻는 질문 (FAQ)</h2>
+<h2 id="section-8">자주 묻는 질문 (FAQ)
 
 ### Q1. 영업신고와 사업자등록은 같은 것인가요?
 
@@ -670,7 +670,7 @@ slug: "restaurant-permit-vs-report-guide"
 **상담 문의**: 음식점 창업 준비 중이시라면 언제든지 문의해 주세요. 풍부한 경험과 전문성을 바탕으로 성공적인 창업을 도와드리겠습니다.
 
 <div style="background:#1e40af;color:white;padding:30px;border-radius:8px;margin:40px 0;text-align:center">
-<h3 style="color:white;margin-top:0">📞 비전 행정사사무소 무료 상담</h3>
+<h3 style="color:white;margin-top:0">📞 비전 행정사사무소 무료 상담
 <p style="font-size:18px;margin:15px 0">음식점 영업신고·허가, 어렵지 않습니다.<br>전문가와 함께 시작하세요.</p>
 <p style="font-size:16px;margin:20px 0"><strong>전화:</strong> 02-363-2251 | <strong>이메일:</strong> 5000meter@gmail.com</p>
 <p style="font-size:14px;margin:10px 0">평일 09:00~18:00 | 토요일 09:00~13:00 (일요일·공휴일 휴무)</p>

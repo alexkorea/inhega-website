@@ -11,7 +11,7 @@ slug: "building-use-change-cost-timeline"
 건축물 용도변경 비용과 처리기간은 ‘용도군 간 이동’이 발생하는지, 그리고 ‘설계·소방·정화조’ 추가 검토가 붙는지에 따라 갈립니다. 일반음식점·근린생활시설·교육연구시설·창고·공장·다중이용시설 등 용도 전환을 준비 중인 임차인·매수인·건축주가 핵심 대상입니다. 아래에서는 건축법상 분류, 허가·신고·기재변경의 차이, 실제 처리기간을 늘리는 변수, 비용 구성, 자주 막히는 보완 요청, FAQ까지 한 번에 정리합니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li style="margin:8px 0"><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 건축물 용도변경 분류부터 먼저 봐야 합니다</a></li>
     <li style="margin:8px 0"><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 처리기간을 결정하는 실제 변수</a></li>
@@ -25,7 +25,7 @@ slug: "building-use-change-cost-timeline"
   </ul>
 </nav>
 
-<h2 id="section-1">건축물 용도변경 분류부터 먼저 봐야 합니다</h2>
+<h2 id="section-1">건축물 용도변경 분류부터 먼저 봐야 합니다
 
 용도변경은 단순히 ‘업종 바꾸기’가 아닙니다. 「건축법」 제19조와 시행령 제14조에 따라 9개 시설군으로 묶이고, 그 사이 이동 방향에 따라 절차가 달라집니다. 먼저 본인 건물의 ‘현재 용도’와 ‘바꾸려는 용도’가 어느 시설군에 속하는지 확인하는 것이 시작입니다.
 
@@ -51,7 +51,7 @@ slug: "building-use-change-cost-timeline"
 
 여기서 차이가 납니다. 같은 ‘카페 → 일반음식점’도 1종 근린생활시설 내부 이동이면 기재변경, 2종으로 옮기면 신고, 5군 영업시설로 가면 허가가 됩니다. 본인 호실의 정확한 라벨을 먼저 떼봐야 절차가 잡힙니다.
 
-<h2 id="section-2">처리기간을 결정하는 실제 변수</h2>
+<h2 id="section-2">처리기간을 결정하는 실제 변수
 
 법정 처리기간은 보통 **허가 5~15일, 신고 3~7일**로 안내됩니다. 그러나 실제 현장에서는 이 숫자대로 끝나는 경우가 드뭅니다.
 
@@ -73,7 +73,7 @@ slug: "building-use-change-cost-timeline"
 
 > **실무 팁:** 임차계약을 먼저 맺고 용도변경을 ‘되겠지’ 하고 시작하면 가장 많이 꼬입니다. 계약 전 단계에서 시설군 이동 여부와 소방·정화조·주차 세 가지를 먼저 확인해야 임대료 손실이 줄어듭니다.
 
-<h2 id="section-3">비용 구성: 어디에 돈이 들어가는가</h2>
+<h2 id="section-3">비용 구성: 어디에 돈이 들어가는가
 
 비용은 ‘관납료’보다 ‘설계·점검·보완공사’ 비중이 훨씬 큽니다. 단순히 신고 수수료만 보면 실제 총비용을 잘못 잡게 됩니다.
 
@@ -104,7 +104,7 @@ slug: "building-use-change-cost-timeline"
 
 ---
 
-<h2 id="section-4">절차 흐름: 어디서 막히는지 보입니다</h2>
+<h2 id="section-4">절차 흐름: 어디서 막히는지 보입니다
 
 ### 표준 절차
 
@@ -134,7 +134,7 @@ slug: "building-use-change-cost-timeline"
 </figure>
 
 
-<h2 id="section-5">자주 막히는 용도별 체크리스트</h2>
+<h2 id="section-5">자주 막히는 용도별 체크리스트
 
 ### 일반음식점·휴게음식점
 
@@ -162,7 +162,7 @@ slug: "building-use-change-cost-timeline"
 > - 정화조·주차·소방 세 가지 사전 점검
 > - 임대차계약서에 ‘용도변경 불가 시 해지’ 조항 반영
 
-<h2 id="section-6">법령·공식 출처</h2>
+<h2 id="section-6">법령·공식 출처
 
 - 건축법 및 시행령: [국가법령정보센터 law.go.kr](https://www.law.go.kr)
 - 건축물대장·세움터 민원: [세움터 eais.go.kr](https://www.eais.go.kr)
@@ -170,7 +170,7 @@ slug: "building-use-change-cost-timeline"
 
 법령은 개정 주기가 짧습니다. 본인 사안 적용 시점의 조문은 반드시 관할 기관 확인이 필요합니다.
 
-<h2 id="section-7">FAQ</h2>
+<h2 id="section-7">FAQ
 
 **Q1. 같은 호실에서 카페를 일반음식점으로 바꾸는 것도 용도변경인가요?**
 같은 1종 근린 내부 이동이면 기재변경, 2종으로 가면 신고가 됩니다. 메뉴가 아니라 ‘건축물대장상 용도’가 기준입니다.
@@ -190,7 +190,7 @@ slug: "building-use-change-cost-timeline"
 **Q6. 신고만 하면 바로 영업이 가능한가요?**
 신고 수리 후 ‘건축물대장 기재 변경’까지 끝나야 영업신고·인허가가 받아집니다. 영업개시일은 그 이후로 잡아야 안전합니다.
 
-<h2 id="section-8">무료 상담 안내</h2>
+<h2 id="section-8">무료 상담 안내
 
 본인 호실의 시설군 이동 방향, 정화조·주차·소방 사전점검, 위반건축물 시정 여부까지 한 번에 검토해 드립니다. 도면을 다시 그리기 전 단계에서 점검해야 비용과 기간 모두 줄어듭니다.
 
@@ -202,7 +202,7 @@ slug: "building-use-change-cost-timeline"
 
 ---
 
-<h2 id="section-9">전문가 상담이 필요하신가요?</h2>
+<h2 id="section-9">전문가 상담이 필요하신가요?
 
 복잡한 절차, 혼자 고민하지 마세요. 전문 행정사가 친절하게 안내해 드립니다.
 

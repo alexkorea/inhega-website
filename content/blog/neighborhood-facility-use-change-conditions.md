@@ -13,7 +13,7 @@ slug: "neighborhood-facility-use-change-conditions"
 핵심은 이것입니다. **용도변경은 "현재 시점의 건축법·주차장법·하수도법"을 기준으로 다시 심사**하기 때문에, 건물이 지어진 당시에는 적법했더라도 지금 기준으로 부족하면 그 부족분을 채워야 합니다. 특히 카페·학원·헬스장·병원처럼 사람이 몰리는 업종으로 바꿀 때 주차 대수가 2~3대씩 더 나오는 경우가 가장 흔합니다. 보통은 이 단계에서 걸립니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 근린생활시설이란 무엇인가 (1종·2종 구분)</a></li>
     <li><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 용도변경 허가·신고·기재변경 3가지 유형</a></li>
@@ -26,7 +26,7 @@ slug: "neighborhood-facility-use-change-conditions"
   </ul>
 </nav>
 
-<h2 id="section-1">1. 근린생활시설이란 무엇인가 (1종·2종 구분)</h2>
+<h2 id="section-1">1. 근린생활시설이란 무엇인가 (1종·2종 구분)
 
 근린생활시설은 건축법 시행령 별표1에서 "주택 근처에서 생활에 직접 필요한 시설"로 묶어 놓은 용도군입니다. 이름 그대로 동네에서 걸어가서 쓰는 시설이라는 뜻이고, 실무에서는 1종과 2종으로 나뉩니다.
 
@@ -72,7 +72,7 @@ slug: "neighborhood-facility-use-change-conditions"
 
 반면 **1종 → 2종, 2종 → 1종**으로 시설군이 바뀌면 용도변경 신고 대상입니다. 특히 1종 슈퍼를 2종 일반음식점으로 바꾸는 사례가 가장 흔한 분쟁 지점입니다.
 
-<h2 id="section-2">2. 용도변경 허가·신고·기재변경 3가지 유형</h2>
+<h2 id="section-2">2. 용도변경 허가·신고·기재변경 3가지 유형
 
 건축법 제19조는 용도변경을 9개 시설군으로 나누고, **상위 시설군 → 상위**로 올라가면 허가, **하위 → 상위**로 올라가면 신고, **같은 시설군 내 이동**은 건축물대장 기재내용 변경 신청으로 구분합니다.
 
@@ -128,7 +128,7 @@ slug: "neighborhood-facility-use-change-conditions"
   <strong style="color:#92400e">⚠️ 주의:</strong> 1종 → 2종 근린생활시설로 바꿀 때 "기재변경이니 간단하다"고 생각하기 쉬운데, 기재변경도 <strong>주차·정화조·피난규정 재검토 대상</strong>입니다. 절차 명칭이 단순하다고 심사 강도가 낮은 것이 아닙니다.
 </div>
 
-<h2 id="section-3">3. 근린생활시설 용도변경 핵심 조건 5가지</h2>
+<h2 id="section-3">3. 근린생활시설 용도변경 핵심 조건 5가지
 
 ### 3-1. 주차 대수 — 가장 많이 걸리는 지점
 
@@ -156,7 +156,7 @@ slug: "neighborhood-facility-use-change-conditions"
   <strong style="color:#1e40af">💡 실무 팁:</strong> 계약 전에 건축물대장·토지이용계획확인원·정화조 용량을 먼저 확인하고, 관할 구청 건축과·주차관리과·환경과에 "이 용도로 바꿀 수 있는지" 사전질의를 받아두세요. 임대차 계약 체결 후에 막히면 보증금·권리금이 그대로 묶입니다.
 </div>
 
-<h2 id="section-4">4. 업종별 자주 막히는 지점</h2>
+<h2 id="section-4">4. 업종별 자주 막히는 지점
 
 ### 4-1. 카페(휴게음식점) → 일반음식점
 
@@ -219,7 +219,7 @@ slug: "neighborhood-facility-use-change-conditions"
 </figure>
 
 
-<h2 id="section-5">5. 용도변경 절차와 처리기간</h2>
+<h2 id="section-5">5. 용도변경 절차와 처리기간
 
 ### 5-1. 전체 흐름
 
@@ -270,7 +270,7 @@ slug: "neighborhood-facility-use-change-conditions"
 
 법정 기간은 **보완 요청 기간을 제외**한 순수 심사일입니다. 실무에서는 서류 보완 1~2회, 소방·환경 협의에서 추가 요청이 붙기 때문에 법정일의 3~4배로 잡는 편이 현실적입니다.
 
-<h2 id="section-6">6. 필요서류와 비용 구조</h2>
+<h2 id="section-6">6. 필요서류와 비용 구조
 
 ### 6-1. 필요서류
 
@@ -310,7 +310,7 @@ slug: "neighborhood-facility-use-change-conditions"
   <strong style="color:#92400e">⚠️ 주의:</strong> 인테리어 업체가 "용도변경 포함"이라고 견적을 줘도, 하수도 원인자부담금·부설주차장 설치비용은 <strong>별도 부과</strong>인 경우가 대부분입니다. 견적서에 "인허가 관련 행정 부담금 제외"라는 문구가 있는지 먼저 봐야 합니다.
 </div>
 
-<h2 id="section-7">7. 자주 하는 실수와 사전 체크포인트</h2>
+<h2 id="section-7">7. 자주 하는 실수와 사전 체크포인트
 
 ### 7-1. 계약부터 하고 인허가를 알아보는 경우
 
@@ -350,7 +350,7 @@ slug: "neighborhood-facility-use-change-conditions"
   </ul>
 </div>
 
-<h2 id="section-8">8. FAQ</h2>
+<h2 id="section-8">8. FAQ
 
 **Q1. 1종 근린생활시설에서 2종 근린생활시설로 바꿀 때 용도변경 허가가 필요한가요?**
 

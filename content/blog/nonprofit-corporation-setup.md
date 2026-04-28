@@ -231,7 +231,7 @@ slug: "nonprofit-corporation-setup"
 &nbsp;
 
 <div style="background:linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%); color:white; padding:24px 28px; border-radius:12px; margin:24px 0; text-align:center;">
-  <h3 style="margin:0 0 8px 0; color:white;">비영리사단법인 설립, 전문가와 함께 시작하세요</h3>
+  <h3 style="margin:0 0 8px 0; color:white;">비영리사단법인 설립, 전문가와 함께 시작하세요
   <p style="margin:0 0 16px 0; opacity:0.9;">정관 작성부터 주무관청 허가, 법인 등기까지 비전행정사사무소가 전 과정을 대행합니다.</p>
   <a href="/contact" style="display:inline-block; background:white; color:#1E40AF; padding:10px 28px; border-radius:8px; text-decoration:none; font-weight:bold;">무료 상담 신청하기 →</a>
 </div>

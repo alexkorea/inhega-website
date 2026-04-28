@@ -13,7 +13,7 @@ slug: "freight-forwarder-license-korea"
 포털에 흔히 쓰이는 **화물운송주선업**이라는 말은 법률 용어가 아닙니다. 「물류정책기본법」의 **국제물류주선업**과 「화물자동차 운수사업법」의 **화물자동차 운송주선사업**이 시장에서 뒤섞여 쓰이기 때문입니다. 국제 건(수출입·통관·복합운송)을 다루면 국제물류주선업, 국내 화물자동차 중개·대리만 다루면 화물자동차 운송주선사업으로 갈립니다. 두 제도는 등록 기관, 자본금, 보증 기준이 전부 다릅니다.
 
 <nav style="background:#f0f7ff;padding:20px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">목차</h3>
+  <h3 style="color:#1e40af;margin-top:0">목차
   <ul style="list-style:none;padding-left:0">
     <li><a href="#section-1" style="color:#2563eb;text-decoration:none">1. 국제물류주선업 등록이란</a></li>
     <li><a href="#section-2" style="color:#2563eb;text-decoration:none">2. 등록 요건과 자본금 기준</a></li>
@@ -364,7 +364,7 @@ A. 외국인이 대표자여도 등록 자체는 가능하지만, **체류자격
 비전 행정사사무소는 국제물류주선업 등록, 화물자동차 운송주선사업 허가, 법인 설립과 자본금 설계, 보증보험 가입 지원까지 포워더 창업 단계를 순서대로 지원합니다. 먼저 본인의 영업 계획이 국제 건인지 국내 건인지부터 정리하고 상담을 받으면 일정이 빠르게 잡힙니다.
 
 <div style="background:#f0f7ff;padding:24px;border-radius:8px;margin:24px 0">
-  <h3 style="color:#1e40af;margin-top:0">무료 상담 신청하기</h3>
+  <h3 style="color:#1e40af;margin-top:0">무료 상담 신청하기
   <p><strong>비전 행정사사무소</strong></p>
   <ul style="list-style:none;padding-left:0">
     <li>📞 전화: <strong>02-363-2251</strong></li>
