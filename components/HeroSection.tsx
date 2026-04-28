@@ -5,16 +5,14 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-end pb-24 md:items-center md:pb-0 overflow-hidden">
       {/* Background image */}
-      <div className="absolute inset-0 -z-10">
-        <img
-          src="/slides/consultation.jpg"
-          alt=""
-          className="w-full h-full object-cover"
-        />
+      <div
+        className="absolute inset-0"
+        style={{ backgroundImage: "url(/slides/consultation.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}
+      >
         <div className="hero-overlay absolute inset-0" />
       </div>
 
-      <div className="container-x relative z-10">
+      <div className="container-x relative z-20">
         <div className="max-w-3xl">
           <div className="text-xs uppercase tracking-[0.3em] text-wv-orange font-bold">
             인허가 전문 행정사사무소
