@@ -7,9 +7,8 @@ import { Menu, X, Phone } from 'lucide-react'
 const navLinks = [
   { label: '홈', href: '/' },
   { label: '회사소개', href: '/about' },
-  { label: '인허가 정보', href: '/blog' },
+  { label: '블로그', href: '/blog' },
   { label: '견적문의', href: '/quote' },
-  { label: '상담문의', href: '/contact' },
 ]
 
 export function Header() {
@@ -51,11 +50,11 @@ export function Header() {
             </Link>
           ))}
           <a
-            href="tel:02-363-2251"
+            href="tel:010-2081-3408"
             className="inline-flex items-center gap-1.5 text-base font-medium text-slate-700 hover:text-blue-600 transition-colors"
           >
             <Phone className="w-4 h-4" />
-            02-363-2251
+            010-2081-3408
           </a>
           <Link
             href="/contact"
