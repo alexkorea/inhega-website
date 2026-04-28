@@ -165,16 +165,6 @@ export function ContactForm() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-700 mb-1">국적</label>
-          <select name="nationality" className="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm text-slate-900 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
-            <option value="">선택해주세요</option>
-            {priorityCountries.map((c) => (<option key={c.value} value={c.value}>{c.label}</option>))}
-            <option disabled>──────────</option>
-            {otherCountries.map((c) => (<option key={c.value} value={c.value}>{c.label}</option>))}
-          </select>
-        </div>
-
-        <div>
           <label className="block text-sm font-medium text-slate-700 mb-3">희망 업무 <span className="text-red-500">*</span> <span className="text-slate-400 font-normal text-xs">(복수 선택 가능)</span></label>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {services.map((svc) => (
