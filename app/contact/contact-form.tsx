@@ -1,200 +1,219 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
+
+const services = [
+  { value: "국제물류주선업", label: "국제물류주선업", icon: "🚢" },
+  { value: "환전업", label: "환전업", icon: "💱" },
+  { value: "식품제조가공업", label: "식품제조가공업", icon: "🍽️" },
+  { value: "통신판매업", label: "통신판매업", icon: "🛒" },
+  { value: "화물운송사업", label: "화물운송사업", icon: "🚛" },
+  { value: "화장품책임판매업", label: "화장품책임판매업", icon: "💄" },
+  { value: "건설업", label: "건설업", icon: "🏗️" },
+  { value: "대부업", label: "대부업", icon: "🏦" },
+  { value: "의료기기판매업", label: "의료기기판매업", icon: "🏥" },
+  { value: "벤처기업 인증", label: "벤처기업 인증", icon: "🚀" },
+  { value: "여성기업 인증", label: "여성기업 인증", icon: "👩‍💼" },
+  { value: "공장등록", label: "공장등록", icon: "🏭" },
+  { value: "외국인도시민박업", label: "외국인도시민박업", icon: "🏠" },
+  { value: "건축물 용도변경", label: "건축물 용도변경", icon: "🏢" },
+  { value: "담배수입판매업", label: "담배수입판매업", icon: "🚬" },
+  { value: "기타", label: "기타", icon: "💬" },
+]
+
+const priorityCountries = [
+  { value: "미국", label: "🇺🇸 미국" },
+  { value: "중국", label: "🇨🇳 중국" },
+  { value: "일본", label: "🇯🇵 일본" },
+  { value: "베트남", label: "🇻🇳 베트남" },
+  { value: "캐나다", label: "🇨🇦 캐나다" },
+  { value: "영국", label: "🇬🇧 영국" },
+]
+
+const otherCountries = [
+  { value: "뉴질랜드", label: "🇳🇿 뉴질랜드" },
+  { value: "대만", label: "🇹🇼 대만" },
+  { value: "독일", label: "🇩🇪 독일" },
+  { value: "러시아", label: "🇷🇺 러시아" },
+  { value: "말레이시아", label: "🇲🇾 말레이시아" },
+  { value: "몽골", label: "🇲🇳 몽골" },
+  { value: "싱가포르", label: "🇸🇬 싱가포르" },
+  { value: "인도네시아", label: "🇮🇩 인도네시아" },
+  { value: "우즈베키스탄", label: "🇺🇿 우즈베키스탄" },
+  { value: "태국", label: "🇹🇭 태국" },
+  { value: "필리핀", label: "🇵🇭 필리핀" },
+  { value: "호주", label: "🇦🇺 호주" },
+  { value: "기타", label: "기타" },
+]
 
 export function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    type: "",
-    message: "",
-  })
+  const [selectedServices, setSelectedServices] = useState<string[]>([])
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle")
+  const [inquiryId, setInquiryId] = useState("")
 
-  function handleChange(
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
-  ) {
-    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }))
+  function toggleService(value: string) {
+    setSelectedServices((prev) =>
+      prev.includes(value) ? prev.filter((s) => s !== value) : [...prev, value]
+    )
   }
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
+    if (selectedServices.length === 0) return
     setStatus("sending")
+    const form = e.currentTarget
+    const snsType = (form.elements.namedItem("snsType") as HTMLSelectElement).value
+    const snsId = (form.elements.namedItem("snsId") as HTMLInputElement).value
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      contact: (form.elements.namedItem("contact") as HTMLInputElement).value,
+      snsType: snsType || undefined,
+      snsId: snsId || undefined,
+      nationality: (form.elements.namedItem("nationality") as HTMLSelectElement).value,
+      services: selectedServices,
+    }
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/api/contact-step1", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(data),
       })
       if (res.ok) {
+        const result = await res.json()
+        setInquiryId(result.inquiryId || "")
         setStatus("sent")
-      } else {
-        setStatus("error")
-      }
-    } catch {
-      setStatus("error")
-    }
+      } else setStatus("error")
+    } catch { setStatus("error") }
   }
 
   if (status === "sent") {
     return (
-      <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm text-center">
-        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
-          <svg className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+      <div className="rounded-xl border border-slate-200 bg-white p-10 shadow-sm text-center">
+        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-bold text-slate-900">상담 신청이 접수되었습니다!</h3>
-        <p className="mt-2 text-slate-600">빠른 시일 내에 연락드리겠습니다.</p>
+        <h2 className="text-2xl font-bold text-slate-900 mb-3">상담신청이 접수되었습니다.</h2>
+        <p className="text-slate-600 mb-4">
+          {selectedServices.join(', ')} 신청을 해주셨습니다.
+          <br />좀 더 자세한 정보를 입력해 주시면 정확한 상담이 가능합니다.
+        </p>
+
+        <Link
+          href={`/contact/step2?service=${encodeURIComponent(selectedServices.join(','))}&inquiryId=${inquiryId}`}
+          className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 h-12 rounded-lg font-semibold transition-colors text-lg mb-2"
+        >
+          상세정보 입력하기 →
+        </Link>
+        <p className="text-sm text-slate-400 mb-6">약 1분 소요</p>
+
+        <div className="bg-blue-50 border border-blue-100 rounded-xl p-6 mb-6 text-left">
+          <h3 className="font-bold text-blue-900 text-lg mb-3">비전행정사사무소</h3>
+          <ul className="space-y-2 text-sm text-blue-800">
+            <li className="flex items-start gap-2"><span className="text-blue-500 mt-0.5">✓</span> 8년+ 인허가 전문 실무 경험</li>
+            <li className="flex items-start gap-2"><span className="text-blue-500 mt-0.5">✓</span> 업종별 맞춤 인허가 컨설팅</li>
+            <li className="flex items-start gap-2"><span className="text-blue-500 mt-0.5">✓</span> 서류 준비부터 접수·수령까지 원스톱 대행</li>
+            <li className="flex items-start gap-2"><span className="text-blue-500 mt-0.5">✓</span> 전국 어디서나 온라인 상담 가능</li>
+          </ul>
+        </div>
+
+        <div className="bg-slate-50 rounded-lg p-5 space-y-2">
+          <div className="flex items-center justify-center gap-2"><span className="text-sm text-slate-500">전화:</span><span className="font-medium text-slate-900">02-363-2251</span></div>
+          <div className="flex items-center justify-center gap-2"><span className="text-sm text-slate-500">카카오톡:</span><span className="font-medium text-slate-900">alexkorea</span></div>
+          <div className="flex items-center justify-center gap-2"><span className="text-sm text-slate-500">이메일:</span><span className="font-medium text-slate-900">5000meter@gmail.com</span></div>
+        </div>
       </div>
     )
   }
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm"
-    >
-      <h2 className="text-2xl font-bold text-slate-900">상담 문의</h2>
-      <p className="mt-2 text-sm text-slate-600">
-        아래 양식을 작성해 주시면 빠르게 연락드리겠습니다.
-      </p>
+    <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
+      <h2 className="text-xl font-bold text-slate-900 mb-2">⚡ 30초 빠른 신청</h2>
 
-      <div className="mt-8 space-y-6">
-        {/* 이름 */}
+      <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label
-            htmlFor="name"
-            className="block text-sm font-medium text-slate-700"
-          >
-            이름
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            value={formData.name}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-lg border border-slate-300 px-4 py-3 text-sm text-slate-900 placeholder-slate-400 transition-colors focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
-            placeholder="홍길동"
-          />
+          <label className="block text-sm font-medium text-slate-700 mb-1">이름 <span className="text-red-500">*</span></label>
+          <input name="name" type="text" required className="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="홍길동" />
         </div>
 
-        {/* 이메일 */}
         <div>
-          <label
-            htmlFor="email"
-            className="block text-sm font-medium text-slate-700"
-          >
-            이메일
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            value={formData.email}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-lg border border-slate-300 px-4 py-3 text-sm text-slate-900 placeholder-slate-400 transition-colors focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
-            placeholder="example@email.com"
-          />
+          <label className="block text-sm font-medium text-slate-700 mb-1">이메일 <span className="text-red-500">*</span></label>
+          <input name="email" type="email" required className="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="example@email.com" />
+          <p className="text-xs text-slate-400 mt-1">맞춤 상담 양식 링크를 발송해드립니다</p>
         </div>
 
-        {/* 전화번호 */}
         <div>
-          <label
-            htmlFor="phone"
-            className="block text-sm font-medium text-slate-700"
-          >
-            전화번호
-          </label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            required
-            value={formData.phone}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-lg border border-slate-300 px-4 py-3 text-sm text-slate-900 placeholder-slate-400 transition-colors focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
-            placeholder="010-1234-5678"
-          />
+          <label className="block text-sm font-medium text-slate-700 mb-1">연락처 (전화번호)</label>
+          <input name="contact" type="text" className="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="010-1234-5678" />
         </div>
 
-        {/* 문의 유형 */}
         <div>
-          <label
-            htmlFor="type"
-            className="block text-sm font-medium text-slate-700"
-          >
-            문의 유형
-          </label>
-          <select
-            id="type"
-            name="type"
-            required
-            value={formData.type}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-lg border border-slate-300 px-4 py-3 text-sm text-slate-900 transition-colors focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
-          >
-            <option value="" disabled>
-              문의 유형을 선택해 주세요
-            </option>
-            <option value="국제물류주선업 + 화물운송주선업자 등록">국제물류주선업 + 화물운송주선업자 등록</option>
-            <option value="환전업 등록">환전업 등록</option>
-            <option value="외국인도시민박업">외국인도시민박업</option>
-            <option value="호스텔업">호스텔업</option>
-            <option value="한옥체험업">한옥체험업</option>
-            <option value="건축물 용도변경">건축물 용도변경</option>
-            <option value="식품제조가공업">식품제조가공업</option>
-            <option value="여성기업인증">여성기업인증</option>
-            <option value="비영리사단법인">비영리사단법인</option>
-            <option value="담배수입판매업 등록">담배수입판매업 등록</option>
-            <option value="기업 인증(벤처/이노비즈)">기업 인증(벤처/이노비즈)</option>
-            <option value="식품 인허가 & HACCP">식품 인허가 &amp; HACCP</option>
-            <option value="의약외품/화장품 허가">의약외품/화장품 허가</option>
-            <option value="조달청 나라장터 등록">조달청 나라장터 등록</option>
-            <option value="기업부설연구소 설립">기업부설연구소 설립</option>
-            <option value="전자담배 수입허가">전자담배 수입허가</option>
-            <option value="기타">기타</option>
+          <label className="block text-sm font-medium text-slate-700 mb-1">SNS ID</label>
+          <div className="flex gap-2">
+            <select name="snsType" className="rounded-lg border border-slate-300 px-3 py-2.5 text-sm text-slate-900 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
+              <option value="">선택</option>
+              <option value="kakaotalk">카카오톡</option>
+              <option value="wechat">WeChat</option>
+              <option value="line">LINE</option>
+              <option value="whatsapp">WhatsApp</option>
+            </select>
+            <input name="snsId" type="text" className="flex-1 rounded-lg border border-slate-300 px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="SNS ID 입력" />
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-slate-700 mb-1">국적</label>
+          <select name="nationality" className="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm text-slate-900 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500">
+            <option value="">선택해주세요</option>
+            {priorityCountries.map((c) => (<option key={c.value} value={c.value}>{c.label}</option>))}
+            <option disabled>──────────</option>
+            {otherCountries.map((c) => (<option key={c.value} value={c.value}>{c.label}</option>))}
           </select>
         </div>
 
-        {/* 메시지 */}
         <div>
-          <label
-            htmlFor="message"
-            className="block text-sm font-medium text-slate-700"
-          >
-            메시지
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            required
-            rows={5}
-            value={formData.message}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-lg border border-slate-300 px-4 py-3 text-sm text-slate-900 placeholder-slate-400 transition-colors focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
-            placeholder="문의하실 내용을 자유롭게 작성해 주세요."
-          />
+          <label className="block text-sm font-medium text-slate-700 mb-3">희망 업무 <span className="text-red-500">*</span> <span className="text-slate-400 font-normal text-xs">(복수 선택 가능)</span></label>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {services.map((svc) => (
+              <button
+                key={svc.value}
+                type="button"
+                onClick={() => toggleService(svc.value)}
+                className={`relative flex items-center gap-3 p-3.5 rounded-xl border-2 text-left transition-all ${
+                  selectedServices.includes(svc.value)
+                    ? "border-blue-600 bg-blue-50 shadow-sm"
+                    : "border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                }`}
+              >
+                <span className="text-xl">{svc.icon}</span>
+                <div className="font-semibold text-slate-900 text-sm">{svc.label}</div>
+                {selectedServices.includes(svc.value) && (
+                  <div className="absolute top-2 right-2 w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center">
+                    <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                )}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* 제출 버튼 */}
         <button
           type="submit"
-          disabled={status === "sending"}
-          className="w-full rounded-lg bg-blue-600 px-6 py-4 text-sm font-semibold text-white transition-colors hover:bg-blue-700 disabled:bg-blue-400"
+          disabled={status === "sending" || selectedServices.length === 0}
+          className="w-full rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-700 disabled:bg-slate-300 disabled:cursor-not-allowed"
         >
-          {status === "sending" ? "전송 중..." : "상담 문의하기"}
+          {status === "sending" ? "처리 중..." : "신청하기"}
         </button>
+
         {status === "error" && (
-          <p className="text-red-500 text-sm text-center">전송에 실패했습니다. 직접 전화 또는 이메일로 문의해주세요.</p>
+          <p className="text-red-500 text-sm text-center">전송에 실패했습니다. 잠시 후 다시 시도해주세요.</p>
         )}
-      </div>
-    </form>
+      </form>
+    </div>
   )
 }
