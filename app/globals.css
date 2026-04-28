@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --wv-orange: #f36c24;
+  --wv-orange-deep: #d14904;
+  --wv-orange-soft: #ffe6d5;
+  --wv-ink: #231f20;
+  --wv-cream: #faf7f2;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+}
+
+/* Orange theme button */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--wv-orange);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.5rem;
+  font-size: 0.875rem;
+  box-shadow: 0 4px 14px rgba(243, 108, 36, 0.35);
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+.btn-primary:hover {
+  background-color: var(--wv-orange-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(243, 108, 36, 0.4);
+}
+
+/* Blog table styles */
+.prose table { width:100%; border-collapse:collapse; border:1px solid #e2e8f0; border-radius:8px; overflow:hidden; margin:1.5rem 0; font-size:14px; }
+.prose thead { background:#fff7ed; }
+.prose th { padding:10px 14px; text-align:left; font-weight:600; color:#7c2d12; border-bottom:2px solid #fed7aa; font-size:13px; }
+.prose td { padding:10px 14px; border-top:1px solid #e2e8f0; vertical-align:top; line-height:1.6; }
+.prose tbody tr:hover { background:#fffbf5; }
+.prose table { display:block; overflow-x:auto; }
+.prose thead,.prose tbody,.prose tr { display:table; width:100%; table-layout:fixed; }
+
+/* Blog TOC styling */
+.prose nav {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+.prose nav h4 {
+  color: #7c2d12;
+  margin-bottom: 12px;
+}
+.prose nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+.prose nav ul li {
+  margin-bottom: 6px;
+}
+.prose nav ul li a {
+  color: #ea580c;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.prose nav ul li a:hover {
+  color: #c2410c;
+  text-decoration: underline;
+}
