@@ -1,14 +1,16 @@
 import type { Metadata } from "next"
 import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
-import { Messenger } from "@/components/messenger"
-import { Team } from "@/components/team"
-import { Intro } from "@/components/intro"
-import { Services } from "@/components/services"
-import { WhyUs } from "@/components/why-us"
-import { Stats } from "@/components/stats"
 import { Footer } from "@/components/footer"
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/structured-data"
+import HeroSection from "@/components/HeroSection"
+import WhyUsSection from "@/components/WhyUsSection"
+import ServicesSection from "@/components/ServicesSection"
+import ProcessSection from "@/components/ProcessSection"
+import StatsSection from "@/components/StatsSection"
+import TeamSection from "@/components/TeamSection"
+import MessengerSection from "@/components/MessengerSection"
+import FAQSection from "@/components/FAQSection"
+import CTASection from "@/components/CTASection"
 
 export const metadata: Metadata = {
   title: "비전행정사사무소 - 인허가 전문 행정사사무소",
@@ -40,13 +42,15 @@ export default function HomePage() {
       <OrganizationJsonLd />
       <WebSiteJsonLd />
       <Header />
-      <Hero />
-      <Messenger />
-      <Team />
-      <Intro />
-      <Services />
-      <WhyUs />
-      <Stats />
+      <HeroSection />
+      <WhyUsSection />
+      <ServicesSection />
+      <ProcessSection />
+      <StatsSection />
+      <TeamSection />
+      <MessengerSection />
+      <FAQSection />
+      <CTASection />
       <Footer />
     </main>
   )
