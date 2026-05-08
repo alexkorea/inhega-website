@@ -3,22 +3,26 @@
 import { useState } from "react"
 import Link from "next/link"
 
+// 메인페이지 services와 동일한 18개 (보스 지시 11752, 동기화)
 const services = [
   { value: "국제물류주선업", label: "국제물류주선업", icon: "🚢" },
-  { value: "환전업", label: "환전업", icon: "💱" },
-  { value: "식품제조가공업", label: "식품제조가공업", icon: "🍽️" },
-  { value: "통신판매업", label: "통신판매업", icon: "🛒" },
-  { value: "화물운송사업", label: "화물운송사업", icon: "🚛" },
-  { value: "화장품책임판매업", label: "화장품책임판매업", icon: "💄" },
-  { value: "건설업", label: "건설업", icon: "🏗️" },
-  { value: "대부업", label: "대부업", icon: "🏦" },
-  { value: "의료기기판매업", label: "의료기기판매업", icon: "🏥" },
-  { value: "벤처기업 인증", label: "벤처기업 인증", icon: "🚀" },
-  { value: "여성기업 인증", label: "여성기업 인증", icon: "👩‍💼" },
-  { value: "공장등록", label: "공장등록", icon: "🏭" },
+  { value: "환전업 등록", label: "환전업 등록", icon: "💱" },
   { value: "외국인도시민박업", label: "외국인도시민박업", icon: "🏠" },
+  { value: "호스텔업", label: "호스텔업", icon: "🏨" },
+  { value: "한옥체험업", label: "한옥체험업", icon: "🏯" },
   { value: "건축물 용도변경", label: "건축물 용도변경", icon: "🏢" },
-  { value: "담배수입판매업", label: "담배수입판매업", icon: "🚬" },
+  { value: "식품제조가공업", label: "식품제조가공업", icon: "🍽️" },
+  { value: "여성기업인증", label: "여성기업인증", icon: "👩‍💼" },
+  { value: "비영리사단법인", label: "비영리사단법인", icon: "🤝" },
+  { value: "담배수입판매업 등록", label: "담배수입판매업 등록", icon: "🚬" },
+  { value: "기업 인증(벤처/이노비즈)", label: "기업 인증(벤처/이노비즈)", icon: "🚀" },
+  { value: "식품 인허가 & HACCP", label: "식품 인허가 & HACCP", icon: "✅" },
+  { value: "의약외품/화장품 허가", label: "의약외품/화장품 허가", icon: "💄" },
+  { value: "조달청 나라장터 등록", label: "조달청 나라장터 등록", icon: "🏛️" },
+  { value: "기업부설연구소 설립", label: "기업부설연구소 설립", icon: "🔬" },
+  { value: "전자담배 수입허가", label: "전자담배 수입허가", icon: "💨" },
+  { value: "제조업등록", label: "제조업등록", icon: "⚙️" },
+  { value: "공장등록", label: "공장등록", icon: "🏭" },
   { value: "기타", label: "기타", icon: "💬" },
 ]
 
@@ -63,15 +67,19 @@ export function ContactForm() {
     if (selectedServices.length === 0) return
     setStatus("sending")
     const form = e.currentTarget
-    const snsType = (form.elements.namedItem("snsType") as HTMLSelectElement).value
-    const snsId = (form.elements.namedItem("snsId") as HTMLInputElement).value
+    const getVal = (name: string) => {
+      const el = form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement | null
+      return el?.value ?? ""
+    }
+    const snsType = getVal("snsType")
+    const snsId = getVal("snsId")
     const data = {
-      name: (form.elements.namedItem("name") as HTMLInputElement).value,
-      email: (form.elements.namedItem("email") as HTMLInputElement).value,
-      contact: (form.elements.namedItem("contact") as HTMLInputElement).value,
+      name: getVal("name"),
+      email: getVal("email"),
+      contact: getVal("contact"),
       snsType: snsType || undefined,
       snsId: snsId || undefined,
-      nationality: (form.elements.namedItem("nationality") as HTMLSelectElement).value,
+      nationality: getVal("nationality") || undefined,
       services: selectedServices,
     }
     try {
