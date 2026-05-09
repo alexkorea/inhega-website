@@ -131,7 +131,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               </article>
 
               {/* Sidebar */}
-              <aside className="lg:w-80 shrink-0">
+              <aside className="hidden lg:block lg:w-80 shrink-0">
                 <div className="sticky top-24 space-y-8">
                   {/* QR Codes */}
                   <div className="bg-white rounded-2xl p-5 border border-slate-200">
