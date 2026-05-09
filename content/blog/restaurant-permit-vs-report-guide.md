@@ -673,5 +673,5 @@ slug: "restaurant-permit-vs-report-guide"
 <h3 style="color:white;margin-top:0">📞 비전 행정사사무소 무료 상담
 <p style="font-size:18px;margin:15px 0">음식점 영업신고·허가, 어렵지 않습니다.<br>전문가와 함께 시작하세요.</p>
 <p style="font-size:16px;margin:20px 0"><strong>전화:</strong> 02-363-2251 | <strong>이메일:</strong> 5000meter@gmail.com</p>
-<p style="font-size:14px;margin:10px 0">평일 09:00~18:00 | 토요일 09:00~13:00 (일요일·공휴일 휴무)</p>
+<p style="font-size:14px;margin:10px 0">평일 09:30 – 17:30 | 토요일 09:00~13:00 (일요일·공휴일 휴무)</p>
 </div>
