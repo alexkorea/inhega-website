@@ -1,23 +1,14 @@
 import { NextResponse } from "next/server"
-import * as nodemailer from "nodemailer"
 
 const SITE_NAME = "인허가"
 const SITE_NAME_KR = "인허가"
+const RESEND_API_KEY = process.env.RESEND_API_KEY || ""
 
 async function sendEmail(fields: Record<string, string>, senderName: string, senderEmail: string) {
-  const appPassword = process.env.GMAIL_APP_PASSWORD
-  if (!appPassword) {
-    console.warn("GMAIL_APP_PASSWORD not set — skipping email notification")
+  if (!RESEND_API_KEY) {
+    console.warn("RESEND_API_KEY not set — skipping email notification")
     return
   }
-
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: "5000meter@gmail.com",
-      pass: appPassword,
-    },
-  })
 
   const rows = Object.entries(fields)
     .map(([label, value]) => `<tr><td style="padding:8px 12px;font-weight:bold;border:1px solid #ddd;background:#f9f9f9;">${label}</td><td style="padding:8px 12px;border:1px solid #ddd;">${value || "-"}</td></tr>`)
@@ -33,12 +24,16 @@ async function sendEmail(fields: Record<string, string>, senderName: string, sen
     </div>
   `
 
-  await transporter.sendMail({
-    from: { name: senderName + " via " + SITE_NAME, address: "5000meter@gmail.com" },
-    to: "5000meter@gmail.com",
-    replyTo: senderEmail,
-    subject: `[${SITE_NAME_KR}] 새 상담 신청 - ${fields["이름"] || "고객"}`,
-    html,
+  await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      from: `${SITE_NAME_KR} <noreply@ko-visas.com>`,
+      to: ["5000meter@gmail.com"],
+      reply_to: senderEmail,
+      subject: `[${SITE_NAME_KR}] 새 상담 신청 - ${senderName || "고객"}`,
+      html,
+    }),
   })
 }
 
@@ -74,19 +69,21 @@ async function saveToNotion(data: Record<string, string>) {
 export async function POST(request: Request) {
   try {
     const body = await request.json()
-    const { name, email, phone, type, message } = body
+    const { name, email, phone, service, type, message } = body
+    const serviceType = service || type || "-"
 
     const text = `[인허가] 새 상담 문의
 
 이름: ${name || "-"}
 이메일: ${email || "-"}
 전화번호: ${phone || "-"}
-문의유형: ${type || "-"}
+문의유형: ${serviceType}
 메시지: ${message || "-"}`
 
     // Telegram notification
+    const tgToken = process.env.TELEGRAM_INQUIRY_BOT_TOKEN || "8748564690:AAEGsXxcfqrHmGue8lkqUaa2E0Q8CDCY-Eo"
     const telegramPromise = fetch(
-      `https://api.telegram.org/bot8748564690:AAEGsXxcfqrHmGue8lkqUaa2E0Q8CDCY-Eo/sendMessage`,
+      `https://api.telegram.org/bot${tgToken}/sendMessage`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -102,7 +99,7 @@ export async function POST(request: Request) {
       "이름": name,
       "이메일": email,
       "전화번호": phone,
-      "문의유형": type,
+      "문의유형": serviceType,
       "메시지": message,
     }, name, email).catch((err) => console.error("Email send error:", err))
 
@@ -115,7 +112,7 @@ export async function POST(request: Request) {
       brand: 'inhega', formType: 'contact',
       siteUrl: 'https://www.inhega.co.kr/contact',
       name, email, phone,
-      serviceRaw: type, message,
+      serviceRaw: serviceType, message,
       rawPayload: body,
     }).catch((err) => console.error("CRM error:", err))
 
