@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
-import * as nodemailer from "nodemailer"
 import { getServiceClient } from "@/lib/supabase/server"
+
+const RESEND_API_KEY = process.env.RESEND_API_KEY || ""
 import { commonQuestions, getCategoryBySlug } from "@/content/quote-questions"
 
 const SITE_NAME_KR = "인허가 (견적문의)"
@@ -217,16 +218,10 @@ async function sendEmail({
   categoryAnswers: Record<string, string>
   contact: NonNullable<Payload["contact"]>
 }): Promise<boolean> {
-  const appPassword = process.env.GMAIL_APP_PASSWORD
-  if (!appPassword) {
-    console.warn("[quote] GMAIL_APP_PASSWORD not set — skipping email")
+  if (!RESEND_API_KEY) {
+    console.warn("[quote] RESEND_API_KEY not set — skipping email")
     return false
   }
-
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: { user: FROM_ADDRESS, pass: appPassword },
-  })
 
   // Build question→answer rows
   const commonRows = commonQuestions
@@ -274,14 +269,18 @@ async function sendEmail({
     </div>
   `
 
-  await transporter.sendMail({
-    from: { name: `${contact.name || "고객"} via 인허가`, address: FROM_ADDRESS },
-    to: RECIPIENTS.join(", "),
-    replyTo: contact.email,
-    subject: `[인허가 견적문의] ${category.name} - ${contact.name || "고객"}`,
-    html,
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      from: `인허가 <noreply@ko-visas.com>`,
+      to: RECIPIENTS,
+      reply_to: contact.email,
+      subject: `[인허가 견적문의] ${category.name} - ${contact.name || "고객"}`,
+      html,
+    }),
   })
-  return true
+  return res.ok
 }
 
 function row(label: string, value: string) {
