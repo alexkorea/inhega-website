@@ -26,15 +26,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${post.title} - 비전행정사사무소`,
     description: post.excerpt,
     alternates: {
-      canonical: `https://inhega.co.kr/blog/${slug}`,
+      canonical: `https://www.inhega.co.kr/blog/${slug}`,
     },
     openGraph: {
       title: `${post.title} - 비전행정사사무소`,
       description: post.excerpt,
-      url: `https://inhega.co.kr/blog/${slug}`,
+      url: `https://www.inhega.co.kr/blog/${slug}`,
       siteName: "비전행정사사무소",
       type: "article",
-      images: [{ url: `https://inhega.co.kr${post.image}` }],
+      images: [{ url: `https://www.inhega.co.kr${post.image}` }],
     },
     twitter: {
       card: "summary_large_image" as const,
@@ -57,8 +57,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <ArticleJsonLd
         title={post.title}
         description={post.excerpt}
-        url={`https://inhega.co.kr/blog/${slug}`}
-        image={`https://inhega.co.kr${post.image}`}
+        url={`https://www.inhega.co.kr/blog/${slug}`}
+        image={`https://www.inhega.co.kr${post.image}`}
         datePublished={post.date}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         "author": { "@type": "Organization", "name": "비전행정사사무소" },
         "publisher": { "@type": "Organization", "name": "비전행정사사무소" },
         "description": post.excerpt,
-        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://inhega.co.kr/blog/${slug}` }
+        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.inhega.co.kr/blog/${slug}` }
       }) }} />
       <Header />
       <main>

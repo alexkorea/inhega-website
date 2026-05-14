@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   description:
     "업종과 상황에 맞는 맞춤 견적을 받아보세요. 카테고리 선택 후 간단한 질문만으로 정확한 견적을 받으실 수 있습니다.",
   alternates: {
-    canonical: "https://inhega.co.kr/quote",
+    canonical: "https://www.inhega.co.kr/quote",
   },
   openGraph: {
     title: "견적문의 - 비전행정사사무소",
     description:
       "업종과 상황에 맞는 맞춤 견적을 받아보세요. 카테고리 선택 후 간단한 질문만으로 정확한 견적을 받으실 수 있습니다.",
-    url: "https://inhega.co.kr/quote",
+    url: "https://www.inhega.co.kr/quote",
     siteName: "비전행정사사무소",
     type: "website",
-    images: [{ url: "https://inhega.co.kr/og-image.png" }],
+    images: [{ url: "https://www.inhega.co.kr/og-image.png" }],
   },
   twitter: {
     card: "summary_large_image",

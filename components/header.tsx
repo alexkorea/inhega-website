@@ -1,8 +1,8 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import { Menu, X, Phone } from 'lucide-react'
+import { Menu, X, Phone, ChevronDown } from 'lucide-react'
 
 const navLinks = [
   { label: '홈', href: '/' },
@@ -11,15 +11,35 @@ const navLinks = [
   { label: '견적문의', href: '/quote' },
 ]
 
+const serviceItems = [
+  '국제물류주선업', '환전업 등록', '외국인도시민박업', '호스텔업',
+  '한옥체험업', '건축물 용도변경', '식품제조가공업', '여성기업인증',
+  '비영리사단법인', '담배수입판매업 등록', '기업 인증(벤처/이노비즈)',
+  '식품 인허가 & HACCP', '의약외품/화장품 허가', '조달청 나라장터 등록',
+  '기업부설연구소 설립', '전자담배 수입허가', '지정스포츠클럽',
+]
+
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const handleServicesEnter = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current)
+    setServicesOpen(true)
+  }
+  const handleServicesLeave = () => {
+    timeoutRef.current = setTimeout(() => setServicesOpen(false), 150)
+  }
 
   return (
     <header
@@ -40,15 +60,38 @@ export function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
+          <Link href="/" className="text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors">홈</Link>
+          <Link href="/about" className="text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors">회사소개</Link>
+
+          {/* Services dropdown */}
+          <div
+            ref={dropdownRef}
+            className="relative"
+            onMouseEnter={handleServicesEnter}
+            onMouseLeave={handleServicesLeave}
+          >
+            <button className="flex items-center gap-1 text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors">
+              서비스
+              <ChevronDown className={`w-4 h-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {servicesOpen && (
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[640px] bg-white rounded-2xl shadow-xl border border-slate-100 p-6 grid grid-cols-3 gap-2">
+                {serviceItems.map((s) => (
+                  <Link
+                    key={s}
+                    href="/#services"
+                    className="text-sm text-slate-700 hover:text-[#f36c24] hover:bg-orange-50 px-3 py-2 rounded-lg transition-colors"
+                    onClick={() => setServicesOpen(false)}
+                  >
+                    {s}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <Link href="/blog" className="text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors">블로그</Link>
+          <Link href="/quote" className="text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors">견적문의</Link>
           <a
             href="tel:010-2081-3408"
             className="inline-flex items-center gap-1.5 text-base font-medium text-slate-700 hover:text-[#f36c24] transition-colors"
@@ -88,6 +131,28 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
+            {/* Mobile services accordion */}
+            <button
+              className="flex items-center gap-1 text-base font-medium text-slate-700 text-left"
+              onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+            >
+              서비스
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {mobileServicesOpen && (
+              <div className="pl-4 flex flex-col gap-2">
+                {serviceItems.map((s) => (
+                  <Link
+                    key={s}
+                    href="/#services"
+                    className="text-sm text-slate-600 hover:text-[#f36c24] transition-colors"
+                    onClick={() => { setMobileOpen(false); setMobileServicesOpen(false) }}
+                  >
+                    {s}
+                  </Link>
+                ))}
+              </div>
+            )}
             <Link
               href="/contact"
               className="mt-2 inline-flex items-center justify-center rounded-lg bg-[#f36c24] px-5 py-2.5 text-base font-semibold text-white hover:bg-[#d14904] transition-colors"

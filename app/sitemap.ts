@@ -4,7 +4,7 @@ import { getPostSlugs } from "@/lib/blog"
 export const revalidate = 3600
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://inhega.co.kr"
+  const baseUrl = "https://www.inhega.co.kr"
 
   const staticPages: MetadataRoute.Sitemap = [
     {

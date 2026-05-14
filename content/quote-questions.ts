@@ -723,6 +723,38 @@ export const categories: Category[] = [
     ],
   },
   {
+    slug: "sports-club",
+    name: "지정스포츠클럽",
+    questions: [
+      {
+        id: "sport_type",
+        label: "운영 예정 스포츠 종목은 무엇인가요?",
+        options: ["축구", "야구", "농구", "수영", "테니스", "복합 종목", "기타"],
+      },
+      {
+        id: "facility",
+        label: "시설 현황은 어떻게 되시나요?",
+        options: ["시설 보유 중", "임차 예정", "건축 예정", "미정"],
+      },
+      {
+        id: "org_form",
+        label: "조직 형태는 어떻게 되시나요?",
+        options: ["법인", "개인사업자", "비영리단체", "설립 예정", "미정"],
+      },
+      {
+        id: "need",
+        label: "현재 가장 필요한 도움은 무엇인가요?",
+        options: [
+          "지정 요건 확인",
+          "서류 준비",
+          "신청 대행",
+          "전체 컨설팅",
+          "상담 후 결정",
+        ],
+      },
+    ],
+  },
+  {
     slug: "other",
     name: "기타 (위에 해당 없음)",
     questions: [],

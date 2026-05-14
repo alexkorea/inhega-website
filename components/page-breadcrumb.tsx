@@ -12,7 +12,7 @@ export function PageBreadcrumb({ items }: { items: BreadcrumbEntry[] }) {
       "@type": "ListItem",
       position: index + 1,
       name: item.label,
-      item: item.path === "/" ? "https://inhega.co.kr" : `https://inhega.co.kr${item.path}`,
+      item: item.path === "/" ? "https://www.inhega.co.kr" : `https://www.inhega.co.kr${item.path}`,
     })),
   }
 

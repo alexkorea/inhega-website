@@ -19,6 +19,7 @@ const services = [
   { value: "외국인도시민박업", label: "외국인도시민박업", icon: "🏠" },
   { value: "건축물 용도변경", label: "건축물 용도변경", icon: "🏢" },
   { value: "담배수입판매업", label: "담배수입판매업", icon: "🚬" },
+  { value: "지정스포츠클럽", label: "지정스포츠클럽", icon: "⚽" },
   { value: "기타", label: "기타", icon: "💬" },
 ]
 

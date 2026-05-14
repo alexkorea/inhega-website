@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "이용약관 - 비전행정사사무소",
   description: "비전행정사사무소의 이용약관입니다.",
   alternates: {
-    canonical: "https://inhega.co.kr/terms",
+    canonical: "https://www.inhega.co.kr/terms",
   },
 }
 

@@ -4,7 +4,7 @@ export function OrganizationJsonLd() {
     "@type": "ProfessionalService",
     name: "비전행정사사무소",
     alternateName: "VISION Administrative Office",
-    url: "https://inhega.co.kr",
+    url: "https://www.inhega.co.kr",
     telephone: "02-363-2251",
     email: "5000meter@gmail.com",
     address: {
@@ -15,7 +15,7 @@ export function OrganizationJsonLd() {
       postalCode: "04620",
       addressCountry: "KR",
     },
-    image: "https://inhega.co.kr/og-image.png",
+    image: "https://www.inhega.co.kr/og-image.png",
     serviceType: [
       "국제물류주선업",
       "환전업 등록",
@@ -55,7 +55,7 @@ export function WebSiteJsonLd() {
     "@type": "WebSite",
     name: "비전행정사사무소",
     alternateName: "VISION Administrative Office",
-    url: "https://inhega.co.kr",
+    url: "https://www.inhega.co.kr",
   }
 
   return (
@@ -85,7 +85,7 @@ export function ServiceJsonLd({
     provider: {
       "@type": "ProfessionalService",
       name: "비전행정사사무소",
-      url: "https://inhega.co.kr",
+      url: "https://www.inhega.co.kr",
     },
     areaServed: {
       "@type": "Country",
@@ -128,15 +128,15 @@ export function ArticleJsonLd({
     author: {
       "@type": "Organization",
       name: "비전행정사사무소",
-      url: "https://inhega.co.kr",
+      url: "https://www.inhega.co.kr",
     },
     publisher: {
       "@type": "Organization",
       name: "비전행정사사무소",
-      url: "https://inhega.co.kr",
+      url: "https://www.inhega.co.kr",
       logo: {
         "@type": "ImageObject",
-        url: "https://inhega.co.kr/og-image.png",
+        url: "https://www.inhega.co.kr/og-image.png",
       },
     },
   }
