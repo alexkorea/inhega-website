@@ -33,6 +33,7 @@ export function OrganizationJsonLd() {
       "조달청 나라장터 등록",
       "기업부설연구소 설립",
       "전자담배 수입허가",
+      "지정스포츠클럽",
     ],
     areaServed: {
       "@type": "Country",
