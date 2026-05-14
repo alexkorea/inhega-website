@@ -23,8 +23,9 @@ export function getPostSlugs(): string[] {
   return files.filter(f => f.endsWith('.md')).map(f => f.replace('.md', ''))
 }
 
-export function getPostBySlug(slug: string): BlogPost {
+export function getPostBySlug(slug: string): BlogPost | null {
   const fullPath = path.join(postsDirectory, `${slug}.md`)
+  if (!fs.existsSync(fullPath)) return null
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
@@ -46,6 +47,7 @@ export function getAllPosts(): BlogPost[] {
   const slugs = getPostSlugs()
   const posts = slugs
     .map(slug => getPostBySlug(slug))
+    .filter((p): p is BlogPost => p !== null)
     .sort((a, b) => (a.date > b.date ? -1 : 1))
   return posts
 }

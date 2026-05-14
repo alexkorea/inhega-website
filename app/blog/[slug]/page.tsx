@@ -9,12 +9,18 @@ import { notFound } from "next/navigation"
 import { Calendar, Tag, ArrowLeft } from "lucide-react"
 import { InlineCTAForm } from "@/components/inline-cta-form"
 
-export const revalidate = 60
-export const dynamicParams = true
+export const revalidate = 3600
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  const { getPostSlugs } = await import("@/lib/blog")
+  return getPostSlugs().map((slug) => ({ slug }))
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const post = await getPostBySlug(slug)
+  let post: Awaited<ReturnType<typeof getPostBySlug>> | null = null
+  try { post = await getPostBySlug(slug) } catch {}
   if (!post) return { title: "Not found" }
   return {
     title: `${post.title} - 비전행정사사무소`,
@@ -40,7 +46,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const post = await getPostBySlug(slug)
+  let post: Awaited<ReturnType<typeof getPostBySlug>> | null = null
+  try { post = await getPostBySlug(slug) } catch {}
   if (!post) notFound()
   const allPosts = await getAllPosts()
   const relatedPosts = allPosts.filter((p) => p.slug !== slug).slice(0, 3)
