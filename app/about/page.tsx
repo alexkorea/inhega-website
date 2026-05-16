@@ -106,9 +106,74 @@ const whyChooseUs = [
   },
 ]
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.inhega.co.kr/#org",
+      name: "비전행정사사무소",
+      alternateName: ["Vision Administrative Office", "飞展行政士事务所"],
+      url: "https://www.inhega.co.kr",
+      telephone: "+82-2-363-2251",
+      email: "5000meter@gmail.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "퇴계로 324, 3층 성우빌딩",
+        addressLocality: "Jung-gu",
+        addressRegion: "Seoul",
+        postalCode: "04614",
+        addressCountry: "KR",
+      },
+      foundingDate: "2018",
+      knowsLanguage: ["ko", "en", "zh", "ja"],
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.inhega.co.kr/#service",
+      name: "비전행정사사무소 인허가 서비스",
+      url: "https://www.inhega.co.kr",
+      telephone: "+82-2-363-2251",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "퇴계로 324, 3층 성우빌딩",
+        addressLocality: "Jung-gu",
+        addressRegion: "Seoul",
+        postalCode: "04614",
+        addressCountry: "KR",
+      },
+      openingHours: "Mo-Fr 09:30-18:30",
+      priceRange: "문의 후 안내",
+      areaServed: { "@type": "Country", name: "South Korea" },
+      availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+      serviceType: ["식품제조가공업 등록", "화장품 제조업 등록", "벤처기업 확인", "기업부설연구소 설립", "공장 등록", "건축물 용도변경", "환전업 등록"],
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "홈", item: "https://www.inhega.co.kr" },
+        { "@type": "ListItem", position: 2, name: "회사소개", item: "https://www.inhega.co.kr/about" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        { "@type": "Question", name: "비전행정사사무소는 어떤 인허가 업무를 처리하나요?", acceptedAnswer: { "@type": "Answer", text: "식품제조가공업 등록, 식품판매업 신고, 화장품 제조업·책임판매업 등록, 기업부설연구소 설립 인정, 벤처기업 확인, 공장 등록, 국제물류주선업 등록, 환전업 등록, 건축물 용도변경 허가 등 다양한 인허가 업무를 대행합니다." } },
+        { "@type": "Question", name: "비전행정사사무소는 법무법인인가요?", acceptedAnswer: { "@type": "Answer", text: "아닙니다. 비전행정사사무소는 행정사사무소입니다. 행정사는 행정사법에 따라 각종 인허가 서류 준비 및 관계 행정기관 제출을 대행합니다. 소송, 재판, 형사 변호 등 변호사 업무는 취급하지 않습니다." } },
+        { "@type": "Question", name: "상담은 무료인가요?", acceptedAnswer: { "@type": "Answer", text: "네, 초기 상담은 무료입니다. 한국어, 영어, 중국어, 일본어로 상담이 가능합니다. 상담 후 업무 가능 여부와 비용을 안내해 드립니다." } },
+        { "@type": "Question", name: "인허가 처리 기간은 얼마나 걸리나요?", acceptedAnswer: { "@type": "Answer", text: "업종과 관할 기관에 따라 다릅니다. 식품제조가공업 등록은 통상 2~4주, 화장품 제조업 등록은 3~6주, 기업부설연구소 설립 인정은 4~8주 내외입니다. 구체적인 일정은 상담 시 안내해 드립니다." } },
+        { "@type": "Question", name: "외국인도 한국에서 인허가 신청이 가능한가요?", acceptedAnswer: { "@type": "Answer", text: "네. 외국인이 대표자인 경우에도 한국 법인 또는 사업자등록을 보유한 경우 인허가 신청이 가능합니다. 외국어 서류의 번역 및 공증도 지원합니다." } },
+        { "@type": "Question", name: "사무소 위치는 어디인가요?", acceptedAnswer: { "@type": "Answer", text: "서울특별시 중구 퇴계로 324, 3층 성우빌딩에 위치하고 있습니다. 회현역 4호선 인근입니다." } },
+        { "@type": "Question", name: "어떤 언어로 상담이 가능한가요?", acceptedAnswer: { "@type": "Answer", text: "한국어, 영어, 중국어(보통화), 일본어로 상담이 가능합니다. KakaoTalk, WeChat, LINE, WhatsApp을 통한 메신저 상담도 제공합니다." } },
+      ],
+    },
+  ],
+}
+
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main>
         <PageBreadcrumb items={[{ label: "회사소개", path: "/about" }]} />
@@ -228,6 +293,33 @@ export default function AboutPage() {
                     {item.description}
                   </p>
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 bg-slate-50">
+          <div className="mx-auto max-w-4xl px-4">
+            <h2 className="text-3xl font-bold text-slate-900 text-center mb-2">자주 묻는 질문</h2>
+            <p className="text-center text-slate-500 mb-12">인허가 업무에 대해 자주 묻는 질문들을 모았습니다</p>
+            <div className="space-y-4">
+              {[
+                { q: "비전행정사사무소는 어떤 인허가 업무를 처리하나요?", a: "식품제조가공업 등록, 화장품 제조업·책임판매업 등록, 기업부설연구소 설립 인정, 벤처기업 확인, 공장 등록, 국제물류주선업 등록, 환전업 등록, 건축물 용도변경 허가 등 다양한 인허가 업무를 대행합니다." },
+                { q: "비전행정사사무소는 법무법인인가요?", a: "아닙니다. 비전행정사사무소는 행정사사무소입니다. 행정사는 행정사법에 따라 각종 인허가 서류 준비 및 관계 행정기관 제출을 대행합니다. 소송, 재판, 형사 변호 등 변호사 업무는 취급하지 않습니다." },
+                { q: "상담은 무료인가요?", a: "네, 초기 상담은 무료입니다. 한국어, 영어, 중국어, 일본어로 상담이 가능합니다. 상담 후 업무 가능 여부와 비용을 안내해 드립니다." },
+                { q: "인허가 처리 기간은 얼마나 걸리나요?", a: "업종과 관할 기관에 따라 다릅니다. 식품제조가공업 등록은 통상 2~4주, 화장품 제조업 등록은 3~6주, 기업부설연구소 설립 인정은 4~8주 내외입니다. 구체적인 일정은 상담 시 안내해 드립니다." },
+                { q: "외국인도 한국에서 인허가 신청이 가능한가요?", a: "네. 외국인이 대표자인 경우에도 한국 법인 또는 사업자등록을 보유한 경우 인허가 신청이 가능합니다. 외국어 서류의 번역 및 공증도 지원합니다." },
+                { q: "사무소 위치는 어디인가요?", a: "서울특별시 중구 퇴계로 324, 3층 성우빌딩에 위치하고 있습니다. 회현역 4호선 인근입니다. 영업시간은 평일 09:30~18:30(한국시간)입니다." },
+                { q: "어떤 언어로 상담이 가능한가요?", a: "한국어, 영어, 중국어(보통화), 일본어로 상담이 가능합니다. KakaoTalk, WeChat, LINE, WhatsApp을 통한 메신저 상담도 제공합니다." },
+              ].map(({ q, a }, i) => (
+                <details key={i} className="rounded-xl border border-slate-200 bg-white p-6 group">
+                  <summary className="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+                    {q}
+                    <span className="text-[#f36c24] ml-4 flex-shrink-0">+</span>
+                  </summary>
+                  <p className="mt-3 text-slate-600 leading-relaxed text-sm">{a}</p>
+                </details>
               ))}
             </div>
           </div>
