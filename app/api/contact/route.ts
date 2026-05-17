@@ -139,7 +139,30 @@ export async function POST(request: NextRequest) {
       rawPayload: body,
     }).catch((e) => console.error("CRM error:", e))
 
-    await Promise.all([telegramPromise, adminEmailPromise, customerEmailPromise, notionPromise, crmPromise])
+    // formconnection-crm intake (보스 msg 13599·13668·13673 자동 업무관제)
+    // → 인허가 견적문의 접수 DB (Workspace A) + AI 분류 + 중복 체크
+    const intakePromise = fetch(
+      "https://formconnection-crm.vercel.app/api/intake",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(process.env.INTAKE_API_KEY ? { "x-api-key": process.env.INTAKE_API_KEY } : {}),
+        },
+        body: JSON.stringify({
+          site: "inhega.co.kr",
+          language: "ko",
+          name,
+          email,
+          phone,
+          service_interest: serviceType,
+          message,
+          raw_payload: body,
+        }),
+      }
+    ).catch((e) => console.error("Intake error:", e))
+
+    await Promise.all([telegramPromise, adminEmailPromise, customerEmailPromise, notionPromise, crmPromise, intakePromise])
 
     return NextResponse.json({ success: true })
   } catch (error) {

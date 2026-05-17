@@ -122,6 +122,30 @@ export async function POST(request: Request) {
     })
   } catch (e) { console.error("[quote] CRM failed:", e) }
 
+  // formconnection-crm intake (보스 msg 13599·13668·13673 — 인허가 견적문의 접수 DB로 라우팅)
+  try {
+    const commonSummary = Object.entries(body.common_answers || {}).map(([k,v]) => `${k}: ${v}`).join('\n')
+    const catSummary = Object.entries(body.category_answers || {}).map(([k,v]) => `${k}: ${v}`).join('\n')
+    await fetch("https://formconnection-crm.vercel.app/api/intake", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        ...(process.env.INTAKE_API_KEY ? { "x-api-key": process.env.INTAKE_API_KEY } : {}),
+      },
+      body: JSON.stringify({
+        site: "inhega.co.kr",  // → 인허가 견적문의 접수 DB로 라우팅
+        language: "ko",
+        name: contact.name,
+        email: contact.email,
+        phone: contact.phone,
+        service_interest: category?.name || slug,
+        message: `[견적문의 - ${category?.name || slug}]\n${contact.company ? '회사: '+contact.company+'\n' : ''}\n[공통]\n${commonSummary}\n\n[${category?.name}]\n${catSummary}`.substring(0, 1800),
+        permit_category: category?.name,
+        raw_payload: body,
+      }),
+    })
+  } catch (e) { console.error("[quote] intake failed:", e) }
+
   if (!dbOk && !emailOk) {
     return NextResponse.json(
       { error: "저장과 메일 전송에 모두 실패했습니다. 잠시 후 다시 시도해주세요.", detail: dbError },
