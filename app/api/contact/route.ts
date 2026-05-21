@@ -4,7 +4,7 @@ const SITE_NAME = "인허가"
 const RESEND_API_KEY = process.env.RESEND_API_KEY || ""
 const ADMIN_EMAIL = "5000meter@gmail.com"
 const FROM_EMAIL = "인허가 <noreply@ko-visas.com>"
-const TELEGRAM_CHAT_ID = "-5295922532"
+const TELEGRAM_CHAT_ID = "5533847195"
 
 // In-memory rate limiter: 3 submissions per IP per 5 minutes
 const rateMap = new Map<string, { count: number; reset: number }>()
