@@ -75,9 +75,9 @@ export default function LBSServicePage() {
 
       <PageBreadcrumb
         items={[
-          { label: "홈", href: "/" },
-          { label: "서비스", href: "/#services" },
-          { label: "위치기반서비스사업신고" },
+          { label: "홈", path: "/" },
+          { label: "서비스", path: "/#services" },
+          { label: "위치기반서비스사업신고", path: "/services/location-based-service-business" },
         ]}
       />
 
