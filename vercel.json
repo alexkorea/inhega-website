@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.inhega.co.kr" }],
+      "destination": "https://inhega.co.kr/:path*",
+      "permanent": true
+    }
+  ]
+}
