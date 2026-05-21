@@ -12,11 +12,24 @@ const navLinks = [
 ]
 
 const serviceItems = [
-  '국제물류주선업', '환전업 등록', '외국인도시민박업', '호스텔업',
-  '한옥체험업', '건축물 용도변경', '식품제조가공업', '여성기업인증',
-  '비영리사단법인', '담배수입판매업 등록', '기업 인증(벤처/이노비즈)',
-  '식품 인허가 & HACCP', '의약외품/화장품 허가', '조달청 나라장터 등록',
-  '기업부설연구소 설립', '전자담배 수입허가', '지정스포츠클럽',
+  { label: '국제물류주선업', href: '/#services' },
+  { label: '환전업 등록', href: '/#services' },
+  { label: '외국인도시민박업', href: '/#services' },
+  { label: '호스텔업', href: '/#services' },
+  { label: '한옥체험업', href: '/#services' },
+  { label: '건축물 용도변경', href: '/#services' },
+  { label: '식품제조가공업', href: '/#services' },
+  { label: '여성기업인증', href: '/#services' },
+  { label: '비영리사단법인', href: '/#services' },
+  { label: '담배수입판매업 등록', href: '/#services' },
+  { label: '기업 인증(벤처/이노비즈)', href: '/#services' },
+  { label: '식품 인허가 & HACCP', href: '/#services' },
+  { label: '의약외품/화장품 허가', href: '/#services' },
+  { label: '조달청 나라장터 등록', href: '/#services' },
+  { label: '기업부설연구소 설립', href: '/#services' },
+  { label: '전자담배 수입허가', href: '/#services' },
+  { label: '지정스포츠클럽', href: '/#services' },
+  { label: '위치기반서비스사업신고', href: '/services/location-based-service-business' },
 ]
 
 export function Header() {
@@ -78,12 +91,16 @@ export function Header() {
               <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[640px] bg-white rounded-2xl shadow-xl border border-slate-100 p-6 grid grid-cols-3 gap-2">
                 {serviceItems.map((s) => (
                   <Link
-                    key={s}
-                    href="/#services"
-                    className="text-sm text-slate-700 hover:text-[#f36c24] hover:bg-orange-50 px-3 py-2 rounded-lg transition-colors"
+                    key={s.label}
+                    href={s.href}
+                    className={`text-sm hover:text-[#f36c24] hover:bg-orange-50 px-3 py-2 rounded-lg transition-colors ${
+                      s.href !== '/#services'
+                        ? 'text-[#f36c24] font-semibold'
+                        : 'text-slate-700'
+                    }`}
                     onClick={() => setServicesOpen(false)}
                   >
-                    {s}
+                    {s.label}
                   </Link>
                 ))}
               </div>
@@ -143,12 +160,16 @@ export function Header() {
               <div className="pl-4 flex flex-col gap-2">
                 {serviceItems.map((s) => (
                   <Link
-                    key={s}
-                    href="/#services"
-                    className="text-sm text-slate-600 hover:text-[#f36c24] transition-colors"
+                    key={s.label}
+                    href={s.href}
+                    className={`text-sm transition-colors ${
+                      s.href !== '/#services'
+                        ? 'text-[#f36c24] font-semibold'
+                        : 'text-slate-600 hover:text-[#f36c24]'
+                    }`}
                     onClick={() => { setMobileOpen(false); setMobileServicesOpen(false) }}
                   >
-                    {s}
+                    {s.label}
                   </Link>
                 ))}
               </div>
