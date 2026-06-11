@@ -3,7 +3,7 @@ title: "숙박업 신고 절차와 소방안전 기준 실무 가이드 (2026)"
 date: "2026-05-23"
 category: "건축·시설"
 excerpt: "일반숙박업과 생활숙박업의 차이, 소방 완비증명 취득, 숙박업 신고 서류와 절차를 실무 기준으로 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/accommodation-business-registration.jpg"
 slug: "accommodation-business-registration"
 ---
 

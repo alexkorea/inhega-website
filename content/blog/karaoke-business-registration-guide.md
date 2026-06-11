@@ -3,7 +3,7 @@ title: "노래연습장업 신고 완벽 가이드 2026 — 코인노래방·일
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "코인노래방, 일반 노래연습장을 운영하려면 「음악산업진흥에 관한 법률」에 따른 노래연습장업 신고가 필수입니다. 2026년 최신 기준으로 노래연습장업 신고 요건, 시설 기준, 청소년 보호 의무, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/karaoke-business-registration-guide.jpg"
 slug: "karaoke-business-registration-guide"
 ---
 

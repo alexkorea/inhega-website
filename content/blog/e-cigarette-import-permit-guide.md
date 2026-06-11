@@ -3,7 +3,7 @@ title: "전자담배 수입허가 완벽 가이드 2026 — 액상형·가열담
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "액상형 전자담배(VAPE), 가열담배(궐련형 전자담배)를 수입하여 판매하려면 「담배사업법」 및 관련 규정에 따른 담배수입판매업 등록과 제품 성분 신고가 필수입니다. 2026년 기준 전자담배 수입허가 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/e-cigarette-import-permit-guide.jpg"
 slug: "e-cigarette-import-permit-guide"
 ---
 

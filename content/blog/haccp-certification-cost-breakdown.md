@@ -3,7 +3,7 @@ title: "HACCP 인증 비용과 유지관리비용 총정리"
 date: "2026-04-22"
 category: "HACCP"
 excerpt: "HACCP 인증 수수료는 일부일 뿐, 컨설팅·시설 개선·사후관리비까지 포함해야 실제 총비용이 나옵니다."
-image: "/slides/consultation.jpg"
+image: "/blog/haccp-certification-cost-breakdown.jpg"
 slug: "haccp-certification-cost-breakdown"
 ---
 # HACCP 인증 비용과 유지관리비용 총정리

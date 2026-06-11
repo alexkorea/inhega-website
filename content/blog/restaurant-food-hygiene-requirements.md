@@ -3,7 +3,7 @@ title: "일반음식점 영업신고 요건과 위생기준 실무 가이드 (20
 date: "2026-05-23"
 category: "식품·위생"
 excerpt: "일반음식점 영업신고에서 위생교육, 시설 기준, 식품위생법 준수사항까지 실무자가 꼭 알아야 할 내용을 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/restaurant-food-hygiene-requirements.jpg"
 slug: "restaurant-food-hygiene-requirements"
 ---
 

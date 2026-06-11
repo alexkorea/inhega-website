@@ -3,7 +3,7 @@ title: "건축물 용도변경 허가 절차와 필요서류 실제 핵심"
 date: "2026-04-27"
 category: "건축물 용도변경"
 excerpt: "건축물 용도변경 허가 절차는 서류 준비와 실무 심사에서 많이 막히며, 핵심 자료와 현장 조건 설명이 바로 필요하다."
-image: "/slides/consultation.jpg"
+image: "/blog/building-use-change-process-docs.jpg"
 slug: "building-use-change-process-docs"
 ---
 # 건축물 용도변경 허가 절차와 필요서류 실제 핵심

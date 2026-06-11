@@ -3,6 +3,7 @@ title: "개인과외교습자 신고 방법과 요건 완벽 정리 2026"
 date: "2026-06-02"
 category: "교육"
 excerpt: "학원법에 따른 개인과외교습자 신고 절차, 신고 대상, 금지 행위, 위반 시 제재를 정확히 안내합니다."
+image: "/blog/private-tutoring-registration-2026-06-02.jpg"
 ---
 
 ## 개인과외교습자 신고 개요

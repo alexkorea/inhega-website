@@ -3,7 +3,7 @@ title: "화장품 제조업·책임판매업 등록 완벽 가이드 2026 — OE
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "화장품을 직접 제조하거나 브랜드 판매하려면 「화장품법」에 따른 제조업 등록 또는 책임판매업 등록이 필수입니다. 2026년 최신 기준으로 화장품업 등록 종류, 품질책임자 요건, 시설 기준, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/cosmetics-manufacturing-sales-registration-guide.jpg"
 slug: "cosmetics-manufacturing-sales-registration-guide"
 ---
 

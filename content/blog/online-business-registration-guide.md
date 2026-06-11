@@ -3,7 +3,7 @@ title: "통신판매업 신고 완벽 가이드 2026 — 온라인쇼핑몰·스
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "스마트스토어·쿠팡·자사몰 등 온라인 판매를 시작하기 전 반드시 해야 하는 통신판매업 신고 방법, 필요 서류, 비용, 면제 조건까지 2026년 최신 기준으로 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/online-business-registration-guide.jpg"
 slug: "online-business-registration-guide"
 ---
 

@@ -3,7 +3,7 @@ title: "건축물 용도변경 허가·신고 실무 2026 — 근린생활시설
 date: "2026-05-22"
 category: "건축·시설"
 excerpt: "건축물 용도변경은 건축법 시행령 별표1 용도 분류에 따라 허가·신고·변경 유형이 달라집니다. 실무에서 가장 많이 막히는 부분은 용도그룹 간 이동 판단입니다."
-image: "/images/service-license.png"
+image: "/blog/yongdo-byeongyeong-2026.jpg"
 slug: "yongdo-byeongyeong-2026"
 ---
 

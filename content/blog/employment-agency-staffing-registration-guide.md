@@ -3,7 +3,7 @@ title: "직업소개소·근로자파견업 허가 완벽 가이드 2026 — 헤
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "직업소개소, 인력파견업, 헤드헌팅 사업을 운영하려면 「직업안정법」 또는 「파견근로자보호법」에 따른 허가·신고가 필수입니다. 2026년 최신 기준으로 직업소개업·파견업 허가 요건, 절차, 외국인 고용 서비스 규정을 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/employment-agency-staffing-registration-guide.jpg"
 slug: "employment-agency-staffing-registration-guide"
 ---
 

@@ -3,7 +3,7 @@ title: "경호업·신변보호업 허가 완벽 가이드 2026 — 신변보호
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "신변보호(경호) 서비스를 제공하는 경호업을 운영하려면 「경비업법」에 따른 허가가 필수입니다. 2026년 최신 기준으로 경호업 허가 요건, 경비지도사 자격, 교육 기준, 허가 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/private-security-guard-license-guide.jpg"
 slug: "private-security-guard-license-guide"
 ---
 

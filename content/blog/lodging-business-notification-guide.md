@@ -3,7 +3,7 @@ title: "숙박업 신고 절차와 소방 시설 기준"
 date: "2026-05-26"
 category: "건축·시설"
 excerpt: "숙박업을 시작하기 전 반드시 확인해야 할 신고 절차, 소방 시설 기준, 건축법 요건을 정리했습니다. 게스트하우스·펜션·호텔 모두 해당합니다."
-image: "/images/service-license.png"
+image: "/blog/lodging-business-notification-guide.jpg"
 slug: "lodging-business-notification-guide"
 ---
 

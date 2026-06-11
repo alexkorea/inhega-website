@@ -3,7 +3,7 @@ title: "음식점 영업허가 완벽 가이드 2026 — 일반음식점·휴게
 date: "2026-05-17"
 category: "식품·위생"
 excerpt: "일반음식점 또는 휴게음식점을 개업하려면 식품위생법에 따른 영업허가(신고)를 받아야 합니다. 2026년 최신 기준으로 영업 유형별 허가 요건, 구비서류, 신청 절차, 위생 교육까지 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/food-service-permit-guide.jpg"
 slug: "food-service-permit-guide"
 ---
 

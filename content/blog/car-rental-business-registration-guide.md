@@ -3,7 +3,7 @@ title: "자동차대여업(렌터카) 등록 완벽 가이드 2026 — 렌터카
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "렌터카 사업, 단기 차량 대여 서비스를 운영하려면 「여객자동차 운수사업법」에 따른 자동차대여사업 등록이 필수입니다. 2026년 최신 기준으로 렌터카업 등록 요건, 차량 기준, 보험 요건, 등록 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/car-rental-business-registration-guide.jpg"
 slug: "car-rental-business-registration-guide"
 ---
 

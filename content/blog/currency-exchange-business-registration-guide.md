@@ -3,7 +3,7 @@ title: "환전업 등록 완벽 가이드 2026 — 환전영업자 등록 요건
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "외국환 환전 서비스를 제공하는 환전업을 운영하려면 「외국환거래법」에 따른 기획재정부 등록이 필수입니다. 2026년 최신 기준으로 환전업 등록 요건, 자본금 기준, 외화 보유 기준, 등록 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/currency-exchange-business-registration-guide.jpg"
 slug: "currency-exchange-business-registration-guide"
 ---
 

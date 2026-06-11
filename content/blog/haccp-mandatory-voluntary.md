@@ -3,7 +3,7 @@ title: "HACCP 의무적용 업종과 자율적용 차이 — 실무에서 갈리
 date: "2026-04-23"
 category: "HACCP"
 excerpt: "의무와 자율의 법적 강제력 차이, 업종별 적용 시점, 실제 심사에서 갈리는 지점을 한 번에 정리."
-image: "/slides/consultation.jpg"
+image: "/blog/haccp-mandatory-voluntary.jpg"
 slug: "haccp-mandatory-voluntary"
 ---
 # HACCP 의무적용 업종과 자율적용 차이 — 실무에서 갈리는 지점

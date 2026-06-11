@@ -3,7 +3,7 @@ title: "학원설립운영등록 완벽 가이드 — 신고부터 개원까지 
 date: "2026-05-24"
 category: "신고·등록"
 excerpt: "학원을 설립하려면 교육청 등록부터 소방·건축 허가까지 여러 단계를 거쳐야 합니다. 실무에서 많이 막히는 부분과 주의사항을 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/2026-05-24-hakwon-establishment.jpg"
 slug: "hakwon-establishment-guide-2026"
 ---
 

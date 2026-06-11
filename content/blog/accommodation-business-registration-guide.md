@@ -3,7 +3,7 @@ title: "숙박업 신고 절차와 시설기준 — 일반숙박업 vs 생활숙
 date: "2026-05-19"
 category: "건축·시설"
 excerpt: "관광숙박업·일반숙박업·생활숙박업의 구분 기준, 시설기준, 신고절차, 소방시설 적합확인까지 실무 중심으로 정리한 숙박업 신고 완전 가이드입니다."
-image: "/images/service-license.png"
+image: "/blog/accommodation-business-registration-guide.jpg"
 slug: "accommodation-business-registration-guide"
 ---
 

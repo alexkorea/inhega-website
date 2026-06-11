@@ -3,7 +3,7 @@ title: "식품제조가공업 등록 요건과 시설기준 실무 가이드"
 date: "2026-04-18"
 category: "식품제조가공업"
 excerpt: "식품제조가공업 등록에서 실제로 막히는 건 서류가 아니라 시설과 용도지역입니다. 현장 심사에서 걸리는 지점부터 먼저 풀어드립니다."
-image: "/slides/consultation.jpg"
+image: "/blog/food-manufacturing-registration-requirements.jpg"
 slug: "food-manufacturing-registration-requirements"
 ---
 # 식품제조가공업 등록 요건과 시설기준 실무 가이드

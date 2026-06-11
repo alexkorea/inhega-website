@@ -3,7 +3,7 @@ title: "HACCP 인증 취득 절차 완벽 가이드: 현장 심사 통과까지 
 date: "2026-05-05"
 category: "HACCP"
 excerpt: "HACCP 인증 취득 절차를 단계별로 정리하고, 현장 심사에서 자주 걸리는 지점과 선행요건 구축 핵심을 실무 관점에서 안내합니다."
-image: "/slides/consultation.jpg"
+image: "/blog/haccp-certification-complete-guide.jpg"
 slug: "haccp-certification-complete-guide"
 ---
 # HACCP 인증 취득 절차 완벽 가이드: 현장 심사 통과까지 단계별 실무 흐름

@@ -3,7 +3,7 @@ title: "PC방(인터넷컴퓨터게임시설) 신고 완벽 가이드 2026 — P
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "PC방을 운영하려면 「게임산업진흥에 관한 법률」에 따른 인터넷컴퓨터게임시설제공업 신고가 필수입니다. 2026년 최신 기준으로 PC방 신고 요건, 청소년 보호 기준, 신고 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/internet-cafe-pc-room-registration-guide.jpg"
 slug: "internet-cafe-pc-room-registration-guide"
 ---
 

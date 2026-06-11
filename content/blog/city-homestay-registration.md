@@ -3,7 +3,7 @@ title: "외국인도시민박업 등록 요건과 절차"
 date: "2026-04-03"
 category: "관광업 인허가"
 excerpt: "외국인 관광객을 위한 도시민박업 등록 시 필요한 요건과 신청 절차를 정리했습니다."
-image: "/slides/cityscape.jpg"
+image: "/blog/city-homestay-registration.jpg"
 slug: "city-homestay-registration"
 ---
 

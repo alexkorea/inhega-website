@@ -3,7 +3,7 @@ title: "일반음식점 영업신고 절차 완전 가이드 — 위생교육과
 date: "2026-05-19"
 category: "식품·위생"
 excerpt: "일반음식점 영업신고와 영업허가의 차이, 위생교육 이수 방법, 시설기준, 필요서류, 관할 구청 신고 절차까지 실무 중심으로 정리한 완전 가이드입니다."
-image: "/images/service-license.png"
+image: "/blog/general-restaurant-business-registration.jpg"
 slug: "general-restaurant-business-registration"
 ---
 

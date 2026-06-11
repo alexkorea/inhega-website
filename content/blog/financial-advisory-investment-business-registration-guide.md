@@ -3,7 +3,7 @@ title: "투자자문업·투자일임업 등록 완벽 가이드 2026 — 금융
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "투자 자문, 투자 일임, 금융 상품 판매 등 금융투자 관련 사업을 운영하려면 「자본시장과 금융투자업에 관한 법률」에 따른 금융위원회 등록·인가가 필수입니다. 2026년 기준으로 금융투자업 종류, 등록 요건, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/financial-advisory-investment-business-registration-guide.jpg"
 slug: "financial-advisory-investment-business-registration-guide"
 ---
 

@@ -3,7 +3,7 @@ title: "국제물류주선업 등록 요건과 자본금 기준 완벽 정리"
 date: "2026-04-14"
 category: "건축물 용도변경"
 excerpt: "국제물류주선업 등록의 실제 자본금 기준과 보증보험, 사무실 요건까지 실무에서 막히는 지점을 짚어드립니다."
-image: "/slides/consultation.jpg"
+image: "/blog/international-logistics-forwarder-capital-requirements.jpg"
 slug: "international-logistics-forwarder-capital-requirements"
 ---
 # 국제물류주선업 등록 요건과 자본금 기준 완벽 정리

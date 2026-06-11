@@ -3,7 +3,7 @@ title: "식품제조가공업 신고 절차와 필요서류 완벽 가이드"
 date: "2026-04-19"
 category: "식품제조가공업"
 excerpt: "식품제조가공업 신고는 서류 수보다 시설 적합성과 용도 확인에서 대부분 막힙니다. 실무에서 놓치는 지점을 짚어드립니다."
-image: "/slides/consultation.jpg"
+image: "/blog/food-manufacturing-filing-procedure.jpg"
 slug: "food-manufacturing-filing-procedure"
 ---
 # 식품제조가공업 신고 절차와 필요서류 완벽 가이드

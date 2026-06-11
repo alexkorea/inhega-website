@@ -3,7 +3,7 @@ title: "위생용품 제조업 신고 절차와 시설 기준 완벽 가이드"
 date: "2026-04-12"
 category: "위생"
 excerpt: "위생용품 제조업 신고 절차와 시설 기준을 실제 법령과 사례 중심으로 상세하게 안내합니다."
-image: "/slides/consultation.jpg"
+image: "/blog/hygiene-products-manufacturing-report.jpg"
 slug: "hygiene-products-manufacturing-report"
 ---
 # 위생용품 제조업 신고 절차와 시설 기준 완벽 가이드

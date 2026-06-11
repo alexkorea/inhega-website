@@ -3,7 +3,7 @@ title: "학원설립운영등록 신청 실무 가이드 2026 — 절차·서류
 date: "2026-05-22"
 category: "신고·등록"
 excerpt: "학원설립운영등록 신청 시 많이 막히는 부분은 시설 요건과 강사 자격 서류입니다. 실무에서 자주 발생하는 반려 사유와 해결책을 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/hakwon-seolrip-2026.jpg"
 slug: "hakwon-seolrip-2026"
 ---
 

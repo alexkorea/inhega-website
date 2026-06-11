@@ -3,7 +3,7 @@ title: "산후조리원 개설 신고 요건 및 절차 완벽 가이드 2026"
 date: "2026-05-18"
 category: "의료·보건업 인허가"
 excerpt: "산후조리원을 개설하려면 시·군·구청에 신고해야 합니다. 2026년 기준 면적 기준, 인력 기준, 시설 기준, 결격 사유, 신고 절차를 실무 중심으로 정리합니다."
-image: "/images/permit-guide-hero.jpg"
+image: "/blog/postpartum-care-center-permit-guide.jpg"
 slug: "postpartum-care-center-permit-guide"
 ---
 

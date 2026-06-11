@@ -3,7 +3,7 @@ title: "조달청 나라장터 등록 완벽 가이드 2026 — 공공조달 업
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "정부·공공기관에 제품이나 서비스를 납품하려면 조달청 나라장터(G2B)에 업체 등록이 필수입니다. 2026년 최신 기준으로 나라장터 업체 등록 요건, 입찰 참가 자격, 등록 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/government-procurement-nara-registration-guide.jpg"
 slug: "government-procurement-nara-registration-guide"
 ---
 

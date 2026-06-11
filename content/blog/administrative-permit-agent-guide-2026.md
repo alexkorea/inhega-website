@@ -3,7 +3,7 @@ title: "인허가 대행 전문 행정사: 식품·제조·물류·건설 인허
 date: "2026-05-08"
 category: "인허가"
 excerpt: "비전행정사사무소가 식품제조가공업, 국제물류주선업, 건축물용도변경, 환전업 등 업종별 인허가 대행 절차와 필요서류, 소요기간을 정리합니다."
-image: "/slides/documents.jpg"
+image: "/blog/administrative-permit-agent-guide-2026.jpg"
 slug: "administrative-permit-agent-guide-2026"
 ---
 

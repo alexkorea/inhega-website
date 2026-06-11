@@ -3,7 +3,7 @@ title: "식품제조가공업 허가·신고 실무 2026 — HACCP 연계 완전
 date: "2026-05-22"
 category: "식품·위생"
 excerpt: "식품제조가공업 신고는 품목 분류에 따라 신고와 허가가 나뉩니다. 실무에서 가장 많이 막히는 부분은 제조시설 기준과 HACCP 적용 여부 판단입니다."
-image: "/images/service-license.png"
+image: "/blog/sikpum-jejo-2026.jpg"
 slug: "sikpum-jejo-2026"
 ---
 

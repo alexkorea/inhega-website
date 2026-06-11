@@ -3,7 +3,7 @@ title: "노래연습장업 신고 절차와 준수사항 완전 가이드 (2026)
 date: "2026-05-23"
 category: "신고·등록"
 excerpt: "노래연습장업 영업신고에 필요한 서류, 시설 기준, 행정사 활용 팁까지 실무 중심으로 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/noraebang-business-registration.jpg"
 slug: "noraebang-business-registration"
 ---
 

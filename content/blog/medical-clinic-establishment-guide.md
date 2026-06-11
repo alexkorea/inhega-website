@@ -3,7 +3,7 @@ title: "의원·병원 개설 허가 절차 완벽 가이드 2026 — 의료법 
 date: "2026-05-18"
 category: "의료·보건업 인허가"
 excerpt: "의원·병원을 개설하려면 의료기관 개설 신고 또는 허가를 받아야 합니다. 2026년 「의료법」 기준 개설 요건, 인력·시설 기준, 신고·허가 절차를 단계별로 정리합니다."
-image: "/images/permit-guide-hero.jpg"
+image: "/blog/medical-clinic-establishment-guide.jpg"
 slug: "medical-clinic-establishment-guide"
 ---
 

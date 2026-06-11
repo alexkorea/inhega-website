@@ -3,7 +3,7 @@ title: "공인중개사 사무소 개설 등록 완벽 가이드 2026 — 부동
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "공인중개사 자격증을 취득한 후 부동산 중개 사무소를 개업하려면 관할 시·군·구청에 개설 등록이 필수입니다. 2026년 최신 기준으로 중개사무소 등록 요건, 필요 서류, 절차, 개업 비용을 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/real-estate-agency-registration-guide.jpg"
 slug: "real-estate-agency-registration-guide"
 ---
 

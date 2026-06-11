@@ -3,7 +3,7 @@ title: "근린생활시설 용도변경 조건과 주의사항 완벽 가이드"
 date: "2026-04-17"
 category: "건축물 용도변경"
 excerpt: "근린생활시설 용도변경에서 실제 막히는 지점은 주차·정화조·피난규정이며, 서류보다 현장 조건이 먼저 걸립니다."
-image: "/slides/consultation.jpg"
+image: "/blog/neighborhood-facility-use-change-conditions.jpg"
 slug: "neighborhood-facility-use-change-conditions"
 ---
 # 근린생활시설 용도변경 조건과 주의사항 완벽 가이드

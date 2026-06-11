@@ -3,7 +3,7 @@ title: "식품제조가공업 허가 절차 완벽 가이드"
 date: "2026-04-04"
 category: "식품 인허가"
 excerpt: "식품제조가공업 허가를 위해 필요한 서류와 절차, 주의사항을 상세하게 안내합니다."
-image: "/slides/documents.jpg"
+image: "/blog/food-manufacturing-permit.jpg"
 slug: "food-manufacturing-permit"
 ---
 

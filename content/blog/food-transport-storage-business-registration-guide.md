@@ -3,7 +3,7 @@ title: "식품 운반업·보관업·판매업 신고 완벽 가이드 2026 — 
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "식품을 운반·보관·판매하는 업체를 운영하려면 「식품위생법」에 따른 신고·등록이 필수입니다. 2026년 최신 기준으로 식품 운반업·보관업·판매업 신고 요건, 시설 기준, 필요 서류, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/food-transport-storage-business-registration-guide.jpg"
 slug: "food-transport-storage-business-registration-guide"
 ---
 

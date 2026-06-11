@@ -3,7 +3,7 @@ title: "제조업 공장등록 절차와 인허가 요건"
 date: "2026-04-10"
 category: "제조업"
 excerpt: "제조업 공장등록 절차와 인허가 요건"
-image: "/slides/consultation.jpg"
+image: "/blog/factory-registration-permit-guide.jpg"
 slug: "factory-registration-permit-guide"
 ---
 

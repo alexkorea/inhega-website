@@ -3,7 +3,7 @@ title: "소규모 식품제조가공업 영업등록 가이드 — 실무에서 
 date: "2026-04-20"
 category: "식품제조가공업"
 excerpt: "소규모 식품제조가공업 영업등록 절차, 시설 기준, 서류, 수수료, 반려 사유까지 실무 기준으로 정리했습니다."
-image: "/slides/consultation.jpg"
+image: "/blog/small-food-manufacturing-license.jpg"
 slug: "small-food-manufacturing-license"
 ---
 # 소규모 식품제조가공업 영업등록 가이드 — 실무에서 막히는 지점부터

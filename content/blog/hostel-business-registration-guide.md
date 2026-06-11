@@ -3,7 +3,7 @@ title: "호스텔업 등록 완벽 가이드 2026 — 호스텔·게스트하우
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "외국인 배낭여행객을 위한 호스텔, 게스트하우스를 운영하려면 「관광진흥법」에 따른 호스텔업 등록이 필수입니다. 2026년 최신 기준으로 호스텔업 등록 요건, 시설 기준, 등록 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/hostel-business-registration-guide.jpg"
 slug: "hostel-business-registration-guide"
 ---
 

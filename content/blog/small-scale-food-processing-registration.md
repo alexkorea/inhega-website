@@ -3,7 +3,7 @@ title: "소규모 식품제조가공업 영업등록 가이드 — 신고 절차
 date: "2026-05-02"
 category: "식품제조가공업"
 excerpt: "소규모 식품제조가공업은 영업등록이 아닌 영업신고 대상이며, 건축물 용도와 작업장 동선이 신고 통과를 좌우합니다."
-image: "/slides/consultation.jpg"
+image: "/blog/small-scale-food-processing-registration.jpg"
 slug: "small-scale-food-processing-registration"
 ---
 # 소규모 식품제조가공업 영업등록 가이드 — 신고 절차와 시설 기준 한 번에

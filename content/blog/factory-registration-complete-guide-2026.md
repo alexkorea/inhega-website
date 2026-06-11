@@ -3,7 +3,7 @@ title: "공장등록 완벽 가이드 2026: 신청 자격·절차·필요서류 
 date: "2026-05-07"
 category: "공장등록"
 excerpt: "공장등록 신청 자격·필요서류·진행 절차·소요 기간을 비전행정사사무소가 산업집적활성화법 매뉴얼 기준으로 정리합니다. 제조업등록과의 관계, 공장설립 승인 사전 단계도 함께 설명."
-image: "/slides/consultation.jpg"
+image: "/blog/factory-registration-complete-guide-2026.jpg"
 slug: "factory-registration-complete-guide-2026"
 ---
 # 공장등록 완벽 가이드 2026: 신청 자격·절차·필요서류 정리

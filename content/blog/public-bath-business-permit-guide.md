@@ -3,7 +3,7 @@ title: "목욕장업 신고 요건과 위생 기준 완벽 가이드"
 date: "2026-05-26"
 category: "식품·위생"
 excerpt: "목욕장업을 시작하기 전 반드시 확인해야 할 신고 요건, 위생 기준, 시설 규정을 공중위생관리법 기준으로 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/public-bath-business-permit-guide.jpg"
 slug: "public-bath-business-permit-guide"
 ---
 

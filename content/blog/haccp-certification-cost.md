@@ -3,7 +3,7 @@ title: "HACCP 인증 비용과 유지관리비용 총정리: 실제로 얼마나
 date: "2026-05-08"
 category: "HACCP"
 excerpt: "HACCP 인증 취득부터 연간 유지관리까지 실제 비용 항목과 숨은 비용을 항목 단위로 정리했습니다."
-image: "/slides/consultation.jpg"
+image: "/blog/haccp-certification-cost.jpg"
 slug: "haccp-certification-cost"
 ---
 # HACCP 인증 비용과 유지관리비용 총정리: 실제로 얼마나 드나

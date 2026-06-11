@@ -3,7 +3,7 @@ title: "노인요양시설·재가요양업 신고 완벽 가이드 2026 — 방
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "노인요양시설, 방문요양, 주야간보호센터 등 노인 장기요양 서비스를 운영하려면 「노인장기요양보험법」에 따른 장기요양기관 지정이 필수입니다. 2026년 최신 기준으로 요양기관 종류, 시설 기준, 요양보호사 자격, 지정 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/senior-care-facility-registration-guide.jpg"
 slug: "senior-care-facility-registration-guide"
 ---
 

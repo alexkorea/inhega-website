@@ -3,7 +3,7 @@ title: "건축물 용도변경 허가 절차와 필요서류 실무 정리"
 date: "2026-04-26"
 category: "건축물 용도변경"
 excerpt: "건축물 용도변경 허가 절차와 필요서류를 시설군 분류부터 신고·허가 구분, 실제 심사에서 자주 막히는 지점까지 실무 기준으로 풀어 정리합니다."
-image: "/slides/consultation.jpg"
+image: "/blog/building-use-change-permit-required-documents.jpg"
 slug: "building-use-change-permit-required-documents"
 ---
 # 건축물 용도변경 허가 절차와 필요서류 실무 정리

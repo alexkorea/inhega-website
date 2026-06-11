@@ -3,7 +3,7 @@ title: "여행업 등록 완벽 가이드 2026 — 일반·국외·국내 여행
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "여행사를 창업하거나 해외여행·국내여행 패키지를 판매하려면 「관광진흥법」에 따른 여행업 등록이 필수입니다. 2026년 최신 기준으로 여행업 종류, 자본금 요건, 보증보험 의무, 등록 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/travel-agency-registration-guide.jpg"
 slug: "travel-agency-registration-guide"
 ---
 

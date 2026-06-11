@@ -3,7 +3,7 @@ title: "식품제조가공업 신고 절차와 필요서류, 실무에서 가장
 date: "2026-05-01"
 category: "식품제조가공업"
 excerpt: "식품제조가공업 신고는 시설 기준과 건축물 용도부터 잡아야 통과되며, 서류만 준비하면 보완 요청에 일정이 자주 밀립니다."
-image: "/slides/consultation.jpg"
+image: "/blog/food-manufacturing-business-report-steps.jpg"
 slug: "food-manufacturing-business-report-steps"
 ---
 # 식품제조가공업 신고 절차와 필요서류, 실무에서 가장 많이 막히는 지점

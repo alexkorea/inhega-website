@@ -3,7 +3,7 @@ title: "헬스장·실내체육시설 신고 완벽 가이드 2026 — 체육시
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "헬스장, 필라테스, 요가, 수영장 등 실내체육시설을 운영하려면 「체육시설의 설치·이용에 관한 법률」에 따른 신고 또는 등록이 필수입니다. 2026년 최신 기준으로 체육시설업 종류, 시설 기준, 신고 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/indoor-sports-gym-registration-guide.jpg"
 slug: "indoor-sports-gym-registration-guide"
 ---
 

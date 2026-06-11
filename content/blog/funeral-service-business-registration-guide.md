@@ -3,7 +3,7 @@ title: "장례식장·장례업 신고 완벽 가이드 2026 — 장례지도사
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "장례식장, 장의업, 화장장 등 장례 관련 사업을 운영하려면 「장사 등에 관한 법률」에 따른 신고·허가가 필수입니다. 2026년 최신 기준으로 장례업 종류, 시설 기준, 장례지도사 자격, 신고 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/funeral-service-business-registration-guide.jpg"
 slug: "funeral-service-business-registration-guide"
 ---
 

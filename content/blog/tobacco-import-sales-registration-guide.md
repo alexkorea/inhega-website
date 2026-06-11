@@ -3,7 +3,7 @@ title: "담배수입판매업 등록 완벽 가이드 2026 — 외국산 담배 
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "외국산 담배를 수입하거나 담배 제품을 소매·도매 판매하는 사업을 운영하려면 「담배사업법」에 따른 등록이 필수입니다. 2026년 최신 기준으로 담배수입판매업 등록 요건, 자본금 기준, 담배 규제 준수 사항, 등록 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/tobacco-import-sales-registration-guide.jpg"
 slug: "tobacco-import-sales-registration-guide"
 ---
 

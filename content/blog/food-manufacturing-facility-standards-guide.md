@@ -3,7 +3,7 @@ title: "식품제조가공업 등록 요건과 시설기준 완벽 정리"
 date: "2026-04-30"
 category: "식품제조가공업"
 excerpt: "식품제조가공업 등록은 서류보다 시설기준 적합 여부에서 갈리며, 작업장 구획·바닥·환기 설계가 부족하면 현장 점검에서 바로 막힙니다."
-image: "/slides/consultation.jpg"
+image: "/blog/food-manufacturing-facility-standards-guide.jpg"
 slug: "food-manufacturing-facility-standards-guide"
 ---
 # 식품제조가공업 등록 요건과 시설기준, 실무에서 막히는 지점부터 짚는다

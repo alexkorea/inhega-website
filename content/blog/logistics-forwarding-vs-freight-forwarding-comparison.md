@@ -3,7 +3,7 @@ title: "국제물류주선업과 화물운송주선업 차이점 총정리 - 등
 date: "2026-04-13"
 category: "숙박업"
 excerpt: "국제물류주선업과 화물운송주선업, 이름은 비슷해도 등록 요건과 취급 범위가 전혀 다릅니다. 실무에서 가장 많이 꼬이는 지점을 정리했습니다."
-image: "/slides/consultation.jpg"
+image: "/blog/logistics-forwarding-vs-freight-forwarding-comparison.jpg"
 slug: "logistics-forwarding-vs-freight-forwarding-comparison"
 ---
 # 국제물류주선업과 화물운송주선업 차이점 총정리 - 등록 전 반드시 확인할 사항

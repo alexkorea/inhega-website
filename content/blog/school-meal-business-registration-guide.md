@@ -3,7 +3,7 @@ title: "집단급식소·위탁급식업 신고 완벽 가이드 2026 — 학교
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "학교, 병원, 기업 등에 급식 서비스를 제공하거나 집단급식소를 운영하려면 「식품위생법」에 따른 신고가 필수입니다. 2026년 최신 기준으로 집단급식소·위탁급식업 신고 요건, 영양사·조리사 배치 기준, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/school-meal-business-registration-guide.jpg"
 slug: "school-meal-business-registration-guide"
 ---
 

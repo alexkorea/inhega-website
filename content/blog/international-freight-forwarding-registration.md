@@ -3,7 +3,7 @@ title: "국제물류주선업 등록 요건과 자본금 기준 완벽 정리"
 date: "2026-04-12"
 category: "식품위생"
 excerpt: "국제물류주선업 등록을 위해 필요한 요건과 자본금 기준을 체계적으로 정리했습니다. 등록을 성공적으로 마치는 방법을 알아보세요."
-image: "/slides/consultation.jpg"
+image: "/blog/international-freight-forwarding-registration.jpg"
 slug: "international-freight-forwarding-registration"
 ---
 ## 국제물류주선업 등록 요건과 자본금 기준 완벽 정리

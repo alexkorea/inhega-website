@@ -3,7 +3,7 @@ title: "음식점 영업허가 신청 절차와 필요서류 총정리"
 date: "2026-04-10"
 category: "식품위생"
 excerpt: "음식점 영업허가 신청 절차와 필요서류 총정리"
-image: "/slides/consultation.jpg"
+image: "/blog/restaurant-business-permit-guide.jpg"
 slug: "restaurant-business-permit-guide"
 ---
 

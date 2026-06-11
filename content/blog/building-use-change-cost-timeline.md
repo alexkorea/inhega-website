@@ -3,7 +3,7 @@ title: "건축물 용도변경 비용과 처리기간 총정리 — 실무에서
 date: "2026-04-27"
 category: "건축물 용도변경"
 excerpt: "건축물 용도변경 비용과 처리기간을 결정하는 실제 변수와 실무에서 막히는 구간을 정리합니다."
-image: "/slides/consultation.jpg"
+image: "/blog/building-use-change-cost-timeline.jpg"
 slug: "building-use-change-cost-timeline"
 ---
 # 건축물 용도변경 비용과 처리기간 총정리 — 실무에서 꼬이는 지점까지

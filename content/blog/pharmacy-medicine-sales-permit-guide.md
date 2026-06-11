@@ -3,7 +3,7 @@ title: "의약품 판매업 허가·신고 완벽 가이드 2026 — 약국·의
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "약국, 의약품 도매상, 한약방 등 의약품을 판매하려면 「약사법」에 따른 허가 또는 신고가 필수입니다. 2026년 최신 기준으로 의약품 판매업 종류별 허가 요건, 필요 서류, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/pharmacy-medicine-sales-permit-guide.jpg"
 slug: "pharmacy-medicine-sales-permit-guide"
 ---
 

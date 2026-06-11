@@ -3,7 +3,7 @@ title: "연예기획사·공연업 신고 완벽 가이드 2026 — 대중문화
 date: "2026-05-09"
 category: "신고·등록"
 excerpt: "연예기획사를 운영하거나 공연장을 운영하려면 「대중문화예술산업발전법」 또는 「공연법」에 따른 등록·신고가 필수입니다. 2026년 최신 기준으로 연예기획업 등록 요건, 공연업 신고, 절차를 완벽 정리했습니다."
-image: "/images/service-license.png"
+image: "/blog/music-entertainment-production-business-guide.jpg"
 slug: "music-entertainment-production-business-guide"
 ---
 

@@ -3,7 +3,7 @@ title: "비영리사단법인 설립, 이렇게 준비하세요"
 date: "2026-04-02"
 category: "법인 설립"
 excerpt: "비영리사단법인 설립 허가부터 등기까지 전 과정을 단계별로 설명합니다."
-image: "/slides/meeting.jpg"
+image: "/blog/nonprofit-corporation-setup.jpg"
 slug: "nonprofit-corporation-setup"
 ---
 

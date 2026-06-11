@@ -3,7 +3,7 @@ title: "건축물 용도변경 비용과 처리기간 총정리"
 date: "2026-04-16"
 category: "건축물 용도변경"
 excerpt: "건축물 용도변경에 드는 실제 비용 구성과 처리기간을 시설군 이동, 면적, 구조보강 여부까지 실무 기준으로 정리했습니다."
-image: "/slides/consultation.jpg"
+image: "/blog/building-use-change-cost-and-duration.jpg"
 slug: "building-use-change-cost-and-duration"
 ---
 # 건축물 용도변경 비용과 처리기간 총정리

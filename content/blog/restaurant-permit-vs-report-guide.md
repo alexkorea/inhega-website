@@ -3,7 +3,7 @@ title: "음식점 영업신고와 영업허가의 차이와 신청 절차 완벽
 date: "2026-04-12"
 category: "인허가"
 excerpt: "음식점을 개업하려면 영업신고와 영업허가 중 어떤 절차를 밟아야 하는지, 두 제도의 차이점과 구체적인 신청 방법을 상세히 안내합니다."
-image: "/slides/consultation.jpg"
+image: "/blog/restaurant-permit-vs-report-guide.jpg"
 slug: "restaurant-permit-vs-report-guide"
 ---
 # 음식점 영업신고와 영업허가의 차이와 신청 절차 완벽 가이드
