@@ -1,9 +1,9 @@
 ---
 title: "휴게음식점 영업신고 완벽 가이드 2026 — 신고 절차·시설 기준·위생 교육"
-date: "2026-06-10"
+date: "2026-06-11"
 category: "식품·위생"
 excerpt: "카페·아이스크림 가게·분식점은 식품위생법에 따라 휴게음식점 영업신고를 해야 합니다. 2026년 최신 기준 시설 요건, 신고 서류, 위생 교육 의무를 정리합니다."
-image: "/blog/rest-restaurant-notification-202606.jpg"
+image: "/images/service-license.png"
 slug: "rest-restaurant-notification-202606"
 ---
 
