@@ -131,7 +131,7 @@ export async function POST(request: NextRequest) {
     const notionPromise = saveToNotion(body).catch((e) => console.error("Notion error:", e))
 
     const { saveToCRM } = await import("@/lib/notion-crm")
-    const crmPromise = saveToCRM({
+    saveToCRM({
       brand: 'inhega', formType: 'contact',
       siteUrl: 'https://www.inhega.co.kr/contact',
       name, email, phone,
@@ -139,9 +139,7 @@ export async function POST(request: NextRequest) {
       rawPayload: body,
     }).catch((e) => console.error("CRM error:", e))
 
-    // formconnection-crm intake (보스 msg 13599·13668·13673 자동 업무관제)
-    // → 인허가 견적문의 접수 DB (Workspace A) + AI 분류 + 중복 체크
-    const intakePromise = fetch(
+    fetch(
       "https://formconnection-crm.vercel.app/api/intake",
       {
         method: "POST",
@@ -161,8 +159,6 @@ export async function POST(request: NextRequest) {
         }),
       }
     ).catch((e) => console.error("Intake error:", e))
-
-    await Promise.all([telegramPromise, adminEmailPromise, customerEmailPromise, notionPromise, crmPromise, intakePromise])
 
     return NextResponse.json({ success: true })
   } catch (error) {
