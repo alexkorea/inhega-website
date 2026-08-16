@@ -24,6 +24,7 @@ const JSON_LD = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.inhega.co.kr'),
   verification: {
+    other: { 'naver-site-verification': '2108ee863aea966874952a0b9c93bbecd0de1aab', 'msvalidate.01': '9040F35010B56E1A9C560DD7708280D7' },
     google: 'yl4GX6YzjWjM6GVzL-IRULv9r23VIb9go1mPpGBjm0E',
   },
   title: '비전행정사사무소 | 인허가 전문 행정사 — 용도변경·식품·물류주선업',
