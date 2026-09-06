@@ -5,7 +5,16 @@ import { blogPosts } from '@/lib/blog-posts-data'
 export const metadata = {
   title: '인허가 실무 블로그 | 비전행정사사무소',
   description: '국제물류주선업·환전업·식품인허가 등 인허가 최신 법령 정보와 실무 팁을 전문 행정사가 직접 작성합니다.',
-  alternates: { canonical: 'https://inhega.co.kr/blog' },
+  alternates: {
+    canonical: 'https://inhega.co.kr/blog',
+    languages: {
+      'ko': 'https://inhega.co.kr/blog',
+      'en': 'https://inhega.co.kr/en/blog',
+      'zh': 'https://inhega.co.kr/zh/blog',
+      'ja': 'https://inhega.co.kr/ja/blog',
+      'x-default': 'https://inhega.co.kr/blog',
+    },
+  },
   openGraph: {
     title: '인허가 실무 블로그 | 비전행정사사무소',
     description: '인허가 최신 법령 정보와 실무 팁을 전문 행정사가 직접 작성합니다.',
@@ -113,7 +122,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                       padding: '0.5rem 1rem', borderRadius: '8px',
                       border: '1px solid var(--border)', color: 'var(--charcoal)',
                       textDecoration: 'none', fontSize: '0.875rem',
-                    }}>← 이전</Link>
+                    }}>이전</Link>
                   )}
                   {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
                     <Link key={p} href={`/blog?page=${p}`} style={{
@@ -129,7 +138,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                       padding: '0.5rem 1rem', borderRadius: '8px',
                       border: '1px solid var(--border)', color: 'var(--charcoal)',
                       textDecoration: 'none', fontSize: '0.875rem',
-                    }}>다음 →</Link>
+                    }}>다음</Link>
                   )}
                 </div>
               )}

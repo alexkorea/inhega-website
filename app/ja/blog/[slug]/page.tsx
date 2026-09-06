@@ -16,18 +16,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const title = post?.metaTitle ?? (koPost?.meta_title || koPost?.title) ?? ''
   const description = post?.metaDescription ?? koPost?.meta_description ?? ''
   const image = koPost?.cover_image ? `https://inhega.co.kr${koPost.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png'
+  const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${slug}`, 'x-default': `https://inhega.co.kr/blog/${slug}` }
+  if (getBlogI18n('en', slug)) languages.en = `https://inhega.co.kr/en/blog/${slug}`
+  if (getBlogI18n('zh', slug)) languages.zh = `https://inhega.co.kr/zh/blog/${slug}`
+  if (post) languages.ja = `https://inhega.co.kr/ja/blog/${slug}`
   return {
     title,
     description,
     alternates: {
       canonical: `https://inhega.co.kr/ja/blog/${slug}`,
-      languages: {
-        ko: `https://inhega.co.kr/blog/${slug}`,
-        en: `https://inhega.co.kr/en/blog/${slug}`,
-        zh: `https://inhega.co.kr/zh/blog/${slug}`,
-        ja: `https://inhega.co.kr/ja/blog/${slug}`,
-        'x-default': `https://inhega.co.kr/blog/${slug}`,
-      },
+      languages,
     },
     openGraph: {
       title,
@@ -131,7 +129,7 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
                 ) : (
                   <div style={{ padding: '3rem', textAlign: 'center', color: 'var(--slate)' }}>
                     <p style={{ fontSize: '1.125rem', marginBottom: '1rem' }}>日本語翻訳は近日公開予定です。</p>
-                    <Link href={`/blog/${slug}`} style={{ color: 'var(--burgundy)' }}>韓国語で読む →</Link>
+                    <Link href={`/blog/${slug}`} style={{ color: 'var(--burgundy)' }}>韓国語で読む</Link>
                   </div>
                 )}
               </article>
@@ -143,26 +141,26 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
                     韓国の許認可手続きについてお困りですか？専門の行政書士が初回相談を無料でお受けします。
                   </p>
                   <Link href="/ja/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
-                    無料相談を申し込む →
+                    無料相談を申し込む
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>📍 ソウル市中区退渓路324, 3階</p>
-                    <p>🕐 月〜金 09:30〜17:30 KST</p>
-                    <p>💬 LINE · KakaoTalk · WeChat · WhatsApp: alexkorea</p>
+                    <p>� ソウル市中区退渓路324, 3階</p>
+                    <p>� 月〜金 09:30〜17:30 KST</p>
+                    <p>� LINE · KakaoTalk · WeChat · WhatsApp: alexkorea</p>
                   </div>
                 </div>
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem', marginBottom: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>他言語で読む</p>
-                  <Link href={`/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어 →</Link>
-                  <Link href={`/en/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>English →</Link>
-                  <Link href={`/zh/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>中文 →</Link>
+                  <Link href={`/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어</Link>
+                  <Link href={`/en/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>English</Link>
+                  <Link href={`/zh/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>中文</Link>
                 </div>
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>関連サービス</p>
-                  <Link href="/ja/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>全許認可サービス →</Link>
-                  <Link href="/ja/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>お問い合わせ →</Link>
+                  <Link href="/ja/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>全許認可サービス</Link>
+                  <Link href="/ja/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>お問い合わせ</Link>
                 </div>
               </aside>
             </div>

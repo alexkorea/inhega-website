@@ -92,7 +92,7 @@ export default async function EnBlogPage({ searchParams }: { searchParams: Promi
                       <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
                         {new Date(ko.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
                       </span>
-                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>Read →</span>
+                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>Read</span>
                     </div>
                   </div>
                 </article>
@@ -107,7 +107,7 @@ export default async function EnBlogPage({ searchParams }: { searchParams: Promi
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
-                }}>← Prev</Link>
+                }}>Prev</Link>
               )}
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
                 <Link key={p} href={`/en/blog?page=${p}`} style={{
@@ -123,7 +123,7 @@ export default async function EnBlogPage({ searchParams }: { searchParams: Promi
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
-                }}>Next →</Link>
+                }}>Next</Link>
               )}
             </div>
           )}

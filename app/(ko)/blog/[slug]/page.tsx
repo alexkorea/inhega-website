@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { blogPosts, type BlogPost } from '@/lib/blog-posts-data'
+import { getBlogI18n } from '@/lib/i18n/blog-i18n'
 
 export async function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }))
@@ -33,10 +34,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const title = post.meta_title || post.title
   const description = post.meta_description || post.excerpt
   const image = post.cover_image ? `https://inhega.co.kr${post.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png'
+  const canonicalSlug = post.slug || post.id
+  const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${canonicalSlug}`, 'x-default': `https://inhega.co.kr/blog/${canonicalSlug}` }
+  if (getBlogI18n('en', canonicalSlug)) languages.en = `https://inhega.co.kr/en/blog/${canonicalSlug}`
+  if (getBlogI18n('zh', canonicalSlug)) languages.zh = `https://inhega.co.kr/zh/blog/${canonicalSlug}`
+  if (getBlogI18n('ja', canonicalSlug)) languages.ja = `https://inhega.co.kr/ja/blog/${canonicalSlug}`
   return {
     title,
     description,
-    alternates: { canonical: `https://inhega.co.kr/blog/${post.slug || post.id}` },
+    alternates: { canonical: `https://inhega.co.kr/blog/${canonicalSlug}`, languages },
     openGraph: { title, description, type: 'article', images: [{ url: image, width: 1200, height: 630, alt: title }], publishedTime: post.created_at },
     twitter: { card: 'summary_large_image' as const, title, description, images: [image] },
   }
@@ -132,24 +138,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     인허가 절차가 복잡하게 느껴지신다면 전문가와 먼저 상담해 보세요. 초기 상담은 무료입니다.
                   </p>
                   <Link href="/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
-                    무료상담 신청하기 →
+                    무료상담 신청하기
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>📍 서울시 중구 퇴계로 324, 3층</p>
-                    <p>🕐 평일 09:30~17:30 KST (토·일·공휴일 휴무)</p>
-                    <p>💬 카카오·라인·위챗·왓츠앱: alexkorea</p>
+                    <p>� 서울시 중구 퇴계로 324, 3층</p>
+                    <p>� 평일 09:30~17:30 KST (토·일·공휴일 휴무)</p>
+                    <p>� 카카오·라인·위챗·왓츠앱: alexkorea</p>
                   </div>
                 </div>
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>관련 서비스</p>
                   {post.relatedServices?.map((s, i) => (
-                    <Link key={s.href} href={s.href} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: i < (post.relatedServices?.length ?? 0) - 1 ? '1px solid var(--border-light)' : 'none' }}>{s.title} →</Link>
+                    <Link key={s.href} href={s.href} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: i < (post.relatedServices?.length ?? 0) - 1 ? '1px solid var(--border-light)' : 'none' }}>{s.title}</Link>
                   ))}
                   {!post.relatedServices && <>
-                    <Link href="/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>전체 인허가 서비스 보기 →</Link>
-                    <Link href="/quote" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>견적 문의하기 →</Link>
-                    <Link href="/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>상담 예약하기 →</Link>
+                    <Link href="/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>전체 인허가 서비스 보기</Link>
+                    <Link href="/quote" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>견적 문의하기</Link>
+                    <Link href="/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>상담 예약하기</Link>
                   </>}
                 </div>
               </aside>

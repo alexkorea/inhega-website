@@ -16,18 +16,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const title = post?.metaTitle ?? (koPost?.meta_title || koPost?.title) ?? ''
   const description = post?.metaDescription ?? koPost?.meta_description ?? ''
   const image = koPost?.cover_image ? `https://inhega.co.kr${koPost.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png'
+  const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${slug}`, 'x-default': `https://inhega.co.kr/blog/${slug}` }
+  if (post) languages.en = `https://inhega.co.kr/en/blog/${slug}`
+  if (getBlogI18n('zh', slug)) languages.zh = `https://inhega.co.kr/zh/blog/${slug}`
+  if (getBlogI18n('ja', slug)) languages.ja = `https://inhega.co.kr/ja/blog/${slug}`
   return {
     title,
     description,
     alternates: {
       canonical: `https://inhega.co.kr/en/blog/${slug}`,
-      languages: {
-        ko: `https://inhega.co.kr/blog/${slug}`,
-        en: `https://inhega.co.kr/en/blog/${slug}`,
-        zh: `https://inhega.co.kr/zh/blog/${slug}`,
-        ja: `https://inhega.co.kr/ja/blog/${slug}`,
-        'x-default': `https://inhega.co.kr/blog/${slug}`,
-      },
+      languages,
     },
     openGraph: {
       title,
@@ -131,7 +129,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                 ) : (
                   <div style={{ padding: '3rem', textAlign: 'center', color: 'var(--slate)' }}>
                     <p style={{ fontSize: '1.125rem', marginBottom: '1rem' }}>English translation coming soon.</p>
-                    <Link href={`/blog/${slug}`} style={{ color: 'var(--burgundy)' }}>Read in Korean →</Link>
+                    <Link href={`/blog/${slug}`} style={{ color: 'var(--burgundy)' }}>Read in Korean</Link>
                   </div>
                 )}
               </article>
@@ -143,26 +141,26 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                     Need help with Korean licensing? Our licensed scriveners offer a free initial consultation.
                   </p>
                   <Link href="/en/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
-                    Request Free Consultation →
+                    Request Free Consultation
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>📍 324 Toegyero, 3F, Jung-gu, Seoul</p>
-                    <p>🕐 Mon–Fri 09:30–17:30 KST</p>
-                    <p>💬 KakaoTalk · LINE · WeChat · WhatsApp: alexkorea</p>
+                    <p>� 324 Toegyero, 3F, Jung-gu, Seoul</p>
+                    <p>� Mon–Fri 09:30–17:30 KST</p>
+                    <p>� KakaoTalk · LINE · WeChat · WhatsApp: alexkorea</p>
                   </div>
                 </div>
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem', marginBottom: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>Read in Other Languages</p>
-                  <Link href={`/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어 →</Link>
-                  <Link href={`/zh/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>中文 →</Link>
-                  <Link href={`/ja/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>日本語 →</Link>
+                  <Link href={`/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어</Link>
+                  <Link href={`/zh/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>中文</Link>
+                  <Link href={`/ja/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>日本語</Link>
                 </div>
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>Related Services</p>
-                  <Link href="/en/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>All Licensing Services →</Link>
-                  <Link href="/en/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>Contact Us →</Link>
+                  <Link href="/en/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>All Licensing Services</Link>
+                  <Link href="/en/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>Contact Us</Link>
                 </div>
               </aside>
             </div>

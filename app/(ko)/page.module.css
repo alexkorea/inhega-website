@@ -18,12 +18,7 @@
 .heroOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    105deg,
-    rgba(11, 31, 58, 0.90) 0%,
-    rgba(11, 31, 58, 0.75) 45%,
-    rgba(11, 31, 58, 0.40) 100%
-  );
+  background: rgba(11, 31, 58, 0.72);
 }
 
 .heroContent {
@@ -72,9 +67,8 @@
 
 /* Stats panel */
 .heroStats {
-  background: rgba(255,255,255,0.07);
+  background: rgba(11,31,58,0.55);
   border: 1px solid rgba(255,255,255,0.12);
-  backdrop-filter: blur(12px);
   border-radius: 16px;
   padding: 1.75rem;
   display: grid;
@@ -125,13 +119,7 @@
 .scrollLine {
   width: 1px;
   height: 60px;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.3), transparent);
-  animation: scrollPulse 2s ease-in-out infinite;
-}
-
-@keyframes scrollPulse {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 0.8; }
+  background: rgba(255,255,255,0.25);
 }
 
 /* ========= TRUST STRIP ========= */
@@ -210,12 +198,7 @@
 .bentoOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(11, 31, 58, 0.88) 0%,
-    rgba(11, 31, 58, 0.3) 50%,
-    transparent 100%
-  );
+  background: rgba(11, 31, 58, 0.55);
 }
 
 .bentoBody {

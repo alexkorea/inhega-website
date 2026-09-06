@@ -92,7 +92,7 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
                       <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
                         {new Date(ko.created_at).toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' })}
                       </span>
-                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>阅读 →</span>
+                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>阅读</span>
                     </div>
                   </div>
                 </article>
@@ -107,7 +107,7 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
-                }}>← 上一页</Link>
+                }}>上一页</Link>
               )}
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
                 <Link key={p} href={`/zh/blog?page=${p}`} style={{
@@ -123,7 +123,7 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
-                }}>下一页 →</Link>
+                }}>下一页</Link>
               )}
             </div>
           )}

@@ -8,7 +8,12 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: '/api/',
       },
+      {
+        userAgent: 'Amazonbot',
+        disallow: '/',
+      },
     ],
     sitemap: 'https://inhega.co.kr/sitemap.xml',
+    host: 'https://inhega.co.kr',
   }
 }

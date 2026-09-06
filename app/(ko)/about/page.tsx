@@ -4,7 +4,16 @@ import Link from 'next/link'
 export const metadata = {
   title: '회사소개 | 비전행정사사무소',
   description: '50개 이상 업종, 100건+ 인허가 처리 경험의 비전행정사사무소. 대표 이원중 행정사 및 전문 팀이 처음부터 끝까지 책임집니다.',
-  alternates: { canonical: 'https://inhega.co.kr/about' },
+  alternates: {
+    canonical: 'https://inhega.co.kr/about',
+    languages: {
+      'ko': 'https://inhega.co.kr/about',
+      'en': 'https://inhega.co.kr/en/about',
+      'zh': 'https://inhega.co.kr/zh/about',
+      'ja': 'https://inhega.co.kr/ja/about',
+      'x-default': 'https://inhega.co.kr/about',
+    },
+  },
   openGraph: {
     title: '회사소개 | 비전행정사사무소',
     description: '50개 이상 업종, 100건+ 인허가 처리 경험의 비전행정사사무소. 6인의 행정사가 처음부터 끝까지 책임집니다.',

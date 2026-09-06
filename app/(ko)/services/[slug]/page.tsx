@@ -16,7 +16,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${svc.title} | 비전행정사사무소`,
     description: svc.description,
-    alternates: { canonical: `https://inhega.co.kr/services/${slug}` },
+    alternates: {
+      canonical: `https://inhega.co.kr/services/${slug}`,
+      languages: {
+        'ko': `https://inhega.co.kr/services/${slug}`,
+        'en': `https://inhega.co.kr/en/services/${slug}`,
+        'zh': `https://inhega.co.kr/zh/services/${slug}`,
+        'ja': `https://inhega.co.kr/ja/services/${slug}`,
+        'x-default': `https://inhega.co.kr/services/${slug}`,
+      },
+    },
     openGraph: {
       title: `${svc.title} | 비전행정사사무소`,
       description: svc.description,
@@ -65,7 +74,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <section className={styles.hero}>
         <div style={{ position: 'absolute', inset: 0 }}>
           <Image src={svc.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
-          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(11,31,58,0.92) 0%, rgba(11,31,58,0.7) 60%, rgba(11,31,58,0.4) 100%)' }} />
+          <div style={{ position: 'absolute', inset: 0, background: 'rgba(11,31,58,0.72)' }} />
         </div>
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ marginBottom: '1rem' }}>
