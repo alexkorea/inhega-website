@@ -2,19 +2,29 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/lib/services-data'
 import styles from './page.module.css'
+import gridStyles from '@/app/services-list.module.css'
 
 export const metadata = {
-  title: '인허가 서비스 16종 | 비전행정사사무소',
-  description: '국제물류주선업, 환전업, 식품인허가, 건축물 용도변경 등 16종의 전문 인허가 서비스를 비전행정사사무소가 처음부터 끝까지 대행합니다.',
-  alternates: { canonical: 'https://inhega.co.kr/services' },
+  title: `인허가 서비스 ${services.length}종 | 비전행정사사무소`,
+  description: `국제물류주선업, 환전업, 식품인허가, 건축물 용도변경 등 ${services.length}종의 전문 인허가 서비스를 비전행정사사무소가 처음부터 끝까지 대행합니다.`,
+  alternates: {
+    canonical: 'https://inhega.co.kr/services',
+    languages: {
+      ko: 'https://inhega.co.kr/services',
+      en: 'https://inhega.co.kr/en/services',
+      zh: 'https://inhega.co.kr/zh/services',
+      ja: 'https://inhega.co.kr/ja/services',
+      'x-default': 'https://inhega.co.kr/services',
+    },
+  },
   openGraph: {
-    title: '인허가 서비스 16종 | 비전행정사사무소',
-    description: '국제물류주선업, 환전업, 식품인허가 등 16종 인허가 전문 대행. 무료 초기 상담.',
+    title: `인허가 서비스 ${services.length}종 | 비전행정사사무소`,
+    description: `국제물류주선업, 환전업, 식품인허가 등 ${services.length}종 인허가 전문 대행. 무료 초기 상담.`,
     url: 'https://inhega.co.kr/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '비전행정사사무소 서비스' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '인허가 서비스 16종 | 비전행정사사무소', images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `인허가 서비스 ${services.length}종 | 비전행정사사무소`, images: ['/images/hero-seoul.png'] },
 }
 
 const categories = ['전체', '물류/유통', '금융', '숙박/관광', '건축/부동산', '식품', '기업인증', '법인설립', '공공조달']
@@ -38,7 +48,7 @@ export default function ServicesPage() {
         <div className="container">
           <span className="badge badge-white text-label fade-up">서비스</span>
           <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-            16종 전문 인허가<br />서비스
+            {services.length}종 전문 인허가<br />서비스
           </h1>
           <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.6)', marginTop: '1rem' }}>
             업종별 요건 분석부터 서류 준비, 관청 접수까지 모든 과정을 대행합니다.
@@ -49,7 +59,7 @@ export default function ServicesPage() {
       {/* Grid */}
       <section className="section bg-cream">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1.5rem' }}>
+          <div className={gridStyles.grid}>
             {services.map((svc, i) => (
               <Link
                 key={svc.slug}
@@ -62,7 +72,7 @@ export default function ServicesPage() {
                     <Image src={svc.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
                     <div style={{
                       position: 'absolute', inset: 0,
-                      background: 'rgba(11,31,58,0.45)'
+                      background: 'rgba(184,70,15,0.45)'
                     }} />
                     <span className="badge badge-white" style={{ position: 'absolute', top: '1rem', left: '1rem', fontSize: '0.6875rem' }}>
                       {svc.category}

@@ -74,7 +74,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <section className={styles.hero}>
         <div style={{ position: 'absolute', inset: 0 }}>
           <Image src={svc.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
-          <div style={{ position: 'absolute', inset: 0, background: 'rgba(11,31,58,0.72)' }} />
+          <div style={{ position: 'absolute', inset: 0, background: 'rgba(184,70,15,0.72)' }} />
         </div>
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ marginBottom: '1rem' }}>

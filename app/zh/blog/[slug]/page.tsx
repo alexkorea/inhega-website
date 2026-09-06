@@ -169,26 +169,28 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
       </div>
 
       <style>{`
-        .blog-content h2 { color: #235099; font-size: 1.375rem; font-weight: 700; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e8eef5; }
-        .blog-content h3 { color: #2d5aa0; font-size: 1.125rem; font-weight: 600; margin: 1.75rem 0 0.75rem; }
+        .blog-content h2 { color: #F36C24; font-size: 1.375rem; font-weight: 700; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #FBE4D5; }
+        .blog-content h3 { color: #C65214; font-size: 1.125rem; font-weight: 600; margin: 1.75rem 0 0.75rem; }
         .blog-content p { margin-bottom: 1rem; }
         .blog-content ul, .blog-content ol { margin: 1rem 0 1rem 1.5rem; }
         .blog-content li { margin-bottom: 0.5rem; }
-        .blog-content .toc { background: #f0f4fa; border-left: 4px solid #235099; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
-        .blog-content .toc p { font-weight: 700; color: #235099; margin-bottom: 0.75rem; }
+        .blog-content .toc { background: #FDF1EA; border-left: 4px solid #B8460F; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
+        .blog-content .toc p { font-weight: 700; color: #B8460F; margin-bottom: 0.75rem; }
         .blog-content .toc ol { margin: 0 0 0 1.25rem; }
         .blog-content .toc li { font-size: 0.9rem; margin-bottom: 0.35rem; }
         .blog-content .faq-section { background: #f8f9fa; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; }
         .blog-content .faq-item { border-bottom: 1px solid #e2e8f0; padding: 1rem 0; }
         .blog-content .faq-item:last-child { border-bottom: none; }
-        .blog-content .faq-q { font-weight: 700; color: #235099; margin-bottom: 0.5rem; }
+        .blog-content .faq-q { font-weight: 700; color: #B8460F; margin-bottom: 0.5rem; }
         .blog-content .faq-a { color: #4a5568; font-size: 0.9375rem; line-height: 1.7; }
-        .blog-content .cta-box { background: #235099; color: white; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
+        .blog-content .cta-box { background: #B8460F; color: white; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
         .blog-content .cta-box h3 { color: white; margin: 0 0 0.75rem; }
         .blog-content .cta-box p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 0.9375rem; }
-        .blog-content .cta-box a { display: inline-block; background: #A33344; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
+        .blog-content .cta-box a { display: inline-block; background: #B8460F; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
         .blog-content .cta-box strong { color: white; }
-        .blog-content strong { color: #235099; }
+        .blog-content strong { color: #B8460F; }
+        .blog-content img { max-width: 100%; height: auto; }
+        .blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
         .blog-content .highlight-box { background: #fff8e1; border-left: 4px solid #f59e0b; border-radius: 4px; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.9375rem; }
         @media (max-width: 768px) {
           .blog-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }

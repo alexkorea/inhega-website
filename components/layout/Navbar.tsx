@@ -121,10 +121,10 @@ export default function Navbar() {
 
           {/* Language Switcher */}
           <div style={{ display: 'flex', gap: '3px', alignItems: 'center', marginLeft: '0.5rem' }}>
-            <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px' }}>KO</span>
-            <Link href="/en" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#A33344', borderRadius: '4px', textDecoration: 'none' }}>EN</Link>
-            <Link href="/zh" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#A33344', borderRadius: '4px', textDecoration: 'none' }}>中文</Link>
-            <Link href="/ja" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#A33344', borderRadius: '4px', textDecoration: 'none' }}>日本語</Link>
+            <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#B8460F', borderRadius: '4px' }}>KO</span>
+            <Link href="/en" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#B8460F', borderRadius: '4px', textDecoration: 'none' }}>EN</Link>
+            <Link href="/zh" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#B8460F', borderRadius: '4px', textDecoration: 'none' }}>中文</Link>
+            <Link href="/ja" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#B8460F', borderRadius: '4px', textDecoration: 'none' }}>日本語</Link>
           </div>
         </nav>
 
@@ -141,10 +141,10 @@ export default function Navbar() {
           </Link>
 
           <div className={styles.mobileLangSwitch}>
-            <span style={{ fontSize: '0.65rem', fontWeight: 700, color: 'white', padding: '3px 6px', background: '#235099', borderRadius: '3px' }}>KO</span>
-            <Link href="/en" style={{ fontSize: '0.65rem', fontWeight: 700, color: 'white', padding: '3px 6px', background: '#A33344', borderRadius: '3px', textDecoration: 'none' }}>EN</Link>
-            <Link href="/zh" style={{ fontSize: '0.65rem', fontWeight: 700, color: 'white', padding: '3px 6px', background: '#A33344', borderRadius: '3px', textDecoration: 'none' }}>中文</Link>
-            <Link href="/ja" style={{ fontSize: '0.65rem', fontWeight: 700, color: 'white', padding: '3px 6px', background: '#A33344', borderRadius: '3px', textDecoration: 'none' }}>日本語</Link>
+            <span style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#B8460F', borderRadius: '3px', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>KO</span>
+            <Link href="/en" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#B8460F', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>EN</Link>
+            <Link href="/zh" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#B8460F', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>中文</Link>
+            <Link href="/ja" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#B8460F', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>日本語</Link>
           </div>
 
           <button

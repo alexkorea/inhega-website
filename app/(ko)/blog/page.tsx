@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { createClient } from '@supabase/supabase-js'
 import { blogPosts } from '@/lib/blog-posts-data'
+import gridStyles from '@/app/services-list.module.css'
 
 export const metadata = {
   title: '인허가 실무 블로그 | 비전행정사사무소',
@@ -77,7 +78,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
             </div>
           ) : (
             <>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem' }}>
+              <div className={gridStyles.grid}>
                 {posts.map((post: Record<string, string>, i: number) => (
                   <Link
                     key={post.id || post.slug}

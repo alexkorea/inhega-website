@@ -18,7 +18,7 @@
 .heroOverlay {
   position: absolute;
   inset: 0;
-  background: rgba(11, 31, 58, 0.72);
+  background: rgba(184, 70, 15, 0.72);
 }
 
 .heroContent {
@@ -67,7 +67,7 @@
 
 /* Stats panel */
 .heroStats {
-  background: rgba(11,31,58,0.55);
+  background: rgba(184,70,15,0.55);
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 16px;
   padding: 1.75rem;
@@ -198,7 +198,7 @@
 .bentoOverlay {
   position: absolute;
   inset: 0;
-  background: rgba(11, 31, 58, 0.55);
+  background: rgba(184, 70, 15, 0.55);
 }
 
 .bentoBody {
@@ -342,7 +342,7 @@
 .whyCheck {
   width: 22px;
   height: 22px;
-  background: rgba(163, 51, 68, 0.1);
+  background: rgba(184, 70, 15, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;

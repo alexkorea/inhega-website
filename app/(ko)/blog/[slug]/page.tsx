@@ -165,54 +165,56 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       </div>
 
       <style>{`
-        .blog-content h2 { color: #235099; font-size: 1.375rem; font-weight: 700; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e8eef5; }
-        .blog-content h3 { color: #2d5aa0; font-size: 1.125rem; font-weight: 600; margin: 1.75rem 0 0.75rem; }
+        .blog-content h2 { color: #F36C24; font-size: 1.375rem; font-weight: 700; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #FBE4D5; }
+        .blog-content h3 { color: #C65214; font-size: 1.125rem; font-weight: 600; margin: 1.75rem 0 0.75rem; }
         .blog-content p { margin-bottom: 1rem; }
         .blog-content ul, .blog-content ol { margin: 1rem 0 1rem 1.5rem; }
         .blog-content li { margin-bottom: 0.5rem; }
-        .blog-content .toc { background: #f0f4fa; border-left: 4px solid #235099; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
-        .blog-content .toc p { font-weight: 700; color: #235099; margin-bottom: 0.75rem; }
+        .blog-content .toc { background: #FDF1EA; border-left: 4px solid #B8460F; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
+        .blog-content .toc p { font-weight: 700; color: #B8460F; margin-bottom: 0.75rem; }
         .blog-content .toc ol { margin: 0 0 0 1.25rem; }
         .blog-content .toc li { font-size: 0.9rem; margin-bottom: 0.35rem; }
         .blog-content .faq-section { background: #f8f9fa; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; }
         .blog-content .faq-item { border-bottom: 1px solid #e2e8f0; padding: 1rem 0; }
         .blog-content .faq-item:last-child { border-bottom: none; }
-        .blog-content .faq-q { font-weight: 700; color: #235099; margin-bottom: 0.5rem; }
+        .blog-content .faq-q { font-weight: 700; color: #B8460F; margin-bottom: 0.5rem; }
         .blog-content .faq-a { color: #4a5568; font-size: 0.9375rem; line-height: 1.7; }
-        .blog-content .cta-box { background: #235099; color: white; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
+        .blog-content .cta-box { background: #B8460F; color: white; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
         .blog-content .cta-box h3 { color: white; margin: 0 0 0.75rem; }
         .blog-content .cta-box p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 0.9375rem; }
-        .blog-content .cta-box a { display: inline-block; background: #A33344; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
+        .blog-content .cta-box a { display: inline-block; background: #B8460F; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
         .blog-content .cta-box strong { color: white; }
-        .blog-content strong { color: #235099; }
+        .blog-content strong { color: #B8460F; }
+        .blog-content img { max-width: 100%; height: auto; }
+        .blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
         .blog-content .highlight-box { background: #fff8e1; border-left: 4px solid #f59e0b; border-radius: 4px; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.9375rem; }
-        .blog-content .tldr-box { background: #e8f0fb; border-left: 4px solid #235099; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 0 0 1.5rem; }
-        .blog-content .tldr-label { font-weight: 700; color: #235099; margin-bottom: 0.4rem; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.04em; }
-        .blog-content .definition { background: #f8faff; border: 1px solid #c3d4ef; border-radius: 6px; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.9375rem; color: #2d3748; line-height: 1.7; }
+        .blog-content .tldr-box { background: #FCEBDD; border-left: 4px solid #B8460F; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 0 0 1.5rem; }
+        .blog-content .tldr-label { font-weight: 700; color: #B8460F; margin-bottom: 0.4rem; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.04em; }
+        .blog-content .definition { background: #FFFAF6; border: 1px solid #F0C9A8; border-radius: 6px; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.9375rem; color: #2d3748; line-height: 1.7; }
         .blog-content .last-updated { font-size: 0.8125rem; color: #718096; margin: 0 0 1.5rem; padding: 0.5rem 0; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; }
         .blog-content .last-updated p { margin-bottom: 0.2rem; }
-        .blog-content .source-box { background: #f7f9fc; border: 1px solid #d1dde8; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
-        .blog-content .source-box h3 { color: #235099; font-size: 0.9375rem; margin-bottom: 0.75rem; }
+        .blog-content .source-box { background: #FBF6F1; border: 1px solid #E8D4C4; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+        .blog-content .source-box h3 { color: #B8460F; font-size: 0.9375rem; margin-bottom: 0.75rem; }
         .blog-content .source-box ul { margin: 0 0 0 1rem; }
         .blog-content .source-box li { font-size: 0.875rem; margin-bottom: 0.35rem; }
-        .blog-content .source-box a { color: #235099; }
+        .blog-content .source-box a { color: #B8460F; }
         .blog-content .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
-        .blog-content .comparison-table th { background: #235099; color: white; padding: 0.75rem 1rem; text-align: left; font-weight: 600; }
+        .blog-content .comparison-table th { background: #B8460F; color: white; padding: 0.75rem 1rem; text-align: left; font-weight: 600; }
         .blog-content .comparison-table td { padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; }
-        .blog-content .comparison-table tr:nth-child(even) td { background: #f7f9fc; }
+        .blog-content .comparison-table tr:nth-child(even) td { background: #FBF6F1; }
         .blog-content .step-list { margin: 1rem 0 1rem 0; padding: 0; list-style: none; }
         .blog-content .step-list li { padding: 0.75rem 0 0.75rem 0; border-bottom: 1px solid #e2e8f0; font-size: 0.9375rem; }
         .blog-content .step-list li:last-child { border-bottom: none; }
-        .blog-content nav.toc { background: #f0f4fa; border-left: 4px solid #235099; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
-        .blog-content nav.toc p { font-weight: 700; color: #235099; margin-bottom: 0.75rem; }
+        .blog-content nav.toc { background: #FDF1EA; border-left: 4px solid #B8460F; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
+        .blog-content nav.toc p { font-weight: 700; color: #B8460F; margin-bottom: 0.75rem; }
         .blog-content nav.toc ol { margin: 0 0 0 1.25rem; }
         .blog-content nav.toc li { font-size: 0.9rem; margin-bottom: 0.35rem; }
-        .blog-content nav.toc a { color: #235099; text-decoration: none; }
+        .blog-content nav.toc a { color: #B8460F; text-decoration: none; }
         .blog-content nav.toc a:hover { text-decoration: underline; }
-        .blog-content aside.cta-box { background: #235099; color: white; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; display: block; }
+        .blog-content aside.cta-box { background: #B8460F; color: white; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; display: block; }
         .blog-content aside.cta-box h2 { color: white; margin: 0 0 0.75rem; font-size: 1.25rem; border: none; padding: 0; }
         .blog-content aside.cta-box p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 0.9375rem; }
-        .blog-content aside.cta-box a { display: inline-block; background: #A33344; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
+        .blog-content aside.cta-box a { display: inline-block; background: #B8460F; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
         @media (max-width: 1024px) {
           .blog-content { font-size: 0.9375rem; }
         }

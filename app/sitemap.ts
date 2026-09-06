@@ -45,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly' as const,
     priority: 0.9,
   }))
+  const langServiceIndexPages = locales.map((l) => ({
+    url: `${base}/${l}/services`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
+  }))
   const langServicePages = locales.flatMap((l) =>
     services.map((slug) => ({
       url: `${base}/${l}/services/${slug}`,
@@ -80,5 +86,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  return [...staticPages, ...servicePages, ...blogPages, ...langHomePages, ...langServicePages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
+  return [...staticPages, ...servicePages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
 }

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs, getBlogI18n } from '@/lib/i18n/blog-i18n'
 import type { Metadata } from 'next'
+import gridStyles from '@/app/services-list.module.css'
 
 export const metadata: Metadata = {
   title: '韓国許認可ブログ | ビジョン行政書士事務所',
@@ -62,7 +63,7 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
 
       <section className="section bg-cream">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '1.5rem' }}>
+          <div className={gridStyles.grid}>
             {translatedPosts.map(({ slug, i18n, ko }, idx) => (
               <Link
                 key={slug}

@@ -5,18 +5,18 @@
   right: 0;
   z-index: 100;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  background: rgba(11, 31, 58, 0.96);
+  background: rgba(184, 70, 15, 0.96);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .header.scrolled {
   background: var(--navy);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 4px 24px rgba(11, 31, 58, 0.3);
+  box-shadow: 0 4px 24px rgba(184, 70, 15, 0.3);
 }
 
 .header.menuIsOpen {
-  background: rgba(11, 31, 58, 1);
+  background: rgba(184, 70, 15, 1);
 }
 
 .inner {
@@ -249,8 +249,12 @@
 .hamburger {
   display: none;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
-  padding: 8px;
+  padding: 14px 12px;
+  min-width: 44px;
+  min-height: 44px;
   cursor: pointer;
   background: none;
   border: none;
@@ -327,7 +331,9 @@
 }
 
 .mobileServiceLink {
-  display: block;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
   padding: 0.5rem 1rem 0.5rem 1.5rem;
   font-size: 0.875rem;
   color: rgba(255,255,255,0.65);

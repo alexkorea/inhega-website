@@ -122,7 +122,7 @@ export default function ContactForm() {
             <div className={`fade-up delay-1`}>
               {status === 'success' ? (
                 <div style={{ background: 'var(--white)', borderRadius: '20px', padding: '3rem', textAlign: 'center', border: '1px solid var(--border)' }}>
-                  <div style={{ width: '60px', height: '60px', background: 'rgba(163,51,68,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem' }}>
+                  <div style={{ width: '60px', height: '60px', background: 'rgba(184,70,15,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem' }}>
                     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--burgundy)" strokeWidth="2.5">
                       <polyline points="20 6 9 17 4 12"/>
                     </svg>

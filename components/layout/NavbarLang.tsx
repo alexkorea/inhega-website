@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import type { CSSProperties } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Navbar.module.css'
@@ -180,7 +181,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                     fontWeight: 700,
                     color: 'white',
                     padding: '4px 8px',
-                    background: '#235099',
+                    background: '#B8460F',
                     borderRadius: '4px',
                   }}
                 >
@@ -195,7 +196,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                     fontWeight: 700,
                     color: 'white',
                     padding: '4px 8px',
-                    background: '#A33344',
+                    background: '#B8460F',
                     borderRadius: '4px',
                     textDecoration: 'none',
                   }}
@@ -248,12 +249,13 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
           <div style={{ display: 'flex', gap: '6px', marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.12)' }}>
             {langSwitcher.map((l) => {
               const isCurrent = l.key === locale
+              const badgeStyle: CSSProperties = { fontSize: '0.8125rem', fontWeight: 700, color: 'white', padding: '6px 12px', background: '#B8460F', borderRadius: '4px', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }
               return isCurrent ? (
-                <span key={l.href} style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '5px 10px', background: '#235099', borderRadius: '4px' }}>
+                <span key={l.href} style={badgeStyle}>
                   {l.label}
                 </span>
               ) : (
-                <Link key={l.href} href={l.href} style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '5px 10px', background: '#A33344', borderRadius: '4px', textDecoration: 'none' }}>
+                <Link key={l.href} href={l.href} style={{ ...badgeStyle, textDecoration: 'none' }}>
                   {l.label}
                 </Link>
               )

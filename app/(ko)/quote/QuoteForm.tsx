@@ -56,7 +56,7 @@ export default function QuoteForm() {
     return (
       <div style={{ paddingTop: '72px', minHeight: '100dvh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--cream)' }}>
         <div style={{ textAlign: 'center', maxWidth: '480px', padding: '2rem' }}>
-          <div style={{ width: '80px', height: '80px', background: 'rgba(163,51,68,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 2rem' }}>
+          <div style={{ width: '80px', height: '80px', background: 'rgba(184,70,15,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 2rem' }}>
             <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--burgundy)" strokeWidth="2.5">
               <polyline points="20 6 9 17 4 12"/>
             </svg>
@@ -97,7 +97,7 @@ export default function QuoteForm() {
 
       <div style={{ padding: '3rem 0' }}>
         <div className="container-narrow">
-          <div style={{ background: 'var(--white)', borderRadius: '20px', padding: '2.5rem', border: '1px solid var(--border)' }}>
+          <div style={{ background: 'var(--white)', borderRadius: '20px', padding: 'clamp(1.25rem, 6vw, 2.5rem)', border: '1px solid var(--border)' }}>
 
             {/* Step 0: Service selection */}
             {step === 0 && (
