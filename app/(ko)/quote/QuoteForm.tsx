@@ -56,7 +56,7 @@ export default function QuoteForm() {
     return (
       <div style={{ paddingTop: '72px', minHeight: '100dvh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--cream)' }}>
         <div style={{ textAlign: 'center', maxWidth: '480px', padding: '2rem' }}>
-          <div style={{ width: '80px', height: '80px', background: 'rgba(184,70,15,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 2rem' }}>
+          <div style={{ width: '80px', height: '80px', background: 'rgba(11,31,58,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 2rem' }}>
             <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--burgundy)" strokeWidth="2.5">
               <polyline points="20 6 9 17 4 12"/>
             </svg>

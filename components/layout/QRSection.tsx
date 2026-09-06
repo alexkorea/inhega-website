@@ -71,7 +71,7 @@ export default function QRSection({ locale }: { locale: Locale }) {
                   style={{ objectFit: 'cover' }}
                 />
               </div>
-              <span style={{ fontSize: '0.875rem', fontWeight: 700, color: '#B8460F' }}>{item.label}</span>
+              <span style={{ fontSize: '0.875rem', fontWeight: 700, color: '#235099' }}>{item.label}</span>
             </div>
           ))}
         </div>

@@ -72,7 +72,7 @@ export async function POST(req: NextRequest) {
           subject: '[비전행정사사무소] 상담 신청이 접수되었습니다',
           html: `
             <div style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;">
-              <h2 style="color:#B8460F;">상담 신청이 접수되었습니다</h2>
+              <h2 style="color:#235099;">상담 신청이 접수되었습니다</h2>
               <p>${name}님, 안녕하세요.<br/>비전행정사사무소에 상담을 신청해 주셔서 감사합니다.</p>
               <p>접수된 내용을 확인 후 <strong>1~2 영업일 이내</strong>에 연락드리겠습니다.</p>
               <table style="border-collapse:collapse;width:100%;margin-top:16px;">

@@ -1,10 +1,16 @@
 {
   "version": 1,
-  "include": ["/*"],
+  "include": [
+    "/*"
+  ],
   "exclude": [
     "/_next/static/*",
     "/images/*",
     "/team/*",
-    "/favicon.ico"
+    "/favicon.ico",
+    "/logo.png",
+    "/og-image.png",
+    "/*.svg",
+    "/llms.txt"
   ]
 }

@@ -6,15 +6,15 @@
    =========================== */
 :root {
   /* Brand Colors */
-  --navy: #B8460F;
-  --navy-light: #D1581A;
-  --navy-mid: #C65214;
-  --navy-muted: #DE7A3E;
-  --primary: #F36C24;
-  --primary-light: #FF8A4D;
-  --burgundy: #B8460F;
-  --burgundy-light: #D1581A;
-  --burgundy-dark: #8F3509;
+  --navy: #0B1F3A;
+  --navy-light: #162E52;
+  --navy-mid: #1D3C68;
+  --navy-muted: #2B4F7E;
+  --primary: #235099;
+  --primary-light: #2d5aa0;
+  --burgundy: #A33344;
+  --burgundy-light: #C24055;
+  --burgundy-dark: #7D2435;
 
   /* Neutrals */
   --cream: #F5F3EF;
@@ -54,10 +54,10 @@
   --radius-2xl: 32px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(184, 70, 15, 0.08), 0 1px 2px rgba(184, 70, 15, 0.06);
-  --shadow-md: 0 4px 16px rgba(184, 70, 15, 0.10), 0 2px 6px rgba(184, 70, 15, 0.06);
-  --shadow-lg: 0 10px 40px rgba(184, 70, 15, 0.12), 0 4px 16px rgba(184, 70, 15, 0.08);
-  --shadow-xl: 0 20px 60px rgba(184, 70, 15, 0.15);
+  --shadow-sm: 0 1px 3px rgba(11, 31, 58, 0.08), 0 1px 2px rgba(11, 31, 58, 0.06);
+  --shadow-md: 0 4px 16px rgba(11, 31, 58, 0.10), 0 2px 6px rgba(11, 31, 58, 0.06);
+  --shadow-lg: 0 10px 40px rgba(11, 31, 58, 0.12), 0 4px 16px rgba(11, 31, 58, 0.08);
+  --shadow-xl: 0 20px 60px rgba(11, 31, 58, 0.15);
 
   /* Transitions */
   --transition-base: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -240,12 +240,12 @@ input, textarea, select {
 .btn-primary {
   background: var(--burgundy);
   color: var(--white);
-  box-shadow: 0 2px 8px rgba(184, 70, 15, 0.3);
+  box-shadow: 0 2px 8px rgba(11, 31, 58, 0.3);
 }
 
 .btn-primary:hover {
   background: var(--burgundy-light);
-  box-shadow: 0 4px 16px rgba(184, 70, 15, 0.4);
+  box-shadow: 0 4px 16px rgba(11, 31, 58, 0.4);
   transform: translateY(-1px);
 }
 
@@ -261,7 +261,7 @@ input, textarea, select {
 }
 
 .btn-outline-white {
-  background: rgba(184,70,15,0.15);
+  background: rgba(11,31,58,0.15);
   color: var(--white);
   border: 1.5px solid rgba(255,255,255,0.4);
 }
@@ -341,19 +341,19 @@ input, textarea, select {
 }
 
 .badge-navy {
-  background: rgba(184, 70, 15, 0.08);
+  background: rgba(11, 31, 58, 0.08);
   color: var(--navy);
-  border: 1px solid rgba(184, 70, 15, 0.15);
+  border: 1px solid rgba(11, 31, 58, 0.15);
 }
 
 .badge-burgundy {
-  background: rgba(184, 70, 15, 0.08);
+  background: rgba(11, 31, 58, 0.08);
   color: var(--burgundy);
-  border: 1px solid rgba(184, 70, 15, 0.15);
+  border: 1px solid rgba(11, 31, 58, 0.15);
 }
 
 .badge-white {
-  background: rgba(184,70,15,0.35);
+  background: rgba(11,31,58,0.35);
   color: var(--white);
   border: 1px solid rgba(255,255,255,0.25);
 }
@@ -408,7 +408,7 @@ input, textarea, select {
 
 .form-input:focus {
   border-color: var(--navy);
-  box-shadow: 0 0 0 3px rgba(184, 70, 15, 0.08);
+  box-shadow: 0 0 0 3px rgba(11, 31, 58, 0.08);
 }
 
 .form-input::placeholder {
@@ -472,7 +472,7 @@ input, textarea, select {
    SELECTION
    =========================== */
 ::selection {
-  background: rgba(184, 70, 15, 0.15);
+  background: rgba(11, 31, 58, 0.15);
   color: var(--burgundy-dark);
 }
 

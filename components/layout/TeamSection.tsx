@@ -130,7 +130,7 @@ function MemberCard({ member, locale, size = 'lg' }: { member: Member; locale: L
           style={{ objectFit: 'cover', objectPosition: 'top' }}
         />
       </div>
-      <p style={{ fontSize: '0.72rem', color: '#B8460F', fontWeight: 700, marginBottom: '0.25rem', letterSpacing: '0.02em' }}>
+      <p style={{ fontSize: '0.72rem', color: '#235099', fontWeight: 700, marginBottom: '0.25rem', letterSpacing: '0.02em' }}>
         {member.title[locale]}
       </p>
       <p style={{ fontSize: size === 'lg' ? '1.0625rem' : '0.9375rem', fontWeight: 700, color: '#111827', marginBottom: '0.3rem', lineHeight: 1.3 }}>

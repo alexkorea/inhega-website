@@ -134,18 +134,18 @@ export default function AboutPage() {
       <section style={{ background: '#F7F9FC', padding: '80px 0' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 36px' }}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#B8460F', marginBottom: '8px' }}>전문가 소개</div>
-            <h2 style={{ fontSize: '36px', margin: '0 0 12px', letterSpacing: '-0.015em', color: '#B8460F' }}>비전행정사사무소 전문가 소개</h2>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#235099', marginBottom: '8px' }}>전문가 소개</div>
+            <h2 style={{ fontSize: '36px', margin: '0 0 12px', letterSpacing: '-0.015em', color: '#235099' }}>비전행정사사무소 전문가 소개</h2>
             <p style={{ fontSize: '15px', color: '#4B5563', lineHeight: 1.7, wordBreak: 'keep-all' }}>담당 행정사가 케이스 처음부터 끝까지 직접 진행합니다. 상담후 담당자가 지정됩니다.</p>
           </div>
           <div className="vk-team-grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', justifyContent: 'center', maxWidth: '1200px', margin: '0 auto' }}>
             {team.map((m) => (
               <div key={m.name} style={{ textAlign: 'center', flex: '0 0 calc((100% - 32px * 5) / 6)', minWidth: '140px' }}>
-                <div style={{ width: '144px', height: '144px', margin: '0 auto 14px', borderRadius: '50%', overflow: 'hidden', background: '#dce8f5', border: '2px solid #E5E7EB', boxShadow: '0 1px 3px rgba(184,70,15,.08)' }}>
+                <div style={{ width: '144px', height: '144px', margin: '0 auto 14px', borderRadius: '50%', overflow: 'hidden', background: '#dce8f5', border: '2px solid #E5E7EB', boxShadow: '0 1px 3px rgba(11,31,58,.08)' }}>
                   <img src={m.photo} alt={`${m.name} ${m.title}`} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </div>
-                <div style={{ fontSize: '11px', color: '#B8460F', fontWeight: 700, letterSpacing: '0.04em' }}>{m.title}</div>
-                <h3 style={{ fontSize: '15px', margin: '4px 0 4px', color: '#B8460F', fontWeight: 700 }}>{m.name}</h3>
+                <div style={{ fontSize: '11px', color: '#235099', fontWeight: 700, letterSpacing: '0.04em' }}>{m.title}</div>
+                <h3 style={{ fontSize: '15px', margin: '4px 0 4px', color: '#235099', fontWeight: 700 }}>{m.name}</h3>
                 <div style={{ fontSize: '11px', marginTop: '4px', color: '#6B7280', fontFamily: 'monospace' }}>{m.lang}</div>
               </div>
             ))}

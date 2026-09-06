@@ -8,6 +8,6 @@
 
 .serviceCard:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 48px rgba(184, 70, 15, 0.12);
+  box-shadow: 0 16px 48px rgba(11, 31, 58, 0.12);
   border-color: transparent;
 }

@@ -185,7 +185,7 @@ export default function HomePage() {
       {/* WHY US */}
       <section className={`section bg-white`}>
         <div className="container">
-          <div style={{ maxWidth: '720px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '720px' }}>
             <span className="badge badge-burgundy text-label fade-up">왜 비전행정사인가</span>
             <h2 className={`text-h2 fade-up delay-1`} style={{ marginTop: '1rem' }}>
               믿을 수 있는<br />전문가가 필요합니다

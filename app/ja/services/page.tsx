@@ -75,7 +75,7 @@ export default function JaServicesPage() {
                         <Image src={svcKo.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
                         <div style={{
                           position: 'absolute', inset: 0,
-                          background: 'rgba(184,70,15,0.45)'
+                          background: 'rgba(11,31,58,0.45)'
                         }} />
                         <span className="badge badge-white" style={{ position: 'absolute', top: '1rem', left: '1rem', fontSize: '0.6875rem' }}>
                           {svc.category}
