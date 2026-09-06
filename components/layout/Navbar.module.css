@@ -5,18 +5,18 @@
   right: 0;
   z-index: 100;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  background: rgba(11, 31, 58, 0.96);
+  background: rgba(163, 51, 68, 0.97);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .header.scrolled {
-  background: var(--navy);
+  background: var(--burgundy);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 4px 24px rgba(11, 31, 58, 0.3);
 }
 
 .header.menuIsOpen {
-  background: rgba(11, 31, 58, 1);
+  background: rgba(163, 51, 68, 1);
 }
 
 .inner {
@@ -41,7 +41,7 @@
 .logoMark {
   width: 40px;
   height: 40px;
-  background: var(--burgundy);
+  background: transparent;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -130,7 +130,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 700px;
-  background: var(--navy);
+  background: var(--burgundy);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 16px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.4);
@@ -288,7 +288,7 @@
   position: fixed;
   inset: 0;
   top: 72px;
-  background: var(--navy);
+  background: var(--burgundy);
   transform: translateX(100%);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   overflow-y: auto;
