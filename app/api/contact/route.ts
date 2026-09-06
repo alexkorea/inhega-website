@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
           from: 'noreply@inhega.co.kr',
           to: '5000meter@gmail.com',
-          subject: `[비전행정사] 새 상담 문의 - ${name}`,
+          subject: `[비전행정사사무소] 새 상담 문의 - ${name}`,
           html: `
             <h2>새 상담 문의가 접수되었습니다</h2>
             <table>
@@ -93,7 +93,7 @@ export async function POST(req: NextRequest) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           chat_id: process.env.TELEGRAM_CHAT_ID,
-          text: `[비전행정사] 새 상담 문의\n이름: ${name}\n연락처: ${phone}\n이메일: ${email || '-'}\n서비스: ${service || '-'}\n내용: ${message}`,
+          text: `[비전행정사사무소] 새 상담 문의\n이름: ${name}\n연락처: ${phone}\n이메일: ${email || '-'}\n서비스: ${service || '-'}\n내용: ${message}`,
         }),
       })
     }

@@ -1669,7 +1669,7 @@ export const blogPosts: BlogPost[] = [
     category: '제조업등록',
     excerpt: '제조업을 시작하려면 세무서 사업자등록 외에 공장설립 승인, 공장신설신고, 환경·소방 인허가까지 단계별로 챙겨야 합니다. 기준 전체 흐름을 한 번에 정리합니다.',
     meta_title: '제조업 사업자등록·공장설립신고 — 절차·서류 총정리',
-    meta_description: '제조업 창업 시 사업자등록, 공장설립 승인, 공장신설신고, 환경·소방 인허가까지 단계별 절차와 필요 서류를 최신 법령 기준으로 총정리. 비전행정사 무료 상담.',
+    meta_description: '제조업 창업 시 사업자등록, 공장설립 승인, 공장신설신고, 환경·소방 인허가까지 단계별 절차와 필요 서류를 최신 법령 기준으로 총정리. 비전행정사사무소 무료 상담.',
     cover_image: '/images/blog-topics/general-permit.jpg',
     created_at: '2026-05-14T06:00:00Z',
     content: `<section class="tldr-box" aria-label="요약">
