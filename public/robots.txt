@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+User-agent: Amazonbot
+Disallow: /
+
+Sitemap: https://inhega.co.kr/sitemap.xml

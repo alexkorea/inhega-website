@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.env.local
+.env*.local
+deploy.ps1DEPLOY.md
+deploy.ps1
+inhega_blog_guide_v4.txt
+inhega_blog_writing_guide.txt
