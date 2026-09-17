@@ -2,12 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { services } from '@/lib/services-data'
-import { getServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
 
 export async function generateStaticParams() {
-  return services.map((s) => ({ slug: s.slug }))
+  // 번역본이 없는 KO 전용 서비스는 이 로케일에 페이지가 없다 — 프리렌더 대상에서 제외한다.
+  return services.filter((s) => hasServiceI18n(s.slug)).map((s) => ({ slug: s.slug }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
