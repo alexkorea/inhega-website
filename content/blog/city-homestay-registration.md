@@ -93,7 +93,7 @@ slug: "city-homestay-registration"
 
 <div style="background:#FEF3C7; border-left:4px solid #F59E0B; padding:12px 16px; border-radius:0 8px 8px 0; margin:16px 0; font-size:14px;">⚠️ <strong>주의:</strong> 아파트에서 민박업을 운영하려는 경우, 해당 아파트 관리규약에서 민박업을 금지하고 있지 않은지 반드시 확인해야 합니다. 관리규약 위반 시 등록이 취소될 수 있습니다.</div>
 
-서류 준비에 어려움이 있으시면 [비전행정사사무소](/about)에서 등록 전 과정을 대행해 드립니다. [상담 신청하기](/contact)
+서류 준비에 어려움이 있으시면 [유선행정사사무소](/about)에서 등록 전 과정을 대행해 드립니다. [상담 신청하기](/contact)
 
 &nbsp;
 
@@ -107,7 +107,7 @@ slug: "city-homestay-registration"
 
 가장 먼저 건물이 등록 요건에 적합한지 확인합니다. 건축물대장상 용도가 주거용인지, 해당 지역에서 민박업이 허용되는지, 아파트의 경우 관리규약에 제한이 없는지 등을 점검합니다.
 
-이 단계에서 부적합 사항이 발견되면 이후 절차가 무의미해지므로, 반드시 가장 먼저 확인하는 것이 중요합니다. 비전행정사사무소의 [무료 사전 상담](/contact)을 통해 요건 적합 여부를 확인하실 수 있습니다.
+이 단계에서 부적합 사항이 발견되면 이후 절차가 무의미해지므로, 반드시 가장 먼저 확인하는 것이 중요합니다. 유선행정사사무소의 [무료 사전 상담](/contact)을 통해 요건 적합 여부를 확인하실 수 있습니다.
 
 ### 2단계: 소방 안전점검
 
@@ -199,7 +199,7 @@ slug: "city-homestay-registration"
 
 **Q5. 내국인과 외국인 모두 받으려면 어떻게 해야 하나요?**
 
-내국인에게도 숙박을 제공하려면 외국인도시민박업이 아닌 **일반숙박업** 허가를 받아야 합니다. 일반숙박업은 건물 용도, 시설 기준 등 요건이 더 엄격하며, 공중위생관리법에 따른 허가 절차를 거쳐야 합니다. 업종 선택에 대한 상담은 [비전행정사사무소](/about)에서 도움을 받으실 수 있습니다.
+내국인에게도 숙박을 제공하려면 외국인도시민박업이 아닌 **일반숙박업** 허가를 받아야 합니다. 일반숙박업은 건물 용도, 시설 기준 등 요건이 더 엄격하며, 공중위생관리법에 따른 허가 절차를 거쳐야 합니다. 업종 선택에 대한 상담은 [유선행정사사무소](/about)에서 도움을 받으실 수 있습니다.
 
 &nbsp;
 
@@ -207,7 +207,7 @@ slug: "city-homestay-registration"
 
 ## 관련 서비스
 
-- [비전행정사사무소 소개](/about) — 관광업 인허가 전문 행정사 상담
+- [유선행정사사무소 소개](/about) — 관광업 인허가 전문 행정사 상담
 - [문의하기](/contact) — 외국인도시민박업 등록 무료 상담 신청
 - [식품제조가공업 허가 가이드](/blog/food-manufacturing-permit) — 식품 인허가 안내
 - [비영리사단법인 설립 가이드](/blog/nonprofit-corporation-setup) — 법인 설립 절차 안내
@@ -216,6 +216,6 @@ slug: "city-homestay-registration"
 
 <div style="background:linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%); color:white; padding:24px 28px; border-radius:12px; margin:24px 0; text-align:center;">
   <h3 style="margin:0 0 8px 0; color:white;">외국인도시민박업 등록, 전문가와 함께하세요
-  <p style="margin:0 0 16px 0; opacity:0.9;">요건 분석부터 소방 점검, 서류 작성, 등록증 수령까지 비전행정사사무소가 전 과정을 대행합니다.</p>
+  <p style="margin:0 0 16px 0; opacity:0.9;">요건 분석부터 소방 점검, 서류 작성, 등록증 수령까지 유선행정사사무소가 전 과정을 대행합니다.</p>
   <a href="/contact" style="display:inline-block; background:white; color:#1E40AF; padding:10px 28px; border-radius:8px; text-decoration:none; font-weight:bold;">무료 상담 신청하기 →</a>
 </div>

@@ -5,8 +5,19 @@ import { services } from '@/lib/services-data'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
+// `alternates` replaces the layout's whole object, so `languages` must be repeated here
+// or the KO home ships without any hreflang.
 export const metadata = {
-  alternates: { canonical: 'https://inhega.co.kr' },
+  alternates: {
+    canonical: 'https://inhega.co.kr',
+    languages: {
+      'ko': 'https://inhega.co.kr',
+      'en': 'https://inhega.co.kr/en',
+      'zh': 'https://inhega.co.kr/zh',
+      'ja': 'https://inhega.co.kr/ja',
+      'x-default': 'https://inhega.co.kr',
+    },
+  },
 }
 
 const stats = [
@@ -51,7 +62,7 @@ export default function HomePage() {
             </h1>
             <p className={`${styles.heroDesc} fade-up delay-2`}>
               50개 이상 업종, 100건 이상의 인허가 처리 경험을 보유한<br />
-              비전행정사사무소가 처음부터 끝까지 책임집니다.
+              유선행정사사무소가 처음부터 끝까지 책임집니다.
             </p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>
               <Link href="/quote" className="btn btn-primary btn-lg">
@@ -186,7 +197,7 @@ export default function HomePage() {
       <section className={`section bg-white`}>
         <div className="container">
           <div style={{ maxWidth: '720px' }}>
-            <span className="badge badge-burgundy text-label fade-up">왜 비전행정사사무소인가</span>
+            <span className="badge badge-burgundy text-label fade-up">왜 유선행정사사무소인가</span>
             <h2 className={`text-h2 fade-up delay-1`} style={{ marginTop: '1rem' }}>
               믿을 수 있는<br />전문가가 필요합니다
             </h2>

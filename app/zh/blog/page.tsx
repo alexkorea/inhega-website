@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import gridStyles from '@/app/services-list.module.css'
 
 export const metadata: Metadata = {
-  title: '韩国许可申请博客 | Vision行政士事务所',
+  title: '韩国许可申请博客 | YouSun Administrative Attorney',
   description: '韩国企业许可专业指南——国际货运代理、换汇业、食品许可、HACCP等，由持牌行政士撰写。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh/blog',
@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: '韩国许可申请博客 | Vision行政士事务所',
+    title: '韩国许可申请博客 | YouSun Administrative Attorney',
     description: '面向外国企业和投资者的韩国企业许可专业指南。',
     url: 'https://inhega.co.kr/zh/blog',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'Vision行政士事务所博客' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney博客' }],
     type: 'website',
     locale: 'zh_CN',
   },
 }
 
-const PAGE_SIZE = 15
+const PAGE_SIZE = 16
 
 export default async function ZhBlogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
   const { page: pageParam } = await searchParams

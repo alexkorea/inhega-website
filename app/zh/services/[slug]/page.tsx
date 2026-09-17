@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const svc = getServiceI18n('zh', slug)
   if (!svc) return {}
   return {
-    title: `${svc.title} | Vision行政士事务所`,
+    title: `${svc.title} | YouSun Administrative Attorney`,
     description: svc.description,
     alternates: {
       canonical: `https://inhega.co.kr/zh/services/${slug}`,
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       },
     },
     openGraph: {
-      title: `${svc.title} | Vision行政士事务所`,
+      title: `${svc.title} | YouSun Administrative Attorney`,
       description: svc.description,
       url: `https://inhega.co.kr/zh/services/${slug}`,
       images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],

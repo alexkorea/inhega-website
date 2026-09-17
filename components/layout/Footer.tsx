@@ -31,9 +31,9 @@ export default function Footer() {
             {/* Brand Column */}
             <div className={styles.brandCol}>
               <div className={styles.logo}>
-                <div className={styles.logoMark}>V</div>
+                <div className={styles.logoMark}><img src="/logo.png" alt="유선행정사사무소 로고" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
                 <div className={styles.logoText}>
-                  <span className={styles.logoMain}>비전행정사사무소</span>
+                  <span className={styles.logoMain}>유선행정사사무소</span>
                   <span className={styles.logoSub}>인허가 전문</span>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function Footer() {
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                     <polyline points="22,6 12,13 2,6"/>
                   </svg>
-                  <a href="mailto:5000meter@gmail.com">5000meter@gmail.com</a>
+                  <a href="mailto:teamone1163@gmail.com">teamone1163@gmail.com</a>
                 </div>
                 <div className={styles.contactItem}>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -126,10 +126,10 @@ export default function Footer() {
         <div className="container">
           <div className={styles.bottomInner}>
             <p className={styles.copyright}>
-              © 2018 비전행정사사무소. All rights reserved.
+              © 2018 유선행정사사무소. All rights reserved.
             </p>
             <p className={styles.registration}>
-              사업자등록번호: 405-05-54079 | 대표 행정사: 이원중 | 서울특별시 중구 퇴계로 324, 3층
+              사업자등록번호: 722-39-01297 | 대표 행정사: 정유선 | 서울특별시 중구 퇴계로 324, 3층
             </p>
           </div>
         </div>

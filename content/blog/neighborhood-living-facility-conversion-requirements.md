@@ -237,7 +237,7 @@ slug: "neighborhood-living-facility-conversion-requirements"
 
 - **전화:** 02-363-2251
 - **카카오톡:** alexkorea
-- **이메일:** 5000meter@gmail.com
+- **이메일:** teamone1163@gmail.com
 - **주소:** (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)
 - **상담 분야:** 건축물 용도변경 허가·신고, 건축물대장 기재내용 변경, 영업신고 후속 처리, 위반건축물 시정
 

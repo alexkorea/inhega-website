@@ -1,8 +1,8 @@
 import AboutPage from '@/components/layout/AboutPage'
 
 export const metadata = {
-  title: '公司介绍 | 比前行政士事务所',
-  description: '比前行政士事务所拥有50个以上业种、100件以上许可证处理经验。代表李元中行政士及专业团队全程负责。',
+  title: '公司介绍 | YouSun Administrative Attorney',
+  description: 'YouSun Administrative Attorney拥有50个以上业种、100件以上许可证处理经验。代表郑有善行政士及专业团队全程负责。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh/about',
     languages: {
@@ -14,10 +14,10 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: '公司介绍 | 比前行政士事务所',
+    title: '公司介绍 | YouSun Administrative Attorney',
     description: '韩国许可证及签证专业行政士事务所',
     url: 'https://inhega.co.kr/zh/about',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '比前行政士事务所团队' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney团队' }],
     type: 'website',
   },
 }

@@ -156,7 +156,7 @@ slug: "building-use-change-permit-required-documents"
 
 - **사무소명:** 비전 행정사사무소 (VISION Administrative Office)
 - **전화:** 02-363-2251
-- **이메일:** 5000meter@gmail.com
+- **이메일:** teamone1163@gmail.com
 - **주소:** (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)
 
 참고 출처: [국가법령정보센터 건축법](https://www.law.go.kr) · [건축행정시스템 세움터](https://www.eais.go.kr) · [정부24 건축물대장 발급](https://www.gov.kr)

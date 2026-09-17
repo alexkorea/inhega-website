@@ -109,9 +109,9 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}>
       <div className={styles.inner}>
         <Link href={base} className={styles.logo}>
-          <div className={styles.logoMark}><span>V</span></div>
+          <div className={styles.logoMark}><img src="/logo.png" alt="YouSun Administrative Attorney logo" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
           <div className={styles.logoText}>
-            <span className={styles.logoMain}>Vision Admin Office</span>
+            <span className={`${styles.logoMain} ${styles.logoMainEn}`}>YouSun Administrative Attorney</span>
             <span className={styles.logoSub}>{t.tagline}</span>
           </div>
         </Link>

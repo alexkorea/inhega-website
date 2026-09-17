@@ -64,8 +64,8 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
     description: post?.excerpt ?? koPost.excerpt,
     datePublished: koPost.created_at,
     image: koPost.cover_image ? `https://inhega.co.kr${koPost.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png',
-    author: { '@type': 'Organization', name: 'Vision行政士事务所', url: 'https://inhega.co.kr/zh' },
-    publisher: { '@type': 'Organization', name: 'Vision行政士事务所', url: 'https://inhega.co.kr/zh' },
+    author: { '@type': 'Organization', name: 'YouSun Administrative Attorney', url: 'https://inhega.co.kr/zh' },
+    publisher: { '@type': 'Organization', name: 'YouSun Administrative Attorney', url: 'https://inhega.co.kr/zh' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/zh/blog/${slug}` },
     inLanguage: 'zh-CN',
   }
@@ -106,7 +106,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
               {displayTitle}
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem', marginTop: '1rem' }}>
-              {displayDate} · Vision行政士事务所
+              {displayDate} · YouSun Administrative Attorney
             </p>
           </div>
         </section>
@@ -188,6 +188,12 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
         .blog-content .cta-box p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 0.9375rem; }
         .blog-content .cta-box a { display: inline-block; background: #235099; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
         .blog-content .cta-box strong { color: white; }
+        .blog-content .cta-block { background: #A33344; color: #fff; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
+        .blog-content .cta-block h3 { color: #fff; margin: 0 0 0.75rem; }
+        .blog-content .cta-block p { color: rgba(255,255,255,0.9); margin-bottom: 1.25rem; font-size: 0.9375rem; }
+        .blog-content .cta-block a { display: inline-block; background: #fff; color: #A33344; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
+        .blog-content .cta-block strong { color: #fff; }
+        .blog-content .author-block { font-size: 0.8125rem; color: #718096; margin: 2rem 0 0; padding-top: 1rem; border-top: 1px solid #e2e8f0; line-height: 1.7; }
         .blog-content strong { color: #235099; }
         .blog-content img { max-width: 100%; height: auto; }
         .blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }

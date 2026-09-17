@@ -5,8 +5,8 @@ import styles from './page.module.css'
 import gridStyles from '@/app/services-list.module.css'
 
 export const metadata = {
-  title: `인허가 서비스 ${services.length}종 | 비전행정사사무소`,
-  description: `국제물류주선업, 환전업, 식품인허가, 건축물 용도변경 등 ${services.length}종의 전문 인허가 서비스를 비전행정사사무소가 처음부터 끝까지 대행합니다.`,
+  title: `인허가 서비스 ${services.length}종 | 유선행정사사무소`,
+  description: `국제물류주선업, 환전업, 식품인허가, 건축물 용도변경 등 ${services.length}종의 전문 인허가 서비스를 유선행정사사무소가 처음부터 끝까지 대행합니다.`,
   alternates: {
     canonical: 'https://inhega.co.kr/services',
     languages: {
@@ -18,13 +18,13 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: `인허가 서비스 ${services.length}종 | 비전행정사사무소`,
+    title: `인허가 서비스 ${services.length}종 | 유선행정사사무소`,
     description: `국제물류주선업, 환전업, 식품인허가 등 ${services.length}종 인허가 전문 대행. 무료 초기 상담.`,
     url: 'https://inhega.co.kr/services',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '비전행정사사무소 서비스' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 서비스' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: `인허가 서비스 ${services.length}종 | 비전행정사사무소`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `인허가 서비스 ${services.length}종 | 유선행정사사무소`, images: ['/images/hero-seoul.png'] },
 }
 
 const categories = ['전체', '물류/유통', '금융', '숙박/관광', '건축/부동산', '식품', '기업인증', '법인설립', '공공조달']

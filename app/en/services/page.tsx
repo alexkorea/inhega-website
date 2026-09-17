@@ -6,8 +6,8 @@ import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'
 
 export const metadata: Metadata = {
-  title: `${services.length} Licensing & Permit Services | Vision Administrative Office`,
-  description: 'International freight forwarding, currency exchange, food licensing, building use change, and more — Vision Administrative Office handles Korean business licensing from start to finish.',
+  title: `${services.length} Licensing & Permit Services | YouSun Administrative Attorney`,
+  description: 'International freight forwarding, currency exchange, food licensing, building use change, and more — YouSun Administrative Attorney handles Korean business licensing from start to finish.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/services',
     languages: {
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${services.length} Licensing & Permit Services | Vision Administrative Office`,
+    title: `${services.length} Licensing & Permit Services | YouSun Administrative Attorney`,
     description: 'Professional licensing and permit representation for foreign companies and investors in Korea. Free initial consultation.',
     url: 'https://inhega.co.kr/en/services',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'Vision Administrative Office Services' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney Services' }],
     type: 'website',
     locale: 'en_US',
   },
-  twitter: { card: 'summary_large_image', title: `${services.length} Licensing & Permit Services | Vision Administrative Office`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${services.length} Licensing & Permit Services | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {

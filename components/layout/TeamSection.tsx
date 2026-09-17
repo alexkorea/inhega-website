@@ -4,7 +4,7 @@ type Locale = 'ko' | 'en' | 'zh' | 'ja'
 
 const sectionData: Record<Locale, { title: string; subtitle: string }> = {
   ko: {
-    title: '비전행정사사무소 전문가 소개',
+    title: '유선행정사사무소 전문가 소개',
     subtitle: '담당 행정사가 케이스 처음부터 끝까지 직접 진행합니다. 상담 후 담당자가 지정됩니다.',
   },
   en: {
@@ -32,19 +32,11 @@ type Member = {
 
 const admins: Member[] = [
   {
-    nameKo: '이원중',
-    name: { ko: '이원중', en: 'Lee Won-jung', zh: '李元中', ja: '李元重' },
-    photo: '/team/leewj.jpg',
+    nameKo: '정유선',
+    name: { ko: '정유선', en: 'Jung Yu-sun', zh: '郑有善', ja: '鄭有善' },
+    photo: '/team/jungyus.jpg',
     title: { ko: '대표행정사', en: 'Chief Admin Agent', zh: '代表行政士', ja: '代表行政書士' },
     specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
-    langs: ['KR', 'EN', '中文', '日本語'],
-  },
-  {
-    nameKo: '한경택',
-    name: { ko: '한경택', en: 'Han Kyung-taek', zh: '韩庆泽', ja: '韓慶澤' },
-    photo: '/team/hankt.jpg',
-    title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
-    specialty: { ko: '출입국 전문', en: 'Immigration Specialist', zh: '出入境专业', ja: '出入国専門' },
     langs: ['KR', 'EN'],
   },
   {
@@ -56,25 +48,17 @@ const admins: Member[] = [
     langs: ['KR', 'EN'],
   },
   {
-    nameKo: '정유선',
-    name: { ko: '정유선', en: 'Jung Yu-sun', zh: '郑有善', ja: '鄭有善' },
-    photo: '/team/jungyus.jpg',
-    title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
-    specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
-    langs: ['KR', 'EN'],
-  },
-  {
-    nameKo: '이시정',
-    name: { ko: '이시정', en: 'Lee Si-jung', zh: '李时政', ja: '李時政' },
-    photo: '/team/leesj.jpg',
-    title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
-    specialty: { ko: '출입국 전문', en: 'Immigration Specialist', zh: '出入境专业', ja: '出入国専門' },
-    langs: ['KR', 'EN'],
-  },
-  {
     nameKo: '김정은',
     name: { ko: '김정은', en: 'Kim Jung-eun', zh: '金正恩', ja: '金正恩' },
     photo: '/team/kimje.jpg',
+    title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
+    specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
+    langs: ['KR', 'EN', '中文', '日本語'],
+  },
+  {
+    nameKo: '이원중',
+    name: { ko: '이원중', en: 'Lee Won-jung', zh: '李元中', ja: '李元重' },
+    photo: '/team/leewj.jpg',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
     specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN', '中文', '日本語'],
@@ -109,7 +93,7 @@ const staff: Member[] = [
 ]
 
 function MemberCard({ member, locale, size = 'lg' }: { member: Member; locale: Locale; size?: 'lg' | 'md' }) {
-  const photoSize = size === 'lg' ? 120 : 100
+  const photoSize = 144
   return (
     <div style={{ textAlign: 'center', padding: '1rem 0.5rem' }}>
       <div style={{
@@ -165,9 +149,10 @@ export default function TeamSection({ locale }: { locale: Locale }) {
           className="fade-up team-grid-admins"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(6, 1fr)',
+            gridTemplateColumns: 'repeat(4, 1fr)',
             gap: '0.5rem 1rem',
-            marginBottom: '1rem',
+            maxWidth: '720px',
+            margin: '0 auto 1rem',
           }}
         >
           {admins.map((m) => (
@@ -194,7 +179,7 @@ export default function TeamSection({ locale }: { locale: Locale }) {
 
       <style>{`
         @media (max-width: 900px) {
-          .team-grid-admins { grid-template-columns: repeat(3, 1fr) !important; }
+          .team-grid-admins { grid-template-columns: repeat(2, 1fr) !important; }
         }
         @media (max-width: 560px) {
           .team-grid-admins { grid-template-columns: repeat(2, 1fr) !important; }

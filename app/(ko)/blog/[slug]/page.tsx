@@ -72,8 +72,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     description: post.excerpt,
     datePublished: post.created_at,
     image: post.cover_image ? `https://inhega.co.kr${post.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png',
-    author: { '@type': 'Organization', name: '비전행정사사무소', url: 'https://inhega.co.kr' },
-    publisher: { '@type': 'Organization', name: '비전행정사사무소', url: 'https://inhega.co.kr', logo: { '@type': 'ImageObject', url: 'https://inhega.co.kr/images/hero-seoul.png' } },
+    author: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr' },
+    publisher: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr', logo: { '@type': 'ImageObject', url: 'https://inhega.co.kr/images/hero-seoul.png' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/blog/${post.slug || post.id}` },
   }
 
@@ -110,7 +110,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem', marginTop: '1rem' }}>
               {new Date(post.created_at).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })}
-              {' · '}비전행정사사무소
+              {' · '}유선행정사사무소
             </p>
           </div>
         </section>
@@ -141,7 +141,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     무료상담 신청하기
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>� 서울시 중구 퇴계로 324, 3층</p>
+                    <p>� 서울특별시 중구 퇴계로 324, 3층</p>
                     <p>� 평일 09:30~17:30 KST (토·일·공휴일 휴무)</p>
                     <p>� 카카오·라인·위챗·왓츠앱: alexkorea</p>
                   </div>
@@ -184,6 +184,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         .blog-content .cta-box p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 0.9375rem; }
         .blog-content .cta-box a { display: inline-block; background: #235099; color: white; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
         .blog-content .cta-box strong { color: white; }
+        .blog-content .cta-block { background: #A33344; color: #fff; border-radius: 12px; padding: 2rem; margin: 2.5rem 0; text-align: center; }
+        .blog-content .cta-block h3 { color: #fff; margin: 0 0 0.75rem; }
+        .blog-content .cta-block p { color: rgba(255,255,255,0.9); margin-bottom: 1.25rem; font-size: 0.9375rem; }
+        .blog-content .cta-block a { display: inline-block; background: #fff; color: #A33344; padding: 14px 32px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1rem; }
+        .blog-content .cta-block strong { color: #fff; }
+        .blog-content .author-block { font-size: 0.8125rem; color: #718096; margin: 2rem 0 0; padding-top: 1rem; border-top: 1px solid #e2e8f0; line-height: 1.7; }
         .blog-content strong { color: #235099; }
         .blog-content img { max-width: 100%; height: auto; }
         .blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }

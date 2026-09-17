@@ -4,7 +4,7 @@ import { blogPosts } from '@/lib/blog-posts-data'
 import gridStyles from '@/app/services-list.module.css'
 
 export const metadata = {
-  title: '인허가 실무 블로그 | 비전행정사사무소',
+  title: '인허가 실무 블로그 | 유선행정사사무소',
   description: '국제물류주선업·환전업·식품인허가 등 인허가 최신 법령 정보와 실무 팁을 전문 행정사가 직접 작성합니다.',
   alternates: {
     canonical: 'https://inhega.co.kr/blog',
@@ -17,16 +17,16 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: '인허가 실무 블로그 | 비전행정사사무소',
+    title: '인허가 실무 블로그 | 유선행정사사무소',
     description: '인허가 최신 법령 정보와 실무 팁을 전문 행정사가 직접 작성합니다.',
     url: 'https://inhega.co.kr/blog',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '비전행정사사무소 블로그' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 블로그' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '인허가 실무 블로그 | 비전행정사사무소', images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: '인허가 실무 블로그 | 유선행정사사무소', images: ['/images/hero-seoul.png'] },
 }
 
-const PAGE_SIZE = 15
+const PAGE_SIZE = 16
 
 async function getPosts() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL

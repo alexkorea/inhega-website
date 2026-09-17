@@ -392,7 +392,7 @@ A. 행정청 처리 기간 자체는 단축이 어렵지만, 보완 요청을 �
 <div style="background:#dbeafe;border-left:4px solid #2563eb;padding:16px;margin:20px 0;border-radius:4px">
   <strong style="color:#1e40af">📞 비전 행정사사무소 연락처</strong><br><br>
   <strong>전화:</strong> 02-363-2251<br>
-  <strong>이메일:</strong> 5000meter@gmail.com<br>
+  <strong>이메일:</strong> teamone1163@gmail.com<br>
   <strong>주소:</strong> (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)<br><br>
   <strong>무료 상담 신청하기</strong> — 등록 가능 여부 사전 진단부터 도와드립니다.
 </div>

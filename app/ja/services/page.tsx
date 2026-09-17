@@ -6,8 +6,8 @@ import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'
 
 export const metadata: Metadata = {
-  title: `${services.length}種の専門許認可代行サービス | ビジョン行政書士事務所`,
-  description: '国際貨物運送取扱業、外貨両替業、食品許可、建物用途変更など、専門の許認可代行サービスをビジョン行政書士事務所が最初から最後まで代行いたします。',
+  title: `${services.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
+  description: '国際貨物運送取扱業、外貨両替業、食品許可、建物用途変更など、専門の許認可代行サービスをYouSun Administrative Attorneyが最初から最後まで代行いたします。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/services',
     languages: {
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${services.length}種の専門許認可代行サービス | ビジョン行政書士事務所`,
+    title: `${services.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
     description: '外国企業・投資家向け韓国許認可代行の専門サービス。初回相談無料。',
     url: 'https://inhega.co.kr/ja/services',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'ビジョン行政書士事務所サービス' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorneyサービス' }],
     type: 'website',
     locale: 'ja_JP',
   },
-  twitter: { card: 'summary_large_image', title: `${services.length}種の専門許認可代行サービス | ビジョン行政書士事務所`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${services.length}種の専門許認可代行サービス | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {

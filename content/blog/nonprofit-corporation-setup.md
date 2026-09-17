@@ -119,7 +119,7 @@ slug: "nonprofit-corporation-setup"
 
 정관은 법인의 **헌법**과 같은 문서입니다. 민법 제40조에 따라 목적, 명칭, 사무소 소재지, 자산에 관한 규정, 이사의 임면에 관한 규정, 사원자격의 득실에 관한 규정, 존립 시기나 해산사유를 정하는 때에는 그 시기 또는 사유를 반드시 기재해야 합니다.
 
-정관은 주무관청 심사의 핵심 대상입니다. 관청별로 정관 표준안이나 가이드라인을 제공하는 경우가 많으므로, 이를 참고하여 작성하면 허가 승인률을 높일 수 있습니다. 비전행정사사무소에서는 주무관청별 맞춤 정관 작성을 대행하고 있습니다.
+정관은 주무관청 심사의 핵심 대상입니다. 관청별로 정관 표준안이나 가이드라인을 제공하는 경우가 많으므로, 이를 참고하여 작성하면 허가 승인률을 높일 수 있습니다. 유선행정사사무소에서는 주무관청별 맞춤 정관 작성을 대행하고 있습니다.
 
 ### 3단계: 창립총회 개최
 
@@ -167,7 +167,7 @@ slug: "nonprofit-corporation-setup"
 | 국제교류 | 외교부 | 국제활동 계획의 구체성 |
 | 체육 | 문화체육관광부, 시·도 체육과 | 체육진흥 사업 계획 |
 
-<div style="background:#EFF6FF; border-left:4px solid #3B82F6; padding:12px 16px; border-radius:0 8px 8px 0; margin:16px 0; font-size:14px;">💡 <strong>참고:</strong> 사업 목적이 여러 분야에 걸쳐 있는 경우, 주된 목적에 해당하는 관청이 주무관청이 됩니다. 어떤 관청에 신청해야 할지 불확실한 경우, <a href="/contact">비전행정사사무소에 문의</a>하시면 정확한 안내를 받으실 수 있습니다.</div>
+<div style="background:#EFF6FF; border-left:4px solid #3B82F6; padding:12px 16px; border-radius:0 8px 8px 0; margin:16px 0; font-size:14px;">💡 <strong>참고:</strong> 사업 목적이 여러 분야에 걸쳐 있는 경우, 주된 목적에 해당하는 관청이 주무관청이 됩니다. 어떤 관청에 신청해야 할지 불확실한 경우, <a href="/contact">유선행정사사무소에 문의</a>하시면 정확한 안내를 받으실 수 있습니다.</div>
 
 &nbsp;
 
@@ -215,7 +215,7 @@ slug: "nonprofit-corporation-setup"
 
 **Q6. 행정사에게 설립 대행을 맡길 수 있나요?**
 
-네, 비전행정사사무소에서는 정관 작성, 창립총회 진행, 주무관청 허가 신청, 법인 설립 등기, 고유번호증 발급까지 **전 과정 대행** 서비스를 제공합니다. 설립 목적에 맞는 맞춤 상담부터 시작하실 수 있습니다. [무료 상담 신청하기](/contact)
+네, 유선행정사사무소에서는 정관 작성, 창립총회 진행, 주무관청 허가 신청, 법인 설립 등기, 고유번호증 발급까지 **전 과정 대행** 서비스를 제공합니다. 설립 목적에 맞는 맞춤 상담부터 시작하실 수 있습니다. [무료 상담 신청하기](/contact)
 
 &nbsp;
 
@@ -223,7 +223,7 @@ slug: "nonprofit-corporation-setup"
 
 ## 관련 서비스
 
-- [비전행정사사무소 소개](/about) — 법인 설립 전문 행정사 상담
+- [유선행정사사무소 소개](/about) — 법인 설립 전문 행정사 상담
 - [문의하기](/contact) — 비영리사단법인 설립 무료 상담 신청
 - [식품제조가공업 허가 가이드](/blog/food-manufacturing-permit) — 식품 인허가 안내
 - [외국인도시민박업 등록 가이드](/blog/city-homestay-registration) — 관광업 인허가 안내
@@ -232,6 +232,6 @@ slug: "nonprofit-corporation-setup"
 
 <div style="background:linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%); color:white; padding:24px 28px; border-radius:12px; margin:24px 0; text-align:center;">
   <h3 style="margin:0 0 8px 0; color:white;">비영리사단법인 설립, 전문가와 함께 시작하세요
-  <p style="margin:0 0 16px 0; opacity:0.9;">정관 작성부터 주무관청 허가, 법인 등기까지 비전행정사사무소가 전 과정을 대행합니다.</p>
+  <p style="margin:0 0 16px 0; opacity:0.9;">정관 작성부터 주무관청 허가, 법인 등기까지 유선행정사사무소가 전 과정을 대행합니다.</p>
   <a href="/contact" style="display:inline-block; background:white; color:#1E40AF; padding:10px 28px; border-radius:8px; text-decoration:none; font-weight:bold;">무료 상담 신청하기 →</a>
 </div>

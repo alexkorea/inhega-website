@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '국제물류주선업 등록 요건, 필요 서류, 처리 기간을 전문 행정사가 상세히 설명합니다. 자본금 3억 요건부터 보증보험까지 한 번에 확인하세요.',
     meta_title: '국제물류주선업 등록 방법 완벽 가이드 ',
     meta_description: '국제물류주선업 등록 자격·서류·처리기간 총정리. 자본금 3억, 보증보험 요건부터 실무 절차까지 전문 행정사가 안내합니다. 초기 상담 무료.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/international-logistics-registration-guide.jpg',
     created_at: '2026-05-09T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>국제물류주선업이란?</li><li>등록 신청 자격 요건</li><li>필요 서류 목록</li><li>등록 신청 절차</li><li>처리 기간과 비용</li><li>등록 후 의무사항</li><li>자주 묻는 실수와 주의사항</li><li>외국인투자기업 특례와 변경 등록 절차</li></ol></div>
 <h2>1. 국제물류주선업이란?</h2>
@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 처리 기간이 20 영업일을 넘으면 어떻게 하나요?</p><p class="faq-a">A. 담당 부서에 처리 현황을 문의할 수 있습니다. 행정사를 통해 진행하면 보완 요청에 신속히 대응할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록증 발급 후 바로 영업을 시작할 수 있나요?</p><p class="faq-a">A. 등록증 수령 즉시 영업이 가능합니다. 단, 통관 업무까지 수행하려면 세관에 화물운송주선업자로 별도 신고를 해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>국제물류주선업 등록, 혼자 하기 어렵다면?</h3><p>비전행정사사무소는 물류·운송 인허가 전문 행정사가 서류 준비부터 등록증 수령까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>국제물류주선업 등록, 혼자 하기 어렵다면?</h3><p>유선행정사사무소는 물류·운송 인허가 전문 행정사가 서류 준비부터 등록증 수령까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '2',
@@ -73,7 +73,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '환전업 등록에 필요한 자격, 서류, 절차를 상세히 안내합니다. 자금세탁방지 의무부터 등록 후 관리까지 실무 중심으로 설명합니다.',
     meta_title: '환전업 등록 방법과 요건 — 기획재정부 절차 총정리',
     meta_description: '환전업 등록 자격·서류·기획재정부 신청 절차 총정리. 개인·법인 모두 가능, 자금세탁방지 의무 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/currency-exchange-registration-guide.jpg',
     created_at: '2026-05-08T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>환전업이란?</li><li>등록 대상자</li><li>필요 서류</li><li>신청 절차</li><li>자금세탁방지(AML) 의무</li><li>처리 기간과 수수료</li><li>등록 후 주요 의무사항</li><li>환전소 시설 요건과 환율 게시 의무</li></ol></div>
 <h2>1. 환전업이란?</h2>
@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국인 대표의 법인도 등록 가능한가요?</p><p class="faq-a">A. 가능합니다. 외국인등록증 사본, 범죄경력 확인서(본국 발급) 등 추가 서류가 요구될 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록 취소 사유는 무엇인가요?</p><p class="faq-a">A. 거짓 신청, 결격 사유 발생, 6개월 이상 영업 미이행 등이 등록 취소 사유입니다.</p></div>
 </div>
-<div class="cta-box"><h3>환전업 등록, 전문가와 함께 빠르게</h3><p>비전행정사사무소는 환전업 등록 및 AML 내부통제기준 작성을 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>환전업 등록, 전문가와 함께 빠르게</h3><p>유선행정사사무소는 환전업 등록 및 AML 내부통제기준 작성을 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '3',
@@ -118,7 +118,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '건축물 용도변경 허가와 신고 차이, 필요 서류, 처리 기간을 상세히 안내합니다. 근린생활시설에서 숙박업, 식품업 등으로 변경 시 필독 가이드입니다.',
     meta_title: '건축물 용도변경 허가·신고 방법 — 절차·비용 총정리',
     meta_description: '건축물 용도변경 허가와 신고 차이, 서류, 처리기간, 비용 총정리. 근생에서 숙박으로·식품 변경 시 필독. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/building-usage.jpg',
+    cover_image: '/images/blog-thumbs/building-usage-change-guide.jpg',
     created_at: '2026-05-07T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>건축물 용도변경이란?</li><li>허가 vs 신고 vs 기재 차이점</li><li>용도 분류 체계</li><li>필요 서류</li><li>신청 절차</li><li>처리 기간과 비용</li><li>용도변경 후 주의사항</li><li>용도변경 가능 여부 확인과 활용 사례</li></ol></div>
 <h2>1. 건축물 용도변경이란?</h2>
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 세움터 온라인으로 신청이 가능한가요?</p><p class="faq-a">A. 세움터(etoos.go.kr)를 통해 신청 가능하나, 일부 지자체에서는 방문 접수를 병행합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 용도변경 후 기존 임차인에게 영향이 있나요?</p><p class="faq-a">A. 건축물 용도가 변경되면 임차인의 영업허가도 새 용도에 맞게 재신청이 필요한 경우가 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>건축물 용도변경, 전문가와 빠르게</h3><p>용도지역 검토부터 허가·신고, 건축물대장 변경까지 비전행정사사무소가 원스톱으로 처리합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>건축물 용도변경, 전문가와 빠르게</h3><p>용도지역 검토부터 허가·신고, 건축물대장 변경까지 유선행정사사무소가 원스톱으로 처리합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '4',
@@ -176,7 +176,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '식품제조가공업 허가 요건, 위생 시설 기준, 필요 서류를 상세히 안내합니다. 식약처 허가부터 HACCP 연계까지 식품 창업 필독 가이드입니다.',
     meta_title: '식품제조가공업 허가 신청 방법 — 위생·시설 기준 총정리',
     meta_description: '식품제조가공업 허가 조건·위생시설기준·서류·처리기간 총정리. 식약처 허가 절차와 HACCP 연계 방법 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/food-manufacturing-license-guide.jpg',
     created_at: '2026-05-06T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>식품제조가공업이란?</li><li>허가 vs 신고 구분</li><li>시설 기준</li><li>필요 서류</li><li>신청 절차</li><li>처리 기간</li><li>HACCP과의 연계</li><li>식품 안전·위생 기준과 영업 등록 후 관리 의무</li></ol></div>
 <h2>1. 식품제조가공업이란?</h2>
@@ -208,7 +208,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 식품 품목을 추가할 때 별도 허가가 필요한가요?</p><p class="faq-a">A. 품목 추가 보고 형식으로 처리됩니다. 별도 허가가 아니므로 절차가 간단합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 위생교육은 매년 받아야 하나요?</p><p class="faq-a">A. 영업자는 매년 식품위생교육을 이수해야 합니다. 종업원 교육도 연 1회 이상 의무입니다.</p></div>
 </div>
-<div class="cta-box"><h3>식품제조가공업 허가, 처음부터 제대로</h3><p>시설 기준 점검부터 허가증 취득까지 비전행정사사무소가 지원합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>식품제조가공업 허가, 처음부터 제대로</h3><p>시설 기준 점검부터 허가증 취득까지 유선행정사사무소가 지원합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '5',
@@ -223,7 +223,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '여성기업인증 신청 자격, 서류, 심사 과정과 정부 조달 우대 혜택을 상세히 안내합니다. 여성 CEO라면 반드시 알아야 할 기업 지원 제도입니다.',
     meta_title: '여성기업인증 신청 방법 — 조건·혜택·절차 총정리',
     meta_description: '여성기업인증 자격조건·혜택·서류·심사절차 총정리. 정부조달 우대·금융지원·세제혜택 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/women-enterprise-certification-guide.jpg',
     created_at: '2026-05-05T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>여성기업인증이란?</li><li>신청 자격 요건</li><li>인증 혜택</li><li>필요 서류</li><li>신청 절차와 심사 과정</li><li>인증 유효기간과 갱신</li><li>주의사항</li><li>여성기업인증 혜택 활용과 갱신 관리</li></ol></div>
 <h2>1. 여성기업인증이란?</h2>
@@ -268,7 +268,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 프리랜서(1인 기업)도 신청 가능한가요?</p><p class="faq-a">A. 사업자등록이 된 1인 개인사업자도 신청 가능합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 사회적기업 인증과 중복 취득이 가능한가요?</p><p class="faq-a">A. 두 인증은 별개이며 중복 취득이 가능합니다. 오히려 입찰 가점 등에서 시너지가 생깁니다.</p></div>
 </div>
-<div class="cta-box"><h3>여성기업인증, 받을 자격이 있다면 지금 바로</h3><p>서류 준비부터 심사 대응까지 비전행정사사무소가 도와드립니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>여성기업인증, 받을 자격이 있다면 지금 바로</h3><p>서류 준비부터 심사 대응까지 유선행정사사무소가 도와드립니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '6',
@@ -283,7 +283,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'HACCP 인증 신청 요건, 서류, 심사 절차를 상세히 안내합니다. 식품제조업 필수 인증인 HACCP을 효율적으로 취득하는 방법을 알아보세요.',
     meta_title: 'HACCP 인증 취득 방법 — 식품안전관리 절차 총정리',
     meta_description: 'HACCP 인증 신청 요건·서류·심사 절차 총정리. 의무 vs 임의 대상 구분, 관리계획서 작성법 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/haccp-certification-guide.jpg',
     created_at: '2026-05-04T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>HACCP이란?</li><li>의무 vs 임의 대상 구분</li><li>HACCP 7원칙</li><li>필요 서류</li><li>인증 신청 절차</li><li>인증 후 관리 의무</li><li>인증 취득의 실질적 혜택</li><li>HACCP 7원칙 상세와 비용·지원 제도</li></ol></div>
 <h2>1. HACCP이란?</h2>
@@ -330,7 +330,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. HACCP 인증과 ISO 22000의 차이는?</p><p class="faq-a">A. HACCP은 국내 식약처 기반 인증이고, ISO 22000은 국제 표준입니다. 수출을 목표로 한다면 ISO 22000 인증이 더 유리할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 인증 유효기간은 몇 년인가요?</p><p class="faq-a">A. HACCP 인증의 유효기간은 3년입니다. 만료 전 갱신 심사를 통과해야 지속적으로 인증을 유지할 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>HACCP 인증, 전문가와 함께 첫 번에</h3><p>HACCP 관리계획서 작성부터 현장 심사 대응까지 비전행정사사무소가 원스톱으로 지원합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>HACCP 인증, 전문가와 함께 첫 번에</h3><p>HACCP 관리계획서 작성부터 현장 심사 대응까지 유선행정사사무소가 원스톱으로 지원합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '7',
@@ -345,7 +345,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '벤처기업 확인과 이노비즈 인증의 차이점, 혜택, 신청 자격을 비교합니다. 세금 감면과 정부 지원을 최대화하는 인증 전략을 안내합니다.',
     meta_title: '벤처기업·이노비즈 인증 비교 가이드 ',
     meta_description: '벤처기업 확인 vs 이노비즈 인증 차이점·혜택·신청절차 총정리. 세금감면·병역특례·정부지원 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/venture-innobiz-certification-guide.jpg',
     created_at: '2026-05-03T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>벤처기업 확인이란?</li><li>이노비즈 인증이란?</li><li>두 인증의 차이점 비교</li><li>혜택 총정리</li><li>신청 자격과 평가 기준</li><li>신청 절차</li><li>인증 유지 전략</li><li>인증 후 혜택 활용과 갱신 관리</li></ol></div>
 <h2>1. 벤처기업 확인이란?</h2>
@@ -377,7 +377,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 법인세 50% 감면은 모든 업종에 해당하나요?</p><p class="faq-a">A. 서비스업 일부 업종은 감면 대상에서 제외될 수 있습니다. 업종별 세제 혜택은 세무사와 사전 확인이 필요합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 갱신 심사는 최초 심사와 동일한 기준인가요?</p><p class="faq-a">A. 갱신 심사는 최초 심사와 동일한 기준을 적용합니다. 다만 기존 인증 기간의 실적이 반영되므로 충실한 R&D·매출 관리가 중요합니다.</p></div>
 </div>
-<div class="cta-box"><h3>벤처·이노비즈 인증, 어떤 것이 맞을지 상담해보세요</h3><p>기업 현황을 분석하여 최적의 인증 전략을 설계합니다. 비전행정사사무소 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>벤처·이노비즈 인증, 어떤 것이 맞을지 상담해보세요</h3><p>기업 현황을 분석하여 최적의 인증 전략을 설계합니다. 유선행정사사무소 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '8',
@@ -392,7 +392,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '조달청 나라장터 공급업체 등록 절차, 필요 서류, 입찰 참여 방법을 상세히 안내합니다. 정부 조달 시장에 진입하려는 중소기업 필독 가이드입니다.',
     meta_title: '조달청 나라장터 공급업체 등록 방법 — 공공조달 가이드',
     meta_description: '나라장터 공급업체 등록 절차·서류·입찰방법 총정리. 중소기업 우대제도 활용법 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/procurement-narajangteo-registration-guide.jpg',
     created_at: '2026-05-02T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>나라장터란?</li><li>공급업체 등록 대상</li><li>등록 절차</li><li>필요 서류</li><li>중소기업 우대제도</li><li>입찰 참여 방법</li><li>실무 주의사항</li><li>입찰 가격 산정 전략과 부정당업자 제재 회피</li></ol></div>
 <h2>1. 나라장터란?</h2>
@@ -422,7 +422,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 세금 체납 중에도 나라장터 등록이 가능한가요?</p><p class="faq-a">A. 세금 체납 상태에서는 납세증명서 발급이 안 되므로 등록이 제한됩니다. 체납 해소 후 등록하세요.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 입찰에서 탈락하면 어떻게 되나요?</p><p class="faq-a">A. 전자입찰 탈락 시 별도 불이익은 없습니다. 다음 공고에 다시 참여하면 됩니다. 단, 허위 서류 제출로 탈락한 경우 부정당업자로 제재를 받을 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>나라장터 진입, 전략적으로 시작하세요</h3><p>업체 등록부터 입찰 전략 수립까지 비전행정사사무소가 지원합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>나라장터 진입, 전략적으로 시작하세요</h3><p>업체 등록부터 입찰 전략 수립까지 유선행정사사무소가 지원합니다. 초기 상담 무료.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '9',
@@ -437,7 +437,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '에어비앤비처럼 도심 주거시설에서 외국인 관광객을 합법적으로 받으려면 외국인도시민박업 등록이 필수입니다. 요건·서류·절차를 전문 행정사가 상세히 안내합니다.',
     meta_title: '외국인도시민박업 등록 방법 — 요건·서류·절차 총정리',
     meta_description: '외국인도시민박업 등록 자격·서류·처리기간 총정리. 에어비앤비 합법 운영을 위한 관광진흥법 등록 절차. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/urban-guesthouse-registration-guide.jpg',
     created_at: '2026-03-05T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>외국인도시민박업이란?</li><li>등록 신청 자격 요건</li><li>필요 서류 목록</li><li>등록 신청 절차</li><li>소방·위생 기준</li><li>처리 기간과 비용</li><li>등록 후 운영 의무사항</li></ol></div>
 <h2>1. 외국인도시민박업이란?</h2>
@@ -465,7 +465,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 아파트에서도 등록이 가능한가요?</p><p class="faq-a">A. 아파트 관리규약상 금지하지 않는 경우 등록이 가능합니다. 신청 전 입주자 대표회의 동의 여부를 확인하는 것이 안전합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 연간 운영 일수 제한이 있나요?</p><p class="faq-a">A. 현행법상 외국인도시민박업의 연간 운영 일수 제한은 없습니다. 다만 지자체 조례에 따라 제한을 두는 경우가 있으므로 확인이 필요합니다.</p></div>
 </div>
-<div class="cta-box"><h3>외국인도시민박업 등록, 전문가에게 맡기세요</h3><p>비전행정사사무소는 관광진흥법 기반 숙박업 인허가 전문 행정사가 서류 준비부터 등록증 수령까지 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>외국인도시민박업 등록, 전문가에게 맡기세요</h3><p>유선행정사사무소는 관광진흥법 기반 숙박업 인허가 전문 행정사가 서류 준비부터 등록증 수령까지 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '10',
@@ -480,7 +480,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '호스텔업 등록은 관광진흥법에 따른 관광사업 등록 절차입니다. 요건·서류·소방 기준 등 실무에 꼭 필요한 정보를 전문 행정사가 안내합니다.',
     meta_title: '호스텔업 등록 방법 — 요건·서류·절차 총정리',
     meta_description: '호스텔업 등록 자격·서류·처리기간 완벽 가이드. 게스트하우스 합법 운영을 위한 관광진흥법 등록 절차. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/hostel-registration-guide.jpg',
     created_at: '2026-03-12T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>호스텔업이란?</li><li>등록 요건</li><li>시설 기준</li><li>필요 서류</li><li>등록 절차</li><li>처리 기간과 수수료</li><li>등록 후 의무사항</li><li>외국인도시민박업과의 차이점 비교</li></ol></div>
 <h2>1. 호스텔업이란?</h2>
@@ -504,12 +504,12 @@ export const blogPosts: BlogPost[] = [
 <ul><li><strong>대상 고객:</strong> 호스텔업은 내·외국인 모두 / 외국인도시민박업은 외국인 관광객 전용</li><li><strong>시설 기준:</strong> 호스텔업은 객실·욕실·공용 시설 등 상세 시설 기준 적용 / 도시민박업은 거주 주택 활용</li><li><strong>소방 기준:</strong> 호스텔업은 스프링클러·자동 감지 설비 등 강화 기준 / 도시민박업은 기본 소화기·감지기 수준</li><li><strong>거주 요건:</strong> 호스텔업은 거주 의무 없음 / 도시민박업은 신청자 실거주 필수</li><li><strong>규모·수익성:</strong> 호스텔업은 다수 객실 운영으로 수익 규모 큼 / 도시민박업은 소규모 부업형에 적합</li></ul>
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 외국인도시민박업과 호스텔업의 차이는 무엇인가요?</p><p class="faq-a">A. 외국인도시민박업은 실제 거주 주택에서 외국인만 받는 소규모 사업인 반면, 호스텔업은 내·외국인 모두 대상이며 더 엄격한 시설·소방 기준이 적용됩니다.</p></div>
-<div class="faq-item"><p class="faq-q">Q. 기존 건물을 호스텔로 리모델링할 때 용도변경이 필요한가요?</p><p class="faq-a">A. 네, 기존 건물 용도가 숙박시설이 아닌 경우 건축물 용도변경이 선행되어야 합니다. 비전행정사사무소에서 용도변경부터 호스텔 등록까지 함께 진행할 수 있습니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 기존 건물을 호스텔로 리모델링할 때 용도변경이 필요한가요?</p><p class="faq-a">A. 네, 기존 건물 용도가 숙박시설이 아닌 경우 건축물 용도변경이 선행되어야 합니다. 유선행정사사무소에서 용도변경부터 호스텔 등록까지 함께 진행할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 호스텔업 등록 후 바로 온라인 예약 플랫폼에 등록할 수 있나요?</p><p class="faq-a">A. 네, 등록증 수령 즉시 부킹닷컴·에어비앤비·호스텔월드 등 플랫폼에 등록 가능합니다. 등록번호를 입력해야 하는 플랫폼도 있으니 등록증 번호를 보관하세요.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 도미토리(다인실) 운영 시 추가 기준이 있나요?</p><p class="faq-a">A. 도미토리는 남녀 공용 또는 분리 구성이 가능하며, 1인당 최소 면적과 개인 사물함 제공이 권장됩니다. 운영 방침을 사전에 명시하는 것이 좋습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 주택가에서도 호스텔업이 가능한가요?</p><p class="faq-a">A. 건물 용도가 숙박시설로 허용된 지역(용도지역 내 숙박 가능 지역)에서 운영 가능합니다. 전용주거지역 등 일부 지역에서는 제한됩니다.</p></div>
 </div>
-<div class="cta-box"><h3>호스텔업 등록, 전문가와 함께 시작하세요</h3><p>시설 기준 검토부터 소방 완공 검사, 관광사업 등록까지 비전행정사사무소가 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>호스텔업 등록, 전문가와 함께 시작하세요</h3><p>시설 기준 검토부터 소방 완공 검사, 관광사업 등록까지 유선행정사사무소가 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '11',
@@ -524,7 +524,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '전통 한옥을 활용한 체험 숙박 사업을 시작하려면 한옥체험업 등록이 필수입니다. 요건·서류·심사 절차를 전문 행정사가 상세히 안내합니다.',
     meta_title: '한옥체험업 등록 방법 — 요건·서류·절차 완벽 가이드',
     meta_description: '한옥체험업 등록 자격·서류·처리기간 총정리. 관광진흥법 한옥체험업 신청 절차와 운영 의무 안내. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/hanok-experience-registration-guide.jpg',
     created_at: '2026-03-19T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>한옥체험업이란?</li><li>등록 신청 요건</li><li>한옥 건축 기준</li><li>필요 서류</li><li>신청 절차</li><li>정부 지원 제도</li><li>등록 후 운영 의무</li><li>한옥 인테리어와 체험 콘텐츠 기획</li></ol></div>
 <h2>1. 한옥체험업이란?</h2>
@@ -555,7 +555,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 지방 농촌 지역 한옥도 등록할 수 있나요?</p><p class="faq-a">A. 네, 도시뿐 아니라 농촌 지역 한옥도 등록 가능합니다. 농촌 지역은 농어촌체험·휴양마을 사업과 연계하면 추가 지원을 받을 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 내국인 손님도 받을 수 있나요?</p><p class="faq-a">A. 네, 한옥체험업은 내·외국인 관광객 모두 이용할 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>한옥체험업 등록, 전문가와 함께 시작하세요</h3><p>비전행정사사무소는 관광사업 인허가 전문 행정사가 한옥 기준 확인부터 등록까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>한옥체험업 등록, 전문가와 함께 시작하세요</h3><p>유선행정사사무소는 관광사업 인허가 전문 행정사가 한옥 기준 확인부터 등록까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '12',
@@ -570,7 +570,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '외국산 담배를 수입하여 판매하려면 기획재정부의 담배수입판매업 허가가 필수입니다. 자본금·시설 요건부터 허가 절차까지 전문 행정사가 안내합니다.',
     meta_title: '담배수입판매업 허가 방법 — 요건·서류·절차 총정리',
     meta_description: '담배수입판매업 허가 자격·서류·처리기간 완벽 가이드. 외국산 담배 수입 판매를 위한 담배사업법 허가 절차. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-import-sales-guide.jpg',
     created_at: '2026-03-26T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>담배수입판매업이란?</li><li>허가 신청 요건</li><li>필요 서류</li><li>신청 절차</li><li>담배세·관세 처리</li><li>처리 기간</li><li>허가 후 의무사항</li><li>통관 실무와 미성년자 판매 금지 의무</li></ol></div>
 <h2>1. 담배수입판매업이란?</h2>
@@ -600,7 +600,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 온라인으로 담배를 판매할 수 있나요?</p><p class="faq-a">A. 국내법상 담배의 온라인 판매는 금지되어 있습니다. 소매상을 통한 오프라인 유통만 허용됩니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 외국인도 담배수입판매업 허가를 받을 수 있나요?</p><p class="faq-a">A. 가능합니다. 단, 국내 법인 설립 및 사업자 등록이 선행되어야 하며, 대표자 또는 임원의 국내 체류 자격이 적법해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>담배수입판매업 허가, 전문가에게 맡기세요</h3><p>비전행정사사무소는 담배사업법 인허가 전문 행정사가 자본금 요건 검토부터 허가증 수령까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>담배수입판매업 허가, 전문가에게 맡기세요</h3><p>유선행정사사무소는 담배사업법 인허가 전문 행정사가 자본금 요건 검토부터 허가증 수령까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '14',
@@ -615,7 +615,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '비영리사단법인 설립은 주무관청 허가, 창립총회, 법원 등기의 세 단계로 진행됩니다. 설립 요건·절차·소요 기간을 전문 행정사가 상세히 안내합니다.',
     meta_title: '비영리사단법인 설립 방법 — 주무관청 허가 절차 총정리',
     meta_description: '비영리사단법인 설립 요건·절차·서류 완벽 가이드. 주무관청 허가부터 법인등기까지 전 과정 안내. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/nonprofit-corporation-establishment-guide.jpg',
     created_at: '2026-04-09T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>비영리사단법인이란?</li><li>설립 요건</li><li>주무관청 선택</li><li>필요 서류</li><li>설립 절차</li><li>처리 기간</li><li>설립 후 의무사항</li></ol></div>
 <h2>1. 비영리사단법인이란?</h2>
@@ -642,7 +642,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 법인세 신고는 어떻게 하나요?</p><p class="faq-a">A. 비영리법인은 수익사업에서 발생한 소득에만 법인세가 과세됩니다. 매년 법인세 신고를 해야 하며, 수익사업이 없어도 신고 의무는 유지됩니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 외국인이 임원이 될 수 있나요?</p><p class="faq-a">A. 원칙적으로 외국인도 임원이 될 수 있습니다. 다만 주무관청에 따라 외국인 임원 비율 제한이나 추가 서류를 요구하는 경우가 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>비영리사단법인 설립, 전문가와 함께 빠르게 시작하세요</h3><p>비전행정사사무소는 법인 설립 전문 행정사가 정관 작성부터 등기까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>비영리사단법인 설립, 전문가와 함께 빠르게 시작하세요</h3><p>유선행정사사무소는 법인 설립 전문 행정사가 정관 작성부터 등기까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '15',
@@ -657,7 +657,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '기업부설연구소를 설립하면 연구개발비 세액공제 등 다양한 세제 혜택을 받을 수 있습니다. 인정 요건·서류·절차를 전문 행정사가 안내합니다.',
     meta_title: '기업부설연구소 설립 인정 방법 — 요건·세제혜택·절차 총정리',
     meta_description: '기업부설연구소 설립 인정 요건·서류·처리기간 완벽 가이드. 연구개발비 세액공제 등 세제 혜택과 한국산업기술진흥협회 신청 절차. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/corporate-research-lab-establishment-guide.jpg',
     created_at: '2026-04-16T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>기업부설연구소란?</li><li>설립 인정 요건</li><li>연구 인력 기준</li><li>연구 공간 기준</li><li>세제 혜택</li><li>신청 절차</li><li>인정 후 관리 의무</li></ol></div>
 <h2>1. 기업부설연구소란?</h2>
@@ -688,7 +688,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 연구소 설립 후 연구전담요원을 추가할 수 있나요?</p><p class="faq-a">A. 네, 가능합니다. 변경 신고를 통해 연구전담요원을 추가하거나 변경할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 업종 제한이 있나요?</p><p class="faq-a">A. 제조업·IT·바이오·서비스업 등 대부분의 업종에서 신청 가능합니다. 단순 도소매업은 인정이 어렵습니다.</p></div>
 </div>
-<div class="cta-box"><h3>기업부설연구소 설립, 세제 혜택을 빠르게 시작하세요</h3><p>비전행정사사무소는 KOITA 인정 신청부터 세제 혜택 연계까지 전문 행정사가 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>기업부설연구소 설립, 세제 혜택을 빠르게 시작하세요</h3><p>유선행정사사무소는 KOITA 인정 신청부터 세제 혜택 연계까지 전문 행정사가 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '16',
@@ -703,7 +703,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '전자담배를 수입하려면 담배사업법 및 관련 법령에 따른 허가가 필수입니다. 액상형·궐련형별 요건과 수입 절차를 전문 행정사가 상세히 안내합니다.',
     meta_title: '전자담배 수입 허가 방법 — 액상형·궐련형 절차 총정리',
     meta_description: '전자담배 수입 허가 요건·서류·처리기간 완벽 가이드. 담배사업법 기반 액상형·궐련형 전자담배 수입 절차 안내. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/e-cigarette-import-license-guide.jpg',
     created_at: '2026-04-23T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>전자담배 수입의 법적 근거</li><li>전자담배 종류별 허가 체계</li><li>수입 신청 요건</li><li>필요 서류</li><li>통관 절차</li><li>처리 기간</li><li>허가 후 의무사항</li></ol></div>
 <h2>1. 전자담배 수입의 법적 근거</h2>
@@ -732,7 +732,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 해외 유명 브랜드 전자담배를 병행 수입할 수 있나요?</p><p class="faq-a">A. 담배수입판매업 허가를 받은 후 관세청 통관 절차를 거치면 가능합니다. 단, 상표권 침해 여부를 반드시 사전에 확인해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 경고문구는 어떻게 부착해야 하나요?</p><p class="faq-a">A. 국민건강증진법 시행규칙에 따라 포장지 앞·뒷면의 30% 이상에 경고 그림과 문구를 부착해야 합니다. 수입 전 경고문구 인쇄 또는 스티커 부착 방식으로 처리합니다.</p></div>
 </div>
-<div class="cta-box"><h3>전자담배 수입 허가, 전문가와 함께 시작하세요</h3><p>비전행정사사무소는 담배 관련 인허가 전문 행정사가 허가부터 통관까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>전자담배 수입 허가, 전문가와 함께 시작하세요</h3><p>유선행정사사무소는 담배 관련 인허가 전문 행정사가 허가부터 통관까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '17',
@@ -747,7 +747,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '국제물류주선업 등록의 가장 큰 진입장벽인 자본금 3억 원 요건을 어떻게 충족하고 증명할 수 있는지, 보증보험 가입 방법까지 실무 중심으로 정리했습니다.',
     meta_title: '국제물류주선업 자본금 3억 마련 방법 — 잔고증명·보증보험 실무',
     meta_description: '국제물류주선업 자본금 3억 원 마련·증명 방법 완벽 가이드. 잔고증명서·보증보험 가입 실무와 절차 안내. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/international-logistics-capital-funding-guide.jpg',
     created_at: '2026-05-10T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>왜 자본금 3억 원이 필요한가</li><li>법인·개인사업자별 자본금 산정 방식</li><li>잔고증명서 발급 실무</li><li>보증보험 1억 원 가입 방법</li><li>공제조합으로 보증보험 대체</li><li>자본금 마련 시 주의사항</li><li>등록 후 자본금 활용 방법</li><li>잘못된 사례와 반려 원인</li></ol></div>
 <h2>1. 왜 자본금 3억 원이 필요한가</h2>
@@ -783,7 +783,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 보증보험 갱신을 깜빡 잊으면 어떻게 되나요?</p><p class="faq-a">A. 보증보험이 만료되면 영업 결격 사유에 해당하여 등록 취소 처분을 받을 수 있습니다. 만료 30일 전 알림을 설정하고 행정사를 통한 사후 관리를 권장합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 자본금 증액 후 변경 등록은 따로 해야 하나요?</p><p class="faq-a">A. 자본금 증액은 변경 등록 사유가 아닙니다. 다만 정관·자본금 변경에 따른 법인 변경 등기는 별도로 해야 하며, 이후 행정 자료가 일치되는지 확인하세요.</p></div>
 </div>
-<div class="cta-box"><h3>국제물류주선업 자본금·보증보험, 한 번에 해결하세요</h3><p>비전행정사사무소는 자본금 마련 컨설팅부터 보증보험 가입 알선, 등록 신청까지 원스톱으로 대행합니다. 초기 상담 무료, 한·영·중·일 가능합니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>국제물류주선업 자본금·보증보험, 한 번에 해결하세요</h3><p>유선행정사사무소는 자본금 마련 컨설팅부터 보증보험 가입 알선, 등록 신청까지 원스톱으로 대행합니다. 초기 상담 무료, 한·영·중·일 가능합니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '18',
@@ -798,7 +798,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '외국인도시민박업 등록 후 에어비앤비 등 플랫폼을 통한 합법 운영 방법, 외국인 숙박 신고, 세무 처리까지 실무 중심으로 정리했습니다.',
     meta_title: '에어비앤비·외국인도시민박업 운영 가이드 — 신고·세무 실무',
     meta_description: '외국인도시민박업 등록 후 에어비앤비 합법 운영 노하우. 외국인 숙박 신고·세무 신고·과태료 회피 방법까지. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/urban-guesthouse-airbnb-operation-guide.jpg',
     created_at: '2026-05-10T13:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>합법 운영을 위한 기본 원칙</li><li>에어비앤비 플랫폼 등록 절차</li><li>외국인 숙박 신고 의무</li><li>요금 책정과 세금계산서</li><li>객실 운영 노하우</li><li>고객 분쟁 대응 방법</li><li>세무 신고 가이드</li><li>적발·과태료 사례와 회피</li></ol></div>
 <h2>1. 합법 운영을 위한 기본 원칙</h2>
@@ -832,7 +832,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 부가가치세는 게스트가 직접 부담하나요?</p><p class="faq-a">A. 일반적으로 가격에 포함하여 사업자가 신고·납부합니다. 다만 사업자 게스트가 세금계산서를 요청하면 부가세를 별도 표기하여 발행할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 호스트 본인이 같은 집에 거주하지 않으면 위반인가요?</p><p class="faq-a">A. 외국인도시민박업은 실거주 호스트가 객실 일부를 제공하는 형태가 원칙입니다. 통째 임대(전실 운영)는 호스텔업 등 다른 등록 형태로 전환해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>외국인도시민박업·에어비앤비, 합법 운영을 시작하세요</h3><p>비전행정사사무소는 등록부터 외국인 숙박 신고, 세무 자문까지 원스톱으로 지원합니다. 한·영·중·일 상담 가능, 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>외국인도시민박업·에어비앤비, 합법 운영을 시작하세요</h3><p>유선행정사사무소는 등록부터 외국인 숙박 신고, 세무 자문까지 원스톱으로 지원합니다. 한·영·중·일 상담 가능, 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '19',
@@ -847,7 +847,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '비영리사단법인 설립의 핵심 관문인 정관 작성과 주무관청 인가 절차를 상세히 안내합니다. 필수 기재사항·반려 사례·심사 통과 노하우까지 한 번에 정리했습니다.',
     meta_title: '비영리사단법인 정관 작성·주무관청 인가 가이드 — 통과 노하우',
     meta_description: '비영리사단법인 정관 필수 기재사항, 주무관청 인가 절차, 반려 사례와 통과 노하우 완벽 가이드. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/nonprofit.jpg',
+    cover_image: '/images/blog-thumbs/nonprofit-corporation-articles-and-approval-guide.jpg',
     created_at: '2026-05-10T17:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>정관과 주무관청 인가의 중요성</li><li>정관 필수 기재사항 (민법 제40조)</li><li>설립 목적 작성 노하우</li><li>주무관청 선택과 협의</li><li>창립총회 의사록 작성</li><li>임원 구성과 결격 사유</li><li>주요 반려 사례와 보완 방법</li><li>인가 후 등기·후속 절차</li></ol></div>
 <h2>1. 정관과 주무관청 인가의 중요성</h2>
@@ -883,7 +883,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 정관에 사업 항목을 너무 많이 넣으면 문제가 되나요?</p><p class="faq-a">A. 비영리 목적과 무관한 사업을 다수 기재하면 영리 목적으로 의심받을 수 있습니다. 핵심 사업 5~10개로 제한하고, 추후 필요 시 정관 변경으로 추가하는 것이 안전합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 주무관청 인가까지 얼마나 걸리나요?</p><p class="faq-a">A. 일반적으로 1~3개월이 소요됩니다. 정관·사업계획서가 완비되고 사전 협의가 잘 이뤄진 경우 1~2개월 내 인가를 받을 수 있으나, 보완 요청이 반복되면 3~6개월까지 길어질 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>비영리사단법인 설립, 첫 정관부터 인가까지 함께합니다</h3><p>비전행정사사무소는 정관 작성, 주무관청 사전 협의, 인가 신청, 등기까지 원스톱으로 대행합니다. 통과율 높은 정관 템플릿과 주무관청별 노하우를 보유하고 있습니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>비영리사단법인 설립, 첫 정관부터 인가까지 함께합니다</h3><p>유선행정사사무소는 정관 작성, 주무관청 사전 협의, 인가 신청, 등기까지 원스톱으로 대행합니다. 통과율 높은 정관 템플릿과 주무관청별 노하우를 보유하고 있습니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '20',
@@ -898,7 +898,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '여성기업 확인서를 받은 후 5년 단위 갱신 절차와 자격 유지 의무를 정리했습니다. 갱신 시 흔히 발생하는 반려 사유와 대응법까지 안내합니다.',
     meta_title: '여성기업인증 갱신·자격 유지 가이드 — 5년 주기 관리법',
     meta_description: '여성기업 확인서 갱신 절차·자격 유지 요건·반려 사례 완벽 가이드. 5년 주기 관리와 임원 변경 신고까지. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/women-enterprise.jpg',
+    cover_image: '/images/blog-thumbs/women-enterprise-renewal-management-guide.jpg',
     created_at: '2026-05-11T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>여성기업 확인서 유효기간</li><li>갱신 신청 시점과 절차</li><li>자격 유지 핵심 요건</li><li>임원·지분 변경 시 신고 의무</li><li>갱신 시 필요 서류</li><li>주요 반려 사유와 보완</li><li>확인 취소 사례</li><li>갱신 후 활용 전략</li></ol></div>
 <h2>1. 여성기업 확인서 유효기간</h2>
@@ -933,7 +933,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 갱신 후 임원 변경이 자유로운가요?</p><p class="faq-a">A. 임원 변경은 자유로우나 여성 임원 비율이 50% 이상 유지되어야 합니다. 변경 후 30일 이내 변경 신고를 해야 하며, 미신고 시 자격 취소 위험이 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 갱신 심사에서 매출 규모도 평가하나요?</p><p class="faq-a">A. 매출 규모 자체는 평가 기준이 아니지만 휴·폐업 상태가 아닌지 확인합니다. 부가가치세 신고가 0원인 분기가 반복되면 실질 사업 운영 여부를 추가 심사받을 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>여성기업 확인 갱신, 자격 유지·관리 전문가가 함께합니다</h3><p>비전행정사사무소는 여성기업 확인 신규·갱신·변경 신고를 원스톱으로 대행합니다. 자격 유지 점검부터 부정 수급 위험 진단까지 종합 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>여성기업 확인 갱신, 자격 유지·관리 전문가가 함께합니다</h3><p>유선행정사사무소는 여성기업 확인 신규·갱신·변경 신고를 원스톱으로 대행합니다. 자격 유지 점검부터 부정 수급 위험 진단까지 종합 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '21',
@@ -948,7 +948,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '환전업 등록과 운영의 핵심 의무인 AML(자금세탁방지) 내부통제기준 작성·운용 방법을 실무 중심으로 정리했습니다. 의심거래·고액현금거래 보고 실무까지 안내합니다.',
     meta_title: '환전업 AML 내부통제기준 작성 실무 — 자금세탁방지 가이드',
     meta_description: '환전업 AML(자금세탁방지) 내부통제기준 작성·CDD·STR·CTR 보고 실무 완벽 가이드. 기획재정부·FIU 의무 안내. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/currency-exchange.jpg',
+    cover_image: '/images/blog-thumbs/currency-exchange-aml-internal-control-guide.jpg',
     created_at: '2026-05-11T13:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>AML이란? 환전업자의 의무</li><li>내부통제기준의 법적 근거</li><li>내부통제기준 필수 기재사항</li><li>고객확인의무(CDD) 실무</li><li>의심거래 보고(STR) 절차</li><li>고액현금거래 보고(CTR)</li><li>거래 기록 보관 의무</li><li>위반 시 제재와 사례</li></ol></div>
 <h2>1. AML이란? 환전업자의 의무</h2>
@@ -984,7 +984,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국인 고객의 신원 확인은 어떻게 하나요?</p><p class="faq-a">A. 여권 + 외국인등록증(또는 비자) 사본을 확보해야 합니다. 단기 체류자는 여권만으로도 가능하나, 정기 거래 시에는 외국인등록증 추가 확인이 안전합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. AML 교육은 어떻게 진행하나요?</p><p class="faq-a">A. 연 1회 이상 정기 교육이 의무이며, FIU 또는 전문 컨설팅 회사의 교육 프로그램을 활용할 수 있습니다. 교육 기록과 이수증을 5년간 보관해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>환전업 AML 시스템, 처음부터 제대로 구축하세요</h3><p>비전행정사사무소는 환전업 등록과 AML 내부통제기준 작성·교육·정기 평가까지 원스톱으로 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>환전업 AML 시스템, 처음부터 제대로 구축하세요</h3><p>유선행정사사무소는 환전업 등록과 AML 내부통제기준 작성·교육·정기 평가까지 원스톱으로 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '22',
@@ -999,7 +999,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'HACCP 인증을 취득한 후 사후관리 의무와 정기 평가·갱신·취소 사례를 정리했습니다. 인증을 안전하게 유지하기 위한 실무 체크리스트를 안내합니다.',
     meta_title: 'HACCP 인증 후 사후관리 가이드 — 정기 평가·갱신·취소',
     meta_description: 'HACCP 인증 사후관리 의무·정기 평가·갱신·취소 사례 완벽 가이드. 인증 유지 체크리스트와 평가 대응 방법. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/haccp.jpg',
+    cover_image: '/images/blog-thumbs/haccp-post-certification-management-guide.jpg',
     created_at: '2026-05-11T17:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>HACCP 인증의 효력과 의무</li><li>정기 평가 주기와 절차</li><li>사후관리 핵심 의무 6가지</li><li>인증 갱신 절차</li><li>변경 신고 의무</li><li>주요 취소·정지 사례</li><li>인증 후 정부 지원 활용</li><li>인증 유지 체크리스트</li></ol></div>
 <h2>1. HACCP 인증의 효력과 의무</h2>
@@ -1036,7 +1036,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. CCP 기록은 종이로 보관해도 되나요?</p><p class="faq-a">A. 가능하나 변조 의심을 받기 쉬워 권장하지 않습니다. 스마트 HACCP 시스템 또는 디지털 기록 시스템을 도입하면 정부 지원을 받으면서 신뢰성도 높일 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 인증 사업장 매각 시 인증이 자동 이전되나요?</p><p class="faq-a">A. 자동 이전되지 않습니다. 매수인이 별도로 변경 신청 또는 신규 인증을 받아야 하며, 시설·시스템이 유지된 경우 간이 절차가 적용될 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>HACCP 인증 유지·갱신, 전문가가 함께합니다</h3><p>비전행정사사무소는 HACCP 신규 인증부터 정기 평가 대응, 갱신, 변경 신고까지 사후관리 전 과정을 원스톱으로 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>HACCP 인증 유지·갱신, 전문가가 함께합니다</h3><p>유선행정사사무소는 HACCP 신규 인증부터 정기 평가 대응, 갱신, 변경 신고까지 사후관리 전 과정을 원스톱으로 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '23',
@@ -1051,7 +1051,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '근린생활시설을 민박으로, 창고를 식품 제조소로 바꾸는 등 실제 용도변경 사례를 분석했습니다. 변경 절차·소요 기간·주의사항을 사례별로 정리합니다.',
     meta_title: '건축물 용도변경 사례 가이드 — 시설 전환 실무 총정리',
     meta_description: '근린생활시설·식품제조·창고 전환 등 건축물 용도변경 실제 사례 가이드. 절차·기간·비용·주의사항 정리. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/building-usage.jpg',
+    cover_image: '/images/blog-thumbs/building-usage-change-case-studies-guide.jpg',
     created_at: '2026-05-12T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>용도변경이 필요한 시점</li><li>용도군 분류 체계</li><li>사례 1: 근린생활시설 이후 외국인도시민박</li><li>사례 2: 사무실 이후 식품 제조·가공소</li><li>사례 3: 창고 이후 공연장·전시장</li><li>사례 4: 주택 이후 학원·교습소</li><li>사례 5: 공장 이후 호스텔</li><li>용도변경 시 공통 점검사항</li><li>실무 비용·기간 비교</li></ol></div>
 <h2>1. 용도변경이 필요한 시점</h2>
@@ -1087,7 +1087,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 위반 건축물이 있는 경우 용도변경이 가능한가요?</p><p class="faq-a">A. 원칙적으로 위반 사항을 시정한 후에 가능합니다. 베란다 확장·옥상 증축 등 위반 사항이 있으면 먼저 양성화 또는 철거 후 용도변경을 신청해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 용도변경 신고와 허가의 차이는 무엇인가요?</p><p class="faq-a">A. 신고는 동일 시설군 내 변경으로 약 1~2주 소요되며, 허가는 다른 시설군 변경으로 2~4주 또는 그 이상 소요됩니다. 허가는 구조·소방 등 추가 심사를 거칩니다.</p></div>
 </div>
-<div class="cta-box"><h3>건축물 용도변경, 사례별 최적 전략을 찾으세요</h3><p>비전행정사사무소는 건축법·관련 인허가 종합 컨설팅 행정사가 사례 분석부터 용도변경·후속 인허가까지 원스톱으로 대행합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>건축물 용도변경, 사례별 최적 전략을 찾으세요</h3><p>유선행정사사무소는 건축법·관련 인허가 종합 컨설팅 행정사가 사례 분석부터 용도변경·후속 인허가까지 원스톱으로 대행합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '25',
@@ -1102,7 +1102,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '나라장터 입찰에서 가장 중요한 가격 산정 전략을 정리했습니다. 협상가격계약·최저가 낙찰 차이부터 실패 회피 방법까지 실무 중심으로 안내합니다.',
     meta_title: '나라장터 입찰 가격 산정 전략 — 협상가격·최저가 비교',
     meta_description: '조달청 나라장터 입찰 가격 산정 전략과 협상가격계약·최저가 낙찰 비교. 가점 활용·실수 회피 실무 가이드. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/procurement.jpg',
+    cover_image: '/images/blog-thumbs/narajangteo-bidding-price-strategy-guide.jpg',
     created_at: '2026-05-12T17:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>나라장터 낙찰 방식 개요</li><li>최저가 낙찰제 (가격 우선)</li><li>협상에 의한 계약 (종합 평가)</li><li>적격심사제 (자격 + 가격)</li><li>예정가격과 입찰가 산정</li><li>가점 활용 전략</li><li>저가 입찰 위험과 대응</li><li>낙찰 실패 사례와 교훈</li><li>실무 가격 산정 체크리스트</li></ol></div>
 <h2>1. 나라장터 낙찰 방식 개요</h2>
@@ -1139,7 +1139,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 낙찰 후 계약을 거절할 수 있나요?</p><p class="faq-a">A. 정당한 사유 없이 거절하면 입찰보증금 몰수 + 부정당업자 제재(6개월~2년 입찰 참여 제한)를 받습니다. 입찰 전 이행 가능성을 신중히 검토해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 협상에 의한 계약에서 가격 협상이 가능한가요?</p><p class="faq-a">A. 1순위 협상 대상자로 선정된 후 발주 기관과 가격·조건 협상이 가능합니다. 다만 입찰가보다 높게 협상은 불가하며, 통상 입찰가 또는 일부 인하 수준에서 합의됩니다.</p></div>
 </div>
-<div class="cta-box"><h3>나라장터 입찰, 전략적으로 시작하세요</h3><p>비전행정사사무소는 나라장터 등록부터 낙찰 방식 분석·가격 산정 컨설팅·가점 인증 취득까지 종합 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>나라장터 입찰, 전략적으로 시작하세요</h3><p>유선행정사사무소는 나라장터 등록부터 낙찰 방식 분석·가격 산정 컨설팅·가점 인증 취득까지 종합 지원합니다. 초기 상담 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '26',
@@ -1154,7 +1154,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '기업부설연구소를 불법 대행업체에 맡겼다가 세금 추징·과태료 폭탄을 맞은 기업이 급증하고 있습니다. 허위 설립의 위험성, 올바른 운영법, 전문 행정사 선택 기준을 정리합니다.',
     meta_title: '기업부설연구소 대행업체 과태료 위험 — 허위 설립 추징·처벌 완벽 정리',
     meta_description: '기업부설연구소 불법 대행업체 이용 시 세금 추징·가산세·과태료 발생. 허위 설립 취소 사례와 올바른 운영·관리법을 전문 행정사가 안내합니다.',
-    cover_image: '/images/blog-topics/research-lab.jpg',
+    cover_image: '/images/blog-thumbs/corporate-research-lab-agency-risk-guide.jpg',
     created_at: '2026-05-13T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>왜 기업부설연구소 대행 문제가 터지나</li><li>허위 설립이란 무엇인가</li><li>인정 취소 3가지 유형</li><li>취소 시 실제 불이익 — 세금 추징·가산세</li><li>불법 대행업체의 전형적인 수법</li><li>올바른 기업부설연구소 운영 요건</li><li>사후 관리 의무와 연간 조사</li><li>전문 행정사에게 맡겨야 하는 이유</li></ol></div>
 <h2>1. 왜 기업부설연구소 대행 문제가 터지나</h2>
@@ -1226,7 +1226,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>세무사 연계:</strong> 실제 세액공제 신청까지 원스톱 지원</li>
 <li><strong>법적 책임:</strong> 행정사는 업무에 법적 책임을 지며, 불법 컨설팅 업체와 다름</li>
 </ul>
-<p>비전행정사사무소는 기업부설연구소 설립부터 KOITA 인정·세액공제 연계·사후 관리까지 전문 행정사가 원스톱으로 지원합니다. 잘못된 대행업체 선택으로 수천만 원의 세금 추징을 받기 전에 전문가와 먼저 상담하세요.</p>
+<p>유선행정사사무소는 기업부설연구소 설립부터 KOITA 인정·세액공제 연계·사후 관리까지 전문 행정사가 원스톱으로 지원합니다. 잘못된 대행업체 선택으로 수천만 원의 세금 추징을 받기 전에 전문가와 먼저 상담하세요.</p>
 <div class="faq-section"><h3>자주 묻는 질문</h3>
 <div class="faq-item"><p class="faq-q">Q. 대행업체를 통해 설립했는데 이미 세액공제를 받았습니다. 어떻게 해야 하나요?</p><p class="faq-a">A. 즉시 설립 요건을 점검하고 미비점을 보완해야 합니다. 자진 폐지 후 요건을 갖춰 재설립하는 것이 추징 위험을 줄이는 방법입니다. 전문 행정사·세무사와 상담하여 현재 상태를 진단받으세요.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 기업부설연구소 설립 후 연구원이 퇴사하면 어떻게 되나요?</p><p class="faq-a">A. 최소 인원 미달 상태가 되면 30일 이내에 보완해야 합니다. 보완하지 않으면 직권 취소 대상이 됩니다. 연구원 교체 시에는 반드시 변경신고를 먼저 진행하세요.</p></div>
@@ -1234,7 +1234,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 세액공제는 언제부터 적용되나요?</p><p class="faq-a">A. KOITA 인정서 발급일 이후 발생한 비용부터 세액공제가 적용됩니다. 인정 이전 비용은 소급 적용되지 않으므로, 요건 충족 즉시 신청하는 것이 유리합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 전문 행정사와 불법 컨설팅 업체를 구별하는 방법은?</p><p class="faq-a">A. 행정사는 행정사법에 따라 등록된 자격자입니다. 행정안전부 행정사 자격 조회 시스템에서 등록 여부를 확인할 수 있습니다. "무조건 된다", "연구노트 대신 써드린다"고 제안하는 업체는 불법입니다.</p></div>
 </div>
-<div class="cta-box"><h3>기업부설연구소, 처음부터 올바르게 설립하세요</h3><p>비전행정사사무소는 KOITA 인정 신청·세액공제 연계·사후 관리까지 전문 행정사가 책임지고 지원합니다. 잘못된 대행업체로 인한 과태료 위험을 피하려면 초기 상담부터 전문가와 함께하세요.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>기업부설연구소, 처음부터 올바르게 설립하세요</h3><p>유선행정사사무소는 KOITA 인정 신청·세액공제 연계·사후 관리까지 전문 행정사가 책임지고 지원합니다. 잘못된 대행업체로 인한 과태료 위험을 피하려면 초기 상담부터 전문가와 함께하세요.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '28',
@@ -1249,7 +1249,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '화장품 제조업 등록을 위한 시설기준(작업소·보관소·시험실)과 결격사유, 신청 서류, 처리기간을 최신 기준으로 정리합니다. 의약품안전나라 온라인 신청 방법까지 단계별 안내.',
     meta_title: '소규모 화장품 제조업 등록 방법 시설기준 — 식약처 절차 완벽 정리',
     meta_description: '화장품법 시행규칙 제6조 기준 시설기준·결격사유·신청서류·처리기간 총정리. 의약품안전나라 온라인 신청, 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/cosmetics.jpg',
+    cover_image: '/images/blog-thumbs/cosmetics-manufacturing-registration.jpg',
     created_at: '2026-05-13T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>화장품 제조업 vs 책임판매업 — 차이와 선택</li><li>등록 결격사유 — 신청 전 반드시 확인</li><li>필수 시설기준 — 작업소·보관소·시험실</li><li>시험실 면제 요건</li><li>등록 신청 서류 목록</li><li>의약품안전나라 온라인 신청 절차</li><li>처리기간과 변경 신고 의무</li><li>자주 하는 실수와 주의사항</li></ol></div>
 <h2>1. 화장품 제조업 vs 책임판매업 — 차이와 선택</h2>
@@ -1332,14 +1332,13 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 작업소 면적 최소 기준이 있나요?</p><p class="faq-a">A. 화장품법상 작업소의 최소 면적 기준은 별도로 정해져 있지 않습니다. 다만 제조 품목과 생산량에 맞는 적정 면적을 갖추어야 하며, 방충·방서·분진 제거 시설을 갖출 수 있는 공간이어야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 해외에서 화장품 완제품을 수입하여 국내에 판매하려면 어떤 등록이 필요한가요?</p><p class="faq-a">A. 수입 판매는 화장품 제조업이 아닌 <strong>화장품 책임판매업</strong> 등록이 필요합니다. 수입 시 각 품목별로 식약처에 화장품 수입신고를 해야 하며, 기능성 화장품은 심사 또는 보고가 추가로 필요합니다.</p></div>
 </div>
-<div class="cta-box"><h3>화장품 제조업 등록, 처음부터 제대로 준비하세요</h3><p>비전행정사사무소는 화장품 제조업 등록 시 서류 준비부터 관할 지방식약청 접수, 현장 실사 대응까지 전 과정을 지원합니다. 시설기준 진단, 시험실 위탁 연계까지<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>화장품 제조업 등록, 처음부터 제대로 준비하세요</h3><p>유선행정사사무소는 화장품 제조업 등록 시 서류 준비부터 관할 지방식약청 접수, 현장 실사 대응까지 전 과정을 지원합니다. 시설기준 진단, 시험실 위탁 연계까지<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '31',
     slug: 'corporate-rnd-center-requirements',
     relatedServices: [
       { title: '벤처기업 확인', href: '/services/venture-cert' },
-      { title: '이노비즈 인증', href: '/services/venture-cert' },
       { title: '조달청 나라장터 등록', href: '/services/procurement' },
     ],
     title: '기업부설연구소 설립 요건과 인원 기준 — 2월 신법 완벽 가이드',
@@ -1347,7 +1346,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '2월 신설된 기업부설연구소등의 연구개발 지원에 관한 법률 기준으로 설립 요건, 연구인원 기준, 세액공제 혜택을 총정리합니다.',
     meta_title: '기업부설연구소 설립 요건·인원 기준 완벽 가이드',
     meta_description: '2월 신법 기준 기업부설연구소 설립 요건·연구인원 기준·세액공제 혜택 총정리. 소기업 3명·중기업 5명 기준 포함. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/corporate-rnd-center-requirements.jpg',
     created_at: '2026-05-14T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>기업부설연구소란?</li><li>2월 신법 주요 변경 사항</li><li>기업 규모별 연구인원 기준</li><li>연구공간 요건</li><li>필요 서류와 신고 절차</li><li>세액공제 혜택</li><li>설립 후 사후관리 의무</li><li>자주 발생하는 실수와 주의사항</li></ol></div>
 <h2>1. 기업부설연구소란?</h2>
@@ -1403,7 +1402,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 프리랜서 연구원을 전담 연구인력으로 등록할 수 있나요?</p><p class="faq-a">A. 원칙적으로 전담 연구인력은 해당 기업에 정규 고용된 인력이어야 합니다. 프리랜서·외부 인력은 위탁 연구비로는 인정받을 수 있으나, 전담 연구인력 인원 산정에는 포함되지 않습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 기업부설연구소 설립 시 전문가 도움이 필요한 이유는 무엇인가요?</p><p class="faq-a">A. 연구인력 자격 요건 검토, 공간 구획 적정성 확인, 세액공제 대상 비용 범주 판단 등이 복잡하여 실수가 잦습니다. 전문 행정사의 사전 점검으로 보완 요청 없이 1차 통과하는 경우가 많습니다.</p></div>
 </div>
-<div class="cta-box"><h3>기업부설연구소 설립, 세액공제 혜택 극대화하기</h3><p>비전행정사사무소는 연구인력 자격 검토부터 신고증 발급, 세액공제 서류 준비까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>기업부설연구소 설립, 세액공제 혜택 극대화하기</h3><p>유선행정사사무소는 연구인력 자격 검토부터 신고증 발급, 세액공제 서류 준비까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '32',
@@ -1418,7 +1417,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '화장품 제조업 등록 자격, 시설 기준, 필요 서류, 신청 절차를 식약처 기준으로 상세히 안내합니다. 제조업과 책임판매업 차이부터 등록 후 관리까지 실무 중심으로 설명합니다.',
     meta_title: '화장품 제조업 등록 방법·시설기준 — 식약처 절차 총정리',
     meta_description: '화장품 제조업 등록 자격·시설기준·서류·처리기간 총정리. 제조업 vs 책임판매업 구분, 지방식약청 접수 절차 포함. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/cosmetics-manufacturing-facility-guide.jpg',
     created_at: '2026-05-14T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>화장품 제조업이란?</li><li>제조업과 책임판매업 차이</li><li>등록 신청 자격</li><li>시설 기준</li><li>필요 서류</li><li>신청 절차</li><li>처리 기간과 등록면허세</li><li>등록 후 의무사항과 행정처분 예방</li></ol></div>
 <h2>1. 화장품 제조업이란?</h2>
@@ -1469,7 +1468,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 등록 후 공장을 이전하면 어떻게 해야 하나요?</p><p class="faq-a">A. 제조소 소재지가 변경되면 이전 후 즉시 변경 등록을 해야 합니다. 변경 전에 새 시설이 기준을 충족하는지 사전에 점검하고, 지방식약청에 변경 등록 신청을 접수합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 화장품 제조업 등록 완료까지 얼마나 걸리나요?</p><p class="faq-a">A. 서류 완비 및 시설 기준 충족 시 통상 15 영업일 이내입니다. 시설 보완이 필요하거나 서류 미비로 보완 요청이 오면 처리 기간이 늘어날 수 있습니다. 전문가와 함께 사전 점검을 받으면 1차 통과 가능성이 높아집니다.</p></div>
 </div>
-<div class="cta-box"><h3>화장품 제조업 등록, 시설 점검부터 등록증 수령까지</h3><p>비전행정사사무소는 시설 기준 사전 점검, 서류 준비, 지방식약청 접수 대행을 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>화장품 제조업 등록, 시설 점검부터 등록증 수령까지</h3><p>유선행정사사무소는 시설 기준 사전 점검, 서류 준비, 지방식약청 접수 대행을 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '33',
@@ -1484,7 +1483,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '국제물류주선업 등록에 필요한 자본금 3억 원, 보증보험 1억 원 요건을 상세히 설명합니다. 법인·개인 기준 차이, 보증보험 대체 수단, 자본금 유지 관리까지 실무 중심으로 안내합니다.',
     meta_title: '국제물류주선업 자본금·보증보험 요건 — 등록 핵심 가이드',
     meta_description: '국제물류주선업 자본금 3억·보증보험 1억 요건 총정리. 법인·개인 기준, 보증보험 대체 수단, 자본금 유지 방법 포함. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/freight-forwarder-capital-bond-requirements.jpg',
     created_at: '2026-05-14T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>국제물류주선업 자본금 요건이란?</li><li>법인과 개인사업자 기준 차이</li><li>보증보험 요건과 가입 방법</li><li>보증보험 대체 수단</li><li>자본금 증명 서류 준비 방법</li><li>등록 신청 절차</li><li>자본금·보증 유지 관리</li><li>외국인투자기업의 자본금 요건 적용 특례</li></ol></div>
 <h2>1. 국제물류주선업 자본금 요건이란?</h2>
@@ -1499,7 +1498,7 @@ export const blogPosts: BlogPost[] = [
 
 
 <p><strong>자본금 요건 충족 여부가 불확실하거나 법인 설립부터 함께 진행하려는 경우 전문가 검토가 필요합니다.</strong></p>
-<p>비전행정사사무소에서 자본금 충족 방법부터 등록증 수령까지 원스톱 지원을 받으세요.</p>
+<p>유선행정사사무소에서 자본금 충족 방법부터 등록증 수령까지 원스톱 지원을 받으세요.</p>
 <p><strong><a href="/contact">무료 상담 신청하기</a></strong></p>
 
 
@@ -1536,16 +1535,15 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 보증보험이 만료되면 자동으로 영업이 정지되나요?</p><p class="faq-a">A. 자동 정지는 아니지만, 보증보험 공백 상태에서 영업을 계속하면 행정처분(영업 정지, 등록 취소)을 받을 수 있습니다. 갱신 만료 전 반드시 갱신해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 개인사업자로 등록하는 것이 법인보다 유리한 경우가 있나요?</p><p class="faq-a">A. 개인사업자의 경우 자산평가액 6억 원 요건이 오히려 더 높습니다. 대부분의 경우 자본금 3억 원을 납입한 법인으로 설립·등록하는 것이 실무상 더 유리합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록 후 다른 지역으로 사무소를 이전하면 어떻게 해야 하나요?</p><p class="faq-a">A. 소재지 변경 사유 발생일로부터 30일 이내에 관할 지방국토관리청에 변경 등록 신청을 해야 합니다. 이전한 사무소의 임대차계약서와 내부 사진을 첨부합니다.</p></div>
-<div class="faq-item"><p class="faq-q">Q. 국제물류주선업 등록을 행정사에게 대행하면 어떤 점이 유리한가요?</p><p class="faq-a">A. 자본금 증빙 서류 작성, 보증보험 가입 절차, 사업계획서 작성, 관할청 보완 대응 등 복잡한 과정을 전문가가 관리하므로 1차 통과율이 높고 처리 기간이 단축됩니다. 비전행정사사무소는 초기 상담을 무료로 제공합니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 국제물류주선업 등록을 행정사에게 대행하면 어떤 점이 유리한가요?</p><p class="faq-a">A. 자본금 증빙 서류 작성, 보증보험 가입 절차, 사업계획서 작성, 관할청 보완 대응 등 복잡한 과정을 전문가가 관리하므로 1차 통과율이 높고 처리 기간이 단축됩니다. 유선행정사사무소는 초기 상담을 무료로 제공합니다.</p></div>
 </div>
-<div class="cta-box"><h3>국제물류주선업 자본금·보증보험, 전문가와 함께 준비하세요</h3><p>비전행정사사무소는 법인 설립부터 자본금 증빙, 보증보험 가입, 지방국토관리청 접수까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>국제물류주선업 자본금·보증보험, 전문가와 함께 준비하세요</h3><p>유선행정사사무소는 법인 설립부터 자본금 증빙, 보증보험 가입, 지방국토관리청 접수까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '34',
     slug: 'sports-club-establishment-guide',
     relatedServices: [
       { title: '비영리사단법인 설립', href: '/services/nonprofit' },
-      { title: '체육시설업 신고·등록', href: '/services/sports-facility' },
       { title: '기업인증(벤처/이노비즈)', href: '/services/venture-cert' },
     ],
     title: '스포츠클럽 설립 완벽 가이드 — 등록부터 지정스포츠클럽 지정까지',
@@ -1553,7 +1551,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '스포츠클럽 설립 요건·절차, 지정스포츠클럽 지정 기준, 전문특화선수 육성 규정, 공공체육시설 대관 우선권까지 전문 행정사가 한 번에 안내합니다.',
     meta_title: '스포츠클럽 설립 요건·절차 완벽 가이드 — 지정스포츠클럽 포함',
     meta_description: '스포츠클럽법에 따른 등록 요건·절차, 지정스포츠클럽 지정 기준, 공공체육시설 대관 우선권 총정리. 전문 행정사 초기 상담 무료. 02-363-2251.',
-    cover_image: '/images/blog-topics/nonprofit.jpg',
+    cover_image: '/images/blog-thumbs/sports-club-establishment-guide.jpg',
     created_at: '2026-05-14T12:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>스포츠클럽법 제정 배경과 목적</li><li>스포츠클럽 설립 형태 및 자격 요건</li><li>등록스포츠클럽 신청 절차와 필요 서류</li><li>지정스포츠클럽 지정 기준과 요건</li><li>지정스포츠클럽 지정 절차</li><li>공공체육시설 대관: 지정스포츠클럽의 우선권</li><li>전문특화선수 육성 관련 규정</li><li>등록·지정 후 주요 의무사항</li></ol></div>
 <h2>1. 스포츠클럽법 제정 배경과 목적</h2>
@@ -1575,7 +1573,7 @@ export const blogPosts: BlogPost[] = [
 
 
 <p><strong>스포츠클럽 설립 형태 선택부터 법인 설립, 등록 신청까지 전문 행정사가 원스톱으로 안내드립니다.</strong></p>
-<p>비전행정사사무소는 비영리 사단법인 설립 경험이 풍부하며, 스포츠클럽 등록 요건 충족 여부를 먼저 검토해 드립니다.</p>
+<p>유선행정사사무소는 비영리 사단법인 설립 경험이 풍부하며, 스포츠클럽 등록 요건 충족 여부를 먼저 검토해 드립니다.</p>
 <p><strong><a href="/contact">무료 상담 신청하기</a></strong></p>
 
 
@@ -1653,24 +1651,22 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 스포츠클럽 설립 시 법인 설립이 반드시 필요한가요?</p><p class="faq-a">A. 반드시 법인일 필요는 없습니다. 정관과 대의기구를 갖춘 단체도 등록스포츠클럽으로 등록할 수 있습니다. 다만 지정스포츠클럽 지정 및 향후 법인 전환을 고려한다면 처음부터 비영리 사단법인으로 설립하는 것이 행정 부담을 줄일 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 지정스포츠클럽으로 지정되면 공공체육시설을 무조건 무료로 사용할 수 있나요?</p><p class="faq-a">A. 지자체 조례에 따라 최대 100%까지 감면받을 수 있지만, 모든 지자체가 100% 감면을 적용하는 것은 아닙니다. 또한 우선 수의계약이 가능하므로 경쟁 없이 시설을 사용할 수 있는 점이 큰 장점입니다. 구체적인 감면율은 관할 지자체 조례를 확인해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 3년 이상 활동 실적이 없으면 지정스포츠클럽 신청이 불가능한가요?</p><p class="faq-a">A. 현재 스포츠클럽법 시행령 기준으로 3년 이상 활동 실적이 지정 요건 중 하나입니다. 따라서 신생 클럽은 먼저 등록스포츠클럽으로 운영하면서 실적을 쌓아야 합니다. 단, 문화체육관광부가 매년 지정 요건을 고시로 조정할 수 있으므로 최신 공고를 확인하는 것이 중요합니다.</p></div>
-<div class="faq-item"><p class="faq-q">Q. 스포츠클럽 설립 및 지정 신청을 행정사에게 대행하면 어떤 점이 유리한가요?</p><p class="faq-a">A. 정관 작성, 법인 설립, 등록 서류 준비, 경영계획서 작성까지 복잡한 절차를 전문가가 관리하므로 누락·오류에 따른 보완 요청 가능성이 크게 줄어듭니다. 특히 지정스포츠클럽 지정 심사는 경영계획서 적합성 심사가 포함되므로, 풍부한 실무 경험을 갖춘 행정사와 함께 준비하는 것이 1차 통과율을 높입니다. 비전행정사사무소는 초기 상담을 무료로 제공합니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 스포츠클럽 설립 및 지정 신청을 행정사에게 대행하면 어떤 점이 유리한가요?</p><p class="faq-a">A. 정관 작성, 법인 설립, 등록 서류 준비, 경영계획서 작성까지 복잡한 절차를 전문가가 관리하므로 누락·오류에 따른 보완 요청 가능성이 크게 줄어듭니다. 특히 지정스포츠클럽 지정 심사는 경영계획서 적합성 심사가 포함되므로, 풍부한 실무 경험을 갖춘 행정사와 함께 준비하는 것이 1차 통과율을 높입니다. 유선행정사사무소는 초기 상담을 무료로 제공합니다.</p></div>
 </div>
-<div class="cta-box"><h3>스포츠클럽 설립부터 지정스포츠클럽 지정까지, 전문가와 함께하세요</h3><p>비전행정사사무소는 스포츠클럽 법인 설립, 등록스포츠클럽 신청, 지정스포츠클럽 경영계획서 작성까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>스포츠클럽 설립부터 지정스포츠클럽 지정까지, 전문가와 함께하세요</h3><p>유선행정사사무소는 스포츠클럽 법인 설립, 등록스포츠클럽 신청, 지정스포츠클럽 경영계획서 작성까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '35',
     slug: 'manufacturing-business-registration-procedure',
     relatedServices: [
-      { title: '제조업 공장설립 인허가', href: '/services/factory' },
-      { title: '환경 배출시설 허가·신고', href: '/services/environment' },
-      { title: '기업부설연구소 설립', href: '/services/rnd-center' },
+      { title: '기업부설연구소 설립', href: '/services/research-lab' },
     ],
     title: '제조업 사업자등록부터 공장신설신고까지 — 절차 완벽 가이드',
     category: '제조업등록',
     excerpt: '제조업을 시작하려면 세무서 사업자등록 외에 공장설립 승인, 공장신설신고, 환경·소방 인허가까지 단계별로 챙겨야 합니다. 기준 전체 흐름을 한 번에 정리합니다.',
     meta_title: '제조업 사업자등록·공장설립신고 — 절차·서류 총정리',
-    meta_description: '제조업 창업 시 사업자등록, 공장설립 승인, 공장신설신고, 환경·소방 인허가까지 단계별 절차와 필요 서류를 최신 법령 기준으로 총정리. 비전행정사사무소 무료 상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    meta_description: '제조업 창업 시 사업자등록, 공장설립 승인, 공장신설신고, 환경·소방 인허가까지 단계별 절차와 필요 서류를 최신 법령 기준으로 총정리. 유선행정사사무소 무료 상담.',
+    cover_image: '/images/blog-thumbs/manufacturing-business-registration-procedure.jpg',
     created_at: '2026-05-14T06:00:00Z',
     content: `<section class="tldr-box" aria-label="요약">
 <p class="tldr-label">한 줄 요약</p>
@@ -1832,7 +1828,7 @@ export const blogPosts: BlogPost[] = [
 
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>공장설립 인허가, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 공장설립 승인부터 환경·소방 인허가, 공장등록까지 원스톱으로 지원합니다. 초기 상담 무료 — 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 공장설립 승인부터 환경·소방 인허가, 공장등록까지 원스톱으로 지원합니다. 초기 상담 무료 — 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
   },
@@ -1843,7 +1839,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '공장등록과 공장설립승인의 차이, 신청 대상 면적 기준(500㎡), 절차 5단계, 처리기간, 필요 서류를 최신 산업집적활성화법 기준으로 정리했습니다.',
     category: '공장등록',
     created_at: '2026-05-17T02:00:00Z',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/factory-registration-application-guide.jpg',
     meta_title: '공장등록 신청 방법과 처리기간 완벽 가이드',
     meta_description: '공장등록 vs 공장설립승인 차이, 500㎡ 기준, 절차 5단계, 처리기간 7~20일, 필요서류 . 산업집적활성화법 기준. 무료상담 02-363-2251.',
     content: `
@@ -1989,7 +1985,7 @@ export const blogPosts: BlogPost[] = [
 
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>공장등록·공장설립승인, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 공장설립승인 신청부터 환경·소방 인허가, 공장등록 완료까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 공장설립승인 신청부터 환경·소방 인허가, 공장등록 완료까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
   },
@@ -2006,7 +2002,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '벤처기업 확인 후 받을 수 있는 세금 감면 혜택을 실무 중심으로 정리했습니다. 법인세 50% 감면, 취득세·재산세 감면, R&D 세액공제까지 한 번에 확인하세요.',
     meta_title: '벤처기업 확인 세금 감면 혜택 — 법인세·취득세·R&D 세액공제 총정리',
     meta_description: '벤처기업 확인 시 받을 수 있는 법인세 50% 감면, 취득세·재산세 면제, R&D 세액공제 혜택을 실무 중심으로 총정리. 전문 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/venture-tax-benefits.jpg',
     created_at: '2026-05-17T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>벤처기업 세제 혜택 개요</li><li>법인세 50% 감면 — 조건과 적용 기간</li><li>취득세·재산세 감면 혜택</li><li>연구개발비 세액공제 (R&D)</li><li>벤처투자 소득공제</li><li>스톡옵션 세제 혜택</li><li>코스닥 상장 요건 완화</li><li>혜택 적용 시 주의사항</li></ol></div>
 
@@ -2094,7 +2090,7 @@ export const blogPosts: BlogPost[] = [
 
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>벤처기업 확인 및 세제 혜택 설계, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 벤처기업 확인 신청부터 세액공제 적용 설계, 갱신 관리까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 벤처기업 확인 신청부터 세액공제 적용 설계, 갱신 관리까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
   },
@@ -2111,7 +2107,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '기업부설연구소 설립 후 받을 수 있는 연구개발비 세액공제 혜택을 실무 중심으로 정리했습니다. 중소기업 25% 공제율, 인건비 처리 방법, 연구개발전담부서와 차이까지 확인하세요.',
     meta_title: '기업부설연구소 세액공제 혜택 — 연구개발비 25% R&D 공제 총정리',
     meta_description: '기업부설연구소 설립 시 연구개발비 세액공제 25%(중소기업 기준), 연구원 인건비 처리, 당기분·증가분 방식 비교. 전문 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/research-lab.jpg',
+    cover_image: '/images/blog-thumbs/rnd-center-tax-credit.jpg',
     created_at: '2026-05-17T09:10:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>기업부설연구소 세액공제 개요</li><li>공제 대상 연구개발비 범위</li><li>당기분 방식 vs 증가분 방식 비교</li><li>기업 규모별 공제율 차이</li><li>연구원 인건비 처리 방법</li><li>연구개발전담부서와 차이점</li><li>세액공제 신청 절차</li><li>주의사항과 사후관리</li></ol></div>
 
@@ -2212,7 +2208,7 @@ export const blogPosts: BlogPost[] = [
 
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>기업부설연구소 설립 및 R&D 세액공제, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 KOITA 인정 신청부터 세액공제 설계, 연구원 등록 관리까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 KOITA 인정 신청부터 세액공제 설계, 연구원 등록 관리까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
   },
@@ -2229,7 +2225,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '화장품 책임판매업 등록 요건과 절차를 실무 중심으로 정리했습니다. 제조업과의 차이, 책임판매관리자 자격, 품질관리기준서 작성 방법까지 한 번에 확인하세요.',
     meta_title: '화장품 책임판매업 등록 절차 — 요건·서류·책임판매관리자 총정리',
     meta_description: '화장품 책임판매업 등록 요건·절차·책임판매관리자 자격 총정리. 화장품법 제4조 기준, 품질관리기준서 작성 포함. 전문 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/cosmetics.jpg',
+    cover_image: '/images/blog-thumbs/cosmetics-responsible-distributor.jpg',
     created_at: '2026-05-17T09:20:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>화장품 책임판매업이란?</li><li>화장품 제조업과 책임판매업 차이</li><li>책임판매업 등록 요건</li><li>책임판매관리자 자격 요건</li><li>품질관리기준서 작성 방법</li><li>등록 신청 절차와 서류</li><li>등록 후 의무사항</li><li>위반 시 행정처분 기준</li></ol></div>
 
@@ -2326,7 +2322,7 @@ export const blogPosts: BlogPost[] = [
 
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>화장품 책임판매업 등록, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 책임판매업 등록 서류 준비부터 책임판매관리자 자격 확인, 품질관리기준서 작성까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 책임판매업 등록 서류 준비부터 책임판매관리자 자격 확인, 품질관리기준서 작성까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
   },
@@ -2338,7 +2334,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '학원을 개설하려면 교육청에 학원설립운영 등록을 해야 합니다. 최신 기준으로 등록 요건, 시설 기준, 구비서류, 신청 절차를 정리합니다.',
     meta_title: '학원설립운영 등록 방법 — 요건·서류·절차 총정리',
     meta_description: '학원 개설 전 반드시 확인해야 할 학원설립운영 등록 요건·시설 기준·구비서류·처리 절차를 전문 행정사가 기준으로 안내합니다.',
-    cover_image: '/images/blog-topics/general-license.jpg',
+    cover_image: '/images/blog-thumbs/academy-establishment-registration-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>학원설립운영 등록이란?</li><li>등록 대상과 제외 대상</li><li>등록 요건 (인적·물적)</li><li>시설 기준</li><li>구비서류</li><li>신청 절차</li><li>처리 기간 및 수수료</li><li>등록 후 의무사항</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 학원설립운영 등록이란?</h2>
@@ -2373,12 +2369,11 @@ export const blogPosts: BlogPost[] = [
 </div>
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>학원 설립 인허가, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 학원설립운영 등록 서류 준비부터 교육청 신청, 시설 기준 확인까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 학원설립운영 등록 서류 준비부터 교육청 신청, 시설 기준 확인까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
     relatedServices: [
-      { title: '미용업 신고', href: '/services/beauty-salon' },
-      { title: '음식점 영업신고', href: '/services/food-service' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
     ],
   },
   {
@@ -2389,7 +2384,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '세탁소를 개업하려면 공중위생관리법에 따라 시·군·구청에 세탁업 신고를 해야 합니다. 최신 기준으로 신고 요건, 시설 기준, 구비서류, 처리 절차를 정리합니다.',
     meta_title: '세탁업 신고 방법 — 공중위생법 요건·서류·절차',
     meta_description: '세탁업 개업 전 필수 확인: 공중위생관리법상 세탁업 신고 요건, 시설 기준, 구비서류, 신청 절차를 전문 행정사가 기준으로 안내합니다.',
-    cover_image: '/images/blog-topics/laundry.jpg',
+    cover_image: '/images/blog-thumbs/laundry-business-permit-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>세탁업 신고 개요</li><li>세탁업 종류</li><li>신고 요건</li><li>시설 기준</li><li>구비서류</li><li>신고 절차</li><li>처리 기간 및 수수료</li><li>위생교육</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 세탁업 신고 개요</h2>
@@ -2422,12 +2417,11 @@ export const blogPosts: BlogPost[] = [
 </div>
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>세탁업 신고, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 세탁업 신고부터 드라이클리닝 추가 요건 확인, 위생교육 안내까지 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 세탁업 신고부터 드라이클리닝 추가 요건 확인, 위생교육 안내까지 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
     relatedServices: [
-      { title: '미용업 신고', href: '/services/beauty-salon' },
-      { title: '음식점 영업신고', href: '/services/food-service' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
     ],
   },
   {
@@ -2438,7 +2432,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '공인중개사무소를 개설하려면 공인중개사법에 따라 등록관청에 개설 등록을 해야 합니다. 최신 기준으로 등록 자격, 시설 기준, 구비서류, 신청 절차를 정리합니다.',
     meta_title: '공인중개사무소 개설 등록 가이드 — 자격·서류·절차',
     meta_description: '공인중개사무소 개설 전 필수 확인: 공인중개사 자격, 시설 기준, 구비서류, 등록 절차를 전문 행정사가 기준으로 안내합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/real-estate-agency-registration-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>공인중개사무소 개설 등록이란?</li><li>등록 자격 요건</li><li>개인 vs 법인 중개업</li><li>시설 기준</li><li>구비서류</li><li>등록 절차</li><li>처리 기간 및 수수료</li><li>실무교육 이수</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 공인중개사무소 개설 등록이란?</h2>
@@ -2468,12 +2462,11 @@ export const blogPosts: BlogPost[] = [
 </div>
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>공인중개사무소 개설 등록, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 중개사무소 개설 등록 서류 준비부터 사업자등록, 협회 신고까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 중개사무소 개설 등록 서류 준비부터 사업자등록, 협회 신고까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
     relatedServices: [
-      { title: '건축물 용도변경', href: '/services/building-usage-change' },
-      { title: '법인 설립', href: '/services/corporation' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
     ],
   },
   {
@@ -2484,9 +2477,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '일반음식점을 열기 전에는 「식품위생법」에 따른 영업신고가 필수입니다. 기준 시설 기준, 위생교육, 구비서류, 신고 절차부터 영업신고 후 준수 사항까지 실무 중심으로 정리합니다.',
     meta_title: '일반음식점 영업신고 완벽 가이드 — 식품위생법 기반 절차 총정리',
     meta_description: '일반음식점을 열기 전에는 「식품위생법」에 따른 영업신고가 필수입니다. 기준 시설 기준, 위생교육, 구비서류, 신고 절차부터 영업신고 후 준수 사항까지 실무 중심으로 정리합니다.',
-    cover_image: '/images/blog-topics/general-license.jpg',
+    cover_image: '/images/blog-thumbs/restaurant-food-service-license-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
-    content: `<div class="toc"><p>목차</p><ol><li>일반음식점 영업의 법적 근거</li><li>시설 기준</li><li>위생교육 이수 의무</li><li>구비서류</li><li>영업신고 절차</li><li>건축물 용도 확인의 중요성</li><li>영업신고 후 준수 사항</li><li>비전행정사사무소 지원 서비스</li></ol></div>
+    content: `<div class="toc"><p>목차</p><ol><li>일반음식점 영업의 법적 근거</li><li>시설 기준</li><li>위생교육 이수 의무</li><li>구비서류</li><li>영업신고 절차</li><li>건축물 용도 확인의 중요성</li><li>영업신고 후 준수 사항</li><li>유선행정사사무소 지원 서비스</li></ol></div>
 <p>음식점을 개업하려면 관할 시·군·구에 일반음식점 영업신고를 해야 합니다. 「식품위생법」 제37조는 식품접객업 영업을 신고 대상으로 규정하며, 신고 없이 영업하면 3년 이하 징역 또는 3천만원 이하 벌금에 처할 수 있습니다. 신고 자체는 허가보다 간단하지만, 시설 기준과 위생교육 이수 등 사전 조건을 갖춰야 신고증이 교부됩니다.</p>
 <h2>1. 일반음식점 영업의 법적 근거</h2>
 <p>일반음식점 영업은 「식품위생법」 제36조(업종 구분)와 제37조(영업신고)에 근거합니다.</p>
@@ -2514,8 +2507,8 @@ export const blogPosts: BlogPost[] = [
 <ul><li><strong>주거 용도 건물</strong>: 영업신고 불가 (용도 변경 절차 필요)</li><li><strong>공장·창고 용도</strong>: 식품접객업 신고 불가</li><li><strong>판매시설·업무시설</strong>: 지자체 해석에 따라 가능 여부 상이</li></ul>
 <h2>7. 영업신고 후 준수 사항</h2>
 <ul><li><strong>영업신고증 게시</strong>: 업소 내 손님이 볼 수 있는 곳에 게시</li><li><strong>연간 위생교육</strong>: 기존 영업자 대상 3시간 의무 이수</li><li><strong>건강진단</strong>: 조리종사자 연 1회 건강검진</li><li><strong>HACCP 관리</strong> (해당 업소): 대형 음식점·식품제조업 해당 시</li><li><strong>영업 변경 신고</strong>: 상호 변경·영업장 이전·면적 변경 시 변경 신고 필수</li><li><strong>원산지 표시</strong>: 쌀·배추김치·쇠고기 등 원산지 게시 의무</li></ul>
-<h2>8. 비전행정사사무소 지원 서비스</h2>
-<p>비전행정사사무소는 개업 준비 단계부터 신고증 수령까지 전 과정을 지원합니다.</p>
+<h2>8. 유선행정사사무소 지원 서비스</h2>
+<p>유선행정사사무소는 개업 준비 단계부터 신고증 수령까지 전 과정을 지원합니다.</p>
 <ul><li>건축물대장 용도 확인 및 용도 변경 필요 여부 검토</li><li>시설 배치 계획 자문 (조리장·화장실 위치 등)</li><li>영업신고 서류 일괄 준비 및 대행</li><li>온라인·방문 신고 대리 접수</li></ul>
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 프랜차이즈 가맹점도 영업신고를 직접 해야 하나요?</p><p class="faq-a">A. 네. 프랜차이즈 본사가 대신 신고하는 것이 아니며, 각 점포 개설자가 직접 신고해야 합니다.</p></div>
@@ -2525,12 +2518,12 @@ export const blogPosts: BlogPost[] = [
 </div>
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>일반음식점 영업신고, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 영업신고 서류 준비부터 신고증 수령까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 영업신고 서류 준비부터 신고증 수령까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
     relatedServices: [
-      { title: '음식점 영업신고', href: '/services/food-service' },
-      { title: '건축물 용도변경', href: '/services/building-usage-change' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
     ],
   },
   {
@@ -2541,9 +2534,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '의원·병원을 개설하려면 의료기관 개설 신고 또는 허가를 받아야 합니다. 「의료법」 기준 개설 요건, 인력·시설 기준, 신고·허가 절차를 단계별로 정리합니다.',
     meta_title: '의원·병원 개설 허가 절차 완벽 가이드 — 의료법 기반 실무 정리',
     meta_description: '의원·병원을 개설하려면 의료기관 개설 신고 또는 허가를 받아야 합니다. 「의료법」 기준 개설 요건, 인력·시설 기준, 신고·허가 절차를 단계별로 정리합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/medical-clinic-establishment-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
-    content: `<div class="toc"><p>목차</p><ol><li>의료기관 종류와 개설 방식</li><li>개설 자격 요건</li><li>시설 기준</li><li>인력 기준</li><li>구비서류</li><li>신고·허가 절차</li><li>개설 후 준수 사항</li><li>비전행정사사무소 지원 서비스</li></ol></div>
+    content: `<div class="toc"><p>목차</p><ol><li>의료기관 종류와 개설 방식</li><li>개설 자격 요건</li><li>시설 기준</li><li>인력 기준</li><li>구비서류</li><li>신고·허가 절차</li><li>개설 후 준수 사항</li><li>유선행정사사무소 지원 서비스</li></ol></div>
 <p>의원·병원을 개설하려는 의료인이라면 「의료법」에 따른 개설 신고 또는 허가 절차를 반드시 거쳐야 합니다. 무허가·무신고 의료기관 운영은 3년 이하 징역 또는 3천만원 이하 벌금에 처할 수 있으므로 사전 절차 준수가 필수입니다.</p>
 <h2>1. 의료기관 종류와 개설 방식</h2>
 <table><thead><tr><th>구분</th><th>요건</th><th>개설 방식</th></tr></thead><tbody><tr><td>의원·치과의원·한의원</td><td>의사·치과의사·한의사 1인 이상</td><td><strong>신고</strong> (시·군·구청)</td></tr><tr><td>병원·치과병원·한방병원</td><td>입원 30병상 이상</td><td><strong>허가</strong> (시·도지사)</td></tr><tr><td>요양병원</td><td>입원 30병상 이상</td><td><strong>허가</strong> (시·도지사)</td></tr><tr><td>종합병원</td><td>100병상 이상 + 7개 이상 진료과목</td><td><strong>허가</strong> (시·도지사)</td></tr></tbody></table>
@@ -2565,7 +2558,7 @@ export const blogPosts: BlogPost[] = [
 <ol><li>사전 협의: 시·도 보건 부서와 사업계획 협의</li><li>건축 허가·착공·준공 후 허가 신청</li><li>서류 심사 및 현장 심사 (2~4주 소요)</li><li>허가증 교부</li></ol>
 <h2>7. 개설 후 준수 사항</h2>
 <ul><li><strong>의료기관 명칭 게시</strong>: 간판에 의료기관 종류·명칭 표시 의무</li><li><strong>진료비 게시</strong>: 주요 진료 항목별 비용 게시 의무</li><li><strong>의무기록 보존</strong>: 진료기록부 10년, 처방전 2년 보존</li><li><strong>연간 의사 실태 신고</strong>: 2년마다 의사면허 신고 의무</li></ul>
-<h2>8. 비전행정사사무소 지원 서비스</h2>
+<h2>8. 유선행정사사무소 지원 서비스</h2>
 <ul><li>개설 유형(개인·법인) 검토 및 절차 안내</li><li>시설 평면도 작성 및 적합성 사전 검토</li><li>신고·허가 서류 일괄 준비 및 대행</li><li>의료법인 설립 업무 병행 지원</li></ul>
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 의사 1명이 여러 의원을 동시에 개설할 수 있나요?</p><p class="faq-a">A. 아닙니다. 「의료법」 제33조는 의료인이 2개 이상의 의료기관을 개설하는 것을 원칙적으로 금지합니다.</p></div>
@@ -2575,12 +2568,11 @@ export const blogPosts: BlogPost[] = [
 </div>
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>의료기관 개설, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 의료기관 개설 신고·허가 서류 준비부터 의료법인 설립까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 의료기관 개설 신고·허가 서류 준비부터 의료법인 설립까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
     relatedServices: [
-      { title: '법인 설립', href: '/services/corporation' },
-      { title: '사업자등록', href: '/services/business-registration' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
     ],
   },
   {
@@ -2591,9 +2583,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '산후조리원을 개설하려면 시·군·구청에 신고해야 합니다. 기준 면적 기준, 인력 기준, 시설 기준, 결격 사유, 신고 절차를 실무 중심으로 정리합니다.',
     meta_title: '산후조리원 개설 신고 요건 및 절차 완벽 가이드 ',
     meta_description: '산후조리원을 개설하려면 시·군·구청에 신고해야 합니다. 기준 면적 기준, 인력 기준, 시설 기준, 결격 사유, 신고 절차를 실무 중심으로 정리합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/postpartum-care-center-permit-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
-    content: `<div class="toc"><p>목차</p><ol><li>관련 법령</li><li>산후조리원 면적 기준</li><li>인력 기준</li><li>결격 사유</li><li>구비서류</li><li>신고 절차</li><li>위반 시 행정처분</li><li>감염관리·안전관리 의무</li><li>책임보험 가입과 지위승계</li><li>비전행정사사무소 지원 서비스</li></ol></div>
+    content: `<div class="toc"><p>목차</p><ol><li>관련 법령</li><li>산후조리원 면적 기준</li><li>인력 기준</li><li>결격 사유</li><li>구비서류</li><li>신고 절차</li><li>위반 시 행정처분</li><li>감염관리·안전관리 의무</li><li>책임보험 가입과 지위승계</li><li>유선행정사사무소 지원 서비스</li></ol></div>
 <p>산후조리원은 분만 후 임산부와 신생아를 대상으로 돌봄·휴식 서비스를 제공하는 시설입니다. 「모자보건법」에 따라 신고 대상 사업으로 분류되며, 시·군·구청에 사전 신고를 완료해야 합법적으로 운영할 수 있습니다.</p>
 <h2>1. 관련 법령</h2>
 <table><thead><tr><th>조문</th><th>내용</th></tr></thead><tbody><tr><td>제15조의18</td><td>산후조리원 신고 의무</td></tr><tr><td>제15조의19</td><td>시설·인력 기준 준수 의무</td></tr><tr><td>제15조의20</td><td>위반 시 시정명령·폐쇄 조치</td></tr></tbody></table>
@@ -2616,7 +2608,7 @@ export const blogPosts: BlogPost[] = [
 <h2>9. 책임보험 가입과 지위승계</h2>
 <p>산후조리원은 이용자 안전사고에 대비하여 책임보험 가입이 요구되며, 운영자가 변경되는 경우에는 지위승계 절차를 거쳐야 합니다.</p>
 <ul><li><strong>책임보험 가입:</strong> 시설 내 사고로 인한 이용자 피해를 보상할 수 있는 배상책임보험 가입 여부를 신고 또는 점검 시 확인받을 수 있습니다.</li><li><strong>지위승계 신고:</strong> 시설을 양수하거나 운영자가 변경되는 경우, 관할 시·군·구청에 지위승계 신고를 하여 종전 신고의 효력을 이어받아야 합니다.</li><li><strong>결격 사유 확인:</strong> 승계인 역시 결격 사유가 없어야 승계가 인정됩니다.</li><li><strong>폐업 신고:</strong> 영업을 종료하는 경우 이용 중인 산모·신생아에 대한 안전한 인수인계 계획과 함께 폐업 신고를 진행해야 합니다.</li></ul>
-<h2>10. 비전행정사사무소 지원 서비스</h2>
+<h2>10. 유선행정사사무소 지원 서비스</h2>
 <ul><li>사업장 면적·구조 검토 및 자문</li><li>신고 서류 일괄 준비 대행</li><li>보건소 사전 상담 동행 가능</li><li>개설 후 지도점검 대비 컨설팅</li></ul>
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 산후조리원은 의료기관인가요?</p><p class="faq-a">A. 아닙니다. 「모자보건법」에 따른 신고 시설이며, 「의료법」상 의료기관과는 구별됩니다.</p></div>
@@ -2627,12 +2619,11 @@ export const blogPosts: BlogPost[] = [
 </div>
 <aside class="cta-box" aria-label="무료 상담 안내">
 <h2>산후조리원 개설 신고, 전문가와 함께하세요</h2>
-<p>비전행정사사무소는 산후조리원 신고 서류 준비부터 보건소 상담 동행, 지도점검 대비까지 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+<p>유선행정사사무소는 산후조리원 신고 서류 준비부터 보건소 상담 동행, 지도점검 대비까지 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
 <a href="/contact">무료상담 신청하기</a>
 </aside>`,
     relatedServices: [
-      { title: '의료기관 개설', href: '/services/medical' },
-      { title: '법인 설립', href: '/services/corporation' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
     ],
   },
   {
@@ -2643,11 +2634,11 @@ export const blogPosts: BlogPost[] = [
     excerpt: '건축물 용도변경 허가·신고·기재변경 3가지 방법과 9개 시설군 분류 체계를 완벽 정리. 무단 용도변경 이행강제금 위험 없이 합법적으로 변경하는 실무 가이드.',
     meta_title: '건축물 용도변경 허가·신고·기재변경 완전 가이드 | 시설군별 절차',
     meta_description: '건축물 용도변경 허가·신고·기재변경 3가지 방법, 9개 시설군, 서류, 처리기간 총정리. 무단변경 이행강제금 방지 필독. 전문 행정사 02-363-2251.',
-    cover_image: '/images/blog-topics/building-usage.jpg',
+    cover_image: '/images/blog-thumbs/building-use-change-permit-guide.jpg',
     created_at: '2026-05-19T05:00:00Z',
     relatedServices: [
-      { title: '건축물 용도변경', href: '/services/building-use-change' },
-      { title: '식품제조가공업 허가', href: '/services/food' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
+      { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
       { title: '호스텔업 등록', href: '/services/hostel' },
     ],
     content: `<div class="toc">
@@ -2779,7 +2770,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 용도변경 신청 후 영업을 먼저 시작할 수 있나요?</p><p class="faq-a">A. 용도변경 허가·신고가 완료되고 건축물대장이 변경된 후에 해당 용도의 영업 허가를 신청해야 합니다. 절차 완료 전 영업은 무단 용도변경에 해당할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 처리 기간 중 건물을 사용할 수 없나요?</p><p class="faq-a">A. 허가 대상의 경우 공사를 수반하면 공사 완료 후 사용승인을 받아야 합니다. 단순 서류 신청 중에는 기존 용도로의 사용은 가능합니다.</p></div>
 </div>
-<div class="cta-box"><h3>건축물 용도변경, 전문 행정사와 함께</h3><p>시설군 판단부터 허가·신고 신청, 건축물대장 변경까지 비전행정사사무소가 원스톱으로 처리합니다. 초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`,
+<div class="cta-box"><h3>건축물 용도변경, 전문 행정사와 함께</h3><p>시설군 판단부터 허가·신고 신청, 건축물대장 변경까지 유선행정사사무소가 원스톱으로 처리합니다. 초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`,
   },
   {
     id: 'administrative-license-permit-specialist-guide',
@@ -2789,11 +2780,11 @@ export const blogPosts: BlogPost[] = [
     excerpt: '인허가 행정사 업무 범위(식품·건축·운수·의료·학원), 자격·전문성, 비용, 직접 신청과 행정사 의뢰 비교까지 완전 정리. 인허가 성공률을 높이는 실무 가이드.',
     meta_title: '인허가 행정사 선택 가이드 | 업종별 신고·등록 절차 실무',
     meta_description: '인허가 행정사 업무·자격·비용·직접신청 비교 총정리. 식품·건축·운수·의료·학원 인허가 절차 실무 중심. 전문 행정사 02-363-2251 무료상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/administrative-license-permit-specialist-guide.jpg',
     created_at: '2026-05-19T05:00:00Z',
     relatedServices: [
-      { title: '건축물 용도변경', href: '/services/building-use-change' },
-      { title: '식품제조가공업 허가', href: '/services/food' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
+      { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
       { title: '국제물류주선업 등록', href: '/services/logistics' },
     ],
     content: `<div class="toc">
@@ -2805,7 +2796,7 @@ export const blogPosts: BlogPost[] = [
 <li>직접 신청 vs 행정사 의뢰 비교</li>
 <li>인허가 처리 기간</li>
 <li>인허가 거절·반려 시 대응 방법</li>
-<li>비전행정사사무소 서비스 안내</li>
+<li>유선행정사사무소 서비스 안내</li>
 </ol>
 </div>
 
@@ -2918,8 +2909,8 @@ export const blogPosts: BlogPost[] = [
 <p>최근 인허가 기준이 강화되는 추세이므로, 처음부터 서류를 완벽하게 준비하는 것이 가장 효율적입니다.</p>
 <div class="highlight-box">인허가 거절 통보를 받으셨다면 포기하지 마세요. 거절 사유를 분석하고 적절한 대응 방법을 찾을 수 있습니다. 통보 후 90일 이내가 행정심판 청구 기한입니다.</div>
 
-<h2>7. 비전행정사사무소 서비스 안내</h2>
-<p>비전행정사사무소는 <strong>인허가 전문 행정사</strong>가 상주하여 다음 서비스를 제공합니다.</p>
+<h2>7. 유선행정사사무소 서비스 안내</h2>
+<p>유선행정사사무소는 <strong>인허가 전문 행정사</strong>가 상주하여 다음 서비스를 제공합니다.</p>
 <ul>
 <li>업종별 인허가 요건 사전 분석 및 서류 준비</li>
 <li>관할 기관 접수 및 진행 상황 실시간 보고</li>
@@ -2943,7 +2934,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국인도 한국에서 인허가를 받을 수 있나요?</p><p class="faq-a">A. 외국인도 적법한 체류 자격(비자)과 사업자등록을 완료하면 대부분의 인허가를 받을 수 있습니다. 다만 업종에 따라 외국인 제한이 있는 경우가 있어 사전 확인이 필요합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 인허가 취득 후 사업장을 이전하면 다시 신청해야 하나요?</p><p class="faq-a">A. 대부분의 인허가는 사업장 주소를 기준으로 발급되므로, 이전 시 변경 신고 또는 새 주소로 재신청이 필요합니다. 업종별로 절차가 다르므로 전문가 확인을 권장합니다.</p></div>
 </div>
-<div class="cta-box"><h3>전문가 상담 신청하기</h3><p>인허가 절차가 복잡하게 느껴지신다면 비전행정사사무소에 먼저 문의하세요. 서류 준비부터 허가증 수령까지 원스톱으로 처리합니다. 초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`,
+<div class="cta-box"><h3>전문가 상담 신청하기</h3><p>인허가 절차가 복잡하게 느껴지신다면 유선행정사사무소에 먼저 문의하세요. 서류 준비부터 허가증 수령까지 원스톱으로 처리합니다. 초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`,
   },
   {
     id: 'lbs-foreign-company-2026',
@@ -2956,9 +2947,9 @@ export const blogPosts: BlogPost[] = [
     title: '한국 미등기 외국법인 위치기반서비스사업신고 완벽 가이드 ',
     category: 'IT·통신 인허가',
     excerpt: '한국에 법인을 설립하지 않은 외국 기업도 한국 이용자에게 위치기반서비스를 제공하면 방통위에 사업 신고 의무가 생깁니다. 싱가포르 법인 실제 처리 경험을 바탕으로 절차·서류·주의사항을 정리합니다.',
-    meta_title: '한국 미등기 외국법인 위치기반서비스사업신고 | 비전행정사사무소',
+    meta_title: '한국 미등기 외국법인 위치기반서비스사업신고 | 유선행정사사무소',
     meta_description: '한국 법인 없이도 위치기반서비스사업신고 가능합니다. 싱가포르 법인 실제 3주 처리 사례 포함. 방통위 신고 절차·서류·외국법인 주의사항 총정리.',
-    cover_image: '/images/blog-topics/location-based.jpg',
+    cover_image: '/images/blog-thumbs/location-based-service-business-registration-foreign-company.jpg',
     created_at: '2026-05-21T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li><a href="#overview">위치기반서비스사업이란?</a></li><li><a href="#foreign">외국법인도 신고해야 하는 이유</a></li><li><a href="#criteria">신고 대상 판단 기준</a></li><li><a href="#authority">신고 기관 및 근거 법령</a></li><li><a href="#docs">필요 서류 (외국법인 특화)</a></li><li><a href="#process">신고 절차 단계별 안내</a></li><li><a href="#caution">외국법인 특유의 주의사항</a></li><li><a href="#case">실제 처리 사례 (싱가포르 법인)</a></li><li><a href="#faq">자주 묻는 질문</a></li></ol></div>
 <h2 id="overview">위치기반서비스사업이란?</h2>
@@ -2974,7 +2965,7 @@ export const blogPosts: BlogPost[] = [
 <h2 id="docs">필요 서류 (외국법인 특화)</h2>
 <p><strong>공통 서류:</strong> 위치기반서비스사업 신고서, 서비스 개요서(위치정보 수집 방법 포함), 개인정보처리방침(위치정보 항목 명시), 위치정보 관리책임자 지정 확인서</p>
 <p><strong>외국법인 추가 서류:</strong></p><ul><li>법인등기부등본(자국 발급) — 공증 + 아포스티유(Apostille) 또는 영사 확인</li><li>한국어 번역본 (공인 번역)</li><li>국내 대리인 지정 서류 — 방통위 서류 수령·연락 창구</li><li>대표자 신원 확인서 (여권 사본 등)</li><li>자국 사업자등록번호 — 싱가포르 UEN, 미국 EIN 등</li></ul>
-<p>한국에 법인이 없으므로 <strong>국내 대리인</strong>을 반드시 지정해야 합니다. 비전행정사사무소가 대리인 역할을 포함해 전 과정을 대행합니다.</p>
+<p>한국에 법인이 없으므로 <strong>국내 대리인</strong>을 반드시 지정해야 합니다. 유선행정사사무소가 대리인 역할을 포함해 전 과정을 대행합니다.</p>
 <h2 id="process">신고 절차 단계별 안내</h2>
 <ol><li><strong>서비스 적용 법률 검토</strong> — 위치정보법 적용 범위 확인, 수집 위치정보 항목 정리, 개인정보처리방침 점검</li><li><strong>서류 준비</strong> — 자국 법인등기 서류 공증·아포스티유 처리 (국가별 2~4주 소요), 국내 대리인 선임</li><li><strong>신고서 작성 및 제출</strong> — 방통위 위치정보포털(location.go.kr) 또는 우편·방문 제출</li><li><strong>보완 대응</strong> — 방통위 담당자 추가 서류 요청 신속 대응 (평균 1~2회)</li><li><strong>확인증 수령</strong> — 위치기반서비스사업신고확인증 발급. 이후 연 1회 실적 보고 의무 발생</li></ol>
 <h2 id="caution">외국법인 특유의 주의사항</h2>
@@ -2982,16 +2973,16 @@ export const blogPosts: BlogPost[] = [
 <p><strong>국내 대리인 선임:</strong> 한국에 사무소가 없는 외국법인은 방통위가 서류를 발송·수령할 창구가 필요합니다. 행정사사무소를 대리인으로 지정하면 신고부터 확인증 수령, 이후 연간 실적 보고까지 일괄 처리할 수 있습니다.</p>
 <p><strong>서비스 개요서 작성:</strong> 수집하는 위치정보의 정확도(GPS vs. IP), 보유 기간, 제3자 제공 여부를 명확히 기재해야 합니다. 모호하게 작성하면 보완 요청 횟수가 늘어납니다.</p>
 <h2 id="case">실제 처리 사례 (싱가포르 법인)</h2>
-<p>비전행정사사무소는 5월, <strong>싱가포르 소재 외국법인(전기통신업·소프트웨어 개발업)</strong>의 위치기반서비스사업신고를 성공적으로 완료하였습니다. 한국 현지 법인 없이 싱가포르 본사 법인 명의로 한국 이용자에게 앱 서비스를 제공하던 기업으로, 위치정보법 적용 사실을 뒤늦게 인지하여 긴급하게 신고 절차를 진행했습니다.</p>
-<ul><li>싱가포르 법인등기(ACRA) 서류 공증 + 한국어 번역</li><li>국내 대리인으로 비전행정사사무소 지정</li><li>방통위 서류 보완 2회 대응</li><li>신청부터 확인증 수령까지 약 <strong>3주</strong> 완료</li></ul>
+<p>유선행정사사무소는 5월, <strong>싱가포르 소재 외국법인(전기통신업·소프트웨어 개발업)</strong>의 위치기반서비스사업신고를 성공적으로 완료하였습니다. 한국 현지 법인 없이 싱가포르 본사 법인 명의로 한국 이용자에게 앱 서비스를 제공하던 기업으로, 위치정보법 적용 사실을 뒤늦게 인지하여 긴급하게 신고 절차를 진행했습니다.</p>
+<ul><li>싱가포르 법인등기(ACRA) 서류 공증 + 한국어 번역</li><li>국내 대리인으로 유선행정사사무소 지정</li><li>방통위 서류 보완 2회 대응</li><li>신청부터 확인증 수령까지 약 <strong>3주</strong> 완료</li></ul>
 <div class="faq-section"><h2 id="faq">자주 묻는 질문 (FAQ)</h2>
-<div class="faq-item"><p class="faq-q">Q. 한국 법인이 없으면 신고가 불가능한가요?</p><p class="faq-a">A. 아닙니다. 외국법인 명의로 신고 가능합니다. 자국 법인 서류 공증·번역과 국내 대리인 지정이 필요하며, 비전행정사사무소가 대리인 역할을 포함해 전 과정을 대행합니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 한국 법인이 없으면 신고가 불가능한가요?</p><p class="faq-a">A. 아닙니다. 외국법인 명의로 신고 가능합니다. 자국 법인 서류 공증·번역과 국내 대리인 지정이 필요하며, 유선행정사사무소가 대리인 역할을 포함해 전 과정을 대행합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. GPS 권한을 요청하지 않는 앱도 신고 대상인가요?</p><p class="faq-a">A. IP 기반 지역 추정, Wi-Fi 기반 위치 파악도 위치정보 수집에 해당합니다. 명시적 GPS 권한이 없어도 신고 대상일 수 있으므로 검토가 필요합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 신고 안 하면 어떤 제재를 받나요?</p><p class="faq-a">A. 3년 이하 징역 또는 3천만 원 이하 벌금 처분 대상이며, 방통위 시정명령으로 서비스 중단까지 이어질 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류 완비 시 통상 2~4주입니다. 외국법인은 아포스티유 등 자국 서류 준비 기간을 포함해 총 4~8주를 예상하는 것이 현실적입니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 신고 후 추가 의무가 있나요?</p><p class="faq-a">A. 연 1회 위치기반서비스 사업 실적 보고 의무가 있습니다. 관리책임자 변경 시에도 방통위에 변경 신고를 해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>위치기반서비스사업신고, 전문가에게 맡기세요</h3><p>비전행정사사무소는 싱가포르 법인 포함 다수의 외국기업 위치기반서비스사업신고 경험을 보유하고 있습니다. 초기 상담은 무료입니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`,
+<div class="cta-box"><h3>위치기반서비스사업신고, 전문가에게 맡기세요</h3><p>유선행정사사무소는 싱가포르 법인 포함 다수의 외국기업 위치기반서비스사업신고 경험을 보유하고 있습니다. 초기 상담은 무료입니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`,
   },
   {
     id: '54',
@@ -3006,7 +2997,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '인터넷 쇼핑몰·SNS 판매·스마트스토어를 운영하려면 전자상거래법에 따라 통신판매업 신고가 필요합니다. 기준 신고 요건, 구비서류, 절차를 실무 중심으로 안내합니다.',
     meta_title: '통신판매업 신고 방법 — 온라인 쇼핑몰 창업 절차 완벽 가이드',
     meta_description: '인터넷 쇼핑몰·스마트스토어 창업 시 필수인 통신판매업 신고 요건·서류·절차 총정리. 신고 면제 기준, 신고번호 발급까지 전문 행정사가 안내합니다.',
-    cover_image: '/images/blog-topics/nonprofit.jpg',
+    cover_image: '/images/blog-thumbs/online-shop-communication-sales-registration-guide.jpg',
     created_at: '2026-05-20T05:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>통신판매업 신고란?</li><li>신고 의무 대상</li><li>신고 면제 기준</li><li>구비서류</li><li>신고 절차</li><li>신고번호 활용과 표시 의무</li><li>위반 시 제재</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 통신판매업 신고란?</h2>
@@ -3030,7 +3021,7 @@ export const blogPosts: BlogPost[] = [
 <p>신고 없이 통신판매업을 영위하면 <strong>3,000만 원 이하 과태료</strong>가 부과될 수 있습니다. 오픈마켓 플랫폼에서도 신고번호 미제출 시 입점이 거부되거나 판매 중단 조치를 받습니다.</p>
 <h2>8. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 스마트스토어만 운영하는데도 신고해야 하나요?</p><p class="faq-a">A. 네. 네이버 스마트스토어는 통신판매업 신고번호 입력을 요구합니다. 사업자등록 이후 통신판매업 신고 이후 스마트스토어 개설 순서로 진행하세요.</p></div><div class="faq-item"><p class="faq-q">Q. 개인사업자도 신고할 수 있나요?</p><p class="faq-a">A. 네. 법인뿐 아니라 개인사업자도 동일하게 신고합니다. 간이과세자도 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고번호와 사업자등록번호는 다른 건가요?</p><p class="faq-a">A. 다릅니다. 사업자등록번호는 세무서에서, 통신판매업 신고번호는 구청(또는 공정위)에서 각각 발급받는 별개의 번호입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 해외에서 배송하는 구매대행도 신고 대상인가요?</p><p class="faq-a">A. 구매대행도 소비자에게 재화를 판매하는 통신판매에 해당하므로 신고 의무가 있습니다.</p></div></div>
-<div class="cta-box"><h3>통신판매업 신고, 빠르게 처리하세요</h3><p>비전행정사사무소는 창업 초기 사업자등록부터 통신판매업 신고, 각종 인허가까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>통신판매업 신고, 빠르게 처리하세요</h3><p>유선행정사사무소는 창업 초기 사업자등록부터 통신판매업 신고, 각종 인허가까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '55',
@@ -3045,7 +3036,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '건강기능식품을 판매하려면 건강기능식품법에 따라 영업 신고가 필요합니다. 일반판매업과 전문판매업의 차이, 시설 기준, 서류, 절차를 전문 행정사가 정리합니다.',
     meta_title: '건강기능식품 판매업 신고 — 일반·전문판매업 요건·절차 완벽 가이드',
     meta_description: '건강기능식품 판매업 신고 요건·서류·절차 총정리. 일반판매업·전문판매업 구분, 시설 기준, 영업자 교육 의무까지. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/health-functional-food-sales-registration-guide.jpg',
     created_at: '2026-05-20T06:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>건강기능식품 판매업이란?</li><li>일반판매업 vs 전문판매업</li><li>시설 기준</li><li>구비서류</li><li>신고 절차</li><li>영업자 교육 의무</li><li>광고·표시 규제 주의사항</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 건강기능식품 판매업이란?</h2>
@@ -3070,28 +3061,27 @@ export const blogPosts: BlogPost[] = [
 <ul><li>식약처 인정 기능성 문구만 표시 가능</li><li>"치료·예방" 관련 의학적 표현 절대 금지</li><li>SNS 광고도 동일한 표시·광고 기준 적용</li><li>위반 시 영업정지 또는 형사 처벌 대상</li></ul>
 <h2>8. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 홈쇼핑·인터넷으로만 판매해도 신고해야 하나요?</p><p class="faq-a">A. 네. 온라인 전용 판매도 신고 의무가 있습니다. 보관 장소(창고 또는 사무실)를 영업 시설로 신고합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 일반 식품과 건강기능식품을 함께 판매하면 어떻게 하나요?</p><p class="faq-a">A. 두 영업을 모두 신고해야 합니다. 식품판매업 신고와 건강기능식품판매업 신고를 각각 진행하세요.</p></div><div class="faq-item"><p class="faq-q">Q. 직접 제조한 건강기능식품도 판매업 신고로 되나요?</p><p class="faq-a">A. 아닙니다. 직접 제조하는 경우 판매업이 아닌 <strong>건강기능식품 제조업 허가</strong>가 필요하며 기준·규격 검사가 훨씬 엄격합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 해외 건강기능식품을 수입해 판매하려면?</p><p class="faq-a">A. 수입업 등록, 식약처 수입 신고, 판매업 신고를 모두 갖춰야 합니다. 식품 성분 분석 성적서 등 추가 서류도 필요하므로 사전 상담을 권장합니다.</p></div></div>
-<div class="cta-box"><h3>건강기능식품 판매업 신고, 빠르게 처리하세요</h3><p>식품·위생 인허가 전문인 비전행정사사무소가 신고서 작성부터 현장 확인 대응까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>건강기능식품 판매업 신고, 빠르게 처리하세요</h3><p>식품·위생 인허가 전문인 유선행정사사무소가 신고서 작성부터 현장 확인 대응까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '56',
     slug: 'yongdo-byeongyeong-haengjengsa',
     relatedServices: [
       { title: '건축물 용도변경', href: '/services/building-usage' },
-      { title: '학원설립운영등록', href: '/services/education' },
       { title: '식품제조가공업 신고', href: '/services/food-manufacturing' },
     ],
     title: '건축물 용도변경 행정사 대행 — 허가·신고부터 완료까지 원스톱 서비스',
     category: '건축·시설',
-    excerpt: '건축물 용도변경 행정사 대행 서비스. 허가·신고 여부 판단부터 서류 준비, 관청 접수까지 행정사가 처리합니다. 서울 마포구 비전행정사사무소 02-363-2251.',
-    meta_title: '건축물 용도변경 행정사 대행 — 허가·신고 원스톱 서비스 | 비전행정사사무소',
-    meta_description: '건축물 용도변경 허가·신고 행정사 대행. 허가·신고 여부 판단, 서류 준비, 관청 접수, 현장 확인 동행까지. 서울 마포구 비전행정사사무소 02-363-2251.',
-    cover_image: '/images/blog-topics/building-usage.jpg',
+    excerpt: '건축물 용도변경 행정사 대행 서비스. 허가·신고 여부 판단부터 서류 준비, 관청 접수까지 행정사가 처리합니다. 서울 중구 유선행정사사무소 02-363-2251.',
+    meta_title: '건축물 용도변경 행정사 대행 — 허가·신고 원스톱 서비스 | 유선행정사사무소',
+    meta_description: '건축물 용도변경 허가·신고 행정사 대행. 허가·신고 여부 판단, 서류 준비, 관청 접수, 현장 확인 동행까지. 서울 중구 유선행정사사무소 02-363-2251.',
+    cover_image: '/images/blog-thumbs/yongdo-byeongyeong-haengjengsa.jpg',
     created_at: '2026-05-22T00:00:00Z',
-    content: `<div class="toc"><p>목차</p><ol><li>왜 용도변경 행정사 대행이 필요한가</li><li>비전행정사사무소 서비스 범위</li><li>대행 절차 단계별 안내</li><li>주요 사례 — 자주 의뢰되는 유형</li><li>수수료 및 소요 기간</li><li>자주 발생하는 반려 사유와 예방법</li><li>준공(사용승인) 이후 사후관리</li><li>자주 묻는 질문</li></ol></div>
+    content: `<div class="toc"><p>목차</p><ol><li>왜 용도변경 행정사 대행이 필요한가</li><li>유선행정사사무소 서비스 범위</li><li>대행 절차 단계별 안내</li><li>주요 사례 — 자주 의뢰되는 유형</li><li>수수료 및 소요 기간</li><li>자주 발생하는 반려 사유와 예방법</li><li>준공(사용승인) 이후 사후관리</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 왜 용도변경 행정사 대행이 필요한가</h2>
 <p>건축물 용도변경은 건축법, 국토계획법, 소방법, 주차장법이 교차합니다. 실무에서 많이 막히는 부분은 다음입니다.</p>
 <ul><li><strong>허가 vs 신고 판단:</strong> 용도그룹 이동 방향 잘못 판단 시 무허가 영업 위험</li><li><strong>타 부서 협의:</strong> 소방·환경·교통 동시 협의 필요</li><li><strong>반려 이후 재신청:</strong> 보완 사항 미숙지 시 반복 반려</li><li><strong>소유자·임차인 동의:</strong> 서류 구성에서 놓치는 경우 다수</li></ul>
-<h2>2. 비전행정사사무소 서비스 범위</h2>
+<h2>2. 유선행정사사무소 서비스 범위</h2>
 <ul><li>허가·신고·기재사항 변경 여부 사전 판단</li><li>건축물대장·토지이용계획확인서 검토</li><li>건축사 연계 도면 작성 지원</li><li>소방 완비증명 신청 동행</li><li>관할 구청 접수 및 현장 확인 대응</li><li>사용승인(준공) 이후 완결 지원</li></ul>
 <h2>3. 대행 절차 단계별 안내</h2>
 <ol><li>무료 상담 — 현재 건물 용도·변경 목적 파악</li><li>허가 유형 판단 — 허가/신고/기재변경 확정</li><li>서류 준비 — 건축사 선임, 서류 수집</li><li>접수 및 협의 — 구청 접수 + 소방·교통 협의</li><li>현장 확인 동행 — 담당 공무원 방문 대응</li><li>허가증 수령 — 완료 후 등록증·허가증 전달</li></ol>
@@ -3114,41 +3104,39 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 용도변경 없이 운영하다 적발되면 어떻게 되나요?</p><p class="faq-a">A. 이행강제금이 반복 부과되고 영업 중지 처분까지 받을 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 서울 외 지역도 가능한가요?</p><p class="faq-a">A. 수도권 중심으로 대행 가능합니다. 지역에 따라 출장 비용이 발생할 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>건축물 용도변경 행정사 대행 문의</h3><p>비전행정사사무소는 건축물 용도변경 허가부터 완료까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>건축물 용도변경 행정사 대행 문의</h3><p>유선행정사사무소는 건축물 용도변경 허가부터 완료까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   // ── POST 47: beauty-salon-notification-guide ─────────────────────────────
   {
     id: '47',
     slug: 'beauty-salon-notification-guide',
     relatedServices: [
-      { title: '위생업 영업신고', href: '/services/sanitation' },
-      { title: '의원 개설', href: '/services/medical' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
     ],
     title: '미용업 신고 완벽 가이드 — 미용사 자격·영업신고·위생기준',
     category: '위생·서비스',
     excerpt: '미용업 영업신고 절차, 미용사 면허 요건, 시설 위생 기준, 외국인 개업 방법까지 최신 기준으로 안내합니다.',
-    meta_title: '미용업 신고 완벽 가이드 | 비전행정사사무소',
-    meta_description: '미용업 영업신고 절차, 미용사 면허 요건, 시설 기준, 위생 교육까지 행정사가 안내합니다. 비전행정사사무소 02-363-2251.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    meta_title: '미용업 신고 완벽 가이드 | 유선행정사사무소',
+    meta_description: '미용업 영업신고 절차, 미용사 면허 요건, 시설 기준, 위생 교육까지 행정사가 안내합니다. 유선행정사사무소 02-363-2251.',
+    cover_image: '/images/blog-thumbs/beauty-salon-notification-guide.jpg',
     created_at: '2026-05-22T01:00:00Z',
-    content: `<div class="toc"><p>목차</p><ol><li>미용업 종류와 신고 vs 허가</li><li>미용사 면허 요건</li><li>영업신고 절차</li><li>시설·위생 기준</li><li>위생 교육 의무</li><li>영업자 준수사항과 행정처분</li><li>신고 사항 변경과 지위 승계</li><li>자주 묻는 질문</li></ol></div><h2>1. 미용업 종류와 신고 vs 허가</h2><p>미용업은 <strong>공중위생관리법</strong>에 따라 관할 시장·군수·구청장에게 <strong>영업 신고</strong>를 해야 영업할 수 있습니다. 허가제가 아닌 신고제이므로 요건을 갖추면 신고 즉시 영업이 가능합니다.</p><ul><li><strong>일반 미용업:</strong> 헤어 컷·펌·염색·드라이 등</li><li><strong>피부 미용업:</strong> 피부 관리·제모·눈썹 손질 등</li><li><strong>네일 미용업:</strong> 손발톱 관리·네일아트</li><li><strong>화장 미용업:</strong> 메이크업·분장</li><li><strong>종합 미용업:</strong> 2개 이상 업종 통합 운영</li></ul><h2>2. 미용사 면허 요건</h2><ul><li>관련 학교(고등·전문대·대학) 관련 학과 졸업 또는</li><li>미용사 국가자격시험 합격</li><li>면허증 발급: 시도지사에게 신청</li><li>외국인은 체류 자격 및 취업 가능 여부 확인 필수</li></ul><h2>3. 영업신고 절차</h2><ol><li>미용사 면허증 발급 확인</li><li>영업 장소 임대차 계약 체결</li><li>시설 기준 맞춤 인테리어 완료</li><li>관할 구청 위생과 영업신고 제출</li><li>신고증 수령 후 영업 개시</li></ol><h2>4. 시설·위생 기준</h2><ul><li>탈의실·세면대·소독 시설 필수</li><li>작업 공간과 대기 공간 구분</li><li>환기 및 조명 기준 충족</li><li>소독기, 1회용 위생 재료 비치</li></ul><h2>5. 위생 교육 의무</h2><p>영업 개시 전 또는 개시 후 6개월 이내 위생 교육(3시간) 이수 의무가 있습니다. 한국미용사회 등 지정 기관에서 교육을 받을 수 있습니다.</p><h2>6. 영업자 준수사항과 행정처분</h2><p>신고를 마친 이후에도 공중위생관리법상 영업자 준수사항을 계속 지켜야 합니다. 소독하지 않은 기구 사용, 면허 없는 자의 시술 행위, 무자격자 고용 등이 확인되면 시정명령, 영업정지, 심한 경우 영업소 폐쇄명령까지 단계적으로 행정처분이 내려질 수 있습니다.</p><ul><li><strong>시설 유지 의무:</strong> 신고 당시 확인받은 시설 기준을 영업 기간 내내 유지해야 합니다.</li><li><strong>기구 소독 의무:</strong> 사용한 기구는 소독을 거친 후 재사용해야 하며, 1회용 재료는 재사용이 금지됩니다.</li><li><strong>게시 의무:</strong> 미용업 신고증, 요금표 등을 업소 내 잘 보이는 곳에 게시해야 합니다.</li><li><strong>청소년 보호:</strong> 출입·고용 제한 업종에 해당하는 경우 관련 규정을 준수해야 합니다.</li></ul><div class="highlight-box"><strong>주의:</strong> 면허가 없는 종업원에게 커트·펌 등 미용 시술을 맡기는 것은 무면허 영업으로 적발 시 신고한 영업자도 함께 행정처분 대상이 될 수 있습니다.</div><h2>7. 신고 사항 변경과 지위 승계</h2><p>영업소 소재지 이전, 상호 변경, 대표자 변경 등 신고 사항에 변화가 생기면 변경신고를 해야 합니다. 영업을 양수·상속받는 경우에는 지위승계신고를 통해 종전 신고의 효력을 그대로 이어받을 수 있습니다.</p><ol class="step-list"><li><strong>변경 사유 확인:</strong> 소재지, 상호, 대표자, 시설 등 변경 항목을 확인합니다.</li><li><strong>변경신고서 제출:</strong> 관할 구청 위생과에 증빙서류와 함께 제출합니다.</li><li><strong>지위승계신고(해당 시):</strong> 양도·양수 계약서, 상속 관계 서류 등을 첨부하여 신고합니다.</li></ol><p>폐업하는 경우에도 폐업신고를 해야 하며, 신고 없이 방치하면 세금·행정 관리상 불이익이 발생할 수 있습니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 외국인이 미용업을 개설할 수 있나요?</p><p class="faq-a">A. 가능합니다. 단 취업 가능한 체류 자격(F-4, F-5, F-2 등)이 있어야 하며, 미용사 면허도 별도로 취득해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 후 검사가 있나요?</p><p class="faq-a">A. 신고 후 보건소 위생 감시원이 시설 현장 확인을 할 수 있습니다. 기준 미달 시 보완 명령이 내려집니다.</p></div><div class="faq-item"><p class="faq-q">Q. 네일샵도 미용업 신고를 해야 하나요?</p><p class="faq-a">A. 예, 네일 미용업도 공중위생관리법상 영업신고 대상입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류가 완비된 경우 통상 3~5영업일 이내에 신고증이 발급됩니다. 위생교육 수료증을 미리 준비해 두면 처리 속도를 앞당길 수 있습니다.</p></div></div><div class="cta-box"><h3>미용업 신고 대행 문의</h3><p>비전행정사사무소는 미용업 영업신고부터 위생 교육 안내까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+    content: `<div class="toc"><p>목차</p><ol><li>미용업 종류와 신고 vs 허가</li><li>미용사 면허 요건</li><li>영업신고 절차</li><li>시설·위생 기준</li><li>위생 교육 의무</li><li>영업자 준수사항과 행정처분</li><li>신고 사항 변경과 지위 승계</li><li>자주 묻는 질문</li></ol></div><h2>1. 미용업 종류와 신고 vs 허가</h2><p>미용업은 <strong>공중위생관리법</strong>에 따라 관할 시장·군수·구청장에게 <strong>영업 신고</strong>를 해야 영업할 수 있습니다. 허가제가 아닌 신고제이므로 요건을 갖추면 신고 즉시 영업이 가능합니다.</p><ul><li><strong>일반 미용업:</strong> 헤어 컷·펌·염색·드라이 등</li><li><strong>피부 미용업:</strong> 피부 관리·제모·눈썹 손질 등</li><li><strong>네일 미용업:</strong> 손발톱 관리·네일아트</li><li><strong>화장 미용업:</strong> 메이크업·분장</li><li><strong>종합 미용업:</strong> 2개 이상 업종 통합 운영</li></ul><h2>2. 미용사 면허 요건</h2><ul><li>관련 학교(고등·전문대·대학) 관련 학과 졸업 또는</li><li>미용사 국가자격시험 합격</li><li>면허증 발급: 시도지사에게 신청</li><li>외국인은 체류 자격 및 취업 가능 여부 확인 필수</li></ul><h2>3. 영업신고 절차</h2><ol><li>미용사 면허증 발급 확인</li><li>영업 장소 임대차 계약 체결</li><li>시설 기준 맞춤 인테리어 완료</li><li>관할 구청 위생과 영업신고 제출</li><li>신고증 수령 후 영업 개시</li></ol><h2>4. 시설·위생 기준</h2><ul><li>탈의실·세면대·소독 시설 필수</li><li>작업 공간과 대기 공간 구분</li><li>환기 및 조명 기준 충족</li><li>소독기, 1회용 위생 재료 비치</li></ul><h2>5. 위생 교육 의무</h2><p>영업 개시 전 또는 개시 후 6개월 이내 위생 교육(3시간) 이수 의무가 있습니다. 한국미용사회 등 지정 기관에서 교육을 받을 수 있습니다.</p><h2>6. 영업자 준수사항과 행정처분</h2><p>신고를 마친 이후에도 공중위생관리법상 영업자 준수사항을 계속 지켜야 합니다. 소독하지 않은 기구 사용, 면허 없는 자의 시술 행위, 무자격자 고용 등이 확인되면 시정명령, 영업정지, 심한 경우 영업소 폐쇄명령까지 단계적으로 행정처분이 내려질 수 있습니다.</p><ul><li><strong>시설 유지 의무:</strong> 신고 당시 확인받은 시설 기준을 영업 기간 내내 유지해야 합니다.</li><li><strong>기구 소독 의무:</strong> 사용한 기구는 소독을 거친 후 재사용해야 하며, 1회용 재료는 재사용이 금지됩니다.</li><li><strong>게시 의무:</strong> 미용업 신고증, 요금표 등을 업소 내 잘 보이는 곳에 게시해야 합니다.</li><li><strong>청소년 보호:</strong> 출입·고용 제한 업종에 해당하는 경우 관련 규정을 준수해야 합니다.</li></ul><div class="highlight-box"><strong>주의:</strong> 면허가 없는 종업원에게 커트·펌 등 미용 시술을 맡기는 것은 무면허 영업으로 적발 시 신고한 영업자도 함께 행정처분 대상이 될 수 있습니다.</div><h2>7. 신고 사항 변경과 지위 승계</h2><p>영업소 소재지 이전, 상호 변경, 대표자 변경 등 신고 사항에 변화가 생기면 변경신고를 해야 합니다. 영업을 양수·상속받는 경우에는 지위승계신고를 통해 종전 신고의 효력을 그대로 이어받을 수 있습니다.</p><ol class="step-list"><li><strong>변경 사유 확인:</strong> 소재지, 상호, 대표자, 시설 등 변경 항목을 확인합니다.</li><li><strong>변경신고서 제출:</strong> 관할 구청 위생과에 증빙서류와 함께 제출합니다.</li><li><strong>지위승계신고(해당 시):</strong> 양도·양수 계약서, 상속 관계 서류 등을 첨부하여 신고합니다.</li></ol><p>폐업하는 경우에도 폐업신고를 해야 하며, 신고 없이 방치하면 세금·행정 관리상 불이익이 발생할 수 있습니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 외국인이 미용업을 개설할 수 있나요?</p><p class="faq-a">A. 가능합니다. 단 취업 가능한 체류 자격(F-4, F-5, F-2 등)이 있어야 하며, 미용사 면허도 별도로 취득해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 후 검사가 있나요?</p><p class="faq-a">A. 신고 후 보건소 위생 감시원이 시설 현장 확인을 할 수 있습니다. 기준 미달 시 보완 명령이 내려집니다.</p></div><div class="faq-item"><p class="faq-q">Q. 네일샵도 미용업 신고를 해야 하나요?</p><p class="faq-a">A. 예, 네일 미용업도 공중위생관리법상 영업신고 대상입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류가 완비된 경우 통상 3~5영업일 이내에 신고증이 발급됩니다. 위생교육 수료증을 미리 준비해 두면 처리 속도를 앞당길 수 있습니다.</p></div></div><div class="cta-box"><h3>미용업 신고 대행 문의</h3><p>유선행정사사무소는 미용업 영업신고부터 위생 교육 안내까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   // ── POST 48: pet-shop-animal-sales-registration-guide ────────────────────
   {
     id: '48',
     slug: 'pet-shop-animal-sales-registration-guide',
     relatedServices: [
-      { title: '동물판매업 등록', href: '/services/animal' },
-      { title: '위생업 영업신고', href: '/services/sanitation' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
     ],
     title: '동물판매업 영업등록 완벽 가이드 — 펫샵 개업 필수 절차',
     category: '동물·위생',
     excerpt: '펫샵(동물판매업) 영업등록 절차, 동물보호법상 시설 기준, 수의사 신고 의무, 외국인 개업까지 기준으로 안내합니다.',
-    meta_title: '동물판매업 영업등록 가이드 — 펫샵 개업 필수 절차 | 비전행정사사무소',
+    meta_title: '동물판매업 영업등록 가이드 — 펫샵 개업 필수 절차 | 유선행정사사무소',
     meta_description: '동물판매업(펫샵) 영업등록 절차, 동물보호법 기준, 시설 요건, 외국인 개업까지 행정사가 안내합니다. 02-363-2251.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/pet-shop-animal-sales-registration-guide.jpg',
     created_at: '2026-05-22T02:00:00Z',
-    content: `<div class="toc"><p>목차</p><ol><li>동물판매업 개요</li><li>영업등록 요건</li><li>등록 절차</li><li>시설 기준</li><li>운영 의무</li><li>결격사유와 등록 제한</li><li>등록 사항 변경과 폐업 신고</li><li>미등록 영업과 위반 시 제재</li><li>자주 묻는 질문</li></ol></div><h2>1. 동물판매업 개요</h2><p>반려동물을 판매하는 업체는 <strong>동물보호법</strong>에 따라 시장·군수·구청장에게 <strong>동물판매업 영업등록</strong>을 해야 합니다. 미등록 영업 시 2년 이하 징역 또는 2천만 원 이하 벌금이 부과됩니다.</p><h2>2. 영업등록 요건</h2><ul><li>인력: 동물보호교육 이수자 상시 배치</li><li>시설: 케이지 크기·청결·온도·환기 기준 충족</li><li>동물 건강 및 판매 이력 관리 의무</li><li>결격 사유 없을 것(동물학대 전력 없어야 함)</li></ul><h2>3. 등록 절차</h2><ol><li>영업 장소 확보 및 시설 기준 준비</li><li>동물보호교육 이수(지정 기관, 3~6시간)</li><li>관할 시·군·구청 동물판매업 등록 신청</li><li>현장 확인 후 등록증 수령</li></ol><h2>4. 시설 기준</h2><ul><li>사육공간: 동물 종류·크기에 따른 최소 면적</li><li>온·습도 조절 가능한 환경 유지</li><li>청결한 음수·사료 제공 시설</li><li>격리 공간(신규 입고 동물 검역용) 확보</li></ul><h2>5. 운영 의무</h2><ul><li>동물 판매 시 건강 확인서 제공 의무</li><li>생후 2개월 미만 동물 판매 금지</li><li>판매 후 15일 이내 폐사 시 보상 규정 고지</li><li>수의사 정기 건강 검진 기록 유지</li></ul><h2>6. 결격사유와 등록 제한</h2><p>동물보호법은 동물판매업 등록을 제한하는 결격사유를 두고 있습니다. 동물학대 등 관련 범죄로 벌금 이상의 형을 선고받고 그 형이 확정된 후 일정 기간이 지나지 않은 자, 등록이 취소된 후 일정 기간이 지나지 않은 자는 동물판매업을 등록할 수 없습니다. 법인의 경우 대표자나 임원 중 결격사유에 해당하는 사람이 있으면 등록 자체가 제한될 수 있으므로, 신청 전 임원 구성을 반드시 점검해야 합니다.</p><ul><li><strong>결격 사유 확인:</strong> 관할 기관이 신청인의 범죄경력·행정처분 이력 확인을 요구할 수 있습니다.</li><li><strong>영업정지·등록취소 이력:</strong> 과거 동물 관련 영업에서 행정처분을 받은 이력이 있으면 재등록 심사에서 불이익을 받을 수 있습니다.</li><li><strong>임원 변경 시 재확인:</strong> 법인 임원이 교체되는 경우 신규 임원에 대해서도 결격사유 여부를 다시 확인해야 합니다.</li></ul><h2>7. 등록 사항 변경과 폐업 신고</h2><p>등록 이후 영업소 소재지, 대표자, 취급 동물의 종류 등 등록 사항에 변경이 생기면 지체 없이 변경신고를 해야 합니다. 변경신고를 게을리하면 과태료 부과 대상이 될 수 있습니다.</p><ol class="step-list"><li><strong>변경 사유 발생:</strong> 영업소 이전, 대표자 변경, 취급 동물 종 추가 등이 대표적입니다.</li><li><strong>변경신고서 제출:</strong> 관할 시·군·구청에 변경 사항을 증빙하는 서류와 함께 제출합니다.</li><li><strong>등록증 재발급:</strong> 변경 내용이 반영된 등록증을 다시 수령합니다.</li></ol><p>영업을 종료하는 경우에도 별도의 폐업신고가 필요합니다. 세무서에 사업자등록만 말소하고 동물판매업 폐업신고를 누락하면 등록이 형식적으로 남아 있어 추후 불이익이 발생할 수 있으므로 주의해야 합니다.</p><h2>8. 미등록 영업과 위반 시 제재</h2><p>등록하지 않고 동물판매업을 영위하면 형사처벌 대상이 되며, 등록 이후에도 시설 기준을 위반하거나 동물 학대 행위가 확인되면 영업정지 또는 등록취소 등 행정처분을 받을 수 있습니다. 특히 온라인 판매 채널을 함께 운영하는 경우 오프라인 등록 사항과 온라인 표시 정보가 일치해야 하며, 불일치 시 시정명령의 대상이 될 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 등록증 없이 온라인 오픈마켓이나 SNS를 통해 반려동물을 상시적으로 판매하는 것도 동물판매업에 해당하여 등록 의무가 발생합니다. "개인 간 거래"라는 명목으로 반복적으로 판매하는 경우에도 실질은 영업으로 판단되어 단속 대상이 될 수 있습니다.</div><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 외국인도 동물판매업을 등록할 수 있나요?</p><p class="faq-a">A. 가능합니다. 취업 가능 체류 자격(F-2, F-4, F-5 등)이 있어야 하며, 사업자등록 후 동물판매업 등록을 진행합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 온라인으로만 판매해도 등록이 필요한가요?</p><p class="faq-a">A. 온라인 판매도 동물판매업에 해당하므로 등록이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 파충류도 판매업 등록 대상인가요?</p><p class="faq-a">A. 반려동물로 분류된 동물을 판매하는 경우 모두 해당됩니다. 야생동물은 별도 규정이 적용됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 후 준수해야 할 사항은 무엇인가요?</p><p class="faq-a">A. 동물의 건강 상태 기록 관리, 판매 전 질병 확인, 사육 환경 기준 유지 등이 요구됩니다. 정기 점검에서 기준 미달이 확인되면 영업정지 등 행정처분을 받을 수 있습니다.</p></div></div><div class="cta-box"><h3>동물판매업 영업등록 대행 문의</h3><p>비전행정사사무소는 동물판매업 등록부터 운영 기준 안내까지 전담합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+    content: `<div class="toc"><p>목차</p><ol><li>동물판매업 개요</li><li>영업등록 요건</li><li>등록 절차</li><li>시설 기준</li><li>운영 의무</li><li>결격사유와 등록 제한</li><li>등록 사항 변경과 폐업 신고</li><li>미등록 영업과 위반 시 제재</li><li>자주 묻는 질문</li></ol></div><h2>1. 동물판매업 개요</h2><p>반려동물을 판매하는 업체는 <strong>동물보호법</strong>에 따라 시장·군수·구청장에게 <strong>동물판매업 영업등록</strong>을 해야 합니다. 미등록 영업 시 2년 이하 징역 또는 2천만 원 이하 벌금이 부과됩니다.</p><h2>2. 영업등록 요건</h2><ul><li>인력: 동물보호교육 이수자 상시 배치</li><li>시설: 케이지 크기·청결·온도·환기 기준 충족</li><li>동물 건강 및 판매 이력 관리 의무</li><li>결격 사유 없을 것(동물학대 전력 없어야 함)</li></ul><h2>3. 등록 절차</h2><ol><li>영업 장소 확보 및 시설 기준 준비</li><li>동물보호교육 이수(지정 기관, 3~6시간)</li><li>관할 시·군·구청 동물판매업 등록 신청</li><li>현장 확인 후 등록증 수령</li></ol><h2>4. 시설 기준</h2><ul><li>사육공간: 동물 종류·크기에 따른 최소 면적</li><li>온·습도 조절 가능한 환경 유지</li><li>청결한 음수·사료 제공 시설</li><li>격리 공간(신규 입고 동물 검역용) 확보</li></ul><h2>5. 운영 의무</h2><ul><li>동물 판매 시 건강 확인서 제공 의무</li><li>생후 2개월 미만 동물 판매 금지</li><li>판매 후 15일 이내 폐사 시 보상 규정 고지</li><li>수의사 정기 건강 검진 기록 유지</li></ul><h2>6. 결격사유와 등록 제한</h2><p>동물보호법은 동물판매업 등록을 제한하는 결격사유를 두고 있습니다. 동물학대 등 관련 범죄로 벌금 이상의 형을 선고받고 그 형이 확정된 후 일정 기간이 지나지 않은 자, 등록이 취소된 후 일정 기간이 지나지 않은 자는 동물판매업을 등록할 수 없습니다. 법인의 경우 대표자나 임원 중 결격사유에 해당하는 사람이 있으면 등록 자체가 제한될 수 있으므로, 신청 전 임원 구성을 반드시 점검해야 합니다.</p><ul><li><strong>결격 사유 확인:</strong> 관할 기관이 신청인의 범죄경력·행정처분 이력 확인을 요구할 수 있습니다.</li><li><strong>영업정지·등록취소 이력:</strong> 과거 동물 관련 영업에서 행정처분을 받은 이력이 있으면 재등록 심사에서 불이익을 받을 수 있습니다.</li><li><strong>임원 변경 시 재확인:</strong> 법인 임원이 교체되는 경우 신규 임원에 대해서도 결격사유 여부를 다시 확인해야 합니다.</li></ul><h2>7. 등록 사항 변경과 폐업 신고</h2><p>등록 이후 영업소 소재지, 대표자, 취급 동물의 종류 등 등록 사항에 변경이 생기면 지체 없이 변경신고를 해야 합니다. 변경신고를 게을리하면 과태료 부과 대상이 될 수 있습니다.</p><ol class="step-list"><li><strong>변경 사유 발생:</strong> 영업소 이전, 대표자 변경, 취급 동물 종 추가 등이 대표적입니다.</li><li><strong>변경신고서 제출:</strong> 관할 시·군·구청에 변경 사항을 증빙하는 서류와 함께 제출합니다.</li><li><strong>등록증 재발급:</strong> 변경 내용이 반영된 등록증을 다시 수령합니다.</li></ol><p>영업을 종료하는 경우에도 별도의 폐업신고가 필요합니다. 세무서에 사업자등록만 말소하고 동물판매업 폐업신고를 누락하면 등록이 형식적으로 남아 있어 추후 불이익이 발생할 수 있으므로 주의해야 합니다.</p><h2>8. 미등록 영업과 위반 시 제재</h2><p>등록하지 않고 동물판매업을 영위하면 형사처벌 대상이 되며, 등록 이후에도 시설 기준을 위반하거나 동물 학대 행위가 확인되면 영업정지 또는 등록취소 등 행정처분을 받을 수 있습니다. 특히 온라인 판매 채널을 함께 운영하는 경우 오프라인 등록 사항과 온라인 표시 정보가 일치해야 하며, 불일치 시 시정명령의 대상이 될 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 등록증 없이 온라인 오픈마켓이나 SNS를 통해 반려동물을 상시적으로 판매하는 것도 동물판매업에 해당하여 등록 의무가 발생합니다. "개인 간 거래"라는 명목으로 반복적으로 판매하는 경우에도 실질은 영업으로 판단되어 단속 대상이 될 수 있습니다.</div><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 외국인도 동물판매업을 등록할 수 있나요?</p><p class="faq-a">A. 가능합니다. 취업 가능 체류 자격(F-2, F-4, F-5 등)이 있어야 하며, 사업자등록 후 동물판매업 등록을 진행합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 온라인으로만 판매해도 등록이 필요한가요?</p><p class="faq-a">A. 온라인 판매도 동물판매업에 해당하므로 등록이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 파충류도 판매업 등록 대상인가요?</p><p class="faq-a">A. 반려동물로 분류된 동물을 판매하는 경우 모두 해당됩니다. 야생동물은 별도 규정이 적용됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 후 준수해야 할 사항은 무엇인가요?</p><p class="faq-a">A. 동물의 건강 상태 기록 관리, 판매 전 질병 확인, 사육 환경 기준 유지 등이 요구됩니다. 정기 점검에서 기준 미달이 확인되면 영업정지 등 행정처분을 받을 수 있습니다.</p></div></div><div class="cta-box"><h3>동물판매업 영업등록 대행 문의</h3><p>유선행정사사무소는 동물판매업 등록부터 운영 기준 안내까지 전담합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '49',
@@ -3163,7 +3151,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '해외 화장품 브랜드를 한국에 수입·판매하려면 식약처에 화장품책임판매업 등록이 필요합니다. 등록 요건, 서류, 절차를 전문 행정사가 안내합니다.',
     meta_title: '화장품 수입판매업 등록 방법 — 해외 브랜드 한국 수입 절차',
     meta_description: '화장품책임판매업 등록 자격·서류·식약처 신청 절차 총정리. 해외 화장품 한국 수입 시 반드시 확인하세요. 전문 행정사 초기 상담 무료. 02-363-2251.',
-    cover_image: '/images/blog-topics/cosmetics.jpg',
+    cover_image: '/images/blog-thumbs/cosmetics-import-sales-registration-guide.jpg',
     created_at: '2026-05-23T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>화장품책임판매업이란?</li><li>등록 의무 대상</li><li>등록 요건</li><li>필요 서류</li><li>등록 신청 절차</li><li>품질 및 안전 관리 의무</li><li>수입 화장품 표시 기준</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 화장품책임판매업이란?</h2>
@@ -3190,7 +3178,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 해외 브랜드와 독점 판매 계약만 있으면 바로 판매 가능한가요?</p><p class="faq-a">A. 아닙니다. 독점 계약과 무관하게 화장품책임판매업 등록은 별도로 완료해야 합니다. 미등록 상태에서 판매하면 행정처분·벌금 대상입니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 외국인 대표도 화장품책임판매업 등록이 가능한가요?</p><p class="faq-a">A. 가능합니다. 사업자등록이 가능한 체류 자격(F-5, F-4, D-8 등)이 있으면 내국인과 동일하게 등록할 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>해외 화장품 수입, 등록 절차가 복잡하다면?</h3><p>비전행정사사무소는 화장품책임판매업 등록부터 수입신고 안내까지 전담합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>해외 화장품 수입, 등록 절차가 복잡하다면?</h3><p>유선행정사사무소는 화장품책임판매업 등록부터 수입신고 안내까지 전담합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '50',
@@ -3204,7 +3192,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '내비게이션·배달앱·부동산 앱 등 위치정보를 활용하는 국내 기업은 방송통신위원회에 위치기반서비스 사업 신고를 해야 합니다. 최신 절차를 안내합니다.',
     meta_title: '위치기반서비스 사업신고 방법 — 내국 법인 신고 절차 총정리',
     meta_description: '위치기반서비스사업 신고 대상·서류·방통위 신고 절차 총정리. 내비게이션·배달앱·부동산 플랫폼 등 위치정보 활용 기업 필독. 행정사 무료상담. 02-363-2251.',
-    cover_image: '/images/blog-topics/location-based.jpg',
+    cover_image: '/images/blog-thumbs/location-based-service-domestic-registration-guide.jpg',
     created_at: '2026-05-23T01:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>위치기반서비스 사업신고 개요</li><li>신고 의무 대상</li><li>신고 면제 사례</li><li>필요 서류</li><li>신고 절차</li><li>개인정보·위치정보 보호 의무</li><li>신고 후 변경 신고</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 위치기반서비스 사업신고 개요</h2>
@@ -3232,7 +3220,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 위치정보 수집 없이 사용자가 입력한 주소만 사용하면 신고 대상인가요?</p><p class="faq-a">A. 아닙니다. 실시간 위치정보를 수집하지 않고 사용자가 직접 입력한 정보만 처리하는 경우 위치기반서비스 신고 대상이 아닙니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 스타트업 초기에도 신고가 필요한가요?</p><p class="faq-a">A. 네, 기업 규모와 무관하게 위치정보 활용 서비스를 제공하면 신고 의무가 있습니다. 초기 스타트업이라도 출시 전 신고를 완료해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>위치기반서비스 사업신고, 서류 준비가 어렵다면?</h3><p>비전행정사사무소는 신고서 작성부터 방통위 수리까지 전담합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>위치기반서비스 사업신고, 서류 준비가 어렵다면?</h3><p>유선행정사사무소는 신고서 작성부터 방통위 수리까지 전담합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '51',
@@ -3246,7 +3234,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '국제물류주선업 등록에 필요한 자본금 3억 원 요건과 보증보험 1억 원 가입 방법을 전문 행정사가 상세히 안내합니다. 자본금 증명 방법부터 보험사 선택까지 한 번에 확인하세요.',
     meta_title: '국제물류주선업 자본금·보증보험 요건 완벽 가이드',
     meta_description: '국제물류주선업 등록 자본금 3억·보증보험 1억 요건 총정리. 잔고 증명 방법·보험사 선택·갱신 절차까지 행정사가 직접 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/freight-forwarder-capital-bond.jpg',
     created_at: '2026-05-25T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>국제물류주선업 등록 개요</li><li>자본금 3억 원 요건 상세</li><li>자본금 증명 방법</li><li>보증보험 1억 원 가입 방법</li><li>보증보험 유지·갱신 의무</li><li>자본금 미달 시 해결 방법</li><li>등록 신청 전 체크리스트</li><li>FAQ</li></ol></div>
 <h2>1. 국제물류주선업 등록 개요</h2>
@@ -3311,13 +3299,13 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 자본금 3억 원 중 대출금을 활용해도 되나요?</p><p class="faq-a">A. 형식상 납입 자본금이 3억 원이면 되지만, 실질 심사에서 부채 비율이 높은 경우 보완 요청을 받을 수 있습니다. 순수 출자금으로 구성하는 것이 가장 안전합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록 후 자본금이 줄어들면 어떻게 되나요?</p><p class="faq-a">A. 등록 후 자본금이 3억 원 미만으로 감소하면 등록 기준 미달로 행정처분(시정명령에서 등록으로 취소) 대상이 됩니다. 유상감자 등 자본금 변동 시 사전에 행정사와 상담하세요.</p></div>
 </div>
-<div class="cta-box"><h3>자본금·보증보험 요건 충족이 어렵다면 전문가와 함께하세요</h3><p>비전행정사사무소는 국제물류주선업 등록 요건 검토부터 서류 대행, 관청 접수까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>자본금·보증보험 요건 충족이 어렵다면 전문가와 함께하세요</h3><p>유선행정사사무소는 국제물류주선업 등록 요건 검토부터 서류 대행, 관청 접수까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '52',
     slug: 'currency-exchange-registration',
     relatedServices: [
-      { title: '국제물류주선업 등록', href: '/services/international-logistics' },
+      { title: '국제물류주선업 등록', href: '/services/logistics' },
       { title: '담배수입판매업 허가', href: '/services/tobacco' },
     ],
     title: '환전업 등록 방법과 필요 요건 총정리',
@@ -3325,7 +3313,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '소액 외화 환전업 등록 자격, 필요 서류, 한국은행 신고 절차를 전문 행정사가 안내합니다. 관광지 환전소부터 온라인 환전 플랫폼까지 최신 기준으로 정리했습니다.',
     meta_title: '환전업 등록 요건·절차 완벽 가이드',
     meta_description: '소액 외화 환전업 등록 자격·서류·절차 총정리. 한국은행 신고 요건, 환전소 시설 기준, 자본금 요건까지 행정사가 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/currency-exchange-registration.jpg',
     created_at: '2026-05-25T01:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>환전업이란?</li><li>환전업 종류와 등록 기관</li><li>소액 환전업 등록 요건</li><li>필요 서류</li><li>등록 신청 절차</li><li>환전업 운영 의무</li><li>환전업 취소·제재 사유</li><li>온라인 환전 플랫폼 요건</li></ol></div>
 <h2>1. 환전업이란?</h2>
@@ -3405,21 +3393,21 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 여행사를 운영 중인데 환전 서비스도 제공하고 싶습니다. 가능한가요?</p><p class="faq-a">A. 여행사가 환전 서비스를 함께 제공하려면 별도로 환전업 등록을 해야 합니다. 여행업 허가와는 독립적인 등록입니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류 완비 기준 약 20~30 영업일이 소요됩니다. 서류 보완 요청이 있으면 기간이 연장될 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>환전업 등록, 복잡한 AML 체계부터 한국은행 신청까지 대행합니다</h3><p>비전행정사사무소는 환전업 등록 전 과정을 지원합니다. 자금세탁방지 내부통제 규정 작성, 서류 준비, 관청 접수까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>환전업 등록, 복잡한 AML 체계부터 한국은행 신청까지 대행합니다</h3><p>유선행정사사무소는 환전업 등록 전 과정을 지원합니다. 자금세탁방지 내부통제 규정 작성, 서류 준비, 관청 접수까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '53',
     slug: 'hostel-registration-facility',
     relatedServices: [
-      { title: '외국인도시민박업 신고', href: '/services/urban-homestay' },
-      { title: '한옥체험업 등록', href: '/services/hanok-stay' },
+      { title: '외국인도시민박업 등록', href: '/services/urban-guesthouse' },
+      { title: '한옥체험업 등록', href: '/services/hanok' },
     ],
     title: '호스텔업 등록 시설 기준과 절차 안내',
     category: '숙박업',
     excerpt: '호스텔업 등록을 위한 시설 기준, 소방·위생 설비 요건, 관광진흥법상 신청 절차를 전문 행정사가 상세히 안내합니다. 청년 여행자 대상 숙소 창업을 준비하는 분께 필독 자료입니다.',
     meta_title: '호스텔업 등록 시설 기준·절차 완벽 가이드',
     meta_description: '호스텔업 등록 시설 기준·소방·위생 요건·신청 절차 총정리. 관광진흥법 기준, 도미토리 설치 요건까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/hostel-registration-facility.jpg',
     created_at: '2026-05-25T02:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>호스텔업 개요</li><li>관광진흥법상 호스텔업 정의</li><li>시설 기준 상세</li><li>소방·위생 설비 요건</li><li>등록 신청 절차</li><li>운영 중 의무사항</li><li>변경 등록 절차</li><li>호스텔업 등록 시 주의사항</li></ol></div>
 <h2>1. 호스텔업 개요</h2>
@@ -3495,21 +3483,21 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국인 전용 호스텔도 같은 절차로 등록하나요?</p><p class="faq-a">A. 네, 관광진흥법상 등록 절차는 동일합니다. 단, 외국인 투숙객 여권 확인·명부 관리 의무가 있으므로 프런트 운영 체계를 갖추어야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 호스텔업 등록 후 숙박세 신고 의무가 있나요?</p><p class="faq-a">A. 관광진흥법에 따른 관광숙박업은 관광진흥개발기금 부담금 납부 의무가 있습니다. 또한 부가가치세·종합소득세(법인세) 신고 의무도 당연히 적용됩니다.</p></div>
 </div>
-<div class="cta-box"><h3>호스텔업 등록, 시설 기준부터 등록증 수령까지 대행합니다</h3><p>비전행정사사무소는 건축물 용도 검토, 소방 절차 안내, 등록 신청 대행까지 호스텔업 등록 전 과정을 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>호스텔업 등록, 시설 기준부터 등록증 수령까지 대행합니다</h3><p>유선행정사사무소는 건축물 용도 검토, 소방 절차 안내, 등록 신청 대행까지 호스텔업 등록 전 과정을 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '54',
     slug: 'foreigner-urban-homestay-registration',
     relatedServices: [
       { title: '호스텔업 등록', href: '/services/hostel' },
-      { title: '한옥체험업 등록', href: '/services/hanok-stay' },
+      { title: '한옥체험업 등록', href: '/services/hanok' },
     ],
     title: '외국인도시민박업 신고 요건과 절차',
     category: '숙박업',
     excerpt: '외국인도시민박업 신고 자격, 주택 시설 기준, 관광진흥법상 절차를 전문 행정사가 안내합니다. 내 집에서 외국인 여행자를 받으려는 분께 필요한 모든 정보를 담았습니다.',
     meta_title: '외국인도시민박업 신고 요건·절차 완벽 가이드',
     meta_description: '외국인도시민박업 신고 자격·주택 기준·절차 총정리. 관광진흥법 요건, 실거주 필수 여부까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/hostel.jpg',
+    cover_image: '/images/blog-thumbs/foreigner-urban-homestay-registration.jpg',
     created_at: '2026-05-25T03:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>외국인도시민박업이란?</li><li>신고 자격 요건</li><li>주택 시설 기준</li><li>필요 서류</li><li>신고 절차</li><li>운영 규칙과 의무</li><li>영업 제한 사항</li><li>주의사항</li></ol></div>
 <h2>1. 외국인도시민박업이란?</h2>
@@ -3573,21 +3561,21 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 신고 수수료가 있나요?</p><p class="faq-a">A. 신고 수수료는 없습니다. 신고서 작성 지원이 필요한 경우 행정사를 이용할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 연간 운영 기간 제한이 있나요?</p><p class="faq-a">A. 관광진흥법상 연간 운영 기간 제한은 없습니다. 단, 거주자가 없는 기간에는 운영을 중단해야 합니다.</p></div>
 </div>
-<div class="cta-box"><h3>외국인도시민박업 신고, 빠르고 정확하게 처리합니다</h3><p>비전행정사사무소는 신고서 작성부터 신고증 수령까지 대행합니다. 아파트·다가구 등 주택 형태별 주의사항도 사전에 안내합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>외국인도시민박업 신고, 빠르고 정확하게 처리합니다</h3><p>유선행정사사무소는 신고서 작성부터 신고증 수령까지 대행합니다. 아파트·다가구 등 주택 형태별 주의사항도 사전에 안내합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '55',
     slug: 'hanok-stay-registration-requirements',
     relatedServices: [
       { title: '호스텔업 등록', href: '/services/hostel' },
-      { title: '외국인도시민박업 신고', href: '/services/urban-homestay' },
+      { title: '외국인도시민박업 등록', href: '/services/urban-guesthouse' },
     ],
     title: '한옥체험업 등록 요건과 건축기준',
     category: '숙박업',
     excerpt: '한옥체험업 등록을 위한 한옥 건축 요건, 시설 기준, 관광진흥법상 신청 절차를 전문 행정사가 안내합니다. 전통문화 체험 숙소 창업을 준비하는 분께 필독 자료입니다.',
     meta_title: '한옥체험업 등록 요건·건축기준 완벽 가이드',
     meta_description: '한옥체험업 등록 한옥 건축 요건·시설 기준·신청 절차 총정리. 관광진흥법 기준, 지붕·구조 요건까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/hostel.jpg',
+    cover_image: '/images/blog-thumbs/hanok-stay-registration-requirements.jpg',
     created_at: '2026-05-25T04:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>한옥체험업이란?</li><li>한옥 건축 요건</li><li>시설 기준</li><li>등록 신청 자격</li><li>필요 서류</li><li>등록 신청 절차</li><li>운영 중 의무사항</li><li>지원 제도와 보조금</li></ol></div>
 <h2>1. 한옥체험업이란?</h2>
@@ -3657,7 +3645,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 한옥 내에서 전통 체험 프로그램을 유료로 운영하려면 별도 허가가 필요한가요?</p><p class="faq-a">A. 숙박과 연계된 체험 프로그램(다도·공예 등)은 한옥체험업 범위 내에서 운영 가능합니다. 다만 대규모 유료 강습이나 음식 판매는 별도 신고가 필요할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록 없이 한옥 숙박을 운영하다 적발되면 어떻게 되나요?</p><p class="faq-a">A. 관광진흥법 위반으로 2년 이하 징역 또는 2천만 원 이하 벌금에 처해질 수 있습니다. 또한 에어비앤비 등 플랫폼에서도 미신고 숙소는 강제 삭제 대상입니다.</p></div>
 </div>
-<div class="cta-box"><h3>한옥체험업 등록, 현장 확인부터 등록증까지 대행합니다</h3><p>비전행정사사무소는 한옥 요건 검토, 지자체 협의, 등록 신청 전 과정을 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>한옥체험업 등록, 현장 확인부터 등록증까지 대행합니다</h3><p>유선행정사사무소는 한옥 요건 검토, 지자체 협의, 등록 신청 전 과정을 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '56',
@@ -3671,7 +3659,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '비영리사단법인 설립 허가를 받기 위한 정관 작성, 주무관청 허가, 법원 등기 절차를 전문 행정사가 안내합니다. 사단법인 설립을 준비하는 단체에 필독 자료입니다.',
     meta_title: '비영리사단법인 설립 허가 절차 완벽 가이드',
     meta_description: '비영리사단법인 설립 허가 절차·정관 작성·주무관청 허가·법원 등기 총정리. 행정사가 처음부터 끝까지 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/nonprofit-association-permit.jpg',
     created_at: '2026-05-25T05:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>비영리사단법인이란?</li><li>설립 허가 주무관청</li><li>설립 요건</li><li>정관 필수 기재사항</li><li>허가 신청 절차</li><li>법원 설립 등기</li><li>설립 후 의무사항</li><li>비영리법인 세금 혜택</li></ol></div>
 <h2>1. 비영리사단법인이란?</h2>
@@ -3751,13 +3739,13 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 비영리법인도 사업 소득이 있으면 세금을 내야 하나요?</p><p class="faq-a">A. 네, 고유 목적 사업 외 수익 사업(부동산 임대, 광고 등)에서 발생한 소득은 법인세 납부 의무가 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 정관 변경을 하려면 어떤 절차가 필요한가요?</p><p class="faq-a">A. 총회 결의 이후 주무관청 정관 변경 허가 이후 법원 변경 등기 순으로 진행합니다. 주무관청 허가 없이 변경한 정관은 효력이 없습니다.</p></div>
 </div>
-<div class="cta-box"><h3>비영리사단법인 설립, 정관 작성부터 등기까지 대행합니다</h3><p>비전행정사사무소는 주무관청 사전 협의, 정관 작성, 창립총회 지원, 설립 허가 신청, 법원 등기까지 전 과정을 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>비영리사단법인 설립, 정관 작성부터 등기까지 대행합니다</h3><p>유선행정사사무소는 주무관청 사전 협의, 정관 작성, 창립총회 지원, 설립 허가 신청, 법원 등기까지 전 과정을 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '57',
     slug: 'tobacco-import-registration',
     relatedServices: [
-      { title: '전자담배 수입허가', href: '/services/e-cigarette' },
+      { title: '전자담배 수입허가', href: '/services/ecig' },
       { title: '조달청 나라장터 등록', href: '/services/procurement' },
     ],
     title: '담배수입판매업 등록 요건과 자본금 안내',
@@ -3765,7 +3753,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '담배수입판매업 등록에 필요한 자본금, 창고·시설 기준, 기획재정부 등록 절차를 전문 행정사가 안내합니다. 최신 기준으로 외산 담배 수입·유통 사업을 준비하는 분께 필독 자료입니다.',
     meta_title: '담배수입판매업 등록 요건·자본금·절차 완벽 가이드',
     meta_description: '담배수입판매업 등록 자본금·시설 기준·기획재정부 등록 절차 총정리. 담배사업법 요건, 보증금 납부까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-import-registration.jpg',
     created_at: '2026-05-25T06:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>담배수입판매업이란?</li><li>등록 기관과 근거 법령</li><li>등록 요건 상세</li><li>자본금 요건</li><li>창고·시설 기준</li><li>필요 서류</li><li>등록 신청 절차</li><li>등록 후 의무사항</li></ol></div>
 <h2>1. 담배수입판매업이란?</h2>
@@ -3840,7 +3828,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 전자담배도 같은 담배수입판매업으로 등록하나요?</p><p class="faq-a">A. 전자담배(액상형·궐련형)는 별도 규정이 적용되며, 일부는 담배수입판매업 등록으로 처리하고 일부(특정 기기)는 전자담배 수입허가가 별도로 필요합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 등록 취소 사유에는 어떤 것이 있나요?</p><p class="faq-a">A. 자본금 미달, 창고 시설 기준 미충족, 보증금 미예치, 담배 관련 법령 위반, 성분 신고 누락 등이 주요 취소 사유입니다.</p></div>
 </div>
-<div class="cta-box"><h3>담배수입판매업 등록, 법인 설립부터 기재부 허가까지 대행합니다</h3><p>비전행정사사무소는 담배수입판매업 등록 전 과정을 지원합니다. 자본금 요건 검토, 창고 시설 기준 안내, 등록 신청 대행까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>담배수입판매업 등록, 법인 설립부터 기재부 허가까지 대행합니다</h3><p>유선행정사사무소는 담배수입판매업 등록 전 과정을 지원합니다. 자본금 요건 검토, 창고 시설 기준 안내, 등록 신청 대행까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '58',
@@ -3854,7 +3842,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '전자담배(액상형·궐련형·가열담배) 수입허가 절차, 성분 신고, 담뱃갑 경고 표시 기준을 전문 행정사가 안내합니다. 전자담배 수입 사업을 준비하는 분께 필독 자료입니다.',
     meta_title: '전자담배 수입허가 절차·기준 완벽 가이드',
     meta_description: '전자담배 수입허가 절차·성분 신고·경고 표시 기준 총정리. 담배사업법·국민건강증진법 요건까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/e-cigarette-import-permit.jpg',
     created_at: '2026-05-25T07:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>전자담배 수입 규제 개요</li><li>전자담배 종류별 규제</li><li>수입허가 요건</li><li>성분 신고 절차</li><li>담뱃갑 경고 표시 기준</li><li>수입 통관 절차</li><li>판매 채널별 규제</li><li>주의사항</li></ol></div>
 <h2>1. 전자담배 수입 규제 개요</h2>
@@ -3919,7 +3907,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 성분 신고 없이 수입하다 적발되면 어떻게 되나요?</p><p class="faq-a">A. 국민건강증진법 위반으로 2년 이하 징역 또는 2천만 원 이하 벌금에 처해질 수 있으며, 해당 제품은 폐기 처분됩니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 경고 그림 없는 외국산 포장 그대로 수입하면 안 되나요?</p><p class="faq-a">A. 안 됩니다. 국내 경고 그림·문구 기준을 충족하지 않은 포장으로는 판매가 불가합니다. 수입 시 재포장 또는 스티커 부착이 필수입니다.</p></div>
 </div>
-<div class="cta-box"><h3>전자담배 수입허가, 성분 신고부터 통관까지 대행합니다</h3><p>비전행정사사무소는 전자담배 수입 전 과정을 지원합니다. 담배수입판매업 등록, 성분 신고, 포장 기준 확인까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>전자담배 수입허가, 성분 신고부터 통관까지 대행합니다</h3><p>유선행정사사무소는 전자담배 수입 전 과정을 지원합니다. 담배수입판매업 등록, 성분 신고, 포장 기준 확인까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '59',
@@ -3933,7 +3921,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '여성기업 인증 신청 자격, 확인 절차, 조달·금융·세제 혜택을 전문 행정사가 안내합니다. 여성기업지원에관한법률에 따른 인증으로 공공조달 우대와 정책 자금 혜택을 받으세요.',
     meta_title: '여성기업 인증 신청 자격·혜택 완벽 가이드',
     meta_description: '여성기업 인증 자격·신청 절차·공공조달 우대·정책 자금 혜택 총정리. 여성기업지원법 요건까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/women-owned-business-certification.jpg',
     created_at: '2026-05-25T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>여성기업이란?</li><li>인증 신청 자격</li><li>확인 신청 절차</li><li>필요 서류</li><li>여성기업 혜택 — 공공조달</li><li>여성기업 혜택 — 금융·세제</li><li>여성기업 혜택 — 교육·네트워킹</li><li>인증 유지와 갱신</li></ol></div>
 <h2>1. 여성기업이란?</h2>
@@ -4009,21 +3997,20 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 여성기업 확인 후 대표자가 남성으로 바뀌면 어떻게 되나요?</p><p class="faq-a">A. 확인서 효력이 상실됩니다. 대표자 변경 시 즉시 여성기업종합지원센터에 신고해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 여성기업 정책 자금은 어디서 신청하나요?</p><p class="faq-a">A. 중소벤처기업부 정책 자금은 중소벤처기업진흥공단(www.kosmes.or.kr)에서 신청하며, 지자체별 지원금은 해당 시·도 여성가족재단 또는 경제진흥원에서 확인할 수 있습니다.</p></div>
 </div>
-<div class="cta-box"><h3>여성기업 확인, 빠르게 처리하고 혜택을 시작하세요</h3><p>비전행정사사무소는 여성기업 확인 서류 준비부터 제출까지 대행합니다. 공공조달 우대와 정책 자금 혜택을 빠르게 활용하세요.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>여성기업 확인, 빠르게 처리하고 혜택을 시작하세요</h3><p>유선행정사사무소는 여성기업 확인 서류 준비부터 제출까지 대행합니다. 공공조달 우대와 정책 자금 혜택을 빠르게 활용하세요.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '60',
     slug: 'g2b-registration-procedure',
     relatedServices: [
       { title: '벤처기업 확인', href: '/services/venture-cert' },
-      { title: '이노비즈 인증', href: '/services/innobiz' },
     ],
     title: '조달청 나라장터 등록 절차 완벽 가이드',
     category: '조달청',
     excerpt: '조달청 나라장터(G2B) 등록 절차, 업체 등록 방법, 입찰 참가 자격 신청까지 전문 행정사가 상세히 안내합니다. 공공기관 납품을 준비하는 기업에 필독 자료입니다.',
     meta_title: '조달청 나라장터 등록 절차 완벽 가이드',
     meta_description: '조달청 나라장터 G2B 업체 등록·입찰 참가 자격 신청 절차 총정리. 서류·처리기간·입찰 방법까지 행정사 안내. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/g2b-registration-procedure.jpg',
     created_at: '2026-05-25T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>나라장터란?</li><li>나라장터 등록 절차 개요</li><li>업체 등록 방법</li><li>입찰 참가 자격 등록</li><li>필요 서류</li><li>입찰 방식 종류</li><li>낙찰 후 계약 절차</li><li>우대 인증과 가점 항목</li></ol></div>
 <h2>1. 나라장터란?</h2>
@@ -4096,7 +4083,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 낙찰 보증금은 현금으로만 납부해야 하나요?</p><p class="faq-a">A. 아닙니다. 현금, 계약 이행 보증 보험증권(서울보증보험 등), 이행 보증서 등으로 대체할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 나라장터에 등록된 기업이 입찰 담합을 하면 어떻게 되나요?</p><p class="faq-a">A. 공정거래위원회 조사 및 과징금 부과, 나라장터 입찰 참가 자격 제한(최대 2년), 형사처벌까지 받을 수 있습니다. 입찰 담합은 절대 금지입니다.</p></div>
 </div>
-<div class="cta-box"><h3>나라장터 등록과 입찰 자격, 처음부터 끝까지 대행합니다</h3><p>비전행정사사무소는 나라장터 업체 등록, 입찰 참가 자격 등록, 관련 인증(벤처·이노비즈·여성기업) 취득까지 종합 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>나라장터 등록과 입찰 자격, 처음부터 끝까지 대행합니다</h3><p>유선행정사사무소는 나라장터 업체 등록, 입찰 참가 자격 등록, 관련 인증(벤처·이노비즈·여성기업) 취득까지 종합 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '61',
@@ -4107,7 +4094,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '국제물류주선업 등록에 필요한 자본금·보증보험·시설 요건과 신청 서류, 등록 후 의무 사항을 단계별로 안내합니다.',
     meta_title: '국제물류주선업 등록 절차 완벽 가이드 ',
     meta_description: '국제물류주선업 등록 자본금·보증보험·서류 총정리. 신청부터 수리까지 행정사가 안내합니다. 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/freight-forwarder-registration-guide.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>국제물류주선업이란?</li>
@@ -4184,7 +4171,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 자본금 요건을 충족하지 못할 경우 대안이 있나요?</p><p class="faq-a">A. 대출·증자·투자 유치를 통해 자본금을 늘리거나, 이미 등록된 업체와 업무 제휴·대리점 계약을 맺어 영업을 시작하는 방법이 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>국제물류주선업 등록, 전문가와 함께 빠르게 처리하세요</h3><p>비전행정사사무소는 자본금 검토부터 보증보험 가입, 서류 준비, 관할 관청 신청까지 원스톱으로 대행합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>국제물류주선업 등록, 전문가와 함께 빠르게 처리하세요</h3><p>유선행정사사무소는 자본금 검토부터 보증보험 가입, 서류 준비, 관할 관청 신청까지 원스톱으로 대행합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '62',
@@ -4195,7 +4182,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '환전업 등록 요건, 영업소 시설 기준, 자금세탁방지(AML) 의심거래 보고 의무를 정리합니다.',
     meta_title: '환전업 영업소 요건과 자금세탁방지 보고의무 ',
     meta_description: '환전상 등록 자본금·보증보험·AML 의심거래 보고 의무 총정리. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/currency-exchange.jpg',
+    cover_image: '/images/blog-thumbs/currency-exchange-compliance.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>환전업의 법적 정의와 종류</li>
@@ -4271,7 +4258,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 환전상 등록 후 영업 지역을 변경하면 어떻게 해야 하나요?</p><p class="faq-a">A. 영업소 이전 시 변경 등록 신청이 필요합니다. 변경 전 관할 기관에 신청서를 제출하고 수리된 후에 이전해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>환전업 등록과 AML 컴플라이언스, 전문가에게 맡기세요</h3><p>비전행정사사무소는 환전상 등록 신청부터 AML 내부 규정 수립, KoFIU 등록까지 원스톱으로 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>환전업 등록과 AML 컴플라이언스, 전문가에게 맡기세요</h3><p>유선행정사사무소는 환전상 등록 신청부터 AML 내부 규정 수립, KoFIU 등록까지 원스톱으로 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '63',
@@ -4282,7 +4269,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '호스텔업과 게스트하우스(외국인관광 도시민박업)의 법적 차이, 등록 기준, 운영 조건을 비교 정리합니다.',
     meta_title: '호스텔업 vs 게스트하우스 등록 기준 비교 ',
     meta_description: '호스텔업과 외국인도시민박업 차이점·등록 요건 비교. 관광숙박업 전문 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/hostel.jpg',
+    cover_image: '/images/blog-thumbs/hostel-vs-guesthouse.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>호스텔업과 게스트하우스의 법적 구분</li>
@@ -4346,7 +4333,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 등록 절차가 복잡한데 행정사 도움이 필요한가요?</p><p class="faq-a">A. 건물 용도 변경, 소방 설비 기준 확인, 관광사업 등록 서류 준비 등이 복잡하므로 행정사 또는 전문가의 도움을 받으면 시간·비용을 절약할 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>호스텔·게스트하우스 등록, 처음부터 끝까지 도와드립니다</h3><p>비전행정사사무소는 관광숙박업 등록, 용도 변경 컨설팅, 도시민박업 지정 신청을 전문적으로 대행합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>호스텔·게스트하우스 등록, 처음부터 끝까지 도와드립니다</h3><p>유선행정사사무소는 관광숙박업 등록, 용도 변경 컨설팅, 도시민박업 지정 신청을 전문적으로 대행합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '64',
@@ -4357,7 +4344,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '외국인관광 도시민박업의 연간 180일 영업 제한, 신고 의무, 위반 시 처분을 상세히 안내합니다.',
     meta_title: '외국인도시민박업 연간 180일 영업일수 제한 안내',
     meta_description: '외국인도시민박업 180일 제한 규정·산정 방법·위반 처분 총정리. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/foreigner-homestay-operating-days.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>외국인도시민박업 개요</li>
@@ -4435,7 +4422,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 지정 취소 후 재지정 신청은 언제 가능한가요?</p><p class="faq-a">A. 취소 처분일로부터 2년이 경과한 후 재신청이 가능합니다. 단, 취소 사유가 해소되었음을 입증해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>도시민박업 지정 신청과 운영 컨설팅, 전문가에게 문의하세요</h3><p>비전행정사사무소는 외국인도시민박업 지정 신청, 변경 신고, 영업일수 관리 컨설팅을 제공합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>도시민박업 지정 신청과 운영 컨설팅, 전문가에게 문의하세요</h3><p>유선행정사사무소는 외국인도시민박업 지정 신청, 변경 신고, 영업일수 관리 컨설팅을 제공합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '65',
@@ -4446,7 +4433,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '한옥체험업 등록 요건, 운영자 의무, 한옥 품질 인증 제도와 혜택을 상세히 정리합니다.',
     meta_title: '한옥체험업 운영 의무와 품질 인증 기준 ',
     meta_description: '한옥체험업 등록 요건·운영자 의무·한국관광공사 품질 인증 혜택. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/hanok.jpg',
+    cover_image: '/images/blog-thumbs/hanok-stay-operation-rules.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>한옥체험업이란?</li>
@@ -4528,7 +4515,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 한옥체험업과 농어촌민박업을 겸업할 수 있나요?</p><p class="faq-a">A. 두 업종은 별도 법령에 근거하며 소재지 요건(도시 vs 농어촌)이 다르므로, 동일 건물에서 이중 지정을 받기는 현실적으로 어렵습니다. 관할 지자체와 사전 협의하십시오.</p></div>
 </div>
 
-<div class="cta-box"><h3>한옥체험업 등록과 품질 인증, 전문가와 함께 준비하세요</h3><p>비전행정사사무소는 한옥 인정 확인, 관광사업 등록, 품질 인증 신청까지 원스톱으로 대행합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>한옥체험업 등록과 품질 인증, 전문가와 함께 준비하세요</h3><p>유선행정사사무소는 한옥 인정 확인, 관광사업 등록, 품질 인증 신청까지 원스톱으로 대행합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '66',
@@ -4539,7 +4526,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '비영리사단법인 설립을 위한 정관의 필수 기재사항, 임의 기재사항, 주무관청별 심사 포인트를 정리합니다.',
     meta_title: '비영리사단법인 정관 작성 방법과 필수 기재사항',
     meta_description: '비영리사단법인 정관 7가지 필수 기재사항·주무관청 심사 포인트 총정리. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/nonprofit.jpg',
+    cover_image: '/images/blog-thumbs/nonprofit-articles-drafting.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>비영리사단법인 정관이란?</li>
@@ -4620,7 +4607,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 정관 작성은 변호사나 행정사 중 누구에게 맡겨야 하나요?</p><p class="faq-a">A. 법인 설립 허가 신청 대행은 행정사, 법적 분쟁 관련 자문은 변호사가 적합합니다. 정관 초안 작성과 주무관청 신청 대행은 행정사에게 의뢰하는 것이 비용 효율적입니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>비영리사단법인 설립 허가, 처음부터 끝까지 대행합니다</h3><p>비전행정사사무소는 정관 초안 작성, 공증, 주무관청 허가 신청, 법원 등기까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>비영리사단법인 설립 허가, 처음부터 끝까지 대행합니다</h3><p>유선행정사사무소는 정관 초안 작성, 공증, 주무관청 허가 신청, 법원 등기까지 원스톱으로 처리합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '67',
@@ -4631,7 +4618,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '담배수입판매업 면허 취득 시 납부해야 할 면허세, 보증금 규모, 면허 신청 절차를 정리합니다.',
     meta_title: '담배수입판매업 면허세와 보증금 요건 ',
     meta_description: '담배수입판매업 면허 요건·면허세·보증금 규모 총정리. 기획재정부 신청 절차 행정사 안내 02-363-2251.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-license-tax-bond.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>담배수입판매업 개요</li>
@@ -4711,7 +4698,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 담배 수입 허가와 통관은 어디서 처리하나요?</p><p class="faq-a">A. 담배 면허는 기획재정부, 수입 통관은 관세청(세관)에서 각각 처리합니다. 두 기관 절차를 병행하여 진행해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>담배수입판매업 면허 취득, 전문가와 함께 준비하세요</h3><p>비전행정사사무소는 법인 설립부터 면허 신청, 보증금 설정, 세무 신고 체계 수립까지 종합 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>담배수입판매업 면허 취득, 전문가와 함께 준비하세요</h3><p>유선행정사사무소는 법인 설립부터 면허 신청, 보증금 설정, 세무 신고 체계 수립까지 종합 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '68',
@@ -4722,7 +4709,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '국내 전자담배 액상 성분 규제, 니코틴 농도 기준, 제품 표시 의무, 수입·판매 규정을 총정리합니다.',
     meta_title: '전자담배 액상 성분 규제와 표시 의무 총정리 ',
     meta_description: '전자담배 액상 금지 성분·니코틴 농도 기준·경고 그림 표시 의무 총정리. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/e-cigarette.jpg',
+    cover_image: '/images/blog-thumbs/e-cigarette-liquid-regulation.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>전자담배 액상의 법적 정의</li>
@@ -4800,7 +4787,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 온라인 판매는 허용되나요?</p><p class="faq-a">A. 전자담배 액상의 온라인 판매는 성인 인증 시스템을 갖춘 경우에 한해 허용됩니다. 미성년자 판매 적발 시 면허 취소가 될 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>전자담배 수입·판매 규정, 전문가 상담으로 확실히 준비하세요</h3><p>비전행정사사무소는 담배수입판매업 면허부터 성분 규제 컨설팅, 표시 기준 검토까지 종합 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>전자담배 수입·판매 규정, 전문가 상담으로 확실히 준비하세요</h3><p>유선행정사사무소는 담배수입판매업 면허부터 성분 규제 컨설팅, 표시 기준 검토까지 종합 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '69',
@@ -4811,7 +4798,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '여성기업 확인 인증의 유효 기간, 갱신 신청 시기와 서류, 취소 사유와 재신청 방법을 안내합니다.',
     meta_title: '여성기업 인증 갱신 절차와 취소 사유 ',
     meta_description: '여성기업 확인 2년 갱신 신청 서류·취소 사유·재신청 절차. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/women-enterprise.jpg',
+    cover_image: '/images/blog-thumbs/women-business-renewal.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>여성기업 확인 제도 개요</li>
@@ -4895,7 +4882,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 온라인 신청은 어디서 하나요?</p><p class="faq-a">A. 여성기업종합지원센터(www.wbiz.or.kr) 포털에서 온라인으로 신청할 수 있습니다. 공동 인증서가 필요합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>여성기업 확인 갱신, 전문가와 함께 빠르게 처리하세요</h3><p>비전행정사사무소는 여성기업 확인 신청·갱신 서류 준비부터 온라인 신청 대행, 사후 관리까지 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>여성기업 확인 갱신, 전문가와 함께 빠르게 처리하세요</h3><p>유선행정사사무소는 여성기업 확인 신청·갱신 서류 준비부터 온라인 신청 대행, 사후 관리까지 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '70',
@@ -4906,7 +4893,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '나라장터 직접생산확인 인증 요건, 심사 항목, 신청 절차와 유지 의무를 상세히 안내합니다.',
     meta_title: '조달청 직접생산확인 받는 방법과 절차 ',
     meta_description: '나라장터 직접생산확인 요건·심사 절차·현장 실사 대비 가이드. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/blog-topics/procurement.jpg',
+    cover_image: '/images/blog-thumbs/g2b-direct-production-certification.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>직접생산확인이란?</li>
@@ -4991,7 +4978,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 소프트웨어 개발 회사도 직접생산확인이 필요한가요?</p><p class="faq-a">A. 네. IT 서비스·소프트웨어 개발도 중소기업자간 경쟁 제품에 포함된 경우 직접생산확인이 필요합니다. 물적 설비보다 인력 요건이 중심 심사 항목이 됩니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>직접생산확인 신청, 전문가와 함께 한 번에 통과하세요</h3><p>비전행정사사무소는 직접생산확인 서류 준비, 현장 실사 대비 컨설팅, 나라장터 등록까지 원스톱으로 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>직접생산확인 신청, 전문가와 함께 한 번에 통과하세요</h3><p>유선행정사사무소는 직접생산확인 서류 준비, 현장 실사 대비 컨설팅, 나라장터 등록까지 원스톱으로 지원합니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '71',
@@ -5000,9 +4987,9 @@ export const blogPosts: BlogPost[] = [
     category: '벤처/이노비즈',
     created_at: '2026-05-25',
     excerpt: '이노비즈 인증의 심사기준, 평가 항목별 배점, 등급 체계를 상세히 정리합니다. 기술혁신형 중소기업 인증을 준비하는 기업을 위한 완벽 가이드입니다.',
-    meta_title: '이노비즈 인증 심사기준과 등급 체계 | 비전행정사사무소',
+    meta_title: '이노비즈 인증 심사기준과 등급 체계 | 유선행정사사무소',
     meta_description: '이노비즈 인증 평가 항목별 배점과 A·B·C 등급 체계를 상세 정리합니다. 심사 절차와 탈락 대비 전략까지 확인하세요.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/innobiz-evaluation-criteria.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>이노비즈 인증이란</li><li>심사기준 개요</li><li>기술혁신시스템 평가</li><li>기술혁신성과 평가</li><li>등급 체계와 혜택 차이</li><li>심사 절차와 일정</li><li>탈락 사유와 대비 전략</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5072,7 +5059,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. C등급으로 인증받으면 갱신 시 자동으로 등급이 올라가나요?</p><p class="faq-a">A. 자동 상향은 없습니다. 갱신 심사에서 다시 점수를 산정하므로, 3년간 R&amp;D 투자·특허·매출 성과를 꾸준히 쌓아야 등급을 높일 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>이노비즈 인증 준비, 처음부터 전문가와 함께하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>이노비즈 인증 준비, 처음부터 전문가와 함께하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '72',
@@ -5081,9 +5068,9 @@ export const blogPosts: BlogPost[] = [
     category: '기업부설연구소',
     created_at: '2026-05-25',
     excerpt: '연구개발전담부서와 기업부설연구소의 설립 요건, 인정 범위, 세제 혜택 차이를 비교합니다. 우리 회사에 맞는 선택 기준을 제시합니다.',
-    meta_title: '연구개발전담부서와 기업부설연구소 차이점 | 비전행정사사무소',
+    meta_title: '연구개발전담부서와 기업부설연구소 차이점 | 유선행정사사무소',
     meta_description: '연구개발전담부서와 기업부설연구소의 설립 요건, 세제 혜택, 선택 기준을 비교합니다.',
-    cover_image: '/images/blog-topics/research-lab.jpg',
+    cover_image: '/images/blog-thumbs/rnd-department-vs-center.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>두 제도의 개요</li><li>설립 요건 비교</li><li>인정 범위와 활동 차이</li><li>세제 혜택 비교</li><li>등록 절차</li><li>전환·병행 운영</li><li>선택 기준과 전략</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5139,7 +5126,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 연구 공간이 사무실 내 파티션 구획이어도 되나요?</p><p class="faq-a">A. 연구개발전담부서는 파티션 구획으로도 인정됩니다. 기업부설연구소는 물리적으로 구분된 독립 공간이어야 하므로 잠금 가능한 별도 문이 필요합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>기업부설연구소·전담부서 설립, 빠르게 진행하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>기업부설연구소·전담부서 설립, 빠르게 진행하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '73',
@@ -5148,9 +5135,9 @@ export const blogPosts: BlogPost[] = [
     category: '의약외품/화장품',
     created_at: '2026-05-25',
     excerpt: '의약외품 제조허가의 신청 절차, 필요 서류, 심사 기간, GMP 기준을 총정리합니다. 마스크·소독제·구강청결제 등 품목별 주의사항도 안내합니다.',
-    meta_title: '의약외품 제조허가 절차 총정리 | 비전행정사사무소',
+    meta_title: '의약외품 제조허가 절차 총정리 | 유선행정사사무소',
     meta_description: '마스크·소독제·구강청결제 등 의약외품 제조허가 절차와 GMP 기준을 상세히 안내합니다.',
-    cover_image: '/images/blog-topics/pharmaceutical.jpg',
+    cover_image: '/images/blog-thumbs/quasi-drug-manufacturing-permit.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>의약외품 정의와 품목 범위</li><li>제조허가 vs 품목허가</li><li>제조업 허가 요건</li><li>품목허가 신청 절차</li><li>GMP 적합성 평가</li><li>심사 기간과 수수료</li><li>허가 후 관리 의무</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5221,7 +5208,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 의약외품 광고에서 '치료' '예방' 같은 표현을 쓸 수 있나요?</p><p class="faq-a">A. 허가된 효능·효과 범위 내에서만 사용 가능합니다. 허가 범위를 초과한 광고는 약사법 위반으로 행정처분 대상입니다. 사전 광고 심의를 필수로 받으십시오.</p></div>
 </div>
 
-<div class="cta-box"><h3>의약외품 제조허가, 전문가와 함께 신속하게 진행하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>의약외품 제조허가, 전문가와 함께 신속하게 진행하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '74',
@@ -5230,9 +5217,9 @@ export const blogPosts: BlogPost[] = [
     category: '물류/유통',
     created_at: '2026-05-25',
     excerpt: '국제물류주선업과 화물운송주선업(화물주선업)의 등록 요건, 영업 범위, 보증보험 기준 차이를 비교 정리합니다. 두 면허의 중복 취득 방법도 안내합니다.',
-    meta_title: '국제물류주선업과 화물운송주선업 차이 완벽 정리 | 비전행정사사무소',
+    meta_title: '국제물류주선업과 화물운송주선업 차이 완벽 정리 | 유선행정사사무소',
     meta_description: '포워더와 화물운송주선업의 등록 요건, 영업 범위, 보증보험 기준을 비교 정리합니다.',
-    cover_image: '/images/blog-topics/logistics.jpg',
+    cover_image: '/images/blog-thumbs/freight-forwarder-vs-domestic.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>두 제도의 개요</li><li>국제물류주선업 등록 요건</li><li>화물운송주선업 등록 요건</li><li>영업 범위 비교</li><li>보증보험과 자본금 기준</li><li>등록 절차</li><li>중복 취득 전략</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5290,7 +5277,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국 포워더와 제휴하려면 추가 허가가 필요한가요?</p><p class="faq-a">A. 별도 허가는 필요 없습니다. 외국 에이전트와 대리점 계약을 체결하고 국제물류주선업 등록 범위 내에서 운영하면 됩니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>물류 사업 인허가, 빠르고 정확하게 처리하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>물류 사업 인허가, 빠르고 정확하게 처리하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '75',
@@ -5299,9 +5286,9 @@ export const blogPosts: BlogPost[] = [
     category: '숙박업',
     created_at: '2026-05-25',
     excerpt: '호스텔업 객실 면적 기준, 소방 안전 설비 의무 사항, 위생 기준을 정리합니다. 관광진흥법상 호스텔 등록 요건도 상세히 안내합니다.',
-    meta_title: '호스텔업 객실 면적과 소방 안전 기준 | 비전행정사사무소',
+    meta_title: '호스텔업 객실 면적과 소방 안전 기준 | 유선행정사사무소',
     meta_description: '관광진흥법상 호스텔업 객실 면적, 소방 설비 의무, 등록 절차를 정리합니다.',
-    cover_image: '/images/blog-topics/hostel.jpg',
+    cover_image: '/images/blog-thumbs/hostel-room-fire-standards.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>호스텔업의 법적 지위</li><li>객실 면적 기준</li><li>소방 안전 설비 의무</li><li>위생 시설 기준</li><li>등록 절차</li><li>영업 신고 vs 등록 차이</li><li>운영 중 주의사항</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5368,7 +5355,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 호스텔 운영 중 소방 점검에서 불합격하면 어떻게 되나요?</p><p class="faq-a">A. 중결함 발생 시 보완 기간(통상 2주~1개월)을 부여받습니다. 보완 후 재점검을 받아 합격하면 됩니다. 보완 기간 중 영업은 가능하지만 중대 결함(대피로 차단 등)은 즉시 시정 명령을 받을 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>호스텔업 등록, 처음부터 올바르게 진행하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>호스텔업 등록, 처음부터 올바르게 진행하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '76',
@@ -5377,9 +5364,9 @@ export const blogPosts: BlogPost[] = [
     category: '숙박업',
     created_at: '2026-05-25',
     excerpt: '외국인도시민박업의 소방 설비 의무 사항과 세금 신고(종합소득세·부가가치세) 방법을 안내합니다. 민박 수입 신고 기준과 절세 팁도 포함됩니다.',
-    meta_title: '외국인도시민박업 소방 의무와 세금 신고 방법 | 비전행정사사무소',
+    meta_title: '외국인도시민박업 소방 의무와 세금 신고 방법 | 유선행정사사무소',
     meta_description: '외국인도시민박업 소방 설비 의무와 종합소득세·부가가치세 신고 방법을 안내합니다.',
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
+    cover_image: '/images/blog-thumbs/foreigner-homestay-fire-tax.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>외국인도시민박업이란</li><li>신고 요건과 절차</li><li>소방 설비 의무 사항</li><li>운영 제한과 준수 사항</li><li>수입 세금 신고 방법</li><li>부가가치세 처리</li><li>절세 전략과 주의사항</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5443,7 +5430,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 민박 수입을 신고하지 않으면 국세청이 알 수 있나요?</p><p class="faq-a">A. 네. 에어비앤비 등 플랫폼은 국세청에 수입 지급 내역을 통보합니다. 미신고 시 무신고 가산세(세액의 20%)와 납부 지연 가산세가 추가 부과됩니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>외국인도시민박업 신고와 세금, 전문가와 함께 해결하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>외국인도시민박업 신고와 세금, 전문가와 함께 해결하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '77',
@@ -5452,9 +5439,9 @@ export const blogPosts: BlogPost[] = [
     category: '비영리법인',
     created_at: '2026-05-25',
     excerpt: '비영리사단법인과 재단법인의 설립 요건, 구성 원리, 주무관청 허가 절차의 차이를 비교합니다. 어떤 형태가 적합한지 선택 기준도 제시합니다.',
-    meta_title: '비영리사단법인과 재단법인 차이점 비교 | 비전행정사사무소',
+    meta_title: '비영리사단법인과 재단법인 차이점 비교 | 유선행정사사무소',
     meta_description: '비영리사단법인과 재단법인의 설립 요건, 구성 원리, 세제 혜택 차이를 비교합니다.',
-    cover_image: '/images/blog-topics/nonprofit.jpg',
+    cover_image: '/images/blog-thumbs/nonprofit-association-vs-foundation.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>두 법인의 기본 개념</li><li>구성 원리 차이</li><li>설립 요건 비교</li><li>주무관청 허가 절차</li><li>정관과 운영 구조</li><li>세제 혜택</li><li>선택 기준</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5514,7 +5501,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 사단법인 회원이 법인의 부채를 책임져야 하나요?</p><p class="faq-a">A. 원칙적으로 법인의 채무는 법인 재산으로만 변제하며, 회원이 개인적으로 책임지지 않습니다. 다만 이사가 직무 위반으로 손해를 끼친 경우 손해배상 책임이 발생할 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>비영리법인 설립, 전문가와 함께 빠르게 진행하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>비영리법인 설립, 전문가와 함께 빠르게 진행하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '78',
@@ -5523,9 +5510,9 @@ export const blogPosts: BlogPost[] = [
     category: '담배',
     created_at: '2026-05-25',
     excerpt: '담배 광고·판촉 규제, 포장 표시 의무 기준, 위반 시 처벌 규정을 총정리합니다. 담배사업법과 국민건강증진법상 의무를 한눈에 파악하세요.',
-    meta_title: '담배 광고 규제와 표시 기준 총정리 | 비전행정사사무소',
+    meta_title: '담배 광고 규제와 표시 기준 총정리 | 유선행정사사무소',
     meta_description: '담배사업법과 국민건강증진법상 광고 금지 규정과 포장 표시 의무 기준을 총정리합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-advertising-rules.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>담배 광고 규제 개요</li><li>허용되는 광고 형태</li><li>금지되는 광고 행위</li><li>포장 표시 의무 기준</li><li>경고 그림 및 문구 기준</li><li>온라인 판매와 광고</li><li>위반 시 처벌 규정</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5595,7 +5582,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국어 표시만 있는 수입 담배도 판매 가능한가요?</p><p class="faq-a">A. 불가합니다. 수입 담배도 한국어로 경고 문구·타르·니코틴 함량 등을 표시해야 합니다. 한국어 스티커를 기존 포장지 위에 부착하는 방식도 기준을 충족해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>담배 사업 광고·표시 기준 준수, 전문가 검토를 받으세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>담배 사업 광고·표시 기준 준수, 전문가 검토를 받으세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '79',
@@ -5604,9 +5591,9 @@ export const blogPosts: BlogPost[] = [
     category: '조달청',
     created_at: '2026-05-25',
     excerpt: '나라장터 입찰 참가 자격 요건, 등록 방법, 자격 제한 사유를 정리합니다. 벤처·이노비즈 가점, 중소기업 우대 제도도 함께 안내합니다.',
-    meta_title: '조달청 나라장터 입찰 참가 자격과 등록 방법 | 비전행정사사무소',
+    meta_title: '조달청 나라장터 입찰 참가 자격과 등록 방법 | 유선행정사사무소',
     meta_description: '나라장터 입찰 참가 자격 요건, 등록 절차, 벤처·이노비즈 가점 제도를 정리합니다.',
-    cover_image: '/images/blog-topics/procurement.jpg',
+    cover_image: '/images/blog-thumbs/g2b-bidding-qualifications.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>나라장터 입찰 참가 자격 개요</li><li>일반 자격 요건</li><li>업종별 등록 절차</li><li>자격 제한 사유</li><li>중소기업·벤처 우대 제도</li><li>직접생산확인과 연계</li><li>입찰 참여 실전 팁</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5675,7 +5662,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 조달청 물품 등록과 나라장터 조달 등록은 다른 것인가요?</p><p class="faq-a">A. 조달청 물품 등록은 물품 목록에 특정 제품을 올리는 절차이고, 나라장터 조달 등록은 업체가 입찰에 참가하기 위한 기본 등록입니다. 두 절차가 별개이므로 모두 진행해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>나라장터 조달 등록과 입찰 준비, 전문가 도움으로 빠르게 시작하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>나라장터 조달 등록과 입찰 준비, 전문가 도움으로 빠르게 시작하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '80',
@@ -5684,9 +5671,9 @@ export const blogPosts: BlogPost[] = [
     category: '벤처/이노비즈',
     created_at: '2026-05-25',
     excerpt: '이노비즈 인증 기업이 받을 수 있는 금융·세제·조달·인력 혜택과 정부 지원사업을 총정리합니다. 인증 후 챙겨야 할 혜택 체크리스트를 제공합니다.',
-    meta_title: '이노비즈 인증 혜택과 정부 지원사업 총정리 | 비전행정사사무소',
+    meta_title: '이노비즈 인증 혜택과 정부 지원사업 총정리 | 유선행정사사무소',
     meta_description: '이노비즈 인증 후 받을 수 있는 금융·세제·조달·인력 혜택과 정부 지원사업을 총정리합니다.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/innobiz-benefits.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>이노비즈 인증 혜택 개요</li><li>금융 우대 혜택</li><li>세제 혜택</li><li>조달 및 판로 혜택</li><li>인력 지원 혜택</li><li>정부 R&D 지원사업 우선권</li><li>혜택 신청 체크리스트</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5756,7 +5743,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 이노비즈 인증 취소 시 이미 받은 혜택을 반환해야 하나요?</p><p class="faq-a">A. 허위 서류 제출로 인증을 받은 경우 수령한 정책 자금·보증의 회수 및 환수 조치가 있을 수 있습니다. 정상적으로 인증받아 활용한 혜택은 소급 환수 대상이 아닙니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>이노비즈 혜택 최대 활용, 전문가 컨설팅을 받으세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>이노비즈 혜택 최대 활용, 전문가 컨설팅을 받으세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '81',
@@ -5765,9 +5752,9 @@ export const blogPosts: BlogPost[] = [
     category: '기업부설연구소',
     created_at: '2026-05-25',
     excerpt: '기업부설연구소 인정 후 사후관리 의무, 실태조사 절차, 인정 취소 사유와 재설립 방법을 안내합니다. 실태조사 대응 체크리스트도 포함됩니다.',
-    meta_title: '기업부설연구소 사후관리와 실태조사 대응법 | 비전행정사사무소',
+    meta_title: '기업부설연구소 사후관리와 실태조사 대응법 | 유선행정사사무소',
     meta_description: '기업부설연구소 변경 신고 의무, 실태조사 절차와 대응 체크리스트, 인정 취소 예방법을 안내합니다.',
-    cover_image: '/images/blog-topics/research-lab.jpg',
+    cover_image: '/images/blog-thumbs/rnd-center-post-management.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>사후관리 개요</li><li>변경 신고 의무</li><li>실태조사 절차</li><li>실태조사 주요 확인 항목</li><li>인정 취소 사유</li><li>취소 후 재설립 방법</li><li>실태조사 대응 체크리스트</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5837,7 +5824,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 연구소를 다른 사무실로 이전할 경우 사전 신고가 필요한가요?</p><p class="faq-a">A. 이전 후 30일 이내에 변경 신고를 해야 합니다. 이전 전에 미리 KOITA에 문의하여 새 공간이 요건을 충족하는지 확인하면 나중에 문제가 생기지 않습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>기업부설연구소 사후관리, 전문가와 함께 안전하게 유지하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>기업부설연구소 사후관리, 전문가와 함께 안전하게 유지하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '82',
@@ -5846,9 +5833,9 @@ export const blogPosts: BlogPost[] = [
     category: '의약외품/화장품',
     created_at: '2026-05-25',
     excerpt: '의약외품 수입 품목허가의 신청 방법, 필요 서류, 수입업 허가 요건을 상세히 안내합니다. 해외 제조원 GMP 인증 요건도 함께 정리합니다.',
-    meta_title: '의약외품 수입 품목허가 방법과 절차 | 비전행정사사무소',
+    meta_title: '의약외품 수입 품목허가 방법과 절차 | 유선행정사사무소',
     meta_description: '의약외품 수입업 허가 요건, 해외 제조원 GMP 조건, 수입 품목허가 신청 절차를 상세히 안내합니다.',
-    cover_image: '/images/blog-topics/pharmaceutical.jpg',
+    cover_image: '/images/blog-thumbs/quasi-drug-import-permit.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>수입 의약외품 개요</li><li>수입업 허가 요건</li><li>수입 품목허가 신청 준비</li><li>해외 제조원 GMP 요건</li><li>신청 절차와 심사 기간</li><li>수입 후 통관 절차</li><li>수입 허가 유지와 갱신</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -5919,7 +5906,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 수입 담당 약사가 퇴사하면 수입업 허가가 취소되나요?</p><p class="faq-a">A. 즉시 취소되지는 않지만 퇴사 후 30일 이내에 대체 약사를 채용하고 변경 신고를 해야 합니다. 이 기간을 초과하면 업무 정지 또는 허가 취소 처분을 받을 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>의약외품 수입허가, 전문가 도움으로 신속하게 진행하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>의약외품 수입허가, 전문가 도움으로 신속하게 진행하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '83',
@@ -5928,9 +5915,9 @@ export const blogPosts: BlogPost[] = [
     category: '물류/유통',
     created_at: '2026-05-25',
     excerpt: '국제물류주선업(포워더) 창업 시 필요한 법인 설립, 면허 등록, 보증보험, 에이전트 계약까지 단계별 체크리스트를 제공합니다.',
-    meta_title: '포워더 창업 준비 체크리스트와 필수 요건 | 비전행정사사무소',
+    meta_title: '포워더 창업 준비 체크리스트와 필수 요건 | 유선행정사사무소',
     meta_description: '국제물류주선업 창업 시 법인 설립, 면허 등록, 에이전트 네트워크 구축까지 단계별 체크리스트를 제공합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/forwarder-startup-checklist.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>포워더 창업 개요</li><li>법인 설립 준비</li><li>국제물류주선업 등록</li><li>에이전트 네트워크 구축</li><li>운영 시스템 준비</li><li>초기 영업 전략</li><li>창업 비용 예산</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -6001,7 +5988,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 등록증 없이 화주로부터 운임을 받으면 어떻게 되나요?</p><p class="faq-a">A. 국제물류주선업 등록 없이 국제 운송 주선 영업을 하면 물류정책기본법 위반으로 1년 이하 징역 또는 1,000만 원 이하 벌금 대상입니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>포워더 창업, 인허가부터 전문가와 함께 시작하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>포워더 창업, 인허가부터 전문가와 함께 시작하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '84',
@@ -6010,9 +5997,9 @@ export const blogPosts: BlogPost[] = [
     category: '비영리법인',
     created_at: '2026-05-25',
     excerpt: '비영리사단법인의 법인세 신고, 수익사업 구분, 주무관청 결산 보고, 기부금영수증 발급 절차를 상세히 안내합니다.',
-    meta_title: '비영리사단법인 세무 신고와 결산 보고 방법 | 비전행정사사무소',
+    meta_title: '비영리사단법인 세무 신고와 결산 보고 방법 | 유선행정사사무소',
     meta_description: '비영리사단법인의 법인세 신고, 수익사업 구분, 주무관청 결산 보고, 기부금영수증 발급 절차를 안내합니다.',
-    cover_image: '/images/blog-topics/nonprofit.jpg',
+    cover_image: '/images/blog-thumbs/nonprofit-tax-reporting.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>비영리법인 세무 개요</li><li>법인세 신고 의무</li><li>수익사업 구분과 과세</li><li>기부금 세제 혜택</li><li>주무관청 결산 보고</li><li>부가가치세 처리</li><li>세무 신고 일정과 체크리스트</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -6083,7 +6070,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 법인세 신고를 세무사 없이 직접 할 수 있나요?</p><p class="faq-a">A. 가능합니다. 다만 수익사업 안분, 고유 목적 사업 준비금 계산 등은 복잡하므로 세무사에게 첫 해 신고를 맡겨 기준을 정해두는 것을 권장합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>비영리법인 세무 신고, 전문가와 함께 정확하게 처리하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>비영리법인 세무 신고, 전문가와 함께 정확하게 처리하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '85',
@@ -6092,9 +6079,9 @@ export const blogPosts: BlogPost[] = [
     category: '담배',
     created_at: '2026-05-25',
     excerpt: '담배 수입 시 필요한 HS코드, 관세율, 개별소비세·담배소비세, 통관 절차를 정리합니다. 수입 시 발생하는 세금의 종류와 계산 방법도 안내합니다.',
-    meta_title: '담배 수입 통관 절차와 HS코드 안내 | 비전행정사사무소',
+    meta_title: '담배 수입 통관 절차와 HS코드 안내 | 유선행정사사무소',
     meta_description: '담배 수입 HS코드 분류, 관세율, 개별소비세·담배소비세 계산 방법, 통관 절차를 총정리합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-customs-hs-code.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>담배 수입 절차 개요</li><li>담배 HS코드 분류</li><li>담배 관련 세금 종류</li><li>수입 통관 절차</li><li>수입 담배 표시 기준</li><li>무허가 수입과 처벌</li><li>수입 담배 판매 허가</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -6165,7 +6152,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 담배소비세는 수입 시 한 번만 내면 되나요?</p><p class="faq-a">A. 네. 수입 시 담배소비세를 납부하면 국내 유통 과정에서 추가로 납부하지 않습니다. 납부는 수입지 관할 시·군·구에서 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>담배 수입 통관과 면허, 전문가 도움으로 정확하게 진행하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>담배 수입 통관과 면허, 전문가 도움으로 정확하게 진행하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '86',
@@ -6174,9 +6161,9 @@ export const blogPosts: BlogPost[] = [
     category: '벤처/이노비즈',
     created_at: '2026-05-25',
     excerpt: '벤처기업 확인 유효기간, 갱신 신청 절차, 갱신 요건 변동 시 대처 방법을 안내합니다. 갱신 실패 시 발생하는 불이익과 대비 전략도 포함합니다.',
-    meta_title: '벤처기업 확인 갱신 절차와 주의사항 | 비전행정사사무소',
+    meta_title: '벤처기업 확인 갱신 절차와 주의사항 | 유선행정사사무소',
     meta_description: '벤처기업 확인 유효기간 2년, 갱신 신청 시기와 절차, 갱신 실패 시 불이익을 안내합니다.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/venture-renewal-procedure.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>벤처기업 확인 유효기간</li><li>갱신 신청 시기와 절차</li><li>갱신 요건 확인 사항</li><li>유형 변경과 갱신</li><li>갱신 실패 시 불이익</li><li>갱신 전략과 준비</li><li>자주 물어보는 갱신 주의사항</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -6239,7 +6226,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 갱신 신청 후 결과가 나오기 전에 확인서가 만료되면 어떻게 되나요?</p><p class="faq-a">A. 만료 전에 신청한 경우 심사 결과 통보까지 기존 확인 효력이 연장 유지됩니다. 다만 불합격 통보 후에는 즉시 효력이 소멸합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>벤처기업 확인 갱신, 만료 전에 전문가와 함께 준비하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>벤처기업 확인 갱신, 만료 전에 전문가와 함께 준비하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '87',
@@ -6248,9 +6235,9 @@ export const blogPosts: BlogPost[] = [
     category: '담배',
     created_at: '2026-05-25',
     excerpt: '담배수입판매업 면허의 갱신 절차, 폐업 신고 방법, 면허 취소 사유를 안내합니다. 사업 종료 시 세금 정리 방법도 함께 정리합니다.',
-    meta_title: '담배수입판매업 면허 갱신과 폐업 신고 방법 | 비전행정사사무소',
+    meta_title: '담배수입판매업 면허 갱신과 폐업 신고 방법 | 유선행정사사무소',
     meta_description: '담배수입판매업 면허 갱신 절차, 폐업 신고 방법, 재고 처리와 세금 정리까지 단계별로 안내합니다.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-license-renewal.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>담배수입판매업 면허 개요</li><li>면허 갱신 절차</li><li>면허 취소 사유</li><li>폐업 신고 절차</li><li>폐업 시 재고 처리</li><li>세금 정리 방법</li><li>재진입 가능 여부</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -6317,7 +6304,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 대표자가 바뀌면 면허를 다시 받아야 하나요?</p><p class="faq-a">A. 법인 면허의 경우 대표자 변경만으로 면허가 취소되지 않습니다. 단, 기획재정부에 대표자 변경 신고를 해야 합니다. 개인 면허는 양도가 불가하므로 신규 신청이 필요합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>담배수입판매업 면허 갱신·폐업, 전문가와 함께 처리하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>담배수입판매업 면허 갱신·폐업, 전문가와 함께 처리하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '88',
@@ -6326,9 +6313,9 @@ export const blogPosts: BlogPost[] = [
     category: '담배',
     created_at: '2026-05-25',
     excerpt: '담배수입판매업 면허 신청에 필요한 서류 목록, 준비 순서, 주의사항을 상세히 안내합니다. 서류별 발급 기관과 유의 사항도 정리했습니다.',
-    meta_title: '담배 수입허가 서류 준비 완벽 가이드 | 비전행정사사무소',
+    meta_title: '담배 수입허가 서류 준비 완벽 가이드 | 유선행정사사무소',
     meta_description: '담배수입판매업 면허 신청에 필요한 서류 목록, 준비 순서, 보완 요청 예방법을 상세히 안내합니다.',
-    cover_image: '/images/blog-topics/tobacco-import.jpg',
+    cover_image: '/images/blog-thumbs/tobacco-import-documents.jpg',
     content: `
 <div class="toc"><p>목차</p><ol><li>담배 수입면허 신청 서류 개요</li><li>법인 관련 서류</li><li>재무 관련 서류</li><li>시설 및 창고 서류</li><li>담배 관련 특수 서류</li><li>서류 준비 순서와 일정</li><li>보완 요청 예방법</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -6402,7 +6389,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 면허 신청 수수료가 있나요?</p><p class="faq-a">A. 담배사업법상 별도 수수료는 없습니다. 단, 공인시험 비용, 번역·공증 비용, 행정사 대행 비용 등 부대 비용이 발생합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>담배 수입 면허 서류 준비, 전문가와 함께 완벽하게 완성하세요</h3><p>비전행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>담배 수입 면허 서류 준비, 전문가와 함께 완벽하게 완성하세요</h3><p>유선행정사사무소 전문 행정사가 도와드립니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '92',
@@ -6410,14 +6397,14 @@ export const blogPosts: BlogPost[] = [
     relatedServices: [
       { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
       { title: 'HACCP 인증', href: '/services/haccp' },
-      { title: '의약외품·화장품 허가', href: '/services/quasi-drug' },
+      { title: '의약외품·화장품 허가', href: '/services/cosmetics' },
     ],
     title: '식품 수입판매업 신고 방법 완벽 가이드 — 식품의약품안전처 절차 총정리',
     category: '식품',
     excerpt: '식품 수입판매업을 시작하려면 식품의약품안전처에 신고해야 합니다. 신고 요건, 필요 서류, 절차와 영업 후 의무사항을 실무 중심으로 정리했습니다.',
     meta_title: '식품 수입판매업 신고 방법 — 식품의약품안전처 절차',
     meta_description: '식품 수입판매업 신고 요건·서류·절차 총정리. 영업등록증 발급부터 수입식품 표시기준까지 전문 행정사가 안내합니다. 무료 상담 가능.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/food-import-sales-registration.jpg',
     created_at: '2026-05-27T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>식품 수입판매업이란?</li><li>신고 대상 및 요건</li><li>필요 서류 목록</li><li>신고 절차 단계별 안내</li><li>수입식품 표시기준</li><li>수입신고 및 통관 연계</li><li>영업 후 주요 의무사항</li><li>위반 시 제재와 주의사항</li></ol></div>
 
@@ -6510,14 +6497,14 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류 완비 후 현장 조사 포함 통상 7~14 영업일이 소요됩니다. 서류 보완 요청 시 기간이 연장될 수 있습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>식품 수입판매업 신고, 서류부터 신고까지 전문가가 대행합니다</h3><p>비전행정사사무소 전문 행정사가 취급 품목 분류부터 영업 신고증 발급까지 원스톱으로 도와드립니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>식품 수입판매업 신고, 서류부터 신고까지 전문가가 대행합니다</h3><p>유선행정사사무소 전문 행정사가 취급 품목 분류부터 영업 신고증 발급까지 원스톱으로 도와드립니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '94',
     slug: 'venture-certification-renewal',
     relatedServices: [
       { title: '이노비즈 인증', href: '/services/venture-cert' },
-      { title: '기업부설연구소 설립', href: '/services/rnd-center' },
+      { title: '기업부설연구소 설립', href: '/services/research-lab' },
       { title: '조달청 나라장터 등록', href: '/services/procurement' },
     ],
     title: '벤처기업 인증 갱신 완벽 가이드 — 갱신 요건과 절차 총정리',
@@ -6525,7 +6512,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '벤처기업 인증은 2년마다 갱신해야 합니다. 기준 갱신 요건, 필요 서류, 온라인 신청 절차를 실무 중심으로 정리했습니다.',
     meta_title: '벤처기업 인증 갱신 방법 — 요건과 절차 총정리',
     meta_description: '벤처기업 인증 갱신 요건·서류·절차 최신 총정리. 유형별 갱신 기준과 세제 혜택 유지 방법을 전문 행정사가 안내합니다. 무료 상담.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/venture-certification-renewal.jpg',
     created_at: '2026-05-27T02:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>벤처기업 인증 갱신이란?</li><li>갱신 대상 및 시기</li><li>유형별 갱신 요건</li><li>필요 서류 목록</li><li>갱신 신청 절차</li><li>갱신 실패 시 불이익과 재신청</li><li>갱신 후 혜택 유지</li><li>자주 하는 실수와 주의사항</li></ol></div>
 
@@ -6614,7 +6601,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 행정사가 대신 신청할 수 있나요?</p><p class="faq-a">A. 네, 행정사가 위임장을 받아 신청 대행이 가능합니다. 서류 준비부터 신청·수령까지 원스톱 대행 가능합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>벤처기업 인증 갱신, 전문 행정사가 빠르게 처리해 드립니다</h3><p>비전행정사사무소 전문 행정사가 요건 점검부터 갱신 확인서 발급까지 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>벤처기업 인증 갱신, 전문 행정사가 빠르게 처리해 드립니다</h3><p>유선행정사사무소 전문 행정사가 요건 점검부터 갱신 확인서 발급까지 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '95',
@@ -6622,14 +6609,13 @@ export const blogPosts: BlogPost[] = [
     relatedServices: [
       { title: 'HACCP 인증', href: '/services/haccp' },
       { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
-      { title: '건강기능식품 영업등록', href: '/services/health-food' },
     ],
     title: 'HACCP 의무 적용 업종 — 식품위생법 기준 총정리',
     category: '식품',
     excerpt: 'HACCP 의무 적용 대상 업종과 적용 기한을 식품위생법 기준으로 정리했습니다. 의무 미이행 시 처분 내용과 중소기업 지원 제도까지 확인하세요.',
     meta_title: 'HACCP 의무 적용 업종 — 식품위생법 기준 총정리',
     meta_description: 'HACCP 의무 적용 업종·기한·처분 총정리. 식품제조가공업·집단급식소·즉석판매 포함. 중소기업 지원제도와 인증 절차 안내. 무료 상담.',
-    cover_image: '/images/blog-topics/haccp.jpg',
+    cover_image: '/images/blog-thumbs/haccp-mandatory-industries.jpg',
     created_at: '2026-05-28T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>HACCP 의무화란?</li><li>기준 의무 적용 업종</li><li>적용 단계별 일정</li><li>의무 미이행 시 행정처분</li><li>HACCP 인증 취득 절차</li><li>중소기업·소규모 사업자 지원 제도</li><li>의무 적용 여부 확인 방법</li><li>자주 하는 실수와 주의사항</li></ol></div>
 
@@ -6730,7 +6716,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 위탁(OEM) 생산을 하면 HACCP 의무가 위탁사에 있나요?</p><p class="faq-a">A. 실제 제조를 하는 위탁 제조업체가 HACCP 인증을 받아야 합니다. 다만 위탁을 주는 판매업자도 계약서에 HACCP 인증 요건을 명시하는 것이 안전합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>HACCP 의무 여부 확인과 인증 취득, 전문 행정사가 함께합니다</h3><p>비전행정사사무소는 HACCP 의무 적용 여부 검토부터 계획서 작성, 인증 신청 대행까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>HACCP 의무 여부 확인과 인증 취득, 전문 행정사가 함께합니다</h3><p>유선행정사사무소는 HACCP 의무 적용 여부 검토부터 계획서 작성, 인증 신청 대행까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '96',
@@ -6745,7 +6731,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '조달청 직접생산확인 갱신 기한, 필요 서류, 신청 절차를 기준으로 정리했습니다. 갱신 지연 시 입찰 불이익과 대처 방법도 함께 안내합니다.',
     meta_title: '조달청 직접생산확인 갱신 방법 — 기한·서류·절차 총정리',
     meta_description: '조달청 직접생산확인 갱신 기한·서류·절차 총정리. 갱신 지연 시 입찰 불이익과 주의사항 포함. 전문 행정사 무료 상담 가능.',
-    cover_image: '/images/blog-topics/procurement.jpg',
+    cover_image: '/images/blog-thumbs/g2b-direct-production-renewal.jpg',
     created_at: '2026-05-28T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>직접생산확인이란?</li><li>갱신 주기와 기한</li><li>갱신 신청 방법</li><li>갱신 필요 서류</li><li>갱신 심사 기준</li><li>갱신 지연·누락 시 불이익</li><li>갱신 거부·취소 사유와 대응</li><li>자주 하는 실수와 주의사항</li></ol></div>
 
@@ -6844,22 +6830,22 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 물품 종류가 많은 경우 각각 갱신해야 하나요?</p><p class="faq-a">A. 물품별로 직접생산확인서가 발급되므로, 각 물품 확인서의 만료일을 별도로 관리하고 개별 갱신이 필요합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>직접생산확인 갱신, 기한 내 안전하게 처리하세요</h3><p>비전행정사사무소는 직접생산확인 갱신 서류 준비부터 신청 대행, 현장 실사 대비까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>직접생산확인 갱신, 기한 내 안전하게 처리하세요</h3><p>유선행정사사무소는 직접생산확인 갱신 서류 준비부터 신청 대행, 현장 실사 대비까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '98',
     slug: 'restaurant-permit-checklist',
     relatedServices: [
       { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
-      { title: '건축물 용도변경', href: '/services/building-usage-change' },
-      { title: '음식점 영업신고 대행', href: '/services/food-business' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
     ],
     title: '음식점 영업신고 필수 서류 체크리스트 — 식품위생법 제37조 완벽 안내',
     category: '식품/음식점',
     excerpt: '음식점 영업신고에 필요한 서류 체크리스트와 식품위생법 제37조 신고 절차를 실무 중심으로 안내합니다. 일반음식점부터 휴게음식점까지 한 번에 확인하세요.',
     meta_title: '음식점 영업신고 서류 체크리스트 — 식품위생법 완벽 정리',
     meta_description: '음식점 영업신고 필수 서류·처리기간·신고 절차 총정리. 식품위생법 제37조 기준, 일반음식점·휴게음식점·제과점 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/restaurant-permit-checklist.jpg',
     created_at: '2026-05-29T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>음식점 영업신고 개요</li><li>영업 유형 구분</li><li>필수 서류 체크리스트</li><li>시설 기준 확인사항</li><li>신고 절차와 처리 기간</li><li>위생교육 이수 의무</li><li>신고 후 의무사항</li><li>자주 하는 실수와 주의사항</li></ol></div>
 
@@ -6948,22 +6934,22 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국인도 음식점을 개업할 수 있나요?</p><p class="faq-a">A. 취업이 가능한 체류자격(예: F-2, F-5, F-6, D-8 등)을 보유한 외국인은 영업신고가 가능합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>음식점 영업신고, 처음부터 제대로</h3><p>비전행정사사무소는 영업신고 서류 준비부터 시설 기준 확인, 위생교육 안내까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>음식점 영업신고, 처음부터 제대로</h3><p>유선행정사사무소는 영업신고 서류 준비부터 시설 기준 확인, 위생교육 안내까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '99',
     slug: 'cleaning-business-report',
     relatedServices: [
-      { title: '음식점 영업신고', href: '/services/food-business' },
-      { title: '건축물 용도변경', href: '/services/building-usage-change' },
-      { title: '기업부설연구소 설립', href: '/services/rnd-center' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
+      { title: '기업부설연구소 설립', href: '/services/research-lab' },
     ],
     title: '세탁업 신고 절차와 요건 완벽 정리 ',
     category: '생활서비스업',
     excerpt: '세탁업 신고에 필요한 요건, 서류, 절차를 세탁업법 기준으로 안내합니다. 일반세탁업부터 코인세탁기 운영까지 실무 중심으로 정리했습니다.',
     meta_title: '세탁업 신고 방법 — 절차·서류·요건 총정리',
     meta_description: '세탁업 신고 요건·서류·절차 총정리. 세탁업법 기준, 일반세탁업·무인코인세탁 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/cleaning-business-report.jpg',
     created_at: '2026-05-29T09:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>세탁업 신고 개요</li><li>세탁업의 종류</li><li>신고 요건</li><li>필요 서류</li><li>신고 절차</li><li>세탁 기계 기준</li><li>신고 후 의무사항</li><li>자주 묻는 질문</li></ol></div>
 
@@ -7029,14 +7015,14 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 세탁물 분실·손상 시 배상 기준이 있나요?</p><p class="faq-a">A. 공정거래위원회 소비자 분쟁 해결 기준 및 세탁업 분야 분쟁 기준에 따라 처리됩니다. 세탁업 신고증에 관련 안내를 게시해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>세탁업 신고, 전문가와 함께</h3><p>비전행정사사무소는 세탁업 신고 서류 준비부터 신고증 발급까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>세탁업 신고, 전문가와 함께</h3><p>유선행정사사무소는 세탁업 신고 서류 준비부터 신고증 발급까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '100',
     slug: 'real-estate-agency-registration',
     relatedServices: [
-      { title: '건축물 용도변경', href: '/services/building-usage-change' },
-      { title: '기업부설연구소 설립', href: '/services/rnd-center' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
+      { title: '기업부설연구소 설립', href: '/services/research-lab' },
       { title: '환전업 등록', href: '/services/currency-exchange' },
     ],
     title: '공인중개사 중개사무소 개설 등록 가이드 ',
@@ -7044,7 +7030,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '공인중개사가 중개사무소를 개설할 때 필요한 등록 요건, 서류, 절차를 공인중개사법 기준으로 안내합니다. 법인 중개사무소 설립도 포함합니다.',
     meta_title: '공인중개사 중개사무소 개설 등록 방법 — 공인중개사법 완벽 정리',
     meta_description: '공인중개사 중개사무소 개설 등록 요건·서류·절차 총정리. 공인중개사법 기준, 개인·법인 중개사무소 포함. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/building-usage.jpg',
+    cover_image: '/images/blog-thumbs/real-estate-agency-registration.jpg',
     created_at: '2026-05-29T10:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>중개사무소 개설 등록 개요</li><li>등록 요건</li><li>개인 vs 법인 중개사무소</li><li>필요 서류</li><li>등록 절차</li><li>업무 보증 설정 의무</li><li>등록 후 의무사항</li><li>자주 묻는 질문</li></ol></div>
 
@@ -7115,22 +7101,21 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 겸업이 가능한가요?</p><p class="faq-a">A. 공인중개사법 제14조에 따라 중개업자는 다른 법률에 따른 업무를 겸업할 수 있습니다. 단, 중개업에 지장을 주는 행위는 제한됩니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>중개사무소 개설 등록, 전문가와 함께 빠르게</h3><p>비전행정사사무소는 중개사무소 개설 등록 서류 준비부터 업무 보증 설정 안내, 등록증 발급까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>중개사무소 개설 등록, 전문가와 함께 빠르게</h3><p>유선행정사사무소는 중개사무소 개설 등록 서류 준비부터 업무 보증 설정 안내, 등록증 발급까지 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '97',
     slug: 'rnd-center-relocation-dissolution-guide',
     relatedServices: [
-      { title: '기업부설연구소 설립', href: '/services/rnd-center' },
+      { title: '기업부설연구소 설립', href: '/services/research-lab' },
       { title: '벤처기업 인증', href: '/services/venture-cert' },
-      { title: '이노비즈 인증', href: '/services/venture-cert' },
     ],
     title: '기업부설연구소 이전·폐지 신고 방법 — 한국산업기술진흥협회 절차 안내',
     category: '기업부설연구소',
     excerpt: '기업부설연구소 이전과 폐지 신고 절차, 필요 서류, 처리 기간을 안내합니다. 신고 누락 시 세액공제 취소 위험과 연구소 유형 변경까지 상세히 설명합니다.',
     meta_title: '기업부설연구소 이전·폐지 신고 방법 — KOITA 절차 총정리',
     meta_description: '기업부설연구소 이전·폐지 신고 절차·서류·처리기간 총정리. 신고 누락 시 세액공제 취소 위험 포함. 전문 행정사 무료 상담 가능.',
-    cover_image: '/images/blog-topics/research-lab.jpg',
+    cover_image: '/images/blog-thumbs/rnd-center-relocation-dissolution-guide.jpg',
     created_at: '2026-05-28T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>이전·폐지 신고가 중요한 이유</li><li>이전 신고 대상과 절차</li><li>이전 신고 필요 서류</li><li>폐지 신고 절차</li><li>폐지 신고 시 세액공제 환수 위험</li><li>연구소 이후 연구개발전담부서 하향 변경</li><li>이전·폐지 후 재설립 절차</li><li>자주 하는 실수와 주의사항</li></ol></div>
 
@@ -7233,22 +7218,21 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 연구소 폐지와 연구개발전담부서 하향 중 어느 것이 유리한가요?</p><p class="faq-a">A. 세액공제 혜택 유지 필요 여부와 향후 재설립 계획에 따라 다릅니다. 개별 상황에 맞는 판단은 전문가 상담을 권장합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>기업부설연구소 이전·폐지, 전문 행정사가 처리해 드립니다</h3><p>비전행정사사무소는 연구소 변경 신고부터 폐지, 하향 변경, 재설립까지 KOITA 신고 전 과정을 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>기업부설연구소 이전·폐지, 전문 행정사가 처리해 드립니다</h3><p>유선행정사사무소는 연구소 변경 신고부터 폐지, 하향 변경, 재설립까지 KOITA 신고 전 과정을 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: '101',
     slug: 'liquor-sales-license',
     relatedServices: [
       { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
-      { title: '식품판매업 등록', href: '/services/food-sales' },
-      { title: '일반음식점 허가', href: '/services/restaurant' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
     ],
     title: '주류 판매업 면허 신청 절차 — 주세법·식품위생법 완벽 가이드',
     category: '식품업',
     excerpt: '주류 판매업 면허는 주세법과 식품위생법에 따라 취득해야 합니다. 일반 주류 판매업부터 통신판매업까지 면허 종류별 요건과 신청 절차를 전문 행정사가 안내합니다.',
     meta_title: '주류 판매업 면허 신청 방법 — 주세법 절차 총정리',
     meta_description: '주류 판매업 면허 종류·자격·서류·신청 절차 완벽 정리. 주세법 제8조·식품위생법 기반. 일반·도매·통신판매 구분. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/liquor-sales-license.jpg',
     created_at: '2026-05-30T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>주류 판매업 면허란?</li><li>면허 종류와 대상</li><li>신청 자격 요건</li><li>필요 서류 목록</li><li>신청 절차 단계별 안내</li><li>처리 기간과 수수료</li><li>면허 취득 후 의무사항</li><li>주류 통신판매업 특례</li><li>자주 하는 실수와 주의사항</li></ol></div>
 <h2>1. 주류 판매업 면허란?</h2>
@@ -7328,22 +7312,21 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 면허 없이 주류를 판매하면 어떤 처벌을 받나요?</p><p class="faq-a">A. 주세법 위반으로 3년 이하 징역 또는 3천만 원 이하 벌금이 부과됩니다. 적발 시 사업자등록 취소 등 추가 행정 처분도 발생합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 전통주 온라인 판매 시 주류 통신판매업 면허 외에 추가로 필요한 것이 있나요?</p><p class="faq-a">A. 전자상거래법에 따른 통신판매업 신고(시·군·구청)와 연령 인증 시스템 구축이 필수입니다. 플랫폼(스마트스토어 등)의 주류 판매 정책 준수 여부도 사전 확인하세요.</p></div>
 </div>
-<div class="cta-box"><h3>주류 판매업 면허, 전문 행정사와 빠르게 해결하세요</h3><p>비전행정사사무소는 주류 소매·도매·통신판매 면허 신청부터 식품판매업 신고까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
+<div class="cta-box"><h3>주류 판매업 면허, 전문 행정사와 빠르게 해결하세요</h3><p>유선행정사사무소는 주류 소매·도매·통신판매 면허 신청부터 식품판매업 신고까지 원스톱으로 대행합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '102',
     slug: 'health-functional-food-registration',
     relatedServices: [
       { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
-      { title: '식품판매업 등록', href: '/services/food-sales' },
-      { title: '수입식품 등 신고', href: '/services/food-import' },
+      { title: '식품인허가 & HACCP 인증', href: '/services/haccp' },
     ],
     title: '건강기능식품 판매업 신고 요건 — 건강기능식품법 완벽 가이드',
     category: '건강기능식품',
     excerpt: '건강기능식품 판매업은 건강기능식품에 관한 법률 제22조에 따라 영업신고가 필요합니다. 신고 요건, 필요 서류, 판매업 종류별 차이를 전문 행정사가 상세히 안내합니다.',
     meta_title: '건강기능식품 판매업 신고 요건 — 법령 기반 완벽 정리',
     meta_description: '건강기능식품 판매업 신고 요건·서류·절차 총정리. 건강기능식품법 제22조 기반. 일반판매업·방문판매·통신판매 구분. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
+    cover_image: '/images/blog-thumbs/health-functional-food-registration.jpg',
     created_at: '2026-05-30T09:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>건강기능식품 판매업이란?</li><li>판매업 종류별 구분</li><li>신고 요건 상세</li><li>필요 서류 목록</li><li>신고 절차 안내</li><li>처리 기간과 위생교육</li><li>영업 후 준수사항</li><li>온라인 통신판매 특례</li><li>자주 하는 실수와 주의사항</li></ol></div>
 <h2>1. 건강기능식품 판매업이란?</h2>
@@ -7418,13 +7401,12 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 스마트스토어에서 건강기능식품을 판매하려면 어떤 서류가 필요한가요?</p><p class="faq-a">A. 건강기능식품 판매업 영업신고증, 사업자등록증, 각 제품의 건강기능식품 인증서(품목제조보고서 또는 수입 신고서)를 플랫폼에 제출해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 해외 직구 건강기능식품을 국내에서 재판매할 수 있나요?</p><p class="faq-a">A. 불가합니다. 해외 제품을 국내에서 판매하려면 식약처 수입 신고를 거쳐야 하며, 개인 직구 목적으로 구매한 제품의 재판매는 불법입니다.</p></div>
 </div>
-<div class="cta-box"><h3>건강기능식품 판매업 신고, 전문 행정사와 함께 정확하게</h3><p>비전행정사사무소는 건강기능식품 판매업 신고부터 광고 규제 검토까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
+<div class="cta-box"><h3>건강기능식품 판매업 신고, 전문 행정사와 함께 정확하게</h3><p>유선행정사사무소는 건강기능식품 판매업 신고부터 광고 규제 검토까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '103',
     slug: 'travel-agency-registration',
     relatedServices: [
-      { title: '관광사업 등록', href: '/services/tourism' },
       { title: '국제물류주선업 등록', href: '/services/logistics' },
       { title: '기업인증(벤처/이노비즈)', href: '/services/venture-cert' },
     ],
@@ -7433,7 +7415,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '여행사 창업을 위한 여행업 등록은 관광진흥법 제4조에 따라 시·도지사에게 신청해야 합니다. 일반·국외·국내 여행업 구분과 보증보험·자본금 요건을 전문 행정사가 안내합니다.',
     meta_title: '여행사 등록 요건과 절차 — 관광진흥법 완벽 가이드',
     meta_description: '여행업 등록 요건·자본금·보증보험·서류·절차 총정리. 관광진흥법 제4조 기반. 일반·국외·국내 여행업 구분. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/travel-agency-registration.jpg',
     created_at: '2026-05-30T10:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>여행업 등록이란?</li><li>여행업 종류별 구분</li><li>등록 자격 요건</li><li>자본금 및 보증보험 기준</li><li>필요 서류 목록</li><li>등록 신청 절차</li><li>처리 기간과 수수료</li><li>등록 후 의무사항</li><li>자주 하는 실수와 주의사항</li></ol></div>
 <h2>1. 여행업 등록이란?</h2>
@@ -7510,7 +7492,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 국내 여행업 등록 후 해외 여행 상품도 판매할 수 있나요?</p><p class="faq-a">A. 불가합니다. 해외 여행 상품을 취급하려면 국외 여행업 또는 일반 여행업으로 별도 등록해야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 여행업 등록증 취득 후 영업을 시작하는 데 추가로 필요한 것이 있나요?</p><p class="faq-a">A. 한국여행업협회(KATA) 가입 후 GDS(항공 발권 시스템) 접근 권한 취득, 여행자 보험 제휴 계약, 전자상거래법에 따른 통신판매업 신고(온라인 판매 시) 등이 필요합니다.</p></div>
 </div>
-<div class="cta-box"><h3>여행사 창업, 전문 행정사와 함께 빠르고 정확하게</h3><p>비전행정사사무소는 여행업 등록부터 한국여행업협회 가입, 보증보험 선택까지 창업 전 과정을 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
+<div class="cta-box"><h3>여행사 창업, 전문 행정사와 함께 빠르고 정확하게</h3><p>유선행정사사무소는 여행업 등록부터 한국여행업협회 가입, 보증보험 선택까지 창업 전 과정을 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '104',
@@ -7520,9 +7502,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '의료기기 판매업 신고를 위한 법적 요건, 필요 서류, 담당 기관 및 주의사항을 상세히 안내합니다.',
     meta_title: '의료기기 판매업 신고 방법과 절차 — 의료기기법 완벽 가이드',
     meta_description: '의료기기 판매업 신고 요건·품질책임자·필요 서류·처리 기간 총정리. 의료기기법 제17조 기반. 전문 행정사 초기 상담 무료.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/medical-device-sales-registration.jpg',
     created_at: '2026-05-31T10:00:00Z',
-    content: `<h2>의료기기 판매업 신고 개요</h2><p>의료기기를 판매하려는 자는 의료기기법 제17조에 따라 의료기기 판매업 신고를 해야 합니다. 의료기기 판매업은 신고업으로, 허가가 아닌 신고로 개업이 가능합니다. 다만 신고 요건을 충족하지 않으면 영업 개시 후에도 시정명령, 영업정지, 형사처벌 대상이 될 수 있습니다.</p><h2>의료기기 판매업 신고 요건</h2><p>의료기기법 시행규칙에 따르면 판매업 신고를 위해서는 적합한 영업장소와 품질책임자가 필요합니다. 의료기기 보관에 적합한 온·습도 조건을 유지할 수 있는 창고 또는 영업장이 필요하며, 품질책임자는 의료기기 관련 국가기술자격증 보유자 또는 의약계열 학위 소지자가 담당합니다.</p><h2>신고 대상 의료기기 범위</h2><p>의료기기는 등급에 따라 1~4등급으로 분류됩니다. 1등급 의료기기는 위험도가 낮은 의료기기로 신고만으로 판매가 가능하지만, 2~4등급은 더 엄격한 요건이 적용됩니다. 취급하려는 의료기기의 등급에 따라 신고 요건이 달라지므로 사전 확인이 필수입니다.</p><h2>필요 서류 목록</h2><p>의료기기 판매업 신고 시 제출 서류: 판매업 신고서(지방식약처 소정 양식), 영업장 위치 및 시설 현황 도면, 품질책임자 자격증 사본 및 이력서, 임대차계약서, 사업자등록증 사본.</p><h2>신고 기관 및 처리 기간</h2><p>의료기기 판매업 신고는 영업장 소재지 관할 지방식품의약품안전처에 신청합니다. 처리 기간은 제출 서류가 완비된 경우 통상 5~10일입니다.</p><h2>판매업자의 의무사항</h2><p>판매업 신고 후에도 의료기기 구매처 및 판매처 기록 유지, 부작용 발생 시 보고 의무, 보관 기준 준수, 판매 기록 보존(5년 이상) 등의 의무가 있습니다.</p><h2>임대업·수리업과의 구분</h2><p>의료기기를 판매하지 않고 대여만 하는 경우에도 원칙적으로 판매업 신고 범위에 포함되는 임대 행위로 취급될 수 있으며, 의료기기를 수리하는 사업은 별도의 수리업 신고 대상이 됩니다. 휠체어·전동침대 등 재활 보조기기를 대여하는 업체, 의료기기 애프터서비스를 제공하는 업체는 각각 해당 업종에 맞는 신고를 별도로 갖추어야 하며, 판매업 신고만으로 임대·수리 행위까지 포괄되지는 않습니다.</p><ul><li><strong>임대업:</strong> 병원·요양시설 대상 의료기기 렌탈 서비스도 신고 대상에 해당할 수 있습니다.</li><li><strong>수리업:</strong> 의료기기 유지보수·수리를 업으로 하는 경우 별도 신고가 필요합니다.</li><li><strong>겸업 시 확인:</strong> 판매·임대·수리를 함께 영위하려는 경우 각 업종별 신고 요건을 모두 충족해야 합니다.</li></ul><h2>품질책임자 변경과 폐업 신고</h2><p>품질책임자가 퇴직하거나 자격을 상실하는 경우 지체 없이 후임자를 선임하고 변경신고를 해야 합니다. 영업소를 이전하거나 폐업하는 경우에도 각각 변경신고 또는 폐업신고를 해야 하며, 신고 없이 방치하면 추후 재신고나 다른 인허가 진행 시 불이익을 받을 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 품질책임자 결원 상태로 장기간 영업을 계속하면 신고 기준 미달로 시정명령이나 영업정지 대상이 될 수 있습니다. 후임자 선임을 미루지 않는 것이 중요합니다.</div><h2>위반 시 제재</h2><p>의료기기법 위반 시 영업정지, 시정명령, 형사처벌을 받을 수 있습니다. 무허가 또는 부정 의료기기 판매 시에는 3년 이하의 징역 또는 3천만 원 이하의 벌금이 부과됩니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 온라인으로 의료기기를 판매하는 경우에도 신고가 필요한가요?</p><p class="faq-a">A. 네, 온라인 판매도 의료기기 판매업 신고 대상입니다. 전자상거래를 통해 의료기기를 판매하려면 반드시 판매업 신고를 마쳐야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 의료기기 수입업과 판매업의 차이는 무엇인가요?</p><p class="faq-a">A. 수입업은 외국에서 의료기기를 수입하여 판매하는 업종으로 별도의 수입업 신고가 필요합니다. 판매업은 국내에서 이미 허가된 의료기기를 유통·판매하는 업종입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 휠체어 렌탈 사업도 판매업 신고가 필요한가요?</p><p class="faq-a">A. 네, 의료기기 대여도 신고 대상에 포함되는 경우가 많습니다. 정확한 적용 범위는 취급 품목의 등급과 대여 형태에 따라 다르므로 관할 지방식약처 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 품질책임자가 갑자기 퇴사하면 영업을 중단해야 하나요?</p><p class="faq-a">A. 즉시 후임 품질책임자를 선임하고 변경신고를 진행하면 영업을 계속할 수 있습니다. 결원을 방치하면 행정처분 대상이 될 수 있습니다.</p></div></div><div class="cta-box"><h3>의료기기 판매업 신고, 전문 행정사가 도와드립니다</h3><p>비전행정사사무소는 의료기기 판매업 신고 서류 준비부터 지방식약처 신청까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
+    content: `<h2>의료기기 판매업 신고 개요</h2><p>의료기기를 판매하려는 자는 의료기기법 제17조에 따라 의료기기 판매업 신고를 해야 합니다. 의료기기 판매업은 신고업으로, 허가가 아닌 신고로 개업이 가능합니다. 다만 신고 요건을 충족하지 않으면 영업 개시 후에도 시정명령, 영업정지, 형사처벌 대상이 될 수 있습니다.</p><h2>의료기기 판매업 신고 요건</h2><p>의료기기법 시행규칙에 따르면 판매업 신고를 위해서는 적합한 영업장소와 품질책임자가 필요합니다. 의료기기 보관에 적합한 온·습도 조건을 유지할 수 있는 창고 또는 영업장이 필요하며, 품질책임자는 의료기기 관련 국가기술자격증 보유자 또는 의약계열 학위 소지자가 담당합니다.</p><h2>신고 대상 의료기기 범위</h2><p>의료기기는 등급에 따라 1~4등급으로 분류됩니다. 1등급 의료기기는 위험도가 낮은 의료기기로 신고만으로 판매가 가능하지만, 2~4등급은 더 엄격한 요건이 적용됩니다. 취급하려는 의료기기의 등급에 따라 신고 요건이 달라지므로 사전 확인이 필수입니다.</p><h2>필요 서류 목록</h2><p>의료기기 판매업 신고 시 제출 서류: 판매업 신고서(지방식약처 소정 양식), 영업장 위치 및 시설 현황 도면, 품질책임자 자격증 사본 및 이력서, 임대차계약서, 사업자등록증 사본.</p><h2>신고 기관 및 처리 기간</h2><p>의료기기 판매업 신고는 영업장 소재지 관할 지방식품의약품안전처에 신청합니다. 처리 기간은 제출 서류가 완비된 경우 통상 5~10일입니다.</p><h2>판매업자의 의무사항</h2><p>판매업 신고 후에도 의료기기 구매처 및 판매처 기록 유지, 부작용 발생 시 보고 의무, 보관 기준 준수, 판매 기록 보존(5년 이상) 등의 의무가 있습니다.</p><h2>임대업·수리업과의 구분</h2><p>의료기기를 판매하지 않고 대여만 하는 경우에도 원칙적으로 판매업 신고 범위에 포함되는 임대 행위로 취급될 수 있으며, 의료기기를 수리하는 사업은 별도의 수리업 신고 대상이 됩니다. 휠체어·전동침대 등 재활 보조기기를 대여하는 업체, 의료기기 애프터서비스를 제공하는 업체는 각각 해당 업종에 맞는 신고를 별도로 갖추어야 하며, 판매업 신고만으로 임대·수리 행위까지 포괄되지는 않습니다.</p><ul><li><strong>임대업:</strong> 병원·요양시설 대상 의료기기 렌탈 서비스도 신고 대상에 해당할 수 있습니다.</li><li><strong>수리업:</strong> 의료기기 유지보수·수리를 업으로 하는 경우 별도 신고가 필요합니다.</li><li><strong>겸업 시 확인:</strong> 판매·임대·수리를 함께 영위하려는 경우 각 업종별 신고 요건을 모두 충족해야 합니다.</li></ul><h2>품질책임자 변경과 폐업 신고</h2><p>품질책임자가 퇴직하거나 자격을 상실하는 경우 지체 없이 후임자를 선임하고 변경신고를 해야 합니다. 영업소를 이전하거나 폐업하는 경우에도 각각 변경신고 또는 폐업신고를 해야 하며, 신고 없이 방치하면 추후 재신고나 다른 인허가 진행 시 불이익을 받을 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 품질책임자 결원 상태로 장기간 영업을 계속하면 신고 기준 미달로 시정명령이나 영업정지 대상이 될 수 있습니다. 후임자 선임을 미루지 않는 것이 중요합니다.</div><h2>위반 시 제재</h2><p>의료기기법 위반 시 영업정지, 시정명령, 형사처벌을 받을 수 있습니다. 무허가 또는 부정 의료기기 판매 시에는 3년 이하의 징역 또는 3천만 원 이하의 벌금이 부과됩니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 온라인으로 의료기기를 판매하는 경우에도 신고가 필요한가요?</p><p class="faq-a">A. 네, 온라인 판매도 의료기기 판매업 신고 대상입니다. 전자상거래를 통해 의료기기를 판매하려면 반드시 판매업 신고를 마쳐야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 의료기기 수입업과 판매업의 차이는 무엇인가요?</p><p class="faq-a">A. 수입업은 외국에서 의료기기를 수입하여 판매하는 업종으로 별도의 수입업 신고가 필요합니다. 판매업은 국내에서 이미 허가된 의료기기를 유통·판매하는 업종입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 휠체어 렌탈 사업도 판매업 신고가 필요한가요?</p><p class="faq-a">A. 네, 의료기기 대여도 신고 대상에 포함되는 경우가 많습니다. 정확한 적용 범위는 취급 품목의 등급과 대여 형태에 따라 다르므로 관할 지방식약처 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 품질책임자가 갑자기 퇴사하면 영업을 중단해야 하나요?</p><p class="faq-a">A. 즉시 후임 품질책임자를 선임하고 변경신고를 진행하면 영업을 계속할 수 있습니다. 결원을 방치하면 행정처분 대상이 될 수 있습니다.</p></div></div><div class="cta-box"><h3>의료기기 판매업 신고, 전문 행정사가 도와드립니다</h3><p>유선행정사사무소는 의료기기 판매업 신고 서류 준비부터 지방식약처 신청까지 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '105',
@@ -7532,9 +7514,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '농약관리법에 따른 농약판매업 등록 요건, 신청 절차, 시설 기준, 의무사항을 상세히 안내합니다.',
     meta_title: '농약판매업 등록 요건과 절차 — 농약관리법 완벽 안내',
     meta_description: '농약판매업 등록 요건·판매관리인·시설 기준·필요 서류·처리 기간 총정리. 농약관리법 제3조 기반. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/pesticide-sales-registration.jpg',
     created_at: '2026-05-31T10:00:00Z',
-    content: `<h2>농약판매업 등록 개요</h2><p>농약을 판매하려는 자는 농약관리법 제3조에 따라 농약판매업 등록을 해야 합니다. 농약판매업은 등록제로 운영되며, 일정 요건을 갖추어 시·군·구청에 등록해야 영업을 개시할 수 있습니다. 무등록 영업은 형사처벌 대상이 되므로 반드시 사전 등록이 이루어져야 합니다.</p><h2>농약판매업 등록 요건</h2><p>농약관리법 시행규칙에 따라 농약판매업 등록을 위해서는 전용 판매장과 농약판매관리인이 필요합니다. 판매관리인은 농업계 대학 졸업자, 농약 관련 자격증 보유자, 또는 일정 기간의 농약 취급 경력이 있는 자가 맡을 수 있습니다.</p><h2>시설 기준</h2><p>농약 보관 시설은 비·바람을 막을 수 있는 창고로 잠금장치가 설치되어야 합니다. 농약이 식품·사료 등과 혼재 보관되지 않도록 구분된 공간에 보관해야 하며, 화기 엄금 표시, 소화기 비치, 환기 시설도 필수입니다.</p><h2>필요 서류 목록</h2><p>농약판매업 등록 신청 시 제출 서류: 농약판매업 등록 신청서, 판매장 및 창고 위치도, 판매관리인 자격 증명서류, 임대차계약서 또는 사용 승낙서, 사업자등록증 사본.</p><h2>등록 기관 및 처리 기간</h2><p>농약판매업 등록은 판매장 소재지 관할 시·군·구청 농업 담당 부서에 신청합니다. 처리 기간은 서류 완비 후 통상 5~15일이며, 현장 조사가 병행될 수 있습니다.</p><h2>판매업자의 의무사항</h2><p>등록 후에는 농약 구입 및 판매 장부를 기재·보존해야 합니다(5년 이상). 판매 대장 허위 기재, 무자격 농약 판매, 보관 기준 위반 시 행정 처분을 받습니다.</p><h2>안전사용기준 안내 의무</h2><p>농약판매업자는 단순히 제품을 진열·판매하는 것을 넘어, 구매자에게 해당 농약의 사용 대상 작물, 사용 시기, 희석 배율, 안전사용기준을 안내할 의무가 있습니다. 특히 사용이 금지되거나 제한된 작물에 대해 판매 시 안내를 소홀히 하면 이후 잔류농약 검출 등 문제 발생 시 판매업자의 관리 책임이 함께 문제될 수 있습니다.</p><ul><li><strong>표시 확인:</strong> 등록되지 않은 용도로 사용하도록 권유하거나 안내하는 행위는 금지됩니다.</li><li><strong>유효기한 관리:</strong> 사용기한이 지난 농약은 판매 및 진열대에서 즉시 제외해야 합니다.</li><li><strong>혼용 안내:</strong> 농약 간 혼용 시 약해가 발생할 수 있는 조합에 대해 안내하는 것이 바람직합니다.</li></ul><h2>판매관리인 교육과 결원 관리</h2><p>농약판매관리인은 일정 주기로 법정 교육을 이수해야 하며, 판매관리인이 퇴직하거나 자격을 상실한 경우 지체 없이 후임자를 선임하고 관할 기관에 신고해야 합니다. 판매관리인 결원 상태로 영업을 계속하면 등록 기준 미달로 시정명령 대상이 될 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 등록된 판매장이 아닌 별도의 장소(예: 트럭, 노점, 임시 부스)에서 농약을 상시적으로 판매하는 행위는 등록 기준을 벗어난 영업으로 간주되어 행정처분 대상이 될 수 있습니다.</div><h2>변경등록과 지위승계</h2><p>판매장 소재지 이전, 대표자 변경, 판매관리인 교체 등 등록 사항에 변경이 생기면 변경등록을 해야 합니다. 영업을 양도·양수하거나 상속받는 경우에는 지위승계 신고를 통해 종전 등록의 효력을 이어받을 수 있습니다.</p><h2>위반 시 제재</h2><p>무등록 농약 판매 시 3년 이하의 징역 또는 3천만 원 이하의 벌금이 부과됩니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 편의점이나 마트에서 농약을 판매할 수 있나요?</p><p class="faq-a">A. 아닙니다. 농약은 전용 판매업 등록자만 판매할 수 있으며, 일반 소매점에서는 판매가 불가합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 농약판매관리인과 판매업 대표자가 같은 사람이어도 되나요?</p><p class="faq-a">A. 네, 가능합니다. 대표자가 판매관리인 자격 요건을 충족하는 경우 겸직이 인정됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 사용기한이 지난 농약은 어떻게 처리해야 하나요?</p><p class="faq-a">A. 판매 및 진열에서 즉시 제외하고, 폐기물관리법 등 관련 규정에 따라 적절히 처리해야 합니다. 일반 폐기물과 함께 임의로 버려서는 안 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 판매관리인이 갑자기 퇴사하면 영업을 중단해야 하나요?</p><p class="faq-a">A. 즉시 후임 판매관리인을 선임하고 변경신고를 진행하면 영업을 계속할 수 있습니다. 다만 결원 상태를 장기간 방치하면 등록 기준 미달로 처분받을 수 있으므로 신속한 후임 선임이 중요합니다.</p></div></div><div class="cta-box"><h3>농약판매업 등록, 전문 행정사와 함께하세요</h3><p>비전행정사사무소는 농약판매업 등록 서류 준비부터 관할 기관 신청까지 전 과정을 지원합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
+    content: `<h2>농약판매업 등록 개요</h2><p>농약을 판매하려는 자는 농약관리법 제3조에 따라 농약판매업 등록을 해야 합니다. 농약판매업은 등록제로 운영되며, 일정 요건을 갖추어 시·군·구청에 등록해야 영업을 개시할 수 있습니다. 무등록 영업은 형사처벌 대상이 되므로 반드시 사전 등록이 이루어져야 합니다.</p><h2>농약판매업 등록 요건</h2><p>농약관리법 시행규칙에 따라 농약판매업 등록을 위해서는 전용 판매장과 농약판매관리인이 필요합니다. 판매관리인은 농업계 대학 졸업자, 농약 관련 자격증 보유자, 또는 일정 기간의 농약 취급 경력이 있는 자가 맡을 수 있습니다.</p><h2>시설 기준</h2><p>농약 보관 시설은 비·바람을 막을 수 있는 창고로 잠금장치가 설치되어야 합니다. 농약이 식품·사료 등과 혼재 보관되지 않도록 구분된 공간에 보관해야 하며, 화기 엄금 표시, 소화기 비치, 환기 시설도 필수입니다.</p><h2>필요 서류 목록</h2><p>농약판매업 등록 신청 시 제출 서류: 농약판매업 등록 신청서, 판매장 및 창고 위치도, 판매관리인 자격 증명서류, 임대차계약서 또는 사용 승낙서, 사업자등록증 사본.</p><h2>등록 기관 및 처리 기간</h2><p>농약판매업 등록은 판매장 소재지 관할 시·군·구청 농업 담당 부서에 신청합니다. 처리 기간은 서류 완비 후 통상 5~15일이며, 현장 조사가 병행될 수 있습니다.</p><h2>판매업자의 의무사항</h2><p>등록 후에는 농약 구입 및 판매 장부를 기재·보존해야 합니다(5년 이상). 판매 대장 허위 기재, 무자격 농약 판매, 보관 기준 위반 시 행정 처분을 받습니다.</p><h2>안전사용기준 안내 의무</h2><p>농약판매업자는 단순히 제품을 진열·판매하는 것을 넘어, 구매자에게 해당 농약의 사용 대상 작물, 사용 시기, 희석 배율, 안전사용기준을 안내할 의무가 있습니다. 특히 사용이 금지되거나 제한된 작물에 대해 판매 시 안내를 소홀히 하면 이후 잔류농약 검출 등 문제 발생 시 판매업자의 관리 책임이 함께 문제될 수 있습니다.</p><ul><li><strong>표시 확인:</strong> 등록되지 않은 용도로 사용하도록 권유하거나 안내하는 행위는 금지됩니다.</li><li><strong>유효기한 관리:</strong> 사용기한이 지난 농약은 판매 및 진열대에서 즉시 제외해야 합니다.</li><li><strong>혼용 안내:</strong> 농약 간 혼용 시 약해가 발생할 수 있는 조합에 대해 안내하는 것이 바람직합니다.</li></ul><h2>판매관리인 교육과 결원 관리</h2><p>농약판매관리인은 일정 주기로 법정 교육을 이수해야 하며, 판매관리인이 퇴직하거나 자격을 상실한 경우 지체 없이 후임자를 선임하고 관할 기관에 신고해야 합니다. 판매관리인 결원 상태로 영업을 계속하면 등록 기준 미달로 시정명령 대상이 될 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 등록된 판매장이 아닌 별도의 장소(예: 트럭, 노점, 임시 부스)에서 농약을 상시적으로 판매하는 행위는 등록 기준을 벗어난 영업으로 간주되어 행정처분 대상이 될 수 있습니다.</div><h2>변경등록과 지위승계</h2><p>판매장 소재지 이전, 대표자 변경, 판매관리인 교체 등 등록 사항에 변경이 생기면 변경등록을 해야 합니다. 영업을 양도·양수하거나 상속받는 경우에는 지위승계 신고를 통해 종전 등록의 효력을 이어받을 수 있습니다.</p><h2>위반 시 제재</h2><p>무등록 농약 판매 시 3년 이하의 징역 또는 3천만 원 이하의 벌금이 부과됩니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 편의점이나 마트에서 농약을 판매할 수 있나요?</p><p class="faq-a">A. 아닙니다. 농약은 전용 판매업 등록자만 판매할 수 있으며, 일반 소매점에서는 판매가 불가합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 농약판매관리인과 판매업 대표자가 같은 사람이어도 되나요?</p><p class="faq-a">A. 네, 가능합니다. 대표자가 판매관리인 자격 요건을 충족하는 경우 겸직이 인정됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 사용기한이 지난 농약은 어떻게 처리해야 하나요?</p><p class="faq-a">A. 판매 및 진열에서 즉시 제외하고, 폐기물관리법 등 관련 규정에 따라 적절히 처리해야 합니다. 일반 폐기물과 함께 임의로 버려서는 안 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 판매관리인이 갑자기 퇴사하면 영업을 중단해야 하나요?</p><p class="faq-a">A. 즉시 후임 판매관리인을 선임하고 변경신고를 진행하면 영업을 계속할 수 있습니다. 다만 결원 상태를 장기간 방치하면 등록 기준 미달로 처분받을 수 있으므로 신속한 후임 선임이 중요합니다.</p></div></div><div class="cta-box"><h3>농약판매업 등록, 전문 행정사와 함께하세요</h3><p>유선행정사사무소는 농약판매업 등록 서류 준비부터 관할 기관 신청까지 전 과정을 지원합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '106',
@@ -7544,9 +7526,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '대기환경보전법에 따른 대기오염 방지시설 설치 허가 및 신고 의무, 필요 서류, 검사 절차를 안내합니다.',
     meta_title: '대기오염 방지시설 설치 허가 절차 — 대기환경보전법 안내',
     meta_description: '대기오염 방지시설 허가 대상·신고 절차·필요 서류·자가 측정 의무 총정리. 대기환경보전법 기반. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/environmental-facility-permit.jpg',
     created_at: '2026-05-31T10:00:00Z',
-    content: `<h2>대기오염 방지시설 설치 의무 개요</h2><p>대기환경보전법에 따라 대기오염물질을 배출하는 사업장은 방지시설을 설치하여 배출허용기준을 충족해야 합니다. 방지시설이란 집진시설, 흡수시설, 연소시설 등 대기오염물질을 제거하거나 감소시키는 설비를 말합니다.</p><h2>방지시설 설치 대상 사업장</h2><p>대기오염물질 배출 사업장은 1~5종으로 구분됩니다. 1종 사업장은 연간 80톤 이상의 대기오염물질을 배출하는 사업장이며, 5종은 가장 소규모 사업장입니다. 종별로 설치 의무와 신고 방법이 다르게 적용됩니다.</p><h2>허가 및 신고 절차</h2><p>방지시설 설치 사업장은 가동 전에 관할 지방환경청 또는 시·도지사에게 설치 허가(1~3종) 또는 신고(4~5종)를 해야 합니다. 설치 허가 신청 시 제출 서류는 배출시설 및 방지시설 설치 명세서, 설치 계획서, 기술 능력 보유 확인서, 배치도 등이 포함됩니다.</p><h2>방지시설 검사</h2><p>방지시설 설치 완료 후 가동 전에 검사기관의 확인 검사를 받아야 합니다. 검사기관은 한국환경공단 또는 대기환경전문기관 중에서 선택합니다.</p><h2>자가 측정 의무</h2><p>방지시설을 운영하는 사업장은 정기적으로 배출가스를 자가 측정해야 합니다. 1종 사업장은 월 1회 이상 측정이 의무화되어 있습니다.</p><h2>환경기술인 선임 의무</h2><p>대기오염물질 배출시설을 운영하는 사업장은 배출시설과 방지시설을 관리할 환경기술인을 선임해야 합니다. 환경기술인은 사업장 규모와 배출량에 따라 필요한 자격 등급(기술사, 기사, 산업기사 등)이 다르게 요구되며, 선임 사실은 관할 기관에 신고해야 합니다. 환경기술인을 선임하지 않거나 결원 상태로 방치하면 그 자체로 행정처분 사유가 됩니다.</p><ul><li><strong>선임 기한:</strong> 배출시설 가동 개시 전까지 환경기술인을 선임하고 신고를 완료해야 합니다.</li><li><strong>겸직 제한:</strong> 사업장 규모에 따라 환경기술인의 다른 시설 겸직이 제한될 수 있습니다.</li><li><strong>교육 이수:</strong> 환경기술인은 정기적으로 환경 관련 법정 교육을 이수해야 합니다.</li></ul><h2>굴뚝자동측정기기(TMS) 부착 의무</h2><p>일정 규모 이상의 배출시설은 자가 측정만으로는 부족하여 굴뚝자동측정기기(TMS)를 부착하고 측정 자료를 실시간으로 관제센터에 전송해야 합니다. TMS는 국립환경과학원 등 관제기관과 연계되어 배출농도를 상시 감시하는 역할을 하며, 고장이나 자료 누락이 발생하면 즉시 보수하고 관할 기관에 통보해야 합니다.</p><div class="highlight-box"><strong>주의:</strong> TMS 측정 자료를 조작하거나 고의로 누락시키는 행위는 별도의 형사처벌 대상이 되며, 적발 시 조업정지 등 강한 행정처분으로 이어질 수 있습니다.</div><h2>변경허가·변경신고와 승계</h2><p>방지시설의 처리 방식이나 처리 용량을 변경하는 경우, 사업장을 양도·양수하거나 법인이 합병되는 경우에도 각각 변경허가(신고) 및 지위승계신고 절차를 거쳐야 합니다. 절차를 누락한 채 시설을 변경하거나 영업자 지위만 사실상 이전하면 무허가 운영으로 간주될 위험이 있습니다.</p><h2>위반 시 제재</h2><p>허가 없이 방지시설을 가동하거나 배출허용기준을 초과하는 경우 행정 처분과 형사처벌(7년 이하 징역 또는 1억 원 이하 벌금)이 부과될 수 있습니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 방지시설 설치 허가와 신고의 차이는 무엇인가요?</p><p class="faq-a">A. 1~3종 사업장은 허가 대상으로 관할 기관의 사전 심사와 허가가 필요합니다. 4~5종 사업장은 신고 대상으로 신고서 제출 후 가동이 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기존 방지시설을 교체하거나 변경할 때도 허가가 필요한가요?</p><p class="faq-a">A. 변경 사항이 중요한 경우(처리 능력 변경, 시설 추가 등) 변경 허가 또는 변경 신고가 필요합니다. 경미한 변경은 신고로 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 환경기술인은 반드시 정규직으로 고용해야 하나요?</p><p class="faq-a">A. 사업장 규모와 배출량에 따라 다릅니다. 소규모 사업장은 대표자나 다른 업무 담당자가 자격 요건을 충족하면 겸임이 가능한 경우도 있으나, 일정 규모 이상은 전담 인력 선임이 권장됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. TMS는 모든 사업장에 부착해야 하나요?</p><p class="faq-a">A. 아닙니다. 배출량과 시설 종류에 따라 부착 대상이 정해지며, 소규모 사업장은 자가 측정만으로 관리하는 경우도 있습니다. 대상 여부는 관할 환경청 확인이 필요합니다.</p></div></div><div class="cta-box"><h3>환경시설 인허가, 전문 행정사가 정확하게 처리합니다</h3><p>비전행정사사무소는 대기오염 방지시설 설치 허가 신청부터 검사 대응까지 전 과정을 지원합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
+    content: `<h2>대기오염 방지시설 설치 의무 개요</h2><p>대기환경보전법에 따라 대기오염물질을 배출하는 사업장은 방지시설을 설치하여 배출허용기준을 충족해야 합니다. 방지시설이란 집진시설, 흡수시설, 연소시설 등 대기오염물질을 제거하거나 감소시키는 설비를 말합니다.</p><h2>방지시설 설치 대상 사업장</h2><p>대기오염물질 배출 사업장은 1~5종으로 구분됩니다. 1종 사업장은 연간 80톤 이상의 대기오염물질을 배출하는 사업장이며, 5종은 가장 소규모 사업장입니다. 종별로 설치 의무와 신고 방법이 다르게 적용됩니다.</p><h2>허가 및 신고 절차</h2><p>방지시설 설치 사업장은 가동 전에 관할 지방환경청 또는 시·도지사에게 설치 허가(1~3종) 또는 신고(4~5종)를 해야 합니다. 설치 허가 신청 시 제출 서류는 배출시설 및 방지시설 설치 명세서, 설치 계획서, 기술 능력 보유 확인서, 배치도 등이 포함됩니다.</p><h2>방지시설 검사</h2><p>방지시설 설치 완료 후 가동 전에 검사기관의 확인 검사를 받아야 합니다. 검사기관은 한국환경공단 또는 대기환경전문기관 중에서 선택합니다.</p><h2>자가 측정 의무</h2><p>방지시설을 운영하는 사업장은 정기적으로 배출가스를 자가 측정해야 합니다. 1종 사업장은 월 1회 이상 측정이 의무화되어 있습니다.</p><h2>환경기술인 선임 의무</h2><p>대기오염물질 배출시설을 운영하는 사업장은 배출시설과 방지시설을 관리할 환경기술인을 선임해야 합니다. 환경기술인은 사업장 규모와 배출량에 따라 필요한 자격 등급(기술사, 기사, 산업기사 등)이 다르게 요구되며, 선임 사실은 관할 기관에 신고해야 합니다. 환경기술인을 선임하지 않거나 결원 상태로 방치하면 그 자체로 행정처분 사유가 됩니다.</p><ul><li><strong>선임 기한:</strong> 배출시설 가동 개시 전까지 환경기술인을 선임하고 신고를 완료해야 합니다.</li><li><strong>겸직 제한:</strong> 사업장 규모에 따라 환경기술인의 다른 시설 겸직이 제한될 수 있습니다.</li><li><strong>교육 이수:</strong> 환경기술인은 정기적으로 환경 관련 법정 교육을 이수해야 합니다.</li></ul><h2>굴뚝자동측정기기(TMS) 부착 의무</h2><p>일정 규모 이상의 배출시설은 자가 측정만으로는 부족하여 굴뚝자동측정기기(TMS)를 부착하고 측정 자료를 실시간으로 관제센터에 전송해야 합니다. TMS는 국립환경과학원 등 관제기관과 연계되어 배출농도를 상시 감시하는 역할을 하며, 고장이나 자료 누락이 발생하면 즉시 보수하고 관할 기관에 통보해야 합니다.</p><div class="highlight-box"><strong>주의:</strong> TMS 측정 자료를 조작하거나 고의로 누락시키는 행위는 별도의 형사처벌 대상이 되며, 적발 시 조업정지 등 강한 행정처분으로 이어질 수 있습니다.</div><h2>변경허가·변경신고와 승계</h2><p>방지시설의 처리 방식이나 처리 용량을 변경하는 경우, 사업장을 양도·양수하거나 법인이 합병되는 경우에도 각각 변경허가(신고) 및 지위승계신고 절차를 거쳐야 합니다. 절차를 누락한 채 시설을 변경하거나 영업자 지위만 사실상 이전하면 무허가 운영으로 간주될 위험이 있습니다.</p><h2>위반 시 제재</h2><p>허가 없이 방지시설을 가동하거나 배출허용기준을 초과하는 경우 행정 처분과 형사처벌(7년 이하 징역 또는 1억 원 이하 벌금)이 부과될 수 있습니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 방지시설 설치 허가와 신고의 차이는 무엇인가요?</p><p class="faq-a">A. 1~3종 사업장은 허가 대상으로 관할 기관의 사전 심사와 허가가 필요합니다. 4~5종 사업장은 신고 대상으로 신고서 제출 후 가동이 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기존 방지시설을 교체하거나 변경할 때도 허가가 필요한가요?</p><p class="faq-a">A. 변경 사항이 중요한 경우(처리 능력 변경, 시설 추가 등) 변경 허가 또는 변경 신고가 필요합니다. 경미한 변경은 신고로 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 환경기술인은 반드시 정규직으로 고용해야 하나요?</p><p class="faq-a">A. 사업장 규모와 배출량에 따라 다릅니다. 소규모 사업장은 대표자나 다른 업무 담당자가 자격 요건을 충족하면 겸임이 가능한 경우도 있으나, 일정 규모 이상은 전담 인력 선임이 권장됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. TMS는 모든 사업장에 부착해야 하나요?</p><p class="faq-a">A. 아닙니다. 배출량과 시설 종류에 따라 부착 대상이 정해지며, 소규모 사업장은 자가 측정만으로 관리하는 경우도 있습니다. 대상 여부는 관할 환경청 확인이 필요합니다.</p></div></div><div class="cta-box"><h3>환경시설 인허가, 전문 행정사가 정확하게 처리합니다</h3><p>유선행정사사무소는 대기오염 방지시설 설치 허가 신청부터 검사 대응까지 전 과정을 지원합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '107',
@@ -7556,9 +7538,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '공중위생관리법에 따른 목욕장업·이용업·미용업·세탁업 신고 요건, 시설 기준, 위생관리인 자격을 상세히 안내합니다.',
     meta_title: '공중위생영업 신고 방법 — 목욕장·이용업·미용업 완벽 가이드',
     meta_description: '공중위생영업(목욕장업·이용업·미용업·세탁업) 신고 요건·시설 기준·위생관리인·처리 기간 총정리. 공중위생관리법 기반. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/public-hygiene-business-permit.jpg',
     created_at: '2026-06-01T10:00:00Z',
-    content: `<h2>공중위생영업 신고 개요</h2><p>공중위생관리법에 따라 목욕장업·이용업·미용업·세탁업·건물위생관리업을 영위하려는 자는 관할 시·군·구청에 신고를 해야 합니다. 공중위생영업은 허가가 아닌 신고제로 운영되지만, 시설 기준과 위생관리 의무를 위반하면 영업정지 등 제재를 받을 수 있습니다.</p><h2>업종별 신고 요건</h2><p>목욕장업: 냉·온탕 시설, 탈의실, 적절한 환기·채광·배수 시설을 갖춰야 합니다. 이용업(이발소): 이용사 자격증을 보유한 업주 또는 직원이 있어야 하며, 소독 시설이 필수입니다. 미용업(미용실): 미용사 자격증 보유자가 시술을 담당해야 하며, 소독·위생 기구를 비치해야 합니다.</p><h2>위생관리인 자격</h2><p>공중위생관리법에 따라 일정 규모 이상의 목욕장업 등은 위생관리인을 선임해야 합니다. 위생관리인은 공중위생 관련 교육 이수자 또는 관련 학과 졸업자가 담당합니다.</p><h2>신고 절차 및 필요 서류</h2><p>영업 신고 시 제출 서류: 공중위생영업 신고서(시·군·구청 소정 양식), 영업장 평면도, 자격증 사본(이용사·미용사), 임대차계약서, 사업자등록증 사본. 처리 기간은 통상 7일 이내입니다.</p><h2>위생 교육 의무</h2><p>공중위생영업자는 매년 위생 교육을 받아야 합니다. 신규 영업자는 영업 개시 전 위생 교육을 이수해야 하며, 기존 영업자는 연 1회 정기 교육을 받아야 합니다.</p><h2>업종별 세부 준수사항</h2><p>공중위생영업은 업종마다 요구되는 세부 준수사항이 다르므로, 신고 이후에도 해당 업종의 위생관리기준을 계속 지켜야 합니다.</p><ul><li><strong>목욕장업:</strong> 욕조 물은 주기적으로 교체하고 수질 기준을 유지해야 하며, 배수구와 탈의실 청결 상태를 상시 점검해야 합니다.</li><li><strong>이용업·미용업:</strong> 사용한 기구는 손님마다 소독 후 재사용해야 하며, 1회용 면도날 등은 재사용이 금지됩니다.</li><li><strong>세탁업:</strong> 세탁물 인수·인도 대장을 작성·비치해야 하며, 유해 화학물질 사용 시 관련 안전기준을 준수해야 합니다.</li><li><strong>건물위생관리업:</strong> 관리 대상 건축물의 청소·소독 실시 기록을 작성·보존해야 합니다.</li></ul><h2>변경신고와 지위승계</h2><p>영업소 소재지, 대표자, 업종 추가 등 신고 사항이 변경되면 변경신고를 해야 합니다. 영업을 양도·양수하거나 상속하는 경우에는 지위승계신고를 통해 종전 신고의 효력을 그대로 이어받을 수 있으며, 이 경우에도 위생 교육은 새로운 영업자 기준으로 다시 이수해야 하는 경우가 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 신고증에 기재되지 않은 업종(예: 미용업 신고만 하고 이용업 서비스를 함께 제공)을 임의로 추가 운영하면 무신고 영업으로 적발될 수 있습니다.</div><h2>위반 시 제재</h2><p>신고 없이 영업하거나 시설 기준을 위반하면 영업정지 또는 폐쇄 명령을 받을 수 있으며, 형사처벌(1년 이하 징역 또는 1천만 원 이하 벌금)도 가능합니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 미용업과 이용업을 같은 장소에서 동시에 운영할 수 있나요?</p><p class="faq-a">A. 원칙적으로 이용업과 미용업은 별도로 신고해야 하며, 같은 영업장에서 운영하려면 각각 별도의 신고와 자격증이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 네일아트·속눈썹 연장 시술도 미용업 신고가 필요한가요?</p><p class="faq-a">A. 네, 네일아트와 속눈썹 연장은 피부 미용 영역으로 미용업 신고 후 시술해야 합니다. 신고 없이 영업 시 처벌 대상이 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 영업을 양수받으면 위생 교육을 다시 받아야 하나요?</p><p class="faq-a">A. 지위승계신고를 하더라도 새로운 영업자 명의로 위생 교육 이수 이력이 없다면 신규 교육을 이수해야 하는 경우가 많습니다. 관할 구청에 사전 확인을 권장합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 세탁업도 위생관리인을 선임해야 하나요?</p><p class="faq-a">A. 세탁업은 업종 특성상 위생관리인 선임 의무보다는 세탁물 인수·인도 기록 관리 등 별도 준수사항이 중심이 됩니다. 정확한 적용 여부는 관할 기관에 확인하는 것이 안전합니다.</p></div></div><div class="cta-box"><h3>공중위생영업 신고, 전문 행정사가 도와드립니다</h3><p>비전행정사사무소는 목욕장업·이용업·미용업 신고 서류 준비부터 시·군·구청 접수까지 원스톱 지원합니다. 초기 상담 무료 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
+    content: `<h2>공중위생영업 신고 개요</h2><p>공중위생관리법에 따라 목욕장업·이용업·미용업·세탁업·건물위생관리업을 영위하려는 자는 관할 시·군·구청에 신고를 해야 합니다. 공중위생영업은 허가가 아닌 신고제로 운영되지만, 시설 기준과 위생관리 의무를 위반하면 영업정지 등 제재를 받을 수 있습니다.</p><h2>업종별 신고 요건</h2><p>목욕장업: 냉·온탕 시설, 탈의실, 적절한 환기·채광·배수 시설을 갖춰야 합니다. 이용업(이발소): 이용사 자격증을 보유한 업주 또는 직원이 있어야 하며, 소독 시설이 필수입니다. 미용업(미용실): 미용사 자격증 보유자가 시술을 담당해야 하며, 소독·위생 기구를 비치해야 합니다.</p><h2>위생관리인 자격</h2><p>공중위생관리법에 따라 일정 규모 이상의 목욕장업 등은 위생관리인을 선임해야 합니다. 위생관리인은 공중위생 관련 교육 이수자 또는 관련 학과 졸업자가 담당합니다.</p><h2>신고 절차 및 필요 서류</h2><p>영업 신고 시 제출 서류: 공중위생영업 신고서(시·군·구청 소정 양식), 영업장 평면도, 자격증 사본(이용사·미용사), 임대차계약서, 사업자등록증 사본. 처리 기간은 통상 7일 이내입니다.</p><h2>위생 교육 의무</h2><p>공중위생영업자는 매년 위생 교육을 받아야 합니다. 신규 영업자는 영업 개시 전 위생 교육을 이수해야 하며, 기존 영업자는 연 1회 정기 교육을 받아야 합니다.</p><h2>업종별 세부 준수사항</h2><p>공중위생영업은 업종마다 요구되는 세부 준수사항이 다르므로, 신고 이후에도 해당 업종의 위생관리기준을 계속 지켜야 합니다.</p><ul><li><strong>목욕장업:</strong> 욕조 물은 주기적으로 교체하고 수질 기준을 유지해야 하며, 배수구와 탈의실 청결 상태를 상시 점검해야 합니다.</li><li><strong>이용업·미용업:</strong> 사용한 기구는 손님마다 소독 후 재사용해야 하며, 1회용 면도날 등은 재사용이 금지됩니다.</li><li><strong>세탁업:</strong> 세탁물 인수·인도 대장을 작성·비치해야 하며, 유해 화학물질 사용 시 관련 안전기준을 준수해야 합니다.</li><li><strong>건물위생관리업:</strong> 관리 대상 건축물의 청소·소독 실시 기록을 작성·보존해야 합니다.</li></ul><h2>변경신고와 지위승계</h2><p>영업소 소재지, 대표자, 업종 추가 등 신고 사항이 변경되면 변경신고를 해야 합니다. 영업을 양도·양수하거나 상속하는 경우에는 지위승계신고를 통해 종전 신고의 효력을 그대로 이어받을 수 있으며, 이 경우에도 위생 교육은 새로운 영업자 기준으로 다시 이수해야 하는 경우가 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 신고증에 기재되지 않은 업종(예: 미용업 신고만 하고 이용업 서비스를 함께 제공)을 임의로 추가 운영하면 무신고 영업으로 적발될 수 있습니다.</div><h2>위반 시 제재</h2><p>신고 없이 영업하거나 시설 기준을 위반하면 영업정지 또는 폐쇄 명령을 받을 수 있으며, 형사처벌(1년 이하 징역 또는 1천만 원 이하 벌금)도 가능합니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 미용업과 이용업을 같은 장소에서 동시에 운영할 수 있나요?</p><p class="faq-a">A. 원칙적으로 이용업과 미용업은 별도로 신고해야 하며, 같은 영업장에서 운영하려면 각각 별도의 신고와 자격증이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 네일아트·속눈썹 연장 시술도 미용업 신고가 필요한가요?</p><p class="faq-a">A. 네, 네일아트와 속눈썹 연장은 피부 미용 영역으로 미용업 신고 후 시술해야 합니다. 신고 없이 영업 시 처벌 대상이 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 영업을 양수받으면 위생 교육을 다시 받아야 하나요?</p><p class="faq-a">A. 지위승계신고를 하더라도 새로운 영업자 명의로 위생 교육 이수 이력이 없다면 신규 교육을 이수해야 하는 경우가 많습니다. 관할 구청에 사전 확인을 권장합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 세탁업도 위생관리인을 선임해야 하나요?</p><p class="faq-a">A. 세탁업은 업종 특성상 위생관리인 선임 의무보다는 세탁물 인수·인도 기록 관리 등 별도 준수사항이 중심이 됩니다. 정확한 적용 여부는 관할 기관에 확인하는 것이 안전합니다.</p></div></div><div class="cta-box"><h3>공중위생영업 신고, 전문 행정사가 도와드립니다</h3><p>유선행정사사무소는 목욕장업·이용업·미용업 신고 서류 준비부터 시·군·구청 접수까지 원스톱 지원합니다. 초기 상담 무료 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '108',
@@ -7568,9 +7550,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '위험물안전관리법에 따른 주유소 설치 허가, 위험물 취급자 자격, 소방 시설 기준을 상세히 안내합니다.',
     meta_title: '주유소 위험물 취급소 허가 신청 절차 — 위험물안전관리법 완벽 가이드',
     meta_description: '주유소(일반취급소·주유취급소) 허가 요건·위험물안전관리자·소방 시설 기준·처리 기간 총정리. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/gas-station-dangerous-goods-permit.jpg',
     created_at: '2026-06-01T10:00:00Z',
-    content: `<h2>주유소 위험물 취급소 허가 개요</h2><p>주유소는 위험물안전관리법상 주유취급소 또는 일반취급소로 분류됩니다. 위험물(휘발유·경유 등)을 취급하므로 설치 전에 관할 소방서에서 위험물 제조소 등의 설치 허가를 받아야 합니다. 허가 없이 위험물 취급 시설을 설치·운영하면 형사처벌을 받습니다.</p><h2>주유취급소 설치 허가 요건</h2><p>위험물안전관리법 시행규칙에 따라 주유취급소는 다음 요건을 갖춰야 합니다: 방화 담장 또는 방유제 설치, 주유 공지(너비 3m 이상), 자동차 등의 충돌로부터 주유기를 보호하는 방호벽, 소화설비(소화기·자동소화장치) 설치, 경보설비 설치.</p><h2>위험물안전관리자 선임 의무</h2><p>주유취급소는 위험물안전관리법에 따라 위험물안전관리자를 선임해야 합니다. 위험물 기능사 이상의 자격 또는 위험물안전관리 강습 이수자가 담당합니다. 안전관리자를 선임하지 않으면 영업정지 처분을 받을 수 있습니다.</p><h2>허가 신청 절차</h2><p>1단계: 부지 확보 및 건축 허가 취득. 2단계: 위험물 취급소 설치 허가 신청(관할 소방서). 3단계: 소방 시설 완공 검사. 4단계: 완공 후 소방서 완공검사 합격 후 사용 개시. 처리 기간은 통상 30~60일입니다.</p><h2>석유판매업 등록</h2><p>주유소 영업을 위해서는 위험물 허가 외에 석유 및 석유대체연료 사업법에 따른 석유판매업 등록도 필요합니다. 관할 시·군·구청 또는 한국석유관리원에 등록해야 합니다.</p><h2>정기점검과 저장탱크 정밀검사</h2><p>주유취급소는 허가를 받은 이후에도 위험물안전관리법에 따라 정기적으로 시설을 점검해야 합니다. 정기점검은 위험물안전관리자 또는 위험물탱크안전성능시험자가 수행하며, 점검 결과 기록은 일정 기간 보존해야 합니다. 지하에 매설된 저장탱크는 별도로 정밀정기검사 대상이 되어 누유 여부와 부식 상태 등을 전문기관이 확인합니다.</p><ul><li><strong>정기점검 주기:</strong> 시설 종류와 규모에 따라 점검 주기가 다르게 정해집니다.</li><li><strong>탱크 정밀검사:</strong> 지하저장탱크는 설치 후 일정 연수가 지나면 정밀검사를 받아야 하며, 이후에도 주기적으로 재검사를 받습니다.</li><li><strong>기록 보존:</strong> 점검·검사 결과는 관할 소방서 확인 요청 시 즉시 제출할 수 있도록 보관해야 합니다.</li></ul><h2>변경허가와 지위승계</h2><p>주유설비를 추가하거나 저장탱크 용량을 변경하는 등 허가 사항에 변동이 생기면 사전에 변경허가를 받아야 합니다. 또한 주유소를 양수하거나 법인을 합병하는 경우에는 지위승계 신고를 통해 종전 허가의 효력과 의무를 그대로 승계해야 하며, 승계 없이 명의만 변경하여 운영하면 무허가 영업으로 취급될 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 폐업하는 주유소는 지하저장탱크의 위험물을 완전히 제거하고 시설물 철거 또는 원상복구 절차를 거쳐야 하며, 방치할 경우 토양오염 등 별도 환경 책임이 발생할 수 있습니다.</div><h2>위반 시 제재</h2><p>무허가 위험물 취급소 설치 시 5년 이하의 징역 또는 5천만 원 이하의 벌금이 부과됩니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 주유소 부지 선정 시 용도지역 제한이 있나요?</p><p class="faq-a">A. 네, 국토의 계획 및 이용에 관한 법률에 따라 주거지역에서의 주유소 설치는 제한됩니다. 상업지역·공업지역·준주거지역에서 허용됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 위험물안전관리자가 퇴직하면 어떻게 해야 하나요?</p><p class="faq-a">A. 위험물안전관리자가 퇴직 또는 해임된 경우 30일 이내에 후임자를 선임하고 소방서에 신고해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 저장탱크 정밀검사를 받지 않으면 어떻게 되나요?</p><p class="faq-a">A. 정밀검사 미이행이 확인되면 사용정지 등 행정처분 대상이 될 수 있습니다. 검사 주기를 놓치지 않도록 사전에 일정을 관리해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 주유소를 인수할 때 기존 허가를 그대로 사용할 수 있나요?</p><p class="faq-a">A. 지위승계 신고 절차를 거치면 종전 허가의 효력을 승계받을 수 있습니다. 신고 없이 명의 변경만 하는 경우는 인정되지 않습니다.</p></div></div><div class="cta-box"><h3>주유소 허가·등록, 전문 행정사가 처리합니다</h3><p>비전행정사사무소는 위험물 취급소 허가 신청부터 석유판매업 등록까지 전 과정을 지원합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
+    content: `<h2>주유소 위험물 취급소 허가 개요</h2><p>주유소는 위험물안전관리법상 주유취급소 또는 일반취급소로 분류됩니다. 위험물(휘발유·경유 등)을 취급하므로 설치 전에 관할 소방서에서 위험물 제조소 등의 설치 허가를 받아야 합니다. 허가 없이 위험물 취급 시설을 설치·운영하면 형사처벌을 받습니다.</p><h2>주유취급소 설치 허가 요건</h2><p>위험물안전관리법 시행규칙에 따라 주유취급소는 다음 요건을 갖춰야 합니다: 방화 담장 또는 방유제 설치, 주유 공지(너비 3m 이상), 자동차 등의 충돌로부터 주유기를 보호하는 방호벽, 소화설비(소화기·자동소화장치) 설치, 경보설비 설치.</p><h2>위험물안전관리자 선임 의무</h2><p>주유취급소는 위험물안전관리법에 따라 위험물안전관리자를 선임해야 합니다. 위험물 기능사 이상의 자격 또는 위험물안전관리 강습 이수자가 담당합니다. 안전관리자를 선임하지 않으면 영업정지 처분을 받을 수 있습니다.</p><h2>허가 신청 절차</h2><p>1단계: 부지 확보 및 건축 허가 취득. 2단계: 위험물 취급소 설치 허가 신청(관할 소방서). 3단계: 소방 시설 완공 검사. 4단계: 완공 후 소방서 완공검사 합격 후 사용 개시. 처리 기간은 통상 30~60일입니다.</p><h2>석유판매업 등록</h2><p>주유소 영업을 위해서는 위험물 허가 외에 석유 및 석유대체연료 사업법에 따른 석유판매업 등록도 필요합니다. 관할 시·군·구청 또는 한국석유관리원에 등록해야 합니다.</p><h2>정기점검과 저장탱크 정밀검사</h2><p>주유취급소는 허가를 받은 이후에도 위험물안전관리법에 따라 정기적으로 시설을 점검해야 합니다. 정기점검은 위험물안전관리자 또는 위험물탱크안전성능시험자가 수행하며, 점검 결과 기록은 일정 기간 보존해야 합니다. 지하에 매설된 저장탱크는 별도로 정밀정기검사 대상이 되어 누유 여부와 부식 상태 등을 전문기관이 확인합니다.</p><ul><li><strong>정기점검 주기:</strong> 시설 종류와 규모에 따라 점검 주기가 다르게 정해집니다.</li><li><strong>탱크 정밀검사:</strong> 지하저장탱크는 설치 후 일정 연수가 지나면 정밀검사를 받아야 하며, 이후에도 주기적으로 재검사를 받습니다.</li><li><strong>기록 보존:</strong> 점검·검사 결과는 관할 소방서 확인 요청 시 즉시 제출할 수 있도록 보관해야 합니다.</li></ul><h2>변경허가와 지위승계</h2><p>주유설비를 추가하거나 저장탱크 용량을 변경하는 등 허가 사항에 변동이 생기면 사전에 변경허가를 받아야 합니다. 또한 주유소를 양수하거나 법인을 합병하는 경우에는 지위승계 신고를 통해 종전 허가의 효력과 의무를 그대로 승계해야 하며, 승계 없이 명의만 변경하여 운영하면 무허가 영업으로 취급될 수 있습니다.</p><div class="highlight-box"><strong>주의:</strong> 폐업하는 주유소는 지하저장탱크의 위험물을 완전히 제거하고 시설물 철거 또는 원상복구 절차를 거쳐야 하며, 방치할 경우 토양오염 등 별도 환경 책임이 발생할 수 있습니다.</div><h2>위반 시 제재</h2><p>무허가 위험물 취급소 설치 시 5년 이하의 징역 또는 5천만 원 이하의 벌금이 부과됩니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 주유소 부지 선정 시 용도지역 제한이 있나요?</p><p class="faq-a">A. 네, 국토의 계획 및 이용에 관한 법률에 따라 주거지역에서의 주유소 설치는 제한됩니다. 상업지역·공업지역·준주거지역에서 허용됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 위험물안전관리자가 퇴직하면 어떻게 해야 하나요?</p><p class="faq-a">A. 위험물안전관리자가 퇴직 또는 해임된 경우 30일 이내에 후임자를 선임하고 소방서에 신고해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 저장탱크 정밀검사를 받지 않으면 어떻게 되나요?</p><p class="faq-a">A. 정밀검사 미이행이 확인되면 사용정지 등 행정처분 대상이 될 수 있습니다. 검사 주기를 놓치지 않도록 사전에 일정을 관리해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 주유소를 인수할 때 기존 허가를 그대로 사용할 수 있나요?</p><p class="faq-a">A. 지위승계 신고 절차를 거치면 종전 허가의 효력을 승계받을 수 있습니다. 신고 없이 명의 변경만 하는 경우는 인정되지 않습니다.</p></div></div><div class="cta-box"><h3>주유소 허가·등록, 전문 행정사가 처리합니다</h3><p>유선행정사사무소는 위험물 취급소 허가 신청부터 석유판매업 등록까지 전 과정을 지원합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: '109',
@@ -7580,9 +7562,9 @@ export const blogPosts: BlogPost[] = [
     excerpt: '폐기물관리법에 따른 폐기물 수집·운반·처리업 허가 요건, 기술 인력, 시설 기준, 신청 절차를 상세히 안내합니다.',
     meta_title: '폐기물 처리업 허가 요건과 절차 — 폐기물관리법 완벽 안내',
     meta_description: '폐기물 수집·운반·처리업 허가 요건·기술 인력·장비 기준·환경부 허가 절차 총정리. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
+    cover_image: '/images/blog-thumbs/waste-treatment-permit.jpg',
     created_at: '2026-06-01T10:00:00Z',
-    content: `<h2>폐기물 처리업 허가 개요</h2><p>폐기물관리법에 따라 폐기물 수집·운반업·중간 처분업·최종 처분업을 영위하려는 자는 환경부 장관 또는 시·도지사의 허가를 받아야 합니다. 무허가 폐기물 처리는 심각한 환경 오염을 유발할 수 있어 엄격히 규제되며, 위반 시 형사처벌이 뒤따릅니다.</p><h2>폐기물 처리업 종류</h2><p>폐기물관리법은 폐기물 처리업을 수집·운반업, 중간 처분업(소각·파쇄·선별 등), 최종 처분업(매립 등), 종합 처분업으로 구분합니다. 각 업종별로 허가 요건과 감독 기관이 다릅니다.</p><h2>허가 요건</h2><p>폐기물 처리업 허가를 위해서는 다음 요건이 필요합니다: 적합한 처리 시설(소각로·파쇄기·매립장 등), 기술 인력(폐기물 처리 기사 또는 관련 기술사), 장비(수집·운반 차량 등), 환경 오염 방지 계획서, 재정 능력 증빙.</p><h2>기술 인력 요건</h2><p>중간 처분업 및 최종 처분업은 폐기물 처리 기사 이상의 기술 인력을 반드시 보유해야 합니다. 수집·운반업은 기술 인력 요건이 완화되어 있으나 운반 차량 기준은 충족해야 합니다.</p><h2>사업계획서 적합통보 절차</h2><p>폐기물 처리업 허가는 최종 허가 전에 사업계획서 사전 검토 단계를 거치는 것이 일반적입니다. 신청인은 처리 대상 폐기물의 종류·양, 처리 방법, 시설 설치 계획, 소요 자금 조달 계획 등을 담은 사업계획서를 제출하고, 관할 기관은 입지 적정성과 시설·장비 계획의 타당성을 검토하여 적합 통보 여부를 결정합니다. 적합 통보를 받은 이후에야 실제 시설 설치 공사와 정식 허가 신청으로 이어질 수 있습니다.</p><ul><li><strong>입지 제한 확인:</strong> 폐기물처리시설은 용도지역·입지 기준에 따라 설치가 제한되는 지역이 있으므로 부지 확보 전 사전 확인이 중요합니다.</li><li><strong>주민 의견 수렴:</strong> 시설 종류에 따라 인근 주민 의견 수렴 절차가 요구될 수 있습니다.</li><li><strong>재정 능력 심사:</strong> 시설 설치와 사후관리에 필요한 자금 조달 계획이 함께 심사됩니다.</li></ul><h2>허가 신청 절차</h2><p>1단계: 사업 계획서 및 시설 설계 준비. 2단계: 관할 환경부(또는 시·도지사)에 허가 신청. 3단계: 서류 심사 및 현장 조사. 4단계: 허가증 교부 후 영업 개시. 처리 기간은 통상 60~90일이며, 현장 조사가 필수입니다.</p><h2>허가 후 준수사항과 인계·인수 관리</h2><p>허가를 받은 이후에도 폐기물 처리 기준을 계속 준수해야 합니다. 폐기물을 배출하는 사업장과 처리업자 간에는 폐기물의 종류·양·처리 방법을 기록하는 인계·인수 절차를 통해 폐기물의 흐름을 투명하게 관리해야 하며, 관련 기록은 일정 기간 보존해야 합니다. 처리 능력을 초과하여 폐기물을 보관하거나, 허가받은 처리 방법과 다르게 처리하는 행위는 대표적인 위반 사례로 지적됩니다.</p><div class="highlight-box"><strong>주의:</strong> 위탁받은 폐기물을 허가받지 않은 다른 업체에 재위탁하거나, 처리하지 않고 장기간 방치·보관하는 행위는 무허가 처리와 동일하게 취급되어 강한 행정처분과 형사처벌의 대상이 될 수 있습니다.</div><h2>변경허가와 지위승계</h2><p>처리 시설을 증설하거나 처리 용량을 변경하는 경우 변경허가를 받아야 하며, 사업을 양수하거나 법인이 합병되는 경우에는 지위승계 신고를 통해 종전 허가상의 권리와 의무를 함께 이전받아야 합니다.</p><h2>위반 시 제재</h2><p>무허가 폐기물 처리 시 7년 이하의 징역 또는 7천만 원 이하의 벌금이 부과됩니다. 불법 투기의 경우 가중 처벌될 수 있습니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 폐기물 수집·운반업과 중간 처분업을 동시에 운영할 수 있나요?</p><p class="faq-a">A. 네, 허가 조건을 모두 충족하면 종합 처분업으로 통합 허가를 받아 두 업종을 동시에 운영할 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 음식물류 폐기물은 일반 폐기물 처리업 허가로 처리할 수 있나요?</p><p class="faq-a">A. 아닙니다. 음식물류 폐기물은 별도의 음식물류 폐기물 처리업 허가가 필요하며, 처리 시설 기준도 다릅니다.</p></div><div class="faq-item"><p class="faq-q">Q. 사업계획서 적합통보 없이 바로 허가 신청이 가능한가요?</p><p class="faq-a">A. 일반적으로 적합통보를 받은 후 시설을 설치하고 정식 허가를 신청하는 순서로 진행됩니다. 절차를 건너뛰면 허가 심사 단계에서 반려될 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 인계·인수 기록은 얼마나 보관해야 하나요?</p><p class="faq-a">A. 관련 법령이 정한 보존 기간 동안 기록을 보관해야 하며, 정확한 기간은 폐기물 종류와 처리 방식에 따라 다르므로 관할 기관 확인이 필요합니다.</p></div></div><div class="cta-box"><h3>폐기물 처리업 허가, 전문 행정사가 처음부터 끝까지 지원합니다</h3><p>비전행정사사무소는 폐기물 처리업 허가 신청 서류 준비부터 환경부 심사 대응까지 전 과정을 안내합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
+    content: `<h2>폐기물 처리업 허가 개요</h2><p>폐기물관리법에 따라 폐기물 수집·운반업·중간 처분업·최종 처분업을 영위하려는 자는 환경부 장관 또는 시·도지사의 허가를 받아야 합니다. 무허가 폐기물 처리는 심각한 환경 오염을 유발할 수 있어 엄격히 규제되며, 위반 시 형사처벌이 뒤따릅니다.</p><h2>폐기물 처리업 종류</h2><p>폐기물관리법은 폐기물 처리업을 수집·운반업, 중간 처분업(소각·파쇄·선별 등), 최종 처분업(매립 등), 종합 처분업으로 구분합니다. 각 업종별로 허가 요건과 감독 기관이 다릅니다.</p><h2>허가 요건</h2><p>폐기물 처리업 허가를 위해서는 다음 요건이 필요합니다: 적합한 처리 시설(소각로·파쇄기·매립장 등), 기술 인력(폐기물 처리 기사 또는 관련 기술사), 장비(수집·운반 차량 등), 환경 오염 방지 계획서, 재정 능력 증빙.</p><h2>기술 인력 요건</h2><p>중간 처분업 및 최종 처분업은 폐기물 처리 기사 이상의 기술 인력을 반드시 보유해야 합니다. 수집·운반업은 기술 인력 요건이 완화되어 있으나 운반 차량 기준은 충족해야 합니다.</p><h2>사업계획서 적합통보 절차</h2><p>폐기물 처리업 허가는 최종 허가 전에 사업계획서 사전 검토 단계를 거치는 것이 일반적입니다. 신청인은 처리 대상 폐기물의 종류·양, 처리 방법, 시설 설치 계획, 소요 자금 조달 계획 등을 담은 사업계획서를 제출하고, 관할 기관은 입지 적정성과 시설·장비 계획의 타당성을 검토하여 적합 통보 여부를 결정합니다. 적합 통보를 받은 이후에야 실제 시설 설치 공사와 정식 허가 신청으로 이어질 수 있습니다.</p><ul><li><strong>입지 제한 확인:</strong> 폐기물처리시설은 용도지역·입지 기준에 따라 설치가 제한되는 지역이 있으므로 부지 확보 전 사전 확인이 중요합니다.</li><li><strong>주민 의견 수렴:</strong> 시설 종류에 따라 인근 주민 의견 수렴 절차가 요구될 수 있습니다.</li><li><strong>재정 능력 심사:</strong> 시설 설치와 사후관리에 필요한 자금 조달 계획이 함께 심사됩니다.</li></ul><h2>허가 신청 절차</h2><p>1단계: 사업 계획서 및 시설 설계 준비. 2단계: 관할 환경부(또는 시·도지사)에 허가 신청. 3단계: 서류 심사 및 현장 조사. 4단계: 허가증 교부 후 영업 개시. 처리 기간은 통상 60~90일이며, 현장 조사가 필수입니다.</p><h2>허가 후 준수사항과 인계·인수 관리</h2><p>허가를 받은 이후에도 폐기물 처리 기준을 계속 준수해야 합니다. 폐기물을 배출하는 사업장과 처리업자 간에는 폐기물의 종류·양·처리 방법을 기록하는 인계·인수 절차를 통해 폐기물의 흐름을 투명하게 관리해야 하며, 관련 기록은 일정 기간 보존해야 합니다. 처리 능력을 초과하여 폐기물을 보관하거나, 허가받은 처리 방법과 다르게 처리하는 행위는 대표적인 위반 사례로 지적됩니다.</p><div class="highlight-box"><strong>주의:</strong> 위탁받은 폐기물을 허가받지 않은 다른 업체에 재위탁하거나, 처리하지 않고 장기간 방치·보관하는 행위는 무허가 처리와 동일하게 취급되어 강한 행정처분과 형사처벌의 대상이 될 수 있습니다.</div><h2>변경허가와 지위승계</h2><p>처리 시설을 증설하거나 처리 용량을 변경하는 경우 변경허가를 받아야 하며, 사업을 양수하거나 법인이 합병되는 경우에는 지위승계 신고를 통해 종전 허가상의 권리와 의무를 함께 이전받아야 합니다.</p><h2>위반 시 제재</h2><p>무허가 폐기물 처리 시 7년 이하의 징역 또는 7천만 원 이하의 벌금이 부과됩니다. 불법 투기의 경우 가중 처벌될 수 있습니다.</p><div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2><div class="faq-item"><p class="faq-q">Q. 폐기물 수집·운반업과 중간 처분업을 동시에 운영할 수 있나요?</p><p class="faq-a">A. 네, 허가 조건을 모두 충족하면 종합 처분업으로 통합 허가를 받아 두 업종을 동시에 운영할 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 음식물류 폐기물은 일반 폐기물 처리업 허가로 처리할 수 있나요?</p><p class="faq-a">A. 아닙니다. 음식물류 폐기물은 별도의 음식물류 폐기물 처리업 허가가 필요하며, 처리 시설 기준도 다릅니다.</p></div><div class="faq-item"><p class="faq-q">Q. 사업계획서 적합통보 없이 바로 허가 신청이 가능한가요?</p><p class="faq-a">A. 일반적으로 적합통보를 받은 후 시설을 설치하고 정식 허가를 신청하는 순서로 진행됩니다. 절차를 건너뛰면 허가 심사 단계에서 반려될 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 인계·인수 기록은 얼마나 보관해야 하나요?</p><p class="faq-a">A. 관련 법령이 정한 보존 기간 동안 기록을 보관해야 하며, 정확한 기간은 폐기물 종류와 처리 방식에 따라 다르므로 관할 기관 확인이 필요합니다.</p></div></div><div class="cta-box"><h3>폐기물 처리업 허가, 전문 행정사가 처음부터 끝까지 지원합니다</h3><p>유선행정사사무소는 폐기물 처리업 허가 신청 서류 준비부터 환경부 심사 대응까지 전 과정을 안내합니다. 무료 상담 02-363-2251.</p><a href="/contact">무료 상담 신청</a></div>`
   },
   {
     id: 'food-manufacturing-permit-2026-06-03',
@@ -7591,8 +7573,8 @@ export const blogPosts: BlogPost[] = [
     title: '식품제조업 영업허가 요건과 절차 완벽 정리 ',
     category: '식품위생',
     excerpt: '식품제조업 영업허가를 받으려면 식품위생법에 따른 시설 기준, 위생교육, 품목 제조보고를 갖춰야 합니다. 단계별 절차를 안내합니다.',
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
-    meta_title: '식품제조업 영업허가 요건과 절차 완벽 정리 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/food-manufacturing-permit.jpg',
+    meta_title: '식품제조업 영업허가 요건과 절차 완벽 정리 | 유선행정사사무소',
     meta_description: '식품제조업 영업허가를 받으려면 식품위생법에 따른 시설 기준, 위생교육, 품목 제조보고를 갖춰야 합니다. 단계별 절차를 안내합니다.. 행정사 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>식품제조업이란</li><li>영업허가 대상 업종</li><li>시설 기준</li><li>필요 서류</li><li>영업허가 절차</li><li>허가 후 의무</li><li>위반 시 제재</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 식품제조업이란</h2>
@@ -7612,7 +7594,7 @@ export const blogPosts: BlogPost[] = [
 <div class="highlight-box">미허가 식품 제조는 식품위생법 제94조에 따라 <strong>10년 이하 징역 또는 1억 원 이하 벌금</strong>에 처해질 수 있습니다. 시설 기준 미달, 위해 식품 제조 등 허가 취소 사유에 해당하면 행정처분도 함께 내려질 수 있으므로 허가 이후에도 시설·위생 기준을 지속적으로 관리해야 합니다.</div>
 <h2>7. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 가정에서 만든 식품도 판매하려면 영업허가가 필요한가요?</p><p class="faq-a">A. 네, 판매를 목적으로 반복적으로 제조한다면 규모와 관계없이 식품제조·가공업 허가 또는 소규모 업종 신고가 필요합니다. 무허가 상태로 온라인 판매를 시작하면 적발 시 형사처벌 대상이 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 임차 공간에서도 영업허가를 받을 수 있나요?</p><p class="faq-a">A. 가능합니다. 건축물대장상 용도가 식품제조업을 허용하는지 확인하고, 임대차계약서와 건물주 동의서 등을 함께 준비하면 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. HACCP 인증은 모든 제조업체가 받아야 하나요?</p><p class="faq-a">A. 아닙니다. 어묵·냉동수산식품 등 식약처가 지정한 일부 품목만 의무 대상이며, 나머지는 임의 인증입니다. 다만 대형 유통망 입점 시 사실상 요구되는 경우가 많습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 품목을 추가로 생산하려면 다시 허가를 받아야 하나요?</p><p class="faq-a">A. 영업허가 자체는 유지되며, 신규 품목은 최초 제조 전 품목 제조보고만 추가로 하면 됩니다. 다만 기존 허가받은 시설로 처리할 수 없는 공정이 필요한 품목이라면 시설 변경 신고가 선행되어야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 처리 기간을 단축할 방법이 있나요?</p><p class="faq-a">A. 시설 기준과 서류를 사전에 완벽히 갖추는 것이 가장 효과적입니다. 특히 급수 시설 수질검사 성적서는 발급에 시간이 걸리므로 미리 신청해 두는 것이 좋습니다.</p></div></div>
-<div class="cta-box"><h3>식품제조업 영업허가, 시설 설계부터 허가증 수령까지</h3><p>비전행정사사무소는 식품제조업 허가부터 HACCP 인증, 품목제조보고까지 전문적으로 대행합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>식품제조업 영업허가, 시설 설계부터 허가증 수령까지</h3><p>유선행정사사무소는 식품제조업 허가부터 HACCP 인증, 품목제조보고까지 전문적으로 대행합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: 'karaoke-business-report-2026-06-03',
@@ -7621,8 +7603,8 @@ export const blogPosts: BlogPost[] = [
     title: '노래연습장(노래방) 영업신고 방법과 요건 ',
     category: '유흥·위락',
     excerpt: '노래연습장을 창업하려면 음악산업진흥법에 따라 관할 지자체에 영업신고를 해야 합니다. 시설 기준과 금지 행위를 정확히 알아두세요.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
-    meta_title: '노래연습장(노래방) 영업신고 방법과 요건 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/karaoke-business-report.jpg',
+    meta_title: '노래연습장(노래방) 영업신고 방법과 요건 | 유선행정사사무소',
     meta_description: '노래연습장을 창업하려면 음악산업진흥법에 따라 관할 지자체에 영업신고를 해야 합니다. 시설 기준과 금지 행위를 정확히 알아두세요.. 행정사 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>노래연습장업이란</li><li>신고 요건</li><li>금지 행위</li><li>필요 서류</li><li>입지 규제</li><li>청소년실 운영</li><li>신고 절차</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 노래연습장업이란</h2>
@@ -7642,7 +7624,7 @@ export const blogPosts: BlogPost[] = [
 <ol class="step-list"><li>소방 완비증명서 발급(소방서 방문, 통상 2~5일)</li><li>위생교육 이수</li><li>관할 시·군·구청 문화체육과(또는 민원실) 방문 신고</li><li>현장 확인 후 신고증 발급(1~3영업일)</li></ol>
 <h2>8. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 노래연습장과 단란주점의 차이는 무엇인가요?</p><p class="faq-a">A. 노래연습장은 음악산업법에 따른 신고 업종으로 주류 판매가 금지되며, 단란주점은 식품위생법상 허가 업종으로 주류 판매가 가능합니다. 두 업종을 혼용해 운영하면 형사처벌 대상이 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기존 상가에 방음 공사만 하면 바로 신고할 수 있나요?</p><p class="faq-a">A. 건축물대장상 용도가 문화집회시설 또는 근린생활시설이어야 신고가 수리됩니다. 용도가 맞지 않으면 건축법상 용도변경 절차를 먼저 거쳐야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 소방 완비증명서는 어떻게 발급받나요?</p><p class="faq-a">A. 관할 소방서에 완공검사를 신청하면 방음·소화설비·비상구 등을 현장 점검한 후 발급합니다. 시설 공사 완료 시점에 맞춰 사전 예약하는 것이 좋습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 영업자가 변경되면 재신고가 필요한가요?</p><p class="faq-a">A. 네, 대표자가 변경되면 기존 신고의 효력이 상실되므로 신규 신고 절차를 다시 밟아야 합니다. 인수 계약서와 신규 사업자등록증을 함께 준비합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 청소년실 없이 성인 전용으로만 운영할 수 있나요?</p><p class="faq-a">A. 가능합니다. 다만 출입구에 청소년 출입 제한 표시를 게시하고, 신분 확인 절차를 통해 미성년자 출입을 실질적으로 차단해야 합니다.</p></div></div>
-<div class="cta-box"><h3>노래연습장 영업신고, 소방 절차부터 신고증 수령까지</h3><p>비전행정사사무소는 노래연습장 영업신고, 소방 완비증명 절차 대행, 건축물 용도변경까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>노래연습장 영업신고, 소방 절차부터 신고증 수령까지</h3><p>유선행정사사무소는 노래연습장 영업신고, 소방 완비증명 절차 대행, 건축물 용도변경까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: 'real-estate-brokerage-registration-2026-06-03',
@@ -7651,8 +7633,8 @@ export const blogPosts: BlogPost[] = [
     title: '부동산 중개업 개설등록 절차와 요건 ',
     category: '부동산',
     excerpt: '공인중개사법에 따른 중개업 개설등록 요건, 필요 서류, 절차를 단계별로 정리합니다. 법인 중개사무소와 개인 중개사무소의 차이도 설명합니다.',
-    cover_image: '/images/blog-topics/general-permit.jpg',
-    meta_title: '부동산 중개업 개설등록 절차와 요건 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/real-estate-brokerage-registration.jpg',
+    meta_title: '부동산 중개업 개설등록 절차와 요건 | 유선행정사사무소',
     meta_description: '공인중개사법에 따른 중개업 개설등록 요건, 필요 서류, 절차를 단계별로 정리합니다. 법인 중개사무소와 개인 중개사무소의 차이도 설명합니다.. 행정사 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>부동산 중개업 개설등록이란</li><li>개설등록 요건</li><li>필요 서류</li><li>개설등록 절차</li><li>등록 후 의무</li><li>공동중개사무소 운영</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 부동산 중개업 개설등록이란</h2>
@@ -7671,7 +7653,7 @@ export const blogPosts: BlogPost[] = [
 <p>공인중개사법 제13조에 따라 2인 이상의 공인중개사가 함께 중개사무소를 운영하려면 각자 개설등록을 하고 공동중개업자로 등록해야 합니다. 공동중개사무소는 사무 공간을 공유하더라도 각 중개사가 독립적으로 등록·보증 요건을 충족해야 하며, 책임 소재를 명확히 하기 위한 내부 계약서 작성을 권장합니다.</p>
 <h2>7. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 공인중개사 자격증만 있으면 바로 개업할 수 있나요?</p><p class="faq-a">A. 아닙니다. 자격증 외에 실무교육 이수, 보증 설정, 사무소 확보를 모두 마쳐야 개설등록 신청이 가능합니다. 자격증 취득과 개설등록은 별개 절차입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 공유오피스에서도 등록이 가능한가요?</p><p class="faq-a">A. 관할 지자체에 따라 전용 독립 공간이 아니라는 이유로 불인정되는 사례가 있습니다. 계약 전 관할 시·군·구청에 사무소 형태를 사전 확인하는 것이 안전합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 폐업 후 재등록하려면 어떻게 해야 하나요?</p><p class="faq-a">A. 폐업 신고 후 실무교육 유효기간이 지났다면 재이수가 필요할 수 있으며, 보증 설정과 사무소 확보 등 개설등록 절차를 처음부터 다시 진행해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 법인 중개사무소의 임원이 자격증이 없어도 되나요?</p><p class="faq-a">A. 임원 전원이 자격증을 보유할 필요는 없지만, 임원 과반수 이상은 공인중개사 자격을 갖추어야 합니다. 나머지 임원은 결격사유만 없으면 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 처리 기간을 앞당길 방법이 있나요?</p><p class="faq-a">A. 실무교육 이수확인증과 보증보험증권을 미리 발급받아 신청 시 함께 제출하면 보완 요청 없이 정규 처리 기간(3~5영업일) 내에 완료될 수 있습니다.</p></div></div>
-<div class="cta-box"><h3>부동산 중개업 개설등록, 보증 가입부터 협회 등록까지</h3><p>비전행정사사무소는 부동산 중개업 개설등록부터 보증 가입, 협회 등록 대행까지 전 과정을 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>부동산 중개업 개설등록, 보증 가입부터 협회 등록까지</h3><p>유선행정사사무소는 부동산 중개업 개설등록부터 보증 가입, 협회 등록 대행까지 전 과정을 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: "academy-establishment-registration-2026-06-04",
@@ -7680,8 +7662,8 @@ export const blogPosts: BlogPost[] = [
     title: "학원 설립·운영 등록 절차 완벽 정리 ",
     category: "교육",
     excerpt: "학원법에 따른 학원 설립 등록 요건, 시설 기준, 강사 자격, 등록 절차를 기준으로 정리합니다.",
-    cover_image: '/images/blog-topics/general-license.jpg',
-    meta_title: '학원 설립·운영 등록 절차 완벽 정리 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/academy-establishment-registration.jpg',
+    meta_title: '학원 설립·운영 등록 절차 완벽 정리 | 유선행정사사무소',
     meta_description: '학원법에 따른 학원 설립 등록 요건, 시설 기준, 강사 자격, 등록 절차를 기준으로 정리합니다.. 행정사 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>학원 설립·운영 등록이란</li><li>등록 대상 및 구분</li><li>시설 기준</li><li>강사 자격 요건</li><li>필요 서류</li><li>등록 절차</li><li>등록 후 의무</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 학원 설립·운영 등록이란</h2>
@@ -7702,7 +7684,7 @@ export const blogPosts: BlogPost[] = [
 <ul><li><strong>교습비 게시:</strong> 교습비 및 기타 경비를 학원 내 잘 보이는 곳에 게시</li><li><strong>변경등록:</strong> 강사·시설·교습과정 변경 시 사전 변경등록</li><li><strong>휴원·폐원 신고:</strong> 운영 중단 시 관할 교육지원청에 신고</li><li><strong>정기 점검 대응:</strong> 교육청의 정기·수시 지도점검에 협조</li></ul>
 <h2>8. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 학습자가 9명 이하이면 등록하지 않아도 되나요?</p><p class="faq-a">A. 동일 시간대 학습 인원이 9명 이하이면 학원법상 등록 대상에서 제외될 수 있으나, 실제 운영 방식(반복 교습 여부 등)에 따라 판단이 달라지므로 관할 교육지원청 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 온라인 강의만 제공하는 경우에도 등록이 필요한가요?</p><p class="faq-a">A. 오프라인 학습 장소 없이 순수 온라인으로만 교습하는 경우 별도 기준이 적용될 수 있습니다. 오프라인 공간을 함께 운영한다면 학원 등록 대상입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기존 학원을 인수하면 등록을 새로 해야 하나요?</p><p class="faq-a">A. 네, 대표자가 변경되면 기존 등록의 효력이 상실되므로 신규 등록 절차를 다시 밟아야 합니다. 인수 계약서와 기존 등록증을 함께 준비하면 절차가 수월합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 여러 교습 계열을 한 학원에서 함께 운영할 수 있나요?</p><p class="faq-a">A. 가능합니다. 다만 계열별로 시설 기준과 정원 산정이 다를 수 있으므로, 등록 신청 시 계열을 모두 명시하고 각 기준을 충족해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 처리 기간을 단축할 수 있나요?</p><p class="faq-a">A. 시설 기준과 강사 서류를 사전에 완비하는 것이 가장 효과적입니다. 소방시설 완비증명서는 발급까지 시간이 걸리므로 미리 신청해 두는 것이 좋습니다.</p></div></div>
-<div class="cta-box"><h3>학원 설립·운영 등록, 시설 점검부터 등록증 수령까지</h3><p>비전행정사사무소는 학원 계열 판단부터 시설 기준 점검, 강사 자격 확인, 교육지원청 등록까지 전 과정을 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>학원 설립·운영 등록, 시설 점검부터 등록증 수령까지</h3><p>유선행정사사무소는 학원 계열 판단부터 시설 기준 점검, 강사 자격 확인, 교육지원청 등록까지 전 과정을 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: "accommodation-business-report-2026-06-04",
@@ -7711,8 +7693,8 @@ export const blogPosts: BlogPost[] = [
     title: "숙박업 신고 절차와 시설 기준 총정리 ",
     category: "공중위생",
     excerpt: "공중위생관리법에 따른 숙박업 신고 요건, 시설 기준, 위생관리, 변경 신고 방법을 안내합니다.",
-    cover_image: '/images/blog-topics/urban-guesthouse.jpg',
-    meta_title: '숙박업 신고 절차와 시설 기준 총정리 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/accommodation-business-report.jpg',
+    meta_title: '숙박업 신고 절차와 시설 기준 총정리 | 유선행정사사무소',
     meta_description: '공중위생관리법에 따른 숙박업 신고 요건, 시설 기준, 위생관리, 변경 신고 방법을 안내합니다.. 행정사 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>숙박업 신고란</li><li>숙박업 종류</li><li>시설 기준</li><li>필요 서류</li><li>신고 절차</li><li>위생관리 의무</li><li>변경신고</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 숙박업 신고란</h2>
@@ -7734,7 +7716,7 @@ export const blogPosts: BlogPost[] = [
 <p>대표자, 영업소 명칭, 객실 수, 시설 구조 등이 변경되면 변경 사유 발생일로부터 일정 기간 내 관할 시·군·구청에 변경신고를 해야 합니다. 변경신고 없이 무단으로 객실을 증축하거나 구조를 바꾸면 신고 사항 위반으로 제재 대상이 됩니다.</p>
 <h2>8. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 생활숙박업과 일반숙박업의 차이는 무엇인가요?</p><p class="faq-a">A. 생활숙박업은 취사 시설을 갖춘 장기 체류형 숙박시설로, 취사 설비 유무와 이용 형태에서 일반숙박업과 구분됩니다. 취사 시설을 설치할 계획이라면 생활숙박업 기준을 확인해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 오피스텔에서도 숙박업 신고가 가능한가요?</p><p class="faq-a">A. 건축물대장상 용도가 숙박시설로 되어 있지 않으면 원칙적으로 불가능하며, 건축법상 용도변경 절차를 먼저 거쳐야 합니다. 주거용으로 분류된 오피스텔은 제한이 있으므로 사전 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 외국인 대상 민박을 하려면 어떤 신고가 필요한가요?</p><p class="faq-a">A. 외국인관광 도시민박업은 관광진흥법에 따른 별도 지정으로, 공중위생관리법상 숙박업 신고와는 요건이 다릅니다. 내국인 대상 영업 계획이 있다면 별도 검토가 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 객실 수를 늘리려면 어떻게 해야 하나요?</p><p class="faq-a">A. 객실 수 변경은 시설 변경신고 대상입니다. 소방시설·주차장 기준을 다시 충족하는지 확인한 후 관할 시·군·구청에 변경신고를 해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 처리 기간을 단축할 방법이 있나요?</p><p class="faq-a">A. 소방시설 완비증명서 발급에 시간이 걸리므로 시설 공사 완료 시점에 맞춰 미리 소방서 점검을 예약해 두면 전체 처리 기간을 단축할 수 있습니다.</p></div></div>
-<div class="cta-box"><h3>숙박업 신고, 시설 점검부터 신고증 수령까지</h3><p>비전행정사사무소는 숙박업 종류 판단부터 시설 기준 점검, 소방 완비증명 대행, 신고증 발급까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>숙박업 신고, 시설 점검부터 신고증 수령까지</h3><p>유선행정사사무소는 숙박업 종류 판단부터 시설 기준 점검, 소방 완비증명 대행, 신고증 발급까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: "game-providing-business-permit-2026-06-04",
@@ -7743,8 +7725,8 @@ export const blogPosts: BlogPost[] = [
     title: "게임제공업 허가 요건과 신청 방법 ",
     category: "게임·문화",
     excerpt: "게임산업법에 따른 게임제공업 허가 요건, 연령 제한 의무, 허가 신청 절차를 안내합니다.",
-    cover_image: '/images/blog-topics/game-business.jpg',
-    meta_title: '게임제공업 허가 요건과 신청 방법 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/game-providing-business-permit.jpg',
+    meta_title: '게임제공업 허가 요건과 신청 방법 | 유선행정사사무소',
     meta_description: '게임산업법에 따른 게임제공업 허가 요건, 연령 제한 의무, 허가 신청 절차를 안내합니다. 행정사 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>게임제공업이란</li><li>허가 종류 및 요건</li><li>연령 제한 의무</li><li>신청 서류 목록</li><li>허가 처리 기간</li><li>허가 후 의무</li><li>자주 묻는 질문</li></ol></div>
 <h2>1. 게임제공업이란</h2>
@@ -7762,7 +7744,7 @@ export const blogPosts: BlogPost[] = [
 <ul><li><strong>등급 미분류 게임물 설치 금지:</strong> 등급 분류를 받지 않은 게임물 비치·운영 금지</li><li><strong>영업시간 준수:</strong> 청소년게임제공업의 심야 영업시간 제한 준수</li><li><strong>시설 변경 신고:</strong> 게임기 대수·업종 변경 시 사전 신고</li><li><strong>소방·안전 점검:</strong> 정기 소방 점검 및 결과 기록 보관</li></ul>
 <h2>7. 자주 묻는 질문</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 기존 PC방에서 복합유통게임제공업으로 변경하려면?</p><p class="faq-a">A. 변경 허가 신청이 필요하며, 식품접객업 영업 신고를 별도로 진행해야 합니다. 기존 신고 업종의 효력이 자동으로 이어지지 않으므로 두 절차를 함께 준비해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 게임물 등급 분류는 어디에서 받나요?</p><p class="faq-a">A. 게임물관리위원회에서 등급 분류를 담당합니다. 등급별로 이용 가능 연령이 정해지므로, 취급할 게임물을 확정한 후 등급 분류부터 먼저 신청하는 것이 좋습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 학교 인근에서도 게임제공업 영업이 가능한가요?</p><p class="faq-a">A. 학교환경위생정화구역 내에서는 원칙적으로 청소년게임제공업 등 일부 업종의 설치가 제한되며, 교육환경보호위원회 심의를 거쳐 예외적으로 허용될 수 있습니다. 계약 전 사전 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 영업자가 변경되면 재신고가 필요한가요?</p><p class="faq-a">A. 네, 대표자가 변경되면 기존 신고·허가의 효력이 상실되므로 신규 절차를 다시 밟아야 합니다. 인수 계약서와 기존 신고증(허가증)을 함께 준비합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 게임기 대수를 늘리려면 어떻게 해야 하나요?</p><p class="faq-a">A. 게임기 대수 변경은 시설 변경 신고 대상입니다. 소방시설 기준을 다시 충족하는지 확인한 후 관할 구청에 변경 신고를 해야 합니다.</p></div></div>
-<div class="cta-box"><h3>게임제공업 허가·신고, 업종 판단부터 허가증 수령까지</h3><p>비전행정사사무소는 게임제공업 업종 판단, 등급 분류 연계, 허가·신고 서류 준비부터 완료까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
+<div class="cta-box"><h3>게임제공업 허가·신고, 업종 판단부터 허가증 수령까지</h3><p>유선행정사사무소는 게임제공업 업종 판단, 등급 분류 연계, 허가·신고 서류 준비부터 완료까지 원스톱으로 지원합니다.<br>초기 상담 무료 — 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact">무료상담 신청하기</a></div>`
   },
   {
     id: "karaoke-business-facility-report-2026-06-05",
@@ -7771,8 +7753,8 @@ export const blogPosts: BlogPost[] = [
     title: "노래연습장업 영업 신고 절차와 시설 기준 완벽 가이드 ",
     category: "문화·여가",
     excerpt: "노래연습장업 영업 신고에 필요한 시설 기준, 방음 요건, 청소년 출입 제한, 신고 절차 전반을 행정사가 단계별로 정리합니다.",
-    cover_image: '/images/blog-topics/general-license.jpg',
-    meta_title: '노래연습장업 영업 신고 절차와 시설 기준 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/karaoke-business-facility-report.jpg',
+    meta_title: '노래연습장업 영업 신고 절차와 시설 기준 | 유선행정사사무소',
     meta_description: '노래연습장업 영업 신고 시설 기준·방음 요건·청소년 출입 제한·구비 서류를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>노래연습장업이란?</li><li>근거 법령</li><li>영업 신고 요건</li><li>시설 기준 상세</li><li>청소년 보호 의무</li><li>신고 절차 및 구비 서류</li><li>처리 기간 및 수수료</li><li>위반 시 제재</li><li>FAQ</li></ol></div>
 <h2>1. 노래연습장업이란?</h2>
@@ -7794,10 +7776,10 @@ export const blogPosts: BlogPost[] = [
 <h2>7. 처리 기간 및 수수료</h2>
 <p>서류 요건 충족 시 통상 <strong>7~10 영업일</strong> 이내에 신고증이 발급됩니다. 소방 완공 검사를 별도로 받아야 하는 경우 추가 1~2주가 소요될 수 있습니다. 신고 수수료는 2~5만 원(지자체별 상이)입니다.</p>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>신고 없이 영업하면 <strong>음악산업 진흥에 관한 법률 제34조</strong>에 따라 <strong>1년 이하 징역 또는 1,000만 원 이하 벌금</strong>이 부과됩니다. 비전행정사사무소는 <a href="/services/sports-club">여가·문화 시설 인허가</a> 경험을 바탕으로 신고서 작성부터 소방 검사 동행까지 원스톱으로 지원합니다. <a href="/contact">무료 상담</a>을 통해 사전에 서류를 점검해 드립니다.</p>
+<p>신고 없이 영업하면 <strong>음악산업 진흥에 관한 법률 제34조</strong>에 따라 <strong>1년 이하 징역 또는 1,000만 원 이하 벌금</strong>이 부과됩니다. 유선행정사사무소는 <a href="/services/sports-club">여가·문화 시설 인허가</a> 경험을 바탕으로 신고서 작성부터 소방 검사 동행까지 원스톱으로 지원합니다. <a href="/contact">무료 상담</a>을 통해 사전에 서류를 점검해 드립니다.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 노래연습장업과 주점 신고는 어떻게 다른가요?</p><p class="faq-a">A. 노래연습장업은 음악산업 진흥에 관한 법률에 따른 신고이며, 주류 제공 시 식품위생법상 단란주점 허가가 별도로 필요합니다. 두 신고를 혼용하면 무허가 영업으로 처벌받을 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 아파트 상가(1층)에서 운영할 수 있나요?</p><p class="faq-a">A. 건축물 대장상 용도가 근린생활시설이어야 합니다. 주거용으로 분류된 경우 건축법에 따른 용도 변경 절차를 먼저 거쳐야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 방음 시설 기준은 어떻게 확인하나요?</p><p class="faq-a">A. 인접 세대 소음이 45dB 이하가 되어야 합니다. 전문 방음 시공업체가 시공 후 공인 시험기관에서 측정 성적서를 발급받아 제출합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기존 영업장 인수 시 재신고가 필요한가요?</p><p class="faq-a">A. 네, 대표자가 변경되면 기존 신고는 효력을 잃으므로 재신고해야 합니다. 인수 계약서·신규 사업자등록증·기존 신고증을 함께 제출합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 후 영업장 이전 시 절차는?</p><p class="faq-a">A. 이전 장소에서 폐업 신고 후 새 소재지에서 처음과 동일한 신고 절차를 밟아야 합니다. 이전 장소도 동일한 시설 기준을 충족해야 합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 노래연습장업 영업 신고 전 과정을 대행합니다. 시설 기준 검토부터 신고서 제출·완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 노래연습장업 영업 신고 전 과정을 대행합니다. 시설 기준 검토부터 신고서 제출·완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "medical-device-import-permit-2026-06-05",
@@ -7806,8 +7788,8 @@ export const blogPosts: BlogPost[] = [
     title: "의료기기 수입업 허가 요건과 신청 절차 완벽 가이드 ",
     category: "의료·보건",
     excerpt: "의료기기 수입업 허가를 위한 품질관리 요건, 식약처 신청 절차, GMP 인증, 품질책임자 자격을 행정사가 안내합니다.",
-    cover_image: '/images/blog-topics/pharmaceutical.jpg',
-    meta_title: '의료기기 수입업 허가 요건과 신청 절차 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/medical-device-import-permit.jpg',
+    meta_title: '의료기기 수입업 허가 요건과 신청 절차 | 유선행정사사무소',
     meta_description: '의료기기 수입업 허가 품질관리 요건·식약처 신청·GMP 인증·품질책임자 자격을 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>의료기기 수입업이란?</li><li>근거 법령</li><li>허가 요건</li><li>품질책임자 자격</li><li>신청 서류</li><li>처리 기간 및 비용</li><li>GMP 인증 여부</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 의료기기 수입업이란?</h2>
@@ -7829,10 +7811,10 @@ export const blogPosts: BlogPost[] = [
 <h2>7. GMP 인증 여부</h2>
 <p>수입 의료기기에 대한 GMP는 <strong>제조국의 GMP 인증서</strong>로 대체할 수 있습니다. ISO 13485 인증서(의료기기 품질경영시스템)가 있으면 서류 심사 과정이 간소화됩니다. 제조국 GMP 인증이 없는 경우 국내에서 자체 GMP 적합 선언을 작성·제출해야 합니다.</p>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>허가 없이 수입업을 영위하면 <strong>의료기기법 제52조</strong>에 따라 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>이 부과됩니다. 허가 후에도 품질관리 기준 위반이 확인되면 허가 취소 처분을 받을 수 있습니다. 비전행정사사무소는 <a href="/contact">식약처 허가 전 과정 상담</a>부터 서류 대행까지 지원합니다. <a href="/quote">무료 견적</a>을 통해 필요한 사항을 확인해 드립니다.</p>
+<p>허가 없이 수입업을 영위하면 <strong>의료기기법 제52조</strong>에 따라 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>이 부과됩니다. 허가 후에도 품질관리 기준 위반이 확인되면 허가 취소 처분을 받을 수 있습니다. 유선행정사사무소는 <a href="/contact">식약처 허가 전 과정 상담</a>부터 서류 대행까지 지원합니다. <a href="/quote">무료 견적</a>을 통해 필요한 사항을 확인해 드립니다.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 수입업 허가와 수입 품목 허가는 다른가요?</p><p class="faq-a">A. 네, 다릅니다. 수입업 허가는 사업체에 부여되며, 수입 품목 허가는 개별 제품에 대한 허가입니다. 두 가지를 모두 취득해야 의료기기를 합법적으로 수입·판매할 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 창고 시설은 어느 정도 규모가 필요한가요?</p><p class="faq-a">A. 법정 최소 면적 기준은 없으나, 온도·습도 관리가 가능한 환경이어야 합니다. 의료기기 등급(1~4등급)에 따라 보관 기준이 달라지므로, 취급 등급에 맞는 시설을 갖추어야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 외국인이 대표자인 경우 허가가 가능한가요?</p><p class="faq-a">A. 국내에 설립된 법인이라면 외국인 대표도 허가 신청이 가능합니다. 단, 품질책임자는 국내 거주자이어야 하며, 관련 자격 기준을 충족해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기존 수입업체로부터 허가를 양수할 수 있나요?</p><p class="faq-a">A. 의료기기 수입업 허가는 원칙적으로 양도·양수가 불가하며, 신규 신청이 필요합니다. 단, 법인 합병 등 특수한 경우에는 별도 절차를 통해 승계가 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 처리 기간을 단축하는 방법이 있나요?</p><p class="faq-a">A. 서류를 완벽히 갖추는 것이 가장 효과적입니다. 특히 품질책임자 자격 서류와 GMP 인증서 번역·공증에 시간이 걸리므로 사전에 준비해두면 보완 요청 없이 정규 기간 내 처리됩니다. 행정사를 통한 사전 검토를 권장합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 의료기기 수입업 허가 신청 전 과정을 대행합니다. 서류 검토부터 식약처 제출·완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 의료기기 수입업 허가 신청 전 과정을 대행합니다. 서류 검토부터 식약처 제출·완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "online-shopping-mall-notification-2026-06-05",
@@ -7841,8 +7823,8 @@ export const blogPosts: BlogPost[] = [
     title: "통신판매업 신고 방법과 면제 기준 완벽 가이드 ",
     category: "전자상거래",
     excerpt: "온라인 쇼핑몰 운영을 위한 통신판매업 신고 절차, 면제 요건, 쿠팡·네이버 스마트스토어 적용 여부를 행정사가 정리합니다.",
-    cover_image: '/images/blog-topics/general-license.jpg',
-    meta_title: '통신판매업 신고 방법과 면제 기준 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/online-shopping-mall-notification.jpg',
+    meta_title: '통신판매업 신고 방법과 면제 기준 | 유선행정사사무소',
     meta_description: '온라인 쇼핑몰 통신판매업 신고 절차·면제 요건·플랫폼 적용 여부를 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>통신판매업 신고 대상</li><li>근거 법령</li><li>신고 면제 요건</li><li>신고 방법 및 절차</li><li>구비 서류</li><li>처리 기간 및 수수료</li><li>위반 시 제재</li><li>플랫폼 입점자 적용 여부</li></ol></div>
 <h2>1. 통신판매업 신고 대상</h2>
@@ -7866,7 +7848,7 @@ export const blogPosts: BlogPost[] = [
 <p>쿠팡, 네이버 스마트스토어, 11번가, 카카오스토어 등 오픈마켓 입점 판매자도 통신판매업 신고 의무가 있습니다. 플랫폼 사업자 자체가 신고를 하더라도 입점 판매자의 신고 의무는 별도로 존재합니다. 다만 <strong>통신판매중개업자</strong>(플랫폼)에 입점한 경우, 거래 실적이 50회 미만이면 면제 대상입니다. <a href="/contact">자세한 적용 여부는 무료 상담</a>으로 확인하시기 바랍니다.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 개인 간 중고 거래도 통신판매업 신고가 필요한가요?</p><p class="faq-a">A. 단순 1회성 개인 간 거래는 대상이 아닙니다. 그러나 영리 목적으로 반복적으로 거래하는 경우 사업자등록 및 통신판매업 신고 의무가 발생합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 에스크로 가입은 필수인가요?</p><p class="faq-a">A. 신용카드 결제를 주요 수단으로 제공하는 경우 에스크로 가입 대신 소비자피해보상보험에 가입하는 방법도 있습니다. 결제 수단에 따라 요건이 달라지므로 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 통신판매업 신고번호는 어디에 표시해야 하나요?</p><p class="faq-a">A. 홈페이지 하단, 광고물, 영수증 등 소비자가 쉽게 알아볼 수 있는 곳에 표시해야 합니다. 네이버 스마트스토어 등 플랫폼 입점 시에도 사업자 정보란에 기재합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 해외 직구 대행 서비스도 신고가 필요한가요?</p><p class="faq-a">A. 네, 해외 직구 대행은 통신판매업에 해당합니다. 구매 대행·배송 대행 모두 전자상거래법 적용 대상이며, 거래 건수 기준을 초과하면 신고 의무가 발생합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 이미 신고한 통신판매업을 폐업하려면?</p><p class="faq-a">A. 사업장 소재지 관할 시·군·구청 또는 정부24에서 통신판매업 폐업 신고를 진행하면 됩니다. 사업자등록 폐업과는 별도 절차이므로 함께 처리하는 것이 편리합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 통신판매업 신고 절차를 신속하게 대행합니다. 에스크로 가입부터 신고증 발급까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 통신판매업 신고 절차를 신속하게 대행합니다. 에스크로 가입부터 신고증 발급까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "building-use-change-permit-2026-06-06",
@@ -7875,8 +7857,8 @@ export const blogPosts: BlogPost[] = [
     title: "건축물 용도 변경 허가 완벽 가이드 ",
     category: "건축·부동산",
     excerpt: "건축물 용도 변경 허가·신고 절차, 구비 서류, 주의사항, 처리 기간을 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/building-usage.jpg',
-    meta_title: '건축물 용도 변경 허가 완벽 가이드 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/building-use-change-permit.jpg',
+    meta_title: '건축물 용도 변경 허가 완벽 가이드 | 유선행정사사무소',
     meta_description: '건축물 용도 변경 허가·신고 절차·구비 서류·주의사항을 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>건축물 용도 변경이란?</li><li>근거 법령</li><li>용도 변경 유형</li><li>허가·신고·기재 변경 구분</li><li>구비 서류</li><li>처리 기간 및 비용</li><li>주요 실패 사례 및 주의사항</li><li>행정사 활용법</li></ol></div>
 <h2>1. 건축물 용도 변경이란?</h2>
@@ -7897,10 +7879,10 @@ export const blogPosts: BlogPost[] = [
 <p>용도 변경 신청 전 반드시 다음 사항을 확인하세요.</p>
 <ul><li>해당 지역 <strong>용도지역·용도지구</strong> 확인(도시계획법 규제)</li><li>건축물 노후도·구조 안전 검토(내진 성능 미흡 시 보강 공사 필요)</li><li>소방 기준 충족 여부(스프링클러·피난 시설 추가 설치 필요 여부)</li><li>주차장 기준 충족 여부(용도 변경 후 주차 대수 부족 문제)</li><li>임차인 동의 여부(건물주와 임차인 간 계약 사항 확인)</li></ul>
 <h2>8. 행정사 활용법</h2>
-<p>건축물 용도 변경은 건축법·소방법·주차장법 등 여러 법령이 동시에 적용되어 사전 검토 없이 진행하면 수차례 보완 요청과 공사 재시공이 발생합니다. 비전행정사사무소는 <a href="/services/building-usage">건축물 용도 변경 전문 서비스</a>를 통해 사전 법령 검토부터 허가 완료까지 원스톱으로 지원합니다. <a href="/contact">무료 상담</a>을 통해 변경 가능 여부를 먼저 확인하세요.</p>
+<p>건축물 용도 변경은 건축법·소방법·주차장법 등 여러 법령이 동시에 적용되어 사전 검토 없이 진행하면 수차례 보완 요청과 공사 재시공이 발생합니다. 유선행정사사무소는 <a href="/services/building-usage">건축물 용도 변경 전문 서비스</a>를 통해 사전 법령 검토부터 허가 완료까지 원스톱으로 지원합니다. <a href="/contact">무료 상담</a>을 통해 변경 가능 여부를 먼저 확인하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 건물 소유자 동의 없이 용도 변경이 가능한가요?</p><p class="faq-a">A. 불가합니다. 용도 변경 신청은 건물 소유자가 하거나, 소유자의 동의서를 첨부한 임차인이 신청해야 합니다. 소유자 동의 없는 무단 용도 변경은 원상복구 명령의 대상이 됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 주거용 다세대 주택을 근린생활시설로 변경할 수 있나요?</p><p class="faq-a">A. 가능하나, 해당 지역 용도지역 확인이 선행되어야 합니다. 주거지역에서는 근린생활시설 중 일부만 허용됩니다. 또한 건축 구조 변경이 필요한 경우 상당한 공사비가 수반됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 용도 변경 후 취득세나 재산세가 달라지나요?</p><p class="faq-a">A. 네, 건축물 용도에 따라 취득세율과 재산세율이 달라집니다. 특히 상업용 건물은 주거용 건물보다 세율이 높을 수 있으므로, 세금 영향을 사전에 검토하는 것이 좋습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 무허가 용도 변경의 처벌은?</p><p class="faq-a">A. 건축법 제111조에 따라 3년 이하 징역 또는 5억 원 이하 벌금이 부과됩니다. 또한 위반 사항이 시정되지 않으면 건축물 강제 철거 명령도 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 대수선을 수반하는 용도 변경 시 별도 허가가 필요한가요?</p><p class="faq-a">A. 대수선이 수반되면 용도 변경 허가와 함께 대수선 허가(또는 신고)를 병행 신청해야 합니다. 건축사와 행정사의 협력이 필요한 복합 절차입니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 건축물 용도 변경 허가 전 과정을 대행합니다. 법령 검토부터 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/building-usage">건축물 용도 변경 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 건축물 용도 변경 허가 전 과정을 대행합니다. 법령 검토부터 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/building-usage">건축물 용도 변경 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "fire-safety-contractor-registration-2026-06-06",
@@ -7909,8 +7891,8 @@ export const blogPosts: BlogPost[] = [
     title: "소방시설공사업 등록 요건과 절차 완벽 가이드 ",
     category: "소방·안전",
     excerpt: "소방시설공사업 등록을 위한 기술 인력 기준, 자본금 요건, 신청 절차, 등록 후 의무를 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/general-license.jpg',
-    meta_title: '소방시설공사업 등록 요건과 절차 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/fire-safety-contractor-registration.jpg',
+    meta_title: '소방시설공사업 등록 요건과 절차 | 유선행정사사무소',
     meta_description: '소방시설공사업 등록 기술 인력·자본금·신청 절차·등록 후 의무를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>소방시설공사업이란?</li><li>근거 법령</li><li>등록 요건</li><li>기술 인력 기준</li><li>신청 서류</li><li>처리 기간 및 수수료</li><li>등록 후 의무 사항</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 소방시설공사업이란?</h2>
@@ -7931,10 +7913,10 @@ export const blogPosts: BlogPost[] = [
 <p>등록 이후에도 다음 의무를 이행해야 합니다.</p>
 <ul><li>기술 인력 상시 유지 — 이탈 시 6개월 이내 보충 의무</li><li>연간 소방시설공사업 실적 보고</li><li>하자보수보증 가입 유지</li><li>공사 완료 후 감리 및 검사 수검 의무</li></ul>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>등록 없이 소방시설공사를 시행하면 <strong>소방시설공사업법 제40조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 비전행정사사무소는 소방시설공사업 등록 서류 준비부터 등록 완료까지 <a href="/contact">전 과정을 대행</a>합니다. <a href="/quote">무료 견적</a>을 통해 필요 사항을 확인하세요.</p>
+<p>등록 없이 소방시설공사를 시행하면 <strong>소방시설공사업법 제40조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 유선행정사사무소는 소방시설공사업 등록 서류 준비부터 등록 완료까지 <a href="/contact">전 과정을 대행</a>합니다. <a href="/quote">무료 견적</a>을 통해 필요 사항을 확인하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 전기공사업과 소방시설공사업을 동시에 등록할 수 있나요?</p><p class="faq-a">A. 가능합니다. 다만 각 업종별 기술 인력·자본금·사무실 기준을 별도로 충족해야 합니다. 겸직이 금지된 기술자는 각 업종에 별도로 배치해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기술자가 퇴사하면 등록이 취소되나요?</p><p class="faq-a">A. 즉시 취소되지는 않으나, 6개월 이내에 동등 자격자를 보충해야 합니다. 보충하지 못하면 영업 정지 또는 등록 취소 처분을 받습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 개인사업자로 등록이 가능한가요?</p><p class="faq-a">A. 가능합니다. 개인은 자산 평가액 1억 원 이상을 충족하면 됩니다. 다만 입찰·공공 발주 시 법인이 유리한 경우가 많아 법인 설립을 고려하는 경우가 많습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 하도급으로 소방 공사를 시행하려면 별도 등록이 필요한가요?</p><p class="faq-a">A. 네, 소방시설공사를 하도급으로 수행하더라도 소방시설공사업 등록이 필요합니다. 미등록 하도급 시공은 원도급업체도 제재를 받을 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 후 영업 지역 제한이 있나요?</p><p class="faq-a">A. 소방시설공사업은 전국 영업이 가능합니다. 단, 등록 관청(소방청 또는 시·도 소방본부)에 등록한 후 타 지역에서 공사를 수행할 때는 해당 소방관서에 착공 신고를 해야 합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 소방시설공사업 등록 전 과정을 대행합니다. 기술 인력 검토부터 등록증 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 소방시설공사업 등록 전 과정을 대행합니다. 기술 인력 검토부터 등록증 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "rnd-service-business-registration-2026-06-06",
@@ -7943,8 +7925,8 @@ export const blogPosts: BlogPost[] = [
     title: "R&D 서비스업 등록과 기업 부설 연구소 인정 완벽 가이드 ",
     category: "연구·개발",
     excerpt: "R&D 서비스업 등록 요건, 기업 부설 연구소 인정 절차, 세제 혜택, 연구 인력 기준을 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/research-lab.jpg',
-    meta_title: 'R&D 서비스업 등록과 기업 부설 연구소 인정 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/rnd-service-business-registration.jpg',
+    meta_title: 'R&D 서비스업 등록과 기업 부설 연구소 인정 | 유선행정사사무소',
     meta_description: 'R&D 서비스업 등록·연구소 인정 절차·세제 혜택·연구 인력 기준을 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>R&D 서비스업이란?</li><li>근거 법령</li><li>등록 대상 및 요건</li><li>연구 인력 기준</li><li>등록 신청 방법 및 서류</li><li>처리 기간 및 혜택</li><li>세제 혜택 및 지원금</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. R&D 서비스업이란?</h2>
@@ -7966,10 +7948,10 @@ export const blogPosts: BlogPost[] = [
 <h2>7. 세제 혜택 및 지원금</h2>
 <p>기업 부설 연구소 인정을 받으면 <strong>조세특례제한법 제10조</strong>에 따라 R&D 비용의 <strong>25~50%</strong>를 세액 공제받을 수 있습니다(중소기업 기준). 또한 연구 전담 인력의 인건비 일부를 R&D 비용으로 처리할 수 있어 실질적인 세금 절감 효과가 큽니다. 정부 R&D 과제에 선정되면 수천만 원~수억 원의 지원금도 받을 수 있습니다.</p>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>허위 인력·시설로 인정을 받으면 인정 취소 및 세제 혜택 환수 처분을 받습니다. 비전행정사사무소는 <a href="/services/research-lab">기업 부설 연구소 인정 서비스</a>를 통해 KOITA 신청부터 인정서 수령까지 대행합니다. <a href="/contact">무료 상담</a>을 먼저 신청하세요.</p>
+<p>허위 인력·시설로 인정을 받으면 인정 취소 및 세제 혜택 환수 처분을 받습니다. 유선행정사사무소는 <a href="/services/research-lab">기업 부설 연구소 인정 서비스</a>를 통해 KOITA 신청부터 인정서 수령까지 대행합니다. <a href="/contact">무료 상담</a>을 먼저 신청하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 창업 초기 기업도 연구소 인정이 가능한가요?</p><p class="faq-a">A. 가능합니다. 소기업 기준 연구 전담 인력 1인 이상이면 신청할 수 있습니다. 창업 초기 R&D 세액 공제 혜택을 빨리 받으려면 설립 초기에 인정을 신청하는 것이 유리합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 연구소와 전담 부서의 차이는?</p><p class="faq-a">A. 기업 부설 연구소는 독립된 연구 공간과 3인 이상 인력이 필요하며, 연구 전담 부서는 1인 이상으로 신청 가능합니다. 세제 혜택은 동일하게 적용됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 연구 인력이 퇴사하면 어떻게 되나요?</p><p class="faq-a">A. 인정 기준 인력 수를 유지해야 합니다. 퇴사 시 60일 이내에 동등 자격자를 보충하고 KOITA에 변경 신고해야 합니다. 미신고 시 인정 취소 처분을 받을 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 연구 공간은 별도 사무실이어야 하나요?</p><p class="faq-a">A. 연구 전담 공간임을 명확히 구분할 수 있으면 사무실 내 일부 공간도 인정됩니다. 도면에 연구 공간 경계를 명확히 표시해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. R&D 비용 세액 공제를 소급 적용할 수 있나요?</p><p class="faq-a">A. 인정 전 발생한 R&D 비용은 세액 공제 대상이 아닙니다. 따라서 가능한 한 빨리 인정을 받아 공제 혜택을 누리는 것이 중요합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 기업 부설 연구소 인정 및 R&D 서비스업 등록을 대행합니다. KOITA 신청부터 인정서 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/research-lab">연구소 인정 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 기업 부설 연구소 인정 및 R&D 서비스업 등록을 대행합니다. KOITA 신청부터 인정서 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/research-lab">연구소 인정 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "real-estate-development-registration-2026-06-07",
@@ -7978,8 +7960,8 @@ export const blogPosts: BlogPost[] = [
     title: "부동산개발업 등록 요건과 절차 완벽 가이드 ",
     category: "건축·부동산",
     excerpt: "부동산개발업 등록을 위한 자본금 요건, 전문 인력 기준, 신청 절차, 등록 후 의무를 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/building-usage.jpg',
-    meta_title: '부동산개발업 등록 요건과 절차 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/real-estate-development-registration.jpg',
+    meta_title: '부동산개발업 등록 요건과 절차 | 유선행정사사무소',
     meta_description: '부동산개발업 등록 자본금·전문 인력·신청 절차·등록 후 의무를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>부동산개발업이란?</li><li>근거 법령</li><li>등록 요건</li><li>전문 인력 기준</li><li>신청 서류</li><li>처리 기간 및 수수료</li><li>등록 후 의무 사항</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 부동산개발업이란?</h2>
@@ -8000,10 +7982,10 @@ export const blogPosts: BlogPost[] = [
 <p>등록 이후에도 아래 의무를 이행해야 합니다.</p>
 <ul><li>전문 인력 상시 보유 — 이탈 시 3개월 이내 보충</li><li>매년 부동산개발업 실적 보고서 제출</li><li>분양 보증 보험 가입(해당 사업 시)</li><li>부동산 개발 사업 관련 광고 시 등록번호 표시</li></ul>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>등록 없이 부동산개발업을 영위하면 <strong>부동산개발업법 제42조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 비전행정사사무소는 <a href="/services/building-usage">부동산 관련 인허가 서비스</a>를 통해 등록 서류 준비부터 등록증 수령까지 대행합니다. <a href="/contact">무료 상담</a>을 먼저 신청하세요.</p>
+<p>등록 없이 부동산개발업을 영위하면 <strong>부동산개발업법 제42조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 유선행정사사무소는 <a href="/services/building-usage">부동산 관련 인허가 서비스</a>를 통해 등록 서류 준비부터 등록증 수령까지 대행합니다. <a href="/contact">무료 상담</a>을 먼저 신청하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 소규모 개발(단독주택 1채)도 등록이 필요한가요?</p><p class="faq-a">A. 부동산개발업법에 따라 연면적 기준 이하의 소규모 개발은 등록 의무가 면제됩니다. 그러나 분양을 목적으로 하는 경우 규모에 관계없이 등록 의무가 발생할 수 있으므로 사전 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 개인도 등록이 가능한가요?</p><p class="faq-a">A. 가능합니다. 개인사업자는 자기 자본 6억 원 이상을 충족하면 등록 신청이 가능합니다. 단, 대규모 개발 사업은 법인 형태가 금융 조달 등에 유리합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 전문 인력을 외부 자문위원으로 대체할 수 있나요?</p><p class="faq-a">A. 불가합니다. 전문 인력은 회사에 상시 고용된 자이어야 하며, 외부 자문이나 계약직은 인정되지 않습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 자본금 요건을 충족하지 못할 경우 방법이 있나요?</p><p class="faq-a">A. 공동 출자, 투자 유치, 법인 설립 등을 통해 자본금을 확충하는 방법을 검토할 수 있습니다. 자본금 충족 시점에 맞추어 등록 신청을 준비하는 것이 효율적입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 후 사업 범위를 확대할 수 있나요?</p><p class="faq-a">A. 부동산개발업 등록은 별도 범위 제한 없이 모든 부동산개발업을 영위할 수 있습니다. 단, 자본금·인력 기준이 변경되면 변경 등록을 해야 합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 부동산개발업 등록 전 과정을 대행합니다. 자본금 검토부터 등록증 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 부동산개발업 등록 전 과정을 대행합니다. 자본금 검토부터 등록증 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "pharmaceutical-wholesale-license-2026-06-07",
@@ -8012,8 +7994,8 @@ export const blogPosts: BlogPost[] = [
     title: "의약품 도매업 허가 요건과 신청 절차 완벽 가이드 ",
     category: "의료·보건",
     excerpt: "의약품 도매업 허가를 위한 관리 약사 기준, 창고 시설, 식약처 신청 절차를 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/pharmaceutical.jpg',
-    meta_title: '의약품 도매업 허가 요건과 신청 절차 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/pharmaceutical-wholesale-license.jpg',
+    meta_title: '의약품 도매업 허가 요건과 신청 절차 | 유선행정사사무소',
     meta_description: '의약품 도매업 허가 관리 약사·창고 시설·식약처 신청 절차를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>의약품 도매업이란?</li><li>근거 법령</li><li>허가 요건</li><li>관리 약사 기준</li><li>시설 기준</li><li>신청 서류 및 절차</li><li>처리 기간 및 수수료</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 의약품 도매업이란?</h2>
@@ -8035,10 +8017,10 @@ export const blogPosts: BlogPost[] = [
 <h2>7. 처리 기간 및 수수료</h2>
 <p>식약처 현장 실사를 포함하여 통상 <strong>30~45 영업일</strong>이 소요됩니다. 시설 보완 요청이 있으면 추가 기간이 필요합니다. 허가 수수료는 약 10만 원 수준이며, 창고 임대·시설 구축 비용은 별도입니다.</p>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>허가 없이 의약품 도매업을 영위하면 <strong>약사법 제93조</strong>에 따라 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>이 부과됩니다. 비전행정사사무소는 <a href="/contact">식약처 허가 신청 전 과정</a>을 대행하며, <a href="/quote">무료 견적</a>을 통해 필요 사항을 확인해 드립니다.</p>
+<p>허가 없이 의약품 도매업을 영위하면 <strong>약사법 제93조</strong>에 따라 <strong>5년 이하 징역 또는 5,000만 원 이하 벌금</strong>이 부과됩니다. 유선행정사사무소는 <a href="/contact">식약처 허가 신청 전 과정</a>을 대행하며, <a href="/quote">무료 견적</a>을 통해 필요 사항을 확인해 드립니다.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 관리 약사를 직원으로 채용해야 하나요?</p><p class="faq-a">A. 네, 관리 약사는 상시 고용 계약을 체결해야 합니다. 파견·용역 형태는 인정되지 않으며, 4대 보험에 가입된 상시 근무자이어야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 의약품 도매업과 의약품 판매업은 다른가요?</p><p class="faq-a">A. 네, 다릅니다. 의약품 도매업은 의료기관·약국·다른 도매업자에게 판매하는 B2B 형태이며, 소비자에게 직접 판매하는 것은 약국 개설 허가가 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 냉장 의약품만 취급하면 냉장 창고만 있어도 되나요?</p><p class="faq-a">A. 취급 품목에 따라 시설 기준이 달라집니다. 냉장 의약품 전용 도매업의 경우 냉장 창고가 필수이며, 일반 의약품도 병행 취급하면 일반 보관실도 갖추어야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 식약처 현장 실사는 어떻게 진행되나요?</p><p class="faq-a">A. 신청 서류 검토 후 식약처 담당자가 직접 창고·시설을 방문하여 법정 기준 충족 여부를 확인합니다. 온·습도 모니터링 시스템, 보관 환경, 분리 구역 등이 주요 점검 항목입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 허가 후 취급 품목을 추가하려면?</p><p class="faq-a">A. 허가 시 지정된 취급 품목 외 새로운 품목(예: 마약류)을 추가하려면 품목 추가 변경 허가를 별도로 받아야 합니다. 추가 시설 기준을 충족해야 하는 경우도 있습니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 의약품 도매업 허가 신청 전 과정을 대행합니다. 시설 검토부터 식약처 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 의약품 도매업 허가 신청 전 과정을 대행합니다. 시설 검토부터 식약처 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "venture-startup-confirmation-2026-06-07",
@@ -8047,8 +8029,8 @@ export const blogPosts: BlogPost[] = [
     title: "벤처기업 확인 신청 방법과 혜택 완벽 가이드 ",
     category: "창업·스타트업",
     excerpt: "벤처기업 확인 유형별 요건, 신청 방법, 세제 혜택, 갱신 절차를 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
-    meta_title: '벤처기업 확인 신청 방법과 혜택 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/venture-startup-confirmation.jpg',
+    meta_title: '벤처기업 확인 신청 방법과 혜택 | 유선행정사사무소',
     meta_description: '벤처기업 확인 유형별 요건·신청 방법·세제 혜택·갱신 절차를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>벤처기업 확인이란?</li><li>근거 법령</li><li>확인 유형별 요건</li><li>기술평가 보증 유형</li><li>신청 방법 및 서류</li><li>처리 기간 및 혜택</li><li>세제 혜택 및 금융 지원</li><li>유의 사항 및 행정사 활용</li></ol></div>
 <h2>1. 벤처기업 확인이란?</h2>
@@ -8070,10 +8052,10 @@ export const blogPosts: BlogPost[] = [
 <h2>7. 세제 혜택 및 금융 지원</h2>
 <p>벤처기업 확인을 받으면 <strong>조세특례제한법</strong>에 따라 법인세·소득세 감면, 취득세·등록세 경감, R&D 비용 세액 공제가 동시에 적용됩니다. 또한 기보·신보·중진공의 저금리 대출 및 보증 한도 우대를 받을 수 있어 초기 자금 조달에 큰 도움이 됩니다. 스톡옵션 부여 한도도 일반 기업보다 높아 우수 인재 영입에 유리합니다.</p>
 <h2>8. 유의 사항 및 행정사 활용</h2>
-<p>벤처기업 확인을 허위 자료로 취득하면 확인 취소 및 세제 혜택 전액 환수 처분을 받습니다. 확인 유효 기간 내 요건을 유지해야 하며, 갱신 절차를 놓치면 혜택이 자동 종료됩니다. 비전행정사사무소는 <a href="/services/venture-cert">벤처기업 확인 서비스</a>를 통해 유형 선택부터 신청·갱신까지 대행합니다. <a href="/contact">무료 상담</a>을 신청하세요.</p>
+<p>벤처기업 확인을 허위 자료로 취득하면 확인 취소 및 세제 혜택 전액 환수 처분을 받습니다. 확인 유효 기간 내 요건을 유지해야 하며, 갱신 절차를 놓치면 혜택이 자동 종료됩니다. 유선행정사사무소는 <a href="/services/venture-cert">벤처기업 확인 서비스</a>를 통해 유형 선택부터 신청·갱신까지 대행합니다. <a href="/contact">무료 상담</a>을 신청하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 창업 첫해에도 벤처기업 확인이 가능한가요?</p><p class="faq-a">A. 가능합니다. 벤처투자유형이나 기술평가보증유형은 창업 후 즉시 신청이 가능합니다. 연구개발유형은 R&D 비용 실적이 필요하므로 최소 1년의 사업 실적이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 유효 기간 만료 전에 갱신 신청을 해야 하나요?</p><p class="faq-a">A. 네, 유효 기간(2년) 만료 전 90일 이내에 갱신 신청을 해야 합니다. 만료 후에는 재신청으로 처리되므로 혜택 공백이 발생하지 않도록 미리 준비하세요.</p></div><div class="faq-item"><p class="faq-q">Q. 법인세 50% 감면은 모든 업종에 적용되나요?</p><p class="faq-a">A. 창업 후 5년 이내 벤처기업에 적용됩니다. 단, 일부 부동산업·도박업 등은 감면 대상에서 제외되며, 조세특례제한법의 최신 내용을 확인하는 것이 중요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 기보 보증 없이도 벤처 확인이 가능한가요?</p><p class="faq-a">A. 가능합니다. 벤처투자유형(VC 투자) 또는 연구개발유형(R&D 비율 충족)으로 신청하면 기보 보증 없이도 확인을 받을 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 벤처 확인 후 업종을 변경해도 혜택이 유지되나요?</p><p class="faq-a">A. 확인 유형의 요건을 유지하는 한 업종 변경이 있어도 혜택은 유지됩니다. 다만 신규 업종이 벤처 확인 제한 업종에 해당하면 확인이 취소될 수 있습니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 벤처기업 확인 신청 전 과정을 대행합니다. 유형 선택부터 확인서 수령·갱신까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/venture-cert">벤처기업 확인 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 벤처기업 확인 신청 전 과정을 대행합니다. 유형 선택부터 확인서 수령·갱신까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/venture-cert">벤처기업 확인 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "food-business-hygiene-permit-2026-06-08",
@@ -8082,8 +8064,8 @@ export const blogPosts: BlogPost[] = [
     title: "식품위생 영업 허가·신고 완벽 가이드 ",
     category: "식품·위생",
     excerpt: "식품위생법에 따른 영업 허가·신고 대상 구분, 시설 기준, 구비 서류, 처리 기간을 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/food-manufacturing.jpg',
-    meta_title: '식품위생 영업 허가·신고 완벽 가이드 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/food-business-hygiene-permit.jpg',
+    meta_title: '식품위생 영업 허가·신고 완벽 가이드 | 유선행정사사무소',
     meta_description: '식품위생법 영업 허가·신고 대상 구분·시설 기준·구비 서류를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>식품위생 영업 허가·신고 개요</li><li>근거 법령</li><li>허가·신고 대상 구분</li><li>업종별 시설 기준</li><li>구비 서류</li><li>처리 기간 및 수수료</li><li>위생 교육 이수 의무</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 식품위생 영업 허가·신고 개요</h2>
@@ -8104,10 +8086,10 @@ export const blogPosts: BlogPost[] = [
 <p>영업 허가(신고) 전에 <strong>식품위생법 제41조</strong>에 따라 식품위생 교육을 이수해야 합니다.</p>
 <ul><li>신규 영업자: 영업 전 사전 위생 교육(6시간)</li><li>기존 영업자: 매년 정기 위생 교육(3시간)</li><li>교육 기관: 한국식품산업협회, 식품의약품안전처 지정 기관</li></ul>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>허가 없이 식품위생 영업을 하면 <strong>식품위생법 제96조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 시설 기준 위반은 영업 정지(15일~3개월) 또는 허가 취소로 이어집니다. 비전행정사사무소는 <a href="/services/food-manufacturing">식품 영업 허가 서비스</a>와 <a href="/services/haccp">HACCP 인증 서비스</a>를 통해 허가부터 인증까지 원스톱으로 지원합니다. <a href="/contact">무료 상담</a>을 신청하세요.</p>
+<p>허가 없이 식품위생 영업을 하면 <strong>식품위생법 제96조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 시설 기준 위반은 영업 정지(15일~3개월) 또는 허가 취소로 이어집니다. 유선행정사사무소는 <a href="/services/food-manufacturing">식품 영업 허가 서비스</a>와 <a href="/services/haccp">HACCP 인증 서비스</a>를 통해 허가부터 인증까지 원스톱으로 지원합니다. <a href="/contact">무료 상담</a>을 신청하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 배달 전문점(주방만 있는 업소)도 허가가 필요한가요?</p><p class="faq-a">A. 네, 배달 전문점도 일반음식점 영업 신고가 필요합니다. 홀이 없어도 주방을 갖추고 조리·판매를 하면 식품접객업 신고 대상입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 건강진단서는 몇 개월마다 갱신해야 하나요?</p><p class="faq-a">A. 매년 1회 이상 정기 건강진단을 받아야 합니다. 신규 허가 신청 시에는 3개월 이내 발급된 건강진단서가 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 인터넷 쇼핑몰로 식품을 판매하면 어떤 허가가 필요한가요?</p><p class="faq-a">A. 직접 제조한 식품을 판매하면 식품 제조·가공업 허가가 필요하고, 다른 업체에서 구입한 식품을 소분·판매하면 식품 소분·판매업 신고가 필요합니다. 통신판매업 신고도 함께 해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 위생 교육을 못 받은 상태에서 먼저 허가 신청을 할 수 있나요?</p><p class="faq-a">A. 원칙적으로 위생 교육을 사전에 이수해야 허가 신청이 가능합니다. 단, 지자체에 따라 신청 접수 후 교육 이수증을 제출하는 방식을 허용하는 경우도 있습니다. 사전 확인이 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 허가를 받은 후 영업장을 이전하면 어떻게 해야 하나요?</p><p class="faq-a">A. 영업장 이전 시에는 기존 허가를 폐업 신고하고 새로운 위치에서 재허가 또는 재신고를 받아야 합니다. 이전 장소에서도 동일한 시설 기준을 충족해야 합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 식품위생 영업 허가·신고 전 과정을 대행합니다. 시설 기준 검토부터 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/food-manufacturing">식품 영업 허가 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 식품위생 영업 허가·신고 전 과정을 대행합니다. 시설 기준 검토부터 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/food-manufacturing">식품 영업 허가 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "cosmetics-manufacturing-permit-2026-06-08",
@@ -8116,8 +8098,8 @@ export const blogPosts: BlogPost[] = [
     title: "화장품 제조업 등록 요건과 절차 완벽 가이드 ",
     category: "뷰티·화장품",
     excerpt: "화장품 제조업 등록을 위한 품질관리 담당자 기준, 시설 기준, 식약처 신청 절차를 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/cosmetics.jpg',
-    meta_title: '화장품 제조업 등록 요건과 절차 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/cosmetics-manufacturing-permit.jpg',
+    meta_title: '화장품 제조업 등록 요건과 절차 | 유선행정사사무소',
     meta_description: '화장품 제조업 등록 품질관리 담당자·시설 기준·식약처 신청 절차를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>화장품 제조업이란?</li><li>근거 법령</li><li>등록 요건</li><li>품질관리 담당자 기준</li><li>시설 기준</li><li>신청 서류 및 절차</li><li>처리 기간 및 수수료</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 화장품 제조업이란?</h2>
@@ -8139,10 +8121,10 @@ export const blogPosts: BlogPost[] = [
 <h2>7. 처리 기간 및 수수료</h2>
 <p>관할 식약처 지방청의 현장 실사 후 통상 <strong>20~30 영업일</strong> 이내에 등록증이 발급됩니다. 시설 보완 요청 시 추가 기간이 소요됩니다. 등록 수수료는 약 5~10만 원(지역별 상이)입니다.</p>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>등록 없이 화장품을 제조하면 <strong>화장품법 제36조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 비전행정사사무소는 <a href="/services/cosmetics">화장품 제조업 등록 서비스</a>를 통해 시설 기준 검토부터 등록 완료까지 대행합니다. <a href="/contact">무료 상담</a>을 신청하세요.</p>
+<p>등록 없이 화장품을 제조하면 <strong>화장품법 제36조</strong>에 따라 <strong>3년 이하 징역 또는 3,000만 원 이하 벌금</strong>이 부과됩니다. 유선행정사사무소는 <a href="/services/cosmetics">화장품 제조업 등록 서비스</a>를 통해 시설 기준 검토부터 등록 완료까지 대행합니다. <a href="/contact">무료 상담</a>을 신청하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 소규모 수제 화장품 판매도 등록이 필요한가요?</p><p class="faq-a">A. 네, 직접 제조하여 판매하면 제조업 등록이 필요합니다. 단, 타사 완제품을 단순 판매하면 화장품 책임판매업 등록이 적용됩니다. 두 가지는 요건과 절차가 다릅니다.</p></div><div class="faq-item"><p class="faq-q">Q. CGMP 인증은 의무인가요?</p><p class="faq-a">A. 국내 판매만 하는 경우 의무가 아닙니다. 다만 대형 화장품 브랜드와 OEM/ODM 계약을 맺거나 유럽·미국·일본 등에 수출할 경우 CGMP 인증이 사실상 필수 요건입니다.</p></div><div class="faq-item"><p class="faq-q">Q. 임차 공간에서도 등록이 가능한가요?</p><p class="faq-a">A. 가능합니다. 시설 기준만 충족하면 임차 공간도 등록이 가능합니다. 임대차계약서, 건물주 동의서 등을 구비해야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 화장품 제조업과 책임판매업을 동시에 등록해야 하나요?</p><p class="faq-a">A. 자체 브랜드로 판매하려면 두 가지 모두 등록해야 합니다. 제조업은 생산, 책임판매업은 브랜드·유통 관리에 해당합니다. 한 회사가 두 가지를 동시에 등록하는 경우가 많습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 후 품목 추가 시 별도 신고가 필요한가요?</p><p class="faq-a">A. 새로운 품목 제조 시 화장품 제조업 범위 내라면 별도 허가는 필요 없습니다. 단, 기능성 화장품은 식약처 심사를 별도로 받아야 판매가 가능합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 화장품 제조업 등록 전 과정을 대행합니다. 시설 기준 검토부터 등록증 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/cosmetics">화장품 제조업 등록 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 화장품 제조업 등록 전 과정을 대행합니다. 시설 기준 검토부터 등록증 수령까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/services/cosmetics">화장품 제조업 등록 서비스</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: "waste-collection-transport-permit-2026-06-08",
@@ -8151,8 +8133,8 @@ export const blogPosts: BlogPost[] = [
     title: "폐기물 수집·운반업 허가 요건과 신청 절차 완벽 가이드 ",
     category: "환경·폐기물",
     excerpt: "폐기물 수집·운반업 허가를 위한 차량 기준, 차고지 요건, 기술 인력, 신청 절차를 행정사가 단계별로 안내합니다.",
-    cover_image: '/images/blog-topics/general-permit.jpg',
-    meta_title: '폐기물 수집·운반업 허가 요건과 신청 절차 | 비전행정사사무소',
+    cover_image: '/images/blog-thumbs/waste-collection-transport-permit.jpg',
+    meta_title: '폐기물 수집·운반업 허가 요건과 신청 절차 | 유선행정사사무소',
     meta_description: '폐기물 수집·운반업 허가 차량 기준·차고지·기술 인력·신청 절차를 행정사가 안내합니다. 초회 무료 상담 02-363-2251.',
     content: `<div class="toc"><p>목차</p><ol><li>폐기물 수집·운반업이란?</li><li>근거 법령</li><li>허가 요건</li><li>차량 기준 상세</li><li>기술 인력 기준</li><li>신청 서류 및 절차</li><li>처리 기간 및 수수료</li><li>위반 시 제재 및 행정사 활용</li></ol></div>
 <h2>1. 폐기물 수집·운반업이란?</h2>
@@ -8174,17 +8156,16 @@ export const blogPosts: BlogPost[] = [
 <h2>7. 처리 기간 및 수수료</h2>
 <p>서류 완비 후 현장 조사까지 포함하여 통상 <strong>20~30 영업일</strong>이 소요됩니다. 차량·차고지 현장 조사가 있으며, 보완 요청 시 기간이 연장됩니다. 수수료는 업종·규모에 따라 5~20만 원(지자체별 상이)입니다.</p>
 <h2>8. 위반 시 제재 및 행정사 활용</h2>
-<p>허가 없이 폐기물 수집·운반업을 영위하면 <strong>폐기물관리법 제66조</strong>에 따라 <strong>2년 이하 징역 또는 2,000만 원 이하 벌금</strong>이 부과됩니다. 무단 폐기물 투기·방치는 더 중한 처벌(5년 이하 징역)을 받습니다. 비전행정사사무소는 <a href="/contact">폐기물 수집·운반업 허가 신청 전 과정</a>을 대행합니다. <a href="/quote">무료 견적</a>을 통해 필요 사항을 확인하세요.</p>
+<p>허가 없이 폐기물 수집·운반업을 영위하면 <strong>폐기물관리법 제66조</strong>에 따라 <strong>2년 이하 징역 또는 2,000만 원 이하 벌금</strong>이 부과됩니다. 무단 폐기물 투기·방치는 더 중한 처벌(5년 이하 징역)을 받습니다. 유선행정사사무소는 <a href="/contact">폐기물 수집·운반업 허가 신청 전 과정</a>을 대행합니다. <a href="/quote">무료 견적</a>을 통해 필요 사항을 확인하세요.</p>
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-section"><div class="faq-item"><p class="faq-q">Q. 차량 1대로도 허가가 가능한가요?</p><p class="faq-a">A. 가능합니다. 법정 최소 차량 대수는 별도로 정해지지 않았습니다. 다만 취급 폐기물의 종류와 운반량에 따라 적정 차량 대수를 갖추어야 허가가 수월합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 차고지는 반드시 직접 소유해야 하나요?</p><p class="faq-a">A. 임차도 가능합니다. 임대차계약서와 토지주의 동의서를 제출하면 됩니다. 단, 차고지가 도시계획법상 허용 용도의 토지이어야 합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 지정 폐기물(특수 유해 폐기물)도 운반하려면?</p><p class="faq-a">A. 지정 폐기물 수집·운반업은 일반 폐기물과 별도 허가가 필요하며, 차량 기준과 기술 인력 기준이 더 엄격합니다. 두 가지를 동시에 신청하는 것이 가능합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 의료 폐기물 운반도 이 허가로 가능한가요?</p><p class="faq-a">A. 불가합니다. 의료 폐기물은 별도의 의료 폐기물 수집·운반업 허가가 필요하며, 전용 차량·처리 시설 기준이 매우 엄격합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 허가 후 차량을 추가하거나 교체할 때 신고가 필요한가요?</p><p class="faq-a">A. 네, 차량 추가·교체 시 허가 변경 신고를 해야 합니다. 교체 차량도 동일한 차량 기준(노란색 마크·밀폐 구조 등)을 충족해야 합니다.</p></div></div>
-<div class="cta-section"><p><strong>비전행정사사무소</strong>는 폐기물 수집·운반업 허가 전 과정을 대행합니다. 차량·차고지 기준 검토부터 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
+<div class="cta-section"><p><strong>유선행정사사무소</strong>는 폐기물 수집·운반업 허가 전 과정을 대행합니다. 차량·차고지 기준 검토부터 허가 완료까지 전문가가 함께합니다.</p><p><strong>02-363-2251</strong> | 평일 09:30~17:30 | 초회 상담 무료</p><p><a href="/quote">무료 견적 받기</a> | <a href="/contact">상담 문의</a></p></div>`
   },
   {
     id: '116',
     slug: 'mainbiz-certification-requirements-process',
     relatedServices: [
       { title: '벤처기업 인증', href: '/services/venture-cert' },
-      { title: '이노비즈 인증', href: '/services/innobiz' },
       { title: '기업부설연구소 설립', href: '/services/research-lab' },
     ],
     title: '메인비즈 인증 요건과 신청 절차 — 경영혁신형 중소기업 완벽 가이드',
@@ -8192,7 +8173,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: '메인비즈(Main-Biz) 인증 신청 자격, 평가 기준(1,000점 만점), 준비 서류, 처리 절차를 전문 행정사가 상세히 안내합니다. 유효기간 3년, 금리우대·세무조사 유예 등 혜택 포함.',
     meta_title: '메인비즈 인증 요건과 신청 절차 총정리 — 경영혁신형 중소기업',
     meta_description: '메인비즈(Main-Biz) 인증 신청 자격·평가 기준·절차 총정리. 온라인 자가진단 600점, 현장평가 700점 이상, 유효기간 3년. 금리우대·세무조사 유예 혜택. 전문 행정사 무료 상담.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/mainbiz-certification-requirements-process.jpg',
     created_at: '2026-07-07T12:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>메인비즈 인증이란?</li><li>신청 자격 요건</li><li>평가 기준과 점수 체계</li><li>신청 절차 단계별 안내</li><li>준비 서류 목록</li><li>인증 후 우대 혜택</li><li>주의사항과 반려 예방</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -8294,26 +8275,24 @@ export const blogPosts: BlogPost[] = [
 
 <div class="cta-block">
  <h3>전문가 상담 신청하기</h3>
- <p>메인비즈 인증 사전 진단부터 인증서 발급까지 비전행정사사무소가 함께합니다.</p>
+ <p>메인비즈 인증 사전 진단부터 인증서 발급까지 유선행정사사무소가 함께합니다.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-certification"> 이후 전문가 상담 신청하기</a>
 </div>
 
-<p class="author-block">비전행정사사무소 (대표 행정사 이원중) · 경영혁신형 중소기업(Main-Biz) 제도 운영규정 (중소벤처기업부 고시 제2023-90호) 기준으로 작성 · 최종 검토일 7월 7일</p>`
+<p class="author-block">유선행정사사무소 (대표 행정사 정유선) · 경영혁신형 중소기업(Main-Biz) 제도 운영규정 (중소벤처기업부 고시 제2023-90호) 기준으로 작성 · 최종 검토일 7월 7일</p>`
   },
   {
     id: '117',
     slug: 'innobiz-vs-mainbiz-comparison-guide',
     relatedServices: [
-      { title: '이노비즈 인증', href: '/services/innobiz' },
-      { title: '메인비즈 인증', href: '/services/mainbiz' },
-      { title: '벤처기업 인증', href: '/services/venture-cert' },
+      { title: '벤처기업·이노비즈 인증', href: '/services/venture-cert' },
     ],
     title: '이노비즈 vs 메인비즈 인증 — 차이점과 선택 기준 ',
     category: '기업인증',
     excerpt: '이노비즈(기술혁신형)와 메인비즈(경영혁신형) 인증의 평가 기준·혜택·난이도·비용을 비교합니다. 어떤 인증이 우리 기업에 더 유리한지 선택 기준을 안내합니다.',
-    meta_title: '이노비즈 vs 메인비즈 인증 차이점과 선택 기준 — 비전행정사사무소',
+    meta_title: '이노비즈 vs 메인비즈 인증 차이점과 선택 기준 — 유선행정사사무소',
     meta_description: '이노비즈(기술혁신형)와 메인비즈(경영혁신형) 인증 비교 총정리. 평가 기준·필요 점수·인증 혜택·유효기간·비용 차이를 한 눈에. 중소기업 어떤 인증이 유리한지 전문 행정사가 안내합니다.',
-    cover_image: '/images/blog-topics/venture-innobiz.jpg',
+    cover_image: '/images/blog-thumbs/innobiz-vs-mainbiz-comparison-guide.jpg',
     created_at: '2026-07-08T12:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>이노비즈와 메인비즈, 무엇이 다른가?</li><li>평가 기준 비교</li><li>인증 혜택 비교</li><li>신청 난이도와 비용 비교</li><li>어떤 인증이 우리 기업에 유리한가?</li><li>두 인증을 동시에 받을 수 있는가?</li><li>신청 절차 비교</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
 
@@ -8352,11 +8331,11 @@ export const blogPosts: BlogPost[] = [
 
 <div class="cta-block">
  <h3>이노비즈·메인비즈 인증, 전문가와 함께 준비하세요</h3>
- <p>비전행정사사무소는 자가진단 사전 점검부터 현장평가 준비, 인증서 발급까지 두 인증을 모두 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p>
+ <p>유선행정사사무소는 자가진단 사전 점검부터 현장평가 준비, 인증서 발급까지 두 인증을 모두 원스톱으로 지원합니다. 초기 상담은 무료입니다.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">무료상담 신청하기</a>
 </div>
 
-<p class="author-block">비전행정사사무소 (대표 행정사 이원중) · 기술혁신형 중소기업(Inno-Biz) 운영규정 및 경영혁신형 중소기업(Main-Biz) 제도 운영규정 (중소벤처기업부 고시) 기준 작성 · 최종 검토일 </p>
+<p class="author-block">유선행정사사무소 (대표 행정사 정유선) · 기술혁신형 중소기업(Inno-Biz) 운영규정 및 경영혁신형 중소기업(Main-Biz) 제도 운영규정 (중소벤처기업부 고시) 기준 작성 · 최종 검토일 </p>
 `
   },
   {
@@ -8366,9 +8345,9 @@ export const blogPosts: BlogPost[] = [
     category: '교육·학원',
     created_at: '2026-09-05T00:00:00Z',
     excerpt: '학원을 개설하려면 학원법에 따라 시·도교육청에 설립운영등록을 해야 합니다. 기준 학원 종류별 요건, 시설 기준, 구비서류, 등록 절차를 실무 기준으로 정리합니다.',
-    meta_title: '학원설립운영등록 완벽 가이드 — 등록 절차·시설 기준·구비서류 | 비전행정사사무소',
+    meta_title: '학원설립운영등록 완벽 가이드 — 등록 절차·시설 기준·구비서류 | 유선행정사사무소',
     meta_description: '학원을 개설하려면 학원법에 따라 시·도교육청에 설립운영등록을 해야 합니다. 기준 학원 종류별 요건, 시설 기준, 구비서류, 등록 절차를 실무 기준으로 정리합니다.. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/service-license.png',
+    cover_image: '/images/blog-thumbs/hagwon-establishment-registration.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>목차</li>
@@ -8447,7 +8426,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 건물 용도가 맞지 않으면 학원을 열 수 없나요?</p><p class="faq-a">A. 건물 용도 변경 절차를 거치거나 적합한 건물로 이전해야 합니다. 용도 불일치 상태로 영업하면 이중 제재를 받을 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 강사 채용 시 별도로 확인해야 할 사항이 있나요?</p><p class="faq-a">A. 네, 채용 전 아동학대 관련 범죄 전력 등 결격사유 조회를 반드시 거쳐야 합니다. 강사 명단은 등록 신청 시 제출하며, 이후 강사가 변경되면 변경신고 의무가 발생합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 등록 처리 기간을 단축할 방법이 있나요?</p><p class="faq-a">A. 시설 평면도와 강사 자격 서류를 사전에 완비하는 것이 가장 효과적입니다. 소방시설 완비증명서는 발급까지 시간이 걸리므로 미리 신청해 두는 것이 좋습니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>학원설립운영등록 인허가 대행, 전문가에게 맡기세요</h3><p>비전행정사사무소 전문 행정사가 서류 준비부터 승인까지 도와드립니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>학원설립운영등록 인허가 대행, 전문가에게 맡기세요</h3><p>유선행정사사무소 전문 행정사가 서류 준비부터 승인까지 도와드립니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '125',
@@ -8456,9 +8435,9 @@ export const blogPosts: BlogPost[] = [
     category: '식품·위생',
     created_at: '2026-09-05T00:00:00Z',
     excerpt: '카페·아이스크림 가게·분식점은 식품위생법에 따라 휴게음식점 영업신고를 해야 합니다. 최신 기준 시설 요건, 신고 서류, 위생 교육 의무를 정리합니다.',
-    meta_title: '휴게음식점 영업신고 완벽 가이드 — 신고 절차·시설 기준·위생 교육 | 비전행정사사무소',
+    meta_title: '휴게음식점 영업신고 완벽 가이드 — 신고 절차·시설 기준·위생 교육 | 유선행정사사무소',
     meta_description: '카페·아이스크림 가게·분식점은 식품위생법에 따라 휴게음식점 영업신고를 해야 합니다. 최신 기준 시설 요건, 신고 서류, 위생 교육 의무를 정리합니다.. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/service-license.png',
+    cover_image: '/images/blog-thumbs/rest-restaurant-notification.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>목차</li>
@@ -8533,7 +8512,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 카페에서 소량의 전통주를 판매할 수 있나요?</p><p class="faq-a">A. 휴게음식점에서는 주류 판매가 금지됩니다. 전통주 판매를 원하면 일반음식점으로 변경하거나 별도의 주류 판매 신고가 필요합니다.</p></div><div class="faq-item"><p class="faq-q">Q. 휴게음식점 영업신고 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류가 완비된 경우 통상 3~5영업일 이내에 신고증이 발급됩니다. 위생교육 이수증을 미리 발급받아 두면 처리 속도를 앞당길 수 있습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 청소년 출입에 제한이 있나요?</p><p class="faq-a">A. 휴게음식점 자체는 청소년 출입 제한 업종이 아니지만, 심야 시간대 운영이나 유해 물품 비치 등은 청소년 보호법의 적용을 받으므로 별도 확인이 필요합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>휴게음식점 영업신고 인허가 대행, 전문가에게 맡기세요</h3><p>비전행정사사무소 전문 행정사가 서류 준비부터 승인까지 도와드립니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>휴게음식점 영업신고 인허가 대행, 전문가에게 맡기세요</h3><p>유선행정사사무소 전문 행정사가 서류 준비부터 승인까지 도와드립니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
   },
   {
     id: '126',
@@ -8542,9 +8521,9 @@ export const blogPosts: BlogPost[] = [
     category: '숙박·위생',
     created_at: '2026-09-05T00:00:00Z',
     excerpt: '일반숙박업·생활숙박업·관광숙박업은 공중위생관리법에 따라 시·군·구청에 신고해야 합니다. 기준 종류별 시설 기준, 신고 서류, 절차를 정리합니다.',
-    meta_title: '숙박업 신고 완벽 가이드 — 종류별 시설 기준·신고 절차·결격 사유 | 비전행정사사무소',
+    meta_title: '숙박업 신고 완벽 가이드 — 종류별 시설 기준·신고 절차·결격 사유 | 유선행정사사무소',
     meta_description: '일반숙박업·생활숙박업·관광숙박업은 공중위생관리법에 따라 시·군·구청에 신고해야 합니다. 기준 종류별 시설 기준, 신고 서류, 절차를 정리합니다.. 행정사 무료 상담 02-363-2251.',
-    cover_image: '/images/service-license.png',
+    cover_image: '/images/blog-thumbs/accommodation-business-registration.jpg',
     content: `
 <div class="toc"><p>목차</p><ol>
 <li>목차</li>
@@ -8630,7 +8609,150 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 외국인 전용 게스트하우스도 동일하게 신고하나요?</p><p class="faq-a">A. 네, 동일한 숙박업 신고 절차를 따릅니다. 다만 외국인 투숙객의 여권 정보를 기록·보관하는 의무가 추가됩니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 처리 기간은 얼마나 걸리나요?</p><p class="faq-a">A. 서류가 완비된 경우 통상 3~7영업일 이내에 신고증이 발급됩니다. 소방 완비증명서 발급에 시간이 걸릴 수 있으므로 시설 공사 완료 시점에 맞춰 미리 준비하는 것이 좋습니다.</p></div><div class="faq-item"><p class="faq-q">Q. 신고 후 객실 수나 시설을 변경하려면 어떻게 해야 하나요?</p><p class="faq-a">A. 객실 수·시설 구조가 변경되면 변경신고 대상입니다. 소방시설·주차장 기준을 다시 충족하는지 확인한 후 관할 시·군·구청에 변경신고를 해야 합니다.</p></div>
 </div>
 
-<div class="cta-box"><h3>숙박업 신고 인허가 대행, 전문가에게 맡기세요</h3><p>비전행정사사무소 전문 행정사가 서류 준비부터 승인까지 도와드립니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+<div class="cta-box"><h3>숙박업 신고 인허가 대행, 전문가에게 맡기세요</h3><p>유선행정사사무소 전문 행정사가 서류 준비부터 승인까지 도와드립니다.</p><a href="/contact">무료상담 신청하기</a><p style="margin-top:0.75rem;font-size:0.875rem;">전화 상담: <strong>02-363-2251</strong> (평일 09:30~17:30)</p></div>`
+  },
+  {
+    id: '127',
+    slug: 'location-information-business-registration',
+    relatedServices: [
+      { title: '위치기반서비스 사업신고', href: '/services/location-based-service' },
+      { title: '기업부설연구소 설립', href: '/services/research-lab' },
+      { title: '조달청 나라장터 등록', href: '/services/procurement' },
+    ],
+    title: '위치정보사업 등록과 위치기반서비스사업 신고 차이 — 3가지 유형별 구분 기준',
+    category: '위치정보',
+    excerpt: '내 서비스는 등록 대상인가 신고 대상인가. 개인위치정보사업(등록)·사물위치정보사업(신고)·위치기반서비스사업(신고) 3가지 유형의 구분 기준과 소상공인 특례, 변경·휴폐업 의무를 위치정보법 조문 기준으로 정리합니다.',
+    meta_title: '위치정보사업 등록 vs 위치기반서비스사업 신고 — 구분 기준 총정리',
+    meta_description: '개인위치정보사업 등록, 사물위치정보사업 신고, 위치기반서비스사업 신고를 어떻게 구분하는지 위치정보법 조문 기준으로 정리했습니다. 소상공인 신고 특례, 변경신고 대상, 미등록·미신고 벌칙까지 한 번에 확인하세요.',
+    cover_image: '/images/blog-thumbs/location-information-business-registration.jpg',
+    created_at: '2026-09-16T00:00:00Z',
+    content: `<div class="toc"><p>목차</p><ol><li>위치정보 관련 사업은 3가지로 나뉩니다</li><li>개인위치정보사업 — 등록 대상</li><li>사물위치정보사업 — 신고 대상</li><li>위치기반서비스사업 — 신고 대상</li><li>소상공인·1인 창조기업 신고 특례</li><li>변경·양수·휴업·폐업 신고 의무</li><li>미등록·미신고 시 처벌 기준</li><li>자주 묻는 질문 (FAQ)</li></ol></div>
+
+<h2>1. 위치정보 관련 사업은 3가지로 나뉩니다</h2>
+<p>위치정보를 다루는 사업은 「위치정보의 보호 및 이용 등에 관한 법률」(이하 위치정보법)에 따라 <strong>개인위치정보사업(등록)·사물위치정보사업(신고)·위치기반서비스사업(신고)</strong> 세 갈래로 나뉩니다. 세 절차는 요건도, 처리 방식도, 위반 시 처벌 수위도 전부 다릅니다. 내 서비스가 어디에 해당하는지를 먼저 확정해야 서류 준비 방향이 잡힙니다.</p>
+<p>구분의 출발점은 두 가지 질문입니다. 첫째, 위치정보를 <strong>직접 수집해서 다른 사업자에게 제공</strong>하는가(위치정보사업), 아니면 <strong>위치정보를 이용한 서비스를 이용자에게 제공</strong>하는가(위치기반서비스사업). 둘째, 그 위치정보가 <strong>개인위치정보</strong>인가 아닌가. 위치정보법 제2조는 위치정보사업을 "위치정보를 수집하여 위치기반서비스사업을 하는 자에게 제공하는 것을 사업으로 영위하는 것", 위치기반서비스사업을 "위치정보를 이용한 서비스를 제공하는 것을 사업으로 영위하는 것"으로 정의합니다.</p>
+<div class="highlight-box"><strong>[위치정보의 보호 및 이용 등에 관한 법률 제2조]</strong> 제6호 "위치정보사업"이라 함은 위치정보를 수집하여 위치기반서비스사업을 하는 자에게 제공하는 것을 사업으로 영위하는 것을 말한다. 제7호 "위치기반서비스사업"이라 함은 위치정보를 이용한 서비스를 제공하는 것을 사업으로 영위하는 것을 말한다.</div>
+<!-- 근거: 위치정보의 보호 및 이용 등에 관한 법률 제2조제6호·제7호 (법률 제21066호, 2025. 10. 1. 시행) -->
+<p>2026년 기준 세 유형을 한 표로 정리하면 다음과 같습니다. 소관 기관은 세 유형 모두 방송미디어통신위원회입니다.</p>
+<table>
+<thead><tr><th>구분</th><th>대상</th><th>절차</th><th>법인 요건</th><th>근거 조문</th></tr></thead>
+<tbody>
+<tr><td>개인위치정보사업</td><td>개인위치정보를 수집·제공</td><td>등록(심사)</td><td>법인만 가능</td><td>법 제5조</td></tr>
+<tr><td>사물위치정보사업</td><td>개인위치정보가 아닌 위치정보만 수집·제공</td><td>신고(수리)</td><td>제한 없음</td><td>법 제5조의2</td></tr>
+<tr><td>위치기반서비스사업</td><td>개인위치정보를 이용한 서비스 제공</td><td>신고(수리)</td><td>제한 없음</td><td>법 제9조</td></tr>
+</tbody>
+</table>
+<p>중요한 예외가 하나 있습니다. <strong>개인위치정보를 대상으로 하지 않는 위치기반서비스사업은 신고 대상에서 제외</strong>됩니다(법 제9조제1항 괄호). 즉 사물의 위치정보만 이용해 서비스를 제공한다면 위치기반서비스사업 신고 의무 자체가 발생하지 않습니다. 실무에서 가장 자주 오해가 생기는 지점이므로, 수집·이용하는 위치정보가 특정 개인을 식별할 수 있는지부터 법무 검토를 받는 편이 안전합니다.</p>
+<!-- 근거: 위치정보법 제9조제1항 (개인위치정보를 대상으로 하지 아니하는 위치기반서비스사업은 제외) -->
+
+<h2>2. 개인위치정보사업 — 등록 대상</h2>
+<p>개인위치정보를 수집해 위치기반서비스사업자에게 제공하려면 방송미디어통신위원회에 <strong>등록</strong>해야 합니다. 신고가 아니라 요건 심사를 거치는 등록이라는 점, 그리고 <strong>법인만 신청할 수 있다</strong>는 점이 나머지 두 유형과 결정적으로 다릅니다. 개인사업자는 법인 전환 없이는 진입할 수 없습니다.</p>
+<p>법 제5조제1항은 등록 요건을 네 가지로 정하고 있습니다.</p>
+<ul>
+<li><strong>법인일 것</strong> — 개인사업자 불가</li>
+<li><strong>물적 시설</strong> — 사업목적을 달성하기에 필요한 설비 보유</li>
+<li><strong>기술적·관리적 조치</strong> — 개인위치정보 및 개인위치정보주체 등의 권리 보호를 위한 조치</li>
+<li><strong>결격사유 없을 것</strong> — 법 제5조제1항제4호 각 목에 해당하지 않을 것</li>
+</ul>
+<p>등록 신청 시에는 상호, 주된 사무소의 소재지, 위치정보사업의 종류 및 내용, 위치정보시스템을 포함한 사업용 주요 설비를 기재합니다. 첨부 서류는 시행령 별표 1의 기재사항이 포함된 <strong>사업계획서</strong>와, 설립예정법인인 경우 <strong>주주명부</strong>입니다. 법인 등기사항증명서는 행정정보 공동이용으로 확인하므로 별도 제출이 필요 없습니다.</p>
+<!-- 근거: 위치정보법 시행령 제2조제2항·제3항 (대통령령 제36084호, 2026. 2. 10. 시행) -->
+<p>처리 기간은 신청서를 제출받은 날부터 <strong>2개월 이내</strong> 등록 여부 통보이며, 부득이한 사정이 있으면 2개월의 범위에서 1회 연장될 수 있습니다. 서류 보완에 소요된 기간은 이 2개월에 산입되지 않으므로, 보완 요구를 여러 차례 받으면 실제 소요 기간은 훨씬 길어집니다. 사업계획서의 완성도가 곧 처리 속도라고 보면 됩니다.</p>
+<!-- 근거: 위치정보법 시행령 제2조제5항 (제출받은 날부터 2개월 이내 통보, 2개월 범위 1회 연장, 보완기간 불산입) -->
+<p>심사를 통과하면 등록증이 발급되고, 등록대장에는 등록번호와 등록연월일, 상호 및 대표자 성명, 사업의 종류·내용, 주된 사무소 소재지, 자본금 또는 자산평가액, 사업용 주요 설비의 내용 및 설치 장소, 등록조건이 기재됩니다. 방송미디어통신위원회는 위치정보의 정확성·신뢰성 제고나 개인위치정보 보호를 위한 연구·개발이 필요하다고 판단하면 <strong>등록에 조건을 붙일 수 있고</strong>, 이 조건을 이행하지 않으면 등록 취소나 사업 폐지 명령의 사유가 됩니다.</p>
+<!-- 근거: 위치정보법 제5조제5항, 제13조제1항제1호의2, 시행령 제5조제1항 -->
+
+<h2>3. 사물위치정보사업 — 신고 대상</h2>
+<p>개인위치정보를 대상으로 하지 않는 위치정보사업, 즉 <strong>사물위치정보사업</strong>은 등록이 아니라 신고로 처리됩니다. 차량 관제, 물류 자산 추적, IoT 기기 위치 수집처럼 특정 개인을 식별하지 않는 위치정보만 다루는 사업이 여기에 해당합니다. 법인 요건이 없어 개인사업자도 신고할 수 있습니다.</p>
+<p>신고 사항은 상호, 주된 사무소의 소재지, 위치정보사업의 종류 및 내용, 위치정보시스템을 포함한 사업용 주요 설비 네 가지입니다. 첨부 서류는 다음과 같습니다.</p>
+<table>
+<thead><tr><th>번호</th><th>서류명</th><th>비고</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>사물위치정보사업 신고서</td><td>전자문서 가능</td></tr>
+<tr><td>2</td><td>사업자 현황 및 사업 내용이 포함된 사업계획서</td><td></td></tr>
+<tr><td>3</td><td>사업용 주요설비의 내용 및 설치 장소를 확인할 수 있는 서류</td><td></td></tr>
+<tr><td>4</td><td>위치정보 보호조치를 증명하는 서류</td><td>법 제16조 기술적·관리적 조치</td></tr>
+</tbody>
+</table>
+<!-- 근거: 위치정보법 제5조의2제1항, 시행령 제5조의2제1항 -->
+<p>주의할 제한이 하나 있습니다. 법 제13조제1항에 따른 <strong>사업 폐지명령을 받은 후 1년이 지나지 않은 자</strong>(법인인 경우 그 대표자 포함)는 사물위치정보사업 신고를 할 수 없습니다. 법인을 새로 세워도 대표자가 동일하면 막히므로, 과거 처분 이력이 있다면 신고 전에 기간부터 확인해야 합니다.</p>
+<p>한편 개인위치정보사업 등록을 신청하면서 사물위치정보사업 신고에 필요한 서류를 함께 첨부한 경우에는 <strong>사물위치정보사업 신고를 한 것으로 봅니다</strong>. 개인위치정보와 사물위치정보를 모두 다루는 사업자라면 절차를 한 번에 묶을 수 있는 실무상 유용한 조항입니다.</p>
+<!-- 근거: 위치정보법 제5조의2제2항·제5항 -->
+
+<h2>4. 위치기반서비스사업 — 신고 대상</h2>
+<p>수집된 위치정보를 활용해 이용자에게 서비스를 제공하는 사업은 <strong>위치기반서비스사업 신고</strong> 대상입니다. 배달 애플리케이션, 차량 호출, 지도·내비게이션, 주변 매장 검색, 안심 귀가 서비스 등 대부분의 위치 기반 앱 서비스가 여기에 들어갑니다. 위치정보를 직접 측위하지 않고 통신사나 지도 사업자로부터 제공받아 쓰더라도 신고 대상이라는 점을 놓치기 쉽습니다.</p>
+<p>신고 사항은 상호, 주된 사무소의 소재지, 사업의 종류, 위치정보시스템을 포함한 사업용 주요 설비이며, 첨부 서류는 사업계획서·주요설비 확인 서류·위치정보 보호조치 증명 서류로 사물위치정보사업 신고와 동일한 구성입니다. 법인 등기사항증명서 또는 사업자등록증명은 행정정보 공동이용으로 확인합니다.</p>
+<!-- 근거: 위치정보법 제9조제1항, 시행령 제9조제1항·제3항 -->
+<p>사물위치정보사업과 마찬가지로 <strong>사업 폐지명령을 받은 후 1년이 지나지 않은 자</strong>는 신고할 수 없습니다. 또한 개인위치정보사업 등록을 신청하면서 위치기반서비스사업 신고에 필요한 서류를 첨부한 경우에는 위치기반서비스사업 신고를 한 것으로 봅니다. 위치정보를 직접 수집하면서 자사 앱 서비스까지 운영하는 구조라면 이 의제 규정을 활용해 등록·신고를 한 건으로 진행하는 편이 효율적입니다.</p>
+<!-- 근거: 위치정보법 제9조제2항·제4항 -->
+<p>신고를 마친 뒤에는 이용약관 공개 의무와 개인위치정보 처리방침 공개 의무가 따라붙습니다. 위치기반서비스사업자는 서비스 내용과 위치정보의 수집·이용·제공에 관한 요금 및 조건 등을 홈페이지 등에 공개해야 하고, 변경 시에는 그 이유와 변경내용을 지체 없이 공개해야 합니다. 「개인정보 보호법」에 따라 개인정보 처리방침을 공개할 때에는 개인위치정보의 처리목적·보유기간, 확인자료의 보유근거·보유기간, 파기 절차·방법, 제3자 제공에 관한 사항을 포함해야 합니다. 상세한 신고 절차는 <a href="/blog/location-based-service-domestic-registration-guide">위치기반서비스 사업신고 절차 가이드</a>에서, 외국 법인의 국내 신고 방법은 <a href="/blog/location-based-service-business-registration-foreign-company">외국 기업 위치기반서비스사업 신고 안내</a>에서 이어서 확인하실 수 있습니다.</p>
+<!-- 근거: 위치정보법 제12조제1항, 제21조의2 -->
+
+<h2>5. 소상공인·1인 창조기업 신고 특례</h2>
+<p>「소상공인기본법」 제2조에 따른 소상공인이나 「1인 창조기업 육성에 관한 법률」 제2조에 따른 1인 창조기업은 <strong>신고하지 않고 먼저 위치기반서비스사업을 시작할 수 있습니다</strong>. 초기 창업자가 서비스 출시 전에 행정 절차로 발목 잡히지 않도록 마련된 특례입니다. 다만 무기한 면제가 아니라 유예에 가깝습니다.</p>
+<p>사업을 개시한 지 1개월이 지난 뒤에도 계속해서 위치기반서비스사업을 하려는 자는 <strong>사업 개시일부터 1개월 이내</strong>에 상호, 주된 사무소의 소재지, 사업의 종류 및 내용을 신고해야 합니다. 신고 방법은 소상공인등임을 증명하는 서류와 신고서를 제출하거나, 방송미디어통신위원회가 지정하는 정보시스템에 신고사항을 입력하는 것입니다.</p>
+<!-- 근거: 위치정보법 제9조의2제1항, 시행령 제10조제1항 -->
+<div class="highlight-box"><strong>[위치정보법 제9조의2제1항 단서]</strong> 다만, 사업을 개시한 지 1개월이 지난 후에도 계속해서 위치기반서비스사업을 하려는 자는 사업을 개시한 날부터 1개월 이내에 다음 각 호의 사항을 대통령령으로 정하는 바에 따라 방송미디어통신위원회에 신고하여야 한다.</div>
+<p>특례 적용 후 관리해야 할 기한도 두 가지 더 있습니다.</p>
+<ul>
+<li><strong>변경신고:</strong> 신고한 상호 또는 주된 사무소의 소재지를 변경한 경우, 변경한 날부터 1개월 이내<!-- 근거: 위치정보법 제9조의2제3항 --></li>
+<li><strong>일반 신고로의 전환:</strong> 소상공인등에 해당하지 않게 된 경우, 그 사유가 발생한 날부터 1개월 이내에 일반 위치기반서비스사업 신고에 필요한 사항을 보완하여 신고<!-- 근거: 위치정보법 제9조의2제4항 --></li>
+</ul>
+<p>성장 단계 스타트업이 가장 많이 놓치는 것이 바로 두 번째입니다. 매출이나 상시 근로자 수가 늘어 소상공인 기준을 벗어난 순간부터 1개월이라는 시계가 돌아가며, 이를 넘기면 특례가 아니라 <strong>무신고 영업</strong>이 됩니다. 소상공인 요건 이탈 여부는 회계연도 결산 시점에 함께 점검하는 것을 권합니다.</p>
+
+<h2>6. 변경·양수·휴업·폐업 신고 의무</h2>
+<p>최초 등록·신고를 마쳤다고 끝이 아닙니다. 위치정보법은 사업 운영 중 발생하는 변동에 대해 유형별로 다른 후속 절차를 요구합니다. 특히 개인위치정보사업자는 같은 사안이라도 신고가 아닌 <strong>변경등록·인가·승인</strong>이라는 더 무거운 절차를 밟아야 한다는 점이 핵심입니다.</p>
+<table>
+<thead><tr><th>변동 사유</th><th>개인위치정보사업자</th><th>사물위치정보사업자</th><th>위치기반서비스사업자</th></tr></thead>
+<tbody>
+<tr><td>위치정보시스템 변경</td><td>변경등록</td><td>변경신고</td><td>변경신고</td></tr>
+<tr><td>상호·주된 사무소 소재지 변경</td><td>변경신고</td><td>변경신고</td><td>변경신고</td></tr>
+<tr><td>사업 양수·법인 합병·분할</td><td>인가</td><td>신고</td><td>신고</td></tr>
+<tr><td>휴업·폐업</td><td>승인</td><td>신고</td><td>신고</td></tr>
+</tbody>
+</table>
+<!-- 근거: 위치정보법 제5조제2항, 제5조의2제3항, 제7조, 제8조, 제9조제3항, 제10조, 제11조 -->
+<p>휴업에는 공통 상한이 있습니다. <strong>휴업기간은 1년을 초과할 수 없습니다.</strong> 휴업기간이 지난 뒤 정당한 사유 없이 사업을 개시하지 않으면 등록 취소나 사업 폐지·정지 명령의 대상이 됩니다. 또한 승인을 받거나 신고를 하지 않고 6개월 이상 계속 사업을 하지 않은 경우에도 같은 처분 사유에 해당합니다.</p>
+<!-- 근거: 위치정보법 제8조제1항, 제11조제1항, 제13조제1항제2호·제3호 -->
+<p>이용자 통보와 파기 의무도 함께 발생합니다. 휴업·폐업 승인을 받은 개인위치정보사업자는 휴업 또는 폐업하려는 날의 <strong>30일 전까지</strong> 개인위치정보주체에게 범위와 기간(또는 폐업일자)을 통보해야 하고, 휴업·폐업과 동시에 개인위치정보 및 위치정보 수집사실 확인자료를 파기해야 합니다. 위치기반서비스사업자 역시 휴업·폐업하려는 날의 30일 전까지 개인위치정보주체에게 통보하고 신고해야 하며, 폐업과 동시에 개인위치정보 및 위치정보 이용·제공사실 확인자료를 파기해야 합니다. 폐업 신고 시에는 통보 사실과 파기 사실을 증명하는 서류를 함께 제출합니다.</p>
+<!-- 근거: 위치정보법 제8조제3항·제4항, 제11조제1항·제2항, 시행령 제12조제1항 -->
+
+<h2>7. 미등록·미신고 시 처벌 기준</h2>
+<p>위치정보법의 제재는 절차 유형에 따라 수위가 명확히 갈립니다. 등록 대상인 개인위치정보사업을 등록 없이 하는 경우가 가장 무겁고, 신고 대상 사업을 신고 없이 하는 경우가 그다음입니다. 아래 수치는 모두 법률에 직접 규정된 법정형·과태료 상한입니다.</p>
+<table>
+<thead><tr><th>위반 행위</th><th>제재</th><th>근거 조문</th></tr></thead>
+<tbody>
+<tr><td>등록 없이 위치정보사업 영위 / 거짓·부정한 방법으로 등록</td><td>5년 이하 징역 또는 5천만 원 이하 벌금</td><td>법 제39조제1호</td></tr>
+<tr><td>변경등록 없이 위치정보사업 영위</td><td>3년 이하 징역 또는 3천만 원 이하 벌금</td><td>법 제40조제1호</td></tr>
+<tr><td>신고 없이 사물위치정보사업 영위</td><td>3년 이하 징역 또는 3천만 원 이하 벌금</td><td>법 제40조제1호의2</td></tr>
+<tr><td>신고 없이 위치기반서비스사업 영위(소상공인 특례 기한 도과 포함)</td><td>3년 이하 징역 또는 3천만 원 이하 벌금</td><td>법 제40조제2호</td></tr>
+<tr><td>승인 없이 휴업·폐업</td><td>2천만 원 이하 과태료</td><td>법 제43조제1항제3호</td></tr>
+<tr><td>양수·상속·합병·분할 신고 미이행</td><td>1천만 원 이하 과태료</td><td>법 제43조제2항제1호</td></tr>
+<tr><td>휴업·폐업 신고 미이행</td><td>1천만 원 이하 과태료</td><td>법 제43조제2항제2호</td></tr>
+<tr><td>이용약관 미공개 / 개인위치정보 처리방침 미공개</td><td>1천만 원 이하 과태료</td><td>법 제43조제2항제3호·제7호의2</td></tr>
+</tbody>
+</table>
+<!-- 근거: 위치정보법 제39조, 제40조, 제43조 (법률 제21066호, 2025. 10. 1. 시행) -->
+<p>형사처벌과 별개로 행정처분도 병행됩니다. 거짓이나 그 밖의 부정한 방법으로 등록·변경등록·인가를 받거나 신고를 한 때에는 방송미디어통신위원회가 <strong>반드시 등록·인가를 취소하거나 사업 폐지를 명해야</strong> 하며(법 제13조제1항 단서), 그 밖의 사유에 대해서는 6개월 이내의 사업 정지를 명할 수 있습니다. 폐지명령을 받으면 1년간 신규 신고가 막히므로 사업 연속성에 미치는 타격이 큽니다.</p>
+<p>정리하면, 실무에서 가장 위험한 조합은 "개인위치정보를 다루면서 신고 대상이라고 판단하고 넘어간 경우"입니다. 유형 판단이 곧 처벌 수위 판단이므로, 서비스 기획 단계에서 위치정보 흐름도를 그려 두고 각 단계의 정보가 개인위치정보인지부터 확정하시기 바랍니다. 업종별 인허가 판단이 애매할 때 확인할 점은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>에 정리해 두었습니다.</p>
+
+<div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
+<div class="faq-item"><p class="faq-q">Q. 개인사업자도 개인위치정보사업 등록을 할 수 있나요?</p><p class="faq-a">A. 할 수 없습니다. 위치정보법 제5조제1항제1호는 등록 요건으로 "법인일 것"을 명시하고 있어, 개인사업자는 법인 전환 후에만 신청할 수 있습니다. 반면 사물위치정보사업 신고와 위치기반서비스사업 신고에는 법인 요건이 없습니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 위치정보를 직접 수집하지 않고 지도 API만 가져다 쓰는 앱도 신고 대상인가요?</p><p class="faq-a">A. 개인위치정보를 이용해 이용자에게 서비스를 제공한다면 위치정보를 직접 측위하지 않더라도 위치기반서비스사업 신고 대상입니다. 다만 개인위치정보를 대상으로 하지 않는 위치기반서비스사업은 신고 대상에서 제외됩니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 개인위치정보사업 등록은 얼마나 걸리나요?</p><p class="faq-a">A. 시행령 제2조제5항에 따라 신청서를 제출받은 날부터 2개월 이내에 등록 여부를 통보하며, 부득이한 사정이 있으면 2개월의 범위에서 1회 연장될 수 있습니다. 서류 보완에 걸린 기간은 이 2개월에 포함되지 않습니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 소상공인 특례로 신고 없이 서비스를 시작했는데 언제까지 신고해야 하나요?</p><p class="faq-a">A. 사업을 개시한 지 1개월이 지난 뒤에도 계속 운영하려면 사업 개시일부터 1개월 이내에 신고해야 합니다. 이후 소상공인등에 해당하지 않게 되면 사유 발생일부터 1개월 이내에 일반 신고로 보완해야 합니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 사무실을 이전하면 어떤 절차를 밟아야 하나요?</p><p class="faq-a">A. 세 유형 모두 주된 사무소 소재지 변경은 변경신고 대상입니다. 다만 개인위치정보사업자가 위치정보시스템을 변경하는 경우에는 변경신고가 아닌 변경등록 대상이므로, 이전과 함께 서버 등 주요 설비를 옮긴다면 변경등록으로 처리해야 합니다.</p></div>
+<div class="faq-item"><p class="faq-q">Q. 등록·신고 대행 비용은 얼마인가요?</p><p class="faq-a">A. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p></div>
+</div>
+
+<p>조문 원문은 <a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률" target="_blank" rel="noopener">국가법령정보센터 — 위치정보의 보호 및 이용 등에 관한 법률</a>과 <a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률시행령" target="_blank" rel="noopener">같은 법 시행령</a>에서 확인하실 수 있습니다.</p>
+
+<div class="cta-block">
+ <h3>전문가 상담 신청하기</h3>
+ <p>위치정보사업 등록과 위치기반서비스사업 신고, 유형 판단부터 사업계획서 작성·보완 대응까지 유선행정사사무소가 함께합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">무료 상담 신청하기</a>
+</div>
+
+<p class="author-block">유선행정사사무소 (대표 행정사 정유선) · 「위치정보의 보호 및 이용 등에 관한 법률」(법률 제21066호, 2025. 10. 1. 시행) 및 같은 법 시행령(대통령령 제36084호, 2026. 2. 10. 시행) 기준으로 작성 · 최종 검토일 9월 16일</p>`
   }
 ]
 

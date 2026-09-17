@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
-  title: '회사소개 | 비전행정사사무소',
-  description: '50개 이상 업종, 100건+ 인허가 처리 경험의 비전행정사사무소. 대표 이원중 행정사 및 전문 팀이 처음부터 끝까지 책임집니다.',
+  title: '회사소개 | 유선행정사사무소',
+  description: '50개 이상 업종, 100건+ 인허가 처리 경험의 유선행정사사무소. 대표 정유선 행정사 및 전문 팀이 처음부터 끝까지 책임집니다.',
   alternates: {
     canonical: 'https://inhega.co.kr/about',
     languages: {
@@ -15,26 +15,27 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: '회사소개 | 비전행정사사무소',
-    description: '50개 이상 업종, 100건+ 인허가 처리 경험의 비전행정사사무소. 6인의 행정사가 처음부터 끝까지 책임집니다.',
+    title: '회사소개 | 유선행정사사무소',
+    description: '50개 이상 업종, 100건+ 인허가 처리 경험의 유선행정사사무소. 3인의 행정사가 처음부터 끝까지 책임집니다.',
     url: 'https://inhega.co.kr/about',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '비전행정사사무소 팀' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 팀' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '회사소개 | 비전행정사사무소', images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: '회사소개 | 유선행정사사무소', images: ['/images/hero-seoul.png'] },
 }
 
 const team = [
-  { name: '이원중', title: '대표행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/leewj.jpg' },
-  { name: '한경택', title: '행정사', specialty: '출입국 전문', lang: 'KR · EN', photo: '/images/team/hankt.jpg' },
+  { name: '정유선', title: '대표행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/jungyus.jpg' },
   { name: '정희정', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/junghj.jpg' },
-  { name: '정유선', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/jungyus.jpg' },
-  { name: '이시정', title: '행정사', specialty: '출입국 전문', lang: 'KR · EN', photo: '/images/team/leesj.jpg' },
   { name: '김정은', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/kimje.jpg' },
+  { name: '이원중', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/leewj.jpg' },
   { name: '백승수', title: '사무장', specialty: '은행 업무 담당', lang: 'KR · EN', photo: '/images/team/baekss.jpg' },
   { name: '김영주', title: '실장', specialty: '사업자등록증 업무', lang: 'KR · EN', photo: '/images/team/kimyj.jpg' },
   { name: '허경', title: '실장', specialty: '중국어 통역·번역', lang: '中文 · KR · EN', photo: '/images/team/hukyung.jpg' },
 ]
+
+const teamAdmins = team.filter((m) => m.title.includes('행정사'))
+const teamStaff = team.filter((m) => !m.title.includes('행정사'))
 
 const expertise = [
   { title: '물류·유통 인허가', desc: '국제물류주선업, 담배수입판매업, 전자담배 등' },
@@ -55,11 +56,11 @@ export default function AboutPage() {
             <div>
               <span className="badge badge-white text-label fade-up">회사소개</span>
               <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-                인허가 전문,<br />비전행정사사무소
+                인허가 전문,<br />유선행정사사무소
               </h1>
               <span className="accent-line fade-up delay-2" style={{ marginTop: '1.5rem', background: 'var(--burgundy)' }} />
               <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1.5rem' }}>
-                비전행정사사무소는 50개 이상의 업종, 100건 이상의 인허가 처리 경험을 보유한 전문 행정사 사무소입니다. 대표 이원중 행정사를 포함한 6인의 행정사와 3인의 실무 사무장들이 처음부터 끝까지 책임집니다.
+                유선행정사사무소는 50개 이상의 업종, 100건 이상의 인허가 처리 경험을 보유한 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무 사무장들이 처음부터 끝까지 책임집니다.
               </p>
             </div>
             <div className="fade-in delay-3" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
@@ -116,14 +117,14 @@ export default function AboutPage() {
               사업을 시작하거나 확장하는 과정에서 인허가 문제로 어려움을 겪으시는 분들을 많이 만났습니다.
               복잡한 법령, 까다로운 서류, 길고 불투명한 처리 과정 앞에서 막막함을 느끼시는 것은 당연한 일입니다.
               <br /><br />
-              비전행정사사무소는 그 막막함을 해결하는 전문 파트너입니다. 저희는 단순히 서류를 제출하는 대행사가 아닙니다.
+              유선행정사사무소는 그 막막함을 해결하는 전문 파트너입니다. 저희는 단순히 서류를 제출하는 대행사가 아닙니다.
               귀하의 사업 목표를 이해하고, 최적의 경로로 인허가를 완성하여 사업의 성공을 함께 만들어가겠습니다.
             </p>
             <footer style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <img src="/images/team/leewj.jpg" alt="이원중 대표 행정사" style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
+              <img src="/images/team/jungyus.jpg" alt="정유선 대표 행정사" style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
               <div>
-                <p style={{ fontWeight: 700, color: 'var(--charcoal)' }}>대표 행정사 이원중</p>
-                <p style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>비전행정사사무소 대표 | 사업자등록번호 405-05-54079</p>
+                <p style={{ fontWeight: 700, color: 'var(--charcoal)' }}>대표 행정사 정유선</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>유선행정사사무소 대표 | 사업자등록번호 722-39-01297</p>
               </div>
             </footer>
           </blockquote>
@@ -135,12 +136,14 @@ export default function AboutPage() {
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 36px' }}>
             <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#235099', marginBottom: '8px' }}>전문가 소개</div>
-            <h2 style={{ fontSize: '36px', margin: '0 0 12px', letterSpacing: '-0.015em', color: '#235099' }}>비전행정사사무소 전문가 소개</h2>
+            <h2 style={{ fontSize: '36px', margin: '0 0 12px', letterSpacing: '-0.015em', color: '#235099' }}>유선행정사사무소 전문가 소개</h2>
             <p style={{ fontSize: '15px', color: '#4B5563', lineHeight: 1.7, wordBreak: 'keep-all' }}>담당 행정사가 케이스 처음부터 끝까지 직접 진행합니다. 상담후 담당자가 지정됩니다.</p>
           </div>
-          <div className="vk-team-grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', justifyContent: 'center', maxWidth: '1200px', margin: '0 auto' }}>
-            {team.map((m) => (
-              <div key={m.name} style={{ textAlign: 'center', flex: '0 0 calc((100% - 32px * 5) / 6)', minWidth: '140px' }}>
+          <div style={{ marginBottom: '2.5rem' }}>
+            <h3 style={{ textAlign: 'center', fontSize: '16px', fontWeight: 700, color: '#235099', marginBottom: '1.25rem' }}>행정사</h3>
+            <div className="vk-team-grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', justifyContent: 'center', maxWidth: '900px', margin: '0 auto' }}>
+              {teamAdmins.map((m) => (
+                <div key={m.name} style={{ textAlign: 'center', flex: '0 0 160px', minWidth: '140px' }}>
                 <div style={{ width: '144px', height: '144px', margin: '0 auto 14px', borderRadius: '50%', overflow: 'hidden', background: '#dce8f5', border: '2px solid #E5E7EB', boxShadow: '0 1px 3px rgba(11,31,58,.08)' }}>
                   <img src={m.photo} alt={`${m.name} ${m.title}`} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </div>
@@ -148,7 +151,23 @@ export default function AboutPage() {
                 <h3 style={{ fontSize: '15px', margin: '4px 0 4px', color: '#235099', fontWeight: 700 }}>{m.name}</h3>
                 <div style={{ fontSize: '11px', marginTop: '4px', color: '#6B7280', fontFamily: 'monospace' }}>{m.lang}</div>
               </div>
-            ))}
+              ))}
+            </div>
+          </div>
+          <div>
+            <h3 style={{ textAlign: 'center', fontSize: '16px', fontWeight: 700, color: '#235099', marginBottom: '1.25rem' }}>사무장 · 실장</h3>
+            <div className="vk-team-grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', justifyContent: 'center', maxWidth: '720px', margin: '0 auto' }}>
+              {teamStaff.map((m) => (
+                <div key={m.name} style={{ textAlign: 'center', flex: '0 0 160px', minWidth: '140px' }}>
+                <div style={{ width: '144px', height: '144px', margin: '0 auto 14px', borderRadius: '50%', overflow: 'hidden', background: '#dce8f5', border: '2px solid #E5E7EB', boxShadow: '0 1px 3px rgba(11,31,58,.08)' }}>
+                  <img src={m.photo} alt={`${m.name} ${m.title}`} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                </div>
+                <div style={{ fontSize: '11px', color: '#235099', fontWeight: 700, letterSpacing: '0.04em' }}>{m.title}</div>
+                <h3 style={{ fontSize: '15px', margin: '4px 0 4px', color: '#235099', fontWeight: 700 }}>{m.name}</h3>
+                <div style={{ fontSize: '11px', marginTop: '4px', color: '#6B7280', fontFamily: 'monospace' }}>{m.lang}</div>
+              </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -186,7 +205,7 @@ export default function AboutPage() {
               <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {[
                   { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩) | 동대문역사문화공원역 4번출구 10미터' },
-                  { label: '이메일', value: '5000meter@gmail.com' },
+                  { label: '이메일', value: 'teamone1163@gmail.com' },
                   { label: '메신저', value: '카카오·라인·위챗·왓츠앱 alexkorea' },
                 ].map((c) => (
                   <div key={c.label} style={{ display: 'flex', gap: '1rem' }}>
@@ -215,7 +234,7 @@ export default function AboutPage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="비전행정사사무소 위치"
+                title="유선행정사사무소 위치"
               />
             </div>
           </div>

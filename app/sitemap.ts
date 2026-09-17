@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs } from '@/lib/i18n/blog-i18n'
+import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 
 const services = [
   'logistics', 'currency-exchange', 'urban-guesthouse', 'hostel', 'hanok',
@@ -31,7 +32,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  const blogPages = blogPosts.map((post) => ({
+  // Slugs that 301 elsewhere must not be submitted — GSC flags them as "Page with redirect".
+  const indexablePosts = blogPosts.filter((post) => !REDIRECTED_BLOG_SLUGS.has(post.slug))
+
+  const blogPages = indexablePosts.map((post) => ({
     url: `${base}/blog/${post.slug}`,
     lastModified: new Date(post.created_at),
     changeFrequency: 'monthly' as const,
@@ -74,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   const langBlogPostPages = locales.flatMap((l) => {
-    const translatedSlugs = getAllTranslatedSlugs(l)
+    const translatedSlugs = getAllTranslatedSlugs(l).filter((slug) => !REDIRECTED_BLOG_SLUGS.has(slug))
     return translatedSlugs.map((slug) => {
       const post = blogPosts.find((p) => p.slug === slug)
       return {

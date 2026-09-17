@@ -123,7 +123,7 @@ slug: "food-manufacturing-registration-guide-2026"
 
 ---
 
-식품제조가공업 등록은 시설 기준이 복잡하고 현장 점검이 수반되어 전문가 동행이 효율적입니다. **비전행정사사무소(02-363-2251)**에서 처음부터 끝까지 도와드립니다.
+식품제조가공업 등록은 시설 기준이 복잡하고 현장 점검이 수반되어 전문가 동행이 효율적입니다. **유선행정사사무소(02-363-2251)**에서 처음부터 끝까지 도와드립니다.
 
 <div style="background:#A33344;color:#fff;padding:20px;border-radius:8px;text-align:center;margin-top:32px;">
 <strong>식품 인허가 전문 상담</strong><br/>

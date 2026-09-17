@@ -31,8 +31,8 @@ type LocaleData = {
 const d: Record<Locale, LocaleData> = {
   ko: {
     badge: '회사소개',
-    h1: ['인허가 전문,', '비전행정사사무소'],
-    heroBody: '비전행정사사무소는 50개 이상의 업종, 100건 이상의 인허가 처리 경험을 보유한 전문 행정사 사무소입니다. 대표 이원중 행정사를 포함한 6인의 행정사와 3인의 실무 사무장들이 처음부터 끝까지 책임집니다.',
+    h1: ['인허가 전문,', '유선행정사사무소'],
+    heroBody: '유선행정사사무소는 50개 이상의 업종, 100건 이상의 인허가 처리 경험을 보유한 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 3인의 행정사와 4인의 실무 사무장들이 처음부터 끝까지 책임집니다.',
     stats: [
       { value: '100+', label: '성공적인 인허가 지원' },
       { value: '50+', label: '다양한 업종 경험' },
@@ -42,10 +42,10 @@ const d: Record<Locale, LocaleData> = {
     greetingBadge: '대표 인사말',
     greetingText: [
       '사업을 시작하거나 확장하는 과정에서 인허가 문제로 어려움을 겪으시는 분들을 많이 만났습니다. 복잡한 법령, 까다로운 서류, 길고 불투명한 처리 과정 앞에서 막막함을 느끼시는 것은 당연한 일입니다.',
-      '비전행정사사무소는 그 막막함을 해결하는 전문 파트너입니다. 저희는 단순히 서류를 제출하는 대행사가 아닙니다. 귀하의 사업 목표를 이해하고, 최적의 경로로 인허가를 완성하여 사업의 성공을 함께 만들어가겠습니다.',
+      '유선행정사사무소는 그 막막함을 해결하는 전문 파트너입니다. 저희는 단순히 서류를 제출하는 대행사가 아닙니다. 귀하의 사업 목표를 이해하고, 최적의 경로로 인허가를 완성하여 사업의 성공을 함께 만들어가겠습니다.',
     ],
-    greetingAuthor: '대표 행정사 이원중',
-    greetingTitle: '비전행정사사무소 대표 | 사업자등록번호 405-05-54079',
+    greetingAuthor: '대표 행정사 정유선',
+    greetingTitle: '유선행정사사무소 대표 | 사업자등록번호 722-39-01297',
     expertiseBadge: '전문 분야',
     expertiseH2: '6대 핵심 전문 분야',
     expertiseItems: [
@@ -60,7 +60,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: '찾아오시는 방법',
     contactRows: [
       { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩) | 동대문역사문화공원역 4번출구 10미터' },
-      { label: '이메일', value: '5000meter@gmail.com' },
+      { label: '이메일', value: 'teamone1163@gmail.com' },
       { label: '메신저', value: '카카오·라인·위챗·왓츠앱 ID: alexkorea' },
       { label: '업무시간', value: '평일 09:30 – 17:30 (KST)\n토·일·공휴일 휴무' },
     ],
@@ -71,8 +71,8 @@ const d: Record<Locale, LocaleData> = {
   },
   en: {
     badge: 'About',
-    h1: ['Visa & Licensing Specialists,', 'Vision Admin Office'],
-    heroBody: 'Vision Admin Office holds expertise across 50+ industries and 100+ completed licensing cases. Chief Admin Agent Lee Won-jung leads a team of 6 licensed agents and 3 office managers who handle every case from start to finish.',
+    h1: ['Visa & Licensing Specialists,', 'YouSun Administrative Attorney'],
+    heroBody: 'YouSun Administrative Attorney holds expertise across 50+ industries and 100+ completed licensing cases. Chief Admin Agent Jung Yu-sun leads a team of 3 licensed agents and 4 office managers who handle every case from start to finish.',
     stats: [
       { value: '100+', label: 'Successful Cases' },
       { value: '50+', label: 'Industries' },
@@ -82,10 +82,10 @@ const d: Record<Locale, LocaleData> = {
     greetingBadge: "Director's Message",
     greetingText: [
       "I've met many people who struggled with licensing issues while starting or expanding their business. Feeling overwhelmed by complex regulations, demanding paperwork, and long, opaque processes is completely understandable.",
-      "Vision Admin Office is your dedicated partner to overcome those challenges. We are not simply a document-filing agency. We take the time to understand your business goals and find the most efficient path to complete your licensing — so your business can succeed.",
+      "YouSun Administrative Attorney is your dedicated partner to overcome those challenges. We are not simply a document-filing agency. We take the time to understand your business goals and find the most efficient path to complete your licensing — so your business can succeed.",
     ],
-    greetingAuthor: 'Chief Admin Agent Lee Won-jung',
-    greetingTitle: 'Vision Admin Office | Business No. 405-05-54079',
+    greetingAuthor: 'Chief Admin Agent Jung Yu-sun',
+    greetingTitle: 'YouSun Administrative Attorney | Business No. 722-39-01297',
     expertiseBadge: 'Expertise',
     expertiseH2: '6 Core Specialty Areas',
     expertiseItems: [
@@ -100,7 +100,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: 'How to Find Us',
     contactRows: [
       { label: 'Address', value: '3F Seongwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul (04614) | 10m from Exit 4, Dongdaemun History & Culture Park Station' },
-      { label: 'Email', value: '5000meter@gmail.com' },
+      { label: 'Email', value: 'teamone1163@gmail.com' },
       { label: 'Messenger', value: 'KakaoTalk · LINE · WeChat · WhatsApp ID: alexkorea' },
       { label: 'Hours', value: 'Mon–Fri 09:30–17:30 (KST)\nSat, Sun & Public Holidays: Closed' },
     ],
@@ -111,8 +111,8 @@ const d: Record<Locale, LocaleData> = {
   },
   zh: {
     badge: '公司介绍',
-    h1: ['许可证专业，', '比前行政士事务所'],
-    heroBody: '比前行政士事务所拥有50个以上业种、100件以上许可证处理经验。代表李元中行政士及6名专业行政士与3名实务事务长，从始至终全程负责。',
+    h1: ['许可证专业，', 'YouSun Administrative Attorney'],
+    heroBody: 'YouSun Administrative Attorney拥有50个以上业种、100件以上许可证处理经验。代表郑有善行政士及3名专业行政士与4名实务事务长，从始至终全程负责。',
     stats: [
       { value: '100+', label: '成功案例' },
       { value: '50+', label: '业种经验' },
@@ -122,10 +122,10 @@ const d: Record<Locale, LocaleData> = {
     greetingBadge: '代表致辞',
     greetingText: [
       '在创业或拓展业务的过程中，我们接待了许多因许可证问题而苦恼的客户。面对复杂的法规、繁琐的文件和漫长不透明的审批流程，感到迷茫是完全正常的。',
-      '比前行政士事务所是帮助您克服这些困难的专业伙伴。我们不仅仅是一家文件代理机构，我们深入了解您的业务目标，寻找最优路径完成许可证申请，助力您的事业取得成功。',
+      'YouSun Administrative Attorney是帮助您克服这些困难的专业伙伴。我们不仅仅是一家文件代理机构，我们深入了解您的业务目标，寻找最优路径完成许可证申请，助力您的事业取得成功。',
     ],
-    greetingAuthor: '代表行政士 李元中',
-    greetingTitle: '比前行政士事务所 代表 | 营业执照号: 405-05-54079',
+    greetingAuthor: '代表行政士 郑有善',
+    greetingTitle: 'YouSun Administrative Attorney 代表 | 营业执照号: 722-39-01297',
     expertiseBadge: '专业领域',
     expertiseH2: '六大核心专业领域',
     expertiseItems: [
@@ -140,7 +140,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: '如何前来',
     contactRows: [
       { label: '地址', value: '首尔特别市中区退溪路324号成宇大厦3层(04614) | 东大门历史文化公园站4号出口步行10米' },
-      { label: '邮件', value: '5000meter@gmail.com' },
+      { label: '邮件', value: 'teamone1163@gmail.com' },
       { label: '即时通讯', value: 'KakaoTalk · LINE · WeChat · WhatsApp ID: alexkorea' },
       { label: '营业时间', value: '周一至周五 09:30–17:30 (KST)\n周六、周日及法定节假日休息' },
     ],
@@ -151,8 +151,8 @@ const d: Record<Locale, LocaleData> = {
   },
   ja: {
     badge: '事務所案内',
-    h1: ['許認可専門、', 'ビジョン行政書士事務所'],
-    heroBody: 'ビジョン行政書士事務所は50以上の業種、100件以上の許認可処理経験を持つ専門行政書士事務所です。代表の李元重行政書士を含む6名の行政書士と3名の事務スタッフが最初から最後まで責任を持って対応いたします。',
+    h1: ['許認可専門、', 'YouSun Administrative Attorney'],
+    heroBody: 'YouSun Administrative Attorneyは50以上の業種、100件以上の許認可処理経験を持つ専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
     stats: [
       { value: '100+', label: '成功実績' },
       { value: '50+', label: '業種対応' },
@@ -162,10 +162,10 @@ const d: Record<Locale, LocaleData> = {
     greetingBadge: '代表挨拶',
     greetingText: [
       '創業や事業拡張の過程で、許認可の問題にお困りの方を多く見てきました。複雑な法令、煩雑な書類、長くて不透明な手続きの前に途方に暮れるのは当然のことです。',
-      'ビジョン行政書士事務所は、その不安を解消するための専門パートナーです。私たちは単なる書類提出代行業者ではありません。お客様のビジネス目標をしっかり理解した上で、最適なルートで許認可を完成させ、事業の成功を共に実現いたします。',
+      'YouSun Administrative Attorneyは、その不安を解消するための専門パートナーです。私たちは単なる書類提出代行業者ではありません。お客様のビジネス目標をしっかり理解した上で、最適なルートで許認可を完成させ、事業の成功を共に実現いたします。',
     ],
-    greetingAuthor: '代表行政書士 李元重',
-    greetingTitle: 'ビジョン行政書士事務所 代表 | 事業者番号: 405-05-54079',
+    greetingAuthor: '代表行政書士 鄭有善',
+    greetingTitle: 'YouSun Administrative Attorney 代表 | 事業者番号: 722-39-01297',
     expertiseBadge: '専門分野',
     expertiseH2: '6つの核心専門分野',
     expertiseItems: [
@@ -180,7 +180,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: 'お越しの方へ',
     contactRows: [
       { label: '住所', value: 'ソウル特別市中区退溪路324 成宇ビル3F (04614) | 東大門歴史文化公園駅4番出口 徒歩10m' },
-      { label: 'メール', value: '5000meter@gmail.com' },
+      { label: 'メール', value: 'teamone1163@gmail.com' },
       { label: 'メッセンジャー', value: 'KakaoTalk · LINE · WeChat · WhatsApp ID: alexkorea' },
       { label: '営業時間', value: '月〜金 09:30–17:30（KST）\n土・日・祝日休み' },
     ],
@@ -257,7 +257,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
               {s.greetingText[0]}<br /><br />{s.greetingText[1]}
             </p>
             <footer style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <img src="/images/team/leewj.jpg" alt={s.greetingAuthor} style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
+              <img src="/images/team/jungyus.jpg" alt={s.greetingAuthor} style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
               <div>
                 <p style={{ fontWeight: 700, color: 'var(--charcoal)' }}>{s.greetingAuthor}</p>
                 <p style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>{s.greetingTitle}</p>
@@ -322,7 +322,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Vision Admin Office"
+                title="YouSun Administrative Attorney"
               />
             </div>
           </div>

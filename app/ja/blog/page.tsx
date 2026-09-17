@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import gridStyles from '@/app/services-list.module.css'
 
 export const metadata: Metadata = {
-  title: '韓国許認可ブログ | ビジョン行政書士事務所',
+  title: '韓国許認可ブログ | YouSun Administrative Attorney',
   description: '韓国ビジネス許認可の専門ガイド——国際物流主選業・外貨両替業・食品許可・HACCPなど、行政書士が執筆。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/blog',
@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: '韓国許認可ブログ | ビジョン行政書士事務所',
+    title: '韓国許認可ブログ | YouSun Administrative Attorney',
     description: '外国企業・投資家向け韓国許認可の専門ガイド。',
     url: 'https://inhega.co.kr/ja/blog',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'ビジョン行政書士事務所ブログ' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorneyブログ' }],
     type: 'website',
     locale: 'ja_JP',
   },
 }
 
-const PAGE_SIZE = 15
+const PAGE_SIZE = 16
 
 export default async function JaBlogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
   const { page: pageParam } = await searchParams

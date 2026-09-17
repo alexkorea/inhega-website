@@ -130,7 +130,7 @@ slug: "laundry-business-registration-guide-2026"
 
 ---
 
-세탁업 신고는 비교적 간단하지만 시설 기준과 환경 신고를 놓치는 경우가 많습니다. **비전행정사사무소(02-363-2251)**에서 세탁업 창업의 모든 신고 절차를 원스톱으로 지원합니다.
+세탁업 신고는 비교적 간단하지만 시설 기준과 환경 신고를 놓치는 경우가 많습니다. **유선행정사사무소(02-363-2251)**에서 세탁업 창업의 모든 신고 절차를 원스톱으로 지원합니다.
 
 <div style="background:#A33344;color:#fff;padding:20px;border-radius:8px;text-align:center;margin-top:32px;">
 <strong>세탁업·공중위생업 신고 전문 상담</strong><br/>

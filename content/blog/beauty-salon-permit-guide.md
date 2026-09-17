@@ -135,7 +135,7 @@ A. 네. 상호·소재지·대표자·면적 변경 시 변경신고를 해야 �
 
 <div style="background:#fff5f5;border:2px solid #A33344;border-radius:12px;padding:24px;margin:40px 0;text-align:center">
   <h3 style="color:#A33344;margin-top:0">미용업 신고·인허가 전문 상담</h3>
-  <p style="margin:8px 0">비전행정사사무소는 미용업 신고, 업종 변경, 위생 관련 인허가를 전문적으로 지원합니다.</p>
-  <p style="margin:8px 0"><strong>Tel. 02-363-2251</strong> | E. 5000meter@gmail.com</p>
+  <p style="margin:8px 0">유선행정사사무소는 미용업 신고, 업종 변경, 위생 관련 인허가를 전문적으로 지원합니다.</p>
+  <p style="margin:8px 0"><strong>Tel. 02-363-2251</strong> | E. teamone1163@gmail.com</p>
   <p style="margin:4px 0;color:#666;font-size:14px">평일 09:30 — 17:30 (점심 12:00 — 13:00)</p>
 </div>

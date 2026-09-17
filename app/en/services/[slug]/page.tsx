@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const svc = getServiceI18n('en', slug)
   if (!svc) return {}
   return {
-    title: `${svc.title} | Vision Administrative Office`,
+    title: `${svc.title} | YouSun Administrative Attorney`,
     description: svc.description,
     alternates: {
       canonical: `https://inhega.co.kr/en/services/${slug}`,
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       },
     },
     openGraph: {
-      title: `${svc.title} | Vision Administrative Office`,
+      title: `${svc.title} | YouSun Administrative Attorney`,
       description: svc.description,
       url: `https://inhega.co.kr/en/services/${slug}`,
       images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
@@ -60,7 +60,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
     description: svc.description,
     provider: {
       '@type': 'LegalService',
-      name: 'Vision Administrative Office',
+      name: 'YouSun Administrative Attorney',
       telephone: '02-363-2251',
       url: 'https://inhega.co.kr/en',
     },

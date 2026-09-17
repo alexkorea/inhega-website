@@ -122,7 +122,7 @@ slug: "hakwon-establishment-guide-2026"
 
 ---
 
-학원 설립은 교육청 등록 외에도 건축·소방·세무 등 여러 기관이 관여하므로 전문가의 도움이 효율적입니다. **비전행정사사무소(02-363-2251)**에서 학원설립 전 과정을 지원합니다.
+학원 설립은 교육청 등록 외에도 건축·소방·세무 등 여러 기관이 관여하므로 전문가의 도움이 효율적입니다. **유선행정사사무소(02-363-2251)**에서 학원설립 전 과정을 지원합니다.
 
 <div style="background:#A33344;color:#fff;padding:20px;border-radius:8px;text-align:center;margin-top:32px;">
 <strong>학원설립 전문 상담</strong><br/>

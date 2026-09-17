@@ -78,9 +78,9 @@ export default function FooterLang({ locale }: { locale: Locale }) {
           <div className={styles.topGrid}>
             <div className={styles.brandCol}>
               <div className={styles.logo}>
-                <div className={styles.logoMark}>V</div>
+                <div className={styles.logoMark}><img src="/logo.png" alt="YouSun Administrative Attorney logo" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
                 <div className={styles.logoText}>
-                  <span className={styles.logoMain}>Vision Admin Office</span>
+                  <span className={`${styles.logoMain} ${styles.logoMainEn}`}>YouSun Administrative Attorney</span>
                   <span className={styles.logoSub}>{t.tagline}</span>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function FooterLang({ locale }: { locale: Locale }) {
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                     <polyline points="22,6 12,13 2,6"/>
                   </svg>
-                  <a href="mailto:5000meter@gmail.com">5000meter@gmail.com</a>
+                  <a href="mailto:teamone1163@gmail.com">teamone1163@gmail.com</a>
                 </div>
                 <div className={styles.contactItem}>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

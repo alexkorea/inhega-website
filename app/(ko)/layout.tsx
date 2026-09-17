@@ -7,7 +7,7 @@ import ScrollAnimationInit from '@/components/ui/ScrollAnimationInit'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
-  title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 비전행정사사무소',
+  title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 유선행정사사무소',
   description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 의약외품허가, 전자담배수입허가, 비영리사단법인, 지정스포츠클럽, 호스텔업 등 모든 인허가·등록·신고를 행정사가 전담합니다.',
   keywords: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 의약외품허가, 전자담배수입허가, 비영리사단법인, 지정스포츠클럽, 호스텔업, 인허가 행정사, 인허가 신청',
   robots: { index: true, follow: true },
@@ -23,18 +23,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 비전행정사사무소',
+    title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 유선행정사사무소',
     description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 호스텔업 등 인허가 전문. 무료 초기 상담.',
     images: ['/images/hero-seoul.png'],
   },
   openGraph: {
-    title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 비전행정사사무소',
+    title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 유선행정사사무소',
     description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 호스텔업 등 인허가 전문. 무료 초기 상담.',
     url: 'https://inhega.co.kr',
-    siteName: '비전행정사사무소',
+    siteName: '유선행정사사무소',
     locale: 'ko_KR',
     type: 'website',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '인허가 행정사 비전행정사사무소' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '인허가 행정사 유선행정사사무소' }],
   },
 }
 
@@ -42,8 +42,8 @@ const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    name: '비전행정사사무소',
-    alternateName: 'Vision Administrative Office',
+    '@id': 'https://inhega.co.kr/#organization',
+    name: '유선행정사사무소',
     url: 'https://inhega.co.kr',
     logo: 'https://inhega.co.kr/images/hero-seoul.png',
     description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품·의약외품허가 등 모든 인허가 업무 전문 행정사 사무소',
@@ -56,9 +56,9 @@ const jsonLd = [
       postalCode: '04614',
       addressCountry: 'KR',
     },
-    email: '5000meter@gmail.com',
+    email: 'teamone1163@gmail.com',
     openingHours: 'Mo-Fr 09:30-17:30',
-    sameAs: ['https://blog.naver.com/inhe2018'],
+    sameAs: [],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: '인허가 서비스',
@@ -85,7 +85,7 @@ const jsonLd = [
         name: '위치기반서비스사업 신고는 어떻게 하나요?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: '위치기반서비스사업은 방송통신위원회에 신고해야 합니다. 사업계획서, 개인정보 처리방침, 보안설비 등을 준비해야 하며, 비전행정사사무소가 전 과정을 대행합니다.',
+          text: '위치기반서비스사업은 방송통신위원회에 신고해야 합니다. 사업계획서, 개인정보 처리방침, 보안설비 등을 준비해야 하며, 유선행정사사무소가 전 과정을 대행합니다.',
         },
       },
       {
@@ -117,7 +117,7 @@ const jsonLd = [
         name: '전자담배 수입허가는 어떤 절차가 필요한가요?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: '전자담배(액상형·궐련형) 수입은 기획재정부 지정 수입담배 허가와 식약처 안전성 심사가 필요합니다. 서류 준비부터 허가까지 비전행정사사무소가 대행합니다.',
+          text: '전자담배(액상형·궐련형) 수입은 기획재정부 지정 수입담배 허가와 식약처 안전성 심사가 필요합니다. 서류 준비부터 허가까지 유선행정사사무소가 대행합니다.',
         },
       },
     ],
@@ -127,12 +127,8 @@ const jsonLd = [
 export default function KoLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
+      {/* hreflang is emitted from Metadata.alternates.languages (per-page); do not hardcode here — it double-outputs. */}
       <head>
-        <link rel="alternate" hrefLang="ko" href="https://inhega.co.kr" />
-        <link rel="alternate" hrefLang="en" href="https://inhega.co.kr/en" />
-        <link rel="alternate" hrefLang="zh" href="https://inhega.co.kr/zh" />
-        <link rel="alternate" hrefLang="ja" href="https://inhega.co.kr/ja" />
-        <link rel="alternate" hrefLang="x-default" href="https://inhega.co.kr" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

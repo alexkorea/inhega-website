@@ -6,7 +6,7 @@ import ScrollAnimationInit from '@/components/ui/ScrollAnimationInit'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
-  title: 'ビジョン行政書士事務所 | 韓国許認可の専門家',
+  title: 'YouSun Administrative Attorney | 韓国許認可の専門家',
   description: '外国人・外国企業向けの韓国政府許認可手続き専門事務所。国際貨物運送、外貨両替、食品製造、化粧品許可、位置情報サービス届出などをワンストップで代行。',
   keywords: '韓国許認可, 韓国行政書士, 韓国ビザ, 外国人韓国法人, 韓国ビジネス許可',
   robots: { index: true, follow: true },
@@ -22,26 +22,26 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ビジョン行政書士事務所 | 韓国許認可の専門家',
+    title: 'YouSun Administrative Attorney | 韓国許認可の専門家',
     description: '外国人・外国企業向けの韓国政府許認可を有資格行政書士が全件代行。',
     images: ['/images/hero-seoul.png'],
   },
   openGraph: {
-    title: 'ビジョン行政書士事務所 | 韓国許認可の専門家',
+    title: 'YouSun Administrative Attorney | 韓国許認可の専門家',
     description: '外国人・外国企業向けの韓国政府許認可を有資格行政書士が全件代行。',
     url: 'https://inhega.co.kr/ja',
-    siteName: 'ビジョン行政書士事務所',
+    siteName: 'YouSun Administrative Attorney',
     locale: 'ja_JP',
     type: 'website',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'ビジョン行政書士事務所' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney' }],
   },
 }
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
-  name: 'ビジョン行政書士事務所',
-  alternateName: '비전행정사사무소',
+  name: 'YouSun Administrative Attorney',
+  alternateName: '유선행정사사무소',
   url: 'https://inhega.co.kr/ja',
   logo: 'https://inhega.co.kr/images/hero-seoul.png',
   description: '外国人・外国企業向けの韓国政府許認可手続き専門事務所',
@@ -54,20 +54,16 @@ const jsonLd = {
     postalCode: '04614',
     addressCountry: 'KR',
   },
-  email: '5000meter@gmail.com',
+  email: 'teamone1163@gmail.com',
   openingHours: 'Mo-Fr 09:30-17:30',
-  sameAs: ['https://blog.naver.com/inhe2018'],
+  sameAs: [],
 }
 
 export default function JaLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
+      {/* hreflang is emitted from Metadata.alternates.languages (per-page); do not hardcode here — it double-outputs. */}
       <head>
-        <link rel="alternate" hrefLang="ko" href="https://inhega.co.kr" />
-        <link rel="alternate" hrefLang="en" href="https://inhega.co.kr/en" />
-        <link rel="alternate" hrefLang="zh" href="https://inhega.co.kr/zh" />
-        <link rel="alternate" hrefLang="ja" href="https://inhega.co.kr/ja" />
-        <link rel="alternate" hrefLang="x-default" href="https://inhega.co.kr" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

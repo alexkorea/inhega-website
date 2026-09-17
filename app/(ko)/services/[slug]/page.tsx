@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const svc = getServiceBySlug(slug)
   if (!svc) return {}
   return {
-    title: `${svc.title} | 비전행정사사무소`,
+    title: `${svc.title} | 유선행정사사무소`,
     description: svc.description,
     alternates: {
       canonical: `https://inhega.co.kr/services/${slug}`,
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       },
     },
     openGraph: {
-      title: `${svc.title} | 비전행정사사무소`,
+      title: `${svc.title} | 유선행정사사무소`,
       description: svc.description,
       url: `https://inhega.co.kr/services/${slug}`,
       images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
@@ -57,7 +57,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     description: svc.description,
     provider: {
       '@type': 'LegalService',
-      name: '비전행정사사무소',
+      name: '유선행정사사무소',
       telephone: '02-363-2251',
       url: 'https://inhega.co.kr',
     },

@@ -91,7 +91,7 @@ slug: "food-manufacturing-permit"
 | 7 | 제조 품목 목록 | 품목별 제조 방법 기재 |
 | 8 | 건강진단 결과서 | 종업원 전원 |
 
-비전행정사사무소에서는 서류 작성부터 구비서류 확인까지 전 과정을 대행하고 있습니다. 서류 준비가 어려우시다면 [문의하기](/contact) 페이지를 통해 상담을 신청해 주세요.
+유선행정사사무소에서는 서류 작성부터 구비서류 확인까지 전 과정을 대행하고 있습니다. 서류 준비가 어려우시다면 [문의하기](/contact) 페이지를 통해 상담을 신청해 주세요.
 
 &nbsp;
 
@@ -189,7 +189,7 @@ HACCP 인증은 한국식품안전관리인증원(HACCP인증원)에 신청하�
 
 **Q5. 행정사에게 대행을 맡기면 비용은 얼마나 드나요?**
 
-업체 규모, 품목 수, 시설 상황에 따라 대행 비용이 달라집니다. 비전행정사사무소에서는 무료 사전 상담을 통해 정확한 비용을 안내해 드리고 있습니다. [상담 신청하기](/contact)
+업체 규모, 품목 수, 시설 상황에 따라 대행 비용이 달라집니다. 유선행정사사무소에서는 무료 사전 상담을 통해 정확한 비용을 안내해 드리고 있습니다. [상담 신청하기](/contact)
 
 &nbsp;
 
@@ -197,7 +197,7 @@ HACCP 인증은 한국식품안전관리인증원(HACCP인증원)에 신청하�
 
 ## 관련 서비스
 
-- [비전행정사사무소 소개](/about) — 인허가 전문 행정사가 직접 상담합니다
+- [유선행정사사무소 소개](/about) — 인허가 전문 행정사가 직접 상담합니다
 - [문의하기](/contact) — 식품제조가공업 허가 무료 상담 신청
 - [외국인도시민박업 등록 가이드](/blog/city-homestay-registration) — 관광업 인허가 안내
 - [비영리사단법인 설립 가이드](/blog/nonprofit-corporation-setup) — 법인 설립 절차 안내
@@ -206,6 +206,6 @@ HACCP 인증은 한국식품안전관리인증원(HACCP인증원)에 신청하�
 
 <div style="background:linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%); color:white; padding:24px 28px; border-radius:12px; margin:24px 0; text-align:center;">
   <h3 style="margin:0 0 8px 0; color:white;">식품제조가공업 허가, 전문가에게 맡기세요
-  <p style="margin:0 0 16px 0; opacity:0.9;">서류 준비부터 현장 점검 대비, 허가증 수령까지 전 과정을 비전행정사사무소가 대행합니다.</p>
+  <p style="margin:0 0 16px 0; opacity:0.9;">서류 준비부터 현장 점검 대비, 허가증 수령까지 전 과정을 유선행정사사무소가 대행합니다.</p>
   <a href="/contact" style="display:inline-block; background:white; color:#1E40AF; padding:10px 28px; border-radius:8px; text-decoration:none; font-weight:bold;">무료 상담 신청하기 →</a>
 </div>

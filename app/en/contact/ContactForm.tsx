@@ -66,8 +66,8 @@ export default function ContactForm() {
                       </svg>
                     ),
                     label: t.contact.email,
-                    value: '5000meter@gmail.com',
-                    href: 'mailto:5000meter@gmail.com',
+                    value: 'teamone1163@gmail.com',
+                    href: 'mailto:teamone1163@gmail.com',
                   },
                   {
                     icon: (

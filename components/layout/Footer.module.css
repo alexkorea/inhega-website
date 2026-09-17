@@ -27,7 +27,7 @@
 .logoMark {
   width: 40px;
   height: 40px;
-  background: var(--burgundy);
+  background: transparent;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -50,6 +50,12 @@
   font-weight: 700;
   color: white;
   line-height: 1.2;
+}
+
+/* en/zh/ja: 영문 사무소명은 국문보다 길어 푸터에서 축소 표기 */
+.logoMainEn {
+  font-size: 0.8125rem;
+  letter-spacing: -0.005em;
 }
 
 .logoSub {
