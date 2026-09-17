@@ -606,6 +606,9 @@ export const blogPosts: BlogPost[] = [
     id: '14',
     slug: 'nonprofit-corporation-establishment-guide',
     relatedServices: [
+      { title: '비영리사단법인 설립', href: '/services/nonprofit' },
+      { title: '재단법인 설립', href: '/services/foundation' },
+      { title: '사회적협동조합 설립', href: '/services/social-coop' },
       { title: '기업인증(벤처/이노비즈)', href: '/services/venture-cert' },
       { title: '여성기업인증', href: '/services/women-enterprise' },
       { title: '조달청 나라장터 등록', href: '/services/procurement' },
@@ -1835,6 +1838,10 @@ export const blogPosts: BlogPost[] = [
   {
     id: '44',
     slug: 'factory-registration-application-guide',
+    relatedServices: [
+      { title: '공장등록', href: '/services/factory' },
+      { title: '건축물 용도변경', href: '/services/building-usage' },
+    ],
     title: '공장등록 신청 방법과 처리기간 — 산업집적활성화법 완벽 가이드 ',
     excerpt: '공장등록과 공장설립승인의 차이, 신청 대상 면적 기준(500㎡), 절차 5단계, 처리기간, 필요 서류를 최신 산업집적활성화법 기준으로 정리했습니다.',
     category: '공장등록',
@@ -2098,6 +2105,7 @@ export const blogPosts: BlogPost[] = [
     id: '46',
     slug: 'rnd-center-tax-credit',
     relatedServices: [
+      { title: 'R&D지원사업', href: '/services/rnd-support' },
       { title: '기업부설연구소 설립', href: '/services/research-lab' },
       { title: '기업인증(벤처/이노비즈)', href: '/services/venture-cert' },
       { title: '조달청 나라장터 등록', href: '/services/procurement' },
@@ -3027,6 +3035,7 @@ export const blogPosts: BlogPost[] = [
     id: '55',
     slug: 'health-functional-food-sales-registration-guide',
     relatedServices: [
+      { title: '건강기능식품 수입신고', href: '/services/health-food' },
       { title: '식품제조가공업 허가', href: '/services/food-manufacturing' },
       { title: '식품인허가 & HACCP', href: '/services/haccp' },
       { title: '의약외품/화장품 허가', href: '/services/cosmetics' },
@@ -7784,6 +7793,9 @@ export const blogPosts: BlogPost[] = [
   {
     id: "medical-device-import-permit-2026-06-05",
     slug: "medical-device-import-permit",
+    relatedServices: [
+      { title: '의료기기 수입 인허가', href: '/services/medical-device' },
+    ],
     created_at: "2026-06-05T00:00:00Z",
     title: "의료기기 수입업 허가 요건과 신청 절차 완벽 가이드 ",
     category: "의료·보건",
@@ -8165,6 +8177,7 @@ export const blogPosts: BlogPost[] = [
     id: '116',
     slug: 'mainbiz-certification-requirements-process',
     relatedServices: [
+      { title: '메인비즈 인증', href: '/services/mainbiz' },
       { title: '벤처기업 인증', href: '/services/venture-cert' },
       { title: '기업부설연구소 설립', href: '/services/research-lab' },
     ],
