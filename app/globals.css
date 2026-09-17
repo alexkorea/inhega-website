@@ -538,6 +538,10 @@ input, textarea, select {
 .svc-hold { background: #FFF7ED; border: 1px dashed #C2410C; border-radius: 8px; padding: 0.875rem 1.125rem; margin: 1rem 0; color: #7C2D12; font-size: 0.9375rem; line-height: 1.7; }
 .svc-overview-content li.svc-hold { margin-left: 0; list-style: none; }
 .svc-overview-content .svc-hold strong { color: #7C2D12; }
+.svc-overview-content h3 { color: var(--navy); font-size: 1.0625rem; font-weight: 700; margin: 1.5rem 0 0.75rem; }
+.svc-overview-content table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+.svc-overview-content th, .svc-overview-content td { border: 1px solid var(--border); padding: 0.625rem 0.75rem; text-align: left; vertical-align: top; color: var(--charcoal); line-height: 1.7; }
+.svc-overview-content th { background: #FDF1EA; color: var(--navy); font-weight: 700; white-space: nowrap; }
 .svc-toc ol { margin: 0 0 0 1.25rem; }
 .svc-toc li { font-size: 0.9rem; margin-bottom: 0.35rem; }
 .svc-toc a { color: var(--navy); text-decoration: none; }
