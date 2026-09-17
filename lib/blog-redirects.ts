@@ -125,6 +125,8 @@ export const SERVICE_REDIRECTS: ReadonlyArray<{ source: string; destination: str
   { source: '/services/환전업', destination: '/services/currency-exchange' },
   { source: '/services/rnd-center', destination: '/services/research-lab' },
   { source: '/services/sports-facility', destination: '/services/sports-club' },
+  // ⚠️ 신규 mainbiz 페이지는 배포 제외(기업인증 3종 구조 확정 대기)라 이 301 을 일부러 남겨 둔다.
+  //    구조 확정 후 mainbiz 를 발행하려면 이 줄을 반드시 지워야 한다 — 안 지우면 새 페이지가 렌더되지 않는다.
   { source: '/services/mainbiz', destination: '/services/venture-cert' },
   // 한글 slug 는 Next 가 퍼센트 인코딩된 pathname 으로 매칭한다 — 인코딩 판을 함께 둔다.
   { source: '/services/%EA%B1%B4%EC%B6%95%EB%AC%BC%20%EC%9A%A9%EB%8F%84%EB%B3%80%EA%B2%BD', destination: '/services/building-usage' },
@@ -139,10 +141,10 @@ export const SERVICE_REDIRECTS: ReadonlyArray<{ source: string; destination: str
   { source: '/services/corporation', destination: '/services' },
   { source: '/services/education', destination: '/services' },
   { source: '/services/environment', destination: '/services' },
-  { source: '/services/factory', destination: '/services' },
+  // (/services/factory · /services/health-food 는 2026-09-17 신규 이관으로 실제 페이지가
+  //  생겼다 — 301 을 남겨 두면 Next 가 리다이렉트를 우선해 새 페이지가 절대 렌더되지 않는다.)
   { source: '/services/food-sales', destination: '/services' },
   { source: '/services/food-service', destination: '/services' },
-  { source: '/services/health-food', destination: '/services' },
   { source: '/services/medical', destination: '/services' },
   { source: '/services/restaurant', destination: '/services' },
   { source: '/services/sanitation', destination: '/services' },

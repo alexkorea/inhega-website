@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { services } from '@/lib/services-data'
+import { publicServices as services } from '@/lib/services-data'
 import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'

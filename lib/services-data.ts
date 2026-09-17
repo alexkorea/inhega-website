@@ -318,7 +318,9 @@ export const services: Service[] = [
     faqs: [
       { q: '벤처기업 인증 유효기간은?', a: '2년이며, 갱신 신청을 통해 연장 가능합니다.' },
       { q: '이노비즈와 메인비즈의 차이는?', a: '이노비즈는 기술혁신형, 메인비즈는 경영혁신형 인증입니다.' },
-      { q: '인증 취득 시 세제 혜택은?', a: '[보류] 감면 항목과 감면율은 확정 후 안내드립니다. 상담 시 기업 현황에 맞춰 개별 확인해 드립니다. (판단필요 #5)' },
+      // 판단필요 #5 「취득세 75% 감면」은 cokr 에 라이브 중인 FAQ 다 — 맥7 지시(2026-09-17)로
+      // 수정·삭제 금지. 9/16 라이브 원문 그대로 되돌려 둔다(판단필요 목록에는 그대로 남는다).
+      { q: '인증 취득 시 세제 혜택은?', a: '벤처기업 인증 취득 시 법인세·소득세 50% 감면(5년), 취득세 75% 감면 등 혜택을 받을 수 있습니다.' },
       { q: '창업한 지 얼마 안 됐어도 신청 가능한가요?', a: '창업 초기 기업도 기술력과 사업성을 갖추면 신청 가능하며, 사전 자가진단 후 가능 여부를 확인합니다.' },
       { q: '처리 기간은 얼마나 걸리나요?', a: '[보류] 유형별 소요기간은 확정 후 안내드립니다. 상담 시 개별 확인해 드립니다. (판단필요 #4)' },
     ],
@@ -913,4 +915,60 @@ export const services: Service[] = [
 
 export function getServiceBySlug(slug: string): Service | undefined {
   return services.find((s) => s.slug === slug)
+}
+
+/* ────────────────────────────────────────────────────────────────────────────
+ * 배포 제외(보스 확정 대기) — 2026-09-17 맥7 지시
+ *
+ * 여기에 들어간 슬러그는 라이브에 배포되더라도
+ *   · 사이트맵에 제출되지 않고
+ *   · 홈·서비스 목록·블로그 관련서비스·본문 내부링크에 노출되지 않으며
+ *   · 상세 페이지가 noindex, nofollow 로 나간다.
+ * 라우트 자체는 남겨 둔다 — 보스가 URL 직접 입력으로 검수할 수 있어야 하기 때문.
+ * 확정되면 해당 슬러그를 배열에서 빼기만 하면 전부 원상복구된다.
+ * ──────────────────────────────────────────────────────────────────────────── */
+
+/** (b) 신규 이관 페이지 중 발행형태·구조 확정 대기분. 라이브에 나간 적 없는 페이지들이다. */
+const HOLD_NEW_PAGES = [
+  'foundation',        // 발행형태 대기
+  'social-coop',       // 발행형태 대기
+  'social-enterprise', // 발행형태 대기
+  'mainbiz',           // 기업인증 3종 구조 대기 (+ SERVICE_REDIRECTS 의 301 도 그대로 둔다)
+]
+
+/**
+ * ⚠️ 이미 라이브·색인 중인 페이지의 보류분.
+ * venture-cert 는 2026-09-17 현재 inhega.co.kr 에 살아 있고 GSC 에 색인돼 있다 —
+ * 여기에 넣으면 "확정 대기"가 아니라 **기존 색인 제거**가 된다(회복에 수 주 소요).
+ * 그래서 기본값은 비워 둔다. 보스가 색인 제거까지 의도한 것이 맞으면 아래 한 줄만 켜면 된다.
+ *   const HOLD_LIVE_PAGES: string[] = ['venture-cert']
+ * 반대로 "새 통합 본문만 내보내지 말라"는 뜻이면 색인은 그대로 두고
+ * _report/venture-cert-content-revert.patch 로 본문만 9/16 상태로 되돌리면 된다.
+ */
+const HOLD_LIVE_PAGES: string[] = []
+
+export const DEPLOY_HOLD_SLUGS: ReadonlySet<string> = new Set([
+  ...HOLD_NEW_PAGES,
+  ...HOLD_LIVE_PAGES,
+])
+
+export function isDeployHold(slug: string): boolean {
+  return DEPLOY_HOLD_SLUGS.has(slug)
+}
+
+/** 배포 제외분을 뺀 공개 서비스 목록. 목록·카운트·사이트맵은 전부 이쪽을 쓴다. */
+export const publicServices: Service[] = services.filter((s) => !isDeployHold(s.slug))
+
+/**
+ * 본문(overview) HTML 안에서 배포 제외 페이지를 가리키는 <a> 를 제거하고 글자만 남긴다.
+ * 문장을 지우지 않으므로 확정 후 배열에서 빼면 링크가 그대로 되살아난다.
+ */
+export function stripHeldLinks(html: string): string {
+  if (DEPLOY_HOLD_SLUGS.size === 0) return html
+  let out = html
+  for (const slug of DEPLOY_HOLD_SLUGS) {
+    const re = new RegExp(`<a href="/services/${slug}"[^>]*>([\\s\\S]*?)</a>`, 'g')
+    out = out.replace(re, '$1')
+  }
+  return out
 }

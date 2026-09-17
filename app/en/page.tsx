@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../page.module.css'
-import { services } from '@/lib/services-data'
+import { publicServices as services } from '@/lib/services-data'
 import { hasServiceI18n } from '@/lib/i18n/services-i18n'
 import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'

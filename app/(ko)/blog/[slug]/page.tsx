@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { blogPosts, type BlogPost } from '@/lib/blog-posts-data'
+import { isDeployHold } from '@/lib/services-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
 
 export async function generateStaticParams() {
@@ -52,6 +53,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const { slug } = await params
   const post = await getPost(slug)
   if (!post) notFound()
+
+  // 보스 확정 대기 서비스로 가는 관련링크는 노출하지 않는다 (2026-09-17).
+  const relatedServices = post.relatedServices?.filter(
+    (s) => !isDeployHold(s.href.replace(/^\/services\//, ''))
+  )
 
   // Extract FAQs from HTML for structured data
   const faqMatches = [...(post.content?.matchAll(/<p class="faq-q">Q\.\s*(.*?)<\/p>\s*<p class="faq-a">A\.\s*(.*?)<\/p>/gs) || [])]
@@ -149,10 +155,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>관련 서비스</p>
-                  {post.relatedServices?.map((s, i) => (
-                    <Link key={s.href} href={s.href} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: i < (post.relatedServices?.length ?? 0) - 1 ? '1px solid var(--border-light)' : 'none' }}>{s.title}</Link>
+                  {relatedServices?.map((s, i) => (
+                    <Link key={s.href} href={s.href} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: i < (relatedServices?.length ?? 0) - 1 ? '1px solid var(--border-light)' : 'none' }}>{s.title}</Link>
                   ))}
-                  {!post.relatedServices && <>
+                  {!relatedServices?.length && <>
                     <Link href="/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>전체 인허가 서비스 보기</Link>
                     <Link href="/quote" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>견적 문의하기</Link>
                     <Link href="/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>상담 예약하기</Link>

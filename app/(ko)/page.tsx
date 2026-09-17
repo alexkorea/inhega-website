@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './page.module.css'
-import { services } from '@/lib/services-data'
+import { publicServices } from '@/lib/services-data'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
@@ -43,7 +43,8 @@ const whyAttorney = [
   { title: '허가 실패 리스크 예방', desc: '경험이 부족하면 반려, 지연, 거절 등의 리스크가 높아집니다. 전문행정사의 검토는 곧 안정적인 허가의 시작입니다.' },
 ]
 
-const featuredServices = services
+// 보스 확정 대기분 제외 — publicServices 사용 (2026-09-17)
+const featuredServices = publicServices
 
 export default function HomePage() {
   return (

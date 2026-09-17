@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { services } from '@/lib/services-data'
+import { services, isDeployHold } from '@/lib/services-data'
 import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
@@ -18,6 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${svc.title} | YouSun Administrative Attorney`,
     description: svc.description,
+    // 보스 확정 대기 페이지 — 색인 차단 (2026-09-17).
+    ...(isDeployHold(slug) ? { robots: { index: false, follow: false } } : {}),
     alternates: {
       canonical: `https://inhega.co.kr/en/services/${slug}`,
       languages: {

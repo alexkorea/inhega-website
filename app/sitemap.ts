@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs } from '@/lib/i18n/blog-i18n'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
+import { isDeployHold } from '@/lib/services-data'
 
 // en/zh/ja 번역본이 있는 서비스 — 언어별 URL 은 이 목록만 제출한다.
 const translatedServices = [
@@ -18,7 +19,8 @@ const koOnlyServices = [
   'rnd-support', 'foundation', 'social-coop', 'social-enterprise', 'functional-cosmetics',
 ]
 
-const services = [...translatedServices, ...koOnlyServices]
+// 보스 확정 대기분(DEPLOY_HOLD_SLUGS)은 사이트맵에 제출하지 않는다 — 2026-09-17.
+const services = [...translatedServices, ...koOnlyServices].filter((s) => !isDeployHold(s))
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://inhega.co.kr'
@@ -66,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }))
   const langServicePages = locales.flatMap((l) =>
-    translatedServices.map((slug) => ({
+    translatedServices.filter((slug) => !isDeployHold(slug)).map((slug) => ({
       url: `${base}/${l}/services/${slug}`,
       lastModified: now,
       changeFrequency: 'monthly' as const,
