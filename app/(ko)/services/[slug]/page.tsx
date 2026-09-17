@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { services, getServiceBySlug } from '@/lib/services-data'
+import { hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from './page.module.css'
 
@@ -16,15 +17,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${svc.title} | 유선행정사사무소`,
     description: svc.description,
+    // 번역본이 없는 서비스는 en/zh/ja 페이지가 존재하지 않는다.
+    // 그런데도 hreflang 을 걸면 404 를 가리키는 상호참조가 만들어진다 — ko + x-default 만 낸다.
     alternates: {
       canonical: `https://inhega.co.kr/services/${slug}`,
-      languages: {
-        'ko': `https://inhega.co.kr/services/${slug}`,
-        'en': `https://inhega.co.kr/en/services/${slug}`,
-        'zh': `https://inhega.co.kr/zh/services/${slug}`,
-        'ja': `https://inhega.co.kr/ja/services/${slug}`,
-        'x-default': `https://inhega.co.kr/services/${slug}`,
-      },
+      languages: hasServiceI18n(slug)
+        ? {
+            'ko': `https://inhega.co.kr/services/${slug}`,
+            'en': `https://inhega.co.kr/en/services/${slug}`,
+            'zh': `https://inhega.co.kr/zh/services/${slug}`,
+            'ja': `https://inhega.co.kr/ja/services/${slug}`,
+            'x-default': `https://inhega.co.kr/services/${slug}`,
+          }
+        : {
+            'ko': `https://inhega.co.kr/services/${slug}`,
+            'x-default': `https://inhega.co.kr/services/${slug}`,
+          },
     },
     openGraph: {
       title: `${svc.title} | 유선행정사사무소`,
