@@ -40,7 +40,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const svc = getServiceBySlug(slug)
   if (!svc) notFound()
 
-  const faqJsonLd = {
+  const faqJsonLd = svc.faqs.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: svc.faqs.map((f) => ({
@@ -48,7 +48,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
-  }
+  } : null
 
   const serviceJsonLd = {
     '@context': 'https://schema.org',
@@ -67,7 +67,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
       <div style={{ paddingTop: '72px' }}>
       {/* Hero */}
@@ -112,7 +112,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 </section>
               )}
 
-              {/* Process */}
+              {/* Process — 원문에 절차 텍스트가 없는 서비스는 process 를 비워두고 섹션 자체를 생략한다 */}
+              {svc.process.length > 0 && (
               <section className="fade-up" id="svc-process" style={{ marginBottom: '4rem' }}>
                 <div style={{ marginBottom: '2rem' }}>
                   <span className="badge badge-burgundy text-label">진행 절차</span>
@@ -142,8 +143,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   ))}
                 </div>
               </section>
+              )}
 
-              {/* FAQ */}
+              {/* FAQ — 원문에 FAQ 가 없는 서비스는 섹션 생략 */}
+              {svc.faqs.length > 0 && (
               <section className="fade-up delay-2" id="svc-faq">
                 <div style={{ marginBottom: '2rem' }}>
                   <span className="badge badge-navy text-label">자주 묻는 질문</span>
@@ -162,11 +165,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   ))}
                 </div>
               </section>
+              )}
             </div>
 
             {/* Sidebar */}
             <aside style={{ position: 'sticky', top: '6rem' }}>
-              {/* Required Docs */}
+              {/* Required Docs — 원문에 서류 목록이 없는 서비스는 카드 생략 */}
+              {svc.documents.length > 0 && (
               <div className="fade-in delay-2" style={{
                 background: 'var(--navy)', borderRadius: '16px', padding: '2rem', marginBottom: '1.5rem', color: 'white'
               }}>
@@ -183,6 +188,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   * 사업자 유형에 따라 추가 서류가 필요할 수 있습니다.
                 </p>
               </div>
+              )}
 
               {/* CTA Card */}
               <div className="fade-in delay-3" style={{
