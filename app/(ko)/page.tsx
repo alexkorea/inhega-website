@@ -35,6 +35,14 @@ const process = [
   { num: '05', title: '허가 완료', desc: '인허가 완료 후 등록증 전달 및 사후 관리·갱신 알림 서비스를 제공합니다.' },
 ]
 
+// inhega.com/index 「왜 인허가 업무에 행정사의 도움이 필요할까요?」 이식 — 원문 4블록 그대로
+const whyAttorney = [
+  { title: '복잡한 법령과 절차', desc: '업종별로 상이한 법적 요건과 제출 서류를 정확히 파악해야 합니다.' },
+  { title: '행정기관의 실무 대응', desc: '보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다.' },
+  { title: '시간과 비용 절감', desc: '오류 없는 서류 준비와 전략적 접근으로 불필요한 시간과 비용을 줄일 수 있습니다.' },
+  { title: '허가 실패 리스크 예방', desc: '경험이 부족하면 반려, 지연, 거절 등의 리스크가 높아집니다. 전문행정사의 검토는 곧 안정적인 허가의 시작입니다.' },
+]
+
 const featuredServices = services
 
 export default function HomePage() {
@@ -165,6 +173,28 @@ export default function HomePage() {
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.125rem, 2vw, 1.5rem)', fontWeight: 700, color: 'var(--navy)' }}>
               전문서비스 — 모든 인허가 분야를 한곳에서 해결합니다.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* WHY AN ADMIN ATTORNEY */}
+      <section className={`section bg-white`}>
+        <div className="container">
+          <div className={`section-header section-header-centered fade-up`}>
+            <span className="badge badge-navy text-label">행정사가 필요한 이유</span>
+            <h2 className={`text-h2`}>
+              왜 인허가 업무에<br />행정사의 도움이 필요할까요?
+            </h2>
+            <span className="accent-line accent-line-wide" style={{ marginInline: 'auto', marginTop: '1rem' }} />
+          </div>
+
+          <div className={styles.needGrid}>
+            {whyAttorney.map((w, i) => (
+              <div key={w.title} className={`${styles.needCard} fade-up delay-${i + 1}`}>
+                <h3 className={styles.needTitle}>{w.title}</h3>
+                <p className={styles.needDesc}>{w.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

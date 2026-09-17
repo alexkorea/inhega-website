@@ -405,6 +405,35 @@
   margin-top: 0.25rem;
 }
 
+/* ========= WHY AN ADMIN ATTORNEY (com /index 이식) ========= */
+.needGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.needCard {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+}
+
+.needTitle {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+.needDesc {
+  font-size: 0.9rem;
+  color: var(--slate);
+  line-height: 1.75;
+}
+
 /* ========= CTA BANNER ========= */
 .ctaBanner {
   background: var(--burgundy);
@@ -461,6 +490,10 @@
     display: none;
   }
 
+  .needGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .whyGrid {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -494,6 +527,10 @@
   .ctaInner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .needGrid {
+    grid-template-columns: 1fr;
   }
 
   .processGrid {
