@@ -447,7 +447,8 @@ export const services: Service[] = [
 <p><strong>화장품 책임판매업 등록</strong></p>
 <ul><li>화장품 책임판매업 등록 신청서</li><li>법 제3조제4항에 따른 책임판매관리자 자격서류</li><li>업체 관련: 사업자등록증, (법인)법인등기부등본 등</li><li>법 제3조제4항에 따른 화장품의 품질관리 및 책임판매 후 안전관리에 적합한 기준에 관한 규정</li><li>품질관리 위수탁계약서 등</li><li>(10인 이하 기업 &amp; 대표자가 관리자를 겸직하는 경우) 증빙서류</li></ul>
 <p><strong>의약외품 품목허가·화장품 제조업 관련</strong></p>
-<ul><li>시설 기준 적합 확인</li><li>품질관리기준서</li><li>품목별 제조·판매 신고서</li><li>성분 및 안전성 자료</li><li>라벨 견본</li></ul>`,
+<ul><li>시설 기준 적합 확인</li><li>품질관리기준서</li><li>품목별 제조·판매 신고서</li><li>성분 및 안전성 자료</li><li>라벨 견본</li></ul>
+<div class="svc-highlight">※ 미백·주름 개선·자외선 차단 등 특정 효능을 표방하려면 <a href="/services/functional-cosmetics">기능성화장품 심사·보고</a>를 별도로 거쳐야 합니다.</div>`,
   },
   {
     slug: 'procurement',
