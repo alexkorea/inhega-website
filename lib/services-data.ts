@@ -818,6 +818,25 @@ export const services: Service[] = [
 <ul><li>정부 R&amp;D 과제 수행 이력 : 성실수행 기업은 다음 과제 신청 시 우대</li><li>기술보증기금 TCB등급 보유 : 기술역량 항목에서 가점 반영 가능</li><li>ESG 경영 도입 기업 : 최근 일부 사업에서 ESG 관련 가점 부여 추세</li></ul>
 <p>우대자격 확보를 위한 <a href="/services/research-lab">기업부설연구소 설립</a>, <a href="/services/venture-cert">벤처기업·이노비즈 인증</a>, <a href="/services/mainbiz">메인비즈 인증</a>, <a href="/services/women-enterprise">여성기업인증</a>도 함께 검토하세요.</p>`,
   },
+  {
+    slug: 'foundation',
+    title: '재단법인 설립',
+    shortTitle: '재단법인 설립',
+    description: '출연재산을 중심으로 공익 목적 사업을 수행하는 비영리 재단법인 설립을 지원합니다. 성립 요건과 이사회 운영 구조 검토부터 정관·운영계획 마련, 주무관청 인가와 등기까지 진행합니다.',
+    image: '/images/service-legal.png',
+    category: '법인설립',
+    documents: [],
+    process: [],
+    faqs: [],
+    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">재단법인이란?</a></li><li><a href="#svc-requirements">성립 요건</a></li><li><a href="#svc-feature">재단법인의 주요 특징</a></li></ol></div>
+<h2 id="svc-overview">재단법인이란?</h2>
+<p>재단법인이란 특정 재산을 출연해 공익 목적의 사업을 수행하기 위해 설립된 비영리 법인입니다. 사단법인이 사람 중심의 조직이라면, <strong>재단법인은 출연재산이 중심이 되는 구조</strong>입니다. 설립자는 이사회와 정관을 통해 법인의 목적과 운영 방식을 규정하며, 정관에 따라 자산은 법인 명의로 관리됩니다.</p>
+<h2 id="svc-requirements">성립 요건</h2>
+<ul><li>공익적 목적이 명확할 것</li><li>출연재산 확보(수도권 기준 3억 원 이상 권장)</li><li>이사 3인 이상, 감사 1인 이상 구성</li><li>정관 및 운영계획 마련</li><li>주무관청의 인가 후 등기 완료</li></ul>
+<h2 id="svc-feature">재단법인의 주요 특징</h2>
+<ul><li><strong>재산 중심의 조직</strong> — 법인의 주체는 사람(회원)이 아닌 출연된 재산이며, 운영은 이사회에 의해 결정됩니다.</li><li><strong>공익목적사업 전용</strong> — 모든 사업은 공익 목적에 한정되며, 운영의 투명성과 비영리성이 핵심입니다.</li><li><strong>법적 독립성 보장</strong> — 재단 자산은 법인 자산으로 독립 관리되며, 출연자는 자산을 회수할 수 없습니다.</li><li><strong>기부금 유치 가능</strong> — 기부금 모집이 가능하며, 일정 요건 충족 시 지정기부금단체로 등록할 수 있습니다.</li><li><strong>이사회 운영 중심</strong> — 정기·수시 이사회 소집 및 의결을 통해 법인 운영 전반을 결정합니다.</li></ul>
+<p>회원 결합이 중심인 <a href="/services/nonprofit">비영리사단법인 설립</a>, 협동조합 기본법에 따른 <a href="/services/social-coop">사회적협동조합 설립</a>과는 구조가 다릅니다.</p>`,
+  },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {
