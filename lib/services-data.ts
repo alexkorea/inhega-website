@@ -857,6 +857,25 @@ export const services: Service[] = [
 <ul><li><strong>비영리성과 공익성 보장</strong> — 조합원이 출자하더라도 잉여금 배당이 금지되어 목적사업에만 사용됩니다.</li><li><strong>조합원 중심 운영</strong> — 1인 1표의 민주적 의결권을 행사하며, 창립총회 및 이사회 등 자치 운영이 원칙입니다.</li><li><strong>사회적 경제조직</strong> — 지역 문제 해결, 사회서비스 제공, 취약계층 일자리 창출 등에 특화되어 있습니다.</li><li><strong>정부 지원 혜택</strong> — 사회적경제 육성정책에 따라 판로지원, 금융지원, 컨설팅 등과 연계할 수 있습니다.</li><li><strong>다양한 법인 형태 수용</strong> — 기존 협동조합의 전환이나 신규 설립 모두 가능합니다.</li></ul>
 <p>사회적 목적을 수행하는 조직의 정부 지정 제도는 <a href="/services/social-enterprise">예비사회적기업 지정</a>을, 민법상 비영리법인은 <a href="/services/nonprofit">비영리사단법인 설립</a>·<a href="/services/foundation">재단법인 설립</a>을 참고하세요.</p>`,
   },
+  {
+    slug: 'social-enterprise',
+    title: '예비사회적기업 지정',
+    shortTitle: '예비사회적기업',
+    description: '취약계층 고용·지역사회 공헌·사회서비스 제공 등 사회적 목적을 실현하는 기업의 예비사회적기업 지정을 지원합니다. 성립 요건 검토부터 고용노동부·지자체 심사 대응까지 진행합니다.',
+    image: '/images/service-startup.png',
+    category: '법인설립',
+    documents: [],
+    process: [],
+    faqs: [],
+    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">예비사회적기업이란?</a></li><li><a href="#svc-requirements">성립 요건</a></li><li><a href="#svc-feature">예비사회적기업의 주요 특징</a></li></ol></div>
+<h2 id="svc-overview">예비사회적기업이란?</h2>
+<p>예비사회적기업이란 사회적 목적(취약계층 고용, 지역사회 공헌, 사회서비스 제공 등)을 실현하면서 수익을 창출하는 기업 중, 향후 사회적기업으로 발전할 가능성이 있다고 인정되어 <strong>고용노동부 또는 지자체로부터 지정된 조직</strong>입니다.</p>
+<h2 id="svc-requirements">성립 요건</h2>
+<ul><li>고유번호증 또는 사업자등록을 보유할 것</li><li>사회적 목적 실현을 위한 활동 실적 또는 계획이 있을 것</li><li>상시근로자 1인 이상 확보</li><li>자체 수익창출 구조 또는 사업모델을 갖출 것</li><li>지자체 또는 고용노동부의 심사를 통과할 것</li></ul>
+<h2 id="svc-feature">예비사회적기업의 주요 특징</h2>
+<ul><li><strong>사회성과 기업성의 병행 추구</strong> — 취약계층 고용 등 사회적 목적 달성과 동시에 수익 창출이 가능합니다.</li><li><strong>지정에 따른 정부 지원</strong> — 인건비, 사업개발비, 홍보·마케팅 등 재정지원사업에 참여할 수 있습니다.</li><li><strong>단계적 성장 구조</strong> — 예비지정 → 실적 평가 → 정식 사회적기업 인증 신청이 가능합니다.</li><li><strong>다양한 법인 형태 가능</strong> — 협동조합, 주식회사, 비영리법인 등도 신청할 수 있습니다.</li><li><strong>사회적기업 인증 목표 기반 관리</strong> — 연도별 실적관리와 고용노동부의 사후 평가 체계가 운영됩니다.</li></ul>
+<p>법인 형태로는 <a href="/services/social-coop">사회적협동조합 설립</a>, <a href="/services/nonprofit">비영리사단법인 설립</a>도 함께 검토할 수 있습니다.</p>`,
+  },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {
