@@ -776,6 +776,48 @@ export const services: Service[] = [
 </tbody></table>
 <p>기술혁신형 인증인 이노비즈와 벤처기업 확인은 <a href="/services/venture-cert">벤처기업·이노비즈 인증</a>에서, 정부 R&amp;D 과제 참여는 <a href="/services/rnd-support">R&amp;D지원사업</a>에서 확인하세요.</p>`,
   },
+  {
+    slug: 'rnd-support',
+    title: 'R&D지원사업',
+    shortTitle: 'R&D지원사업',
+    description: '중소·중견기업의 신기술 개발과 제품 고도화를 위한 정부 R&D 지원사업 참여를 돕습니다. 부처별 지원유형 검토부터 사업계획서·증빙서류 준비, 우대자격 확보 전략까지 지원합니다.',
+    image: '/images/service-research.png',
+    category: '기업인증',
+    documents: ['사업계획서(정부 양식 또는 자유형식)', '기업현황서 및 재무제표(최근 3개년, 또는 창업기업의 경우 간이 재무자료)', '기술개발 요약자료(핵심기술, 차별성, 기대효과 등)', '사업자등록증 및 법인등기부등본', '중소기업확인서, 벤처기업/이노비즈/메인비즈 인증서', '지식재산권 보유 현황(등록·출원 특허, 실용신안 등)', '컨소시엄 참여기관 협약서(공동개발형 과제의 경우)'],
+    process: [],
+    faqs: [],
+    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">R&amp;D지원사업이란?</a></li><li><a href="#svc-type">주요 R&amp;D 지원 유형</a></li><li><a href="#svc-documents">필요 서류</a></li><li><a href="#svc-priority">R&amp;D 지원 사업 우대자격</a></li></ol></div>
+<h2 id="svc-overview">R&amp;D지원사업이란?</h2>
+<p>R&amp;D 지원사업은 중소·중견기업이 신기술 개발, 제품 고도화, 시장 창출을 위한 연구개발 활동을 수행할 수 있도록 정부가 자금을 지원하는 제도입니다.</p>
+<p>정부부처(중소벤처기업부, 산업통상자원부, 과학기술정보통신부 등)에서 경쟁력 있는 기술을 보유한 기업을 선정하여 연구개발 비용의 일부 또는 전부를 지원하며, 기술사업화와 글로벌 진출을 촉진하는 데 목적이 있습니다.</p>
+<h2 id="svc-type">주요 R&amp;D 지원 유형</h2>
+<table><thead><tr><th>유형</th><th>지원대상</th><th>주요 내용</th><th>주관 부처</th></tr></thead><tbody>
+<tr><td>중소기업 기술혁신개발사업</td><td>창업 초기~중소기업</td><td>일반형, 전략형, 시장확대형 등 과제별 차등지원</td><td>중소벤처기업부</td></tr>
+<tr><td>산업기술 R&amp;D사업</td><td>제조업·첨단소재 등 산업 전반</td><td>고부가가치 기술, 소재·부품 국산화, 에너지 효율 등</td><td>산업통상자원부</td></tr>
+<tr><td>ICT R&amp;D 사업</td><td>AI, 빅데이터, IoT, 5G 등</td><td>디지털 전환, SW 개발, ICT 융합기술 중심</td><td>과학기술정보통신부</td></tr>
+<tr><td>국가 R&amp;D 통합과제</td><td>국가전략기술, 기초기술 등</td><td>국가 차원의 기술확보, 민·관·산·학 협업</td><td>다부처 공동</td></tr>
+<tr><td>스마트공장 기술개발</td><td>제조 중소기업</td><td>지능형 자동화, 공정개선, 스마트팩토리 연계</td><td>중기부, 산업부</td></tr>
+</tbody></table>
+<h2 id="svc-documents">필요 서류</h2>
+<div class="svc-highlight">* 과제 유형 및 규모에 따라 변동 가능</div>
+<ul><li>사업계획서(정부 양식 또는 자유형식)</li><li>기업현황서 및 재무제표(최근 3개년, 또는 창업기업의 경우 간이 재무자료)</li><li>기술개발 요약자료(핵심기술, 차별성, 기대효과 등)</li><li>사업자등록증 및 법인등기부등본</li><li>중소기업확인서, 벤처기업/이노비즈/메인비즈 인증서</li><li>지식재산권 보유 현황(등록·출원 특허, 실용신안 등)</li><li>컨소시엄 참여기관 협약서(공동개발형 과제의 경우)</li></ul>
+<h2 id="svc-priority">R&amp;D 지원 사업 우대자격</h2>
+<table><thead><tr><th>구분</th><th>우대자격 요건</th><th>적용 내용</th></tr></thead><tbody>
+<tr><td>벤처기업 인증</td><td>벤처확인기업(유효기간 내)</td><td>대부분의 기술개발사업에서 가점(1~2점) 부여</td></tr>
+<tr><td>이노비즈 인증</td><td>기술혁신형 중소기업(INNOBIZ)</td><td>기술성·기업역량 평가 시 가점, 일부 과제에서는 신청 필수 요건</td></tr>
+<tr><td>메인비즈 인증</td><td>경영혁신형 중소기업(MAIN-BIZ)</td><td>경영역량 및 시장성 항목 평가 시 가점</td></tr>
+<tr><td>기업부설연구소 보유</td><td>한국산업기술진흥협회 신고 기업부설연구소</td><td>연구개발 역량 항목 가점 및 필수서류 간소화</td></tr>
+<tr><td>지식재산권 보유</td><td>등록 특허, 실용신안, 디자인권 등</td><td>기술보유 실적 인정 / 기술성 평가 항목에 반영</td></tr>
+<tr><td>창업기업</td><td>창업 7년 이내 중소기업</td><td>창업기술개발사업 대상 / 평가 시 창업 특례 가점 부여</td></tr>
+<tr><td>여성기업/장애인기업</td><td>여성기업확인서, 장애인기업확인서 보유</td><td>정책적합성 항목 가점 또는 별도 트랙 지원</td></tr>
+<tr><td>소재·부품·장비 전문기업</td><td>소재·부품·장비 특화 기업 등록</td><td>소재부품 특화 R&amp;D 또는 전략형 과제 가점 적용</td></tr>
+<tr><td>스마트공장 구축 기업</td><td>스마트공장 보급·확산사업 참여 이력 보유</td><td>후속 기술고도화 R&amp;D 과제 등에서 가점</td></tr>
+<tr><td>지역특화산업 연계기업</td><td>시·도 R&amp;D 플랫폼 등록기업 또는 지역특화분야 기업</td><td>지역연계 R&amp;D, 기술닥터 사업 등에서 가점 부여</td></tr>
+</tbody></table>
+<p><strong>기타 우대사항</strong></p>
+<ul><li>정부 R&amp;D 과제 수행 이력 : 성실수행 기업은 다음 과제 신청 시 우대</li><li>기술보증기금 TCB등급 보유 : 기술역량 항목에서 가점 반영 가능</li><li>ESG 경영 도입 기업 : 최근 일부 사업에서 ESG 관련 가점 부여 추세</li></ul>
+<p>우대자격 확보를 위한 <a href="/services/research-lab">기업부설연구소 설립</a>, <a href="/services/venture-cert">벤처기업·이노비즈 인증</a>, <a href="/services/mainbiz">메인비즈 인증</a>, <a href="/services/women-enterprise">여성기업인증</a>도 함께 검토하세요.</p>`,
+  },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {
