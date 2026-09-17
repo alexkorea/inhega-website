@@ -837,6 +837,26 @@ export const services: Service[] = [
 <ul><li><strong>재산 중심의 조직</strong> — 법인의 주체는 사람(회원)이 아닌 출연된 재산이며, 운영은 이사회에 의해 결정됩니다.</li><li><strong>공익목적사업 전용</strong> — 모든 사업은 공익 목적에 한정되며, 운영의 투명성과 비영리성이 핵심입니다.</li><li><strong>법적 독립성 보장</strong> — 재단 자산은 법인 자산으로 독립 관리되며, 출연자는 자산을 회수할 수 없습니다.</li><li><strong>기부금 유치 가능</strong> — 기부금 모집이 가능하며, 일정 요건 충족 시 지정기부금단체로 등록할 수 있습니다.</li><li><strong>이사회 운영 중심</strong> — 정기·수시 이사회 소집 및 의결을 통해 법인 운영 전반을 결정합니다.</li></ul>
 <p>회원 결합이 중심인 <a href="/services/nonprofit">비영리사단법인 설립</a>, 협동조합 기본법에 따른 <a href="/services/social-coop">사회적협동조합 설립</a>과는 구조가 다릅니다.</p>`,
   },
+  {
+    slug: 'social-coop',
+    title: '사회적협동조합 설립',
+    shortTitle: '사회적협동조합',
+    description: '협동조합 기본법에 따라 지역사회 발전과 사회적 약자 지원 등 공익 목적을 실현하는 사회적협동조합 설립을 지원합니다. 발기인 구성과 정관·사업계획서 준비부터 설립 인가, 법인등기까지 진행합니다.',
+    image: '/images/service-legal.png',
+    category: '법인설립',
+    documents: [],
+    process: [],
+    faqs: [],
+    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">사회적협동조합이란?</a></li><li><a href="#svc-requirements">성립 요건</a></li><li><a href="#svc-feature">사회적협동조합의 주요 특징</a></li></ol></div>
+<h2 id="svc-overview">사회적협동조합이란?</h2>
+<p>사회적협동조합이란 지역사회 발전, 복지 향상, 사회적 약자 지원 등 공익 목적을 실현하기 위해 구성된 비영리 협동조합입니다.</p>
+<p><strong>「협동조합 기본법」</strong>에 따라 설립되며, 일반 협동조합과 달리 이익 배당이 금지되고 사업의 수익은 공익 활동에 재투자되어야 합니다.</p>
+<h2 id="svc-requirements">성립 요건</h2>
+<ul><li>발기인 5인 이상(조합원)</li><li>정관, 사업계획서, 예산서 등 설립서류 구비</li><li>창립총회 개최 및 의결절차 완료</li><li>기획재정부 또는 지방자치단체의 설립 인가</li><li>법인등기 완료 및 고유번호증 발급</li></ul>
+<h2 id="svc-feature">사회적협동조합의 주요 특징</h2>
+<ul><li><strong>비영리성과 공익성 보장</strong> — 조합원이 출자하더라도 잉여금 배당이 금지되어 목적사업에만 사용됩니다.</li><li><strong>조합원 중심 운영</strong> — 1인 1표의 민주적 의결권을 행사하며, 창립총회 및 이사회 등 자치 운영이 원칙입니다.</li><li><strong>사회적 경제조직</strong> — 지역 문제 해결, 사회서비스 제공, 취약계층 일자리 창출 등에 특화되어 있습니다.</li><li><strong>정부 지원 혜택</strong> — 사회적경제 육성정책에 따라 판로지원, 금융지원, 컨설팅 등과 연계할 수 있습니다.</li><li><strong>다양한 법인 형태 수용</strong> — 기존 협동조합의 전환이나 신규 설립 모두 가능합니다.</li></ul>
+<p>사회적 목적을 수행하는 조직의 정부 지정 제도는 <a href="/services/social-enterprise">예비사회적기업 지정</a>을, 민법상 비영리법인은 <a href="/services/nonprofit">비영리사단법인 설립</a>·<a href="/services/foundation">재단법인 설립</a>을 참고하세요.</p>`,
+  },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {
