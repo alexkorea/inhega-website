@@ -876,6 +876,38 @@ export const services: Service[] = [
 <ul><li><strong>사회성과 기업성의 병행 추구</strong> — 취약계층 고용 등 사회적 목적 달성과 동시에 수익 창출이 가능합니다.</li><li><strong>지정에 따른 정부 지원</strong> — 인건비, 사업개발비, 홍보·마케팅 등 재정지원사업에 참여할 수 있습니다.</li><li><strong>단계적 성장 구조</strong> — 예비지정 → 실적 평가 → 정식 사회적기업 인증 신청이 가능합니다.</li><li><strong>다양한 법인 형태 가능</strong> — 협동조합, 주식회사, 비영리법인 등도 신청할 수 있습니다.</li><li><strong>사회적기업 인증 목표 기반 관리</strong> — 연도별 실적관리와 고용노동부의 사후 평가 체계가 운영됩니다.</li></ul>
 <p>법인 형태로는 <a href="/services/social-coop">사회적협동조합 설립</a>, <a href="/services/nonprofit">비영리사단법인 설립</a>도 함께 검토할 수 있습니다.</p>`,
   },
+  {
+    slug: 'functional-cosmetics',
+    title: '기능성화장품 심사·보고',
+    shortTitle: '기능성화장품 심사',
+    description: '미백·주름 개선·자외선 차단 등 특정 효능을 표방하려면 식품의약품안전처의 심사 또는 보고 절차를 거쳐야 합니다. 기능성화장품 9종 효능 구분에 맞춘 심사·보고 업무를 지원합니다.',
+    image: '/images/service-cosmetics.png',
+    category: '식품/의약',
+    documents: [],
+    process: [],
+    faqs: [],
+    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">기능성화장품 인증이란?</a></li><li><a href="#svc-kind">기능성화장품의 종류</a></li><li><a href="#svc-feature">인증 받은 기능성화장품의 특징</a></li><li><a href="#svc-notice">소비자 유의사항</a></li></ol></div>
+<h2 id="svc-overview">기능성화장품 인증이란?</h2>
+<p>기능성화장품 인증이란, 일반 화장품과 달리 피부 미백, 주름 개선, 자외선 차단, 탈모 증상 완화, 여드름 완화, 피부장벽 회복 등 인체에 특정한 효능·효과를 나타내는 제품입니다.</p>
+<p>이러한 효능을 표방하기 위해서는 <strong>식품의약품안전처의 심사 또는 보고 절차</strong>를 거쳐 인증을 받아야 합니다.</p>
+<h2 id="svc-kind">기능성화장품의 종류</h2>
+<table><thead><tr><th>구분</th><th>주요 효능 및 효과</th></tr></thead><tbody>
+<tr><td>미백</td><td>피부의 멜라닌 생성을 억제하여 기미, 주근깨 등 예방 및 완화</td></tr>
+<tr><td>주름 개선</td><td>피부 탄력 증진 및 주름 완화</td></tr>
+<tr><td>자외선 차단</td><td>자외선으로부터 피부 보호</td></tr>
+<tr><td>탈모 증상 완화</td><td>두피 및 모발 건강 증진, 탈모 증상 완화</td></tr>
+<tr><td>여드름 완화</td><td>여드름성 피부 개선(인체 세정용 제품 한정)</td></tr>
+<tr><td>피부장벽 회복</td><td>피부 장벽 기능 강화 및 가려움 개선</td></tr>
+<tr><td>튼살 개선</td><td>튼살로 인한 붉은 선 완화</td></tr>
+<tr><td>모발 염색/탈색</td><td>모발 색상 변화, 탈색, 탈염</td></tr>
+<tr><td>제모</td><td>체모 제거(물리적 제거 제외)</td></tr>
+</tbody></table>
+<h2 id="svc-feature">인증 받은 기능성화장품의 특징</h2>
+<ul><li><strong>공신력</strong> : 식약처의 엄격한 심사와 기준에 따라 인증되어 소비자가 신뢰할 수 있습니다.</li><li><strong>안전성</strong> : 인체 적용 시험 등 다양한 안전성 평가를 거쳐 인증됩니다.</li><li><strong>효능 확실성</strong> : 효능·효과가 입증된 성분과 함량만을 사용합니다.</li></ul>
+<h2 id="svc-notice">소비자 유의사항</h2>
+<ul><li>'기능성 화장품' 표시가 있는지 확인하세요.</li><li>제품의 효능·효과, 사용법, 주의사항을 꼼꼼히 읽으세요.</li><li>피부에 이상 반응이 있을 경우, 즉시 사용을 중단하고 전문가와 상담하세요.</li></ul>
+<div class="svc-highlight">※ 기능성화장품 심사·보고는 <a href="/services/cosmetics">화장품 책임판매업 등록·의약외품 허가</a>와는 별개 절차입니다. 제품을 유통·판매하려면 책임판매업 등록을 먼저 갖추어야 합니다.</div>`,
+  },
 ]
 
 export function getServiceBySlug(slug: string): Service | undefined {
