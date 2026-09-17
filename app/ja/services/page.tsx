@@ -1,12 +1,15 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/lib/services-data'
-import { getServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'
 
+// 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
+const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+
 export const metadata: Metadata = {
-  title: `${services.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
+  title: `${translatedServices.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
   description: '国際貨物運送取扱業、外貨両替業、食品許可、建物用途変更など、専門の許認可代行サービスをYouSun Administrative Attorneyが最初から最後まで代行いたします。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/services',
@@ -19,14 +22,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${services.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
+    title: `${translatedServices.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
     description: '外国企業・投資家向け韓国許認可代行の専門サービス。初回相談無料。',
     url: 'https://inhega.co.kr/ja/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorneyサービス' }],
     type: 'website',
     locale: 'ja_JP',
   },
-  twitter: { card: 'summary_large_image', title: `${services.length}種の専門許認可代行サービス | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${translatedServices.length}種の専門許認可代行サービス | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {
@@ -48,7 +51,7 @@ export default function JaServicesPage() {
           <div className="container">
             <span className="badge badge-white text-label fade-up">サービス</span>
             <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-              {services.length}種の専門<br />許認可サービス
+              {translatedServices.length}種の専門<br />許認可サービス
             </h1>
             <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.6)', marginTop: '1rem' }}>
               業種別要件分析から書類準備、官庁への提出まで、全過程を代行いたします。
@@ -60,7 +63,7 @@ export default function JaServicesPage() {
         <section className="section bg-cream">
           <div className="container">
             <div className={styles.grid}>
-              {services.map((svcKo, i) => {
+              {translatedServices.map((svcKo, i) => {
                 const svc = getServiceI18n('ja', svcKo.slug)
                 if (!svc) return null
                 return (

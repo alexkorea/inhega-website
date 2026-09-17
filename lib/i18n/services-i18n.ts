@@ -950,6 +950,16 @@ const servicesJa: Record<ServiceSlug, ServiceI18n> = {
   },
 }
 
+/**
+ * 번역본이 존재하는 서비스 슬러그. `services-data.ts` 에 KO 전용으로 추가된 서비스는
+ * 여기에 없으므로 en/zh/ja 목록·사이트맵에서 제외된다.
+ */
+export const TRANSLATED_SERVICE_SLUGS = Object.keys(servicesEn) as ServiceSlug[]
+
+export function hasServiceI18n(slug: string): boolean {
+  return Object.prototype.hasOwnProperty.call(servicesEn, slug)
+}
+
 export function getServiceI18n(locale: Locale, slug: string): ServiceI18n | null {
   const map: Record<Locale, Record<ServiceSlug, ServiceI18n>> = {
     en: servicesEn,

@@ -3,12 +3,22 @@ import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs } from '@/lib/i18n/blog-i18n'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 
-const services = [
+// en/zh/ja 번역본이 있는 서비스 — 언어별 URL 은 이 목록만 제출한다.
+const translatedServices = [
   'logistics', 'currency-exchange', 'urban-guesthouse', 'hostel', 'hanok',
   'building-usage', 'food-manufacturing', 'women-enterprise', 'nonprofit',
   'tobacco', 'venture-cert', 'haccp', 'cosmetics', 'procurement',
   'research-lab', 'ecig', 'sports-club', 'location-based-service',
 ]
+
+// inhega.com 에서 신규 이관한 서비스 — 이번 통합에서는 한국어만 만들었으므로
+// KO URL 만 제출한다(en/zh/ja 는 404).
+const koOnlyServices = [
+  'medical-device', 'health-food', 'factory', 'freight-trucking', 'mainbiz',
+  'rnd-support', 'foundation', 'social-coop', 'social-enterprise', 'functional-cosmetics',
+]
+
+const services = [...translatedServices, ...koOnlyServices]
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://inhega.co.kr'
@@ -56,7 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }))
   const langServicePages = locales.flatMap((l) =>
-    services.map((slug) => ({
+    translatedServices.map((slug) => ({
       url: `${base}/${l}/services/${slug}`,
       lastModified: now,
       changeFrequency: 'monthly' as const,

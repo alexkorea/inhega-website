@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../page.module.css'
 import { services } from '@/lib/services-data'
+import { hasServiceI18n } from '@/lib/i18n/services-i18n'
 import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
 }
 
 const t = getT('zh')
+
+// 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
+const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
 
 const serviceLabels: Record<string, string> = {
   'logistics': '国际货运代理',
@@ -150,7 +154,7 @@ export default function ZhHomePage() {
           </div>
 
           <div className={styles.bentoGrid}>
-            {services.map((svc, i) => (
+            {translatedServices.map((svc, i) => (
               <Link
                 key={svc.slug}
                 href={`/zh/services/${svc.slug}`}

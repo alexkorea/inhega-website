@@ -1,12 +1,15 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/lib/services-data'
-import { getServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'
 
+// 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
+const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+
 export const metadata: Metadata = {
-  title: `${services.length} Licensing & Permit Services | YouSun Administrative Attorney`,
+  title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Attorney`,
   description: 'International freight forwarding, currency exchange, food licensing, building use change, and more — YouSun Administrative Attorney handles Korean business licensing from start to finish.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/services',
@@ -19,14 +22,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${services.length} Licensing & Permit Services | YouSun Administrative Attorney`,
+    title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Attorney`,
     description: 'Professional licensing and permit representation for foreign companies and investors in Korea. Free initial consultation.',
     url: 'https://inhega.co.kr/en/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney Services' }],
     type: 'website',
     locale: 'en_US',
   },
-  twitter: { card: 'summary_large_image', title: `${services.length} Licensing & Permit Services | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {
@@ -48,7 +51,7 @@ export default function EnServicesPage() {
           <div className="container">
             <span className="badge badge-white text-label fade-up">Services</span>
             <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-              {services.length} Professional<br />Licensing Services
+              {translatedServices.length} Professional<br />Licensing Services
             </h1>
             <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.6)', marginTop: '1rem' }}>
               From industry requirement analysis to document preparation and government filing, we handle the entire process on your behalf.
@@ -60,7 +63,7 @@ export default function EnServicesPage() {
         <section className="section bg-cream">
           <div className="container">
             <div className={styles.grid}>
-              {services.map((svcKo, i) => {
+              {translatedServices.map((svcKo, i) => {
                 const svc = getServiceI18n('en', svcKo.slug)
                 if (!svc) return null
                 return (

@@ -1,12 +1,15 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/lib/services-data'
-import { getServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'
 
+// 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
+const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+
 export const metadata: Metadata = {
-  title: `${services.length}项专业许可代办服务 | YouSun Administrative Attorney`,
+  title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Attorney`,
   description: '国际货运代理、外汇兑换、食品许可、建筑物用途变更等多项专业许可代办服务，YouSun Administrative Attorney为您从头到尾全程代办。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh/services',
@@ -19,14 +22,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${services.length}项专业许可代办服务 | YouSun Administrative Attorney`,
+    title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Attorney`,
     description: '面向外国企业和投资者的韩国许可代办专业服务。首次咨询免费。',
     url: 'https://inhega.co.kr/zh/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney服务' }],
     type: 'website',
     locale: 'zh_CN',
   },
-  twitter: { card: 'summary_large_image', title: `${services.length}项专业许可代办服务 | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {
@@ -48,7 +51,7 @@ export default function ZhServicesPage() {
           <div className="container">
             <span className="badge badge-white text-label fade-up">服务项目</span>
             <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-              {services.length}项专业<br />许可代办服务
+              {translatedServices.length}项专业<br />许可代办服务
             </h1>
             <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.6)', marginTop: '1rem' }}>
               从行业要求分析、材料准备到政府机关提交，我们为您代办全过程。
@@ -60,7 +63,7 @@ export default function ZhServicesPage() {
         <section className="section bg-cream">
           <div className="container">
             <div className={styles.grid}>
-              {services.map((svcKo, i) => {
+              {translatedServices.map((svcKo, i) => {
                 const svc = getServiceI18n('zh', svcKo.slug)
                 if (!svc) return null
                 return (
