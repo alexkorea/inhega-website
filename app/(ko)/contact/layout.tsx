@@ -13,7 +13,7 @@ export const metadata = {
   },
   openGraph: {
     title: '무료 상담 문의 | 유선행정사사무소',
-    description: '인허가 전문 행정사와 무료 상담. 24시간 내 답변 보장. 02-363-2251',
+    description: '인허가 전문 행정사와 무료 상담. 24시간 내 답변 안내. 02-363-2251',
     url: 'https://inhega.co.kr/contact',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 상담 문의' }],
     type: 'website',

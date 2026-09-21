@@ -47,9 +47,9 @@ export const translations = {
     trust: [
       'Officially Registered Administrative Scriveners',
       'Direct Government Submission',
-      '100% Legal Compliance',
+      'Compliance with Due Process',
       'Real-time Status Updates',
-      'Result Guarantee',
+      'Post-Filing Follow-Up',
     ],
     process: {
       badge: 'Our Process',
@@ -70,7 +70,7 @@ export const translations = {
         'Officially registered under the Administrative Scriveners Act',
         'Dedicated scrivener assigned to each client',
         'Regular status updates throughout the process',
-        'Result accountability guarantee',
+        'Accountability for the outcome of each case',
         'Post-license management and renewal alerts',
       ],
       cta: 'Learn About Us',
@@ -171,9 +171,9 @@ export const translations = {
     trust: [
       '正式注册行政士事务所',
       '直接向政府机关提交',
-      '100%合法合规办理',
+      '遵循法定程序',
       '实时进度通报',
-      '结果保障制度',
+      '办理结果后续管理',
     ],
     process: {
       badge: '办理流程',
@@ -194,7 +194,7 @@ export const translations = {
         '依据行政士法正式注册',
         '为每位客户指定专属行政士',
         '全程定期进度通报',
-        '结果问责保障',
+        '办理结果全程问责',
         '获批后管理及续期提醒服务',
       ],
       cta: '了解我们',
@@ -293,9 +293,9 @@ export const translations = {
     trust: [
       '正式登録行政書士事務所',
       '政府機関への直接申請',
-      '100%合法的な手続き',
+      '適法手続の遵守',
       'リアルタイム進捗報告',
-      '結果保証制度あり',
+      '処理結果の事後管理',
     ],
     process: {
       badge: '手続きの流れ',
@@ -316,7 +316,7 @@ export const translations = {
         '行政書士法に基づく正式登録事務所',
         '担当行政書士による1対1サポート',
         '進捗状況の定期報告',
-        '結果に対する責任保証',
+        '結果に対する責任ある対応',
         '取得後の管理・更新アラートサービス',
       ],
       cta: '事務所案内を見る',

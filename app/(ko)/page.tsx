@@ -53,7 +53,7 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles.heroBg}>
           <Image
-            src="/images/hero-seoul.png"
+            src="/images/hero-seoul.webp"
             alt="서울 도심 전경"
             fill
             priority
@@ -109,9 +109,9 @@ export default function HomePage() {
             {[
               { icon: '✓', text: '행정사 공식 등록' },
               { icon: '✓', text: '정부 기관 직접 접수' },
-              { icon: '✓', text: '100% 합법적 처리' },
+              { icon: '✓', text: '적법 절차 준수' },
               { icon: '✓', text: '처리 현황 실시간 안내' },
-              { icon: '✓', text: '결과 보장 제도 운영' },
+              { icon: '✓', text: '처리 결과 사후 관리' },
             ].map((t) => (
               <div key={t.text} className={styles.trustItem}>
                 <span className={styles.trustIcon}>{t.icon}</span>
@@ -242,7 +242,7 @@ export default function HomePage() {
                 '행정사법에 따른 공식 등록 사무소',
                 '담당 행정사 1:1 전담 배정',
                 '처리 현황 수시 보고',
-                '신청 후 결과 책임 보증',
+                '신청 후 결과까지 책임지는 대응',
                 '사후 관리 및 갱신 알림 서비스',
               ].map((item) => (
                 <li key={item} className={styles.whyItem}>

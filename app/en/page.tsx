@@ -77,7 +77,7 @@ export default function EnHomePage() {
       <section className={styles.hero}>
         <div className={styles.heroBg}>
           <Image
-            src="/images/hero-seoul.png"
+            src="/images/hero-seoul.webp"
             alt="Seoul cityscape"
             fill
             priority

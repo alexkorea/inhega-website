@@ -6,6 +6,8 @@
   min-height: 66dvh;
   display: flex;
   align-items: flex-end;
+  /* fixed Navbar is 73px (72px + 1px border), 65px under 480px — keep the h1 clear of it */
+  padding-top: 89px;
   padding-bottom: 4rem;
   overflow: hidden;
 }
@@ -456,6 +458,7 @@
 
 @media (max-width: 768px) {
   .hero {
+    padding-top: 81px;
     padding-bottom: 5rem;
     align-items: flex-end;
   }

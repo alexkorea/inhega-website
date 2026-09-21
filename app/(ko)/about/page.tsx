@@ -25,13 +25,13 @@ export const metadata = {
 }
 
 const team = [
-  { name: '정유선', title: '대표행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/jungyus.jpg' },
-  { name: '정희정', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/junghj.jpg' },
-  { name: '김정은', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/kimje.jpg' },
-  { name: '이원중', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/leewj.jpg' },
-  { name: '백승수', title: '사무장', specialty: '은행 업무 담당', lang: 'KR · EN', photo: '/images/team/baekss.jpg' },
-  { name: '김영주', title: '실장', specialty: '사업자등록증 업무', lang: 'KR · EN', photo: '/images/team/kimyj.jpg' },
-  { name: '허경', title: '실장', specialty: '중국어 통역·번역', lang: '中文 · KR · EN', photo: '/images/team/hukyung.jpg' },
+  { name: '정유선', title: '대표행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/jungyus.webp' },
+  { name: '정희정', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN', photo: '/images/team/junghj.webp' },
+  { name: '김정은', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/kimje.webp' },
+  { name: '이원중', title: '행정사', specialty: '출입국 / 인허가전문', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/leewj.webp' },
+  { name: '백승수', title: '사무장', specialty: '은행 업무 담당', lang: 'KR · EN', photo: '/images/team/baekss.webp' },
+  { name: '김영주', title: '실장', specialty: '사업자등록증 업무', lang: 'KR · EN', photo: '/images/team/kimyj.webp' },
+  { name: '허경', title: '실장', specialty: '중국어 통역·번역', lang: '中文 · KR · EN', photo: '/images/team/hukyung.webp' },
 ]
 
 const teamAdmins = team.filter((m) => m.title.includes('행정사'))
@@ -121,7 +121,7 @@ export default function AboutPage() {
               귀하의 사업 목표를 이해하고, 최적의 경로로 인허가를 완성하여 사업의 성공을 함께 만들어가겠습니다.
             </p>
             <footer style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <img src="/images/team/jungyus.jpg" alt="정유선 대표 행정사" style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
+              <img src="/images/team/jungyus.webp" alt="정유선 대표 행정사" style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
               <div>
                 <p style={{ fontWeight: 700, color: 'var(--charcoal)' }}>대표 행정사 정유선</p>
                 <p style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>유선행정사사무소 대표 | 사업자등록번호 722-39-01297</p>

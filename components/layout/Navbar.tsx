@@ -55,7 +55,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className={styles.logo}>
           <div className={styles.logoMark}>
-            <img src="/logo.png" alt="유선행정사사무소 로고" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} />
+            <img src="/logo.webp" alt="유선행정사사무소 로고" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} />
           </div>
           <div className={styles.logoText}>
             <span className={styles.logoMain}>유선행정사사무소</span>

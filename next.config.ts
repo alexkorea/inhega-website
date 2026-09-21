@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
+    // /_next/image is a no-op on Cloudflare Pages: verified 2026-09-22 that
+    // w=256, w=640 and w=1200 all return the identical 1,127,455-byte source
+    // PNG. Keeping it on only added a worker hop per image while shipping the
+    // full-size original. Assets are pre-sized to WebP by
+    // `node scripts/optimize-images.mjs` instead.
+    unoptimized: true,
     remotePatterns: [
       { protocol: 'https', hostname: '**.supabase.co' },
     ],

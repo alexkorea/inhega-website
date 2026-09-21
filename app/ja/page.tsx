@@ -77,7 +77,7 @@ export default function JaHomePage() {
       <section className={styles.hero}>
         <div className={styles.heroBg}>
           <Image
-            src="/images/hero-seoul.png"
+            src="/images/hero-seoul.webp"
             alt="ソウルの都市景観"
             fill
             priority

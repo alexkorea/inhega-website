@@ -77,7 +77,7 @@ export default function ZhHomePage() {
       <section className={styles.hero}>
         <div className={styles.heroBg}>
           <Image
-            src="/images/hero-seoul.png"
+            src="/images/hero-seoul.webp"
             alt="首尔城市风景"
             fill
             priority

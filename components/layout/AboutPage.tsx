@@ -257,7 +257,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
               {s.greetingText[0]}<br /><br />{s.greetingText[1]}
             </p>
             <footer style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <img src="/images/team/jungyus.jpg" alt={s.greetingAuthor} style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
+              <img src="/images/team/jungyus.webp" alt={s.greetingAuthor} style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover' }} />
               <div>
                 <p style={{ fontWeight: 700, color: 'var(--charcoal)' }}>{s.greetingAuthor}</p>
                 <p style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>{s.greetingTitle}</p>

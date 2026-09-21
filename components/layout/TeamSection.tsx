@@ -34,7 +34,7 @@ const admins: Member[] = [
   {
     nameKo: '정유선',
     name: { ko: '정유선', en: 'Jung Yu-sun', zh: '郑有善', ja: '鄭有善' },
-    photo: '/team/jungyus.jpg',
+    photo: '/team/jungyus.webp',
     title: { ko: '대표행정사', en: 'Chief Admin Agent', zh: '代表行政士', ja: '代表行政書士' },
     specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN'],
@@ -42,7 +42,7 @@ const admins: Member[] = [
   {
     nameKo: '정희정',
     name: { ko: '정희정', en: 'Jung Hee-jung', zh: '郑熙晶', ja: '鄭熙晶' },
-    photo: '/team/junghj.jpg',
+    photo: '/team/junghj.webp',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
     specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN'],
@@ -50,7 +50,7 @@ const admins: Member[] = [
   {
     nameKo: '김정은',
     name: { ko: '김정은', en: 'Kim Jung-eun', zh: '金正恩', ja: '金正恩' },
-    photo: '/team/kimje.jpg',
+    photo: '/team/kimje.webp',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
     specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN', '中文', '日本語'],
@@ -58,7 +58,7 @@ const admins: Member[] = [
   {
     nameKo: '이원중',
     name: { ko: '이원중', en: 'Lee Won-jung', zh: '李元中', ja: '李元重' },
-    photo: '/team/leewj.jpg',
+    photo: '/team/leewj.webp',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政書士' },
     specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN', '中文', '日本語'],
@@ -69,7 +69,7 @@ const staff: Member[] = [
   {
     nameKo: '백승수',
     name: { ko: '백승수', en: 'Baek Seung-su', zh: '白胜秀', ja: '白勝秀' },
-    photo: '/team/baekss.jpg',
+    photo: '/team/baekss.webp',
     title: { ko: '사무장', en: 'Office Manager', zh: '事务长', ja: '事務長' },
     specialty: { ko: '은행 업무 담당', en: 'Banking Affairs', zh: '银行业务负责', ja: '銀行業務担当' },
     langs: ['KR', 'EN'],
@@ -77,7 +77,7 @@ const staff: Member[] = [
   {
     nameKo: '김영주',
     name: { ko: '김영주', en: 'Kim Young-ju', zh: '金英珠', ja: '金英珠' },
-    photo: '/team/kimyj.jpg',
+    photo: '/team/kimyj.webp',
     title: { ko: '실장', en: 'Director', zh: '室长', ja: '室長' },
     specialty: { ko: '사업자등록증 업무', en: 'Business Registration', zh: '营业执照业务', ja: '事業者登録業務' },
     langs: ['KR', 'EN'],
@@ -85,7 +85,7 @@ const staff: Member[] = [
   {
     nameKo: '허경',
     name: { ko: '허경', en: 'Heo Kyung', zh: '许京', ja: '許京' },
-    photo: '/team/hukyung.jpg',
+    photo: '/team/hukyung.webp',
     title: { ko: '실장', en: 'Director', zh: '室长', ja: '室長' },
     specialty: { ko: '중국어 통역·번역', en: 'Chinese Interpretation', zh: '中文翻译·口译', ja: '中国語通訳・翻訳' },
     langs: ['中文', 'KR', 'EN'],
@@ -98,8 +98,8 @@ function MemberCard({ member, locale, size = 'lg' }: { member: Member; locale: L
     <div style={{ textAlign: 'center', padding: '1rem 0.5rem' }}>
       <div style={{
         position: 'relative',
-        width: `${photoSize}px`,
-        height: `${photoSize}px`,
+        width: `min(${photoSize}px, 100%)`,
+        aspectRatio: '1 / 1',
         borderRadius: '50%',
         overflow: 'hidden',
         margin: '0 auto 0.875rem',
@@ -149,7 +149,7 @@ export default function TeamSection({ locale }: { locale: Locale }) {
           className="fade-up team-grid-admins"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
+            gridTemplateColumns: 'repeat(4, minmax(0, 1fr))',
             gap: '0.5rem 1rem',
             maxWidth: '720px',
             margin: '0 auto 1rem',
@@ -165,7 +165,7 @@ export default function TeamSection({ locale }: { locale: Locale }) {
           className="fade-up team-grid-staff"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
             gap: '0.5rem 1rem',
             maxWidth: '520px',
             margin: '0 auto',
@@ -179,11 +179,11 @@ export default function TeamSection({ locale }: { locale: Locale }) {
 
       <style>{`
         @media (max-width: 900px) {
-          .team-grid-admins { grid-template-columns: repeat(2, 1fr) !important; }
+          .team-grid-admins { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
         }
         @media (max-width: 560px) {
-          .team-grid-admins { grid-template-columns: repeat(2, 1fr) !important; }
-          .team-grid-staff  { grid-template-columns: repeat(3, 1fr) !important; }
+          .team-grid-admins { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+          .team-grid-staff  { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
         }
       `}</style>
     </section>
