@@ -9,6 +9,7 @@
     "/team/*",
     "/favicon.ico",
     "/logo.png",
+    "/logo.webp",
     "/og-image.png",
     "/*.svg",
     "/llms.txt"
