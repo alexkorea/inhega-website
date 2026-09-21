@@ -1,5 +1,8 @@
 export const metadata = {
   title: '개인정보처리방침 | 유선행정사사무소',
+  alternates: {
+    canonical: 'https://inhega.co.kr/privacy',
+  },
 }
 
 export default function PrivacyPage() {

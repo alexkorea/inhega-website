@@ -1,5 +1,8 @@
 export const metadata = {
   title: '이용약관 | 유선행정사사무소',
+  alternates: {
+    canonical: 'https://inhega.co.kr/terms',
+  },
 }
 
 export default function TermsPage() {

@@ -19,8 +19,15 @@ import path from 'node:path'
 // 워커 출구에서 직접 덮어쓴다. 정적자산은 `_routes.json` exclude 로 워커를 아예
 // 거치지 않으므로 장기 immutable 캐시는 그대로 유지된다.
 // ISR 의 짧은 s-maxage(예: s-maxage=2)는 의도된 값이라 건드리지 않는다.
+// ── GSC-B1(2026-09-21): www → apex 301 ────────────────────────────────────────
+// www.inhega.co.kr 이 본문을 200 으로 그대로 서빙하고 canonical 만 apex 를 가리켜
+// GSC 가 "구글이 다른 canonical 선택"/"리다이렉트 페이지" 로 잡았다.
+// 계정 토큰에 Zone 권한이 없어 존 Redirect Rule 을 만들 수 없으므로 워커 입구에서 301 한다.
+// 경로·쿼리는 보존한다. (정적자산은 _routes.json exclude 라 워커를 타지 않는다 — 색인 대상 아님)
 const WORKER_WRAPPER = `import opennextWorker from "./_worker-opennext.js";
 export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-opennext.js";
+
+const APEX_HOST = "inhega.co.kr";
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const LONG_S_MAXAGE_SECONDS = 60;
@@ -28,6 +35,11 @@ const BODYLESS_STATUS = new Set([101, 204, 205, 304]);
 
 export default {
   async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+    if (url.hostname === "www." + APEX_HOST) {
+      url.hostname = APEX_HOST;
+      return Response.redirect(url.toString(), 301);
+    }
     const response = await opennextWorker.fetch(request, env, ctx);
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
