@@ -36,7 +36,7 @@ export default function Navbar() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}>
       <div className={styles.inner}>
         {/* Logo */}
-        <Link href="/" className={styles.logo}>
+        <Link prefetch={false} href="/" className={styles.logo}>
           <div className={styles.logoMark}>
             <img src="/logo.webp" alt="유선행정사사무소 로고" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} />
           </div>
@@ -48,10 +48,10 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <nav className={styles.desktopNav}>
-          <Link href="/" className={`${styles.navLink} ${isActive('/') && pathname === '/' ? styles.active : ''}`}>
+          <Link prefetch={false} href="/" className={`${styles.navLink} ${isActive('/') && pathname === '/' ? styles.active : ''}`}>
             홈
           </Link>
-          <Link href="/about" className={`${styles.navLink} ${isActive('/about') ? styles.active : ''}`}>
+          <Link prefetch={false} href="/about" className={`${styles.navLink} ${isActive('/about') ? styles.active : ''}`}>
             회사소개
           </Link>
 
@@ -83,7 +83,7 @@ export default function Navbar() {
                     <div key={group.category} className={styles.megaMenuGroup}>
                       <p className={styles.megaMenuGroupLabel}>{group.category}</p>
                       {group.items.map((s) => (
-                        <Link key={s.slug} href={s.href} className={styles.megaMenuItem}>
+                        <Link key={s.slug} prefetch={false} href={s.href} className={styles.megaMenuItem}>
                           <span className={styles.megaMenuDot} />
                           {s.shortTitle}
                         </Link>
@@ -92,7 +92,7 @@ export default function Navbar() {
                   ))}
                 </div>
                 <div className={styles.megaMenuFooter}>
-                  <Link href="/quote" className="btn btn-primary">
+                  <Link prefetch={false} href="/quote" className="btn btn-primary">
                     무료 견적 문의
                   </Link>
                 </div>
@@ -100,22 +100,22 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/blog" className={`${styles.navLink} ${isActive('/blog') ? styles.active : ''}`}>
+          <Link prefetch={false} href="/blog" className={`${styles.navLink} ${isActive('/blog') ? styles.active : ''}`}>
             블로그
           </Link>
-          <Link href="/news" className={`${styles.navLink} ${isActive('/news') ? styles.active : ''}`}>
+          <Link prefetch={false} href="/news" className={`${styles.navLink} ${isActive('/news') ? styles.active : ''}`}>
             인허가 뉴스
           </Link>
-          <Link href="/contact" className={`${styles.navLink} ${isActive('/contact') ? styles.active : ''}`}>
+          <Link prefetch={false} href="/contact" className={`${styles.navLink} ${isActive('/contact') ? styles.active : ''}`}>
             상담문의
           </Link>
 
           {/* Language Switcher */}
           <div style={{ display: 'flex', gap: '3px', alignItems: 'center', marginLeft: '0.5rem' }}>
             <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px' }}>KO</span>
-            <Link href="/en" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>EN</Link>
-            <Link href="/zh" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>中文</Link>
-            <Link href="/ja" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>日本語</Link>
+            <Link prefetch={false} href="/en" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>EN</Link>
+            <Link prefetch={false} href="/zh" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>中文</Link>
+            <Link prefetch={false} href="/ja" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>日本語</Link>
           </div>
         </nav>
 
@@ -127,15 +127,15 @@ export default function Navbar() {
             </svg>
             02-363-2251
           </a>
-          <Link href="/contact" className={styles.ctaBtn}>
+          <Link prefetch={false} href="/contact" className={styles.ctaBtn}>
             견적 문의
           </Link>
 
           <div className={styles.mobileLangSwitch}>
             <span style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>KO</span>
-            <Link href="/en" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>EN</Link>
-            <Link href="/zh" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>中文</Link>
-            <Link href="/ja" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>日本語</Link>
+            <Link prefetch={false} href="/en" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>EN</Link>
+            <Link prefetch={false} href="/zh" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>中文</Link>
+            <Link prefetch={false} href="/ja" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>日本語</Link>
           </div>
 
           <button
@@ -151,25 +151,25 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
         <nav className={styles.mobileNav}>
-          <Link href="/" className={styles.mobileNavLink}>홈</Link>
-          <Link href="/about" className={styles.mobileNavLink}>회사소개</Link>
+          <Link prefetch={false} href="/" className={styles.mobileNavLink}>홈</Link>
+          <Link prefetch={false} href="/about" className={styles.mobileNavLink}>회사소개</Link>
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>서비스</p>
             {serviceGroups.map((group) => (
               <div key={group.category} className={styles.mobileServiceGroup}>
                 <p className={styles.mobileServiceGroupLabel}>{group.category}</p>
                 {group.items.map((s) => (
-                  <Link key={s.slug} href={s.href} className={styles.mobileServiceLink}>
+                  <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
                     {s.shortTitle}
                   </Link>
                 ))}
               </div>
             ))}
           </div>
-          <Link href="/blog" className={styles.mobileNavLink}>블로그</Link>
-          <Link href="/news" className={styles.mobileNavLink}>인허가 뉴스</Link>
-          <Link href="/contact" className={styles.mobileNavLink}>상담문의</Link>
-          <Link href="/contact" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
+          <Link prefetch={false} href="/blog" className={styles.mobileNavLink}>블로그</Link>
+          <Link prefetch={false} href="/news" className={styles.mobileNavLink}>인허가 뉴스</Link>
+          <Link prefetch={false} href="/contact" className={styles.mobileNavLink}>상담문의</Link>
+          <Link prefetch={false} href="/contact" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
             무료 견적 문의
           </Link>
         </nav>

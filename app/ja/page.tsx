@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { FillImage, responsiveBase } from '@/components/ui/FillImage'
 import Link from 'next/link'
 import styles from '../page.module.css'
 import { getServiceCatalog } from '@/lib/services-catalog'
@@ -35,12 +35,14 @@ export default function JaHomePage() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroBg}>
-          <Image
-            src="/images/hero-seoul.webp"
+          <FillImage
+            base="/images/hero-seoul-20260923"
+            small={768}
+            large={1024}
             alt="ソウルの都市景観"
-            fill
+            sizes="100vw"
             priority
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
+            objectPosition="center"
           />
           <div className={styles.heroOverlay} />
         </div>
@@ -53,13 +55,13 @@ export default function JaHomePage() {
             </h1>
             <p className={`${styles.heroDesc} fade-up delay-2`}>{t.hero.desc}</p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>
-              <Link href="/ja/contact" className="btn btn-primary btn-lg">
+              <Link prefetch={false} href="/ja/contact" className="btn btn-primary btn-lg">
                 {t.hero.ctaPrimary}
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
               </Link>
-              <Link href="/ja/services/logistics" className="btn btn-outline-white btn-lg">
+              <Link prefetch={false} href="/ja/services/logistics" className="btn btn-outline-white btn-lg">
                 {t.hero.ctaSecondary}
               </Link>
             </div>
@@ -115,16 +117,18 @@ export default function JaHomePage() {
           <div className={styles.bentoGrid}>
             {translatedServices.map((svc, i) => (
               <Link
+                prefetch={false}
                 key={svc.slug}
                 href={svc.href}
                 className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
               >
                 <div className={styles.bentoImage}>
-                  <Image
-                    src={svc.image}
+                  <FillImage
+                    base={responsiveBase(svc.image)}
+                    small={500}
+                    large={800}
                     alt={svc.shortTitle}
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    sizes="(max-width: 900px) 100vw, 33vw"
                   />
                   <div className={styles.bentoOverlay} />
                 </div>
@@ -192,7 +196,7 @@ export default function JaHomePage() {
               ))}
             </ul>
             <div className={`fade-up delay-4`} style={{ marginTop: '2rem' }}>
-              <Link href="/ja/contact" className="btn btn-primary">{t.whyUs.cta}</Link>
+              <Link prefetch={false} href="/ja/contact" className="btn btn-primary">{t.whyUs.cta}</Link>
             </div>
           </div>
         </div>
@@ -207,8 +211,8 @@ export default function JaHomePage() {
               <p className={styles.ctaDesc}>{t.cta.desc}</p>
             </div>
             <div className={styles.ctaBtns}>
-              <Link href="/ja/contact" className="btn btn-primary btn-lg">{t.cta.primary}</Link>
-              <Link href="/ja/contact" className="btn btn-outline-white btn-lg">{t.cta.secondary}</Link>
+              <Link prefetch={false} href="/ja/contact" className="btn btn-primary btn-lg">{t.cta.primary}</Link>
+              <Link prefetch={false} href="/ja/contact" className="btn btn-outline-white btn-lg">{t.cta.secondary}</Link>
             </div>
           </div>
         </div>

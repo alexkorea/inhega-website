@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { FillImage } from '@/components/ui/FillImage'
 
 type Locale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -21,11 +21,13 @@ const sectionData: Record<Locale, { title: string; subtitle: string }> = {
   },
 }
 
+// scripts/build-responsive-images.mjs 가 만든 WebP. JPEG 원본은 300px QR 한 장에
+// 25KB 를 쓰고 있었다(kakao/wechat). 화면 크기는 160px 고정이라 폭 1종이면 충분하다.
 const qrItems = [
-  { src: '/images/qr/kakao.jpg', label: 'KakaoTalk' },
-  { src: '/images/qr/wechat.jpg', label: 'WeChat' },
-  { src: '/images/qr/line.jpg', label: 'LINE' },
-  { src: '/images/qr/whatsapp.jpg', label: 'WhatsApp' },
+  { src: '/images/qr/kakao-20260923', label: 'KakaoTalk' },
+  { src: '/images/qr/wechat-20260923', label: 'WeChat' },
+  { src: '/images/qr/line-20260923', label: 'LINE' },
+  { src: '/images/qr/whatsapp-20260923', label: 'WhatsApp' },
 ]
 
 export default function QRSection({ locale }: { locale: Locale }) {
@@ -64,11 +66,12 @@ export default function QRSection({ locale }: { locale: Locale }) {
               }}
             >
               <div style={{ position: 'relative', width: '110px', height: '110px', borderRadius: '8px', overflow: 'hidden' }}>
-                <Image
-                  src={item.src}
+                <FillImage
+                  base={item.src}
+                  small={300}
+                  large={300}
                   alt={item.label + ' QR'}
-                  fill
-                  style={{ objectFit: 'cover' }}
+                  sizes="160px"
                 />
               </div>
               <span style={{ fontSize: '0.875rem', fontWeight: 700, color: '#235099' }}>{item.label}</span>

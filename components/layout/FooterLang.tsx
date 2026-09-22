@@ -120,7 +120,7 @@ export default function FooterLang({ locale }: { locale: Locale }) {
               <ul className={styles.linkList}>
                 {services.slice(0, 8).map((s) => (
                   <li key={s.href}>
-                    <Link href={s.href} className={styles.link}>{s.label}</Link>
+                    <Link prefetch={false} href={s.href} className={styles.link}>{s.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -131,7 +131,7 @@ export default function FooterLang({ locale }: { locale: Locale }) {
               <ul className={styles.linkList} style={{ marginTop: 0 }}>
                 {services.slice(8).map((s) => (
                   <li key={s.href}>
-                    <Link href={s.href} className={styles.link}>{s.label}</Link>
+                    <Link prefetch={false} href={s.href} className={styles.link}>{s.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -140,23 +140,23 @@ export default function FooterLang({ locale }: { locale: Locale }) {
             <div className={styles.linksCol}>
               <p className={styles.colTitle}>{t.footer.company}</p>
               <ul className={styles.linkList}>
-                <li><Link href={`${base}/about`} className={styles.link}>{t.footer.about}</Link></li>
-                <li><Link href={`${base}/contact`} className={styles.link}>{t.footer.contact}</Link></li>
-                <li><Link href={`${base}/contact`} className={styles.link}>{t.footer.quoteLink}</Link></li>
+                <li><Link prefetch={false} href={`${base}/about`} className={styles.link}>{t.footer.about}</Link></li>
+                <li><Link prefetch={false} href={`${base}/contact`} className={styles.link}>{t.footer.contact}</Link></li>
+                <li><Link prefetch={false} href={`${base}/contact`} className={styles.link}>{t.footer.quoteLink}</Link></li>
               </ul>
 
               <p className={styles.colTitle} style={{ marginTop: '1.5rem' }}>{t.footer.legal}</p>
               <ul className={styles.linkList}>
-                <li><Link href="/privacy" className={styles.link}>{t.footer.privacy}</Link></li>
-                <li><Link href="/terms" className={styles.link}>{t.footer.terms}</Link></li>
+                <li><Link prefetch={false} href="/privacy" className={styles.link}>{t.footer.privacy}</Link></li>
+                <li><Link prefetch={false} href="/terms" className={styles.link}>{t.footer.terms}</Link></li>
               </ul>
 
               <p className={styles.colTitle} style={{ marginTop: '1.5rem' }}>Language</p>
               <ul className={styles.linkList}>
-                <li><Link href="/" className={styles.link}>한국어</Link></li>
-                <li><Link href="/en" className={styles.link}>English</Link></li>
-                <li><Link href="/zh" className={styles.link}>中文</Link></li>
-                <li><Link href="/ja" className={styles.link}>日本語</Link></li>
+                <li><Link prefetch={false} href="/" className={styles.link}>한국어</Link></li>
+                <li><Link prefetch={false} href="/en" className={styles.link}>English</Link></li>
+                <li><Link prefetch={false} href="/zh" className={styles.link}>中文</Link></li>
+                <li><Link prefetch={false} href="/ja" className={styles.link}>日本語</Link></li>
               </ul>
             </div>
           </div>

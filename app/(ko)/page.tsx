@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { FillImage, responsiveBase } from '@/components/ui/FillImage'
 import Link from 'next/link'
 import styles from './page.module.css'
 import { getServiceCatalog } from '@/lib/services-catalog'
@@ -53,12 +53,14 @@ export default function HomePage() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroBg}>
-          <Image
-            src="/images/hero-seoul.webp"
+          <FillImage
+            base="/images/hero-seoul-20260923"
+            small={768}
+            large={1024}
             alt="서울 도심 전경"
-            fill
+            sizes="100vw"
             priority
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
+            objectPosition="center"
           />
           <div className={styles.heroOverlay} />
         </div>
@@ -75,13 +77,13 @@ export default function HomePage() {
               유선행정사사무소가 처음부터 끝까지 책임집니다.
             </p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>
-              <Link href="/quote" className="btn btn-primary btn-lg">
+              <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">
                 무료 견적 문의
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
               </Link>
-              <Link href="/contact" className="btn btn-outline-white btn-lg">
+              <Link prefetch={false} href="/contact" className="btn btn-outline-white btn-lg">
                 상담 신청
               </Link>
             </div>
@@ -143,16 +145,18 @@ export default function HomePage() {
           <div className={styles.bentoGrid}>
             {featuredServices.map((svc, i) => (
               <Link
+                prefetch={false}
                 key={svc.slug}
                 href={`/services/${svc.slug}`}
                 className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
               >
                 <div className={styles.bentoImage}>
-                  <Image
-                    src={svc.image}
+                  <FillImage
+                    base={responsiveBase(svc.image)}
+                    small={500}
+                    large={800}
                     alt={svc.title}
-                    fill
-                    style={{ objectFit: 'cover' }}
+                    sizes="(max-width: 900px) 100vw, 33vw"
                   />
                   <div className={styles.bentoOverlay} />
                 </div>
@@ -257,7 +261,7 @@ export default function HomePage() {
               ))}
             </ul>
             <div className={`fade-up delay-4`} style={{ marginTop: '2rem' }}>
-              <Link href="/about" className="btn btn-primary">회사 소개 보기</Link>
+              <Link prefetch={false} href="/about" className="btn btn-primary">회사 소개 보기</Link>
             </div>
           </div>
         </div>
@@ -272,8 +276,8 @@ export default function HomePage() {
               <p className={styles.ctaDesc}>첫 상담은 무료입니다. 사업 현황을 알려주시면 최적의 방법을 안내해 드립니다.</p>
             </div>
             <div className={styles.ctaBtns}>
-              <Link href="/quote" className="btn btn-primary btn-lg">무료 견적 받기</Link>
-              <Link href="/contact" className="btn btn-outline-white btn-lg">상담 예약하기</Link>
+              <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">무료 견적 받기</Link>
+              <Link prefetch={false} href="/contact" className="btn btn-outline-white btn-lg">상담 예약하기</Link>
             </div>
           </div>
         </div>

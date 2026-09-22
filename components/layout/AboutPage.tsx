@@ -309,8 +309,8 @@ export default function AboutPage({ locale }: { locale: Locale }) {
                 ))}
               </div>
               <div style={{ marginTop: '2.5rem', display: 'flex', gap: '1rem' }}>
-                <Link href={s.contactHref} className="btn btn-primary">{s.ctaPrimary}</Link>
-                <Link href={s.quoteHref} className="btn btn-outline-white">{s.ctaSecondary}</Link>
+                <Link prefetch={false} href={s.contactHref} className="btn btn-primary">{s.ctaPrimary}</Link>
+                <Link prefetch={false} href={s.quoteHref} className="btn btn-outline-white">{s.ctaSecondary}</Link>
               </div>
             </div>
             <div className="fade-in delay-2" style={{ borderRadius: '16px', overflow: 'hidden', height: '320px' }}>

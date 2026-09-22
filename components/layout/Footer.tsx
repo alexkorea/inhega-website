@@ -77,7 +77,7 @@ export default function Footer() {
               <ul className={styles.linkList}>
                 {services.slice(0, 8).map((s) => (
                   <li key={s.href}>
-                    <Link href={s.href} className={styles.link}>{s.label}</Link>
+                    <Link prefetch={false} href={s.href} className={styles.link}>{s.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -88,7 +88,7 @@ export default function Footer() {
               <ul className={styles.linkList} style={{ marginTop: 0 }}>
                 {services.slice(8).map((s) => (
                   <li key={s.href}>
-                    <Link href={s.href} className={styles.link}>{s.label}</Link>
+                    <Link prefetch={false} href={s.href} className={styles.link}>{s.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -98,24 +98,24 @@ export default function Footer() {
             <div className={styles.linksCol}>
               <p className={styles.colTitle}>회사</p>
               <ul className={styles.linkList}>
-                <li><Link href="/about" className={styles.link}>회사소개</Link></li>
-                <li><Link href="/blog" className={styles.link}>블로그</Link></li>
-                <li><Link href="/news" className={styles.link}>인허가 뉴스</Link></li>
-                <li><Link href="/contact" className={styles.link}>상담문의</Link></li>
-                <li><Link href="/quote" className={styles.link}>견적 문의</Link></li>
+                <li><Link prefetch={false} href="/about" className={styles.link}>회사소개</Link></li>
+                <li><Link prefetch={false} href="/blog" className={styles.link}>블로그</Link></li>
+                <li><Link prefetch={false} href="/news" className={styles.link}>인허가 뉴스</Link></li>
+                <li><Link prefetch={false} href="/contact" className={styles.link}>상담문의</Link></li>
+                <li><Link prefetch={false} href="/quote" className={styles.link}>견적 문의</Link></li>
               </ul>
 
               <p className={styles.colTitle} style={{ marginTop: '1.5rem' }}>법적 정보</p>
               <ul className={styles.linkList}>
-                <li><Link href="/privacy" className={styles.link}>개인정보처리방침</Link></li>
-                <li><Link href="/terms" className={styles.link}>이용약관</Link></li>
+                <li><Link prefetch={false} href="/privacy" className={styles.link}>개인정보처리방침</Link></li>
+                <li><Link prefetch={false} href="/terms" className={styles.link}>이용약관</Link></li>
               </ul>
 
               <p className={styles.colTitle} style={{ marginTop: '1.5rem' }}>언어 / Language</p>
               <ul className={styles.linkList}>
-                <li><Link href="/en" className={styles.link}>English</Link></li>
-                <li><Link href="/zh" className={styles.link}>中文 (简体)</Link></li>
-                <li><Link href="/ja" className={styles.link}>日本語</Link></li>
+                <li><Link prefetch={false} href="/en" className={styles.link}>English</Link></li>
+                <li><Link prefetch={false} href="/zh" className={styles.link}>中文 (简体)</Link></li>
+                <li><Link prefetch={false} href="/ja" className={styles.link}>日本語</Link></li>
               </ul>
 
             </div>

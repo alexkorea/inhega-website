@@ -48,7 +48,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}>
       <div className={styles.inner}>
-        <Link href={base} className={styles.logo}>
+        <Link prefetch={false} href={base} className={styles.logo}>
           <div className={styles.logoMark}><img src="/logo.webp" alt="YouSun Administrative Attorney logo" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
           <div className={styles.logoText}>
             <span className={`${styles.logoMain} ${styles.logoMainEn}`}>YouSun Administrative Attorney</span>
@@ -57,10 +57,10 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
         </Link>
 
         <nav className={styles.desktopNav}>
-          <Link href={base} className={`${styles.navLink} ${pathname === base ? styles.active : ''}`}>
+          <Link prefetch={false} href={base} className={`${styles.navLink} ${pathname === base ? styles.active : ''}`}>
             {t.nav.home}
           </Link>
-          <Link href={`${base}/about`} className={`${styles.navLink} ${isActive(`${base}/about`) ? styles.active : ''}`}>
+          <Link prefetch={false} href={`${base}/about`} className={`${styles.navLink} ${isActive(`${base}/about`) ? styles.active : ''}`}>
             {t.nav.about}
           </Link>
 
@@ -90,7 +90,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                     <div key={group.category} className={styles.megaMenuGroup}>
                       <p className={styles.megaMenuGroupLabel}>{group.category}</p>
                       {group.items.map((s) => (
-                        <Link key={s.slug} href={s.href} className={styles.megaMenuItem}>
+                        <Link key={s.slug} prefetch={false} href={s.href} className={styles.megaMenuItem}>
                           <span className={styles.megaMenuDot} />
                           {s.shortTitle}
                         </Link>
@@ -99,7 +99,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                   ))}
                 </div>
                 <div className={styles.megaMenuFooter}>
-                  <Link href={`${base}/contact`} className="btn btn-primary">
+                  <Link prefetch={false} href={`${base}/contact`} className="btn btn-primary">
                     {t.nav.quote}
                   </Link>
                 </div>
@@ -107,13 +107,13 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
             </div>
           </div>
 
-          <Link href={`${base}/blog`} className={`${styles.navLink} ${isActive(`${base}/blog`) ? styles.active : ''}`}>
+          <Link prefetch={false} href={`${base}/blog`} className={`${styles.navLink} ${isActive(`${base}/blog`) ? styles.active : ''}`}>
             {t.nav.blog}
           </Link>
-          <Link href={`${base}/news`} className={`${styles.navLink} ${isActive(`${base}/news`) ? styles.active : ''}`}>
+          <Link prefetch={false} href={`${base}/news`} className={`${styles.navLink} ${isActive(`${base}/news`) ? styles.active : ''}`}>
             {t.nav.news}
           </Link>
-          <Link href={`${base}/contact`} className={`${styles.navLink} ${isActive(`${base}/contact`) ? styles.active : ''}`}>
+          <Link prefetch={false} href={`${base}/contact`} className={`${styles.navLink} ${isActive(`${base}/contact`) ? styles.active : ''}`}>
             {t.nav.contact}
           </Link>
 
@@ -136,7 +136,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                   {l.label}
                 </span>
               ) : (
-                <Link
+                <Link prefetch={false}
                   key={l.href}
                   href={l.href}
                   style={{
@@ -163,7 +163,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
             </svg>
             02-363-2251
           </a>
-          <Link href={`${base}/contact`} className={styles.ctaBtn}>
+          <Link prefetch={false} href={`${base}/contact`} className={styles.ctaBtn}>
             {t.nav.quote}
           </Link>
 
@@ -179,25 +179,25 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
 
       <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
         <nav className={styles.mobileNav}>
-          <Link href={base} className={styles.mobileNavLink}>{t.nav.home}</Link>
-          <Link href={`${base}/about`} className={styles.mobileNavLink}>{t.nav.about}</Link>
+          <Link prefetch={false} href={base} className={styles.mobileNavLink}>{t.nav.home}</Link>
+          <Link prefetch={false} href={`${base}/about`} className={styles.mobileNavLink}>{t.nav.about}</Link>
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>{t.nav.services}</p>
             {serviceGroups.map((group) => (
               <div key={group.category} className={styles.mobileServiceGroup}>
                 <p className={styles.mobileServiceGroupLabel}>{group.category}</p>
                 {group.items.map((s) => (
-                  <Link key={s.slug} href={s.href} className={styles.mobileServiceLink}>
+                  <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
                     {s.shortTitle}
                   </Link>
                 ))}
               </div>
             ))}
           </div>
-          <Link href={`${base}/blog`} className={styles.mobileNavLink}>{t.nav.blog}</Link>
-          <Link href={`${base}/news`} className={styles.mobileNavLink}>{t.nav.news}</Link>
-          <Link href={`${base}/contact`} className={styles.mobileNavLink}>{t.nav.contact}</Link>
-          <Link href={`${base}/contact`} className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
+          <Link prefetch={false} href={`${base}/blog`} className={styles.mobileNavLink}>{t.nav.blog}</Link>
+          <Link prefetch={false} href={`${base}/news`} className={styles.mobileNavLink}>{t.nav.news}</Link>
+          <Link prefetch={false} href={`${base}/contact`} className={styles.mobileNavLink}>{t.nav.contact}</Link>
+          <Link prefetch={false} href={`${base}/contact`} className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
             {t.nav.quote}
           </Link>
           <div style={{ display: 'flex', gap: '6px', marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.12)' }}>
@@ -209,7 +209,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                   {l.label}
                 </span>
               ) : (
-                <Link key={l.href} href={l.href} style={{ ...badgeStyle, textDecoration: 'none' }}>
+                <Link prefetch={false} key={l.href} href={l.href} style={{ ...badgeStyle, textDecoration: 'none' }}>
                   {l.label}
                 </Link>
               )
