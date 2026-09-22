@@ -1,0 +1,9 @@
+# Cloudflare Pages — 정적자산 캐시 정책
+# 이 파일은 정적자산 응답에만 적용된다. _worker.js 가 만드는 HTML 응답에는 적용되지 않는다
+# (HTML 의 s-maxage 제거는 scripts/build-pages-bundle.mjs 의 워커 래퍼가 담당 — CH-01).
+#
+# _next/static/* 는 파일명에 콘텐츠 해시가 들어가 내용이 바뀌면 URL 이 바뀐다.
+# 규칙이 없으면 CF 존의 Browser Cache TTL(4h) 이 적용돼 재방문 때마다 CSS/JS 를 다시 받는다.
+# _routes.json 에서 exclude 되어 워커를 타지 않으므로 이 규칙이 그대로 최종값이 된다.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
