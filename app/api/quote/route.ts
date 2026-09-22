@@ -92,6 +92,8 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
           from: MAIL_FROM,
           to: email,
+          // 고객이 이 확인메일에 회신하면 noreply@ 로 사라지지 않고 담당자에게 닿는다. (2026-09-22)
+          reply_to: '5000meter@gmail.com',
           subject: '[유선행정사사무소] 견적 문의가 접수되었습니다',
           html: `
             <div style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;">
