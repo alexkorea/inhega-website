@@ -128,7 +128,9 @@ export async function POST(req: NextRequest) {
         const gwRes = await fetch('https://form-gateway.pages.dev/api/intake', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.FC_NOTION_TOKEN}` },
-          body: JSON.stringify({ site: 'inhega.co.kr', name, phone, email, visaType: service || undefined, message }),
+          // notify:false — inhega 는 위에서 자체 관리자 메일을 보낸다. 게이트웨이 폴백까지
+          // 보내면 같은 문의가 2통이 된다(보스 지적 2026-09-22 10:30).
+          body: JSON.stringify({ site: 'inhega.co.kr', name, phone, email, visaType: service || undefined, message, notify: false }),
         })
         const gwData = await gwRes.json() as { ok?: boolean; id?: string; error?: string; detail?: string }
         if (gwData.ok && gwData.id) inquiryId = gwData.id

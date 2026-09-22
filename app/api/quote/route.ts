@@ -136,6 +136,8 @@ export async function POST(req: NextRequest) {
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.FC_NOTION_TOKEN}` },
           body: JSON.stringify({
             site: 'inhega.co.kr',
+            // 자체 관리자 메일이 있으므로 게이트웨이 폴백 미발송(중복 방지).
+            notify: false,
             name,
             phone,
             email,
