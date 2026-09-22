@@ -17,6 +17,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${base}/services`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    // /news 는 KV 에서 매일 갱신되는 SSR 목록이라 daily. en/zh/ja 는 본문이 한국어
+    // 그대로라 noindex + canonical→ko 이므로 사이트맵에 올리지 않는다.
+    { url: `${base}/news`, lastModified: now, changeFrequency: 'daily' as const, priority: 0.8 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${base}/quote`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${base}/privacy`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.3 },

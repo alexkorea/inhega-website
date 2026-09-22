@@ -100,6 +100,7 @@ export default function Footer() {
               <ul className={styles.linkList}>
                 <li><Link href="/about" className={styles.link}>회사소개</Link></li>
                 <li><Link href="/blog" className={styles.link}>블로그</Link></li>
+                <li><Link href="/news" className={styles.link}>인허가 뉴스</Link></li>
                 <li><Link href="/contact" className={styles.link}>상담문의</Link></li>
                 <li><Link href="/quote" className={styles.link}>견적 문의</Link></li>
               </ul>

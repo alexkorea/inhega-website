@@ -7,6 +7,8 @@
  *
  * 사용: node scripts/build-pages-bundle.mjs   (opennextjs-cloudflare build 이후)
  * 배포: cd .open-next/assets && wrangler pages deploy . --project-name=inhega-pages --branch=main
+ *       배포 직후 반드시: bash /Users/mac4/scripts/deploy-done-auto.sh inhega
+ *       (배포 완료 기준 = n8n 독립검증 PASS. 봇 자기보고는 완료가 아니다. 맥7 20260922-1425)
  *
  * _routes.json 은 public/_routes.json 이 그대로 복사되므로 여기서 건드리지 않는다.
  */
@@ -19,6 +21,10 @@ import path from 'node:path'
 // 워커 출구에서 직접 덮어쓴다. 정적자산은 `_routes.json` exclude 로 워커를 아예
 // 거치지 않으므로 장기 immutable 캐시는 그대로 유지된다.
 // ISR 의 짧은 s-maxage(예: s-maxage=2)는 의도된 값이라 건드리지 않는다.
+// ── /news(인허가 뉴스) 예외 ───────────────────────────────────────────────────
+// /news 는 KV 를 요청 시 읽는 force-dynamic 라우트라 Next 가 `no-store` 를 붙인다.
+// 재배포 없이 갱신되되 공유 캐시 신선도는 10분 이내여야 한다는 요건(맥7 20260922-1845)
+// 이라 워커 출구에서 s-maxage=600 을 명시한다. 브라우저 캐시는 표준대로 must-revalidate.
 // ── GSC-B1(2026-09-21): www → apex 301 ────────────────────────────────────────
 // www.inhega.co.kr 이 본문을 200 으로 그대로 서빙하고 canonical 만 apex 를 가리켜
 // GSC 가 "구글이 다른 canonical 선택"/"리다이렉트 페이지" 로 잡았다.
@@ -30,6 +36,8 @@ export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-o
 const APEX_HOST = "inhega.co.kr";
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
+const NEWS_CACHE_CONTROL = "public, max-age=0, must-revalidate, s-maxage=600";
+const NEWS_PATH = /^[/](?:(?:en|zh|ja)[/])?news(?:[/]|$)/;
 const LONG_S_MAXAGE_SECONDS = 60;
 const BODYLESS_STATUS = new Set([101, 204, 205, 304]);
 
@@ -43,6 +51,11 @@ export default {
     const response = await opennextWorker.fetch(request, env, ctx);
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
+    if (response.status === 200 && NEWS_PATH.test(url.pathname)) {
+      const news = new Response(response.body, response);
+      news.headers.set("cache-control", NEWS_CACHE_CONTROL);
+      return news;
+    }
     const match = /s-maxage=(\\d+)/i.exec(response.headers.get("cache-control") || "");
     if (!match || Number(match[1]) <= LONG_S_MAXAGE_SECONDS) return response;
     const patched = new Response(response.body, response);

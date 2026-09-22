@@ -103,6 +103,9 @@ export default function Navbar() {
           <Link href="/blog" className={`${styles.navLink} ${isActive('/blog') ? styles.active : ''}`}>
             블로그
           </Link>
+          <Link href="/news" className={`${styles.navLink} ${isActive('/news') ? styles.active : ''}`}>
+            인허가 뉴스
+          </Link>
           <Link href="/contact" className={`${styles.navLink} ${isActive('/contact') ? styles.active : ''}`}>
             상담문의
           </Link>
@@ -164,6 +167,7 @@ export default function Navbar() {
             ))}
           </div>
           <Link href="/blog" className={styles.mobileNavLink}>블로그</Link>
+          <Link href="/news" className={styles.mobileNavLink}>인허가 뉴스</Link>
           <Link href="/contact" className={styles.mobileNavLink}>상담문의</Link>
           <Link href="/contact" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
             무료 견적 문의

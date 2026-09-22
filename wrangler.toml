@@ -2,3 +2,12 @@ name = "inhega-pages"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".open-next/assets"
+
+# 인허가 뉴스(REGWATCH) 저장소.
+# 주의: KV 바인딩을 Pages 프로젝트 설정(대시보드/API)에만 붙이면 배포에 실리지 않는다.
+# wrangler.toml 이 있는 Pages 프로젝트는 `wrangler pages deploy` 가 이 파일의 바인딩을
+# 기준으로 삼는다(2026-09-22 실측: 프로젝트 설정의 kv_namespaces 는 deployment 에 kv:null 로 떨어짐).
+# 시크릿 환경변수(NEWS_INGEST_TOKEN 등)는 반대로 프로젝트 설정 쪽이 그대로 적용된다.
+[[kv_namespaces]]
+binding = "NEWS_KV"
+id = "200fba06ed124e5fbd66ebb836fa9e0f"

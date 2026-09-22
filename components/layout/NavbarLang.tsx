@@ -110,6 +110,9 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
           <Link href={`${base}/blog`} className={`${styles.navLink} ${isActive(`${base}/blog`) ? styles.active : ''}`}>
             {t.nav.blog}
           </Link>
+          <Link href={`${base}/news`} className={`${styles.navLink} ${isActive(`${base}/news`) ? styles.active : ''}`}>
+            {t.nav.news}
+          </Link>
           <Link href={`${base}/contact`} className={`${styles.navLink} ${isActive(`${base}/contact`) ? styles.active : ''}`}>
             {t.nav.contact}
           </Link>
@@ -192,6 +195,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
             ))}
           </div>
           <Link href={`${base}/blog`} className={styles.mobileNavLink}>{t.nav.blog}</Link>
+          <Link href={`${base}/news`} className={styles.mobileNavLink}>{t.nav.news}</Link>
           <Link href={`${base}/contact`} className={styles.mobileNavLink}>{t.nav.contact}</Link>
           <Link href={`${base}/contact`} className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
             {t.nav.quote}
