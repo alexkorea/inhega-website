@@ -62,7 +62,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
     name: svc.title,
     description: svc.description,
     provider: {
-      '@type': 'LegalService',
+      '@type': 'ProfessionalService',
       name: 'YouSun Administrative Attorney',
       telephone: '02-363-2251',
       url: 'https://inhega.co.kr/en',

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post && !koPost) return {}
   const title = post?.metaTitle ?? (koPost?.meta_title || koPost?.title) ?? ''
   const description = post?.metaDescription ?? koPost?.meta_description ?? ''
-  const ogPath = ogThumb('zh', slug)
+  const ogPath = ogThumb('zh', slug) || ogThumb('ko', slug)
   const image = ogPath ? `https://inhega.co.kr${ogPath}` : ''
   const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${slug}`, 'x-default': `https://inhega.co.kr/blog/${slug}` }
   if (getBlogI18n('en', slug)) languages.en = `https://inhega.co.kr/en/blog/${slug}`
@@ -25,8 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title,
     description,
+    robots: post ? undefined : { index: false, follow: true },
     alternates: {
-      canonical: `https://inhega.co.kr/zh/blog/${slug}`,
+      canonical: post ? `https://inhega.co.kr/zh/blog/${slug}` : `https://inhega.co.kr/blog/${slug}`,
       languages,
     },
     openGraph: {

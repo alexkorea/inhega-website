@@ -66,7 +66,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     name: svc.title,
     description: svc.description,
     provider: {
-      '@type': 'LegalService',
+      '@type': 'ProfessionalService',
       name: '유선행정사사무소',
       telephone: '02-363-2251',
       url: 'https://inhega.co.kr',

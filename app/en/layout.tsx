@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'LegalService',
+  '@type': 'ProfessionalService',
   name: 'YouSun Administrative Attorney',
   alternateName: '유선행정사사무소',
   url: 'https://inhega.co.kr/en',
