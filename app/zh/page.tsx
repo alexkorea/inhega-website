@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../page.module.css'
-import { publicServices as services } from '@/lib/services-data'
-import { hasServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceCatalog } from '@/lib/services-catalog'
 import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
@@ -26,49 +25,9 @@ export const metadata: Metadata = {
 const t = getT('zh')
 
 // 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
-const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const translatedServices = getServiceCatalog('zh')
 
-const serviceLabels: Record<string, string> = {
-  'logistics': '国际货运代理',
-  'currency-exchange': '外汇兑换业',
-  'urban-guesthouse': '外国人城市民宿',
-  'hostel': '青年旅社业',
-  'hanok': '韩屋体验业',
-  'building-usage': '建筑物用途变更',
-  'food-manufacturing': '食品制造加工业',
-  'women-enterprise': '女性企业认证',
-  'nonprofit': '非营利社团法人',
-  'tobacco': '烟草进口销售',
-  'venture-cert': '风险/创新企业认证',
-  'haccp': 'HACCP认证',
-  'cosmetics': '化妆品/准药品许可',
-  'procurement': '政府采购',
-  'research-lab': '企业附属研究所',
-  'ecig': '电子烟进口许可',
-  'sports-club': '指定体育俱乐部',
-  'location-based-service': '位置信息服务事业',
-}
-
-const categoryLabels: Record<string, string> = {
-  '물류/유통': '物流/流通',
-  '금융': '金融',
-  '숙박/관광': '住宿/旅游',
-  '건설/건축': '建筑',
-  '건축/부동산': '建筑',
-  '식품': '食品',
-  '식품/의약': '食品/医药',
-  '기업인증': '企业认证',
-  '법인/단체': '法人/团体',
-  '법인설립': '法人设立',
-  '유통': '流通',
-  '유통/판매': '流通/销售',
-  '연구개발': '研发',
-  '정보통신': '信息通信',
-  'IT·통신': '信息通信',
-  '스포츠/레저': '体育/休闲',
-  '체육시설업': '体育设施',
-  '공공조달': '政府采购',
-}
 
 export default function ZhHomePage() {
   return (
@@ -157,13 +116,13 @@ export default function ZhHomePage() {
             {translatedServices.map((svc, i) => (
               <Link
                 key={svc.slug}
-                href={`/zh/services/${svc.slug}`}
+                href={svc.href}
                 className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
               >
                 <div className={styles.bentoImage}>
                   <Image
                     src={svc.image}
-                    alt={serviceLabels[svc.slug] || svc.shortTitle}
+                    alt={svc.shortTitle}
                     fill
                     style={{ objectFit: 'cover' }}
                   />
@@ -171,9 +130,9 @@ export default function ZhHomePage() {
                 </div>
                 <div className={styles.bentoBody}>
                   <span className={`badge badge-white ${styles.bentoBadge}`}>
-                    {categoryLabels[svc.category] || svc.category}
+                    {svc.category}
                   </span>
-                  <h3 className={styles.bentoTitle}>{serviceLabels[svc.slug] || svc.shortTitle}</h3>
+                  <h3 className={styles.bentoTitle}>{svc.shortTitle}</h3>
                   <span className={styles.bentoLink}>
                     {t.services.more}
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">

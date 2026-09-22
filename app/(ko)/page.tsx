@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './page.module.css'
-import { publicServices } from '@/lib/services-data'
+import { getServiceCatalog } from '@/lib/services-catalog'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
@@ -43,8 +43,9 @@ const whyAttorney = [
   { title: '허가 실패 리스크 예방', desc: '경험이 부족하면 반려, 지연, 거절 등의 리스크가 높아집니다. 전문행정사의 검토는 곧 안정적인 허가의 시작입니다.' },
 ]
 
-// 보스 확정 대기분 제외 — publicServices 사용 (2026-09-17)
-const featuredServices = publicServices
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
+// 보스 확정 대기분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
+const featuredServices = getServiceCatalog('ko')
 
 export default function HomePage() {
   return (

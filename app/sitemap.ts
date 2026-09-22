@@ -2,25 +2,11 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs } from '@/lib/i18n/blog-i18n'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
-import { isDeployHold } from '@/lib/services-data'
+import { getServiceSlugs } from '@/lib/services-catalog'
 
-// en/zh/ja 번역본이 있는 서비스 — 언어별 URL 은 이 목록만 제출한다.
-const translatedServices = [
-  'logistics', 'currency-exchange', 'urban-guesthouse', 'hostel', 'hanok',
-  'building-usage', 'food-manufacturing', 'women-enterprise', 'nonprofit',
-  'tobacco', 'venture-cert', 'haccp', 'cosmetics', 'procurement',
-  'research-lab', 'ecig', 'sports-club', 'location-based-service',
-]
-
-// inhega.com 에서 신규 이관한 서비스 — 이번 통합에서는 한국어만 만들었으므로
-// KO URL 만 제출한다(en/zh/ja 는 404).
-const koOnlyServices = [
-  'medical-device', 'health-food', 'factory', 'freight-trucking', 'mainbiz',
-  'rnd-support', 'foundation', 'social-coop', 'social-enterprise', 'functional-cosmetics',
-]
-
-// 보스 확정 대기분(DEPLOY_HOLD_SLUGS)은 사이트맵에 제출하지 않는다 — 2026-09-17.
-const services = [...translatedServices, ...koOnlyServices].filter((s) => !isDeployHold(s))
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
+// 배포 보류분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
+const services = getServiceSlugs('ko')
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://inhega.co.kr'
@@ -68,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }))
   const langServicePages = locales.flatMap((l) =>
-    translatedServices.filter((slug) => !isDeployHold(slug)).map((slug) => ({
+    getServiceSlugs(l).map((slug) => ({
       url: `${base}/${l}/services/${slug}`,
       lastModified: now,
       changeFrequency: 'monthly' as const,

@@ -1,12 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { publicServices as services } from '@/lib/services-data'
-import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceCatalog } from '@/lib/services-catalog'
 import type { Metadata } from 'next'
 import styles from '@/app/services-list.module.css'
 
-// 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
-const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const translatedServices = getServiceCatalog('ja')
 
 export const metadata: Metadata = {
   title: `${translatedServices.length}種の専門許認可代行サービス | YouSun Administrative Attorney`,
@@ -63,19 +62,17 @@ export default function JaServicesPage() {
         <section className="section bg-cream">
           <div className="container">
             <div className={styles.grid}>
-              {translatedServices.map((svcKo, i) => {
-                const svc = getServiceI18n('ja', svcKo.slug)
-                if (!svc) return null
+              {translatedServices.map((svc, i) => {
                 return (
                   <Link
-                    key={svcKo.slug}
-                    href={`/ja/services/${svcKo.slug}`}
+                    key={svc.slug}
+                    href={svc.href}
                     className={`fade-up delay-${Math.min(i % 6 + 1, 6)}`}
                     style={{ textDecoration: 'none' }}
                   >
                     <article className={styles.serviceCard}>
                       <div style={{ position: 'relative', height: '200px' }}>
-                        <Image src={svcKo.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
+                        <Image src={svc.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
                         <div style={{
                           position: 'absolute', inset: 0,
                           background: 'rgba(11,31,58,0.45)'

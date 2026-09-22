@@ -114,15 +114,6 @@ export const translations = {
         error: 'An error occurred. Please try again or contact us by phone.',
       },
     },
-    serviceOptions: [
-      'International Freight Forwarding', 'Currency Exchange', 'Foreign Tourist Guesthouse',
-      'Hostel Business', 'Hanok (Traditional House) Experience', 'Building Use Change',
-      'Food Manufacturing', 'Women-Owned Business Certification', 'Non-Profit Corporation',
-      'Tobacco Import & Sales', 'Venture / Innobiz Certification', 'HACCP Certification',
-      'Cosmetics / Quasi-Drug License', 'Government Procurement', 'Corporate Research Lab',
-      'E-Cigarette Import License', 'Sports Club Registration', 'Location-Based Service',
-      'Other',
-    ],
   },
 
   zh: {
@@ -238,13 +229,6 @@ export const translations = {
         error: '发生错误，请稍后重试或致电联系我们。',
       },
     },
-    serviceOptions: [
-      '国际货运代理', '外汇兑换业', '外国人城市民宿', '青年旅社',
-      '韩屋体验业', '建筑物用途变更', '食品制造加工业', '女性企业认证',
-      '非营利社团法人', '烟草进口销售', '风险企业/创新企业认证', 'HACCP认证',
-      '化妆品/准药品许可', '政府采购', '企业附属研究所', '电子烟进口许可',
-      '指定体育俱乐部', '位置信息服务事业', '其他',
-    ],
   },
 
   ja: {
@@ -360,15 +344,11 @@ export const translations = {
         error: 'エラーが発生しました。しばらく後でお試しいただくか、お電話でお問い合わせください。',
       },
     },
-    serviceOptions: [
-      '国際貨物運送取扱業', '外貨両替業', '外国人都市民泊業', 'ホステル業',
-      '韓屋体験業', '建物用途変更', '食品製造加工業', '女性企業認証',
-      '非営利社団法人', 'たばこ輸入販売業', 'ベンチャー/イノビズ認証', 'HACCP認証',
-      '化粧品/医薬部外品許可', '政府調達', '企業付設研究所', '電子タバコ輸入許可',
-      '指定スポーツクラブ', '位置情報サービス業届出', 'その他',
-    ],
   },
 } as const
+
+// serviceOptions 는 lib/services-catalog.ts 의 getServiceSelectOptions(locale) 로 대체했다
+// — 서비스 목록을 여기에 다시 적지 말 것 (2026-09-22).
 
 export type TranslationKey = typeof translations
 

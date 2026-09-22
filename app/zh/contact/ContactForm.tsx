@@ -3,8 +3,11 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styles from '../../contact/page.module.css'
 import { getT } from '@/lib/i18n/translations'
+import { getServiceSelectOptions } from '@/lib/services-catalog'
 
 const t = getT('zh')
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const serviceOptions = getServiceSelectOptions('zh')
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', phone: '', email: '', service: '', message: '', language: 'zh' })
@@ -152,7 +155,7 @@ export default function ContactForm() {
                     <label className="form-label">{t.contact.form.service}</label>
                     <select className="form-input" value={form.service} onChange={e => setForm(f => ({ ...f, service: e.target.value }))}>
                       <option value="">{t.contact.form.serviceDefault}</option>
-                      {t.serviceOptions.map(s => <option key={s} value={s}>{s}</option>)}
+                      {serviceOptions.map(s => <option key={s} value={s}>{s}</option>)}
                     </select>
                   </div>
                   <div className="form-group">

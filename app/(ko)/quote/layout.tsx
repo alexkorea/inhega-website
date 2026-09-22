@@ -1,9 +1,9 @@
-import { publicServices } from '@/lib/services-data'
+import { getServiceCount } from '@/lib/services-catalog'
 
 export const metadata = {
   title: '무료 견적 문의 | 유선행정사사무소',
-  // 서비스 수는 배포분(publicServices)에서 자동 계산한다 — 배포 제외분이 풀리면 함께 갱신된다.
-  description: `인허가 견적을 무료로 받아보세요. 국제물류주선업·환전업·식품인허가 등 ${publicServices.length}종 인허가 전문 행정사가 검토 후 24시간 내 연락드립니다.`,
+  // 서비스 수는 단일 정본 카탈로그에서 자동 계산한다 — 배포 제외분이 풀리면 함께 갱신된다.
+  description: `인허가 견적을 무료로 받아보세요. 국제물류주선업·환전업·식품인허가 등 ${getServiceCount('ko')}종 인허가 전문 행정사가 검토 후 24시간 내 연락드립니다.`,
   alternates: {
     canonical: 'https://inhega.co.kr/quote',
     languages: {

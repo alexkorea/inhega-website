@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../page.module.css'
-import { publicServices as services } from '@/lib/services-data'
-import { hasServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceCatalog } from '@/lib/services-catalog'
 import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
@@ -26,49 +25,9 @@ export const metadata: Metadata = {
 const t = getT('en')
 
 // 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
-const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const translatedServices = getServiceCatalog('en')
 
-const serviceLabels: Record<string, string> = {
-  'logistics': 'Intl. Freight Forwarding',
-  'currency-exchange': 'Currency Exchange',
-  'urban-guesthouse': 'Foreign Tourist Guesthouse',
-  'hostel': 'Hostel Business',
-  'hanok': 'Hanok Experience',
-  'building-usage': 'Building Use Change',
-  'food-manufacturing': 'Food Manufacturing',
-  'women-enterprise': 'Women-Owned Business Cert.',
-  'nonprofit': 'Non-Profit Corporation',
-  'tobacco': 'Tobacco Import & Sales',
-  'venture-cert': 'Venture / Innobiz Cert.',
-  'haccp': 'HACCP Certification',
-  'cosmetics': 'Cosmetics / Quasi-Drug',
-  'procurement': 'Government Procurement',
-  'research-lab': 'Corporate Research Lab',
-  'ecig': 'E-Cigarette Import',
-  'sports-club': 'Sports Club Registration',
-  'location-based-service': 'Location-Based Service',
-}
-
-const categoryLabels: Record<string, string> = {
-  '물류/유통': 'Logistics',
-  '금융': 'Finance',
-  '숙박/관광': 'Hospitality',
-  '건설/건축': 'Construction',
-  '건축/부동산': 'Construction',
-  '식품': 'Food & Beverage',
-  '식품/의약': 'Food & Pharma',
-  '기업인증': 'Certification',
-  '법인/단체': 'Corporation',
-  '법인설립': 'Corporation',
-  '유통': 'Retail',
-  '유통/판매': 'Retail',
-  '연구개발': 'R&D',
-  '정보통신': 'IT/Telecom',
-  'IT·통신': 'IT/Telecom',
-  '스포츠/레저': 'Sports',
-  '체육시설업': 'Sports',
-  '공공조달': 'Procurement',
-}
 
 export default function EnHomePage() {
   return (
@@ -157,13 +116,13 @@ export default function EnHomePage() {
             {translatedServices.map((svc, i) => (
               <Link
                 key={svc.slug}
-                href={`/en/services/${svc.slug}`}
+                href={svc.href}
                 className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
               >
                 <div className={styles.bentoImage}>
                   <Image
                     src={svc.image}
-                    alt={serviceLabels[svc.slug] || svc.shortTitle}
+                    alt={svc.shortTitle}
                     fill
                     style={{ objectFit: 'cover' }}
                   />
@@ -171,9 +130,9 @@ export default function EnHomePage() {
                 </div>
                 <div className={styles.bentoBody}>
                   <span className={`badge badge-white ${styles.bentoBadge}`}>
-                    {categoryLabels[svc.category] || svc.category}
+                    {svc.category}
                   </span>
-                  <h3 className={styles.bentoTitle}>{serviceLabels[svc.slug] || svc.shortTitle}</h3>
+                  <h3 className={styles.bentoTitle}>{svc.shortTitle}</h3>
                   <span className={styles.bentoLink}>
                     {t.services.more}
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">

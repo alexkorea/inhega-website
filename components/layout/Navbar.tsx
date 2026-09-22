@@ -3,27 +3,10 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Navbar.module.css'
+import { getServiceCatalogByCategory } from '@/lib/services-catalog'
 
-const services = [
-  { label: '국제물류주선업', href: '/services/logistics' },
-  { label: '환전업 등록', href: '/services/currency-exchange' },
-  { label: '외국인도시민박업', href: '/services/urban-guesthouse' },
-  { label: '호스텔업', href: '/services/hostel' },
-  { label: '한옥체험업', href: '/services/hanok' },
-  { label: '건축물 용도변경', href: '/services/building-usage' },
-  { label: '식품제조가공업', href: '/services/food-manufacturing' },
-  { label: '여성기업인증', href: '/services/women-enterprise' },
-  { label: '비영리사단법인', href: '/services/nonprofit' },
-  { label: '담배수입판매업', href: '/services/tobacco' },
-  { label: '기업인증(벤처/이노비즈)', href: '/services/venture-cert' },
-  { label: '식품인허가 & HACCP', href: '/services/haccp' },
-  { label: '의약외품/화장품 허가', href: '/services/cosmetics' },
-  { label: '조달청 나라장터', href: '/services/procurement' },
-  { label: '기업부설연구소', href: '/services/research-lab' },
-  { label: '전자담배 수입허가', href: '/services/ecig' },
-  { label: '지정스포츠클럽', href: '/services/sports-club' },
-  { label: '위치기반서비스사업신고', href: '/services/location-based-service' },
-]
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const serviceGroups = getServiceCatalogByCategory('ko')
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -96,11 +79,16 @@ export default function Navbar() {
                   <p className={styles.megaMenuDesc}>모든 인허가 업무를 신속하고 정확하게</p>
                 </div>
                 <div className={styles.megaMenuGrid}>
-                  {services.map((s) => (
-                    <Link key={s.href} href={s.href} className={styles.megaMenuItem}>
-                      <span className={styles.megaMenuDot} />
-                      {s.label}
-                    </Link>
+                  {serviceGroups.map((group) => (
+                    <div key={group.category} className={styles.megaMenuGroup}>
+                      <p className={styles.megaMenuGroupLabel}>{group.category}</p>
+                      {group.items.map((s) => (
+                        <Link key={s.slug} href={s.href} className={styles.megaMenuItem}>
+                          <span className={styles.megaMenuDot} />
+                          {s.shortTitle}
+                        </Link>
+                      ))}
+                    </div>
                   ))}
                 </div>
                 <div className={styles.megaMenuFooter}>
@@ -164,10 +152,15 @@ export default function Navbar() {
           <Link href="/about" className={styles.mobileNavLink}>회사소개</Link>
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>서비스</p>
-            {services.map((s) => (
-              <Link key={s.href} href={s.href} className={styles.mobileServiceLink}>
-                {s.label}
-              </Link>
+            {serviceGroups.map((group) => (
+              <div key={group.category} className={styles.mobileServiceGroup}>
+                <p className={styles.mobileServiceGroupLabel}>{group.category}</p>
+                {group.items.map((s) => (
+                  <Link key={s.slug} href={s.href} className={styles.mobileServiceLink}>
+                    {s.shortTitle}
+                  </Link>
+                ))}
+              </div>
             ))}
           </div>
           <Link href="/blog" className={styles.mobileNavLink}>블로그</Link>

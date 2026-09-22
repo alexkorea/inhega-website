@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { publicServices as services } from '@/lib/services-data'
+import { getServiceCatalog } from '@/lib/services-catalog'
 import styles from './page.module.css'
 import gridStyles from '@/app/services-list.module.css'
+
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const services = getServiceCatalog('ko')
 
 export const metadata = {
   title: `인허가 서비스 ${services.length}종 | 유선행정사사무소`,
@@ -26,8 +29,6 @@ export const metadata = {
   },
   twitter: { card: 'summary_large_image', title: `인허가 서비스 ${services.length}종 | 유선행정사사무소`, images: ['/images/hero-seoul.png'] },
 }
-
-const categories = ['전체', '물류/유통', '금융', '숙박/관광', '건축/부동산', '식품', '기업인증', '법인설립', '공공조달']
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -63,7 +64,7 @@ export default function ServicesPage() {
             {services.map((svc, i) => (
               <Link
                 key={svc.slug}
-                href={`/services/${svc.slug}`}
+                href={svc.href}
                 className={`fade-up delay-${Math.min(i % 6 + 1, 6)}`}
                 style={{ textDecoration: 'none' }}
               >

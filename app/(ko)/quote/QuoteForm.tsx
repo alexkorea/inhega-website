@@ -2,15 +2,12 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
+import { getServiceSelectOptions } from '@/lib/services-catalog'
 
 const STEPS = ['서비스 선택', '사업자 유형', '요청 내용', '연락처', '확인 및 제출']
 
-const serviceOptions = [
-  '국제물류주선업', '환전업 등록', '외국인도시민박업', '호스텔업', '한옥체험업',
-  '건축물 용도변경', '식품제조가공업', '여성기업인증', '비영리사단법인',
-  '담배수입판매업', '기업인증(벤처/이노비즈)', 'HACCP 인증', '의약외품/화장품 허가',
-  '조달청 나라장터', '기업부설연구소', '전자담배 수입허가', '지정스포츠클럽', '위치기반서비스사업신고', '기타'
-]
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const serviceOptions = getServiceSelectOptions('ko')
 
 const businessTypes = ['개인사업자', '법인사업자', '예비창업자', '기타']
 

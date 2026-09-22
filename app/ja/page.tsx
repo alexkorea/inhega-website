@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../page.module.css'
-import { publicServices as services } from '@/lib/services-data'
-import { hasServiceI18n } from '@/lib/i18n/services-i18n'
+import { getServiceCatalog } from '@/lib/services-catalog'
 import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
@@ -26,49 +25,9 @@ export const metadata: Metadata = {
 const t = getT('ja')
 
 // 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
-const translatedServices = services.filter((s) => hasServiceI18n(s.slug))
+// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
+const translatedServices = getServiceCatalog('ja')
 
-const serviceLabels: Record<string, string> = {
-  'logistics': '国際貨物運送取扱業',
-  'currency-exchange': '外貨両替業',
-  'urban-guesthouse': '外国人都市民泊業',
-  'hostel': 'ホステル業',
-  'hanok': '韓屋体験業',
-  'building-usage': '建物用途変更',
-  'food-manufacturing': '食品製造加工業',
-  'women-enterprise': '女性企業認証',
-  'nonprofit': '非営利社団法人',
-  'tobacco': 'たばこ輸入販売業',
-  'venture-cert': 'ベンチャー/イノビズ認証',
-  'haccp': 'HACCP認証',
-  'cosmetics': '化粧品/医薬部外品許可',
-  'procurement': '政府調達',
-  'research-lab': '企業付設研究所',
-  'ecig': '電子タバコ輸入許可',
-  'sports-club': '指定スポーツクラブ',
-  'location-based-service': '位置情報サービス業届出',
-}
-
-const categoryLabels: Record<string, string> = {
-  '물류/유통': '物流/流通',
-  '금융': '金融',
-  '숙박/관광': '宿泊/観光',
-  '건설/건축': '建設/建築',
-  '건축/부동산': '建設/不動産',
-  '식품': '食品',
-  '식품/의약': '食品/医薬',
-  '기업인증': '企業認証',
-  '법인/단체': '法人/団体',
-  '법인설립': '法人設立',
-  '유통': '流通',
-  '유통/판매': '流通/販売',
-  '연구개발': '研究開発',
-  '정보통신': 'IT/通信',
-  'IT·통신': 'IT/通信',
-  '스포츠/레저': 'スポーツ/レジャー',
-  '체육시설업': 'スポーツ施設',
-  '공공조달': '公共調達',
-}
 
 export default function JaHomePage() {
   return (
@@ -157,13 +116,13 @@ export default function JaHomePage() {
             {translatedServices.map((svc, i) => (
               <Link
                 key={svc.slug}
-                href={`/ja/services/${svc.slug}`}
+                href={svc.href}
                 className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
               >
                 <div className={styles.bentoImage}>
                   <Image
                     src={svc.image}
-                    alt={serviceLabels[svc.slug] || svc.shortTitle}
+                    alt={svc.shortTitle}
                     fill
                     style={{ objectFit: 'cover' }}
                   />
@@ -171,9 +130,9 @@ export default function JaHomePage() {
                 </div>
                 <div className={styles.bentoBody}>
                   <span className={`badge badge-white ${styles.bentoBadge}`}>
-                    {categoryLabels[svc.category] || svc.category}
+                    {svc.category}
                   </span>
-                  <h3 className={styles.bentoTitle}>{serviceLabels[svc.slug] || svc.shortTitle}</h3>
+                  <h3 className={styles.bentoTitle}>{svc.shortTitle}</h3>
                   <span className={styles.bentoLink}>
                     {t.services.more}
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
