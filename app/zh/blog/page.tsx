@@ -3,6 +3,7 @@ import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs, getBlogI18n } from '@/lib/i18n/blog-i18n'
 import type { Metadata } from 'next'
 import gridStyles from '@/app/services-list.module.css'
+import { ogCard } from '@/lib/og-thumbs.generated'
 
 export const metadata: Metadata = {
   title: '韩国许可申请博客 | YouSun Administrative Attorney',
@@ -76,8 +77,8 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
                   border: '1px solid var(--border)', overflow: 'hidden',
                   transition: 'all 0.3s ease',
                 }}>
-                  {ko.cover_image && (
-                    <div style={{ height: '200px', background: `url(${ko.cover_image}) center/cover` }} />
+                  {ogCard('zh', ko.slug) && (
+                    <div style={{ height: '200px', background: `url(${ogCard('zh', ko.slug)}) center/cover` }} />
                   )}
                   <div style={{ padding: '1.5rem' }}>
                     {i18n.category && (

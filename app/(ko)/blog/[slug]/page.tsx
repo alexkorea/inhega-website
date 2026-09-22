@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { blogPosts, type BlogPost } from '@/lib/blog-posts-data'
 import { isDeployHold } from '@/lib/services-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
+import { ogThumb } from '@/lib/og-thumbs.generated'
 
 export async function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }))
@@ -34,8 +35,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return {}
   const title = post.meta_title || post.title
   const description = post.meta_description || post.excerpt
-  const image = post.cover_image ? `https://inhega.co.kr${post.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png'
   const canonicalSlug = post.slug || post.id
+  const ogPath = ogThumb('ko', canonicalSlug)
+  const image = ogPath ? `https://inhega.co.kr${ogPath}` : ''
   const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${canonicalSlug}`, 'x-default': `https://inhega.co.kr/blog/${canonicalSlug}` }
   if (getBlogI18n('en', canonicalSlug)) languages.en = `https://inhega.co.kr/en/blog/${canonicalSlug}`
   if (getBlogI18n('zh', canonicalSlug)) languages.zh = `https://inhega.co.kr/zh/blog/${canonicalSlug}`
@@ -73,11 +75,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': ['Article', 'BlogPosting'],
     headline: post.title,
     description: post.excerpt,
     datePublished: post.created_at,
-    image: post.cover_image ? `https://inhega.co.kr${post.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png',
+    image: [`https://inhega.co.kr${ogThumb('ko', post.slug || post.id)}`],
     author: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr' },
     publisher: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr', logo: { '@type': 'ImageObject', url: 'https://inhega.co.kr/images/hero-seoul.png' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/blog/${post.slug || post.id}` },
@@ -125,9 +127,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div className="container" style={{ maxWidth: '1280px' }}>
             <div className="blog-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: '3rem', alignItems: 'start' }}>
               <article>
-                {post.cover_image && (
+                {ogThumb('ko', post.slug || post.id) && (
                   <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '2rem', height: '360px' }}>
-                    <img src={post.cover_image} alt={post.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src={ogThumb('ko', post.slug || post.id)} alt={post.title} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
                 <div

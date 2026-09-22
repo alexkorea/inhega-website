@@ -5,6 +5,7 @@
   ],
   "exclude": [
     "/_next/static/*",
+    "/og/*",
     "/images/*",
     "/team/*",
     "/favicon.ico",

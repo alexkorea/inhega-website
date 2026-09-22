@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { createClient } from '@supabase/supabase-js'
 import { blogPosts } from '@/lib/blog-posts-data'
 import gridStyles from '@/app/services-list.module.css'
+import { ogCard } from '@/lib/og-thumbs.generated'
 
 export const metadata = {
   title: '인허가 실무 블로그 | 유선행정사사무소',
@@ -91,9 +92,9 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                       border: '1px solid var(--border)', overflow: 'hidden',
                       transition: 'all 0.3s ease',
                     }}>
-                      {post.cover_image && (
-                        <div style={{ height: '200px', background: `url(${post.cover_image}) center/cover` }} />
-                      )}
+                      {ogCard('ko', post.slug) && (
+                    <div style={{ height: '200px', background: `url(${ogCard('ko', post.slug)}) center/cover` }} />
+                  )}
                       <div style={{ padding: '1.5rem' }}>
                         {post.category && (
                           <span className="badge badge-navy" style={{ fontSize: '0.6875rem', marginBottom: '0.75rem' }}>{post.category}</span>

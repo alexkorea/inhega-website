@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
+import { ogThumb } from '@/lib/og-thumbs.generated'
 
 export async function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }))
@@ -15,7 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post && !koPost) return {}
   const title = post?.metaTitle ?? (koPost?.meta_title || koPost?.title) ?? ''
   const description = post?.metaDescription ?? koPost?.meta_description ?? ''
-  const image = koPost?.cover_image ? `https://inhega.co.kr${koPost.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png'
+  const ogPath = ogThumb('ja', slug)
+  const image = ogPath ? `https://inhega.co.kr${ogPath}` : ''
   const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${slug}`, 'x-default': `https://inhega.co.kr/blog/${slug}` }
   if (getBlogI18n('en', slug)) languages.en = `https://inhega.co.kr/en/blog/${slug}`
   if (getBlogI18n('zh', slug)) languages.zh = `https://inhega.co.kr/zh/blog/${slug}`
@@ -59,11 +61,11 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': ['Article', 'BlogPosting'],
     headline: post?.title ?? koPost.title,
     description: post?.excerpt ?? koPost.excerpt,
     datePublished: koPost.created_at,
-    image: koPost.cover_image ? `https://inhega.co.kr${koPost.cover_image}` : 'https://inhega.co.kr/images/hero-seoul.png',
+    image: [`https://inhega.co.kr${ogThumb('ja', slug)}`],
     author: { '@type': 'Organization', name: 'YouSun Administrative Attorney', url: 'https://inhega.co.kr/ja' },
     publisher: { '@type': 'Organization', name: 'YouSun Administrative Attorney', url: 'https://inhega.co.kr/ja' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/ja/blog/${slug}` },
@@ -115,9 +117,9 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
           <div className="container" style={{ maxWidth: '1280px' }}>
             <div className="blog-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: '3rem', alignItems: 'start' }}>
               <article>
-                {koPost.cover_image && (
+                {ogThumb('ja', slug) && (
                   <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '2rem', height: '360px' }}>
-                    <img src={koPost.cover_image} alt={displayTitle} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src={ogThumb('ja', slug)} alt={displayTitle} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
                 {post ? (

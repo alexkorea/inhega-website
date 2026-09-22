@@ -1,0 +1,9 @@
+{
+  "roots": [".next/server/app"],
+  "pattern": "blog",
+  "exclude": ["/blog.html", "/blog/page.html"],
+  "locales": ["ko"],
+  "descMin": 70,
+  "descMax": 160,
+  "requireHreflang": true
+}

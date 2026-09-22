@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && node scripts/seo-gate.mjs",
+    "start": "next start",
+    "prebuild": "node scripts/build-og-thumbs.mjs",
+    "og:thumbs": "node scripts/build-og-thumbs.mjs",
+    "seo:gate": "node scripts/seo-gate.mjs"
   },
   "dependencies": {
     "@notionhq/client": "^5.20.0",
