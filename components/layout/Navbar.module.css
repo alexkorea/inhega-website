@@ -176,19 +176,22 @@
 }
 
 .megaMenuGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.25rem 1.25rem;
+  /* 카테고리 그룹은 높이가 제각각이라 grid 로 짜면 행마다 빈칸이 크게 남는다.
+     다단(multi-column)으로 위에서부터 촘촘히 채운다 — 2026-09-22 */
+  columns: 3;
+  column-gap: 1.5rem;
+  column-rule: 1px solid rgba(255,255,255,0.06);
   margin-bottom: 1.25rem;
   /* 카테고리가 늘어나도 뷰포트를 넘지 않게 한다 */
-  max-height: min(60vh, 460px);
+  max-height: min(64vh, 520px);
   overflow-y: auto;
-  align-content: start;
 }
 
 .megaMenuGroup {
   break-inside: avoid;
-  margin-bottom: 0.75rem;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 0.875rem;
 }
 
 .megaMenuGroupLabel {
