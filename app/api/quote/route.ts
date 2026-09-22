@@ -1,6 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export const runtime = 'edge'
+// runtime = 'edge' 를 두면 @opennextjs/cloudflare 가 이 라우트를 server-functions 번들에
+// 아예 만들지 않아 라이브에서 POST /api/quote 가 500 이 된다(2026-09-22 확인).
+// 같은 디렉토리의 contact/route.ts 와 동일하게 기본 런타임을 쓴다.
+
+// Resend 발신 주소. inhega.co.kr 은 Resend 에 도메인 검증이 되어 있지 않아
+// 보내면 403 validation_error 로 전부 실패한다(2026-09-22 확인). 같은 사무소가 쓰는
+// 검증된 도메인 ko-visas.com 으로 보낸다. inhega.co.kr 을 Resend 에 등록·검증하면
+// 이 상수만 되돌리면 된다.
+const MAIL_FROM = '유선행정사사무소 <noreply@ko-visas.com>'
 
 export async function POST(req: NextRequest) {
   try {
@@ -11,8 +19,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: '필수 항목을 입력해주세요.' }, { status: 400 })
     }
 
+    let notionOk = false
     if (process.env.NOTION_API_KEY && process.env.NOTION_CONTACTS_DB_ID) {
-      await fetch('https://api.notion.com/v1/pages', {
+      const notionRes = await fetch('https://api.notion.com/v1/pages', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${process.env.NOTION_API_KEY}`,
@@ -32,18 +41,25 @@ export async function POST(req: NextRequest) {
           },
         }),
       })
+      notionOk = notionRes.ok
+      if (!notionRes.ok) console.error('[quote API] Notion', notionRes.status, await notionRes.text())
+    } else {
+      console.error('[quote API] NOTION_API_KEY/NOTION_CONTACTS_DB_ID 미설정 — CRM 저장 건너뜀')
     }
 
+    let adminEmailOk = false
     if (process.env.RESEND_API_KEY) {
-      await fetch('https://api.resend.com/emails', {
+      const adminRes = await fetch('https://api.resend.com/emails', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'noreply@inhega.co.kr',
+          from: MAIL_FROM,
           to: '5000meter@gmail.com',
+          // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
+          ...(email ? { reply_to: email } : {}),
           subject: `[유선행정사사무소] 견적 문의 - ${name} / ${service}`,
           html: `
             <h2>새 견적 문의</h2>
@@ -59,6 +75,10 @@ export async function POST(req: NextRequest) {
           `,
         }),
       })
+      adminEmailOk = adminRes.ok
+      if (!adminRes.ok) console.error('[quote API] Resend admin', adminRes.status, await adminRes.text())
+    } else {
+      console.error('[quote API] RESEND_API_KEY 미설정 — 관리자 알림 발송 안 됨')
     }
 
     // 신청자 확인 이메일
@@ -70,7 +90,7 @@ export async function POST(req: NextRequest) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'noreply@inhega.co.kr',
+          from: MAIL_FROM,
           to: email,
           subject: '[유선행정사사무소] 견적 문의가 접수되었습니다',
           html: `
@@ -103,7 +123,40 @@ export async function POST(req: NextRequest) {
       })
     }
 
-    return NextResponse.json({ success: true })
+    // form-gateway FC_1차문의 저장 + 접수 ID 반환 (contact/route.ts 와 동일 경로)
+    let inquiryId = ''
+    if (!process.env.FC_NOTION_TOKEN) {
+      console.error('[quote API] FC_NOTION_TOKEN 미설정 — form-gateway 저장 건너뜀')
+    } else if (email) {
+      try {
+        const gwRes = await fetch('https://form-gateway.pages.dev/api/intake', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.FC_NOTION_TOKEN}` },
+          body: JSON.stringify({
+            site: 'inhega.co.kr',
+            name,
+            phone,
+            email,
+            visaType: service || '견적문의',
+            message: `[견적문의] 사업자유형: ${businessType || '-'} / 희망기간: ${timeline || '-'}\n${details || ''}`,
+          }),
+        })
+        const gwData = await gwRes.json() as { ok?: boolean; id?: string; error?: string; detail?: string }
+        if (gwData.ok && gwData.id) inquiryId = gwData.id
+        else console.error('[quote API] form-gateway', gwRes.status, gwData.error, gwData.detail)
+      } catch (e) { console.error('[quote API] form-gateway 예외', e) }
+    }
+
+    // 어느 경로로도 남지 않았다면 성공으로 위장하지 않는다.
+    if (!adminEmailOk && !notionOk && !inquiryId) {
+      console.error('[quote API] 접수 경로 전부 실패', { name, phone, email, service })
+      return NextResponse.json(
+        { error: '접수에 실패했습니다. 02-363-2251 로 연락해 주세요.' },
+        { status: 500 },
+      )
+    }
+
+    return NextResponse.json({ success: true, inquiryId })
   } catch (err) {
     console.error('[quote API]', err)
     return NextResponse.json({ error: '서버 오류' }, { status: 500 })
