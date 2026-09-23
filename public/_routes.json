@@ -5,6 +5,7 @@
   ],
   "exclude": [
     "/_next/static/*",
+    "/fonts/*",
     "/og/*",
     "/images/*",
     "/team/*",

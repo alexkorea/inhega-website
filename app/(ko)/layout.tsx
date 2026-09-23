@@ -4,6 +4,7 @@ import '../globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import ScrollAnimationInit from '@/components/ui/ScrollAnimationInit'
+import Webfonts from '@/components/ui/Webfonts'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
@@ -129,19 +130,7 @@ export default function KoLayout({ children }: { children: React.ReactNode }) {
     <html lang="ko">
       {/* hreflang is emitted from Metadata.alternates.languages (per-page); do not hardcode here — it double-outputs. */}
       <head>
-        {/* Webfonts: preconnect first, then the stylesheets. Previously these were
-            @import-ed from globals.css, which chained them behind the CSS bundle. */}
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
-        />
+        <Webfonts />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
