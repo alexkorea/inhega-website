@@ -4,12 +4,16 @@
  * /news 목록 UI — 탭·필터·검색·아코디언.
  *
  * 서버가 KV 에서 읽은 항목을 통째로 내려주고 여기서 걸러낸다. 필터가 URL 을 바꾸지
- * 않으므로 탭 전환에 왕복이 없고, 색인 대상 URL 도 /news 하나로 유지된다.
- * 상세는 1차 요건대로 카드 펼침이다(2차에서 /news/<doc_key> 개별 페이지로 승격).
+ * 않으므로 탭 전환에 왕복이 없고, 목록 자체의 색인 URL 도 /news 하나로 유지된다.
+ *
+ * 카드 하단 버튼은 두 갈래다(맥7 20260923-1715 지시 2).
+ *   · 기사 있음(has_article) → `/news/<slug>` 개별 기사 페이지로 가는 링크
+ *   · 기사 없음             → 예전처럼 카드 안에서 요약 메타를 펼친다
+ * `articleBase` 가 null 인 로케일(en/zh/ja)은 개별 페이지가 아직 없으므로 항상 펼침이다.
  */
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import type { NewsItem } from '@/lib/news-data'
+import type { NewsCard } from '@/lib/news-data'
 import { SOURCE_LABELS } from '@/lib/news-data'
 import { formatNewsDate, type NewsLocale, type NewsStrings } from '@/lib/i18n/news-i18n'
 import styles from '@/app/news.module.css'
@@ -29,11 +33,14 @@ export default function NewsBrowser({
   t,
   locale,
   contactHref,
+  articleBase,
 }: {
-  items: NewsItem[]
+  items: NewsCard[]
   t: NewsStrings
   locale: NewsLocale
   contactHref: string
+  /** 개별 기사 경로의 접두사. 개별 페이지가 없는 로케일은 null. */
+  articleBase: string | null
 }) {
   const [tab, setTab] = useState<Tab>('all')
   const [country, setCountry] = useState('')
@@ -172,6 +179,7 @@ export default function NewsBrowser({
           {shown.map((it) => {
             const open = openKey === it.doc_key
             const panelId = `news-detail-${encodeURIComponent(it.doc_key)}`
+            const articleHref = articleBase && it.has_article && it.slug ? `${articleBase}/${it.slug}` : null
             return (
               <article key={it.doc_key} className={styles.card}>
                 <div className={styles.cardTop}>
@@ -235,15 +243,19 @@ export default function NewsBrowser({
                 )}
 
                 <div className={styles.actions}>
-                  <button
-                    type="button"
-                    className={styles.expandBtn}
-                    aria-expanded={open}
-                    aria-controls={panelId}
-                    onClick={() => setOpenKey(open ? null : it.doc_key)}
-                  >
-                    {open ? t.collapse : t.expand}
-                  </button>
+                  {articleHref ? (
+                    <Link className={styles.expandBtn} href={articleHref}>{t.readMore}</Link>
+                  ) : (
+                    <button
+                      type="button"
+                      className={styles.expandBtn}
+                      aria-expanded={open}
+                      aria-controls={panelId}
+                      onClick={() => setOpenKey(open ? null : it.doc_key)}
+                    >
+                      {open ? t.collapse : t.expand}
+                    </button>
+                  )}
                   {it.url && (
                     <a
                       className={styles.linkBtn}

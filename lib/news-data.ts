@@ -15,6 +15,15 @@
  * 인덱스 구조로 바꿀 것.
  */
 import { getCloudflareContext } from '@opennextjs/cloudflare'
+import {
+  hasArticle,
+  normalizeArticle,
+  validateArticle,
+  type NewsArticle,
+} from './news-article-schema'
+
+export { hasArticle }
+export type { NewsArticle, NewsArticleFaq, NewsArticleSection } from './news-article-schema'
 
 export const NEWS_LIST_KEY = 'news:list:v1'
 export const NEWS_MAX_ITEMS = 1500
@@ -35,6 +44,12 @@ export const OPPORTUNITIES = ['있음', '없음', '검토필요'] as const
 
 export type NewsItem = {
   doc_key: string
+  /**
+   * `/news/<slug>` 의 URL 조각. 영문 kebab, **고유·불변**.
+   * 한 번 저장되면 뒤에 오는 수신 payload 가 다른 값을 보내도 바꾸지 않는다
+   * (색인된 URL 이 바뀌면 그동안 쌓인 순위가 사라진다).
+   */
+  slug: string
   source_key: string
   country: string
   scope: string
@@ -52,6 +67,13 @@ export type NewsItem = {
   analyzed_at: string
   /** 저장 시각 — 원본에는 없고 수신 API 가 채운다. */
   ingested_at: string
+  /**
+   * 내용이 실제로 바뀐 마지막 시각. NewsArticle JSON-LD 의 dateModified 로 쓴다.
+   * 같은 내용을 매일 다시 받아도 갱신하지 않는다 — 가짜 신선도는 색인에 해롭다.
+   */
+  updated_at: string
+  /** 해설 기사. 요약만 게시된 항목은 null 이고, 나중에 부분 수신으로 채운다. */
+  article: NewsArticle | null
 }
 
 /** 원문 출처 표기용 기관명. 출처가 정부·기관 공식 자료임을 카드에 명시한다. */
@@ -90,39 +112,141 @@ const safeUrl = (v: unknown) => {
   }
 }
 
+/* ────────────────────────── slug ────────────────────────── */
+
+/** 영문 kebab 만 남긴다. 한글만 있는 문자열은 빈 값이 되므로 호출부가 폴백을 준비해야 한다. */
+export function slugify(v: unknown): string {
+  return String(v ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 80)
+    .replace(/-+$/g, '')
+}
+
+/** doc_key 기반 결정적 해시. 슬러그 충돌 시 꼬리표로 쓴다(FNV-1a 32bit). */
+function hash6(s: string): string {
+  let h = 0x811c9dc5
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i)
+    h = Math.imul(h, 0x01000193) >>> 0
+  }
+  return h.toString(36).padStart(6, '0').slice(-6)
+}
+
 /**
- * 수신 항목 1건을 정제한다. doc_key 가 없으면 저장할 수 없으므로 null 을 돌려준다.
- * (upsert 기준 키라서 비어 있으면 서로 덮어쓴다)
+ * 항목의 슬러그를 정한다.
+ *   1) 이미 저장돼 있으면 그대로 — **불변**이 URL 안정성의 전부다.
+ *   2) 수신 payload 의 slug(영문 kebab) → 3) doc_key 슬러그화(`EPING:119988` → `eping-119988`)
+ * 다른 doc_key 가 이미 쓰는 슬러그면 doc_key 해시를 붙여 충돌을 끊는다.
  */
-export function normalizeItem(raw: unknown, now: string): NewsItem | null {
-  if (!raw || typeof raw !== 'object') return null
+export function resolveSlug(
+  doc_key: string,
+  incoming: unknown,
+  prev: NewsItem | null,
+  taken: Map<string, string>
+): string {
+  if (prev?.slug) return prev.slug
+  const base = slugify(incoming) || slugify(doc_key) || `news-${hash6(doc_key)}`
+  const owner = taken.get(base)
+  if (!owner || owner === doc_key) return base
+  return `${base.slice(0, 72)}-${hash6(doc_key)}`
+}
+
+/* ────────────────────────── 정제 ────────────────────────── */
+
+const EMPTY_ITEM: Omit<NewsItem, 'doc_key' | 'slug' | 'ingested_at' | 'updated_at'> = {
+  source_key: '', country: '', scope: '', title_ko: '', summary_ko: '', product: '',
+  impact: '', opportunity: '', opportunity_reason: '', stage: '', deadline: '',
+  relevance: 0, url: '', published_date: '', analyzed_at: '', article: null,
+}
+
+export type ArticleReject = { doc_key: string; reasons: string[] }
+
+/**
+ * 수신 항목 1건을 정제해 기존 항목 위에 **부분 병합**한다.
+ *
+ * payload 에 **있는 키만** 덮어쓴다. 그래서 `{doc_key, article}` 만 보내면
+ * 요약·출처는 그대로 둔 채 기사만 채울 수 있고(먼저 요약 게시 → 기사 후속 생성),
+ * n8n RW-03 가 보내는 전체 payload 는 지금까지와 똑같이 전부 덮어쓴다.
+ *
+ * doc_key 가 없으면 저장할 수 없으므로 null(= skipped).
+ * 기사가 게이트에 걸리면 **기사만** 버리고 사유를 reject 에 적는다 — 요약은 살린다.
+ */
+export function mergeItem(
+  raw: unknown,
+  now: string,
+  prev: NewsItem | null,
+  taken: Map<string, string>,
+  reject: ArticleReject[]
+): NewsItem | null {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null
   const r = raw as Record<string, unknown>
   const doc_key = str(r.doc_key, 200)
   if (!doc_key) return null
 
-  const relevanceRaw = Number(r.relevance)
-  const relevance = Number.isFinite(relevanceRaw)
-    ? Math.min(100, Math.max(0, Math.round(relevanceRaw)))
-    : 0
+  const has = (k: string) => Object.prototype.hasOwnProperty.call(r, k)
+  const base = prev ?? { ...EMPTY_ITEM, doc_key, slug: '', ingested_at: now, updated_at: now }
+  const pick = <T,>(k: string, parse: () => T, keep: T): T => (has(k) ? parse() : keep)
+
+  let article = base.article
+  if (has('article')) {
+    if (r.article === null) {
+      article = null
+    } else {
+      const parsed = normalizeArticle(r.article, now)
+      const reasons = parsed ? validateArticle(parsed) : ['article 형식 오류(객체가 아님)']
+      if (parsed && reasons.length === 0) article = parsed
+      else reject.push({ doc_key, reasons })
+    }
+  }
 
   return {
     doc_key,
-    source_key: str(r.source_key, 60),
-    country: str(r.country, 60),
-    scope: oneOf(r.scope, SCOPES),
-    title_ko: str(r.title_ko, 300),
-    summary_ko: str(r.summary_ko, 1200),
-    product: str(r.product, 200),
-    impact: oneOf(r.impact, IMPACTS),
-    opportunity: oneOf(r.opportunity, OPPORTUNITIES),
-    opportunity_reason: str(r.opportunity_reason, 600),
-    stage: str(r.stage, 120),
-    deadline: isoDate(r.deadline),
-    relevance,
-    url: safeUrl(r.url),
-    published_date: isoDate(r.published_date) || str(r.published_date, 40),
-    analyzed_at: str(r.analyzed_at, 40),
-    ingested_at: now,
+    slug: resolveSlug(doc_key, has('slug') ? r.slug : '', prev, taken),
+    source_key: pick('source_key', () => str(r.source_key, 60), base.source_key),
+    country: pick('country', () => str(r.country, 60), base.country),
+    scope: pick('scope', () => oneOf(r.scope, SCOPES), base.scope),
+    title_ko: pick('title_ko', () => str(r.title_ko, 300), base.title_ko),
+    summary_ko: pick('summary_ko', () => str(r.summary_ko, 1200), base.summary_ko),
+    product: pick('product', () => str(r.product, 200), base.product),
+    impact: pick('impact', () => oneOf(r.impact, IMPACTS), base.impact),
+    opportunity: pick('opportunity', () => oneOf(r.opportunity, OPPORTUNITIES), base.opportunity),
+    opportunity_reason: pick('opportunity_reason', () => str(r.opportunity_reason, 600), base.opportunity_reason),
+    stage: pick('stage', () => str(r.stage, 120), base.stage),
+    deadline: pick('deadline', () => isoDate(r.deadline), base.deadline),
+    relevance: pick(
+      'relevance',
+      () => {
+        const n = Number(r.relevance)
+        return Number.isFinite(n) ? Math.min(100, Math.max(0, Math.round(n))) : 0
+      },
+      base.relevance
+    ),
+    url: pick('url', () => safeUrl(r.url), base.url),
+    published_date: pick(
+      'published_date',
+      () => isoDate(r.published_date) || str(r.published_date, 40),
+      base.published_date
+    ),
+    analyzed_at: pick('analyzed_at', () => str(r.analyzed_at, 40), base.analyzed_at),
+    ingested_at: prev?.ingested_at || now,
+    updated_at: base.updated_at || now,
+    article,
+  }
+}
+
+/**
+ * KV 에 남아 있는 옛 레코드(슬러그·기사 필드가 없던 시절)를 현재 타입으로 맞춘다.
+ * 없는 필드를 undefined 로 두면 렌더·정렬이 조용히 어긋나므로 읽는 쪽에서 한 번 메운다.
+ */
+export function hydrateItem(raw: NewsItem): NewsItem {
+  return {
+    ...EMPTY_ITEM,
+    ...raw,
+    slug: raw.slug || slugify(raw.doc_key) || `news-${hash6(raw.doc_key || '')}`,
+    article: raw.article ?? null,
+    updated_at: raw.updated_at || raw.ingested_at || '',
   }
 }
 
@@ -164,37 +288,112 @@ export async function readAllNews(): Promise<NewsItem[]> {
     const raw = await kv.get(NEWS_LIST_KEY, 'text')
     if (!raw) return []
     const parsed = JSON.parse(raw)
-    return Array.isArray(parsed) ? (parsed as NewsItem[]) : []
+    return Array.isArray(parsed) ? (parsed as NewsItem[]).map(hydrateItem) : []
   } catch {
     // 저장소 장애가 페이지 500 으로 번지지 않게 한다 — 빈 목록 + "업데이트 준비 중".
     return []
   }
 }
 
-export type UpsertResult = { upserted: number; skipped: number; total: number }
+export type UpsertResult = {
+  upserted: number
+  skipped: number
+  total: number
+  /** 기사까지 함께 저장된 건수. */
+  articles: number
+  /** 게이트에 걸려 기사만 버려진 항목(요약은 저장됨). n8n 이 보고 재생성한다. */
+  article_rejected: ArticleReject[]
+}
+
+/** 내용이 실제로 달라졌는지 — 수신 시각·갱신 시각은 비교에서 뺀다. */
+function sameContent(a: NewsItem, b: NewsItem): boolean {
+  const strip = ({ ingested_at: _i, updated_at: _u, ...rest }: NewsItem) => rest
+  return JSON.stringify(strip(a)) === JSON.stringify(strip(b))
+}
 
 export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
   const kv = getNewsKv()
   if (!kv) throw new Error('NEWS_KV binding missing')
 
   const now = new Date().toISOString()
-  const incoming: NewsItem[] = []
-  let skipped = 0
-  for (const raw of rawItems) {
-    const item = normalizeItem(raw, now)
-    if (item) incoming.push(item)
-    else skipped++
-  }
-
   const byKey = new Map<string, NewsItem>()
   for (const item of await readAllNews()) byKey.set(item.doc_key, item)
-  // 같은 요청 안에 doc_key 가 중복돼도 마지막 것이 이긴다(upsert 기준 = doc_key).
-  for (const item of incoming) byKey.set(item.doc_key, item)
+  // 슬러그 소유자 색인 — 다른 doc_key 가 같은 슬러그를 가져가지 못하게 막는다.
+  const taken = new Map<string, string>()
+  for (const item of byKey.values()) if (item.slug) taken.set(item.slug, item.doc_key)
+
+  const article_rejected: ArticleReject[] = []
+  let upserted = 0
+  let skipped = 0
+  let articles = 0
+
+  for (const raw of rawItems) {
+    const prev = (() => {
+      const k = typeof raw === 'object' && raw ? str((raw as Record<string, unknown>).doc_key, 200) : ''
+      return k ? byKey.get(k) ?? null : null
+    })()
+    const item = mergeItem(raw, now, prev, taken, article_rejected)
+    if (!item) {
+      skipped++
+      continue
+    }
+    // 같은 내용을 다시 받으면 dateModified 를 올리지 않는다.
+    item.updated_at = prev && sameContent(prev, item) ? prev.updated_at || now : now
+    byKey.set(item.doc_key, item)
+    taken.set(item.slug, item.doc_key)
+    upserted++
+    if (hasArticle(item.article)) articles++
+  }
 
   const merged = sortNews([...byKey.values()]).slice(0, NEWS_MAX_ITEMS)
   await kv.put(NEWS_LIST_KEY, JSON.stringify(merged))
 
-  return { upserted: incoming.length, skipped, total: merged.length }
+  return { upserted, skipped, total: merged.length, articles, article_rejected }
+}
+
+/**
+ * doc_key 로 항목을 지운다.
+ *
+ * 삭제 경로가 없으면 **라이브에 테스트 1건도 넣어볼 수 없다**(공개 목록에 영구히 남는다).
+ * 맥4 CF 토큰에는 KV 권한이 없어 블롭을 직접 손볼 수도 없으므로, 샘플 투입을
+ * 되돌릴 수 있게 수신단과 같은 토큰으로 지울 수 있게 한다.
+ */
+export async function deleteNews(docKeys: string[]): Promise<{ deleted: number; total: number }> {
+  const kv = getNewsKv()
+  if (!kv) throw new Error('NEWS_KV binding missing')
+
+  const want = new Set(docKeys.map((k) => str(k, 200)).filter(Boolean))
+  if (!want.size) return { deleted: 0, total: (await readAllNews()).length }
+
+  const before = await readAllNews()
+  const kept = before.filter((it) => !want.has(it.doc_key))
+  if (kept.length !== before.length) await kv.put(NEWS_LIST_KEY, JSON.stringify(kept))
+
+  return { deleted: before.length - kept.length, total: kept.length }
+}
+
+/** `/news/<slug>` 렌더용 단건 조회. 슬러그는 고유하므로 첫 일치가 답이다. */
+export async function findNewsBySlug(slug: string): Promise<NewsItem | null> {
+  const want = slugify(slug)
+  if (!want) return null
+  return (await readAllNews()).find((it) => it.slug === want) ?? null
+}
+
+/**
+ * 목록 카드용 경량 형태. 기사 본문을 떼고 `has_article` 만 남긴다.
+ * 목록은 클라이언트 컴포넌트라 기사를 그대로 넘기면 본문 전체가 RSC 페이로드로
+ * 따라 내려간다(150건 × 수 KB). 카드가 필요한 건 "링크를 걸지 말지" 뿐이다.
+ */
+export type NewsCard = Omit<NewsItem, 'article'> & { has_article: boolean }
+
+export const toCard = ({ article, ...rest }: NewsItem): NewsCard => ({
+  ...rest,
+  has_article: hasArticle(article),
+})
+
+/** 기사가 붙어 색인 대상이 되는 항목만. 사이트맵·관련글에 쓴다. */
+export function articlesOf(items: NewsItem[]): NewsItem[] {
+  return items.filter((it) => it.slug && hasArticle(it.article))
 }
 
 /* ────────────────────────── 조회 ────────────────────────── */

@@ -35,6 +35,8 @@ export type NewsStrings = {
   cta: string
   expand: string
   collapse: string
+  /** 개별 기사 페이지로 가는 카드 버튼. 기사가 붙은 항목에만 쓴다. */
+  readMore: string
   more: string
   empty: string
   emptyHint: string
@@ -72,8 +74,9 @@ const ko: NewsStrings = {
   published: '공개일',
   original: '원문 보기',
   cta: '관련 인허가 상담',
-  expand: '자세히 보기',
+  expand: '요약 더 보기',
   collapse: '접기',
+  readMore: '자세히 보기',
   more: '더 보기',
   empty: '업데이트 준비 중',
   emptyHint: '수집된 규제 동향이 아직 없습니다. 인허가 문의는 상담으로 바로 연결됩니다.',
@@ -116,6 +119,7 @@ const en: NewsStrings = {
   cta: 'Ask about this licence',
   expand: 'Details',
   collapse: 'Close',
+  readMore: 'Read article',
   more: 'Load more',
   empty: 'Update in preparation',
   emptyHint: 'No regulatory updates have been collected yet. You can still send us a licensing enquiry.',
@@ -157,6 +161,7 @@ const zh: NewsStrings = {
   cta: '咨询相关许可',
   expand: '查看详情',
   collapse: '收起',
+  readMore: '阅读全文',
   more: '加载更多',
   empty: '更新准备中',
   emptyHint: '尚未收集到法规动态。许可事务仍可随时咨询。',
@@ -198,6 +203,7 @@ const ja: NewsStrings = {
   cta: '関連する許認可を相談',
   expand: '詳細を見る',
   collapse: '閉じる',
+  readMore: '記事を読む',
   more: 'もっと見る',
   empty: '更新準備中',
   emptyHint: 'まだ収集された規制動向はありません。許認可のご相談はいつでも承ります。',
