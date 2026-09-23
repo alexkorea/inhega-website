@@ -8,6 +8,7 @@
  * 지원 문법은 의도적으로 좁다: h3 / 목록 / 인용 / 굵게 / 인라인코드.
  * 링크·이미지·raw HTML 은 지원하지 않는다(외부 링크는 출처 블록에서만 낸다).
  */
+import { stripArtifacts } from './news-article-schema'
 import { getServiceCatalog } from './services-catalog'
 import { ogThumb } from './og-thumbs.generated'
 import type { NewsItem } from './news-data'
@@ -28,8 +29,15 @@ export type Block =
   | { kind: 'ul'; items: InlineToken[][] }
   | { kind: 'ol'; items: InlineToken[][] }
 
+/**
+ * 이미 저장된 기사에도 건다 — 수신단 정화가 붙기 전에 들어온 원고가 KV 에 남아 있다.
+ * 재전송을 기다리지 않고 화면에서 바로 걷어내기 위한 2차 방어.
+ */
+export const sanitize = (s: string) => stripArtifacts(s).replace(/\s+/g, ' ').trim()
+
 /** `**굵게**` 와 `` `코드` `` 만 인식한다. 나머지는 전부 평문. */
-export function parseInline(s: string): InlineToken[] {
+export function parseInline(raw: string): InlineToken[] {
+  const s = sanitize(raw)
   const out: InlineToken[] = []
   const re = /\*\*([^*]+)\*\*|`([^`]+)`/g
   let last = 0

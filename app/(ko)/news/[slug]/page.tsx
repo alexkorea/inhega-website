@@ -19,6 +19,7 @@ import {
   articleOgImage,
   parseBlocks,
   relatedServices,
+  sanitize,
   toPlain,
 } from '@/lib/news-article-render'
 import { formatNewsDate } from '@/lib/i18n/news-i18n'
@@ -31,7 +32,26 @@ export const dynamic = 'force-dynamic'
 /** 게시 기사만 통과시킨다. 요약만 있는 항목은 개별 페이지를 만들지 않는다. */
 async function getArticleItem(slug: string): Promise<NewsItem | null> {
   const item = await findNewsBySlug(slug)
-  return item && hasArticle(item.article) ? item : null
+  if (!item || !hasArticle(item.article)) return null
+
+  // 수신단 정화가 붙기 전에 들어온 원고가 KV 에 남아 있다(모델 종료 토큰 `<|im_end|>`
+  // 가 본문 끝에 찍혀 라이브에 노출된 적이 있다). 본문 블록은 parseInline 이 걷어내고,
+  // 그 밖의 필드는 여기서 한 번에 정화한다. 재전송을 기다리지 않기 위한 2차 방어.
+  const a = item.article!
+  return {
+    ...item,
+    article: {
+      ...a,
+      meta_title: sanitize(a.meta_title),
+      meta_description: sanitize(a.meta_description),
+      h1: sanitize(a.h1),
+      lead: sanitize(a.lead),
+      disclaimer: sanitize(a.disclaimer),
+      sections: a.sections.map((sec) => ({ ...sec, h2: sanitize(sec.h2) })),
+      faq: a.faq.map((f) => ({ q: sanitize(f.q), a: sanitize(f.a) })),
+      keywords: a.keywords.map(sanitize).filter(Boolean),
+    },
+  }
 }
 
 /** published_date 는 YYYY-MM-DD, updated_at 은 ISO. 둘 다 없으면 JSON-LD 에서 뺀다. */

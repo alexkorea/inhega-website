@@ -75,13 +75,28 @@ export function scanBanned(text: string): string[] {
 /** 제어문자 제거용. 문자열 리터럴로 쓰면 소스에 진짜 제어문자가 박히므로 정규식으로만 만든다. */
 const CTRL = /[\x00-\x08\x0b\x0c\x0e-\x1f]/g
 
+/**
+ * 로컬 모델이 흘리는 찌꺼기를 걷어낸다.
+ *
+ * 2026-09-23 라이브에서 실제로 잡혔다 — 본문 끝에 채팅 템플릿 종료 토큰
+ * `<|im_end|>` 가 그대로 찍혀 공개 페이지에 노출됐다. 생성 쪽에서 막는 게
+ * 정석이지만, 수신단은 모델이 무엇을 뱉든 페이지가 깨지지 않게 막아야 한다.
+ * HTML 태그도 함께 지운다(렌더러가 텍스트로 그리므로 화면에 `<div>` 가 보인다).
+ */
+export const stripArtifacts = (s: string) =>
+  s
+    .replace(/<\|[^|]{0,60}\|>/g, '')
+    .replace(/<\/?(?:s|\/s)>/g, '')
+    .replace(/\[\/?INST\]/g, '')
+    .replace(/<\/?[a-zA-Z][^>]{0,200}>/g, '')
+
 const clean = (v: unknown, max: number) =>
-  typeof v === 'string' ? v.replace(CTRL, '').replace(/[ \t]+/g, ' ').trim().slice(0, max) : ''
+  typeof v === 'string' ? stripArtifacts(v).replace(CTRL, '').replace(/[ \t]+/g, ' ').trim().slice(0, max) : ''
 
 /** 줄바꿈을 살려야 하는 본문용 — 빈 줄은 블록 구분자로 쓴다. */
 const cleanBlock = (v: unknown, max: number) =>
   typeof v === 'string'
-    ? v
+    ? stripArtifacts(v)
         .replace(/\r\n?/g, '\n')
         .replace(CTRL, '')
         .replace(/[ \t]+/g, ' ')

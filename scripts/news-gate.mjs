@@ -106,8 +106,10 @@ for (const it of items) {
   for (const [re, label] of BANNED) if (re.test(body)) bad(`금지 표현: ${label}`)
 
   // 원문은 외부 링크다 — 링크주스를 넘기지 않는다.
+  // href 는 HTML 이스케이프돼 나온다(`&` → `&amp;`). 원본 그대로 찾으면 전건 오탐.
   if (it.url) {
-    const a = html.match(new RegExp(`<a[^>]+href="${it.url.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"[^>]*>`))
+    const esc = it.url.replace(/&/g, '&amp;').replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const a = html.match(new RegExp(`<a[^>]+href="${esc}"[^>]*>`))
     if (!a) bad('원문 링크 없음')
     else if (!/rel="[^"]*nofollow/.test(a[0])) bad('원문 링크에 rel=nofollow 없음')
   }

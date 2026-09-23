@@ -168,6 +168,10 @@
 }
 
 .sourceLink {
+  /* 탭 타겟 44px — 본문 안 인라인 링크지만 실제로 누르는 곳이다. */
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--navy);
   font-weight: 600;
   overflow-wrap: anywhere;
