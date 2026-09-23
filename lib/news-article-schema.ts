@@ -12,8 +12,10 @@
  *     불합격 기사는 조용히 버리지 않고 응답으로 사유를 돌려준다(n8n 이 재생성).
  */
 
-export const META_TITLE_MIN = 35
-export const META_TITLE_MAX = 60
+// 한국어 SERP 는 픽셀폭 기준이라 영문보다 훨씬 일찍 잘린다 — 50자를 넘기면 말줄임표가 붙는다.
+// (맥7 20260923-1825 지시 4: 35~60 → 25~50. meta_description 은 80~150 유지.)
+export const META_TITLE_MIN = 25
+export const META_TITLE_MAX = 50
 export const META_DESC_MIN = 80
 export const META_DESC_MAX = 150
 
