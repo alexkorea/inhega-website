@@ -204,7 +204,22 @@ section('8. 목록 렌더 방어 — 제목 빈 항목은 숨긴다(저장소에
   ok(M.isListable(legacy) === false, 'isListable(빈 제목) = false')
 }
 
-section('9. doc_key 없는 항목은 예전처럼 skipped')
+section('9. 같은 내용을 다시 받으면 updated_at 을 올리지 않는다')
+{
+  // KV 왕복을 거친 항목과 새로 병합한 항목은 키 순서가 달라, 통째 비교로는 늘 "변경" 이 났다.
+  const before = (await one('TEST:new-good')).updated_at
+  await new Promise((r) => setTimeout(r, 5))
+  const r = await M.upsertNews([
+    { doc_key: 'TEST:new-good', title_ko: '일본 의견공모 공고', url: 'https://public-comment.e-gov.go.jp/x', published_date: '2026-09-23' },
+  ])
+  eq((await one('TEST:new-good')).updated_at, before, 'updated_at 불변')
+  eq(r.upserted, 1, 'upserted')
+  // 내용이 바뀌면 올라간다
+  await M.upsertNews([{ doc_key: 'TEST:new-good', title_ko: '일본 의견공모 공고(수정)' }])
+  ok((await one('TEST:new-good')).updated_at !== before, '내용이 바뀌면 updated_at 갱신')
+}
+
+section('10. doc_key 없는 항목은 예전처럼 skipped')
 {
   const r = await M.upsertNews([{ title_ko: '떠돌이', url: 'https://x.gov/2', published_date: '2026-09-23' }])
   eq(r.skipped, 1, 'skipped')

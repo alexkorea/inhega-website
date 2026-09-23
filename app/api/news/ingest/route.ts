@@ -2,6 +2,7 @@
  * POST|PATCH /api/news/ingest — 맥3 REGWATCH(n8n) 수신단.
  *
  *   헤더  X-News-Token: <NEWS_INGEST_TOKEN>
+ *   점검  GET ?raw=1[&broken=1] — 저장소 원본(공개 목록이 숨긴 행까지) 조회
  *   본문  {"items":[{ doc_key, slug, source_key, country, scope, title_ko, summary_ko,
  *                     product, impact, opportunity, opportunity_reason, stage,
  *                     deadline, relevance, url, published_date, analyzed_at,
@@ -28,7 +29,7 @@
  */
 import { NextRequest, NextResponse } from 'next/server'
 import { getCloudflareContext } from '@opennextjs/cloudflare'
-import { NEWS_MAX_BATCH, deleteNews, upsertNews } from '@/lib/news-data'
+import { NEWS_MAX_BATCH, deleteNews, isListable, readAllNews, upsertNews } from '@/lib/news-data'
 
 export const dynamic = 'force-dynamic'
 
@@ -132,12 +133,27 @@ export async function DELETE(req: NextRequest) {
   }
 }
 
-/** 연결 점검용. 토큰 유효성만 알려주고 데이터는 주지 않는다. */
+/**
+ * 연결 점검용. 토큰 유효성만 알려주고 데이터는 주지 않는다.
+ *
+ * `?raw=1` 은 **저장소 원본**을 돌려준다(기사 본문 제외). 공개 목록은 제목 없는 항목을
+ * 숨기므로, 그 항목이 무엇인지 보려면 숨기지 않는 읽기 경로가 하나 있어야 한다
+ * — 없으면 "지워지지도 보이지도 않는" 행이 생긴다. `?raw=1&broken=1` 은 그중
+ * 필수 필드가 빠진 행만 추려 준다(맥3 가 무엇을 재전송해야 하는지 바로 보라고).
+ */
 export async function GET(req: NextRequest) {
   const expected = ingestToken()
   if (!expected) return json({ ok: false, error: 'not_configured' }, 503)
   if (!tokenMatches(req.headers.get('x-news-token') || '', expected)) {
     return json({ ok: false, error: 'unauthorized' }, 401)
   }
-  return json({ ok: true, ready: true }, 200)
+
+  if (req.nextUrl.searchParams.get('raw') !== '1') return json({ ok: true, ready: true }, 200)
+
+  const all = await readAllNews()
+  const onlyBroken = req.nextUrl.searchParams.get('broken') === '1'
+  const items = (onlyBroken ? all.filter((it) => !isListable(it) || !it.url || !it.published_date) : all).map(
+    ({ article, ...rest }) => ({ ...rest, has_article: !!article })
+  )
+  return json({ ok: true, total: all.length, count: items.length, items }, 200)
 }

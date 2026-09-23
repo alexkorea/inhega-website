@@ -369,10 +369,20 @@ export type UpsertResult = {
   preserved: FieldPreserve[]
 }
 
-/** 내용이 실제로 달라졌는지 — 수신 시각·갱신 시각은 비교에서 뺀다. */
+/**
+ * 내용이 실제로 달라졌는지 — 수신 시각·갱신 시각은 비교에서 뺀다.
+ *
+ * **필드별로** 비교한다. 객체 두 개를 통째로 JSON.stringify 해서 견주면 키 순서까지
+ * 비교하게 되는데, KV 에서 읽은 항목(hydrateItem: EMPTY_ITEM 스프레드 순서)과 방금
+ * 병합한 항목(mergeItem: doc_key 가 먼저)은 **키 순서가 다르다**. 그래서 내용이 같아도
+ * 늘 "달라졌다" 가 나왔고, 같은 자료를 다시 받을 때마다 updated_at 이 올라가
+ * sitemap-news.xml 의 lastmod 와 JSON-LD dateModified 에 가짜 신선도가 실렸다
+ * (2026-09-23 실측: 아무 값도 안 바뀌는 수신에 updated_at 이 갱신됐다).
+ */
+const CONTENT_KEYS = [...Object.keys(EMPTY_ITEM), 'doc_key', 'slug'].sort() as (keyof NewsItem)[]
+
 function sameContent(a: NewsItem, b: NewsItem): boolean {
-  const strip = ({ ingested_at: _i, updated_at: _u, ...rest }: NewsItem) => rest
-  return JSON.stringify(strip(a)) === JSON.stringify(strip(b))
+  return CONTENT_KEYS.every((k) => JSON.stringify(a[k] ?? null) === JSON.stringify(b[k] ?? null))
 }
 
 export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
