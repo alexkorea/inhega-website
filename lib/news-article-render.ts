@@ -35,6 +35,12 @@ export type Block =
  */
 export const sanitize = (s: string) => stripArtifacts(s).replace(/\s+/g, ' ').trim()
 
+/**
+ * 본문 블록 전용 정화. 줄바꿈을 **보존**한다 — 목록 블록은 줄바꿈으로 항목을 나누므로
+ * sanitize 의 공백 축약을 쓰면 목록이 한 문단으로 뭉개진다.
+ */
+export const sanitizeBlock = (s: string) => stripArtifacts(s).trim()
+
 /** `**굵게**` 와 `` `코드` `` 만 인식한다. 나머지는 전부 평문. */
 export function parseInline(raw: string): InlineToken[] {
   const s = sanitize(raw)

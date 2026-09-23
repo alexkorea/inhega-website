@@ -85,7 +85,8 @@ const CTRL = /[\x00-\x08\x0b\x0c\x0e-\x1f]/g
  */
 export const stripArtifacts = (s: string) =>
   s
-    .replace(/<\|[^|]{0,60}\|>/g, '')
+    // 닫는 `>` 가 없는 잘린 형태도 잡는다 — toPlain 이 `>` 를 먼저 걷어내는 경로가 있다.
+    .replace(/<\|[^|<>]{0,60}\|>?/g, '')
     .replace(/<\/?(?:s|\/s)>/g, '')
     .replace(/\[\/?INST\]/g, '')
     .replace(/<\/?[a-zA-Z][^>]{0,200}>/g, '')

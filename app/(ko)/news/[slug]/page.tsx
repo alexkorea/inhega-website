@@ -20,6 +20,7 @@ import {
   parseBlocks,
   relatedServices,
   sanitize,
+  sanitizeBlock,
   toPlain,
 } from '@/lib/news-article-render'
 import { formatNewsDate } from '@/lib/i18n/news-i18n'
@@ -47,7 +48,12 @@ async function getArticleItem(slug: string): Promise<NewsItem | null> {
       h1: sanitize(a.h1),
       lead: sanitize(a.lead),
       disclaimer: sanitize(a.disclaimer),
-      sections: a.sections.map((sec) => ({ ...sec, h2: sanitize(sec.h2) })),
+      sections: a.sections.map((sec) => ({
+        h2: sanitize(sec.h2),
+        // JSON-LD articleBody 는 toPlain 이 원문 블록을 그대로 쓴다 — 여기서 정화해야
+        // 화면은 깨끗한데 구조화 데이터에만 종료 토큰이 남는 일이 없다.
+        body: sec.body.map(sanitizeBlock).filter(Boolean),
+      })),
       faq: a.faq.map((f) => ({ q: sanitize(f.q), a: sanitize(f.a) })),
       keywords: a.keywords.map(sanitize).filter(Boolean),
     },
