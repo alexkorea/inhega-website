@@ -173,14 +173,36 @@ const EMPTY_ITEM: Omit<NewsItem, 'doc_key' | 'slug' | 'ingested_at' | 'updated_a
 
 export type ArticleReject = { doc_key: string; reasons: string[] }
 
+/** 신규 항목이 갖춰야 하는 최소 필드. 하나라도 없으면 목록에 빈 카드가 된다. */
+export const REQUIRED_NEW_FIELDS = ['title_ko', 'url', 'published_date'] as const
+
+export type ItemReject = { doc_key: string; reasons: string[] }
+/** 빈 값 덮어쓰기를 막고 기존 값을 지킨 필드 — 보낸 쪽이 보고 고치라고 돌려준다. */
+export type FieldPreserve = { doc_key: string; fields: string[] }
+
+export type MergeOutcome =
+  | { status: 'ok'; item: NewsItem; preserved: string[] }
+  /** doc_key 가 없어 저장할 수 없는 항목. */
+  | { status: 'skipped' }
+  /** 필수 필드가 없는 **신규** doc_key — 생성하지 않는다. */
+  | { status: 'rejected'; doc_key: string; reasons: string[] }
+
 /**
- * 수신 항목 1건을 정제해 기존 항목 위에 **부분 병합**한다.
+ * 수신 항목 1건을 정제해 기존 항목 위에 **병합**한다.
  *
- * payload 에 **있는 키만** 덮어쓴다. 그래서 `{doc_key, article}` 만 보내면
- * 요약·출처는 그대로 둔 채 기사만 채울 수 있고(먼저 요약 게시 → 기사 후속 생성),
- * n8n RW-03 가 보내는 전체 payload 는 지금까지와 똑같이 전부 덮어쓴다.
+ * 규칙은 둘이다.
+ *   1. payload 에 **있는 키만** 덮어쓴다 — `{doc_key, article}` 만 보내면 요약은 그대로다.
+ *   2. 키가 있어도 **값이 비면(빈 문자열·enum 불일치·숫자 아님) 기존 값을 지킨다**.
  *
- * doc_key 가 없으면 저장할 수 없으므로 null(= skipped).
+ * 2번이 없던 동안 `{doc_key, slug, article}` 수신에 기존 요약이 통째로 빈 값이 됐다
+ * (2026-09-23 FR:2026-19181·FR:2026-19277). 1번만으로는 부족하다 — n8n 이 키를 빼는 대신
+ * 빈 문자열을 채워 보내는 경우가 있고, enum 에 영문값이 오면 정제 결과가 빈 문자열이라
+ * "있는 키" 로 취급돼 똑같이 덮어쓴다. **지운다는 뜻은 payload 로 표현할 수 없게 한다**
+ * — 항목을 내리는 길은 DELETE, 기사만 내리는 길은 `article: null` 뿐이다.
+ * 기존 값을 지킨 필드는 `preserved` 로 돌려줘 보낸 쪽이 자기 버그를 알 수 있게 한다.
+ *
+ * doc_key 가 없으면 저장할 수 없으므로 skipped.
+ * **신규** doc_key 인데 필수 필드가 없으면 rejected — 빈 카드를 만드느니 만들지 않는다.
  * 기사가 게이트에 걸리면 **기사만** 버리고 사유를 reject 에 적는다 — 요약은 살린다.
  */
 export function mergeItem(
@@ -189,15 +211,24 @@ export function mergeItem(
   prev: NewsItem | null,
   taken: Map<string, string>,
   reject: ArticleReject[]
-): NewsItem | null {
-  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null
+): MergeOutcome {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return { status: 'skipped' }
   const r = raw as Record<string, unknown>
   const doc_key = str(r.doc_key, 200)
-  if (!doc_key) return null
+  if (!doc_key) return { status: 'skipped' }
 
   const has = (k: string) => Object.prototype.hasOwnProperty.call(r, k)
   const base = prev ?? { ...EMPTY_ITEM, doc_key, slug: '', ingested_at: now, updated_at: now }
-  const pick = <T,>(k: string, parse: () => T, keep: T): T => (has(k) ? parse() : keep)
+
+  const preserved: string[] = []
+  /** 키가 없으면 기존 값, 있어도 정제 결과가 비면 기존 값(비어 있지 않을 때만 기록). */
+  const pick = (k: string, parse: (v: unknown) => string, keep: string): string => {
+    if (!has(k)) return keep
+    const next = parse(r[k])
+    if (next) return next
+    if (keep) preserved.push(k)
+    return keep
+  }
 
   let article = base.article
   if (has('article')) {
@@ -211,39 +242,58 @@ export function mergeItem(
     }
   }
 
-  return {
+  // relevance 만 숫자라 따로 센다. Number('') 도 Number(null) 도 0 이라
+  // 빈 값이 0 점으로 둔갑하지 않게 "값 없음" 을 먼저 걸러낸다.
+  const relevance = (() => {
+    if (!has('relevance')) return base.relevance
+    const v = r.relevance
+    const blank = v === null || v === undefined || (typeof v === 'string' && !v.trim())
+    const n = blank ? NaN : Number(v)
+    if (Number.isFinite(n)) return Math.min(100, Math.max(0, Math.round(n)))
+    if (base.relevance) preserved.push('relevance')
+    return base.relevance
+  })()
+
+  const item: NewsItem = {
     doc_key,
     slug: resolveSlug(doc_key, has('slug') ? r.slug : '', prev, taken),
-    source_key: pick('source_key', () => str(r.source_key, 60), base.source_key),
-    country: pick('country', () => str(r.country, 60), base.country),
-    scope: pick('scope', () => oneOf(r.scope, SCOPES), base.scope),
-    title_ko: pick('title_ko', () => str(r.title_ko, 300), base.title_ko),
-    summary_ko: pick('summary_ko', () => str(r.summary_ko, 1200), base.summary_ko),
-    product: pick('product', () => str(r.product, 200), base.product),
-    impact: pick('impact', () => oneOf(r.impact, IMPACTS), base.impact),
-    opportunity: pick('opportunity', () => oneOf(r.opportunity, OPPORTUNITIES), base.opportunity),
-    opportunity_reason: pick('opportunity_reason', () => str(r.opportunity_reason, 600), base.opportunity_reason),
-    stage: pick('stage', () => str(r.stage, 120), base.stage),
-    deadline: pick('deadline', () => isoDate(r.deadline), base.deadline),
-    relevance: pick(
-      'relevance',
-      () => {
-        const n = Number(r.relevance)
-        return Number.isFinite(n) ? Math.min(100, Math.max(0, Math.round(n))) : 0
-      },
-      base.relevance
-    ),
-    url: pick('url', () => safeUrl(r.url), base.url),
-    published_date: pick(
-      'published_date',
-      () => isoDate(r.published_date) || str(r.published_date, 40),
-      base.published_date
-    ),
-    analyzed_at: pick('analyzed_at', () => str(r.analyzed_at, 40), base.analyzed_at),
+    source_key: pick('source_key', (v) => str(v, 60), base.source_key),
+    country: pick('country', (v) => str(v, 60), base.country),
+    scope: pick('scope', (v) => oneOf(v, SCOPES), base.scope),
+    title_ko: pick('title_ko', (v) => str(v, 300), base.title_ko),
+    summary_ko: pick('summary_ko', (v) => str(v, 1200), base.summary_ko),
+    product: pick('product', (v) => str(v, 200), base.product),
+    impact: pick('impact', (v) => oneOf(v, IMPACTS), base.impact),
+    opportunity: pick('opportunity', (v) => oneOf(v, OPPORTUNITIES), base.opportunity),
+    opportunity_reason: pick('opportunity_reason', (v) => str(v, 600), base.opportunity_reason),
+    stage: pick('stage', (v) => str(v, 120), base.stage),
+    deadline: pick('deadline', (v) => isoDate(v), base.deadline),
+    relevance,
+    url: pick('url', (v) => safeUrl(v), base.url),
+    published_date: pick('published_date', (v) => isoDate(v) || str(v, 40), base.published_date),
+    analyzed_at: pick('analyzed_at', (v) => str(v, 40), base.analyzed_at),
     ingested_at: prev?.ingested_at || now,
     updated_at: base.updated_at || now,
     article,
   }
+
+  // 신규 항목만 필수 필드를 본다. 기존 항목은 부분 수신이 정상이고, 위 규칙 덕에
+  // 이미 채워진 값이 빈 값으로 밀릴 일도 없다.
+  if (!prev) {
+    const missing = REQUIRED_NEW_FIELDS.filter((f) => !item[f])
+    if (missing.length) {
+      // 기사 게이트 사유는 항목을 만들지 않는 이상 의미가 없으므로 같이 걷어낸다.
+      const at = reject.findIndex((x) => x.doc_key === doc_key)
+      if (at >= 0) reject.splice(at, 1)
+      return {
+        status: 'rejected',
+        doc_key,
+        reasons: missing.map((f) => `신규 항목에 ${f} 없음(또는 형식 불일치)`),
+      }
+    }
+  }
+
+  return { status: 'ok', item, preserved }
 }
 
 /**
@@ -313,6 +363,10 @@ export type UpsertResult = {
   articles: number
   /** 게이트에 걸려 기사만 버려진 항목(요약은 저장됨). n8n 이 보고 재생성한다. */
   article_rejected: ArticleReject[]
+  /** 필수 필드가 없어 **생성을 거부한** 신규 doc_key. */
+  rejected: ItemReject[]
+  /** 빈 값 덮어쓰기를 막고 기존 값을 지킨 필드. 보낸 쪽 버그 신호다. */
+  preserved: FieldPreserve[]
 }
 
 /** 내용이 실제로 달라졌는지 — 수신 시각·갱신 시각은 비교에서 뺀다. */
@@ -333,6 +387,8 @@ export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
   for (const item of byKey.values()) if (item.slug) taken.set(item.slug, item.doc_key)
 
   const article_rejected: ArticleReject[] = []
+  const rejected: ItemReject[] = []
+  const preserved: FieldPreserve[] = []
   let upserted = 0
   let skipped = 0
   let articles = 0
@@ -342,11 +398,17 @@ export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
       const k = typeof raw === 'object' && raw ? str((raw as Record<string, unknown>).doc_key, 200) : ''
       return k ? byKey.get(k) ?? null : null
     })()
-    const item = mergeItem(raw, now, prev, taken, article_rejected)
-    if (!item) {
+    const outcome = mergeItem(raw, now, prev, taken, article_rejected)
+    if (outcome.status === 'skipped') {
       skipped++
       continue
     }
+    if (outcome.status === 'rejected') {
+      rejected.push({ doc_key: outcome.doc_key, reasons: outcome.reasons })
+      continue
+    }
+    const { item } = outcome
+    if (outcome.preserved.length) preserved.push({ doc_key: item.doc_key, fields: outcome.preserved })
     // 같은 내용을 다시 받으면 dateModified 를 올리지 않는다.
     item.updated_at = prev && sameContent(prev, item) ? prev.updated_at || now : now
     byKey.set(item.doc_key, item)
@@ -358,7 +420,7 @@ export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
   const merged = sortNews([...byKey.values()]).slice(0, NEWS_MAX_ITEMS)
   await kv.put(NEWS_LIST_KEY, JSON.stringify(merged))
 
-  return { upserted, skipped, total: merged.length, articles, article_rejected }
+  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved }
 }
 
 /**
@@ -400,6 +462,17 @@ export const toCard = ({ article, ...rest }: NewsItem): NewsCard => ({
   ...rest,
   has_article: hasArticle(article),
 })
+
+/**
+ * 목록에 내보낼 수 있는 항목인지 — 제목 없는 항목은 **빈 카드**가 된다.
+ *
+ * 수신단이 빈 값 덮어쓰기를 막게 됐지만, 그 전에 만들어진 잔재와 KV 를 직접 손댄
+ * 경우까지 막을 수는 없다. 렌더 쪽에서 한 번 더 거른다. **저장소에서 지우지는 않는다**
+ * — readAllNews 가 걸러 버리면 upsert 의 read-modify-write 가 그 항목을 통째로 날린다.
+ */
+export const isListable = (it: NewsItem) => Boolean((it.title_ko || '').trim())
+
+export const listableNews = (items: NewsItem[]) => items.filter(isListable)
 
 /** 기사가 붙어 색인 대상이 되는 항목만. 사이트맵·관련글에 쓴다. */
 export function articlesOf(items: NewsItem[]): NewsItem[] {

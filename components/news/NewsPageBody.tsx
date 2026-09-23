@@ -2,7 +2,7 @@
  * /news 본문(서버 컴포넌트). ko·en·zh·ja 네 라우트가 같은 데이터를 쓰고
  * 라벨만 갈아끼운다. 데이터는 KV 에서 요청 시 읽으므로 재배포 없이 갱신된다.
  */
-import { hasArticle, readAllNews, sortNews, toCard } from '@/lib/news-data'
+import { hasArticle, listableNews, readAllNews, sortNews, toCard } from '@/lib/news-data'
 import { getNewsStrings, type NewsLocale } from '@/lib/i18n/news-i18n'
 import NewsBrowser from './NewsBrowser'
 import styles from '@/app/news.module.css'
@@ -22,7 +22,8 @@ const contactFor = (locale: NewsLocale) => (locale === 'ko' ? '/contact' : `/${l
 
 export default async function NewsPageBody({ locale }: { locale: NewsLocale }) {
   const t = getNewsStrings(locale)
-  const all = sortNews(await readAllNews()).slice(0, RENDER_LIMIT)
+  // 제목 없는 항목은 빈 카드가 되므로 렌더 단계에서 걸러낸다(수신단 방어의 2중화).
+  const all = listableNews(sortNews(await readAllNews())).slice(0, RENDER_LIMIT)
   // 클라이언트로는 기사 본문을 뺀 카드만 내려보낸다 — 본문은 /news/<slug> 가 직접 읽는다.
   const cards = all.map(toCard)
 

@@ -10,7 +10,7 @@
  * 본문까지 필요하면 `?article=1`, 기사 있는 항목만 보려면 `?has_article=1`.
  */
 import { NextRequest, NextResponse } from 'next/server'
-import { filterNews, hasArticle, readAllNews } from '@/lib/news-data'
+import { filterNews, hasArticle, listableNews, readAllNews } from '@/lib/news-data'
 
 export const dynamic = 'force-dynamic'
 
@@ -27,7 +27,7 @@ export async function GET(req: NextRequest) {
   const withArticle = sp.get('article') === '1'
   const onlyArticles = sp.get('has_article') === '1'
 
-  let all = filterNews(await readAllNews(), {
+  let all = filterNews(listableNews(await readAllNews()), {
     scope: sp.get('scope') || '',
     country: sp.get('country') || '',
     product: sp.get('product') || '',

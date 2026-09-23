@@ -9,11 +9,18 @@
  *                               sections:[{h2, body}], faq:[{q,a}], keywords,
  *                               disclaimer, generated_at, model, og_image } }, ...]}
  *   응답  {"ok":true,"upserted":N,"skipped":N,"total":N,"articles":N,
- *          "article_rejected":[{"doc_key":"...","reasons":["..."]}]}
+ *          "article_rejected":[{"doc_key":"...","reasons":["..."]}],
+ *          "rejected":[{"doc_key":"...","reasons":["..."]}],
+ *          "preserved":[{"doc_key":"...","fields":["title_ko"]}]}
  *
- * upsert 기준은 doc_key. 같은 doc_key 를 다시 보내면 **payload 에 있는 키만** 덮어쓴다.
- * 그래서 RW-03 이 요약 전체를 보내고, RW-04 가 나중에 `{doc_key, article}` 만 보내
- * 기사를 채우는 2단 발행이 가능하다. POST 와 PATCH 는 동작이 같다(PATCH 는 의도 표기용).
+ * upsert 기준은 doc_key. 같은 doc_key 를 다시 보내면 **payload 에 있는 키만**, 그중에서도
+ * **값이 빈 키는 빼고** 덮어쓴다. 그래서 RW-03 이 요약 전체를 보내고, RW-04 가 나중에
+ * `{doc_key, article}` 만 보내 기사를 채우는 2단 발행이 가능하다. 빈 문자열이나 enum
+ * 불일치 값을 보내도 기존 값은 살아남고, 지켜진 필드가 `preserved` 로 돌아온다
+ * (보낸 쪽 버그 신호 — 조용히 넘기지 않는다). 항목을 내리는 길은 DELETE 뿐이다.
+ * **신규** doc_key 는 title_ko·url·published_date 가 모두 있어야 생성된다 — 없으면
+ * 만들지 않고 `rejected` 에 사유를 돌려준다(빈 카드 방지).
+ * POST 와 PATCH 는 동작이 같다(PATCH 는 의도 표기용).
  *
  * 기사는 수신 시점에 게이트를 통과해야 저장된다(메타 길이·금지 표현). 불합격이면
  * **기사만** 버리고 요약은 살린 뒤 `article_rejected` 에 사유를 돌려준다 — 조용한
@@ -73,6 +80,12 @@ export async function POST(req: NextRequest) {
     const result = await upsertNews(items)
     if (result.article_rejected.length) {
       console.warn('[news/ingest] 기사 게이트 불합격', JSON.stringify(result.article_rejected))
+    }
+    if (result.rejected.length) {
+      console.warn('[news/ingest] 신규 항목 거부(필수 필드 누락)', JSON.stringify(result.rejected))
+    }
+    if (result.preserved.length) {
+      console.warn('[news/ingest] 빈 값 수신 — 기존 값 유지', JSON.stringify(result.preserved))
     }
     return json({ ok: true, ...result }, 200)
   } catch (err) {
