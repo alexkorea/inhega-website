@@ -6224,6 +6224,22 @@
    "slug": "administrative-scrivener-scope-and-limits",
    "generated_at": "2026-09-22T10:06:56.303Z",
    "version": "1.4"
+  },
+  "news/china-b-mode-ultrasound-national-standard-2026": {
+   "hash": "d39b0c51b234bbc6c8def9ebc9a7058ae916182784cd1c32aac095942de90c57",
+   "source": "pexels",
+   "seed": 1489624428,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 29141950,
+   "pexels_author": "정규송 Nui MALAMA",
+   "category": "의료기기",
+   "visa": null,
+   "lang": "ko",
+   "slug": "china-b-mode-ultrasound-national-standard-2026",
+   "generated_at": "2026-09-23T08:37:41.367Z",
+   "version": "1.4"
   }
  }
 }
