@@ -136,8 +136,17 @@ function hash6(s: string): string {
 
 /**
  * 항목의 슬러그를 정한다.
- *   1) 이미 저장돼 있으면 그대로 — **불변**이 URL 안정성의 전부다.
- *   2) 수신 payload 의 slug(영문 kebab) → 3) doc_key 슬러그화(`EPING:119988` → `eping-119988`)
+ *
+ * **이미 기사가 발행된 항목의 슬러그는 불변이다** — `/news/<slug>` 가 세상에 나가
+ * 색인됐으므로 바뀌면 그동안 쌓인 순위가 사라진다.
+ *
+ * 반대로 기사가 아직 없는 항목의 슬러그는 **잠정값**이다. 요약만 게시된 동안
+ * 개별 페이지는 404 라서 밖에 나간 URL 이 없다. 그래서 요약 단계에서 doc_key 로
+ * 자동 생성해 둔 슬러그(`eping-119988`)는, 나중에 기사와 함께 제대로 된 영문
+ * 슬러그가 오면 그것으로 갈아탄다. 이 구분이 없으면 n8n 이 보내는 슬러그가
+ * 영원히 무시된다.
+ *
+ * 순서: 발행된 기존 슬러그 → 수신 slug → 기존 잠정 슬러그 → doc_key 슬러그화.
  * 다른 doc_key 가 이미 쓰는 슬러그면 doc_key 해시를 붙여 충돌을 끊는다.
  */
 export function resolveSlug(
@@ -146,8 +155,9 @@ export function resolveSlug(
   prev: NewsItem | null,
   taken: Map<string, string>
 ): string {
-  if (prev?.slug) return prev.slug
-  const base = slugify(incoming) || slugify(doc_key) || `news-${hash6(doc_key)}`
+  if (prev?.slug && hasArticle(prev.article)) return prev.slug
+  const base =
+    slugify(incoming) || prev?.slug || slugify(doc_key) || `news-${hash6(doc_key)}`
   const owner = taken.get(base)
   if (!owner || owner === doc_key) return base
   return `${base.slice(0, 72)}-${hash6(doc_key)}`
