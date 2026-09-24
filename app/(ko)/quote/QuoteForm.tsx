@@ -2,12 +2,13 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
-import { getServiceSelectOptions } from '@/lib/services-catalog'
+import { getServiceMenuSelectOptions } from '@/lib/services-menu'
 
 const STEPS = ['서비스 선택', '사업자 유형', '요청 내용', '연락처', '확인 및 제출']
 
-// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
-const serviceOptions = getServiceSelectOptions('ko')
+// 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
+// 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
+const serviceOptions = getServiceMenuSelectOptions('ko')
 
 const businessTypes = ['개인사업자', '법인사업자', '예비창업자', '기타']
 
