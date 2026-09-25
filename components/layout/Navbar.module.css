@@ -322,13 +322,27 @@
   top: 72px;
   background: var(--navy);
   transform: translateX(100%);
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  /* 닫힌 서랍은 display:none 이다. transform 만으로 화면 밖에 두면 링크가 탭 순서·
+     접근성 트리에 그대로 남고, 레이아웃 상자도 남아 390px 폭 검사에 DIV/NAV/A 58건이
+     전부 폭초과로 잡힌다(2026-09-26 실측. 가로 스크롤은 position:fixed 라 없었다).
+     visibility:hidden 은 상자를 남기므로 부족하다 — 실제로 58건 그대로였다.
+     display 를 allow-discrete 로 전환에 태우고 @starting-style 로 시작 상태를 줘서
+     슬라이드 애니메이션은 유지한다(미지원 브라우저는 애니메이션 없이 즉시 열림). */
+  display: none;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), display 0.4s allow-discrete;
   overflow-y: auto;
   z-index: 99;
 }
 
 .mobileMenu.mobileMenuOpen {
+  display: block;
   transform: translateX(0);
+}
+
+@starting-style {
+  .mobileMenu.mobileMenuOpen {
+    transform: translateX(100%);
+  }
 }
 
 .mobileNav {

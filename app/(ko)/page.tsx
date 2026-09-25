@@ -53,8 +53,12 @@ export default function HomePage() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroBg}>
+          {/* 어두운 오버레이(rgba(11,31,58,0.72))를 이미지에 미리 합성했다 — 보이는 결과는
+              같고 전송량만 95KB -> 39KB 다(LCP 임계경로). 그래서 heroOverlay div 는 없다.
+              .hero 의 background-color 가 같은 색이라 이미지가 못 와도 글자는 읽힌다.
+              en/ja/zh 는 그라데이션 오버레이라 합성 대상이 아니다(app/page.module.css). */}
           <FillImage
-            base="/images/hero-seoul-20260923"
+            base="/images/hero-seoul-ko-flat-20260926"
             small={768}
             large={1024}
             alt="서울 도심 전경"
@@ -62,7 +66,6 @@ export default function HomePage() {
             priority
             objectPosition="center"
           />
-          <div className={styles.heroOverlay} />
         </div>
 
         <div className={`container ${styles.heroContent}`}>
