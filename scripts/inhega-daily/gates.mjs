@@ -109,6 +109,13 @@ export function gateArticle(entry, ctx) {
   add('Q9 정부·법령 외부링크 2~3개', external >= 2 && external <= 3, `${external}개`)
   add('Q10 meta_title 30~60자', (entry.ko?.metaTitle || '').length >= 30 && (entry.ko?.metaTitle || '').length <= 60, `${(entry.ko?.metaTitle || '').length}자`)
   add('Q11 meta_description 80~155자', (entry.ko?.metaDescription || '').length >= 80 && (entry.ko?.metaDescription || '').length <= 155, `${(entry.ko?.metaDescription || '').length}자`)
+  // Q12: 빌드의 scripts/seo-gate.mjs 는 description 70~160자를 언어 구분 없이 강제하고
+  // 우회 플래그가 없다. 여기서 en/zh/ja 를 막지 않으면 원고는 PASS 를 찍고 그날 빌드가 죽는다
+  // (2026-09-25 building-usage-change-requirements 의 en 이 215자로 빌드를 실패시킨 실사고).
+  for (const loc of ['en', 'zh', 'ja']) {
+    const n = (entry[loc]?.metaDescription || '').length
+    add(`Q12 ${loc} meta_description 70~160자`, n >= 70 && n <= 160, `${n}자`)
+  }
 
   // ── B. 구조·디자인 금칙(제6장) ──────────────────────────────────────────────
   add('B1 CTA 블록 존재', /class="cta-box"|class="cta-block"/.test(entry.ko?.content || ''), 'ok')
