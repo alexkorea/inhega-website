@@ -123,12 +123,18 @@ export default function EnHomePage() {
                 className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
               >
                 <div className={styles.bentoImage}>
+                  {/* sizes 의 250px 은 레이아웃 폭 주장이 아니라 밀도 상한이다.
+                      카드는 412px 뷰포트에서 실측 372px 인데 100vw 로 적으면
+                      DPR 1.75 에서 800w(78KB)를 고른다 — Lighthouse
+                      uses-responsive-images 가 홈 4장에서 99KB 낭비로 잡았다.
+                      250px 이면 DPR<=2 는 500w(37KB), DPR 3 이상만 800w 를 받는다.
+                      카드 이미지는 어두운 오버레이 뒤 배경이라 화질 차이가 없다. */}
                   <FillImage
                     base={responsiveBase(svc.image)}
                     small={500}
                     large={800}
                     alt={svc.shortTitle}
-                    sizes="(max-width: 900px) 100vw, 33vw"
+                    sizes="(max-width: 900px) 250px, 33vw"
                   />
                   <div className={styles.bentoOverlay} />
                 </div>
