@@ -610,6 +610,24 @@ input, textarea, select {
 .svc-toc li { font-size: 0.9rem; margin-bottom: 0.35rem; }
 .svc-toc a { color: var(--navy); text-decoration: none; }
 .svc-toc a:hover { text-decoration: underline; }
+
+/* 본문 문맥 링크 — 전역 `a` 가 color:inherit·text-decoration:none 이라
+   본문(blog-content / svc-overview-content)에 심은 링크가 일반 글자와 구분되지
+   않았다(2026-09-27 맥7 링크 보강 지시 ②). p·li·td 안쪽만 잡으므로 CTA 버튼
+   (.cta-box > a, .cta-block > a)은 p 밖에 있어 걸리지 않는다. */
+.blog-content p a, .blog-content li a, .blog-content td a,
+.svc-overview-content p a, .svc-overview-content li a, .svc-overview-content td a {
+  color: var(--burgundy);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.blog-content p a:hover, .blog-content li a:hover, .blog-content td a:hover,
+.svc-overview-content p a:hover, .svc-overview-content li a:hover, .svc-overview-content td a:hover {
+  color: var(--navy);
+}
+/* 목차는 종전 모양 유지 — 위 li a 규칙(0,1,2)이 .svc-toc a(0,1,1)를 이기므로 되돌린다. */
+.svc-overview-content .svc-toc a { color: var(--navy); text-decoration: none; }
+.svc-overview-content .svc-toc a:hover { color: var(--navy); text-decoration: underline; }
 .svc-highlight { background: #fff8e1; border-left: 4px solid #f59e0b; border-radius: 4px; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.9rem; color: var(--charcoal); line-height: 1.7; }
 
 /* ===========================
