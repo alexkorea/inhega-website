@@ -625,6 +625,45 @@ input, textarea, select {
 .svc-overview-content p a:hover, .svc-overview-content li a:hover, .svc-overview-content td a:hover {
   color: var(--navy);
 }
+
+/* 블로그 본문 열의 그리드 블로아웃 방지.
+   .blog-grid 의 1fr 트랙은 min-width:auto 라 본문 중 min-content 가 넓은 요소
+   (표·긴 무공백 문자열)가 트랙을 통째로 밀어 문서 폭을 키운다 — 390px 에서
+   zh 글들이 docW 431~570 으로 넘쳤다(2026-09-27 실측). min-width:0 을 주면
+   트랙이 컨테이너에 맞춰지고, 표는 아래 overflow-x 규칙대로 안에서 가로 스크롤된다. */
+.blog-grid > article { min-width: 0; }
+.blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+/* "관련 전문 안내" 카드 — 다른 사무소 사이트로 보내는 링크에만, 해당 문맥 섹션 끝에
+   1페이지 1개(맥7 20260927-2000 추가지시). 이미지·스크립트가 없어 지연 로드가 없고
+   min-height 로 바닥을 고정하므로 레이아웃 시프트 기여가 0 이다. */
+.blog-content .xsite-card {
+  box-sizing: border-box;
+  min-height: 168px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--navy);
+  border-radius: 12px;
+  padding: 1.25rem 1.375rem;
+  margin: 2rem 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.blog-content .xsite-card p { margin: 0 0 0.5rem; }
+.blog-content .xsite-kicker { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; color: var(--burgundy); }
+.blog-content .xsite-title { font-size: 1rem; font-weight: 700; color: var(--navy); }
+.blog-content .xsite-desc { font-size: 0.875rem; color: var(--slate); line-height: 1.7; margin-bottom: 1rem; }
+.blog-content .xsite-card a.xsite-btn {
+  display: inline-block;
+  background: var(--navy);
+  color: var(--white);
+  padding: 0.625rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+.blog-content .xsite-card a.xsite-btn:hover { background: var(--burgundy); color: var(--white); }
 /* 목차는 종전 모양 유지 — 위 li a 규칙(0,1,2)이 .svc-toc a(0,1,1)를 이기므로 되돌린다. */
 .svc-overview-content .svc-toc a { color: var(--navy); text-decoration: none; }
 .svc-overview-content .svc-toc a:hover { color: var(--navy); text-decoration: underline; }
