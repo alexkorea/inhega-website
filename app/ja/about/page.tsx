@@ -2,7 +2,7 @@ import AboutPage from '@/components/layout/AboutPage'
 
 export const metadata = {
   title: '事務所案内 | YouSun Administrative Attorney',
-  description: 'YouSun Administrative Attorneyは50以上の業種、100件以上の許認可処理経験を持つ専門行政書士事務所です。',
+  description: 'YouSun Administrative Attorneyは専門行政書士事務所です。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/about',
     languages: {

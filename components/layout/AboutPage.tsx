@@ -32,11 +32,8 @@ const d: Record<Locale, LocaleData> = {
   ko: {
     badge: '회사소개',
     h1: ['인허가 전문,', '유선행정사사무소'],
-    heroBody: '유선행정사사무소는 50개 이상의 업종, 100건 이상의 인허가 처리 경험을 보유한 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 3인의 행정사와 4인의 실무 사무장들이 처음부터 끝까지 책임집니다.',
+    heroBody: '유선행정사사무소는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 3인의 행정사와 4인의 실무 사무장들이 처음부터 끝까지 책임집니다.',
     stats: [
-      { value: '100+', label: '성공적인 인허가 지원' },
-      { value: '50+', label: '다양한 업종 경험' },
-      { value: '98%', label: '고객 만족도' },
       { value: '24h', label: '평균 응답 시간' },
     ],
     greetingBadge: '대표 인사말',
@@ -72,11 +69,8 @@ const d: Record<Locale, LocaleData> = {
   en: {
     badge: 'About',
     h1: ['Visa & Licensing Specialists,', 'YouSun Administrative Attorney'],
-    heroBody: 'YouSun Administrative Attorney holds expertise across 50+ industries and 100+ completed licensing cases. Chief Admin Agent Jung Yu-sun leads a team of 3 licensed agents and 4 office managers who handle every case from start to finish.',
+    heroBody: 'Chief Admin Agent Jung Yu-sun leads a team of 3 licensed agents and 4 office managers who handle every case from start to finish.',
     stats: [
-      { value: '100+', label: 'Successful Cases' },
-      { value: '50+', label: 'Industries' },
-      { value: '98%', label: 'Client Satisfaction' },
       { value: '24h', label: 'Avg Response Time' },
     ],
     greetingBadge: "Director's Message",
@@ -112,11 +106,8 @@ const d: Record<Locale, LocaleData> = {
   zh: {
     badge: '公司介绍',
     h1: ['许可证专业，', 'YouSun Administrative Attorney'],
-    heroBody: 'YouSun Administrative Attorney拥有50个以上业种、100件以上许可证处理经验。代表郑有善行政士及3名专业行政士与4名实务事务长，从始至终全程负责。',
+    heroBody: '代表郑有善行政士及3名专业行政士与4名实务事务长，从始至终全程负责。',
     stats: [
-      { value: '100+', label: '成功案例' },
-      { value: '50+', label: '业种经验' },
-      { value: '98%', label: '客户满意度' },
       { value: '24h', label: '平均响应时间' },
     ],
     greetingBadge: '代表致辞',
@@ -152,11 +143,8 @@ const d: Record<Locale, LocaleData> = {
   ja: {
     badge: '事務所案内',
     h1: ['許認可専門、', 'YouSun Administrative Attorney'],
-    heroBody: 'YouSun Administrative Attorneyは50以上の業種、100件以上の許認可処理経験を持つ専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
+    heroBody: 'YouSun Administrative Attorneyは専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
     stats: [
-      { value: '100+', label: '成功実績' },
-      { value: '50+', label: '業種対応' },
-      { value: '98%', label: '顧客満足度' },
       { value: '24h', label: '平均応答時間' },
     ],
     greetingBadge: '代表挨拶',

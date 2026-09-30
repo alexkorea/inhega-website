@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: '회사소개 | 유선행정사사무소',
-  description: '50개 이상 업종, 100건+ 인허가 처리 경험의 유선행정사사무소. 대표 정유선 행정사 및 전문 팀이 처음부터 끝까지 책임집니다.',
+  description: '유선행정사사무소. 대표 정유선 행정사 및 전문 팀이 처음부터 끝까지 책임집니다.',
   alternates: {
     canonical: 'https://inhega.co.kr/about',
     languages: {
@@ -16,7 +16,7 @@ export const metadata = {
   },
   openGraph: {
     title: '회사소개 | 유선행정사사무소',
-    description: '50개 이상 업종, 100건+ 인허가 처리 경험의 유선행정사사무소. 3인의 행정사가 처음부터 끝까지 책임집니다.',
+    description: '유선행정사사무소. 3인의 행정사가 처음부터 끝까지 책임집니다.',
     url: 'https://inhega.co.kr/about',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 팀' }],
     type: 'website',
@@ -60,7 +60,7 @@ export default function AboutPage() {
               </h1>
               <span className="accent-line fade-up delay-2" style={{ marginTop: '1.5rem', background: 'var(--burgundy)' }} />
               <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1.5rem' }}>
-                유선행정사사무소는 50개 이상의 업종, 100건 이상의 인허가 처리 경험을 보유한 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무 사무장들이 처음부터 끝까지 책임집니다.
+                유선행정사사무소는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무 사무장들이 처음부터 끝까지 책임집니다.
               </p>
             </div>
             <div className="fade-in delay-3" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
@@ -86,9 +86,6 @@ export default function AboutPage() {
         <div className="container">
           <div className="about-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
             {[
-              { value: '100+', label: '성공적인 인허가 지원' },
-              { value: '50+', label: '다양한 업종 경험' },
-              { value: '98%', label: '고객 만족도' },
               { value: '24h', label: '평균 응답 시간' },
             ].map((s) => (
               <div key={s.label} className="fade-up" style={{ textAlign: 'center' }}>

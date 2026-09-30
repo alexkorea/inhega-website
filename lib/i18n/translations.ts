@@ -40,9 +40,6 @@ export const translations = {
       ctaSecondary: 'Our Services',
     },
     stats: [
-      { value: '100+', label: 'Licenses Processed' },
-      { value: '50+', label: 'Industry Types' },
-      { value: '98%', label: 'Client Satisfaction' },
       { value: '24h', label: 'Avg. Response Time' },
     ],
     trust: [
@@ -156,9 +153,6 @@ export const translations = {
       ctaSecondary: '查看服务',
     },
     stats: [
-      { value: '100+', label: '成功许可案例' },
-      { value: '50+', label: '涉及行业类型' },
-      { value: '98%', label: '客户满意度' },
       { value: '24h', label: '平均响应时间' },
     ],
     trust: [
@@ -272,9 +266,6 @@ export const translations = {
       ctaSecondary: 'サービス一覧',
     },
     stats: [
-      { value: '100+', label: '許認可取得実績' },
-      { value: '50+', label: '対応業種数' },
-      { value: '98%', label: '顧客満足度' },
       { value: '24h', label: '平均対応時間' },
     ],
     trust: [

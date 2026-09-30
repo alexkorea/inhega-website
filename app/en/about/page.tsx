@@ -2,7 +2,7 @@ import AboutPage from '@/components/layout/AboutPage'
 
 export const metadata = {
   title: 'About Us | YouSun Administrative Attorney',
-  description: 'YouSun Administrative Attorney with 50+ industries and 100+ licensing cases handled. Chief Admin Agent Jung Yu-sun and our specialist team handle your case from start to finish.',
+  description: 'YouSun Administrative Attorney. Chief Admin Agent Jung Yu-sun and our specialist team handle your case from start to finish.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/about',
     languages: {

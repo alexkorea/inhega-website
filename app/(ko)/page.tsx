@@ -21,9 +21,6 @@ export const metadata = {
 }
 
 const stats = [
-  { value: '100+', label: '성공적인 인허가 지원' },
-  { value: '50+', label: '다양한 업종 경험' },
-  { value: '98%', label: '고객 만족도' },
   { value: '24h', label: '평균 응답 시간' },
 ]
 
@@ -76,7 +73,6 @@ export default function HomePage() {
               <em>전문가에게</em> 맡기세요
             </h1>
             <p className={`${styles.heroDesc} fade-up delay-2`}>
-              50개 이상 업종, 100건 이상의 인허가 처리 경험을 보유한<br />
               유선행정사사무소가 처음부터 끝까지 책임집니다.
             </p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>

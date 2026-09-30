@@ -2,7 +2,7 @@ import AboutPage from '@/components/layout/AboutPage'
 
 export const metadata = {
   title: '公司介绍 | YouSun Administrative Attorney',
-  description: 'YouSun Administrative Attorney拥有50个以上业种、100件以上许可证处理经验。代表郑有善行政士及专业团队全程负责。',
+  description: '代表郑有善行政士及专业团队全程负责。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh/about',
     languages: {
