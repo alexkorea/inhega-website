@@ -61,15 +61,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     (s) => !isDeployHold(s.href.replace(/^\/services\//, ''))
   )
 
-  // Extract FAQs from HTML for structured data
+  // Extract FAQs from HTML for structured data — JSON-LD 는 평문이라 엔티티(R&amp;D 등)를 푼다
+  const plain = (s: string) => s.replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&')
   const faqMatches = [...(post.content?.matchAll(/<p class="faq-q">Q\.\s*(.*?)<\/p>\s*<p class="faq-a">A\.\s*(.*?)<\/p>/gs) || [])]
   const faqJsonLd = faqMatches.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: faqMatches.map(m => ({
       '@type': 'Question',
-      name: m[1].replace(/<[^>]+>/g, ''),
-      acceptedAnswer: { '@type': 'Answer', text: m[2].replace(/<[^>]+>/g, '') },
+      name: plain(m[1]),
+      acceptedAnswer: { '@type': 'Answer', text: plain(m[2]) },
     })),
   } : null
 

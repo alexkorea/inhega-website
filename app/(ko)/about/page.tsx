@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
-  title: '회사소개 | 유선행정사사무소',
+  title: '회사소개 | 외국인 사업 인허가 행정사 — 유선행정사사무소',
   description: '유선행정사사무소. 대표 정유선 행정사 및 전문 팀이 처음부터 끝까지 책임집니다.',
   alternates: {
     canonical: 'https://inhega.co.kr/about',
@@ -15,13 +15,36 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: '회사소개 | 유선행정사사무소',
+    title: '회사소개 | 외국인 사업 인허가 행정사 — 유선행정사사무소',
     description: '유선행정사사무소. 3인의 행정사가 처음부터 끝까지 책임집니다.',
     url: 'https://inhega.co.kr/about',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 팀' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '회사소개 | 유선행정사사무소', images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: '회사소개 | 외국인 사업 인허가 행정사 — 유선행정사사무소', images: ['/images/hero-seoul.png'] },
+}
+
+const ABOUT_FAQ_LD = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "외국인도 사업 인허가를 받을 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "외국인도 적법한 체류 자격과 사업자등록을 완료하면 대부분의 인허가를 받을 수 있습니다. 다만 업종에 따라 외국인 제한이 있어 사전 확인이 필요합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "행정사 인허가 비용은 어떻게 안내하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "법정 수수료는 업종별 페이지에서, 대행 보수는 업종 복잡도와 서류 범위에 따라 달라 상담 후 안내합니다."
+      }
+    }
+  ]
 }
 
 const team = [
@@ -56,11 +79,11 @@ export default function AboutPage() {
             <div>
               <span className="badge badge-white text-label fade-up">회사소개</span>
               <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-                인허가 전문,<br />유선행정사사무소
+                외국인 사업 인허가 전문,<br />유선행정사사무소
               </h1>
               <span className="accent-line fade-up delay-2" style={{ marginTop: '1.5rem', background: 'var(--burgundy)' }} />
               <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1.5rem' }}>
-                유선행정사사무소는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무 사무장들이 처음부터 끝까지 책임집니다.
+                유선행정사사무소는 외국인 사업 인허가를 포함해 업종별 인허가를 처음부터 끝까지 맡는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무 사무장이 6대 핵심 분야(물류·유통, 금융·외환, 숙박·관광, 식품·위생, 기업인증, 공공조달)의 인허가를 지원합니다.
               </p>
             </div>
             <div className="fade-in delay-3" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
@@ -190,6 +213,19 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      {/* I5b 외국인 사업 인허가 — 문장은 기존 글·FAQ 인용 (2026-10-03) */}
+      <section className="section" style={{ background: 'var(--white)' }}>
+        <div className="container" style={{ maxWidth: '860px' }}>
+          <h2 className="text-h2">외국인 사업 인허가는 어떤 업종까지 대행하나요</h2>
+          <div className="about-i5b" dangerouslySetInnerHTML={{ __html: "<p>인허가 행정사는 행정사법에 따라 공인된 전문가로, 식품·건축·운수·의료·학원 등 다양한 업종의 허가·신고·등록을 대리합니다. 인허가는 업종마다 근거 법령이 다르고, 담당 기관도 식품위생과·건축과·환경부·소방서 등으로 분산되어 있어 초보자가 혼자 처리하기에는 복잡도가 높습니다. 전문 인허가 행정사는 해당 업종의 법령과 실무를 숙지하고 있어, 서류 준비부터 접수, 보완 대응까지 원스톱으로 처리합니다.</p>" }} />
+          <p style={{ marginTop: '1rem' }}>함께 보기: <a href="/services">업종별 인허가 서비스</a> · <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a></p>
+          <h2 className="text-h2" style={{ marginTop: '2.5rem' }}>자주 묻는 질문</h2>
+          <div className="faq-item" style={{ padding: '1rem 0', borderBottom: '1px solid var(--border)' }}><p className="faq-q"><strong>Q. 외국인도 사업 인허가를 받을 수 있나요?</strong></p><p className="faq-a">A. 외국인도 적법한 체류 자격과 사업자등록을 완료하면 대부분의 인허가를 받을 수 있습니다. 다만 업종에 따라 외국인 제한이 있어 사전 확인이 필요합니다.</p></div>
+          <div className="faq-item" style={{ padding: '1rem 0', borderBottom: '1px solid var(--border)' }}><p className="faq-q"><strong>Q. 행정사 인허가 비용은 어떻게 안내하나요?</strong></p><p className="faq-a">A. 법정 수수료는 업종별 페이지에서, 대행 보수는 업종 복잡도와 서류 범위에 따라 달라 상담 후 안내합니다.</p></div>
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ABOUT_FAQ_LD) }} />
+        </div>
+      </section>
+
 
       {/* Location */}
       <section className="section bg-navy">
