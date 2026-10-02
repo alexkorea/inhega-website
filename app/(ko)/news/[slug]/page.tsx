@@ -10,6 +10,7 @@
  * /news/ 하위까지 잡는다).
  */
 import type { Metadata } from 'next'
+import { publisherLogo } from '@/lib/org-jsonld'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { findNewsBySlug, hasArticle, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
@@ -118,7 +119,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
     '@type': 'Organization',
     name: ORG_NAME,
     url: SITE,
-    logo: { '@type': 'ImageObject', url: `${SITE}/images/hero-seoul.png` },
+    logo: publisherLogo,
   }
 
   const jsonLd: Record<string, unknown>[] = [

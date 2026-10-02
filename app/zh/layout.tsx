@@ -4,6 +4,7 @@ import NavbarLang from '@/components/layout/NavbarLang'
 import FooterLang from '@/components/layout/FooterLang'
 import ScrollAnimationInit from '@/components/ui/ScrollAnimationInit'
 import Webfonts from '@/components/ui/Webfonts'
+import { organizationJsonLd } from '@/lib/org-jsonld'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
@@ -38,27 +39,8 @@ export const metadata: Metadata = {
   },
 }
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'ProfessionalService',
-  name: 'YouSun Administrative Attorney',
-  alternateName: '유선행정사사무소',
-  url: 'https://inhega.co.kr/zh',
-  logo: 'https://inhega.co.kr/images/hero-seoul.png',
-  description: '专为外国企业和个人办理韩国政府营业许可证',
-  telephone: '02-363-2251',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '退溪路324, 3楼',
-    addressLocality: '中区',
-    addressRegion: '首尔特别市',
-    postalCode: '04614',
-    addressCountry: 'KR',
-  },
-  email: 'teamone1163@gmail.com',
-  openingHours: 'Mo-Fr 09:30-17:30',
-  sameAs: [],
-}
+// 조직 노드는 lib/org-jsonld.ts 단일 원천(ko/en/zh/ja 공통, 같은 @id).
+const jsonLd = organizationJsonLd
 
 export default function ZhLayout({ children }: { children: React.ReactNode }) {
   return (

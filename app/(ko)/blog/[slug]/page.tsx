@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
+import { publisherLogo } from '@/lib/org-jsonld'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -83,7 +84,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     datePublished: post.created_at,
     image: [`https://inhega.co.kr${ogThumb('ko', post.slug || post.id)}`],
     author: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr' },
-    publisher: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr', logo: { '@type': 'ImageObject', url: 'https://inhega.co.kr/images/hero-seoul.png' } },
+    publisher: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr', logo: publisherLogo },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/blog/${post.slug || post.id}` },
   }
 
