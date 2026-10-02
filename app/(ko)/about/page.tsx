@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { EmailOff } from '@/components/ui/EmailOff'
 
 export const metadata = {
   title: '회사소개 | 외국인 사업 인허가 행정사 — 유선행정사사무소',
@@ -243,7 +244,7 @@ export default function AboutPage() {
                 ].map((c) => (
                   <div key={c.label} style={{ display: 'flex', gap: '1rem' }}>
                     <span style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.08em', color: 'rgba(255,255,255,0.4)', minWidth: '60px', paddingTop: '2px', textTransform: 'uppercase' }}>{c.label}</span>
-                    <span style={{ fontSize: '0.9375rem', color: 'rgba(255,255,255,0.75)' }}>{c.value}</span>
+                    <span style={{ fontSize: '0.9375rem', color: 'rgba(255,255,255,0.75)' }}><EmailOff>{c.value}</EmailOff></span>
                   </div>
                 ))}
                 <div style={{ display: 'flex', gap: '1rem' }}>

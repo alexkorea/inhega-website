@@ -1,3 +1,5 @@
+import { EmailOff } from '@/components/ui/EmailOff'
+
 export const metadata = {
   title: '개인정보처리방침 | 유선행정사사무소',
   alternates: {
@@ -50,7 +52,7 @@ export default function PrivacyPage() {
                   {section.title}
                 </h2>
                 <p style={{ fontSize: '0.9375rem', lineHeight: 1.9, whiteSpace: 'pre-line', color: 'var(--slate)' }}>
-                  {section.content}
+                  <EmailOff>{section.content}</EmailOff>
                 </p>
               </div>
             ))}
