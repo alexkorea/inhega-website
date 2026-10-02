@@ -1,3 +1,4 @@
 date,topic,angle,slug,locales,gate_checks,gate_pass,ko_title
 2026-09-22,license-scrivener,checklist,administrative-scrivener-scope-and-limits,ko|en|zh|ja,41,PASS,"인허가 행정사 업무범위와 위임 한계 — 행정사법 기준 확인 항목"
 2026-09-25,building-usage,requirements,building-usage-change-requirements,ko|en|zh|ja,44,PASS,"건축물 용도변경 요건 — 시설군 상하위 판정과 변경 후 용도의 건축기준"
+2026-10-02,hostel,penalties,hostel-violation-penalties,ko|en|zh|ja,44,PASS,"호스텔업 위반 시 제재 — 등록취소·사업정지·과징금 기준과 무등록 영업의 처벌"
