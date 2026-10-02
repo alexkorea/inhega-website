@@ -1,0 +1,121 @@
+{
+  "slug": "kc-radio-certification",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "KC Certification & Radio Equipment Certification in Korea: Requirements, Documents, Fees | YouSun Administrative Attorney",
+  "h1": "KC Certification and Radio Equipment (EMC/Radio) Certification in Korea",
+  "lead": "Manufacturers and importers of electrical and household products in Korea must go through safety certification, safety confirmation filing or supplier's conformity confirmation, depending on the product category, and broadcasting/communications equipment must undergo conformity assessment under the Radio Waves Act — certification, registration, self-conformity confirmation or provisional certification. The processing period for a safety certification application is within 45 days of receipt. (Law status as of 2026-10-02, per law.go.kr.)",
+  "summaryLabel": "Summary",
+  "summary": [
+    "KC safety: safety certification (product test + factory audit), safety confirmation (test by a testing body, then filing), supplier's conformity confirmation (self-confirmation, then filing).",
+    "Radio: one of conformity certification, registration, self-conformity confirmation or provisional certification.",
+    "Timing: safety certification and safety confirmation filing are made per model before shipment or customs clearance.",
+    "Statutory fee examples: safety certificate issuance KRW 50,000; conformity certification KRW 165,000 / registration KRW 55,000.",
+    "Making/importing/selling without certification: up to 3 years' imprisonment or a fine of up to KRW 30 million."
+  ],
+  "sections": [
+    {
+      "h2": "What are KC certification and radio certification?",
+      "body": "KC safety certification comes from the Electrical Appliances and Consumer Products Safety Control Act: electrical products are those connected to AC or DC power, and depending on the product they fall under safety certification, safety confirmation filing or supplier's conformity confirmation. Safety certification proves safety through product tests and a factory audit, safety confirmation means receiving a test from a safety confirmation testing body and confirming conformity with the standards, and supplier's conformity confirmation means confirming it yourself by your own test or a third party's test. Radio certification is conformity assessment of broadcasting and communications equipment under the Radio Waves Act: anyone making, selling or importing such equipment must obtain certification, registration, self-conformity confirmation or provisional certification."
+    },
+    {
+      "h2": "What are the requirements?",
+      "body": "(1) Safety-certification products: the manufacturer (including foreign manufacturers) or importer must obtain safety certification from a certification body per model.\n\n(2) Safety-confirmation products: receive a safety confirmation test per model, confirm conformity with the safety standards, then file with the Minister.\n\n(3) Supplier's conformity products: confirm yourself by your own or a third party's test and, for electrical products, file the result.\n\n(4) Radio conformity assessment: equipment that may harm the radio environment needs certification by the Minister after testing by a designated testing body; other equipment is registered after testing; low-risk equipment may be self-confirmed by your own test or testing by a body. Those who register or self-confirm must keep supporting documents.\n\n(5) Exemptions: equipment with limited use such as testing, research, technology development or exhibition, and products made only for export and not sold in Korea may be exempted."
+    },
+    {
+      "h2": "Which documents are needed?",
+      "body": "The safety certification application (Form 4) with: (1) a copy of the business registration or equivalent, (2) proof of agency if applying through an agent, (3) a product description, (4) circuit diagrams and a parts list (electrical products), and (5) a sample of the certification mark; samples for testing are also submitted. A foreign manufacturer may appoint a person residing in Korea as its agent to apply.\n\nA safety confirmation filing is made with the filing form and attachments, including the test result issued by the safety confirmation testing body.\n\nFor radio conformity certification, submit the application with documents notified by the Minister such as a component layout and external drawings."
+    },
+    {
+      "h2": "What is the procedure?",
+      "body": "[Safety] Before shipment or customs clearance, submit the application and documents per model to the certification body, submit samples → product test and factory audit → notification of the result. For safety confirmation, file before shipment or customs clearance including the test result.\n\n[Radio] Test by a designated testing body → submit the application → certificate issued and announced in the Official Gazette. After certification, mark the equipment or packaging with the conformity assessment mark, and report changes to certified details."
+    },
+    {
+      "h2": "How long does it take?",
+      "body": "For safety certification, the body must notify the result within 45 days of receiving the application, extended by the excess if the test period exceeds 30 days owing to the product's nature. A statutory processing period for radio conformity assessment was not confirmed in this review, so none is given."
+    },
+    {
+      "h2": "Which authority receives the application?",
+      "body": "Safety certification goes to the safety certification body, and the safety confirmation filing form is also submitted to the certification body under the Rule; radio certification is applied for to the Minister of Science and ICT. Tests are carried out by safety confirmation testing bodies or designated testing bodies."
+    },
+    {
+      "h2": "What are the statutory fees?",
+      "body": "Safety certificate issuance is KRW 50,000, factory audit is based on KRW 200,000 per factory, a safety confirmation certificate is KRW 50,000, supplier's conformity filing is KRW 10,000 per model, and a revised issuance is KRW 10,000 per case. The product test fee is an amount calculated by the body from base fee, labor, materials, etc. Small businesses and SMEs may be given reductions. The basis is Article 43 of the Act.\n\nRadio conformity assessment application fees are KRW 165,000 for certification, KRW 55,000 for registration and KRW 165,000 for provisional certification; changes unrelated to the assessment standards cost KRW 5,000 (certification) or KRW 2,000 (registration). The basis is Article 69 of the Radio Waves Act. (Product Safety Act Enforcement Decree effective 2026-02-01; Radio Waves Act Enforcement Decree effective 2025-10-01. Private service fees are not statutory fees and are excluded.)"
+    },
+    {
+      "h2": "Why is an application rejected or supplementation requested?",
+      "body": "Matters confirmed in the law: missing application documents (business registration, product description, circuit diagram/parts list, mark sample, test samples), a missing test result in a safety confirmation filing, and missing or false conformity marks and unkept supporting documents can lead to cancellation of the assessment. Manufacturing or importing safety-certification products without certification can lead to up to 3 years' imprisonment or a fine of up to KRW 30 million, manufacturing or importing safety-confirmation products without a filing is punishable under the same Article, and selling equipment without conformity assessment, or making/importing it for sale, carries the same level of penalty."
+    },
+    {
+      "h2": "What can an administrative attorney help with?",
+      "body": "YouSun Administrative Attorney prepares and submits application or report documents on your authorization. Work restricted by other laws cannot be handled, and litigation or court representation is lawyer work and is not offered. Approval, registration or acceptance, and the outcome, are decided by the competent authority."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "Is KC certification required for every product?",
+      "a": "The procedure depends on the product category (safety certification, safety confirmation or supplier's conformity confirmation), and coverage for each product is set by notices, so it must be checked individually."
+    },
+    {
+      "q": "Can an overseas manufacturer apply directly?",
+      "a": "Foreign manufacturers are covered by safety certification and may appoint a person residing in Korea as agent to apply."
+    },
+    {
+      "q": "When must I apply for KC safety certification?",
+      "a": "Before shipment or customs clearance, per model."
+    },
+    {
+      "q": "What types of radio certification are there?",
+      "a": "Certification, registration, self-conformity confirmation and provisional certification. Which applies depends on the risk: certification, registration or self-conformity confirmation."
+    },
+    {
+      "q": "Do research, exhibition or export-only products need certification?",
+      "a": "Equipment with limited use such as testing, research, development or exhibition, and export-only products may be exempted from conformity assessment."
+    },
+    {
+      "q": "What must I do after certification?",
+      "a": "Put the conformity assessment mark on the equipment or packaging, keep supporting documents for registration or self-confirmation, and report changes."
+    },
+    {
+      "q": "Who decides whether an application is approved?",
+      "a": "The competent authority decides. The administrative attorney supports document preparation and submission for applications or reports."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Definition: safety certification proves a product's safety through a product test and a factory audit",
+      "source": "전기용품 및 생활용품 안전관리법 제2조 (law as of 2026-10-02, law.go.kr (Korean original))"
+    },
+    {
+      "text": "Processing: the body shall notify the result within 45 days of receiving the application",
+      "source": "전기용품 및 생활용품 안전관리법 시행규칙 제8조 (law as of 2026-10-02, law.go.kr (Korean original))"
+    },
+    {
+      "text": "Conformity assessment: anyone making, selling or importing broadcasting and communications equipment must obtain certification, registration, self-conformity confirmation or provisional certification",
+      "source": "전파법 제58조의2 (law as of 2026-10-02, law.go.kr (Korean original))"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [
+    {
+      "text": "Medical device import service",
+      "url": "/en/services/medical-device"
+    },
+    {
+      "text": "E-cigarette import service",
+      "url": "/en/services/ecig"
+    },
+    {
+      "text": "Location-based service registration",
+      "url": "/en/services/location-based-service"
+    },
+    {
+      "text": "All services",
+      "url": "/en/services"
+    }
+  ],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Attorney (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}

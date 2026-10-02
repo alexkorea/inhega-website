@@ -3,6 +3,7 @@ import { blogPosts } from '@/lib/blog-posts-data'
 import { getAllTranslatedSlugs } from '@/lib/i18n/blog-i18n'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 import { getServiceSlugs } from '@/lib/services-catalog'
+import { getIndustrySlugs } from '@/lib/industry-pages'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
 // 배포 보류분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
@@ -32,6 +33,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
+
+  // I2 신규 업종 페이지(lib/industry-pages.ts) — 원고가 있는 언어만. ko 20 + en/zh/ja 각 10.
+  const industryPages = (['ko', 'en', 'zh', 'ja'] as const).flatMap((l) =>
+    getIndustrySlugs(l).map((slug) => ({
+      url: `${base}${l === 'ko' ? '' : `/${l}`}/services/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: l === 'ko' ? 0.8 : 0.7,
+    }))
+  )
 
   // Slugs that 301 elsewhere must not be submitted — GSC flags them as "Page with redirect".
   const indexablePosts = blogPosts.filter((post) => !REDIRECTED_BLOG_SLUGS.has(post.slug))
@@ -91,5 +102,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  return [...staticPages, ...servicePages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
+  return [...staticPages, ...servicePages, ...industryPages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
 }

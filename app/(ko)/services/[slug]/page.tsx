@@ -4,14 +4,22 @@ import { notFound } from 'next/navigation'
 import { services, getServiceBySlug, isDeployHold, stripHeldLinks } from '@/lib/services-data'
 import { hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
+import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
+import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from './page.module.css'
 
 export async function generateStaticParams() {
-  return services.map((s) => ({ slug: s.slug }))
+  return [
+    ...services.map((s) => ({ slug: s.slug })),
+    // I2 신규 업종 페이지 — lib/industry-pages.ts
+    ...getIndustrySlugs('ko').map((slug) => ({ slug })),
+  ]
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
+  const industry = getIndustryPage('ko', slug)
+  if (industry) return industryMetadata(industry)
   const svc = getServiceBySlug(slug)
   if (!svc) return {}
   return {
@@ -47,6 +55,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
+  const industry = getIndustryPage('ko', slug)
+  if (industry) return <IndustryServicePage page={industry} />
   const svc = getServiceBySlug(slug)
   if (!svc) notFound()
 
@@ -176,6 +186,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 </div>
               </section>
               )}
+              <IndustryBacklinks pages={getIndustryBacklinks('ko', `/services/${slug}`)} heading={BACKLINK_HEADING.ko} />
             </div>
 
             {/* Sidebar */}

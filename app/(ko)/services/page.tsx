@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { getServiceCatalog } from '@/lib/services-catalog'
 import styles from './page.module.css'
 import gridStyles from '@/app/services-list.module.css'
+import { getIndustryPages } from '@/lib/industry-pages'
+import { IndustryList } from '@/components/industry/IndustryServicePage'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
 const services = getServiceCatalog('ko')
@@ -99,6 +101,9 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* I2 신규 업종 페이지 — lib/industry-pages.ts */}
+      <IndustryList pages={getIndustryPages('ko')} />
 
       {/* CTA */}
       <section style={{ background: 'var(--burgundy)', padding: '5rem 0' }}>

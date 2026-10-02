@@ -4,15 +4,23 @@ import { notFound } from 'next/navigation'
 import { services, isDeployHold } from '@/lib/services-data'
 import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
+import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
+import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from '@/app/services-slug.module.css'
 
 export async function generateStaticParams() {
   // 번역본이 없는 KO 전용 서비스는 이 로케일에 페이지가 없다 — 프리렌더 대상에서 제외한다.
-  return services.filter((s) => hasServiceI18n(s.slug)).map((s) => ({ slug: s.slug }))
+  return [
+    ...services.filter((s) => hasServiceI18n(s.slug)).map((s) => ({ slug: s.slug })),
+    // I2 신규 업종 페이지 — 원고가 있는 언어만(lib/industry-pages.ts)
+    ...getIndustrySlugs('zh').map((slug) => ({ slug })),
+  ]
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
+  const industry = getIndustryPage('zh', slug)
+  if (industry) return industryMetadata(industry)
   const svc = getServiceI18n('zh', slug)
   if (!svc) return {}
   return {
@@ -41,6 +49,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ZhServicePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
+  const industry = getIndustryPage('zh', slug)
+  if (industry) return <IndustryServicePage page={industry} />
   const svcKo = services.find((s) => s.slug === slug)
   if (!svcKo) notFound()
   const svc = getServiceI18n('zh', slug)
@@ -130,6 +140,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                     </div>
                   </section>
                 )}
+                <IndustryBacklinks pages={getIndustryBacklinks('zh', `/zh/services/${slug}`)} heading={BACKLINK_HEADING.zh} />
               </div>
 
               <aside style={{ position: 'sticky', top: '6rem' }}>
