@@ -7,7 +7,36 @@ import QRSection from '@/components/layout/QRSection'
 
 // `alternates` replaces the layout's whole object, so `languages` must be repeated here
 // or the KO home ships without any hreflang.
+// I5(2026-10-03) — 홈 title·description. 레이아웃 기본값을 홈에서만 덮는다.
+const HOME_TITLE = '외국인 사업 인허가 행정사 — 인허가 절차·서류 | 유선행정사사무소'
+const HOME_DESC = '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 전자담배수입허가, 비영리사단법인, 지정스포츠클럽, 호스텔업 등 외국인 사업 인허가·등록·신고를 행정사가 업종별 절차와 서류 기준으로 안내하고 접수까지 전담합니다. 한·영·중·일 상담이 가능합니다.'
+
+// 홈 FAQ — 화면 FAQ 와 FAQPage JSON-LD 는 이 배열 하나에서 나온다(레이아웃 전역 FAQ 는 제거됨).
+const homeFaqs = [
+  { q: '사업자등록 전에 인허가를 먼저 받아야 하나요?', a: '업종에 따라 인허가·등록·신고 시점이 달라 사업자등록과의 선후가 다릅니다. 업종별 서비스 페이지의 등록 절차를 확인한 뒤 순서를 정합니다.' },
+  { q: '영업 양도양수나 영업자 지위승계도 행정사가 신고하나요?', a: '업종마다 지위승계 신고 절차가 있으며 서류 작성과 접수는 대행할 수 있습니다. 승계 기한과 서류는 업종 법령에 따라 달라 해당 서비스 페이지에서 확인합니다.' },
+  { q: '행정사에게 인허가를 맡기면 어디까지 해 주나요?', a: '업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 변호사 업무입니다. 업종별 요건 검토와 서류 작성, 관청 접수와 보완 요청 대응을 맡습니다.' },
+]
+
+const homeFaqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: homeFaqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+}
+
 export const metadata = {
+  title: HOME_TITLE,
+  description: HOME_DESC,
+  openGraph: {
+    title: HOME_TITLE,
+    description: HOME_DESC,
+    url: 'https://inhega.co.kr',
+    siteName: '유선행정사사무소',
+    locale: 'ko_KR',
+    type: 'website',
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '인허가 행정사 유선행정사사무소' }],
+  },
+  twitter: { card: 'summary_large_image', title: HOME_TITLE, description: HOME_DESC, images: ['/images/hero-seoul.png'] },
   alternates: {
     canonical: 'https://inhega.co.kr',
     languages: {
@@ -47,6 +76,7 @@ const featuredServices = getServiceCatalog('ko')
 export default function HomePage() {
   return (
     <div className={styles.page}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqJsonLd) }} />
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroBg}>
@@ -71,9 +101,11 @@ export default function HomePage() {
             <h1 className={`${styles.heroTitle} fade-up delay-1`}>
               복잡한 인허가,<br />
               <em>전문가에게</em> 맡기세요
+              <span style={{ display: 'block', fontSize: '0.42em', fontWeight: 600, marginTop: '0.75rem', opacity: 0.85 }}>{' — '}외국인 사업 인허가 행정사</span>
             </h1>
+            {/* I5: 첫 문단 = meta description (같은 문장) */}
             <p className={`${styles.heroDesc} fade-up delay-2`}>
-              유선행정사사무소가 처음부터 끝까지 책임집니다.
+              {HOME_DESC}
             </p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>
               <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">
@@ -210,6 +242,19 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* I5 신설 — 기존 홈·FAQ 문장 인용 */}
+      <section className={`section bg-cream`}>
+        <div className="container">
+          <div style={{ maxWidth: '760px' }}>
+            <h2 className={`text-h2 fade-up`}>인허가가 필요한 업종과 사업자등록 전 인허가, 영업자 지위승계·양도양수</h2>
+            <span className="accent-line" style={{ marginTop: '1rem' }} />
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업종에 따라 인허가·등록·신고 시점이 달라 사업자등록과의 선후가 다릅니다. 업종별 서비스 페이지의 등록 절차를 확인한 뒤 순서를 정합니다.</p>
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업종마다 지위승계 신고 절차가 있으며 서류 작성과 접수는 대행할 수 있습니다. 승계 기한과 서류는 업종 법령에 따라 달라 해당 서비스 페이지에서 확인합니다.</p>
+          </div>
+        </div>
+      </section>
+
       {/* PROCESS */}
       <section className={`section bg-navy`}>
         <div className="container">
@@ -230,6 +275,20 @@ export default function HomePage() {
                 {i < process.length - 1 && <div className={styles.processArrow} />}
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* I5 신설 — 기존 홈·FAQ 문장 인용 */}
+      <section className={`section bg-cream`}>
+        <div className="container">
+          <div style={{ maxWidth: '760px' }}>
+            <h2 className={`text-h2 fade-up`}>보완 요청 대응과 업종 추가 인허가</h2>
+            <span className="accent-line" style={{ marginTop: '1rem' }} />
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다. 보완 요청·추가 서류 등 심사 과정의 모든 대응을 행정사가 처리합니다.</p>
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 변호사 업무입니다.</p>
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>24종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.</p>
           </div>
         </div>
       </section>
@@ -268,6 +327,24 @@ export default function HomePage() {
             <div className={`fade-up delay-4`} style={{ marginTop: '2rem' }}>
               <Link prefetch={false} href="/about" className="btn btn-primary">회사 소개 보기</Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* FAQ — homeFaqs 하나로 화면과 JSON-LD 를 같이 만든다 */}
+      <section className={`section bg-cream`}>
+        <div className="container" style={{ maxWidth: '880px' }}>
+          <span className="badge badge-navy text-label">자주 묻는 질문</span>
+          <h2 className={`text-h2`} style={{ marginTop: '0.75rem' }}>FAQ</h2>
+          <span className="accent-line" style={{ marginTop: '0.75rem' }} />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem' }}>
+            {homeFaqs.map((f) => (
+              <div key={f.q} style={{ background: 'var(--white)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
+                <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.625rem' }}>Q. {f.q}</p>
+                <p style={{ fontSize: '0.9rem', color: 'var(--slate)', lineHeight: 1.7 }}>A. {f.a}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

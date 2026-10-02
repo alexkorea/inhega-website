@@ -39,6 +39,8 @@ export const metadata: Metadata = {
   },
 }
 
+// FAQPage 는 여기 두지 않는다 — 레이아웃에 두면 모든 ko 페이지에 화면에 없는 5문항이 실려
+// 페이지별 FAQ 와 불일치했다(2026-10-03, 맥3 I5 발견). FAQPage 는 화면 FAQ 를 그리는 페이지가 같은 배열로 낸다.
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -76,53 +78,7 @@ const jsonLd = [
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '호스텔업 등록' } },
       ],
     },
-  },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: '위치기반서비스사업 신고는 어떻게 하나요?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: '위치기반서비스사업은 방송통신위원회에 신고해야 합니다. 사업계획서, 개인정보 처리방침, 보안설비 등을 준비해야 하며, 유선행정사사무소가 전 과정을 대행합니다.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: '국제물류주선업 등록 요건은 무엇인가요?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: '국제물류주선업 등록은 국토교통부에 신고하며, 자본금 3억 원 이상, 사무실, 화물운송주선업 보험가입이 필요합니다.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: '건축물 용도변경 허가 절차는 어떻게 되나요?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: '건축물 용도변경은 상위 시설군으로의 변경 시 허가, 하위 시설군으로의 변경 시 신고가 필요합니다. 관할 구청에 신청하며 설계도서가 필요합니다.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: '기업부설연구소 인정은 어디서 받나요?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: '기업부설연구소는 한국산업기술진흥협회(KOITA)에 신청하며, 전담 연구원 2인 이상, 전용 연구 공간, 연구장비 등의 요건을 충족해야 합니다.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: '전자담배 수입허가는 어떤 절차가 필요한가요?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: '전자담배(액상형·궐련형) 수입은 기획재정부 지정 수입담배 허가와 식약처 안전성 심사가 필요합니다. 서류 준비부터 허가까지 유선행정사사무소가 대행합니다.',
-        },
-      },
-    ],
-  },
+  }
 ]
 
 export default function KoLayout({ children }: { children: React.ReactNode }) {

@@ -6,7 +6,11 @@ import { hasServiceI18n } from '@/lib/i18n/services-i18n'
 import type { Metadata } from 'next'
 import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
+import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
+
+const plainText = (h: string) =>
+  h.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
 
 export async function generateStaticParams() {
   return [
@@ -22,8 +26,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (industry) return industryMetadata(industry)
   const svc = getServiceBySlug(slug)
   if (!svc) return {}
+  const pageTitle = svc.seoTitle ?? `${svc.title} | 유선행정사사무소`
   return {
-    title: `${svc.title} | 유선행정사사무소`,
+    title: pageTitle,
     description: svc.description,
     // 보스 확정 대기 페이지 — 라우트는 살려 두되 색인은 막는다 (2026-09-17).
     ...(isDeployHold(slug) ? { robots: { index: false, follow: false } } : {}),
@@ -45,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
           },
     },
     openGraph: {
-      title: `${svc.title} | 유선행정사사무소`,
+      title: pageTitle,
       description: svc.description,
       url: `https://inhega.co.kr/services/${slug}`,
       images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
@@ -63,10 +68,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const faqJsonLd = svc.faqs.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    // 답변 원문에 <strong> 등 강조 태그가 있다 — JSON-LD 에는 화면에 보이는 글자만 싣는다.
     mainEntity: svc.faqs.map((f) => ({
       '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
+      name: plainText(f.q),
+      acceptedAnswer: { '@type': 'Answer', text: plainText(f.a) },
     })),
   } : null
 
@@ -179,14 +185,32 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                       background: 'var(--white)', borderRadius: '12px', padding: '1.5rem',
                       border: '1px solid var(--border)'
                     }}>
-                      <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.625rem' }}>Q. {faq.q}</p>
-                      <p style={{ fontSize: '0.9rem', color: 'var(--slate)', lineHeight: 1.7 }}>A. {faq.a}</p>
+                      {/* 답변의 강조 태그를 글자 그대로("<strong>") 보여주던 결함 — HTML 로 렌더한다 */}
+                      <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.625rem' }} dangerouslySetInnerHTML={{ __html: `Q. ${faq.q}` }} />
+                      <p style={{ fontSize: '0.9rem', color: 'var(--slate)', lineHeight: 1.7 }} dangerouslySetInnerHTML={{ __html: `A. ${faq.a}` }} />
                     </div>
                   ))}
                 </div>
               </section>
               )}
               <IndustryBacklinks pages={getIndustryBacklinks('ko', `/services/${slug}`)} heading={BACKLINK_HEADING.ko} />
+              {/* I4 3종 세트 — 허브 → 선택기준·문제해결 글 (lib/hub-guides.generated.ts) */}
+              {(HUB_GUIDES[`/services/${slug}`] ?? []).length > 0 && (
+                <section className="fade-up" id="svc-guides" style={{ marginTop: '4rem' }}>
+                  <div style={{ marginBottom: '1.5rem' }}>
+                    <span className="badge badge-navy text-label">실무 가이드</span>
+                    <h2 className="text-h2" style={{ marginTop: '0.75rem', color: 'var(--charcoal)' }}>대행 선택 기준과 문제 해결 가이드</h2>
+                    <span className="accent-line" style={{ marginTop: '0.75rem' }} />
+                  </div>
+                  <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                    {HUB_GUIDES[`/services/${slug}`].map((g) => (
+                      <li key={g.href} style={{ background: 'var(--white)', borderRadius: '12px', padding: '1rem 1.25rem', border: '1px solid var(--border)' }}>
+                        <Link href={g.href} style={{ color: 'var(--navy)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px' }}>{g.title}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
             </div>
 
             {/* Sidebar */}
