@@ -51,6 +51,28 @@ import p46 from '@/content/industry-pages/pharmaceutical-wholesale-license.ko.js
 import p47 from '@/content/industry-pages/car-dealer-rental-business-registration.ko.json'
 import p48 from '@/content/industry-pages/long-term-care-institution-designation.ko.json'
 import p49 from '@/content/industry-pages/development-act-farmland-conversion-permit.ko.json'
+import p50 from '@/content/industry-pages/sports-facility-business-report.ko.json'
+import p51 from '@/content/industry-pages/cooperative-establishment-report.ko.json'
+import p52 from '@/content/industry-pages/entertainment-bar-business-permit.ko.json'
+import p53 from '@/content/industry-pages/campground-business-registration.ko.json'
+import p54 from '@/content/industry-pages/solar-power-business-permit.ko.json'
+import p55 from '@/content/industry-pages/marriage-brokerage-business-registration.ko.json'
+import p56 from '@/content/industry-pages/money-lending-business-registration.ko.json'
+import p57 from '@/content/industry-pages/entertainment-agency-business-registration.ko.json'
+import p58 from '@/content/industry-pages/disinfection-business-report.ko.json'
+import p59 from '@/content/industry-pages/drone-business-registration.ko.json'
+import p60 from '@/content/industry-pages/software-business-performance-management.ko.json'
+import p61 from '@/content/industry-pages/residential-lodging-business-report.ko.json'
+import p62 from '@/content/industry-pages/rural-minbak-business-report.ko.json'
+import p63 from '@/content/industry-pages/foundation-establishment-permit.ko.json'
+import p64 from '@/content/industry-pages/overseas-remittance-business-registration.ko.json'
+import p65 from '@/content/industry-pages/overseas-remittance-business-registration.en.json'
+import p66 from '@/content/industry-pages/overseas-remittance-business-registration.zh.json'
+import p67 from '@/content/industry-pages/overseas-remittance-business-registration.ja.json'
+import p68 from '@/content/industry-pages/mainbiz-management-innovation-sme.ko.json'
+import p69 from '@/content/industry-pages/mainbiz-management-innovation-sme.en.json'
+import p70 from '@/content/industry-pages/mainbiz-management-innovation-sme.zh.json'
+import p71 from '@/content/industry-pages/mainbiz-management-innovation-sme.ja.json'
 
 export const INDUSTRY_PAGES: IndustryPage[] = [
   p0 as IndustryPage,
@@ -103,4 +125,26 @@ export const INDUSTRY_PAGES: IndustryPage[] = [
   p47 as IndustryPage,
   p48 as IndustryPage,
   p49 as IndustryPage,
+  p50 as IndustryPage,
+  p51 as IndustryPage,
+  p52 as IndustryPage,
+  p53 as IndustryPage,
+  p54 as IndustryPage,
+  p55 as IndustryPage,
+  p56 as IndustryPage,
+  p57 as IndustryPage,
+  p58 as IndustryPage,
+  p59 as IndustryPage,
+  p60 as IndustryPage,
+  p61 as IndustryPage,
+  p62 as IndustryPage,
+  p63 as IndustryPage,
+  p64 as IndustryPage,
+  p65 as IndustryPage,
+  p66 as IndustryPage,
+  p67 as IndustryPage,
+  p68 as IndustryPage,
+  p69 as IndustryPage,
+  p70 as IndustryPage,
+  p71 as IndustryPage,
 ]

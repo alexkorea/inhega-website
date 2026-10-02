@@ -51,6 +51,23 @@ const HERO_IMAGE: Record<string, string> = {
   'car-dealer-rental-business-registration': '/images/service-logistics.webp',
   'long-term-care-institution-designation': '/images/service-legal.webp',
   'development-act-farmland-conversion-permit': '/images/service-renovation.webp',
+  // 배치3 (I2c)
+  'sports-facility-business-report': '/images/service-baseball.webp',
+  'cooperative-establishment-report': '/images/service-legal.webp',
+  'entertainment-bar-business-permit': '/images/service-food.webp',
+  'campground-business-registration': '/images/service-guesthouse.webp',
+  'solar-power-business-permit': '/images/service-renovation.webp',
+  'marriage-brokerage-business-registration': '/images/service-legal.webp',
+  'money-lending-business-registration': '/images/service-currency.webp',
+  'entertainment-agency-business-registration': '/images/service-startup.webp',
+  'disinfection-business-report': '/images/service-research.webp',
+  'drone-business-registration': '/images/service-license.webp',
+  'software-business-performance-management': '/images/service-startup.webp',
+  'residential-lodging-business-report': '/images/service-hostel.webp',
+  'rural-minbak-business-report': '/images/service-hanok.webp',
+  'foundation-establishment-permit': '/images/service-legal.webp',
+  'overseas-remittance-business-registration': '/images/service-currency.webp',
+  'mainbiz-management-innovation-sme': '/images/service-startup.webp',
 }
 
 export function getIndustryPage(locale: IndustryLocale, slug: string): IndustryPage | undefined {

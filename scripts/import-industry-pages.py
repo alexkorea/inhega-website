@@ -20,6 +20,16 @@ BATCH2 = ['hazardous-chemical-business-permit', 'pet-business-permit-registratio
           'emission-facility-permit-report', 'real-estate-development-business-registration',
           'pharmaceutical-wholesale-license', 'car-dealer-rental-business-registration',
           'long-term-care-institution-designation', 'development-act-farmland-conversion-permit']
+# 배치3(맥3 I2c, 맥7 0845 PASS) — 메인비즈·소액해외송금만 4언어, 나머지 ko
+BATCH3 = ['sports-facility-business-report', 'cooperative-establishment-report',
+          'entertainment-bar-business-permit', 'campground-business-registration',
+          'solar-power-business-permit', 'marriage-brokerage-business-registration',
+          'money-lending-business-registration', 'entertainment-agency-business-registration',
+          'disinfection-business-report', 'drone-business-registration',
+          'software-business-performance-management', 'residential-lodging-business-report',
+          'rural-minbak-business-report', 'foundation-establishment-permit',
+          'overseas-remittance-business-registration', 'mainbiz-management-innovation-sme']
+MULTI = set(BATCH1) | {'overseas-remittance-business-registration', 'mainbiz-management-innovation-sme'}
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'content', 'industry-pages')
 
 QA = re.compile(r'^(Q|A)[.．]\s*')
@@ -136,8 +146,8 @@ def main():
     src = sys.argv[1]
     check = '--check' in sys.argv
     count = 0
-    for slug in BATCH1 + BATCH2:
-        langs = ['ko', 'en', 'zh', 'ja'] if slug in BATCH1 else ['ko']
+    for slug in BATCH1 + BATCH2 + BATCH3:
+        langs = ['ko', 'en', 'zh', 'ja'] if slug in MULTI else ['ko']
         for lang in langs:
             page = build(src, slug, lang)
             path = os.path.join(OUT, f'{slug}.{lang}.json')
@@ -150,8 +160,8 @@ def main():
     index = ['// 자동 생성 — scripts/import-industry-pages.py. 손으로 고치지 말 것.',
              "import type { IndustryPage } from './industry-pages'", '']
     names = []
-    for slug in BATCH1 + BATCH2:
-        for lang in (['ko', 'en', 'zh', 'ja'] if slug in BATCH1 else ['ko']):
+    for slug in BATCH1 + BATCH2 + BATCH3:
+        for lang in (['ko', 'en', 'zh', 'ja'] if slug in MULTI else ['ko']):
             name = 'p' + str(len(names))
             names.append(name)
             index.append(f"import {name} from '@/content/industry-pages/{slug}.{lang}.json'")
