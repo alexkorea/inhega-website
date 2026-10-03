@@ -776,11 +776,12 @@ const blogData: BlogI18n[] = [
     slug: 'urban-guesthouse-registration-guide',
     locale: 'zh',
     title: '韩国开宾馆所需资质 — 外国人城市民宿业登记条件·材料·流程',
-    metaTitle: '韩国开宾馆所需资质2026 — 城市民宿业登记条件·手续费与处理期限',
+    metaTitle: '韩国开宾馆所需资质（2026）— 城市民宿业登记条件·手续费·处理期限',
     metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料、法定处理期限14天、登记手续费20,000韩元（《观光振兴法施行规则》附表23，2026年9月确认）。专业行政士免费初次咨询。',
     category: '住宿/旅游',
     excerpt: '韩国外国人城市民宿业登记完整指南，让您合法在住宅物业中接待外国游客（类似Airbnb模式）。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是城市民宿？</li><li>申请资格</li><li>设施与安全要求</li><li>所需材料</li><li>申请流程</li><li>运营规则</li><li>开宾馆所需资质 — 法定登记条件</li><li>所需材料（施行规则第2条）</li><li>处理期限与手续费（官方标准）</li><li>登记后的法定义务</li><li>2027年2月1日起施行的新规定</li><li>常见问题</li></ol></div>
+    content: `<p>韩国开宾馆（城市民宿业）所需资质：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，登记法定处理期限14天。</p>
+<div class="toc"><p>目录</p><ol><li>什么是城市民宿？</li><li>申请资格</li><li>设施与安全要求</li><li>所需材料</li><li>申请流程</li><li>运营规则</li><li>开宾馆所需资质 — 法定登记条件</li><li>所需材料（施行规则第2条）</li><li>处理期限与手续费（官方标准）</li><li>登记后的法定义务</li><li>2027年2月1日起施行的新规定</li><li>常见问题</li></ol></div>
 <h2>1. 什么是城市民宿？</h2>
 <p>外国人观光城市民宿业（외국인관광 도시민박업）允许房主在其主要住所接待外国游客，依据<strong>《旅游振兴法》</strong>监管，是类似Airbnb的短租外国游客合法框架。</p>
 <p>中文检索中常见的「在韩国开宾馆」，若是在城市地区的住宅里接待外国游客，对应的法定业种就是本业种；营业性质、可用房屋类型与设施标准都由法令直接限定，并非签下房子就能挂牌营业。本所的<a href="/zh/services/urban-guesthouse">外国人城市民宿业登记代办服务</a>按同一套法定标准逐项核对后再申请。</p>
@@ -2790,7 +2791,7 @@ const blogData: BlogI18n[] = [
     slug: 'online-shop-communication-sales-registration-guide',
     locale: 'en',
     title: 'Online Shop & Communication Sales Registration in Korea — 2026 Guide',
-    metaTitle: 'Korea Online Shop Registration 2026 — Communication Sales Business Permit',
+    metaTitle: 'Korea E-commerce Registration 2026 — Online Shop (Communication Sales) Permit',
     metaDescription: 'How to register an online shop or e-commerce business (통신판매업) in Korea. FTC registration, required documents. Free consultation.',
     category: 'E-Commerce',
     excerpt: 'A guide to registering an online shop or communication sales business (통신판매업) in Korea — FTC registration, required documents, and foreign operator requirements.',
@@ -2822,7 +2823,7 @@ const blogData: BlogI18n[] = [
     slug: 'health-functional-food-sales-registration-guide',
     locale: 'en',
     title: 'Health Functional Food Sales Registration in Korea — 2026 Guide',
-    metaTitle: 'Korea Health Functional Food Sales Registration 2026 — Requirements',
+    metaTitle: 'Korea Health Functional Food Importer & Sales Registration 2026 — MFDS Requirements',
     metaDescription: 'How to register a health functional food sales business in Korea. MFDS registration, labeling requirements, import procedures. Free consultation.',
     category: 'Food',
     excerpt: 'A guide to health functional food (건강기능식품) sales business registration in Korea — MFDS requirements, labeling rules, import procedures, and compliance.',
@@ -2887,7 +2888,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Beauty Salon Business Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Beauty Salon Business Notification 2026 — License & Registration',
-    metaDescription: 'How to register a beauty salon (미용업) in Korea. Hairdresser license requirements, notification procedure, facility standards. Free consultation.',
+    metaDescription: 'How to register a beauty salon (미용업) in Korea: beauty permits, hairdresser license requirements, notification procedure, facility standards. Free consultation.',
     category: 'Health & Sanitation',
     excerpt: 'Korea beauty salon (미용업) business notification guide — license requirements, procedure, facility standards, and hygiene training for foreigners.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Beauty Businesses & Notification vs. Permit</li><li>Hairdresser License Requirements</li><li>Registration Procedure</li><li>Facility & Hygiene Standards</li><li>Mandatory Hygiene Training</li><li>FAQ</li></ol></div><h2>1. Types of Beauty Businesses & Notification vs. Permit</h2><p>Beauty businesses in Korea are regulated under the <strong>Public Health Control Act</strong> and require a <strong>business notification</strong> (not a permit) filed with the local district office. Meeting the requirements allows same-day operation after notification.</p><ul><li><strong>General beauty (일반 미용업):</strong> haircuts, perms, coloring, blowouts</li><li><strong>Skin care (피부 미용업):</strong> skin treatment, hair removal, eyebrow styling</li><li><strong>Nail care (네일 미용업):</strong> nail care, nail art</li><li><strong>Makeup (화장 미용업):</strong> makeup artistry</li><li><strong>Comprehensive (종합 미용업):</strong> 2+ categories combined</li></ul><h2>2. Hairdresser License Requirements</h2><ul><li>Graduation from a related department at high school, junior college, or university; OR</li><li>Pass the national hairdresser/beautician qualification exam</li><li>License issued by the mayor/governor of the relevant province</li><li>Foreigners must verify that their visa status allows employment</li></ul><h2>3. Registration Procedure</h2><ol><li>Confirm the hairdresser license is issued</li><li>Sign a lease for the business premises</li><li>Complete the interior fit-out to meet facility standards</li><li>Submit business notification to the district office sanitation department</li><li>Receive notification certificate and commence operations</li></ol><h2>4. Facility & Hygiene Standards</h2><ul><li>Changing room, washbasin, and sterilization facilities required</li><li>Working area separated from waiting area</li><li>Ventilation and lighting standards met</li><li>Sterilizer and disposable hygiene materials on hand</li></ul><h2>5. Mandatory Hygiene Training</h2><p>Operators must complete a 3-hour hygiene training course before opening or within 6 months of opening, at a designated institution such as the Korea Hairdressers Association.</p><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a beauty salon in Korea?</p><p class="faq-a">A. Yes, provided you hold a work-eligible visa (F-4, F-5, F-2, etc.) and obtain a Korean hairdresser/beautician license.</p></div><div class="faq-item"><p class="faq-q">Q. Is there an inspection after filing the notification?</p><p class="faq-a">A. A health center inspector may conduct a facility inspection. Deficiencies result in a remediation order.</p></div><div class="faq-item"><p class="faq-q">Q. Does a nail salon also need a business notification?</p><p class="faq-a">A. Yes, nail care (네일 미용업) is subject to business notification under the Public Health Control Act.</p></div></div><div class="cta-box"><h3>Beauty Salon Registration Consultation</h3><p>YouSun Administrative Attorney provides end-to-end support for beauty salon business notification and hygiene training guidance. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,

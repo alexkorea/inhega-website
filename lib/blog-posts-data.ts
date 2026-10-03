@@ -72,7 +72,7 @@ export const blogPosts: BlogPost[] = [
     title: '환전업 등록 방법과 요건 총정리 — 기획재정부 신청 절차 안내',
     category: '금융',
     excerpt: '환전업 등록에 필요한 자격, 서류, 절차를 상세히 안내합니다. 자금세탁방지 의무부터 등록 후 관리까지 실무 중심으로 설명합니다.',
-    meta_title: '환전업 등록 방법과 요건 — 기획재정부 절차 총정리',
+    meta_title: '환전업 등록 방법과 요건 — 외국환거래법 제8조 등록 절차',
     meta_description: '환전업 등록 자격·서류·기획재정부 신청 절차 총정리. 개인·법인 모두 가능, 자금세탁방지 의무 포함. 전문 행정사 초기 상담 무료.',
     cover_image: '/images/blog-thumbs/currency-exchange-registration-guide.jpg',
     created_at: '2026-05-08T00:00:00Z',
@@ -100,6 +100,7 @@ export const blogPosts: BlogPost[] = [
 <p>온라인·앱 기반 환전 사업자는 모바일 화면에 동일한 수준의 환율 정보, 수수료, 거래 조건을 명시해야 하며, 이는 전자상거래법과 외국환거래법이 동시에 적용되는 항목입니다.</p>
 <p class="related-link">함께 보기: <a href="/services/currency-exchange">환전업 등록 — 환전영업자 등록과 변경·폐지 신고</a></p>
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
+<div class="faq-item"><p class="faq-q">Q. 환전업은 어디에 등록하나요?</p><p class="faq-a">A. 외국환거래법 제8조제3항제1호에 따라 법상 등록 관청은 재정경제부장관(구 기획재정부장관)이지만, 같은 법 시행령 제37조제1항제1호에 따라 환전업무 등록 권한이 관세청장에게 위임되어 있어 실제 신청·접수는 관세청(관할 세관)에서 처리합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 온라인(앱) 환전 서비스도 등록 대상인가요?</p><p class="faq-a">A. 네, 온라인·모바일 환전 플랫폼도 환전영업자 등록이 필요합니다. 전자금융업 등록도 함께 필요할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. AML 내부통제기준은 직접 작성해야 하나요?</p><p class="faq-a">A. 기획재정부에서 표준 템플릿을 제공하지만, 사업 방식에 맞게 커스터마이즈해야 합니다. 전문가 작성을 권장합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 영업장 추가 시 별도 등록이 필요한가요?</p><p class="faq-a">A. 영업장 추가 시 변경 등록이 필요합니다. 주소 변경, 대표자 변경도 변경 등록 사항입니다.</p></div>
@@ -991,7 +992,7 @@ export const blogPosts: BlogPost[] = [
     title: '여성기업확인서 갱신·자격 유지 가이드 — 유효기간·재발급·변경 신고',
     category: '기업인증',
     excerpt: '여성기업 확인서의 유효기간(3년)과 갱신 절차, 자격 유지 의무를 정리했습니다. 갱신 시 흔히 발생하는 반려 사유와 대응법까지 안내합니다.',
-    meta_title: '여성기업확인서 갱신·재발급·유효기간 관리 | 유선행정사사무소',
+    meta_title: '여성기업확인서 갱신 방법 — 유효기간 3년·재발급·변경 신청 | 유선행정사사무소',
     meta_description: '여성기업 확인서 유효기간 3년(시행령 제16조)과 갱신 절차·자격 유지 요건·재발급·반려 사례를 정리했습니다. 임원 변경 점검까지 전문 행정사가 안내합니다. 초기 상담 무료.',
     cover_image: '/images/blog-thumbs/women-enterprise-renewal-management-guide.jpg',
     created_at: '2026-05-11T08:00:00Z',
@@ -1403,7 +1404,7 @@ export const blogPosts: BlogPost[] = [
     title: '소규모 화장품 제조업 등록 방법과 시설기준 — 제조업·책임판매업 차이, 온라인 판매 등록 확인',
     category: '의약외품/화장품',
     excerpt: '화장품 제조업 등록을 위한 시설기준(작업소·보관소·시험실)과 결격사유, 신청 서류, 처리기간을 최신 기준으로 정리합니다. 의약품안전나라 온라인 신청 방법까지 단계별 안내.',
-    meta_title: '소규모 화장품 제조업 등록 — 화장품 온라인 판매 등록·지방식약청 책임판매업 등록',
+    meta_title: '화장품제조업 등록 — 소규모 제조업·책임판매업 차이와 시설기준',
     meta_description: '화장품법 시행규칙 제6조 기준 시설기준·결격사유·신청서류·처리기간 총정리. 의약품안전나라 온라인 신청, 행정사 무료 상담 02-363-2251.',
     cover_image: '/images/blog-thumbs/cosmetics-manufacturing-registration.jpg',
     created_at: '2026-05-13T09:00:00Z',
@@ -2712,7 +2713,7 @@ export const blogPosts: BlogPost[] = [
     title: '일반음식점 영업신고 완벽 가이드 — 시설기준, 건축물 용도, 안전시설 완비증명, 지위승계',
     category: '식품·위생업 인허가',
     excerpt: '일반음식점을 열기 전에는 「식품위생법」에 따른 영업신고가 필수입니다. 시설 기준, 위생교육, 구비서류, 신고 절차, 처리기간과 법정 수수료까지 법령 조문을 근거로 정리합니다.',
-    meta_title: '일반음식점 영업신고 — 음식점 시설기준·건축물 용도·소방 완비증명·영업자 지위승계',
+    meta_title: '일반음식점 영업신고 절차 — 식품위생법 제37조 신고·시설기준·처리기간',
     meta_description: '일반음식점을 열기 전에는 「식품위생법」에 따른 영업신고가 필수입니다. 시설 기준, 위생교육, 구비서류, 신고 절차, 처리기간과 법정 수수료까지 법령 조문을 근거로 정리합니다.',
     cover_image: '/images/blog-thumbs/restaurant-food-service-license-guide.jpg',
     created_at: '2026-05-18T00:00:00Z',
