@@ -47,6 +47,9 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
   const koPost = blogPosts.find((p) => p.slug === slug)
   if (!koPost) notFound()
 
+  // JSON-LD 는 평문이라 엔티티(R&amp;D 등)를 푼다 — ko 블로그와 같은 규칙(맥3 M3: LD 문항이 화면과 불일치)
+  const plain = (s: string) => s.replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&')
   const faqMatches = post
     ? [...(post.content.matchAll(/<p class="faq-q">Q\.\s*(.*?)<\/p>\s*<p class="faq-a">A\.\s*(.*?)<\/p>/gs) || [])]
     : []
@@ -55,8 +58,8 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
     '@type': 'FAQPage',
     mainEntity: faqMatches.map((m) => ({
       '@type': 'Question',
-      name: m[1].replace(/<[^>]+>/g, ''),
-      acceptedAnswer: { '@type': 'Answer', text: m[2].replace(/<[^>]+>/g, '') },
+      name: plain(m[1]),
+      acceptedAnswer: { '@type': 'Answer', text: plain(m[2]) },
     })),
   } : null
 
