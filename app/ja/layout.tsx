@@ -8,7 +8,7 @@ import { organizationJsonLd } from '@/lib/org-jsonld'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
-  title: 'YouSun Administrative Attorney | 韓国許認可の専門家',
+  title: 'YouSun Administrative Agency | 韓国許認可の専門家',
   description: '外国人・外国企業向けの韓国政府許認可手続き専門事務所。国際貨物運送、外貨両替、食品製造、化粧品許可、位置情報サービス届出などをワンストップで代行。',
   keywords: '韓国許認可, 韓国行政書士, 韓国ビザ, 外国人韓国法人, 韓国ビジネス許可',
   robots: { index: true, follow: true },
@@ -24,18 +24,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'YouSun Administrative Attorney | 韓国許認可の専門家',
+    title: 'YouSun Administrative Agency | 韓国許認可の専門家',
     description: '外国人・外国企業向けの韓国政府許認可を有資格行政書士が全件代行。',
     images: ['/images/hero-seoul.png'],
   },
   openGraph: {
-    title: 'YouSun Administrative Attorney | 韓国許認可の専門家',
+    title: 'YouSun Administrative Agency | 韓国許認可の専門家',
     description: '外国人・外国企業向けの韓国政府許認可を有資格行政書士が全件代行。',
     url: 'https://inhega.co.kr/ja',
-    siteName: 'YouSun Administrative Attorney',
+    siteName: 'YouSun Administrative Agency',
     locale: 'ja_JP',
     type: 'website',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency' }],
   },
 }
 

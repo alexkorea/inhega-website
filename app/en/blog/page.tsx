@@ -6,7 +6,7 @@ import gridStyles from '@/app/services-list.module.css'
 import { ogCard } from '@/lib/og-thumbs.generated'
 
 export const metadata: Metadata = {
-  title: 'Korea Licensing & Permit Blog | YouSun Administrative Attorney',
+  title: 'Korea Licensing & Permit Blog | YouSun Administrative Agency',
   description: 'Expert guides on Korean business licensing — freight forwarding, currency exchange, food permits, HACCP, and more. Written by licensed administrative scriveners.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/blog',
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Korea Licensing & Permit Blog | YouSun Administrative Attorney',
+    title: 'Korea Licensing & Permit Blog | YouSun Administrative Agency',
     description: 'Expert guides on Korean business licensing for foreign companies and investors.',
     url: 'https://inhega.co.kr/en/blog',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney Blog' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency Blog' }],
     type: 'website',
     locale: 'en_US',
   },

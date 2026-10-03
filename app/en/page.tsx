@@ -8,7 +8,7 @@ import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
 export const metadata: Metadata = {
-  title: 'YouSun Administrative Attorney | Korean Business Licensing for Foreign Companies',
+  title: 'YouSun Administrative Agency | Korean Business Licensing for Foreign Companies',
   description: 'Korea\'s #1 business licensing specialist for foreign companies and individuals. We handle all Korean government permits — freight forwarding, currency exchange, cosmetics, food, and more.',
   alternates: {
     canonical: 'https://inhega.co.kr/en',

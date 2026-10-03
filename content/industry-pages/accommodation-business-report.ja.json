@@ -2,7 +2,7 @@
   "slug": "accommodation-business-report",
   "lang": "ja",
   "lawBasisDate": "2026-10-02",
-  "title": "韓国の宿泊業 営業届出:要件・必要書類・手続き・期間 | YouSun Administrative Attorney",
+  "title": "韓国の宿泊業 営業届出:要件・必要書類・手続き・期間 | YouSun Administrative Agency",
   "h1": "韓国の宿泊業 営業届出",
   "lead": "韓国の宿泊業は許可制ではなく、施設・設備を整えたうえで、所在地の市長・郡守・区庁長に営業届出を行います。届出書と営業施設及び設備概要書などを提出すると、市長・郡守・区庁長は直ちに営業届出証を交付しなければなりません。(法令基準日:2026-10-02、law.go.kr 現行)",
   "summaryLabel": "要約",
@@ -48,7 +48,7 @@
     },
     {
       "h2": "行政書士はどのような業務を支援できますか。",
-      "body": "YouSun Administrative Attorneyは、委任を受けて申請・届出書類の作成と行政機関への提出を支援します。他の法律で制限されている業務は扱えず、訴訟・裁判の代理は弁護士業務のため行いません。許可・登録・受理の可否と結果は管轄機関の判断によります。"
+      "body": "YouSun Administrative Agencyは、委任を受けて申請・届出書類の作成と行政機関への提出を支援します。他の法律で制限されている業務は扱えず、訴訟・裁判の代理は行政書士の業務範囲外のため行いません。許可・登録・受理の可否と結果は管轄機関の判断によります。"
     }
   ],
   "faqHeading": "よくある質問",
@@ -121,5 +121,5 @@
     }
   ],
   "ctaHeading": "お問い合わせ",
-  "cta": "YouSun Administrative Attorney(+82-2-363-2251)が書類確認と行政機関への提出を支援します。お問い合わせ:/ja/contact"
+  "cta": "YouSun Administrative Agency(+82-2-363-2251)が書類確認と行政機関への提出を支援します。お問い合わせ:/ja/contact"
 }

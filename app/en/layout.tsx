@@ -8,7 +8,7 @@ import { organizationJsonLd } from '@/lib/org-jsonld'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
-  title: 'YouSun Administrative Attorney | Korean Business Licensing',
+  title: 'YouSun Administrative Agency | Korean Business Licensing',
   description: "Korea's business licensing experts for foreign companies and individuals. International freight forwarding, currency exchange, food manufacturing, cosmetics, location-based services and more.",
   keywords: 'Korean business license, Korean administrative scrivener, Korea licensing, foreign company Korea, Korea business registration',
   robots: { index: true, follow: true },
@@ -24,18 +24,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'YouSun Administrative Attorney | Korean Business Licensing',
+    title: 'YouSun Administrative Agency | Korean Business Licensing',
     description: 'All Korean government business licenses for foreign companies — handled by licensed administrative scriveners.',
     images: ['/images/hero-seoul.png'],
   },
   openGraph: {
-    title: 'YouSun Administrative Attorney | Korean Business Licensing',
+    title: 'YouSun Administrative Agency | Korean Business Licensing',
     description: 'All Korean government business licenses for foreign companies — handled by licensed administrative scriveners.',
     url: 'https://inhega.co.kr/en',
-    siteName: 'YouSun Administrative Attorney',
+    siteName: 'YouSun Administrative Agency',
     locale: 'en_US',
     type: 'website',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency' }],
   },
 }
 

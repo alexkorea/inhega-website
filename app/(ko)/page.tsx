@@ -15,7 +15,7 @@ const HOME_DESC = '위치기반서비스사업, 국제물류주선업, 건축물
 const homeFaqs = [
   { q: '사업자등록 전에 인허가를 먼저 받아야 하나요?', a: '업종에 따라 인허가·등록·신고 시점이 달라 사업자등록과의 선후가 다릅니다. 업종별 서비스 페이지의 등록 절차를 확인한 뒤 순서를 정합니다.' },
   { q: '영업 양도양수나 영업자 지위승계도 행정사가 신고하나요?', a: '업종마다 지위승계 신고 절차가 있으며 서류 작성과 접수는 대행할 수 있습니다. 승계 기한과 서류는 업종 법령에 따라 달라 해당 서비스 페이지에서 확인합니다.' },
-  { q: '행정사에게 인허가를 맡기면 어디까지 해 주나요?', a: '업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 변호사 업무입니다. 업종별 요건 검토와 서류 작성, 관청 접수와 보완 요청 대응을 맡습니다.' },
+  { q: '행정사에게 인허가를 맡기면 어디까지 해 주나요?', a: '업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 행정사 업무 범위 밖입니다. 업종별 요건 검토와 서류 작성, 관청 접수와 보완 요청 대응을 맡습니다.' },
 ]
 
 const homeFaqJsonLd = {
@@ -220,7 +220,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* WHY AN ADMIN ATTORNEY */}
+      {/* WHY AN ADMIN AGENT */}
       <section className={`section bg-white`}>
         <div className="container">
           <div className={`section-header section-header-centered fade-up`}>
@@ -287,7 +287,7 @@ export default function HomePage() {
             <h2 className={`text-h2 fade-up`}>보완 요청 대응과 업종 추가 인허가</h2>
             <span className="accent-line" style={{ marginTop: '1rem' }} />
             <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다. 보완 요청·추가 서류 등 심사 과정의 모든 대응을 행정사가 처리합니다.</p>
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 변호사 업무입니다.</p>
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 행정사 업무 범위 밖입니다.</p>
             <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>24종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.</p>
           </div>
         </div>

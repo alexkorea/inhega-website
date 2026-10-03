@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
-  title: 'お問い合わせ | YouSun Administrative Attorney',
+  title: 'お問い合わせ | YouSun Administrative Agency',
   description: 'お問い合わせ内容をご記入いただければ、24時間以内に担当行政書士よりご連絡いたします。電話・メールでもご相談いただけます。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/contact',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'お問い合わせ | YouSun Administrative Attorney',
+    title: 'お問い合わせ | YouSun Administrative Agency',
     description: 'お問い合わせ内容をご記入いただければ、24時間以内に担当行政書士よりご連絡いたします。',
     url: 'https://inhega.co.kr/ja/contact',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],

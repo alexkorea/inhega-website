@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | YouSun Administrative Attorney',
+  title: 'Contact Us | YouSun Administrative Agency',
   description: 'Leave your inquiry and a licensed scrivener will contact you within 24 hours. Call or email us for Korean business license support.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/contact',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Contact Us | YouSun Administrative Attorney',
+    title: 'Contact Us | YouSun Administrative Agency',
     description: 'Leave your inquiry and a licensed scrivener will contact you within 24 hours.',
     url: 'https://inhega.co.kr/en/contact',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],

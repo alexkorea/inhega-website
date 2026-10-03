@@ -67,8 +67,8 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
     description: post?.excerpt ?? koPost.excerpt,
     datePublished: koPost.created_at,
     image: [`https://inhega.co.kr${ogThumb('zh', slug)}`],
-    author: { '@type': 'Organization', name: 'YouSun Administrative Attorney', url: 'https://inhega.co.kr/zh' },
-    publisher: { '@type': 'Organization', name: 'YouSun Administrative Attorney', url: 'https://inhega.co.kr/zh' },
+    author: { '@type': 'Organization', name: 'YouSun Administrative Agency', url: 'https://inhega.co.kr/zh' },
+    publisher: { '@type': 'Organization', name: 'YouSun Administrative Agency', url: 'https://inhega.co.kr/zh' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/zh/blog/${slug}` },
     inLanguage: 'zh-CN',
   }
@@ -109,7 +109,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
               {displayTitle}
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem', marginTop: '1rem' }}>
-              {displayDate} · YouSun Administrative Attorney
+              {displayDate} · YouSun Administrative Agency
             </p>
           </div>
         </section>

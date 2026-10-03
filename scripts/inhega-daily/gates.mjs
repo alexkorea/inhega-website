@@ -7,6 +7,7 @@
 // 여기서 대신하지 않는다. 이 게이트는 "형식·정량·중복·금칙"의 자동 방어선이다.
 
 import { POOL_KEYS, ANGLE_KEYS, topicByKey } from './pool.mjs'
+import { c6Hits } from '../lib/c6-banned.mjs'
 
 // 제5장 정량 — Cluster 기준(Pillar 은 entry.kind='pillar' 로 상향).
 // 단위는 지침서 표기("EN1000-1800단어")를 네 언어 모두 단어로 읽는다.
@@ -122,6 +123,9 @@ export function gateArticle(entry, ctx) {
   add('B2 대표번호 기재·개인번호 없음', /02-363-2251/.test(entry.ko?.content || '') && !/01[016789]-\d{3,4}-\d{4}/.test(entry.ko?.content || ''), 'ok')
   add('B3 금지색 #3b82f6 없음', !/#3b82f6/i.test(JSON.stringify(entry)), 'ok')
   add('B4 --- 구분선·Q1. 형식 없음', !/^---$/m.test(entry.ko?.content || '') && !/Q\d\./.test(entry.ko?.content || ''), 'ok')
+  // B5: C6(2026-10-03 맥7, 보스 msg 1698) — 법조 직역 명칭 0건(4언어·메타·FAQ 전부, 'power of attorney' 만 예외).
+  // 빌드 조립(build-pages-bundle.mjs)의 C6 게이트가 최후 방어선이지만, 원고 단계에서 막아야 그날 배포 전체가 죽지 않는다.
+  { const h = c6Hits(JSON.stringify(entry)); add('B5 C6 법조 직역 명칭 0건', h.length === 0, h.length ? `${h.length}건: ${h[0].match} …${h[0].context}…` : 'ok') }
 
   // ── C. YMYL(제11장 C) ──────────────────────────────────────────────────────
   // C1: 수치가 든 KO 문단마다 근거주석이 있어야 한다.

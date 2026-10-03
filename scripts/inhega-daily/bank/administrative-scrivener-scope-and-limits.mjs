@@ -46,7 +46,7 @@ export default {
 <p>외국인이나 외국법인이 국내 인허가를 준비하면서 본국 서류의 번역 공증까지 한 번에 맡기려는 경우가 많습니다. 이때 번역은 외국어번역행정사의 업무이고 인허가 신청의 대리는 일반행정사의 업무이므로, 두 업무를 함께 처리하려면 해당 종류의 행정사가 각각 관여하는지 확인해야 합니다.<!-- 근거: 행정사법 시행령 제3조 제1호·제3호 --></p>
 
 <h2>행정사에게 위임할 수 없는 일</h2>
-<p>제2조 제1항 단서의 "다른 법률에 따라 제한된 업무"가 위임 한계선입니다. 소송 대리나 법률 분쟁의 대리는 변호사의 업무이고, 세무조정·세무대리는 세무사, 등기 신청의 대리는 변호사·법무사의 업무이므로 행정사가 업으로 할 수 없습니다.<!-- 근거: 행정사법 제2조 제1항 단서 --></p>
+<p>제2조 제1항 단서의 "다른 법률에 따라 제한된 업무"가 위임 한계선입니다. 소송 대리나 법률 분쟁의 대리는 행정사 업무 범위 밖이고, 세무조정·세무대리는 세무사, 등기 신청의 대리는 법무사의 업무이므로 행정사가 업으로 할 수 없습니다.<!-- 근거: 행정사법 제2조 제1항 단서 --></p>
 <p>더 나아가 「행정사법」 제22조 제3호는 <strong>행정사의 업무 범위를 벗어나 타인의 소송이나 그 밖의 권리관계분쟁 또는 민원사무처리과정에 개입하는 행위</strong> 자체를 금지행위로 규정합니다.<!-- 근거: 행정사법 제22조 제3호 --> 인허가가 반려된 뒤 행정심판이나 행정소송으로 넘어가는 국면에서 이 경계가 문제되므로, 위임 단계에서 "반려되면 그다음은 어디까지 맡길 수 있는지"를 미리 확인해 두는 편이 안전합니다.</p>
 <p>또한 제22조는 정당한 사유 없이 위임을 거부하는 행위, 이해관계가 다른 상대방 양쪽에서 같은 업무를 위임받는 행위(당사자 양쪽이 동의한 경우는 제외), 담당 공무원과의 연고 등 사적인 관계를 드러내며 영향력을 미칠 수 있는 것으로 선전하는 행위, 거짓 내용을 표시하거나 사실을 과장·누락해 소비자를 오도할 우려가 있는 광고행위, 알선을 업으로 하는 자를 이용해 위임을 유치하는 행위를 모두 금지합니다.<!-- 근거: 행정사법 제22조 제1호~제6호 --> "담당자를 안다"는 식의 영업 문구가 나오면 그 자체가 법이 금지한 선전이라는 점을 알아두시기 바랍니다.</p>
 
@@ -123,7 +123,7 @@ export default {
 <p>Foreign nationals and companies often want home-country documents translated in the same engagement. Translation belongs to the translation scrivener and licence agency to the general scrivener, so ask whether a scrivener of each category is involved.</p>
 
 <h2>What You May Not Delegate</h2>
-<p>The proviso to Article 2(1) — "work restricted under another statute" — is the outer limit. Litigation and representation in legal disputes belong to attorneys, tax agency work to certified tax accountants, and registration filings to attorneys and judicial scriveners. A scrivener may not carry on those as a business.</p>
+<p>The proviso to Article 2(1) — "work restricted under another statute" — is the outer limit. Litigation and legal-dispute representation fall outside a scrivener's scope; tax agency work belongs to certified tax accountants, and registration filings to judicial scriveners. A scrivener may not carry on those as a business.</p>
 <p>Article 22(3) goes further, making it a prohibited act to intervene beyond scrivener work in another person's litigation, in other disputes over legal relations, or in the handling of civil petitions. Settle at the engagement stage how far the mandate runs if the filing is refused.</p>
 <p>Article 22 also prohibits refusing a mandate without grounds; taking the same matter from an opposing party, unless both consent; advertising influence through connections with the officials in charge; misleading advertising; and soliciting mandates through brokers.</p>
 
@@ -200,7 +200,7 @@ export default {
 <p>外国人或外国法人常希望连本国文件翻译一并委托。翻译属外语翻译行政士业务，许可申请代理属一般行政士业务，若一并处理，应确认两种行政士是否各自参与。</p>
 
 <h2>不可委托的业务</h2>
-<p>第2条第1项但书所称"依其他法律受限制的业务"即为委托界限。诉讼与法律纠纷代理属律师业务，税务代理属税务士业务，登记申请代理属律师与法务士业务，行政士不得以此为业。</p>
+<p>第2条第1项但书所称"依其他法律受限制的业务"即为委托界限。诉讼与法律纠纷代理不属于行政士业务范围，税务代理属税务士业务，登记申请代理属法务士业务，行政士不得以此为业。</p>
 <p>同法第22条第3号进一步将"超出行政士业务范围，介入他人诉讼或其他权利关系纠纷、民愿事务处理过程的行为"本身列为禁止行为。许可被驳回后进入行政审判或行政诉讼阶段时，这一界限就会成为问题，因此在委托阶段预先确定"被驳回之后可委托到哪一步"更为安全。</p>
 <p>第22条还禁止：无正当理由拒绝受托；就同一事务接受利害对立双方的委托（双方同意者除外）；以与经办公务员的私人关系可施加影响相宣传；误导消费者的广告行为；利用介绍业者揽收委托。</p>
 
@@ -278,7 +278,7 @@ export default {
 <p>外国人や外国法人が韓国の許認可を準備する際、本国書類の翻訳まで一括して委任したいという相談が多くあります。翻訳は外国語翻訳行政士の業務、許認可申請の代理は一般行政士の業務ですので、両方を併せて進めるにはそれぞれの種類の行政士が関与しているかを確認してください。</p>
 
 <h2>委任できない業務</h2>
-<p>第2条第1項ただし書の「他の法律により制限された業務」が委任の限界線です。訴訟代理や法律紛争の代理は弁護士の業務、税務調整・税務代理は税務士の業務、登記申請の代理は弁護士・法務士の業務であり、行政士が業として行うことはできません。</p>
+<p>第2条第1項ただし書の「他の法律により制限された業務」が委任の限界線です。訴訟代理や法律紛争の代理は行政士の業務範囲外、税務調整・税務代理は税務士の業務、登記申請の代理は法務士の業務であり、行政士が業として行うことはできません。</p>
 <p>さらに同法第22条第3号は、行政士の業務範囲を超えて他人の訴訟その他の権利関係紛争又は民願事務の処理過程に介入する行為そのものを禁止行為と定めています。許認可が却下された後に行政審判や行政訴訟へ移る場面でこの境界が問題になりますので、委任の段階で却下後はどこまで委任できるのかを確認しておくと安全です。</p>
 <p>第22条はこのほか、正当な理由のない委任の拒否、利害を異にする双方からの同一業務の受任（双方の同意がある場合を除く）、担当公務員との縁故等を示して影響力を及ぼしうるものとする宣伝、消費者を誤導するおそれのある広告、斡旋を業とする者を利用した委任の誘致を禁止しています。</p>
 

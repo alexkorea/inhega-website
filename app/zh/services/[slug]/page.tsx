@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const svc = getServiceI18n('zh', slug)
   if (!svc) return {}
   return {
-    title: `${svc.title} | YouSun Administrative Attorney`,
+    title: `${svc.title} | YouSun Administrative Agency`,
     description: svc.description,
     // 보스 확정 대기 페이지 — 색인 차단 (2026-09-17).
     ...(isDeployHold(slug) ? { robots: { index: false, follow: false } } : {}),
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       },
     },
     openGraph: {
-      title: `${svc.title} | YouSun Administrative Attorney`,
+      title: `${svc.title} | YouSun Administrative Agency`,
       description: svc.description,
       url: `https://inhega.co.kr/zh/services/${slug}`,
       images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],

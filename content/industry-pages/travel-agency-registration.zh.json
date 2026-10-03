@@ -2,7 +2,7 @@
   "slug": "travel-agency-registration",
   "lang": "zh",
   "lawBasisDate": "2026-10-02",
-  "title": "韩国旅行社注册:条件、材料、流程 | YouSun Administrative Attorney",
+  "title": "韩国旅行社注册:条件、材料、流程 | YouSun Administrative Agency",
   "h1": "韩国旅行社(旅行业)注册",
   "lead": "在韩国经营旅行业不是许可或申报,而是须向所在地市长、郡守、区厅长(自治区区厅长)办理注册。综合旅行业资本金须在5000万韩元以上,国内外旅行业3000万韩元以上,国内旅行业1500万韩元以上,并须拥有办公室的所有权或使用权。新注册的法定手续费为30,000韩元。(法令依据时间:2026-10-02,以law.go.kr现行法为准)",
   "summaryLabel": "摘要",
@@ -48,7 +48,7 @@
     },
     {
       "h2": "行政士可以协助哪些工作?",
-      "body": "YouSun Administrative Attorney在获得委托后协助编写并提交申请或申报材料。受其他法律限制的业务不能办理,诉讼及法庭代理属于律师业务,不在服务范围内。许可、登记或受理与否及其结果,均由主管机关判断决定。"
+      "body": "YouSun Administrative Agency在获得委托后协助编写并提交申请或申报材料。受其他法律限制的业务不能办理,诉讼及法庭代理不属于行政士业务范围,不在服务范围内。许可、登记或受理与否及其结果,均由主管机关判断决定。"
     }
   ],
   "faqHeading": "常见问题",
@@ -113,5 +113,5 @@
     }
   ],
   "ctaHeading": "咨询",
-  "cta": "YouSun Administrative Attorney(+82-2-363-2251)协助审查材料并向主管机关提交。咨询:/zh/contact"
+  "cta": "YouSun Administrative Agency(+82-2-363-2251)协助审查材料并向主管机关提交。咨询:/zh/contact"
 }

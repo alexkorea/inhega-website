@@ -50,9 +50,9 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}>
       <div className={styles.inner}>
         <Link prefetch={false} href={base} className={styles.logo}>
-          <div className={styles.logoMark}><img src="/logo.webp" alt="YouSun Administrative Attorney logo" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
+          <div className={styles.logoMark}><img src="/logo.webp" alt="YouSun Administrative Agency logo" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
           <div className={styles.logoText}>
-            <span className={`${styles.logoMain} ${styles.logoMainEn}`}>YouSun Administrative Attorney</span>
+            <span className={`${styles.logoMain} ${styles.logoMainEn}`}>YouSun Administrative Agency</span>
             <span className={styles.logoSub}>{t.tagline}</span>
           </div>
         </Link>

@@ -8,7 +8,7 @@ import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
 export const metadata: Metadata = {
-  title: 'YouSun Administrative Attorney | 韩国营业许可证专家 | 外国企业韩国创业',
+  title: 'YouSun Administrative Agency | 韩国营业许可证专家 | 外国企业韩国创业',
   description: '专为外国企业和个人办理韩国政府各类营业许可证。国际货运代理、外汇兑换、食品制造、化妆品许可等一站式专业代办。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh',

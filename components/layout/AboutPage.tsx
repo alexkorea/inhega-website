@@ -69,7 +69,7 @@ const d: Record<Locale, LocaleData> = {
   },
   en: {
     badge: 'About',
-    h1: ['Visa & Licensing Specialists,', 'YouSun Administrative Attorney'],
+    h1: ['Visa & Licensing Specialists,', 'YouSun Administrative Agency'],
     heroBody: 'Chief Admin Agent Jung Yu-sun leads a team of 3 licensed agents and 4 office managers who handle every case from start to finish.',
     stats: [
       { value: '24h', label: 'Avg Response Time' },
@@ -77,10 +77,10 @@ const d: Record<Locale, LocaleData> = {
     greetingBadge: "Director's Message",
     greetingText: [
       "I've met many people who struggled with licensing issues while starting or expanding their business. Feeling overwhelmed by complex regulations, demanding paperwork, and long, opaque processes is completely understandable.",
-      "YouSun Administrative Attorney is your dedicated partner to overcome those challenges. We are not simply a document-filing agency. We take the time to understand your business goals and find the most efficient path to complete your licensing — so your business can succeed.",
+      "YouSun Administrative Agency is your dedicated partner to overcome those challenges. We are not simply a document-filing agency. We take the time to understand your business goals and find the most efficient path to complete your licensing — so your business can succeed.",
     ],
     greetingAuthor: 'Chief Admin Agent Jung Yu-sun',
-    greetingTitle: 'YouSun Administrative Attorney | Business No. 722-39-01297',
+    greetingTitle: 'YouSun Administrative Agency | Business No. 722-39-01297',
     expertiseBadge: 'Expertise',
     expertiseH2: '6 Core Specialty Areas',
     expertiseItems: [
@@ -106,7 +106,7 @@ const d: Record<Locale, LocaleData> = {
   },
   zh: {
     badge: '公司介绍',
-    h1: ['许可证专业，', 'YouSun Administrative Attorney'],
+    h1: ['许可证专业，', 'YouSun Administrative Agency'],
     heroBody: '代表郑有善行政士及3名专业行政士与4名实务事务长，从始至终全程负责。',
     stats: [
       { value: '24h', label: '平均响应时间' },
@@ -114,10 +114,10 @@ const d: Record<Locale, LocaleData> = {
     greetingBadge: '代表致辞',
     greetingText: [
       '在创业或拓展业务的过程中，我们接待了许多因许可证问题而苦恼的客户。面对复杂的法规、繁琐的文件和漫长不透明的审批流程，感到迷茫是完全正常的。',
-      'YouSun Administrative Attorney是帮助您克服这些困难的专业伙伴。我们不仅仅是一家文件代理机构，我们深入了解您的业务目标，寻找最优路径完成许可证申请，助力您的事业取得成功。',
+      'YouSun Administrative Agency是帮助您克服这些困难的专业伙伴。我们不仅仅是一家文件代理机构，我们深入了解您的业务目标，寻找最优路径完成许可证申请，助力您的事业取得成功。',
     ],
     greetingAuthor: '代表行政士 郑有善',
-    greetingTitle: 'YouSun Administrative Attorney 代表 | 营业执照号: 722-39-01297',
+    greetingTitle: 'YouSun Administrative Agency 代表 | 营业执照号: 722-39-01297',
     expertiseBadge: '专业领域',
     expertiseH2: '六大核心专业领域',
     expertiseItems: [
@@ -143,18 +143,18 @@ const d: Record<Locale, LocaleData> = {
   },
   ja: {
     badge: '事務所案内',
-    h1: ['許認可専門、', 'YouSun Administrative Attorney'],
-    heroBody: 'YouSun Administrative Attorneyは専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
+    h1: ['許認可専門、', 'YouSun Administrative Agency'],
+    heroBody: 'YouSun Administrative Agencyは専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
     stats: [
       { value: '24h', label: '平均応答時間' },
     ],
     greetingBadge: '代表挨拶',
     greetingText: [
       '創業や事業拡張の過程で、許認可の問題にお困りの方を多く見てきました。複雑な法令、煩雑な書類、長くて不透明な手続きの前に途方に暮れるのは当然のことです。',
-      'YouSun Administrative Attorneyは、その不安を解消するための専門パートナーです。私たちは単なる書類提出代行業者ではありません。お客様のビジネス目標をしっかり理解した上で、最適なルートで許認可を完成させ、事業の成功を共に実現いたします。',
+      'YouSun Administrative Agencyは、その不安を解消するための専門パートナーです。私たちは単なる書類提出代行業者ではありません。お客様のビジネス目標をしっかり理解した上で、最適なルートで許認可を完成させ、事業の成功を共に実現いたします。',
     ],
     greetingAuthor: '代表行政書士 鄭有善',
-    greetingTitle: 'YouSun Administrative Attorney 代表 | 事業者番号: 722-39-01297',
+    greetingTitle: 'YouSun Administrative Agency 代表 | 事業者番号: 722-39-01297',
     expertiseBadge: '専門分野',
     expertiseH2: '6つの核心専門分野',
     expertiseItems: [
@@ -311,7 +311,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="YouSun Administrative Attorney"
+                title="YouSun Administrative Agency"
               />
             </div>
           </div>

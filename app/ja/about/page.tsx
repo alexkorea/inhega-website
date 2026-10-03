@@ -1,8 +1,8 @@
 import AboutPage from '@/components/layout/AboutPage'
 
 export const metadata = {
-  title: '事務所案内 | YouSun Administrative Attorney',
-  description: 'YouSun Administrative Attorneyは専門行政書士事務所です。',
+  title: '事務所案内 | YouSun Administrative Agency',
+  description: 'YouSun Administrative Agencyは専門行政書士事務所です。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/about',
     languages: {
@@ -14,10 +14,10 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: '事務所案内 | YouSun Administrative Attorney',
+    title: '事務所案内 | YouSun Administrative Agency',
     description: '韓国の許認可・ビザ専門の行政書士事務所',
     url: 'https://inhega.co.kr/ja/about',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorneyチーム' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agencyチーム' }],
     type: 'website',
   },
 }

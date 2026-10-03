@@ -99,6 +99,35 @@ if (!fs.existsSync(path.join(ASSETS, '_routes.json'))) {
   process.exit(1)
 }
 
+// ── C6 금지어 게이트 (2026-10-03 맥7 C6, 보스 msg 1698) ─────────────────────────
+// 조립된 배포물 전체(HTML·RSC .txt·JSON·JS·xml·_worker.js·server-functions)에서 법조 직역
+// 명칭이 1건이라도 나오면 조립 실패 → 배포 중단. 'power of attorney' 만 예외.
+// 원고(blog-posts-data·blog-i18n·services-data·industry-pages·bank)·일일블로그 어느 경로로
+// 재유입돼도 여기서 막힌다. 수동 배포와 19:00 자동화가 모두 이 스크립트를 거친다.
+{
+  const { c6Hits } = await import('./lib/c6-banned.mjs')
+  const BIN = /\.(png|jpe?g|webp|avif|gif|ico|woff2?|ttf|otf|eot|pdf|wasm|br|gz|zip|mp4|webm)$/i
+  const hits = []
+  let scanned = 0
+  const walkC6 = (dir) => {
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      const p = path.join(dir, e.name)
+      if (e.isDirectory()) { walkC6(p); continue }
+      if (BIN.test(e.name)) continue
+      scanned++
+      const h = c6Hits(fs.readFileSync(p, 'utf8'))
+      if (h.length) hits.push({ file: path.relative(ASSETS, p), n: h.length, first: h[0] })
+    }
+  }
+  walkC6(ASSETS)
+  if (hits.length) {
+    console.error(`C6 금지어 게이트 FAIL — ${hits.length}개 파일 ${hits.reduce((a, b) => a + b.n, 0)}건 (배포 중단)`)
+    for (const h of hits.slice(0, 20)) console.error(`  ${h.n}  ${h.file}  …${h.first.context}…`)
+    process.exit(1)
+  }
+  console.log(`C6 금지어 게이트 PASS — ${scanned}개 파일 0건`)
+}
+
 // ── 풋터 사업자번호 게이트 (2026-10-03 맥7 지시, 보스 msg 1677) ─────────────────
 // 방금 빌드한 .next 를 로컬 next start 로 띄워 홈 + 사이트맵 표본 30쪽의 <footer> 에
 // 사업자등록번호(정본 NAS brand_registry.json)가 없으면 조립 실패 → 배포 중단.

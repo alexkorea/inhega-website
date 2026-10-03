@@ -10,8 +10,8 @@ import { IndustryList } from '@/components/industry/IndustryServicePage'
 const translatedServices = getServiceCatalog('en')
 
 export const metadata: Metadata = {
-  title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Attorney`,
-  description: 'International freight forwarding, currency exchange, food licensing, building use change, and more — YouSun Administrative Attorney handles Korean business licensing from start to finish.',
+  title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Agency`,
+  description: 'International freight forwarding, currency exchange, food licensing, building use change, and more — YouSun Administrative Agency handles Korean business licensing from start to finish.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/services',
     languages: {
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Attorney`,
+    title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Agency`,
     description: 'Professional licensing and permit representation for foreign companies and investors in Korea. Free initial consultation.',
     url: 'https://inhega.co.kr/en/services',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney Services' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency Services' }],
     type: 'website',
     locale: 'en_US',
   },
-  twitter: { card: 'summary_large_image', title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${translatedServices.length} Licensing & Permit Services | YouSun Administrative Agency`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {

@@ -4,7 +4,7 @@ export const translations = {
   en: {
     locale: 'en',
     lang: 'en',
-    siteName: 'YouSun Administrative Attorney',
+    siteName: 'YouSun Administrative Agency',
     tagline: 'Korean Business Licensing Specialists',
     nav: {
       home: 'Home',
@@ -26,7 +26,7 @@ export const translations = {
       quoteLink: 'Get a Quote',
       privacy: 'Privacy Policy',
       terms: 'Terms of Use',
-      copyright: '© 2018 YouSun Administrative Attorney. All rights reserved.',
+      copyright: '© 2018 YouSun Administrative Agency. All rights reserved.',
       registration: 'Business Registration: 722-39-01297 | Representative: Jung Yu-sun | 3F, 324 Toegyero, Jung-gu, Seoul',
       hours: 'Mon–Fri 09:30–17:30 KST',
       address: '3F, 324 Toegyero, Jung-gu, Seoul, Korea',
@@ -35,7 +35,7 @@ export const translations = {
     hero: {
       badge: 'Korean Business Licensing Experts',
       title: 'Korean Licensing,\nHandled by\nExperts',
-      desc: 'YouSun Administrative Attorney specializes in all Korean government business licenses for foreign individuals and companies — from application to approval.',
+      desc: 'YouSun Administrative Agency specializes in all Korean government business licenses for foreign individuals and companies — from application to approval.',
       ctaPrimary: 'Free Consultation',
       ctaSecondary: 'Our Services',
     },
@@ -61,7 +61,7 @@ export const translations = {
       ],
     },
     whyUs: {
-      badge: 'Why YouSun Administrative Attorney?',
+      badge: 'Why YouSun Administrative Agency?',
       title: 'You Need a Partner\nYou Can Trust',
       desc: 'We are not just a paperwork service. We are your full licensing partner — responsible from first application to final approval.',
       points: [
@@ -117,7 +117,7 @@ export const translations = {
   zh: {
     locale: 'zh',
     lang: 'zh-CN',
-    siteName: 'YouSun Administrative Attorney',
+    siteName: 'YouSun Administrative Agency',
     tagline: '韩国行政许可专家',
     nav: {
       home: '首页',
@@ -139,7 +139,7 @@ export const translations = {
       quoteLink: '获取报价',
       privacy: '隐私政策',
       terms: '使用条款',
-      copyright: '© 2018 YouSun Administrative Attorney. 版权所有。',
+      copyright: '© 2018 YouSun Administrative Agency. 版权所有。',
       registration: '营业执照: 722-39-01297 | 代表行政士: 郑有善 | 首尔特别市中区退溪路324, 3楼',
       hours: '周一至周五 09:30–17:30 (韩国时间)',
       address: '韩国首尔特别市中区退溪路324, 3楼',
@@ -148,7 +148,7 @@ export const translations = {
     hero: {
       badge: '韩国营业许可专业机构',
       title: '韩国营业许可，\n专业团队\n全程代办',
-      desc: 'YouSun Administrative Attorney专注于为外国个人及企业办理韩国政府各类营业许可证——从申请到获批，全程负责。',
+      desc: 'YouSun Administrative Agency专注于为外国个人及企业办理韩国政府各类营业许可证——从申请到获批，全程负责。',
       ctaPrimary: '免费咨询',
       ctaSecondary: '查看服务',
     },
@@ -174,7 +174,7 @@ export const translations = {
       ],
     },
     whyUs: {
-      badge: '为何选择YouSun Administrative Attorney',
+      badge: '为何选择YouSun Administrative Agency',
       title: '您需要一个\n值得信赖的合作伙伴',
       desc: '我们不仅仅是材料代办服务，而是从申请到获批全程负责的许可证专业合作伙伴。',
       points: [
@@ -230,7 +230,7 @@ export const translations = {
   ja: {
     locale: 'ja',
     lang: 'ja',
-    siteName: 'YouSun Administrative Attorney',
+    siteName: 'YouSun Administrative Agency',
     tagline: '韓国許認可の専門家',
     nav: {
       home: 'ホーム',
@@ -252,7 +252,7 @@ export const translations = {
       quoteLink: '見積もり依頼',
       privacy: 'プライバシーポリシー',
       terms: '利用規約',
-      copyright: '© 2018 YouSun Administrative Attorney. All rights reserved.',
+      copyright: '© 2018 YouSun Administrative Agency. All rights reserved.',
       registration: '事業者番号: 722-39-01297 | 代表行政書士: 鄭有善 | ソウル特別市中区退溪路324、3階',
       hours: '月〜金 09:30–17:30 (韓国時間)',
       address: '韓国ソウル特別市中区退溪路324、3階',
@@ -261,7 +261,7 @@ export const translations = {
     hero: {
       badge: '韓国許認可の専門機関',
       title: '韓国の許認可、\n専門家に\nお任せください',
-      desc: 'YouSun Administrative Attorneyは、外国人・外国企業向けの韓国政府許認可手続きを専門としています。申請から取得まで一貫サポート。',
+      desc: 'YouSun Administrative Agencyは、外国人・外国企業向けの韓国政府許認可手続きを専門としています。申請から取得まで一貫サポート。',
       ctaPrimary: '無料相談',
       ctaSecondary: 'サービス一覧',
     },
@@ -287,7 +287,7 @@ export const translations = {
       ],
     },
     whyUs: {
-      badge: 'なぜYouSun Administrative Attorneyを選ぶか',
+      badge: 'なぜYouSun Administrative Agencyを選ぶか',
       title: '信頼できるパートナーが\n必要です',
       desc: '単なる書類代行ではありません。申請から取得まで責任を持つ、許認可の専門パートナーです。',
       points: [

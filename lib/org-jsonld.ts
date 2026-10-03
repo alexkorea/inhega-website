@@ -1,6 +1,6 @@
 // 사이트 공통 Organization JSON-LD — 단일 원천 (I3b, 맥3 명세 jsonld_final.json "inhega.co.kr" + 맥7 결정 2026-10-03)
 // ko/en/zh/ja 레이아웃이 모두 이 노드 하나를 싣는다(같은 @id = 같은 실체이므로 로캘마다 내용을 달리하지 않는다).
-// - @type 은 [Organization, ProfessionalService]. LegalService 금지(변호사 오인).
+// - @type 은 [Organization, ProfessionalService]. LegalService 금지(법률 서비스 오인).
 // - sameAs 필드는 두지 않는다(브랜드 D 단독 사이트 — 빈 배열도 금지).
 // - logo 는 헤더가 실제로 쓰는 로고(/logo.webp 120px)의 원본 /logo.png(512px, 같은 그림). 히어로·OG 사진 금지.
 // - hasOfferCatalog 는 기존 ko 레이아웃 블록을 그대로 병합.
@@ -14,7 +14,7 @@ export const organizationJsonLd = {
   '@type': ['Organization', 'ProfessionalService'],
   '@id': ORG_ID,
   name: '유선행정사사무소',
-  alternateName: 'YouSun Administrative Attorney',
+  alternateName: 'YouSun Administrative Agency',
   legalName: '유선행정사사무소',
   url: SITE_URL,
   logo: ORG_LOGO_URL,

@@ -10,8 +10,8 @@ import { IndustryList } from '@/components/industry/IndustryServicePage'
 const translatedServices = getServiceCatalog('zh')
 
 export const metadata: Metadata = {
-  title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Attorney`,
-  description: '国际货运代理、外汇兑换、食品许可、建筑物用途变更等多项专业许可代办服务，YouSun Administrative Attorney为您从头到尾全程代办。',
+  title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Agency`,
+  description: '国际货运代理、外汇兑换、食品许可、建筑物用途变更等多项专业许可代办服务，YouSun Administrative Agency为您从头到尾全程代办。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh/services',
     languages: {
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Attorney`,
+    title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Agency`,
     description: '面向外国企业和投资者的韩国许可代办专业服务。首次咨询免费。',
     url: 'https://inhega.co.kr/zh/services',
-    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Attorney服务' }],
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency服务' }],
     type: 'website',
     locale: 'zh_CN',
   },
-  twitter: { card: 'summary_large_image', title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Attorney`, images: ['/images/hero-seoul.png'] },
+  twitter: { card: 'summary_large_image', title: `${translatedServices.length}项专业许可代办服务 | YouSun Administrative Agency`, images: ['/images/hero-seoul.png'] },
 }
 
 const breadcrumbJsonLd = {

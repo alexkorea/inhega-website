@@ -23,7 +23,7 @@ const DESC_MAX = 150
 // lib/news-article-schema.ts 의 BANNED_PATTERNS 와 같은 규칙. 둘이 어긋나면
 // 수신단은 통과시키는데 실측만 떨어지므로, 규칙을 고칠 때 둘 다 고칠 것.
 const BANNED = [
-  [/변호사|법무법인|법률사무소|로\s?펌/, '변호사·법무법인 표현'],
+  [/\uBCC0\uD638\uC0AC|\uBC95\uBB34\uBC95\uC778|\uBC95\uB960\uC0AC\uBB34\uC18C|\uB85C\s?\uD38C|(?<![Oo]f )(?<![Oo]f-)\b(?:l[a]wyers?|att[o]rneys?|l[a]w firms?|l[a]w office)\b|lu\u1EADt s\u01B0|\u5F8B\u5E08|(?<!\u8ABF)\u5F8B\u5E2B|\u5F01\u8B77\u58EB|\u0430\u0434\u0432\u043E\u043A\u0430\u0442|\u044E\u0440\u0438\u0441\u0442|\u0E17\u0E19\u0E32\u0E22|\u0645\u062D\u0627\u0645/i, '법조 직역 명칭 표현(C6 금지어)'],
   [/보장(?:합니다|해\s?드립|해드립|됩니다|드립니다|을\s?약속)/, '결과 보장 표현'],
   [/100\s?%\s?(?:승인|허가|보장|성공)/, '100% 승인·보장 표현'],
   [/(?:반드시|무조건|틀림없이)\s?(?:승인|허가|통과)/, '무조건 승인 표현'],
