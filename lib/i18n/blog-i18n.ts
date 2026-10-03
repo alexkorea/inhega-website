@@ -518,7 +518,7 @@ const blogData: BlogI18n[] = [
 <h2>6. Post-Certification Obligations</h2>
 <ul><li>Annual surveillance audit</li><li>Triennial full re-certification audit</li><li>Maintain all monitoring and corrective action records</li><li>Report significant process changes to KHAS</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. How long does HACCP certification take?</p><p class="faq-a">A. Typically 3–6 months from application to certificate, depending on facility readiness.</p></div>
+<div class="faq-item"><p class="faq-q">Q. How long does HACCP certification take?</p><p class="faq-a">A. Processing time varies by the competent authority and individual circumstances. Please confirm individually.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can foreign-invested food companies apply?</p><p class="faq-a">A. Yes, any food business legally operating in Korea may apply.</p></div>
 </div>
 <div class="cta-box"><h3>Get Expert Help with HACCP Certification</h3><p>YouSun Administrative Agency works with food safety consultants to guide your HACCP application from plan development to audit. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
@@ -545,7 +545,7 @@ const blogData: BlogI18n[] = [
 <h2>6. 认证后义务</h2>
 <ul><li>每年一次监督审核</li><li>每三年一次全面再认证审核</li><li>保存所有监控及纠正措施记录</li><li>向KHAS报告重大工艺变更</li></ul>
 <div class="faq-section"><h2>常见问题</h2>
-<div class="faq-item"><p class="faq-q">Q. HACCP认证需要多长时间？</p><p class="faq-a">A. 从申请到颁证通常需要3~6个月，具体取决于设施准备情况。</p></div>
+<div class="faq-item"><p class="faq-q">Q. HACCP认证需要多长时间？</p><p class="faq-a">A. 办理时间因主管机关及个别情况而异，需个别确认。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外资食品企业可以申请吗？</p><p class="faq-a">A. 可以，在韩国合法经营的任何食品企业均可申请。</p></div>
 </div>
 <div class="cta-box"><h3>HACCP认证专业协助</h3><p>YouSun Administrative Agency与食品安全顾问合作，从计划制定到审核全程陪同。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
@@ -1886,7 +1886,7 @@ const blogData: BlogI18n[] = [
 <h2>5. Common Challenges Across Cases</h2>
 <ul><li>Fire safety upgrades are the most common and costly requirement</li><li>Zoning compatibility — not all areas allow all uses</li><li>Coordinating use change timing with business license applications</li><li>Building register update after completion (often forgotten)</li></ul>
 <h2>6. Key Success Factors</h2>
-<ul><li>Pre-consult with the local building department before committing to a lease</li><li>Engage a licensed architect early</li><li>Allow 3–6 months for permit + business license + inspection</li></ul>
+<ul><li>Pre-consult with the local building department before committing to a lease</li><li>Engage a licensed architect early</li><li>Allow ample time for permit + business license + inspection (timing varies by authority)</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a tenant (not the building owner) apply for a use change?</p><p class="faq-a">A. Yes, but owner consent is required. The application should be filed by the owner or with their written consent.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What if the building's current use is already what I need?</p><p class="faq-a">A. Then no use change is needed. But confirm the building register matches the intended use before signing any lease.</p></div>
@@ -1913,7 +1913,7 @@ const blogData: BlogI18n[] = [
 <h2>5. 各案例常见挑战</h2>
 <ul><li>消防安全升级是最常见且成本最高的要求</li><li>分区兼容性——并非所有区域允许所有用途</li><li>协调用途变更时机与营业许可申请</li><li>完工后更新建筑物台账（常被忽视）</li></ul>
 <h2>6. 成功关键因素</h2>
-<ul><li>签订租约前预先与当地建筑部门协商</li><li>尽早聘请有执照的建筑师</li><li>预留3~6个月用于许可证+营业执照+检查</li></ul>
+<ul><li>签订租约前预先与当地建筑部门协商</li><li>尽早聘请有执照的建筑师</li><li>为许可证+营业执照+检查预留充足时间（时间因主管机关而异）</li></ul>
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 租户（非建筑物所有者）可以申请用途变更吗？</p><p class="faq-a">A. 可以，但需要所有者同意。申请应由所有者提交或附有其书面同意书。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 如果建筑当前用途已符合我的需求怎么办？</p><p class="faq-a">A. 则无需申请用途变更。但在签署任何租约前，请确认建筑物台账与预期用途一致。</p></div>
@@ -1940,7 +1940,7 @@ const blogData: BlogI18n[] = [
 <h2>5. 各事例に共通する課題</h2>
 <ul><li>消防安全アップグレードが最も一般的で費用のかかる要件</li><li>用途地域の適合性 — すべてのエリアがすべての用途を許可するわけではない</li><li>用途変更のタイミングと営業許可申請の調整</li><li>完了後の建築物台帳の更新（しばしば忘れられる）</li></ul>
 <h2>6. 成功の重要因子</h2>
-<ul><li>賃貸契約を結ぶ前に地方建築部門と事前協議する</li><li>早めに一級建築士を起用する</li><li>許可 + 営業許可 + 検査で3〜6ヶ月の余裕を見る</li></ul>
+<ul><li>賃貸契約を結ぶ前に地方建築部門と事前協議する</li><li>早めに一級建築士を起用する</li><li>許可 + 営業許可 + 検査には十分な余裕を見る（期間は管轄機関により異なる）</li></ul>
 <div class="faq-section"><h2>よくある質問</h2>
 <div class="faq-item"><p class="faq-q">Q. テナント（建物所有者ではない）が用途変更を申請できますか？</p><p class="faq-a">A. はい。ただし所有者の同意が必要です。申請は所有者が行うか、所有者の書面による同意を添付して提出してください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 建物の現在の用途が必要なものと同じ場合はどうなりますか？</p><p class="faq-a">A. その場合、用途変更は不要です。ただし、賃貸契約を結ぶ前に建築物台帳が意図した用途と一致していることを確認してください。</p></div>
