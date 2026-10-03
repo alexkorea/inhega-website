@@ -223,7 +223,9 @@ function writeKo(e, ctx) {
     `    content: \`${e.ko.content}\``,
     '  }',
   ].join('\n')
-  fs.writeFileSync(KO_FILE, data.slice(0, idx) + ',\n' + entry + data.slice(idx), 'utf8')
+  // 마지막 항목이 이미 '},' 로 끝나 있으면(손 편집·다른 스크립트) 쉼표를 하나 더 붙여 '},,' 배열 구멍이 된다
+  // → 빌드의 페이지 데이터 수집이 undefined 항목에서 죽는다(2026-10-03 리허설에서 발견). 꼬리 쉼표를 정규화한다.
+  fs.writeFileSync(KO_FILE, data.slice(0, idx).replace(/,\s*$/, '') + ',\n' + entry + data.slice(idx), 'utf8')
   console.log(`  ✓ lib/blog-posts-data.ts += ${e.slug} (id ${id})`)
 }
 
@@ -248,7 +250,7 @@ function writeI18n(e) {
     ].join('\n')
   })
   const head = `  // ── ${e.slug} (inhega-daily ${TODAY}) ──`
-  fs.writeFileSync(I18N_FILE, data.slice(0, idx) + ',\n' + head + '\n' + blocks.join(',\n') + data.slice(idx), 'utf8')
+  fs.writeFileSync(I18N_FILE, data.slice(0, idx).replace(/,\s*$/, '') + ',\n' + head + '\n' + blocks.join(',\n') + data.slice(idx), 'utf8')
   console.log(`  ✓ lib/i18n/blog-i18n.ts += ${e.slug} × en/zh/ja`)
 }
 
