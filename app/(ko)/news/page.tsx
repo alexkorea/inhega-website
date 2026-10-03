@@ -20,9 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://inhega.co.kr/news',
     languages: {
       'ko': 'https://inhega.co.kr/news',
-      'en': 'https://inhega.co.kr/en/news',
-      'zh': 'https://inhega.co.kr/zh/news',
-      'ja': 'https://inhega.co.kr/ja/news',
+      // en/zh/ja /news 는 noindex + canonical→ko 라 hreflang 대상 아님 (M1 2026-10-03)
       'x-default': 'https://inhega.co.kr/news',
     },
   },

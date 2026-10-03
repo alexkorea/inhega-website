@@ -75,6 +75,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     }))
   )
+  // /about 은 en/zh/ja 도 index·self canonical 이고 ko 가 hreflang 으로 가리킨다 (M1 2026-10-03)
+  const langAboutPages = locales.map((l) => ({
+    url: `${base}/${l}/about`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
   const langContactPages = locales.map((l) => ({
     url: `${base}/${l}/contact`,
     lastModified: now,
@@ -102,5 +109,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  return [...staticPages, ...servicePages, ...industryPages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
+  return [...staticPages, ...servicePages, ...industryPages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langAboutPages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
 }

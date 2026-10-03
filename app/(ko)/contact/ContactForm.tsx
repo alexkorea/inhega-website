@@ -2,12 +2,13 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
-import { getServiceMenuSelectOptions } from '@/lib/services-menu'
+import { getServiceMenuSelectOptions, getServiceMenuItems } from '@/lib/services-menu'
 import { EmailOff } from '@/components/ui/EmailOff'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
 const serviceOptions = getServiceMenuSelectOptions('ko')
+const quickServices = getServiceMenuItems('ko').slice(0, 8)
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', phone: '', email: '', service: '', message: '' })
@@ -112,8 +113,9 @@ export default function ContactForm() {
               <div className={`${styles.quickServices} fade-up delay-2`}>
                 <p className={styles.quickTitle}>주요 서비스</p>
                 <div className={styles.quickList}>
-                  {serviceOptions.slice(0, 8).map((s) => (
-                    <Link key={s} href={`/services/${s}`} className={styles.quickChip}>{s}</Link>
+                  {/* 라벨로 href 를 만들면 한글 경로 404 (M1 회귀점검 2026-10-03) — 정본 href 사용 */}
+                  {quickServices.map((s) => (
+                    <Link key={s.slug} href={s.href} className={styles.quickChip}>{s.shortTitle}</Link>
                   ))}
                 </div>
               </div>

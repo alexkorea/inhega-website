@@ -8,9 +8,7 @@ export const metadata = {
     canonical: 'https://inhega.co.kr/quote',
     languages: {
       'ko': 'https://inhega.co.kr/quote',
-      'en': 'https://inhega.co.kr/en/quote',
-      'zh': 'https://inhega.co.kr/zh/quote',
-      'ja': 'https://inhega.co.kr/ja/quote',
+      // en/zh/ja /quote 는 /{l}/contact 로 307 — hreflang 대상 아님 (M1 2026-10-03)
       'x-default': 'https://inhega.co.kr/quote',
     },
   },

@@ -55,6 +55,11 @@ export function getServiceMenuSelectOptions(locale: CatalogLocale): string[] {
   return [...SERVICE_MENU[locale].map((s) => s.shortTitle), SERVICE_MENU_OTHER[locale]]
 }
 
+/** 링크용 항목(slug·href·shortTitle). 라벨로 href 를 조립하지 말 것 — 한글 경로는 404 다. */
+export function getServiceMenuItems(locale: CatalogLocale): ServiceMenuItem[] {
+  return SERVICE_MENU[locale]
+}
+
 /** 해당 로케일의 공개 서비스 수. */
 export function getServiceMenuCount(locale: CatalogLocale): number {
   return SERVICE_MENU[locale].length
