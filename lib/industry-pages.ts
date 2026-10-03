@@ -88,7 +88,7 @@ export function getIndustryLocales(slug: string): IndustryLocale[] {
 }
 
 export function getIndustryHeroImage(slug: string): string {
-  return HERO_IMAGE[slug] ?? '/images/hero-seoul.png'
+  return HERO_IMAGE[slug] ?? '/images/service-license.webp'
 }
 
 /**

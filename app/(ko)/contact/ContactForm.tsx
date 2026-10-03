@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
 import { getServiceMenuSelectOptions } from '@/lib/services-menu'
+import { EmailOff } from '@/components/ui/EmailOff'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
@@ -99,7 +100,7 @@ export default function ContactForm() {
                     <div>
                       <p className={styles.contactLabel}>{c.label}</p>
                       {c.href ? (
-                        <a href={c.href} className={styles.contactValue}>{c.value}</a>
+                        <EmailOff><a href={c.href} className={styles.contactValue}>{c.value}</a></EmailOff>
                       ) : (
                         <p className={styles.contactValue} style={{ whiteSpace: 'pre-line' }}>{c.value}</p>
                       )}

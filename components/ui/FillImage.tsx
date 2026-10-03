@@ -70,3 +70,12 @@ export function FillImage({ base, small, large, alt, sizes, priority = false, ob
 export function responsiveBase(src: string) {
   return src.replace(/\.(webp|png|jpe?g)$/i, '') + '-20260923'
 }
+
+/**
+ * `/images/service-x.webp` → `/images/service-x-flat-20261003` — 서비스 상세 히어로 전용.
+ * 단색 오버레이 rgba(11,31,58,.72) 를 미리 합성한 파일이다(scripts/build-service-hero-flat.mjs).
+ * 이걸 쓰는 곳에는 오버레이 div 를 두지 말 것 — 두 번 어두워진다.
+ */
+export function serviceHeroBase(src: string) {
+  return src.replace(/\.(webp|png|jpe?g)$/i, '') + '-flat-20261003'
+}

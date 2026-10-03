@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import TeamSection from './TeamSection'
+import { EmailOff } from '@/components/ui/EmailOff'
 
 type Locale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -292,7 +293,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
                 {s.contactRows.map((c) => (
                   <div key={c.label} style={{ display: 'flex', gap: '1rem' }}>
                     <span style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.08em', color: 'rgba(255,255,255,0.4)', minWidth: '80px', paddingTop: '2px', textTransform: 'uppercase' }}>{c.label}</span>
-                    <span style={{ fontSize: '0.9375rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, whiteSpace: 'pre-line' }}>{c.value}</span>
+                    <span style={{ fontSize: '0.9375rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, whiteSpace: 'pre-line' }}><EmailOff>{c.value}</EmailOff></span>
                   </div>
                 ))}
               </div>

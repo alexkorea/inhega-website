@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { services, isDeployHold } from '@/lib/services-data'
@@ -88,9 +88,9 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
       <div style={{ paddingTop: '72px' }}>
         {/* Hero */}
         <section className={styles.hero}>
-          <div style={{ position: 'absolute', inset: 0 }}>
-            <Image src={svcKo.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
-            <div style={{ position: 'absolute', inset: 0, background: 'rgba(11,31,58,0.72)' }} />
+          {/* 오버레이(rgba(11,31,58,.72))는 이미지에 합성돼 있다 — serviceHeroBase. 배경색은 이미지 도착 전 안전망 */}
+          <div style={{ position: 'absolute', inset: 0, background: 'rgb(11,31,58)' }}>
+            <FillImage base={serviceHeroBase(svcKo.image)} small={500} large={800} alt={svc.title} sizes="100vw" priority />
           </div>
           <div className="container" style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>

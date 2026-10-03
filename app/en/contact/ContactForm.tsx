@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from '../../contact/page.module.css'
 import { getT } from '@/lib/i18n/translations'
 import { getServiceMenuSelectOptions } from '@/lib/services-menu'
+import { EmailOff } from '@/components/ui/EmailOff'
 
 const t = getT('en')
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
@@ -88,7 +89,7 @@ export default function ContactForm() {
                     <div>
                       <p className={styles.contactLabel}>{c.label}</p>
                       {c.href ? (
-                        <a href={c.href} className={styles.contactValue}>{c.value}</a>
+                        <EmailOff><a href={c.href} className={styles.contactValue}>{c.value}</a></EmailOff>
                       ) : (
                         <p className={styles.contactValue} style={{ whiteSpace: 'pre-line' }}>{c.value}</p>
                       )}

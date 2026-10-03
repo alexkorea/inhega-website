@@ -1,7 +1,7 @@
 // I2 신규 업종 서비스 페이지 — 기존 /services/[slug] 템플릿(히어로·본문·사이드바 CTA)과
 // 같은 골격에 원고(content/industry-pages)를 그대로 싣는다. 4언어 라우트가 공용으로 쓴다.
 // 화면 문구는 기존 서비스 페이지 템플릿의 라벨을 그대로 옮긴 것이고, 본문은 원고뿐이다.
-import Image from 'next/image'
+import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
@@ -140,9 +140,9 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
       <div style={{ paddingTop: '72px', ...(lang === 'zh' || lang === 'ja' ? { wordBreak: 'normal' as const } : {}) }}>
         {/* Hero */}
         <section className={styles.hero}>
-          <div style={{ position: 'absolute', inset: 0 }}>
-            <Image src={getIndustryHeroImage(slug)} alt={page.h1} fill style={{ objectFit: 'cover' }} />
-            <div style={{ position: 'absolute', inset: 0, background: 'rgba(11,31,58,0.72)' }} />
+          {/* 오버레이(rgba(11,31,58,.72))는 이미지에 합성돼 있다 — serviceHeroBase. 배경색은 이미지 도착 전 안전망 */}
+          <div style={{ position: 'absolute', inset: 0, background: 'rgb(11,31,58)' }}>
+            <FillImage base={serviceHeroBase(getIndustryHeroImage(slug))} small={500} large={800} alt={page.h1} sizes="100vw" priority />
           </div>
           <div className="container" style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>
