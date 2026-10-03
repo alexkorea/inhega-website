@@ -10860,7 +10860,7 @@ export const blogPosts: BlogPost[] = [
 <div class="faq-item"><p class="faq-q">Q. 한옥체험업 등록을 직접 할 수 있나요?</p><p class="faq-a">A. 가능합니다. 관광진흥법 제4조 제1항에 따라 시장·군수·구청장에게 직접 등록할 수 있습니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 서울과 경기에서 등록 기관이 다른가요?</p><p class="faq-a">A. 한옥 소재지 관할 구청·시청·군청이 접수 기관입니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 처리기간은 며칠인가요?</p><p class="faq-a">A. 등록신청서 서식상 14일입니다.</p></div>
-<div class="faq-item"><p class="faq-q">Q. 수수료는 얼마인가요?</p><p class="faq-a">A. 시행규칙 별표 23의 그 밖의 관광사업 항목 30,000원(숙박시설이 있는 경우 매 실당 700원 가산)으로 읽히며 관할 기관에서 확인하십시오(관광진흥법 시행규칙 별표 23, 2026-10-03 조회 기준).</p></div>
+<div class="faq-item"><p class="faq-q">Q. 수수료는 얼마인가요?</p><p class="faq-a">A. 관광진흥법 시행규칙 별표 23의 그 밖의 관광사업 항목 30,000원(숙박시설이 있는 경우 매 실당 700원 가산)으로 읽히며 관할 기관에서 확인하십시오(2026-10-03 조회 기준).</p></div>
 <div class="faq-item"><p class="faq-q">Q. 어떤 서류가 추가로 필요한가요?</p><p class="faq-a">A. 시설의 평면도 및 배치도, 한옥체험업 시설별 일람표(별지 제3호의3서식)입니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 안전·위생 교육을 받아야 하나요?</p><p class="faq-a">A. 법 제20조의3에 따라 한옥체험업 등록을 한 자는 안전 및 위생 교육을 받아야 합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 행정사가 등록 결과를 약속할 수 있나요?</p><p class="faq-a">A. 아닙니다. 등록은 관할 기관이 판단하며 행정사가 결과를 약속할 수 없습니다.</p></div>
