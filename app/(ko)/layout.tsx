@@ -51,6 +51,11 @@ export default function KoLayout({ children }: { children: React.ReactNode }) {
       {/* hreflang is emitted from Metadata.alternates.languages (per-page); do not hardcode here — it double-outputs. */}
       <head>
         <Webfonts />
+        {/* 0951 모바일 LCP: <head> 끝 인라인 스크립트는 스타일시트가 올 때까지 파서를 세운다.
+            파서가 <body> 에 닿기 전엔 Chrome 이 Low 우선순위(Next JS 청크)를 미루므로
+            CSS·임계 폰트·히어로가 대역을 먼저 쓰고 JS 는 첫 페인트 뒤에 실행된다. 빈 스크립트는
+            파서를 세우지 않으니 내용을 지우지 말 것. */}
+        <script dangerouslySetInnerHTML={{ __html: 'void 0' }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
