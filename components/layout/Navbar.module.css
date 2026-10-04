@@ -134,8 +134,10 @@
 }
 
 .megaMenu {
-  position: absolute;
-  top: calc(100% + 0.75rem);
+  /* 1120px 메뉴를 버튼 기준으로 가운데 맞추면 1440 에서 왼쪽이 잘린다(버튼이 화면 중앙이 아니다).
+     화면 기준으로 가운데 맞춘다 — 헤더는 transform 이 없는 fixed 라 viewport 기준이 된다. (0949) */
+  position: fixed;
+  top: 68px;
   left: 50%;
   transform: translateX(-50%);
   /* 서비스 전체(기존 24 + 신규 업종) 분야 그룹 4열 — 0949 2026-10-04 (이전: 24종 3열) */
