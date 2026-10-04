@@ -86,8 +86,8 @@ export default function ContactForm() {
                       </svg>
                     ),
                     label: '이메일',
-                    value: 'teamone1163@gmail.com',
-                    href: 'mailto:teamone1163@gmail.com',
+                    value: 'help@inhega.co.kr',
+                    href: 'mailto:help@inhega.co.kr',
                   },
                   {
                     icon: (

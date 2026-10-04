@@ -231,7 +231,7 @@ A. 처음부터는 아니지만 보완 사항이 시설 구조와 관련되면 �
 **비전 행정사사무소 (VISION Administrative Office)**
 
 - 전화: **02-363-2251**
-- 이메일: **teamone1163@gmail.com**
+- 이메일: **help@inhega.co.kr**
 - 카카오톡: **alexkorea**
 - 주소: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)
 

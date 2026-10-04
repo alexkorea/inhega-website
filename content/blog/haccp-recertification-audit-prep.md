@@ -462,7 +462,7 @@ HACCP 재인증은 서류가 많아서가 아니라, **3년 운영 기록의 일
   <h3 style="color:#1e40af;margin-top:0">비전 행정사사무소 상담 안내
   <ul style="list-style:none;padding-left:0;line-height:1.9">
     <li>📞 <strong>전화</strong>: 02-363-2251</li>
-    <li>📧 <strong>이메일</strong>: teamone1163@gmail.com</li>
+    <li>📧 <strong>이메일</strong>: help@inhega.co.kr</li>
     <li>🏢 <strong>주소</strong>: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
   </ul>
   <p style="margin-bottom:0;color:#1e3a8a">HACCP 재인증, 변경인증, 신규 인증, 개선 보고까지 인허가 전 영역을 다룹니다. 실사일이 임박했다면 먼저 전화로 일정부터 확인하세요.</p>

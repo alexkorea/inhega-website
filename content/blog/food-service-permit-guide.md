@@ -139,6 +139,6 @@ A. 네, 정부24(www.gov.kr)에서 '영업신고' 검색 후 온라인으로 신
 <div style="background:#fff5f5;border:2px solid #A33344;border-radius:12px;padding:24px;margin:40px 0;text-align:center">
   <h3 style="color:#A33344;margin-top:0">음식점 영업신고, 인허가 전문가와 함께하세요</h3>
   <p style="margin:8px 0">유선행정사사무소는 음식점 영업신고부터 위생교육 안내, 관련 인허가까지 원스톱으로 지원합니다.</p>
-  <p style="margin:8px 0"><strong>Tel. 02-363-2251</strong> | E. teamone1163@gmail.com</p>
+  <p style="margin:8px 0"><strong>Tel. 02-363-2251</strong> | E. help@inhega.co.kr</p>
   <p style="margin:4px 0;color:#666;font-size:14px">평일 09:30 — 17:30 (점심 12:00 — 13:00)</p>
 </div>

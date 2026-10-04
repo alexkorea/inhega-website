@@ -44,7 +44,7 @@ export default function PrivacyPage() {
               },
               {
                 title: '6. 개인정보 보호책임자',
-                content: '사무소는 개인정보 처리에 관한 업무를 총괄하여 책임지고, 정보주체의 개인정보 관련 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n• 개인정보 보호책임자: 유선행정사사무소 대표\n• 이메일: teamone1163@gmail.com\n• 메신저: alexkorea'
+                content: '사무소는 개인정보 처리에 관한 업무를 총괄하여 책임지고, 정보주체의 개인정보 관련 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n• 개인정보 보호책임자: 유선행정사사무소 대표\n• 이메일: help@inhega.co.kr\n• 메신저: alexkorea'
               },
             ].map((section) => (
               <div key={section.title} style={{ marginBottom: '2.5rem' }}>

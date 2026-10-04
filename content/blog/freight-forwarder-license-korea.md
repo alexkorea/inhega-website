@@ -368,7 +368,7 @@ A. 외국인이 대표자여도 등록 자체는 가능하지만, **체류자격
   <p><strong>비전 행정사사무소</strong></p>
   <ul style="list-style:none;padding-left:0">
     <li>📞 전화: <strong>02-363-2251</strong></li>
-    <li>✉️ 이메일: <strong>teamone1163@gmail.com</strong></li>
+    <li>✉️ 이메일: <strong>help@inhega.co.kr</strong></li>
     <li>📍 주소: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
   </ul>
   <p>국제물류주선업 등록 자격 진단과 자본금·사무실·보증보험 준비 일정을 한 번에 잡아드립니다. 지금 <strong>무료 상담 신청하기</strong>.</p>

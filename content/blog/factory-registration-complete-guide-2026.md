@@ -147,7 +147,7 @@ slug: "factory-registration-complete-guide-2026"
 유선행정사사무소는 18개 인허가 분야 전문 행정사 그룹으로, 공장등록·제조업등록·환경 인허가를 원스톱으로 처리합니다.
 
 📞 무료 상담: 02-363-2251 (월-금 09:30-18:30 KST)
-📧 이메일: teamone1163@gmail.com
+📧 이메일: help@inhega.co.kr
 💬 카카오톡: alexkorea
 
 [👉 무료 상담 신청하기](/contact)

@@ -496,7 +496,7 @@ slug: "logistics-forwarding-vs-freight-forwarding-comparison"
   <strong style="color:#1e40af">📞 비전 행정사사무소 무료 상담 안내</strong>
   <ul style="margin-top:12px;list-style:none;padding-left:0">
     <li><strong>전화:</strong> 02-363-2251</li>
-    <li><strong>이메일:</strong> teamone1163@gmail.com</li>
+    <li><strong>이메일:</strong> help@inhega.co.kr</li>
     <li><strong>주소:</strong> (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
     <li><strong>사무소명:</strong> 비전 행정사사무소</li>
   </ul>

@@ -239,7 +239,7 @@ export default function AboutPage() {
               <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {[
                   { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩) | 동대문역사문화공원역 4번출구 10미터' },
-                  { label: '이메일', value: 'teamone1163@gmail.com' },
+                  { label: '이메일', value: 'help@inhega.co.kr' },
                   { label: '메신저', value: '카카오·라인·위챗·왓츠앱 alexkorea' },
                 ].map((c) => (
                   <div key={c.label} style={{ display: 'flex', gap: '1rem' }}>

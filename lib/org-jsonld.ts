@@ -29,7 +29,7 @@ const organizationBase = {
   taxID: '722-39-01297',
   founder: { '@type': 'Person', name: '정유선' },
   telephone: '+82-2-363-2251',
-  email: 'teamone1163@gmail.com',
+  email: 'help@inhega.co.kr',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '퇴계로 324, 3층 (성우빌딩)',
@@ -44,7 +44,7 @@ const organizationBase = {
       contactType: 'customer service',
       telephone: '+82-2-363-2251',
       areaServed: 'KR',
-      email: 'teamone1163@gmail.com',
+      email: 'help@inhega.co.kr',
     },
   ],
   areaServed: { '@type': 'Country', name: 'South Korea' },

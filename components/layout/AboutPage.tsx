@@ -58,7 +58,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: '찾아오시는 방법',
     contactRows: [
       { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩) | 동대문역사문화공원역 4번출구 10미터' },
-      { label: '이메일', value: 'teamone1163@gmail.com' },
+      { label: '이메일', value: 'help@inhega.co.kr' },
       { label: '메신저', value: '카카오·라인·위챗·왓츠앱 ID: alexkorea' },
       { label: '업무시간', value: '평일 09:30 – 17:30 (KST)\n토·일·공휴일 휴무' },
     ],
@@ -95,7 +95,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: 'How to Find Us',
     contactRows: [
       { label: 'Address', value: '3F Seongwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul (04614) | 10m from Exit 4, Dongdaemun History & Culture Park Station' },
-      { label: 'Email', value: 'teamone1163@gmail.com' },
+      { label: 'Email', value: 'help@inhega.co.kr' },
       { label: 'Messenger', value: 'KakaoTalk · LINE · WeChat · WhatsApp ID: alexkorea' },
       { label: 'Hours', value: 'Mon–Fri 09:30–17:30 (KST)\nSat, Sun & Public Holidays: Closed' },
     ],
@@ -132,7 +132,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: '如何前来',
     contactRows: [
       { label: '地址', value: '首尔特别市中区退溪路324号成宇大厦3层(04614) | 东大门历史文化公园站4号出口步行10米' },
-      { label: '邮件', value: 'teamone1163@gmail.com' },
+      { label: '邮件', value: 'help@inhega.co.kr' },
       { label: '即时通讯', value: 'KakaoTalk · LINE · WeChat · WhatsApp ID: alexkorea' },
       { label: '营业时间', value: '周一至周五 09:30–17:30 (KST)\n周六、周日及法定节假日休息' },
     ],
@@ -169,7 +169,7 @@ const d: Record<Locale, LocaleData> = {
     locationH2: 'お越しの方へ',
     contactRows: [
       { label: '住所', value: 'ソウル特別市中区退溪路324 成宇ビル3F (04614) | 東大門歴史文化公園駅4番出口 徒歩10m' },
-      { label: 'メール', value: 'teamone1163@gmail.com' },
+      { label: 'メール', value: 'help@inhega.co.kr' },
       { label: 'メッセンジャー', value: 'KakaoTalk · LINE · WeChat · WhatsApp ID: alexkorea' },
       { label: '営業時間', value: '月〜金 09:30–17:30（KST）\n土・日・祝日休み' },
     ],

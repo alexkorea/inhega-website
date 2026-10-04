@@ -456,7 +456,7 @@ R&D 비중이 큰 제조·소프트웨어 기업은 연구개발 유형이 유�
   <h3 style="color:#1e40af;margin-top:0">비전 행정사사무소 (VISION Administrative Office)
   <ul style="list-style:none;padding-left:0;line-height:2">
     <li><strong>전화:</strong> 02-363-2251</li>
-    <li><strong>이메일:</strong> teamone1163@gmail.com</li>
+    <li><strong>이메일:</strong> help@inhega.co.kr</li>
     <li><strong>주소:</strong> (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
   </ul>
 </div>

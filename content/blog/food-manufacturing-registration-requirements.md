@@ -523,7 +523,7 @@ A. 아니요. 등록은 영업장 단위로 한 번 받는 것이고, 신제품�
   <h3 style="color:#1e40af;margin-top:0">비전 행정사사무소
   <ul style="list-style:none;padding-left:0;line-height:1.8">
     <li><strong>전화</strong>: 02-363-2251</li>
-    <li><strong>이메일</strong>: teamone1163@gmail.com</li>
+    <li><strong>이메일</strong>: help@inhega.co.kr</li>
     <li><strong>주소</strong>: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
   </ul>
   <p style="margin-bottom:0;color:#1e3a8a">임대차 계약 전에 먼저 연락 주시면 불필요한 비용을 줄일 수 있습니다.</p>

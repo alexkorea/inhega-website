@@ -462,7 +462,7 @@ slug: "building-use-change-permit-procedure"
 <div style="background:#f0f7ff;border:1px solid #93c5fd;padding:24px;border-radius:8px;margin:20px 0">
   <strong style="color:#1e40af;font-size:18px">비전 행정사사무소</strong><br><br>
   📞 <strong>전화:</strong> 02-363-2251<br>
-  📧 <strong>이메일:</strong> teamone1163@gmail.com<br>
+  📧 <strong>이메일:</strong> help@inhega.co.kr<br>
   📍 <strong>주소:</strong> (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)<br><br>
   용도변경 가능 여부 사전 검토부터 상담 가능합니다. 건축물대장, 토지이용계획확인서를 미리 준비해 주시면 보다 정확한 안내를 받을 수 있습니다.
 </div>
