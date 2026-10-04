@@ -4,13 +4,14 @@
 // unicode-range 밖인 글자가 1자라도 있으면 실패한다. 밖인 글자는 시스템 폰트로 그려져
 // 한 줄 안에서 글꼴이 섞인다.
 //   홈(/, /en, /zh, /ja) → 'Pretendard Critical'(09-24 critical+widget ∪ home-chars.txt) 커버리지
-//   그 밖              → 'Pretendard Site'(site + ext) 커버리지
+//   /news(KV 런타임)    → 'Pretendard Site'(site + KS X 1001 보충 ext) 커버리지
+//   그 밖              → 'Pretendard Site'(site) 커버리지
 // 커버리지는 scripts/build-font-subset.py 가 쓴 scripts/fonts/coverage.json 을 읽는다.
 //
 //   node scripts/font-gate.mjs                   빌드 산출물(.next/server/app/**/*.html) 전건
 //   node scripts/font-gate.mjs --base <url>      <url>/sitemap.xml 전 URL 을 받아 검사(프리뷰·라이브)
-//   --fix-home  홈만 실패했으면 그 글자를 scripts/fonts/home-chars.txt 에 더하고 종료코드 2
-//               (scripts/build.sh 가 서브셋을 다시 굽고 한 번 더 빌드한다)
+//   --fix       빌드 모드에서 밖 글자를 홈은 home-chars.txt, 나머지는 extra-chars.txt 에 더하고 종료코드 2
+//               (scripts/build.sh 가 서브셋을 다시 굽고 한 번 더 빌드한다. 두 번째도 실패면 1)
 // 검사 대상은 그려지는 텍스트다 — <script>(JSON-LD·RSC 페이로드)·<style>·주석은 뺀다.
 // 속성(alt·aria-label·placeholder 등)은 그려질 수 있으므로 남긴다.
 import { readFileSync, readdirSync, statSync, existsSync, appendFileSync } from 'node:fs'
@@ -19,6 +20,8 @@ import { join, relative } from 'node:path'
 const ROOT = new URL('..', import.meta.url).pathname
 const cov = JSON.parse(readFileSync(join(ROOT, 'scripts/fonts/coverage.json'), 'utf8'))
 const site = new Set(cov.site), home = new Set(cov.home), cmap = new Set(cov.cmap)
+const news = new Set([...cov.site, ...cov.ext])
+const NEWS = /^(\/(en|zh|ja))?\/news(\/|$)/
 const HOME = new Set(['/', '/en', '/zh', '/ja'])
 const isHangul = (c) => (c >= 0xac00 && c <= 0xd7a3) || (c >= 0x3131 && c <= 0x318e)
 
@@ -28,7 +31,7 @@ const visible = (html) => html
   .replace(/<!--[\s\S]*?-->/g, '')
 
 function check(path, html) {
-  const need = HOME.has(path) ? home : site
+  const need = HOME.has(path) ? home : NEWS.test(path) ? news : site
   const miss = new Set()
   for (const ch of visible(html)) {
     const c = ch.codePointAt(0)
@@ -71,22 +74,23 @@ if (argBase > 0) {
   }
 }
 
-let bad = 0, errs = 0, badOther = 0
-const total = new Set(), homeMiss = new Set()
+let bad = 0, errs = 0
+const total = new Set(), homeMiss = new Set(), siteMiss = new Set()
 for (const { path, html, status } of pages.sort((a, b) => a.path.localeCompare(b.path))) {
   if (status !== 200) { errs++; console.error(`[font-gate] ${status} ${path}`); continue }
   const miss = check(path, html)
   if (miss.size) {
     bad++; miss.forEach((c) => total.add(c))
-    if (HOME.has(path)) miss.forEach((c) => homeMiss.add(c)); else badOther++
+    miss.forEach((c) => (HOME.has(path) ? homeMiss : siteMiss).add(c))
     console.error(`[font-gate] FAIL ${path} 밖 ${miss.size}자: ${[...miss].join('')}`)
   }
 }
 console.log(`[font-gate] ${pages.length}쪽 검사, 서브셋 밖 한글 ${total.size}자(${bad}쪽), 응답오류 ${errs}`)
-if (process.argv.includes('--fix-home') && homeMiss.size && !badOther && !errs) {
-  appendFileSync(join(ROOT, 'scripts/fonts/home-chars.txt'),
-    `# ${new Date().toISOString()} font-gate --fix-home\n${[...homeMiss].sort().join('')}\n`)
-  console.error(`[font-gate] 홈 글자 ${homeMiss.size}자를 home-chars.txt 에 더했다 — 서브셋 재생성 후 재빌드 필요`)
+if (process.argv.includes('--fix') && argBase < 0 && bad && !errs) {
+  const stamp = `# ${new Date().toISOString()} font-gate --fix`
+  if (homeMiss.size) appendFileSync(join(ROOT, 'scripts/fonts/home-chars.txt'), `${stamp}\n${[...homeMiss].sort().join('')}\n`)
+  if (siteMiss.size) appendFileSync(join(ROOT, 'scripts/fonts/extra-chars.txt'), `${stamp}\n${[...siteMiss].sort().join('')}\n`)
+  console.error(`[font-gate] 홈 ${homeMiss.size}자·그 밖 ${siteMiss.size}자를 보충 목록에 더했다 — 서브셋 재생성 후 재빌드`)
   process.exit(2)
 }
 process.exit(bad || errs ? 1 : 0)

@@ -27,15 +27,18 @@
  *   홈(/, /en, /zh, /ja) — 'Pretendard Critical'(09-24 파일 그대로, 93KB). LCP 조건 불변.
  *   그 밖                 — 'Pretendard Site'(빌드마다 재생성하는 한 파일). 전부 아니면 전부 폴백.
  * 홈은 --font-kr-face 를 :root 에서 덮어쓴다. 클라이언트 이동에도 경로를 따라 바뀐다.
+ * /news 는 KV 런타임 원고라 빌드 코퍼스 밖 글자가 올 수 있어 KS X 1001 보충 면(ext 시트)을 더 붙인다.
  */
 import { usePathname } from 'next/navigation'
-import { HOME_FONT_HREF, SITE_FONT_HREF } from '@/lib/fonts.generated'
+import { EXT_CSS_HREF, HOME_FONT_HREF, SITE_FONT_HREF } from '@/lib/fonts.generated'
 
 const HOME_PATHS = new Set(['/', '/en', '/zh', '/ja'])
+const NEWS_PATH = /^(\/(en|zh|ja))?\/news(\/|$)/
 
 export default function Webfonts() {
   const path = (usePathname() || '/').replace(/(.)\/+$/, '$1')
   const home = HOME_PATHS.has(path)
+  const news = NEWS_PATH.test(path)
   return (
     <>
       <link
@@ -46,6 +49,7 @@ export default function Webfonts() {
         fetchPriority="low"
         href={home ? HOME_FONT_HREF : SITE_FONT_HREF}
       />
+      {news && <link rel="stylesheet" href={EXT_CSS_HREF} precedence="default" />}
       {home && <style>{`:root{--font-kr-face:'Pretendard Critical'}`}</style>}
     </>
   )

@@ -17,10 +17,11 @@ Pretendard 사이트 서브셋 생성기 — prebuild 에서 매번 돈다(맥7 
   · 'Pretendard Site'     — 홈 외 전 페이지. 소스 전체 글자를 **한 파일**에 담는다.
                             한 파일이라 optional 의 결과가 '전부 Pretendard' 아니면 '전부 폴백' 뿐이다.
   · 'Pretendard Site' ext — KS X 1001 완성형 2,350자 중 위에 없는 글자, 4조각.
-                            런타임 원고(/news KV 등)용 안전망. 쓰는 페이지만 그 조각을 받는다.
+                            런타임 원고(/news KV)용 안전망. @font-face 는 public/fonts/pretendard-ext-<hash>.css
+                            에 따로 두고 /news 경로에서만 붙인다(렌더블로킹 CSS 를 안 키운다).
   홈/서브 구분은 components/ui/Webfonts.tsx 가 경로로 한다.
 
-코퍼스 = app·components·lib·content·scripts/inhega-daily(bank 포함) 의 텍스트 파일 전부
+코퍼스 = app·components·lib·content·scripts/inhega-daily/bank 의 텍스트 파일 전부(코드 주석 제외)
        + scripts/fonts/extra-chars.txt(위젯 JS 가 꽂는 글자) + 09-24 세 파일의 글자
        + 각 글자의 대·소문자 변형(text-transform: uppercase 가 원문에 없는 글자를 그린다).
   가나·CJK 기호(U+3000–30FF)는 넣지 않는다 — 한자는 Pretendard 에 없으므로 ja 본문은
@@ -49,7 +50,8 @@ SRC = Path.home() / ".cache" / "pretendard" / "PretendardVariable-1.3.9.ttf"
 FROZEN = ["pretendard-critical-20260924.woff2", "pretendard-rest-20260924.woff2",
           "pretendard-widget-20260924.woff2"]
 HOME_FILES = ["pretendard-critical-20260924.woff2", "pretendard-widget-20260924.woff2"]
-SCAN_DIRS = ["app", "components", "lib", "content", "scripts/inhega-daily"]
+SCAN_DIRS = ["app", "components", "lib", "content", "scripts/inhega-daily/bank"]
+CODE_EXT = {".ts", ".tsx", ".js", ".mjs", ".css"}
 SCAN_EXT = {".ts", ".tsx", ".js", ".mjs", ".json", ".md", ".mdx", ".css", ".txt", ".html"}
 ALWAYS = set([chr(c) for c in range(0x20, 0x7F)] + [chr(c) for c in range(0xA0, 0x100)]
              + list("‘’“”…·–—•→←↑↓×÷±≤≥≠※○●◦■□▲▼▴▾◆★☆✓✔✕✖©®™₩€$¥£"))
@@ -81,12 +83,24 @@ def corpus() -> set:
     for d in SCAN_DIRS:
         for p in (ROOT / d).rglob("*"):
             if p.is_file() and p.suffix in SCAN_EXT and ".bak" not in p.name and p != TS:
-                s |= set(p.read_text(encoding="utf-8", errors="ignore"))
+                t = p.read_text(encoding="utf-8", errors="ignore")
+                if p.suffix in CODE_EXT:
+                    t = strip_comments(t)
+                s |= set(t)
     s |= chars_file(EXTRA) | chars_file(HOME_EXTRA)
     for f in FROZEN:
         s |= font_chars(FONTS / f)
     s |= ALWAYS
     return with_case(s)
+
+
+def strip_comments(t: str) -> str:
+    """코드 주석의 한글은 화면에 안 나온다 — 빼면 site 파일이 ~17% 준다.
+    거칠게 지운다(문자열 안의 ' // ' 까지 지울 수 있다). 지나치게 지워 그려지는 글자가 빠지면
+    font-gate --fix 가 extra-chars.txt 에 보충하고 build.sh 가 한 번 더 빌드한다."""
+    t = re.sub(r"/\*[\s\S]*?\*/", "", t)
+    t = re.sub(r"\{/\*[\s\S]*?\*/\}", "", t)
+    return re.sub(r"(^|[\s;{}(),])//[^\n]*", r"\1", t, flags=re.M)
 
 
 def chars_file(path: Path) -> set:
@@ -164,17 +178,24 @@ def main():
         if part:
             ext.append((subset(f"ext{i+1}", part, src), part))
 
-    live = set(FROZEN) | {home, site} | {f for f, _ in ext}
-    for p in FONTS.glob("pretendard-*.woff2"):
-        if p.name not in live and re.match(r"pretendard-(home|site|ext\d)-[0-9a-f]{10}\.woff2$", p.name):
-            p.unlink(); print(f"[font-subset] 낡은 파일 삭제 {p.name}", file=sys.stderr)
-
     face = ("@font-face{{font-family:'{fam}';font-style:normal;font-display:optional;"
             "font-weight:45 920;src:url(/fonts/{f}) format('woff2-variations');unicode-range:{r}}}")
+    # ext 면은 globals.css 가 아니라 별도 시트 — /news(KV 런타임 원고)에서만 붙는다.
+    # 빌드 시점 페이지는 site 가 전부 덮으므로(게이트) 렌더블로킹 CSS 에 9KB 를 얹을 이유가 없다.
+    ext_css = "".join(face.format(fam="Pretendard Site", f=f, r=ranges(ord(c) for c in part)) + "\n"
+                      for f, part in ext)
+    ext_css_name = f"pretendard-ext-{hashlib.sha256(ext_css.encode()).hexdigest()[:10]}.css"
+    if not (FONTS / ext_css_name).exists():
+        (FONTS / ext_css_name).write_text(ext_css, encoding="utf-8")
+
+    live = set(FROZEN) | {home, site, ext_css_name} | {f for f, _ in ext}
+    for p in FONTS.glob("pretendard-*"):
+        if p.name not in live and re.match(r"pretendard-(home|site|ext\d?)-[0-9a-f]{10}\.(woff2|css)$", p.name):
+            p.unlink(); print(f"[font-subset] 낡은 파일 삭제 {p.name}", file=sys.stderr)
+
     block = [f"{BEGIN} — scripts/build-font-subset.py 가 prebuild 마다 다시 쓴다. 손대지 말 것. */",
              face.format(fam="Pretendard Critical", f=home, r=ranges(ord(c) for c in home_chars)),
              face.format(fam="Pretendard Site", f=site, r=ranges(ord(c) for c in keep))]
-    block += [face.format(fam="Pretendard Site", f=f, r=ranges(ord(c) for c in part)) for f, part in ext]
     block.append(END)
     css = CSS.read_text(encoding="utf-8")
     i, j = css.find(BEGIN), css.find(END)
@@ -187,11 +208,12 @@ def main():
     home_cov = home_chars
     ts = ("// scripts/build-font-subset.py 가 생성 — 손대지 말 것.\n"
           f"export const SITE_FONT_HREF = '/fonts/{site}'\n"
-          f"export const HOME_FONT_HREF = '/fonts/{home}'\n")
+          f"export const HOME_FONT_HREF = '/fonts/{home}'\n"
+          f"export const EXT_CSS_HREF = '/fonts/{ext_css_name}'\n")
     if not TS.exists() or TS.read_text(encoding="utf-8") != ts:
         TS.write_text(ts, encoding="utf-8")
     # 게이트가 읽는 커버리지(코드포인트) — 빌드 산출물만, 커밋 안 함
-    cov = {"site": sorted(ord(c) for c in keep) + [ord(c) for _, p in ext for c in p],
+    cov = {"site": sorted(ord(c) for c in keep), "ext": sorted(ord(c) for _, p in ext for c in p),
            "home": sorted(ord(c) for c in home_cov if c in cmap), "cmap": sorted(ord(c) for c in cmap)}
     (ROOT / "scripts" / "fonts" / "coverage.json").write_text(json.dumps(cov), encoding="utf-8")
     print(f"[font-subset] site {len(keep)}자 + ext {n}자 / 홈 {len(home_cov)}자", file=sys.stderr)
