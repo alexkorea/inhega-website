@@ -1,8 +1,10 @@
 import {
   SERVICE_MENU,
   SERVICE_MENU_OTHER,
+  INDUSTRY_MENU,
   type ServiceMenuItem,
 } from './services-menu.generated'
+import { groupBySlug } from './service-groups'
 // `import type` 는 컴파일에서 완전히 지워지므로 이 줄로 번들 체인이 생기지 않는다.
 import type { CatalogLocale } from './services-catalog'
 
@@ -63,4 +65,25 @@ export function getServiceMenuItems(locale: CatalogLocale): ServiceMenuItem[] {
 /** 해당 로케일의 공개 서비스 수. */
 export function getServiceMenuCount(locale: CatalogLocale): number {
   return SERVICE_MENU[locale].length
+}
+
+export interface ServiceMenuLink {
+  slug: string
+  href: string
+  shortTitle: string
+}
+
+/**
+ * 헤더 메뉴용 분야 그룹(0949, 2026-10-04) — 기존 24종 + 신규 업종 페이지 전부.
+ * 정본 lib/service-directory.ts 의 getServiceDirectory() 와 같은 묶음이어야 하고,
+ * 생성기가 매 빌드마다 순서·라벨까지 대조한다. 번역본 없는 업종은 해당 로케일에 없다.
+ */
+export function getServiceMenuByGroup(
+  locale: CatalogLocale,
+): { id: string; label: string; items: ServiceMenuLink[] }[] {
+  const items: ServiceMenuLink[] = [
+    ...SERVICE_MENU[locale].map(({ slug, href, shortTitle }) => ({ slug, href, shortTitle })),
+    ...INDUSTRY_MENU[locale],
+  ]
+  return groupBySlug(items, locale).groups
 }

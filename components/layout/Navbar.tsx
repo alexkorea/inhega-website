@@ -3,11 +3,11 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Navbar.module.css'
-import { getServiceMenuByCategory } from '@/lib/services-menu'
+import { getServiceMenuByGroup } from '@/lib/services-menu'
 
-// 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
+// 서비스 목록 단일 정본 — lib/services-catalog.ts + 신규 업종(0949, 분야 그룹)에서 구운 경량판 (하드코딩 금지)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
-const serviceGroups = getServiceMenuByCategory('ko')
+const serviceGroups = getServiceMenuByGroup('ko')
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -81,8 +81,8 @@ export default function Navbar() {
                 </div>
                 <div className={styles.megaMenuGrid}>
                   {serviceGroups.map((group) => (
-                    <div key={group.category} className={styles.megaMenuGroup}>
-                      <p className={styles.megaMenuGroupLabel}>{group.category}</p>
+                    <div key={group.id} className={styles.megaMenuGroup}>
+                      <p className={styles.megaMenuGroupLabel}>{group.label}</p>
                       {group.items.map((s) => (
                         <Link key={s.slug} prefetch={false} href={s.href} className={styles.megaMenuItem}>
                           <span className={styles.megaMenuDot} />
@@ -157,8 +157,8 @@ export default function Navbar() {
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>서비스</p>
             {serviceGroups.map((group) => (
-              <div key={group.category} className={styles.mobileServiceGroup}>
-                <p className={styles.mobileServiceGroupLabel}>{group.category}</p>
+              <div key={group.id} className={styles.mobileServiceGroup}>
+                <p className={styles.mobileServiceGroupLabel}>{group.label}</p>
                 {group.items.map((s) => (
                   <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
                     {s.shortTitle}

@@ -596,6 +596,378 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
   ]
 }
 
+/** 신규 업종 페이지(lib/industry-pages.ts) — 메뉴 전용. 폼 select 에는 들어가지 않는다. */
+export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; href: string; shortTitle: string }[]> = {
+  "ko": [
+    {
+      "slug": "restaurant-business-report",
+      "href": "/services/restaurant-business-report",
+      "shortTitle": "일반음식점 영업신고"
+    },
+    {
+      "slug": "import-food-sales",
+      "href": "/services/import-food-sales",
+      "shortTitle": "수입식품 수입판매업 영업등록"
+    },
+    {
+      "slug": "travel-agency-registration",
+      "href": "/services/travel-agency-registration",
+      "shortTitle": "여행업 등록"
+    },
+    {
+      "slug": "liquor-import-sales-license",
+      "href": "/services/liquor-import-sales-license",
+      "shortTitle": "주류 수입업 면허"
+    },
+    {
+      "slug": "accommodation-business-report",
+      "href": "/services/accommodation-business-report",
+      "shortTitle": "숙박업 영업신고"
+    },
+    {
+      "slug": "mail-order-sales-report",
+      "href": "/services/mail-order-sales-report",
+      "shortTitle": "통신판매업 신고"
+    },
+    {
+      "slug": "academy-establishment-registration",
+      "href": "/services/academy-establishment-registration",
+      "shortTitle": "학원 설립·운영 등록"
+    },
+    {
+      "slug": "kc-radio-certification",
+      "href": "/services/kc-radio-certification",
+      "shortTitle": "KC인증·전파인증"
+    },
+    {
+      "slug": "construction-business-registration",
+      "href": "/services/construction-business-registration",
+      "shortTitle": "건설업 등록"
+    },
+    {
+      "slug": "foreign-patient-attraction",
+      "href": "/services/foreign-patient-attraction",
+      "shortTitle": "외국인환자 유치업 등록"
+    },
+    {
+      "slug": "hazardous-chemical-business-permit",
+      "href": "/services/hazardous-chemical-business-permit",
+      "shortTitle": "유해화학물질 영업허가"
+    },
+    {
+      "slug": "pet-business-permit-registration",
+      "href": "/services/pet-business-permit-registration",
+      "shortTitle": "반려동물 영업 허가·등록"
+    },
+    {
+      "slug": "beauty-salon-business-report",
+      "href": "/services/beauty-salon-business-report",
+      "shortTitle": "미용업 영업신고"
+    },
+    {
+      "slug": "waste-treatment-business-permit",
+      "href": "/services/waste-treatment-business-permit",
+      "shortTitle": "폐기물처리업 허가"
+    },
+    {
+      "slug": "emission-facility-permit-report",
+      "href": "/services/emission-facility-permit-report",
+      "shortTitle": "대기·폐수 배출시설 설치 허가·신고"
+    },
+    {
+      "slug": "real-estate-development-business-registration",
+      "href": "/services/real-estate-development-business-registration",
+      "shortTitle": "부동산개발업 등록"
+    },
+    {
+      "slug": "pharmaceutical-wholesale-license",
+      "href": "/services/pharmaceutical-wholesale-license",
+      "shortTitle": "의약품 도매업 허가"
+    },
+    {
+      "slug": "car-dealer-rental-business-registration",
+      "href": "/services/car-dealer-rental-business-registration",
+      "shortTitle": "자동차매매업·자동차대여사업 등록"
+    },
+    {
+      "slug": "long-term-care-institution-designation",
+      "href": "/services/long-term-care-institution-designation",
+      "shortTitle": "장기요양기관 지정"
+    },
+    {
+      "slug": "development-act-farmland-conversion-permit",
+      "href": "/services/development-act-farmland-conversion-permit",
+      "shortTitle": "개발행위허가·농지전용허가"
+    },
+    {
+      "slug": "sports-facility-business-report",
+      "href": "/services/sports-facility-business-report",
+      "shortTitle": "체육시설업 신고"
+    },
+    {
+      "slug": "cooperative-establishment-report",
+      "href": "/services/cooperative-establishment-report",
+      "shortTitle": "협동조합 설립신고"
+    },
+    {
+      "slug": "entertainment-bar-business-permit",
+      "href": "/services/entertainment-bar-business-permit",
+      "shortTitle": "유흥주점 영업허가"
+    },
+    {
+      "slug": "campground-business-registration",
+      "href": "/services/campground-business-registration",
+      "shortTitle": "야영장업 등록"
+    },
+    {
+      "slug": "solar-power-business-permit",
+      "href": "/services/solar-power-business-permit",
+      "shortTitle": "태양광 발전사업 허가"
+    },
+    {
+      "slug": "marriage-brokerage-business-registration",
+      "href": "/services/marriage-brokerage-business-registration",
+      "shortTitle": "결혼중개업 신고·등록"
+    },
+    {
+      "slug": "money-lending-business-registration",
+      "href": "/services/money-lending-business-registration",
+      "shortTitle": "대부업 등록"
+    },
+    {
+      "slug": "entertainment-agency-business-registration",
+      "href": "/services/entertainment-agency-business-registration",
+      "shortTitle": "대중문화예술기획업 등록"
+    },
+    {
+      "slug": "disinfection-business-report",
+      "href": "/services/disinfection-business-report",
+      "shortTitle": "소독업 신고"
+    },
+    {
+      "slug": "drone-business-registration",
+      "href": "/services/drone-business-registration",
+      "shortTitle": "드론(초경량비행장치사용사업) 사업 등록"
+    },
+    {
+      "slug": "software-business-performance-management",
+      "href": "/services/software-business-performance-management",
+      "shortTitle": "소프트웨어사업자 신고(일반 현황 관리신청)"
+    },
+    {
+      "slug": "residential-lodging-business-report",
+      "href": "/services/residential-lodging-business-report",
+      "shortTitle": "생활숙박시설 숙박업 신고"
+    },
+    {
+      "slug": "rural-minbak-business-report",
+      "href": "/services/rural-minbak-business-report",
+      "shortTitle": "농어촌민박업 신고"
+    },
+    {
+      "slug": "foundation-establishment-permit",
+      "href": "/services/foundation-establishment-permit",
+      "shortTitle": "재단법인 설립 허가"
+    },
+    {
+      "slug": "overseas-remittance-business-registration",
+      "href": "/services/overseas-remittance-business-registration",
+      "shortTitle": "소액해외송금업 등록"
+    },
+    {
+      "slug": "mainbiz-management-innovation-sme",
+      "href": "/services/mainbiz-management-innovation-sme",
+      "shortTitle": "메인비즈(경영혁신형 중소기업) 선정"
+    }
+  ],
+  "en": [
+    {
+      "slug": "restaurant-business-report",
+      "href": "/en/services/restaurant-business-report",
+      "shortTitle": "General Restaurant Business Report (Restaurant Business License) in Korea"
+    },
+    {
+      "slug": "import-food-sales",
+      "href": "/en/services/import-food-sales",
+      "shortTitle": "Imported Food Importer / Distributor Business Registration in Korea"
+    },
+    {
+      "slug": "travel-agency-registration",
+      "href": "/en/services/travel-agency-registration",
+      "shortTitle": "Travel Agency (Travel Business) Registration in Korea"
+    },
+    {
+      "slug": "liquor-import-sales-license",
+      "href": "/en/services/liquor-import-sales-license",
+      "shortTitle": "Liquor Import License in Korea"
+    },
+    {
+      "slug": "accommodation-business-report",
+      "href": "/en/services/accommodation-business-report",
+      "shortTitle": "Accommodation Business (Lodging) Report in Korea"
+    },
+    {
+      "slug": "mail-order-sales-report",
+      "href": "/en/services/mail-order-sales-report",
+      "shortTitle": "Mail-Order Sales Business Report (Online Shop Registration) in Korea"
+    },
+    {
+      "slug": "academy-establishment-registration",
+      "href": "/en/services/academy-establishment-registration",
+      "shortTitle": "Private Academy (Hagwon) Establishment & Operation Registration in Korea"
+    },
+    {
+      "slug": "kc-radio-certification",
+      "href": "/en/services/kc-radio-certification",
+      "shortTitle": "KC Certification and Radio Equipment (EMC/Radio) Certification in Korea"
+    },
+    {
+      "slug": "construction-business-registration",
+      "href": "/en/services/construction-business-registration",
+      "shortTitle": "Construction Business Registration in Korea"
+    },
+    {
+      "slug": "foreign-patient-attraction",
+      "href": "/en/services/foreign-patient-attraction",
+      "shortTitle": "Foreign Patient Attraction Business Registration in Korea"
+    },
+    {
+      "slug": "overseas-remittance-business-registration",
+      "href": "/en/services/overseas-remittance-business-registration",
+      "shortTitle": "Small Overseas Remittance Business Registration"
+    },
+    {
+      "slug": "mainbiz-management-innovation-sme",
+      "href": "/en/services/mainbiz-management-innovation-sme",
+      "shortTitle": "Mainbiz (Management Innovation SME) Selection"
+    }
+  ],
+  "zh": [
+    {
+      "slug": "restaurant-business-report",
+      "href": "/zh/services/restaurant-business-report",
+      "shortTitle": "韩国一般餐饮店营业申报"
+    },
+    {
+      "slug": "import-food-sales",
+      "href": "/zh/services/import-food-sales",
+      "shortTitle": "韩国进口食品进口销售业营业登记"
+    },
+    {
+      "slug": "travel-agency-registration",
+      "href": "/zh/services/travel-agency-registration",
+      "shortTitle": "韩国旅行社(旅行业)注册"
+    },
+    {
+      "slug": "liquor-import-sales-license",
+      "href": "/zh/services/liquor-import-sales-license",
+      "shortTitle": "韩国酒类进口业执照"
+    },
+    {
+      "slug": "accommodation-business-report",
+      "href": "/zh/services/accommodation-business-report",
+      "shortTitle": "韩国住宿业营业申报"
+    },
+    {
+      "slug": "mail-order-sales-report",
+      "href": "/zh/services/mail-order-sales-report",
+      "shortTitle": "韩国通信销售业申报(网店注册)"
+    },
+    {
+      "slug": "academy-establishment-registration",
+      "href": "/zh/services/academy-establishment-registration",
+      "shortTitle": "韩国补习班(学院)设立·运营登记"
+    },
+    {
+      "slug": "kc-radio-certification",
+      "href": "/zh/services/kc-radio-certification",
+      "shortTitle": "韩国KC认证与电波(无线电)认证"
+    },
+    {
+      "slug": "construction-business-registration",
+      "href": "/zh/services/construction-business-registration",
+      "shortTitle": "韩国建设业注册"
+    },
+    {
+      "slug": "foreign-patient-attraction",
+      "href": "/zh/services/foreign-patient-attraction",
+      "shortTitle": "韩国外国患者招揽业登记"
+    },
+    {
+      "slug": "overseas-remittance-business-registration",
+      "href": "/zh/services/overseas-remittance-business-registration",
+      "shortTitle": "小额海外汇款业注册"
+    },
+    {
+      "slug": "mainbiz-management-innovation-sme",
+      "href": "/zh/services/mainbiz-management-innovation-sme",
+      "shortTitle": "Mainbiz(经营创新型中小企业)遴选"
+    }
+  ],
+  "ja": [
+    {
+      "slug": "restaurant-business-report",
+      "href": "/ja/services/restaurant-business-report",
+      "shortTitle": "韓国の一般飲食店 営業届出"
+    },
+    {
+      "slug": "import-food-sales",
+      "href": "/ja/services/import-food-sales",
+      "shortTitle": "韓国の輸入食品等 輸入・販売業 営業登録"
+    },
+    {
+      "slug": "travel-agency-registration",
+      "href": "/ja/services/travel-agency-registration",
+      "shortTitle": "韓国の旅行業登録"
+    },
+    {
+      "slug": "liquor-import-sales-license",
+      "href": "/ja/services/liquor-import-sales-license",
+      "shortTitle": "韓国の酒類輸入業免許"
+    },
+    {
+      "slug": "accommodation-business-report",
+      "href": "/ja/services/accommodation-business-report",
+      "shortTitle": "韓国の宿泊業 営業届出"
+    },
+    {
+      "slug": "mail-order-sales-report",
+      "href": "/ja/services/mail-order-sales-report",
+      "shortTitle": "韓国の通信販売業 届出(ネットショップ登録)"
+    },
+    {
+      "slug": "academy-establishment-registration",
+      "href": "/ja/services/academy-establishment-registration",
+      "shortTitle": "韓国の学院(塾)設立・運営登録"
+    },
+    {
+      "slug": "kc-radio-certification",
+      "href": "/ja/services/kc-radio-certification",
+      "shortTitle": "韓国のKC認証・電波(無線)認証"
+    },
+    {
+      "slug": "construction-business-registration",
+      "href": "/ja/services/construction-business-registration",
+      "shortTitle": "韓国の建設業登録"
+    },
+    {
+      "slug": "foreign-patient-attraction",
+      "href": "/ja/services/foreign-patient-attraction",
+      "shortTitle": "韓国の外国人患者誘致業 登録"
+    },
+    {
+      "slug": "overseas-remittance-business-registration",
+      "href": "/ja/services/overseas-remittance-business-registration",
+      "shortTitle": "小額海外送金業の登録"
+    },
+    {
+      "slug": "mainbiz-management-innovation-sme",
+      "href": "/ja/services/mainbiz-management-innovation-sme",
+      "shortTitle": "メインビズ(経営革新型中小企業)選定"
+    }
+  ]
+}
+
 export const SERVICE_MENU_OTHER: Record<'ko' | 'en' | 'zh' | 'ja', string> = {
   "ko": "기타",
   "en": "Other",

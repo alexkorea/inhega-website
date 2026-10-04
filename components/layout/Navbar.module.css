@@ -138,8 +138,8 @@
   top: calc(100% + 0.75rem);
   left: 50%;
   transform: translateX(-50%);
-  /* 서비스 24종 카테고리 그룹 3열 — 2026-09-22 */
-  width: min(940px, calc(100vw - 2rem));
+  /* 서비스 전체(기존 24 + 신규 업종) 분야 그룹 4열 — 0949 2026-10-04 (이전: 24종 3열) */
+  width: min(1120px, calc(100vw - 2rem));
   background: var(--navy);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 16px;
@@ -178,12 +178,12 @@
 .megaMenuGrid {
   /* 카테고리 그룹은 높이가 제각각이라 grid 로 짜면 행마다 빈칸이 크게 남는다.
      다단(multi-column)으로 위에서부터 촘촘히 채운다 — 2026-09-22 */
-  columns: 3;
-  column-gap: 1.5rem;
+  columns: 4;
+  column-gap: 1.25rem;
   column-rule: 1px solid rgba(255,255,255,0.06);
   margin-bottom: 1.25rem;
   /* 카테고리가 늘어나도 뷰포트를 넘지 않게 한다 */
-  max-height: min(64vh, 520px);
+  max-height: min(68vh, 600px);
   overflow-y: auto;
 }
 
@@ -208,7 +208,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 0.625rem;
+  padding: 0.3125rem 0.625rem;
+  line-height: 1.35;
   font-size: 0.8125rem;
   color: rgba(255,255,255,0.65);
   border-radius: 6px;

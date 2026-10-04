@@ -1,7 +1,8 @@
-import { FillImage, responsiveBase } from '@/components/ui/FillImage'
+import { FillImage } from '@/components/ui/FillImage'
 import Link from 'next/link'
 import styles from './page.module.css'
-import { getServiceCatalog } from '@/lib/services-catalog'
+import { getDirectoryCount } from '@/lib/service-directory'
+import ServiceDirectory from '@/components/services/ServiceDirectory'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
@@ -69,9 +70,8 @@ const whyAttorney = [
   { title: '허가 실패 리스크 예방', desc: '경험이 부족하면 반려, 지연, 거절 등의 리스크가 높아집니다. 전문행정사의 검토는 곧 안정적인 허가의 시작입니다.' },
 ]
 
-// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
-// 보스 확정 대기분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
-const featuredServices = getServiceCatalog('ko')
+// 서비스 수 = 기존 24종 + 신규 업종 페이지(0949). "N종" 문구는 전부 이 값 — 하드코딩 금지.
+const serviceCount = getDirectoryCount('ko')
 
 export default function HomePage() {
   return (
@@ -171,46 +171,14 @@ export default function HomePage() {
               모든 인허가 분야를<br />한 곳에서 해결합니다
             </h2>
             <span className="accent-line" style={{ marginTop: '1rem' }} />
+            <p className="text-body-lg" style={{ marginTop: '1rem' }}>
+              {serviceCount}종 인허가 업무를 분야별로 확인하고 업종 페이지로 이동하세요.{' '}
+              <Link prefetch={false} href="/services" style={{ color: 'var(--navy)', fontWeight: 600, textDecoration: 'underline' }}>전체 서비스 보기</Link>
+            </p>
           </div>
 
-          <div className={styles.bentoGrid}>
-            {featuredServices.map((svc, i) => (
-              <Link
-                prefetch={false}
-                key={svc.slug}
-                href={`/services/${svc.slug}`}
-                className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
-              >
-                <div className={styles.bentoImage}>
-                  {/* sizes 의 250px 은 레이아웃 폭 주장이 아니라 밀도 상한이다.
-                      카드는 412px 뷰포트에서 실측 372px 인데 100vw 로 적으면
-                      DPR 1.75 에서 800w(78KB)를 고른다 — Lighthouse
-                      uses-responsive-images 가 홈 4장에서 99KB 낭비로 잡았다.
-                      250px 이면 DPR<=2 는 500w(37KB), DPR 3 이상만 800w 를 받는다.
-                      카드 이미지는 어두운 오버레이 뒤 배경이라 화질 차이가 없다. */}
-                  <FillImage
-                    base={responsiveBase(svc.image)}
-                    small={500}
-                    large={800}
-                    alt={svc.title}
-                    sizes="(max-width: 900px) 250px, 33vw"
-                  />
-                  <div className={styles.bentoOverlay} />
-                </div>
-                <div className={styles.bentoBody}>
-                  <span className={`badge badge-white ${styles.bentoBadge}`}>{svc.category}</span>
-                  <h3 className={styles.bentoTitle}>{svc.shortTitle}</h3>
-                  <p className={styles.bentoDesc}>{svc.description.substring(0, 60)}...</p>
-                  <span className={styles.bentoLink}>
-                    자세히 보기
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* 0949 — 기존 24종 + 신규 업종 전부, 분야 탭. 정본 lib/service-directory.ts */}
+          <ServiceDirectory locale="ko" mode="tabs" />
 
           <div className="fade-up" style={{ textAlign: 'center', marginTop: '3rem', padding: '2rem', background: 'var(--white)', borderRadius: '16px', border: '1px solid var(--border)' }}>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.125rem, 2vw, 1.5rem)', fontWeight: 700, color: 'var(--navy)' }}>
@@ -288,7 +256,7 @@ export default function HomePage() {
             <span className="accent-line" style={{ marginTop: '1rem' }} />
             <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다. 보완 요청·추가 서류 등 심사 과정의 모든 대응을 행정사가 처리합니다.</p>
             <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 행정사 업무 범위 밖입니다.</p>
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>24종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.</p>
+            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>{serviceCount}종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.</p>
           </div>
         </div>
       </section>

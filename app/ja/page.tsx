@@ -1,7 +1,7 @@
-import { FillImage, responsiveBase } from '@/components/ui/FillImage'
+import { FillImage } from '@/components/ui/FillImage'
 import Link from 'next/link'
 import styles from '../page.module.css'
-import { getServiceCatalog } from '@/lib/services-catalog'
+import ServiceDirectory from '@/components/services/ServiceDirectory'
 import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
@@ -24,9 +24,6 @@ export const metadata: Metadata = {
 
 const t = getT('ja')
 
-// 번역본이 있는 서비스만 노출한다 (KO 전용 신규 서비스는 제외)
-// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
-const translatedServices = getServiceCatalog('ja')
 
 
 export default function JaHomePage() {
@@ -114,45 +111,8 @@ export default function JaHomePage() {
             <span className="accent-line" style={{ marginTop: '1rem' }} />
           </div>
 
-          <div className={styles.bentoGrid}>
-            {translatedServices.map((svc, i) => (
-              <Link
-                prefetch={false}
-                key={svc.slug}
-                href={svc.href}
-                className={`${styles.bentoCard} fade-up delay-${Math.min(i + 1, 6)}`}
-              >
-                <div className={styles.bentoImage}>
-                  {/* sizes 의 250px 은 레이아웃 폭 주장이 아니라 밀도 상한이다.
-                      카드는 412px 뷰포트에서 실측 372px 인데 100vw 로 적으면
-                      DPR 1.75 에서 800w(78KB)를 고른다 — Lighthouse
-                      uses-responsive-images 가 홈 4장에서 99KB 낭비로 잡았다.
-                      250px 이면 DPR<=2 는 500w(37KB), DPR 3 이상만 800w 를 받는다.
-                      카드 이미지는 어두운 오버레이 뒤 배경이라 화질 차이가 없다. */}
-                  <FillImage
-                    base={responsiveBase(svc.image)}
-                    small={500}
-                    large={800}
-                    alt={svc.shortTitle}
-                    sizes="(max-width: 900px) 250px, 33vw"
-                  />
-                  <div className={styles.bentoOverlay} />
-                </div>
-                <div className={styles.bentoBody}>
-                  <span className={`badge badge-white ${styles.bentoBadge}`}>
-                    {svc.category}
-                  </span>
-                  <h3 className={styles.bentoTitle}>{svc.shortTitle}</h3>
-                  <span className={styles.bentoLink}>
-                    {t.services.more}
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* 0949 — 기존 서비스 + 번역본이 있는 신규 업종, 분야 탭. 정본 lib/service-directory.ts */}
+          <ServiceDirectory locale="ja" mode="tabs" />
         </div>
       </section>
 

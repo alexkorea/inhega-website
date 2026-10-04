@@ -1,22 +1,18 @@
-import Image from 'next/image'
 import Link from 'next/link'
-import { getServiceCatalog } from '@/lib/services-catalog'
-import styles from './page.module.css'
-import gridStyles from '@/app/services-list.module.css'
-import { getIndustryPages } from '@/lib/industry-pages'
-import { IndustryList } from '@/components/industry/IndustryServicePage'
+import { getDirectoryCount } from '@/lib/service-directory'
+import ServiceDirectory from '@/components/services/ServiceDirectory'
 import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 
-// 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22)
-const services = getServiceCatalog('ko')
+// 서비스 수 = 기존 24종(lib/services-catalog.ts) + 신규 업종 페이지(lib/industry-pages.ts) — 0949
+const serviceCount = getDirectoryCount('ko')
 
 // I5(2026-10-03) — title·H1·첫문단·FAQ. 첫문단은 meta description 과 같은 문장이다.
-const PAGE_TITLE = `인허가 서비스 ${services.length}종 — 사업 인허가 행정사 대행 | 유선행정사사무소`
-const LEAD = `업종별 요건 분석부터 서류 준비, 관청 접수까지 사업 인허가 전 과정을 행정사가 대행합니다. 국제물류주선업·환전업·식품인허가·건축물 용도변경 등 ${services.length}종 업종별 인허가 절차와 서류를 확인하고 필요한 업종 페이지로 이동하세요.`
+const PAGE_TITLE = `인허가 서비스 ${serviceCount}종 — 사업 인허가 행정사 대행 | 유선행정사사무소`
+const LEAD = `업종별 요건 분석부터 서류 준비, 관청 접수까지 사업 인허가 전 과정을 행정사가 대행합니다. 국제물류주선업·환전업·식품인허가·건축물 용도변경 등 ${serviceCount}종 업종별 인허가 절차와 서류를 확인하고 필요한 업종 페이지로 이동하세요.`
 // 화면 FAQ 와 FAQPage JSON-LD 는 이 배열 하나에서 나온다.
 const FAQS = [
   { q: '행정사 인허가 대행 비용은 어떻게 알 수 있나요?', a: '정부 수수료 같은 법정 비용은 각 업종 페이지에 정리했고, 대행 보수는 업무 범위에 따라 달라 상담 후 안내합니다.' },
-  { q: '인허가가 필요한 업종은 어떻게 확인하나요?', a: `${services.length}종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.` },
+  { q: '인허가가 필요한 업종은 어떻게 확인하나요?', a: `${serviceCount}종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.` },
 ]
 
 export const metadata = {
@@ -68,7 +64,7 @@ export default function ServicesPage() {
         <div className="container">
           <span className="badge badge-white text-label fade-up">서비스</span>
           <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
-            {services.length}종 전문 인허가<br />서비스 — 사업 인허가 대행
+            {serviceCount}종 전문 인허가<br />서비스 — 사업 인허가 대행
           </h1>
           <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.6)', marginTop: '1rem' }}>
             {LEAD}
@@ -76,51 +72,13 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Grid */}
+      {/* 0949 — 기존 24종 + 신규 업종 전부를 같은 카드(제목·한 줄 설명·핵심 요건)로, 분야별 소제목.
+          정본 lib/service-directory.ts (신규 업종 문구는 industry-pages 요약 그대로) */}
       <section className="section bg-cream">
         <div className="container">
-          <div className={gridStyles.grid}>
-            {services.map((svc, i) => (
-              <Link
-                key={svc.slug}
-                href={svc.href}
-                className={`fade-up delay-${Math.min(i % 6 + 1, 6)}`}
-                style={{ textDecoration: 'none' }}
-              >
-              <article className={styles.serviceCard}>
-                  <div style={{ position: 'relative', height: '200px' }}>
-                    <Image src={svc.image} alt={svc.title} fill style={{ objectFit: 'cover' }} />
-                    <div style={{
-                      position: 'absolute', inset: 0,
-                      background: 'rgba(11,31,58,0.45)'
-                    }} />
-                    <span className="badge badge-white" style={{ position: 'absolute', top: '1rem', left: '1rem', fontSize: '0.6875rem' }}>
-                      {svc.category}
-                    </span>
-                  </div>
-                  <div style={{ padding: '1.5rem' }}>
-                    <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', fontWeight: 700, color: 'var(--charcoal)', marginBottom: '0.5rem' }}>
-                      {svc.title}
-                    </h2>
-                    <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1rem' }}>
-                      {svc.description.substring(0, 70)}...
-                    </p>
-                    <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)', display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
-                      자세히 보기
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                      </svg>
-                    </span>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
+          <ServiceDirectory locale="ko" mode="sections" />
         </div>
       </section>
-
-      {/* I2 신규 업종 페이지 — lib/industry-pages.ts */}
-      <IndustryList pages={getIndustryPages('ko')} />
 
       {/* FAQ + 인허가 공통 가이드(I4) */}
       <section className="section bg-white">

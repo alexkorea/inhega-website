@@ -30,6 +30,7 @@ export async function resolve(specifier, context, nextResolve) {
 
     for (const candidate of [base, ...EXTS.map((e) => base + e), ...EXTS.map((e) => join(base, 'index' + e))]) {
       if (existsSync(candidate) && !candidate.endsWith('/')) {
+        // JSON 원고(lib/industry-pages.generated.ts 가 import)는 load() 에서 default export 로 감싼다
         return { url: pathToFileURL(candidate).href, format: 'module', shortCircuit: true }
       }
     }
@@ -38,6 +39,9 @@ export async function resolve(specifier, context, nextResolve) {
 }
 
 export async function load(url, context, nextLoad) {
+  if (url.endsWith('.json')) {
+    return { format: 'module', source: `export default ${readFileSync(fileURLToPath(url), 'utf8')}`, shortCircuit: true }
+  }
   if (url.endsWith('.ts') || url.endsWith('.tsx')) {
     const source = readFileSync(fileURLToPath(url), 'utf8')
     const { outputText } = ts.transpileModule(source, {

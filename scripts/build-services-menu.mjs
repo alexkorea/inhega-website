@@ -30,6 +30,9 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 register(pathToFileURL(join(ROOT, 'scripts/lib/ts-esm-loader.mjs')).href, pathToFileURL(ROOT + '/'))
 
 const catalog = await import(pathToFileURL(join(ROOT, 'lib/services-catalog.ts')).href)
+// 0949(2026-10-04): 헤더 메뉴가 신규 업종 페이지까지 분야 그룹으로 보여 준다. 업종 원고 본문은
+// 클라이언트로 보내지 않고 slug·href·h1 만 굽는다. 그룹 배정은 lib/service-groups.ts.
+const directory = await import(pathToFileURL(join(ROOT, 'lib/service-directory.ts')).href)
 const LOCALES = ['ko', 'en', 'zh', 'ja']
 const OUT = join(ROOT, 'lib/services-menu.generated.ts')
 
@@ -49,6 +52,17 @@ for (const locale of LOCALES) {
   }
 }
 
+// 신규 업종 메뉴 항목 = 정본 디렉터리에서 기존 24종을 뺀 나머지(번역본 없는 로케일은 자동 제외).
+const industryMenu = {}
+for (const locale of LOCALES) {
+  const base = new Set(menu[locale].map((m) => m.slug))
+  industryMenu[locale] = directory.getDirectoryEntries(locale)
+    .filter((e) => !base.has(e.slug))
+    .map((e) => ({ slug: e.slug, href: e.href, shortTitle: e.title }))
+  // 그룹 미배정이면 getServiceDirectory 가 예외를 던진다 — 여기서 빌드를 멈춘다.
+  directory.getServiceDirectory(locale)
+}
+
 const body = `// 이 파일은 scripts/build-services-menu.mjs 가 만든다. 직접 고치지 말 것.
 // 정본: lib/services-data.ts + lib/i18n/services-i18n.ts
 // 왜 나눠 굽는지는 생성기 머리말 참고 (클라이언트 번들에서 본문 코퍼스를 뺀다).
@@ -61,6 +75,9 @@ export interface ServiceMenuItem {
 
 /** 정본 getServiceCatalog() 와 같은 순서. 폼 select 순서가 여기에 달려 있다. */
 export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> = ${JSON.stringify(menu, null, 2)}
+
+/** 신규 업종 페이지(lib/industry-pages.ts) — 메뉴 전용. 폼 select 에는 들어가지 않는다. */
+export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; href: string; shortTitle: string }[]> = ${JSON.stringify(industryMenu, null, 2)}
 
 export const SERVICE_MENU_OTHER: Record<'ko' | 'en' | 'zh' | 'ja', string> = ${JSON.stringify(
   Object.fromEntries(LOCALES.map((l) => [l, catalog.OTHER_OPTION[l]])),
@@ -101,6 +118,13 @@ for (const locale of LOCALES) {
     console.error(`  경량: ${gotOpts.join(' | ')}`)
     drift++
   }
+  // 분야 그룹 메뉴 = 정본 디렉터리 그룹(순서·항목·라벨까지)
+  const expDir = directory.getServiceDirectory(locale).map((g) => ({ id: g.id, label: g.label, items: g.items.map((e) => [e.slug, e.href, e.title]) }))
+  const gotDir = menuApi.getServiceMenuByGroup(locale).map((g) => ({ id: g.id, label: g.label, items: g.items.map((e) => [e.slug, e.href, e.shortTitle]) }))
+  if (JSON.stringify(expDir) !== JSON.stringify(gotDir)) {
+    console.error(`[services-menu] ${locale}: 분야 그룹 메뉴가 정본 디렉터리와 다르다`)
+    drift++
+  }
   if (menuApi.getServiceMenuCount(locale) !== catalog.getServiceCount(locale)) {
     console.error(`[services-menu] ${locale}: 서비스 수 불일치`)
     drift++
@@ -108,5 +132,5 @@ for (const locale of LOCALES) {
 }
 if (drift) process.exit(1)
 
-const total = LOCALES.map((l) => `${l}:${menu[l].length}`).join(' ')
+const total = LOCALES.map((l) => `${l}:${menu[l].length}+${industryMenu[l].length}`).join(' ')
 console.log(`[services-menu] 정본 동등성 OK (${total}) — lib/services-menu.generated.ts ${prev === body ? '변경없음' : (isCheck ? 'check' : '갱신')}, ${Buffer.byteLength(body)}B`)
