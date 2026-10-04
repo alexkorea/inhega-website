@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/seo-gate.mjs",
+    "build": "bash scripts/build.sh",
     "start": "next start",
-    "prebuild": "node scripts/build-services-menu.mjs && node scripts/build-og-thumbs.mjs",
+    "prebuild": "node scripts/build-services-menu.mjs && node scripts/build-og-thumbs.mjs && python3 scripts/build-font-subset.py",
     "og:thumbs": "node scripts/build-og-thumbs.mjs",
     "seo:gate": "node scripts/seo-gate.mjs",
     "news:gate": "node scripts/news-gate.mjs",
     "news:og": "node scripts/news-og-sync.mjs",
     "news:merge-test": "node scripts/news-merge-test.mjs",
-    "services:menu": "node scripts/build-services-menu.mjs"
+    "services:menu": "node scripts/build-services-menu.mjs",
+    "font:subset": "python3 scripts/build-font-subset.py",
+    "font:gate": "node scripts/font-gate.mjs"
   },
   "dependencies": {
     "@notionhq/client": "^5.20.0",

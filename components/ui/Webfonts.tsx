@@ -1,3 +1,5 @@
+'use client'
+
 /**
  * 웹폰트 로딩 — 첫 화면에 필요한 글자만 자체호스팅으로 먼저 받는다.
  *
@@ -17,16 +19,34 @@
  * 2026-09-25 실측(Slow 4G + CPU 4x)에서 이 폰트만 막으면 LCP 3564ms → 2728ms 였다.
  * low 로 내리면 이미지가 먼저 끝나고, 빠른 회선에서는 그래도 제때 도착해
  * optional 이 Pretendard 를 적용한다(느린 회선은 메트릭 정합 폴백으로 끝난다).
+ *
+ * 2026-10-04(맥7 0948): 홈과 나머지를 서로 다른 한 파일로 나눴다.
+ * 그전엔 서브페이지가 critical + rest 두 파일에 걸쳐 있었고, rest 는 preload 가 없어
+ * 늦게 발견됐다. optional 은 파일 단위로 성패가 갈리므로 critical 만 제때 오면 rest 글자만
+ * 폴백으로 그려져 한 줄 안에서 글꼴이 섞였다(맥7 1440 스샷 '질 폐 태 혼 농 촌 …').
+ *   홈(/, /en, /zh, /ja) — 'Pretendard Critical'(09-24 파일 그대로, 93KB). LCP 조건 불변.
+ *   그 밖                 — 'Pretendard Site'(빌드마다 재생성하는 한 파일). 전부 아니면 전부 폴백.
+ * 홈은 --font-kr-face 를 :root 에서 덮어쓴다. 클라이언트 이동에도 경로를 따라 바뀐다.
  */
+import { usePathname } from 'next/navigation'
+import { HOME_FONT_HREF, SITE_FONT_HREF } from '@/lib/fonts.generated'
+
+const HOME_PATHS = new Set(['/', '/en', '/zh', '/ja'])
+
 export default function Webfonts() {
+  const path = (usePathname() || '/').replace(/(.)\/+$/, '$1')
+  const home = HOME_PATHS.has(path)
   return (
-    <link
-      rel="preload"
-      as="font"
-      type="font/woff2"
-      crossOrigin="anonymous"
-      fetchPriority="low"
-      href="/fonts/pretendard-critical-20260924.woff2"
-    />
+    <>
+      <link
+        rel="preload"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+        fetchPriority="low"
+        href={home ? HOME_FONT_HREF : SITE_FONT_HREF}
+      />
+      {home && <style>{`:root{--font-kr-face:'Pretendard Critical'}`}</style>}
+    </>
   )
 }

@@ -1,0 +1,3 @@
+# 홈(/, /en, /zh, /ja)에 그려지는데 09-24 critical 서브셋에 없던 글자. font-gate.mjs --fix-home 이 채운다.
+# 2026-10-04T02:42:01.736Z font-gate --fix-home
+급때름릅먼묻밖범앤저질찾페폐
