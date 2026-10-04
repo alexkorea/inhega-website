@@ -9,7 +9,7 @@
 // 커버리지는 scripts/build-font-subset.py 가 쓴 scripts/fonts/coverage.json 을 읽는다.
 //
 //   node scripts/font-gate.mjs                   빌드 산출물(.next/server/app/**/*.html) 전건
-//   node scripts/font-gate.mjs --base <url>      <url>/sitemap.xml 전 URL 을 받아 검사(프리뷰·라이브)
+//   node scripts/font-gate.mjs --base <url>      <url>/sitemap.xml + sitemap-news.xml 전 URL 을 받아 검사(프리뷰·라이브)
 //   --fix       빌드 모드에서 밖 글자를 홈은 home-chars.txt, 나머지는 extra-chars.txt 에 더하고 종료코드 2
 //               (scripts/build.sh 가 서브셋을 다시 굽고 한 번 더 빌드한다. 두 번째도 실패면 1)
 // 검사 대상은 그려지는 텍스트다 — <script>(JSON-LD·RSC 페이로드)·<style>·주석은 뺀다.
@@ -44,7 +44,9 @@ const pages = []
 const argBase = process.argv.indexOf('--base')
 if (argBase > 0) {
   const base = process.argv[argBase + 1].replace(/\/+$/, '')
-  const xml = await (await fetch(base + '/sitemap.xml')).text()
+  let xml = await (await fetch(base + '/sitemap.xml')).text()
+  const nx = await fetch(base + '/sitemap-news.xml') // /news 기사(KV 런타임)는 여기에만 있다
+  if (nx.ok) xml += await nx.text()
   const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname)
   const q = [...new Set(urls)]
   let i = 0
