@@ -1,8 +1,12 @@
 /**
  * ────────────────────────────────────────────────────────────────────────────
- * 서비스 전체 목록 = 기존 24종 + 신규 업종 페이지 (2026-10-04 맥7 0949)
+ * 서비스 레지스트리 = 기존 서비스(services-data) + 신규 업종 페이지(industry-pages) (2026-10-04 맥7 0949)
  *
- * 홈 '모든 인허가 분야' · /services 설명란 · "N종" 문구가 이 모듈 하나를 쓴다.
+ * 업종 목록·개수의 단일 원천이다. 홈 · /services · 풋터 · 헤더 메뉴 · /quote·/contact 선택지 ·
+ * title/meta · JSON-LD(OfferCatalog) 가 전부 여기서 읽는다(0949 추가 — 보스 msg 1795).
+ * 'use client' 쪽은 이 모듈을 직접 못 쓰므로 scripts/build-services-menu.mjs 가 구운
+ * lib/services-menu.generated.ts(→ lib/services-menu.ts)를 쓰고, 생성기가 매 빌드 동등성을 대조한다.
+ * 숫자·목록을 페이지에 다시 적지 말 것.
  * 서버 전용 — industry-pages 원고 전체를 끌고 오므로 'use client' 에서 import 금지.
  *
  * 문구는 정본에서 그대로 가져온다(무가감).
@@ -12,7 +16,7 @@
  *
  * en/zh/ja 는 번역본이 있는 업종만 나온다 — 없는 업종을 걸면 404 이거나 한국어가 섞인다.
  * ──────────────────────────────────────────────────────────────────────────── */
-import { getServiceCatalog, type CatalogLocale } from './services-catalog'
+import { getServiceCatalog, OTHER_OPTION, type CatalogLocale } from './services-catalog'
 import { getIndustryPage, getIndustryPages } from './industry-pages'
 import { groupBySlug } from './service-groups'
 
@@ -121,4 +125,9 @@ export function getServiceDirectory(locale: CatalogLocale): DirectoryGroup[] {
 /** "N종" 문구가 쓰는 개수 — 기존 + 신규 업종(해당 로케일에 실제로 열리는 것만). */
 export function getDirectoryCount(locale: CatalogLocale): number {
   return getDirectoryEntries(locale).length
+}
+
+/** 폼 선택지(정본) — 분야 그룹 순서로 평탄화 + 기타. 경량판 getServiceMenuSelectOptions 와 같아야 한다. */
+export function getDirectorySelectOptions(locale: CatalogLocale): string[] {
+  return [...getServiceDirectory(locale).flatMap((g) => g.items.map((e) => e.title)), OTHER_OPTION[locale]]
 }

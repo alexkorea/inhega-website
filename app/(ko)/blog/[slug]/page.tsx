@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 import { publisherLogo } from '@/lib/org-jsonld'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts, type BlogPost } from '@/lib/blog-posts-data'
 import { isDeployHold } from '@/lib/services-data'
@@ -51,6 +52,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     twitter: { card: 'summary_large_image' as const, title, description, images: [image] },
   }
 }
+
+// 사이드바 '전체 N종' — 서비스 레지스트리 개수 자동(0949 추가)
+const serviceCount = getServiceMenuCount('ko')
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -160,11 +164,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>관련 서비스</p>
-                  {relatedServices?.map((s, i) => (
-                    <Link key={s.href} href={s.href} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: i < (relatedServices?.length ?? 0) - 1 ? '1px solid var(--border-light)' : 'none' }}>{s.title}</Link>
+                  {relatedServices?.map((s) => (
+                    <Link key={s.href} href={s.href} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>{s.title}</Link>
                   ))}
+                  {!!relatedServices?.length && (
+                    <Link href="/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', fontWeight: 600 }}>{`전체 인허가 서비스 ${serviceCount}종 보기`}</Link>
+                  )}
                   {!relatedServices?.length && <>
-                    <Link href="/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>전체 인허가 서비스 보기</Link>
+                    <Link href="/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>{`전체 인허가 서비스 ${serviceCount}종 보기`}</Link>
                     <Link href="/quote" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>견적 문의하기</Link>
                     <Link href="/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>상담 예약하기</Link>
                   </>}

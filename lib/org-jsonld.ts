@@ -3,11 +3,17 @@
 // - @type 은 [Organization, ProfessionalService]. LegalService 금지(법률 서비스 오인).
 // - sameAs 필드는 두지 않는다(브랜드 D 단독 사이트 — 빈 배열도 금지).
 // - logo 는 헤더가 실제로 쓰는 로고(/logo.webp 120px)의 원본 /logo.png(512px, 같은 그림). 히어로·OG 사진 금지.
-// - hasOfferCatalog 는 기존 ko 레이아웃 블록을 그대로 병합.
+// - hasOfferCatalog 는 서비스 레지스트리(lib/service-directory.ts → 경량판 services-menu)에서 만든다(0949 추가 2026-10-04 —
+//   하드코딩 10건이 정본과 어긋나 있었다). 여기엔 분야 그룹별 OfferCatalog(이름·URL·개수)만, 업종 전체 목록은
+//   각 로캘 /services 의 OfferCatalog 가 싣는다(components/services/ServiceDirectory).
+// - knowsAbout 은 맥3 I3b 명세의 전문분야 표기라 그대로 둔다(개수·목록 문구 아님).
+import { getServiceMenuByGroup, getServiceMenuCount } from './services-menu'
 
 export const SITE_URL = 'https://inhega.co.kr'
 export const ORG_ID = `${SITE_URL}/#organization`
 export const ORG_LOGO_URL = `${SITE_URL}/logo.png`
+
+const SERVICE_GROUPS_KO = getServiceMenuByGroup('ko')
 
 export const organizationJsonLd = {
   '@context': 'https://schema.org',
@@ -61,18 +67,14 @@ export const organizationJsonLd = {
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: '인허가 서비스',
-    itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '위치기반서비스사업 신고' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '국제물류주선업 등록' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '건축물 용도변경 허가' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '기업부설연구소 인정' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '의약품 제조·수입 허가' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '의약외품 허가·신고' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '전자담배 수입 허가' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '비영리사단법인 설립' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '지정스포츠클럽 지정' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '호스텔업 등록' } },
-    ],
+    url: `${SITE_URL}/services`,
+    numberOfItems: getServiceMenuCount('ko'),
+    itemListElement: SERVICE_GROUPS_KO.map((g) => ({
+      '@type': 'OfferCatalog',
+      name: g.label,
+      url: `${SITE_URL}/services#grp-${g.id}`,
+      numberOfItems: g.items.length,
+    })),
   },
 }
 

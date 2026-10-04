@@ -61,8 +61,28 @@ export default function ServiceDirectory({ locale, mode }: { locale: CatalogLoca
     )
   }
 
+  // 업종 전체 OfferCatalog(0949 추가) — 화면 목록과 같은 정본·같은 순서. 조직 노드(lib/org-jsonld.ts)는 분야 요약만.
+  const site = 'https://inhega.co.kr'
+  const catalogJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'OfferCatalog',
+    name: UI[locale].groups,
+    url: `${site}${locale === 'ko' ? '' : `/${locale}`}/services`,
+    numberOfItems: groups.reduce((n, g) => n + g.items.length, 0),
+    itemListElement: groups.map((g) => ({
+      '@type': 'OfferCatalog',
+      name: g.label,
+      numberOfItems: g.items.length,
+      itemListElement: g.items.map((e) => ({
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name: e.title, url: `${site}${e.href}` },
+      })),
+    })),
+  }
+
   return (
     <div className={`${styles.directory} ${cjk}`}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogJsonLd) }} />
       <nav aria-label={UI[locale].groups} className={styles.tabs}>
         {groups.map((g) => (
           <a key={g.id} href={`#grp-${g.id}`} className={styles.tab}>

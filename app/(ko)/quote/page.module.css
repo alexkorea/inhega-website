@@ -98,3 +98,21 @@
     min-width: 16px;
   }
 }
+
+/* 견적 1단계 분야별 묶음 (0949 추가, 2026-10-04) */
+.pickGroup {
+  margin-bottom: 1.5rem;
+}
+
+.pickGroupTitle {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.pickGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}

@@ -2,13 +2,16 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
-import { getServiceMenuSelectOptions } from '@/lib/services-menu'
+import { getServiceMenuSelectGroups, getServiceMenuOther, getServiceMenuCount } from '@/lib/services-menu'
 
 const STEPS = ['서비스 선택', '사업자 유형', '요청 내용', '연락처', '확인 및 제출']
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
-const serviceOptions = getServiceMenuSelectOptions('ko')
+// 0949 추가(2026-10-04): 정본 디렉터리 전체를 분야별로 + 기타. 개수는 정본에서 자동.
+const serviceGroups = getServiceMenuSelectGroups('ko')
+const serviceOther = getServiceMenuOther('ko')
+const serviceCount = getServiceMenuCount('ko')
 
 const businessTypes = ['개인사업자', '법인사업자', '예비창업자', '기타']
 
@@ -101,18 +104,32 @@ export default function QuoteForm() {
             {step === 0 && (
               <div>
                 <h2 className="text-h2" style={{ color: 'var(--navy)', marginBottom: '0.5rem' }}>어떤 인허가가 필요하신가요?</h2>
-                <p style={{ color: 'var(--slate)', marginBottom: '2rem', fontSize: '0.9375rem' }}>해당하는 서비스를 선택해주세요.</p>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem' }}>
-                  {serviceOptions.map((s) => (
-                    <button
-                      key={s}
-                      onClick={() => update('service', s)}
-                      className={styles.selectBtn}
-                      data-selected={form.service === s}
-                    >
-                      {s}
-                    </button>
-                  ))}
+                <p style={{ color: 'var(--slate)', marginBottom: '2rem', fontSize: '0.9375rem' }}>{serviceCount}종 인허가 중 해당하는 서비스를 선택해주세요.</p>
+                {serviceGroups.map((g) => (
+                  <div key={g.id} className={styles.pickGroup}>
+                    <p className={styles.pickGroupTitle}>{g.label}</p>
+                    <div className={styles.pickGrid}>
+                      {g.options.map((s) => (
+                        <button
+                          key={s}
+                          onClick={() => update('service', s)}
+                          className={styles.selectBtn}
+                          data-selected={form.service === s}
+                        >
+                          {s}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+                <div className={styles.pickGrid}>
+                  <button
+                    onClick={() => update('service', serviceOther)}
+                    className={styles.selectBtn}
+                    data-selected={form.service === serviceOther}
+                  >
+                    {serviceOther}
+                  </button>
                 </div>
               </div>
             )}

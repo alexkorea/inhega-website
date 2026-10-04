@@ -12,6 +12,7 @@
 import type { Metadata } from 'next'
 import { publisherLogo } from '@/lib/org-jsonld'
 import Link from 'next/link'
+import { getServiceMenuCount } from '@/lib/services-menu'
 import { notFound } from 'next/navigation'
 import { findNewsBySlug, hasArticle, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
 import {
@@ -253,7 +254,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
               <div className={styles.serviceLinks}>
                 {(services.length
                   ? services
-                  : [{ slug: 'all', title: '인허가 서비스 전체 보기', href: '/services' }]
+                  : [{ slug: 'all', title: `인허가 서비스 전체 ${getServiceMenuCount('ko')}종 보기`, href: '/services' }]
                 ).map((s) => (
                   <Link key={s.slug} href={s.href} className={styles.serviceLink}>
                     <span>{s.title}</span>

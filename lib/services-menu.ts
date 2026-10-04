@@ -49,12 +49,21 @@ export function getServiceMenuByCategory(locale: CatalogLocale): ServiceMenuGrou
 }
 
 /**
- * 상담폼 select · 견적폼 1단계 선택지. 서비스 24종 + 기타.
- * **순서는 정본(services-data.ts 배열 순서)이다.** 카테고리 묶음을 평탄화하면
- * 집합은 같은데 순서가 바뀐다 — 2026-09-25 에 실제로 그렇게 어긋났다.
+ * 상담폼 select · 견적폼 1단계 선택지 = 서비스 전체(정본 디렉터리, 0949 추가 2026-10-04) + 기타.
+ * 순서는 분야 그룹 순서(getServiceMenuByGroup 평탄화)다 — 화면의 optgroup·소제목과 같은 순서.
+ * 생성기가 정본 getDirectorySelectOptions() 와 순서까지 대조한다.
  */
 export function getServiceMenuSelectOptions(locale: CatalogLocale): string[] {
-  return [...SERVICE_MENU[locale].map((s) => s.shortTitle), SERVICE_MENU_OTHER[locale]]
+  return [...getServiceMenuByGroup(locale).flatMap((g) => g.items.map((i) => i.shortTitle)), SERVICE_MENU_OTHER[locale]]
+}
+
+/** 선택지를 분야 그룹으로 — <optgroup>·견적폼 소제목용. '기타'는 따로(getServiceMenuOther). */
+export function getServiceMenuSelectGroups(locale: CatalogLocale): { id: string; label: string; options: string[] }[] {
+  return getServiceMenuByGroup(locale).map((g) => ({ id: g.id, label: g.label, options: g.items.map((i) => i.shortTitle) }))
+}
+
+export function getServiceMenuOther(locale: CatalogLocale): string {
+  return SERVICE_MENU_OTHER[locale]
 }
 
 /** 링크용 항목(slug·href·shortTitle). 라벨로 href 를 조립하지 말 것 — 한글 경로는 404 다. */
@@ -62,9 +71,9 @@ export function getServiceMenuItems(locale: CatalogLocale): ServiceMenuItem[] {
   return SERVICE_MENU[locale]
 }
 
-/** 해당 로케일의 공개 서비스 수. */
+/** 해당 로케일의 서비스 수(기존 + 신규 업종) = 정본 getDirectoryCount(). "N종" 문구는 전부 이 값. */
 export function getServiceMenuCount(locale: CatalogLocale): number {
-  return SERVICE_MENU[locale].length
+  return SERVICE_MENU[locale].length + INDUSTRY_MENU[locale].length
 }
 
 export interface ServiceMenuLink {

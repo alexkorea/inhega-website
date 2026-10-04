@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
@@ -40,6 +41,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     twitter: { card: 'summary_large_image', title, description, images: [image] },
   }
 }
+
+// 사이드바 '전체 N종' — 서비스 레지스트리 개수 자동(0949 추가)
+const serviceCount = getServiceMenuCount('en')
 
 export default async function EnBlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -165,7 +169,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>Related Services</p>
-                  <Link href="/en/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>All Licensing Services</Link>
+                  <Link href="/en/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>{`All ${serviceCount} Licensing Services`}</Link>
                   <Link href="/en/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>Contact Us</Link>
                 </div>
               </aside>

@@ -1,27 +1,7 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
 import { EmailOff } from '@/components/ui/EmailOff'
-
-const services = [
-  { label: '국제물류주선업', href: '/services/logistics' },
-  { label: '환전업 등록', href: '/services/currency-exchange' },
-  { label: '외국인도시민박업', href: '/services/urban-guesthouse' },
-  { label: '호스텔업', href: '/services/hostel' },
-  { label: '한옥체험업', href: '/services/hanok' },
-  { label: '건축물 용도변경', href: '/services/building-usage' },
-  { label: '식품제조가공업', href: '/services/food-manufacturing' },
-  { label: '여성기업인증', href: '/services/women-enterprise' },
-  { label: '비영리사단법인', href: '/services/nonprofit' },
-  { label: '담배수입판매업', href: '/services/tobacco' },
-  { label: '기업인증(벤처/이노비즈)', href: '/services/venture-cert' },
-  { label: '식품인허가 & HACCP', href: '/services/haccp' },
-  { label: '의약외품/화장품 허가', href: '/services/cosmetics' },
-  { label: '조달청 나라장터', href: '/services/procurement' },
-  { label: '기업부설연구소', href: '/services/research-lab' },
-  { label: '전자담배 수입허가', href: '/services/ecig' },
-  { label: '지정스포츠클럽', href: '/services/sports-club' },
-  { label: '위치기반서비스사업신고', href: '/services/location-based-service' },
-]
+import FooterServiceGroups from './FooterServiceGroups'
 
 export default function Footer() {
   return (
@@ -72,28 +52,8 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Services Column */}
-            <div className={styles.linksCol}>
-              <p className={styles.colTitle}>서비스</p>
-              <ul className={styles.linkList}>
-                {services.slice(0, 8).map((s) => (
-                  <li key={s.href}>
-                    <Link prefetch={false} href={s.href} className={styles.link}>{s.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className={styles.linksCol}>
-              <p className={styles.colTitle}>&nbsp;</p>
-              <ul className={styles.linkList} style={{ marginTop: 0 }}>
-                {services.slice(8).map((s) => (
-                  <li key={s.href}>
-                    <Link prefetch={false} href={s.href} className={styles.link}>{s.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {/* Services Columns — 분야 그룹 링크, 정본 lib/service-directory.ts (0949 추가) */}
+            <FooterServiceGroups locale="ko" />
 
             {/* Company Column */}
             <div className={styles.linksCol}>

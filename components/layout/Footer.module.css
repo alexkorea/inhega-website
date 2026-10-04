@@ -134,6 +134,18 @@
   color: white;
 }
 
+/* 풋터 서비스 분야 링크의 업종 수(0949 추가) — 정본 개수 자동 */
+.linkCount {
+  margin-left: 0.25rem;
+  font-size: 0.6875rem;
+  color: rgba(255,255,255,0.35);
+}
+
+.linkAll {
+  color: rgba(255,255,255,0.8);
+  font-weight: 600;
+}
+
 .hours {
   margin-top: 1.5rem;
   padding: 1rem;

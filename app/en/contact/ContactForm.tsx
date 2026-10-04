@@ -3,13 +3,17 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styles from '../../contact/page.module.css'
 import { getT } from '@/lib/i18n/translations'
-import { getServiceMenuSelectOptions } from '@/lib/services-menu'
+import { getServiceMenuSelectGroups, getServiceMenuOther, getServiceMenuItems, getServiceMenuCount } from '@/lib/services-menu'
 import { EmailOff } from '@/components/ui/EmailOff'
 
 const t = getT('en')
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
-const serviceOptions = getServiceMenuSelectOptions('en')
+// 0949 추가(2026-10-04): 선택지 = 정본 디렉터리 전체(분야 optgroup) + 기타, 개수 자동
+const serviceGroups = getServiceMenuSelectGroups('en')
+const serviceOther = getServiceMenuOther('en')
+const quickServices = getServiceMenuItems('en').slice(0, 8)
+const serviceCount = getServiceMenuCount('en')
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', phone: '', email: '', service: '', message: '', language: 'en' })
@@ -107,18 +111,10 @@ export default function ContactForm() {
               <div className={`${styles.quickServices} fade-up delay-2`}>
                 <p className={styles.quickTitle}>Popular Services</p>
                 <div className={styles.quickList}>
-                  {[
-                    { label: 'Intl. Freight Forwarding', href: '/en/services/logistics' },
-                    { label: 'Currency Exchange', href: '/en/services/currency-exchange' },
-                    { label: 'Foreign Tourist Guesthouse', href: '/en/services/urban-guesthouse' },
-                    { label: 'Food Manufacturing', href: '/en/services/food-manufacturing' },
-                    { label: 'Cosmetics License', href: '/en/services/cosmetics' },
-                    { label: 'Location-Based Service', href: '/en/services/location-based-service' },
-                    { label: 'HACCP Certification', href: '/en/services/haccp' },
-                    { label: 'Venture Cert.', href: '/en/services/venture-cert' },
-                  ].map((s) => (
-                    <Link key={s.href} href={s.href} className={styles.quickChip}>{s.label}</Link>
+                  {quickServices.map((s) => (
+                    <Link key={s.slug} href={s.href} className={styles.quickChip}>{s.shortTitle}</Link>
                   ))}
+                  <Link href="/en/services" className={styles.quickChip}>{`All ${serviceCount} services`} →</Link>
                 </div>
               </div>
             </div>
@@ -183,7 +179,12 @@ export default function ContactForm() {
                       onChange={e => setForm(f => ({ ...f, service: e.target.value }))}
                     >
                       <option value="">{t.contact.form.serviceDefault}</option>
-                      {serviceOptions.map(s => <option key={s} value={s}>{s}</option>)}
+                      {serviceGroups.map(g => (
+                        <optgroup key={g.id} label={g.label}>
+                          {g.options.map(s => <option key={s} value={s}>{s}</option>)}
+                        </optgroup>
+                      ))}
+                      <option value={serviceOther}>{serviceOther}</option>
                     </select>
                   </div>
                   <div className="form-group">

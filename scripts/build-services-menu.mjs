@@ -110,8 +110,13 @@ for (const locale of LOCALES) {
     console.error(`[services-menu] ${locale}: 카테고리 묶음이 정본과 다르다`)
     drift++
   }
-  const expOpts = catalog.getServiceSelectOptions(locale)
+  // 0949 추가(2026-10-04): 폼 선택지 = 정본 디렉터리 전체(분야 순서) + 기타
+  const expOpts = directory.getDirectorySelectOptions(locale)
   const gotOpts = menuApi.getServiceMenuSelectOptions(locale)
+  if (new Set(expOpts).size !== expOpts.length) {
+    console.error(`[services-menu] ${locale}: 폼 선택지에 같은 이름이 둘 — 선택 값으로 업종을 구분할 수 없다`)
+    drift++
+  }
   if (JSON.stringify(expOpts) !== JSON.stringify(gotOpts)) {
     console.error(`[services-menu] ${locale}: 폼 select 선택지가 정본과 다르다 (순서 포함)`)
     console.error(`  정본: ${expOpts.join(' | ')}`)
@@ -125,12 +130,35 @@ for (const locale of LOCALES) {
     console.error(`[services-menu] ${locale}: 분야 그룹 메뉴가 정본 디렉터리와 다르다`)
     drift++
   }
-  if (menuApi.getServiceMenuCount(locale) !== catalog.getServiceCount(locale)) {
+  if (menuApi.getServiceMenuCount(locale) !== directory.getDirectoryCount(locale)) {
     console.error(`[services-menu] ${locale}: 서비스 수 불일치`)
     drift++
   }
 }
 if (drift) process.exit(1)
+
+/* public/llms.txt '주요 서비스' 절도 레지스트리에서 굽는다(0949 추가 2026-10-04 — 손으로 쓴 11줄이 정본과 달랐다:
+   사이트에 없는 '직업소개사업 등록'이 있었고 신규 업종은 0건). 다른 절은 손대지 않는다. */
+const LLMS = join(ROOT, 'public/llms.txt')
+const llmsPrev = readFileSync(LLMS, 'utf8')
+const SEC_START = '## 주요 서비스\n'
+const SEC_END = '\n## 관련 사이트'
+const i0 = llmsPrev.indexOf(SEC_START), i1 = llmsPrev.indexOf(SEC_END)
+if (i0 < 0 || i1 < i0) {
+  console.error('[services-menu] public/llms.txt 의 "## 주요 서비스" ~ "## 관련 사이트" 절을 못 찾았다')
+  process.exit(1)
+}
+const koGroups = directory.getServiceDirectory('ko')
+const llmsSec = `${SEC_START}\n전체 ${directory.getDirectoryCount('ko')}종 — https://inhega.co.kr/services\n\n` +
+  koGroups.map((g) => `- ${g.label}(${g.items.length}): ${g.items.map((e) => e.title).join(', ')}`).join('\n') + '\n'
+const llmsBody = llmsPrev.slice(0, i0) + llmsSec + llmsPrev.slice(i1)
+if (llmsBody !== llmsPrev) {
+  if (isCheck) {
+    console.error('[services-menu] public/llms.txt 서비스 절이 정본과 어긋난다 — 생성기를 돌릴 것')
+    process.exit(1)
+  }
+  writeFileSync(LLMS, llmsBody)
+}
 
 const total = LOCALES.map((l) => `${l}:${menu[l].length}+${industryMenu[l].length}`).join(' ')
 console.log(`[services-menu] 정본 동등성 OK (${total}) — lib/services-menu.generated.ts ${prev === body ? '변경없음' : (isCheck ? 'check' : '갱신')}, ${Buffer.byteLength(body)}B`)

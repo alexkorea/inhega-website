@@ -9,7 +9,7 @@
  * 링크·이미지·raw HTML 은 지원하지 않는다(외부 링크는 출처 블록에서만 낸다).
  */
 import { stripArtifacts } from './news-article-schema'
-import { getServiceCatalog } from './services-catalog'
+import { getDirectoryEntries } from './service-directory'
 import { ogThumb } from './og-thumbs.generated'
 import type { NewsItem } from './news-data'
 
@@ -95,7 +95,7 @@ export function toPlain(blocks: string[]): string {
 /* ────────────────────────── 관련 서비스 매핑 ──────────────────────────
  * 품목(product)·제목·키워드에서 우리 서비스로 이어지는 내부링크를 뽑는다.
  * 구체적인 항목을 먼저 둔다 — `기능성화장품` 이 `화장품` 보다 앞이어야 한다.
- * 실제 링크는 services-catalog(단일 정본)에 있는 슬러그만 쓴다. 배포 보류 서비스는
+ * 실제 링크는 서비스 레지스트리(lib/service-directory.ts, 0949 추가)에 있는 슬러그만 쓴다. 배포 보류 서비스는
  * 카탈로그 단계에서 이미 빠져 있으므로 죽은 링크가 생기지 않는다.
  */
 const SERVICE_HINTS: { re: RegExp; slug: string }[] = [
@@ -134,14 +134,14 @@ export type RelatedService = { slug: string; title: string; href: string }
 /** 관련 서비스 최대 3건. 하나도 못 찾으면 빈 배열 — 호출부가 /services 로 보낸다. */
 export function relatedServices(item: NewsItem, limit = 3): RelatedService[] {
   const hay = [item.product, item.title_ko, item.summary_ko, ...(item.article?.keywords ?? [])].join(' ')
-  const catalog = getServiceCatalog('ko')
+  const catalog = getDirectoryEntries('ko')
   const out: RelatedService[] = []
   for (const { re, slug } of SERVICE_HINTS) {
     if (out.length >= limit) break
     if (!re.test(hay)) continue
     if (out.some((s) => s.slug === slug)) continue
     const svc = catalog.find((c) => c.slug === slug)
-    if (svc) out.push({ slug, title: svc.shortTitle, href: svc.href })
+    if (svc) out.push({ slug, title: svc.title, href: svc.href })
   }
   return out
 }
