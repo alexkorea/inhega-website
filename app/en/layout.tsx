@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 }
 
 // 조직 노드는 lib/org-jsonld.ts 단일 원천(ko/en/zh/ja 공통, 같은 @id).
-const jsonLd = organizationJsonLd
+const jsonLd = organizationJsonLd('en')
 
 export default function EnLayout({ children }: { children: React.ReactNode }) {
   return (

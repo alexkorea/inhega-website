@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 // FAQPage 는 여기 두지 않는다 — 레이아웃에 두면 모든 ko 페이지에 화면에 없는 5문항이 실려
 // 페이지별 FAQ 와 불일치했다(2026-10-03, 맥3 I5 발견). FAQPage 는 화면 FAQ 를 그리는 페이지가 같은 배열로 낸다.
 // 조직 노드는 lib/org-jsonld.ts 단일 원천(ko/en/zh/ja 공통).
-const jsonLd = organizationJsonLd
+const jsonLd = organizationJsonLd('ko')
 
 export default function KoLayout({ children }: { children: React.ReactNode }) {
   return (
