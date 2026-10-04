@@ -163,6 +163,8 @@
 
 .megaMenuInner {
   padding: 1.5rem;
+  max-height: calc(100vh - 88px);
+  overflow-y: auto;
 }
 
 .megaMenuHeader {
@@ -184,9 +186,9 @@
   column-gap: 1.25rem;
   column-rule: 1px solid rgba(255,255,255,0.06);
   margin-bottom: 1.25rem;
-  /* 카테고리가 늘어나도 뷰포트를 넘지 않게 한다 */
-  max-height: min(68vh, 600px);
-  overflow-y: auto;
+  /* 높이 제한은 여기 두지 않는다 — 다단에 max-height 를 걸면 넘친 그룹이 오른쪽 5번째 단으로
+     밀려 .megaMenu overflow:hidden 에 잘린다(0949 에서 '생활·위생 서비스'가 사라졌다).
+     뷰포트 높이 제한은 .megaMenuInner 의 세로 스크롤이 맡는다. */
 }
 
 .megaMenuGroup {
