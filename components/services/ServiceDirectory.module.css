@@ -171,6 +171,11 @@
 /* ── 홈 사진 카드(INH-RESTORE 2026-10-05) — 예전 홈 .bento* (app/(ko)/page.module.css) 와 같은 모양 ── */
 .photoGroup {
   scroll-margin-top: 96px; /* /services 풋터 바로가기 #grp-<id> — 고정 헤더 아래로 */
+  /* INH-PHOTO60: 화면 밖 분야 묶음은 배치·사진 로드를 미룬다. 압축으로 카드가 첫 화면 가까이 올라와
+     lazy 사진 15장이 히어로(LCP)와 대역을 다퉜다(프리뷰 949dd8e0 홈 랩 LCP 2.5~3.0s, +200KB).
+     auto 크기는 한 번 그려지면 실제 높이를 기억한다 — 스크롤 점프 없음. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 560px;
 }
 
 .photoGroup + .photoGroup {
