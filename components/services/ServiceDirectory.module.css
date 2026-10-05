@@ -167,3 +167,128 @@
   word-break: normal;
   overflow-wrap: anywhere;
 }
+
+/* ── 홈 사진 카드(INH-RESTORE 2026-10-05) — 예전 홈 .bento* (app/(ko)/page.module.css) 와 같은 모양 ── */
+.photoGroup + .photoGroup {
+  margin-top: 2.5rem;
+}
+
+.photoGroupTitle {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.125rem, 1.8vw, 1.375rem);
+  font-weight: 700;
+  color: var(--navy);
+  padding-bottom: 0.625rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.photoGrid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.photoCard {
+  position: relative;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  aspect-ratio: 4/3;
+  background: var(--navy);
+}
+
+.photoImage {
+  position: absolute;
+  inset: 0;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.photoCard:hover .photoImage {
+  transform: scale(1.04);
+}
+
+.photoOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 31, 58, 0.55);
+}
+
+.photoBody {
+  position: absolute;
+  inset: 0;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.photoBadge {
+  align-self: flex-start;
+  font-size: 0.6875rem;
+}
+
+.photoTitle {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.3;
+}
+
+.photoDesc {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.photoLink {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--burgundy);
+  margin-top: 0.25rem;
+  transition: gap 0.2s;
+}
+
+.photoCard:hover .photoLink {
+  gap: 0.625rem;
+}
+
+@media (max-width: 1024px) {
+  .photoGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .photoGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .photoCard {
+    aspect-ratio: 16/10;
+  }
+
+  .photoBody {
+    padding: 1.25rem;
+  }
+}
+
+.cjk .photoTitle,
+.cjk .photoDesc {
+  word-break: normal;
+  overflow-wrap: anywhere;
+}

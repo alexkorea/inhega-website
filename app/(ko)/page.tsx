@@ -177,8 +177,8 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* 0949 — 기존 24종 + 신규 업종 전부, 분야 탭. 정본 lib/service-directory.ts */}
-          <ServiceDirectory locale="ko" mode="tabs" />
+          {/* 0949 — 기존 24종 + 신규 업종 전부, 분야 소제목 + 사진 카드 전부 펼침(INH-RESTORE). 정본 lib/service-directory.ts */}
+          <ServiceDirectory locale="ko" mode="cards" />
 
           <div className="fade-up" style={{ textAlign: 'center', marginTop: '3rem', padding: '2rem', background: 'var(--white)', borderRadius: '16px', border: '1px solid var(--border)' }}>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.125rem, 2vw, 1.5rem)', fontWeight: 700, color: 'var(--navy)' }}>

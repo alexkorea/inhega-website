@@ -111,8 +111,8 @@ export default function ZhHomePage() {
             <span className="accent-line" style={{ marginTop: '1rem' }} />
           </div>
 
-          {/* 0949 — 기존 서비스 + 번역본이 있는 신규 업종, 분야 탭. 정본 lib/service-directory.ts */}
-          <ServiceDirectory locale="zh" mode="tabs" />
+          {/* 0949 — 기존 서비스 + 번역본이 있는 신규 업종, 분야 소제목 + 사진 카드 전부 펼침(INH-RESTORE). 정본 lib/service-directory.ts */}
+          <ServiceDirectory locale="zh" mode="cards" />
         </div>
       </section>
 
