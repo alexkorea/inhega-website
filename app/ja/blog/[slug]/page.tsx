@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { ContactLine } from '@/components/ui/ContactLineIcon'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
@@ -154,9 +155,9 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
                     無料相談を申し込む
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>� ソウル市中区退渓路324, 3階</p>
-                    <p>� 月〜金 09:30〜17:30 KST</p>
-                    <p>� LINE · KakaoTalk · WeChat · WhatsApp: alexkorea</p>
+                    <ContactLine icon="pin">ソウル市中区退渓路324, 3階</ContactLine>
+                    <ContactLine icon="clock">月〜金 09:30〜17:30 KST</ContactLine>
+                    <ContactLine icon="chat">LINE · KakaoTalk · WeChat · WhatsApp: alexkorea</ContactLine>
                   </div>
                 </div>
 

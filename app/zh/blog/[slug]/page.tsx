@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { ContactLine } from '@/components/ui/ContactLineIcon'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
@@ -154,9 +155,9 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
                     申请免费咨询
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>� 首尔中区退溪路324, 3层</p>
-                    <p>� 周一至周五 09:30~17:30 KST</p>
-                    <p>� 微信 · KakaoTalk · LINE · WhatsApp: alexkorea</p>
+                    <ContactLine icon="pin">首尔中区退溪路324, 3层</ContactLine>
+                    <ContactLine icon="clock">周一至周五 09:30~17:30 KST</ContactLine>
+                    <ContactLine icon="chat">微信 · KakaoTalk · LINE · WhatsApp: alexkorea</ContactLine>
                   </div>
                 </div>
 

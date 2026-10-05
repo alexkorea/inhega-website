@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 import { publisherLogo } from '@/lib/org-jsonld'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { ContactLine } from '@/components/ui/ContactLineIcon'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts, type BlogPost } from '@/lib/blog-posts-data'
@@ -156,9 +157,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     무료상담 신청하기
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>� 서울특별시 중구 퇴계로 324, 3층</p>
-                    <p>� 평일 09:30~17:30 KST (토·일·공휴일 휴무)</p>
-                    <p>� 카카오·라인·위챗·왓츠앱: alexkorea</p>
+                    <ContactLine icon="pin">서울특별시 중구 퇴계로 324, 3층</ContactLine>
+                    <ContactLine icon="clock">평일 09:30~17:30 KST (토·일·공휴일 휴무)</ContactLine>
+                    <ContactLine icon="chat">카카오·라인·위챗·왓츠앱: alexkorea</ContactLine>
                   </div>
                 </div>
 

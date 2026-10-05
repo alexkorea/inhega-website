@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { ContactLine } from '@/components/ui/ContactLineIcon'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
@@ -154,9 +155,9 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                     Request Free Consultation
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <p>� 324 Toegyero, 3F, Jung-gu, Seoul</p>
-                    <p>� Mon–Fri 09:30–17:30 KST</p>
-                    <p>� KakaoTalk · LINE · WeChat · WhatsApp: alexkorea</p>
+                    <ContactLine icon="pin">324 Toegyero, 3F, Jung-gu, Seoul</ContactLine>
+                    <ContactLine icon="clock">Mon–Fri 09:30–17:30 KST</ContactLine>
+                    <ContactLine icon="chat">KakaoTalk · LINE · WeChat · WhatsApp: alexkorea</ContactLine>
                   </div>
                 </div>
 
