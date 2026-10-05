@@ -1,5 +1,5 @@
 /* INH-CARD-CLEAR(맥7): 업종 상세 히어로 — 사진 전체 덮개 금지, 글 영역만 어둡게.
-   히어로 글 묶음(.container)에 붙인다. 글 줄 폭은 46rem 로 묶고, 그 오른쪽(넓은 화면)과 글 위쪽 사진은 원색.
+   히어로 글 묶음(.container)에 붙인다. 글 줄 폭은 46rem 로 묶고, 글 오른쪽 12rem 너머(넓은 화면)와 글 위쪽 사진은 원색.
    바탕 rgba(10,20,40,.78) — 사진이 순백이어도 흰 글자 9.6:1(AA 4.5 이상). */
 .text > * {
   max-width: 46rem;
@@ -11,17 +11,11 @@
   z-index: -1; /* 컨테이너(zIndex 1) 안 맨 아래 — 사진 위, 글 아래 */
   top: -1.75rem;
   bottom: -2.25rem; /* 히어로 아래 여백까지 */
+  /* 왼쪽은 화면 끝까지, 오른쪽은 글 묶음 끝(컨테이너는 히어로 flex 안에서 글 폭으로 줄어 가운데 놓인다) + 12rem 번짐 */
   left: calc(50% - 50vw);
-  right: calc(50% - 50vw);
+  right: -12rem;
   pointer-events: none;
-  /* 글 왼쪽 끝 = 화면 왼쪽에서 max(여백, (화면-컨테이너)/2 + 여백). 글 오른쪽 끝 + 2rem 까지 .78, 이후 12rem 에 걸쳐 투명 */
-  --hero-text-end: calc(max(var(--container-pad), (100vw - var(--container-max)) / 2 + var(--container-pad)) + 48rem);
-  background: linear-gradient(
-    to right,
-    rgba(10, 20, 40, 0.78) 0,
-    rgba(10, 20, 40, 0.78) var(--hero-text-end),
-    rgba(10, 20, 40, 0) calc(var(--hero-text-end) + 12rem)
-  );
+  background: linear-gradient(to right, rgba(10, 20, 40, 0.78) calc(100% - 12rem), rgba(10, 20, 40, 0) 100%);
   /* 글 위쪽 1.75rem 만 투명→불투명으로 번진다 */
   -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 1.75rem);
   mask-image: linear-gradient(to bottom, transparent 0, #000 1.75rem);
@@ -31,6 +25,7 @@
 @media (max-width: 767px) {
   .text::before {
     bottom: -1.75rem;
+    right: calc(50% - 50vw);
     background: rgba(10, 20, 40, 0.78);
   }
 }

@@ -228,18 +228,19 @@
 }
 
 /* INH-CARD-CLEAR(맥7, 보스 msg 2372·2373): 사진 위 전체 덮개 없음 — 사진은 원색 그대로.
-   글 묶음(.photoBody) 뒤만 rgba(10,20,40,.78), 그 위로 1.25rem 만 투명→.78 로 번진다.
-   흰 글자 대비: 최악(사진이 순백)에서도 바탕 (64,72,87) → 제목 9.6:1·설명(.92) 8.4:1 — AA 4.5 이상.
+   글 묶음(.photoBody) 뒤만 어둡게: 위 1.25rem 은 투명→.62 로 번지고, 글 묶음 안은 .62(제목) → .78(맨 아래).
+   흰 글자 대비는 최악(사진이 순백)에서 계산 — .62 바탕 위 흰 제목 5.2:1, 설명(.92) 4.7:1 이상(AA 4.5).
+   검증: ~/work/inh-cardclear/m2.mjs(글자 위치별 최악 대비). .62 아래로 내리면 AA 가 깨진다.
    글 묶음 높이는 고정(제목 2줄·설명 2줄 말줄임·자세히 보기 맨 아래) — 카드마다 세로 위치가 같다.
    카드 높이는 그대로(16:10, 모바일 1:1) — 글 묶음이 카드보다 커지지 않게 글자 크기를 정했다. */
 .photoBody {
   position: relative;
   z-index: 1;
-  padding: 0.625rem 0.875rem 0.75rem;
+  padding: 0.5rem 0.875rem 0.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  background: rgba(10, 20, 40, 0.78);
+  background: linear-gradient(to bottom, rgba(10, 20, 40, 0.62), rgba(10, 20, 40, 0.78));
 }
 
 .photoBody::before {
@@ -249,7 +250,7 @@
   right: 0;
   bottom: 100%;
   height: 1.25rem;
-  background: linear-gradient(to bottom, rgba(10, 20, 40, 0), rgba(10, 20, 40, 0.78));
+  background: linear-gradient(to bottom, rgba(10, 20, 40, 0), rgba(10, 20, 40, 0.62));
   pointer-events: none;
 }
 
