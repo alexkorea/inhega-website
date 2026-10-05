@@ -59,14 +59,14 @@ export default function ZhServicesPage() {
         </section>
 
         {/* 0949 — 기존 서비스 + 번역본이 있는 신규 업종만, 분야별 소제목. 정본 lib/service-directory.ts */}
-        <section className="bg-cream" style={{ padding: '2rem 0 4rem' }}>
+        <section className="bg-cream" style={{ padding: '2rem 0 var(--section-py-sm)' }}>
           <div className="container">
             <ServiceDirectory locale="zh" mode="sections" />
           </div>
         </section>
 
         {/* CTA */}
-        <section style={{ background: 'var(--burgundy)', padding: '5rem 0' }}>
+        <section style={{ background: 'var(--burgundy)', padding: 'var(--section-py-md) 0' }}>
           <div className="container" style={{ textAlign: 'center' }}>
             <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.75rem,3vw,2.5rem)', color: 'white', marginBottom: '1rem' }}>
               没有找到您需要的服务？

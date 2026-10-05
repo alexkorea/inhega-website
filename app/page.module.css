@@ -439,7 +439,7 @@
 /* ========= CTA BANNER ========= */
 .ctaBanner {
   background: var(--burgundy);
-  padding: 5rem 0;
+  padding: var(--section-py-md) 0;
 }
 
 .ctaInner {

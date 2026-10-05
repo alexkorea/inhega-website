@@ -4,13 +4,13 @@
 }
 
 .top {
-  padding: 5rem 0 4rem;
+  padding: 3rem 0 2.5rem; /* INH-LAYOUT: 5rem 0 4rem → 높이 축소 */
 }
 
 .topGrid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1.7fr 1fr 1fr 1fr;
+  gap: 2.5rem;
 }
 
 /* Brand */
@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.875rem;
   text-decoration: none;
 }
 
@@ -69,7 +69,52 @@
   font-size: 0.875rem;
   line-height: 1.7;
   color: rgba(255,255,255,0.5);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* INH-LAYOUT 회사 정보 압축 — 항목은 줄바꿈 단위(nowrap), 사이에 가운뎃점 */
+.bizInfo {
+  font-size: 0.75rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.5);
+}
+
+/* 항목마다 앞에 가운뎃점을 두고 줄을 1em 왼쪽으로 당겨 잘라낸다 — 줄 첫머리의 점은 안 보인다 */
+.bizInfo {
+  overflow: hidden;
+}
+
+.bizInfo p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1em;
+}
+
+.bizInfo p > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.bizInfo p > span::before {
+  content: '·';
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+}
+
+.bizInfo a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+}
+
+.bizInfo a:hover {
+  color: white;
+}
+
+.footerLang {
+  margin-top: 0.75rem;
+  margin-left: -6px; /* 국기 칸 44px 의 안쪽 여백만큼 당겨 글줄과 왼쪽을 맞춘다 */
 }
 
 .contact {
@@ -211,7 +256,7 @@
 
 @media (max-width: 640px) {
   .top {
-    padding: 3rem 0 2.5rem;
+    padding: 2.25rem 0 1.75rem;
   }
 
   .topGrid {

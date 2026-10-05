@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Navbar.module.css'
 import { getServiceMenuByGroup } from '@/lib/services-menu'
+import LangFlags from '@/components/ui/LangFlags'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts + 신규 업종(0949, 분야 그룹)에서 구운 경량판 (하드코딩 금지)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
@@ -111,33 +112,23 @@ export default function Navbar() {
             상담문의
           </Link>
 
-          {/* Language Switcher */}
-          <div style={{ display: 'flex', gap: '3px', alignItems: 'center', marginLeft: '0.5rem' }}>
-            <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px' }}>KO</span>
-            <Link prefetch={false} href="/en" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>EN</Link>
-            <Link prefetch={false} href="/zh" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>中文</Link>
-            <Link prefetch={false} href="/ja" style={{ fontSize: '0.75rem', fontWeight: 700, color: 'white', padding: '4px 8px', background: '#235099', borderRadius: '4px', textDecoration: 'none' }}>日本語</Link>
-          </div>
+          {/* Language Switcher — 국기 SVG(INH-LAYOUT) */}
+          <LangFlags locale="ko" className={styles.langFlags} />
         </nav>
 
         {/* CTA + Hamburger */}
         <div className={styles.actions}>
-          <a href="tel:02-363-2251" className={styles.phoneLink}>
+          <a href="tel:02-363-2251" className={styles.phoneLink} aria-label="전화 02-363-2251" title="전화 02-363-2251">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
             </svg>
-            02-363-2251
+            <span className={styles.phoneText}>02-363-2251</span>
           </a>
           <Link prefetch={false} href="/contact" className={styles.ctaBtn}>
             견적 문의
           </Link>
 
-          <div className={styles.mobileLangSwitch}>
-            <span style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>KO</span>
-            <Link prefetch={false} href="/en" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>EN</Link>
-            <Link prefetch={false} href="/zh" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>中文</Link>
-            <Link prefetch={false} href="/ja" style={{ fontSize: '0.7rem', fontWeight: 700, color: 'white', padding: '4px 6px', background: '#235099', borderRadius: '3px', textDecoration: 'none', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>日本語</Link>
-          </div>
+          <div className={styles.mobileLangSwitch}><LangFlags locale="ko" /></div>
 
           <button
             className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
@@ -173,6 +164,7 @@ export default function Navbar() {
           <Link prefetch={false} href="/contact" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
             무료 견적 문의
           </Link>
+          <LangFlags locale="ko" className={styles.mobileMenuLang} />
         </nav>
       </div>
     </header>

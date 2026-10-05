@@ -1,22 +1,15 @@
 'use client'
 import { useState, useEffect } from 'react'
-import type { CSSProperties } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Navbar.module.css'
 import type { Locale } from '@/lib/i18n/translations'
 import { getT } from '@/lib/i18n/translations'
 import { getServiceMenuByGroup } from '@/lib/services-menu'
+import LangFlags from '@/components/ui/LangFlags'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
-
-const langSwitcher: { label: string; mobileLabel: string; href: string; key: string }[] = [
-  { label: 'KO', mobileLabel: 'KO', href: '/', key: 'ko' },
-  { label: 'EN', mobileLabel: 'EN', href: '/en', key: 'en' },
-  { label: '中文', mobileLabel: 'CN', href: '/zh', key: 'zh' },
-  { label: '日本語', mobileLabel: 'JP', href: '/ja', key: 'ja' },
-]
 
 export default function NavbarLang({ locale }: { locale: Locale }) {
   const t = getT(locale)
@@ -48,12 +41,12 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
 
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}>
-      <div className={styles.inner}>
+      <div className={`${styles.inner} ${styles.innerLong}`}>
         <Link prefetch={false} href={base} className={styles.logo}>
           <div className={styles.logoMark}><img src="/logo.webp" alt="YouSun Administrative Agency logo" style={{width:"100%",height:"100%",objectFit:"contain",borderRadius:"inherit"}} /></div>
           <div className={styles.logoText}>
             <span className={`${styles.logoMain} ${styles.logoMainEn}`}>YouSun Administrative Agency</span>
-            <span className={styles.logoSub}>{t.tagline}</span>
+            <span className={`${styles.logoSub} ${styles.logoSubLong}`}>{t.tagline}</span>
           </div>
         </Link>
 
@@ -118,51 +111,16 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
             {t.nav.contact}
           </Link>
 
-          {/* Language Switcher */}
-          <div style={{ display: 'flex', gap: '3px', alignItems: 'center', marginLeft: '0.5rem' }}>
-            {langSwitcher.map((l) => {
-              const isActive = l.key === locale
-              return isActive ? (
-                <span
-                  key={l.href}
-                  style={{
-                    fontSize: '0.75rem',
-                    fontWeight: 700,
-                    color: 'white',
-                    padding: '4px 8px',
-                    background: '#235099',
-                    borderRadius: '4px',
-                  }}
-                >
-                  {l.label}
-                </span>
-              ) : (
-                <Link prefetch={false}
-                  key={l.href}
-                  href={l.href}
-                  style={{
-                    fontSize: '0.75rem',
-                    fontWeight: 700,
-                    color: 'white',
-                    padding: '4px 8px',
-                    background: '#235099',
-                    borderRadius: '4px',
-                    textDecoration: 'none',
-                  }}
-                >
-                  {l.label}
-                </Link>
-              )
-            })}
-          </div>
+          {/* Language Switcher — 국기 SVG(INH-LAYOUT) */}
+          <LangFlags locale={locale} className={styles.langFlags} />
         </nav>
 
         <div className={styles.actions}>
-          <a href="tel:02-363-2251" className={styles.phoneLink}>
+          <a href="tel:02-363-2251" className={`${styles.phoneLink} ${styles.phoneLinkLong}`} aria-label="Tel 02-363-2251" title="Tel 02-363-2251">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
             </svg>
-            02-363-2251
+            <span className={styles.phoneText}>02-363-2251</span>
           </a>
           <Link prefetch={false} href={`${base}/contact`} className={styles.ctaBtn}>
             {t.nav.quote}
@@ -201,21 +159,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
           <Link prefetch={false} href={`${base}/contact`} className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
             {t.nav.quote}
           </Link>
-          <div style={{ display: 'flex', gap: '6px', marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.12)' }}>
-            {langSwitcher.map((l) => {
-              const isCurrent = l.key === locale
-              const badgeStyle: CSSProperties = { fontSize: '0.8125rem', fontWeight: 700, color: 'white', padding: '6px 12px', background: '#235099', borderRadius: '4px', minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }
-              return isCurrent ? (
-                <span key={l.href} style={badgeStyle}>
-                  {l.label}
-                </span>
-              ) : (
-                <Link prefetch={false} key={l.href} href={l.href} style={{ ...badgeStyle, textDecoration: 'none' }}>
-                  {l.label}
-                </Link>
-              )
-            })}
-          </div>
+          <LangFlags locale={locale} className={styles.mobileMenuLang} />
         </nav>
       </div>
     </header>

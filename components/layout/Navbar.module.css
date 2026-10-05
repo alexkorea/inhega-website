@@ -21,15 +21,15 @@
 }
 
 .inner {
-  max-width: 1400px;
+  max-width: var(--container-max);
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: var(--container-pad);
   height: 72px;
   display: flex;
   flex-wrap: nowrap;
   min-width: 0;
   align-items: center;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 /* Logo */
@@ -104,7 +104,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  padding: 0.5rem 0.875rem;
+  padding: 0.5rem 0.625rem;
   font-size: 0.9375rem;
   font-weight: 500;
   color: rgba(255,255,255,0.75);
@@ -467,4 +467,38 @@
     padding-inline: 1.25rem;
     height: 64px;
   }
+}
+
+/* INH-LAYOUT 국기 언어 선택 — 데스크톱 nav 끝, 모바일 메뉴 맨 아래 */
+.langFlags {
+  margin-left: 0.25rem;
+}
+
+.mobileMenuLang {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  gap: 6px;
+}
+
+/* INH-LAYOUT: 헤더도 콘텐츠 폭(1120px)에 맞췄으므로 글이 긴 en/zh/ja 는 로고 부제와 전화번호 글자를 접는다
+   (전화 아이콘 링크·aria-label 은 그대로, 번호는 히어로·풋터에 있다). 좁은 데스크톱은 전 로캘 접기. */
+.logoSubLong { display: none; }
+.phoneLinkLong .phoneText { display: none; }
+
+/* en/zh/ja 메뉴 글자는 ko 보다 길어 1200px 이하에서는 메뉴를 햄버거로 접는다(ko 는 1024px). */
+@media (max-width: 1200px) {
+  .innerLong .desktopNav { display: none; }
+  .innerLong .hamburger { display: flex; flex-shrink: 0; }
+  .innerLong .actions { margin-left: auto; }
+}
+
+@media (max-width: 1240px) {
+  .phoneText { display: none; }
+}
+
+.phoneLink {
+  min-width: 44px;
+  min-height: 44px;
+  justify-content: center;
 }

@@ -110,9 +110,12 @@
   --space-3xl: 8rem;
   --space-4xl: 10rem;
 
-  /* Section Spacing */
-  --section-py: 7rem;
-  --section-py-sm: 4rem;
+  /* Section Spacing — INH-LAYOUT(10-05, 보스 msg 2266~2277): PC 약 40% 축소(7rem→4.25rem, 4rem→2.5rem),
+     모바일 약 30% 축소(아래 768px 블록). --section-py-md 는 예전에 인라인 '5rem 0' 으로 박혀 있던 섹션용. */
+  --section-py: 4.25rem;
+  --section-py-sm: 2.5rem;
+  --section-py-md: 3rem;
+  --section-head-gap: 2.5rem;
 
   /* Border Radius */
   --radius-sm: 4px;
@@ -131,8 +134,11 @@
   --transition-base: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 
-  /* Layout */
-  --container-max: 1400px;
+  /* Layout — INH-LAYOUT: 글·카드·사진의 최대 폭(콘텐츠 폭, 좌우 여백 제외)은 1120px.
+     배경색 띠는 섹션 전체 폭, 그 안의 .container 가 이 폭으로 가운데 정렬. */
+  --content-max: 1120px;
+  --container-pad: 2.5rem;
+  --container-max: calc(var(--content-max) + 2 * var(--container-pad));
   --container-narrow: 900px;
 }
 
@@ -257,15 +263,15 @@ input, textarea, select {
    LAYOUT UTILITIES
    =========================== */
 .container {
-  max-width: 1280px;
+  max-width: var(--container-max);
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: var(--container-pad);
 }
 
 .container-narrow {
   max-width: var(--container-narrow);
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: var(--container-pad);
 }
 
 .section {
@@ -436,7 +442,7 @@ input, textarea, select {
    SECTION HEADERS
    =========================== */
 .section-header {
-  margin-bottom: 4rem;
+  margin-bottom: var(--section-head-gap);
 }
 
 .section-header-centered {
@@ -555,25 +561,17 @@ input, textarea, select {
    =========================== */
 @media (max-width: 768px) {
   :root {
-    --section-py: 4rem;
-    --section-py-sm: 3rem;
-  }
-
-  .container {
-    padding-inline: 1.25rem;
-  }
-
-  .container-narrow {
-    padding-inline: 1.25rem;
+    --section-py: 2.75rem;
+    --section-py-sm: 2rem;
+    --section-py-md: 2.75rem;
+    --section-head-gap: 1.75rem;
+    --container-pad: 1.25rem;
   }
 
   .text-display {
     font-size: clamp(2rem, 8vw, 3rem);
   }
 
-  .section-header {
-    margin-bottom: 2.5rem;
-  }
 }
 
 /* ===========================

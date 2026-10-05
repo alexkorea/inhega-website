@@ -123,7 +123,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       </section>
 
-      <div style={{ background: 'var(--cream)', padding: '5rem 0' }}>
+      <div style={{ background: 'var(--cream)', padding: 'var(--section-py-md) 0' }}>
         <div className="container">
           <div className={styles.contentGrid}>
             {/* Main Content */}

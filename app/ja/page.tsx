@@ -7,9 +7,13 @@ import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
+const HOME_TITLE = '許認可専門の行政書士 — 韓国の許認可手続き・書類 | YouSun Administrative Agency'
+const HOME_DESC = '外国人・外国企業向けの韓国政府許認可手続き専門事務所。国際貨物運送、外貨両替、食品製造、化粧品許可、位置情報サービス届出など全件代行。'
+
 export const metadata: Metadata = {
-  title: 'YouSun Administrative Agency | 韓国許認可の専門家 | 外国人・外国企業の韓国ビジネス',
-  description: '外国人・外国企業向けの韓国政府許認可手続き専門事務所。国際貨物運送、外貨両替、食品製造、化粧品許可、位置情報サービス届出など全件代行。',
+  // INH-LAYOUT(10-05, 보스 msg 2273): ko 홈 '인허가 전문 행정사 — 인허가 절차·서류' 와 같은 뜻. og·twitter 도 같은 문구.
+  title: HOME_TITLE,
+  description: HOME_DESC,
   alternates: {
     canonical: 'https://inhega.co.kr/ja',
     languages: {
@@ -20,6 +24,16 @@ export const metadata: Metadata = {
       'x-default': 'https://inhega.co.kr',
     },
   },
+  openGraph: {
+    title: HOME_TITLE,
+    description: HOME_DESC,
+    url: 'https://inhega.co.kr/ja',
+    siteName: 'YouSun Administrative Agency',
+    locale: 'ja_JP',
+    type: 'website',
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency' }],
+  },
+  twitter: { card: 'summary_large_image', title: HOME_TITLE, description: HOME_DESC, images: ['/images/hero-seoul.png'] },
 }
 
 const t = getT('ja')

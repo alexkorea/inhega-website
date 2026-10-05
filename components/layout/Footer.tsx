@@ -2,6 +2,7 @@ import Link from 'next/link'
 import styles from './Footer.module.css'
 import { EmailOff } from '@/components/ui/EmailOff'
 import FooterServiceGroups from './FooterServiceGroups'
+import LangFlags from '@/components/ui/LangFlags'
 
 export default function Footer() {
   return (
@@ -18,38 +19,25 @@ export default function Footer() {
                   <span className={styles.logoSub}>인허가 전문</span>
                 </div>
               </div>
-              <p className={styles.tagline}>
-                전문 행정사 6인이<br />
-                귀하의 인허가를 책임집니다.
-              </p>
-              <div className={styles.contact}>
-                <div className={styles.contactItem}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
-                  </svg>
-                  <a href="tel:02-363-2251">02-363-2251</a>
-                </div>
-                <div className={styles.contactItem}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                    <polyline points="22,6 12,13 2,6"/>
-                  </svg>
-                  <EmailOff><a href="mailto:help@inhega.co.kr">help@inhega.co.kr</a></EmailOff>
-                </div>
-                <div className={styles.contactItem}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                    <circle cx="12" cy="10" r="3"/>
-                  </svg>
+              <p className={styles.tagline}>전문 행정사 6인이 귀하의 인허가를 책임집니다.</p>
+              {/* INH-LAYOUT(보스 msg 2271) — 회사 정보 압축: 상호·대표·사업자번호 / 주소·전화·이메일 / 메신저.
+                  사업자등록번호는 풋터 안에 있어야 한다(bizno-footer-gate). */}
+              <div className={styles.bizInfo}>
+                <p>
+                  <span>유선행정사사무소</span>
+                  <span>대표 행정사 정유선</span>
+                  <span>사업자등록번호 722-39-01297</span>
+                </p>
+                <p>
                   <span>서울특별시 중구 퇴계로 324, 3층</span>
-                </div>
-                <div className={styles.contactItem}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/>
-                  </svg>
+                  <span>전화 <a href="tel:02-363-2251">02-363-2251</a></span>
+                  <span><EmailOff><a href="mailto:help@inhega.co.kr">help@inhega.co.kr</a></EmailOff></span>
+                </p>
+                <p>
                   <span>카카오·라인·위챗·왓츠앱: alexkorea</span>
-                </div>
+                </p>
               </div>
+              <LangFlags locale="ko" className={styles.footerLang} />
             </div>
 
             {/* Services Columns — 분야 그룹 링크, 정본 lib/service-directory.ts (0949 추가) */}
@@ -72,12 +60,6 @@ export default function Footer() {
                 <li><Link prefetch={false} href="/terms" className={styles.link}>이용약관</Link></li>
               </ul>
 
-              <p className={styles.colTitle} style={{ marginTop: '1.5rem' }}>언어 / Language</p>
-              <ul className={styles.linkList}>
-                <li><Link prefetch={false} href="/en" className={styles.link}>English</Link></li>
-                <li><Link prefetch={false} href="/zh" className={styles.link}>中文 (简体)</Link></li>
-                <li><Link prefetch={false} href="/ja" className={styles.link}>日本語</Link></li>
-              </ul>
 
             </div>
           </div>
@@ -89,9 +71,6 @@ export default function Footer() {
           <div className={styles.bottomInner}>
             <p className={styles.copyright}>
               © 2018 유선행정사사무소. All rights reserved.
-            </p>
-            <p className={styles.registration}>
-              사업자등록번호: 722-39-01297 | 대표 행정사: 정유선 | 서울특별시 중구 퇴계로 324, 3층
             </p>
           </div>
         </div>

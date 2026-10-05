@@ -3,6 +3,7 @@
 // 화면 문구는 기존 서비스 페이지 템플릿의 라벨을 그대로 옮긴 것이고, 본문은 원고뿐이다.
 import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
 import Link from 'next/link'
+import { Flag } from '@/components/ui/LangFlags'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
 import {
@@ -60,10 +61,10 @@ const UI: Record<IndustryLocale, {
 }
 
 const LANG_LINKS: { l: IndustryLocale; label: string }[] = [
-  { l: 'ko', label: '🇰🇷 한국어' },
-  { l: 'en', label: '🇺🇸 English' },
-  { l: 'zh', label: '🇨🇳 中文' },
-  { l: 'ja', label: '🇯🇵 日本語' },
+  { l: 'ko', label: '한국어' },
+  { l: 'en', label: 'English' },
+  { l: 'zh', label: '中文' },
+  { l: 'ja', label: '日本語' },
 ]
 
 export function industryMetadata(page: IndustryPage): Metadata {
@@ -165,7 +166,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
           </div>
         </section>
 
-        <div style={{ background: 'var(--cream)', padding: '5rem 0' }}>
+        <div style={{ background: 'var(--cream)', padding: 'var(--section-py-md) 0' }}>
           <div className="container">
             <div className={styles.contentGrid}>
               {/* Main Content — minWidth:0: 1fr 트랙 블로아웃 방지 */}
@@ -230,7 +231,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                     <p style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--charcoal)', marginBottom: '0.75rem' }}>{ui.langs}</p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                       {otherLangs.map((x) => (
-                        <Link key={x.l} href={`${prefix(x.l)}/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>{x.label}</Link>
+                        <Link key={x.l} href={`${prefix(x.l)}/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang={x.l} />{x.label}</Link>
                       ))}
                     </div>
                   </div>

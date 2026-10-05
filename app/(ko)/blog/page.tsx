@@ -58,7 +58,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
 
   return (
     <div>
-      <section style={{ background: 'var(--navy)', padding: '4rem 0 4rem', paddingTop: 'calc(72px + 4rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: 'var(--section-py-md) 0', paddingTop: 'calc(72px + var(--section-py-md))' }}>
         <div className="container">
           <span className="badge badge-white text-label">블로그</span>
           <h1 className="text-display" style={{ color: 'white', marginTop: '1rem' }}>
@@ -73,7 +73,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
       <section className="section bg-cream">
         <div className="container">
           {posts.length === 0 ? (
-            <div style={{ textAlign: 'center', padding: '5rem 0', color: 'var(--slate)' }}>
+            <div style={{ textAlign: 'center', padding: 'var(--section-py-md) 0', color: 'var(--slate)' }}>
               <p style={{ fontSize: '1rem', marginBottom: '1rem' }}>등록된 블로그 게시물이 없습니다.</p>
               <Link href="/contact" className="btn btn-primary">상담 문의하기</Link>
             </div>

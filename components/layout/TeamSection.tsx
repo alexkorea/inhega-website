@@ -134,7 +134,7 @@ export default function TeamSection({ locale }: { locale: Locale }) {
   const s = sectionData[locale]
 
   return (
-    <section style={{ padding: '5rem 0', background: '#ffffff' }}>
+    <section style={{ padding: 'var(--section-py-md) 0', background: '#ffffff' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '3rem' }} className="fade-up">
           <span className="badge badge-burgundy text-label">

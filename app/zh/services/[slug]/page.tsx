@@ -1,5 +1,6 @@
 import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
 import Link from 'next/link'
+import { Flag } from '@/components/ui/LangFlags'
 import { notFound } from 'next/navigation'
 import { services, isDeployHold } from '@/lib/services-data'
 import { getServiceI18n, hasServiceI18n } from '@/lib/i18n/services-i18n'
@@ -96,7 +97,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
           </div>
         </section>
 
-        <div style={{ background: 'var(--cream)', padding: '5rem 0' }}>
+        <div style={{ background: 'var(--cream)', padding: 'var(--section-py-md) 0' }}>
           <div className="container">
             <div className={styles.contentGrid}>
               <div>
@@ -180,9 +181,9 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                 <div style={{ marginTop: '1.5rem', background: 'var(--cream)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
                   <p style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--charcoal)', marginBottom: '0.75rem' }}>其他语言</p>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                    <Link href={`/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>🇰🇷 한국어</Link>
-                    <Link href={`/en/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>🇺🇸 English</Link>
-                    <Link href={`/ja/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)' }}>🇯🇵 日本語</Link>
+                    <Link href={`/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang="ko" />한국어</Link>
+                    <Link href={`/en/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang="en" />English</Link>
+                    <Link href={`/ja/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang="ja" />日本語</Link>
                   </div>
                 </div>
               </aside>

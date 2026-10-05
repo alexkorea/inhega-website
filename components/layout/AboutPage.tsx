@@ -186,7 +186,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
   return (
     <div>
       {/* Hero */}
-      <section style={{ background: 'var(--navy)', padding: '3rem 0 4rem', paddingTop: 'calc(72px + 3rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: '3rem 0 var(--section-py-md)', paddingTop: 'calc(72px + 3rem)' }}>
         <div className="container">
           <div className="about-hero-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
             <div>

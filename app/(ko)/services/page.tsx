@@ -74,7 +74,7 @@ export default function ServicesPage() {
 
       {/* 0949 — 기존 24종 + 신규 업종 전부를 같은 카드(제목·한 줄 설명·핵심 요건)로, 분야별 소제목.
           정본 lib/service-directory.ts (신규 업종 문구는 industry-pages 요약 그대로) */}
-      <section className="bg-cream" style={{ padding: '2rem 0 4rem' }}>
+      <section className="bg-cream" style={{ padding: '2rem 0 var(--section-py-sm)' }}>
         <div className="container">
           <ServiceDirectory locale="ko" mode="sections" />
         </div>
@@ -106,7 +106,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ background: 'var(--burgundy)', padding: '5rem 0' }}>
+      <section style={{ background: 'var(--burgundy)', padding: 'var(--section-py-md) 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.75rem,3vw,2.5rem)', color: 'white', marginBottom: '1rem' }}>
             목록에 없는 업종의 사업 인허가·영업 신고 문의

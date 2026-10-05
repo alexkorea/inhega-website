@@ -9,8 +9,9 @@ import QRSection from '@/components/layout/QRSection'
 // `alternates` replaces the layout's whole object, so `languages` must be repeated here
 // or the KO home ships without any hreflang.
 // I5(2026-10-03) — 홈 title·description. 레이아웃 기본값을 홈에서만 덮는다.
-const HOME_TITLE = '외국인 사업 인허가 행정사 — 인허가 절차·서류 | 유선행정사사무소'
-const HOME_DESC = '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 전자담배수입허가, 비영리사단법인, 지정스포츠클럽, 호스텔업 등 외국인 사업 인허가·등록·신고를 행정사가 업종별 절차와 서류 기준으로 안내하고 접수까지 전담합니다. 한·영·중·일 상담이 가능합니다.'
+// INH-LAYOUT(10-05, 보스 msg 2273·2275): 히어로·title 의 외국인 한정 문구를 '인허가 전문 행정사'로, ko 는 고객을 외국인으로 좁히지 않는다.
+const HOME_TITLE = '인허가 전문 행정사 — 인허가 절차·서류 | 유선행정사사무소'
+const HOME_DESC = '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 전자담배수입허가, 비영리사단법인, 지정스포츠클럽, 호스텔업 등 사업 인허가·등록·신고를 행정사가 업종별 절차와 서류 기준으로 안내하고 접수까지 전담합니다. 한·영·중·일 상담이 가능합니다.'
 
 // 홈 FAQ — 화면 FAQ 와 FAQPage JSON-LD 는 이 배열 하나에서 나온다(레이아웃 전역 FAQ 는 제거됨).
 const homeFaqs = [
@@ -101,7 +102,7 @@ export default function HomePage() {
             <h1 className={`${styles.heroTitle} fade-up delay-1`}>
               복잡한 인허가,<br />
               <em>전문가에게</em> 맡기세요
-              <span style={{ display: 'block', fontSize: '0.42em', fontWeight: 600, marginTop: '0.75rem', opacity: 0.85 }}>{' — '}외국인 사업 인허가 행정사</span>
+              <span style={{ display: 'block', fontSize: '0.42em', fontWeight: 600, marginTop: '0.75rem', opacity: 0.85 }}>{' — '}인허가 전문 행정사</span>
             </h1>
             {/* I5: 첫 문단 = meta description (같은 문장) */}
             <p className={`${styles.heroDesc} fade-up delay-2`}>

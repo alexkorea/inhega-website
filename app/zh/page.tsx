@@ -7,9 +7,13 @@ import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
+const HOME_TITLE = '许可专业行政士 — 韩国营业许可流程与材料 | YouSun Administrative Agency'
+const HOME_DESC = '专为外国企业和个人办理韩国政府各类营业许可证。国际货运代理、外汇兑换、食品制造、化妆品许可等一站式专业代办。'
+
 export const metadata: Metadata = {
-  title: 'YouSun Administrative Agency | 韩国营业许可证专家 | 外国企业韩国创业',
-  description: '专为外国企业和个人办理韩国政府各类营业许可证。国际货运代理、外汇兑换、食品制造、化妆品许可等一站式专业代办。',
+  // INH-LAYOUT(10-05, 보스 msg 2273): ko 홈 '인허가 전문 행정사 — 인허가 절차·서류' 와 같은 뜻. og·twitter 도 같은 문구.
+  title: HOME_TITLE,
+  description: HOME_DESC,
   alternates: {
     canonical: 'https://inhega.co.kr/zh',
     languages: {
@@ -20,6 +24,16 @@ export const metadata: Metadata = {
       'x-default': 'https://inhega.co.kr',
     },
   },
+  openGraph: {
+    title: HOME_TITLE,
+    description: HOME_DESC,
+    url: 'https://inhega.co.kr/zh',
+    siteName: 'YouSun Administrative Agency',
+    locale: 'zh_CN',
+    type: 'website',
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency' }],
+  },
+  twitter: { card: 'summary_large_image', title: HOME_TITLE, description: HOME_DESC, images: ['/images/hero-seoul.png'] },
 }
 
 const t = getT('zh')

@@ -50,7 +50,7 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
 
   return (
     <div>
-      <section style={{ background: 'var(--navy)', padding: '4rem 0 4rem', paddingTop: 'calc(72px + 4rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: 'var(--section-py-md) 0', paddingTop: 'calc(72px + var(--section-py-md))' }}>
         <div className="container">
           <span className="badge badge-white text-label">博客</span>
           <h1 className="text-display" style={{ color: 'white', marginTop: '1rem' }}>

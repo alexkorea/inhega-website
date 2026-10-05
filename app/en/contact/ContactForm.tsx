@@ -37,7 +37,7 @@ export default function ContactForm() {
 
   return (
     <div style={{ paddingTop: '72px' }}>
-      <section style={{ background: 'var(--navy)', padding: '5rem 0 4rem' }}>
+      <section style={{ background: 'var(--navy)', padding: 'var(--section-py-md) 0 var(--section-py-sm)' }}>
         <div className="container">
           <span className="badge badge-white text-label">{t.contact.badge}</span>
           <h1 className="text-display" style={{ color: 'white', marginTop: '1rem', whiteSpace: 'pre-line' }}>

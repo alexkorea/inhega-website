@@ -34,7 +34,7 @@ export default function QRSection({ locale }: { locale: Locale }) {
   const s = sectionData[locale]
 
   return (
-    <section style={{ padding: '4rem 0', background: '#f8f8f8' }}>
+    <section style={{ padding: 'var(--section-py-sm) 0', background: '#f8f8f8' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }} className="fade-up">
           <h2 className="text-h2" style={{ marginBottom: '0.75rem' }}>{s.title}</h2>

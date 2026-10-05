@@ -14,6 +14,11 @@
   align-items: start;
 }
 
+/* 그리드 항목 min-width:auto 가 본문 안 긴 줄(표·목차)만큼 1fr 을 넓혀 390px 에서 가로 넘침(411·441px) — INH-LAYOUT */
+.contentGrid > * {
+  min-width: 0;
+}
+
 @media (max-width: 1024px) {
   .contentGrid {
     grid-template-columns: 1fr;
