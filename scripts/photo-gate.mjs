@@ -76,6 +76,7 @@ function jpegSize(b) {
 // 2-b)·3) 파일
 const SPECS = [
   { suf: '.webp', w: 1200, h: 750, max: 150_000 },
+  { suf: '-400.webp', w: 400 },
   { suf: '-800.webp', w: 800 },
   { suf: '-1200.webp', w: 1200 },
   { suf: '-2000.webp', w: 2000, max: 400_000 },

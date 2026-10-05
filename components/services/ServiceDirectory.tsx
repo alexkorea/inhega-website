@@ -81,7 +81,7 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
                           sizes = 실제 카드 폭(CARD_SIZES). */}
                       <FillImage
                         base={cardImageBase(e.slug, catalogImage)}
-                        widths={[800, 1200]}
+                        widths={[400, 800, 1200]}
                         alt={industryPhotoAlt(e.slug, locale, e.title)}
                         sizes={CARD_SIZES}
                       />

@@ -206,9 +206,9 @@ export default async function JaServicePage({ params }: { params: Promise<{ slug
                 <div style={{ marginTop: '1.5rem', background: 'var(--cream)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
                   <p style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--charcoal)', marginBottom: '0.75rem' }}>他の言語</p>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                    <Link href={`/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang="ko" />한국어</Link>
-                    <Link href={`/en/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang="en" />English</Link>
-                    <Link href={`/zh/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang="zh" />中文</Link>
+                    <Link href={`/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '28px' }}><Flag lang="ko" />한국어</Link>
+                    <Link href={`/en/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '28px' }}><Flag lang="en" />English</Link>
+                    <Link href={`/zh/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '28px' }}><Flag lang="zh" />中文</Link>
                   </div>
                 </div>
               </aside>

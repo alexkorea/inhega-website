@@ -9,11 +9,13 @@
  *
  * 파일(public/images/industry/, scripts/photo-gate.mjs 가 빌드 전에 전부 검사):
  *   <slug>.webp            1200×750 q75 ≤150KB — 정본 1장(JSON-LD·사이트맵)
- *   <slug>-{800,1200,2000}.webp  q80, 2000w ≤400KB — 카드(800·1200)·히어로(800·1200·2000) srcset
+ *   <slug>-{400,800,1200,2000}.webp  q80, 2000w ≤400KB — 카드(400·800·1200)·히어로(800·1200·2000) srcset
+ *     카드 400w: 모바일 2열 카드는 CSS 180px 남짓 — 800w 만 있으면 홈 첫 화면 근처 lazy 카드 15장이 히어로(LCP)와
+ *     대역을 다퉈 랩 LCP 가 2.5s 를 넘었다(프리뷰 c16f47e5 실측 2.8~3.0s).
  *   <slug>-og.jpg          1200×630 — og:image·twitter:image
  * 원본은 전부 폭 3000px 이상(업스케일 0). 출처·사진가는 docs/IMAGE-CREDITS.md.
  *
- * 새 업종을 추가하면 여기 한 줄 + 위 파일 5개를 같이 넣을 것 — 없으면 photo-gate 와 ServiceDirectory 가
+ * 새 업종을 추가하면 여기 한 줄 + 위 파일 6개를 같이 넣을 것 — 없으면 photo-gate 와 ServiceDirectory 가
  * 빌드를 멈춘다. 같은 pexels id 를 두 업종에 쓰면 이 모듈이 로드 시점에 throw 한다(빌드 실패).
  * ──────────────────────────────────────────────────────────────────────────── */
 
