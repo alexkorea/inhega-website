@@ -238,7 +238,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                     <p style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--charcoal)', marginBottom: '0.75rem' }}>{ui.langs}</p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                       {otherLangs.map((x) => (
-                        <Link key={x.l} href={`${prefix(x.l)}/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}><Flag lang={x.l} />{x.label}</Link>
+                        <Link key={x.l} href={`${prefix(x.l)}/services/${slug}`} style={{ fontSize: '0.875rem', color: 'var(--slate)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '28px' }}><Flag lang={x.l} />{x.label}</Link>
                       ))}
                     </div>
                   </div>

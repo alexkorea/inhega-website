@@ -99,7 +99,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                       {ogCard('ko', post.slug) && (
                     <div style={{ height: '200px', background: `url(${ogCard('ko', post.slug)}) center/cover` }} />
                   )}
-                      <div style={{ padding: '1.5rem' }}>
+                      <div style={{ padding: '1.125rem 1.25rem' }}>
                         {post.category && (
                           <span className="badge badge-navy" style={{ fontSize: '0.6875rem', marginBottom: '0.75rem' }}>{post.category}</span>
                         )}
@@ -122,7 +122,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
               </div>
 
               {totalPages > 1 && (
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '3rem' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '1.5rem' }}>
                   {currentPage > 1 && (
                     <Link href={`/blog?page=${currentPage - 1}`} style={{
                       padding: '0.5rem 1rem', borderRadius: '8px',

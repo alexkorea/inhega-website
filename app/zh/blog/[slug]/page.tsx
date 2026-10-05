@@ -100,7 +100,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <div>
-        <section style={{ background: 'var(--navy)', padding: '3rem 0 3rem', paddingTop: 'calc(72px + 3rem)' }}>
+        <section style={{ background: 'var(--navy)', padding: '1.75rem 0 1.75rem', paddingTop: 'calc(72px + 1.75rem)' }}>
           <div className="container">
             <nav style={{ marginBottom: '1rem', fontSize: '0.8125rem', color: 'rgba(255,255,255,0.6)' }}>
               <Link href="/zh" style={{ color: 'inherit', textDecoration: 'none', display: 'inline-block', padding: '0.4rem 0.5rem', margin: '-0.4rem -0.5rem' }}>首页</Link>
@@ -123,10 +123,10 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
 
         <section className="section bg-cream">
           <div className="container" style={{ maxWidth: '1280px' }}>
-            <div className="blog-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: '3rem', alignItems: 'start' }}>
+            <div className="blog-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: '2rem', alignItems: 'start' }}>
               <article>
                 {ogThumb('zh', slug) && (
-                  <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '2rem', height: '360px' }}>
+                  <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '1.5rem', height: '300px' }}>
                     <img src={ogThumb('zh', slug)} alt={displayTitle} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
@@ -145,7 +145,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
               </article>
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>
-                <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem', marginBottom: '1.5rem' }}>
+                <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>免费咨询</p>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
                     需要韩国许可申请帮助？我们的专业行政士提供免费初次咨询。
@@ -160,14 +160,14 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
                   </div>
                 </div>
 
-                <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem', marginBottom: '1.5rem' }}>
+                <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>其他语言阅读</p>
                   <Link href={`/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어</Link>
                   <Link href={`/en/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>English</Link>
                   <Link href={`/ja/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>日本語</Link>
                 </div>
 
-                <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.5rem' }}>
+                <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>相关服务</p>
                   <Link href="/zh/services" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>{`全部${serviceCount}项许可服务`}</Link>
                   <Link href="/zh/contact" style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>联系我们</Link>
@@ -179,8 +179,8 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
       </div>
 
       <style>{`
-        .blog-content h2 { color: #235099; font-size: 1.375rem; font-weight: 700; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #FBE4D5; }
-        .blog-content h3 { color: #1D3C68; font-size: 1.125rem; font-weight: 600; margin: 1.75rem 0 0.75rem; }
+        .blog-content h2 { color: #235099; font-size: 1.375rem; font-weight: 700; margin: 1.75rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #FBE4D5; }
+        .blog-content h3 { color: #1D3C68; font-size: 1.125rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
         .blog-content p { margin-bottom: 1rem; }
         .blog-content ul, .blog-content ol { margin: 1rem 0 1rem 1.5rem; }
         .blog-content li { margin-bottom: 0.5rem; }

@@ -84,7 +84,7 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
                   {ogCard('ja', ko.slug) && (
                     <div style={{ height: '200px', background: `url(${ogCard('ja', ko.slug)}) center/cover` }} />
                   )}
-                  <div style={{ padding: '1.5rem' }}>
+                  <div style={{ padding: '1.125rem 1.25rem' }}>
                     {i18n.category && (
                       <span className="badge badge-navy" style={{ fontSize: '0.6875rem', marginBottom: '0.75rem' }}>{i18n.category}</span>
                     )}
@@ -107,7 +107,7 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
           </div>
 
           {totalPages > 1 && (
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '3rem' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '1.5rem' }}>
               {currentPage > 1 && (
                 <Link href={`/ja/blog?page=${currentPage - 1}`} style={{
                   padding: '0.5rem 1rem', borderRadius: '8px',
