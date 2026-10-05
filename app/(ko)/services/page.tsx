@@ -60,7 +60,7 @@ export default function ServicesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
     <div style={{ paddingTop: '72px' }}>
       {/* Header */}
-      <section style={{ background: 'var(--navy)', padding: '5rem 0 4rem' }}>
+      <section style={{ background: 'var(--navy)', padding: '3rem 0 2.5rem' }}>
         <div className="container">
           <span className="badge badge-white text-label fade-up">서비스</span>
           <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
@@ -74,7 +74,7 @@ export default function ServicesPage() {
 
       {/* 0949 — 기존 24종 + 신규 업종 전부를 같은 카드(제목·한 줄 설명·핵심 요건)로, 분야별 소제목.
           정본 lib/service-directory.ts (신규 업종 문구는 industry-pages 요약 그대로) */}
-      <section className="section-sm bg-cream">
+      <section className="bg-cream" style={{ padding: '2rem 0 4rem' }}>
         <div className="container">
           <ServiceDirectory locale="ko" mode="sections" />
         </div>

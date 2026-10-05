@@ -271,6 +271,21 @@
   gap: 0.625rem;
 }
 
+/* /services: 넓은 화면은 4열 — 첫 화면에 사진 카드가 더 많이 보이게(보스 msg 2266·2267). 홈은 예전 3열 그대로 */
+.directoryIndex {
+  margin-top: 0;
+}
+
+@media (min-width: 1200px) {
+  .photoGridWide {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .photoGridWide .photoBody {
+    padding: 1.25rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .photoGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

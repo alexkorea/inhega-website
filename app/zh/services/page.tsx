@@ -46,7 +46,7 @@ export default function ZhServicesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <div style={{ paddingTop: '72px' }}>
         {/* Header */}
-        <section style={{ background: 'var(--navy)', padding: '5rem 0 4rem' }}>
+        <section style={{ background: 'var(--navy)', padding: '3rem 0 2.5rem' }}>
           <div className="container">
             <span className="badge badge-white text-label fade-up">服务项目</span>
             <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
@@ -59,7 +59,7 @@ export default function ZhServicesPage() {
         </section>
 
         {/* 0949 — 기존 서비스 + 번역본이 있는 신규 업종만, 분야별 소제목. 정본 lib/service-directory.ts */}
-        <section className="section-sm bg-cream">
+        <section className="bg-cream" style={{ padding: '2rem 0 4rem' }}>
           <div className="container">
             <ServiceDirectory locale="zh" mode="sections" />
           </div>

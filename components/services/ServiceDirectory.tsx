@@ -67,7 +67,7 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
               {g.label}
               <span className={styles.groupCount}>{g.items.length}</span>
             </GroupH>
-            <ul className={styles.photoGrid}>
+            <ul className={page === 'index' ? `${styles.photoGrid} ${styles.photoGridWide}` : styles.photoGrid}>
               {g.items.map((e) => (
                 <li key={e.slug}>
                   <Link prefetch={false} href={e.href} className={styles.photoCard}>
@@ -151,7 +151,7 @@ export default function ServiceDirectory({ locale, mode }: { locale: CatalogLoca
   }
 
   return (
-    <div className={`${styles.directory} ${cjk}`}>
+    <div className={`${styles.directory} ${styles.directoryIndex} ${cjk}`}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogJsonLd) }} />
       {/* 분야 바로가기 — 모바일은 한 줄 가로 스크롤(줄바꿈하면 13분야가 첫 화면 사진 자리를 먹는다) */}
       <nav aria-label={UI[locale].groups} className={`${styles.tabs} ${styles.jumpNav}`}>
