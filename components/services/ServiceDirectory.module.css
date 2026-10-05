@@ -174,7 +174,7 @@
 }
 
 .photoGroup + .photoGroup {
-  margin-top: 1.75rem;
+  margin-top: 1.25rem;
 }
 
 .photoGroupTitle {
@@ -185,8 +185,8 @@
   font-size: clamp(1.125rem, 1.8vw, 1.375rem);
   font-weight: 700;
   color: var(--navy);
-  padding-bottom: 0.625rem;
-  margin-bottom: 1rem;
+  padding-bottom: 0.375rem;
+  margin-bottom: 0.625rem;
   border-bottom: 2px solid var(--border);
 }
 
@@ -197,13 +197,18 @@
   gap: 1rem;
 }
 
+/* INH-PHOTO60(보스 msg 2351 컴팩트): 4:3 → 16:10. 글은 흐름 안(photoBody)이라 길면 카드가 늘어난다 —
+   aspect-ratio 는 최소 높이로만 작동(min-height:auto). 글이 잘리거나 사진 밖으로 넘치지 않는다. */
 .photoCard {
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
   border-radius: 16px;
   overflow: hidden;
   text-decoration: none;
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/10;
   background: var(--navy);
 }
 
@@ -217,20 +222,21 @@
   transform: scale(1.04);
 }
 
+/* 사진 전체를 덮던 단색 .55 대신 아래쪽 그라데이션 — 업종 사진이 보이게(INH-PHOTO60) */
 .photoOverlay {
   position: absolute;
   inset: 0;
-  background: rgba(11, 31, 58, 0.55);
+  background: linear-gradient(to top, rgba(11, 31, 58, 0.9) 0%, rgba(11, 31, 58, 0.66) 48%, rgba(11, 31, 58, 0.18) 100%);
 }
 
 .photoBody {
-  position: absolute;
-  inset: 0;
-  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+  padding: 1rem 1.125rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  gap: 0.5rem;
+  gap: 0.375rem;
 }
 
 .photoBadge {
@@ -263,7 +269,7 @@
   font-size: 0.8125rem;
   font-weight: 600;
   color: var(--burgundy);
-  margin-top: 0.25rem;
+  margin-top: 0.125rem;
   transition: gap 0.2s;
 }
 
@@ -271,18 +277,14 @@
   gap: 0.625rem;
 }
 
-/* /services: 넓은 화면은 4열 — 첫 화면에 사진 카드가 더 많이 보이게(보스 msg 2266·2267). 홈은 예전 3열 그대로 */
+/* 넓은 화면은 4열 — /services(보스 msg 2266·2267)에 이어 홈도 4열(INH-PHOTO60 컴팩트, 보스 msg 2351) */
 .directoryIndex {
   margin-top: 0;
 }
 
 @media (min-width: 1200px) {
-  .photoGridWide {
+  .photoGrid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .photoGridWide .photoBody {
-    padding: 1.25rem;
   }
 }
 
@@ -311,16 +313,20 @@
     white-space: nowrap;
   }
 
+  /* 모바일 2열 사진 타일(예전 1열은 60장이 세로로 이어져 홈이 24,000px) — 글이 길면 카드가 늘어난다 */
   .photoGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
   }
 
   .photoCard {
-    aspect-ratio: 16/10;
+    aspect-ratio: 1/1;
+    border-radius: 12px;
   }
 
   .photoBody {
-    padding: 1.25rem;
+    padding: 0.75rem;
+    gap: 0.25rem;
   }
 }
 

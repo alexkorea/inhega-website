@@ -74,9 +74,9 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <section style={{ background: 'var(--navy)', padding: '3rem 0 var(--section-py-md)', paddingTop: 'calc(72px + 3rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: '1.75rem 0 var(--section-py-md)', paddingTop: 'calc(72px + 1.75rem)' }}>
         <div className="container">
-          <div className="about-hero-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div className="about-hero-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2.5rem', alignItems: 'center' }}>
             <div>
               <span className="badge badge-white text-label fade-up">회사소개</span>
               <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
@@ -106,7 +106,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section style={{ background: 'var(--burgundy)', padding: '3rem 0' }}>
+      <section style={{ background: 'var(--burgundy)', padding: 'var(--section-py-md) 0' }}>
         <div className="container">
           <div className="about-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
             {[
@@ -126,11 +126,11 @@ export default function AboutPage() {
       {/* Greeting */}
       <section className="section bg-cream">
         <div className="container-narrow">
-          <div className="fade-up" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+          <div className="fade-up" style={{ textAlign: 'center', marginBottom: 'var(--section-head-gap)' }}>
             <span className="badge badge-burgundy text-label">대표 인사말</span>
           </div>
           <blockquote className="fade-up delay-1" style={{
-            background: 'var(--white)', borderRadius: '20px', padding: '3rem',
+            background: 'var(--white)', borderRadius: '20px', padding: '1.75rem',
             border: '1px solid var(--border)', position: 'relative',
             borderLeft: '4px solid var(--burgundy)'
           }}>
@@ -160,7 +160,7 @@ export default function AboutPage() {
             <h2 style={{ fontSize: '36px', margin: '0 0 12px', letterSpacing: '-0.015em', color: '#235099' }}>유선행정사사무소 전문가 소개</h2>
             <p style={{ fontSize: '15px', color: '#4B5563', lineHeight: 1.7, wordBreak: 'keep-all' }}>담당 행정사가 케이스 처음부터 끝까지 직접 진행합니다. 상담후 담당자가 지정됩니다.</p>
           </div>
-          <div style={{ marginBottom: '2.5rem' }}>
+          <div style={{ marginBottom: 'var(--section-head-gap)' }}>
             <h3 style={{ textAlign: 'center', fontSize: '16px', fontWeight: 700, color: '#235099', marginBottom: '1.25rem' }}>행정사</h3>
             <div className="vk-team-grid" style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', justifyContent: 'center', maxWidth: '900px', margin: '0 auto' }}>
               {teamAdmins.map((m) => (
@@ -220,7 +220,7 @@ export default function AboutPage() {
           <h2 className="text-h2">사업 인허가는 어떤 업종까지 대행하나요</h2>
           <div className="about-i5b" dangerouslySetInnerHTML={{ __html: "<p>인허가 행정사는 행정사법에 따라 공인된 전문가로, 식품·건축·운수·의료·학원 등 다양한 업종의 허가·신고·등록을 대리합니다. 인허가는 업종마다 근거 법령이 다르고, 담당 기관도 식품위생과·건축과·환경부·소방서 등으로 분산되어 있어 초보자가 혼자 처리하기에는 복잡도가 높습니다. 전문 인허가 행정사는 해당 업종의 법령과 실무를 숙지하고 있어, 서류 준비부터 접수, 보완 대응까지 원스톱으로 처리합니다.</p>" }} />
           <p style={{ marginTop: '1rem' }}>함께 보기: <a href="/services">업종별 인허가 서비스</a> · <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a></p>
-          <h2 className="text-h2" style={{ marginTop: '2.5rem' }}>자주 묻는 질문</h2>
+          <h2 className="text-h2" style={{ marginTop: 'var(--block-gap)' }}>자주 묻는 질문</h2>
           <div className="faq-item" style={{ padding: '1rem 0', borderBottom: '1px solid var(--border)' }}><p className="faq-q"><strong>Q. 외국인도 사업 인허가를 받을 수 있나요?</strong></p><p className="faq-a">A. 외국인도 적법한 체류 자격과 사업자등록을 완료하면 대부분의 인허가를 받을 수 있습니다. 다만 업종에 따라 외국인 제한이 있어 사전 확인이 필요합니다.</p></div>
           <div className="faq-item" style={{ padding: '1rem 0', borderBottom: '1px solid var(--border)' }}><p className="faq-q"><strong>Q. 행정사 인허가 비용은 어떻게 안내하나요?</strong></p><p className="faq-a">A. 법정 수수료는 업종별 페이지에서, 대행 보수는 업종 복잡도와 서류 범위에 따라 달라 상담 후 안내합니다.</p></div>
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ABOUT_FAQ_LD) }} />
@@ -231,7 +231,7 @@ export default function AboutPage() {
       {/* Location */}
       <section className="section bg-navy">
         <div className="container">
-          <div className="about-location-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div className="about-location-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2.5rem', alignItems: 'center' }}>
             <div className="fade-up">
               <span className="badge badge-white text-label">오시는 길</span>
               <h2 className="text-h2" style={{ color: 'white', marginTop: '1rem' }}>찾아오시는 방법</h2>
@@ -254,7 +254,7 @@ export default function AboutPage() {
                   </span>
                 </div>
               </div>
-              <div style={{ marginTop: '2.5rem', display: 'flex', gap: '1rem' }}>
+              <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem' }}>
                 <Link href="/contact" className="btn btn-primary">상담 문의</Link>
                 <Link href="/quote" className="btn btn-outline-white">견적 문의</Link>
               </div>

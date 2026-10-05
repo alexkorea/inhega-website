@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "bash scripts/build.sh",
     "start": "next start",
-    "prebuild": "node scripts/build-services-menu.mjs && node scripts/build-og-thumbs.mjs && python3 scripts/build-font-subset.py",
+    "prebuild": "node scripts/build-services-menu.mjs && node scripts/photo-gate.mjs && node scripts/build-og-thumbs.mjs && python3 scripts/build-font-subset.py",
     "og:thumbs": "node scripts/build-og-thumbs.mjs",
     "seo:gate": "node scripts/seo-gate.mjs",
     "news:gate": "node scripts/news-gate.mjs",
@@ -14,7 +14,8 @@
     "news:merge-test": "node scripts/news-merge-test.mjs",
     "services:menu": "node scripts/build-services-menu.mjs",
     "font:subset": "python3 scripts/build-font-subset.py",
-    "font:gate": "node scripts/font-gate.mjs"
+    "font:gate": "node scripts/font-gate.mjs",
+    "photo:gate": "node scripts/photo-gate.mjs"
   },
   "dependencies": {
     "@notionhq/client": "^5.20.0",

@@ -10,7 +10,7 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <div style={{ paddingTop: '72px' }}>
-      <section style={{ background: 'var(--navy)', padding: '4rem 0 3rem' }}>
+      <section style={{ background: 'var(--navy)', padding: '2.25rem 0 1.75rem' }}>
         <div className="container">
           <h1 className="text-display" style={{ color: 'white' }}>개인정보처리방침</h1>
           <p style={{ color: 'rgba(255,255,255,0.55)', marginTop: '0.75rem', fontSize: '0.9rem' }}>
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
       </section>
       <section className="section bg-cream">
         <div className="container-narrow">
-          <div style={{ background: 'var(--white)', borderRadius: '16px', padding: '3rem', border: '1px solid var(--border)', lineHeight: 1.9, color: 'var(--charcoal)' }}>
+          <div style={{ background: 'var(--white)', borderRadius: '16px', padding: '1.75rem', border: '1px solid var(--border)', lineHeight: 1.9, color: 'var(--charcoal)' }}>
             {[
               {
                 title: '1. 개인정보의 처리 목적',
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
                 content: '사무소는 개인정보 처리에 관한 업무를 총괄하여 책임지고, 정보주체의 개인정보 관련 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.\n\n• 개인정보 보호책임자: 유선행정사사무소 대표\n• 이메일: help@inhega.co.kr\n• 메신저: alexkorea'
               },
             ].map((section) => (
-              <div key={section.title} style={{ marginBottom: '2.5rem' }}>
+              <div key={section.title} style={{ marginBottom: '1.5rem' }}>
                 <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '1rem', paddingBottom: '0.5rem', borderBottom: '1px solid var(--border)' }}>
                   {section.title}
                 </h2>

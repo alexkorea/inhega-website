@@ -36,7 +36,7 @@ export default function QRSection({ locale }: { locale: Locale }) {
   return (
     <section style={{ padding: 'var(--section-py-sm) 0', background: '#f8f8f8' }}>
       <div className="container">
-        <div style={{ textAlign: 'center', marginBottom: '2.5rem' }} className="fade-up">
+        <div style={{ textAlign: 'center', marginBottom: 'var(--section-head-gap)' }} className="fade-up">
           <h2 className="text-h2" style={{ marginBottom: '0.75rem' }}>{s.title}</h2>
           <p style={{ fontSize: '0.9rem', color: '#555', maxWidth: '500px', margin: '0 auto', lineHeight: 1.6 }}>{s.subtitle}</p>
         </div>
@@ -57,11 +57,11 @@ export default function QRSection({ locale }: { locale: Locale }) {
                 background: '#ffffff',
                 border: '1px solid #e5e7eb',
                 borderRadius: '12px',
-                padding: '1.25rem',
+                padding: '0.875rem',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '0.75rem',
+                gap: '0.5rem',
                 boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
               }}
             >

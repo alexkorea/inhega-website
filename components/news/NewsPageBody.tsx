@@ -73,7 +73,7 @@ export default async function NewsPageBody({ locale }: { locale: NewsLocale }) {
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <section style={{ background: 'var(--navy)', padding: '4rem 0', paddingTop: 'calc(72px + 4rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: '2.25rem 0', paddingTop: 'calc(72px + 2.25rem)' }}>
         <div className="container">
           <span className="badge badge-white text-label">{t.badge}</span>
           <h1 className="text-display" style={{ color: 'white', marginTop: '1rem' }}>{t.h1}</h1>

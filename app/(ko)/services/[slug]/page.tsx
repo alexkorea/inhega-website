@@ -1,4 +1,5 @@
-import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
+import IndustryHeroImage from '@/components/ui/IndustryHeroImage'
+import { INDUSTRY_PHOTOS, industryPhotoMeta } from '@/lib/service-card-images'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { services, getServiceBySlug, isDeployHold, stripHeldLinks } from '@/lib/services-data'
@@ -26,6 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (industry) return industryMetadata(industry)
   const svc = getServiceBySlug(slug)
   if (!svc) return {}
+  const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'ko', svc.title) : null
   const pageTitle = svc.seoTitle ?? `${svc.title} | 유선행정사사무소`
   return {
     title: pageTitle,
@@ -53,7 +55,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: pageTitle,
       description: svc.description,
       url: `https://inhega.co.kr/services/${slug}`,
-      images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
+      images: [photo ? photo.og : { url: '/images/hero-seoul.png', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: svc.description,
+      images: [photo ? photo.og.url : '/images/hero-seoul.png'],
     },
   }
 }
@@ -64,6 +72,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   if (industry) return <IndustryServicePage page={industry} />
   const svc = getServiceBySlug(slug)
   if (!svc) notFound()
+  const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'ko', svc.title) : null
 
   const faqJsonLd = svc.faqs.length > 0 ? {
     '@context': 'https://schema.org',
@@ -89,6 +98,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     },
     areaServed: { '@type': 'Country', name: '대한민국' },
     url: `https://inhega.co.kr/services/${slug}`,
+    ...(photo ? { image: photo.jsonLd } : {}),
   }
 
   return (
@@ -98,25 +108,23 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <div style={{ paddingTop: '72px' }}>
       {/* Hero */}
       <section className={styles.hero}>
-        {/* 오버레이(rgba(11,31,58,.72))는 이미지에 합성돼 있다 — serviceHeroBase. 배경색은 이미지 도착 전 안전망 */}
-        <div style={{ position: 'absolute', inset: 0, background: 'rgb(11,31,58)' }}>
-          <FillImage base={serviceHeroBase(svc.image)} small={500} large={800} alt={svc.title} sizes="100vw" priority />
-        </div>
+        {/* 업종 사진 원본 800·1200·2000w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
+        <IndustryHeroImage slug={slug} fallbackImage={svc.image} alt={photo?.alt ?? svc.title} />
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ marginBottom: '1rem' }}>
-            <Link href="/services" style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.5)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', marginBottom: '1rem' }}>
+            <Link href="/services" style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.85)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '24px' }}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
               모든 서비스
             </Link>
           </div>
-          <span className="badge badge-white" style={{ marginBottom: '1rem' }}>{svc.category}</span>
+          <span className="badge badge-white" style={{ marginBottom: '0.75rem' }}>{svc.category}</span>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(2rem,4vw,3.5rem)', fontWeight: 700, color: 'white', lineHeight: 1.15, marginBottom: '1rem' }}>
             {svc.title}
           </h1>
-          <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.7)', maxWidth: '60ch', lineHeight: 1.8 }}>
+          <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.88)', maxWidth: '60ch', lineHeight: 1.8 }}>
             {svc.description}
           </p>
-          <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+          <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link href="/quote" className="btn btn-primary btn-lg">견적 문의하기</Link>
             <Link href="/contact" className="btn btn-outline-white">무료 상담</Link>
           </div>
@@ -130,7 +138,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <div>
               {/* Overview (if present) */}
               {svc.overview && (
-                <section className="fade-up" style={{ marginBottom: '4rem' }}>
+                <section className="fade-up" style={{ marginBottom: 'var(--block-gap)' }}>
                   <div
                     className="svc-overview-content"
                     dangerouslySetInnerHTML={{ __html: stripHeldLinks(svc.overview) }}
@@ -140,7 +148,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
               {/* Process — 원문에 절차 텍스트가 없는 서비스는 process 를 비워두고 섹션 자체를 생략한다 */}
               {svc.process.length > 0 && (
-              <section className="fade-up" id="svc-process" style={{ marginBottom: '4rem' }}>
+              <section className="fade-up" id="svc-process" style={{ marginBottom: 'var(--block-gap)' }}>
                 <div style={{ marginBottom: '2rem' }}>
                   <span className="badge badge-burgundy text-label">진행 절차</span>
                   <h2 className="text-h2" style={{ marginTop: '0.75rem', color: 'var(--charcoal)' }}>처리 프로세스</h2>
@@ -196,7 +204,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <IndustryBacklinks pages={getIndustryBacklinks('ko', `/services/${slug}`)} heading={BACKLINK_HEADING.ko} />
               {/* I4 3종 세트 — 허브 → 선택기준·문제해결 글 (lib/hub-guides.generated.ts) */}
               {(HUB_GUIDES[`/services/${slug}`] ?? []).length > 0 && (
-                <section className="fade-up" id="svc-guides" style={{ marginTop: '4rem' }}>
+                <section className="fade-up" id="svc-guides" style={{ marginTop: 'var(--block-gap)' }}>
                   <div style={{ marginBottom: '1.5rem' }}>
                     <span className="badge badge-navy text-label">실무 가이드</span>
                     <h2 className="text-h2" style={{ marginTop: '0.75rem', color: 'var(--charcoal)' }}>대행 선택 기준과 문제 해결 가이드</h2>

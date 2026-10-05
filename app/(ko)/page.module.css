@@ -3,12 +3,12 @@
 /* ========= HERO ========= */
 .hero {
   position: relative;
-  min-height: 66dvh;
+  min-height: 50dvh; /* INH-PHOTO60 66dvh→50dvh: 1440 히어로 약 25% 축소 */
   display: flex;
   align-items: flex-end;
   /* fixed Navbar is 73px (72px + 1px border), 65px under 480px — keep the h1 clear of it */
   padding-top: 89px;
-  padding-bottom: 4rem;
+  padding-bottom: 2.25rem;
   overflow: hidden;
   /* 히어로 이미지에 오버레이를 구워 넣었으므로 같은 색을 바탕에 깔아 둔다 —
      이미지가 늦거나 실패해도 흰 배경 위 흰 글자가 되지 않는다. */
@@ -33,7 +33,7 @@
 .heroLeft {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .heroTitle {
@@ -69,7 +69,7 @@
   background: rgba(11,31,58,0.55);
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 16px;
-  padding: 1.75rem;
+  padding: 1.25rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
@@ -124,7 +124,7 @@
 /* ========= TRUST STRIP ========= */
 .trustStrip {
   background: var(--navy);
-  padding: 1.5rem 0;
+  padding: 0.875rem 0;
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
@@ -245,7 +245,7 @@
 }
 
 .allServicesBtn {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -253,13 +253,13 @@
 .processGrid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
   position: relative;
 }
 
 .processCard {
   position: relative;
-  padding: 2rem 1.5rem;
+  padding: 1.25rem 1.25rem;
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 16px;
@@ -316,7 +316,7 @@
 .whyGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+  gap: 3rem;
   align-items: center;
 }
 
@@ -352,7 +352,7 @@
 
 .whyRight {
   position: relative;
-  height: 520px;
+  height: 420px;
 }
 
 .whyImageWrap {
@@ -456,7 +456,7 @@
 @media (max-width: 768px) {
   .hero {
     padding-top: 81px;
-    padding-bottom: 5rem;
+    padding-bottom: 2.25rem;
     align-items: flex-end;
   }
 

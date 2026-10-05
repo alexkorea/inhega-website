@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { FillImage, responsiveBase } from '@/components/ui/FillImage'
+import { FillImage } from '@/components/ui/FillImage'
 import { getServiceCatalog, type CatalogLocale } from '@/lib/services-catalog'
 import { getServiceDirectory, type DirectoryEntry, type DirectoryGroup } from '@/lib/service-directory'
-import { INDUSTRY_CARD_IMAGE } from '@/lib/service-card-images'
+import { industryPhotoBase, industryPhotoAlt } from '@/lib/service-card-images'
 import DirectoryTabs from './DirectoryTabs'
 import styles from './ServiceDirectory.module.css'
 
@@ -44,12 +44,17 @@ function Card({ e, locale, heading: H }: { e: DirectoryEntry; locale: CatalogLoc
   )
 }
 
-/** 카드 사진 — 기존 24종은 정본 image, 신규 업종은 lib/service-card-images.ts. 없으면 빌드 중단(회색 빈 카드 금지). */
-function cardImage(slug: string, catalogImage: Map<string, string>): string {
-  const img = catalogImage.get(slug) ?? INDUSTRY_CARD_IMAGE[slug]
-  if (!img) throw new Error(`[ServiceDirectory] 카드 사진 없음: ${slug} — lib/service-card-images.ts 에 기존 사진을 배정할 것`)
-  return img
+/** 카드 사진 — 60업종 전부 lib/service-card-images.ts 하나(INH-PHOTO60). 없으면 빌드 중단(회색 빈 카드 금지).
+    기존 24종은 services-data 의 image 와 같은 파일이어야 한다 — 어긋나면 카드·상세가 다른 사진이 된다. */
+function cardImageBase(slug: string, catalogImage: Map<string, string>): string {
+  const base = industryPhotoBase(slug)
+  const cat = catalogImage.get(slug)
+  if (cat && cat !== `${base}.webp`) throw new Error(`[ServiceDirectory] ${slug}: services-data image(${cat}) ≠ 업종 사진(${base}.webp)`)
+  return base
 }
+
+// 실제 카드 폭(ServiceDirectory.module.css): ≤768 2열(좌우 1.25rem·간격 0.75rem), ≤1024 2열, ≤1199 3열, 그 위 4열(콘텐츠 1120px)
+const CARD_SIZES = '(max-width: 768px) calc(50vw - 1.7rem), (max-width: 1024px) calc(50vw - 3rem), (max-width: 1199px) calc(33vw - 2.5rem), 270px'
 
 /* 예전 홈(배포 657ffb7a) 사진 카드 그리드 — 사진 + 분야 배지 + 업종명 + 한 줄 설명 + 자세히 보기.
    홈은 분야 소제목 h3·카드 h4, /services 는 h2·h3 + 풋터 바로가기 앵커(#grp-<id>). */
@@ -67,18 +72,18 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
               {g.label}
               <span className={styles.groupCount}>{g.items.length}</span>
             </GroupH>
-            <ul className={page === 'index' ? `${styles.photoGrid} ${styles.photoGridWide}` : styles.photoGrid}>
+            <ul className={styles.photoGrid}>
               {g.items.map((e) => (
                 <li key={e.slug}>
                   <Link prefetch={false} href={e.href} className={styles.photoCard}>
                     <div className={styles.photoImage}>
-                      {/* 전부 lazy — 홈은 첫 화면 밖, /services 는 LCP 가 히어로 제목(텍스트)이다. sizes 250px 은 밀도 상한(09d8ada 참고). */}
+                      {/* 전부 lazy — 홈은 첫 화면 밖, /services 는 LCP 가 히어로 제목(텍스트)이다.
+                          sizes = 실제 카드 폭(CARD_SIZES). */}
                       <FillImage
-                        base={responsiveBase(cardImage(e.slug, catalogImage))}
-                        small={500}
-                        large={800}
-                        alt={e.title}
-                        sizes="(max-width: 900px) 250px, 33vw"
+                        base={cardImageBase(e.slug, catalogImage)}
+                        widths={[800, 1200]}
+                        alt={industryPhotoAlt(e.slug, locale, e.title)}
+                        sizes={CARD_SIZES}
                       />
                       <div className={styles.photoOverlay} />
                     </div>

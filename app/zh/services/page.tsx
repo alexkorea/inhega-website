@@ -46,7 +46,7 @@ export default function ZhServicesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <div style={{ paddingTop: '72px' }}>
         {/* Header */}
-        <section style={{ background: 'var(--navy)', padding: '3rem 0 2.5rem' }}>
+        <section style={{ background: 'var(--navy)', padding: '1.75rem 0 1.5rem' }}>
           <div className="container">
             <span className="badge badge-white text-label fade-up">服务项目</span>
             <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>

@@ -168,7 +168,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <section style={{ background: 'var(--navy)', padding: '3rem 0', paddingTop: 'calc(72px + 3rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: '1.75rem 0', paddingTop: 'calc(72px + 1.75rem)' }}>
         <div className="container">
           <div className={styles.wrap}>
             <nav className={styles.breadcrumb} aria-label="현재 위치">

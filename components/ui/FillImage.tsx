@@ -10,10 +10,12 @@
 type Props = {
   /** 폭 접미사를 뺀 공통 경로. 예: "/images/hero-seoul-20260923" */
   base: string
-  /** 작은 쪽 폭(px). src 기본값이자 srcSet 의 첫 후보. */
-  small: number
+  /** 작은 쪽 폭(px). src 기본값이자 srcSet 의 첫 후보. widths 를 주면 무시. */
+  small?: number
   /** 큰 쪽 폭(px). */
-  large: number
+  large?: number
+  /** 폭 후보 전부(오름차순). 업종 사진(INH-PHOTO60)은 카드 [800,1200]·히어로 [800,1200,2000]. */
+  widths?: number[]
   alt: string
   sizes: string
   /** LCP 요소면 true. 프리로드 + fetchpriority=high 를 준다. */
@@ -21,13 +23,11 @@ type Props = {
   objectPosition?: string
 }
 
-export function FillImage({ base, small, large, alt, sizes, priority = false, objectPosition }: Props) {
+export function FillImage({ base, small, large, widths, alt, sizes, priority = false, objectPosition }: Props) {
   // small === large 면 후보가 하나뿐인 자산(예: 고정 크기 QR)이다.
-  const srcSet =
-    small === large
-      ? `${base}-${small}.webp ${small}w`
-      : `${base}-${small}.webp ${small}w, ${base}-${large}.webp ${large}w`
-  const src = `${base}-${small}.webp`
+  const ws = widths ?? (small === large ? [small!] : [small!, large!])
+  const srcSet = ws.map((w) => `${base}-${w}.webp ${w}w`).join(', ')
+  const src = `${base}-${ws[0]}.webp`
 
   return (
     <>

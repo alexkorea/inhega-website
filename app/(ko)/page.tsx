@@ -181,7 +181,7 @@ export default function HomePage() {
           {/* 0949 — 기존 24종 + 신규 업종 전부, 분야 소제목 + 사진 카드 전부 펼침(INH-RESTORE). 정본 lib/service-directory.ts */}
           <ServiceDirectory locale="ko" mode="cards" />
 
-          <div className="fade-up" style={{ textAlign: 'center', marginTop: '3rem', padding: '2rem', background: 'var(--white)', borderRadius: '16px', border: '1px solid var(--border)' }}>
+          <div className="fade-up" style={{ textAlign: 'center', marginTop: '1.5rem', padding: '1.25rem', background: 'var(--white)', borderRadius: '16px', border: '1px solid var(--border)' }}>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.125rem, 2vw, 1.5rem)', fontWeight: 700, color: 'var(--navy)' }}>
               전문서비스 — 모든 인허가 분야를 한곳에서 해결합니다.
             </p>
@@ -271,7 +271,7 @@ export default function HomePage() {
               믿을 수 있는<br />전문가가 필요합니다
             </h2>
             <span className="accent-line fade-up delay-2" style={{ marginTop: '1rem' }} />
-            <p className={`text-body-lg fade-up delay-2`} style={{ marginTop: '1.5rem' }}>
+            <p className={`text-body-lg fade-up delay-2`} style={{ marginTop: '1rem' }}>
               단순한 서류 대행이 아닙니다. 사업의 성패를 가르는 인허가를
               처음부터 끝까지 책임지는 파트너가 되겠습니다.
             </p>
@@ -293,7 +293,7 @@ export default function HomePage() {
                 </li>
               ))}
             </ul>
-            <div className={`fade-up delay-4`} style={{ marginTop: '2rem' }}>
+            <div className={`fade-up delay-4`} style={{ marginTop: '1.25rem' }}>
               <Link prefetch={false} href="/about" className="btn btn-primary">회사 소개 보기</Link>
             </div>
           </div>
@@ -307,10 +307,10 @@ export default function HomePage() {
           <span className="badge badge-navy text-label">자주 묻는 질문</span>
           <h2 className={`text-h2`} style={{ marginTop: '0.75rem' }}>FAQ</h2>
           <span className="accent-line" style={{ marginTop: '0.75rem' }} />
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.625rem', marginTop: '1.25rem' }}>
             {homeFaqs.map((f) => (
-              <div key={f.q} style={{ background: 'var(--white)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
-                <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.625rem' }}>Q. {f.q}</p>
+              <div key={f.q} style={{ background: 'var(--white)', borderRadius: '12px', padding: '1rem 1.25rem', border: '1px solid var(--border)' }}>
+                <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.375rem' }}>Q. {f.q}</p>
                 <p style={{ fontSize: '0.9rem', color: 'var(--slate)', lineHeight: 1.7 }}>A. {f.a}</p>
               </div>
             ))}

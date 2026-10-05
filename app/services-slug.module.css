@@ -1,16 +1,16 @@
 .hero {
   position: relative;
-  min-height: 480px;
+  min-height: 360px;
   display: flex;
   align-items: flex-end;
-  padding: 5rem 0 4rem;
+  padding: 3rem 0 2.25rem;
   overflow: hidden;
 }
 
 .contentGrid {
   display: grid;
   grid-template-columns: 1fr 360px;
-  gap: 4rem;
+  gap: 2.5rem;
   align-items: start;
 }
 
@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 360px;
-    padding: 4rem 0 3rem;
+    min-height: 280px;
+    padding: 2.25rem 0 1.75rem;
   }
 }

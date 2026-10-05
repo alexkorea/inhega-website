@@ -6,7 +6,6 @@
 // /services/[slug] 라우트와 사이트맵·서비스 목록 하단·관련 서비스 역링크로만 노출된다.
 // 서버 전용: 'use client' 컴포넌트에서 import 하면 원고 전체가 번들에 실린다.
 import { INDUSTRY_PAGES } from './industry-pages.generated'
-import { INDUSTRY_CARD_IMAGE } from './service-card-images'
 
 export type IndustryLocale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -45,16 +44,6 @@ export function getIndustrySlugs(locale: IndustryLocale): string[] {
 /** 이 slug 의 원고가 있는 언어 — hreflang 은 이 언어들끼리만 상호참조한다. */
 export function getIndustryLocales(slug: string): IndustryLocale[] {
   return (['ko', 'en', 'zh', 'ja'] as const).filter((l) => getIndustryPage(l, slug))
-}
-
-/**
- * 상세 히어로 사진 = 홈·/services 카드 사진(lib/service-card-images.ts 하나).
- * 예전엔 여기 따로 표가 있어 14업종이 카드와 다른 사진이었다(INH-RESTORE 추가, 보스 msg 2266·2267).
- */
-export function getIndustryHeroImage(slug: string): string {
-  const img = INDUSTRY_CARD_IMAGE[slug]
-  if (!img) throw new Error(`[industry-pages] 업종 사진 없음: ${slug} — lib/service-card-images.ts 에 기존 사진을 배정할 것`)
-  return img
 }
 
 /**

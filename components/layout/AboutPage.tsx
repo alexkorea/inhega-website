@@ -186,9 +186,9 @@ export default function AboutPage({ locale }: { locale: Locale }) {
   return (
     <div>
       {/* Hero */}
-      <section style={{ background: 'var(--navy)', padding: '3rem 0 var(--section-py-md)', paddingTop: 'calc(72px + 3rem)' }}>
+      <section style={{ background: 'var(--navy)', padding: '1.75rem 0 var(--section-py-md)', paddingTop: 'calc(72px + 1.75rem)' }}>
         <div className="container">
-          <div className="about-hero-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div className="about-hero-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2.5rem', alignItems: 'center' }}>
             <div>
               <span className="badge badge-white text-label fade-up">{s.badge}</span>
               <h1 className="text-display fade-up delay-1" style={{ color: 'white', marginTop: '1rem' }}>
@@ -218,7 +218,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
       </section>
 
       {/* Stats */}
-      <section style={{ background: 'var(--burgundy)', padding: '3rem 0' }}>
+      <section style={{ background: 'var(--burgundy)', padding: 'var(--section-py-md) 0' }}>
         <div className="container">
           <div className="about-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
             {s.stats.map((st) => (
@@ -234,11 +234,11 @@ export default function AboutPage({ locale }: { locale: Locale }) {
       {/* Greeting */}
       <section className="section bg-cream">
         <div className="container-narrow">
-          <div className="fade-up" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+          <div className="fade-up" style={{ textAlign: 'center', marginBottom: 'var(--section-head-gap)' }}>
             <span className="badge badge-burgundy text-label">{s.greetingBadge}</span>
           </div>
           <blockquote className="fade-up delay-1" style={{
-            background: 'var(--white)', borderRadius: '20px', padding: '3rem',
+            background: 'var(--white)', borderRadius: '20px', padding: '1.75rem',
             border: '1px solid var(--border)', position: 'relative',
             borderLeft: '4px solid var(--burgundy)',
           }}>
@@ -284,7 +284,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
       {/* Location */}
       <section className="section bg-navy">
         <div className="container">
-          <div className="about-location-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div className="about-location-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2.5rem', alignItems: 'center' }}>
             <div className="fade-up">
               <span className="badge badge-white text-label">{s.locationBadge}</span>
               <h2 className="text-h2" style={{ color: 'white', marginTop: '1rem' }}>{s.locationH2}</h2>
@@ -297,7 +297,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
                   </div>
                 ))}
               </div>
-              <div style={{ marginTop: '2.5rem', display: 'flex', gap: '1rem' }}>
+              <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem' }}>
                 <Link prefetch={false} href={s.contactHref} className="btn btn-primary">{s.ctaPrimary}</Link>
                 <Link prefetch={false} href={s.quoteHref} className="btn btn-outline-white">{s.ctaSecondary}</Link>
               </div>

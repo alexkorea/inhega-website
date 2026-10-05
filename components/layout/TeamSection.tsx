@@ -93,16 +93,17 @@ const staff: Member[] = [
 ]
 
 function MemberCard({ member, locale, size = 'lg' }: { member: Member; locale: Locale; size?: 'lg' | 'md' }) {
-  const photoSize = 144
+  // INH-PHOTO60(보스 msg 2351): 사진 원 120→88급, 7명 한 줄 — 높이 867→ 절반 이하
+  const photoSize = 88
   return (
-    <div style={{ textAlign: 'center', padding: '1rem 0.5rem' }}>
+    <div style={{ textAlign: 'center', padding: '0.5rem 0.25rem' }}>
       <div style={{
         position: 'relative',
         width: `min(${photoSize}px, 100%)`,
         aspectRatio: '1 / 1',
         borderRadius: '50%',
         overflow: 'hidden',
-        margin: '0 auto 0.875rem',
+        margin: '0 auto 0.5rem',
         border: '3px solid #e8edf5',
         background: '#f0f4fa',
         flexShrink: 0,
@@ -136,7 +137,7 @@ export default function TeamSection({ locale }: { locale: Locale }) {
   return (
     <section style={{ padding: 'var(--section-py-md) 0', background: '#ffffff' }}>
       <div className="container">
-        <div style={{ textAlign: 'center', marginBottom: '3rem' }} className="fade-up">
+        <div style={{ textAlign: 'center', marginBottom: 'var(--section-head-gap)' }} className="fade-up">
           <span className="badge badge-burgundy text-label">
             {locale === 'ko' ? '전문가 소개' : locale === 'en' ? 'Our Team' : locale === 'zh' ? '专家团队' : '専門家紹介'}
           </span>
@@ -144,33 +145,20 @@ export default function TeamSection({ locale }: { locale: Locale }) {
           <p style={{ fontSize: '0.9rem', color: '#6b7280', maxWidth: '520px', margin: '0 auto' }}>{s.subtitle}</p>
         </div>
 
-        {/* Admins — 2 mobile / 3 tablet / 6 desktop */}
+        {/* 7명 한 줄(PC) — 행정사 4 + 직원 3 순서 그대로. 900px 이하 4열 두 줄 */}
         <div
-          className="fade-up team-grid-admins"
+          className="fade-up team-grid"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(4, minmax(0, 1fr))',
-            gap: '0.5rem 1rem',
-            maxWidth: '720px',
-            margin: '0 auto 1rem',
+            gridTemplateColumns: 'repeat(7, minmax(0, 1fr))',
+            gap: '0.25rem 0.75rem',
+            maxWidth: 'var(--content-max)',
+            margin: '0 auto',
           }}
         >
           {admins.map((m) => (
             <MemberCard key={m.nameKo} member={m} locale={locale} size="lg" />
           ))}
-        </div>
-
-        {/* Staff — 3 columns centered */}
-        <div
-          className="fade-up team-grid-staff"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
-            gap: '0.5rem 1rem',
-            maxWidth: '520px',
-            margin: '0 auto',
-          }}
-        >
           {staff.map((m) => (
             <MemberCard key={m.nameKo} member={m} locale={locale} size="md" />
           ))}
@@ -179,11 +167,7 @@ export default function TeamSection({ locale }: { locale: Locale }) {
 
       <style>{`
         @media (max-width: 900px) {
-          .team-grid-admins { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-        }
-        @media (max-width: 560px) {
-          .team-grid-admins { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-          .team-grid-staff  { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+          .team-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
         }
       `}</style>
     </section>

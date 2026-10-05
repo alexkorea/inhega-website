@@ -1,13 +1,13 @@
 // I2 신규 업종 서비스 페이지 — 기존 /services/[slug] 템플릿(히어로·본문·사이드바 CTA)과
 // 같은 골격에 원고(content/industry-pages)를 그대로 싣는다. 4언어 라우트가 공용으로 쓴다.
 // 화면 문구는 기존 서비스 페이지 템플릿의 라벨을 그대로 옮긴 것이고, 본문은 원고뿐이다.
-import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
+import IndustryHeroImage from '@/components/ui/IndustryHeroImage'
+import { industryPhotoMeta } from '@/lib/service-card-images'
 import Link from 'next/link'
 import { Flag } from '@/components/ui/LangFlags'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
 import {
-  getIndustryHeroImage,
   getIndustryLocales,
   type IndustryLocale,
   type IndustryPage,
@@ -73,6 +73,7 @@ export function industryMetadata(page: IndustryPage): Metadata {
   const languages: Record<string, string> = {}
   for (const l of locales) languages[l] = pageUrl(l, slug)
   languages['x-default'] = pageUrl('ko', slug)
+  const photo = industryPhotoMeta(slug, lang, page.h1)
   return {
     title: page.title,
     description: page.lead,
@@ -81,7 +82,13 @@ export function industryMetadata(page: IndustryPage): Metadata {
       title: page.title,
       description: page.lead,
       url: pageUrl(lang, slug),
-      images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
+      images: [photo.og],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: page.title,
+      description: page.lead,
+      images: [photo.og.url],
     },
   }
 }
@@ -98,6 +105,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
   const ui = UI[lang]
   const url = pageUrl(lang, slug)
   const otherLangs = LANG_LINKS.filter((x) => x.l !== lang && getIndustryLocales(slug).includes(x.l))
+  const photo = industryPhotoMeta(slug, lang, page.h1)
 
   const serviceJsonLd = {
     '@context': 'https://schema.org',
@@ -112,6 +120,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
     },
     areaServed: { '@type': 'Country', name: ui.country },
     url,
+    image: photo.jsonLd,
   }
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -141,25 +150,23 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
       <div style={{ paddingTop: '72px', ...(lang === 'zh' || lang === 'ja' ? { wordBreak: 'normal' as const } : {}) }}>
         {/* Hero */}
         <section className={styles.hero}>
-          {/* 오버레이(rgba(11,31,58,.72))는 이미지에 합성돼 있다 — serviceHeroBase. 배경색은 이미지 도착 전 안전망 */}
-          <div style={{ position: 'absolute', inset: 0, background: 'rgb(11,31,58)' }}>
-            <FillImage base={serviceHeroBase(getIndustryHeroImage(slug))} small={500} large={800} alt={page.h1} sizes="100vw" priority />
-          </div>
+          {/* 업종 사진 원본 800·1200·2000w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
+          <IndustryHeroImage slug={slug} alt={photo.alt} />
           <div className="container" style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>
-              <Link href={ui.backHref} style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.5)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', marginBottom: '1rem' }}>
+              <Link href={ui.backHref} style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.85)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '24px' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
                 {ui.back}
               </Link>
             </div>
-            <span className="badge badge-white" style={{ marginBottom: '1rem' }}>{ui.badge}</span>
+            <span className="badge badge-white" style={{ marginBottom: '0.75rem' }}>{ui.badge}</span>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(2rem,4vw,3.5rem)', fontWeight: 700, color: 'white', lineHeight: 1.15, marginBottom: '1rem' }}>
               {page.h1}
             </h1>
-            <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.7)', maxWidth: '60ch', lineHeight: 1.8 }}>
+            <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.88)', maxWidth: '60ch', lineHeight: 1.8 }}>
               {page.lead}
             </p>
-            <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+            <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <Link href={ui.heroPrimary.href} className="btn btn-primary btn-lg">{ui.heroPrimary.label}</Link>
               <Link href={ui.heroSecondary.href} className="btn btn-outline-white">{ui.heroSecondary.label}</Link>
             </div>
@@ -171,7 +178,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
             <div className={styles.contentGrid}>
               {/* Main Content — minWidth:0: 1fr 트랙 블로아웃 방지 */}
               <div style={{ minWidth: 0 }}>
-                <section className="svc-overview-content" style={{ marginBottom: '4rem' }}>
+                <section className="svc-overview-content" style={{ marginBottom: 'var(--block-gap)' }}>
                   <div className="svc-highlight">
                     <p style={{ fontWeight: 700, marginBottom: '0.5rem' }}>{page.summaryLabel}</p>
                     <ul style={{ margin: '0 0 0 1.25rem' }}>
@@ -187,7 +194,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                 </section>
 
                 {/* FAQ */}
-                <section id="svc-faq" style={{ marginBottom: '4rem' }}>
+                <section id="svc-faq" style={{ marginBottom: 'var(--block-gap)' }}>
                   <div style={{ marginBottom: '2rem' }}>
                     <span className="badge badge-navy text-label">FAQ</span>
                     <h2 className="text-h2" style={{ marginTop: '0.75rem', color: 'var(--charcoal)' }}>{page.faqHeading}</h2>
@@ -289,7 +296,7 @@ export function IndustryBacklinks({ pages, heading }: { pages: IndustryPage[]; h
   if (pages.length === 0) return null
   const pre = pages[0].lang === 'ko' ? '' : `/${pages[0].lang}`
   return (
-    <section style={{ marginTop: '4rem' }}>
+    <section style={{ marginTop: 'var(--block-gap)' }}>
       <div style={{ marginBottom: '1.5rem' }}>
         <h2 className="text-h2" style={{ color: 'var(--charcoal)' }}>{heading}</h2>
         <span className="accent-line" style={{ marginTop: '0.75rem' }} />

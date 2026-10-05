@@ -162,7 +162,7 @@ export default function JaHomePage() {
               {t.whyUs.title}
             </h2>
             <span className="accent-line fade-up delay-2" style={{ marginTop: '1rem' }} />
-            <p className={`text-body-lg fade-up delay-2`} style={{ marginTop: '1.5rem' }}>{t.whyUs.desc}</p>
+            <p className={`text-body-lg fade-up delay-2`} style={{ marginTop: '1rem' }}>{t.whyUs.desc}</p>
             <ul className={`${styles.whyList} fade-up delay-3`}>
               {t.whyUs.points.map((item) => (
                 <li key={item} className={styles.whyItem}>
@@ -175,7 +175,7 @@ export default function JaHomePage() {
                 </li>
               ))}
             </ul>
-            <div className={`fade-up delay-4`} style={{ marginTop: '2rem' }}>
+            <div className={`fade-up delay-4`} style={{ marginTop: '1.25rem' }}>
               <Link prefetch={false} href="/ja/contact" className="btn btn-primary">{t.whyUs.cta}</Link>
             </div>
           </div>

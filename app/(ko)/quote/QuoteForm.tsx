@@ -76,7 +76,7 @@ export default function QuoteForm() {
   return (
     <div style={{ paddingTop: '72px', minHeight: '100dvh', background: 'var(--cream)' }}>
       {/* Header */}
-      <div style={{ background: 'var(--navy)', padding: '3rem 0 2rem' }}>
+      <div style={{ background: 'var(--navy)', padding: '1.75rem 0 1.25rem' }}>
         <div className="container-narrow">
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.75rem,3vw,2.5rem)', color: 'white', marginBottom: '1.5rem' }}>
             무료 견적 문의
@@ -96,7 +96,7 @@ export default function QuoteForm() {
         </div>
       </div>
 
-      <div style={{ padding: '3rem 0' }}>
+      <div style={{ padding: 'var(--section-py-md) 0' }}>
         <div className="container-narrow">
           <div style={{ background: 'var(--white)', borderRadius: '20px', padding: 'clamp(1.25rem, 6vw, 2.5rem)', border: '1px solid var(--border)' }}>
 
@@ -234,7 +234,7 @@ export default function QuoteForm() {
             )}
 
             {/* Nav buttons */}
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '2.5rem', gap: '1rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1.5rem', gap: '1rem' }}>
               {step > 0 && (
                 <button onClick={() => setStep(s => s - 1)} className="btn btn-secondary">
                   이전

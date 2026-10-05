@@ -1,4 +1,5 @@
-import { FillImage, serviceHeroBase } from '@/components/ui/FillImage'
+import IndustryHeroImage from '@/components/ui/IndustryHeroImage'
+import { INDUSTRY_PHOTOS, industryPhotoMeta } from '@/lib/service-card-images'
 import Link from 'next/link'
 import { Flag } from '@/components/ui/LangFlags'
 import { notFound } from 'next/navigation'
@@ -24,8 +25,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (industry) return industryMetadata(industry)
   const svc = getServiceI18n('en', slug)
   if (!svc) return {}
+  const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'en', svc.title) : null
+  const pageTitle = `${svc.title} | YouSun Administrative Agency`
   return {
-    title: `${svc.title} | YouSun Administrative Agency`,
+    title: pageTitle,
     description: svc.description,
     // 보스 확정 대기 페이지 — 색인 차단 (2026-09-17).
     ...(isDeployHold(slug) ? { robots: { index: false, follow: false } } : {}),
@@ -40,10 +43,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       },
     },
     openGraph: {
-      title: `${svc.title} | YouSun Administrative Agency`,
+      title: pageTitle,
       description: svc.description,
       url: `https://inhega.co.kr/en/services/${slug}`,
-      images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
+      images: [photo ? photo.og : { url: '/images/hero-seoul.png', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: svc.description,
+      images: [photo ? photo.og.url : '/images/hero-seoul.png'],
     },
   }
 }
@@ -56,6 +65,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
   if (!svcKo) notFound()
   const svc = getServiceI18n('en', slug)
   if (!svc) notFound()
+  const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'en', svc.title) : null
 
   const faqJsonLd = svc.faqs ? {
     '@context': 'https://schema.org',
@@ -80,6 +90,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
     },
     areaServed: { '@type': 'Country', name: 'Republic of Korea' },
     url: `https://inhega.co.kr/en/services/${slug}`,
+    ...(photo ? { image: photo.jsonLd } : {}),
   }
 
   return (
@@ -89,25 +100,23 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
       <div style={{ paddingTop: '72px' }}>
         {/* Hero */}
         <section className={styles.hero}>
-          {/* 오버레이(rgba(11,31,58,.72))는 이미지에 합성돼 있다 — serviceHeroBase. 배경색은 이미지 도착 전 안전망 */}
-          <div style={{ position: 'absolute', inset: 0, background: 'rgb(11,31,58)' }}>
-            <FillImage base={serviceHeroBase(svcKo.image)} small={500} large={800} alt={svc.title} sizes="100vw" priority />
-          </div>
+          {/* 업종 사진 원본 800·1200·2000w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
+          <IndustryHeroImage slug={slug} fallbackImage={svcKo.image} alt={photo?.alt ?? svc.title} />
           <div className="container" style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>
-              <Link href="/en/services/logistics" style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.5)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', marginBottom: '1rem' }}>
+              <Link href="/en/services/logistics" style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.85)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '24px' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
                 All Services
               </Link>
             </div>
-            <span className="badge badge-white" style={{ marginBottom: '1rem' }}>{svc.category}</span>
+            <span className="badge badge-white" style={{ marginBottom: '0.75rem' }}>{svc.category}</span>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(2rem,4vw,3.5rem)', fontWeight: 700, color: 'white', lineHeight: 1.15, marginBottom: '1rem' }}>
               {svc.title}
             </h1>
-            <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.7)', maxWidth: '60ch', lineHeight: 1.8 }}>
+            <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.88)', maxWidth: '60ch', lineHeight: 1.8 }}>
               {svc.description}
             </p>
-            <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+            <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <Link href="/en/contact" className="btn btn-primary btn-lg">Free Consultation</Link>
               <Link href="/en/contact" className="btn btn-outline-white">Get a Quote</Link>
             </div>
@@ -121,7 +130,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
               <div>
                 {/* Process */}
                 {svc.processSteps && (
-                  <section className="fade-up" style={{ marginBottom: '4rem' }}>
+                  <section className="fade-up" style={{ marginBottom: 'var(--block-gap)' }}>
                     <div style={{ marginBottom: '2rem' }}>
                       <span className="badge badge-burgundy text-label">Process</span>
                       <h2 className="text-h2" style={{ marginTop: '0.75rem', color: 'var(--charcoal)' }}>How We Handle It</h2>
