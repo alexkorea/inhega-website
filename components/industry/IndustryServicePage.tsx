@@ -1,7 +1,7 @@
 // I2 신규 업종 서비스 페이지 — 기존 /services/[slug] 템플릿(히어로·본문·사이드바 CTA)과
 // 같은 골격에 원고(content/industry-pages)를 그대로 싣는다. 4언어 라우트가 공용으로 쓴다.
 // 화면 문구는 기존 서비스 페이지 템플릿의 라벨을 그대로 옮긴 것이고, 본문은 원고뿐이다.
-import IndustryHeroImage from '@/components/ui/IndustryHeroImage'
+import IndustryHeroImage, { HERO_TEXT_CLASS } from '@/components/ui/IndustryHeroImage'
 import { industryPhotoMeta } from '@/lib/service-card-images'
 import Link from 'next/link'
 import { Flag } from '@/components/ui/LangFlags'
@@ -150,9 +150,9 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
       <div style={{ paddingTop: '72px', ...(lang === 'zh' || lang === 'ja' ? { wordBreak: 'normal' as const } : {}) }}>
         {/* Hero */}
         <section className={styles.hero}>
-          {/* 업종 사진 원본 800·1200·2000w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
+          {/* 업종 사진 원본 800·1200·2000w + 글 뒤만 어둡게(INH-CARD-CLEAR) — components/ui/IndustryHeroImage */}
           <IndustryHeroImage slug={slug} alt={photo.alt} />
-          <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+          <div className={`container ${HERO_TEXT_CLASS}`} style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>
               <Link href={ui.backHref} style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.85)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '24px' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>

@@ -1,4 +1,4 @@
-import IndustryHeroImage from '@/components/ui/IndustryHeroImage'
+import IndustryHeroImage, { HERO_TEXT_CLASS } from '@/components/ui/IndustryHeroImage'
 import { INDUSTRY_PHOTOS, industryPhotoMeta } from '@/lib/service-card-images'
 import Link from 'next/link'
 import { Flag } from '@/components/ui/LangFlags'
@@ -100,9 +100,9 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
       <div style={{ paddingTop: '72px' }}>
         {/* Hero */}
         <section className={styles.hero}>
-          {/* 업종 사진 원본 800·1200·2000·2880w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
+          {/* 업종 사진 원본 800·1200·2000·2880w + 글 뒤만 어둡게(INH-CARD-CLEAR) — components/ui/IndustryHeroImage */}
           <IndustryHeroImage slug={slug} fallbackImage={svcKo.image} alt={photo?.alt ?? svc.title} />
-          <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+          <div className={`container ${HERO_TEXT_CLASS}`} style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>
               <Link href="/en/services/logistics" style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.85)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem', minHeight: '24px' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>

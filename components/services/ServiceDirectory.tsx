@@ -85,10 +85,12 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
                         alt={industryPhotoAlt(e.slug, locale, e.title)}
                         sizes={CARD_SIZES}
                       />
-                      <div className={styles.photoOverlay} />
                     </div>
+                    {/* INH-CARD-CLEAR(보스 msg 2372·2373): 배지는 사진 왼쪽 위 고정, 글 묶음은 높이 고정(제목 2줄·설명 2줄·자세히 보기)
+                        이라 카드마다 배지·제목·설명·자세히 보기 세로 위치가 같다. 어둡게 하는 것은 글 묶음 뒤(.photoBody)뿐 —
+                        사진 전체를 덮는 오버레이를 되살리지 말 것(맥7 "사진이 흐리다"). */}
+                    <span className={`badge ${styles.photoBadge}`}>{g.label}</span>
                     <div className={styles.photoBody}>
-                      <span className={`badge badge-white ${styles.photoBadge}`}>{g.label}</span>
                       <CardH className={styles.photoTitle}>{e.title}</CardH>
                       <p className={styles.photoDesc}>{e.desc}</p>
                       <span className={styles.photoLink}>
