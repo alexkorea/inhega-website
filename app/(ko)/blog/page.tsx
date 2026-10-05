@@ -118,7 +118,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
               </div>
 
               {totalPages > 1 && (
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '3rem' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '3rem' }}>
                   {currentPage > 1 && (
                     <Link href={`/blog?page=${currentPage - 1}`} style={{
                       padding: '0.5rem 1rem', borderRadius: '8px',

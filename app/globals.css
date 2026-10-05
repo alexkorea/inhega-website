@@ -163,6 +163,12 @@ body {
   overflow-wrap: break-word;
 }
 
+/* 띄어쓰기 없는 중·일 문장은 keep-all 이면 한 덩어리가 되어 모바일 폭을 넘긴다 */
+html:lang(zh) body,
+html:lang(ja) body {
+  word-break: normal;
+}
+
 img, video {
   max-width: 100%;
   height: auto;
