@@ -6,6 +6,7 @@
 // /services/[slug] 라우트와 사이트맵·서비스 목록 하단·관련 서비스 역링크로만 노출된다.
 // 서버 전용: 'use client' 컴포넌트에서 import 하면 원고 전체가 번들에 실린다.
 import { INDUSTRY_PAGES } from './industry-pages.generated'
+import { INDUSTRY_CARD_IMAGE } from './service-card-images'
 
 export type IndustryLocale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -29,47 +30,6 @@ export interface IndustryPage {
   cta: string
 }
 
-// 히어로 배경은 기존 서비스 이미지 중 가까운 것을 쓴다(신규 이미지 없음).
-const HERO_IMAGE: Record<string, string> = {
-  'restaurant-business-report': '/images/service-food.webp',
-  'import-food-sales': '/images/service-food.webp',
-  'travel-agency-registration': '/images/service-guesthouse.webp',
-  'liquor-import-sales-license': '/images/service-food.webp',
-  'accommodation-business-report': '/images/service-hostel.webp',
-  'mail-order-sales-report': '/images/service-startup.webp',
-  'academy-establishment-registration': '/images/service-startup.webp',
-  'kc-radio-certification': '/images/service-license.webp',
-  'construction-business-registration': '/images/service-renovation.webp',
-  'foreign-patient-attraction': '/images/service-license.webp',
-  'hazardous-chemical-business-permit': '/images/service-research.webp',
-  'pet-business-permit-registration': '/images/service-license.webp',
-  'beauty-salon-business-report': '/images/service-cosmetics.webp',
-  'waste-treatment-business-permit': '/images/service-renovation.webp',
-  'emission-facility-permit-report': '/images/service-renovation.webp',
-  'real-estate-development-business-registration': '/images/service-renovation.webp',
-  'pharmaceutical-wholesale-license': '/images/service-license.webp',
-  'car-dealer-rental-business-registration': '/images/service-logistics.webp',
-  'long-term-care-institution-designation': '/images/service-legal.webp',
-  'development-act-farmland-conversion-permit': '/images/service-renovation.webp',
-  // 배치3 (I2c)
-  'sports-facility-business-report': '/images/service-baseball.webp',
-  'cooperative-establishment-report': '/images/service-legal.webp',
-  'entertainment-bar-business-permit': '/images/service-food.webp',
-  'campground-business-registration': '/images/service-guesthouse.webp',
-  'solar-power-business-permit': '/images/service-renovation.webp',
-  'marriage-brokerage-business-registration': '/images/service-legal.webp',
-  'money-lending-business-registration': '/images/service-currency.webp',
-  'entertainment-agency-business-registration': '/images/service-startup.webp',
-  'disinfection-business-report': '/images/service-research.webp',
-  'drone-business-registration': '/images/service-license.webp',
-  'software-business-performance-management': '/images/service-startup.webp',
-  'residential-lodging-business-report': '/images/service-hostel.webp',
-  'rural-minbak-business-report': '/images/service-hanok.webp',
-  'foundation-establishment-permit': '/images/service-legal.webp',
-  'overseas-remittance-business-registration': '/images/service-currency.webp',
-  'mainbiz-management-innovation-sme': '/images/service-startup.webp',
-}
-
 export function getIndustryPage(locale: IndustryLocale, slug: string): IndustryPage | undefined {
   return INDUSTRY_PAGES.find((p) => p.lang === locale && p.slug === slug)
 }
@@ -87,8 +47,14 @@ export function getIndustryLocales(slug: string): IndustryLocale[] {
   return (['ko', 'en', 'zh', 'ja'] as const).filter((l) => getIndustryPage(l, slug))
 }
 
+/**
+ * 상세 히어로 사진 = 홈·/services 카드 사진(lib/service-card-images.ts 하나).
+ * 예전엔 여기 따로 표가 있어 14업종이 카드와 다른 사진이었다(INH-RESTORE 추가, 보스 msg 2266·2267).
+ */
 export function getIndustryHeroImage(slug: string): string {
-  return HERO_IMAGE[slug] ?? '/images/service-license.webp'
+  const img = INDUSTRY_CARD_IMAGE[slug]
+  if (!img) throw new Error(`[industry-pages] 업종 사진 없음: ${slug} — lib/service-card-images.ts 에 기존 사진을 배정할 것`)
+  return img
 }
 
 /**

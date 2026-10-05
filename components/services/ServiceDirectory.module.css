@@ -169,6 +169,10 @@
 }
 
 /* ── 홈 사진 카드(INH-RESTORE 2026-10-05) — 예전 홈 .bento* (app/(ko)/page.module.css) 와 같은 모양 ── */
+.photoGroup {
+  scroll-margin-top: 96px; /* /services 풋터 바로가기 #grp-<id> — 고정 헤더 아래로 */
+}
+
 .photoGroup + .photoGroup {
   margin-top: 2.5rem;
 }
@@ -274,6 +278,24 @@
 }
 
 @media (max-width: 768px) {
+  /* /services 분야 바로가기: 줄바꿈 대신 한 줄 가로 스크롤 — 사진 카드가 첫 화면에 올라오게 */
+  .jumpNav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-right: -1.25rem;
+    padding-right: 1.25rem;
+    scrollbar-width: none;
+  }
+
+  .jumpNav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .jumpNav .tab {
+    flex: none;
+    white-space: nowrap;
+  }
+
   .photoGrid {
     grid-template-columns: 1fr;
   }

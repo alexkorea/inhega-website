@@ -1,6 +1,7 @@
 /**
  * ────────────────────────────────────────────────────────────────────────────
- * 홈 '전문 서비스' 사진 카드의 업종별 사진 (2026-10-05 맥7 INH-RESTORE, 보스 msg 2257~2262)
+ * 업종별 사진 정본 — 홈 사진 카드·/services 사진 카드·업종 상세 히어로가 모두 이 표 하나를 쓴다
+ * (2026-10-05 맥7 INH-RESTORE, 보스 msg 2257~2262 · 추가 msg 2266·2267 "사람은 시각도 중요")
  *
  * 기존 24종은 정본(services-data 의 image)을 그대로 쓰고, 여기엔 **사진이 없던 신규 업종만** 적는다.
  * 보스 지시: "기존에 있던 이미지를 활용" — 새 이미지 생성·외부 이미지 금지.
@@ -56,8 +57,8 @@ export const INDUSTRY_CARD_IMAGE: Record<string, string> = {
   'mail-order-sales-report': '/images/service-logistics.webp',
   // IT·통신 — 분야 기존 사진은 logistics(위치정보), 소프트웨어는 사무실 사진
   'software-business-performance-management': '/images/service-startup.webp',
-  // 생활·위생 서비스 — 분야 기존 사진 없음: 위생 현장(haccp)·상담(consultation)
-  'beauty-salon-business-report': '/images/service-consultation.webp',
+  // 생활·위생 서비스 — 분야 기존 사진 없음: 미용(화장품)·위생 현장(haccp)·상담(consultation)
+  'beauty-salon-business-report': '/images/service-cosmetics.webp',
   'disinfection-business-report': '/images/service-haccp.webp',
   'pet-business-permit-registration': '/images/service-consultation.webp',
   'marriage-brokerage-business-registration': '/images/service-consultation.webp',

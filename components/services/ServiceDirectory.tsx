@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FillImage, responsiveBase } from '@/components/ui/FillImage'
 import { getServiceCatalog, type CatalogLocale } from '@/lib/services-catalog'
-import { getServiceDirectory, type DirectoryEntry } from '@/lib/service-directory'
+import { getServiceDirectory, type DirectoryEntry, type DirectoryGroup } from '@/lib/service-directory'
 import { INDUSTRY_CARD_IMAGE } from '@/lib/service-card-images'
 import DirectoryTabs from './DirectoryTabs'
 import styles from './ServiceDirectory.module.css'
@@ -10,7 +10,7 @@ import styles from './ServiceDirectory.module.css'
  * 서비스 전체 목록(기존 24종 + 신규 업종) — 분야별 (0949, 2026-10-04).
  *   mode="cards"    홈: 분야 소제목 + 사진 카드 전부 펼침(INH-RESTORE 2026-10-05 — 탭·접기 금지, 보스 msg 2257~2262)
  *   mode="tabs"     (구 홈) 분야 탭 — 현재 미사용
- *   mode="sections" /services: 분야 소제목 + 바로가기
+ *   mode="sections" /services: 분야 바로가기 + 분야 소제목 + 사진 카드 전부 펼침(보스 msg 2266·2267 "이미지가 하나도 없어")
  * 목록·문구 정본은 lib/service-directory.ts. 여기서 서비스 배열을 다시 적지 말 것.
  */
 const UI: Record<CatalogLocale, { more: string; groups: string; reqs: string }> = {
@@ -51,59 +51,69 @@ function cardImage(slug: string, catalogImage: Map<string, string>): string {
   return img
 }
 
-/* 예전 홈(배포 657ffb7a) 사진 카드 그리드 — 사진 + 분야 배지 + 업종명 + 한 줄 설명 + 자세히 보기 */
-function PhotoCards({ locale }: { locale: CatalogLocale }) {
-  const groups = getServiceDirectory(locale)
+/* 예전 홈(배포 657ffb7a) 사진 카드 그리드 — 사진 + 분야 배지 + 업종명 + 한 줄 설명 + 자세히 보기.
+   홈은 분야 소제목 h3·카드 h4, /services 는 h2·h3 + 풋터 바로가기 앵커(#grp-<id>). */
+function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: DirectoryGroup[]; page: 'home' | 'index' }) {
   const catalogImage = new Map(getServiceCatalog(locale).map((s) => [s.slug, s.image]))
-  const cjk = locale === 'zh' || locale === 'ja' ? styles.cjk : ''
+  const GroupH = page === 'home' ? 'h3' : 'h2'
+  const CardH = page === 'home' ? 'h4' : 'h3'
   return (
-    <div className={`${styles.directory} ${cjk}`}>
-      {groups.map((g) => (
-        <section key={g.id} className={styles.photoGroup} aria-labelledby={`home-grp-${g.id}`}>
-          <h3 id={`home-grp-${g.id}`} className={styles.photoGroupTitle}>
-            {g.label}
-            <span className={styles.groupCount}>{g.items.length}</span>
-          </h3>
-          <ul className={styles.photoGrid}>
-            {g.items.map((e) => (
-              <li key={e.slug}>
-                <Link prefetch={false} href={e.href} className={styles.photoCard}>
-                  <div className={styles.photoImage}>
-                    {/* 전부 lazy — 첫 화면 밖이다. sizes 250px 은 밀도 상한(예전 홈과 같음, 09d8ada 참고). */}
-                    <FillImage
-                      base={responsiveBase(cardImage(e.slug, catalogImage))}
-                      small={500}
-                      large={800}
-                      alt={e.title}
-                      sizes="(max-width: 900px) 250px, 33vw"
-                    />
-                    <div className={styles.photoOverlay} />
-                  </div>
-                  <div className={styles.photoBody}>
-                    <span className={`badge badge-white ${styles.photoBadge}`}>{g.label}</span>
-                    <h4 className={styles.photoTitle}>{e.title}</h4>
-                    <p className={styles.photoDesc}>{e.desc}</p>
-                    <span className={styles.photoLink}>
-                      {UI[locale].more}
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
-                        <path d="M5 12h14M12 5l7 7-7 7" />
-                      </svg>
-                    </span>
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
-    </div>
+    <>
+      {groups.map((g) => {
+        const gid = page === 'home' ? `home-grp-${g.id}` : `grp-${g.id}`
+        return (
+          <section key={g.id} id={page === 'index' ? gid : undefined} className={styles.photoGroup} aria-labelledby={`${gid}-t`}>
+            <GroupH id={`${gid}-t`} className={styles.photoGroupTitle}>
+              {g.label}
+              <span className={styles.groupCount}>{g.items.length}</span>
+            </GroupH>
+            <ul className={styles.photoGrid}>
+              {g.items.map((e) => (
+                <li key={e.slug}>
+                  <Link prefetch={false} href={e.href} className={styles.photoCard}>
+                    <div className={styles.photoImage}>
+                      {/* 전부 lazy — 홈은 첫 화면 밖, /services 는 LCP 가 히어로 제목(텍스트)이다. sizes 250px 은 밀도 상한(09d8ada 참고). */}
+                      <FillImage
+                        base={responsiveBase(cardImage(e.slug, catalogImage))}
+                        small={500}
+                        large={800}
+                        alt={e.title}
+                        sizes="(max-width: 900px) 250px, 33vw"
+                      />
+                      <div className={styles.photoOverlay} />
+                    </div>
+                    <div className={styles.photoBody}>
+                      <span className={`badge badge-white ${styles.photoBadge}`}>{g.label}</span>
+                      <CardH className={styles.photoTitle}>{e.title}</CardH>
+                      <p className={styles.photoDesc}>{e.desc}</p>
+                      <span className={styles.photoLink}>
+                        {UI[locale].more}
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      })}
+    </>
   )
 }
 
 export default function ServiceDirectory({ locale, mode }: { locale: CatalogLocale; mode: 'cards' | 'tabs' | 'sections' }) {
-  if (mode === 'cards') return <PhotoCards locale={locale} />
   const groups = getServiceDirectory(locale)
   const cjk = locale === 'zh' || locale === 'ja' ? styles.cjk : ''
+  if (mode === 'cards') {
+    return (
+      <div className={`${styles.directory} ${cjk}`}>
+        <PhotoGroups locale={locale} groups={groups} page="home" />
+      </div>
+    )
+  }
 
   if (mode === 'tabs') {
     return (
@@ -143,7 +153,8 @@ export default function ServiceDirectory({ locale, mode }: { locale: CatalogLoca
   return (
     <div className={`${styles.directory} ${cjk}`}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogJsonLd) }} />
-      <nav aria-label={UI[locale].groups} className={styles.tabs}>
+      {/* 분야 바로가기 — 모바일은 한 줄 가로 스크롤(줄바꿈하면 13분야가 첫 화면 사진 자리를 먹는다) */}
+      <nav aria-label={UI[locale].groups} className={`${styles.tabs} ${styles.jumpNav}`}>
         {groups.map((g) => (
           <a key={g.id} href={`#grp-${g.id}`} className={styles.tab}>
             {g.label}
@@ -151,19 +162,7 @@ export default function ServiceDirectory({ locale, mode }: { locale: CatalogLoca
           </a>
         ))}
       </nav>
-      {groups.map((g) => (
-        <section key={g.id} id={`grp-${g.id}`} className={styles.group}>
-          <h2 className={styles.groupTitle}>
-            {g.label}
-            <span className={styles.groupCount}>{g.items.length}</span>
-          </h2>
-          <ul className={styles.grid}>
-            {g.items.map((e) => (
-              <Card key={e.slug} e={e} locale={locale} heading="h3" />
-            ))}
-          </ul>
-        </section>
-      ))}
+      <PhotoGroups locale={locale} groups={groups} page="index" />
     </div>
   )
 }

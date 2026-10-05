@@ -59,7 +59,7 @@ export default function EnServicesPage() {
         </section>
 
         {/* 0949 — 기존 서비스 + 번역본이 있는 신규 업종만, 분야별 소제목. 정본 lib/service-directory.ts */}
-        <section className="section bg-cream">
+        <section className="section-sm bg-cream">
           <div className="container">
             <ServiceDirectory locale="en" mode="sections" />
           </div>
