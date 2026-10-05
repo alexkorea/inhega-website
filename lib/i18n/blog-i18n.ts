@@ -4975,6 +4975,259 @@ const blogData: BlogI18n[] = [
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「民願処理法」（法律第18748号）と同法施行令（大統領令第36296号、2026年5月6日施行）、「行政手続法」（法律第18748号）と同法施行令（大統領令第33649号）、「行政審判法」（法律第19269号）、「行政訴訟法」（法律第21615号、2026年5月12日施行）、「行政基本法」（法律第20824号）の原文に基づき作成・最終確認日 10月3日</p>`
+  },
+  // ── procurement-narajangteo-registration-change (inhega-daily 2026-10-05) ──
+  {
+    slug: 'procurement-narajangteo-registration-change',
+    locale: 'en',
+    title: 'Changing a Korean Public Procurement Bidder Registration — What to Update on KONEPS',
+    metaTitle: 'Korea Public Procurement Bidder Registration — Change Rules',
+    metaDescription: 'What a registered KONEPS bidder must update when its representative, trade name, address or licences change, and when an unupdated bid is invalid.',
+    category: 'Government Procurement',
+    excerpt: 'Registration as a bidder on Korea\'s KONEPS (Narajangteo) is not a one-off. A change of representative or trade name must be registered before bidding, or the bid is invalid. Here is what the rules actually require.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Why the Duty Continues After Registration</li><li>Which Changes Need a Change Registration</li><li>The Two Items That Make a Bid Invalid</li><li>When You Must Register Again</li><li>Address, Licences, Factories and Agents</li><li>Procedure and Deregistration</li><li>FAQ</li></ol></div>
+<p>A <strong>change registration</strong> (변경등록) is how a company already registered as a competitive bidder on KONEPS, Korea's national e-procurement system known as Narajangteo, updates its record after its representative, trade name or address changes. Korea public procurement bidder registration is not a one-off: the record must keep matching reality. Above all, a bid submitted without registering a change of trade name or representative is invalid.</p>
+<p>This article covers only what happens after registration. It is based on the current Enforcement Decree and Enforcement Rule of the Act on Contracts to Which the State Is a Party (국가계약법) and the Public Procurement Service (조달청) notice on KONEPS bidder registration, as of 2026.</p>
+
+<h2>Why the Duty Continues After Registration</h2>
+<p>Under Decree Article 12(1), only those holding any permit or licence required by other laws, any needed security clearance and a business registration (Rule Article 14(1)) may enter a competitive tender. Registration lets a company prove this once instead of at every tender.</p>
+<p>Rule Article 15(1) allows advance registration and adds that the same applies "when registered matters have changed". Details posted on KONEPS count as registered with every central agency (Article 15(5)), and Article 15(7)3 requires the system to state that changes must be registered before bidding.</p>
+<p>The PPS notice recognises five kinds of registration: new, a self-check every 1 year, renewal, change and deregistration (Article 4(2)). A bidder must check its own data before bidding and bears any disadvantage from failing to do so (Article 9-2(1)), while contracting officers separately check the prospective winner in case a change was not registered (Article 8(1)). </p>
+
+<h2>Which Changes Need a Change Registration</h2>
+<p>Notice Article 16(1) requires a change registration with evidence immediately when the registered representative, trade name, address, factory, bidding agent, branch, business type or manufactured goods change; other details are simply entered in the system. The deadline is "immediately", not a number of days.</p>
+<table><thead><tr><th>Change</th><th>Action on KONEPS</th><th>Basis</th><th>Bidding without updating</th></tr></thead><tbody>
+<tr><td>Representative's name (all, if several)</td><td>Change registration</td><td>Notice Art. 16(1)(2)</td><td>Bid invalid (Rule Art. 44(1)6-3)</td></tr>
+<tr><td>Trade or corporate name</td><td>Change registration (registered name)</td><td>Notice Art. 16, 13(8)</td><td>Bid invalid (Rule Art. 44(1)6-3)</td></tr>
+<tr><td>Head office address</td><td>Change registration</td><td>Notice Art. 16(1)</td><td>Not an invalidity item; deregistration ground (Art. 19(1)2)</td></tr>
+<tr><td>Business type or goods</td><td>Change registration</td><td>Notice Art. 16(1), 11(1)</td><td>Unlisted types are outside your scope</td></tr>
+<tr><td>Factory added or moved</td><td>Proof of direct production (counts as renewal)</td><td>Notice Art. 23-3(2)</td><td>Deregistration ground (Art. 19(1)2)</td></tr>
+<tr><td>Bidding agent or branch</td><td>Change registration</td><td>Notice Art. 13(5)(9)</td><td>-</td></tr>
+<tr><td>Sole trader ↔ corporation</td><td>Deregister and register anew</td><td>Notice Art. 16(3)</td><td>Old registration unusable</td></tr>
+<tr><td>Merger</td><td>Absorbed party deregisters; absorbing party updates</td><td>Notice Art. 16(4)</td><td>Absorbed company deregistered (Art. 19(1)7)</td></tr>
+<tr><td>Rehabilitation opened</td><td>Add receiver as lead representative</td><td>Notice Art. 16(7)</td><td>-</td></tr>
+<tr><td>Sanction data</td><td>Entered by the sanctioning agency</td><td>Notice Art. 16(6)</td><td>-</td></tr>
+</tbody></table>
+<p>Only the trade name and the representative's name void a bid in themselves; the other items are grounds for deregistration instead. But if any change means you no longer hold the qualification a tender requires, the bid can be void as one "made by a person without qualification" (Decree Article 39(4); Rule Article 44(1)1).</p>
+
+<h2>The Two Items That Make a Bid Invalid</h2>
+<p>Decree Article 39(4) voids bids by unqualified persons and bids on grounds set by ministerial rule, which Rule Article 44(1) lists.</p>
+<div class="highlight-box">Enforcement Rule, Article 44(1)6-3: A bid submitted without a change registration of any of the following matters registered under Article 15(1) — (a) the trade name or the name of the corporation; (b) the name of the representative (where there are several, all of them).</div>
+<p>Notice Article 16(2) repeats this. Two further items once in the same subparagraph have been deleted, so these two are all that remain. Where there are several representatives, the registration must state whether they act jointly or severally and name one lead representative (Notice Articles 2(1)8 and 13(4)). Adding or removing any one of them changes "the names of all representatives" and must be registered.</p>
+<p>Does such a bid lead to debarment? Decree Article 76(2)1(b) treats "intentionally submitting an invalid bid" as a ground for restriction, but its proviso and Rule Article 75-2 exclude bids void under Article 44(1)6 and 6-3. A bid void only for an unregistered name change is expressly carved out.</p>
+<p>That is not a blank cheque. Forging or misusing tender documents or submitting false documents is a separate ground (Decree Article 76(2)1(a)), and the Act allows restriction of up to 2 years (Article 27(1)). An untrue registration is also a deregistration ground (Notice Article 19(1)3).</p>
+<p>When appointing a new representative, also check that a restriction on a company extends to its representative in charge (Decree Article 76(6)1) and that a bid through a representative still under restriction is invalid (Rule Article 44(1)1-2). Where 1 person represents several companies, they count as one bidder, so 2 or more bids from them in one tender are invalid (Rule Article 44(1)4).</p>
+
+<h2>When You Must Register Again</h2>
+<p>KONEPS keeps registrations under the head office business number, plus the corporate number for corporations (Notice Article 7). A change to that number cannot be a mere change registration.</p>
+<ul>
+<li><strong>Sole trader to corporation, or the reverse</strong> — deregister and register anew, meeting licence and business registration requirements in the new name (Notice Articles 16(3) and 5(1)).</li>
+<li><strong>Merger</strong> — the absorbed company deregisters, the absorbing one files a change (Articles 16(4) and 19(1)7).</li>
+<li><strong>Rehabilitation</strong> — the receiver is added and registered as lead representative (Article 16(7)).</li>
+<li><strong>Closure</strong> — the whole registration may be removed; re-registration follows the change rules (Articles 19(1)6 and 16(5)).</li>
+</ul>
+<p>Licence transfer time on incorporation depends on the competent authority and the documents, so plan around pending tenders.</p>
+
+<h2>Address, Licences, Factories and Agents</h2>
+<p><strong>Head office.</strong> A move needs a change registration (Notice Articles 13(3) and 16(1)). It matters most for region-restricted tenders: under Article 4(4) of the government contract execution standard (정부 입찰ㆍ계약 집행기준), eligibility looks to the head office, or for goods manufacturing the main place of business, in the province of the site or delivery point, and branches cannot enter. Moving province changes which regional tenders you can enter.</p>
+<p><strong>Business types and licences.</strong> You may bid only for goods, types or main fields listed on your certificate (Article 11(1)); works and service types use a 4-digit code and works main fields a 3-digit code (Article 25-2). Add a new licence before bidding in that field and check your data against each tender (Article 11(3)). If a licence was renewed under its own law but the registration was not, it can be supplemented after the bid deadline (Article 9(3)). Capacity ratings may be entered by the operator, but checking them is the bidder's job (Article 28(1)).</p>
+<p><strong>Factories.</strong> Adding or moving a factory needs proof of direct production and counts as renewal; if all factory data for an item go, the item may be deregistered (Article 23-3(2)(5)).</p>
+<p><strong>Agents and branches.</strong> Only current staff may be bidding agents, with proof such as social insurance enrolment within the last 3 months; restricted persons are barred and no one may act for 2 or more companies (Article 13(5)). A branch must appear in the corporate register or articles, its breach restricts the whole corporation, and only 1 of head office or branch may enter a tender (Article 13(6)(9)).</p>
+
+<h2>Procedure and Deregistration</h2>
+<p>New-registration rules apply: file online with an approved certificate and submit evidence to the regional procurement office or PPS headquarters (Articles 16(1) and 13(1)). Articles 22 and 25 list the documents and expressly cover changes; shared administrative data are checked by the official with your consent (Article 14(2)).</p>
+<ol>
+<li>Change the source documents first — corporate register, business registration, licence.</li>
+<li>File the change on KONEPS with evidence (Article 13(1)).</li>
+<li>It takes effect on the official's confirmation (Article 15(1)).</li>
+<li>Check the result and reprint the certificate (Articles 10(1) and 15(2)).</li>
+</ol>
+<p>Article 18 sets a standard of 8 working hours, but delays for supplementation or system failure must be notified with an expected date, and filings after hours count from the next working day. With no reply within 20 days of a request to supplement, the application is returned (Article 14(4)). Actual timing depends on the authority and the documents, so do not start just before a bid deadline.</p>
+<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Texts: <a href="https://www.law.go.kr/행정규칙/국가종합전자조달시스템입찰참가자격등록규정" target="_blank" rel="noopener">PPS bidder registration notice</a> and <a href="https://www.law.go.kr/법령/국가를당사자로하는계약에관한법률시행규칙" target="_blank" rel="noopener">Enforcement Rule</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Our representative changed. What if we bid before registering it?</p><p class="faq-a">A. The bid is invalid under Rule Article 44(1)6-3(b) and Notice Article 16(2). Adding or removing one representative counts.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does such an invalid bid lead to debarment?</p><p class="faq-a">A. Not on that ground alone: Rule Article 75-2 excludes it from Decree Article 76(2)1(b). False documents are a separate ground under Article 76(2)1(a).</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is a change registration enough when a sole trader incorporates?</p><p class="faq-a">A. No. Notice Article 16(3) requires deregistration and a new registration, as records are kept by business number (Article 7).</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does moving our head office make our bids invalid?</p><p class="faq-a">A. The address is not an item in Rule Article 44(1)6-3, but it must be updated at once (Notice Article 16(1)) or it becomes a deregistration ground (Article 19(1)2). Recheck regional tender eligibility.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does a change take effect as soon as we file it?</p><p class="faq-a">A. It takes effect on confirmation (Notice Article 15(1)). Article 18 sets 8 working hours as the standard but allows delay for supplementation.</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>Planning a change of representative, name or address?</h3>
+ <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a free consultation</a>
+</div>
+
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Enforcement Decree of the Act on Contracts to Which the State Is a Party (Presidential Decree No. 36338), its Enforcement Rule and the PPS notice on KONEPS bidder registration · Last reviewed 3 October</p>`
+  },
+  {
+    slug: 'procurement-narajangteo-registration-change',
+    locale: 'zh',
+    title: '韩国公共采购投标资格登记的变更登记 — 代表人、商号、所在地变更后在Narajangteo要做什么',
+    metaTitle: '韩国公共采购投标资格登记 — 变更登记与投标无效',
+    metaDescription: '在韩国Narajangteo（KONEPS）完成投标资格登记后，代表人、商号、地址、业种或工厂变更时须何时、如何办理变更登记，以及未变更即投标导致无效和注销的标准。',
+    category: '政府采购',
+    excerpt: '韩国公共采购投标资格登记并非一次了事。代表人或商号变更后未办理变更登记就投标，该投标无效。本文依据调达厅告示与施行规则原文整理变更义务。',
+    content: `<div class="toc"><p>目录</p><ol><li>登记后为何仍有变更登记义务</li><li>哪些事项变更需办理变更登记</li><li>导致投标无效的两项：商号与代表人姓名</li><li>需要重新登记的情形</li><li>所在地、业种、工厂、代理人变更要点</li><li>变更登记程序与注销</li><li>常见问题</li></ol></div>
+<p><strong>投标资格变更登记</strong>（변경등록）是指已在韩国国家综合电子采购系统（나라장터，Narajangteo/KONEPS）登记竞争投标参加资格的企业，在代表人、商号、地址等信息变化时将其重新反映到系统的程序。韩国公共采购投标资格登记不是一次了事，登记事项必须与实际持续一致。尤其是商号和代表人姓名，未办理变更登记就投标，该投标无效。</p>
+<p>本文依据2026年现行《国家为当事人的合同法》（국가계약법）施行令、施行规则及调达厅（조달청）登记规定原文。</p>
+
+<h2>登记后为何仍有变更登记义务</h2>
+<p>依施行令第12条第1款，具备其他法令要求的许可、执照等，必要时的保安审查适合判定，以及营业执照（施行规则第14条第1款）者，才能参加竞争投标。</p>
+<p>施行规则第15条第1款规定可预先登记，并写明"登记事项变更时亦同"。系统登载的登记事项视为已向其他中央机关登记（第15条第5款），第15条第7款第3项要求系统公示：有变动须在投标前办理变更登记。</p>
+<p>告示将登记分为新登记、每1年一次的自我信息确认登记、更新登记、变更登记、注销登记五类（第4条第2款）。投标者须在投标前确认自身信息，不利后果由登记者承担（第9条之2第1款）；公务员则在决定中标人时另行确认资格（第8条第1款）。</p>
+
+<h2>哪些事项变更需办理变更登记</h2>
+<p>告示第16条第1款规定，代表人、商号、地址、工厂、投标代理人、分支机构、业种、制造物品信息变更时，须立即附证明申请变更登记；其他信息在系统直接输入即可。期限是"立即"。</p>
+<table><thead><tr><th>变更事项</th><th>处理</th><th>依据</th><th>未变更即投标</th></tr></thead><tbody>
+<tr><td>代表人姓名（多人时全部）</td><td>变更登记</td><td>告示第16条第1款、第2款</td><td>投标无效（规则第44条第1款第6项之3）</td></tr>
+<tr><td>商号或法人名称</td><td>变更登记（按登记簿商号）</td><td>告示第16条、第13条第8款</td><td>投标无效（规则第44条第1款第6项之3）</td></tr>
+<tr><td>总公司地址</td><td>变更登记</td><td>告示第16条第1款</td><td>非无效事项；注销事由（第19条第1款第2项）</td></tr>
+<tr><td>业种、制造物品</td><td>变更登记</td><td>告示第16条第1款、第11条第1款</td><td>未登载业种不在投标范围</td></tr>
+<tr><td>工厂增设或迁移</td><td>提交直接生产证明（视为更新登记）</td><td>告示第23条之3第2款</td><td>注销事由（第19条第1款第2项）</td></tr>
+<tr><td>投标代理人、分支机构</td><td>变更登记</td><td>告示第13条第5款、第9款</td><td>-</td></tr>
+<tr><td>个人与法人转换</td><td>注销后重新登记</td><td>告示第16条第3款</td><td>原登记不能使用</td></tr>
+<tr><td>合并</td><td>被合并方注销，合并方变更登记</td><td>告示第16条第4款</td><td>被合并方注销（第19条第1款第7项）</td></tr>
+<tr><td>回生程序开始</td><td>追加管理人为代表代表人</td><td>告示第16条第7款</td><td>-</td></tr>
+<tr><td>行政处分信息</td><td>处分机关直接输入</td><td>告示第16条第6款</td><td>-</td></tr>
+</tbody></table>
+<p>直接导致无效的只有商号和代表人姓名，其他为注销事由；但变更若使资格丧失，也可能作为"无资格者的投标"无效（施行令第39条第4款、规则第44条第1款第1项）。</p>
+
+<h2>导致投标无效的两项：商号与代表人姓名</h2>
+<p>施行令第39条第4款规定无资格者的投标及部令规定事由的投标无效，规则第44条第1款列举其事由。</p>
+<div class="highlight-box">施行规则第44条第1款第6项之3：依第15条第1款登记的事项中，未就下列任一事项办理变更登记而提交投标书的投标 — 1）商号或法人名称；2）代表人（多名时为全体）的姓名。</div>
+<p>告示第16条第2款重申此规定，同项另外两目已删除。代表人有多名时，须区分各自代表或共同代表，并选定1名代表代表人（告示第2条第1款第8项、第13条第4款）。增加或卸任任何一名代表人，都属"全体代表人姓名"变更。</p>
+<p>会导致不正当业者制裁吗？施行令第76条第2款第1项第2目将"故意无效投标"列为限制事由，但其但书与规则第75条之2排除了第44条第1款第6项及第6项之3的投标。</p>
+<p>但提交虚假文件等是另一限制事由（施行令第76条第2款第1项第1目），法律规定可在2年以内限制投标资格（法第27条第1款）；登记内容与事实不符也是注销事由（告示第19条第1款第3项）。</p>
+<p>更换代表人时还应确认：法人受限制时限制及于负责的代表人（施行令第76条第6款第1项），通过限制期间内代表人的投标无效（规则第44条第1款第1项之2）；1人代表多个法人时视为同一人，同一投标提交2份以上无效（规则第44条第1款第4项）。</p>
+
+<h2>需要重新登记的情形</h2>
+<p>登记以总公司营业执照号码管理，法人另加法人登记号码（告示第7条），号码本身变化无法以变更登记处理。</p>
+<ul>
+<li><strong>个人转法人或反之</strong> — 注销后重新登记，以新名义重新具备执照与营业登记要件（第16条第3款、第5条第1款）。</li>
+<li><strong>合并</strong> — 被合并方注销，合并方变更登记（第16条第4款、第19条第1款第7项）。</li>
+<li><strong>回生程序</strong> — 追加管理人并变更为代表代表人（第16条第7款）。</li>
+<li><strong>停业</strong> — 登记可被全部注销，重新登记准用变更规定（第19条第1款第6项、第16条第5款）。</li>
+</ul>
+<p>个人转法人时，执照名义转移等所需时间因管辖机关和文件情况而异，应结合进行中的投标公告安排。</p>
+
+<h2>所在地、业种、工厂、代理人变更要点</h2>
+<p><strong>总公司所在地。</strong>地址变更须变更登记（第13条第3款、第16条第1款）。依《政府投标、合同执行标准》第4条第4款，地区限制投标以现场或交货地所在市、道内的总公司（物品制造为主要营业所）判断，分支机构不能参加。迁往其他市、道，可参加的地区投标随之改变。</p>
+<p><strong>业种与执照。</strong>只能参加登记证所载品名、业种或主力领域的投标（第11条第1款）；业种为4位代码，工程主力领域为3位代码（第25条之2）。新执照须追加登记，并在投标前核对公告要件（第11条第3款）。执照已依法更新而登记未更新的，可在截止后补正（第9条第3款）。</p>
+<p><strong>工厂。</strong>增设或迁移工厂须提交直接生产证明，视为更新登记；工厂信息全部删除时该物品可被注销（第23条之3第2款、第5款）。</p>
+<p><strong>代理人与分支机构。</strong>代理人限在职员工，须提交最近3个月以内的四大保险证明等；受限制者不可，1人不可在2家以上公司登记（第13条第5款）。分支机构须载于法人登记簿或章程，其违规使整个法人受限，同一投标本公司与分支机构只能1家参加（第13条第6款、第9款）。</p>
+
+<h2>变更登记程序与注销</h2>
+<p>准用新登记程序：以指定证书在系统申请，附证明提交地方调达厅或本厅（第16条第1款、第13条第1款）。文件见第22条、第25条（明示含变更登记），可共同利用的信息由公务员确认（第14条第2款）。</p>
+<ol>
+<li>先完成法人登记、营业登记、执照等源头变更。</li>
+<li>在系统申请变更登记并附证明（第13条第1款）。</li>
+<li>效力自公务员确认时发生（第15条第1款）。</li>
+<li>确认结果并重新打印登记证（第10条第1款、第15条第2款）。</li>
+</ol>
+<p>第18条以8个工作小时内处理为标准，需补正或系统故障时须通知原因和预计日期，工作时间后申请视为下一工作日受理。补正要求后20日无回复则退回（第14条第4款）。实际时间因机关和文件情况而异，勿在截止前才申请。</p>
+<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。原文见<a href="https://www.law.go.kr/행정규칙/국가종합전자조달시스템입찰참가자격등록규정" target="_blank" rel="noopener">投标参加资格登记规定</a>、<a href="https://www.law.go.kr/법령/국가를당사자로하는계약에관한법률시행규칙" target="_blank" rel="noopener">国家合同法施行规则</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 代表人已变更，变更登记前投标会怎样？</p><p class="faq-a">A. 投标无效（规则第44条第1款第6项之3第2目、告示第16条第2款）。增加或卸任一名代表人也包括在内。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 因此无效会受不正当业者制裁吗？</p><p class="faq-a">A. 仅凭该无效不会，规则第75条之2将其排除在施行令第76条第2款第1项第2目之外。但虚假文件属第1目的另一事由。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 个人转法人只办变更登记即可吗？</p><p class="faq-a">A. 不可以。告示第16条第3款要求注销后重新登记，因为登记按营业执照号码管理（第7条）。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 只迁移总公司地址，投标会无效吗？</p><p class="faq-a">A. 地址不属规则第44条第1款第6项之3的事项，但须立即变更登记（告示第16条第1款），否则为第19条第1款第2项的注销事由。地区投标资格须重新确认。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申请后立即生效吗？</p><p class="faq-a">A. 自公务员确认时生效（告示第15条第1款）。第18条以8个工作小时为标准，但需补正时可能延迟。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>即将变更代表人、商号或所在地？</h3>
+ <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请免费咨询</a>
+</div>
+
+<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《国家为当事人的合同法施行令》（总统令第36338号）、同法施行规则及调达厅投标参加资格登记规定原文撰写 · 最终审阅日 10月3日</p>`
+  },
+  {
+    slug: 'procurement-narajangteo-registration-change',
+    locale: 'ja',
+    title: '韓国 公共調達 入札参加資格登録の変更登録 — 代表者・商号・所在地が変わったらナラジャンテで行うこと',
+    metaTitle: '韓国 公共調達 入札参加資格登録 — 変更登録と入札無効',
+    metaDescription: '韓国のナラジャンテ（KONEPS）で入札参加資格を登録した後、代表者・商号・住所・業種・工場が変わった場合にいつ・どう変更登録するか、変更登録なしの入札が無効となる場合と抹消基準を原文で整理しました。',
+    category: '政府調達',
+    excerpt: '韓国の公共調達の入札参加資格登録は一度で終わりません。代表者や商号が変わったのに変更登録をせずに入札すると、その入札は無効です。調達庁告示と施行規則の原文に基づき変更義務を整理しました。',
+    content: `<div class="toc"><p>目次</p><ol><li>登録後も変更登録義務が続く理由</li><li>何が変わったら変更登録か</li><li>入札無効となる2項目 — 商号と代表者氏名</li><li>再登録が必要な場合</li><li>所在地・業種・工場・代理人の変更</li><li>変更登録の手続と抹消</li><li>よくあるご質問</li></ol></div>
+<p><strong>入札参加資格の変更登録</strong>（변경등록）とは、韓国の国家総合電子調達システム（나라장터、ナラジャンテ／KONEPS）に競争入札参加資格を登録した企業が、代表者・商号・住所などの登録情報が変わったときにシステムへ反映させる手続です。韓国 公共調達 入札参加資格登録は一度で終わりではなく、登録事項が実態と一致し続ける必要があります。特に商号と代表者氏名は、変更登録をせずに入札書を出すとその入札自体が無効になります。</p>
+<p>本稿は登録後の変更義務だけを扱います。根拠は2026年現在の「国家を当事者とする契約に関する法律」（국가계약법）施行令・施行規則と、調達庁（조달청）の入札参加資格登録規定の原文です。韓国の行政士事務所（日本の行政書士事務所に相当）の立場から整理しました。</p>
+
+<h2>登録後も変更登録義務が続く理由</h2>
+<p>施行令第12条第1項により、競争入札に参加できるのは、他の法令が求める許可・免許等、必要な場合の保安測定の適合判定、事業者登録（施行規則第14条第1項）を備えた者に限られます。入札参加資格登録は、これらを入札のたびに証明しなくて済むよう事前に確認を受けておく仕組みです。</p>
+<p>施行規則第15条第1項は事前登録を定め、「登録された事項が変更されたときも同様とする」と書いています。システムに掲載された登録事項は他の中央官庁にも登録したものとみなされ（第15条第5項）、第15条第7項第3号は、変動があれば入札参加前に変更登録すべき旨をシステムに掲載するよう求めています。</p>
+<p>告示は登録を、新規登録、1年ごとの自己情報確認登録、更新登録、変更登録、抹消登録の5種類に分けています（第4条第2項）。入札者は入札書提出前に自己情報を確認する義務があり、怠った不利益は登録者の責任です（第9条の2第1項）。一方、契約担当公務員は落札者選定の過程で資格を別途確認します（第8条第1項）。不一致は落札直前に表面化しやすいのです。</p>
+
+<h2>何が変わったら変更登録か</h2>
+<p>告示第16条第1項は、代表者、商号、住所、工場、入札代理人、支社、業種、製造物品の情報が変わったら、直ちに証憑書類を添えて変更登録申請をするよう定めています。その他の情報はシステムへの直接入力で完了します。期限は「何日以内」ではなく「直ちに」です。</p>
+<table><thead><tr><th>変わった事項</th><th>行うこと</th><th>根拠</th><th>変更登録せずに入札すると</th></tr></thead><tbody>
+<tr><td>代表者氏名（複数なら全員）</td><td>変更登録申請</td><td>告示第16条第1項・第2項</td><td>入札無効（規則第44条第1項第6号の3）</td></tr>
+<tr><td>商号・法人の名称</td><td>変更登録申請（登記上の商号）</td><td>告示第16条、第13条第8項</td><td>入札無効（規則第44条第1項第6号の3）</td></tr>
+<tr><td>本社住所</td><td>変更登録申請</td><td>告示第16条第1項</td><td>無効事項ではないが抹消事由（第19条第1項第2号）</td></tr>
+<tr><td>業種・製造物品</td><td>変更登録申請</td><td>告示第16条第1項、第11条第1項</td><td>未登載の業種は参加範囲外</td></tr>
+<tr><td>工場の追加・移転</td><td>直接生産の立証書類（更新登録とみなす）</td><td>告示第23条の3第2項</td><td>抹消事由（第19条第1項第2号）</td></tr>
+<tr><td>入札代理人・支社</td><td>変更登録申請</td><td>告示第13条第5項・第9項</td><td>-</td></tr>
+<tr><td>個人と法人の転換</td><td>抹消後に新規登録</td><td>告示第16条第3項</td><td>従前の登録は使えない</td></tr>
+<tr><td>合併</td><td>被合併側は抹消、合併側は変更登録</td><td>告示第16条第4項</td><td>被合併法人は抹消（第19条第1項第7号）</td></tr>
+<tr><td>回生手続開始</td><td>管理人を代表代表者として登録</td><td>告示第16条第7項</td><td>-</td></tr>
+<tr><td>行政処分情報</td><td>処分機関が直接入力</td><td>告示第16条第6項</td><td>-</td></tr>
+</tbody></table>
+<p>入札そのものが無効になるのは商号と代表者氏名だけで、他の事項は抹消事由です。ただし変更によって公告の資格を失っていれば「入札参加資格のない者の入札」として無効になり得ます（施行令第39条第4項、規則第44条第1項第1号）。</p>
+
+<h2>入札無効となる2項目 — 商号と代表者氏名</h2>
+<p>施行令第39条第4項は、資格のない者の入札と省令で定める事由の入札を無効とし、施行規則第44条第1項がその事由を列挙しています。</p>
+<div class="highlight-box">施行規則第44条第1項第6号の3：第15条第1項により登録された事項のうち、次のいずれかの登録事項を変更登録せずに入札書を提出した入札 — ア 商号または法人の名称、イ 代表者（複数いる場合は全員）の氏名</div>
+<p>告示第16条第2項も同旨で、同じ号の他の2つの目は削除済みです。代表者が複数なら各自代表か共同代表かを区別し、代表代表者を1人選定します（告示第2条第1項第8号、第13条第4項）。1人の加入や退任も「代表者全員の氏名」の変更にあたります。</p>
+<p>不正当業者制裁につながるかについては、施行令第76条第2項第1号イ目の「故意に無効の入札をした者」から、ただし書と施行規則第75条の2が第44条第1項第6号・第6号の3の入札を除外しています。変更登録漏れだけで無効になった入札は明示的に外されています。</p>
+<p>ただし、書類の偽造・不正行使や虚偽書類の提出は別の制限事由で（施行令第76条第2項第1号ア目）、法律は2年以内の制限を定めています（法第27条第1項）。登録内容が事実と異なれば抹消事由にもなります（告示第19条第1項第3号）。</p>
+<p>代表者交代時は、法人の制限が担当代表者にも及ぶこと（施行令第76条第6項第1号）、制限期間中の代表者を通じた入札が無効であること（規則第44条第1項第1号の2）、1人が複数法人の代表者なら同一人とみなされ同じ入札に2通以上出すと無効であること（規則第44条第1項第4号）も確認しましょう。</p>
+
+<h2>再登録が必要な場合</h2>
+<p>登録は本社の事業者登録番号で管理され、法人は法人登録番号も用います（告示第7条）。番号自体が変わる場合は変更登録では処理できません。</p>
+<ul>
+<li><strong>個人の法人成り・法人の個人化</strong> — 抹消して新規登録し、新名義で免許・事業者登録の要件を備え直します（第16条第3項、第5条第1項）。</li>
+<li><strong>合併</strong> — 被合併側は抹消、合併側は変更登録です（第16条第4項、第19条第1項第7号）。</li>
+<li><strong>回生手続</strong> — 管理人を追加し代表代表者として登録します（第16条第7項）。</li>
+<li><strong>廃業</strong> — 登録全部が抹消され得て、再登録は変更登録の規定を準用します（第19条第1項第6号、第16条第5項）。</li>
+</ul>
+<p>法人成りは日程が狂いやすい場面です。法人設立、事業者登録、免許の名義移転がそろうまでに旧名義で入札すると不一致が生じます。所要期間は管轄機関と書類の状況によって異なるため、進行中の入札公告と照らして計画してください。</p>
+
+<h2>所在地・業種・工場・代理人の変更</h2>
+<p><strong>本社所在地。</strong>住所変更は変更登録の対象です（第13条第3項、第16条第1項）。「政府入札・契約執行基準」第4条第4項により、地域制限入札は現場や納品地の市・道にある本店（物品製造は主たる営業所）で判断し、支店では参加できません。他の市・道へ移ると参加できる地域入札が変わります。</p>
+<p><strong>業種・免許。</strong>参加できるのは登録証に登載された品名・業種・主力分野の入札だけで（第11条第1項）、業種は4桁、工事の主力分野は3桁のコードです（第25条の2）。新しい免許は追加登録し、入札前に公告要件と照合します（第11条第3項）。免許自体を法令に従い更新済みなら、登録未更新でも締切後に補完できます（第9条第3項）。施工能力評価額の確認責任は登録者にあります（第28条第1項）。</p>
+<p><strong>工場。</strong>追加・移転には直接生産の立証書類が必要で、更新登録とみなされます。工場情報がすべて削除されるとその物品は抹消され得ます（第23条の3第2項・第5項）。</p>
+<p><strong>代理人・支社。</strong>代理人は在職中の役職員に限られ、最近3か月以内の4大保険加入証明などが必要です。制限中の者は不可、1人が2社以上の代理人になることもできません（第13条第5項）。支社は法人登記か定款に記載が必要で、支社の違反は法人全体の制限となり、同じ入札には本社と支社の1社しか参加できません（第13条第6項・第9項）。</p>
+
+<h2>変更登録の手続と抹消</h2>
+<p>新規登録の手続が準用され、認証書でシステムから申請し、証憑を添えて地方調達庁または本庁に提出します（第16条第1項、第13条第1項）。書類は第22条・第25条（変更登録を含むと明示）が定め、行政情報の共同利用で確認できるものは同意があれば公務員が確認します（第14条第2項）。</p>
+<ol>
+<li>法人登記・事業者登録・免許など原因書類の変更を先に済ませる。</li>
+<li>ナラジャンテで変更登録を申請し証憑を添付する（第13条第1項）。</li>
+<li>効力は登録担当公務員の確認で生じる（第15条第1項）。</li>
+<li>結果を確認し登録証を出力し直す（第10条第1項、第15条第2項）。</li>
+</ol>
+<p>第18条は8勤務時間以内の処理を基準とし、補完や電算障害で遅れる場合は理由と予定日を通知し、勤務時間後の申請は翌勤務日受付とみなします。補完要請後20日回答がなければ返戻です（第14条第4項）。実際の所要時間は管轄機関と書類の状況によって異なるため、締切直前の申請は避けましょう。</p>
+<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。原文は<a href="https://www.law.go.kr/행정규칙/국가종합전자조달시스템입찰참가자격등록규정" target="_blank" rel="noopener">入札参加資格登録規定</a>、<a href="https://www.law.go.kr/법령/국가를당사자로하는계약에관한법률시행규칙" target="_blank" rel="noopener">国家契約法施行規則</a>で確認できます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+
+<div class="faq-section"><h2>よくあるご質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 代表者が変わったのに変更登録前に入札するとどうなりますか。</p><p class="faq-a">A. 無効です（施行規則第44条第1項第6号の3イ目、告示第16条第2項）。代表者1人の加入や退任も含まれます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. その無効で不正当業者制裁も受けますか。</p><p class="faq-a">A. それだけでは受けません。施行規則第75条の2が施行令第76条第2項第1号イ目から除外しています。ただし虚偽書類はア目の別事由です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 法人成りは変更登録だけで足りますか。</p><p class="faq-a">A. 足りません。告示第16条第3項により抹消後に新規登録が必要です。登録は事業者登録番号単位だからです（第7条）。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 本社住所の移転だけで入札は無効になりますか。</p><p class="faq-a">A. 住所は第44条第1項第6号の3の事項ではありませんが、直ちに変更登録が必要で（告示第16条第1項）、怠れば第19条第1項第2号の抹消事由です。地域入札の資格も確認し直してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申請すればすぐ反映されますか。</p><p class="faq-a">A. 効力は登録確認で生じます（告示第15条第1項）。第18条は8勤務時間以内を基準としつつ、補完が必要なら遅れることがあります。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>代表者・商号・所在地の変更を控えている方へ</h3>
+ <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">無料相談を申し込む</a>
+</div>
+
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「国家を当事者とする契約に関する法律施行令」（大統領令第36338号）、同法施行規則および調達庁「入札参加資格登録規定」の原文に基づき作成・最終確認日 10月3日</p>`
   }
 ]
 

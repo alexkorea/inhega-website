@@ -3,3 +3,4 @@ date,topic,angle,slug,locales,gate_checks,gate_pass,ko_title
 2026-09-25,building-usage,requirements,building-usage-change-requirements,ko|en|zh|ja,44,PASS,"건축물 용도변경 요건 — 시설군 상하위 판정과 변경 후 용도의 건축기준"
 2026-10-02,hostel,penalties,hostel-violation-penalties,ko|en|zh|ja,44,PASS,"호스텔업 위반 시 제재 — 등록취소·사업정지·과징금 기준과 무등록 영업의 처벌"
 2026-10-04,license-agency,rejection,administrative-license-agency-supplement-and-rejection,ko|en|zh|ja,45,PASS,"인허가 대행 절차의 보완요구와 반려 — 보완기간·처리기간 산입 제외·거부처분 불복 기한"
+2026-10-05,procurement,change-report,procurement-narajangteo-registration-change,ko|en|zh|ja,45,PASS,"조달청 입찰참가자격 변경등록 — 대표자·상호·소재지가 바뀌면 나라장터에서 할 일"
