@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
+import PrivacyConsent from '@/components/ui/PrivacyConsent'
 import { getServiceMenuSelectGroups, getServiceMenuOther, getServiceMenuItems, getServiceMenuCount } from '@/lib/services-menu'
 import { EmailOff } from '@/components/ui/EmailOff'
 
@@ -205,6 +206,7 @@ export default function ContactForm() {
                   {status === 'error' && (
                     <p className="form-error">오류가 발생했습니다. 잠시 후 다시 시도하거나 전화로 문의해주세요.</p>
                   )}
+                  <PrivacyConsent locale="ko" />
                   <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>
                     {status === 'loading' ? '전송 중...' : '문의 접수하기'}
                   </button>

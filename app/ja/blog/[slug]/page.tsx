@@ -103,9 +103,9 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
         <section style={{ background: 'var(--navy)', padding: '3rem 0 3rem', paddingTop: 'calc(72px + 3rem)' }}>
           <div className="container">
             <nav style={{ marginBottom: '1rem', fontSize: '0.8125rem', color: 'rgba(255,255,255,0.6)' }}>
-              <Link href="/ja" style={{ color: 'inherit', textDecoration: 'none' }}>ホーム</Link>
+              <Link href="/ja" style={{ color: 'inherit', textDecoration: 'none', display: 'inline-block', padding: '0.4rem 0.5rem', margin: '-0.4rem -0.5rem' }}>ホーム</Link>
               {' / '}
-              <Link href="/ja/blog" style={{ color: 'inherit', textDecoration: 'none' }}>ブログ</Link>
+              <Link href="/ja/blog" style={{ color: 'inherit', textDecoration: 'none', display: 'inline-block', padding: '0.4rem 0.5rem', margin: '-0.4rem -0.5rem' }}>ブログ</Link>
               {' / '}
               <span style={{ color: 'rgba(255,255,255,0.85)' }}>{displayCategory}</span>
             </nav>
@@ -205,6 +205,7 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
         .blog-content .cta-block strong { color: #fff; }
         .blog-content .author-block { font-size: 0.8125rem; color: #718096; margin: 2rem 0 0; padding-top: 1rem; border-top: 1px solid #e2e8f0; line-height: 1.7; }
         .blog-content strong { color: #235099; }
+        .blog-content a { padding-block: 3px; } /* QA01-FIX2 본문 링크 터치 높이 */
         .blog-content img { max-width: 100%; height: auto; }
         .blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
         .blog-content .highlight-box { background: #fff8e1; border-left: 4px solid #f59e0b; border-radius: 4px; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.9375rem; }

@@ -7865,7 +7865,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>인정서 분실:</strong> 인정서 원본이 없어도 재발급 신청이 가능하지만 별도 절차가 소요됨</li>
 </ul>
 
-<p class="related-link">함께 보기: <a href="/services/research-lab">기업부설연구소 설립 — 연구개발전담부서 인정과 변경신고</a></p>
+<p class="related-link">함께 보기: <a href="/services/research-lab">기업부설연구소 설립 — 연구개발전담부서 인정과 변경신고</a> · <a href="/blog/rnd-center-post-management">기업부설연구소 변경신고와 사후관리</a> · <a href="/blog/rnd-department-vs-center">연구개발전담부서와 기업부설연구소 차이점</a> · <a href="/blog/rnd-center-tax-credit">연구·인력개발비 세액공제와 적용 시점</a></p>
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 사무실 같은 건물 내에서 이전해도 신고해야 하나요?</p><p class="faq-a">A. 네, 층이나 호수가 달라지면 주소가 변경되므로 30일 이내 변경 신고가 필요합니다.</p></div>
 <div class="faq-item"><p class="faq-q">Q. 연구소 폐지 후 세액공제를 돌려줘야 하나요?</p><p class="faq-a">A. 정당하게 요건을 갖추고 받은 공제는 폐지 신고만으로 환수되지 않습니다. 다만 인정 요건을 갖추지 못한 상태에서 공제를 받은 경우 환수 위험이 있습니다.</p></div>

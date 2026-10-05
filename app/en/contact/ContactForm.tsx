@@ -1,4 +1,5 @@
 'use client'
+import PrivacyConsent from '@/components/ui/PrivacyConsent'
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from '../../contact/page.module.css'
@@ -200,6 +201,7 @@ export default function ContactForm() {
                   {status === 'error' && (
                     <p className="form-error">{t.contact.form.error}</p>
                   )}
+                  <PrivacyConsent locale="en" />
                   <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>
                     {status === 'loading' ? t.contact.form.submitting : t.contact.form.submit}
                   </button>

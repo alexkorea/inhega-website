@@ -106,6 +106,10 @@
 .bizInfo a {
   color: rgba(255,255,255,0.7);
   text-decoration: none;
+  /* QA01-FIX2: 전화·메일 터치 높이 14 → 30px, 음수 마진으로 줄 간격은 그대로 */
+  display: inline-block;
+  padding-block: 0.5rem;
+  margin-block: -0.5rem;
 }
 
 .bizInfo a:hover {

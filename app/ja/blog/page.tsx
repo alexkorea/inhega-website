@@ -48,8 +48,12 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
   const currentPage = Math.min(page, totalPages || 1)
   const translatedPosts = allPosts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
+  // QA01-FIX2: 블로그 허브 BreadcrumbList (홈 > 블로그)
+  const breadcrumbJsonLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://inhega.co.kr/ja' }, { '@type': 'ListItem', position: 2, name: 'ブログ', item: 'https://inhega.co.kr/ja/blog' } ] }
+
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <section style={{ background: 'var(--navy)', padding: 'var(--section-py-md) 0', paddingTop: 'calc(72px + var(--section-py-md))' }}>
         <div className="container">
           <span className="badge badge-white text-label">ブログ</span>

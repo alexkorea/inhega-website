@@ -1,4 +1,5 @@
 'use client'
+import PrivacyConsent from '@/components/ui/PrivacyConsent'
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from '../../contact/page.module.css'
@@ -166,6 +167,7 @@ export default function ContactForm() {
                     <textarea className="form-input form-textarea" placeholder={t.contact.form.messagePlaceholder} value={form.message} onChange={e => setForm(f => ({ ...f, message: e.target.value }))} required />
                   </div>
                   {status === 'error' && <p className="form-error">{t.contact.form.error}</p>}
+                  <PrivacyConsent locale="ja" />
                   <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>
                     {status === 'loading' ? t.contact.form.submitting : t.contact.form.submit}
                   </button>

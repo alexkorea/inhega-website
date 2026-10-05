@@ -256,18 +256,18 @@ export default function NewsBrowser({
                       {open ? t.collapse : t.expand}
                     </button>
                   )}
-                  {it.url && (
-                    <a
-                      className={styles.linkBtn}
-                      href={it.url}
-                      target="_blank"
-                      rel="nofollow noopener noreferrer"
-                    >
-                      {t.original}
-                    </a>
-                  )}
                   <Link className={styles.ctaBtn} href={contactHref}>{t.cta}</Link>
                 </div>
+
+                {/* QA01-FIX2(맥7 DWELL-RULE): 원문은 버튼이 아니라 항목 끝 작은 '출처' 줄로 */}
+                {it.url && (
+                  <p className={styles.sourceLine}>
+                    {t.source}{' '}
+                    <a href={it.url} target="_blank" rel="nofollow noopener noreferrer">
+                      {SOURCE_LABELS[it.source_key] ?? it.source_key ?? t.original} · {t.original}
+                    </a>
+                  </p>
+                )}
               </article>
             )
           })}
