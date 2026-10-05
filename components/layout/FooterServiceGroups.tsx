@@ -25,7 +25,7 @@ export default function FooterServiceGroups({ locale, title }: { locale: Catalog
     <>
       {cols.map((col, ci) => (
         <div key={ci} className={styles.linksCol}>
-          <p className={styles.colTitle}>{ci === 0 ? (title ?? UI[locale].title) : ' '}</p>
+          <p className={ci ? `${styles.colTitle} ${styles.colTitleBlank}` : styles.colTitle}>{ci === 0 ? (title ?? UI[locale].title) : ' '}</p>
           <ul className={styles.linkList} style={ci ? { marginTop: 0 } : undefined}>
             {col.map((g) => (
               <li key={g.id}>

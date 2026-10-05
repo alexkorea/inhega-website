@@ -252,6 +252,16 @@
   .logo {
     grid-column: 1 / -1;
   }
+
+  /* INH-LAYOUT: 로고 칸 안 줄 간격을 좁히고 국기 줄은 한 줄 전체 */
+  .brandCol {
+    row-gap: 0.75rem;
+  }
+
+  .footerLang {
+    grid-column: 1 / -1;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 640px) {
@@ -266,6 +276,15 @@
 
   .brandCol {
     grid-template-columns: 1fr;
+  }
+
+  /* 한 열로 쌓이면 서비스 둘째 열의 빈 제목 줄이 큰 구멍이 된다 — 첫째 열에 바로 잇는다 */
+  .colTitleBlank {
+    display: none;
+  }
+
+  .topGrid > .linksCol + .linksCol:not(:last-child) {
+    margin-top: -1.5rem;
   }
 
   .bottomInner {
