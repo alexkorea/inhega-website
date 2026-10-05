@@ -21,6 +21,7 @@ const PUBLIC = new URL('../public/', import.meta.url).pathname
 const STAMP = '20260923'
 
 const JOBS = [
+  // 홈 히어로는 2026-10-06 부터 hero-seoul(-ko-flat)-20261006-{768,1280,2000,2880}.webp(Pexels 11687718 원본에서 별도로 구움)를 쓴다. 아래 1024 소스는 OG 용 png 의 파생본만 만든다.
   { src: 'images/hero-seoul.png', widths: [{ w: 768, q: 50 }, { w: 1024, q: 60 }] },
   { match: /^service-[^/]+\.png$/, dir: 'images', widths: [{ w: 500, q: 50 }, { w: 800, q: 45 }] },
   // QR 은 어두운 오버레이가 없어 화질을 낮출 수 없다. 포맷만 JPEG -> WebP.

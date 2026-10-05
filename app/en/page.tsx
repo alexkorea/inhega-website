@@ -47,9 +47,8 @@ export default function EnHomePage() {
       <section className={styles.hero}>
         <div className={styles.heroBg}>
           <FillImage
-            base="/images/hero-seoul-20260923"
-            small={768}
-            large={1024}
+            base="/images/hero-seoul-20261006"
+            widths={[768, 1280, 2000, 2880]}
             alt="Seoul cityscape"
             sizes="100vw"
             priority

@@ -84,11 +84,12 @@ export default function HomePage() {
           {/* 어두운 오버레이(rgba(11,31,58,0.72))를 이미지에 미리 합성했다 — 보이는 결과는
               같고 전송량만 95KB -> 39KB 다(LCP 임계경로). 그래서 heroOverlay div 는 없다.
               .hero 의 background-color 가 같은 색이라 이미지가 못 와도 글자는 읽힌다.
-              en/ja/zh 는 그라데이션 오버레이라 합성 대상이 아니다(app/page.module.css). */}
+              en/ja/zh 는 그라데이션 오버레이라 합성 대상이 아니다(app/page.module.css).
+              2026-10-06 SHARP-FIX: 원본이 1024px 정사각 생성 이미지라 1440(DPR2, 필요 2592px)에서 흐렸다.
+              같은 주제의 Pexels 11687718(6915px) 에서 768/1280/2000/2880w 를 구웠다(같은 오버레이 합성, q60). */}
           <FillImage
-            base="/images/hero-seoul-ko-flat-20260926"
-            small={768}
-            large={1024}
+            base="/images/hero-seoul-ko-flat-20261006"
+            widths={[768, 1280, 2000, 2880]}
             alt="서울 도심 전경"
             sizes="100vw"
             priority
