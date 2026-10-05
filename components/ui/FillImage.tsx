@@ -14,7 +14,7 @@ type Props = {
   small?: number
   /** 큰 쪽 폭(px). */
   large?: number
-  /** 폭 후보 전부(오름차순). 업종 사진(INH-PHOTO60)은 카드 [800,1200]·히어로 [800,1200,2000]. */
+  /** 폭 후보 전부(오름차순). 업종 사진(INH-PHOTO60)은 카드 [800,1200]·히어로 [800,1200,2000,2880]. */
   widths?: number[]
   alt: string
   sizes: string

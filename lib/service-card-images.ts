@@ -9,7 +9,8 @@
  *
  * 파일(public/images/industry/, scripts/photo-gate.mjs 가 빌드 전에 전부 검사):
  *   <slug>.webp            1200×750 q75 ≤150KB — 정본 1장(JSON-LD·사이트맵)
- *   <slug>-{400,800,1200,2000}.webp  q80, 2000w ≤400KB — 카드(400·800·1200)·히어로(800·1200·2000) srcset
+ *   <slug>-{400,800,1200,2000}.webp  q80, 2000w ≤400KB — 카드(400·800·1200)·히어로(800·1200·2000·2880) srcset
+ *   <slug>-2880.webp 2880×1800 q80(넘치면 q76) ≤700KB — 상세 히어로 PC 레티나 전용
  *     카드 400w: 모바일 2열 카드는 CSS 180px 남짓 — 800w 만 있으면 홈 첫 화면 근처 lazy 카드 15장이 히어로(LCP)와
  *     대역을 다퉈 랩 LCP 가 2.5s 를 넘었다(프리뷰 c16f47e5 실측 2.8~3.0s).
  *   <slug>-og.jpg          1200×630 — og:image·twitter:image

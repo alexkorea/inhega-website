@@ -99,7 +99,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
       <div style={{ paddingTop: '72px' }}>
         <section className={styles.hero}>
-          {/* 업종 사진 원본 800·1200·2000w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
+          {/* 업종 사진 원본 800·1200·2000·2880w + 하단 그라데이션(INH-PHOTO60) — components/ui/IndustryHeroImage */}
           <IndustryHeroImage slug={slug} fallbackImage={svcKo.image} alt={photo?.alt ?? svc.title} />
           <div className="container" style={{ position: 'relative', zIndex: 1 }}>
             <div style={{ marginBottom: '1rem' }}>

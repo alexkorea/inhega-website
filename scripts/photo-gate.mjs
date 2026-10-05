@@ -5,7 +5,7 @@
  *  1) 홈·/services·상세에 나오는 업종(4언어 디렉터리 전부)마다 lib/service-card-images.ts 에 사진이 있다
  *  2) 같은 사진 두 번 0 — pexels id·파일 경로·파일 바이트(sha256) 어느 것도 겹치면 실패
  *     기존 24종 services-data 의 image 도 업종마다 달라야 하고, 사진 표의 경로와 같아야 한다
- *  3) 파일 5종 규격: <slug>.webp 1200×750 ≤150KB · -800/-1200/-2000.webp 폭 일치, 2000w ≤400KB · -og.jpg 1200×630
+ *  3) 파일 7종 규격: <slug>.webp 1200×750 ≤150KB · -800/-1200/-2000.webp 폭 일치, 2000w ≤400KB, -2880.webp 2880×1800 ≤700KB(히어로 PC 레티나) · -og.jpg 1200×630
  *  4) docs/IMAGE-CREDITS.md 에 모든 pexels id 가 있다(출처 기록)
  *
  *   node scripts/photo-gate.mjs
@@ -80,6 +80,7 @@ const SPECS = [
   { suf: '-800.webp', w: 800 },
   { suf: '-1200.webp', w: 1200 },
   { suf: '-2000.webp', w: 2000, max: 400_000 },
+  { suf: '-2880.webp', w: 2880, h: 1800, max: 700_000 },
   { suf: '-og.jpg', w: 1200, h: 630, jpeg: true },
 ]
 const seenHash = new Map()
