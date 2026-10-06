@@ -53,8 +53,8 @@ function cardImageBase(slug: string, catalogImage: Map<string, string>): string 
   return base
 }
 
-// 실제 카드 폭(ServiceDirectory.module.css): ≤768 2열(좌우 1.25rem·간격 0.75rem), ≤1024 2열, ≤1199 3열, 그 위 4열(콘텐츠 1120px)
-const CARD_SIZES = '(max-width: 768px) calc(50vw - 1.7rem), (max-width: 1024px) calc(50vw - 3rem), (max-width: 1199px) calc(33vw - 2.5rem), 270px'
+// 실제 카드 폭(ServiceDirectory.module.css): ≤768 2열(좌우 1.25rem·간격 0.75rem), ≤1024 2열, ≤1199 3열, 그 위 6열(콘텐츠 1120px, 약 173px)
+const CARD_SIZES = '(max-width: 768px) calc(50vw - 1.7rem), (max-width: 1024px) calc(50vw - 3rem), (max-width: 1199px) calc(33vw - 2.5rem), 180px'
 
 /* 예전 홈(배포 657ffb7a) 사진 카드 그리드 — 사진 + 분야 배지 + 업종명 + 한 줄 설명 + 자세히 보기.
    홈은 분야 소제목 h3·카드 h4, /services 는 h2·h3 + 풋터 바로가기 앵커(#grp-<id>). */
@@ -86,19 +86,22 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
                         sizes={CARD_SIZES}
                       />
                     </div>
-                    {/* INH-CARD-CLEAR(보스 msg 2372·2373): 배지는 사진 왼쪽 위 고정, 글 묶음은 높이 고정(제목 2줄·설명 2줄·자세히 보기)
-                        이라 카드마다 배지·제목·설명·자세히 보기 세로 위치가 같다. 어둡게 하는 것은 글 묶음 뒤(.photoBody)뿐 —
-                        사진 전체를 덮는 오버레이를 되살리지 말 것(맥7 "사진이 흐리다"). */}
-                    <span className={`badge ${styles.photoBadge}`}>{g.label}</span>
+                    {/* INH-CARD-SPLIT(맥7, 보스 msg 2417): 사진은 위에 원색 그대로(덮개·그라데이션 0), 글은 사진 아래 흰 영역.
+                        글 묶음은 제목 2줄·설명 2줄 높이 고정 + 맨 아래 한 줄(분야 배지 왼쪽·자세히 보기 오른쪽) — 같은 행 카드의 세로 위치가 같다.
+                        배지를 맨 위 따로 한 줄로 두면 1440 홈이 +966px(맥7 한도 +700) — 그래서 자세히 보기와 한 줄.
+                        사진 위에 글·배지·어둡게 하는 층을 다시 얹지 말 것. */}
                     <div className={styles.photoBody}>
                       <CardH className={styles.photoTitle}>{e.title}</CardH>
                       <p className={styles.photoDesc}>{e.desc}</p>
-                      <span className={styles.photoLink}>
-                        {UI[locale].more}
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
-                          <path d="M5 12h14M12 5l7 7-7 7" />
-                        </svg>
-                      </span>
+                      <div className={styles.photoFoot}>
+                        <span className={styles.photoBadge}>{g.label}</span>
+                        <span className={styles.photoLink}>
+                          {UI[locale].more}
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </Link>
                 </li>

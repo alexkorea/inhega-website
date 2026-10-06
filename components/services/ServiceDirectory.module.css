@@ -175,7 +175,7 @@
      lazy 사진 15장이 히어로(LCP)와 대역을 다퉜다(프리뷰 949dd8e0 홈 랩 LCP 2.5~3.0s, +200KB).
      auto 크기는 한 번 그려지면 실제 높이를 기억한다 — 스크롤 점프 없음. */
   content-visibility: auto;
-  contain-intrinsic-size: auto 560px;
+  contain-intrinsic-size: auto 600px;
 }
 
 .photoGroup + .photoGroup {
@@ -202,71 +202,72 @@
   gap: 1rem;
 }
 
-/* INH-PHOTO60(보스 msg 2351 컴팩트): 4:3 → 16:10. 글은 흐름 안(photoBody)이라 길면 카드가 늘어난다 —
-   aspect-ratio 는 최소 높이로만 작동(min-height:auto). 글이 잘리거나 사진 밖으로 넘치지 않는다. */
+/* INH-CARD-SPLIT(맥7, 보스 msg 2417): 사진 위 · 글 아래 흰 영역.
+   사진은 16:10 원색 그대로 — 덮개·그라데이션·사진 위 글자 없음(INH-CARD-CLEAR 의 .62~.78 바탕은 폐기).
+   글 묶음은 제목 2줄·설명 2줄 높이 고정 + 맨 아래 한 줄(.photoFoot: 배지 왼쪽·자세히 보기 오른쪽, margin-top:auto) —
+   그리드 행 안 카드 높이가 같아서 배지·제목·설명·자세히 보기 세로 위치가 행마다 같다.
+   검증: ~/work/inh-card-split/m.mjs(행 정렬 ±1px·넘침·높이). */
+.photoGrid > li {
+  min-width: 0;
+}
+
 .photoCard {
-  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   height: 100%;
-  border-radius: 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
   overflow: hidden;
   text-decoration: none;
-  aspect-ratio: 16/10;
-  background: var(--navy);
+  background: #fff;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+/* hover 는 살짝 떠오르는 그림자만 — 사진 확대·색 변화 없음 */
+.photoCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(11, 31, 58, 0.12);
+}
+
+.photoCard:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
 }
 
 .photoImage {
-  position: absolute;
-  inset: 0;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.photoCard:hover .photoImage {
-  transform: scale(1.04);
-}
-
-/* INH-CARD-CLEAR(맥7, 보스 msg 2372·2373): 사진 위 전체 덮개 없음 — 사진은 원색 그대로.
-   글 묶음(.photoBody) 뒤만 어둡게: 위 1.25rem 은 투명→.62 로 번지고, 글 묶음 안은 .62(제목) → .78(맨 아래).
-   흰 글자 대비는 최악(사진이 순백)에서 계산 — .62 바탕 위 흰 제목 5.2:1, 설명(.92) 4.7:1 이상(AA 4.5).
-   검증: ~/work/inh-cardclear/m2.mjs(글자 위치별 최악 대비). .62 아래로 내리면 AA 가 깨진다.
-   글 묶음 높이는 고정(제목 2줄·설명 2줄 말줄임·자세히 보기 맨 아래) — 카드마다 세로 위치가 같다.
-   카드 높이는 그대로(16:10, 모바일 1:1) — 글 묶음이 카드보다 커지지 않게 글자 크기를 정했다. */
-.photoBody {
   position: relative;
-  z-index: 1;
-  padding: 0.5rem 0.875rem 0.75rem;
+  flex: none;
+  aspect-ratio: 16/10;
+  background: var(--cream-dark); /* lazy 사진이 오기 전 자리 */
+}
+
+.photoBody {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  background: linear-gradient(to bottom, rgba(10, 20, 40, 0.62), rgba(10, 20, 40, 0.78));
+  padding: 0.5rem 0.75rem 0.625rem;
 }
 
-.photoBody::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 100%;
-  height: 1.25rem;
-  background: linear-gradient(to bottom, rgba(10, 20, 40, 0), rgba(10, 20, 40, 0.62));
-  pointer-events: none;
+/* 맨 아래 한 줄 — 배지는 남는 폭만큼(넘치면 말줄임), 자세히 보기는 오른쪽 끝 고정 */
+.photoFoot {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-top: auto;
+  padding-top: 0.25rem;
 }
 
-/* 분야 배지 — 사진 왼쪽 위 고정. 사진 위라 자기 바탕(.78)을 가진다(badge-white 의 .35 는 밝은 사진에서 대비 미달). */
 .photoBadge {
-  position: absolute;
-  z-index: 1;
-  top: 0.625rem;
-  left: 0.75rem;
-  max-width: calc(100% - 1.5rem);
-  padding: 0.25rem 0.625rem;
+  min-width: 0;
+  padding: 0.125rem 0.5rem;
+  border-radius: 100px;
   font-size: 0.6875rem;
+  font-weight: 600;
   line-height: 1.3;
-  color: #fff;
-  background: rgba(10, 20, 40, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--navy);
+  background: rgba(11, 31, 58, 0.06);
+  border: 1px solid rgba(11, 31, 58, 0.12);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -274,9 +275,9 @@
 
 .photoTitle {
   font-family: var(--font-serif);
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 700;
-  color: white;
+  color: var(--navy);
   line-height: 1.3;
   height: 2.6em; /* 2줄 고정 — 1줄이면 아래 빈칸 */
   display: -webkit-box;
@@ -287,7 +288,7 @@
 
 .photoDesc {
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.92);
+  color: var(--slate);
   line-height: 1.45;
   height: 2.9em; /* 2줄 고정 말줄임 */
   display: -webkit-box;
@@ -297,29 +298,26 @@
 }
 
 .photoLink {
+  flex: none;
   display: flex;
   align-items: center;
-  gap: 0.375rem;
+  gap: 0.25rem;
+  margin-left: auto;
   font-size: 0.75rem;
   line-height: 1.3;
   font-weight: 600;
-  color: #fff;
-  margin-top: 0.125rem;
-  transition: gap 0.2s;
+  color: var(--burgundy);
 }
 
-.photoCard:hover .photoLink {
-  gap: 0.625rem;
-}
-
-/* 넓은 화면은 4열 — /services(보스 msg 2266·2267)에 이어 홈도 4열(INH-PHOTO60 컴팩트, 보스 msg 2351) */
+/* 넓은 화면은 6열(INH-CARD-SPLIT) — 글이 사진 아래로 내려와 카드가 길어졌다. 4열이면 1440 홈이 +3,000px,
+   6열(카드 약 173px)이라야 행 수가 18→16 으로 줄어 +700px 안에 든다(맥7 기준). */
 .directoryIndex {
   margin-top: 0;
 }
 
 @media (min-width: 1200px) {
   .photoGrid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
 
@@ -348,26 +346,19 @@
     white-space: nowrap;
   }
 
-  /* 모바일 2열 사진 타일(예전 1열은 60장이 세로로 이어져 홈이 24,000px) — 글이 길면 카드가 늘어난다 */
+  /* 모바일 2열(예전 1열은 60장이 세로로 이어져 홈이 24,000px) */
   .photoGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
   }
 
   .photoCard {
-    aspect-ratio: 1/1;
     border-radius: 12px;
   }
 
   .photoBody {
     padding: 0.5rem 0.625rem 0.625rem;
     gap: 0.1875rem;
-  }
-
-  .photoBadge {
-    top: 0.5rem;
-    left: 0.5rem;
-    max-width: calc(100% - 1rem);
   }
 
   .photoTitle {
