@@ -5228,6 +5228,559 @@ const blogData: BlogI18n[] = [
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「国家を当事者とする契約に関する法律施行令」（大統領令第36338号）、同法施行規則および調達庁「入札参加資格登録規定」の原文に基づき作成・最終確認日 10月3日</p>`
+  },
+  // ── corporate-research-lab-required-documents (inhega-daily 2026-10-06) ──
+  {
+    slug: 'corporate-research-lab-required-documents',
+    locale: 'en',
+    title: 'Corporate R&D Center Registration in Korea — Required Documents and What Each One Proves',
+    metaTitle: 'Korean Corporate R&D Center Registration — Required Documents',
+    metaDescription: 'The document set for recognition of a corporate R&D center or dedicated R&D department in Korea under the rules in force since 1 February 2026.',
+    category: 'Business Certification',
+    excerpt: 'Since February 2026 a separate statute governs corporate R&D centers in Korea. Here is the application form, the attachments, the documents you can skip and the mismatches that trigger supplementation requests.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>The Governing Law</li><li>What Goes Into the Application Form</li><li>The Attachments and What Each Proves</li><li>The R&D Personnel Statement</li><li>Floor Plans, Photos and the Equipment List</li><li>After Filing and Common Mistakes</li><li>FAQ</li></ol></div>
+<p>Since 1 February 2026, the documents for recognising a <strong>corporate R&D center</strong> (기업부설연구소) in Korea are set by Article 3 of the Enforcement Rules of the Act on R&D Support for Corporate Research Institutes, etc. (기업부설연구소등의 연구개발 지원에 관한 법률). A corporate R&D center files an application with up to 10 applicable attachments with the Korea Industrial Technology Association (한국산업기술진흥협회, KOITA); a dedicated R&D department (연구개발전담부서) files up to 6 under Article 4. With the applicant's consent, KOITA checks business registration and SME status itself through shared administrative data.</p>
+<p>A corporate R&D center is a research unit a company runs for R&D and that is recognised under Article 7 of the Act; a dedicated R&D department is a department devoted to R&D with the same recognition (Article 2). The documents are how the reviewer sees the two core criteria, people and space. This article covers the paperwork, not the criteria themselves.</p>
+
+<h2>The Governing Law</h2>
+<p>Older guides cite Article 14-2 of the Basic Research Promotion and Technology Development Support Act and Article 16-2 of its Decree; both are now marked "deleted". A separate statute, Act No. 20727, was promulgated on 31 January 2025 and took effect 1 year later, on 1 February 2026.</p>
+<table><thead><tr><th>Instrument</th><th>Number, in force</th><th>Relevant content</th></tr></thead><tbody>
+<tr><td>The Act</td><td>Act No. 21309, 1 February 2026</td><td>Art. 7 application, Art. 10 prohibited conduct, Art. 27 fines</td></tr>
+<tr><td>Enforcement Decree</td><td>Presidential Decree No. 36055, 1 February 2026</td><td>Art. 6 criteria, Art. 7 form contents, Art. 16 delegation</td></tr>
+<tr><td>Enforcement Rules</td><td>Ministry of Science and ICT Ordinance No. 163, 1 February 2026</td><td>Arts. 3 and 4 attachments, Forms 1 to 7</td></tr>
+<tr><td>Reporting Guidelines (notice)</td><td>Notice No. 2026-6, 1 February 2026</td><td>Art. 3 processing, Art. 4 supplementation, Art. 5 follow-up</td></tr>
+</tbody></table>
+<div class="highlight-box">Act on R&D Support for Corporate Research Institutes, etc., Article 7(2): A company seeking recognition under paragraph (1) shall apply to the Minister of Science and ICT as prescribed by Presidential Decree. Article 7(3): The Minister shall issue a certificate of recognition to the corporate research institute, etc.</div>
+<p>Receiving applications, recognition and certificates are delegated to KOITA (Decree Article 16(1)), so the form is addressed to it. Centers recognised under the old law are deemed recognised under the new Act (Addenda Article 4) and need not refile.</p>
+
+<h2>What Goes Into the Application Form</h2>
+<p>A center uses Form 1 and a department Form 6. The Decree requires the company name, representative, location, research field, main research content, R&D personnel, research facilities and other necessary matters (Decree Article 7(1)). Both forms state a processing time of 10 days and a fee of "none". Points that often go wrong:</p>
+<ul>
+<li><strong>Industry</strong> — the main industry as a KSIC code.</li>
+<li><strong>Sales and employees</strong> — sales from the latest closed accounts; current regular employees, excluding day labourers.</li>
+<li><strong>Date of establishment</strong> — when the research unit was set up, not the company's opening date.</li>
+<li><strong>Field</strong> — science and technology or services; service companies pick a field tied to their main industry.</li>
+<li><strong>Research space</strong> — "whole building", "independent space" or "separated area", owned or leased, with the area.</li>
+<li><strong>R&D investment</strong> — the plan for 1 year from the year of application.</li>
+</ul>
+<p>If one company applies for 2 or more centers, their research fields or addresses must differ (Decree Article 6(3)).</p>
+
+<h2>The Attachments and What Each Proves</h2>
+<p>Under Rules Articles 3(1) and 4(1), the attachments are as follows. "Conditional" means only companies meeting the condition submit it.</p>
+<table><thead><tr><th>Document</th><th>Center</th><th>Department</th><th>What it proves</th></tr></thead><tbody>
+<tr><td>R&D activity summary (Form 2)</td><td>Required</td><td>Required</td><td>Tasks, field, lead project for 1 year</td></tr>
+<tr><td>Research equipment list (Form 3)</td><td>Required</td><td>Required</td><td>Equipment used directly for research</td></tr>
+<tr><td>R&D personnel statement (Form 4)</td><td>Required</td><td>Required</td><td>Researchers' number, qualifications, other duties</td></tr>
+<tr><td>Organisation chart</td><td>Company and center</td><td>Company</td><td>Separation from other departments</td></tr>
+<tr><td>Floor and interior plans, with entrance sign and photos</td><td>Required</td><td>Required</td><td>Location and boundary of the space</td></tr>
+<tr><td>Safety budget statement</td><td>Conditional (10 or more researchers and assistants)</td><td>Not applicable</td><td>Laboratory Safety Act Art. 22(2)</td></tr>
+<tr><td>Insurance certificate</td><td>Conditional (10 or more researchers and assistants)</td><td>Not applicable</td><td>Laboratory Safety Act Art. 26(1)</td></tr>
+<tr><td>SME criteria review sheet or VAT return</td><td>Conditional (service field)</td><td>Conditional (service field)</td><td>Eligible service industry</td></tr>
+<tr><td>Proof of founding by a researcher or professor</td><td>Conditional</td><td>Not applicable</td><td>Special personnel rule</td></tr>
+<tr><td>Proof of mid-sized enterprise status</td><td>Conditional</td><td>Not applicable</td><td>Mid-sized enterprise standard</td></tr>
+</tbody></table>
+<p>A department's file is lighter: the 3 common forms plus a company chart, plans and photos, and service-field evidence. Under Article 36(1) of the Electronic Government Act, KOITA itself checks the business registration certificate and, for small or medium enterprises, proof of that status; only an applicant who refuses consent submits them (Rules Articles 3(2) and 4(2)).</p>
+
+<h2>The R&D Personnel Statement</h2>
+<p>Form 4 is the centre of the review. It counts dedicated researchers, assistants and administrators by degree and lists, per person, position, name, resident or alien registration number, department, school and major, degree and degree number, military service, date of assignment and whether they work on site. Assistants and administrators are not mandatory.</p>
+<p>Three entries are often wrong. Without a degree number, as for high school graduates or foreign degrees, enter the graduation year; technical qualification holders enter the qualification and its number. The date of assignment is the posting to the unit, not the hiring date. Anyone working off site, for example from home, is marked "no".</p>
+<p>Rules Article 2(8) excludes as dedicated researchers:</p>
+<ol>
+<li>anyone whose employment cannot be proven by health insurance, pension or payroll withholding records;</li>
+<li>employees in full-time daytime graduate programmes, with exceptions;</li>
+<li>anyone unable to do R&D at the unit continuously for 6 months or more;</li>
+<li>representatives, auditors or non-standing directors, except the representative of a small enterprise within 3 years of founding who does R&D; and</li>
+<li>industrial trainees.</li>
+</ol>
+<p>KOITA may request enrolment data from the National Health Insurance Service, the National Pension Service and the Korea Workers' Compensation and Welfare Service (Act Article 23(1), Decree Article 17), so a personnel list that does not match social insurance records will show.</p>
+<p>Degree certificates are not on the attachment list, but in follow-up management KOITA may check copies of degree, graduation or qualification certificates, personnel orders, lab notebooks and reports (Guidelines Article 5(2)). Keep the originals from the start.</p>
+
+<h2>Floor Plans, Photos and the Equipment List</h2>
+<p>The plans cover the whole floor and the interior, with the entrance sign and interior photos (Rules Articles 3(1)5 and 4(1)2). They prove the space is separated by fixed walls and its own door (Rules Article 2(2)1). Where an SME, a research-founded SME or venture company, or an information service or software company's department cannot secure more than 50 square metres, a partitioned area is accepted; where walls cannot reach the ceiling for ventilation or fire safety, fixed walls of at least 2 metres with a door may qualify. The plan and the photos must match.</p>
+<p>A center may not be in detached or multi-unit housing, an unpermitted building or a temporary structure (Act Article 9(2)). On Form 3, office equipment, servers, hubs and general-purpose software do not count; dedicated development tools may.</p>
+
+<h2>After Filing and Common Mistakes</h2>
+<p>The steps are receipt, review (with on-site checks if needed), approval, recognition and the certificate. Guidelines Article 3 sets processing within 10 days of receipt as the rule but excludes on-site inspection time, so actual time depends on the authority and the documents. An inspection is normally notified in writing 7 days ahead (Act Article 21). Incomplete files get a supplementation deadline and may be returned if it passes (Guidelines Article 4). Recognition brings a certificate on Form 5 or Form 7.</p>
+<p>Supplementation requests usually come from inconsistencies:</p>
+<ul>
+<li>a dedicated researcher who also handles sales or production;</li>
+<li>the hiring date entered as the assignment date;</li>
+<li>plans showing an independent space while photos show only partitions or no sign;</li>
+<li>an equipment list of copiers, office PCs and general software; and</li>
+<li>a service-field application without the SME review sheet or VAT return.</li>
+</ul>
+<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation. Texts: <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">the Act</a> and <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">its Enforcement Rules</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Must degree certificates be attached?</p><p class="faq-a">A. They are not on the list in Rules Article 3(1), but Form 4 asks for degree numbers and KOITA may check copies under Guidelines Article 5(2). Keep the originals.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do I submit the business registration certificate?</p><p class="faq-a">A. Not if you consent. KOITA checks it through shared data under Rules Article 3(2).</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does everyone submit the safety budget and insurance certificate?</p><p class="faq-a">A. No. Under Rules Article 3(1)6 and 7, only a center with 10 or more researchers and assistants in total; a department does not.</p></div>
+<div class="faq-item"><p class="faq-q">Q. How soon is the certificate issued?</p><p class="faq-a">A. Guidelines Article 3 sets 10 days from receipt as the rule, excluding inspection time; supplementation adds time.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Must a center recognised under the old law refile?</p><p class="faq-a">A. No. Addenda Article 4 of Act No. 20727 deems it recognised, though changes must be reported within 30 days under Decree Article 7(2).</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>Want your file checked before you submit?</h3>
+ <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a free consultation</a>
+</div>
+
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Act on R&D Support for Corporate Research Institutes, etc. (Act No. 21309, in force 1 February 2026), its Enforcement Decree (Presidential Decree No. 36055), Enforcement Rules (Ordinance No. 163) and the Reporting Guidelines (Notice No. 2026-6) · Last reviewed 3 October</p>`
+  },
+  {
+    slug: 'corporate-research-lab-required-documents',
+    locale: 'zh',
+    title: '韩国企业附属研究所设立材料 — 认定申请附件10种及各自证明的内容',
+    metaTitle: '韩国企业附属研究所设立材料 — 认定申请附件汇总',
+    metaDescription: '依据2026年2月1日施行的韩国《企业附属研究所等研究开发支援法》施行规则第3条、第4条，说明企业附属研究所与研究开发专门部门认定申请需提交的材料、各材料证明的内容及常见补正原因。',
+    category: '企业认证',
+    excerpt: '自2026年2月起，韩国企业附属研究所的认定材料由新法施行规则规定。本文整理申请书、附件、可免交的材料以及常被要求补正的填写错误。',
+    content: `<div class="toc"><p>目录</p><ol><li>依据法令 — 材料规定已移至新法</li><li>申请书需填写的信息</li><li>附件清单及各自证明的内容</li><li>研究开发人员现况</li><li>平面图、照片与研究器材现况</li><li>提交后的程序与常见错误</li><li>常见问题</li></ol></div>
+<p><strong>韩国企业附属研究所设立材料</strong>自2026年2月1日起由《企业附属研究所等研究开发支援法施行规则》（기업부설연구소등의 연구개발 지원에 관한 법률 시행규칙）第3条规定。企业附属研究所须在认定申请书上附上研究开发活动概要书、研究器材现况、研究开发人员现况、组织图、平面图与照片等适用附件（最多10种），向韩国产业技术振兴协会（한국산업기술진흥협회）提交；研究开发专门部门依第4条最多提交6种。申请人同意时，营业执照证明和小企业·中企业证明由协会通过行政信息共享直接确认。</p>
+<p>企业附属研究所是企业为研发设立运营、并依该法第7条获得认定的附属研究机构；研究开发专门部门是获得同样认定的研发专门部门（第2条）。材料是审查机关确认"人"和"空间"两项标准的途径。本文只讲如何用材料证明，不重复要件本身。</p>
+
+<h2>依据法令 — 材料规定已移至新法</h2>
+<p>旧说明常引用《基础研究振兴及技术开发支援法》第14条之2和其施行令第16条之2，现行原文中均已"删除"。专门法律于2025年1月31日以法律第20727号公布，经过1年，自2026年2月1日起施行。</p>
+<table><thead><tr><th>规范</th><th>编号·施行日</th><th>相关内容</th></tr></thead><tbody>
+<tr><td>该法</td><td>法律第21309号，2026年2月1日</td><td>第7条申请，第10条禁止行为，第27条罚款</td></tr>
+<tr><td>施行令</td><td>总统令第36055号，2026年2月1日</td><td>第6条标准，第7条记载事项，第16条委托</td></tr>
+<tr><td>施行规则</td><td>科学技术信息通信部令第163号，2026年2月1日</td><td>第3条·第4条附件，第1号至第7号书式</td></tr>
+<tr><td>申报要领（告示）</td><td>告示第2026-6号，2026年2月1日</td><td>第3条处理期限，第4条补正，第5条事后管理</td></tr>
+</tbody></table>
+<div class="highlight-box">《企业附属研究所等研究开发支援法》第7条第2款：欲获得第1款认定的企业，应依总统令规定向科学技术信息通信部长官申请认定。第3款：科学技术信息通信部长官应向企业附属研究所等发放认定书。</div>
+<p>受理、认定及发放认定书的业务依施行令第16条第1款委托给该协会。依旧法获认定的研究所视为依新法获认定（附则第4条），无需重新提交。</p>
+
+<h2>申请书需填写的信息</h2>
+<p>研究所使用第1号书式，专门部门使用第6号书式。施行令第7条第1款要求记载企业名称、代表人、所在地、研究领域、主要研究内容、研究开发人员、研究设施等。两种书式印有处理期限10日，手续费栏为"无"。容易出错的项目：</p>
+<ul>
+<li><strong>行业</strong> — 以KSIC代码填写主营行业。</li>
+<li><strong>销售额·员工数</strong> — 以最终决算为准；员工数为最近常时员工数，不含日工。</li>
+<li><strong>设立日期</strong> — 研究机构的设立日，而非公司开业日。</li>
+<li><strong>领域</strong> — 科学技术或服务；服务企业须选与主营行业相关的领域。</li>
+<li><strong>研究空间</strong> — "整栋建筑""独立空间""分隔区域"，自有或租赁及面积。</li>
+<li><strong>研发投资</strong> — 自申请当年起未来1年的计划。</li>
+</ul>
+<p>同一企业申请2个以上研究所时，研究领域或地址须不同（施行令第6条第3款）。</p>
+
+<h2>附件清单及各自证明的内容</h2>
+<p>依施行规则第3条第1款和第4条第1款，附件如下。"附条件"指仅符合条件者提交。</p>
+<table><thead><tr><th>材料</th><th>研究所</th><th>专门部门</th><th>证明什么</th></tr></thead><tbody>
+<tr><td>研究开发活动概要书（第2号书式）</td><td>必交</td><td>必交</td><td>业务、领域、1年内代表课题</td></tr>
+<tr><td>研究器材现况（第3号书式）</td><td>必交</td><td>必交</td><td>直接用于研究的器材</td></tr>
+<tr><td>研究开发人员现况（第4号书式）</td><td>必交</td><td>必交</td><td>专职研究员人数、资格、兼职</td></tr>
+<tr><td>组织图</td><td>企业及研究机构</td><td>企业</td><td>与其他部门区分</td></tr>
+<tr><td>整层及内部平面图（含门牌、内部照片）</td><td>必交</td><td>必交</td><td>独立空间的位置与边界</td></tr>
+<tr><td>安全预算明细</td><td>附条件（10名以上）</td><td>不适用</td><td>研究室安全法第22条第2款</td></tr>
+<tr><td>保险加入证明</td><td>附条件（10名以上）</td><td>不适用</td><td>研究室安全法第26条第1款</td></tr>
+<tr><td>中小企业等标准检讨表或增值税申报书</td><td>附条件（服务领域）</td><td>附条件（服务领域）</td><td>可认定的服务行业</td></tr>
+<tr><td>研究员·教员创业证明</td><td>附条件</td><td>不适用</td><td>人员特例</td></tr>
+<tr><td>中坚企业证明</td><td>附条件</td><td>不适用</td><td>中坚企业标准</td></tr>
+</tbody></table>
+<p>专门部门材料较轻。依《电子政府法》第36条第1款，协会自行确认营业执照证明及小企业·中企业证明，仅申请人不同意时自行提交（施行规则第3条第2款、第4条第2款）。</p>
+
+<h2>研究开发人员现况</h2>
+<p>审查核心是第4号书式。按学位统计专职研究员、研究助理、研究管理职员，并逐人填写职位、姓名、居民登记号或外国人登录号、部门、学校与专业、学位与编号、兵役、任命日及是否在设施内工作。研究助理和管理职员并非必备。</p>
+<p>常见错误：没有学位编号的填毕业年份，技术资格者填资格证编号；任命日是调入研究机构之日，不是入职日；在家等设施外工作者须标"否"。</p>
+<p>施行规则第2条第8款规定下列人员不得作为专职研究员：</p>
+<ol>
+<li>无法以健康保险、国民年金或工资代扣记录证明为本企业员工者；</li>
+<li>就读全日制研究生课程的员工（有例外）；</li>
+<li>无法连续6个月以上从事研发者；</li>
+<li>代表人、监事、非常任理事（创业未满3年小企业的研发代表人除外）；</li>
+<li>产业研修生。</li>
+</ol>
+<p>协会可向国民健康保险公团、国民年金公团、勤劳福祉公团请求加入资料（法第23条第1款、施行令第17条），名单与四大保险记录不符会暴露。学位证书不在附件清单内，但事后管理时可确认学位或资格证复印件、人事任命文件和研究笔记（申报要领第5条第2款），应保存原件。</p>
+
+<h2>平面图、照片与研究器材现况</h2>
+<p>平面图须含整层图和内部图，并附门牌和内部照片（施行规则第3条第1款第5项、第4条第1款第2项），证明以固定墙体和单独出入门区分的独立空间（第2条第2款第1项）。中小企业、研发型中小企业或风险企业，以及信息服务或软件企业的研发部门无法确保超过50平方米时，可用隔板区分；无法隔到天花板时，可用2米以上固定墙体加单独出入门。平面图与照片须一致。</p>
+<p>独栋住宅、共同住宅、未经许可的建筑或临时建筑不得设立研究所（法第9条第2项）。第3号书式中办公设备、服务器、集线器和通用软件不计入，开发专用程序可计入。</p>
+
+<h2>提交后的程序与常见错误</h2>
+<p>程序为受理、审查（必要时现场确认）、审批、认定、发证。申报要领第3条原则上自受理起10日内处理，但不含现场调查期间，实际时间取决于主管机关和材料情况。现场调查原则上提前7日书面通知（法第21条）。材料不全会被限期补正，逾期可退回（申报要领第4条）。认定书为第5号或第7号书式。</p>
+<p>常见补正原因：</p>
+<ul>
+<li>专职研究员兼任销售或生产；</li>
+<li>任命日填成入职日；</li>
+<li>平面图为独立空间，照片只有隔板或无门牌；</li>
+<li>器材只列复印机、办公电脑和通用软件；</li>
+<li>服务领域申请漏交检讨表或增值税申报书。</li>
+</ul>
+<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。原文见<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">该法</a>、<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">施行规则</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 必须附学位证书吗？</p><p class="faq-a">A. 施行规则第3条第1款清单中没有，但第4号书式要填学位编号，事后管理可确认复印件（申报要领第5条第2款），应保存原件。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 需要交营业执照复印件吗？</p><p class="faq-a">A. 同意的话无需提交，协会依施行规则第3条第2款通过信息共享确认。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 安全预算明细和保险证明都要交吗？</p><p class="faq-a">A. 不是。依第3条第1款第6项、第7项，仅研究专职人员等合计10名以上的研究所提交，专门部门不交。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 多久发放认定书？</p><p class="faq-a">A. 申报要领第3条原则为受理起10日内，不含现场调查期间；补正会延后。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 旧法认定的研究所需重新提交吗？</p><p class="faq-a">A. 不需要，法律第20727号附则第4条视其为已认定；此后变更须依施行令第7条第2款在30日内申报。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>提交前想先核对一遍材料？</h3>
+ <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请免费咨询</a>
+</div>
+
+<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《企业附属研究所等研究开发支援法》（法律第21309号，2026年2月1日施行）、同法施行令（总统令第36055号）、施行规则（科学技术信息通信部令第163号）及《企业附属研究所与研究开发专门部门申报要领》（告示第2026-6号）原文撰写 · 最终审阅日 10月3日</p>`
+  },
+  {
+    slug: 'corporate-research-lab-required-documents',
+    locale: 'ja',
+    title: '韓国の企業付設研究所設立に必要な書類 — 認定申請の添付書類10種と各書類が証明するもの',
+    metaTitle: '韓国 企業付設研究所設立の必要書類 — 認定申請の添付書類',
+    metaDescription: '2026年2月1日施行の韓国「企業付設研究所等の研究開発支援に関する法律」施行規則第3条・第4条に基づき、企業付設研究所と研究開発専担部署の認定申請に必要な書類、各書類が証明する内容、補完になりやすい記載ミスを整理しました。',
+    category: '企業認証',
+    excerpt: '2026年2月から、韓国の企業付設研究所の認定書類は新法の施行規則が定めています。申請書と添付書類、提出不要の書類、補完を求められやすい記載ミスを原文基準で整理しました。',
+    content: `<div class="toc"><p>目次</p><ol><li>根拠法令 — 書類の規定は新法へ移った</li><li>申請書に記載する情報</li><li>添付書類の一覧と各書類が証明するもの</li><li>研究開発人力現況 — 研究専担要員の証明</li><li>図面・表札・写真と研究機材現況</li><li>提出後の手続と補完が多いミス</li><li>よくあるご質問</li></ol></div>
+<p><strong>韓国の企業付設研究所設立に必要な書類</strong>は、2026年2月1日から「企業付設研究所等の研究開発支援に関する法律施行規則」（기업부설연구소등의 연구개발 지원에 관한 법률 시행규칙）第3条が定めています。企業付設研究所は認定申請書に研究開発活動概要書、研究機材現況、研究開発人力現況、組織図、図面と写真など該当する添付書類（最大10種）を付けて韓国産業技術振興協会（한국산업기술진흥협회）に提出し、研究開発専担部署は同規則第4条により最大6種を提出します。事業者登録証明と小企業・中企業の証明書類は、申請人が同意すれば協会が行政情報の共同利用で直接確認します。</p>
+<p>企業付設研究所とは、企業が研究開発のために設立・運営し同法第7条の認定を受けた付設研究機関、研究開発専担部署とは同じ認定を受けた研究開発専担の部署をいいます（第2条）。書類は、認定基準である「人」と「空間」を審査機関が確認する経路です。本稿は要件そのものではなく、その証明方法に焦点を当てます。</p>
+
+<h2>根拠法令 — 書類の規定は新法へ移った</h2>
+<p>以前の解説が根拠に挙げる「基礎研究振興及び技術開発支援に関する法律」第14条の2と同法施行令第16条の2は、現行原文ではいずれも「削除」です。代わりに単独の法律が2025年1月31日に法律第20727号として公布され、1年を経過した2026年2月1日から施行されています。</p>
+<table><thead><tr><th>規範</th><th>番号・施行日</th><th>関連内容</th></tr></thead><tbody>
+<tr><td>同法</td><td>法律第21309号、2026年2月1日</td><td>第7条 申請、第10条 禁止行為、第27条 過料</td></tr>
+<tr><td>施行令</td><td>大統領令第36055号、2026年2月1日</td><td>第6条 基準、第7条 記載事項、第16条 委託</td></tr>
+<tr><td>施行規則</td><td>科学技術情報通信部令第163号、2026年2月1日</td><td>第3条・第4条 添付書類、第1号〜第7号書式</td></tr>
+<tr><td>届出要領（告示）</td><td>告示第2026-6号、2026年2月1日</td><td>第3条 処理期間、第4条 補完、第5条 事後管理</td></tr>
+</tbody></table>
+<div class="highlight-box">「企業付設研究所等の研究開発支援に関する法律」第7条第2項：第1項による認定を受けようとする企業は、大統領令で定めるところにより科学技術情報通信部長官に認定を申請しなければならない。第3項：科学技術情報通信部長官は、企業付設研究所等に認定書を発給しなければならない。</div>
+<p>受付・認定・認定書発給の業務は施行令第16条第1項により同協会に委託されており、申請書の宛先も同協会です。旧法で認定された研究所は新法で認定されたものとみなされ（附則第4条）、改めて書類を出す必要はありません。</p>
+
+<h2>申請書に記載する情報</h2>
+<p>研究所は別紙第1号書式、専担部署は第6号書式を使います。施行令第7条第1項は企業名称、代表者、所在地、研究分野、主要研究内容、研究開発人力、研究施設などの記載を求めます。いずれの書式も処理期間は10日、手数料欄は「なし」です。間違えやすい項目は次のとおりです。</p>
+<ul>
+<li><strong>業種</strong> — 主業種を韓国標準産業分類（KSIC）コードで記載。</li>
+<li><strong>売上高・従業員数</strong> — 最終決算資料と直近の常時従業員数（日雇いを除く）。</li>
+<li><strong>設立年月日</strong> — 会社の開業日ではなく研究機関を設立した日。</li>
+<li><strong>申請分野</strong> — 科学技術かサービス。サービスは主業種に関連する分野を選択。</li>
+<li><strong>研究空間</strong> — 「建物全体」「独立空間」「分離区域」、所有・賃借の別と面積。</li>
+<li><strong>研究開発投資</strong> — 申請年から今後1年間の計画。</li>
+</ul>
+<p>同じ企業が2つ以上の研究所を申請する場合、専門研究分野または所在地が異なっていなければなりません（施行令第6条第3項）。</p>
+
+<h2>添付書類の一覧と各書類が証明するもの</h2>
+<p>施行規則第3条第1項と第4条第1項の添付書類は次のとおりです。「条件付き」は該当企業のみ提出します。</p>
+<table><thead><tr><th>書類</th><th>研究所</th><th>専担部署</th><th>何を証明するか</th></tr></thead><tbody>
+<tr><td>研究開発活動概要書（第2号書式）</td><td>必須</td><td>必須</td><td>業務・分野・1年間の代表課題</td></tr>
+<tr><td>研究機材現況（第3号書式）</td><td>必須</td><td>必須</td><td>研究に直接使う機材</td></tr>
+<tr><td>研究開発人力現況（第4号書式）</td><td>必須</td><td>必須</td><td>研究専担要員の人数・資格・兼務</td></tr>
+<tr><td>組織図</td><td>企業及び研究機関</td><td>企業</td><td>他部署との区分</td></tr>
+<tr><td>フロア全体図面・内部図面（表札・内部写真を含む）</td><td>必須</td><td>必須</td><td>独立空間の位置と境界</td></tr>
+<tr><td>安全関連予算明細書</td><td>条件付き（10名以上）</td><td>該当なし</td><td>研究室安全法第22条第2項</td></tr>
+<tr><td>保険加入証明書</td><td>条件付き（10名以上）</td><td>該当なし</td><td>研究室安全法第26条第1項</td></tr>
+<tr><td>中小企業等基準検討表または付加価値税申告書</td><td>条件付き（サービス分野）</td><td>条件付き（サービス分野）</td><td>認定対象のサービス業種</td></tr>
+<tr><td>研究員・教員創業企業の証明書類</td><td>条件付き</td><td>該当なし</td><td>人力基準の特例</td></tr>
+<tr><td>中堅企業の証明書類</td><td>条件付き</td><td>該当なし</td><td>中堅企業の基準</td></tr>
+</tbody></table>
+<p>専担部署の書類は研究所より軽く、共通3書式に企業組織図、図面・写真、サービス分野の証明を付ければ足ります。「電子政府法」第36条第1項により、協会は事業者登録証明（住民登録番号を除く）と小企業・中企業の証明書類を自ら確認し、申請人が同意しない場合に限り本人が提出します（施行規則第3条第2項、第4条第2項）。</p>
+
+<h2>研究開発人力現況 — 研究専担要員の証明</h2>
+<p>審査の中心は別紙第4号書式です。研究専担要員・研究補助員・研究管理職員を学位別に集計し、一人ずつ職位、氏名、住民登録番号（外国人は外国人登録番号）、所属部署、最終学校と専攻、最終学位と学位番号、兵役事項、発令日、研究施設内勤務の有無を記載します。研究補助員と研究管理職員は必須ではありません。</p>
+<p>間違えやすい点は3つです。学位番号がない高校卒業者や海外学位は卒業年度を、国家技術資格者は資格の種類と資格証番号を記載します。発令日は入社日ではなく研究所または専担部署への発令日です。自宅など研究施設外で勤務する人は「否」と表示します。</p>
+<p>施行規則第2条第8項は、次の人を研究専担要員にできないと定めています。</p>
+<ol>
+<li>健康保険・国民年金の加入者名簿や源泉徴収簿などで職員であることを証明できない人</li>
+<li>大学院の昼間学位課程で修学する役職員（例外あり）</li>
+<li>継続して6か月以上研究開発を行えない人</li>
+<li>代表者・監事・非常勤理事など（創業3年以内の小企業で研究開発を行う代表者を除く）</li>
+<li>産業研修生</li>
+</ol>
+<p>協会は国民健康保険公団・国民年金公団・勤労福祉公団に加入状況の資料を求めることができるため（法第23条第1項、施行令第17条）、名簿と4大保険の記録が食い違えば判明します。学位証明書は添付書類一覧にありませんが、事後管理では学位・卒業証明書または資格証の写し、人事発令書類、研究ノートなどが確認されることがあるため（届出要領第5条第2項）、原本資料を保管しておくべきです。</p>
+
+<h2>図面・表札・写真と研究機材現況</h2>
+<p>図面はフロア全体の図面と内部図面で、専用出入口の表札と内部写真を含めます（施行規則第3条第1項第5号、第4条第1項第2号）。これは固定壁体と別の出入口で区分された独立空間を証明します（第2条第2項第1号）。中小企業、研究開発型中小企業・ベンチャー企業、情報サービス・ソフトウェア企業の専担部署が50平方メートルを超える面積を確保できない場合はパーティションによる区分も認められ、天井まで仕切れない場合は床から2メートル以上の固定壁体と別の出入口でもよいとされます。図面と写真は一致していなければなりません。</p>
+<p>単独住宅、共同住宅、無許可の建物や仮設建物には研究所を設置できません（法第9条第2号）。第3号書式では事務機器、サーバー・ハブ、汎用ソフトウェアは該当せず、開発ツールの専用プログラムは含められます。</p>
+
+<h2>提出後の手続と補完が多いミス</h2>
+<p>手続は受付、検討（必要に応じて現地確認）、決裁、認定、認定書発給の順です。届出要領第3条は受付日から10日以内の処理を原則としますが、現場調査の期間は算入しないため、実際の期間は管轄機関と書類の状況によって異なります。現場調査は原則として7日前までに書面で通知されます（法第21条）。不備があれば期限付きで補完を求められ、期限を過ぎると返戻されることがあります（届出要領第4条）。認定書は別紙第5号または第7号書式です。</p>
+<p>補完を求められやすいのは書類間の不一致です。</p>
+<ul>
+<li>研究専担要員が営業や生産を兼務している</li>
+<li>発令日欄に入社日を記載した</li>
+<li>図面は独立空間なのに写真はパーティションだけ、または表札がない</li>
+<li>機材現況がコピー機・事務用PC・汎用ソフトウェアのみ</li>
+<li>サービス分野なのに基準検討表や付加価値税申告書がない</li>
+</ul>
+<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。原文は<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">同法</a>、<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">同法施行規則</a>で確認できます。</p>
+
+<div class="faq-section"><h2>よくあるご質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 学位証明書の添付は必要ですか。</p><p class="faq-a">A. 施行規則第3条第1項の一覧にはありませんが、第4号書式に学位番号を記載し、事後管理で写しが確認されることがあるため（届出要領第5条第2項）、原本を保管してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 事業者登録証の写しも提出しますか。</p><p class="faq-a">A. 同意すれば不要です。施行規則第3条第2項により協会が行政情報の共同利用で確認します。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 安全関連予算明細書と保険加入証明書は全員が提出しますか。</p><p class="faq-a">A. いいえ。第3条第1項第6号・第7号により、研究専担要員と研究補助員の合計が10名以上の研究所だけです。専担部署は不要です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 認定書はいつ出ますか。</p><p class="faq-a">A. 届出要領第3条は受付日から10日以内を原則としますが、現場調査の期間は含まず、補完があれば遅れます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 旧法で認定された研究所も書類を出し直しますか。</p><p class="faq-a">A. いいえ。法律第20727号附則第4条により認定済みとみなされます。変更があれば施行令第7条第2項により30日以内に届出が必要です。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>提出前に書類を一度照合したい方へ</h3>
+ <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、ユソン行政士事務所が先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">無料相談を申し込む</a>
+</div>
+
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「企業付設研究所等の研究開発支援に関する法律」（法律第21309号、2026年2月1日施行）、同法施行令（大統領令第36055号）、施行規則（科学技術情報通信部令第163号）および「企業付設研究所と研究開発専担部署の届出要領」（告示第2026-6号）の原文に基づき作成・最終確認日 10月3日</p>`
+  },
+  // ── mainbiz-renewal-and-validity (inhega-daily 2026-10-07) ──
+  {
+    slug: 'mainbiz-renewal-and-validity',
+    locale: 'en',
+    title: 'Mainbiz Certification Renewal in Korea — Validity Period, Extension Window and Cancellation',
+    metaTitle: 'Mainbiz Certification Korea Renewal and Validity Period',
+    metaDescription: 'Mainbiz certification Korea renewal: 3-year validity, the extension window, the 700-point assessment, how the new term is counted, reissuance and cancellation.',
+    category: 'Business Certification',
+    excerpt: 'A Mainbiz certificate is valid for 3 years. Here is when to apply for extension, how the renewal assessment works, how the new term is counted, and what can cancel a selection, based on the Ministry notice.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Legal Basis and Validity Period</li><li>When to Apply for Extension</li><li>The Renewal Assessment and Pass Mark</li><li>How the New Term Is Counted</li><li>Changes During the Term — Reissuance and Succession</li><li>Cancellation Grounds and Follow-up Review</li><li>FAQ</li></ol></div>
+<p><strong>A Mainbiz (management innovation SME) certificate in Korea is valid for 3 years from its issue date.</strong> To keep it, the company must apply for extension between 90 days before and 30 days after expiry and score 700 points or more in the renewal assessment. That assessment uses a separate diagnosis table, and the start of the new term depends on when the renewed certificate is issued.</p>
+<p>This guide is based on the Act on the Promotion of Technological Innovation of Small and Medium Enterprises (중소기업 기술혁신 촉진법), its Decree and the Ministry of SMEs and Startups notice on the Main-Biz system (경영혁신형 중소기업(Main-Biz) 제도 운영규정). Officially, "renewal" is an "extension of the validity period".</p>
+
+<h2>Legal Basis and Validity Period</h2>
+<p>A management innovation SME is one selected by the Minister under Article 15-3 of the Act (Article 2, item 4-2), on criteria for innovation activities and results announced under Decree Article 13. Neither states a validity period; the Ministry notice does (Notice Article 1). Notices change often, so check the current one — Notice No. 2026-45 of 22 June 2026.</p>
+<div class="highlight-box">Main-Biz Operation Regulation, Article 12(3): The validity period runs until the day 3 years after the issue date of the certificate. However, for a company selected as Mainbiz through PMS certification, it runs from the issue date until the expiry date of the PMS certification.</div>
+<p>PMS is the productivity management system certification. A company with PMS grade 3 or higher, within 1 year of certification, may be selected on the Korea Productivity Center's review (Notice Articles 2 and 7(4)), and its term then follows the PMS term. Certificates are issued by the regional SMEs and Startups office and can be downloaded from Mainbiz-net and SME 24, in English and Chinese too (Article 12(1), (2) and (4)).</p>
+
+<h2>When to Apply for Extension</h2>
+<p>The management body, the Korea Management Innovation SME Association, must notify the company at least 90 days before expiry (Notice Articles 2 and 15(1)). The company re-enters its data on Mainbiz-net, self-diagnoses and applies; an institution is assigned within 3 days.</p>
+<table><thead><tr><th>Timing</th><th>What happens</th><th>Basis</th></tr></thead><tbody>
+<tr><td>By 90 days before expiry</td><td>Management body notifies the company</td><td>Notice Art. 15(1)</td></tr>
+<tr><td>From 90 days before expiry</td><td>Extension application opens</td><td>Notice Art. 15(1)</td></tr>
+<tr><td>By 35 days before expiry</td><td>Deadline for confirmation before expiry</td><td>Notice Art. 15(1) proviso</td></tr>
+<tr><td>Expiry date</td><td>Existing certificate ends</td><td>Notice Art. 12(3)</td></tr>
+<tr><td>Within 30 days after expiry</td><td>Last day to apply</td><td>Notice Art. 15(1)</td></tr>
+</tbody></table>
+<p>The key row is "35 days before expiry": a company wanting confirmation before expiry must apply by then. The rules allow 21 days from application to registration of the result and 7 days from registration to the renewed certificate (Article 15(3) and (4)), so plan around the 35-day proviso to avoid a gap.</p>
+<p>No rule extends the window if the reminder never arrives. A company selected through PMS generally follows the same procedure, but if it keeps its PMS certification within the deadline, re-selection is processed on the PMS review (Article 15(2)).</p>
+
+<h2>The Renewal Assessment and Pass Mark</h2>
+<p>First selection uses the indicators in Table 1; extension uses the management innovation diagnosis table in Table 2 (Notice Article 6). Table 2 groups items into innovation infrastructure, activities and results, weighted 350, 400 and 250 points in the manufacturing re-selection table, for 1,000 points in total. Recorded results from the past 3 years are the core.</p>
+<table><thead><tr><th>Type (Table 2)</th><th>Score band</th><th>Extension</th></tr></thead><tbody>
+<tr><td>Creative</td><td>900–1,000 points</td><td>Possible (700 or more)</td></tr>
+<tr><td>Growth</td><td>800–899 points</td><td>Possible (700 or more)</td></tr>
+<tr><td>Basic</td><td>700–799 points</td><td>Possible (700 or more)</td></tr>
+<tr><td>Foundation (pre-Mainbiz)</td><td>600–699 points</td><td>Not possible (below 700)</td></tr>
+</tbody></table>
+<div class="highlight-box">Main-Biz Operation Regulation, Article 15(4): Companies eligible for extension are those that scored 700 points or more in the assessment under paragraph (3), and the head of the regional office shall issue a renewed certificate within 7 days from the date the assessment institution registers the result.</div>
+<p>The Korea Credit Guarantee Fund, Korea Technology Finance Corporation or Korea Productivity Center assesses, and may entrust this to the management body (Articles 2 and 15(8)). Results must be registered within 21 days of the application, but time lost through unpaid assessment cost or a postponement requested by the company may be excluded, up to 90 days (Articles 15(3) and 10(2)). Companies below 700 points are notified that the term cannot be extended (Article 15(6)).</p>
+<p>Under Act Article 15(4), applied by Article 15-3(3), applicants bear assessment costs set by notice: KRW 400,000 excluding VAT for the extension assessment (Notice Article 18(1)2, as of 3 October 2026), paid to the institution and subject to change.</p>
+
+<h2>How the New Term Is Counted</h2>
+<p>The new 3-year term starts as follows (Article 15(5)):</p>
+<ul>
+<li><strong>Issued within the existing term</strong> — 3 years from the day after the existing expiry date, so renewing early loses nothing.</li>
+<li><strong>Issued after the term ended</strong> — 3 years from the issue date, leaving a gap with no valid certificate.</li>
+</ul>
+<p>For example, if a term ends on 31 March, a certificate issued before then starts the new term on 1 April; one issued on 20 April starts it on 20 April, with no valid certificate from 1 April to 20 April. Programmes requiring a valid certificate may not recognise Mainbiz status in that gap.</p>
+<p>If you miss the 30-day window, the extension procedure is closed. The notice has no later extension rule, so returning appears to require new selection: a self-diagnosis of 600 points or more, then an on-site assessment against Table 1 with a pass mark of 700 points (Articles 7(1), 7(2) and 11(1)). A renewed certificate keeps the original number with an R prefix (Article 15(7)), and the regional office records the extension on Mainbiz-net (Article 19).</p>
+
+<h2>Changes During the Term — Reissuance and Succession</h2>
+<p>If company details change, the company may apply to the regional office for reissuance using Form 4 (Article 13(1)):</p>
+<table><thead><tr><th>Change</th><th>Action</th><th>Basis</th></tr></thead><tbody>
+<tr><td>Trade name, location or representative (not a sole proprietor's representative)</td><td>Apply for reissuance</td><td>Notice Art. 13(1)1</td></tr>
+<tr><td>Loss or damage of the certificate</td><td>Apply for reissuance</td><td>Notice Art. 13(1)2</td></tr>
+<tr><td>Incorporation, acquisition, merger, consolidation or change of entity type</td><td>Apply for reissuance to succeed to the selection</td><td>Notice Art. 13(1)3, Art. 14</td></tr>
+</tbody></table>
+<p>Reissuance is approved within 7 days (Article 13(2) and (3)). It does not extend the term: the reissued certificate keeps the previous validity period, and in a merger the term of the company with the larger equity share applies (Article 13(4)).</p>
+<p>Succession requires the conditions in Article 14. When a sole proprietorship incorporates, the same business (KSIC sub-class) must continue, main facilities must be contributed in kind with assets and liabilities taken over, and the former owner must be a full-time director and a shareholder (Articles 14 and 5(1)). In a merger by absorption, succession is possible if the surviving company is a Mainbiz; otherwise it needs the same business, at least 50% of sales and a majority of full-time directors from the absorbed company (Articles 14 and 5(2)). Entity type changes and a representative change after family business succession relief are also covered (Article 14, items 5 and 6). There is no reissuance deadline, but an outdated certificate is hard to use.</p>
+
+<h2>Cancellation Grounds and Follow-up Review</h2>
+<p>The Minister may re-assess a selected company against Table 1 where needed (Article 16). The regional office may cancel a selection on the grounds below and must cancel on grounds 1 to 3 (Article 17(1)):</p>
+<table><thead><tr><th>Ground</th><th>Nature</th><th>Basis</th></tr></thead><tbody>
+<tr><td>Voluntary return</td><td>Mandatory</td><td>Notice Art. 17(1)1</td></tr>
+<tr><td>Assessment obtained with false records</td><td>Mandatory</td><td>Notice Art. 17(1)2</td></tr>
+<tr><td>Loss of eligibility under Article 3</td><td>Mandatory</td><td>Notice Art. 17(1)3</td></tr>
+<tr><td>Management not normalised (closure, suspension, financial restrictions, tax arrears)</td><td>Discretionary</td><td>Notice Art. 17(1)4</td></tr>
+<tr><td>Failing criteria after follow-up review</td><td>Discretionary</td><td>Notice Art. 17(1)5</td></tr>
+</tbody></table>
+<p>Under Article 3(2), companies registered for arrears with the Korea Credit Information Services, under a suspension of bill transactions, in bankruptcy, rehabilitation or liquidation (except those duly performing an approved plan), or with a debt ratio of 1,000% or more or full capital impairment at the previous fiscal year-end are not eligible (items 1 to 5). The 22 June 2026 amendment added item 6: within the last 3 years, public listing for unpaid wages, public naming for industrial accidents, a fair trade corrective order, or a subsidy participation ban.</p>
+<p>The management body checks at least 1 time a month whether selected companies fall under a ground and notifies the regional office, which must retrieve the certificate within 15 days of cancellation and publish it on Mainbiz-net (Article 17(2) and (3)).</p>
+<p>The texts are on the National Law Information Center (<a href="https://www.law.go.kr/법령/중소기업기술혁신촉진법" target="_blank" rel="noopener">the Act</a>, <a href="https://www.law.go.kr/행정규칙/경영혁신형중소기업(Main-Biz)제도운영규정" target="_blank" rel="noopener">the Main-Biz Operation Regulation</a>), and applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Is a Mainbiz certificate extended automatically?</p><p class="faq-a">A. No. You must apply (Article 15(1)) and score 700 points or more (Article 15(4)).</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can I still apply after my certificate has expired?</p><p class="faq-a">A. Yes, within 30 days after expiry (Article 15(1)). The new term then runs for 3 years from the issue date under Article 15(5), leaving a gap.</p></div>
+<div class="faq-item"><p class="faq-q">Q. By when must I apply to be renewed before expiry?</p><p class="faq-a">A. At least 35 days before expiry (proviso to Article 15(1)). The new term then starts on the day after the existing expiry date.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does reissuance after a name or representative change give a new 3-year term?</p><p class="faq-a">A. No. Under Article 13(4) the previous term is kept; in a merger the term of the company with the larger equity share applies. Approval comes within 7 days (Article 13(2)).</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if my debt ratio exceeds 1,000% during the term?</p><p class="faq-a">A. Article 3(2)4 bars eligibility at 1,000% or more, and Article 17(1)3 makes loss of eligibility a mandatory cancellation ground.</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>Is your Mainbiz term ending, or have your company details changed?</h3>
+ <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a free consultation</a>
+</div>
+
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Act on the Promotion of Technological Innovation of Small and Medium Enterprises (Act No. 21289, in force 1 July 2026), its Enforcement Decree (Presidential Decree No. 36699, in force 22 September 2026) and Ministry of SMEs and Startups Notice No. 2026-45 (in force 22 June 2026) · Last reviewed 3 October</p>`
+  },
+  {
+    slug: 'mainbiz-renewal-and-validity',
+    locale: 'zh',
+    title: '韩国Mainbiz认证有效期与续期 — 延长申请时间、评价标准与撤销事由',
+    metaTitle: '韩国Mainbiz认证有效期与续期 — 延长申请与撤销事由',
+    metaDescription: '依据韩国中小风险企业部告示，说明Mainbiz（经营创新型中小企业）确认书3年有效期、到期前90日至到期后30日的延长申请、700分评价标准、新有效期计算、变更补发与撤销事由。',
+    category: '企业认证',
+    excerpt: 'Mainbiz确认书自签发日起3年有效。本文依据告示原文整理何时申请延长、续期评价看什么、新有效期如何计算，以及有效期内的变更与撤销事由。',
+    content: `<div class="toc"><p>目录</p><ol><li>Mainbiz确认的法律依据与有效期</li><li>有效期延长的申请时间</li><li>延长评价与合格分数</li><li>续期确认书的新有效期计算</li><li>有效期内的变更 — 补发与承继</li><li>撤销事由与事后管理</li><li>常见问题</li></ol></div>
+<p><strong>韩国Mainbiz（经营创新型中小企业，경영혁신형 중소기업）确认书自签发日起3年有效。</strong>要继续保持，须在到期前90日至到期后30日内申请延长，并在评价中取得700分以上。延长评价使用另行规定的诊断评价表，新有效期的起算日取决于续期确认书的签发时间。</p>
+<p>本文依据《中小企业技术创新促进法》（중소기업 기술혁신 촉진법）、同法施行令及中小风险企业部告示《经营创新型中小企业（Main-Biz）制度运营规定》原文整理。俗称的"续期"在告示中称为"有效期延长"。</p>
+
+<h2>Mainbiz确认的法律依据与有效期</h2>
+<p>该法第2条第4项之2规定，经营创新型中小企业是由长官依第15条之3选定的企业；施行令第13条规定长官公告关于经营创新活动及成果的评价标准并选定优秀企业。法律和施行令都没有有效期数字，有效期由告示规定（告示第1条）。告示修订较频繁，现行版本为2026年6月22日发布的第2026-45号。</p>
+<div class="highlight-box">《Main-Biz制度运营规定》第12条第3款：有效期至确认书签发日起满3年之日为止。但通过PMS认证被选定的企业，自签发日起至PMS认证有效期届满日为止。</div>
+<p>PMS认证3级以上且认证后1年以内的企业，可凭韩国生产性本部的审查结果获选（第2条、第7条第4款），其有效期随PMS认证而定。确认书由总公司所在地的地方中小风险企业厅签发，可在Mainbiz网和中小风险24下载，另有英文版和中文版（第12条第1款、第2款、第4款）。</p>
+
+<h2>有效期延长的申请时间</h2>
+<p>管理机构（社）韩国经营创新中小企业协会须在到期日90日前通知企业（第2条、第15条第1款）。企业在Mainbiz网重新录入资料、完成自我诊断后申请，管理机构在3日内分配评价机构。</p>
+<table><thead><tr><th>时间点</th><th>内容</th><th>依据</th></tr></thead><tbody>
+<tr><td>到期前90日之前</td><td>管理机构通知到期</td><td>告示第15条第1款</td></tr>
+<tr><td>自到期前90日起</td><td>可申请延长</td><td>告示第15条第1款</td></tr>
+<tr><td>到期前35日之前</td><td>希望到期前获得确认的申请期限</td><td>告示第15条第1款但书</td></tr>
+<tr><td>到期日</td><td>原确认书有效期结束</td><td>告示第12条第3款</td></tr>
+<tr><td>到期后30日以内</td><td>延长申请最后期限</td><td>告示第15条第1款</td></tr>
+</tbody></table>
+<p>尤其关键的是"到期前35日"：希望在到期日前取得确认的企业须在此之前申请。从申请到登记评价结果为21日，从登记到续期签发为7日（第15条第3款、第4款）。告示没有"未收到通知可延长期限"的规定，到期日须自行管理。经PMS获选的企业在期限内维持PMS认证的，按PMS审查结果重新选定（第15条第2款）。</p>
+
+<h2>延长评价与合格分数</h2>
+<p>首次选定依附表1评价指标，延长依附表2经营创新诊断评价表（第6条）。附表2分为经营创新基础、活动、成果三个方向，制造业重新选定配分分别为350分、400分、250分，满分1,000分，核心是过去3年的创新成果记录。</p>
+<table><thead><tr><th>类型（附表2）</th><th>分数段</th><th>能否延长</th></tr></thead><tbody>
+<tr><td>创造型</td><td>900分~1,000分</td><td>可以（700分以上）</td></tr>
+<tr><td>成长型</td><td>800分~899分</td><td>可以（700分以上）</td></tr>
+<tr><td>基本型</td><td>700分~799分</td><td>可以（700分以上）</td></tr>
+<tr><td>基础型（预备Mainbiz）</td><td>600分~699分</td><td>不可（未满700分）</td></tr>
+</tbody></table>
+<div class="highlight-box">《Main-Biz制度运营规定》第15条第4款：可延长选定的企业为依第3款评价取得700分以上的企业；地方中小风险企业厅长须自评价机构登记结果之日起7日内续期签发确认书。</div>
+<p>评价由信用保证基金、技术保证基金或韩国生产性本部实施，也可委托管理机构（第2条、第15条第8款）。结果须在申请日起21日内登记；因未缴评价费用或企业要求推迟而产生的期间可不计入，最长90日（第15条第3款、第10条第2款）。未达700分的会收到不能延长的通知（第15条第6款）。</p>
+<p>依第15条之3第3款准用的该法第15条第4款，申请企业负担告示规定的评价费用：延长评价为40万韩元（另加增值税）（告示第18条第1款第2项，以2026年10月3日现行告示为准），缴给评价机构，可能随告示修订而变化。</p>
+
+<h2>续期确认书的新有效期计算</h2>
+<p>新的3年按下列方式起算（第15条第5款）：</p>
+<ul>
+<li><strong>在原有效期内签发</strong> — 自原到期日次日起3年，提早续期不损失剩余期间。</li>
+<li><strong>在原有效期届满后签发</strong> — 自签发日起3年，中间会出现空档。</li>
+</ul>
+<p>例如到期日为3月31日，之前签发的新有效期自4月1日起；4月20日才签发的，自4月20日起，4月1日至4月20日之间没有有效确认书，以确认书有效为条件的支援事业可能不予认可。</p>
+<p>错过到期后30日的，延长程序即不再适用。告示没有之后的延长规定，应理解为须回到新选定程序：自我诊断600分以上后申请现场评价，按附表1评价，合格分数700分（第7条第1款、第2款，第11条第1款）。续期确认书沿用原编号并加R（第15条第7款），由地方厅登记到Mainbiz网（第19条）。</p>
+
+<h2>有效期内的变更 — 补发与承继</h2>
+<p>企业信息变更的，可用附件第4号格式向地方厅申请补发（第13条第1款）：</p>
+<table><thead><tr><th>变更类型</th><th>应办事项</th><th>依据</th></tr></thead><tbody>
+<tr><td>商号、所在地或代表人变更（个人经营者代表人除外）</td><td>申请补发</td><td>告示第13条第1款第1项</td></tr>
+<tr><td>确认书遗失、毁损</td><td>申请补发</td><td>告示第13条第1款第2项</td></tr>
+<tr><td>法人转换、收购合并、整合、组织变更</td><td>为承继选定申请补发</td><td>告示第13条第1款第3项、第14条</td></tr>
+</tbody></table>
+<p>补发在7日内批准（第13条第2款、第3款），但不延长有效期：沿用原有效期，合并时以持股比例较高企业为准（第13条第4款）。个人企业转为法人的，须同时满足同一业种（小类）继续经营、主要设施实物出资并承继资产负债、原代表人任专职董事且为股东（第14条、第5条第1款）。吸收合并时存续企业是Mainbiz即可承继，否则须满足业种相同、销售额占50%以上、专职董事过半等条件（第14条、第5条第2款）。组织变更及家业继承扣除后的代表人变更也可承继（第14条第5项、第6项）。告示未规定补发期限，但信息不符的确认书难以使用。</p>
+
+<h2>撤销事由与事后管理</h2>
+<p>长官认为必要时可按附表1重新评价（第16条）。地方厅可在下列情形撤销选定，第1项至第3项必须撤销（第17条第1款）：</p>
+<table><thead><tr><th>撤销事由</th><th>性质</th><th>依据</th></tr></thead><tbody>
+<tr><td>企业自愿交回</td><td>必须撤销</td><td>告示第17条第1款第1项</td></tr>
+<tr><td>以虚假业绩接受评价</td><td>必须撤销</td><td>告示第17条第1款第2项</td></tr>
+<tr><td>丧失第3条申请资格</td><td>必须撤销</td><td>告示第17条第1款第3项</td></tr>
+<tr><td>停业、停产、金融限制、欠税等致经营未正常化</td><td>可以撤销</td><td>告示第17条第1款第4项</td></tr>
+<tr><td>事后管理结果不符合标准</td><td>可以撤销</td><td>告示第17条第1款第5项</td></tr>
+</tbody></table>
+<p>依第3条第2款，登记欠缴信息、票据停止交易、破产·回生·清算（正常履行回生计划的除外）、上一会计年度末负债比率1,000%以上或完全资本侵蚀的企业无申请资格（第1项至第5项）。2026年6月22日新增第6项：最近3年内被公开为欠薪雇主、被公布产业灾害、因公平交易法令受纠正命令或因补助金法受参与限制。</p>
+<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。原文见<a href="https://www.law.go.kr/법령/중소기업기술혁신촉진법" target="_blank" rel="noopener">中小企业技术创新促进法</a>、<a href="https://www.law.go.kr/행정규칙/경영혁신형중소기업(Main-Biz)제도운영규정" target="_blank" rel="noopener">Main-Biz制度运营规定</a>，申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在免费咨询时准确说明。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 有效期届满后会自动延长吗？</p><p class="faq-a">A. 不会。须依第15条第1款申请，并依第15条第4款取得700分以上。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 到期后还能申请吗？</p><p class="faq-a">A. 到期后30日内可以（第15条第1款），但依第15条第5款新有效期自签发日起3年，会出现空档。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 想在到期前拿到续期确认书，最晚何时申请？</p><p class="faq-a">A. 到期前35日之前（第15条第1款但书），新有效期自原到期日次日起3年。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 变更商号或代表人后补发，有效期会重新计算3年吗？</p><p class="faq-a">A. 不会。依第13条第4款沿用原有效期，合并时以持股比例较高企业为准；补发在7日内批准（第13条第2款）。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 有效期内负债比率超过1,000%会怎样？</p><p class="faq-a">A. 第3条第2款第4项将1,000%以上列为无申请资格，第17条第1款第3项将丧失资格列为必须撤销的事由。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>Mainbiz即将到期或企业信息有变更？</h3>
+ <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请免费咨询</a>
+</div>
+
+<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《中小企业技术创新促进法》（法律第21289号，2026年7月1日施行）、同法施行令（总统令第36699号，2026年9月22日施行）及中小风险企业部告示第2026-45号（2026年6月22日施行）原文撰写 · 最终审阅日 10月3日</p>`
+  },
+  {
+    slug: 'mainbiz-renewal-and-validity',
+    locale: 'ja',
+    title: '韓国メインビズ認証の有効期間と更新 — 延長申請の時期・評価基準・選定取消事由',
+    metaTitle: '韓国メインビズ認証の有効期間と更新 — 延長申請と取消事由',
+    metaDescription: '韓国の中小ベンチャー企業部告示に基づき、メインビズ（経営革新型中小企業）確認書の有効期間3年、満了90日前から満了後30日までの延長申請、700点の評価基準、新しい有効期間の計算、変更時の再発給と選定取消事由を整理しました。',
+    category: '企業認証',
+    excerpt: 'メインビズ確認書は発給日から3年で効力が切れます。延長申請の時期、更新評価の内容、新しい有効期間の数え方、有効期間中の変更と選定取消事由を告示の原文に基づき整理しました。',
+    content: `<div class="toc"><p>目次</p><ol><li>メインビズ確認の法的根拠と有効期間</li><li>有効期間延長の申請時期</li><li>延長評価 — 経営革新診断評価表と基準点</li><li>更新確認書の新しい有効期間の計算</li><li>有効期間中の変更 — 再発給と選定の承継</li><li>選定取消事由と事後管理</li><li>よくあるご質問</li></ol></div>
+<p><strong>韓国のメインビズ（経営革新型中小企業、경영혁신형 중소기업）確認書の有効期間は、発給日から3年です。</strong>維持するには、満了の90日前から満了後30日以内に有効期間の延長を申請し、評価で700点以上を得る必要があります。延長評価は別の経営革新診断評価表で行われ、更新確認書をいつ受け取るかで新しい有効期間の始期が変わります。</p>
+<p>本稿は「中小企業技術革新促進法」（중소기업 기술혁신 촉진법）、同法施行令、中小ベンチャー企業部告示「経営革新型中小企業（Main-Biz）制度運営規定」の原文に基づき、有効期間・延長・変更・取消に絞って整理しました。一般に「更新」と呼ばれる手続は、告示上は「有効期間の延長」です。</p>
+
+<h2>メインビズ確認の法的根拠と有効期間</h2>
+<p>同法第2条第4号の2は、経営革新型中小企業を第15条の3により長官が選定した企業と定義し、施行令第13条は長官が経営革新活動と成果に関する評価基準を公告して優秀な企業を選定するよう定めています。法律にも施行令にも有効期間の数字はなく、告示が定めています（告示第1条）。告示は改正が多いため、現行版（2026年6月22日発令の第2026-45号）を毎回確認しましょう。</p>
+<div class="highlight-box">「Main-Biz制度運営規定」第12条第3項：有効期間は、確認書の発給日から3年となる日までとする。ただし、PMS認証を通じてメインビズに選定された企業の場合は、確認書の発給日からPMS認証の有効期間満了日までとする。</div>
+<p>PMS認証（産業発展法に基づく生産性経営体制認証）3等級以上で認証後1年以内の企業は、韓国生産性本部の審査結果で選定を受けられ（第2条、第7条第4項）、その有効期間はPMS認証の期間に連動します。確認書は本社所在地の地方中小ベンチャー企業庁が発給し、メインビズネットと中小ベンチャー24で取得でき、英文・中文版もあります（第12条第1項・第2項・第4項）。</p>
+
+<h2>有効期間延長の申請時期</h2>
+<p>管理機関である（社）韓国経営革新中小企業協会は、満了日の90日前までに企業へ通知しなければなりません（第2条、第15条第1項）。企業はメインビズネットで一般現況・財務状態を再入力し、自己診断を行って申請します。管理機関は3日以内に評価機関を割り当てます。</p>
+<table><thead><tr><th>時点</th><th>内容</th><th>根拠</th></tr></thead><tbody>
+<tr><td>満了90日前まで</td><td>管理機関が満了を通知</td><td>告示第15条第1項</td></tr>
+<tr><td>満了90日前から</td><td>延長申請が可能</td><td>告示第15条第1項</td></tr>
+<tr><td>満了35日前まで</td><td>満了日前に確認を受けたい企業の申請期限</td><td>告示第15条第1項ただし書</td></tr>
+<tr><td>満了日</td><td>既存確認書の有効期間が終了</td><td>告示第12条第3項</td></tr>
+<tr><td>満了後30日以内</td><td>延長申請の最終期限</td><td>告示第15条第1項</td></tr>
+</tbody></table>
+<p>特に重要なのは「満了35日前まで」です。満了日前に確認を受けたい企業はこの日までに申請しなければなりません。申請から評価結果の登録まで21日、登録から更新発給まで7日が規定の処理期間です（第15条第3項・第4項）。通知が届かなかった場合に期間を延ばす規定はないため、満了日は自社で管理してください。PMSで選定された企業が期限内にPMS認証を維持していれば、PMS審査結果による再選定として処理されます（第15条第2項）。</p>
+
+<h2>延長評価 — 経営革新診断評価表と基準点</h2>
+<p>最初の選定は別表1の評価指標、延長は別表2の経営革新診断評価表で評価します（第6条）。別表2は経営革新インフラ・活動・成果の三つの戦略方向で構成され、製造業の再選定配点表ではそれぞれ350点、400点、250点、満点1,000点です。過去3年間の革新活動と、その成果が数字で残っているかが評価の中心です。</p>
+<table><thead><tr><th>類型（別表2）</th><th>点数帯</th><th>延長の可否</th></tr></thead><tbody>
+<tr><td>創造型</td><td>900点〜1,000点</td><td>可（700点以上）</td></tr>
+<tr><td>成長型</td><td>800点〜899点</td><td>可（700点以上）</td></tr>
+<tr><td>基本型</td><td>700点〜799点</td><td>可（700点以上）</td></tr>
+<tr><td>基礎型（予備メインビズ企業）</td><td>600点〜699点</td><td>不可（700点未満）</td></tr>
+</tbody></table>
+<div class="highlight-box">「Main-Biz制度運営規定」第15条第4項：メインビズ選定を延長することができる対象企業は、第3項による評価結果700点以上の点数を獲得した企業とし、地方中小ベンチャー企業庁長は、評価機関が評価結果を登録した日から7日以内に確認書を更新発給しなければならない。</div>
+<p>評価は信用保証基金、技術保証基金、韓国生産性本部のいずれかが行い、管理機関に委託することもできます（第2条、第15条第8項）。評価結果は申請日から21日以内に登録されますが、評価費用の未納や企業の延期要請で生じた期間は最大90日まで処理期間から除くことができます（第15条第3項、第10条第2項）。700点未満の場合は延長できない旨が通知されます（第15条第6項）。</p>
+<p>第15条の3第3項が準用する同法第15条第4項により、企業は告示で定める評価費用を負担します。延長のための診断評価は40万ウォン（付加価値税別）です（告示第18条第1項第2号、2026年10月3日時点の現行告示基準）。評価機関に納める法定の評価費用で、告示改正により変わることがあります。</p>
+
+<h2>更新確認書の新しい有効期間の計算</h2>
+<p>延長後の3年は次のように起算されます（第15条第5項）。</p>
+<ul>
+<li><strong>既存の有効期間内に発給された場合</strong> — 既存の満了日の翌日から3年。早めに更新しても残りの期間は失われません。</li>
+<li><strong>有効期間が終わった後に発給された場合</strong> — 発給日から3年。満了日と発給日の間に空白が生じます。</li>
+</ul>
+<p>たとえば満了日が3月31日なら、それ以前の発給では4月1日から3年、4月20日の発給では4月20日から3年となり、4月1日から4月20日までは有効な確認書がありません。確認書の有効性を要件とする支援事業や入札の加点では、この期間にメインビズを主張しにくくなります。</p>
+<p>満了後30日を過ぎると延長手続は利用できません。それ以降の延長規定はないため、自己診断600点以上の後に現場評価を受ける新規選定手続に戻る必要があると読めます（別表1で評価、基準点700点。第7条第1項・第2項、第11条第1項）。更新確認書は最初の番号の前にRを付けて新規指定と区別し（第15条第7項）、延長の事実は地方庁がメインビズネットに登録します（第19条）。</p>
+
+<h2>有効期間中の変更 — 再発給と選定の承継</h2>
+<p>会社の情報が変わった場合は、別紙第4号様式で地方庁に再発給を申請できます（第13条第1項）。</p>
+<table><thead><tr><th>変更の類型</th><th>すべきこと</th><th>根拠</th></tr></thead><tbody>
+<tr><td>商号・所在地・代表者の変更（個人事業者の代表者変更を除く）</td><td>再発給申請</td><td>告示第13条第1項第1号</td></tr>
+<tr><td>確認書の紛失・毀損</td><td>再発給申請</td><td>告示第13条第1項第2号</td></tr>
+<tr><td>法人転換、買収・合併、統合、組織変更</td><td>選定承継のための再発給申請</td><td>告示第13条第1項第3号、第14条</td></tr>
+</tbody></table>
+<p>再発給は申請から7日以内に承認されますが（第13条第2項・第3項）、有効期間は延びません。従前の有効期間のままで、合併では持分比率の高い企業の有効期間によります（第13条第4項）。</p>
+<p>承継には第14条の要件が必要です。個人企業の法人転換では、同一業種（韓国標準産業分類の小分類）の継続、主要生産施設の現物出資と資産・負債の承継、元代表者の常勤取締役としての経営参加、元代表者が株主であることをすべて満たす必要があります（第14条、第5条第1項）。吸収合併は存続企業がメインビズなら承継でき、そうでなければ業種の同一性、売上比率50%以上、常勤取締役の過半数参加が必要です（第14条、第5条第2項）。組織変更と家業相続控除後の代表者変更も承継事由です（第14条第5号・第6号）。再発給の申請期限は告示にありませんが、実態と異なる確認書は使いにくいため早めの整理をお勧めします。</p>
+
+<h2>選定取消事由と事後管理</h2>
+<p>長官は必要に応じて別表1の指標で運営状況を評価できます（第16条）。地方庁は次の事由で選定を取り消すことができ、第1号から第3号までは必ず取り消さなければなりません（第17条第1項）。</p>
+<table><thead><tr><th>取消事由</th><th>性格</th><th>根拠</th></tr></thead><tbody>
+<tr><td>自ら返納した場合</td><td>必要的取消</td><td>告示第17条第1項第1号</td></tr>
+<tr><td>虚偽の実績で評価を受けた場合</td><td>必要的取消</td><td>告示第17条第1項第2号</td></tr>
+<tr><td>第3条の申請資格を喪失した場合</td><td>必要的取消</td><td>告示第17条第1項第3号</td></tr>
+<tr><td>休業・廃業、操業中断、金融規制、国税滞納等で経営が正常化されない場合</td><td>裁量的取消</td><td>告示第17条第1項第4号</td></tr>
+<tr><td>事後管理の結果、選定基準に適合しなくなった場合</td><td>裁量的取消</td><td>告示第17条第1項第5号</td></tr>
+</tbody></table>
+<p>第3条第2項により、滞納情報等に登録中の企業、手形取引停止処分を受けた企業、破産・回生・清算中の企業（回生計画を正常に履行中の企業を除く）、直前事業年度末の負債比率1,000%以上または完全資本蚕食の企業は申請資格がありません（第1号〜第5号）。2026年6月22日の改正で第6号が新設され、最近3年以内の賃金未払事業主の名簿公開、産業災害の公表、公正取引関連法令違反による是正命令、補助金法違反による参加制限も対象になりました。</p>
+<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。法令原文は<a href="https://www.law.go.kr/법령/중소기업기술혁신촉진법" target="_blank" rel="noopener">中小企業技術革新促進法</a>、<a href="https://www.law.go.kr/행정규칙/경영혁신형중소기업(Main-Biz)제도운영규정" target="_blank" rel="noopener">Main-Biz制度運営規定</a>で、申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+
+<div class="faq-section"><h2>よくあるご質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 有効期間が切れると自動的に延長されますか。</p><p class="faq-a">A. いいえ。第15条第1項により申請が必要で、第15条第4項により700点以上を得てはじめて更新発給されます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 有効期間が過ぎていても延長申請はできますか。</p><p class="faq-a">A. 満了後30日以内なら可能です（第15条第1項）。ただし第15条第5項により新しい有効期間は発給日から3年となり、空白期間が生じます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 満了日前に更新確認書を受け取るには、いつまでに申請すればよいですか。</p><p class="faq-a">A. 満了35日前までです（第15条第1項ただし書）。この場合、新しい有効期間は既存の満了日の翌日から3年です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 商号や代表者の変更で再発給を受けると、有効期間も新たに3年になりますか。</p><p class="faq-a">A. いいえ。第13条第4項により従前の有効期間のままで、合併では持分比率の高い企業の有効期間によります。承認は7日以内です（第13条第2項）。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 有効期間中に負債比率が1,000%を超えるとどうなりますか。</p><p class="faq-a">A. 第3条第2項第4号は1,000%以上を申請資格がない場合とし、第17条第1項第3号は資格喪失を必ず取り消すべき事由としています。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
+ <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">無料相談を申し込む</a>
+</div>
+
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「中小企業技術革新促進法」（法律第21289号、2026年7月1日施行）、同法施行令（大統領令第36699号、2026年9月22日施行）および中小ベンチャー企業部告示第2026-45号（2026年6月22日施行）の原文に基づき作成・最終確認日 10月3日</p>`
   }
 ]
 
