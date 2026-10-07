@@ -17,3 +17,4 @@ elif [ $rc -ne 0 ]; then
   exit $rc
 fi
 node scripts/seo-gate.mjs
+node scripts/url-preserve-gate.mjs
