@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
   'https://vjkjavgmqxdrwtezryzd.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZqa2phdmdtcXhkcnd0ZXpyeXpkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU0NzI5NTcsImV4cCI6MjA5MTA0ODk1N30.Sv5oM6goc1i2_1SXIw6I5IyWBDdMpTuw-MecwCtlihQ'
+  'REDACTED_IK_KEY_CLEAN_2x261xx7_anon_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 )
 
 const posts = [
