@@ -202,7 +202,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
             <div className="fade-in delay-3 about-qr-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               {[
                 { src: '/images/qr/kakao.jpg', label: 'KakaoTalk' },
-                { src: '/images/qr/line-20261007-300.webp', label: 'LINE' },
+                { src: '/images/qr/line.jpg', label: 'LINE' },
                 { src: '/images/qr/wechat.jpg', label: 'WeChat' },
                 { src: '/images/qr/whatsapp.jpg', label: 'WhatsApp' },
               ].map((qr) => (

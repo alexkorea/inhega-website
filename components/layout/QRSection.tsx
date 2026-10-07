@@ -26,7 +26,7 @@ const sectionData: Record<Locale, { title: string; subtitle: string }> = {
 const qrItems = [
   { src: '/images/qr/kakao-20260923', label: 'KakaoTalk' },
   { src: '/images/qr/wechat-20260923', label: 'WeChat' },
-  { src: '/images/qr/line-20261007', label: 'LINE' },
+  { src: '/images/qr/line-20260923', label: 'LINE' },
   { src: '/images/qr/whatsapp-20260923', label: 'WhatsApp' },
 ]
 
