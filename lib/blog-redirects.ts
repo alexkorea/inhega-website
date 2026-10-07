@@ -104,6 +104,7 @@ export const BLOG_REDIRECTS: ReadonlyArray<{ source: string; destination: string
   { source: '/blog/small-food-manufacturing-license', destination: '/blog/food-manufacturing-license-guide' },
   { source: '/blog/venture-certification-requirements-application', destination: '/blog/venture-startup-confirmation' },
   { source: '/blog/women-owned-business-certification-guide', destination: '/blog/women-enterprise-certification-guide' },
+  { source: '/women-enterprise-certification-guide', destination: '/blog/women-enterprise-certification-guide' },  // IK-404 정정(맥7): /blog 없는 루트 경로
 
   // ── SEO-FIX-1007: 8/16~9/5 라이브였던 옛 빌드(www canonical, 사이트맵 141)의 고유 slug ──
   // 9/6 복구 뒤 404 로 남은 72건 중 같은 주제의 라이브 200 페이지가 있는 53건(+서비스 1건 아래).
