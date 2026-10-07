@@ -23,14 +23,13 @@ type FormData = {
   name: string
   phone: string
   email: string
-  agreePrivacy: boolean
 }
 
 export default function QuoteForm() {
   const [step, setStep] = useState(0)
   const [form, setForm] = useState<FormData>({
     service: '', businessType: '', timeline: '', details: '',
-    name: '', phone: '', email: '', agreePrivacy: false,
+    name: '', phone: '', email: '',
   })
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
 
@@ -223,12 +222,10 @@ export default function QuoteForm() {
                     </div>
                   ))}
                 </div>
-                <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', cursor: 'pointer', fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>
-                  <input type="checkbox" checked={form.agreePrivacy} onChange={e => update('agreePrivacy', e.target.checked)} style={{ marginTop: '2px' }} />
-                  <span>
-                    <Link href="/privacy" style={{ color: 'var(--burgundy)', fontWeight: 600 }}>개인정보처리방침</Link>에 동의하며 상담 연락을 받는 것에 동의합니다. (필수)
-                  </span>
-                </label>
+                {/* CONSENT-OPT-ALL(2026-10-07): 동의 체크 필수 폐지, 안내문만 */}
+                <p data-privacy-notice style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>
+                  문의 답변을 위해 이름·연락처를 수집하며 <Link href="/privacy" style={{ color: 'var(--burgundy)', fontWeight: 600 }}>개인정보처리방침</Link>에 따라 처리합니다.
+                </p>
                 {status === 'error' && <p className="form-error" style={{ marginTop: '1rem' }}>오류가 발생했습니다. 다시 시도해주세요.</p>}
               </div>
             )}
@@ -254,7 +251,7 @@ export default function QuoteForm() {
                   <button
                     onClick={handleSubmit}
                     className="btn btn-primary btn-lg"
-                    disabled={!form.agreePrivacy || !form.name || !form.phone || status === 'loading'}
+                    disabled={!form.name || !form.phone || status === 'loading'}
                   >
                     {status === 'loading' ? '제출 중...' : '견적 문의 제출'}
                   </button>
