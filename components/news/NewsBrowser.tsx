@@ -14,7 +14,6 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import type { NewsCard } from '@/lib/news-data'
-import { SOURCE_LABELS } from '@/lib/news-data'
 import { formatNewsDate, type NewsLocale, type NewsStrings } from '@/lib/i18n/news-i18n'
 import styles from '@/app/news.module.css'
 
@@ -235,10 +234,6 @@ export default function NewsBrowser({
                         <span className={styles.metaKey}>{t.relevance}</span>{it.relevance}/100
                       </p>
                     )}
-                    <p className={styles.detailRow}>
-                      <span className={styles.metaKey}>{t.source}</span>
-                      {SOURCE_LABELS[it.source_key] ?? it.source_key ?? ''}
-                    </p>
                   </div>
                 )}
 
@@ -259,15 +254,7 @@ export default function NewsBrowser({
                   <Link className={styles.ctaBtn} href={contactHref}>{t.cta}</Link>
                 </div>
 
-                {/* QA01-FIX2(맥7 DWELL-RULE): 원문은 버튼이 아니라 항목 끝 작은 '출처' 줄로 */}
-                {it.url && (
-                  <p className={styles.sourceLine}>
-                    {t.source}{' '}
-                    <a href={it.url} target="_blank" rel="nofollow noopener noreferrer">
-                      {SOURCE_LABELS[it.source_key] ?? it.source_key ?? t.original} · {t.original}
-                    </a>
-                  </p>
-                )}
+                {/* WQA-1007-FIX: 허브(목록)에는 출처 표기·외부 원문 링크를 싣지 않는다(보스 규칙·DWELL-RULE). 원문 링크는 기사 페이지 맨 끝 1곳. */}
               </article>
             )
           })}

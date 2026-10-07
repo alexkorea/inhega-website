@@ -5,7 +5,18 @@
 // 기존 24종(lib/services-catalog.ts)과는 별개다 — 메뉴·폼·"N종" 카운트에는 들어가지 않고
 // /services/[slug] 라우트와 사이트맵·서비스 목록 하단·관련 서비스 역링크로만 노출된다.
 // 서버 전용: 'use client' 컴포넌트에서 import 하면 원고 전체가 번들에 실린다.
-import { INDUSTRY_PAGES } from './industry-pages.generated'
+import { INDUSTRY_PAGES as RAW_PAGES } from './industry-pages.generated'
+
+// WQA-1007-FIX(보스 규칙): 화면에는 '(법령 기준일 …, law.go.kr)' 같은 기준일·출처 괄호를 싣지 않는다.
+// 원고 JSON 에는 그대로 두고(내부 근거) 여기서 한 번만 걸러 모든 업종 페이지·목록에 같이 적용한다.
+const ASOF_RE = /\s*[(（](?:법령 기준일|法令基準日|法令依据时间|law as of|Law status as of)[^()（）]*?(?:[(（][^()（）]*[)）][^()（）]*?)?[)）]/g
+function stripAsOf<T>(v: T): T {
+  if (typeof v === 'string') return v.replace(ASOF_RE, '') as T
+  if (Array.isArray(v)) return v.map(stripAsOf) as T
+  if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, stripAsOf(x)])) as T
+  return v
+}
+const INDUSTRY_PAGES = RAW_PAGES.map(stripAsOf)
 
 export type IndustryLocale = 'ko' | 'en' | 'zh' | 'ja'
 

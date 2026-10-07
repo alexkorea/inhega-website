@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
+import ArticleBody from '@/components/blog/ArticleBody'
 import { publisherLogo } from '@/lib/org-jsonld'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
@@ -140,11 +141,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     <img src={ogThumb('ko', post.slug || post.id)} alt={post.title} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
-                <div
-                  className="blog-content"
-                  dangerouslySetInnerHTML={{ __html: post.content }}
-                  style={{ lineHeight: 1.8, color: 'var(--charcoal)', fontSize: '1rem' }}
-                />
+                <ArticleBody html={post.content} locale="ko" />
               </article>
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>

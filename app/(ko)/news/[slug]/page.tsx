@@ -190,8 +190,6 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
 
             <div className={styles.dates}>
               {published && <span>공개일 {formatNewsDate(published, 'ko')}</span>}
-              {modified && <span>수정일 {formatNewsDate(isoDay(modified) || published, 'ko')}</span>}
-              {sourceLabel && <span>출처 {sourceLabel}</span>}
             </div>
           </div>
         </div>
@@ -212,7 +210,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
             </article>
 
             <div className={styles.block}>
-              <h2 className={styles.blockTitle}>원문 및 출처</h2>
+              <h2 className={styles.blockTitle}>규제 개요</h2>
               <div className={styles.metaList}>
                 {item.country && <span><span className={styles.metaKey}>국가</span>{item.country}</span>}
                 {sourceLabel && <span><span className={styles.metaKey}>발표 기관</span>{sourceLabel}</span>}
@@ -221,19 +219,6 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
                   <span className={styles.metaKey}>의견·시행 기한</span>
                   {item.deadline ? formatNewsDate(item.deadline, 'ko') : '미정'}
                 </span>
-                {item.url && (
-                  <span>
-                    <span className={styles.metaKey}>원문</span>
-                    <a
-                      className={styles.sourceLink}
-                      href={item.url}
-                      target="_blank"
-                      rel="nofollow noopener noreferrer"
-                    >
-                      원문 문서 열기 (새 창)
-                    </a>
-                  </span>
-                )}
               </div>
             </div>
 
@@ -280,6 +265,16 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
               {a.disclaimer ||
                 '이 기사는 각국 정부·공공기관이 공개한 공식 자료(관보·통보문·입법예고)를 바탕으로 자동 생성한 해설입니다. 원문 문장을 그대로 옮기지 않으며, 실제 적용 여부와 세부 요건은 반드시 원문과 담당 기관 공고로 확인하시기 바랍니다.'}
             </p>
+
+            {/* WQA-1007-FIX: 외부 원문 링크는 상세 맨 끝 1곳(DWELL-RULE) */}
+            {item.url && (
+              <p className={styles.notice}>
+                <strong className={styles.noticeTitle}>공식 원문에서 확인하기</strong>
+                <a className={styles.sourceLink} href={item.url} target="_blank" rel="nofollow noopener noreferrer">
+                  {sourceLabel ? `${sourceLabel} 원문 문서 열기 (새 창)` : '원문 문서 열기 (새 창)'}
+                </a>
+              </p>
+            )}
 
             <div className={styles.backRow}>
               <Link href="/news" className={styles.backLink}>← 인허가 뉴스 목록으로</Link>

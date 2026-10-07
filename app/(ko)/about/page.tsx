@@ -90,7 +90,7 @@ export default function AboutPage() {
             <div className="fade-in delay-3" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               {[
                 { src: '/images/qr/kakao.jpg', label: '카카오톡' },
-                { src: '/images/qr/line.jpg', label: '라인' },
+                { src: '/images/qr/line-20261007-300.webp', label: '라인' },
                 { src: '/images/qr/wechat.jpg', label: '위챗' },
                 { src: '/images/qr/whatsapp.jpg', label: '왓츠앱' },
               ].map((qr) => (

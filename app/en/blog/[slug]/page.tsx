@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import ArticleBody from '@/components/blog/ArticleBody'
 import Link from 'next/link'
 import { ContactLine } from '@/components/ui/ContactLineIcon'
 import { getServiceMenuCount } from '@/lib/services-menu'
@@ -132,11 +133,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                   </div>
                 )}
                 {post ? (
-                  <div
-                    className="blog-content"
-                    dangerouslySetInnerHTML={{ __html: post.content }}
-                    style={{ lineHeight: 1.8, color: 'var(--charcoal)', fontSize: '1rem' }}
-                  />
+                  <ArticleBody html={post.content} locale="en" />
                 ) : (
                   <div style={{ padding: '3rem', textAlign: 'center', color: 'var(--slate)' }}>
                     <p style={{ fontSize: '1.125rem', marginBottom: '1rem' }}>English translation coming soon.</p>

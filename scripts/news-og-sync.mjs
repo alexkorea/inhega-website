@@ -66,7 +66,7 @@ console.log(`[news-og] ${todo.length}장 생성 시작 — manifest ${MANIFEST}`
 
 execFileSync(
   process.execPath,
-  [join(PIPELINE, 'generate.mjs'), '--manifest', MANIFEST, '--outdir', OG_DIR, '--index', OG_INDEX],
+  [join(PIPELINE, 'generate.mjs'), '--manifest', MANIFEST, '--outdir', OG_DIR, '--index', OG_INDEX, ...(process.env.OG_EXCLUDE ? ['--exclude', process.env.OG_EXCLUDE] : [])],
   { stdio: 'inherit', cwd: PIPELINE }
 )
 
