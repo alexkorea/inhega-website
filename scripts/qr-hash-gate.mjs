@@ -9,15 +9,16 @@
  *  2) 소스(src_dirs)에서 참조하는 qr/ 경로가 전부 목록 안의 파일이다(새 파일명으로 갈아끼우기 차단)
  *
  * 원본을 보스가 새로 줬을 때만 목록을 고친다. 고칠 때는 맥7 지시 번호를 note 에 남긴다.
- *   node scripts/qr-hash-gate.mjs
+ *   node scripts/qr-hash-gate.mjs [사이트루트] [목록json]   (인자 없으면 이 파일의 ../ 와 ../scripts/qr-hashes.json)
+ *  files 에는 dirs 밖 파일(예: 블로그 본문 속 QR)도 넣을 수 있다 — 바이트만 검사한다.
  */
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { join, dirname, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const cfg = JSON.parse(readFileSync(join(ROOT, 'scripts/qr-hashes.json'), 'utf8'))
+const ROOT = process.argv[2] || join(dirname(fileURLToPath(import.meta.url)), '..')
+const cfg = JSON.parse(readFileSync(process.argv[3] || join(ROOT, 'scripts/qr-hashes.json'), 'utf8'))
 const IMG = /\.(jpe?g|png|webp|gif|svg|avif)$/i
 const errors = []
 const sha = (p) => createHash('sha256').update(readFileSync(p)).digest('hex')
@@ -44,7 +45,13 @@ for (const dir of cfg.dirs) {
     else if (sha(p) !== want) errors.push(`QR 바이트 변경: ${rel} (원본 sha256 ${want.slice(0, 12)}…, 지금 ${sha(p).slice(0, 12)}…)`)
   }
 }
-for (const rel of Object.keys(cfg.files)) if (!seen.has(rel)) errors.push(`QR 원본 사라짐: ${rel}`)
+for (const [rel, want] of Object.entries(cfg.files)) {
+  if (seen.has(rel)) continue
+  const p = join(ROOT, rel)
+  if (!existsSync(p)) errors.push(`QR 원본 사라짐: ${rel}`)
+  else if (sha(p) !== want) errors.push(`QR 바이트 변경: ${rel} (원본 sha256 ${want.slice(0, 12)}…, 지금 ${sha(p).slice(0, 12)}…)`)
+  seen.add(rel)
+}
 
 // 참조 검사 — 문자열 속 .../qr/<이름>.<확장자> 또는 확장자 없는 base(…/qr/kakao-20260923)
 const names = new Set(Object.keys(cfg.files).map((r) => r.split('/').pop()))
