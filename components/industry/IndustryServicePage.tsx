@@ -7,6 +7,8 @@ import Link from 'next/link'
 import { Flag } from '@/components/ui/LangFlags'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
+import LawRefs from '@/components/ui/LawRefs'
+import { pullLawRefs, LAW_REFS_HEADING, LAW_REFS_INLINE_LABEL } from '@/lib/law-refs'
 import {
   getIndustryLocales,
   type IndustryLocale,
@@ -93,11 +95,22 @@ export function industryMetadata(page: IndustryPage): Metadata {
   }
 }
 
-/** 원고 상담 문장 끝의 경로(/contact 등)만 링크로 바꾼다 — 문자열은 그대로. */
-function CtaText({ text }: { text: string }) {
-  const m = text.match(/^(.*?)(\/(?:[a-z]{2}\/)?contact)$/)
-  if (!m) return <>{text}</>
-  return <>{m[1]}<Link href={m[2]}>{m[2]}</Link></>
+// BEYE-1007-FIX #14: 원고 상담 문장 끝 '상담 문의: /contact' 의 날 경로를 화면에 싣지 않고 '상담 문의하기' 버튼으로 바꾼다.
+const CTA_BUTTON: Record<IndustryLocale, string> = {
+  ko: '상담 문의하기',
+  en: 'Contact us',
+  zh: '立即咨询',
+  ja: 'お問い合わせ',
+}
+function CtaText({ text, lang }: { text: string; lang: IndustryLocale }) {
+  const m = text.match(/^(.*?)\s*(?:상담 문의|Contact|咨询|お問い合わせ)\s*[:：]\s*(\/(?:[a-z]{2}\/)?contact)$/)
+  if (!m) return <p>{text}</p>
+  return (
+    <>
+      <p>{m[1]}</p>
+      <p><Link href={m[2]} className="btn btn-primary">{CTA_BUTTON[lang]}</Link></p>
+    </>
+  )
 }
 
 export default function IndustryServicePage({ page }: { page: IndustryPage }) {
@@ -106,6 +119,13 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
   const url = pageUrl(lang, slug)
   const otherLangs = LANG_LINKS.filter((x) => x.l !== lang && getIndustryLocales(slug).includes(x.l))
   const photo = industryPhotoMeta(slug, lang, page.h1)
+  // #12 본문·FAQ 괄호 조문은 맨 끝 '근거 법령' 접기로(ko 원고만 해당 — 다른 언어 원고에는 이 형식이 없다)
+  const refs: string[] = []
+  const pull = (t: string) => (lang === 'ko' ? pullLawRefs(t, refs) : t)
+  const lead = pull(page.lead)
+  const summary = page.summary.map(pull)
+  const sections = page.sections.map((s) => ({ h2: s.h2, body: pull(s.body) }))
+  const faqs = page.faq.map((f) => ({ q: pull(f.q), a: pull(f.a) }))
 
   const serviceJsonLd = {
     '@context': 'https://schema.org',
@@ -125,7 +145,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: page.faq.map((f) => ({
+    mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -164,7 +184,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
               {page.h1}
             </h1>
             <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.88)', maxWidth: '60ch', lineHeight: 1.8 }}>
-              {page.lead}
+              {lead}
             </p>
             <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <Link href={ui.heroPrimary.href} className="btn btn-primary btn-lg">{ui.heroPrimary.label}</Link>
@@ -182,10 +202,10 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                   <div className="svc-highlight">
                     <p style={{ fontWeight: 700, marginBottom: '0.5rem' }}>{page.summaryLabel}</p>
                     <ul style={{ margin: '0 0 0 1.25rem' }}>
-                      {page.summary.map((s) => <li key={s}>{s}</li>)}
+                      {summary.map((s) => <li key={s}>{s}</li>)}
                     </ul>
                   </div>
-                  {page.sections.map((s) => (
+                  {sections.map((s) => (
                     <div key={s.h2}>
                       <h2>{s.h2}</h2>
                       {s.body.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>)}
@@ -201,7 +221,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                     <span className="accent-line" style={{ marginTop: '0.75rem' }} />
                   </div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                    {page.faq.map((faq) => (
+                    {faqs.map((faq) => (
                       <div key={faq.q} style={{ background: 'var(--white)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
                         <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.625rem' }}>Q. {faq.q}</p>
                         <p style={{ fontSize: '0.9rem', color: 'var(--slate)', lineHeight: 1.7 }}>A. {faq.a}</p>
@@ -210,15 +230,8 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                   </div>
                 </section>
 
-                {/* 공식 기준 인용 · 관련 페이지 · 상담 안내 */}
+                {/* 관련 페이지 · 상담 안내 — 공식 기준 인용은 맨 끝 '근거 법령' 접기로(#12) */}
                 <section className="svc-overview-content">
-                  <h2>{page.citationsHeading}</h2>
-                  {page.citations.map((c) => (
-                    <blockquote key={c.text} style={{ borderLeft: '4px solid var(--navy)', background: 'var(--white)', borderRadius: '4px', padding: '1rem 1.25rem', margin: '0 0 1rem' }}>
-                      <p style={{ marginBottom: '0.375rem' }}>{c.text}</p>
-                      <p style={{ marginBottom: 0, fontSize: '0.8125rem', color: 'var(--slate)' }}>— {c.source}</p>
-                    </blockquote>
-                  ))}
                   <h2>{page.relatedHeading}</h2>
                   <ul>
                     {page.related.map((r) => (
@@ -226,8 +239,9 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                     ))}
                   </ul>
                   <h2>{page.ctaHeading}</h2>
-                  <p><CtaText text={page.cta} /></p>
+                  <CtaText text={page.cta} lang={lang} />
                 </section>
+                <LawRefs heading={LAW_REFS_HEADING[lang]} citations={page.citations} refs={refs} refsLabel={lang === 'ko' ? LAW_REFS_INLINE_LABEL : undefined} />
               </div>
 
               {/* Sidebar — 기존 서비스 페이지 CTA 카드 그대로 */}

@@ -105,9 +105,9 @@ export default function HomePage() {
               <em>전문가에게</em> 맡기세요
               <span style={{ display: 'block', fontSize: '0.42em', fontWeight: 600, marginTop: '0.75rem', opacity: 0.85 }}>{' — '}인허가 전문 행정사</span>
             </h1>
-            {/* I5: 첫 문단 = meta description (같은 문장) */}
+            {/* BEYE-1007-FIX #2: 히어로는 업종명 나열 대신 1줄 가치 문장(모바일 첫 화면에 CTA). meta description 은 HOME_DESC 그대로 */}
             <p className={`${styles.heroDesc} fade-up delay-2`}>
-              {HOME_DESC}
+              {serviceCount}개 업종 인허가, 서류 준비부터 접수까지 대신합니다.
             </p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>
               <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">

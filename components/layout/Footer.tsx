@@ -19,7 +19,7 @@ export default function Footer() {
                   <span className={styles.logoSub}>인허가 전문</span>
                 </div>
               </div>
-              <p className={styles.tagline}>전문 행정사 6인이 귀하의 인허가를 책임집니다.</p>
+              <p className={styles.tagline}>전문 행정사가 귀하의 인허가를 책임집니다.</p>
               {/* INH-LAYOUT(보스 msg 2271) — 회사 정보 압축: 상호·대표·사업자번호 / 주소·전화·이메일 / 메신저.
                   사업자등록번호는 풋터 안에 있어야 한다(bizno-footer-gate). */}
               <div className={styles.bizInfo}>

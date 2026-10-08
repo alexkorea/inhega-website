@@ -9,6 +9,8 @@ import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/i
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
+import LawRefs from '@/components/ui/LawRefs'
+import { pullLawRefs, splitLawSection, LAW_REFS_HEADING, LAW_REFS_INLINE_LABEL } from '@/lib/law-refs'
 
 const plainText = (h: string) =>
   h.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
@@ -73,12 +75,19 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const svc = getServiceBySlug(slug)
   if (!svc) notFound()
   const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'ko', svc.title) : null
+  // BEYE-1007-FIX #12: 본문·절차·FAQ 의 괄호 조문과 '근거 법령' 절은 맨 끝 접기 1개로 옮긴다(lib/law-refs.ts).
+  const refs: string[] = []
+  const { body: overviewBody, law: lawHtml } = splitLawSection(svc.overview ? stripHeldLinks(svc.overview) : '')
+  const overview = pullLawRefs(overviewBody, refs)
+  const description = pullLawRefs(svc.description, refs)
+  const steps = svc.process.map((p) => ({ step: pullLawRefs(p.step, refs), desc: pullLawRefs(p.desc, refs) }))
+  const faqs = svc.faqs.map((f) => ({ q: pullLawRefs(f.q, refs), a: pullLawRefs(f.a, refs) }))
 
   const faqJsonLd = svc.faqs.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     // 답변 원문에 <strong> 등 강조 태그가 있다 — JSON-LD 에는 화면에 보이는 글자만 싣는다.
-    mainEntity: svc.faqs.map((f) => ({
+    mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: plainText(f.q),
       acceptedAnswer: { '@type': 'Answer', text: plainText(f.a) },
@@ -122,7 +131,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             {svc.title}
           </h1>
           <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.88)', maxWidth: '60ch', lineHeight: 1.8 }}>
-            {svc.description}
+            {description}
           </p>
           <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link href="/quote" className="btn btn-primary btn-lg">견적 문의하기</Link>
@@ -137,11 +146,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             {/* Main Content */}
             <div>
               {/* Overview (if present) */}
-              {svc.overview && (
+              {overview && (
                 <section className="fade-up" style={{ marginBottom: 'var(--block-gap)' }}>
                   <div
                     className="svc-overview-content"
-                    dangerouslySetInnerHTML={{ __html: stripHeldLinks(svc.overview) }}
+                    dangerouslySetInnerHTML={{ __html: overview }}
                   />
                 </section>
               )}
@@ -155,7 +164,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   <span className="accent-line" style={{ marginTop: '0.75rem' }} />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                  {svc.process.map((p, i) => (
+                  {steps.map((p, i) => (
                     <div key={p.step} style={{
                       display: 'flex', gap: '1.25rem', alignItems: 'flex-start',
                       background: 'var(--white)', borderRadius: '12px', padding: '1.5rem',
@@ -188,7 +197,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   <span className="accent-line" style={{ marginTop: '0.75rem' }} />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                  {svc.faqs.map((faq) => (
+                  {faqs.map((faq) => (
                     <div key={faq.q} style={{
                       background: 'var(--white)', borderRadius: '12px', padding: '1.5rem',
                       border: '1px solid var(--border)'
@@ -219,6 +228,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   </ul>
                 </section>
               )}
+              <LawRefs heading={LAW_REFS_HEADING.ko} lawHtml={lawHtml} refs={refs} refsLabel={LAW_REFS_INLINE_LABEL} />
             </div>
 
             {/* Sidebar */}

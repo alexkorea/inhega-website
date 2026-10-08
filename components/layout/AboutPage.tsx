@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import TeamSection from './TeamSection'
 import { EmailOff } from '@/components/ui/EmailOff'
+import { qrHref } from '@/lib/qr-links'
 
 type Locale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -207,7 +208,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
                 { src: '/images/qr/whatsapp.jpg', label: 'WhatsApp' },
               ].map((qr) => (
                 <div key={qr.label} style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: '12px', padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
-                  <img src={qr.src} alt={qr.label + ' QR'} style={{ width: '90px', height: '90px', borderRadius: '8px', objectFit: 'cover' }} />
+                  <a href={qrHref(qr.src)} target="_blank" rel="noopener noreferrer" aria-label={qr.label} style={{ display: 'block', lineHeight: 0 }}><img src={qr.src} alt={qr.label + ' QR'} style={{ width: '90px', height: '90px', borderRadius: '8px', objectFit: 'cover' }} /></a>
                   <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'rgba(255,255,255,0.75)' }}>{qr.label}</span>
                 </div>
               ))}

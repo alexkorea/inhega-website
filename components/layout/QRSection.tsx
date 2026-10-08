@@ -1,4 +1,5 @@
 import { FillImage } from '@/components/ui/FillImage'
+import { qrHref } from '@/lib/qr-links'
 
 type Locale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -65,7 +66,7 @@ export default function QRSection({ locale }: { locale: Locale }) {
                 boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
               }}
             >
-              <div style={{ position: 'relative', width: '110px', height: '110px', borderRadius: '8px', overflow: 'hidden' }}>
+              <a href={qrHref(item.src)} target="_blank" rel="noopener noreferrer" aria-label={item.label} style={{ display: 'block', position: 'relative', width: '110px', height: '110px', borderRadius: '8px', overflow: 'hidden' }}>
                 <FillImage
                   base={item.src}
                   small={300}
@@ -73,7 +74,7 @@ export default function QRSection({ locale }: { locale: Locale }) {
                   alt={item.label + ' QR'}
                   sizes="160px"
                 />
-              </div>
+              </a>
               <span style={{ fontSize: '0.875rem', fontWeight: 700, color: '#235099' }}>{item.label}</span>
             </div>
           ))}

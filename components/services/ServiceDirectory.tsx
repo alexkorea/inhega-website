@@ -89,12 +89,12 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
                     {/* INH-CARD-SPLIT(맥7, 보스 msg 2417): 사진은 위에 원색 그대로(덮개·그라데이션 0), 글은 사진 아래 흰 영역.
                         글 묶음은 제목 2줄·설명 2줄 높이 고정 + 맨 아래 한 줄(분야 배지 왼쪽·자세히 보기 오른쪽) — 같은 행 카드의 세로 위치가 같다.
                         배지를 맨 위 따로 한 줄로 두면 1440 홈이 +966px(맥7 한도 +700) — 그래서 자세히 보기와 한 줄.
-                        사진 위에 글·배지·어둡게 하는 층을 다시 얹지 말 것. */}
+                        사진 위에 글·배지·어둡게 하는 층을 다시 얹지 말 것.
+                        BEYE-1007-FIX #6: 분야 배지는 173px 카드에서 "건설·부동…"으로 잘렸고 바로 위 분야 제목과 같은 글자라 뺐다 — 맨 아래 줄은 자세히 보기만. */}
                     <div className={styles.photoBody}>
                       <CardH className={styles.photoTitle}>{e.title}</CardH>
                       <p className={styles.photoDesc}>{e.desc}</p>
                       <div className={styles.photoFoot}>
-                        <span className={styles.photoBadge}>{g.label}</span>
                         <span className={styles.photoLink}>
                           {UI[locale].more}
                           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">

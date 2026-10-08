@@ -16,7 +16,12 @@ function stripAsOf<T>(v: T): T {
   if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, stripAsOf(x)])) as T
   return v
 }
-const INDUSTRY_PAGES = RAW_PAGES.map(stripAsOf)
+// BEYE-1007-FIX #13: 원고 '관련 페이지' 링크명에 남은 작업 메모 "(신규 URL, 배치1)" 는 화면에 싣지 않는다.
+const MEMO_RE = /\s*[(（](?:신규 URL|배치\s?\d)[^()（）]*[)）]/g
+const INDUSTRY_PAGES = RAW_PAGES.map(stripAsOf).map((p) => ({
+  ...p,
+  related: p.related.map((r) => ({ ...r, text: r.text.replace(MEMO_RE, '') })),
+}))
 
 export type IndustryLocale = 'ko' | 'en' | 'zh' | 'ja'
 

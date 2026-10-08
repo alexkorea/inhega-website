@@ -16,7 +16,7 @@ export const translations = {
       quote: 'Get a Quote',
     },
     footer: {
-      tagline: 'A team of 6 licensed administrative scriveners handling all Korean business licenses.',
+      tagline: 'Licensed administrative scriveners handling all Korean business licenses.',
       services: 'Services',
       company: 'Company',
       legal: 'Legal',
@@ -129,7 +129,7 @@ export const translations = {
       quote: '获取报价',
     },
     footer: {
-      tagline: '6名执照行政士，为您处理所有韩国营业许可事务。',
+      tagline: '执照行政士为您处理所有韩国营业许可事务。',
       services: '服务项目',
       company: '公司',
       legal: '法律信息',
@@ -242,7 +242,7 @@ export const translations = {
       quote: '見積もり依頼',
     },
     footer: {
-      tagline: '6名の行政書士が韓国の許認可手続きを一貫してサポートします。',
+      tagline: '行政書士が韓国の許認可手続きを一貫してサポートします。',
       services: 'サービス',
       company: '会社情報',
       legal: '法的情報',
