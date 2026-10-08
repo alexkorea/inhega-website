@@ -56,3 +56,57 @@ export const LAW_REFS_HEADING: Record<'ko' | 'en' | 'zh' | 'ja', string> = {
 }
 
 export const LAW_REFS_INLINE_LABEL = '본문에 인용한 조문'
+
+// BEYE-1007-FIX2 (맥7): 블로그 I4 가이드 47편도 서비스 상세와 같은 처리 — 원고(blog-posts-data.ts)는 그대로, 렌더 단계에서만.
+// ① '공식 기준 인용' 절(<h2> ~ 다음 <h2>)의 인용 블록을 빼서 맨 끝 '근거 법령' 접기로 옮긴다(목차 항목도 뺀다).
+// ② 상담 안내 끝 '상담 문의: /contact' 날 경로는 '상담 문의하기' 버튼으로.
+const BLOG_CITE_SECTION = /<h2[^>]*>\s*공식 기준 인용\s*<\/h2>([\s\S]*?)(?=<h2|$)/
+const BLOG_CITE_BQ = /<blockquote><p>([\s\S]*?)<\/p><p>—\s*([\s\S]*?)<\/p><\/blockquote>/g
+const BLOG_CONTACT = /\s*상담 문의\s*[:：]\s*<a href="(\/(?:[a-z]{2}\/)?contact)">\/(?:[a-z]{2}\/)?contact<\/a>\s*<\/p>/g
+
+export function splitBlogCitations(html: string): { html: string; citations: { text: string; source: string }[] } {
+  const citations: { text: string; source: string }[] = []
+  let s = html.replace(BLOG_CITE_SECTION, (all, inner: string) => {
+    const rest = inner.replace(BLOG_CITE_BQ, (_m, text: string, source: string) => {
+      citations.push({ text: text.trim(), source: source.trim() })
+      return ''
+    })
+    // 인용 블록 말고 다른 내용이 섞여 있으면 손대지 않는다(원고 무가감).
+    if (rest.trim()) {
+      citations.length = 0
+      return all
+    }
+    return ''
+  })
+  if (citations.length) s = s.replace(/<li>(?:<a[^>]*>)?\s*공식 기준 인용\s*(?:<\/a>)?<\/li>/, '')
+  s = s.replace(BLOG_CONTACT, '</p><div class="blog-cta"><a href="$1" class="btn btn-primary">상담 문의하기</a></div>')
+  return { html: s, citations }
+}
+
+// BEYE-1007-FIX2 (맥7): zh/ja 서비스 원고(lib/i18n/services-i18n.ts)의 조문 괄호도 ko 와 같은 렌더 단계 처리.
+// 괄호 안이 법령명·조·항·별표·구분자뿐일 때만 뺀다. '依据…准用于进口'·'…により準用' 처럼 내용(준용·대상)이
+// 섞인 괄호는 그대로 둔다 — ko 원고에서도 이 내용은 본문 문장("법 제15조 제6항에 따라 수입에 준용")으로 남아 있다.
+const CJK_LAW = String.raw`(?:《[^》]{1,40}》|「[^」]{1,40}」|同法施行規則|同法|施行规则|施行規則|特别法|特別法|[一-鿿]{1,20}(?:法|规则|規則|令)|法)`
+const CJK_UNIT = String.raw`(?:第\s?\d+\s?条(?:之\s?\d+|の\s?\d+)?|第\s?\d+\s?[款項项号號]|附表\s?\d+|別表\s?\d+|后段|後段|前段|、|，|,|・|及び|及|\s)`
+const PURE_CJK = new RegExp(String.raw`^(?:${CJK_LAW}|${CJK_UNIT})+$`)
+const PAREN_CJK = /[(（]([^()（）]*)[)）]/g
+
+export function isPureLawRefCjk(inner: string): boolean {
+  const t = inner.trim()
+  return /第\s?\d+\s?条/.test(t) && PURE_CJK.test(t)
+}
+
+/** zh/ja 문장에서 순수 조문 괄호를 빼고 refs 에 모은다(중복 없이). */
+export function pullLawRefsCjk(text: string, refs: string[]): string {
+  return text.replace(PAREN_CJK, (all, inner: string) => {
+    if (!isPureLawRefCjk(inner)) return all
+    const label = inner.trim()
+    if (!refs.includes(label)) refs.push(label)
+    return ''
+  })
+}
+
+export const LAW_REFS_INLINE_LABEL_I18N: Record<'zh' | 'ja', string> = {
+  zh: '正文引用的条文',
+  ja: '本文で引用した条文',
+}

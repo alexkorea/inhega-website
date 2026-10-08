@@ -666,6 +666,9 @@ input, textarea, select {
 .blog-content .xsite-desc { font-size: 0.875rem; color: var(--slate); line-height: 1.7; margin-bottom: var(--space-sm); }
 /* 본문 폭이 좁은 390px 에서 .btn 기본 padding(2rem)+nowrap 이 카드를 넘기지 않게 값만 줄인다. */
 .blog-content .xsite-card a.xsite-btn { font-size: 0.875rem; padding: 0.75rem var(--space-md); }
+/* BEYE-1007-FIX2: 블로그 '상담 문의하기' 버튼 — 글 페이지의 .blog-content a{padding-block:3px} 가 .btn 패딩을 덮지 않게 되돌린다. */
+.blog-content .blog-cta { margin-bottom: 1rem; }
+.blog-content .blog-cta a.btn { padding: 0.875rem 2rem; color: var(--white); text-decoration: none; }
 /* 목차는 종전 모양 유지 — 위 li a 규칙(0,1,2)이 .svc-toc a(0,1,1)를 이기므로 되돌린다. */
 .svc-overview-content .svc-toc a { color: var(--navy); text-decoration: none; }
 .svc-overview-content .svc-toc a:hover { color: var(--navy); text-decoration: underline; }

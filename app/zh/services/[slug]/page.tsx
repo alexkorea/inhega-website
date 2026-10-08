@@ -9,6 +9,8 @@ import type { Metadata } from 'next'
 import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from '@/app/services-slug.module.css'
+import LawRefs from '@/components/ui/LawRefs'
+import { pullLawRefsCjk, LAW_REFS_HEADING, LAW_REFS_INLINE_LABEL_I18N } from '@/lib/law-refs'
 
 export async function generateStaticParams() {
   // 번역본이 없는 KO 전용 서비스는 이 로케일에 페이지가 없다 — 프리렌더 대상에서 제외한다.
@@ -66,11 +68,15 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
   const svc = getServiceI18n('zh', slug)
   if (!svc) notFound()
   const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'zh', svc.title) : null
+  // BEYE-1007-FIX2: 절차·FAQ 의 순수 조문 괄호는 맨 끝 '근거 법령' 접기로(ko 와 같은 렌더 단계 처리, lib/law-refs.ts)
+  const refs: string[] = []
+  const steps = svc.processSteps?.map((p) => ({ step: pullLawRefsCjk(p.step, refs), desc: pullLawRefsCjk(p.desc, refs) }))
+  const faqs = svc.faqs?.map((f) => ({ q: pullLawRefsCjk(f.q, refs), a: pullLawRefsCjk(f.a, refs) }))
 
-  const faqJsonLd = svc.faqs ? {
+  const faqJsonLd = faqs ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: svc.faqs.map((f) => ({
+    mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -126,7 +132,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
           <div className="container">
             <div className={styles.contentGrid}>
               <div>
-                {svc.processSteps && (
+                {steps && (
                   <section className="fade-up" style={{ marginBottom: 'var(--block-gap)' }}>
                     <div style={{ marginBottom: '2rem' }}>
                       <span className="badge badge-burgundy text-label">办理流程</span>
@@ -134,7 +140,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                       <span className="accent-line" style={{ marginTop: '0.75rem' }} />
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                      {svc.processSteps.map((p, i) => (
+                      {steps.map((p, i) => (
                         <div key={p.step} style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start', background: 'var(--white)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
                           <div style={{ width: '40px', height: '40px', background: 'var(--navy)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '0.875rem', fontWeight: 700, color: 'white', flexShrink: 0 }}>
                             {String(i + 1).padStart(2, '0')}
@@ -149,7 +155,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                   </section>
                 )}
 
-                {svc.faqs && (
+                {faqs && (
                   <section className="fade-up delay-2">
                     <div style={{ marginBottom: '2rem' }}>
                       <span className="badge badge-navy text-label">常见问题</span>
@@ -157,7 +163,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                       <span className="accent-line" style={{ marginTop: '0.75rem' }} />
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                      {svc.faqs.map((faq) => (
+                      {faqs.map((faq) => (
                         <div key={faq.q} style={{ background: 'var(--white)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>
                           <p style={{ fontWeight: 700, color: 'var(--navy)', marginBottom: '0.625rem' }}>Q. {faq.q}</p>
                           <p style={{ fontSize: '0.9rem', color: 'var(--slate)', lineHeight: 1.7 }}>A. {faq.a}</p>
@@ -167,6 +173,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                   </section>
                 )}
                 <IndustryBacklinks pages={getIndustryBacklinks('zh', `/zh/services/${slug}`)} heading={BACKLINK_HEADING.zh} />
+                <LawRefs heading={LAW_REFS_HEADING.zh} refs={refs} refsLabel={LAW_REFS_INLINE_LABEL_I18N.zh} />
               </div>
 
               <aside style={{ position: 'sticky', top: '6rem' }}>
