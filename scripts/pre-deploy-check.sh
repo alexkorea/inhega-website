@@ -1,5 +1,5 @@
 #!/bin/bash
-# Pre-deploy validation — run before every Vercel deployment
+# Pre-deploy validation — run before every Cloudflare Pages deployment
 # Catches: missing images, category translation gaps, WordPress refs
 ERRORS=0
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
