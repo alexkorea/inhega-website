@@ -108,7 +108,8 @@ function CtaText({ text, lang }: { text: string; lang: IndustryLocale }) {
   return (
     <>
       <p>{m[1]}</p>
-      <p><Link href={m[2]} className="btn btn-primary">{CTA_BUTTON[lang]}</Link></p>
+      {/* p 안에 두면 본문 링크 색(globals.css .svc-overview-content p a)이 버튼 글자를 배경색으로 덮는다 */}
+      <div style={{ marginBottom: '1rem' }}><Link href={m[2]} className="btn btn-primary">{CTA_BUTTON[lang]}</Link></div>
     </>
   )
 }
