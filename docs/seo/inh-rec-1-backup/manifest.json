@@ -1,0 +1,62 @@
+[
+ {
+  "path": "/blog/accommodation-business-registration",
+  "json": "accommodation-business-registration.json",
+  "html": "accommodation-business-registration.live.html",
+  "sha256": "b44a6d99c0c4a3ab2480774c64e5146b792084f27f91819762323d1734b250b7",
+  "title": "숙박업 영업신고 — 일반·생활숙박업·펜션·농어촌민박 | 유선행정사사무소",
+  "h1": "숙박업 신고 가이드 — 일반숙박업·생활숙박업·펜션 시설 기준",
+  "canonical": "https://inhega.co.kr/blog/accommodation-business-registration",
+  "source": "lib/blog-posts-data.ts:9421-9523",
+  "first_p": "일반숙박업과 생활숙박업은 공중위생관리법에 따라 시·군·구청에 숙박업 신고를 해야 합니다. 모텔·펜션·게스트하우스 등 형태별 시설 기준과 결격 사",
+  "body_chars": 2586
+ },
+ {
+  "path": "/blog/corporate-rnd-center-requirements",
+  "json": "corporate-rnd-center-requirements.json",
+  "html": "corporate-rnd-center-requirements.live.html",
+  "sha256": "c4c0376aa4ad6c5014a01bc0671fc447216b4b5ffb80baaefaf1574309c7b139",
+  "title": "기업부설연구소 설립 요건·인원 기준 완벽 가이드",
+  "h1": "기업부설연구소 설립 요건과 인원 기준 — 2월 신법 완벽 가이드",
+  "canonical": "https://inhega.co.kr/blog/corporate-rnd-center-requirements",
+  "source": "lib/blog-posts-data.ts:1504-1574",
+  "first_p": "기업부설연구소는 기업이 자체적으로 설립하는 연구·개발 전담 조직으로, 국가 연구개발 역량 강화와 기업 혁신을 위해 정부가 공식 인정하는 제도입니",
+  "body_chars": 3645
+ },
+ {
+  "path": "/blog/urban-guesthouse-registration-guide",
+  "json": "urban-guesthouse-registration-guide.json",
+  "html": "urban-guesthouse-registration-guide.live.html",
+  "sha256": "9193e2f9a9fe0bb4d2391f264afa5c2e157f12575ff872b034bbdee169943930",
+  "title": "외국인도시민박업 등록 — 에어비앤비 합법 운영 요건·서류 | 유선행정사사무소",
+  "h1": "외국인도시민박업 등록 가이드 — 에어비앤비 운영 자격과 서류",
+  "canonical": "https://inhega.co.kr/blog/urban-guesthouse-registration-guide",
+  "source": "lib/blog-posts-data.ts:452-521",
+  "first_p": "외국인관광 도시민박업은 도시지역 주민이 자신이 거주하는 주택으로 외국인 관광객에게 숙식을 제공하는 관광진흥법상 등록 업종입니다. 에어비앤비로 운",
+  "body_chars": 7691
+ },
+ {
+  "path": "/services/hostel",
+  "json": "services-hostel.json",
+  "html": "services-hostel.live.html",
+  "sha256": "45257b08194a85b429d9a5f21a36ce6df6888179689be96f6cbc8e166902a204",
+  "title": "호스텔업 등록 요건·사업계획 승인 절차 | 유선행정사사무소",
+  "h1": "호스텔업 등록 — 관광숙박업 사업계획 승인부터 등록까지",
+  "canonical": "https://inhega.co.kr/services/hostel",
+  "source": "lib/services-data.ts:334-427",
+  "first_p": "호스텔업 등록은 배낭여행객 등 개별 관광객을 위한 숙박시설을 운영하려는 자가 시장·군수·구청장에게 하는 관광숙박업 등록입니다. 관광진흥법 제15",
+  "body_chars": 13922
+ },
+ {
+  "path": "/blog/building-usage-change-guide",
+  "json": "building-usage-change-guide.json",
+  "html": "building-usage-change-guide.live.html",
+  "sha256": "f5124b9c565eab48eeab2ce4986de840abb658d0f6ec17273ed242dceefcfa80",
+  "title": "건축물 용도변경 허가·신고 방법 — 절차·비용 총정리",
+  "h1": "건축물 용도변경 허가·신고 완벽 가이드 — 절차와 비용 총정리",
+  "canonical": "https://inhega.co.kr/blog/building-usage-change-guide",
+  "source": "lib/blog-posts-data.ts:112-171",
+  "first_p": "건축물 용도변경은 건축법 제19조에 따라 건축물의 사용 목적을 다른 용도로 바꾸는 행위입니다. 용도를 변경하지 않고 무단으로 다른 용도로 사용하",
+  "body_chars": 3125
+ }
+]

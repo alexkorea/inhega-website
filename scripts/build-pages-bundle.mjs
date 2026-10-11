@@ -108,12 +108,32 @@ async function withEarlyHints(response) {
   return patched;
 }
 
+// INH-REC-1A(2026-10-11): 옛 slug 의 www 판이 www→apex 301 + 앱 308 두 단계였다(체인).
+// apex 에서 앱 리디렉션(next.config redirects)이 나오면 그 최종 주소로 바로 보낸다.
+async function finalApexUrl(url, request, env, ctx) {
+  let cur = new URL(url.toString());
+  for (let i = 0; i < 3; i++) {
+    const headers = new Headers(request.headers);
+    headers.set("host", APEX_HOST);
+    const r = await opennextWorker.fetch(new Request(cur.toString(), { method: "GET", headers, redirect: "manual" }), env, ctx);
+    const loc = r.headers.get("location");
+    if (r.body) await r.body.cancel();
+    if (r.status < 300 || r.status > 308 || !loc) break;
+    const next = new URL(loc, cur);
+    if (next.hostname !== APEX_HOST && next.hostname !== "www." + APEX_HOST) break;
+    next.hostname = APEX_HOST;
+    if (next.toString() === cur.toString()) break;
+    cur = next;
+  }
+  return cur.toString();
+}
 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (url.hostname === "www." + APEX_HOST) {
       url.hostname = APEX_HOST;
+      if (request.method === "GET" || request.method === "HEAD") url.href = await finalApexUrl(url, request, env, ctx);
       return Response.redirect(url.toString(), 301);
     }
     let response = await opennextWorker.fetch(request, env, ctx);
