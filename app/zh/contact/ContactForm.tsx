@@ -6,6 +6,7 @@ import styles from '../../contact/page.module.css'
 import { getT } from '@/lib/i18n/translations'
 import { getServiceMenuSelectGroups, getServiceMenuOther, getServiceMenuItems, getServiceMenuCount } from '@/lib/services-menu'
 import { EmailOff } from '@/components/ui/EmailOff'
+import { trackFormSuccess } from '@/lib/analytics'
 
 const t = getT('zh')
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
@@ -29,8 +30,10 @@ export default function ContactForm() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       })
-      if (res.ok) setStatus('success')
-      else setStatus('error')
+      if (res.ok) {
+        setStatus('success')
+        trackFormSuccess('contact')
+      } else setStatus('error')
     } catch {
       setStatus('error')
     }

@@ -5,6 +5,7 @@ import styles from './page.module.css'
 import PrivacyConsent from '@/components/ui/PrivacyConsent'
 import { getServiceMenuSelectGroups, getServiceMenuOther, getServiceMenuItems, getServiceMenuCount } from '@/lib/services-menu'
 import { EmailOff } from '@/components/ui/EmailOff'
+import { trackFormSuccess } from '@/lib/analytics'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
@@ -41,6 +42,7 @@ export default function ContactForm() {
         const data = await res.json() as { success: boolean; inquiryId?: string }
         if (data.inquiryId) setInquiryId(data.inquiryId)
         setStatus('success')
+        trackFormSuccess('contact')
       } else setStatus('error')
     } catch {
       setStatus('error')

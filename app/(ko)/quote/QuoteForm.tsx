@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
 import { getServiceMenuSelectGroups, getServiceMenuOther, getServiceMenuCount } from '@/lib/services-menu'
+import { trackFormSuccess } from '@/lib/analytics'
 
 const STEPS = ['서비스 선택', '사업자 유형', '요청 내용', '연락처', '확인 및 제출']
 
@@ -45,6 +46,7 @@ export default function QuoteForm() {
         body: JSON.stringify(form),
       })
       setStatus(res.ok ? 'success' : 'error')
+      if (res.ok) trackFormSuccess('quote')
     } catch {
       setStatus('error')
     }

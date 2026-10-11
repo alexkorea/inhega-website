@@ -58,5 +58,17 @@
   "source": "lib/blog-posts-data.ts:112-171",
   "first_p": "건축물 용도변경은 건축법 제19조에 따라 건축물의 사용 목적을 다른 용도로 바꾸는 행위입니다. 용도를 변경하지 않고 무단으로 다른 용도로 사용하",
   "body_chars": 3125
+ },
+ {
+  "path": "/blog/currency-exchange-registration-guide",
+  "json": "currency-exchange-registration-guide.json",
+  "html": "currency-exchange-registration-guide.live.html",
+  "sha256": "7019a1578805389b9ddeaba9958348d2421833f3a6608d1ad476cb4e45df1923",
+  "title": "환전업 등록 방법과 요건 — 외국환거래법 제8조 등록 절차",
+  "h1": "환전업 등록 방법과 요건 총정리 — 기획재정부 신청 절차 안내",
+  "canonical": "https://inhega.co.kr/blog/currency-exchange-registration-guide",
+  "source": "lib/blog-posts-data.ts:64-111",
+  "first_p": "환전업은 외국환거래법 제8조에 따라 기획재정부에 등록해야 하는 금융업입니다. 외국 통화를 매입·매각하거나 여행자 수표를 취급하는 행위가 모두 환",
+  "body_chars": 2325
  }
 ]
