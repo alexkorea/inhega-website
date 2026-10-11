@@ -1,0 +1,7 @@
+# 배포 금지 slug/경로 — 한 줄에 하나. 빌드 결과물 경로·사이트맵에 있으면 배포 중단(~/bin/deploy-guard.sh --check, 보스 msg 3119)
+employment-agency-staffing-registration-guide
+taxi-transportation-business-license-guide
+personal-taxi-license-transfer-202605
+security-service-license-guide
+daycare-center-establishment-guide
+childcare-service-business-registration-guide
