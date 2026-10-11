@@ -51,3 +51,9 @@ cd .open-next/assets && CLOUDFLARE_API_TOKEN=$(cat ~/.local/secrets/cf_pages_tok
 
 - 5쪽 모두 `--dry-run` → 변경 줄 0 (백업 = 현재 원고)
 - 임시 사본(/tmp)에서 services-hostel seoTitle, building-usage-change-guide meta_title 을 일부러 바꾼 뒤 restore.py 실행 → 원본 파일과 바이트 동일(cmp OK)
+
+## INH-REC-1B 추가(2026-10-11)
+
+- 환전소 `/blog/currency-exchange-registration-guide` 백업 추가(currency-exchange-registration-guide.json·.live.html, backup-1b-currency.py, 라이브 17044f97 시점). 1B 에서는 수정하지 않음(행정사 검수 후 별도 단계).
+- 1B 에서 실제로 바꾼 쪽: corporate-rnd-center-requirements · building-usage-change-guide · urban-guesthouse-registration-guide (변경 전/후 전문은 ../inh-rec-1-changelog.md). 위 restore.py 로 쪽별 복원 가능.
+- 배포 단위 복원: 1B 이전 정상본 프로덕션 17044f97 로 롤백(CF Pages 대시보드 → inhega-pages → Deployments → 17044f97 → Rollback).
