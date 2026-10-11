@@ -3,8 +3,9 @@ import { createClient } from '@supabase/supabase-js'
 import { blogPosts } from '@/lib/blog-posts-data'
 import gridStyles from '@/app/services-list.module.css'
 import { ogCard } from '@/lib/og-thumbs.generated'
+import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, resolveBlogPage } from '@/lib/blog-pagination'
 
-export const metadata = {
+const metadata = {
   title: '인허가 실무 블로그 | 유선행정사사무소',
   description: '국제물류주선업·환전업·식품인허가 등 인허가 최신 법령 정보와 실무 팁을 전문 행정사가 직접 작성합니다.',
   alternates: {
@@ -27,7 +28,9 @@ export const metadata = {
   twitter: { card: 'summary_large_image', title: '인허가 실무 블로그 | 유선행정사사무소', images: ['/images/hero-seoul.png'] },
 }
 
-const PAGE_SIZE = 16
+export async function generateMetadata({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  return blogListMetadata(metadata, 'https://inhega.co.kr', '/blog', requestedBlogPage(await searchParams), (n) => `${n}쪽`)
+}
 
 async function getPosts() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL
@@ -47,14 +50,13 @@ async function getPosts() {
   return [...blogPosts].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
 }
 
-export default async function BlogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
-  const { page: pageParam } = await searchParams
-  const page = Math.max(1, parseInt(pageParam || '1', 10))
+export default async function BlogPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  const sp = await searchParams
   const allPosts = await getPosts()
   const total = allPosts.length
-  const totalPages = Math.ceil(total / PAGE_SIZE)
-  const currentPage = Math.min(page, totalPages || 1)
-  const posts = allPosts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+  const totalPages = Math.ceil(total / BLOG_PAGE_SIZE)
+  const currentPage = resolveBlogPage(sp, totalPages, '/blog')
+  const posts = allPosts.slice((currentPage - 1) * BLOG_PAGE_SIZE, currentPage * BLOG_PAGE_SIZE)
 
   // QA01-FIX2: 블로그 허브 BreadcrumbList (홈 > 블로그)
   const breadcrumbJsonLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: '홈', item: 'https://inhega.co.kr' }, { '@type': 'ListItem', position: 2, name: '블로그', item: 'https://inhega.co.kr/blog' } ] }
@@ -124,14 +126,14 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
               {totalPages > 1 && (
                 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '1.5rem' }}>
                   {currentPage > 1 && (
-                    <Link href={`/blog?page=${currentPage - 1}`} style={{
+                    <Link href={blogPageHref('/blog', currentPage - 1)} style={{
                       padding: '0.5rem 1rem', borderRadius: '8px',
                       border: '1px solid var(--border)', color: 'var(--charcoal)',
                       textDecoration: 'none', fontSize: '0.875rem',
                     }}>이전</Link>
                   )}
                   {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                    <Link key={p} href={`/blog?page=${p}`} style={{
+                    <Link key={p} href={blogPageHref('/blog', p)} style={{
                       padding: '0.5rem 0.875rem', borderRadius: '8px',
                       border: p === currentPage ? 'none' : '1px solid var(--border)',
                       background: p === currentPage ? 'var(--burgundy)' : 'transparent',
@@ -140,7 +142,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                     }}>{p}</Link>
                   ))}
                   {currentPage < totalPages && (
-                    <Link href={`/blog?page=${currentPage + 1}`} style={{
+                    <Link href={blogPageHref('/blog', currentPage + 1)} style={{
                       padding: '0.5rem 1rem', borderRadius: '8px',
                       border: '1px solid var(--border)', color: 'var(--charcoal)',
                       textDecoration: 'none', fontSize: '0.875rem',

@@ -4,8 +4,9 @@ import { getAllTranslatedSlugs, getBlogI18n } from '@/lib/i18n/blog-i18n'
 import type { Metadata } from 'next'
 import gridStyles from '@/app/services-list.module.css'
 import { ogCard } from '@/lib/og-thumbs.generated'
+import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, resolveBlogPage } from '@/lib/blog-pagination'
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: '韩国许可申请博客 | YouSun Administrative Agency',
   description: '韩国企业许可专业指南——国际货运代理、换汇业、食品许可、HACCP等，由持牌行政士撰写。',
   alternates: {
@@ -28,11 +29,12 @@ export const metadata: Metadata = {
   },
 }
 
-const PAGE_SIZE = 16
+export async function generateMetadata({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }): Promise<Metadata> {
+  return blogListMetadata(metadata, 'https://inhega.co.kr', '/zh/blog', requestedBlogPage(await searchParams), (n) => `第${n}页`)
+}
 
-export default async function ZhBlogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
-  const { page: pageParam } = await searchParams
-  const page = Math.max(1, parseInt(pageParam || '1', 10))
+export default async function ZhBlogPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  const sp = await searchParams
 
   const translatedSlugs = getAllTranslatedSlugs('zh')
   const allPosts = translatedSlugs
@@ -44,9 +46,9 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
     .sort((a, b) => new Date(b.ko.created_at).getTime() - new Date(a.ko.created_at).getTime())
 
   const total = allPosts.length
-  const totalPages = Math.ceil(total / PAGE_SIZE)
-  const currentPage = Math.min(page, totalPages || 1)
-  const translatedPosts = allPosts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+  const totalPages = Math.ceil(total / BLOG_PAGE_SIZE)
+  const currentPage = resolveBlogPage(sp, totalPages, '/zh/blog')
+  const translatedPosts = allPosts.slice((currentPage - 1) * BLOG_PAGE_SIZE, currentPage * BLOG_PAGE_SIZE)
 
   // QA01-FIX2: 블로그 허브 BreadcrumbList (홈 > 블로그)
   const breadcrumbJsonLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: '首页', item: 'https://inhega.co.kr/zh' }, { '@type': 'ListItem', position: 2, name: '博客', item: 'https://inhega.co.kr/zh/blog' } ] }
@@ -109,14 +111,14 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
           {totalPages > 1 && (
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '1.5rem' }}>
               {currentPage > 1 && (
-                <Link href={`/zh/blog?page=${currentPage - 1}`} style={{
+                <Link href={blogPageHref('/zh/blog', currentPage - 1)} style={{
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
                 }}>上一页</Link>
               )}
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                <Link key={p} href={`/zh/blog?page=${p}`} style={{
+                <Link key={p} href={blogPageHref('/zh/blog', p)} style={{
                   padding: '0.5rem 0.875rem', borderRadius: '8px',
                   border: p === currentPage ? 'none' : '1px solid var(--border)',
                   background: p === currentPage ? 'var(--burgundy)' : 'transparent',
@@ -125,7 +127,7 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
                 }}>{p}</Link>
               ))}
               {currentPage < totalPages && (
-                <Link href={`/zh/blog?page=${currentPage + 1}`} style={{
+                <Link href={blogPageHref('/zh/blog', currentPage + 1)} style={{
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',

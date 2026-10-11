@@ -4,8 +4,9 @@ import { getAllTranslatedSlugs, getBlogI18n } from '@/lib/i18n/blog-i18n'
 import type { Metadata } from 'next'
 import gridStyles from '@/app/services-list.module.css'
 import { ogCard } from '@/lib/og-thumbs.generated'
+import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, resolveBlogPage } from '@/lib/blog-pagination'
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: '韓国許認可ブログ | YouSun Administrative Agency',
   description: '韓国ビジネス許認可の専門ガイド——国際物流主選業・外貨両替業・食品許可・HACCPなど、行政書士が執筆。',
   alternates: {
@@ -28,11 +29,12 @@ export const metadata: Metadata = {
   },
 }
 
-const PAGE_SIZE = 16
+export async function generateMetadata({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }): Promise<Metadata> {
+  return blogListMetadata(metadata, 'https://inhega.co.kr', '/ja/blog', requestedBlogPage(await searchParams), (n) => `${n}ページ`)
+}
 
-export default async function JaBlogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
-  const { page: pageParam } = await searchParams
-  const page = Math.max(1, parseInt(pageParam || '1', 10))
+export default async function JaBlogPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
+  const sp = await searchParams
 
   const translatedSlugs = getAllTranslatedSlugs('ja')
   const allPosts = translatedSlugs
@@ -44,9 +46,9 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
     .sort((a, b) => new Date(b.ko.created_at).getTime() - new Date(a.ko.created_at).getTime())
 
   const total = allPosts.length
-  const totalPages = Math.ceil(total / PAGE_SIZE)
-  const currentPage = Math.min(page, totalPages || 1)
-  const translatedPosts = allPosts.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+  const totalPages = Math.ceil(total / BLOG_PAGE_SIZE)
+  const currentPage = resolveBlogPage(sp, totalPages, '/ja/blog')
+  const translatedPosts = allPosts.slice((currentPage - 1) * BLOG_PAGE_SIZE, currentPage * BLOG_PAGE_SIZE)
 
   // QA01-FIX2: 블로그 허브 BreadcrumbList (홈 > 블로그)
   const breadcrumbJsonLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://inhega.co.kr/ja' }, { '@type': 'ListItem', position: 2, name: 'ブログ', item: 'https://inhega.co.kr/ja/blog' } ] }
@@ -109,14 +111,14 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
           {totalPages > 1 && (
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', marginTop: '1.5rem' }}>
               {currentPage > 1 && (
-                <Link href={`/ja/blog?page=${currentPage - 1}`} style={{
+                <Link href={blogPageHref('/ja/blog', currentPage - 1)} style={{
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
                 }}>前へ</Link>
               )}
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                <Link key={p} href={`/ja/blog?page=${p}`} style={{
+                <Link key={p} href={blogPageHref('/ja/blog', p)} style={{
                   padding: '0.5rem 0.875rem', borderRadius: '8px',
                   border: p === currentPage ? 'none' : '1px solid var(--border)',
                   background: p === currentPage ? 'var(--burgundy)' : 'transparent',
@@ -125,7 +127,7 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
                 }}>{p}</Link>
               ))}
               {currentPage < totalPages && (
-                <Link href={`/ja/blog?page=${currentPage + 1}`} style={{
+                <Link href={blogPageHref('/ja/blog', currentPage + 1)} style={{
                   padding: '0.5rem 1rem', borderRadius: '8px',
                   border: '1px solid var(--border)', color: 'var(--charcoal)',
                   textDecoration: 'none', fontSize: '0.875rem',
