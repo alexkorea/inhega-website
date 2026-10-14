@@ -96,7 +96,7 @@ export default function EnHomePage() {
       {/* TRUST STRIP */}
       <section className={styles.trustStrip}>
         <div className="container">
-          <div className={styles.trustItems}>
+          <div className={`${styles.trustItems} ${styles.trustItemsLong}`}>
             {t.trust.map((text) => (
               <div key={text} className={styles.trustItem}>
                 <span className={styles.trustIcon}>✓</span>

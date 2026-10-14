@@ -474,6 +474,17 @@
     justify-content: flex-start;
   }
 
+  /* BOSSEYE-FIX-1014 #9: 모바일 히어로 CTA 두 버튼을 같은 폭(100%)으로 세로로 쌓는다(맥6 실측 195px/141px 엇갈림). */
+  .heroBtns {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .heroBtns > :global(.btn) {
+    width: 100%;
+    justify-content: center;
+  }
+
   .ctaInner {
     flex-direction: column;
     align-items: flex-start;

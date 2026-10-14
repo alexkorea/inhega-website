@@ -100,16 +100,20 @@
   "relatedHeading": "관련 페이지",
   "related": [
     {
-      "text": "여행업 등록 가이드(블로그)",
-      "url": "/blog/travel-agency-registration"
+      "text": "농어촌민박업 신고",
+      "url": "/services/rural-minbak-business-report"
     },
     {
-      "text": "여행업 등록 서비스(신규 URL, 배치1)",
+      "text": "숙박업 영업신고",
+      "url": "/services/accommodation-business-report"
+    },
+    {
+      "text": "외국인관광 도시민박업 등록",
+      "url": "/services/urban-guesthouse"
+    },
+    {
+      "text": "여행업 등록",
       "url": "/services/travel-agency-registration"
-    },
-    {
-      "text": "인허가 행정사 업무범위 안내",
-      "url": "/blog/administrative-license-permit-specialist-guide"
     }
   ],
   "ctaHeading": "상담 안내",

@@ -182,10 +182,14 @@ export default function HomePage() {
           {/* 0949 — 기존 24종 + 신규 업종 전부, 분야 소제목 + 사진 카드 전부 펼침(INH-RESTORE). 정본 lib/service-directory.ts */}
           <ServiceDirectory locale="ko" mode="cards" />
 
-          <div className="fade-up" style={{ textAlign: 'center', marginTop: '1.5rem', padding: '1.25rem', background: 'var(--white)', borderRadius: '16px', border: '1px solid var(--border)' }}>
-            <p style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.125rem, 2vw, 1.5rem)', fontWeight: 700, color: 'var(--navy)' }}>
-              전문서비스 — 모든 인허가 분야를 한곳에서 해결합니다.
-            </p>
+          {/* BOSSEYE-FIX-1014 #4: 위 섹션 제목을 되풀이하던 글자만의 박스('전문서비스 — 모든 인허가 분야를…') 대신 견적 버튼 */}
+          <div className="fade-up" style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+            <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">
+              무료 견적 문의
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </Link>
           </div>
         </div>
       </section>

@@ -151,6 +151,13 @@
   flex-wrap: wrap;
 }
 
+/* BOSSEYE-FIX-1014 #23: EN 신뢰 띠는 글자가 길어(5개 1,080px + 간격 40px×4) 1,120px 안에 안 들어가
+   5번째 'Post-Filing Follow-Up' 만 혼자 둘째 줄로 떨어졌다. EN 만 글자 13px·간격 24px 로 한 줄에 맞춘다(문구 무변경). */
+@media (min-width: 769px) {
+  .trustItemsLong { gap: 0.75rem 1.5rem; }
+  .trustItemsLong .trustItem { font-size: 0.8125rem; }
+}
+
 .trustItem {
   display: flex;
   align-items: center;
