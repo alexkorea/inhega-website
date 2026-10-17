@@ -676,3 +676,7 @@
 /zh/services/urban-guesthouse
 /zh/services/venture-cert
 /zh/services/women-enterprise
+/blog/license-scrivener-qualification-check
+/en/blog/license-scrivener-qualification-check
+/ja/blog/license-scrivener-qualification-check
+/zh/blog/license-scrivener-qualification-check

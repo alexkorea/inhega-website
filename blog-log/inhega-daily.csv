@@ -6,3 +6,4 @@ date,topic,angle,slug,locales,gate_checks,gate_pass,ko_title
 2026-10-05,procurement,change-report,procurement-narajangteo-registration-change,ko|en|zh|ja,45,PASS,"조달청 입찰참가자격 변경등록 — 대표자·상호·소재지가 바뀌면 나라장터에서 할 일"
 2026-10-06,research-lab,documents,corporate-research-lab-required-documents,ko|en|zh|ja,45,PASS,"기업부설연구소 설립 서류 — 인정 신청 첨부서류 10종과 각 서류가 증명하는 것"
 2026-10-07,mainbiz,renewal,mainbiz-renewal-and-validity,ko|en|zh|ja,45,PASS,"메인비즈 인증 유효기간과 갱신 — 연장 신청 시기·평가 기준·선정취소 사유"
+2026-10-08,license-scrivener,requirements,license-scrivener-qualification-check,ko|en|zh|ja,45,PASS,"인허가 행정사 자격 요건과 확인 방법 — 자격시험·결격사유·업무신고확인증 점검"
