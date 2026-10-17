@@ -2,7 +2,7 @@
 title: "위치정보사업 등록과 위치기반서비스사업 신고 차이 — 3가지 유형별 구분 기준"
 date: "2026-09-16"
 category: "위치정보"
-excerpt: "내 서비스는 등록 대상인가 신고 대상인가. 개인위치정보사업(등록)·사물위치정보사업(신고)·위치기반서비스사업(신고) 3가지 유형의 구분 기준과 소상공인 특례, 변경·휴폐업 의무를 위치정보법 조문 기준으로 정리합니다."
+excerpt: "내 서비스는 등록 대상인가 신고 대상인가. 개인위치정보사업(등록)·사물위치정보사업(신고)·위치기반서비스사업(신고) 3가지 유형의 구분 기준과 소상공인 특례, 변경·휴폐업 의무를 정리합니다."
 image: "/images/blog-thumbs/location-information-business-registration.jpg"
 slug: "location-information-business-registration"
 ---
