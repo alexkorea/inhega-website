@@ -35,7 +35,7 @@ export default {
     category: '기업인증',
     metaTitle: '기업부설연구소 설립 서류 — 인정 신청 첨부서류 총정리',
     metaDescription: '기업부설연구소 인정 신청 서류를 2026년 2월 시행 기업부설연구소법 시행규칙 제3조·제4조 기준으로 정리했습니다. 첨부서류 10종이 각각 무엇을 증명하는지와 보완이 잦은 실수까지 안내합니다.',
-    excerpt: '기업부설연구소 인정 신청 서류는 2026년 2월부터 신법 시행규칙이 정합니다. 신청서와 첨부서류 10종, 연구개발전담부서와의 차이, 행정정보 공동이용으로 생략되는 서류, 보완 요구가 잦은 작성 실수를 원문 기준으로 정리했습니다.',
+    excerpt: '기업부설연구소 인정 신청 서류는 2026년 2월부터 신법 시행규칙이 정합니다. 신청서와 첨부서류 10종, 연구개발전담부서와의 차이, 행정정보 공동이용으로 생략되는 서류, 보완 요구가 잦은 작성 실수를 정리했습니다.',
     content: `<div class="toc"><p>목차</p><ol><li>근거 법령 — 서류 규정은 신법으로 옮겨졌다</li><li>신청서에 적는 정보</li><li>첨부서류 목록과 각 서류가 증명하는 것</li><li>연구개발인력 현황 — 연구전담요원을 서류로 증명하는 법</li><li>도면·현판·사진과 연구 기자재 현황</li><li>제출 이후 절차와 보완이 잦은 실수</li><li>자주 묻는 질문</li></ol></div>
 <p><strong>기업부설연구소 설립 서류</strong>는 2026년 2월 1일부터 「기업부설연구소등의 연구개발 지원에 관한 법률 시행규칙」 제3조가 정합니다. 기업부설연구소는 인정 신청서에 연구개발활동 개요서, 연구 기자재 현황, 연구개발인력 현황, 조직도, 도면과 사진 등 해당하는 첨부서류(최대 10종)를 붙여 한국산업기술진흥협회에 제출하고, 연구개발전담부서는 같은 규칙 제4조에 따라 최대 6종을 냅니다.<!-- 근거: 기업부설연구소등의 연구개발 지원에 관한 법률 시행규칙 제3조 제1항, 제4조 제1항 (MST 283223) --> 사업자등록증명과 소기업·중기업 증명서류는 신청인이 동의하면 협회가 행정정보 공동이용으로 직접 확인하므로 따로 떼어 낼 필요가 없습니다.<!-- 근거: 같은 규칙 제3조 제2항, 제4조 제2항 --></p>
 <p>여기서 기업부설연구소란 기업이 연구개발을 수행하기 위하여 설립·운영하는 부설 연구기관으로서 같은 법 제7조에 따른 인정을 받은 기관을 말하고, 연구개발전담부서는 기업에서 연구개발을 전담하는 부서로서 같은 인정을 받은 부서를 말합니다.<!-- 근거: 기업부설연구소등의 연구개발 지원에 관한 법률 제2조 제1호·제2호 (MST 282553) --> 서류는 단순한 형식이 아니라, 인정기준인 "사람"과 "공간"을 심사기관이 확인하는 유일한 통로입니다.</p>
@@ -114,7 +114,7 @@ export default {
 <li>서비스 분야로 신청하면서 중소기업 등 기준검토표나 부가가치세 신고서를 빠뜨린 경우<!-- 근거: 시행규칙 제3조 제1항 제8호 --></li>
 </ul>
 <p>서류를 사실과 다르게 꾸미는 것은 실수와 다르게 취급됩니다. 거짓이나 부정한 방법으로 인정을 받으면 같은 법 제8조에 따라 인정이 반드시 취소되고, 취소된 날부터 1년이 지날 때까지 다시 신청할 수 없습니다.<!-- 근거: 같은 법 제8조 제1항 제1호 단서, 제4항 --> 인정을 받은 자와 이를 도와준 자 모두 500만원 이하의 과태료 대상입니다.<!-- 근거: 같은 법 제10조 제1호·제2호, 제27조 제1항 제1호·제2호 --> 인정 후 명칭·소재지·연구 분야·연구개발인력 등이 바뀌면 사유 발생일부터 30일 이내에 변경신고서를 내야 하므로, 신청 서류 사본은 변경신고의 기준 자료로도 쓰입니다.<!-- 근거: 같은 법 제7조 제4항, 시행령 제7조 제2항, 시행규칙 제5조 --></p>
-<p>정리하면, 서류 준비의 핵심은 장수가 아니라 신청서·인력 현황·조직도·도면·사진이 같은 사실을 가리키도록 맞추는 데 있습니다. 서류 점검과 신청 준비는 <a href="/services/research-lab">기업부설연구소 설립</a> 안내에서 확인하실 수 있습니다. 법령 원문은 <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">기업부설연구소등의 연구개발 지원에 관한 법률</a>, <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행령" target="_blank" rel="noopener">같은 법 시행령</a>, <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">같은 법 시행규칙</a>에서 볼 수 있습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>정리하면, 서류 준비의 핵심은 장수가 아니라 신청서·인력 현황·조직도·도면·사진이 같은 사실을 가리키도록 맞추는 데 있습니다. 서류 점검과 신청 준비는 <a href="/services/research-lab">기업부설연구소 설립</a> 안내에서 확인하실 수 있습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 기업부설연구소 인정 신청에 학위증명서를 꼭 첨부해야 하나요?</p><p class="faq-a">A. 시행규칙 제3조 제1항의 첨부서류 목록에는 학위증명서가 없습니다. 다만 별지 제4호서식에 최종 학위와 학위번호를 적어야 하고, 신고요령 제5조 제2항에 따라 사후관리 때 학위증명서·졸업증명서 사본이나 자격증 사본을 확인할 수 있으므로 원본 자료를 보관해 두어야 합니다.</p></div>
@@ -130,7 +130,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">무료 상담 신청하기</a>
 </div>
 
-<p class="author-block">유선행정사사무소 (대표 행정사 정유선) · 「기업부설연구소등의 연구개발 지원에 관한 법률」(법률 제21309호, 2026. 2. 1. 시행), 같은 법 시행령(대통령령 제36055호), 같은 법 시행규칙(과학기술정보통신부령 제163호), 「기업부설연구소와 연구개발전담부서 신고요령」(과학기술정보통신부고시 제2026-6호) 원문 기준으로 작성 · 최종 검토일 10월 3일<!-- 근거: MST 282553, 282915, 283223, 행정규칙일련번호 2100000273808 --></p>`,
+<p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: MST 282553, 282915, 283223, 행정규칙일련번호 2100000273808 --></p>`,
   },
 
   en: {
@@ -210,7 +210,7 @@ export default {
 <li>an equipment list of copiers, office PCs and general software; and</li>
 <li>a service-field application without the SME review sheet or VAT return.</li>
 </ul>
-<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation. Texts: <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">the Act</a> and <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">its Enforcement Rules</a>.</p>
+<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Must degree certificates be attached?</p><p class="faq-a">A. They are not on the list in Rules Article 3(1), but Form 4 asks for degree numbers and KOITA may check copies under Guidelines Article 5(2). Keep the originals.</p></div>
@@ -226,7 +226,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Act on R&D Support for Corporate Research Institutes, etc. (Act No. 21309, in force 1 February 2026), its Enforcement Decree (Presidential Decree No. 36055), Enforcement Rules (Ordinance No. 163) and the Reporting Guidelines (Notice No. 2026-6) · Last reviewed 3 October</p>`,
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
   },
 
   zh: {
@@ -305,7 +305,7 @@ export default {
 <li>器材只列复印机、办公电脑和通用软件；</li>
 <li>服务领域申请漏交检讨表或增值税申报书。</li>
 </ul>
-<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。原文见<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">该法</a>、<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">施行规则</a>。</p>
+<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 必须附学位证书吗？</p><p class="faq-a">A. 施行规则第3条第1款清单中没有，但第4号书式要填学位编号，事后管理可确认复印件（申报要领第5条第2款），应保存原件。</p></div>
@@ -321,7 +321,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《企业附属研究所等研究开发支援法》（法律第21309号，2026年2月1日施行）、同法施行令（总统令第36055号）、施行规则（科学技术信息通信部令第163号）及《企业附属研究所与研究开发专门部门申报要领》（告示第2026-6号）原文撰写 · 最终审阅日 10月3日</p>`,
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
   ja: {
@@ -329,7 +329,7 @@ export default {
     category: '企業認証',
     metaTitle: '韓国 企業付設研究所設立の必要書類 — 認定申請の添付書類',
     metaDescription: '2026年2月1日施行の韓国「企業付設研究所等の研究開発支援に関する法律」施行規則第3条・第4条に基づき、企業付設研究所と研究開発専担部署の認定申請に必要な書類、各書類が証明する内容、補完になりやすい記載ミスを整理しました。',
-    excerpt: '2026年2月から、韓国の企業付設研究所の認定書類は新法の施行規則が定めています。申請書と添付書類、提出不要の書類、補完を求められやすい記載ミスを原文基準で整理しました。',
+    excerpt: '2026年2月から、韓国の企業付設研究所の認定書類は新法の施行規則が定めています。申請書と添付書類、提出不要の書類、補完を求められやすい記載ミスを整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>根拠法令 — 書類の規定は新法へ移った</li><li>申請書に記載する情報</li><li>添付書類の一覧と各書類が証明するもの</li><li>研究開発人力現況 — 研究専担要員の証明</li><li>図面・表札・写真と研究機材現況</li><li>提出後の手続と補完が多いミス</li><li>よくあるご質問</li></ol></div>
 <p><strong>韓国の企業付設研究所設立に必要な書類</strong>は、2026年2月1日から「企業付設研究所等の研究開発支援に関する法律施行規則」（기업부설연구소등의 연구개발 지원에 관한 법률 시행규칙）第3条が定めています。企業付設研究所は認定申請書に研究開発活動概要書、研究機材現況、研究開発人力現況、組織図、図面と写真など該当する添付書類（最大10種）を付けて韓国産業技術振興協会（한국산업기술진흥협회）に提出し、研究開発専担部署は同規則第4条により最大6種を提出します。事業者登録証明と小企業・中企業の証明書類は、申請人が同意すれば協会が行政情報の共同利用で直接確認します。</p>
 <p>企業付設研究所とは、企業が研究開発のために設立・運営し同法第7条の認定を受けた付設研究機関、研究開発専担部署とは同じ認定を受けた研究開発専担の部署をいいます（第2条）。書類は、認定基準である「人」と「空間」を審査機関が確認する経路です。本稿は要件そのものではなく、その証明方法に焦点を当てます。</p>
@@ -400,7 +400,7 @@ export default {
 <li>機材現況がコピー機・事務用PC・汎用ソフトウェアのみ</li>
 <li>サービス分野なのに基準検討表や付加価値税申告書がない</li>
 </ul>
-<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。原文は<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">同法</a>、<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">同法施行規則</a>で確認できます。</p>
+<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 学位証明書の添付は必要ですか。</p><p class="faq-a">A. 施行規則第3条第1項の一覧にはありませんが、第4号書式に学位番号を記載し、事後管理で写しが確認されることがあるため（届出要領第5条第2項）、原本を保管してください。</p></div>
@@ -416,6 +416,6 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「企業付設研究所等の研究開発支援に関する法律」（法律第21309号、2026年2月1日施行）、同法施行令（大統領令第36055号）、施行規則（科学技術情報通信部令第163号）および「企業付設研究所と研究開発専担部署の届出要領」（告示第2026-6号）の原文に基づき作成・最終確認日 10月3日</p>`,
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
   },
 }

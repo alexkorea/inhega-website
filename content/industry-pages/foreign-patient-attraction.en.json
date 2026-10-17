@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Foreign Patient Attraction Business Registration in Korea (Medical Tourism Agency) | YouSun Administrative Agency",
   "h1": "Foreign Patient Attraction Business Registration in Korea",
-  "lead": "Medical institutions and non-medical agencies that want to attract foreign patients to Korea must register with the Mayor or Governor (city/province head) after meeting the requirements; an agency (non-hospital) needs guarantee insurance with a coverage amount of KRW 100 million or more, capital of KRW 100 million or more and a domestic office. Registration is valid for 3 years. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "Medical institutions and non-medical agencies that want to attract foreign patients to Korea must register with the Mayor or Governor (city/province head) after meeting the requirements; an agency (non-hospital) needs guarantee insurance with a coverage amount of KRW 100 million or more, capital of KRW 100 million or more and a domestic office. Registration is valid for 3 years.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: arranging medical appointments and contracts (and acting as agent), providing treatment information and guiding transport/lodging for foreign patients.",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Definition: attracting foreign patients means providing conveniences such as appointments, contracts, treatment information and transport/lodging guidance",
-      "source": "의료 해외진출 및 외국인환자 유치 지원에 관한 법률 제2조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "의료 해외진출 및 외국인환자 유치 지원에 관한 법률 제2조"
     },
     {
       "text": "Validity: registration is valid for 3 years from the registration date",
-      "source": "의료 해외진출 및 외국인환자 유치 지원에 관한 법률 제6조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "의료 해외진출 및 외국인환자 유치 지원에 관한 법률 제6조"
     },
     {
       "text": "Penalty: attracting foreign patients without registration is punishable by up to 3 years' imprisonment or a fine of up to KRW 30 million",
-      "source": "의료 해외진출 및 외국인환자 유치 지원에 관한 법률 제28조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "의료 해외진출 및 외국인환자 유치 지원에 관한 법률 제28조"
     }
   ],
   "relatedHeading": "Related Pages",

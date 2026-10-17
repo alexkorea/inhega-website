@@ -280,11 +280,7 @@ SGI 보증보험을 이용하면 보통 **법인등기부등본, 재무제표, �
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #e5e7eb;padding:10px">근거 법령</td>
-      <td style="border:1px solid #e5e7eb;padding:10px">물류정책기본법</td>
-      <td style="border:1px solid #e5e7eb;padding:10px">화물자동차 운수사업법</td>
-    </tr>
+    
     <tr>
       <td style="border:1px solid #e5e7eb;padding:10px">관할</td>
       <td style="border:1px solid #e5e7eb;padding:10px">시·도지사 등록</td>

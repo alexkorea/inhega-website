@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "KC Certification & Radio Equipment Certification in Korea: Requirements, Documents, Fees | YouSun Administrative Agency",
   "h1": "KC Certification and Radio Equipment (EMC/Radio) Certification in Korea",
-  "lead": "Manufacturers and importers of electrical and household products in Korea must go through safety certification, safety confirmation filing or supplier's conformity confirmation, depending on the product category, and broadcasting/communications equipment must undergo conformity assessment under the Radio Waves Act — certification, registration, self-conformity confirmation or provisional certification. The processing period for a safety certification application is within 45 days of receipt. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "Manufacturers and importers of electrical and household products in Korea must go through safety certification, safety confirmation filing or supplier's conformity confirmation, depending on the product category, and broadcasting/communications equipment must undergo conformity assessment under the Radio Waves Act — certification, registration, self-conformity confirmation or provisional certification. The processing period for a safety certification application is within 45 days of receipt.",
   "summaryLabel": "Summary",
   "summary": [
     "KC safety: safety certification (product test + factory audit), safety confirmation (test by a testing body, then filing), supplier's conformity confirmation (self-confirmation, then filing).",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What are the statutory fees?",
-      "body": "Safety certificate issuance is KRW 50,000, factory audit is based on KRW 200,000 per factory, a safety confirmation certificate is KRW 50,000, supplier's conformity filing is KRW 10,000 per model, and a revised issuance is KRW 10,000 per case. The product test fee is an amount calculated by the body from base fee, labor, materials, etc. Small businesses and SMEs may be given reductions. The basis is Article 43 of the Act.\n\nRadio conformity assessment application fees are KRW 165,000 for certification, KRW 55,000 for registration and KRW 165,000 for provisional certification; changes unrelated to the assessment standards cost KRW 5,000 (certification) or KRW 2,000 (registration). The basis is Article 69 of the Radio Waves Act. (Product Safety Act Enforcement Decree effective 2026-02-01; Radio Waves Act Enforcement Decree effective 2025-10-01. Private service fees are not statutory fees and are excluded.)"
+      "body": "Safety certificate issuance is KRW 50,000, factory audit is based on KRW 200,000 per factory, a safety confirmation certificate is KRW 50,000, supplier's conformity filing is KRW 10,000 per model, and a revised issuance is KRW 10,000 per case. The product test fee is an amount calculated by the body from base fee, labor, materials, etc. Small businesses and SMEs may be given reductions. The basis is Article 43 of the Act.\n\nRadio conformity assessment application fees are KRW 165,000 for certification, KRW 55,000 for registration and KRW 165,000 for provisional certification; changes unrelated to the assessment standards cost KRW 5,000 (certification) or KRW 2,000 (registration). The basis is Article 69 of the Radio Waves Act. (As of 2026. Private service fees are not statutory fees and are excluded.)"
     },
     {
       "h2": "Why is an application rejected or supplementation requested?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Definition: safety certification proves a product's safety through a product test and a factory audit",
-      "source": "전기용품 및 생활용품 안전관리법 제2조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "전기용품 및 생활용품 안전관리법 제2조"
     },
     {
       "text": "Processing: the body shall notify the result within 45 days of receiving the application",
-      "source": "전기용품 및 생활용품 안전관리법 시행규칙 제8조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "전기용품 및 생활용품 안전관리법 시행규칙 제8조"
     },
     {
       "text": "Conformity assessment: anyone making, selling or importing broadcasting and communications equipment must obtain certification, registration, self-conformity confirmation or provisional certification",
-      "source": "전파법 제58조의2 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "전파법 제58조의2"
     }
   ],
   "relatedHeading": "Related Pages",

@@ -9,8 +9,7 @@ import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/i
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
-import LawRefs from '@/components/ui/LawRefs'
-import { pullLawRefs, splitLawSection, LAW_REFS_HEADING, LAW_REFS_INLINE_LABEL } from '@/lib/law-refs'
+import { pullLawRefs } from '@/lib/law-refs'
 
 const plainText = (h: string) =>
   h.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
@@ -75,10 +74,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const svc = getServiceBySlug(slug)
   if (!svc) notFound()
   const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'ko', svc.title) : null
-  // BEYE-1007-FIX #12: 본문·절차·FAQ 의 괄호 조문과 '근거 법령' 절은 맨 끝 접기 1개로 옮긴다(lib/law-refs.ts).
+  // NOCITE-ALL-4(보스 msg 3373·3377): 본문·절차·FAQ 의 순수 조문 괄호는 화면에서 뺀다(lib/law-refs.ts). 근거 법령 접기는 없앴다.
   const refs: string[] = []
-  const { body: overviewBody, law: lawHtml } = splitLawSection(svc.overview ? stripHeldLinks(svc.overview) : '')
-  const overview = pullLawRefs(overviewBody, refs)
+  const overview = pullLawRefs(svc.overview ? stripHeldLinks(svc.overview) : '', refs)
   const description = pullLawRefs(svc.description, refs)
   const steps = svc.process.map((p) => ({ step: pullLawRefs(p.step, refs), desc: pullLawRefs(p.desc, refs) }))
   const faqs = svc.faqs.map((f) => ({ q: pullLawRefs(f.q, refs), a: pullLawRefs(f.a, refs) }))
@@ -228,7 +226,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   </ul>
                 </section>
               )}
-              <LawRefs heading={LAW_REFS_HEADING.ko} lawHtml={lawHtml} refs={refs} refsLabel={LAW_REFS_INLINE_LABEL} />
             </div>
 
             {/* Sidebar */}

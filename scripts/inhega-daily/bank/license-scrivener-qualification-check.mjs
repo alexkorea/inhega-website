@@ -33,10 +33,10 @@ export default {
     title: '인허가 행정사 자격 요건과 확인 방법 — 자격시험·결격사유·업무신고확인증 점검',
     category: '인허가',
     metaTitle: '인허가 행정사 자격 요건과 확인 방법 — 행정사법 기준',
-    metaDescription: '인허가 행정사는 자격시험 합격만으로 일할 수 없습니다. 행정사법의 시험·결격사유, 실무교육과 업무신고, 신고확인증·사무소 명칭으로 자격을 확인하는 방법을 원문 기준으로 정리했습니다.',
-    excerpt: '행정사로 일하려면 자격시험 합격, 결격사유 없음, 실무교육 이수, 대한행정사회 가입, 업무신고가 모두 필요합니다. 의뢰 전에 자격증·신고확인증·사무소 명칭으로 무엇을 확인하면 되는지 행정사법 원문 기준으로 정리했습니다.',
+    metaDescription: '인허가 행정사는 자격시험 합격만으로 일할 수 없습니다. 행정사법의 시험·결격사유, 실무교육과 업무신고, 신고확인증·사무소 명칭으로 자격을 확인하는 방법을 정리했습니다.',
+    excerpt: '행정사로 일하려면 자격시험 합격, 결격사유 없음, 실무교육 이수, 대한행정사회 가입, 업무신고가 모두 필요합니다. 의뢰 전에 자격증·신고확인증·사무소 명칭으로 무엇을 확인하면 되는지 정리했습니다.',
     content: `<div class="toc"><p>목차</p><ol><li>행정사 자격은 자격시험에서 시작한다</li><li>시험 일부 면제와 결격사유</li><li>자격만으로는 일할 수 없다 — 업무신고와 신고확인증</li><li>사무소 명칭과 행정사법인</li><li>의뢰 전 행정사 자격 확인 순서</li><li>무자격 대행의 처벌과 행정사가 지는 의무</li><li>자주 묻는 질문</li></ol></div>
-<p><strong>인허가 행정사</strong>란 「행정사법」에 따른 행정사 자격을 갖추고 주된 사무소 소재지의 시장·군수·구청장에게 행정사업무신고를 마친 뒤, 다른 사람의 위임을 받아 인가·허가·면허 등의 신청과 신고를 대리하는 사람을 말합니다.<!-- 근거: 행정사법 제2조 제1항 제5호, 제5조, 제10조 제1항 --> 자격증이 있다는 것만으로는 부족하고, 결격사유가 없어야 하며 실무교육을 마치고 대한행정사회에 가입한 다음 업무신고까지 해야 적법하게 일을 맡을 수 있습니다.<!-- 근거: 행정사법 시행령 제20조 제1항 --> 이 글은 2026년 기준 현행 「행정사법」과 같은 법 시행령·시행규칙 원문을 대조해, 누가 행정사가 될 수 있는지와 의뢰인이 그 자격을 어떻게 확인할 수 있는지를 정리한 것입니다.<!-- 근거: 행정사법(법률 제19034호, 2022. 11. 15. 시행), 행정사법 시행령(대통령령 제35813호, 2026. 1. 1. 시행), 행정사법 시행규칙(행정안전부령 제633호, 2026. 8. 30. 시행) --></p>
+<p><strong>인허가 행정사</strong>란 「행정사법」에 따른 행정사 자격을 갖추고 주된 사무소 소재지의 시장·군수·구청장에게 행정사업무신고를 마친 뒤, 다른 사람의 위임을 받아 인가·허가·면허 등의 신청과 신고를 대리하는 사람을 말합니다.<!-- 근거: 행정사법 제2조 제1항 제5호, 제5조, 제10조 제1항 --> 자격증이 있다는 것만으로는 부족하고, 결격사유가 없어야 하며 실무교육을 마치고 대한행정사회에 가입한 다음 업무신고까지 해야 적법하게 일을 맡을 수 있습니다.<!-- 근거: 행정사법 시행령 제20조 제1항 --> 이 글은 누가 행정사가 될 수 있는지와 의뢰인이 그 자격을 어떻게 확인할 수 있는지를 정리한 것입니다.<!-- 근거: 행정사법(법률 제19034호, 2022. 11. 15. 시행), 행정사법 시행령(대통령령 제35813호, 2026. 1. 1. 시행), 행정사법 시행규칙(행정안전부령 제633호, 2026. 8. 30. 시행) --></p>
 <p>행정사에게 무엇을 맡길 수 있고 무엇은 맡길 수 없는지는 <a href="/blog/administrative-scrivener-scope-and-limits">인허가 행정사 업무범위와 위임 한계</a>에서 따로 다뤘습니다. 여기서는 그보다 앞 단계, 곧 "상담하고 있는 이 사람이 법적으로 행정사인가"를 가리는 데 필요한 요건과 서류에 집중합니다. 인허가는 신청 내용이 사업의 시작 시점을 좌우하므로, 대리인의 자격을 먼저 확인해 두면 절차 중간에 대리권이 문제 되는 일을 줄일 수 있습니다.</p>
 
 <h2>행정사 자격은 자격시험에서 시작한다</h2>
@@ -44,10 +44,10 @@ export default {
 <div class="highlight-box">「행정사법」 제5조(행정사의 자격): 행정사 자격시험에 합격한 사람은 행정사 자격이 있다.<!-- 근거: 행정사법 제5조 --></div>
 <p>행정사는 소관 업무에 따라 일반행정사, 해사행정사, 외국어번역행정사로 구분됩니다.<!-- 근거: 행정사법 제4조 --> 인허가 신청·신고의 대리는 일반행정사의 업무에 포함되고, 해사행정사는 해운 또는 해양안전심판에 관한 업무로, 외국어번역행정사는 번역과 번역한 서류의 제출 대행으로 범위가 정해져 있습니다.<!-- 근거: 행정사법 시행령 제3조 제1호~제3호 --> 따라서 일반적인 영업 인허가를 맡길 때 확인할 자격은 일반행정사 자격입니다.</p>
 <p>자격시험은 행정안전부장관이 실시하고 제1차시험과 제2차시험으로 나누어 치릅니다. 시험 관리 업무는 한국산업인력공단에 위탁되어 있으며, 시험은 매년 한 번 실시합니다.<!-- 근거: 행정사법 제8조 제1항~제3항, 같은 법 시행령 제8조 제1항, 제12조 --> 제1차시험은 선택형 필기시험이고, 제2차시험은 논술형 필기시험이되 선택형·기입형 또는 단답형을 포함할 수 있습니다.<!-- 근거: 행정사법 시행령 제9조 제2항 --> 시험 과목은 시행령 별표 1이 정하며, 일반행정사 기준으로 정리하면 다음과 같습니다.</p>
-<table><thead><tr><th>구분</th><th>과목(일반행정사)</th><th>근거</th></tr></thead><tbody>
-<tr><td>제1차시험(3과목)</td><td>민법(총칙 관련 내용으로 한정), 행정법, 행정학개론(지방자치행정 포함)<!-- 근거: 행정사법 시행령 별표 1 제1호 --></td><td>시행령 별표 1 제1호<!-- 근거: 행정사법 시행령 제9조 제1항 별표 1 --></td></tr>
-<tr><td>제2차시험(4과목)</td><td>민법(계약 관련 내용으로 한정), 행정절차론(「행정절차법」 포함), 사무관리론(「민원 처리에 관한 법률」 및 「행정업무의 운영 및 혁신에 관한 규정」 포함), 행정사실무법(행정심판사례 및 「비송사건절차법」)<!-- 근거: 행정사법 시행령 별표 1 제2호 --></td><td>시행령 별표 1 제2호<!-- 근거: 행정사법 시행령 제9조 제1항 별표 1 --></td></tr>
-<tr><td>합격 기준</td><td>과목당 100점 만점에 모든 과목 40점 이상, 전 과목 평균 60점 이상<!-- 근거: 행정사법 시행령 제17조 제1항·제2항 --></td><td>시행령 제17조</td></tr>
+<table><thead><tr><th>구분</th><th>과목(일반행정사)</th></tr></thead><tbody>
+<tr><td>제1차시험(3과목)</td><td>민법(총칙 관련 내용으로 한정), 행정법, 행정학개론(지방자치행정 포함)<!-- 근거: 행정사법 시행령 별표 1 제1호 --></td></tr>
+<tr><td>제2차시험(4과목)</td><td>민법(계약 관련 내용으로 한정), 행정절차론(「행정절차법」 포함), 사무관리론(「민원 처리에 관한 법률」 및 「행정업무의 운영 및 혁신에 관한 규정」 포함), 행정사실무법(행정심판사례 및 「비송사건절차법」)<!-- 근거: 행정사법 시행령 별표 1 제2호 --></td></tr>
+<tr><td>합격 기준</td><td>과목당 100점 만점에 모든 과목 40점 이상, 전 과목 평균 60점 이상<!-- 근거: 행정사법 시행령 제17조 제1항·제2항 --></td></tr>
 </tbody></table>
 <p>행정안전부장관은 행정사의 수급 상황 등을 고려해 종류별로 최소선발인원을 정할 수 있고, 제2차시험 합격자가 그보다 적으면 모든 과목 40점 이상인 사람 가운데 평균점수가 높은 순으로 합격자를 추가로 결정합니다.<!-- 근거: 행정사법 시행령 제8조 제3항, 제17조 제3항 --> 최종 합격자는 관보와 인터넷 홈페이지에 공고됩니다.<!-- 근거: 행정사법 시행령 제17조 제4항 --></p>
 <p>합격자가 받는 서류가 <strong>행정사 자격증</strong>입니다. 행정안전부장관은 신청인이 시험 합격자로서 결격사유에 해당하지 않는 것이 확인되면 자격증을 발급하고, 그 사실을 자격증 발급 대장에 기록합니다.<!-- 근거: 행정사법 시행령 제18조 제1항, 같은 법 시행규칙 제6조 제2항·제4항 --> 즉 자격증은 "시험 합격"과 "결격사유 없음"을 함께 확인받은 결과물입니다. 시험에서 부정행위를 한 사람은 그 시험이 정지되거나 무효로 처리되고, 처분일부터 5년간 응시할 수 없습니다.<!-- 근거: 행정사법 제9조의2 제1항·제2항 --></p>
@@ -89,12 +89,12 @@ export default {
 
 <h2>의뢰 전 행정사 자격 확인 순서</h2>
 <p>앞의 요건을 의뢰인이 확인할 수 있는 서류와 표시로 바꾸면 다음 표와 같습니다. 모두 법령에 근거가 있는 서류이므로 요청하는 것 자체가 무리한 요구가 아닙니다.</p>
-<table><thead><tr><th>확인 항목</th><th>무엇을 보는가</th><th>근거</th></tr></thead><tbody>
-<tr><td>행정사 자격증</td><td>행정안전부장관이 발급한 자격증인지, 행정사 종류가 일반행정사인지<!-- 근거: 행정사법 시행령 제18조 제1항, 제3조 제1호 --></td><td>영 제18조, 영 제3조</td></tr>
-<tr><td>신고확인증</td><td>사무소 소재지 시장등이 발급했는지, 증서상 이름과 실제 담당 행정사가 같은지<!-- 근거: 행정사법 제12조 제1항, 제13조 --></td><td>법 제12조·제13조</td></tr>
-<tr><td>사무소 소재지</td><td>신고확인증의 사무소와 실제 사무소가 일치하는지(이전 시 10일 이내 신고)<!-- 근거: 행정사법 제14조 제3항 --></td><td>법 제14조</td></tr>
-<tr><td>사무소 명칭</td><td>"행정사사무소", "행정사합동사무소", "행정사법인" 글자가 있는지<!-- 근거: 행정사법 제15조 제1항, 제25조의5 제2항 --></td><td>법 제15조·제25조의5</td></tr>
-<tr><td>법인의 담당행정사</td><td>수임 업무의 담당행정사가 누구인지, 서면에 기명날인하는지<!-- 근거: 행정사법 제25조의7 --></td><td>법 제25조의7</td></tr>
+<table><thead><tr><th>확인 항목</th><th>무엇을 보는가</th></tr></thead><tbody>
+<tr><td>행정사 자격증</td><td>행정안전부장관이 발급한 자격증인지, 행정사 종류가 일반행정사인지<!-- 근거: 행정사법 시행령 제18조 제1항, 제3조 제1호 --></td></tr>
+<tr><td>신고확인증</td><td>사무소 소재지 시장등이 발급했는지, 증서상 이름과 실제 담당 행정사가 같은지<!-- 근거: 행정사법 제12조 제1항, 제13조 --></td></tr>
+<tr><td>사무소 소재지</td><td>신고확인증의 사무소와 실제 사무소가 일치하는지(이전 시 10일 이내 신고)<!-- 근거: 행정사법 제14조 제3항 --></td></tr>
+<tr><td>사무소 명칭</td><td>"행정사사무소", "행정사합동사무소", "행정사법인" 글자가 있는지<!-- 근거: 행정사법 제15조 제1항, 제25조의5 제2항 --></td></tr>
+<tr><td>법인의 담당행정사</td><td>수임 업무의 담당행정사가 누구인지, 서면에 기명날인하는지<!-- 근거: 행정사법 제25조의7 --></td></tr>
 </tbody></table>
 <p>신고확인증은 대여가 금지된 증서입니다. 행정사는 다른 사람에게 신고확인증을 대여할 수 없고, 누구든지 다른 사람의 신고확인증을 대여받아 사용하거나 대여를 알선해서도 안 됩니다.<!-- 근거: 행정사법 제13조 제1항~제3항 --> 그래서 증서에 적힌 이름과 실제로 사건을 맡을 사람의 이름이 같은지가 핵심입니다. 상담은 사무직원이 할 수도 있는데, 사무직원의 직무상 행위는 그를 고용한 행정사의 행위로 보므로 책임 주체는 결국 신고확인증의 행정사입니다.<!-- 근거: 행정사법 제18조 제1항·제2항 --></p>
 <p>증서의 진위나 현재 상태가 의심스럽다면 발급기관을 확인하는 방법이 있습니다. 신고확인증을 발급한 시장등은 그 내용을 행정사 업무 신고대장과 관리 대장에 기록하게 되어 있으므로, 증서에 적힌 발급기관(시·군·구)에 문의해 볼 수 있습니다.<!-- 근거: 행정사법 시행규칙 제9조 제2항 --> 특히 업무정지는 시장등이 6개월의 범위에서 명할 수 있는 처분이므로, 장기 사건이라면 현재 제32조에 따른 업무정지 중이 아닌지도 함께 물어보는 것이 좋습니다.<!-- 근거: 행정사법 제32조 제1항 --></p>
@@ -112,7 +112,7 @@ export default {
 <p>자격을 확인한 행정사에게 맡기면 의뢰인은 법이 정한 보호도 함께 받습니다. 행정사는 품위를 유지하고 신의와 성실로써 공정하게 직무를 수행해야 하고, 위임받은 업무를 수행하면서 고의 또는 과실로 위임인에게 재산상 손해를 입히면 배상할 책임이 있습니다(제21조).<!-- 근거: 행정사법 제21조 제1항·제2항 --> 행정사 또는 행정사이었던 사람과 그 사무직원은 정당한 사유 없이 직무상 알게 된 사실을 누설할 수 없습니다(제23조).<!-- 근거: 행정사법 제23조 --></p>
 <p>공무원직에서 퇴직한 행정사는 퇴직 전 1년부터 퇴직할 때까지 근무한 행정기관에 대한 인허가 신청 대리 업무를 퇴직한 날부터 1년 동안 수임할 수 없습니다.<!-- 근거: 행정사법 제21조의2 제1항 --> 이 수임제한 대상 기관은 「민원 처리에 관한 법률」의 행정기관이며, 파견·휴직 등으로 실제로 근무하지 않았거나 직무대리·겸임으로 근무한 기간이 1개월 이하인 기관은 제외됩니다.<!-- 근거: 행정사법 시행령 제21조의2 제1항~제4항 --> 최근 퇴직한 공무원 출신 행정사에게 맡길 때는 신청할 기관이 이 제한에 걸리지 않는지 미리 확인하는 것이 좋습니다.</p>
 <p>행정사는 업무를 위임받으면 일련번호, 위임받은 연월일, 업무의 개요, 보수, 위임인의 주소와 성명 등을 적은 업무처리부를 작성해 1년간 보관해야 하며, 업무처리부는 전자문서로 작성할 수도 있습니다(제24조, 시행령 제22조).<!-- 근거: 행정사법 제24조 제1항·제2항, 같은 법 시행령 제22조 제1항·제2항 --> 또한 행정사는 자신이 행한 업무에 관련된 사실의 확인증명서를 발급할 수 있고, 발급 신청을 받으면 특별한 사유가 없는 한 객관적 사실에 입각해 즉시 발급해야 합니다.<!-- 근거: 행정사법 제20조 제1항, 같은 법 시행령 제21조, 같은 법 시행규칙 제13조 제1항 --> 인허가 신청을 대리했다는 사실을 다른 기관에 증명해야 할 때 이 증명서를 요청할 수 있습니다.</p>
-<p>정리하면 확인 순서는 자격증 → 신고확인증 → 사무소 명칭과 소재지 → 담당 행정사입니다. 업종별로 행정사 선택 시 함께 볼 점은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>에 정리해 두었습니다. 법령 원문은 국가법령정보센터의 <a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">행정사법</a>, <a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">행정사법 시행령</a>, <a href="https://www.law.go.kr/법령/행정사법시행규칙" target="_blank" rel="noopener">행정사법 시행규칙</a>에서 확인할 수 있습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>정리하면 확인 순서는 자격증 → 신고확인증 → 사무소 명칭과 소재지 → 담당 행정사입니다. 업종별로 행정사 선택 시 함께 볼 점은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>에 정리해 두었습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 행정사 자격증만 있으면 바로 인허가 대행을 할 수 있나요?</p><p class="faq-a">A. 아닙니다. 「행정사법」 제10조 제1항은 자격이 있는 사람이 업무를 하려면 주된 사무소 소재지의 시장등에게 행정사업무신고를 하도록 정하고, 같은 법 시행령 제20조 제1항은 결격사유 없음, 실무교육 이수, 자격증 보유, 행정사회 가입을 신고 기준으로 둡니다. 신고 없이 업무를 하면 같은 법 제36조 제2항 제1호에 따라 1년 이하의 징역 또는 1천만원 이하의 벌금 대상입니다.</p></div>
@@ -128,7 +128,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">무료 상담 신청하기</a>
 </div>
 
-<p class="author-block">유선행정사사무소 (대표 행정사 정유선) · 「행정사법」(법률 제19034호, 2022. 11. 15. 시행), 같은 법 시행령(대통령령 제35813호, 2026. 1. 1. 시행), 같은 법 시행규칙(행정안전부령 제633호, 2026. 8. 30. 시행) 원문 기준으로 작성 · 최종 검토일 10월 3일<!-- 근거: 행정사법 법률 제19034호, 행정사법 시행령 대통령령 제35813호, 행정사법 시행규칙 행정안전부령 제633호 --></p>`,
+<p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 행정사법 법률 제19034호, 행정사법 시행령 대통령령 제35813호, 행정사법 시행규칙 행정안전부령 제633호 --></p>`,
   },
 
   en: {
@@ -138,17 +138,17 @@ export default {
     metaDescription: 'How a Korean administrative scrivener (haengjeongsa) qualifies under the Certified Administrative Scrivener Act, and the documents a client can check first.',
     excerpt: 'Passing the state exam is not enough to act as a licensing administrative agent in Korea. Here is the statutory path — exam, disqualifications, training, association membership and business report — and what a client can verify.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Qualification Starts With the State Exam</li><li>Partial Exemptions and Disqualifications</li><li>A Licence Alone Is Not Enough — The Business Report</li><li>Office Names and Scrivener Corporations</li><li>How to Verify a Scrivener Before You Engage</li><li>Unlicensed Practice and Duties Owed to Clients</li><li>FAQ</li></ol></div>
-<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative scrivener) who holds the qualification under the Certified Administrative Scrivener Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Scriveners before reporting (Enforcement Decree Article 20(1)). This article checks the current Act, Decree and Enforcement Rule as of 2026.</p>
+<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative scrivener) who holds the qualification under the Certified Administrative Scrivener Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Scriveners before reporting (Enforcement Decree Article 20(1)).</p>
 <p>What you may delegate is covered in our note on <a href="/blog/administrative-scrivener-scope-and-limits">the scope and limits of a licensing scrivener</a>. Here we answer the earlier question: is the person in front of you legally a scrivener?</p>
 
 <h2>Qualification Starts With the State Exam</h2>
 <div class="highlight-box">Certified Administrative Scrivener Act, Article 5: A person who passes the administrative scrivener qualification examination is qualified as an administrative scrivener.</div>
 <p>Scriveners are general, maritime or translation scriveners (Article 4). Acting in permit applications belongs to the general scrivener; maritime scriveners are limited to shipping and marine safety tribunal matters, and translation scriveners to translation and filing translations (Decree Article 3). For a business licence, look for a general scrivener.</p>
 <p>The Minister of the Interior and Safety holds the exam once a year in two stages, with administration entrusted to HRD Korea (Article 8; Decree Articles 8(1) and 12). The first stage is multiple choice; the second is an essay exam that may include short-answer items (Decree Article 9(2)).</p>
-<table><thead><tr><th>Stage</th><th>Subjects (general scrivener)</th><th>Basis</th></tr></thead><tbody>
-<tr><td>First stage (3 subjects)</td><td>Civil Act (general provisions), Administrative Law, Public Administration</td><td>Decree Table 1</td></tr>
-<tr><td>Second stage (4 subjects)</td><td>Civil Act (contracts), Administrative Procedure, Office Management, Scrivener Practice Law</td><td>Decree Table 1</td></tr>
-<tr><td>Pass mark</td><td>40 or more out of 100 in every subject, average 60 or more</td><td>Decree Article 17</td></tr>
+<table><thead><tr><th>Stage</th><th>Subjects (general scrivener)</th></tr></thead><tbody>
+<tr><td>First stage (3 subjects)</td><td>Civil Act (general provisions), Administrative Law, Public Administration</td></tr>
+<tr><td>Second stage (4 subjects)</td><td>Civil Act (contracts), Administrative Procedure, Office Management, Scrivener Practice Law</td></tr>
+<tr><td>Pass mark</td><td>40 or more out of 100 in every subject, average 60 or more</td></tr>
 </tbody></table>
 <p>Where a minimum intake is set and too few pass, candidates with 40 or more in every subject are added by average score (Decree Article 17(3)). The Minister issues the <strong>qualification certificate</strong> after confirming the pass and the absence of disqualifications, and records it in a register (Decree Article 18; Enforcement Rule Article 6). A candidate caught cheating may not sit the exam for 5 years (Article 9-2).</p>
 
@@ -173,12 +173,12 @@ export default {
 <p>Three or more scriveners may form a <strong>scrivener corporation</strong> with the Minister's approval (Articles 25-2 and 25-3). It files its own business report, uses "administrative scrivener corporation" in its name, may not take on members untrained under Article 25 (Articles 25-4 to 25-6), and must designate a responsible scrivener for each matter who signs its documents (Article 25-7).</p>
 
 <h2>How to Verify a Scrivener Before You Engage</h2>
-<table><thead><tr><th>Item</th><th>What to check</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Qualification certificate</td><td>Issued by the Minister; general scrivener</td><td>Decree Articles 18 and 3</td></tr>
-<tr><td>Business report certificate</td><td>Issued by the local office; name matches the person handling your case</td><td>Articles 12 and 13</td></tr>
-<tr><td>Office address</td><td>Matches the certificate (relocation reported within 10 days)</td><td>Article 14</td></tr>
-<tr><td>Office name</td><td>Carries the scrivener office or corporation label</td><td>Articles 15 and 25-5</td></tr>
-<tr><td>Corporation</td><td>Who is the designated responsible scrivener</td><td>Article 25-7</td></tr>
+<table><thead><tr><th>Item</th><th>What to check</th></tr></thead><tbody>
+<tr><td>Qualification certificate</td><td>Issued by the Minister; general scrivener</td></tr>
+<tr><td>Business report certificate</td><td>Issued by the local office; name matches the person handling your case</td></tr>
+<tr><td>Office address</td><td>Matches the certificate (relocation reported within 10 days)</td></tr>
+<tr><td>Office name</td><td>Carries the scrivener office or corporation label</td></tr>
+<tr><td>Corporation</td><td>Who is the designated responsible scrivener</td></tr>
 </tbody></table>
 <p>Lending the certificate is banned for lender, borrower and broker alike (Article 13). Staff may consult with you, but their acts are deemed the employing scrivener's (Article 18(2)). If in doubt, contact the issuing office named on the certificate, which keeps the registers (Enforcement Rule Article 9(2)), and for long matters ask whether a suspension of up to 6 months is in force (Article 32(1)). For matters with long follow-up, such as <a href="/services/nonprofit">non-profit association establishment</a> or <a href="/services/logistics">freight forwarder registration</a>, confirm the responsible scrivener stays the same.</p>
 
@@ -190,7 +190,7 @@ export default {
 <li><strong>Using the title or a similar office name</strong> — an administrative fine of up to KRW 5,000,000 (Article 38(1)).</li>
 </ul>
 <p>A verified scrivener must act fairly, compensate loss caused intentionally or negligently (Article 21), and keep duty-related facts confidential, as must staff (Article 23). A former official may not, for 1 year after retiring, act in permit applications before an agency where they worked in their final year, except agencies where they worked 1 month or less (Article 21-2; Decree Article 21-2). Scriveners keep a case register — serial number, date, outline, remuneration, client details — for 1 year (Article 24; Decree Article 22), and must promptly issue a certificate of facts about work they performed on request (Article 20; Enforcement Rule Article 13).</p>
-<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>. Texts: <a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">Certified Administrative Scrivener Act</a> and <a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">its Enforcement Decree</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a certificate holder start handling permits straight away?</p><p class="faq-a">A. No. Article 10(1) requires a business report, and Decree Article 20(1) requires no disqualification, completed training, the certificate and association membership. Practising without the report is punishable by up to 1 year of imprisonment or a fine of up to KRW 10,000,000 (Article 36(2)1).</p></div>
@@ -206,27 +206,27 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Certified Administrative Scrivener Act (Act No. 19034, in force 15 November 2022), its Enforcement Decree (Presidential Decree No. 35813, in force 1 January 2026) and Enforcement Rule (Ministry of the Interior and Safety Ordinance No. 633, in force 30 August 2026) · Last reviewed 3 October</p>`,
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
   },
 
   zh: {
     title: '韩国许可行政士的资格要件与核实方法 — 资格考试、欠格事由与业务申报确认证',
     category: '许可与执照',
     metaTitle: '韩国许可行政士资格要件与核实方法',
-    metaDescription: '韩国许可行政士仅通过资格考试还不能执业。本文依据《行政士法》原文，说明考试、欠格事由、实务教育与业务申报，以及委托前如何通过确认证和事务所名称核实资格。',
+    metaDescription: '韩国许可行政士仅通过资格考试还不能执业。本文依据《行政士法》，说明考试、欠格事由、实务教育与业务申报，以及委托前如何通过确认证和事务所名称核实资格。',
     excerpt: '在韩国以行政士身份办理许可业务，须通过资格考试、无欠格事由、完成实务教育、加入大韩行政士会并办理业务申报。本文整理委托前可核实的文件与标识。',
     content: `<div class="toc"><p>目录</p><ol><li>行政士资格始于资格考试</li><li>考试部分免除与欠格事由</li><li>仅有资格不能执业 — 业务申报与申报确认证</li><li>事务所名称与行政士法人</li><li>委托前核实行政士资格的顺序</li><li>无资格代办的处罚与行政士的义务</li><li>常见问题</li></ol></div>
-<p><strong>许可行政士</strong>（인허가 행정사）是指依韩国《行政士法》取得行政士资格，并向主事务所所在地的市长、郡守或区厅长办理业务申报后，受托代理许可、执照等申请与申报的人（第2条第1款第5项、第5条、第10条第1款）。仅有资格证不够，还须无欠格事由、完成实务教育并加入大韩行政士会后办理申报（施行令第20条第1款）。本文以2026年现行《行政士法》及其施行令、施行规则原文为依据。</p>
+<p><strong>许可行政士</strong>（인허가 행정사）是指依韩国《行政士法》取得行政士资格，并向主事务所所在地的市长、郡守或区厅长办理业务申报后，受托代理许可、执照等申请与申报的人（第2条第1款第5项、第5条、第10条第1款）。仅有资格证不够，还须无欠格事由、完成实务教育并加入大韩行政士会后办理申报（施行令第20条第1款）。</p>
 <p>可委托的业务范围另见<a href="/blog/administrative-scrivener-scope-and-limits">许可行政士的业务范围与委托界限</a>。本文回答更前一步的问题：为您提供咨询的人在法律上是否是行政士。</p>
 
 <h2>行政士资格始于资格考试</h2>
 <div class="highlight-box">《行政士法》第5条（行政士的资格）：通过行政士资格考试的人，具有行政士资格。</div>
 <p>行政士分为一般行政士、海事行政士和外语翻译行政士（第4条）。代理许可申请属于一般行政士；海事行政士限于海运或海洋安全审判业务，外语翻译行政士限于翻译及提交译文（施行令第3条）。委托营业许可时应核实一般行政士资格。</p>
 <p>考试由行政安全部长官每年举行一次，分两次考试，考务委托韩国产业人力公团（第8条，施行令第8条第1款、第12条）。第一次为选择题，第二次为论述题，可含简答题（施行令第9条第2款）。</p>
-<table><thead><tr><th>区分</th><th>科目（一般行政士）</th><th>依据</th></tr></thead><tbody>
-<tr><td>第一次（3科）</td><td>民法（总则）、行政法、行政学概论</td><td>施行令附表1</td></tr>
-<tr><td>第二次（4科）</td><td>民法（合同）、行政程序论、事务管理论、行政士实务法</td><td>施行令附表1</td></tr>
-<tr><td>合格标准</td><td>每科满分100分，各科40分以上且平均60分以上</td><td>施行令第17条</td></tr>
+<table><thead><tr><th>区分</th><th>科目（一般行政士）</th></tr></thead><tbody>
+<tr><td>第一次（3科）</td><td>民法（总则）、行政法、行政学概论</td></tr>
+<tr><td>第二次（4科）</td><td>民法（合同）、行政程序论、事务管理论、行政士实务法</td></tr>
+<tr><td>合格标准</td><td>每科满分100分，各科40分以上且平均60分以上</td></tr>
 </tbody></table>
 <p>规定最低录取人数而合格者不足时，从各科40分以上者中按平均分追加录取（施行令第17条第3款）。长官确认考试合格且无欠格事由后发放<strong>行政士资格证</strong>并记入台账（施行令第18条，施行规则第6条）。作弊者5年内不得应考（第9条之2）。</p>
 
@@ -251,12 +251,12 @@ export default {
 <p>3名以上行政士经长官认可可设立<strong>行政士法人</strong>（第25条之2、第25条之3）。法人须另行申报，名称含"行政士法人"，不得吸收未依第25条完成实务教育者（第25条之4至第25条之6），并须为每项业务指定负责行政士签名盖章（第25条之7）。</p>
 
 <h2>委托前核实行政士资格的顺序</h2>
-<table><thead><tr><th>核实项目</th><th>看什么</th><th>依据</th></tr></thead><tbody>
-<tr><td>资格证</td><td>是否由长官签发，是否为一般行政士</td><td>施行令第18条、第3条</td></tr>
-<tr><td>业务申报确认证</td><td>是否由所在地市长等签发，姓名与承办人是否一致</td><td>第12条、第13条</td></tr>
-<tr><td>事务所地址</td><td>与确认证是否一致（迁址10日内申报）</td><td>第14条</td></tr>
-<tr><td>事务所名称</td><td>是否含行政士事务所或法人字样</td><td>第15条、第25条之5</td></tr>
-<tr><td>法人</td><td>负责行政士是谁</td><td>第25条之7</td></tr>
+<table><thead><tr><th>核实项目</th><th>看什么</th></tr></thead><tbody>
+<tr><td>资格证</td><td>是否由长官签发，是否为一般行政士</td></tr>
+<tr><td>业务申报确认证</td><td>是否由所在地市长等签发，姓名与承办人是否一致</td></tr>
+<tr><td>事务所地址</td><td>与确认证是否一致（迁址10日内申报）</td></tr>
+<tr><td>事务所名称</td><td>是否含行政士事务所或法人字样</td></tr>
+<tr><td>法人</td><td>负责行政士是谁</td></tr>
 </tbody></table>
 <p>出借、借用和介绍出借确认证均被禁止（第13条）。职员可提供咨询，但其职务行为视为行政士的行为（第18条第2款）。如有疑问可向确认证上的签发机关咨询，该机关保存台账（施行规则第9条第2款）；长期案件可询问是否处于最长6个月的停业处分中（第32条第1款）。<a href="/services/nonprofit">非营利社团法人设立</a>、<a href="/services/logistics">国际物流周旋业登记</a>等后续程序较长的案件，应确认负责人始终不变。</p>
 
@@ -268,7 +268,7 @@ export default {
 <li><strong>使用行政士或类似名称</strong> — 500万韩元以下罚款（第38条第1款）。</li>
 </ul>
 <p>行政士须公正履职，因故意或过失造成损失须赔偿（第21条）；行政士及职员须保守职务秘密（第23条）。退休公务员1年内不得承接其退休前1年任职机关的许可代理业务，任职1个月以下的机关除外（第21条之2，施行令第21条之2）。行政士须将记载序号、日期、概要、报酬和委托人信息的业务处理簿保存1年（第24条，施行令第22条），并应委托人申请及时出具事实确认证明书（第20条，施行规则第13条）。</p>
-<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。法令原文见<a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">行政士法</a>、<a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">行政士法施行令</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有资格证就能马上代办许可吗？</p><p class="faq-a">A. 不能。第10条第1款要求办理业务申报，施行令第20条第1款要求无欠格事由、完成实务教育、持有资格证并加入行政士会。未申报执业的，依第36条第2款第1项处1年以下有期徒刑或1000万韩元以下罚金。</p></div>
@@ -284,7 +284,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《行政士法》（法律第19034号，2022年11月15日施行）、同法施行令（总统令第35813号，2026年1月1日施行）及施行规则（行政安全部令第633号，2026年8月30日施行）原文撰写 · 最终审阅日 10月3日</p>`,
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
   ja: {
@@ -292,19 +292,19 @@ export default {
     category: '許認可',
     metaTitle: '韓国 許認可 行政士の資格要件と確認方法',
     metaDescription: '韓国の許認可行政士（日本の行政書士に相当）は試験合格だけでは業務ができません。行政士法の試験・欠格事由・実務教育・業務申告と、依頼前に確認証や事務所名称で資格を確かめる方法を整理しました。',
-    excerpt: '韓国で行政士として許認可業務を行うには、試験合格、欠格事由なし、実務教育の修了、大韓行政士会への加入、業務申告がすべて必要です。依頼前に確認できる書類と表示を法令原文に基づき整理しました。',
+    excerpt: '韓国で行政士として許認可業務を行うには、試験合格、欠格事由なし、実務教育の修了、大韓行政士会への加入、業務申告がすべて必要です。依頼前に確認できる書類と表示を整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>行政士の資格は資格試験から始まる</li><li>試験の一部免除と欠格事由</li><li>資格だけでは業務ができない — 業務申告と申告確認証</li><li>事務所の名称と行政士法人</li><li>依頼前の行政士資格の確認手順</li><li>無資格代行の処罰と行政士の義務</li><li>よくあるご質問</li></ol></div>
-<p><strong>許認可行政士</strong>（인허가 행정사）とは、韓国の「行政士法」に基づく資格を持ち、主たる事務所の所在地を管轄する市長・郡守・区庁長に業務申告をしたうえで、他人の委任を受けて認可・許可・免許等の申請や届出を代理する者をいいます（第2条第1項第5号、第5条、第10条第1項）。日本の行政書士事務所に相当する韓国の行政士事務所の担い手ですが、資格証だけでは足りず、欠格事由がないこと、実務教育の修了、大韓行政士会への加入を経て業務申告をして初めて適法に依頼を受けられます（施行令第20条第1項）。本稿は2026年時点の現行「行政士法」と同法施行令・施行規則の原文に基づいています。</p>
+<p><strong>許認可行政士</strong>（인허가 행정사）とは、韓国の「行政士法」に基づく資格を持ち、主たる事務所の所在地を管轄する市長・郡守・区庁長に業務申告をしたうえで、他人の委任を受けて認可・許可・免許等の申請や届出を代理する者をいいます（第2条第1項第5号、第5条、第10条第1項）。日本の行政書士事務所に相当する韓国の行政士事務所の担い手ですが、資格証だけでは足りず、欠格事由がないこと、実務教育の修了、大韓行政士会への加入を経て業務申告をして初めて適法に依頼を受けられます（施行令第20条第1項）。</p>
 <p>委任できる業務の範囲は<a href="/blog/administrative-scrivener-scope-and-limits">許認可行政士の業務範囲と委任の限界</a>で扱っています。本稿ではその前段階、「相談相手は法律上の行政士か」を見分ける要件と書類に絞ります。</p>
 
 <h2>行政士の資格は資格試験から始まる</h2>
 <div class="highlight-box">「行政士法」第5条（行政士の資格）：行政士資格試験に合格した者は、行政士の資格を有する。</div>
 <p>行政士は一般行政士、海事行政士、外国語翻訳行政士に区分されます（第4条）。許認可申請の代理は一般行政士の業務で、海事行政士は海運・海洋安全審判の業務、外国語翻訳行政士は翻訳と翻訳書類の提出代行に限られます（施行令第3条）。営業許認可を依頼するなら、一般行政士の資格を確認します。</p>
 <p>試験は行政安全部長官が毎年1回、第1次・第2次の2段階で実施し、管理業務は韓国産業人力公団に委託されています（第8条、施行令第8条第1項・第12条）。第1次は択一式、第2次は論述式で、短答式を含めることができます（施行令第9条第2項）。</p>
-<table><thead><tr><th>区分</th><th>科目（一般行政士）</th><th>根拠</th></tr></thead><tbody>
-<tr><td>第1次試験（3科目）</td><td>民法（総則）、行政法、行政学概論</td><td>施行令別表1</td></tr>
-<tr><td>第2次試験（4科目）</td><td>民法（契約）、行政手続論、事務管理論、行政士実務法</td><td>施行令別表1</td></tr>
-<tr><td>合格基準</td><td>各科目100点満点で全科目40点以上、平均60点以上</td><td>施行令第17条</td></tr>
+<table><thead><tr><th>区分</th><th>科目（一般行政士）</th></tr></thead><tbody>
+<tr><td>第1次試験（3科目）</td><td>民法（総則）、行政法、行政学概論</td></tr>
+<tr><td>第2次試験（4科目）</td><td>民法（契約）、行政手続論、事務管理論、行政士実務法</td></tr>
+<tr><td>合格基準</td><td>各科目100点満点で全科目40点以上、平均60点以上</td></tr>
 </tbody></table>
 <p>最小選抜人員を定めた場合に合格者が不足すると、全科目40点以上の者から平均点順に追加合格とします（施行令第17条第3項）。長官は試験合格と欠格事由がないことを確認して<strong>行政士資格証</strong>を発給し、台帳に記録します（施行令第18条、施行規則第6条）。不正行為をした者は5年間受験できません（第9条の2）。</p>
 
@@ -329,12 +329,12 @@ export default {
 <p>3名以上の行政士は長官の認可を受けて<strong>行政士法人</strong>を設立できます（第25条の2、第25条の3）。法人も業務申告をし、名称に「行政士法人」を用い、第25条の実務教育を受けていない者を構成員にできず（第25条の4〜第25条の6）、案件ごとに担当行政士を指定して書面に記名押印させます（第25条の7）。</p>
 
 <h2>依頼前の行政士資格の確認手順</h2>
-<table><thead><tr><th>確認項目</th><th>確認する内容</th><th>根拠</th></tr></thead><tbody>
-<tr><td>資格証</td><td>長官の発給か、一般行政士か</td><td>施行令第18条・第3条</td></tr>
-<tr><td>業務申告確認証</td><td>市長等の発給か、氏名と実際の担当者が一致するか</td><td>第12条・第13条</td></tr>
-<tr><td>事務所所在地</td><td>確認証と一致するか（移転は10日以内に申告）</td><td>第14条</td></tr>
-<tr><td>事務所名称</td><td>行政士事務所・行政士法人の文字があるか</td><td>第15条・第25条の5</td></tr>
-<tr><td>法人</td><td>担当行政士は誰か</td><td>第25条の7</td></tr>
+<table><thead><tr><th>確認項目</th><th>確認する内容</th></tr></thead><tbody>
+<tr><td>資格証</td><td>長官の発給か、一般行政士か</td></tr>
+<tr><td>業務申告確認証</td><td>市長等の発給か、氏名と実際の担当者が一致するか</td></tr>
+<tr><td>事務所所在地</td><td>確認証と一致するか（移転は10日以内に申告）</td></tr>
+<tr><td>事務所名称</td><td>行政士事務所・行政士法人の文字があるか</td></tr>
+<tr><td>法人</td><td>担当行政士は誰か</td></tr>
 </tbody></table>
 <p>確認証の貸与・借受け・あっせんはいずれも禁止です（第13条）。事務職員が相談に応じることはありますが、その職務上の行為は行政士の行為とみなされます（第18条第2項）。疑問があれば確認証に記載された発給機関に問い合わせることができ（施行規則第9条第2項）、長期案件では6か月の範囲で命じられる業務停止の処分中でないかも確認するとよいでしょう（第32条第1項）。<a href="/services/nonprofit">非営利社団法人の設立</a>や<a href="/services/logistics">国際物流周旋業の登録</a>のように後続手続が長い案件では、担当者が最後まで同じかを確認しておくと安心です。</p>
 
@@ -346,7 +346,7 @@ export default {
 <li><strong>名称の使用</strong> — 行政士や類似の名称の使用は500万ウォン以下の過料（第38条第1項）。</li>
 </ul>
 <p>行政士は公正に職務を行い、故意・過失による損害を賠償する責任を負い（第21条）、事務職員とともに職務上の秘密を守らなければなりません（第23条）。退職公務員は退職前1年間に勤務した機関の許認可代理を退職後1年間受任できません。ただし勤務が1か月以下の機関は除かれます（第21条の2、施行令第21条の2）。行政士は一連番号・日付・業務の概要・報酬・依頼者情報を記載した業務処理簿を1年間保管し（第24条、施行令第22条）、申請があれば業務に関する事実確認証明書を直ちに発給しなければなりません（第20条、施行規則第13条）。</p>
-<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。法令原文は<a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">行政士法</a>、<a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">行政士法施行令</a>で確認できます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 資格証があればすぐに許認可代行ができますか。</p><p class="faq-a">A. できません。第10条第1項は業務申告を求め、施行令第20条第1項は欠格事由がないこと、実務教育の修了、資格証、行政士会への加入を基準としています。申告なしの業務は第36条第2項第1号により1年以下の懲役または1,000万ウォン以下の罰金の対象です。</p></div>
@@ -362,6 +362,6 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「行政士法」（法律第19034号、2022年11月15日施行）、同法施行令（大統領令第35813号、2026年1月1日施行）および施行規則（行政安全部令第633号、2026年8月30日施行）の原文に基づき作成・最終確認日 10月3日</p>`,
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
   },
 }

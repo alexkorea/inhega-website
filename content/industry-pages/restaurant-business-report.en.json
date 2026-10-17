@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "General Restaurant Business Report in Korea: Requirements, Documents, Procedure | YouSun Administrative Agency",
   "h1": "General Restaurant Business Report (Restaurant Business License) in Korea",
-  "lead": "A general restaurant in Korea does not need a permit; it requires a business report filed with the competent district office after the facilities are ready, together with the hygiene-training certificate and other documents. The authority must notify you whether the report is accepted within 3 days of receipt. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "A general restaurant in Korea does not need a permit; it requires a business report filed with the competent district office after the facilities are ready, together with the hygiene-training certificate and other documents. The authority must notify you whether the report is accepted within 3 days of receipt.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: a business that cooks and sells food where drinking alcohol is allowed incidentally with meals.",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What is the statutory fee?",
-      "body": "The fee for a new business report is KRW 25,200 for online filing and KRW 28,000 for visit or mail filing. The legal basis is Article 92 of the Food Sanitation Act and Appendix 26 of its Enforcement Rule. (Enforcement Rule effective 2026-09-01. Private service fees are not statutory fees and are not listed here.)"
+      "body": "The fee for a new business report is KRW 25,200 for online filing and KRW 28,000 for visit or mail filing. The legal basis is Article 92 of the Food Sanitation Act and Appendix 26 of its Enforcement Rule. (As of 2026. Private service fees are not statutory fees and are not listed here.)"
     },
     {
       "h2": "Why is a report returned or supplementation requested?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Definition: a business that cooks and sells food, where drinking is allowed incidentally with meals",
-      "source": "식품위생법 시행령 제21조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "식품위생법 시행령 제21조"
     },
     {
       "text": "Deadline: notification of acceptance of a report within 3 days of receiving the application",
-      "source": "식품위생법 제37조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "식품위생법 제37조"
     },
     {
       "text": "Training: a person intending to operate must receive food hygiene training in advance",
-      "source": "식품위생법 제41조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "식품위생법 제41조"
     }
   ],
   "relatedHeading": "Related Pages",

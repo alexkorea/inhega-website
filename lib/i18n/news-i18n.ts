@@ -54,7 +54,7 @@ const ko: NewsStrings = {
   heroSub: '국내외 정부·기관이 공개한 법령 제·개정과 규제 통보문을 매일 정리해 올립니다.',
   metaTitle: '인허가 뉴스 | 국내외 규제·법령 동향 — 유선행정사사무소',
   metaDescription:
-    '미국 연방관보, WTO ePing 통보문, 일본 e-Gov 의견공모, EU EUR-Lex, 국가법령정보센터가 공개한 인허가·규제 동향을 매일 정리합니다. 품목·국가·영향도별로 확인하고 필요한 인허가는 행정사에게 바로 문의하세요.',
+    '미국 연방관보, WTO ePing 통보문, 일본 e-Gov 의견공모, EU EUR-Lex, 법제처가 공개한 인허가·규제 동향을 매일 정리합니다. 품목·국가·영향도별로 확인하고 필요한 인허가는 행정사에게 바로 문의하세요.',
   tabs: { all: '전체', overseas: '해외 규제', domestic: '국내 법령' },
   filterCountry: '국가',
   filterProduct: '품목',
@@ -139,7 +139,7 @@ const zh: NewsStrings = {
   heroSub: '每日整理韩国及各国政府、公共机构公开的法令修订与法规通报。摘要为韩文原文。',
   metaTitle: '许可法规新闻 | 韩国与全球法规动态 — 柳善行政士事务所',
   metaDescription:
-    '每日汇总美国联邦公报、WTO ePing 通报、日本 e-Gov 意见征集、欧盟 EUR-Lex 与韩国国家法令信息中心公开的许可与法规动态。可按国家、品类、影响度筛选，并就所需许可直接咨询行政士。',
+    '每日汇总美国联邦公报、WTO ePing 通报、日本 e-Gov 意见征集、欧盟 EUR-Lex 与韩国法制处公开的许可与法规动态。可按国家、品类、影响度筛选，并就所需许可直接咨询行政士。',
   tabs: { all: '全部', overseas: '海外法规', domestic: '韩国法令' },
   filterCountry: '国家',
   filterProduct: '品类',
@@ -181,7 +181,7 @@ const ja: NewsStrings = {
   heroSub: '韓国と各国の政府・公的機関が公開した法令改正や規制通報を毎日まとめています。要約は韓国語です。',
   metaTitle: '許認可ニュース | 韓国・海外の規制動向 — 柳善行政士事務所',
   metaDescription:
-    '米国連邦官報、WTO ePing 通報、日本 e-Gov 意見公募、EU EUR-Lex、韓国国家法令情報センターが公開した許認可・規制動向を毎日整理します。国・品目・影響度で絞り込み、必要な許認可は行政士にそのままご相談ください。',
+    '米国連邦官報、WTO ePing 通報、日本 e-Gov 意見公募、EU EUR-Lex、韓国法制処が公開した許認可・規制動向を毎日整理します。国・品目・影響度で絞り込み、必要な許認可は行政士にそのままご相談ください。',
   tabs: { all: 'すべて', overseas: '海外規制', domestic: '韓国法令' },
   filterCountry: '国',
   filterProduct: '品目',

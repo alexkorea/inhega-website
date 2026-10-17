@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Accommodation Business Report in Korea (Lodging License): Requirements & Procedure | YouSun Administrative Agency",
   "h1": "Accommodation Business (Lodging) Report in Korea",
-  "lead": "In Korea a lodging business is not licensed; you file a business report with the head of the district office (si/gun/gu) after the facilities and equipment are ready. Once the report and documents such as the facility outline are submitted, the office must issue the business report certificate immediately. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "In Korea a lodging business is not licensed; you file a business report with the head of the district office (si/gun/gu) after the facilities and equipment are ready. Once the report and documents such as the facility outline are submitted, the office must issue the business report certificate immediately.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: a business providing facilities and services where guests can sleep and stay.",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Definition: a lodging business provides facilities and equipment where guests can sleep and stay",
-      "source": "공중위생관리법 제2조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "공중위생관리법 제2조"
     },
     {
       "text": "Issue: the receiving head of the si/gun/gu shall immediately issue the business report certificate",
-      "source": "공중위생관리법 시행규칙 제3조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "공중위생관리법 시행규칙 제3조"
     },
     {
       "text": "Training: classroom and online sessions combined, 3 hours",
-      "source": "공중위생관리법 시행규칙 제23조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "공중위생관리법 시행규칙 제23조"
     }
   ],
   "relatedHeading": "Related Pages",

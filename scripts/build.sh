@@ -16,5 +16,8 @@ if [ $rc -eq 2 ]; then
 elif [ $rc -ne 0 ]; then
   exit $rc
 fi
+# NOCITE-ALL-4(보스 msg 3373·3377, 2026-10-17): 화면·JSON-LD 에 근거·출처·확인일 류 표시가 1건이라도 있으면 빌드 실패.
+# 패턴 정본은 scripts/nocite-gate.mjs(맥4 공용 게이트 사본 — 고치지 말 것). 오탐 면제는 scripts/nocite-allow.txt(문구 1줄=1건).
+node scripts/nocite-gate.mjs $( [ -f scripts/nocite-allow.txt ] && echo --allow scripts/nocite-allow.txt ) .next/server/app
 node scripts/seo-gate.mjs
 node scripts/url-preserve-gate.mjs

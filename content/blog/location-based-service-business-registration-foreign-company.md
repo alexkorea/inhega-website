@@ -15,7 +15,7 @@ slug: "location-based-service-business-registration-foreign-company"
 1. 위치기반서비스사업이란
 2. 외국법인도 신고해야 하는 이유
 3. 신고 대상 판단 기준
-4. 신고 기관 및 근거 법령
+4. 신고 기관과 처리 기간
 5. 필요 서류 (외국법인 특화)
 6. 신고 절차 단계별 안내
 7. 외국법인 특유의 주의사항
@@ -73,7 +73,7 @@ slug: "location-based-service-business-registration-foreign-company"
 
 ---
 
-## 4. 신고 기관 및 근거 법령
+## 4. 신고 기관과 처리 기간
 
 | 항목 | 내용 |
 |---|---|

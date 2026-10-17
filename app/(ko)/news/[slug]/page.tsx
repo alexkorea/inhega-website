@@ -49,7 +49,8 @@ async function getArticleItem(slug: string): Promise<NewsItem | null> {
       meta_description: sanitize(a.meta_description),
       h1: sanitize(a.h1),
       lead: sanitize(a.lead),
-      disclaimer: sanitize(a.disclaimer),
+      // NOCITE-ALL-4: 모델이 지시문을 그대로 흘린 안내문("자동 요약이며 원문 확인 필요 1문장")은 버리고 아래 기본 안내문을 쓴다.
+      disclaimer: /원문\s*확인|\d+\s*문장/.test(sanitize(a.disclaimer)) ? '' : sanitize(a.disclaimer),
       sections: a.sections.map((sec) => ({
         h2: sanitize(sec.h2),
         // JSON-LD articleBody 는 toPlain 이 원문 블록을 그대로 쓴다 — 여기서 정화해야
@@ -137,7 +138,8 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
       publisher,
       mainEntityOfPage: { '@type': 'WebPage', '@id': url },
       ...(a.keywords.length ? { keywords: a.keywords.join(', ') } : {}),
-      ...(item.url ? { isBasedOn: item.url } : {}),
+      // NOCITE-ALL-4: law.go.kr DRF 주소는 API 호출 URL(기관 OC 포함)이라 공개 원문 주소로 싣지 않는다.
+      ...(item.url && !/law\.go\.kr/i.test(item.url) ? { isBasedOn: item.url } : {}),
       articleSection: '인허가 뉴스',
       articleBody: toPlain([a.lead, ...a.sections.flatMap((s) => [s.h2, ...s.body])]).slice(0, 5000),
     },

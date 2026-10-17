@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Mail-Order (Online Shop) Business Report in Korea: Requirements, Documents, Registration Tax | YouSun Administrative Agency",
   "h1": "Mail-Order Sales Business Report (Online Shop Registration) in Korea",
-  "lead": "Anyone running an online shop or other mail-order sales business in Korea must file a mail-order business report with the head of the si/gun/gu that has jurisdiction over the main office, and the office then issues a report certificate. A registration-and-license tax (Class 3) under the Local Tax Act is payable on filing. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "Anyone running an online shop or other mail-order sales business in Korea must file a mail-order business report with the head of the si/gun/gu that has jurisdiction over the main office, and the office then issues a report certificate. A registration-and-license tax (Class 3) under the Local Tax Act is payable on filing.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: mail-order sellers report their name, address, phone, e-mail, domain and host server.",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What is the statutory cost?",
-      "body": "A mail-order business report is listed among the licences subject to registration-and-license tax under the Local Tax Act Enforcement Decree. The Class 3 rate is KRW 40,500 in a city of 500,000 or more, KRW 22,500 in another city and KRW 12,000 in a county, and special/metropolitan cities count as cities of 500,000 or more (counties of metropolitan cities count as counties). This is a local tax; a separate fee provision for the report itself was not confirmed in this review. (Local Tax Act effective 2026-01-01; Enforcement Decree effective 2026-10-01. Private service fees are not statutory costs and are excluded.)"
+      "body": "A mail-order business report is listed among the licences subject to registration-and-license tax under the Local Tax Act Enforcement Decree. The Class 3 rate is KRW 40,500 in a city of 500,000 or more, KRW 22,500 in another city and KRW 12,000 in a county, and special/metropolitan cities count as cities of 500,000 or more (counties of metropolitan cities count as counties). This is a local tax; a separate fee provision for the report itself was not confirmed in this review. (As of 2026. Private service fees are not statutory costs and are excluded.)"
     },
     {
       "h2": "Why is a report returned or supplementation requested?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Report: a mail-order seller shall report to the Fair Trade Commission or the head of the si/gun/gu",
-      "source": "전자상거래 등에서의 소비자보호에 관한 법률 제12조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "전자상거래 등에서의 소비자보호에 관한 법률 제12조"
     },
     {
       "text": "Jurisdiction: submit to the head of the si/gun/gu for the main office (the Fair Trade Commission if the main office is abroad)",
-      "source": "전자상거래 등에서의 소비자보호에 관한 법률 시행령 제13조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "전자상거래 등에서의 소비자보호에 관한 법률 시행령 제13조"
     },
     {
       "text": "Penalty: a fine of up to KRW 30 million",
-      "source": "전자상거래 등에서의 소비자보호에 관한 법률 제42조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "전자상거래 등에서의 소비자보호에 관한 법률 제42조"
     }
   ],
   "relatedHeading": "Related Pages",

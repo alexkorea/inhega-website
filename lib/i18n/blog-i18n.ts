@@ -3229,7 +3229,7 @@ const blogData: BlogI18n[] = [
   <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-certification">Get Expert Consultation</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency (Head Administrative Scrivener: Jung Yu-sun) · Based on Management Innovation SME (Main-Biz) Operating Regulations (MOTSS Notice No. 2023-90) · Last reviewed: Jul 7, 2026</p>`,
+<p class="author-block">YouSun Administrative Agency (Head Administrative Scrivener: Jung Yu-sun)</p>`,
   },
   {
     slug: 'mainbiz-certification-requirements-process',
@@ -3340,7 +3340,7 @@ const blogData: BlogI18n[] = [
   <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-certification">申请专家咨询</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 정유선） · 依据경영혁신형 중소기업(Main-Biz) 제도 운영규정（中小风险企业部告示第2023-90号）编写 · 最终审核日期：2026年7月7日</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`,
   },
   {
     slug: 'mainbiz-certification-requirements-process',
@@ -3453,7 +3453,7 @@ const blogData: BlogI18n[] = [
   <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-certification">専門家相談を申し込む</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 정유선） · 경영혁신형 중소기업(Main-Biz) 제도 운영규정（中小ベンチャー企業部告示第2023-90号）基準で作成 · 最終確認日：2026年7月7日</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`,
   },
   {
     locale: 'en',
@@ -3503,7 +3503,7 @@ const blogData: BlogI18n[] = [
   <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">Book Free Consultation</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency (Representative Administrative Agent: Jung Yu-sun) · Based on Inno-Biz Operating Regulations and Main-Biz Program Operating Regulations (MSS Notification) · Last reviewed 2026-07-08</p>`
+<p class="author-block">YouSun Administrative Agency (Representative Administrative Agent: Jung Yu-sun)</p>`
   },
   {
     locale: 'zh',
@@ -3553,7 +3553,7 @@ const blogData: BlogI18n[] = [
   <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">预约免费咨询</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 정유선） · 依据技术创新型中小企业（Inno-Biz）运营规定及经营创新型中小企业（Main-Biz）制度运营规定（中小风险企业部告示）撰写 · 最终审核日 2026-07-08</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`
   },
   {
     locale: 'ja',
@@ -3603,7 +3603,7 @@ const blogData: BlogI18n[] = [
   <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 정유선） · 技術革新型中小企業（Inno-Biz）運営規定及び経営革新型中小企業（Main-Biz）制度運営規定（中小ベンチャー企業部告示）基準で作成 · 最終確認日：2026年7月8日</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`
   },
   {
     slug: 'location-information-business-registration',
@@ -3621,11 +3621,11 @@ const blogData: BlogI18n[] = [
 <div class="highlight-box"><strong>[Act on the Protection and Use of Location Information, Article 2]</strong> Subparagraph 6: "Location information business" means a business of collecting location information and providing it to a person who runs a location-based service business. Subparagraph 7: "Location-based service business" means a business of providing services using location information.</div>
 <p>As of 2026, the three categories compare as follows. All three are supervised by the Broadcasting, Media and Communications Commission (방송미디어통신위원회).</p>
 <table>
-<thead><tr><th>Category</th><th>Scope</th><th>Procedure</th><th>Entity requirement</th><th>Legal basis</th></tr></thead>
+<thead><tr><th>Category</th><th>Scope</th><th>Procedure</th><th>Entity requirement</th></tr></thead>
 <tbody>
-<tr><td>Personal location information business</td><td>Collects and supplies personal location information</td><td>Registration (reviewed)</td><td>Corporation only</td><td>Art. 5</td></tr>
-<tr><td>Object location information business</td><td>Collects and supplies non-personal location information only</td><td>Notification (accepted)</td><td>No restriction</td><td>Art. 5-2</td></tr>
-<tr><td>Location-based service business</td><td>Provides services using personal location information</td><td>Notification (accepted)</td><td>No restriction</td><td>Art. 9</td></tr>
+<tr><td>Personal location information business</td><td>Collects and supplies personal location information</td><td>Registration (reviewed)</td><td>Corporation only</td></tr>
+<tr><td>Object location information business</td><td>Collects and supplies non-personal location information only</td><td>Notification (accepted)</td><td>No restriction</td></tr>
+<tr><td>Location-based service business</td><td>Provides services using personal location information</td><td>Notification (accepted)</td><td>No restriction</td></tr>
 </tbody>
 </table>
 <p>There is one important carve-out: an <strong>LBS business that does not deal with personal location information is excluded from the notification requirement</strong> (Article 9(1), parenthetical). If your service uses only the location of objects, no LBS notification duty arises at all. This is the point most often misread in practice, so confirm first whether the data you collect or use can identify a specific individual.</p>
@@ -3692,16 +3692,16 @@ const blogData: BlogI18n[] = [
 <h2>7. Penalties for Operating Without Clearance</h2>
 <p>Sanctions scale with the procedure type. Running a registration-category business without registration is the most severe; running a notification-category business without notification comes next. All figures below are statutory maximums written into the Act itself.</p>
 <table>
-<thead><tr><th>Violation</th><th>Sanction</th><th>Legal basis</th></tr></thead>
+<thead><tr><th>Violation</th><th>Sanction</th></tr></thead>
 <tbody>
-<tr><td>Operating a location information business without registration, or registering by false or fraudulent means</td><td>Up to 5 years' imprisonment or a fine up to KRW 50 million</td><td>Art. 39(1)</td></tr>
-<tr><td>Operating without change registration</td><td>Up to 3 years' imprisonment or a fine up to KRW 30 million</td><td>Art. 40(1)</td></tr>
-<tr><td>Operating an object location information business without notification</td><td>Up to 3 years' imprisonment or a fine up to KRW 30 million</td><td>Art. 40(1-2)</td></tr>
-<tr><td>Operating an LBS business without notification (including missing the small-business deadline)</td><td>Up to 3 years' imprisonment or a fine up to KRW 30 million</td><td>Art. 40(2)</td></tr>
-<tr><td>Suspending or closing without approval</td><td>Administrative fine up to KRW 20 million</td><td>Art. 43(1)3</td></tr>
-<tr><td>Failure to file transfer, inheritance, merger or division</td><td>Administrative fine up to KRW 10 million</td><td>Art. 43(2)1</td></tr>
-<tr><td>Failure to file suspension or closure</td><td>Administrative fine up to KRW 10 million</td><td>Art. 43(2)2</td></tr>
-<tr><td>Failure to publish terms of use or the personal location information processing policy</td><td>Administrative fine up to KRW 10 million</td><td>Art. 43(2)3 and 7-2</td></tr>
+<tr><td>Operating a location information business without registration, or registering by false or fraudulent means</td><td>Up to 5 years' imprisonment or a fine up to KRW 50 million</td></tr>
+<tr><td>Operating without change registration</td><td>Up to 3 years' imprisonment or a fine up to KRW 30 million</td></tr>
+<tr><td>Operating an object location information business without notification</td><td>Up to 3 years' imprisonment or a fine up to KRW 30 million</td></tr>
+<tr><td>Operating an LBS business without notification (including missing the small-business deadline)</td><td>Up to 3 years' imprisonment or a fine up to KRW 30 million</td></tr>
+<tr><td>Suspending or closing without approval</td><td>Administrative fine up to KRW 20 million</td></tr>
+<tr><td>Failure to file transfer, inheritance, merger or division</td><td>Administrative fine up to KRW 10 million</td></tr>
+<tr><td>Failure to file suspension or closure</td><td>Administrative fine up to KRW 10 million</td></tr>
+<tr><td>Failure to publish terms of use or the personal location information processing policy</td><td>Administrative fine up to KRW 10 million</td></tr>
 </tbody>
 </table>
 <p>Administrative action runs alongside criminal liability. Where registration, change registration, authorisation or notification was obtained by false or fraudulent means, the Commission <strong>must</strong> cancel the registration or authorisation or order closure of the business (Article 13(1), proviso); for other grounds it may order suspension of up to six months. A closure order then blocks any new filing for one year, which is severe for business continuity.</p>
@@ -3716,15 +3716,13 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. How much does filing assistance cost?</p><p class="faq-a">A. Fees vary case by case, so we provide an exact quote during the free initial consultation.</p></div>
 </div>
 
-<p>The full text is available at the Korean Law Information Center — <a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률" target="_blank" rel="noopener">Act on the Protection and Use of Location Information</a> and its <a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률시행령" target="_blank" rel="noopener">Enforcement Decree</a>.</p>
-
 <div class="cta-block">
  <h3>Talk to a Licensed Specialist</h3>
  <p>YouSun Administrative Agency guides you from category assessment through business plan drafting and supplementation responses, for both registration and notification routes. Phone +82-2-363-2251, weekdays 09:30–17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">Request a Free Consultation</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency (Representative Administrative Scrivener: Jung Yu-sun) · Prepared on the basis of the Act on the Protection and Use of Location Information (Act No. 21066, in force 1 Oct 2025) and its Enforcement Decree (Presidential Decree No. 36084, in force 10 Feb 2026) · Last reviewed Sep 16</p>`,
+<p class="author-block">YouSun Administrative Agency (Representative Administrative Scrivener: Jung Yu-sun)</p>`,
   },
   {
     slug: 'location-information-business-registration',
@@ -3837,15 +3835,13 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 登记·申报代理费用是多少？</p><p class="faq-a">A. 费用因个案而异，将在免费咨询时准确告知。</p></div>
 </div>
 
-<p>条文原文可在韩国国家法令信息中心查阅：<a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률" target="_blank" rel="noopener">《位置信息保护及利用等相关法律》</a>及其<a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률시행령" target="_blank" rel="noopener">施行令</a>。</p>
-
 <div class="cta-block">
  <h3>申请专家咨询</h3>
  <p>从类型判断到事业计划书撰写及补正应对，位置信息事业登记与位置基础服务事业申报全流程由YouSun Administrative Agency协助办理。电话 +82-2-363-2251，工作日 09:30~17:30 KST。</p>
  <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">申请免费咨询</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 정유선） · 依据《位置信息保护及利用等相关法律》（法律第21066号，2025年10月1日施行）及同法施行令（总统令第36084号，2026年2月10日施行）撰写 · 最终核查日 2026年9月16日</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`,
   },
   {
     slug: 'location-information-business-registration',
@@ -3865,11 +3861,11 @@ const blogData: BlogI18n[] = [
 <div class="highlight-box"><strong>[位置情報の保護及び利用等に関する法律 第2条]</strong> 第6号「位置情報事業」とは、位置情報を収集して位置基盤サービス事業を営む者に提供することを事業として営むことをいう。第7号「位置基盤サービス事業」とは、位置情報を利用したサービスを提供することを事業として営むことをいう。</div>
 <p>2026年基準で3類型を整理すると次のとおりです。所管機関はいずれも放送メディア通信委員会（방송미디어통신위원회）です。</p>
 <table>
-<thead><tr><th>区分</th><th>対象</th><th>手続</th><th>法人要件</th><th>根拠条文</th></tr></thead>
+<thead><tr><th>区分</th><th>対象</th><th>手続</th><th>法人要件</th></tr></thead>
 <tbody>
-<tr><td>個人位置情報事業</td><td>個人位置情報の収集・提供</td><td>登録（審査あり）</td><td>法人のみ</td><td>法第5条</td></tr>
-<tr><td>事物位置情報事業</td><td>個人位置情報以外の位置情報のみ収集・提供</td><td>届出（受理）</td><td>制限なし</td><td>法第5条の2</td></tr>
-<tr><td>位置基盤サービス事業</td><td>個人位置情報を利用したサービス提供</td><td>届出（受理）</td><td>制限なし</td><td>法第9条</td></tr>
+<tr><td>個人位置情報事業</td><td>個人位置情報の収集・提供</td><td>登録（審査あり）</td><td>法人のみ</td></tr>
+<tr><td>事物位置情報事業</td><td>個人位置情報以外の位置情報のみ収集・提供</td><td>届出（受理）</td><td>制限なし</td></tr>
+<tr><td>位置基盤サービス事業</td><td>個人位置情報を利用したサービス提供</td><td>届出（受理）</td><td>制限なし</td></tr>
 </tbody>
 </table>
 <p>重要な除外規定が1つあります。<strong>個人位置情報を対象としない位置基盤サービス事業は、届出の対象から除外</strong>されます（法第9条第1項括弧書き）。すなわち、事物の位置情報のみを利用してサービスを提供する場合、位置基盤サービス事業の届出義務自体が生じません。実務で最も誤解が生じやすい箇所ですので、収集・利用する位置情報が特定の個人を識別し得るものかどうかから確認してください。</p>
@@ -3936,16 +3932,16 @@ const blogData: BlogI18n[] = [
 <h2>7. 無登録・無届出の場合の罰則</h2>
 <p>位置情報法の制裁は、手続の類型に応じて重さが明確に分かれます。登録対象である個人位置情報事業を登録せずに行う場合が最も重く、届出対象の事業を届出せずに行う場合がこれに次ぎます。以下の数値はいずれも法律に直接規定された法定刑・過怠料の上限です。</p>
 <table>
-<thead><tr><th>違反行為</th><th>制裁</th><th>根拠条文</th></tr></thead>
+<thead><tr><th>違反行為</th><th>制裁</th></tr></thead>
 <tbody>
-<tr><td>登録せずに位置情報事業を営む／虚偽その他不正な方法により登録</td><td>5年以下の懲役または5,000万ウォン以下の罰金</td><td>法第39条第1号</td></tr>
-<tr><td>変更登録をせずに位置情報事業を営む</td><td>3年以下の懲役または3,000万ウォン以下の罰金</td><td>法第40条第1号</td></tr>
-<tr><td>届出をせずに事物位置情報事業を営む</td><td>3年以下の懲役または3,000万ウォン以下の罰金</td><td>法第40条第1号の2</td></tr>
-<tr><td>届出をせずに位置基盤サービス事業を営む（小商工人特例の期限徒過を含む）</td><td>3年以下の懲役または3,000万ウォン以下の罰金</td><td>法第40条第2号</td></tr>
-<tr><td>承認を受けずに休業・廃業</td><td>2,000万ウォン以下の過怠料</td><td>法第43条第1項第3号</td></tr>
-<tr><td>譲受・相続・合併・分割の届出を怠った場合</td><td>1,000万ウォン以下の過怠料</td><td>法第43条第2項第1号</td></tr>
-<tr><td>休業・廃業の届出を怠った場合</td><td>1,000万ウォン以下の過怠料</td><td>法第43条第2項第2号</td></tr>
-<tr><td>利用約款の未公開／個人位置情報処理方針の未公開</td><td>1,000万ウォン以下の過怠料</td><td>法第43条第2項第3号・第7号の2</td></tr>
+<tr><td>登録せずに位置情報事業を営む／虚偽その他不正な方法により登録</td><td>5年以下の懲役または5,000万ウォン以下の罰金</td></tr>
+<tr><td>変更登録をせずに位置情報事業を営む</td><td>3年以下の懲役または3,000万ウォン以下の罰金</td></tr>
+<tr><td>届出をせずに事物位置情報事業を営む</td><td>3年以下の懲役または3,000万ウォン以下の罰金</td></tr>
+<tr><td>届出をせずに位置基盤サービス事業を営む（小商工人特例の期限徒過を含む）</td><td>3年以下の懲役または3,000万ウォン以下の罰金</td></tr>
+<tr><td>承認を受けずに休業・廃業</td><td>2,000万ウォン以下の過怠料</td></tr>
+<tr><td>譲受・相続・合併・分割の届出を怠った場合</td><td>1,000万ウォン以下の過怠料</td></tr>
+<tr><td>休業・廃業の届出を怠った場合</td><td>1,000万ウォン以下の過怠料</td></tr>
+<tr><td>利用約款の未公開／個人位置情報処理方針の未公開</td><td>1,000万ウォン以下の過怠料</td></tr>
 </tbody>
 </table>
 <p>刑事処罰とは別に行政処分も併行します。虚偽その他不正な方法により登録・変更登録・認可を受け、または届出をした場合、放送メディア通信委員会は<strong>必ず登録・認可を取り消し、または事業の廃止を命じなければならず</strong>（法第13条第1項ただし書）、その他の事由については6か月以内の事業停止を命ずることができます。廃止命令を受けると1年間は新規届出が閉ざされるため、事業の継続性に与える打撃は大きくなります。</p>
@@ -3960,15 +3956,13 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 登録・届出の代行費用はいくらですか？</p><p class="faq-a">A. 費用は案件ごとに異なるため、無料相談の際に正確にご案内いたします。</p></div>
 </div>
 
-<p>条文の原文は国家法令情報センターの<a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률" target="_blank" rel="noopener">位置情報の保護及び利用等に関する法律</a>および<a href="https://www.law.go.kr/법령/위치정보의보호및이용등에관한법률시행령" target="_blank" rel="noopener">同法施行令</a>でご確認いただけます。</p>
-
 <div class="cta-block">
  <h3>無料相談を申し込む</h3>
  <p>位置情報事業の登録および位置基盤サービス事業の届出について、類型判断から事業計画書の作成・補完対応まで、YouSun Administrative Agency（日本の行政書士事務所に相当する韓国の行政士事務所）がサポートいたします。電話 +82-2-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 정유선） · 「位置情報の保護及び利用等に関する法律」（法律第21066号、2025年10月1日施行）および同法施行令（大統領令第36084号、2026年2月10日施行）基準で作成 · 最終確認日：2026年9月16日</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`,
   },
   // ── administrative-scrivener-scope-and-limits (inhega-daily 2026-09-22) ──
   {
@@ -3981,7 +3975,6 @@ const blogData: BlogI18n[] = [
     excerpt: 'Before you delegate a Korean licence application, check what the law actually allows your representative to do. The scope is fixed by statute, not by the firm.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What You May Delegate</li><li>Scrivener Categories Change the Scope</li><li>What You May Not Delegate</li><li>Five Things to Verify Before You Engage</li><li>Penalties for Unlicensed Representation</li><li>Duties Owed to You After Engagement</li><li>FAQ</li></ol></div>
 <p>A Korean <strong>administrative scrivener</strong> (행정사, haengjeongsa) is a licensed professional who, on another person's mandate, prepares filings for government agencies and acts as agent for licence and permit applications. That scope is not set by the firm you hire — it is fixed by Article 2 of the Certified Administrative Scrivener Act and Article 2 of its Enforcement Decree. So what to check before signing is not the marketing copy but the boundary the statute draws around that office.</p>
-<p>This guide follows the Act (Act No. 19034, in force 15 November 2022) and its Enforcement Decree (Presidential Decree No. 35813, in force 1 January 2026); every figure below comes from those texts.</p>
 
 <h2>What You May Delegate</h2>
 <p>Article 2(1) lists seven categories of scrivener work, with a proviso: work restricted under another statute may not be performed. The provision that matters most in licensing is subparagraph 5 — agency for applications, claims and reports made to an agency in order to obtain an authorisation, permit or licence.</p>
@@ -4005,24 +3998,24 @@ const blogData: BlogI18n[] = [
 
 <h2>Five Things to Verify Before You Engage</h2>
 <p>Each item below has a statutory basis and can be checked on the spot before signing.</p>
-<table><thead><tr><th>Item</th><th>What to look at</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Report confirmation certificate</td><td>The original issued by the head of the city, county or district of the office. Lending, borrowing and brokering it are prohibited, so check the name against the person who will handle your matter.</td><td>Act Articles 12, 13</td></tr>
-<tr><td>Office</td><td>Only one office may be established; a joint office requires 2 or more scriveners, with at least 1 resident at the main office and at each branch.</td><td>Act Article 14</td></tr>
-<tr><td>Case register</td><td>On accepting a mandate, the scrivener must keep a register recording the serial number, date, outline of the work, remuneration, and the client's address and name.</td><td>Act Article 24</td></tr>
-<tr><td>Restriction on accepting cases</td><td>A scrivener retired from public office may not, for 1 year after retirement, take licensing agency work directed at the agency where they served in the 1 year before retirement.</td><td>Act Article 21-2</td></tr>
-<tr><td>Continuing education</td><td>Refresher training by the competent Mayor or Governor is mandatory, and practical training by the Minister of the Interior and Safety must be completed before starting practice.</td><td>Act Article 25</td></tr>
+<table><thead><tr><th>Item</th><th>What to look at</th></tr></thead><tbody>
+<tr><td>Report confirmation certificate</td><td>The original issued by the head of the city, county or district of the office. Lending, borrowing and brokering it are prohibited, so check the name against the person who will handle your matter.</td></tr>
+<tr><td>Office</td><td>Only one office may be established; a joint office requires 2 or more scriveners, with at least 1 resident at the main office and at each branch.</td></tr>
+<tr><td>Case register</td><td>On accepting a mandate, the scrivener must keep a register recording the serial number, date, outline of the work, remuneration, and the client's address and name.</td></tr>
+<tr><td>Restriction on accepting cases</td><td>A scrivener retired from public office may not, for 1 year after retirement, take licensing agency work directed at the agency where they served in the 1 year before retirement.</td></tr>
+<tr><td>Continuing education</td><td>Refresher training by the competent Mayor or Governor is mandatory, and practical training by the Minister of the Interior and Safety must be completed before starting practice.</td></tr>
 </tbody></table>
 <p>After a move, the scrivener must report the new location to the competent local government within 10 days. If the address on your engagement letter differs from the certificate, ask whether that report has been filed.</p>
 <p>A scrivener corporation adds one check: it requires 3 or more scriveners as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/blog/nonprofit-association-permit">non-profit association establishment permits</a>.</p>
 
 <h2>Penalties for Unlicensed Representation</h2>
 <p>A non-scrivener may not carry on Article 2 work as a business, except where another statute allows it, and may not use the title of scrivener or a similar title. Both prohibitions are backed by criminal penalties and administrative fines.</p>
-<table><thead><tr><th>Violation</th><th>Penalty</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Practising as a business without being a scrivener; lending, borrowing or brokering a report confirmation certificate</td><td>Imprisonment of up to 3 years or a fine of up to KRW 30,000,000</td><td>Act Article 36(1)</td></tr>
-<tr><td>Practising without filing the business report; breaching the case restriction; advertising connections; misleading advertising; disclosing confidences; practising while suspended</td><td>Imprisonment of up to 1 year or a fine of up to KRW 10,000,000</td><td>Act Article 36(2)</td></tr>
-<tr><td>Taking money or benefits beyond remuneration; refusing a mandate without grounds; accepting both sides; intervening in disputes; using brokers</td><td>A fine of up to KRW 1,000,000</td><td>Act Article 36(3)</td></tr>
-<tr><td>Using the title of scrivener or a similar title; not complying, without grounds, with an order to report or submit materials</td><td>An administrative fine of up to KRW 5,000,000</td><td>Act Article 38(1)</td></tr>
-<tr><td>Not reporting an office relocation; not keeping a case register or keeping a false one; practising without refresher training</td><td>An administrative fine of up to KRW 1,000,000</td><td>Act Article 38(2)</td></tr>
+<table><thead><tr><th>Violation</th><th>Penalty</th></tr></thead><tbody>
+<tr><td>Practising as a business without being a scrivener; lending, borrowing or brokering a report confirmation certificate</td><td>Imprisonment of up to 3 years or a fine of up to KRW 30,000,000</td></tr>
+<tr><td>Practising without filing the business report; breaching the case restriction; advertising connections; misleading advertising; disclosing confidences; practising while suspended</td><td>Imprisonment of up to 1 year or a fine of up to KRW 10,000,000</td></tr>
+<tr><td>Taking money or benefits beyond remuneration; refusing a mandate without grounds; accepting both sides; intervening in disputes; using brokers</td><td>A fine of up to KRW 1,000,000</td></tr>
+<tr><td>Using the title of scrivener or a similar title; not complying, without grounds, with an order to report or submit materials</td><td>An administrative fine of up to KRW 5,000,000</td></tr>
+<tr><td>Not reporting an office relocation; not keeping a case register or keeping a false one; practising without refresher training</td><td>An administrative fine of up to KRW 1,000,000</td></tr>
 </tbody></table>
 <p>If an employee or associate scrivener breaches Article 36 in connection with the business, the firm is fined under the same provision as well — unless reasonable care and supervision were exercised.</p>
 <p>Supervision is real: the Minister of the Interior and Safety, or the head of the local government of the office, may order reports or submission of the case register, and officials may inspect books on site. Two or more offices, or money beyond remuneration, can bring suspension of practice within a range of 6 months, and no such disposition may be made once 3 years have passed since the cause arose.</p>
@@ -4031,7 +4024,6 @@ const blogData: BlogI18n[] = [
 <p>Once the mandate is in place, the scrivener must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
 <p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the scrivener nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
 <p>Confidentiality survives the engagement: a scrivener, a former scrivener and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>.</p>
-<p>Both statutes are available from the Korean Law Information Center: <a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">the Act</a> and <a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">its Enforcement Decree</a>.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a scrivener file my licence application with only the representative's name on the form?</p><p class="faq-a">A. Yes. Article 2(1)5 makes agency for applications, claims and reports to agencies for obtaining authorisations, permits and licences part of scrivener work, and Article 2(5) of the Decree spells it out as acting as agent in requesting an agency action or making a report. Documents evidencing the mandate are still required.</p></div>
@@ -4047,7 +4039,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Principal Scrivener Jeong Yuseon) · Prepared against the text of the Certified Administrative Scrivener Act (Act No. 19034, in force 15 November 2022) and its Enforcement Decree (Presidential Decree No. 35813, in force 1 January 2026) · Last reviewed 21 September</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Principal Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'administrative-scrivener-scope-and-limits',
@@ -4059,7 +4051,7 @@ const blogData: BlogI18n[] = [
     excerpt: '委托韩国许可申请之前，先确认法律允许对方做到哪一步。业务范围由法律规定，而不是由事务所自行界定。',
     content: `<div class="toc"><p>目录</p><ol><li>可以委托的业务</li><li>行政士种类不同，委托范围也不同</li><li>不可委托的业务</li><li>委托前必须确认的五项</li><li>无资格代办的处罚</li><li>委托之后行政士承担的义务</li><li>常见问题</li></ol></div>
 <p>韩国<strong>行政士</strong>（행정사）是受他人委托、为行政机关制作申请文件并代理许可、认可、执照及批准申请的持照专业人员。其业务范围并非由事务所自行决定，而是由《行政士法》第2条与同法施行令第2条以条文方式确定。因此委托之前应当确认的不是宣传用语，而是法律为该事务所划定的业务界限。</p>
-<p>本文以现行《行政士法》（法律第19034号，2022年11月15日施行）与同法施行令（总统令第35813号，2026年1月1日施行）原文为准，整理可委托与不可委托的范围、委托前确认要点及违反时的处罚。文中数值均取自该两部法令。</p>
+<p>本文整理可委托与不可委托的范围、委托前确认要点及违反时的处罚。文中数值均取自该两部法令。</p>
 
 <h2>可以委托的业务</h2>
 <p>《行政士法》第2条第1项列举了行政士的七类业务，并以但书规定"依其他法律受限制的业务不得办理"。在许可实务中最关键的是第5号——为取得认可、许可及执照等，代理向行政机关提出的申请、请求及申报。</p>
@@ -4083,24 +4075,24 @@ const blogData: BlogI18n[] = [
 
 <h2>委托前必须确认的五项</h2>
 <p>以下五项均有法令依据，签约前可现场确认。</p>
-<table><thead><tr><th>确认事项</th><th>确认内容</th><th>依据</th></tr></thead><tbody>
-<tr><td>申报确认证</td><td>由事务所所在地市长、郡守、区厅长核发的确认证正本。出借、借用及居间介绍均被禁止，应确认证书姓名与实际经办人一致</td><td>法第12条、第13条</td></tr>
-<tr><td>事务所</td><td>行政士仅可设置1处业务事务所；合同事务所须由2名以上行政士组成，主事务所与分事务所各须1名以上常驻</td><td>法第14条</td></tr>
-<tr><td>业务处理簿</td><td>受托后须制作并保管业务处理簿，记载流水号、受托年月日、业务概要、报酬额、委托人地址与姓名</td><td>法第24条</td></tr>
-<tr><td>受托限制</td><td>由公务员职位退职的行政士，自退职之日起1年内，不得就退职前1年至退职时任职机关的许可申请代理业务接受委托</td><td>法第21条之2</td></tr>
-<tr><td>研修教育</td><td>行政士须接受市·道知事实施的研修教育；开始执业前须完成行政安全部长官施行的实务教育</td><td>法第25条</td></tr>
+<table><thead><tr><th>确认事项</th><th>确认内容</th></tr></thead><tbody>
+<tr><td>申报确认证</td><td>由事务所所在地市长、郡守、区厅长核发的确认证正本。出借、借用及居间介绍均被禁止，应确认证书姓名与实际经办人一致</td></tr>
+<tr><td>事务所</td><td>行政士仅可设置1处业务事务所；合同事务所须由2名以上行政士组成，主事务所与分事务所各须1名以上常驻</td></tr>
+<tr><td>业务处理簿</td><td>受托后须制作并保管业务处理簿，记载流水号、受托年月日、业务概要、报酬额、委托人地址与姓名</td></tr>
+<tr><td>受托限制</td><td>由公务员职位退职的行政士，自退职之日起1年内，不得就退职前1年至退职时任职机关的许可申请代理业务接受委托</td></tr>
+<tr><td>研修教育</td><td>行政士须接受市·道知事实施的研修教育；开始执业前须完成行政安全部长官施行的实务教育</td></tr>
 </tbody></table>
 <p>事务所迁移的，须自迁移之日起10日内向迁移后事务所所在地的管辖市长等申报。若委托合同上的地址与确认证地址不一致，宜询问迁移申报是否已办妥。</p>
 <p>法人形态还须确认一项：行政士法人须由3名以上行政士作为成员方可设立，并须就因故意或过失致委托人损害的赔偿责任，计提准备金或投保。具体流程可见<a href="/blog/nonprofit-association-permit">非营利社团法人设立许可程序</a>。</p>
 
 <h2>无资格代办的处罚</h2>
 <p>非行政士者，除其他法律允许的情形外，不得以第2条所定业务为业，亦不得使用行政士或与之类似的名称。上述禁止均有刑罚与罚款作为保障。</p>
-<table><thead><tr><th>违反行为</th><th>处罚</th><th>依据</th></tr></thead><tbody>
-<tr><td>非行政士以行政士业务为业；出借、借用或居间介绍申报确认证</td><td>3年以下有期徒刑或30,000,000韩元以下罚金</td><td>法第36条第1项</td></tr>
-<tr><td>未办业务申报而执业；违反受托限制；宣扬私人关系；误导性广告；泄露业务秘密；停业期间执业</td><td>1年以下有期徒刑或10,000,000韩元以下罚金</td><td>法第36条第2项</td></tr>
-<tr><td>收取报酬以外的金钱或财产利益；无正当理由拒绝受托；双方受托；介入权利关系纠纷；利用介绍业者揽收委托</td><td>1,000,000韩元以下罚金</td><td>法第36条第3项</td></tr>
-<tr><td>使用行政士或类似名称；无正当理由不服从报告、资料提交命令</td><td>5,000,000韩元以下罚款</td><td>法第38条第1项</td></tr>
-<tr><td>未申报事务所迁移；未制作或虚假制作业务处理簿；未接受研修教育而执业</td><td>1,000,000韩元以下罚款</td><td>法第38条第2项</td></tr>
+<table><thead><tr><th>违反行为</th><th>处罚</th></tr></thead><tbody>
+<tr><td>非行政士以行政士业务为业；出借、借用或居间介绍申报确认证</td><td>3年以下有期徒刑或30,000,000韩元以下罚金</td></tr>
+<tr><td>未办业务申报而执业；违反受托限制；宣扬私人关系；误导性广告；泄露业务秘密；停业期间执业</td><td>1年以下有期徒刑或10,000,000韩元以下罚金</td></tr>
+<tr><td>收取报酬以外的金钱或财产利益；无正当理由拒绝受托；双方受托；介入权利关系纠纷；利用介绍业者揽收委托</td><td>1,000,000韩元以下罚金</td></tr>
+<tr><td>使用行政士或类似名称；无正当理由不服从报告、资料提交命令</td><td>5,000,000韩元以下罚款</td></tr>
+<tr><td>未申报事务所迁移；未制作或虚假制作业务处理簿；未接受研修教育而执业</td><td>1,000,000韩元以下罚款</td></tr>
 </tbody></table>
 <p>事务职员或所属行政士就业务违反第36条时，除处罚行为人外，对该事务所或法人亦并处同条罚金；但已尽相当注意与监督者，不在此限。</p>
 <p>监督亦实际运作：行政安全部长官或管辖市长等可命令报告业务或提交业务处理簿等资料，公务员可进入事务所检查账簿或询问。设置两处以上事务所、收取报酬以外金品等，可在6个月范围内命令停止业务；该处分自事由发生之日起经过3年后不得作出。</p>
@@ -4109,7 +4101,6 @@ const blogData: BlogI18n[] = [
 <p>委托合同成立后，行政士须维持品位，以诚信公正履行职务；在履行受托业务过程中因故意或过失致委托人财产损害的，负赔偿责任。</p>
 <p>报酬关系亦由法律规定。行政士自委托人收取报酬，行政士及其事务职员不得以任何名目在报酬之外向委托人收取金钱、财产利益或其他对待给付。若在递交过程中被要求另行付费，请确认该项目是否为向行政机关缴纳的法定手续费。费用因个案而异，将于免费咨询时准确说明。</p>
 <p>保密义务在委托结束后仍存续：行政士或曾为行政士者（含现任及曾任事务职员），不得无正当理由泄露因职务知悉的事实。行业判断不明时的要点见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。</p>
-<p>法令原文可在国家法令信息中心直接查阅：<a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">行政士法</a>与<a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">行政士法施行令</a>。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 申请书上只写代表姓名，由行政士代为递交可以吗？</p><p class="faq-a">A. 可以。《行政士法》第2条第1项第5号将为取得认可、许可、执照等而向行政机关提出申请、请求、申报的代理定为行政士业务，同法施行令第2条第5号将其具体化为"向行政机关要求一定行为或进行申报的代理事务"。代理人递交时仍须备齐可证明委托事实的文件。</p></div>
@@ -4125,19 +4116,19 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请免费咨询</a>
 </div>
 
-<p class="author-block">柳善行政士事务所（代表行政士 郑柳善）· 依《行政士法》（法律第19034号，2022年11月15日施行）及同法施行令（总统令第35813号，2026年1月1日施行）原文撰写 · 最终审阅日 9月21日</p>`
+<p class="author-block">柳善行政士事务所（代表行政士 郑柳善）</p>`
   },
   {
     slug: 'administrative-scrivener-scope-and-limits',
     locale: 'ja',
     title: '韓国の行政士に委任できる許認可業務の範囲と限界',
     metaTitle: '韓国行政士の業務範囲と委任の限界 — 行政士法で確認',
-    metaDescription: '韓国の許認可を委任する前に確認すべき業務範囲を、行政士法第2条と同法施行令第2条の原文に基づいて整理しました。委任前の確認5項目と違反時の制裁も掲載しています。',
+    metaDescription: '韓国の許認可を委任する前に確認すべき業務範囲を、行政士法第2条と同法施行令第2条に沿って整理しました。委任前の確認5項目と違反時の制裁も掲載しています。',
     category: '許認可',
     excerpt: '韓国の許認可を委任する前に、法律がどこまでを認めているかを確認してください。業務範囲は事務所が決めるものではなく、法律が定めています。',
     content: `<div class="toc"><p>目次</p><ol><li>委任できる業務</li><li>行政士の種類による業務範囲の違い</li><li>委任できない業務</li><li>委任前の確認5項目</li><li>無資格代行と違反行為への制裁</li><li>委任後に行政士が負う義務</li><li>よくあるご質問</li></ol></div>
 <p>韓国の<strong>行政士</strong>（행정사）は、日本の行政書士事務所に相当する韓国の行政士事務所に所属し、他人の委任を受けて行政機関に提出する書類を作成し、認可・許可・免許・承認の申請や届出を代理する有資格者です。その業務範囲は事務所が独自に定めるものではなく、「行政士法」第2条と同法施行令第2条が条文で定めています。したがって委任前に確認すべきものは広告の文言ではなく、法令がその事務所に認めた業務の境界です。</p>
-<p>本稿は現行の「行政士法」（法律第19034号、2022年11月15日施行）と同法施行令（大統領令第35813号、2026年1月1日施行）の原文に基づき、委任できる範囲と委任できない事項、委任前の確認項目、違反時の制裁を整理します。記載の数値はすべて上記2法令から確認しています。</p>
+<p>本稿では、委任できる範囲と委任できない事項、委任前の確認項目、違反時の制裁を整理します。</p>
 <div class="highlight-box">この記事でわかること — 行政士に委任できる許認可業務の範囲（法第2条第1項第5号）、行政士の種類ごとの業務範囲（施行令第3条）、委任前に確認する5項目、無資格代行に対する制裁（法第36条・第38条）。</div>
 
 <h2>委任できる業務</h2>
@@ -4162,24 +4153,24 @@ const blogData: BlogI18n[] = [
 
 <h2>委任前の確認5項目</h2>
 <p>次の5項目はいずれも法令に根拠があり、契約前にその場で確認できます。</p>
-<table><thead><tr><th>確認項目</th><th>確認内容</th><th>根拠</th></tr></thead><tbody>
-<tr><td>届出確認証</td><td>事務所所在地の市長・郡守・区庁長が交付した確認証の原本。貸与・借用・斡旋はいずれも禁止されているため、証書の氏名と実際の担当者が一致するかを確認する</td><td>法第12条・第13条</td></tr>
-<tr><td>事務所</td><td>行政士は業務のための事務所を1か所のみ設置でき、合同事務所は2名以上で構成し、主事務所と分事務所にそれぞれ1名以上が常勤する必要がある</td><td>法第14条</td></tr>
-<tr><td>業務処理簿</td><td>委任を受けたときは、一連番号・委任年月日・業務の概要・報酬額・委任者の住所と氏名を記載した業務処理簿を作成・保管しなければならない</td><td>法第24条</td></tr>
-<tr><td>受任制限</td><td>公務員職を退職した行政士は、退職前1年から退職時までに勤務した行政機関に対する許認可申請代理の業務を、退職日から1年間受任できない</td><td>法第21条の2</td></tr>
-<tr><td>研修教育</td><td>行政士は市・道知事が実施する研修教育を受けなければならず、業務を開始するには行政安全部長官が施行する実務教育を修了する必要がある</td><td>法第25条</td></tr>
+<table><thead><tr><th>確認項目</th><th>確認内容</th></tr></thead><tbody>
+<tr><td>届出確認証</td><td>事務所所在地の市長・郡守・区庁長が交付した確認証の原本。貸与・借用・斡旋はいずれも禁止されているため、証書の氏名と実際の担当者が一致するかを確認する</td></tr>
+<tr><td>事務所</td><td>行政士は業務のための事務所を1か所のみ設置でき、合同事務所は2名以上で構成し、主事務所と分事務所にそれぞれ1名以上が常勤する必要がある</td></tr>
+<tr><td>業務処理簿</td><td>委任を受けたときは、一連番号・委任年月日・業務の概要・報酬額・委任者の住所と氏名を記載した業務処理簿を作成・保管しなければならない</td></tr>
+<tr><td>受任制限</td><td>公務員職を退職した行政士は、退職前1年から退職時までに勤務した行政機関に対する許認可申請代理の業務を、退職日から1年間受任できない</td></tr>
+<tr><td>研修教育</td><td>行政士は市・道知事が実施する研修教育を受けなければならず、業務を開始するには行政安全部長官が施行する実務教育を修了する必要がある</td></tr>
 </tbody></table>
 <p>事務所を移転した場合は、移転した日から10日以内に移転後の事務所所在地を管轄する市長等へ届け出なければなりません。委任契約書の住所と確認証の住所が異なる場合は、移転の届出が済んでいるかをお尋ねください。</p>
 <p>法人形態であれば確認事項がもう一つあります。行政士法人は3名以上の行政士を構成員として設立でき、職務の遂行に際し故意又は過失で依頼人に損害を与えた場合の賠償責任を担保するため、損害賠償準備金の積立て又は保険加入等の措置を講じなければなりません。非営利法人の設立のように期間の長い案件では確認しておくと安心です。手続の流れは<a href="/blog/nonprofit-association-permit">非営利社団法人の設立許可手続</a>でご覧いただけます。</p>
 
 <h2>無資格代行と違反行為への制裁</h2>
 <p>行政士でない者は、他の法律により許容される場合を除き第2条の業務を業として行うことができず、行政士又はこれと類似する名称を使用することもできません。これらの禁止は罰則と過怠料によって担保されています。</p>
-<table><thead><tr><th>違反行為</th><th>制裁</th><th>根拠</th></tr></thead><tbody>
-<tr><td>行政士でない者が行政士業務を業として行った場合、届出確認証の貸与・借用・斡旋</td><td>3年以下の懲役又は30,000,000ウォン以下の罰金</td><td>法第36条第1項</td></tr>
-<tr><td>業務届出なく業務を行った場合、受任制限違反、縁故の宣伝、誤導のおそれのある広告、業務上の秘密漏洩、業務停止期間中の業務</td><td>1年以下の懲役又は10,000,000ウォン以下の罰金</td><td>法第36条第2項</td></tr>
-<tr><td>報酬以外の金銭・財産上の利益の受領、正当な理由のない委任拒否、双方受任、権利関係紛争への介入、斡旋業者を利用した委任誘致</td><td>1,000,000ウォン以下の罰金</td><td>法第36条第3項</td></tr>
-<tr><td>行政士又は類似名称の使用、正当な理由なく報告・資料提出命令に従わない場合</td><td>5,000,000ウォン以下の過怠料</td><td>法第38条第1項</td></tr>
-<tr><td>事務所移転の届出をしない場合、業務処理簿の不作成又は虚偽作成、研修教育を受けずに業務を行った場合</td><td>1,000,000ウォン以下の過怠料</td><td>法第38条第2項</td></tr>
+<table><thead><tr><th>違反行為</th><th>制裁</th></tr></thead><tbody>
+<tr><td>行政士でない者が行政士業務を業として行った場合、届出確認証の貸与・借用・斡旋</td><td>3年以下の懲役又は30,000,000ウォン以下の罰金</td></tr>
+<tr><td>業務届出なく業務を行った場合、受任制限違反、縁故の宣伝、誤導のおそれのある広告、業務上の秘密漏洩、業務停止期間中の業務</td><td>1年以下の懲役又は10,000,000ウォン以下の罰金</td></tr>
+<tr><td>報酬以外の金銭・財産上の利益の受領、正当な理由のない委任拒否、双方受任、権利関係紛争への介入、斡旋業者を利用した委任誘致</td><td>1,000,000ウォン以下の罰金</td></tr>
+<tr><td>行政士又は類似名称の使用、正当な理由なく報告・資料提出命令に従わない場合</td><td>5,000,000ウォン以下の過怠料</td></tr>
+<tr><td>事務所移転の届出をしない場合、業務処理簿の不作成又は虚偽作成、研修教育を受けずに業務を行った場合</td><td>1,000,000ウォン以下の過怠料</td></tr>
 </tbody></table>
 <p>事務職員又は所属行政士が業務に関連して第36条に違反した場合は、行為者を罰するほか、その行政士又は行政士法人にも同条の罰金刑が科されます。ただし違反行為を防止するため相当の注意と監督を怠らなかった場合はこの限りではありません。</p>
 <p>監督も実際に機能しています。行政安全部長官又は事務所所在地を管轄する市長等は、業務に関する報告や業務処理簿等の資料提出を命じることができ、所属公務員が事務所に立ち入って帳簿・書類を検査し、又は質問することができます。2か所以上の事務所を設置した場合や報酬以外の金品を受領した場合等には、6か月の範囲で業務停止が命じられることがあり、その処分は事由が発生した日から3年を経過すると行うことができません。</p>
@@ -4188,7 +4179,6 @@ const blogData: BlogI18n[] = [
 <p>委任契約が成立すると、行政士は品位を保持し、信義と誠実をもって公正に職務を遂行する義務を負います。委任された業務の遂行に際し故意又は過失で委任者に財産上の損害を与えた場合は、その損害を賠償する責任があります。</p>
 <p>報酬関係も法律に定められています。行政士は業務を委任した者から報酬を受け、行政士及びその事務職員は業務に関して報酬以外にいかなる名目でも委任者から金銭・財産上の利益その他の反対給付を受けることができません。提出の過程で別途の費用を求められた場合は、その項目が行政機関に納める法定手数料かどうかをご確認ください。費用は事案ごとに異なりますので、無料相談の際に正確にご案内いたします。</p>
 <p>守秘義務は委任終了後も残ります。行政士又は行政士であった者（その事務職員及び事務職員であった者を含む）は、正当な理由なく職務上知り得た事実を他人に漏らしてはなりません。許認可書類には事業計画と財務情報が含まれるため、この条文は実質的な保護となります。業種の判断が難しい場合の確認点は<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>にまとめています。</p>
-<p>法令の原文は国家法令情報センターでご確認いただけます。<a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">行政士法</a>と<a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">行政士法施行令</a>を併せてご覧ください。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 申請書に代表者の氏名だけを記載し、行政士が代わりに提出してもよいですか。</p><p class="faq-a">A. 可能です。「行政士法」第2条第1項第5号は、認可・許可・免許等を受けるために行政機関に対して行う申請・請求・届出等の代理を行政士の業務と定め、同法施行令第2条第5号がその内容を「行政機関に一定の行為を求め、又は届出をする事務を代理すること」と具体化しています。代理人が提出する場合も、委任の事実を確認できる書類は必要です。</p></div>
@@ -4204,7 +4194,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">柳善行政士事務所（代表行政士 鄭柳善）· 「行政士法」（法律第19034号、2022年11月15日施行）及び同法施行令（大統領令第35813号、2026年1月1日施行）の原文に基づき作成 · 最終確認日 9月21日</p>`
+<p class="author-block">柳善行政士事務所（代表行政士 鄭柳善）</p>`
   },
   // ── building-usage-change-requirements (inhega-daily 2026-09-25) ──
   {
@@ -4217,7 +4207,7 @@ const blogData: BlogI18n[] = [
     excerpt: 'The requirement does not start from what your building is classified as. It starts from what the use you are moving into demands.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>The Target Use Sets the Requirement</li><li>Facility Groups Decide Permit or Report</li><li>The Nine Facility Groups</li><li>Uses Excluded From the Exemption</li><li>What the New Use Demands</li><li>Approval for Use and Penalties</li><li>FAQ</li></ol></div>
 <p>A <strong>change of building use</strong> in Korea is the procedure for converting a building that has already received approval for use into a different use. The most common mistake in practice is to start from the question "what is our building classified as?" Under the Building Act the requirement runs the other way: it starts from <strong>what the use you are moving into demands</strong>.</p>
-<p>The procedure applies to a building that has already obtained approval for use under Article 22 of the Building Act; at the construction stage the question is instead which use to declare in the building permit. This guide follows the current Building Act (Act No. 21035, in force 27 February 2026), its Enforcement Decree (Presidential Decree No. 36587, in force 18 September 2026) and Table 1 of that Decree.</p>
+<p>The procedure applies to a building that has already obtained approval for use under Article 22 of the Building Act; at the construction stage the question is instead which use to declare in the building permit.</p>
 
 <h2>The Target Use Sets the Requirement</h2>
 <p>Article 19(1) of the Building Act states the requirement in a single sentence, and that sentence is the baseline for everything that follows.</p>
@@ -4226,10 +4216,10 @@ const blogData: BlogI18n[] = [
 
 <h2>Facility Groups Decide Permit or Report</h2>
 <p>Anyone seeking to change the use of a building that has received approval for use must obtain a <strong>permit</strong> from, or file a <strong>report</strong> with, the Special Self-Governing City Mayor, the Special Self-Governing Province Governor, or the head of the si, gun or gu. Which of the two applies turns solely on the numbering of the facility groups.</p>
-<table><thead><tr><th>Direction of change</th><th>Procedure</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Into a use in a lower-numbered facility group (an upper group)</td><td>Permit</td><td>Art. 19(2)1</td></tr>
-<tr><td>Into a use in a higher-numbered facility group (a lower group)</td><td>Report</td><td>Art. 19(2)2</td></tr>
-<tr><td>Within the same facility group</td><td>Application to amend the entry in the building register</td><td>Art. 19(3)</td></tr>
+<table><thead><tr><th>Direction of change</th><th>Procedure</th></tr></thead><tbody>
+<tr><td>Into a use in a lower-numbered facility group (an upper group)</td><td>Permit</td></tr>
+<tr><td>Into a use in a higher-numbered facility group (a lower group)</td><td>Report</td></tr>
+<tr><td>Within the same facility group</td><td>Application to amend the entry in the building register</td></tr>
 </tbody></table>
 <p>"Upper group" does not mean a higher class of facility: the Act defines it as a facility group bearing a <strong>smaller number</strong> among the subparagraphs of Article 19(4). The test is arithmetic, not intuitive. An office in the neighbourhood living facility group (subparagraph 7) becoming lodging in the business facility group (subparagraph 5) moves to a smaller number and needs a permit; the reverse needs only a report.</p>
 <p>Mixed uses are provided for too: an owner may apply with two or more uses, but the authority may allow them only where every one conforms to the building and siting standards of the Act and related statutes. If one use fails, the whole application fails. Once the classification is settled, the form and attachments follow the Ordinance of the Ministry of Land, Infrastructure and Transport; the competent authority is the same in all three cases.</p>
@@ -4263,7 +4253,7 @@ const blogData: BlogI18n[] = [
 
 <h2>What the New Use Demands</h2>
 <p>What usually blocks a change of use is not Article 19 itself but the standards it applies by analogy. Zoning comes first: under Article 54 of the National Land Planning and Utilisation Act the use must be permitted in the relevant zone, and a use prohibited by ordinance is impossible whatever the building's condition. Evacuation and fire provisions come next, and these are what basements and windowless floors most often fail. Structural stability matters where loading changes, as when a warehouse becomes retail. Parking requirements move with the use, and a shortfall stops the permit.</p>
-<p>Checking these means reading drawings against the site. Registers and drawings come from <a href="https://www.eais.go.kr" target="_blank" rel="noopener">Seumteo</a>, and the statutes themselves from the <a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">Building Act</a> and the <a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">Building Act Enforcement Decree</a> on the National Law Information Center.</p>
+<p>Checking these means reading drawings against the site. Registers and drawings come from <a href="https://www.eais.go.kr" target="_blank" rel="noopener">Seumteo</a>.</p>
 
 <h2>Approval for Use and Penalties</h2>
 <p>Where a permit or report is required and the aggregate floor area being converted is 100 square metres or more, the approval-for-use provisions apply — unless that aggregate is under 500 square metres with no major repair work. At 500 square metres or more under a permit, Article 23 applies to the design, so a licensed architect must prepare it; a single-storey livestock shed becoming a factory is excluded where no extension, reconstruction or major repair is involved.</p>
@@ -4284,7 +4274,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Building Act (Act No. 21035, in force 27 February 2026), its Enforcement Decree (Presidential Decree No. 36587) and Table 1 · Last reviewed 25 September</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'building-usage-change-requirements',
@@ -4296,7 +4286,7 @@ const blogData: BlogI18n[] = [
     excerpt: '用途变更的要件不是从"现在是什么用途"开始，而是从"要改成的用途要求什么"开始。',
     content: `<div class="toc"><p>目录</p><ol><li>要件从目标用途出发</li><li>设施群编号决定许可或申报</li><li>九个设施群</li><li>不能仅以登记变更了事的用途</li><li>新用途要求的各项标准</li><li>使用批准与处罚</li><li>常见问题</li></ol></div>
 <p>韩国的<strong>建筑物用途变更</strong>，是把已取得使用批准的建筑物改为其他用途的程序。实务中最常出错的是先去查"我们这栋楼现在算什么用途"。《建筑法》的要件方向相反：起点在于<strong>要改成的用途要求什么</strong>。</p>
-<p>用途变更的对象是已依《建筑法》第22条取得使用批准的建筑物；仍处于新建阶段时，那是在建筑许可阶段确定用途的问题。本文以现行《建筑法》（法律第21035号，2026年2月27日施行）、同法施行令（总统令第36587号，2026年9月18日施行）及该施行令别表一原文为准。</p>
+<p>用途变更的对象是已依《建筑法》第22条取得使用批准的建筑物；仍处于新建阶段时，那是在建筑许可阶段确定用途的问题。</p>
 
 <h2>要件从"要改成什么用途"出发</h2>
 <p>《建筑法》第19条第1款用一句话规定了用途变更的要件，这句话是此后一切判断的基准线。</p>
@@ -4306,13 +4296,13 @@ const blogData: BlogI18n[] = [
 
 <h2>设施群编号决定许可、申报还是登记变更</h2>
 <p>要变更已取得使用批准建筑物用途的人，必须取得特别自治市市长、特别自治道道知事或市长、郡守、区厅长的<strong>许可</strong>或向其<strong>申报</strong>。属于哪一种完全取决于设施群的编号顺序。</p>
-<table><thead><tr><th>变更方向</th><th>程序</th><th>依据</th></tr></thead><tbody>
-<tr><td>改为编号更小的设施群（上位群）的用途</td><td>许可</td><td>法第19条第2款第1项</td></tr>
-<tr><td>改为编号更大的设施群（下位群）的用途</td><td>申报</td><td>法第19条第2款第2项</td></tr>
-<tr><td>在同一设施群内变更用途</td><td>申请变更建筑物登记簿记载事项</td><td>法第19条第3款</td></tr>
+<table><thead><tr><th>变更方向</th><th>程序</th></tr></thead><tbody>
+<tr><td>改为编号更小的设施群（上位群）的用途</td><td>许可</td></tr>
+<tr><td>改为编号更大的设施群（下位群）的用途</td><td>申报</td></tr>
+<tr><td>在同一设施群内变更用途</td><td>申请变更建筑物登记簿记载事项</td></tr>
 </tbody></table>
 <p>"上位群"并不表示设施等级高低，而是把第19条第4款各项中<strong>编号较小</strong>的设施群定义为上位群。判断靠对编号而非感觉：把邻里生活设施群（第7项）的办公室改为营业设施群（第5项）的住宿设施，编号变小属许可对象；反过来只需申报。</p>
-<p>并置两种用途也有条文依据：建筑主可以以复数用途申请，但许可权人只在复数用途<strong>全部</strong>符合本法及相关法令所定建筑标准与选址标准时才可准许。只要有一种不合标准整件事就会被挡住，因此须在规划阶段先行检讨。判断完成后，申请书式与附件依国土交通部令办理；三种情形的管辖机关相同，只是受理程序不同。</p>
+<p>并置两种用途也有条文规定，建筑主可以以复数用途申请，但许可权人只在复数用途<strong>全部</strong>符合本法及相关法令所定建筑标准与选址标准时才可准许。只要有一种不合标准整件事就会被挡住，因此须在规划阶段先行检讨。判断完成后，申请书式与附件依国土交通部令办理；三种情形的管辖机关相同，只是受理程序不同。</p>
 
 <h2>九个设施群及其所含用途</h2>
 <p>设施群由《建筑法》第19条第4款定为九个，各设施群所含建筑物的细分用途则由同法施行令第14条第5款规定。下表即用途变更判断的基准表。</p>
@@ -4344,7 +4334,7 @@ const blogData: BlogI18n[] = [
 
 <h2>新用途实际要求的各项标准</h2>
 <p>真正挡住用途变更的往往不是第19条本身，而是被准用的各项标准。一是用途地域限制：准用《国土规划及利用法》第54条，条例禁止的用途与建筑物状态无关一律不可。二是避难与防火，地下层或无窗层改作营业用途时最常在此受阻。三是结构安全，仓库改为销售设施这类载荷变化需要结构检讨。四是停车，无法确保不足车位就拿不到许可。此外还准用升降机规定与《绿色建筑物营造支援法》第15条。</p>
-<p>逐条对照准用规定需要同时看图纸与现场。登记簿与图纸可在<a href="https://www.eais.go.kr" target="_blank" rel="noopener">세움터</a>查询，法令原文可在国家法令信息中心的<a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">建筑法</a>与<a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">建筑法施行令</a>直接查看。</p>
+<p>逐条对照准用规定需要同时看图纸与现场。登记簿与图纸可在<a href="https://www.eais.go.kr" target="_blank" rel="noopener">세움터</a>查询。</p>
 
 <h2>使用批准、设计要件与违反时的处罚</h2>
 <p>属于许可或申报对象的用途变更，若变更部分楼板面积合计在100平方米以上，准用使用批准规定；但该合计不满500平方米且不伴随大修工程时不予准用。属于许可对象且合计在500平方米以上的用途变更，其设计准用第23条，须由建筑师设计；一层畜舍改为工厂且不伴随扩建、改建或大修的情形除外。</p>
@@ -4365,19 +4355,19 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依《建筑法》（法律第21035号，2026年2月27日施行）、同法施行令（总统令第36587号，2026年9月18日施行）及该施行令别表一原文撰写 · 最终审阅日 9月25日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'building-usage-change-requirements',
     locale: 'ja',
     title: '韓国の建築物用途変更の要件 — 施設群の判定と変更後の用途の建築基準',
     metaTitle: '韓国の建築物用途変更の要件 — 施設群の番号と建築基準',
-    metaDescription: '韓国の建築物用途変更が許可・届出・建築物台帳の記載変更のどれに当たるのかを建築法第19条の9つの施設群で判定する方法と、変更後の用途が求める建築基準・使用承認要件を原文基準で整理しました。',
+    metaDescription: '韓国の建築物用途変更が許可・届出・建築物台帳の記載変更のどれに当たるのかを建築法第19条の9つの施設群で判定する方法と、変更後の用途が求める建築基準・使用承認要件を整理しました。',
     category: '許認可',
     excerpt: '用途変更の要件は「いまどの用途か」からではなく「変更しようとする用途が何を求めるか」から始まります。',
     content: `<div class="toc"><p>目次</p><ol><li>要件は「変更後の用途」から始まる</li><li>施設群の番号が許可・届出・台帳記載変更を分ける</li><li>9つの施設群とそこに属する用途</li><li>記載変更だけでは済まない用途</li><li>変更後の用途が求める個別基準</li><li>使用承認・設計要件と違反時の制裁</li><li>よくあるご質問</li></ol></div>
 <p>韓国の<strong>建築物の用途変更</strong>は、すでに使用承認を受けた建築物を別の用途に変える手続です。実務で最も多い誤りは、「自分の建物は今どの用途なのか」から考え始めることです。「建築法」が定める要件の出発点は逆側、すなわち<strong>変更しようとする用途が何を求めているか</strong>にあります。</p>
-<p>用途変更の対象は、すでに「建築法」第22条により使用承認を受けた建築物です。新築段階であれば用途変更ではなく建築許可の段階で用途を定める問題になります。本稿は現行の「建築法」（法律第21035号、2026年2月27日施行）、同法施行令（大統領令第36587号、2026年9月18日施行）および同施行令別表1の原文に基づいています。</p>
+<p>用途変更の対象は、すでに「建築法」第22条により使用承認を受けた建築物です。新築段階であれば用途変更ではなく建築許可の段階で用途を定める問題になります。</p>
 
 <h2>要件は「変更後の用途」から始まる</h2>
 <p>「建築法」第19条第1項は、用途変更の要件を一文で定めています。この一文が以後すべての判断の基準線になります。</p>
@@ -4387,10 +4377,10 @@ const blogData: BlogI18n[] = [
 
 <h2>施設群の番号が許可・届出・台帳記載変更を分ける</h2>
 <p>使用承認を受けた建築物の用途を変更しようとする者は、特別自治市長・特別自治道知事または市長・郡守・区庁長の<strong>許可</strong>を受けるか、<strong>届出</strong>をしなければなりません。どちらに当たるかは、施設群の番号の順序だけで決まります。</p>
-<table><thead><tr><th>変更の方向</th><th>手続</th><th>根拠</th></tr></thead><tbody>
-<tr><td>番号がより小さい施設群（上位群）の用途に変更</td><td>許可</td><td>法第19条第2項第1号</td></tr>
-<tr><td>番号がより大きい施設群（下位群）の用途に変更</td><td>届出</td><td>法第19条第2項第2号</td></tr>
-<tr><td>同じ施設群の中での用途変更</td><td>建築物台帳の記載事項変更の申請</td><td>法第19条第3項</td></tr>
+<table><thead><tr><th>変更の方向</th><th>手続</th></tr></thead><tbody>
+<tr><td>番号がより小さい施設群（上位群）の用途に変更</td><td>許可</td></tr>
+<tr><td>番号がより大きい施設群（下位群）の用途に変更</td><td>届出</td></tr>
+<tr><td>同じ施設群の中での用途変更</td><td>建築物台帳の記載事項変更の申請</td></tr>
 </tbody></table>
 <p>条文がいう「上位群」「下位群」は、施設の格が高い・低いという意味ではありません。第19条第4項各号のうち<strong>番号が小さい施設群</strong>を上位群と定義したものです。したがって判定は感覚ではなく番号の照合で終わります。たとえば近隣生活施設群（第7号）に属する事務室を営業施設群（第5号）に属する宿泊施設に変える場合、番号が小さくなるため許可対象であり、逆に宿泊施設を事務所に変える場合は番号が大きくなるため届出対象です。</p>
 <p>二つの用途を併置する場合にも条文上の道があります。建築主は用途を複数として申請でき、許可権者は申請された複数の用途が同法および関係法令に定める建築基準と立地基準等に<strong>すべて</strong>適合する場合に限って許容できます。一つでも基準に触れれば全体が止まるため、複数用途は企画段階で検討が必要です。判定後の申請書式と添付書類は国土交通部令によります。三つのいずれでも管轄行政庁は同じで、どの手続として受理されるかが変わるだけです。</p>
@@ -4425,7 +4415,7 @@ const blogData: BlogI18n[] = [
 
 <h2>変更後の用途が求める個別基準</h2>
 <p>用途変更を実際に止めるのは条文そのものよりも準用される個別基準です。まず用途地域の制限で、「国土の計画及び利用に関する法律」第54条が準用されるため、条例で禁止された用途は建物の状態と関係なく不可能です。次に避難・防火で、地下層や無窓層を営業用に変えるときに最も頻繁に問題になります。構造安全も重要で、倉庫を販売施設に変えるように積載荷重の条件が変われば構造検討が必要です。駐車も用途と一緒に動き、不足台数を確保できなければ許可は下りません。昇降機の規定と「緑色建築物造成支援法」第15条も準用されます。</p>
-<p>準用条文を一つずつ照合するには、図面と現場を併せて見る必要があります。建築物台帳や図面は<a href="https://www.eais.go.kr" target="_blank" rel="noopener">セウムト（世움터）</a>で確認でき、法令の原文は国家法令情報センターの<a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">建築法</a>と<a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">建築法施行令</a>で直接見ることができます。</p>
+<p>準用条文を一つずつ照合するには、図面と現場を併せて見る必要があります。建築物台帳や図面は<a href="https://www.eais.go.kr" target="_blank" rel="noopener">セウムト（世움터）</a>で確認できます。</p>
 
 <h2>使用承認・設計要件と違反時の制裁</h2>
 <p>許可や届出の対象である用途変更で、変更しようとする部分の床面積の合計が100平方メートル以上であれば使用承認の規定が準用されます。ただしその合計が500平方メートル未満で、大規模修繕に該当する工事を伴わない場合はこの限りではありません。また許可対象であって変更しようとする部分の床面積の合計が500平方メートル以上の用途変更は、設計について第23条が準用されるため建築士が設計しなければなりません。1階である畜舎を工場に用途変更する場合で、増築・改築または大規模修繕を伴わず構造安全や避難等に支障がない場合は除かれます。</p>
@@ -4446,7 +4436,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「建築法」（法律第21035号、2026年2月27日施行）、同法施行令（大統領令第36587号、2026年9月18日施行）および同施行令別表1の原文に基づき作成・最終確認日 9月25日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   },
   // ── hostel-violation-penalties (inhega-daily 2026-10-02) ──
   {
@@ -4459,7 +4449,7 @@ const blogData: BlogI18n[] = [
     excerpt: 'A hostel is a registered tourism business, so sanctions escalate from a corrective order to suspension and revocation. Here is what the statute and its tables actually say.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Sanctions Start From Registration</li><li>Administrative Sanctions by Violation</li><li>Penalty Surcharges Instead of Suspension</li><li>Which Law Applies to Unregistered Operation</li><li>Reporting Duties Operators Miss</li><li>Procedure and Mitigation</li><li>FAQ</li></ol></div>
 <p>A <strong>hostel business</strong> in Korea provides rooms suited to individual travellers such as backpackers, together with shared facilities such as showers and kitchens and a cultural and information exchange space for Korean and foreign guests. The Tourism Promotion Act treats it as a type of hotel business, so its registration and sanctions differ from those of an ordinary lodging business.</p>
-<p>Much of what circulates online quotes fine amounts with no legal source. This article checks the current Tourism Promotion Act, its Enforcement Decree with Tables 2 and 3, and the Public Health Control Act against the Korean text and keeps only what applies to a hostel. From the wide Table 3, only the hostel column is reproduced.</p>
+<p>Much of what circulates online quotes fine amounts with no legal source. This article covers only the sanctions that apply to a hostel. From the wide Table 3, only the hostel column is reproduced.</p>
 
 <h2>Sanctions Start From Registration</h2>
 <p>A hostel operator must register with the head of the competent city, county or district (Article 4(1)). Table 1 of the Decree sets four standards: rooms suitable for individual travellers; toilets, showers and kitchens, which may be shared; a cultural and information exchange space; and ownership of, or a right to use, the land and building.</p>
@@ -4469,16 +4459,16 @@ const blogData: BlogI18n[] = [
 
 <h2>Administrative Sanctions by Violation</h2>
 <p>Table 2 covers every tourism business. The items that can realistically apply to a hostel are these:</p>
-<table><thead><tr><th>Violation</th><th>Basis</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr></thead><tbody>
-<tr><td>No longer meeting registration standards</td><td>Art. 35(1)1</td><td>Corrective order</td><td>Suspension 15 days</td><td>Suspension 1 month</td><td>Revocation</td></tr>
-<tr><td>Failing to register a change in time</td><td>Art. 35(1)1</td><td>Corrective order</td><td>Suspension 15 days</td><td>Suspension 1 month</td><td>Revocation</td></tr>
-<tr><td>Operating beyond the registered scope</td><td>Art. 35(1)1</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Suspension 3 months</td><td>Revocation</td></tr>
-<tr><td>Late report of succession</td><td>Art. 35(1)3</td><td>Corrective order</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Revocation</td></tr>
-<tr><td>Closing or pausing without notice</td><td>Art. 35(1)3-2</td><td>Corrective order</td><td>Revocation</td><td>-</td><td>-</td></tr>
-<tr><td>False tourism sign or advertising</td><td>Art. 35(1)4-2</td><td>Corrective order</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Revocation</td></tr>
-<tr><td>Letting another person run the registered rooms</td><td>Art. 35(1)5</td><td>Suspension 1 month</td><td>Suspension 3 months</td><td>Suspension 5 months</td><td>Revocation</td></tr>
-<tr><td>Ignoring a reporting order or obstructing inspection</td><td>Art. 35(1)18</td><td>Suspension 10 days</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Revocation</td></tr>
-<tr><td>Giving or receiving bribes</td><td>Art. 35(1)19</td><td>Corrective order</td><td>Suspension 10 days</td><td>Suspension 20 days</td><td>Revocation</td></tr>
+<table><thead><tr><th>Violation</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr></thead><tbody>
+<tr><td>No longer meeting registration standards</td><td>Corrective order</td><td>Suspension 15 days</td><td>Suspension 1 month</td><td>Revocation</td></tr>
+<tr><td>Failing to register a change in time</td><td>Corrective order</td><td>Suspension 15 days</td><td>Suspension 1 month</td><td>Revocation</td></tr>
+<tr><td>Operating beyond the registered scope</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Suspension 3 months</td><td>Revocation</td></tr>
+<tr><td>Late report of succession</td><td>Corrective order</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Revocation</td></tr>
+<tr><td>Closing or pausing without notice</td><td>Corrective order</td><td>Revocation</td><td>-</td><td>-</td></tr>
+<tr><td>False tourism sign or advertising</td><td>Corrective order</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Revocation</td></tr>
+<tr><td>Letting another person run the registered rooms</td><td>Suspension 1 month</td><td>Suspension 3 months</td><td>Suspension 5 months</td><td>Revocation</td></tr>
+<tr><td>Ignoring a reporting order or obstructing inspection</td><td>Suspension 10 days</td><td>Suspension 1 month</td><td>Suspension 2 months</td><td>Revocation</td></tr>
+<tr><td>Giving or receiving bribes</td><td>Corrective order</td><td>Suspension 10 days</td><td>Suspension 20 days</td><td>Revocation</td></tr>
 </tbody></table>
 <p>A shortfall in standards or a missed change registration starts with a corrective order but reaches revocation at the 4th time. Operating beyond scope and letting others run the rooms mean suspension from the 1st time, and closing without notice means revocation at the 2nd.</p>
 <p>If the representative falls under a disqualification ground in Article 7, Table 2 provides revocation at once. If a business keeps operating after revocation or suspension, the authority may under Article 36 have officials remove signs, post a notice and seal essential facilities, normally after written notice and only to the minimum extent needed.</p>
@@ -4486,13 +4476,13 @@ const blogData: BlogI18n[] = [
 <h2>Penalty Surcharges Instead of Suspension</h2>
 <p>Where suspension would seriously inconvenience users or harm the public interest, the authority may impose a surcharge instead, capped at KRW 20 million (Article 37(1)). For a hostel with bookings, this conversion is often the key issue.</p>
 <p>The hostel column of Table 3 fixes these amounts (Decree Article 34(1)):</p>
-<table><thead><tr><th>Violation</th><th>Basis</th><th>Hostel surcharge</th></tr></thead><tbody>
-<tr><td>No longer meeting registration standards</td><td>Article 34, Table 3 item 1</td><td>KRW 800,000</td></tr>
-<tr><td>Missing the change registration period</td><td>Article 34, Table 3 item 1</td><td>KRW 800,000</td></tr>
-<tr><td>Failing to report succession</td><td>Article 34, Table 3 item 3</td><td>KRW 2,000,000</td></tr>
-<tr><td>False tourism sign or advertising</td><td>Article 34, Table 3 item 4</td><td>KRW 3,000,000</td></tr>
-<tr><td>Ignoring a reporting or document order</td><td>Article 34, Table 3 item 18</td><td>KRW 4,000,000</td></tr>
-<tr><td>Obstructing an inspection of books or documents</td><td>Article 34, Table 3 item 18</td><td>KRW 4,000,000</td></tr>
+<table><thead><tr><th>Violation</th><th>Hostel surcharge</th></tr></thead><tbody>
+<tr><td>No longer meeting registration standards</td><td>KRW 800,000</td></tr>
+<tr><td>Missing the change registration period</td><td>KRW 800,000</td></tr>
+<tr><td>Failing to report succession</td><td>KRW 2,000,000</td></tr>
+<tr><td>False tourism sign or advertising</td><td>KRW 3,000,000</td></tr>
+<tr><td>Ignoring a reporting or document order</td><td>KRW 4,000,000</td></tr>
+<tr><td>Obstructing an inspection of books or documents</td><td>KRW 4,000,000</td></tr>
 </tbody></table>
 <p>Under Article 34(2) of the Decree these amounts may be raised or lowered by up to one half according to scale, location and the degree and frequency of the violation, but the total may not exceed KRW 20 million. Payment is due within 20 days of the written notice (Decree Article 35), and unpaid amounts are collected like tax arrears (Article 37(3)). A surcharge still counts as a sanction on the record.</p>
 
@@ -4522,7 +4512,7 @@ const blogData: BlogI18n[] = [
 <li>it is a first violation after 5 years or more of exemplary operation; or</li>
 <li>indictment or sentence was suspended for the violation.</li>
 </ol>
-<p>Meeting the deadlines and checking regularly that the standards are still met avoids much of the table above. The texts are on the National Law Information Center: <a href="https://www.law.go.kr/법령/관광진흥법" target="_blank" rel="noopener">Tourism Promotion Act</a> and <a href="https://www.law.go.kr/법령/공중위생관리법" target="_blank" rel="noopener">Public Health Control Act</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Meeting the deadlines and checking regularly that the standards are still met avoids much of the table above. Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Is running a hostel without registration punished under the Tourism Promotion Act?</p><p class="faq-a">A. Not as a blanket rule. Article 82(1) covers tourist accommodation only where a business plan was approved under Article 15(1). Otherwise the lodging report duty of the Public Health Control Act applies, with imprisonment of up to 2 years or a fine of up to KRW 20 million under its Article 20(1).</p></div>
@@ -4538,7 +4528,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Tourism Promotion Act (Act No. 21087, in force 12 May 2026), its Enforcement Decree (Presidential Decree No. 36554, in force 4 August 2026) with Tables 2 and 3, and the Public Health Control Act (Act No. 20171) · Last reviewed 2 October</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'hostel-violation-penalties',
@@ -4547,10 +4537,10 @@ const blogData: BlogI18n[] = [
     metaTitle: '韩国青年旅舍业违规处罚 — 行政处分与课征金',
     metaDescription: '依据韩国《观光振兴法》第35条、第37条及施行令附表2·3，说明已登记青年旅舍业违规时的分次处分标准、课征金金额，以及未登记经营住宿时实际适用的法律。',
     category: '许可与执照',
-    excerpt: '青年旅舍业是登记业种，违规后会从整改命令升级到停业、撤销登记。本文依据法令原文整理各次处分标准、课征金与未登记经营的处罚。',
+    excerpt: '青年旅舍业是登记业种，违规后会从整改命令升级到停业、撤销登记。本文整理各次处分标准、课征金与未登记经营的处罚。',
     content: `<div class="toc"><p>目录</p><ol><li>处罚体系从"登记"出发</li><li>行政处分 — 按违规类型的分次标准</li><li>课征金 — 代替停业的金钱制裁</li><li>未登记经营适用哪部法律</li><li>经营中容易遗漏的申报义务</li><li>处分程序与减轻事由</li><li>常见问题</li></ol></div>
 <p><strong>青年旅舍业</strong>（호스텔업）是为背包客等个人游客提供客房，并配备淋浴间、厨房等可共用的便利设施和文化·信息交流设施的观光住宿业。韩国《观光振兴法》把它列为酒店业的一种，登记与处罚体系都不同于一般住宿业。</p>
-<p>网上不少说明写着没有法律依据的罚款金额。本文对照现行《观光振兴法》、同法施行令附表2·3及《公共卫生管理法》原文，只整理实际适用于青年旅舍业的处罚；附表3只摘录青年旅舍业一栏。</p>
+<p>网上不少说明写着没有法律依据的罚款金额。本文只整理实际适用于青年旅舍业的处罚；附表3只摘录青年旅舍业一栏。</p>
 
 <h2>处罚体系从"登记"出发</h2>
 <p>经营青年旅舍业须向市长、郡守或区厅长等登记（第4条第1款）。施行令附表1规定四项标准：适合个人游客的客房；可共用的卫生间、淋浴间、厨房；文化·信息交流设施；土地和建筑物的所有权或使用权。</p>
@@ -4560,16 +4550,16 @@ const blogData: BlogI18n[] = [
 
 <h2>行政处分 — 按违规类型的分次标准</h2>
 <p>附表2中可能实际适用于青年旅舍的项目如下：</p>
-<table><thead><tr><th>违规事项</th><th>依据</th><th>第1次</th><th>第2次</th><th>第3次</th><th>第4次</th></tr></thead><tbody>
-<tr><td>不再符合登记标准</td><td>第35条第1款第1项</td><td>整改命令</td><td>停业15日</td><td>停业1个月</td><td>撤销</td></tr>
-<tr><td>未在期限内办理变更登记</td><td>第35条第1款第1项</td><td>整改命令</td><td>停业15日</td><td>停业1个月</td><td>撤销</td></tr>
-<tr><td>超出登记的营业范围</td><td>第35条第1款第1项</td><td>停业1个月</td><td>停业2个月</td><td>停业3个月</td><td>撤销</td></tr>
-<tr><td>未在期限内申报地位承继</td><td>第35条第1款第3项</td><td>整改命令</td><td>停业1个月</td><td>停业2个月</td><td>撤销</td></tr>
-<tr><td>停业·歇业未通知</td><td>第35条第1款第3项之2</td><td>整改命令</td><td>撤销</td><td>-</td><td>-</td></tr>
-<tr><td>与事实不符的观光标志或广告</td><td>第35条第1款第4项之2</td><td>整改命令</td><td>停业1个月</td><td>停业2个月</td><td>撤销</td></tr>
-<tr><td>让他人经营登记所需客房</td><td>第35条第1款第5项</td><td>停业1个月</td><td>停业3个月</td><td>停业5个月</td><td>撤销</td></tr>
-<tr><td>不履行报告命令或妨碍检查</td><td>第35条第1款第18项</td><td>停业10日</td><td>停业1个月</td><td>停业2个月</td><td>撤销</td></tr>
-<tr><td>收受或给予贿赂</td><td>第35条第1款第19项</td><td>整改命令</td><td>停业10日</td><td>停业20日</td><td>撤销</td></tr>
+<table><thead><tr><th>违规事项</th><th>第1次</th><th>第2次</th><th>第3次</th><th>第4次</th></tr></thead><tbody>
+<tr><td>不再符合登记标准</td><td>整改命令</td><td>停业15日</td><td>停业1个月</td><td>撤销</td></tr>
+<tr><td>未在期限内办理变更登记</td><td>整改命令</td><td>停业15日</td><td>停业1个月</td><td>撤销</td></tr>
+<tr><td>超出登记的营业范围</td><td>停业1个月</td><td>停业2个月</td><td>停业3个月</td><td>撤销</td></tr>
+<tr><td>未在期限内申报地位承继</td><td>整改命令</td><td>停业1个月</td><td>停业2个月</td><td>撤销</td></tr>
+<tr><td>停业·歇业未通知</td><td>整改命令</td><td>撤销</td><td>-</td><td>-</td></tr>
+<tr><td>与事实不符的观光标志或广告</td><td>整改命令</td><td>停业1个月</td><td>停业2个月</td><td>撤销</td></tr>
+<tr><td>让他人经营登记所需客房</td><td>停业1个月</td><td>停业3个月</td><td>停业5个月</td><td>撤销</td></tr>
+<tr><td>不履行报告命令或妨碍检查</td><td>停业10日</td><td>停业1个月</td><td>停业2个月</td><td>撤销</td></tr>
+<tr><td>收受或给予贿赂</td><td>整改命令</td><td>停业10日</td><td>停业20日</td><td>撤销</td></tr>
 </tbody></table>
 <p>登记标准不足和遗漏变更登记第1次是整改命令，但第4次即撤销；超出营业范围和让他人经营客房第1次起就停业；停业或歇业不通知的，第2次直接撤销。</p>
 <p>代表人属于第7条欠格事由时，第1次即撤销。被撤销或停业后仍营业的，登记机关可依第36条拆除招牌、张贴告示、封存必需设施，原则上须事先书面通知，并限于最小范围。</p>
@@ -4577,13 +4567,13 @@ const blogData: BlogI18n[] = [
 <h2>课征金 — 代替停业的金钱制裁</h2>
 <p>停业会给使用者带来严重不便或损害公益时，可以课征金代替，上限2000万韩元（第37条第1款）。有预订客人的旅舍，能否转换往往是关键。</p>
 <p>附表3青年旅舍业一栏的金额如下（施行令第34条第1款）：</p>
-<table><thead><tr><th>违规行为</th><th>依据</th><th>课征金</th></tr></thead><tbody>
-<tr><td>不再符合登记标准</td><td>第34条·附表3第1项</td><td>80万韩元</td></tr>
-<tr><td>违反变更登记期限</td><td>第34条·附表3第1项</td><td>80万韩元</td></tr>
-<tr><td>承继后未申报</td><td>第34条·附表3第3项</td><td>200万韩元</td></tr>
-<tr><td>与事实不符的观光标志或广告</td><td>第34条·附表3第4项</td><td>300万韩元</td></tr>
-<tr><td>不履行报告或提交文件命令</td><td>第34条·附表3第18项</td><td>400万韩元</td></tr>
-<tr><td>妨碍检查账簿·文件</td><td>第34条·附表3第18项</td><td>400万韩元</td></tr>
+<table><thead><tr><th>违规行为</th><th>课征金</th></tr></thead><tbody>
+<tr><td>不再符合登记标准</td><td>80万韩元</td></tr>
+<tr><td>违反变更登记期限</td><td>80万韩元</td></tr>
+<tr><td>承继后未申报</td><td>200万韩元</td></tr>
+<tr><td>与事实不符的观光标志或广告</td><td>300万韩元</td></tr>
+<tr><td>不履行报告或提交文件命令</td><td>400万韩元</td></tr>
+<tr><td>妨碍检查账簿·文件</td><td>400万韩元</td></tr>
 </tbody></table>
 <p>依施行令第34条第2款，可在二分之一范围内加减，但总额不得超过2000万韩元。须在收到书面通知后20日内缴纳（施行令第35条），逾期按国税滞纳处分例征收（第37条第3款）。课征金仍作为处分记录保留。</p>
 
@@ -4613,7 +4603,7 @@ const blogData: BlogI18n[] = [
 <li>初次违规且5年以上模范经营；</li>
 <li>被缓起诉或宣告缓刑。</li>
 </ol>
-<p>遵守期限并定期检查登记标准，就能避开上表的大部分情形。法令原文见<a href="https://www.law.go.kr/법령/관광진흥법" target="_blank" rel="noopener">观光振兴法</a>、<a href="https://www.law.go.kr/법령/공중위생관리법" target="_blank" rel="noopener">公共卫生管理法</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>遵守期限并定期检查登记标准，就能避开上表的大部分情形。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 未登记经营青年旅舍会依《观光振兴法》受处罚吗？</p><p class="faq-a">A. 不能一概而论。第82条第1项对观光住宿业仅限依第15条第1款获批事业计划的情形。其他情形适用《公共卫生管理法》的申报义务，依其第20条第1款可处2年以下有期徒刑或2000万韩元以下罚金。</p></div>
@@ -4629,19 +4619,19 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《观光振兴法》（法律第21087号，2026年5月12日施行）、同法施行令（总统令第36554号，2026年8月4日施行）附表2·3及《公共卫生管理法》（法律第20171号）原文撰写 · 最终审阅日 10月2日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'hostel-violation-penalties',
     locale: 'ja',
     title: '韓国のホステル業の違反時の制裁 — 登録取消・事業停止・課徴金の基準',
     metaTitle: '韓国ホステル業の違反時の制裁 — 行政処分と課徴金',
-    metaDescription: '韓国の観光振興法第35条・第37条と施行令別表2・3に基づき、登録済みホステル業が違反した場合の次数別処分基準、課徴金額、無登録の宿泊営業に実際に適用される法律を原文基準で整理しました。',
+    metaDescription: '韓国の観光振興法第35条・第37条と施行令別表2・3に基づき、登録済みホステル業が違反した場合の次数別処分基準、課徴金額、無登録の宿泊営業に実際に適用される法律を整理しました。',
     category: '許認可',
-    excerpt: 'ホステル業は登録業種のため、違反すると是正命令から事業停止、登録取消へと次数が上がります。法令原文に基づき処分基準・課徴金・無登録営業の処罰を整理しました。',
+    excerpt: 'ホステル業は登録業種のため、違反すると是正命令から事業停止、登録取消へと次数が上がります。処分基準・課徴金・無登録営業の処罰を整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>制裁は「登録」から始まる</li><li>行政処分 — 違反類型別の次数基準</li><li>課徴金 — 事業停止に代わる金銭制裁</li><li>無登録で営業するとどの法律が適用されるか</li><li>運営中に見落としやすい届出義務</li><li>処分手続と減軽事由</li><li>よくあるご質問</li></ol></div>
 <p><strong>ホステル業</strong>（호스텔업）とは、バックパッカーなど個人の観光客向けの客室に、シャワー室・炊事場などの共用可能な便益施設と文化・情報交流施設を備えた観光宿泊業です。韓国の「観光振興法」はこれをホテル業の一種としているため、登録手続も制裁の体系も一般の宿泊業とは異なります。</p>
-<p>インターネット上には根拠のない過料の金額を記載した説明が少なくありません。本稿では現行の「観光振興法」、同法施行令の別表2・3、「公衆衛生管理法」の原文を照合し、ホステル業に実際に適用される制裁だけを整理しました。別表3はホステル業の列のみを転記しています。</p>
+<p>インターネット上には根拠のない過料の金額を記載した説明が少なくありません。本稿では、ホステル業に実際に適用される制裁だけを整理しました。別表3はホステル業の列のみを転記しています。</p>
 
 <h2>制裁は「登録」から始まる</h2>
 <p>ホステル業を経営する者は市長・郡守・区庁長等に登録しなければなりません（第4条第1項）。施行令別表1の基準は4つです。個人の観光客に適した客室、共用可能なトイレ・シャワー室・炊事場、文化・情報交流施設、敷地と建物の所有権または使用権の確保です。</p>
@@ -4651,16 +4641,16 @@ const blogData: BlogI18n[] = [
 
 <h2>行政処分 — 違反類型別の次数基準</h2>
 <p>別表2のうち、ホステル業に実際に問題となりうる項目は次のとおりです。</p>
-<table><thead><tr><th>違反事項</th><th>根拠</th><th>1次</th><th>2次</th><th>3次</th><th>4次</th></tr></thead><tbody>
-<tr><td>登録基準に適合しなくなった場合</td><td>第35条第1項第1号</td><td>是正命令</td><td>停止15日</td><td>停止1か月</td><td>取消</td></tr>
-<tr><td>変更登録期間内に変更登録をしなかった場合</td><td>第35条第1項第1号</td><td>是正命令</td><td>停止15日</td><td>停止1か月</td><td>取消</td></tr>
-<tr><td>登録した営業範囲を超えた場合</td><td>第35条第1項第1号</td><td>停止1か月</td><td>停止2か月</td><td>停止3か月</td><td>取消</td></tr>
-<tr><td>地位承継の届出を期限内にしなかった場合</td><td>第35条第1項第3号</td><td>是正命令</td><td>停止1か月</td><td>停止2か月</td><td>取消</td></tr>
-<tr><td>休業・廃業をして知らせなかった場合</td><td>第35条第1項第3号の2</td><td>是正命令</td><td>取消</td><td>-</td><td>-</td></tr>
-<tr><td>観光表示を事実と異なって掲示・広告した場合</td><td>第35条第1項第4号の2</td><td>是正命令</td><td>停止1か月</td><td>停止2か月</td><td>取消</td></tr>
-<tr><td>登録に必要な客室を他人に経営させた場合</td><td>第35条第1項第5号</td><td>停止1か月</td><td>停止3か月</td><td>停止5か月</td><td>取消</td></tr>
-<tr><td>報告命令の不履行または検査の妨害</td><td>第35条第1項第18号</td><td>停止10日</td><td>停止1か月</td><td>停止2か月</td><td>取消</td></tr>
-<tr><td>経営の過程で賄賂を授受した場合</td><td>第35条第1項第19号</td><td>是正命令</td><td>停止10日</td><td>停止20日</td><td>取消</td></tr>
+<table><thead><tr><th>違反事項</th><th>1次</th><th>2次</th><th>3次</th><th>4次</th></tr></thead><tbody>
+<tr><td>登録基準に適合しなくなった場合</td><td>是正命令</td><td>停止15日</td><td>停止1か月</td><td>取消</td></tr>
+<tr><td>変更登録期間内に変更登録をしなかった場合</td><td>是正命令</td><td>停止15日</td><td>停止1か月</td><td>取消</td></tr>
+<tr><td>登録した営業範囲を超えた場合</td><td>停止1か月</td><td>停止2か月</td><td>停止3か月</td><td>取消</td></tr>
+<tr><td>地位承継の届出を期限内にしなかった場合</td><td>是正命令</td><td>停止1か月</td><td>停止2か月</td><td>取消</td></tr>
+<tr><td>休業・廃業をして知らせなかった場合</td><td>是正命令</td><td>取消</td><td>-</td><td>-</td></tr>
+<tr><td>観光表示を事実と異なって掲示・広告した場合</td><td>是正命令</td><td>停止1か月</td><td>停止2か月</td><td>取消</td></tr>
+<tr><td>登録に必要な客室を他人に経営させた場合</td><td>停止1か月</td><td>停止3か月</td><td>停止5か月</td><td>取消</td></tr>
+<tr><td>報告命令の不履行または検査の妨害</td><td>停止10日</td><td>停止1か月</td><td>停止2か月</td><td>取消</td></tr>
+<tr><td>経営の過程で賄賂を授受した場合</td><td>是正命令</td><td>停止10日</td><td>停止20日</td><td>取消</td></tr>
 </tbody></table>
 <p>登録基準の不足と変更登録の漏れは1次が是正命令ですが、繰り返すと4次で登録取消に至ります。営業範囲の超過と客室の他人経営は1次から事業停止、休業・廃業の未通知は2次でただちに取消です。</p>
 <p>代表者等が第7条の欠格事由に該当すると、別表2は1次で取消と定めています。取消や停止の後も営業を続けると、登録機関は第36条により看板の除去、掲示物の貼付、必要な施設の封印をさせることができます。原則として事前に書面で知らせ、必要最小限の範囲にとどめなければなりません。</p>
@@ -4668,13 +4658,13 @@ const blogData: BlogI18n[] = [
 <h2>課徴金 — 事業停止に代わる金銭制裁</h2>
 <p>事業停止が利用者に著しい不便を与え、または公益を害するおそれがある場合、事業停止に代えて課徴金を科すことができ、上限は2,000万ウォンです（第37条第1項）。予約客がいるホステルでは、この転換の可否が重要な争点になります。</p>
 <p>別表3のホステル業の列で定められた金額は次のとおりです（施行令第34条第1項）。</p>
-<table><thead><tr><th>違反行為</th><th>根拠</th><th>課徴金</th></tr></thead><tbody>
-<tr><td>登録基準に適合しなくなった場合</td><td>第34条・別表3第1号</td><td>80万ウォン</td></tr>
-<tr><td>変更登録期間に違反した場合</td><td>第34条・別表3第1号</td><td>80万ウォン</td></tr>
-<tr><td>地位承継の届出をしなかった場合</td><td>第34条・別表3第3号</td><td>200万ウォン</td></tr>
-<tr><td>観光表示を事実と異なって掲示・広告した場合</td><td>第34条・別表3第4号</td><td>300万ウォン</td></tr>
-<tr><td>報告または書類提出命令を履行しなかった場合</td><td>第34条・別表3第18号</td><td>400万ウォン</td></tr>
-<tr><td>帳簿・書類等の検査を妨害した場合</td><td>第34条・別表3第18号</td><td>400万ウォン</td></tr>
+<table><thead><tr><th>違反行為</th><th>課徴金</th></tr></thead><tbody>
+<tr><td>登録基準に適合しなくなった場合</td><td>80万ウォン</td></tr>
+<tr><td>変更登録期間に違反した場合</td><td>80万ウォン</td></tr>
+<tr><td>地位承継の届出をしなかった場合</td><td>200万ウォン</td></tr>
+<tr><td>観光表示を事実と異なって掲示・広告した場合</td><td>300万ウォン</td></tr>
+<tr><td>報告または書類提出命令を履行しなかった場合</td><td>400万ウォン</td></tr>
+<tr><td>帳簿・書類等の検査を妨害した場合</td><td>400万ウォン</td></tr>
 </tbody></table>
 <p>施行令第34条第2項により、事業規模や違反の程度・回数を考慮して2分の1の範囲で加重・減軽できますが、総額は2,000万ウォンを超えられません。書面通知から20日以内に納付し（施行令第35条）、滞納すると国税滞納処分の例により徴収されます（第37条第3項）。課徴金も処分の履歴として残ります。</p>
 
@@ -4704,7 +4694,7 @@ const blogData: BlogI18n[] = [
 <li>初めての違反で、5年以上模範的に事業を営んできた場合</li>
 <li>起訴猶予または宣告猶予を受けた場合</li>
 </ol>
-<p>期限を守り、登録基準を定期的に点検するだけで、表の多くの処分は避けられます。法令原文は<a href="https://www.law.go.kr/법령/관광진흥법" target="_blank" rel="noopener">観光振興法</a>、<a href="https://www.law.go.kr/법령/공중위생관리법" target="_blank" rel="noopener">公衆衛生管理法</a>で確認できます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>期限を守り、登録基準を定期的に点検するだけで、表の多くの処分は避けられます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. ホステルを無登録で運営すると観光振興法で処罰されますか。</p><p class="faq-a">A. 一概には言えません。第82条第1号は観光宿泊業について第15条第1項の事業計画承認を受けた場合に限られます。それ以外は「公衆衛生管理法」の届出義務違反となり、同法第20条第1項により2年以下の懲役または2,000万ウォン以下の罰金の対象です。</p></div>
@@ -4720,7 +4710,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「観光振興法」（法律第21087号、2026年5月12日施行）、同法施行令（大統領令第36554号、2026年8月4日施行）別表2・3および「公衆衛生管理法」（法律第20171号）の原文に基づき作成・最終確認日 10月2日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   },
   // ── administrative-license-agency-supplement-and-rejection (inhega-daily 2026-10-04) ──
   {
@@ -4733,7 +4723,7 @@ const blogData: BlogI18n[] = [
     excerpt: 'The most common delay in a Korean permit application is the supplement request after filing. Here is who sets the deadline, whether the clock stops, how a return differs from a refusal and how long you have to challenge one.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Where Supplement Requests and Returns Come From</li><li>Supplement Periods, Form and Extensions</li><li>Counting the Processing Period</li><li>A Return Is Not a Refusal</li><li>Challenging a Refusal — Objection, Appeal, Lawsuit</li><li>Pre-Filing Checklist to Avoid Supplements</li><li>FAQ</li></ol></div>
 <p>In the <strong>permit agency procedure in Korea</strong>, schedules most often slip at the <strong>supplement request</strong> that follows filing, not at the decision. If it is not met in time, the documents may be returned. Because permit, registration and report applications are "statutory civil petitions" under the Civil Petitions Treatment Act (민원 처리에 관한 법률), the rules on supplements, returns and refusals come first from that Act and the Administrative Procedures Act (행정절차법), whatever the industry.</p>
-<p>All points below were checked against the current Korean statutes as of 2026. Documents and periods for a specific permit are in the competent authority's published handbook.</p>
+<p>Documents and periods for a specific permit are in the competent authority's published handbook.</p>
 
 <h2>Where Supplement Requests and Returns Come From</h2>
 <p>A <strong>statutory civil petition</strong> covers applications for permits, approvals or licences, registrations and reports made under statutory requirements (Article 2, item 1(a)1)).</p>
@@ -4742,24 +4732,24 @@ const blogData: BlogI18n[] = [
 <p>Documents beyond the relevant rules, data the authority can check itself, and documents already filed for a change or renewal may not be demanded (Article 10(1), (3) and (7)).</p>
 
 <h2>Supplement Periods, Form and Extensions</h2>
-<table><thead><tr><th>Step</th><th>Basis</th><th>Content</th></tr></thead><tbody>
-<tr><td>Supplement request</td><td>Act, Article 22(1)</td><td>Without delay, setting a reasonable period</td></tr>
-<tr><td>Form</td><td>Decree, Article 24(1)</td><td>Written or oral; written if the petitioner asks</td></tr>
-<tr><td>Request to extend</td><td>Decree, Article 24(2)</td><td>Stating the period needed; limited to 2 requests</td></tr>
-<tr><td>Second request</td><td>Decree, Article 24(3)</td><td>If not supplemented in time, a new period of up to 10 days may be set</td></tr>
-<tr><td>Return</td><td>Decree, Article 25(1)</td><td>If not supplemented in time, documents may be returned with reasons</td></tr>
-<tr><td>Deemed withdrawal</td><td>Decree, Article 25(2)</td><td>If requests come back undelivered 2 times, the case may be closed</td></tr>
+<table><thead><tr><th>Step</th><th>Content</th></tr></thead><tbody>
+<tr><td>Supplement request</td><td>Without delay, setting a reasonable period</td></tr>
+<tr><td>Form</td><td>Written or oral; written if the petitioner asks</td></tr>
+<tr><td>Request to extend</td><td>Stating the period needed; limited to 2 requests</td></tr>
+<tr><td>Second request</td><td>If not supplemented in time, a new period of up to 10 days may be set</td></tr>
+<tr><td>Return</td><td>If not supplemented in time, documents may be returned with reasons</td></tr>
+<tr><td>Deemed withdrawal</td><td>If requests come back undelivered 2 times, the case may be closed</td></tr>
 </tbody></table>
 <p>The law sets no number of days, only "a reasonable period"; the deadline is the date in the request. If you cannot meet it, ask for an extension stating the period you need; only 2 such requests are allowed. A second request of up to 10 days is discretionary, so missing the deadline can lead straight to a return. Civil Act Articles 156, 157 and 159 to 161 apply to counting (Decree Article 24(4)).</p>
 <p>If a request is unclear, ask the official: the authority must give the official's department, name and contact details (Decree Article 31). Obvious typos or omissions in the form may be corrected by the authority with consent (Decree Article 6(4) and (5)). You may also supplement, change or withdraw the application before processing ends (Act Article 22(2); Administrative Procedures Act Article 17(8)).</p>
 
 <h2>Counting the Processing Period</h2>
 <p>Each authority sets and publishes processing periods per petition type (Act Article 17(1) to (3); Administrative Procedures Act Article 19(1)); actual time depends on the authority and the documents. Counting rules:</p>
-<table><thead><tr><th>Period set as</th><th>Counting rule</th><th>Basis</th></tr></thead><tbody>
-<tr><td>5 days or less</td><td>In hours from receipt, 1 day = 8 working hours, excluding Saturdays and public holidays</td><td>Act, Article 19(1)</td></tr>
-<tr><td>6 days or more</td><td>In days, first day included, excluding Saturdays and public holidays</td><td>Act, Article 19(2)</td></tr>
-<tr><td>Weeks, months, years</td><td>First day included, Civil Act Articles 159 to 161</td><td>Act, Article 19(3)</td></tr>
-<tr><td>Immediate</td><td>Within 3 working hours unless there is good reason</td><td>Decree, Article 19</td></tr>
+<table><thead><tr><th>Period set as</th><th>Counting rule</th></tr></thead><tbody>
+<tr><td>5 days or less</td><td>In hours from receipt, 1 day = 8 working hours, excluding Saturdays and public holidays</td></tr>
+<tr><td>6 days or more</td><td>In days, first day included, excluding Saturdays and public holidays</td></tr>
+<tr><td>Weeks, months, years</td><td>First day included, Civil Act Articles 159 to 161</td></tr>
+<tr><td>Immediate</td><td>Within 3 working hours unless there is good reason</td></tr>
 </tbody></table>
 <p>The key rule: <strong>time spent on a supplement does not count</strong>. Decree Article 20 applies Article 11 of the Enforcement Decree of the Administrative Procedures Act, whose item 1 excludes the time needed to supplement, including the day the application is sent out and the day it comes back. Tests, technical review, hearings and system failures are also excluded (Decree Article 20, item 2).</p>
 <p>The authority may extend the period once, within its original length, for reasons such as site checks, and once more only with your consent; workload is not a ground (Decree Article 21). If processing is not complete 30 days after receipt, progress must be notified, in principle every 30 days (Decree Article 23). After the proper period you may ask for prompt processing (Administrative Procedures Act Article 19(4)).</p>
@@ -4769,12 +4759,12 @@ const blogData: BlogI18n[] = [
 <p>A refusal must be notified in writing with the reasons and available remedies (Act Article 27(1) and (3)) and notice of appeal routes (Administrative Procedures Act Articles 23(1) and 26). Keep the original.</p>
 
 <h2>Challenging a Refusal — Objection, Appeal, Lawsuit</h2>
-<table><thead><tr><th>Remedy</th><th>Basis</th><th>Time limit</th></tr></thead><tbody>
-<tr><td>Objection</td><td>Civil Petitions Act, Article 35(1)</td><td>Within 60 days of receiving the refusal, in writing to the deciding authority</td></tr>
-<tr><td>Decision on objection</td><td>Civil Petitions Act, Article 35(2)</td><td>Within 10 days; extendable by up to 10 days</td></tr>
-<tr><td>Administrative appeal</td><td>Administrative Appeals Act, Article 27(1) and (3)</td><td>90 days from learning of the decision; 180 days from the decision</td></tr>
-<tr><td>Ruling</td><td>Administrative Appeals Act, Article 45(1)</td><td>Within 60 days; extendable by 30 days</td></tr>
-<tr><td>Revocation lawsuit</td><td>Administrative Litigation Act, Article 20</td><td>90 days from learning of the decision; 1 year from the decision (after an appeal, from service of the ruling)</td></tr>
+<table><thead><tr><th>Remedy</th><th>Time limit</th></tr></thead><tbody>
+<tr><td>Objection</td><td>Within 60 days of receiving the refusal, in writing to the deciding authority</td></tr>
+<tr><td>Decision on objection</td><td>Within 10 days; extendable by up to 10 days</td></tr>
+<tr><td>Administrative appeal</td><td>90 days from learning of the decision; 180 days from the decision</td></tr>
+<tr><td>Ruling</td><td>Within 60 days; extendable by 30 days</td></tr>
+<tr><td>Revocation lawsuit</td><td>90 days from learning of the decision; 1 year from the decision (after an appeal, from service of the ruling)</td></tr>
 </tbody></table>
 <div class="highlight-box">Civil Petitions Treatment Act, Article 35(1): A petitioner who objects to the refusal of a statutory civil petition may file a written objection with the head of that agency within 60 days from receiving the refusal. Article 35(3): The petitioner may bring an administrative appeal or lawsuit regardless of whether an objection is filed.</div>
 <p>The objection states the petition, reasons and the date of the refusal; the result must give reasons and routes of challenge (Decree Article 40).</p>
@@ -4790,7 +4780,7 @@ const blogData: BlogI18n[] = [
 <li><strong>Combined petitions</strong> — a lead department may process multi-department permits together (Act Article 31(1); Decree Article 35).</li>
 <li><strong>On the day a request arrives</strong> — record the deadline, check each item's provision, ask the named official, and request an extension if needed (up to 2; Decree Articles 24(2) and 31).</li>
 </ul>
-<p>Delegating filing and supplements to an administrative scrivener rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Texts: <a href="https://www.law.go.kr/법령/민원처리에관한법률" target="_blank" rel="noopener">Civil Petitions Treatment Act</a>, <a href="https://www.law.go.kr/법령/행정절차법" target="_blank" rel="noopener">Administrative Procedures Act</a>, <a href="https://www.law.go.kr/법령/행정심판법" target="_blank" rel="noopener">Administrative Appeals Act</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Delegating filing and supplements to an administrative scrivener rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How long do I get to answer a supplement request?</p><p class="faq-a">A. The deadline is the date in the request (Article 22(1)). You may ask for an extension up to 2 times; afterwards the authority may set a new period of up to 10 days or return the application.</p></div>
@@ -4806,7 +4796,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Civil Petitions Treatment Act (Act No. 18748) and its Enforcement Decree (Presidential Decree No. 36296, in force 6 May 2026), the Administrative Procedures Act (Act No. 18748) and its Enforcement Decree (Presidential Decree No. 33649), the Administrative Appeals Act (Act No. 19269), the Administrative Litigation Act (Act No. 21615, in force 12 May 2026) and the Framework Act on Public Administration (Act No. 20824) · Last reviewed 3 October</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'administrative-license-agency-supplement-and-rejection',
@@ -4815,10 +4805,10 @@ const blogData: BlogI18n[] = [
     metaTitle: '韩国许可证代办流程 — 补正要求、退回与驳回的救济期限',
     metaDescription: '依据韩国《民愿处理法》第22条、施行令第24条·第25条及《行政程序法》第17条，说明许可申请被要求补正或退回的原因与程序，以及驳回处分的异议申请、行政复议期限和减少补正的检查清单。',
     category: '许可与执照',
-    excerpt: '韩国许可证代办流程中最常见的延误是受理后的补正要求。本文依据法令原文说明补正期限由谁决定、补正期间处理期限是否停止、退回与驳回有何不同，以及驳回后可在多长期限内寻求救济。',
+    excerpt: '韩国许可证代办流程中最常见的延误是受理后的补正要求。本文说明补正期限由谁决定、补正期间处理期限是否停止、退回与驳回有何不同，以及驳回后可在多长期限内寻求救济。',
     content: `<div class="toc"><p>目录</p><ol><li>补正要求与退回的法律依据</li><li>补正的期限、方式与延长</li><li>处理期限的计算</li><li>退回不等于驳回</li><li>驳回的救济 — 异议·复议·诉讼</li><li>减少补正的申请前清单</li><li>常见问题</li></ol></div>
 <p>在<strong>韩国许可证代办流程</strong>中，进度最常延误的不是审查结果，而是受理后的<strong>补正要求</strong>；期限内未补正的，文件可能被退回。许可、登记、申报属于《民愿处理法》（민원 처리에 관한 법률）所称的法定民愿，因此不论行业，补正、退回、驳回的规则首先由该法和《行政程序法》（행정절차법）规定。</p>
-<p>本文内容均以2026年现行法令原文核对。具体许可的附件和处理期限，请以管辖机关公布的民愿手册为准。</p>
+<p>具体许可的附件和处理期限，请以管辖机关公布的民愿手册为准。</p>
 
 <h2>补正要求与退回的法律依据</h2>
 <p><strong>法定民愿</strong>是指依法定要件申请许可、批准、执照、登记或进行申报的民愿（第2条第1项가目1)）。</p>
@@ -4826,24 +4816,24 @@ const blogData: BlogI18n[] = [
 <p>除其他法令另有规定外，机关不得保留或拒绝受理，不得不当退回文件，并须发给受理证（法第9条第1款·第2款、施行令第6条第3款、《行政程序法》第17条第4款）。瑕疵应在受理后以补正要求处理。法令以外的文件、机关可自行确认的信息、变更或更新时已提交的文件，均不得要求（第10条第1款·第3款·第7款）。</p>
 
 <h2>补正的期限、方式与延长</h2>
-<table><thead><tr><th>阶段</th><th>依据</th><th>内容</th></tr></thead><tbody>
-<tr><td>要求补正</td><td>法第22条第1款</td><td>规定相当期间，及时要求</td></tr>
-<tr><td>方式</td><td>施行令第24条第1款</td><td>书面或口头；申请人要求时须书面</td></tr>
-<tr><td>申请延长</td><td>施行令第24条第2款</td><td>说明所需期间，限2次</td></tr>
-<tr><td>再次要求</td><td>施行令第24条第3款</td><td>逾期未补正时可规定10日以内期间再次要求</td></tr>
-<tr><td>退回</td><td>施行令第25条第1款</td><td>逾期未补正时可说明理由退回</td></tr>
-<tr><td>视为撤回</td><td>施行令第25条第2款</td><td>补正要求因地址不明被退件2次时可结案</td></tr>
+<table><thead><tr><th>阶段</th><th>内容</th></tr></thead><tbody>
+<tr><td>要求补正</td><td>规定相当期间，及时要求</td></tr>
+<tr><td>方式</td><td>书面或口头；申请人要求时须书面</td></tr>
+<tr><td>申请延长</td><td>说明所需期间，限2次</td></tr>
+<tr><td>再次要求</td><td>逾期未补正时可规定10日以内期间再次要求</td></tr>
+<tr><td>退回</td><td>逾期未补正时可说明理由退回</td></tr>
+<tr><td>视为撤回</td><td>补正要求因地址不明被退件2次时可结案</td></tr>
 </tbody></table>
 <p>法律只规定"相当期间"，实际期限以补正要求书上的日期为准。难以按期准备的，可说明所需期间申请延长，限2次。再次要求10日以内期间属裁量，逾期也可能直接退回。期间计算准用《民法》第156条、第157条、第159条至第161条（施行令第24条第4款）。</p>
 <p>要求不明确时可直接询问经办人，机关须告知其部门、姓名和联系方式（施行令第31条）。明显笔误经同意可依职权更正（施行令第6条第4款·第5款）。处理终结前申请人也可补正、变更或撤回申请（法第22条第2款、《行政程序法》第17条第8款）。</p>
 
 <h2>处理期限的计算</h2>
 <p>处理期限由各机关按民愿种类事先确定并公布（法第17条第1款至第3款、《行政程序法》第19条第1款），实际所需时间因管辖机关和材料情况而异。计算规则如下：</p>
-<table><thead><tr><th>规定方式</th><th>计算方法</th><th>依据</th></tr></thead><tbody>
-<tr><td>5日以下</td><td>自受理时按小时计，1日为8个工作小时，不计周六和公休日</td><td>法第19条第1款</td></tr>
-<tr><td>6日以上</td><td>按日计，首日计入，不计周六和公休日</td><td>法第19条第2款</td></tr>
-<tr><td>周·月·年</td><td>首日计入，准用《民法》第159条至第161条</td><td>法第19条第3款</td></tr>
-<tr><td>即时</td><td>无正当理由时3个工作小时内处理</td><td>施行令第19条</td></tr>
+<table><thead><tr><th>规定方式</th><th>计算方法</th></tr></thead><tbody>
+<tr><td>5日以下</td><td>自受理时按小时计，1日为8个工作小时，不计周六和公休日</td></tr>
+<tr><td>6日以上</td><td>按日计，首日计入，不计周六和公休日</td></tr>
+<tr><td>周·月·年</td><td>首日计入，准用《民法》第159条至第161条</td></tr>
+<tr><td>即时</td><td>无正当理由时3个工作小时内处理</td></tr>
 </tbody></table>
 <p>关键规则是<strong>补正所需期间不计入处理期限</strong>。施行令第20条准用《行政程序法施行令》第11条，其第1项排除补正所需期间，包括发出之日和补正到达之日。试验、技术审查、听取意见及系统故障期间也不计入（施行令第20条第2项）。</p>
 <p>机关可因现场确认等理由在原期限范围内延长一次，再次延长须经申请人同意；业务繁重不是理由（施行令第21条）。受理后超过30日未处理完毕的，原则上每30日通知进展（施行令第23条）。超过期限的可请求迅速处理（《行政程序法》第19条第4款）。</p>
@@ -4853,12 +4843,12 @@ const blogData: BlogI18n[] = [
 <p>驳回须书面通知理由和救济程序（法第27条第1款·第3款），并告知复议途径（《行政程序法》第23条第1款、第26条）。请保存原件。</p>
 
 <h2>驳回的救济 — 异议·复议·诉讼</h2>
-<table><thead><tr><th>手段</th><th>依据</th><th>期限</th></tr></thead><tbody>
-<tr><td>异议申请</td><td>民愿处理法第35条第1款</td><td>收到驳回之日起60日内，书面向原机关提出</td></tr>
-<tr><td>异议决定</td><td>民愿处理法第35条第2款</td><td>10日内，可延长10日以内</td></tr>
-<tr><td>行政复议</td><td>行政复议法第27条第1款·第3款</td><td>知道处分之日起90日，处分之日起180日</td></tr>
-<tr><td>复议决定</td><td>行政复议法第45条第1款</td><td>60日内，可延长30日</td></tr>
-<tr><td>撤销诉讼</td><td>行政诉讼法第20条</td><td>知道之日起90日，处分之日起1年（经复议的自决定书送达起算）</td></tr>
+<table><thead><tr><th>手段</th><th>期限</th></tr></thead><tbody>
+<tr><td>异议申请</td><td>收到驳回之日起60日内，书面向原机关提出</td></tr>
+<tr><td>异议决定</td><td>10日内，可延长10日以内</td></tr>
+<tr><td>行政复议</td><td>知道处分之日起90日，处分之日起180日</td></tr>
+<tr><td>复议决定</td><td>60日内，可延长30日</td></tr>
+<tr><td>撤销诉讼</td><td>知道之日起90日，处分之日起1年（经复议的自决定书送达起算）</td></tr>
 </tbody></table>
 <div class="highlight-box">《民愿处理法》第35条第1款：对法定民愿驳回处分不服的民愿人，可自收到驳回处分之日起60日内以书面向该行政机关首长提出异议申请。第3款：无论是否提出异议申请，均可提起行政复议或行政诉讼。</div>
 <p>异议申请书须写明对象民愿、理由和驳回日期；结果通知须说明理由和救济途径（施行令第40条）。</p>
@@ -4874,7 +4864,7 @@ const blogData: BlogI18n[] = [
 <li><strong>复合民愿</strong> — 可由主管部门一并处理（法第31条第1款、施行令第35条）。</li>
 <li><strong>收到补正要求当天</strong> — 记录期限、核对依据、询问经办人，必要时申请延长（限2次，施行令第24条第2款、第31条）。</li>
 </ul>
-<p>委托行政士代办的依据是《行政士法》（행정사법）第2条第1款第5项。法令原文：<a href="https://www.law.go.kr/법령/민원처리에관한법률" target="_blank" rel="noopener">民愿处理法</a>、<a href="https://www.law.go.kr/법령/행정절차법" target="_blank" rel="noopener">行政程序法</a>、<a href="https://www.law.go.kr/법령/행정심판법" target="_blank" rel="noopener">行政复议法</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>委托行政士代办的依据是《行政士法》（행정사법）第2条第1款第5项。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 补正期限有多长？</p><p class="faq-a">A. 以补正要求书上的日期为准（第22条第1款）。可申请延长2次；逾期后可能被再次要求10日以内补正，也可能直接退回。</p></div>
@@ -4890,7 +4880,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《民愿处理法》（法律第18748号）及其施行令（总统令第36296号，2026年5月6日施行）、《行政程序法》（法律第18748号）及其施行令（总统令第33649号）、《行政复议法》（法律第19269号）、《行政诉讼法》（法律第21615号，2026年5月12日施行）、《行政基本法》（法律第20824号）原文撰写 · 最终审阅日 10月3日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'administrative-license-agency-supplement-and-rejection',
@@ -4899,10 +4889,10 @@ const blogData: BlogI18n[] = [
     metaTitle: '韓国 許認可代行 手続 — 補正要求・返戻と拒否処分の不服期限',
     metaDescription: '韓国の民願処理法第22条・施行令第24条・第25条と行政手続法第17条に基づき、許認可申請に補正要求や返戻が来る理由と手続、拒否処分の異議申請・行政審判の期限、補正を減らすチェックリストを整理しました。',
     category: '許認可',
-    excerpt: '韓国の許認可代行手続で最も多い遅延は、受付後の補正要求です。補正期間は誰が決めるのか、補正中に処理期間は止まるのか、返戻と拒否処分は何が違うのか、拒否されたらいつまで争えるのかを法令原文に基づき整理しました。',
+    excerpt: '韓国の許認可代行手続で最も多い遅延は、受付後の補正要求です。補正期間は誰が決めるのか、補正中に処理期間は止まるのか、返戻と拒否処分は何が違うのか、拒否されたらいつまで争えるのかを整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>補正要求と返戻の法的根拠</li><li>補正の期間・方式・延長</li><li>処理期間の計算</li><li>返戻と拒否処分は異なる</li><li>拒否処分への不服 — 異議申請・行政審判・訴訟</li><li>補正を減らす申請前チェックリスト</li><li>よくあるご質問</li></ol></div>
 <p><strong>韓国の許認可代行の手続</strong>で日程が最もずれやすいのは、審査結果ではなく受付後の<strong>補正要求</strong>です。期間内に補正しなければ書類が返戻されることがあります。許可・登録・届出の申請は「民願処理法」（민원 처리에 관한 법률）上の法定民願にあたるため、業種を問わず、補正・返戻・拒否のルールはまずこの法律と「行政手続法」（행정절차법）が定めています。</p>
-<p>本稿の内容はすべて2026年時点の現行法令の原文で確認しました。個別の許認可の添付書類と処理期間は、管轄機関が公表する民願便覧でご確認ください。</p>
+<p>個別の許認可の添付書類と処理期間は、管轄機関が公表する民願便覧でご確認ください。</p>
 
 <h2>補正要求と返戻の法的根拠</h2>
 <p><strong>法定民願</strong>とは、法令で定めた要件に従い許可・承認・免許・登録を申請し、または届け出る民願をいいます（第2条第1号가目1)）。</p>
@@ -4910,24 +4900,24 @@ const blogData: BlogI18n[] = [
 <p>他の法令に特別な規定がない限り、行政機関は受付を保留・拒否できず、書類を不当に返送してもならず、受付証を交付しなければなりません（法第9条第1項・第2項、施行令第6条第3項、行政手続法第17条第4項）。不備は受付後に補正要求で扱うのが原則です。法令にない書類、機関が自ら確認できる情報、変更・更新時に既に提出した書類は求められません（第10条第1項・第3項・第7項）。</p>
 
 <h2>補正の期間・方式・延長</h2>
-<table><thead><tr><th>段階</th><th>根拠</th><th>内容</th></tr></thead><tbody>
-<tr><td>補正の要求</td><td>法第22条第1項</td><td>相当の期間を定めて遅滞なく要求</td></tr>
-<tr><td>方式</td><td>施行令第24条第1項</td><td>文書または口頭。申請人が求めれば文書</td></tr>
-<tr><td>延長の申請</td><td>施行令第24条第2項</td><td>必要な期間を明らかにして申請、2回まで</td></tr>
-<tr><td>再度の要求</td><td>施行令第24条第3項</td><td>期限内に補正がなければ10日以内の期間で再要求できる</td></tr>
-<tr><td>返戻</td><td>施行令第25条第1項</td><td>期限内に補正がなければ理由を示して返戻できる</td></tr>
-<tr><td>取下げとみなす扱い</td><td>施行令第25条第2項</td><td>所在不明で補正要求が2回返送されたら終結処理できる</td></tr>
+<table><thead><tr><th>段階</th><th>内容</th></tr></thead><tbody>
+<tr><td>補正の要求</td><td>相当の期間を定めて遅滞なく要求</td></tr>
+<tr><td>方式</td><td>文書または口頭。申請人が求めれば文書</td></tr>
+<tr><td>延長の申請</td><td>必要な期間を明らかにして申請、2回まで</td></tr>
+<tr><td>再度の要求</td><td>期限内に補正がなければ10日以内の期間で再要求できる</td></tr>
+<tr><td>返戻</td><td>期限内に補正がなければ理由を示して返戻できる</td></tr>
+<tr><td>取下げとみなす扱い</td><td>所在不明で補正要求が2回返送されたら終結処理できる</td></tr>
 </tbody></table>
 <p>法律は「相当の期間」とだけ定めており、実際の期限は補正要求書の日付です。準備が間に合わなければ必要な期間を示して延長を申請できますが、2回までです。10日以内の再要求は裁量なので、期限を過ぎればそのまま返戻されることもあります。期間の計算には「民法」第156条、第157条、第159条から第161条までが準用されます（施行令第24条第4項）。</p>
 <p>要求があいまいなら担当者に直接尋ねましょう。機関は担当者の所属・氏名・連絡先を案内しなければなりません（施行令第31条）。明白な誤記は同意を得て職権で補正できます（施行令第6条第4項・第5項）。処理が終わる前なら、申請人も申請を補正・変更・取下げできます（法第22条第2項、行政手続法第17条第8項）。</p>
 
 <h2>処理期間の計算</h2>
 <p>処理期間は各機関が民願の種類ごとにあらかじめ定めて公表します（法第17条第1項〜第3項、行政手続法第19条第1項）。実際の所要期間は管轄機関と書類の状況によって異なります。計算のルールは次のとおりです。</p>
-<table><thead><tr><th>定め方</th><th>計算方法</th><th>根拠</th></tr></thead><tbody>
-<tr><td>5日以下</td><td>受付時刻から時間単位、1日は8勤務時間、土曜日・公休日は算入しない</td><td>法第19条第1項</td></tr>
-<tr><td>6日以上</td><td>日単位、初日算入、土曜日・公休日は算入しない</td><td>法第19条第2項</td></tr>
-<tr><td>週・月・年</td><td>初日算入、「民法」第159条〜第161条を準用</td><td>法第19条第3項</td></tr>
-<tr><td>即時</td><td>正当な事由がなければ3勤務時間以内に処理</td><td>施行令第19条</td></tr>
+<table><thead><tr><th>定め方</th><th>計算方法</th></tr></thead><tbody>
+<tr><td>5日以下</td><td>受付時刻から時間単位、1日は8勤務時間、土曜日・公休日は算入しない</td></tr>
+<tr><td>6日以上</td><td>日単位、初日算入、土曜日・公休日は算入しない</td></tr>
+<tr><td>週・月・年</td><td>初日算入、「民法」第159条〜第161条を準用</td></tr>
+<tr><td>即時</td><td>正当な事由がなければ3勤務時間以内に処理</td></tr>
 </tbody></table>
 <p>最も重要なのは、<strong>補正にかかった期間は処理期間に算入されない</strong>という点です。施行令第20条は「行政手続法施行令」第11条を準用し、その第1号は補正に要する期間を、発送日と補正書類の到達日を含めて除外しています。実験・技術検討・意見聴取やシステム障害の期間も算入されません（施行令第20条第2号）。</p>
 <p>機関は現場確認などの事由があれば元の期間の範囲で1回延長でき、再延長には申請人の同意が必要です。業務過多は延長事由になりません（施行令第21条）。受付から30日を過ぎても終わらなければ、原則として30日ごとに進行状況を通知しなければなりません（施行令第23条）。期間を過ぎたら迅速な処理を求めることができます（行政手続法第19条第4項）。</p>
@@ -4937,12 +4927,12 @@ const blogData: BlogI18n[] = [
 <p>拒否処分は理由と救済手続を文書で通知しなければならず（法第27条第1項・第3項）、不服申立ての方法も知らせる必要があります（行政手続法第23条第1項、第26条）。原本を保管しておきましょう。</p>
 
 <h2>拒否処分への不服 — 異議申請・行政審判・訴訟</h2>
-<table><thead><tr><th>手段</th><th>根拠</th><th>期限</th></tr></thead><tbody>
-<tr><td>異議申請</td><td>民願処理法第35条第1項</td><td>拒否処分を受けた日から60日以内、処分機関へ文書で</td></tr>
-<tr><td>異議申請の決定</td><td>民願処理法第35条第2項</td><td>10日以内、10日以内の範囲で延長可</td></tr>
-<tr><td>行政審判</td><td>行政審判法第27条第1項・第3項</td><td>処分を知った日から90日、処分の日から180日</td></tr>
-<tr><td>裁決</td><td>行政審判法第45条第1項</td><td>60日以内、30日延長可</td></tr>
-<tr><td>取消訴訟</td><td>行政訴訟法第20条</td><td>知った日から90日、処分の日から1年（審判を経た場合は裁決書の送達日から起算）</td></tr>
+<table><thead><tr><th>手段</th><th>期限</th></tr></thead><tbody>
+<tr><td>異議申請</td><td>拒否処分を受けた日から60日以内、処分機関へ文書で</td></tr>
+<tr><td>異議申請の決定</td><td>10日以内、10日以内の範囲で延長可</td></tr>
+<tr><td>行政審判</td><td>処分を知った日から90日、処分の日から180日</td></tr>
+<tr><td>裁決</td><td>60日以内、30日延長可</td></tr>
+<tr><td>取消訴訟</td><td>知った日から90日、処分の日から1年（審判を経た場合は裁決書の送達日から起算）</td></tr>
 </tbody></table>
 <div class="highlight-box">民願処理法第35条第1項：法定民願に対する拒否処分に不服がある民願人は、拒否処分を受けた日から60日以内に、その行政機関の長に文書で異議申請をすることができる。第3項：異議申請の有無にかかわらず、行政審判または行政訴訟を提起することができる。</div>
 <p>異議申請書には対象の民願、理由、拒否処分を受けた日を記載し、機関は結果とともに理由と不服申立ての方法を示さなければなりません（施行令第40条）。</p>
@@ -4958,7 +4948,7 @@ const blogData: BlogI18n[] = [
 <li><strong>複合民願</strong> — 主務部署が一括処理できます（法第31条第1項、施行令第35条）。</li>
 <li><strong>補正要求書を受け取った日</strong> — 期限を記録し、根拠を確認し、担当者に尋ね、必要なら延長を申請します（2回まで。施行令第24条第2項、第31条）。</li>
 </ul>
-<p>行政士（日本の行政書士事務所に相当する韓国の行政士事務所）への委任の根拠は「行政士法」（행정사법）第2条第1項第5号です。法令原文は<a href="https://www.law.go.kr/법령/민원처리에관한법률" target="_blank" rel="noopener">民願処理法</a>、<a href="https://www.law.go.kr/법령/행정절차법" target="_blank" rel="noopener">行政手続法</a>、<a href="https://www.law.go.kr/법령/행정심판법" target="_blank" rel="noopener">行政審判法</a>で確認できます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>行政士（日本の行政書士事務所に相当する韓国の行政士事務所）への委任の根拠は「行政士法」（행정사법）第2条第1項第5号です。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 補正の期限はどのくらいですか。</p><p class="faq-a">A. 補正要求書の日付が期限です（第22条第1項）。延長は2回まで申請でき、期限後は10日以内の再要求もあり得ますが、そのまま返戻されることもあります。</p></div>
@@ -4974,7 +4964,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「民願処理法」（法律第18748号）と同法施行令（大統領令第36296号、2026年5月6日施行）、「行政手続法」（法律第18748号）と同法施行令（大統領令第33649号）、「行政審判法」（法律第19269号）、「行政訴訟法」（法律第21615号、2026年5月12日施行）、「行政基本法」（法律第20824号）の原文に基づき作成・最終確認日 10月3日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   },
   // ── procurement-narajangteo-registration-change (inhega-daily 2026-10-05) ──
   {
@@ -4987,7 +4977,7 @@ const blogData: BlogI18n[] = [
     excerpt: 'Registration as a bidder on Korea\'s KONEPS (Narajangteo) is not a one-off. A change of representative or trade name must be registered before bidding, or the bid is invalid. Here is what the rules actually require.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why the Duty Continues After Registration</li><li>Which Changes Need a Change Registration</li><li>The Two Items That Make a Bid Invalid</li><li>When You Must Register Again</li><li>Address, Licences, Factories and Agents</li><li>Procedure and Deregistration</li><li>FAQ</li></ol></div>
 <p>A <strong>change registration</strong> (변경등록) is how a company already registered as a competitive bidder on KONEPS, Korea's national e-procurement system known as Narajangteo, updates its record after its representative, trade name or address changes. Korea public procurement bidder registration is not a one-off: the record must keep matching reality. Above all, a bid submitted without registering a change of trade name or representative is invalid.</p>
-<p>This article covers only what happens after registration. It is based on the current Enforcement Decree and Enforcement Rule of the Act on Contracts to Which the State Is a Party (국가계약법) and the Public Procurement Service (조달청) notice on KONEPS bidder registration, as of 2026.</p>
+<p>This article covers only what happens after registration.</p>
 
 <h2>Why the Duty Continues After Registration</h2>
 <p>Under Decree Article 12(1), only those holding any permit or licence required by other laws, any needed security clearance and a business registration (Rule Article 14(1)) may enter a competitive tender. Registration lets a company prove this once instead of at every tender.</p>
@@ -4996,17 +4986,17 @@ const blogData: BlogI18n[] = [
 
 <h2>Which Changes Need a Change Registration</h2>
 <p>Notice Article 16(1) requires a change registration with evidence immediately when the registered representative, trade name, address, factory, bidding agent, branch, business type or manufactured goods change; other details are simply entered in the system. The deadline is "immediately", not a number of days.</p>
-<table><thead><tr><th>Change</th><th>Action on KONEPS</th><th>Basis</th><th>Bidding without updating</th></tr></thead><tbody>
-<tr><td>Representative's name (all, if several)</td><td>Change registration</td><td>Notice Art. 16(1)(2)</td><td>Bid invalid (Rule Art. 44(1)6-3)</td></tr>
-<tr><td>Trade or corporate name</td><td>Change registration (registered name)</td><td>Notice Art. 16, 13(8)</td><td>Bid invalid (Rule Art. 44(1)6-3)</td></tr>
-<tr><td>Head office address</td><td>Change registration</td><td>Notice Art. 16(1)</td><td>Not an invalidity item; deregistration ground (Art. 19(1)2)</td></tr>
-<tr><td>Business type or goods</td><td>Change registration</td><td>Notice Art. 16(1), 11(1)</td><td>Unlisted types are outside your scope</td></tr>
-<tr><td>Factory added or moved</td><td>Proof of direct production (counts as renewal)</td><td>Notice Art. 23-3(2)</td><td>Deregistration ground (Art. 19(1)2)</td></tr>
-<tr><td>Bidding agent or branch</td><td>Change registration</td><td>Notice Art. 13(5)(9)</td><td>-</td></tr>
-<tr><td>Sole trader ↔ corporation</td><td>Deregister and register anew</td><td>Notice Art. 16(3)</td><td>Old registration unusable</td></tr>
-<tr><td>Merger</td><td>Absorbed party deregisters; absorbing party updates</td><td>Notice Art. 16(4)</td><td>Absorbed company deregistered (Art. 19(1)7)</td></tr>
-<tr><td>Rehabilitation opened</td><td>Add receiver as lead representative</td><td>Notice Art. 16(7)</td><td>-</td></tr>
-<tr><td>Sanction data</td><td>Entered by the sanctioning agency</td><td>Notice Art. 16(6)</td><td>-</td></tr>
+<table><thead><tr><th>Change</th><th>Action on KONEPS</th><th>Bidding without updating</th></tr></thead><tbody>
+<tr><td>Representative's name (all, if several)</td><td>Change registration</td><td>Bid invalid (Rule Art. 44(1)6-3)</td></tr>
+<tr><td>Trade or corporate name</td><td>Change registration (registered name)</td><td>Bid invalid (Rule Art. 44(1)6-3)</td></tr>
+<tr><td>Head office address</td><td>Change registration</td><td>Not an invalidity item; deregistration ground (Art. 19(1)2)</td></tr>
+<tr><td>Business type or goods</td><td>Change registration</td><td>Unlisted types are outside your scope</td></tr>
+<tr><td>Factory added or moved</td><td>Proof of direct production (counts as renewal)</td><td>Deregistration ground (Art. 19(1)2)</td></tr>
+<tr><td>Bidding agent or branch</td><td>Change registration</td><td>-</td></tr>
+<tr><td>Sole trader ↔ corporation</td><td>Deregister and register anew</td><td>Old registration unusable</td></tr>
+<tr><td>Merger</td><td>Absorbed party deregisters; absorbing party updates</td><td>Absorbed company deregistered (Art. 19(1)7)</td></tr>
+<tr><td>Rehabilitation opened</td><td>Add receiver as lead representative</td><td>-</td></tr>
+<tr><td>Sanction data</td><td>Entered by the sanctioning agency</td><td>-</td></tr>
 </tbody></table>
 <p>Only the trade name and the representative's name void a bid in themselves; the other items are grounds for deregistration instead. But if any change means you no longer hold the qualification a tender requires, the bid can be void as one "made by a person without qualification" (Decree Article 39(4); Rule Article 44(1)1).</p>
 
@@ -5043,7 +5033,7 @@ const blogData: BlogI18n[] = [
 <li>Check the result and reprint the certificate (Articles 10(1) and 15(2)).</li>
 </ol>
 <p>Article 18 sets a standard of 8 working hours, but delays for supplementation or system failure must be notified with an expected date, and filings after hours count from the next working day. With no reply within 20 days of a request to supplement, the application is returned (Article 14(4)). Actual timing depends on the authority and the documents, so do not start just before a bid deadline.</p>
-<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Texts: <a href="https://www.law.go.kr/행정규칙/국가종합전자조달시스템입찰참가자격등록규정" target="_blank" rel="noopener">PPS bidder registration notice</a> and <a href="https://www.law.go.kr/법령/국가를당사자로하는계약에관한법률시행규칙" target="_blank" rel="noopener">Enforcement Rule</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Our representative changed. What if we bid before registering it?</p><p class="faq-a">A. The bid is invalid under Rule Article 44(1)6-3(b) and Notice Article 16(2). Adding or removing one representative counts.</p></div>
@@ -5059,7 +5049,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Enforcement Decree of the Act on Contracts to Which the State Is a Party (Presidential Decree No. 36338), its Enforcement Rule and the PPS notice on KONEPS bidder registration · Last reviewed 3 October</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'procurement-narajangteo-registration-change',
@@ -5068,10 +5058,9 @@ const blogData: BlogI18n[] = [
     metaTitle: '韩国公共采购投标资格登记 — 变更登记与投标无效',
     metaDescription: '在韩国Narajangteo（KONEPS）完成投标资格登记后，代表人、商号、地址、业种或工厂变更时须何时、如何办理变更登记，以及未变更即投标导致无效和注销的标准。',
     category: '政府采购',
-    excerpt: '韩国公共采购投标资格登记并非一次了事。代表人或商号变更后未办理变更登记就投标，该投标无效。本文依据调达厅告示与施行规则原文整理变更义务。',
+    excerpt: '韩国公共采购投标资格登记并非一次了事。代表人或商号变更后未办理变更登记就投标，该投标无效。本文整理变更义务。',
     content: `<div class="toc"><p>目录</p><ol><li>登记后为何仍有变更登记义务</li><li>哪些事项变更需办理变更登记</li><li>导致投标无效的两项：商号与代表人姓名</li><li>需要重新登记的情形</li><li>所在地、业种、工厂、代理人变更要点</li><li>变更登记程序与注销</li><li>常见问题</li></ol></div>
 <p><strong>投标资格变更登记</strong>（변경등록）是指已在韩国国家综合电子采购系统（나라장터，Narajangteo/KONEPS）登记竞争投标参加资格的企业，在代表人、商号、地址等信息变化时将其重新反映到系统的程序。韩国公共采购投标资格登记不是一次了事，登记事项必须与实际持续一致。尤其是商号和代表人姓名，未办理变更登记就投标，该投标无效。</p>
-<p>本文依据2026年现行《国家为当事人的合同法》（국가계약법）施行令、施行规则及调达厅（조달청）登记规定原文。</p>
 
 <h2>登记后为何仍有变更登记义务</h2>
 <p>依施行令第12条第1款，具备其他法令要求的许可、执照等，必要时的保安审查适合判定，以及营业执照（施行规则第14条第1款）者，才能参加竞争投标。</p>
@@ -5080,17 +5069,17 @@ const blogData: BlogI18n[] = [
 
 <h2>哪些事项变更需办理变更登记</h2>
 <p>告示第16条第1款规定，代表人、商号、地址、工厂、投标代理人、分支机构、业种、制造物品信息变更时，须立即附证明申请变更登记；其他信息在系统直接输入即可。期限是"立即"。</p>
-<table><thead><tr><th>变更事项</th><th>处理</th><th>依据</th><th>未变更即投标</th></tr></thead><tbody>
-<tr><td>代表人姓名（多人时全部）</td><td>变更登记</td><td>告示第16条第1款、第2款</td><td>投标无效（规则第44条第1款第6项之3）</td></tr>
-<tr><td>商号或法人名称</td><td>变更登记（按登记簿商号）</td><td>告示第16条、第13条第8款</td><td>投标无效（规则第44条第1款第6项之3）</td></tr>
-<tr><td>总公司地址</td><td>变更登记</td><td>告示第16条第1款</td><td>非无效事项；注销事由（第19条第1款第2项）</td></tr>
-<tr><td>业种、制造物品</td><td>变更登记</td><td>告示第16条第1款、第11条第1款</td><td>未登载业种不在投标范围</td></tr>
-<tr><td>工厂增设或迁移</td><td>提交直接生产证明（视为更新登记）</td><td>告示第23条之3第2款</td><td>注销事由（第19条第1款第2项）</td></tr>
-<tr><td>投标代理人、分支机构</td><td>变更登记</td><td>告示第13条第5款、第9款</td><td>-</td></tr>
-<tr><td>个人与法人转换</td><td>注销后重新登记</td><td>告示第16条第3款</td><td>原登记不能使用</td></tr>
-<tr><td>合并</td><td>被合并方注销，合并方变更登记</td><td>告示第16条第4款</td><td>被合并方注销（第19条第1款第7项）</td></tr>
-<tr><td>回生程序开始</td><td>追加管理人为代表代表人</td><td>告示第16条第7款</td><td>-</td></tr>
-<tr><td>行政处分信息</td><td>处分机关直接输入</td><td>告示第16条第6款</td><td>-</td></tr>
+<table><thead><tr><th>变更事项</th><th>处理</th><th>未变更即投标</th></tr></thead><tbody>
+<tr><td>代表人姓名（多人时全部）</td><td>变更登记</td><td>投标无效（规则第44条第1款第6项之3）</td></tr>
+<tr><td>商号或法人名称</td><td>变更登记（按登记簿商号）</td><td>投标无效（规则第44条第1款第6项之3）</td></tr>
+<tr><td>总公司地址</td><td>变更登记</td><td>非无效事项；注销事由（第19条第1款第2项）</td></tr>
+<tr><td>业种、制造物品</td><td>变更登记</td><td>未登载业种不在投标范围</td></tr>
+<tr><td>工厂增设或迁移</td><td>提交直接生产证明（视为更新登记）</td><td>注销事由（第19条第1款第2项）</td></tr>
+<tr><td>投标代理人、分支机构</td><td>变更登记</td><td>-</td></tr>
+<tr><td>个人与法人转换</td><td>注销后重新登记</td><td>原登记不能使用</td></tr>
+<tr><td>合并</td><td>被合并方注销，合并方变更登记</td><td>被合并方注销（第19条第1款第7项）</td></tr>
+<tr><td>回生程序开始</td><td>追加管理人为代表代表人</td><td>-</td></tr>
+<tr><td>行政处分信息</td><td>处分机关直接输入</td><td>-</td></tr>
 </tbody></table>
 <p>直接导致无效的只有商号和代表人姓名，其他为注销事由；但变更若使资格丧失，也可能作为"无资格者的投标"无效（施行令第39条第4款、规则第44条第1款第1项）。</p>
 
@@ -5127,7 +5116,7 @@ const blogData: BlogI18n[] = [
 <li>确认结果并重新打印登记证（第10条第1款、第15条第2款）。</li>
 </ol>
 <p>第18条以8个工作小时内处理为标准，需补正或系统故障时须通知原因和预计日期，工作时间后申请视为下一工作日受理。补正要求后20日无回复则退回（第14条第4款）。实际时间因机关和文件情况而异，勿在截止前才申请。</p>
-<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。原文见<a href="https://www.law.go.kr/행정규칙/국가종합전자조달시스템입찰참가자격등록규정" target="_blank" rel="noopener">投标参加资格登记规定</a>、<a href="https://www.law.go.kr/법령/국가를당사자로하는계약에관한법률시행규칙" target="_blank" rel="noopener">国家合同法施行规则</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 代表人已变更，变更登记前投标会怎样？</p><p class="faq-a">A. 投标无效（规则第44条第1款第6项之3第2目、告示第16条第2款）。增加或卸任一名代表人也包括在内。</p></div>
@@ -5143,19 +5132,19 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《国家为当事人的合同法施行令》（总统令第36338号）、同法施行规则及调达厅投标参加资格登记规定原文撰写 · 最终审阅日 10月3日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'procurement-narajangteo-registration-change',
     locale: 'ja',
     title: '韓国 公共調達 入札参加資格登録の変更登録 — 代表者・商号・所在地が変わったらナラジャンテで行うこと',
     metaTitle: '韓国 公共調達 入札参加資格登録 — 変更登録と入札無効',
-    metaDescription: '韓国のナラジャンテ（KONEPS）で入札参加資格を登録した後、代表者・商号・住所・業種・工場が変わった場合にいつ・どう変更登録するか、変更登録なしの入札が無効となる場合と抹消基準を原文で整理しました。',
+    metaDescription: '韓国のナラジャンテ（KONEPS）で入札参加資格を登録した後、代表者・商号・住所・業種・工場が変わった場合にいつ・どう変更登録するか、変更登録なしの入札が無効となる場合と抹消基準を整理しました。',
     category: '政府調達',
-    excerpt: '韓国の公共調達の入札参加資格登録は一度で終わりません。代表者や商号が変わったのに変更登録をせずに入札すると、その入札は無効です。調達庁告示と施行規則の原文に基づき変更義務を整理しました。',
+    excerpt: '韓国の公共調達の入札参加資格登録は一度で終わりません。代表者や商号が変わったのに変更登録をせずに入札すると、その入札は無効です。変更義務を整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>登録後も変更登録義務が続く理由</li><li>何が変わったら変更登録か</li><li>入札無効となる2項目 — 商号と代表者氏名</li><li>再登録が必要な場合</li><li>所在地・業種・工場・代理人の変更</li><li>変更登録の手続と抹消</li><li>よくあるご質問</li></ol></div>
 <p><strong>入札参加資格の変更登録</strong>（변경등록）とは、韓国の国家総合電子調達システム（나라장터、ナラジャンテ／KONEPS）に競争入札参加資格を登録した企業が、代表者・商号・住所などの登録情報が変わったときにシステムへ反映させる手続です。韓国 公共調達 入札参加資格登録は一度で終わりではなく、登録事項が実態と一致し続ける必要があります。特に商号と代表者氏名は、変更登録をせずに入札書を出すとその入札自体が無効になります。</p>
-<p>本稿は登録後の変更義務だけを扱います。根拠は2026年現在の「国家を当事者とする契約に関する法律」（국가계약법）施行令・施行規則と、調達庁（조달청）の入札参加資格登録規定の原文です。韓国の行政士事務所（日本の行政書士事務所に相当）の立場から整理しました。</p>
+<p>本稿は登録後の変更義務だけを扱います。韓国の行政士事務所（日本の行政書士事務所に相当）の立場から整理しました。</p>
 
 <h2>登録後も変更登録義務が続く理由</h2>
 <p>施行令第12条第1項により、競争入札に参加できるのは、他の法令が求める許可・免許等、必要な場合の保安測定の適合判定、事業者登録（施行規則第14条第1項）を備えた者に限られます。入札参加資格登録は、これらを入札のたびに証明しなくて済むよう事前に確認を受けておく仕組みです。</p>
@@ -5164,17 +5153,17 @@ const blogData: BlogI18n[] = [
 
 <h2>何が変わったら変更登録か</h2>
 <p>告示第16条第1項は、代表者、商号、住所、工場、入札代理人、支社、業種、製造物品の情報が変わったら、直ちに証憑書類を添えて変更登録申請をするよう定めています。その他の情報はシステムへの直接入力で完了します。期限は「何日以内」ではなく「直ちに」です。</p>
-<table><thead><tr><th>変わった事項</th><th>行うこと</th><th>根拠</th><th>変更登録せずに入札すると</th></tr></thead><tbody>
-<tr><td>代表者氏名（複数なら全員）</td><td>変更登録申請</td><td>告示第16条第1項・第2項</td><td>入札無効（規則第44条第1項第6号の3）</td></tr>
-<tr><td>商号・法人の名称</td><td>変更登録申請（登記上の商号）</td><td>告示第16条、第13条第8項</td><td>入札無効（規則第44条第1項第6号の3）</td></tr>
-<tr><td>本社住所</td><td>変更登録申請</td><td>告示第16条第1項</td><td>無効事項ではないが抹消事由（第19条第1項第2号）</td></tr>
-<tr><td>業種・製造物品</td><td>変更登録申請</td><td>告示第16条第1項、第11条第1項</td><td>未登載の業種は参加範囲外</td></tr>
-<tr><td>工場の追加・移転</td><td>直接生産の立証書類（更新登録とみなす）</td><td>告示第23条の3第2項</td><td>抹消事由（第19条第1項第2号）</td></tr>
-<tr><td>入札代理人・支社</td><td>変更登録申請</td><td>告示第13条第5項・第9項</td><td>-</td></tr>
-<tr><td>個人と法人の転換</td><td>抹消後に新規登録</td><td>告示第16条第3項</td><td>従前の登録は使えない</td></tr>
-<tr><td>合併</td><td>被合併側は抹消、合併側は変更登録</td><td>告示第16条第4項</td><td>被合併法人は抹消（第19条第1項第7号）</td></tr>
-<tr><td>回生手続開始</td><td>管理人を代表代表者として登録</td><td>告示第16条第7項</td><td>-</td></tr>
-<tr><td>行政処分情報</td><td>処分機関が直接入力</td><td>告示第16条第6項</td><td>-</td></tr>
+<table><thead><tr><th>変わった事項</th><th>行うこと</th><th>変更登録せずに入札すると</th></tr></thead><tbody>
+<tr><td>代表者氏名（複数なら全員）</td><td>変更登録申請</td><td>入札無効（規則第44条第1項第6号の3）</td></tr>
+<tr><td>商号・法人の名称</td><td>変更登録申請（登記上の商号）</td><td>入札無効（規則第44条第1項第6号の3）</td></tr>
+<tr><td>本社住所</td><td>変更登録申請</td><td>無効事項ではないが抹消事由（第19条第1項第2号）</td></tr>
+<tr><td>業種・製造物品</td><td>変更登録申請</td><td>未登載の業種は参加範囲外</td></tr>
+<tr><td>工場の追加・移転</td><td>直接生産の立証書類（更新登録とみなす）</td><td>抹消事由（第19条第1項第2号）</td></tr>
+<tr><td>入札代理人・支社</td><td>変更登録申請</td><td>-</td></tr>
+<tr><td>個人と法人の転換</td><td>抹消後に新規登録</td><td>従前の登録は使えない</td></tr>
+<tr><td>合併</td><td>被合併側は抹消、合併側は変更登録</td><td>被合併法人は抹消（第19条第1項第7号）</td></tr>
+<tr><td>回生手続開始</td><td>管理人を代表代表者として登録</td><td>-</td></tr>
+<tr><td>行政処分情報</td><td>処分機関が直接入力</td><td>-</td></tr>
 </tbody></table>
 <p>入札そのものが無効になるのは商号と代表者氏名だけで、他の事項は抹消事由です。ただし変更によって公告の資格を失っていれば「入札参加資格のない者の入札」として無効になり得ます（施行令第39条第4項、規則第44条第1項第1号）。</p>
 
@@ -5211,7 +5200,7 @@ const blogData: BlogI18n[] = [
 <li>結果を確認し登録証を出力し直す（第10条第1項、第15条第2項）。</li>
 </ol>
 <p>第18条は8勤務時間以内の処理を基準とし、補完や電算障害で遅れる場合は理由と予定日を通知し、勤務時間後の申請は翌勤務日受付とみなします。補完要請後20日回答がなければ返戻です（第14条第4項）。実際の所要時間は管轄機関と書類の状況によって異なるため、締切直前の申請は避けましょう。</p>
-<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。原文は<a href="https://www.law.go.kr/행정규칙/국가종합전자조달시스템입찰참가자격등록규정" target="_blank" rel="noopener">入札参加資格登録規定</a>、<a href="https://www.law.go.kr/법령/국가를당사자로하는계약에관한법률시행규칙" target="_blank" rel="noopener">国家契約法施行規則</a>で確認できます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 代表者が変わったのに変更登録前に入札するとどうなりますか。</p><p class="faq-a">A. 無効です（施行規則第44条第1項第6号の3イ目、告示第16条第2項）。代表者1人の加入や退任も含まれます。</p></div>
@@ -5227,7 +5216,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「国家を当事者とする契約に関する法律施行令」（大統領令第36338号）、同法施行規則および調達庁「入札参加資格登録規定」の原文に基づき作成・最終確認日 10月3日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   },
   // ── corporate-research-lab-required-documents (inhega-daily 2026-10-06) ──
   {
@@ -5309,7 +5298,7 @@ const blogData: BlogI18n[] = [
 <li>an equipment list of copiers, office PCs and general software; and</li>
 <li>a service-field application without the SME review sheet or VAT return.</li>
 </ul>
-<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation. Texts: <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">the Act</a> and <a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">its Enforcement Rules</a>.</p>
+<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Must degree certificates be attached?</p><p class="faq-a">A. They are not on the list in Rules Article 3(1), but Form 4 asks for degree numbers and KOITA may check copies under Guidelines Article 5(2). Keep the originals.</p></div>
@@ -5325,7 +5314,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Act on R&D Support for Corporate Research Institutes, etc. (Act No. 21309, in force 1 February 2026), its Enforcement Decree (Presidential Decree No. 36055), Enforcement Rules (Ordinance No. 163) and the Reporting Guidelines (Notice No. 2026-6) · Last reviewed 3 October</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'corporate-research-lab-required-documents',
@@ -5405,7 +5394,7 @@ const blogData: BlogI18n[] = [
 <li>器材只列复印机、办公电脑和通用软件；</li>
 <li>服务领域申请漏交检讨表或增值税申报书。</li>
 </ul>
-<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。原文见<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">该法</a>、<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">施行规则</a>。</p>
+<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 必须附学位证书吗？</p><p class="faq-a">A. 施行规则第3条第1款清单中没有，但第4号书式要填学位编号，事后管理可确认复印件（申报要领第5条第2款），应保存原件。</p></div>
@@ -5421,7 +5410,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《企业附属研究所等研究开发支援法》（法律第21309号，2026年2月1日施行）、同法施行令（总统令第36055号）、施行规则（科学技术信息通信部令第163号）及《企业附属研究所与研究开发专门部门申报要领》（告示第2026-6号）原文撰写 · 最终审阅日 10月3日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'corporate-research-lab-required-documents',
@@ -5430,7 +5419,7 @@ const blogData: BlogI18n[] = [
     metaTitle: '韓国 企業付設研究所設立の必要書類 — 認定申請の添付書類',
     metaDescription: '2026年2月1日施行の韓国「企業付設研究所等の研究開発支援に関する法律」施行規則第3条・第4条に基づき、企業付設研究所と研究開発専担部署の認定申請に必要な書類、各書類が証明する内容、補完になりやすい記載ミスを整理しました。',
     category: '企業認証',
-    excerpt: '2026年2月から、韓国の企業付設研究所の認定書類は新法の施行規則が定めています。申請書と添付書類、提出不要の書類、補完を求められやすい記載ミスを原文基準で整理しました。',
+    excerpt: '2026年2月から、韓国の企業付設研究所の認定書類は新法の施行規則が定めています。申請書と添付書類、提出不要の書類、補完を求められやすい記載ミスを整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>根拠法令 — 書類の規定は新法へ移った</li><li>申請書に記載する情報</li><li>添付書類の一覧と各書類が証明するもの</li><li>研究開発人力現況 — 研究専担要員の証明</li><li>図面・表札・写真と研究機材現況</li><li>提出後の手続と補完が多いミス</li><li>よくあるご質問</li></ol></div>
 <p><strong>韓国の企業付設研究所設立に必要な書類</strong>は、2026年2月1日から「企業付設研究所等の研究開発支援に関する法律施行規則」（기업부설연구소등의 연구개발 지원에 관한 법률 시행규칙）第3条が定めています。企業付設研究所は認定申請書に研究開発活動概要書、研究機材現況、研究開発人力現況、組織図、図面と写真など該当する添付書類（最大10種）を付けて韓国産業技術振興協会（한국산업기술진흥협회）に提出し、研究開発専担部署は同規則第4条により最大6種を提出します。事業者登録証明と小企業・中企業の証明書類は、申請人が同意すれば協会が行政情報の共同利用で直接確認します。</p>
 <p>企業付設研究所とは、企業が研究開発のために設立・運営し同法第7条の認定を受けた付設研究機関、研究開発専担部署とは同じ認定を受けた研究開発専担の部署をいいます（第2条）。書類は、認定基準である「人」と「空間」を審査機関が確認する経路です。本稿は要件そのものではなく、その証明方法に焦点を当てます。</p>
@@ -5501,7 +5490,7 @@ const blogData: BlogI18n[] = [
 <li>機材現況がコピー機・事務用PC・汎用ソフトウェアのみ</li>
 <li>サービス分野なのに基準検討表や付加価値税申告書がない</li>
 </ul>
-<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。原文は<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률" target="_blank" rel="noopener">同法</a>、<a href="https://www.law.go.kr/법령/기업부설연구소등의연구개발지원에관한법률시행규칙" target="_blank" rel="noopener">同法施行規則</a>で確認できます。</p>
+<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 学位証明書の添付は必要ですか。</p><p class="faq-a">A. 施行規則第3条第1項の一覧にはありませんが、第4号書式に学位番号を記載し、事後管理で写しが確認されることがあるため（届出要領第5条第2項）、原本を保管してください。</p></div>
@@ -5517,7 +5506,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「企業付設研究所等の研究開発支援に関する法律」（法律第21309号、2026年2月1日施行）、同法施行令（大統領令第36055号）、施行規則（科学技術情報通信部令第163号）および「企業付設研究所と研究開発専担部署の届出要領」（告示第2026-6号）の原文に基づき作成・最終確認日 10月3日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   },
   // ── mainbiz-renewal-and-validity (inhega-daily 2026-10-07) ──
   {
@@ -5530,7 +5519,7 @@ const blogData: BlogI18n[] = [
     excerpt: 'A Mainbiz certificate is valid for 3 years. Here is when to apply for extension, how the renewal assessment works, how the new term is counted, and what can cancel a selection, based on the Ministry notice.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Legal Basis and Validity Period</li><li>When to Apply for Extension</li><li>The Renewal Assessment and Pass Mark</li><li>How the New Term Is Counted</li><li>Changes During the Term — Reissuance and Succession</li><li>Cancellation Grounds and Follow-up Review</li><li>FAQ</li></ol></div>
 <p><strong>A Mainbiz (management innovation SME) certificate in Korea is valid for 3 years from its issue date.</strong> To keep it, the company must apply for extension between 90 days before and 30 days after expiry and score 700 points or more in the renewal assessment. That assessment uses a separate diagnosis table, and the start of the new term depends on when the renewed certificate is issued.</p>
-<p>This guide is based on the Act on the Promotion of Technological Innovation of Small and Medium Enterprises (중소기업 기술혁신 촉진법), its Decree and the Ministry of SMEs and Startups notice on the Main-Biz system (경영혁신형 중소기업(Main-Biz) 제도 운영규정). Officially, "renewal" is an "extension of the validity period".</p>
+<p>Officially, "renewal" is an "extension of the validity period".</p>
 
 <h2>Legal Basis and Validity Period</h2>
 <p>A management innovation SME is one selected by the Minister under Article 15-3 of the Act (Article 2, item 4-2), on criteria for innovation activities and results announced under Decree Article 13. Neither states a validity period; the Ministry notice does (Notice Article 1). Notices change often, so check the current one — Notice No. 2026-45 of 22 June 2026.</p>
@@ -5539,12 +5528,12 @@ const blogData: BlogI18n[] = [
 
 <h2>When to Apply for Extension</h2>
 <p>The management body, the Korea Management Innovation SME Association, must notify the company at least 90 days before expiry (Notice Articles 2 and 15(1)). The company re-enters its data on Mainbiz-net, self-diagnoses and applies; an institution is assigned within 3 days.</p>
-<table><thead><tr><th>Timing</th><th>What happens</th><th>Basis</th></tr></thead><tbody>
-<tr><td>By 90 days before expiry</td><td>Management body notifies the company</td><td>Notice Art. 15(1)</td></tr>
-<tr><td>From 90 days before expiry</td><td>Extension application opens</td><td>Notice Art. 15(1)</td></tr>
-<tr><td>By 35 days before expiry</td><td>Deadline for confirmation before expiry</td><td>Notice Art. 15(1) proviso</td></tr>
-<tr><td>Expiry date</td><td>Existing certificate ends</td><td>Notice Art. 12(3)</td></tr>
-<tr><td>Within 30 days after expiry</td><td>Last day to apply</td><td>Notice Art. 15(1)</td></tr>
+<table><thead><tr><th>Timing</th><th>What happens</th></tr></thead><tbody>
+<tr><td>By 90 days before expiry</td><td>Management body notifies the company</td></tr>
+<tr><td>From 90 days before expiry</td><td>Extension application opens</td></tr>
+<tr><td>By 35 days before expiry</td><td>Deadline for confirmation before expiry</td></tr>
+<tr><td>Expiry date</td><td>Existing certificate ends</td></tr>
+<tr><td>Within 30 days after expiry</td><td>Last day to apply</td></tr>
 </tbody></table>
 <p>The key row is "35 days before expiry": a company wanting confirmation before expiry must apply by then. The rules allow 21 days from application to registration of the result and 7 days from registration to the renewed certificate (Article 15(3) and (4)), so plan around the 35-day proviso to avoid a gap.</p>
 <p>No rule extends the window if the reminder never arrives. A company selected through PMS generally follows the same procedure, but if it keeps its PMS certification within the deadline, re-selection is processed on the PMS review (Article 15(2)).</p>
@@ -5572,26 +5561,26 @@ const blogData: BlogI18n[] = [
 
 <h2>Changes During the Term — Reissuance and Succession</h2>
 <p>If company details change, the company may apply to the regional office for reissuance using Form 4 (Article 13(1)):</p>
-<table><thead><tr><th>Change</th><th>Action</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Trade name, location or representative (not a sole proprietor's representative)</td><td>Apply for reissuance</td><td>Notice Art. 13(1)1</td></tr>
-<tr><td>Loss or damage of the certificate</td><td>Apply for reissuance</td><td>Notice Art. 13(1)2</td></tr>
-<tr><td>Incorporation, acquisition, merger, consolidation or change of entity type</td><td>Apply for reissuance to succeed to the selection</td><td>Notice Art. 13(1)3, Art. 14</td></tr>
+<table><thead><tr><th>Change</th><th>Action</th></tr></thead><tbody>
+<tr><td>Trade name, location or representative (not a sole proprietor's representative)</td><td>Apply for reissuance</td></tr>
+<tr><td>Loss or damage of the certificate</td><td>Apply for reissuance</td></tr>
+<tr><td>Incorporation, acquisition, merger, consolidation or change of entity type</td><td>Apply for reissuance to succeed to the selection</td></tr>
 </tbody></table>
 <p>Reissuance is approved within 7 days (Article 13(2) and (3)). It does not extend the term: the reissued certificate keeps the previous validity period, and in a merger the term of the company with the larger equity share applies (Article 13(4)).</p>
 <p>Succession requires the conditions in Article 14. When a sole proprietorship incorporates, the same business (KSIC sub-class) must continue, main facilities must be contributed in kind with assets and liabilities taken over, and the former owner must be a full-time director and a shareholder (Articles 14 and 5(1)). In a merger by absorption, succession is possible if the surviving company is a Mainbiz; otherwise it needs the same business, at least 50% of sales and a majority of full-time directors from the absorbed company (Articles 14 and 5(2)). Entity type changes and a representative change after family business succession relief are also covered (Article 14, items 5 and 6). There is no reissuance deadline, but an outdated certificate is hard to use.</p>
 
 <h2>Cancellation Grounds and Follow-up Review</h2>
 <p>The Minister may re-assess a selected company against Table 1 where needed (Article 16). The regional office may cancel a selection on the grounds below and must cancel on grounds 1 to 3 (Article 17(1)):</p>
-<table><thead><tr><th>Ground</th><th>Nature</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Voluntary return</td><td>Mandatory</td><td>Notice Art. 17(1)1</td></tr>
-<tr><td>Assessment obtained with false records</td><td>Mandatory</td><td>Notice Art. 17(1)2</td></tr>
-<tr><td>Loss of eligibility under Article 3</td><td>Mandatory</td><td>Notice Art. 17(1)3</td></tr>
-<tr><td>Management not normalised (closure, suspension, financial restrictions, tax arrears)</td><td>Discretionary</td><td>Notice Art. 17(1)4</td></tr>
-<tr><td>Failing criteria after follow-up review</td><td>Discretionary</td><td>Notice Art. 17(1)5</td></tr>
+<table><thead><tr><th>Ground</th><th>Nature</th></tr></thead><tbody>
+<tr><td>Voluntary return</td><td>Mandatory</td></tr>
+<tr><td>Assessment obtained with false records</td><td>Mandatory</td></tr>
+<tr><td>Loss of eligibility under Article 3</td><td>Mandatory</td></tr>
+<tr><td>Management not normalised (closure, suspension, financial restrictions, tax arrears)</td><td>Discretionary</td></tr>
+<tr><td>Failing criteria after follow-up review</td><td>Discretionary</td></tr>
 </tbody></table>
 <p>Under Article 3(2), companies registered for arrears with the Korea Credit Information Services, under a suspension of bill transactions, in bankruptcy, rehabilitation or liquidation (except those duly performing an approved plan), or with a debt ratio of 1,000% or more or full capital impairment at the previous fiscal year-end are not eligible (items 1 to 5). The 22 June 2026 amendment added item 6: within the last 3 years, public listing for unpaid wages, public naming for industrial accidents, a fair trade corrective order, or a subsidy participation ban.</p>
 <p>The management body checks at least 1 time a month whether selected companies fall under a ground and notifies the regional office, which must retrieve the certificate within 15 days of cancellation and publish it on Mainbiz-net (Article 17(2) and (3)).</p>
-<p>The texts are on the National Law Information Center (<a href="https://www.law.go.kr/법령/중소기업기술혁신촉진법" target="_blank" rel="noopener">the Act</a>, <a href="https://www.law.go.kr/행정규칙/경영혁신형중소기업(Main-Biz)제도운영규정" target="_blank" rel="noopener">the Main-Biz Operation Regulation</a>), and applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Is a Mainbiz certificate extended automatically?</p><p class="faq-a">A. No. You must apply (Article 15(1)) and score 700 points or more (Article 15(4)).</p></div>
@@ -5607,7 +5596,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Act on the Promotion of Technological Innovation of Small and Medium Enterprises (Act No. 21289, in force 1 July 2026), its Enforcement Decree (Presidential Decree No. 36699, in force 22 September 2026) and Ministry of SMEs and Startups Notice No. 2026-45 (in force 22 June 2026) · Last reviewed 3 October</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'mainbiz-renewal-and-validity',
@@ -5616,10 +5605,10 @@ const blogData: BlogI18n[] = [
     metaTitle: '韩国Mainbiz认证有效期与续期 — 延长申请与撤销事由',
     metaDescription: '依据韩国中小风险企业部告示，说明Mainbiz（经营创新型中小企业）确认书3年有效期、到期前90日至到期后30日的延长申请、700分评价标准、新有效期计算、变更补发与撤销事由。',
     category: '企业认证',
-    excerpt: 'Mainbiz确认书自签发日起3年有效。本文依据告示原文整理何时申请延长、续期评价看什么、新有效期如何计算，以及有效期内的变更与撤销事由。',
+    excerpt: 'Mainbiz确认书自签发日起3年有效。本文整理何时申请延长、续期评价看什么、新有效期如何计算，以及有效期内的变更与撤销事由。',
     content: `<div class="toc"><p>目录</p><ol><li>Mainbiz确认的法律依据与有效期</li><li>有效期延长的申请时间</li><li>延长评价与合格分数</li><li>续期确认书的新有效期计算</li><li>有效期内的变更 — 补发与承继</li><li>撤销事由与事后管理</li><li>常见问题</li></ol></div>
 <p><strong>韩国Mainbiz（经营创新型中小企业，경영혁신형 중소기업）确认书自签发日起3年有效。</strong>要继续保持，须在到期前90日至到期后30日内申请延长，并在评价中取得700分以上。延长评价使用另行规定的诊断评价表，新有效期的起算日取决于续期确认书的签发时间。</p>
-<p>本文依据《中小企业技术创新促进法》（중소기업 기술혁신 촉진법）、同法施行令及中小风险企业部告示《经营创新型中小企业（Main-Biz）制度运营规定》原文整理。俗称的"续期"在告示中称为"有效期延长"。</p>
+<p>俗称的"续期"在告示中称为"有效期延长"。</p>
 
 <h2>Mainbiz确认的法律依据与有效期</h2>
 <p>该法第2条第4项之2规定，经营创新型中小企业是由长官依第15条之3选定的企业；施行令第13条规定长官公告关于经营创新活动及成果的评价标准并选定优秀企业。法律和施行令都没有有效期数字，有效期由告示规定（告示第1条）。告示修订较频繁，现行版本为2026年6月22日发布的第2026-45号。</p>
@@ -5628,12 +5617,12 @@ const blogData: BlogI18n[] = [
 
 <h2>有效期延长的申请时间</h2>
 <p>管理机构（社）韩国经营创新中小企业协会须在到期日90日前通知企业（第2条、第15条第1款）。企业在Mainbiz网重新录入资料、完成自我诊断后申请，管理机构在3日内分配评价机构。</p>
-<table><thead><tr><th>时间点</th><th>内容</th><th>依据</th></tr></thead><tbody>
-<tr><td>到期前90日之前</td><td>管理机构通知到期</td><td>告示第15条第1款</td></tr>
-<tr><td>自到期前90日起</td><td>可申请延长</td><td>告示第15条第1款</td></tr>
-<tr><td>到期前35日之前</td><td>希望到期前获得确认的申请期限</td><td>告示第15条第1款但书</td></tr>
-<tr><td>到期日</td><td>原确认书有效期结束</td><td>告示第12条第3款</td></tr>
-<tr><td>到期后30日以内</td><td>延长申请最后期限</td><td>告示第15条第1款</td></tr>
+<table><thead><tr><th>时间点</th><th>内容</th></tr></thead><tbody>
+<tr><td>到期前90日之前</td><td>管理机构通知到期</td></tr>
+<tr><td>自到期前90日起</td><td>可申请延长</td></tr>
+<tr><td>到期前35日之前</td><td>希望到期前获得确认的申请期限</td></tr>
+<tr><td>到期日</td><td>原确认书有效期结束</td></tr>
+<tr><td>到期后30日以内</td><td>延长申请最后期限</td></tr>
 </tbody></table>
 <p>尤其关键的是"到期前35日"：希望在到期日前取得确认的企业须在此之前申请。从申请到登记评价结果为21日，从登记到续期签发为7日（第15条第3款、第4款）。告示没有"未收到通知可延长期限"的规定，到期日须自行管理。经PMS获选的企业在期限内维持PMS认证的，按PMS审查结果重新选定（第15条第2款）。</p>
 
@@ -5660,24 +5649,24 @@ const blogData: BlogI18n[] = [
 
 <h2>有效期内的变更 — 补发与承继</h2>
 <p>企业信息变更的，可用附件第4号格式向地方厅申请补发（第13条第1款）：</p>
-<table><thead><tr><th>变更类型</th><th>应办事项</th><th>依据</th></tr></thead><tbody>
-<tr><td>商号、所在地或代表人变更（个人经营者代表人除外）</td><td>申请补发</td><td>告示第13条第1款第1项</td></tr>
-<tr><td>确认书遗失、毁损</td><td>申请补发</td><td>告示第13条第1款第2项</td></tr>
-<tr><td>法人转换、收购合并、整合、组织变更</td><td>为承继选定申请补发</td><td>告示第13条第1款第3项、第14条</td></tr>
+<table><thead><tr><th>变更类型</th><th>应办事项</th></tr></thead><tbody>
+<tr><td>商号、所在地或代表人变更（个人经营者代表人除外）</td><td>申请补发</td></tr>
+<tr><td>确认书遗失、毁损</td><td>申请补发</td></tr>
+<tr><td>法人转换、收购合并、整合、组织变更</td><td>为承继选定申请补发</td></tr>
 </tbody></table>
 <p>补发在7日内批准（第13条第2款、第3款），但不延长有效期：沿用原有效期，合并时以持股比例较高企业为准（第13条第4款）。个人企业转为法人的，须同时满足同一业种（小类）继续经营、主要设施实物出资并承继资产负债、原代表人任专职董事且为股东（第14条、第5条第1款）。吸收合并时存续企业是Mainbiz即可承继，否则须满足业种相同、销售额占50%以上、专职董事过半等条件（第14条、第5条第2款）。组织变更及家业继承扣除后的代表人变更也可承继（第14条第5项、第6项）。告示未规定补发期限，但信息不符的确认书难以使用。</p>
 
 <h2>撤销事由与事后管理</h2>
 <p>长官认为必要时可按附表1重新评价（第16条）。地方厅可在下列情形撤销选定，第1项至第3项必须撤销（第17条第1款）：</p>
-<table><thead><tr><th>撤销事由</th><th>性质</th><th>依据</th></tr></thead><tbody>
-<tr><td>企业自愿交回</td><td>必须撤销</td><td>告示第17条第1款第1项</td></tr>
-<tr><td>以虚假业绩接受评价</td><td>必须撤销</td><td>告示第17条第1款第2项</td></tr>
-<tr><td>丧失第3条申请资格</td><td>必须撤销</td><td>告示第17条第1款第3项</td></tr>
-<tr><td>停业、停产、金融限制、欠税等致经营未正常化</td><td>可以撤销</td><td>告示第17条第1款第4项</td></tr>
-<tr><td>事后管理结果不符合标准</td><td>可以撤销</td><td>告示第17条第1款第5项</td></tr>
+<table><thead><tr><th>撤销事由</th><th>性质</th></tr></thead><tbody>
+<tr><td>企业自愿交回</td><td>必须撤销</td></tr>
+<tr><td>以虚假业绩接受评价</td><td>必须撤销</td></tr>
+<tr><td>丧失第3条申请资格</td><td>必须撤销</td></tr>
+<tr><td>停业、停产、金融限制、欠税等致经营未正常化</td><td>可以撤销</td></tr>
+<tr><td>事后管理结果不符合标准</td><td>可以撤销</td></tr>
 </tbody></table>
 <p>依第3条第2款，登记欠缴信息、票据停止交易、破产·回生·清算（正常履行回生计划的除外）、上一会计年度末负债比率1,000%以上或完全资本侵蚀的企业无申请资格（第1项至第5项）。2026年6月22日新增第6项：最近3年内被公开为欠薪雇主、被公布产业灾害、因公平交易法令受纠正命令或因补助金法受参与限制。</p>
-<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。原文见<a href="https://www.law.go.kr/법령/중소기업기술혁신촉진법" target="_blank" rel="noopener">中小企业技术创新促进法</a>、<a href="https://www.law.go.kr/행정규칙/경영혁신형중소기업(Main-Biz)제도운영규정" target="_blank" rel="noopener">Main-Biz制度运营规定</a>，申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有效期届满后会自动延长吗？</p><p class="faq-a">A. 不会。须依第15条第1款申请，并依第15条第4款取得700分以上。</p></div>
@@ -5693,7 +5682,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《中小企业技术创新促进法》（法律第21289号，2026年7月1日施行）、同法施行令（总统令第36699号，2026年9月22日施行）及中小风险企业部告示第2026-45号（2026年6月22日施行）原文撰写 · 最终审阅日 10月3日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'mainbiz-renewal-and-validity',
@@ -5702,10 +5691,10 @@ const blogData: BlogI18n[] = [
     metaTitle: '韓国メインビズ認証の有効期間と更新 — 延長申請と取消事由',
     metaDescription: '韓国の中小ベンチャー企業部告示に基づき、メインビズ（経営革新型中小企業）確認書の有効期間3年、満了90日前から満了後30日までの延長申請、700点の評価基準、新しい有効期間の計算、変更時の再発給と選定取消事由を整理しました。',
     category: '企業認証',
-    excerpt: 'メインビズ確認書は発給日から3年で効力が切れます。延長申請の時期、更新評価の内容、新しい有効期間の数え方、有効期間中の変更と選定取消事由を告示の原文に基づき整理しました。',
+    excerpt: 'メインビズ確認書は発給日から3年で効力が切れます。延長申請の時期、更新評価の内容、新しい有効期間の数え方、有効期間中の変更と選定取消事由を整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>メインビズ確認の法的根拠と有効期間</li><li>有効期間延長の申請時期</li><li>延長評価 — 経営革新診断評価表と基準点</li><li>更新確認書の新しい有効期間の計算</li><li>有効期間中の変更 — 再発給と選定の承継</li><li>選定取消事由と事後管理</li><li>よくあるご質問</li></ol></div>
 <p><strong>韓国のメインビズ（経営革新型中小企業、경영혁신형 중소기업）確認書の有効期間は、発給日から3年です。</strong>維持するには、満了の90日前から満了後30日以内に有効期間の延長を申請し、評価で700点以上を得る必要があります。延長評価は別の経営革新診断評価表で行われ、更新確認書をいつ受け取るかで新しい有効期間の始期が変わります。</p>
-<p>本稿は「中小企業技術革新促進法」（중소기업 기술혁신 촉진법）、同法施行令、中小ベンチャー企業部告示「経営革新型中小企業（Main-Biz）制度運営規定」の原文に基づき、有効期間・延長・変更・取消に絞って整理しました。一般に「更新」と呼ばれる手続は、告示上は「有効期間の延長」です。</p>
+<p>本稿は有効期間・延長・変更・取消に絞って整理しました。一般に「更新」と呼ばれる手続は、告示上は「有効期間の延長」です。</p>
 
 <h2>メインビズ確認の法的根拠と有効期間</h2>
 <p>同法第2条第4号の2は、経営革新型中小企業を第15条の3により長官が選定した企業と定義し、施行令第13条は長官が経営革新活動と成果に関する評価基準を公告して優秀な企業を選定するよう定めています。法律にも施行令にも有効期間の数字はなく、告示が定めています（告示第1条）。告示は改正が多いため、現行版（2026年6月22日発令の第2026-45号）を毎回確認しましょう。</p>
@@ -5714,12 +5703,12 @@ const blogData: BlogI18n[] = [
 
 <h2>有効期間延長の申請時期</h2>
 <p>管理機関である（社）韓国経営革新中小企業協会は、満了日の90日前までに企業へ通知しなければなりません（第2条、第15条第1項）。企業はメインビズネットで一般現況・財務状態を再入力し、自己診断を行って申請します。管理機関は3日以内に評価機関を割り当てます。</p>
-<table><thead><tr><th>時点</th><th>内容</th><th>根拠</th></tr></thead><tbody>
-<tr><td>満了90日前まで</td><td>管理機関が満了を通知</td><td>告示第15条第1項</td></tr>
-<tr><td>満了90日前から</td><td>延長申請が可能</td><td>告示第15条第1項</td></tr>
-<tr><td>満了35日前まで</td><td>満了日前に確認を受けたい企業の申請期限</td><td>告示第15条第1項ただし書</td></tr>
-<tr><td>満了日</td><td>既存確認書の有効期間が終了</td><td>告示第12条第3項</td></tr>
-<tr><td>満了後30日以内</td><td>延長申請の最終期限</td><td>告示第15条第1項</td></tr>
+<table><thead><tr><th>時点</th><th>内容</th></tr></thead><tbody>
+<tr><td>満了90日前まで</td><td>管理機関が満了を通知</td></tr>
+<tr><td>満了90日前から</td><td>延長申請が可能</td></tr>
+<tr><td>満了35日前まで</td><td>満了日前に確認を受けたい企業の申請期限</td></tr>
+<tr><td>満了日</td><td>既存確認書の有効期間が終了</td></tr>
+<tr><td>満了後30日以内</td><td>延長申請の最終期限</td></tr>
 </tbody></table>
 <p>特に重要なのは「満了35日前まで」です。満了日前に確認を受けたい企業はこの日までに申請しなければなりません。申請から評価結果の登録まで21日、登録から更新発給まで7日が規定の処理期間です（第15条第3項・第4項）。通知が届かなかった場合に期間を延ばす規定はないため、満了日は自社で管理してください。PMSで選定された企業が期限内にPMS認証を維持していれば、PMS審査結果による再選定として処理されます（第15条第2項）。</p>
 
@@ -5746,25 +5735,25 @@ const blogData: BlogI18n[] = [
 
 <h2>有効期間中の変更 — 再発給と選定の承継</h2>
 <p>会社の情報が変わった場合は、別紙第4号様式で地方庁に再発給を申請できます（第13条第1項）。</p>
-<table><thead><tr><th>変更の類型</th><th>すべきこと</th><th>根拠</th></tr></thead><tbody>
-<tr><td>商号・所在地・代表者の変更（個人事業者の代表者変更を除く）</td><td>再発給申請</td><td>告示第13条第1項第1号</td></tr>
-<tr><td>確認書の紛失・毀損</td><td>再発給申請</td><td>告示第13条第1項第2号</td></tr>
-<tr><td>法人転換、買収・合併、統合、組織変更</td><td>選定承継のための再発給申請</td><td>告示第13条第1項第3号、第14条</td></tr>
+<table><thead><tr><th>変更の類型</th><th>すべきこと</th></tr></thead><tbody>
+<tr><td>商号・所在地・代表者の変更（個人事業者の代表者変更を除く）</td><td>再発給申請</td></tr>
+<tr><td>確認書の紛失・毀損</td><td>再発給申請</td></tr>
+<tr><td>法人転換、買収・合併、統合、組織変更</td><td>選定承継のための再発給申請</td></tr>
 </tbody></table>
 <p>再発給は申請から7日以内に承認されますが（第13条第2項・第3項）、有効期間は延びません。従前の有効期間のままで、合併では持分比率の高い企業の有効期間によります（第13条第4項）。</p>
 <p>承継には第14条の要件が必要です。個人企業の法人転換では、同一業種（韓国標準産業分類の小分類）の継続、主要生産施設の現物出資と資産・負債の承継、元代表者の常勤取締役としての経営参加、元代表者が株主であることをすべて満たす必要があります（第14条、第5条第1項）。吸収合併は存続企業がメインビズなら承継でき、そうでなければ業種の同一性、売上比率50%以上、常勤取締役の過半数参加が必要です（第14条、第5条第2項）。組織変更と家業相続控除後の代表者変更も承継事由です（第14条第5号・第6号）。再発給の申請期限は告示にありませんが、実態と異なる確認書は使いにくいため早めの整理をお勧めします。</p>
 
 <h2>選定取消事由と事後管理</h2>
 <p>長官は必要に応じて別表1の指標で運営状況を評価できます（第16条）。地方庁は次の事由で選定を取り消すことができ、第1号から第3号までは必ず取り消さなければなりません（第17条第1項）。</p>
-<table><thead><tr><th>取消事由</th><th>性格</th><th>根拠</th></tr></thead><tbody>
-<tr><td>自ら返納した場合</td><td>必要的取消</td><td>告示第17条第1項第1号</td></tr>
-<tr><td>虚偽の実績で評価を受けた場合</td><td>必要的取消</td><td>告示第17条第1項第2号</td></tr>
-<tr><td>第3条の申請資格を喪失した場合</td><td>必要的取消</td><td>告示第17条第1項第3号</td></tr>
-<tr><td>休業・廃業、操業中断、金融規制、国税滞納等で経営が正常化されない場合</td><td>裁量的取消</td><td>告示第17条第1項第4号</td></tr>
-<tr><td>事後管理の結果、選定基準に適合しなくなった場合</td><td>裁量的取消</td><td>告示第17条第1項第5号</td></tr>
+<table><thead><tr><th>取消事由</th><th>性格</th></tr></thead><tbody>
+<tr><td>自ら返納した場合</td><td>必要的取消</td></tr>
+<tr><td>虚偽の実績で評価を受けた場合</td><td>必要的取消</td></tr>
+<tr><td>第3条の申請資格を喪失した場合</td><td>必要的取消</td></tr>
+<tr><td>休業・廃業、操業中断、金融規制、国税滞納等で経営が正常化されない場合</td><td>裁量的取消</td></tr>
+<tr><td>事後管理の結果、選定基準に適合しなくなった場合</td><td>裁量的取消</td></tr>
 </tbody></table>
 <p>第3条第2項により、滞納情報等に登録中の企業、手形取引停止処分を受けた企業、破産・回生・清算中の企業（回生計画を正常に履行中の企業を除く）、直前事業年度末の負債比率1,000%以上または完全資本蚕食の企業は申請資格がありません（第1号〜第5号）。2026年6月22日の改正で第6号が新設され、最近3年以内の賃金未払事業主の名簿公開、産業災害の公表、公正取引関連法令違反による是正命令、補助金法違反による参加制限も対象になりました。</p>
-<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。法令原文は<a href="https://www.law.go.kr/법령/중소기업기술혁신촉진법" target="_blank" rel="noopener">中小企業技術革新促進法</a>、<a href="https://www.law.go.kr/행정규칙/경영혁신형중소기업(Main-Biz)제도운영규정" target="_blank" rel="noopener">Main-Biz制度運営規定</a>で、申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 有効期間が切れると自動的に延長されますか。</p><p class="faq-a">A. いいえ。第15条第1項により申請が必要で、第15条第4項により700点以上を得てはじめて更新発給されます。</p></div>
@@ -5780,7 +5769,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「中小企業技術革新促進法」（法律第21289号、2026年7月1日施行）、同法施行令（大統領令第36699号、2026年9月22日施行）および中小ベンチャー企業部告示第2026-45号（2026年6月22日施行）の原文に基づき作成・最終確認日 10月3日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   },
   // ── license-scrivener-qualification-check (inhega-daily 2026-10-08) ──
   {
@@ -5792,17 +5781,17 @@ const blogData: BlogI18n[] = [
     category: 'Licensing & Permits',
     excerpt: 'Passing the state exam is not enough to act as a licensing administrative agent in Korea. Here is the statutory path — exam, disqualifications, training, association membership and business report — and what a client can verify.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Qualification Starts With the State Exam</li><li>Partial Exemptions and Disqualifications</li><li>A Licence Alone Is Not Enough — The Business Report</li><li>Office Names and Scrivener Corporations</li><li>How to Verify a Scrivener Before You Engage</li><li>Unlicensed Practice and Duties Owed to Clients</li><li>FAQ</li></ol></div>
-<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative scrivener) who holds the qualification under the Certified Administrative Scrivener Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Scriveners before reporting (Enforcement Decree Article 20(1)). This article checks the current Act, Decree and Enforcement Rule as of 2026.</p>
+<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative scrivener) who holds the qualification under the Certified Administrative Scrivener Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Scriveners before reporting (Enforcement Decree Article 20(1)).</p>
 <p>What you may delegate is covered in our note on <a href="/blog/administrative-scrivener-scope-and-limits">the scope and limits of a licensing scrivener</a>. Here we answer the earlier question: is the person in front of you legally a scrivener?</p>
 
 <h2>Qualification Starts With the State Exam</h2>
 <div class="highlight-box">Certified Administrative Scrivener Act, Article 5: A person who passes the administrative scrivener qualification examination is qualified as an administrative scrivener.</div>
 <p>Scriveners are general, maritime or translation scriveners (Article 4). Acting in permit applications belongs to the general scrivener; maritime scriveners are limited to shipping and marine safety tribunal matters, and translation scriveners to translation and filing translations (Decree Article 3). For a business licence, look for a general scrivener.</p>
 <p>The Minister of the Interior and Safety holds the exam once a year in two stages, with administration entrusted to HRD Korea (Article 8; Decree Articles 8(1) and 12). The first stage is multiple choice; the second is an essay exam that may include short-answer items (Decree Article 9(2)).</p>
-<table><thead><tr><th>Stage</th><th>Subjects (general scrivener)</th><th>Basis</th></tr></thead><tbody>
-<tr><td>First stage (3 subjects)</td><td>Civil Act (general provisions), Administrative Law, Public Administration</td><td>Decree Table 1</td></tr>
-<tr><td>Second stage (4 subjects)</td><td>Civil Act (contracts), Administrative Procedure, Office Management, Scrivener Practice Law</td><td>Decree Table 1</td></tr>
-<tr><td>Pass mark</td><td>40 or more out of 100 in every subject, average 60 or more</td><td>Decree Article 17</td></tr>
+<table><thead><tr><th>Stage</th><th>Subjects (general scrivener)</th></tr></thead><tbody>
+<tr><td>First stage (3 subjects)</td><td>Civil Act (general provisions), Administrative Law, Public Administration</td></tr>
+<tr><td>Second stage (4 subjects)</td><td>Civil Act (contracts), Administrative Procedure, Office Management, Scrivener Practice Law</td></tr>
+<tr><td>Pass mark</td><td>40 or more out of 100 in every subject, average 60 or more</td></tr>
 </tbody></table>
 <p>Where a minimum intake is set and too few pass, candidates with 40 or more in every subject are added by average score (Decree Article 17(3)). The Minister issues the <strong>qualification certificate</strong> after confirming the pass and the absence of disqualifications, and records it in a register (Decree Article 18; Enforcement Rule Article 6). A candidate caught cheating may not sit the exam for 5 years (Article 9-2).</p>
 
@@ -5827,12 +5816,12 @@ const blogData: BlogI18n[] = [
 <p>Three or more scriveners may form a <strong>scrivener corporation</strong> with the Minister's approval (Articles 25-2 and 25-3). It files its own business report, uses "administrative scrivener corporation" in its name, may not take on members untrained under Article 25 (Articles 25-4 to 25-6), and must designate a responsible scrivener for each matter who signs its documents (Article 25-7).</p>
 
 <h2>How to Verify a Scrivener Before You Engage</h2>
-<table><thead><tr><th>Item</th><th>What to check</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Qualification certificate</td><td>Issued by the Minister; general scrivener</td><td>Decree Articles 18 and 3</td></tr>
-<tr><td>Business report certificate</td><td>Issued by the local office; name matches the person handling your case</td><td>Articles 12 and 13</td></tr>
-<tr><td>Office address</td><td>Matches the certificate (relocation reported within 10 days)</td><td>Article 14</td></tr>
-<tr><td>Office name</td><td>Carries the scrivener office or corporation label</td><td>Articles 15 and 25-5</td></tr>
-<tr><td>Corporation</td><td>Who is the designated responsible scrivener</td><td>Article 25-7</td></tr>
+<table><thead><tr><th>Item</th><th>What to check</th></tr></thead><tbody>
+<tr><td>Qualification certificate</td><td>Issued by the Minister; general scrivener</td></tr>
+<tr><td>Business report certificate</td><td>Issued by the local office; name matches the person handling your case</td></tr>
+<tr><td>Office address</td><td>Matches the certificate (relocation reported within 10 days)</td></tr>
+<tr><td>Office name</td><td>Carries the scrivener office or corporation label</td></tr>
+<tr><td>Corporation</td><td>Who is the designated responsible scrivener</td></tr>
 </tbody></table>
 <p>Lending the certificate is banned for lender, borrower and broker alike (Article 13). Staff may consult with you, but their acts are deemed the employing scrivener's (Article 18(2)). If in doubt, contact the issuing office named on the certificate, which keeps the registers (Enforcement Rule Article 9(2)), and for long matters ask whether a suspension of up to 6 months is in force (Article 32(1)). For matters with long follow-up, such as <a href="/services/nonprofit">non-profit association establishment</a> or <a href="/services/logistics">freight forwarder registration</a>, confirm the responsible scrivener stays the same.</p>
 
@@ -5844,7 +5833,7 @@ const blogData: BlogI18n[] = [
 <li><strong>Using the title or a similar office name</strong> — an administrative fine of up to KRW 5,000,000 (Article 38(1)).</li>
 </ul>
 <p>A verified scrivener must act fairly, compensate loss caused intentionally or negligently (Article 21), and keep duty-related facts confidential, as must staff (Article 23). A former official may not, for 1 year after retiring, act in permit applications before an agency where they worked in their final year, except agencies where they worked 1 month or less (Article 21-2; Decree Article 21-2). Scriveners keep a case register — serial number, date, outline, remuneration, client details — for 1 year (Article 24; Decree Article 22), and must promptly issue a certificate of facts about work they performed on request (Article 20; Enforcement Rule Article 13).</p>
-<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>. Texts: <a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">Certified Administrative Scrivener Act</a> and <a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">its Enforcement Decree</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a certificate holder start handling permits straight away?</p><p class="faq-a">A. No. Article 10(1) requires a business report, and Decree Article 20(1) requires no disqualification, completed training, the certificate and association membership. Practising without the report is punishable by up to 1 year of imprisonment or a fine of up to KRW 10,000,000 (Article 36(2)1).</p></div>
@@ -5860,28 +5849,28 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Certified Administrative Scrivener Act (Act No. 19034, in force 15 November 2022), its Enforcement Decree (Presidential Decree No. 35813, in force 1 January 2026) and Enforcement Rule (Ministry of the Interior and Safety Ordinance No. 633, in force 30 August 2026) · Last reviewed 3 October</p>`
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
   },
   {
     slug: 'license-scrivener-qualification-check',
     locale: 'zh',
     title: '韩国许可行政士的资格要件与核实方法 — 资格考试、欠格事由与业务申报确认证',
     metaTitle: '韩国许可行政士资格要件与核实方法',
-    metaDescription: '韩国许可行政士仅通过资格考试还不能执业。本文依据《行政士法》原文，说明考试、欠格事由、实务教育与业务申报，以及委托前如何通过确认证和事务所名称核实资格。',
+    metaDescription: '韩国许可行政士仅通过资格考试还不能执业。本文依据《行政士法》，说明考试、欠格事由、实务教育与业务申报，以及委托前如何通过确认证和事务所名称核实资格。',
     category: '许可与执照',
     excerpt: '在韩国以行政士身份办理许可业务，须通过资格考试、无欠格事由、完成实务教育、加入大韩行政士会并办理业务申报。本文整理委托前可核实的文件与标识。',
     content: `<div class="toc"><p>目录</p><ol><li>行政士资格始于资格考试</li><li>考试部分免除与欠格事由</li><li>仅有资格不能执业 — 业务申报与申报确认证</li><li>事务所名称与行政士法人</li><li>委托前核实行政士资格的顺序</li><li>无资格代办的处罚与行政士的义务</li><li>常见问题</li></ol></div>
-<p><strong>许可行政士</strong>（인허가 행정사）是指依韩国《行政士法》取得行政士资格，并向主事务所所在地的市长、郡守或区厅长办理业务申报后，受托代理许可、执照等申请与申报的人（第2条第1款第5项、第5条、第10条第1款）。仅有资格证不够，还须无欠格事由、完成实务教育并加入大韩行政士会后办理申报（施行令第20条第1款）。本文以2026年现行《行政士法》及其施行令、施行规则原文为依据。</p>
+<p><strong>许可行政士</strong>（인허가 행정사）是指依韩国《行政士法》取得行政士资格，并向主事务所所在地的市长、郡守或区厅长办理业务申报后，受托代理许可、执照等申请与申报的人（第2条第1款第5项、第5条、第10条第1款）。仅有资格证不够，还须无欠格事由、完成实务教育并加入大韩行政士会后办理申报（施行令第20条第1款）。</p>
 <p>可委托的业务范围另见<a href="/blog/administrative-scrivener-scope-and-limits">许可行政士的业务范围与委托界限</a>。本文回答更前一步的问题：为您提供咨询的人在法律上是否是行政士。</p>
 
 <h2>行政士资格始于资格考试</h2>
 <div class="highlight-box">《行政士法》第5条（行政士的资格）：通过行政士资格考试的人，具有行政士资格。</div>
 <p>行政士分为一般行政士、海事行政士和外语翻译行政士（第4条）。代理许可申请属于一般行政士；海事行政士限于海运或海洋安全审判业务，外语翻译行政士限于翻译及提交译文（施行令第3条）。委托营业许可时应核实一般行政士资格。</p>
 <p>考试由行政安全部长官每年举行一次，分两次考试，考务委托韩国产业人力公团（第8条，施行令第8条第1款、第12条）。第一次为选择题，第二次为论述题，可含简答题（施行令第9条第2款）。</p>
-<table><thead><tr><th>区分</th><th>科目（一般行政士）</th><th>依据</th></tr></thead><tbody>
-<tr><td>第一次（3科）</td><td>民法（总则）、行政法、行政学概论</td><td>施行令附表1</td></tr>
-<tr><td>第二次（4科）</td><td>民法（合同）、行政程序论、事务管理论、行政士实务法</td><td>施行令附表1</td></tr>
-<tr><td>合格标准</td><td>每科满分100分，各科40分以上且平均60分以上</td><td>施行令第17条</td></tr>
+<table><thead><tr><th>区分</th><th>科目（一般行政士）</th></tr></thead><tbody>
+<tr><td>第一次（3科）</td><td>民法（总则）、行政法、行政学概论</td></tr>
+<tr><td>第二次（4科）</td><td>民法（合同）、行政程序论、事务管理论、行政士实务法</td></tr>
+<tr><td>合格标准</td><td>每科满分100分，各科40分以上且平均60分以上</td></tr>
 </tbody></table>
 <p>规定最低录取人数而合格者不足时，从各科40分以上者中按平均分追加录取（施行令第17条第3款）。长官确认考试合格且无欠格事由后发放<strong>行政士资格证</strong>并记入台账（施行令第18条，施行规则第6条）。作弊者5年内不得应考（第9条之2）。</p>
 
@@ -5906,12 +5895,12 @@ const blogData: BlogI18n[] = [
 <p>3名以上行政士经长官认可可设立<strong>行政士法人</strong>（第25条之2、第25条之3）。法人须另行申报，名称含"行政士法人"，不得吸收未依第25条完成实务教育者（第25条之4至第25条之6），并须为每项业务指定负责行政士签名盖章（第25条之7）。</p>
 
 <h2>委托前核实行政士资格的顺序</h2>
-<table><thead><tr><th>核实项目</th><th>看什么</th><th>依据</th></tr></thead><tbody>
-<tr><td>资格证</td><td>是否由长官签发，是否为一般行政士</td><td>施行令第18条、第3条</td></tr>
-<tr><td>业务申报确认证</td><td>是否由所在地市长等签发，姓名与承办人是否一致</td><td>第12条、第13条</td></tr>
-<tr><td>事务所地址</td><td>与确认证是否一致（迁址10日内申报）</td><td>第14条</td></tr>
-<tr><td>事务所名称</td><td>是否含行政士事务所或法人字样</td><td>第15条、第25条之5</td></tr>
-<tr><td>法人</td><td>负责行政士是谁</td><td>第25条之7</td></tr>
+<table><thead><tr><th>核实项目</th><th>看什么</th></tr></thead><tbody>
+<tr><td>资格证</td><td>是否由长官签发，是否为一般行政士</td></tr>
+<tr><td>业务申报确认证</td><td>是否由所在地市长等签发，姓名与承办人是否一致</td></tr>
+<tr><td>事务所地址</td><td>与确认证是否一致（迁址10日内申报）</td></tr>
+<tr><td>事务所名称</td><td>是否含行政士事务所或法人字样</td></tr>
+<tr><td>法人</td><td>负责行政士是谁</td></tr>
 </tbody></table>
 <p>出借、借用和介绍出借确认证均被禁止（第13条）。职员可提供咨询，但其职务行为视为行政士的行为（第18条第2款）。如有疑问可向确认证上的签发机关咨询，该机关保存台账（施行规则第9条第2款）；长期案件可询问是否处于最长6个月的停业处分中（第32条第1款）。<a href="/services/nonprofit">非营利社团法人设立</a>、<a href="/services/logistics">国际物流周旋业登记</a>等后续程序较长的案件，应确认负责人始终不变。</p>
 
@@ -5923,7 +5912,7 @@ const blogData: BlogI18n[] = [
 <li><strong>使用行政士或类似名称</strong> — 500万韩元以下罚款（第38条第1款）。</li>
 </ul>
 <p>行政士须公正履职，因故意或过失造成损失须赔偿（第21条）；行政士及职员须保守职务秘密（第23条）。退休公务员1年内不得承接其退休前1年任职机关的许可代理业务，任职1个月以下的机关除外（第21条之2，施行令第21条之2）。行政士须将记载序号、日期、概要、报酬和委托人信息的业务处理簿保存1年（第24条，施行令第22条），并应委托人申请及时出具事实确认证明书（第20条，施行规则第13条）。</p>
-<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。法令原文见<a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">行政士法</a>、<a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">行政士法施行令</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。费用因个案而异，将在免费咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有资格证就能马上代办许可吗？</p><p class="faq-a">A. 不能。第10条第1款要求办理业务申报，施行令第20条第1款要求无欠格事由、完成实务教育、持有资格证并加入行政士会。未申报执业的，依第36条第2款第1项处1年以下有期徒刑或1000万韩元以下罚金。</p></div>
@@ -5939,7 +5928,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依据《行政士法》（法律第19034号，2022年11月15日施行）、同法施行令（总统令第35813号，2026年1月1日施行）及施行规则（行政安全部令第633号，2026年8月30日施行）原文撰写 · 最终审阅日 10月3日</p>`
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
     slug: 'license-scrivener-qualification-check',
@@ -5948,19 +5937,19 @@ const blogData: BlogI18n[] = [
     metaTitle: '韓国 許認可 行政士の資格要件と確認方法',
     metaDescription: '韓国の許認可行政士（日本の行政書士に相当）は試験合格だけでは業務ができません。行政士法の試験・欠格事由・実務教育・業務申告と、依頼前に確認証や事務所名称で資格を確かめる方法を整理しました。',
     category: '許認可',
-    excerpt: '韓国で行政士として許認可業務を行うには、試験合格、欠格事由なし、実務教育の修了、大韓行政士会への加入、業務申告がすべて必要です。依頼前に確認できる書類と表示を法令原文に基づき整理しました。',
+    excerpt: '韓国で行政士として許認可業務を行うには、試験合格、欠格事由なし、実務教育の修了、大韓行政士会への加入、業務申告がすべて必要です。依頼前に確認できる書類と表示を整理しました。',
     content: `<div class="toc"><p>目次</p><ol><li>行政士の資格は資格試験から始まる</li><li>試験の一部免除と欠格事由</li><li>資格だけでは業務ができない — 業務申告と申告確認証</li><li>事務所の名称と行政士法人</li><li>依頼前の行政士資格の確認手順</li><li>無資格代行の処罰と行政士の義務</li><li>よくあるご質問</li></ol></div>
-<p><strong>許認可行政士</strong>（인허가 행정사）とは、韓国の「行政士法」に基づく資格を持ち、主たる事務所の所在地を管轄する市長・郡守・区庁長に業務申告をしたうえで、他人の委任を受けて認可・許可・免許等の申請や届出を代理する者をいいます（第2条第1項第5号、第5条、第10条第1項）。日本の行政書士事務所に相当する韓国の行政士事務所の担い手ですが、資格証だけでは足りず、欠格事由がないこと、実務教育の修了、大韓行政士会への加入を経て業務申告をして初めて適法に依頼を受けられます（施行令第20条第1項）。本稿は2026年時点の現行「行政士法」と同法施行令・施行規則の原文に基づいています。</p>
+<p><strong>許認可行政士</strong>（인허가 행정사）とは、韓国の「行政士法」に基づく資格を持ち、主たる事務所の所在地を管轄する市長・郡守・区庁長に業務申告をしたうえで、他人の委任を受けて認可・許可・免許等の申請や届出を代理する者をいいます（第2条第1項第5号、第5条、第10条第1項）。日本の行政書士事務所に相当する韓国の行政士事務所の担い手ですが、資格証だけでは足りず、欠格事由がないこと、実務教育の修了、大韓行政士会への加入を経て業務申告をして初めて適法に依頼を受けられます（施行令第20条第1項）。</p>
 <p>委任できる業務の範囲は<a href="/blog/administrative-scrivener-scope-and-limits">許認可行政士の業務範囲と委任の限界</a>で扱っています。本稿ではその前段階、「相談相手は法律上の行政士か」を見分ける要件と書類に絞ります。</p>
 
 <h2>行政士の資格は資格試験から始まる</h2>
 <div class="highlight-box">「行政士法」第5条（行政士の資格）：行政士資格試験に合格した者は、行政士の資格を有する。</div>
 <p>行政士は一般行政士、海事行政士、外国語翻訳行政士に区分されます（第4条）。許認可申請の代理は一般行政士の業務で、海事行政士は海運・海洋安全審判の業務、外国語翻訳行政士は翻訳と翻訳書類の提出代行に限られます（施行令第3条）。営業許認可を依頼するなら、一般行政士の資格を確認します。</p>
 <p>試験は行政安全部長官が毎年1回、第1次・第2次の2段階で実施し、管理業務は韓国産業人力公団に委託されています（第8条、施行令第8条第1項・第12条）。第1次は択一式、第2次は論述式で、短答式を含めることができます（施行令第9条第2項）。</p>
-<table><thead><tr><th>区分</th><th>科目（一般行政士）</th><th>根拠</th></tr></thead><tbody>
-<tr><td>第1次試験（3科目）</td><td>民法（総則）、行政法、行政学概論</td><td>施行令別表1</td></tr>
-<tr><td>第2次試験（4科目）</td><td>民法（契約）、行政手続論、事務管理論、行政士実務法</td><td>施行令別表1</td></tr>
-<tr><td>合格基準</td><td>各科目100点満点で全科目40点以上、平均60点以上</td><td>施行令第17条</td></tr>
+<table><thead><tr><th>区分</th><th>科目（一般行政士）</th></tr></thead><tbody>
+<tr><td>第1次試験（3科目）</td><td>民法（総則）、行政法、行政学概論</td></tr>
+<tr><td>第2次試験（4科目）</td><td>民法（契約）、行政手続論、事務管理論、行政士実務法</td></tr>
+<tr><td>合格基準</td><td>各科目100点満点で全科目40点以上、平均60点以上</td></tr>
 </tbody></table>
 <p>最小選抜人員を定めた場合に合格者が不足すると、全科目40点以上の者から平均点順に追加合格とします（施行令第17条第3項）。長官は試験合格と欠格事由がないことを確認して<strong>行政士資格証</strong>を発給し、台帳に記録します（施行令第18条、施行規則第6条）。不正行為をした者は5年間受験できません（第9条の2）。</p>
 
@@ -5985,12 +5974,12 @@ const blogData: BlogI18n[] = [
 <p>3名以上の行政士は長官の認可を受けて<strong>行政士法人</strong>を設立できます（第25条の2、第25条の3）。法人も業務申告をし、名称に「行政士法人」を用い、第25条の実務教育を受けていない者を構成員にできず（第25条の4〜第25条の6）、案件ごとに担当行政士を指定して書面に記名押印させます（第25条の7）。</p>
 
 <h2>依頼前の行政士資格の確認手順</h2>
-<table><thead><tr><th>確認項目</th><th>確認する内容</th><th>根拠</th></tr></thead><tbody>
-<tr><td>資格証</td><td>長官の発給か、一般行政士か</td><td>施行令第18条・第3条</td></tr>
-<tr><td>業務申告確認証</td><td>市長等の発給か、氏名と実際の担当者が一致するか</td><td>第12条・第13条</td></tr>
-<tr><td>事務所所在地</td><td>確認証と一致するか（移転は10日以内に申告）</td><td>第14条</td></tr>
-<tr><td>事務所名称</td><td>行政士事務所・行政士法人の文字があるか</td><td>第15条・第25条の5</td></tr>
-<tr><td>法人</td><td>担当行政士は誰か</td><td>第25条の7</td></tr>
+<table><thead><tr><th>確認項目</th><th>確認する内容</th></tr></thead><tbody>
+<tr><td>資格証</td><td>長官の発給か、一般行政士か</td></tr>
+<tr><td>業務申告確認証</td><td>市長等の発給か、氏名と実際の担当者が一致するか</td></tr>
+<tr><td>事務所所在地</td><td>確認証と一致するか（移転は10日以内に申告）</td></tr>
+<tr><td>事務所名称</td><td>行政士事務所・行政士法人の文字があるか</td></tr>
+<tr><td>法人</td><td>担当行政士は誰か</td></tr>
 </tbody></table>
 <p>確認証の貸与・借受け・あっせんはいずれも禁止です（第13条）。事務職員が相談に応じることはありますが、その職務上の行為は行政士の行為とみなされます（第18条第2項）。疑問があれば確認証に記載された発給機関に問い合わせることができ（施行規則第9条第2項）、長期案件では6か月の範囲で命じられる業務停止の処分中でないかも確認するとよいでしょう（第32条第1項）。<a href="/services/nonprofit">非営利社団法人の設立</a>や<a href="/services/logistics">国際物流周旋業の登録</a>のように後続手続が長い案件では、担当者が最後まで同じかを確認しておくと安心です。</p>
 
@@ -6002,7 +5991,7 @@ const blogData: BlogI18n[] = [
 <li><strong>名称の使用</strong> — 行政士や類似の名称の使用は500万ウォン以下の過料（第38条第1項）。</li>
 </ul>
 <p>行政士は公正に職務を行い、故意・過失による損害を賠償する責任を負い（第21条）、事務職員とともに職務上の秘密を守らなければなりません（第23条）。退職公務員は退職前1年間に勤務した機関の許認可代理を退職後1年間受任できません。ただし勤務が1か月以下の機関は除かれます（第21条の2、施行令第21条の2）。行政士は一連番号・日付・業務の概要・報酬・依頼者情報を記載した業務処理簿を1年間保管し（第24条、施行令第22条）、申請があれば業務に関する事実確認証明書を直ちに発給しなければなりません（第20条、施行規則第13条）。</p>
-<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。法令原文は<a href="https://www.law.go.kr/법령/행정사법" target="_blank" rel="noopener">行政士法</a>、<a href="https://www.law.go.kr/법령/행정사법시행령" target="_blank" rel="noopener">行政士法施行令</a>で確認できます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 資格証があればすぐに許認可代行ができますか。</p><p class="faq-a">A. できません。第10条第1項は業務申告を求め、施行令第20条第1項は欠格事由がないこと、実務教育の修了、資格証、行政士会への加入を基準としています。申告なしの業務は第36条第2項第1号により1年以下の懲役または1,000万ウォン以下の罰金の対象です。</p></div>
@@ -6018,7 +6007,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「行政士法」（法律第19034号、2022年11月15日施行）、同法施行令（大統領令第35813号、2026年1月1日施行）および施行規則（行政安全部令第633号、2026年8月30日施行）の原文に基づき作成・最終確認日 10月3日</p>`
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   }
 ]
 

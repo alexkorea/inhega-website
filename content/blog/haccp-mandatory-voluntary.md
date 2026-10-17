@@ -53,11 +53,7 @@ HACCP 의무적용과 자율적용의 가장 큰 차이는 **법적 강제력**�
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #e5e7eb;padding:10px">법적 근거</td>
-      <td style="border:1px solid #e5e7eb;padding:10px">식품위생법 제48조</td>
-      <td style="border:1px solid #e5e7eb;padding:10px">HACCP 고시 권장 조항</td>
-    </tr>
+    
     <tr>
       <td style="border:1px solid #e5e7eb;padding:10px">미이행 제재</td>
       <td style="border:1px solid #e5e7eb;padding:10px">영업정지·과징금·시정명령</td>

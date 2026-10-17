@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Imported Food Import & Sales Business Registration in Korea: Requirements & Procedure | YouSun Administrative Agency",
   "h1": "Imported Food Importer / Distributor Business Registration in Korea",
-  "lead": "To import and sell food in Korea you need a business registration — not just a report — and you submit the registration application with the training certificate and other documents to the Regional Food and Drug Administration after the required facilities are ready. The statutory fee is KRW 28,000. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "To import and sell food in Korea you need a business registration — not just a report — and you submit the registration application with the training certificate and other documents to the Regional Food and Drug Administration after the required facilities are ready. The statutory fee is KRW 28,000.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: a business that imports and sells imported food, etc.",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What is the statutory fee?",
-      "body": "The fee for a business registration application is KRW 28,000. The basis is Article 41 of the Imported Food Safety Control Act and Article 50 / Appendix 15 of its Enforcement Rule. Change registration costs KRW 26,500 for a location change and KRW 9,300 for other changes. (Enforcement Rule effective 2026-09-30. Private service fees are not statutory fees and are excluded.)"
+      "body": "The fee for a business registration application is KRW 28,000. The basis is Article 41 of the Imported Food Safety Control Act and Article 50 / Appendix 15 of its Enforcement Rule. Change registration costs KRW 26,500 for a location change and KRW 9,300 for other changes. (As of 2026. Private service fees are not statutory fees and are excluded.)"
     },
     {
       "h2": "Why is a registration rejected?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Registration: a person starting the business must register the business with the Minister of Food and Drug Safety",
-      "source": "수입식품안전관리 특별법 제15조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "수입식품안전관리 특별법 제15조"
     },
     {
       "text": "Facility standard: an independent office for business activity is required",
-      "source": "수입식품안전관리 특별법 시행규칙 별표0007의00 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "수입식품안전관리 특별법 시행규칙 별표0007의00"
     },
     {
       "text": "Training: the hygiene training time before starting business is 4 hours",
-      "source": "수입식품안전관리 특별법 시행규칙 제23조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "수입식품안전관리 특별법 시행규칙 제23조"
     }
   ],
   "relatedHeading": "Related Pages",

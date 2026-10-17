@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Liquor Import License (Alcohol Import Business) in Korea: Requirements & Procedure | YouSun Administrative Agency",
   "h1": "Liquor Import License in Korea",
-  "lead": "To import alcohol in Korea you must obtain a liquor sales-business license (the liquor import/export business) from the head of the district tax office, for each sales premises, after meeting the facility standards and other requirements. An import/export applicant needs a trade business registration number and, for importing alcohol, a warehouse of at least 22 m², and the license fee is KRW 50,000. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "To import alcohol in Korea you must obtain a liquor sales-business license (the liquor import/export business) from the head of the district tax office, for each sales premises, after meeting the facility standards and other requirements. An import/export applicant needs a trade business registration number and, for importing alcohol, a warehouse of at least 22 m², and the license fee is KRW 50,000.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: a business that exports or imports alcohol (liquor import/export business).",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What is the statutory fee?",
-      "body": "The import/export business license fee is KRW 50,000. Liquor retail costs KRW 30,000. The basis is Article 35 of the Liquor License Act, payable by revenue stamp or electronic payment. (Enforcement Rule effective 2026-01-02. Private service fees are not statutory fees and are excluded.)"
+      "body": "The import/export business license fee is KRW 50,000. Liquor retail costs KRW 30,000. The basis is Article 35 of the Liquor License Act, payable by revenue stamp or electronic payment. (As of 2026. Private service fees are not statutory fees and are excluded.)"
     },
     {
       "h2": "Why is an application rejected or supplementation requested?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "License: a person starting a liquor sales business must obtain a license from the head of the tax office for each sales premises",
-      "source": "주류 면허 등에 관한 법률 제5조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "주류 면허 등에 관한 법률 제5조"
     },
     {
       "text": "Definition: the import/export business exports or imports alcohol",
-      "source": "주류 면허 등에 관한 법률 시행령 제8조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "주류 면허 등에 관한 법률 시행령 제8조"
     },
     {
       "text": "Import requirement: a warehouse of at least 22 m²",
-      "source": "주류 면허 등에 관한 법률 시행령 별표0003의00 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "주류 면허 등에 관한 법률 시행령 별표0003의00"
     }
   ],
   "relatedHeading": "Related Pages",

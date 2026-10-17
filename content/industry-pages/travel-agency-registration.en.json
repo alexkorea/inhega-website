@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Travel Agency Registration in Korea: Requirements, Documents, Procedure | YouSun Administrative Agency",
   "h1": "Travel Agency (Travel Business) Registration in Korea",
-  "lead": "A travel agency in Korea is not licensed or merely reported; it must be registered with the head of the district (si/gun/gu), with capital of KRW 50 million or more for a general travel agency, KRW 30 million for an overseas/domestic agency, KRW 15 million for a domestic agency, plus ownership or use rights over the office. The statutory fee for a new registration is KRW 30,000. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "A travel agency in Korea is not licensed or merely reported; it must be registered with the head of the district (si/gun/gu), with capital of KRW 50 million or more for a general travel agency, KRW 30 million for an overseas/domestic agency, KRW 15 million for a domestic agency, plus ownership or use rights over the office. The statutory fee for a new registration is KRW 30,000.",
   "summaryLabel": "Summary",
   "summary": [
     "Types: general travel agency, overseas/domestic travel agency, domestic travel agency.",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What is the statutory fee?",
-      "body": "New registration costs KRW 30,000 (KRW 20,000 for a foreigner-tourist urban guesthouse). Change registration is KRW 15,000 and a succession report is KRW 20,000. The basis is Article 79 of the Tourism Promotion Act. The guarantee insurance amount is not a fee but the coverage amount, set by the prior business year's revenue; in the first business year the bracket for prior revenue under KRW 100 million applies, i.e. KRW 20 million (domestic), KRW 30 million (overseas/domestic) and KRW 50 million (general) — the table is in thousands of won. (Enforcement Rule effective 2025-12-29. Private service fees are not statutory fees and are excluded.)"
+      "body": "New registration costs KRW 30,000 (KRW 20,000 for a foreigner-tourist urban guesthouse). Change registration is KRW 15,000 and a succession report is KRW 20,000. The basis is Article 79 of the Tourism Promotion Act. The guarantee insurance amount is not a fee but the coverage amount, set by the prior business year's revenue; in the first business year the bracket for prior revenue under KRW 100 million applies, i.e. KRW 20 million (domestic), KRW 30 million (overseas/domestic) and KRW 50 million (general) — the table is in thousands of won. (As of 2026. Private service fees are not statutory fees and are excluded.)"
     },
     {
       "h2": "Why is a registration rejected or supplementation requested?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Registration: anyone running a travel business must register with the head of the si/gun/gu (district head)",
-      "source": "관광진흥법 제4조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "관광진흥법 제4조"
     },
     {
       "text": "General travel agency: capital of KRW 50 million or more; ownership or use rights over the office",
-      "source": "관광진흥법 시행령 별표0001의00 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "관광진흥법 시행령 별표0001의00"
     },
     {
       "text": "Guarantee: before starting, take out guarantee insurance covering damages related to travel contracts",
-      "source": "관광진흥법 시행규칙 제18조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "관광진흥법 시행규칙 제18조"
     }
   ],
   "relatedHeading": "Related Pages",

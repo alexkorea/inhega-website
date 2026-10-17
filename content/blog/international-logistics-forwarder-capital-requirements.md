@@ -292,11 +292,7 @@ slug: "international-logistics-forwarder-capital-requirements"
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #e5e7eb;padding:10px">근거 법령</td>
-      <td style="border:1px solid #e5e7eb;padding:10px">물류정책기본법</td>
-      <td style="border:1px solid #e5e7eb;padding:10px">화물자동차운수사업법</td>
-    </tr>
+    
     <tr>
       <td style="border:1px solid #e5e7eb;padding:10px">대상 화물</td>
       <td style="border:1px solid #e5e7eb;padding:10px">수출입 화물 (해상·항공·복합)</td>

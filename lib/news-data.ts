@@ -81,7 +81,7 @@ export const SOURCE_LABELS: Record<string, string> = {
   us_federal_register: '미국 연방관보(Federal Register)',
   wto_eping: 'WTO ePing(TBT/SPS 통보문)',
   jp_egov_pubcomment: '일본 e-Gov 의견공모',
-  kr_law_go_kr: '국가법령정보센터',
+  kr_law_go_kr: '법제처',
   eu_eurlex: 'EU EUR-Lex',
 }
 

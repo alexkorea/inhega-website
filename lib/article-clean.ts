@@ -7,7 +7,6 @@ const KEEP_HOST = /(^|\.)(inhega\.co\.kr|investkorea\.co\.kr|visaskorea\.com|vis
 
 // 맨 끝 공식 링크 후보 — 2026-10-07 curl 실측 200 인 첫 화면만 쓴다(etoos.go.kr 는 도메인 소멸이라 제외).
 const OFFICIAL: Record<string, { href: string; ko: string; en: string; zh: string; ja: string }> = {
-  'law.go.kr': { href: 'https://www.law.go.kr', ko: '국가법령정보센터', en: 'Korea Law Information Center', zh: '韩国国家法令信息中心', ja: '韓国国家法令情報センター' },
   'mfds.go.kr': { href: 'https://www.mfds.go.kr', ko: '식품의약품안전처', en: 'Ministry of Food and Drug Safety', zh: '韩国食品药品安全处', ja: '韓国食品医薬品安全処' },
   'nedrug.mfds.go.kr': { href: 'https://nedrug.mfds.go.kr', ko: '의약품안전나라', en: 'MFDS Drug Safety Portal', zh: '韩国药品安全门户', ja: '韓国医薬品安全ポータル' },
   'factoryon.go.kr': { href: 'https://www.factoryon.go.kr', ko: '팩토리온', en: 'FactoryOn', zh: 'FactoryOn 工厂登记系统', ja: 'FactoryOn 工場登録システム' },
@@ -15,7 +14,7 @@ const OFFICIAL: Record<string, { href: string; ko: string; en: string; zh: strin
   'mois.go.kr': { href: 'https://www.mois.go.kr', ko: '행정안전부', en: 'Ministry of the Interior and Safety', zh: '韩国行政安全部', ja: '韓国行政安全部' },
   'g2b.go.kr': { href: 'https://www.g2b.go.kr', ko: '나라장터', en: 'KONEPS (g2b.go.kr)', zh: '韩国政府采购系统', ja: '韓国電子調達システム' },
 }
-const PRIO = ['nedrug.mfds.go.kr', 'mfds.go.kr', 'factoryon.go.kr', 'rnd.or.kr', 'g2b.go.kr', 'mois.go.kr', 'law.go.kr']
+const PRIO = ['nedrug.mfds.go.kr', 'mfds.go.kr', 'factoryon.go.kr', 'rnd.or.kr', 'g2b.go.kr', 'mois.go.kr']
 
 function hostOf(url: string): string {
   const m = url.match(/^https?:\/\/([^/?#]+)/i)
@@ -40,7 +39,8 @@ export function cleanArticleHtml(html: string, locale: 'ko' | 'en' | 'zh' | 'ja'
     hosts.push(h)
     return text
   })
-  const key = PRIO.find((k) => hosts.includes(k)) ?? (hosts.length ? 'law.go.kr' : undefined)
+  // NOCITE-ALL-4(보스 msg 3373·3377): 국가법령정보센터(law.go.kr)는 맨 끝 링크로도 싣지 않는다 — 실무 포털(식약처·팩토리온 등)만.
+  const key = PRIO.find((k) => hosts.includes(k))
   const o = key ? OFFICIAL[key] : undefined
   return { html: s, official: o ? { href: o.href, label: o[locale] } : undefined }
 }

@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Construction Business Registration in Korea: Requirements, Capital & Technical Staff | YouSun Administrative Agency",
   "h1": "Construction Business Registration in Korea",
-  "lead": "Anyone running a construction business in Korea must register by trade type with the Minister of Land, Infrastructure and Transport (minor works are excepted), by submitting the application to the city/province governor or the designated registration agency. The registration standards cover technical staff, capital, facilities and equipment, e.g. a building construction business needs corporate capital of KRW 350 million or more and at least 5 construction engineers. (Law status as of 2026-10-02, per law.go.kr.)",
+  "lead": "Anyone running a construction business in Korea must register by trade type with the Minister of Land, Infrastructure and Transport (minor works are excepted), by submitting the application to the city/province governor or the designated registration agency. The registration standards cover technical staff, capital, facilities and equipment, e.g. a building construction business needs corporate capital of KRW 350 million or more and at least 5 construction engineers.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: construction business — trades for general works and trades for specialty works.",
@@ -40,7 +40,7 @@
     },
     {
       "h2": "What is the statutory fee?",
-      "body": "The registration fee is KRW 60,000 for civil engineering, building and landscape works, KRW 90,000 for civil-and-building works and industrial/environmental plant works, and KRW 20,000 for specialty works (excluding gas heating works). Reissuing the certificate costs KRW 2,000. The basis is Article 38 and Appendix 5 of the Enforcement Rule, payable by revenue stamp or electronic payment. (Enforcement Rule effective 2026-01-02. Financial-institution costs such as guarantee certificates and private service fees are not statutory fees and are excluded.)"
+      "body": "The registration fee is KRW 60,000 for civil engineering, building and landscape works, KRW 90,000 for civil-and-building works and industrial/environmental plant works, and KRW 20,000 for specialty works (excluding gas heating works). Reissuing the certificate costs KRW 2,000. The basis is Article 38 and Appendix 5 of the Enforcement Rule, payable by revenue stamp or electronic payment. (As of 2026. Financial-institution costs such as guarantee certificates and private service fees are not statutory fees and are excluded.)"
     },
     {
       "h2": "Why is a registration rejected or supplementation requested?",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Registration: anyone starting a construction business shall register by prescribed trade with the Minister of Land, Infrastructure and Transport",
-      "source": "건설산업기본법 제9조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "건설산업기본법 제9조"
     },
     {
       "text": "Registration standards: technical staff, capital (asset valuation for individuals), and facilities and equipment",
-      "source": "건설산업기본법 제10조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "건설산업기본법 제10조"
     },
     {
       "text": "Penalty: up to 5 years' imprisonment or a fine of up to KRW 50 million",
-      "source": "건설산업기본법 제95조의2 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "건설산업기본법 제95조의2"
     }
   ],
   "relatedHeading": "Related Pages",

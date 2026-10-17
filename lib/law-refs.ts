@@ -1,6 +1,7 @@
 // BEYE-1007-FIX #12 (맥7·보스눈 QA): 서비스 상세 본문·FAQ 문장 끝의 괄호 조문 나열 "(법 제37조 제5항, 시행령 …)" 을
-// 고객 화면에서 빼고, 페이지 맨 끝 '근거 법령' 접기(details) 1개로 모은다. 원고(services-data·industry-pages)는
-// 그대로 두고 렌더 단계에서만 옮긴다 — 문장·숫자는 바꾸지 않는다.
+// 고객 화면에서 뺀다 — 문장·숫자는 바꾸지 않는다.
+// NOCITE-ALL-4 (보스 msg 3373·3377, 2026-10-17): 뺀 조문을 모아 보여 주던 맨 끝 '근거 법령' 접기(components/ui/LawRefs.tsx)는
+// 없앴다. 화면에 근거·출처·확인일 블록을 다시 만들지 말 것 — 빌드 게이트 scripts/nocite-gate.mjs 가 막는다.
 //
 // 괄호 안이 '조문 표시만'일 때만 뺀다. 기한·금액·대상·'위반'·'허가'·시행일 같은 사실이 섞인 괄호는 그대로 둔다.
 // (2026-10-08 빌드 실측: ko 서비스 60쪽 본문에 남는 조문 괄호는 사실이 섞인 19개뿐)
@@ -34,31 +35,9 @@ export function pullLawRefs(text: string, refs: string[]): string {
   })
 }
 
-/**
- * services-data overview 의 '근거 법령' 절(<h2 id="svc-law"> ~ 다음 <h2>)을 잘라 낸다.
- * 목차의 같은 항목도 함께 뺀다. 잘라 낸 HTML 은 맨 끝 접기 안으로 옮겨진다.
- */
-export function splitLawSection(html: string): { body: string; law: string } {
-  const start = html.indexOf('<h2 id="svc-law">')
-  if (start < 0) return { body: html, law: '' }
-  const next = html.indexOf('<h2', start + 4)
-  const end = next < 0 ? html.length : next
-  const section = html.slice(start, end).replace(/^<h2 id="svc-law">[\s\S]*?<\/h2>\s*/, '')
-  const body = (html.slice(0, start) + html.slice(end)).replace(/<li><a href="#svc-law">[\s\S]*?<\/a><\/li>/, '')
-  return { body, law: section }
-}
 
-export const LAW_REFS_HEADING: Record<'ko' | 'en' | 'zh' | 'ja', string> = {
-  ko: '근거 법령',
-  en: 'Legal basis',
-  zh: '法律依据',
-  ja: '根拠法令',
-}
-
-export const LAW_REFS_INLINE_LABEL = '본문에 인용한 조문'
-
-// BEYE-1007-FIX2 (맥7): 블로그 I4 가이드 47편도 서비스 상세와 같은 처리 — 원고(blog-posts-data.ts)는 그대로, 렌더 단계에서만.
-// ① '공식 기준 인용' 절(<h2> ~ 다음 <h2>)의 인용 블록을 빼서 맨 끝 '근거 법령' 접기로 옮긴다(목차 항목도 뺀다).
+// BEYE-1007-FIX2 (맥7): 블로그 I4 가이드 47편도 서비스 상세와 같은 처리.
+// ① '공식 기준 인용' 절(<h2> ~ 다음 <h2>)을 화면에서 뺀다(목차 항목도 뺀다). NOCITE-ALL-4 로 원고에서도 지웠고, 이 필터는 안전망이다.
 // ② 상담 안내 끝 '상담 문의: /contact' 날 경로는 '상담 문의하기' 버튼으로.
 const BLOG_CITE_SECTION = /<h2[^>]*>\s*공식 기준 인용\s*<\/h2>([\s\S]*?)(?=<h2|$)/
 const BLOG_CITE_BQ = /<blockquote><p>([\s\S]*?)<\/p><p>—\s*([\s\S]*?)<\/p><\/blockquote>/g
@@ -106,7 +85,3 @@ export function pullLawRefsCjk(text: string, refs: string[]): string {
   })
 }
 
-export const LAW_REFS_INLINE_LABEL_I18N: Record<'zh' | 'ja', string> = {
-  zh: '正文引用的条文',
-  ja: '本文で引用した条文',
-}

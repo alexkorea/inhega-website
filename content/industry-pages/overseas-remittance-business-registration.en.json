@@ -4,7 +4,7 @@
   "lawBasisDate": "2026-10-02",
   "title": "Small Overseas Remittance Business Registration in Korea: Requirements, Capital KRW 1 Billion & Deposit | YouSun Administrative Agency",
   "h1": "Small Overseas Remittance Business Registration",
-  "lead": "A non-financial company that wants to carry out payments and receipts between Korea and other countries as a business (small overseas remittance business) must register in advance under the Foreign Exchange Transactions Act with the Minister of Economy and Finance. The requirements include being a company under the Commercial Act with equity of KRW 1 billion or more, IT systems, a network link to the foreign exchange information centralization agency, at least 2 qualified staff and a performance deposit of KRW 300 million or more. (Law status as of 2026-10-02.)",
+  "lead": "A non-financial company that wants to carry out payments and receipts between Korea and other countries as a business (small overseas remittance business) must register in advance under the Foreign Exchange Transactions Act with the Minister of Economy and Finance. The requirements include being a company under the Commercial Act with equity of KRW 1 billion or more, IT systems, a network link to the foreign exchange information centralization agency, at least 2 qualified staff and a performance deposit of KRW 300 million or more.",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: small overseas remittance business (cross-border payments and receipts) by a person that is not a financial institution.",
@@ -86,15 +86,15 @@
   "citations": [
     {
       "text": "Registration: a non-financial person who wants to carry out foreign exchange business such as cross-border payments and receipts as a business shall register in advance with the Minister of Economy and Finance after meeting the capital, facility and staff requirements",
-      "source": "외국환거래법 제8조 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "외국환거래법 제8조"
     },
     {
       "text": "Registration requirement: a company under Article 169 of the Commercial Act with equity of KRW 1 billion or more",
-      "source": "외국환거래법 시행령 제15조의2 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "외국환거래법 시행령 제15조의2"
     },
     {
       "text": "Performance deposit: KRW 300 million or more",
-      "source": "외국환거래법 시행령 제17조의2 (law as of 2026-10-02, law.go.kr (Korean original))"
+      "source": "외국환거래법 시행령 제17조의2"
     }
   ],
   "relatedHeading": "Related Pages",

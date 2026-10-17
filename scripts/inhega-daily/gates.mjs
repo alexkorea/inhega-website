@@ -8,6 +8,7 @@
 
 import { POOL_KEYS, ANGLE_KEYS, topicByKey } from './pool.mjs'
 import { c6Hits } from '../lib/c6-banned.mjs'
+import { scanHtml } from '../nocite-gate.mjs'
 
 // 제5장 정량 — Cluster 기준(Pillar 은 entry.kind='pillar' 로 상향).
 // 단위는 지침서 표기("EN1000-1800단어")를 네 언어 모두 단어로 읽는다.
@@ -102,12 +103,14 @@ export function gateArticle(entry, ctx) {
   add('Q4 FAQ 4~6개', faq >= 4 && faq <= 6, `${faq}개`)
   add('Q5 TOC 존재', /class="toc"/.test(entry.ko?.content || ''), 'ok')
   add('Q6 표 1개 이상', /<table/.test(entry.ko?.content || ''), 'ok')
-  add('Q7 법령인용 박스 1개 이상', /class="highlight-box"/.test(entry.ko?.content || ''), 'ok')
+  // Q7(법령인용 박스 1개 이상)은 NOCITE-ALL-4(보스 msg 3373·3377, 2026-10-17)로 폐지 — 근거·출처 박스를 요구하지 않는다.
   const internal = [...(entry.ko?.content || '').matchAll(/href="\/(blog|services)\/[^"]+"/g)].length
   add('Q8 내부링크 3~6개', internal >= 3 && internal <= 6, `${internal}개`)
+  // NOCITE-ALL-4: 국가법령정보센터(law.go.kr) 링크·'원문은 …에서 볼 수 있습니다' 류 안내는 싣지 않는다. 실무 포털 링크만 0~3개.
   const external = [...(entry.ko?.content || '').matchAll(/href="https?:\/\/[^"]+"/g)]
-    .filter((m) => /(law\.go\.kr|\.go\.kr|\.or\.kr)/.test(m[0])).length
-  add('Q9 정부·법령 외부링크 2~3개', external >= 2 && external <= 3, `${external}개`)
+    .filter((m) => /(\.go\.kr|\.or\.kr)/.test(m[0])).length
+  const lawLinks = ['ko', 'en', 'zh', 'ja'].reduce((n, l) => n + [...(entry[l]?.content || '').matchAll(/href="https?:\/\/(?:www\.)?law\.go\.kr/g)].length, 0)
+  add('Q9 정부 외부링크 0~3개·law.go.kr 0건', external <= 3 && lawLinks === 0, `${external}개, law.go.kr ${lawLinks}건`)
   add('Q10 meta_title 30~60자', (entry.ko?.metaTitle || '').length >= 30 && (entry.ko?.metaTitle || '').length <= 60, `${(entry.ko?.metaTitle || '').length}자`)
   add('Q11 meta_description 80~155자', (entry.ko?.metaDescription || '').length >= 80 && (entry.ko?.metaDescription || '').length <= 155, `${(entry.ko?.metaDescription || '').length}자`)
   // Q12: 빌드의 scripts/seo-gate.mjs 는 description 70~160자를 언어 구분 없이 강제하고
@@ -157,6 +160,17 @@ export function gateArticle(entry, ctx) {
       if (!hasBasis || OUR_PRICE_RE.test(stripTags(around))) offenders.push(m[0].trim())
     }
     add(`C3 ${loc} 가격금액 0건(X41)`, offenders.length === 0, offenders.length ? `근거 없는 금액: ${offenders.slice(0, 3).join(' / ')}` : 'ok')
+  }
+
+  // ── N. NOCITE-ALL-4(보스 msg 3373·3377, 2026-10-17) ─────────────────────────
+  // 화면·메타에 근거·출처·확인일·검토일·국가법령정보센터·'원문 기준으로 작성' 류 표시 0건.
+  // 패턴 정본은 scripts/nocite-gate.mjs(빌드 산출물 게이트와 같은 파일). HTML 주석(<!-- 근거: -->)은 화면에 안 나가므로 제외.
+  for (const loc of ['ko', 'en', 'zh', 'ja']) {
+    const a = entry[loc] || {}
+    const html = [a.title, a.metaTitle, a.metaDescription, a.excerpt, a.content].filter(Boolean).join('\n<p>')
+      .replace(/<!--[\s\S]*?-->/g, '')
+    const hits = scanHtml(`<div>${html}</div>`)
+    add(`N1 ${loc} 근거·출처·확인일 표시 0건`, hits.length === 0, hits.length ? `${hits.length}건: [${hits[0].rule}] …${hits[0].ctx}…` : 'ok')
   }
 
   const failed = checks.filter((c) => !c.ok)

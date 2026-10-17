@@ -7,8 +7,7 @@ import Link from 'next/link'
 import { Flag } from '@/components/ui/LangFlags'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
-import LawRefs from '@/components/ui/LawRefs'
-import { pullLawRefs, LAW_REFS_HEADING, LAW_REFS_INLINE_LABEL } from '@/lib/law-refs'
+import { pullLawRefs } from '@/lib/law-refs'
 import {
   getIndustryLocales,
   type IndustryLocale,
@@ -120,7 +119,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
   const url = pageUrl(lang, slug)
   const otherLangs = LANG_LINKS.filter((x) => x.l !== lang && getIndustryLocales(slug).includes(x.l))
   const photo = industryPhotoMeta(slug, lang, page.h1)
-  // #12 본문·FAQ 괄호 조문은 맨 끝 '근거 법령' 접기로(ko 원고만 해당 — 다른 언어 원고에는 이 형식이 없다)
+  // NOCITE-ALL-4: 본문·FAQ 의 순수 조문 괄호는 화면에서 뺀다(ko 원고만 해당). 근거 법령 접기·공식 기준 인용(citations)은 싣지 않는다.
   const refs: string[] = []
   const pull = (t: string) => (lang === 'ko' ? pullLawRefs(t, refs) : t)
   const lead = pull(page.lead)
@@ -231,7 +230,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                   </div>
                 </section>
 
-                {/* 관련 페이지 · 상담 안내 — 공식 기준 인용은 맨 끝 '근거 법령' 접기로(#12) */}
+                {/* 관련 페이지 · 상담 안내 */}
                 <section className="svc-overview-content">
                   <h2>{page.relatedHeading}</h2>
                   <ul>
@@ -242,7 +241,6 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                   <h2>{page.ctaHeading}</h2>
                   <CtaText text={page.cta} lang={lang} />
                 </section>
-                <LawRefs heading={LAW_REFS_HEADING[lang]} citations={page.citations} refs={refs} refsLabel={lang === 'ko' ? LAW_REFS_INLINE_LABEL : undefined} />
               </div>
 
               {/* Sidebar — 기존 서비스 페이지 CTA 카드 그대로 */}

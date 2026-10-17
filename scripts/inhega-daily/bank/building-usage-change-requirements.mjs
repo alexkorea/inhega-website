@@ -24,12 +24,12 @@ export default {
     title: '건축물 용도변경 요건 — 시설군 상하위 판정과 변경 후 용도의 건축기준',
     category: '건축/부동산',
     metaTitle: '건축물 용도변경 요건 — 시설군 판정과 건축기준 확인 순서',
-    metaDescription: '건축물 용도변경이 허가·신고·건축물대장 기재변경 중 무엇에 해당하는지 건축법 제19조의 시설군 9개로 판정하는 방법과, 변경하려는 용도가 요구하는 건축기준·사용승인 요건을 법령 원문 기준으로 정리했습니다.',
-    excerpt: '용도변경 요건의 출발점은 지금 건물이 무슨 용도인지가 아니라 바꾸려는 용도가 무엇을 요구하는지입니다. 건축법 제19조의 시설군 9개로 허가·신고·기재변경을 가르는 방법, 별표 1이 면제에서 다시 빼내는 용도, 준용되는 개별 기준과 위반 시 제재를 원문 기준으로 정리했습니다.',
+    metaDescription: '건축물 용도변경이 허가·신고·건축물대장 기재변경 중 무엇에 해당하는지 건축법 제19조의 시설군 9개로 판정하는 방법과, 변경하려는 용도가 요구하는 건축기준·사용승인 요건을 정리했습니다.',
+    excerpt: '용도변경 요건의 출발점은 지금 건물이 무슨 용도인지가 아니라 바꾸려는 용도가 무엇을 요구하는지입니다. 건축법 제19조의 시설군 9개로 허가·신고·기재변경을 가르는 방법, 별표 1이 면제에서 다시 빼내는 용도, 준용되는 개별 기준과 위반 시 제재를 정리했습니다.',
     content: `<div class="toc"><p>목차</p><ol><li>용도변경 요건은 "바꾸려는 용도"에서 나온다</li><li>허가·신고·기재변경을 가르는 시설군 판정</li><li>시설군 9개와 그 안에 속하는 세부 용도</li><li>기재변경만으로 끝나지 않는 용도들</li><li>변경 후 용도가 요구하는 개별 법령 요건</li><li>사용승인·설계 요건과 위반 시 제재</li><li>자주 묻는 질문</li></ol></div>
 <p><strong>건축물 용도변경</strong>은 이미 사용승인을 받은 건물의 용도를 다른 용도로 바꾸는 절차입니다. 실무에서 가장 많이 어긋나는 지점은 "우리 건물이 무슨 용도인가"를 먼저 따지는 것입니다. 「건축법」이 정한 요건의 출발점은 반대쪽, 즉 <strong>바꾸려는 용도가 무엇을 요구하는가</strong>에 있습니다.</p>
 <p>용도변경의 대상은 이미 「건축법」 제22조에 따라 사용승인을 받은 건축물입니다.<!-- 근거: 건축법 제19조 제2항 --> 아직 사용승인을 받지 않은 신축 단계라면 용도변경이 아니라 건축허가나 건축신고 단계에서 용도를 정하는 문제가 되므로, 먼저 우리 건물이 어느 단계에 있는지부터 구분해야 합니다.</p>
-<p>이 글은 현행 「건축법」과 같은 법 시행령, 그리고 시행령 별표 1 원문을 대조해 용도변경의 요건을 정리한 것입니다. 인허가를 준비하면서 "우리 경우는 허가인가 신고인가"를 판단해야 하는 분들이 순서대로 짚어 볼 수 있도록 구성했습니다.<!-- 근거: 건축법(법률 제21035호, 2026. 2. 27. 시행), 건축법 시행령(대통령령 제36587호, 2026. 9. 18. 시행) --></p>
+<p>이 글은 용도변경의 요건을 정리한 것입니다. 인허가를 준비하면서 "우리 경우는 허가인가 신고인가"를 판단해야 하는 분들이 순서대로 짚어 볼 수 있도록 구성했습니다.<!-- 근거: 건축법(법률 제21035호, 2026. 2. 27. 시행), 건축법 시행령(대통령령 제36587호, 2026. 9. 18. 시행) --></p>
 
 <h2>용도변경 요건은 "바꾸려는 용도"에서 나온다</h2>
 <p>「건축법」 제19조 제1항은 용도변경의 요건을 한 문장으로 정해 두었습니다. 이 문장이 이후 모든 판단의 기준선입니다.</p>
@@ -39,10 +39,10 @@ export default {
 
 <h2>허가·신고·기재변경을 가르는 시설군 판정</h2>
 <p>사용승인을 받은 건축물의 용도를 바꾸려는 사람은 특별자치시장·특별자치도지사 또는 시장·군수·구청장의 <strong>허가</strong>를 받거나 <strong>신고</strong>를 해야 합니다. 둘 중 무엇에 해당하는지는 오직 시설군의 번호 순서로 갈립니다.<!-- 근거: 건축법 제19조 제2항 --></p>
-<table><thead><tr><th>변경 방향</th><th>절차</th><th>근거</th></tr></thead><tbody>
-<tr><td>번호가 더 작은 시설군(상위군)의 용도로 변경</td><td>허가<!-- 근거: 건축법 제19조 제2항 제1호 --></td><td>법 제19조 제2항 제1호</td></tr>
-<tr><td>번호가 더 큰 시설군(하위군)의 용도로 변경</td><td>신고<!-- 근거: 건축법 제19조 제2항 제2호 --></td><td>법 제19조 제2항 제2호</td></tr>
-<tr><td>같은 시설군 안에서 용도 변경</td><td>건축물대장 기재내용의 변경 신청<!-- 근거: 건축법 제19조 제3항 --></td><td>법 제19조 제3항</td></tr>
+<table><thead><tr><th>변경 방향</th><th>절차</th></tr></thead><tbody>
+<tr><td>번호가 더 작은 시설군(상위군)의 용도로 변경</td><td>허가<!-- 근거: 건축법 제19조 제2항 제1호 --></td></tr>
+<tr><td>번호가 더 큰 시설군(하위군)의 용도로 변경</td><td>신고<!-- 근거: 건축법 제19조 제2항 제2호 --></td></tr>
+<tr><td>같은 시설군 안에서 용도 변경</td><td>건축물대장 기재내용의 변경 신청<!-- 근거: 건축법 제19조 제3항 --></td></tr>
 </tbody></table>
 <p>조문이 쓰는 "상위군"과 "하위군"이라는 말은 시설의 격이 높거나 낮다는 뜻이 아닙니다. 제19조 제4항 각 호의 <strong>번호가 작은 시설군</strong>을 상위군이라고 정의한 것입니다.<!-- 근거: 건축법 제19조 제2항 제1호 --> 그래서 판정은 감각이 아니라 번호 대조로 끝납니다. 예컨대 근린생활시설군(제7호)에 속한 사무실을 영업시설군(제5호)에 속한 숙박시설로 바꾸려면 번호가 작아지므로 허가 대상이고, 거꾸로 숙박시설을 사무소로 바꾸면 번호가 커지므로 신고 대상입니다.<!-- 근거: 건축법 제19조 제4항 제5호·제7호, 같은 법 시행령 제14조 제5항 --></p>
 <p>한 건물에 두 가지 용도를 함께 두려는 경우도 조문에 길이 있습니다. 건축주는 용도를 복수로 하여 용도변경 허가·신고 또는 건축물대장 기재내용의 변경 신청을 할 수 있고, 허가권자는 신청한 복수의 용도가 이 법과 관계 법령에서 정한 건축기준과 입지기준 등에 <strong>모두</strong> 적합한 경우에 한정하여 복수 용도를 허용할 수 있습니다.<!-- 근거: 건축법 제19조의2 제1항·제2항 --> 두 용도 중 하나라도 기준에 걸리면 전체가 막힌다는 뜻이므로, 복수 용도는 기획 단계에서 미리 검토해야 합니다.</p>
@@ -85,7 +85,7 @@ export default {
 <tr><td>주차·부설주차장</td><td>용도가 바뀌면 부설주차장 설치기준도 함께 바뀝니다. 부족한 대수를 확보하지 못하면 허가가 나지 않습니다.<!-- 근거: 건축법 제19조 제7항 --></td></tr>
 <tr><td>승강기·에너지</td><td>승강기 설치 규정과 「녹색건축물 조성 지원법」 제15조가 준용됩니다.<!-- 근거: 건축법 제19조 제7항 --></td></tr>
 </tbody></table>
-<p>준용 조문을 하나하나 대조하는 것은 도면과 현장을 함께 봐야 하는 일입니다. 건축물대장과 등기, 도면은 <a href="https://www.eais.go.kr" target="_blank" rel="noopener">세움터</a>에서 확인할 수 있고, 법령 원문은 국가법령정보센터의 <a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">건축법</a>과 <a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">건축법 시행령</a>에서 직접 볼 수 있습니다. 업종 요건과 건축 요건을 함께 맞춰야 하는 사건은 <a href="/services/building-usage">건축물 용도변경</a> 안내에서 진행 흐름을 확인하시기 바랍니다.</p>
+<p>준용 조문을 하나하나 대조하는 것은 도면과 현장을 함께 봐야 하는 일입니다. 건축물대장과 등기, 도면은 <a href="https://www.eais.go.kr" target="_blank" rel="noopener">세움터</a>에서 확인할 수 있습니다. 업종 요건과 건축 요건을 함께 맞춰야 하는 사건은 <a href="/services/building-usage">건축물 용도변경</a> 안내에서 진행 흐름을 확인하시기 바랍니다.</p>
 
 <h2>사용승인·설계 요건과 위반 시 제재</h2>
 <p>허가나 신고 대상인 용도변경에서 변경하려는 부분의 바닥면적 합계가 100제곱미터 이상이면 사용승인 규정이 준용됩니다. 다만 그 합계가 500제곱미터 미만이면서 대수선에 해당하는 공사를 수반하지 않으면 그렇지 않습니다.<!-- 근거: 건축법 제19조 제5항 --> 또 허가 대상으로서 변경하려는 부분의 바닥면적 합계가 500제곱미터 이상인 용도변경은 설계에 관하여 제23조가 준용되므로 건축사가 설계해야 합니다. 1층인 축사를 공장으로 용도변경하는 경우로서 증축·개축 또는 대수선이 수반되지 않고 구조 안전이나 피난 등에 지장이 없는 경우는 제외됩니다.<!-- 근거: 건축법 제19조 제6항, 같은 법 시행령 제14조 제7항 --></p>
@@ -112,7 +112,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">무료 상담 신청하기</a>
 </div>
 
-<p class="author-block">유선행정사사무소 (대표 행정사 정유선) · 「건축법」(법률 제21035호, 2026. 2. 27. 시행), 같은 법 시행령(대통령령 제36587호, 2026. 9. 18. 시행) 및 같은 시행령 별표 1 원문 기준으로 작성 · 최종 검토일 9월 25일<!-- 근거: 건축법 법률 제21035호, 건축법 시행령 대통령령 제36587호 --></p>`,
+<p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 건축법 법률 제21035호, 건축법 시행령 대통령령 제36587호 --></p>`,
   },
 
   en: {
@@ -123,7 +123,7 @@ export default {
     excerpt: 'The requirement does not start from what your building is classified as. It starts from what the use you are moving into demands.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>The Target Use Sets the Requirement</li><li>Facility Groups Decide Permit or Report</li><li>The Nine Facility Groups</li><li>Uses Excluded From the Exemption</li><li>What the New Use Demands</li><li>Approval for Use and Penalties</li><li>FAQ</li></ol></div>
 <p>A <strong>change of building use</strong> in Korea is the procedure for converting a building that has already received approval for use into a different use. The most common mistake in practice is to start from the question "what is our building classified as?" Under the Building Act the requirement runs the other way: it starts from <strong>what the use you are moving into demands</strong>.</p>
-<p>The procedure applies to a building that has already obtained approval for use under Article 22 of the Building Act; at the construction stage the question is instead which use to declare in the building permit. This guide follows the current Building Act (Act No. 21035, in force 27 February 2026), its Enforcement Decree (Presidential Decree No. 36587, in force 18 September 2026) and Table 1 of that Decree.</p>
+<p>The procedure applies to a building that has already obtained approval for use under Article 22 of the Building Act; at the construction stage the question is instead which use to declare in the building permit.</p>
 
 <h2>The Target Use Sets the Requirement</h2>
 <p>Article 19(1) of the Building Act states the requirement in a single sentence, and that sentence is the baseline for everything that follows.</p>
@@ -132,10 +132,10 @@ export default {
 
 <h2>Facility Groups Decide Permit or Report</h2>
 <p>Anyone seeking to change the use of a building that has received approval for use must obtain a <strong>permit</strong> from, or file a <strong>report</strong> with, the Special Self-Governing City Mayor, the Special Self-Governing Province Governor, or the head of the si, gun or gu. Which of the two applies turns solely on the numbering of the facility groups.</p>
-<table><thead><tr><th>Direction of change</th><th>Procedure</th><th>Basis</th></tr></thead><tbody>
-<tr><td>Into a use in a lower-numbered facility group (an upper group)</td><td>Permit</td><td>Art. 19(2)1</td></tr>
-<tr><td>Into a use in a higher-numbered facility group (a lower group)</td><td>Report</td><td>Art. 19(2)2</td></tr>
-<tr><td>Within the same facility group</td><td>Application to amend the entry in the building register</td><td>Art. 19(3)</td></tr>
+<table><thead><tr><th>Direction of change</th><th>Procedure</th></tr></thead><tbody>
+<tr><td>Into a use in a lower-numbered facility group (an upper group)</td><td>Permit</td></tr>
+<tr><td>Into a use in a higher-numbered facility group (a lower group)</td><td>Report</td></tr>
+<tr><td>Within the same facility group</td><td>Application to amend the entry in the building register</td></tr>
 </tbody></table>
 <p>"Upper group" does not mean a higher class of facility: the Act defines it as a facility group bearing a <strong>smaller number</strong> among the subparagraphs of Article 19(4). The test is arithmetic, not intuitive. An office in the neighbourhood living facility group (subparagraph 7) becoming lodging in the business facility group (subparagraph 5) moves to a smaller number and needs a permit; the reverse needs only a report.</p>
 <p>Mixed uses are provided for too: an owner may apply with two or more uses, but the authority may allow them only where every one conforms to the building and siting standards of the Act and related statutes. If one use fails, the whole application fails. Once the classification is settled, the form and attachments follow the Ordinance of the Ministry of Land, Infrastructure and Transport; the competent authority is the same in all three cases.</p>
@@ -169,7 +169,7 @@ export default {
 
 <h2>What the New Use Demands</h2>
 <p>What usually blocks a change of use is not Article 19 itself but the standards it applies by analogy. Zoning comes first: under Article 54 of the National Land Planning and Utilisation Act the use must be permitted in the relevant zone, and a use prohibited by ordinance is impossible whatever the building's condition. Evacuation and fire provisions come next, and these are what basements and windowless floors most often fail. Structural stability matters where loading changes, as when a warehouse becomes retail. Parking requirements move with the use, and a shortfall stops the permit.</p>
-<p>Checking these means reading drawings against the site. Registers and drawings come from <a href="https://www.eais.go.kr" target="_blank" rel="noopener">Seumteo</a>, and the statutes themselves from the <a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">Building Act</a> and the <a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">Building Act Enforcement Decree</a> on the National Law Information Center.</p>
+<p>Checking these means reading drawings against the site. Registers and drawings come from <a href="https://www.eais.go.kr" target="_blank" rel="noopener">Seumteo</a>.</p>
 
 <h2>Approval for Use and Penalties</h2>
 <p>Where a permit or report is required and the aggregate floor area being converted is 100 square metres or more, the approval-for-use provisions apply — unless that aggregate is under 500 square metres with no major repair work. At 500 square metres or more under a permit, Article 23 applies to the design, so a licensed architect must prepare it; a single-storey livestock shed becoming a factory is excluded where no extension, reconstruction or major repair is involved.</p>
@@ -190,7 +190,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon) · Based on the Building Act (Act No. 21035, in force 27 February 2026), its Enforcement Decree (Presidential Decree No. 36587) and Table 1 · Last reviewed 25 September</p>`,
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
   },
 
   zh: {
@@ -201,7 +201,7 @@ export default {
     excerpt: '用途变更的要件不是从"现在是什么用途"开始，而是从"要改成的用途要求什么"开始。',
     content: `<div class="toc"><p>目录</p><ol><li>要件从目标用途出发</li><li>设施群编号决定许可或申报</li><li>九个设施群</li><li>不能仅以登记变更了事的用途</li><li>新用途要求的各项标准</li><li>使用批准与处罚</li><li>常见问题</li></ol></div>
 <p>韩国的<strong>建筑物用途变更</strong>，是把已取得使用批准的建筑物改为其他用途的程序。实务中最常出错的是先去查"我们这栋楼现在算什么用途"。《建筑法》的要件方向相反：起点在于<strong>要改成的用途要求什么</strong>。</p>
-<p>用途变更的对象是已依《建筑法》第22条取得使用批准的建筑物；仍处于新建阶段时，那是在建筑许可阶段确定用途的问题。本文以现行《建筑法》（法律第21035号，2026年2月27日施行）、同法施行令（总统令第36587号，2026年9月18日施行）及该施行令别表一原文为准。</p>
+<p>用途变更的对象是已依《建筑法》第22条取得使用批准的建筑物；仍处于新建阶段时，那是在建筑许可阶段确定用途的问题。</p>
 
 <h2>要件从"要改成什么用途"出发</h2>
 <p>《建筑法》第19条第1款用一句话规定了用途变更的要件，这句话是此后一切判断的基准线。</p>
@@ -211,13 +211,13 @@ export default {
 
 <h2>设施群编号决定许可、申报还是登记变更</h2>
 <p>要变更已取得使用批准建筑物用途的人，必须取得特别自治市市长、特别自治道道知事或市长、郡守、区厅长的<strong>许可</strong>或向其<strong>申报</strong>。属于哪一种完全取决于设施群的编号顺序。</p>
-<table><thead><tr><th>变更方向</th><th>程序</th><th>依据</th></tr></thead><tbody>
-<tr><td>改为编号更小的设施群（上位群）的用途</td><td>许可</td><td>法第19条第2款第1项</td></tr>
-<tr><td>改为编号更大的设施群（下位群）的用途</td><td>申报</td><td>法第19条第2款第2项</td></tr>
-<tr><td>在同一设施群内变更用途</td><td>申请变更建筑物登记簿记载事项</td><td>法第19条第3款</td></tr>
+<table><thead><tr><th>变更方向</th><th>程序</th></tr></thead><tbody>
+<tr><td>改为编号更小的设施群（上位群）的用途</td><td>许可</td></tr>
+<tr><td>改为编号更大的设施群（下位群）的用途</td><td>申报</td></tr>
+<tr><td>在同一设施群内变更用途</td><td>申请变更建筑物登记簿记载事项</td></tr>
 </tbody></table>
 <p>"上位群"并不表示设施等级高低，而是把第19条第4款各项中<strong>编号较小</strong>的设施群定义为上位群。判断靠对编号而非感觉：把邻里生活设施群（第7项）的办公室改为营业设施群（第5项）的住宿设施，编号变小属许可对象；反过来只需申报。</p>
-<p>并置两种用途也有条文依据：建筑主可以以复数用途申请，但许可权人只在复数用途<strong>全部</strong>符合本法及相关法令所定建筑标准与选址标准时才可准许。只要有一种不合标准整件事就会被挡住，因此须在规划阶段先行检讨。判断完成后，申请书式与附件依国土交通部令办理；三种情形的管辖机关相同，只是受理程序不同。</p>
+<p>并置两种用途也有条文规定，建筑主可以以复数用途申请，但许可权人只在复数用途<strong>全部</strong>符合本法及相关法令所定建筑标准与选址标准时才可准许。只要有一种不合标准整件事就会被挡住，因此须在规划阶段先行检讨。判断完成后，申请书式与附件依国土交通部令办理；三种情形的管辖机关相同，只是受理程序不同。</p>
 
 <h2>九个设施群及其所含用途</h2>
 <p>设施群由《建筑法》第19条第4款定为九个，各设施群所含建筑物的细分用途则由同法施行令第14条第5款规定。下表即用途变更判断的基准表。</p>
@@ -249,7 +249,7 @@ export default {
 
 <h2>新用途实际要求的各项标准</h2>
 <p>真正挡住用途变更的往往不是第19条本身，而是被准用的各项标准。一是用途地域限制：准用《国土规划及利用法》第54条，条例禁止的用途与建筑物状态无关一律不可。二是避难与防火，地下层或无窗层改作营业用途时最常在此受阻。三是结构安全，仓库改为销售设施这类载荷变化需要结构检讨。四是停车，无法确保不足车位就拿不到许可。此外还准用升降机规定与《绿色建筑物营造支援法》第15条。</p>
-<p>逐条对照准用规定需要同时看图纸与现场。登记簿与图纸可在<a href="https://www.eais.go.kr" target="_blank" rel="noopener">세움터</a>查询，法令原文可在国家法令信息中心的<a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">建筑法</a>与<a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">建筑法施行令</a>直接查看。</p>
+<p>逐条对照准用规定需要同时看图纸与现场。登记簿与图纸可在<a href="https://www.eais.go.kr" target="_blank" rel="noopener">세움터</a>查询。</p>
 
 <h2>使用批准、设计要件与违反时的处罚</h2>
 <p>属于许可或申报对象的用途变更，若变更部分楼板面积合计在100平方米以上，准用使用批准规定；但该合计不满500平方米且不伴随大修工程时不予准用。属于许可对象且合计在500平方米以上的用途变更，其设计准用第23条，须由建筑师设计；一层畜舍改为工厂且不伴随扩建、改建或大修的情形除外。</p>
@@ -270,18 +270,18 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请免费咨询</a>
 </div>
 
-<p class="author-block">유선행정사사무소（代表行政士 정유선）· 依《建筑法》（法律第21035号，2026年2月27日施行）、同法施行令（总统令第36587号，2026年9月18日施行）及该施行令别表一原文撰写 · 最终审阅日 9月25日</p>`,
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
   ja: {
     title: '韓国の建築物用途変更の要件 — 施設群の判定と変更後の用途の建築基準',
     category: '許認可',
     metaTitle: '韓国の建築物用途変更の要件 — 施設群の番号と建築基準',
-    metaDescription: '韓国の建築物用途変更が許可・届出・建築物台帳の記載変更のどれに当たるのかを建築法第19条の9つの施設群で判定する方法と、変更後の用途が求める建築基準・使用承認要件を原文基準で整理しました。',
+    metaDescription: '韓国の建築物用途変更が許可・届出・建築物台帳の記載変更のどれに当たるのかを建築法第19条の9つの施設群で判定する方法と、変更後の用途が求める建築基準・使用承認要件を整理しました。',
     excerpt: '用途変更の要件は「いまどの用途か」からではなく「変更しようとする用途が何を求めるか」から始まります。',
     content: `<div class="toc"><p>目次</p><ol><li>要件は「変更後の用途」から始まる</li><li>施設群の番号が許可・届出・台帳記載変更を分ける</li><li>9つの施設群とそこに属する用途</li><li>記載変更だけでは済まない用途</li><li>変更後の用途が求める個別基準</li><li>使用承認・設計要件と違反時の制裁</li><li>よくあるご質問</li></ol></div>
 <p>韓国の<strong>建築物の用途変更</strong>は、すでに使用承認を受けた建築物を別の用途に変える手続です。実務で最も多い誤りは、「自分の建物は今どの用途なのか」から考え始めることです。「建築法」が定める要件の出発点は逆側、すなわち<strong>変更しようとする用途が何を求めているか</strong>にあります。</p>
-<p>用途変更の対象は、すでに「建築法」第22条により使用承認を受けた建築物です。新築段階であれば用途変更ではなく建築許可の段階で用途を定める問題になります。本稿は現行の「建築法」（法律第21035号、2026年2月27日施行）、同法施行令（大統領令第36587号、2026年9月18日施行）および同施行令別表1の原文に基づいています。</p>
+<p>用途変更の対象は、すでに「建築法」第22条により使用承認を受けた建築物です。新築段階であれば用途変更ではなく建築許可の段階で用途を定める問題になります。</p>
 
 <h2>要件は「変更後の用途」から始まる</h2>
 <p>「建築法」第19条第1項は、用途変更の要件を一文で定めています。この一文が以後すべての判断の基準線になります。</p>
@@ -291,10 +291,10 @@ export default {
 
 <h2>施設群の番号が許可・届出・台帳記載変更を分ける</h2>
 <p>使用承認を受けた建築物の用途を変更しようとする者は、特別自治市長・特別自治道知事または市長・郡守・区庁長の<strong>許可</strong>を受けるか、<strong>届出</strong>をしなければなりません。どちらに当たるかは、施設群の番号の順序だけで決まります。</p>
-<table><thead><tr><th>変更の方向</th><th>手続</th><th>根拠</th></tr></thead><tbody>
-<tr><td>番号がより小さい施設群（上位群）の用途に変更</td><td>許可</td><td>法第19条第2項第1号</td></tr>
-<tr><td>番号がより大きい施設群（下位群）の用途に変更</td><td>届出</td><td>法第19条第2項第2号</td></tr>
-<tr><td>同じ施設群の中での用途変更</td><td>建築物台帳の記載事項変更の申請</td><td>法第19条第3項</td></tr>
+<table><thead><tr><th>変更の方向</th><th>手続</th></tr></thead><tbody>
+<tr><td>番号がより小さい施設群（上位群）の用途に変更</td><td>許可</td></tr>
+<tr><td>番号がより大きい施設群（下位群）の用途に変更</td><td>届出</td></tr>
+<tr><td>同じ施設群の中での用途変更</td><td>建築物台帳の記載事項変更の申請</td></tr>
 </tbody></table>
 <p>条文がいう「上位群」「下位群」は、施設の格が高い・低いという意味ではありません。第19条第4項各号のうち<strong>番号が小さい施設群</strong>を上位群と定義したものです。したがって判定は感覚ではなく番号の照合で終わります。たとえば近隣生活施設群（第7号）に属する事務室を営業施設群（第5号）に属する宿泊施設に変える場合、番号が小さくなるため許可対象であり、逆に宿泊施設を事務所に変える場合は番号が大きくなるため届出対象です。</p>
 <p>二つの用途を併置する場合にも条文上の道があります。建築主は用途を複数として申請でき、許可権者は申請された複数の用途が同法および関係法令に定める建築基準と立地基準等に<strong>すべて</strong>適合する場合に限って許容できます。一つでも基準に触れれば全体が止まるため、複数用途は企画段階で検討が必要です。判定後の申請書式と添付書類は国土交通部令によります。三つのいずれでも管轄行政庁は同じで、どの手続として受理されるかが変わるだけです。</p>
@@ -329,7 +329,7 @@ export default {
 
 <h2>変更後の用途が求める個別基準</h2>
 <p>用途変更を実際に止めるのは条文そのものよりも準用される個別基準です。まず用途地域の制限で、「国土の計画及び利用に関する法律」第54条が準用されるため、条例で禁止された用途は建物の状態と関係なく不可能です。次に避難・防火で、地下層や無窓層を営業用に変えるときに最も頻繁に問題になります。構造安全も重要で、倉庫を販売施設に変えるように積載荷重の条件が変われば構造検討が必要です。駐車も用途と一緒に動き、不足台数を確保できなければ許可は下りません。昇降機の規定と「緑色建築物造成支援法」第15条も準用されます。</p>
-<p>準用条文を一つずつ照合するには、図面と現場を併せて見る必要があります。建築物台帳や図面は<a href="https://www.eais.go.kr" target="_blank" rel="noopener">セウムト（世움터）</a>で確認でき、法令の原文は国家法令情報センターの<a href="https://www.law.go.kr/법령/건축법" target="_blank" rel="noopener">建築法</a>と<a href="https://www.law.go.kr/법령/건축법시행령" target="_blank" rel="noopener">建築法施行令</a>で直接見ることができます。</p>
+<p>準用条文を一つずつ照合するには、図面と現場を併せて見る必要があります。建築物台帳や図面は<a href="https://www.eais.go.kr" target="_blank" rel="noopener">セウムト（世움터）</a>で確認できます。</p>
 
 <h2>使用承認・設計要件と違反時の制裁</h2>
 <p>許可や届出の対象である用途変更で、変更しようとする部分の床面積の合計が100平方メートル以上であれば使用承認の規定が準用されます。ただしその合計が500平方メートル未満で、大規模修繕に該当する工事を伴わない場合はこの限りではありません。また許可対象であって変更しようとする部分の床面積の合計が500平方メートル以上の用途変更は、設計について第23条が準用されるため建築士が設計しなければなりません。1階である畜舎を工場に用途変更する場合で、増築・改築または大規模修繕を伴わず構造安全や避難等に支障がない場合は除かれます。</p>
@@ -350,6 +350,6 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">無料相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）・「建築法」（法律第21035号、2026年2月27日施行）、同法施行令（大統領令第36587号、2026年9月18日施行）および同施行令別表1の原文に基づき作成・最終確認日 9月25日</p>`,
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
   },
 }

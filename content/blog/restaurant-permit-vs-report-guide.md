@@ -59,11 +59,7 @@ slug: "restaurant-permit-vs-report-guide"
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #ddd;padding:10px;background:#f9fafb"><strong>법적 근거</strong></td>
-      <td style="border:1px solid #ddd;padding:10px">식품위생법 제37조 제4항</td>
-      <td style="border:1px solid #ddd;padding:10px">식품위생법 제37조 제1항</td>
-    </tr>
+    
     <tr>
       <td style="border:1px solid #ddd;padding:10px;background:#f9fafb"><strong>영업 개시 시점</strong></td>
       <td style="border:1px solid #ddd;padding:10px">신고 접수 즉시</td>

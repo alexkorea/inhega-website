@@ -9,8 +9,7 @@ import type { Metadata } from 'next'
 import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from '@/app/services-slug.module.css'
-import LawRefs from '@/components/ui/LawRefs'
-import { pullLawRefsCjk, LAW_REFS_HEADING, LAW_REFS_INLINE_LABEL_I18N } from '@/lib/law-refs'
+import { pullLawRefsCjk } from '@/lib/law-refs'
 
 export async function generateStaticParams() {
   // 번역본이 없는 KO 전용 서비스는 이 로케일에 페이지가 없다 — 프리렌더 대상에서 제외한다.
@@ -68,7 +67,7 @@ export default async function JaServicePage({ params }: { params: Promise<{ slug
   const svc = getServiceI18n('ja', slug)
   if (!svc) notFound()
   const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'ja', svc.title) : null
-  // BEYE-1007-FIX2: 절차·FAQ 의 순수 조문 괄호는 맨 끝 '근거 법령' 접기로(ko 와 같은 렌더 단계 처리, lib/law-refs.ts)
+  // NOCITE-ALL-4: 절차·FAQ 의 순수 조문 괄호는 화면에서 뺀다(ko 와 같은 렌더 단계 처리, lib/law-refs.ts). 근거 법령 접기는 없앴다.
   const refs: string[] = []
   const steps = svc.processSteps?.map((p) => ({ step: pullLawRefsCjk(p.step, refs), desc: pullLawRefsCjk(p.desc, refs) }))
   const faqs = svc.faqs?.map((f) => ({ q: pullLawRefsCjk(f.q, refs), a: pullLawRefsCjk(f.a, refs) }))
@@ -173,7 +172,6 @@ export default async function JaServicePage({ params }: { params: Promise<{ slug
                   </section>
                 )}
                 <IndustryBacklinks pages={getIndustryBacklinks('ja', `/ja/services/${slug}`)} heading={BACKLINK_HEADING.ja} />
-                <LawRefs heading={LAW_REFS_HEADING.ja} refs={refs} refsLabel={LAW_REFS_INLINE_LABEL_I18N.ja} />
               </div>
 
               <aside style={{ position: 'sticky', top: '6rem' }}>
