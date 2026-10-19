@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { customerReplyTo, noEmailBanner } from '@/lib/reply-to'
 
 // Resend 발신 주소. inhega.co.kr 은 Resend 에 도메인 검증이 되어 있지 않아
 // 보내면 403 validation_error 로 전부 실패한다(2026-09-22 확인). 같은 사무소가 쓰는
@@ -13,6 +14,12 @@ export async function POST(req: NextRequest) {
 
     if (!name || !phone || !message) {
       return NextResponse.json({ error: '필수 항목을 입력해주세요.' }, { status: 400 })
+    }
+
+    // FORM-REPLYTO-1019: 헤더에 실릴 값이라 개행·쉼표·<> 가 든 이메일은 거부한다.
+    const rt = customerReplyTo(name, email)
+    if (!rt.ok) {
+      return NextResponse.json({ error: '이메일 형식을 확인해주세요.' }, { status: 400 })
     }
 
     // Notion CRM 저장
@@ -56,10 +63,10 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
           from: MAIL_FROM,
           to: '5000meter@gmail.com',
-          // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
-          ...(email ? { reply_to: email } : {}),
+          // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 — "이름" <email> (이메일 없으면 생략, FORM-REPLYTO-1019)
+          ...(rt.replyTo ? { reply_to: rt.replyTo } : {}),
           subject: `[유선행정사사무소] 새 상담 문의 - ${name}`,
-          html: `
+          html: `${rt.replyTo ? '' : noEmailBanner()}
             <h2>새 상담 문의가 접수되었습니다</h2>
             <table>
               <tr><td><strong>이름</strong></td><td>${name}</td></tr>

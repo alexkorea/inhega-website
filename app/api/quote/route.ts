@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { customerReplyTo, noEmailBanner } from '@/lib/reply-to'
 
 // runtime = 'edge' 를 두면 @opennextjs/cloudflare 가 이 라우트를 server-functions 번들에
 // 아예 만들지 않아 라이브에서 POST /api/quote 가 500 이 된다(2026-09-22 확인).
@@ -17,6 +18,12 @@ export async function POST(req: NextRequest) {
 
     if (!name || !phone) {
       return NextResponse.json({ error: '필수 항목을 입력해주세요.' }, { status: 400 })
+    }
+
+    // FORM-REPLYTO-1019: 헤더에 실릴 값이라 개행·쉼표·<> 가 든 이메일은 거부한다.
+    const rt = customerReplyTo(name, email)
+    if (!rt.ok) {
+      return NextResponse.json({ error: '이메일 형식을 확인해주세요.' }, { status: 400 })
     }
 
     let notionOk = false
@@ -58,10 +65,10 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
           from: MAIL_FROM,
           to: '5000meter@gmail.com',
-          // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
-          ...(email ? { reply_to: email } : {}),
+          // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 — "이름" <email> (이메일 없으면 생략, FORM-REPLYTO-1019)
+          ...(rt.replyTo ? { reply_to: rt.replyTo } : {}),
           subject: `[유선행정사사무소] 견적 문의 - ${name} / ${service}`,
-          html: `
+          html: `${rt.replyTo ? '' : noEmailBanner()}
             <h2>새 견적 문의</h2>
             <table border="1" cellpadding="8">
               <tr><td>이름</td><td>${name}</td></tr>
