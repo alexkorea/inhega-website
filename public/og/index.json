@@ -3538,7 +3538,7 @@
    "version": "1.4"
   },
   "zh/postpartum-care-center-permit-guide": {
-   "hash": "255493667d177b9924a0a4f3e44edbca177904e364aa1cf069c5340e750cd0f9",
+   "hash": "45d36ac9a7259d938668ca519b768dd1b84b95a7a10ded1dce97c7499b3ad98a",
    "source": "pexels",
    "seed": 3075446255,
    "theme": "default",
@@ -3550,7 +3550,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "postpartum-care-center-permit-guide",
-   "generated_at": "2026-09-22T06:17:58.449Z",
+   "generated_at": "2026-10-21T07:01:36.778Z",
    "version": "1.4"
   },
   "zh/building-use-change-permit-guide": {
@@ -4386,7 +4386,7 @@
    "version": "1.4"
   },
   "ja/postpartum-care-center-permit-guide": {
-   "hash": "d2c787bfc7d299e228ec2d9cc2840fdcdfc72681761a18d4e39c3509d6a66466",
+   "hash": "e2ead95d2ba2d585abc26f3b87704b8643edc50c6f46e80713d2a7495fb22786",
    "source": "pexels",
    "seed": 3075446255,
    "theme": "default",
@@ -4398,7 +4398,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "postpartum-care-center-permit-guide",
-   "generated_at": "2026-09-22T06:18:30.023Z",
+   "generated_at": "2026-10-21T07:01:37.293Z",
    "version": "1.4"
   },
   "ja/building-use-change-permit-guide": {
@@ -4610,7 +4610,7 @@
    "version": "1.4"
   },
   "zh/freight-forwarder-capital-bond": {
-   "hash": "4f54dbe32bc4f4c663438051b8cdf8e37d9c449eaab75b84a92284337e1af803",
+   "hash": "659c7e55d3802eebf98b6910b0294a12c4d7ef3a07fd55fc3fdae1612e3e4047",
    "source": "pexels",
    "seed": 2275932479,
    "theme": "default",
@@ -4622,11 +4622,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "freight-forwarder-capital-bond",
-   "generated_at": "2026-09-22T06:19:53.490Z",
+   "generated_at": "2026-10-21T07:01:38.043Z",
    "version": "1.4"
   },
   "zh/currency-exchange-registration": {
-   "hash": "33a9c388b8d08cb9dab513d099d6870e3811d45c25fc5ff4a98aa6d49d7f0423",
+   "hash": "40599e8fc66ecf906734bb8f7e69d4315f37e6a9b48def1e2c6237cfcee620f4",
    "source": "pexels",
    "seed": 3225659538,
    "theme": "default",
@@ -4638,11 +4638,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "currency-exchange-registration",
-   "generated_at": "2026-09-22T06:19:53.921Z",
+   "generated_at": "2026-10-21T07:01:38.472Z",
    "version": "1.4"
   },
   "zh/hostel-registration-facility": {
-   "hash": "4773687e906280fa6f3a67ed3b58bb2e44f90daf5320c308d24cc6cf37ab989d",
+   "hash": "a8f12be55e29ad2f6b0887c183763aa0cb96ee2fd7aec91e5935647262641070",
    "source": "pexels",
    "seed": 1202823338,
    "theme": "default",
@@ -4654,11 +4654,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "hostel-registration-facility",
-   "generated_at": "2026-09-22T06:19:54.691Z",
+   "generated_at": "2026-10-21T07:01:39.193Z",
    "version": "1.4"
   },
   "zh/foreigner-urban-homestay-registration": {
-   "hash": "1467de1a1afe0d0360ff17e3cc6885aada508db0c16a64db11a1fb738b628809",
+   "hash": "d2c0ba73ed89ec25d316f751c686dbade76e3d78a588730084e1ecb02c6aff72",
    "source": "pexels",
    "seed": 3164625535,
    "theme": "default",
@@ -4670,11 +4670,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "foreigner-urban-homestay-registration",
-   "generated_at": "2026-09-22T06:19:55.131Z",
+   "generated_at": "2026-10-21T07:01:39.616Z",
    "version": "1.4"
   },
   "zh/hanok-stay-registration-requirements": {
-   "hash": "af3ff32e93bcec9b7541b37242e41e5c0d158aab7c3584ee8eaabd68c8d386d6",
+   "hash": "65a085ff09e4adb8451b0589ba6c1f25c5d63d35826e01422f50d82ed34b57b2",
    "source": "pexels",
    "seed": 1451495657,
    "theme": "default",
@@ -4686,11 +4686,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "hanok-stay-registration-requirements",
-   "generated_at": "2026-09-22T06:19:55.998Z",
+   "generated_at": "2026-10-21T07:01:40.367Z",
    "version": "1.4"
   },
   "zh/nonprofit-association-permit": {
-   "hash": "ef408983d2e47798a5c4d36a4f73a7b61168d9b0271f80e90792fe87338d7901",
+   "hash": "149460d78eed3d5d809154078782094e8efe5616a6484c90b73c5e1792a0ac40",
    "source": "pexels",
    "seed": 1536040939,
    "theme": "default",
@@ -4702,11 +4702,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "nonprofit-association-permit",
-   "generated_at": "2026-09-22T06:19:56.856Z",
+   "generated_at": "2026-10-21T07:01:41.095Z",
    "version": "1.4"
   },
   "zh/tobacco-import-registration": {
-   "hash": "42d72b0febeab0a58d869f2118d1c4dea4b74c66e8c13cf29d03093e7c169833",
+   "hash": "94f8bf2e00ade6ec2881d01ab8371e8bdee7843d5ee911c321cf11bb309e8ece",
    "source": "pexels",
    "seed": 3098742719,
    "theme": "default",
@@ -4718,11 +4718,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-import-registration",
-   "generated_at": "2026-09-22T06:19:57.668Z",
+   "generated_at": "2026-10-21T07:01:41.846Z",
    "version": "1.4"
   },
   "zh/e-cigarette-import-permit": {
-   "hash": "3d4acaf79f9383d8d7f4351118f432b91910dc573da88e155323e253f4fdb496",
+   "hash": "7b36dc68f5679c02650065635706cddacdd54d334c8eab0b3af378ec650e115a",
    "source": "pexels",
    "seed": 423643764,
    "theme": "default",
@@ -4734,11 +4734,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "e-cigarette-import-permit",
-   "generated_at": "2026-09-22T06:19:58.137Z",
+   "generated_at": "2026-10-21T07:01:42.296Z",
    "version": "1.4"
   },
   "zh/women-owned-business-certification": {
-   "hash": "6454b86a289ebbffed7412d3397555694323b816e25e88bb3e803e7f714ce4f3",
+   "hash": "e1226369eb61b5c77e78fce55e64fe9ad460b8402d4f5488aeb9465e07b1a303",
    "source": "pexels",
    "seed": 2933573844,
    "theme": "default",
@@ -4750,11 +4750,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "women-owned-business-certification",
-   "generated_at": "2026-09-22T06:19:58.558Z",
+   "generated_at": "2026-10-21T07:01:42.702Z",
    "version": "1.4"
   },
   "zh/g2b-registration-procedure": {
-   "hash": "b5fe0842c5dd9a04e70f1d649acbed70f74ed5195229d9f8b8fed5f8057c83aa",
+   "hash": "dc0c662f765dccc6c1cd3c608c8384da5fcc9263900e739fe59703aeb1591234",
    "source": "pexels",
    "seed": 3912084647,
    "theme": "default",
@@ -4766,11 +4766,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "g2b-registration-procedure",
-   "generated_at": "2026-09-22T06:19:58.990Z",
+   "generated_at": "2026-10-21T07:01:43.109Z",
    "version": "1.4"
   },
   "zh/freight-forwarder-registration-guide": {
-   "hash": "0576ea901e2b67c686bc12920f56334609f78899d49537b269bcdf5954e18ccd",
+   "hash": "061b19fbb9a532d6974ba31ce3be98fb32379a2e8639cda445e1822a71bee464",
    "source": "pexels",
    "seed": 1554436810,
    "theme": "default",
@@ -4782,11 +4782,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "freight-forwarder-registration-guide",
-   "generated_at": "2026-09-22T06:19:59.829Z",
+   "generated_at": "2026-10-21T07:01:43.855Z",
    "version": "1.4"
   },
   "zh/currency-exchange-compliance": {
-   "hash": "963b6cd7e49bf6109001369215fd56192d4588997c51b54f2e7bd8a222bf2341",
+   "hash": "b6771e70f58b20eb5e9bc5b4ca69bf17beb0da52d1d1a5ea5b78c2ef3de15c6c",
    "source": "pexels",
    "seed": 2103155096,
    "theme": "default",
@@ -4798,11 +4798,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "currency-exchange-compliance",
-   "generated_at": "2026-09-22T06:20:00.665Z",
+   "generated_at": "2026-10-21T07:01:44.632Z",
    "version": "1.4"
   },
   "zh/hostel-vs-guesthouse": {
-   "hash": "a6b20c4148ad29eecacb2ab915a47bfa09b84812f2cd6405fdd6c8d5029a0442",
+   "hash": "dc601ca120e09fcfb2c37f06837110a677ba9d313a5ef4f764a8c59261f4aaa4",
    "source": "pexels",
    "seed": 2367920632,
    "theme": "default",
@@ -4814,11 +4814,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "hostel-vs-guesthouse",
-   "generated_at": "2026-09-22T06:20:01.455Z",
+   "generated_at": "2026-10-21T07:01:45.065Z",
    "version": "1.4"
   },
   "zh/foreigner-homestay-operating-days": {
-   "hash": "473444f8d4555cf82e0ef81ccc653af116205c0869011293b6d6fdaf7883eab0",
+   "hash": "06322e9f94602b8726e26301727d4cec2566ba384221407d0cdf6a872c9cf1c9",
    "source": "pexels",
    "seed": 3486190697,
    "theme": "default",
@@ -4830,11 +4830,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "foreigner-homestay-operating-days",
-   "generated_at": "2026-09-22T06:20:01.902Z",
+   "generated_at": "2026-10-21T07:01:45.491Z",
    "version": "1.4"
   },
   "zh/hanok-stay-operation-rules": {
-   "hash": "dad056697a6c4478ddac91a6e729579bb5303b4860290a24bdd31715ebed324b",
+   "hash": "3a72f9624917bc3cd188e74db23cfa2052b990593220cac05755eb9a94acd512",
    "source": "pexels",
    "seed": 2018472543,
    "theme": "default",
@@ -4846,11 +4846,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "hanok-stay-operation-rules",
-   "generated_at": "2026-09-22T06:20:02.705Z",
+   "generated_at": "2026-10-21T07:01:46.244Z",
    "version": "1.4"
   },
   "zh/nonprofit-articles-drafting": {
-   "hash": "a77030cb2594713e014c2fc0110039e626d247e94d895d3cada44ad5a7ba9211",
+   "hash": "8e2619f08f96d60e611c5149988309e3e5516792792edfc04af1e971e0d123f7",
    "source": "pexels",
    "seed": 2305703557,
    "theme": "default",
@@ -4862,11 +4862,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "nonprofit-articles-drafting",
-   "generated_at": "2026-09-22T06:20:03.484Z",
+   "generated_at": "2026-10-21T07:01:46.976Z",
    "version": "1.4"
   },
   "zh/tobacco-license-tax-bond": {
-   "hash": "7f5765fcd5e13def171d5daa02f088d87d7f5a221404e31026eab9411229db37",
+   "hash": "8d7f68898e648d4e777098706d3692bd89aa94ae73304f7168156be53656f76f",
    "source": "pexels",
    "seed": 2117531536,
    "theme": "default",
@@ -4878,11 +4878,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-license-tax-bond",
-   "generated_at": "2026-09-22T06:20:03.901Z",
+   "generated_at": "2026-10-21T07:01:47.373Z",
    "version": "1.4"
   },
   "zh/e-cigarette-liquid-regulation": {
-   "hash": "554a461ac646fa0cd4c663eeda212e68f67594014535879bc3683c59a7b4dc08",
+   "hash": "67857ad0e96eb9e06dc69dcb48f81303a8c7cb072faf250bf8b0bbb3d16abc07",
    "source": "pexels",
    "seed": 1139514157,
    "theme": "default",
@@ -4894,11 +4894,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "e-cigarette-liquid-regulation",
-   "generated_at": "2026-09-22T06:20:04.346Z",
+   "generated_at": "2026-10-21T07:01:47.798Z",
    "version": "1.4"
   },
   "zh/women-business-renewal": {
-   "hash": "b13e9a3b831acad27a1d116948e6b4e5244a719aba2a940e18fa50b8c956b558",
+   "hash": "71ef20f82effadb8323138a1c0b962c8997791a158dd93e989a749774594c65a",
    "source": "pexels",
    "seed": 1474990331,
    "theme": "default",
@@ -4910,11 +4910,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "women-business-renewal",
-   "generated_at": "2026-09-22T06:20:05.187Z",
+   "generated_at": "2026-10-21T07:01:48.574Z",
    "version": "1.4"
   },
   "zh/g2b-direct-production-certification": {
-   "hash": "58c000fc852e9068106fa554b546c1bd080941327f388862ec234fedfba1908d",
+   "hash": "2deb7bfb7e646eaf26369375e90a4e8c22f7ae112580025f831f98cce3f55186",
    "source": "pexels",
    "seed": 4108457114,
    "theme": "default",
@@ -4926,11 +4926,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "g2b-direct-production-certification",
-   "generated_at": "2026-09-22T06:20:05.639Z",
+   "generated_at": "2026-10-21T07:01:49.005Z",
    "version": "1.4"
   },
   "zh/innobiz-evaluation-criteria": {
-   "hash": "01fa98fb3e09ec693efadbfc0a2f8cd5aa8acb5a020ed4f694370df3c57db935",
+   "hash": "13ab2f5dd504729ec559fe9d6855e670afa4387b77416fac93cc764e6b57530e",
    "source": "pexels",
    "seed": 2874809034,
    "theme": "default",
@@ -4942,11 +4942,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "innobiz-evaluation-criteria",
-   "generated_at": "2026-09-22T06:20:06.611Z",
+   "generated_at": "2026-10-21T07:01:49.917Z",
    "version": "1.4"
   },
   "zh/rnd-department-vs-center": {
-   "hash": "0b0ee7c489b4a74c9f527f60327f2855ae4a30ed3e4c8f0e47eaaa5906b7ec0f",
+   "hash": "7eec0c4a74bea50abf36bc792fe2d2c4f4cdc5a81b0a9de99084a75688651137",
    "source": "pexels",
    "seed": 3058634861,
    "theme": "default",
@@ -4958,11 +4958,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "rnd-department-vs-center",
-   "generated_at": "2026-09-22T06:20:07.027Z",
+   "generated_at": "2026-10-21T07:01:50.322Z",
    "version": "1.4"
   },
   "zh/quasi-drug-manufacturing-permit": {
-   "hash": "ab3d243c02417120ad194a77b0d2444e0035b8e0cfec19f3efce76b87e5995ec",
+   "hash": "1a712286d2e40b7f025494444ec5f76e2ecaa62393434bd7aafdd8a4ac58dc41",
    "source": "pexels",
    "seed": 2329146368,
    "theme": "default",
@@ -4974,11 +4974,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "quasi-drug-manufacturing-permit",
-   "generated_at": "2026-09-22T06:20:07.815Z",
+   "generated_at": "2026-10-21T07:01:51.065Z",
    "version": "1.4"
   },
   "zh/freight-forwarder-vs-domestic": {
-   "hash": "8426ec1248cb5564b471a7b40a54936e9058d6b69591528ea18b7ebdda76d9dd",
+   "hash": "bbcfff2809e25aa20bde6cf40a3b5f8ccbcfac7d4d137482c15ff06b7907c94c",
    "source": "pexels",
    "seed": 2037438721,
    "theme": "default",
@@ -4990,11 +4990,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "freight-forwarder-vs-domestic",
-   "generated_at": "2026-09-22T06:20:08.253Z",
+   "generated_at": "2026-10-21T07:01:51.484Z",
    "version": "1.4"
   },
   "zh/hostel-room-fire-standards": {
-   "hash": "1a606af189091bf465a134b7e9a7d6f29da6eb30c9386d2c6ab766205a672713",
+   "hash": "ed273206602ca17b1061e60ba56c64a2846bfde74b0bfd9913750cbd4dce814e",
    "source": "pexels",
    "seed": 2273324427,
    "theme": "default",
@@ -5006,11 +5006,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "hostel-room-fire-standards",
-   "generated_at": "2026-09-22T06:20:08.742Z",
+   "generated_at": "2026-10-21T07:01:51.951Z",
    "version": "1.4"
   },
   "zh/foreigner-homestay-fire-tax": {
-   "hash": "b4b04ef2c419132901c6082b5611c2f9bb6b847f58dd844ae2fe654f73d61e92",
+   "hash": "029afae1a1198586b048067dc10a577e27e3d5fd42c7fe8549361b9066e20659",
    "source": "pexels",
    "seed": 417561018,
    "theme": "default",
@@ -5022,11 +5022,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "foreigner-homestay-fire-tax",
-   "generated_at": "2026-09-22T06:20:09.536Z",
+   "generated_at": "2026-10-21T07:01:52.693Z",
    "version": "1.4"
   },
   "zh/nonprofit-association-vs-foundation": {
-   "hash": "476c996cb793b5682ab79562d76e51f1a92c31400303ffd9b737792e9edbd68e",
+   "hash": "bbbb5a0c3b77195d2a9969d01f7b2dc217dbb96ffc21aca6285eb9c0662553bf",
    "source": "pexels",
    "seed": 4020875544,
    "theme": "default",
@@ -5038,11 +5038,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "nonprofit-association-vs-foundation",
-   "generated_at": "2026-09-22T06:20:09.955Z",
+   "generated_at": "2026-10-21T07:01:53.105Z",
    "version": "1.4"
   },
   "zh/tobacco-advertising-rules": {
-   "hash": "6ab17747389bfef191a690fbab510e462fae090056408a84028f7f2dce7873cb",
+   "hash": "93def3b569bb7c83641cd7ffc59902373dd6f10b79fb873ed4814249233f4c12",
    "source": "pexels",
    "seed": 156189130,
    "theme": "default",
@@ -5054,11 +5054,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-advertising-rules",
-   "generated_at": "2026-09-22T06:20:10.378Z",
+   "generated_at": "2026-10-21T07:01:53.512Z",
    "version": "1.4"
   },
   "zh/g2b-bidding-qualifications": {
-   "hash": "53e7a8f99345c8e84cbe4cf7e93c8ed25ef731ce6dda04c417117193322ec448",
+   "hash": "930974ab527b631a89833b101c1b5cb0265b6dd067d8398c2546c02949e88d3f",
    "source": "pexels",
    "seed": 3028035926,
    "theme": "default",
@@ -5070,11 +5070,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "g2b-bidding-qualifications",
-   "generated_at": "2026-09-22T06:20:11.128Z",
+   "generated_at": "2026-10-21T07:01:54.205Z",
    "version": "1.4"
   },
   "zh/innobiz-benefits": {
-   "hash": "abb058707ccbc537c9efee9d9f6fec68e82b56bb009d75296567b36edea70949",
+   "hash": "4f434dd8ffef66f4fa657381c1646936201013ac7a782dcabbb25e283fe64ef0",
    "source": "pexels",
    "seed": 2404152061,
    "theme": "default",
@@ -5086,11 +5086,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "innobiz-benefits",
-   "generated_at": "2026-09-22T06:20:11.890Z",
+   "generated_at": "2026-10-21T07:01:54.926Z",
    "version": "1.4"
   },
   "zh/rnd-center-post-management": {
-   "hash": "a2851da28302dea391d82d2b304ffc9d0f67853db89a3e3be6e8b14d6c4042c8",
+   "hash": "953a9a771fc5bdf5b0c24c55fe19aca05d1fabe3f619c5bf668ca1712b959b75",
    "source": "pexels",
    "seed": 3490391088,
    "theme": "default",
@@ -5102,11 +5102,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "rnd-center-post-management",
-   "generated_at": "2026-09-22T06:20:12.323Z",
+   "generated_at": "2026-10-21T07:01:55.335Z",
    "version": "1.4"
   },
   "zh/quasi-drug-import-permit": {
-   "hash": "cf4a0e27c40a639f1e78e7a25facf5b05adbc44d31576c8e014dba25f2a6156d",
+   "hash": "ddffc13df5c00a28dccaaf457fa733da787cc335ddcce1577e278119251c2231",
    "source": "pexels",
    "seed": 3313373721,
    "theme": "default",
@@ -5118,11 +5118,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "quasi-drug-import-permit",
-   "generated_at": "2026-09-22T06:20:12.796Z",
+   "generated_at": "2026-10-21T07:01:55.791Z",
    "version": "1.4"
   },
   "zh/forwarder-startup-checklist": {
-   "hash": "459db2b7d7eccbdf578bae9573e6cabf6eaebe71ae3650f7d708063ef313f4db",
+   "hash": "92ea7377ab2c05efa436f96099980e5eb35d500634d0fa8162a983332aa01299",
    "source": "pexels",
    "seed": 2479503080,
    "theme": "default",
@@ -5134,11 +5134,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "forwarder-startup-checklist",
-   "generated_at": "2026-09-22T06:20:13.218Z",
+   "generated_at": "2026-10-21T07:01:56.195Z",
    "version": "1.4"
   },
   "zh/nonprofit-tax-reporting": {
-   "hash": "0b96e963663dc752ef9db49b379c357bdca2ad7ccaf89d9cfc3e5e66488a2901",
+   "hash": "2c7c5cb0e285ecdeadbe2633a44140caf7399941eff12ca43183164f131204b9",
    "source": "pexels",
    "seed": 1845425174,
    "theme": "default",
@@ -5150,11 +5150,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "nonprofit-tax-reporting",
-   "generated_at": "2026-09-22T06:20:13.654Z",
+   "generated_at": "2026-10-21T07:01:56.612Z",
    "version": "1.4"
   },
   "zh/tobacco-customs-hs-code": {
-   "hash": "05c490958effc720f613d0216a1ef8a29afb2d40df61550e1515862877fb5862",
+   "hash": "88078bb71c537672d0af3c0d7436be4df44d6d3882d989cb2fef5845165670b9",
    "source": "pexels",
    "seed": 185355089,
    "theme": "default",
@@ -5166,11 +5166,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-customs-hs-code",
-   "generated_at": "2026-09-22T06:20:14.479Z",
+   "generated_at": "2026-10-21T07:01:57.383Z",
    "version": "1.4"
   },
   "zh/venture-renewal-procedure": {
-   "hash": "01e7cb9bbac5eb962e9a97b9d0854e765b5b734c010099c0321e2781ccdcb1a9",
+   "hash": "1dc4afa6279d383f5c6249900f7c62410eda976fe8e3cfb02d43b676f06c3aa3",
    "source": "pexels",
    "seed": 1281500919,
    "theme": "default",
@@ -5182,11 +5182,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "venture-renewal-procedure",
-   "generated_at": "2026-09-22T06:20:14.924Z",
+   "generated_at": "2026-10-21T07:01:57.804Z",
    "version": "1.4"
   },
   "zh/tobacco-license-renewal": {
-   "hash": "1d7eb8b5b47fb45743376acf9bf0a107cbd183314b6df6999a6119f503e0fdd2",
+   "hash": "cd68a66a6be84d8fd052856f8c4ca1edf8fc7170ec7b126048c915a8c7cecd71",
    "source": "pexels",
    "seed": 1456189130,
    "theme": "default",
@@ -5198,11 +5198,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-license-renewal",
-   "generated_at": "2026-09-22T06:20:15.348Z",
+   "generated_at": "2026-10-21T07:01:58.210Z",
    "version": "1.4"
   },
   "zh/tobacco-import-documents": {
-   "hash": "23f6250834b8407d4f9d16b896c92de9e587bfc942801f25d76a58fecbb3e240",
+   "hash": "339aa7db8be7dd03594bb2a4cd73e8c00ddc4f6cea8725d9a36aba3b25b4b8a9",
    "source": "pexels",
    "seed": 3165600903,
    "theme": "default",
@@ -5214,11 +5214,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-import-documents",
-   "generated_at": "2026-09-22T06:20:15.802Z",
+   "generated_at": "2026-10-21T07:01:58.641Z",
    "version": "1.4"
   },
   "zh/food-import-sales-registration": {
-   "hash": "b0d7b05c0d04b7981850e9c78232ea0a09c1c2cff0d72b6da1b5717706c9bb33",
+   "hash": "33fa2f4c984e928066713cd6b3fb2a5ff854993bd0c69febb8b3cf59ac480cc4",
    "source": "pexels",
    "seed": 2648679226,
    "theme": "default",
@@ -5230,11 +5230,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "food-import-sales-registration",
-   "generated_at": "2026-09-22T06:20:16.631Z",
+   "generated_at": "2026-10-21T07:01:59.427Z",
    "version": "1.4"
   },
   "zh/venture-certification-renewal": {
-   "hash": "b7931ed226e153a2a179ddac8d1cbb14c5b77835006c9861a6adef9c377f9312",
+   "hash": "f35153777c9ea02667da83325da45531876d98138c8647612bbb6a9413246f5d",
    "source": "pexels",
    "seed": 3410073912,
    "theme": "default",
@@ -5246,11 +5246,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "venture-certification-renewal",
-   "generated_at": "2026-09-22T06:20:17.100Z",
+   "generated_at": "2026-10-21T07:01:59.875Z",
    "version": "1.4"
   },
   "zh/haccp-mandatory-industries": {
-   "hash": "21a9d6d3c7621a9d2b6e1aa4965aa9b7ffd8088a555d5c71b8488c4bf7b7ae46",
+   "hash": "d3ce50babbb0c3e230b13ed6c6793b2ea57fb5bf48269d2176f9d661e1b49405",
    "source": "pexels",
    "seed": 539963954,
    "theme": "default",
@@ -5262,11 +5262,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "haccp-mandatory-industries",
-   "generated_at": "2026-09-22T06:20:17.930Z",
+   "generated_at": "2026-10-21T07:02:00.661Z",
    "version": "1.4"
   },
   "zh/g2b-direct-production-renewal": {
-   "hash": "29cd5b377da13e21ae096df0bf0c1d79a673d3c36a9039173281c4c993f61d6b",
+   "hash": "8368ab9546b0f7c8809155d7b6567d014727bbc26059fdd49f723b5b1b37cc68",
    "source": "pexels",
    "seed": 3604349695,
    "theme": "default",
@@ -5278,11 +5278,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "g2b-direct-production-renewal",
-   "generated_at": "2026-09-22T06:20:18.740Z",
+   "generated_at": "2026-10-21T07:02:01.427Z",
    "version": "1.4"
   },
   "zh/restaurant-permit-checklist": {
-   "hash": "38a7fcbcafb00ae446593d39ac9d1c46eadf34f7916785da0b51a9a010b0d545",
+   "hash": "d177fc430128447c2dde2d276d8aa14db5d63f4490c4a987a50dd1df87b5d485",
    "source": "pexels",
    "seed": 235784164,
    "theme": "default",
@@ -5294,11 +5294,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "restaurant-permit-checklist",
-   "generated_at": "2026-09-22T06:20:19.175Z",
+   "generated_at": "2026-10-21T07:02:01.849Z",
    "version": "1.4"
   },
   "zh/cleaning-business-report": {
-   "hash": "b7c37cf685ebdaeb62a11627a7172cbda961eed5b91654740c7c4dc93dcfb4e0",
+   "hash": "0e035302ce93269b5388ba2fe83d317ecd882a4ed121ba311da0ace868f37fc6",
    "source": "pexels",
    "seed": 2693140562,
    "theme": "default",
@@ -5310,11 +5310,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "cleaning-business-report",
-   "generated_at": "2026-09-22T06:20:20.004Z",
+   "generated_at": "2026-10-21T07:02:02.636Z",
    "version": "1.4"
   },
   "zh/real-estate-agency-registration": {
-   "hash": "ec1cbfa2af554d98983b10b6123f7869a8233e991ec77f85cfe00c35f042eea9",
+   "hash": "c908305b6e5d5b383e6cdd3272ebd41a94484495588cb2195ccc776114b953b7",
    "source": "pexels",
    "seed": 3353410893,
    "theme": "default",
@@ -5326,11 +5326,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "real-estate-agency-registration",
-   "generated_at": "2026-09-22T06:20:20.817Z",
+   "generated_at": "2026-10-21T07:02:03.396Z",
    "version": "1.4"
   },
   "zh/rnd-center-relocation-dissolution-guide": {
-   "hash": "a0a807d112ad6287f78649dfc08e04beb507ceb55912e9bb2b775e64070d2fe4",
+   "hash": "10e6103bb0c7610267293baa3e64f47d1605df2f7e29bd22492e63c8750db903",
    "source": "pexels",
    "seed": 530142009,
    "theme": "default",
@@ -5342,11 +5342,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "rnd-center-relocation-dissolution-guide",
-   "generated_at": "2026-09-22T06:20:21.663Z",
+   "generated_at": "2026-10-21T07:02:04.185Z",
    "version": "1.4"
   },
   "zh/liquor-sales-license": {
-   "hash": "dc773a2a4c5fcbf218e221fa66aef294583098ba17d52dc4c39ede0e1b79e640",
+   "hash": "eb1faa4f06ebf6da7f12d127e947ed8787aa758756c24ac58298f867922e8a7e",
    "source": "pexels",
    "seed": 218081572,
    "theme": "default",
@@ -5358,11 +5358,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "liquor-sales-license",
-   "generated_at": "2026-09-22T06:20:22.544Z",
+   "generated_at": "2026-10-21T07:02:05.004Z",
    "version": "1.4"
   },
   "zh/health-functional-food-registration": {
-   "hash": "bbdacb98e89044c26c6aabe414c0919ab5a048a82afbb574d86537c6f3cbbd4a",
+   "hash": "8dc3962033a751520abdf37c7309e0b6c63187a0628e376a9030f758036cbdf8",
    "source": "pexels",
    "seed": 4105950443,
    "theme": "default",
@@ -5374,11 +5374,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "health-functional-food-registration",
-   "generated_at": "2026-09-22T06:20:23.483Z",
+   "generated_at": "2026-10-21T07:02:05.868Z",
    "version": "1.4"
   },
   "zh/travel-agency-registration": {
-   "hash": "118098b40ca7c50e0971809ebae48891727a68f0d38f6b6e8e3f96e6ce70bbeb",
+   "hash": "80f79a8e68a6582fd23eda8acbb3cad37efd69d71626663639d902ea7f418963",
    "source": "pexels",
    "seed": 1758755423,
    "theme": "default",
@@ -5390,11 +5390,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "travel-agency-registration",
-   "generated_at": "2026-09-22T06:20:24.386Z",
+   "generated_at": "2026-10-21T07:02:06.711Z",
    "version": "1.4"
   },
   "zh/medical-device-sales-registration": {
-   "hash": "f62eaf6913baad0251f3badd269bb06a9a8ed3a181170bc57f5145b1c1e01665",
+   "hash": "d87d814dcfaad4d8388fe8703c8c681e981a7afa2537c13be2092e58aa4fb6fd",
    "source": "pexels",
    "seed": 1926749693,
    "theme": "default",
@@ -5406,11 +5406,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "medical-device-sales-registration",
-   "generated_at": "2026-09-22T06:20:24.803Z",
+   "generated_at": "2026-10-21T07:02:07.117Z",
    "version": "1.4"
   },
   "zh/pesticide-sales-registration": {
-   "hash": "b979a83a20b7a62fff4fb29ab48884ab3589b59ac08667b784909d6b364e2fc2",
+   "hash": "791bd613ba7b3496c4235063885d3ac742f697efd7551e15af82c3571ac0b0b1",
    "source": "pexels",
    "seed": 1003115314,
    "theme": "default",
@@ -5422,11 +5422,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "pesticide-sales-registration",
-   "generated_at": "2026-09-22T06:20:25.593Z",
+   "generated_at": "2026-10-21T07:02:07.858Z",
    "version": "1.4"
   },
   "zh/environmental-facility-permit": {
-   "hash": "a4df5a7effbe902b7a8c51c05d806133cb0972363ca1e1b5cd0ecf7f7f9c7e81",
+   "hash": "fca58ab9350e6da61e6ea472f53a57d64bc4d6ad0b455ce54c5b71afa2846c0e",
    "source": "pexels",
    "seed": 1425353663,
    "theme": "default",
@@ -5438,11 +5438,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "environmental-facility-permit",
-   "generated_at": "2026-09-22T06:20:26.350Z",
+   "generated_at": "2026-10-21T07:02:08.567Z",
    "version": "1.4"
   },
   "zh/public-hygiene-business-permit": {
-   "hash": "7a4f7a6ae1782ba7ba72984f9a6d1a82fe544dee926e2156739b488e3a3a4e2c",
+   "hash": "01ba65ec4c9e371518d7c066f713d5c70184a754fee543fdc85f576d51441668",
    "source": "pexels",
    "seed": 4028726361,
    "theme": "default",
@@ -5454,11 +5454,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "public-hygiene-business-permit",
-   "generated_at": "2026-09-22T06:20:27.190Z",
+   "generated_at": "2026-10-21T07:02:09.344Z",
    "version": "1.4"
   },
   "zh/gas-station-dangerous-goods-permit": {
-   "hash": "feb5539d807162d9bb7168f1f108e4b9cb68917d987ffabc13a78366eb46ad63",
+   "hash": "442c62ea08b87efe321c2947c40dc263d2defea10a077cb9e2ddaa6c9f9cfe74",
    "source": "pexels",
    "seed": 963660602,
    "theme": "default",
@@ -5470,11 +5470,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "gas-station-dangerous-goods-permit",
-   "generated_at": "2026-09-22T06:20:28.020Z",
+   "generated_at": "2026-10-21T07:02:10.118Z",
    "version": "1.4"
   },
   "zh/waste-treatment-permit": {
-   "hash": "3d4443b51e813d7401231d566b7d5a2ddaed7c1d2bb3497727eedb29763b6d49",
+   "hash": "e1f91527679b1ffeeb052ae7f6bb2cb9fffd59e3725c70260aa309a32eac514c",
    "source": "pexels",
    "seed": 1776207896,
    "theme": "default",
@@ -5486,11 +5486,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "waste-treatment-permit",
-   "generated_at": "2026-09-22T06:20:28.826Z",
+   "generated_at": "2026-10-21T07:02:10.865Z",
    "version": "1.4"
   },
   "zh/food-manufacturing-permit": {
-   "hash": "0a0c04228337222dee78ab5e14ea6d79c825d47bac022e61b879353c9daaf776",
+   "hash": "0d222705094e92dd7f554dd55937caa5e1a4ec8891ce32f911eac53252bea9cc",
    "source": "pexels",
    "seed": 2397164140,
    "theme": "default",
@@ -5502,11 +5502,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "food-manufacturing-permit",
-   "generated_at": "2026-09-22T06:20:29.253Z",
+   "generated_at": "2026-10-21T07:02:11.272Z",
    "version": "1.4"
   },
   "zh/karaoke-business-report": {
-   "hash": "29bf88538b5f5ba1d2f79b8f350bda86724665051315e8f07f9954bf29d1bb70",
+   "hash": "fb2fa84e749ba291b1135cf5e2cc74d548674d5cb72eb67546f89a301c2eaafe",
    "source": "pexels",
    "seed": 2305344676,
    "theme": "default",
@@ -5518,11 +5518,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "karaoke-business-report",
-   "generated_at": "2026-09-22T06:20:30.068Z",
+   "generated_at": "2026-10-21T07:02:12.029Z",
    "version": "1.4"
   },
   "zh/real-estate-brokerage-registration": {
-   "hash": "6032777279cf2bdb36952eb91d96edc42c7a264cc45c7c40ff65cffc21f14b10",
+   "hash": "a4be57701ffa00e26e8f011dd885f3b11304c7a51b843cdda1f27b7c23c9649a",
    "source": "pexels",
    "seed": 2192508157,
    "theme": "default",
@@ -5534,11 +5534,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "real-estate-brokerage-registration",
-   "generated_at": "2026-09-22T06:20:30.823Z",
+   "generated_at": "2026-10-21T07:02:12.704Z",
    "version": "1.4"
   },
   "zh/academy-establishment-registration": {
-   "hash": "91b7a65e7c5ad5b57590605be48dc73cb7a502071ca20042d395081b0572b5d0",
+   "hash": "4b5aad11cc8bbfc62859d280affb07359e7c86b033033d3023e96ba38a140559",
    "source": "pexels",
    "seed": 504664146,
    "theme": "default",
@@ -5550,11 +5550,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "academy-establishment-registration",
-   "generated_at": "2026-09-22T06:20:31.659Z",
+   "generated_at": "2026-10-21T07:02:13.486Z",
    "version": "1.4"
   },
   "zh/accommodation-business-report": {
-   "hash": "71ad8880090587255bb3b6615c072728eef1d84280abdeed008e1a9f00615495",
+   "hash": "de0ba88baba9507b9fb63d1875daa28549aadf0ea49aca8a7e674cb9ef014159",
    "source": "pexels",
    "seed": 393572827,
    "theme": "default",
@@ -5566,11 +5566,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "accommodation-business-report",
-   "generated_at": "2026-09-22T06:20:32.469Z",
+   "generated_at": "2026-10-21T07:02:14.241Z",
    "version": "1.4"
   },
   "zh/game-providing-business-permit": {
-   "hash": "fcc0798a75449045fd4a747329b989c2875a4ecb7ae77b278beafde8c711618e",
+   "hash": "0fe833c9637139386638a9bca58cf57a850ea9f017cfa0d1d351fc97b152b88c",
    "source": "pexels",
    "seed": 3728707314,
    "theme": "default",
@@ -5582,11 +5582,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "game-providing-business-permit",
-   "generated_at": "2026-09-22T06:20:33.237Z",
+   "generated_at": "2026-10-21T07:02:14.958Z",
    "version": "1.4"
   },
   "zh/karaoke-business-facility-report": {
-   "hash": "5dc0dbb59eea0255cc61413eb0b3ed783a41828c73744b56462d0dcdd870ea9b",
+   "hash": "a287b38777ce409b705171bd4aae0849dfc4290bd0773fcb9259b7eddecd3381",
    "source": "pexels",
    "seed": 2406733384,
    "theme": "default",
@@ -5598,11 +5598,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "karaoke-business-facility-report",
-   "generated_at": "2026-09-22T06:20:33.652Z",
+   "generated_at": "2026-10-21T07:02:15.362Z",
    "version": "1.4"
   },
   "zh/medical-device-import-permit": {
-   "hash": "ca6337a13b3d9a4ef3ae02a955bea09e4ad5df8dc2c372f5f72d78d9bb6a2040",
+   "hash": "23c558cc51d3d3210c1bc9957b4f2f95d83ae7135d2cacb11f5af523d9cb2f20",
    "source": "pexels",
    "seed": 4224435360,
    "theme": "default",
@@ -5614,11 +5614,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "medical-device-import-permit",
-   "generated_at": "2026-09-22T06:20:34.573Z",
+   "generated_at": "2026-10-21T07:02:16.227Z",
    "version": "1.4"
   },
   "zh/online-shopping-mall-notification": {
-   "hash": "14ca6f128f934677f242d7a77f564f4cb6c72ce92bdc4d36395335693556c3fe",
+   "hash": "4d86f88996656589ee9b0ec03c79401b4db0ed36e2b153626549f8b5fb6b8bfa",
    "source": "pexels",
    "seed": 2662746216,
    "theme": "default",
@@ -5630,11 +5630,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "online-shopping-mall-notification",
-   "generated_at": "2026-09-22T06:20:35.408Z",
+   "generated_at": "2026-10-21T07:02:17.007Z",
    "version": "1.4"
   },
   "zh/building-use-change-permit": {
-   "hash": "1a49cef32313a0b9690042ef3ab1c22fb3cd485af15fd1515238937fee9d8863",
+   "hash": "b2b6dd76d8668fbe809e241788f9d321adb7784c4c5885b5dfb1c21fea399055",
    "source": "pexels",
    "seed": 573653546,
    "theme": "default",
@@ -5646,11 +5646,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "building-use-change-permit",
-   "generated_at": "2026-09-22T06:20:36.221Z",
+   "generated_at": "2026-10-21T07:02:17.772Z",
    "version": "1.4"
   },
   "zh/fire-safety-contractor-registration": {
-   "hash": "bb1ea67d904840a82232c81db14aec7b910769d7c65e400fcc49d20598e8a9f4",
+   "hash": "6774c0ce0497b40a313e0bf4da8068570c42096ab5bf408a37038700a2d31956",
    "source": "pexels",
    "seed": 567835554,
    "theme": "default",
@@ -5662,11 +5662,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "fire-safety-contractor-registration",
-   "generated_at": "2026-09-22T06:20:37.003Z",
+   "generated_at": "2026-10-21T07:02:18.510Z",
    "version": "1.4"
   },
   "zh/rnd-service-business-registration": {
-   "hash": "c9ee0e637e644db2ffc0a8c37463a760d0274e62af2505e51239c4a5abe6960a",
+   "hash": "d7ef05eb0664755aec83602f58ec44ecc7d0e5fbb49026627f5efa77736d96ee",
    "source": "pexels",
    "seed": 2707859805,
    "theme": "default",
@@ -5678,11 +5678,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "rnd-service-business-registration",
-   "generated_at": "2026-09-22T06:20:37.812Z",
+   "generated_at": "2026-10-21T07:02:19.268Z",
    "version": "1.4"
   },
   "zh/real-estate-development-registration": {
-   "hash": "a7746bca7e1786195fc867147d4981678a8bc376bedb0d068b634280e30e9316",
+   "hash": "2db3e2001e191858c01dba30111fa98eda4529730fd6b253ff2bbdd40716eeb2",
    "source": "pexels",
    "seed": 802205640,
    "theme": "default",
@@ -5694,11 +5694,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "real-estate-development-registration",
-   "generated_at": "2026-09-22T06:20:38.309Z",
+   "generated_at": "2026-10-21T07:02:19.743Z",
    "version": "1.4"
   },
   "zh/pharmaceutical-wholesale-license": {
-   "hash": "d41976bf6978011f9e27d15e92ed90a5c535d832b80725fdba539a69c65c38a1",
+   "hash": "b0b659289e34f44b775c81dafaae7f6f42f5bebf683dcb6e430326b5833412e6",
    "source": "pexels",
    "seed": 926123733,
    "theme": "default",
@@ -5710,11 +5710,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "pharmaceutical-wholesale-license",
-   "generated_at": "2026-09-22T06:20:38.739Z",
+   "generated_at": "2026-10-21T07:02:20.159Z",
    "version": "1.4"
   },
   "zh/venture-startup-confirmation": {
-   "hash": "7fdb2380013a99aaa797f01ec5316fc4c2ffe57e03dad859f38b3de80e69b7e3",
+   "hash": "3f1a4f26ba43bfe952ed1922b92619609b3d687af282ecd54af782ae3b356774",
    "source": "pexels",
    "seed": 3229889032,
    "theme": "default",
@@ -5726,11 +5726,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "venture-startup-confirmation",
-   "generated_at": "2026-09-22T06:20:39.182Z",
+   "generated_at": "2026-10-21T07:02:20.582Z",
    "version": "1.4"
   },
   "zh/food-business-hygiene-permit": {
-   "hash": "8e9262b89e7fca026c6988ca541d58c4c34f17f53480383731797ab21a1196d3",
+   "hash": "f5ad2515a54d3a52b9804e1ca379e2c9c73ad7aa8dbdd31d2d072eb8733c7910",
    "source": "pexels",
    "seed": 448608699,
    "theme": "default",
@@ -5742,11 +5742,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "food-business-hygiene-permit",
-   "generated_at": "2026-09-22T06:20:39.607Z",
+   "generated_at": "2026-10-21T07:02:20.985Z",
    "version": "1.4"
   },
   "zh/cosmetics-manufacturing-permit": {
-   "hash": "249154cf9267b0f473a7b44614bb69a9914f856afff65f1d42acacb9884d91da",
+   "hash": "6f8b963d0de2fd15fabca6f40493f822ce4271138ddb5b8990a8aac713330eb8",
    "source": "pexels",
    "seed": 1790145565,
    "theme": "default",
@@ -5758,11 +5758,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "cosmetics-manufacturing-permit",
-   "generated_at": "2026-09-22T06:20:40.070Z",
+   "generated_at": "2026-10-21T07:02:21.436Z",
    "version": "1.4"
   },
   "zh/waste-collection-transport-permit": {
-   "hash": "6148494a629829b20b9b7208bc24cf6bee37cc8de0cf03b50197601a5517fc90",
+   "hash": "665ef68a951adf821d5bcb89f69de590c22a86f65cf91c2e41c3211a031108cb",
    "source": "pexels",
    "seed": 1100944023,
    "theme": "default",
@@ -5774,11 +5774,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "waste-collection-transport-permit",
-   "generated_at": "2026-09-22T06:20:40.934Z",
+   "generated_at": "2026-10-21T07:02:22.252Z",
    "version": "1.4"
   },
   "zh/hagwon-establishment-registration": {
-   "hash": "f6508f613977932106a3afc87c0a3bb1c3033fea27369293421f28b70a47f5e8",
+   "hash": "45d3f13e85158c2bd10f444cc195428e70d24f1f4064cd8aa87586d1a691a6bd",
    "source": "pexels",
    "seed": 896265756,
    "theme": "default",
@@ -5790,11 +5790,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "hagwon-establishment-registration",
-   "generated_at": "2026-09-22T06:20:41.337Z",
+   "generated_at": "2026-10-21T07:02:22.648Z",
    "version": "1.4"
   },
   "zh/rest-restaurant-notification": {
-   "hash": "13ac41170929e061967501ba78d2b07091ce7111a14ac5d5b2bde60714335464",
+   "hash": "d28a8eb2459f834e9b41ff92312b42cacf9d0bf1d5e20d3f3ba66b764e8e51d6",
    "source": "pexels",
    "seed": 1867673073,
    "theme": "default",
@@ -5806,11 +5806,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "rest-restaurant-notification",
-   "generated_at": "2026-09-22T06:20:41.769Z",
+   "generated_at": "2026-10-21T07:02:23.063Z",
    "version": "1.4"
   },
   "zh/accommodation-business-registration": {
-   "hash": "fd9c796913295cbeba039bc13f1e76ac18e94dc55b0fe19c5a1cb0f48a060c16",
+   "hash": "f246eca276d0714cc5cd931661e94ce95866e7c379ea917420e583954971b402",
    "source": "pexels",
    "seed": 2083336718,
    "theme": "default",
@@ -5822,11 +5822,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "accommodation-business-registration",
-   "generated_at": "2026-09-22T06:20:42.625Z",
+   "generated_at": "2026-10-21T07:02:23.862Z",
    "version": "1.4"
   },
   "ja/g2b-direct-production-renewal": {
-   "hash": "f9401123a4139f9d34f21995a811215f69acdca40797d7e398fa39df3cdf4ca9",
+   "hash": "1695dcae2656b470446d28f66cbb1e1595de0121a143fc4c5f27a4db79b478ae",
    "source": "pexels",
    "seed": 3604349695,
    "theme": "default",
@@ -5838,11 +5838,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "g2b-direct-production-renewal",
-   "generated_at": "2026-09-22T06:21:00.705Z",
+   "generated_at": "2026-10-21T07:02:24.631Z",
    "version": "1.4"
   },
   "ja/rnd-center-relocation-dissolution-guide": {
-   "hash": "6393d751752152b413be0cd62b888f336c0d750e14a469b236289f1559ddd8f7",
+   "hash": "802972f0f266944391c997a1552dfc23be5cdf38f01dc1aa56eba2d4434d280d",
    "source": "pexels",
    "seed": 530142009,
    "theme": "default",
@@ -5854,11 +5854,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "rnd-center-relocation-dissolution-guide",
-   "generated_at": "2026-09-22T06:21:03.042Z",
+   "generated_at": "2026-10-21T07:02:25.426Z",
    "version": "1.4"
   },
   "ja/liquor-sales-license": {
-   "hash": "67421f7180cc1ab071dcb5c1be45557e961b07dbeb83e35bb413f64d254c7ab2",
+   "hash": "2560a8155c5c6347f67fd3a20d661aaacc1546ba91e9904f9c21a49630bd4471",
    "source": "pexels",
    "seed": 218081572,
    "theme": "default",
@@ -5870,11 +5870,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "liquor-sales-license",
-   "generated_at": "2026-09-22T06:21:03.926Z",
+   "generated_at": "2026-10-21T07:02:26.238Z",
    "version": "1.4"
   },
   "ja/public-hygiene-business-permit": {
-   "hash": "3dd72c258e1c8bdc186563350dcb9cc684dff5f568c892ba02f89ca35de1393f",
+   "hash": "53add73ea28c05074672acb233de59f08e4383730b3ad35c2e3de0878dc7a9e9",
    "source": "pexels",
    "seed": 4028726361,
    "theme": "default",
@@ -5886,11 +5886,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "public-hygiene-business-permit",
-   "generated_at": "2026-09-22T06:21:07.597Z",
+   "generated_at": "2026-10-21T07:02:27.018Z",
    "version": "1.4"
   },
   "ja/karaoke-business-report": {
-   "hash": "be4ccea7e49a32acf9c7877472005fd35731fc41fe920285a4f205bd3481e6a5",
+   "hash": "c50205a34f3f3d17a565eb258901de59f3d8e9127ce1cdf03bd8b6b8998a3eca",
    "source": "pexels",
    "seed": 2305344676,
    "theme": "default",
@@ -5902,11 +5902,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "karaoke-business-report",
-   "generated_at": "2026-09-22T06:21:09.876Z",
+   "generated_at": "2026-10-21T07:02:27.785Z",
    "version": "1.4"
   },
   "ja/academy-establishment-registration": {
-   "hash": "d8036d4ee56c68bcec55489a2c1a8a673dbff8a1e080c27fb07f961e31f86c41",
+   "hash": "7318f13c577904b0d2258b1f4e50d8cff48e890096d7be89f34b6293dbc8cc66",
    "source": "pexels",
    "seed": 504664146,
    "theme": "default",
@@ -5918,11 +5918,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "academy-establishment-registration",
-   "generated_at": "2026-09-22T06:21:11.269Z",
+   "generated_at": "2026-10-21T07:02:28.559Z",
    "version": "1.4"
   },
   "ja/game-providing-business-permit": {
-   "hash": "604dda871f6b4f27232744c9e59c34944a9d18de840e9012bc61cca8135fcd72",
+   "hash": "dcb17f7115d9706f0b6d62b481aa302c5706494454100840be0393e5399d7f6b",
    "source": "pexels",
    "seed": 3728707314,
    "theme": "default",
@@ -5934,11 +5934,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "game-providing-business-permit",
-   "generated_at": "2026-09-22T06:21:12.646Z",
+   "generated_at": "2026-10-21T07:02:29.284Z",
    "version": "1.4"
   },
   "ja/karaoke-business-facility-report": {
-   "hash": "0ee7fa1ab39ec4456064e6e78493eee4d43fd2fe1bbc9761979097be269adf7f",
+   "hash": "0ce337e4613a8424eb2f89b16da653c9efd90f2653afd466ffcfca7cd90052f3",
    "source": "pexels",
    "seed": 2406733384,
    "theme": "default",
@@ -5950,11 +5950,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "karaoke-business-facility-report",
-   "generated_at": "2026-09-22T06:21:13.060Z",
+   "generated_at": "2026-10-21T07:02:29.687Z",
    "version": "1.4"
   },
   "ja/medical-device-import-permit": {
-   "hash": "163f84f435740347a6d990f0a522d5c644805d4e94292944ff26d1763b407b82",
+   "hash": "57f43a5145ac16c8febb537bed99e02343ed3cd81826acc599bb50eb837cde78",
    "source": "pexels",
    "seed": 4224435360,
    "theme": "default",
@@ -5966,11 +5966,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "medical-device-import-permit",
-   "generated_at": "2026-09-22T06:21:13.976Z",
+   "generated_at": "2026-10-21T07:02:30.554Z",
    "version": "1.4"
   },
   "ja/building-use-change-permit": {
-   "hash": "75406ad3c3fc09be6bba0ec16f08288ea8cf80783fa0f7d8cd2330af5983347d",
+   "hash": "5ef23360a61c4131f4d842c8c6e1b467daa64828066a3e767446ac6bc913807d",
    "source": "pexels",
    "seed": 573653546,
    "theme": "default",
@@ -5982,11 +5982,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "building-use-change-permit",
-   "generated_at": "2026-09-22T06:21:15.416Z",
+   "generated_at": "2026-10-21T07:02:31.316Z",
    "version": "1.4"
   },
   "ja/fire-safety-contractor-registration": {
-   "hash": "5382aac11554f34724845238cdd8a3623098d2ecd6fd11fa133651cfaa9087cb",
+   "hash": "ad86b197458804fab9e57210908ea7867d5e34a6285f1daebb5552421e5ef247",
    "source": "pexels",
    "seed": 567835554,
    "theme": "default",
@@ -5998,11 +5998,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "fire-safety-contractor-registration",
-   "generated_at": "2026-09-22T06:21:16.207Z",
+   "generated_at": "2026-10-21T07:02:32.054Z",
    "version": "1.4"
   },
   "ja/rnd-service-business-registration": {
-   "hash": "1c822630156a12f5a4152c608e2346bef118846a2328e5d3c5a97f26ad5b11bd",
+   "hash": "7a6c1616b8a92b5292b442ca2d9601c6a2ee982522bdace212163da670dfcd6f",
    "source": "pexels",
    "seed": 2707859805,
    "theme": "default",
@@ -6014,11 +6014,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "rnd-service-business-registration",
-   "generated_at": "2026-09-22T06:21:17.027Z",
+   "generated_at": "2026-10-21T07:02:32.811Z",
    "version": "1.4"
   },
   "ja/real-estate-development-registration": {
-   "hash": "4eb6bc10c3d3a34aa93cd6544ae9a29f1662a7bb7a593519bf26b36d6242b729",
+   "hash": "162abd7f3333b9cf40b563c3912397fd3044d03b574fe042e8c44f5b95990a8a",
    "source": "pexels",
    "seed": 802205640,
    "theme": "default",
@@ -6030,11 +6030,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "real-estate-development-registration",
-   "generated_at": "2026-09-22T06:21:17.536Z",
+   "generated_at": "2026-10-21T07:02:33.285Z",
    "version": "1.4"
   },
   "ja/pharmaceutical-wholesale-license": {
-   "hash": "8d2a6383a4cb356482da0db7f1c7778da14608665509b5bd63d550813157d32e",
+   "hash": "9f83b4c37a606a8c304c94f8e6f69bd207d773bdf40c07264ea735297a95a51b",
    "source": "pexels",
    "seed": 926123733,
    "theme": "default",
@@ -6046,11 +6046,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "pharmaceutical-wholesale-license",
-   "generated_at": "2026-09-22T06:21:18.025Z",
+   "generated_at": "2026-10-21T07:02:33.698Z",
    "version": "1.4"
   },
   "ja/venture-startup-confirmation": {
-   "hash": "8f6f4a35b2115e16f06eb1c13ce9a1f13556bfd58b2c426544f6deeaec65a79f",
+   "hash": "ff8d0d165fd414c5282e2c8d6e82e908e2a5882aaf53f43144b7d226637827b4",
    "source": "pexels",
    "seed": 3229889032,
    "theme": "default",
@@ -6062,11 +6062,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "venture-startup-confirmation",
-   "generated_at": "2026-09-22T06:21:18.488Z",
+   "generated_at": "2026-10-21T07:02:34.121Z",
    "version": "1.4"
   },
   "ja/food-business-hygiene-permit": {
-   "hash": "247cec6321c753dfaf6a29877c702f88dcf6ea697d29d76fe50b79ebc5a92c59",
+   "hash": "500d2341452c12261e3136e2e73bee3036cbe8e5021d7ae5af96cba726f0dd25",
    "source": "pexels",
    "seed": 448608699,
    "theme": "default",
@@ -6078,11 +6078,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "food-business-hygiene-permit",
-   "generated_at": "2026-09-22T06:21:18.972Z",
+   "generated_at": "2026-10-21T07:02:34.524Z",
    "version": "1.4"
   },
   "ja/cosmetics-manufacturing-permit": {
-   "hash": "c6b038a820486eb0615a072c886ebeff4565fec5f653d7a1660853198f1e9e78",
+   "hash": "a6507c4251103eeaad7f9aa28d31f1fe4d53a179fd377c05942e4c51eb498039",
    "source": "pexels",
    "seed": 1790145565,
    "theme": "default",
@@ -6094,11 +6094,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "cosmetics-manufacturing-permit",
-   "generated_at": "2026-09-22T06:21:19.501Z",
+   "generated_at": "2026-10-21T07:02:34.970Z",
    "version": "1.4"
   },
   "ja/waste-collection-transport-permit": {
-   "hash": "960009c15e4d2b2a2d076f13ab40ee5c80e979359d6e83746b1801bb15bba0d5",
+   "hash": "92c064ffd0334573807becf24880192c9c8b334504d9f4e3361688882d448caf",
    "source": "pexels",
    "seed": 1100944023,
    "theme": "default",
@@ -6110,11 +6110,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "waste-collection-transport-permit",
-   "generated_at": "2026-09-22T06:21:20.469Z",
+   "generated_at": "2026-10-21T07:02:35.783Z",
    "version": "1.4"
   },
   "ja/hagwon-establishment-registration": {
-   "hash": "0e4020bb6a0abfda238d43f7f5fd5e07ed2fbe325371350026e08043648b8376",
+   "hash": "60c51ecbfd43b55a0fbdec13f4e5b63705280f811b7f2418b53801ab502ee287",
    "source": "pexels",
    "seed": 896265756,
    "theme": "default",
@@ -6126,11 +6126,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "hagwon-establishment-registration",
-   "generated_at": "2026-09-22T06:21:20.922Z",
+   "generated_at": "2026-10-21T07:02:36.174Z",
    "version": "1.4"
   },
   "ja/rest-restaurant-notification": {
-   "hash": "b3789f8c6a6d9b15b52fdd0dc07ccd52b48f86a541d04df6c5306c67eaaae730",
+   "hash": "e018be867882f797df3ba5191c9f1f4601eb046003514b68fc4779320b814835",
    "source": "pexels",
    "seed": 1867673073,
    "theme": "default",
@@ -6142,11 +6142,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "rest-restaurant-notification",
-   "generated_at": "2026-09-22T06:21:21.378Z",
+   "generated_at": "2026-10-21T07:02:36.590Z",
    "version": "1.4"
   },
   "ja/accommodation-business-registration": {
-   "hash": "bc1e47c484bd522da5944517ca640e8ef6c4846d9abdf07f80d218ceeeac63dd",
+   "hash": "0016bff06a9754e40729bb6d5db313181365645ce6d4bc0218a194944b25f0fa",
    "source": "pexels",
    "seed": 2083336718,
    "theme": "default",
@@ -6158,7 +6158,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "accommodation-business-registration",
-   "generated_at": "2026-09-22T06:21:22.257Z",
+   "generated_at": "2026-10-21T07:02:37.388Z",
    "version": "1.4"
   },
   "ko/administrative-scrivener-scope-and-limits": {
