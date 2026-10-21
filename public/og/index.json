@@ -2946,7 +2946,7 @@
    "version": "1.4"
   },
   "zh/building-usage-change-guide": {
-   "hash": "9fa900b15846b0485f7396cc085673f15597c2c4b4d254ce00fcf602094f565e",
+   "hash": "f1a2245be7f9605cb082268fc7f661b6384d9c2a44415a52516396d94d5d31f6",
    "source": "pexels",
    "seed": 3441513182,
    "theme": "default",
@@ -2958,7 +2958,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "building-usage-change-guide",
-   "generated_at": "2026-09-22T06:17:36.732Z",
+   "generated_at": "2026-10-21T07:35:43.854Z",
    "version": "1.4"
   },
   "zh/food-manufacturing-license-guide": {
@@ -3218,7 +3218,7 @@
    "version": "1.4"
   },
   "zh/currency-exchange-aml-internal-control-guide": {
-   "hash": "2c8342f7270fa50ec4655e9237d9bfefa291db75fc006dc7e0951f497a567367",
+   "hash": "914813b875ca645943cdc71775d86b05021eaa7d7b0c065fef014a0009f9744f",
    "source": "pexels",
    "seed": 1346670691,
    "theme": "default",
@@ -3230,7 +3230,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "currency-exchange-aml-internal-control-guide",
-   "generated_at": "2026-09-22T06:17:47.680Z",
+   "generated_at": "2026-10-21T07:35:44.649Z",
    "version": "1.4"
   },
   "zh/haccp-post-certification-management-guide": {
@@ -3538,7 +3538,7 @@
    "version": "1.4"
   },
   "zh/postpartum-care-center-permit-guide": {
-   "hash": "45d36ac9a7259d938668ca519b768dd1b84b95a7a10ded1dce97c7499b3ad98a",
+   "hash": "94bf47cd033ff86cc3ec7f5e629f8a8c76e8cb7b139ba86969f46852fd4d9c35",
    "source": "pexels",
    "seed": 3075446255,
    "theme": "default",
@@ -3550,7 +3550,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "postpartum-care-center-permit-guide",
-   "generated_at": "2026-10-21T07:01:36.778Z",
+   "generated_at": "2026-10-21T07:35:45.083Z",
    "version": "1.4"
   },
   "zh/building-use-change-permit-guide": {
@@ -3586,7 +3586,7 @@
    "version": "1.4"
   },
   "zh/location-based-service-business-registration-foreign-company": {
-   "hash": "679f7900da82618ae0119b2e442967c1f0c753794714126d3706107082814592",
+   "hash": "31676a6eb681f748791c131d61a6f5ff39ac59316de173cc5b7df81c06c65a7b",
    "source": "pexels",
    "seed": 3673970464,
    "theme": "default",
@@ -3598,7 +3598,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "location-based-service-business-registration-foreign-company",
-   "generated_at": "2026-09-22T06:18:00.168Z",
+   "generated_at": "2026-10-21T07:35:45.850Z",
    "version": "1.4"
   },
   "zh/online-shop-communication-sales-registration-guide": {
@@ -3794,7 +3794,7 @@
    "version": "1.4"
   },
   "ja/building-usage-change-guide": {
-   "hash": "ee01313d2edda91069aff23c81ac35c30e5718ced2983b7d47e3875c4d6c674f",
+   "hash": "cce212efbecef6fd2bda201d30fd10a03c40b7ac6dd15f471a02d322025eaac6",
    "source": "pexels",
    "seed": 3441513182,
    "theme": "default",
@@ -3806,7 +3806,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "building-usage-change-guide",
-   "generated_at": "2026-09-22T06:18:08.304Z",
+   "generated_at": "2026-10-21T07:35:46.355Z",
    "version": "1.4"
   },
   "ja/food-manufacturing-license-guide": {
@@ -3858,7 +3858,7 @@
    "version": "1.4"
   },
   "ja/venture-innobiz-certification-guide": {
-   "hash": "21e7a23a824a7d49af1cc8538dc8c55247a8879265b45ae704b7139169584822",
+   "hash": "a8331034f63db113242f1df2c89987a7bfd65177f6f28900fdda8410f2386323",
    "source": "pexels",
    "seed": 3582492768,
    "theme": "default",
@@ -3870,11 +3870,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "venture-innobiz-certification-guide",
-   "generated_at": "2026-09-22T06:18:10.959Z",
+   "generated_at": "2026-10-21T07:35:47.132Z",
    "version": "1.4"
   },
   "ja/procurement-narajangteo-registration-guide": {
-   "hash": "fe9e210dd49c59adc3eb861f3c5f6675f76aed525eaafcc80c3ec28488b0f976",
+   "hash": "29a7692aff73fbcf19be9962dd30ae19ebeb5be0e6e9e8c183c6761a7432429e",
    "source": "pexels",
    "seed": 1591071707,
    "theme": "default",
@@ -3886,7 +3886,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "procurement-narajangteo-registration-guide",
-   "generated_at": "2026-09-22T06:18:11.420Z",
+   "generated_at": "2026-10-21T07:35:47.576Z",
    "version": "1.4"
   },
   "ja/urban-guesthouse-registration-guide": {
@@ -4050,7 +4050,7 @@
    "version": "1.4"
   },
   "ja/women-enterprise-renewal-management-guide": {
-   "hash": "2da0dc15eef9e5053ff73e58b52bd395c4f594da6faa1e1e5bbee3cd549a84e9",
+   "hash": "ff96286d2e516b0db7114a5e2d451d0c6153e9b2509bd7ea7afb047a1decc813",
    "source": "pexels",
    "seed": 672055883,
    "theme": "default",
@@ -4062,11 +4062,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "women-enterprise-renewal-management-guide",
-   "generated_at": "2026-09-22T06:18:18.566Z",
+   "generated_at": "2026-10-21T07:35:48.340Z",
    "version": "1.4"
   },
   "ja/currency-exchange-aml-internal-control-guide": {
-   "hash": "fec9547341d5fa966e55ec86dcb129db7b5f438bd872b3f2f45843aea9240897",
+   "hash": "4b1332ac5a0bd7656c66df4c6a57343a7bc33b47e7a562104c56b77049718b01",
    "source": "pexels",
    "seed": 1346670691,
    "theme": "default",
@@ -4078,7 +4078,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "currency-exchange-aml-internal-control-guide",
-   "generated_at": "2026-09-22T06:18:19.398Z",
+   "generated_at": "2026-10-21T07:35:49.125Z",
    "version": "1.4"
   },
   "ja/haccp-post-certification-management-guide": {
@@ -4114,7 +4114,7 @@
    "version": "1.4"
   },
   "ja/narajangteo-bidding-price-strategy-guide": {
-   "hash": "c1e73754fa87eb625135ab813e2ef17a8ba935d2d2843379b1852a1a5c1bf4cf",
+   "hash": "80f71279c4cd25f34bd30f7fc88bdbbf7602815500a1882e70dbf7e81d9c1c34",
    "source": "pexels",
    "seed": 3818049897,
    "theme": "default",
@@ -4126,11 +4126,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "narajangteo-bidding-price-strategy-guide",
-   "generated_at": "2026-09-22T06:18:21.140Z",
+   "generated_at": "2026-10-21T07:35:49.573Z",
    "version": "1.4"
   },
   "ja/corporate-research-lab-agency-risk-guide": {
-   "hash": "8650f1a4f244e16eadb2b3884c3382f52498456c39149b492dc2f5181d74287b",
+   "hash": "6f772d9cab38a059b2bd62fa667c22ff4c1e7df22ce24c2ac13cdfd604998f2c",
    "source": "pexels",
    "seed": 168427307,
    "theme": "default",
@@ -4142,7 +4142,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "corporate-research-lab-agency-risk-guide",
-   "generated_at": "2026-09-22T06:18:21.967Z",
+   "generated_at": "2026-10-21T07:35:50.345Z",
    "version": "1.4"
   },
   "ja/cosmetics-manufacturing-registration": {
@@ -4194,7 +4194,7 @@
    "version": "1.4"
   },
   "ja/freight-forwarder-capital-bond-requirements": {
-   "hash": "c6339f9dbfc3127757a2680bab947bf27357d5ab7636fc48d582267f64875364",
+   "hash": "22277c98bbae68dc304c38d79b2625919d055dfdeb9d9c3d8e65607333242e11",
    "source": "pexels",
    "seed": 3000809990,
    "theme": "default",
@@ -4206,11 +4206,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "freight-forwarder-capital-bond-requirements",
-   "generated_at": "2026-09-22T06:18:24.089Z",
+   "generated_at": "2026-10-21T07:35:50.797Z",
    "version": "1.4"
   },
   "ja/sports-club-establishment-guide": {
-   "hash": "15f41d2f7b95a7110258a162b594846faf9e22c4f0847ac45049a8f7a04c959d",
+   "hash": "7fb08cb1dc680e774963f876a6b85f45d4240e8f430887a385ad907924ad5383",
    "source": "pexels",
    "seed": 3996210023,
    "theme": "default",
@@ -4222,7 +4222,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "sports-club-establishment-guide",
-   "generated_at": "2026-09-22T06:18:24.550Z",
+   "generated_at": "2026-10-21T07:35:51.234Z",
    "version": "1.4"
   },
   "ja/manufacturing-business-registration-procedure": {
@@ -4258,7 +4258,7 @@
    "version": "1.4"
   },
   "ja/venture-tax-benefits": {
-   "hash": "89d4cdd8b98adc01a28b65b3b42ee1e0ef6d1e53ab1ccf44df0ece686cf5ae62",
+   "hash": "94569249d42d20eb03525a8272be2c768bb501470ed2f05744282f7effb4911d",
    "source": "pexels",
    "seed": 2330989004,
    "theme": "default",
@@ -4270,11 +4270,11 @@
    "visa": null,
    "lang": "ja",
    "slug": "venture-tax-benefits",
-   "generated_at": "2026-09-22T06:18:25.872Z",
+   "generated_at": "2026-10-21T07:35:51.671Z",
    "version": "1.4"
   },
   "ja/rnd-center-tax-credit": {
-   "hash": "bae8fcf2629e805ff6b4d0f09f19f39eb85d969efa69decd13aa10eb3dfb48a9",
+   "hash": "0cdafbe2f66b331091f988f9361e0619757ff2f138da38a9a929d1d86e3ea15a",
    "source": "pexels",
    "seed": 2857353196,
    "theme": "default",
@@ -4286,7 +4286,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "rnd-center-tax-credit",
-   "generated_at": "2026-09-22T06:18:26.622Z",
+   "generated_at": "2026-10-21T07:35:52.378Z",
    "version": "1.4"
   },
   "ja/cosmetics-responsible-distributor": {
@@ -4386,7 +4386,7 @@
    "version": "1.4"
   },
   "ja/postpartum-care-center-permit-guide": {
-   "hash": "e2ead95d2ba2d585abc26f3b87704b8643edc50c6f46e80713d2a7495fb22786",
+   "hash": "589ec6b1527fe8b067117bc051c6e3ffdec9e0783fa21d54bf8c2e8513cf6a0b",
    "source": "pexels",
    "seed": 3075446255,
    "theme": "default",
@@ -4398,7 +4398,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "postpartum-care-center-permit-guide",
-   "generated_at": "2026-10-21T07:01:37.293Z",
+   "generated_at": "2026-10-21T07:35:52.797Z",
    "version": "1.4"
   },
   "ja/building-use-change-permit-guide": {
@@ -4514,7 +4514,7 @@
    "version": "1.4"
   },
   "ja/pet-shop-animal-sales-registration-guide": {
-   "hash": "96db56164e7e3a7d44fbe0d56ca1a62291adc80f1efb7cb7b54f7d6a6ab72c4e",
+   "hash": "c0e40d5ea9df7db5ebf2e2e710e6bf9af7deeeaadd16fd8c2c38986e338f40e0",
    "source": "pexels",
    "seed": 2206112822,
    "theme": "default",
@@ -4526,7 +4526,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "pet-shop-animal-sales-registration-guide",
-   "generated_at": "2026-09-22T06:18:35.520Z",
+   "generated_at": "2026-10-21T07:35:53.255Z",
    "version": "1.4"
   },
   "ja/cosmetics-import-sales-registration-guide": {
