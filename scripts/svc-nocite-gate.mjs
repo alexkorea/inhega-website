@@ -16,6 +16,7 @@
  *   node scripts/svc-nocite-gate.mjs [.next/server/app]
  * 별지 서식 번호(별지 제41호의2서식)는 서식 이름이라 대상이 아니다. HTML 주석은 화면에 안 나오므로 뺀다.
  * 배포 보류 페이지(DEPLOY_HOLD_SLUGS, noindex)도 200 으로 열려 있으므로 같이 센다(건수는 따로 알린다).
+ * 단 SKIP 은 라이브에서 308 리디렉트라(SERVICE_REDIRECTS) 산출 HTML 이 화면에 나오지 않는 보류 페이지다.
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
@@ -27,6 +28,8 @@ const DIRS = [
   ['zh', join(APP, 'zh', 'services')],
   ['ja', join(APP, 'ja', 'services')],
 ]
+const SKIP = new Set(['services/mainbiz.html'])
+
 const RULES = {
   ko: [
     ['제N조', /제\s?\d+\s?조/g],
@@ -77,6 +80,7 @@ for (const [lang, dir] of DIRS) {
   let pages = 0
   let held = 0
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.html'))) {
+    if (lang === 'ko' && SKIP.has(`services/${f}`)) continue
     const raw = readFileSync(join(dir, f), 'utf8')
     pages++
     if (/<meta name="robots" content="noindex/.test(raw)) held++
