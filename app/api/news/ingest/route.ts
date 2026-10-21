@@ -12,7 +12,13 @@
  *   응답  {"ok":true,"upserted":N,"skipped":N,"total":N,"articles":N,
  *          "article_rejected":[{"doc_key":"...","reasons":["..."]}],
  *          "rejected":[{"doc_key":"...","reasons":["..."]}],
- *          "preserved":[{"doc_key":"...","fields":["title_ko"]}]}
+ *          "preserved":[{"doc_key":"...","fields":["title_ko"]}],
+ *          "date_held":[{"doc_key":"...","reasons":["..."]}]}
+ *
+ * 법제처(kr_law_go_kr) 항목은 저장 전에 law.go.kr 원문 `<시행일자>` 와 제목·본문의 시행일을
+ * 대조한다(lib/news-date-gate, QA1020-FIX). 불일치면 저장은 하되 **게시 보류**(목록·기사·
+ * 사이트맵 제외)하고 `date_held` 로 사유를 돌려준다 — 고쳐서 다시 보내면 재대조해 풀린다.
+ * 사람이 정정한 필드는 `_lock:["title_ko","article",…]` 으로 잠가 이후 재전송이 덮지 못하게 한다.
  *
  * upsert 기준은 doc_key. 같은 doc_key 를 다시 보내면 **payload 에 있는 키만**, 그중에서도
  * **값이 빈 키는 빼고** 덮어쓴다. 그래서 RW-03 이 요약 전체를 보내고, RW-04 가 나중에
@@ -29,7 +35,7 @@
  */
 import { NextRequest, NextResponse } from 'next/server'
 import { getCloudflareContext } from '@opennextjs/cloudflare'
-import { NEWS_MAX_BATCH, deleteNews, isListable, readAllNews, upsertNews } from '@/lib/news-data'
+import { NEWS_MAX_BATCH, deleteNews, isListable, readAllNews, runDateCheck, upsertNews } from '@/lib/news-data'
 
 export const dynamic = 'force-dynamic'
 
@@ -87,6 +93,9 @@ export async function POST(req: NextRequest) {
     }
     if (result.preserved.length) {
       console.warn('[news/ingest] 빈 값 수신 — 기존 값 유지', JSON.stringify(result.preserved))
+    }
+    if (result.date_held.length) {
+      console.warn('[news/ingest] 시행일 불일치 — 게시 보류', JSON.stringify(result.date_held))
     }
     return json({ ok: true, ...result }, 200)
   } catch (err) {
@@ -151,6 +160,18 @@ export async function GET(req: NextRequest) {
   if (req.nextUrl.searchParams.get('raw') !== '1') return json({ ok: true, ready: true }, 200)
 
   const all = await readAllNews()
+
+  // ?raw=1&datecheck=1 — 법제처 항목 전부를 지금 원문과 다시 대조한다(저장하지 않음).
+  // 워커에서 law.go.kr 이 읽히는지와 기존 글의 불일치를 쓰기 없이 확인하는 점검 경로.
+  if (req.nextUrl.searchParams.get('datecheck') === '1') {
+    const now = new Date().toISOString()
+    const results = []
+    for (const it of all.filter((x) => x.source_key === 'kr_law_go_kr')) {
+      results.push({ doc_key: it.doc_key, slug: it.slug, stored: it.date_check ?? null, live: await runDateCheck(it, now) })
+    }
+    return json({ ok: true, count: results.length, results }, 200)
+  }
+
   const onlyBroken = req.nextUrl.searchParams.get('broken') === '1'
   const items = (onlyBroken ? all.filter((it) => !isListable(it) || !it.url || !it.published_date) : all).map(
     ({ article, ...rest }) => ({ ...rest, has_article: !!article })

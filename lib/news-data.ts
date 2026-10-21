@@ -21,6 +21,8 @@ import {
   validateArticle,
   type NewsArticle,
 } from './news-article-schema'
+import { countryLabel, normalizeCountry } from './news-country'
+import { checkEffectiveDates, lawXmlUrl, mentionsEffectiveDate, parseLawXml } from './news-date-gate'
 
 export { hasArticle }
 export type { NewsArticle, NewsArticleFaq, NewsArticleSection } from './news-article-schema'
@@ -74,7 +76,29 @@ export type NewsItem = {
   updated_at: string
   /** 해설 기사. 요약만 게시된 항목은 null 이고, 나중에 부분 수신으로 채운다. */
   article: NewsArticle | null
+  /**
+   * 사람이 정정해 잠근 필드(`article` 포함). 수집기가 옛 값을 다시 보내도 덮어쓰지 않는다
+   * — QA1020-FIX 로 고친 시행일이 다음 RW-03/RW-04 재전송에 원복되지 않게 하려는 장치.
+   * 잠그는 길은 같은 토큰의 수신 payload `_lock:[...]` 뿐이다. 내용 비교(sameContent) 대상이 아니다.
+   */
+  locked_fields?: string[]
+  /** 법제처 항목의 시행일 대조 결과(news-date-gate). reasons·error 가 있으면 게시 보류. */
+  date_check?: DateCheck | null
 }
+
+export type DateCheck = {
+  checked_at: string
+  effective: string
+  promulgated: string
+  partial: string[]
+  reasons: string[]
+  /** 원문을 읽지 못한 사유. 시행 날짜가 적힌 글이면 보류한다. */
+  error?: string
+}
+
+/** 시행일 게이트에 걸려 게시 보류된 항목인지. */
+export const isHeld = (it: Pick<NewsItem, 'date_check'>) =>
+  !!it.date_check && (it.date_check.reasons.length > 0 || !!it.date_check.error)
 
 /** 원문 출처 표기용 기관명. 출처가 정부·기관 공식 자료임을 카드에 명시한다. */
 export const SOURCE_LABELS: Record<string, string> = {
@@ -173,6 +197,9 @@ const EMPTY_ITEM: Omit<NewsItem, 'doc_key' | 'slug' | 'ingested_at' | 'updated_a
 
 export type ArticleReject = { doc_key: string; reasons: string[] }
 
+/** `_lock` 으로 잠글 수 있는 필드 — 요약 필드와 기사. doc_key·slug·시각 필드는 잠그지 않는다. */
+const LOCKABLE = new Set([...Object.keys(EMPTY_ITEM)])
+
 /** 신규 항목이 갖춰야 하는 최소 필드. 하나라도 없으면 목록에 빈 카드가 된다. */
 export const REQUIRED_NEW_FIELDS = ['title_ko', 'url', 'published_date'] as const
 
@@ -221,9 +248,17 @@ export function mergeItem(
   const base = prev ?? { ...EMPTY_ITEM, doc_key, slug: '', ingested_at: now, updated_at: now }
 
   const preserved: string[] = []
+  const lockReq = Array.isArray(r._lock) ? r._lock.map((v) => str(v, 40)).filter((k) => LOCKABLE.has(k)) : []
+  const locked = new Set([...(prev?.locked_fields ?? []), ...lockReq])
+  /** 잠근 필드는 잠그는 그 수신(_lock 에 같이 실린 값)만 받고, 이후 수신은 무시한다. */
+  const lockedOut = (k: string) => locked.has(k) && !lockReq.includes(k) && has(k)
   /** 키가 없으면 기존 값, 있어도 정제 결과가 비면 기존 값(비어 있지 않을 때만 기록). */
   const pick = (k: string, parse: (v: unknown) => string, keep: string): string => {
     if (!has(k)) return keep
+    if (lockedOut(k)) {
+      if (parse(r[k]) !== keep) preserved.push(`locked:${k}`)
+      return keep
+    }
     const next = parse(r[k])
     if (next) return next
     if (keep) preserved.push(k)
@@ -231,7 +266,9 @@ export function mergeItem(
   }
 
   let article = base.article
-  if (has('article')) {
+  if (lockedOut('article')) {
+    preserved.push('locked:article')
+  } else if (has('article')) {
     if (r.article === null) {
       article = null
     } else {
@@ -258,7 +295,7 @@ export function mergeItem(
     doc_key,
     slug: resolveSlug(doc_key, has('slug') ? r.slug : '', prev, taken),
     source_key: pick('source_key', (v) => str(v, 60), base.source_key),
-    country: pick('country', (v) => str(v, 60), base.country),
+    country: pick('country', (v) => normalizeCountry(str(v, 60)), base.country),
     scope: pick('scope', (v) => oneOf(v, SCOPES), base.scope),
     title_ko: pick('title_ko', (v) => str(v, 300), base.title_ko),
     summary_ko: pick('summary_ko', (v) => str(v, 1200), base.summary_ko),
@@ -275,6 +312,8 @@ export function mergeItem(
     ingested_at: prev?.ingested_at || now,
     updated_at: base.updated_at || now,
     article,
+    ...(locked.size ? { locked_fields: [...locked].sort() } : {}),
+    ...(prev?.date_check ? { date_check: prev.date_check } : {}),
   }
 
   // 신규 항목만 필수 필드를 본다. 기존 항목은 부분 수신이 정상이고, 위 규칙 덕에
@@ -305,6 +344,8 @@ export function hydrateItem(raw: NewsItem): NewsItem {
     ...EMPTY_ITEM,
     ...raw,
     slug: raw.slug || slugify(raw.doc_key) || `news-${hash6(raw.doc_key || '')}`,
+    // 코드 통일 이전에 저장된 원문 국가명(ePing 'United States of America' 등)도 읽을 때 접는다.
+    country: normalizeCountry(raw.country || ''),
     article: raw.article ?? null,
     updated_at: raw.updated_at || raw.ingested_at || '',
   }
@@ -367,6 +408,55 @@ export type UpsertResult = {
   rejected: ItemReject[]
   /** 빈 값 덮어쓰기를 막고 기존 값을 지킨 필드. 보낸 쪽 버그 신호다. */
   preserved: FieldPreserve[]
+  /** 시행일 게이트에 걸려 게시 보류된 항목(저장은 됨, 목록·기사·사이트맵에서 빠짐). */
+  date_held: ItemReject[]
+}
+
+/* ────────────────────────── 시행일 게이트 ────────────────────────── */
+
+export type LawFetcher = (url: string) => Promise<string>
+
+/** law.go.kr lawService XML 을 읽는다. 10초 넘기면 끊는다(수신 1회에 법제처 항목은 하루 몇 건). */
+export const fetchLawXml: LawFetcher = async (url) => {
+  const ctl = new AbortController()
+  const timer = setTimeout(() => ctl.abort(), 10_000)
+  try {
+    const res = await fetch(url, {
+      signal: ctl.signal,
+      headers: { accept: 'application/xml,text/xml;q=0.9,*/*;q=0.1', 'user-agent': 'inhega-news-date-gate/1.0' },
+    })
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    return await res.text()
+  } finally {
+    clearTimeout(timer)
+  }
+}
+
+/**
+ * 법제처 항목의 시행일 대조(lib/news-date-gate). 다른 수집원은 null — 대조할 원문 시행일자가 없다.
+ * 원문을 못 읽었을 때는 글에 시행 날짜가 적혀 있을 때만 error 로 보류한다.
+ */
+export async function runDateCheck(item: NewsItem, now: string, fetchLaw: LawFetcher = fetchLawXml): Promise<DateCheck | null> {
+  if (item.source_key !== 'kr_law_go_kr') return null
+  const empty: DateCheck = { checked_at: now, effective: '', promulgated: '', partial: [], reasons: [] }
+  const failed = (error: string): DateCheck => (mentionsEffectiveDate(item) ? { ...empty, error } : empty)
+  const url = lawXmlUrl(item.url)
+  if (!url) return failed('원문 링크에 법제처 MST 가 없어 시행일자를 대조하지 못함')
+  let xml = ''
+  try {
+    xml = await fetchLaw(url)
+  } catch (err) {
+    return failed(`law.go.kr 조회 실패: ${String(err).slice(0, 120)}`)
+  }
+  const law = parseLawXml(xml)
+  if (!law) return failed('law.go.kr 응답에 시행일자가 없음')
+  return {
+    checked_at: now,
+    effective: law.effective,
+    promulgated: law.promulgated,
+    partial: law.partial,
+    reasons: checkEffectiveDates(item, law),
+  }
 }
 
 /**
@@ -385,7 +475,7 @@ function sameContent(a: NewsItem, b: NewsItem): boolean {
   return CONTENT_KEYS.every((k) => JSON.stringify(a[k] ?? null) === JSON.stringify(b[k] ?? null))
 }
 
-export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
+export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fetchLawXml): Promise<UpsertResult> {
   const kv = getNewsKv()
   if (!kv) throw new Error('NEWS_KV binding missing')
 
@@ -399,6 +489,9 @@ export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
   const article_rejected: ArticleReject[] = []
   const rejected: ItemReject[] = []
   const preserved: FieldPreserve[] = []
+  const date_held: ItemReject[] = []
+  /** 이번 수신으로 내용이 바뀌었거나 아직 대조한 적 없는 법제처 항목 — 루프 뒤에 원문과 대조한다. */
+  const toCheck: NewsItem[] = []
   let upserted = 0
   let skipped = 0
   let articles = 0
@@ -420,17 +513,30 @@ export async function upsertNews(rawItems: unknown[]): Promise<UpsertResult> {
     const { item } = outcome
     if (outcome.preserved.length) preserved.push({ doc_key: item.doc_key, fields: outcome.preserved })
     // 같은 내용을 다시 받으면 dateModified 를 올리지 않는다.
-    item.updated_at = prev && sameContent(prev, item) ? prev.updated_at || now : now
+    const same = !!prev && sameContent(prev, item)
+    item.updated_at = same ? prev!.updated_at || now : now
+    if (item.source_key === 'kr_law_go_kr' && (!same || !item.date_check)) toCheck.push(item)
     byKey.set(item.doc_key, item)
     taken.set(item.slug, item.doc_key)
     upserted++
     if (hasArticle(item.article)) articles++
   }
 
+  // 순차로 — 법제처에 동시 요청을 몰지 않는다(하루 몇 건).
+  for (const item of toCheck) {
+    item.date_check = await runDateCheck(item, now, fetchLaw)
+    if (item.date_check && isHeld(item)) {
+      date_held.push({
+        doc_key: item.doc_key,
+        reasons: item.date_check.error ? [item.date_check.error] : item.date_check.reasons,
+      })
+    }
+  }
+
   const merged = sortNews([...byKey.values()]).slice(0, NEWS_MAX_ITEMS)
   await kv.put(NEWS_LIST_KEY, JSON.stringify(merged))
 
-  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved }
+  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved, date_held }
 }
 
 /**
@@ -480,13 +586,13 @@ export const toCard = ({ article, ...rest }: NewsItem): NewsCard => ({
  * 경우까지 막을 수는 없다. 렌더 쪽에서 한 번 더 거른다. **저장소에서 지우지는 않는다**
  * — readAllNews 가 걸러 버리면 upsert 의 read-modify-write 가 그 항목을 통째로 날린다.
  */
-export const isListable = (it: NewsItem) => Boolean((it.title_ko || '').trim())
+export const isListable = (it: NewsItem) => Boolean((it.title_ko || '').trim()) && !isHeld(it)
 
 export const listableNews = (items: NewsItem[]) => items.filter(isListable)
 
 /** 기사가 붙어 색인 대상이 되는 항목만. 사이트맵·관련글에 쓴다. */
 export function articlesOf(items: NewsItem[]): NewsItem[] {
-  return items.filter((it) => it.slug && hasArticle(it.article))
+  return items.filter((it) => it.slug && hasArticle(it.article) && !isHeld(it))
 }
 
 /* ────────────────────────── 조회 ────────────────────────── */
@@ -503,11 +609,11 @@ export function filterNews(items: NewsItem[], query: NewsQuery): NewsItem[] {
   const q = (query.q || '').trim().toLowerCase()
   return items.filter((it) => {
     if (query.scope && it.scope !== query.scope) return false
-    if (query.country && it.country !== query.country) return false
+    if (query.country && it.country !== normalizeCountry(query.country)) return false
     if (query.product && it.product !== query.product) return false
     if (query.impact && it.impact !== query.impact) return false
     if (q) {
-      const hay = `${it.title_ko} ${it.summary_ko} ${it.product} ${it.country} ${it.stage}`.toLowerCase()
+      const hay = `${it.title_ko} ${it.summary_ko} ${it.product} ${it.country} ${countryLabel(it.country)} ${it.stage}`.toLowerCase()
       if (!hay.includes(q)) return false
     }
     return true

@@ -108,7 +108,7 @@ section('1. 사고 재현 — {doc_key, slug, article} 만 수신')
     { doc_key: SEED.doc_key, slug: 'us-food-labeling-rule', article: article('미국 식품 표시 규정, 무엇이 바뀌나') },
   ])
   const it = await one(SEED.doc_key)
-  eq(it.country, '미국', 'country 유지')
+  eq(it.country, 'US', 'country 유지(ISO 코드로 접힘)')
   eq(it.title_ko, SEED.title_ko, 'title_ko 유지')
   eq(it.summary_ko, SEED.summary_ko, 'summary_ko 유지')
   eq(it.url, SEED.url, 'url 유지')
@@ -123,7 +123,7 @@ section('2. 빈 문자열로 덮어쓰기 시도')
     { doc_key: SEED.doc_key, country: '', title_ko: '', summary_ko: '', url: '', published_date: '', product: '' },
   ])
   const it = await one(SEED.doc_key)
-  eq(it.country, '미국', 'country 유지')
+  eq(it.country, 'US', 'country 유지(ISO 코드로 접힘)')
   eq(it.title_ko, SEED.title_ko, 'title_ko 유지')
   eq(it.summary_ko, SEED.summary_ko, 'summary_ko 유지')
   eq(it.url, SEED.url, 'url 유지')
@@ -224,6 +224,61 @@ section('10. doc_key 없는 항목은 예전처럼 skipped')
   const r = await M.upsertNews([{ title_ko: '떠돌이', url: 'https://x.gov/2', published_date: '2026-09-23' }])
   eq(r.skipped, 1, 'skipped')
   eq(r.upserted, 0, 'upserted')
+}
+
+section('11. 국가 표기는 ISO 코드로 통일(QA1020-FIX 2)')
+{
+  await M.upsertNews([
+    { doc_key: 'TEST:c1', country: 'United States of America', title_ko: 'c1', url: 'https://x.gov/c1', published_date: '2026-10-01' },
+    { doc_key: 'TEST:c2', country: 'Korea, Republic of', title_ko: 'c2', url: 'https://x.gov/c2', published_date: '2026-10-01' },
+    { doc_key: 'TEST:c3', country: 'jp', title_ko: 'c3', url: 'https://x.gov/c3', published_date: '2026-10-01' },
+    { doc_key: 'TEST:c4', country: 'Atlantis', title_ko: 'c4', url: 'https://x.gov/c4', published_date: '2026-10-01' },
+  ])
+  eq((await one('TEST:c1')).country, 'US', 'United States of America')
+  eq((await one('TEST:c2')).country, 'KR', 'Korea, Republic of')
+  eq((await one('TEST:c3')).country, 'JP', '소문자 코드')
+  eq((await one('TEST:c4')).country, 'Atlantis', '모르는 이름은 원문 유지')
+  // 저장된 옛 원문 이름도 읽을 때 접힌다
+  eq(M.hydrateItem({ doc_key: 'L', country: 'Japan' }).country, 'JP', 'hydrateItem 이 옛 값 접기')
+  eq(M.filterNews(await read().then((a) => a.map(M.hydrateItem)), { country: 'United States of America' }).filter((x) => x.doc_key === 'TEST:c1').length, 1, '필터에 원문 이름을 줘도 코드로 매칭')
+}
+
+section('12. _lock 으로 잠근 필드는 재전송이 덮지 못한다')
+{
+  await M.upsertNews([{ doc_key: 'TEST:c1', title_ko: '정정 제목', _lock: ['title_ko'] }])
+  eq((await one('TEST:c1')).title_ko, '정정 제목', '잠그는 수신은 반영')
+  const r = await M.upsertNews([{ doc_key: 'TEST:c1', title_ko: '옛 제목', summary_ko: '요약은 잠그지 않음' }])
+  eq((await one('TEST:c1')).title_ko, '정정 제목', '이후 수신은 무시')
+  eq((await one('TEST:c1')).summary_ko, '요약은 잠그지 않음', '잠그지 않은 필드는 반영')
+  ok(JSON.stringify(r.preserved).includes('locked:title_ko'), 'preserved 에 locked:title_ko 보고', r.preserved)
+  await M.upsertNews([{ doc_key: 'TEST:c1', title_ko: '재정정', _lock: ['title_ko'] }])
+  eq((await one('TEST:c1')).title_ko, '재정정', '다시 _lock 을 실으면 갱신 가능')
+  await M.upsertNews([{ doc_key: 'TEST:c1', _lock: ['doc_key', 'slug'] }])
+  ok(!(await one('TEST:c1')).locked_fields.includes('slug'), 'doc_key·slug 는 잠글 수 없음')
+}
+
+section('13. 법제처 항목 시행일 게이트(QA1020-FIX 1) — 불일치면 게시 보류')
+{
+  const xml = (ef, pr, rule) =>
+    `<법령><기본정보><공포일자>${pr}</공포일자><시행일자>${ef}</시행일자></기본정보><부칙><부칙단위 부칙키="1"><부칙내용><![CDATA[부칙]]></부칙내용><부칙내용><![CDATA[제1조(시행일) ${rule}]]></부칙내용></부칙단위></부칙></법령>`
+  const LAW = xml('20271021', '20261020', '이 법은 공포 후 1년이 경과한 날부터 시행한다. 다만, 제18조제5항의 개정규정은 공포한 날부터 시행하고, 제56조의 개정규정은 2027년 12월 31일부터 시행한다.')
+  const fetchOk = async () => LAW
+  const base = { doc_key: 'KRLAW:1', source_key: 'kr_law_go_kr', url: 'https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=1&type=HTML', published_date: '2026-10-19', title_ko: '의료기기법 일부 개정' }
+  const wrong = { ...base, summary_ko: '의료기기법이 2026년 10월 20일부터 시행됩니다.', deadline: '2026-10-20' }
+  const r1 = await M.upsertNews([wrong], fetchOk)
+  eq(r1.date_held.length, 1, '불일치 → date_held 1건')
+  const held = M.hydrateItem(await one('KRLAW:1'))
+  ok(M.isHeld(held) && !M.isListable(held), '보류 항목은 목록에서 빠짐')
+  const right = { doc_key: 'KRLAW:1', summary_ko: '의료기기법 개정이 2026년 10월 20일 공포되어 2027년 10월 21일부터 시행됩니다. 다만 지출보고서 면제 규정은 공포한 날인 2026년 10월 20일부터 적용됩니다.', deadline: '2027-10-21' }
+  const r2 = await M.upsertNews([right], fetchOk)
+  eq(r2.date_held.length, 0, '정정 수신 → 재대조 통과')
+  ok(M.isListable(M.hydrateItem(await one('KRLAW:1'))), '보류 해제')
+  // 원문을 못 읽으면 시행 날짜가 적힌 글은 보류
+  const r3 = await M.upsertNews([{ ...base, doc_key: 'KRLAW:2', summary_ko: '2026년 10월 2일부터 시행됩니다.' }], async () => { throw new Error('timeout') })
+  eq(r3.date_held.length, 1, 'law.go.kr 실패 + 시행 날짜 있음 → 보류')
+  // 다른 수집원은 대조하지 않는다
+  const r4 = await M.upsertNews([{ doc_key: 'FR:x', source_key: 'us_federal_register', title_ko: 'x', url: 'https://fr.gov/x', published_date: '2026-10-01', summary_ko: '2026년 10월 20일부터 시행' }], async () => { throw new Error('호출되면 안 됨') })
+  eq(r4.date_held.length, 0, '연방관보 항목은 대조 대상 아님')
 }
 
 console.log(failed ? `\n✗ 실패 ${failed}건` : '\n✓ 전부 통과')

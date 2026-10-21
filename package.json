@@ -12,6 +12,7 @@
     "news:gate": "node scripts/news-gate.mjs",
     "news:og": "node scripts/news-og-sync.mjs",
     "news:merge-test": "node scripts/news-merge-test.mjs",
+    "news:date-gate": "node scripts/news-date-gate.mjs",
     "services:menu": "node scripts/build-services-menu.mjs",
     "font:subset": "python3 scripts/build-font-subset.py",
     "font:gate": "node scripts/font-gate.mjs",

@@ -14,6 +14,7 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import type { NewsCard } from '@/lib/news-data'
+import { countryLabel } from '@/lib/news-country'
 import { formatNewsDate, type NewsLocale, type NewsStrings } from '@/lib/i18n/news-i18n'
 import styles from '@/app/news.module.css'
 
@@ -53,11 +54,14 @@ export default function NewsBrowser({
     const uniq = (vals: string[]) =>
       [...new Set(vals.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ko'))
     return {
-      countries: uniq(items.map((i) => i.country)),
+      // 값은 ISO 코드(news-country), 정렬·표시는 현재 로케일의 국가명.
+      countries: [...new Set(items.map((i) => i.country).filter(Boolean))].sort((a, b) =>
+        countryLabel(a, locale).localeCompare(countryLabel(b, locale), locale)
+      ),
       products: uniq(items.map((i) => i.product)),
       impacts: (['상', '중', '하'] as const).filter((v) => items.some((i) => i.impact === v)),
     }
-  }, [items])
+  }, [items, locale])
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -67,7 +71,7 @@ export default function NewsBrowser({
       if (product && it.product !== product) return false
       if (impact && it.impact !== impact) return false
       if (q) {
-        const hay = `${it.title_ko} ${it.summary_ko} ${it.product} ${it.country} ${it.stage}`.toLowerCase()
+        const hay = `${it.title_ko} ${it.summary_ko} ${it.product} ${it.country} ${countryLabel(it.country, locale)} ${it.stage}`.toLowerCase()
         if (!hay.includes(q)) return false
       }
       return true
@@ -117,7 +121,7 @@ export default function NewsBrowser({
             >
               <option value="">{t.filterAll}</option>
               {facets.countries.map((c) => (
-                <option key={c} value={c}>{c}</option>
+                <option key={c} value={c}>{countryLabel(c, locale)}</option>
               ))}
             </select>
           </label>
@@ -183,7 +187,7 @@ export default function NewsBrowser({
               <article key={it.doc_key} className={styles.card}>
                 <div className={styles.cardTop}>
                   <span className={styles.date}>{formatNewsDate(it.published_date, locale)}</span>
-                  {it.country && <span className={`${styles.badge} ${styles.badgeCountry}`}>{it.country}</span>}
+                  {it.country && <span className={`${styles.badge} ${styles.badgeCountry}`}>{countryLabel(it.country, locale)}</span>}
                   {it.scope && (
                     <span className={`${styles.badge} ${styles.badgeScope}`}>
                       {t.scopeValues[it.scope] ?? it.scope}

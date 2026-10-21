@@ -14,7 +14,8 @@ import { publisherLogo } from '@/lib/org-jsonld'
 import Link from 'next/link'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import { notFound } from 'next/navigation'
-import { findNewsBySlug, hasArticle, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
+import { findNewsBySlug, hasArticle, isHeld, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
+import { countryLabel } from '@/lib/news-country'
 import {
   ORG_NAME,
   SITE,
@@ -36,6 +37,8 @@ export const dynamic = 'force-dynamic'
 async function getArticleItem(slug: string): Promise<NewsItem | null> {
   const item = await findNewsBySlug(slug)
   if (!item || !hasArticle(item.article)) return null
+  // 시행일 게이트(news-date-gate)에 걸린 항목은 게시 보류 — 원문과 다른 날짜를 내보내지 않는다.
+  if (isHeld(item)) return null
 
   // 수신단 정화가 붙기 전에 들어온 원고가 KV 에 남아 있다(모델 종료 토큰 `<|im_end|>`
   // 가 본문 끝에 찍혀 라이브에 노출된 적이 있다). 본문 블록은 parseInline 이 걷어내고,
@@ -178,12 +181,12 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
               <span>/</span>
               <Link href="/news">인허가 뉴스</Link>
               <span>/</span>
-              <span className={styles.breadcrumbCurrent}>{item.country || '규제 동향'}</span>
+              <span className={styles.breadcrumbCurrent}>{item.country ? countryLabel(item.country) : '규제 동향'}</span>
             </nav>
 
             <div className={styles.badges}>
               {item.scope && <span className={styles.badge}>{item.scope}</span>}
-              {item.country && <span className={styles.badge}>{item.country}</span>}
+              {item.country && <span className={styles.badge}>{countryLabel(item.country)}</span>}
               {item.product && <span className={styles.badge}>{item.product}</span>}
               {item.impact && <span className={styles.badge}>영향 {item.impact}</span>}
             </div>
@@ -214,7 +217,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
             <div className={styles.block}>
               <h2 className={styles.blockTitle}>규제 개요</h2>
               <div className={styles.metaList}>
-                {item.country && <span><span className={styles.metaKey}>국가</span>{item.country}</span>}
+                {item.country && <span><span className={styles.metaKey}>국가</span>{countryLabel(item.country)}</span>}
                 {sourceLabel && <span><span className={styles.metaKey}>발표 기관</span>{sourceLabel}</span>}
                 {item.stage && <span><span className={styles.metaKey}>단계</span>{item.stage}</span>}
                 <span>

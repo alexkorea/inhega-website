@@ -27,7 +27,7 @@ export type Block =
   | { kind: 'p'; inline: InlineToken[] }
   | { kind: 'quote'; inline: InlineToken[] }
   | { kind: 'ul'; items: InlineToken[][] }
-  | { kind: 'ol'; items: InlineToken[][] }
+  | { kind: 'ol'; items: InlineToken[][]; start?: number }
 
 /**
  * 이미 저장된 기사에도 건다 — 수신단 정화가 붙기 전에 들어온 원고가 KV 에 남아 있다.
@@ -67,7 +67,8 @@ export function parseBlock(raw: string): Block {
     return { kind: 'ul', items: lines.map((l) => parseInline(l.replace(/^[-*·]\s+/, ''))) }
   }
   if (lines.every((l) => /^\d+[.)]\s+/.test(l))) {
-    return { kind: 'ol', items: lines.map((l) => parseInline(l.replace(/^\d+[.)]\s+/, ''))) }
+    const start = parseInt(lines[0], 10)
+    return { kind: 'ol', items: lines.map((l) => parseInline(l.replace(/^\d+[.)]\s+/, ''))), start }
   }
 
   const joined = lines.join(' ')
@@ -81,7 +82,25 @@ export function parseBlock(raw: string): Block {
   return { kind: 'p', inline: parseInline(joined) }
 }
 
-export const parseBlocks = (blocks: string[]): Block[] => blocks.map(parseBlock)
+/**
+ * 블록 배열 → 구조. **이어지는 같은 종류의 목록은 하나로 합친다.**
+ *
+ * 모델은 번호 목록을 항목마다 빈 줄로 띄워 보내는 일이 잦다("1. …\n\n2. …").
+ * 블록마다 따로 <ol> 을 만들면 브라우저가 매번 1부터 세어 화면에 "1. 1." 이 찍힌다
+ * (QA1020 krlaw-291321 체크리스트). 합칠 때 첫 번호(start)는 원문 번호를 따른다.
+ */
+export function parseBlocks(blocks: string[]): Block[] {
+  const out: Block[] = []
+  for (const b of blocks.map(parseBlock)) {
+    const last = out[out.length - 1]
+    if (last && (last.kind === 'ol' || last.kind === 'ul') && last.kind === b.kind) {
+      last.items.push(...(b as typeof last).items)
+      continue
+    }
+    out.push(b.kind === 'ol' || b.kind === 'ul' ? { ...b, items: [...b.items] } : b)
+  }
+  return out
+}
 
 /** JSON-LD articleBody·설명문에 쓸 평문. 마크다운 기호를 걷어낸다. */
 export function toPlain(blocks: string[]): string {

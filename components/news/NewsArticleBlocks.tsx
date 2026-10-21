@@ -36,7 +36,7 @@ export default function NewsArticleBlocks({ blocks }: { blocks: Block[] }) {
             )
           case 'ol':
             return (
-              <ol key={i} className={styles.list}>
+              <ol key={i} className={styles.list} start={b.start && b.start !== 1 ? b.start : undefined}>
                 {b.items.map((it, j) => <li key={j}><Inline tokens={it} /></li>)}
               </ol>
             )
