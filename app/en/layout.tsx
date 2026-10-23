@@ -5,6 +5,7 @@ import FooterLang from '@/components/layout/FooterLang'
 import ScrollAnimationInit from '@/components/ui/ScrollAnimationInit'
 import Webfonts from '@/components/ui/Webfonts'
 import { organizationJsonLd } from '@/lib/org-jsonld'
+import { RSS_META } from '@/lib/rss-meta'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
@@ -48,6 +49,7 @@ export default function EnLayout({ children }: { children: React.ReactNode }) {
       {/* hreflang is emitted from Metadata.alternates.languages (per-page); do not hardcode here — it double-outputs. */}
       <head>
         <Webfonts />
+        <link rel="alternate" type="application/rss+xml" title={RSS_META.en.title} href={`https://inhega.co.kr${RSS_META.en.path}`} />
         {/* 0951 모바일 LCP: <head> 끝 인라인 스크립트는 스타일시트가 올 때까지 파서를 세운다.
             파서가 <body> 에 닿기 전엔 Chrome 이 Low 우선순위(Next JS 청크)를 미루므로
             CSS·임계 폰트·히어로가 대역을 먼저 쓰고 JS 는 첫 페인트 뒤에 실행된다. 빈 스크립트는
