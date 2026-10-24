@@ -18,7 +18,7 @@ export const POOL = [
   { key: 'urban-guesthouse',     kw: '외국인도시민박업등록',  service: 'urban-guesthouse',     slugStems: ['urban-guesthouse', 'foreigner-urban-homestay', 'foreigner-homestay'] },
   { key: 'hostel',               kw: '호스텔업등록',          service: 'hostel',               slugStems: ['hostel'] },
   { key: 'building-usage',       kw: '건축물용도변경',        service: 'building-usage',       slugStems: ['building-usage-change', 'building-use-change'] },
-  { key: 'food-manufacturing',   kw: '식품제조가공업허가',    service: 'food-manufacturing',   slugStems: ['food-manufacturing'] },
+  { key: 'food-manufacturing',   kw: '식품제조가공업등록',    service: 'food-manufacturing',   slugStems: ['food-manufacturing'] },
   { key: 'haccp',                kw: 'HACCP인증',             service: 'haccp',                slugStems: ['haccp'] },
   { key: 'venture-cert',         kw: '벤처기업인증',          service: 'venture-cert',         slugStems: ['venture'] },
   { key: 'innobiz',              kw: '이노비즈인증',          service: 'venture-cert',         slugStems: ['innobiz'] },

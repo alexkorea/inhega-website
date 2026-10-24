@@ -20,14 +20,21 @@ import { scanHtml } from '../nocite-gate.mjs'
 export const QUANT = {
   cluster: { ko: [1500, 2500], en: [1000, 1800], zh: [1200, 2200], ja: [1500, 2800] },
   pillar:  { ko: [3000, 4000], en: [2000, 2800], zh: [2500, 3500], ja: [3000, 4500] },
+  // INHEGA-BLOG-RESTART(2026-10-24 맥7, 보스 msg 3958 SEO 기준): 분량 1,800~3,000자·소제목 3~5.
+  // ko 는 글자 단위 — 공백 제외 ≥1,800 이고 공백 포함 ≤3,000(어느 쪽으로 세도 범위 안).
+  // en/zh/ja 는 ko 와 정보량을 맞춘 맥4 추정 범위(en 단어, zh·ja 공백 제외 글자) — 맥7 확정치가 오면 이 줄만 바꾼다.
+  seo3958: { ko: [1800, 3000], en: [550, 1100], zh: [1200, 2400], ja: [1600, 3200] },
 }
 export const UNIT = { ko: 'word', en: 'word', zh: 'cjk', ja: 'cjk' }
+const UNIT_3958 = { ko: 'char', en: 'word', zh: 'char', ja: 'char' }
 export const CJK_CHARS_PER_WORD = { zh: 1.6, ja: 1.8 }
 
 const stripTags = (html) =>
   html.replace(/<!--[\s\S]*?-->/g, '').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ')
 
 export const textLen = (html) => stripTags(html).replace(/\s+/g, '').length
+// 공백 포함 글자수(연속 공백은 1칸) — seo3958 ko 상한용
+export const textLenSpaced = (html) => stripTags(html).replace(/\s+/g, ' ').trim().length
 export const wordCount = (html) => stripTags(html).trim().split(/\s+/).filter(Boolean).length
 
 const norm = (s) => (s || '').replace(/\s+/g, '').replace(/[·•\-–—:,."'()「」『』]/g, '').toLowerCase()
@@ -49,7 +56,7 @@ const OUR_PRICE_RE = /(대행료|수수료는|상담료|착수금|보수액|서�
 export function gateArticle(entry, ctx) {
   const checks = []
   const add = (id, ok, detail) => checks.push({ id, ok: !!ok, detail })
-  const kind = entry.kind === 'pillar' ? 'pillar' : 'cluster'
+  const kind = entry.kind === 'pillar' ? 'pillar' : entry.kind === 'seo3958' ? 'seo3958' : 'cluster'
   const Q = QUANT[kind]
 
   // ── P. 주제 풀 ──────────────────────────────────────────────────────────────
@@ -84,6 +91,22 @@ export function gateArticle(entry, ctx) {
   // ── Q. 정량(제5장) ─────────────────────────────────────────────────────────
   const sizes = {}
   const raw = {}
+  if (kind === 'seo3958') {
+    for (const loc of ['ko', 'en', 'zh', 'ja']) {
+      const [min, max] = Q[loc]
+      const html = entry[loc]?.content || ''
+      if (UNIT_3958[loc] === 'word') {
+        const n = wordCount(html)
+        add(`Q1 ${loc} 분량 ${min}~${max}단어`, n >= min && n <= max, `${n}단어`)
+      } else if (loc === 'ko') {
+        const n = textLen(html), sp = textLenSpaced(html)
+        add(`Q1 ko 분량 공백제외 ≥${min}자·공백포함 ≤${max}자`, n >= min && sp <= max, `공백제외 ${n}자 / 공백포함 ${sp}자`)
+      } else {
+        const n = textLen(html)
+        add(`Q1 ${loc} 분량 ${min}~${max}자(공백 제외)`, n >= min && n <= max, `${n}자`)
+      }
+    }
+  } else {
   for (const loc of ['ko', 'en', 'zh', 'ja']) {
     raw[loc] = textLen(entry[loc]?.content || '')
     sizes[loc] = UNIT[loc] === 'word'
@@ -95,12 +118,14 @@ export function gateArticle(entry, ctx) {
     const detail = UNIT[loc] === 'word' ? `${sizes[loc]}단어` : `${sizes[loc]}단어(추정, ${raw[loc]}자)`
     add(`Q1 ${loc} 분량 ${min}~${max}단어`, sizes[loc] >= min && sizes[loc] <= max, detail)
   }
+  }
   const h2 = (entry.ko?.content.match(/<h2/g) || []).length
-  const [h2min, h2max] = kind === 'pillar' ? [7, 10] : [5, 7]
+  const [h2min, h2max] = kind === 'pillar' ? [7, 10] : kind === 'seo3958' ? [3, 5] : [5, 7]
   add(`Q2 KO H2 ${h2min}~${h2max}개`, h2 >= h2min && h2 <= h2max, `${h2}개`)
   add('Q3 H4 이하 없음', !/<h[4-6][\s>]/.test(entry.ko?.content || ''), 'ok')
   const faq = (entry.ko?.content.match(/faq-q/g) || []).length
-  add('Q4 FAQ 4~6개', faq >= 4 && faq <= 6, `${faq}개`)
+  const [fqmin, fqmax] = kind === 'seo3958' ? [3, 5] : [4, 6]
+  add(`Q4 FAQ ${fqmin}~${fqmax}개`, faq >= fqmin && faq <= fqmax, `${faq}개`)
   add('Q5 TOC 존재', /class="toc"/.test(entry.ko?.content || ''), 'ok')
   add('Q6 표 1개 이상', /<table/.test(entry.ko?.content || ''), 'ok')
   // Q7(법령인용 박스 1개 이상)은 NOCITE-ALL-4(보스 msg 3373·3377, 2026-10-17)로 폐지 — 근거·출처 박스를 요구하지 않는다.
@@ -171,6 +196,45 @@ export function gateArticle(entry, ctx) {
       .replace(/<!--[\s\S]*?-->/g, '')
     const hits = scanHtml(`<div>${html}</div>`)
     add(`N1 ${loc} 근거·출처·확인일 표시 0건`, hits.length === 0, hits.length ? `${hits.length}건: [${hits[0].rule}] …${hits[0].ctx}…` : 'ok')
+  }
+
+  // ── S. INHEGA-BLOG-RESTART(2026-10-24 맥7 지시, 보스 msg 3958·3373·3382) — seo3958 원고만 ─────────
+  if (kind === 'seo3958') {
+    const kw = String(entry.keyword || '').trim()
+    const t = entry.ko?.title || '', mt = entry.ko?.metaTitle || ''
+    // 제목 앞쪽 검색어: 대표 검색어가 제목·메타제목 맨 앞(앞 2자 이내)에서 시작
+    add('S1 대표 검색어가 제목·meta_title 앞쪽', !!kw && t.indexOf(kw) >= 0 && t.indexOf(kw) <= 2 && mt.indexOf(kw) >= 0 && mt.indexOf(kw) <= 2, `keyword=${kw} title@${t.indexOf(kw)} meta@${mt.indexOf(kw)}`)
+    for (const loc of ['ko', 'en', 'zh', 'ja']) {
+      const html = (entry[loc]?.content || '').replace(/<div class="toc">[\s\S]*?<\/div>/, '')
+      add(`S2 ${loc} 번호 목록(본문 ol) 1개 이상`, /<ol[\s>]/.test(html), 'ok')
+    }
+    // 화면에 조문 번호 0건(근거는 <!-- 근거: --> 주석에만) — 법령 이름은 허용
+    const ART_RE = /제\s*\d+\s*조(의\s*\d+)?|\bArticles?\s+\d+|第\s*\d+\s*条|別表|별표\s*\d|\bAnnex\s+\d|附表\s*\d/
+    for (const loc of ['ko', 'en', 'zh', 'ja']) {
+      const a = entry[loc] || {}
+      const vis = stripTags([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.content].filter(Boolean).join(' '))
+      const m = vis.match(ART_RE)
+      add(`S3 ${loc} 화면 조문·별표 번호 0건`, !m, m ? `…${vis.slice(Math.max(0, m.index - 30), m.index + 30)}…` : 'ok')
+    }
+    // 무료·가격·수수료 표현 0건(법정 금액 포함 — 이 원고 형식은 금액 자체를 싣지 않는다)
+    const FREE_RE = /무료|공짜|\bfree\b|免费|免費|無料|タダ/i
+    const FEE_RE = /수수료|대행료|상담료|비용은|견적|\bfees?\b|\bprices?\b|\bcosts?\b|费用|手续费|收费|料金|手数料|費用/i
+    for (const loc of ['ko', 'en', 'zh', 'ja']) {
+      const a = entry[loc] || {}
+      const vis = stripTags([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.content].filter(Boolean).join(' '))
+      const f = vis.match(FREE_RE), g = vis.match(FEE_RE), mo = vis.match(MONEY_RE)
+      add(`S4 ${loc} 무료·수수료·금액 표현 0건`, !f && !g && !mo, f || g || mo ? `「${(f || g || mo)[0]}」 …${vis.slice(Math.max(0, (f || g || mo).index - 30), (f || g || mo).index + 30)}…` : 'ok')
+    }
+    // 사무소 브랜드: 유선행정사사무소(대표 행정사 정유선)만 — 옛 브랜드·다른 사무소명 0건
+    const all = JSON.stringify(entry)
+    add('S5 브랜드 유선행정사사무소·정유선 표기', /유선행정사사무소/.test(entry.ko?.content || '') && /정유선/.test(entry.ko?.content || '') && !/비전행정사|이원중|Vision Administrative/i.test(all), 'ok')
+    // 허가/등록/신고 오기: 원고가 선언한 틀린 표현(wrongTerms) 4언어 0건
+    // wrongTerms 목록 자체는 검사 대상이 아니다 — 4언어 화면 필드만 본다
+    const shown = stripTags(['ko', 'en', 'zh', 'ja'].map((l) => { const a = entry[l] || {}; return [a.title, a.metaTitle, a.metaDescription, a.excerpt, a.category, a.content].join(' ') }).join(' '))
+    const wrong = (entry.wrongTerms || []).filter((w) => shown.includes(w))
+    add('S6 인허가 구분 오기(wrongTerms) 0건', Array.isArray(entry.wrongTerms) && wrong.length === 0, Array.isArray(entry.wrongTerms) ? (wrong.length ? `발견: ${wrong.join(', ')}` : `${entry.wrongTerms.length}개 검사`) : 'wrongTerms 미선언')
+    // 사진: 이 글 전용 Pexels 사진 ID 선언(중복 검사는 photo-check.mjs 가 og index·전 사이트 대조)
+    add('S7 전용 사진(pexelsId) 선언', Number.isInteger(entry.pexelsId) && entry.pexelsId > 0, `pexelsId=${entry.pexelsId}`)
   }
 
   const failed = checks.filter((c) => !c.ok)
