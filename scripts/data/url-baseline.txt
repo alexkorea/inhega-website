@@ -680,3 +680,7 @@
 /en/blog/license-scrivener-qualification-check
 /ja/blog/license-scrivener-qualification-check
 /zh/blog/license-scrivener-qualification-check
+/blog/cosmetics-distributor-change-registration
+/en/blog/cosmetics-distributor-change-registration
+/ja/blog/cosmetics-distributor-change-registration
+/zh/blog/cosmetics-distributor-change-registration
