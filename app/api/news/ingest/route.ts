@@ -13,12 +13,14 @@
  *          "article_rejected":[{"doc_key":"...","reasons":["..."]}],
  *          "rejected":[{"doc_key":"...","reasons":["..."]}],
  *          "preserved":[{"doc_key":"...","fields":["title_ko"]}],
- *          "date_held":[{"doc_key":"...","reasons":["..."]}]}
+ *          "date_held":[{"doc_key":"...","reasons":["..."]}],"date_warned":[{"doc_key":"...","reasons":["..."]}]}
  *
  * 법제처(kr_law_go_kr) 항목은 저장 전에 law.go.kr 원문 `<시행일자>` 와 제목·본문의 시행일을
  * 대조한다(lib/news-date-gate, QA1020-FIX). 불일치면 저장은 하되 **게시 보류**(목록·기사·
  * 사이트맵 제외)하고 `date_held` 로 사유를 돌려준다 — 고쳐서 다시 보내면 재대조해 풀린다.
  * 사람이 정정한 필드는 `_lock:["title_ko","article",…]` 으로 잠가 이후 재전송이 덮지 못하게 한다.
+ * 재수신(정정 재전송 포함)인데 원문을 못 읽으면 보류하지 않고 저장돼 있던 시행일자로 대조한 뒤
+ * `date_warned` 로 경고만 돌려준다(INHEGA-NEWS-HELD). 신규 수신의 조회 실패는 종전대로 보류.
  *
  * upsert 기준은 doc_key. 같은 doc_key 를 다시 보내면 **payload 에 있는 키만**, 그중에서도
  * **값이 빈 키는 빼고** 덮어쓴다. 그래서 RW-03 이 요약 전체를 보내고, RW-04 가 나중에
@@ -93,6 +95,9 @@ export async function POST(req: NextRequest) {
     }
     if (result.preserved.length) {
       console.warn('[news/ingest] 빈 값 수신 — 기존 값 유지', JSON.stringify(result.preserved))
+    }
+    if (result.date_warned.length) {
+      console.warn('[news/ingest] 원문 재조회 실패 — 저장된 시행일자로 대조(보류 안 함)', JSON.stringify(result.date_warned))
     }
     if (result.date_held.length) {
       console.warn('[news/ingest] 시행일 불일치 — 게시 보류', JSON.stringify(result.date_held))

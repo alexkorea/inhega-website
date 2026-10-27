@@ -24,6 +24,7 @@ import {
 import { countryLabel, normalizeCountry } from './news-country'
 import { checkEffectiveDates, lawXmlUrl, mentionsEffectiveDate, parseLawXml } from './news-date-gate'
 import { applyNewsCorrection } from './news-corrections'
+import { NEWS_LAW_DATES } from './news-date-verified'
 
 export { hasArticle }
 export type { NewsArticle, NewsArticleFaq, NewsArticleSection } from './news-article-schema'
@@ -95,6 +96,13 @@ export type DateCheck = {
   reasons: string[]
   /** 원문을 읽지 못한 사유. 시행 날짜가 적힌 글이면 보류한다. */
   error?: string
+  /** 법령명(`<법령명_한글>`). 원문을 못 읽은 재수신에서 저장된 날짜로 다시 대조할 때 쓴다. */
+  name?: string
+  /**
+   * 재수신 때 원문을 못 읽어 **저장돼 있던 시행일자로** 대조했다는 경고(INHEGA-NEWS-HELD).
+   * 보류 사유가 아니다 — error 와 달리 isHeld 가 보지 않는다.
+   */
+  warning?: string
 }
 
 /** 시행일 게이트에 걸려 게시 보류된 항목인지. */
@@ -385,7 +393,17 @@ export function getNewsKv(): NewsKv | null {
 
 /** 표시용 목록 — 저장 원본에 사람이 원문 대조로 정정한 값(lib/news-corrections)을 덮는다. */
 export async function readAllNews(): Promise<NewsItem[]> {
-  return (await readStoredNews()).map(applyNewsCorrection)
+  return (await readStoredNews()).map(applyNewsCorrection).map(applyKnownLawDates)
+}
+
+/**
+ * 원문 조회 실패(error)로 보류된 법제처 항목을 맥4 가 확인한 원문 날짜(lib/news-date-verified)로 다시 대조한다.
+ * 표시 경로에서만 — KV 는 바꾸지 않는다. 저장된 대조가 성공했거나 확인값이 없으면 그대로 둔다.
+ */
+function applyKnownLawDates(item: NewsItem): NewsItem {
+  const known = NEWS_LAW_DATES[item.doc_key]
+  if (!known || item.source_key !== 'kr_law_go_kr' || !item.date_check?.error) return item
+  return { ...item, date_check: recheckWithKnownDates(item, { ...known, checked_at: '2026-10-27T10:30:00.000Z' }, item.date_check.error) }
 }
 
 /** KV 저장 원본 그대로. 쓰기 경로(upsert·delete)는 이것을 읽어야 정정 레이어가 KV 로 새지 않는다. */
@@ -417,6 +435,8 @@ export type UpsertResult = {
   preserved: FieldPreserve[]
   /** 시행일 게이트에 걸려 게시 보류된 항목(저장은 됨, 목록·기사·사이트맵에서 빠짐). */
   date_held: ItemReject[]
+  /** 원문 재조회에 실패해 저장된 시행일자로 대조한 재수신 항목(보류 아님, 경고). */
+  date_warned: ItemReject[]
 }
 
 /* ────────────────────────── 시행일 게이트 ────────────────────────── */
@@ -449,20 +469,49 @@ export async function runDateCheck(item: NewsItem, now: string, fetchLaw: LawFet
   const failed = (error: string): DateCheck => (mentionsEffectiveDate(item) ? { ...empty, error } : empty)
   const url = lawXmlUrl(item.url)
   if (!url) return failed('원문 링크에 법제처 MST 가 없어 시행일자를 대조하지 못함')
-  let xml = ''
-  try {
-    xml = await fetchLaw(url)
-  } catch (err) {
-    return failed(`law.go.kr 조회 실패: ${String(err).slice(0, 120)}`)
+  // 원문 링크의 OC 가 워커 IP 로 등록돼 있지 않으면 law.go.kr 은 HTTP 200 + `<result>사용자 정보 검증에
+  // 실패하였습니다.</result>` 만 돌려준다(시행일자 없음). 링크의 OC 로 안 되면 공용 OC=test 로 한 번 더 읽는다.
+  const urls = [...new Set([url, url.replace(/([?&]OC=)[^&]*/, '$1test')])]
+  let law: ReturnType<typeof parseLawXml> = null
+  let lastError = ''
+  for (const u of urls) {
+    let xml = ''
+    try {
+      xml = await fetchLaw(u)
+    } catch (err) {
+      lastError = `law.go.kr 조회 실패: ${String(err).slice(0, 120)}`
+      continue
+    }
+    law = parseLawXml(xml)
+    if (law) break
+    const said = ((xml.match(/<result>\s*([^<]{1,80})/) || [])[1] || xml.replace(/\s+/g, ' ').slice(0, 80)).trim()
+    lastError = `law.go.kr 응답에 시행일자가 없음${said ? ` (${said})` : ''}`
   }
-  const law = parseLawXml(xml)
-  if (!law) return failed('law.go.kr 응답에 시행일자가 없음')
+  if (!law) return failed(lastError)
   return {
     checked_at: now,
     effective: law.effective,
     promulgated: law.promulgated,
     partial: law.partial,
+    name: law.name,
     reasons: checkEffectiveDates(item, law),
+  }
+}
+
+/**
+ * 원문을 못 읽었을 때 **이미 확인된 시행일자**(저장값·NEWS_LAW_DATES)로 글의 날짜를 다시 대조한다.
+ * 날짜가 어긋나면 reasons 로 보류되고, 맞으면 경고만 남긴다 — 조회 실패를 보류 사유로 삼지 않는다.
+ */
+export function recheckWithKnownDates(item: NewsItem, known: Pick<DateCheck, 'checked_at' | 'effective' | 'promulgated' | 'partial' | 'name'>, error: string): DateCheck {
+  const law = { effective: known.effective, promulgated: known.promulgated, partial: known.partial, rule: '', name: known.name || '' }
+  return {
+    checked_at: known.checked_at,
+    effective: known.effective,
+    promulgated: known.promulgated,
+    partial: known.partial,
+    ...(known.name ? { name: known.name } : {}),
+    reasons: checkEffectiveDates(item, law),
+    warning: `원문 재조회 실패 — 확인된 시행일자 ${known.effective}(${known.checked_at.slice(0, 10)}) 기준으로 대조: ${error}`,
   }
 }
 
@@ -497,8 +546,9 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
   const rejected: ItemReject[] = []
   const preserved: FieldPreserve[] = []
   const date_held: ItemReject[] = []
+  const date_warned: ItemReject[] = []
   /** 이번 수신으로 내용이 바뀌었거나 아직 대조한 적 없는 법제처 항목 — 루프 뒤에 원문과 대조한다. */
-  const toCheck: NewsItem[] = []
+  const toCheck: { item: NewsItem; prev: DateCheck | null }[] = []
   let upserted = 0
   let skipped = 0
   let articles = 0
@@ -522,7 +572,10 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
     // 같은 내용을 다시 받으면 dateModified 를 올리지 않는다.
     const same = !!prev && sameContent(prev, item)
     item.updated_at = same ? prev!.updated_at || now : now
-    if (item.source_key === 'kr_law_go_kr' && (!same || !item.date_check)) toCheck.push(item)
+    // 원문 조회 실패로 보류된 항목은 같은 내용이 다시 와도 재대조한다 — 그래야 재전송으로 풀린다.
+    if (item.source_key === 'kr_law_go_kr' && (!same || !item.date_check || !!item.date_check.error)) {
+      toCheck.push({ item, prev: prev?.date_check ?? null })
+    }
     byKey.set(item.doc_key, item)
     taken.set(item.slug, item.doc_key)
     upserted++
@@ -530,8 +583,16 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
   }
 
   // 순차로 — 법제처에 동시 요청을 몰지 않는다(하루 몇 건).
-  for (const item of toCheck) {
-    item.date_check = await runDateCheck(item, now, fetchLaw)
+  for (const { item, prev } of toCheck) {
+    const fresh = await runDateCheck(item, now, fetchLaw)
+    // 재수신(정정 포함)인데 원문을 못 읽었으면 — 저장된 대조가 시행일자를 갖고 있을 때 그 값을 유지하고 경고만 남긴다.
+    // 신규 수신이거나 저장된 시행일자가 없으면 종전 정책(시행 날짜가 적힌 글은 보류) 그대로다.
+    const verified = NEWS_LAW_DATES[item.doc_key]
+    const known = prev && !prev.error && prev.effective ? prev : verified && prev ? { ...verified, checked_at: '2026-10-27T10:30:00.000Z' } : null
+    item.date_check = fresh?.error && known ? recheckWithKnownDates(item, known, fresh.error) : fresh
+    if (item.date_check?.warning) {
+      date_warned.push({ doc_key: item.doc_key, reasons: [item.date_check.warning] })
+    }
     if (item.date_check && isHeld(item)) {
       date_held.push({
         doc_key: item.doc_key,
@@ -543,7 +604,7 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
   const merged = sortNews([...byKey.values()]).slice(0, NEWS_MAX_ITEMS)
   await kv.put(NEWS_LIST_KEY, JSON.stringify(merged))
 
-  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved, date_held }
+  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved, date_held, date_warned }
 }
 
 /**

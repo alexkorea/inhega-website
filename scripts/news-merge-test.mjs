@@ -281,5 +281,53 @@ section('13. 법제처 항목 시행일 게이트(QA1020-FIX 1) — 불일치면
   eq(r4.date_held.length, 0, '연방관보 항목은 대조 대상 아님')
 }
 
+section('14. 재수신 때 law.go.kr 조회 실패 — 저장된 시행일자 유지 + 경고(INHEGA-NEWS-HELD)')
+{
+  const LAW = `<법령><기본정보><공포일자>20261020</공포일자><시행일자>20261020</시행일자><법령명_한글><![CDATA[화장품법]]></법령명_한글></기본정보><부칙><부칙단위 부칙키="1"><부칙내용><![CDATA[이 법은 공포한 날부터 시행한다.]]></부칙내용></부칙단위></부칙></법령>`
+  const OC_FAIL = `<?xml version="1.0" encoding="UTF-8"?><Response><result>사용자 정보 검증에 실패하였습니다.</result><msg>OPEN API 호출 시 …</msg></Response>`
+  const base = { doc_key: 'KRLAW:9', source_key: 'kr_law_go_kr', url: 'https://www.law.go.kr/DRF/lawService.do?OC=mac3user&target=law&MST=9&type=HTML', published_date: '2026-10-20', title_ko: '화장품법 일부 개정', summary_ko: '화장품법 개정이 2026년 10월 20일부터 시행됩니다.' }
+  // 링크의 OC 가 거부되면 OC=test 로 다시 읽는다
+  const seen = []
+  const ocAware = async (u) => (seen.push(u), /OC=test/.test(u) ? LAW : OC_FAIL)
+  const r0 = await M.upsertNews([base], ocAware)
+  eq(r0.date_held.length, 0, 'OC 검증 실패 → OC=test 재조회로 통과')
+  eq(seen.length, 2, '링크 OC → test 순서로 2회 조회')
+  eq((await one('KRLAW:9')).date_check.effective, '2026-10-20', '시행일자 저장')
+  // 정정 재전송(_lock) 때 원문이 안 읽히면 — 보류하지 않고 저장값 유지
+  const r1 = await M.upsertNews([{ doc_key: 'KRLAW:9', summary_ko: '화장품법 개정 규정은 2026년 10월 20일부터 시행됩니다.', _lock: ['summary_ko'] }], async () => OC_FAIL)
+  eq(r1.date_held.length, 0, '재수신 + 조회 실패 → 보류 안 함')
+  eq(r1.date_warned.length, 1, 'date_warned 경고 1건')
+  const kept = M.hydrateItem(await one('KRLAW:9'))
+  eq(kept.date_check.effective, '2026-10-20', '저장된 시행일자 유지')
+  ok(M.isListable(kept) && !kept.date_check.error, '목록 유지', kept.date_check)
+  // 저장값과 어긋난 날짜로 정정하면 — 조회 실패여도 불일치로 보류(게이트는 살아 있다)
+  const r2 = await M.upsertNews([{ doc_key: 'KRLAW:9', summary_ko: '화장품법이 2026년 11월 1일부터 시행됩니다.', _lock: ['summary_ko'] }], async () => { throw new Error('timeout') })
+  eq(r2.date_held.length, 1, '저장값과 불일치 → 보류')
+  // 신규 수신의 조회 실패는 종전 정책(보류)
+  const r3 = await M.upsertNews([{ ...base, doc_key: 'KRLAW:10' }], async () => OC_FAIL)
+  eq(r3.date_held.length, 1, '신규 + 조회 실패 → 보류(종전 정책)')
+  ok(r3.date_held[0].reasons[0].includes('사용자 정보 검증에 실패'), '보류 사유에 law.go.kr <result> 문구', r3.date_held)
+  // 조회 실패로 보류된 항목은 같은 내용 재전송에도 재대조되어 풀린다
+  const r4 = await M.upsertNews([{ ...base, doc_key: 'KRLAW:10' }], async () => LAW)
+  eq(r4.date_held.length, 0, '조회 실패 보류 → 같은 내용 재전송으로 해제')
+}
+
+section('15. 조회 실패로 이미 보류된 KRLAW 10건 — 확인값(NEWS_LAW_DATES)으로 재대조')
+{
+  const held = { doc_key: 'KRLAW:291337', slug: 'krlaw-291337', source_key: 'kr_law_go_kr', url: 'https://www.law.go.kr/DRF/lawService.do?OC=x&target=law&MST=291337&type=HTML', published_date: '2026-10-20', title_ko: '화장품법 일부 개정', summary_ko: '화장품법 개정이 2026년 10월 20일부터 시행됩니다.',
+    date_check: { checked_at: '2026-10-27T09:00:00.000Z', effective: '', promulgated: '', partial: [], reasons: [], error: 'law.go.kr 응답에 시행일자가 없음' } }
+  const wrongDate = { ...held, doc_key: 'KRLAW:291321', slug: 'krlaw-291321', title_ko: '의료기기법 일부 개정', summary_ko: '의료기기법이 2026년 10월 20일부터 시행됩니다.' }
+  store.set(M.NEWS_LIST_KEY, JSON.stringify([...(await read()), held, wrongDate]))
+  ok(M.isHeld(M.hydrateItem(await one('KRLAW:291337'))), 'KV 원본은 보류 상태(재현)')
+  const shown = await M.readAllNews()
+  ok(M.isListable(shown.find((x) => x.doc_key === 'KRLAW:291337')), '표시 경로: 확인값과 맞으면 목록 복귀')
+  ok(!M.isListable(shown.find((x) => x.doc_key === 'KRLAW:291321')), '표시 경로: 확인값과 어긋나면 계속 보류')
+  ok(!!(await M.findNewsBySlug('krlaw-291337')), '상세 조회 가능')
+  // 같은 내용을 다시 보내면(조회 또 실패) KV 에도 확인값 기준 대조가 저장된다
+  const r = await M.upsertNews([{ doc_key: 'KRLAW:291337', title_ko: held.title_ko }], async () => { throw new Error('timeout') })
+  eq(r.date_held.length, 0, '재전송 + 조회 실패 → 확인값으로 보류 해제')
+  eq((await one('KRLAW:291337')).date_check.effective, '2026-10-20', 'KV 에 시행일자 복원')
+}
+
 console.log(failed ? `\n✗ 실패 ${failed}건` : '\n✓ 전부 통과')
 process.exit(failed ? 1 : 0)
