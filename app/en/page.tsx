@@ -8,7 +8,7 @@ import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
 const HOME_TITLE = 'Licensing Specialist Administrative Agent — Korean Permit Procedures & Documents | YouSun Administrative Agency'
-const HOME_DESC = 'Korea\'s #1 business licensing specialist for foreign companies and individuals. We handle all Korean government permits — freight forwarding, currency exchange, cosmetics, food, and more.'
+const HOME_DESC = 'Business licensing specialist for foreign companies and individuals in Korea. We handle all Korean government permits — freight forwarding, currency exchange, cosmetics, food, and more.'
 
 export const metadata: Metadata = {
   // INH-LAYOUT(10-05, 보스 msg 2273): ko 홈 '인허가 전문 행정사 — 인허가 절차·서류' 와 같은 뜻. og·twitter 도 같은 문구.

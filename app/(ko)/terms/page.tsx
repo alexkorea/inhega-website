@@ -1,7 +1,23 @@
 export const metadata = {
   title: '이용약관 | 유선행정사사무소',
+  description: '유선행정사사무소 홈페이지와 인허가 행정 대행 서비스의 이용약관입니다. 서비스 내용, 상담·견적 신청 등 이용 조건, 면책 사항, 준거법과 관할 법원을 안내합니다.',
   alternates: {
     canonical: 'https://inhega.co.kr/terms',
+  },
+  openGraph: {
+    title: '이용약관 | 유선행정사사무소',
+    description: '유선행정사사무소 홈페이지와 인허가 행정 대행 서비스의 이용약관입니다. 서비스 내용, 상담·견적 신청 등 이용 조건, 면책 사항, 준거법과 관할 법원을 안내합니다.',
+    url: 'https://inhega.co.kr/terms',
+    siteName: '유선행정사사무소',
+    locale: 'ko_KR',
+    type: 'website',
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '인허가 행정사 유선행정사사무소' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '이용약관 | 유선행정사사무소',
+    description: '유선행정사사무소 홈페이지와 인허가 행정 대행 서비스의 이용약관입니다. 서비스 내용, 상담·견적 신청 등 이용 조건, 면책 사항, 준거법과 관할 법원을 안내합니다.',
+    images: ['/images/hero-seoul.png'],
   },
 }
 

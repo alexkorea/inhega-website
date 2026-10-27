@@ -52,7 +52,7 @@ export const metadata = {
 }
 
 const stats = [
-  { value: '24h', label: '평균 응답 시간' },
+  { value: '09:30–17:30', label: '평일 상담시간' },
 ]
 
 const process = [

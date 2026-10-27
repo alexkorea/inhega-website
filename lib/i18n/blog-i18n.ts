@@ -1039,83 +1039,86 @@ const blogData: BlogI18n[] = [
   {
     slug: 'tobacco-import-sales-guide',
     locale: 'en',
-    title: 'Tobacco Import and Sales License in Korea — 2026 Complete Guide',
-    metaTitle: 'Korea Tobacco Import License 2026 — Requirements & Application',
-    metaDescription: 'How to obtain a tobacco import and sales license in Korea. Capital requirements, facility standards, Ministry of Finance application process. Free consultation.',
+    title: 'Tobacco Import and Sales Registration in Korea — 2026 Complete Guide',
+    metaTitle: 'Korea Tobacco Import Registration 2026 — Requirements & Application',
+    metaDescription: 'Register a tobacco import and sales business in Korea with the Mayor or Do Governor: supply contract, disqualifications and duties. Free consultation.',
     category: 'Logistics/Distribution',
-    excerpt: 'A complete guide to obtaining a tobacco import and sales business license in Korea — capital requirements, facility standards, and the Ministry of Finance application process.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Tobacco Import Licensing</li><li>Eligibility Requirements</li><li>Capital and Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-License Obligations</li><li>FAQ</li></ol></div>
-<h2>1. Overview of Tobacco Import Licensing</h2>
-<p>Importing and selling foreign tobacco products in Korea requires a <strong>tobacco import and sales business license (담배수입판매업 허가)</strong> from the <strong>Ministry of Economy and Finance</strong> under the Tobacco Business Act. This is a highly regulated business with strict capital and facility requirements.</p>
+    excerpt: 'A guide to tobacco import and sales business registration in Korea — filed with the Mayor or Do Governor of the head office location, with a supply contract with a foreign manufacturer as the key requirement.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Tobacco Import Registration</li><li>Eligibility Requirements</li><li>Capital and Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Obligations</li><li>FAQ</li></ol></div>
+<h2>1. Overview of Tobacco Import Registration</h2>
+<p>Importing foreign-made tobacco and selling it in Korea requires <strong>tobacco import and sales business registration (담배수입판매업 등록)</strong> under the Tobacco Business Act. The registration is filed with the <strong>Mayor or Do Governor</strong> (Special City Mayor, Metropolitan City Mayor, Special Self-Governing City Mayor, Do Governor or Special Self-Governing Province Governor) having jurisdiction over the head office or principal office — not with a central ministry. A license from the Minister of Economy and Finance is required only for tobacco manufacturing.</p>
+<p>Operating a tobacco import and sales business without registration is punishable by imprisonment of up to 6 months or a fine of up to KRW 5 million. Within 7 days of registration, the Mayor or Do Governor notifies the Minister of Economy and Finance, the Commissioner of the Korea Customs Service and other relevant authorities.</p>
 <h2>2. Eligibility Requirements</h2>
-<ul><li>Must be a corporation (individual proprietors not eligible)</li><li>No disqualifying criminal convictions for directors</li><li>Must have a designated import warehouse</li></ul>
+<ul><li>A tobacco supply contract concluded with a foreign tobacco manufacturer</li><li>No disqualification grounds: minors, persons under adult or limited guardianship, undischarged bankrupts, persons within 1 year after completing or being exempted from a prison sentence for violating the Tobacco Business Act, persons serving a suspended prison sentence for such a violation, persons whose registration was revoked less than 2 years ago, and corporations whose representative falls under any of these</li><li>Both corporations and individual business owners may register</li></ul>
 <h2>3. Capital and Facility Requirements</h2>
-<ul><li><strong>Paid-in capital:</strong> KRW 500 million or more</li><li>Bonded warehouse or storage facility for imported goods</li><li>Tobacco testing and quality control capability</li></ul>
+<p>There is <strong>no minimum capital or warehouse requirement</strong> for tobacco import and sales registration. Capital, facility and technical staff standards apply to a tobacco manufacturing license, and a storage facility requirement applies to tobacco wholesale registration.</p>
 <h2>4. Required Documents</h2>
-<ul><li>License application form</li><li>Corporate registry extract</li><li>Business plan including marketing and distribution strategy</li><li>Proof of capital (bank certificate)</li><li>Warehouse lease or ownership documents</li><li>Sample product information and country of origin documentation</li></ul>
+<ul><li>Application for tobacco import and sales business registration (Form No. 7 of the Enforcement Rule)</li><li>One copy of the tobacco supply contract concluded with a foreign tobacco manufacturer</li></ul>
 <h2>5. Application Procedure</h2>
-<ol><li>Pre-consultation with Ministry of Economy and Finance tobacco division</li><li>Prepare business plan and financial documentation</li><li>Submit formal application</li><li>Review and site inspection</li><li>License issuance (approx. 30–60 business days)</li></ol>
-<h2>6. Post-License Obligations</h2>
-<ul><li>Submit quarterly sales and inventory reports</li><li>Comply with tobacco warning label requirements</li><li>Pay tobacco excise tax on imports</li><li>Adhere to advertising restrictions</li></ul>
+<ol><li>Confirm the business type and check for disqualification grounds</li><li>Conclude a supply contract with a foreign tobacco manufacturer</li><li>File the application with the Mayor or Do Governor of the head office location</li><li>Review of the requirement and disqualification grounds</li><li>Issuance of the registration certificate</li><li>Notification to the Minister of Economy and Finance, the Korea Customs Service and others within 7 days</li></ol>
+<h2>6. Post-Registration Obligations</h2>
+<ul><li>Change registration when the corporate name or representative, the head office location or the tobacco supplier changes</li><li>Report the retail price of each product to the Mayor or Do Governor at least 6 days before sales begin, and publish it</li><li>Display health warning text and warning images on packs, and indicate main ingredients and their content</li><li>Request ingredient testing of products on sale every quarter, within 1 month from the start of the quarter</li><li>Sell only to registered wholesalers or designated retailers, and observe advertising restrictions</li><li>Tobacco is subject to customs duty, tobacco consumption tax, individual consumption tax, the National Health Promotion Charge and VAT — confirm amounts with a tax professional</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. Can a foreign company import tobacco to Korea?</p><p class="faq-a">A. Yes, through a Korean subsidiary or joint venture that meets all licensing requirements.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Is e-cigarette liquid covered by this license?</p><p class="faq-a">A. No. Liquid nicotine (e-cigarette) products require a separate license. See our e-cigarette import guide.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can a foreign company import tobacco to Korea?</p><p class="faq-a">A. The Tobacco Business Act sets no nationality requirement; registration depends on the supply contract requirement and the disqualification grounds. Because registration is filed with the Mayor or Do Governor of the head office or principal office location, a business base in Korea is needed.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is e-cigarette liquid covered by this registration?</p><p class="faq-a">A. Yes, if it is made from nicotine. Tobacco is defined as a product made from tobacco or nicotine, so nicotine e-liquids and heated tobacco products are imported under the same tobacco import and sales registration. See our e-cigarette import guide.</p></div>
 </div>
-<div class="cta-box"><h3>Apply for Your Tobacco Import License</h3><p>YouSun Administrative Agency specializes in regulated business licensing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Apply for Your Tobacco Import Registration</h3><p>YouSun Administrative Agency specializes in regulated business licensing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'tobacco-import-sales-guide',
     locale: 'zh',
-    title: '韩国烟草进口销售业许可指南2026',
-    metaTitle: '韩国烟草进口许可2026 — 申请条件与流程',
-    metaDescription: '在韩国申请烟草进口销售业许可的完整指南，包括资本金要求、设施标准及财政部申请流程。专业行政士免费初次咨询。本文依次说明烟草进口许可概述、申请资格、资本金与设施要求、所需材料，可按步骤逐项确认。',
+    title: '韩国烟草进口销售业注册指南2026',
+    metaTitle: '韩国烟草进口注册2026 — 申请条件与流程',
+    metaDescription: '在韩国从事烟草进口销售业，须向本店或主要事务所所在地管辖的市·道知事办理注册。注册要件为与外国烟草制造商签订供货合同，无资本金要求，另说明不予注册事由、所需材料及注册后义务。专业行政士免费初次咨询。',
     category: '物流/流通',
-    excerpt: '韩国烟草进口销售业许可申请完整指南，涵盖资本金要求、设施标准及财政部申请流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>烟草进口许可概述</li><li>申请资格</li><li>资本金与设施要求</li><li>所需材料</li><li>申请流程</li><li>许可后义务</li><li>常见问题</li></ol></div>
-<h2>1. 烟草进口许可概述</h2>
-<p>在韩国进口和销售外国烟草产品，须依据《烟草事业法》向<strong>企划财政部</strong>申请<strong>烟草进口销售业许可</strong>。这是一项受到严格监管的业务，对资本金和设施有严格要求。</p>
+    excerpt: '韩国烟草进口销售业注册完整指南：向本店所在地管辖的市·道知事注册，核心要件为与外国烟草制造商签订供货合同。',
+    content: `<div class="toc"><p>目录</p><ol><li>烟草进口注册概述</li><li>申请资格</li><li>资本金与设施要求</li><li>所需材料</li><li>申请流程</li><li>注册后义务</li><li>常见问题</li></ol></div>
+<h2>1. 烟草进口注册概述</h2>
+<p>在韩国进口外国烟草并进行销售，须依据《烟草事业法》办理<strong>烟草进口销售业注册（담배수입판매업 등록）</strong>。注册机关是本店或主要事务所所在地管辖的<strong>市·道知事</strong>（特别市长、广域市长、特别自治市长、道知事或特别自治道知事），而不是中央部委。需要取得财政经济部长官许可的仅是烟草制造业。</p>
+<p>未经注册经营烟草进口销售业的，可处6个月以下有期徒刑或500万韩元以下罚金。市·道知事应自注册之日起7日内，将注册内容通报财政经济部长官、关税厅厅长等相关机关。</p>
 <h2>2. 申请资格</h2>
-<ul><li>须为法人（个人经营者不适用）</li><li>董事无刑事资格限制</li><li>须拥有指定进口仓库</li></ul>
+<ul><li>与外国烟草制造商签订烟草供货合同</li><li>不属于不予注册事由：未成年人、被成年监护人或被限定监护人；受破产宣告尚未复权者；因违反《烟草事业法》被判处有期徒刑实刑，自执行完毕或免除执行之日起未满1年者；因违反该法被判处缓刑且仍在缓刑期内者；注册被撤销后未满2年者；代表人属于上述情形之一的法人</li><li>法人和个人经营者均可申请</li></ul>
 <h2>3. 资本金与设施要求</h2>
-<ul><li><strong>注册资本金：</strong>5亿韩元以上</li><li>保税仓库或进口商品储存设施</li><li>烟草检测及质量控制能力</li></ul>
+<p>烟草进口销售业注册<strong>没有资本金或仓库设施要求</strong>。资本金、设施及技术人员标准适用于烟草制造业许可，烟草保管设施要求适用于烟草批发业注册。</p>
 <h2>4. 所需材料</h2>
-<ul><li>许可申请表</li><li>法人登记摘本</li><li>包含营销和分销策略的商业计划书</li><li>资本金证明（银行证明）</li><li>仓库租赁或所有权文件</li><li>样品信息及原产地文件</li></ul>
+<ul><li>烟草进口销售业注册申请书（施行规则附件第7号格式）</li><li>与外国烟草制造商签订的烟草供货合同复印件1份</li></ul>
 <h2>5. 申请流程</h2>
-<ol><li>与企划财政部烟草管理部门预先协商</li><li>准备商业计划及财务文件</li><li>提交正式申请</li><li>审查及现场检查</li><li>颁发许可证（约30~60个工作日）</li></ol>
-<h2>6. 许可后义务</h2>
-<ul><li>每季度提交销售及库存报告</li><li>遵守烟草警示标签要求</li><li>缴纳进口烟草消费税</li><li>遵守广告限制规定</li></ul>
+<ol><li>确认经营形态并核查不予注册事由</li><li>与外国烟草制造商签订供货合同</li><li>向本店或主要事务所所在地管辖的市·道知事提交申请</li><li>审查注册要件及不予注册事由</li><li>领取烟草进口销售业注册证</li><li>市·道知事于7日内通报财政经济部长官、关税厅厅长等机关</li></ol>
+<h2>6. 注册后义务</h2>
+<ul><li>法人名称或代表人、本店或主要事务所所在地、烟草供货方发生变更时，办理变更注册</li><li>在开始销售6日前按品种向市·道知事申报零售价格，并予以公告</li><li>在烟盒包装上标示健康警示语和警示图片，并标示主要成分及含量</li><li>对在售产品，每季度开始后1个月内委托指定检测机构进行成分检测</li><li>只能销售给已注册的批发商或获指定的零售商，并遵守广告限制</li><li>烟草须缴纳关税、烟草消费税、个别消费税、国民健康增进负担金及增值税等，具体税额请向税务专业人士确认</li></ul>
 <div class="faq-section"><h2>常见问题</h2>
-<div class="faq-item"><p class="faq-q">Q. 外国企业可以向韩国进口烟草吗？</p><p class="faq-a">A. 可以，通过满足所有许可要求的韩国子公司或合资企业进行。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 电子烟液体是否包含在此许可范围内？</p><p class="faq-a">A. 不包含。电子烟液体产品需要单独的许可证，请参阅我们的电子烟进口指南。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国企业可以向韩国进口烟草吗？</p><p class="faq-a">A. 《烟草事业法》没有国籍方面的要求，按供货合同要件和不予注册事由进行判断。由于须向本店或主要事务所所在地管辖的市·道知事注册，需要在韩国设有营业据点。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 电子烟液体是否包含在此注册范围内？</p><p class="faq-a">A. 以尼古丁为原料的产品包含在内。烟草的定义是以烟草或尼古丁为原料制造的产品，因此含尼古丁的电子烟液体和加热型烟草也适用同一烟草进口销售业注册。请参阅我们的电子烟进口指南。</p></div>
 </div>
-<div class="cta-box"><h3>申请烟草进口许可证</h3><p>YouSun Administrative Agency专注于受监管业务许可申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>申请烟草进口销售业注册</h3><p>YouSun Administrative Agency专注于受监管业务许可申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
   },
   {
     slug: 'tobacco-import-sales-guide',
     locale: 'ja',
-    title: '韓国たばこ輸入販売業許可ガイド2026',
-    metaTitle: '韓国たばこ輸入許可2026 — 要件と申請手続き',
-    metaDescription: '韓国でたばこ輸入販売業許可を取得する方法。資本金要件、施設基準、企画財政部申請手続きを詳しく解説。行政書士による無料初回相談あり。たばこ輸入許可の概要・申請資格・資本金・施設要件・許可後の義務まで順に確認できます。',
+    title: '韓国たばこ輸入販売業登録ガイド2026',
+    metaTitle: '韓国たばこ輸入登録2026 — 要件と申請手続き',
+    metaDescription: '韓国でたばこ輸入販売業を営むには、本店または主たる事務所の所在地を管轄する市・道知事への登録が必要です。外国のたばこ製造業者との供給契約という登録要件、欠格事由、必要書類、登録後の義務を解説。行政書士による無料初回相談あり。',
     category: '物流/流通',
-    excerpt: '韓国のたばこ輸入販売業許可取得完全ガイド — 資本金要件、施設基準、企画財政部申請手続きを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>たばこ輸入許可の概要</li><li>申請資格</li><li>資本金・施設要件</li><li>必要書類</li><li>申請手続き</li><li>許可後の義務</li><li>よくある質問</li></ol></div>
-<h2>1. たばこ輸入許可の概要</h2>
-<p>韓国で外国製たばこを輸入・販売するには、たばこ事業法に基づき<strong>企画財政部</strong>から<strong>たばこ輸入販売業許可</strong>を取得する必要があります。資本金と施設に厳格な要件がある高度に規制された事業です。</p>
+    excerpt: '韓国のたばこ輸入販売業登録ガイド — 本店所在地を管轄する市・道知事に登録し、外国のたばこ製造業者との供給契約が主な要件です。',
+    content: `<div class="toc"><p>目次</p><ol><li>たばこ輸入登録の概要</li><li>申請資格</li><li>資本金・施設要件</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div>
+<h2>1. たばこ輸入登録の概要</h2>
+<p>韓国で外国製たばこを輸入・販売するには、たばこ事業法に基づき<strong>たばこ輸入販売業登録（담배수입판매업 등록）</strong>が必要です。登録先は本店または主たる事務所の所在地を管轄する<strong>市・道知事</strong>（特別市長・広域市長・特別自治市長・道知事・特別自治道知事）であり、中央省庁ではありません。財政経済部長官の許可が必要なのはたばこ製造業です。</p>
+<p>登録をせずにたばこ輸入販売業を営んだ者は、6か月以下の懲役または500万ウォン以下の罰金に処されることがあります。市・道知事は登録した日から7日以内に、財政経済部長官、関税庁長などの関係機関にその内容を通報します。</p>
 <h2>2. 申請資格</h2>
-<ul><li>法人であること（個人事業主は不可）</li><li>役員に欠格事由がないこと</li><li>指定輸入倉庫を保有すること</li></ul>
+<ul><li>外国のたばこ製造業者とたばこの供給契約を締結していること</li><li>欠格事由に該当しないこと：未成年者・被成年後見人・被限定後見人、破産宣告を受けて復権していない者、たばこ事業法違反で懲役の実刑を受け、執行終了または免除の日から1年を経過しない者、同法違反で懲役刑の執行猶予期間中の者、登録取消し後2年を経過しない者、代表者がこれらに該当する法人</li><li>法人・個人事業者のいずれも登録可能</li></ul>
 <h2>3. 資本金・施設要件</h2>
-<ul><li><strong>払込資本金：</strong>5億ウォン以上</li><li>保税倉庫または輸入品保管施設</li><li>たばこの検査・品質管理能力</li></ul>
-<h2>4. 必要書類</html>
-<ul><li>許可申請書</li><li>法人登記簿謄本</li><li>マーケティング・流通戦略を含む事業計画書</li><li>資本金証明（銀行証明書）</li><li>倉庫の賃貸借または所有権証明書</li><li>サンプル製品情報および原産地証明書</li></ul>
+<p>たばこ輸入販売業の登録には<strong>資本金や倉庫施設の要件はありません</strong>。資本金・施設・技術人材の基準はたばこ製造業の許可に、たばこ保管施設の要件はたばこ卸売業の登録に適用されます。</p>
+<h2>4. 必要書類</h2>
+<ul><li>たばこ輸入販売業登録申請書（施行規則別紙第7号書式）</li><li>外国のたばこ製造業者と締結したたばこの供給契約書の写し1部</li></ul>
 <h2>5. 申請手続き</h2>
-<ol><li>企画財政部たばこ担当部門との事前協議</li><li>事業計画・財務書類の準備</li><li>正式申請書の提出</li><li>審査および現地検査</li><li>許可証の発行（約30〜60営業日）</li></ol>
-<h2>6. 許可後の義務</h2>
-<ul><li>四半期ごとの販売・在庫報告書の提出</li><li>たばこ警告表示要件の遵守</li><li>輸入たばこへの個別消費税の納付</li><li>広告規制の遵守</li></ul>
+<ol><li>営業形態の確認と欠格事由の確認</li><li>外国のたばこ製造業者との供給契約の締結</li><li>本店または主たる事務所の所在地を管轄する市・道知事へ申請書を提出</li><li>登録要件・欠格事由の審査</li><li>たばこ輸入販売業登録証の交付</li><li>市・道知事が7日以内に財政経済部長官・関税庁長などへ通報</li></ol>
+<h2>6. 登録後の義務</h2>
+<ul><li>法人の名称・代表者、本店または主たる事務所の所在地、たばこ供給者が変わった場合の変更登録</li><li>品目ごとの販売価格を販売開始の6日前までに市・道知事へ申告し、公告すること</li><li>たばこの包装に警告文句・警告図画などを表示し、主要成分とその含有量を表示すること</li><li>販売中のたばこについて、四半期ごとに四半期開始後1か月以内に指定測定機関へ成分測定を依頼すること</li><li>登録卸売業者または指定小売人にのみ販売し、広告規制を遵守すること</li><li>たばこには関税・たばこ消費税・個別消費税・国民健康増進負担金・付加価値税などがかかるため、税額は税理士などの税務専門家に確認すること</li></ul>
 <div class="faq-section"><h2>よくある質問</h2>
-<div class="faq-item"><p class="faq-q">Q. 外国企業が韓国へたばこを輸入できますか？</p><p class="faq-a">A. はい。すべての許可要件を満たす韓国子会社または合弁会社を通じて可能です。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 電子タバコ液体はこの許可の対象ですか？</p><p class="faq-a">A. いいえ。電子タバコ（液体ニコチン）製品は別途許可が必要です。電子タバコ輸入ガイドをご参照ください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国企業が韓国へたばこを輸入できますか？</p><p class="faq-a">A. たばこ事業法には国籍に関する要件はなく、供給契約の要件と欠格事由で判断されます。本店または主たる事務所の所在地を管轄する市・道知事に登録するため、韓国内に事業拠点が必要です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 電子タバコ液体はこの登録の対象ですか？</p><p class="faq-a">A. ニコチンを原料とする製品は対象です。たばこはたばこ（煙草）またはニコチンを原料として製造したものと定義されているため、ニコチン入りリキッドや加熱式たばこも同じたばこ輸入販売業登録で輸入します。電子タバコ輸入ガイドをご参照ください。</p></div>
 </div>
-<div class="cta-box"><h3>たばこ輸入許可の取得をサポートします</h3><p>YouSun Administrative Agencyは規制業種の許可取得を専門としています。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>たばこ輸入販売業登録をサポートします</h3><p>YouSun Administrative Agencyは規制業種の許可取得を専門としています。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
   },
 
   // ── BLOG 13: nonprofit-corporation-establishment-guide ──────────────────────
@@ -1212,165 +1215,165 @@ const blogData: BlogI18n[] = [
     excerpt: 'How Korean and foreign companies can establish a recognized corporate research laboratory (기업부설연구소) to access R&D tax credits and government support.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why Establish a Corporate R&D Lab?</li><li>Eligibility</li><li>Research Personnel Requirements</li><li>Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Tax Benefits</li><li>FAQ</li></ol></div>
 <h2>1. Why Establish a Corporate R&D Lab?</h2>
-<p>A recognized <strong>corporate research laboratory (기업부설연구소)</strong> or R&D department (연구개발전담부서) recognized by the Institute for Information & Communications Technology Promotion (IITP) qualifies for substantial R&D tax credits under the Tax Incentive Limitation Act.</p>
+<p>A <strong>corporate research laboratory (기업부설연구소)</strong> or R&D department (연구개발전담부서) is recognized by the Minister of Science and ICT, and the recognition work is entrusted to the Korea Industrial Technology Association (KOITA). A recognized lab or department is the basis for R&D tax credits on in-house research under the Tax Incentive Limitation Act.</p>
 <h2>2. Eligibility</h2>
-<ul><li>Small companies: at least 2 full-time researchers</li><li>Medium companies: at least 5 full-time researchers</li><li>Large companies: at least 10 full-time researchers</li><li>Researchers must hold relevant degrees or experience</li></ul>
+<ul><li>Small enterprises: at least 3 full-time researchers (at least 2 until 3 years after founding)</li><li>Medium enterprises: at least 5 (at least 3 for 1 year after growing from a small enterprise)</li><li>Venture companies and R&D-type SMEs founded by researchers or professors: at least 2</li><li>Mid-sized (middle-market) companies: at least 7; other companies: at least 10; labs located abroad: at least 5</li><li>R&D department (연구개발전담부서): at least 1, regardless of company size</li></ul>
 <h2>3. Research Personnel Requirements</h2>
-<p>Researchers must have a degree in a relevant field (science, engineering, IT, etc.) or equivalent experience. At least one researcher must be a full-time employee dedicated to R&D.</p>
+<p>Full-time researchers generally need a bachelor degree or higher in natural sciences, engineering or medicine, or an engineer-level (기사) or higher national technical qualification. SMEs may also use certain associate degrees or qualifications combined with R&D experience. Researchers must be verifiable employees (health insurance, national pension or payroll withholding records). Representatives, auditors and non-standing directors generally cannot be full-time researchers, except the representative of a small enterprise within 3 years of founding who does R&D-related work.</p>
 <h2>4. Facility Requirements</h2>
-<ul><li>Dedicated physical space for research activities</li><li>Separate from general office operations</li><li>Research equipment appropriate to the field</li></ul>
+<ul><li>Independent research space separated from other departments by fixed walls and a separate entrance</li><li>SMEs, venture companies and certain others that cannot secure more than 50 square meters may use a space separated by partitions</li><li>Research equipment placed inside the research space; labs may not be set up in detached houses, multi-unit housing, or unpermitted or temporary buildings</li></ul>
 <h2>5. Required Documents</h2>
-<ul><li>IITP recognition application</li><li>Research plan</li><li>Researcher credentials (diplomas, employment records)</li><li>Floor plan of research facility</li><li>Equipment list</li></ul>
+<ul><li>Recognition application (Form 1 for a lab, Form 6 for an R&D department), submitted to KOITA (online submission allowed)</li><li>R&D activity overview, research equipment list and R&D personnel status (Forms 2–4)</li><li>Organization chart</li><li>Floor plans of the floor and of the research space, including photos of the dedicated entrance sign and interior</li><li>Lab safety budget statement and insurance certificate (labs with 10 or more researchers and assistants)</li></ul>
 <h2>6. Application Procedure</h2>
-<ol><li>Online application through IITP portal (www.rnd.or.kr)</li><li>Document review</li><li>On-site inspection (for some cases)</li><li>Recognition certificate issued (2–4 weeks)</li></ol>
+<ol><li>Online application to KOITA</li><li>Document review</li><li>On-site inspection (where necessary)</li><li>Recognition certificate issued (processing period on the lab application form: 10 days)</li></ol>
 <h2>7. Tax Benefits</h2>
-<ul><li><strong>SMEs:</strong> 25% tax credit on R&D expenditures</li><li><strong>Mid-size companies:</strong> 8% tax credit</li><li><strong>Large companies:</strong> 0–2% basic, higher for incremental R&D</li><li>Accelerated depreciation on research equipment</li></ul>
+<ul><li><strong>General R&D expenses:</strong> SMEs 25% of current-year expenses or 50% of the amount exceeding the previous tax year; mid-sized companies 8% or 40%</li><li><strong>New growth/source and national strategic technology R&D:</strong> SMEs 30% and 40% respectively, plus an additional rate based on the ratio to revenue</li><li>Credits that could not be used can be carried forward for 10 years</li><li>Tax benefits depend on company size, expense category and tax year, so confirm them with a licensed tax accountant</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. Can a startup with 2 employees establish an R&D lab?</p><p class="faq-a">A. Yes, if both employees qualify as researchers. This is common for tech startups.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can a startup with 2 employees establish an R&D lab?</p><p class="faq-a">A. A small enterprise within 3 years of founding needs at least 2 qualified full-time researchers for a lab, and venture companies or R&D-type SMEs founded by researchers also need 2. Otherwise, a startup can first be recognized as an R&D department, which needs only 1.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Do foreign-invested companies qualify?</p><p class="faq-a">A. Yes, if they are registered Korean SMEs or corporations.</p></div>
 </div>
-<div class="cta-box"><h3>Establish Your Corporate R&D Lab</h3><p>YouSun Administrative Agency prepares all documents for IITP recognition. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Establish Your Corporate R&D Lab</h3><p>YouSun Administrative Agency prepares all documents for KOITA recognition. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'corporate-research-lab-establishment-guide',
     locale: 'zh',
     title: '韩国企业附属研究所设立认定指南2026',
     metaTitle: '韩国企业附属研究所设立2026 — 税收优惠与认定流程',
-    metaDescription: '在韩国设立获认定企业附属研究所的方法，包括研究人员要求、设施标准、IITP认定流程及税收优惠。专业行政士免费初次咨询。本文依次说明申请资格、研究人员要求、设施要求、所需材料，可按步骤逐项确认。',
+    metaDescription: '在韩国设立获认定企业附属研究所的方法，包括研究人员要求、设施标准、KOITA认定流程及税收优惠。专业行政士免费初次咨询。本文依次说明申请资格、研究人员要求、设施要求、所需材料，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国及外资企业如何设立获认定的企业附属研究所，以享受研究开发税收抵免及政府支持。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么设立企业附属研究所？</li><li>申请资格</li><li>研究人员要求</li><li>设施要求</li><li>所需材料</li><li>申请流程</li><li>税收优惠</li><li>常见问题</li></ol></div>
 <h2>1. 为什么设立企业附属研究所？</h2>
-<p>经情报通信技术促进院（IITP）认定的<strong>企业附属研究所（기업부설연구소）</strong>或研发专属部门，可依据《租税特例限制法》享受大额研发税收抵免。</p>
+<p><strong>企业附属研究所（기업부설연구소）</strong>或研发专职部门（연구개발전담부서）由科学技术信息通信部长官认定，认定业务委托韩国产业技术振兴协会（KOITA）办理。经认定的研究所或部门是依据《租税特例限制法》申请自主研发税收抵免的基础。</p>
 <h2>2. 申请资格</h2>
-<ul><li>小型企业：至少2名全职研究人员</li><li>中型企业：至少5名全职研究人员</li><li>大型企业：至少10名全职研究人员</li><li>研究人员须持有相关学位或具备相应经验</li></ul>
+<ul><li>小企业：至少3名专职研究人员（创业后3年内至少2名）</li><li>中企业：至少5名（由小企业成为中企业后1年内至少3名）</li><li>研究人员·教师创办的研发型中小企业及风险企业：至少2名</li><li>中坚企业：至少7名；其他企业：至少10名；位于国外的研究机构：至少5名</li><li>研发专职部门：不论企业规模，至少1名</li></ul>
 <h2>3. 研究人员要求</h2>
-<p>研究人员须持有相关领域（理科、工程、IT等）学位或具备同等经验。至少一名研究人员须为专职研发员工。</p>
+<p>专职研究人员原则上须持有自然科学·工学·医学类学士以上学位，或国家技术资格中技术·技能领域技师（기사）以上资格。中小企业还可认可部分专科学历或资格加研发经历。研究人员须能通过健康保险、国民年金或工资代扣记录证明为本企业员工；代表、监事、非常任董事原则上不能担任专职研究人员，但创业未满3年的小企业代表从事研发相关工作的除外。</p>
 <h2>4. 设施要求</h2>
-<ul><li>用于研究活动的专用物理空间</li><li>与普通办公区域分开</li><li>符合研究领域需求的研究设备</li></ul>
+<ul><li>以固定墙体和独立出入口与其他部门分隔的独立研究空间</li><li>中小企业、风险企业等无法确保50平方米以上面积时，可用隔板等分隔的空间</li><li>研究设备须位于该研究空间内；不得设在独栋住宅、公寓等共同住宅、未经许可的建筑或临时建筑</li></ul>
 <h2>5. 所需材料</h2>
-<ul><li>IITP认定申请书</li><li>研究计划</li><li>研究人员资质证明（学位证、就业记录）</li><li>研究设施平面图</li><li>设备清单</li></ul>
+<ul><li>认定申请书（研究所为附件第1号格式，研发专职部门为第6号格式），向KOITA提交（可在线提交）</li><li>研发活动概要书、研究器材现况、研发人员现况（第2~4号格式）</li><li>组织结构图</li><li>所在楼层全图及研究空间内部图（含专用出入口门牌及内部照片）</li><li>研究人员等合计10名以上时：研究室安全预算明细及保险加入证明</li></ul>
 <h2>6. 申请流程</h2>
-<ol><li>通过IITP门户（www.rnd.or.kr）在线申请</li><li>文件审查</li><li>现场检查（部分情况）</li><li>颁发认定证书（2~4周）</li></ol>
+<ol><li>向KOITA在线申请</li><li>文件审查</li><li>现场检查（必要时）</li><li>颁发认定证书（研究所认定申请书格式所载处理期限10日）</li></ol>
 <h2>7. 税收优惠</h2>
-<ul><li><strong>小型企业：</strong>研发支出25%税收抵免</li><li><strong>中型企业：</strong>8%税收抵免</li><li><strong>大型企业：</strong>基础0~2%，增量研发可享更高优惠</li><li>研究设备加速折旧</li></ul>
+<ul><li><strong>一般研发费用：</strong>中小企业按当期费用25%或超过上一纳税年度部分的50%；中坚企业8%或40%</li><li><strong>新增长·原创技术及国家战略技术研发：</strong>中小企业分别为30%和40%，另加按占收入比例计算的附加率</li><li>未能抵扣的金额可结转10年</li><li>税收优惠因企业规模、费用类别和纳税年度而异，请向税务师等税务专业人士确认</li></ul>
 <div class="faq-section"><h2>常见问题</h2>
-<div class="faq-item"><p class="faq-q">Q. 只有2名员工的初创公司可以设立研发实验室吗？</p><p class="faq-a">A. 可以，如果两名员工均符合研究人员资格。这在科技初创公司中很常见。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 只有2名员工的初创公司可以设立研发实验室吗？</p><p class="faq-a">A. 创业未满3年的小企业设立研究所需至少2名合格专职研究人员，研究人员创办的研发型中小企业或风险企业同样需要2名。否则可先认定为只需1名的研发专职部门。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外资企业是否符合资格？</p><p class="faq-a">A. 符合，只要是在韩国注册的中小企业或法人即可。</p></div>
 </div>
-<div class="cta-box"><h3>设立企业附属研究所</h3><p>YouSun Administrative Agency为IITP认定准备全部材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>设立企业附属研究所</h3><p>YouSun Administrative Agency为KOITA认定准备全部材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
   },
   {
     slug: 'corporate-research-lab-establishment-guide',
     locale: 'ja',
     title: '韓国企業付設研究所設立認定ガイド2026',
     metaTitle: '韓国企業付設研究所設立2026 — 税制優遇と認定手続き',
-    metaDescription: '韓国で認定を受けた企業付設研究所を設立する方法。研究者要件、施設基準、IITP認定手続きと税額控除を詳しく解説。行政書士による無料初回相談あり。',
+    metaDescription: '韓国で認定を受けた企業付設研究所を設立する方法。研究者要件、施設基準、KOITA認定手続きと税額控除を詳しく解説。行政書士による無料初回相談あり。',
     category: '企業認証',
     excerpt: '韓国・外資系企業が認定企業付設研究所を設立し、研究開発税額控除と政府支援を受ける方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜ企業付設研究所を設立するのか？</li><li>申請資格</li><li>研究者要件</li><li>施設要件</li><li>必要書類</li><li>申請手続き</li><li>税制優遇</li><li>よくある質問</li></ol></div>
 <h2>1. なぜ企業付設研究所を設立するのか？</h2>
-<p>情報通信技術振興院（IITP）に認定された<strong>企業付設研究所（기업부설연구소）</strong>または研究開発専担部署は、租税特例制限法に基づいて大幅な研究開発税額控除を受けることができます。</p>
+<p><strong>企業付設研究所（기업부설연구소）</strong>または研究開発専担部署（연구개발전담부서）は科学技術情報通信部長官が認定し、認定業務は韓国産業技術振興協会（KOITA）に委託されています。認定を受けた研究所・専担部署は、租税特例制限法に基づく自社研究開発の税額控除の基礎となります。</p>
 <h2>2. 申請資格</h2>
-<ul><li>小企業：専任研究者2名以上</li><li>中堅企業：専任研究者5名以上</li><li>大企業：専任研究者10名以上</li><li>研究者は関連分野の学位または同等の経験が必要</li></ul>
+<ul><li>小企業：研究専担要員3名以上（創業日から3年までは2名以上）</li><li>中企業：5名以上（小企業から中企業になった日から1年までは3名以上）</li><li>研究員・教員が創業した研究開発型中小企業およびベンチャー企業：2名以上</li><li>中堅企業：7名以上、その他の企業：10名以上、国外の研究機関：5名以上</li><li>研究開発専担部署：企業規模にかかわらず1名以上</li></ul>
 <h2>3. 研究者要件</h2>
-<p>研究者は関連分野（理工学、IT等）の学位または同等の経験を持つ必要があります。少なくとも1名は研究開発専従の正規社員であること。</p>
+<p>研究専担要員は原則として自然科学・工学・医学系の学士以上の学位、または国家技術資格の技術・技能分野で技師（기사）以上の資格が必要です。中小企業では一部の専門学士・資格と研究開発経歴の組み合わせも認められます。健康保険・国民年金の加入者名簿や源泉徴収簿などで自社の従業員であることを証明できる必要があり、代表者・監査・非常勤取締役は原則として研究専担要員になれません（創業3年未満の小企業の代表者で研究開発関連業務を行う者は例外）。</p>
 <h2>4. 施設要件</h2>
-<ul><li>研究活動のための専用物理スペース</li><li>一般事務スペースとの分離</li><li>研究分野に適した研究設備</li></ul>
+<ul><li>固定された壁と別の出入口で他部署と区分された独立した研究空間</li><li>中小企業・ベンチャー企業などで50平方メートルを超える面積を確保できない場合は、パーティション等で区分した空間も可</li><li>研究機材は研究空間内に設置。戸建住宅・共同住宅・無許可建物・仮設建物には設置不可</li></ul>
 <h2>5. 必要書類</h2>
-<ul><li>IITP認定申請書</li><li>研究計画書</li><li>研究者の資格証明（学位証、雇用記録）</li><li>研究施設の平面図</li><li>設備リスト</li></ul>
+<ul><li>認定申請書（研究所は別紙第1号様式、研究開発専担部署は第6号様式）をKOITAに提出（オンライン提出可）</li><li>研究開発活動概要書・研究機材現況・研究開発人材現況（第2〜4号様式）</li><li>組織図</li><li>所在階の全体図面と研究空間の内部図面（専用出入口の表札・内部写真を含む）</li><li>研究専担要員等が10名以上の場合：研究室安全関連予算明細書と保険加入証明書</li></ul>
 <h2>6. 申請手続き</h2>
-<ol><li>IITPポータル（www.rnd.or.kr）からオンライン申請</li><li>書類審査</li><li>現地検査（場合による）</li><li>認定証明書の発行（2〜4週間）</li></ol>
+<ol><li>KOITAへオンライン申請</li><li>書類審査</li><li>現地確認（必要な場合）</li><li>認定書の発行（研究所認定申請書様式上の処理期間10日）</li></ol>
 <h2>7. 税制優遇</h2>
-<ul><li><strong>中小企業：</strong>研究開発費の25%税額控除</li><li><strong>中堅企業：</strong>8%税額控除</li><li><strong>大企業：</strong>基本0〜2%、増加分は更に高い控除率</li><li>研究設備の加速償却</li></ul>
+<ul><li><strong>一般研究・人材開発費：</strong>中小企業は当期分25%または前課税年度超過分の50%、中堅企業は8%または40%</li><li><strong>新成長・源泉技術および国家戦略技術の研究開発費：</strong>中小企業はそれぞれ30%・40%に売上高比率に応じた加算率を加算</li><li>控除しきれなかった金額は10年間繰越可能</li><li>税制優遇は企業規模・費用区分・課税年度により異なるため、税理士など税務専門家にご確認ください</li></ul>
 <div class="faq-section"><h2>よくある質問</h2>
-<div class="faq-item"><p class="faq-q">Q. 社員2名のスタートアップでも研究所を設立できますか？</p><p class="faq-a">A. はい。両名が研究者として認定されれば可能です。テック系スタートアップでよく見られます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 社員2名のスタートアップでも研究所を設立できますか？</p><p class="faq-a">A. 創業3年未満の小企業は資格を満たす研究専担要員2名以上で研究所の認定を受けられ、研究員が創業した研究開発型中小企業やベンチャー企業も2名以上です。それ以外は、1名から認定される研究開発専担部署から始めることができます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外資系企業でも資格がありますか？</p><p class="faq-a">A. はい。韓国に登録された中小企業または法人であれば可能です。</p></div>
 </div>
-<div class="cta-box"><h3>企業付設研究所の設立をサポートします</h3><p>YouSun Administrative AgencyがIITP認定に必要な書類をすべて準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>企業付設研究所の設立をサポートします</h3><p>YouSun Administrative AgencyがKOITA認定に必要な書類をすべて準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
   },
 
   // ── BLOG 15: e-cigarette-import-license-guide ──────────────────────────────
   {
     slug: 'e-cigarette-import-license-guide',
     locale: 'en',
-    title: 'E-Cigarette Import License in Korea — 2026 Complete Guide',
-    metaTitle: 'Korea E-Cigarette Import License 2026 — Liquid & Heated Tobacco',
-    metaDescription: 'How to obtain an e-cigarette (liquid and heated tobacco) import license in Korea. Requirements, documents, and application process explained. Free consultation.',
+    title: 'E-Cigarette Import Registration in Korea — 2026 Complete Guide',
+    metaTitle: 'Korea E-Cigarette Import Registration 2026 — Liquid & Heated Tobacco',
+    metaDescription: 'Import e-cigarettes into Korea: tobacco import and sales registration with the Mayor or Do Governor, required documents and duties. Free consultation.',
     category: 'Logistics/Distribution',
-    excerpt: 'A complete guide to obtaining an e-cigarette import license in Korea — covering liquid nicotine and heated tobacco product requirements and the application process.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>E-Cigarette Regulation Overview</li><li>Types of E-Cigarettes and Their Rules</li><li>Eligibility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-License Obligations</li><li>FAQ</li></ol></div>
+    excerpt: 'A guide to importing e-cigarettes into Korea — nicotine liquids and heated tobacco products require tobacco import and sales registration with the competent Mayor or Do Governor.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>E-Cigarette Regulation Overview</li><li>Types of E-Cigarettes and Their Rules</li><li>Eligibility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Obligations</li><li>FAQ</li></ol></div>
 <h2>1. E-Cigarette Regulation Overview</h2>
-<p>E-cigarettes are regulated under the <strong>Tobacco Business Act</strong> in Korea. Importing e-cigarettes — whether liquid nicotine (전자담배 액상형) or heated tobacco products (궐련형 전자담배) — requires a license from the Ministry of Economy and Finance.</p>
+<p>E-cigarettes are regulated under the <strong>Tobacco Business Act</strong> in Korea, which defines tobacco as a product manufactured from tobacco or nicotine, in whole or in part, in a form suitable for smoking, sucking, inhaling as vapor, chewing or sniffing (medicines and quasi-drugs under the Pharmaceutical Affairs Act are excluded). Importing nicotine e-cigarettes — liquid nicotine (전자담배 액상형) or heated tobacco products (궐련형 전자담배) — therefore requires <strong>tobacco import and sales business registration</strong> with the Mayor or Do Governor of the head office or principal office location. A license from the Minister of Economy and Finance applies only to tobacco manufacturing.</p>
 <h2>2. Types of E-Cigarettes and Their Rules</h2>
-<ul><li><strong>Liquid nicotine devices:</strong> Import license + nicotine product safety review</li><li><strong>Heated tobacco products (HTP):</strong> Treated as conventional tobacco, requires standard tobacco import license</li><li>Nicotine-free e-liquids may have different rules — confirm with the ministry</li></ul>
+<ul><li><strong>Liquid nicotine products:</strong> Tobacco under the Act — tobacco import and sales registration; the nicotine solution volume must be shown on containers and packaging</li><li><strong>Heated tobacco products (HTP):</strong> Tobacco under the Act — the same tobacco import and sales registration</li><li><strong>Nicotine-free e-liquids:</strong> Not tobacco under the Tobacco Business Act if made without tobacco or nicotine; other rules may apply depending on the ingredients</li><li><strong>Devices only:</strong> Not tobacco by themselves; separate electrical product safety certification may apply</li></ul>
 <h2>3. Eligibility Requirements</h2>
-<ul><li>Must be a registered corporation in Korea</li><li>Paid-in capital: KRW 500 million (same as tobacco)</li><li>Designated import warehouse</li><li>Product safety test results from a recognized laboratory</li></ul>
+<ul><li>A tobacco supply contract with a foreign tobacco manufacturer</li><li>No disqualification grounds under the Tobacco Business Act (for corporations, including the representative)</li><li>No minimum capital or warehouse requirement</li><li>Both corporations and individual business owners may register</li></ul>
 <h2>4. Required Documents</h2>
-<ul><li>Import license application</li><li>Corporate registry and business plan</li><li>Product specification and ingredient declaration</li><li>Safety test reports</li><li>Proof of capital and warehouse</li></ul>
+<ul><li>Application for tobacco import and sales business registration (Form No. 7 of the Enforcement Rule)</li><li>One copy of the supply contract with the foreign tobacco manufacturer</li><li>For customs and distribution: import declaration under the Customs Act, and packaging with Korean warning labels and the nicotine solution volume</li></ul>
 <h2>5. Application Procedure</h2>
-<ol><li>Product safety testing (timing varies by authority)</li><li>Application submission to Ministry of Economy and Finance</li><li>Review and possible on-site inspection</li><li>License issuance (approx. 30–60 business days)</li></ol>
-<h2>6. Post-License Obligations</h2>
-<ul><li>Compliance with nicotine content labeling</li><li>No sale to minors (strict enforcement)</li><li>Quarterly reporting to ministry</li><li>Excise tax payment</li></ul>
+<ol><li>Check whether the product is tobacco (made from tobacco or nicotine)</li><li>Conclude a supply contract with the foreign manufacturer</li><li>File the registration with the Mayor or Do Governor of the head office location</li><li>Receive the registration certificate</li><li>Report retail prices at least 6 days before sales begin, then complete the import declaration and customs clearance</li></ol>
+<h2>6. Post-Registration Obligations</h2>
+<ul><li>Warning text and images on packs; nicotine solution volume labeling for liquid products</li><li>Quarterly ingredient testing requests to a designated testing body</li><li>No sale to juveniles under the Juvenile Protection Act</li><li>Sell only to registered wholesalers or designated retailers; retailers may not sell by mail order or e-commerce</li><li>Change registration when the supplier, head office location, corporate name or representative changes</li><li>Tobacco taxes and charges apply — confirm amounts with a tax professional</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. Can a foreign brand enter the Korean e-cigarette market?</p><p class="faq-a">A. Yes, through a licensed Korean importer or by establishing a Korean subsidiary with a license.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Are disposable e-cigarettes regulated the same way?</p><p class="faq-a">A. Yes. All nicotine-containing e-cigarette products fall under the Tobacco Business Act.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can a foreign brand enter the Korean e-cigarette market?</p><p class="faq-a">A. Yes, through a Korean importer that has completed tobacco import and sales registration, or by registering its own business in Korea with the competent Mayor or Do Governor.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Are disposable e-cigarettes regulated the same way?</p><p class="faq-a">A. Yes. Products made from nicotine fall under the Tobacco Business Act. For disposable products combining a device and nicotine solution, the nicotine solution volume must be shown on the device itself.</p></div>
 </div>
-<div class="cta-box"><h3>Get Your E-Cigarette Import License</h3><p>YouSun Administrative Agency specializes in regulated import licensing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Your E-Cigarette Import Registration</h3><p>YouSun Administrative Agency specializes in regulated import licensing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'e-cigarette-import-license-guide',
     locale: 'zh',
-    title: '韩国电子烟进口许可指南2026 — 液态型与加热型烟草',
-    metaTitle: '韩国电子烟进口许可2026 — 液态烟与加热烟草完整指南',
-    metaDescription: '在韩国获取电子烟（液态尼古丁及加热型烟草）进口许可的完整指南，包括申请条件、所需材料及申请流程。专业行政士免费初次咨询。本文依次说明电子烟监管概述、电子烟类型及相关规定、申请资格、所需材料，可按步骤逐项确认。',
+    title: '韩国电子烟进口注册指南2026 — 液态型与加热型烟草',
+    metaTitle: '韩国电子烟进口注册2026 — 液态烟与加热烟草完整指南',
+    metaDescription: '在韩国进口电子烟（液态尼古丁及加热型烟草），须向本店所在地管辖的市·道知事办理烟草进口销售业注册。说明注册要件、所需材料及注册后义务。专业行政士免费初次咨询。',
     category: '物流/流通',
-    excerpt: '韩国电子烟进口许可完整指南，涵盖液态尼古丁和加热型烟草产品的申请要求及流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>电子烟监管概述</li><li>电子烟类型及相关规定</li><li>申请资格</li><li>所需材料</li><li>申请流程</li><li>许可后义务</li><li>常见问题</li></ol></div>
+    excerpt: '韩国电子烟进口指南：含尼古丁的电子烟液体和加热型烟草产品，须向管辖的市·道知事办理烟草进口销售业注册。',
+    content: `<div class="toc"><p>目录</p><ol><li>电子烟监管概述</li><li>电子烟类型及相关规定</li><li>申请资格</li><li>所需材料</li><li>申请流程</li><li>注册后义务</li><li>常见问题</li></ol></div>
 <h2>1. 电子烟监管概述</h2>
-<p>电子烟在韩国受《烟草事业法》监管。进口电子烟（无论是液态尼古丁型还是加热型烟草产品）须向<strong>企划财政部</strong>申请许可。</p>
+<p>电子烟在韩国受《烟草事业法》监管。该法将烟草定义为以烟草或尼古丁为全部或部分原料，制成适合吸食、吮吸、以蒸气形式吸入、咀嚼或嗅闻状态的产品（《药事法》规定的药品及医药外品除外）。因此，进口含尼古丁的电子烟（液态尼古丁型或加热型烟草产品），须向本店或主要事务所所在地管辖的<strong>市·道知事</strong>办理<strong>烟草进口销售业注册</strong>。需要财政经济部长官许可的仅是烟草制造业。</p>
 <h2>2. 电子烟类型及相关规定</h2>
-<ul><li><strong>液态尼古丁装置：</strong>进口许可证 + 尼古丁产品安全审查</li><li><strong>加热型烟草产品（HTP）：</strong>视同传统烟草，需标准烟草进口许可</li><li>无尼古丁电子烟液体可能适用不同规定，请向主管部门确认</li></ul>
+<ul><li><strong>液态尼古丁产品：</strong>属于该法规定的烟草，须办理烟草进口销售业注册，并在容器和包装上标示尼古丁溶液容量</li><li><strong>加热型烟草产品（HTP）：</strong>属于该法规定的烟草，适用同一烟草进口销售业注册</li><li><strong>无尼古丁电子烟液体：</strong>不以烟草或尼古丁为原料的，不属于《烟草事业法》规定的烟草；是否适用其他法规需按成分另行确认</li><li><strong>仅进口设备：</strong>设备本身不属于烟草，可能需要另行取得电器产品安全认证</li></ul>
 <h2>3. 申请资格</h2>
-<ul><li>须为在韩国注册的法人</li><li>注册资本金：5亿韩元（与烟草相同）</li><li>指定进口仓库</li><li>认可实验室出具的产品安全检测报告</li></ul>
+<ul><li>与外国烟草制造商签订烟草供货合同</li><li>不属于《烟草事业法》规定的不予注册事由（法人包括代表人）</li><li>无资本金或仓库设施要求</li><li>法人和个人经营者均可申请</li></ul>
 <h2>4. 所需材料</h2>
-<ul><li>进口许可申请书</li><li>法人登记及商业计划书</li><li>产品规格和成分申报</li><li>安全检测报告</li><li>资本金及仓库证明</li></ul>
+<ul><li>烟草进口销售业注册申请书（施行规则附件第7号格式）</li><li>与外国烟草制造商签订的烟草供货合同复印件1份</li><li>通关及流通准备：依据《关税法》的进口申报资料，以及标有韩国警示标识和尼古丁溶液容量的包装</li></ul>
 <h2>5. 申请流程</h2>
-<ol><li>产品安全检测（可能需要2~3个月）</li><li>向企划财政部提交申请</li><li>审查及可能的现场检查</li><li>颁发许可证（约30~60个工作日）</li></ol>
-<h2>6. 许可后义务</h2>
-<ul><li>遵守尼古丁含量标签规定</li><li>禁止向未成年人销售（严格执法）</li><li>每季度向主管部门报告</li><li>缴纳消费税</li></ul>
+<ol><li>确认产品是否属于烟草（是否以烟草或尼古丁为原料）</li><li>与外国制造商签订供货合同</li><li>向本店所在地管辖的市·道知事申请注册</li><li>领取注册证</li><li>在开始销售6日前申报零售价格，之后办理进口申报及通关</li></ol>
+<h2>6. 注册后义务</h2>
+<ul><li>在烟盒包装上标示警示语和警示图片；液态产品标示尼古丁溶液容量</li><li>每季度委托指定检测机构进行成分检测</li><li>依据《青少年保护法》禁止向青少年销售</li><li>只能销售给已注册的批发商或获指定的零售商；零售商不得以邮购或电子交易方式销售</li><li>供货方、本店所在地、法人名称或代表人变更时办理变更注册</li><li>须缴纳烟草相关税费，具体金额请向税务专业人士确认</li></ul>
 <div class="faq-section"><h2>常见问题</h2>
-<div class="faq-item"><p class="faq-q">Q. 外国品牌可以进入韩国电子烟市场吗？</p><p class="faq-a">A. 可以，通过获得许可的韩国进口商，或在韩国设立持有许可证的子公司。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 一次性电子烟受同样监管吗？</p><p class="faq-a">A. 是的，所有含尼古丁的电子烟产品均受《烟草事业法》约束。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国品牌可以进入韩国电子烟市场吗？</p><p class="faq-a">A. 可以，通过已办理烟草进口销售业注册的韩国进口商，或在韩国设立营业据点并向管辖的市·道知事办理注册。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 一次性电子烟受同样监管吗？</p><p class="faq-a">A. 是的，以尼古丁为原料的产品均受《烟草事业法》约束。电子烟设备与尼古丁溶液结合的一次性产品，须在该设备上标示尼古丁溶液容量。</p></div>
 </div>
-<div class="cta-box"><h3>申请电子烟进口许可证</h3><p>YouSun Administrative Agency专注于受监管进口许可申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>申请电子烟进口注册</h3><p>YouSun Administrative Agency专注于受监管进口许可申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
   },
   {
     slug: 'e-cigarette-import-license-guide',
     locale: 'ja',
-    title: '韓国電子タバコ輸入許可ガイド2026 — 液体型・加熱型タバコ',
-    metaTitle: '韓国電子タバコ輸入許可2026 — 液体型・加熱型タバコ完全ガイド',
-    metaDescription: '韓国で電子タバコ（液体ニコチン・加熱型タバコ製品）の輸入許可を取得する方法。申請条件、必要書類と申請手続きを詳しく解説。行政書士による無料初回相談あり。',
+    title: '韓国電子タバコ輸入登録ガイド2026 — 液体型・加熱型タバコ',
+    metaTitle: '韓国電子タバコ輸入登録2026 — 液体型・加熱型タバコ完全ガイド',
+    metaDescription: '韓国で電子タバコ（液体ニコチン・加熱型タバコ製品）を輸入するには、本店所在地を管轄する市・道知事へのたばこ輸入販売業登録が必要です。登録要件、必要書類、登録後の義務を詳しく解説。行政書士による無料初回相談あり。',
     category: '物流/流通',
-    excerpt: '韓国の電子タバコ輸入許可取得完全ガイド — 液体ニコチン型と加熱型タバコ製品の申請要件と手続きを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>電子タバコ規制の概要</li><li>電子タバコの種類と規制</li><li>申請資格</li><li>必要書類</li><li>申請手続き</li><li>許可後の義務</li><li>よくある質問</li></ol></div>
+    excerpt: '韓国の電子タバコ輸入ガイド — ニコチンを原料とする液体型・加熱型タバコ製品は、管轄の市・道知事へのたばこ輸入販売業登録が必要です。',
+    content: `<div class="toc"><p>目次</p><ol><li>電子タバコ規制の概要</li><li>電子タバコの種類と規制</li><li>申請資格</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div>
 <h2>1. 電子タバコ規制の概要</h2>
-<p>韓国では電子タバコはたばこ事業法により規制されています。液体ニコチン型（전자담배 액상형）と加熱型タバコ製品（궐련형 전자담배）いずれも、<strong>企画財政部</strong>からの輸入許可が必要です。</p>
+<p>韓国では電子タバコはたばこ事業法により規制されています。同法はたばこを「煙草またはニコチンを原料の全部または一部とし、吸う、吸い込む、蒸気として吸入する、かむ、またはかぐのに適した状態に製造したもの」（薬事法上の医薬品・医薬部外品を除く）と定義しています。そのため、ニコチンを原料とする液体型（전자담배 액상형）や加熱型タバコ製品（궐련형 전자담배）を輸入するには、本店または主たる事務所の所在地を管轄する<strong>市・道知事</strong>への<strong>たばこ輸入販売業登録</strong>が必要です。財政経済部長官の許可が必要なのはたばこ製造業のみです。</p>
 <h2>2. 電子タバコの種類と規制</h2>
-<ul><li><strong>液体ニコチン製品：</strong>輸入許可 + ニコチン製品安全審査</li><li><strong>加熱型タバコ製品（HTP）：</strong>従来のたばこと同様に扱われ、標準たばこ輸入許可が必要</li><li>ニコチンフリーの電子液体は別の規制が適用される可能性あり — 主管省庁に確認のこと</li></ul>
+<ul><li><strong>液体ニコチン製品：</strong>同法上のたばこに該当 — たばこ輸入販売業登録が必要で、容器と包装にニコチン溶液の容量を表示</li><li><strong>加熱型タバコ製品（HTP）：</strong>同法上のたばこに該当 — 同じたばこ輸入販売業登録が必要</li><li><strong>ニコチンフリーのリキッド：</strong>煙草やニコチンを原料としないものはたばこ事業法上のたばこに該当しない — 他の法令の適用は成分に応じて別途確認</li><li><strong>デバイスのみ：</strong>デバイス自体はたばこではないが、電気用品の安全認証などが別途必要な場合がある</li></ul>
 <h2>3. 申請資格</h2>
-<ul><li>韓国に登録された法人であること</li><li>払込資本金：5億ウォン（たばこと同額）</li><li>指定輸入倉庫</li><li>認定機関からの製品安全試験結果</li></ul>
+<ul><li>外国のたばこ製造業者とたばこの供給契約を締結していること</li><li>たばこ事業法上の欠格事由に該当しないこと（法人は代表者を含む）</li><li>資本金や倉庫施設の要件はなし</li><li>法人・個人事業者のいずれも登録可能</li></ul>
 <h2>4. 必要書類</h2>
-<ul><li>輸入許可申請書</li><li>法人登記と事業計画書</li><li>製品仕様と成分申告書</li><li>安全試験報告書</li><li>資本金と倉庫の証明</li></ul>
+<ul><li>たばこ輸入販売業登録申請書（施行規則別紙第7号書式）</li><li>外国のたばこ製造業者と締結した供給契約書の写し1部</li><li>通関・流通の準備：関税法に基づく輸入申告資料、韓国向け警告表示とニコチン溶液容量を表示した包装</li></ul>
 <h2>5. 申請手続き</h2>
-<ol><li>製品安全試験（2〜3ヶ月かかることあり）</li><li>企画財政部へ申請書提出</li><li>審査と場合による現地検査</li><li>許可証の発行（約30〜60営業日）</li></ol>
-<h2>6. 許可後の義務</h2>
-<ul><li>ニコチン含有量の表示遵守</li><li>未成年者への販売禁止（厳格に執行）</li><li>四半期ごとに主管省庁へ報告</li><li>個別消費税の納付</li></ul>
+<ol><li>製品がたばこ（煙草またはニコチンが原料）に該当するかの確認</li><li>外国製造業者との供給契約の締結</li><li>本店所在地を管轄する市・道知事へ登録申請</li><li>登録証の交付</li><li>販売開始の6日前までに販売価格を申告し、輸入申告・通関</li></ol>
+<h2>6. 登録後の義務</h2>
+<ul><li>包装への警告文句・警告図画の表示、液体製品のニコチン溶液容量の表示</li><li>四半期ごとの指定測定機関への成分測定依頼</li><li>青少年保護法に基づく青少年への販売禁止</li><li>登録卸売業者または指定小売人にのみ販売（小売人も通信販売・電子取引による販売は不可）</li><li>供給者、本店所在地、法人の名称・代表者が変わった場合の変更登録</li><li>たばこ関連の税金・負担金がかかるため、金額は税務専門家に確認</li></ul>
 <div class="faq-section"><h2>よくある質問</h2>
-<div class="faq-item"><p class="faq-q">Q. 外国ブランドが韓国の電子タバコ市場に参入できますか？</p><p class="faq-a">A. はい。許可を持つ韓国輸入業者を通じて、または許可を持つ韓国子会社を設立することで可能です。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 使い捨て電子タバコも同様に規制されますか？</p><p class="faq-a">A. はい。ニコチンを含む電子タバコ製品はすべてたばこ事業法の対象となります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国ブランドが韓国の電子タバコ市場に参入できますか？</p><p class="faq-a">A. はい。たばこ輸入販売業登録を済ませた韓国の輸入業者を通じて、または韓国内に事業拠点を設けて管轄の市・道知事に登録することで可能です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 使い捨て電子タバコも同様に規制されますか？</p><p class="faq-a">A. はい。ニコチンを原料とする製品はすべてたばこ事業法の対象です。デバイスとニコチン溶液が一体となった使い捨て製品は、そのデバイスにニコチン溶液の容量を表示する必要があります。</p></div>
 </div>
-<div class="cta-box"><h3>電子タバコ輸入許可の取得をサポートします</h3><p>YouSun Administrative Agencyは規制業種の輸入許可取得を専門としています。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>電子タバコ輸入登録をサポートします</h3><p>YouSun Administrative Agencyは規制業種の輸入許可取得を専門としています。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
   },
 
   // ── BLOG 16: international-logistics-capital-funding-guide ──────────────────
@@ -2440,30 +2443,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Corporate R&D Center Tax Credit in Korea — 2026 Guide',
     metaTitle: 'Korea Corporate R&D Center Tax Credit 2026 — How to Claim',
-    metaDescription: 'How IITP-recognized corporate research labs in Korea can claim R&D tax credits. Credit rates, eligible expenses, application process. Free consultation.',
+    metaDescription: 'How KOITA-recognized corporate research labs in Korea can claim R&D tax credits. Credit rates, eligible expenses, application process. Free consultation.',
     category: 'Business Certification',
-    excerpt: 'A guide to the R&D tax credit available to IITP-recognized corporate research centers in Korea — eligible expenses, credit rates, and how to claim correctly.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>R&amp;D Tax Credit Overview</li><li>Credit Rates</li><li>Eligible R&amp;D Expenses</li><li>Non-Eligible Expenses</li><li>How to Claim</li><li>Audit Preparation</li><li>FAQ</li></ol></div><h2>1. R&amp;D Tax Credit Overview</h2><p>Companies with an IITP-recognized corporate research lab can claim income tax credits on qualifying R&amp;D expenses under the <strong>Tax Special Cases Control Act</strong>.</p><h2>2. Credit Rates</h2><ul><li><strong>SMEs:</strong> 25% of qualifying R&amp;D expense amount</li><li><strong>Mid-sized companies:</strong> 8–15% depending on method</li><li><strong>Large companies:</strong> 0–2% (incremental method primarily)</li></ul><h2>3. Eligible R&amp;D Expenses</h2><ul><li>Researcher salaries and benefits</li><li>Materials and consumables used directly in research</li><li>Depreciation of R&amp;D-dedicated equipment</li><li>Contract research fees paid to universities or certified institutes</li></ul><h2>4. Non-Eligible Expenses</h2><ul><li>General administrative costs</li><li>Marketing and sales expenses</li><li>Equipment not exclusively used for R&amp;D</li></ul><h2>5. How to Claim</h2><ol><li>Maintain quarterly R&amp;D expense records segregated from general accounts</li><li>Prepare R&amp;D expense statement for the tax year</li><li>Include the credit in the annual corporate income tax return</li><li>Attach IITP recognition certificate as supporting document</li></ol><h2>6. Audit Preparation</h2><ul><li>Keep all research documentation: lab notebooks, test reports, researcher time records</li><li>Ensure facility and personnel match what was declared to IITP</li><li>Separate R&amp;D bank account is recommended for clarity</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can R&amp;D credits be carried forward if they exceed tax liability?</p><p class="faq-a">A. Yes. Excess credits can be carried forward for up to 10 years in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. Do we need a separate research account to claim credits?</p><p class="faq-a">A. It is not legally required but strongly recommended for easy verification during audits.</p></div></div><div class="cta-box"><h3>Maximize Your R&amp;D Tax Credits</h3><p>YouSun Administrative Agency helps companies register their R&amp;D labs and optimize tax credit claims. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    excerpt: 'A guide to the R&D tax credit available to KOITA-recognized corporate research centers in Korea — eligible expenses, credit rates, and how to claim correctly.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>R&amp;D Tax Credit Overview</li><li>Credit Rates</li><li>Eligible R&amp;D Expenses</li><li>Non-Eligible Expenses</li><li>How to Claim</li><li>Audit Preparation</li><li>FAQ</li></ol></div><h2>1. R&amp;D Tax Credit Overview</h2><p>Companies with a corporate research lab or R&amp;D department recognized by the Minister of Science and ICT (applications handled by KOITA, the Korea Industrial Technology Association) can claim corporate or business income tax credits on qualifying R&amp;D expenses under the <strong>Tax Special Cases Control Act</strong>.</p><h2>2. Credit Rates</h2><ul><li><strong>SMEs:</strong> 25% of current-year general R&amp;D expenses, or 50% of the amount exceeding the previous tax year</li><li><strong>Mid-sized companies:</strong> 8% (current-year method) or 40% (incremental method)</li><li><strong>Other companies:</strong> up to 2% (current-year method) or 25% (incremental method)</li><li>The incremental method cannot be chosen if no general R&amp;D expenses arose in the previous 4 years, or if the amount for the previous tax year is below the 4-year annual average. Separate rates apply to new growth/source technology and national strategic technology R&amp;D. Rates depend on company size, expense category and tax year, so confirm them with a licensed tax accountant.</li></ul><h2>3. Eligible R&amp;D Expenses</h2><ul><li>Salaries of researchers and research assistants in the recognized lab or department, plus the employer share of social insurance (retirement-related amounts and certain controlling-shareholder executives excluded)</li><li>Samples, parts, raw materials and reagents used for research</li><li>Rental of research and testing facilities</li><li>Contract research fees paid to universities, research institutes and other designated organizations</li></ul><h2>4. Non-Eligible Expenses</h2><ul><li>General administrative costs</li><li>Marketing and sales expenses</li><li>Equipment not exclusively used for R&amp;D</li></ul><h2>5. How to Claim</h2><ol><li>Keep R&amp;D expense records segregated from general accounts</li><li>Prepare the R&amp;D expense statement for the tax year</li><li>Submit the tax credit application, the R&amp;D expense statement and supporting documents with the annual tax return to the competent tax office</li><li>Have the application and calculation checked by a licensed tax accountant</li></ol><h2>6. Audit Preparation</h2><ul><li>Prepare and keep R&amp;D plans, R&amp;D reports and lab notebooks, together with test reports and researcher time records</li><li>Ensure facility and personnel match what was reported to KOITA, and file change reports within 30 days</li><li>Separate R&amp;D bank account is recommended for clarity</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can R&amp;D credits be carried forward if they exceed tax liability?</p><p class="faq-a">A. Yes. Excess credits can be carried forward for up to 10 years in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. Do we need a separate research account to claim credits?</p><p class="faq-a">A. It is not legally required but strongly recommended for easy verification during audits.</p></div></div><div class="cta-box"><h3>Maximize Your R&amp;D Tax Credits</h3><p>YouSun Administrative Agency helps companies obtain and maintain R&amp;D lab recognition. Tax credit claims should be confirmed with a licensed tax accountant. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'rnd-center-tax-credit',
     locale: 'zh',
     title: '韩国企业研究所研发税收抵扣指南2026',
     metaTitle: '韩国企业研究所研发税收抵扣2026 — 申报方法详解',
-    metaDescription: '韩国IITP认定企业研究所如何申报研发税收抵扣。抵扣比率、合规费用、申请流程及审核应对技巧。免费初次咨询。本文依次说明研发税收抵扣概述、抵扣比率、合规研发费用、不合规费用，可按步骤逐项确认。',
+    metaDescription: '韩国KOITA认定企业研究所如何申报研发税收抵扣。抵扣比率、合规费用、申请流程及审核应对技巧。免费初次咨询。本文依次说明研发税收抵扣概述、抵扣比率、合规研发费用、不合规费用，可按步骤逐项确认。',
     category: '企业认证',
-    excerpt: '韩国IITP认定企业研究中心研发税收抵扣指南，包括合规费用、抵扣比率及正确申报方法。',
-    content: `<div class="toc"><p>目录</p><ol><li>研发税收抵扣概述</li><li>抵扣比率</li><li>合规研发费用</li><li>不合规费用</li><li>申报方法</li><li>审核准备</li><li>常见问题</li></ol></div><h2>1. 研发税收抵扣概述</h2><p>持有IITP认定企业附属研究所的公司，可依据<strong>《租税特例限制法》</strong>就合规研发费用申报所得税抵扣。</p><h2>2. 抵扣比率</h2><ul><li><strong>中小企业：</strong>合规研发费用的25%</li><li><strong>中型企业：</strong>根据方法为8~15%</li><li><strong>大型企业：</strong>0~2%（主要采用增量法）</li></ul><h2>3. 合规研发费用</h2><ul><li>研究人员薪酬和福利</li><li>直接用于研究的材料和耗材</li><li>研发专用设备的折旧</li><li>支付给大学或认定机构的合同研究费</li></ul><h2>4. 不合规费用</h2><ul><li>一般行政费用</li><li>营销和销售费用</li><li>非专用于研发的设备费用</li></ul><h2>5. 申报方法</h2><ol><li>按季度维护与一般账目分离的研发费用记录</li><li>准备税收年度研发费用报告</li><li>在年度企业所得税申报中包含抵扣</li><li>附上IITP认定证书作为支持文件</li></ol><h2>6. 审核准备</h2><ul><li>保存所有研究文件：实验记录、测试报告、研究人员时间记录</li><li>确保设施和人员与向IITP申报的内容一致</li><li>建议设立独立研发银行账户，便于核查</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 研发抵扣超过税款时可以结转吗？</p><p class="faq-a">A. 可以。韩国超额抵扣可结转最多10年。</p></div><div class="faq-item"><p class="faq-q">Q. 申报抵扣需要独立的研究账户吗？</p><p class="faq-a">A. 法律上不要求，但强烈建议，便于审核时核查。</p></div></div><div class="cta-box"><h3>最大化研发税收抵扣</h3><p>YouSun Administrative Agency协助企业登记研发实验室并优化税收抵扣申报。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    excerpt: '韩国KOITA认定企业研究中心研发税收抵扣指南，包括合规费用、抵扣比率及正确申报方法。',
+    content: `<div class="toc"><p>目录</p><ol><li>研发税收抵扣概述</li><li>抵扣比率</li><li>合规研发费用</li><li>不合规费用</li><li>申报方法</li><li>审核准备</li><li>常见问题</li></ol></div><h2>1. 研发税收抵扣概述</h2><p>持有经科学技术信息通信部长官认定（认定业务委托韩国产业技术振兴协会KOITA办理）的企业附属研究所或研发专职部门的公司，可依据<strong>《租税特例限制法》</strong>就合规研发费用申报法人税或事业所得税抵扣。</p><h2>2. 抵扣比率</h2><ul><li><strong>中小企业：</strong>当期一般研发费用的25%，或超过上一纳税年度金额部分的50%</li><li><strong>中坚企业：</strong>当期法8%，增量法40%</li><li><strong>其他企业：</strong>当期法最高2%，增量法25%</li><li>过去4年未发生一般研发费用，或上一纳税年度发生额低于过去4年年均发生额时，不能选择增量法。新增长·原创技术及国家战略技术研发费用适用另行规定的比率。抵扣率因企业规模、费用类别和纳税年度而异，请向税务师等税务专业人士确认。</li></ul><h2>3. 合规研发费用</h2><ul><li>经认定的研究所或研发专职部门研究人员及研究辅助人员的薪酬，以及雇主负担的社会保险费（退休相关金额及部分控股股东高管除外）</li><li>研究用样品、零部件、原材料和试剂</li><li>研究·试验用设施的租赁费</li><li>支付给大学、研究机构等指定机构的委托研究费</li></ul><h2>4. 不合规费用</h2><ul><li>一般行政费用</li><li>营销和销售费用</li><li>非专用于研发的设备费用</li></ul><h2>5. 申报方法</h2><ol><li>将研发费用记录与一般账目分开管理</li><li>准备该纳税年度的研发费用明细表</li><li>在申报纳税时向管辖税务署提交税额抵扣申请书、研发费用明细表及证明材料</li><li>申请及计算请由税务师等税务专业人士确认</li></ol><h2>6. 审核准备</h2><ul><li>编制并保存研发计划书、研发报告书及研究笔记，以及测试报告、研究人员时间记录</li><li>确保设施和人员与向KOITA申报的内容一致，变更时30日内申报</li><li>建议设立独立研发银行账户，便于核查</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 研发抵扣超过税款时可以结转吗？</p><p class="faq-a">A. 可以。韩国超额抵扣可结转最多10年。</p></div><div class="faq-item"><p class="faq-q">Q. 申报抵扣需要独立的研究账户吗？</p><p class="faq-a">A. 法律上不要求，但强烈建议，便于审核时核查。</p></div></div><div class="cta-box"><h3>最大化研发税收抵扣</h3><p>YouSun Administrative Agency协助企业办理研发实验室认定及后续管理。税收抵扣申报请向税务师等税务专业人士确认。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
   },
   {
     slug: 'rnd-center-tax-credit',
     locale: 'ja',
     title: '韓国企業付設研究所R&D税額控除ガイド2026',
     metaTitle: '韓国企業研究所R&D税額控除2026 — 申告方法の詳細解説',
-    metaDescription: 'IITP認定を受けた韓国の企業付設研究所がR&D税額控除を申告する方法。控除率、対象費用、申請プロセス、税務調査対策。行政書士による無料初回相談。',
+    metaDescription: 'KOITA認定を受けた韓国の企業付設研究所がR&D税額控除を申告する方法。控除率、対象費用、申請プロセス、税務調査対策。行政書士による無料初回相談。',
     category: '企業認証',
-    excerpt: '韓国IITP認定企業研究センターのR&D税額控除ガイド — 対象費用、控除率、正しい申告方法を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>R&amp;D税額控除の概要</li><li>控除率</li><li>対象R&amp;D費用</li><li>非対象費用</li><li>申告方法</li><li>税務調査への備え</li><li>よくある質問</li></ol></div><h2>1. R&amp;D税額控除の概要</h2><p>IITP認定の企業付設研究所を持つ会社は、<strong>「租税特例制限法」</strong>に基づき適格R&amp;D費用に対する所得税控除を申告できます。</p><h2>2. 控除率</h2><ul><li><strong>中小企業：</strong>適格R&amp;D費用の25%</li><li><strong>中規模企業：</strong>方法により8〜15%</li><li><strong>大企業：</strong>0〜2%（主に増分法）</li></ul><h2>3. 対象R&amp;D費用</h2><ul><li>研究者の給与と福利厚生</li><li>研究に直接使用する材料・消耗品</li><li>R&amp;D専用機器の減価償却費</li><li>大学または認定機関への委託研究費</li></ul><h2>4. 非対象費用</h2><ul><li>一般管理費</li><li>マーケティング・販売費用</li><li>R&amp;D専用でない機器の費用</li></ul><h2>5. 申告方法</h2><ol><li>四半期ごとに一般会計と分離したR&amp;D費用記録を維持する</li><li>税務年度のR&amp;D費用明細書を準備する</li><li>年次法人所得税申告に控除を含める</li><li>IITP認定証明書を添付書類として添付する</li></ol><h2>6. 税務調査への備え</h2><ul><li>すべての研究記録を保管：実験ノート、試験報告書、研究者の勤務時間記録</li><li>施設と人員がIITPへの申告内容と一致していることを確認</li><li>明確化のため専用R&amp;D銀行口座の設置を推奨</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. R&amp;D控除が税額を超えた場合、繰り越せますか？</p><p class="faq-a">A. はい。韓国では超過控除を最大10年間繰り越すことができます。</p></div><div class="faq-item"><p class="faq-q">Q. 控除を申告するために別の研究口座が必要ですか？</p><p class="faq-a">A. 法的には不要ですが、税務調査時の検証のために強く推奨します。</p></div></div><div class="cta-box"><h3>R&amp;D税額控除を最大限に活用しましょう</h3><p>YouSun Administrative Agencyが研究所の登録と税額控除の最適化をサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    excerpt: '韓国KOITA認定企業研究センターのR&D税額控除ガイド — 対象費用、控除率、正しい申告方法を解説します。',
+    content: `<div class="toc"><p>目次</p><ol><li>R&amp;D税額控除の概要</li><li>控除率</li><li>対象R&amp;D費用</li><li>非対象費用</li><li>申告方法</li><li>税務調査への備え</li><li>よくある質問</li></ol></div><h2>1. R&amp;D税額控除の概要</h2><p>科学技術情報通信部長官の認定（認定業務は韓国産業技術振興協会KOITAに委託）を受けた企業付設研究所または研究開発専担部署を持つ会社は、<strong>「租税特例制限法」</strong>に基づき適格R&amp;D費用に対する法人税または事業所得税の控除を申告できます。</p><h2>2. 控除率</h2><ul><li><strong>中小企業：</strong>当期の一般研究・人材開発費の25%、または前課税年度を超える金額の50%</li><li><strong>中堅企業：</strong>当期分方式8%、増加分方式40%</li><li><strong>その他の企業：</strong>当期分方式最大2%、増加分方式25%</li><li>過去4年間に一般研究・人材開発費が発生していない場合、または前課税年度の発生額が過去4年間の年平均より少ない場合は増加分方式を選択できません。新成長・源泉技術および国家戦略技術の研究開発費には別の控除率が適用されます。控除率は企業規模・費用区分・課税年度により異なるため、税理士など税務専門家にご確認ください。</li></ul><h2>3. 対象R&amp;D費用</h2><ul><li>認定を受けた研究所・専担部署の研究専担要員および研究補助員の人件費と事業主負担の社会保険料（退職関連金額や一部の支配株主である役員は除外）</li><li>研究用の見本品・部品・原材料・試薬類</li><li>研究・試験用施設の賃借料</li><li>大学・研究機関など所定の機関への委託研究費</li></ul><h2>4. 非対象費用</h2><ul><li>一般管理費</li><li>マーケティング・販売費用</li><li>R&amp;D専用でない機器の費用</li></ul><h2>5. 申告方法</h2><ol><li>一般会計と分離したR&amp;D費用記録を維持する</li><li>課税年度のR&amp;D費用明細書を準備する</li><li>課税標準申告の際、税額控除申請書・研究及び人材開発費明細書・証拠書類を管轄税務署長に提出する</li><li>申請と計算は税理士など税務専門家に確認する</li></ol><h2>6. 税務調査への備え</h2><ul><li>研究開発計画書・研究開発報告書・研究ノートを作成・保管し、試験報告書や研究者の勤務時間記録も保管</li><li>施設と人員がKOITAへの申告内容と一致していることを確認し、変更時は30日以内に変更申告</li><li>明確化のため専用R&amp;D銀行口座の設置を推奨</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. R&amp;D控除が税額を超えた場合、繰り越せますか？</p><p class="faq-a">A. はい。韓国では超過控除を最大10年間繰り越すことができます。</p></div><div class="faq-item"><p class="faq-q">Q. 控除を申告するために別の研究口座が必要ですか？</p><p class="faq-a">A. 法的には不要ですが、税務調査時の検証のために強く推奨します。</p></div></div><div class="cta-box"><h3>R&amp;D税額控除を最大限に活用しましょう</h3><p>YouSun Administrative Agencyが研究所の認定取得と事後管理をサポートします。税額控除の申告は税理士など税務専門家にご確認ください。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
   },
 
   // ── BLOG 34: cosmetics-responsible-distributor ────────────────────────────
@@ -4006,7 +4009,7 @@ const blogData: BlogI18n[] = [
 <tr><td>Continuing education</td><td>Refresher training by the competent Mayor or Governor is mandatory, and practical training by the Minister of the Interior and Safety must be completed before starting practice.</td></tr>
 </tbody></table>
 <p>After a move, the scrivener must report the new location to the competent local government within 10 days. If the address on your engagement letter differs from the certificate, ask whether that report has been filed.</p>
-<p>A scrivener corporation adds one check: it requires 3 or more scriveners as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/blog/nonprofit-association-permit">non-profit association establishment permits</a>.</p>
+<p>A scrivener corporation adds one check: it requires 3 or more scriveners as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/en/blog/nonprofit-corporation-establishment-guide">non-profit association establishment permits</a>.</p>
 
 <h2>Penalties for Unlicensed Representation</h2>
 <p>A non-scrivener may not carry on Article 2 work as a business, except where another statute allows it, and may not use the title of scrivener or a similar title. Both prohibitions are backed by criminal penalties and administrative fines.</p>
@@ -4083,7 +4086,7 @@ const blogData: BlogI18n[] = [
 <tr><td>研修教育</td><td>行政士须接受市·道知事实施的研修教育；开始执业前须完成行政安全部长官施行的实务教育</td></tr>
 </tbody></table>
 <p>事务所迁移的，须自迁移之日起10日内向迁移后事务所所在地的管辖市长等申报。若委托合同上的地址与确认证地址不一致，宜询问迁移申报是否已办妥。</p>
-<p>法人形态还须确认一项：行政士法人须由3名以上行政士作为成员方可设立，并须就因故意或过失致委托人损害的赔偿责任，计提准备金或投保。具体流程可见<a href="/blog/nonprofit-association-permit">非营利社团法人设立许可程序</a>。</p>
+<p>法人形态还须确认一项：行政士法人须由3名以上行政士作为成员方可设立，并须就因故意或过失致委托人损害的赔偿责任，计提准备金或投保。具体流程可见<a href="/zh/blog/nonprofit-corporation-establishment-guide">非营利社团法人设立许可程序</a>。</p>
 
 <h2>无资格代办的处罚</h2>
 <p>非行政士者，除其他法律允许的情形外，不得以第2条所定业务为业，亦不得使用行政士或与之类似的名称。上述禁止均有刑罚与罚款作为保障。</p>
@@ -4161,7 +4164,7 @@ const blogData: BlogI18n[] = [
 <tr><td>研修教育</td><td>行政士は市・道知事が実施する研修教育を受けなければならず、業務を開始するには行政安全部長官が施行する実務教育を修了する必要がある</td></tr>
 </tbody></table>
 <p>事務所を移転した場合は、移転した日から10日以内に移転後の事務所所在地を管轄する市長等へ届け出なければなりません。委任契約書の住所と確認証の住所が異なる場合は、移転の届出が済んでいるかをお尋ねください。</p>
-<p>法人形態であれば確認事項がもう一つあります。行政士法人は3名以上の行政士を構成員として設立でき、職務の遂行に際し故意又は過失で依頼人に損害を与えた場合の賠償責任を担保するため、損害賠償準備金の積立て又は保険加入等の措置を講じなければなりません。非営利法人の設立のように期間の長い案件では確認しておくと安心です。手続の流れは<a href="/blog/nonprofit-association-permit">非営利社団法人の設立許可手続</a>でご覧いただけます。</p>
+<p>法人形態であれば確認事項がもう一つあります。行政士法人は3名以上の行政士を構成員として設立でき、職務の遂行に際し故意又は過失で依頼人に損害を与えた場合の賠償責任を担保するため、損害賠償準備金の積立て又は保険加入等の措置を講じなければなりません。非営利法人の設立のように期間の長い案件では確認しておくと安心です。手続の流れは<a href="/ja/blog/nonprofit-corporation-establishment-guide">非営利社団法人の設立許可手続</a>でご覧いただけます。</p>
 
 <h2>無資格代行と違反行為への制裁</h2>
 <p>行政士でない者は、他の法律により許容される場合を除き第2条の業務を業として行うことができず、行政士又はこれと類似する名称を使用することもできません。これらの禁止は罰則と過怠料によって担保されています。</p>

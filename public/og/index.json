@@ -8321,22 +8321,6 @@
    "generated_at": "2026-10-23T05:03:14.555Z",
    "version": "1.4"
   },
-  "news/eping-120659": {
-   "hash": "0e0822f805ab1f1aeb4360157fda59516a37bef22fee3f18f6451519732fa309",
-   "source": "pexels",
-   "seed": 580330305,
-   "theme": "default",
-   "prompt_subject": "seoul city skyline",
-   "map_version": null,
-   "pexels_id": 12518550,
-   "pexels_author": "叶董凝",
-   "category": "연기용 촛불, 담배용 촛불, 파이프용 촛불 (cigarette lighters, cigar lighters and pipe lighters)",
-   "visa": null,
-   "lang": "ko",
-   "slug": "eping-120659",
-   "generated_at": "2026-10-23T05:03:15.021Z",
-   "version": "1.4"
-  },
   "news/fr-2026-21516": {
    "hash": "1493dc4d8dc3ffa56e5e9e10aadd5e1c24d553d11f3d68e1e5c611d84709766b",
    "source": "pexels",
@@ -8879,6 +8863,38 @@
    "lang": "ja",
    "slug": "urban-guesthouse-change-registration",
    "generated_at": "2026-10-24T08:50:20.035Z",
+   "version": "1.4"
+  },
+  "news/eping-120659": {
+   "hash": "10c71c85a331b2984c791f6134b5b375bbcfab206402fc6e5db672cb3a131a3b",
+   "source": "pexels",
+   "seed": 580330305,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 40494459,
+   "pexels_author": "HONG SON",
+   "category": "라이터(궐련·엽궐련·파이프용) (cigarette lighters, cigar lighters and pipe lighters)",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-120659",
+   "generated_at": "2026-10-27T05:39:19.290Z",
+   "version": "1.4"
+  },
+  "news/eping-120884": {
+   "hash": "880436cf918e17a33cac15f44603f841cd4ccfbe2c9ac05bdd8d678dc61b6ae8",
+   "source": "pexels",
+   "seed": 2748747332,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 40494463,
+   "pexels_author": "HONG SON",
+   "category": "자동차 충돌시험용 인체모형(THOR-50M) (anthropomorphic test devices)",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-120884",
+   "generated_at": "2026-10-27T05:39:20.191Z",
    "version": "1.4"
   }
  }

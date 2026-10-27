@@ -111,10 +111,10 @@ export default function AboutPage() {
         <div className="container">
           <div className="about-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
             {[
-              { value: '24h', label: '평균 응답 시간' },
+              { value: '09:30–17:30', label: '평일 상담시간' },
             ].map((s) => (
               <div key={s.label} className="fade-up" style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: '2.25rem', fontWeight: 700, color: 'white', lineHeight: 1 }}>
+                <div style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.25rem, 4.5vw, 2.25rem)', fontWeight: 700, color: 'white', lineHeight: 1, whiteSpace: 'nowrap' }}>
                   {s.value}
                 </div>
                 <div style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', marginTop: '0.5rem' }}>{s.label}</div>

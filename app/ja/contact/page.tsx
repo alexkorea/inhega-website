@@ -3,7 +3,7 @@ import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
   title: 'お問い合わせ | YouSun Administrative Agency',
-  description: 'お問い合わせ内容をご記入いただければ、24時間以内に担当行政書士よりご連絡いたします。電話・メールでもご相談いただけます。',
+  description: 'お問い合わせ内容をご記入いただければ、相談受付時間（平日09:30〜17:30）内に担当者より順次ご連絡いたします。電話・メールでもご相談いただけます。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/contact',
     languages: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'お問い合わせ | YouSun Administrative Agency',
-    description: 'お問い合わせ内容をご記入いただければ、24時間以内に担当行政書士よりご連絡いたします。',
+    description: 'お問い合わせ内容をご記入いただければ、相談受付時間（平日09:30〜17:30）内に担当者より順次ご連絡いたします。',
     url: 'https://inhega.co.kr/ja/contact',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
   },

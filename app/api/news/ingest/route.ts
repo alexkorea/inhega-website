@@ -35,7 +35,7 @@
  */
 import { NextRequest, NextResponse } from 'next/server'
 import { getCloudflareContext } from '@opennextjs/cloudflare'
-import { NEWS_MAX_BATCH, deleteNews, isListable, readAllNews, runDateCheck, upsertNews } from '@/lib/news-data'
+import { NEWS_MAX_BATCH, deleteNews, isListable, readStoredNews, runDateCheck, upsertNews } from '@/lib/news-data'
 
 export const dynamic = 'force-dynamic'
 
@@ -159,7 +159,7 @@ export async function GET(req: NextRequest) {
 
   if (req.nextUrl.searchParams.get('raw') !== '1') return json({ ok: true, ready: true }, 200)
 
-  const all = await readAllNews()
+  const all = await readStoredNews()
 
   // ?raw=1&datecheck=1 — 법제처 항목 전부를 지금 원문과 다시 대조한다(저장하지 않음).
   // 워커에서 law.go.kr 이 읽히는지와 기존 글의 불일치를 쓰기 없이 확인하는 점검 경로.

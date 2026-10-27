@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
 import { ogThumb } from '@/lib/og-thumbs.generated'
+import { koBlogHref } from '@/lib/blog-redirects'
 
 export async function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }))
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const description = post?.metaDescription ?? koPost?.meta_description ?? ''
   const ogPath = ogThumb('en', slug) || ogThumb('ko', slug)
   const image = ogPath ? `https://inhega.co.kr${ogPath}` : ''
-  const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${slug}`, 'x-default': `https://inhega.co.kr/blog/${slug}` }
+  const languages: Record<string, string> = { ko: `https://inhega.co.kr${koBlogHref(slug)}`, 'x-default': `https://inhega.co.kr${koBlogHref(slug)}` }
   if (post) languages.en = `https://inhega.co.kr/en/blog/${slug}`
   if (getBlogI18n('zh', slug)) languages.zh = `https://inhega.co.kr/zh/blog/${slug}`
   if (getBlogI18n('ja', slug)) languages.ja = `https://inhega.co.kr/ja/blog/${slug}`
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description,
     robots: post ? undefined : { index: false, follow: true },
     alternates: {
-      canonical: post ? `https://inhega.co.kr/en/blog/${slug}` : `https://inhega.co.kr/blog/${slug}`,
+      canonical: post ? `https://inhega.co.kr/en/blog/${slug}` : `https://inhega.co.kr${koBlogHref(slug)}`,
       languages,
     },
     openGraph: {
@@ -137,7 +138,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                 ) : (
                   <div style={{ padding: '3rem', textAlign: 'center', color: 'var(--slate)' }}>
                     <p style={{ fontSize: '1.125rem', marginBottom: '1rem' }}>English translation coming soon.</p>
-                    <Link href={`/blog/${slug}`} style={{ color: 'var(--burgundy)' }}>Read in Korean</Link>
+                    <Link href={koBlogHref(slug)} style={{ color: 'var(--burgundy)' }}>Read in Korean</Link>
                   </div>
                 )}
               </article>
@@ -160,7 +161,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
 
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>Read in Other Languages</p>
-                  <Link href={`/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어</Link>
+                  <Link href={koBlogHref(slug)} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>한국어</Link>
                   <Link href={`/zh/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0', borderBottom: '1px solid var(--border-light)' }}>中文</Link>
                   <Link href={`/ja/blog/${slug}`} style={{ display: 'block', fontSize: '0.8125rem', color: 'var(--burgundy)', textDecoration: 'none', padding: '0.4rem 0' }}>日本語</Link>
                 </div>

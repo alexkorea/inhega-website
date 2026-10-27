@@ -40,7 +40,7 @@ export const translations = {
       ctaSecondary: 'Our Services',
     },
     stats: [
-      { value: '24h', label: 'Avg. Response Time' },
+      { value: '09:30–17:30', label: 'Weekday Hours (KST)' },
     ],
     trust: [
       'Officially Registered Administrative Scriveners',
@@ -87,7 +87,7 @@ export const translations = {
     contact: {
       badge: 'Contact Us',
       title: 'Speak Directly\nWith Our Experts',
-      desc: 'Leave your inquiry and a licensed scrivener will contact you within 24 hours.',
+      desc: 'Leave your inquiry and a licensed scrivener will contact you during our consultation hours (weekdays 09:30–17:30 KST).',
       phone: 'Phone',
       email: 'Email',
       hours: 'Business Hours',
@@ -107,7 +107,7 @@ export const translations = {
         submit: 'Send Inquiry',
         submitting: 'Sending...',
         successTitle: 'Inquiry Received',
-        successDesc: 'A licensed scrivener will contact you within 24 hours.',
+        successDesc: 'A licensed scrivener will contact you during our consultation hours (weekdays 09:30–17:30 KST).',
         successReset: 'Send Another',
         error: 'An error occurred. Please try again or contact us by phone.',
       },
@@ -153,7 +153,7 @@ export const translations = {
       ctaSecondary: '查看服务',
     },
     stats: [
-      { value: '24h', label: '平均响应时间' },
+      { value: '09:30–17:30', label: '工作日咨询时间' },
     ],
     trust: [
       '正式注册行政士事务所',
@@ -200,7 +200,7 @@ export const translations = {
     contact: {
       badge: '联系我们',
       title: '与专业行政士\n直接沟通',
-      desc: '留下您的咨询信息，专业行政士将在24小时内与您联系。',
+      desc: '留下您的咨询信息，专业行政士将在咨询时间（工作日09:30–17:30）内依次与您联系。',
       phone: '电话',
       email: '邮箱',
       hours: '营业时间',
@@ -220,7 +220,7 @@ export const translations = {
         submit: '提交咨询',
         submitting: '发送中...',
         successTitle: '咨询已接收',
-        successDesc: '专业行政士将在24小时内与您联系。',
+        successDesc: '专业行政士将在咨询时间（工作日09:30–17:30）内依次与您联系。',
         successReset: '再次咨询',
         error: '发生错误，请稍后重试或致电联系我们。',
       },
@@ -266,7 +266,7 @@ export const translations = {
       ctaSecondary: 'サービス一覧',
     },
     stats: [
-      { value: '24h', label: '平均対応時間' },
+      { value: '09:30–17:30', label: '平日相談時間' },
     ],
     trust: [
       '正式登録行政書士事務所',
@@ -291,7 +291,7 @@ export const translations = {
       title: '信頼できるパートナーが\n必要です',
       desc: '単なる書類代行ではありません。申請から取得まで責任を持つ、許認可の専門パートナーです。',
       points: [
-        '行政書士法に基づく正式登録事務所',
+        '韓国の行政士法に基づく行政士事務所',
         '担当行政書士による1対1サポート',
         '進捗状況の定期報告',
         '結果に対する責任ある対応',
@@ -313,7 +313,7 @@ export const translations = {
     contact: {
       badge: 'お問い合わせ',
       title: '専門家と直接\nご相談ください',
-      desc: 'お問い合わせ内容をご記入いただければ、24時間以内に担当行政書士よりご連絡いたします。',
+      desc: 'お問い合わせ内容をご記入いただければ、相談受付時間（平日09:30〜17:30）内に担当者より順次ご連絡いたします。',
       phone: '電話',
       email: 'メール',
       hours: '営業時間',
@@ -333,7 +333,7 @@ export const translations = {
         submit: 'お問い合わせを送る',
         submitting: '送信中...',
         successTitle: 'お問い合わせを受け付けました',
-        successDesc: '24時間以内に担当行政書士よりご連絡いたします。',
+        successDesc: '相談受付時間（平日09:30〜17:30）内に担当者より順次ご連絡いたします。',
         successReset: 'もう一度お問い合わせ',
         error: 'エラーが発生しました。しばらく後でお試しいただくか、お電話でお問い合わせください。',
       },

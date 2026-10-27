@@ -2,8 +2,24 @@ import { EmailOff } from '@/components/ui/EmailOff'
 
 export const metadata = {
   title: '개인정보처리방침 | 유선행정사사무소',
+  description: '유선행정사사무소 홈페이지의 상담·견적 문의 개인정보처리방침입니다. 수집하는 항목과 처리 목적, 보유 기간, 제3자 제공, 정보주체의 권리와 개인정보 보호책임자를 안내합니다.',
   alternates: {
     canonical: 'https://inhega.co.kr/privacy',
+  },
+  openGraph: {
+    title: '개인정보처리방침 | 유선행정사사무소',
+    description: '유선행정사사무소 홈페이지의 상담·견적 문의 개인정보처리방침입니다. 수집하는 항목과 처리 목적, 보유 기간, 제3자 제공, 정보주체의 권리와 개인정보 보호책임자를 안내합니다.',
+    url: 'https://inhega.co.kr/privacy',
+    siteName: '유선행정사사무소',
+    locale: 'ko_KR',
+    type: 'website',
+    images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '인허가 행정사 유선행정사사무소' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '개인정보처리방침 | 유선행정사사무소',
+    description: '유선행정사사무소 홈페이지의 상담·견적 문의 개인정보처리방침입니다. 수집하는 항목과 처리 목적, 보유 기간, 제3자 제공, 정보주체의 권리와 개인정보 보호책임자를 안내합니다.',
+    images: ['/images/hero-seoul.png'],
   },
 }
 

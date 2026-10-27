@@ -58,7 +58,7 @@ export default function ContactForm() {
             전문가와<br />직접 상담하세요
           </h1>
           <p className="text-body-lg" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1rem' }}>
-            문의 내용을 남겨주시면 24시간 내 전문 행정사가 연락드립니다.
+            문의 내용을 남겨주시면 상담시간(평일 09:30~17:30)에 순차적으로 전문 행정사가 연락드립니다.
           </p>
         </div>
       </section>
@@ -138,7 +138,7 @@ export default function ContactForm() {
                     </svg>
                   </div>
                   <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>문의가 접수되었습니다</h3>
-                  <p style={{ color: 'var(--slate)', marginBottom: '2rem' }}>24시간 내 전문 행정사가 연락드립니다.</p>
+                  <p style={{ color: 'var(--slate)', marginBottom: '2rem' }}>상담시간(평일 09:30~17:30)에 순차적으로 전문 행정사가 연락드립니다.</p>
                   <button onClick={() => { setStatus('idle'); setForm({ name: '', phone: '', email: '', service: '', message: '' }) }} className="btn btn-secondary">
                     다시 문의하기
                   </button>
@@ -147,8 +147,12 @@ export default function ContactForm() {
                 <form onSubmit={handleSubmit} className={styles.form}>
                   <div className={styles.formGrid}>
                     <div className="form-group">
-                      <label className="form-label">이름 <span className="required">*</span></label>
+                      <label className="form-label" htmlFor="contact-name">이름 <span className="required">*</span></label>
                       <input
+                        id="contact-name"
+                        name="name"
+                        autoComplete="name"
+                        aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                         className="form-input"
                         type="text"
                         placeholder="홍길동"
@@ -158,8 +162,12 @@ export default function ContactForm() {
                       />
                     </div>
                     <div className="form-group">
-                      <label className="form-label">연락처 <span className="required">*</span></label>
+                      <label className="form-label" htmlFor="contact-phone">연락처 <span className="required">*</span></label>
                       <input
+                        id="contact-phone"
+                        name="phone"
+                        autoComplete="tel"
+                        aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                         className="form-input"
                         type="tel"
                         placeholder="010-0000-0000"
@@ -170,8 +178,12 @@ export default function ContactForm() {
                     </div>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">이메일</label>
+                    <label className="form-label" htmlFor="contact-email">이메일</label>
                     <input
+                      id="contact-email"
+                      name="email"
+                      autoComplete="email"
+                      aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                       className="form-input"
                       type="email"
                       placeholder="example@email.com"
@@ -180,8 +192,11 @@ export default function ContactForm() {
                     />
                   </div>
                   <div className="form-group">
-                    <label className="form-label">문의 서비스</label>
+                    <label className="form-label" htmlFor="contact-service">문의 서비스</label>
                     <select
+                      id="contact-service"
+                      name="service"
+                      aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                       className="form-input"
                       value={form.service}
                       onChange={e => setForm(f => ({ ...f, service: e.target.value }))}
@@ -196,8 +211,11 @@ export default function ContactForm() {
                     </select>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">문의 내용 <span className="required">*</span></label>
+                    <label className="form-label" htmlFor="contact-message">문의 내용 <span className="required">*</span></label>
                     <textarea
+                      id="contact-message"
+                      name="message"
+                      aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                       className="form-input form-textarea"
                       placeholder="문의 내용을 자세히 입력해 주세요"
                       value={form.message}
@@ -206,7 +224,7 @@ export default function ContactForm() {
                     />
                   </div>
                   {status === 'error' && (
-                    <p className="form-error">오류가 발생했습니다. 잠시 후 다시 시도하거나 전화로 문의해주세요.</p>
+                    <p id="contact-form-error" className="form-error" role="alert">오류가 발생했습니다. 잠시 후 다시 시도하거나 전화로 문의해주세요.</p>
                   )}
                   <PrivacyConsent locale="ko" />
                   <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>

@@ -3,7 +3,7 @@ import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
   title: '联系我们 | YouSun Administrative Agency',
-  description: '留下您的咨询信息，专业行政士将在24小时内与您联系。电话、邮箱均可咨询韩国营业许可业务。',
+  description: '留下您的咨询信息，专业行政士将在咨询时间（工作日09:30–17:30）内依次与您联系。电话、邮箱均可咨询韩国营业许可业务。',
   alternates: {
     canonical: 'https://inhega.co.kr/zh/contact',
     languages: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: '联系我们 | YouSun Administrative Agency',
-    description: '留下您的咨询信息，专业行政士将在24小时内与您联系。',
+    description: '留下您的咨询信息，专业行政士将在咨询时间（工作日09:30–17:30）内依次与您联系。',
     url: 'https://inhega.co.kr/zh/contact',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
   },

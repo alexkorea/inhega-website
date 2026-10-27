@@ -208,3 +208,12 @@ export const SERVICE_REDIRECTS: ReadonlyArray<{ source: string; destination: str
   { source: '/services/restaurant', destination: '/services' },
   { source: '/services/sanitation', destination: '/services' },
 ]
+
+/**
+ * 한국어 원문 글의 최종 주소. 301 처리된 옛 슬러그면 이동 목적지를 준다 —
+ * 외국어 글의 '한국어로 읽기'·언어 전환 링크와 canonical 이 308 주소를 가리키지 않게(INHEGA-AUDIT-1 K).
+ */
+export function koBlogHref(slug: string): string {
+  const src = `/blog/${slug}`
+  return BLOG_REDIRECTS.find((r) => r.source === src)?.destination ?? src
+}

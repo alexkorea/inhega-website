@@ -20,13 +20,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://inhega.co.kr/news',
-    languages: {
-      'ko': 'https://inhega.co.kr/news',
-      'en': 'https://inhega.co.kr/en/news',
-      'zh': 'https://inhega.co.kr/zh/news',
-      'ja': 'https://inhega.co.kr/ja/news',
-      'x-default': 'https://inhega.co.kr/news',
-    },
+    // noindex 보조화면(본문은 ko 와 같은 한국어)이라 언어 대안(hreflang)을 광고하지 않는다 — /news 도 상호참조하지 않는다(INHEGA-AUDIT-1 M).
   },
   openGraph: {
     title: t.metaTitle,

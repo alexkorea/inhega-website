@@ -36,7 +36,7 @@ const d: Record<Locale, LocaleData> = {
     h1: ['인허가 전문,', '유선행정사사무소'],
     heroBody: '유선행정사사무소는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 3인의 행정사와 4인의 실무 사무장들이 처음부터 끝까지 책임집니다.',
     stats: [
-      { value: '24h', label: '평균 응답 시간' },
+      { value: '09:30–17:30', label: '평일 상담시간' },
     ],
     greetingBadge: '대표 인사말',
     greetingText: [
@@ -73,7 +73,7 @@ const d: Record<Locale, LocaleData> = {
     h1: ['Visa & Licensing Specialists,', 'YouSun Administrative Agency'],
     heroBody: 'Chief Admin Agent Jung Yu-sun leads a team of 3 licensed agents and 4 office managers who handle every case from start to finish.',
     stats: [
-      { value: '24h', label: 'Avg Response Time' },
+      { value: '09:30–17:30', label: 'Weekday Hours (KST)' },
     ],
     greetingBadge: "Director's Message",
     greetingText: [
@@ -103,14 +103,14 @@ const d: Record<Locale, LocaleData> = {
     ctaPrimary: 'Contact Us',
     ctaSecondary: 'Get a Quote',
     contactHref: '/en/contact',
-    quoteHref: '/en/quote',
+    quoteHref: '/en/contact',
   },
   zh: {
     badge: '公司介绍',
     h1: ['许可证专业，', 'YouSun Administrative Agency'],
     heroBody: '代表郑有善行政士及3名专业行政士与4名实务事务长，从始至终全程负责。',
     stats: [
-      { value: '24h', label: '平均响应时间' },
+      { value: '09:30–17:30', label: '工作日咨询时间' },
     ],
     greetingBadge: '代表致辞',
     greetingText: [
@@ -140,14 +140,14 @@ const d: Record<Locale, LocaleData> = {
     ctaPrimary: '预约咨询',
     ctaSecondary: '询价',
     contactHref: '/zh/contact',
-    quoteHref: '/zh/quote',
+    quoteHref: '/zh/contact',
   },
   ja: {
     badge: '事務所案内',
     h1: ['許認可専門、', 'YouSun Administrative Agency'],
     heroBody: 'YouSun Administrative Agencyは専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
     stats: [
-      { value: '24h', label: '平均応答時間' },
+      { value: '09:30–17:30', label: '平日相談時間' },
     ],
     greetingBadge: '代表挨拶',
     greetingText: [
@@ -177,7 +177,7 @@ const d: Record<Locale, LocaleData> = {
     ctaPrimary: 'お問い合わせ',
     ctaSecondary: '見積もり依頼',
     contactHref: '/ja/contact',
-    quoteHref: '/ja/quote',
+    quoteHref: '/ja/contact',
   },
 }
 
@@ -224,7 +224,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
           <div className="about-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
             {s.stats.map((st) => (
               <div key={st.label} className="fade-up" style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: '2.25rem', fontWeight: 700, color: 'white', lineHeight: 1 }}>{st.value}</div>
+                <div style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.25rem, 4.5vw, 2.25rem)', fontWeight: 700, color: 'white', lineHeight: 1, whiteSpace: 'nowrap' }}>{st.value}</div>
                 <div style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', marginTop: '0.5rem' }}>{st.label}</div>
               </div>
             ))}

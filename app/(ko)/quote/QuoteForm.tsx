@@ -65,7 +65,7 @@ export default function QuoteForm() {
           </div>
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '2rem', color: 'var(--navy)', marginBottom: '1rem' }}>견적 문의가 접수되었습니다</h2>
           <p style={{ color: 'var(--slate)', lineHeight: 1.8, marginBottom: '2rem' }}>
-            전문 행정사가 검토 후 24시간 내 연락드립니다.<br />
+            전문 행정사가 검토 후 상담시간(평일 09:30~17:30)에 순차적으로 연락드립니다.<br />
             카카오·라인·왓츠앱 메신저 <strong style={{ color: 'var(--burgundy)' }}>alexkorea</strong>으로도 문의 가능합니다.
           </p>
           <Link href="/" className="btn btn-primary">홈으로 돌아가기</Link>

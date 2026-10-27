@@ -23,6 +23,7 @@ import {
 } from './news-article-schema'
 import { countryLabel, normalizeCountry } from './news-country'
 import { checkEffectiveDates, lawXmlUrl, mentionsEffectiveDate, parseLawXml } from './news-date-gate'
+import { applyNewsCorrection } from './news-corrections'
 
 export { hasArticle }
 export type { NewsArticle, NewsArticleFaq, NewsArticleSection } from './news-article-schema'
@@ -382,7 +383,13 @@ export function getNewsKv(): NewsKv | null {
   }
 }
 
+/** 표시용 목록 — 저장 원본에 사람이 원문 대조로 정정한 값(lib/news-corrections)을 덮는다. */
 export async function readAllNews(): Promise<NewsItem[]> {
+  return (await readStoredNews()).map(applyNewsCorrection)
+}
+
+/** KV 저장 원본 그대로. 쓰기 경로(upsert·delete)는 이것을 읽어야 정정 레이어가 KV 로 새지 않는다. */
+export async function readStoredNews(): Promise<NewsItem[]> {
   const kv = getNewsKv()
   if (!kv) return []
   try {
@@ -481,7 +488,7 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
 
   const now = new Date().toISOString()
   const byKey = new Map<string, NewsItem>()
-  for (const item of await readAllNews()) byKey.set(item.doc_key, item)
+  for (const item of await readStoredNews()) byKey.set(item.doc_key, item)
   // 슬러그 소유자 색인 — 다른 doc_key 가 같은 슬러그를 가져가지 못하게 막는다.
   const taken = new Map<string, string>()
   for (const item of byKey.values()) if (item.slug) taken.set(item.slug, item.doc_key)
@@ -551,9 +558,9 @@ export async function deleteNews(docKeys: string[]): Promise<{ deleted: number; 
   if (!kv) throw new Error('NEWS_KV binding missing')
 
   const want = new Set(docKeys.map((k) => str(k, 200)).filter(Boolean))
-  if (!want.size) return { deleted: 0, total: (await readAllNews()).length }
+  if (!want.size) return { deleted: 0, total: (await readStoredNews()).length }
 
-  const before = await readAllNews()
+  const before = await readStoredNews()
   const kept = before.filter((it) => !want.has(it.doc_key))
   if (kept.length !== before.length) await kv.put(NEWS_LIST_KEY, JSON.stringify(kept))
 
