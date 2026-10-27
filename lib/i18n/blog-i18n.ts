@@ -6189,6 +6189,326 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>ユソン行政士事務所が項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── food-manufacturing-online-sales-report (inhega-daily 2026-10-25) ──
+  {
+    slug: 'food-manufacturing-online-sales-report',
+    locale: 'en',
+    title: 'Food Manufacturing Business and Mail-Order Report in Korea — What You Need to Sell Food You Make Online',
+    metaTitle: 'Food Manufacturing Business and Mail-Order Report in Korea',
+    metaDescription: 'Selling homemade food online in Korea needs a Food Sanitation Act registration or report plus a mail-order business report. Compare the business types.',
+    category: 'Food',
+    excerpt: 'To sell food you make online in Korea, you need a business registration or report under the Food Sanitation Act and, separately, a mail-order business report. This guide compares the business types by sales structure and explains the exemption threshold.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Selling food online takes two separate filings</li><li>Business types under the Food Sanitation Act by how you make the food</li><li>Mail-order business report and the exemption threshold</li><li>FAQ</li></ol></div>
+<p><strong>To sell food you make yourself online in Korea, you need both a business registration or report under the Food Sanitation Act and a mail-order business report under the Act on the Consumer Protection in Electronic Commerce (the E-Commerce Act).</strong> One does not replace the other.</p>
+
+<h2>Selling food online takes two separate filings</h2>
+<p>The two procedures fall under different laws and produce separate certificates. The general procedure and facility standards for food businesses are covered in <a href="/en/blog/food-manufacturing-license-guide">our guide to the food manufacturing business</a>.</p>
+<table><thead><tr><th>Item</th><th>Food Sanitation Act</th><th>E-Commerce Act</th></tr></thead><tbody>
+<tr><td>What it governs</td><td>Businesses that make, process, repackage or sell food</td><td>Mail-order selling (own online store, open markets)</td></tr>
+<tr><td>Procedure</td><td>Registration or report, depending on the business type</td><td>Mail-order business report (unless exempt)</td></tr>
+<tr><td>Where to file</td><td>City, county or district office where the premises are (alcoholic beverage manufacturing: Ministry of Food and Drug Safety)</td><td>City, county or district office of the principal office (Fair Trade Commission if the principal office is abroad)</td></tr>
+</tbody></table>
+
+<h2>Business types under the Food Sanitation Act by how you make the food</h2>
+<p>Which business type applies depends on where you make the food and to whom you sell it. The food manufacturing and processing business is subject to <strong>registration</strong>, not a permit. The instant sale manufacturing and processing business, the specialized distribution and sales business and the food repackaging business are subject to a <strong>report</strong>.</p>
+<table><thead><tr><th>Sales structure</th><th>Business type</th><th>Procedure</th></tr></thead><tbody>
+<tr><td>Made in your own workshop, sold online and wholesale</td><td>Food manufacturing and processing business</td><td>Registration + product manufacturing report for each product</td></tr>
+<tr><td>Made in your shop, sold directly or by courier to end consumers</td><td>Instant sale manufacturing and processing business</td><td>Report</td></tr>
+<tr><td>Made by a contract manufacturer, sold under your own brand</td><td>Specialized distribution and sales business</td><td>Report</td></tr>
+<tr><td>Finished products divided and repackaged for sale</td><td>Food repackaging business</td><td>Report</td></tr>
+</tbody></table>
+<p>A <strong>food manufacturing and processing business</strong> has no restriction on buyers in its definition, so it can sell online to consumers and supply other businesses at the same time. It must file a product manufacturing report for each product before production starts or within 7 days after it starts; for outsourced production, the commissioning party files it. Some product types must apply HACCP (Hazard Analysis and Critical Control Points), so check that as well.</p>
+<p>An <strong>instant sale manufacturing and processing business</strong> sells food directly to end consumers at the place where it is made. It may not sell outside the premises, except when the operator or staff deliver directly to end consumers, or when the food is sent by post or courier to end consumers under standards set by the Minister of Food and Drug Safety. Selling to anyone who intends to resell is prohibited. The only exception is bread, confectionery and rice cakes sold on the day they are made to restaurants, contract caterers or institutional food service facilities, and the transaction records must be kept for 6 months.</p>
+<p>A <strong>specialized distribution and sales business</strong> does not manufacture itself; it sells under its own brand food made on commission by a food manufacturing and processing business. If it sells by mail order and buyers do not visit the office, a residential building or a startup incubation center may be used as the office, and the storage warehouse may be located elsewhere or leased.</p>
+
+<h2>Mail-order business report and the exemption threshold</h2>
+<p>A mail-order business reports its trade name (for a corporation, including the representative's name), address, phone number, email address, internet domain name and hosting server location. The office checks the corporate register and the business registration certificate through shared administrative information. For prepaid sales, where the consumer pays first, you also submit a document proving the use of escrow or a consumer damage compensation insurance contract. For the paperwork, see our <a href="/en/blog/online-shop-communication-sales-registration-guide">mail-order business report guide</a>.</p>
+<p>Under the Fair Trade Commission notice, you may skip the report if you had fewer than 50 mail-order transactions in the previous year or you are a simplified VAT taxpayer; transactions cancelled by withdrawal of the order are not counted. The Food Sanitation Act filing is still required regardless of sales volume. Changes to reported details and suspension, closure or resumption of business must also be reported.</p>
+<p>Before you start selling, check in this order:</p>
+<ol>
+<li>Decide the business type based on whom you sell to and where you make the food.</li>
+<li>Confirm that the business type and address on your certificate match your actual workshop.</li>
+<li>For a food manufacturing and processing business, finish the product manufacturing report for each product you will sell.</li>
+<li>For an instant sale manufacturing and processing business, confirm that courier delivery meets the official standards.</li>
+<li>Check whether the mail-order report applies and, for prepaid sales, prepare the purchase-safety document.</li>
+</ol>
+<p>For support with registration, see our <a href="/en/services/food-manufacturing">food manufacturing business registration service</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. I registered a food manufacturing business. Do I still need the mail-order report?</p><p class="faq-a">A. Yes. They are separate procedures, so unless you are exempt you must file it as well.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can an instant sale manufacturing and processing business ship by courier?</p><p class="faq-a">A. Yes, when delivering to end consumers in line with the standards set by the Minister of Food and Drug Safety. Passing products to another seller for resale is not allowed.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is the food manufacturing business a permit business?</p><p class="faq-a">A. No. It is registered with the city, county or district office.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can I skip the mail-order report if my sales are small?</p><p class="faq-a">A. If you had fewer than 50 transactions in the previous year or you are a simplified VAT taxpayer, you may skip it. The Food Sanitation Act filing is required either way.</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>Planning to sell food you make online?</h3>
+ <p>Yuseon Administrative Scrivener Office reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
+ <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">Request a consultation</a>
+</div>
+
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+  },
+  {
+    slug: 'food-manufacturing-online-sales-report',
+    locale: 'zh',
+    title: '食品制造加工业 通信销售业申报——网上销售自制食品需要办理什么',
+    metaTitle: '食品制造加工业与通信销售业申报——网上销售自制食品',
+    metaDescription: '在韩国网上销售自制食品，需要《食品卫生法》上的营业登记或申报，以及电子商务法上的通信销售业申报。本文按销售结构比较营业类型，并说明通信销售业申报的免除标准。',
+    category: '食品',
+    excerpt: '在韩国网上销售自己制作的食品，需要分别办理《食品卫生法》上的营业登记或申报和通信销售业申报。本文按销售结构比较适用的营业类型，并说明申报免除标准。',
+    content: `<div class="toc"><p>目录</p><ol><li>网上销售需要两项手续</li><li>按制作方式区分的《食品卫生法》营业类型</li><li>通信销售业申报与免除标准</li><li>常见问题</li></ol></div>
+<p><strong>在韩国把自己制作的食品放到网上销售，需要同时具备《食品卫生法》规定的营业登记或申报，以及《电子商务等消费者保护法》（以下简称电子商务法）规定的通信销售业申报。</strong>即使持有食品制造加工业登记证，通信销售业申报也不会自动完成；反过来，仅凭通信销售业申报也不能制作并销售食品。</p>
+
+<h2>网上销售需要两项手续</h2>
+<p>两项手续所依据的法律不同，申报内容不同，证书也分别发放。食品营业的办理流程和设施标准请参阅<a href="/zh/blog/food-manufacturing-license-guide">食品制造加工业办理指南</a>。</p>
+<table><thead><tr><th>项目</th><th>食品卫生法</th><th>电子商务法</th></tr></thead><tbody>
+<tr><td>规范对象</td><td>制造、加工、分装、销售食品的营业</td><td>自营网店、入驻开放市场等通信销售方式</td></tr>
+<tr><td>手续</td><td>按营业类型办理登记或申报</td><td>通信销售业申报（符合免除标准时可不申报）</td></tr>
+<tr><td>受理机关</td><td>营业场所所在地的市、郡、区厅（酒类制造为食品医药品安全处）</td><td>主要事务所所在地的市、郡、区厅（主要事务所在国外时为公平交易委员会）</td></tr>
+</tbody></table>
+
+<h2>按制作方式区分的《食品卫生法》营业类型</h2>
+<p>在哪里制作、卖给谁，决定了营业类型。食品制造加工业办理的是<strong>登记</strong>，不是许可；即时销售制造加工业、流通专门销售业和食品分装业办理的是<strong>申报</strong>。</p>
+<table><thead><tr><th>销售结构</th><th>营业类型</th><th>手续</th></tr></thead><tbody>
+<tr><td>在自己的作业场制作，网上零售及批发</td><td>食品制造加工业</td><td>登记＋每种产品的品目制造报告</td></tr>
+<tr><td>在店内制作，直接或快递卖给最终消费者</td><td>即时销售制造加工业</td><td>申报</td></tr>
+<tr><td>委托制造企业生产，以自有商标销售</td><td>流通专门销售业</td><td>申报</td></tr>
+<tr><td>把成品分装后重新包装销售</td><td>食品分装业</td><td>申报</td></tr>
+</tbody></table>
+<p><strong>食品制造加工业</strong>在定义上不限制销售对象，可以同时做网上零售和供货。但每生产一种产品都要提交品目制造报告，时间为开始生产前或开始生产后7日以内；委托生产时由委托方报告。部分品目属于HACCP（食品安全管理认证标准）强制适用对象，也需要一并确认。</p>
+<p><strong>即时销售制造加工业</strong>是在制造加工场所直接卖给最终消费者的营业。原则上不得在营业场所以外销售，但由经营者或员工直接送给最终消费者，或按照食品医药品安全处长公告的标准以邮寄、快递方式送给最终消费者的，属于例外。不得卖给以流通、销售为目的的人；只有面包类、饼干类、年糕类在制作当天卖给餐饮店、委托供餐经营者或集体供餐场所时例外，相关交易凭证须保存6个月。如果打算向其他卖家供货，应考虑食品制造加工业。</p>
+<p><strong>流通专门销售业</strong>不自行制造，而是委托食品制造加工业者生产，再以自有商标销售。以通信销售形式经营且买家不到访事务所时，可以把住宅用途建筑物或创业孵化中心作为事务所；仓库可以设在营业场所以外的地方，也可以租用。</p>
+
+<h2>通信销售业申报与免除标准</h2>
+<p>通信销售业者需申报商号（法人须包括代表人姓名）、地址、电话、电子邮箱、网站域名和主机服务器所在地等。法人登记事项证明和营业执照证明由机关通过行政信息共享查询。采用消费者先付款的预付式销售时，还要一并提交使用资金托管或签订消费者损害赔偿保险合同等的证明文件。材料准备请参阅<a href="/zh/blog/online-shop-communication-sales-registration-guide">通信销售业申报指南</a>。</p>
+<p>根据公平交易委员会公告，上一年度通信销售交易次数不足50次，或属于增值税简易纳税人的，可以不申报；因撤回订购等取消的交易不计入次数。该免除只适用于通信销售业申报，《食品卫生法》上的登记或申报与销售量无关，仍然必须办理。申报事项变更以及停业、歇业、恢复营业时也要申报。</p>
+<p>开始销售前，建议按以下顺序确认：</p>
+<ol>
+<li>根据销售对象和制作地点确定营业类型。</li>
+<li>确认登记证或申报证上的营业类型和地址与实际作业场一致。</li>
+<li>如为食品制造加工业，完成每种待售产品的品目制造报告。</li>
+<li>如为即时销售制造加工业，确认快递配送符合公告标准。</li>
+<li>判断是否需要通信销售业申报，预付式销售还要准备购买安全证明文件。</li>
+</ol>
+<p>如需办理登记，请参阅<a href="/zh/services/food-manufacturing">食品制造加工业登记服务</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 已经办理食品制造加工业登记，还需要通信销售业申报吗？</p><p class="faq-a">A. 需要。两者是依据不同法律的独立手续，不符合免除标准时必须另行申报。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 即时销售制造加工业可以快递销售吗？</p><p class="faq-a">A. 按照食品医药品安全处长公告的标准配送给最终消费者的，可以。交给其他卖家转售的结构不被允许。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 食品制造加工业属于许可类营业吗？</p><p class="faq-a">A. 不是。它是在市、郡、区厅办理的登记类营业；即时销售制造加工业和流通专门销售业属于申报类营业。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 销量很少，可以不做通信销售业申报吗？</p><p class="faq-a">A. 上一年度交易次数不足50次或属于简易纳税人的，可以不申报。但《食品卫生法》上的登记或申报仍然需要。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>打算在网上销售自制食品？</h3>
+ <p>유선행정사사무소会根据您的销售结构和作业场情况，先确认合适的营业类型以及是否需要通信销售业申报，也可以协助办理<a href="/zh/services/mail-order-sales-report">通信销售业申报</a>。电话 02-363-2251，工作日 09:30~17:30 KST。</p>
+ <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">申请咨询</a>
+</div>
+
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'food-manufacturing-online-sales-report',
+    locale: 'ja',
+    title: '食品製造加工業の通信販売業申告——自分で作った食品をオンラインで売るときに必要な手続き',
+    metaTitle: '食品製造加工業と通信販売業申告——手作り食品のオンライン販売',
+    metaDescription: '韓国で自分で作った食品をオンライン販売するには、食品衛生法上の営業登録または届出と、電子商取引法上の通信販売業申告が必要です。販売の形ごとに営業形態と免除基準を比較します。',
+    category: '食品',
+    excerpt: '韓国で手作りの食品をオンラインで売るには、食品衛生法上の営業登録または届出と通信販売業申告をそれぞれ備える必要があります。販売の形ごとに合う営業形態と申告の免除基準を比較します。',
+    content: `<div class="toc"><p>目次</p><ol><li>オンライン販売には手続きが二つ必要です</li><li>作り方で決まる食品衛生法上の営業形態</li><li>通信販売業申告と免除基準</li><li>よくある質問</li></ol></div>
+<p><strong>韓国で自分で作った食品をオンラインで販売するには、「食品衛生法」による営業の登録または届出と、「電子商取引等における消費者保護に関する法律」（以下、電子商取引法）による通信販売業申告の両方が必要です。</strong>食品製造・加工業の登録証があっても通信販売業申告が自動的に済むわけではなく、通信販売業申告だけで食品を製造して販売することもできません。</p>
+
+<h2>オンライン販売には手続きが二つ必要です</h2>
+<p>二つの手続きは根拠となる法律も申告内容も異なり、証明書も別々に交付されます。食品営業の手続きと施設基準の全体は<a href="/ja/blog/food-manufacturing-license-guide">食品製造加工業の申請ガイド</a>をご覧ください。</p>
+<table><thead><tr><th>区分</th><th>食品衛生法</th><th>電子商取引法</th></tr></thead><tbody>
+<tr><td>対象</td><td>食品を製造・加工・小分け・販売する営業</td><td>自社ショッピングモールやオープンマーケット出店などの通信販売</td></tr>
+<tr><td>手続き</td><td>営業の種類に応じて登録または届出</td><td>通信販売業申告（免除基準に該当すれば不要）</td></tr>
+<tr><td>窓口</td><td>営業所所在地の市・郡・区庁（酒類の製造は食品医薬品安全処）</td><td>主たる事務所所在地の市・郡・区庁（主たる事務所が外国にある場合は公正取引委員会）</td></tr>
+</tbody></table>
+
+<h2>作り方で決まる食品衛生法上の営業形態</h2>
+<p>どこで作り、誰に売るかによって営業の種類が分かれます。食品製造・加工業は許可ではなく<strong>登録</strong>の対象で、即席販売製造・加工業、流通専門販売業、食品小分け業は<strong>届出</strong>の対象です。</p>
+<table><thead><tr><th>販売の形</th><th>営業の種類</th><th>手続き</th></tr></thead><tbody>
+<tr><td>自分の作業場で作り、オンライン販売・卸売をする</td><td>食品製造・加工業</td><td>登録＋製品ごとの品目製造報告</td></tr>
+<tr><td>店舗で作り、最終消費者に直接または宅配で販売する</td><td>即席販売製造・加工業</td><td>届出</td></tr>
+<tr><td>製造業者に委託し、自社ブランドで販売する</td><td>流通専門販売業</td><td>届出</td></tr>
+<tr><td>完成品を小分けして再包装し販売する</td><td>食品小分け業</td><td>届出</td></tr>
+</tbody></table>
+<p><strong>食品製造・加工業</strong>は定義上、販売の相手方に制限がないため、オンラインでの小売と他社への納品を同時に行えます。その代わり、製品を作るたびに品目製造報告が必要で、報告書は製品の生産開始前か開始後7日以内に提出します。委託製造の場合は委託した側が報告します。一部の品目はHACCP（食品安全管理認証基準）の義務適用対象なので、あわせて確認が必要です。</p>
+<p><strong>即席販売製造・加工業</strong>は、製造・加工した場所で最終消費者に直接販売する営業です。営業場以外での販売はできませんが、営業者や従業員が最終消費者に直接配達する場合と、食品医薬品安全処長が告示する基準に従って郵便・宅配で最終消費者に配達する場合は例外です。流通・販売を目的とする者への販売は禁止され、パン類・菓子類・餅類を飲食店・委託給食営業者・集団給食所に製造当日に販売する場合だけが例外で、その取引の証明書類は6か月間保管します。他の販売者に商品を卸す予定であれば、食品製造・加工業を検討すべきです。</p>
+<p><strong>流通専門販売業</strong>は自ら製造せず、食品製造・加工業者に依頼して作った食品を自社の商標で販売する営業です。通信販売の形態で購入者が事務所を訪れない場合は、住宅用途の建築物や創業保育センターを事務所として使え、保管倉庫は営業所と別の場所に設けたり賃借したりできます。</p>
+
+<h2>通信販売業申告と免除基準</h2>
+<p>通信販売業者は、商号（法人は代表者の氏名を含む）、住所、電話番号、電子メールアドレス、インターネットのドメイン名、ホストサーバーの所在地などを申告します。法人の登記事項証明書と事業者登録証明は、窓口が行政情報の共同利用で確認します。消費者が先に代金を支払う前払い式の販売では、エスクローの利用や消費者被害補償保険契約などを証明する書類もあわせて提出します。書類の準備は<a href="/ja/blog/online-shop-communication-sales-registration-guide">通信販売業申告ガイド</a>をご参照ください。</p>
+<p>公正取引委員会の告示により、前年度の通信販売の取引回数が50回未満か、付加価値税法上の簡易課税者であれば申告しないことができます。申込みの撤回などで取り消された取引は回数に含めません。この免除は通信販売業申告にだけ適用され、食品衛生法上の登録や届出は販売量に関係なく必要です。申告事項の変更や、休業・廃業・営業再開の際も申告します。</p>
+<p>販売を始める前は、次の順序で確認すると安心です。</p>
+<ol>
+<li>販売の相手方と製造場所をもとに営業の種類を決めます。</li>
+<li>登録証・届出証の営業の種類と所在地が実際の作業場と一致しているか確認します。</li>
+<li>食品製造・加工業であれば、販売する製品ごとに品目製造報告を済ませます。</li>
+<li>即席販売製造・加工業であれば、宅配での配達が告示の基準に合っているか確認します。</li>
+<li>通信販売業申告の対象かを判断し、前払い式なら購入安全サービスの書類を準備します。</li>
+</ol>
+<p>登録のサポートについては<a href="/ja/services/food-manufacturing">食品製造加工業登録サービス</a>をご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 食品製造加工業の登録をしていれば、通信販売業申告は不要ですか。</p><p class="faq-a">A. いいえ。二つは法律の異なる別々の手続きなので、免除基準に該当しなければ通信販売業申告も別に必要です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 即席販売製造加工業でも宅配で販売できますか。</p><p class="faq-a">A. 食品医薬品安全処長の告示基準に従って最終消費者に配達する場合は可能です。他の販売者に渡して転売させる形は認められません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 食品製造加工業は許可が必要な業種ですか。</p><p class="faq-a">A. いいえ。食品製造・加工業は市・郡・区庁への登録業種で、即席販売製造・加工業と流通専門販売業は届出業種です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 販売量が少なければ通信販売業申告を省略できますか。</p><p class="faq-a">A. 前年度の取引回数が50回未満か簡易課税者であれば、申告しないことができます。ただし食品衛生法上の登録や届出はそれとは関係なく必要です。</p></div>
+</div>
+
+<div class="cta-block">
+ <h3>手作りの食品をオンラインで売る予定なら</h3>
+ <p>ユソン行政士事務所が販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
+ <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">相談を申し込む</a>
+</div>
+
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── haccp-certification-change-application (inhega-daily 2026-10-26) ──
+  {
+    slug: 'haccp-certification-change-application',
+    locale: 'en',
+    title: 'HACCP Certification Change in Korea — Relocation and CCP Change Applications',
+    metaTitle: 'HACCP Certification Change — Relocation and CCP Change Application',
+    metaDescription: 'In Korea, moving a HACCP-certified site or changing a critical control point needs change certification first. Scope, documents, timeline, validity.',
+    category: 'Food',
+    excerpt: 'A certified HACCP establishment must obtain change certification before relocating or changing a critical control point. This guide covers what counts as a change, the procedure, adding products, and what happens if you skip it.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Which changes need change certification</li><li>Change application procedure and timeline</li><li>If you do not apply, and validity</li><li>FAQ</li></ol></div>
+<p><strong>A business certified as a HACCP (Hazard Analysis and Critical Control Point) establishment that wants to change its business site location or a critical control point (CCP) must file a change application and obtain change certification before making the change.</strong> HACCP is a certification, not a business registration or permit, so the application goes to the Korea Agency of HACCP Accreditation and Services (한국식품안전관리인증원), not to the local office that handles your business registration. For first-time certification, see <a href="/en/blog/haccp-certification-guide">our HACCP certification guide</a>; this article covers changes only.</p>
+
+<h2>Which changes need change certification</h2>
+<p>For food businesses, the change application covers two items: the business site location and the critical control points. Livestock product worksites add the livestock product type, and farms add the livestock species.</p>
+<table><thead><tr><th>Change</th><th>HACCP side</th><th>Also check</th></tr></thead><tbody>
+<tr><td>Relocating the business site</td><td>Change application required (a change of only the administrative lot number is excluded on the form)</td><td>Food manufacturers must register the new business location</td></tr>
+<tr><td>Changing a CCP</td><td>Change application required</td><td>Review the HACCP plan</td></tr>
+<tr><td>Adding a similar product made by the same process</td><td>Application to add the product; may be approved on document review alone</td><td>Making a new food group with added facilities requires a registration change</td></tr>
+<tr><td>Extending the plant or replacing equipment</td><td>Change application if a CCP changes as a result</td><td>Consider re-evaluating the plan for process changes</td></tr>
+<tr><td>New representative or trade name, business transfer</td><td>Not on the change application list</td><td>A transferee reports succession within 1 month</td></tr>
+</tbody></table>
+<p>HACCP change certification and changes to your business registration are separate procedures; a relocation may need both, so plan the <a href="/en/services/food-manufacturing">food manufacturing registration</a> side at the same time. A new representative or trade name is not a change application item, but the certificate will no longer match, so ask the agency in advance how to update it. HACCP applications are also filed per worksite, so opening an additional plant while keeping the existing one is different from a relocation; first consider whether the new worksite needs its own certification application.</p>
+
+<h2>Change application procedure and timeline</h2>
+<p>The law does not set a deadline after the change. It requires change certification when you intend to make the change, so put the application ahead of the move or process change.</p>
+<ol>
+<li>Fix the details of the change and have the HACCP team review the plan (CCPs, critical limits and so on).</li>
+<li>Submit the change application with the existing certificate and documents proving the change, such as a description of the CCP change, to the head of the agency. Electronic filing is accepted.</li>
+<li>The agency checks the change by document review or on-site inspection. If documents are insufficient, it may request supplements within a set period, normally within 15 days.</li>
+<li>If the on-site inspection finds gaps, you may be asked to supplement, or the change procedure may be closed.</li>
+<li>If found suitable, the agency reissues the certificate with the change and notifies the Ministry of Food and Drug Safety and the regional office.</li>
+</ol>
+<p>The processing period on the application form is 15 days. Supplement requests can extend this, so apply well before the planned start at the new site.</p>
+
+<h2>If you do not apply, and validity</h2>
+<p>Changing the location or a CCP without a change application leads to a corrective order under the certification cancellation criteria. Failing to comply after 2 or more corrective orders makes the certification subject to cancellation.</p>
+<p>Change certification does not restart a new 3-year term. Its validity is the remaining period of the original certification. To continue, file for extension at least 60 days before expiry; the certifying body sends notice at least 90 days before expiry, and extensions are granted for up to 3 years. For extension and periodic evaluation, see <a href="/en/blog/haccp-post-certification-management-guide">our post-certification management guide</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do I need full recertification to add a new product?</p><p class="faq-a">A. If it is a similar type made through the same process as an already certified food, it can be added on document review alone without a separate on-site evaluation. The same applies to certifying a new food at an already certified worksite.</p></div>
+<div class="faq-item"><p class="faq-q">Q. The plant has not moved, but the address changed due to administrative redistricting. Is this a change application item?</p><p class="faq-a">A. The location field on the change application form excludes changes of the administrative lot number only. Distinguish this from an actual move of the worksite, and if unclear, check with the agency before applying.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What happens when the operator of a group meal facility changes?</p><p class="faq-a">A. If a certified group meal facility changes operator, for example when an outsourcing contract ends, and HACCP is no longer applied, the certification is cancelled and the certificate must be returned immediately.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What do I do with the certificate if I close the business?</p><p class="faq-a">A. A business that closes must return the certificate to the head of the agency without delay.</p></div>
+</div>
+
+<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. Yuseon Administrative Scrivener Office handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+  },
+  {
+    slug: 'haccp-certification-change-application',
+    locale: 'zh',
+    title: 'HACCP认证变更 — 营业场所迁移与关键控制点变更申请',
+    metaTitle: 'HACCP认证变更 — 营业场所迁移与关键控制点变更申请流程',
+    metaDescription: '在韩国取得HACCP认证后，迁移营业场所或变更关键控制点（CCP）前须先取得变更认证。本文整理变更申请对象、材料、处理期限、追加品目及有效期。',
+    category: '食品',
+    excerpt: '已取得HACCP适用业所认证的企业，在迁移工厂或变更关键控制点之前，必须先取得变更认证。本文说明哪些变更属于申请对象、办理流程、追加品目，以及未申请的后果。',
+    content: `<div class="toc"><p>目录</p><ol><li>需要变更认证的变更</li><li>变更申请流程与处理期限</li><li>未申请的后果与有效期</li><li>常见问题</li></ol></div>
+<p><strong>已取得HACCP（食品安全管理认证标准）适用业所认证的经营者，若要变更营业场所所在地或关键控制点（CCP），必须在变更之前提出变更申请并取得变更认证。</strong>HACCP属于"认证"，不是营业登记，因此应向韩国食品安全管理认证院（한국식품안전관리인증원）申请，而不是向办理营业登记的地方机关。首次认证请参阅<a href="/zh/blog/haccp-certification-guide">HACCP认证取得方法与流程</a>，本文只讨论认证后的变更。</p>
+
+<h2>需要变更认证的变更</h2>
+<p>食品经营者的变更申请对象为营业场所所在地和关键控制点两项；畜产品作业场另加畜产品类型，农场另加家畜种类。</p>
+<table><thead><tr><th>变更内容</th><th>HACCP方面</th><th>同时确认</th></tr></thead><tbody>
+<tr><td>营业场所迁移</td><td>须变更申请（仅行政区划地号变更在申请书中除外）</td><td>食品制造加工业须办理营业所所在地变更登记</td></tr>
+<tr><td>变更关键控制点</td><td>须变更申请</td><td>重新审查HACCP管理计划</td></tr>
+<tr><td>追加同一工序的类似类型品目</td><td>申请追加认证对象，可仅凭书面审查追加</td><td>增设设施制造新食品群时须办理营业变更登记</td></tr>
+<tr><td>作业场扩建、更换设备</td><td>因此变更关键控制点时须变更申请</td><td>研判工序变更是否需重新评估计划</td></tr>
+<tr><td>代表人、商号变更或营业转让</td><td>不在变更申请对象之列</td><td>受让人须在承继后1个月内申报</td></tr>
+</tbody></table>
+<p>HACCP变更认证与营业登记变更是两套独立程序，迁厂时可能两者都要办理，建议同时安排<a href="/zh/services/food-manufacturing">食品制造加工业登记</a>方面的日程。代表人或商号变更虽不属于变更申请对象，但会与证书记载不一致，请事先向认证院确认处理方式。此外，HACCP认证须按作业场、业所分别申请，保留原工厂另开新厂与迁址性质不同，应先研判新作业场是否需要另行申请认证。</p>
+
+<h2>变更申请流程与处理期限</h2>
+<p>法令并未规定"变更后几日内"的期限，而是要求在"拟变更时"取得变更认证，因此应把申请排在迁移或工序变更之前。</p>
+<ol>
+<li>确定变更内容，由HACCP小组重新审查管理计划（关键控制点、关键限值等）。</li>
+<li>在认证事项变更申请书上附原认证书及关键控制点变更说明等证明材料，提交给认证院院长，也可电子提交。</li>
+<li>认证院通过书面审查或现场调查确认变更事项；材料不足时，除特殊情况外可限期15日内要求补正。</li>
+<li>现场调查需要补正时，可能被要求补正，或变更程序被终结处理。</li>
+<li>认定合适后，在认证书上记载相关事项并重新发放，并通报食品医药品安全处长及管辖地方厅长。</li>
+</ol>
+<p>变更申请书样式上的处理期限为15日。出现补正时期限可能延长，建议在新址投产前预留充足时间申请。</p>
+
+<h2>未申请的后果与有效期</h2>
+<p>未经变更申请即变更所在地或关键控制点，将依认证取消等标准受到纠正命令；受到2次以上纠正命令仍不履行的，将成为取消认证的对象。</p>
+<p>取得变更认证并不会重新起算3年。变更认证的有效期为原认证有效期的剩余期间。如需延续，须在到期60日前提出延长申请，认证机构会在到期90日前通知，延长期限在3年范围内。延长审查与定期评估请参阅<a href="/zh/blog/haccp-post-certification-management-guide">HACCP认证后管理指南</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 追加新产品需要重新认证吗？</p><p class="faq-a">A. 若与已认证食品经过同一工序且属类似类型，可不另行现场评估，仅凭书面审查追加为认证食品。在已认证作业场认证新食品时也相同。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 工厂没有搬迁，但因行政区划调整地址变了，需要变更申请吗？</p><p class="faq-a">A. 变更申请书样式中的营业场所所在地一栏，已将仅属行政区划地号的变更除外。请与实际迁移作业场的情形区分判断，不确定时最好在申请前向认证院确认。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 集体供餐场所的运营者变更时，认证如何处理？</p><p class="faq-a">A. 已认证的集体供餐场所因委托合同到期等原因更换运营者而不再适用HACCP时，认证将被取消，申报人须立即返还认证书。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 停业后认证书怎么办？</p><p class="faq-a">A. 停业的经营者须及时将认证书返还给认证院院长。</p></div>
+</div>
+
+<div class="cta-block"><h3>计划迁厂或变更工序？</h3><p>我们可一并检查HACCP变更申请与营业登记变更。유선행정사사무소（代表行政士 정유선）办理<a href="/zh/services/haccp">HACCP认证</a>业务，电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">申请咨询</a></div>
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'haccp-certification-change-application',
+    locale: 'ja',
+    title: 'HACCP認証の変更 — 営業所の移転・重要管理点の変更申請の手続き',
+    metaTitle: 'HACCP認証の変更 — 営業所移転・重要管理点(CCP)変更申請の流れ',
+    metaDescription: '韓国でHACCP認証を受けた後、営業所の移転や重要管理点（CCP）の変更をするには事前に変更認証が必要です。対象、書類、処理期間、品目追加、有効期間を解説します。',
+    category: '食品',
+    excerpt: 'HACCP適用業所として認証を受けた事業者が工場を移転したり重要管理点を変えたりするには、事前に変更認証を受ける必要があります。対象となる変更、手続き、品目追加、申請しなかった場合の処分をまとめました。',
+    content: `<div class="toc"><p>目次</p><ol><li>変更認証が必要な変更</li><li>変更申請の手続きと処理期間</li><li>申請しなかった場合と有効期間</li><li>よくある質問</li></ol></div>
+<p><strong>HACCP（食品安全管理認証基準）適用業所として認証を受けた営業者が営業所の所在地や重要管理点（CCP）を変えるには、変更する前に変更申請を行い、変更認証を受けなければなりません。</strong>HACCPは営業登録ではなく「認証」なので、営業登録を扱う自治体ではなく、韓国食品安全管理認証院（한국식품안전관리인증원）に申請します。最初の認証手続きは<a href="/ja/blog/haccp-certification-guide">HACCP認証の取得方法と手続き</a>をご覧ください。本記事は認証後の変更だけを扱います。</p>
+
+<h2>変更認証が必要な変更</h2>
+<p>食品営業者の変更申請の対象は、営業所の所在地と重要管理点の2つです。畜産物の作業場は畜産物の類型、農場は家畜の種類が加わります。</p>
+<table><thead><tr><th>変更内容</th><th>HACCP側の手続き</th><th>あわせて確認する手続き</th></tr></thead><tbody>
+<tr><td>営業所の移転</td><td>変更申請の対象（行政区域上の地番だけが変わる場合は様式上除外）</td><td>食品製造・加工業は営業所所在地の変更登録</td></tr>
+<tr><td>重要管理点の変更</td><td>変更申請の対象</td><td>HACCP管理計画の再検討</td></tr>
+<tr><td>同じ工程で作る類似類型の品目追加</td><td>認証対象の追加申請。書類審査のみで追加可能</td><td>設備を加えて新しい食品群を製造する場合は営業の変更登録</td></tr>
+<tr><td>作業場の増築・設備の入れ替え</td><td>その結果、重要管理点が変われば変更申請</td><td>工程変更に伴う計画の再評価を検討</td></tr>
+<tr><td>代表者・商号の変更、営業譲受</td><td>変更申請の対象リストにない</td><td>営業譲受などは地位承継後1か月以内に申告</td></tr>
+</tbody></table>
+<p>HACCPの変更認証と営業登録の変更は別の手続きです。工場移転では両方が必要になり得るため、<a href="/ja/services/food-manufacturing">食品製造加工業の登録</a>側の日程も同時に組むことをおすすめします。代表者・商号の変更は変更申請の対象ではありませんが、認証書の記載と食い違うため、整理の方法を認証院に事前に確認してください。また、HACCP認証の申請は作業場・業所ごとに行うため、既存工場を残したまま新工場を設けるのは移転とは性格が異なり、新しい作業場について別途の認証申請が必要か先に検討する必要があります。</p>
+
+<h2>変更申請の手続きと処理期間</h2>
+<p>法令は「変更後何日以内」という期限ではなく、「変更しようとする場合」に変更認証を受けるよう定めています。移転工事や工程変更の日程より前に申請を置く必要があります。</p>
+<ol>
+<li>変更内容を確定し、HACCPチームが管理計画（重要管理点・限界基準など）を再検討します。</li>
+<li>認証事項変更申請書に既存の認証書と重要管理点の変更内容説明書など変更を証明する書類を添えて、認証院長に提出します。電子文書でも提出できます。</li>
+<li>認証院が書類審査または現場調査で変更事項を確認します。書類が不十分な場合、特別な場合を除き15日以内の期間を定めて補完を求めることがあります。</li>
+<li>現場調査で補完が必要な場合は、補完を求められるか、変更手続きが終結処理されることがあります。</li>
+<li>適合と認められると認証書に該当事項を記載して再発行し、食品医薬品安全処長と管轄の地方庁長に通報します。</li>
+</ol>
+<p>変更申請書様式上の処理期間は15日です。補完が生じると延びることがあるため、新しい所在地での稼働日より余裕をもって申請するのが安全です。</p>
+
+<h2>申請しなかった場合と有効期間</h2>
+<p>変更申請をせずに所在地や重要管理点を変えると、認証取消し等の基準により是正命令の対象となり、2回以上の是正命令を受けても履行しない場合は認証取消しの対象になります。</p>
+<p>変更認証を受けても、有効期間が改めて3年になるわけではありません。変更認証の有効期間は当初の認証有効期間の残りの期間です。継続するには満了60日前までに延長申請が必要で、認証機関は満了90日前までに通知します。延長は3年の範囲で行われます。延長審査と定期評価は<a href="/ja/blog/haccp-post-certification-management-guide">HACCP認証後の管理ガイド</a>をご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 新製品を追加するには最初から認証を受け直す必要がありますか。</p><p class="faq-a">A. 既に認証を受けた食品と同じ工程を経る類似の類型であれば、別途の現場評価なしに書類審査だけで認証食品に追加できます。認証済みの作業場で新しい食品の認証を受ける場合も同様です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 工場はそのままで、行政区域の再編により住所が変わりました。変更申請の対象ですか。</p><p class="faq-a">A. 変更申請書様式の営業所所在地欄は、行政区域上の地番の変更を除外しています。作業場を実際に移した場合と区別して判断し、迷う場合は申請前に認証院に確認するのが安全です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 集団給食所の運営者が変わると認証はどうなりますか。</p><p class="faq-a">A. 認証を受けた集団給食所が委託契約の満了などで運営者が変わり、HACCPを適用しなくなった場合は認証が取り消され、申告者は認証書を直ちに返納しなければなりません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 廃業したら認証書はどうすればよいですか。</p><p class="faq-a">A. 廃業した営業者は、認証書を認証院長に遅滞なく返納しなければなりません。</p></div>
+</div>
+
+<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。ユソン行政士事務所は<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   }
 ]
 

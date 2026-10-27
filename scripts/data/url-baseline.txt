@@ -684,3 +684,11 @@
 /en/blog/cosmetics-distributor-change-registration
 /ja/blog/cosmetics-distributor-change-registration
 /zh/blog/cosmetics-distributor-change-registration
+/blog/food-manufacturing-online-sales-report
+/en/blog/food-manufacturing-online-sales-report
+/ja/blog/food-manufacturing-online-sales-report
+/zh/blog/food-manufacturing-online-sales-report
+/blog/haccp-certification-change-application
+/en/blog/haccp-certification-change-application
+/ja/blog/haccp-certification-change-application
+/zh/blog/haccp-certification-change-application

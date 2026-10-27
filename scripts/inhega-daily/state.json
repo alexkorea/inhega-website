@@ -53,6 +53,18 @@
       "topic": "cosmetics-distributor",
       "angle": "change-report",
       "slug": "cosmetics-distributor-change-registration"
+    },
+    {
+      "date": "2026-10-25",
+      "topic": "food-manufacturing",
+      "angle": "comparison",
+      "slug": "food-manufacturing-online-sales-report"
+    },
+    {
+      "date": "2026-10-26",
+      "topic": "haccp",
+      "angle": "change-report",
+      "slug": "haccp-certification-change-application"
     }
   ]
 }
