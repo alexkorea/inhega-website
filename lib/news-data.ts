@@ -23,7 +23,7 @@ import {
 } from './news-article-schema'
 import { countryLabel, normalizeCountry } from './news-country'
 import { checkEffectiveDates, lawXmlUrl, mentionsEffectiveDate, parseLawXml } from './news-date-gate'
-import { applyNewsCorrection } from './news-corrections'
+import { applyNewsCorrection, UNPUBLISHED_DOC_KEYS } from './news-corrections'
 import { NEWS_LAW_DATES } from './news-date-verified'
 
 export { hasArticle }
@@ -393,7 +393,7 @@ export function getNewsKv(): NewsKv | null {
 
 /** 표시용 목록 — 저장 원본에 사람이 원문 대조로 정정한 값(lib/news-corrections)을 덮는다. */
 export async function readAllNews(): Promise<NewsItem[]> {
-  return (await readStoredNews()).map(applyNewsCorrection).map(applyKnownLawDates)
+  return (await readStoredNews()).filter((it) => !UNPUBLISHED_DOC_KEYS.has(it.doc_key)).map(applyNewsCorrection).map(applyKnownLawDates)
 }
 
 /**

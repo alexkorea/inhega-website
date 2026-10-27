@@ -9,6 +9,8 @@
  * 키는 doc_key(예: 'EPING:120659'). article 은 기존 기사 위에 얕게 병합한다(sections·faq·keywords 는 통째 교체).
  */
 import type { NewsArticle } from './news-article-schema'
+import { basicArticle } from './news-basic-article'
+import { NEWS_CORRECTIONS_RW2 } from './news-corrections-rw2'
 
 export type NewsCorrection = {
   title_ko?: string
@@ -18,9 +20,19 @@ export type NewsCorrection = {
   deadline?: string
   opportunity_reason?: string
   article?: Partial<NewsArticle>
+  /** 이 시각(ISO) 이전에 생성된 구 기사는 정정 필드로 만든 기본 기사로 바꾼다. 이후 생성된 새 기사는 건드리지 않는다. */
+  staleArticleBefore?: string
 }
 
+/**
+ * 게시 부적합으로 목록·API·사이트맵·개별 페이지에서 내리는 항목(readAllNews 에서 제외, KV 는 그대로).
+ * FR:2026-19164 — EPA 주간 환경영향평가서(EIS) 접수 목록 공지. 특정 품목·수출입 인허가 규제가 아니고
+ * 단계·마감도 근거가 없다(맥3 원문 대조: 수출입 인허가 규제와 직접 관련 없음).
+ */
+export const UNPUBLISHED_DOC_KEYS: ReadonlySet<string> = new Set(['FR:2026-19164'])
+
 export const NEWS_CORRECTIONS: Record<string, NewsCorrection> = {
+  ...NEWS_CORRECTIONS_RW2,
   // G/TBT/N/CHN/2365(2026-10-22): lighters 를 '촛불'로 오역, 채택·시행일 미정인데 '수출할 수 없다' 단정,
   // 중국 시험·신고 대행 서술 — 원문 4·5·6·9·10항 기준으로 정정.
   'EPING:120659': {
@@ -154,13 +166,17 @@ export const NEWS_CORRECTIONS: Record<string, NewsCorrection> = {
 }
 
 /** KV 에서 읽은 항목에 정정을 덮는다. 정정이 없으면 같은 객체를 돌려준다. */
-export function applyNewsCorrection<T extends { doc_key: string; article: NewsArticle | null }>(item: T): T {
+export function applyNewsCorrection<T extends { doc_key: string; article: NewsArticle | null } & Parameters<typeof basicArticle>[0]>(item: T): T {
   const c = NEWS_CORRECTIONS[item.doc_key]
   if (!c) return item
-  const { article, ...fields } = c
-  return {
+  const { article, staleArticleBefore, ...fields } = c
+  const merged: T = {
     ...item,
     ...fields,
     article: item.article && article ? { ...item.article, ...article } : item.article,
   }
+  if (staleArticleBefore && merged.article && (merged.article.generated_at || '') < staleArticleBefore) {
+    return { ...merged, article: basicArticle(merged) }
+  }
+  return merged
 }

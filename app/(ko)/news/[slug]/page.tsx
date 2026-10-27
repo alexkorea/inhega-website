@@ -3,7 +3,8 @@
  *
  * 본문은 맥6 로컬 모델이 원문을 읽고 만든 해설을 n8n(RW-04)이 ingest 로 보낸 것이다.
  * KV 를 **요청 시** 읽으므로 기사가 들어오면 재배포 없이 바로 공개된다.
- * 기사가 없는 항목에는 이 URL 이 없다 — 목록에서 링크도 걸리지 않고 여기서는 404.
+ * 기사가 없는 항목은 정정된 title/summary/reason/stage/deadline 으로 만든 기본 페이지를 낸다
+ * (INHEGA-NEWS-FIX-2 — 재생성 실패 항목이 404 로 떨어지던 회귀). 목록 링크·사이트맵은 기사 있는 항목만.
  *
  * en/zh/ja 개별 페이지는 2단계라서 지금은 ko 만 있다. canonical 은 자기 자신.
  * 캐시는 워커 출구에서 s-maxage=600 (scripts/build-pages-bundle.mjs 의 NEWS_PATH 가
@@ -14,6 +15,7 @@ import { publisherLogo } from '@/lib/org-jsonld'
 import Link from 'next/link'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import { notFound } from 'next/navigation'
+import { basicArticle } from '@/lib/news-basic-article'
 import { findNewsBySlug, hasArticle, isHeld, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
 import { countryLabel } from '@/lib/news-country'
 import {
@@ -33,10 +35,11 @@ import styles from '@/app/news-article.module.css'
 // KV 를 요청 시 읽는다 — 프리렌더하면 배포 시점 데이터로 굳는다.
 export const dynamic = 'force-dynamic'
 
-/** 게시 기사만 통과시킨다. 요약만 있는 항목은 개별 페이지를 만들지 않는다. */
+/** 게시 항목만 통과시킨다. 기사가 없으면 기본 기사로 채운다. 제목 없는 항목·보류 항목은 404. */
 async function getArticleItem(slug: string): Promise<NewsItem | null> {
-  const item = await findNewsBySlug(slug)
-  if (!item || !hasArticle(item.article)) return null
+  const found = await findNewsBySlug(slug)
+  if (!found || !(found.title_ko || '').trim()) return null
+  const item = hasArticle(found.article) ? found : { ...found, article: basicArticle(found) }
   // 시행일 게이트(news-date-gate)에 걸린 항목은 게시 보류 — 원문과 다른 날짜를 내보내지 않는다.
   if (isHeld(item)) return null
 
