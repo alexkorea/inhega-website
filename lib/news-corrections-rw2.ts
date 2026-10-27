@@ -130,4 +130,31 @@ export const NEWS_CORRECTIONS_RW2: Record<string, NewsCorrection> = {
   },
   // 맥3 JSON 에는 없으나 구 기사 잔존(생수박버터·빌리소디컬 등 오역 고유명사)이 확인된 항목 — KV 의 title/summary 는 이미 맞다.
   "EPING:120326": { staleArticleBefore: STALE_CUTOFF },
+  // INHEGA-NEWS-FIX-3 — 맥3 RW-NEWS-REGEN(10-27 22시대)에서 가드 거부(원문에 없는 의무 서술·단계 과장·한자 잔존)로
+  // 구 기사가 남은 항목. title/summary/reason/stage/deadline 은 KV 값(= 맥3 JSON 정정값)을 그대로 쓰고 본문만 기본 기사로.
+  "EPING:120276": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120228": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120001": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120663": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120920": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120788": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120787": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120560": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120489": { staleArticleBefore: STALE_CUTOFF },
+  "EPING:120332": { staleArticleBefore: STALE_CUTOFF },
+  // 제목·요약의 괄호 한자 원어(要指導醫藥品·省令)는 빼고 한글 표기만 둔다 — 그 밖의 문구는 맥3 정정값 그대로.
+  "EGOV:44e02535": {
+    title_ko: "일본 후생노동대신 지정 요지도의약품 일부개정안 의견모집",
+    staleArticleBefore: STALE_CUTOFF,
+  },
+  "EGOV:cb3045ec": { staleArticleBefore: STALE_CUTOFF },
+  "EGOV:3689f5e1": {
+    title_ko: "일본 의약품의료기기등법 일부개정법 시행에 따른 후생노동성 관계 성령 정비안 의견모집",
+    summary_ko: "일본 후생노동성이 의약품의료기기등법 등을 일부 개정하는 법률의 일부 시행에 따라 후생노동성 관계 성령을 정비하는 성령안(관련 조문: 법 제14조의2 제3항, 제36조의3 제1항·제2항 등)에 대한 의견을 모집합니다. 의견마감은 2026년 11월 14일입니다.",
+    staleArticleBefore: STALE_CUTOFF,
+  },
+  "EGOV:2d9f6cf0": { staleArticleBefore: STALE_CUTOFF },
+  "FR:2026-20725": { staleArticleBefore: STALE_CUTOFF },
+  "FR:2026-20441": { staleArticleBefore: STALE_CUTOFF },
+  "FR:2026-20443": { staleArticleBefore: STALE_CUTOFF },
 }

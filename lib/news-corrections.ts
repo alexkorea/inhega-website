@@ -180,3 +180,13 @@ export function applyNewsCorrection<T extends { doc_key: string; article: NewsAr
   }
   return merged
 }
+
+/** CJK 통합한자(확장 A·호환 포함). 한글 기사 키워드에 모델이 흘린 중국어·일본어 원어(예: 意见提交截止日期)를 걸러낸다. */
+const HAN = /[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/
+
+/** 표시용 — 한자가 섞인 keywords 를 뺀다(INHEGA-NEWS-FIX-3). 걸러낼 것이 없으면 같은 객체를 돌려준다. */
+export function dropHanKeywords<T extends { article: NewsArticle | null }>(item: T): T {
+  const kw = item.article?.keywords
+  if (!kw || !kw.some((k) => HAN.test(k))) return item
+  return { ...item, article: { ...item.article!, keywords: kw.filter((k) => !HAN.test(k)) } }
+}

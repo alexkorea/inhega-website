@@ -9024,6 +9024,54 @@
    "slug": "fr-2026-19164",
    "generated_at": "2026-10-27T10:02:07.041Z",
    "version": "1.4"
+  },
+  "news/eping-120790": {
+   "hash": "cf70e3abec3ca205a132602c2aed207d03d57f2db997fc3fba9904fbab9d0450",
+   "source": "pexels",
+   "seed": 862131393,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 13301473,
+   "pexels_author": "Andrea De Santis",
+   "category": "전동 휠체어 (Electrically powered wheelchair)",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-120790",
+   "generated_at": "2026-10-27T13:33:44.645Z",
+   "version": "1.4"
+  },
+  "news/fr-2026-20075": {
+   "hash": "9ba93fd8e83204ddd06b9e48f6eb5e33907d189c22fea09a6e5603cde589d679",
+   "source": "pexels",
+   "seed": 825341132,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 32164875,
+   "pexels_author": "Theodore Nguyen",
+   "category": "의료기기",
+   "visa": null,
+   "lang": "ko",
+   "slug": "fr-2026-20075",
+   "generated_at": "2026-10-27T13:33:45.557Z",
+   "version": "1.4"
+  },
+  "news/fr-2026-19181": {
+   "hash": "3fac4ffcd94b77d416d914a91cf6e70372f0112de54cc32e88b48d4318a6f514",
+   "source": "pexels",
+   "seed": 4182356710,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 29562593,
+   "pexels_author": "YEON JUNG",
+   "category": "의료기기",
+   "visa": null,
+   "lang": "ko",
+   "slug": "fr-2026-19181",
+   "generated_at": "2026-10-27T13:33:46.410Z",
+   "version": "1.4"
   }
  }
 }
