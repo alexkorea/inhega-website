@@ -143,8 +143,8 @@ export default function ContactForm() {
                   <input type="hidden" name="language" value="en" />
                   <div className={styles.formGrid}>
                     <div className="form-group">
-                      <label className="form-label">{t.contact.form.name} <span className="required">*</span></label>
-                      <input
+                      <label className="form-label" htmlFor="contact-name">{t.contact.form.name} <span className="required">*</span></label>
+                      <input id="contact-name" name="name" autoComplete="name" aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                         className="form-input"
                         type="text"
                         placeholder={t.contact.form.namePlaceholder}
@@ -154,8 +154,8 @@ export default function ContactForm() {
                       />
                     </div>
                     <div className="form-group">
-                      <label className="form-label">{t.contact.form.phone} <span className="required">*</span></label>
-                      <input
+                      <label className="form-label" htmlFor="contact-phone">{t.contact.form.phone} <span className="required">*</span></label>
+                      <input id="contact-phone" name="phone" autoComplete="tel" aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                         className="form-input"
                         type="text"
                         placeholder={t.contact.form.phonePlaceholder}
@@ -166,8 +166,8 @@ export default function ContactForm() {
                     </div>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">{t.contact.form.emailLabel}</label>
-                    <input
+                    <label className="form-label" htmlFor="contact-email">{t.contact.form.emailLabel}</label>
+                    <input id="contact-email" name="email" autoComplete="email" aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                       className="form-input"
                       type="email"
                       placeholder={t.contact.form.emailPlaceholder}
@@ -176,8 +176,8 @@ export default function ContactForm() {
                     />
                   </div>
                   <div className="form-group">
-                    <label className="form-label">{t.contact.form.service}</label>
-                    <select
+                    <label className="form-label" htmlFor="contact-service">{t.contact.form.service}</label>
+                    <select id="contact-service" name="service" aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                       className="form-input"
                       value={form.service}
                       onChange={e => setForm(f => ({ ...f, service: e.target.value }))}
@@ -192,8 +192,8 @@ export default function ContactForm() {
                     </select>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">{t.contact.form.message} <span className="required">*</span></label>
-                    <textarea
+                    <label className="form-label" htmlFor="contact-message">{t.contact.form.message} <span className="required">*</span></label>
+                    <textarea id="contact-message" name="message" aria-describedby={status === 'error' ? 'contact-form-error' : undefined}
                       className="form-input form-textarea"
                       placeholder={t.contact.form.messagePlaceholder}
                       value={form.message}
@@ -202,7 +202,7 @@ export default function ContactForm() {
                     />
                   </div>
                   {status === 'error' && (
-                    <p className="form-error">{t.contact.form.error}</p>
+                    <p id="contact-form-error" className="form-error" role="alert">{t.contact.form.error}</p>
                   )}
                   <PrivacyConsent locale="en" />
                   <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>

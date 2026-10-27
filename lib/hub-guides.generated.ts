@@ -63,7 +63,7 @@ export const HUB_GUIDES: Record<string, { title: string; href: string }[]> = {
       "href": "/blog/ecig-fix"
     },
     {
-      "title": "전자담배 수입 허가 대행·행정사 선택 기준 (서울·경기 담배수입판매업 등록)",
+      "title": "전자담배 수입 등록 대행·행정사 선택 기준 (서울·경기 담배수입판매업 등록)",
       "href": "/blog/ecig-select"
     },
     {

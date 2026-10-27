@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
 import { ogThumb } from '@/lib/og-thumbs.generated'
+import { ogHeroBox } from '@/lib/og-hero-full'
 import { koBlogHref } from '@/lib/blog-redirects'
 
 export async function generateStaticParams() {
@@ -129,7 +130,7 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
             <div className="blog-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: '2rem', alignItems: 'start' }}>
               <article>
                 {ogThumb('ja', slug) && (
-                  <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '1.5rem', height: '300px' }}>
+                  <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '1.5rem', ...ogHeroBox(ogThumb('ja', slug)) }}>
                     <img src={ogThumb('ja', slug)} alt={displayTitle} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
@@ -147,7 +148,7 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>無料相談</p>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-                    韓国の許認可手続きについてお困りですか？専門の行政書士が初回相談を無料でお受けします。
+                    韓国の許認可手続きについてお困りですか？専門の行政士が初回相談を無料でお受けします。
                   </p>
                   <Link href="/ja/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
                     無料相談を申し込む

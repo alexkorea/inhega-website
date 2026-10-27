@@ -141,21 +141,21 @@ export default function ContactForm() {
                   <input type="hidden" name="language" value="zh" />
                   <div className={styles.formGrid}>
                     <div className="form-group">
-                      <label className="form-label">{t.contact.form.name} <span className="required">*</span></label>
-                      <input className="form-input" type="text" placeholder={t.contact.form.namePlaceholder} value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} required />
+                      <label className="form-label" htmlFor="contact-name">{t.contact.form.name} <span className="required">*</span></label>
+                      <input id="contact-name" name="name" autoComplete="name" aria-describedby={status === 'error' ? 'contact-form-error' : undefined} className="form-input" type="text" placeholder={t.contact.form.namePlaceholder} value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} required />
                     </div>
                     <div className="form-group">
-                      <label className="form-label">{t.contact.form.phone} <span className="required">*</span></label>
-                      <input className="form-input" type="text" placeholder={t.contact.form.phonePlaceholder} value={form.phone} onChange={e => setForm(f => ({ ...f, phone: e.target.value }))} required />
+                      <label className="form-label" htmlFor="contact-phone">{t.contact.form.phone} <span className="required">*</span></label>
+                      <input id="contact-phone" name="phone" autoComplete="tel" aria-describedby={status === 'error' ? 'contact-form-error' : undefined} className="form-input" type="text" placeholder={t.contact.form.phonePlaceholder} value={form.phone} onChange={e => setForm(f => ({ ...f, phone: e.target.value }))} required />
                     </div>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">{t.contact.form.emailLabel}</label>
-                    <input className="form-input" type="email" placeholder={t.contact.form.emailPlaceholder} value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} />
+                    <label className="form-label" htmlFor="contact-email">{t.contact.form.emailLabel}</label>
+                    <input id="contact-email" name="email" autoComplete="email" aria-describedby={status === 'error' ? 'contact-form-error' : undefined} className="form-input" type="email" placeholder={t.contact.form.emailPlaceholder} value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} />
                   </div>
                   <div className="form-group">
-                    <label className="form-label">{t.contact.form.service}</label>
-                    <select className="form-input" value={form.service} onChange={e => setForm(f => ({ ...f, service: e.target.value }))}>
+                    <label className="form-label" htmlFor="contact-service">{t.contact.form.service}</label>
+                    <select id="contact-service" name="service" aria-describedby={status === 'error' ? 'contact-form-error' : undefined} className="form-input" value={form.service} onChange={e => setForm(f => ({ ...f, service: e.target.value }))}>
                       <option value="">{t.contact.form.serviceDefault}</option>
                       {serviceGroups.map(g => (
                         <optgroup key={g.id} label={g.label}>
@@ -166,10 +166,10 @@ export default function ContactForm() {
                     </select>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">{t.contact.form.message} <span className="required">*</span></label>
-                    <textarea className="form-input form-textarea" placeholder={t.contact.form.messagePlaceholder} value={form.message} onChange={e => setForm(f => ({ ...f, message: e.target.value }))} required />
+                    <label className="form-label" htmlFor="contact-message">{t.contact.form.message} <span className="required">*</span></label>
+                    <textarea id="contact-message" name="message" aria-describedby={status === 'error' ? 'contact-form-error' : undefined} className="form-input form-textarea" placeholder={t.contact.form.messagePlaceholder} value={form.message} onChange={e => setForm(f => ({ ...f, message: e.target.value }))} required />
                   </div>
-                  {status === 'error' && <p className="form-error">{t.contact.form.error}</p>}
+                  {status === 'error' && <p id="contact-form-error" className="form-error" role="alert">{t.contact.form.error}</p>}
                   <PrivacyConsent locale="zh" />
                   <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>
                     {status === 'loading' ? t.contact.form.submitting : t.contact.form.submit}

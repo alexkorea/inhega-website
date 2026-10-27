@@ -104,7 +104,7 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
     {
       "slug": "ecig",
       "href": "/services/ecig",
-      "shortTitle": "전자담배 수입허가",
+      "shortTitle": "전자담배 수입 등록",
       "category": "유통/판매"
     },
     {

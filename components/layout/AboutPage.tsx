@@ -145,7 +145,7 @@ const d: Record<Locale, LocaleData> = {
   ja: {
     badge: '事務所案内',
     h1: ['許認可専門、', 'YouSun Administrative Agency'],
-    heroBody: 'YouSun Administrative Agencyは専門行政書士事務所です。代表の鄭有善行政書士を含む4名の行政書士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
+    heroBody: 'YouSun Administrative Agencyは専門行政士事務所です。代表の鄭有善行政士を含む4名の行政士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
     stats: [
       { value: '09:30–17:30', label: '平日相談時間' },
     ],
@@ -154,7 +154,7 @@ const d: Record<Locale, LocaleData> = {
       '創業や事業拡張の過程で、許認可の問題にお困りの方を多く見てきました。複雑な法令、煩雑な書類、長くて不透明な手続きの前に途方に暮れるのは当然のことです。',
       'YouSun Administrative Agencyは、その不安を解消するための専門パートナーです。私たちは単なる書類提出代行業者ではありません。お客様のビジネス目標をしっかり理解した上で、最適なルートで許認可を完成させ、事業の成功を共に実現いたします。',
     ],
-    greetingAuthor: '代表行政書士 鄭有善',
+    greetingAuthor: '代表行政士 鄭有善',
     greetingTitle: 'YouSun Administrative Agency 代表 | 事業者番号: 722-39-01297',
     expertiseBadge: '専門分野',
     expertiseH2: '6つの核心専門分野',

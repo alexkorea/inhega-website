@@ -287,7 +287,7 @@ function SidebarCta({ lang }: { lang: IndustryLocale }) {
   const t = {
     en: { h: 'Free Consultation', p: 'Speak with a licensed Korean administrative scrivener. We will assess your situation and provide a clear action plan.', btn: 'Contact Us Now', line: 'Direct Line', hours: 'Mon–Fri 09:30–17:30 KST', msg: 'WeChat / WhatsApp / Kakao / LINE: ' },
     zh: { h: '免费咨询', p: '与持牌韩国行政士直接沟通，我们将评估您的情况并提供清晰的行动方案。', btn: '立即联系我们', line: '直线电话', hours: '周一至周五 09:30–17:30 (韩国时间)', msg: '微信 / WhatsApp / Kakao / LINE: ' },
-    ja: { h: '無料相談', p: '有資格の韓国行政書士が直接対応します。状況を伺い、明確な対応方針をご提案します。', btn: '今すぐお問い合わせ', line: '直通電話', hours: '月〜金 09:30–17:30 (韓国時間)', msg: 'LINE / WeChat / WhatsApp / Kakao: ' },
+    ja: { h: '無料相談', p: '有資格の韓国行政士が直接対応します。状況を伺い、明確な対応方針をご提案します。', btn: '今すぐお問い合わせ', line: '直通電話', hours: '月〜金 09:30–17:30 (韓国時間)', msg: 'LINE / WeChat / WhatsApp / Kakao: ' },
   }[lang]
   return (
     <div className="fade-in delay-3" style={{ background: 'var(--white)', borderRadius: '16px', padding: '2rem', border: '2px solid var(--burgundy)' }}>

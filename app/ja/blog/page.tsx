@@ -8,7 +8,7 @@ import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, reso
 
 const metadata: Metadata = {
   title: '韓国許認可ブログ | YouSun Administrative Agency',
-  description: '韓国ビジネス許認可の専門ガイド——国際物流主選業・外貨両替業・食品許可・HACCPなど、行政書士が執筆。',
+  description: '韓国ビジネス許認可の専門ガイド——国際物流主選業・外貨両替業・食品許可・HACCPなど、行政士が執筆。',
   alternates: {
     canonical: 'https://inhega.co.kr/ja/blog',
     languages: {
@@ -63,7 +63,7 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
             韓国許認可<br />情報センター
           </h1>
           <p className="text-body-lg" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1rem' }}>
-            行政書士が直接執筆する韓国政府許認可の最新ガイドと実務情報。
+            行政士が直接執筆する韓国政府許認可の最新ガイドと実務情報。
           </p>
         </div>
       </section>

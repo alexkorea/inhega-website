@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
 
-const HOME_TITLE = '許認可専門の行政書士 — 韓国の許認可手続き・書類 | YouSun Administrative Agency'
+const HOME_TITLE = '許認可専門の行政士 — 韓国の許認可手続き・書類 | YouSun Administrative Agency'
 const HOME_DESC = '外国人・外国企業向けの韓国政府許認可手続き専門事務所。国際貨物運送、外貨両替、食品製造、化粧品許可、位置情報サービス届出など全件代行。'
 
 export const metadata: Metadata = {

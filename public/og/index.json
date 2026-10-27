@@ -178,7 +178,7 @@
    "version": "1.4"
   },
   "ko/tobacco-import-sales-guide": {
-   "hash": "87dae0cb496a559dad3425331b86eb5e7c2d2d6279757d9b098bebb266af6c16",
+   "hash": "6b1cc0cdffb8c1afa4535bb600202b6bc3738963d15edda63c7c5130040c4250",
    "source": "pexels",
    "seed": 4217081816,
    "theme": "default",
@@ -190,7 +190,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "tobacco-import-sales-guide",
-   "generated_at": "2026-09-22T05:53:01.992Z",
+   "generated_at": "2026-10-27T06:31:04.262Z",
    "version": "1.4"
   },
   "ko/nonprofit-corporation-establishment-guide": {
@@ -226,7 +226,7 @@
    "version": "1.4"
   },
   "ko/e-cigarette-import-license-guide": {
-   "hash": "45cc369dc1e396bca457c7831c82644fd5bdd365a85007a5565cfafbbff9cf10",
+   "hash": "ced49192eb68a9cca0597940c15a1f1160b37db1d0a143f171feaf3e043b1420",
    "source": "pexels",
    "seed": 4066397978,
    "theme": "default",
@@ -238,7 +238,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "e-cigarette-import-license-guide",
-   "generated_at": "2026-09-22T05:53:14.167Z",
+   "generated_at": "2026-10-27T06:31:06.197Z",
    "version": "1.4"
   },
   "ko/international-logistics-capital-funding-guide": {
@@ -914,7 +914,7 @@
    "version": "1.4"
   },
   "ko/e-cigarette-import-permit": {
-   "hash": "175b43539807faafe1553db27b02c7b28cdf1e4ba57a0ed58fce17ea8923b135",
+   "hash": "d303be518e80e5a247c72e0e4d4ad567354970c951db9e0966064a6c4d8dfec7",
    "source": "pexels",
    "seed": 423643764,
    "theme": "default",
@@ -926,7 +926,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "e-cigarette-import-permit",
-   "generated_at": "2026-09-22T05:59:12.728Z",
+   "generated_at": "2026-10-27T06:31:11.403Z",
    "version": "1.4"
   },
   "ko/women-owned-business-certification": {
@@ -1058,7 +1058,7 @@
    "version": "1.4"
   },
   "ko/tobacco-license-tax-bond": {
-   "hash": "994056ffe22c804553347d8255aafa75bb2996b2273765855bfe77987115a5b8",
+   "hash": "21d690b4ca6ed97873f8faa8b2e88a6252433047138ae22c05c42c137a2858f4",
    "source": "pexels",
    "seed": 2117531536,
    "theme": "default",
@@ -1070,7 +1070,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "tobacco-license-tax-bond",
-   "generated_at": "2026-09-22T06:01:02.781Z",
+   "generated_at": "2026-10-27T06:31:08.842Z",
    "version": "1.4"
   },
   "ko/e-cigarette-liquid-regulation": {
@@ -1378,7 +1378,7 @@
    "version": "1.4"
   },
   "ko/tobacco-license-renewal": {
-   "hash": "861837a8d1c155d32b9fe38e715ee44e0ce10b8f3b9e8a4bb11633bfe30db849",
+   "hash": "d1beb06f5f3630ec94077d1e693ce94f9c8f52b51a141f5cf2da480f35dd5376",
    "source": "pexels",
    "seed": 1456189130,
    "theme": "default",
@@ -1390,11 +1390,11 @@
    "visa": null,
    "lang": "ko",
    "slug": "tobacco-license-renewal",
-   "generated_at": "2026-09-22T06:03:17.508Z",
+   "generated_at": "2026-10-27T06:31:09.661Z",
    "version": "1.4"
   },
   "ko/tobacco-import-documents": {
-   "hash": "0d864623206ed627bc959691c43e45b81d17921956323f7c847b2400941dc2d6",
+   "hash": "492e9b5fa3713c5b5840dd0a1b2cc2a9194d31230899f3b8b3d3d8ac99077eac",
    "source": "pexels",
    "seed": 3165600903,
    "theme": "default",
@@ -1406,7 +1406,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "tobacco-import-documents",
-   "generated_at": "2026-09-22T06:03:28.403Z",
+   "generated_at": "2026-10-27T06:31:10.514Z",
    "version": "1.4"
   },
   "ko/food-import-sales-registration": {
@@ -2242,7 +2242,7 @@
    "version": "1.4"
   },
   "en/tobacco-import-sales-guide": {
-   "hash": "c7ebf6d2e7b3ed9f88e43a65c045f159c02b872c98aafad1c41c1e35eaa22000",
+   "hash": "c27e1e85556b21390fc819502ddde105cc78358d0bb4143c4e81ddce97b7b8f6",
    "source": "pexels",
    "seed": 4217081816,
    "theme": "default",
@@ -2254,7 +2254,7 @@
    "visa": null,
    "lang": "en",
    "slug": "tobacco-import-sales-guide",
-   "generated_at": "2026-09-22T06:16:51.615Z",
+   "generated_at": "2026-10-27T06:31:04.735Z",
    "version": "1.4"
   },
   "en/nonprofit-corporation-establishment-guide": {
@@ -2290,7 +2290,7 @@
    "version": "1.4"
   },
   "en/e-cigarette-import-license-guide": {
-   "hash": "0ee7d5a5a2f048e09549d93f774fed88773f8f3441bda0fe59627752b0ac13cd",
+   "hash": "2e821363b37f3a0a85169380ed2bdce30eb21f07118cf582afccb1ebaf238cd5",
    "source": "pexels",
    "seed": 4066397978,
    "theme": "default",
@@ -2302,7 +2302,7 @@
    "visa": null,
    "lang": "en",
    "slug": "e-cigarette-import-license-guide",
-   "generated_at": "2026-09-22T06:16:54.437Z",
+   "generated_at": "2026-10-27T06:31:06.957Z",
    "version": "1.4"
   },
   "en/international-logistics-capital-funding-guide": {
@@ -2930,7 +2930,7 @@
    "version": "1.4"
   },
   "zh/currency-exchange-registration-guide": {
-   "hash": "841a14c778ebec7fa04b93143257b43df6826bd169748b0ed82a07bfb019f1fb",
+   "hash": "905bb833f82dda2fb16d6aa7972d4e38a1efaadee3ba2140c5e5f2d71564ad4b",
    "source": "pexels",
    "seed": 2716386506,
    "theme": "default",
@@ -2942,7 +2942,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "currency-exchange-registration-guide",
-   "generated_at": "2026-09-22T06:17:36.293Z",
+   "generated_at": "2026-10-27T06:31:12.684Z",
    "version": "1.4"
   },
   "zh/building-usage-change-guide": {
@@ -3090,7 +3090,7 @@
    "version": "1.4"
   },
   "zh/tobacco-import-sales-guide": {
-   "hash": "15741f901a2627909f05a28ff6282b53992b9b80f03f03c4a8b44fed2a389d2c",
+   "hash": "701e4051b893a886734f76aa7a3ed5e229ce958f7b0ea6bc79f293f6e456956c",
    "source": "pexels",
    "seed": 4217081816,
    "theme": "default",
@@ -3102,7 +3102,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-import-sales-guide",
-   "generated_at": "2026-09-22T06:17:41.539Z",
+   "generated_at": "2026-10-27T06:31:05.275Z",
    "version": "1.4"
   },
   "zh/nonprofit-corporation-establishment-guide": {
@@ -3138,7 +3138,7 @@
    "version": "1.4"
   },
   "zh/e-cigarette-import-license-guide": {
-   "hash": "99863883d1f5513a84389828b651cea42e3b2a3c1d3f81c016c0bc7349e2401e",
+   "hash": "3f9e8273cd145dfe3688e57269749acffbdd85639860f892ea5ed623b4b2b7a9",
    "source": "pexels",
    "seed": 4066397978,
    "theme": "default",
@@ -3150,7 +3150,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "e-cigarette-import-license-guide",
-   "generated_at": "2026-09-22T06:17:44.320Z",
+   "generated_at": "2026-10-27T06:31:07.700Z",
    "version": "1.4"
   },
   "zh/international-logistics-capital-funding-guide": {
@@ -3778,7 +3778,7 @@
    "version": "1.4"
   },
   "ja/currency-exchange-registration-guide": {
-   "hash": "e78115fe2c99dd54c27e3d8b1c8ee37413d7424e0867523c2b2c4cb503bf2f46",
+   "hash": "e9b3ba1c416d95a7a12522e2101d5a00b758bf42b5d183fa47e158954b080996",
    "source": "pexels",
    "seed": 2716386506,
    "theme": "default",
@@ -3790,7 +3790,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "currency-exchange-registration-guide",
-   "generated_at": "2026-09-22T06:18:07.872Z",
+   "generated_at": "2026-10-27T06:31:13.105Z",
    "version": "1.4"
   },
   "ja/building-usage-change-guide": {
@@ -3938,7 +3938,7 @@
    "version": "1.4"
   },
   "ja/tobacco-import-sales-guide": {
-   "hash": "a492d5915d22b3f1902a23a7dab3851270795293ab58b0abc65ec191296417ae",
+   "hash": "8e264ef97f12c4330bfcca0435972d687d2c6ccabc0845498c62c60b9cf638b2",
    "source": "pexels",
    "seed": 4217081816,
    "theme": "default",
@@ -3950,7 +3950,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "tobacco-import-sales-guide",
-   "generated_at": "2026-09-22T06:18:13.146Z",
+   "generated_at": "2026-10-27T06:31:05.776Z",
    "version": "1.4"
   },
   "ja/nonprofit-corporation-establishment-guide": {
@@ -3986,7 +3986,7 @@
    "version": "1.4"
   },
   "ja/e-cigarette-import-license-guide": {
-   "hash": "683ba6fa596800dca5b4eb0a0f60aa02b208938823839005c7888423acc586dd",
+   "hash": "913d41b81a4a8167f80cb1b140b2aee8db6f4be55680575c96cb5da8b664a7e7",
    "source": "pexels",
    "seed": 4066397978,
    "theme": "default",
@@ -3998,7 +3998,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "e-cigarette-import-license-guide",
-   "generated_at": "2026-09-22T06:18:15.964Z",
+   "generated_at": "2026-10-27T06:31:08.442Z",
    "version": "1.4"
   },
   "ja/international-logistics-capital-funding-guide": {
@@ -4418,7 +4418,7 @@
    "version": "1.4"
   },
   "ja/administrative-license-permit-specialist-guide": {
-   "hash": "4496818cbbf783e6bb29fd5343030898b3768babcd99ae56bbdbd4bae4d8bd5b",
+   "hash": "5adeeb7cf9f224d459fdbadd0cb0d5889cf06d53516538eb3711d2f6faf8e861",
    "source": "pexels",
    "seed": 819732201,
    "theme": "default",
@@ -4430,7 +4430,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "administrative-license-permit-specialist-guide",
-   "generated_at": "2026-09-22T06:18:30.932Z",
+   "generated_at": "2026-10-27T06:31:13.577Z",
    "version": "1.4"
   },
   "ja/location-based-service-business-registration-foreign-company": {
@@ -4482,7 +4482,7 @@
    "version": "1.4"
   },
   "ja/yongdo-byeongyeong-haengjengsa": {
-   "hash": "7be8e64a384ef3f993e8fbfbeebc5e42a8cc12565b24b4d1926b3351845420dc",
+   "hash": "86d847d3f00d759684671ce91073d3cc201e28ba554edd571e0fd9555899ac66",
    "source": "pexels",
    "seed": 1949720185,
    "theme": "default",
@@ -4494,7 +4494,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "yongdo-byeongyeong-haengjengsa",
-   "generated_at": "2026-09-22T06:18:34.151Z",
+   "generated_at": "2026-10-27T06:31:14.312Z",
    "version": "1.4"
   },
   "ja/beauty-salon-notification-guide": {
@@ -4722,7 +4722,7 @@
    "version": "1.4"
   },
   "zh/e-cigarette-import-permit": {
-   "hash": "7b36dc68f5679c02650065635706cddacdd54d334c8eab0b3af378ec650e115a",
+   "hash": "8bf5312e48a004dc4b068170392c5cbdc129a287f20efe21b92d495a0eab809f",
    "source": "pexels",
    "seed": 423643764,
    "theme": "default",
@@ -4734,7 +4734,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "e-cigarette-import-permit",
-   "generated_at": "2026-10-21T07:01:42.296Z",
+   "generated_at": "2026-10-27T06:31:11.854Z",
    "version": "1.4"
   },
   "zh/women-owned-business-certification": {
@@ -4866,7 +4866,7 @@
    "version": "1.4"
   },
   "zh/tobacco-license-tax-bond": {
-   "hash": "8d7f68898e648d4e777098706d3692bd89aa94ae73304f7168156be53656f76f",
+   "hash": "0c6a15ba29b1436d665e0755d78bb6f05dc4b47dfeef48f6704e1fd5388f1523",
    "source": "pexels",
    "seed": 2117531536,
    "theme": "default",
@@ -4878,7 +4878,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-license-tax-bond",
-   "generated_at": "2026-10-21T07:01:47.373Z",
+   "generated_at": "2026-10-27T06:31:09.247Z",
    "version": "1.4"
   },
   "zh/e-cigarette-liquid-regulation": {
@@ -5186,7 +5186,7 @@
    "version": "1.4"
   },
   "zh/tobacco-license-renewal": {
-   "hash": "cd68a66a6be84d8fd052856f8c4ca1edf8fc7170ec7b126048c915a8c7cecd71",
+   "hash": "6b84a5309d1ea1b375a7c05ca1ded2dd19fafe5e31bbcd28d0e1b0cd7bd66f8f",
    "source": "pexels",
    "seed": 1456189130,
    "theme": "default",
@@ -5198,11 +5198,11 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-license-renewal",
-   "generated_at": "2026-10-21T07:01:58.210Z",
+   "generated_at": "2026-10-27T06:31:10.077Z",
    "version": "1.4"
   },
   "zh/tobacco-import-documents": {
-   "hash": "339aa7db8be7dd03594bb2a4cd73e8c00ddc4f6cea8725d9a36aba3b25b4b8a9",
+   "hash": "bdbd7545e46a65785dc4491a1b1a1fdc0ee42e427ef0733c77a72fcdd8df70fd",
    "source": "pexels",
    "seed": 3165600903,
    "theme": "default",
@@ -5214,7 +5214,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "tobacco-import-documents",
-   "generated_at": "2026-10-21T07:01:58.641Z",
+   "generated_at": "2026-10-27T06:31:10.951Z",
    "version": "1.4"
   },
   "zh/food-import-sales-registration": {
@@ -6450,7 +6450,7 @@
    "version": "1.4"
   },
   "ko/ecig-select": {
-   "hash": "5b74989e1fbc5792da421d0997619e205533b66b371bb2872e7d3d22942dcffd",
+   "hash": "1d9819387af5e1f28d0f8d6f5ef18e686d806cf5f6b29c06a421a64d9966a05a",
    "source": "pexels",
    "seed": 2788578585,
    "theme": "default",
@@ -6462,7 +6462,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "ecig-select",
-   "generated_at": "2026-10-02T18:56:11.855Z",
+   "generated_at": "2026-10-27T06:31:12.260Z",
    "version": "1.4"
   },
   "ko/factory-fix": {

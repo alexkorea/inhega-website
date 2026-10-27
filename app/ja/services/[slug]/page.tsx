@@ -195,7 +195,7 @@ export default async function JaServicePage({ params }: { params: Promise<{ slug
                 <div className="fade-in delay-3" style={{ background: 'var(--white)', borderRadius: '16px', padding: '2rem', border: '2px solid var(--burgundy)' }}>
                   <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>無料相談</h3>
                   <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-                    有資格の韓国行政書士が直接対応します。状況を伺い、明確な対応方針をご提案します。
+                    有資格の韓国行政士が直接対応します。状況を伺い、明確な対応方針をご提案します。
                   </p>
                   <Link href="/ja/contact" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
                     今すぐお問い合わせ
