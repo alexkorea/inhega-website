@@ -1858,7 +1858,7 @@
    "version": "1.4"
   },
   "ko/rnd-service-business-registration": {
-   "hash": "610fd7eb42f4afffe4a208335e4db02ef9a34e6be85a856ab9d88a732a2776ec",
+   "hash": "f8c33584fb720324bf5c7a0edfe71ae0905063ffb76ead0abe0f8f5a42f05537",
    "source": "pexels",
    "seed": 2707859805,
    "theme": "default",
@@ -1870,7 +1870,7 @@
    "visa": null,
    "lang": "ko",
    "slug": "rnd-service-business-registration",
-   "generated_at": "2026-09-22T06:11:36.274Z",
+   "generated_at": "2026-10-27T07:04:02.916Z",
    "version": "1.4"
   },
   "ko/real-estate-development-registration": {
@@ -5666,7 +5666,7 @@
    "version": "1.4"
   },
   "zh/rnd-service-business-registration": {
-   "hash": "d7ef05eb0664755aec83602f58ec44ecc7d0e5fbb49026627f5efa77736d96ee",
+   "hash": "1ed161a43ce51e64d1c733057857bfc717a2e840fe140a7367cb7a008672ec56",
    "source": "pexels",
    "seed": 2707859805,
    "theme": "default",
@@ -5678,7 +5678,7 @@
    "visa": null,
    "lang": "zh",
    "slug": "rnd-service-business-registration",
-   "generated_at": "2026-10-21T07:02:19.268Z",
+   "generated_at": "2026-10-27T07:04:03.813Z",
    "version": "1.4"
   },
   "zh/real-estate-development-registration": {
@@ -6002,7 +6002,7 @@
    "version": "1.4"
   },
   "ja/rnd-service-business-registration": {
-   "hash": "7a6c1616b8a92b5292b442ca2d9601c6a2ee982522bdace212163da670dfcd6f",
+   "hash": "31a5b7fa4c5818415beb8311f44440409dd34719ec199ab9ee0a643b177c4ce1",
    "source": "pexels",
    "seed": 2707859805,
    "theme": "default",
@@ -6014,7 +6014,7 @@
    "visa": null,
    "lang": "ja",
    "slug": "rnd-service-business-registration",
-   "generated_at": "2026-10-21T07:02:32.811Z",
+   "generated_at": "2026-10-27T07:04:04.664Z",
    "version": "1.4"
   },
   "ja/real-estate-development-registration": {

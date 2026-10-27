@@ -277,7 +277,7 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
     description: 'Establishing a certified corporate research laboratory (기업부설연구소) provides significant tax benefits and grants under Korea\'s R&D support system. Certified labs qualify for R&D tax credits, researcher salary deductions, and technology import tax exemptions.',
     faqs: [
       { q: 'What qualifications do researchers need?', a: 'Research staff must hold relevant degrees or equivalent experience. Minimum numbers vary by company size.' },
-      { q: 'What are the facility requirements?', a: 'A dedicated research space (minimum 50㎡ for SMEs) physically separate from other operations.' },
+      { q: 'What are the facility requirements?', a: 'A dedicated research space separated from other departments by fixed walls and a separate entrance, large enough for researchers and research assistants to work there regularly after research equipment is installed. SMEs, R&D-type SMEs, venture companies and IT service or software development firms that cannot secure more than 50㎡ may instead use a research space separated by partitions.' },
     ],
     processSteps: [
       { step: 'Eligibility Assessment', desc: 'Review of research staff qualifications and facility' },

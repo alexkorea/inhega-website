@@ -53,7 +53,7 @@ const blogData: BlogI18n[] = [
     locale: 'zh',
     title: '韩国国际货运代理业登记指南2026 — 从申请资格到处理期限',
     metaTitle: '韩国国际货运代理业登记方法2026 — 完整指南',
-    metaDescription: '韩国国际货运代理业登记资质、材料、企划财政部申请程序详解。资本金3亿韩元、保证保险要求及外国企业特别事项说明。免费初次咨询。本文依次说明核心申请条件、所需材料、登记申请流程、处理期限与费用，可按步骤逐项确认。',
+    metaDescription: '韩国国际货运代理业登记资质、材料、向市·道知事申请登记的程序详解。资本金3亿韩元、保证保险要求及外国企业特别事项说明。免费初次咨询。本文依次说明核心申请条件、所需材料、登记申请流程、处理期限与费用，可按步骤逐项确认。',
     category: '物流/配送',
     excerpt: '外国企业在韩国开展国际货运代理业务必须了解的登记资质、所需材料及申请流程全攻略。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是国际货运代理业？</li><li>哪些企业需要登记？</li><li>核心申请条件</li><li>所需材料</li><li>登记申请流程</li><li>处理期限与费用</li><li>登记后的义务</li><li>外国企业注意事项</li><li>常见问题</li></ol></div>
@@ -777,7 +777,7 @@ const blogData: BlogI18n[] = [
     locale: 'zh',
     title: '韩国开宾馆所需资质 — 外国人城市民宿业登记条件·材料·流程',
     metaTitle: '韩国开宾馆所需资质（2026）— 城市民宿业登记条件·手续费·处理期限',
-    metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料、法定处理期限14天、登记手续费20,000韩元（《观光振兴法施行规则》附表23，2026年9月确认）。专业行政士免费初次咨询。',
+    metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料、法定处理期限14天、登记手续费20,000韩元。专业行政士免费初次咨询。',
     category: '住宿/旅游',
     excerpt: '韩国外国人城市民宿业登记完整指南，让您合法在住宅物业中接待外国游客（类似Airbnb模式）。',
     content: `<p>韩国开宾馆（城市民宿业）所需资质：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，登记法定处理期限14天。</p>
@@ -820,7 +820,7 @@ const blogData: BlogI18n[] = [
 <li>设施的平面图及配置图</li></ul>
 <p>法人登记事项证明书与不动产登记事项证明书由受理机关通过行政信息共享直接查询，申请人无须另行提交（施行规则第2条第2款）。</p>
 <h2>9. 处理期限与手续费（官方标准）</h2>
-<p>处理期限载于《观光振兴法施行规则》附件第1号格式，手续费载于同施行规则附表23。以下为2026年9月27日确认的现行金额，均为<strong>政府规费</strong>，不含代办报酬。</p>
+<p>处理期限载于《观光振兴法施行规则》附件第1号格式，手续费载于同施行规则附表23。以下金额均为<strong>政府规费</strong>，不含代办报酬。</p>
 <table><thead><tr><th>区分</th><th>法定处理期限</th><th>手续费（政府规费）</th></tr></thead>
 <tbody><tr><td>新规登记</td><td>14天</td><td>20,000韩元</td></tr>
 <tr><td>变更登记</td><td>—</td><td>15,000韩元</td></tr></tbody></table>
@@ -1485,7 +1485,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can I have a property manager run my Airbnb while I'm abroad?</p><p class="faq-a">A. The owner-occupancy requirement means you must reside at the property. Property management arrangements may violate this requirement — consult a specialist.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How does Airbnb handle taxes in Korea?</p><p class="faq-a">A. How platform fees and host income are taxed should be confirmed with a tax professional.</p></div>
 </div>
-<div class="cta-box"><h3>Get Expert Guidance on Guesthouse Operations</h3><p>YouSun Administrative Agency advises on compliance, tax registration, and reporting procedures. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Expert Guidance on Guesthouse Operations</h3><p>YouSun Administrative Agency advises on compliance and reporting procedures. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'urban-guesthouse-airbnb-operation-guide',
@@ -1512,7 +1512,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 我在国外时可以委托房产管理公司代运营Airbnb吗？</p><p class="faq-a">A. 业主自住要求意味着您必须居住在该房产。委托房产管理可能违反此要求，请咨询专业人士。</p></div>
 <div class="faq-item"><p class="faq-q">Q. Airbnb在韩国如何处理税务？</p><p class="faq-a">A. 平台服务费与房东收入如何课税，请向税务师等税务专业人士确认。</p></div>
 </div>
-<div class="cta-box"><h3>获取民宿运营专业指导</h3><p>YouSun Administrative Agency提供合规咨询、税务登记及申报程序建议。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>获取民宿运营专业指导</h3><p>YouSun Administrative Agency提供合规咨询及申报程序建议。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
   },
   {
     slug: 'urban-guesthouse-airbnb-operation-guide',
@@ -1539,7 +1539,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 海外にいる間、代行管理会社にAirbnbを運営させられますか？</p><p class="faq-a">A. 所有者居住要件があるため、物件に居住する必要があります。管理委託はこの要件に違反する可能性があります — 専門家にご相談ください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. AirbnbはKoreaでどのように税務を処理しますか？</p><p class="faq-a">A. プラットフォーム手数料とホストの収入の課税関係は、税理士など税務の専門家にご確認ください。</p></div>
 </div>
-<div class="cta-box"><h3>民泊運営の専門的なアドバイスを受けましょう</h3><p>YouSun Administrative Agencyがコンプライアンス、税務登録、申告手続きをサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>民泊運営の専門的なアドバイスを受けましょう</h3><p>YouSun Administrative Agencyがコンプライアンスや申告手続きをサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
   },
 
   // ── BLOG 18–22: remaining content (shorter format for efficiency) ────────────
@@ -1713,15 +1713,15 @@ const blogData: BlogI18n[] = [
     excerpt: 'A practical guide to AML internal control standards for Korean currency exchange businesses — covering STR, CTR, CDD obligations and internal policy requirements.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why AML Compliance Is Critical</li><li>Three Core AML Obligations</li><li>Internal Control Policy Document</li><li>Transaction Monitoring Systems</li><li>Staff Training Requirements</li><li>Regulatory Inspections</li><li>FAQ</li></ol></div>
 <h2>1. Why AML Compliance Is Critical</h2>
-<p>Currency exchange businesses in Korea are classified as <strong>financial transaction reporting institutions</strong> under the Act on Reporting and Use of Specific Financial Transaction Information. Non-compliance can result in license revocation, criminal prosecution, and substantial fines.</p>
+<p>Currency exchange businesses in Korea are classified as <strong>financial transaction reporting institutions</strong> under the Act on Reporting and Use of Specific Financial Transaction Information. Failing to take the required AML measures can result in administrative fines of up to KRW 100 million, corrective orders, and a request by KoFIU to suspend all or part of the business for up to six months; filing a false report or disclosing a report to the customer is a criminal offense.</p>
 <h2>2. Three Core AML Obligations</h2>
-<ul><li><strong>Customer Due Diligence (CDD/EDD):</strong> Verify customer identity for all transactions; enhanced due diligence for high-risk customers</li><li><strong>Suspicious Transaction Reports (STR):</strong> Report suspected money laundering to the Financial Intelligence Unit (FIU) within 3 days</li><li><strong>Currency Transaction Reports (CTR):</strong> Report cash transactions of KRW 10 million or more per day per customer within 30 days</li></ul>
+<ul><li><strong>Customer Due Diligence (CDD/EDD):</strong> Verify customer identity when an account is opened or for a one-off transaction at or above the threshold (USD 10,000 or equivalent for foreign exchange transactions denominated in foreign currency), and regardless of amount where money laundering is suspected — in that case also verify the transaction purpose and source of funds</li><li><strong>Suspicious Transaction Reports (STR):</strong> Report suspected money laundering to the Financial Intelligence Unit (FIU) without delay</li><li><strong>Currency Transaction Reports (CTR):</strong> Report cash transactions of KRW 10 million or more per day per customer within 30 days</li></ul>
 <h2>3. Internal Control Policy Document</h2>
 <p>Required AML policy document must include: risk assessment methodology, CDD procedures, STR/CTR reporting workflow, record-keeping rules (5-year minimum), employee training schedule, and compliance officer designation.</p>
 <h2>4. Transaction Monitoring Systems</h2>
 <ul><li>Daily CTR threshold alerts</li><li>Pattern detection for structuring (splitting transactions to avoid CTR)</li><li>PEP (Politically Exposed Person) screening</li><li>Sanctions list checking (UN, OFAC, etc.)</li></ul>
 <h2>5. Staff Training Requirements</h2>
-<p>All staff handling exchange transactions must receive annual AML training. Training records must be maintained for FIU inspection. New employees must be trained before handling any transactions.</p>
+<p>Currency exchange businesses must provide AML training and education to their officers and employees.</p>
 <h2>6. Regulatory Inspections</h2>
 <p>KoFIU supervises AML compliance, and inspection of registered currency exchange businesses is entrusted to the Korea Customs Service. Common findings: inadequate CDD records, missing CTR filings, outdated AML policy documents.</p>
 <div class="faq-section"><h2>FAQ</h2>
@@ -1740,15 +1740,15 @@ const blogData: BlogI18n[] = [
     excerpt: '韩国换钱业反洗钱内部控制标准实务指南，涵盖STR、CTR、CDD义务及内部政策要求。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么AML合规至关重要</li><li>三大核心AML义务</li><li>内部控制政策文件</li><li>交易监控系统</li><li>员工培训要求</li><li>监管检查</li><li>常见问题</li></ol></div>
 <h2>1. 为什么AML合规至关重要</h2>
-<p>韩国换钱业依据《特定金融交易信息报告及利用法》被列为<strong>金融交易报告机构</strong>。不合规可能导致许可证被吊销、刑事追诉及巨额罚款。</p>
+<p>韩国换钱业依据《特定金融交易信息报告及利用法》被列为<strong>金融交易报告机构</strong>。未履行反洗钱义务可被处以最高1亿韩元的罚款（过怠金）、纠正命令，金融情报院还可要求主管机关在6个月范围内暂停全部或部分营业；虚假报告或向客户泄露报告事实将受刑事处罚。</p>
 <h2>2. 三大核心AML义务</h2>
-<ul><li><strong>客户尽职调查（CDD/EDD）：</strong>核实所有交易客户身份；对高风险客户实施强化尽职调查</li><li><strong>可疑交易报告（STR）：</strong>在3天内向金融情报院（FIU）报告疑似洗钱交易</li><li><strong>高额现金交易报告（CTR）：</strong>30天内向FIU报告单日单一客户1000万韩元以上的现金交易</li></ul>
+<ul><li><strong>客户尽职调查（CDD/EDD）：</strong>客户新开账户或进行基准金额以上的一次性交易（以外币表示的外汇交易为1万美元或等值其他货币）时核实客户身份；怀疑存在洗钱风险时不论金额均须核实，并确认交易目的和资金来源</li><li><strong>可疑交易报告（STR）：</strong>毫不迟延地向金融情报院（FIU）报告疑似洗钱交易</li><li><strong>高额现金交易报告（CTR）：</strong>30天内向FIU报告单日单一客户1000万韩元以上的现金交易</li></ul>
 <h2>3. 内部控制政策文件</h2>
 <p>所需AML政策文件须包括：风险评估方法、CDD程序、STR/CTR报告工作流程、记录保存规则（最少5年）、员工培训计划及合规官员指定。</p>
 <h2>4. 交易监控系统</h2>
 <ul><li>每日CTR阈值警报</li><li>结构化交易（分拆交易以规避CTR）的模式检测</li><li>政治公众人物（PEP）筛查</li><li>制裁名单核查（联合国、OFAC等）</li></ul>
 <h2>5. 员工培训要求</h2>
-<p>所有处理兑换交易的员工须每年接受AML培训。培训记录须保存以备FIU检查。新员工在处理任何交易前必须完成培训。</p>
+<p>换钱业者须对管理人员和员工实施反洗钱教育及培训。</p>
 <h2>6. 监管检查</h2>
 <p>金融情报院（KoFIU）负责反洗钱合规监督，对已登记换汇业者的检查委托给关税厅。常见问题：CDD记录不足、CTR申报缺失、AML政策文件过期。</p>
 <div class="faq-section"><h2>常见问题</h2>
@@ -1767,15 +1767,15 @@ const blogData: BlogI18n[] = [
     excerpt: '韓国外貨両替業のAML内部統制基準実務ガイド — STR、CTR、CDDの義務と内部ポリシー要件を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜAMLコンプライアンスが重要か</li><li>3つの主要なAML義務</li><li>内部統制ポリシー文書</li><li>取引モニタリングシステム</li><li>従業員研修要件</li><li>監督当局の検査</li><li>よくある質問</li></ol></div>
 <h2>1. なぜAMLコンプライアンスが重要か</h2>
-<p>韓国の外貨両替業は、特定金融取引情報の報告及び利用法に基づき<strong>金融取引報告機関</strong>に指定されています。不遵守は免許取消、刑事訴追、多額の罰金につながる可能性があります。</p>
+<p>韓国の外貨両替業は、特定金融取引情報の報告及び利用法に基づき<strong>金融取引報告機関</strong>に指定されています。義務を怠ると最高1億ウォンの過料や是正命令の対象となり、金融情報分析院が6か月の範囲で営業の全部または一部の停止を関係機関に求めることもあります。虚偽の報告や顧客への報告事実の漏洩は刑事罰の対象です。</p>
 <h2>2. 3つの主要なAML義務</h2>
-<ul><li><strong>顧客確認（CDD/EDD）：</strong>すべての取引で顧客の本人確認を実施；高リスク顧客には強化デューデリジェンスを実施</li><li><strong>疑わしい取引報告（STR）：</strong>マネーロンダリングが疑われる取引を3日以内に金融情報分析院（FIU）に報告</li><li><strong>高額現金取引報告（CTR）：</strong>顧客1人あたり1日1千万ウォン以上の現金取引を30日以内にFIUへ報告</li></ul>
+<ul><li><strong>顧客確認（CDD/EDD）：</strong>口座開設時や基準金額以上の一回限りの取引（外国通貨建ての外国為替取引は1万米ドルまたは他通貨の相当額）で本人確認を実施；マネーロンダリングの疑いがある場合は金額にかかわらず確認し、取引目的と資金源も確認</li><li><strong>疑わしい取引報告（STR）：</strong>マネーロンダリングが疑われる取引を遅滞なく金融情報分析院（FIU）に報告</li><li><strong>高額現金取引報告（CTR）：</strong>顧客1人あたり1日1千万ウォン以上の現金取引を30日以内にFIUへ報告</li></ul>
 <h2>3. 内部統制ポリシー文書</h2>
 <p>必要なAMLポリシー文書には：リスク評価方法、CDD手順、STR/CTR報告ワークフロー、記録保管規則（最低5年間）、従業員研修スケジュール、コンプライアンス担当者の指定を含める必要があります。</p>
 <h2>4. 取引モニタリングシステム</h2>
 <ul><li>日次CTR閾値アラート</li><li>構造化取引（CTRを回避するための取引分割）のパターン検出</li><li>政治的有力者（PEP）スクリーニング</li><li>制裁リスト照合（国連、OFACなど）</li></ul>
 <h2>5. 従業員研修要件</h2>
-<p>両替取引を扱うすべての従業員は年次AML研修を受けなければなりません。研修記録はFIU検査のために保持する必要があります。新入社員は取引を扱う前に研修を受けること。</p>
+<p>外貨両替業者は役職員に対してAMLの教育・研修を実施しなければなりません。</p>
 <h2>6. 監督当局の検査</h2>
 <p>AML義務の監督は金融情報分析院（KoFIU）が行い、登録両替営業者に対する検査は関税庁に委託されています。よく指摘される事項：不十分なCDD記録、CTR申告の不備、古いAMLポリシー文書。</p>
 <div class="faq-section"><h2>よくある質問</h2>
@@ -2051,7 +2051,7 @@ const blogData: BlogI18n[] = [
 <h2>3. KOITA Audit Red Flags</h2>
 <ul><li>Researcher doesn't know their research project when auditors ask</li><li>Research space has no equipment appropriate to the stated research</li><li>Research expenditure records don't match the registered activities</li><li>Researcher employment records show they were hired only briefly before registration</li></ul>
 <h2>4. Consequences of Non-Genuine Registration</h2>
-<ul><li>Recognition must be cancelled where it was obtained by false or fraudulent means, and the company cannot apply again until 1 year has passed from the cancellation date</li><li>R&D tax credits do not apply to costs incurred on or after a date set by the cancellation ground (for fraud, from the start of the tax year that includes the recognition date)</li><li>Criminal charges for tax fraud are possible</li><li>Company flagged for heightened scrutiny in all future applications</li></ul>
+<ul><li>Recognition must be cancelled where it was obtained by false or fraudulent means, and the company cannot apply again until 1 year has passed from the cancellation date</li><li>R&D tax credits do not apply to costs incurred on or after a date set by the cancellation ground (for fraud, from the start of the tax year that includes the recognition date)</li><li>Criminal charges for tax fraud are possible</li></ul>
 <h2>5. How to Verify Agency Legitimacy</h2>
 <ul><li>Check if the agency is a licensed administrative scrivener office (행정사 사무소)</li><li>Request references from past clients</li><li>Avoid agencies that promise results without reviewing your actual R&D activities</li></ul>
 <h2>6. Safe Practices</h2>
@@ -2078,7 +2078,7 @@ const blogData: BlogI18n[] = [
 <h2>3. KOITA审核警示信号</h2>
 <ul><li>审核员询问时，研究人员不了解自己的研究项目</li><li>研究空间缺乏与申报研究内容相适应的设备</li><li>研发支出记录与登记活动不符</li><li>研究人员就业记录显示其在登记前不久才被雇用</li></ul>
 <h2>4. 虚假登记的后果</h2>
-<ul><li>以虚假或其他不正当方法取得认定的，必须撤销认定，且自撤销之日起1年内不得重新申请认定</li><li>认定被撤销后，按撤销事由自规定日期起发生的费用不适用研发税额抵免（以不正当方法取得认定的，自认定日所属纳税年度开始日起）</li><li>可能面临税务欺诈刑事指控</li><li>公司在未来所有申请中被标记接受更严格审查</li></ul>
+<ul><li>以虚假或其他不正当方法取得认定的，必须撤销认定，且自撤销之日起1年内不得重新申请认定</li><li>认定被撤销后，按撤销事由自规定日期起发生的费用不适用研发税额抵免（以不正当方法取得认定的，自认定日所属纳税年度开始日起）</li><li>可能面临税务欺诈刑事指控</li></ul>
 <h2>5. 如何验证代理机构合法性</h2>
 <ul><li>核查代理机构是否为持牌行政士事务所</li><li>向过往客户索取参考意见</li><li>避免不审查实际研发活动就承诺结果的代理机构</li></ul>
 <h2>6. 安全做法</h2>
@@ -2105,7 +2105,7 @@ const blogData: BlogI18n[] = [
 <h2>3. KOITA審査の警戒サイン</h2>
 <ul><li>審査員の質問に対して研究者が自分の研究プロジェクトを知らない</li><li>研究スペースに申告した研究に適した設備がない</li><li>研究費の記録が登録活動と一致しない</li><li>研究者の雇用記録が登録直前に採用されたことを示している</li></ul>
 <h2>4. 非正規登録の結果</h2>
-<ul><li>虚偽その他の不正な方法で認定を受けた場合は認定が必ず取り消され、取消日から1年が経過するまで再申請できない</li><li>認定が取り消されると、取消事由に応じて定められた日以後に発生した費用には研究開発税額控除が適用されない（不正な方法による場合は認定日が属する課税年度の開始日から）</li><li>税務詐欺の刑事告発の可能性</li><li>今後のすべての申請で強化審査の対象にフラグが立てられる</li></ul>
+<ul><li>虚偽その他の不正な方法で認定を受けた場合は認定が必ず取り消され、取消日から1年が経過するまで再申請できない</li><li>認定が取り消されると、取消事由に応じて定められた日以後に発生した費用には研究開発税額控除が適用されない（不正な方法による場合は認定日が属する課税年度の開始日から）</li><li>税務詐欺の刑事告発の可能性</li></ul>
 <h2>5. 代理機関の正当性を確認する方法</h2>
 <ul><li>代理機関が認定行政士事務所であるか確認する</li><li>過去のクライアントからの参照意見を求める</li><li>実際の研究開発活動を確認せずに結果を約束する機関は避ける</li></ul>
 <h2>6. 安全な実践方法</h2>
@@ -2211,16 +2211,16 @@ const blogData: BlogI18n[] = [
     excerpt: 'Detailed breakdown of researcher qualification and facility standards required for corporate R&D center recognition in Korea (applications filed with KOITA).',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Researcher Qualification Standards</li><li>Dedicated Facility Requirements</li><li>Documentation Requirements</li><li>Common Application Failures</li><li>FAQ</li></ol></div>
 <h2>1. Researcher Qualification Standards</h2>
-<p>Researchers must hold a bachelor's degree or higher in a relevant science, engineering, or IT field, OR have 3+ years of R&D experience. All researchers must be full-time employees of the company (not contractors). Head researcher must be a recognized specialist in the research area.</p>
+<p>Researchers must generally hold a bachelor's degree or higher in natural sciences, engineering or medicine, or a National Technical Qualification at engineer (기사) level or higher. At SMEs, an associate degree in those fields with 2+ years of R&D experience (1+ year for 3-year college graduates), an industrial engineer (산업기사) qualification with 2+ years of R&D experience, and certain other qualifications with 4+ years of R&D experience are also accepted. All researchers must be full-time employees of the company (not contractors).</p>
 <h2>2. Dedicated Facility Requirements</h2>
-<ul><li>Physically separate and dedicated research space (not shared with office)</li><li>Clearly labeled with "Research Laboratory" signage</li><li>Equipped with appropriate research tools and instruments</li><li>Minimum space: no strict size requirement, but must be functionally adequate</li></ul>
+<ul><li>Physically separate and dedicated research space (not shared with office)</li><li>Clearly labeled with "Research Laboratory" signage</li><li>Equipped with appropriate research tools and instruments</li><li>Minimum space: enough floor area (after installing research equipment) for researchers and research assistants to work there on a regular basis; SMEs and venture companies that cannot secure more than 50㎡ may use a space separated by partitions</li></ul>
 <h2>3. Documentation Requirements</h2>
 <ul><li>Research plan with specific objectives, methodology, and expected outcomes</li><li>Researcher employment certificates and academic credentials</li><li>Facility lease and floor plan</li><li>Equipment inventory list</li><li>Budget plan for R&D expenditures</li></ul>
 <h2>4. Common Application Failures</h2>
 <ul><li>Research plan is too generic or copied from another company</li><li>Researcher is listed but not actually employed full-time</li><li>Facility is shared with general office space with no physical separation</li><li>Equipment listed doesn't match the stated research activities</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a foreign national researcher qualify?</p><p class="faq-a">A. Yes, as long as they are legally employed in Korea and meet the degree/experience requirements.</p></div>
-<div class="faq-item"><p class="faq-q">Q. What is the minimum number of researchers for a startup?</p><p class="faq-a">A. For small businesses (소기업), a minimum of 2 full-time researchers is required.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What is the minimum number of researchers for a startup?</p><p class="faq-a">A. A small business (소기업) needs at least 3 full-time researchers for a corporate R&D center, or 2 during the first 3 years from its founding. A dedicated R&D department needs only 1.</p></div>
 </div>
 <div class="cta-box"><h3>Set Up a Qualified Corporate R&D Center</h3><p>YouSun Administrative Agency prepares KOITA recognition application documents. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
@@ -2232,7 +2232,7 @@ const blogData: BlogI18n[] = [
     metaDescription: '韩国获认定企业研发中心的研究人员资格、专用设施标准及文件要求详解。专业行政士免费初次咨询。本文依次说明研究人员资格标准、专用设施要求、文件要求、常见申请失败原因，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国企业研发中心认定（向KOITA申请）的研究人员资质和设施标准详细解析。',
-    content: `<h2>1. 研究人员资格标准</h2><p>研究人员须持有相关理、工、IT领域本科及以上学历，或具备3年以上研发经验。所有研究人员须为公司全职员工（非承包商）。</p><h2>2. 专用设施要求</h2><ul><li>物理独立的专用研究空间（不与办公室共用）</li><li>明确标注"研究实验室"标识</li><li>配备适当的研究工具和仪器</li><li>面积无严格要求，但须功能上足够</li></ul><h2>3. 文件要求</h2><ul><li>包含具体目标、方法和预期成果的研究计划</li><li>研究人员就业证明和学历证书</li><li>设施租赁合同和平面图</li><li>设备清单</li><li>研发支出预算计划</li></ul><h2>4. 常见申请失败原因</h2><ul><li>研究计划过于笼统或抄袭其他公司</li><li>列入名单的研究人员实际上非全职员工</li><li>设施与办公室共用，无物理隔离</li><li>列出的设备与申报研究活动不符</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国籍研究人员是否符合资格？</p><p class="faq-a">A. 符合，只要在韩国合法就业且满足学历/经验要求即可。</p></div></div><div class="cta-box"><h3>设立符合资格的企业研发中心</h3><p>YouSun Administrative Agency准备KOITA认定申请材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<h2>1. 研究人员资格标准</h2><p>研究人员原则上须持有自然科学、工学或医学领域本科及以上学历，或持有国家技术资格技师（기사）及以上资格。中小企业还可认定相关领域专科学历且研发经历2年以上（3年制专科毕业为1年以上）、产业技师（산업기사）资格且研发经历2年以上等人员。所有研究人员须为公司全职员工（非承包商）。</p><h2>2. 专用设施要求</h2><ul><li>物理独立的专用研究空间（不与办公室共用）</li><li>明确标注"研究实验室"标识</li><li>配备适当的研究工具和仪器</li><li>面积须足以供研究专职人员和研究辅助人员常驻工作（安装研究设备后的面积）；中小企业、风险企业等无法确保超过50平方米面积时，可用隔板等与其他部门区分</li></ul><h2>3. 文件要求</h2><ul><li>包含具体目标、方法和预期成果的研究计划</li><li>研究人员就业证明和学历证书</li><li>设施租赁合同和平面图</li><li>设备清单</li><li>研发支出预算计划</li></ul><h2>4. 常见申请失败原因</h2><ul><li>研究计划过于笼统或抄袭其他公司</li><li>列入名单的研究人员实际上非全职员工</li><li>设施与办公室共用，无物理隔离</li><li>列出的设备与申报研究活动不符</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国籍研究人员是否符合资格？</p><p class="faq-a">A. 符合，只要在韩国合法就业且满足学历/经验要求即可。</p></div></div><div class="cta-box"><h3>设立符合资格的企业研发中心</h3><p>YouSun Administrative Agency准备KOITA认定申请材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
   },
   {
     slug: 'corporate-rnd-center-requirements',
@@ -2242,7 +2242,7 @@ const blogData: BlogI18n[] = [
     metaDescription: '韓国で認定を受けた企業研究開発センターを設立するための研究者資格、専用施設基準と書類要件の詳細解説。行政士による無料初回相談あり。研究者資格基準・専用施設要件・書類要件まで順に確認できます。',
     category: '企業認証',
     excerpt: '韓国で企業研究開発センターの認定（申請先：KOITA）を受けるための研究者資格と施設基準の詳細解説。',
-    content: `<h2>1. 研究者資格基準</h2><p>研究者は関連する理工学またはIT分野の学士以上の学位、または3年以上の研究開発経験を持つ必要があります。すべての研究者が会社の正規フルタイム従業員（請負業者ではなく）であること。</p><h2>2. 専用施設要件</h2><ul><li>物理的に分離された専用研究スペース（オフィスと共用不可）</li><li>「研究室」の看板で明確に表示</li><li>適切な研究ツールと機器の設置</li><li>最低面積の厳格な規定はないが、機能的に十分であること</li></ul><h2>3. 書類要件</h2><ul><li>具体的な目標、方法論、期待される成果を含む研究計画書</li><li>研究者の雇用証明書と学歴証明書</li><li>施設の賃貸借契約書と平面図</li><li>設備一覧リスト</li><li>研究開発費の予算計画</li></ul><h2>4. よくある申請失敗理由</h2><ul><li>研究計画が汎用的すぎる、または他社からコピーされている</li><li>登録された研究者が実際には正規フルタイム雇用ではない</li><li>施設が物理的な分離なしに一般オフィスと共用されている</li><li>記載された設備が申告した研究活動と一致しない</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人研究者でも資格がありますか？</p><p class="faq-a">A. はい。韓国で合法的に雇用されており、学位・経験要件を満たしていれば可能です。</p></div></div><div class="cta-box"><h3>適格な企業研究開発センターを設立しましょう</h3><p>YouSun Administrative AgencyがKOITAへの認定申請書類を準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<h2>1. 研究者資格基準</h2><p>研究者は原則として自然科学・工学・医学系の学士以上の学位、または国家技術資格の技師（기사）以上の資格を持つ必要があります。中小企業では、同分野の専門学士で研究開発経歴2年以上（3年制専門大学卒業は1年以上）の者、産業技師（산업기사）資格で研究開発経歴2年以上の者なども認められます。すべての研究者が会社の正規フルタイム従業員（請負業者ではなく）であること。</p><h2>2. 専用施設要件</h2><ul><li>物理的に分離された専用研究スペース（オフィスと共用不可）</li><li>「研究室」の看板で明確に表示</li><li>適切な研究ツールと機器の設置</li><li>研究専任要員と研究補助員が常時勤務するのに必要な最小限の面積（研究機材設置後の面積）以上を確保すること。中小企業・ベンチャー企業などが50㎡を超える面積を確保できない場合は、パーティション等で区分した空間も認められます</li></ul><h2>3. 書類要件</h2><ul><li>具体的な目標、方法論、期待される成果を含む研究計画書</li><li>研究者の雇用証明書と学歴証明書</li><li>施設の賃貸借契約書と平面図</li><li>設備一覧リスト</li><li>研究開発費の予算計画</li></ul><h2>4. よくある申請失敗理由</h2><ul><li>研究計画が汎用的すぎる、または他社からコピーされている</li><li>登録された研究者が実際には正規フルタイム雇用ではない</li><li>施設が物理的な分離なしに一般オフィスと共用されている</li><li>記載された設備が申告した研究活動と一致しない</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人研究者でも資格がありますか？</p><p class="faq-a">A. はい。韓国で合法的に雇用されており、学位・経験要件を満たしていれば可能です。</p></div></div><div class="cta-box"><h3>適格な企業研究開発センターを設立しましょう</h3><p>YouSun Administrative AgencyがKOITAへの認定申請書類を準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
   },
 
   // ── BLOG 27: cosmetics-manufacturing-facility-guide ────────────────────────
