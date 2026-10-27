@@ -8896,6 +8896,54 @@
    "slug": "eping-120884",
    "generated_at": "2026-10-27T05:39:20.191Z",
    "version": "1.4"
+  },
+  "news/eping-120920": {
+   "hash": "de8c95637e8f9bff3d6e9b6d1523c08a3646178d9b115d49c4497a797275dbb4",
+   "source": "pexels",
+   "seed": 878110527,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 40494465,
+   "pexels_author": "HONG SON",
+   "category": "전기전자",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-120920",
+   "generated_at": "2026-10-27T05:53:46.164Z",
+   "version": "1.4"
+  },
+  "news/eping-120788": {
+   "hash": "1508fdb2cbc938923d8de01cb1def1fc0f947c789d92f9707f7aeef95c6f8282",
+   "source": "pexels",
+   "seed": 2278626168,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 4751800,
+   "pexels_author": "Shuxuan Cao",
+   "category": "화학물질",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-120788",
+   "generated_at": "2026-10-27T05:53:46.580Z",
+   "version": "1.4"
+  },
+  "news/eping-120787": {
+   "hash": "063d1eed81a9bf0ba3cc0b9dde2e0416288224564da15a16a51c5495d4d249f8",
+   "source": "pexels",
+   "seed": 2995319664,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 12518550,
+   "pexels_author": "叶董凝",
+   "category": "항공용 연료 수분분리 필터 (jet fuels water separators/filter elements)",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-120787",
+   "generated_at": "2026-10-27T05:53:47.051Z",
+   "version": "1.4"
   }
  }
 }
