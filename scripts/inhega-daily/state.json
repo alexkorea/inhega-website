@@ -65,6 +65,12 @@
       "topic": "haccp",
       "angle": "change-report",
       "slug": "haccp-certification-change-application"
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "lbs",
+      "angle": "change-report",
+      "slug": "location-based-service-change-report"
     }
   ]
 }

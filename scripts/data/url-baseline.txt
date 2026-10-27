@@ -692,3 +692,7 @@
 /en/blog/haccp-certification-change-application
 /ja/blog/haccp-certification-change-application
 /zh/blog/haccp-certification-change-application
+/blog/location-based-service-change-report
+/en/blog/location-based-service-change-report
+/ja/blog/location-based-service-change-report
+/zh/blog/location-based-service-change-report

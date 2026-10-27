@@ -6512,6 +6512,145 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。ユソン行政士事務所は<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── location-based-service-change-report (inhega-daily 2026-10-27) ──
+  {
+    slug: 'location-based-service-change-report',
+    locale: 'en',
+    title: 'LBS Business Change Report in Korea — Trade Name, Office Address, Location Information System and Succession',
+    metaTitle: 'LBS Business Change Report in Korea — Items, Timing, Authority',
+    metaDescription: 'Which changes need an LBS business change report in Korea, when and where to file, what to attach, and the succession report for transfers and mergers.',
+    category: 'IT & Telecom',
+    excerpt: 'A location-based service (LBS) business report is not a one-time step. Changing the trade name, principal office address or location information system requires a change report, and a business transfer, inheritance, merger or split requires a separate report.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Three items require a change report</li><li>When, where and what to submit</li><li>Succession report for transfers and mergers</li><li>FAQ</li></ol></div>
+<p><strong>An operator that has filed a location-based service (LBS) business report must file a change report with the Broadcasting Media Communications Commission (방송미디어통신위원회) before changing its trade name, principal office address or location information system.</strong> Under the Act on the Protection, Use, etc. of Location Information, an LBS business is subject to a report (notification), while a location information business handling personal location information is subject to registration. This article covers only change and succession reports for LBS operators. For the initial filing, see our <a href="/en/blog/location-based-service-domestic-registration-guide">LBS business notification guide</a>; for the difference between the two regimes, see <a href="/en/blog/location-information-business-registration">location information business vs. LBS notification</a>.</p>
+<h2>Three items require a change report</h2>
+<p>The Act lists three items: the trade name, the principal office address and the location information system. A location information system is the combined hardware, software, databases and personnel used to collect, store, analyse, use and provide location data, so a server replacement or a change in how location data is processed can fall under it. The representative and the type of business are not on the list. Still, if the business plan you submitted changes substantially, it is safer to check with the competent office first.</p>
+<table><thead><tr><th>Item</th><th>Standard reporter</th><th>Small business operator</th></tr></thead><tbody>
+<tr><td>Items to report</td><td>Trade name, office address, location information system</td><td>Trade name, office address</td></tr>
+<tr><td>Timing</td><td>When you intend to change (before the change)</td><td>Within 1 month from the change</td></tr>
+<tr><td>Handling</td><td>Name and address: received; system: reviewed and accepted</td><td>Submit the form or enter it in the designated system</td></tr>
+<tr><td>If not reported</td><td>System: criminal penalty; name and address: administrative fine</td><td>Administrative fine</td></tr>
+</tbody></table>
+<p>Small business operators here are small businesses defined by law that started without a report and then reported within 1 month of starting. If you no longer qualify, you must supplement the standard report within 1 month from that date.</p>
+<h2>When, where and what to submit</h2>
+<p>Standard reporters must file "when they intend to change", so prepare the change report while scheduling a name change or server migration. A location information system change requires acceptance, so leave time. The authority is the Commission, and the power to accept reports and receive change reports is delegated to the heads of its regional Broadcasting Media Communications Offices.</p>
+<ol>
+<li>Identify which item changes: trade name, address or location information system.</li>
+<li>Complete the LBS business change report form (electronic filing allowed).</li>
+<li>If servers or other main equipment change, attach the changed part of the business plan.</li>
+<li>Attach other documents that confirm the change.</li>
+<li>The corporate register or business registration certificate is checked through shared administrative data; if you do not consent, attach it yourself.</li>
+</ol>
+<p>If your terms of use include the trade name or contact details, you must also publish the reason and content of the change without delay.</p>
+<h2>Succession report for transfers and mergers</h2>
+<p>When all or part of an LBS business is transferred or inherited, or a reporting corporation merges or splits, the transferee, heir or surviving or newly established corporation must report to the Commission. Once accepted, it succeeds to the former operator's status. Failure to report is subject to an administrative fine.</p>
+<ul>
+<li>Transfer: copy of the transfer agreement and the changed part of the business plan</li>
+<li>Inheritance: document proving heirship</li>
+<li>Merger or split: copy of the merger agreement or split plan and the changed part of the business plan</li>
+</ul>
+<p>The successor must notify personal location information subjects within 30 days of the transfer and the successor's contact details, by letter, email or similar means, and also post the notice on its website for at least 30 days. For suspension and closure reports, see our <a href="/en/services/location-based-service">LBS business notification service</a>.</p>
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do we need a change report if only the CEO changes?</p><p class="faq-a">A. The Act lists the trade name, office address and location information system; the representative is not on the list. Because the operator profile in the business plan changes, it is still wise to confirm with the competent office.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is moving to a different cloud server a system change?</p><p class="faq-a">A. If servers or other main equipment that process location data change, it can be a location information system change. File in advance with the changed part of the business plan and wait for acceptance.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do services that do not handle personal location information need a report?</p><p class="faq-a">A. The Act excludes LBS businesses that do not target personal location information from the report requirement, but some duties, such as technical and managerial safeguards, still apply.</p></div>
+<div class="faq-item"><p class="faq-q">Q. We acquired a company. Do we file a new report?</p><p class="faq-a">A. For a business transfer or merger, you file a transfer or merger report rather than a new one, and you succeed to the former operator's status once it is accepted.</p></div>
+</div>
+<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact Yuseon Administrative Scrivener Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+  },
+  {
+    slug: 'location-based-service-change-report',
+    locale: 'zh',
+    title: '韩国位置基础服务事业变更申报 — 商号·所在地·位置信息系统变更与承继申报',
+    metaTitle: '韩国位置基础服务事业变更申报 — 对象·时点·主管机关',
+    metaDescription: '在韩国完成位置基础服务事业申报后，变更商号、主要事务所所在地或位置信息系统时须办理变更申报。本文整理申报对象、时点、主管机关、材料，以及受让·继承·合并·分立时的承继申报。',
+    category: 'IT·通信',
+    excerpt: '位置基础服务事业申报并非一次了结。变更商号、主要事务所所在地或位置信息系统时须办理变更申报；受让事业或法人合并·分立时，还须另行申报。',
+    content: `<div class="toc"><p>目录</p><ol><li>需变更申报的三个事项</li><li>何时、向谁、提交什么</li><li>受让·继承·合并·分立时的承继申报</li><li>常见问题</li></ol></div>
+<p><strong>已完成位置基础服务事业申报的经营者，若要变更商号、主要事务所所在地或位置信息系统，须事先向广播媒体通信委员会（방송미디어통신위원회）办理变更申报。</strong>根据《位置信息保护及利用等相关法律》，位置基础服务事业适用“申报”，以个人位置信息为对象的位置信息事业适用“登记”。本文只讨论位置基础服务事业的变更申报与承继申报。首次申报流程请参阅<a href="/zh/blog/location-based-service-domestic-registration-guide">位置基础服务事业申报流程指南</a>，两种制度的区别请参阅<a href="/zh/blog/location-information-business-registration">位置信息事业登记与位置基础服务事业申报的区别</a>。</p>
+<h2>需变更申报的三个事项</h2>
+<p>法律规定的变更申报对象为商号、主要事务所所在地和位置信息系统。位置信息系统是指为收集、存储、分析、利用和提供位置信息而相互连接的硬件、软件、数据库及人力资源的结合体，因此更换服务器或改变位置信息处理结构都可能属于此类。代表人和事业种类不在该清单内，但若申报时提交的事业计划书内容发生较大变化，建议事先向主管事务所确认。</p>
+<table><thead><tr><th>区分</th><th>一般申报经营者</th><th>小商工人等</th></tr></thead><tbody>
+<tr><td>变更申报对象</td><td>商号、事务所所在地、位置信息系统</td><td>商号、事务所所在地</td></tr>
+<tr><td>申报时点</td><td>拟变更时（变更前）</td><td>自变更之日起1个月内</td></tr>
+<tr><td>处理方式</td><td>商号·所在地为受理接收，系统须审查后受理</td><td>提交申报书或在指定信息系统录入</td></tr>
+<tr><td>未申报时</td><td>系统：刑事处罚；商号·所在地：罚款（过怠料）</td><td>罚款（过怠料）</td></tr>
+</tbody></table>
+<p>此处的小商工人等，是指法律规定的小规模经营者，未经申报即开始经营，并在开业之日起1个月内完成申报。不再属于小商工人等时，须自事由发生之日起1个月内补充一般申报所需事项。</p>
+<h2>何时、向谁、提交什么</h2>
+<p>一般申报经营者须在“拟变更时”申报，因此在安排商号变更登记或服务器迁移时，应先准备变更申报。位置信息系统变更须经受理，请预留时间。申报机关为广播媒体通信委员会，申报受理及变更申报接收权限已委任给其下属的广播媒体通信事务所所长。</p>
+<ol>
+<li>确认变更的是商号、所在地还是位置信息系统。</li>
+<li>填写位置基础服务事业变更申报书（可电子提交）。</li>
+<li>服务器等主要设备变更时，附上事业计划书中变更的部分。</li>
+<li>附上其他可确认变更事项的材料。</li>
+<li>法人登记事项证明书或营业执照证明通过行政信息共享确认；不同意时须自行附上。</li>
+</ol>
+<p>若使用条款中载有商号或联系方式，还须毫不迟延地公开变更理由及内容。</p>
+<h2>受让·继承·合并·分立时的承继申报</h2>
+<p>受让或继承位置基础服务事业的全部或部分，或申报法人发生合并·分立时，受让人、继承人或因合并·分立而设立或存续的法人须向广播媒体通信委员会申报。申报受理后承继原经营者的地位。未申报的，将被处以罚款（过怠料）。</p>
+<ul>
+<li>受让：转让·受让合同复印件、事业计划书中变更的部分</li>
+<li>继承：证明继承人身份的材料</li>
+<li>合并·分立：合并·分立合并合同或分立计划书复印件、事业计划书中变更的部分</li>
+</ul>
+<p>承继权利义务的经营者须在30日内，将转让等事实及承继人的联系方式等通知个人位置信息主体。通知须以书面或电子邮件等方式进行，同时在官网公告30日以上。如需办理申报，请参阅<a href="/zh/services/location-based-service">位置基础服务事业申报服务</a>。</p>
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 仅更换代表理事也要变更申报吗？</p><p class="faq-a">A. 法律规定的对象是商号、事务所所在地和位置信息系统，代表人不在清单内。但事业计划书中的经营者概况会发生变化，建议向主管事务所确认。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 迁移云服务器也算位置信息系统变更吗？</p><p class="faq-a">A. 处理位置信息的服务器等主要设备发生变更时，可能属于位置信息系统变更，须附上事业计划书变更部分事先申报并获得受理。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 不处理个人位置信息的服务也需申报吗？</p><p class="faq-a">A. 法律将不以个人位置信息为对象的位置基础服务事业排除在申报对象之外，但技术性·管理性保护措施等部分义务仍然适用。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 收购了公司，需要重新申报吗？</p><p class="faq-a">A. 属于事业受让或法人合并时，办理受让或合并申报而非新申报，受理后承继原经营者的地位。</p></div>
+</div>
+<div class="cta-block"><h3>协助准备变更申报与承继申报材料</h3><p>计划变更商号、所在地、服务器或收购事业，需要确认适用哪种申报时，请联系유선행정사사무소。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">申请咨询</a></div>
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'location-based-service-change-report',
+    locale: 'ja',
+    title: '韓国の位置基盤サービス事業変更申告 — 商号・所在地・位置情報システムの変更と地位承継の申告',
+    metaTitle: '韓国の位置基盤サービス事業変更申告 — 対象・時期・所管機関',
+    metaDescription: '韓国で位置基盤サービス事業の申告を済ませた後、商号・主たる事務所の所在地・位置情報システムを変えるときの変更申告の対象、時期、所管、書類と、譲受・相続・合併・分割時の地位承継申告をまとめました。',
+    category: 'IT・通信',
+    excerpt: '位置基盤サービス事業の申告は一度で終わりではありません。商号、主たる事務所の所在地、位置情報システムを変えるときは変更申告が、事業の譲受や法人の合併・分割のときは別の申告が必要です。',
+    content: `<div class="toc"><p>目次</p><ol><li>変更申告の対象は三つの事項</li><li>いつ、どこに、何を出すか</li><li>譲受・相続・合併・分割時の地位承継申告</li><li>よくある質問</li></ol></div>
+<p><strong>位置基盤サービス事業の申告を済ませた事業者が、商号、主たる事務所の所在地、位置情報システムのいずれかを変えようとするときは、事前に放送メディア通信委員会（방송미디어통신위원회）へ変更申告をしなければなりません。</strong>「位置情報の保護及び利用等に関する法律」上、位置基盤サービス事業は「申告」の対象であり、個人位置情報を対象とする位置情報事業は「登録」の対象です。本記事は位置基盤サービス事業の変更申告と地位承継申告のみを扱います。最初の申告手続は<a href="/ja/blog/location-based-service-domestic-registration-guide">位置基盤サービス事業申告ガイド</a>を、二つの制度の違いは<a href="/ja/blog/location-information-business-registration">位置情報事業登録と位置基盤サービス事業申告の違い</a>をご覧ください。</p>
+<h2>変更申告の対象は三つの事項</h2>
+<p>法律が変更申告の対象として定めるのは、商号、主たる事務所の所在地、位置情報システムです。位置情報システムとは、位置情報を収集・保存・分析・利用・提供できるよう連携したハードウェア、ソフトウェア、データベース及び人的資源の結合体をいうため、サーバーの入れ替えや位置情報の処理構造の変更が該当し得ます。代表者や事業の種類はこの一覧に含まれていません。ただし、申告時に提出した事業計画書の内容が大きく変わる場合は、所管の事務所に事前に確認しておくほうが安全です。</p>
+<table><thead><tr><th>区分</th><th>一般の申告事業者</th><th>小商工人等</th></tr></thead><tbody>
+<tr><td>変更申告の対象</td><td>商号、事務所所在地、位置情報システム</td><td>商号、事務所所在地</td></tr>
+<tr><td>申告の時期</td><td>変更しようとするとき（変更前）</td><td>変更した日から1か月以内</td></tr>
+<tr><td>処理の方式</td><td>商号・所在地は受付、システムは審査後に受理</td><td>申告書の提出または指定情報システムへの入力</td></tr>
+<tr><td>申告しなかった場合</td><td>システムは刑事罰、商号・所在地は過料</td><td>過料</td></tr>
+</tbody></table>
+<p>ここでいう小商工人等とは、法律が定める小規模事業者で、申告せずに事業を始め、開始日から1か月以内に申告した事業者をいいます。小商工人等に該当しなくなった場合は、その事由が生じた日から1か月以内に一般の申告に必要な事項を補って申告しなければなりません。</p>
+<h2>いつ、どこに、何を出すか</h2>
+<p>一般の申告事業者は「変更しようとするとき」に申告することとされているため、商号変更の登記やサーバー移転の日程を組む段階で変更申告を先に準備するのが適切です。位置情報システムの変更は受理が必要な申告なので、日程に余裕を持たせてください。申告先は放送メディア通信委員会で、申告の受理と変更申告の受付の権限は所属の放送メディア通信事務所長に委任されています。</p>
+<ol>
+<li>変わるのが商号、所在地、位置情報システムのどれかを整理します。</li>
+<li>位置基盤サービス事業変更申告書を作成します（電子文書も可）。</li>
+<li>サーバー等の主要設備が変わる場合は、事業計画書のうち変更部分を添付します。</li>
+<li>その他、変更事項を確認できる書類を添付します。</li>
+<li>法人登記事項証明書や事業者登録証明は行政情報の共同利用で確認され、同意しない場合は自ら添付します。</li>
+</ol>
+<p>利用約款に商号や連絡先が記載されている場合は、変更の理由と内容を遅滞なく公開する義務もあわせて確認してください。</p>
+<h2>譲受・相続・合併・分割時の地位承継申告</h2>
+<p>位置基盤サービス事業の全部または一部を譲り受けたり相続したりした場合、申告した法人が合併・分割した場合は、譲受人、相続人、合併・分割により設立または存続する法人が放送メディア通信委員会に申告しなければなりません。申告が受理されると従前の事業者の地位を承継します。申告しない場合は過料の対象です。</p>
+<ul>
+<li>譲受：譲渡・譲受契約書の写し、事業計画書のうち変更部分</li>
+<li>相続：相続人であることを証明する書類</li>
+<li>合併・分割：合併・分割合併契約書または分割計画書の写し、事業計画書のうち変更部分</li>
+</ul>
+<p>権利義務を引き継いだ事業者は、30日以内に譲渡等の事実と承継者の連絡先などを個人位置情報主体に通知しなければなりません。通知は書面や電子メール等で行い、あわせてウェブサイトに30日以上掲示する必要があります。申告の手続は<a href="/ja/services/location-based-service">位置基盤サービス事業申告サービス</a>でご案内しています。</p>
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 代表取締役が変わっただけでも変更申告が必要ですか？</p><p class="faq-a">A. 法律が定める対象は商号、事務所所在地、位置情報システムで、代表者は一覧にありません。ただし事業計画書上の事業者概要は変わるため、所管の事務所に確認しておくことをお勧めします。</p></div>
+<div class="faq-item"><p class="faq-q">Q. クラウドサーバーの移転も位置情報システムの変更ですか？</p><p class="faq-a">A. 位置情報を処理するサーバー等の主要設備が変わる場合は位置情報システムの変更に該当し得るため、事業計画書の変更部分を添付して事前に申告し、受理を受ける必要があります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 個人位置情報を扱わないサービスも申告の対象ですか？</p><p class="faq-a">A. 法律は個人位置情報を対象としない位置基盤サービス事業を申告対象から除いています。ただし技術的・管理的保護措置など一部の義務は引き続き適用されます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 会社を買収した場合、新たに申告が必要ですか？</p><p class="faq-a">A. 事業の譲受や法人の合併であれば、新規の申告ではなく譲受または合併の申告を行い、受理されると従前の事業者の地位を承継します。</p></div>
+</div>
+<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、ユソン行政士事務所までご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
+<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
   }
 ]
 
