@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `${serviceCount}项专业许可代办服务 | YouSun Administrative Agency`,
-    description: '面向外国企业和投资者的韩国许可代办专业服务。首次咨询免费。',
+    description: '面向外国企业和投资者的韩国许可代办专业服务。',
     url: 'https://inhega.co.kr/zh/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency服务' }],
     type: 'website',
@@ -74,7 +74,7 @@ export default function ZhServicesPage() {
             <p style={{ color: 'rgba(255,255,255,0.75)', marginBottom: '2rem' }}>
               列表之外的许可事项，也可通过咨询为您寻找解决方案。
             </p>
-            <Link href="/zh/contact" className="btn btn-outline-white btn-lg">申请免费咨询</Link>
+            <Link href="/zh/contact" className="btn btn-outline-white btn-lg">申请咨询</Link>
           </div>
         </section>
       </div>

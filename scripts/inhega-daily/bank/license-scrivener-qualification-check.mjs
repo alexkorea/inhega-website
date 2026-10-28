@@ -112,7 +112,7 @@ export default {
 <p>자격을 확인한 행정사에게 맡기면 의뢰인은 법이 정한 보호도 함께 받습니다. 행정사는 품위를 유지하고 신의와 성실로써 공정하게 직무를 수행해야 하고, 위임받은 업무를 수행하면서 고의 또는 과실로 위임인에게 재산상 손해를 입히면 배상할 책임이 있습니다(제21조).<!-- 근거: 행정사법 제21조 제1항·제2항 --> 행정사 또는 행정사이었던 사람과 그 사무직원은 정당한 사유 없이 직무상 알게 된 사실을 누설할 수 없습니다(제23조).<!-- 근거: 행정사법 제23조 --></p>
 <p>공무원직에서 퇴직한 행정사는 퇴직 전 1년부터 퇴직할 때까지 근무한 행정기관에 대한 인허가 신청 대리 업무를 퇴직한 날부터 1년 동안 수임할 수 없습니다.<!-- 근거: 행정사법 제21조의2 제1항 --> 이 수임제한 대상 기관은 「민원 처리에 관한 법률」의 행정기관이며, 파견·휴직 등으로 실제로 근무하지 않았거나 직무대리·겸임으로 근무한 기간이 1개월 이하인 기관은 제외됩니다.<!-- 근거: 행정사법 시행령 제21조의2 제1항~제4항 --> 최근 퇴직한 공무원 출신 행정사에게 맡길 때는 신청할 기관이 이 제한에 걸리지 않는지 미리 확인하는 것이 좋습니다.</p>
 <p>행정사는 업무를 위임받으면 일련번호, 위임받은 연월일, 업무의 개요, 보수, 위임인의 주소와 성명 등을 적은 업무처리부를 작성해 1년간 보관해야 하며, 업무처리부는 전자문서로 작성할 수도 있습니다(제24조, 시행령 제22조).<!-- 근거: 행정사법 제24조 제1항·제2항, 같은 법 시행령 제22조 제1항·제2항 --> 또한 행정사는 자신이 행한 업무에 관련된 사실의 확인증명서를 발급할 수 있고, 발급 신청을 받으면 특별한 사유가 없는 한 객관적 사실에 입각해 즉시 발급해야 합니다.<!-- 근거: 행정사법 제20조 제1항, 같은 법 시행령 제21조, 같은 법 시행규칙 제13조 제1항 --> 인허가 신청을 대리했다는 사실을 다른 기관에 증명해야 할 때 이 증명서를 요청할 수 있습니다.</p>
-<p>정리하면 확인 순서는 자격증 → 신고확인증 → 사무소 명칭과 소재지 → 담당 행정사입니다. 업종별로 행정사 선택 시 함께 볼 점은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>에 정리해 두었습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>정리하면 확인 순서는 자격증 → 신고확인증 → 사무소 명칭과 소재지 → 담당 행정사입니다. 업종별로 행정사 선택 시 함께 볼 점은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>에 정리해 두었습니다. 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 행정사 자격증만 있으면 바로 인허가 대행을 할 수 있나요?</p><p class="faq-a">A. 아닙니다. 「행정사법」 제10조 제1항은 자격이 있는 사람이 업무를 하려면 주된 사무소 소재지의 시장등에게 행정사업무신고를 하도록 정하고, 같은 법 시행령 제20조 제1항은 결격사유 없음, 실무교육 이수, 자격증 보유, 행정사회 가입을 신고 기준으로 둡니다. 신고 없이 업무를 하면 같은 법 제36조 제2항 제1호에 따라 1년 이하의 징역 또는 1천만원 이하의 벌금 대상입니다.</p></div>
@@ -125,7 +125,7 @@ export default {
 <div class="cta-block">
  <h3>인허가를 맡기기 전에 확인할 것부터 정리해 드립니다</h3>
  <p>담당 행정사의 신고확인증과 위임 범위를 먼저 안내하고, 업종별로 필요한 서류를 유선행정사사무소가 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 행정사법 법률 제19034호, 행정사법 시행령 대통령령 제35813호, 행정사법 시행규칙 행정안전부령 제633호 --></p>`,
@@ -138,7 +138,7 @@ export default {
     metaDescription: 'How a Korean administrative agent (haengjeongsa) qualifies under the Certified Administrative Agents Act, and the documents a client can check first.',
     excerpt: 'Passing the state exam is not enough to act as a licensing administrative agent in Korea. Here is the statutory path — exam, disqualifications, training, association membership and business report — and what a client can verify.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Qualification Starts With the State Exam</li><li>Partial Exemptions and Disqualifications</li><li>A Licence Alone Is Not Enough — The Business Report</li><li>Office Names and Administrative Agent Corporations</li><li>How to Verify an Administrative Agent Before You Engage</li><li>Unlicensed Practice and Duties Owed to Clients</li><li>FAQ</li></ol></div>
-<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative agent) who holds the qualification under the Certified Administrative Agents Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Agents before reporting (Enforcement Decree Article 20(1)).</p>
+<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative agent) who holds the qualification under the Certified Administrative Agents Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be clear of disqualifications, complete practical training and join the Korean Association of Administrative Agents before reporting (Enforcement Decree Article 20(1)).</p>
 <p>What you may delegate is covered in our note on <a href="/blog/administrative-scrivener-scope-and-limits">the scope and limits of a licensing administrative agent</a>. Here we answer the earlier question: is the person in front of you legally an administrative agent?</p>
 
 <h2>Qualification Starts With the State Exam</h2>
@@ -190,7 +190,7 @@ export default {
 <li><strong>Using the title or a similar office name</strong> — an administrative fine of up to KRW 5,000,000 (Article 38(1)).</li>
 </ul>
 <p>A verified administrative agent must act fairly, compensate loss caused intentionally or negligently (Article 21), and keep duty-related facts confidential, as must staff (Article 23). A former official may not, for 1 year after retiring, act in permit applications before an agency where they worked in their final year, except agencies where they worked 1 month or less (Article 21-2; Decree Article 21-2). Administrative agents keep a case register — serial number, date, outline, remuneration, client details — for 1 year (Article 24; Decree Article 22), and must promptly issue a certificate of facts about work they performed on request (Article 20; Enforcement Rule Article 13).</p>
-<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a certificate holder start handling permits straight away?</p><p class="faq-a">A. No. Article 10(1) requires a business report, and Decree Article 20(1) requires no disqualification, completed training, the certificate and association membership. Practising without the report is punishable by up to 1 year of imprisonment or a fine of up to KRW 10,000,000 (Article 36(2)1).</p></div>
@@ -203,7 +203,7 @@ export default {
 <div class="cta-block">
  <h3>Not sure what to check before you engage?</h3>
  <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -268,7 +268,7 @@ export default {
 <li><strong>使用行政士或类似名称</strong> — 500万韩元以下罚款（第38条第1款）。</li>
 </ul>
 <p>行政士须公正履职，因故意或过失造成损失须赔偿（第21条）；行政士及职员须保守职务秘密（第23条）。退休公务员1年内不得承接其退休前1年任职机关的许可代理业务，任职1个月以下的机关除外（第21条之2，施行令第21条之2）。行政士须将记载序号、日期、概要、报酬和委托人信息的业务处理簿保存1年（第24条，施行令第22条），并应委托人申请及时出具事实确认证明书（第20条，施行规则第13条）。</p>
-<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有资格证就能马上代办许可吗？</p><p class="faq-a">A. 不能。第10条第1款要求办理业务申报，施行令第20条第1款要求无欠格事由、完成实务教育、持有资格证并加入行政士会。未申报执业的，依第36条第2款第1项处1年以下有期徒刑或1000万韩元以下罚金。</p></div>
@@ -281,7 +281,7 @@ export default {
 <div class="cta-block">
  <h3>委托前不确定该核实什么？</h3>
  <p>유선행정사사무소会先出示负责行政士的业务申报确认证并说明委托范围，再按行业整理所需文件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -346,7 +346,7 @@ export default {
 <li><strong>名称の使用</strong> — 行政士や類似の名称の使用は500万ウォン以下の過料（第38条第1項）。</li>
 </ul>
 <p>行政士は公正に職務を行い、故意・過失による損害を賠償する責任を負い（第21条）、事務職員とともに職務上の秘密を守らなければなりません（第23条）。退職公務員は退職前1年間に勤務した機関の許認可代理を退職後1年間受任できません。ただし勤務が1か月以下の機関は除かれます（第21条の2、施行令第21条の2）。行政士は一連番号・日付・業務の概要・報酬・依頼者情報を記載した業務処理簿を1年間保管し（第24条、施行令第22条）、申請があれば業務に関する事実確認証明書を直ちに発給しなければなりません（第20条、施行規則第13条）。</p>
-<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 資格証があればすぐに許認可代行ができますか。</p><p class="faq-a">A. できません。第10条第1項は業務申告を求め、施行令第20条第1項は欠格事由がないこと、実務教育の修了、資格証、行政士会への加入を基準としています。申告なしの業務は第36条第2項第1号により1年以下の懲役または1,000万ウォン以下の罰金の対象です。</p></div>
@@ -359,7 +359,7 @@ export default {
 <div class="cta-block">
  <h3>依頼前に何を確認すべきかお悩みの方へ</h3>
  <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

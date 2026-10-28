@@ -114,7 +114,7 @@ export default function ServicesPage() {
           <p style={{ color: 'rgba(255,255,255,0.75)', marginBottom: '2rem' }}>
             목록에 없는 인허가도 상담을 통해 해결 방법을 찾아드립니다.
           </p>
-          <Link href="/contact" className="btn btn-outline-white btn-lg">무료 상담 신청</Link>
+          <Link href="/contact" className="btn btn-outline-white btn-lg">상담 신청</Link>
         </div>
       </section>
     </div>

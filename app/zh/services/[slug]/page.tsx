@@ -121,7 +121,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
               {svc.description}
             </p>
             <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <Link href="/zh/contact" className="btn btn-primary btn-lg">免费咨询</Link>
+              <Link href="/zh/contact" className="btn btn-primary btn-lg">咨询</Link>
               <Link href="/zh/contact" className="btn btn-outline-white">获取报价</Link>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                 )}
 
                 <div className="fade-in delay-3" style={{ background: 'var(--white)', borderRadius: '16px', padding: '2rem', border: '2px solid var(--burgundy)' }}>
-                  <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>免费咨询</h3>
+                  <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>咨询</h3>
                   <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
                     与持牌韩国行政士直接沟通，我们将评估您的情况并提供清晰的行动方案。
                   </p>

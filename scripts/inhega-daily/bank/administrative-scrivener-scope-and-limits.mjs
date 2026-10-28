@@ -76,7 +76,7 @@ export default {
 
 <h2>위임한 뒤 행정사가 지는 의무와 책임</h2>
 <p>위임 계약이 성립하면 행정사는 품위를 유지하고 신의와 성실로써 공정하게 직무를 수행할 의무를 집니다. 위임받은 업무를 수행하면서 고의 또는 과실로 위임인에게 재산상 손해를 입힌 경우에는 그 손해를 배상할 책임이 있습니다.<!-- 근거: 행정사법 제21조 제1항·제2항 --></p>
-<p>보수 관계도 법에 정해져 있습니다. 행정사는 업무를 위임한 사람으로부터 보수를 받으며, 행정사와 그 사무직원은 업무에 관하여 보수 외에 어떠한 명목으로도 위임인으로부터 금전이나 재산상 이익, 그 밖의 반대급부를 받을 수 없습니다.<!-- 근거: 행정사법 제19조 제1항·제2항 --> 접수 과정에서 별도의 비용이 필요하다는 요구를 받으면 그 항목이 관공서에 내는 법정 수수료인지 확인하시기 바랍니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>보수 관계도 법에 정해져 있습니다. 행정사는 업무를 위임한 사람으로부터 보수를 받으며, 행정사와 그 사무직원은 업무에 관하여 보수 외에 어떠한 명목으로도 위임인으로부터 금전이나 재산상 이익, 그 밖의 반대급부를 받을 수 없습니다.<!-- 근거: 행정사법 제19조 제1항·제2항 --> 접수 과정에서 별도의 비용이 필요하다는 요구를 받으면 그 항목이 관공서에 내는 법정 수수료인지 확인하시기 바랍니다. 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 <p>비밀유지 의무는 계약이 끝난 뒤에도 남습니다. 행정사 또는 행정사이었던 사람은 사무직원이었던 사람까지 포함해, 정당한 사유 없이 직무상 알게 된 사실을 다른 사람에게 누설할 수 없습니다.<!-- 근거: 행정사법 제23조 --> 인허가 서류에는 사업계획과 재무 정보가 함께 들어가므로 이 조문은 실질적인 보호 장치입니다. 업종 판단이 애매할 때 확인할 점은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>에 정리해 두었습니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
@@ -90,7 +90,7 @@ export default {
 <div class="cta-block">
  <h3>인허가 위임 범위부터 정리해 드립니다</h3>
  <p>업종·사안별로 어디까지 위임할 수 있는지, 어떤 서류가 필요한지 유선행정사사무소가 먼저 확인해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 행정사법 법률 제19034호, 행정사법 시행령 대통령령 제35813호 --></p>`,
@@ -151,7 +151,7 @@ export default {
 
 <h2>Duties Owed to You After Engagement</h2>
 <p>Once the mandate is in place, the administrative agent must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
-<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the administrative agent nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
+<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the administrative agent nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the consultation.</p>
 <p>Confidentiality survives the engagement: an administrative agent, a former administrative agent and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
@@ -165,7 +165,7 @@ export default {
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
  <p>Yuseon Administrative Agent Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Principal Administrative Agent Jeong Yuseon)</p>`,
@@ -227,7 +227,7 @@ export default {
 
 <h2>委托之后行政士承担的义务</h2>
 <p>委托合同成立后，行政士须维持品位，以诚信公正履行职务；在履行受托业务过程中因故意或过失致委托人财产损害的，负赔偿责任。</p>
-<p>报酬关系亦由法律规定。行政士自委托人收取报酬，行政士及其事务职员不得以任何名目在报酬之外向委托人收取金钱、财产利益或其他对待给付。若在递交过程中被要求另行付费，请确认该项目是否为向行政机关缴纳的法定手续费。费用因个案而异，将于免费咨询时准确说明。</p>
+<p>报酬关系亦由法律规定。行政士自委托人收取报酬，行政士及其事务职员不得以任何名目在报酬之外向委托人收取金钱、财产利益或其他对待给付。若在递交过程中被要求另行付费，请确认该项目是否为向行政机关缴纳的法定手续费。费用因个案而异，将于咨询时准确说明。</p>
 <p>保密义务在委托结束后仍存续：行政士或曾为行政士者（含现任及曾任事务职员），不得无正当理由泄露因职务知悉的事实。行业判断不明时的要点见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
@@ -241,7 +241,7 @@ export default {
 <div class="cta-block">
  <h3>先厘清可以委托的范围</h3>
  <p>柳善行政士事务所将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
 <p class="author-block">柳善行政士事务所（代表行政士 郑柳善）</p>`,
@@ -304,7 +304,7 @@ export default {
 
 <h2>委任後に行政士が負う義務</h2>
 <p>委任契約が成立すると、行政士は品位を保持し、信義と誠実をもって公正に職務を遂行する義務を負います。委任された業務の遂行に際し故意又は過失で委任者に財産上の損害を与えた場合は、その損害を賠償する責任があります。</p>
-<p>報酬関係も法律に定められています。行政士は業務を委任した者から報酬を受け、行政士及びその事務職員は業務に関して報酬以外にいかなる名目でも委任者から金銭・財産上の利益その他の反対給付を受けることができません。提出の過程で別途の費用を求められた場合は、その項目が行政機関に納める法定手数料かどうかをご確認ください。費用は事案ごとに異なりますので、無料相談の際に正確にご案内いたします。</p>
+<p>報酬関係も法律に定められています。行政士は業務を委任した者から報酬を受け、行政士及びその事務職員は業務に関して報酬以外にいかなる名目でも委任者から金銭・財産上の利益その他の反対給付を受けることができません。提出の過程で別途の費用を求められた場合は、その項目が行政機関に納める法定手数料かどうかをご確認ください。費用は事案ごとに異なりますので、ご相談の際に正確にご案内いたします。</p>
 <p>守秘義務は委任終了後も残ります。行政士又は行政士であった者（その事務職員及び事務職員であった者を含む）は、正当な理由なく職務上知り得た事実を他人に漏らしてはなりません。許認可書類には事業計画と財務情報が含まれるため、この条文は実質的な保護となります。業種の判断が難しい場合の確認点は<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>にまとめています。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
@@ -318,7 +318,7 @@ export default {
 <div class="cta-block">
  <h3>まず委任できる範囲を整理します</h3>
  <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かを柳善行政士事務所が先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">柳善行政士事務所（代表行政士 鄭柳善）</p>`,

@@ -102,7 +102,7 @@ export default {
 <li>처음 해당 위반행위를 한 경우로서 5년 이상 관광사업을 모범적으로 해 온 사실이 인정되는 경우<!-- 근거: 관광진흥법 시행령 별표 2 제1호 라목 3) --></li>
 <li>해당 위반행위로 검사로부터 기소유예 처분을 받거나 법원으로부터 선고유예 판결을 받은 경우</li>
 </ol>
-<p>결국 제재 대응의 핵심은 처분이 내려진 뒤가 아니라 그 전 단계에 있습니다. 변경등록과 승계신고 기한을 지키고, 등록기준을 계속 유지하고 있는지 정기적으로 점검하는 것만으로 표의 상당 부분을 피할 수 있습니다. 호스텔 신규 등록 절차는 <a href="/blog/hostel-registration-guide">호스텔업 등록 가이드</a>에서, 객실·소방 기준은 <a href="/blog/hostel-room-fire-standards">호스텔업 객실 면적과 소방 안전 기준</a>에서 함께 확인하실 수 있습니다. 등록 준비는 <a href="/services/hostel">호스텔업 등록</a> 안내를, 도시민박업과의 차이는 <a href="/services/urban-guesthouse">외국인도시민박업 등록</a> 안내를 참고하세요. 대행 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>결국 제재 대응의 핵심은 처분이 내려진 뒤가 아니라 그 전 단계에 있습니다. 변경등록과 승계신고 기한을 지키고, 등록기준을 계속 유지하고 있는지 정기적으로 점검하는 것만으로 표의 상당 부분을 피할 수 있습니다. 호스텔 신규 등록 절차는 <a href="/blog/hostel-registration-guide">호스텔업 등록 가이드</a>에서, 객실·소방 기준은 <a href="/blog/hostel-room-fire-standards">호스텔업 객실 면적과 소방 안전 기준</a>에서 함께 확인하실 수 있습니다. 등록 준비는 <a href="/services/hostel">호스텔업 등록</a> 안내를, 도시민박업과의 차이는 <a href="/services/urban-guesthouse">외국인도시민박업 등록</a> 안내를 참고하세요. 대행 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 호스텔을 등록 없이 운영하면 관광진흥법으로 처벌받나요?</p><p class="faq-a">A. 원문상 단정할 수 없습니다. 「관광진흥법」 제82조 제1호의 무등록 처벌은 관광숙박업 중 제15조 제1항에 따라 사업계획의 승인을 받은 경우로 한정되어 있습니다. 승인 없이 숙박영업을 하면 「공중위생관리법」 제3조 제1항의 숙박업 신고 의무 위반이 되고, 같은 법 제20조 제1항에 따라 2년 이하의 징역 또는 2천만원 이하의 벌금 대상이 됩니다.</p></div>
@@ -115,7 +115,7 @@ export default {
 <div class="cta-block">
  <h3>처분 통지를 받았거나 기한이 걱정된다면</h3>
  <p>등록사항과 처분 통지서를 보고 위반 차수, 과징금 전환 가능성, 청문 소명 자료를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 관광진흥법 법률 제21087호, 관광진흥법 시행령 대통령령 제36554호, 공중위생관리법 법률 제20171호 --></p>`,
@@ -192,7 +192,7 @@ export default {
 <li>it is a first violation after 5 years or more of exemplary operation; or</li>
 <li>indictment or sentence was suspended for the violation.</li>
 </ol>
-<p>Meeting the deadlines and checking regularly that the standards are still met avoids much of the table above. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Meeting the deadlines and checking regularly that the standards are still met avoids much of the table above. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Is running a hostel without registration punished under the Tourism Promotion Act?</p><p class="faq-a">A. Not as a blanket rule. Article 82(1) covers tourist accommodation only where a business plan was approved under Article 15(1). Otherwise the lodging report duty of the Public Health Control Act applies, with imprisonment of up to 2 years or a fine of up to KRW 20 million under its Article 20(1).</p></div>
@@ -205,7 +205,7 @@ export default {
 <div class="cta-block">
  <h3>Received a sanction notice or worried about a deadline?</h3>
  <p>We review your registration and the notice, then map the repetition count, the chance of conversion to a surcharge and the materials for the hearing. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -282,7 +282,7 @@ export default {
 <li>初次违规且5年以上模范经营；</li>
 <li>被缓起诉或宣告缓刑。</li>
 </ol>
-<p>遵守期限并定期检查登记标准，就能避开上表的大部分情形。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>遵守期限并定期检查登记标准，就能避开上表的大部分情形。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 未登记经营青年旅舍会依《观光振兴法》受处罚吗？</p><p class="faq-a">A. 不能一概而论。第82条第1项对观光住宿业仅限依第15条第1款获批事业计划的情形。其他情形适用《公共卫生管理法》的申报义务，依其第20条第1款可处2年以下有期徒刑或2000万韩元以下罚金。</p></div>
@@ -295,7 +295,7 @@ export default {
 <div class="cta-block">
  <h3>收到处分通知或担心期限？</h3>
  <p>유선행정사사무소会先查看登记事项和处分通知书，整理违规次数、转换为课征金的可能性以及听证说明资料。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -372,7 +372,7 @@ export default {
 <li>初めての違反で、5年以上模範的に事業を営んできた場合</li>
 <li>起訴猶予または宣告猶予を受けた場合</li>
 </ol>
-<p>期限を守り、登録基準を定期的に点検するだけで、表の多くの処分は避けられます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>期限を守り、登録基準を定期的に点検するだけで、表の多くの処分は避けられます。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. ホステルを無登録で運営すると観光振興法で処罰されますか。</p><p class="faq-a">A. 一概には言えません。第82条第1号は観光宿泊業について第15条第1項の事業計画承認を受けた場合に限られます。それ以外は「公衆衛生管理法」の届出義務違反となり、同法第20条第1項により2年以下の懲役または2,000万ウォン以下の罰金の対象です。</p></div>
@@ -385,7 +385,7 @@ export default {
 <div class="cta-block">
  <h3>処分通知を受けた、または期限が心配な方へ</h3>
  <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

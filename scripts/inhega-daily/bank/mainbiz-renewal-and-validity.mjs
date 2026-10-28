@@ -106,7 +106,7 @@ export default {
 <p>세 번째 사유인 "신청자격 상실"은 고시 제3조를 함께 읽어야 합니다. 연체·국세체납 등으로 한국신용정보원 체납정보 등에 등록 중인 기업, 어음 거래정지처분을 받은 기업, 파산·회생절차 개시 신청이 있거나 청산에 들어간 기업(회생인가 후 계획을 정상 이행 중인 기업은 예외), 직전 사업연도 말 재무상태표 기준 부채비율 1,000% 이상이거나 완전자본잠식인 기업은 신청자격이 없습니다.<!-- 근거: 경영혁신형 중소기업(Main-Biz) 제도 운영규정 제3조 제2항 제1호~제5호 --></p>
 <p>2026년 6월 22일 개정으로 제6호가 새로 생겼습니다. 신청기업이나 대표자가 최근 3년 이내에 「근로기준법」에 따른 체불사업주 명단 공개, 「산업안전보건법」에 따른 산업재해 발생건수 등의 공표 대상이 되었거나, 전자상거래·하도급거래 등 공정거래 관련 법령 위반으로 시정명령을 받았거나, 「보조금 관리에 관한 법률」 위반으로 참여제한 처분을 받은 경우입니다.<!-- 근거: 경영혁신형 중소기업(Main-Biz) 제도 운영규정 제3조 제2항 제6호(신설 2026. 6. 22.) --> 다음 연장 신청을 앞둔 기업이라면 노무·안전·공정거래 이력을 재무 지표와 함께 점검해 두어야 합니다.</p>
 <p>취소 사유의 발견 경로도 정해져 있습니다. 평가기관은 제2호부터 제5호까지의 사유를 발견하면 관리기관에 통보하고, 관리기관은 선정기업이 취소 사유에 해당하는지를 매월 1회 이상 확인해 지방중소벤처기업청장에게 알립니다. 선정이 취소되면 지방중소벤처기업청장은 15일 이내에 확인서를 반납받고 취소 사실을 메인비즈넷에 공고합니다.<!-- 근거: 경영혁신형 중소기업(Main-Biz) 제도 운영규정 제17조 제2항·제3항 --></p>
-<p>정리하면 메인비즈 유효기간 관리는 만료일 확인, 35일 단서를 고려한 연장 신청, 경영혁신 성과 자료의 축적, 변경 시 재발급, 신청자격 유지 점검의 다섯 가지로 압축됩니다.<!-- 근거: 경영혁신형 중소기업(Main-Biz) 제도 운영규정 제3조, 제13조, 제15조, 제17조 --> 이노비즈와의 차이는 <a href="/blog/innobiz-vs-mainbiz-comparison-guide">이노비즈와 메인비즈 비교</a>에서, 비슷한 구조의 갱신 절차는 <a href="/blog/venture-certification-renewal">벤처기업 인증 갱신 가이드</a>에서 확인하실 수 있고, 기업인증 전반은 <a href="/services/venture-cert">벤처·이노비즈 인증</a> 안내를 참고하세요. 신청은 <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">메인비즈넷</a>에서 할 수 있습니다. 대행 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>정리하면 메인비즈 유효기간 관리는 만료일 확인, 35일 단서를 고려한 연장 신청, 경영혁신 성과 자료의 축적, 변경 시 재발급, 신청자격 유지 점검의 다섯 가지로 압축됩니다.<!-- 근거: 경영혁신형 중소기업(Main-Biz) 제도 운영규정 제3조, 제13조, 제15조, 제17조 --> 이노비즈와의 차이는 <a href="/blog/innobiz-vs-mainbiz-comparison-guide">이노비즈와 메인비즈 비교</a>에서, 비슷한 구조의 갱신 절차는 <a href="/blog/venture-certification-renewal">벤처기업 인증 갱신 가이드</a>에서 확인하실 수 있고, 기업인증 전반은 <a href="/services/venture-cert">벤처·이노비즈 인증</a> 안내를 참고하세요. 신청은 <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">메인비즈넷</a>에서 할 수 있습니다. 대행 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 메인비즈 유효기간이 끝나면 자동으로 연장되나요?</p><p class="faq-a">A. 아닙니다. 「경영혁신형 중소기업(Main-Biz) 제도 운영규정」 제15조 제1항에 따라 기업이 메인비즈넷에서 정보를 다시 입력하고 자가진단을 한 뒤 연장을 신청해야 하고, 제15조 제4항에 따라 경영혁신진단평가에서 700점 이상을 받아야 확인서가 갱신 발급됩니다.</p></div>
@@ -119,7 +119,7 @@ export default {
 <div class="cta-block">
  <h3>메인비즈 만료일이 다가오거나 회사 정보가 바뀌었다면</h3>
  <p>확인서와 재무·혁신 활동 자료를 보고 연장 신청 시점, 진단평가 준비 항목, 재발급·승계 요건을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 중소기업 기술혁신 촉진법 법률 제21289호, 같은 법 시행령 대통령령 제36699호, 중소벤처기업부 고시 제2026-45호 --></p>`,
@@ -194,7 +194,7 @@ export default {
 </tbody></table>
 <p>Under Article 3(2), companies registered for arrears with the Korea Credit Information Services, under a suspension of bill transactions, in bankruptcy, rehabilitation or liquidation (except those duly performing an approved plan), or with a debt ratio of 1,000% or more or full capital impairment at the previous fiscal year-end are not eligible (items 1 to 5). The 22 June 2026 amendment added item 6: within the last 3 years, public listing for unpaid wages, public naming for industrial accidents, a fair trade corrective order, or a subsidy participation ban.</p>
 <p>The management body checks at least 1 time a month whether selected companies fall under a ground and notifies the regional office, which must retrieve the certificate within 15 days of cancellation and publish it on Mainbiz-net (Article 17(2) and (3)).</p>
-<p> Applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p> Applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Is a Mainbiz certificate extended automatically?</p><p class="faq-a">A. No. You must apply (Article 15(1)) and score 700 points or more (Article 15(4)).</p></div>
@@ -207,7 +207,7 @@ export default {
 <div class="cta-block">
  <h3>Is your Mainbiz term ending, or have your company details changed?</h3>
  <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -279,7 +279,7 @@ export default {
 <tr><td>事后管理结果不符合标准</td><td>可以撤销</td></tr>
 </tbody></table>
 <p>依第3条第2款，登记欠缴信息、票据停止交易、破产·回生·清算（正常履行回生计划的除外）、上一会计年度末负债比率1,000%以上或完全资本侵蚀的企业无申请资格（第1项至第5项）。2026年6月22日新增第6项：最近3年内被公开为欠薪雇主、被公布产业灾害、因公平交易法令受纠正命令或因补助金法受参与限制。</p>
-<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有效期届满后会自动延长吗？</p><p class="faq-a">A. 不会。须依第15条第1款申请，并依第15条第4款取得700分以上。</p></div>
@@ -292,7 +292,7 @@ export default {
 <div class="cta-block">
  <h3>Mainbiz即将到期或企业信息有变更？</h3>
  <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -365,7 +365,7 @@ export default {
 <tr><td>事後管理の結果、選定基準に適合しなくなった場合</td><td>裁量的取消</td></tr>
 </tbody></table>
 <p>第3条第2項により、滞納情報等に登録中の企業、手形取引停止処分を受けた企業、破産・回生・清算中の企業（回生計画を正常に履行中の企業を除く）、直前事業年度末の負債比率1,000%以上または完全資本蚕食の企業は申請資格がありません（第1号〜第5号）。2026年6月22日の改正で第6号が新設され、最近3年以内の賃金未払事業主の名簿公開、産業災害の公表、公正取引関連法令違反による是正命令、補助金法違反による参加制限も対象になりました。</p>
-<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 有効期間が切れると自動的に延長されますか。</p><p class="faq-a">A. いいえ。第15条第1項により申請が必要で、第15条第4項により700点以上を得てはじめて更新発給されます。</p></div>
@@ -378,7 +378,7 @@ export default {
 <div class="cta-block">
  <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
  <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

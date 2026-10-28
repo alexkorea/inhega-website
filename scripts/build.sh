@@ -23,5 +23,7 @@ node scripts/nocite-gate.mjs $( [ -f scripts/nocite-allow.txt ] && echo --allow 
 node scripts/svc-nocite-gate.mjs .next/server/app
 # TERM-UNIFY-1028(맥7): en 행정사 'Scrivener' 계열 0(slug·judicial scrivener 예외). 원천은 prebuild 에서 같은 게이트.
 node scripts/scrivener-gate.mjs .next/server/app
+# INHEGA-EN-BRAND 2(맥7 10-28): 전 로캘 '무료/free/免费/無料' 0. 원천은 prebuild 에서 같은 게이트.
+node scripts/nofree-gate.mjs .next/server/app
 node scripts/seo-gate.mjs
 node scripts/url-preserve-gate.mjs

@@ -9,6 +9,7 @@
 import { POOL_KEYS, ANGLE_KEYS, topicByKey } from './pool.mjs'
 import { c6Hits } from '../lib/c6-banned.mjs'
 import { scanHtml } from '../nocite-gate.mjs'
+import { scanText as nofreeHits } from '../nofree-gate.mjs'
 
 // 제5장 정량 — Cluster 기준(Pillar 은 entry.kind='pillar' 로 상향).
 // 단위는 지침서 표기("EN1000-1800단어")를 네 언어 모두 단어로 읽는다.
@@ -236,6 +237,10 @@ export function gateArticle(entry, ctx) {
     // 사진: 이 글 전용 Pexels 사진 ID 선언(중복 검사는 photo-check.mjs 가 og index·전 사이트 대조)
     add('S7 전용 사진(pexelsId) 선언', Number.isInteger(entry.pexelsId) && entry.pexelsId > 0, `pexelsId=${entry.pexelsId}`)
   }
+
+  // INHEGA-EN-BRAND 2(맥7 10-28): 모든 글·4언어 '무료/free/免费/無料' 0건(scripts/nofree-gate.mjs 와 같은 패턴)
+  const nf = ['ko', 'en', 'zh', 'ja'].flatMap((l) => { const a = entry[l] || {}; return nofreeHits([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.category, a.content].join(' ')) })
+  add('N1 무료 표현 0건(4언어, NOFREE)', nf.length === 0, nf.length ? `「${nf[0].word}」 …${nf[0].ctx}…` : 'ok')
 
   const failed = checks.filter((c) => !c.ok)
   return { pass: failed.length === 0, checks, failed }

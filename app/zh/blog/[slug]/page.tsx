@@ -146,12 +146,12 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
-                  <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>免费咨询</p>
+                  <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>咨询</p>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-                    需要韩国许可申请帮助？我们的专业行政士提供免费初次咨询。
+                    需要韩国许可申请帮助？我们的专业行政士提供初次咨询。
                   </p>
                   <Link href="/zh/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
-                    申请免费咨询
+                    申请咨询
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
                     <ContactLine icon="pin">首尔中区退溪路324, 3层</ContactLine>

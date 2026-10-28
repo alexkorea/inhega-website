@@ -95,7 +95,7 @@ export default function Navbar() {
                 </div>
                 <div className={styles.megaMenuFooter}>
                   <Link prefetch={false} href="/quote" className="btn btn-primary">
-                    무료 견적 문의
+                    견적 문의
                   </Link>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function Navbar() {
           <Link prefetch={false} href="/news" className={styles.mobileNavLink}>인허가 뉴스</Link>
           <Link prefetch={false} href="/contact" className={styles.mobileNavLink}>상담문의</Link>
           <Link prefetch={false} href="/contact" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
-            무료 견적 문의
+            견적 문의
           </Link>
           <LangFlags locale="ko" className={styles.mobileMenuLang} />
         </nav>

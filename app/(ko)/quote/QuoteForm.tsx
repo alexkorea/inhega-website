@@ -80,7 +80,7 @@ export default function QuoteForm() {
       <div style={{ background: 'var(--navy)', padding: '1.75rem 0 1.25rem' }}>
         <div className="container-narrow">
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.75rem,3vw,2.5rem)', color: 'white', marginBottom: '1.5rem' }}>
-            무료 견적 문의
+            견적 문의
           </h1>
           {/* Step indicator */}
           <div className={styles.steps}>

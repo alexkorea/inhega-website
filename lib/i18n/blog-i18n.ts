@@ -18,7 +18,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'International Freight Forwarding Registration in Korea — Complete 2026 Guide',
     metaTitle: 'International Freight Forwarding Registration Korea 2026 — Full Guide',
-    metaDescription: 'How to register an international freight forwarding business in Korea. Capital requirement KRW 300M, surety bond. Free consultation.',
+    metaDescription: 'How to register an international freight forwarding business in Korea. Capital requirement KRW 300M, surety bond.',
     category: 'Logistics',
     excerpt: 'Everything foreign companies need to know about registering an international freight forwarding business in Korea — eligibility, required documents, and timelines.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is International Freight Forwarding?</li><li>Who Needs This Registration?</li><li>Key Requirements</li><li>Required Documents</li><li>Registration Procedure</li><li>Timeline and Fees</li><li>Post-Registration Obligations</li><li>Special Notes for Foreign Companies</li><li>FAQ</li></ol></div>
@@ -46,14 +46,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a mutual aid association substitute for the surety bond?</p><p class="faq-a">A. Yes, if the association is recognized by the relevant authority. Confirm eligibility in advance.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What if processing exceeds 20 business days?</p><p class="faq-a">A. You may inquire with the processing department. Using an administrative agent helps expedite responses to supplementation requests.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with Freight Forwarding Registration?</h3><p>YouSun Administrative Agency handles the entire process — from document preparation to certificate receipt — with licensed administrative agents specializing in logistics permits. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with Freight Forwarding Registration?</h3><p>YouSun Administrative Agency handles the entire process — from document preparation to certificate receipt — with licensed administrative agents specializing in logistics permits.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'international-logistics-registration-guide',
     locale: 'zh',
     title: '韩国国际货运代理业登记指南2026 — 从申请资格到处理期限',
     metaTitle: '韩国国际货运代理业登记方法2026 — 完整指南',
-    metaDescription: '韩国国际货运代理业登记资质、材料、向市·道知事申请登记的程序详解。资本金3亿韩元、保证保险要求及外国企业特别事项说明。免费初次咨询。本文依次说明核心申请条件、所需材料、登记申请流程、处理期限与费用，可按步骤逐项确认。',
+    metaDescription: '韩国国际货运代理业登记资质、材料、向市·道知事申请登记的程序详解。资本金3亿韩元、保证保险要求及外国企业特别事项说明。初次咨询。本文依次说明核心申请条件、所需材料、登记申请流程、处理期限与费用，可按步骤逐项确认。',
     category: '物流/配送',
     excerpt: '外国企业在韩国开展国际货运代理业务必须了解的登记资质、所需材料及申请流程全攻略。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是国际货运代理业？</li><li>哪些企业需要登记？</li><li>核心申请条件</li><li>所需材料</li><li>登记申请流程</li><li>处理期限与费用</li><li>登记后的义务</li><li>外国企业注意事项</li><li>常见问题</li></ol></div>
@@ -83,14 +83,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 能用互助基金代替保证保险吗？</p><p class="faq-a">A. 可以，但须为官方认可的互助基金。请提前确认是否符合条件。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 如果处理时间超过20个工作日怎么办？</p><p class="faq-a">A. 可向主管部门查询处理进度。委托行政士代理可有效加快对补充材料要求的响应速度。</p></div>
 </div>
-<div class="cta-box"><h3>需要国际货运代理业登记协助？</h3><p>YouSun Administrative Agency由专攻物流许可的专业行政士全程代理，从材料准备到领取登记证一站式服务。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>需要国际货运代理业登记协助？</h3><p>YouSun Administrative Agency由专攻物流许可的专业行政士全程代理，从材料准备到领取登记证一站式服务。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'international-logistics-registration-guide',
     locale: 'ja',
     title: '韓国国際物流主選業登録完全ガイド2026 — 申請資格から処理期間まで',
     metaTitle: '韓国国際物流主選業登録方法2026 — 完全ガイド',
-    metaDescription: '韓国での国際物流主選業登録に必要な資格・書類・手続きを詳解。資本金3億ウォン要件・保証保険・外国企業向け特記事項まで専門行政士が解説。初回相談無料。',
+    metaDescription: '韓国での国際物流主選業登録に必要な資格・書類・手続きを詳解。資本金3億ウォン要件・保証保険・外国企業向け特記事項まで専門行政士が解説。',
     category: '物流・流通',
     excerpt: '韓国で国際物流主選業を開始する外国企業が知っておくべき登録資格・必要書類・手続きの完全ガイド。',
     content: `<div class="toc"><p>目次</p><ol><li>国際物流主選業とは？</li><li>登録が必要な企業</li><li>主要申請要件</li><li>必要書類</li><li>登録申請手順</li><li>処理期間と費用</li><li>登録後の義務</li><li>外国企業向け注意事項</li><li>よくある質問</li></ol></div>
@@ -118,7 +118,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 共済組合で保証保険の代替はできますか？</p><p class="faq-a">A. 認定された共済組合であれば代替可能です。事前に適格性を確認してください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 処理が20営業日を超えた場合は？</p><p class="faq-a">A. 担当部署に処理状況を問い合わせることができます。行政士を活用することで補完要請への対応を迅速化できます。</p></div>
 </div>
-<div class="cta-box"><h3>国際物流主選業の登録をお手伝いします</h3><p>YouSun Administrative Agencyは、物流許認可を専門とする行政士が書類準備から登録証受領まで一貫サポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>国際物流主選業の登録をお手伝いします</h3><p>YouSun Administrative Agencyは、物流許認可を専門とする行政士が書類準備から登録証受領まで一貫サポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 2: currency-exchange-registration-guide ────────────────────────────
@@ -127,7 +127,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Currency Exchange Business Registration in Korea — Complete 2026 Guide',
     metaTitle: 'Currency Exchange Registration Korea 2026 — Korea Customs Service Guide',
-    metaDescription: 'How to register a currency exchange business in Korea through the Korea Customs Service. Eligibility, required documents. Free consultation.',
+    metaDescription: 'How to register a currency exchange business in Korea through the Korea Customs Service. Eligibility, required documents.',
     category: 'Finance',
     excerpt: 'A step-by-step guide for foreign companies seeking to register a currency exchange business in Korea — including AML obligations and post-registration requirements.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Currency Exchange Business?</li><li>Who Needs to Register?</li><li>Key Requirements</li><li>Required Documents</li><li>Registration Procedure</li><li>AML Obligations</li><li>Timeline and Fees</li><li>Post-Registration Obligations</li><li>FAQ</li></ol></div>
@@ -153,14 +153,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Is a hotel automatically allowed to exchange currency for guests?</p><p class="faq-a">A. No. Even hotels must obtain a separate currency exchange registration to offer this service commercially.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What are the penalties for operating without registration?</p><p class="faq-a">A. Operating a currency exchange business without registration is punishable by imprisonment of up to 3 years or a fine of up to KRW 300 million (up to three times the value of the subject matter if that exceeds KRW 300 million). Imprisonment and a fine may be imposed together, and foreign exchange and other assets obtained through the offense are confiscated.</p></div>
 </div>
-<div class="cta-box"><h3>Register Your Currency Exchange Business in Korea</h3><p>YouSun Administrative Agency handles currency exchange registration with expertise in financial licensing and AML compliance setup. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your Currency Exchange Business in Korea</h3><p>YouSun Administrative Agency handles currency exchange registration with expertise in financial licensing and AML compliance setup.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'currency-exchange-registration-guide',
     locale: 'zh',
     title: '韩国换汇业登记方法与要求2026 — 关税厅申请程序全攻略',
     metaTitle: '韩国换汇业登记2026 — 关税厅申请程序总整理',
-    metaDescription: '韩国换汇业登记资质、所需材料、关税厅申请程序详解。包括反洗钱义务及外国企业注意事项。专业行政士免费初次咨询。本文依次说明核心申请条件、所需材料、登记申请流程、反洗钱义务，可按步骤逐项确认。',
+    metaDescription: '韩国换汇业登记资质、所需材料、关税厅申请程序详解。包括反洗钱义务及外国企业注意事项。专业行政士初次咨询。本文依次说明核心申请条件、所需材料、登记申请流程、反洗钱义务，可按步骤逐项确认。',
     category: '金融',
     excerpt: '外国企业在韩国开展换汇业务的完整登记指南，包含反洗钱合规要求及登记后义务。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是换汇业？</li><li>哪些企业需要登记？</li><li>核心申请条件</li><li>所需材料</li><li>登记申请流程</li><li>反洗钱（AML）义务</li><li>处理期限与费用</li><li>登记后的义务</li><li>常见问题</li></ol></div>
@@ -186,14 +186,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 酒店可以自动为住客提供换汇服务吗？</p><p class="faq-a">A. 不行。即使是酒店，提供商业性换汇服务也须单独办理换汇业登记。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 未登记经营换汇业会有什么处罚？</p><p class="faq-a">A. 未登记从事换汇业务的，处3年以下有期徒刑或3亿韩元以下罚金（违法标的物价值的3倍超过3亿韩元时，罚金为标的物价值的3倍以下）。徒刑与罚金可并处，因违法行为取得的外汇等财产予以没收。</p></div>
 </div>
-<div class="cta-box"><h3>在韩国登记换汇业务</h3><p>YouSun Administrative Agency专业代理换汇业登记，提供金融许可及反洗钱合规体系搭建服务。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>在韩国登记换汇业务</h3><p>YouSun Administrative Agency专业代理换汇业登记，提供金融许可及反洗钱合规体系搭建服务。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'currency-exchange-registration-guide',
     locale: 'ja',
     title: '韓国外貨両替業登録ガイド2026 — 関税庁への申請手続き',
     metaTitle: '韓国外貨両替業登録2026 — 関税庁申請手続き総まとめ',
-    metaDescription: '韓国での外貨両替業登録に必要な資格・書類・関税庁申請手続きを解説。AML義務・外国企業向け注意事項も含む。行政士による初回相談無料。登録が必要な企業・主要申請要件・必要書類・登録申請手順まで順に確認できます。',
+    metaDescription: '韓国での外貨両替業登録に必要な資格・書類・関税庁申請手続きを解説。AML義務・外国企業向け注意事項も含む。行政士による初回相談。登録が必要な企業・主要申請要件・必要書類・登録申請手順まで順に確認できます。',
     category: '金融',
     excerpt: '韓国で外貨両替業を開始する外国企業向けの完全登録ガイド。AMLコンプライアンス要件と登録後の義務を含む。',
     content: `<div class="toc"><p>目次</p><ol><li>外貨両替業とは？</li><li>登録が必要な企業</li><li>主要申請要件</li><li>必要書類</li><li>登録申請手順</li><li>AML義務</li><li>処理期間と費用</li><li>登録後の義務</li><li>よくある質問</li></ol></div>
@@ -219,7 +219,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. ホテルは宿泊客向けに自動的に両替できますか？</p><p class="faq-a">A. いいえ。ホテルも商業目的で両替サービスを提供する場合は、別途外貨両替業登録が必要です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 無登録で営業した場合の罰則は？</p><p class="faq-a">A. 無登録で外貨両替業を営むと、3年以下の懲役または3億ウォン以下の罰金に処されます（違反行為の目的物価額の3倍が3億ウォンを超える場合、罰金は目的物価額の3倍以下）。懲役と罰金は併科でき、違反行為で取得した外国為替等は没収されます。</p></div>
 </div>
-<div class="cta-box"><h3>韓国での外貨両替業登録をサポートします</h3><p>YouSun Administrative Agencyは、金融ライセンスとAMLコンプライアンス体制構築を専門とする行政士が登録手続きを全面サポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>韓国での外貨両替業登録をサポートします</h3><p>YouSun Administrative Agencyは、金融ライセンスとAMLコンプライアンス体制構築を専門とする行政士が登録手続きを全面サポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 3: building-usage-change-guide ─────────────────────────────────────
@@ -228,7 +228,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Building Use Change Permit in Korea — Complete Procedure and Cost Guide 2026',
     metaTitle: 'Korea Building Use Change 2026 — Permit vs. Notification Procedure Guide',
-    metaDescription: 'How to change a building’s designated use in Korea — permit vs. notification, required documents, timeline, and costs. Free consultation.',
+    metaDescription: 'How to change a building’s designated use in Korea — permit vs. notification, required documents, timeline, and costs.',
     category: 'Construction / Real Estate',
     excerpt: 'A practical guide for foreign companies and investors seeking to change the designated use of a building in Korea — covering permit vs. notification, required documents, and timelines.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Building Use Change?</li><li>Permit vs. Notification — What Is the Difference?</li><li>Who Needs This?</li><li>Key Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Timeline and Costs</li><li>Common Mistakes by Foreign Companies</li><li>FAQ</li></ol></div>
@@ -256,14 +256,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Does use change require physical renovation?</p><p class="faq-a">A. Not always, but the space must meet all technical standards for the new use (fire safety, ventilation, etc.).</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can a foreign national own the building and apply directly?</p><p class="faq-a">A. Yes. The owner or their authorized representative (such as an administrative agent) may file the application.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with Building Use Change in Korea?</h3><p>YouSun Administrative Agency handles building use change applications — from confirming current use to receiving the final permit. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with Building Use Change in Korea?</h3><p>YouSun Administrative Agency handles building use change applications — from confirming current use to receiving the final permit.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'building-usage-change-guide',
     locale: 'zh',
     title: '韩国建筑物用途变更许可·申报完整指南2026 — 程序与费用',
     metaTitle: '韩国建筑物用途变更2026 — 许可与申报手续总整理',
-    metaDescription: '韩国建筑物用途变更许可与申报的区别、所需材料、处理期限及费用详解。改建为宾馆、食品厂房或民宿等用途必读指南。专业行政士免费咨询。本文依次说明许可与申报的区别、核心申请条件、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '韩国建筑物用途变更许可与申报的区别、所需材料、处理期限及费用详解。改建为宾馆、食品厂房或民宿等用途必读指南。专业行政士咨询。本文依次说明许可与申报的区别、核心申请条件、所需材料、申请流程，可按步骤逐项确认。',
     category: '建筑/房产',
     excerpt: '外国企业及投资者在韩国开展建筑物用途变更的实用指南，涵盖许可与申报区别、所需材料及处理期限。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是建筑物用途变更？</li><li>许可与申报的区别</li><li>哪些企业需要办理？</li><li>核心申请条件</li><li>所需材料</li><li>申请流程</li><li>处理期限与费用</li><li>外国企业常见错误</li><li>常见问题</li></ol></div>
@@ -291,14 +291,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 用途变更是否必须进行实体装修？</p><p class="faq-a">A. 不一定，但该空间必须满足新用途的所有技术标准（消防安全、通风等）。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外国人拥有建筑物是否可以直接申请？</p><p class="faq-a">A. 可以。产权人或其授权代理人（如行政士）均可提交申请。</p></div>
 </div>
-<div class="cta-box"><h3>需要韩国建筑物用途变更协助？</h3><p>YouSun Administrative Agency提供建筑物用途变更申请全流程代理服务，从确认当前用途到取得最终许可一站式处理。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>需要韩国建筑物用途变更协助？</h3><p>YouSun Administrative Agency提供建筑物用途变更申请全流程代理服务，从确认当前用途到取得最终许可一站式处理。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'building-usage-change-guide',
     locale: 'ja',
     title: '韓国建築物用途変更許可・申告完全ガイド2026 — 手続きと費用',
     metaTitle: '韓国建築物用途変更2026 — 許可と申告の手続き総まとめ',
-    metaDescription: '韓国での建築物用途変更（許可・申告）の違い・必要書類・処理期間・費用を詳解。ゲストハウス・食品製造・民泊等への転用に必読。行政士による初回相談無料。',
+    metaDescription: '韓国での建築物用途変更（許可・申告）の違い・必要書類・処理期間・費用を詳解。ゲストハウス・食品製造・民泊等への転用に必読。行政士による初回相談。',
     category: '建築・不動産',
     excerpt: '韓国で建築物の用途変更を検討する外国企業・投資家向けの実務ガイド。許可と申告の違い、必要書類、処理期間を解説。',
     content: `<div class="toc"><p>目次</p><ol><li>建築物用途変更とは？</li><li>許可と申告の違い</li><li>必要な企業・個人</li><li>主要申請要件</li><li>必要書類</li><li>申請手順</li><li>処理期間と費用</li><li>外国企業によくあるミス</li><li>よくある質問</li></ol></div>
@@ -326,7 +326,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 用途変更には必ず内装工事が必要ですか？</p><p class="faq-a">A. 必須ではありませんが、そのスペースが新用途のすべての技術基準（消防安全、換気など）を満たす必要があります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外国人の建物所有者が直接申請できますか？</p><p class="faq-a">A. はい。所有者またはその代理人（行政士など）が申請を提出できます。</p></div>
 </div>
-<div class="cta-box"><h3>韓国での建築物用途変更をサポートします</h3><p>YouSun Administrative Agencyは、現在の用途確認から最終許可証受領まで、建築物用途変更申請を一貫してサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>韓国での建築物用途変更をサポートします</h3><p>YouSun Administrative Agencyは、現在の用途確認から最終許可証受領まで、建築物用途変更申請を一貫してサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 4: food-manufacturing-license-guide ────────────────────────────────
@@ -335,7 +335,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Food Manufacturing Business License in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Food Manufacturing License 2026 — Requirements & Procedure',
-    metaDescription: 'How to obtain a food manufacturing and processing business license in Korea. Facility standards, hygiene requirements. Free consultation.',
+    metaDescription: 'How to obtain a food manufacturing and processing business license in Korea. Facility standards, hygiene requirements.',
     category: 'Food',
     excerpt: 'A step-by-step guide to obtaining a food manufacturing and processing license in Korea — facility requirements, required documents, and the MFDS approval process.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Food Manufacturing Business?</li><li>Regulatory Authority</li><li>Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Timeline and Costs</li><li>FAQ</li></ol></div>
@@ -355,14 +355,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Does a home kitchen qualify as a manufacturing facility?</p><p class="faq-a">A. No. A dedicated, inspected commercial facility is required.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is HACCP mandatory?</p><p class="faq-a">A. HACCP is mandatory for certain product categories (meat, dairy, etc.) and strongly recommended for all others.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with Your Food Manufacturing License?</h3><p>YouSun Administrative Agency guides food businesses through facility planning, document preparation, and inspection. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with Your Food Manufacturing License?</h3><p>YouSun Administrative Agency guides food businesses through facility planning, document preparation, and inspection.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'food-manufacturing-license-guide',
     locale: 'zh',
     title: '韩国食品制造加工业许可申请指南2026',
     metaTitle: '韩国食品制造加工业许可2026 — 要求与申请流程',
-    metaDescription: '韩国食品制造加工业许可申请条件、设施标准、食药处审批流程详解。专业行政士免费初次咨询。本文依次说明监管机构、设施要求、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '韩国食品制造加工业许可申请条件、设施标准、食药处审批流程详解。专业行政士初次咨询。本文依次说明监管机构、设施要求、所需材料、申请流程，可按步骤逐项确认。',
     category: '食品',
     excerpt: '在韩国开展食品制造加工业务的完整许可申请指南，涵盖设施要求、所需材料及食药处审批程序。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是食品制造加工业？</li><li>监管机构</li><li>设施要求</li><li>所需材料</li><li>申请流程</li><li>处理期限与费用</li><li>常见问题</li></ol></div>
@@ -382,14 +382,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 家庭厨房可以作为制造设施吗？</p><p class="faq-a">A. 不可以。必须具备经检查合格的专用商业设施。</p></div>
 <div class="faq-item"><p class="faq-q">Q. HACCP认证是强制要求吗？</p><p class="faq-a">A. 对于肉类、乳制品等特定产品类别是强制要求，其他类别强烈建议取得。</p></div>
 </div>
-<div class="cta-box"><h3>需要食品制造许可申请协助？</h3><p>YouSun Administrative Agency提供设施规划、材料准备及检查全程指导。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>需要食品制造许可申请协助？</h3><p>YouSun Administrative Agency提供设施规划、材料准备及检查全程指导。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'food-manufacturing-license-guide',
     locale: 'ja',
     title: '韓国食品製造加工業許可申請ガイド2026',
     metaTitle: '韓国食品製造加工業許可2026 — 要件・手続き完全ガイド',
-    metaDescription: '韓国での食品製造加工業許可の申請条件、施設基準、食薬処認可手続きを詳しく解説。行政士による無料初回相談あり。監督機関・施設要件・必要書類・申請手続きまで順に確認できます。',
+    metaDescription: '韓国での食品製造加工業許可の申請条件、施設基準、食薬処認可手続きを詳しく解説。行政士による初回相談あり。監督機関・施設要件・必要書類・申請手続きまで順に確認できます。',
     category: '食品',
     excerpt: '韓国で食品製造・加工事業を行うための許可申請ガイド。施設要件、必要書類、食品医薬品安全処の審査手続きを詳しく説明します。',
     content: `<div class="toc"><p>目次</p><ol><li>食品製造加工業とは？</li><li>監督機関</li><li>施設要件</li><li>必要書類</li><li>申請手続き</li><li>処理期間と費用</li><li>よくある質問</li></ol></div>
@@ -409,7 +409,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 自宅のキッチンは製造施設として認められますか？</p><p class="faq-a">A. いいえ。検査に合格した専用の商業施設が必要です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. HACCPは義務ですか？</p><p class="faq-a">A. 食肉・乳製品など特定品目は義務、その他も強く推奨されます。</p></div>
 </div>
-<div class="cta-box"><h3>食品製造許可の取得をサポートします</h3><p>YouSun Administrative Agencyは施設計画から書類準備、検査まで一貫してサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>食品製造許可の取得をサポートします</h3><p>YouSun Administrative Agencyは施設計画から書類準備、検査まで一貫してサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 5: women-enterprise-certification-guide ────────────────────────────
@@ -418,7 +418,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Women-Owned Business Certification in Korea — Benefits & Application Guide 2026',
     metaTitle: 'Korea Women-Owned Business Certification 2026 — How to Apply',
-    metaDescription: 'Eligibility, benefits, and application process for Women-Owned Business Certification in Korea. Government procurement preference, subsidies. Free consultation.',
+    metaDescription: 'Eligibility, benefits, and application process for Women-Owned Business Certification in Korea. Government procurement preference, subsidies.',
     category: 'Business Certification',
     excerpt: 'How female CEOs can obtain Women-Owned Business Certification in Korea and leverage government procurement preferences, subsidies, and support programs.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Women-Owned Business Certification?</li><li>Eligibility Requirements</li><li>Key Benefits</li><li>Required Documents</li><li>Application Procedure</li><li>Validity and Renewal</li><li>FAQ</li></ol></div>
@@ -438,14 +438,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a foreign national female CEO apply?</p><p class="faq-a">A. Yes, as long as the business is registered in Korea and meets all other eligibility criteria.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Does this apply to sole proprietorships?</p><p class="faq-a">A. Yes, both corporations and sole proprietorships are eligible.</p></div>
 </div>
-<div class="cta-box"><h3>Get Your Women-Owned Business Certification</h3><p>YouSun Administrative Agency handles the full application process. Free initial consultation available.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Your Women-Owned Business Certification</h3><p>YouSun Administrative Agency handles the full application process.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'women-enterprise-certification-guide',
     locale: 'zh',
     title: '韩国女性企业认证申请指南2026 — 条件、优惠与流程',
     metaTitle: '韩国女性企业认证2026 — 申请条件与政府采购优惠',
-    metaDescription: '韩国女性企业认证申请资格、政府采购优惠、所需材料及申请流程详解。专业行政士提供免费初次咨询。本文依次说明申请资格、主要优惠、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '韩国女性企业认证申请资格、政府采购优惠、所需材料及申请流程详解。专业行政士提供初次咨询。本文依次说明申请资格、主要优惠、所需材料、申请流程，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '女性CEO如何申请韩国女性企业认证，享受政府采购优先、补贴及各类支持政策。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是女性企业认证？</li><li>申请资格</li><li>主要优惠</li><li>所需材料</li><li>申请流程</li><li>有效期与续期</li><li>常见问题</li></ol></div>
@@ -465,14 +465,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国女性CEO可以申请吗？</p><p class="faq-a">A. 可以，只要企业在韩国注册且满足其他所有资格条件即可。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 个体经营者也适用吗？</p><p class="faq-a">A. 适用，法人和个体经营者均可申请。</p></div>
 </div>
-<div class="cta-box"><h3>申请女性企业认证</h3><p>YouSun Administrative Agency提供全程申请代理服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>申请女性企业认证</h3><p>YouSun Administrative Agency提供全程申请代理服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'women-enterprise-certification-guide',
     locale: 'ja',
     title: '韓国女性企業認証申請ガイド2026 — 条件・優遇・手続き',
     metaTitle: '韓国女性企業認証2026 — 申請条件と政府調達優遇制度',
-    metaDescription: '韓国女性企業認証の申請資格、政府調達優遇制度、必要書類と申請手続きを詳しく解説。行政士による無料初回相談あり。申請資格・主なメリット・必要書類・申請手続きまで順に確認できます。',
+    metaDescription: '韓国女性企業認証の申請資格、政府調達優遇制度、必要書類と申請手続きを詳しく解説。行政士による初回相談あり。申請資格・主なメリット・必要書類・申請手続きまで順に確認できます。',
     category: '企業認証',
     excerpt: '女性CEOが韓国女性企業認証を取得し、政府調達優先権や補助金などの支援制度を活用する方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>女性企業認証とは？</li><li>申請資格</li><li>主なメリット</li><li>必要書類</li><li>申請手続き</li><li>有効期間と更新</li><li>よくある質問</li></ol></div>
@@ -492,7 +492,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国人女性CEOでも申請できますか？</p><p class="faq-a">A. はい。事業が韓国に登録されており、その他の要件を満たしていれば申請可能です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 個人事業主も対象ですか？</p><p class="faq-a">A. はい。法人・個人事業主ともに申請できます。</p></div>
 </div>
-<div class="cta-box"><h3>女性企業認証の取得をサポートします</h3><p>YouSun Administrative Agencyが申請手続きを全面サポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>女性企業認証の取得をサポートします</h3><p>YouSun Administrative Agencyが申請手続きを全面サポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 6: haccp-certification-guide ──────────────────────────────────────
@@ -501,7 +501,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'HACCP Certification in Korea — How to Apply in 2026',
     metaTitle: 'HACCP Certification Korea 2026 — Application Guide',
-    metaDescription: 'How to obtain HACCP certification for food businesses in Korea. Eligibility, required documents, inspection process. Free consultation.',
+    metaDescription: 'How to obtain HACCP certification for food businesses in Korea. Eligibility, required documents, inspection process.',
     category: 'Food',
     excerpt: 'Step-by-step guide to obtaining HACCP certification in Korea for food manufacturers — requirements, document checklist, audit process, and ongoing obligations.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is HACCP?</li><li>Which Businesses Need HACCP?</li><li>Key Requirements</li><li>Application Procedure</li><li>On-Site Audit</li><li>Post-Certification Obligations</li><li>FAQ</li></ol></div>
@@ -521,14 +521,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. How long does HACCP certification take?</p><p class="faq-a">A. Processing time varies by the competent authority and individual circumstances. Please confirm individually.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can foreign-invested food companies apply?</p><p class="faq-a">A. Yes, any food business legally operating in Korea may apply.</p></div>
 </div>
-<div class="cta-box"><h3>Get Expert Help with HACCP Certification</h3><p>YouSun Administrative Agency works with food safety consultants to guide your HACCP application from plan development to audit. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Expert Help with HACCP Certification</h3><p>YouSun Administrative Agency works with food safety consultants to guide your HACCP application from plan development to audit.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'haccp-certification-guide',
     locale: 'zh',
     title: '韩国HACCP认证申请指南2026 — 程序与要求',
     metaTitle: '韩国HACCP认证2026 — 申请流程与要求',
-    metaDescription: '韩国食品企业HACCP认证申请资格、材料、现场审核流程及认证后义务详解。专业行政士免费初次咨询。本文依次说明主要要求、申请流程、现场审核、认证后义务，可按步骤逐项确认。',
+    metaDescription: '韩国食品企业HACCP认证申请资格、材料、现场审核流程及认证后义务详解。专业行政士初次咨询。本文依次说明主要要求、申请流程、现场审核、认证后义务，可按步骤逐项确认。',
     category: '食品',
     excerpt: '韩国食品制造商HACCP认证申请全攻略 — 资格要求、材料清单、审核流程及持续义务。',
     content: `<div class="toc"><p>目录</p><ol><li>HACCP是什么？</li><li>哪些企业需要HACCP？</li><li>主要要求</li><li>申请流程</li><li>现场审核</li><li>认证后义务</li><li>常见问题</li></ol></div>
@@ -548,14 +548,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. HACCP认证需要多长时间？</p><p class="faq-a">A. 办理时间因主管机关及个别情况而异，需个别确认。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外资食品企业可以申请吗？</p><p class="faq-a">A. 可以，在韩国合法经营的任何食品企业均可申请。</p></div>
 </div>
-<div class="cta-box"><h3>HACCP认证专业协助</h3><p>YouSun Administrative Agency与食品安全顾问合作，从计划制定到审核全程陪同。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>HACCP认证专业协助</h3><p>YouSun Administrative Agency与食品安全顾问合作，从计划制定到审核全程陪同。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'haccp-certification-guide',
     locale: 'ja',
     title: '韓国HACCP認証申請ガイド2026 — 取得手続きと要件',
     metaTitle: '韓国HACCP認証2026 — 申請手続きと要件完全ガイド',
-    metaDescription: '韓国食品事業者向けHACCP認証の申請資格、書類、現地審査プロセスと認証後義務を詳しく解説。行政士による無料初回相談あり。主な要件・申請手続き・現地審査・認証後の義務まで順に確認できます。',
+    metaDescription: '韓国食品事業者向けHACCP認証の申請資格、書類、現地審査プロセスと認証後義務を詳しく解説。行政士による初回相談あり。主な要件・申請手続き・現地審査・認証後の義務まで順に確認できます。',
     category: '食品',
     excerpt: '韓国食品製造事業者のためのHACCP認証申請ガイド — 要件、必要書類、審査プロセスと継続的義務を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>HACCPとは？</li><li>どの事業者がHACCPを必要とするか？</li><li>主な要件</li><li>申請手続き</li><li>現地審査</li><li>認証後の義務</li><li>よくある質問</li></ol></div>
@@ -575,7 +575,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. HACCP認証取得にどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外資食品企業でも申請できますか？</p><p class="faq-a">A. はい。韓国で合法的に営業している食品事業者であれば申請できます。</p></div>
 </div>
-<div class="cta-box"><h3>HACCP認証取得をサポートします</h3><p>YouSun Administrative Agencyは食品安全コンサルタントと連携し、計画策定から審査まで一貫してサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>HACCP認証取得をサポートします</h3><p>YouSun Administrative Agencyは食品安全コンサルタントと連携し、計画策定から審査まで一貫してサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 7: venture-innobiz-certification-guide ─────────────────────────────
@@ -584,7 +584,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Venture vs Innobiz Certification in Korea — 2026 Comparison Guide',
     metaTitle: 'Korea Venture & Innobiz Certification 2026 — Benefits & How to Apply',
-    metaDescription: 'Compare Venture Business and Innobiz certifications in Korea. Tax benefits, eligibility, application process. Free consultation.',
+    metaDescription: 'Compare Venture Business and Innobiz certifications in Korea. Tax benefits, eligibility, application process.',
     category: 'Business Certification',
     excerpt: 'A side-by-side comparison of Venture Business and Innobiz certifications in Korea — eligibility, tax incentives, application requirements, and strategic advice.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview: Venture vs Innobiz</li><li>Venture Business Certification</li><li>Innobiz Certification</li><li>Key Tax Benefits</li><li>Application Procedure</li><li>Which Should You Choose?</li><li>FAQ</li></ol></div>
@@ -604,14 +604,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a company hold both certifications?</p><p class="faq-a">A. Yes. Many Korean SMEs maintain both Venture and Innobiz certifications simultaneously.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Do foreign-invested companies qualify?</p><p class="faq-a">A. Yes, if the company is registered as a Korean SME and meets the respective criteria.</p></div>
 </div>
-<div class="cta-box"><h3>Get Certified as a Venture or Innobiz Company</h3><p>YouSun Administrative Agency assists with eligibility assessment and full application filing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Certified as a Venture or Innobiz Company</h3><p>YouSun Administrative Agency assists with eligibility assessment and full application filing.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'venture-innobiz-certification-guide',
     locale: 'zh',
     title: '韩国风险企业与创新企业认证比较指南2026',
     metaTitle: '韩国风险企业·创新企业认证2026 — 优惠与申请流程',
-    metaDescription: '韩国风险企业认证与创新企业认证的区别、税收优惠、申请资格及申请流程比较。专业行政士免费初次咨询。本文依次说明概述：风险企业vs创新企业、风险企业认证、创新企业认证、主要税收优惠，可按步骤逐项确认。',
+    metaDescription: '韩国风险企业认证与创新企业认证的区别、税收优惠、申请资格及申请流程比较。专业行政士初次咨询。本文依次说明概述：风险企业vs创新企业、风险企业认证、创新企业认证、主要税收优惠，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国风险企业认证与创新企业（Innobiz）认证的申请资格、税收优惠及战略建议对比指南。',
     content: `<div class="toc"><p>目录</p><ol><li>概述：风险企业vs创新企业</li><li>风险企业认证</li><li>创新企业认证</li><li>主要税收优惠</li><li>申请流程</li><li>如何选择？</li><li>常见问题</li></ol></div>
@@ -631,14 +631,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 一家企业可以同时持有两种认证吗？</p><p class="faq-a">A. 可以，许多韩国中小企业同时维持风险企业和创新企业认证。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外资企业是否符合资格？</p><p class="faq-a">A. 符合，只要企业在韩国注册为中小企业并满足相应标准即可。</p></div>
 </div>
-<div class="cta-box"><h3>申请风险企业或创新企业认证</h3><p>YouSun Administrative Agency提供资格评估及全程申请代理服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>申请风险企业或创新企业认证</h3><p>YouSun Administrative Agency提供资格评估及全程申请代理服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'venture-innobiz-certification-guide',
     locale: 'ja',
     title: '韓国ベンチャー企業・イノビズ認証比較ガイド2026',
     metaTitle: '韓国ベンチャー・イノビズ認証2026 — 優遇制度と申請方法',
-    metaDescription: '韓国のベンチャー企業認証とイノビズ認証の違い、税制優遇、申請資格・手続きを比較解説。行政士による無料初回相談あり。ベンチャー企業認証・イノビズ認証・主な税制優遇・申請手続きまで順に確認できます。',
+    metaDescription: '韓国のベンチャー企業認証とイノビズ認証の違い、税制優遇、申請資格・手続きを比較解説。行政士による初回相談あり。ベンチャー企業認証・イノビズ認証・主な税制優遇・申請手続きまで順に確認できます。',
     category: '企業認証',
     excerpt: '韓国のベンチャー企業認証とイノビズ認証を徹底比較 — 申請資格、税制優遇、申請手続きと戦略的アドバイスを解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>概要：ベンチャー vs イノビズ</li><li>ベンチャー企業認証</li><li>イノビズ認証</li><li>主な税制優遇</li><li>申請手続き</li><li>どちらを選ぶべきか？</li><li>よくある質問</li></ol></div>
@@ -658,7 +658,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 両方の認証を同時に取得できますか？</p><p class="faq-a">A. はい。多くの韓国中小企業がベンチャーとイノビズの両認証を同時に保有しています。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外資系企業でも資格がありますか？</p><p class="faq-a">A. はい。韓国の中小企業として登録され、各要件を満たしていれば申請できます。</p></div>
 </div>
-<div class="cta-box"><h3>ベンチャー・イノビズ認証の取得をサポートします</h3><p>YouSun Administrative Agencyが資格評価から申請手続きまで全面サポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>ベンチャー・イノビズ認証の取得をサポートします</h3><p>YouSun Administrative Agencyが資格評価から申請手続きまで全面サポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 8: procurement-narajangteo-registration-guide ──────────────────────
@@ -667,7 +667,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Korea Government Procurement (Narajangteo) Supplier Registration — 2026 Guide',
     metaTitle: 'Korea Narajangteo Supplier Registration 2026 — Complete Guide',
-    metaDescription: 'How to register as a government procurement supplier on Korea’s Narajangteo platform. Eligibility, required documents. Free consultation.',
+    metaDescription: 'How to register as a government procurement supplier on Korea’s Narajangteo platform. Eligibility, required documents.',
     category: 'Government Procurement',
     excerpt: 'How SMEs can register as suppliers on Korea\'s Narajangteo government procurement platform and start participating in public tenders.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Narajangteo?</li><li>Who Can Register?</li><li>Benefits of Registration</li><li>Required Documents</li><li>Registration Procedure</li><li>After Registration: Participating in Bids</li><li>FAQ</li></ol></div>
@@ -687,14 +687,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can foreign companies without a Korean office register?</p><p class="faq-a">A. A Korean business registration is required. Foreign companies typically need to establish a branch or subsidiary first.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is there a registration fee?</p><p class="faq-a">A. No government registration fee, but a digital certificate has an annual cost (approx. KRW 100,000).</p></div>
 </div>
-<div class="cta-box"><h3>Start Selling to the Korean Government</h3><p>YouSun Administrative Agency handles Narajangteo registration and advises on bid strategy. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Start Selling to the Korean Government</h3><p>YouSun Administrative Agency handles Narajangteo registration and advises on bid strategy.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'procurement-narajangteo-registration-guide',
     locale: 'zh',
     title: '韩国政府采购（Narajangteo）供应商注册指南2026',
     metaTitle: '韩国Narajangteo供应商注册2026 — 完整申请指南',
-    metaDescription: '如何在韩国政府采购平台Narajangteo注册成为供应商。申请资格、所需材料及投标流程详解。专业行政士免费初次咨询。本文依次说明注册优惠、所需材料、注册流程、注册后：参与投标，可按步骤逐项确认。',
+    metaDescription: '如何在韩国政府采购平台Narajangteo注册成为供应商。申请资格、所需材料及投标流程详解。专业行政士初次咨询。本文依次说明注册优惠、所需材料、注册流程、注册后：参与投标，可按步骤逐项确认。',
     category: '政府采购',
     excerpt: '中小企业如何在韩国Narajangteo政府采购平台注册成为供应商并参与公开招标。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是Narajangteo？</li><li>哪些企业可以注册？</li><li>注册优惠</li><li>所需材料</li><li>注册流程</li><li>注册后：参与投标</li><li>常见问题</li></ol></div>
@@ -714,14 +714,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 没有韩国办事处的外国企业可以注册吗？</p><p class="faq-a">A. 需要持有韩国营业执照。外国企业通常需要先设立分支机构或子公司。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 注册是否需要缴费？</p><p class="faq-a">A. 无政府注册费，但数字证书每年需支付约10万韩元费用。</p></div>
 </div>
-<div class="cta-box"><h3>开始向韩国政府销售产品</h3><p>YouSun Administrative Agency负责Narajangteo注册及投标策略咨询。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>开始向韩国政府销售产品</h3><p>YouSun Administrative Agency负责Narajangteo注册及投标策略咨询。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'procurement-narajangteo-registration-guide',
     locale: 'ja',
     title: '韓国政府調達（ナラジャンテ）サプライヤー登録ガイド2026',
     metaTitle: '韓国ナラジャンテ サプライヤー登録2026 — 完全申請ガイド',
-    metaDescription: '韓国政府調達プラットフォーム「ナラジャンテ」にサプライヤーとして登録する方法。申請資格、必要書類、入札プロセスを詳しく解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国政府調達プラットフォーム「ナラジャンテ」にサプライヤーとして登録する方法。申請資格、必要書類、入札プロセスを詳しく解説。行政士による初回相談あり。',
     category: '政府調達',
     excerpt: '中小企業が韓国のナラジャンテ政府調達プラットフォームにサプライヤー登録し、公開入札に参加する方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>ナラジャンテとは？</li><li>登録できる企業は？</li><li>登録のメリット</li><li>必要書類</li><li>登録手続き</li><li>登録後：入札への参加</li><li>よくある質問</li></ol></div>
@@ -741,7 +741,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 韓国事務所のない外国企業でも登録できますか？</p><p class="faq-a">A. 韓国の事業者登録が必要です。外国企業は通常、まず支店または子会社を設立する必要があります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 登録費用はかかりますか？</p><p class="faq-a">A. 政府への登録費用はありませんが、電子証明書に年間約10万ウォンの費用がかかります。</p></div>
 </div>
-<div class="cta-box"><h3>韓国政府への販売を始めましょう</h3><p>YouSun Administrative Agencyがナラジャンテ登録と入札戦略のアドバイスを行います。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>韓国政府への販売を始めましょう</h3><p>YouSun Administrative Agencyがナラジャンテ登録と入札戦略のアドバイスを行います。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 9: urban-guesthouse-registration-guide ─────────────────────────────
@@ -750,7 +750,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Foreign Tourist Urban Guesthouse Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Urban Guesthouse (Airbnb) Registration 2026 — Full Guide',
-    metaDescription: 'How to legally register a foreign tourist urban guesthouse (도시민박) in Korea. Eligibility, required documents, fire safety. Free consultation.',
+    metaDescription: 'How to legally register a foreign tourist urban guesthouse (도시민박) in Korea. Eligibility, required documents, fire safety.',
     category: 'Accommodation',
     excerpt: 'A complete guide to registering a foreign tourist urban guesthouse in Korea — allowing you to legally host international tourists in residential properties like Airbnb.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is an Urban Guesthouse?</li><li>Eligibility Requirements</li><li>Facility and Safety Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Operating Rules</li><li>FAQ</li></ol></div>
@@ -770,14 +770,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can I use this registration to list on Airbnb?</p><p class="faq-a">A. Yes. Where you use an online platform for the business, the rate table must be posted there as well and the posted rates observed.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What happens if I host Korean guests?</p><p class="faq-a">A. This is a violation. You would need a different accommodation business license (일반숙박업).</p></div>
 </div>
-<div class="cta-box"><h3>Register Your Urban Guesthouse Legally</h3><p>YouSun Administrative Agency handles the full registration process including fire safety coordination. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your Urban Guesthouse Legally</h3><p>YouSun Administrative Agency handles the full registration process including fire safety coordination.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'urban-guesthouse-registration-guide',
     locale: 'zh',
     title: '韩国开宾馆所需资质 — 外国人城市民宿业登记条件·材料·流程',
     metaTitle: '韩国开宾馆所需资质（2026）— 城市民宿业登记条件·手续费·处理期限',
-    metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料、法定处理期限14天、登记手续费20,000韩元。专业行政士免费初次咨询。',
+    metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料、法定处理期限14天、登记手续费20,000韩元。专业行政士初次咨询。',
     category: '住宿/旅游',
     excerpt: '韩国外国人城市民宿业登记完整指南，让您合法在住宅物业中接待外国游客（类似Airbnb模式）。',
     content: `<p>韩国开宾馆（城市民宿业）所需资质：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，登记法定处理期限14天。</p>
@@ -839,14 +839,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 持此登记可以在Airbnb上发布房源吗？</p><p class="faq-a">A. 可以。在线上平台开展营业时，须在该平台页面同样公示价目表，并遵守所公示的价格。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 接待韩国国内游客会怎样？</p><p class="faq-a">A. 这属于违规行为，您需要申请不同的住宿经营许可证（一般住宿业）。</p></div>
 </div>
-<div class="cta-box"><h3>合法登记城市民宿</h3><p>YouSun Administrative Agency负责全程登记代理，包括消防安全协调。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>合法登记城市民宿</h3><p>YouSun Administrative Agency负责全程登记代理，包括消防安全协调。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'urban-guesthouse-registration-guide',
     locale: 'ja',
     title: '韓国外国人都市民泊業登録ガイド2026',
     metaTitle: '韓国都市民泊（Airbnb）合法登録2026 — 完全ガイド',
-    metaDescription: '韓国で外国人観光都市民泊業を合法的に登録する方法。申請資格、必要書類、消防安全要件と申請手続きを詳しく解説。韓国行政士による無料初回相談あり。',
+    metaDescription: '韓国で外国人観光都市民泊業を合法的に登録する方法。申請資格、必要書類、消防安全要件と申請手続きを詳しく解説。韓国行政士による初回相談あり。',
     category: '宿泊/観光',
     excerpt: '韓国の外国人観光都市民泊業登録完全ガイド — 住宅物件でAirbnbのように外国人観光客を合法的に受け入れる方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>都市民泊業とは？</li><li>申請資格</li><li>施設・安全要件</li><li>必要書類</li><li>申請手続き</li><li>運営ルール</li><li>よくある質問</li></ol></div>
@@ -866,7 +866,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. この登録でAirbnbに掲載できますか？</p><p class="faq-a">A. はい。オンラインのプラットフォームを営業に利用する場合は、その掲載ページにも料金表を掲示し、掲示した料金を守る必要があります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 韓国国内ゲストを受け入れるとどうなりますか？</p><p class="faq-a">A. 違反となります。別の宿泊業許可証（一般宿泊業）が必要です。</p></div>
 </div>
-<div class="cta-box"><h3>都市民泊業を合法的に登録しましょう</h3><p>YouSun Administrative Agencyは消防安全の調整を含む登録手続きを全面サポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>都市民泊業を合法的に登録しましょう</h3><p>YouSun Administrative Agencyは消防安全の調整を含む登録手続きを全面サポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 10: hostel-registration-guide ─────────────────────────────────────
@@ -875,7 +875,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Hostel Business Registration in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Hostel Registration 2026 — Tourism Business License Guide',
-    metaDescription: 'How to register a hostel business in Korea under the Tourism Promotion Act. Facility requirements, fire safety, required documents. Free consultation.',
+    metaDescription: 'How to register a hostel business in Korea under the Tourism Promotion Act. Facility requirements, fire safety, required documents.',
     category: 'Accommodation',
     excerpt: 'A complete guide to legally registering a hostel (게스트하우스) in Korea as a tourism business — covering requirements, fire safety, documents, and registration procedure.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Hostel vs Guesthouse in Korean Law</li><li>Eligibility</li><li>Facility Requirements</li><li>Fire Safety Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div>
@@ -895,14 +895,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can foreign investors register a hostel?</p><p class="faq-a">A. Yes. The business must be registered in Korea, but foreign ownership is permitted.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Do I need a separate license to sell alcohol at my hostel?</p><p class="faq-a">A. Yes, a liquor sales licence or report (주류판매업) is needed. Where it is reviewed by the registration review committee when the hostel is registered, it is deemed to have been obtained.</p></div>
 </div>
-<div class="cta-box"><h3>Register Your Hostel Business in Korea</h3><p>YouSun Administrative Agency coordinates building use, fire safety, and tourism registration. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your Hostel Business in Korea</h3><p>YouSun Administrative Agency coordinates building use, fire safety, and tourism registration.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'hostel-registration-guide',
     locale: 'zh',
     title: '韩国青年旅社业登记指南2026',
     metaTitle: '韩国青年旅社登记2026 — 旅游业营业执照指南',
-    metaDescription: '在韩国依据《旅游振兴法》登记青年旅社业的方法。设施要求、消防安全、所需材料及申请流程详解。专业行政士免费初次咨询。本文依次说明申请资格、设施要求、消防安全要求、所需材料，可按步骤逐项确认。',
+    metaDescription: '在韩国依据《旅游振兴法》登记青年旅社业的方法。设施要求、消防安全、所需材料及申请流程详解。专业行政士初次咨询。本文依次说明申请资格、设施要求、消防安全要求、所需材料，可按步骤逐项确认。',
     category: '住宿/旅游',
     excerpt: '韩国青年旅社（游客之家）合法登记完整指南，涵盖资格要求、消防安全、材料清单及登记程序。',
     content: `<div class="toc"><p>目录</p><ol><li>韩国法律中青年旅社与民宿的区别</li><li>申请资格</li><li>设施要求</li><li>消防安全要求</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div>
@@ -922,14 +922,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国投资者可以登记青年旅社吗？</p><p class="faq-a">A. 可以。企业必须在韩国注册，但允许外资持股。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 在青年旅社销售酒精需要单独许可吗？</p><p class="faq-a">A. 需要酒类销售业的许可或申报。登记时如经登记审议委员会审议，则视为已取得。</p></div>
 </div>
-<div class="cta-box"><h3>在韩国登记青年旅社业</h3><p>YouSun Administrative Agency协调建筑用途变更、消防安全及旅游登记全流程。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>在韩国登记青年旅社业</h3><p>YouSun Administrative Agency协调建筑用途变更、消防安全及旅游登记全流程。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'hostel-registration-guide',
     locale: 'ja',
     title: '韓国ホステル業登録ガイド2026',
     metaTitle: '韓国ホステル登録2026 — 観光業許可証完全ガイド',
-    metaDescription: '韓国で観光振興法に基づくホステル業の登録方法。施設要件、消防安全、必要書類と申請手続きを詳しく解説。行政士による無料初回相談あり。申請資格・施設要件・消防安全要件・必要書類まで順に確認できます。',
+    metaDescription: '韓国で観光振興法に基づくホステル業の登録方法。施設要件、消防安全、必要書類と申請手続きを詳しく解説。行政士による初回相談あり。申請資格・施設要件・消防安全要件・必要書類まで順に確認できます。',
     category: '宿泊/観光',
     excerpt: '韓国でゲストハウス（ホステル）を合法的に登録する完全ガイド — 要件、消防安全、必要書類と登録手続きを解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>韓国法における都市民泊とホステルの違い</li><li>申請資格</li><li>施設要件</li><li>消防安全要件</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div>
@@ -949,7 +949,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国人投資家でもホステルを登録できますか？</p><p class="faq-a">A. はい。事業は韓国に登録する必要がありますが、外国人の出資は認められています。</p></div>
 <div class="faq-item"><p class="faq-q">Q. ホステルでお酒を販売するには別途許可が必要ですか？</p><p class="faq-a">A. はい。酒類販売業の免許または届出が必要です。登録時に登録審議委員会の審議を経た場合は、受けたものとみなされます。</p></div>
 </div>
-<div class="cta-box"><h3>韓国でホステル業を登録しましょう</h3><p>YouSun Administrative Agencyが建物用途変更、消防安全、観光業登録を一貫してサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>韓国でホステル業を登録しましょう</h3><p>YouSun Administrative Agencyが建物用途変更、消防安全、観光業登録を一貫してサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 11: hanok-experience-registration-guide ────────────────────────────
@@ -958,7 +958,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Hanok Experience Business Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Hanok Experience Business Registration 2026 — Full Guide',
-    metaDescription: 'How to register a traditional Hanok experience stay business in Korea. Eligibility, required documents, and application process explained. Free consultation.',
+    metaDescription: 'How to register a traditional Hanok experience stay business in Korea. Eligibility, required documents, and application process explained.',
     category: 'Accommodation',
     excerpt: 'A complete guide to registering a Hanok (traditional Korean house) experience stay business in Korea — covering requirements, documents, and registration procedure.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Hanok Experience Business?</li><li>Eligibility Requirements</li><li>Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Operating Rules</li><li>FAQ</li></ol></div>
@@ -978,14 +978,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a newly built Hanok-style house qualify?</p><p class="faq-a">A. Yes, if it meets the hanok standards publicly notified by the Minister of Land, Infrastructure and Transport. Whether it does is checked as part of the registration review.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can foreign nationals own and operate a Hanok experience business?</p><p class="faq-a">A. Yes, subject to Korean property ownership and business registration rules.</p></div>
 </div>
-<div class="cta-box"><h3>Register Your Hanok Experience Business</h3><p>YouSun Administrative Agency guides Hanok owners through the registration process. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your Hanok Experience Business</h3><p>YouSun Administrative Agency guides Hanok owners through the registration process.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'hanok-experience-registration-guide',
     locale: 'zh',
     title: '韩国韩屋体验业登记指南2026',
     metaTitle: '韩国韩屋体验业登记2026 — 传统住宿业申请完整指南',
-    metaDescription: '在韩国登记韩屋体验住宿业的方法，包括申请资格、设施要求、所需材料及申请流程。专业行政士免费初次咨询。本文依次说明申请资格、设施要求、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '在韩国登记韩屋体验住宿业的方法，包括申请资格、设施要求、所需材料及申请流程。专业行政士初次咨询。本文依次说明申请资格、设施要求、所需材料、申请流程，可按步骤逐项确认。',
     category: '住宿/旅游',
     excerpt: '韩国韩屋（传统韩式建筑）体验住宿业登记完整指南，涵盖资格要求、材料清单及登记程序。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是韩屋体验业？</li><li>申请资格</li><li>设施要求</li><li>所需材料</li><li>申请流程</li><li>运营规则</li><li>常见问题</li></ol></div>
@@ -1005,14 +1005,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 新建的韩屋风格建筑可以申请吗？</p><p class="faq-a">A. 可以，只要符合国土交通部长官公告的韩屋标准。是否符合将在登记审核中确认。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外国人可以拥有并经营韩屋体验业吗？</p><p class="faq-a">A. 可以，需遵守韩国房产所有权及营业登记相关规定。</p></div>
 </div>
-<div class="cta-box"><h3>登记您的韩屋体验业</h3><p>YouSun Administrative Agency为韩屋业主提供全程登记指导。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>登记您的韩屋体验业</h3><p>YouSun Administrative Agency为韩屋业主提供全程登记指导。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'hanok-experience-registration-guide',
     locale: 'ja',
     title: '韓国韓屋体験業登録ガイド2026',
     metaTitle: '韓国韓屋体験業登録2026 — 伝統宿泊業申請完全ガイド',
-    metaDescription: '韓国で韓屋（伝統韓国家屋）体験宿泊業を登録する方法。申請資格、施設要件、必要書類と申請手続きを詳しく解説。行政士による無料初回相談あり。申請資格・施設要件・必要書類・申請手続きまで順に確認できます。',
+    metaDescription: '韓国で韓屋（伝統韓国家屋）体験宿泊業を登録する方法。申請資格、施設要件、必要書類と申請手続きを詳しく解説。行政士による初回相談あり。申請資格・施設要件・必要書類・申請手続きまで順に確認できます。',
     category: '宿泊/観光',
     excerpt: '韓国の韓屋（伝統韓国家屋）体験宿泊業登録完全ガイド — 要件、必要書類と登録手続きを解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>韓屋体験業とは？</li><li>申請資格</li><li>施設要件</li><li>必要書類</li><li>申請手続き</li><li>運営ルール</li><li>よくある質問</li></ol></div>
@@ -1032,7 +1032,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 新築の韓屋風建物でも申請できますか？</p><p class="faq-a">A. 国土交通部長官が告示した韓屋の基準に適合すれば可能です。適合するかどうかは登録審査で確認されます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外国人が韓屋体験業を所有・経営できますか？</p><p class="faq-a">A. はい。韓国の不動産所有ルールと事業登録規則に従う必要があります。</p></div>
 </div>
-<div class="cta-box"><h3>韓屋体験業の登録をサポートします</h3><p>YouSun Administrative Agencyが韓屋所有者の登録手続きをガイドします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>韓屋体験業の登録をサポートします</h3><p>YouSun Administrative Agencyが韓屋所有者の登録手続きをガイドします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 12: tobacco-import-sales-guide ────────────────────────────────────
@@ -1041,7 +1041,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Tobacco Import and Sales Registration in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Tobacco Import Registration 2026 — Requirements & Application',
-    metaDescription: 'Register a tobacco import and sales business in Korea with the Mayor or Do Governor: supply contract, disqualifications and duties. Free consultation.',
+    metaDescription: 'Register a tobacco import and sales business in Korea with the Mayor or Do Governor: supply contract, disqualifications and duties.',
     category: 'Logistics/Distribution',
     excerpt: 'A guide to tobacco import and sales business registration in Korea — filed with the Mayor or Do Governor of the head office location, with a supply contract with a foreign manufacturer as the key requirement.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Tobacco Import Registration</li><li>Eligibility Requirements</li><li>Capital and Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Obligations</li><li>FAQ</li></ol></div>
@@ -1062,14 +1062,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a foreign company import tobacco to Korea?</p><p class="faq-a">A. The Tobacco Business Act sets no nationality requirement; registration depends on the supply contract requirement and the disqualification grounds. Because registration is filed with the Mayor or Do Governor of the head office or principal office location, a business base in Korea is needed.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is e-cigarette liquid covered by this registration?</p><p class="faq-a">A. Yes, if it is made from nicotine. Tobacco is defined as a product made from tobacco or nicotine, so nicotine e-liquids and heated tobacco products are imported under the same tobacco import and sales registration. See our e-cigarette import guide.</p></div>
 </div>
-<div class="cta-box"><h3>Apply for Your Tobacco Import Registration</h3><p>YouSun Administrative Agency specializes in regulated business licensing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Apply for Your Tobacco Import Registration</h3><p>YouSun Administrative Agency specializes in regulated business licensing.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'tobacco-import-sales-guide',
     locale: 'zh',
     title: '韩国烟草进口销售业注册指南2026',
     metaTitle: '韩国烟草进口注册2026 — 申请条件与流程',
-    metaDescription: '在韩国从事烟草进口销售业，须向本店或主要事务所所在地管辖的市·道知事办理注册。注册要件为与外国烟草制造商签订供货合同，无资本金要求，另说明不予注册事由、所需材料及注册后义务。专业行政士免费初次咨询。',
+    metaDescription: '在韩国从事烟草进口销售业，须向本店或主要事务所所在地管辖的市·道知事办理注册。注册要件为与外国烟草制造商签订供货合同，无资本金要求，另说明不予注册事由、所需材料及注册后义务。专业行政士初次咨询。',
     category: '物流/流通',
     excerpt: '韩国烟草进口销售业注册完整指南：向本店所在地管辖的市·道知事注册，核心要件为与外国烟草制造商签订供货合同。',
     content: `<div class="toc"><p>目录</p><ol><li>烟草进口注册概述</li><li>申请资格</li><li>资本金与设施要求</li><li>所需材料</li><li>申请流程</li><li>注册后义务</li><li>常见问题</li></ol></div>
@@ -1090,14 +1090,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国企业可以向韩国进口烟草吗？</p><p class="faq-a">A. 《烟草事业法》没有国籍方面的要求，按供货合同要件和不予注册事由进行判断。由于须向本店或主要事务所所在地管辖的市·道知事注册，需要在韩国设有营业据点。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 电子烟液体是否包含在此注册范围内？</p><p class="faq-a">A. 以尼古丁为原料的产品包含在内。烟草的定义是以烟草或尼古丁为原料制造的产品，因此含尼古丁的电子烟液体和加热型烟草也适用同一烟草进口销售业注册。请参阅我们的电子烟进口指南。</p></div>
 </div>
-<div class="cta-box"><h3>申请烟草进口销售业注册</h3><p>YouSun Administrative Agency专注于受监管业务许可申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>申请烟草进口销售业注册</h3><p>YouSun Administrative Agency专注于受监管业务许可申请。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'tobacco-import-sales-guide',
     locale: 'ja',
     title: '韓国たばこ輸入販売業登録ガイド2026',
     metaTitle: '韓国たばこ輸入登録2026 — 要件と申請手続き',
-    metaDescription: '韓国でたばこ輸入販売業を営むには、本店または主たる事務所の所在地を管轄する市・道知事への登録が必要です。外国のたばこ製造業者との供給契約という登録要件、欠格事由、必要書類、登録後の義務を解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国でたばこ輸入販売業を営むには、本店または主たる事務所の所在地を管轄する市・道知事への登録が必要です。外国のたばこ製造業者との供給契約という登録要件、欠格事由、必要書類、登録後の義務を解説。行政士による初回相談あり。',
     category: '物流/流通',
     excerpt: '韓国のたばこ輸入販売業登録ガイド — 本店所在地を管轄する市・道知事に登録し、外国のたばこ製造業者との供給契約が主な要件です。',
     content: `<div class="toc"><p>目次</p><ol><li>たばこ輸入登録の概要</li><li>申請資格</li><li>資本金・施設要件</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div>
@@ -1118,7 +1118,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国企業が韓国へたばこを輸入できますか？</p><p class="faq-a">A. たばこ事業法には国籍に関する要件はなく、供給契約の要件と欠格事由で判断されます。本店または主たる事務所の所在地を管轄する市・道知事に登録するため、韓国内に事業拠点が必要です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 電子タバコ液体はこの登録の対象ですか？</p><p class="faq-a">A. ニコチンを原料とする製品は対象です。たばこはたばこ（煙草）またはニコチンを原料として製造したものと定義されているため、ニコチン入りリキッドや加熱式たばこも同じたばこ輸入販売業登録で輸入します。電子タバコ輸入ガイドをご参照ください。</p></div>
 </div>
-<div class="cta-box"><h3>たばこ輸入販売業登録をサポートします</h3><p>YouSun Administrative Agencyは規制業種の許可取得を専門としています。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>たばこ輸入販売業登録をサポートします</h3><p>YouSun Administrative Agencyは規制業種の許可取得を専門としています。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 13: nonprofit-corporation-establishment-guide ──────────────────────
@@ -1127,7 +1127,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Nonprofit Corporation Establishment in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Nonprofit Corporation Setup 2026 — Supervisory Ministry Approval Guide',
-    metaDescription: 'How to establish a nonprofit corporation (비영리사단법인) in Korea. Supervisory ministry approval, founding assembly. Free consultation.',
+    metaDescription: 'How to establish a nonprofit corporation (비영리사단법인) in Korea. Supervisory ministry approval, founding assembly.',
     category: 'Business Certification',
     excerpt: 'A step-by-step guide to establishing a nonprofit corporation in Korea — from supervisory ministry approval through founding assembly to court registration.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Nonprofit Corporation?</li><li>Types of Nonprofit Corporations</li><li>Eligibility and Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Timeline</li><li>FAQ</li></ol></div>
@@ -1147,14 +1147,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Which ministry do I apply to?</p><p class="faq-a">A. It depends on your nonprofit's purpose — education (Ministry of Education), welfare (MOHW), culture (MCST), etc.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can foreign nationals found a nonprofit in Korea?</p><p class="faq-a">A. Yes, subject to residency and other requirements.</p></div>
 </div>
-<div class="cta-box"><h3>Establish Your Nonprofit Corporation in Korea</h3><p>YouSun Administrative Agency prepares bylaws, handles ministry applications, and coordinates court registration. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Establish Your Nonprofit Corporation in Korea</h3><p>YouSun Administrative Agency prepares bylaws, handles ministry applications, and coordinates court registration.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'nonprofit-corporation-establishment-guide',
     locale: 'zh',
     title: '韩国非营利社团法人设立指南2026',
     metaTitle: '韩国非营利法人设立2026 — 主管机关许可申请完整指南',
-    metaDescription: '在韩国设立非营利社团法人的完整指南，包括主管机关许可、创立大会、法院登记等全部步骤。专业行政士免费初次咨询。本文依次说明非营利法人类型、资格与要求、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '在韩国设立非营利社团法人的完整指南，包括主管机关许可、创立大会、法院登记等全部步骤。专业行政士初次咨询。本文依次说明非营利法人类型、资格与要求、所需材料、申请流程，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国非营利社团法人设立分步指南 — 从主管机关许可到创立大会再到法院登记的全部流程。',
     content: `<div class="toc"><p>目录</p><ol><li>什么是非营利法人？</li><li>非营利法人类型</li><li>资格与要求</li><li>所需材料</li><li>申请流程</li><li>所需时间</li><li>常见问题</li></ol></div>
@@ -1174,14 +1174,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 应向哪个主管机关申请？</p><p class="faq-a">A. 取决于非营利目的 — 教育（教育部）、福利（保健福祉部）、文化（文化体育观光部）等。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外国人可以在韩国设立非营利法人吗？</p><p class="faq-a">A. 可以，需满足居住及其他相关要求。</p></div>
 </div>
-<div class="cta-box"><h3>在韩国设立非营利法人</h3><p>YouSun Administrative Agency负责章程起草、主管机关申请及法院登记协调。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>在韩国设立非营利法人</h3><p>YouSun Administrative Agency负责章程起草、主管机关申请及法院登记协调。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'nonprofit-corporation-establishment-guide',
     locale: 'ja',
     title: '韓国非営利社団法人設立ガイド2026',
     metaTitle: '韓国非営利法人設立2026 — 主務官庁許可申請完全ガイド',
-    metaDescription: '韓国で非営利社団法人を設立する方法。主務官庁許可、創立総会、裁判所登記まで全手順を詳しく解説。行政士による無料初回相談あり。非営利法人の種類・資格と要件・必要書類・申請手続きまで順に確認できます。',
+    metaDescription: '韓国で非営利社団法人を設立する方法。主務官庁許可、創立総会、裁判所登記まで全手順を詳しく解説。行政士による初回相談あり。非営利法人の種類・資格と要件・必要書類・申請手続きまで順に確認できます。',
     category: '企業認証',
     excerpt: '韓国の非営利社団法人設立ステップガイド — 主務官庁許可から創立総会、裁判所登記までの全工程を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>非営利法人とは？</li><li>非営利法人の種類</li><li>資格と要件</li><li>必要書類</li><li>申請手続き</li><li>所要期間</li><li>よくある質問</li></ol></div>
@@ -1201,7 +1201,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. どの主務官庁に申請しますか？</p><p class="faq-a">A. 非営利目的によります — 教育（教育部）、福祉（保健福祉部）、文化（文化体育観光部）など。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外国人が韓国で非営利法人を設立できますか？</p><p class="faq-a">A. はい。居住要件などを満たす必要があります。</p></div>
 </div>
-<div class="cta-box"><h3>韓国で非営利法人を設立しましょう</h3><p>YouSun Administrative Agencyが定款作成、主務官庁申請、裁判所登記を一貫してサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>韓国で非営利法人を設立しましょう</h3><p>YouSun Administrative Agencyが定款作成、主務官庁申請、裁判所登記を一貫してサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 14: corporate-research-lab-establishment-guide ────────────────────
@@ -1210,7 +1210,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Corporate Research Laboratory Establishment in Korea — 2026 Guide',
     metaTitle: 'Korea Corporate R&D Center Registration 2026 — Tax Benefits & Procedure',
-    metaDescription: 'How to establish a recognized corporate research laboratory in Korea. R&D tax credits, eligibility, required documents. Free consultation.',
+    metaDescription: 'How to establish a recognized corporate research laboratory in Korea. R&D tax credits, eligibility, required documents.',
     category: 'Business Certification',
     excerpt: 'How Korean and foreign companies can establish a recognized corporate research laboratory (기업부설연구소) to access R&D tax credits and government support.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why Establish a Corporate R&D Lab?</li><li>Eligibility</li><li>Research Personnel Requirements</li><li>Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Tax Benefits</li><li>FAQ</li></ol></div>
@@ -1232,14 +1232,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a startup with 2 employees establish an R&D lab?</p><p class="faq-a">A. A small enterprise within 3 years of founding needs at least 2 qualified full-time researchers for a lab, and venture companies or R&D-type SMEs founded by researchers also need 2. Otherwise, a startup can first be recognized as an R&D department, which needs only 1.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Do foreign-invested companies qualify?</p><p class="faq-a">A. Yes, if they are registered Korean SMEs or corporations.</p></div>
 </div>
-<div class="cta-box"><h3>Establish Your Corporate R&D Lab</h3><p>YouSun Administrative Agency prepares all documents for KOITA recognition. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Establish Your Corporate R&D Lab</h3><p>YouSun Administrative Agency prepares all documents for KOITA recognition.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'corporate-research-lab-establishment-guide',
     locale: 'zh',
     title: '韩国企业附属研究所设立认定指南2026',
     metaTitle: '韩国企业附属研究所设立2026 — 税收优惠与认定流程',
-    metaDescription: '在韩国设立获认定企业附属研究所的方法，包括研究人员要求、设施标准、KOITA认定流程及税收优惠。专业行政士免费初次咨询。本文依次说明申请资格、研究人员要求、设施要求、所需材料，可按步骤逐项确认。',
+    metaDescription: '在韩国设立获认定企业附属研究所的方法，包括研究人员要求、设施标准、KOITA认定流程及税收优惠。专业行政士初次咨询。本文依次说明申请资格、研究人员要求、设施要求、所需材料，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国及外资企业如何设立获认定的企业附属研究所，以享受研究开发税收抵免及政府支持。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么设立企业附属研究所？</li><li>申请资格</li><li>研究人员要求</li><li>设施要求</li><li>所需材料</li><li>申请流程</li><li>税收优惠</li><li>常见问题</li></ol></div>
@@ -1261,14 +1261,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 只有2名员工的初创公司可以设立研发实验室吗？</p><p class="faq-a">A. 创业未满3年的小企业设立研究所需至少2名合格专职研究人员，研究人员创办的研发型中小企业或风险企业同样需要2名。否则可先认定为只需1名的研发专职部门。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外资企业是否符合资格？</p><p class="faq-a">A. 符合，只要是在韩国注册的中小企业或法人即可。</p></div>
 </div>
-<div class="cta-box"><h3>设立企业附属研究所</h3><p>YouSun Administrative Agency为KOITA认定准备全部材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>设立企业附属研究所</h3><p>YouSun Administrative Agency为KOITA认定准备全部材料。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'corporate-research-lab-establishment-guide',
     locale: 'ja',
     title: '韓国企業付設研究所設立認定ガイド2026',
     metaTitle: '韓国企業付設研究所設立2026 — 税制優遇と認定手続き',
-    metaDescription: '韓国で認定を受けた企業付設研究所を設立する方法。研究者要件、施設基準、KOITA認定手続きと税額控除を詳しく解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国で認定を受けた企業付設研究所を設立する方法。研究者要件、施設基準、KOITA認定手続きと税額控除を詳しく解説。行政士による初回相談あり。',
     category: '企業認証',
     excerpt: '韓国・外資系企業が認定企業付設研究所を設立し、研究開発税額控除と政府支援を受ける方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜ企業付設研究所を設立するのか？</li><li>申請資格</li><li>研究者要件</li><li>施設要件</li><li>必要書類</li><li>申請手続き</li><li>税制優遇</li><li>よくある質問</li></ol></div>
@@ -1290,7 +1290,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 社員2名のスタートアップでも研究所を設立できますか？</p><p class="faq-a">A. 創業3年未満の小企業は資格を満たす研究専担要員2名以上で研究所の認定を受けられ、研究員が創業した研究開発型中小企業やベンチャー企業も2名以上です。それ以外は、1名から認定される研究開発専担部署から始めることができます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 外資系企業でも資格がありますか？</p><p class="faq-a">A. はい。韓国に登録された中小企業または法人であれば可能です。</p></div>
 </div>
-<div class="cta-box"><h3>企業付設研究所の設立をサポートします</h3><p>YouSun Administrative AgencyがKOITA認定に必要な書類をすべて準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>企業付設研究所の設立をサポートします</h3><p>YouSun Administrative AgencyがKOITA認定に必要な書類をすべて準備します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 15: e-cigarette-import-license-guide ──────────────────────────────
@@ -1299,14 +1299,14 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'E-Cigarette Import Registration in Korea — 2026 Complete Guide',
     metaTitle: 'Korea E-Cigarette Import Registration 2026 — Liquid & Heated Tobacco',
-    metaDescription: 'Import e-cigarettes into Korea: tobacco import and sales registration with the Mayor or Do Governor, required documents and duties. Free consultation.',
+    metaDescription: 'Import e-cigarettes into Korea: tobacco import and sales registration with the Mayor or Do Governor, required documents and duties.',
     category: 'Logistics/Distribution',
     excerpt: 'A guide to importing e-cigarettes into Korea — nicotine liquids and heated tobacco products require tobacco import and sales registration with the competent Mayor or Do Governor.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>E-Cigarette Regulation Overview</li><li>Types of E-Cigarettes and Their Rules</li><li>Eligibility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Obligations</li><li>FAQ</li></ol></div>
 <h2>1. E-Cigarette Regulation Overview</h2>
 <p>E-cigarettes are regulated under the <strong>Tobacco Business Act</strong> in Korea, which defines tobacco as a product manufactured from tobacco or nicotine, in whole or in part, in a form suitable for smoking, sucking, inhaling as vapor, chewing or sniffing (medicines and quasi-drugs under the Pharmaceutical Affairs Act are excluded). Importing nicotine e-cigarettes — liquid nicotine (전자담배 액상형) or heated tobacco products (궐련형 전자담배) — therefore requires <strong>tobacco import and sales business registration</strong> with the Mayor or Do Governor of the head office or principal office location. A license from the Minister of Economy and Finance applies only to tobacco manufacturing.</p>
 <h2>2. Types of E-Cigarettes and Their Rules</h2>
-<ul><li><strong>Liquid nicotine products:</strong> Tobacco under the Act — tobacco import and sales registration; the nicotine solution volume must be shown on containers and packaging</li><li><strong>Heated tobacco products (HTP):</strong> Tobacco under the Act — the same tobacco import and sales registration</li><li><strong>Nicotine-free e-liquids:</strong> Not tobacco under the Tobacco Business Act if made without tobacco or nicotine; other rules may apply depending on the ingredients</li><li><strong>Devices only:</strong> Not tobacco by themselves; separate electrical product safety certification may apply</li></ul>
+<ul><li><strong>Liquid nicotine products:</strong> Tobacco under the Act — tobacco import and sales registration; the nicotine solution volume must be shown on containers and packaging</li><li><strong>Heated tobacco products (HTP):</strong> Tobacco under the Act — the same tobacco import and sales registration</li><li><strong>Zero-nicotine e-liquids:</strong> Not tobacco under the Tobacco Business Act if made without tobacco or nicotine; other rules may apply depending on the ingredients</li><li><strong>Devices only:</strong> Not tobacco by themselves; separate electrical product safety certification may apply</li></ul>
 <h2>3. Eligibility Requirements</h2>
 <ul><li>A tobacco supply contract with a foreign tobacco manufacturer</li><li>No disqualification grounds under the Tobacco Business Act (for corporations, including the representative)</li><li>No minimum capital or warehouse requirement</li><li>Both corporations and individual business owners may register</li></ul>
 <h2>4. Required Documents</h2>
@@ -1319,14 +1319,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a foreign brand enter the Korean e-cigarette market?</p><p class="faq-a">A. Yes, through a Korean importer that has completed tobacco import and sales registration, or by registering its own business in Korea with the competent Mayor or Do Governor.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Are disposable e-cigarettes regulated the same way?</p><p class="faq-a">A. Yes. Products made from nicotine fall under the Tobacco Business Act. For disposable products combining a device and nicotine solution, the nicotine solution volume must be shown on the device itself.</p></div>
 </div>
-<div class="cta-box"><h3>Get Your E-Cigarette Import Registration</h3><p>YouSun Administrative Agency specializes in regulated import licensing. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Your E-Cigarette Import Registration</h3><p>YouSun Administrative Agency specializes in regulated import licensing.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'e-cigarette-import-license-guide',
     locale: 'zh',
     title: '韩国电子烟进口注册指南2026 — 液态型与加热型烟草',
     metaTitle: '韩国电子烟进口注册2026 — 液态烟与加热烟草完整指南',
-    metaDescription: '在韩国进口电子烟（液态尼古丁及加热型烟草），须向本店所在地管辖的市·道知事办理烟草进口销售业注册。说明注册要件、所需材料及注册后义务。专业行政士免费初次咨询。',
+    metaDescription: '在韩国进口电子烟（液态尼古丁及加热型烟草），须向本店所在地管辖的市·道知事办理烟草进口销售业注册。说明注册要件、所需材料及注册后义务。专业行政士初次咨询。',
     category: '物流/流通',
     excerpt: '韩国电子烟进口指南：含尼古丁的电子烟液体和加热型烟草产品，须向管辖的市·道知事办理烟草进口销售业注册。',
     content: `<div class="toc"><p>目录</p><ol><li>电子烟监管概述</li><li>电子烟类型及相关规定</li><li>申请资格</li><li>所需材料</li><li>申请流程</li><li>注册后义务</li><li>常见问题</li></ol></div>
@@ -1346,14 +1346,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国品牌可以进入韩国电子烟市场吗？</p><p class="faq-a">A. 可以，通过已办理烟草进口销售业注册的韩国进口商，或在韩国设立营业据点并向管辖的市·道知事办理注册。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 一次性电子烟受同样监管吗？</p><p class="faq-a">A. 是的，以尼古丁为原料的产品均受《烟草事业法》约束。电子烟设备与尼古丁溶液结合的一次性产品，须在该设备上标示尼古丁溶液容量。</p></div>
 </div>
-<div class="cta-box"><h3>申请电子烟进口注册</h3><p>YouSun Administrative Agency专注于受监管进口许可申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>申请电子烟进口注册</h3><p>YouSun Administrative Agency专注于受监管进口许可申请。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'e-cigarette-import-license-guide',
     locale: 'ja',
     title: '韓国電子タバコ輸入登録ガイド2026 — 液体型・加熱型タバコ',
     metaTitle: '韓国電子タバコ輸入登録2026 — 液体型・加熱型タバコ完全ガイド',
-    metaDescription: '韓国で電子タバコ（液体ニコチン・加熱型タバコ製品）を輸入するには、本店所在地を管轄する市・道知事へのたばこ輸入販売業登録が必要です。登録要件、必要書類、登録後の義務を詳しく解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国で電子タバコ（液体ニコチン・加熱型タバコ製品）を輸入するには、本店所在地を管轄する市・道知事へのたばこ輸入販売業登録が必要です。登録要件、必要書類、登録後の義務を詳しく解説。行政士による初回相談あり。',
     category: '物流/流通',
     excerpt: '韓国の電子タバコ輸入ガイド — ニコチンを原料とする液体型・加熱型タバコ製品は、管轄の市・道知事へのたばこ輸入販売業登録が必要です。',
     content: `<div class="toc"><p>目次</p><ol><li>電子タバコ規制の概要</li><li>電子タバコの種類と規制</li><li>申請資格</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div>
@@ -1373,7 +1373,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国ブランドが韓国の電子タバコ市場に参入できますか？</p><p class="faq-a">A. はい。たばこ輸入販売業登録を済ませた韓国の輸入業者を通じて、または韓国内に事業拠点を設けて管轄の市・道知事に登録することで可能です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 使い捨て電子タバコも同様に規制されますか？</p><p class="faq-a">A. はい。ニコチンを原料とする製品はすべてたばこ事業法の対象です。デバイスとニコチン溶液が一体となった使い捨て製品は、そのデバイスにニコチン溶液の容量を表示する必要があります。</p></div>
 </div>
-<div class="cta-box"><h3>電子タバコ輸入登録をサポートします</h3><p>YouSun Administrative Agencyは規制業種の輸入許可取得を専門としています。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>電子タバコ輸入登録をサポートします</h3><p>YouSun Administrative Agencyは規制業種の輸入許可取得を専門としています。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 16: international-logistics-capital-funding-guide ──────────────────
@@ -1382,7 +1382,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'How to Meet the KRW 300M Capital Requirement for Freight Forwarding Registration — 2026',
     metaTitle: 'Freight Forwarding KRW 300M Capital Requirement Korea 2026 — Practical Guide',
-    metaDescription: 'How to meet and prove the KRW 300 million capital requirement for international freight forwarding registration in Korea. Free consultation.',
+    metaDescription: 'How to meet and prove the KRW 300 million capital requirement for international freight forwarding registration in Korea.',
     category: 'Logistics',
     excerpt: 'Practical guidance on meeting and documenting the KRW 300M capital requirement for international freight forwarding registration in Korea, including surety bond strategies.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why KRW 300M?</li><li>What Counts as Capital?</li><li>Proving Capital: The Bank Balance Certificate</li><li>Surety Bond Requirements</li><li>Common Mistakes</li><li>Strategies for Capital Preparation</li><li>FAQ</li></ol></div>
@@ -1402,14 +1402,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can I use a loan to meet the KRW 300M requirement?</p><p class="faq-a">A. No. The requirement is for paid-in capital, not total assets or cash balance from a loan. Bank balance from a loan will be scrutinized.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Must the KRW 300M remain in the account after registration?</p><p class="faq-a">A. No. It only needs to be demonstrated at the time of application. Post-registration, it can be used as operating capital.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with Capital Documentation?</h3><p>YouSun Administrative Agency advises on capital structure and prepares all required financial documentation. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with Capital Documentation?</h3><p>YouSun Administrative Agency advises on capital structure and prepares all required financial documentation.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'international-logistics-capital-funding-guide',
     locale: 'zh',
     title: '韩国国际货运代理业3亿韩元资本金准备实务指南2026',
     metaTitle: '货运代理3亿资本金要求韩国2026 — 余额证明·保证保险实务',
-    metaDescription: '如何满足并证明韩国国际货运代理业登记所需3亿韩元资本金要求。银行余额证明、保证保险技巧实务指南。专业行政士免费初次咨询。本文依次说明证明资本金：银行余额证明、保证保险要求、常见错误、资本金筹备策略，可按步骤逐项确认。',
+    metaDescription: '如何满足并证明韩国国际货运代理业登记所需3亿韩元资本金要求。银行余额证明、保证保险技巧实务指南。专业行政士初次咨询。本文依次说明证明资本金：银行余额证明、保证保险要求、常见错误、资本金筹备策略，可按步骤逐项确认。',
     category: '物流',
     excerpt: '韩国国际货运代理业登记3亿韩元资本金要求的满足与证明实务指南，含保证保险策略。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么需要3亿韩元？</li><li>哪些算作资本金？</li><li>证明资本金：银行余额证明</li><li>保证保险要求</li><li>常见错误</li><li>资本金筹备策略</li><li>常见问题</li></ol></div>
@@ -1429,14 +1429,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 可以用贷款满足3亿韩元要求吗？</p><p class="faq-a">A. 不可以。要求的是实缴资本金，不是总资产或来自贷款的现金余额。贷款来源的银行余额将受到审查。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 登记后3亿韩元必须一直保留在账户中吗？</p><p class="faq-a">A. 不需要。只需在申请时证明即可。登记后可作为运营资金使用。</p></div>
 </div>
-<div class="cta-box"><h3>需要资本金文件准备协助？</h3><p>YouSun Administrative Agency提供资本结构建议及全部财务文件准备服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>需要资本金文件准备协助？</h3><p>YouSun Administrative Agency提供资本结构建议及全部财务文件准备服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'international-logistics-capital-funding-guide',
     locale: 'ja',
     title: '韓国国際物流主旋業3億ウォン資本金準備実務ガイド2026',
     metaTitle: '物流主旋業3億資本金要件韓国2026 — 残高証明・保証保険実務',
-    metaDescription: '韓国国際物流主旋業登録に必要な3億ウォン資本金要件の満たし方と証明方法。銀行残高証明書、保証保険のポイントを実務的に解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国国際物流主旋業登録に必要な3億ウォン資本金要件の満たし方と証明方法。銀行残高証明書、保証保険のポイントを実務的に解説。行政士による初回相談あり。',
     category: '物流',
     excerpt: '韓国国際物流主旋業登録の3億ウォン資本金要件を満たし証明するための実務ガイド。保証保険戦略も含めて解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜ3億ウォンか？</li><li>何が資本金としてカウントされるか？</li><li>資本金の証明：銀行残高証明書</li><li>保証保険の要件</li><li>よくある間違い</li><li>資本金準備の戦略</li><li>よくある質問</li></ol></div>
@@ -1456,7 +1456,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 借入金で3億ウォンの要件を満たせますか？</p><p class="faq-a">A. いいえ。要件は払込資本金であり、借入金による現金残高ではありません。借入金由来の残高は審査されます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 登録後も3億ウォンを口座に維持する必要がありますか？</p><p class="faq-a">A. いいえ。申請時に証明すれば十分です。登録後は運転資金として使用できます。</p></div>
 </div>
-<div class="cta-box"><h3>資本金書類の準備をサポートします</h3><p>YouSun Administrative Agencyが資本構成のアドバイスと必要な財務書類の準備を行います。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>資本金書類の準備をサポートします</h3><p>YouSun Administrative Agencyが資本構成のアドバイスと必要な財務書類の準備を行います。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 17: urban-guesthouse-airbnb-operation-guide ───────────────────────
@@ -1465,7 +1465,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Operating an Airbnb Urban Guesthouse in Korea — Legal Compliance Guide 2026',
     metaTitle: 'Airbnb Urban Guesthouse Operation Korea 2026 — Legal & Tax Guide',
-    metaDescription: 'How to legally operate an Airbnb-style urban guesthouse in Korea after registration. Foreign guest reporting, tax obligations. Free consultation.',
+    metaDescription: 'How to legally operate an Airbnb-style urban guesthouse in Korea after registration. Foreign guest reporting, tax obligations.',
     category: 'Accommodation',
     excerpt: 'A practical guide to operating a registered urban guesthouse in Korea on Airbnb — covering guest reporting, tax obligations, platform compliance, and common violations to avoid.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>After Registration: Operating Legally</li><li>Foreign Guest Reporting Obligation</li><li>Airbnb Platform Compliance</li><li>Tax Obligations</li><li>Common Violations and Penalties</li><li>Scaling Up: Multiple Properties</li><li>FAQ</li></ol></div>
@@ -1485,14 +1485,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can I have a property manager run my Airbnb while I'm abroad?</p><p class="faq-a">A. The owner-occupancy requirement means you must reside at the property. Property management arrangements may violate this requirement — consult a specialist.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How does Airbnb handle taxes in Korea?</p><p class="faq-a">A. How platform fees and host income are taxed should be confirmed with a tax professional.</p></div>
 </div>
-<div class="cta-box"><h3>Get Expert Guidance on Guesthouse Operations</h3><p>YouSun Administrative Agency advises on compliance and reporting procedures. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Expert Guidance on Guesthouse Operations</h3><p>YouSun Administrative Agency advises on compliance and reporting procedures.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'urban-guesthouse-airbnb-operation-guide',
     locale: 'zh',
     title: '韩国Airbnb城市民宿合法运营指南2026 — 申报·税务·合规',
     metaTitle: 'Airbnb城市民宿运营韩国2026 — 法律合规与税务指南',
-    metaDescription: '韩国城市民宿登记后如何合法运营Airbnb。外国客人申报、税务义务、平台合规及常见违规处罚详解。专业行政士免费初次咨询。本文依次说明登记后：合法运营、外国客人申报义务、Airbnb平台合规、税务义务，可按步骤逐项确认。',
+    metaDescription: '韩国城市民宿登记后如何合法运营Airbnb。外国客人申报、税务义务、平台合规及常见违规处罚详解。专业行政士初次咨询。本文依次说明登记后：合法运营、外国客人申报义务、Airbnb平台合规、税务义务，可按步骤逐项确认。',
     category: '住宿/旅游',
     excerpt: '在韩国Airbnb上合法运营已登记城市民宿的实务指南，涵盖客人申报、税务义务、平台合规及常见违规处罚。',
     content: `<div class="toc"><p>目录</p><ol><li>登记后：合法运营</li><li>外国客人申报义务</li><li>Airbnb平台合规</li><li>税务义务</li><li>常见违规及处罚</li><li>规模扩张：多套房产</li><li>常见问题</li></ol></div>
@@ -1512,14 +1512,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 我在国外时可以委托房产管理公司代运营Airbnb吗？</p><p class="faq-a">A. 业主自住要求意味着您必须居住在该房产。委托房产管理可能违反此要求，请咨询专业人士。</p></div>
 <div class="faq-item"><p class="faq-q">Q. Airbnb在韩国如何处理税务？</p><p class="faq-a">A. 平台服务费与房东收入如何课税，请向税务师等税务专业人士确认。</p></div>
 </div>
-<div class="cta-box"><h3>获取民宿运营专业指导</h3><p>YouSun Administrative Agency提供合规咨询及申报程序建议。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>获取民宿运营专业指导</h3><p>YouSun Administrative Agency提供合规咨询及申报程序建议。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'urban-guesthouse-airbnb-operation-guide',
     locale: 'ja',
     title: '韓国AirbnbでのUrban民泊合法運営ガイド2026 — 申告・税務・コンプライアンス',
     metaTitle: 'Airbnb都市民泊運営韓国2026 — 法令遵守と税務ガイド',
-    metaDescription: '韓国で登録済み都市民泊業をAirbnbで合法的に運営する方法。外国人ゲストの申告義務、税務義務、プラットフォームコンプライアンスと違反事例を解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国で登録済み都市民泊業をAirbnbで合法的に運営する方法。外国人ゲストの申告義務、税務義務、プラットフォームコンプライアンスと違反事例を解説。行政士による初回相談あり。',
     category: '宿泊/観光',
     excerpt: '韓国でAirbnb型の登録済み都市民泊業を運営するための実務ガイド — ゲスト申告、税務義務、プラットフォームコンプライアンスと違反注意点を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>登録後：合法的な運営</li><li>外国人ゲスト申告義務</li><li>Airbnbプラットフォームのコンプライアンス</li><li>税務義務</li><li>よくある違反と罰則</li><li>規模拡大：複数物件</li><li>よくある質問</li></ol></div>
@@ -1539,7 +1539,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 海外にいる間、代行管理会社にAirbnbを運営させられますか？</p><p class="faq-a">A. 所有者居住要件があるため、物件に居住する必要があります。管理委託はこの要件に違反する可能性があります — 専門家にご相談ください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. AirbnbはKoreaでどのように税務を処理しますか？</p><p class="faq-a">A. プラットフォーム手数料とホストの収入の課税関係は、税理士など税務の専門家にご確認ください。</p></div>
 </div>
-<div class="cta-box"><h3>民泊運営の専門的なアドバイスを受けましょう</h3><p>YouSun Administrative Agencyがコンプライアンスや申告手続きをサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>民泊運営の専門的なアドバイスを受けましょう</h3><p>YouSun Administrative Agencyがコンプライアンスや申告手続きをサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 18–22: remaining content (shorter format for efficiency) ────────────
@@ -1548,7 +1548,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Nonprofit Corporation Bylaws & Ministry Approval in Korea — 2026 Guide',
     metaTitle: 'Korea Nonprofit Bylaws & Ministry Approval 2026 — Rejection Avoidance Tips',
-    metaDescription: 'How to draft compliant nonprofit corporation bylaws and pass supervisory ministry approval in Korea. Free consultation.',
+    metaDescription: 'How to draft compliant nonprofit corporation bylaws and pass supervisory ministry approval in Korea.',
     category: 'Business Certification',
     excerpt: 'Expert guidance on drafting nonprofit bylaws and navigating the supervisory ministry approval process in Korea — the most common rejection reasons and how to avoid them.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why Bylaws Matter</li><li>Mandatory Bylaw Contents</li><li>Common Rejection Reasons</li><li>Ministry Review Process</li><li>Tips for First-Pass Approval</li><li>FAQ</li></ol></div>
@@ -1566,14 +1566,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can bylaws be amended after registration?</p><p class="faq-a">A. Yes, but amendments require ministry approval before taking effect.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How many founding members are required?</p><p class="faq-a">A. The Civil Code does not specify a minimum, but most ministries expect at least 10 founding members for associations.</p></div>
 </div>
-<div class="cta-box"><h3>Get Your Bylaws Right the First Time</h3><p>YouSun Administrative Agency drafts compliant bylaws and manages ministry submissions. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Your Bylaws Right the First Time</h3><p>YouSun Administrative Agency drafts compliant bylaws and manages ministry submissions.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'nonprofit-corporation-articles-and-approval-guide',
     locale: 'zh',
     title: '韩国非营利社团法人章程起草与主管机关审批指南2026',
     metaTitle: '韩国非营利法人章程与主管机关审批2026 — 避免被驳回的技巧',
-    metaDescription: '如何起草符合规定的非营利法人章程并通过韩国主管机关审批。常见被驳回原因及专家建议。专业行政士免费初次咨询。本文依次说明为什么章程至关重要、章程必备内容、常见被驳回原因、主管机关审查流程，可按步骤逐项确认。',
+    metaDescription: '如何起草符合规定的非营利法人章程并通过韩国主管机关审批。常见被驳回原因及专家建议。专业行政士初次咨询。本文依次说明为什么章程至关重要、章程必备内容、常见被驳回原因、主管机关审查流程，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国非营利法人章程起草及主管机关审批流程专家指南，包括最常见的被驳回原因及应对策略。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么章程至关重要</li><li>章程必备内容</li><li>常见被驳回原因</li><li>主管机关审查流程</li><li>首次获批技巧</li><li>常见问题</li></ol></div>
@@ -1591,14 +1591,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 登记后可以修改章程吗？</p><p class="faq-a">A. 可以，但修改须经主管机关批准后方可生效。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 需要多少创始成员？</p><p class="faq-a">A. 《民法》未规定最低人数，但大多数主管机关期望社团法人至少有10名创始成员。</p></div>
 </div>
-<div class="cta-box"><h3>一次通过章程审批</h3><p>YouSun Administrative Agency起草符合规定的章程并管理主管机关申请流程。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>一次通过章程审批</h3><p>YouSun Administrative Agency起草符合规定的章程并管理主管机关申请流程。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'nonprofit-corporation-articles-and-approval-guide',
     locale: 'ja',
     title: '韓国非営利社団法人定款作成と主務官庁認可ガイド2026',
     metaTitle: '韓国非営利法人定款・主務官庁認可2026 — 却下回避のコツ',
-    metaDescription: '韓国で適法な非営利法人定款を作成し主務官庁認可を通過する方法。よくある却下理由と専門家のアドバイス。行政士による無料初回相談あり。なぜ定款が重要か・定款の必須記載事項・主務官庁の審査プロセス・一発合格のためのコツまで順に確認できます。',
+    metaDescription: '韓国で適法な非営利法人定款を作成し主務官庁認可を通過する方法。よくある却下理由と専門家のアドバイス。行政士による初回相談あり。なぜ定款が重要か・定款の必須記載事項・主務官庁の審査プロセス・一発合格のためのコツまで順に確認できます。',
     category: '企業認証',
     excerpt: '韓国非営利法人の定款作成と主務官庁認可プロセスの専門ガイド — よくある却下理由と回避策を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜ定款が重要か</li><li>定款の必須記載事項</li><li>よくある却下理由</li><li>主務官庁の審査プロセス</li><li>一発合格のためのコツ</li><li>よくある質問</li></ol></div>
@@ -1616,7 +1616,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 登記後に定款を改正できますか？</p><p class="faq-a">A. はい。ただし改正は効力発生前に主務官庁の承認が必要です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 設立者は何名必要ですか？</p><p class="faq-a">A. 民法に最低人数の規定はありませんが、ほとんどの主務官庁は社団法人に少なくとも10名の設立者を期待します。</p></div>
 </div>
-<div class="cta-box"><h3>定款を最初から正確に作成しましょう</h3><p>YouSun Administrative Agencyが適法な定款を作成し、主務官庁への申請を管理します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>定款を最初から正確に作成しましょう</h3><p>YouSun Administrative Agencyが適法な定款を作成し、主務官庁への申請を管理します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 19: women-enterprise-renewal-management-guide ──────────────────────
@@ -1625,7 +1625,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Women-Owned Business Certification Renewal in Korea — 2026 Guide',
     metaTitle: 'Korea Women-Owned Business Certification Renewal 2026 — 3-Year Cycle',
-    metaDescription: 'How to renew Women-Owned Business Certification in Korea before the 3-year expiry. Free consultation.',
+    metaDescription: 'How to renew Women-Owned Business Certification in Korea before the 3-year expiry.',
     category: 'Business Certification',
     excerpt: 'A guide to renewing Women-Owned Business Certification in Korea — the renewal process, common rejection reasons, and how to maintain continuous government procurement benefits.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why Timely Renewal Matters</li><li>Renewal Eligibility Check</li><li>Changes That May Affect Eligibility</li><li>Renewal Procedure</li><li>Common Rejection Reasons at Renewal</li><li>Maintaining Procurement Preferences</li><li>FAQ</li></ol></div>
@@ -1645,14 +1645,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can I renew if there was a brief period where the female shareholder was below 30%?</p><p class="faq-a">A. Eligibility is assessed at the time of renewal application. A past lapse may not automatically disqualify you, but consult a specialist.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is the renewal process different from the initial application?</p><p class="faq-a">A. It is largely the same, but some documents can be omitted if unchanged. The portal guides you through what is required.</p></div>
 </div>
-<div class="cta-box"><h3>Don't Let Your Certification Lapse</h3><p>YouSun Administrative Agency manages renewal timelines and prepares all documents. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Don't Let Your Certification Lapse</h3><p>YouSun Administrative Agency manages renewal timelines and prepares all documents.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'women-enterprise-renewal-management-guide',
     locale: 'zh',
     title: '韩国女性企业认证续期与资格维持指南2026 — 3年周期管理',
     metaTitle: '韩国女性企业认证续期2026 — 3年有效期管理指南',
-    metaDescription: '如何在3年有效期届满前续期韩国女性企业认证。续期常见被驳回原因及维持政府采购优惠的方法。专业行政士免费初次咨询。本文依次说明为什么及时续期很重要、续期资格检查、可能影响资格的变化、续期流程，可按步骤逐项确认。',
+    metaDescription: '如何在3年有效期届满前续期韩国女性企业认证。续期常见被驳回原因及维持政府采购优惠的方法。专业行政士初次咨询。本文依次说明为什么及时续期很重要、续期资格检查、可能影响资格的变化、续期流程，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国女性企业认证续期指南，包括续期流程、常见被驳回原因及维持政府采购优惠的连续性管理方法。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么及时续期很重要</li><li>续期资格检查</li><li>可能影响资格的变化</li><li>续期流程</li><li>续期常见被驳回原因</li><li>维持采购优惠</li><li>常见问题</li></ol></div>
@@ -1672,14 +1672,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 如果曾有一段时间女性股东持股低于30%，还可以续期吗？</p><p class="faq-a">A. 资格以续期申请时的状态为准。过去的短暂失误不一定导致自动取消资格，但建议咨询专业人士。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 续期流程与首次申请有何不同？</p><p class="faq-a">A. 流程基本相同，但部分未变更的材料可省略。门户网站会引导您了解所需内容。</p></div>
 </div>
-<div class="cta-box"><h3>不要让认证失效</h3><p>YouSun Administrative Agency管理续期时间节点并准备所有材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>不要让认证失效</h3><p>YouSun Administrative Agency管理续期时间节点并准备所有材料。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'women-enterprise-renewal-management-guide',
     locale: 'ja',
     title: '韓国女性企業認証更新・資格維持ガイド2026 — 3年サイクル管理',
     metaTitle: '韓国女性企業認証更新2026 — 3年有効期間管理ガイド',
-    metaDescription: '韓国女性企業認証を3年の有効期限前に更新する方法。更新時のよくある却下理由と政府調達優遇を維持するためのポイント。行政士による無料初回相談あり。',
+    metaDescription: '韓国女性企業認証を3年の有効期限前に更新する方法。更新時のよくある却下理由と政府調達優遇を維持するためのポイント。行政士による初回相談あり。',
     category: '企業認証',
     excerpt: '韓国女性企業認証の更新ガイド — 更新手続き、よくある却下理由、政府調達優遇を継続的に維持する方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>タイムリーな更新が重要な理由</li><li>更新資格の確認</li><li>資格に影響する可能性のある変化</li><li>更新手続き</li><li>更新時のよくある却下理由</li><li>調達優遇の維持</li><li>よくある質問</li></ol></div>
@@ -1699,7 +1699,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 一時的に女性株主の持株が30%未満になった場合でも更新できますか？</p><p class="faq-a">A. 資格は更新申請時の状況で判断されます。過去の一時的な不適合が自動的に失格になるとは限りませんが、専門家にご相談ください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 更新手続きは最初の申請と異なりますか？</p><p class="faq-a">A. ほぼ同じです。変更がない書類は一部省略できます。ポータルが必要事項をガイドします。</p></div>
 </div>
-<div class="cta-box"><h3>認証を失効させないようにしましょう</h3><p>YouSun Administrative Agencyが更新スケジュールを管理し、すべての書類を準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>認証を失効させないようにしましょう</h3><p>YouSun Administrative Agencyが更新スケジュールを管理し、すべての書類を準備します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 20: currency-exchange-aml-internal-control-guide ──────────────────
@@ -1708,7 +1708,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'AML Internal Control Standards for Currency Exchange Businesses in Korea — 2026',
     metaTitle: 'Korea Currency Exchange AML Compliance 2026 — Internal Control Guide',
-    metaDescription: 'How to draft and operate AML (anti-money laundering) internal control standards for currency exchange businesses in Korea. Free consultation.',
+    metaDescription: 'How to draft and operate AML (anti-money laundering) internal control standards for currency exchange businesses in Korea.',
     category: 'Finance',
     excerpt: 'A practical guide to AML internal control standards for Korean currency exchange businesses — covering STR, CTR, CDD obligations and internal policy requirements.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why AML Compliance Is Critical</li><li>Three Core AML Obligations</li><li>Internal Control Policy Document</li><li>Transaction Monitoring Systems</li><li>Staff Training Requirements</li><li>Regulatory Inspections</li><li>FAQ</li></ol></div>
@@ -1728,14 +1728,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Does a small one-person exchange operation need a full AML policy?</p><p class="faq-a">A. Yes. All registered currency exchange businesses regardless of size must maintain an AML internal control policy.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What happens if we miss a CTR filing?</p><p class="faq-a">A. Late or missing CTR filings can result in fines and may trigger a broader compliance investigation.</p></div>
 </div>
-<div class="cta-box"><h3>Get Your AML Policy in Order</h3><p>YouSun Administrative Agency drafts AML internal control documents and advises on compliance systems. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Get Your AML Policy in Order</h3><p>YouSun Administrative Agency drafts AML internal control documents and advises on compliance systems.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'currency-exchange-aml-internal-control-guide',
     locale: 'zh',
     title: '韩国换钱业反洗钱内部控制标准实务指南2026',
     metaTitle: '韩国换钱业AML合规2026 — 内部控制标准制度指南',
-    metaDescription: '如何为韩国换钱业起草并执行反洗钱（AML）内部控制标准。STR可疑交易报告、CTR高额现金交易报告、CDD客户尽职调查义务详解。专业行政士免费初次咨询。',
+    metaDescription: '如何为韩国换钱业起草并执行反洗钱（AML）内部控制标准。STR可疑交易报告、CTR高额现金交易报告、CDD客户尽职调查义务详解。专业行政士初次咨询。',
     category: '金融',
     excerpt: '韩国换钱业反洗钱内部控制标准实务指南，涵盖STR、CTR、CDD义务及内部政策要求。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么AML合规至关重要</li><li>三大核心AML义务</li><li>内部控制政策文件</li><li>交易监控系统</li><li>员工培训要求</li><li>监管检查</li><li>常见问题</li></ol></div>
@@ -1755,14 +1755,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 小型单人换钱业务也需要完整的AML政策吗？</p><p class="faq-a">A. 需要。所有已登记的换钱业，无论规模大小，都必须维持AML内部控制政策。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 如果遗漏CTR申报会怎样？</p><p class="faq-a">A. 迟报或漏报CTR可能导致罚款，并可能触发更广泛的合规调查。</p></div>
 </div>
-<div class="cta-box"><h3>完善您的AML合规制度</h3><p>YouSun Administrative Agency起草AML内部控制文件并提供合规系统建议。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>完善您的AML合规制度</h3><p>YouSun Administrative Agency起草AML内部控制文件并提供合规系统建议。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'currency-exchange-aml-internal-control-guide',
     locale: 'ja',
     title: '韓国外貨両替業AML内部統制基準実務ガイド2026',
     metaTitle: '韓国外貨両替業AMLコンプライアンス2026 — 内部統制基準ガイド',
-    metaDescription: '韓国外貨両替業のAML（マネーロンダリング防止）内部統制基準の作成・運用方法。STR疑わしい取引報告、CTR高額現金取引報告、CDD顧客確認義務を解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国外貨両替業のAML（マネーロンダリング防止）内部統制基準の作成・運用方法。STR疑わしい取引報告、CTR高額現金取引報告、CDD顧客確認義務を解説。行政士による初回相談あり。',
     category: '金融',
     excerpt: '韓国外貨両替業のAML内部統制基準実務ガイド — STR、CTR、CDDの義務と内部ポリシー要件を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜAMLコンプライアンスが重要か</li><li>3つの主要なAML義務</li><li>内部統制ポリシー文書</li><li>取引モニタリングシステム</li><li>従業員研修要件</li><li>監督当局の検査</li><li>よくある質問</li></ol></div>
@@ -1782,7 +1782,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 小規模な一人経営の両替業にも完全なAMLポリシーが必要ですか？</p><p class="faq-a">A. はい。登録されたすべての外貨両替業はその規模に関係なく、AML内部統制ポリシーを維持する必要があります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. CTR申告を見逃した場合はどうなりますか？</p><p class="faq-a">A. CTR申告の遅延や未提出は罰金につながり、より広範なコンプライアンス調査を引き起こす可能性があります。</p></div>
 </div>
-<div class="cta-box"><h3>AMLポリシーを整備しましょう</h3><p>YouSun Administrative AgencyがAML内部統制文書を作成しコンプライアンスシステムをアドバイスします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>AMLポリシーを整備しましょう</h3><p>YouSun Administrative AgencyがAML内部統制文書を作成しコンプライアンスシステムをアドバイスします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 21: haccp-post-certification-management-guide ────────────────────
@@ -1791,7 +1791,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'HACCP Post-Certification Management in Korea — Surveillance & Renewal Guide 2026',
     metaTitle: 'HACCP Post-Certification Korea 2026 — Surveillance Audit & Renewal Guide',
-    metaDescription: 'How to maintain HACCP certification in Korea after initial approval. Annual surveillance audits, record-keeping, common revocation cases. Free consultation.',
+    metaDescription: 'How to maintain HACCP certification in Korea after initial approval. Annual surveillance audits, record-keeping, common revocation cases.',
     category: 'Food',
     excerpt: 'A guide to maintaining HACCP certification in Korea after initial approval — covering annual surveillance audits, record-keeping requirements, and common reasons for revocation.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Post-Certification Obligations Overview</li><li>Annual Surveillance Audit</li><li>Triennial Re-Certification</li><li>Required Ongoing Records</li><li>Common Revocation Cases</li><li>Process Change Reporting</li><li>FAQ</li></ol></div>
@@ -1811,14 +1811,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. What happens if we fail the annual surveillance audit?</p><p class="faq-a">A. You will receive a corrective action plan with a deadline. If unresolved, certification may be suspended pending re-audit.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How long must records be kept?</p><p class="faq-a">A. A minimum of 2 years from the date of production for most records.</p></div>
 </div>
-<div class="cta-box"><h3>Stay HACCP Certified</h3><p>YouSun Administrative Agency assists with pre-audit preparation and corrective action planning. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Stay HACCP Certified</h3><p>YouSun Administrative Agency assists with pre-audit preparation and corrective action planning.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'haccp-post-certification-management-guide',
     locale: 'zh',
     title: '韩国HACCP认证后期管理指南2026 — 监督审核与续期',
     metaTitle: '韩国HACCP认证后管理2026 — 监督审核与续期指南',
-    metaDescription: '在韩国获得HACCP认证后如何维持认证。年度监督审核、记录保存、常见吊销案例及续期技巧。专业行政士免费初次咨询。本文依次说明认证后义务概述、年度监督审核、三年期再认证、持续记录要求，可按步骤逐项确认。',
+    metaDescription: '在韩国获得HACCP认证后如何维持认证。年度监督审核、记录保存、常见吊销案例及续期技巧。专业行政士初次咨询。本文依次说明认证后义务概述、年度监督审核、三年期再认证、持续记录要求，可按步骤逐项确认。',
     category: '食品',
     excerpt: '韩国HACCP认证后期维持指南，涵盖年度监督审核、记录保存要求及常见吊销原因。',
     content: `<div class="toc"><p>目录</p><ol><li>认证后义务概述</li><li>年度监督审核</li><li>三年期再认证</li><li>持续记录要求</li><li>常见吊销案例</li><li>工艺变更报告</li><li>常见问题</li></ol></div>
@@ -1838,14 +1838,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 如果年度监督审核不通过会怎样？</p><p class="faq-a">A. 将收到带有期限的纠正措施计划。若未能解决，认证可能被暂停，等待重新审核。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 记录需要保存多长时间？</p><p class="faq-a">A. 大多数记录自生产之日起至少保存2年。</p></div>
 </div>
-<div class="cta-box"><h3>保持HACCP认证有效</h3><p>YouSun Administrative Agency协助审核前准备及纠正措施规划。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>保持HACCP认证有效</h3><p>YouSun Administrative Agency协助审核前准备及纠正措施规划。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'haccp-post-certification-management-guide',
     locale: 'ja',
     title: '韓国HACCP認証後管理ガイド2026 — サーベイランス審査と更新',
     metaTitle: '韓国HACCP認証後管理2026 — サーベイランス審査・更新ガイド',
-    metaDescription: '韓国でHACCP認証取得後に認証を維持する方法。年次サーベイランス審査、記録保持要件、よくある取消事例と更新のコツ。行政士による無料初回相談あり。',
+    metaDescription: '韓国でHACCP認証取得後に認証を維持する方法。年次サーベイランス審査、記録保持要件、よくある取消事例と更新のコツ。行政士による初回相談あり。',
     category: '食品',
     excerpt: '韓国HACCP認証の取得後に認証を維持するためのガイド — 年次サーベイランス審査、記録保持要件、よくある取消理由を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>認証後の義務概要</li><li>年次サーベイランス審査</li><li>3年ごとの再認証</li><li>継続的な記録要件</li><li>よくある取消事例</li><li>工程変更の報告</li><li>よくある質問</li></ol></div>
@@ -1865,7 +1865,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 年次サーベイランス審査に失格した場合どうなりますか？</p><p class="faq-a">A. 期限付きの是正措置計画が渡されます。未解決の場合、再審査まで認証が一時停止される可能性があります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 記録はどのくらい保管が必要ですか？</p><p class="faq-a">A. ほとんどの記録は製造日から最低2年間の保管が必要です。</p></div>
 </div>
-<div class="cta-box"><h3>HACCP認証を維持しましょう</h3><p>YouSun Administrative Agencyが審査前準備と是正措置計画をサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>HACCP認証を維持しましょう</h3><p>YouSun Administrative Agencyが審査前準備と是正措置計画をサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 22: building-usage-change-case-studies-guide ─────────────────────
@@ -1874,7 +1874,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Building Use Change Case Studies in Korea — Retail to Food, Warehouse, Guesthouse 2026',
     metaTitle: 'Korea Building Use Change Case Studies 2026 — Real Examples',
-    metaDescription: 'Real-world case studies of building use change approvals in Korea — converting neighborhood commercial facilities to food processing. Free consultation.',
+    metaDescription: 'Real-world case studies of building use change approvals in Korea — converting neighborhood commercial facilities to food processing.',
     category: 'Real Estate',
     excerpt: 'Real-world examples of building use change processes in Korea — from neighborhood commercial facilities to food manufacturing, urban guesthouses, and warehouses.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why Case Studies Matter</li><li>Case 1: Commercial to Food Manufacturing</li><li>Case 2: Retail to Urban Guesthouse</li><li>Case 3: Office to Warehouse</li><li>Common Challenges Across Cases</li><li>Key Success Factors</li><li>FAQ</li></ol></div>
@@ -1894,14 +1894,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a tenant (not the building owner) apply for a use change?</p><p class="faq-a">A. Yes, but owner consent is required. The application should be filed by the owner or with their written consent.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What if the building's current use is already what I need?</p><p class="faq-a">A. Then no use change is needed. But confirm the building register matches the intended use before signing any lease.</p></div>
 </div>
-<div class="cta-box"><h3>Plan Your Building Use Change</h3><p>YouSun Administrative Agency coordinates use change permits and downstream business licenses. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Plan Your Building Use Change</h3><p>YouSun Administrative Agency coordinates use change permits and downstream business licenses.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'building-usage-change-case-studies-guide',
     locale: 'zh',
     title: '韩国建筑物用途变更案例指南2026 — 近邻商业、食品加工、民宿实务',
     metaTitle: '韩国建筑物用途变更案例2026 — 真实案例解析',
-    metaDescription: '韩国建筑物用途变更实际案例分析，涵盖近邻商业设施转为食品加工、外国人民宿及仓储用途的审批过程。专业行政士免费初次咨询。本文依次说明为什么案例分析很重要、案例一：商业转食品制造、案例二：零售转城市民宿、案例三：办公室转仓储，可按步骤逐项确认。',
+    metaDescription: '韩国建筑物用途变更实际案例分析，涵盖近邻商业设施转为食品加工、外国人民宿及仓储用途的审批过程。专业行政士初次咨询。本文依次说明为什么案例分析很重要、案例一：商业转食品制造、案例二：零售转城市民宿、案例三：办公室转仓储，可按步骤逐项确认。',
     category: '房产/建筑',
     excerpt: '韩国建筑物用途变更真实案例，包括从近邻商业设施转为食品制造、外国人城市民宿及仓储用途的全过程。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么案例分析很重要</li><li>案例一：商业转食品制造</li><li>案例二：零售转城市民宿</li><li>案例三：办公室转仓储</li><li>各案例常见挑战</li><li>成功关键因素</li><li>常见问题</li></ol></div>
@@ -1921,14 +1921,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 租户（非建筑物所有者）可以申请用途变更吗？</p><p class="faq-a">A. 可以，但需要所有者同意。申请应由所有者提交或附有其书面同意书。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 如果建筑当前用途已符合我的需求怎么办？</p><p class="faq-a">A. 则无需申请用途变更。但在签署任何租约前，请确认建筑物台账与预期用途一致。</p></div>
 </div>
-<div class="cta-box"><h3>规划您的建筑物用途变更</h3><p>YouSun Administrative Agency协调用途变更许可及后续营业执照申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>规划您的建筑物用途变更</h3><p>YouSun Administrative Agency协调用途变更许可及后续营业执照申请。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'building-usage-change-case-studies-guide',
     locale: 'ja',
     title: '韓国建築物用途変更事例ガイド2026 — 近隣生活施設・食品加工・民泊の実務',
     metaTitle: '韓国建築物用途変更事例2026 — 実際の事例解説',
-    metaDescription: '韓国での建築物用途変更の実際の事例分析 — 近隣商業施設から食品加工、都市民泊、倉庫への変更承認プロセス。行政士による無料初回相談あり。なぜ事例分析が重要か・事例2：小売から都市民泊へ・事例3：オフィスから倉庫へ・各事例に共通する課題まで順に確認できます。',
+    metaDescription: '韓国での建築物用途変更の実際の事例分析 — 近隣商業施設から食品加工、都市民泊、倉庫への変更承認プロセス。行政士による初回相談あり。なぜ事例分析が重要か・事例2：小売から都市民泊へ・事例3：オフィスから倉庫へ・各事例に共通する課題まで順に確認できます。',
     category: '不動産/建築',
     excerpt: '韓国の建築物用途変更の実際の事例 — 近隣生活施設から食品製造業、外国人都市民泊、倉庫への転換プロセスを解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜ事例分析が重要か</li><li>事例1：商業施設から食品製造へ</li><li>事例2：小売から都市民泊へ</li><li>事例3：オフィスから倉庫へ</li><li>各事例に共通する課題</li><li>成功の重要因子</li><li>よくある質問</li></ol></div>
@@ -1948,7 +1948,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. テナント（建物所有者ではない）が用途変更を申請できますか？</p><p class="faq-a">A. はい。ただし所有者の同意が必要です。申請は所有者が行うか、所有者の書面による同意を添付して提出してください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 建物の現在の用途が必要なものと同じ場合はどうなりますか？</p><p class="faq-a">A. その場合、用途変更は不要です。ただし、賃貸契約を結ぶ前に建築物台帳が意図した用途と一致していることを確認してください。</p></div>
 </div>
-<div class="cta-box"><h3>建築物用途変更を計画しましょう</h3><p>YouSun Administrative Agencyが用途変更許可とその後の営業許可を一貫してサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>建築物用途変更を計画しましょう</h3><p>YouSun Administrative Agencyが用途変更許可とその後の営業許可を一貫してサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 23: narajangteo-bidding-price-strategy-guide ──────────────────────
@@ -1957,7 +1957,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Korea Government Procurement Bidding Price Strategy — Narajangteo 2026 Guide',
     metaTitle: 'Narajangteo Bidding Strategy Korea 2026 — How to Win Public Tenders',
-    metaDescription: 'How to set competitive bid prices on Korea’s Narajangteo procurement platform. Lowest-price vs. comprehensive evaluation. Free consultation.',
+    metaDescription: 'How to set competitive bid prices on Korea’s Narajangteo procurement platform. Lowest-price vs. comprehensive evaluation.',
     category: 'Government Procurement',
     excerpt: 'Strategic guidance on pricing bids for Korea\'s government procurement platform (Narajangteo) — covering evaluation methods, price calculation tips, and common mistakes.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>How Korean Government Bids Are Evaluated</li><li>Lowest-Price Bidding (최저가 낙찰)</li><li>Comprehensive Evaluation (종합심사)</li><li>Optimal Price Calculation</li><li>Common Bidding Mistakes</li><li>Certification Bonuses</li><li>FAQ</li></ol></div>
@@ -1977,14 +1977,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can I revise my bid after submission?</p><p class="faq-a">A. No. Bids are sealed and irreversible once submitted on Narajangteo.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How do I find the preliminary price?</p><p class="faq-a">A. The preliminary price is revealed after bid opening. Before bidding, estimate based on the specifications and historical data.</p></div>
 </div>
-<div class="cta-box"><h3>Win More Government Contracts</h3><p>YouSun Administrative Agency advises on bid strategy and certification portfolio. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Win More Government Contracts</h3><p>YouSun Administrative Agency advises on bid strategy and certification portfolio.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'narajangteo-bidding-price-strategy-guide',
     locale: 'zh',
     title: '韩国政府采购Narajangteo投标价格策略指南2026',
     metaTitle: 'Narajangteo投标策略韩国2026 — 如何赢得政府招标',
-    metaDescription: '如何在韩国Narajangteo政府采购平台设定竞争性投标价格。最低价与综合评审、价格计算技巧详解。专业行政士免费初次咨询。本文依次说明韩国政府投标的评审方式、最低价中标、综合评审、最优价格计算，可按步骤逐项确认。',
+    metaDescription: '如何在韩国Narajangteo政府采购平台设定竞争性投标价格。最低价与综合评审、价格计算技巧详解。专业行政士初次咨询。本文依次说明韩国政府投标的评审方式、最低价中标、综合评审、最优价格计算，可按步骤逐项确认。',
     category: '政府采购',
     excerpt: '韩国政府采购Narajangteo平台投标价格策略指南，涵盖评审方式、价格计算技巧及常见错误。',
     content: `<div class="toc"><p>目录</p><ol><li>韩国政府投标的评审方式</li><li>最低价中标</li><li>综合评审</li><li>最优价格计算</li><li>常见投标错误</li><li>认证加分</li><li>常见问题</li></ol></div>
@@ -2004,14 +2004,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 提交后可以修改投标吗？</p><p class="faq-a">A. 不可以。在Narajangteo提交后，标书是密封且不可更改的。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 如何了解预定价格？</p><p class="faq-a">A. 预定价格在开标后公布。投标前，根据规格和历史数据进行估算。</p></div>
 </div>
-<div class="cta-box"><h3>赢得更多政府合同</h3><p>YouSun Administrative Agency提供投标策略及认证组合建议。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>赢得更多政府合同</h3><p>YouSun Administrative Agency提供投标策略及认证组合建议。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'narajangteo-bidding-price-strategy-guide',
     locale: 'ja',
     title: '韓国政府調達ナラジャンテ入札価格戦略ガイド2026',
     metaTitle: 'ナラジャンテ入札戦略韓国2026 — 公共入札で勝つ方法',
-    metaDescription: '韓国のナラジャンテ政府調達プラットフォームで競争力のある入札価格を設定する方法。最低価格落札と総合審査、価格計算のコツを解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国のナラジャンテ政府調達プラットフォームで競争力のある入札価格を設定する方法。最低価格落札と総合審査、価格計算のコツを解説。行政士による初回相談あり。',
     category: '政府調達',
     excerpt: '韓国政府調達プラットフォーム（ナラジャンテ）への入札価格戦略ガイド — 評価方式、価格計算のコツ、よくある失敗を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>韓国政府入札の評価方式</li><li>最低価格落札</li><li>総合審査</li><li>最適価格の計算</li><li>よくある入札ミス</li><li>認証ボーナス</li><li>よくある質問</li></ol></div>
@@ -2031,7 +2031,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 提出後に入札を修正できますか？</p><p class="faq-a">A. いいえ。ナラジャンテに提出された入札書は封入状態となり取り消しできません。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 予定価格はどうやって知るのですか？</p><p class="faq-a">A. 予定価格は開札後に公表されます。入札前は仕様書と過去データに基づいて推定します。</p></div>
 </div>
-<div class="cta-box"><h3>政府契約をより多く獲得しましょう</h3><p>YouSun Administrative Agencyが入札戦略と認証ポートフォリオをアドバイスします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>政府契約をより多く獲得しましょう</h3><p>YouSun Administrative Agencyが入札戦略と認証ポートフォリオをアドバイスします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 24: corporate-research-lab-agency-risk-guide ─────────────────────
@@ -2040,7 +2040,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Corporate R&D Lab Registration Risks When Using an Agency — Korea 2026',
     metaTitle: 'Korea Corporate R&D Lab Agency Registration Risks 2026 — What to Watch',
-    metaDescription: 'Key risks when using an agency to register a corporate research laboratory in Korea. Common fraudulent practices, KOITA audit pitfalls. Free consultation.',
+    metaDescription: 'Key risks when using an agency to register a corporate research laboratory in Korea. Common fraudulent practices, KOITA audit pitfalls.',
     category: 'Business Certification',
     excerpt: 'A guide to the risks of using third-party agencies for corporate R&D lab registration in Korea — common fraud patterns, audit risks, and how to protect your business.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Why Agency-Assisted Registrations Carry Risk</li><li>Common Fraudulent Practices</li><li>KOITA Audit Red Flags</li><li>Consequences of Non-Genuine Registration</li><li>How to Verify Agency Legitimacy</li><li>Safe Practices</li><li>FAQ</li></ol></div>
@@ -2060,14 +2060,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can we retroactively fix a registration that was done improperly?</p><p class="faq-a">A. In some cases, voluntary disclosure and correction is possible. Consult a specialist before an audit finds the issue.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Are all agencies risky?</p><p class="faq-a">A. No. Licensed administrative agent offices operate under professional regulations. The risk is with unlicensed brokers.</p></div>
 </div>
-<div class="cta-box"><h3>Register Your R&D Lab the Right Way</h3><p>YouSun Administrative Agency is a licensed administrative agent office with clean compliance practices. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your R&D Lab the Right Way</h3><p>YouSun Administrative Agency is a licensed administrative agent office with clean compliance practices.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'corporate-research-lab-agency-risk-guide',
     locale: 'zh',
     title: '韩国企业附属研究所代理登记风险指南2026',
     metaTitle: '韩国企业研究所代理登记风险2026 — 注意事项指南',
-    metaDescription: '在韩国委托代理机构登记企业附属研究所的主要风险。常见欺诈行为、KOITA审核陷阱及如何保护企业权益。专业行政士免费初次咨询。本文依次说明为什么委托代理登记有风险、常见欺诈行为、KOITA审核警示信号、虚假登记的后果，可按步骤逐项确认。',
+    metaDescription: '在韩国委托代理机构登记企业附属研究所的主要风险。常见欺诈行为、KOITA审核陷阱及如何保护企业权益。专业行政士初次咨询。本文依次说明为什么委托代理登记有风险、常见欺诈行为、KOITA审核警示信号、虚假登记的后果，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国企业附属研究所委托第三方代理登记的风险指南，包括常见欺诈模式、审核风险及企业保护措施。',
     content: `<div class="toc"><p>目录</p><ol><li>为什么委托代理登记有风险</li><li>常见欺诈行为</li><li>KOITA审核警示信号</li><li>虚假登记的后果</li><li>如何验证代理机构合法性</li><li>安全做法</li><li>常见问题</li></ol></div>
@@ -2087,14 +2087,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 我们能追溯修正不当登记吗？</p><p class="faq-a">A. 在某些情况下，主动披露和纠正是可能的。在审核发现问题前，请咨询专业人士。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 所有代理机构都有风险吗？</p><p class="faq-a">A. 不是。持牌行政士事务所在专业法规约束下运营。风险主要来自无照中间人。</p></div>
 </div>
-<div class="cta-box"><h3>以正确方式登记研发实验室</h3><p>YouSun Administrative Agency是合规运营的持牌行政士事务所。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>以正确方式登记研发实验室</h3><p>YouSun Administrative Agency是合规运营的持牌行政士事务所。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'corporate-research-lab-agency-risk-guide',
     locale: 'ja',
     title: '韓国企業付設研究所代理登録リスクガイド2026',
     metaTitle: '韓国企業研究所代理登録リスク2026 — 注意すべき点',
-    metaDescription: '韓国で企業付設研究所を代理機関に登録委託する際の主なリスク。よくある不正行為、KOITAの審査の落とし穴、企業保護の方法を解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国で企業付設研究所を代理機関に登録委託する際の主なリスク。よくある不正行為、KOITAの審査の落とし穴、企業保護の方法を解説。行政士による初回相談あり。',
     category: '企業認証',
     excerpt: '韓国の企業付設研究所登録を第三者機関に委託する際のリスクガイド — よくある不正パターン、審査リスク、企業を守る方法を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>なぜ代理登録にリスクがあるか</li><li>よくある不正行為</li><li>KOITA審査の警戒サイン</li><li>非正規登録の結果</li><li>代理機関の正当性を確認する方法</li><li>安全な実践方法</li><li>よくある質問</li></ol></div>
@@ -2114,7 +2114,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 不適切に行われた登録を遡及して修正できますか？</p><p class="faq-a">A. 場合によっては自発的な開示と是正が可能です。審査で問題が発見される前に専門家にご相談ください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. すべての代理機関が危険ですか？</p><p class="faq-a">A. いいえ。認定行政士事務所は専門規制のもとで運営されています。リスクは無許可ブローカーにあります。</p></div>
 </div>
-<div class="cta-box"><h3>研究所を正しく登録しましょう</h3><p>YouSun Administrative Agencyはクリーンなコンプライアンス実践で運営される認定行政士事務所です。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>研究所を正しく登録しましょう</h3><p>YouSun Administrative Agencyはクリーンなコンプライアンス実践で運営される認定行政士事務所です。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 25: cosmetics-manufacturing-registration ──────────────────────────
@@ -2123,7 +2123,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Cosmetics Manufacturing Registration in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Cosmetics Manufacturing Registration 2026 — MFDS Requirements',
-    metaDescription: 'How to register a cosmetics manufacturing business in Korea with the MFDS. Facility requirements, GMP standards, required documents. Free consultation.',
+    metaDescription: 'How to register a cosmetics manufacturing business in Korea with the MFDS. Facility requirements, GMP standards, required documents.',
     category: 'Cosmetics',
     excerpt: 'A complete guide to registering a cosmetics manufacturing business in Korea — MFDS facility requirements, GMP standards, and the registration procedure.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Cosmetics Manufacturing Regulation Overview</li><li>Who Must Register</li><li>GMP Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Obligations</li><li>FAQ</li></ol></div>
@@ -2143,14 +2143,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a foreign cosmetics company manufacture in Korea through a contract manufacturer?</p><p class="faq-a">A. Yes. The Korean contract manufacturer holds the manufacturing registration; the foreign company or its Korean entity holds the responsible distributor registration.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Does this registration cover quasi-drugs (의약외품)?</p><p class="faq-a">A. No. Quasi-drugs require a separate pharmaceutical manufacturing or import license.</p></div>
 </div>
-<div class="cta-box"><h3>Register Your Cosmetics Manufacturing Business</h3><p>YouSun Administrative Agency handles cosmetics registration and MFDS compliance. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your Cosmetics Manufacturing Business</h3><p>YouSun Administrative Agency handles cosmetics registration and MFDS compliance.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'cosmetics-manufacturing-registration',
     locale: 'zh',
     title: '韩国化妆品制造业登记指南2026',
     metaTitle: '韩国化妆品制造业登记2026 — 食药处GMP要求指南',
-    metaDescription: '在韩国向食药处登记化妆品制造业的方法。设施要求、GMP标准、所需材料及申请流程详解。专业行政士免费初次咨询。本文依次说明化妆品制造监管概述、哪些企业须登记、GMP设施要求、所需材料，可按步骤逐项确认。',
+    metaDescription: '在韩国向食药处登记化妆品制造业的方法。设施要求、GMP标准、所需材料及申请流程详解。专业行政士初次咨询。本文依次说明化妆品制造监管概述、哪些企业须登记、GMP设施要求、所需材料，可按步骤逐项确认。',
     category: '化妆品',
     excerpt: '韩国化妆品制造业登记完整指南，涵盖食药处设施要求、GMP标准及登记程序。',
     content: `<div class="toc"><p>目录</p><ol><li>化妆品制造监管概述</li><li>哪些企业须登记</li><li>GMP设施要求</li><li>所需材料</li><li>申请流程</li><li>登记后义务</li><li>常见问题</li></ol></div>
@@ -2170,14 +2170,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国化妆品公司可以通过合同制造商在韩国生产吗？</p><p class="faq-a">A. 可以。韩国合同制造商持有制造登记证；外国公司或其韩国实体持有责任销售商登记证。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 此登记是否涵盖准药品？</p><p class="faq-a">A. 不涵盖。准药品需要单独的药品制造或进口许可证。</p></div>
 </div>
-<div class="cta-box"><h3>登记化妆品制造业</h3><p>YouSun Administrative Agency负责化妆品登记及食药处合规事务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>登记化妆品制造业</h3><p>YouSun Administrative Agency负责化妆品登记及食药处合规事务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'cosmetics-manufacturing-registration',
     locale: 'ja',
     title: '韓国化粧品製造業登録ガイド2026',
     metaTitle: '韓国化粧品製造業登録2026 — 食薬処GMP要件ガイド',
-    metaDescription: '韓国で食薬処（MFDS）に化粧品製造業を登録する方法。施設要件、GMP基準、必要書類と申請手続きを詳しく解説。行政士による無料初回相談あり。',
+    metaDescription: '韓国で食薬処（MFDS）に化粧品製造業を登録する方法。施設要件、GMP基準、必要書類と申請手続きを詳しく解説。行政士による初回相談あり。',
     category: '化粧品',
     excerpt: '韓国の化粧品製造業登録完全ガイド — 食薬処の施設要件、GMP基準、登録手続きを解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>化粧品製造規制の概要</li><li>登録が必要な企業</li><li>GMP施設要件</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div>
@@ -2197,7 +2197,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 外国の化粧品会社が韓国の契約製造業者を通じて製造できますか？</p><p class="faq-a">A. はい。韓国の契約製造業者が製造登録を保有し、外国企業またはその韓国法人が責任販売業登録を保有します。</p></div>
 <div class="faq-item"><p class="faq-q">Q. この登録は医薬部外品（준약품）をカバーしますか？</p><p class="faq-a">A. いいえ。医薬部外品には別途の医薬品製造または輸入許可が必要です。</p></div>
 </div>
-<div class="cta-box"><h3>化粧品製造業を登録しましょう</h3><p>YouSun Administrative Agencyが化粧品登録とMFDSコンプライアンスを担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>化粧品製造業を登録しましょう</h3><p>YouSun Administrative Agencyが化粧品登録とMFDSコンプライアンスを担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 26–35: shortened but complete entries ─────────────────────────────
@@ -2206,7 +2206,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Corporate R&D Center Requirements in Korea — Researcher Qualifications & Space 2026',
     metaTitle: 'Korea Corporate R&D Center Requirements 2026 — Researcher & Facility Standards',
-    metaDescription: 'Detailed requirements for establishing a recognized corporate R&D center in Korea. Researcher qualifications, dedicated facility standards. Free consultation.',
+    metaDescription: 'Detailed requirements for establishing a recognized corporate R&D center in Korea. Researcher qualifications, dedicated facility standards.',
     category: 'Business Certification',
     excerpt: 'Detailed breakdown of researcher qualification and facility standards required for corporate R&D center recognition in Korea (applications filed with KOITA).',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Researcher Qualification Standards</li><li>Dedicated Facility Requirements</li><li>Documentation Requirements</li><li>Common Application Failures</li><li>FAQ</li></ol></div>
@@ -2222,27 +2222,27 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a foreign national researcher qualify?</p><p class="faq-a">A. Yes, as long as they are legally employed in Korea and meet the degree/experience requirements.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What is the minimum number of researchers for a startup?</p><p class="faq-a">A. A small business (소기업) needs at least 3 full-time researchers for a corporate R&D center, or 2 during the first 3 years from its founding. A dedicated R&D department needs only 1.</p></div>
 </div>
-<div class="cta-box"><h3>Set Up a Qualified Corporate R&D Center</h3><p>YouSun Administrative Agency prepares KOITA recognition application documents. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Set Up a Qualified Corporate R&D Center</h3><p>YouSun Administrative Agency prepares KOITA recognition application documents.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'corporate-rnd-center-requirements',
     locale: 'zh',
     title: '韩国企业研发中心资格要求2026 — 研究人员资质与设施标准',
     metaTitle: '韩国企业研发中心要求2026 — 研究人员与设施标准',
-    metaDescription: '韩国获认定企业研发中心的研究人员资格、专用设施标准及文件要求详解。专业行政士免费初次咨询。本文依次说明研究人员资格标准、专用设施要求、文件要求、常见申请失败原因，可按步骤逐项确认。',
+    metaDescription: '韩国获认定企业研发中心的研究人员资格、专用设施标准及文件要求详解。专业行政士初次咨询。本文依次说明研究人员资格标准、专用设施要求、文件要求、常见申请失败原因，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国企业研发中心认定（向KOITA申请）的研究人员资质和设施标准详细解析。',
-    content: `<h2>1. 研究人员资格标准</h2><p>研究人员原则上须持有自然科学、工学或医学领域本科及以上学历，或持有国家技术资格技师（기사）及以上资格。中小企业还可认定相关领域专科学历且研发经历2年以上（3年制专科毕业为1年以上）、产业技师（산업기사）资格且研发经历2年以上等人员。所有研究人员须为公司全职员工（非承包商）。</p><h2>2. 专用设施要求</h2><ul><li>物理独立的专用研究空间（不与办公室共用）</li><li>明确标注"研究实验室"标识</li><li>配备适当的研究工具和仪器</li><li>面积须足以供研究专职人员和研究辅助人员常驻工作（安装研究设备后的面积）；中小企业、风险企业等无法确保超过50平方米面积时，可用隔板等与其他部门区分</li></ul><h2>3. 文件要求</h2><ul><li>包含具体目标、方法和预期成果的研究计划</li><li>研究人员就业证明和学历证书</li><li>设施租赁合同和平面图</li><li>设备清单</li><li>研发支出预算计划</li></ul><h2>4. 常见申请失败原因</h2><ul><li>研究计划过于笼统或抄袭其他公司</li><li>列入名单的研究人员实际上非全职员工</li><li>设施与办公室共用，无物理隔离</li><li>列出的设备与申报研究活动不符</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国籍研究人员是否符合资格？</p><p class="faq-a">A. 符合，只要在韩国合法就业且满足学历/经验要求即可。</p></div></div><div class="cta-box"><h3>设立符合资格的企业研发中心</h3><p>YouSun Administrative Agency准备KOITA认定申请材料。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<h2>1. 研究人员资格标准</h2><p>研究人员原则上须持有自然科学、工学或医学领域本科及以上学历，或持有国家技术资格技师（기사）及以上资格。中小企业还可认定相关领域专科学历且研发经历2年以上（3年制专科毕业为1年以上）、产业技师（산업기사）资格且研发经历2年以上等人员。所有研究人员须为公司全职员工（非承包商）。</p><h2>2. 专用设施要求</h2><ul><li>物理独立的专用研究空间（不与办公室共用）</li><li>明确标注"研究实验室"标识</li><li>配备适当的研究工具和仪器</li><li>面积须足以供研究专职人员和研究辅助人员常驻工作（安装研究设备后的面积）；中小企业、风险企业等无法确保超过50平方米面积时，可用隔板等与其他部门区分</li></ul><h2>3. 文件要求</h2><ul><li>包含具体目标、方法和预期成果的研究计划</li><li>研究人员就业证明和学历证书</li><li>设施租赁合同和平面图</li><li>设备清单</li><li>研发支出预算计划</li></ul><h2>4. 常见申请失败原因</h2><ul><li>研究计划过于笼统或抄袭其他公司</li><li>列入名单的研究人员实际上非全职员工</li><li>设施与办公室共用，无物理隔离</li><li>列出的设备与申报研究活动不符</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国籍研究人员是否符合资格？</p><p class="faq-a">A. 符合，只要在韩国合法就业且满足学历/经验要求即可。</p></div></div><div class="cta-box"><h3>设立符合资格的企业研发中心</h3><p>YouSun Administrative Agency准备KOITA认定申请材料。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'corporate-rnd-center-requirements',
     locale: 'ja',
     title: '韓国企業研究開発センター要件2026 — 研究者資格と施設基準',
     metaTitle: '韓国企業研究開発センター要件2026 — 研究者・施設基準',
-    metaDescription: '韓国で認定を受けた企業研究開発センターを設立するための研究者資格、専用施設基準と書類要件の詳細解説。行政士による無料初回相談あり。研究者資格基準・専用施設要件・書類要件まで順に確認できます。',
+    metaDescription: '韓国で認定を受けた企業研究開発センターを設立するための研究者資格、専用施設基準と書類要件の詳細解説。行政士による初回相談あり。研究者資格基準・専用施設要件・書類要件まで順に確認できます。',
     category: '企業認証',
     excerpt: '韓国で企業研究開発センターの認定（申請先：KOITA）を受けるための研究者資格と施設基準の詳細解説。',
-    content: `<h2>1. 研究者資格基準</h2><p>研究者は原則として自然科学・工学・医学系の学士以上の学位、または国家技術資格の技師（기사）以上の資格を持つ必要があります。中小企業では、同分野の専門学士で研究開発経歴2年以上（3年制専門大学卒業は1年以上）の者、産業技師（산업기사）資格で研究開発経歴2年以上の者なども認められます。すべての研究者が会社の正規フルタイム従業員（請負業者ではなく）であること。</p><h2>2. 専用施設要件</h2><ul><li>物理的に分離された専用研究スペース（オフィスと共用不可）</li><li>「研究室」の看板で明確に表示</li><li>適切な研究ツールと機器の設置</li><li>研究専任要員と研究補助員が常時勤務するのに必要な最小限の面積（研究機材設置後の面積）以上を確保すること。中小企業・ベンチャー企業などが50㎡を超える面積を確保できない場合は、パーティション等で区分した空間も認められます</li></ul><h2>3. 書類要件</h2><ul><li>具体的な目標、方法論、期待される成果を含む研究計画書</li><li>研究者の雇用証明書と学歴証明書</li><li>施設の賃貸借契約書と平面図</li><li>設備一覧リスト</li><li>研究開発費の予算計画</li></ul><h2>4. よくある申請失敗理由</h2><ul><li>研究計画が汎用的すぎる、または他社からコピーされている</li><li>登録された研究者が実際には正規フルタイム雇用ではない</li><li>施設が物理的な分離なしに一般オフィスと共用されている</li><li>記載された設備が申告した研究活動と一致しない</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人研究者でも資格がありますか？</p><p class="faq-a">A. はい。韓国で合法的に雇用されており、学位・経験要件を満たしていれば可能です。</p></div></div><div class="cta-box"><h3>適格な企業研究開発センターを設立しましょう</h3><p>YouSun Administrative AgencyがKOITAへの認定申請書類を準備します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<h2>1. 研究者資格基準</h2><p>研究者は原則として自然科学・工学・医学系の学士以上の学位、または国家技術資格の技師（기사）以上の資格を持つ必要があります。中小企業では、同分野の専門学士で研究開発経歴2年以上（3年制専門大学卒業は1年以上）の者、産業技師（산업기사）資格で研究開発経歴2年以上の者なども認められます。すべての研究者が会社の正規フルタイム従業員（請負業者ではなく）であること。</p><h2>2. 専用施設要件</h2><ul><li>物理的に分離された専用研究スペース（オフィスと共用不可）</li><li>「研究室」の看板で明確に表示</li><li>適切な研究ツールと機器の設置</li><li>研究専任要員と研究補助員が常時勤務するのに必要な最小限の面積（研究機材設置後の面積）以上を確保すること。中小企業・ベンチャー企業などが50㎡を超える面積を確保できない場合は、パーティション等で区分した空間も認められます</li></ul><h2>3. 書類要件</h2><ul><li>具体的な目標、方法論、期待される成果を含む研究計画書</li><li>研究者の雇用証明書と学歴証明書</li><li>施設の賃貸借契約書と平面図</li><li>設備一覧リスト</li><li>研究開発費の予算計画</li></ul><h2>4. よくある申請失敗理由</h2><ul><li>研究計画が汎用的すぎる、または他社からコピーされている</li><li>登録された研究者が実際には正規フルタイム雇用ではない</li><li>施設が物理的な分離なしに一般オフィスと共用されている</li><li>記載された設備が申告した研究活動と一致しない</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人研究者でも資格がありますか？</p><p class="faq-a">A. はい。韓国で合法的に雇用されており、学位・経験要件を満たしていれば可能です。</p></div></div><div class="cta-box"><h3>適格な企業研究開発センターを設立しましょう</h3><p>YouSun Administrative AgencyがKOITAへの認定申請書類を準備します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 27: cosmetics-manufacturing-facility-guide ────────────────────────
@@ -2251,30 +2251,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Cosmetics Manufacturing Facility Design in Korea — GMP Standards 2026',
     metaTitle: 'Korea Cosmetics Manufacturing Facility GMP Standards 2026',
-    metaDescription: 'Facility design and GMP standards for cosmetics manufacturing in Korea. Zone separation, cleanroom requirements, air quality. Free consultation.',
+    metaDescription: 'Facility design and GMP standards for cosmetics manufacturing in Korea. Zone separation, cleanroom requirements, air quality.',
     category: 'Cosmetics',
     excerpt: 'Guidance on designing a GMP-compliant cosmetics manufacturing facility in Korea — zone separation, cleanroom requirements, and documentation standards.',
-    content: `<h2>1. GMP Facility Layout Principles</h2><p>Korean cosmetics GMP requires a logical flow from raw materials to finished goods with no cross-contamination pathways. Key zones: receiving, raw material storage, weighing, manufacturing, filling, packaging, finished goods storage, and QC laboratory.</p><h2>2. Zone Separation Requirements</h2><ul><li>Raw material and finished product storage must be physically separated</li><li>High-risk manufacturing areas (emulsification, etc.) require controlled environments</li><li>Personnel flow must prevent contamination (changing rooms, airlocks)</li></ul><h2>3. Air Quality and Cleanliness</h2><ul><li>Cleanroom classifications per ISO 14644 for specific product types</li><li>HEPA filtration required for sterile or near-sterile products</li><li>Regular environmental monitoring (particle counts, microbial)</li></ul><h2>4. Documentation Requirements</h2><ul><li>Standard Operating Procedures (SOPs) for each manufacturing step</li><li>Batch manufacturing records</li><li>Equipment cleaning and calibration records</li><li>Environmental monitoring logs</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Is GMP mandatory for all cosmetics manufacturers?</p><p class="faq-a">A. GMP compliance is required for registration, and formal GMP certification is mandatory for exporters to many markets.</p></div></div><div class="cta-box"><h3>Get Your Cosmetics Facility GMP-Ready</h3><p>YouSun Administrative Agency advises on GMP documentation and MFDS registration. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<h2>1. GMP Facility Layout Principles</h2><p>Korean cosmetics GMP requires a logical flow from raw materials to finished goods with no cross-contamination pathways. Key zones: receiving, raw material storage, weighing, manufacturing, filling, packaging, finished goods storage, and QC laboratory.</p><h2>2. Zone Separation Requirements</h2><ul><li>Raw material and finished product storage must be physically separated</li><li>High-risk manufacturing areas (emulsification, etc.) require controlled environments</li><li>Personnel flow must prevent contamination (changing rooms, airlocks)</li></ul><h2>3. Air Quality and Cleanliness</h2><ul><li>Cleanroom classifications per ISO 14644 for specific product types</li><li>HEPA filtration required for sterile or near-sterile products</li><li>Regular environmental monitoring (particle counts, microbial)</li></ul><h2>4. Documentation Requirements</h2><ul><li>Standard Operating Procedures (SOPs) for each manufacturing step</li><li>Batch manufacturing records</li><li>Equipment cleaning and calibration records</li><li>Environmental monitoring logs</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Is GMP mandatory for all cosmetics manufacturers?</p><p class="faq-a">A. GMP compliance is required for registration, and formal GMP certification is mandatory for exporters to many markets.</p></div></div><div class="cta-box"><h3>Get Your Cosmetics Facility GMP-Ready</h3><p>YouSun Administrative Agency advises on GMP documentation and MFDS registration.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'cosmetics-manufacturing-facility-guide',
     locale: 'zh',
     title: '韩国化妆品制造设施设计指南2026 — GMP标准',
     metaTitle: '韩国化妆品制造设施GMP标准2026',
-    metaDescription: '韩国化妆品制造设施设计和GMP标准详解，包括区域分隔、洁净室要求及文件要求。专业行政士免费初次咨询。本文依次说明GMP设施布局原则、区域分隔要求、空气质量与洁净度、文件要求，可按步骤逐项确认。',
+    metaDescription: '韩国化妆品制造设施设计和GMP标准详解，包括区域分隔、洁净室要求及文件要求。专业行政士初次咨询。本文依次说明GMP设施布局原则、区域分隔要求、空气质量与洁净度、文件要求，可按步骤逐项确认。',
     category: '化妆品',
     excerpt: '韩国GMP合规化妆品制造设施设计指南，包括区域分隔、洁净室要求和文件标准。',
-    content: `<h2>1. GMP设施布局原则</h2><p>韩国化妆品GMP要求从原料到成品有合理流程，不存在交叉污染路径。关键区域：收货、原料储存、称量、制造、灌装、包装、成品储存和质控实验室。</p><h2>2. 区域分隔要求</h2><ul><li>原料和成品储存须物理隔离</li><li>高风险制造区域（乳化等）须受控环境</li><li>人员流动须防止污染（更衣室、气闸）</li></ul><h2>3. 空气质量与洁净度</h2><ul><li>特定产品类型按ISO 14644洁净室分级</li><li>无菌或近无菌产品须HEPA过滤</li><li>定期环境监测（粒子计数、微生物）</li></ul><h2>4. 文件要求</h2><ul><li>每个生产步骤的标准操作程序（SOP）</li><li>批次生产记录</li><li>设备清洁和校准记录</li><li>环境监测日志</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. GMP是所有化妆品制造商的强制要求吗？</p><p class="faq-a">A. GMP合规是登记必要条件，正式GMP认证对出口到许多市场的企业是强制要求。</p></div></div><div class="cta-box"><h3>让化妆品设施达到GMP标准</h3><p>YouSun Administrative Agency提供GMP文件及食药处登记建议。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<h2>1. GMP设施布局原则</h2><p>韩国化妆品GMP要求从原料到成品有合理流程，不存在交叉污染路径。关键区域：收货、原料储存、称量、制造、灌装、包装、成品储存和质控实验室。</p><h2>2. 区域分隔要求</h2><ul><li>原料和成品储存须物理隔离</li><li>高风险制造区域（乳化等）须受控环境</li><li>人员流动须防止污染（更衣室、气闸）</li></ul><h2>3. 空气质量与洁净度</h2><ul><li>特定产品类型按ISO 14644洁净室分级</li><li>无菌或近无菌产品须HEPA过滤</li><li>定期环境监测（粒子计数、微生物）</li></ul><h2>4. 文件要求</h2><ul><li>每个生产步骤的标准操作程序（SOP）</li><li>批次生产记录</li><li>设备清洁和校准记录</li><li>环境监测日志</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. GMP是所有化妆品制造商的强制要求吗？</p><p class="faq-a">A. GMP合规是登记必要条件，正式GMP认证对出口到许多市场的企业是强制要求。</p></div></div><div class="cta-box"><h3>让化妆品设施达到GMP标准</h3><p>YouSun Administrative Agency提供GMP文件及食药处登记建议。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'cosmetics-manufacturing-facility-guide',
     locale: 'ja',
     title: '韓国化粧品製造施設設計ガイド2026 — GMP基準',
     metaTitle: '韓国化粧品製造施設GMP基準2026',
-    metaDescription: '韓国の化粧品製造施設設計とGMP基準の詳解。ゾーン分離、クリーンルーム要件、文書要件を解説。行政士による無料初回相談あり。GMP施設レイアウトの原則・ゾーン分離要件・空気品質と清潔度・文書要件まで順に確認できます。',
+    metaDescription: '韓国の化粧品製造施設設計とGMP基準の詳解。ゾーン分離、クリーンルーム要件、文書要件を解説。行政士による初回相談あり。GMP施設レイアウトの原則・ゾーン分離要件・空気品質と清潔度・文書要件まで順に確認できます。',
     category: '化粧品',
     excerpt: '韓国のGMP適合化粧品製造施設の設計ガイド — ゾーン分離、クリーンルーム要件、文書基準を解説します。',
-    content: `<h2>1. GMP施設レイアウトの原則</h2><p>韓国の化粧品GMPは、原材料から完成品まで交差汚染のない合理的な流れを要求します。主要ゾーン：受入、原材料保管、計量、製造、充填、包装、完成品保管、品質管理ラボ。</p><h2>2. ゾーン分離要件</h2><ul><li>原材料と完成品の保管を物理的に分離</li><li>高リスク製造エリア（乳化等）は管理環境が必要</li><li>人員の流れは汚染を防ぐこと（更衣室、エアロック）</li></ul><h2>3. 空気品質と清潔度</h2><ul><li>特定製品タイプにISO 14644クリーンルーム分類を適用</li><li>無菌または準無菌製品にはHEPAフィルタリングが必要</li><li>定期的な環境モニタリング（粒子数、微生物）</li></ul><h2>4. 文書要件</h2><ul><li>各製造ステップの標準作業手順書（SOP）</li><li>バッチ製造記録</li><li>設備の洗浄・校正記録</li><li>環境モニタリングログ</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. GMPはすべての化粧品製造業者に義務ですか？</p><p class="faq-a">A. GMP遵守は登録に必要で、多くの市場への輸出業者には正式なGMP認証が義務です。</p></div></div><div class="cta-box"><h3>化粧品施設をGMP対応にしましょう</h3><p>YouSun Administrative AgencyがGMP文書とMFDS登録をアドバイスします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<h2>1. GMP施設レイアウトの原則</h2><p>韓国の化粧品GMPは、原材料から完成品まで交差汚染のない合理的な流れを要求します。主要ゾーン：受入、原材料保管、計量、製造、充填、包装、完成品保管、品質管理ラボ。</p><h2>2. ゾーン分離要件</h2><ul><li>原材料と完成品の保管を物理的に分離</li><li>高リスク製造エリア（乳化等）は管理環境が必要</li><li>人員の流れは汚染を防ぐこと（更衣室、エアロック）</li></ul><h2>3. 空気品質と清潔度</h2><ul><li>特定製品タイプにISO 14644クリーンルーム分類を適用</li><li>無菌または準無菌製品にはHEPAフィルタリングが必要</li><li>定期的な環境モニタリング（粒子数、微生物）</li></ul><h2>4. 文書要件</h2><ul><li>各製造ステップの標準作業手順書（SOP）</li><li>バッチ製造記録</li><li>設備の洗浄・校正記録</li><li>環境モニタリングログ</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. GMPはすべての化粧品製造業者に義務ですか？</p><p class="faq-a">A. GMP遵守は登録に必要で、多くの市場への輸出業者には正式なGMP認証が義務です。</p></div></div><div class="cta-box"><h3>化粧品施設をGMP対応にしましょう</h3><p>YouSun Administrative AgencyがGMP文書とMFDS登録をアドバイスします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 28: freight-forwarder-capital-bond-requirements ───────────────────
@@ -2283,30 +2283,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Freight Forwarder Capital and Surety Bond Requirements in Korea — 2026',
     metaTitle: 'Korea Freight Forwarder Capital & Bond Requirements 2026',
-    metaDescription: 'Detailed guide to capital and surety bond requirements for freight forwarder registration in Korea. KRW 300M capital, KRW 100M bond. Free consultation.',
+    metaDescription: 'Detailed guide to capital and surety bond requirements for freight forwarder registration in Korea. KRW 300M capital, KRW 100M bond.',
     category: 'Logistics',
     excerpt: 'Comprehensive guide to the capital and surety bond requirements for international freight forwarding registration in Korea.',
-    content: `<h2>1. Capital Requirement: KRW 300M</h2><p>International freight forwarders must demonstrate paid-in capital of at least KRW 300 million. This must be evidenced by a bank balance certificate issued within 3 months of the application date. The capital must be in the company's corporate account — personal accounts are not accepted.</p><h2>2. Surety Bond: KRW 100M</h2><p>In addition to capital, a surety bond (보증보험증권) of at least KRW 100 million must be maintained throughout the period of registration. The bond protects customers against losses caused by the forwarder's non-performance.</p><h2>3. Mutual Aid Association Alternative</h2><p>Members of a recognized logistics mutual aid association may substitute the surety bond with membership. Confirm which associations are recognized by the Regional Land Management Office before proceeding.</p><h2>4. Documenting Capital for Foreign-Invested Companies</h2><ul><li>Foreign capital must be remitted through the FIPA-registered process</li><li>Exchange records and FIPA report must be submitted alongside the bank certificate</li><li>Capital denominated in foreign currency must be converted at the exchange rate on the certificate date</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Does the KRW 300M need to stay in the account permanently?</p><p class="faq-a">A. No. It only needs to be demonstrated at the application date. Operating funds may be used from the account after registration.</p></div></div><div class="cta-box"><h3>Meet Freight Forwarder Capital Requirements</h3><p>YouSun Administrative Agency guides you through capital documentation. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<h2>1. Capital Requirement: KRW 300M</h2><p>International freight forwarders must demonstrate paid-in capital of at least KRW 300 million. This must be evidenced by a bank balance certificate issued within 3 months of the application date. The capital must be in the company's corporate account — personal accounts are not accepted.</p><h2>2. Surety Bond: KRW 100M</h2><p>In addition to capital, a surety bond (보증보험증권) of at least KRW 100 million must be maintained throughout the period of registration. The bond protects customers against losses caused by the forwarder's non-performance.</p><h2>3. Mutual Aid Association Alternative</h2><p>Members of a recognized logistics mutual aid association may substitute the surety bond with membership. Confirm which associations are recognized by the Regional Land Management Office before proceeding.</p><h2>4. Documenting Capital for Foreign-Invested Companies</h2><ul><li>Foreign capital must be remitted through the FIPA-registered process</li><li>Exchange records and FIPA report must be submitted alongside the bank certificate</li><li>Capital denominated in foreign currency must be converted at the exchange rate on the certificate date</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Does the KRW 300M need to stay in the account permanently?</p><p class="faq-a">A. No. It only needs to be demonstrated at the application date. Operating funds may be used from the account after registration.</p></div></div><div class="cta-box"><h3>Meet Freight Forwarder Capital Requirements</h3><p>YouSun Administrative Agency guides you through capital documentation.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'freight-forwarder-capital-bond-requirements',
     locale: 'zh',
     title: '韩国货运代理资本金与保证保险要求2026',
     metaTitle: '韩国货运代理资本金与保证要求2026',
-    metaDescription: '韩国国际货运代理登记资本金和保证保险要求详解。3亿韩元资本金、1亿保证保险、替代方案及文件提示。专业行政士免费初次咨询。本文依次说明资本金要求：3亿韩元、保证保险：1亿韩元、互助联合会替代方案、外资企业资本金证明，可按步骤逐项确认。',
+    metaDescription: '韩国国际货运代理登记资本金和保证保险要求详解。3亿韩元资本金、1亿保证保险、替代方案及文件提示。专业行政士初次咨询。本文依次说明资本金要求：3亿韩元、保证保险：1亿韩元、互助联合会替代方案、外资企业资本金证明，可按步骤逐项确认。',
     category: '物流',
     excerpt: '韩国国际货运代理登记资本金和保证保险要求全面指南。',
-    content: `<h2>1. 资本金要求：3亿韩元</h2><p>国际货运代理商须证明实缴资本金至少为3亿韩元，须提交申请日前3个月内出具的银行余额证明。资本金须存入公司对公账户，不接受个人账户。</p><h2>2. 保证保险：1亿韩元</h2><p>除资本金外，还须在整个登记期间维持至少1亿韩元的保证保险（보증보험증권）。该保险保护客户免受因承运人不履行而造成的损失。</p><h2>3. 互助联合会替代方案</h2><p>已认可物流互助联合会的成员可以用会员资格替代保证保险。在申请前确认地区国土管理厅认可哪些联合会。</p><h2>4. 外资企业资本金证明</h2><ul><li>外国资本须通过FIPA登记程序汇入</li><li>汇兑记录和FIPA报告须与银行证明一同提交</li><li>以外币计价的资本须按证明日期的汇率换算</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 3亿韩元是否需要永久保留在账户中？</p><p class="faq-a">A. 不需要，仅需在申请日证明即可。登记后账户资金可用于运营。</p></div></div><div class="cta-box"><h3>满足货运代理资本金要求</h3><p>YouSun Administrative Agency指导您完成资本金文件准备。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<h2>1. 资本金要求：3亿韩元</h2><p>国际货运代理商须证明实缴资本金至少为3亿韩元，须提交申请日前3个月内出具的银行余额证明。资本金须存入公司对公账户，不接受个人账户。</p><h2>2. 保证保险：1亿韩元</h2><p>除资本金外，还须在整个登记期间维持至少1亿韩元的保证保险（보증보험증권）。该保险保护客户免受因承运人不履行而造成的损失。</p><h2>3. 互助联合会替代方案</h2><p>已认可物流互助联合会的成员可以用会员资格替代保证保险。在申请前确认地区国土管理厅认可哪些联合会。</p><h2>4. 外资企业资本金证明</h2><ul><li>外国资本须通过FIPA登记程序汇入</li><li>汇兑记录和FIPA报告须与银行证明一同提交</li><li>以外币计价的资本须按证明日期的汇率换算</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 3亿韩元是否需要永久保留在账户中？</p><p class="faq-a">A. 不需要，仅需在申请日证明即可。登记后账户资金可用于运营。</p></div></div><div class="cta-box"><h3>满足货运代理资本金要求</h3><p>YouSun Administrative Agency指导您完成资本金文件准备。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'freight-forwarder-capital-bond-requirements',
     locale: 'ja',
     title: '韓国物流主旋業者資本金・保証保険要件2026',
     metaTitle: '韓国物流主旋業者資本金・保証要件2026',
-    metaDescription: '韓国の国際物流主旋業者登録の資本金と保証保険要件の詳細ガイド。3億ウォン資本金、1億ウォン保証保険、代替手段と書類のポイント。行政士による無料初回相談あり。',
+    metaDescription: '韓国の国際物流主旋業者登録の資本金と保証保険要件の詳細ガイド。3億ウォン資本金、1億ウォン保証保険、代替手段と書類のポイント。行政士による初回相談あり。',
     category: '物流',
     excerpt: '韓国国際物流主旋業者登録の資本金と保証保険要件の包括的ガイド。',
-    content: `<h2>1. 資本金要件：3億ウォン</h2><p>国際物流主旋業者は最低3億ウォンの払込資本金を証明する必要があります。申請日から3ヶ月以内に発行された銀行残高証明書で証明します。資本金は会社の法人口座でなければなりません — 個人口座は不可。</p><h2>2. 保証保険：1億ウォン</h2><p>資本金に加えて、登録期間中、最低1億ウォンの保証保険（보증보험증券）を維持する必要があります。この保険は、業者の不履行による顧客の損失を保護します。</p><h2>3. 共済組合による代替</h2><p>認定された物流共済組合の会員は、保証保険を会員資格で代替できます。申請前に地域国土管理事務所が認定する共済組合を確認してください。</p><h2>4. 外資系企業の資本金証明</h2><ul><li>外国資本はFIPA登録プロセスを通じて送金する必要がある</li><li>為替記録とFIPA報告書を銀行証明書とともに提出</li><li>外貨建ての資本は証明書日付の為替レートで換算</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 3億ウォンを口座に永久に維持する必要がありますか？</p><p class="faq-a">A. いいえ。申請日時点で証明するだけで十分です。登録後は口座から運転資金として使用できます。</p></div></div><div class="cta-box"><h3>物流主旋業者の資本金要件を満たしましょう</h3><p>YouSun Administrative Agencyが資本金書類の準備をガイドします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<h2>1. 資本金要件：3億ウォン</h2><p>国際物流主旋業者は最低3億ウォンの払込資本金を証明する必要があります。申請日から3ヶ月以内に発行された銀行残高証明書で証明します。資本金は会社の法人口座でなければなりません — 個人口座は不可。</p><h2>2. 保証保険：1億ウォン</h2><p>資本金に加えて、登録期間中、最低1億ウォンの保証保険（보증보험증券）を維持する必要があります。この保険は、業者の不履行による顧客の損失を保護します。</p><h2>3. 共済組合による代替</h2><p>認定された物流共済組合の会員は、保証保険を会員資格で代替できます。申請前に地域国土管理事務所が認定する共済組合を確認してください。</p><h2>4. 外資系企業の資本金証明</h2><ul><li>外国資本はFIPA登録プロセスを通じて送金する必要がある</li><li>為替記録とFIPA報告書を銀行証明書とともに提出</li><li>外貨建ての資本は証明書日付の為替レートで換算</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 3億ウォンを口座に永久に維持する必要がありますか？</p><p class="faq-a">A. いいえ。申請日時点で証明するだけで十分です。登録後は口座から運転資金として使用できます。</p></div></div><div class="cta-box"><h3>物流主旋業者の資本金要件を満たしましょう</h3><p>YouSun Administrative Agencyが資本金書類の準備をガイドします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 29: sports-club-establishment-guide ──────────────────────────────
@@ -2315,30 +2315,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Sports Club (Designated Sports Business) Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Sports Club Registration 2026 — Designated Sports Business License',
-    metaDescription: 'How to register a sports club or designated sports business in Korea. Facility requirements, instructor qualifications, required documents. Free consultation.',
+    metaDescription: 'How to register a sports club or designated sports business in Korea. Facility requirements, instructor qualifications, required documents.',
     category: 'Sports',
     excerpt: 'How to legally register a sports club (지정스포츠클럽) or martial arts gym as a designated sports business in Korea — requirements, documents, and procedure.',
-    content: `<h2>1. What Is a Designated Sports Business?</h2><p>Under Korea's <strong>Sports Promotion Act</strong>, businesses that provide training in designated sports (taekwondo, judo, boxing, hapkido, etc.) must register as a <strong>designated sports business (체육도장업)</strong> with the local government.</p><h2>2. Eligibility Requirements</h2><ul><li>At least one certified instructor (단증 보유자) for the relevant sport</li><li>Facility must meet minimum area requirements (varies by sport)</li><li>Safety equipment and mats/flooring appropriate to the sport</li></ul><h2>3. Required Documents</h2><ul><li>Sports business registration application</li><li>Instructor's certification (단증, grade certificate)</li><li>Facility lease agreement</li><li>Floor plan showing training area</li><li>Safety equipment list</li></ul><h2>4. Application Procedure</h2><ol><li>Submit to local district office (시/군/구청)</li><li>Facility inspection</li><li>Registration certificate issued (approx. 7–14 business days)</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Does a yoga studio need this registration?</p><p class="faq-a">A. Yoga is generally not a designated sport, so a different registration (체육시설업) may apply. Confirm with the local sports authority.</p></div></div><div class="cta-box"><h3>Register Your Sports Club Legally</h3><p>YouSun Administrative Agency handles sports business registrations. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<h2>1. What Is a Designated Sports Business?</h2><p>Under Korea's <strong>Sports Promotion Act</strong>, businesses that provide training in designated sports (taekwondo, judo, boxing, hapkido, etc.) must register as a <strong>designated sports business (체육도장업)</strong> with the local government.</p><h2>2. Eligibility Requirements</h2><ul><li>At least one certified instructor (단증 보유자) for the relevant sport</li><li>Facility must meet minimum area requirements (varies by sport)</li><li>Safety equipment and mats/flooring appropriate to the sport</li></ul><h2>3. Required Documents</h2><ul><li>Sports business registration application</li><li>Instructor's certification (단증, grade certificate)</li><li>Facility lease agreement</li><li>Floor plan showing training area</li><li>Safety equipment list</li></ul><h2>4. Application Procedure</h2><ol><li>Submit to local district office (시/군/구청)</li><li>Facility inspection</li><li>Registration certificate issued (approx. 7–14 business days)</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Does a yoga studio need this registration?</p><p class="faq-a">A. Yoga is generally not a designated sport, so a different registration (체육시설업) may apply. Confirm with the local sports authority.</p></div></div><div class="cta-box"><h3>Register Your Sports Club Legally</h3><p>YouSun Administrative Agency handles sports business registrations.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'sports-club-establishment-guide',
     locale: 'zh',
     title: '韩国指定体育俱乐部设立登记指南2026',
     metaTitle: '韩国体育俱乐部登记2026 — 指定体育项目营业执照',
-    metaDescription: '在韩国登记体育俱乐部或指定体育项目经营业的方法。设施要求、教练资格、所需材料及申请流程。专业行政士免费初次咨询。本文依次说明申请资格、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '在韩国登记体育俱乐部或指定体育项目经营业的方法。设施要求、教练资格、所需材料及申请流程。专业行政士初次咨询。本文依次说明申请资格、所需材料、申请流程，可按步骤逐项确认。',
     category: '体育',
     excerpt: '韩国合法登记体育俱乐部（指定体育道场）为指定体育项目经营业的指南，包括要求、材料及程序。',
-    content: `<h2>1. 什么是指定体育项目经营业？</h2><p>依据韩国《体育振兴法》，提供指定体育项目（跆拳道、柔道、拳击、合气道等）培训的企业须向当地政府登记为<strong>指定体育项目经营业（체육도장업）</strong>。</p><h2>2. 申请资格</h2><ul><li>相关体育项目至少一名持有证书的教练（단증보유者）</li><li>设施须满足最低面积要求（按项目不同而异）</li><li>适合该体育项目的安全设备和地板</li></ul><h2>3. 所需材料</h2><ul><li>体育事业登记申请书</li><li>教练证书（段位证书）</li><li>设施租赁合同</li><li>显示训练区域的平面图</li><li>安全设备清单</li></ul><h2>4. 申请流程</h2><ol><li>向当地区政府提交</li><li>设施检查</li><li>颁发登记证（约7~14个工作日）</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 瑜伽馆需要此登记吗？</p><p class="faq-a">A. 瑜伽通常不是指定体育项目，可能需要其他登记（체육시설업）。请向当地体育管理部门确认。</p></div></div><div class="cta-box"><h3>合法登记体育俱乐部</h3><p>YouSun Administrative Agency负责体育事业登记。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<h2>1. 什么是指定体育项目经营业？</h2><p>依据韩国《体育振兴法》，提供指定体育项目（跆拳道、柔道、拳击、合气道等）培训的企业须向当地政府登记为<strong>指定体育项目经营业（체육도장업）</strong>。</p><h2>2. 申请资格</h2><ul><li>相关体育项目至少一名持有证书的教练（단증보유者）</li><li>设施须满足最低面积要求（按项目不同而异）</li><li>适合该体育项目的安全设备和地板</li></ul><h2>3. 所需材料</h2><ul><li>体育事业登记申请书</li><li>教练证书（段位证书）</li><li>设施租赁合同</li><li>显示训练区域的平面图</li><li>安全设备清单</li></ul><h2>4. 申请流程</h2><ol><li>向当地区政府提交</li><li>设施检查</li><li>颁发登记证（约7~14个工作日）</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 瑜伽馆需要此登记吗？</p><p class="faq-a">A. 瑜伽通常不是指定体育项目，可能需要其他登记（체육시설업）。请向当地体育管理部门确认。</p></div></div><div class="cta-box"><h3>合法登记体育俱乐部</h3><p>YouSun Administrative Agency负责体育事业登记。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'sports-club-establishment-guide',
     locale: 'ja',
     title: '韓国指定スポーツクラブ設立登録ガイド2026',
     metaTitle: '韓国スポーツクラブ登録2026 — 指定スポーツ事業許可',
-    metaDescription: '韓国で体育道場（指定スポーツ事業）を登録する方法。施設要件、指導者資格、必要書類と申請手続き。行政士による無料初回相談あり。申請資格・必要書類・申請手続きまで順に確認できます。',
+    metaDescription: '韓国で体育道場（指定スポーツ事業）を登録する方法。施設要件、指導者資格、必要書類と申請手続き。行政士による初回相談あり。申請資格・必要書類・申請手続きまで順に確認できます。',
     category: 'スポーツ',
     excerpt: '韓国でスポーツクラブ（指定スポーツ체育도장）を指定スポーツ事業として合法的に登録する方法 — 要件、書類、手続きを解説します。',
-    content: `<h2>1. 指定スポーツ事業とは？</h2><p>韓国の<strong>スポーツ振興法</strong>に基づき、指定スポーツ（テコンドー、柔道、ボクシング、合気道など）の指導を提供する事業者は、地方政府に<strong>指定スポーツ事業（체육도장업）</strong>として登録する必要があります。</p><h2>2. 申請資格</h2><ul><li>関連スポーツに少なくとも1名の認定指導者（단증保有者）</li><li>施設はスポーツによって異なる最低面積要件を満たすこと</li><li>そのスポーツに適した安全設備とマット/床材</li></ul><h2>3. 必要書類</h2><ul><li>スポーツ事業登録申請書</li><li>指導者の資格証明書（段位証書）</li><li>施設賃貸借契約書</li><li>トレーニングエリアを示す平面図</li><li>安全設備リスト</li></ul><h2>4. 申請手続き</h2><ol><li>地方区役所（시/군/구청）に提出</li><li>施設検査</li><li>登録証の発行（約7〜14営業日）</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. ヨガスタジオはこの登録が必要ですか？</p><p class="faq-a">A. ヨガは一般的に指定スポーツではないため、別の登録（체육시설업）が適用される場合があります。地方スポーツ当局にご確認ください。</p></div></div><div class="cta-box"><h3>スポーツクラブを合法的に登録しましょう</h3><p>YouSun Administrative Agencyがスポーツ事業登録を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<h2>1. 指定スポーツ事業とは？</h2><p>韓国の<strong>スポーツ振興法</strong>に基づき、指定スポーツ（テコンドー、柔道、ボクシング、合気道など）の指導を提供する事業者は、地方政府に<strong>指定スポーツ事業（체육도장업）</strong>として登録する必要があります。</p><h2>2. 申請資格</h2><ul><li>関連スポーツに少なくとも1名の認定指導者（단증保有者）</li><li>施設はスポーツによって異なる最低面積要件を満たすこと</li><li>そのスポーツに適した安全設備とマット/床材</li></ul><h2>3. 必要書類</h2><ul><li>スポーツ事業登録申請書</li><li>指導者の資格証明書（段位証書）</li><li>施設賃貸借契約書</li><li>トレーニングエリアを示す平面図</li><li>安全設備リスト</li></ul><h2>4. 申請手続き</h2><ol><li>地方区役所（시/군/구청）に提出</li><li>施設検査</li><li>登録証の発行（約7〜14営業日）</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. ヨガスタジオはこの登録が必要ですか？</p><p class="faq-a">A. ヨガは一般的に指定スポーツではないため、別の登録（체육시설업）が適用される場合があります。地方スポーツ当局にご確認ください。</p></div></div><div class="cta-box"><h3>スポーツクラブを合法的に登録しましょう</h3><p>YouSun Administrative Agencyがスポーツ事業登録を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 30: manufacturing-business-registration-procedure ────────────────
@@ -2350,27 +2350,27 @@ const blogData: BlogI18n[] = [
     metaDescription: 'How to register a manufacturing business in Korea in 2026. Factory registration, business license, required documents, and compliance checklist.',
     category: 'Manufacturing',
     excerpt: 'A complete step-by-step guide to registering a manufacturing business in Korea, including factory registration, required permits, and compliance essentials.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Manufacturing Registration</li><li>Types of Manufacturing Licenses</li><li>Key Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Compliance</li><li>FAQ</li></ol></div><h2>1. Overview of Manufacturing Registration</h2><p>Starting a manufacturing business in Korea requires registering with the local government and, depending on the product, obtaining additional sector-specific permits. The primary framework is the <strong>Industrial Cluster Development and Factory Establishment Support Act</strong>.</p><p>For a foreign company, none of this can start before a Korean entity exists. Foreign investment notification under the Foreign Investment Promotion Act, corporate registration and business registration all come first — that stage is covered by A-One Certified Administrative Agent in <a href="https://investkorea.co.kr/en/company/fdi" target="_blank" rel="noopener">FDI company setup</a>. Once the entity is registered, the factory and manufacturing procedure below applies to it on the same terms as a domestic company.</p><div class="card xsite-card"><p class="xsite-kicker">RELATED SPECIALIST GUIDE</p><p class="xsite-title">FDI company setup — A-One Certified Administrative Agent</p><p class="xsite-desc">Foreign investment notification, corporate registration and business registration — the stage that must be completed before any factory or manufacturing filing.</p><a class="btn btn-primary xsite-btn" href="https://investkorea.co.kr/en/company/fdi" target="_blank" rel="noopener">View FDI company setup</a></div><h2>2. Types of Manufacturing Licenses</h2><ul><li><strong>Factory registration</strong> (공장등록) — for facilities ≥500 m²</li><li><strong>Business registration</strong> (사업자등록) — mandatory for all businesses</li><li><strong>Sector-specific permits</strong> — food, cosmetics, pharmaceuticals each require separate approval</li></ul><h2>3. Key Requirements</h2><ul><li>Zoning: facility must be in an area permitted for manufacturing</li><li>Minimum facility size requirements depending on product category</li><li>Environmental compliance: waste, noise, emissions permits if applicable</li><li>Fire safety inspection clearance</li></ul><h2>4. Required Documents</h2><ul><li>Factory establishment application form</li><li>Building permit or building use confirmation documents</li><li>Layout/floor plan of the facility</li><li>Environmental impact review (if required by product)</li><li>Corporate registration documents (for legal entities)</li></ul><h2>5. Application Procedure</h2><ol><li>Submit factory establishment application to local city/county office</li><li>Environmental and safety review (timing varies by authority)</li><li>On-site inspection</li><li>Factory registration certificate issued</li><li>Apply for business registration at the tax office</li></ol><h2>6. Post-Registration Compliance</h2><ul><li>Annual factory status report required</li><li>Environmental compliance reports (quarterly or annual)</li><li>Notify authorities of facility changes within 30 days</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner or foreign company register a manufacturing business in Korea?</p><p class="faq-a">A. Yes. Foreign-invested companies follow the same registration procedure after completing foreign investment notification with KOTRA or a bank.</p></div><div class="faq-item"><p class="faq-q">Q. How long does the full process take?</p><p class="faq-a">A. Typically 4–8 weeks from application submission to receiving the factory registration certificate.</p></div></div><div class="cta-box"><h3>Start Your Manufacturing Business in Korea</h3><p>YouSun Administrative Agency handles factory and manufacturing business registration from start to finish. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Manufacturing Registration</li><li>Types of Manufacturing Licenses</li><li>Key Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Compliance</li><li>FAQ</li></ol></div><h2>1. Overview of Manufacturing Registration</h2><p>Starting a manufacturing business in Korea requires registering with the local government and, depending on the product, obtaining additional sector-specific permits. The primary framework is the <strong>Industrial Cluster Development and Factory Establishment Support Act</strong>.</p><p>For a foreign company, none of this can start before a Korean entity exists. Foreign investment notification under the Foreign Investment Promotion Act, corporate registration and business registration all come first — that stage is covered by A-One Certified Administrative Agent in <a href="https://investkorea.co.kr/en/company/fdi" target="_blank" rel="noopener">FDI company setup</a>. Once the entity is registered, the factory and manufacturing procedure below applies to it on the same terms as a domestic company.</p><div class="card xsite-card"><p class="xsite-kicker">RELATED SPECIALIST GUIDE</p><p class="xsite-title">FDI company setup — A-One Certified Administrative Agent</p><p class="xsite-desc">Foreign investment notification, corporate registration and business registration — the stage that must be completed before any factory or manufacturing filing.</p><a class="btn btn-primary xsite-btn" href="https://investkorea.co.kr/en/company/fdi" target="_blank" rel="noopener">View FDI company setup</a></div><h2>2. Types of Manufacturing Licenses</h2><ul><li><strong>Factory registration</strong> (공장등록) — for facilities ≥500 m²</li><li><strong>Business registration</strong> (사업자등록) — mandatory for all businesses</li><li><strong>Sector-specific permits</strong> — food, cosmetics, pharmaceuticals each require separate approval</li></ul><h2>3. Key Requirements</h2><ul><li>Zoning: facility must be in an area permitted for manufacturing</li><li>Minimum facility size requirements depending on product category</li><li>Environmental compliance: waste, noise, emissions permits if applicable</li><li>Fire safety inspection clearance</li></ul><h2>4. Required Documents</h2><ul><li>Factory establishment application form</li><li>Building permit or building use confirmation documents</li><li>Layout/floor plan of the facility</li><li>Environmental impact review (if required by product)</li><li>Corporate registration documents (for legal entities)</li></ul><h2>5. Application Procedure</h2><ol><li>Submit factory establishment application to local city/county office</li><li>Environmental and safety review (timing varies by authority)</li><li>On-site inspection</li><li>Factory registration certificate issued</li><li>Apply for business registration at the tax office</li></ol><h2>6. Post-Registration Compliance</h2><ul><li>Annual factory status report required</li><li>Environmental compliance reports (quarterly or annual)</li><li>Notify authorities of facility changes within 30 days</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner or foreign company register a manufacturing business in Korea?</p><p class="faq-a">A. Yes. Foreign-invested companies follow the same registration procedure after completing foreign investment notification with KOTRA or a bank.</p></div><div class="faq-item"><p class="faq-q">Q. How long does the full process take?</p><p class="faq-a">A. Typically 4–8 weeks from application submission to receiving the factory registration certificate.</p></div></div><div class="cta-box"><h3>Start Your Manufacturing Business in Korea</h3><p>YouSun Administrative Agency handles factory and manufacturing business registration from start to finish.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'manufacturing-business-registration-procedure',
     locale: 'zh',
     title: '韩国制造业登记程序2026完全指南',
     metaTitle: '韩国制造业登记2026 — 完整申请流程',
-    metaDescription: '2026年在韩国登记制造业的完整指南。工厂登记、营业执照、所需材料及合规清单。YouSun Administrative Agency免费初次咨询。',
+    metaDescription: '2026年在韩国登记制造业的完整指南。工厂登记、营业执照、所需材料及合规清单。YouSun Administrative Agency初次咨询。',
     category: '制造业',
     excerpt: '在韩国登记制造业的完整分步指南，包括工厂登记、所需许可证及合规要点。',
-    content: `<div class="toc"><p>目录</p><ol><li>制造业登记概述</li><li>制造许可证类型</li><li>主要要求</li><li>所需材料</li><li>申请流程</li><li>登记后合规</li><li>常见问题</li></ol></div><h2>1. 制造业登记概述</h2><p>在韩国开展制造业，须向当地政府登记，且根据产品类别，还需取得特定行业许可证。主要法律框架为<strong>《产业集群开发及工厂设立支持法》</strong>。</p><h2>2. 制造许可证类型</h2><ul><li><strong>工厂登记</strong>（공장등록）— 适用于500m²以上设施</li><li><strong>营业执照</strong>（사업자등록）— 所有企业必须办理</li><li><strong>特定行业许可证</strong> — 食品、化妆品、药品各需单独批准</li></ul><h2>3. 主要要求</h2><ul><li>用地分区：设施须位于允许制造业的区域</li><li>根据产品类别的最低设施面积要求</li><li>环境合规：如适用，需办理废物、噪音、排放许可证</li><li>消防安全检查合格</li></ul><h2>4. 所需材料</h2><ul><li>工厂设立申请表</li><li>建筑许可证或建筑用途确认文件</li><li>设施布局/平面图</li><li>环境影响评审（如产品要求）</li><li>企业登记文件（法人实体）</li></ul><h2>5. 申请流程</h2><ol><li>向当地市/郡办公室提交工厂设立申请</li><li>环境和安全审查（时间因主管机关而异）</li><li>现场检查</li><li>颁发工厂登记证</li><li>向税务局申请营业执照</li></ol><h2>6. 登记后合规</h2><ul><li>需年度工厂状态报告</li><li>环境合规报告（按类别每季度或每年提交）</li><li>设施变更须在30天内通知主管部门</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人或外国公司能在韩国登记制造业吗？</p><p class="faq-a">A. 可以。外资企业在通过KOTRA或银行完成外国投资申报后，按相同流程办理登记。</p></div><div class="faq-item"><p class="faq-q">Q. 整个流程需要多长时间？</p><p class="faq-a">A. 从提交申请到收到工厂登记证通常需要4~8周。</p></div></div><div class="cta-box"><h3>在韩国开创制造业</h3><p>YouSun Administrative Agency全程代办工厂及制造业登记。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>制造业登记概述</li><li>制造许可证类型</li><li>主要要求</li><li>所需材料</li><li>申请流程</li><li>登记后合规</li><li>常见问题</li></ol></div><h2>1. 制造业登记概述</h2><p>在韩国开展制造业，须向当地政府登记，且根据产品类别，还需取得特定行业许可证。主要法律框架为<strong>《产业集群开发及工厂设立支持法》</strong>。</p><h2>2. 制造许可证类型</h2><ul><li><strong>工厂登记</strong>（공장등록）— 适用于500m²以上设施</li><li><strong>营业执照</strong>（사업자등록）— 所有企业必须办理</li><li><strong>特定行业许可证</strong> — 食品、化妆品、药品各需单独批准</li></ul><h2>3. 主要要求</h2><ul><li>用地分区：设施须位于允许制造业的区域</li><li>根据产品类别的最低设施面积要求</li><li>环境合规：如适用，需办理废物、噪音、排放许可证</li><li>消防安全检查合格</li></ul><h2>4. 所需材料</h2><ul><li>工厂设立申请表</li><li>建筑许可证或建筑用途确认文件</li><li>设施布局/平面图</li><li>环境影响评审（如产品要求）</li><li>企业登记文件（法人实体）</li></ul><h2>5. 申请流程</h2><ol><li>向当地市/郡办公室提交工厂设立申请</li><li>环境和安全审查（时间因主管机关而异）</li><li>现场检查</li><li>颁发工厂登记证</li><li>向税务局申请营业执照</li></ol><h2>6. 登记后合规</h2><ul><li>需年度工厂状态报告</li><li>环境合规报告（按类别每季度或每年提交）</li><li>设施变更须在30天内通知主管部门</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人或外国公司能在韩国登记制造业吗？</p><p class="faq-a">A. 可以。外资企业在通过KOTRA或银行完成外国投资申报后，按相同流程办理登记。</p></div><div class="faq-item"><p class="faq-q">Q. 整个流程需要多长时间？</p><p class="faq-a">A. 从提交申请到收到工厂登记证通常需要4~8周。</p></div></div><div class="cta-box"><h3>在韩国开创制造业</h3><p>YouSun Administrative Agency全程代办工厂及制造业登记。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'manufacturing-business-registration-procedure',
     locale: 'ja',
     title: '韓国製造業登録手続き2026完全ガイド',
     metaTitle: '韓国製造業登録2026 — 完全申請手続き',
-    metaDescription: '2026年に韓国で製造業を登録する方法。工場登録、事業許可、必要書類、コンプライアンスチェックリスト。YouSun Administrative Agencyによる無料初回相談。',
+    metaDescription: '2026年に韓国で製造業を登録する方法。工場登録、事業許可、必要書類、コンプライアンスチェックリスト。YouSun Administrative Agencyによる初回相談。',
     category: '製造業',
     excerpt: '韓国で製造業を登録するための完全なステップバイステップガイド。工場登録、必要許可、コンプライアンスの基礎を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>製造業登録の概要</li><li>製造許可の種類</li><li>主な要件</li><li>必要書類</li><li>申請手続き</li><li>登録後のコンプライアンス</li><li>よくある質問</li></ol></div><h2>1. 製造業登録の概要</h2><p>韓国で製造業を開始するには、地方自治体への登録が必要で、製品によっては追加の業種別許可も必要です。主要な法的枠組みは<strong>「産業クラスター開発および工場設立支援に関する法律」</strong>です。</p><h2>2. 製造許可の種類</h2><ul><li><strong>工場登録</strong>（공장등록）— 500m²以上の施設に適用</li><li><strong>事業者登録</strong>（사업자등록）— すべての事業者に必須</li><li><strong>業種別許可</strong> — 食品、化粧品、医薬品はそれぞれ別途承認が必要</li></ul><h2>3. 主な要件</h2><ul><li>ゾーニング：施設は製造業が許可された区域に位置すること</li><li>製品カテゴリーによる最低施設面積要件</li><li>環境コンプライアンス：該当する場合、廃棄物・騒音・排出許可</li><li>消防安全検査の合格</li></ul><h2>4. 必要書類</h2><ul><li>工場設立申請書</li><li>建築許可証または建物用途確認書類</li><li>施設のレイアウト/平面図</li><li>環境影響審査（製品によって必要な場合）</li><li>法人登記書類（法人の場合）</li></ul><h2>5. 申請手続き</h2><ol><li>地方市区町村役場に工場設立申請を提出</li><li>環境・安全審査（期間は管轄機関により異なる）</li><li>現地検査</li><li>工場登録証の交付</li><li>税務署で事業者登録を申請</li></ol><h2>6. 登録後のコンプライアンス</h2><ul><li>年次工場状況報告が必要</li><li>環境コンプライアンス報告（カテゴリーにより四半期または年次）</li><li>施設の変更は30日以内に当局に通知</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人や外国企業も韓国で製造業を登録できますか？</p><p class="faq-a">A. はい。外国投資企業はKOTRAまたは銀行で外国投資届出を完了した後、同じ登録手続きに従います。</p></div><div class="faq-item"><p class="faq-q">Q. 全体のプロセスにはどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。</p></div></div><div class="cta-box"><h3>韓国で製造業を始めましょう</h3><p>YouSun Administrative Agencyが工場・製造業登録を最初から最後まで対応します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>製造業登録の概要</li><li>製造許可の種類</li><li>主な要件</li><li>必要書類</li><li>申請手続き</li><li>登録後のコンプライアンス</li><li>よくある質問</li></ol></div><h2>1. 製造業登録の概要</h2><p>韓国で製造業を開始するには、地方自治体への登録が必要で、製品によっては追加の業種別許可も必要です。主要な法的枠組みは<strong>「産業クラスター開発および工場設立支援に関する法律」</strong>です。</p><h2>2. 製造許可の種類</h2><ul><li><strong>工場登録</strong>（공장등록）— 500m²以上の施設に適用</li><li><strong>事業者登録</strong>（사업자등록）— すべての事業者に必須</li><li><strong>業種別許可</strong> — 食品、化粧品、医薬品はそれぞれ別途承認が必要</li></ul><h2>3. 主な要件</h2><ul><li>ゾーニング：施設は製造業が許可された区域に位置すること</li><li>製品カテゴリーによる最低施設面積要件</li><li>環境コンプライアンス：該当する場合、廃棄物・騒音・排出許可</li><li>消防安全検査の合格</li></ul><h2>4. 必要書類</h2><ul><li>工場設立申請書</li><li>建築許可証または建物用途確認書類</li><li>施設のレイアウト/平面図</li><li>環境影響審査（製品によって必要な場合）</li><li>法人登記書類（法人の場合）</li></ul><h2>5. 申請手続き</h2><ol><li>地方市区町村役場に工場設立申請を提出</li><li>環境・安全審査（期間は管轄機関により異なる）</li><li>現地検査</li><li>工場登録証の交付</li><li>税務署で事業者登録を申請</li></ol><h2>6. 登録後のコンプライアンス</h2><ul><li>年次工場状況報告が必要</li><li>環境コンプライアンス報告（カテゴリーにより四半期または年次）</li><li>施設の変更は30日以内に当局に通知</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人や外国企業も韓国で製造業を登録できますか？</p><p class="faq-a">A. はい。外国投資企業はKOTRAまたは銀行で外国投資届出を完了した後、同じ登録手続きに従います。</p></div><div class="faq-item"><p class="faq-q">Q. 全体のプロセスにはどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。</p></div></div><div class="cta-box"><h3>韓国で製造業を始めましょう</h3><p>YouSun Administrative Agencyが工場・製造業登録を最初から最後まで対応します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 31: factory-registration-application-guide ───────────────────────
@@ -2382,27 +2382,27 @@ const blogData: BlogI18n[] = [
     metaDescription: 'Step-by-step guide to factory registration in Korea. Zoning rules, required documents, inspection process, and common mistakes to avoid.',
     category: 'Manufacturing',
     excerpt: 'A practical guide to factory registration applications in Korea — zoning, documents, inspections, and how to avoid common rejection pitfalls.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Factory Registration?</li><li>Who Must Register?</li><li>Zoning and Location Requirements</li><li>Required Documents</li><li>Application and Inspection Process</li><li>Common Rejection Reasons</li><li>FAQ</li></ol></div><h2>1. What Is Factory Registration?</h2><p>Factory registration (공장등록) is a legal requirement for manufacturing facilities exceeding 500 m² of floor area. It is managed by local city or county offices under the Factory Establishment Act.</p><h2>2. Who Must Register?</h2><ul><li>Any manufacturing facility with ≥500 m² total floor area</li><li>Facilities in industrial complex zones regardless of size</li><li>New constructions and existing facilities changing product categories</li></ul><h2>3. Zoning and Location Requirements</h2><ul><li>Industrial zones (준공업지역, 공업지역) are automatically eligible</li><li>Commercial and residential zones: manufacturing is restricted</li><li>Agricultural land requires land-use change before factory construction</li></ul><h2>4. Required Documents</h2><ul><li>Factory registration application</li><li>Architectural drawings (floor plan, elevation)</li><li>Building permit or completion inspection certificate</li><li>Business registration certificate</li><li>Environmental permit (if applicable)</li><li>Fire safety inspection certificate</li></ul><h2>5. Application and Inspection Process</h2><ol><li>Submit application to local city/county factory registration office</li><li>Document review (timing varies by authority)</li><li>On-site inspection by local officials</li><li>Factory registration certificate issued</li><li>Register with the factory information system (FAIS)</li></ol><h2>6. Common Rejection Reasons</h2><ul><li>Facility located in a non-permitted zone</li><li>Missing or incomplete architectural drawings</li><li>Outstanding building code violations</li><li>Environmental permit not yet obtained</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Is factory registration the same as business registration?</p><p class="faq-a">A. No. Factory registration (with local government) and business registration (with the tax office) are separate processes. Both are required.</p></div><div class="faq-item"><p class="faq-q">Q. Can I operate before registration is complete?</p><p class="faq-a">A. Operating a facility that requires factory registration without one can result in fines and mandatory closure orders.</p></div></div><div class="cta-box"><h3>Get Your Factory Registered Correctly</h3><p>YouSun Administrative Agency prepares and submits factory registration applications. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Factory Registration?</li><li>Who Must Register?</li><li>Zoning and Location Requirements</li><li>Required Documents</li><li>Application and Inspection Process</li><li>Common Rejection Reasons</li><li>FAQ</li></ol></div><h2>1. What Is Factory Registration?</h2><p>Factory registration (공장등록) is a legal requirement for manufacturing facilities exceeding 500 m² of floor area. It is managed by local city or county offices under the Factory Establishment Act.</p><h2>2. Who Must Register?</h2><ul><li>Any manufacturing facility with ≥500 m² total floor area</li><li>Facilities in industrial complex zones regardless of size</li><li>New constructions and existing facilities changing product categories</li></ul><h2>3. Zoning and Location Requirements</h2><ul><li>Industrial zones (준공업지역, 공업지역) are automatically eligible</li><li>Commercial and residential zones: manufacturing is restricted</li><li>Agricultural land requires land-use change before factory construction</li></ul><h2>4. Required Documents</h2><ul><li>Factory registration application</li><li>Architectural drawings (floor plan, elevation)</li><li>Building permit or completion inspection certificate</li><li>Business registration certificate</li><li>Environmental permit (if applicable)</li><li>Fire safety inspection certificate</li></ul><h2>5. Application and Inspection Process</h2><ol><li>Submit application to local city/county factory registration office</li><li>Document review (timing varies by authority)</li><li>On-site inspection by local officials</li><li>Factory registration certificate issued</li><li>Register with the factory information system (FAIS)</li></ol><h2>6. Common Rejection Reasons</h2><ul><li>Facility located in a non-permitted zone</li><li>Missing or incomplete architectural drawings</li><li>Outstanding building code violations</li><li>Environmental permit not yet obtained</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Is factory registration the same as business registration?</p><p class="faq-a">A. No. Factory registration (with local government) and business registration (with the tax office) are separate processes. Both are required.</p></div><div class="faq-item"><p class="faq-q">Q. Can I operate before registration is complete?</p><p class="faq-a">A. Operating a facility that requires factory registration without one can result in fines and mandatory closure orders.</p></div></div><div class="cta-box"><h3>Get Your Factory Registered Correctly</h3><p>YouSun Administrative Agency prepares and submits factory registration applications.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'factory-registration-application-guide',
     locale: 'zh',
     title: '韩国工厂登记申请指南2026',
     metaTitle: '韩国工厂登记申请2026 — 所需材料与流程',
-    metaDescription: '韩国工厂登记分步指南。用地分区规定、所需材料、检查流程及常见错误规避。YouSun Administrative Agency免费初次咨询。',
+    metaDescription: '韩国工厂登记分步指南。用地分区规定、所需材料、检查流程及常见错误规避。YouSun Administrative Agency初次咨询。',
     category: '制造业',
     excerpt: '韩国工厂登记申请实用指南，涵盖用地分区、材料、检查及避免常见被拒原因的要点。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是工厂登记？</li><li>哪些主体须进行登记？</li><li>用地分区与选址要求</li><li>所需材料</li><li>申请与检查流程</li><li>常见被拒原因</li><li>常见问题</li></ol></div><h2>1. 什么是工厂登记？</h2><p>工厂登记（공장등록）是建筑面积超过500m²的制造业设施的法定要求，由地方市/郡办公室依据《工厂设立法》管理。</p><h2>2. 哪些主体须进行登记？</h2><ul><li>总建筑面积≥500m²的任何制造设施</li><li>工业园区内的设施（无论规模大小）</li><li>新建设施及变更产品类别的现有设施</li></ul><h2>3. 用地分区与选址要求</h2><ul><li>工业区（준공업지역、공업지역）自动符合资格</li><li>商业区和住宅区：制造业受限</li><li>农业用地须先变更土地用途，方可建厂</li></ul><h2>4. 所需材料</h2><ul><li>工厂登记申请表</li><li>建筑图纸（平面图、立面图）</li><li>建筑许可证或竣工验收证明</li><li>营业执照</li><li>环保许可证（如适用）</li><li>消防安全检查证明</li></ul><h2>5. 申请与检查流程</h2><ol><li>向当地市/郡工厂登记办公室提交申请</li><li>材料审查（时间因主管机关而异）</li><li>地方官员现场检查</li><li>颁发工厂登记证</li><li>在工厂信息系统（FAIS）登记</li></ol><h2>6. 常见被拒原因</h2><ul><li>设施位于非许可区域</li><li>建筑图纸缺失或不完整</li><li>存在未解决的建筑规范违规问题</li><li>尚未取得环保许可证</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 工厂登记与营业执照登记相同吗？</p><p class="faq-a">A. 不同。工厂登记（向地方政府）和营业执照登记（向税务局）是两个独立流程，均须办理。</p></div><div class="faq-item"><p class="faq-q">Q. 登记完成前能运营吗？</p><p class="faq-a">A. 在未完成必要工厂登记的情况下运营可能面临罚款及强制停业命令。</p></div></div><div class="cta-box"><h3>正确完成工厂登记</h3><p>YouSun Administrative Agency负责准备并提交工厂登记申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是工厂登记？</li><li>哪些主体须进行登记？</li><li>用地分区与选址要求</li><li>所需材料</li><li>申请与检查流程</li><li>常见被拒原因</li><li>常见问题</li></ol></div><h2>1. 什么是工厂登记？</h2><p>工厂登记（공장등록）是建筑面积超过500m²的制造业设施的法定要求，由地方市/郡办公室依据《工厂设立法》管理。</p><h2>2. 哪些主体须进行登记？</h2><ul><li>总建筑面积≥500m²的任何制造设施</li><li>工业园区内的设施（无论规模大小）</li><li>新建设施及变更产品类别的现有设施</li></ul><h2>3. 用地分区与选址要求</h2><ul><li>工业区（준공업지역、공업지역）自动符合资格</li><li>商业区和住宅区：制造业受限</li><li>农业用地须先变更土地用途，方可建厂</li></ul><h2>4. 所需材料</h2><ul><li>工厂登记申请表</li><li>建筑图纸（平面图、立面图）</li><li>建筑许可证或竣工验收证明</li><li>营业执照</li><li>环保许可证（如适用）</li><li>消防安全检查证明</li></ul><h2>5. 申请与检查流程</h2><ol><li>向当地市/郡工厂登记办公室提交申请</li><li>材料审查（时间因主管机关而异）</li><li>地方官员现场检查</li><li>颁发工厂登记证</li><li>在工厂信息系统（FAIS）登记</li></ol><h2>6. 常见被拒原因</h2><ul><li>设施位于非许可区域</li><li>建筑图纸缺失或不完整</li><li>存在未解决的建筑规范违规问题</li><li>尚未取得环保许可证</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 工厂登记与营业执照登记相同吗？</p><p class="faq-a">A. 不同。工厂登记（向地方政府）和营业执照登记（向税务局）是两个独立流程，均须办理。</p></div><div class="faq-item"><p class="faq-q">Q. 登记完成前能运营吗？</p><p class="faq-a">A. 在未完成必要工厂登记的情况下运营可能面临罚款及强制停业命令。</p></div></div><div class="cta-box"><h3>正确完成工厂登记</h3><p>YouSun Administrative Agency负责准备并提交工厂登记申请。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'factory-registration-application-guide',
     locale: 'ja',
     title: '韓国工場登録申請ガイド2026',
     metaTitle: '韓国工場登録申請2026 — 必要書類と手続き',
-    metaDescription: '韓国の工場登録申請ステップバイステップガイド。ゾーニングルール、必要書類、検査プロセス、よくある却下理由。YouSun Administrative Agencyによる無料初回相談。',
+    metaDescription: '韓国の工場登録申請ステップバイステップガイド。ゾーニングルール、必要書類、検査プロセス、よくある却下理由。YouSun Administrative Agencyによる初回相談。',
     category: '製造業',
     excerpt: '韓国の工場登録申請の実践ガイド — ゾーニング、書類、検査、よくある却下理由の回避方法を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>工場登録とは？</li><li>登録が必要な対象</li><li>ゾーニングと立地要件</li><li>必要書類</li><li>申請・検査プロセス</li><li>よくある却下理由</li><li>よくある質問</li></ol></div><h2>1. 工場登録とは？</h2><p>工場登録（공장등록）は、延べ床面積500m²を超える製造施設に義務付けられた法的要件です。工場設立法に基づき、地方市区町村役場が管理します。</p><h2>2. 登録が必要な対象</h2><ul><li>総延べ床面積が500m²以上の製造施設</li><li>工業団地内の施設（規模に関わらず）</li><li>新規建設および製品カテゴリーを変更する既存施設</li></ul><h2>3. ゾーニングと立地要件</h2><ul><li>工業地域（준공업지역、공업지역）は自動的に適格</li><li>商業地域・住宅地域：製造業は制限あり</li><li>農地は工場建設前に用途変更が必要</li></ul><h2>4. 必要書類</h2><ul><li>工場登録申請書</li><li>建築図面（平面図、立面図）</li><li>建築許可証または完工検査証明書</li><li>事業者登録証</li><li>環境許可証（該当する場合）</li><li>消防安全検査証明書</li></ul><h2>5. 申請・検査プロセス</h2><ol><li>地方市区町村の工場登録窓口に申請書を提出</li><li>書類審査（期間は管轄機関により異なる）</li><li>地方担当者による現地検査</li><li>工場登録証の交付</li><li>工場情報システム（FAIS）に登録</li></ol><h2>6. よくある却下理由</h2><ul><li>施設が許可区域外に立地している</li><li>建築図面が不備または不完全</li><li>未解決の建築基準法違反がある</li><li>環境許可証がまだ取得できていない</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 工場登録と事業者登録は同じですか？</p><p class="faq-a">A. 異なります。工場登録（地方自治体）と事業者登録（税務署）は別々のプロセスで、両方必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 登録完了前に操業できますか？</p><p class="faq-a">A. 工場登録が必要な施設を無登録で操業すると、罰金および強制閉鎖命令の対象となります。</p></div></div><div class="cta-box"><h3>工場を正しく登録しましょう</h3><p>YouSun Administrative Agencyが工場登録申請を準備・提出します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>工場登録とは？</li><li>登録が必要な対象</li><li>ゾーニングと立地要件</li><li>必要書類</li><li>申請・検査プロセス</li><li>よくある却下理由</li><li>よくある質問</li></ol></div><h2>1. 工場登録とは？</h2><p>工場登録（공장등록）は、延べ床面積500m²を超える製造施設に義務付けられた法的要件です。工場設立法に基づき、地方市区町村役場が管理します。</p><h2>2. 登録が必要な対象</h2><ul><li>総延べ床面積が500m²以上の製造施設</li><li>工業団地内の施設（規模に関わらず）</li><li>新規建設および製品カテゴリーを変更する既存施設</li></ul><h2>3. ゾーニングと立地要件</h2><ul><li>工業地域（준공업지역、공업지역）は自動的に適格</li><li>商業地域・住宅地域：製造業は制限あり</li><li>農地は工場建設前に用途変更が必要</li></ul><h2>4. 必要書類</h2><ul><li>工場登録申請書</li><li>建築図面（平面図、立面図）</li><li>建築許可証または完工検査証明書</li><li>事業者登録証</li><li>環境許可証（該当する場合）</li><li>消防安全検査証明書</li></ul><h2>5. 申請・検査プロセス</h2><ol><li>地方市区町村の工場登録窓口に申請書を提出</li><li>書類審査（期間は管轄機関により異なる）</li><li>地方担当者による現地検査</li><li>工場登録証の交付</li><li>工場情報システム（FAIS）に登録</li></ol><h2>6. よくある却下理由</h2><ul><li>施設が許可区域外に立地している</li><li>建築図面が不備または不完全</li><li>未解決の建築基準法違反がある</li><li>環境許可証がまだ取得できていない</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 工場登録と事業者登録は同じですか？</p><p class="faq-a">A. 異なります。工場登録（地方自治体）と事業者登録（税務署）は別々のプロセスで、両方必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 登録完了前に操業できますか？</p><p class="faq-a">A. 工場登録が必要な施設を無登録で操業すると、罰金および強制閉鎖命令の対象となります。</p></div></div><div class="cta-box"><h3>工場を正しく登録しましょう</h3><p>YouSun Administrative Agencyが工場登録申請を準備・提出します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 32: venture-tax-benefits ────────────────────────────────────────
@@ -2411,30 +2411,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Venture Company Tax Benefits in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Venture Company Tax Benefits 2026 — Reductions & Credits Explained',
-    metaDescription: 'All tax benefits available to KOSME-certified venture companies in Korea: income tax reduction, acquisition tax exemption. Free consultation.',
+    metaDescription: 'All tax benefits available to KOSME-certified venture companies in Korea: income tax reduction, acquisition tax exemption.',
     category: 'Business Certification',
     excerpt: 'A comprehensive guide to the tax benefits available to certified venture companies in Korea, including income tax reductions, acquisition tax exemptions, and investment incentives.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Venture Tax Benefits</li><li>Income Tax Reduction</li><li>Acquisition Tax and Property Tax Exemptions</li><li>Capital Gains Tax Benefit for Investors</li><li>Stock Option Tax Deferral</li><li>How to Qualify</li><li>FAQ</li></ol></div><h2>1. Overview of Venture Tax Benefits</h2><p>Companies certified as venture enterprises by KOSME receive significant tax advantages under the <strong>Venture Enterprise Promotion Act</strong>. These incentives encourage R&amp;D-based growth.</p><h2>2. Income Tax Reduction</h2><ul><li>50% reduction in corporate income tax for 5 years from first profit date</li><li>Applies to SMEs with KOSME venture certification</li><li>Available for domestic and foreign-invested venture companies</li></ul><h2>3. Acquisition Tax and Property Tax Exemptions</h2><ul><li>100% exemption on acquisition tax for business-use real estate</li><li>50% reduction in property tax for 5 years</li><li>Exemptions apply only while venture certification is maintained</li></ul><h2>4. Capital Gains Tax Benefit for Investors</h2><ul><li>Individuals investing in certified venture companies: 100% income deduction up to KRW 30 million/year</li><li>Investments via venture funds or angel associations qualify for additional tax credit</li></ul><h2>5. Stock Option Tax Deferral</h2><ul><li>Employees can defer income tax until time of stock sale (not at grant or exercise)</li><li>Significant cash-flow benefit for startup employees</li></ul><h2>6. How to Qualify</h2><ul><li>Obtain venture certification from KOSME</li><li>Three main routes: technology evaluation, investment-based, research lab-based</li><li>Certification renewed every 2 years</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can I claim venture tax benefits retroactively?</p><p class="faq-a">A. Tax benefits begin from the date of certification. You cannot retroactively claim benefits for periods before certification.</p></div><div class="faq-item"><p class="faq-q">Q. What happens to tax benefits if certification lapses?</p><p class="faq-a">A. Benefits cease immediately upon certification lapse. Previously claimed exemptions are generally not clawed back if certification was legitimately held.</p></div></div><div class="cta-box"><h3>Get Your Venture Certification and Tax Benefits</h3><p>YouSun Administrative Agency handles the full venture certification application process. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Venture Tax Benefits</li><li>Income Tax Reduction</li><li>Acquisition Tax and Property Tax Exemptions</li><li>Capital Gains Tax Benefit for Investors</li><li>Stock Option Tax Deferral</li><li>How to Qualify</li><li>FAQ</li></ol></div><h2>1. Overview of Venture Tax Benefits</h2><p>Companies certified as venture enterprises by KOSME receive significant tax advantages under the <strong>Venture Enterprise Promotion Act</strong>. These incentives encourage R&amp;D-based growth.</p><h2>2. Income Tax Reduction</h2><ul><li>50% reduction in corporate income tax for 5 years from first profit date</li><li>Applies to SMEs with KOSME venture certification</li><li>Available for domestic and foreign-invested venture companies</li></ul><h2>3. Acquisition Tax and Property Tax Exemptions</h2><ul><li>100% exemption on acquisition tax for business-use real estate</li><li>50% reduction in property tax for 5 years</li><li>Exemptions apply only while venture certification is maintained</li></ul><h2>4. Capital Gains Tax Benefit for Investors</h2><ul><li>Individuals investing in certified venture companies: 100% income deduction up to KRW 30 million/year</li><li>Investments via venture funds or angel associations qualify for additional tax credit</li></ul><h2>5. Stock Option Tax Deferral</h2><ul><li>Employees can defer income tax until time of stock sale (not at grant or exercise)</li><li>Significant cash-flow benefit for startup employees</li></ul><h2>6. How to Qualify</h2><ul><li>Obtain venture certification from KOSME</li><li>Three main routes: technology evaluation, investment-based, research lab-based</li><li>Certification renewed every 2 years</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can I claim venture tax benefits retroactively?</p><p class="faq-a">A. Tax benefits begin from the date of certification. You cannot retroactively claim benefits for periods before certification.</p></div><div class="faq-item"><p class="faq-q">Q. What happens to tax benefits if certification lapses?</p><p class="faq-a">A. Benefits cease immediately upon certification lapse. Previously claimed exemptions are generally not clawed back if certification was legitimately held.</p></div></div><div class="cta-box"><h3>Get Your Venture Certification and Tax Benefits</h3><p>YouSun Administrative Agency handles the full venture certification application process.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'venture-tax-benefits',
     locale: 'zh',
     title: '韩国风险企业税收优惠2026完全指南',
     metaTitle: '韩国风险企业税收优惠2026 — 减免与抵扣详解',
-    metaDescription: '韩国KOSME认证风险企业可享受的全部税收优惠：所得税减免、取得税豁免、资本利得优惠等。免费初次咨询。本文依次说明风险企业税收优惠概述、所得税减免、取得税和财产税豁免、投资者资本利得税优惠，可按步骤逐项确认。',
+    metaDescription: '韩国KOSME认证风险企业可享受的全部税收优惠：所得税减免、取得税豁免、资本利得优惠等。初次咨询。本文依次说明风险企业税收优惠概述、所得税减免、取得税和财产税豁免、投资者资本利得税优惠，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国认证风险企业可享受税收优惠的全面指南，包括所得税减免、取得税豁免及投资激励措施。',
-    content: `<div class="toc"><p>目录</p><ol><li>风险企业税收优惠概述</li><li>所得税减免</li><li>取得税和财产税豁免</li><li>投资者资本利得税优惠</li><li>股票期权递延纳税</li><li>如何取得资格</li><li>常见问题</li></ol></div><h2>1. 风险企业税收优惠概述</h2><p>经KOSME认证为风险企业的公司，依据<strong>《风险企业促进法》</strong>享受显著税收优惠，旨在激励以研发为基础的增长。</p><h2>2. 所得税减免</h2><ul><li>自首次盈利之日起5年内，企业所得税减免50%</li><li>适用于持有KOSME风险企业认证的中小企业</li><li>适用于国内法人及外资风险企业</li></ul><h2>3. 取得税和财产税豁免</h2><ul><li>为商业用途取得的不动产，取得税100%豁免</li><li>商业用途不动产财产税5年减免50%</li><li>豁免仅在维持风险企业认证期间有效</li></ul><h2>4. 投资者资本利得税优惠</h2><ul><li>个人投资认证风险企业，每年最高享受3000万韩元所得100%扣除</li><li>通过风险基金或天使投资协会投资，可享受额外税收抵扣</li></ul><h2>5. 股票期权递延纳税</h2><ul><li>获得股票期权的员工可将所得税递延至股票出售时缴纳</li><li>对创业公司员工有显著的现金流优势</li></ul><h2>6. 如何取得资格</h2><ul><li>须从KOSME取得风险企业认证</li><li>三种主要途径：技术评估型、投资型、研究所型</li><li>认证每两年更新一次</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 可以追溯享受风险企业税收优惠吗？</p><p class="faq-a">A. 税收优惠自认证之日起生效，不能追溯享受认证前的优惠。</p></div><div class="faq-item"><p class="faq-q">Q. 认证失效后税收优惠会怎样？</p><p class="faq-a">A. 认证失效后优惠立即停止。若认证期间合法持有，此前已申报的豁免一般不会被追回。</p></div></div><div class="cta-box"><h3>取得风险企业认证，享受税收优惠</h3><p>YouSun Administrative Agency全程代办风险企业认证申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>风险企业税收优惠概述</li><li>所得税减免</li><li>取得税和财产税豁免</li><li>投资者资本利得税优惠</li><li>股票期权递延纳税</li><li>如何取得资格</li><li>常见问题</li></ol></div><h2>1. 风险企业税收优惠概述</h2><p>经KOSME认证为风险企业的公司，依据<strong>《风险企业促进法》</strong>享受显著税收优惠，旨在激励以研发为基础的增长。</p><h2>2. 所得税减免</h2><ul><li>自首次盈利之日起5年内，企业所得税减免50%</li><li>适用于持有KOSME风险企业认证的中小企业</li><li>适用于国内法人及外资风险企业</li></ul><h2>3. 取得税和财产税豁免</h2><ul><li>为商业用途取得的不动产，取得税100%豁免</li><li>商业用途不动产财产税5年减免50%</li><li>豁免仅在维持风险企业认证期间有效</li></ul><h2>4. 投资者资本利得税优惠</h2><ul><li>个人投资认证风险企业，每年最高享受3000万韩元所得100%扣除</li><li>通过风险基金或天使投资协会投资，可享受额外税收抵扣</li></ul><h2>5. 股票期权递延纳税</h2><ul><li>获得股票期权的员工可将所得税递延至股票出售时缴纳</li><li>对创业公司员工有显著的现金流优势</li></ul><h2>6. 如何取得资格</h2><ul><li>须从KOSME取得风险企业认证</li><li>三种主要途径：技术评估型、投资型、研究所型</li><li>认证每两年更新一次</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 可以追溯享受风险企业税收优惠吗？</p><p class="faq-a">A. 税收优惠自认证之日起生效，不能追溯享受认证前的优惠。</p></div><div class="faq-item"><p class="faq-q">Q. 认证失效后税收优惠会怎样？</p><p class="faq-a">A. 认证失效后优惠立即停止。若认证期间合法持有，此前已申报的豁免一般不会被追回。</p></div></div><div class="cta-box"><h3>取得风险企业认证，享受税收优惠</h3><p>YouSun Administrative Agency全程代办风险企业认证申请。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'venture-tax-benefits',
     locale: 'ja',
     title: '韓国ベンチャー企業の税制優遇2026完全ガイド',
     metaTitle: '韓国ベンチャー企業税制優遇2026 — 軽減・控除の詳細解説',
-    metaDescription: '韓国でKOSME認定ベンチャー企業に適用される全税制優遇：法人税軽減、取得税免除、キャピタルゲイン優遇など。行政士による無料初回相談。ベンチャー税制優遇の概要・所得税軽減・取得税・固定資産税免除・ストックオプション課税繰延まで順に確認できます。',
+    metaDescription: '韓国でKOSME認定ベンチャー企業に適用される全税制優遇：法人税軽減、取得税免除、キャピタルゲイン優遇など。行政士による初回相談。ベンチャー税制優遇の概要・所得税軽減・取得税・固定資産税免除・ストックオプション課税繰延まで順に確認できます。',
     category: '企業認証',
     excerpt: '韓国認定ベンチャー企業の税制優遇を網羅したガイド。法人税軽減、取得税免除、投資インセンティブを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>ベンチャー税制優遇の概要</li><li>所得税軽減</li><li>取得税・固定資産税免除</li><li>投資家向けキャピタルゲイン税優遇</li><li>ストックオプション課税繰延</li><li>資格取得の方法</li><li>よくある質問</li></ol></div><h2>1. ベンチャー税制優遇の概要</h2><p>KOSMEからベンチャー企業の認定を受けた会社は、<strong>「ベンチャー企業育成に関する特別措置法」</strong>に基づき大きな税制優遇を受けられます。</p><h2>2. 所得税軽減</h2><ul><li>初回利益計上日から5年間、法人税を50%軽減</li><li>KOSME認定を受けた中小企業に適用</li><li>国内法人および外国投資ベンチャー企業の両方に適用</li></ul><h2>3. 取得税・固定資産税免除</h2><ul><li>事業用途で取得した不動産の取得税を100%免除</li><li>事業用不動産の固定資産税を5年間50%軽減</li><li>免除はベンチャー認定を維持している間のみ適用</li></ul><h2>4. 投資家向けキャピタルゲイン税優遇</h2><ul><li>認定ベンチャー企業に投資した個人は年間最大3,000万ウォンまで所得から100%控除</li><li>ベンチャーファンドやエンジェル投資組合経由の投資は追加税額控除の対象</li></ul><h2>5. ストックオプション課税繰延</h2><ul><li>ストックオプションを受けた従業員は所得税を株式売却時まで繰り延べ</li><li>スタートアップ従業員にとって大きなキャッシュフロー上のメリット</li></ul><h2>6. 資格取得の方法</h2><ul><li>KOSMEからベンチャー認定を取得する必要がある</li><li>3つの主要ルート：技術評価型、投資型、研究所型</li><li>認定は2年ごとに更新</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. ベンチャー税制優遇を遡及的に申告できますか？</p><p class="faq-a">A. 税制優遇は認定日から開始されます。認定前の期間に遡及して優遇を申告することはできません。</p></div><div class="faq-item"><p class="faq-q">Q. 認定が失効した場合、税制優遇はどうなりますか？</p><p class="faq-a">A. 認定失効と同時に優遇は停止されます。認定が適法に保持されていた場合、以前に申告した免除は一般的に取り消されません。</p></div></div><div class="cta-box"><h3>ベンチャー認定を取得して税制優遇を活用しましょう</h3><p>YouSun Administrative Agencyがベンチャー認定申請を全面サポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>ベンチャー税制優遇の概要</li><li>所得税軽減</li><li>取得税・固定資産税免除</li><li>投資家向けキャピタルゲイン税優遇</li><li>ストックオプション課税繰延</li><li>資格取得の方法</li><li>よくある質問</li></ol></div><h2>1. ベンチャー税制優遇の概要</h2><p>KOSMEからベンチャー企業の認定を受けた会社は、<strong>「ベンチャー企業育成に関する特別措置法」</strong>に基づき大きな税制優遇を受けられます。</p><h2>2. 所得税軽減</h2><ul><li>初回利益計上日から5年間、法人税を50%軽減</li><li>KOSME認定を受けた中小企業に適用</li><li>国内法人および外国投資ベンチャー企業の両方に適用</li></ul><h2>3. 取得税・固定資産税免除</h2><ul><li>事業用途で取得した不動産の取得税を100%免除</li><li>事業用不動産の固定資産税を5年間50%軽減</li><li>免除はベンチャー認定を維持している間のみ適用</li></ul><h2>4. 投資家向けキャピタルゲイン税優遇</h2><ul><li>認定ベンチャー企業に投資した個人は年間最大3,000万ウォンまで所得から100%控除</li><li>ベンチャーファンドやエンジェル投資組合経由の投資は追加税額控除の対象</li></ul><h2>5. ストックオプション課税繰延</h2><ul><li>ストックオプションを受けた従業員は所得税を株式売却時まで繰り延べ</li><li>スタートアップ従業員にとって大きなキャッシュフロー上のメリット</li></ul><h2>6. 資格取得の方法</h2><ul><li>KOSMEからベンチャー認定を取得する必要がある</li><li>3つの主要ルート：技術評価型、投資型、研究所型</li><li>認定は2年ごとに更新</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. ベンチャー税制優遇を遡及的に申告できますか？</p><p class="faq-a">A. 税制優遇は認定日から開始されます。認定前の期間に遡及して優遇を申告することはできません。</p></div><div class="faq-item"><p class="faq-q">Q. 認定が失効した場合、税制優遇はどうなりますか？</p><p class="faq-a">A. 認定失効と同時に優遇は停止されます。認定が適法に保持されていた場合、以前に申告した免除は一般的に取り消されません。</p></div></div><div class="cta-box"><h3>ベンチャー認定を取得して税制優遇を活用しましょう</h3><p>YouSun Administrative Agencyがベンチャー認定申請を全面サポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 33: rnd-center-tax-credit ───────────────────────────────────────
@@ -2443,30 +2443,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Corporate R&D Center Tax Credit in Korea — 2026 Guide',
     metaTitle: 'Korea Corporate R&D Center Tax Credit 2026 — How to Claim',
-    metaDescription: 'How KOITA-recognized corporate research labs in Korea can claim R&D tax credits. Credit rates, eligible expenses, application process. Free consultation.',
+    metaDescription: 'How KOITA-recognized corporate research labs in Korea can claim R&D tax credits. Credit rates, eligible expenses, application process.',
     category: 'Business Certification',
     excerpt: 'A guide to the R&D tax credit available to KOITA-recognized corporate research centers in Korea — eligible expenses, credit rates, and how to claim correctly.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>R&amp;D Tax Credit Overview</li><li>Credit Rates</li><li>Eligible R&amp;D Expenses</li><li>Non-Eligible Expenses</li><li>How to Claim</li><li>Audit Preparation</li><li>FAQ</li></ol></div><h2>1. R&amp;D Tax Credit Overview</h2><p>Companies with a corporate research lab or R&amp;D department recognized by the Minister of Science and ICT (applications handled by KOITA, the Korea Industrial Technology Association) can claim corporate or business income tax credits on qualifying R&amp;D expenses under the <strong>Tax Special Cases Control Act</strong>.</p><h2>2. Credit Rates</h2><ul><li><strong>SMEs:</strong> 25% of current-year general R&amp;D expenses, or 50% of the amount exceeding the previous tax year</li><li><strong>Mid-sized companies:</strong> 8% (current-year method) or 40% (incremental method)</li><li><strong>Other companies:</strong> up to 2% (current-year method) or 25% (incremental method)</li><li>The incremental method cannot be chosen if no general R&amp;D expenses arose in the previous 4 years, or if the amount for the previous tax year is below the 4-year annual average. Separate rates apply to new growth/source technology and national strategic technology R&amp;D. Rates depend on company size, expense category and tax year, so confirm them with a licensed tax accountant.</li></ul><h2>3. Eligible R&amp;D Expenses</h2><ul><li>Salaries of researchers and research assistants in the recognized lab or department, plus the employer share of social insurance (retirement-related amounts and certain controlling-shareholder executives excluded)</li><li>Samples, parts, raw materials and reagents used for research</li><li>Rental of research and testing facilities</li><li>Contract research fees paid to universities, research institutes and other designated organizations</li></ul><h2>4. Non-Eligible Expenses</h2><ul><li>General administrative costs</li><li>Marketing and sales expenses</li><li>Equipment not exclusively used for R&amp;D</li></ul><h2>5. How to Claim</h2><ol><li>Keep R&amp;D expense records segregated from general accounts</li><li>Prepare the R&amp;D expense statement for the tax year</li><li>Submit the tax credit application, the R&amp;D expense statement and supporting documents with the annual tax return to the competent tax office</li><li>Have the application and calculation checked by a licensed tax accountant</li></ol><h2>6. Audit Preparation</h2><ul><li>Prepare and keep R&amp;D plans, R&amp;D reports and lab notebooks, together with test reports and researcher time records</li><li>Ensure facility and personnel match what was reported to KOITA, and file change reports within 30 days</li><li>Separate R&amp;D bank account is recommended for clarity</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can R&amp;D credits be carried forward if they exceed tax liability?</p><p class="faq-a">A. Yes. Excess credits can be carried forward for up to 10 years in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. Do we need a separate research account to claim credits?</p><p class="faq-a">A. It is not legally required but strongly recommended for easy verification during audits.</p></div></div><div class="cta-box"><h3>Maximize Your R&amp;D Tax Credits</h3><p>YouSun Administrative Agency helps companies obtain and maintain R&amp;D lab recognition. Tax credit claims should be confirmed with a licensed tax accountant. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>R&amp;D Tax Credit Overview</li><li>Credit Rates</li><li>Eligible R&amp;D Expenses</li><li>Non-Eligible Expenses</li><li>How to Claim</li><li>Audit Preparation</li><li>FAQ</li></ol></div><h2>1. R&amp;D Tax Credit Overview</h2><p>Companies with a corporate research lab or R&amp;D department recognized by the Minister of Science and ICT (applications handled by KOITA, the Korea Industrial Technology Association) can claim corporate or business income tax credits on qualifying R&amp;D expenses under the <strong>Tax Special Cases Control Act</strong>.</p><h2>2. Credit Rates</h2><ul><li><strong>SMEs:</strong> 25% of current-year general R&amp;D expenses, or 50% of the amount exceeding the previous tax year</li><li><strong>Mid-sized companies:</strong> 8% (current-year method) or 40% (incremental method)</li><li><strong>Other companies:</strong> up to 2% (current-year method) or 25% (incremental method)</li><li>The incremental method cannot be chosen if no general R&amp;D expenses arose in the previous 4 years, or if the amount for the previous tax year is below the 4-year annual average. Separate rates apply to new growth/source technology and national strategic technology R&amp;D. Rates depend on company size, expense category and tax year, so confirm them with a licensed tax accountant.</li></ul><h2>3. Eligible R&amp;D Expenses</h2><ul><li>Salaries of researchers and research assistants in the recognized lab or department, plus the employer share of social insurance (retirement-related amounts and certain controlling-shareholder executives excluded)</li><li>Samples, parts, raw materials and reagents used for research</li><li>Rental of research and testing facilities</li><li>Contract research fees paid to universities, research institutes and other designated organizations</li></ul><h2>4. Non-Eligible Expenses</h2><ul><li>General administrative costs</li><li>Marketing and sales expenses</li><li>Equipment not exclusively used for R&amp;D</li></ul><h2>5. How to Claim</h2><ol><li>Keep R&amp;D expense records segregated from general accounts</li><li>Prepare the R&amp;D expense statement for the tax year</li><li>Submit the tax credit application, the R&amp;D expense statement and supporting documents with the annual tax return to the competent tax office</li><li>Have the application and calculation checked by a licensed tax accountant</li></ol><h2>6. Audit Preparation</h2><ul><li>Prepare and keep R&amp;D plans, R&amp;D reports and lab notebooks, together with test reports and researcher time records</li><li>Ensure facility and personnel match what was reported to KOITA, and file change reports within 30 days</li><li>Separate R&amp;D bank account is recommended for clarity</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can R&amp;D credits be carried forward if they exceed tax liability?</p><p class="faq-a">A. Yes. Excess credits can be carried forward for up to 10 years in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. Do we need a separate research account to claim credits?</p><p class="faq-a">A. It is not legally required but strongly recommended for easy verification during audits.</p></div></div><div class="cta-box"><h3>Maximize Your R&amp;D Tax Credits</h3><p>YouSun Administrative Agency helps companies obtain and maintain R&amp;D lab recognition. Tax credit claims should be confirmed with a licensed tax accountant.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'rnd-center-tax-credit',
     locale: 'zh',
     title: '韩国企业研究所研发税收抵扣指南2026',
     metaTitle: '韩国企业研究所研发税收抵扣2026 — 申报方法详解',
-    metaDescription: '韩国KOITA认定企业研究所如何申报研发税收抵扣。抵扣比率、合规费用、申请流程及审核应对技巧。免费初次咨询。本文依次说明研发税收抵扣概述、抵扣比率、合规研发费用、不合规费用，可按步骤逐项确认。',
+    metaDescription: '韩国KOITA认定企业研究所如何申报研发税收抵扣。抵扣比率、合规费用、申请流程及审核应对技巧。初次咨询。本文依次说明研发税收抵扣概述、抵扣比率、合规研发费用、不合规费用，可按步骤逐项确认。',
     category: '企业认证',
     excerpt: '韩国KOITA认定企业研究中心研发税收抵扣指南，包括合规费用、抵扣比率及正确申报方法。',
-    content: `<div class="toc"><p>目录</p><ol><li>研发税收抵扣概述</li><li>抵扣比率</li><li>合规研发费用</li><li>不合规费用</li><li>申报方法</li><li>审核准备</li><li>常见问题</li></ol></div><h2>1. 研发税收抵扣概述</h2><p>持有经科学技术信息通信部长官认定（认定业务委托韩国产业技术振兴协会KOITA办理）的企业附属研究所或研发专职部门的公司，可依据<strong>《租税特例限制法》</strong>就合规研发费用申报法人税或事业所得税抵扣。</p><h2>2. 抵扣比率</h2><ul><li><strong>中小企业：</strong>当期一般研发费用的25%，或超过上一纳税年度金额部分的50%</li><li><strong>中坚企业：</strong>当期法8%，增量法40%</li><li><strong>其他企业：</strong>当期法最高2%，增量法25%</li><li>过去4年未发生一般研发费用，或上一纳税年度发生额低于过去4年年均发生额时，不能选择增量法。新增长·原创技术及国家战略技术研发费用适用另行规定的比率。抵扣率因企业规模、费用类别和纳税年度而异，请向税务师等税务专业人士确认。</li></ul><h2>3. 合规研发费用</h2><ul><li>经认定的研究所或研发专职部门研究人员及研究辅助人员的薪酬，以及雇主负担的社会保险费（退休相关金额及部分控股股东高管除外）</li><li>研究用样品、零部件、原材料和试剂</li><li>研究·试验用设施的租赁费</li><li>支付给大学、研究机构等指定机构的委托研究费</li></ul><h2>4. 不合规费用</h2><ul><li>一般行政费用</li><li>营销和销售费用</li><li>非专用于研发的设备费用</li></ul><h2>5. 申报方法</h2><ol><li>将研发费用记录与一般账目分开管理</li><li>准备该纳税年度的研发费用明细表</li><li>在申报纳税时向管辖税务署提交税额抵扣申请书、研发费用明细表及证明材料</li><li>申请及计算请由税务师等税务专业人士确认</li></ol><h2>6. 审核准备</h2><ul><li>编制并保存研发计划书、研发报告书及研究笔记，以及测试报告、研究人员时间记录</li><li>确保设施和人员与向KOITA申报的内容一致，变更时30日内申报</li><li>建议设立独立研发银行账户，便于核查</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 研发抵扣超过税款时可以结转吗？</p><p class="faq-a">A. 可以。韩国超额抵扣可结转最多10年。</p></div><div class="faq-item"><p class="faq-q">Q. 申报抵扣需要独立的研究账户吗？</p><p class="faq-a">A. 法律上不要求，但强烈建议，便于审核时核查。</p></div></div><div class="cta-box"><h3>最大化研发税收抵扣</h3><p>YouSun Administrative Agency协助企业办理研发实验室认定及后续管理。税收抵扣申报请向税务师等税务专业人士确认。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>研发税收抵扣概述</li><li>抵扣比率</li><li>合规研发费用</li><li>不合规费用</li><li>申报方法</li><li>审核准备</li><li>常见问题</li></ol></div><h2>1. 研发税收抵扣概述</h2><p>持有经科学技术信息通信部长官认定（认定业务委托韩国产业技术振兴协会KOITA办理）的企业附属研究所或研发专职部门的公司，可依据<strong>《租税特例限制法》</strong>就合规研发费用申报法人税或事业所得税抵扣。</p><h2>2. 抵扣比率</h2><ul><li><strong>中小企业：</strong>当期一般研发费用的25%，或超过上一纳税年度金额部分的50%</li><li><strong>中坚企业：</strong>当期法8%，增量法40%</li><li><strong>其他企业：</strong>当期法最高2%，增量法25%</li><li>过去4年未发生一般研发费用，或上一纳税年度发生额低于过去4年年均发生额时，不能选择增量法。新增长·原创技术及国家战略技术研发费用适用另行规定的比率。抵扣率因企业规模、费用类别和纳税年度而异，请向税务师等税务专业人士确认。</li></ul><h2>3. 合规研发费用</h2><ul><li>经认定的研究所或研发专职部门研究人员及研究辅助人员的薪酬，以及雇主负担的社会保险费（退休相关金额及部分控股股东高管除外）</li><li>研究用样品、零部件、原材料和试剂</li><li>研究·试验用设施的租赁费</li><li>支付给大学、研究机构等指定机构的委托研究费</li></ul><h2>4. 不合规费用</h2><ul><li>一般行政费用</li><li>营销和销售费用</li><li>非专用于研发的设备费用</li></ul><h2>5. 申报方法</h2><ol><li>将研发费用记录与一般账目分开管理</li><li>准备该纳税年度的研发费用明细表</li><li>在申报纳税时向管辖税务署提交税额抵扣申请书、研发费用明细表及证明材料</li><li>申请及计算请由税务师等税务专业人士确认</li></ol><h2>6. 审核准备</h2><ul><li>编制并保存研发计划书、研发报告书及研究笔记，以及测试报告、研究人员时间记录</li><li>确保设施和人员与向KOITA申报的内容一致，变更时30日内申报</li><li>建议设立独立研发银行账户，便于核查</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 研发抵扣超过税款时可以结转吗？</p><p class="faq-a">A. 可以。韩国超额抵扣可结转最多10年。</p></div><div class="faq-item"><p class="faq-q">Q. 申报抵扣需要独立的研究账户吗？</p><p class="faq-a">A. 法律上不要求，但强烈建议，便于审核时核查。</p></div></div><div class="cta-box"><h3>最大化研发税收抵扣</h3><p>YouSun Administrative Agency协助企业办理研发实验室认定及后续管理。税收抵扣申报请向税务师等税务专业人士确认。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'rnd-center-tax-credit',
     locale: 'ja',
     title: '韓国企業付設研究所R&D税額控除ガイド2026',
     metaTitle: '韓国企業研究所R&D税額控除2026 — 申告方法の詳細解説',
-    metaDescription: 'KOITA認定を受けた韓国の企業付設研究所がR&D税額控除を申告する方法。控除率、対象費用、申請プロセス、税務調査対策。行政士による無料初回相談。',
+    metaDescription: 'KOITA認定を受けた韓国の企業付設研究所がR&D税額控除を申告する方法。控除率、対象費用、申請プロセス、税務調査対策。行政士による初回相談。',
     category: '企業認証',
     excerpt: '韓国KOITA認定企業研究センターのR&D税額控除ガイド — 対象費用、控除率、正しい申告方法を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>R&amp;D税額控除の概要</li><li>控除率</li><li>対象R&amp;D費用</li><li>非対象費用</li><li>申告方法</li><li>税務調査への備え</li><li>よくある質問</li></ol></div><h2>1. R&amp;D税額控除の概要</h2><p>科学技術情報通信部長官の認定（認定業務は韓国産業技術振興協会KOITAに委託）を受けた企業付設研究所または研究開発専担部署を持つ会社は、<strong>「租税特例制限法」</strong>に基づき適格R&amp;D費用に対する法人税または事業所得税の控除を申告できます。</p><h2>2. 控除率</h2><ul><li><strong>中小企業：</strong>当期の一般研究・人材開発費の25%、または前課税年度を超える金額の50%</li><li><strong>中堅企業：</strong>当期分方式8%、増加分方式40%</li><li><strong>その他の企業：</strong>当期分方式最大2%、増加分方式25%</li><li>過去4年間に一般研究・人材開発費が発生していない場合、または前課税年度の発生額が過去4年間の年平均より少ない場合は増加分方式を選択できません。新成長・源泉技術および国家戦略技術の研究開発費には別の控除率が適用されます。控除率は企業規模・費用区分・課税年度により異なるため、税理士など税務専門家にご確認ください。</li></ul><h2>3. 対象R&amp;D費用</h2><ul><li>認定を受けた研究所・専担部署の研究専担要員および研究補助員の人件費と事業主負担の社会保険料（退職関連金額や一部の支配株主である役員は除外）</li><li>研究用の見本品・部品・原材料・試薬類</li><li>研究・試験用施設の賃借料</li><li>大学・研究機関など所定の機関への委託研究費</li></ul><h2>4. 非対象費用</h2><ul><li>一般管理費</li><li>マーケティング・販売費用</li><li>R&amp;D専用でない機器の費用</li></ul><h2>5. 申告方法</h2><ol><li>一般会計と分離したR&amp;D費用記録を維持する</li><li>課税年度のR&amp;D費用明細書を準備する</li><li>課税標準申告の際、税額控除申請書・研究及び人材開発費明細書・証拠書類を管轄税務署長に提出する</li><li>申請と計算は税理士など税務専門家に確認する</li></ol><h2>6. 税務調査への備え</h2><ul><li>研究開発計画書・研究開発報告書・研究ノートを作成・保管し、試験報告書や研究者の勤務時間記録も保管</li><li>施設と人員がKOITAへの申告内容と一致していることを確認し、変更時は30日以内に変更申告</li><li>明確化のため専用R&amp;D銀行口座の設置を推奨</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. R&amp;D控除が税額を超えた場合、繰り越せますか？</p><p class="faq-a">A. はい。韓国では超過控除を最大10年間繰り越すことができます。</p></div><div class="faq-item"><p class="faq-q">Q. 控除を申告するために別の研究口座が必要ですか？</p><p class="faq-a">A. 法的には不要ですが、税務調査時の検証のために強く推奨します。</p></div></div><div class="cta-box"><h3>R&amp;D税額控除を最大限に活用しましょう</h3><p>YouSun Administrative Agencyが研究所の認定取得と事後管理をサポートします。税額控除の申告は税理士など税務専門家にご確認ください。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>R&amp;D税額控除の概要</li><li>控除率</li><li>対象R&amp;D費用</li><li>非対象費用</li><li>申告方法</li><li>税務調査への備え</li><li>よくある質問</li></ol></div><h2>1. R&amp;D税額控除の概要</h2><p>科学技術情報通信部長官の認定（認定業務は韓国産業技術振興協会KOITAに委託）を受けた企業付設研究所または研究開発専担部署を持つ会社は、<strong>「租税特例制限法」</strong>に基づき適格R&amp;D費用に対する法人税または事業所得税の控除を申告できます。</p><h2>2. 控除率</h2><ul><li><strong>中小企業：</strong>当期の一般研究・人材開発費の25%、または前課税年度を超える金額の50%</li><li><strong>中堅企業：</strong>当期分方式8%、増加分方式40%</li><li><strong>その他の企業：</strong>当期分方式最大2%、増加分方式25%</li><li>過去4年間に一般研究・人材開発費が発生していない場合、または前課税年度の発生額が過去4年間の年平均より少ない場合は増加分方式を選択できません。新成長・源泉技術および国家戦略技術の研究開発費には別の控除率が適用されます。控除率は企業規模・費用区分・課税年度により異なるため、税理士など税務専門家にご確認ください。</li></ul><h2>3. 対象R&amp;D費用</h2><ul><li>認定を受けた研究所・専担部署の研究専担要員および研究補助員の人件費と事業主負担の社会保険料（退職関連金額や一部の支配株主である役員は除外）</li><li>研究用の見本品・部品・原材料・試薬類</li><li>研究・試験用施設の賃借料</li><li>大学・研究機関など所定の機関への委託研究費</li></ul><h2>4. 非対象費用</h2><ul><li>一般管理費</li><li>マーケティング・販売費用</li><li>R&amp;D専用でない機器の費用</li></ul><h2>5. 申告方法</h2><ol><li>一般会計と分離したR&amp;D費用記録を維持する</li><li>課税年度のR&amp;D費用明細書を準備する</li><li>課税標準申告の際、税額控除申請書・研究及び人材開発費明細書・証拠書類を管轄税務署長に提出する</li><li>申請と計算は税理士など税務専門家に確認する</li></ol><h2>6. 税務調査への備え</h2><ul><li>研究開発計画書・研究開発報告書・研究ノートを作成・保管し、試験報告書や研究者の勤務時間記録も保管</li><li>施設と人員がKOITAへの申告内容と一致していることを確認し、変更時は30日以内に変更申告</li><li>明確化のため専用R&amp;D銀行口座の設置を推奨</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. R&amp;D控除が税額を超えた場合、繰り越せますか？</p><p class="faq-a">A. はい。韓国では超過控除を最大10年間繰り越すことができます。</p></div><div class="faq-item"><p class="faq-q">Q. 控除を申告するために別の研究口座が必要ですか？</p><p class="faq-a">A. 法的には不要ですが、税務調査時の検証のために強く推奨します。</p></div></div><div class="cta-box"><h3>R&amp;D税額控除を最大限に活用しましょう</h3><p>YouSun Administrative Agencyが研究所の認定取得と事後管理をサポートします。税額控除の申告は税理士など税務専門家にご確認ください。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 34: cosmetics-responsible-distributor ────────────────────────────
@@ -2475,30 +2475,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Cosmetics Responsible Distributor Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Cosmetics Responsible Distributor 2026 — Registration Requirements',
-    metaDescription: 'How to register as a cosmetics responsible distributor in Korea. MFDS requirements, labeling rules, safety data, and application procedure. Free consultation.',
+    metaDescription: 'How to register as a cosmetics responsible distributor in Korea. MFDS requirements, labeling rules, safety data, and application procedure.',
     category: 'Cosmetics',
     excerpt: 'A guide to cosmetics responsible distributor registration in Korea — MFDS requirements, safety responsibilities, and step-by-step application.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Responsible Distributor?</li><li>Difference from Manufacturer Registration</li><li>MFDS Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Duties</li><li>FAQ</li></ol></div><h2>1. What Is a Responsible Distributor?</h2><p>Under Korea's <strong>Cosmetics Act</strong>, a responsible distributor (책임판매업자) is the entity legally responsible for ensuring a cosmetic product's safety, labeling, and compliance before it enters the Korean market.</p><h2>2. Difference from Manufacturer Registration</h2><ul><li><strong>Manufacturer:</strong> physical production facility, GMP required</li><li><strong>Responsible Distributor:</strong> brand/distributor responsible for product safety and market compliance — can source from manufacturers</li><li>One company can hold both registrations</li></ul><h2>3. MFDS Requirements</h2><ul><li>Must designate a Quality Control Manager with relevant qualifications</li><li>Must establish a product quality management system</li><li>Must maintain product safety data sheets for all marketed products</li></ul><h2>4. Required Documents</h2><ul><li>Responsible distributor registration application</li><li>Quality Control Manager's qualification documents</li><li>Business registration certificate</li><li>Facilities description (office is sufficient; no manufacturing facility required)</li></ul><h2>5. Application Procedure</h2><ol><li>Submit application to regional MFDS office</li><li>Document review (approx. 7–14 business days)</li><li>Registration certificate issued</li><li>Report each product to MFDS before launch</li></ol><h2>6. Post-Registration Duties</h2><ul><li>Report adverse events to MFDS within 15 days</li><li>Maintain product labeling in Korean</li><li>Annual quality management review</li><li>Notify MFDS of any changes to key personnel or business details</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreign company be a responsible distributor in Korea?</p><p class="faq-a">A. Yes, but the foreign company must designate a Korean legal entity or agent as the registered responsible distributor in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. Do I need a separate registration for each product?</p><p class="faq-a">A. No. One responsible distributor registration covers all products. However, each product must be reported to MFDS before sale.</p></div></div><div class="cta-box"><h3>Register as a Cosmetics Responsible Distributor</h3><p>YouSun Administrative Agency handles cosmetics responsible distributor registration and MFDS filings. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Responsible Distributor?</li><li>Difference from Manufacturer Registration</li><li>MFDS Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Post-Registration Duties</li><li>FAQ</li></ol></div><h2>1. What Is a Responsible Distributor?</h2><p>Under Korea's <strong>Cosmetics Act</strong>, a responsible distributor (책임판매업자) is the entity legally responsible for ensuring a cosmetic product's safety, labeling, and compliance before it enters the Korean market.</p><h2>2. Difference from Manufacturer Registration</h2><ul><li><strong>Manufacturer:</strong> physical production facility, GMP required</li><li><strong>Responsible Distributor:</strong> brand/distributor responsible for product safety and market compliance — can source from manufacturers</li><li>One company can hold both registrations</li></ul><h2>3. MFDS Requirements</h2><ul><li>Must designate a Quality Control Manager with relevant qualifications</li><li>Must establish a product quality management system</li><li>Must maintain product safety data sheets for all marketed products</li></ul><h2>4. Required Documents</h2><ul><li>Responsible distributor registration application</li><li>Quality Control Manager's qualification documents</li><li>Business registration certificate</li><li>Facilities description (office is sufficient; no manufacturing facility required)</li></ul><h2>5. Application Procedure</h2><ol><li>Submit application to regional MFDS office</li><li>Document review (approx. 7–14 business days)</li><li>Registration certificate issued</li><li>Report each product to MFDS before launch</li></ol><h2>6. Post-Registration Duties</h2><ul><li>Report adverse events to MFDS within 15 days</li><li>Maintain product labeling in Korean</li><li>Annual quality management review</li><li>Notify MFDS of any changes to key personnel or business details</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreign company be a responsible distributor in Korea?</p><p class="faq-a">A. Yes, but the foreign company must designate a Korean legal entity or agent as the registered responsible distributor in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. Do I need a separate registration for each product?</p><p class="faq-a">A. No. One responsible distributor registration covers all products. However, each product must be reported to MFDS before sale.</p></div></div><div class="cta-box"><h3>Register as a Cosmetics Responsible Distributor</h3><p>YouSun Administrative Agency handles cosmetics responsible distributor registration and MFDS filings.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'cosmetics-responsible-distributor',
     locale: 'zh',
     title: '韩国化妆品责任销售业者登记指南2026',
     metaTitle: '韩国化妆品责任销售业者登记2026 — 申请要求详解',
-    metaDescription: '在韩国登记为化妆品责任销售业者的方法。MFDS要求、标签规定、安全数据及申请流程。免费初次咨询。本文依次说明与制造业者登记的区别、MFDS要求、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '在韩国登记为化妆品责任销售业者的方法。MFDS要求、标签规定、安全数据及申请流程。初次咨询。本文依次说明与制造业者登记的区别、MFDS要求、所需材料、申请流程，可按步骤逐项确认。',
     category: '化妆品',
     excerpt: '韩国化妆品责任销售业者登记指南，包括MFDS要求、安全责任及分步申请流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是责任销售业者？</li><li>与制造业者登记的区别</li><li>MFDS要求</li><li>所需材料</li><li>申请流程</li><li>登记后职责</li><li>常见问题</li></ol></div><h2>1. 什么是责任销售业者？</h2><p>依据韩国<strong>《化妆品法》</strong>，责任销售业者是在化妆品进入韩国市场前，对产品安全性、标签及合规性承担法律责任的主体。</p><h2>2. 与制造业者登记的区别</h2><ul><li><strong>制造业者：</strong>实体生产设施，须符合GMP标准</li><li><strong>责任销售业者：</strong>负责产品安全和市场合规的品牌/经销商，可向制造商采购</li><li>同一公司可同时持有两种登记</li></ul><h2>3. MFDS要求</h2><ul><li>须指定具备相关资质的质量管理负责人</li><li>须建立产品质量管理体系</li><li>须为所有上市产品维护产品安全数据表</li></ul><h2>4. 所需材料</h2><ul><li>责任销售业者登记申请表</li><li>质量管理负责人的资质证明</li><li>营业执照</li><li>设施说明（办公室即可）</li></ul><h2>5. 申请流程</h2><ol><li>向地区MFDS办公室提交申请</li><li>材料审查（时间因主管机关而异）</li><li>颁发登记证</li><li>上市前向MFDS报告每种产品</li></ol><h2>6. 登记后职责</h2><ul><li>须在15天内向MFDS报告不良反应</li><li>维护韩文产品标签</li><li>年度质量管理审查</li><li>人员或企业信息变更须通知MFDS</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国公司能在韩国担任责任销售业者吗？</p><p class="faq-a">A. 可以，但须指定韩国法人或代理人作为注册责任销售业者。</p></div><div class="faq-item"><p class="faq-q">Q. 每种产品需要单独登记吗？</p><p class="faq-a">A. 不需要。一个登记涵盖所有产品，但每种产品须在销售前向MFDS报告。</p></div></div><div class="cta-box"><h3>登记为化妆品责任销售业者</h3><p>YouSun Administrative Agency代办化妆品责任销售业者登记及MFDS申报。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是责任销售业者？</li><li>与制造业者登记的区别</li><li>MFDS要求</li><li>所需材料</li><li>申请流程</li><li>登记后职责</li><li>常见问题</li></ol></div><h2>1. 什么是责任销售业者？</h2><p>依据韩国<strong>《化妆品法》</strong>，责任销售业者是在化妆品进入韩国市场前，对产品安全性、标签及合规性承担法律责任的主体。</p><h2>2. 与制造业者登记的区别</h2><ul><li><strong>制造业者：</strong>实体生产设施，须符合GMP标准</li><li><strong>责任销售业者：</strong>负责产品安全和市场合规的品牌/经销商，可向制造商采购</li><li>同一公司可同时持有两种登记</li></ul><h2>3. MFDS要求</h2><ul><li>须指定具备相关资质的质量管理负责人</li><li>须建立产品质量管理体系</li><li>须为所有上市产品维护产品安全数据表</li></ul><h2>4. 所需材料</h2><ul><li>责任销售业者登记申请表</li><li>质量管理负责人的资质证明</li><li>营业执照</li><li>设施说明（办公室即可）</li></ul><h2>5. 申请流程</h2><ol><li>向地区MFDS办公室提交申请</li><li>材料审查（时间因主管机关而异）</li><li>颁发登记证</li><li>上市前向MFDS报告每种产品</li></ol><h2>6. 登记后职责</h2><ul><li>须在15天内向MFDS报告不良反应</li><li>维护韩文产品标签</li><li>年度质量管理审查</li><li>人员或企业信息变更须通知MFDS</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国公司能在韩国担任责任销售业者吗？</p><p class="faq-a">A. 可以，但须指定韩国法人或代理人作为注册责任销售业者。</p></div><div class="faq-item"><p class="faq-q">Q. 每种产品需要单独登记吗？</p><p class="faq-a">A. 不需要。一个登记涵盖所有产品，但每种产品须在销售前向MFDS报告。</p></div></div><div class="cta-box"><h3>登记为化妆品责任销售业者</h3><p>YouSun Administrative Agency代办化妆品责任销售业者登记及MFDS申报。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'cosmetics-responsible-distributor',
     locale: 'ja',
     title: '韓国化粧品責任販売業者登録ガイド2026',
     metaTitle: '韓国化粧品責任販売業者登録2026 — 申請要件の詳細',
-    metaDescription: '韓国で化粧品責任販売業者として登録する方法。MFDS要件、ラベリングルール、安全データ、申請手続き。行政士による無料初回相談。製造業者登録との違い・MFDS要件・必要書類・申請手続きまで順に確認できます。',
+    metaDescription: '韓国で化粧品責任販売業者として登録する方法。MFDS要件、ラベリングルール、安全データ、申請手続き。行政士による初回相談。製造業者登録との違い・MFDS要件・必要書類・申請手続きまで順に確認できます。',
     category: '化粧品',
     excerpt: '韓国の化粧品責任販売業者登録ガイド — MFDS要件、安全責任、ステップバイステップの申請方法を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>責任販売業者とは？</li><li>製造業者登録との違い</li><li>MFDS要件</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div><h2>1. 責任販売業者とは？</h2><p>韓国の<strong>化粧品法</strong>に基づき、責任販売業者は化粧品が韓国市場に入る前にその安全性、ラベリング、コンプライアンスを法的に保証する主体です。</p><h2>2. 製造業者登録との違い</h2><ul><li><strong>製造業者：</strong>物理的な生産施設、GMP必須</li><li><strong>責任販売業者：</strong>製品安全と市場コンプライアンスに責任を持つブランド/販売業者</li><li>1社が両方の登録を保持できる</li></ul><h2>3. MFDS要件</h2><ul><li>関連資格を持つ品質管理担当者の指定が必要</li><li>製品品質管理システムの確立が必要</li><li>市販するすべての製品の製品安全データシートの維持が必要</li></ul><h2>4. 必要書類</h2><ul><li>責任販売業者登録申請書</li><li>品質管理担当者の資格書類</li><li>事業者登録証</li><li>施設説明書（事務所で十分）</li></ul><h2>5. 申請手続き</h2><ol><li>地域MFDSオフィスに申請書を提出</li><li>書類審査（期間は管轄機関により異なる）</li><li>登録証の交付</li><li>発売前に各製品をMFDSに報告</li></ol><h2>6. 登録後の義務</h2><ul><li>副作用は15日以内にMFDSに報告</li><li>韓国語の製品ラベルを維持</li><li>年次品質管理レビュー</li><li>主要人員や事業情報の変更はMFDSに通知</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国企業が韓国で責任販売業者になれますか？</p><p class="faq-a">A. はい。ただし、韓国の法人または代理人を登録責任販売業者として指定する必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 各製品に別々の登録が必要ですか？</p><p class="faq-a">A. いいえ。1つの登録ですべての製品をカバーします。ただし、各製品は販売前にMFDSに報告する必要があります。</p></div></div><div class="cta-box"><h3>化粧品責任販売業者として登録しましょう</h3><p>YouSun Administrative Agencyが化粧品責任販売業者登録とMFDS申告を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>責任販売業者とは？</li><li>製造業者登録との違い</li><li>MFDS要件</li><li>必要書類</li><li>申請手続き</li><li>登録後の義務</li><li>よくある質問</li></ol></div><h2>1. 責任販売業者とは？</h2><p>韓国の<strong>化粧品法</strong>に基づき、責任販売業者は化粧品が韓国市場に入る前にその安全性、ラベリング、コンプライアンスを法的に保証する主体です。</p><h2>2. 製造業者登録との違い</h2><ul><li><strong>製造業者：</strong>物理的な生産施設、GMP必須</li><li><strong>責任販売業者：</strong>製品安全と市場コンプライアンスに責任を持つブランド/販売業者</li><li>1社が両方の登録を保持できる</li></ul><h2>3. MFDS要件</h2><ul><li>関連資格を持つ品質管理担当者の指定が必要</li><li>製品品質管理システムの確立が必要</li><li>市販するすべての製品の製品安全データシートの維持が必要</li></ul><h2>4. 必要書類</h2><ul><li>責任販売業者登録申請書</li><li>品質管理担当者の資格書類</li><li>事業者登録証</li><li>施設説明書（事務所で十分）</li></ul><h2>5. 申請手続き</h2><ol><li>地域MFDSオフィスに申請書を提出</li><li>書類審査（期間は管轄機関により異なる）</li><li>登録証の交付</li><li>発売前に各製品をMFDSに報告</li></ol><h2>6. 登録後の義務</h2><ul><li>副作用は15日以内にMFDSに報告</li><li>韓国語の製品ラベルを維持</li><li>年次品質管理レビュー</li><li>主要人員や事業情報の変更はMFDSに通知</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国企業が韓国で責任販売業者になれますか？</p><p class="faq-a">A. はい。ただし、韓国の法人または代理人を登録責任販売業者として指定する必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 各製品に別々の登録が必要ですか？</p><p class="faq-a">A. いいえ。1つの登録ですべての製品をカバーします。ただし、各製品は販売前にMFDSに報告する必要があります。</p></div></div><div class="cta-box"><h3>化粧品責任販売業者として登録しましょう</h3><p>YouSun Administrative Agencyが化粧品責任販売業者登録とMFDS申告を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 35: academy-establishment-registration-guide ─────────────────────
@@ -2507,30 +2507,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Private Academy (Hagwon) Registration in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Hagwon Registration 2026 — How to Register a Private Academy',
-    metaDescription: 'How to register a private academy (학원, hagwon) in Korea. Facility requirements, qualified instructor rules, required documents. Free consultation.',
+    metaDescription: 'How to register a private academy (학원, hagwon) in Korea. Facility requirements, qualified instructor rules, required documents.',
     category: 'Education',
     excerpt: 'Step-by-step guide to registering a private academy (hagwon/학원) in Korea — facility, instructor, safety requirements, and the local office registration process.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Hagwon Registration</li><li>Types of Private Academies</li><li>Facility Requirements</li><li>Instructor Requirements</li><li>Required Documents</li><li>Registration Procedure</li><li>FAQ</li></ol></div><h2>1. Overview of Hagwon Registration</h2><p>Any private educational institution in Korea charging tuition fees must register as a <strong>학원 (hagwon)</strong> under the <strong>Private Educational Institutions Act</strong> with the local education office.</p><h2>2. Types of Private Academies</h2><ul><li>Academic subject academies (Korean, math, English, etc.)</li><li>Arts, music, and sports academies</li><li>Vocational training academies</li><li>Language schools (with foreign students)</li></ul><h2>3. Facility Requirements</h2><ul><li>Minimum 60 m² for general subject academies</li><li>Ventilation, restrooms, and fire safety compliance required</li><li>Facility must not be in a basement below certain depth limits</li><li>Building must be zoned for educational or permitted mixed use</li></ul><h2>4. Instructor Requirements</h2><ul><li>Academy director (원장): must hold an academy director's license or qualify by experience</li><li>Subject teachers: relevant degree or qualification recommended</li></ul><h2>5. Required Documents</h2><ul><li>Academy registration application</li><li>Facility floor plan</li><li>Building use confirmation document</li><li>Fire safety inspection certificate</li><li>Director's identity and qualification documents</li><li>Lease agreement</li></ul><h2>6. Registration Procedure</h2><ol><li>Submit application to district education office (교육지원청)</li><li>Facility inspection (fire, safety, zoning)</li><li>Registration certificate issued (approx. 14–21 business days)</li><li>Report tuition fees to education office before starting operations</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a hagwon in Korea?</p><p class="faq-a">A. Yes, but the director's role may require a Korean co-director or proper visa status. Foreigners are eligible to own and operate hagwons with the right documentation.</p></div><div class="faq-item"><p class="faq-q">Q. Are there restrictions on tutoring hours?</p><p class="faq-a">A. Yes. Hagwons may not operate past 10 PM for minors. Violation can result in suspension or revocation of registration.</p></div></div><div class="cta-box"><h3>Register Your Academy Correctly</h3><p>YouSun Administrative Agency handles hagwon registration and compliance filings. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Hagwon Registration</li><li>Types of Private Academies</li><li>Facility Requirements</li><li>Instructor Requirements</li><li>Required Documents</li><li>Registration Procedure</li><li>FAQ</li></ol></div><h2>1. Overview of Hagwon Registration</h2><p>Any private educational institution in Korea charging tuition fees must register as a <strong>학원 (hagwon)</strong> under the <strong>Private Educational Institutions Act</strong> with the local education office.</p><h2>2. Types of Private Academies</h2><ul><li>Academic subject academies (Korean, math, English, etc.)</li><li>Arts, music, and sports academies</li><li>Vocational training academies</li><li>Language schools (with foreign students)</li></ul><h2>3. Facility Requirements</h2><ul><li>Minimum 60 m² for general subject academies</li><li>Ventilation, restrooms, and fire safety compliance required</li><li>Facility must not be in a basement below certain depth limits</li><li>Building must be zoned for educational or permitted mixed use</li></ul><h2>4. Instructor Requirements</h2><ul><li>Academy director (원장): must hold an academy director's license or qualify by experience</li><li>Subject teachers: relevant degree or qualification recommended</li></ul><h2>5. Required Documents</h2><ul><li>Academy registration application</li><li>Facility floor plan</li><li>Building use confirmation document</li><li>Fire safety inspection certificate</li><li>Director's identity and qualification documents</li><li>Lease agreement</li></ul><h2>6. Registration Procedure</h2><ol><li>Submit application to district education office (교육지원청)</li><li>Facility inspection (fire, safety, zoning)</li><li>Registration certificate issued (approx. 14–21 business days)</li><li>Report tuition fees to education office before starting operations</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a hagwon in Korea?</p><p class="faq-a">A. Yes, but the director's role may require a Korean co-director or proper visa status. Foreigners are eligible to own and operate hagwons with the right documentation.</p></div><div class="faq-item"><p class="faq-q">Q. Are there restrictions on tutoring hours?</p><p class="faq-a">A. Yes. Hagwons may not operate past 10 PM for minors. Violation can result in suspension or revocation of registration.</p></div></div><div class="cta-box"><h3>Register Your Academy Correctly</h3><p>YouSun Administrative Agency handles hagwon registration and compliance filings.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'academy-establishment-registration-guide',
     locale: 'zh',
     title: '韩国私立补习班（学院）登记指南2026',
     metaTitle: '韩国学院登记2026 — 私立补习班注册完整指南',
-    metaDescription: '在韩国登记私立补习班（학원）的方法。设施要求、教师资质规定、所需材料及登记流程。专业行政士免费初次咨询。本文依次说明学院登记概述、私立学院类型、设施要求、教师要求，可按步骤逐项确认。',
+    metaDescription: '在韩国登记私立补习班（학원）的方法。设施要求、教师资质规定、所需材料及登记流程。专业行政士初次咨询。本文依次说明学院登记概述、私立学院类型、设施要求、教师要求，可按步骤逐项确认。',
     category: '教育',
     excerpt: '在韩国登记私立补习班（학원）的分步指南，包括设施、教师、安全要求及地方教育部门登记流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>学院登记概述</li><li>私立学院类型</li><li>设施要求</li><li>教师要求</li><li>所需材料</li><li>登记流程</li><li>常见问题</li></ol></div><h2>1. 学院登记概述</h2><p>韩国任何收取学费的私立教育机构，须依据《私立学院法》向当地教育支援厅登记为학원（补习班/学院）。</p><h2>2. 私立学院类型</h2><ul><li>学科补习班（语文、数学、英语等）</li><li>艺术、音乐、体育学院</li><li>职业技能培训学院</li><li>语言学校（含外国学生）</li></ul><h2>3. 设施要求</h2><ul><li>一般学科补习班最低60m²</li><li>须符合通风、卫生间及消防安全规定</li><li>设施不得位于超过规定深度的地下室</li><li>建筑须分区为教育用途或允许教育的混合用途</li></ul><h2>4. 教师要求</h2><ul><li>院长须持有院长执照或凭经验取得资格</li><li>学科教师建议具备相关学位或资质</li></ul><h2>5. 所需材料</h2><ul><li>学院登记申请表</li><li>设施平面图</li><li>建筑用途确认文件</li><li>消防安全检查证明</li><li>院长身份及资质证明</li><li>租赁合同</li></ul><h2>6. 登记流程</h2><ol><li>向辖区教育支援厅提交申请</li><li>设施检查（消防、安全、分区）</li><li>颁发登记证（约14~21个工作日）</li><li>开业前向教育支援厅报告学费</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国开设补习班吗？</p><p class="faq-a">A. 可以，但院长职务可能需要韩国联合院长或适当签证身份。外国人可凭正确文件拥有并经营补习班。</p></div><div class="faq-item"><p class="faq-q">Q. 授课时间有限制吗？</p><p class="faq-a">A. 有。补习班不得在晚上10点后为未成年人提供服务。违规可能导致停业或吊销登记。</p></div></div><div class="cta-box"><h3>正确登记您的补习班</h3><p>YouSun Administrative Agency代办学院登记及合规申报。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>学院登记概述</li><li>私立学院类型</li><li>设施要求</li><li>教师要求</li><li>所需材料</li><li>登记流程</li><li>常见问题</li></ol></div><h2>1. 学院登记概述</h2><p>韩国任何收取学费的私立教育机构，须依据《私立学院法》向当地教育支援厅登记为학원（补习班/学院）。</p><h2>2. 私立学院类型</h2><ul><li>学科补习班（语文、数学、英语等）</li><li>艺术、音乐、体育学院</li><li>职业技能培训学院</li><li>语言学校（含外国学生）</li></ul><h2>3. 设施要求</h2><ul><li>一般学科补习班最低60m²</li><li>须符合通风、卫生间及消防安全规定</li><li>设施不得位于超过规定深度的地下室</li><li>建筑须分区为教育用途或允许教育的混合用途</li></ul><h2>4. 教师要求</h2><ul><li>院长须持有院长执照或凭经验取得资格</li><li>学科教师建议具备相关学位或资质</li></ul><h2>5. 所需材料</h2><ul><li>学院登记申请表</li><li>设施平面图</li><li>建筑用途确认文件</li><li>消防安全检查证明</li><li>院长身份及资质证明</li><li>租赁合同</li></ul><h2>6. 登记流程</h2><ol><li>向辖区教育支援厅提交申请</li><li>设施检查（消防、安全、分区）</li><li>颁发登记证（约14~21个工作日）</li><li>开业前向教育支援厅报告学费</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国开设补习班吗？</p><p class="faq-a">A. 可以，但院长职务可能需要韩国联合院长或适当签证身份。外国人可凭正确文件拥有并经营补习班。</p></div><div class="faq-item"><p class="faq-q">Q. 授课时间有限制吗？</p><p class="faq-a">A. 有。补习班不得在晚上10点后为未成年人提供服务。违规可能导致停业或吊销登记。</p></div></div><div class="cta-box"><h3>正确登记您的补习班</h3><p>YouSun Administrative Agency代办学院登记及合规申报。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'academy-establishment-registration-guide',
     locale: 'ja',
     title: '韓国私立学習塾（学院）登録ガイド2026',
     metaTitle: '韓国ハグォン登録2026 — 私立学院設立の完全ガイド',
-    metaDescription: '韓国で私立学習塾（학원）を登録する方法。施設要件、講師要件、必要書類、登録手続き。行政士による無料初回相談。学院登録の概要・私立学院の種類・施設要件・講師要件まで順に確認できます。',
+    metaDescription: '韓国で私立学習塾（학원）を登録する方法。施設要件、講師要件、必要書類、登録手続き。行政士による初回相談。学院登録の概要・私立学院の種類・施設要件・講師要件まで順に確認できます。',
     category: '教育',
     excerpt: '韓国で私立学習塾（ハグォン/학원）を登録するためのステップバイステップガイド — 施設、講師、安全要件と地方教育支援庁の登録プロセスを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>学院登録の概要</li><li>私立学院の種類</li><li>施設要件</li><li>講師要件</li><li>必要書類</li><li>登録手続き</li><li>よくある質問</li></ol></div><h2>1. 学院登録の概要</h2><p>韓国で授業料を徴収するすべての私立教育機関は、<strong>学院法</strong>に基づき地方教育支援庁に学院（학원）として登録する必要があります。</p><h2>2. 私立学院の種類</h2><ul><li>学科補習塾（国語、数学、英語など）</li><li>芸術・音楽・スポーツ学院</li><li>職業訓練学院</li><li>語学学校（外国人学生を含む）</li></ul><h2>3. 施設要件</h2><ul><li>一般学科補習塾は最低60m²</li><li>換気・トイレ・消防安全への準拠が必要</li><li>一定深度を超える地下には施設を設けられない</li><li>建物は教育用途または許可される複合用途にゾーニングされている必要がある</li></ul><h2>4. 講師要件</h2><ul><li>学院長は学院長資格証の保持、または経験による資格取得が必要</li><li>科目担当教師は関連学位または資格が推奨される</li></ul><h2>5. 必要書類</h2><ul><li>学院登録申請書</li><li>施設平面図</li><li>建物用途確認書類</li><li>消防安全検査証明書</li><li>学院長の身分・資格書類</li><li>賃貸借契約書</li></ul><h2>6. 登録手続き</h2><ol><li>管轄教育支援庁に申請書を提出</li><li>施設検査（消防・安全・ゾーニング）</li><li>登録証の交付（約14〜21営業日）</li><li>開業前に授業料を教育支援庁に報告</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で学習塾を開設できますか？</p><p class="faq-a">A. できます。ただし、院長の役割には韓国人共同院長または適切なビザステータスが必要な場合があります。</p></div><div class="faq-item"><p class="faq-q">Q. 授業時間に制限はありますか？</p><p class="faq-a">A. あります。未成年者に対しては午後10時以降の授業は禁止されています。</p></div></div><div class="cta-box"><h3>学院を正しく登録しましょう</h3><p>YouSun Administrative Agencyが学院登録とコンプライアンス申告を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>学院登録の概要</li><li>私立学院の種類</li><li>施設要件</li><li>講師要件</li><li>必要書類</li><li>登録手続き</li><li>よくある質問</li></ol></div><h2>1. 学院登録の概要</h2><p>韓国で授業料を徴収するすべての私立教育機関は、<strong>学院法</strong>に基づき地方教育支援庁に学院（학원）として登録する必要があります。</p><h2>2. 私立学院の種類</h2><ul><li>学科補習塾（国語、数学、英語など）</li><li>芸術・音楽・スポーツ学院</li><li>職業訓練学院</li><li>語学学校（外国人学生を含む）</li></ul><h2>3. 施設要件</h2><ul><li>一般学科補習塾は最低60m²</li><li>換気・トイレ・消防安全への準拠が必要</li><li>一定深度を超える地下には施設を設けられない</li><li>建物は教育用途または許可される複合用途にゾーニングされている必要がある</li></ul><h2>4. 講師要件</h2><ul><li>学院長は学院長資格証の保持、または経験による資格取得が必要</li><li>科目担当教師は関連学位または資格が推奨される</li></ul><h2>5. 必要書類</h2><ul><li>学院登録申請書</li><li>施設平面図</li><li>建物用途確認書類</li><li>消防安全検査証明書</li><li>学院長の身分・資格書類</li><li>賃貸借契約書</li></ul><h2>6. 登録手続き</h2><ol><li>管轄教育支援庁に申請書を提出</li><li>施設検査（消防・安全・ゾーニング）</li><li>登録証の交付（約14〜21営業日）</li><li>開業前に授業料を教育支援庁に報告</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で学習塾を開設できますか？</p><p class="faq-a">A. できます。ただし、院長の役割には韓国人共同院長または適切なビザステータスが必要な場合があります。</p></div><div class="faq-item"><p class="faq-q">Q. 授業時間に制限はありますか？</p><p class="faq-a">A. あります。未成年者に対しては午後10時以降の授業は禁止されています。</p></div></div><div class="cta-box"><h3>学院を正しく登録しましょう</h3><p>YouSun Administrative Agencyが学院登録とコンプライアンス申告を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 36: laundry-business-permit-guide ────────────────────────────────
@@ -2539,30 +2539,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Laundry Business Permit in Korea — 2026 Registration Guide',
     metaTitle: 'Korea Laundry Business Registration 2026 — Permit Requirements',
-    metaDescription: 'How to register a laundry business (세탁업) in Korea. Facility requirements, environmental permits, required documents. Free consultation.',
+    metaDescription: 'How to register a laundry business (세탁업) in Korea. Facility requirements, environmental permits, required documents.',
     category: 'Service Business',
     excerpt: 'A guide to registering a laundry business (세탁업) in Korea — facility standards, environmental compliance, and step-by-step registration procedure.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Laundry Business Types in Korea</li><li>Registration Requirements</li><li>Facility Standards</li><li>Environmental Compliance</li><li>Required Documents</li><li>Registration Procedure</li><li>FAQ</li></ol></div><h2>1. Laundry Business Types in Korea</h2><ul><li><strong>Coin/General Laundry:</strong> customer self-service or staff-assisted laundry</li><li><strong>Dry Cleaning/Laundry Service:</strong> pick-up and delivery</li><li>Both require registration under the <strong>Public Health Management Act</strong></li></ul><h2>2. Registration Requirements</h2><ul><li>Registered business at local district office</li><li>Facility must meet minimum sanitation standards</li><li>Wastewater treatment equipment if using chemical solvents (dry cleaning)</li></ul><h2>3. Facility Standards</h2><ul><li>Minimum 16.5 m² for wash area</li><li>Separate customer area and washing area</li><li>Adequate ventilation (especially for solvent-based cleaning)</li><li>Fire-resistant materials for solvent storage areas</li></ul><h2>4. Environmental Compliance</h2><ul><li>Dry cleaning using perchloroethylene requires environmental registration</li><li>Wastewater discharge must comply with the Water Quality Conservation Act</li><li>Solvent waste must be disposed of by a licensed waste company</li></ul><h2>5. Required Documents</h2><ul><li>Public health business registration application</li><li>Facility floor plan</li><li>Equipment specification list</li><li>Environmental permit (if using chemical solvents)</li><li>Business registration certificate</li></ul><h2>6. Registration Procedure</h2><ol><li>Submit application to local district office health department</li><li>Facility inspection</li><li>Registration certificate issued (approx. 5–10 business days)</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a laundry business operate from a residential building?</p><p class="faq-a">A. Commercial floors of mixed-use buildings are typically permitted. Pure residential buildings are generally not.</p></div><div class="faq-item"><p class="faq-q">Q. Is there a health inspection required before opening?</p><p class="faq-a">A. Yes. A facility inspection by the local health department is part of the registration process.</p></div></div><div class="cta-box"><h3>Register Your Laundry Business</h3><p>YouSun Administrative Agency handles public health business registrations including laundry businesses. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Laundry Business Types in Korea</li><li>Registration Requirements</li><li>Facility Standards</li><li>Environmental Compliance</li><li>Required Documents</li><li>Registration Procedure</li><li>FAQ</li></ol></div><h2>1. Laundry Business Types in Korea</h2><ul><li><strong>Coin/General Laundry:</strong> customer self-service or staff-assisted laundry</li><li><strong>Dry Cleaning/Laundry Service:</strong> pick-up and delivery</li><li>Both require registration under the <strong>Public Health Management Act</strong></li></ul><h2>2. Registration Requirements</h2><ul><li>Registered business at local district office</li><li>Facility must meet minimum sanitation standards</li><li>Wastewater treatment equipment if using chemical solvents (dry cleaning)</li></ul><h2>3. Facility Standards</h2><ul><li>Minimum 16.5 m² for wash area</li><li>Separate customer area and washing area</li><li>Adequate ventilation (especially for solvent-based cleaning)</li><li>Fire-resistant materials for solvent storage areas</li></ul><h2>4. Environmental Compliance</h2><ul><li>Dry cleaning using perchloroethylene requires environmental registration</li><li>Wastewater discharge must comply with the Water Quality Conservation Act</li><li>Solvent waste must be disposed of by a licensed waste company</li></ul><h2>5. Required Documents</h2><ul><li>Public health business registration application</li><li>Facility floor plan</li><li>Equipment specification list</li><li>Environmental permit (if using chemical solvents)</li><li>Business registration certificate</li></ul><h2>6. Registration Procedure</h2><ol><li>Submit application to local district office health department</li><li>Facility inspection</li><li>Registration certificate issued (approx. 5–10 business days)</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a laundry business operate from a residential building?</p><p class="faq-a">A. Commercial floors of mixed-use buildings are typically permitted. Pure residential buildings are generally not.</p></div><div class="faq-item"><p class="faq-q">Q. Is there a health inspection required before opening?</p><p class="faq-a">A. Yes. A facility inspection by the local health department is part of the registration process.</p></div></div><div class="cta-box"><h3>Register Your Laundry Business</h3><p>YouSun Administrative Agency handles public health business registrations including laundry businesses.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'laundry-business-permit-guide',
     locale: 'zh',
     title: '韩国洗衣业许可证申请指南2026',
     metaTitle: '韩国洗衣业登记2026 — 许可证申请要求',
-    metaDescription: '在韩国登记洗衣业（세탁업）的方法。设施要求、环保许可、所需材料及登记流程。专业行政士免费初次咨询。本文依次说明韩国洗衣业类型、登记要求、设施标准、环境合规，可按步骤逐项确认。',
+    metaDescription: '在韩国登记洗衣业（세탁업）的方法。设施要求、环保许可、所需材料及登记流程。专业行政士初次咨询。本文依次说明韩国洗衣业类型、登记要求、设施标准、环境合规，可按步骤逐项确认。',
     category: '服务业',
     excerpt: '韩国洗衣业（세탁업）登记指南，包括设施标准、环境合规及分步登记流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>韩国洗衣业类型</li><li>登记要求</li><li>设施标准</li><li>环境合规</li><li>所需材料</li><li>登记流程</li><li>常见问题</li></ol></div><h2>1. 韩国洗衣业类型</h2><ul><li><strong>投币/普通洗衣：</strong>顾客自助或员工协助洗衣</li><li><strong>干洗/洗衣服务：</strong>上门收取和送还服务</li><li>两者均须依据<strong>《公众卫生管理法》</strong>进行登记</li></ul><h2>2. 登记要求</h2><ul><li>在当地区/市政府办理营业登记</li><li>设施须符合最低卫生标准</li><li>使用化学溶剂须配备污水处理设备</li></ul><h2>3. 设施标准</h2><ul><li>洗涤区最低16.5m²</li><li>顾客区域与洗涤区域须分开</li><li>充足的通风（尤其是基于溶剂的清洁）</li><li>溶剂存储区须采用防火材料</li></ul><h2>4. 环境合规</h2><ul><li>使用全氯乙烯的干洗须进行环保登记</li><li>污水排放须符合《水质保护法》</li><li>溶剂废物须由持牌废物处理公司处置</li></ul><h2>5. 所需材料</h2><ul><li>公众卫生业登记申请表</li><li>设施平面图</li><li>设备规格清单</li><li>环保许可证（如使用化学溶剂）</li><li>营业执照</li></ul><h2>6. 登记流程</h2><ol><li>向当地区政府卫生部门提交申请</li><li>设施检查</li><li>颁发登记证（约5~10个工作日）</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 洗衣业能在住宅楼运营吗？</p><p class="faq-a">A. 混合用途建筑的商业楼层通常允许。纯住宅楼一般不允许。</p></div><div class="faq-item"><p class="faq-q">Q. 开业前需要卫生检查吗？</p><p class="faq-a">A. 是的。当地卫生部门的设施检查是登记流程的一部分。</p></div></div><div class="cta-box"><h3>登记洗衣业务</h3><p>YouSun Administrative Agency代办包括洗衣业在内的公众卫生业登记。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>韩国洗衣业类型</li><li>登记要求</li><li>设施标准</li><li>环境合规</li><li>所需材料</li><li>登记流程</li><li>常见问题</li></ol></div><h2>1. 韩国洗衣业类型</h2><ul><li><strong>投币/普通洗衣：</strong>顾客自助或员工协助洗衣</li><li><strong>干洗/洗衣服务：</strong>上门收取和送还服务</li><li>两者均须依据<strong>《公众卫生管理法》</strong>进行登记</li></ul><h2>2. 登记要求</h2><ul><li>在当地区/市政府办理营业登记</li><li>设施须符合最低卫生标准</li><li>使用化学溶剂须配备污水处理设备</li></ul><h2>3. 设施标准</h2><ul><li>洗涤区最低16.5m²</li><li>顾客区域与洗涤区域须分开</li><li>充足的通风（尤其是基于溶剂的清洁）</li><li>溶剂存储区须采用防火材料</li></ul><h2>4. 环境合规</h2><ul><li>使用全氯乙烯的干洗须进行环保登记</li><li>污水排放须符合《水质保护法》</li><li>溶剂废物须由持牌废物处理公司处置</li></ul><h2>5. 所需材料</h2><ul><li>公众卫生业登记申请表</li><li>设施平面图</li><li>设备规格清单</li><li>环保许可证（如使用化学溶剂）</li><li>营业执照</li></ul><h2>6. 登记流程</h2><ol><li>向当地区政府卫生部门提交申请</li><li>设施检查</li><li>颁发登记证（约5~10个工作日）</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 洗衣业能在住宅楼运营吗？</p><p class="faq-a">A. 混合用途建筑的商业楼层通常允许。纯住宅楼一般不允许。</p></div><div class="faq-item"><p class="faq-q">Q. 开业前需要卫生检查吗？</p><p class="faq-a">A. 是的。当地卫生部门的设施检查是登记流程的一部分。</p></div></div><div class="cta-box"><h3>登记洗衣业务</h3><p>YouSun Administrative Agency代办包括洗衣业在内的公众卫生业登记。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'laundry-business-permit-guide',
     locale: 'ja',
     title: '韓国クリーニング業許可証登録ガイド2026',
     metaTitle: '韓国クリーニング業登録2026 — 許可要件の詳細',
-    metaDescription: '韓国でクリーニング業（세탁업）を登録する方法。施設要件、環境許可、必要書類、登録手続き。行政士による無料初回相談。韓国のクリーニング業の種類・登録要件・施設基準・環境コンプライアンスまで順に確認できます。',
+    metaDescription: '韓国でクリーニング業（세탁업）を登録する方法。施設要件、環境許可、必要書類、登録手続き。行政士による初回相談。韓国のクリーニング業の種類・登録要件・施設基準・環境コンプライアンスまで順に確認できます。',
     category: 'サービス業',
     excerpt: '韓国のクリーニング業（세탁업）登録ガイド — 施設基準、環境コンプライアンス、ステップバイステップの登録手続きを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>韓国のクリーニング業の種類</li><li>登録要件</li><li>施設基準</li><li>環境コンプライアンス</li><li>必要書類</li><li>登録手続き</li><li>よくある質問</li></ol></div><h2>1. 韓国のクリーニング業の種類</h2><ul><li><strong>コインランドリー/一般洗濯：</strong>顧客のセルフサービスまたはスタッフ補助による洗濯</li><li><strong>ドライクリーニング/洗濯サービス：</strong>集荷・配達サービス</li><li>両方とも公衆衛生管理法に基づく登録が必要</li></ul><h2>2. 登録要件</h2><ul><li>地方区役所での事業者登録</li><li>施設は最低衛生基準を満たすこと</li><li>化学溶剤使用時は排水処理設備が必要</li></ul><h2>3. 施設基準</h2><ul><li>洗濯エリアは最低16.5m²</li><li>顧客エリアと洗濯エリアを分離</li><li>十分な換気（特に溶剤系クリーニングの場合）</li><li>溶剤保管エリアは耐火材料を使用</li></ul><h2>4. 環境コンプライアンス</h2><ul><li>パークロロエチレンを使用するドライクリーニングは環境登録が必要</li><li>排水は水質保全法に準拠する必要がある</li><li>溶剤廃棄物は許可を受けた廃棄物会社が処分する必要がある</li></ul><h2>5. 必要書類</h2><ul><li>公衆衛生業登録申請書</li><li>施設平面図</li><li>設備仕様リスト</li><li>環境許可証（化学溶剤使用の場合）</li><li>事業者登録証</li></ul><h2>6. 登録手続き</h2><ol><li>地方区役所の衛生担当部署に申請書を提出</li><li>施設検査</li><li>登録証の交付（約5〜10営業日）</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. クリーニング業は住宅ビルで営業できますか？</p><p class="faq-a">A. 複合用途ビルの商業フロアは一般的に許可されます。純住宅ビルは一般的に不可です。</p></div><div class="faq-item"><p class="faq-q">Q. 開業前に衛生検査が必要ですか？</p><p class="faq-a">A. はい。地方衛生担当部署による施設検査は登録プロセスの一部です。</p></div></div><div class="cta-box"><h3>クリーニング業を登録しましょう</h3><p>YouSun Administrative Agencyがクリーニング業を含む公衆衛生業の登録を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>韓国のクリーニング業の種類</li><li>登録要件</li><li>施設基準</li><li>環境コンプライアンス</li><li>必要書類</li><li>登録手続き</li><li>よくある質問</li></ol></div><h2>1. 韓国のクリーニング業の種類</h2><ul><li><strong>コインランドリー/一般洗濯：</strong>顧客のセルフサービスまたはスタッフ補助による洗濯</li><li><strong>ドライクリーニング/洗濯サービス：</strong>集荷・配達サービス</li><li>両方とも公衆衛生管理法に基づく登録が必要</li></ul><h2>2. 登録要件</h2><ul><li>地方区役所での事業者登録</li><li>施設は最低衛生基準を満たすこと</li><li>化学溶剤使用時は排水処理設備が必要</li></ul><h2>3. 施設基準</h2><ul><li>洗濯エリアは最低16.5m²</li><li>顧客エリアと洗濯エリアを分離</li><li>十分な換気（特に溶剤系クリーニングの場合）</li><li>溶剤保管エリアは耐火材料を使用</li></ul><h2>4. 環境コンプライアンス</h2><ul><li>パークロロエチレンを使用するドライクリーニングは環境登録が必要</li><li>排水は水質保全法に準拠する必要がある</li><li>溶剤廃棄物は許可を受けた廃棄物会社が処分する必要がある</li></ul><h2>5. 必要書類</h2><ul><li>公衆衛生業登録申請書</li><li>施設平面図</li><li>設備仕様リスト</li><li>環境許可証（化学溶剤使用の場合）</li><li>事業者登録証</li></ul><h2>6. 登録手続き</h2><ol><li>地方区役所の衛生担当部署に申請書を提出</li><li>施設検査</li><li>登録証の交付（約5〜10営業日）</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. クリーニング業は住宅ビルで営業できますか？</p><p class="faq-a">A. 複合用途ビルの商業フロアは一般的に許可されます。純住宅ビルは一般的に不可です。</p></div><div class="faq-item"><p class="faq-q">Q. 開業前に衛生検査が必要ですか？</p><p class="faq-a">A. はい。地方衛生担当部署による施設検査は登録プロセスの一部です。</p></div></div><div class="cta-box"><h3>クリーニング業を登録しましょう</h3><p>YouSun Administrative Agencyがクリーニング業を含む公衆衛生業の登録を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 37: real-estate-agency-registration-guide ────────────────────────
@@ -2571,30 +2571,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Real Estate Agency Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Real Estate Agency Registration 2026 — Requirements & Procedure',
-    metaDescription: 'How to register a real estate agency in Korea. Brokerage license requirements, registration with local government, bond insurance. Free consultation.',
+    metaDescription: 'How to register a real estate agency in Korea. Brokerage license requirements, registration with local government, bond insurance.',
     category: 'Real Estate',
     excerpt: 'A guide to registering a licensed real estate agency in Korea — qualifications, required documents, local government registration, and compliance obligations.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Real Estate Agency Registration</li><li>Broker Qualifications Required</li><li>Required Documents</li><li>Surety Bond and Liability Insurance</li><li>Registration Procedure</li><li>Ongoing Compliance</li><li>FAQ</li></ol></div><h2>1. Overview of Real Estate Agency Registration</h2><p>In Korea, operating a real estate brokerage requires a license from the local government under the <strong>Act on Business Affairs of Licensed Real Estate Agents</strong>. Only holders of the <strong>공인중개사 (Certified Real Estate Agent)</strong> qualification can register a brokerage.</p><h2>2. Broker Qualifications Required</h2><ul><li>Must pass the national 공인중개사 examination</li><li>Cannot be disqualified due to criminal history or prior license revocation</li><li>Foreign nationals who passed the Korean real estate exam can also register</li></ul><h2>3. Required Documents</h2><ul><li>Brokerage registration application</li><li>Certified Real Estate Agent certificate</li><li>Photo ID</li><li>Facility lease agreement</li><li>Business registration certificate</li><li>Surety bond or liability insurance certificate</li></ul><h2>4. Surety Bond and Liability Insurance</h2><ul><li>KRW 100 million surety bond required for individual brokers</li><li>KRW 200 million for corporate brokerages</li><li>Alternatively, join a certified real estate agent cooperative</li></ul><h2>5. Registration Procedure</h2><ol><li>Submit application to local city/county office</li><li>Document review and qualification verification</li><li>Registration certificate issued (approx. 5–7 business days)</li><li>Post the registration certificate visibly in the office</li></ol><h2>6. Ongoing Compliance</h2><ul><li>Display commission rate table in office</li><li>Issue transaction confirmation documents for every deal</li><li>Annual renewal of liability insurance or cooperative membership</li><li>Mandatory continuing education (28 hours every 2 years)</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can someone without the certificate employ a certified agent and open a brokerage?</p><p class="faq-a">A. No. The registered representative must personally hold the 공인중개사 certificate.</p></div><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a real estate agency in Korea?</p><p class="faq-a">A. Yes, if the foreigner holds a valid 공인중개사 certificate and has legal residency status.</p></div></div><div class="cta-box"><h3>Register Your Real Estate Agency</h3><p>YouSun Administrative Agency handles real estate agency registration and business compliance filings. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview of Real Estate Agency Registration</li><li>Broker Qualifications Required</li><li>Required Documents</li><li>Surety Bond and Liability Insurance</li><li>Registration Procedure</li><li>Ongoing Compliance</li><li>FAQ</li></ol></div><h2>1. Overview of Real Estate Agency Registration</h2><p>In Korea, operating a real estate brokerage requires a license from the local government under the <strong>Act on Business Affairs of Licensed Real Estate Agents</strong>. Only holders of the <strong>공인중개사 (Certified Real Estate Agent)</strong> qualification can register a brokerage.</p><h2>2. Broker Qualifications Required</h2><ul><li>Must pass the national 공인중개사 examination</li><li>Cannot be disqualified due to criminal history or prior license revocation</li><li>Foreign nationals who passed the Korean real estate exam can also register</li></ul><h2>3. Required Documents</h2><ul><li>Brokerage registration application</li><li>Certified Real Estate Agent certificate</li><li>Photo ID</li><li>Facility lease agreement</li><li>Business registration certificate</li><li>Surety bond or liability insurance certificate</li></ul><h2>4. Surety Bond and Liability Insurance</h2><ul><li>KRW 100 million surety bond required for individual brokers</li><li>KRW 200 million for corporate brokerages</li><li>Alternatively, join a certified real estate agent cooperative</li></ul><h2>5. Registration Procedure</h2><ol><li>Submit application to local city/county office</li><li>Document review and qualification verification</li><li>Registration certificate issued (approx. 5–7 business days)</li><li>Post the registration certificate visibly in the office</li></ol><h2>6. Ongoing Compliance</h2><ul><li>Display commission rate table in office</li><li>Issue transaction confirmation documents for every deal</li><li>Annual renewal of liability insurance or cooperative membership</li><li>Mandatory continuing education (28 hours every 2 years)</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can someone without the certificate employ a certified agent and open a brokerage?</p><p class="faq-a">A. No. The registered representative must personally hold the 공인중개사 certificate.</p></div><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a real estate agency in Korea?</p><p class="faq-a">A. Yes, if the foreigner holds a valid 공인중개사 certificate and has legal residency status.</p></div></div><div class="cta-box"><h3>Register Your Real Estate Agency</h3><p>YouSun Administrative Agency handles real estate agency registration and business compliance filings.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'real-estate-agency-registration-guide',
     locale: 'zh',
     title: '韩国房产中介机构登记指南2026',
     metaTitle: '韩国房产中介登记2026 — 资质与申请流程',
-    metaDescription: '在韩国登记房产中介机构的方法。经纪人执照要求、地方政府登记、保证金保险及合规清单。专业行政士免费初次咨询。本文依次说明房产中介登记概述、经纪人资质要求、所需材料、保证金及责任险，可按步骤逐项确认。',
+    metaDescription: '在韩国登记房产中介机构的方法。经纪人执照要求、地方政府登记、保证金保险及合规清单。专业行政士初次咨询。本文依次说明房产中介登记概述、经纪人资质要求、所需材料、保证金及责任险，可按步骤逐项确认。',
     category: '房地产',
     excerpt: '韩国持牌房产中介机构登记指南，包括资质要求、所需材料、地方政府登记及合规义务。',
-    content: `<div class="toc"><p>目录</p><ol><li>房产中介登记概述</li><li>经纪人资质要求</li><li>所需材料</li><li>保证金及责任险</li><li>登记流程</li><li>持续合规</li><li>常见问题</li></ol></div><h2>1. 房产中介登记概述</h2><p>在韩国经营房产中介业务，须依据<strong>《公认中介士业务法》</strong>取得当地政府颁发的执照。只有持有<strong>공인중개사（公认中介士）</strong>资格的人员才能登记中介机构。</p><h2>2. 经纪人资质要求</h2><ul><li>须通过全国公认中介士考试</li><li>不得因犯罪记录或以前执照被吊销而被取消资格</li><li>通过韩国房产考试的外国人也可登记</li></ul><h2>3. 所需材料</h2><ul><li>中介机构登记申请表</li><li>公认中介士证书</li><li>身份证件</li><li>设施租赁合同</li><li>营业执照</li><li>保证金或责任险证明</li></ul><h2>4. 保证金及责任险</h2><ul><li>个人中介须缴纳1亿韩元保证金</li><li>法人中介机构须缴纳2亿韩元</li><li>也可加入公认中介士合作社</li></ul><h2>5. 登记流程</h2><ol><li>向当地市/郡/区政府提交申请</li><li>材料审查及资质核验</li><li>颁发登记证（约5~7个工作日）</li><li>在办公室显眼处张贴登记证</li></ol><h2>6. 持续合规</h2><ul><li>在办公室展示中介费率表</li><li>为每笔交易出具交易确认文件</li><li>责任险或合作社会员资格年度更新</li><li>强制性继续教育（每两年28小时）</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 没有证书的人能雇用持证人员并开设中介机构吗？</p><p class="faq-a">A. 不能。中介机构的登记代表人须本人持有公认中介士证书。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国开设房产中介机构吗？</p><p class="faq-a">A. 可以，前提是该外国人持有有效证书及合法居留身份。</p></div></div><div class="cta-box"><h3>登记您的房产中介机构</h3><p>YouSun Administrative Agency代办房产中介机构登记及营业合规申报。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>房产中介登记概述</li><li>经纪人资质要求</li><li>所需材料</li><li>保证金及责任险</li><li>登记流程</li><li>持续合规</li><li>常见问题</li></ol></div><h2>1. 房产中介登记概述</h2><p>在韩国经营房产中介业务，须依据<strong>《公认中介士业务法》</strong>取得当地政府颁发的执照。只有持有<strong>공인중개사（公认中介士）</strong>资格的人员才能登记中介机构。</p><h2>2. 经纪人资质要求</h2><ul><li>须通过全国公认中介士考试</li><li>不得因犯罪记录或以前执照被吊销而被取消资格</li><li>通过韩国房产考试的外国人也可登记</li></ul><h2>3. 所需材料</h2><ul><li>中介机构登记申请表</li><li>公认中介士证书</li><li>身份证件</li><li>设施租赁合同</li><li>营业执照</li><li>保证金或责任险证明</li></ul><h2>4. 保证金及责任险</h2><ul><li>个人中介须缴纳1亿韩元保证金</li><li>法人中介机构须缴纳2亿韩元</li><li>也可加入公认中介士合作社</li></ul><h2>5. 登记流程</h2><ol><li>向当地市/郡/区政府提交申请</li><li>材料审查及资质核验</li><li>颁发登记证（约5~7个工作日）</li><li>在办公室显眼处张贴登记证</li></ol><h2>6. 持续合规</h2><ul><li>在办公室展示中介费率表</li><li>为每笔交易出具交易确认文件</li><li>责任险或合作社会员资格年度更新</li><li>强制性继续教育（每两年28小时）</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 没有证书的人能雇用持证人员并开设中介机构吗？</p><p class="faq-a">A. 不能。中介机构的登记代表人须本人持有公认中介士证书。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国开设房产中介机构吗？</p><p class="faq-a">A. 可以，前提是该外国人持有有效证书及合法居留身份。</p></div></div><div class="cta-box"><h3>登记您的房产中介机构</h3><p>YouSun Administrative Agency代办房产中介机构登记及营业合规申报。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'real-estate-agency-registration-guide',
     locale: 'ja',
     title: '韓国不動産仲介業登録ガイド2026',
     metaTitle: '韓国不動産仲介業登録2026 — 資格と申請手続き',
-    metaDescription: '韓国で不動産仲介業を登録する方法。仲介士資格要件、地方政府への登録、保証金保険、コンプライアンスチェックリスト。韓国行政士による無料初回相談。',
+    metaDescription: '韓国で不動産仲介業を登録する方法。仲介士資格要件、地方政府への登録、保証金保険、コンプライアンスチェックリスト。韓国行政士による初回相談。',
     category: '不動産',
     excerpt: '韓国の不動産仲介業登録ガイド — 資格要件、必要書類、地方政府登録、コンプライアンス義務を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>不動産仲介業登録の概要</li><li>必要な仲介士資格</li><li>必要書類</li><li>供託金・賠償責任保険</li><li>登録手続き</li><li>継続的コンプライアンス</li><li>よくある質問</li></ol></div><h2>1. 不動産仲介業登録の概要</h2><p>韓国で不動産仲介業を営むには、<strong>「公認仲介士業務に関する法律」</strong>に基づき地方自治体からの許可が必要です。<strong>공인중개사（公認仲介士）</strong>資格保有者のみが仲介業を登録できます。</p><h2>2. 必要な仲介士資格</h2><ul><li>全国公認仲介士試験に合格していること</li><li>犯罪歴や過去の資格取消しによる欠格事由がないこと</li><li>韓国の不動産試験に合格した外国人も登録可能</li></ul><h2>3. 必要書類</h2><ul><li>仲介業登録申請書</li><li>公認仲介士証明書</li><li>写真付き身分証明書</li><li>施設賃貸借契約書</li><li>事業者登録証</li><li>供託金または賠償責任保険証明書</li></ul><h2>4. 供託金・賠償責任保険</h2><ul><li>個人仲介業者：1億ウォンの保証保険が必要</li><li>法人仲介業：2億ウォン</li><li>代替として公認仲介士共済組合に加入も可能</li></ul><h2>5. 登録手続き</h2><ol><li>地方市区町村役場に申請書を提出</li><li>書類審査と資格確認</li><li>登録証の交付（約5〜7営業日）</li><li>登録証を事務所の見えるところに掲示</li></ol><h2>6. 継続的コンプライアンス</h2><ul><li>事務所に仲介報酬率表を掲示</li><li>すべての取引に取引確認書を発行</li><li>賠償責任保険または共済組合加入の年次更新</li><li>義務的継続教育（2年に28時間）</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 証明書がない人が資格保有者を雇って仲介業を開設できますか？</p><p class="faq-a">A. できません。仲介業の登録代表者は自身で証明書を保持している必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で不動産仲介業を開設できますか？</p><p class="faq-a">A. はい。有効な証明書と適法な在留資格を持っている場合に可能です。</p></div></div><div class="cta-box"><h3>不動産仲介業を登録しましょう</h3><p>YouSun Administrative Agencyが不動産仲介業の登録と事業コンプライアンス申告を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>不動産仲介業登録の概要</li><li>必要な仲介士資格</li><li>必要書類</li><li>供託金・賠償責任保険</li><li>登録手続き</li><li>継続的コンプライアンス</li><li>よくある質問</li></ol></div><h2>1. 不動産仲介業登録の概要</h2><p>韓国で不動産仲介業を営むには、<strong>「公認仲介士業務に関する法律」</strong>に基づき地方自治体からの許可が必要です。<strong>공인중개사（公認仲介士）</strong>資格保有者のみが仲介業を登録できます。</p><h2>2. 必要な仲介士資格</h2><ul><li>全国公認仲介士試験に合格していること</li><li>犯罪歴や過去の資格取消しによる欠格事由がないこと</li><li>韓国の不動産試験に合格した外国人も登録可能</li></ul><h2>3. 必要書類</h2><ul><li>仲介業登録申請書</li><li>公認仲介士証明書</li><li>写真付き身分証明書</li><li>施設賃貸借契約書</li><li>事業者登録証</li><li>供託金または賠償責任保険証明書</li></ul><h2>4. 供託金・賠償責任保険</h2><ul><li>個人仲介業者：1億ウォンの保証保険が必要</li><li>法人仲介業：2億ウォン</li><li>代替として公認仲介士共済組合に加入も可能</li></ul><h2>5. 登録手続き</h2><ol><li>地方市区町村役場に申請書を提出</li><li>書類審査と資格確認</li><li>登録証の交付（約5〜7営業日）</li><li>登録証を事務所の見えるところに掲示</li></ol><h2>6. 継続的コンプライアンス</h2><ul><li>事務所に仲介報酬率表を掲示</li><li>すべての取引に取引確認書を発行</li><li>賠償責任保険または共済組合加入の年次更新</li><li>義務的継続教育（2年に28時間）</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 証明書がない人が資格保有者を雇って仲介業を開設できますか？</p><p class="faq-a">A. できません。仲介業の登録代表者は自身で証明書を保持している必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で不動産仲介業を開設できますか？</p><p class="faq-a">A. はい。有効な証明書と適法な在留資格を持っている場合に可能です。</p></div></div><div class="cta-box"><h3>不動産仲介業を登録しましょう</h3><p>YouSun Administrative Agencyが不動産仲介業の登録と事業コンプライアンス申告を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 38: restaurant-food-service-license-guide ────────────────────────
@@ -2603,30 +2603,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Restaurant & Food Service License in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Restaurant Food Service License 2026 — Requirements & Procedure',
-    metaDescription: 'How to obtain a food service license (식품접객업) for a restaurant or café in Korea. Health permit, facility requirements, food hygiene training. Free consultation.',
+    metaDescription: 'How to obtain a food service license (식품접객업) for a restaurant or café in Korea. Health permit, facility requirements, food hygiene training.',
     category: 'Food',
     excerpt: 'A complete guide to obtaining a food service license (식품접객업) for a restaurant, café, or bar in Korea — health permit, facility standards, and registration procedure.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Food Service Business</li><li>Who Needs a License?</li><li>Facility Requirements</li><li>Food Hygiene Manager</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div><h2>1. Types of Food Service Business</h2><ul><li><strong>General restaurant (일반음식점):</strong> dine-in meals and alcohol</li><li><strong>Simple food service (휴게음식점):</strong> light meals and non-alcoholic beverages (cafés, bakeries, fast food)</li><li><strong>Bar (단란주점/유흥주점):</strong> higher license tier for establishments with performances or adult entertainment</li></ul><h2>2. Who Needs a License?</h2><p>Any business selling food or beverages for on-site consumption in Korea must obtain a food service business license from the local government (시/군/구청) under the <strong>Food Sanitation Act</strong>.</p><h2>3. Facility Requirements</h2><ul><li>Kitchen must have adequate ventilation and grease traps</li><li>Separate food preparation and dishwashing areas</li><li>Refrigeration equipment for perishables</li><li>Restrooms (can be shared in some cases)</li><li>Fire safety compliance</li></ul><h2>4. Food Hygiene Manager</h2><ul><li>At least one designated food hygiene manager (식품위생관리책임자) required</li><li>Must complete food hygiene training (6 hours initial, 3 hours every 2 years renewal)</li><li>In practice, business owner often takes this role</li></ul><h2>5. Required Documents</h2><ul><li>Food service business registration application</li><li>Facility floor plan showing kitchen layout</li><li>Building use confirmation (for food service)</li><li>Fire safety inspection certificate</li><li>Food hygiene manager training certificate</li><li>Business registration certificate</li></ul><h2>6. Application Procedure</h2><ol><li>Complete food hygiene training</li><li>Submit application to local district office (구청)</li><li>Health/facility inspection</li><li>License issued (approx. 3–7 business days)</li><li>Post license prominently in the establishment</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Do I need a separate liquor license?</p><p class="faq-a">A. A general restaurant license (일반음식점) covers incidental alcohol sales. A dedicated bar (주점업) requires a separate liquor business permit.</p></div><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a restaurant in Korea?</p><p class="faq-a">A. Yes, with a valid business visa (D-9 for investment) or F-visa. The business registration and license process is the same.</p></div></div><div class="cta-box"><h3>Get Your Restaurant License</h3><p>YouSun Administrative Agency handles food service business licensing and compliance. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Food Service Business</li><li>Who Needs a License?</li><li>Facility Requirements</li><li>Food Hygiene Manager</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div><h2>1. Types of Food Service Business</h2><ul><li><strong>General restaurant (일반음식점):</strong> dine-in meals and alcohol</li><li><strong>Simple food service (휴게음식점):</strong> light meals and non-alcoholic beverages (cafés, bakeries, fast food)</li><li><strong>Bar (단란주점/유흥주점):</strong> higher license tier for establishments with performances or adult entertainment</li></ul><h2>2. Who Needs a License?</h2><p>Any business selling food or beverages for on-site consumption in Korea must obtain a food service business license from the local government (시/군/구청) under the <strong>Food Sanitation Act</strong>.</p><h2>3. Facility Requirements</h2><ul><li>Kitchen must have adequate ventilation and grease traps</li><li>Separate food preparation and dishwashing areas</li><li>Refrigeration equipment for perishables</li><li>Restrooms (can be shared in some cases)</li><li>Fire safety compliance</li></ul><h2>4. Food Hygiene Manager</h2><ul><li>At least one designated food hygiene manager (식품위생관리책임자) required</li><li>Must complete food hygiene training (6 hours initial, 3 hours every 2 years renewal)</li><li>In practice, business owner often takes this role</li></ul><h2>5. Required Documents</h2><ul><li>Food service business registration application</li><li>Facility floor plan showing kitchen layout</li><li>Building use confirmation (for food service)</li><li>Fire safety inspection certificate</li><li>Food hygiene manager training certificate</li><li>Business registration certificate</li></ul><h2>6. Application Procedure</h2><ol><li>Complete food hygiene training</li><li>Submit application to local district office (구청)</li><li>Health/facility inspection</li><li>License issued (approx. 3–7 business days)</li><li>Post license prominently in the establishment</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Do I need a separate liquor license?</p><p class="faq-a">A. A general restaurant license (일반음식점) covers incidental alcohol sales. A dedicated bar (주점업) requires a separate liquor business permit.</p></div><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a restaurant in Korea?</p><p class="faq-a">A. Yes, with a valid business visa (D-9 for investment) or F-visa. The business registration and license process is the same.</p></div></div><div class="cta-box"><h3>Get Your Restaurant License</h3><p>YouSun Administrative Agency handles food service business licensing and compliance.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'restaurant-food-service-license-guide',
     locale: 'zh',
     title: '韩国餐饮业营业执照申请指南2026',
     metaTitle: '韩国餐厅餐饮业执照2026 — 申请要求与流程',
-    metaDescription: '如何在韩国取得餐厅或咖啡厅的餐饮业营业执照（식품접객업）。卫生许可证、设施要求、食品卫生培训及登记步骤。免费初次咨询。本文依次说明餐饮业类型、设施要求、食品卫生管理负责人、所需材料，可按步骤逐项确认。',
+    metaDescription: '如何在韩国取得餐厅或咖啡厅的餐饮业营业执照（식품접객업）。卫生许可证、设施要求、食品卫生培训及登记步骤。初次咨询。本文依次说明餐饮业类型、设施要求、食品卫生管理负责人、所需材料，可按步骤逐项确认。',
     category: '餐饮',
     excerpt: '在韩国取得餐厅、咖啡厅或酒吧餐饮业执照（식품접객업）的完整指南，包括卫生许可、设施标准及登记流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>餐饮业类型</li><li>谁需要执照？</li><li>设施要求</li><li>食品卫生管理负责人</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div><h2>1. 餐饮业类型</h2><ul><li><strong>一般餐馆（일반음식점）：</strong>堂食及酒水销售</li><li><strong>简餐服务（휴게음식점）：</strong>轻食及非酒精饮料（咖啡厅、面包店、快餐）</li><li><strong>酒吧（단란주점/유흥주점）：</strong>提供表演或成人娱乐的更高级别许可证</li></ul><h2>2. 谁需要执照？</h2><p>在韩国销售食品或饮料供现场消费的任何企业，须依据<strong>《食品卫生法》</strong>从当地政府（市/郡/区政府）取得餐饮业营业执照。</p><h2>3. 设施要求</h2><ul><li>厨房须有充足的通风和油脂收集设备</li><li>食品准备区与洗碗区须分开</li><li>易腐食品的冷藏设备</li><li>卫生间（某些情况下可共用）</li><li>消防安全合规</li></ul><h2>4. 食品卫生管理负责人</h2><ul><li>须至少指定一名食品卫生管理负责人</li><li>须完成食品卫生培训（初次6小时，每两年更新3小时）</li><li>实际操作中，企业主通常担任此角色</li></ul><h2>5. 所需材料</h2><ul><li>餐饮业登记申请表</li><li>显示厨房布局的设施平面图</li><li>建筑用途确认文件（餐饮业用途）</li><li>消防安全检查证明</li><li>食品卫生管理负责人培训证书</li><li>营业执照</li></ul><h2>6. 申请流程</h2><ol><li>完成食品卫生培训</li><li>向当地区政府提交申请</li><li>卫生/设施检查</li><li>颁发执照（约3~7个工作日）</li><li>在店内显眼位置张贴执照</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 我需要单独的酒类许可证吗？</p><p class="faq-a">A. 一般餐馆执照（일반음식점）涵盖附带的酒水销售。专门的酒吧（주점업）需要单独的酒类业务许可证。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国开餐厅吗？</p><p class="faq-a">A. 可以，凭有效的商务签证（投资类D-9）或F签证，营业登记和执照申请流程相同。</p></div></div><div class="cta-box"><h3>取得餐饮业执照</h3><p>YouSun Administrative Agency代办餐饮业执照申请及合规服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>餐饮业类型</li><li>谁需要执照？</li><li>设施要求</li><li>食品卫生管理负责人</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div><h2>1. 餐饮业类型</h2><ul><li><strong>一般餐馆（일반음식점）：</strong>堂食及酒水销售</li><li><strong>简餐服务（휴게음식점）：</strong>轻食及非酒精饮料（咖啡厅、面包店、快餐）</li><li><strong>酒吧（단란주점/유흥주점）：</strong>提供表演或成人娱乐的更高级别许可证</li></ul><h2>2. 谁需要执照？</h2><p>在韩国销售食品或饮料供现场消费的任何企业，须依据<strong>《食品卫生法》</strong>从当地政府（市/郡/区政府）取得餐饮业营业执照。</p><h2>3. 设施要求</h2><ul><li>厨房须有充足的通风和油脂收集设备</li><li>食品准备区与洗碗区须分开</li><li>易腐食品的冷藏设备</li><li>卫生间（某些情况下可共用）</li><li>消防安全合规</li></ul><h2>4. 食品卫生管理负责人</h2><ul><li>须至少指定一名食品卫生管理负责人</li><li>须完成食品卫生培训（初次6小时，每两年更新3小时）</li><li>实际操作中，企业主通常担任此角色</li></ul><h2>5. 所需材料</h2><ul><li>餐饮业登记申请表</li><li>显示厨房布局的设施平面图</li><li>建筑用途确认文件（餐饮业用途）</li><li>消防安全检查证明</li><li>食品卫生管理负责人培训证书</li><li>营业执照</li></ul><h2>6. 申请流程</h2><ol><li>完成食品卫生培训</li><li>向当地区政府提交申请</li><li>卫生/设施检查</li><li>颁发执照（约3~7个工作日）</li><li>在店内显眼位置张贴执照</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 我需要单独的酒类许可证吗？</p><p class="faq-a">A. 一般餐馆执照（일반음식점）涵盖附带的酒水销售。专门的酒吧（주점업）需要单独的酒类业务许可证。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国开餐厅吗？</p><p class="faq-a">A. 可以，凭有效的商务签证（投资类D-9）或F签证，营业登记和执照申请流程相同。</p></div></div><div class="cta-box"><h3>取得餐饮业执照</h3><p>YouSun Administrative Agency代办餐饮业执照申请及合规服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'restaurant-food-service-license-guide',
     locale: 'ja',
     title: '韓国レストラン・飲食業許可証ガイド2026',
     metaTitle: '韓国レストラン飲食業許可証2026 — 申請要件と手続き',
-    metaDescription: '韓国でレストランやカフェの飲食業許可証（식품접객업）を取得する方法。保健許可、施設要件、食品衛生訓練、登録手順。韓国行政士による無料初回相談。',
+    metaDescription: '韓国でレストランやカフェの飲食業許可証（식품접객업）を取得する方法。保健許可、施設要件、食品衛生訓練、登録手順。韓国行政士による初回相談。',
     category: '飲食',
     excerpt: '韓国でレストラン、カフェ、バーの飲食業許可証（식품접객업）を取得するための完全ガイド — 保健許可、施設基準、登録手続きを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>飲食業の種類</li><li>許可証が必要な対象</li><li>施設要件</li><li>食品衛生管理責任者</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div><h2>1. 飲食業の種類</h2><ul><li><strong>一般飲食店（일반음식점）：</strong>店内食事とアルコール販売</li><li><strong>簡易飲食サービス（휴게음식점）：</strong>軽食・ノンアルコール飲料（カフェ、ベーカリー、ファストフード）</li><li><strong>バー（단란주점/유흥주점）：</strong>パフォーマンスや成人向けエンターテインメントを提供する高次許可証</li></ul><h2>2. 許可証が必要な対象</h2><p>韓国で飲食物を販売して店内消費させるすべての事業者は、<strong>食品衛生法</strong>に基づき地方自治体（市/郡/区役所）から飲食業許可証を取得する必要があります。</p><h2>3. 施設要件</h2><ul><li>キッチンは十分な換気とグリーストラップを備えること</li><li>食品準備エリアと食器洗浄エリアを分離</li><li>生鮮食品用の冷蔵設備</li><li>トイレ（場合によっては共用可）</li><li>消防安全への準拠</li></ul><h2>4. 食品衛生管理責任者</h2><ul><li>少なくとも1名の食品衛生管理責任者の指定が必要</li><li>食品衛生訓練の受講が必要（初回6時間、2年ごとに3時間の更新）</li><li>実際には事業主がこの役割を担うことが多い</li></ul><h2>5. 必要書類</h2><ul><li>飲食業登録申請書</li><li>キッチンレイアウトを示す施設平面図</li><li>建物用途確認書類（飲食業用途）</li><li>消防安全検査証明書</li><li>食品衛生管理責任者訓練証明書</li><li>事業者登録証</li></ul><h2>6. 申請手続き</h2><ol><li>食品衛生訓練を受講する</li><li>地方区役所（구청）に申請書を提出する</li><li>衛生/施設検査</li><li>許可証の交付（約3〜7営業日）</li><li>店内の見えるところに許可証を掲示する</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 別途酒類販売許可が必要ですか？</p><p class="faq-a">A. 一般飲食店許可証（일반음식점）は付随的なアルコール販売をカバーします。専門のバー（주점업）は別途酒類販売業許可が必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人が韓国でレストランを開けますか？</p><p class="faq-a">A. はい。有効なビジネスビザ（投資用D-9）またはFビザがあれば可能です。事業登録と許可証の手続きは同じです。</p></div></div><div class="cta-box"><h3>レストランの許可証を取得しましょう</h3><p>YouSun Administrative Agencyが飲食業許可証の申請とコンプライアンスを担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>飲食業の種類</li><li>許可証が必要な対象</li><li>施設要件</li><li>食品衛生管理責任者</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div><h2>1. 飲食業の種類</h2><ul><li><strong>一般飲食店（일반음식점）：</strong>店内食事とアルコール販売</li><li><strong>簡易飲食サービス（휴게음식점）：</strong>軽食・ノンアルコール飲料（カフェ、ベーカリー、ファストフード）</li><li><strong>バー（단란주점/유흥주점）：</strong>パフォーマンスや成人向けエンターテインメントを提供する高次許可証</li></ul><h2>2. 許可証が必要な対象</h2><p>韓国で飲食物を販売して店内消費させるすべての事業者は、<strong>食品衛生法</strong>に基づき地方自治体（市/郡/区役所）から飲食業許可証を取得する必要があります。</p><h2>3. 施設要件</h2><ul><li>キッチンは十分な換気とグリーストラップを備えること</li><li>食品準備エリアと食器洗浄エリアを分離</li><li>生鮮食品用の冷蔵設備</li><li>トイレ（場合によっては共用可）</li><li>消防安全への準拠</li></ul><h2>4. 食品衛生管理責任者</h2><ul><li>少なくとも1名の食品衛生管理責任者の指定が必要</li><li>食品衛生訓練の受講が必要（初回6時間、2年ごとに3時間の更新）</li><li>実際には事業主がこの役割を担うことが多い</li></ul><h2>5. 必要書類</h2><ul><li>飲食業登録申請書</li><li>キッチンレイアウトを示す施設平面図</li><li>建物用途確認書類（飲食業用途）</li><li>消防安全検査証明書</li><li>食品衛生管理責任者訓練証明書</li><li>事業者登録証</li></ul><h2>6. 申請手続き</h2><ol><li>食品衛生訓練を受講する</li><li>地方区役所（구청）に申請書を提出する</li><li>衛生/施設検査</li><li>許可証の交付（約3〜7営業日）</li><li>店内の見えるところに許可証を掲示する</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 別途酒類販売許可が必要ですか？</p><p class="faq-a">A. 一般飲食店許可証（일반음식점）は付随的なアルコール販売をカバーします。専門のバー（주점업）は別途酒類販売業許可が必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 外国人が韓国でレストランを開けますか？</p><p class="faq-a">A. はい。有効なビジネスビザ（投資用D-9）またはFビザがあれば可能です。事業登録と許可証の手続きは同じです。</p></div></div><div class="cta-box"><h3>レストランの許可証を取得しましょう</h3><p>YouSun Administrative Agencyが飲食業許可証の申請とコンプライアンスを担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 39: medical-clinic-establishment-guide ───────────────────────────
@@ -2635,30 +2635,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Medical Clinic Establishment in Korea — 2026 Licensing Guide',
     metaTitle: 'Korea Medical Clinic Establishment 2026 — License Requirements',
-    metaDescription: 'How to establish a medical clinic (의원) in Korea. Facility requirements, health ministry reporting, required documents. Free consultation.',
+    metaDescription: 'How to establish a medical clinic (의원) in Korea. Facility requirements, health ministry reporting, required documents.',
     category: 'Healthcare',
     excerpt: 'A guide to establishing a medical clinic (의원) in Korea — facility requirements, Ministry of Health reporting, and the full licensing procedure.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Medical Institutions</li><li>Who Can Open a Clinic?</li><li>Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Foreign Doctors in Korea</li><li>FAQ</li></ol></div><h2>1. Types of Medical Institutions</h2><ul><li><strong>의원 (clinic):</strong> small outpatient facility run by one or a few physicians</li><li><strong>병원 (hospital):</strong> inpatient facility with 30+ beds</li><li><strong>의원 is the most common type for private practice</strong></li></ul><h2>2. Who Can Open a Clinic?</h2><ul><li>Only holders of a Korean medical license (의사, 치과의사, or 한의사) can open a clinic</li><li>Korean medical license required — foreign licenses not directly recognized</li><li>Foreign doctors can practice only after passing Korean medical board exams</li></ul><h2>3. Facility Requirements</h2><ul><li>Examination room(s) meeting minimum area standards</li><li>Waiting room separate from examination areas</li><li>Medical waste disposal system</li><li>Compliance with Medical Act facility standards</li></ul><h2>4. Required Documents</h2><ul><li>Medical institution establishment notification form</li><li>Medical license certificate</li><li>Facility floor plan</li><li>Building use confirmation (medical use)</li><li>Fire safety inspection certificate</li><li>Medical waste contract</li></ul><h2>5. Application Procedure</h2><ol><li>Submit notification to local health authority (보건소)</li><li>Facility inspection</li><li>Registration with Health Insurance Review and Assessment Service (HIRA)</li><li>National Health Insurance (건강보험) registration for insurance billing</li></ol><h2>6. Foreign Doctors in Korea</h2><ul><li>Foreign doctors cannot practice without a Korean medical license</li><li>Pathway: pass KMLE (Korean Medical Licensing Examination) after completing required documents</li><li>Some government zones permit limited foreign medical services</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a non-doctor investor open a clinic in Korea?</p><p class="faq-a">A. No. Under the Medical Act, only licensed physicians can establish and operate medical institutions in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. How long does clinic establishment take?</p><p class="faq-a">A. Typically 2–4 weeks from notification submission to starting practice, depending on facility inspection timing.</p></div></div><div class="cta-box"><h3>Establish Your Clinic in Korea</h3><p>YouSun Administrative Agency provides administrative support for medical clinic establishment. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Medical Institutions</li><li>Who Can Open a Clinic?</li><li>Facility Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>Foreign Doctors in Korea</li><li>FAQ</li></ol></div><h2>1. Types of Medical Institutions</h2><ul><li><strong>의원 (clinic):</strong> small outpatient facility run by one or a few physicians</li><li><strong>병원 (hospital):</strong> inpatient facility with 30+ beds</li><li><strong>의원 is the most common type for private practice</strong></li></ul><h2>2. Who Can Open a Clinic?</h2><ul><li>Only holders of a Korean medical license (의사, 치과의사, or 한의사) can open a clinic</li><li>Korean medical license required — foreign licenses not directly recognized</li><li>Foreign doctors can practice only after passing Korean medical board exams</li></ul><h2>3. Facility Requirements</h2><ul><li>Examination room(s) meeting minimum area standards</li><li>Waiting room separate from examination areas</li><li>Medical waste disposal system</li><li>Compliance with Medical Act facility standards</li></ul><h2>4. Required Documents</h2><ul><li>Medical institution establishment notification form</li><li>Medical license certificate</li><li>Facility floor plan</li><li>Building use confirmation (medical use)</li><li>Fire safety inspection certificate</li><li>Medical waste contract</li></ul><h2>5. Application Procedure</h2><ol><li>Submit notification to local health authority (보건소)</li><li>Facility inspection</li><li>Registration with Health Insurance Review and Assessment Service (HIRA)</li><li>National Health Insurance (건강보험) registration for insurance billing</li></ol><h2>6. Foreign Doctors in Korea</h2><ul><li>Foreign doctors cannot practice without a Korean medical license</li><li>Pathway: pass KMLE (Korean Medical Licensing Examination) after completing required documents</li><li>Some government zones permit limited foreign medical services</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a non-doctor investor open a clinic in Korea?</p><p class="faq-a">A. No. Under the Medical Act, only licensed physicians can establish and operate medical institutions in Korea.</p></div><div class="faq-item"><p class="faq-q">Q. How long does clinic establishment take?</p><p class="faq-a">A. Typically 2–4 weeks from notification submission to starting practice, depending on facility inspection timing.</p></div></div><div class="cta-box"><h3>Establish Your Clinic in Korea</h3><p>YouSun Administrative Agency provides administrative support for medical clinic establishment.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'medical-clinic-establishment-guide',
     locale: 'zh',
     title: '韩国诊所设立许可指南2026',
     metaTitle: '韩国诊所设立2026 — 执照要求与流程',
-    metaDescription: '如何在韩国设立诊所（의원）。设施要求、卫生部报告、所需材料及外国医生合规须知。免费初次咨询。本文依次说明医疗机构类型、设施要求、所需材料、申请流程，可按步骤逐项确认。',
+    metaDescription: '如何在韩国设立诊所（의원）。设施要求、卫生部报告、所需材料及外国医生合规须知。初次咨询。本文依次说明医疗机构类型、设施要求、所需材料、申请流程，可按步骤逐项确认。',
     category: '医疗',
     excerpt: '韩国诊所（의원）设立指南，包括设施要求、卫生部报告及完整许可流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>医疗机构类型</li><li>谁可以开设诊所？</li><li>设施要求</li><li>所需材料</li><li>申请流程</li><li>外国医生在韩国</li><li>常见问题</li></ol></div><h2>1. 医疗机构类型</h2><ul><li><strong>의원（诊所）：</strong>由一名或少数医生开设的小型门诊设施</li><li><strong>병원（医院）：</strong>拥有30张以上床位的住院设施</li><li><strong>의원是私人执业最常见的类型</strong></li></ul><h2>2. 谁可以开设诊所？</h2><ul><li>只有持有韩国医疗执照（医师、牙科医师或韩医师）的人员才能开设诊所</li><li>须持有韩国医疗执照，外国执照不直接认可</li><li>外国医生只有通过韩国医疗委员会考试后方可执业</li></ul><h2>3. 设施要求</h2><ul><li>符合最低面积标准的检查室</li><li>与检查区域分开的候诊室</li><li>医疗废物处置系统</li><li>符合《医疗法》设施标准</li></ul><h2>4. 所需材料</h2><ul><li>医疗机构设立申报表</li><li>医疗执照证书</li><li>设施平面图</li><li>建筑用途确认文件（医疗用途）</li><li>消防安全检查证明</li><li>医疗废物处置合同</li></ul><h2>5. 申请流程</h2><ol><li>向当地保健所提交申报</li><li>设施检查</li><li>在健康保险审查评估院（HIRA）登记</li><li>登记国民健康保险（건강보험）以便保险结算</li></ol><h2>6. 外国医生在韩国</h2><ul><li>外国医生未持韩国医疗执照不得执业</li><li>途径：完成所需文件后通过KMLE（韩国医疗执照考试）</li><li>部分政府特区允许有限的外国医疗服务</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 非医生投资者能在韩国开设诊所吗？</p><p class="faq-a">A. 不能。依据《医疗法》，只有持牌医师才能在韩国设立和运营医疗机构。</p></div><div class="faq-item"><p class="faq-q">Q. 诊所设立需要多长时间？</p><p class="faq-a">A. 从提交申报到开始执业通常需要2~4周，具体取决于设施检查时间。</p></div></div><div class="cta-box"><h3>在韩国设立您的诊所</h3><p>YouSun Administrative Agency为诊所设立提供行政支持服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>医疗机构类型</li><li>谁可以开设诊所？</li><li>设施要求</li><li>所需材料</li><li>申请流程</li><li>外国医生在韩国</li><li>常见问题</li></ol></div><h2>1. 医疗机构类型</h2><ul><li><strong>의원（诊所）：</strong>由一名或少数医生开设的小型门诊设施</li><li><strong>병원（医院）：</strong>拥有30张以上床位的住院设施</li><li><strong>의원是私人执业最常见的类型</strong></li></ul><h2>2. 谁可以开设诊所？</h2><ul><li>只有持有韩国医疗执照（医师、牙科医师或韩医师）的人员才能开设诊所</li><li>须持有韩国医疗执照，外国执照不直接认可</li><li>外国医生只有通过韩国医疗委员会考试后方可执业</li></ul><h2>3. 设施要求</h2><ul><li>符合最低面积标准的检查室</li><li>与检查区域分开的候诊室</li><li>医疗废物处置系统</li><li>符合《医疗法》设施标准</li></ul><h2>4. 所需材料</h2><ul><li>医疗机构设立申报表</li><li>医疗执照证书</li><li>设施平面图</li><li>建筑用途确认文件（医疗用途）</li><li>消防安全检查证明</li><li>医疗废物处置合同</li></ul><h2>5. 申请流程</h2><ol><li>向当地保健所提交申报</li><li>设施检查</li><li>在健康保险审查评估院（HIRA）登记</li><li>登记国民健康保险（건강보험）以便保险结算</li></ol><h2>6. 外国医生在韩国</h2><ul><li>外国医生未持韩国医疗执照不得执业</li><li>途径：完成所需文件后通过KMLE（韩国医疗执照考试）</li><li>部分政府特区允许有限的外国医疗服务</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 非医生投资者能在韩国开设诊所吗？</p><p class="faq-a">A. 不能。依据《医疗法》，只有持牌医师才能在韩国设立和运营医疗机构。</p></div><div class="faq-item"><p class="faq-q">Q. 诊所设立需要多长时间？</p><p class="faq-a">A. 从提交申报到开始执业通常需要2~4周，具体取决于设施检查时间。</p></div></div><div class="cta-box"><h3>在韩国设立您的诊所</h3><p>YouSun Administrative Agency为诊所设立提供行政支持服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'medical-clinic-establishment-guide',
     locale: 'ja',
     title: '韓国診療所開設ガイド2026',
     metaTitle: '韓国診療所開設2026 — 許可要件と手続き',
-    metaDescription: '韓国で診療所（의원）を開設する方法。施設要件、保健省への届出、必要書類、外国人医師の合規要件。行政士による無料初回相談。医療機関の種類・診療所を開設できる対象・施設要件・必要書類まで順に確認できます。',
+    metaDescription: '韓国で診療所（의원）を開設する方法。施設要件、保健省への届出、必要書類、外国人医師の合規要件。行政士による初回相談。医療機関の種類・診療所を開設できる対象・施設要件・必要書類まで順に確認できます。',
     category: '医療',
     excerpt: '韓国の診療所（의원）開設ガイド — 施設要件、保健省への届出、完全な許可手続きを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>医療機関の種類</li><li>診療所を開設できる対象</li><li>施設要件</li><li>必要書類</li><li>申請手続き</li><li>韓国における外国人医師</li><li>よくある質問</li></ol></div><h2>1. 医療機関の種類</h2><ul><li><strong>의원（診療所）：</strong>1人または少数の医師が運営する小規模外来施設</li><li><strong>병원（病院）：</strong>30床以上の入院施設</li><li><strong>의원が個人開業で最も一般的な形態</strong></li></ul><h2>2. 診療所を開設できる対象</h2><ul><li>韓国医師免許（医師、歯科医師、または韓医師）保有者のみが診療所を開設できる</li><li>韓国医師免許が必要 — 外国の免許は直接認められない</li><li>外国人医師は韓国医師国家試験合格後のみ開業可能</li></ul><h2>3. 施設要件</h2><ul><li>最低面積基準を満たす診察室</li><li>診察エリアとは分離した待合室</li><li>医療廃棄物処理システム</li><li>医療法の施設基準への準拠</li></ul><h2>4. 必要書類</h2><ul><li>医療機関開設届出書</li><li>医師免許証</li><li>施設平面図</li><li>建物用途確認書類（医療用途）</li><li>消防安全検査証明書</li><li>医療廃棄物処理契約書</li></ul><h2>5. 申請手続き</h2><ol><li>管轄の保健所に届出を提出する</li><li>施設検査</li><li>健康保険審査評価院（HIRA）への登録</li><li>国民健康保険（건강보험）登録（保険請求のため）</li></ol><h2>6. 韓国における外国人医師</h2><ul><li>外国人医師は韓国医師免許なしに開業できない</li><li>途径：必要書類を揃えた上でKMLE（韓国医師国家試験）に合格する</li><li>一部の政府指定区域では限定的な外国医療サービスが認められる</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 非医師の投資家が韓国で診療所を開設できますか？</p><p class="faq-a">A. できません。医療法に基づき、韓国では免許を持つ医師のみが医療機関を設立・運営できます。</p></div><div class="faq-item"><p class="faq-q">Q. 診療所の開設にはどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。施設検査のタイミングによります。</p></div></div><div class="cta-box"><h3>韓国で診療所を開設しましょう</h3><p>YouSun Administrative Agencyが診療所開設の行政手続きをサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>医療機関の種類</li><li>診療所を開設できる対象</li><li>施設要件</li><li>必要書類</li><li>申請手続き</li><li>韓国における外国人医師</li><li>よくある質問</li></ol></div><h2>1. 医療機関の種類</h2><ul><li><strong>의원（診療所）：</strong>1人または少数の医師が運営する小規模外来施設</li><li><strong>병원（病院）：</strong>30床以上の入院施設</li><li><strong>의원が個人開業で最も一般的な形態</strong></li></ul><h2>2. 診療所を開設できる対象</h2><ul><li>韓国医師免許（医師、歯科医師、または韓医師）保有者のみが診療所を開設できる</li><li>韓国医師免許が必要 — 外国の免許は直接認められない</li><li>外国人医師は韓国医師国家試験合格後のみ開業可能</li></ul><h2>3. 施設要件</h2><ul><li>最低面積基準を満たす診察室</li><li>診察エリアとは分離した待合室</li><li>医療廃棄物処理システム</li><li>医療法の施設基準への準拠</li></ul><h2>4. 必要書類</h2><ul><li>医療機関開設届出書</li><li>医師免許証</li><li>施設平面図</li><li>建物用途確認書類（医療用途）</li><li>消防安全検査証明書</li><li>医療廃棄物処理契約書</li></ul><h2>5. 申請手続き</h2><ol><li>管轄の保健所に届出を提出する</li><li>施設検査</li><li>健康保険審査評価院（HIRA）への登録</li><li>国民健康保険（건강보험）登録（保険請求のため）</li></ol><h2>6. 韓国における外国人医師</h2><ul><li>外国人医師は韓国医師免許なしに開業できない</li><li>途径：必要書類を揃えた上でKMLE（韓国医師国家試験）に合格する</li><li>一部の政府指定区域では限定的な外国医療サービスが認められる</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 非医師の投資家が韓国で診療所を開設できますか？</p><p class="faq-a">A. できません。医療法に基づき、韓国では免許を持つ医師のみが医療機関を設立・運営できます。</p></div><div class="faq-item"><p class="faq-q">Q. 診療所の開設にはどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。施設検査のタイミングによります。</p></div></div><div class="cta-box"><h3>韓国で診療所を開設しましょう</h3><p>YouSun Administrative Agencyが診療所開設の行政手続きをサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 40: postpartum-care-center-permit-guide ──────────────────────────
@@ -2667,30 +2667,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Postpartum Care Center (Sanhujoriwon) Permit in Korea — 2026 Guide',
     metaTitle: 'Korea Postpartum Care Center License 2026 — Sanhujoriwon Permit',
-    metaDescription: 'How to establish a postpartum care center (산후조리원) in Korea. Facility requirements, health ministry registration, staff qualifications. Free consultation.',
+    metaDescription: 'How to establish a postpartum care center (산후조리원) in Korea. Facility requirements, health ministry registration, staff qualifications.',
     category: 'Healthcare',
     excerpt: 'A guide to opening a postpartum care center (산후조리원/sanhujoriwon) in Korea — facility standards, government registration, staff requirements, and compliance.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Postpartum Care Center?</li><li>Government Registration Requirements</li><li>Facility Standards</li><li>Staff Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div><h2>1. What Is a Postpartum Care Center?</h2><p>A postpartum care center (산후조리원) is a residential facility where mothers rest and receive newborn care support for 2–4 weeks after delivery. It is regulated under the <strong>Mother and Child Health Act</strong>.</p><h2>2. Government Registration Requirements</h2><ul><li>Must notify and register with the local health authority (보건소)</li><li>Facility must meet the Mother and Child Health Act standards</li><li>Infection control protocols are mandatory</li></ul><h2>3. Facility Standards</h2><ul><li>Minimum 100 m² floor area</li><li>Separate rooms for mother and newborn</li><li>Newborn care room with temperature control</li><li>Adequate infection control: UV sterilization, hand-washing stations</li><li>Emergency medical equipment (basic)</li></ul><h2>4. Staff Requirements</h2><ul><li>At least one registered nurse (간호사) or nursing assistant (간호조무사) on duty 24/7</li><li>Nursing staff ratio: at least 1 per 3 pairs of mothers and newborns</li><li>Staff must complete infection control and newborn care training</li></ul><h2>5. Required Documents</h2><ul><li>Postpartum care center establishment notification form</li><li>Facility floor plan</li><li>Staff qualification certificates</li><li>Building use confirmation</li><li>Fire safety inspection certificate</li><li>Infection control plan</li></ul><h2>6. Application Procedure</h2><ol><li>Submit notification to local health authority</li><li>Facility and documentation inspection</li><li>Registration completed (approx. 14–21 days)</li><li>Annual compliance inspection required</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner own and operate a postpartum care center in Korea?</p><p class="faq-a">A. Yes, with appropriate business registration and investor visa. All facility and staff standards apply equally.</p></div><div class="faq-item"><p class="faq-q">Q. What are the penalties for operating without registration?</p><p class="faq-a">A. Operating without proper notification can result in closure orders and significant fines under the Mother and Child Health Act.</p></div></div><div class="cta-box"><h3>Open Your Postpartum Care Center</h3><p>YouSun Administrative Agency handles postpartum care center registration and compliance. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Postpartum Care Center?</li><li>Government Registration Requirements</li><li>Facility Standards</li><li>Staff Requirements</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div><h2>1. What Is a Postpartum Care Center?</h2><p>A postpartum care center (산후조리원) is a residential facility where mothers rest and receive newborn care support for 2–4 weeks after delivery. It is regulated under the <strong>Mother and Child Health Act</strong>.</p><h2>2. Government Registration Requirements</h2><ul><li>Must notify and register with the local health authority (보건소)</li><li>Facility must meet the Mother and Child Health Act standards</li><li>Infection control protocols are mandatory</li></ul><h2>3. Facility Standards</h2><ul><li>Minimum 100 m² floor area</li><li>Separate rooms for mother and newborn</li><li>Newborn care room with temperature control</li><li>Adequate infection control: UV sterilization, hand-washing stations</li><li>Emergency medical equipment (basic)</li></ul><h2>4. Staff Requirements</h2><ul><li>At least one registered nurse (간호사) or nursing assistant (간호조무사) on duty 24/7</li><li>Nursing staff ratio: at least 1 per 3 pairs of mothers and newborns</li><li>Staff must complete infection control and newborn care training</li></ul><h2>5. Required Documents</h2><ul><li>Postpartum care center establishment notification form</li><li>Facility floor plan</li><li>Staff qualification certificates</li><li>Building use confirmation</li><li>Fire safety inspection certificate</li><li>Infection control plan</li></ul><h2>6. Application Procedure</h2><ol><li>Submit notification to local health authority</li><li>Facility and documentation inspection</li><li>Registration completed (approx. 14–21 days)</li><li>Annual compliance inspection required</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner own and operate a postpartum care center in Korea?</p><p class="faq-a">A. Yes, with appropriate business registration and investor visa. All facility and staff standards apply equally.</p></div><div class="faq-item"><p class="faq-q">Q. What are the penalties for operating without registration?</p><p class="faq-a">A. Operating without proper notification can result in closure orders and significant fines under the Mother and Child Health Act.</p></div></div><div class="cta-box"><h3>Open Your Postpartum Care Center</h3><p>YouSun Administrative Agency handles postpartum care center registration and compliance.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'postpartum-care-center-permit-guide',
     locale: 'zh',
     title: '韩国产后护理中心（산후조리원）许可指南2026',
     metaTitle: '韩国产后护理中心执照2026 — 申请要求与流程',
-    metaDescription: '如何在韩国设立产后护理中心（산후조리원）。设施要求、卫生部登记、人员资质及合规清单。免费初次咨询。本文依次说明政府登记要求、设施标准、人员要求、所需材料，可按步骤逐项确认。',
+    metaDescription: '如何在韩国设立产后护理中心（산후조리원）。设施要求、卫生部登记、人员资质及合规清单。初次咨询。本文依次说明政府登记要求、设施标准、人员要求、所需材料，可按步骤逐项确认。',
     category: '医疗',
     excerpt: '韩国产后护理中心（산후조리원）开设指南，包括设施标准、政府登记、人员要求及合规须知。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是产后护理中心？</li><li>政府登记要求</li><li>设施标准</li><li>人员要求</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div><h2>1. 什么是产后护理中心？</h2><p>产后护理中心（산후조리원）是产妇在分娩后2~4周内休养并接受新生儿护理支持的住宿设施，依据<strong>《母婴健康法》</strong>进行监管。</p><h2>2. 政府登记要求</h2><ul><li>须向当地保健所申报并登记</li><li>设施须符合《母婴健康法》标准</li><li>感染控制规程为强制要求</li></ul><h2>3. 设施标准</h2><ul><li>最低建筑面积100m²</li><li>母婴分开的独立房间</li><li>温控新生儿护理室</li><li>充分的感染控制措施：紫外线消毒、洗手站</li><li>基本急救医疗设备</li></ul><h2>4. 人员要求</h2><ul><li>须有至少一名注册护士（간호사）或护理助理（간호조무사）24小时值班</li><li>护理人员比例：每3对母婴至少1名护理人员</li><li>人员须完成感染控制和新生儿护理培训</li></ul><h2>5. 所需材料</h2><ul><li>产后护理中心设立申报表</li><li>设施平面图</li><li>人员资质证明</li><li>建筑用途确认文件</li><li>消防安全检查证明</li><li>感染控制计划</li></ul><h2>6. 申请流程</h2><ol><li>向当地保健所提交申报</li><li>设施及文件检查</li><li>完成登记（约14~21天）</li><li>需年度合规检查</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国拥有并运营产后护理中心吗？</p><p class="faq-a">A. 可以，凭适当的营业登记和投资者签证，所有设施和人员标准同等适用。</p></div><div class="faq-item"><p class="faq-q">Q. 未登记运营的处罚是什么？</p><p class="faq-a">A. 未经适当申报运营可能导致停业命令，并依据《母婴健康法》处以重罚。</p></div></div><div class="cta-box"><h3>开设产后护理中心</h3><p>YouSun Administrative Agency代办产后护理中心登记及合规服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是产后护理中心？</li><li>政府登记要求</li><li>设施标准</li><li>人员要求</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div><h2>1. 什么是产后护理中心？</h2><p>产后护理中心（산후조리원）是产妇在分娩后2~4周内休养并接受新生儿护理支持的住宿设施，依据<strong>《母婴健康法》</strong>进行监管。</p><h2>2. 政府登记要求</h2><ul><li>须向当地保健所申报并登记</li><li>设施须符合《母婴健康法》标准</li><li>感染控制规程为强制要求</li></ul><h2>3. 设施标准</h2><ul><li>最低建筑面积100m²</li><li>母婴分开的独立房间</li><li>温控新生儿护理室</li><li>充分的感染控制措施：紫外线消毒、洗手站</li><li>基本急救医疗设备</li></ul><h2>4. 人员要求</h2><ul><li>须有至少一名注册护士（간호사）或护理助理（간호조무사）24小时值班</li><li>护理人员比例：每3对母婴至少1名护理人员</li><li>人员须完成感染控制和新生儿护理培训</li></ul><h2>5. 所需材料</h2><ul><li>产后护理中心设立申报表</li><li>设施平面图</li><li>人员资质证明</li><li>建筑用途确认文件</li><li>消防安全检查证明</li><li>感染控制计划</li></ul><h2>6. 申请流程</h2><ol><li>向当地保健所提交申报</li><li>设施及文件检查</li><li>完成登记（约14~21天）</li><li>需年度合规检查</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人能在韩国拥有并运营产后护理中心吗？</p><p class="faq-a">A. 可以，凭适当的营业登记和投资者签证，所有设施和人员标准同等适用。</p></div><div class="faq-item"><p class="faq-q">Q. 未登记运营的处罚是什么？</p><p class="faq-a">A. 未经适当申报运营可能导致停业命令，并依据《母婴健康法》处以重罚。</p></div></div><div class="cta-box"><h3>开设产后护理中心</h3><p>YouSun Administrative Agency代办产后护理中心登记及合规服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'postpartum-care-center-permit-guide',
     locale: 'ja',
     title: '韓国産後ケアセンター（산후조리원）許可ガイド2026',
     metaTitle: '韓国産後ケアセンター許可証2026 — 申請要件と手続き',
-    metaDescription: '韓国で産後ケアセンター（산후조리원）を設立する方法。施設要件、保健省への登録、スタッフ資格、コンプライアンスチェックリスト。行政士による無料初回相談。',
+    metaDescription: '韓国で産後ケアセンター（산후조리원）を設立する方法。施設要件、保健省への登録、スタッフ資格、コンプライアンスチェックリスト。行政士による初回相談。',
     category: '医療',
     excerpt: '韓国の産後ケアセンター（산후조리원）開設ガイド — 施設基準、政府登録、スタッフ要件、コンプライアンスを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>産後ケアセンターとは？</li><li>政府登録要件</li><li>施設基準</li><li>スタッフ要件</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div><h2>1. 産後ケアセンターとは？</h2><p>産後ケアセンター（산후조리원）は、出産後2〜4週間、母親が休息し新生児ケアのサポートを受ける宿泊施設です。<strong>母子健康法</strong>に基づいて規制されています。</p><h2>2. 政府登録要件</h2><ul><li>地方の保健所に届出・登録が必要</li><li>施設は母子健康法の基準を満たす必要がある</li><li>感染管理プロトコルが義務付けられている</li></ul><h2>3. 施設基準</h2><ul><li>最低延べ床面積100m²</li><li>母親と新生児のための分離した部屋</li><li>温度管理付き新生児ケア室</li><li>十分な感染管理：UV殺菌、手洗いステーション</li><li>基本的な緊急医療機器</li></ul><h2>4. スタッフ要件</h2><ul><li>少なくとも1名の登録看護師（간호사）または看護助手（간호조무사）が24時間勤務</li><li>看護師比率：母子ペア3組につき最低1名</li><li>スタッフは感染管理と新生児ケアの訓練を完了する必要がある</li></ul><h2>5. 必要書類</h2><ul><li>産後ケアセンター開設届出書</li><li>施設平面図</li><li>スタッフ資格証明書</li><li>建物用途確認書類</li><li>消防安全検査証明書</li><li>感染管理計画書</li></ul><h2>6. 申請手続き</h2><ol><li>地方保健所に届出を提出する</li><li>施設・書類検査</li><li>登録完了（約14〜21日）</li><li>年次コンプライアンス検査が必要</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で産後ケアセンターを所有・運営できますか？</p><p class="faq-a">A. はい。適切な事業者登録と投資家ビザがあれば可能です。すべての施設・スタッフ基準が同様に適用されます。</p></div><div class="faq-item"><p class="faq-q">Q. 未登録で運営した場合の罰則は？</p><p class="faq-a">A. 適切な届出なしの運営は、閉鎖命令と母子健康法に基づく重大な罰金の対象となります。</p></div></div><div class="cta-box"><h3>産後ケアセンターを開設しましょう</h3><p>YouSun Administrative Agencyが産後ケアセンターの登録とコンプライアンスを担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>産後ケアセンターとは？</li><li>政府登録要件</li><li>施設基準</li><li>スタッフ要件</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div><h2>1. 産後ケアセンターとは？</h2><p>産後ケアセンター（산후조리원）は、出産後2〜4週間、母親が休息し新生児ケアのサポートを受ける宿泊施設です。<strong>母子健康法</strong>に基づいて規制されています。</p><h2>2. 政府登録要件</h2><ul><li>地方の保健所に届出・登録が必要</li><li>施設は母子健康法の基準を満たす必要がある</li><li>感染管理プロトコルが義務付けられている</li></ul><h2>3. 施設基準</h2><ul><li>最低延べ床面積100m²</li><li>母親と新生児のための分離した部屋</li><li>温度管理付き新生児ケア室</li><li>十分な感染管理：UV殺菌、手洗いステーション</li><li>基本的な緊急医療機器</li></ul><h2>4. スタッフ要件</h2><ul><li>少なくとも1名の登録看護師（간호사）または看護助手（간호조무사）が24時間勤務</li><li>看護師比率：母子ペア3組につき最低1名</li><li>スタッフは感染管理と新生児ケアの訓練を完了する必要がある</li></ul><h2>5. 必要書類</h2><ul><li>産後ケアセンター開設届出書</li><li>施設平面図</li><li>スタッフ資格証明書</li><li>建物用途確認書類</li><li>消防安全検査証明書</li><li>感染管理計画書</li></ul><h2>6. 申請手続き</h2><ol><li>地方保健所に届出を提出する</li><li>施設・書類検査</li><li>登録完了（約14〜21日）</li><li>年次コンプライアンス検査が必要</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で産後ケアセンターを所有・運営できますか？</p><p class="faq-a">A. はい。適切な事業者登録と投資家ビザがあれば可能です。すべての施設・スタッフ基準が同様に適用されます。</p></div><div class="faq-item"><p class="faq-q">Q. 未登録で運営した場合の罰則は？</p><p class="faq-a">A. 適切な届出なしの運営は、閉鎖命令と母子健康法に基づく重大な罰金の対象となります。</p></div></div><div class="cta-box"><h3>産後ケアセンターを開設しましょう</h3><p>YouSun Administrative Agencyが産後ケアセンターの登録とコンプライアンスを担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 41: building-use-change-permit-guide ─────────────────────────────
@@ -2699,30 +2699,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Building Use Change Permit in Korea — 2026 Complete Guide',
     metaTitle: 'Korea Building Use Change Permit 2026 — Requirements & Procedure',
-    metaDescription: 'How to apply for a building use change (용도변경) permit in Korea. Zoning rules, required documents, construction permit implications. Free consultation.',
+    metaDescription: 'How to apply for a building use change (용도변경) permit in Korea. Zoning rules, required documents, construction permit implications.',
     category: 'Building',
     excerpt: 'A complete guide to building use change (용도변경) permits in Korea — zoning compatibility, required documents, construction implications, and application process.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Building Use Change?</li><li>Use Classification Groups</li><li>When Permit vs. Report is Required</li><li>Zoning Compatibility</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div><h2>1. What Is a Building Use Change?</h2><p>Under Korea's <strong>Building Act (건축법)</strong>, every building has a designated use (용도). Changing the use — for example, converting an office to a restaurant — requires a government permit or report depending on the scope of the change.</p><h2>2. Use Classification Groups</h2><p>Korea classifies buildings into groups. Moving between groups (e.g., Group 1 단독주택 to Group 2 공동주택) typically requires a permit. Moving within a group may only require a report.</p><h2>3. When Permit vs. Report is Required</h2><ul><li><strong>Permit (허가):</strong> changing to a use in a higher-tier group or changing to certain restricted uses</li><li><strong>Report (신고):</strong> minor changes within the same group or to lower-tier uses</li><li>When structural changes accompany the use change, a construction permit may also be needed</li></ul><h2>4. Zoning Compatibility</h2><ul><li>The new use must be permitted under the current zoning designation</li><li>Example: Converting a residence to a restaurant in a purely residential zone is typically not permitted</li><li>Always check with local planning authority before proceeding</li></ul><h2>5. Required Documents</h2><ul><li>Building use change application or report form</li><li>Building register (건축물대장)</li><li>Architectural drawings of the building</li><li>Proof of fire safety compliance for the new use</li><li>Owner's consent (if applicant is a tenant)</li></ul><h2>6. Application Procedure</h2><ol><li>Verify zoning permits the intended use</li><li>Submit application/report to local city/county office</li><li>Document review and inspection (if required)</li><li>Updated building register issued reflecting new use</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. How long does a building use change take?</p><p class="faq-a">A. Processing time varies by the competent authority and your case; please confirm individually.</p></div><div class="faq-item"><p class="faq-q">Q. Can I start operating before the use change is approved?</p><p class="faq-a">A. No. Operating under an unauthorized use can result in fines and forced closure. Always secure the permit first.</p></div></div><div class="cta-box"><h3>Get Your Building Use Change Approved</h3><p>YouSun Administrative Agency handles building use change applications from start to finish. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Building Use Change?</li><li>Use Classification Groups</li><li>When Permit vs. Report is Required</li><li>Zoning Compatibility</li><li>Required Documents</li><li>Application Procedure</li><li>FAQ</li></ol></div><h2>1. What Is a Building Use Change?</h2><p>Under Korea's <strong>Building Act (건축법)</strong>, every building has a designated use (용도). Changing the use — for example, converting an office to a restaurant — requires a government permit or report depending on the scope of the change.</p><h2>2. Use Classification Groups</h2><p>Korea classifies buildings into groups. Moving between groups (e.g., Group 1 단독주택 to Group 2 공동주택) typically requires a permit. Moving within a group may only require a report.</p><h2>3. When Permit vs. Report is Required</h2><ul><li><strong>Permit (허가):</strong> changing to a use in a higher-tier group or changing to certain restricted uses</li><li><strong>Report (신고):</strong> minor changes within the same group or to lower-tier uses</li><li>When structural changes accompany the use change, a construction permit may also be needed</li></ul><h2>4. Zoning Compatibility</h2><ul><li>The new use must be permitted under the current zoning designation</li><li>Example: Converting a residence to a restaurant in a purely residential zone is typically not permitted</li><li>Always check with local planning authority before proceeding</li></ul><h2>5. Required Documents</h2><ul><li>Building use change application or report form</li><li>Building register (건축물대장)</li><li>Architectural drawings of the building</li><li>Proof of fire safety compliance for the new use</li><li>Owner's consent (if applicant is a tenant)</li></ul><h2>6. Application Procedure</h2><ol><li>Verify zoning permits the intended use</li><li>Submit application/report to local city/county office</li><li>Document review and inspection (if required)</li><li>Updated building register issued reflecting new use</li></ol><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. How long does a building use change take?</p><p class="faq-a">A. Processing time varies by the competent authority and your case; please confirm individually.</p></div><div class="faq-item"><p class="faq-q">Q. Can I start operating before the use change is approved?</p><p class="faq-a">A. No. Operating under an unauthorized use can result in fines and forced closure. Always secure the permit first.</p></div></div><div class="cta-box"><h3>Get Your Building Use Change Approved</h3><p>YouSun Administrative Agency handles building use change applications from start to finish.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'building-use-change-permit-guide',
     locale: 'zh',
     title: '韩国建筑用途变更许可指南2026',
     metaTitle: '韩国建筑用途变更许可2026 — 申请要求与流程',
-    metaDescription: '如何在韩国申请建筑用途变更（용도변경）许可证。用地分区规定、所需材料、建筑许可影响及申请流程。免费初次咨询。本文依次说明用途分类组别、何时需要许可证vs.申报、用地分区兼容性、所需材料，可按步骤逐项确认。',
+    metaDescription: '如何在韩国申请建筑用途变更（용도변경）许可证。用地分区规定、所需材料、建筑许可影响及申请流程。初次咨询。本文依次说明用途分类组别、何时需要许可证vs.申报、用地分区兼容性、所需材料，可按步骤逐项确认。',
     category: '建筑',
     excerpt: '韩国建筑用途变更（용도변경）许可完整指南，包括用地分区兼容性、所需材料、建筑影响及申请流程。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是建筑用途变更？</li><li>用途分类组别</li><li>何时需要许可证vs.申报</li><li>用地分区兼容性</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div><h2>1. 什么是建筑用途变更？</h2><p>依据韩国<strong>《建筑法》</strong>，每栋建筑均有指定用途（용도）。变更用途（例如将办公室改为餐厅）须根据变更范围获得政府许可证或进行申报。</p><h2>2. 用途分类组别</h2><p>韩国将建筑按组别分类。跨组别变更（如从第1组단독주택变更为第2组공동주택）通常需要许可证。组别内变更可能只需申报。</p><h2>3. 何时需要许可证vs.申报</h2><ul><li><strong>许可证（허가）：</strong>变更为更高级别组别用途或变更为某些受限用途</li><li><strong>申报（신고）：</strong>同一组别内的细微变更或变更为较低级别用途</li><li>若用途变更伴随结构改变，可能还需要建筑许可证</li></ul><h2>4. 用地分区兼容性</h2><ul><li>新用途须在当前用地分区规定的允许范围内</li><li>例：在纯住宅区将住宅改为餐厅通常不被允许</li><li>进行任何操作前，务必向当地规划部门确认</li></ul><h2>5. 所需材料</h2><ul><li>建筑用途变更申请表或申报表</li><li>建筑登记簿（건축물대장）</li><li>建筑图纸</li><li>新用途的消防安全合规证明</li><li>业主同意书（如申请人为租客）</li></ul><h2>6. 申请流程</h2><ol><li>核实用地分区允许目标用途</li><li>向当地市/郡/区政府提交申请/申报</li><li>材料审查及检查（如需要）</li><li>颁发反映新用途的更新建筑登记簿</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 建筑用途变更需要多长时间？</p><p class="faq-a">A. 办理时间因主管机关及个案情况而异，需另行确认。</p></div><div class="faq-item"><p class="faq-q">Q. 用途变更批准前能开始运营吗？</p><p class="faq-a">A. 不能。在未授权用途下运营可能导致罚款和强制停业。务必先取得许可证。</p></div></div><div class="cta-box"><h3>取得建筑用途变更批准</h3><p>YouSun Administrative Agency全程代办建筑用途变更申请。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是建筑用途变更？</li><li>用途分类组别</li><li>何时需要许可证vs.申报</li><li>用地分区兼容性</li><li>所需材料</li><li>申请流程</li><li>常见问题</li></ol></div><h2>1. 什么是建筑用途变更？</h2><p>依据韩国<strong>《建筑法》</strong>，每栋建筑均有指定用途（용도）。变更用途（例如将办公室改为餐厅）须根据变更范围获得政府许可证或进行申报。</p><h2>2. 用途分类组别</h2><p>韩国将建筑按组别分类。跨组别变更（如从第1组단독주택变更为第2组공동주택）通常需要许可证。组别内变更可能只需申报。</p><h2>3. 何时需要许可证vs.申报</h2><ul><li><strong>许可证（허가）：</strong>变更为更高级别组别用途或变更为某些受限用途</li><li><strong>申报（신고）：</strong>同一组别内的细微变更或变更为较低级别用途</li><li>若用途变更伴随结构改变，可能还需要建筑许可证</li></ul><h2>4. 用地分区兼容性</h2><ul><li>新用途须在当前用地分区规定的允许范围内</li><li>例：在纯住宅区将住宅改为餐厅通常不被允许</li><li>进行任何操作前，务必向当地规划部门确认</li></ul><h2>5. 所需材料</h2><ul><li>建筑用途变更申请表或申报表</li><li>建筑登记簿（건축물대장）</li><li>建筑图纸</li><li>新用途的消防安全合规证明</li><li>业主同意书（如申请人为租客）</li></ul><h2>6. 申请流程</h2><ol><li>核实用地分区允许目标用途</li><li>向当地市/郡/区政府提交申请/申报</li><li>材料审查及检查（如需要）</li><li>颁发反映新用途的更新建筑登记簿</li></ol><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 建筑用途变更需要多长时间？</p><p class="faq-a">A. 办理时间因主管机关及个案情况而异，需另行确认。</p></div><div class="faq-item"><p class="faq-q">Q. 用途变更批准前能开始运营吗？</p><p class="faq-a">A. 不能。在未授权用途下运营可能导致罚款和强制停业。务必先取得许可证。</p></div></div><div class="cta-box"><h3>取得建筑用途变更批准</h3><p>YouSun Administrative Agency全程代办建筑用途变更申请。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'building-use-change-permit-guide',
     locale: 'ja',
     title: '韓国建物用途変更許可ガイド2026',
     metaTitle: '韓国建物用途変更許可2026 — 申請要件と手続き',
-    metaDescription: '韓国で建物用途変更（용도변경）許可証を申請する方法。ゾーニングルール、必要書類、建築許可への影響、申請手続き。行政士による無料初回相談。用途分類グループ・許可と届出が必要な場合・ゾーニング適合性・必要書類まで順に確認できます。',
+    metaDescription: '韓国で建物用途変更（용도변경）許可証を申請する方法。ゾーニングルール、必要書類、建築許可への影響、申請手続き。行政士による初回相談。用途分類グループ・許可と届出が必要な場合・ゾーニング適合性・必要書類まで順に確認できます。',
     category: '建築',
     excerpt: '韓国の建物用途変更（용도변경）許可の完全ガイド — ゾーニング適合性、必要書類、建築への影響、申請プロセスを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>建物用途変更とは？</li><li>用途分類グループ</li><li>許可と届出が必要な場合</li><li>ゾーニング適合性</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div><h2>1. 建物用途変更とは？</h2><p>韓国の<strong>建築法</strong>に基づき、すべての建物には指定された用途（용도）があります。用途を変更する場合（例：事務所をレストランに変更）は、変更の範囲に応じて政府の許可または届出が必要です。</p><h2>2. 用途分類グループ</h2><p>韓国は建物をグループに分類しています。グループ間の移動（例：グループ1の단독주택からグループ2の공동주택へ）は一般的に許可が必要です。グループ内の移動は届出のみで済む場合があります。</p><h2>3. 許可と届出が必要な場合</h2><ul><li><strong>許可（허가）：</strong>より高い階層グループの用途への変更、または特定の制限用途への変更</li><li><strong>届出（신고）：</strong>同一グループ内の軽微な変更、または低次の用途への変更</li><li>構造変更を伴う場合は、建築許可も必要になる場合がある</li></ul><h2>4. ゾーニング適合性</h2><ul><li>新しい用途は現在のゾーニング指定の下で許可されている必要がある</li><li>例：純粋な住居地域で住宅をレストランに変更することは通常許可されない</li><li>手続きを進める前に必ず地方計画当局に確認する</li></ul><h2>5. 必要書類</h2><ul><li>建物用途変更申請書または届出書</li><li>建築物台帳（건축물대장）</li><li>建築図面</li><li>新用途に対する消防安全準拠証明</li><li>所有者の同意書（申請者が賃借人の場合）</li></ul><h2>6. 申請手続き</h2><ol><li>ゾーニングが意図する用途を許可していることを確認する</li><li>地方市区町村役場に申請書/届出書を提出する</li><li>書類審査と検査（必要な場合）</li><li>新用途を反映した更新建築物台帳が交付される</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 建物用途変更にはどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。</p></div><div class="faq-item"><p class="faq-q">Q. 用途変更が承認される前に運営を開始できますか？</p><p class="faq-a">A. いいえ。無認可の用途での運営は罰金と強制閉鎖の対象となります。常に先に許可を取得してください。</p></div></div><div class="cta-box"><h3>建物用途変更を承認してもらいましょう</h3><p>YouSun Administrative Agencyが建物用途変更申請を最初から最後まで担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>建物用途変更とは？</li><li>用途分類グループ</li><li>許可と届出が必要な場合</li><li>ゾーニング適合性</li><li>必要書類</li><li>申請手続き</li><li>よくある質問</li></ol></div><h2>1. 建物用途変更とは？</h2><p>韓国の<strong>建築法</strong>に基づき、すべての建物には指定された用途（용도）があります。用途を変更する場合（例：事務所をレストランに変更）は、変更の範囲に応じて政府の許可または届出が必要です。</p><h2>2. 用途分類グループ</h2><p>韓国は建物をグループに分類しています。グループ間の移動（例：グループ1の단독주택からグループ2の공동주택へ）は一般的に許可が必要です。グループ内の移動は届出のみで済む場合があります。</p><h2>3. 許可と届出が必要な場合</h2><ul><li><strong>許可（허가）：</strong>より高い階層グループの用途への変更、または特定の制限用途への変更</li><li><strong>届出（신고）：</strong>同一グループ内の軽微な変更、または低次の用途への変更</li><li>構造変更を伴う場合は、建築許可も必要になる場合がある</li></ul><h2>4. ゾーニング適合性</h2><ul><li>新しい用途は現在のゾーニング指定の下で許可されている必要がある</li><li>例：純粋な住居地域で住宅をレストランに変更することは通常許可されない</li><li>手続きを進める前に必ず地方計画当局に確認する</li></ul><h2>5. 必要書類</h2><ul><li>建物用途変更申請書または届出書</li><li>建築物台帳（건축물대장）</li><li>建築図面</li><li>新用途に対する消防安全準拠証明</li><li>所有者の同意書（申請者が賃借人の場合）</li></ul><h2>6. 申請手続き</h2><ol><li>ゾーニングが意図する用途を許可していることを確認する</li><li>地方市区町村役場に申請書/届出書を提出する</li><li>書類審査と検査（必要な場合）</li><li>新用途を反映した更新建築物台帳が交付される</li></ol><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 建物用途変更にはどのくらいかかりますか？</p><p class="faq-a">A. 処理期間は管轄機関や個別の状況により異なります。個別にご確認ください。</p></div><div class="faq-item"><p class="faq-q">Q. 用途変更が承認される前に運営を開始できますか？</p><p class="faq-a">A. いいえ。無認可の用途での運営は罰金と強制閉鎖の対象となります。常に先に許可を取得してください。</p></div></div><div class="cta-box"><h3>建物用途変更を承認してもらいましょう</h3><p>YouSun Administrative Agencyが建物用途変更申請を最初から最後まで担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 42: administrative-license-permit-specialist-guide ───────────────
@@ -2731,30 +2731,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Why Use a Licensed Administrative Agent in Korea — 2026 Guide',
     metaTitle: 'Korea Administrative Agent (행정사) 2026 — Why You Need One',
-    metaDescription: 'Why using a licensed administrative agent (행정사) in Korea saves time and avoids costly mistakes. Scope of services, legal protections. Free consultation.',
+    metaDescription: 'Why using a licensed administrative agent (행정사) in Korea saves time and avoids costly mistakes. Scope of services, legal protections.',
     category: 'Administrative',
     excerpt: 'A guide to the role of a licensed administrative agent (행정사) in Korea — what they do, why they matter for license applications, and how to find a qualified one.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is an Administrative Agent?</li><li>Services Provided</li><li>Legal Protections When Using a Licensed Administrative Agent</li><li>Risks of Using Unlicensed Agents</li><li>How to Verify an Administrative agent's License</li><li>Fee Structure</li><li>FAQ</li></ol></div><h2>1. What Is an Administrative Agent?</h2><p>A 행정사 (administrative agent) is a licensed professional in Korea who can prepare and submit government applications on behalf of clients. The profession is regulated under the <strong>Administrative Agent Act (행정사법)</strong>.</p><h2>2. Services Provided</h2><ul><li>Business license applications (restaurant, manufacturing, cosmetics, etc.)</li><li>Corporate registrations and permits</li><li>Government procurement registration</li><li>Venue, facility, and use-change applications</li><li>Translation and notarization support</li></ul><h2>3. Legal Protections When Using a Licensed Administrative Agent</h2><ul><li>Licensed administrative agents carry professional liability insurance</li><li>Clients have recourse through the 행정사협회 (association) if misconduct occurs</li><li>Government offices recognize and trust submissions prepared by 행정사</li></ul><h2>4. Risks of Using Unlicensed Agents</h2><ul><li>No legal accountability or insurance coverage</li><li>Applications may be prepared incorrectly, causing rejection or delays</li><li>Some unlicensed "agencies" operate fraudulently</li></ul><h2>5. How to Verify an Administrative agent's License</h2><ul><li>Check the Korean Administrative Agent Association website (행정사협회)</li><li>Request license number and cross-reference official registry</li><li>Legitimate offices display their registration certificate prominently</li></ul><h2>6. Fee Structure</h2><ul><li>Fees are negotiable but follow general market rates by service type</li><li>Reputable offices provide written fee agreements before work starts</li><li>Beware of unusually low fees — they often indicate unlicensed operators</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. What does an administrative agent handle, and where does the scope end?</p><p class="faq-a">A. Legal disputes and court matters are outside the scope of an administrative agent. Administrative agents (행정사) specialize in government applications and administrative procedures.</p></div><div class="faq-item"><p class="faq-q">Q. Can I apply for business licenses myself without an administrative agent?</p><p class="faq-a">A. Yes. Licenses can be applied for directly. An administrative agent speeds up the process, reduces rejection risk, and handles complex multi-step applications.</p></div></div><div class="cta-box"><h3>Work with a Licensed Administrative Agent</h3><p>YouSun Administrative Agency is a licensed 행정사 office. We handle all business licensing and government applications. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is an Administrative Agent?</li><li>Services Provided</li><li>Legal Protections When Using a Licensed Administrative Agent</li><li>Risks of Using Unlicensed Agents</li><li>How to Verify an Administrative agent's License</li><li>Fee Structure</li><li>FAQ</li></ol></div><h2>1. What Is an Administrative Agent?</h2><p>A 행정사 (administrative agent) is a licensed professional in Korea who can prepare and submit government applications on behalf of clients. The profession is regulated under the <strong>Administrative Agent Act (행정사법)</strong>.</p><h2>2. Services Provided</h2><ul><li>Business license applications (restaurant, manufacturing, cosmetics, etc.)</li><li>Corporate registrations and permits</li><li>Government procurement registration</li><li>Venue, facility, and use-change applications</li><li>Translation and notarization support</li></ul><h2>3. Legal Protections When Using a Licensed Administrative Agent</h2><ul><li>Licensed administrative agents carry professional liability insurance</li><li>Clients have recourse through the 행정사협회 (association) if misconduct occurs</li><li>Government offices recognize and trust submissions prepared by 행정사</li></ul><h2>4. Risks of Using Unlicensed Agents</h2><ul><li>No legal accountability or insurance coverage</li><li>Applications may be prepared incorrectly, causing rejection or delays</li><li>Some unlicensed "agencies" operate fraudulently</li></ul><h2>5. How to Verify an Administrative agent's License</h2><ul><li>Check the Korean Administrative Agent Association website (행정사협회)</li><li>Request license number and cross-reference official registry</li><li>Legitimate offices display their registration certificate prominently</li></ul><h2>6. Fee Structure</h2><ul><li>Fees are negotiable but follow general market rates by service type</li><li>Reputable offices provide written fee agreements before work starts</li><li>Beware of unusually low fees — they often indicate unlicensed operators</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. What does an administrative agent handle, and where does the scope end?</p><p class="faq-a">A. Legal disputes and court matters are outside the scope of an administrative agent. Administrative agents (행정사) specialize in government applications and administrative procedures.</p></div><div class="faq-item"><p class="faq-q">Q. Can I apply for business licenses myself without an administrative agent?</p><p class="faq-a">A. Yes. Licenses can be applied for directly. An administrative agent speeds up the process, reduces rejection risk, and handles complex multi-step applications.</p></div></div><div class="cta-box"><h3>Work with a Licensed Administrative Agent</h3><p>YouSun Administrative Agency is a licensed 행정사 office. We handle all business licensing and government applications.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'administrative-license-permit-specialist-guide',
     locale: 'zh',
     title: '为何在韩国选择持牌行政士 — 2026指南',
     metaTitle: '韩国行政士（행정사）2026 — 为何需要专业人士',
-    metaDescription: '为何使用韩国持牌行政士（행정사）能节省时间并避免代价高昂的错误。服务范围、法律保护及如何找到合格的专业人士。免费初次咨询。本文依次说明提供的服务、使用持牌行政士的法律保护、使用无牌中介的风险、如何核实行政士执照，可按步骤逐项确认。',
+    metaDescription: '为何使用韩国持牌行政士（행정사）能节省时间并避免代价高昂的错误。服务范围、法律保护及如何找到合格的专业人士。初次咨询。本文依次说明提供的服务、使用持牌行政士的法律保护、使用无牌中介的风险、如何核实行政士执照，可按步骤逐项确认。',
     category: '行政',
     excerpt: '韩国持牌行政士（행정사）角色指南，包括其职责、对执照申请的重要性及如何找到合格的行政士。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是行政士？</li><li>提供的服务</li><li>使用持牌行政士的法律保护</li><li>使用无牌中介的风险</li><li>如何核实行政士执照</li><li>收费结构</li><li>常见问题</li></ol></div><h2>1. 什么是行政士？</h2><p>행정사（行政士/行政代理人）是韩国持牌专业人士，可代表客户准备并提交政府申请。该职业受<strong>《行政士法》</strong>监管。</p><h2>2. 提供的服务</h2><ul><li>营业执照申请（餐厅、制造业、化妆品等）</li><li>企业登记和许可证</li><li>政府采购登记</li><li>场所、设施及用途变更申请</li><li>翻译和公证支持</li></ul><h2>3. 使用持牌行政士的法律保护</h2><ul><li>持牌行政士持有职业责任保险</li><li>如发生不当行为，客户可通过행정사협회（协会）寻求救济</li><li>政府机关认可并信任由행정사准备的申请材料</li></ul><h2>4. 使用无牌中介的风险</h2><ul><li>无法律责任或保险保障</li><li>申请材料可能准备不当，导致拒绝或延误</li><li>部分无牌"代理机构"存在欺诈行为</li></ul><h2>5. 如何核实行政士执照</h2><ul><li>在韩国行政士协会网站（행정사협회）查询</li><li>索取执照号码并对照官方登记册核实</li><li>合法事务所会显眼地展示登记证书</li></ul><h2>6. 收费结构</h2><ul><li>费用可协商，但按服务类型遵循一般市场价格</li><li>信誉良好的事务所在工作开始前提供书面收费协议</li><li>警惕异常低收费，这通常意味着无牌运营者</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 行政士可以做什么、做到哪一步？</p><p class="faq-a">A. 法律纠纷和法院事务超出行政士业务范围。行政士（행정사）专注于政府申请和行政程序。</p></div><div class="faq-item"><p class="faq-q">Q. 我可以不通过行政士自己申请营业执照吗？</p><p class="faq-a">A. 可以。执照可以直接申请。行政士能加快流程、降低被拒风险，并处理复杂的多步骤申请。</p></div></div><div class="cta-box"><h3>与持牌行政士合作</h3><p>YouSun Administrative Agency是持牌행정사事务所，代办所有营业执照及政府申请事宜。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是行政士？</li><li>提供的服务</li><li>使用持牌行政士的法律保护</li><li>使用无牌中介的风险</li><li>如何核实行政士执照</li><li>收费结构</li><li>常见问题</li></ol></div><h2>1. 什么是行政士？</h2><p>행정사（行政士）是韩国持牌专业人士，可代表客户准备并提交政府申请。该职业受<strong>《行政士法》</strong>监管。</p><h2>2. 提供的服务</h2><ul><li>营业执照申请（餐厅、制造业、化妆品等）</li><li>企业登记和许可证</li><li>政府采购登记</li><li>场所、设施及用途变更申请</li><li>翻译和公证支持</li></ul><h2>3. 使用持牌行政士的法律保护</h2><ul><li>持牌行政士持有职业责任保险</li><li>如发生不当行为，客户可通过행정사협회（协会）寻求救济</li><li>政府机关认可并信任由행정사准备的申请材料</li></ul><h2>4. 使用无牌中介的风险</h2><ul><li>无法律责任或保险保障</li><li>申请材料可能准备不当，导致拒绝或延误</li><li>部分无牌"代理机构"存在欺诈行为</li></ul><h2>5. 如何核实行政士执照</h2><ul><li>在韩国行政士协会网站（행정사협회）查询</li><li>索取执照号码并对照官方登记册核实</li><li>合法事务所会显眼地展示登记证书</li></ul><h2>6. 收费结构</h2><ul><li>费用可协商，但按服务类型遵循一般市场价格</li><li>信誉良好的事务所在工作开始前提供书面收费协议</li><li>警惕异常低收费，这通常意味着无牌运营者</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 行政士可以做什么、做到哪一步？</p><p class="faq-a">A. 法律纠纷和法院事务超出行政士业务范围。行政士（행정사）专注于政府申请和行政程序。</p></div><div class="faq-item"><p class="faq-q">Q. 我可以不通过行政士自己申请营业执照吗？</p><p class="faq-a">A. 可以。执照可以直接申请。行政士能加快流程、降低被拒风险，并处理复杂的多步骤申请。</p></div></div><div class="cta-box"><h3>与持牌行政士合作</h3><p>YouSun Administrative Agency是持牌행정사事务所，代办所有营业执照及政府申请事宜。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'administrative-license-permit-specialist-guide',
     locale: 'ja',
     title: '韓国で行政士を活用する理由 — 2026ガイド',
     metaTitle: '韓国行政士（행정사）2026 — なぜ専門家が必要か',
-    metaDescription: '韓国の認定行政士（행정사）を利用することで時間を節約し、コストのかかるミスを避けられる理由。サービス範囲、法的保護、資格ある専門家の見つけ方。行政士による無料初回相談。',
+    metaDescription: '韓国の認定行政士（행정사）を利用することで時間を節約し、コストのかかるミスを避けられる理由。サービス範囲、法的保護、資格ある専門家の見つけ方。行政士による初回相談。',
     category: '行政',
     excerpt: '韓国の認定行政士（행정사）の役割ガイド — 業務内容、許可申請における重要性、適格な行政士の見つけ方を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>行政士とは？</li><li>提供するサービス</li><li>認定行政士利用時の法的保護</li><li>無許可代理人を使うリスク</li><li>行政士の資格確認方法</li><li>報酬体系</li><li>よくある質問</li></ol></div><h2>1. 行政士とは？</h2><p>행정사（行政士）は、クライアントに代わって政府への申請書を作成・提出できる韓国の認定専門家です。この職業は<strong>「行政士法」</strong>によって規制されています。</p><h2>2. 提供するサービス</h2><ul><li>事業許可申請（レストラン、製造業、化粧品など）</li><li>法人登記と許可証</li><li>政府調達登録</li><li>施設・設備・用途変更申請</li><li>翻訳・公証サポート</li></ul><h2>3. 認定行政士利用時の法的保護</h2><ul><li>認定行政士は職業賠償責任保険に加入している</li><li>不正行為があった場合、クライアントは행정사협회（協会）を通じて救済を求められる</li><li>政府機関は行政士が作成した申請書を認識し信頼する</li></ul><h2>4. 無許可代理人を使うリスク</h2><ul><li>法的責任や保険の補償がない</li><li>申請書が不正確に作成され、却下や遅延を引き起こす可能性がある</li><li>一部の無許可「代理店」は詐欺的に運営している</li></ul><h2>5. 行政士の資格確認方法</h2><ul><li>韓国行政士協会ウェブサイト（행정사협회）で確認する</li><li>ライセンス番号を入手し公式登録簿と照合する</li><li>正当な事務所は登録証明書を見えるところに掲示している</li></ul><h2>6. 報酬体系</h2><ul><li>報酬は交渉可能だが、サービスの種類によって一般的な市場価格に従う</li><li>信頼できる事務所は仕事を開始する前に書面による報酬契約を提供する</li><li>異常に低い報酬には注意 — 多くの場合、無許可業者を示す</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 行政士の業務範囲はどこまでですか？</p><p class="faq-a">A. 法的紛争と裁判事項は行政士の業務範囲外です。行政士（행정사）は政府への申請と行政手続きを専門とします。</p></div><div class="faq-item"><p class="faq-q">Q. 行政士なしで自分で事業許可を申請できますか？</p><p class="faq-a">A. はい。許可証は直接申請できます。行政士を使うとプロセスが速くなり、却下リスクが減り、複雑な多段階申請を処理できます。</p></div></div><div class="cta-box"><h3>認定行政士と協力しましょう</h3><p>YouSun Administrative Agencyは認定행정사事務所です。すべての事業許可と政府申請を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>行政士とは？</li><li>提供するサービス</li><li>認定行政士利用時の法的保護</li><li>無許可代理人を使うリスク</li><li>行政士の資格確認方法</li><li>報酬体系</li><li>よくある質問</li></ol></div><h2>1. 行政士とは？</h2><p>행정사（行政士）は、クライアントに代わって政府への申請書を作成・提出できる韓国の認定専門家です。この職業は<strong>「行政士法」</strong>によって規制されています。</p><h2>2. 提供するサービス</h2><ul><li>事業許可申請（レストラン、製造業、化粧品など）</li><li>法人登記と許可証</li><li>政府調達登録</li><li>施設・設備・用途変更申請</li><li>翻訳・公証サポート</li></ul><h2>3. 認定行政士利用時の法的保護</h2><ul><li>認定行政士は職業賠償責任保険に加入している</li><li>不正行為があった場合、クライアントは행정사협회（協会）を通じて救済を求められる</li><li>政府機関は行政士が作成した申請書を認識し信頼する</li></ul><h2>4. 無許可代理人を使うリスク</h2><ul><li>法的責任や保険の補償がない</li><li>申請書が不正確に作成され、却下や遅延を引き起こす可能性がある</li><li>一部の無許可「代理店」は詐欺的に運営している</li></ul><h2>5. 行政士の資格確認方法</h2><ul><li>韓国行政士協会ウェブサイト（행정사협회）で確認する</li><li>ライセンス番号を入手し公式登録簿と照合する</li><li>正当な事務所は登録証明書を見えるところに掲示している</li></ul><h2>6. 報酬体系</h2><ul><li>報酬は交渉可能だが、サービスの種類によって一般的な市場価格に従う</li><li>信頼できる事務所は仕事を開始する前に書面による報酬契約を提供する</li><li>異常に低い報酬には注意 — 多くの場合、無許可業者を示す</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 行政士の業務範囲はどこまでですか？</p><p class="faq-a">A. 法的紛争と裁判事項は行政士の業務範囲外です。行政士（행정사）は政府への申請と行政手続きを専門とします。</p></div><div class="faq-item"><p class="faq-q">Q. 行政士なしで自分で事業許可を申請できますか？</p><p class="faq-a">A. はい。許可証は直接申請できます。行政士を使うとプロセスが速くなり、却下リスクが減り、複雑な多段階申請を処理できます。</p></div></div><div class="cta-box"><h3>認定行政士と協力しましょう</h3><p>YouSun Administrative Agencyは認定행정사事務所です。すべての事業許可と政府申請を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 43: location-based-service-business-registration-foreign-company ──
@@ -2763,30 +2763,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Location-Based Service Business Registration for Foreign Companies in Korea — 2026',
     metaTitle: 'Korea Location-Based Service Registration Foreign Company 2026',
-    metaDescription: 'How foreign companies register a location-based service (LBS) business in Korea. PIPA compliance, KCC notification, required documents. Free consultation.',
+    metaDescription: 'How foreign companies register a location-based service (LBS) business in Korea. PIPA compliance, KCC notification, required documents.',
     category: 'Technology',
     excerpt: 'A guide to location-based service (LBS) business registration in Korea for foreign companies — KCC notification, PIPA compliance, and required documents.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Location-Based Service Business?</li><li>Legal Framework</li><li>Foreign Company Requirements</li><li>KCC Registration Procedure</li><li>PIPA Compliance</li><li>Required Documents</li><li>FAQ</li></ol></div><h2>1. What Is a Location-Based Service Business?</h2><p>A location-based service (LBS) business collects or uses location data of individuals to provide services (navigation, delivery tracking, location-aware marketing, etc.). In Korea, this requires registration with the <strong>Korea Communications Commission (KCC / 방송통신위원회)</strong> under the <strong>Act on the Protection and Use of Location Information</strong>.</p><h2>2. Legal Framework</h2><ul><li>Location Information Protection Act (위치정보보호법) governs registration and compliance</li><li>Personal Information Protection Act (PIPA) applies to all personal data handling</li><li>Separate rules apply for location data of minors</li></ul><h2>3. Foreign Company Requirements</h2><ul><li>Foreign companies must designate a Korean representative (국내대리인) for KCC registration</li><li>A Korean business address is required</li><li>All filings are done through the Korean representative</li></ul><h2>4. KCC Registration Procedure</h2><ol><li>Prepare required documents including security management plan</li><li>Submit registration application to KCC</li><li>Review and approval (approx. 30 days)</li><li>Registration certificate issued</li><li>Notify KCC of material changes within 30 days</li></ol><h2>5. PIPA Compliance</h2><ul><li>Location data is considered sensitive personal data under PIPA</li><li>Explicit consent from users is required before collecting location data</li><li>Data retention periods must be defined and disclosed</li><li>Annual privacy impact assessments recommended for large-scale services</li></ul><h2>6. Required Documents</h2><ul><li>LBS business registration application</li><li>Security management plan for location data</li><li>Korean representative's authorization and contact</li><li>Business registration certificate (Korean entity or foreign company documentation)</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreign company register LBS without a Korean subsidiary?</p><p class="faq-a">A. Yes. A designated Korean representative can act on the foreign company's behalf for KCC filings.</p></div><div class="faq-item"><p class="faq-q">Q. Does a mobile app that uses device GPS need LBS registration?</p><p class="faq-a">A. If the app collects user location data to provide a service, LBS registration is likely required. Consult a specialist to assess your specific case.</p></div></div><div class="cta-box"><h3>Register Your LBS Business in Korea</h3><p>YouSun Administrative Agency handles location-based service registration for domestic and foreign companies. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is a Location-Based Service Business?</li><li>Legal Framework</li><li>Foreign Company Requirements</li><li>KCC Registration Procedure</li><li>PIPA Compliance</li><li>Required Documents</li><li>FAQ</li></ol></div><h2>1. What Is a Location-Based Service Business?</h2><p>A location-based service (LBS) business collects or uses location data of individuals to provide services (navigation, delivery tracking, location-aware marketing, etc.). In Korea, this requires registration with the <strong>Korea Communications Commission (KCC / 방송통신위원회)</strong> under the <strong>Act on the Protection and Use of Location Information</strong>.</p><h2>2. Legal Framework</h2><ul><li>Location Information Protection Act (위치정보보호법) governs registration and compliance</li><li>Personal Information Protection Act (PIPA) applies to all personal data handling</li><li>Separate rules apply for location data of minors</li></ul><h2>3. Foreign Company Requirements</h2><ul><li>Foreign companies must designate a Korean representative (국내대리인) for KCC registration</li><li>A Korean business address is required</li><li>All filings are done through the Korean representative</li></ul><h2>4. KCC Registration Procedure</h2><ol><li>Prepare required documents including security management plan</li><li>Submit registration application to KCC</li><li>Review and approval (approx. 30 days)</li><li>Registration certificate issued</li><li>Notify KCC of material changes within 30 days</li></ol><h2>5. PIPA Compliance</h2><ul><li>Location data is considered sensitive personal data under PIPA</li><li>Explicit consent from users is required before collecting location data</li><li>Data retention periods must be defined and disclosed</li><li>Annual privacy impact assessments recommended for large-scale services</li></ul><h2>6. Required Documents</h2><ul><li>LBS business registration application</li><li>Security management plan for location data</li><li>Korean representative's authorization and contact</li><li>Business registration certificate (Korean entity or foreign company documentation)</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreign company register LBS without a Korean subsidiary?</p><p class="faq-a">A. Yes. A designated Korean representative can act on the foreign company's behalf for KCC filings.</p></div><div class="faq-item"><p class="faq-q">Q. Does a mobile app that uses device GPS need LBS registration?</p><p class="faq-a">A. If the app collects user location data to provide a service, LBS registration is likely required. Consult a specialist to assess your specific case.</p></div></div><div class="cta-box"><h3>Register Your LBS Business in Korea</h3><p>YouSun Administrative Agency handles location-based service registration for domestic and foreign companies.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'location-based-service-business-registration-foreign-company',
     locale: 'zh',
     title: '外国企业韩国位置信息服务事业登记指南2026',
     metaTitle: '韩国位置信息服务登记外国企业2026 — 申请要求',
-    metaDescription: '外国企业如何在韩国登记位置信息服务（LBS）事业。PIPA合规、KCC申报、所需材料及外国企业特殊规定。免费初次咨询。本文依次说明法律框架、外国企业要求、KCC登记流程、PIPA合规，可按步骤逐项确认。',
+    metaDescription: '外国企业如何在韩国登记位置信息服务（LBS）事业。PIPA合规、KCC申报、所需材料及外国企业特殊规定。初次咨询。本文依次说明法律框架、外国企业要求、KCC登记流程、PIPA合规，可按步骤逐项确认。',
     category: '科技',
     excerpt: '外国企业在韩国登记位置信息服务（LBS）事业指南，包括KCC申报、PIPA合规及所需材料。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是位置信息服务事业？</li><li>法律框架</li><li>外国企业要求</li><li>KCC登记流程</li><li>PIPA合规</li><li>所需材料</li><li>常见问题</li></ol></div><h2>1. 什么是位置信息服务事业？</h2><p>位置信息服务（LBS）事业收集或使用个人位置数据提供服务（导航、配送追踪、位置感知营销等）。在韩国，须依据<strong>《位置信息保护法》</strong>向<strong>韩国通信委员会（KCC/방송통신위원회）</strong>登记。</p><h2>2. 法律框架</h2><ul><li>《位置信息保护法》管辖登记和合规事项</li><li>《个人信息保护法（PIPA）》适用于所有个人数据处理</li><li>未成年人位置数据适用特殊规定</li></ul><h2>3. 外国企业要求</h2><ul><li>外国企业须指定韩国代理人（국내대리인）进行KCC登记</li><li>须提供韩国商业地址</li><li>所有申报均通过韩国代理人进行</li></ul><h2>4. KCC登记流程</h2><ol><li>准备所需材料，包括安全管理计划</li><li>向KCC提交登记申请</li><li>审查与批准（时间因主管机关而异）</li><li>颁发登记证</li><li>重大变更须在30天内通知KCC</li></ol><h2>5. PIPA合规</h2><ul><li>位置数据在PIPA下被视为敏感个人数据</li><li>收集位置数据前须获得用户明确同意</li><li>须定义并披露数据保留期限</li><li>建议大型服务进行年度隐私影响评估</li></ul><h2>6. 所需材料</h2><ul><li>LBS事业登记申请表</li><li>位置数据安全管理计划</li><li>韩国代理人授权书及联系方式</li><li>营业执照（韩国法人或外国企业文件）</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国企业无需韩国子公司也能登记LBS吗？</p><p class="faq-a">A. 可以。指定的韩国代理人可代表外国企业进行KCC申报。</p></div><div class="faq-item"><p class="faq-q">Q. 使用设备GPS的移动应用需要LBS登记吗？</p><p class="faq-a">A. 如果应用收集用户位置数据以提供服务，可能需要LBS登记。请咨询专业人士评估您的具体情况。</p></div></div><div class="cta-box"><h3>在韩国登记LBS事业</h3><p>YouSun Administrative Agency代办国内外企业位置信息服务登记。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是位置信息服务事业？</li><li>法律框架</li><li>外国企业要求</li><li>KCC登记流程</li><li>PIPA合规</li><li>所需材料</li><li>常见问题</li></ol></div><h2>1. 什么是位置信息服务事业？</h2><p>位置信息服务（LBS）事业收集或使用个人位置数据提供服务（导航、配送追踪、位置感知营销等）。在韩国，须依据<strong>《位置信息保护法》</strong>向<strong>韩国通信委员会（KCC/방송통신위원회）</strong>登记。</p><h2>2. 法律框架</h2><ul><li>《位置信息保护法》管辖登记和合规事项</li><li>《个人信息保护法（PIPA）》适用于所有个人数据处理</li><li>未成年人位置数据适用特殊规定</li></ul><h2>3. 外国企业要求</h2><ul><li>外国企业须指定韩国代理人（국내대리인）进行KCC登记</li><li>须提供韩国商业地址</li><li>所有申报均通过韩国代理人进行</li></ul><h2>4. KCC登记流程</h2><ol><li>准备所需材料，包括安全管理计划</li><li>向KCC提交登记申请</li><li>审查与批准（时间因主管机关而异）</li><li>颁发登记证</li><li>重大变更须在30天内通知KCC</li></ol><h2>5. PIPA合规</h2><ul><li>位置数据在PIPA下被视为敏感个人数据</li><li>收集位置数据前须获得用户明确同意</li><li>须定义并披露数据保留期限</li><li>建议大型服务进行年度隐私影响评估</li></ul><h2>6. 所需材料</h2><ul><li>LBS事业登记申请表</li><li>位置数据安全管理计划</li><li>韩国代理人授权书及联系方式</li><li>营业执照（韩国法人或外国企业文件）</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国企业无需韩国子公司也能登记LBS吗？</p><p class="faq-a">A. 可以。指定的韩国代理人可代表外国企业进行KCC申报。</p></div><div class="faq-item"><p class="faq-q">Q. 使用设备GPS的移动应用需要LBS登记吗？</p><p class="faq-a">A. 如果应用收集用户位置数据以提供服务，可能需要LBS登记。请咨询专业人士评估您的具体情况。</p></div></div><div class="cta-box"><h3>在韩国登记LBS事业</h3><p>YouSun Administrative Agency代办国内外企业位置信息服务登记。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'location-based-service-business-registration-foreign-company',
     locale: 'ja',
     title: '外国企業向け韓国位置情報サービス事業登録ガイド2026',
     metaTitle: '韓国位置情報サービス登録外国企業2026 — 申請要件',
-    metaDescription: '外国企業が韓国で位置情報サービス（LBS）事業を登録する方法。PIPA準拠、KCC届出、必要書類、外国企業固有のルール。行政士による無料初回相談。',
+    metaDescription: '外国企業が韓国で位置情報サービス（LBS）事業を登録する方法。PIPA準拠、KCC届出、必要書類、外国企業固有のルール。行政士による初回相談。',
     category: 'テクノロジー',
     excerpt: '外国企業向け韓国の位置情報サービス（LBS）事業登録ガイド — KCC届出、PIPA準拠、必要書類を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>位置情報サービス事業とは？</li><li>法的枠組み</li><li>外国企業の要件</li><li>KCC登録手続き</li><li>PIPA準拠</li><li>必要書類</li><li>よくある質問</li></ol></div><h2>1. 位置情報サービス事業とは？</h2><p>位置情報サービス（LBS）事業は、サービス提供のために個人の位置データを収集または使用します（ナビゲーション、配達追跡、位置認識マーケティングなど）。韓国では、<strong>「位置情報保護法」</strong>に基づき<strong>韓国放送通信委員会（KCC / 방송통신위원회）</strong>への登録が必要です。</p><h2>2. 法的枠組み</h2><ul><li>位置情報保護法（위치정보보호법）が登録とコンプライアンスを規制</li><li>個人情報保護法（PIPA）がすべての個人データ処理に適用</li><li>未成年者の位置データには別の規則が適用</li></ul><h2>3. 外国企業の要件</h2><ul><li>外国企業はKCC登録のために韓国の代理人（국내대리인）を指定する必要がある</li><li>韓国のビジネスアドレスが必要</li><li>すべての申告は韓国代理人を通じて行われる</li></ul><h2>4. KCC登録手続き</h2><ol><li>セキュリティ管理計画を含む必要書類を準備する</li><li>KCCに登録申請書を提出する</li><li>審査と承認（期間は管轄機関により異なる）</li><li>登録証の交付</li><li>重要な変更は30日以内にKCCに通知する</li></ol><h2>5. PIPA準拠</h2><ul><li>位置データはPIPAの下で機密個人データとみなされる</li><li>位置データを収集する前にユーザーの明示的な同意が必要</li><li>データ保持期間を定義して開示する必要がある</li><li>大規模サービスには年次プライバシー影響評価を推奨</li></ul><h2>6. 必要書類</h2><ul><li>LBS事業登録申請書</li><li>位置データのセキュリティ管理計画</li><li>韓国代理人の委任状と連絡先</li><li>事業者登録証（韓国法人または外国企業書類）</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国企業は韓国子会社なしでLBSを登録できますか？</p><p class="faq-a">A. はい。指定された韓国代理人が外国企業に代わってKCCへの申告を行えます。</p></div><div class="faq-item"><p class="faq-q">Q. デバイスGPSを使用するモバイルアプリはLBS登録が必要ですか？</p><p class="faq-a">A. アプリがサービス提供のためにユーザーの位置データを収集する場合、LBS登録が必要な可能性があります。専門家に相談して具体的なケースを評価してもらうことをお勧めします。</p></div></div><div class="cta-box"><h3>韓国でLBS事業を登録しましょう</h3><p>YouSun Administrative Agencyが国内外企業の位置情報サービス登録を担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>位置情報サービス事業とは？</li><li>法的枠組み</li><li>外国企業の要件</li><li>KCC登録手続き</li><li>PIPA準拠</li><li>必要書類</li><li>よくある質問</li></ol></div><h2>1. 位置情報サービス事業とは？</h2><p>位置情報サービス（LBS）事業は、サービス提供のために個人の位置データを収集または使用します（ナビゲーション、配達追跡、位置認識マーケティングなど）。韓国では、<strong>「位置情報保護法」</strong>に基づき<strong>韓国放送通信委員会（KCC / 방송통신위원회）</strong>への登録が必要です。</p><h2>2. 法的枠組み</h2><ul><li>位置情報保護法（위치정보보호법）が登録とコンプライアンスを規制</li><li>個人情報保護法（PIPA）がすべての個人データ処理に適用</li><li>未成年者の位置データには別の規則が適用</li></ul><h2>3. 外国企業の要件</h2><ul><li>外国企業はKCC登録のために韓国の代理人（국내대리인）を指定する必要がある</li><li>韓国のビジネスアドレスが必要</li><li>すべての申告は韓国代理人を通じて行われる</li></ul><h2>4. KCC登録手続き</h2><ol><li>セキュリティ管理計画を含む必要書類を準備する</li><li>KCCに登録申請書を提出する</li><li>審査と承認（期間は管轄機関により異なる）</li><li>登録証の交付</li><li>重要な変更は30日以内にKCCに通知する</li></ol><h2>5. PIPA準拠</h2><ul><li>位置データはPIPAの下で機密個人データとみなされる</li><li>位置データを収集する前にユーザーの明示的な同意が必要</li><li>データ保持期間を定義して開示する必要がある</li><li>大規模サービスには年次プライバシー影響評価を推奨</li></ul><h2>6. 必要書類</h2><ul><li>LBS事業登録申請書</li><li>位置データのセキュリティ管理計画</li><li>韓国代理人の委任状と連絡先</li><li>事業者登録証（韓国法人または外国企業書類）</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国企業は韓国子会社なしでLBSを登録できますか？</p><p class="faq-a">A. はい。指定された韓国代理人が外国企業に代わってKCCへの申告を行えます。</p></div><div class="faq-item"><p class="faq-q">Q. デバイスGPSを使用するモバイルアプリはLBS登録が必要ですか？</p><p class="faq-a">A. アプリがサービス提供のためにユーザーの位置データを収集する場合、LBS登録が必要な可能性があります。専門家に相談して具体的なケースを評価してもらうことをお勧めします。</p></div></div><div class="cta-box"><h3>韓国でLBS事業を登録しましょう</h3><p>YouSun Administrative Agencyが国内外企業の位置情報サービス登録を担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 44: online-shop-communication-sales-registration-guide ───────────
@@ -2795,30 +2795,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Online Shop & Communication Sales Registration in Korea — 2026 Guide',
     metaTitle: 'Korea E-commerce Registration 2026 — Online Shop (Communication Sales) Permit',
-    metaDescription: 'How to register an online shop or e-commerce business (통신판매업) in Korea. FTC registration, required documents. Free consultation.',
+    metaDescription: 'How to register an online shop or e-commerce business (통신판매업) in Korea. FTC registration, required documents.',
     category: 'E-Commerce',
     excerpt: 'A guide to registering an online shop or communication sales business (통신판매업) in Korea — FTC registration, required documents, and foreign operator requirements.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Communication Sales Business?</li><li>Who Must Register?</li><li>Required Documents</li><li>Application Procedure</li><li>Key Consumer Protection Obligations</li><li>Foreign Operators</li><li>FAQ</li></ol></div><h2>1. What Is Communication Sales Business?</h2><p>In Korea, selling goods or services online, via phone, TV shopping, or catalog is classified as <strong>communication sales business (통신판매업)</strong> and requires registration with the <strong>Fair Trade Commission (FTC / 공정거래위원회)</strong> under the E-Commerce Consumer Protection Act.</p><h2>2. Who Must Register?</h2><ul><li>Any business selling products online in Korea (domestic or foreign)</li><li>Exemption: businesses with fewer than 50 transactions AND under KRW 24 million in annual sales</li><li>Marketplace sellers: the marketplace platform registers; individual sellers on platforms may not need separate registration</li></ul><h2>3. Required Documents</h2><ul><li>Communication sales business registration application</li><li>Business registration certificate</li><li>Identification of business representative</li><li>Bank account information for payment processing</li><li>Escrow or payment guarantee contract (for escrow-based payment)</li></ul><h2>4. Application Procedure</h2><ol><li>Register business with local tax office first (사업자등록)</li><li>Submit communication sales registration at district office (시/군/구청)</li><li>Registration completed immediately upon submission</li><li>Registration number displayed on all sales pages</li></ol><h2>5. Key Consumer Protection Obligations</h2><ul><li>Display business registration and communication sales registration numbers on website</li><li>Provide clear product information and pricing</li><li>Accept returns within 7 days of delivery (cooling-off period)</li><li>Process refunds within 3 business days of return receipt</li></ul><h2>6. Foreign Operators</h2><ul><li>Foreign businesses selling to Korean consumers must register in Korea</li><li>Must designate a Korean representative if the business has no Korean presence</li><li>Consumer protection law applies regardless of company origin</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Do I need communication sales registration to sell on Coupang or Naver Smart Store?</p><p class="faq-a">A. For marketplace platforms, the platform typically holds the master registration. However, if you reach the threshold or sell on your own website, individual registration is required.</p></div><div class="faq-item"><p class="faq-q">Q. Can I register as an online seller without a Korean company?</p><p class="faq-a">A. Foreign companies can register, but typically need a Korean business registration first. A representative or agent can assist.</p></div></div><div class="cta-box"><h3>Register Your Online Business in Korea</h3><p>YouSun Administrative Agency handles communication sales registration and e-commerce compliance. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Communication Sales Business?</li><li>Who Must Register?</li><li>Required Documents</li><li>Application Procedure</li><li>Key Consumer Protection Obligations</li><li>Foreign Operators</li><li>FAQ</li></ol></div><h2>1. What Is Communication Sales Business?</h2><p>In Korea, selling goods or services online, via phone, TV shopping, or catalog is classified as <strong>communication sales business (통신판매업)</strong> and requires registration with the <strong>Fair Trade Commission (FTC / 공정거래위원회)</strong> under the E-Commerce Consumer Protection Act.</p><h2>2. Who Must Register?</h2><ul><li>Any business selling products online in Korea (domestic or foreign)</li><li>Exemption: businesses with fewer than 50 transactions AND under KRW 24 million in annual sales</li><li>Marketplace sellers: the marketplace platform registers; individual sellers on platforms may not need separate registration</li></ul><h2>3. Required Documents</h2><ul><li>Communication sales business registration application</li><li>Business registration certificate</li><li>Identification of business representative</li><li>Bank account information for payment processing</li><li>Escrow or payment guarantee contract (for escrow-based payment)</li></ul><h2>4. Application Procedure</h2><ol><li>Register business with local tax office first (사업자등록)</li><li>Submit communication sales registration at district office (시/군/구청)</li><li>Registration completed immediately upon submission</li><li>Registration number displayed on all sales pages</li></ol><h2>5. Key Consumer Protection Obligations</h2><ul><li>Display business registration and communication sales registration numbers on website</li><li>Provide clear product information and pricing</li><li>Accept returns within 7 days of delivery (cooling-off period)</li><li>Process refunds within 3 business days of return receipt</li></ul><h2>6. Foreign Operators</h2><ul><li>Foreign businesses selling to Korean consumers must register in Korea</li><li>Must designate a Korean representative if the business has no Korean presence</li><li>Consumer protection law applies regardless of company origin</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Do I need communication sales registration to sell on Coupang or Naver Smart Store?</p><p class="faq-a">A. For marketplace platforms, the platform typically holds the master registration. However, if you reach the threshold or sell on your own website, individual registration is required.</p></div><div class="faq-item"><p class="faq-q">Q. Can I register as an online seller without a Korean company?</p><p class="faq-a">A. Foreign companies can register, but typically need a Korean business registration first. A representative or agent can assist.</p></div></div><div class="cta-box"><h3>Register Your Online Business in Korea</h3><p>YouSun Administrative Agency handles communication sales registration and e-commerce compliance.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'online-shop-communication-sales-registration-guide',
     locale: 'zh',
     title: '韩国网络商店及通信销售业者登记指南2026',
     metaTitle: '韩国网络商店登记2026 — 通信销售业务许可',
-    metaDescription: '如何在韩国登记网络商店或电商业务（통신판매업）。公正交易委员会登记、所需材料及外国运营者合规须知。免费初次咨询。本文依次说明所需材料、申请流程、主要消费者保护义务、外国运营者，可按步骤逐项确认。',
+    metaDescription: '如何在韩国登记网络商店或电商业务（통신판매업）。公正交易委员会登记、所需材料及外国运营者合规须知。初次咨询。本文依次说明所需材料、申请流程、主要消费者保护义务、外国运营者，可按步骤逐项确认。',
     category: '电商',
     excerpt: '韩国网络商店或通信销售业务（통신판매업）登记指南，包括FTC登记、所需材料及外国运营者要求。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是通信销售业务？</li><li>谁须登记？</li><li>所需材料</li><li>申请流程</li><li>主要消费者保护义务</li><li>外国运营者</li><li>常见问题</li></ol></div><h2>1. 什么是通信销售业务？</h2><p>在韩国，通过网络、电话、电视购物或目录销售商品或服务被归类为<strong>通信销售业务（통신판매업）</strong>，须依据《电商消费者保护法》向<strong>公正交易委员会（FTC/공정거래위원회）</strong>登记。</p><h2>2. 谁须登记？</h2><ul><li>在韩国在线销售产品的任何企业（国内或外国）</li><li>豁免：年交易次数少于50次且年销售额低于2400万韩元的企业</li><li>平台卖家：平台进行主登记，平台上的个人卖家通常无需单独登记</li></ul><h2>3. 所需材料</h2><ul><li>通信销售业务登记申请表</li><li>营业执照</li><li>企业代表人身份证明</li><li>支付处理的银行账户信息</li><li>托管或支付担保合同（如采用托管付款）</li></ul><h2>4. 申请流程</h2><ol><li>首先向当地税务局登记营业执照（사업자등록）</li><li>向区/市/郡政府提交通信销售登记</li><li>提交时立即完成登记</li><li>在所有销售页面显示登记号码</li></ol><h2>5. 主要消费者保护义务</h2><ul><li>在网站上显示营业执照和通信销售登记号码</li><li>提供清晰的产品信息和定价</li><li>接受交付后7天内的退货（冷静期）</li><li>在收到退货后3个工作日内处理退款</li></ul><h2>6. 外国运营者</h2><ul><li>向韩国消费者销售的外国企业须在韩国登记</li><li>如企业在韩国无实体存在，须指定韩国代理人</li><li>消费者保护法无论企业来源地均适用</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 在Coupang或Naver智能商店销售需要通信销售登记吗？</p><p class="faq-a">A. 对于市场平台，平台通常持有主登记。但如果达到门槛或在自己的网站销售，则需要单独登记。</p></div><div class="faq-item"><p class="faq-q">Q. 没有韩国公司能登记为网络卖家吗？</p><p class="faq-a">A. 外国公司可以登记，但通常需要先进行韩国营业登记。代理人或代理机构可提供协助。</p></div></div><div class="cta-box"><h3>在韩国登记您的网络业务</h3><p>YouSun Administrative Agency代办通信销售登记及电商合规服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是通信销售业务？</li><li>谁须登记？</li><li>所需材料</li><li>申请流程</li><li>主要消费者保护义务</li><li>外国运营者</li><li>常见问题</li></ol></div><h2>1. 什么是通信销售业务？</h2><p>在韩国，通过网络、电话、电视购物或目录销售商品或服务被归类为<strong>通信销售业务（통신판매업）</strong>，须依据《电商消费者保护法》向<strong>公正交易委员会（FTC/공정거래위원회）</strong>登记。</p><h2>2. 谁须登记？</h2><ul><li>在韩国在线销售产品的任何企业（国内或外国）</li><li>豁免：年交易次数少于50次且年销售额低于2400万韩元的企业</li><li>平台卖家：平台进行主登记，平台上的个人卖家通常无需单独登记</li></ul><h2>3. 所需材料</h2><ul><li>通信销售业务登记申请表</li><li>营业执照</li><li>企业代表人身份证明</li><li>支付处理的银行账户信息</li><li>托管或支付担保合同（如采用托管付款）</li></ul><h2>4. 申请流程</h2><ol><li>首先向当地税务局登记营业执照（사업자등록）</li><li>向区/市/郡政府提交通信销售登记</li><li>提交时立即完成登记</li><li>在所有销售页面显示登记号码</li></ol><h2>5. 主要消费者保护义务</h2><ul><li>在网站上显示营业执照和通信销售登记号码</li><li>提供清晰的产品信息和定价</li><li>接受交付后7天内的退货（冷静期）</li><li>在收到退货后3个工作日内处理退款</li></ul><h2>6. 外国运营者</h2><ul><li>向韩国消费者销售的外国企业须在韩国登记</li><li>如企业在韩国无实体存在，须指定韩国代理人</li><li>消费者保护法无论企业来源地均适用</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 在Coupang或Naver智能商店销售需要通信销售登记吗？</p><p class="faq-a">A. 对于市场平台，平台通常持有主登记。但如果达到门槛或在自己的网站销售，则需要单独登记。</p></div><div class="faq-item"><p class="faq-q">Q. 没有韩国公司能登记为网络卖家吗？</p><p class="faq-a">A. 外国公司可以登记，但通常需要先进行韩国营业登记。代理人或代理机构可提供协助。</p></div></div><div class="cta-box"><h3>在韩国登记您的网络业务</h3><p>YouSun Administrative Agency代办通信销售登记及电商合规服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'online-shop-communication-sales-registration-guide',
     locale: 'ja',
     title: '韓国オンラインショップ・通信販売業登録ガイド2026',
     metaTitle: '韓国オンラインショップ登録2026 — 通信販売業許可',
-    metaDescription: '韓国でオンラインショップやEC事業（통신판매업）を登録する方法。FTC登録、必要書類、外国事業者のコンプライアンス。行政士による無料初回相談。',
+    metaDescription: '韓国でオンラインショップやEC事業（통신판매업）を登録する方法。FTC登録、必要書類、外国事業者のコンプライアンス。行政士による初回相談。',
     category: 'Eコマース',
     excerpt: '韓国のオンラインショップや通信販売業（통신판매업）登録ガイド — FTC登録、必要書類、外国事業者の要件を解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>通信販売業とは？</li><li>登録が必要な対象</li><li>必要書類</li><li>申請手続き</li><li>主な消費者保護義務</li><li>外国事業者</li><li>よくある質問</li></ol></div><h2>1. 通信販売業とは？</h2><p>韓国では、オンライン、電話、テレビショッピング、またはカタログによる商品・サービスの販売は<strong>通信販売業（통신판매업）</strong>に分類され、EC消費者保護法に基づき<strong>公正取引委員会（FTC / 공정거래위원회）</strong>への登録が必要です。</p><h2>2. 登録が必要な対象</h2><ul><li>韓国でオンライン販売を行うすべての事業者（国内・外国を問わず）</li><li>免除：年間取引件数50件未満かつ年間売上2,400万ウォン未満の事業者</li><li>マーケットプレイス出品者：プラットフォームがマスター登録を行う；プラットフォーム上の個人出品者は別途登録不要な場合が多い</li></ul><h2>3. 必要書類</h2><ul><li>通信販売業登録申請書</li><li>事業者登録証</li><li>事業代表者の身分証明</li><li>決済処理用銀行口座情報</li><li>エスクローまたは支払保証契約書（エスクロー決済の場合）</li></ul><h2>4. 申請手続き</h2><ol><li>まず地方税務署で事業者登録（사업자등록）を行う</li><li>区役所（시/군/구청）に通信販売登録を提出する</li><li>提出時に登録が即座に完了する</li><li>すべての販売ページに登録番号を表示する</li></ol><h2>5. 主な消費者保護義務</h2><ul><li>ウェブサイトに事業者登録番号と通信販売登録番号を表示する</li><li>明確な商品情報と価格を提供する</li><li>配達後7日以内の返品を受け付ける（クーリングオフ期間）</li><li>返品受領後3営業日以内に返金を処理する</li></ul><h2>6. 外国事業者</h2><ul><li>韓国消費者に販売する外国企業は韓国で登録する必要がある</li><li>韓国に拠点がない場合は韓国の代理人を指定する必要がある</li><li>消費者保護法は会社の出身地に関わらず適用される</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. CoupangやNaver Smart Storeで販売するには通信販売登録が必要ですか？</p><p class="faq-a">A. マーケットプレイスプラットフォームでは、通常プラットフォームがマスター登録を保持します。ただし、閾値に達するか自社ウェブサイトで販売する場合は個別登録が必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 韓国企業なしでオンライン販売業者として登録できますか？</p><p class="faq-a">A. 外国企業は登録できますが、通常は先に韓国の事業者登録が必要です。代理人または代理機関が支援できます。</p></div></div><div class="cta-box"><h3>韓国でオンラインビジネスを登録しましょう</h3><p>YouSun Administrative Agencyが通信販売登録とECコンプライアンスを担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>通信販売業とは？</li><li>登録が必要な対象</li><li>必要書類</li><li>申請手続き</li><li>主な消費者保護義務</li><li>外国事業者</li><li>よくある質問</li></ol></div><h2>1. 通信販売業とは？</h2><p>韓国では、オンライン、電話、テレビショッピング、またはカタログによる商品・サービスの販売は<strong>通信販売業（통신판매업）</strong>に分類され、EC消費者保護法に基づき<strong>公正取引委員会（FTC / 공정거래위원회）</strong>への登録が必要です。</p><h2>2. 登録が必要な対象</h2><ul><li>韓国でオンライン販売を行うすべての事業者（国内・外国を問わず）</li><li>免除：年間取引件数50件未満かつ年間売上2,400万ウォン未満の事業者</li><li>マーケットプレイス出品者：プラットフォームがマスター登録を行う；プラットフォーム上の個人出品者は別途登録不要な場合が多い</li></ul><h2>3. 必要書類</h2><ul><li>通信販売業登録申請書</li><li>事業者登録証</li><li>事業代表者の身分証明</li><li>決済処理用銀行口座情報</li><li>エスクローまたは支払保証契約書（エスクロー決済の場合）</li></ul><h2>4. 申請手続き</h2><ol><li>まず地方税務署で事業者登録（사업자등록）を行う</li><li>区役所（시/군/구청）に通信販売登録を提出する</li><li>提出時に登録が即座に完了する</li><li>すべての販売ページに登録番号を表示する</li></ol><h2>5. 主な消費者保護義務</h2><ul><li>ウェブサイトに事業者登録番号と通信販売登録番号を表示する</li><li>明確な商品情報と価格を提供する</li><li>配達後7日以内の返品を受け付ける（クーリングオフ期間）</li><li>返品受領後3営業日以内に返金を処理する</li></ul><h2>6. 外国事業者</h2><ul><li>韓国消費者に販売する外国企業は韓国で登録する必要がある</li><li>韓国に拠点がない場合は韓国の代理人を指定する必要がある</li><li>消費者保護法は会社の出身地に関わらず適用される</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. CoupangやNaver Smart Storeで販売するには通信販売登録が必要ですか？</p><p class="faq-a">A. マーケットプレイスプラットフォームでは、通常プラットフォームがマスター登録を保持します。ただし、閾値に達するか自社ウェブサイトで販売する場合は個別登録が必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 韓国企業なしでオンライン販売業者として登録できますか？</p><p class="faq-a">A. 外国企業は登録できますが、通常は先に韓国の事業者登録が必要です。代理人または代理機関が支援できます。</p></div></div><div class="cta-box"><h3>韓国でオンラインビジネスを登録しましょう</h3><p>YouSun Administrative Agencyが通信販売登録とECコンプライアンスを担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 45: health-functional-food-sales-registration-guide ─────────────
@@ -2827,30 +2827,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Health Functional Food Sales Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Health Functional Food Importer & Sales Registration 2026 — MFDS Requirements',
-    metaDescription: 'How to register a health functional food sales business in Korea. MFDS registration, labeling requirements, import procedures. Free consultation.',
+    metaDescription: 'How to register a health functional food sales business in Korea. MFDS registration, labeling requirements, import procedures.',
     category: 'Food',
     excerpt: 'A guide to health functional food (건강기능식품) sales business registration in Korea — MFDS requirements, labeling rules, import procedures, and compliance.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Are Health Functional Foods?</li><li>Types of Businesses</li><li>MFDS Registration Requirements</li><li>Labeling Requirements</li><li>Import Procedure</li><li>Required Documents</li><li>FAQ</li></ol></div><h2>1. What Are Health Functional Foods?</h2><p>Health functional foods (건강기능식품) are products with scientifically proven health benefits beyond basic nutrition. In Korea, they are strictly regulated by the <strong>Ministry of Food and Drug Safety (MFDS / 식품의약품안전처)</strong> under the Health Functional Food Act.</p><h2>2. Types of Businesses</h2><ul><li><strong>Manufacturer (제조업):</strong> produces health functional foods — requires GMP facility certification</li><li><strong>Importer/Responsible Distributor (수입판매업):</strong> imports and sells — requires MFDS product notification/approval per product</li><li><strong>Sales business (판매업):</strong> sells domestically manufactured or approved imported products</li></ul><p>Which category you fall into decides the entire registration path, and the facility and personnel requirements differ sharply between them. Our <a href="/en/services/health-food">health functional food business registration service</a> sets out the requirements for each type. If you also manufacture or process food in Korea, <a href="/en/services/haccp">food permits and HACCP certification</a> apply in parallel.</p><h2>3. MFDS Registration Requirements</h2><ul><li>Business registration with MFDS before selling</li><li>For manufacturers: GMP certification of the production facility</li><li>For importers: each product batch must pass import inspection</li><li>Functional ingredient claims must be pre-approved by MFDS</li></ul><h2>4. Labeling Requirements</h2><ul><li>Korean label required for all products sold in Korea</li><li>Must include: product name, ingredients, functional claims (MFDS-approved text only), serving size, expiry date, manufacturer/importer info</li><li>Unapproved health claims are prohibited and can result in product seizure</li></ul><h2>5. Import Procedure</h2><ol><li>Obtain MFDS product notification or approval before first import</li><li>Each import shipment goes through Customs and MFDS import inspection</li><li>Apply Korean labels before distribution</li><li>Maintain batch records for 3 years minimum</li></ol><h2>6. Required Documents</h2><ul><li>Health functional food business registration application</li><li>Business registration certificate</li><li>Product specification sheet</li><li>Certificate of Analysis (for each batch)</li><li>Country of origin documentation</li><li>MFDS product notification or approval certificate</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can I sell imported health functional foods on Korean e-commerce platforms?</p><p class="faq-a">A. Yes, but each product must have MFDS approval or notification, Korean labeling, and the business must be registered as a health functional food sales business.</p></div><div class="faq-item"><p class="faq-q">Q. Are dietary supplements the same as health functional foods in Korea?</p><p class="faq-a">A. Not necessarily. Only products officially classified as 건강기능식품 by MFDS can make functional claims. Ordinary supplements sold without MFDS classification cannot make health benefit claims.</p></div></div><div class="cta-box"><h3>Register Your Health Functional Food Business</h3><p>YouSun Administrative Agency handles MFDS registration and compliance for health functional food businesses. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Are Health Functional Foods?</li><li>Types of Businesses</li><li>MFDS Registration Requirements</li><li>Labeling Requirements</li><li>Import Procedure</li><li>Required Documents</li><li>FAQ</li></ol></div><h2>1. What Are Health Functional Foods?</h2><p>Health functional foods (건강기능식품) are products with scientifically proven health benefits beyond basic nutrition. In Korea, they are strictly regulated by the <strong>Ministry of Food and Drug Safety (MFDS / 식품의약품안전처)</strong> under the Health Functional Food Act.</p><h2>2. Types of Businesses</h2><ul><li><strong>Manufacturer (제조업):</strong> produces health functional foods — requires GMP facility certification</li><li><strong>Importer/Responsible Distributor (수입판매업):</strong> imports and sells — requires MFDS product notification/approval per product</li><li><strong>Sales business (판매업):</strong> sells domestically manufactured or approved imported products</li></ul><p>Which category you fall into decides the entire registration path, and the facility and personnel requirements differ sharply between them. Our <a href="/en/services/health-food">health functional food business registration service</a> sets out the requirements for each type. If you also manufacture or process food in Korea, <a href="/en/services/haccp">food permits and HACCP certification</a> apply in parallel.</p><h2>3. MFDS Registration Requirements</h2><ul><li>Business registration with MFDS before selling</li><li>For manufacturers: GMP certification of the production facility</li><li>For importers: each product batch must pass import inspection</li><li>Functional ingredient claims must be pre-approved by MFDS</li></ul><h2>4. Labeling Requirements</h2><ul><li>Korean label required for all products sold in Korea</li><li>Must include: product name, ingredients, functional claims (MFDS-approved text only), serving size, expiry date, manufacturer/importer info</li><li>Unapproved health claims are prohibited and can result in product seizure</li></ul><h2>5. Import Procedure</h2><ol><li>Obtain MFDS product notification or approval before first import</li><li>Each import shipment goes through Customs and MFDS import inspection</li><li>Apply Korean labels before distribution</li><li>Maintain batch records for 3 years minimum</li></ol><h2>6. Required Documents</h2><ul><li>Health functional food business registration application</li><li>Business registration certificate</li><li>Product specification sheet</li><li>Certificate of Analysis (for each batch)</li><li>Country of origin documentation</li><li>MFDS product notification or approval certificate</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can I sell imported health functional foods on Korean e-commerce platforms?</p><p class="faq-a">A. Yes, but each product must have MFDS approval or notification, Korean labeling, and the business must be registered as a health functional food sales business.</p></div><div class="faq-item"><p class="faq-q">Q. Are dietary supplements the same as health functional foods in Korea?</p><p class="faq-a">A. Not necessarily. Only products officially classified as 건강기능식품 by MFDS can make functional claims. Ordinary supplements sold without MFDS classification cannot make health benefit claims.</p></div></div><div class="cta-box"><h3>Register Your Health Functional Food Business</h3><p>YouSun Administrative Agency handles MFDS registration and compliance for health functional food businesses.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'health-functional-food-sales-registration-guide',
     locale: 'zh',
     title: '韩国健康功能食品销售业者登记指南2026',
     metaTitle: '韩国健康功能食品销售登记2026 — 申请要求',
-    metaDescription: '如何在韩国登记健康功能食品销售业务。MFDS登记、标签要求、进口程序及合规清单。免费初次咨询。本文依次说明业务类型、MFDS登记要求、标签要求、进口流程，可按步骤逐项确认。',
+    metaDescription: '如何在韩国登记健康功能食品销售业务。MFDS登记、标签要求、进口程序及合规清单。初次咨询。本文依次说明业务类型、MFDS登记要求、标签要求、进口流程，可按步骤逐项确认。',
     category: '食品',
     excerpt: '韩国健康功能食品（건강기능식품）销售业者登记指南，包括MFDS要求、标签规定、进口程序及合规须知。',
-    content: `<div class="toc"><p>目录</p><ol><li>什么是健康功能食品？</li><li>业务类型</li><li>MFDS登记要求</li><li>标签要求</li><li>进口流程</li><li>所需材料</li><li>常见问题</li></ol></div><h2>1. 什么是健康功能食品？</h2><p>健康功能食品（건강기능식품）是具有超越基础营养的科学证实健康功效的产品。在韩国，受<strong>食品药品安全处（MFDS/식품의약품안전처）</strong>依据《健康功能食品法》严格监管。</p><h2>2. 业务类型</h2><ul><li><strong>制造业（제조업）：</strong>生产健康功能食品，须获得GMP设施认证</li><li><strong>进口/责任销售业（수입판매업）：</strong>进口和销售，须按产品向MFDS申报/获批</li><li><strong>销售业（판매업）：</strong>销售国产或经批准的进口产品</li></ul><h2>3. MFDS登记要求</h2><ul><li>销售前须向MFDS进行业务登记</li><li>制造商：须获得生产设施GMP认证</li><li>进口商：每批产品须通过进口检查</li><li>功能成分声明须事先获得MFDS批准</li></ul><h2>4. 标签要求</h2><ul><li>在韩国销售的所有产品须有韩文标签</li><li>须包括：产品名称、成分、功能声明（仅限MFDS批准的文字）、每份用量、有效期、制造商/进口商信息</li><li>禁止未经批准的健康声明，违规可能导致产品被没收</li></ul><h2>5. 进口流程</h2><ol><li>首次进口前获得MFDS产品申报或批准</li><li>每批进口货物须通过海关和MFDS进口检查</li><li>在流通前粘贴韩文标签</li><li>至少保存3年批次记录</li></ol><h2>6. 所需材料</h2><ul><li>健康功能食品业务登记申请表</li><li>营业执照</li><li>产品规格表</li><li>检验报告（每批）</li><li>原产地证明文件</li><li>MFDS产品申报或批准证书</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 我能在韩国电商平台上销售进口健康功能食品吗？</p><p class="faq-a">A. 可以，但每种产品须获得MFDS批准或申报、韩文标签，且业务须登记为健康功能食品销售业者。</p></div><div class="faq-item"><p class="faq-q">Q. 膳食补充剂与健康功能食品在韩国是同一概念吗？</p><p class="faq-a">A. 不一定。只有MFDS正式分类为건강기능식품的产品才能做出功能声明。未经MFDS分类的普通补充剂不得声称健康功效。</p></div></div><div class="cta-box"><h3>登记健康功能食品业务</h3><p>YouSun Administrative Agency代办健康功能食品业务MFDS登记及合规服务。免费初次咨询。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>什么是健康功能食品？</li><li>业务类型</li><li>MFDS登记要求</li><li>标签要求</li><li>进口流程</li><li>所需材料</li><li>常见问题</li></ol></div><h2>1. 什么是健康功能食品？</h2><p>健康功能食品（건강기능식품）是具有超越基础营养的科学证实健康功效的产品。在韩国，受<strong>食品药品安全处（MFDS/식품의약품안전처）</strong>依据《健康功能食品法》严格监管。</p><h2>2. 业务类型</h2><ul><li><strong>制造业（제조업）：</strong>生产健康功能食品，须获得GMP设施认证</li><li><strong>进口/责任销售业（수입판매업）：</strong>进口和销售，须按产品向MFDS申报/获批</li><li><strong>销售业（판매업）：</strong>销售国产或经批准的进口产品</li></ul><h2>3. MFDS登记要求</h2><ul><li>销售前须向MFDS进行业务登记</li><li>制造商：须获得生产设施GMP认证</li><li>进口商：每批产品须通过进口检查</li><li>功能成分声明须事先获得MFDS批准</li></ul><h2>4. 标签要求</h2><ul><li>在韩国销售的所有产品须有韩文标签</li><li>须包括：产品名称、成分、功能声明（仅限MFDS批准的文字）、每份用量、有效期、制造商/进口商信息</li><li>禁止未经批准的健康声明，违规可能导致产品被没收</li></ul><h2>5. 进口流程</h2><ol><li>首次进口前获得MFDS产品申报或批准</li><li>每批进口货物须通过海关和MFDS进口检查</li><li>在流通前粘贴韩文标签</li><li>至少保存3年批次记录</li></ol><h2>6. 所需材料</h2><ul><li>健康功能食品业务登记申请表</li><li>营业执照</li><li>产品规格表</li><li>检验报告（每批）</li><li>原产地证明文件</li><li>MFDS产品申报或批准证书</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 我能在韩国电商平台上销售进口健康功能食品吗？</p><p class="faq-a">A. 可以，但每种产品须获得MFDS批准或申报、韩文标签，且业务须登记为健康功能食品销售业者。</p></div><div class="faq-item"><p class="faq-q">Q. 膳食补充剂与健康功能食品在韩国是同一概念吗？</p><p class="faq-a">A. 不一定。只有MFDS正式分类为건강기능식품的产品才能做出功能声明。未经MFDS分类的普通补充剂不得声称健康功效。</p></div></div><div class="cta-box"><h3>登记健康功能食品业务</h3><p>YouSun Administrative Agency代办健康功能食品业务MFDS登记及合规服务。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'health-functional-food-sales-registration-guide',
     locale: 'ja',
     title: '韓国健康機能食品販売業登録ガイド2026',
     metaTitle: '韓国健康機能食品販売登録2026 — 申請要件',
-    metaDescription: '韓国で健康機能食品販売業を登録する方法。MFDS登録、ラベリング要件、輸入手続き、コンプライアンスチェックリスト。行政士による無料初回相談。',
+    metaDescription: '韓国で健康機能食品販売業を登録する方法。MFDS登録、ラベリング要件、輸入手続き、コンプライアンスチェックリスト。行政士による初回相談。',
     category: '食品',
     excerpt: '韓国の健康機能食品（건강기능식품）販売業登録ガイド — MFDS要件、ラベリングルール、輸入手続き、コンプライアンスを解説します。',
-    content: `<div class="toc"><p>目次</p><ol><li>健康機能食品とは？</li><li>事業の種類</li><li>MFDS登録要件</li><li>ラベリング要件</li><li>輸入手続き</li><li>必要書類</li><li>よくある質問</li></ol></div><h2>1. 健康機能食品とは？</h2><p>健康機能食品（건강기능식품）は、基本的な栄養を超える科学的に証明された健康上のメリットを持つ製品です。韓国では、健康機能食品法に基づき<strong>食品医薬品安全処（MFDS / 식품의약품안전처）</strong>によって厳しく規制されています。</p><h2>2. 事業の種類</h2><ul><li><strong>製造業（제조업）：</strong>健康機能食品を製造する — GMP施設認証が必要</li><li><strong>輸入業/責任販売業（수입판매업）：</strong>輸入・販売する — 製品ごとにMFDS届出/承認が必要</li><li><strong>販売業（판매업）：</strong>国内製造または承認済み輸入製品を販売する</li></ul><h2>3. MFDS登録要件</h2><ul><li>販売前にMFDSへの事業登録が必要</li><li>製造業者の場合：生産施設のGMP認証</li><li>輸入業者の場合：各製品ロットが輸入検査に合格する必要がある</li><li>機能性成分の表示はMFDSによる事前承認が必要</li></ul><h2>4. ラベリング要件</h2><ul><li>韓国で販売されるすべての製品に韓国語ラベルが必要</li><li>必須記載事項：製品名、成分、機能性表示（MFDS承認テキストのみ）、摂取量、有効期限、製造業者/輸入業者情報</li><li>未承認の健康表示は禁止され、製品の没収につながる場合がある</li></ul><h2>5. 輸入手続き</h2><ol><li>初回輸入前にMFDS製品届出または承認を取得する</li><li>各輸入ロットは税関とMFDS輸入検査を通過する必要がある</li><li>流通前に韓国語ラベルを貼付する</li><li>ロット記録を最低3年間保管する</li></ol><h2>6. 必要書類</h2><ul><li>健康機能食品事業登録申請書</li><li>事業者登録証</li><li>製品仕様書</li><li>試験成績書（各ロット）</li><li>原産地証明書類</li><li>MFDS製品届出または承認証明書</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 韓国のECプラットフォームで輸入健康機能食品を販売できますか？</p><p class="faq-a">A. はい。ただし、各製品にMFDS承認または届出、韓国語ラベルが必要で、事業は健康機能食品販売業として登録する必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 韓国でダイエタリーサプリメントと健康機能食品は同じですか？</p><p class="faq-a">A. 必ずしも同じではありません。MFDSによって正式に건강기능식품として分類された製品のみが機能性表示を行えます。MFDS分類のない通常のサプリメントは健康上のメリットを主張できません。</p></div></div><div class="cta-box"><h3>健康機能食品事業を登録しましょう</h3><p>YouSun Administrative Agencyが健康機能食品事業のMFDS登録とコンプライアンスを担当します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>健康機能食品とは？</li><li>事業の種類</li><li>MFDS登録要件</li><li>ラベリング要件</li><li>輸入手続き</li><li>必要書類</li><li>よくある質問</li></ol></div><h2>1. 健康機能食品とは？</h2><p>健康機能食品（건강기능식품）は、基本的な栄養を超える科学的に証明された健康上のメリットを持つ製品です。韓国では、健康機能食品法に基づき<strong>食品医薬品安全処（MFDS / 식품의약품안전처）</strong>によって厳しく規制されています。</p><h2>2. 事業の種類</h2><ul><li><strong>製造業（제조업）：</strong>健康機能食品を製造する — GMP施設認証が必要</li><li><strong>輸入業/責任販売業（수입판매업）：</strong>輸入・販売する — 製品ごとにMFDS届出/承認が必要</li><li><strong>販売業（판매업）：</strong>国内製造または承認済み輸入製品を販売する</li></ul><h2>3. MFDS登録要件</h2><ul><li>販売前にMFDSへの事業登録が必要</li><li>製造業者の場合：生産施設のGMP認証</li><li>輸入業者の場合：各製品ロットが輸入検査に合格する必要がある</li><li>機能性成分の表示はMFDSによる事前承認が必要</li></ul><h2>4. ラベリング要件</h2><ul><li>韓国で販売されるすべての製品に韓国語ラベルが必要</li><li>必須記載事項：製品名、成分、機能性表示（MFDS承認テキストのみ）、摂取量、有効期限、製造業者/輸入業者情報</li><li>未承認の健康表示は禁止され、製品の没収につながる場合がある</li></ul><h2>5. 輸入手続き</h2><ol><li>初回輸入前にMFDS製品届出または承認を取得する</li><li>各輸入ロットは税関とMFDS輸入検査を通過する必要がある</li><li>流通前に韓国語ラベルを貼付する</li><li>ロット記録を最低3年間保管する</li></ol><h2>6. 必要書類</h2><ul><li>健康機能食品事業登録申請書</li><li>事業者登録証</li><li>製品仕様書</li><li>試験成績書（各ロット）</li><li>原産地証明書類</li><li>MFDS製品届出または承認証明書</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 韓国のECプラットフォームで輸入健康機能食品を販売できますか？</p><p class="faq-a">A. はい。ただし、各製品にMFDS承認または届出、韓国語ラベルが必要で、事業は健康機能食品販売業として登録する必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 韓国でダイエタリーサプリメントと健康機能食品は同じですか？</p><p class="faq-a">A. 必ずしも同じではありません。MFDSによって正式に건강기능식품として分類された製品のみが機能性表示を行えます。MFDS分類のない通常のサプリメントは健康上のメリットを主張できません。</p></div></div><div class="cta-box"><h3>健康機能食品事業を登録しましょう</h3><p>YouSun Administrative Agencyが健康機能食品事業のMFDS登録とコンプライアンスを担当します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 46: yongdo-byeongyeong-haengjengsa ──────────────────────────────
@@ -2862,7 +2862,7 @@ const blogData: BlogI18n[] = [
     metaDescription: 'Korea building usage change (용도변경) — permit vs. notification decision, step-by-step procedure, common cases, fees, and timeline.',
     category: 'Building & Property',
     excerpt: 'Korea building usage change (용도변경) guide — permit vs. notification, procedure, common cases, and fees handled by licensed administrative agents.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Why You Need an Administrative Agent</li><li>Our Service Scope</li><li>Step-by-Step Procedure</li><li>Common Cases</li><li>Fees & Timeline</li><li>FAQ</li></ol></div><h2>1. Why You Need an Administrative Agent</h2><p>Building usage change (용도변경) in Korea sits at the intersection of the Building Act, National Land Planning Act, Fire Services Act, and Parking Lot Act. Common pitfalls include:</p><ul><li><strong>Permit vs. notification decision:</strong> Misclassifying the usage group direction risks unlicensed operation</li><li><strong>Inter-department coordination:</strong> Fire, environment, and traffic reviews must run simultaneously</li><li><strong>Re-applications after rejection:</strong> Unknown supplementary requirements cause repeated rejections</li><li><strong>Owner/tenant consent:</strong> Frequently missed in document preparation</li></ul><h2>2. Our Service Scope</h2><ul><li>Pre-assessment of permit, notification, or record-change requirement</li><li>Review of building register and land use plan certificate</li><li>Coordination with architects for drawing preparation</li><li>Fire safety certificate application support</li><li>Submission to district office and attendance at site inspections</li><li>Post-completion certificate follow-through</li></ul><h2>3. Step-by-Step Procedure</h2><ol><li>Free consultation — current use and change objective</li><li>Permit type decision — permit / notification / record change</li><li>Document preparation — architect assignment, document collection</li><li>Submission and coordination — district office submission + fire/traffic reviews</li><li>Site inspection support — responding to inspector visit</li><li>Certificate receipt — permit or notification certificate delivered</li></ol><h2>4. Common Cases</h2><table><thead><tr><th>Before</th><th>After</th><th>Key Review</th></tr></thead><tbody><tr><td>Detached house</td><td>Neighborhood facility (Class 1)</td><td>Parking & fire standards</td></tr><tr><td>Restaurant</td><td>Academy (education facility)</td><td>Permit + academy registration</td></tr><tr><td>Warehouse/factory</td><td>Retail facility</td><td>Fire & energy standards</td></tr><tr><td>Officetel</td><td>Office facility</td><td>Parking & elevator standards</td></tr></tbody></table><h2>5. Fees & Timeline</h2><ul><li>Agency fee: quoted after consultation (varies by scale and type)</li><li>Processing time: varies by the competent authority; confirm individually</li><li>Architect drawing fee: separate, varies by scale</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a tenant apply without the building owner?</p><p class="faq-a">A. Yes. With the owner's written consent attached, the application can be filed in the tenant's name.</p></div><div class="faq-item"><p class="faq-q">Q. How long does usage change for an academy take?</p><p class="faq-a">A. Realistically 2–3 months for permit, 3–4 months including fire safety certification.</p></div><div class="faq-item"><p class="faq-q">Q. Can you help if a previous application was rejected?</p><p class="faq-a">A. Yes. We analyze the rejection reason, prepare supplementary documents, and manage the re-application.</p></div></div><div class="cta-box"><h3>Building Usage Change Consultation</h3><p>YouSun Administrative Agency handles building usage change from permit to completion, start to finish. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Why You Need an Administrative Agent</li><li>Our Service Scope</li><li>Step-by-Step Procedure</li><li>Common Cases</li><li>Fees & Timeline</li><li>FAQ</li></ol></div><h2>1. Why You Need an Administrative Agent</h2><p>Building usage change (용도변경) in Korea sits at the intersection of the Building Act, National Land Planning Act, Fire Services Act, and Parking Lot Act. Common pitfalls include:</p><ul><li><strong>Permit vs. notification decision:</strong> Misclassifying the usage group direction risks unlicensed operation</li><li><strong>Inter-department coordination:</strong> Fire, environment, and traffic reviews must run simultaneously</li><li><strong>Re-applications after rejection:</strong> Unknown supplementary requirements cause repeated rejections</li><li><strong>Owner/tenant consent:</strong> Frequently missed in document preparation</li></ul><h2>2. Our Service Scope</h2><ul><li>Pre-assessment of permit, notification, or record-change requirement</li><li>Review of building register and land use plan certificate</li><li>Coordination with architects for drawing preparation</li><li>Fire safety certificate application support</li><li>Submission to district office and attendance at site inspections</li><li>Post-completion certificate follow-through</li></ul><h2>3. Step-by-Step Procedure</h2><ol><li>Consultation — current use and change objective</li><li>Permit type decision — permit / notification / record change</li><li>Document preparation — architect assignment, document collection</li><li>Submission and coordination — district office submission + fire/traffic reviews</li><li>Site inspection support — responding to inspector visit</li><li>Certificate receipt — permit or notification certificate delivered</li></ol><h2>4. Common Cases</h2><table><thead><tr><th>Before</th><th>After</th><th>Key Review</th></tr></thead><tbody><tr><td>Detached house</td><td>Neighborhood facility (Class 1)</td><td>Parking & fire standards</td></tr><tr><td>Restaurant</td><td>Academy (education facility)</td><td>Permit + academy registration</td></tr><tr><td>Warehouse/factory</td><td>Retail facility</td><td>Fire & energy standards</td></tr><tr><td>Officetel</td><td>Office facility</td><td>Parking & elevator standards</td></tr></tbody></table><h2>5. Fees & Timeline</h2><ul><li>Agency fee: quoted after consultation (varies by scale and type)</li><li>Processing time: varies by the competent authority; confirm individually</li><li>Architect drawing fee: separate, varies by scale</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a tenant apply without the building owner?</p><p class="faq-a">A. Yes. With the owner's written consent attached, the application can be filed in the tenant's name.</p></div><div class="faq-item"><p class="faq-q">Q. How long does usage change for an academy take?</p><p class="faq-a">A. Realistically 2–3 months for permit, 3–4 months including fire safety certification.</p></div><div class="faq-item"><p class="faq-q">Q. Can you help if a previous application was rejected?</p><p class="faq-a">A. Yes. We analyze the rejection reason, prepare supplementary documents, and manage the re-application.</p></div></div><div class="cta-box"><h3>Building Usage Change Consultation</h3><p>YouSun Administrative Agency handles building usage change from permit to completion, start to finish.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'yongdo-byeongyeong-haengjengsa',
@@ -2872,7 +2872,7 @@ const blogData: BlogI18n[] = [
     metaDescription: '韩国建筑物用途变更（용도변경）— 许可与申报判断、逐步流程、常见案例、费用及时间。由持证行政士全程代理。本文依次说明为什么需要行政士代理、服务范围、逐步流程、常见案例，可按步骤逐项确认。',
     category: '建筑·设施',
     excerpt: '韩国建筑物用途变更指南 — 许可与申报区分、流程、常见案例及费用，由持证行政士全程代理。',
-    content: `<div class="toc"><p>目录</p><ol><li>为什么需要行政士代理</li><li>服务范围</li><li>逐步流程</li><li>常见案例</li><li>费用及时间</li><li>常见问题</li></ol></div><h2>1. 为什么需要行政士代理</h2><p>韩国建筑物用途变更（용도변경）涉及《建筑法》、《国土计划法》、《消防法》及《停车场法》等多部法律交叉。常见难点包括：</p><ul><li><strong>许可 vs 申报判断：</strong>用途分组移动方向判断错误，存在无证经营风险</li><li><strong>跨部门协商：</strong>消防、环境、交通须同步协商</li><li><strong>驳回后重新申请：</strong>不了解补充事项导致反复驳回</li><li><strong>所有人·承租人同意：</strong>文件整理中常被忽视</li></ul><h2>2. 服务范围</h2><ul><li>预判许可、申报或记载事项变更类型</li><li>审查建筑台账及土地利用计划确认书</li><li>联络建筑师协助图纸绘制</li><li>消防完备证明申请陪同</li><li>向辖区区厅提交并陪同现场确认</li><li>竣工后完结支持</li></ul><h2>3. 逐步流程</h2><ol><li>免费咨询 — 了解现有用途及变更目的</li><li>确定许可类型 — 许可/申报/记载变更</li><li>准备文件 — 指定建筑师，收集材料</li><li>提交及协商 — 区厅提交 + 消防·交通协商</li><li>陪同现场确认 — 配合负责公务员到访</li><li>领取许可证 — 完成后交付许可证</li></ol><h2>4. 常见案例</h2><table><thead><tr><th>变更前</th><th>变更后</th><th>主要审查事项</th></tr></thead><tbody><tr><td>独栋住宅</td><td>第一种近邻生活设施</td><td>停车·消防标准</td></tr><tr><td>一般餐厅</td><td>学院（教育研究设施）</td><td>许可+学院登记联动</td></tr><tr><td>仓库·工厂</td><td>销售设施</td><td>消防·能源标准</td></tr><tr><td>公寓式办公室</td><td>业务设施</td><td>停车·电梯标准</td></tr></tbody></table><h2>5. 费用及时间</h2><ul><li>代理费用：咨询后报价（因规模·类型而异）</li><li>处理时间：因主管机关而异，需个别确认</li><li>建筑师图纸费用：另计，因规模而异</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 承租人可以申请吗？</p><p class="faq-a">A. 可以。附上建筑所有人同意书，可以承租人名义申请。</p></div><div class="faq-item"><p class="faq-q">Q. 学院开设的用途变更需要多长时间？</p><p class="faq-a">A. 许可基准约2~3个月，含消防完备证明约3~4个月。</p></div><div class="faq-item"><p class="faq-q">Q. 之前被驳回，还能帮忙吗？</p><p class="faq-a">A. 可以。我们分析驳回原因，补充材料后进行重新申请。</p></div></div><div class="cta-box"><h3>建筑物用途变更咨询</h3><p>YouSun Administrative Agency从用途变更许可到完成提供全程代理服务。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>为什么需要行政士代理</li><li>服务范围</li><li>逐步流程</li><li>常见案例</li><li>费用及时间</li><li>常见问题</li></ol></div><h2>1. 为什么需要行政士代理</h2><p>韩国建筑物用途变更（용도변경）涉及《建筑法》、《国土计划法》、《消防法》及《停车场法》等多部法律交叉。常见难点包括：</p><ul><li><strong>许可 vs 申报判断：</strong>用途分组移动方向判断错误，存在无证经营风险</li><li><strong>跨部门协商：</strong>消防、环境、交通须同步协商</li><li><strong>驳回后重新申请：</strong>不了解补充事项导致反复驳回</li><li><strong>所有人·承租人同意：</strong>文件整理中常被忽视</li></ul><h2>2. 服务范围</h2><ul><li>预判许可、申报或记载事项变更类型</li><li>审查建筑台账及土地利用计划确认书</li><li>联络建筑师协助图纸绘制</li><li>消防完备证明申请陪同</li><li>向辖区区厅提交并陪同现场确认</li><li>竣工后完结支持</li></ul><h2>3. 逐步流程</h2><ol><li>咨询 — 了解现有用途及变更目的</li><li>确定许可类型 — 许可/申报/记载变更</li><li>准备文件 — 指定建筑师，收集材料</li><li>提交及协商 — 区厅提交 + 消防·交通协商</li><li>陪同现场确认 — 配合负责公务员到访</li><li>领取许可证 — 完成后交付许可证</li></ol><h2>4. 常见案例</h2><table><thead><tr><th>变更前</th><th>变更后</th><th>主要审查事项</th></tr></thead><tbody><tr><td>独栋住宅</td><td>第一种近邻生活设施</td><td>停车·消防标准</td></tr><tr><td>一般餐厅</td><td>学院（教育研究设施）</td><td>许可+学院登记联动</td></tr><tr><td>仓库·工厂</td><td>销售设施</td><td>消防·能源标准</td></tr><tr><td>公寓式办公室</td><td>业务设施</td><td>停车·电梯标准</td></tr></tbody></table><h2>5. 费用及时间</h2><ul><li>代理费用：咨询后报价（因规模·类型而异）</li><li>处理时间：因主管机关而异，需个别确认</li><li>建筑师图纸费用：另计，因规模而异</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 承租人可以申请吗？</p><p class="faq-a">A. 可以。附上建筑所有人同意书，可以承租人名义申请。</p></div><div class="faq-item"><p class="faq-q">Q. 学院开设的用途变更需要多长时间？</p><p class="faq-a">A. 许可基准约2~3个月，含消防完备证明约3~4个月。</p></div><div class="faq-item"><p class="faq-q">Q. 之前被驳回，还能帮忙吗？</p><p class="faq-a">A. 可以。我们分析驳回原因，补充材料后进行重新申请。</p></div></div><div class="cta-box"><h3>建筑物用途变更咨询</h3><p>YouSun Administrative Agency从用途变更许可到完成提供全程代理服务。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'yongdo-byeongyeong-haengjengsa',
@@ -2882,7 +2882,7 @@ const blogData: BlogI18n[] = [
     metaDescription: '韓国建物用途変更（용도변경）— 許可と届出の判断、手順、よくある事例、費用・期間。行政士が最初から最後まで代行します。行政士代行が必要な理由・サービス範囲・手順ステップ・費用・期間まで順に確認できます。',
     category: '建築・施設',
     excerpt: '韓国建物用途変更ガイド — 許可と届出の区分、手順、よくある事例、費用。行政士による全行程代行。',
-    content: `<div class="toc"><p>目次</p><ol><li>行政士代行が必要な理由</li><li>サービス範囲</li><li>手順ステップ</li><li>よくある事例</li><li>費用・期間</li><li>よくある質問</li></ol></div><h2>1. 行政士代行が必要な理由</h2><p>韓国の建物用途変更（용도변경）は建築法・国土計画法・消防法・駐車場法が交差します。実務でよく詰まる点は以下のとおりです。</p><ul><li><strong>許可 vs 届出の判断：</strong>用途グループの移動方向を誤ると無許可営業のリスク</li><li><strong>他部署との協議：</strong>消防・環境・交通を同時に協議する必要がある</li><li><strong>不受理後の再申請：</strong>補完事項を把握していないと繰り返し不受理になる</li><li><strong>所有者・賃借人の同意：</strong>書類作成で見落とすケースが多い</li></ul><h2>2. サービス範囲</h2><ul><li>許可・届出・記載事項変更の事前判断</li><li>建物登記簿・土地利用計画確認書のレビュー</li><li>建築士と連携した図面作成支援</li><li>消防完備証明申請の同行</li><li>管轄区役所への提出・現場確認対応</li><li>使用承認（竣工）後の完結支援</li></ul><h2>3. 手順ステップ</h2><ol><li>無料相談 — 現在の建物用途・変更目的の把握</li><li>許可類型の決定 — 許可/届出/記載変更の確定</li><li>書類準備 — 建築士選任、書類収集</li><li>提出・協議 — 区役所提出 + 消防・交通協議</li><li>現場確認同行 — 担当公務員の訪問対応</li><li>許可証受領 — 完了後に登録証・許可証を交付</li></ol><h2>4. よくある事例</h2><table><thead><tr><th>変更前</th><th>変更後</th><th>主な審査事項</th></tr></thead><tbody><tr><td>一戸建て住宅</td><td>第1種近隣生活施設</td><td>駐車・消防基準</td></tr><tr><td>一般飲食店</td><td>学院（教育研究施設）</td><td>許可+学院登録と連携</td></tr><tr><td>倉庫・工場</td><td>販売施設</td><td>消防・エネルギー基準</td></tr><tr><td>オフィステル</td><td>業務施設</td><td>駐車・エレベーター基準</td></tr></tbody></table><h2>5. 費用・期間</h2><ul><li>代行費用：相談後にご案内（規模・種類による）</li><li>処理期間：管轄機関により異なるため個別確認が必要</li><li>建築士図面費用：規模によって別途</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 賃借人が申請できますか？</p><p class="faq-a">A. 可能です。建物所有者の同意書を添付すれば、賃借人名義で申請できます。</p></div><div class="faq-item"><p class="faq-q">Q. 学院開設のための用途変更はどれくらいかかりますか？</p><p class="faq-a">A. 許可基準で2〜3ヶ月、消防完備を含めると3〜4ヶ月が現実的です。</p></div><div class="faq-item"><p class="faq-q">Q. 不受理歴がある場合も対応できますか？</p><p class="faq-a">A. はい。不受理の原因を分析し、補完して再申請する工程を専任で担当します。</p></div></div><div class="cta-box"><h3>建物用途変更のご相談</h3><p>YouSun Administrative Agencyが建物用途変更の許可から完了まで、ワンストップで代行します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>行政士代行が必要な理由</li><li>サービス範囲</li><li>手順ステップ</li><li>よくある事例</li><li>費用・期間</li><li>よくある質問</li></ol></div><h2>1. 行政士代行が必要な理由</h2><p>韓国の建物用途変更（용도변경）は建築法・国土計画法・消防法・駐車場法が交差します。実務でよく詰まる点は以下のとおりです。</p><ul><li><strong>許可 vs 届出の判断：</strong>用途グループの移動方向を誤ると無許可営業のリスク</li><li><strong>他部署との協議：</strong>消防・環境・交通を同時に協議する必要がある</li><li><strong>不受理後の再申請：</strong>補完事項を把握していないと繰り返し不受理になる</li><li><strong>所有者・賃借人の同意：</strong>書類作成で見落とすケースが多い</li></ul><h2>2. サービス範囲</h2><ul><li>許可・届出・記載事項変更の事前判断</li><li>建物登記簿・土地利用計画確認書のレビュー</li><li>建築士と連携した図面作成支援</li><li>消防完備証明申請の同行</li><li>管轄区役所への提出・現場確認対応</li><li>使用承認（竣工）後の完結支援</li></ul><h2>3. 手順ステップ</h2><ol><li>ご相談 — 現在の建物用途・変更目的の把握</li><li>許可類型の決定 — 許可/届出/記載変更の確定</li><li>書類準備 — 建築士選任、書類収集</li><li>提出・協議 — 区役所提出 + 消防・交通協議</li><li>現場確認同行 — 担当公務員の訪問対応</li><li>許可証受領 — 完了後に登録証・許可証を交付</li></ol><h2>4. よくある事例</h2><table><thead><tr><th>変更前</th><th>変更後</th><th>主な審査事項</th></tr></thead><tbody><tr><td>一戸建て住宅</td><td>第1種近隣生活施設</td><td>駐車・消防基準</td></tr><tr><td>一般飲食店</td><td>学院（教育研究施設）</td><td>許可+学院登録と連携</td></tr><tr><td>倉庫・工場</td><td>販売施設</td><td>消防・エネルギー基準</td></tr><tr><td>オフィステル</td><td>業務施設</td><td>駐車・エレベーター基準</td></tr></tbody></table><h2>5. 費用・期間</h2><ul><li>代行費用：相談後にご案内（規模・種類による）</li><li>処理期間：管轄機関により異なるため個別確認が必要</li><li>建築士図面費用：規模によって別途</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 賃借人が申請できますか？</p><p class="faq-a">A. 可能です。建物所有者の同意書を添付すれば、賃借人名義で申請できます。</p></div><div class="faq-item"><p class="faq-q">Q. 学院開設のための用途変更はどれくらいかかりますか？</p><p class="faq-a">A. 許可基準で2〜3ヶ月、消防完備を含めると3〜4ヶ月が現実的です。</p></div><div class="faq-item"><p class="faq-q">Q. 不受理歴がある場合も対応できますか？</p><p class="faq-a">A. はい。不受理の原因を分析し、補完して再申請する工程を専任で担当します。</p></div></div><div class="cta-box"><h3>建物用途変更のご相談</h3><p>YouSun Administrative Agencyが建物用途変更の許可から完了まで、ワンストップで代行します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 47: beauty-salon-notification-guide ─────────────────────────────
@@ -2891,30 +2891,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Beauty Salon Business Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Beauty Salon Business Notification 2026 — License & Registration',
-    metaDescription: 'How to register a beauty salon (미용업) in Korea: beauty permits, hairdresser license requirements, notification procedure, facility standards. Free consultation.',
+    metaDescription: 'How to register a beauty salon (미용업) in Korea: beauty permits, hairdresser license requirements, notification procedure, facility standards.',
     category: 'Health & Sanitation',
     excerpt: 'Korea beauty salon (미용업) business notification guide — license requirements, procedure, facility standards, and hygiene training for foreigners.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Beauty Businesses & Notification vs. Permit</li><li>Hairdresser License Requirements</li><li>Registration Procedure</li><li>Facility & Hygiene Standards</li><li>Mandatory Hygiene Training</li><li>FAQ</li></ol></div><h2>1. Types of Beauty Businesses & Notification vs. Permit</h2><p>Beauty businesses in Korea are regulated under the <strong>Public Health Control Act</strong> and require a <strong>business notification</strong> (not a permit) filed with the local district office. Meeting the requirements allows same-day operation after notification.</p><ul><li><strong>General beauty (일반 미용업):</strong> haircuts, perms, coloring, blowouts</li><li><strong>Skin care (피부 미용업):</strong> skin treatment, hair removal, eyebrow styling</li><li><strong>Nail care (네일 미용업):</strong> nail care, nail art</li><li><strong>Makeup (화장 미용업):</strong> makeup artistry</li><li><strong>Comprehensive (종합 미용업):</strong> 2+ categories combined</li></ul><h2>2. Hairdresser License Requirements</h2><ul><li>Graduation from a related department at high school, junior college, or university; OR</li><li>Pass the national hairdresser/beautician qualification exam</li><li>License issued by the mayor/governor of the relevant province</li><li>Foreigners must verify that their visa status allows employment</li></ul><h2>3. Registration Procedure</h2><ol><li>Confirm the hairdresser license is issued</li><li>Sign a lease for the business premises</li><li>Complete the interior fit-out to meet facility standards</li><li>Submit business notification to the district office sanitation department</li><li>Receive notification certificate and commence operations</li></ol><h2>4. Facility & Hygiene Standards</h2><ul><li>Changing room, washbasin, and sterilization facilities required</li><li>Working area separated from waiting area</li><li>Ventilation and lighting standards met</li><li>Sterilizer and disposable hygiene materials on hand</li></ul><h2>5. Mandatory Hygiene Training</h2><p>Operators must complete a 3-hour hygiene training course before opening or within 6 months of opening, at a designated institution such as the Korea Hairdressers Association.</p><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a beauty salon in Korea?</p><p class="faq-a">A. Yes, provided you hold a work-eligible visa (F-4, F-5, F-2, etc.) and obtain a Korean hairdresser/beautician license.</p></div><div class="faq-item"><p class="faq-q">Q. Is there an inspection after filing the notification?</p><p class="faq-a">A. A health center inspector may conduct a facility inspection. Deficiencies result in a remediation order.</p></div><div class="faq-item"><p class="faq-q">Q. Does a nail salon also need a business notification?</p><p class="faq-a">A. Yes, nail care (네일 미용업) is subject to business notification under the Public Health Control Act.</p></div></div><div class="cta-box"><h3>Beauty Salon Registration Consultation</h3><p>YouSun Administrative Agency provides end-to-end support for beauty salon business notification and hygiene training guidance. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Types of Beauty Businesses & Notification vs. Permit</li><li>Hairdresser License Requirements</li><li>Registration Procedure</li><li>Facility & Hygiene Standards</li><li>Mandatory Hygiene Training</li><li>FAQ</li></ol></div><h2>1. Types of Beauty Businesses & Notification vs. Permit</h2><p>Beauty businesses in Korea are regulated under the <strong>Public Health Control Act</strong> and require a <strong>business notification</strong> (not a permit) filed with the local district office. Meeting the requirements allows same-day operation after notification.</p><ul><li><strong>General beauty (일반 미용업):</strong> haircuts, perms, coloring, blowouts</li><li><strong>Skin care (피부 미용업):</strong> skin treatment, hair removal, eyebrow styling</li><li><strong>Nail care (네일 미용업):</strong> nail care, nail art</li><li><strong>Makeup (화장 미용업):</strong> makeup artistry</li><li><strong>Comprehensive (종합 미용업):</strong> 2+ categories combined</li></ul><h2>2. Hairdresser License Requirements</h2><ul><li>Graduation from a related department at high school, junior college, or university; OR</li><li>Pass the national hairdresser/beautician qualification exam</li><li>License issued by the mayor/governor of the relevant province</li><li>Foreigners must verify that their visa status allows employment</li></ul><h2>3. Registration Procedure</h2><ol><li>Confirm the hairdresser license is issued</li><li>Sign a lease for the business premises</li><li>Complete the interior fit-out to meet facility standards</li><li>Submit business notification to the district office sanitation department</li><li>Receive notification certificate and commence operations</li></ol><h2>4. Facility & Hygiene Standards</h2><ul><li>Changing room, washbasin, and sterilization facilities required</li><li>Working area separated from waiting area</li><li>Ventilation and lighting standards met</li><li>Sterilizer and disposable hygiene materials on hand</li></ul><h2>5. Mandatory Hygiene Training</h2><p>Operators must complete a 3-hour hygiene training course before opening or within 6 months of opening, at a designated institution such as the Korea Hairdressers Association.</p><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner open a beauty salon in Korea?</p><p class="faq-a">A. Yes, provided you hold a work-eligible visa (F-4, F-5, F-2, etc.) and obtain a Korean hairdresser/beautician license.</p></div><div class="faq-item"><p class="faq-q">Q. Is there an inspection after filing the notification?</p><p class="faq-a">A. A health center inspector may conduct a facility inspection. Deficiencies result in a remediation order.</p></div><div class="faq-item"><p class="faq-q">Q. Does a nail salon also need a business notification?</p><p class="faq-a">A. Yes, nail care (네일 미용업) is subject to business notification under the Public Health Control Act.</p></div></div><div class="cta-box"><h3>Beauty Salon Registration Consultation</h3><p>YouSun Administrative Agency provides end-to-end support for beauty salon business notification and hygiene training guidance.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'beauty-salon-notification-guide',
     locale: 'zh',
     title: '韩国美容业申报完整指南2026 — 执照·申报·卫生标准',
     metaTitle: '韩国美容业申报2026 — 执照与营业申报要求',
-    metaDescription: '如何在韩国申报美容业（미용업）。美容师执照要求、申报流程、设施标准及卫生培训。免费初次咨询。本文依次说明美容业类型与申报制度、美容师执照要求、营业申报流程、设施·卫生标准，可按步骤逐项确认。',
+    metaDescription: '如何在韩国申报美容业（미용업）。美容师执照要求、申报流程、设施标准及卫生培训。初次咨询。本文依次说明美容业类型与申报制度、美容师执照要求、营业申报流程、设施·卫生标准，可按步骤逐项确认。',
     category: '卫生·服务',
     excerpt: '韩国美容业（미용업）营业申报指南 — 执照要求、申报流程、设施标准及外国人开业须知。',
-    content: `<div class="toc"><p>目录</p><ol><li>美容业类型与申报制度</li><li>美容师执照要求</li><li>营业申报流程</li><li>设施·卫生标准</li><li>卫生教育义务</li><li>常见问题</li></ol></div><h2>1. 美容业类型与申报制度</h2><p>韩国美容业依据《公众卫生管理法》须向辖区市长·郡守·区厅长进行<strong>营业申报</strong>（非许可制）。满足要求后申报即可营业。</p><ul><li><strong>一般美容业（일반 미용업）：</strong>剪发·烫发·染发·吹干等</li><li><strong>皮肤美容业（피부 미용업）：</strong>皮肤管理·脱毛·眉毛修整等</li><li><strong>美甲业（네일 미용업）：</strong>手足甲护理·美甲艺术</li><li><strong>化妆美容业（화장 미용업）：</strong>化妆·彩妆</li><li><strong>综合美容业（종합 미용업）：</strong>两种以上类型合并经营</li></ul><h2>2. 美容师执照要求</h2><ul><li>相关学校（高中·专科·大学）相关专业毕业；或</li><li>通过美容师国家资格考试</li><li>执照由省市长颁发</li><li>外国人须确认签证类型是否允许就业</li></ul><h2>3. 营业申报流程</h2><ol><li>确认美容师执照已发放</li><li>签订经营场所租赁合同</li><li>按设施标准完成装修</li><li>向辖区区厅卫生科提交营业申报</li><li>领取申报证后开始营业</li></ol><h2>4. 设施·卫生标准</h2><ul><li>须设有更衣室、洗面台、消毒设施</li><li>工作区与等候区需分开</li><li>满足通风及照明标准</li><li>备有消毒器及一次性卫生材料</li></ul><h2>5. 卫生教育义务</h2><p>营业开始前或开始后6个月内，须在指定机构（如韩国美容师协会）完成3小时卫生教育。</p><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人可以在韩国开设美容院吗？</p><p class="faq-a">A. 可以。但须持有允许就业的签证（F-4、F-5、F-2等），并单独取得韩国美容师执照。</p></div><div class="faq-item"><p class="faq-q">Q. 申报后会有检查吗？</p><p class="faq-a">A. 保健所卫生监察员可能进行设施现场确认，不达标将收到整改命令。</p></div><div class="faq-item"><p class="faq-q">Q. 美甲店也需要申报吗？</p><p class="faq-a">A. 是的，美甲业（네일 미용업）依据《公众卫生管理法》也属于营业申报对象。</p></div></div><div class="cta-box"><h3>美容业申报咨询</h3><p>YouSun Administrative Agency为美容业营业申报及卫生教育提供全程支持。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>美容业类型与申报制度</li><li>美容师执照要求</li><li>营业申报流程</li><li>设施·卫生标准</li><li>卫生教育义务</li><li>常见问题</li></ol></div><h2>1. 美容业类型与申报制度</h2><p>韩国美容业依据《公众卫生管理法》须向辖区市长·郡守·区厅长进行<strong>营业申报</strong>（非许可制）。满足要求后申报即可营业。</p><ul><li><strong>一般美容业（일반 미용업）：</strong>剪发·烫发·染发·吹干等</li><li><strong>皮肤美容业（피부 미용업）：</strong>皮肤管理·脱毛·眉毛修整等</li><li><strong>美甲业（네일 미용업）：</strong>手足甲护理·美甲艺术</li><li><strong>化妆美容业（화장 미용업）：</strong>化妆·彩妆</li><li><strong>综合美容业（종합 미용업）：</strong>两种以上类型合并经营</li></ul><h2>2. 美容师执照要求</h2><ul><li>相关学校（高中·专科·大学）相关专业毕业；或</li><li>通过美容师国家资格考试</li><li>执照由省市长颁发</li><li>外国人须确认签证类型是否允许就业</li></ul><h2>3. 营业申报流程</h2><ol><li>确认美容师执照已发放</li><li>签订经营场所租赁合同</li><li>按设施标准完成装修</li><li>向辖区区厅卫生科提交营业申报</li><li>领取申报证后开始营业</li></ol><h2>4. 设施·卫生标准</h2><ul><li>须设有更衣室、洗面台、消毒设施</li><li>工作区与等候区需分开</li><li>满足通风及照明标准</li><li>备有消毒器及一次性卫生材料</li></ul><h2>5. 卫生教育义务</h2><p>营业开始前或开始后6个月内，须在指定机构（如韩国美容师协会）完成3小时卫生教育。</p><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人可以在韩国开设美容院吗？</p><p class="faq-a">A. 可以。但须持有允许就业的签证（F-4、F-5、F-2等），并单独取得韩国美容师执照。</p></div><div class="faq-item"><p class="faq-q">Q. 申报后会有检查吗？</p><p class="faq-a">A. 保健所卫生监察员可能进行设施现场确认，不达标将收到整改命令。</p></div><div class="faq-item"><p class="faq-q">Q. 美甲店也需要申报吗？</p><p class="faq-a">A. 是的，美甲业（네일 미용업）依据《公众卫生管理法》也属于营业申报对象。</p></div></div><div class="cta-box"><h3>美容业申报咨询</h3><p>YouSun Administrative Agency为美容业营业申报及卫生教育提供全程支持。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'beauty-salon-notification-guide',
     locale: 'ja',
     title: '韓国美容業届出完全ガイド2026 — 免許・届出・衛生基準',
     metaTitle: '韓国美容業届出2026 — 美容師免許と営業届出要件',
-    metaDescription: '韓国で美容業（미용업）を届け出る方法。美容師免許要件、届出手続き、施設基準、衛生講習。行政士による無料初回相談。美容業の種類と届出制度・美容師免許要件・営業届出手順・施設・衛生基準まで順に確認できます。',
+    metaDescription: '韓国で美容業（미용업）を届け出る方法。美容師免許要件、届出手続き、施設基準、衛生講習。行政士による初回相談。美容業の種類と届出制度・美容師免許要件・営業届出手順・施設・衛生基準まで順に確認できます。',
     category: '衛生・サービス',
     excerpt: '韓国美容業（미용업）営業届出ガイド — 免許要件、届出手順、施設基準、外国人開業の注意点。',
-    content: `<div class="toc"><p>目次</p><ol><li>美容業の種類と届出制度</li><li>美容師免許要件</li><li>営業届出手順</li><li>施設・衛生基準</li><li>衛生講習義務</li><li>よくある質問</li></ol></div><h2>1. 美容業の種類と届出制度</h2><p>韓国の美容業は<strong>公衆衛生管理法</strong>に基づき、管轄の市長・郡守・区庁長に<strong>営業届出</strong>（許可制ではなく届出制）を行う必要があります。要件を満たせば届出後すぐに営業が可能です。</p><ul><li><strong>一般美容業（일반 미용업）：</strong>カット・パーマ・カラー・ブローなど</li><li><strong>皮膚美容業（피부 미용업）：</strong>スキンケア・脱毛・眉毛ケアなど</li><li><strong>ネイル美容業（네일 미용업）：</strong>爪のケア・ネイルアート</li><li><strong>化粧美容業（화장 미용업）：</strong>メイクアップ・分装</li><li><strong>総合美容業（종합 미용업）：</strong>2種類以上の業種を統合して経営</li></ul><h2>2. 美容師免許要件</h2><ul><li>関連学校（高校・専門学校・大学）の関連学科を卒業、または</li><li>美容師国家資格試験に合格</li><li>免許証は都道府県知事（시도지사）に申請して発行</li><li>外国人は在留資格と就労可能かどうかの確認が必須</li></ul><h2>3. 営業届出手順</h2><ol><li>美容師免許証の発行確認</li><li>営業場所の賃貸借契約締結</li><li>施設基準に合わせた内装工事完了</li><li>管轄区役所衛生課に営業届出書を提出</li><li>届出証受領後に営業開始</li></ol><h2>4. 施設・衛生基準</h2><ul><li>更衣室・洗面台・消毒設備が必須</li><li>作業スペースと待合スペースを区分</li><li>換気・照明基準を満たす</li><li>消毒器および使い捨て衛生用品を備置</li></ul><h2>5. 衛生講習義務</h2><p>営業開始前または開始後6ヶ月以内に、韓国美容師会等の指定機関で衛生講習（3時間）を受講する義務があります。</p><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で美容院を開業できますか？</p><p class="faq-a">A. 可能です。ただし、就労可能な在留資格（F-4、F-5、F-2等）が必要で、韓国の美容師免許も別途取得する必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 届出後に検査がありますか？</p><p class="faq-a">A. 保健所の衛生監視員が施設の現場確認を行う場合があります。基準に満たない場合は是正命令が出されます。</p></div><div class="faq-item"><p class="faq-q">Q. ネイルサロンも営業届出が必要ですか？</p><p class="faq-a">A. はい、ネイル美容業（네일 미용업）も公衆衛生管理法上の営業届出対象です。</p></div></div><div class="cta-box"><h3>美容業届出のご相談</h3><p>YouSun Administrative Agencyが美容業営業届出から衛生講習案内までワンストップでサポートします。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>美容業の種類と届出制度</li><li>美容師免許要件</li><li>営業届出手順</li><li>施設・衛生基準</li><li>衛生講習義務</li><li>よくある質問</li></ol></div><h2>1. 美容業の種類と届出制度</h2><p>韓国の美容業は<strong>公衆衛生管理法</strong>に基づき、管轄の市長・郡守・区庁長に<strong>営業届出</strong>（許可制ではなく届出制）を行う必要があります。要件を満たせば届出後すぐに営業が可能です。</p><ul><li><strong>一般美容業（일반 미용업）：</strong>カット・パーマ・カラー・ブローなど</li><li><strong>皮膚美容業（피부 미용업）：</strong>スキンケア・脱毛・眉毛ケアなど</li><li><strong>ネイル美容業（네일 미용업）：</strong>爪のケア・ネイルアート</li><li><strong>化粧美容業（화장 미용업）：</strong>メイクアップ・分装</li><li><strong>総合美容業（종합 미용업）：</strong>2種類以上の業種を統合して経営</li></ul><h2>2. 美容師免許要件</h2><ul><li>関連学校（高校・専門学校・大学）の関連学科を卒業、または</li><li>美容師国家資格試験に合格</li><li>免許証は都道府県知事（시도지사）に申請して発行</li><li>外国人は在留資格と就労可能かどうかの確認が必須</li></ul><h2>3. 営業届出手順</h2><ol><li>美容師免許証の発行確認</li><li>営業場所の賃貸借契約締結</li><li>施設基準に合わせた内装工事完了</li><li>管轄区役所衛生課に営業届出書を提出</li><li>届出証受領後に営業開始</li></ol><h2>4. 施設・衛生基準</h2><ul><li>更衣室・洗面台・消毒設備が必須</li><li>作業スペースと待合スペースを区分</li><li>換気・照明基準を満たす</li><li>消毒器および使い捨て衛生用品を備置</li></ul><h2>5. 衛生講習義務</h2><p>営業開始前または開始後6ヶ月以内に、韓国美容師会等の指定機関で衛生講習（3時間）を受講する義務があります。</p><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人が韓国で美容院を開業できますか？</p><p class="faq-a">A. 可能です。ただし、就労可能な在留資格（F-4、F-5、F-2等）が必要で、韓国の美容師免許も別途取得する必要があります。</p></div><div class="faq-item"><p class="faq-q">Q. 届出後に検査がありますか？</p><p class="faq-a">A. 保健所の衛生監視員が施設の現場確認を行う場合があります。基準に満たない場合は是正命令が出されます。</p></div><div class="faq-item"><p class="faq-q">Q. ネイルサロンも営業届出が必要ですか？</p><p class="faq-a">A. はい、ネイル美容業（네일 미용업）も公衆衛生管理法上の営業届出対象です。</p></div></div><div class="cta-box"><h3>美容業届出のご相談</h3><p>YouSun Administrative Agencyが美容業営業届出から衛生講習案内までワンストップでサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 48: pet-shop-animal-sales-registration-guide ────────────────────
@@ -2923,30 +2923,30 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Pet Shop & Animal Sales Business Registration in Korea — 2026 Guide',
     metaTitle: 'Korea Pet Shop Animal Sales Registration 2026 — Requirements & Procedure',
-    metaDescription: 'How to register an animal sales business (동물판매업) in Korea. Facility standards, training requirements, veterinary obligations. Free consultation.',
+    metaDescription: 'How to register an animal sales business (동물판매업) in Korea. Facility standards, training requirements, veterinary obligations.',
     category: 'Animals & Licensing',
     excerpt: 'Korea animal sales business (동물판매업) registration guide — facility requirements, training, veterinary obligations, and steps for foreigners to open a pet shop.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview</li><li>Registration Requirements</li><li>Registration Procedure</li><li>Facility Standards</li><li>Operational Obligations</li><li>FAQ</li></ol></div><h2>1. Overview</h2><p>Businesses selling companion animals must register as an <strong>animal sales business (동물판매업)</strong> under the <strong>Animal Protection Act</strong> with the local district office. Operating without registration can result in up to 2 years imprisonment or a fine of up to KRW 20 million.</p><h2>2. Registration Requirements</h2><ul><li>Personnel: A person who has completed animal protection training must be on duty at all times</li><li>Facility: Cage size, cleanliness, temperature, and ventilation standards must be met</li><li>Mandatory maintenance of animal health and sales records</li><li>No disqualifying history (e.g., animal abuse convictions)</li></ul><h2>3. Registration Procedure</h2><ol><li>Secure business premises and prepare to meet facility standards</li><li>Complete animal protection training at a designated institution (3–6 hours)</li><li>Submit animal sales business registration application to the district office</li><li>Receive registration certificate after site inspection</li></ol><h2>4. Facility Standards</h2><ul><li>Minimum space per animal species and size</li><li>Temperature and humidity control environment</li><li>Clean water and food provision facilities</li><li>Quarantine space for newly arrived animals</li></ul><h2>5. Operational Obligations</h2><ul><li>Provide a health certificate when selling each animal</li><li>Prohibition on selling animals under 2 months of age</li><li>Inform buyers of compensation policy for animals that die within 15 days</li><li>Maintain regular veterinary health inspection records</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner register an animal sales business in Korea?</p><p class="faq-a">A. Yes. You need a work-eligible visa (F-2, F-4, F-5, etc.) and must register a business entity first, then proceed with the animal sales registration.</p></div><div class="faq-item"><p class="faq-q">Q. Is registration required for online-only sales?</p><p class="faq-a">A. Yes. Online animal sales also constitute animal sales business activity and require registration.</p></div><div class="faq-item"><p class="faq-q">Q. Do reptile sales also require registration?</p><p class="faq-a">A. Any business selling animals classified as companion animals requires registration. Wild animals are subject to separate regulations.</p></div></div><div class="cta-box"><h3>Pet Shop Registration Consultation</h3><p>YouSun Administrative Agency handles animal sales business registration from start to finish. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview</li><li>Registration Requirements</li><li>Registration Procedure</li><li>Facility Standards</li><li>Operational Obligations</li><li>FAQ</li></ol></div><h2>1. Overview</h2><p>Businesses selling companion animals must register as an <strong>animal sales business (동물판매업)</strong> under the <strong>Animal Protection Act</strong> with the local district office. Operating without registration can result in up to 2 years imprisonment or a fine of up to KRW 20 million.</p><h2>2. Registration Requirements</h2><ul><li>Personnel: A person who has completed animal protection training must be on duty at all times</li><li>Facility: Cage size, cleanliness, temperature, and ventilation standards must be met</li><li>Mandatory maintenance of animal health and sales records</li><li>No disqualifying history (e.g., animal abuse convictions)</li></ul><h2>3. Registration Procedure</h2><ol><li>Secure business premises and prepare to meet facility standards</li><li>Complete animal protection training at a designated institution (3–6 hours)</li><li>Submit animal sales business registration application to the district office</li><li>Receive registration certificate after site inspection</li></ol><h2>4. Facility Standards</h2><ul><li>Minimum space per animal species and size</li><li>Temperature and humidity control environment</li><li>Clean water and food provision facilities</li><li>Quarantine space for newly arrived animals</li></ul><h2>5. Operational Obligations</h2><ul><li>Provide a health certificate when selling each animal</li><li>Prohibition on selling animals under 2 months of age</li><li>Inform buyers of compensation policy for animals that die within 15 days</li><li>Maintain regular veterinary health inspection records</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. Can a foreigner register an animal sales business in Korea?</p><p class="faq-a">A. Yes. You need a work-eligible visa (F-2, F-4, F-5, etc.) and must register a business entity first, then proceed with the animal sales registration.</p></div><div class="faq-item"><p class="faq-q">Q. Is registration required for online-only sales?</p><p class="faq-a">A. Yes. Online animal sales also constitute animal sales business activity and require registration.</p></div><div class="faq-item"><p class="faq-q">Q. Do reptile sales also require registration?</p><p class="faq-a">A. Any business selling animals classified as companion animals requires registration. Wild animals are subject to separate regulations.</p></div></div><div class="cta-box"><h3>Pet Shop Registration Consultation</h3><p>YouSun Administrative Agency handles animal sales business registration from start to finish.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'pet-shop-animal-sales-registration-guide',
     locale: 'zh',
     title: '韩国宠物店动物销售业者登记指南2026',
     metaTitle: '韩国宠物店动物销售业登记2026 — 要求与流程',
-    metaDescription: '如何在韩国登记动物销售业（동물판매업）。设施标准、培训要求、兽医义务及外国人登记。免费初次咨询。本文依次说明概述、登记要求、登记流程、设施标准，可按步骤逐项确认。',
+    metaDescription: '如何在韩国登记动物销售业（동물판매업）。设施标准、培训要求、兽医义务及外国人登记。初次咨询。本文依次说明概述、登记要求、登记流程、设施标准，可按步骤逐项确认。',
     category: '动物·许可',
     excerpt: '韩国动物销售业（동물판매업）登记指南 — 设施要求、培训、兽医义务及外国人开店步骤。',
-    content: `<div class="toc"><p>目录</p><ol><li>概述</li><li>登记要求</li><li>登记流程</li><li>设施标准</li><li>运营义务</li><li>常见问题</li></ol></div><h2>1. 概述</h2><p>销售伴侣动物的业务须依据<strong>《动物保护法》</strong>向辖区市长·郡守·区厅长登记为<strong>动物销售业者（동물판매업）</strong>。未登记营业可处2年以下有期徒刑或2000万韩元以下罚款。</p><h2>2. 登记要求</h2><ul><li>人员：须常时配置完成动物保护教育的人员</li><li>设施：笼具尺寸·清洁·温度·通风基准须满足</li><li>须管理动物健康及销售履历</li><li>无不良记录（无虐待动物前科）</li></ul><h2>3. 登记流程</h2><ol><li>确保经营场所并准备满足设施标准</li><li>在指定机构完成动物保护教育（3~6小时）</li><li>向辖区市·郡·区厅提交动物销售业登记申请</li><li>现场确认后领取登记证</li></ol><h2>4. 设施标准</h2><ul><li>按动物种类·体型规定最小饲养空间</li><li>可调控温湿度的环境</li><li>清洁的饮水·饲料提供设施</li><li>新进动物检疫隔离空间</li></ul><h2>5. 运营义务</h2><ul><li>销售动物时须提供健康确认书</li><li>禁止销售出生未满2个月的动物</li><li>须告知买家15日内死亡的赔偿规定</li><li>保存兽医定期健康检查记录</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人可以在韩国登记动物销售业吗？</p><p class="faq-a">A. 可以。须持有允许就业的签证（F-2、F-4、F-5等），先完成企业登记后进行动物销售业登记。</p></div><div class="faq-item"><p class="faq-q">Q. 仅限网络销售也需要登记吗？</p><p class="faq-a">A. 需要。网络动物销售也属于动物销售业，须进行登记。</p></div><div class="faq-item"><p class="faq-q">Q. 爬行动物销售也需要登记吗？</p><p class="faq-a">A. 销售被分类为伴侣动物的动物均需登记。野生动物适用单独规定。</p></div></div><div class="cta-box"><h3>宠物店登记咨询</h3><p>YouSun Administrative Agency为动物销售业登记提供全程代理。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+    content: `<div class="toc"><p>目录</p><ol><li>概述</li><li>登记要求</li><li>登记流程</li><li>设施标准</li><li>运营义务</li><li>常见问题</li></ol></div><h2>1. 概述</h2><p>销售伴侣动物的业务须依据<strong>《动物保护法》</strong>向辖区市长·郡守·区厅长登记为<strong>动物销售业者（동물판매업）</strong>。未登记营业可处2年以下有期徒刑或2000万韩元以下罚款。</p><h2>2. 登记要求</h2><ul><li>人员：须常时配置完成动物保护教育的人员</li><li>设施：笼具尺寸·清洁·温度·通风基准须满足</li><li>须管理动物健康及销售履历</li><li>无不良记录（无虐待动物前科）</li></ul><h2>3. 登记流程</h2><ol><li>确保经营场所并准备满足设施标准</li><li>在指定机构完成动物保护教育（3~6小时）</li><li>向辖区市·郡·区厅提交动物销售业登记申请</li><li>现场确认后领取登记证</li></ol><h2>4. 设施标准</h2><ul><li>按动物种类·体型规定最小饲养空间</li><li>可调控温湿度的环境</li><li>清洁的饮水·饲料提供设施</li><li>新进动物检疫隔离空间</li></ul><h2>5. 运营义务</h2><ul><li>销售动物时须提供健康确认书</li><li>禁止销售出生未满2个月的动物</li><li>须告知买家15日内死亡的赔偿规定</li><li>保存兽医定期健康检查记录</li></ul><div class="faq-section"><h2>常见问题</h2><div class="faq-item"><p class="faq-q">Q. 外国人可以在韩国登记动物销售业吗？</p><p class="faq-a">A. 可以。须持有允许就业的签证（F-2、F-4、F-5等），先完成企业登记后进行动物销售业登记。</p></div><div class="faq-item"><p class="faq-q">Q. 仅限网络销售也需要登记吗？</p><p class="faq-a">A. 需要。网络动物销售也属于动物销售业，须进行登记。</p></div><div class="faq-item"><p class="faq-q">Q. 爬行动物销售也需要登记吗？</p><p class="faq-a">A. 销售被分类为伴侣动物的动物均需登记。野生动物适用单独规定。</p></div></div><div class="cta-box"><h3>宠物店登记咨询</h3><p>YouSun Administrative Agency为动物销售业登记提供全程代理。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'pet-shop-animal-sales-registration-guide',
     locale: 'ja',
     title: '韓国ペットショップ・動物販売業者登録ガイド2026',
     metaTitle: '韓国動物販売業者登録2026 — 要件と手順',
-    metaDescription: '韓国で動物販売業（동물판매업）を登録する方法。施設基準、研修要件、獣医義務、外国人の登録。行政士による無料初回相談。概要・登録要件・登録手順・施設基準まで順に確認できます。',
+    metaDescription: '韓国で動物販売業（동물판매업）を登録する方法。施設基準、研修要件、獣医義務、外国人の登録。行政士による初回相談。概要・登録要件・登録手順・施設基準まで順に確認できます。',
     category: '動物・許認可',
     excerpt: '韓国動物販売業（동물판매업）登録ガイド — 施設要件、研修、獣医義務、外国人がペットショップを開業するための手順。',
-    content: `<div class="toc"><p>目次</p><ol><li>概要</li><li>登録要件</li><li>登録手順</li><li>施設基準</li><li>運営義務</li><li>よくある質問</li></ol></div><h2>1. 概要</h2><p>伴侶動物を販売する事業者は<strong>動物保護法</strong>に基づき、管轄の市長・郡守・区庁長に<strong>動物販売業（동물판매업）の営業登録</strong>を行う必要があります。未登録で営業した場合、2年以下の懲役または2,000万ウォン以下の罰金が科せられます。</p><h2>2. 登録要件</h2><ul><li>人員：動物保護教育を修了した者を常時配置</li><li>施設：ケージのサイズ・清潔さ・温度・換気基準を満たすこと</li><li>動物の健康および販売記録の管理義務</li><li>欠格事由がないこと（動物虐待等の前歴がないこと）</li></ul><h2>3. 登録手順</h2><ol><li>営業場所を確保し、施設基準の準備</li><li>指定機関で動物保護教育を受講（3〜6時間）</li><li>管轄の市・郡・区役所に動物販売業登録を申請</li><li>現場確認後、登録証を受領</li></ol><h2>4. 施設基準</h2><ul><li>動物の種類・サイズに応じた最小飼育スペース</li><li>温湿度を調節できる環境</li><li>清潔な飲料水・飼料の提供設備</li><li>新規入荷動物の検疫用隔離スペースの確保</li></ul><h2>5. 運営義務</h2><ul><li>動物販売時に健康確認書の提供義務</li><li>生後2ヶ月未満の動物の販売禁止</li><li>購入者に対し15日以内の死亡時の補償規定を告知</li><li>獣医による定期健康診断記録の保持</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人も動物販売業を登録できますか？</p><p class="faq-a">A. 可能です。就労可能な在留資格（F-2、F-4、F-5等）が必要で、まず事業者登録を行った後、動物販売業の登録を進めます。</p></div><div class="faq-item"><p class="faq-q">Q. オンラインのみの販売でも登録が必要ですか？</p><p class="faq-a">A. はい。オンラインでの動物販売も動物販売業に該当するため、登録が必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 爬虫類の販売も登録対象ですか？</p><p class="faq-a">A. 伴侶動物として分類された動物を販売する場合はすべて対象です。野生動物には別途の規定が適用されます。</p></div></div><div class="cta-box"><h3>ペットショップ登録のご相談</h3><p>YouSun Administrative Agencyが動物販売業の登録を最初から最後まで代行します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+    content: `<div class="toc"><p>目次</p><ol><li>概要</li><li>登録要件</li><li>登録手順</li><li>施設基準</li><li>運営義務</li><li>よくある質問</li></ol></div><h2>1. 概要</h2><p>伴侶動物を販売する事業者は<strong>動物保護法</strong>に基づき、管轄の市長・郡守・区庁長に<strong>動物販売業（동물판매업）の営業登録</strong>を行う必要があります。未登録で営業した場合、2年以下の懲役または2,000万ウォン以下の罰金が科せられます。</p><h2>2. 登録要件</h2><ul><li>人員：動物保護教育を修了した者を常時配置</li><li>施設：ケージのサイズ・清潔さ・温度・換気基準を満たすこと</li><li>動物の健康および販売記録の管理義務</li><li>欠格事由がないこと（動物虐待等の前歴がないこと）</li></ul><h2>3. 登録手順</h2><ol><li>営業場所を確保し、施設基準の準備</li><li>指定機関で動物保護教育を受講（3〜6時間）</li><li>管轄の市・郡・区役所に動物販売業登録を申請</li><li>現場確認後、登録証を受領</li></ol><h2>4. 施設基準</h2><ul><li>動物の種類・サイズに応じた最小飼育スペース</li><li>温湿度を調節できる環境</li><li>清潔な飲料水・飼料の提供設備</li><li>新規入荷動物の検疫用隔離スペースの確保</li></ul><h2>5. 運営義務</h2><ul><li>動物販売時に健康確認書の提供義務</li><li>生後2ヶ月未満の動物の販売禁止</li><li>購入者に対し15日以内の死亡時の補償規定を告知</li><li>獣医による定期健康診断記録の保持</li></ul><div class="faq-section"><h2>よくある質問</h2><div class="faq-item"><p class="faq-q">Q. 外国人も動物販売業を登録できますか？</p><p class="faq-a">A. 可能です。就労可能な在留資格（F-2、F-4、F-5等）が必要で、まず事業者登録を行った後、動物販売業の登録を進めます。</p></div><div class="faq-item"><p class="faq-q">Q. オンラインのみの販売でも登録が必要ですか？</p><p class="faq-a">A. はい。オンラインでの動物販売も動物販売業に該当するため、登録が必要です。</p></div><div class="faq-item"><p class="faq-q">Q. 爬虫類の販売も登録対象ですか？</p><p class="faq-a">A. 伴侶動物として分類された動物を販売する場合はすべて対象です。野生動物には別途の規定が適用されます。</p></div></div><div class="cta-box"><h3>ペットショップ登録のご相談</h3><p>YouSun Administrative Agencyが動物販売業の登録を最初から最後まで代行します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
   // ── BLOG 49: cosmetics-import-sales-registration-guide ──────────────────────
   {
@@ -2954,7 +2954,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'How to Register a Cosmetics Importer/Distributor in Korea — 2026 Guide',
     metaTitle: 'Korea Cosmetics Import Sales Registration 2026 — Complete Guide',
-    metaDescription: 'Step-by-step guide to registering as a cosmetics responsible vendor (책임판매업) in Korea for foreign brands. Requirements, documents. Free consultation.',
+    metaDescription: 'Step-by-step guide to registering as a cosmetics responsible vendor (책임판매업) in Korea for foreign brands. Requirements, documents.',
     category: 'Cosmetics',
     excerpt: 'Everything foreign cosmetics brands need to know about importing and selling in Korea — registration requirements, a responsible manager, and labeling compliance.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Cosmetics Responsible Vendor Registration?</li><li>Who Must Register?</li><li>Registration Requirements</li><li>Required Documents</li><li>Registration Procedure</li><li>Post-Registration Compliance</li><li>Korean Labeling Requirements</li><li>FAQ</li></ol></div>
@@ -2980,14 +2980,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Does a distribution-only exclusive agreement allow immediate sales?</p><p class="faq-a">A. No. The cosmetics responsible vendor registration must be completed regardless of any exclusive distribution contract. Selling without registration is penalized.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is small-scale personal import subject to registration?</p><p class="faq-a">A. No. Personal-use small imports are exempt. Registration is only required when products are imported for commercial sale.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with Cosmetics Vendor Registration?</h3><p>YouSun Administrative Agency handles the entire process from document preparation to MFDS registration. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with Cosmetics Vendor Registration?</h3><p>YouSun Administrative Agency handles the entire process from document preparation to MFDS registration.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'cosmetics-import-sales-registration-guide',
     locale: 'zh',
     title: '韩国化妆品责任销售业注册完全指南2026 — 海外品牌韩国进口流程',
     metaTitle: '韩国化妆品责任销售业注册方法2026 — 进口化妆品韩国销售必备',
-    metaDescription: '韩国化妆品责任销售业（책임판매업）注册要求、所需材料、食药处申请流程详解。专业行政士代理，免费初次咨询。本文依次说明化妆品责任销售业概述、注册义务对象、注册要求、所需材料，可按步骤逐项确认。',
+    metaDescription: '韩国化妆品责任销售业（책임판매업）注册要求、所需材料、食药处申请流程详解。专业行政士代理，初次咨询。本文依次说明化妆品责任销售业概述、注册义务对象、注册要求、所需材料，可按步骤逐项确认。',
     category: '化妆品',
     excerpt: '海外化妆品品牌进入韩国市场必须了解的化妆品责任销售业注册要求、所需材料及申请流程完全指南。',
     content: `<div class="toc"><p>目录</p><ol><li>化妆品责任销售业概述</li><li>注册义务对象</li><li>注册要求</li><li>所需材料</li><li>注册申请流程</li><li>注册后合规义务</li><li>进口化妆品标签要求</li><li>常见问题</li></ol></div>
@@ -3010,14 +3010,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 仅拥有独家分销合同是否可以直接开始销售？</p><p class="faq-a">A. 不可以。化妆品责任销售业登记必须单独完成，与任何分销合同无关。未经登记销售将被处罚。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 责任销售管理员必须是专职员工吗？</p><p class="faq-a">A. 若经营者本人满足资质要求，可自任管理员。但因常驻要求，建议中小企业招聘具备相关资质的专职员工担任。</p></div>
 </div>
-<div class="cta-box"><h3>需要化妆品责任销售业注册代理服务？</h3><p>YouSun Administrative Agency提供从材料准备到食药处登记的一站式代理服务。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>需要化妆品责任销售业注册代理服务？</h3><p>YouSun Administrative Agency提供从材料准备到食药处登记的一站式代理服务。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'cosmetics-import-sales-registration-guide',
     locale: 'ja',
     title: '韓国化粧品責任販売業登録完全ガイド2026 — 海外ブランドの韓国輸入手続き',
     metaTitle: '韓国化粧品責任販売業登録方法2026 — 輸入化粧品韓国販売の必須手続き',
-    metaDescription: '韓国での化粧品責任販売業（책임판매업）登録要件・必要書類・食品医薬品安全処への申請手順を詳解。行政士による無料初回相談。登録義務対象・登録要件・必要書類・登録申請手順まで順に確認できます。',
+    metaDescription: '韓国での化粧品責任販売業（책임판매업）登録要件・必要書類・食品医薬品安全処への申請手順を詳解。行政士による初回相談。登録義務対象・登録要件・必要書類・登録申請手順まで順に確認できます。',
     category: '化粧品',
     excerpt: '海外化粧品ブランドを韓国で輸入・販売するために必要な化粧品責任販売業登録の要件、書類、手続きの完全ガイド。',
     content: `<div class="toc"><p>目次</p><ol><li>化粧品責任販売業とは？</li><li>登録義務対象</li><li>登録要件</li><li>必要書類</li><li>登録申請手順</li><li>輸入化粧品の表示要件</li><li>よくある質問</li></ol></div>
@@ -3040,7 +3040,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 独占販売契約があれば登録なしで販売できますか？</p><p class="faq-a">A. できません。どのような契約があっても、化粧品責任販売業登録は別途必要です。未登録販売は処罰対象です。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 責任販売管理者は専任でなければなりませんか？</p><p class="faq-a">A. 資格を満たす経営者自身が管理者を兼務することは可能です。ただし常勤義務があるため、小規模事業者は資格を持つ専任スタッフの採用を推奨します。</p></div>
 </div>
-<div class="cta-box"><h3>化粧品責任販売業登録でお困りですか？</h3><p>YouSun Administrative Agencyが書類準備から食薬処への登録まで一括代行します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>化粧品責任販売業登録でお困りですか？</h3><p>YouSun Administrative Agencyが書類準備から食薬処への登録まで一括代行します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
   // ── BLOG 50: location-based-service-domestic-registration-guide ───────────
   {
@@ -3048,7 +3048,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Location-Based Service Business Notification in Korea — 2026 Guide',
     metaTitle: 'Korea Location-Based Service Business Notification 2026 — LBS Registration',
-    metaDescription: 'Guide to notifying the Korea Communications Commission (KCC) for location-based service businesses. Delivery, navigation. Free consultation.',
+    metaDescription: 'Guide to notifying the Korea Communications Commission (KCC) for location-based service businesses. Delivery, navigation.',
     category: 'IT/Telecom',
     excerpt: 'Navigation apps, delivery platforms, and real estate apps using location data in Korea must notify the Korea Communications Commission (KCC) before service launch.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Overview</li><li>Who Must Notify?</li><li>Notification Exemptions</li><li>Required Documents</li><li>Notification Procedure</li><li>Post-Notification Obligations</li><li>FAQ</li></ol></div>
@@ -3070,14 +3070,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Do foreign companies serving Korean users need to notify?</p><p class="faq-a">A. Yes. Foreign companies providing location-based services to Korean users are subject to the same notification requirement.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is there a notification fee?</p><p class="faq-a">A. No government fee. However, drafting the service description and protection plan often requires professional assistance.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with LBS Business Notification?</h3><p>YouSun Administrative Agency handles documentation and KCC submission for location-based service notifications. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with LBS Business Notification?</h3><p>YouSun Administrative Agency handles documentation and KCC submission for location-based service notifications.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
   {
     slug: 'location-based-service-domestic-registration-guide',
     locale: 'zh',
     title: '韩国位置基础服务事业申报完全指南2026 — 导航·外卖·房产APP必读',
     metaTitle: '韩国位置基础服务事业申报方法2026 — LBS企业合规指南',
-    metaDescription: '在韩国提供位置基础服务（LBS）的企业须在服务上线前向放送通信委员会申报。导航、外卖、房产平台必备合规手续。行政士专业代理，免费初次咨询。本文依次说明申报概述、申报义务对象、所需材料、申报流程，可按步骤逐项确认。',
+    metaDescription: '在韩国提供位置基础服务（LBS）的企业须在服务上线前向放送通信委员会申报。导航、外卖、房产平台必备合规手续。行政士专业代理，初次咨询。本文依次说明申报概述、申报义务对象、所需材料、申报流程，可按步骤逐项确认。',
     category: 'IT/通信',
     excerpt: '在韩国使用位置数据的导航、外卖、房产平台等企业，须在上线前向放送通信委员会完成位置基础服务事业申报。',
     content: `<div class="toc"><p>目录</p><ol><li>申报概述</li><li>申报义务对象</li><li>免除申报的情形</li><li>所需材料</li><li>申报流程</li><li>申报后合规义务</li><li>常见问题</li></ol></div>
@@ -3094,14 +3094,14 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 向韩国用户提供服务的外国企业也需要申报吗？</p><p class="faq-a">A. 是的。向韩国用户提供位置基础服务的外国企业同样适用申报义务。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 申报有费用吗？</p><p class="faq-a">A. 无政府申报费。但服务说明书和保护措施计划书的撰写通常需要专业人士协助。</p></div>
 </div>
-<div class="cta-box"><h3>需要位置基础服务申报代理？</h3><p>YouSun Administrative Agency提供从材料准备到方通委申报的一站式代理服务。初次咨询免费。</p><a href="/zh/contact">申请免费咨询</a></div>`,
+<div class="cta-box"><h3>需要位置基础服务申报代理？</h3><p>YouSun Administrative Agency提供从材料准备到方通委申报的一站式代理服务。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
   {
     slug: 'location-based-service-domestic-registration-guide',
     locale: 'ja',
     title: '韓国位置情報サービス事業届出ガイド2026 — ナビ・配達・不動産アプリ必読',
     metaTitle: '韓国位置情報サービス事業届出2026 — LBS事業開始前の必須手続き',
-    metaDescription: '韓国で位置情報サービス（LBS）を提供するには放送通信委員会への届出が必要。配達アプリ・ナビ・不動産プラットフォームの事前届出手順を解説。無料初回相談。',
+    metaDescription: '韓国で位置情報サービス（LBS）を提供するには放送通信委員会への届出が必要。配達アプリ・ナビ・不動産プラットフォームの事前届出手順を解説。',
     category: 'IT・通信',
     excerpt: '韓国でナビ・配達・不動産アプリなど位置情報を活用するサービスを提供する企業は、サービス開始前に放送通信委員会（放通委）へ届出が必要です。',
     content: `<div class="toc"><p>目次</p><ol><li>届出概要</li><li>届出義務対象</li><li>届出免除ケース</li><li>必要書類</li><li>届出手順</li><li>届出後の義務</li><li>よくある質問</li></ol></div>
@@ -3118,7 +3118,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 韓国ユーザーにサービスを提供する外国企業も届出が必要ですか？</p><p class="faq-a">A. はい。韓国ユーザーに位置情報サービスを提供する外国企業にも同様の届出義務があります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 届出に費用はかかりますか？</p><p class="faq-a">A. 政府への届出費用はありません。ただし、サービス説明書と保護措置計画書の作成には専門家の支援が必要な場合が多いです。</p></div>
 </div>
-<div class="cta-box"><h3>位置情報サービス届出でお困りですか？</h3><p>YouSun Administrative Agencyが書類作成から放通委への届出まで一括代行します。初回相談無料です。</p><a href="/ja/contact">無料相談を申し込む</a></div>`,
+<div class="cta-box"><h3>位置情報サービス届出でお困りですか？</h3><p>YouSun Administrative Agencyが書類作成から放通委への届出まで一括代行します。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
 
   // ── BLOG 116: mainbiz-certification-requirements-process ────────────────────
@@ -3127,7 +3127,7 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Mainbiz Certification in Korea — Requirements, Evaluation & Application Process',
     metaTitle: 'Mainbiz Certification Korea — Requirements and Application Guide 2026',
-    metaDescription: 'Complete guide to Mainbiz (Management Innovation SME) certification in Korea. Eligibility, 1,000-point evaluation system. Free consultation.',
+    metaDescription: 'Complete guide to Mainbiz (Management Innovation SME) certification in Korea. Eligibility, 1,000-point evaluation system.',
     category: 'Business Certification',
     excerpt: 'Mainbiz (Main-Biz) is a Korean government certification for SMEs demonstrating superior management innovation. Learn eligibility criteria, the 1,000-point evaluation system, required documents, and preferential benefits.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is Mainbiz Certification?</li><li>Eligibility Requirements</li><li>Evaluation Criteria and Scoring</li><li>Step-by-Step Application Process</li><li>Required Documents</li><li>Benefits After Certification</li><li>Common Pitfalls and How to Avoid Them</li><li>FAQ</li></ol></div>
@@ -3221,7 +3221,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a company with less than 3 years of business history apply?</p><p class="faq-a">A. No. Only SMEs with at least 3 years of operation are eligible. Startups should consider Venture certification first.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can Mainbiz and Innobiz certification be held simultaneously?</p><p class="faq-a">A. Yes. The two certifications are independent and dual certification is permitted. Companies often pursue both to maximize preferential benefits.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Are there costs beyond the on-site evaluation fee?</p><p class="faq-a">A. Fees vary by case. We provide accurate quotes during free consultation.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Are there costs beyond the on-site evaluation fee?</p><p class="faq-a">A. Fees vary by case. We provide accurate quotes during the consultation.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What if the company exceeds SME thresholds during the certification period?</p><p class="faq-a">A. The certification becomes void if the company no longer qualifies as an SME. Notify the managing institution immediately upon any change in company scale.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can a company reapply after scoring below 600 on the self-assessment?</p><p class="faq-a">A. Yes. There is no limit on reapplication attempts. Address weak evaluation areas and resubmit the self-assessment.</p></div>
 </div>
@@ -3239,7 +3239,7 @@ const blogData: BlogI18n[] = [
     locale: 'zh',
     title: '韩国Main-Biz认证指南 — 申请条件·评估标准·办理流程详解',
     metaTitle: '韩国Main-Biz经营创新型中小企业认证2026 — 条件与流程',
-    metaDescription: '韩国Main-Biz认证申请条件、1000分评估体系、所需材料及优惠政策全解析。有效期3年，享受利率优惠、税务检查延期等政策红利。免费咨询。',
+    metaDescription: '韩国Main-Biz认证申请条件、1000分评估体系、所需材料及优惠政策全解析。有效期3年，享受利率优惠、税务检查延期等政策红利。咨询。',
     category: '企业认证',
     excerpt: 'Main-Biz（经营创新型中小企业）是韩国中小风险企业部颁发的政府认证，面向经营创新能力突出的中小企业。本文详解申请资格、1000分评估体系及优惠政策。',
     content: `<div class="toc"><p>目录</p><ol><li>Main-Biz认证概述</li><li>申请资格条件</li><li>评估标准与分值体系</li><li>申请流程分步说明</li><li>所需材料清单</li><li>认证后优惠政策</li><li>注意事项与常见失误</li><li>常见问题（FAQ）</li></ol></div>
@@ -3332,7 +3332,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-section"><h2>常见问题（FAQ）</h2>
 <div class="faq-item"><p class="faq-q">Q. 创业不足3年的企业可以申请吗？</p><p class="faq-a">A. 不可以。仅业龄满3年以上的中小企业方可申请。初创企业建议优先考虑风险企业认证。</p></div>
 <div class="faq-item"><p class="faq-q">Q. Main-Biz与Innobiz认证可以同时持有吗？</p><p class="faq-a">A. 可以。两项认证相互独立，允许同时获得，企业可享受双重优惠政策。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 除现场评估费用外还有其他费用吗？</p><p class="faq-a">A. 费用因案件而异，免费咨询时为您提供准确报价。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 除现场评估费用外还有其他费用吗？</p><p class="faq-a">A. 费用因案件而异，咨询时为您提供准确报价。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 认证有效期内企业规模超过中小企业标准怎么办？</p><p class="faq-a">A. 认证效力自动失效。规模发生变化时须立即通知主管机关。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 自我诊断低于600分后可以重新申请吗？</p><p class="faq-a">A. 可以，重新申请次数不受限制。针对薄弱项完善材料后可再次参加自我诊断。</p></div>
 </div>
@@ -3350,7 +3350,7 @@ const blogData: BlogI18n[] = [
     locale: 'ja',
     title: '韓国メインビズ認証ガイド — 申請要件・評価基準・手続き完全解説',
     metaTitle: '韓国メインビズ(Main-Biz)認証2026 — 申請要件と手続きガイド',
-    metaDescription: '韓国メインビズ（経営革新型中小企業）認証の申請資格・1000点評価体系・必要書類・優遇措置を徹底解説。有効期間3年、金利優遇・税務調査猶予など政策支援あり。無料相談受付中。',
+    metaDescription: '韓国メインビズ（経営革新型中小企業）認証の申請資格・1000点評価体系・必要書類・優遇措置を徹底解説。有効期間3年、金利優遇・税務調査猶予など政策支援あり。ご相談受付中。',
     category: '企業認証',
     excerpt: 'メインビズ（Main-Biz）は韓国中小ベンチャー企業部が運営する、経営革新能力に優れた中小企業を認定する政府認証制度です。申請資格・1000点評価体系・認証後の優遇措置を詳しく解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>메인비즈 인증이란?（メインビズ認証とは）</li><li>申請資格要件</li><li>評価基準と点数体系</li><li>申請手順ステップ別解説</li><li>必要書類一覧</li><li>認証後の優遇措置</li><li>注意事項と不認定防止策</li><li>よくある質問（FAQ）</li></ol></div>
@@ -3445,7 +3445,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-section"><h2>よくある質問（FAQ）</h2>
 <div class="faq-item"><p class="faq-q">Q. 業歴3年未満の企業でも申請できますか？</p><p class="faq-a">A. できません。業歴3年以上の中小企業のみ申請可能です。創業初期企業はベンチャー企業認証を先にご検討ください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. メインビズとイノビズ認証を同時に取得できますか？</p><p class="faq-a">A. はい。両認証は独立した制度であり、重複取得が認められています。双方の優遇措置をすべて受けられるため、同時取得を目指す企業も多くあります。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 現地評価手数料以外に費用はかかりますか？</p><p class="faq-a">A. 費用は案件ごとに異なります。無料相談時に正確にご案内いたします。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 現地評価手数料以外に費用はかかりますか？</p><p class="faq-a">A. 費用は案件ごとに異なります。ご相談時に正確にご案内いたします。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 認証有効期間中に中小企業の規模要件を超えた場合はどうなりますか？</p><p class="faq-a">A. 認証の効力が失効します。規模変更が生じた場合は直ちに主管機関へ通知してください。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 自己診断で600点未満だった場合、再申請はできますか？</p><p class="faq-a">A. はい。再申請回数の制限はありません。弱点項目の証拠書類を補充した後、再度自己診断を実施できます。</p></div>
 </div>
@@ -3502,8 +3502,8 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
   <h3>Prepare for Inno-Biz or Main-Biz with Expert Support</h3>
-  <p>YouSun Administrative Agency (Korea) supports you from pre-assessment screening through certificate issuance for both certifications. Initial consultation is free.</p>
-  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">Book Free Consultation</a>
+  <p>YouSun Administrative Agency (Korea) supports you from pre-assessment screening through certificate issuance for both certifications.</p>
+  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">Book Consultation</a>
 </div>
 
 <p class="author-block">YouSun Administrative Agency (Representative Administrative Agent: Jung Yu-sun)</p>`
@@ -3552,8 +3552,8 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
   <h3>专业咨询，助您顺利通过Inno-Biz·Main-Biz认证</h3>
-  <p>유선行정사사무소（韩国）提供从预评估诊断到认证书颁发的全程一站式服务。初次咨询免费。</p>
-  <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">预约免费咨询</a>
+  <p>유선行정사사무소（韩国）提供从预评估诊断到认证书颁发的全程一站式服务。</p>
+  <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">预约咨询</a>
 </div>
 
 <p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`
@@ -3602,8 +3602,8 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
   <h3>イノビズ・メインビズ認証、専門家と一緒に準備しましょう</h3>
-  <p>YouSun Administrative Agency（韓国）は事前診断から認証書取得まで、両認証をワンストップでサポートします。初回相談は無料です。</p>
-  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">無料相談を申し込む</a>
+  <p>YouSun Administrative Agency（韓国）は事前診断から認証書取得まで、両認証をワンストップでサポートします。</p>
+  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=innobiz-vs-mainbiz">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`
@@ -3716,13 +3716,13 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. How long does personal location information business registration take?</p><p class="faq-a">A. Under Article 2(5) of the Enforcement Decree the Commission notifies its decision within two months of receiving the application, extendable once by up to two months. Time spent on document supplementation is not counted.</p></div>
 <div class="faq-item"><p class="faq-q">Q. I launched under the small-business exemption. When must I file?</p><p class="faq-a">A. Within one month of the commencement date if you continue operating beyond one month. If you later cease to qualify as a small business, you must convert to a standard filing within one month of that event.</p></div>
 <div class="faq-item"><p class="faq-q">Q. What do I file when the office moves?</p><p class="faq-a">A. A change of principal office is a change notification in all three categories. But if a personal location information operator also moves servers or other main equipment, that is a change registration, not a change notification.</p></div>
-<div class="faq-item"><p class="faq-q">Q. How much does filing assistance cost?</p><p class="faq-a">A. Fees vary case by case, so we provide an exact quote during the free initial consultation.</p></div>
+<div class="faq-item"><p class="faq-q">Q. How much does filing assistance cost?</p><p class="faq-a">A. Fees vary case by case, so we provide an exact quote during the initial consultation.</p></div>
 </div>
 
 <div class="cta-block">
  <h3>Talk to a Licensed Specialist</h3>
  <p>YouSun Administrative Agency guides you from category assessment through business plan drafting and supplementation responses, for both registration and notification routes. Phone +82-2-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">Request a Free Consultation</a>
+ <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">Request a Consultation</a>
 </div>
 
 <p class="author-block">YouSun Administrative Agency (Representative Administrative Agent: Jung Yu-sun)</p>`,
@@ -3835,13 +3835,13 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 个人位置信息事业登记需要多长时间？</p><p class="faq-a">A. 依据施行令第2条第5款，自收到申请书之日起2个月以内通知是否登记，有不得已事由时可在2个月范围内延长一次。补正材料所需期间不计入该2个月。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 以小工商业者特例先行开展服务的，何时须申报？</p><p class="faq-a">A. 事业开始满1个月后仍拟继续运营的，须自事业开始之日起1个月内申报。此后不再属于小工商业者等的，须自该事由发生之日起1个月内补充为一般申报。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 事务所迁址须办理何种手续？</p><p class="faq-a">A. 三类事业的主要事务所所在地变更均属变更申报对象。但个人位置信息事业者变更位置信息系统时属于变更登记而非变更申报，若迁址同时迁移服务器等主要设备，应按变更登记办理。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 登记·申报代理费用是多少？</p><p class="faq-a">A. 费用因个案而异，将在免费咨询时准确告知。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 登记·申报代理费用是多少？</p><p class="faq-a">A. 费用因个案而异，将在咨询时准确告知。</p></div>
 </div>
 
 <div class="cta-block">
  <h3>申请专家咨询</h3>
  <p>从类型判断到事业计划书撰写及补正应对，位置信息事业登记与位置基础服务事业申报全流程由YouSun Administrative Agency协助办理。电话 +82-2-363-2251，工作日 09:30~17:30 KST。</p>
- <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">申请免费咨询</a>
+ <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">申请咨询</a>
 </div>
 
 <p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`,
@@ -3956,13 +3956,13 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 個人位置情報事業の登録にはどのくらいかかりますか？</p><p class="faq-a">A. 施行令第2条第5項により、申請書を受理した日から2か月以内に登録の可否が通知され、やむを得ない事情がある場合は2か月の範囲で1回に限り延長されます（位置情報法施行令第2条第5項）。書類補完に要した期間はこの2か月に算入されません。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 小商工人の特例で届出をせずにサービスを開始しました。いつまでに届け出ればよいですか？</p><p class="faq-a">A. 事業開始から1か月が経過した後も継続して運営する場合は、事業開始日から1か月以内に届け出る必要があります。その後、小商工人等に該当しなくなった場合は、事由の発生日から1か月以内に通常の届出へ補完しなければなりません。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 事務所を移転した場合はどの手続が必要ですか？</p><p class="faq-a">A. 3類型のいずれも、主たる事務所の所在地の変更は変更届出の対象です。ただし個人位置情報事業者が位置情報システムを変更する場合は変更届出ではなく変更登録の対象ですので、移転に伴いサーバー等の主要設備も移す場合は変更登録として処理します。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 登録・届出の代行費用はいくらですか？</p><p class="faq-a">A. 費用は案件ごとに異なるため、無料相談の際に正確にご案内いたします。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 登録・届出の代行費用はいくらですか？</p><p class="faq-a">A. 費用は案件ごとに異なるため、ご相談の際に正確にご案内いたします。</p></div>
 </div>
 
 <div class="cta-block">
- <h3>無料相談を申し込む</h3>
+ <h3>ご相談を申し込む</h3>
  <p>位置情報事業の登録および位置基盤サービス事業の届出について、類型判断から事業計画書の作成・補完対応まで、YouSun Administrative Agency（日本の行政書士事務所に相当する韓国の行政士事務所）がサポートいたします。電話 +82-2-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">無料相談を申し込む</a>
+ <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">YouSun Administrative Agency（代表行政士 정유선）</p>`,
@@ -4025,7 +4025,7 @@ const blogData: BlogI18n[] = [
 
 <h2>Duties Owed to You After Engagement</h2>
 <p>Once the mandate is in place, the administrative agent must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
-<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the administrative agent nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
+<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the administrative agent nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the consultation.</p>
 <p>Confidentiality survives the engagement: an administrative agent, a former administrative agent and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
@@ -4039,7 +4039,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
  <p>Yuseon Administrative Agent Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Principal Administrative Agent Jeong Yuseon)</p>`
@@ -4102,7 +4102,7 @@ const blogData: BlogI18n[] = [
 
 <h2>委托之后行政士承担的义务</h2>
 <p>委托合同成立后，行政士须维持品位，以诚信公正履行职务；在履行受托业务过程中因故意或过失致委托人财产损害的，负赔偿责任。</p>
-<p>报酬关系亦由法律规定。行政士自委托人收取报酬，行政士及其事务职员不得以任何名目在报酬之外向委托人收取金钱、财产利益或其他对待给付。若在递交过程中被要求另行付费，请确认该项目是否为向行政机关缴纳的法定手续费。费用因个案而异，将于免费咨询时准确说明。</p>
+<p>报酬关系亦由法律规定。行政士自委托人收取报酬，行政士及其事务职员不得以任何名目在报酬之外向委托人收取金钱、财产利益或其他对待给付。若在递交过程中被要求另行付费，请确认该项目是否为向行政机关缴纳的法定手续费。费用因个案而异，将于咨询时准确说明。</p>
 <p>保密义务在委托结束后仍存续：行政士或曾为行政士者（含现任及曾任事务职员），不得无正当理由泄露因职务知悉的事实。行业判断不明时的要点见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
@@ -4116,7 +4116,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>先厘清可以委托的范围</h3>
  <p>柳善行政士事务所将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
 <p class="author-block">柳善行政士事务所（代表行政士 郑柳善）</p>`
@@ -4180,7 +4180,7 @@ const blogData: BlogI18n[] = [
 
 <h2>委任後に行政士が負う義務</h2>
 <p>委任契約が成立すると、行政士は品位を保持し、信義と誠実をもって公正に職務を遂行する義務を負います。委任された業務の遂行に際し故意又は過失で委任者に財産上の損害を与えた場合は、その損害を賠償する責任があります。</p>
-<p>報酬関係も法律に定められています。行政士は業務を委任した者から報酬を受け、行政士及びその事務職員は業務に関して報酬以外にいかなる名目でも委任者から金銭・財産上の利益その他の反対給付を受けることができません。提出の過程で別途の費用を求められた場合は、その項目が行政機関に納める法定手数料かどうかをご確認ください。費用は事案ごとに異なりますので、無料相談の際に正確にご案内いたします。</p>
+<p>報酬関係も法律に定められています。行政士は業務を委任した者から報酬を受け、行政士及びその事務職員は業務に関して報酬以外にいかなる名目でも委任者から金銭・財産上の利益その他の反対給付を受けることができません。提出の過程で別途の費用を求められた場合は、その項目が行政機関に納める法定手数料かどうかをご確認ください。費用は事案ごとに異なりますので、ご相談の際に正確にご案内いたします。</p>
 <p>守秘義務は委任終了後も残ります。行政士又は行政士であった者（その事務職員及び事務職員であった者を含む）は、正当な理由なく職務上知り得た事実を他人に漏らしてはなりません。許認可書類には事業計画と財務情報が含まれるため、この条文は実質的な保護となります。業種の判断が難しい場合の確認点は<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>にまとめています。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
@@ -4194,7 +4194,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>まず委任できる範囲を整理します</h3>
  <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かを柳善行政士事務所が先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">柳善行政士事務所（代表行政士 鄭柳善）</p>`
@@ -4261,7 +4261,7 @@ const blogData: BlogI18n[] = [
 <h2>Approval for Use and Penalties</h2>
 <p>Where a permit or report is required and the aggregate floor area being converted is 100 square metres or more, the approval-for-use provisions apply — unless that aggregate is under 500 square metres with no major repair work. At 500 square metres or more under a permit, Article 23 applies to the design, so a licensed architect must prepare it; a single-storey livestock shed becoming a factory is excluded where no extension, reconstruction or major repair is involved.</p>
 <p>Skipping the procedure attracts sanctions on two tracks. The permitting authority may revoke a permit, or order the owner or contractor to stop work or to carry out demolition, a change of use or a ban on use, and may request that business permits under other statutes be withheld. Continued non-compliance attracts an enforcement fine, increased by ordinance where the violation was for profit or habitual.</p>
-<p>Criminal liability applies separately. Under Article 108(1)1 of the Building Act, an owner or contractor who changes the use of a building in an urban area in violation of Article 19(1) or (2) faces imprisonment for up to 3 years or a fine of up to KRW 500 million, and imprisonment and the fine may be imposed concurrently. "We only changed the signage" and "the tenant handled it" are not defences. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Criminal liability applies separately. Under Article 108(1)1 of the Building Act, an owner or contractor who changes the use of a building in an urban area in violation of Article 19(1) or (2) faces imprisonment for up to 3 years or a fine of up to KRW 500 million, and imprisonment and the fine may be imposed concurrently. "We only changed the signage" and "the tenant handled it" are not defences. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How do I tell whether my case needs a permit or a report?</p><p class="faq-a">A. Compare the facility group numbers of the current and target use. Article 19(4) sets out nine groups and Article 14(5) of the Decree assigns the detailed uses. Smaller number: permit. Larger: report. Same: amend the building register entry.</p></div>
@@ -4274,7 +4274,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>We confirm whether it is a permit or a report first</h3>
  <p>We review your building register and drawings, settle the facility group classification and map the procedure. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -4342,7 +4342,7 @@ const blogData: BlogI18n[] = [
 <h2>使用批准、设计要件与违反时的处罚</h2>
 <p>属于许可或申报对象的用途变更，若变更部分楼板面积合计在100平方米以上，准用使用批准规定；但该合计不满500平方米且不伴随大修工程时不予准用。属于许可对象且合计在500平方米以上的用途变更，其设计准用第23条，须由建筑师设计；一层畜舍改为工厂且不伴随扩建、改建或大修的情形除外。</p>
 <p>跳过程序，处罚会从两条线上来。许可权人可以撤销许可，或命令建筑主等停工、拆除、用途变更、禁止使用；对不履行整改命令的建筑物，可以请求不予办理其他法令上的营业许可、登记等。不履行还会被课以履行强制金，属于营利目的或惯常违反时其金额依条例加重。</p>
-<p>刑事处罚另行规定。在城市地区违反第19条第1款及第2款进行用途变更的建筑主与施工人，依《建筑法》第108条第1款第1项处三年以下有期徒刑或五亿韩元以下罚金，且可以并科。"只换了招牌""是承租人自己弄的"在这个领域绕不过去。费用因案件而异，免费咨询时会准确说明。</p>
+<p>刑事处罚另行规定。在城市地区违反第19条第1款及第2款进行用途变更的建筑主与施工人，依《建筑法》第108条第1款第1项处三年以下有期徒刑或五亿韩元以下罚金，且可以并科。"只换了招牌""是承租人自己弄的"在这个领域绕不过去。费用因案件而异，咨询时会准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 怎么知道我们的情形是许可还是申报？</p><p class="faq-a">A. 对照现用途与目标用途各属第几个设施群即可。《建筑法》第19条第4款把设施群定为九个，同法施行令第14条第5款规定各设施群的细分用途。编号变小是许可，变大是申报，相同则是申请变更建筑物登记簿记载事项。</p></div>
@@ -4355,7 +4355,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>先替您确认是许可还是申报</h3>
  <p>유선행정사사무소会先看建筑物登记簿与图纸，整理设施群判断、准用标准检讨与所需程序。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -4423,7 +4423,7 @@ const blogData: BlogI18n[] = [
 <h2>使用承認・設計要件と違反時の制裁</h2>
 <p>許可や届出の対象である用途変更で、変更しようとする部分の床面積の合計が100平方メートル以上であれば使用承認の規定が準用されます。ただしその合計が500平方メートル未満で、大規模修繕に該当する工事を伴わない場合はこの限りではありません。また許可対象であって変更しようとする部分の床面積の合計が500平方メートル以上の用途変更は、設計について第23条が準用されるため建築士が設計しなければなりません。1階である畜舎を工場に用途変更する場合で、増築・改築または大規模修繕を伴わず構造安全や避難等に支障がない場合は除かれます。</p>
 <p>手続を飛ばした場合、制裁は二つの筋から来ます。許可権者は許可や承認を取り消し、または建築主等に工事の中止、解体、用途変更、使用禁止等の必要な措置を命ずることができ、是正命令に従わない建築物については他の法令による営業の許可・登録等を行わないよう要請できます。履行しなければ履行強制金が課され、営利目的や常習的な違反ではその金額が条例により加重されます。</p>
-<p>刑事罰も別にあります。都市地域において第19条第1項および第2項に違反して用途変更を行った建築主と工事施工者は、「建築法」第108条第1項第1号により3年以下の懲役または5億ウォン以下の罰金に処され、懲役と罰金は併科することができます。「看板だけ変えた」「賃借人が勝手にやった」という事情で避けられる領域ではありません。費用は案件ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>刑事罰も別にあります。都市地域において第19条第1項および第2項に違反して用途変更を行った建築主と工事施工者は、「建築法」第108条第1項第1号により3年以下の懲役または5億ウォン以下の罰金に処され、懲役と罰金は併科することができます。「看板だけ変えた」「賃借人が勝手にやった」という事情で避けられる領域ではありません。費用は案件ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 自分のケースが許可なのか届出なのか、どう判断しますか。</p><p class="faq-a">A. 現在の用途と変更後の用途がそれぞれ何番の施設群に属するかを照合します。「建築法」第19条第4項が施設群を9つと定め、同法施行令第14条第5項が各施設群の細分用途を定めています。番号が小さくなれば許可、大きくなれば届出、同じであれば建築物台帳の記載事項変更の申請です。</p></div>
@@ -4436,7 +4436,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>許可か届出かを先に確認します</h3>
  <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
@@ -4515,7 +4515,7 @@ const blogData: BlogI18n[] = [
 <li>it is a first violation after 5 years or more of exemplary operation; or</li>
 <li>indictment or sentence was suspended for the violation.</li>
 </ol>
-<p>Meeting the deadlines and checking regularly that the standards are still met avoids much of the table above. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Meeting the deadlines and checking regularly that the standards are still met avoids much of the table above. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Is running a hostel without registration punished under the Tourism Promotion Act?</p><p class="faq-a">A. Not as a blanket rule. Article 82(1) covers tourist accommodation only where a business plan was approved under Article 15(1). Otherwise the lodging report duty of the Public Health Control Act applies, with imprisonment of up to 2 years or a fine of up to KRW 20 million under its Article 20(1).</p></div>
@@ -4528,7 +4528,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Received a sanction notice or worried about a deadline?</h3>
  <p>We review your registration and the notice, then map the repetition count, the chance of conversion to a surcharge and the materials for the hearing. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -4606,7 +4606,7 @@ const blogData: BlogI18n[] = [
 <li>初次违规且5年以上模范经营；</li>
 <li>被缓起诉或宣告缓刑。</li>
 </ol>
-<p>遵守期限并定期检查登记标准，就能避开上表的大部分情形。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>遵守期限并定期检查登记标准，就能避开上表的大部分情形。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 未登记经营青年旅舍会依《观光振兴法》受处罚吗？</p><p class="faq-a">A. 不能一概而论。第82条第1项对观光住宿业仅限依第15条第1款获批事业计划的情形。其他情形适用《公共卫生管理法》的申报义务，依其第20条第1款可处2年以下有期徒刑或2000万韩元以下罚金。</p></div>
@@ -4619,7 +4619,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>收到处分通知或担心期限？</h3>
  <p>유선행정사사무소会先查看登记事项和处分通知书，整理违规次数、转换为课征金的可能性以及听证说明资料。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -4697,7 +4697,7 @@ const blogData: BlogI18n[] = [
 <li>初めての違反で、5年以上模範的に事業を営んできた場合</li>
 <li>起訴猶予または宣告猶予を受けた場合</li>
 </ol>
-<p>期限を守り、登録基準を定期的に点検するだけで、表の多くの処分は避けられます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>期限を守り、登録基準を定期的に点検するだけで、表の多くの処分は避けられます。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. ホステルを無登録で運営すると観光振興法で処罰されますか。</p><p class="faq-a">A. 一概には言えません。第82条第1号は観光宿泊業について第15条第1項の事業計画承認を受けた場合に限られます。それ以外は「公衆衛生管理法」の届出義務違反となり、同法第20条第1項により2年以下の懲役または2,000万ウォン以下の罰金の対象です。</p></div>
@@ -4710,7 +4710,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>処分通知を受けた、または期限が心配な方へ</h3>
  <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
@@ -4783,7 +4783,7 @@ const blogData: BlogI18n[] = [
 <li><strong>Combined petitions</strong> — a lead department may process multi-department permits together (Act Article 31(1); Decree Article 35).</li>
 <li><strong>On the day a request arrives</strong> — record the deadline, check each item's provision, ask the named official, and request an extension if needed (up to 2; Decree Articles 24(2) and 31).</li>
 </ul>
-<p>Delegating filing and supplements to an administrative agent rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Delegating filing and supplements to an administrative agent rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How long do I get to answer a supplement request?</p><p class="faq-a">A. The deadline is the date in the request (Article 22(1)). You may ask for an extension up to 2 times; afterwards the authority may set a new period of up to 10 days or return the application.</p></div>
@@ -4796,7 +4796,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Received a supplement request or a refusal?</h3>
  <p>We map the provision behind each item, the deadline and the objection and appeal time limits. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -4867,7 +4867,7 @@ const blogData: BlogI18n[] = [
 <li><strong>复合民愿</strong> — 可由主管部门一并处理（法第31条第1款、施行令第35条）。</li>
 <li><strong>收到补正要求当天</strong> — 记录期限、核对依据、询问经办人，必要时申请延长（限2次，施行令第24条第2款、第31条）。</li>
 </ul>
-<p>委托行政士代办的依据是《行政士法》（행정사법）第2条第1款第5项。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>委托行政士代办的依据是《行政士法》（행정사법）第2条第1款第5项。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 补正期限有多长？</p><p class="faq-a">A. 以补正要求书上的日期为准（第22条第1款）。可申请延长2次；逾期后可能被再次要求10日以内补正，也可能直接退回。</p></div>
@@ -4880,7 +4880,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>收到补正要求或驳回通知？</h3>
  <p>유선행정사사무소会整理各项要求的依据条款、补正期限以及异议和复议期限。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -4951,7 +4951,7 @@ const blogData: BlogI18n[] = [
 <li><strong>複合民願</strong> — 主務部署が一括処理できます（法第31条第1項、施行令第35条）。</li>
 <li><strong>補正要求書を受け取った日</strong> — 期限を記録し、根拠を確認し、担当者に尋ね、必要なら延長を申請します（2回まで。施行令第24条第2項、第31条）。</li>
 </ul>
-<p>行政士（日本の行政書士事務所に相当する韓国の行政士事務所）への委任の根拠は「行政士法」（행정사법）第2条第1項第5号です。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>行政士（日本の行政書士事務所に相当する韓国の行政士事務所）への委任の根拠は「行政士法」（행정사법）第2条第1項第5号です。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 補正の期限はどのくらいですか。</p><p class="faq-a">A. 補正要求書の日付が期限です（第22条第1項）。延長は2回まで申請でき、期限後は10日以内の再要求もあり得ますが、そのまま返戻されることもあります。</p></div>
@@ -4964,7 +4964,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>補正要求書や拒否通知を受け取った方へ</h3>
  <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
@@ -5036,7 +5036,7 @@ const blogData: BlogI18n[] = [
 <li>Check the result and reprint the certificate (Articles 10(1) and 15(2)).</li>
 </ol>
 <p>Article 18 sets a standard of 8 working hours, but delays for supplementation or system failure must be notified with an expected date, and filings after hours count from the next working day. With no reply within 20 days of a request to supplement, the application is returned (Article 14(4)). Actual timing depends on the authority and the documents, so do not start just before a bid deadline.</p>
-<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Our representative changed. What if we bid before registering it?</p><p class="faq-a">A. The bid is invalid under Rule Article 44(1)6-3(b) and Notice Article 16(2). Adding or removing one representative counts.</p></div>
@@ -5049,7 +5049,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Planning a change of representative, name or address?</h3>
  <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -5119,7 +5119,7 @@ const blogData: BlogI18n[] = [
 <li>确认结果并重新打印登记证（第10条第1款、第15条第2款）。</li>
 </ol>
 <p>第18条以8个工作小时内处理为标准，需补正或系统故障时须通知原因和预计日期，工作时间后申请视为下一工作日受理。补正要求后20日无回复则退回（第14条第4款）。实际时间因机关和文件情况而异，勿在截止前才申请。</p>
-<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 代表人已变更，变更登记前投标会怎样？</p><p class="faq-a">A. 投标无效（规则第44条第1款第6项之3第2目、告示第16条第2款）。增加或卸任一名代表人也包括在内。</p></div>
@@ -5132,7 +5132,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>即将变更代表人、商号或所在地？</h3>
  <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -5203,7 +5203,7 @@ const blogData: BlogI18n[] = [
 <li>結果を確認し登録証を出力し直す（第10条第1項、第15条第2項）。</li>
 </ol>
 <p>第18条は8勤務時間以内の処理を基準とし、補完や電算障害で遅れる場合は理由と予定日を通知し、勤務時間後の申請は翌勤務日受付とみなします。補完要請後20日回答がなければ返戻です（第14条第4項）。実際の所要時間は管轄機関と書類の状況によって異なるため、締切直前の申請は避けましょう。</p>
-<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 代表者が変わったのに変更登録前に入札するとどうなりますか。</p><p class="faq-a">A. 無効です（施行規則第44条第1項第6号の3イ目、告示第16条第2項）。代表者1人の加入や退任も含まれます。</p></div>
@@ -5216,7 +5216,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>代表者・商号・所在地の変更を控えている方へ</h3>
  <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
@@ -5301,7 +5301,7 @@ const blogData: BlogI18n[] = [
 <li>an equipment list of copiers, office PCs and general software; and</li>
 <li>a service-field application without the SME review sheet or VAT return.</li>
 </ul>
-<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Must degree certificates be attached?</p><p class="faq-a">A. They are not on the list in Rules Article 3(1), but Form 4 asks for degree numbers and KOITA may check copies under Guidelines Article 5(2). Keep the originals.</p></div>
@@ -5314,7 +5314,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Want your file checked before you submit?</h3>
  <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -5397,7 +5397,7 @@ const blogData: BlogI18n[] = [
 <li>器材只列复印机、办公电脑和通用软件；</li>
 <li>服务领域申请漏交检讨表或增值税申报书。</li>
 </ul>
-<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 必须附学位证书吗？</p><p class="faq-a">A. 施行规则第3条第1款清单中没有，但第4号书式要填学位编号，事后管理可确认复印件（申报要领第5条第2款），应保存原件。</p></div>
@@ -5410,7 +5410,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>提交前想先核对一遍材料？</h3>
  <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -5493,7 +5493,7 @@ const blogData: BlogI18n[] = [
 <li>機材現況がコピー機・事務用PC・汎用ソフトウェアのみ</li>
 <li>サービス分野なのに基準検討表や付加価値税申告書がない</li>
 </ul>
-<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 学位証明書の添付は必要ですか。</p><p class="faq-a">A. 施行規則第3条第1項の一覧にはありませんが、第4号書式に学位番号を記載し、事後管理で写しが確認されることがあるため（届出要領第5条第2項）、原本を保管してください。</p></div>
@@ -5506,7 +5506,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>提出前に書類を一度照合したい方へ</h3>
  <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、ユソン行政士事務所が先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
@@ -5583,7 +5583,7 @@ const blogData: BlogI18n[] = [
 </tbody></table>
 <p>Under Article 3(2), companies registered for arrears with the Korea Credit Information Services, under a suspension of bill transactions, in bankruptcy, rehabilitation or liquidation (except those duly performing an approved plan), or with a debt ratio of 1,000% or more or full capital impairment at the previous fiscal year-end are not eligible (items 1 to 5). The 22 June 2026 amendment added item 6: within the last 3 years, public listing for unpaid wages, public naming for industrial accidents, a fair trade corrective order, or a subsidy participation ban.</p>
 <p>The management body checks at least 1 time a month whether selected companies fall under a ground and notifies the regional office, which must retrieve the certificate within 15 days of cancellation and publish it on Mainbiz-net (Article 17(2) and (3)).</p>
-<p>Applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Applications are made on <a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz-net</a>. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Is a Mainbiz certificate extended automatically?</p><p class="faq-a">A. No. You must apply (Article 15(1)) and score 700 points or more (Article 15(4)).</p></div>
@@ -5596,7 +5596,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Is your Mainbiz term ending, or have your company details changed?</h3>
  <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -5669,7 +5669,7 @@ const blogData: BlogI18n[] = [
 <tr><td>事后管理结果不符合标准</td><td>可以撤销</td></tr>
 </tbody></table>
 <p>依第3条第2款，登记欠缴信息、票据停止交易、破产·回生·清算（正常履行回生计划的除外）、上一会计年度末负债比率1,000%以上或完全资本侵蚀的企业无申请资格（第1项至第5项）。2026年6月22日新增第6项：最近3年内被公开为欠薪雇主、被公布产业灾害、因公平交易法令受纠正命令或因补助金法受参与限制。</p>
-<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>管理机构每月至少1次确认撤销事由并通报地方厅；撤销后地方厅须在15日内收回确认书并在Mainbiz网公告（第17条第2款、第3款）。申请在<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">Mainbiz网</a>办理。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有效期届满后会自动延长吗？</p><p class="faq-a">A. 不会。须依第15条第1款申请，并依第15条第4款取得700分以上。</p></div>
@@ -5682,7 +5682,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Mainbiz即将到期或企业信息有变更？</h3>
  <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -5756,7 +5756,7 @@ const blogData: BlogI18n[] = [
 <tr><td>事後管理の結果、選定基準に適合しなくなった場合</td><td>裁量的取消</td></tr>
 </tbody></table>
 <p>第3条第2項により、滞納情報等に登録中の企業、手形取引停止処分を受けた企業、破産・回生・清算中の企業（回生計画を正常に履行中の企業を除く）、直前事業年度末の負債比率1,000%以上または完全資本蚕食の企業は申請資格がありません（第1号〜第5号）。2026年6月22日の改正で第6号が新設され、最近3年以内の賃金未払事業主の名簿公開、産業災害の公表、公正取引関連法令違反による是正命令、補助金法違反による参加制限も対象になりました。</p>
-<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>管理機関は毎月1回以上、取消事由の該当を確認して地方庁に通知し、取消後、地方庁は15日以内に確認書の返納を受けてメインビズネットで公告します（第17条第2項・第3項）。申請は<a href="https://www.smes.go.kr/mainbiz" target="_blank" rel="noopener">メインビズネット</a>で行えます。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 有効期間が切れると自動的に延長されますか。</p><p class="faq-a">A. いいえ。第15条第1項により申請が必要で、第15条第4項により700点以上を得てはじめて更新発給されます。</p></div>
@@ -5769,7 +5769,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
  <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
@@ -5784,7 +5784,7 @@ const blogData: BlogI18n[] = [
     category: 'Licensing & Permits',
     excerpt: 'Passing the state exam is not enough to act as a licensing administrative agent in Korea. Here is the statutory path — exam, disqualifications, training, association membership and business report — and what a client can verify.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Qualification Starts With the State Exam</li><li>Partial Exemptions and Disqualifications</li><li>A Licence Alone Is Not Enough — The Business Report</li><li>Office Names and Administrative Agent Corporations</li><li>How to Verify an Administrative Agent Before You Engage</li><li>Unlicensed Practice and Duties Owed to Clients</li><li>FAQ</li></ol></div>
-<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative agent) who holds the qualification under the Certified Administrative Agents Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Agents before reporting (Enforcement Decree Article 20(1)).</p>
+<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative agent) who holds the qualification under the Certified Administrative Agents Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be clear of disqualifications, complete practical training and join the Korean Association of Administrative Agents before reporting (Enforcement Decree Article 20(1)).</p>
 <p>What you may delegate is covered in our note on <a href="/blog/administrative-scrivener-scope-and-limits">the scope and limits of a licensing administrative agent</a>. Here we answer the earlier question: is the person in front of you legally an administrative agent?</p>
 
 <h2>Qualification Starts With the State Exam</h2>
@@ -5836,7 +5836,7 @@ const blogData: BlogI18n[] = [
 <li><strong>Using the title or a similar office name</strong> — an administrative fine of up to KRW 5,000,000 (Article 38(1)).</li>
 </ul>
 <p>A verified administrative agent must act fairly, compensate loss caused intentionally or negligently (Article 21), and keep duty-related facts confidential, as must staff (Article 23). A former official may not, for 1 year after retiring, act in permit applications before an agency where they worked in their final year, except agencies where they worked 1 month or less (Article 21-2; Decree Article 21-2). Administrative agents keep a case register — serial number, date, outline, remuneration, client details — for 1 year (Article 24; Decree Article 22), and must promptly issue a certificate of facts about work they performed on request (Article 20; Enforcement Rule Article 13).</p>
-<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a certificate holder start handling permits straight away?</p><p class="faq-a">A. No. Article 10(1) requires a business report, and Decree Article 20(1) requires no disqualification, completed training, the certificate and association membership. Practising without the report is punishable by up to 1 year of imprisonment or a fine of up to KRW 10,000,000 (Article 36(2)1).</p></div>
@@ -5849,7 +5849,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>Not sure what to check before you engage?</h3>
  <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
@@ -5915,7 +5915,7 @@ const blogData: BlogI18n[] = [
 <li><strong>使用行政士或类似名称</strong> — 500万韩元以下罚款（第38条第1款）。</li>
 </ul>
 <p>行政士须公正履职，因故意或过失造成损失须赔偿（第21条）；行政士及职员须保守职务秘密（第23条）。退休公务员1年内不得承接其退休前1年任职机关的许可代理业务，任职1个月以下的机关除外（第21条之2，施行令第21条之2）。行政士须将记载序号、日期、概要、报酬和委托人信息的业务处理簿保存1年（第24条，施行令第22条），并应委托人申请及时出具事实确认证明书（第20条，施行规则第13条）。</p>
-<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>另见<a href="/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 有资格证就能马上代办许可吗？</p><p class="faq-a">A. 不能。第10条第1款要求办理业务申报，施行令第20条第1款要求无欠格事由、完成实务教育、持有资格证并加入行政士会。未申报执业的，依第36条第2款第1项处1年以下有期徒刑或1000万韩元以下罚金。</p></div>
@@ -5928,7 +5928,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>委托前不确定该核实什么？</h3>
  <p>유선행정사사무소会先出示负责行政士的业务申报确认证并说明委托范围，再按行业整理所需文件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
@@ -5994,7 +5994,7 @@ const blogData: BlogI18n[] = [
 <li><strong>名称の使用</strong> — 行政士や類似の名称の使用は500万ウォン以下の過料（第38条第1項）。</li>
 </ul>
 <p>行政士は公正に職務を行い、故意・過失による損害を賠償する責任を負い（第21条）、事務職員とともに職務上の秘密を守らなければなりません（第23条）。退職公務員は退職前1年間に勤務した機関の許認可代理を退職後1年間受任できません。ただし勤務が1か月以下の機関は除かれます（第21条の2、施行令第21条の2）。行政士は一連番号・日付・業務の概要・報酬・依頼者情報を記載した業務処理簿を1年間保管し（第24条、施行令第22条）、申請があれば業務に関する事実確認証明書を直ちに発給しなければなりません（第20条、施行規則第13条）。</p>
-<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>あわせて<a href="/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方</a>もご覧ください。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 資格証があればすぐに許認可代行ができますか。</p><p class="faq-a">A. できません。第10条第1項は業務申告を求め、施行令第20条第1項は欠格事由がないこと、実務教育の修了、資格証、行政士会への加入を基準としています。申告なしの業務は第36条第2項第1号により1年以下の懲役または1,000万ウォン以下の罰金の対象です。</p></div>
@@ -6007,7 +6007,7 @@ const blogData: BlogI18n[] = [
 <div class="cta-block">
  <h3>依頼前に何を確認すべきかお悩みの方へ</h3>
  <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`

@@ -3,7 +3,7 @@
 // 대표 검색어: "식품제조가공업 통신판매업 신고" — GSC 약 29회 노출·클릭 0, 이 의도를 겨냥한 기존 글 없음(착지는 license-guide 의 우연 노출).
 // 이전 장문 초안(bank/food-manufacturing-online-sales-report.prev.mjs.txt, BLOG-REFILL-1014 보류)을 새 분량으로 압축 재작성.
 //   - 식품제조·가공업은 '허가'가 아니라 '등록'(시행령 제26조의2) — 4언어 모두 registration/登记/登録.
-//   - 화면 조문·별표 번호 전부 제거, 근거는 <!-- 근거: --> 주석에만. '무료' CTA 제거.
+//   - 화면 조문·별표 번호 전부 제거, 근거는 <!-- 근거: --> 주석에만. 비용 면제 CTA 제거.
 //
 // 겹침 검사(기존 글과 경계):
 //   food-manufacturing-license-guide(등록 절차·시설기준), food-manufacturing-permit(요건·소분업), food-manufacturing-fix(처분),

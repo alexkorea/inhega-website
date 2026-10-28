@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `${serviceCount} Licensing & Permit Services | YouSun Administrative Agency`,
-    description: 'Professional licensing and permit representation for foreign companies and investors in Korea. Free initial consultation.',
+    description: 'Professional licensing and permit representation for foreign companies and investors in Korea.',
     url: 'https://inhega.co.kr/en/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agency Services' }],
     type: 'website',
@@ -72,9 +72,9 @@ export default function EnServicesPage() {
               Don&apos;t see the service you need?
             </h2>
             <p style={{ color: 'rgba(255,255,255,0.75)', marginBottom: '2rem' }}>
-              We can help find a solution for licenses not listed here through a free consultation.
+              We can help find a solution for licenses not listed here through a consultation.
             </p>
-            <Link href="/en/contact" className="btn btn-outline-white btn-lg">Request Free Consultation</Link>
+            <Link href="/en/contact" className="btn btn-outline-white btn-lg">Request a Consultation</Link>
           </div>
         </section>
       </div>

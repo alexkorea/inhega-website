@@ -147,12 +147,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
-                  <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>무료 상담 신청</p>
+                  <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>상담 신청</p>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-                    인허가 절차가 복잡하게 느껴지신다면 전문가와 먼저 상담해 보세요. 초기 상담은 무료입니다.
+                    인허가 절차가 복잡하게 느껴지신다면 전문가와 먼저 상담해 보세요.
                   </p>
                   <Link href="/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
-                    무료상담 신청하기
+                    상담 신청하기
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
                     <ContactLine icon="pin">서울특별시 중구 퇴계로 324, 3층</ContactLine>

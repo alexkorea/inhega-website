@@ -94,7 +94,7 @@ export default {
 <tr><td>500제곱미터 이상(허가 대상)</td><td>건축사 설계 준용<!-- 근거: 건축법 제19조 제6항 --></td></tr>
 </tbody></table>
 <p>절차를 건너뛰면 제재는 두 갈래로 옵니다. 먼저 허가권자는 위반되는 건축물에 대하여 허가나 승인을 취소하거나 건축주등에게 공사 중지, 해체, 용도변경, 사용금지, 사용제한 등 필요한 조치를 명할 수 있고, 시정명령을 받고 이행하지 않은 건축물에 대해서는 다른 법령에 따른 영업 허가·등록 등을 하지 않도록 요청할 수 있습니다.<!-- 근거: 건축법 제79조 제1항·제2항 --> 시정명령을 받고도 이행하지 않으면 이행강제금이 부과되며, 영리 목적의 위반이나 상습적 위반 등 대통령령으로 정하는 경우에는 그 금액이 조례에 따라 가중됩니다.<!-- 근거: 건축법 제80조 제1항·제2항 --></p>
-<p>형사처벌도 별도로 있습니다. 도시지역에서 제19조 제1항 및 제2항을 위반하여 용도변경을 한 건축주와 공사시공자는 3년 이하의 징역이나 5억원 이하의 벌금에 처해지며, 징역과 벌금은 병과할 수 있습니다.<!-- 근거: 건축법 제108조 제1항 제1호·제2항 --> "간판만 바꿨다"거나 "임차인이 알아서 했다"는 사정으로 비켜갈 수 있는 영역이 아닙니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>형사처벌도 별도로 있습니다. 도시지역에서 제19조 제1항 및 제2항을 위반하여 용도변경을 한 건축주와 공사시공자는 3년 이하의 징역이나 5억원 이하의 벌금에 처해지며, 징역과 벌금은 병과할 수 있습니다.<!-- 근거: 건축법 제108조 제1항 제1호·제2항 --> "간판만 바꿨다"거나 "임차인이 알아서 했다"는 사정으로 비켜갈 수 있는 영역이 아닙니다. 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <p>마지막으로 기존 건축물의 사정도 함께 봐야 합니다. 법령이 제정·개정되어 기존 건축물이나 대지가 현행 기준에 부적합해진 경우에는 건축조례로 정하는 바에 따라 용도변경을 할 수 있으므로, 준공 시점이 오래된 건물이라면 조례의 완화 규정이 있는지 확인하는 것이 실익이 큽니다.<!-- 근거: 건축법 시행령 제14조 제6항 --> 반대로 조례에 완화 규정이 없으면 현행 기준을 그대로 맞춰야 하므로, 공사 범위와 예산 계획이 처음 구상과 크게 달라질 수 있습니다.</p>
 
@@ -109,7 +109,7 @@ export default {
 <div class="cta-block">
  <h3>허가인지 신고인지부터 확인해 드립니다</h3>
  <p>건축물대장과 도면을 보고 시설군 판정, 준용 기준 검토, 필요 절차를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 건축법 법률 제21035호, 건축법 시행령 대통령령 제36587호 --></p>`,
@@ -174,7 +174,7 @@ export default {
 <h2>Approval for Use and Penalties</h2>
 <p>Where a permit or report is required and the aggregate floor area being converted is 100 square metres or more, the approval-for-use provisions apply — unless that aggregate is under 500 square metres with no major repair work. At 500 square metres or more under a permit, Article 23 applies to the design, so a licensed architect must prepare it; a single-storey livestock shed becoming a factory is excluded where no extension, reconstruction or major repair is involved.</p>
 <p>Skipping the procedure attracts sanctions on two tracks. The permitting authority may revoke a permit, or order the owner or contractor to stop work or to carry out demolition, a change of use or a ban on use, and may request that business permits under other statutes be withheld. Continued non-compliance attracts an enforcement fine, increased by ordinance where the violation was for profit or habitual.</p>
-<p>Criminal liability applies separately. Under Article 108(1)1 of the Building Act, an owner or contractor who changes the use of a building in an urban area in violation of Article 19(1) or (2) faces imprisonment for up to 3 years or a fine of up to KRW 500 million, and imprisonment and the fine may be imposed concurrently. "We only changed the signage" and "the tenant handled it" are not defences. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Criminal liability applies separately. Under Article 108(1)1 of the Building Act, an owner or contractor who changes the use of a building in an urban area in violation of Article 19(1) or (2) faces imprisonment for up to 3 years or a fine of up to KRW 500 million, and imprisonment and the fine may be imposed concurrently. "We only changed the signage" and "the tenant handled it" are not defences. Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How do I tell whether my case needs a permit or a report?</p><p class="faq-a">A. Compare the facility group numbers of the current and target use. Article 19(4) sets out nine groups and Article 14(5) of the Decree assigns the detailed uses. Smaller number: permit. Larger: report. Same: amend the building register entry.</p></div>
@@ -187,7 +187,7 @@ export default {
 <div class="cta-block">
  <h3>We confirm whether it is a permit or a report first</h3>
  <p>We review your building register and drawings, settle the facility group classification and map the procedure. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -254,7 +254,7 @@ export default {
 <h2>使用批准、设计要件与违反时的处罚</h2>
 <p>属于许可或申报对象的用途变更，若变更部分楼板面积合计在100平方米以上，准用使用批准规定；但该合计不满500平方米且不伴随大修工程时不予准用。属于许可对象且合计在500平方米以上的用途变更，其设计准用第23条，须由建筑师设计；一层畜舍改为工厂且不伴随扩建、改建或大修的情形除外。</p>
 <p>跳过程序，处罚会从两条线上来。许可权人可以撤销许可，或命令建筑主等停工、拆除、用途变更、禁止使用；对不履行整改命令的建筑物，可以请求不予办理其他法令上的营业许可、登记等。不履行还会被课以履行强制金，属于营利目的或惯常违反时其金额依条例加重。</p>
-<p>刑事处罚另行规定。在城市地区违反第19条第1款及第2款进行用途变更的建筑主与施工人，依《建筑法》第108条第1款第1项处三年以下有期徒刑或五亿韩元以下罚金，且可以并科。"只换了招牌""是承租人自己弄的"在这个领域绕不过去。费用因案件而异，免费咨询时会准确说明。</p>
+<p>刑事处罚另行规定。在城市地区违反第19条第1款及第2款进行用途变更的建筑主与施工人，依《建筑法》第108条第1款第1项处三年以下有期徒刑或五亿韩元以下罚金，且可以并科。"只换了招牌""是承租人自己弄的"在这个领域绕不过去。费用因案件而异，咨询时会准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 怎么知道我们的情形是许可还是申报？</p><p class="faq-a">A. 对照现用途与目标用途各属第几个设施群即可。《建筑法》第19条第4款把设施群定为九个，同法施行令第14条第5款规定各设施群的细分用途。编号变小是许可，变大是申报，相同则是申请变更建筑物登记簿记载事项。</p></div>
@@ -267,7 +267,7 @@ export default {
 <div class="cta-block">
  <h3>先替您确认是许可还是申报</h3>
  <p>유선행정사사무소会先看建筑物登记簿与图纸，整理设施群判断、准用标准检讨与所需程序。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -334,7 +334,7 @@ export default {
 <h2>使用承認・設計要件と違反時の制裁</h2>
 <p>許可や届出の対象である用途変更で、変更しようとする部分の床面積の合計が100平方メートル以上であれば使用承認の規定が準用されます。ただしその合計が500平方メートル未満で、大規模修繕に該当する工事を伴わない場合はこの限りではありません。また許可対象であって変更しようとする部分の床面積の合計が500平方メートル以上の用途変更は、設計について第23条が準用されるため建築士が設計しなければなりません。1階である畜舎を工場に用途変更する場合で、増築・改築または大規模修繕を伴わず構造安全や避難等に支障がない場合は除かれます。</p>
 <p>手続を飛ばした場合、制裁は二つの筋から来ます。許可権者は許可や承認を取り消し、または建築主等に工事の中止、解体、用途変更、使用禁止等の必要な措置を命ずることができ、是正命令に従わない建築物については他の法令による営業の許可・登録等を行わないよう要請できます。履行しなければ履行強制金が課され、営利目的や常習的な違反ではその金額が条例により加重されます。</p>
-<p>刑事罰も別にあります。都市地域において第19条第1項および第2項に違反して用途変更を行った建築主と工事施工者は、「建築法」第108条第1項第1号により3年以下の懲役または5億ウォン以下の罰金に処され、懲役と罰金は併科することができます。「看板だけ変えた」「賃借人が勝手にやった」という事情で避けられる領域ではありません。費用は案件ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>刑事罰も別にあります。都市地域において第19条第1項および第2項に違反して用途変更を行った建築主と工事施工者は、「建築法」第108条第1項第1号により3年以下の懲役または5億ウォン以下の罰金に処され、懲役と罰金は併科することができます。「看板だけ変えた」「賃借人が勝手にやった」という事情で避けられる領域ではありません。費用は案件ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 自分のケースが許可なのか届出なのか、どう判断しますか。</p><p class="faq-a">A. 現在の用途と変更後の用途がそれぞれ何番の施設群に属するかを照合します。「建築法」第19条第4項が施設群を9つと定め、同法施行令第14条第5項が各施設群の細分用途を定めています。番号が小さくなれば許可、大きくなれば届出、同じであれば建築物台帳の記載事項変更の申請です。</p></div>
@@ -347,7 +347,7 @@ export default {
 <div class="cta-block">
  <h3>許可か届出かを先に確認します</h3>
  <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

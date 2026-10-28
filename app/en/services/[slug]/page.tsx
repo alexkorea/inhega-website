@@ -117,7 +117,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
               {svc.description}
             </p>
             <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <Link href="/en/contact" className="btn btn-primary btn-lg">Free Consultation</Link>
+              <Link href="/en/contact" className="btn btn-primary btn-lg">Consultation</Link>
               <Link href="/en/contact" className="btn btn-outline-white">Get a Quote</Link>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
                 )}
 
                 <div className="fade-in delay-3" style={{ background: 'var(--white)', borderRadius: '16px', padding: '2rem', border: '2px solid var(--burgundy)' }}>
-                  <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>Free Consultation</h3>
+                  <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>Consultation</h3>
                   <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
                     Speak with a licensed Korean administrative agent. We will assess your situation and provide a clear action plan.
                   </p>

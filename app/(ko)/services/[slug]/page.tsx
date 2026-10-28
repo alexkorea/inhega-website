@@ -133,7 +133,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </p>
           <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link href="/quote" className="btn btn-primary btn-lg">견적 문의하기</Link>
-            <Link href="/contact" className="btn btn-outline-white">무료 상담</Link>
+            <Link href="/contact" className="btn btn-outline-white">상담</Link>
           </div>
         </div>
       </section>

@@ -121,7 +121,7 @@ export default async function JaServicePage({ params }: { params: Promise<{ slug
               {svc.description}
             </p>
             <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <Link href="/ja/contact" className="btn btn-primary btn-lg">無料相談</Link>
+              <Link href="/ja/contact" className="btn btn-primary btn-lg">ご相談</Link>
               <Link href="/ja/contact" className="btn btn-outline-white">見積もり依頼</Link>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default async function JaServicePage({ params }: { params: Promise<{ slug
                 )}
 
                 <div className="fade-in delay-3" style={{ background: 'var(--white)', borderRadius: '16px', padding: '2rem', border: '2px solid var(--burgundy)' }}>
-                  <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>無料相談</h3>
+                  <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>ご相談</h3>
                   <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
                     有資格の韓国行政士が直接対応します。状況を伺い、明確な対応方針をご提案します。
                   </p>

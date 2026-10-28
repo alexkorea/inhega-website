@@ -56,7 +56,7 @@ const stats = [
 ]
 
 const process = [
-  { num: '01', title: '초기 상담', desc: '사업 현황과 필요 인허가를 정확히 파악합니다. 초기 상담은 무료입니다.' },
+  { num: '01', title: '초기 상담', desc: '사업 현황과 필요 인허가를 정확히 파악합니다.' },
   { num: '02', title: '서류 준비', desc: '필요 서류 목록을 제공하고 작성·준비를 전문가가 도와드립니다.' },
   { num: '03', title: '접수 대행', desc: '관할 관청에 서류를 제출하고 처리 과정을 실시간 모니터링합니다.' },
   { num: '04', title: '심사 대응', desc: '보완 요청·추가 서류 등 심사 과정의 모든 대응을 행정사가 처리합니다.' },
@@ -111,7 +111,7 @@ export default function HomePage() {
             </p>
             <div className={`${styles.heroBtns} fade-up delay-3`}>
               <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">
-                무료 견적 문의
+                견적 문의
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
@@ -185,7 +185,7 @@ export default function HomePage() {
           {/* BOSSEYE-FIX-1014 #4: 위 섹션 제목을 되풀이하던 글자만의 박스('전문서비스 — 모든 인허가 분야를…') 대신 견적 버튼 */}
           <div className="fade-up" style={{ textAlign: 'center', marginTop: '1.5rem' }}>
             <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">
-              무료 견적 문의
+              견적 문의
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
@@ -329,10 +329,10 @@ export default function HomePage() {
           <div className={`${styles.ctaInner} fade-up`}>
             <div className={styles.ctaText}>
               <h2 className={styles.ctaTitle}>지금 바로 시작하세요</h2>
-              <p className={styles.ctaDesc}>첫 상담은 무료입니다. 사업 현황을 알려주시면 최적의 방법을 안내해 드립니다.</p>
+              <p className={styles.ctaDesc}>사업 현황을 알려주시면 최적의 방법을 안내해 드립니다.</p>
             </div>
             <div className={styles.ctaBtns}>
-              <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">무료 견적 받기</Link>
+              <Link prefetch={false} href="/quote" className="btn btn-primary btn-lg">견적 받기</Link>
               <Link prefetch={false} href="/contact" className="btn btn-outline-white btn-lg">상담 예약하기</Link>
             </div>
           </div>

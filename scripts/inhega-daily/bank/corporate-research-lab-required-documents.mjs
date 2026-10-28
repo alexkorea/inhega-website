@@ -114,7 +114,7 @@ export default {
 <li>서비스 분야로 신청하면서 중소기업 등 기준검토표나 부가가치세 신고서를 빠뜨린 경우<!-- 근거: 시행규칙 제3조 제1항 제8호 --></li>
 </ul>
 <p>서류를 사실과 다르게 꾸미는 것은 실수와 다르게 취급됩니다. 거짓이나 부정한 방법으로 인정을 받으면 같은 법 제8조에 따라 인정이 반드시 취소되고, 취소된 날부터 1년이 지날 때까지 다시 신청할 수 없습니다.<!-- 근거: 같은 법 제8조 제1항 제1호 단서, 제4항 --> 인정을 받은 자와 이를 도와준 자 모두 500만원 이하의 과태료 대상입니다.<!-- 근거: 같은 법 제10조 제1호·제2호, 제27조 제1항 제1호·제2호 --> 인정 후 명칭·소재지·연구 분야·연구개발인력 등이 바뀌면 사유 발생일부터 30일 이내에 변경신고서를 내야 하므로, 신청 서류 사본은 변경신고의 기준 자료로도 쓰입니다.<!-- 근거: 같은 법 제7조 제4항, 시행령 제7조 제2항, 시행규칙 제5조 --></p>
-<p>정리하면, 서류 준비의 핵심은 장수가 아니라 신청서·인력 현황·조직도·도면·사진이 같은 사실을 가리키도록 맞추는 데 있습니다. 서류 점검과 신청 준비는 <a href="/services/research-lab">기업부설연구소 설립</a> 안내에서 확인하실 수 있습니다. 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>정리하면, 서류 준비의 핵심은 장수가 아니라 신청서·인력 현황·조직도·도면·사진이 같은 사실을 가리키도록 맞추는 데 있습니다. 서류 점검과 신청 준비는 <a href="/services/research-lab">기업부설연구소 설립</a> 안내에서 확인하실 수 있습니다. 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 기업부설연구소 인정 신청에 학위증명서를 꼭 첨부해야 하나요?</p><p class="faq-a">A. 시행규칙 제3조 제1항의 첨부서류 목록에는 학위증명서가 없습니다. 다만 별지 제4호서식에 최종 학위와 학위번호를 적어야 하고, 신고요령 제5조 제2항에 따라 사후관리 때 학위증명서·졸업증명서 사본이나 자격증 사본을 확인할 수 있으므로 원본 자료를 보관해 두어야 합니다.</p></div>
@@ -127,7 +127,7 @@ export default {
 <div class="cta-block">
  <h3>서류를 내기 전에 한 번 맞춰 보고 싶다면</h3>
  <p>인력 현황표, 조직도, 도면과 사진이 서로 같은 사실을 가리키는지 유선행정사사무소가 먼저 점검해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: MST 282553, 282915, 283223, 행정규칙일련번호 2100000273808 --></p>`,
@@ -210,7 +210,7 @@ export default {
 <li>an equipment list of copiers, office PCs and general software; and</li>
 <li>a service-field application without the SME review sheet or VAT return.</li>
 </ul>
-<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Falsification is different from error. Recognition obtained by false means must be revoked, with no reapplication for 1 year (Act Article 8), and both the company and anyone who helped face a fine of up to KRW 5 million (Act Articles 10 and 27(1)). Later changes to name, location, field or personnel must be reported within 30 days (Decree Article 7(2)). Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Must degree certificates be attached?</p><p class="faq-a">A. They are not on the list in Rules Article 3(1), but Form 4 asks for degree numbers and KOITA may check copies under Guidelines Article 5(2). Keep the originals.</p></div>
@@ -223,7 +223,7 @@ export default {
 <div class="cta-block">
  <h3>Want your file checked before you submit?</h3>
  <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -305,7 +305,7 @@ export default {
 <li>器材只列复印机、办公电脑和通用软件；</li>
 <li>服务领域申请漏交检讨表或增值税申报书。</li>
 </ul>
-<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>以虚假方法获得认定的，必须撤销且1年内不得再申请（法第8条），获认定者和协助者均可被处500万韩元以下罚款（法第10条、第27条第1款）。认定后名称、所在地、领域、人员变更须在30日内申报（施行令第7条第2款）。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 必须附学位证书吗？</p><p class="faq-a">A. 施行规则第3条第1款清单中没有，但第4号书式要填学位编号，事后管理可确认复印件（申报要领第5条第2款），应保存原件。</p></div>
@@ -318,7 +318,7 @@ export default {
 <div class="cta-block">
  <h3>提交前想先核对一遍材料？</h3>
  <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -400,7 +400,7 @@ export default {
 <li>機材現況がコピー機・事務用PC・汎用ソフトウェアのみ</li>
 <li>サービス分野なのに基準検討表や付加価値税申告書がない</li>
 </ul>
-<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>虚偽の方法で認定を受けた場合は必ず取り消され、1年間は再申請できません（法第8条）。認定を受けた者も手助けした者も500万ウォン以下の過料の対象です（法第10条、第27条第1項）。認定後に名称・所在地・研究分野・人力が変わったら30日以内に変更届出が必要です（施行令第7条第2項）。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 学位証明書の添付は必要ですか。</p><p class="faq-a">A. 施行規則第3条第1項の一覧にはありませんが、第4号書式に学位番号を記載し、事後管理で写しが確認されることがあるため（届出要領第5条第2項）、原本を保管してください。</p></div>
@@ -413,7 +413,7 @@ export default {
 <div class="cta-block">
  <h3>提出前に書類を一度照合したい方へ</h3>
  <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、ユソン行政士事務所が先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

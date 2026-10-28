@@ -35,27 +35,27 @@ const UI: Record<IndustryLocale, {
     brand: '유선행정사사무소', home: '홈', services: '서비스', back: '모든 서비스', backHref: '/services',
     badge: '업종별 인허가',
     heroPrimary: { label: '견적 문의하기', href: '/quote' },
-    heroSecondary: { label: '무료 상담', href: '/contact' },
+    heroSecondary: { label: '상담', href: '/contact' },
     country: '대한민국', langs: '다른 언어',
   },
   en: {
     brand: 'YouSun Administrative Agency', home: 'Home', services: 'Services', back: 'All Services', backHref: '/en/services',
     badge: 'Industry Licensing',
-    heroPrimary: { label: 'Free Consultation', href: '/en/contact' },
+    heroPrimary: { label: 'Consultation', href: '/en/contact' },
     heroSecondary: { label: 'Get a Quote', href: '/en/contact' },
     country: 'Republic of Korea', langs: 'Other Languages',
   },
   zh: {
     brand: 'YouSun Administrative Agency', home: '首页', services: '服务', back: '所有服务', backHref: '/zh/services',
     badge: '行业许可',
-    heroPrimary: { label: '免费咨询', href: '/zh/contact' },
+    heroPrimary: { label: '咨询', href: '/zh/contact' },
     heroSecondary: { label: '获取报价', href: '/zh/contact' },
     country: '大韩民国', langs: '其他语言',
   },
   ja: {
     brand: 'YouSun Administrative Agency', home: 'ホーム', services: 'サービス', back: 'すべてのサービス', backHref: '/ja/services',
     badge: '業種別許認可',
-    heroPrimary: { label: '無料相談', href: '/ja/contact' },
+    heroPrimary: { label: 'ご相談', href: '/ja/contact' },
     heroSecondary: { label: '見積もり依頼', href: '/ja/contact' },
     country: '大韓民国', langs: '他の言語',
   },
@@ -285,9 +285,9 @@ function SidebarCta({ lang }: { lang: IndustryLocale }) {
     )
   }
   const t = {
-    en: { h: 'Free Consultation', p: 'Speak with a licensed Korean administrative agent. We will assess your situation and provide a clear action plan.', btn: 'Contact Us Now', line: 'Direct Line', hours: 'Mon–Fri 09:30–17:30 KST', msg: 'WeChat / WhatsApp / Kakao / LINE: ' },
-    zh: { h: '免费咨询', p: '与持牌韩国行政士直接沟通，我们将评估您的情况并提供清晰的行动方案。', btn: '立即联系我们', line: '直线电话', hours: '周一至周五 09:30–17:30 (韩国时间)', msg: '微信 / WhatsApp / Kakao / LINE: ' },
-    ja: { h: '無料相談', p: '有資格の韓国行政士が直接対応します。状況を伺い、明確な対応方針をご提案します。', btn: '今すぐお問い合わせ', line: '直通電話', hours: '月〜金 09:30–17:30 (韓国時間)', msg: 'LINE / WeChat / WhatsApp / Kakao: ' },
+    en: { h: 'Consultation', p: 'Speak with a licensed Korean administrative agent. We will assess your situation and provide a clear action plan.', btn: 'Contact Us Now', line: 'Direct Line', hours: 'Mon–Fri 09:30–17:30 KST', msg: 'WeChat / WhatsApp / Kakao / LINE: ' },
+    zh: { h: '咨询', p: '与持牌韩国行政士直接沟通，我们将评估您的情况并提供清晰的行动方案。', btn: '立即联系我们', line: '直线电话', hours: '周一至周五 09:30–17:30 (韩国时间)', msg: '微信 / WhatsApp / Kakao / LINE: ' },
+    ja: { h: 'ご相談', p: '有資格の韓国行政士が直接対応します。状況を伺い、明確な対応方針をご提案します。', btn: '今すぐお問い合わせ', line: '直通電話', hours: '月〜金 09:30–17:30 (韓国時間)', msg: 'LINE / WeChat / WhatsApp / Kakao: ' },
   }[lang]
   return (
     <div className="fade-in delay-3" style={{ background: 'var(--white)', borderRadius: '16px', padding: '2rem', border: '2px solid var(--burgundy)' }}>

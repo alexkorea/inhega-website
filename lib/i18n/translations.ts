@@ -36,7 +36,7 @@ export const translations = {
       badge: 'Korean Business Licensing Experts',
       title: 'Korean Licensing,\nHandled by\nExperts',
       desc: 'YouSun Administrative Agency specializes in all Korean government business licenses for foreign individuals and companies — from application to approval.',
-      ctaPrimary: 'Free Consultation',
+      ctaPrimary: 'Consultation',
       ctaSecondary: 'Our Services',
     },
     stats: [
@@ -53,7 +53,7 @@ export const translations = {
       badge: 'Our Process',
       title: '5 Steps to Your\nKorean Business License',
       steps: [
-        { num: '01', title: 'Consultation', desc: 'We assess your business situation and identify the exact licenses required. Initial consultation is free.' },
+        { num: '01', title: 'Consultation', desc: 'We assess your business situation and identify the exact licenses required.' },
         { num: '02', title: 'Document Prep', desc: 'We provide a full document checklist and assist with preparation of all required paperwork.' },
         { num: '03', title: 'Filing', desc: 'We submit documents to the relevant government agency and monitor progress in real-time.' },
         { num: '04', title: 'Review Response', desc: 'Our administrative agents handle all supplementary requests and agency queries on your behalf.' },
@@ -75,8 +75,8 @@ export const translations = {
     },
     cta: {
       title: 'Start Today',
-      desc: 'First consultation is free. Tell us your business situation and we will recommend the best licensing path.',
-      primary: 'Free Quote',
+      desc: 'Tell us your business situation and we will recommend the best licensing path.',
+      primary: 'Get a Quote',
       secondary: 'Book a Consultation',
     },
     services: {
@@ -149,7 +149,7 @@ export const translations = {
       badge: '韩国营业许可专业机构',
       title: '韩国营业许可，\n专业团队\n全程代办',
       desc: 'YouSun Administrative Agency专注于为外国个人及企业办理韩国政府各类营业许可证——从申请到获批，全程负责。',
-      ctaPrimary: '免费咨询',
+      ctaPrimary: '咨询',
       ctaSecondary: '查看服务',
     },
     stats: [
@@ -166,7 +166,7 @@ export const translations = {
       badge: '办理流程',
       title: '5个步骤\n获得韩国营业许可',
       steps: [
-        { num: '01', title: '初步咨询', desc: '了解您的业务情况，明确所需许可证类型。初次咨询免费。' },
+        { num: '01', title: '初步咨询', desc: '了解您的业务情况，明确所需许可证类型。' },
         { num: '02', title: '材料准备', desc: '提供完整材料清单，协助准备所有所需文件。' },
         { num: '03', title: '提交申请', desc: '向相关政府部门提交材料，实时监控审批进度。' },
         { num: '04', title: '审核应对', desc: '行政士全权处理补充材料要求及政府机关询问。' },
@@ -188,8 +188,8 @@ export const translations = {
     },
     cta: {
       title: '立即开始',
-      desc: '首次咨询免费。告知您的业务情况，我们将为您推荐最优许可方案。',
-      primary: '免费报价',
+      desc: '告知您的业务情况，我们将为您推荐最优许可方案。',
+      primary: '获取报价',
       secondary: '预约咨询',
     },
     services: {
@@ -262,7 +262,7 @@ export const translations = {
       badge: '韓国許認可の専門機関',
       title: '韓国の許認可、\n専門家に\nお任せください',
       desc: 'YouSun Administrative Agencyは、外国人・外国企業向けの韓国政府許認可手続きを専門としています。申請から取得まで一貫サポート。',
-      ctaPrimary: '無料相談',
+      ctaPrimary: 'ご相談',
       ctaSecondary: 'サービス一覧',
     },
     stats: [
@@ -279,7 +279,7 @@ export const translations = {
       badge: '手続きの流れ',
       title: '5ステップで\n韓国許認可を取得',
       steps: [
-        { num: '01', title: '初回相談', desc: 'ビジネス状況を確認し、必要な許認可を特定します。初回相談は無料です。' },
+        { num: '01', title: '初回相談', desc: 'ビジネス状況を確認し、必要な許認可を特定します。' },
         { num: '02', title: '書類準備', desc: '必要書類一覧を提供し、書類の作成・準備をサポートします。' },
         { num: '03', title: '申請代行', desc: '管轄官庁に書類を提出し、審査状況をリアルタイムで確認します。' },
         { num: '04', title: '審査対応', desc: '補完要求・追加書類など、審査中の対応を行政士が全て代行します。' },
@@ -301,8 +301,8 @@ export const translations = {
     },
     cta: {
       title: '今すぐ始めましょう',
-      desc: '初回相談は無料です。ビジネス状況をお聞かせいただければ、最適な許認可方法をご案内します。',
-      primary: '無料見積もり',
+      desc: 'ビジネス状況をお聞かせいただければ、最適な許認可方法をご案内します。',
+      primary: 'お見積もり',
       secondary: '相談予約',
     },
     services: {

@@ -102,7 +102,7 @@ export default {
 </ol>
 <p>처리 시간에 관해서는 고시 제18조가 기준을 두고 있습니다. 등록담당공무원은 서류가 접수되면 8근무시간 이내에 처리하되, 보완이나 확인이 필요하거나 전산장애 등으로 지체가 불가피하면 그 사유와 등록 예정 일자를 신청인에게 알려야 하고, 근무시간 이후 신청은 다음 근무일에 접수된 것으로 봅니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제18조 제1항·제2항 --> 보완 요청 후 20일이 지나도 회신이 없으면 등록 의사가 없는 것으로 보고 반려합니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제14조 제4항 --> 신청을 했다고 바로 효력이 생기는 것이 아니므로, 입찰서 제출 마감 직전에 변경등록을 시작하는 것은 피하는 것이 좋습니다. 실제 소요 시간은 관할 기관과 서류 상황에 따라 달라집니다.</p>
 <p>변경등록을 계속 하지 않으면 입찰 무효와 별개로 등록 자체가 정리될 수 있습니다. 갱신등록·변경등록을 하지 않은 경우는 등록 말소 사유이고, 이때는 전부가 아니라 해당 일부 등록을 말소할 수 있습니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제19조 제1항 제2호·제2항 --> 말소 전에는 말소 의사를 미리 통지해 의견제출 기회를 주어야 하며, 통지 후 15일 이내에 별도의 의사표시가 없으면 말소할 수 있습니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제19조 제3항 --> 통지는 문서로 하되 확인이 어려운 경우를 위해 시스템에 공지할 수 있으므로, 등록된 주소와 연락처가 정확해야 통지를 놓치지 않습니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제19조 제4항 --></p>
-<p>변경 사항이 없어도 1년마다 자기정보확인등록을 해야 하고, 운영자는 등록사항의 이상 여부를 수시로 점검하고, 필요하면 모든 등록자에게 갱신등록을 하게 할 수 있습니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제4조 제2항, 제9조 제5항, 제28조 제3항 --> 회사 안에서 등기·사업자등록·면허 변경이 생길 때마다 나라장터 정보를 함께 점검하는 내부 절차를 두면 이 글에서 본 무효와 말소 위험 대부분을 미리 막을 수 있습니다. 처음 등록하는 절차는 <a href="/blog/procurement-narajangteo-registration-guide">조달청 나라장터 공급업체 등록 가이드</a>에서, 참가자격 요건 전반은 <a href="/blog/g2b-bidding-qualifications">조달청 입찰참가자격 등록과 참가 자격 충족 조건</a>에서, 직접생산확인 갱신은 <a href="/blog/g2b-direct-production-renewal">직접생산확인 갱신 안내</a>에서 확인하실 수 있습니다. 변경등록 준비는 <a href="/services/procurement">조달청 나라장터 등록</a> 안내를 참고하세요. 시스템은 <a href="https://www.g2b.go.kr" target="_blank" rel="noopener">나라장터</a>에서 볼 수 있습니다. 대행 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>변경 사항이 없어도 1년마다 자기정보확인등록을 해야 하고, 운영자는 등록사항의 이상 여부를 수시로 점검하고, 필요하면 모든 등록자에게 갱신등록을 하게 할 수 있습니다.<!-- 근거: 국가종합전자조달시스템 입찰참가자격등록규정 제4조 제2항, 제9조 제5항, 제28조 제3항 --> 회사 안에서 등기·사업자등록·면허 변경이 생길 때마다 나라장터 정보를 함께 점검하는 내부 절차를 두면 이 글에서 본 무효와 말소 위험 대부분을 미리 막을 수 있습니다. 처음 등록하는 절차는 <a href="/blog/procurement-narajangteo-registration-guide">조달청 나라장터 공급업체 등록 가이드</a>에서, 참가자격 요건 전반은 <a href="/blog/g2b-bidding-qualifications">조달청 입찰참가자격 등록과 참가 자격 충족 조건</a>에서, 직접생산확인 갱신은 <a href="/blog/g2b-direct-production-renewal">직접생산확인 갱신 안내</a>에서 확인하실 수 있습니다. 변경등록 준비는 <a href="/services/procurement">조달청 나라장터 등록</a> 안내를 참고하세요. 시스템은 <a href="https://www.g2b.go.kr" target="_blank" rel="noopener">나라장터</a>에서 볼 수 있습니다. 대행 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 대표자가 바뀌었는데 변경등록 전에 입찰서를 내면 어떻게 되나요?</p><p class="faq-a">A. 그 입찰은 무효입니다. 「국가계약법 시행규칙」 제44조 제1항 제6호의3 나목은 대표자(여러 명이면 전원)의 성명을 변경등록하지 않고 낸 입찰을 무효로 정하고, 조달청 고시 제16조 제2항도 같은 내용을 둡니다. 대표자가 한 명 추가되거나 물러난 경우도 포함됩니다.<!-- 근거: 국가계약법 시행규칙 제44조 제1항 제6호의3, 입찰참가자격등록규정 제16조 제2항 --></p></div>
@@ -115,7 +115,7 @@ export default {
 <div class="cta-block">
  <h3>대표자·상호·소재지 변경을 앞두고 있다면</h3>
  <p>등기·사업자등록·면허 변경 일정과 진행 중인 입찰 공고를 함께 보고, 나라장터 변경등록 순서와 필요한 증빙을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 국가계약법 시행령 대통령령 제36338호, 국가계약법 시행규칙 재정경제부령 제1호, 조달청고시 제2026-6호 --></p>`,
@@ -185,7 +185,7 @@ export default {
 <li>Check the result and reprint the certificate (Articles 10(1) and 15(2)).</li>
 </ol>
 <p>Article 18 sets a standard of 8 working hours, but delays for supplementation or system failure must be notified with an expected date, and filings after hours count from the next working day. With no reply within 20 days of a request to supplement, the application is returned (Article 14(4)). Actual timing depends on the authority and the documents, so do not start just before a bid deadline.</p>
-<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Not filing a change is a deregistration ground, and only the affected part may be removed (Article 19(1)2 and 19(2)), after notice and a chance to respond; with no response within 15 days removal may follow (Article 19(3)). Notices may also be posted on the system (Article 19(4)), so keep contacts accurate. A self-check is due every 1 year regardless (Article 4(2)), and the operator may check records at any time or require renewal (Articles 9(5) and 28(3)). Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Our representative changed. What if we bid before registering it?</p><p class="faq-a">A. The bid is invalid under Rule Article 44(1)6-3(b) and Notice Article 16(2). Adding or removing one representative counts.</p></div>
@@ -198,7 +198,7 @@ export default {
 <div class="cta-block">
  <h3>Planning a change of representative, name or address?</h3>
  <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -267,7 +267,7 @@ export default {
 <li>确认结果并重新打印登记证（第10条第1款、第15条第2款）。</li>
 </ol>
 <p>第18条以8个工作小时内处理为标准，需补正或系统故障时须通知原因和预计日期，工作时间后申请视为下一工作日受理。补正要求后20日无回复则退回（第14条第4款）。实际时间因机关和文件情况而异，勿在截止前才申请。</p>
-<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>不办变更登记是注销事由，可仅注销相关部分（第19条第1款第2项、第2款）；须事先通知，通知后15日内无表示可注销（第19条第3款），通知也可在系统公告（第19条第4款）。即使无变更，每1年也须办自我信息确认登记（第4条第2款），运营者可随时检查（第9条第5款、第28条第3款）。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 代表人已变更，变更登记前投标会怎样？</p><p class="faq-a">A. 投标无效（规则第44条第1款第6项之3第2目、告示第16条第2款）。增加或卸任一名代表人也包括在内。</p></div>
@@ -280,7 +280,7 @@ export default {
 <div class="cta-block">
  <h3>即将变更代表人、商号或所在地？</h3>
  <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -350,7 +350,7 @@ export default {
 <li>結果を確認し登録証を出力し直す（第10条第1項、第15条第2項）。</li>
 </ol>
 <p>第18条は8勤務時間以内の処理を基準とし、補完や電算障害で遅れる場合は理由と予定日を通知し、勤務時間後の申請は翌勤務日受付とみなします。補完要請後20日回答がなければ返戻です（第14条第4項）。実際の所要時間は管轄機関と書類の状況によって異なるため、締切直前の申請は避けましょう。</p>
-<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>変更登録をしないことは抹消事由で、該当部分だけ抹消され得ます（第19条第1項第2号・第2項）。事前通知と意見提出の機会があり、通知後15日以内に意思表示がなければ抹消できます（第19条第3項）。通知はシステムにも公示され得るため（第19条第4項）、連絡先を正確に保ちましょう。変更がなくても1年ごとに自己情報確認登録が必要で（第4条第2項）、運営者は随時点検や更新登録の要求もできます（第9条第5項、第28条第3項）。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 代表者が変わったのに変更登録前に入札するとどうなりますか。</p><p class="faq-a">A. 無効です（施行規則第44条第1項第6号の3イ目、告示第16条第2項）。代表者1人の加入や退任も含まれます。</p></div>
@@ -363,7 +363,7 @@ export default {
 <div class="cta-block">
  <h3>代表者・商号・所在地の変更を控えている方へ</h3>
  <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

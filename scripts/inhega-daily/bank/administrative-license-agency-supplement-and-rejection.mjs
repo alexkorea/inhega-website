@@ -108,7 +108,7 @@ export default {
 <li><strong>복합민원 일괄 처리</strong> — 여러 부서의 인허가가 얽힌 경우 기관이 주무부서를 지정해 한꺼번에 처리하게 할 수 있으므로, 접수 전에 주무부서를 확인합니다.<!-- 근거: 민원 처리에 관한 법률 제31조 제1항, 같은 법 시행령 제35조 --></li>
 <li><strong>보완요구서 받은 날의 할 일</strong> — 기한을 기록하고, 요구 항목마다 근거 조문을 확인하고, 모호하면 안내된 담당자에게 묻고, 기한 내 준비가 어려우면 필요한 기간을 밝혀 연장을 요청합니다(2회 한정).<!-- 근거: 민원 처리에 관한 법률 시행령 제24조 제2항, 제31조 --></li>
 </ul>
-<p>신청과 보완 대응을 행정사에게 위임하는 경우 그 근거는 「행정사법」 제2조 제1항 제5호의 인가·허가 및 면허 등을 받기 위한 신청·청구 및 신고 등의 대리입니다.<!-- 근거: 행정사법 제2조 제1항 제5호 --> 업종별 요건이 복잡한 분야는 <a href="/services/building-usage">건축물 용도변경</a>, <a href="/services/food-manufacturing">식품제조가공업 허가</a> 안내에서 구비서류를 먼저 확인하실 수 있습니다. 대행 비용은 사례별로 상이하므로 무료 상담 시 정확히 안내드립니다.</p>
+<p>신청과 보완 대응을 행정사에게 위임하는 경우 그 근거는 「행정사법」 제2조 제1항 제5호의 인가·허가 및 면허 등을 받기 위한 신청·청구 및 신고 등의 대리입니다.<!-- 근거: 행정사법 제2조 제1항 제5호 --> 업종별 요건이 복잡한 분야는 <a href="/services/building-usage">건축물 용도변경</a>, <a href="/services/food-manufacturing">식품제조가공업 허가</a> 안내에서 구비서류를 먼저 확인하실 수 있습니다. 대행 비용은 사례별로 상이하므로 상담 시 정확히 안내드립니다.</p>
 
 <div class="faq-section"><h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq-item"><p class="faq-q">Q. 보완요구를 받으면 기한은 얼마나 주어지나요?</p><p class="faq-a">A. 법은 일수를 정하지 않고 "상당한 기간"을 정해 요구하도록 합니다(민원처리법 제22조 제1항). 실제 기한은 보완요구서에 적힌 날짜입니다. 기한 내 준비가 어려우면 필요한 기간을 밝혀 연장을 요청할 수 있고 요청은 2회로 한정됩니다. 기한을 넘기면 10일 이내의 기간으로 다시 요구받을 수도 있지만, 곧바로 반려될 수도 있습니다.<!-- 근거: 민원 처리에 관한 법률 시행령 제24조 제2항·제3항, 제25조 제1항 --></p></div>
@@ -121,7 +121,7 @@ export default {
 <div class="cta-block">
  <h3>보완요구서나 거부 통지를 받으셨다면</h3>
  <p>요구서와 통지서를 보고 요구 항목별 근거 조문, 보완기한과 연장 요청 가능 여부, 이의신청·행정심판 기한을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">무료 상담 신청하기</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">상담 신청하기</a>
 </div>
 
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 민원 처리에 관한 법률 법률 제18748호, 같은 법 시행령 대통령령 제36296호, 행정절차법 법률 제18748호, 행정심판법 법률 제19269호, 행정소송법 법률 제21615호, 행정기본법 법률 제20824호 --></p>`,
@@ -192,7 +192,7 @@ export default {
 <li><strong>Combined petitions</strong> — a lead department may process multi-department permits together (Act Article 31(1); Decree Article 35).</li>
 <li><strong>On the day a request arrives</strong> — record the deadline, check each item's provision, ask the named official, and request an extension if needed (up to 2; Decree Articles 24(2) and 31).</li>
 </ul>
-<p>Delegating filing and supplements to an administrative agent rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Delegating filing and supplements to an administrative agent rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How long do I get to answer a supplement request?</p><p class="faq-a">A. The deadline is the date in the request (Article 22(1)). You may ask for an extension up to 2 times; afterwards the authority may set a new period of up to 10 days or return the application.</p></div>
@@ -205,7 +205,7 @@ export default {
 <div class="cta-block">
  <h3>Received a supplement request or a refusal?</h3>
  <p>We map the provision behind each item, the deadline and the objection and appeal time limits. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a free consultation</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a consultation</a>
 </div>
 
 <p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
@@ -275,7 +275,7 @@ export default {
 <li><strong>复合民愿</strong> — 可由主管部门一并处理（法第31条第1款、施行令第35条）。</li>
 <li><strong>收到补正要求当天</strong> — 记录期限、核对依据、询问经办人，必要时申请延长（限2次，施行令第24条第2款、第31条）。</li>
 </ul>
-<p>委托行政士代办的依据是《行政士法》（행정사법）第2条第1款第5项。费用因个案而异，将在免费咨询时准确说明。</p>
+<p>委托行政士代办的依据是《行政士法》（행정사법）第2条第1款第5项。费用因个案而异，将在咨询时准确说明。</p>
 
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 补正期限有多长？</p><p class="faq-a">A. 以补正要求书上的日期为准（第22条第1款）。可申请延长2次；逾期后可能被再次要求10日以内补正，也可能直接退回。</p></div>
@@ -288,7 +288,7 @@ export default {
 <div class="cta-block">
  <h3>收到补正要求或驳回通知？</h3>
  <p>유선행정사사무소会整理各项要求的依据条款、补正期限以及异议和复议期限。电话 02-363-2251，平日 09:30~17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请免费咨询</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请咨询</a>
 </div>
 
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
@@ -358,7 +358,7 @@ export default {
 <li><strong>複合民願</strong> — 主務部署が一括処理できます（法第31条第1項、施行令第35条）。</li>
 <li><strong>補正要求書を受け取った日</strong> — 期限を記録し、根拠を確認し、担当者に尋ね、必要なら延長を申請します（2回まで。施行令第24条第2項、第31条）。</li>
 </ul>
-<p>行政士（日本の行政書士事務所に相当する韓国の行政士事務所）への委任の根拠は「行政士法」（행정사법）第2条第1項第5号です。費用は事案ごとに異なるため、無料相談時に正確にご案内します。</p>
+<p>行政士（日本の行政書士事務所に相当する韓国の行政士事務所）への委任の根拠は「行政士法」（행정사법）第2条第1項第5号です。費用は事案ごとに異なるため、ご相談時に正確にご案内します。</p>
 
 <div class="faq-section"><h2>よくあるご質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 補正の期限はどのくらいですか。</p><p class="faq-a">A. 補正要求書の日付が期限です（第22条第1項）。延長は2回まで申請でき、期限後は10日以内の再要求もあり得ますが、そのまま返戻されることもあります。</p></div>
@@ -371,7 +371,7 @@ export default {
 <div class="cta-block">
  <h3>補正要求書や拒否通知を受け取った方へ</h3>
  <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
- <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">無料相談を申し込む</a>
+ <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">ご相談を申し込む</a>
 </div>
 
 <p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,

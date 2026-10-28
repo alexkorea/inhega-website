@@ -146,12 +146,12 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
-                  <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>無料相談</p>
+                  <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>ご相談</p>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-                    韓国の許認可手続きについてお困りですか？専門の行政士が初回相談を無料でお受けします。
+                    韓国の許認可手続きについてお困りですか？専門の行政士が初回相談をお受けします。
                   </p>
                   <Link href="/ja/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
-                    無料相談を申し込む
+                    ご相談を申し込む
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
                     <ContactLine icon="pin">ソウル市中区退渓路324, 3階</ContactLine>
