@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
     category: '물류/유통',
     excerpt: '국제물류주선업 등록 요건, 필요 서류, 처리 기간을 전문 행정사가 상세히 설명합니다. 자본금 3억 요건부터 보증보험까지 한 번에 확인하세요.',
     meta_title: '국제물류주선업 등록 방법 완벽 가이드 ',
-    meta_description: '국제물류주선업 등록 자격·서류·처리기간 총정리. 자본금 3억, 보증보험 요건부터 실무 절차까지 전문 행정사가 안내합니다.',
+    meta_description: '국제물류주선업 등록 자격·서류·처리기간 총정리. 자본금 3억, 보증보험 요건부터 실무 절차까지 전문 행정사가 안내합니다. 상담 가능.',
     cover_image: '/images/blog-thumbs/international-logistics-registration-guide.jpg',
     created_at: '2026-05-09T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>국제물류주선업이란?</li><li>등록 신청 자격 요건</li><li>필요 서류 목록</li><li>등록 신청 절차</li><li>처리 기간과 비용</li><li>등록 후 의무사항</li><li>자주 묻는 실수와 주의사항</li><li>외국인투자기업 특례와 변경 등록 절차</li></ol></div>
@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
     category: '금융',
     excerpt: '환전업 등록에 필요한 자격, 서류, 절차를 상세히 안내합니다. 자금세탁방지 의무부터 등록 후 관리까지 실무 중심으로 설명합니다.',
     meta_title: '환전업 등록 방법과 요건 — 외국환거래법 제8조 등록 절차',
-    meta_description: '환전업 등록 자격·서류·기획재정부 신청 절차 총정리. 개인·법인 모두 가능, 자금세탁방지 의무 포함.',
+    meta_description: '환전업 등록 자격·서류·기획재정부 신청 절차 총정리. 개인·법인 모두 가능, 자금세탁방지 의무 포함. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/currency-exchange-registration-guide.jpg',
     created_at: '2026-05-08T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>환전업이란?</li><li>등록 대상자</li><li>필요 서류</li><li>신청 절차</li><li>자금세탁방지(AML) 의무</li><li>처리 기간과 수수료</li><li>등록 후 주요 의무사항</li><li>환전소 시설 요건과 환율 게시 의무</li></ol></div>
@@ -185,7 +185,7 @@ export const blogPosts: BlogPost[] = [
     category: '식품',
     excerpt: '식품제조가공업 허가 요건, 위생 시설 기준, 필요 서류를 상세히 안내합니다. 식약처 허가부터 HACCP 연계까지 식품 창업 필독 가이드입니다.',
     meta_title: '식품제조가공업 허가 신청 방법 — 위생·시설 기준 총정리',
-    meta_description: '식품제조가공업 허가 조건·위생시설기준·서류·처리기간 총정리. 식약처 허가 절차와 HACCP 연계 방법 포함.',
+    meta_description: '식품제조가공업 허가 조건·위생시설기준·서류·처리기간 총정리. 식약처 허가 절차와 HACCP 연계 방법 포함. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/food-manufacturing-license-guide.jpg',
     created_at: '2026-05-06T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>식품제조가공업이란?</li><li>허가 vs 신고 구분</li><li>시설 기준</li><li>필요 서류</li><li>신청 절차</li><li>처리 기간</li><li>HACCP과의 연계</li><li>식품 안전·위생 기준과 영업 등록 후 관리 의무</li></ol></div>
@@ -301,7 +301,7 @@ export const blogPosts: BlogPost[] = [
     category: '식품',
     excerpt: 'HACCP 인증 신청 요건, 서류, 심사 절차를 상세히 안내합니다. 식품제조업 필수 인증인 HACCP을 효율적으로 취득하는 방법을 알아보세요.',
     meta_title: 'HACCP 인증 취득 방법 — 식품안전관리 절차 총정리',
-    meta_description: 'HACCP 인증 신청 요건·서류·심사 절차 총정리. 의무 vs 임의 대상 구분, 관리계획서 작성법 포함.',
+    meta_description: 'HACCP 인증 신청 요건·서류·심사 절차 총정리. 의무 vs 임의 대상 구분, 관리계획서 작성법 포함. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/haccp-certification-guide.jpg',
     created_at: '2026-05-04T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>HACCP이란?</li><li>의무 vs 임의 대상 구분</li><li>HACCP 7원칙</li><li>필요 서류</li><li>인증 신청 절차</li><li>인증 후 관리 의무</li><li>인증 취득의 실질적 혜택</li><li>HACCP 7원칙 상세와 비용·지원 제도</li></ol></div>
@@ -364,7 +364,7 @@ export const blogPosts: BlogPost[] = [
     category: '기업인증',
     excerpt: '벤처기업 확인과 이노비즈 인증의 차이점, 혜택, 신청 자격을 비교합니다. 세금 감면과 정부 지원을 최대화하는 인증 전략을 안내합니다.',
     meta_title: '벤처기업 확인 vs 이노비즈 인증 — 혜택·갱신·탈락 사유 | 유선행정사사무소',
-    meta_description: '벤처기업 확인 vs 이노비즈 인증 차이점·혜택·신청절차 총정리. 세금감면·병역특례·정부지원 포함.',
+    meta_description: '벤처기업 확인 vs 이노비즈 인증 차이점·혜택·신청절차 총정리. 세금감면·병역특례·정부지원 포함. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/venture-innobiz-certification-guide.jpg',
     created_at: '2026-05-03T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>벤처기업 확인이란?</li><li>이노비즈 인증이란?</li><li>두 인증의 차이점 비교</li><li>혜택 총정리</li><li>신청 자격과 평가 기준</li><li>벤처 인증 탈락 사유와 이노비즈 기술평가</li><li>신청 절차</li><li>인증 유지 전략</li><li>인증 후 혜택 활용과 갱신 관리</li><li>벤처기업확인서 갱신과 이노비즈 재인증</li></ol></div>
@@ -537,7 +537,7 @@ export const blogPosts: BlogPost[] = [
     category: '숙박/관광',
     excerpt: '호스텔업 등록은 관광진흥법에 따른 관광사업 등록 절차입니다. 요건·서류·소방 기준 등 실무에 꼭 필요한 정보를 전문 행정사가 안내합니다.',
     meta_title: '호스텔업 등록 방법 — 요건·서류·절차 총정리',
-    meta_description: '호스텔업 등록 자격·서류·처리기간 완벽 가이드. 게스트하우스 합법 운영을 위한 관광진흥법 등록 절차.',
+    meta_description: '호스텔업 등록 자격·서류·처리기간 완벽 가이드. 게스트하우스 합법 운영을 위한 관광진흥법 등록 절차. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/hostel-registration-guide.jpg',
     created_at: '2026-03-12T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>호스텔업이란?</li><li>등록 요건</li><li>시설 기준</li><li>필요 서류</li><li>등록 절차</li><li>처리 기간과 수수료</li><li>등록 후 의무사항</li><li>외국인도시민박업과의 차이점 비교</li></ol></div>
@@ -582,7 +582,7 @@ export const blogPosts: BlogPost[] = [
     category: '숙박/관광',
     excerpt: '전통 한옥을 활용한 체험 숙박 사업을 시작하려면 한옥체험업 등록이 필수입니다. 요건·서류·심사 절차를 전문 행정사가 상세히 안내합니다.',
     meta_title: '한옥체험업 등록 방법 — 요건·서류·절차 완벽 가이드',
-    meta_description: '한옥체험업 등록 자격·서류·처리기간 총정리. 관광진흥법 한옥체험업 신청 절차와 운영 의무 안내.',
+    meta_description: '한옥체험업 등록 자격·서류·처리기간 총정리. 관광진흥법 한옥체험업 신청 절차와 운영 의무 안내. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/hanok-experience-registration-guide.jpg',
     created_at: '2026-03-19T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>한옥체험업이란?</li><li>등록 신청 요건</li><li>한옥 건축 기준</li><li>필요 서류</li><li>신청 절차</li><li>정부 지원 제도</li><li>등록 후 운영 의무</li><li>한옥 인테리어와 체험 콘텐츠 기획</li></ol></div>
@@ -629,7 +629,7 @@ export const blogPosts: BlogPost[] = [
     category: '물류/유통',
     excerpt: '외국산 담배를 수입하여 판매하려면 본점 또는 주된 사무소 소재지 관할 시·도지사에게 담배수입판매업 등록을 해야 합니다. 등록 요건·결격사유부터 등록 절차와 등록 후 의무까지 전문 행정사가 안내합니다.',
     meta_title: '담배수입판매업 등록 방법 — 요건·서류·절차 총정리',
-    meta_description: '담배수입판매업 등록 요건·서류·절차 가이드. 외국 담배제조업자와의 공급계약, 시·도지사 등록, 결격사유와 등록 후 의무까지 담배사업법 기준 안내.',
+    meta_description: '담배수입판매업 등록 요건·서류·절차 가이드. 외국 담배제조업자와의 공급계약, 시·도지사 등록, 결격사유와 등록 후 의무까지 담배사업법 기준 안내. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/tobacco-import-sales-guide.jpg',
     created_at: '2026-03-26T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>담배수입판매업이란?</li><li>등록 요건</li><li>필요 서류</li><li>신청 절차</li><li>담배세·관세 처리</li><li>처리 기간</li><li>등록 후 의무사항</li><li>통관 실무와 청소년 판매 금지 의무</li></ol></div>
@@ -681,7 +681,7 @@ export const blogPosts: BlogPost[] = [
     category: '기업인증',
     excerpt: '비영리사단법인 설립은 주무관청 허가, 창립총회, 법원 등기의 세 단계로 진행됩니다. 설립 요건·절차·소요 기간을 전문 행정사가 상세히 안내합니다.',
     meta_title: '비영리사단법인 설립 방법 — 주무관청 허가 절차 총정리',
-    meta_description: '비영리사단법인 설립 요건·절차·서류 완벽 가이드. 주무관청 허가부터 법인등기까지 전 과정 안내.',
+    meta_description: '비영리사단법인 설립 요건·절차·서류 완벽 가이드. 주무관청 허가부터 법인등기까지 전 과정 안내. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/nonprofit-corporation-establishment-guide.jpg',
     created_at: '2026-04-09T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>비영리사단법인이란?</li><li>설립 요건</li><li>주무관청 선택</li><li>필요 서류</li><li>설립 절차</li><li>처리 기간</li><li>설립 후 의무사항</li></ol></div>
@@ -724,7 +724,7 @@ export const blogPosts: BlogPost[] = [
     category: '기업인증',
     excerpt: '기업부설연구소를 설립하면 연구개발비 세액공제 등 다양한 세제 혜택을 받을 수 있습니다. 인정 요건·서류·절차를 전문 행정사가 안내합니다.',
     meta_title: '기업부설연구소 설립 인정 방법 — 요건·세제혜택·절차 총정리',
-    meta_description: '기업부설연구소 설립 인정 요건·서류·처리기간 완벽 가이드. 연구개발비 세액공제 등 세제 혜택과 한국산업기술진흥협회 신청 절차.',
+    meta_description: '기업부설연구소 설립 인정 요건·서류·처리기간 완벽 가이드. 연구개발비 세액공제 등 세제 혜택과 한국산업기술진흥협회 신청 절차. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/corporate-research-lab-establishment-guide.jpg',
     created_at: '2026-04-16T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>기업부설연구소란?</li><li>설립 인정 요건</li><li>연구 인력 기준</li><li>연구 공간 기준</li><li>세제 혜택</li><li>신청 절차</li><li>인정 후 관리 의무</li></ol></div>
@@ -772,7 +772,7 @@ export const blogPosts: BlogPost[] = [
     category: '물류/유통',
     excerpt: '니코틴을 원료로 한 전자담배를 수입해 판매하려면 본점 또는 주된 사무소 소재지 관할 시·도지사에게 담배수입판매업 등록을 해야 합니다. 액상형·궐련형별 적용 체계와 수입 절차를 전문 행정사가 상세히 안내합니다.',
     meta_title: '전자담배 수입 등록 — 액상·궐련형 수입판매업 등록 절차 | 유선행정사사무소',
-    meta_description: '전자담배 수입 등록 요건·서류·처리기간 완벽 가이드. 담배사업법 기반 액상형·궐련형 전자담배 수입 절차 안내.',
+    meta_description: '전자담배 수입 등록 요건·서류·처리기간 완벽 가이드. 담배사업법 기반 액상형·궐련형 전자담배 수입 절차 안내. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/e-cigarette-import-license-guide.jpg',
     created_at: '2026-04-23T00:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>전자담배 수입의 법적 근거</li><li>전자담배 종류별 적용 체계</li><li>수입 신청 요건</li><li>필요 서류</li><li>통관 절차</li><li>액상형 전자담배·무니코틴 액상 수입 통관과 기기 KC 인증</li><li>처리 기간</li><li>등록 후 의무사항</li></ol></div>
@@ -822,7 +822,7 @@ export const blogPosts: BlogPost[] = [
     category: '물류/유통',
     excerpt: '국제물류주선업 등록의 가장 큰 진입장벽인 자본금 3억 원 요건을 어떻게 충족하고 증명할 수 있는지, 보증보험 가입 방법까지 실무 중심으로 정리했습니다.',
     meta_title: '국제물류주선업 보증보험 1억·보증보험 면제 대체 — 자본금 3억 잔고증명 실무',
-    meta_description: '국제물류주선업 자본금 3억 원 마련·증명 방법 완벽 가이드. 잔고증명서·보증보험 가입 실무와 절차 안내.',
+    meta_description: '국제물류주선업 자본금 3억 원 마련·증명 방법 완벽 가이드. 잔고증명서·보증보험 가입 실무와 절차 안내. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/international-logistics-capital-funding-guide.jpg',
     created_at: '2026-05-10T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>왜 자본금 3억 원이 필요한가</li><li>법인·개인사업자별 자본금 산정 방식</li><li>잔고증명서 발급 실무</li><li>보증보험 1억 원 가입 방법</li><li>국제물류주선업 보증보험 면제가 가능한가요</li><li>공제조합으로 보증보험 대체</li><li>자본금 마련 시 주의사항</li><li>등록 후 자본금 활용 방법</li><li>잘못된 사례와 반려 원인</li><li>보증보험 갱신을 놓치면 어떻게 되나요</li></ol></div>
@@ -881,7 +881,7 @@ export const blogPosts: BlogPost[] = [
     category: '숙박/관광',
     excerpt: '외국인도시민박업 등록 후 에어비앤비 등 플랫폼을 통한 합법 운영 방법, 외국인 숙박 신고, 세무 처리까지 실무 중심으로 정리했습니다.',
     meta_title: '에어비앤비 등록·외국인도시민박업 운영 가이드 — 합법 호스트 등록·신고·세무',
-    meta_description: '외국인도시민박업 등록 후 에어비앤비 합법 운영 노하우. 외국인 숙박 신고·세무 신고·과태료 회피 방법까지.',
+    meta_description: '외국인도시민박업 등록 후 에어비앤비 합법 운영 노하우. 외국인 숙박 신고·세무 신고·과태료 회피 방법까지. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/urban-guesthouse-airbnb-operation-guide.jpg',
     created_at: '2026-05-10T13:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>합법 운영을 위한 기본 원칙</li><li>에어비앤비 플랫폼 등록 절차</li><li>에어비앤비 합법 등록 — 등록번호와 사업자등록번호 입력</li><li>외국인 숙박 신고 의무</li><li>요금 책정과 세금계산서</li><li>도시민박업 사업자등록: 일반과세자·간이과세자 선택</li><li>객실 운영 노하우</li><li>고객 분쟁 대응 방법</li><li>세무 신고 가이드</li><li>적발·과태료 사례와 회피</li><li>도시민박업 실거주와 내국인 숙박은 어떻게 확인하나요</li></ol></div>
@@ -941,7 +941,7 @@ export const blogPosts: BlogPost[] = [
     category: '기업인증',
     excerpt: '비영리사단법인 설립의 핵심 관문인 정관 작성과 주무관청 인가 절차를 상세히 안내합니다. 필수 기재사항·반려 사례·심사 통과 노하우까지 한 번에 정리했습니다.',
     meta_title: '사단법인 설립 허가 방법 — 주무관청·창립총회·정관 인가 통과 가이드',
-    meta_description: '비영리사단법인 정관 필수 기재사항, 주무관청 인가 절차, 반려 사례와 통과 노하우 완벽 가이드.',
+    meta_description: '비영리사단법인 정관 필수 기재사항, 주무관청 인가 절차, 반려 사례와 통과 노하우 완벽 가이드. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/nonprofit-corporation-articles-and-approval-guide.jpg',
     created_at: '2026-05-10T17:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>정관과 주무관청 인가의 중요성</li><li>정관 필수 기재사항 (민법 제40조)</li><li>설립 목적 작성 노하우</li><li>주무관청 선택과 협의</li><li>사단법인 설립 주무관청 — 문화체육관광부 소관 법인은 어떻게 다른가요</li><li>창립총회 의사록 작성</li><li>사단법인 창립총회와 발기인 구성</li><li>임원 구성과 결격 사유</li><li>주요 반려 사례와 보완 방법</li><li>인가 후 등기·후속 절차</li><li>사단법인 임원 변경 등기와 사업계획서·예산서</li></ol></div>
@@ -1003,7 +1003,7 @@ export const blogPosts: BlogPost[] = [
     category: '기업인증',
     excerpt: '여성기업 확인서의 유효기간(3년)과 갱신 절차, 자격 유지 의무를 정리했습니다. 갱신 시 흔히 발생하는 반려 사유와 대응법까지 안내합니다.',
     meta_title: '여성기업확인서 갱신 방법 — 유효기간 3년·재발급·변경 신청 | 유선행정사사무소',
-    meta_description: '여성기업 확인서 유효기간 3년(시행령 제16조)과 갱신 절차·자격 유지 요건·재발급·반려 사례를 정리했습니다. 임원 변경 점검까지 전문 행정사가 안내합니다.',
+    meta_description: '여성기업 확인서 유효기간 3년(시행령 제16조)과 갱신 절차·자격 유지 요건·재발급·반려 사례를 정리했습니다. 임원 변경 점검까지 전문 행정사가 안내합니다. 상담 가능.',
     cover_image: '/images/blog-thumbs/women-enterprise-renewal-management-guide.jpg',
     created_at: '2026-05-11T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>여성기업 확인서 유효기간</li><li>갱신 신청 시점과 절차</li><li>여성기업 확인 재발급과 공동대표 갱신</li><li>자격 유지 핵심 요건</li><li>임원·지분 변경 시 신고 의무</li><li>갱신 시 필요 서류</li><li>주요 반려 사유와 보완</li><li>확인 취소 사례</li><li>갱신 후 활용 전략</li></ol></div>
@@ -1061,7 +1061,7 @@ export const blogPosts: BlogPost[] = [
     category: '금융',
     excerpt: '환전업 등록과 운영의 핵심 의무인 AML(자금세탁방지) 내부통제기준 작성·운용 방법을 실무 중심으로 정리했습니다. 의심거래·고액현금거래 보고 실무까지 안내합니다.',
     meta_title: '환전업 AML 내부통제기준 작성 — 고객확인의무·의심거래 보고·자금세탁방지 교육',
-    meta_description: '환전업 AML(자금세탁방지) 내부통제기준 작성·CDD·STR·CTR 보고 실무 완벽 가이드. 기획재정부·FIU 의무 안내.',
+    meta_description: '환전업 AML(자금세탁방지) 내부통제기준 작성·CDD·STR·CTR 보고 실무 완벽 가이드. 기획재정부·FIU 의무 안내. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/currency-exchange-aml-internal-control-guide.jpg',
     created_at: '2026-05-11T13:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>AML이란? 환전업자의 의무</li><li>내부통제기준의 법적 근거</li><li>내부통제기준 필수 기재사항</li><li>고객확인의무(CDD) 실무</li><li>환전업 고객확인의무 — 외국인 고객 신분 확인</li><li>의심거래 보고(STR) 절차</li><li>환전업 의심거래 보고 시점과 방법</li><li>고액현금거래 보고(CTR)</li><li>거래 기록 보관 의무</li><li>환전업 자금세탁방지 교육 주기와 기록 보관</li><li>위반 시 제재와 사례</li></ol></div>
@@ -1121,7 +1121,7 @@ export const blogPosts: BlogPost[] = [
     category: '식품',
     excerpt: 'HACCP 인증을 취득한 후 사후관리 의무와 정기 평가·갱신·취소 사례를 정리했습니다. 인증을 안전하게 유지하기 위한 실무 체크리스트를 안내합니다.',
     meta_title: 'HACCP 인증 후 사후관리 — 스마트 HACCP 혜택·식품안전관리인증 갱신·CCP 기록',
-    meta_description: 'HACCP 인증 사후관리 의무·정기 평가·갱신·취소 사례 완벽 가이드. 인증 유지 체크리스트와 평가 대응 방법.',
+    meta_description: 'HACCP 인증 사후관리 의무·정기 평가·갱신·취소 사례 완벽 가이드. 인증 유지 체크리스트와 평가 대응 방법. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/haccp-post-certification-management-guide.jpg',
     created_at: '2026-05-11T17:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>HACCP 인증의 효력과 의무</li><li>정기 평가 주기와 절차</li><li>사후관리 핵심 의무 6가지</li><li>HACCP 중요관리점 CCP 기록 관리</li><li>인증 갱신 절차</li><li>식품안전관리인증 갱신과 HACCP 인증 유효기간</li><li>변경 신고 의무</li><li>주요 취소·정지 사례</li><li>인증 후 정부 지원 활용</li><li>스마트 HACCP 혜택과 HACCP 인증 공장 시설 개선</li><li>인증 유지 체크리스트</li></ol></div>
@@ -1184,7 +1184,7 @@ export const blogPosts: BlogPost[] = [
     category: '건축/부동산',
     excerpt: '근린생활시설을 민박으로, 창고를 식품 제조소로 바꾸는 등 실제 용도변경 사례를 분석했습니다. 변경 절차·소요 기간·주의사항을 사례별로 정리합니다.',
     meta_title: '건축물 용도변경 사례 — 근린생활시설·주택·공장·창고 용도변경 실무 가이드',
-    meta_description: '근린생활시설·식품제조·창고 전환 등 건축물 용도변경 실제 사례 가이드. 절차·기간·비용·주의사항 정리.',
+    meta_description: '근린생활시설·식품제조·창고 전환 등 건축물 용도변경 실제 사례 가이드. 절차·기간·비용·주의사항 정리. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/building-usage-change-case-studies-guide.jpg',
     created_at: '2026-05-12T08:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>용도변경이 필요한 시점</li><li>용도군 분류 체계</li><li>사례 1: 근린생활시설 이후 외국인도시민박</li><li>사례 2: 사무실 이후 식품 제조·가공소</li><li>식품제조가공업 건축물 용도와 임대 공장·근린생활시설에서의 확인점</li><li>사례 3: 창고 이후 공연장·전시장</li><li>사례 4: 주택 이후 학원·교습소</li><li>주택에서 근린생활시설로 용도변경할 때의 순서</li><li>사례 5: 공장 이후 호스텔</li><li>용도변경 시 공통 점검사항</li><li>용도변경 시 주차장·소방시설 기준 점검</li><li>실무 비용·기간 비교</li></ol></div>
@@ -1246,7 +1246,7 @@ export const blogPosts: BlogPost[] = [
     category: '공공조달',
     excerpt: '나라장터 입찰에서 가장 중요한 가격 산정 전략을 정리했습니다. 협상가격계약·최저가 낙찰 차이부터 실패 회피 방법까지 실무 중심으로 안내합니다.',
     meta_title: '나라장터 입찰 가격 산정 전략 — 적격심사 기준·입찰보증금·중소기업확인서 가점',
-    meta_description: '조달청 나라장터 입찰 가격 산정 전략과 협상가격계약·최저가 낙찰 비교. 가점 활용·실수 회피 실무 가이드.',
+    meta_description: '조달청 나라장터 입찰 가격 산정 전략과 협상가격계약·최저가 낙찰 비교. 가점 활용·실수 회피 실무 가이드. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/narajangteo-bidding-price-strategy-guide.jpg',
     created_at: '2026-05-12T17:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>나라장터 낙찰 방식 개요</li><li>최저가 낙찰제 (가격 우선)</li><li>협상에 의한 계약 (종합 평가)</li><li>적격심사제 (자격 + 가격)</li><li>적격심사 기준은 어떻게 구성되나요</li><li>예정가격과 입찰가 산정</li><li>가점 활용 전략</li><li>중소기업확인서 발급과 가점 활용</li><li>저가 입찰 위험과 대응</li><li>입찰보증금 몰수와 낙찰 후 계약 거절</li><li>낙찰 실패 사례와 교훈</li><li>실무 가격 산정 체크리스트</li></ol></div>
@@ -7386,7 +7386,7 @@ export const blogPosts: BlogPost[] = [
     category: '식품/음식점',
     excerpt: '음식점 영업신고에 필요한 서류 체크리스트와 식품위생법 제37조 신고 절차를 실무 중심으로 안내합니다. 일반음식점부터 휴게음식점까지 한 번에 확인하세요.',
     meta_title: '음식점 영업신고 서류 체크리스트 — 제과점·배달전문점 영업신고, 보건증·위생교육',
-    meta_description: '음식점 영업신고 필수 서류·처리기간·신고 절차 총정리. 식품위생법 제37조 기준, 일반음식점·휴게음식점·제과점 포함.',
+    meta_description: '음식점 영업신고 필수 서류·처리기간·신고 절차 총정리. 식품위생법 제37조 기준, 일반음식점·휴게음식점·제과점 포함. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/restaurant-permit-checklist.jpg',
     created_at: '2026-05-29T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>음식점 영업신고 개요</li><li>영업 유형 구분</li><li>제과점 영업신고 — 빵·과자류 제조·판매는 어떤 유형으로 하나요</li><li>필수 서류 체크리스트</li><li>보건증(건강진단 결과서) 발급 시점과 음식점 위생교육 이수</li><li>시설 기준 확인사항</li><li>신고 절차와 처리 기간</li><li>배달전문점 영업신고는 어떻게 다른가요</li><li>위생교육 이수 의무</li><li>신고 후 의무사항</li><li>자주 하는 실수와 주의사항</li></ol></div>
@@ -7582,7 +7582,7 @@ export const blogPosts: BlogPost[] = [
     category: '부동산/중개업',
     excerpt: '공인중개사가 중개사무소를 개설할 때 필요한 등록 요건, 서류, 절차를 공인중개사법 기준으로 안내합니다. 법인 중개사무소 설립도 포함합니다.',
     meta_title: '공인중개사 중개사무소 개설 등록 방법 — 공인중개사법 완벽 정리',
-    meta_description: '공인중개사 중개사무소 개설 등록 요건·서류·절차 총정리. 공인중개사법 기준, 개인·법인 중개사무소 포함.',
+    meta_description: '공인중개사 중개사무소 개설 등록 요건·서류·절차 총정리. 공인중개사법 기준, 개인·법인 중개사무소 포함. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/real-estate-agency-registration.jpg',
     created_at: '2026-05-29T10:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>중개사무소 개설 등록 개요</li><li>등록 요건</li><li>개인 vs 법인 중개사무소</li><li>필요 서류</li><li>등록 절차</li><li>업무 보증 설정 의무</li><li>등록 후 의무사항</li><li>자주 묻는 질문</li></ol></div>
@@ -7782,7 +7782,7 @@ export const blogPosts: BlogPost[] = [
     category: '식품업',
     excerpt: '주류 판매업 면허는 주세법과 식품위생법에 따라 취득해야 합니다. 일반 주류 판매업부터 통신판매업까지 면허 종류별 요건과 신청 절차를 전문 행정사가 안내합니다.',
     meta_title: '주류 판매업 면허 신청 방법 — 주류수입업 면허·종합주류도매업 면허·세무서 절차',
-    meta_description: '주류 판매업 면허 종류·자격·서류·신청 절차 완벽 정리. 주세법 제8조·식품위생법 기반. 일반·도매·통신판매 구분.',
+    meta_description: '주류 판매업 면허 종류·자격·서류·신청 절차 완벽 정리. 주세법 제8조·식품위생법 기반. 일반·도매·통신판매 구분. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/liquor-sales-license.jpg',
     created_at: '2026-05-30T09:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>주류 판매업 면허란?</li><li>면허 종류와 대상</li><li>주류수입업 면허 — 창고 시설기준과 수입식품 수입신고의 관계</li><li>신청 자격 요건</li><li>필요 서류 목록</li><li>신청 절차 단계별 안내</li><li>세무서 주류 면허 신청 시 확인할 시설 요건</li><li>처리 기간과 수수료</li><li>면허 취득 후 의무사항</li><li>주류 통신판매업 특례</li><li>전통주 통신판매 시 연령 인증·통신판매업 신고 유의점</li><li>자주 하는 실수와 주의사항</li></ol></div>
@@ -7886,7 +7886,7 @@ export const blogPosts: BlogPost[] = [
     category: '건강기능식품',
     excerpt: '건강기능식품 판매업은 건강기능식품에 관한 법률 제22조에 따라 영업신고가 필요합니다. 신고 요건, 필요 서류, 판매업 종류별 차이를 전문 행정사가 상세히 안내합니다.',
     meta_title: '건강기능식품 판매업 신고 요건 — 유통전문판매업·온라인 판매 신고·위생교육',
-    meta_description: '건강기능식품 판매업 신고 요건·서류·절차 총정리. 건강기능식품법 제22조 기반. 일반판매업·방문판매·통신판매 구분.',
+    meta_description: '건강기능식품 판매업 신고 요건·서류·절차 총정리. 건강기능식품법 제22조 기반. 일반판매업·방문판매·통신판매 구분. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/health-functional-food-registration.jpg',
     created_at: '2026-05-30T09:30:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>건강기능식품 판매업이란?</li><li>판매업 종류별 구분</li><li>건강기능식품 유통전문판매업 — OEM 자체 브랜드</li><li>신고 요건 상세</li><li>필요 서류 목록</li><li>신고 절차 안내</li><li>처리 기간과 위생교육</li><li>건강기능식품 판매업 교육은 매년 받아야 하나요</li><li>영업 후 준수사항</li><li>온라인 통신판매 특례</li><li>건강기능식품 온라인 판매 신고 — 스마트스토어 제출 서류</li><li>자주 하는 실수와 주의사항</li></ol></div>
@@ -7986,7 +7986,7 @@ export const blogPosts: BlogPost[] = [
     category: '여행업',
     excerpt: '여행사 창업을 위한 여행업 등록은 관광진흥법 제4조에 따라 시·도지사에게 신청해야 합니다. 일반·국외·국내 여행업 구분과 보증보험·자본금 요건을 전문 행정사가 안내합니다.',
     meta_title: '여행업 등록 요건 — 자본금·보증보험·여행사 창업 | 유선행정사사무소',
-    meta_description: '여행업 등록 요건·자본금·보증보험·서류·절차 총정리. 관광진흥법 제4조 기반. 일반·국외·국내 여행업 구분.',
+    meta_description: '여행업 등록 요건·자본금·보증보험·서류·절차 총정리. 관광진흥법 제4조 기반. 일반·국외·국내 여행업 구분. 전문 행정사 상담 가능.',
     cover_image: '/images/blog-thumbs/travel-agency-registration.jpg',
     created_at: '2026-05-30T10:00:00Z',
     content: `<div class="toc"><p>목차</p><ol><li>여행업 등록이란?</li><li>여행업 종류별 구분</li><li>등록 자격 요건</li><li>자본금 및 보증보험 기준</li><li>국내여행업 등록과 온라인 여행사</li><li>필요 서류 목록</li><li>등록 신청 절차</li><li>처리 기간과 수수료</li><li>등록 후 의무사항</li><li>여행업 변경등록</li><li>자주 하는 실수와 주의사항</li></ol></div>

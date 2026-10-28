@@ -27,12 +27,12 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 유선행정사사무소',
-    description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 호스텔업 등 인허가 전문.',
+    description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 호스텔업 등 인허가 전문. 초기 상담 가능.',
     images: ['/images/hero-seoul.png'],
   },
   openGraph: {
     title: '인허가 행정사 | 위치기반서비스사업·국제물류주선업·건축물용도변경 — 유선행정사사무소',
-    description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 호스텔업 등 인허가 전문.',
+    description: '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 의약품허가, 호스텔업 등 인허가 전문. 초기 상담 가능.',
     url: 'https://inhega.co.kr',
     siteName: '유선행정사사무소',
     locale: 'ko_KR',

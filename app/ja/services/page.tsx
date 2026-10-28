@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `${serviceCount}種の専門許認可代行サービス | YouSun Administrative Agency`,
-    description: '外国企業・投資家向け韓国許認可代行の専門サービス。',
+    description: '外国企業・投資家向け韓国許認可代行の専門サービス。初回相談を承ります。',
     url: 'https://inhega.co.kr/ja/services',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: 'YouSun Administrative Agencyサービス' }],
     type: 'website',
