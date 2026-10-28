@@ -148,7 +148,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                 <div style={{ background: 'var(--white)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.125rem 1.25rem', marginBottom: '1rem' }}>
                   <p style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--navy)', marginBottom: '1rem' }}>Free Consultation</p>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-                    Need help with Korean licensing? Our licensed scriveners offer a free initial consultation.
+                    Need help with Korean licensing? Our licensed administrative agents offer a free initial consultation.
                   </p>
                   <Link href="/en/contact" className="btn btn-primary" style={{ display: 'block', textAlign: 'center', width: '100%' }}>
                     Request Free Consultation

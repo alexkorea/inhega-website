@@ -192,7 +192,7 @@ export default {
 <li><strong>Combined petitions</strong> — a lead department may process multi-department permits together (Act Article 31(1); Decree Article 35).</li>
 <li><strong>On the day a request arrives</strong> — record the deadline, check each item's provision, ask the named official, and request an extension if needed (up to 2; Decree Articles 24(2) and 31).</li>
 </ul>
-<p>Delegating filing and supplements to an administrative scrivener rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Delegating filing and supplements to an administrative agent rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How long do I get to answer a supplement request?</p><p class="faq-a">A. The deadline is the date in the request (Article 22(1)). You may ask for an extension up to 2 times; afterwards the authority may set a new period of up to 10 days or return the application.</p></div>
@@ -208,7 +208,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

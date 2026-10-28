@@ -3,7 +3,7 @@ import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | YouSun Administrative Agency',
-  description: 'Leave your inquiry and a licensed scrivener will contact you during our consultation hours (weekdays 09:30–17:30 KST). Call or email us for Korean business license support.',
+  description: 'Leave your inquiry and a licensed administrative agent will contact you during our consultation hours (weekdays 09:30–17:30 KST). Call or email us for Korean business license support.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/contact',
     languages: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Contact Us | YouSun Administrative Agency',
-    description: 'Leave your inquiry and a licensed scrivener will contact you during our consultation hours (weekdays 09:30–17:30 KST).',
+    description: 'Leave your inquiry and a licensed administrative agent will contact you during our consultation hours (weekdays 09:30–17:30 KST).',
     url: 'https://inhega.co.kr/en/contact',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630 }],
   },

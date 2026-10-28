@@ -144,11 +144,11 @@ const entry = {
 
 <div class="cta-block">
  <h3>Planning to sell food you make online?</h3>
- <p>Yuseon Administrative Scrivener Office reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
+ <p>Yuseon Administrative Agent Office reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
   zh: {
     title: "食品制造加工业 通信销售业申报——网上销售自制食品需要办理什么",

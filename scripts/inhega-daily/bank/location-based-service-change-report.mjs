@@ -124,8 +124,8 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. Do services that do not handle personal location information need a report?</p><p class="faq-a">A. The Act excludes LBS businesses that do not target personal location information from the report requirement, but some duties, such as technical and managerial safeguards, still apply.</p></div>
 <div class="faq-item"><p class="faq-q">Q. We acquired a company. Do we file a new report?</p><p class="faq-a">A. For a business transfer or merger, you file a transfer or merger report rather than a new one, and you succeed to the former operator's status once it is accepted.</p></div>
 </div>
-<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact Yuseon Administrative Scrivener Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
+<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact Yuseon Administrative Agent Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

@@ -122,8 +122,8 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. What do I do with the certificate if I close the business?</p><p class="faq-a">A. A business that closes must return the certificate to the head of the agency without delay.</p></div>
 </div>
 
-<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. Yuseon Administrative Scrivener Office handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
+<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. Yuseon Administrative Agent Office handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

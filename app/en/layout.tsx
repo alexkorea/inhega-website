@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://inhega.co.kr'),
   title: 'YouSun Administrative Agency | Korean Business Licensing',
   description: "Korea's business licensing experts for foreign companies and individuals. International freight forwarding, currency exchange, food manufacturing, cosmetics, location-based services and more.",
-  keywords: 'Korean business license, Korean administrative scrivener, Korea licensing, foreign company Korea, Korea business registration',
+  keywords: 'Korean business license, Korean administrative agent, Korea licensing, foreign company Korea, Korea business registration',
   robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://inhega.co.kr/en',
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'YouSun Administrative Agency | Korean Business Licensing',
-    description: 'All Korean government business licenses for foreign companies — handled by licensed administrative scriveners.',
+    description: 'All Korean government business licenses for foreign companies — handled by licensed administrative agents.',
     images: ['/images/hero-seoul.png'],
   },
   openGraph: {
     title: 'YouSun Administrative Agency | Korean Business Licensing',
-    description: 'All Korean government business licenses for foreign companies — handled by licensed administrative scriveners.',
+    description: 'All Korean government business licenses for foreign companies — handled by licensed administrative agents.',
     url: 'https://inhega.co.kr/en',
     siteName: 'YouSun Administrative Agency',
     locale: 'en_US',

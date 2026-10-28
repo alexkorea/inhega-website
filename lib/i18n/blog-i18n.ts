@@ -35,7 +35,7 @@ const blogData: BlogI18n[] = [
 <h2>5. Registration Procedure</h2>
 <ol><li>Pre-consultation and eligibility review</li><li>Document preparation (surety bond, corporate setup if needed)</li><li>Submission to the Regional Office of the Ministry of Land, Infrastructure and Transport</li><li>Receipt of registration certificate (timing varies by authority)</li></ol>
 <h2>6. Timeline and Fees</h2>
-<p>Processing time varies by the competent authority and your case; please confirm individually. There is no government application fee; main costs include the annual surety bond premium (approx. KRW 300,000–500,000) and administrative scrivener fees.</p>
+<p>Processing time varies by the competent authority and your case; please confirm individually. There is no government application fee; main costs include the annual surety bond premium (approx. KRW 300,000–500,000) and administrative agent fees.</p>
 <h2>7. Post-Registration Obligations</h2>
 <ul><li>Maintain and renew the surety bond annually</li><li>Report changes within 30 days (representative, trade name, address)</li><li>Submit annual cargo handling performance report</li></ul>
 <h2>8. Special Notes for Foreign Companies</h2>
@@ -44,9 +44,9 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Can a sole proprietor register?</p><p class="faq-a">A. Yes. Both corporations and sole proprietors with capital of KRW 300M+ may register.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Must the KRW 300M be maintained at all times?</p><p class="faq-a">A. No. You must prove the capital at the time of application. It may be used as operating funds afterwards.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Can a mutual aid association substitute for the surety bond?</p><p class="faq-a">A. Yes, if the association is recognized by the relevant authority. Confirm eligibility in advance.</p></div>
-<div class="faq-item"><p class="faq-q">Q. What if processing exceeds 20 business days?</p><p class="faq-a">A. You may inquire with the processing department. Using an administrative scrivener helps expedite responses to supplementation requests.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if processing exceeds 20 business days?</p><p class="faq-a">A. You may inquire with the processing department. Using an administrative agent helps expedite responses to supplementation requests.</p></div>
 </div>
-<div class="cta-box"><h3>Need Help with Freight Forwarding Registration?</h3><p>YouSun Administrative Agency handles the entire process — from document preparation to certificate receipt — with licensed scriveners specializing in logistics permits. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Need Help with Freight Forwarding Registration?</h3><p>YouSun Administrative Agency handles the entire process — from document preparation to certificate receipt — with licensed administrative agents specializing in logistics permits. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'international-logistics-registration-guide',
@@ -248,13 +248,13 @@ const blogData: BlogI18n[] = [
 <h2>6. Application Procedure</h2>
 <ol><li>Confirm current designated use of the building</li><li>Determine whether permit or notification applies</li><li>Prepare architectural drawings and compliance documents</li><li>Submit to the local municipal office (Si/Gun/Gu)</li><li>On-site inspection (if required)</li><li>Receipt of permit or notification acceptance</li></ol>
 <h2>7. Timeline and Costs</h2>
-<ul><li><strong>Notification:</strong> Typically 7–15 business days for acceptance</li><li><strong>Permit:</strong> Typically 30–60 business days depending on complexity</li><li>Costs include architectural drawing fees, inspection fees, and administrative scrivener service fees</li></ul>
+<ul><li><strong>Notification:</strong> Typically 7–15 business days for acceptance</li><li><strong>Permit:</strong> Typically 30–60 business days depending on complexity</li><li>Costs include architectural drawing fees, inspection fees, and administrative agent service fees</li></ul>
 <h2>8. Common Mistakes by Foreign Companies</h2>
 <ul><li>Starting renovation before receiving the permit or notification acceptance</li><li>Underestimating fire safety upgrade requirements</li><li>Not checking local zoning regulations that may prohibit the intended use</li><li>Failing to update the building register after completion</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can I operate immediately after filing a notification?</p><p class="faq-a">A. No. You must wait for the local authority to process and accept the notification before commencing operations.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Does use change require physical renovation?</p><p class="faq-a">A. Not always, but the space must meet all technical standards for the new use (fire safety, ventilation, etc.).</p></div>
-<div class="faq-item"><p class="faq-q">Q. Can a foreign national own the building and apply directly?</p><p class="faq-a">A. Yes. The owner or their authorized representative (such as an administrative scrivener) may file the application.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can a foreign national own the building and apply directly?</p><p class="faq-a">A. Yes. The owner or their authorized representative (such as an administrative agent) may file the application.</p></div>
 </div>
 <div class="cta-box"><h3>Need Help with Building Use Change in Korea?</h3><p>YouSun Administrative Agency handles building use change applications — from confirming current use to receiving the final permit. Initial consultation is free.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
@@ -350,7 +350,7 @@ const blogData: BlogI18n[] = [
 <h2>5. Application Procedure</h2>
 <ol><li>Pre-consultation with local health authority</li><li>Facility construction/renovation to meet standards</li><li>Document preparation and submission</li><li>On-site facility inspection</li><li>License issuance</li></ol>
 <h2>6. Timeline and Costs</h2>
-<p>Processing time varies by the competent authority and your case; please confirm individually. No government fee, but facility upgrades and scrivener fees are the main costs.</p>
+<p>Processing time varies by the competent authority and your case; please confirm individually. No government fee, but facility upgrades and administrative agent fees are the main costs.</p>
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Does a home kitchen qualify as a manufacturing facility?</p><p class="faq-a">A. No. A dedicated, inspected commercial facility is required.</p></div>
 <div class="faq-item"><p class="faq-q">Q. Is HACCP mandatory?</p><p class="faq-a">A. HACCP is mandatory for certain product categories (meat, dairy, etc.) and strongly recommended for all others.</p></div>
@@ -2053,14 +2053,14 @@ const blogData: BlogI18n[] = [
 <h2>4. Consequences of Non-Genuine Registration</h2>
 <ul><li>Recognition must be cancelled where it was obtained by false or fraudulent means, and the company cannot apply again until 1 year has passed from the cancellation date</li><li>R&D tax credits do not apply to costs incurred on or after a date set by the cancellation ground (for fraud, from the start of the tax year that includes the recognition date)</li><li>Criminal charges for tax fraud are possible</li></ul>
 <h2>5. How to Verify Agency Legitimacy</h2>
-<ul><li>Check if the agency is a licensed administrative scrivener office (행정사 사무소)</li><li>Request references from past clients</li><li>Avoid agencies that promise results without reviewing your actual R&D activities</li></ul>
+<ul><li>Check if the agency is a licensed administrative agent office (행정사 사무소)</li><li>Request references from past clients</li><li>Avoid agencies that promise results without reviewing your actual R&D activities</li></ul>
 <h2>6. Safe Practices</h2>
-<ul><li>Only register researchers who are genuinely employed and conduct R&D</li><li>Document all research activities with dated records</li><li>Have a licensed administrative scrivener prepare the application honestly</li></ul>
+<ul><li>Only register researchers who are genuinely employed and conduct R&D</li><li>Document all research activities with dated records</li><li>Have a licensed administrative agent prepare the application honestly</li></ul>
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can we retroactively fix a registration that was done improperly?</p><p class="faq-a">A. In some cases, voluntary disclosure and correction is possible. Consult a specialist before an audit finds the issue.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Are all agencies risky?</p><p class="faq-a">A. No. Licensed administrative scrivener offices operate under professional regulations. The risk is with unlicensed brokers.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Are all agencies risky?</p><p class="faq-a">A. No. Licensed administrative agent offices operate under professional regulations. The risk is with unlicensed brokers.</p></div>
 </div>
-<div class="cta-box"><h3>Register Your R&D Lab the Right Way</h3><p>YouSun Administrative Agency is a licensed administrative scrivener office with clean compliance practices. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+<div class="cta-box"><h3>Register Your R&D Lab the Right Way</h3><p>YouSun Administrative Agency is a licensed administrative agent office with clean compliance practices. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'corporate-research-lab-agency-risk-guide',
@@ -2729,12 +2729,12 @@ const blogData: BlogI18n[] = [
   {
     slug: 'administrative-license-permit-specialist-guide',
     locale: 'en',
-    title: 'Why Use a Licensed Administrative Scrivener in Korea — 2026 Guide',
-    metaTitle: 'Korea Administrative Scrivener (행정사) 2026 — Why You Need One',
-    metaDescription: 'Why using a licensed administrative scrivener (행정사) in Korea saves time and avoids costly mistakes. Scope of services, legal protections. Free consultation.',
+    title: 'Why Use a Licensed Administrative Agent in Korea — 2026 Guide',
+    metaTitle: 'Korea Administrative Agent (행정사) 2026 — Why You Need One',
+    metaDescription: 'Why using a licensed administrative agent (행정사) in Korea saves time and avoids costly mistakes. Scope of services, legal protections. Free consultation.',
     category: 'Administrative',
-    excerpt: 'A guide to the role of a licensed administrative scrivener (행정사) in Korea — what they do, why they matter for license applications, and how to find a qualified one.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is an Administrative Scrivener?</li><li>Services Provided</li><li>Legal Protections When Using a Licensed Scrivener</li><li>Risks of Using Unlicensed Agents</li><li>How to Verify a Scrivener's License</li><li>Fee Structure</li><li>FAQ</li></ol></div><h2>1. What Is an Administrative Scrivener?</h2><p>A 행정사 (administrative scrivener / administrative agent) is a licensed professional in Korea who can prepare and submit government applications on behalf of clients. The profession is regulated under the <strong>Administrative Agent Act (행정사법)</strong>.</p><h2>2. Services Provided</h2><ul><li>Business license applications (restaurant, manufacturing, cosmetics, etc.)</li><li>Corporate registrations and permits</li><li>Government procurement registration</li><li>Venue, facility, and use-change applications</li><li>Translation and notarization support</li></ul><h2>3. Legal Protections When Using a Licensed Scrivener</h2><ul><li>Licensed scriveners carry professional liability insurance</li><li>Clients have recourse through the 행정사협회 (association) if misconduct occurs</li><li>Government offices recognize and trust submissions prepared by 행정사</li></ul><h2>4. Risks of Using Unlicensed Agents</h2><ul><li>No legal accountability or insurance coverage</li><li>Applications may be prepared incorrectly, causing rejection or delays</li><li>Some unlicensed "agencies" operate fraudulently</li></ul><h2>5. How to Verify a Scrivener's License</h2><ul><li>Check the Korean Administrative Agent Association website (행정사협회)</li><li>Request license number and cross-reference official registry</li><li>Legitimate offices display their registration certificate prominently</li></ul><h2>6. Fee Structure</h2><ul><li>Fees are negotiable but follow general market rates by service type</li><li>Reputable offices provide written fee agreements before work starts</li><li>Beware of unusually low fees — they often indicate unlicensed operators</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. What does an administrative scrivener handle, and where does the scope end?</p><p class="faq-a">A. Legal disputes and court matters are outside the scope of an administrative scrivener. Administrative scriveners (행정사) specialize in government applications and administrative procedures.</p></div><div class="faq-item"><p class="faq-q">Q. Can I apply for business licenses myself without a scrivener?</p><p class="faq-a">A. Yes. Licenses can be applied for directly. A scrivener speeds up the process, reduces rejection risk, and handles complex multi-step applications.</p></div></div><div class="cta-box"><h3>Work with a Licensed Administrative Scrivener</h3><p>YouSun Administrative Agency is a licensed 행정사 office. We handle all business licensing and government applications. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
+    excerpt: 'A guide to the role of a licensed administrative agent (행정사) in Korea — what they do, why they matter for license applications, and how to find a qualified one.',
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What Is an Administrative Agent?</li><li>Services Provided</li><li>Legal Protections When Using a Licensed Administrative Agent</li><li>Risks of Using Unlicensed Agents</li><li>How to Verify an Administrative agent's License</li><li>Fee Structure</li><li>FAQ</li></ol></div><h2>1. What Is an Administrative Agent?</h2><p>A 행정사 (administrative agent / administrative agent) is a licensed professional in Korea who can prepare and submit government applications on behalf of clients. The profession is regulated under the <strong>Administrative Agent Act (행정사법)</strong>.</p><h2>2. Services Provided</h2><ul><li>Business license applications (restaurant, manufacturing, cosmetics, etc.)</li><li>Corporate registrations and permits</li><li>Government procurement registration</li><li>Venue, facility, and use-change applications</li><li>Translation and notarization support</li></ul><h2>3. Legal Protections When Using a Licensed Administrative Agent</h2><ul><li>Licensed administrative agents carry professional liability insurance</li><li>Clients have recourse through the 행정사협회 (association) if misconduct occurs</li><li>Government offices recognize and trust submissions prepared by 행정사</li></ul><h2>4. Risks of Using Unlicensed Agents</h2><ul><li>No legal accountability or insurance coverage</li><li>Applications may be prepared incorrectly, causing rejection or delays</li><li>Some unlicensed "agencies" operate fraudulently</li></ul><h2>5. How to Verify an Administrative agent's License</h2><ul><li>Check the Korean Administrative Agent Association website (행정사협회)</li><li>Request license number and cross-reference official registry</li><li>Legitimate offices display their registration certificate prominently</li></ul><h2>6. Fee Structure</h2><ul><li>Fees are negotiable but follow general market rates by service type</li><li>Reputable offices provide written fee agreements before work starts</li><li>Beware of unusually low fees — they often indicate unlicensed operators</li></ul><div class="faq-section"><h2>FAQ</h2><div class="faq-item"><p class="faq-q">Q. What does an administrative agent handle, and where does the scope end?</p><p class="faq-a">A. Legal disputes and court matters are outside the scope of an administrative agent. Administrative agents (행정사) specialize in government applications and administrative procedures.</p></div><div class="faq-item"><p class="faq-q">Q. Can I apply for business licenses myself without an administrative agent?</p><p class="faq-a">A. Yes. Licenses can be applied for directly. An administrative agent speeds up the process, reduces rejection risk, and handles complex multi-step applications.</p></div></div><div class="cta-box"><h3>Work with a Licensed Administrative Agent</h3><p>YouSun Administrative Agency is a licensed 행정사 office. We handle all business licensing and government applications. Free initial consultation.</p><a href="/en/contact">Request Free Consultation</a></div>`,
   },
   {
     slug: 'administrative-license-permit-specialist-guide',
@@ -3232,7 +3232,7 @@ const blogData: BlogI18n[] = [
   <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-certification">Get Expert Consultation</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency (Head Administrative Scrivener: Jung Yu-sun)</p>`,
+<p class="author-block">YouSun Administrative Agency (Head Administrative Agent: Jung Yu-sun)</p>`,
   },
   {
     slug: 'mainbiz-certification-requirements-process',
@@ -3725,7 +3725,7 @@ const blogData: BlogI18n[] = [
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">Request a Free Consultation</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency (Representative Administrative Scrivener: Jung Yu-sun)</p>`,
+<p class="author-block">YouSun Administrative Agency (Representative Administrative Agent: Jung Yu-sun)</p>`,
   },
   {
     slug: 'location-information-business-registration',
@@ -3971,78 +3971,78 @@ const blogData: BlogI18n[] = [
   {
     slug: 'administrative-scrivener-scope-and-limits',
     locale: 'en',
-    title: 'Scope and Limits of a Korean Administrative Scrivener in Licensing Work',
-    metaTitle: 'Korean Administrative Scrivener — Licensing Scope and Legal Limits',
-    metaDescription: 'What a Korean administrative scrivener may and may not do in licensing work under the Certified Administrative Scrivener Act, plus a pre-engagement checklist.',
+    title: 'Scope and Limits of a Korean Administrative Agent in Licensing Work',
+    metaTitle: 'Korean Administrative Agent — Licensing Scope and Legal Limits',
+    metaDescription: 'What a Korean administrative agent may and may not do in licensing work under the Certified Administrative Agents Act, plus a pre-engagement checklist.',
     category: 'Licensing & Permits',
     excerpt: 'Before you delegate a Korean licence application, check what the law actually allows your representative to do. The scope is fixed by statute, not by the firm.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What You May Delegate</li><li>Scrivener Categories Change the Scope</li><li>What You May Not Delegate</li><li>Five Things to Verify Before You Engage</li><li>Penalties for Unlicensed Representation</li><li>Duties Owed to You After Engagement</li><li>FAQ</li></ol></div>
-<p>A Korean <strong>administrative scrivener</strong> (행정사, haengjeongsa) is a licensed professional who, on another person's mandate, prepares filings for government agencies and acts as agent for licence and permit applications. That scope is not set by the firm you hire — it is fixed by Article 2 of the Certified Administrative Scrivener Act and Article 2 of its Enforcement Decree. So what to check before signing is not the marketing copy but the boundary the statute draws around that office.</p>
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What You May Delegate</li><li>Administrative Agent Categories Change the Scope</li><li>What You May Not Delegate</li><li>Five Things to Verify Before You Engage</li><li>Penalties for Unlicensed Representation</li><li>Duties Owed to You After Engagement</li><li>FAQ</li></ol></div>
+<p>A Korean <strong>administrative agent</strong> (행정사, haengjeongsa) is a licensed professional who, on another person's mandate, prepares filings for government agencies and acts as agent for licence and permit applications. That scope is not set by the firm you hire — it is fixed by Article 2 of the Certified Administrative Agents Act and Article 2 of its Enforcement Decree. So what to check before signing is not the marketing copy but the boundary the statute draws around that office.</p>
 
 <h2>What You May Delegate</h2>
-<p>Article 2(1) lists seven categories of scrivener work, with a proviso: work restricted under another statute may not be performed. The provision that matters most in licensing is subparagraph 5 — agency for applications, claims and reports made to an agency in order to obtain an authorisation, permit or licence.</p>
-<div class="highlight-box">Certified Administrative Scrivener Act, Article 2(1)5: acting as agent (代理) for applications, claims and reports made to administrative agencies in order to obtain authorisations, permits, licences and the like.</div>
+<p>Article 2(1) lists seven categories of administrative agent work, with a proviso: work restricted under another statute may not be performed. The provision that matters most in licensing is subparagraph 5 — agency for applications, claims and reports made to an agency in order to obtain an authorisation, permit or licence.</p>
+<div class="highlight-box">Certified Administrative Agents Act, Article 2(1)5: acting as agent (代理) for applications, claims and reports made to administrative agencies in order to obtain authorisations, permits, licences and the like.</div>
 <p>Article 2(5) of the Decree spells this out as "acting as agent, on another person's mandate, in requesting a specific action from an administrative agency or making a report". In practice the act of filing can itself be performed as your agent.</p>
 <p>The other categories support the same workflow: preparing documents for agencies (subparagraph 1), documents on rights, duties or proof of facts (subparagraph 2), translation (subparagraph 3), submitting documents so prepared (subparagraph 4), answering consultations on administrative law (subparagraph 6), and fact-finding for entrusted affairs (subparagraph 7). A single licence matter can therefore be delegated end to end: eligibility review, drafting, filing as agent, responding to supplementation requests, and collecting the certificate. Which documents a given industry needs is set out in our <a href="/services/logistics">international freight forwarding registration</a> and <a href="/services/food-manufacturing">food manufacturing permit</a> pages.</p>
 
-<h2>Scrivener Categories Change the Scope</h2>
-<p>Not every scrivener may take every matter. Article 3 of the Decree divides scriveners into general, maritime and foreign-language translation scriveners, each with a different scope. Confirming that your matter falls inside the category of the office you hire is the first check.</p>
+<h2>Administrative Agent Categories Change the Scope</h2>
+<p>Not every administrative agent may take every matter. Article 3 of the Decree divides administrative agents into general, maritime and foreign-language translation administrative agents, each with a different scope. Confirming that your matter falls inside the category of the office you hire is the first check.</p>
 <table><thead><tr><th>Category</th><th>Scope of work</th><th>Licensing agency work</th></tr></thead><tbody>
-<tr><td>General scrivener</td><td>All subparagraphs of Article 2(1) except subparagraph 3 (translation); excludes shipping and maritime safety tribunal matters</td><td>Available</td></tr>
-<tr><td>Maritime scrivener</td><td>The same subparagraphs, limited to shipping and maritime safety tribunal matters</td><td>Shipping and maritime matters only</td></tr>
-<tr><td>Foreign-language translation scrivener</td><td>Article 2(1) subparagraphs 3 and 4 — translation, and submission of translated documents</td><td>Translation and filing only</td></tr>
+<tr><td>General administrative agent</td><td>All subparagraphs of Article 2(1) except subparagraph 3 (translation); excludes shipping and maritime safety tribunal matters</td><td>Available</td></tr>
+<tr><td>Maritime administrative agent</td><td>The same subparagraphs, limited to shipping and maritime safety tribunal matters</td><td>Shipping and maritime matters only</td></tr>
+<tr><td>Foreign-language translation administrative agent</td><td>Article 2(1) subparagraphs 3 and 4 — translation, and submission of translated documents</td><td>Translation and filing only</td></tr>
 </tbody></table>
-<p>Foreign nationals and companies often want home-country documents translated in the same engagement. Translation belongs to the translation scrivener and licence agency to the general scrivener, so ask whether a scrivener of each category is involved.</p>
+<p>Foreign nationals and companies often want home-country documents translated in the same engagement. Translation belongs to the translation administrative agent and licence agency to the general administrative agent, so ask whether an administrative agent of each category is involved.</p>
 
 <h2>What You May Not Delegate</h2>
-<p>The proviso to Article 2(1) — "work restricted under another statute" — is the outer limit. Litigation and legal-dispute representation fall outside a scrivener's scope; tax agency work belongs to certified tax accountants, and registration filings to judicial scriveners. A scrivener may not carry on those as a business.</p>
-<p>Article 22(3) goes further, making it a prohibited act to intervene beyond scrivener work in another person's litigation, in other disputes over legal relations, or in the handling of civil petitions. Settle at the engagement stage how far the mandate runs if the filing is refused.</p>
+<p>The proviso to Article 2(1) — "work restricted under another statute" — is the outer limit. Litigation and legal-dispute representation fall outside an administrative agent's scope; tax agency work belongs to certified tax accountants, and registration filings to judicial scriveners. An administrative agent may not carry on those as a business.</p>
+<p>Article 22(3) goes further, making it a prohibited act to intervene beyond administrative agent work in another person's litigation, in other disputes over legal relations, or in the handling of civil petitions. Settle at the engagement stage how far the mandate runs if the filing is refused.</p>
 <p>Article 22 also prohibits refusing a mandate without grounds; taking the same matter from an opposing party, unless both consent; advertising influence through connections with the officials in charge; misleading advertising; and soliciting mandates through brokers.</p>
 
 <h2>Five Things to Verify Before You Engage</h2>
 <p>Each item below has a statutory basis and can be checked on the spot before signing.</p>
 <table><thead><tr><th>Item</th><th>What to look at</th></tr></thead><tbody>
 <tr><td>Report confirmation certificate</td><td>The original issued by the head of the city, county or district of the office. Lending, borrowing and brokering it are prohibited, so check the name against the person who will handle your matter.</td></tr>
-<tr><td>Office</td><td>Only one office may be established; a joint office requires 2 or more scriveners, with at least 1 resident at the main office and at each branch.</td></tr>
-<tr><td>Case register</td><td>On accepting a mandate, the scrivener must keep a register recording the serial number, date, outline of the work, remuneration, and the client's address and name.</td></tr>
-<tr><td>Restriction on accepting cases</td><td>A scrivener retired from public office may not, for 1 year after retirement, take licensing agency work directed at the agency where they served in the 1 year before retirement.</td></tr>
+<tr><td>Office</td><td>Only one office may be established; a joint office requires 2 or more administrative agents, with at least 1 resident at the main office and at each branch.</td></tr>
+<tr><td>Case register</td><td>On accepting a mandate, the administrative agent must keep a register recording the serial number, date, outline of the work, remuneration, and the client's address and name.</td></tr>
+<tr><td>Restriction on accepting cases</td><td>An administrative agent retired from public office may not, for 1 year after retirement, take licensing agency work directed at the agency where they served in the 1 year before retirement.</td></tr>
 <tr><td>Continuing education</td><td>Refresher training by the competent Mayor or Governor is mandatory, and practical training by the Minister of the Interior and Safety must be completed before starting practice.</td></tr>
 </tbody></table>
-<p>After a move, the scrivener must report the new location to the competent local government within 10 days. If the address on your engagement letter differs from the certificate, ask whether that report has been filed.</p>
-<p>A scrivener corporation adds one check: it requires 3 or more scriveners as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/en/blog/nonprofit-corporation-establishment-guide">non-profit association establishment permits</a>.</p>
+<p>After a move, the administrative agent must report the new location to the competent local government within 10 days. If the address on your engagement letter differs from the certificate, ask whether that report has been filed.</p>
+<p>An administrative agent corporation adds one check: it requires 3 or more administrative agents as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/en/blog/nonprofit-corporation-establishment-guide">non-profit association establishment permits</a>.</p>
 
 <h2>Penalties for Unlicensed Representation</h2>
-<p>A non-scrivener may not carry on Article 2 work as a business, except where another statute allows it, and may not use the title of scrivener or a similar title. Both prohibitions are backed by criminal penalties and administrative fines.</p>
+<p>A non-agent may not carry on Article 2 work as a business, except where another statute allows it, and may not use the title of administrative agent or a similar title. Both prohibitions are backed by criminal penalties and administrative fines.</p>
 <table><thead><tr><th>Violation</th><th>Penalty</th></tr></thead><tbody>
-<tr><td>Practising as a business without being a scrivener; lending, borrowing or brokering a report confirmation certificate</td><td>Imprisonment of up to 3 years or a fine of up to KRW 30,000,000</td></tr>
+<tr><td>Practising as a business without being an administrative agent; lending, borrowing or brokering a report confirmation certificate</td><td>Imprisonment of up to 3 years or a fine of up to KRW 30,000,000</td></tr>
 <tr><td>Practising without filing the business report; breaching the case restriction; advertising connections; misleading advertising; disclosing confidences; practising while suspended</td><td>Imprisonment of up to 1 year or a fine of up to KRW 10,000,000</td></tr>
 <tr><td>Taking money or benefits beyond remuneration; refusing a mandate without grounds; accepting both sides; intervening in disputes; using brokers</td><td>A fine of up to KRW 1,000,000</td></tr>
-<tr><td>Using the title of scrivener or a similar title; not complying, without grounds, with an order to report or submit materials</td><td>An administrative fine of up to KRW 5,000,000</td></tr>
+<tr><td>Using the title of administrative agent or a similar title; not complying, without grounds, with an order to report or submit materials</td><td>An administrative fine of up to KRW 5,000,000</td></tr>
 <tr><td>Not reporting an office relocation; not keeping a case register or keeping a false one; practising without refresher training</td><td>An administrative fine of up to KRW 1,000,000</td></tr>
 </tbody></table>
-<p>If an employee or associate scrivener breaches Article 36 in connection with the business, the firm is fined under the same provision as well — unless reasonable care and supervision were exercised.</p>
+<p>If an employee or associate administrative agent breaches Article 36 in connection with the business, the firm is fined under the same provision as well — unless reasonable care and supervision were exercised.</p>
 <p>Supervision is real: the Minister of the Interior and Safety, or the head of the local government of the office, may order reports or submission of the case register, and officials may inspect books on site. Two or more offices, or money beyond remuneration, can bring suspension of practice within a range of 6 months, and no such disposition may be made once 3 years have passed since the cause arose.</p>
 
 <h2>Duties Owed to You After Engagement</h2>
-<p>Once the mandate is in place, the scrivener must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
-<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the scrivener nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
-<p>Confidentiality survives the engagement: a scrivener, a former scrivener and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>.</p>
+<p>Once the mandate is in place, the administrative agent must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
+<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the administrative agent nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
+<p>Confidentiality survives the engagement: an administrative agent, a former administrative agent and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. Can a scrivener file my licence application with only the representative's name on the form?</p><p class="faq-a">A. Yes. Article 2(1)5 makes agency for applications, claims and reports to agencies for obtaining authorisations, permits and licences part of scrivener work, and Article 2(5) of the Decree spells it out as acting as agent in requesting an agency action or making a report. Documents evidencing the mandate are still required.</p></div>
-<div class="faq-item"><p class="faq-q">Q. If the application is refused, can the same scrivener handle the administrative appeal?</p><p class="faq-a">A. Check the scope first. The proviso to Article 2(1) excludes work restricted under another statute, and Article 22(3) bars intervening beyond scrivener work in litigation or disputes over legal relations. Agree at the engagement stage how far the mandate runs after a refusal.</p></div>
-<div class="faq-item"><p class="faq-q">Q. May I engage a consulting firm without a scrivener licence?</p><p class="faq-a">A. We would not recommend it. Article 3(1) bars a non-scrivener from carrying on scrivener work as a business except where another statute allows it, and Article 36(1) punishes a breach with imprisonment of up to 3 years or a fine of up to KRW 30,000,000. Unlicensed representation also risks stalling your filing.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can an administrative agent file my licence application with only the representative's name on the form?</p><p class="faq-a">A. Yes. Article 2(1)5 makes agency for applications, claims and reports to agencies for obtaining authorisations, permits and licences part of administrative agent work, and Article 2(5) of the Decree spells it out as acting as agent in requesting an agency action or making a report. Documents evidencing the mandate are still required.</p></div>
+<div class="faq-item"><p class="faq-q">Q. If the application is refused, can the same administrative agent handle the administrative appeal?</p><p class="faq-a">A. Check the scope first. The proviso to Article 2(1) excludes work restricted under another statute, and Article 22(3) bars intervening beyond administrative agent work in litigation or disputes over legal relations. Agree at the engagement stage how far the mandate runs after a refusal.</p></div>
+<div class="faq-item"><p class="faq-q">Q. May I engage a consulting firm without an administrative agent licence?</p><p class="faq-a">A. We would not recommend it. Article 3(1) bars anyone who is not an administrative agent from carrying on administrative agent work as a business except where another statute allows it, and Article 36(1) punishes a breach with imprisonment of up to 3 years or a fine of up to KRW 30,000,000. Unlicensed representation also risks stalling your filing.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How should I read a pitch that emphasises knowing the official in charge?</p><p class="faq-a">A. That pitch is prohibited. Article 22(4) bars advertising influence through personal connections with the officials concerned, and Article 36(2) punishes it with imprisonment of up to 1 year or a fine of up to KRW 10,000,000.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Do I really need to see the report confirmation certificate?</p><p class="faq-a">A. It is worth asking. The certificate is issued by the competent local government on the scrivener's business report under Article 12(1), and Article 13 bars lending it and brokering such a loan. Matching the name on it against the person who will handle your matter is the simplest screen against unlicensed representation.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do I really need to see the report confirmation certificate?</p><p class="faq-a">A. It is worth asking. The certificate is issued by the competent local government on the administrative agent's business report under Article 12(1), and Article 13 bars lending it and brokering such a loan. Matching the name on it against the person who will handle your matter is the simplest screen against unlicensed representation.</p></div>
 </div>
 
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
- <p>Yuseon Administrative Scrivener Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>Yuseon Administrative Agent Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Principal Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Principal Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'administrative-scrivener-scope-and-limits',
@@ -4277,7 +4277,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'building-usage-change-requirements',
@@ -4531,7 +4531,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'hostel-violation-penalties',
@@ -4783,7 +4783,7 @@ const blogData: BlogI18n[] = [
 <li><strong>Combined petitions</strong> — a lead department may process multi-department permits together (Act Article 31(1); Decree Article 35).</li>
 <li><strong>On the day a request arrives</strong> — record the deadline, check each item's provision, ask the named official, and request an extension if needed (up to 2; Decree Articles 24(2) and 31).</li>
 </ul>
-<p>Delegating filing and supplements to an administrative scrivener rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>Delegating filing and supplements to an administrative agent rests on Article 2(1)5 of the Certified Administrative Agents Act (행정사법). Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. How long do I get to answer a supplement request?</p><p class="faq-a">A. The deadline is the date in the request (Article 22(1)). You may ask for an extension up to 2 times; afterwards the authority may set a new period of up to 10 days or return the application.</p></div>
@@ -4799,7 +4799,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'administrative-license-agency-supplement-and-rejection',
@@ -5052,7 +5052,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'procurement-narajangteo-registration-change',
@@ -5317,7 +5317,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'corporate-research-lab-required-documents',
@@ -5599,7 +5599,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'mainbiz-renewal-and-validity',
@@ -5780,20 +5780,20 @@ const blogData: BlogI18n[] = [
     locale: 'en',
     title: 'Who Can Act as a Licensing Administrative Agent in Korea — Qualification and How to Verify It',
     metaTitle: 'Licensing Administrative Agent Korea — Qualification Check',
-    metaDescription: 'How a Korean administrative scrivener (haengjeongsa) qualifies under the Certified Administrative Scrivener Act, and the documents a client can check first.',
+    metaDescription: 'How a Korean administrative agent (haengjeongsa) qualifies under the Certified Administrative Agents Act, and the documents a client can check first.',
     category: 'Licensing & Permits',
     excerpt: 'Passing the state exam is not enough to act as a licensing administrative agent in Korea. Here is the statutory path — exam, disqualifications, training, association membership and business report — and what a client can verify.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>Qualification Starts With the State Exam</li><li>Partial Exemptions and Disqualifications</li><li>A Licence Alone Is Not Enough — The Business Report</li><li>Office Names and Scrivener Corporations</li><li>How to Verify a Scrivener Before You Engage</li><li>Unlicensed Practice and Duties Owed to Clients</li><li>FAQ</li></ol></div>
-<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative scrivener) who holds the qualification under the Certified Administrative Scrivener Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Scriveners before reporting (Enforcement Decree Article 20(1)).</p>
-<p>What you may delegate is covered in our note on <a href="/blog/administrative-scrivener-scope-and-limits">the scope and limits of a licensing scrivener</a>. Here we answer the earlier question: is the person in front of you legally a scrivener?</p>
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>Qualification Starts With the State Exam</li><li>Partial Exemptions and Disqualifications</li><li>A Licence Alone Is Not Enough — The Business Report</li><li>Office Names and Administrative Agent Corporations</li><li>How to Verify an Administrative Agent Before You Engage</li><li>Unlicensed Practice and Duties Owed to Clients</li><li>FAQ</li></ol></div>
+<p>A <strong>licensing administrative agent</strong> in Korea is a <em>haengjeongsa</em> (administrative agent) who holds the qualification under the Certified Administrative Agents Act and has filed a business report with the head of the city, county or district of the main office, so that they may act for others in permit and licence applications (Articles 2(1)5, 5 and 10(1)). The certificate alone is not enough: the person must also be free of disqualifications, complete practical training and join the Korean Association of Administrative Agents before reporting (Enforcement Decree Article 20(1)).</p>
+<p>What you may delegate is covered in our note on <a href="/blog/administrative-scrivener-scope-and-limits">the scope and limits of a licensing administrative agent</a>. Here we answer the earlier question: is the person in front of you legally an administrative agent?</p>
 
 <h2>Qualification Starts With the State Exam</h2>
-<div class="highlight-box">Certified Administrative Scrivener Act, Article 5: A person who passes the administrative scrivener qualification examination is qualified as an administrative scrivener.</div>
-<p>Scriveners are general, maritime or translation scriveners (Article 4). Acting in permit applications belongs to the general scrivener; maritime scriveners are limited to shipping and marine safety tribunal matters, and translation scriveners to translation and filing translations (Decree Article 3). For a business licence, look for a general scrivener.</p>
+<div class="highlight-box">Certified Administrative Agents Act, Article 5: A person who passes the administrative agent qualification examination is qualified as an administrative agent.</div>
+<p>Administrative agents are general, maritime or translation administrative agents (Article 4). Acting in permit applications belongs to the general administrative agent; maritime administrative agents are limited to shipping and marine safety tribunal matters, and translation administrative agents to translation and filing translations (Decree Article 3). For a business licence, look for a general administrative agent.</p>
 <p>The Minister of the Interior and Safety holds the exam once a year in two stages, with administration entrusted to HRD Korea (Article 8; Decree Articles 8(1) and 12). The first stage is multiple choice; the second is an essay exam that may include short-answer items (Decree Article 9(2)).</p>
-<table><thead><tr><th>Stage</th><th>Subjects (general scrivener)</th></tr></thead><tbody>
+<table><thead><tr><th>Stage</th><th>Subjects (general administrative agent)</th></tr></thead><tbody>
 <tr><td>First stage (3 subjects)</td><td>Civil Act (general provisions), Administrative Law, Public Administration</td></tr>
-<tr><td>Second stage (4 subjects)</td><td>Civil Act (contracts), Administrative Procedure, Office Management, Scrivener Practice Law</td></tr>
+<tr><td>Second stage (4 subjects)</td><td>Civil Act (contracts), Administrative Procedure, Office Management, Administrative Agent Practice Law</td></tr>
 <tr><td>Pass mark</td><td>40 or more out of 100 in every subject, average 60 or more</td></tr>
 </tbody></table>
 <p>Where a minimum intake is set and too few pass, candidates with 40 or more in every subject are added by average score (Decree Article 17(3)). The Minister issues the <strong>qualification certificate</strong> after confirming the pass and the absence of disqualifications, and records it in a register (Decree Article 18; Enforcement Rule Article 6). A candidate caught cheating may not sit the exam for 5 years (Article 9-2).</p>
@@ -5806,53 +5806,53 @@ const blogData: BlogI18n[] = [
 <li><strong>Holders of another category</strong> — first stage exempt (Article 9(1)4).</li>
 </ul>
 <p>Officials who were impeached, dismissed by discipline, or demoted or suspended for bribery or embezzlement cannot use these exemptions (Article 9(3)). Experience is counted at the application deadline, and a first-stage pass carries over to the next exam only (Article 9(5)). Addendum Article 3 of Act No. 10441 (2011) kept older full or partial exemptions for officials and translators already serving, so routes differ, but the Minister-issued certificate is always the proof.</p>
-<p>Under Article 6 a person cannot become a scrivener if they are under adult guardianship; bankrupt and not reinstated; within 3 years of serving a sentence of imprisonment without labour or heavier; within 2 years of the end of a suspended sentence of that kind; in a deferral period; within 3 years of dismissal from public office by discipline; or within 3 years of revocation under Article 30. These grounds are checked again at the business report (Decree Article 20(1)1). The Minister must revoke the qualification, after a hearing, for fraud, lending the certificate, practising during suspension or a final prison sentence under the Act (Article 30).</p>
+<p>Under Article 6 a person cannot become an administrative agent if they are under adult guardianship; bankrupt and not reinstated; within 3 years of serving a sentence of imprisonment without labour or heavier; within 2 years of the end of a suspended sentence of that kind; in a deferral period; within 3 years of dismissal from public office by discipline; or within 3 years of revocation under Article 30. These grounds are checked again at the business report (Decree Article 20(1)1). The Minister must revoke the qualification, after a hearing, for fraud, lending the certificate, practising during suspension or a final prison sentence under the Act (Article 30).</p>
 
 <h2>A Licence Alone Is Not Enough — The Business Report</h2>
-<div class="highlight-box">Certified Administrative Scrivener Act, Article 10(1): A qualified person who intends to practise shall meet the business report criteria prescribed by Presidential Decree and report to the head of the city, county or district having jurisdiction over the main office. The same applies when reported matters change.</div>
+<div class="highlight-box">Certified Administrative Agents Act, Article 10(1): A qualified person who intends to practise shall meet the business report criteria prescribed by Presidential Decree and report to the head of the city, county or district having jurisdiction over the main office. The same applies when reported matters change.</div>
 <p>The four criteria are: no disqualification, completed practical training, the certificate, and association membership (Decree Article 20(1)); membership is also required by Article 26-2. <strong>Practical training</strong> comprises 20 hours of basic and 40 hours of on-site training, in person or online, and the association issues the completion certificate (Article 25(1); Decree Article 23; Enforcement Rule Article 15).</p>
 <p>The local office issues the <strong>business report certificate</strong> and records it in its registers (Article 12; Enforcement Rule Article 9). If it neither issues it nor refuses within 3 months, the report is deemed accepted the next day; a refused applicant may object within 3 months (Article 11).</p>
-<p>Scriveners must then complete 16 hours of continuing training every 2 years; practising without it carries a fine of up to KRW 1,000,000 (Decree Article 23(6); Article 38(2)4). A temporary closure of more than 3 months must be reported, and one not ended within 2 years is deemed a closure of business (Article 17).</p>
+<p>Administrative agents must then complete 16 hours of continuing training every 2 years; practising without it carries a fine of up to KRW 1,000,000 (Decree Article 23(6); Article 38(2)4). A temporary closure of more than 3 months must be reported, and one not ended within 2 years is deemed a closure of business (Article 17).</p>
 
-<h2>Office Names and Scrivener Corporations</h2>
-<p>A scrivener may have one office only; a joint office of 2 or more may open branches with at least 1 member working full time at each (Article 14). The office name must contain "administrative scrivener office" in Korean, and non-scriveners may not use this or the title "administrative scrivener" (Articles 15 and 3(2)).</p>
-<p>Three or more scriveners may form a <strong>scrivener corporation</strong> with the Minister's approval (Articles 25-2 and 25-3). It files its own business report, uses "administrative scrivener corporation" in its name, may not take on members untrained under Article 25 (Articles 25-4 to 25-6), and must designate a responsible scrivener for each matter who signs its documents (Article 25-7).</p>
+<h2>Office Names and Administrative Agent Corporations</h2>
+<p>An administrative agent may have one office only; a joint office of 2 or more may open branches with at least 1 member working full time at each (Article 14). The office name must contain "administrative agent office" in Korean, and those who are not administrative agents may not use this or the title "administrative agent" (Articles 15 and 3(2)).</p>
+<p>Three or more administrative agents may form a <strong>administrative agent corporation</strong> with the Minister's approval (Articles 25-2 and 25-3). It files its own business report, uses "administrative agent corporation" in its name, may not take on members untrained under Article 25 (Articles 25-4 to 25-6), and must designate a responsible administrative agent for each matter who signs its documents (Article 25-7).</p>
 
-<h2>How to Verify a Scrivener Before You Engage</h2>
+<h2>How to Verify an Administrative Agent Before You Engage</h2>
 <table><thead><tr><th>Item</th><th>What to check</th></tr></thead><tbody>
-<tr><td>Qualification certificate</td><td>Issued by the Minister; general scrivener</td></tr>
+<tr><td>Qualification certificate</td><td>Issued by the Minister; general administrative agent</td></tr>
 <tr><td>Business report certificate</td><td>Issued by the local office; name matches the person handling your case</td></tr>
 <tr><td>Office address</td><td>Matches the certificate (relocation reported within 10 days)</td></tr>
-<tr><td>Office name</td><td>Carries the scrivener office or corporation label</td></tr>
-<tr><td>Corporation</td><td>Who is the designated responsible scrivener</td></tr>
+<tr><td>Office name</td><td>Carries the administrative agent office or corporation label</td></tr>
+<tr><td>Corporation</td><td>Who is the designated responsible administrative agent</td></tr>
 </tbody></table>
-<p>Lending the certificate is banned for lender, borrower and broker alike (Article 13). Staff may consult with you, but their acts are deemed the employing scrivener's (Article 18(2)). If in doubt, contact the issuing office named on the certificate, which keeps the registers (Enforcement Rule Article 9(2)), and for long matters ask whether a suspension of up to 6 months is in force (Article 32(1)). For matters with long follow-up, such as <a href="/services/nonprofit">non-profit association establishment</a> or <a href="/services/logistics">freight forwarder registration</a>, confirm the responsible scrivener stays the same.</p>
+<p>Lending the certificate is banned for lender, borrower and broker alike (Article 13). Staff may consult with you, but their acts are deemed the employing administrative agent's (Article 18(2)). If in doubt, contact the issuing office named on the certificate, which keeps the registers (Enforcement Rule Article 9(2)), and for long matters ask whether a suspension of up to 6 months is in force (Article 32(1)). For matters with long follow-up, such as <a href="/services/nonprofit">non-profit association establishment</a> or <a href="/services/logistics">freight forwarder registration</a>, confirm the responsible administrative agent stays the same.</p>
 
 <h2>Unlicensed Practice and Duties Owed to Clients</h2>
-<p>A non-scrivener may not carry on scrivener work as a business unless another law allows it (Article 3(1)):</p>
+<p>A non-agent may not carry on administrative agent work as a business unless another law allows it (Article 3(1)):</p>
 <ul>
 <li><strong>Practising without the qualification</strong> or <strong>lending the certificate</strong> — imprisonment of up to 3 years or a fine of up to KRW 30,000,000 (Article 36(1)); lending is also a ground for revocation (Article 30(1)2).</li>
 <li><strong>Practising without a business report</strong> or <strong>during a suspension</strong> — up to 1 year or KRW 10,000,000 (Article 36(2)1 and 6).</li>
 <li><strong>Using the title or a similar office name</strong> — an administrative fine of up to KRW 5,000,000 (Article 38(1)).</li>
 </ul>
-<p>A verified scrivener must act fairly, compensate loss caused intentionally or negligently (Article 21), and keep duty-related facts confidential, as must staff (Article 23). A former official may not, for 1 year after retiring, act in permit applications before an agency where they worked in their final year, except agencies where they worked 1 month or less (Article 21-2; Decree Article 21-2). Scriveners keep a case register — serial number, date, outline, remuneration, client details — for 1 year (Article 24; Decree Article 22), and must promptly issue a certificate of facts about work they performed on request (Article 20; Enforcement Rule Article 13).</p>
-<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
+<p>A verified administrative agent must act fairly, compensate loss caused intentionally or negligently (Article 21), and keep duty-related facts confidential, as must staff (Article 23). A former official may not, for 1 year after retiring, act in permit applications before an agency where they worked in their final year, except agencies where they worked 1 month or less (Article 21-2; Decree Article 21-2). Administrative agents keep a case register — serial number, date, outline, remuneration, client details — for 1 year (Article 24; Decree Article 22), and must promptly issue a certificate of facts about work they performed on request (Article 20; Enforcement Rule Article 13).</p>
+<p>See also our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>. Costs vary case by case and are explained precisely during the free consultation.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can a certificate holder start handling permits straight away?</p><p class="faq-a">A. No. Article 10(1) requires a business report, and Decree Article 20(1) requires no disqualification, completed training, the certificate and association membership. Practising without the report is punishable by up to 1 year of imprisonment or a fine of up to KRW 10,000,000 (Article 36(2)1).</p></div>
-<div class="faq-item"><p class="faq-q">Q. How often is the scrivener exam held?</p><p class="faq-a">A. Once a year (Decree Article 8(1)), in two stages, administered by HRD Korea (Decree Article 12).</p></div>
-<div class="faq-item"><p class="faq-q">Q. Can a former civil servant become a scrivener without any exam?</p><p class="faq-a">A. Current Article 9 gives only partial exemptions. For example, 10 years of service with 5 at grade 7 or above exempts the first stage, and 15 years with 8 at grade 6 or above also exempts part of the second; the remaining subjects must be passed. Grounds in Article 9(3) bar exemption.</p></div>
-<div class="faq-item"><p class="faq-q">Q. The name on the certificate differs from the person I spoke to. Is that a problem?</p><p class="faq-a">A. Staff acts are deemed the scrivener's (Article 18(2)). Using another's certificate breaches Article 13 and is punishable by up to 3 years of imprisonment or a fine of up to KRW 30,000,000 (Article 36(1)). Confirm who will handle your case.</p></div>
-<div class="faq-item"><p class="faq-q">Q. When is a scrivener's qualification revoked?</p><p class="faq-a">A. Under Article 30(1): fraud, transferring or lending the certificate, practising during suspension, or a final prison sentence under the Act. Revocation follows a hearing and bars the person for 3 years (Article 6, item 7).</p></div>
+<div class="faq-item"><p class="faq-q">Q. How often is the administrative agent exam held?</p><p class="faq-a">A. Once a year (Decree Article 8(1)), in two stages, administered by HRD Korea (Decree Article 12).</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can a former civil servant become an administrative agent without any exam?</p><p class="faq-a">A. Current Article 9 gives only partial exemptions. For example, 10 years of service with 5 at grade 7 or above exempts the first stage, and 15 years with 8 at grade 6 or above also exempts part of the second; the remaining subjects must be passed. Grounds in Article 9(3) bar exemption.</p></div>
+<div class="faq-item"><p class="faq-q">Q. The name on the certificate differs from the person I spoke to. Is that a problem?</p><p class="faq-a">A. Staff acts are deemed the administrative agent's (Article 18(2)). Using another's certificate breaches Article 13 and is punishable by up to 3 years of imprisonment or a fine of up to KRW 30,000,000 (Article 36(1)). Confirm who will handle your case.</p></div>
+<div class="faq-item"><p class="faq-q">Q. When is an administrative agent's qualification revoked?</p><p class="faq-a">A. Under Article 30(1): fraud, transferring or lending the certificate, practising during suspension, or a final prison sentence under the Act. Revocation follows a hearing and bars the person for 3 years (Article 6, item 7).</p></div>
 </div>
 
 <div class="cta-block">
  <h3>Not sure what to check before you engage?</h3>
- <p>We start by showing you the responsible scrivener's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'license-scrivener-qualification-check',
@@ -6070,8 +6070,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Is the deadline the same if only the address changed due to district reorganization?</p><p class="faq-a">A. No. An address change caused by an administrative district reorganization may be filed within 90 days.</p></div>
 </div>
 
-<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>Yuseon Administrative Scrivener Office prepares the document check and application with you. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>Yuseon Administrative Agent Office prepares the document check and application with you. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'cosmetics-distributor-change-registration',
@@ -6247,11 +6247,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Planning to sell food you make online?</h3>
- <p>Yuseon Administrative Scrivener Office reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
+ <p>Yuseon Administrative Agent Office reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'food-manufacturing-online-sales-report',
@@ -6416,8 +6416,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. What do I do with the certificate if I close the business?</p><p class="faq-a">A. A business that closes must return the certificate to the head of the agency without delay.</p></div>
 </div>
 
-<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. Yuseon Administrative Scrivener Office handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. Yuseon Administrative Agent Office handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'haccp-certification-change-application',
@@ -6557,8 +6557,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Do services that do not handle personal location information need a report?</p><p class="faq-a">A. The Act excludes LBS businesses that do not target personal location information from the report requirement, but some duties, such as technical and managerial safeguards, still apply.</p></div>
 <div class="faq-item"><p class="faq-q">Q. We acquired a company. Do we file a new report?</p><p class="faq-a">A. For a business transfer or merger, you file a transfer or merger report rather than a new one, and you succeed to the former operator's status once it is accepted.</p></div>
 </div>
-<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact Yuseon Administrative Scrivener Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`
+<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact Yuseon Administrative Agent Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'location-based-service-change-report',

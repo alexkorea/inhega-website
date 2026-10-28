@@ -97,78 +97,78 @@ export default {
   },
 
   en: {
-    title: 'Scope and Limits of a Korean Administrative Scrivener in Licensing Work',
+    title: 'Scope and Limits of a Korean Administrative Agent in Licensing Work',
     category: 'Licensing & Permits',
-    metaTitle: 'Korean Administrative Scrivener — Licensing Scope and Legal Limits',
-    metaDescription: 'What a Korean administrative scrivener (haengjeongsa) may and may not do in licensing matters, under the Certified Administrative Scrivener Act. Verification checklist and penalties explained.',
+    metaTitle: 'Korean Administrative Agent — Licensing Scope and Legal Limits',
+    metaDescription: 'What a Korean administrative agent (haengjeongsa) may and may not do in licensing matters, under the Certified Administrative Agents Act. Verification checklist and penalties explained.',
     excerpt: 'Before you delegate a Korean licence application, check what the law actually allows your representative to do. The scope is fixed by statute, not by the firm.',
-    content: `<div class="toc"><p>Table of Contents</p><ol><li>What You May Delegate</li><li>Scrivener Categories Change the Scope</li><li>What You May Not Delegate</li><li>Five Things to Verify Before You Engage</li><li>Penalties for Unlicensed Representation</li><li>Duties Owed to You After Engagement</li><li>FAQ</li></ol></div>
-<p>A Korean <strong>administrative scrivener</strong> (행정사, haengjeongsa) is a licensed professional who, on another person's mandate, prepares filings for government agencies and acts as agent for licence and permit applications. That scope is not set by the firm you hire — it is fixed by Article 2 of the Certified Administrative Scrivener Act and Article 2 of its Enforcement Decree. So what to check before signing is not the marketing copy but the boundary the statute draws around that office.</p>
+    content: `<div class="toc"><p>Table of Contents</p><ol><li>What You May Delegate</li><li>Administrative Agent Categories Change the Scope</li><li>What You May Not Delegate</li><li>Five Things to Verify Before You Engage</li><li>Penalties for Unlicensed Representation</li><li>Duties Owed to You After Engagement</li><li>FAQ</li></ol></div>
+<p>A Korean <strong>administrative agent</strong> (행정사, haengjeongsa) is a licensed professional who, on another person's mandate, prepares filings for government agencies and acts as agent for licence and permit applications. That scope is not set by the firm you hire — it is fixed by Article 2 of the Certified Administrative Agents Act and Article 2 of its Enforcement Decree. So what to check before signing is not the marketing copy but the boundary the statute draws around that office.</p>
 
 <h2>What You May Delegate</h2>
-<p>Article 2(1) lists seven categories of scrivener work, with a proviso: work restricted under another statute may not be performed. The provision that matters most in licensing is subparagraph 5 — agency for applications, claims and reports made to an agency in order to obtain an authorisation, permit or licence.</p>
-<div class="highlight-box">Certified Administrative Scrivener Act, Article 2(1)5: acting as agent (代理) for applications, claims and reports made to administrative agencies in order to obtain authorisations, permits, licences and the like.</div>
+<p>Article 2(1) lists seven categories of administrative agent work, with a proviso: work restricted under another statute may not be performed. The provision that matters most in licensing is subparagraph 5 — agency for applications, claims and reports made to an agency in order to obtain an authorisation, permit or licence.</p>
+<div class="highlight-box">Certified Administrative Agents Act, Article 2(1)5: acting as agent (代理) for applications, claims and reports made to administrative agencies in order to obtain authorisations, permits, licences and the like.</div>
 <p>Article 2(5) of the Decree spells this out as "acting as agent, on another person's mandate, in requesting a specific action from an administrative agency or making a report". In practice the act of filing can itself be performed as your agent.</p>
 <p>The other categories support the same workflow: preparing documents for agencies (subparagraph 1), documents on rights, duties or proof of facts (subparagraph 2), translation (subparagraph 3), submitting documents so prepared (subparagraph 4), answering consultations on administrative law (subparagraph 6), and fact-finding for entrusted affairs (subparagraph 7). A single licence matter can therefore be delegated end to end: eligibility review, drafting, filing as agent, responding to supplementation requests, and collecting the certificate. Which documents a given industry needs is set out in our <a href="/services/logistics">international freight forwarding registration</a> and <a href="/services/food-manufacturing">food manufacturing permit</a> pages.</p>
 
-<h2>Scrivener Categories Change the Scope</h2>
-<p>Not every scrivener may take every matter. Article 3 of the Decree divides scriveners into general, maritime and foreign-language translation scriveners, each with a different scope. Confirming that your matter falls inside the category of the office you hire is the first check.</p>
+<h2>Administrative Agent Categories Change the Scope</h2>
+<p>Not every administrative agent may take every matter. Article 3 of the Decree divides administrative agents into general, maritime and foreign-language translation administrative agents, each with a different scope. Confirming that your matter falls inside the category of the office you hire is the first check.</p>
 <table><thead><tr><th>Category</th><th>Scope of work</th><th>Licensing agency work</th></tr></thead><tbody>
-<tr><td>General scrivener</td><td>All subparagraphs of Article 2(1) except subparagraph 3 (translation); excludes shipping and maritime safety tribunal matters</td><td>Available</td></tr>
-<tr><td>Maritime scrivener</td><td>The same subparagraphs, limited to shipping and maritime safety tribunal matters</td><td>Shipping and maritime matters only</td></tr>
-<tr><td>Foreign-language translation scrivener</td><td>Article 2(1) subparagraphs 3 and 4 — translation, and submission of translated documents</td><td>Translation and filing only</td></tr>
+<tr><td>General administrative agent</td><td>All subparagraphs of Article 2(1) except subparagraph 3 (translation); excludes shipping and maritime safety tribunal matters</td><td>Available</td></tr>
+<tr><td>Maritime administrative agent</td><td>The same subparagraphs, limited to shipping and maritime safety tribunal matters</td><td>Shipping and maritime matters only</td></tr>
+<tr><td>Foreign-language translation administrative agent</td><td>Article 2(1) subparagraphs 3 and 4 — translation, and submission of translated documents</td><td>Translation and filing only</td></tr>
 </tbody></table>
-<p>Foreign nationals and companies often want home-country documents translated in the same engagement. Translation belongs to the translation scrivener and licence agency to the general scrivener, so ask whether a scrivener of each category is involved.</p>
+<p>Foreign nationals and companies often want home-country documents translated in the same engagement. Translation belongs to the translation administrative agent and licence agency to the general administrative agent, so ask whether an administrative agent of each category is involved.</p>
 
 <h2>What You May Not Delegate</h2>
-<p>The proviso to Article 2(1) — "work restricted under another statute" — is the outer limit. Litigation and legal-dispute representation fall outside a scrivener's scope; tax agency work belongs to certified tax accountants, and registration filings to judicial scriveners. A scrivener may not carry on those as a business.</p>
-<p>Article 22(3) goes further, making it a prohibited act to intervene beyond scrivener work in another person's litigation, in other disputes over legal relations, or in the handling of civil petitions. Settle at the engagement stage how far the mandate runs if the filing is refused.</p>
+<p>The proviso to Article 2(1) — "work restricted under another statute" — is the outer limit. Litigation and legal-dispute representation fall outside an administrative agent's scope; tax agency work belongs to certified tax accountants, and registration filings to judicial scriveners. An administrative agent may not carry on those as a business.</p>
+<p>Article 22(3) goes further, making it a prohibited act to intervene beyond administrative agent work in another person's litigation, in other disputes over legal relations, or in the handling of civil petitions. Settle at the engagement stage how far the mandate runs if the filing is refused.</p>
 <p>Article 22 also prohibits refusing a mandate without grounds; taking the same matter from an opposing party, unless both consent; advertising influence through connections with the officials in charge; misleading advertising; and soliciting mandates through brokers.</p>
 
 <h2>Five Things to Verify Before You Engage</h2>
 <p>Each item below has a statutory basis and can be checked on the spot before signing.</p>
 <table><thead><tr><th>Item</th><th>What to look at</th></tr></thead><tbody>
 <tr><td>Report confirmation certificate</td><td>The original issued by the head of the city, county or district of the office. Lending, borrowing and brokering it are prohibited, so check the name against the person who will handle your matter.</td></tr>
-<tr><td>Office</td><td>Only one office may be established; a joint office requires 2 or more scriveners, with at least 1 resident at the main office and at each branch.</td></tr>
-<tr><td>Case register</td><td>On accepting a mandate, the scrivener must keep a register recording the serial number, date, outline of the work, remuneration, and the client's address and name.</td></tr>
-<tr><td>Restriction on accepting cases</td><td>A scrivener retired from public office may not, for 1 year after retirement, take licensing agency work directed at the agency where they served in the 1 year before retirement.</td></tr>
+<tr><td>Office</td><td>Only one office may be established; a joint office requires 2 or more administrative agents, with at least 1 resident at the main office and at each branch.</td></tr>
+<tr><td>Case register</td><td>On accepting a mandate, the administrative agent must keep a register recording the serial number, date, outline of the work, remuneration, and the client's address and name.</td></tr>
+<tr><td>Restriction on accepting cases</td><td>An administrative agent retired from public office may not, for 1 year after retirement, take licensing agency work directed at the agency where they served in the 1 year before retirement.</td></tr>
 <tr><td>Continuing education</td><td>Refresher training by the competent Mayor or Governor is mandatory, and practical training by the Minister of the Interior and Safety must be completed before starting practice.</td></tr>
 </tbody></table>
-<p>After a move, the scrivener must report the new location to the competent local government within 10 days. If the address on your engagement letter differs from the certificate, ask whether that report has been filed.</p>
-<p>A scrivener corporation adds one check: it requires 3 or more scriveners as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/blog/nonprofit-association-permit">non-profit association establishment permits</a>.</p>
+<p>After a move, the administrative agent must report the new location to the competent local government within 10 days. If the address on your engagement letter differs from the certificate, ask whether that report has been filed.</p>
+<p>An administrative agent corporation adds one check: it requires 3 or more administrative agents as members and must hold damages reserves or insurance for loss caused to a client intentionally or negligently — worth confirming on long matters such as our note on <a href="/blog/nonprofit-association-permit">non-profit association establishment permits</a>.</p>
 
 <h2>Penalties for Unlicensed Representation</h2>
-<p>A non-scrivener may not carry on Article 2 work as a business, except where another statute allows it, and may not use the title of scrivener or a similar title. Both prohibitions are backed by criminal penalties and administrative fines.</p>
+<p>A non-agent may not carry on Article 2 work as a business, except where another statute allows it, and may not use the title of administrative agent or a similar title. Both prohibitions are backed by criminal penalties and administrative fines.</p>
 <table><thead><tr><th>Violation</th><th>Penalty</th></tr></thead><tbody>
-<tr><td>Practising as a business without being a scrivener; lending, borrowing or brokering a report confirmation certificate</td><td>Imprisonment of up to 3 years or a fine of up to KRW 30,000,000</td></tr>
+<tr><td>Practising as a business without being an administrative agent; lending, borrowing or brokering a report confirmation certificate</td><td>Imprisonment of up to 3 years or a fine of up to KRW 30,000,000</td></tr>
 <tr><td>Practising without filing the business report; breaching the case restriction; advertising connections; misleading advertising; disclosing confidences; practising while suspended</td><td>Imprisonment of up to 1 year or a fine of up to KRW 10,000,000</td></tr>
 <tr><td>Taking money or benefits beyond remuneration; refusing a mandate without grounds; accepting both sides; intervening in disputes; using brokers</td><td>A fine of up to KRW 1,000,000</td></tr>
-<tr><td>Using the title of scrivener or a similar title; not complying, without grounds, with an order to report or submit materials</td><td>An administrative fine of up to KRW 5,000,000</td></tr>
+<tr><td>Using the title of administrative agent or a similar title; not complying, without grounds, with an order to report or submit materials</td><td>An administrative fine of up to KRW 5,000,000</td></tr>
 <tr><td>Not reporting an office relocation; not keeping a case register or keeping a false one; practising without refresher training</td><td>An administrative fine of up to KRW 1,000,000</td></tr>
 </tbody></table>
-<p>If an employee or associate scrivener breaches Article 36 in connection with the business, the firm is fined under the same provision as well — unless reasonable care and supervision were exercised.</p>
+<p>If an employee or associate administrative agent breaches Article 36 in connection with the business, the firm is fined under the same provision as well — unless reasonable care and supervision were exercised.</p>
 <p>Supervision is real: the Minister of the Interior and Safety, or the head of the local government of the office, may order reports or submission of the case register, and officials may inspect books on site. Two or more offices, or money beyond remuneration, can bring suspension of practice within a range of 6 months, and no such disposition may be made once 3 years have passed since the cause arose.</p>
 
 <h2>Duties Owed to You After Engagement</h2>
-<p>Once the mandate is in place, the scrivener must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
-<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the scrivener nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
-<p>Confidentiality survives the engagement: a scrivener, a former scrivener and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing scrivener</a>.</p>
+<p>Once the mandate is in place, the administrative agent must maintain professional dignity and act fairly and in good faith, and is liable for financial loss caused to the client intentionally or negligently in performing the work.</p>
+<p>Remuneration is regulated too: it comes from the person who gave the mandate, and neither the administrative agent nor their staff may take money or other consideration beyond it, under any pretext. If asked for an extra payment during filing, check whether the item is a statutory fee payable to the agency. Costs vary from case to case, so we explain them precisely during the free consultation.</p>
+<p>Confidentiality survives the engagement: an administrative agent, a former administrative agent and their present or former staff may not disclose facts learned in the course of duty without justifiable grounds. Where the correct licence category is unclear, see our <a href="/blog/administrative-license-permit-specialist-guide">guide to choosing a licensing administrative agent</a>.</p>
 
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. Can a scrivener file my licence application with only the representative's name on the form?</p><p class="faq-a">A. Yes. Article 2(1)5 makes agency for applications, claims and reports to agencies for obtaining authorisations, permits and licences part of scrivener work, and Article 2(5) of the Decree spells it out as acting as agent in requesting an agency action or making a report. Documents evidencing the mandate are still required.</p></div>
-<div class="faq-item"><p class="faq-q">Q. If the application is refused, can the same scrivener handle the administrative appeal?</p><p class="faq-a">A. Check the scope first. The proviso to Article 2(1) excludes work restricted under another statute, and Article 22(3) bars intervening beyond scrivener work in litigation or disputes over legal relations. Agree at the engagement stage how far the mandate runs after a refusal.</p></div>
-<div class="faq-item"><p class="faq-q">Q. May I engage a consulting firm without a scrivener licence?</p><p class="faq-a">A. We would not recommend it. Article 3(1) bars a non-scrivener from carrying on scrivener work as a business except where another statute allows it, and Article 36(1) punishes a breach with imprisonment of up to 3 years or a fine of up to KRW 30,000,000. Unlicensed representation also risks stalling your filing.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can an administrative agent file my licence application with only the representative's name on the form?</p><p class="faq-a">A. Yes. Article 2(1)5 makes agency for applications, claims and reports to agencies for obtaining authorisations, permits and licences part of administrative agent work, and Article 2(5) of the Decree spells it out as acting as agent in requesting an agency action or making a report. Documents evidencing the mandate are still required.</p></div>
+<div class="faq-item"><p class="faq-q">Q. If the application is refused, can the same administrative agent handle the administrative appeal?</p><p class="faq-a">A. Check the scope first. The proviso to Article 2(1) excludes work restricted under another statute, and Article 22(3) bars intervening beyond administrative agent work in litigation or disputes over legal relations. Agree at the engagement stage how far the mandate runs after a refusal.</p></div>
+<div class="faq-item"><p class="faq-q">Q. May I engage a consulting firm without an administrative agent licence?</p><p class="faq-a">A. We would not recommend it. Article 3(1) bars anyone who is not an administrative agent from carrying on administrative agent work as a business except where another statute allows it, and Article 36(1) punishes a breach with imprisonment of up to 3 years or a fine of up to KRW 30,000,000. Unlicensed representation also risks stalling your filing.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How should I read a pitch that emphasises knowing the official in charge?</p><p class="faq-a">A. That pitch is prohibited. Article 22(4) bars advertising influence through personal connections with the officials concerned, and Article 36(2) punishes it with imprisonment of up to 1 year or a fine of up to KRW 10,000,000.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Do I really need to see the report confirmation certificate?</p><p class="faq-a">A. It is worth asking. The certificate is issued by the competent local government on the scrivener's business report under Article 12(1), and Article 13 bars lending it and brokering such a loan. Matching the name on it against the person who will handle your matter is the simplest screen against unlicensed representation.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do I really need to see the report confirmation certificate?</p><p class="faq-a">A. It is worth asking. The certificate is issued by the competent local government on the administrative agent's business report under Article 12(1), and Article 13 bars lending it and brokering such a loan. Matching the name on it against the person who will handle your matter is the simplest screen against unlicensed representation.</p></div>
 </div>
 
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
- <p>Yuseon Administrative Scrivener Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>Yuseon Administrative Agent Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a free consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Scrivener Office (Principal Scrivener Jeong Yuseon)</p>`,
+<p class="author-block">Yuseon Administrative Agent Office (Principal Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

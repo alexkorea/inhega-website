@@ -21,5 +21,7 @@ fi
 node scripts/nocite-gate.mjs $( [ -f scripts/nocite-allow.txt ] && echo --allow scripts/nocite-allow.txt ) .next/server/app
 # QA1020-FIX 3(보스 msg 3373): 서비스 상세 본문의 조문 번호·기준일·작성 메타 문장 0 유지(FIX2: en/zh/ja·보류 페이지 포함).
 node scripts/svc-nocite-gate.mjs .next/server/app
+# TERM-UNIFY-1028(맥7): en 행정사 'Scrivener' 계열 0(slug·judicial scrivener 예외). 원천은 prebuild 에서 같은 게이트.
+node scripts/scrivener-gate.mjs .next/server/app
 node scripts/seo-gate.mjs
 node scripts/url-preserve-gate.mjs

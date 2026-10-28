@@ -125,8 +125,8 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Do I need to notify a break of a few weeks in the off-season?</p><p class="faq-a">A. The Act makes a suspension of 1 month or more subject to notice. For help with any of these filings, see <a href="/en/services/urban-guesthouse">our urban guesthouse registration service</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>Yuseon Administrative Scrivener Office helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Scrivener Office (Chief Scrivener Jeong Yuseon)</p>`,
+<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>Yuseon Administrative Agent Office helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

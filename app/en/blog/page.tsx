@@ -8,7 +8,7 @@ import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, reso
 
 const metadata: Metadata = {
   title: 'Korea Licensing & Permit Blog | YouSun Administrative Agency',
-  description: 'Expert guides on Korean business licensing — freight forwarding, currency exchange, food permits, HACCP, and more. Written by licensed administrative scriveners.',
+  description: 'Expert guides on Korean business licensing — freight forwarding, currency exchange, food permits, HACCP, and more. Written by licensed administrative agents.',
   alternates: {
     canonical: 'https://inhega.co.kr/en/blog',
     languages: {
@@ -63,7 +63,7 @@ export default async function EnBlogPage({ searchParams }: { searchParams: Promi
             Korea Licensing<br />Information Center
           </h1>
           <p className="text-body-lg" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1rem' }}>
-            Up-to-date guides on Korean government permits and licenses, written by licensed administrative scriveners.
+            Up-to-date guides on Korean government permits and licenses, written by licensed administrative agents.
           </p>
         </div>
       </section>
