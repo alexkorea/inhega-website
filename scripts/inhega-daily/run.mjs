@@ -4,7 +4,8 @@
 // 사용:
 //   node scripts/inhega-daily/run.mjs                 # 드라이런(선택 결과 + 게이트만 출력)
 //   node scripts/inhega-daily/run.mjs --write         # 실제 반영
-//   node scripts/inhega-daily/run.mjs --write --slug=<slug>   # 특정 글 강제
+//   node scripts/inhega-daily/run.mjs --write --slug=<slug>   # 특정 글 강제(하루 1건 가드는 그대로)
+//   node scripts/inhega-daily/run.mjs --write --allow-extra-today   # 같은 날 2건째(명시적 승인 시에만)
 //   node scripts/inhega-daily/run.mjs --list          # 원고 은행 현황
 //
 // 왜 이 구조인가 (2026-09-21, 맥7 지시 3):
@@ -137,11 +138,20 @@ function main() {
       return 0
     }
 
-    // 멱등: 같은 날 이미 발행했으면 재발행하지 않는다.
-    const todayDone = state.history.find((h) => h.date === TODAY)
-    if (todayDone && !FORCED) {
-      console.log(`이미 오늘(${TODAY}) 발행됨: ${todayDone.slug} — no-op`)
-      console.log(`✅ published ${todayDone.slug}`)
+    // 하루 1건 가드(WQA1028-FIX, 2026-10-28). 세 갈래를 모두 막는다:
+    //   ① 발행이력에 같은 --date 가 있음(종전 멱등)
+    //   ② 같은 날(KST 실제 날짜) 이미 한 번 발행함 — --date 를 바꿔 여러 번 돌리는 일괄 발행
+    //   ③ 라이브 KO 원고에 created_at 이 --date 인 글이 이미 있음 — 손 추가·다른 경로
+    // --slug 강제도 이 가드를 탄다. 정말 하루 2건이 필요하면 --allow-extra-today 를 명시한다.
+    const REAL_TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' })
+    const ALLOW_EXTRA = argv.includes('--allow-extra-today')
+    const todayDone = state.history.find((h) => h.date === TODAY || h.ran_on === REAL_TODAY)
+    const liveSameDay = [...ctx.koDates].find(([, d]) => d === TODAY)
+    const doneSlug = todayDone ? todayDone.slug : liveSameDay ? liveSameDay[0] : ''
+    if (doneSlug && !ALLOW_EXTRA) {
+      const why = todayDone ? (todayDone.date === TODAY ? `발행이력 date=${TODAY}` : `오늘(KST ${REAL_TODAY}) 이미 실행`) : `KO created_at=${TODAY}`
+      console.log(`이미 발행됨(${why}): ${doneSlug} — 하루 1건 가드로 no-op${FORCED ? ` (--slug=${FORCED} 무시)` : ''}`)
+      console.log(`✅ published ${doneSlug}`)
       return 0
     }
 
@@ -191,7 +201,7 @@ function main() {
     writeI18n(picked)
     writeArchive(picked)
     appendLedger(picked, gate)
-    state.history.push({ date: TODAY, topic: picked.topic, angle: picked.angle, slug: picked.slug })
+    state.history.push({ date: TODAY, ran_on: REAL_TODAY, topic: picked.topic, angle: picked.angle, slug: picked.slug })
     fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + '\n', 'utf8')
     console.log(`✅ published ${picked.slug}`)
     return 0
