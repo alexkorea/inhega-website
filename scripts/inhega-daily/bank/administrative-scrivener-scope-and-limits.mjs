@@ -168,7 +168,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency (Principal Administrative Agent Jeong Yuseon)</p>`,
+<p class="author-block">YouSun Administrative Agency (Principal Administrative Agent Jung Yu-sun)</p>`,
   },
 
   zh: {
@@ -244,7 +244,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 郑柳善）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 郑有善）</p>`,
   },
 
   ja: {
@@ -321,6 +321,6 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">YouSun Administrative Agency（代表行政士 鄭柳善）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 鄭有善）</p>`,
   },
 }

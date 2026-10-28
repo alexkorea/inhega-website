@@ -137,7 +137,7 @@ const entry = {
 </div>
 
 <div class="cta-block"><h3>Need help with dissolution and liquidation filings?</h3><p>YouSun Administrative Agency prepares and submits ministry filings for <a href="/en/services/nonprofit">nonprofit associations</a>, including dissolution reports, applications for permission to dispose of remaining property, and completion reports. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">Request a consultation</a></div>
-<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`,
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
   zh: {
