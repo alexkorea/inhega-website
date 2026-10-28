@@ -53,7 +53,7 @@ export const translations = {
       badge: 'Our Process',
       title: '5 Steps to Your\nKorean Business License',
       steps: [
-        { num: '01', title: 'Consultation', desc: 'We assess your business situation and identify the exact licenses required. Initial consultation available.' },
+        { num: '01', title: 'Consultation', desc: 'We assess your business situation and identify the exact licenses required.' },
         { num: '02', title: 'Document Prep', desc: 'We provide a full document checklist and assist with preparation of all required paperwork.' },
         { num: '03', title: 'Filing', desc: 'We submit documents to the relevant government agency and monitor progress in real-time.' },
         { num: '04', title: 'Review Response', desc: 'Our administrative agents handle all supplementary requests and agency queries on your behalf.' },
@@ -279,7 +279,7 @@ export const translations = {
       badge: '手続きの流れ',
       title: '5ステップで\n韓国許認可を取得',
       steps: [
-        { num: '01', title: '初回相談', desc: 'ビジネス状況を確認し、必要な許認可を特定します。初回相談を承ります。' },
+        { num: '01', title: '初回相談', desc: 'ビジネス状況を確認し、必要な許認可を特定します。' },
         { num: '02', title: '書類準備', desc: '必要書類一覧を提供し、書類の作成・準備をサポートします。' },
         { num: '03', title: '申請代行', desc: '管轄官庁に書類を提出し、審査状況をリアルタイムで確認します。' },
         { num: '04', title: '審査対応', desc: '補完要求・追加書類など、審査中の対応を行政士が全て代行します。' },
