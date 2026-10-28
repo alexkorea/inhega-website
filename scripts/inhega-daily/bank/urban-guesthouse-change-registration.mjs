@@ -211,8 +211,8 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 閑散期に数週間だけ休む場合も通報が必要ですか。</p><p class="faq-a">A. 法は1か月以上の休業を通報の対象としています。手続の詳細は<a href="/ja/services/urban-guesthouse">外国人観光都市民泊業の登録サービス</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>ユソン行政士事務所が、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>YouSun Administrative Agencyが、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }
 

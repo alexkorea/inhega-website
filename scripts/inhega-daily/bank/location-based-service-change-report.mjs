@@ -214,7 +214,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 個人位置情報を扱わないサービスも申告の対象ですか？</p><p class="faq-a">A. 法律は個人位置情報を対象としない位置基盤サービス事業を申告対象から除いています。ただし技術的・管理的保護措置など一部の義務は引き続き適用されます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 会社を買収した場合、新たに申告が必要ですか？</p><p class="faq-a">A. 事業の譲受や法人の合併であれば、新規の申告ではなく譲受または合併の申告を行い、受理されると従前の事業者の地位を承継します。</p></div>
 </div>
-<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、ユソン行政士事務所までご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

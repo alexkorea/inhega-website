@@ -377,10 +377,10 @@ export default {
 
 <div class="cta-block">
  <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
- <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

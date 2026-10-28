@@ -346,10 +346,10 @@ export default {
 
 <div class="cta-block">
  <h3>許可か届出かを先に確認します</h3>
- <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

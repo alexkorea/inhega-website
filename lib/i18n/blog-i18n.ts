@@ -4115,11 +4115,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>先厘清可以委托的范围</h3>
- <p>柳善行政士事务所将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
+ <p>YouSun Administrative Agency将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
-<p class="author-block">柳善行政士事务所（代表行政士 郑柳善）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 郑柳善）</p>`
   },
   {
     slug: 'administrative-scrivener-scope-and-limits',
@@ -4193,11 +4193,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>まず委任できる範囲を整理します</h3>
- <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かを柳善行政士事務所が先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
+ <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かをYouSun Administrative Agencyが先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">柳善行政士事務所（代表行政士 鄭柳善）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 鄭柳善）</p>`
   },
   // ── building-usage-change-requirements (inhega-daily 2026-09-25) ──
   {
@@ -4435,11 +4435,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>許可か届出かを先に確認します</h3>
- <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── hostel-violation-penalties (inhega-daily 2026-10-02) ──
   {
@@ -4709,11 +4709,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>処分通知を受けた、または期限が心配な方へ</h3>
- <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── administrative-license-agency-supplement-and-rejection (inhega-daily 2026-10-04) ──
   {
@@ -4963,11 +4963,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>補正要求書や拒否通知を受け取った方へ</h3>
- <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── procurement-narajangteo-registration-change (inhega-daily 2026-10-05) ──
   {
@@ -5215,11 +5215,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>代表者・商号・所在地の変更を控えている方へ</h3>
- <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── corporate-research-lab-required-documents (inhega-daily 2026-10-06) ──
   {
@@ -5505,11 +5505,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>提出前に書類を一度照合したい方へ</h3>
- <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、ユソン行政士事務所が先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、YouSun Administrative Agencyが先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── mainbiz-renewal-and-validity (inhega-daily 2026-10-07) ──
   {
@@ -5768,11 +5768,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
- <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をユソン行政士事務所が先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── license-scrivener-qualification-check (inhega-daily 2026-10-08) ──
   {
@@ -6006,11 +6006,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>依頼前に何を確認すべきかお悩みの方へ</h3>
- <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── cosmetics-distributor-change-registration (inhega-daily 2026-10-24) ──
   {
@@ -6190,8 +6190,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 行政区域の改編で住所だけが変わった場合も期限は同じですか。</p><p class="faq-a">A. 行政区域改編による所在地変更は90日以内に申請すれば足ります。</p></div>
 </div>
 
-<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>ユソン行政士事務所が項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>YouSun Administrative Agencyが項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── food-manufacturing-online-sales-report (inhega-daily 2026-10-25) ──
   {
@@ -6365,11 +6365,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>手作りの食品をオンラインで売る予定なら</h3>
- <p>ユソン行政士事務所が販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
+ <p>YouSun Administrative Agencyが販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── haccp-certification-change-application (inhega-daily 2026-10-26) ──
   {
@@ -6510,8 +6510,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 廃業したら認証書はどうすればよいですか。</p><p class="faq-a">A. 廃業した営業者は、認証書を認証院長に遅滞なく返納しなければなりません。</p></div>
 </div>
 
-<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。ユソン行政士事務所は<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。YouSun Administrative Agencyは<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── location-based-service-change-report (inhega-daily 2026-10-27) ──
   {
@@ -6649,8 +6649,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 個人位置情報を扱わないサービスも申告の対象ですか？</p><p class="faq-a">A. 法律は個人位置情報を対象としない位置基盤サービス事業を申告対象から除いています。ただし技術的・管理的保護措置など一部の義務は引き続き適用されます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 会社を買収した場合、新たに申告が必要ですか？</p><p class="faq-a">A. 事業の譲受や法人の合併であれば、新規の申告ではなく譲受または合併の申告を行い、受理されると従前の事業者の地位を承継します。</p></div>
 </div>
-<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、ユソン行政士事務所までご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`
+<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   }
 ]
 

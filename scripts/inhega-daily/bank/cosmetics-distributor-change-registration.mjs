@@ -270,7 +270,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 行政区域の改編で住所だけが変わった場合も期限は同じですか。</p><p class="faq-a">A. 行政区域改編による所在地変更は90日以内に申請すれば足ります。</p></div>
 </div>
 
-<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>ユソン行政士事務所が項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>YouSun Administrative Agencyが項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

@@ -243,8 +243,9 @@ export function gateArticle(entry, ctx) {
   const nf = ['ko', 'en', 'zh', 'ja'].flatMap((l) => { const a = entry[l] || {}; return nofreeHits([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.category, a.content].join(' ')) })
   add('N1 무료 표현 0건(4언어, NOFREE)', nf.length === 0, nf.length ? `「${nf[0].word}」 …${nf[0].ctx}…` : 'ok')
   // INHEGA-EN-NAME(보스 msg 4270, 10-28): 영문 상호는 'YouSun Administrative Agency' 하나 — 4언어(메타 포함) 다른 꼴 0건(scripts/brandname-gate.mjs)
+  //   INHEGA-LOCAL-NAME(10-28): zh·ja 현지 문자 상호(ユソン行政士事務所·柳善行政士事务所 등)도 같은 검사에서 금지
   const bn = ['ko', 'en', 'zh', 'ja'].flatMap((l) => { const a = entry[l] || {}; return brandHits([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.category, a.content].join(' ')) })
-  add('N2 영문 상호 YouSun Administrative Agency 단일 표기(4언어)', bn.length === 0, bn.length ? `「${bn[0].word}」 …${bn[0].ctx}…` : 'ok')
+  add('N2 상호 YouSun Administrative Agency 단일 표기(4언어, zh·ja 현지 문자 상호 금지)', bn.length === 0, bn.length ? `「${bn[0].word}」 …${bn[0].ctx}…` : 'ok')
 
   const failed = checks.filter((c) => !c.ok)
   return { pass: failed.length === 0, checks, failed }

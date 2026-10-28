@@ -263,8 +263,8 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 機能性化粧品にも食薬処の許可が必要ですか？</p><p class="faq-a">A. 許可ではなく、品目ごとに安全性・有効性の審査を受けるか報告書を提出する手続きです。化粧品製造業者、責任販売業者、または総理令で定める大学・研究所などが行います。</p></div>
 </div>
 
-<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。ユソン行政士事務所が製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。YouSun Administrative Agencyが製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }
 

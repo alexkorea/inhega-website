@@ -358,10 +358,10 @@ export default {
 
 <div class="cta-block">
  <h3>依頼前に何を確認すべきかお悩みの方へ</h3>
- <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をユソン行政士事務所が整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

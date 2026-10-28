@@ -137,7 +137,7 @@ const zh: NewsStrings = {
   badge: '许可法规新闻',
   h1: '许可与法规动态',
   heroSub: '每日整理韩国及各国政府、公共机构公开的法令修订与法规通报。摘要为韩文原文。',
-  metaTitle: '许可法规新闻 | 韩国与全球法规动态 — 柳善行政士事务所',
+  metaTitle: '许可法规新闻 | 韩国与全球法规动态 — YouSun Administrative Agency',
   metaDescription:
     '每日汇总美国联邦公报、WTO ePing 通报、日本 e-Gov 意见征集、欧盟 EUR-Lex 与韩国法制处公开的许可与法规动态。可按国家、品类、影响度筛选，并就所需许可直接咨询行政士。',
   tabs: { all: '全部', overseas: '海外法规', domestic: '韩国法令' },
@@ -179,7 +179,7 @@ const ja: NewsStrings = {
   badge: '許認可ニュース',
   h1: '許認可・規制の最新動向',
   heroSub: '韓国と各国の政府・公的機関が公開した法令改正や規制通報を毎日まとめています。要約は韓国語です。',
-  metaTitle: '許認可ニュース | 韓国・海外の規制動向 — 柳善行政士事務所',
+  metaTitle: '許認可ニュース | 韓国・海外の規制動向 — YouSun Administrative Agency',
   metaDescription:
     '米国連邦官報、WTO ePing 通報、日本 e-Gov 意見公募、EU EUR-Lex、韓国法制処が公開した許認可・規制動向を毎日整理します。国・品目・影響度で絞り込み、必要な許認可は行政士にそのままご相談ください。',
   tabs: { all: 'すべて', overseas: '海外規制', domestic: '韓国法令' },

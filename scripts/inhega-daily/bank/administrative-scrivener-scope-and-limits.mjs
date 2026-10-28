@@ -240,11 +240,11 @@ export default {
 
 <div class="cta-block">
  <h3>先厘清可以委托的范围</h3>
- <p>柳善行政士事务所将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
+ <p>YouSun Administrative Agency将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
-<p class="author-block">柳善行政士事务所（代表行政士 郑柳善）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 郑柳善）</p>`,
   },
 
   ja: {
@@ -317,10 +317,10 @@ export default {
 
 <div class="cta-block">
  <h3>まず委任できる範囲を整理します</h3>
- <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かを柳善行政士事務所が先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
+ <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かをYouSun Administrative Agencyが先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">柳善行政士事務所（代表行政士 鄭柳善）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 鄭柳善）</p>`,
   },
 }

@@ -278,7 +278,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 相続人が欠格事由に当たると、事業を失いますか。</p><p class="faq-a">A. 相続日から3か月以内に事業を他人に譲渡すれば、その事由による登録取消しを避けられます。</p></div>
 </div>
 
-<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、ユソン行政士事務所へお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、YouSun Administrative Agencyへお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

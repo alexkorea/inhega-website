@@ -258,11 +258,11 @@ const entry = {
 
 <div class="cta-block">
  <h3>手作りの食品をオンラインで売る予定なら</h3>
- <p>ユソン行政士事務所が販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
+ <p>YouSun Administrative Agencyが販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }
 

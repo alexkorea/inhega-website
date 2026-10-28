@@ -412,10 +412,10 @@ export default {
 
 <div class="cta-block">
  <h3>提出前に書類を一度照合したい方へ</h3>
- <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、ユソン行政士事務所が先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、YouSun Administrative Agencyが先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">ご相談を申し込む</a>
 </div>
 
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

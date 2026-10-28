@@ -236,8 +236,8 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 期間内に申し出なかった債権者はどうなりますか？</p><p class="faq-a">A. 清算から除外され、債務を完済した後、帰属権利者にまだ引き渡していない財産に対してのみ弁済を請求できます。知れている債権者は除外できません。</p></div>
 </div>
 
-<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>ユソン行政士事務所（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
-<p class="author-block">ユソン行政士事務所（代表行政士 チョン・ユソン）</p>`,
+<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>YouSun Administrative Agency（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }
 
