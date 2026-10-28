@@ -164,11 +164,11 @@ export default {
 
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
- <p>Yuseon Administrative Agent Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>YouSun Administrative Agency will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Principal Administrative Agent Jeong Yuseon)</p>`,
+<p class="author-block">YouSun Administrative Agency (Principal Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

@@ -149,8 +149,8 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Do functional cosmetics need an MFDS permit?</p><p class="faq-a">A. No. They go through a product-by-product safety and efficacy review or report submission, filed by a cosmetics manufacturer, responsible distributor, or a qualifying university or research institute.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. Yuseon Administrative Agent Office reviews your product information and the reports or registrations you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
+<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. YouSun Administrative Agency reviews your product information and the reports or registrations you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

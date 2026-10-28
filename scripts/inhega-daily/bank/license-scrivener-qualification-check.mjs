@@ -206,7 +206,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

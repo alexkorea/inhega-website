@@ -10,6 +10,7 @@ import { POOL_KEYS, ANGLE_KEYS, topicByKey } from './pool.mjs'
 import { c6Hits } from '../lib/c6-banned.mjs'
 import { scanHtml } from '../nocite-gate.mjs'
 import { scanText as nofreeHits } from '../nofree-gate.mjs'
+import { scanText as brandHits } from '../brandname-gate.mjs'
 
 // 제5장 정량 — Cluster 기준(Pillar 은 entry.kind='pillar' 로 상향).
 // 단위는 지침서 표기("EN1000-1800단어")를 네 언어 모두 단어로 읽는다.
@@ -241,6 +242,9 @@ export function gateArticle(entry, ctx) {
   // INHEGA-EN-BRAND 2(맥7 10-28): 모든 글·4언어 '무료/free/免费/無料' 0건(scripts/nofree-gate.mjs 와 같은 패턴)
   const nf = ['ko', 'en', 'zh', 'ja'].flatMap((l) => { const a = entry[l] || {}; return nofreeHits([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.category, a.content].join(' ')) })
   add('N1 무료 표현 0건(4언어, NOFREE)', nf.length === 0, nf.length ? `「${nf[0].word}」 …${nf[0].ctx}…` : 'ok')
+  // INHEGA-EN-NAME(보스 msg 4270, 10-28): 영문 상호는 'YouSun Administrative Agency' 하나 — 4언어(메타 포함) 다른 꼴 0건(scripts/brandname-gate.mjs)
+  const bn = ['ko', 'en', 'zh', 'ja'].flatMap((l) => { const a = entry[l] || {}; return brandHits([a.title, a.metaTitle, a.metaDescription, a.excerpt, a.category, a.content].join(' ')) })
+  add('N2 영문 상호 YouSun Administrative Agency 단일 표기(4언어)', bn.length === 0, bn.length ? `「${bn[0].word}」 …${bn[0].ctx}…` : 'ok')
 
   const failed = checks.filter((c) => !c.ok)
   return { pass: failed.length === 0, checks, failed }

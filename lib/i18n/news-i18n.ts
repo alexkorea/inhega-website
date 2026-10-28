@@ -95,7 +95,7 @@ const en: NewsStrings = {
   h1: 'Licensing & Regulatory News',
   heroSub:
     'Daily digest of laws, amendments and regulatory notifications published by government bodies in Korea and abroad. Summaries are in Korean.',
-  metaTitle: 'Regulatory News | Korea & Global Licensing Updates — Yuseon Office',
+  metaTitle: 'Regulatory News | Korea & Global Licensing Updates — YouSun Administrative Agency',
   metaDescription:
     'Daily digest of licensing and regulatory changes from the US Federal Register, WTO ePing, Japan e-Gov, EU EUR-Lex and Korea Law Service. Ask us about permits.',
   tabs: { all: 'All', overseas: 'Overseas regulation', domestic: 'Korean law' },

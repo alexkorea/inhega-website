@@ -158,8 +158,8 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. Will a disqualified heir lose the business?</p><p class="faq-a">A. If the heir transfers the business to another person within 3 months of the inheritance, cancellation on that ground can be avoided.</p></div>
 </div>
 
-<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact Yuseon Administrative Agent Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
+<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

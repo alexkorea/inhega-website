@@ -210,7 +210,7 @@ export default {
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`,
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`,
   },
 
   zh: {

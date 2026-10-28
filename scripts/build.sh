@@ -25,5 +25,7 @@ node scripts/svc-nocite-gate.mjs .next/server/app
 node scripts/scrivener-gate.mjs .next/server/app
 # INHEGA-EN-BRAND 2(맥7 10-28): 전 로캘 '무료/free/免费/無料' 0. 원천은 prebuild 에서 같은 게이트.
 node scripts/nofree-gate.mjs .next/server/app
+# INHEGA-EN-NAME(보스 msg 4270, 10-28): 영문 상호는 'YouSun Administrative Agency' 하나(Yuseon·YuSun·Attorney 꼴 0). 원천은 prebuild 에서 같은 게이트.
+node scripts/brandname-gate.mjs .next/server/app
 node scripts/seo-gate.mjs
 node scripts/url-preserve-gate.mjs

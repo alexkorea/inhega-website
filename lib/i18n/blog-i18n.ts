@@ -4038,11 +4038,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
- <p>Yuseon Administrative Agent Office will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>YouSun Administrative Agency will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Principal Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Principal Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'administrative-scrivener-scope-and-limits',
@@ -4277,7 +4277,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'building-usage-change-requirements',
@@ -4531,7 +4531,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'hostel-violation-penalties',
@@ -4799,7 +4799,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'administrative-license-agency-supplement-and-rejection',
@@ -5052,7 +5052,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'procurement-narajangteo-registration-change',
@@ -5317,7 +5317,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'corporate-research-lab-required-documents',
@@ -5599,7 +5599,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'mainbiz-renewal-and-validity',
@@ -5852,7 +5852,7 @@ const blogData: BlogI18n[] = [
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'license-scrivener-qualification-check',
@@ -6070,8 +6070,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Is the deadline the same if only the address changed due to district reorganization?</p><p class="faq-a">A. No. An address change caused by an administrative district reorganization may be filed within 90 days.</p></div>
 </div>
 
-<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>Yuseon Administrative Agent Office prepares the document check and application with you. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>YouSun Administrative Agency prepares the document check and application with you. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'cosmetics-distributor-change-registration',
@@ -6247,11 +6247,11 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Planning to sell food you make online?</h3>
- <p>Yuseon Administrative Agent Office reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
+ <p>YouSun Administrative Agency reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">Request a consultation</a>
 </div>
 
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'food-manufacturing-online-sales-report',
@@ -6416,8 +6416,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. What do I do with the certificate if I close the business?</p><p class="faq-a">A. A business that closes must return the certificate to the head of the agency without delay.</p></div>
 </div>
 
-<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. Yuseon Administrative Agent Office handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. YouSun Administrative Agency handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'haccp-certification-change-application',
@@ -6557,8 +6557,8 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Do services that do not handle personal location information need a report?</p><p class="faq-a">A. The Act excludes LBS businesses that do not target personal location information from the report requirement, but some duties, such as technical and managerial safeguards, still apply.</p></div>
 <div class="faq-item"><p class="faq-q">Q. We acquired a company. Do we file a new report?</p><p class="faq-a">A. For a business transfer or merger, you file a transfer or merger report rather than a new one, and you succeed to the former operator's status once it is accepted.</p></div>
 </div>
-<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact Yuseon Administrative Agent Office. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
-<p class="author-block">Yuseon Administrative Agent Office (Chief Administrative Agent Jeong Yuseon)</p>`
+<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jeong Yuseon)</p>`
   },
   {
     slug: 'location-based-service-change-report',
