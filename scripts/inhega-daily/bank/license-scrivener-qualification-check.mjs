@@ -170,7 +170,7 @@ export default {
 
 <h2>Office Names and Administrative Agent Corporations</h2>
 <p>An administrative agent may have one office only; a joint office of 2 or more may open branches with at least 1 member working full time at each (Article 14). The office name must contain "administrative agent office" in Korean, and those who are not administrative agents may not use this or the title "administrative agent" (Articles 15 and 3(2)).</p>
-<p>Three or more administrative agents may form a <strong>administrative agent corporation</strong> with the Minister's approval (Articles 25-2 and 25-3). It files its own business report, uses "administrative agent corporation" in its name, may not take on members untrained under Article 25 (Articles 25-4 to 25-6), and must designate a responsible administrative agent for each matter who signs its documents (Article 25-7).</p>
+<p>Three or more administrative agents may form an <strong>administrative agent corporation</strong> with the Minister's approval (Articles 25-2 and 25-3). It files its own business report, uses "administrative agent corporation" in its name, may not take on members untrained under Article 25 (Articles 25-4 to 25-6), and must designate a responsible administrative agent for each matter who signs its documents (Article 25-7).</p>
 
 <h2>How to Verify an Administrative Agent Before You Engage</h2>
 <table><thead><tr><th>Item</th><th>What to check</th></tr></thead><tbody>
