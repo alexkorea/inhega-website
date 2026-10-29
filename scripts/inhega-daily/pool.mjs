@@ -27,7 +27,7 @@ export const POOL = [
   { key: 'nonprofit',            kw: '비영리사단법인설립',    service: 'nonprofit',            slugStems: ['nonprofit'] },
   { key: 'cosmetics-distributor',kw: '화장품책임판매업등록',  service: 'cosmetics',            slugStems: ['cosmetics'] },
   { key: 'quasi-drug',           kw: '의약외품허가',          service: 'cosmetics',            slugStems: ['quasi-drug'] },
-  { key: 'procurement',          kw: '조달청나라장터등록',    service: 'procurement',          slugStems: ['procurement-narajangteo', 'narajangteo', 'g2b'] },
+  { key: 'procurement',          kw: '조달청나라장터등록',    service: 'procurement',          slugStems: ['procurement-narajangteo', 'narajangteo', 'g2b', 'procurement-fix'] },  // procurement-fix(10-03 부정당업자 제재) 귀속 — FOLLOWUP-1029
   { key: 'lbs',                  kw: '위치기반서비스사업신고', service: 'location-based-service', slugStems: ['location-based-service', 'location-information'] },
 ]
 
