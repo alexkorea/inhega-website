@@ -1796,7 +1796,7 @@ const blogData: BlogI18n[] = [
     excerpt: 'A guide to maintaining HACCP certification in Korea after initial approval — covering annual surveillance audits, record-keeping requirements, and common reasons for revocation.',
     content: `<div class="toc"><p>Table of Contents</p><ol><li>Post-Certification Obligations Overview</li><li>Annual Surveillance Audit</li><li>Triennial Re-Certification</li><li>Required Ongoing Records</li><li>Common Revocation Cases</li><li>Process Change Reporting</li><li>FAQ</li></ol></div>
 <h2>1. Post-Certification Obligations Overview</h2>
-<p>HACCP certification is not a one-time achievement. KHAS conducts annual surveillance audits and a full re-certification audit every three years. Failure to pass can result in certification suspension or revocation.</p>
+<p>HACCP certification is not a one-time achievement. KHAS conducts annual surveillance audits and a full re-certification audit every three years. If an audit finds the HACCP standards are not being followed, the certification may be revoked or a corrective order issued (Food Sanitation Act Article 48(8)).</p>
 <h2>2. Annual Surveillance Audit</h2>
 <p>Each year, a KHAS auditor visits to verify that the HACCP plan is being implemented as documented. Auditors check CCP monitoring logs, corrective action records, calibration records, and staff training documentation.</p>
 <h2>3. Triennial Re-Certification</h2>
@@ -1808,7 +1808,7 @@ const blogData: BlogI18n[] = [
 <h2>6. Process Change Reporting</h2>
 <p>Any significant change to production processes, facility layout, or product formulation must be reported to KHAS and the HACCP plan updated before implementation. Undocumented changes are a major audit finding.</p>
 <div class="faq-section"><h2>FAQ</h2>
-<div class="faq-item"><p class="faq-q">Q. What happens if we fail the annual surveillance audit?</p><p class="faq-a">A. You will receive a corrective action plan with a deadline. If unresolved, certification may be suspended pending re-audit.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What happens if we fail the annual surveillance audit?</p><p class="faq-a">A. It depends on the score. Under Appended Table 20 of the Enforcement Rule of the Food Sanitation Act, scoring below 60% in either the prerequisite program area or the HACCP management area leads to revocation, and 60% to under 85% leads to a corrective order. Failing to comply with a corrective order leads to revocation.</p></div>
 <div class="faq-item"><p class="faq-q">Q. How long must records be kept?</p><p class="faq-a">A. A minimum of 2 years from the date of production for most records.</p></div>
 </div>
 <div class="cta-box"><h3>Stay HACCP Certified</h3><p>YouSun Administrative Agency assists with pre-audit preparation and corrective action planning.</p><a href="/en/contact">Request a Consultation</a></div>`,
@@ -1823,7 +1823,7 @@ const blogData: BlogI18n[] = [
     excerpt: '韩国HACCP认证后期维持指南，涵盖年度监督审核、记录保存要求及常见吊销原因。',
     content: `<div class="toc"><p>目录</p><ol><li>认证后义务概述</li><li>年度监督审核</li><li>三年期再认证</li><li>持续记录要求</li><li>常见吊销案例</li><li>工艺变更报告</li><li>常见问题</li></ol></div>
 <h2>1. 认证后义务概述</h2>
-<p>HACCP认证并非一次性成就。KHAS每年进行监督审核，并每三年进行一次完整再认证审核。未通过审核可能导致认证被暂停或吊销。</p>
+<p>HACCP认证并非一次性成就。KHAS每年进行监督审核，并每三年进行一次完整再认证审核。审核发现未遵守HACCP标准的，可能被吊销认证或被责令整改（《食品卫生法》第48条第8款）。</p>
 <h2>2. 年度监督审核</h2>
 <p>每年，KHAS审核员会到访核查HACCP计划是否按文件执行。审核员检查CCP监控日志、纠正措施记录、校准记录及员工培训文件。</p>
 <h2>3. 三年期再认证</h2>
@@ -1835,7 +1835,7 @@ const blogData: BlogI18n[] = [
 <h2>6. 工艺变更报告</h2>
 <p>生产工艺、设施布局或产品配方的任何重大变更，须在实施前向KHAS报告并更新HACCP计划。未记录的变更是重大审核发现。</p>
 <div class="faq-section"><h2>常见问题</h2>
-<div class="faq-item"><p class="faq-q">Q. 如果年度监督审核不通过会怎样？</p><p class="faq-a">A. 将收到带有期限的纠正措施计划。若未能解决，认证可能被暂停，等待重新审核。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 如果年度监督审核不通过会怎样？</p><p class="faq-a">A. 视评分而定。根据《食品卫生法实施规则》附表20，前提条件管理领域或HACCP管理领域得分低于满分60%的，吊销认证；60%以上不足85%的，责令整改；收到整改命令后仍不履行的，吊销认证。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 记录需要保存多长时间？</p><p class="faq-a">A. 大多数记录自生产之日起至少保存2年。</p></div>
 </div>
 <div class="cta-box"><h3>保持HACCP认证有效</h3><p>YouSun Administrative Agency协助审核前准备及纠正措施规划。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
@@ -1850,7 +1850,7 @@ const blogData: BlogI18n[] = [
     excerpt: '韓国HACCP認証の取得後に認証を維持するためのガイド — 年次サーベイランス審査、記録保持要件、よくある取消理由を解説します。',
     content: `<div class="toc"><p>目次</p><ol><li>認証後の義務概要</li><li>年次サーベイランス審査</li><li>3年ごとの再認証</li><li>継続的な記録要件</li><li>よくある取消事例</li><li>工程変更の報告</li><li>よくある質問</li></ol></div>
 <h2>1. 認証後の義務概要</h2>
-<p>HACCP認証は一度取得すれば終わりではありません。KHASは毎年サーベイランス審査を実施し、3年ごとに完全な再認証審査を行います。合格しない場合、認証の一時停止または取消につながる可能性があります。</p>
+<p>HACCP認証は一度取得すれば終わりではありません。KHASは毎年サーベイランス審査を実施し、3年ごとに完全な再認証審査を行います。審査でHACCP基準を守っていないと判断されると、認証取消または是正命令を受けることがあります（食品衛生法第48条第8項）。</p>
 <h2>2. 年次サーベイランス審査</h2>
 <p>毎年、KHASの審査員が訪問し、HACCP計画が文書どおりに実施されているか確認します。CCP監視ログ、是正措置記録、校正記録、従業員研修記録を確認します。</p>
 <h2>3. 3年ごとの再認証</h2>
@@ -1862,7 +1862,7 @@ const blogData: BlogI18n[] = [
 <h2>6. 工程変更の報告</h2>
 <p>製造工程、施設レイアウト、製品処方の重大な変更は、実施前にKHASに報告しHACCP計画を更新する必要があります。未記録の変更は重大な審査指摘事項となります。</p>
 <div class="faq-section"><h2>よくある質問</h2>
-<div class="faq-item"><p class="faq-q">Q. 年次サーベイランス審査に失格した場合どうなりますか？</p><p class="faq-a">A. 期限付きの是正措置計画が渡されます。未解決の場合、再審査まで認証が一時停止される可能性があります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 年次サーベイランス審査に失格した場合どうなりますか？</p><p class="faq-a">A. 点数によって異なります。食品衛生法施行規則別表20により、先行要件管理分野またはHACCP管理分野で満点の60%未満なら認証取消、60%以上85%未満なら是正命令となり、是正命令を受けても履行しない場合は認証取消となります。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 記録はどのくらい保管が必要ですか？</p><p class="faq-a">A. ほとんどの記録は製造日から最低2年間の保管が必要です。</p></div>
 </div>
 <div class="cta-box"><h3>HACCP認証を維持しましょう</h3><p>YouSun Administrative Agencyが審査前準備と是正措置計画をサポートします。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
