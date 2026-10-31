@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { EmailOff } from '@/components/ui/EmailOff'
 import { qrHref } from '@/lib/qr-links'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata = {
   title: '회사소개 | 인허가 전문 행정사 — 유선행정사사무소',
@@ -74,6 +75,8 @@ const expertise = [
 export default function AboutPage() {
   return (
     <div>
+      {/* NAVER-SEO-FIX-1031 */}
+      <BreadcrumbLd items={[{ name: '홈', path: '/' }, { name: '회사소개', path: '/about' }]} />
       {/* Hero */}
       <section style={{ background: 'var(--navy)', padding: '1.75rem 0 var(--section-py-md)', paddingTop: 'calc(72px + 1.75rem)' }}>
         <div className="container">

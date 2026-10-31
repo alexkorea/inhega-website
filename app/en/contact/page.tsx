@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata: Metadata = {
   title: 'Contact Us | YouSun Administrative Agency',
@@ -23,5 +24,10 @@ export const metadata: Metadata = {
 }
 
 export default function EnContactPage() {
-  return <ContactForm />
+  return (
+    <>
+      <BreadcrumbLd items={[{ name: 'Home', path: '/en' }, { name: 'Contact', path: '/en/contact' }]} />
+      <ContactForm />
+    </>
+  )
 }

@@ -1,4 +1,5 @@
 import AboutPage from '@/components/layout/AboutPage'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata = {
   title: '公司介绍 | YouSun Administrative Agency',
@@ -23,5 +24,10 @@ export const metadata = {
 }
 
 export default function ZhAboutPage() {
-  return <AboutPage locale="zh" />
+  return (
+    <>
+      <BreadcrumbLd items={[{ name: '首页', path: '/zh' }, { name: '关于我们', path: '/zh/about' }]} />
+      <AboutPage locale="zh" />
+    </>
+  )
 }

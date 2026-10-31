@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata: Metadata = {
   title: 'お問い合わせ | YouSun Administrative Agency',
@@ -23,5 +24,10 @@ export const metadata: Metadata = {
 }
 
 export default function JaContactPage() {
-  return <ContactForm />
+  return (
+    <>
+      <BreadcrumbLd items={[{ name: 'ホーム', path: '/ja' }, { name: 'お問い合わせ', path: '/ja/contact' }]} />
+      <ContactForm />
+    </>
+  )
 }

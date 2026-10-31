@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata: Metadata = {
   title: '联系我们 | YouSun Administrative Agency',
@@ -23,5 +24,10 @@ export const metadata: Metadata = {
 }
 
 export default function ZhContactPage() {
-  return <ContactForm />
+  return (
+    <>
+      <BreadcrumbLd items={[{ name: '首页', path: '/zh' }, { name: '联系我们', path: '/zh/contact' }]} />
+      <ContactForm />
+    </>
+  )
 }

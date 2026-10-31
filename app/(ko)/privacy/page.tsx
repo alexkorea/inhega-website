@@ -1,4 +1,5 @@
 import { EmailOff } from '@/components/ui/EmailOff'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata = {
   title: '개인정보처리방침 | 유선행정사사무소',
@@ -26,6 +27,8 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <div style={{ paddingTop: '72px' }}>
+      {/* NAVER-SEO-FIX-1031 */}
+      <BreadcrumbLd items={[{ name: '홈', path: '/' }, { name: '개인정보처리방침', path: '/privacy' }]} />
       <section style={{ background: 'var(--navy)', padding: '2.25rem 0 1.75rem' }}>
         <div className="container">
           <h1 className="text-display" style={{ color: 'white' }}>개인정보처리방침</h1>

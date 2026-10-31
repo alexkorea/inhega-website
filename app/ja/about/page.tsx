@@ -1,4 +1,5 @@
 import AboutPage from '@/components/layout/AboutPage'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata = {
   title: '事務所案内 | YouSun Administrative Agency',
@@ -23,5 +24,10 @@ export const metadata = {
 }
 
 export default function JaAboutPage() {
-  return <AboutPage locale="ja" />
+  return (
+    <>
+      <BreadcrumbLd items={[{ name: 'ホーム', path: '/ja' }, { name: '事務所案内', path: '/ja/about' }]} />
+      <AboutPage locale="ja" />
+    </>
+  )
 }

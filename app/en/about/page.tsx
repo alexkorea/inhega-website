@@ -1,4 +1,5 @@
 import AboutPage from '@/components/layout/AboutPage'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 
 export const metadata = {
   title: 'About Us | YouSun Administrative Agency',
@@ -23,5 +24,10 @@ export const metadata = {
 }
 
 export default function EnAboutPage() {
-  return <AboutPage locale="en" />
+  return (
+    <>
+      <BreadcrumbLd items={[{ name: 'Home', path: '/en' }, { name: 'About', path: '/en/about' }]} />
+      <AboutPage locale="en" />
+    </>
+  )
 }

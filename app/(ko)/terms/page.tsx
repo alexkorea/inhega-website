@@ -1,3 +1,4 @@
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
 export const metadata = {
   title: '이용약관 | 유선행정사사무소',
   description: '유선행정사사무소 홈페이지와 인허가 행정 대행 서비스의 이용약관입니다. 서비스 내용, 상담·견적 신청 등 이용 조건, 면책 사항, 준거법과 관할 법원을 안내합니다.',
@@ -24,6 +25,8 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <div style={{ paddingTop: '72px' }}>
+      {/* NAVER-SEO-FIX-1031 */}
+      <BreadcrumbLd items={[{ name: '홈', path: '/' }, { name: '이용약관', path: '/terms' }]} />
       <section style={{ background: 'var(--navy)', padding: '2.25rem 0 1.75rem' }}>
         <div className="container">
           <h1 className="text-display" style={{ color: 'white' }}>이용약관</h1>
