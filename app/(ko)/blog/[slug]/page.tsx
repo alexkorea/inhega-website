@@ -51,7 +51,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     alternates: { canonical: `https://inhega.co.kr/blog/${canonicalSlug}`, languages },
-    openGraph: { title, description, type: 'article', images: [{ url: image, width: 1200, height: 630, alt: title }], publishedTime: post.created_at },
+    // NAVER-SEO-FIX-1031: og:url = canonical, modifiedTime 추가
+    openGraph: { title, description, type: 'article', url: `https://inhega.co.kr/blog/${canonicalSlug}`, images: [{ url: image, width: 1200, height: 630, alt: title }], publishedTime: post.created_at, modifiedTime: post.updated_at ?? post.created_at },
     twitter: { card: 'summary_large_image' as const, title, description, images: [image] },
   }
 }
@@ -89,8 +90,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     headline: post.title,
     description: post.excerpt,
     datePublished: post.created_at,
+    dateModified: post.updated_at ?? post.created_at,
     image: [`https://inhega.co.kr${ogThumb('ko', post.slug || post.id)}`],
-    author: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr' },
+    // NAVER-SEO-FIX-1031: 저자 = 등록부 브랜드 D 대표 행정사(Person), 소속 = 사무소 노드(@id)
+    author: { '@type': 'Person', name: '정유선', jobTitle: '대표 행정사', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization', name: '유선행정사사무소' } },
     publisher: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr', logo: publisherLogo },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/blog/${post.slug || post.id}` },
   }

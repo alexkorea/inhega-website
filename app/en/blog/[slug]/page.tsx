@@ -39,6 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title,
       description,
       type: 'article',
+      // NAVER-SEO-FIX-1031: og:url = canonical
+      url: post ? `https://inhega.co.kr/en/blog/${slug}` : `https://inhega.co.kr${koBlogHref(slug)}`,
       images: [{ url: image, width: 1200, height: 630, alt: title }],
       locale: 'en_US',
     },
@@ -77,8 +79,10 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
     headline: post?.title ?? koPost.title,
     description: post?.excerpt ?? koPost.excerpt,
     datePublished: koPost.created_at,
+    dateModified: koPost.updated_at ?? koPost.created_at,
     image: [`https://inhega.co.kr${ogThumb('en', slug)}`],
-    author: { '@type': 'Organization', name: 'YouSun Administrative Agency', url: 'https://inhega.co.kr/en' },
+    // NAVER-SEO-FIX-1031: 저자 = 등록부 브랜드 D 대표 행정사(Person, 표기는 사이트 푸터와 같게)
+    author: { '@type': 'Person', name: 'Jung Yu-sun', jobTitle: 'Chief Administrative Agent', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization', name: 'YouSun Administrative Agency' } },
     publisher: { '@type': 'Organization', name: 'YouSun Administrative Agency', url: 'https://inhega.co.kr/en' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/en/blog/${slug}` },
     inLanguage: 'en',

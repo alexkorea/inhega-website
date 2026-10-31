@@ -4,6 +4,7 @@ import { getAllTranslatedSlugs, getBlogI18n, type Locale } from '@/lib/i18n/blog
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 import { buildRss, RSS_HEADERS } from '@/lib/rss'
 import { RSS_META } from '@/lib/rss-meta'
+import { ogThumb } from '@/lib/og-thumbs.generated'
 
 const BASE = 'https://inhega.co.kr'
 
@@ -13,13 +14,15 @@ export function rssResponse(locale: 'ko' | Locale): Response {
     locale === 'ko'
       ? blogPosts
           .filter((p) => !REDIRECTED_BLOG_SLUGS.has(p.slug))
-          .map((p) => ({ title: p.title, link: `${BASE}/blog/${p.slug}`, description: p.meta_description || p.excerpt, date: p.created_at }))
+          .map((p) => ({ title: p.title, link: `${BASE}/blog/${p.slug}`, description: p.meta_description || p.excerpt, date: p.created_at,
+            image: ogThumb('ko', p.slug) ? `${BASE}${ogThumb('ko', p.slug)}` : undefined }))
       : getAllTranslatedSlugs(locale)
           .filter((s) => !REDIRECTED_BLOG_SLUGS.has(s))
           .flatMap((s) => {
             const t = getBlogI18n(locale, s)
             const ko = blogPosts.find((p) => p.slug === s)
-            return t && ko ? [{ title: t.title, link: `${BASE}/${locale}/blog/${s}`, description: t.metaDescription || t.excerpt, date: ko.created_at }] : []
+            return t && ko ? [{ title: t.title, link: `${BASE}/${locale}/blog/${s}`, description: t.metaDescription || t.excerpt, date: ko.created_at,
+              image: ogThumb(locale, s) ? `${BASE}${ogThumb(locale, s)}` : undefined }] : []
           })
   const xml = buildRss(
     { title: m.title, link: `${BASE}${locale === 'ko' ? '' : `/${locale}`}/blog`, description: m.desc, language: locale, self: `${BASE}${m.path}` },

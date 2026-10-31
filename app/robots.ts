@@ -8,6 +8,12 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: '/api/',
       },
+      // NAVER-SEO-FIX-1031: 네이버 Yeti 명시(* 그룹을 대체하므로 disallow 그대로 복사)
+      {
+        userAgent: 'Yeti',
+        allow: '/',
+        disallow: '/api/',
+      },
       {
         userAgent: 'Amazonbot',
         disallow: '/',

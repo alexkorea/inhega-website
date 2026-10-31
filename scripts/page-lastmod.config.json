@@ -1,0 +1,94 @@
+{
+ "out": "lib/page-lastmod.generated.ts",
+ "roots": [
+  "app/(ko)"
+ ],
+ "paths": [
+  "",
+  "/about",
+  "/services",
+  "/blog",
+  "/news",
+  "/contact",
+  "/quote",
+  "/privacy",
+  "/terms"
+ ],
+ "files": {
+  "en:": [
+   "app/en/page.tsx"
+  ],
+  "en:/about": [
+   "app/en/about/page.tsx"
+  ],
+  "en:/contact": [
+   "app/en/contact/page.tsx"
+  ],
+  "en:/services": [
+   "app/en/services/page.tsx"
+  ],
+  "en:/blog": [
+   "app/en/blog/page.tsx"
+  ],
+  "zh:": [
+   "app/zh/page.tsx"
+  ],
+  "zh:/about": [
+   "app/zh/about/page.tsx"
+  ],
+  "zh:/contact": [
+   "app/zh/contact/page.tsx"
+  ],
+  "zh:/services": [
+   "app/zh/services/page.tsx"
+  ],
+  "zh:/blog": [
+   "app/zh/blog/page.tsx"
+  ],
+  "ja:": [
+   "app/ja/page.tsx"
+  ],
+  "ja:/about": [
+   "app/ja/about/page.tsx"
+  ],
+  "ja:/contact": [
+   "app/ja/contact/page.tsx"
+  ],
+  "ja:/services": [
+   "app/ja/services/page.tsx"
+  ],
+  "ja:/blog": [
+   "app/ja/blog/page.tsx"
+  ],
+  "svc:ko": [
+   "lib/services-data.ts",
+   "lib/services-catalog.ts",
+   "app/(ko)/services/[slug]/page.tsx"
+  ],
+  "svc:en": [
+   "lib/services-data.ts",
+   "lib/services-catalog.ts",
+   "lib/i18n/services-i18n.ts",
+   "app/en/services/[slug]/page.tsx"
+  ],
+  "svc:zh": [
+   "lib/services-data.ts",
+   "lib/services-catalog.ts",
+   "lib/i18n/services-i18n.ts",
+   "app/zh/services/[slug]/page.tsx"
+  ],
+  "svc:ja": [
+   "lib/services-data.ts",
+   "lib/services-catalog.ts",
+   "lib/i18n/services-i18n.ts",
+   "app/ja/services/[slug]/page.tsx"
+  ]
+ },
+ "dirs": [
+  {
+   "prefix": "ind:",
+   "dir": "content/industry-pages",
+   "re": "\\.json$"
+  }
+ ]
+}
