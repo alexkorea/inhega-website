@@ -127,6 +127,9 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
             {t.nav.quote}
           </Link>
 
+          {/* INHEGA-FLAGS-1101: 데스크톱 nav 가 햄버거로 접히는 폭(≤1200px)에서도 헤더 줄에 국기를 둔다(ko 의 mobileLangSwitch 와 같은 자리). */}
+          <div className={`${styles.mobileLangSwitch} ${styles.mobileLangSwitchLong}`}><LangFlags locale={locale} /></div>
+
           <button
             className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
             onClick={() => setMenuOpen(!menuOpen)}

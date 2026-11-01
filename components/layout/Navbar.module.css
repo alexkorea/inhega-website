@@ -495,6 +495,15 @@
   .innerLong .desktopNav { display: none; }
   .innerLong .hamburger { display: flex; flex-shrink: 0; }
   .innerLong .actions { margin-left: auto; }
+  /* INHEGA-FLAGS-1101: 메뉴가 접혀도 국기 4개는 헤더 줄에 남긴다 */
+  .innerLong .mobileLangSwitchLong {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2px;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 0;
+  }
 }
 
 @media (max-width: 1240px) {

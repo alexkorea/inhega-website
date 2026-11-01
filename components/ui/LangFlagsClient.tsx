@@ -1,4 +1,5 @@
 'use client'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './LangFlags.module.css'
@@ -25,6 +26,24 @@ function targetHref(lang: FlagLang, fallback: string, pathname: string | null): 
   return hit ? hit.href : null
 }
 
+/**
+ * INHEGA-FLAGS-1101(보스 msg 4665·4668): 국기를 누르면 그 언어의 **같은 페이지**로.
+ * 서비스 상세 밖에서는 각 페이지가 머리에 낸 hreflang 대체 링크(<link rel="alternate" hreflang>)를 따른다 —
+ * 페이지마다 번역본 유무를 이미 판단한 값이라 경로를 따로 추측하지 않는다. 대체 링크가 없으면 종전대로 언어 홈.
+ */
+function readAlternates(): Partial<Record<FlagLang, string>> {
+  const out: Partial<Record<FlagLang, string>> = {}
+  document.head.querySelectorAll<HTMLLinkElement>('link[rel="alternate"][hreflang]').forEach((el) => {
+    const lang = LANG_LINKS.find((l) => l.hreflang === el.getAttribute('hreflang'))
+    if (!lang) return
+    try {
+      const u = new URL(el.href, location.href)
+      out[lang.key] = (u.pathname || '/') + u.search
+    } catch {}
+  })
+  return out
+}
+
 export default function LangFlags({
   locale,
   tone = 'dark',
@@ -35,11 +54,15 @@ export default function LangFlags({
   className?: string
 }) {
   const pathname = usePathname()
+  const [alt, setAlt] = useState<Partial<Record<FlagLang, string>>>({})
+  useEffect(() => {
+    setAlt(SERVICE_PATH.test(pathname ?? '') ? {} : readAlternates())
+  }, [pathname])
   return (
     <div className={`${styles.row} ${tone === 'light' ? styles.light : styles.dark} ${className ?? ''}`}>
       {LANG_LINKS.map((l) => {
         const current = l.key === locale
-        const href = current ? l.href : targetHref(l.key, l.href, pathname)
+        const href = current ? (alt[l.key] ?? l.href) : (alt[l.key] ?? targetHref(l.key, l.href, pathname))
         if (!href) return null
         return (
           <Link
@@ -51,6 +74,12 @@ export default function LangFlags({
             aria-label={l.name}
             title={l.name}
             aria-current={current ? 'true' : undefined}
+            onClick={(e) => {
+              // 같은 루트 안 클라이언트 이동 직후엔 머리 대체 링크가 늦게 바뀔 수 있다 — 누를 때 다시 읽는다.
+              if (SERVICE_PATH.test(pathname ?? '') || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return
+              const fresh = readAlternates()[l.key]
+              if (fresh && fresh !== href) { e.preventDefault(); location.assign(fresh) }
+            }}
             className={`${styles.item} ${current ? styles.current : ''}`}
           >
             <Flag lang={l.key} />
