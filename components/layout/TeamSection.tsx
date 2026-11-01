@@ -26,7 +26,8 @@ type Member = {
   name: Record<Locale, string>
   photo: string
   title: Record<Locale, string>
-  specialty: Record<Locale, string>
+  // INHEGA-TEAM-1101(보스 msg 4657·4659): 행정사 4명은 전문분야 줄 없음 — 직함·이름·언어만
+  specialty?: Record<Locale, string>
   langs: string[]
 }
 
@@ -36,7 +37,6 @@ const admins: Member[] = [
     name: { ko: '정유선', en: 'Jung Yu-sun', zh: '郑有善', ja: '鄭有善' },
     photo: '/team/jungyus.webp',
     title: { ko: '대표행정사', en: 'Chief Admin Agent', zh: '代表行政士', ja: '代表行政士' },
-    specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN'],
   },
   {
@@ -44,7 +44,6 @@ const admins: Member[] = [
     name: { ko: '정희정', en: 'Jung Hee-jung', zh: '郑熙晶', ja: '鄭熙晶' },
     photo: '/team/junghj.webp',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政士' },
-    specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN'],
   },
   {
@@ -52,7 +51,6 @@ const admins: Member[] = [
     name: { ko: '김정은', en: 'Kim Jung-eun', zh: '金正恩', ja: '金正恩' },
     photo: '/team/kimje.webp',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政士' },
-    specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN', '中文', '日本語'],
   },
   {
@@ -60,7 +58,6 @@ const admins: Member[] = [
     name: { ko: '이원중', en: 'Lee Won-jung', zh: '李元中', ja: '李元重' },
     photo: '/team/leewj.webp',
     title: { ko: '행정사', en: 'Admin Agent', zh: '行政士', ja: '行政士' },
-    specialty: { ko: '출입국 / 인허가전문', en: 'Immigration & Licensing', zh: '出入境 / 许可证专业', ja: '出入国・許認可専門' },
     langs: ['KR', 'EN', '中文', '日本語'],
   },
 ]
@@ -121,9 +118,11 @@ function MemberCard({ member, locale, size = 'lg' }: { member: Member; locale: L
       <p style={{ fontSize: size === 'lg' ? '1.0625rem' : '0.9375rem', fontWeight: 700, color: '#111827', marginBottom: '0.3rem', lineHeight: 1.3 }}>
         {member.name[locale]}
       </p>
-      <p style={{ fontSize: '0.75rem', color: '#6b7280', marginBottom: '0.4rem' }}>
-        {member.specialty[locale]}
-      </p>
+      {member.specialty && (
+        <p style={{ fontSize: '0.75rem', color: '#6b7280', marginBottom: '0.4rem' }}>
+          {member.specialty[locale]}
+        </p>
+      )}
       <p style={{ fontSize: '0.7rem', color: '#9ca3af', letterSpacing: '0.01em' }}>
         {member.langs.join(' · ')}
       </p>
