@@ -55,9 +55,9 @@ const team = [
   { name: '정희정', title: '행정사', lang: 'KR · EN', photo: '/images/team/junghj.webp' },
   { name: '김정은', title: '행정사', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/kimje.webp' },
   { name: '이원중', title: '행정사', lang: 'KR · EN · 中文 · 日本語', photo: '/images/team/leewj.webp' },
-  { name: '백승수', title: '사무장', specialty: '은행 업무 담당', lang: 'KR · EN', photo: '/images/team/baekss.webp' },
-  { name: '김영주', title: '실장', specialty: '사업자등록증 업무', lang: 'KR · EN', photo: '/images/team/kimyj.webp' },
-  { name: '허경', title: '실장', specialty: '중국어 통역·번역', lang: '中文 · KR · EN', photo: '/images/team/hukyung.webp' },
+  { name: '백승수', title: '사무장', lang: 'KR · EN', photo: '/images/team/baekss.webp' },
+  { name: '김영주', title: '실장', lang: 'KR · EN', photo: '/images/team/kimyj.webp' },
+  { name: '허경', title: '실장', lang: '中文 · KR · EN', photo: '/images/team/hukyung.webp' },
 ]
 
 const teamAdmins = team.filter((m) => m.title.includes('행정사'))

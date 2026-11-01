@@ -26,8 +26,7 @@ type Member = {
   name: Record<Locale, string>
   photo: string
   title: Record<Locale, string>
-  // INHEGA-TEAM-1101(보스 msg 4657·4659): 행정사 4명은 전문분야 줄 없음 — 직함·이름·언어만
-  specialty?: Record<Locale, string>
+  // INHEGA-TEAM-1101·DUTY-1101(보스 msg 4657·4659·4660): 전문분야·담당업무 줄 없음 — 모든 카드 직함·이름·언어만
   langs: string[]
 }
 
@@ -68,7 +67,6 @@ const staff: Member[] = [
     name: { ko: '백승수', en: 'Baek Seung-su', zh: '白胜秀', ja: '白勝秀' },
     photo: '/team/baekss.webp',
     title: { ko: '사무장', en: 'Office Manager', zh: '事务长', ja: '事務長' },
-    specialty: { ko: '은행 업무 담당', en: 'Banking Affairs', zh: '银行业务负责', ja: '銀行業務担当' },
     langs: ['KR', 'EN'],
   },
   {
@@ -76,7 +74,6 @@ const staff: Member[] = [
     name: { ko: '김영주', en: 'Kim Young-ju', zh: '金英珠', ja: '金英珠' },
     photo: '/team/kimyj.webp',
     title: { ko: '실장', en: 'Director', zh: '室长', ja: '室長' },
-    specialty: { ko: '사업자등록증 업무', en: 'Business Registration', zh: '营业执照业务', ja: '事業者登録業務' },
     langs: ['KR', 'EN'],
   },
   {
@@ -84,7 +81,6 @@ const staff: Member[] = [
     name: { ko: '허경', en: 'Heo Kyung', zh: '许京', ja: '許京' },
     photo: '/team/hukyung.webp',
     title: { ko: '실장', en: 'Director', zh: '室长', ja: '室長' },
-    specialty: { ko: '중국어 통역·번역', en: 'Chinese Interpretation', zh: '中文翻译·口译', ja: '中国語通訳・翻訳' },
     langs: ['中文', 'KR', 'EN'],
   },
 ]
@@ -118,11 +114,6 @@ function MemberCard({ member, locale, size = 'lg' }: { member: Member; locale: L
       <p style={{ fontSize: size === 'lg' ? '1.0625rem' : '0.9375rem', fontWeight: 700, color: '#111827', marginBottom: '0.3rem', lineHeight: 1.3 }}>
         {member.name[locale]}
       </p>
-      {member.specialty && (
-        <p style={{ fontSize: '0.75rem', color: '#6b7280', marginBottom: '0.4rem' }}>
-          {member.specialty[locale]}
-        </p>
-      )}
       <p style={{ fontSize: '0.7rem', color: '#9ca3af', letterSpacing: '0.01em' }}>
         {member.langs.join(' · ')}
       </p>
