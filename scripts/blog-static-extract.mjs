@@ -40,6 +40,10 @@ const walk = (d) => readdirSync(d).flatMap((f) => { const p = join(d, f); return
 const chunkNames = (text) => [...text.matchAll(/server\/chunks\/ssr\/([^"'\s]+?\.js)/g)].map((m) => m[1])
 
 // 1) 프리렌더 HTML·RSC 를 .blog-static 으로 복사(정본 .next 에서만).
+// next.config 리디렉트 원본(옛 slug → 새 글 301/308)은 싣지 않는다 — 실으면 래퍼가 정적 HTML 을 먼저 내 리디렉트가 사라진다
+// (프리뷰 7b0242bb 실측: ko 10편이 라이브 308 → 200). 자산이 없으면 래퍼가 앱으로 넘겨 리디렉트가 그대로 난다.
+const redirectSources = new Set(JSON.parse(readFileSync(join(NEXT, 'routes-manifest.json'), 'utf8')).redirects.map((r) => r.source))
+let skippedRedirect = 0
 let copied = 0
 const slugsBy = {}
 for (const L of LOCALES) {
@@ -49,6 +53,7 @@ for (const L of LOCALES) {
   slugsBy[L.loc] = slugs
   mkdirSync(join(OUT, L.loc), { recursive: true })
   for (const s of slugs) {
+    if (redirectSources.has(`/${L.prefix}blog/${s}`)) { skippedRedirect++; continue }
     const html = join(dir, `${s}.html`), rsc = join(dir, `${s}.rsc`)
     if (!existsSync(html) || !existsSync(rsc)) fail(`${L.loc}/${s} 프리렌더 파일 없음`)
     // 확장자 .html 은 Pages 가 308 로 벗긴다 — 확장자 없는 짝(.page)으로 둔다.
@@ -116,5 +121,5 @@ const main = strip(NEXT)
 const SA = join(NEXT, 'standalone', '.next')
 const sa = existsSync(join(SA, 'server', 'app')) ? strip(SA) : null
 writeFileSync(join(OUT, 'BUILD_ID'), readFileSync(join(NEXT, 'BUILD_ID'), 'utf8').trim())
-console.log(`[blog-static] 상세 ${copied}쪽(4언어) → .blog-static, 라우트 4개·청크 ${main.removed}개(${(main.freed / 1048576).toFixed(2)} MiB) 워커에서 제외` +
+console.log(`[blog-static] 상세 ${copied}쪽(4언어, 리디렉트 원본 ${skippedRedirect}쪽 제외) → .blog-static, 라우트 4개·청크 ${main.removed}개(${(main.freed / 1048576).toFixed(2)} MiB) 워커에서 제외` +
   (sa ? ` · standalone 청크 ${sa.removed}개(${(sa.freed / 1048576).toFixed(2)} MiB)` : ' · standalone 없음'))

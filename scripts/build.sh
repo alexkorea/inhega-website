@@ -4,6 +4,8 @@
 # 서브셋을 다시 굽고 한 번 더 빌드한다. 홈 문구를 고쳤거나 코퍼스(소스) 밖 글자가 HTML 에 생겼을 때만 일어난다.
 set -e
 cd "$(dirname "$0")/.."
+# A-3: 블로그 상세는 프리렌더 HTML 을 그대로 낸다 — 날짜 표기(toLocaleDateString)를 종전 워커 실행 시간대(UTC)와 같게 빌드한다.
+export TZ=UTC
 next build
 set +e
 node scripts/font-gate.mjs --fix
