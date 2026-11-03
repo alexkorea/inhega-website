@@ -4,13 +4,13 @@
   "lawBasisDate": "2026-10-02",
   "title": "Liquor Import License (Alcohol Import Business) in Korea: Requirements & Procedure | YouSun Administrative Agency",
   "h1": "Liquor Import License in Korea",
-  "lead": "To import alcohol in Korea you must obtain a liquor sales-business license (the liquor import/export business) from the head of the district tax office, for each sales premises, after meeting the facility standards and other requirements. An import/export applicant needs a trade business registration number and, for importing alcohol, a warehouse of at least 22 m², and the license fee is KRW 50,000.",
+  "lead": "To import alcohol in Korea you must obtain a liquor sales-business license (the liquor import/export business) from the head of the district tax office, for each sales premises, after meeting the facility standards and other requirements. An import/export applicant needs a trade business registration number and, for importing alcohol, a warehouse of at least 22 m².",
   "summaryLabel": "Summary",
   "summary": [
     "Scope: a business that exports or imports alcohol (liquor import/export business).",
     "Filed with: the head of the tax office with jurisdiction over the sales premises (or over your home/residence if you have no premises).",
     "Key requirements: a trade business registration number; a warehouse of 22 m² or more when importing.",
-    "Statutory fee: KRW 50,000 (liquor retail: KRW 30,000).",
+    "Statutory fee: confirm with the competent authority when applying.",
     "Grounds for refusal include license cancellation within 2 years, tax arrears and undischarged bankruptcy."
   ],
   "sections": [
@@ -37,10 +37,6 @@
     {
       "h2": "Which authority receives the application?",
       "body": "The head of the tax office with jurisdiction over the premises. Without premises, the tax office for your address or residence."
-    },
-    {
-      "h2": "What is the statutory fee?",
-      "body": "The import/export business license fee is KRW 50,000. Liquor retail costs KRW 30,000. The fee is payable by revenue stamp or electronic payment."
     },
     {
       "h2": "Why is an application rejected or supplementation requested?",

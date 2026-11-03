@@ -685,7 +685,7 @@ const blogData: BlogI18n[] = [
 <p>After approval, browse open tenders by category. Submit electronic bids through the portal. Low-value contracts may use a shopping mall format (단가계약). Winning bids require contract execution within the platform.</p>
 <div class="faq-section"><h2>FAQ</h2>
 <div class="faq-item"><p class="faq-q">Q. Can foreign companies without a Korean office register?</p><p class="faq-a">A. A Korean business registration is required. Foreign companies typically need to establish a branch or subsidiary first.</p></div>
-<div class="faq-item"><p class="faq-q">Q. Is there a registration fee?</p><p class="faq-a">A. No government registration fee, but a digital certificate has an annual cost (approx. KRW 100,000).</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is there a registration fee?</p><p class="faq-a">A. No government registration fee, but a digital certificate has an annual cost.</p></div>
 </div>
 <div class="cta-box"><h3>Start Selling to the Korean Government</h3><p>YouSun Administrative Agency handles Narajangteo registration and advises on bid strategy.</p><a href="/en/contact">Request a Consultation</a></div>`,
   },
@@ -712,7 +712,7 @@ const blogData: BlogI18n[] = [
 <p>获批后，按类别浏览公开招标项目。通过平台提交电子标书。小额合同可使用购物商城形式（单价合同）。中标后需在平台内完成合同签订。</p>
 <div class="faq-section"><h2>常见问题</h2>
 <div class="faq-item"><p class="faq-q">Q. 没有韩国办事处的外国企业可以注册吗？</p><p class="faq-a">A. 需要持有韩国营业执照。外国企业通常需要先设立分支机构或子公司。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 注册是否需要缴费？</p><p class="faq-a">A. 无政府注册费，但数字证书每年需支付约10万韩元费用。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 注册是否需要缴费？</p><p class="faq-a">A. 无政府注册费，但数字证书每年需支付一定费用。</p></div>
 </div>
 <div class="cta-box"><h3>开始向韩国政府销售产品</h3><p>YouSun Administrative Agency负责Narajangteo注册及投标策略咨询。初次咨询。</p><a href="/zh/contact">申请咨询</a></div>`,
   },
@@ -739,7 +739,7 @@ const blogData: BlogI18n[] = [
 <p>承認後はカテゴリー別に公開入札を検索できます。ポータルから電子入札書を提出。少額契約はショッピングモール形式（単価契約）を利用できます。落札後はプラットフォーム内で契約を締結します。</p>
 <div class="faq-section"><h2>よくある質問</h2>
 <div class="faq-item"><p class="faq-q">Q. 韓国事務所のない外国企業でも登録できますか？</p><p class="faq-a">A. 韓国の事業者登録が必要です。外国企業は通常、まず支店または子会社を設立する必要があります。</p></div>
-<div class="faq-item"><p class="faq-q">Q. 登録費用はかかりますか？</p><p class="faq-a">A. 政府への登録費用はありませんが、電子証明書に年間約10万ウォンの費用がかかります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 登録費用はかかりますか？</p><p class="faq-a">A. 政府への登録費用はありませんが、電子証明書には年間の費用がかかります。</p></div>
 </div>
 <div class="cta-box"><h3>韓国政府への販売を始めましょう</h3><p>YouSun Administrative Agencyがナラジャンテ登録と入札戦略のアドバイスを行います。</p><a href="/ja/contact">ご相談を申し込む</a></div>`,
   },
@@ -776,12 +776,12 @@ const blogData: BlogI18n[] = [
     slug: 'urban-guesthouse-registration-guide',
     locale: 'zh',
     title: '韩国开宾馆所需资质 — 外国人城市民宿业登记条件·材料·流程',
-    metaTitle: '韩国开宾馆所需资质（2026）— 城市民宿业登记条件·手续费·处理期限',
-    metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料、法定处理期限14天、登记手续费20,000韩元。专业行政士提供初次咨询。',
+    metaTitle: '韩国开宾馆所需资质（2026）— 城市民宿业登记条件·材料·处理期限',
+    metaDescription: '韩国开宾馆所需资质全解：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，以及所需材料与法定处理期限14天。专业行政士提供初次咨询。',
     category: '住宿/旅游',
     excerpt: '韩国外国人城市民宿业登记完整指南，让您合法在住宅物业中接待外国游客（类似Airbnb模式）。',
     content: `<p>韩国开宾馆（城市民宿业）所需资质：住宅类型限制、建筑总面积230㎡以下、外语接待体制与消防要求，登记法定处理期限14天。</p>
-<div class="toc"><p>目录</p><ol><li>什么是城市民宿？</li><li>申请资格</li><li>设施与安全要求</li><li>所需材料</li><li>申请流程</li><li>运营规则</li><li>开宾馆所需资质 — 法定登记条件</li><li>所需材料（施行规则第2条）</li><li>处理期限与手续费（官方标准）</li><li>登记后的法定义务</li><li>2027年2月1日起施行的新规定</li><li>常见问题</li></ol></div>
+<div class="toc"><p>目录</p><ol><li>什么是城市民宿？</li><li>申请资格</li><li>设施与安全要求</li><li>所需材料</li><li>申请流程</li><li>运营规则</li><li>开宾馆所需资质 — 法定登记条件</li><li>所需材料（施行规则第2条）</li><li>处理期限（官方标准）</li><li>登记后的法定义务</li><li>2027年2月1日起施行的新规定</li><li>常见问题</li></ol></div>
 <h2>1. 什么是城市民宿？</h2>
 <p>外国人观光城市民宿业（외국인관광 도시민박업）允许房主在其主要住所接待外国游客，依据<strong>《旅游振兴法》</strong>监管，是类似Airbnb的短租外国游客合法框架。</p>
 <p>中文检索中常见的「在韩国开宾馆」，若是在城市地区的住宅里接待外国游客，对应的法定业种就是本业种；营业性质、可用房屋类型与设施标准都由法令直接限定，并非签下房子就能挂牌营业。本所的<a href="/zh/services/urban-guesthouse">外国人城市民宿业登记代办服务</a>按同一套法定标准逐项核对后再申请。</p>
@@ -819,11 +819,10 @@ const blogData: BlogI18n[] = [
 <li>不动产所有权或使用权的证明文件（仅限通过登记事项证明书无法确认时）</li>
 <li>设施的平面图及配置图</li></ul>
 <p>法人登记事项证明书与不动产登记事项证明书由受理机关通过行政信息共享直接查询，申请人无须另行提交（施行规则第2条第2款）。</p>
-<h2>9. 处理期限与手续费（官方标准）</h2>
-<p>处理期限载于《观光振兴法施行规则》附件第1号格式，手续费载于同施行规则附表23。以下金额均为<strong>政府规费</strong>，不含代办报酬。</p>
-<table><thead><tr><th>区分</th><th>法定处理期限</th><th>手续费（政府规费）</th></tr></thead>
-<tbody><tr><td>新规登记</td><td>14天</td><td>20,000韩元</td></tr>
-<tr><td>变更登记</td><td>—</td><td>15,000韩元</td></tr></tbody></table>
+<h2>9. 处理期限（官方标准）</h2>
+<p>处理期限载于《观光振兴法施行规则》附件第1号格式。</p>
+<table><thead><tr><th>区分</th><th>法定处理期限</th></tr></thead>
+<tbody><tr><td>新规登记</td><td>14天</td></tr></tbody></table>
 <p>14天是外国人观光城市民宿业与韩屋体验业共同适用的法定期限；旅行业·观光住宿业·野营场业为7天，综合休养业为12天，其他观光事业为5天。材料齐备且现场检查一次通过时，实际所需时间可能短于法定期限；反之，若被要求补正，补正所需时间不计入法定期限。</p>
 <h2>10. 登记后的法定义务</h2>
 <ul><li><strong>安全及卫生教育：</strong>自2027年2月1日起，取得登记者须依文化体育观光部令接受安全及卫生教育（法第20条之3）。未接受者处<strong>100万韩元以下罚款</strong>（法第86条第2款第3号）。</li>
@@ -3169,7 +3168,7 @@ const blogData: BlogI18n[] = [
 <tbody>
 <tr><td>1. Registration</td><td>Enter company, factory, and financial data on mainbiz.go.kr</td><td>1–2 days</td></tr>
 <tr><td>2. Online Self-Assessment</td><td>Score 600+ points to qualify for on-site evaluation</td><td>1–3 days</td></tr>
-<tr><td>3. Apply for On-site Evaluation</td><td>Pay fee: KRW 550,000 (new) / KRW 440,000 (renewal), VAT included</td><td>Upon application</td></tr>
+<tr><td>3. Apply for On-site Evaluation</td><td>Pay the evaluation fee</td><td>Upon application</td></tr>
 <tr><td>4. On-site Evaluation</td><td>Evaluator visits company; 700+ points required; completed within 3 weeks</td><td>Up to 3 weeks</td></tr>
 <tr><td>5. Regional Office Approval</td><td>Ministry regional SME office reviews and approves; KakaoTalk/SMS notification</td><td>1–2 weeks</td></tr>
 <tr><td>6. Certificate Issuance</td><td>Online issuance; valid 3 years</td><td>Immediately</td></tr>
@@ -3281,7 +3280,7 @@ const blogData: BlogI18n[] = [
 <tbody>
 <tr><td>1. 企业注册</td><td>在mainbiz.go.kr系统录入企业、工厂及财务信息</td><td>1～2天</td></tr>
 <tr><td>2. 网络自我诊断</td><td>获得600分以上，取得现场评估申请资格</td><td>1～3天</td></tr>
-<tr><td>3. 申请现场评估</td><td>缴纳费用：新申请55万韩元 / 续期44万韩元（含增值税）</td><td>受理后分配</td></tr>
+<tr><td>3. 申请现场评估</td><td>缴纳评估费用</td><td>受理后分配</td></tr>
 <tr><td>4. 现场评估</td><td>评估委员到访企业，须达700分以上，3周内完成</td><td>最多3周</td></tr>
 <tr><td>5. 地方厅审批</td><td>中小风险企业部地方厅审核批准，Kakao/短信通知</td><td>1～2周</td></tr>
 <tr><td>6. 认证书发放</td><td>网络颁发，有效期3年</td><td>即时</td></tr>
@@ -3394,7 +3393,7 @@ const blogData: BlogI18n[] = [
 <tbody>
 <tr><td>1. 企業登録</td><td>mainbiz.go.kr に企業・工場・財務情報を入力</td><td>1〜2日</td></tr>
 <tr><td>2. オンライン自己診断</td><td>600点以上を取得し、現地評価申請資格を獲得</td><td>1〜3日</td></tr>
-<tr><td>3. 現地評価申請</td><td>手数料納付：新規55万ウォン / 更新44万ウォン（消費税込）</td><td>受付後に配定</td></tr>
+<tr><td>3. 現地評価申請</td><td>手数料納付</td><td>受付後に配定</td></tr>
 <tr><td>4. 現地評価実施</td><td>評価委員が企業訪問、700点以上が必要、3週間以内に完了</td><td>最大3週間</td></tr>
 <tr><td>5. 地方庁承認</td><td>中小ベンチャー企業部地方庁が審査・承認、Kakao/SMSで通知</td><td>1〜2週間</td></tr>
 <tr><td>6. 認証書発行</td><td>オンライン発行、有効期間3年</td><td>即日</td></tr>
@@ -3481,7 +3480,7 @@ const blogData: BlogI18n[] = [
 <table><thead><tr><th>Benefit area</th><th>Inno-Biz</th><th>Main-Biz</th></tr></thead><tbody><tr><td>R&amp;D support</td><td>SME R&amp;D project preference, R&amp;D tax credit linkage</td><td>Partial preference for management innovation R&amp;D</td></tr><tr><td>Interest rate discount</td><td>IBK, Shinhan, etc. (~0.3–0.5%p)</td><td>IBK, etc. (~0.2–0.5%p)</td></tr><tr><td>Tax audit deferral</td><td>3-year deferral (conditions apply)</td><td>3-year deferral (conditions apply)</td></tr><tr><td>Public procurement advantage</td><td>Up to 3 bonus points in tech-price split bidding</td><td>Partial bonus points in PPS procurement</td></tr><tr><td>Patent linkage</td><td>Priority patent examination, technology transfer priority</td><td>None</td></tr><tr><td>Policy funds</td><td>KOSME, KODIT preference</td><td>KOSME, KODIT preference</td></tr></tbody></table>
 
 <h2>4. Difficulty and Cost Comparison</h2>
-<table><thead><tr><th>Item</th><th>Inno-Biz</th><th>Main-Biz</th></tr></thead><tbody><tr><td>Self-assessment threshold</td><td>600+ to apply for on-site evaluation</td><td>600+ to apply for on-site evaluation</td></tr><tr><td>Evaluation fee</td><td>Small biz KRW 110,000 / Medium KRW 220,000</td><td>Small biz KRW 110,000 / Medium KRW 220,000</td></tr><tr><td>Documentation</td><td>Tech development records (notebooks, patents, certs)</td><td>Management innovation records (plans, case studies)</td></tr><tr><td>Preparation time</td><td>4–8 weeks (document gathering)</td><td>2–6 weeks (innovation activity documentation)</td></tr><tr><td>Without R&amp;D record</td><td>Difficult (tech innovation proof is essential)</td><td>Possible (management innovation cases sufficient)</td></tr></tbody></table>
+<table><thead><tr><th>Item</th><th>Inno-Biz</th><th>Main-Biz</th></tr></thead><tbody><tr><td>Self-assessment threshold</td><td>600+ to apply for on-site evaluation</td><td>600+ to apply for on-site evaluation</td></tr><tr><td>Documentation</td><td>Tech development records (notebooks, patents, certs)</td><td>Management innovation records (plans, case studies)</td></tr><tr><td>Preparation time</td><td>4–8 weeks (document gathering)</td><td>2–6 weeks (innovation activity documentation)</td></tr><tr><td>Without R&amp;D record</td><td>Difficult (tech innovation proof is essential)</td><td>Possible (management innovation cases sufficient)</td></tr></tbody></table>
 
 <h2>5. Which Certification Suits Your Business?</h2>
 <table><thead><tr><th>Company type</th><th>Recommended</th><th>Reason</th></tr></thead><tbody><tr><td>Manufacturing / tech (patents, R&amp;D records)</td><td>Inno-Biz first</td><td>Existing tech proof translates to high scores</td></tr><tr><td>Service / distribution (no R&amp;D)</td><td>Main-Biz first</td><td>Management innovation focus; no R&amp;D required</td></tr><tr><td>Startup under 3 years old</td><td>Inno-Biz</td><td>Main-Biz 3-year requirement unavailable; Inno-Biz only option</td></tr><tr><td>Planning public procurement</td><td>Both</td><td>Procurement bonus points apply to both; dual certification maximizes advantage</td></tr><tr><td>Applying for R&amp;D grants</td><td>Inno-Biz</td><td>Stronger preference for tech development grant applications</td></tr></tbody></table>
@@ -3531,7 +3530,7 @@ const blogData: BlogI18n[] = [
 <table><thead><tr><th>优惠领域</th><th>Inno-Biz</th><th>Main-Biz</th></tr></thead><tbody><tr><td>研发支持</td><td>中小企业R&amp;D课题加分，研究所税收抵免联动</td><td>部分经营创新R&amp;D加分</td></tr><tr><td>利率优惠</td><td>企业银行·新韩等约0.3~0.5%p</td><td>企业银行等约0.2~0.5%p</td></tr><tr><td>税务调查缓期</td><td>满足条件可缓期3年</td><td>满足条件可缓期3年</td></tr><tr><td>政府采购加分</td><td>技术·价格分离招标最高3分</td><td>调达厅物品·服务招标部分加分</td></tr><tr><td>专利联动</td><td>专利优先审查、技术转让优先支持</td><td>无</td></tr><tr><td>政策资金</td><td>中振公·技保等优待</td><td>中振公·技保等优待</td></tr></tbody></table>
 
 <h2>4. 申请难度与费用对比</h2>
-<table><thead><tr><th>项目</th><th>Inno-Biz</th><th>Main-Biz</th></tr></thead><tbody><tr><td>自我诊断门槛</td><td>600分以上可申请现场评估</td><td>600分以上可申请现场评估</td></tr><tr><td>现场评估费</td><td>小型企业11万韩元/中型企业22万韩元</td><td>小型企业11万韩元/中型企业22万韩元</td></tr><tr><td>准备资料</td><td>技术开发证明（研究笔记、专利、认证书等）</td><td>经营创新活动证明（经营计划书、创新案例等）</td></tr><tr><td>准备周期</td><td>通常4~8周</td><td>通常2~6周</td></tr><tr><td>无研发记录时</td><td>较困难（技术创新证明是核心）</td><td>可行（有经营创新案例即可）</td></tr></tbody></table>
+<table><thead><tr><th>项目</th><th>Inno-Biz</th><th>Main-Biz</th></tr></thead><tbody><tr><td>自我诊断门槛</td><td>600分以上可申请现场评估</td><td>600分以上可申请现场评估</td></tr><tr><td>准备资料</td><td>技术开发证明（研究笔记、专利、认证书等）</td><td>经营创新活动证明（经营计划书、创新案例等）</td></tr><tr><td>准备周期</td><td>通常4~8周</td><td>通常2~6周</td></tr><tr><td>无研发记录时</td><td>较困难（技术创新证明是核心）</td><td>可行（有经营创新案例即可）</td></tr></tbody></table>
 
 <h2>5. 哪种认证更适合您的企业？</h2>
 <table><thead><tr><th>企业类型</th><th>推荐认证</th><th>理由</th></tr></thead><tbody><tr><td>制造/技术企业（有专利、研发记录）</td><td>优先Inno-Biz</td><td>技术创新证明已备，得分优势明显</td></tr><tr><td>服务/流通企业（无研发）</td><td>优先Main-Biz</td><td>以经营创新活动为主，不要求研发记录</td></tr><tr><td>成立不足3年的初创企业</td><td>Inno-Biz</td><td>Main-Biz需满3年，Inno-Biz是唯一选项</td></tr><tr><td>计划参与政府采购的企业</td><td>两项均申</td><td>两项认证均可获采购加分，双证效益最大</td></tr><tr><td>计划申请研发补贴</td><td>Inno-Biz</td><td>技术开发课题加分及优先支持力度更强</td></tr></tbody></table>
@@ -3581,7 +3580,7 @@ const blogData: BlogI18n[] = [
 <table><thead><tr><th>メリット分野</th><th>イノビズ</th><th>メインビズ</th></tr></thead><tbody><tr><td>R&amp;D支援</td><td>中小企業R&amp;D課題加点、研究所税額控除連携</td><td>一部経営革新R&amp;Dに加点</td></tr><tr><td>金利優遇</td><td>IBK・新韓等（約0.3〜0.5%p）</td><td>IBK等（約0.2〜0.5%p）</td></tr><tr><td>税務調査猶予</td><td>要件充足時3年猶予</td><td>要件充足時3年猶予</td></tr><tr><td>公共入札加点</td><td>技術・価格分離入札で最大3点</td><td>調達庁物品・サービス入札で一部加点</td></tr><tr><td>特許連携</td><td>特許優先審査・技術移転優先支援</td><td>なし</td></tr><tr><td>政策資金</td><td>中振公・技保等優遇</td><td>中振公・技保等優遇</td></tr></tbody></table>
 
 <h2>4. 申請難易度と費用の比較</h2>
-<table><thead><tr><th>項目</th><th>イノビズ</th><th>メインビズ</th></tr></thead><tbody><tr><td>自己診断基準</td><td>600点以上で現場評価申請可</td><td>600点以上で現場評価申請可</td></tr><tr><td>現場評価手数料</td><td>小企業11万ウォン/中企業22万ウォン</td><td>小企業11万ウォン/中企業22万ウォン</td></tr><tr><td>準備書類</td><td>技術開発証拠（研究ノート・特許・認証書等）</td><td>経営革新活動証拠（経営計画書・革新事例等）</td></tr><tr><td>準備期間</td><td>通常4〜8週間</td><td>通常2〜6週間</td></tr><tr><td>R&amp;D実績なしの場合</td><td>難しい（技術革新証明が核心）</td><td>可能（経営革新事例のみで申請可）</td></tr></tbody></table>
+<table><thead><tr><th>項目</th><th>イノビズ</th><th>メインビズ</th></tr></thead><tbody><tr><td>自己診断基準</td><td>600点以上で現場評価申請可</td><td>600点以上で現場評価申請可</td></tr><tr><td>準備書類</td><td>技術開発証拠（研究ノート・特許・認証書等）</td><td>経営革新活動証拠（経営計画書・革新事例等）</td></tr><tr><td>準備期間</td><td>通常4〜8週間</td><td>通常2〜6週間</td></tr><tr><td>R&amp;D実績なしの場合</td><td>難しい（技術革新証明が核心）</td><td>可能（経営革新事例のみで申請可）</td></tr></tbody></table>
 
 <h2>5. どちらの認証が自社に有利か？</h2>
 <table><thead><tr><th>企業タイプ</th><th>推奨認証</th><th>理由</th></tr></thead><tbody><tr><td>製造・技術企業（特許・R&amp;D実績あり）</td><td>イノビズ優先</td><td>技術革新証明が揃っており高得点が狙える</td></tr><tr><td>サービス・流通企業（R&amp;D実績なし）</td><td>メインビズ優先</td><td>経営革新活動中心の評価、R&amp;D不要</td></tr><tr><td>業歴1〜2年のスタートアップ</td><td>イノビズ</td><td>メインビズの業歴3年要件を満たさない場合、唯一の選択肢</td></tr><tr><td>公共調達への参入を計画する企業</td><td>両認証とも</td><td>入札加点は両認証に適用、ダブル認証で効果最大化</td></tr><tr><td>R&amp;D補助金申請予定</td><td>イノビズ</td><td>技術開発課題加点・優先支援のメリットが大きい</td></tr></tbody></table>
@@ -5551,7 +5550,7 @@ const blogData: BlogI18n[] = [
 </tbody></table>
 <div class="highlight-box">Main-Biz Operation Regulation, Article 15(4): Companies eligible for extension are those that scored 700 points or more in the assessment under paragraph (3), and the head of the regional office shall issue a renewed certificate within 7 days from the date the assessment institution registers the result.</div>
 <p>The Korea Credit Guarantee Fund, Korea Technology Finance Corporation or Korea Productivity Center assesses, and may entrust this to the management body (Articles 2 and 15(8)). Results must be registered within 21 days of the application, but time lost through unpaid assessment cost or a postponement requested by the company may be excluded, up to 90 days (Articles 15(3) and 10(2)). Companies below 700 points are notified that the term cannot be extended (Article 15(6)).</p>
-<p>Under Act Article 15(4), applied by Article 15-3(3), applicants bear assessment costs set by notice: KRW 400,000 excluding VAT for the extension assessment (Notice Article 18(1)2, as of 3 October 2026), paid to the institution and subject to change.</p>
+<p>Under Act Article 15(4), applied by Article 15-3(3), applicants bear assessment costs set by notice (Notice Article 18(1)2), paid to the institution and subject to change.</p>
 
 <h2>How the New Term Is Counted</h2>
 <p>The new 3-year term starts as follows (Article 15(5)):</p>
@@ -5639,7 +5638,7 @@ const blogData: BlogI18n[] = [
 </tbody></table>
 <div class="highlight-box">《Main-Biz制度运营规定》第15条第4款：可延长选定的企业为依第3款评价取得700分以上的企业；地方中小风险企业厅长须自评价机构登记结果之日起7日内续期签发确认书。</div>
 <p>评价由信用保证基金、技术保证基金或韩国生产性本部实施，也可委托管理机构（第2条、第15条第8款）。结果须在申请日起21日内登记；因未缴评价费用或企业要求推迟而产生的期间可不计入，最长90日（第15条第3款、第10条第2款）。未达700分的会收到不能延长的通知（第15条第6款）。</p>
-<p>依第15条之3第3款准用的该法第15条第4款，申请企业负担告示规定的评价费用：延长评价为40万韩元（另加增值税）（告示第18条第1款第2项，以2026年10月3日现行告示为准），缴给评价机构，可能随告示修订而变化。</p>
+<p>依第15条之3第3款准用的该法第15条第4款，申请企业负担告示规定的评价费用（告示第18条第1款第2项），缴给评价机构，可能随告示修订而变化。</p>
 
 <h2>续期确认书的新有效期计算</h2>
 <p>新的3年按下列方式起算（第15条第5款）：</p>
@@ -5725,7 +5724,7 @@ const blogData: BlogI18n[] = [
 </tbody></table>
 <div class="highlight-box">「Main-Biz制度運営規定」第15条第4項：メインビズ選定を延長することができる対象企業は、第3項による評価結果700点以上の点数を獲得した企業とし、地方中小ベンチャー企業庁長は、評価機関が評価結果を登録した日から7日以内に確認書を更新発給しなければならない。</div>
 <p>評価は信用保証基金、技術保証基金、韓国生産性本部のいずれかが行い、管理機関に委託することもできます（第2条、第15条第8項）。評価結果は申請日から21日以内に登録されますが、評価費用の未納や企業の延期要請で生じた期間は最大90日まで処理期間から除くことができます（第15条第3項、第10条第2項）。700点未満の場合は延長できない旨が通知されます（第15条第6項）。</p>
-<p>第15条の3第3項が準用する同法第15条第4項により、企業は告示で定める評価費用を負担します。延長のための診断評価は40万ウォン（付加価値税別）です（告示第18条第1項第2号、2026年10月3日時点の現行告示基準）。評価機関に納める法定の評価費用で、告示改正により変わることがあります。</p>
+<p>第15条の3第3項が準用する同法第15条第4項により、企業は告示で定める評価費用を負担します（告示第18条第1項第2号）。評価機関に納める法定の評価費用で、告示改正により変わることがあります。</p>
 
 <h2>更新確認書の新しい有効期間の計算</h2>
 <p>延長後の3年は次のように起算されます（第15条第5項）。</p>

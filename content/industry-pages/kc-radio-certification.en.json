@@ -2,7 +2,7 @@
   "slug": "kc-radio-certification",
   "lang": "en",
   "lawBasisDate": "2026-10-02",
-  "title": "KC Certification & Radio Equipment Certification in Korea: Requirements, Documents, Fees | YouSun Administrative Agency",
+  "title": "KC Certification & Radio Equipment Certification in Korea: Requirements, Documents, Process | YouSun Administrative Agency",
   "h1": "KC Certification and Radio Equipment (EMC/Radio) Certification in Korea",
   "lead": "Manufacturers and importers of electrical and household products in Korea must go through safety certification, safety confirmation filing or supplier's conformity confirmation, depending on the product category, and broadcasting/communications equipment must undergo conformity assessment under the Radio Waves Act — certification, registration, self-conformity confirmation or provisional certification. The processing period for a safety certification application is within 45 days of receipt.",
   "summaryLabel": "Summary",
@@ -10,7 +10,7 @@
     "KC safety: safety certification (product test + factory audit), safety confirmation (test by a testing body, then filing), supplier's conformity confirmation (self-confirmation, then filing).",
     "Radio: one of conformity certification, registration, self-conformity confirmation or provisional certification.",
     "Timing: safety certification and safety confirmation filing are made per model before shipment or customs clearance.",
-    "Statutory fee examples: safety certificate issuance KRW 50,000; conformity certification KRW 165,000 / registration KRW 55,000.",
+    "Statutory fee: confirm with the competent authority when applying.",
     "Making/importing/selling without certification: up to 3 years' imprisonment or a fine of up to KRW 30 million."
   ],
   "sections": [
@@ -37,10 +37,6 @@
     {
       "h2": "Which authority receives the application?",
       "body": "Safety certification goes to the safety certification body, and the safety confirmation filing form is also submitted to the certification body under the Rule; radio certification is applied for to the Minister of Science and ICT. Tests are carried out by safety confirmation testing bodies or designated testing bodies."
-    },
-    {
-      "h2": "What are the statutory fees?",
-      "body": "Safety certificate issuance is KRW 50,000, factory audit is based on KRW 200,000 per factory, a safety confirmation certificate is KRW 50,000, supplier's conformity filing is KRW 10,000 per model, and a revised issuance is KRW 10,000 per case. The product test fee is an amount calculated by the body from base fee, labor, materials, etc. Small businesses and SMEs may be given reductions.\n\nRadio conformity assessment application fees are KRW 165,000 for certification, KRW 55,000 for registration and KRW 165,000 for provisional certification; changes unrelated to the assessment standards cost KRW 5,000 (certification) or KRW 2,000 (registration)."
     },
     {
       "h2": "Why is an application rejected or supplementation requested?",
