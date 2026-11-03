@@ -1,0 +1,341 @@
+{
+  "slug": "solar-power-business-permit",
+  "lang": "en",
+  "label": "Solar Power Generation Business Permit",
+  "kw": "Solar power generation business permit agent in Korea",
+  "answer": "A solar power generation business permit (태양광 발전사업 허가) is an electricity business permit under the Electricity Business Act (전기사업법), obtained from the Mayor or Do Governor (시·도지사) if the generating capacity is 3,000 kW or less, or from the Minister of Climate, Energy and Environment (기후에너지환경부장관) if it is larger. Before applying, residents' opinions are gathered through a daily newspaper notice and public inspection, and then the permit application and business plan are filed. The processing period on the application form is 60 days. YouSun Administrative Agency prepares the electricity business permit application and business plan and files them with the permitting authority.",
+  "services": [
+    {
+      "name": "Preparing and filing the electricity business permit application (전기사업 허가신청)",
+      "href": "#term-sp-permit"
+    },
+    {
+      "name": "Drafting the business plan with the related documents required by the prescribed format (사업계획서)",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Identifying the permitting authority by generating capacity: Mayor or Do Governor, or the Minister of Climate, Energy and Environment (허가권자)",
+      "href": "#term-sp-authority"
+    },
+    {
+      "name": "Pre-checking the permit criteria such as financial and technical capacity (허가기준)",
+      "href": "#term-sp-criteria"
+    },
+    {
+      "name": "Guidance on the residents' opinion-gathering notice schedule and organizing the results (주민 의견수렴)",
+      "href": "#term-sp-opinion"
+    },
+    {
+      "name": "Preparing attachments such as the corporation's articles of incorporation, balance sheet, income statement and shareholder register",
+      "href": "#sit-sp-corp-docs"
+    },
+    {
+      "name": "Preparing documents for permits to be deemed granted (인·허가 의제)",
+      "href": "#term-sp-deemed"
+    },
+    {
+      "name": "Responding to supplementation requests from the permitting authority",
+      "href": "#sit-sp-period"
+    },
+    {
+      "name": "Applying for a change permit when material matters change (변경허가)",
+      "href": "#sit-sp-change"
+    },
+    {
+      "name": "Managing the preparation period and filing the business commencement report (사업 시작 신고)",
+      "href": "#term-sp-start-report"
+    }
+  ],
+  "clients": [
+    "Individuals who want to build a solar power plant on land or buildings they own",
+    "Corporations that want to run a generation business on factory or warehouse rooftops",
+    "Investors setting up a new generation company and preparing the permit",
+    "Generation businesses that have the permit but still need a change permit or commencement report"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Individuals and corporations that want to run a power generation business (one type of electricity business) producing electricity with solar or other generating facilities"
+    },
+    {
+      "label": "Requirements",
+      "value": "Financial and technical capacity; the ability to carry out the business as planned; no disruption to power grid operation from power plants or fuel being concentrated in a particular region; a residents' opinion-gathering procedure through advance notice"
+    },
+    {
+      "label": "Process",
+      "value": "Daily newspaper notice and public inspection (residents' opinion gathering) → file the permit application and documents → review by the permitting authority (deliberation by the Electricity Regulatory Commission (전기위원회) for more than 3,000 kW) → permit and preparation period set → install facilities and start business within the preparation period → business commencement report"
+    },
+    {
+      "label": "Documents",
+      "value": "Electricity business permit application, business plan; for corporations, articles of incorporation, balance sheet and income statement (articles only for a corporation being formed); shareholder register (not required for applicants of 3,000 kW or less); results of residents' opinion gathering; documents for permits to be deemed granted"
+    },
+    {
+      "label": "Timeline",
+      "value": "60 days on the application form; the residents' opinion-gathering notice must be published at least 14 days before the application date (projects subject to environmental impact assessment) or at least 7 days before (projects subject to small-scale environmental impact assessment and the like); time for opinion gathering and deemed permit consultations is separate"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Building a small plant of 3,000 kW or less",
+      "target": "sit-sp-small-capacity"
+    },
+    {
+      "label": "Installing solar on a factory or building rooftop",
+      "target": "sit-sp-rooftop"
+    },
+    {
+      "label": "Using farmland or forest land as the site",
+      "target": "sit-sp-land"
+    },
+    {
+      "label": "Permit obtained, completion and commencement coming up",
+      "target": "sit-sp-start-report"
+    },
+    {
+      "label": "Business details changing after the permit",
+      "target": "sit-sp-change"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-sp-small-capacity",
+      "q": "Which authority do I apply to for a permit to build a small solar power plant of 3,000 kW or less in Korea?",
+      "conclusion": "If the generating capacity is 3,000 kW or less, file the permit application with the Mayor of the Special City, Metropolitan City or Special Self-Governing City, or the Do Governor or Special Self-Governing Province Governor. Above 3,000 kW, the Minister of Climate, Energy and Environment is the permitting authority.",
+      "branches": [
+        {
+          "when": "Generating capacity is 3,000 kW or less",
+          "then": "Apply to the competent Mayor or Do Governor; the duty to submit a shareholder register does not apply."
+        },
+        {
+          "when": "Generating capacity exceeds 3,000 kW",
+          "then": "Apply to the Minister of Climate, Energy and Environment with the shareholder register attached; the review includes deliberation by the Electricity Regulatory Commission."
+        }
+      ],
+      "docs": "Electricity business permit application, business plan, results of residents' opinion gathering; for corporations, articles of incorporation, balance sheet and income statement; shareholder register if over 3,000 kW",
+      "period": "60 days on the application form; in practice, time for residents' opinion gathering and supplementation is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sp-rooftop",
+      "q": "Do I need a power generation business permit in Korea to install solar panels on a factory roof and sell the electricity?",
+      "conclusion": "Even if the facilities are on a roof, running an electricity business as a generation business requires a permit under the Electricity Business Act. The permitting authority is decided by the 3,000 kW generating capacity threshold, not by whether it is on a roof.",
+      "branches": [
+        {
+          "when": "The rooftop capacity is 3,000 kW or less",
+          "then": "File the permit application and business plan with the competent Mayor or Do Governor after publishing the residents' opinion-gathering notice and public inspection."
+        },
+        {
+          "when": "Other building-related permits are also needed",
+          "then": "If there are permits to be deemed granted, attach the related documents to the permit application."
+        }
+      ],
+      "docs": "Electricity business permit application, business plan, results of residents' opinion gathering, documents for permits to be deemed granted; for corporations, articles of incorporation, balance sheet and income statement",
+      "period": "60 days on the application form; in practice, consultations on other permits take separate time"
+    },
+    {
+      "id": "sit-sp-opinion",
+      "q": "Do I need residents' consent forms before applying for a solar power plant permit in Korea?",
+      "conclusion": "What the permit criteria require is a residents' opinion-gathering procedure through advance notice. You must publish in a daily newspaper mainly circulated in the plant's location the project name, location and area, its main details, the applicant, and the period and method for submitting opinions, and make the materials available for residents to inspect.",
+      "branches": [
+        {
+          "when": "The project is subject to environmental impact assessment",
+          "then": "Complete the notice at least 14 days before the permit application date."
+        },
+        {
+          "when": "The project is subject to small-scale environmental impact assessment or similar",
+          "then": "Complete the notice at least 7 days before the permit application date."
+        },
+        {
+          "when": "The opinion-gathering procedure was skipped",
+          "then": "The permit criteria are not met and the application can be returned, so start again from the notice and public inspection."
+        }
+      ],
+      "docs": "Daily newspaper notice, materials for residents' inspection, results of residents' opinion gathering",
+      "period": "Notice at least 14 or 7 days before the application date; in practice, time to prepare the notice is added"
+    },
+    {
+      "id": "sit-sp-corp-docs",
+      "q": "What additional documents are needed when applying for a solar power generation business permit in Korea as a corporation?",
+      "conclusion": "In addition to the permit application and business plan, a corporation attaches its articles of incorporation, balance sheet and income statement; a corporation being formed submits only its articles of incorporation. The corporate registry certificate is checked by the official in charge through administrative information sharing.",
+      "branches": [
+        {
+          "when": "An already established corporation",
+          "then": "Attach the articles of incorporation, balance sheet and income statement."
+        },
+        {
+          "when": "The corporation is still being formed at the time of application",
+          "then": "Attach only the articles of incorporation."
+        },
+        {
+          "when": "Generating capacity exceeds 3,000 kW",
+          "then": "Also submit the applicant's shareholder register."
+        }
+      ],
+      "docs": "Electricity business permit application, business plan, articles of incorporation, balance sheet, income statement, shareholder register (over 3,000 kW), results of residents' opinion gathering",
+      "period": "60 days on the application form"
+    },
+    {
+      "id": "sit-sp-individual",
+      "q": "Can a sole proprietor apply for a solar power generation business permit in Korea?",
+      "conclusion": "The permit applies to anyone who wants to run an electricity business, so an individual can apply. Leave out the articles of incorporation and financial statements that apply only to corporations, and prepare the permit application, business plan and results of residents' opinion gathering.",
+      "branches": [
+        {
+          "when": "Running a plant of 3,000 kW or less in your own name",
+          "then": "Apply to the competent Mayor or Do Governor and show financial and technical capacity and the feasibility of the business in the business plan."
+        },
+        {
+          "when": "You plan to move the business to a corporation later",
+          "then": "The permit holder and the business entity would differ, so first consider whether applying in a corporation's name from the start is the better fit."
+        }
+      ],
+      "docs": "Electricity business permit application, business plan, results of residents' opinion gathering, documents for permits to be deemed granted",
+      "period": "60 days on the application form"
+    },
+    {
+      "id": "sit-sp-period",
+      "q": "How long does it take to get a solar power generation business permit in Korea, from the public notice to the permit?",
+      "conclusion": "After the permit application is filed, the processing period on the form is 60 days. Before that comes the residents' opinion-gathering notice period, and deliberation by the Electricity Regulatory Commission for projects over 3,000 kW and consultations on deemed permits add separate time.",
+      "branches": [
+        {
+          "when": "3,000 kW or less with no document supplementation",
+          "then": "It proceeds as notice (7 or 14 days before the application date) → application → processing within 60 days on the form."
+        },
+        {
+          "when": "The permitting authority requests supplementary business plan or financial and technical capacity materials",
+          "then": "The schedule extends while supplementary materials are submitted, so have the supporting materials for the business plan ready before applying."
+        }
+      ],
+      "docs": "Electricity business permit application, business plan, results of residents' opinion gathering, corporate attachments",
+      "period": "60 days on the application form; in practice, time for opinion gathering, deliberation and deemed permits is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sp-cost",
+      "q": "I am looking into the cost of a solar power generation business permit in Korea. What should I prepare before applying?",
+      "conclusion": "Ask the permitting authority separately about the application fee; the schedule and scope of preparation depend on the generating capacity, the site and whether you are a corporation. Once you sort out the permitting authority by capacity, whether the opinion-gathering requirements apply, and which permits are to be deemed granted, the required documents are settled.",
+      "branches": [
+        {
+          "when": "The site and capacity are decided",
+          "then": "Identify the permitting authority, schedule the residents' opinion-gathering notice, and then draft the business plan."
+        },
+        {
+          "when": "The site needs a development activity permit, farmland conversion or similar",
+          "then": "These are procedures under separate laws that widen the scope of preparation; prepare the documents for permits to be deemed granted as well."
+        }
+      ],
+      "docs": "Business plan, site records, results of residents' opinion gathering; for corporations, articles of incorporation, balance sheet and income statement",
+      "period": "60 days on the application form; in practice, site-related permits take separate time"
+    },
+    {
+      "id": "sit-sp-land",
+      "q": "To build a solar power plant on farmland or forest land in Korea, is the power generation business permit all I need?",
+      "conclusion": "No. Apart from the electricity business permit, procedures under other laws, such as a development activity permit or farmland conversion for the site, may be required. If there are permits to be deemed granted, attach the related documents to the permit application.",
+      "branches": [
+        {
+          "when": "Using farmland as the site",
+          "then": "First ask the competent authority whether farmland procedures such as farmland conversion are needed and build them into the schedule."
+        },
+        {
+          "when": "Land that needs development, such as forest land",
+          "then": "Check site-related permits such as a development activity permit in advance, and submit the documents together if they are subject to deemed approval."
+        }
+      ],
+      "docs": "Electricity business permit application, business plan, results of residents' opinion gathering, documents for permits to be deemed granted",
+      "period": "60 days on the application form; in practice, the time for site permits is added"
+    },
+    {
+      "id": "sit-sp-start-report",
+      "q": "After completing a solar power plant in Korea, by when must I file the business commencement report?",
+      "conclusion": "You must install the electrical facilities and start business within the preparation period set by the permitting authority, and report to the permitting authority without delay once business starts. A generation business must report within 30 days of its first power trade.",
+      "branches": [
+        {
+          "when": "Facility installation was completed within the preparation period",
+          "then": "File the business commencement report within 30 days of the first power trade date."
+        },
+        {
+          "when": "Construction is delayed and you are worried about the preparation period",
+          "then": "The preparation period cannot exceed the period announced by the Minister within a 10-year range, so first check the period that was set."
+        }
+      ],
+      "docs": "Business commencement report and the attachments required by the permitting authority",
+      "period": "Within 30 days of the first power trade date"
+    },
+    {
+      "id": "sit-sp-change",
+      "q": "If the details of my business change after I get a power generation business permit in Korea, do I need a new permit?",
+      "conclusion": "Changing material matters among the permitted details requires a change permit. Running an electricity business without a permit or change permit is punishable by imprisonment of up to 3 years or a fine of up to KRW 30 million.",
+      "branches": [
+        {
+          "when": "The change concerns a material matter",
+          "then": "Apply to the permitting authority for a change permit before making the change."
+        },
+        {
+          "when": "It is hard to tell whether it is a material matter",
+          "then": "Summarize the change and ask the permitting authority first; if a change permit is required, prepare the documents."
+        }
+      ],
+      "docs": "Change permit application and materials showing the change (such as the revised business plan)",
+      "period": "In practice, it depends on the competent authority's review and whether supplementation is needed"
+    },
+    {
+      "id": "sit-sp-agent",
+      "q": "If I hire an administrative agent for a solar power generation business permit in Korea, what do they handle?",
+      "conclusion": "Acting on your authorization, YouSun Administrative Agency drafts documents such as the electricity business permit application and business plan, files them with the permitting authority and handles supplementation. We do not handle design, construction or grid connection work, electrical safety inspections or tax matters, and whether the permit is granted is decided by the permitting authority.",
+      "branches": [
+        {
+          "when": "The site and capacity are decided but the paperwork is daunting",
+          "then": "We identify the permitting authority, guide you on the residents' opinion-gathering schedule, and draft and file the permit application and business plan."
+        },
+        {
+          "when": "Design, construction or inspection is needed",
+          "then": "These are handled separately by companies and agencies in those fields; we only take the materials needed for the permit documents and reflect them."
+        }
+      ],
+      "docs": "Site records, generating capacity and business overview; for corporations, articles of incorporation and financial statements; letter of authorization",
+      "period": "60 days on the application form; in practice, time for opinion gathering and supplementation is added",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-sp-permit",
+      "term": "Electricity business permit (전기사업 허가)",
+      "def": "A permit obtained from the permitting authority by type or scale of electricity business by anyone who wants to run an electricity business; generation businesses can be permitted for each power plant."
+    },
+    {
+      "id": "term-sp-authority",
+      "term": "Permitting authority (허가권자)",
+      "def": "The authority that grants the electricity business permit: the Mayor or Do Governor for generating capacity of 3,000 kW or less, and the Minister of Climate, Energy and Environment above that."
+    },
+    {
+      "id": "term-sp-criteria",
+      "term": "Permit criteria (허가기준)",
+      "def": "The criteria reviewed for a permit, including financial and technical capacity, the ability to carry out the business as planned, whether power plants or fuel are concentrated in a region, and completion of the residents' opinion-gathering procedure for solar and similar projects."
+    },
+    {
+      "id": "term-sp-opinion",
+      "term": "Residents' opinion gathering (주민 의견수렴)",
+      "def": "An advance notice procedure in which the project name, location, area and the period and method for submitting opinions are published in a daily newspaper in the plant's location and made available for residents to inspect."
+    },
+    {
+      "id": "term-sp-preparation",
+      "term": "Preparation period (준비기간)",
+      "def": "The period set by the permitting authority with the permit for installing electrical facilities and starting business; it cannot exceed the period announced by the Minister within a 10-year range."
+    },
+    {
+      "id": "term-sp-start-report",
+      "term": "Business commencement report (사업 시작 신고)",
+      "def": "A report filed with the permitting authority without delay after starting an electricity business; a generation business must file it within 30 days of its first power trade."
+    },
+    {
+      "id": "term-sp-deemed",
+      "term": "Deemed permits (인·허가 의제)",
+      "def": "A system under which submitting the related documents with the electricity business permit application treats permits under other laws as having been granted."
+    },
+    {
+      "id": "term-sp-committee",
+      "term": "Electricity Regulatory Commission deliberation (전기위원회 심의)",
+      "def": "The deliberation procedure used when reviewing a permit for a generation business with generating capacity above 3,000 kW."
+    }
+  ]
+}

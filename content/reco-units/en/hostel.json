@@ -1,0 +1,176 @@
+{
+  "slug": "hostel",
+  "lang": "en",
+  "label": "Hostel business registration",
+  "kw": "Hostel business registration agent in Korea",
+  "answer": "Hostel business registration (호스텔업 등록) is a tourist accommodation business registration filed with the head of the si/gun/gu under the Tourism Promotion Act (관광진흥법) by anyone who wants to operate with rooms and amenities suited to independent travellers such as backpackers, plus cultural and information exchange facilities; business plan approval must be obtained before registration. When you submit the tourism business registration application with the business plan, floor and site plans, and the tourist accommodation facility list, the statutory processing period is 7 days. YouSun Administrative Agency prepares and files the hostel business plan approval application and the registration application on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the hostel business plan approval (사업계획 승인) application", "href": "#term-hs-plan-approval"},
+    {"name": "Preparing and filing the tourism business (hostel business, 호스텔업) registration application", "href": "#term-hs-hostel"},
+    {"name": "Pre-review of the registration standards (rooms, amenities, cultural and information exchange facilities, title to land and building)", "href": "#term-hs-standards"},
+    {"name": "Organizing the tourist accommodation facility list (관광숙박업 시설별 일람표), floor plans and site plans", "href": "#term-hs-facility-list"},
+    {"name": "Checking whether the applicant or officers fall under any grounds for disqualification (결격사유)", "href": "#term-hs-disqualification"},
+    {"name": "Preparing proof of permits for ancillary businesses and deemed permits", "href": "#svc-glance"},
+    {"name": "Applying for approval of business plan changes", "href": "#sit-hs-change"},
+    {"name": "Filing a tourism business change registration (변경등록) for trade name, representative, number and type of rooms, or ancillary facilities", "href": "#term-hs-change"},
+    {"name": "Filing a report of succession to status (지위승계 신고) after a transfer or merger", "href": "#term-hs-succession"},
+    {"name": "Guidance on linking prerequisite permits such as a change of building use", "href": "#sit-hs-building-use"},
+    {"name": "Handling supplement requests during the registration review", "href": "#sit-hs-agency"}
+  ],
+  "clients": [
+    "Guesthouse operators who want to register formally as a tourist accommodation business",
+    "Sole proprietors and corporations buying or leasing a building to open a new hostel",
+    "Foreign-invested companies starting an accommodation business for foreign tourists",
+    "Buyers planning to take over a hostel already in operation",
+    "Registered operators who need a change registration after altering rooms or ancillary facilities"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Individuals and corporations that want to operate accommodation for independent travellers such as backpackers"},
+    {"label": "Requirements", "value": "Rooms suited to independent travellers; amenities such as toilets, showers and kitchens (which may be shared); cultural and information exchange facilities for foreign and domestic tourists; ownership of or right to use the land and building; no grounds for disqualification (no capital or minimum room count requirement)"},
+    {"label": "Process", "value": "Location and building use review → business plan approval → facility set-up and securing title → registration application → review → issuance of the tourism business registration certificate → change registration management"},
+    {"label": "Documents", "value": "Tourism business registration application; business plan; document stating the name and resident registration number of the applicant (for a corporation, the representative and officers); proof of ownership or right to use the property (where not confirmed by the register extract); facility floor and site plans; tourist accommodation facility list; proof of deemed permits and reports"},
+    {"label": "Timeline", "value": "New registration 7 days; approval of business plan changes 12 days; report of succession to status 5 days; change registration to be filed within 30 days of the change"}
+  ],
+  "chooser": [
+    {"label": "Preparing to start a hostel for the first time", "target": "sit-hs-startup"},
+    {"label": "Unsure which guesthouse category applies", "target": "sit-hs-guesthouse"},
+    {"label": "The building is not designated for accommodation use", "target": "sit-hs-building-use"},
+    {"label": "You took over a hostel in operation", "target": "sit-hs-transfer"},
+    {"label": "You want to change rooms or floor area", "target": "sit-hs-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-hs-startup",
+      "q": "I am planning to open a hostel in Korea. Which permit do I need first?",
+      "conclusion": "A hostel business is a tourist accommodation business, so before registration you draw up a business plan and obtain approval from the head of the si/gun/gu, then set up the facilities and register the tourism business. The starting point is to check whether the building's use on the building register is accommodation.",
+      "branches": [
+        {"when": "The building is designated for accommodation use", "then": "Apply for business plan approval, then set up rooms, amenities and cultural and information exchange facilities after approval and apply for registration."},
+        {"when": "The building is not designated for accommodation use", "then": "Review a change of building use first, then move on to business plan approval."}
+      ],
+      "docs": "Business plan; proof of ownership or right to use the property; facility floor and site plans; tourist accommodation facility list; tourism business registration application",
+      "period": "Statutory: registration 7 days / in practice, business plan approval and construction time come first",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-hs-guesthouse",
+      "q": "I want to open a guesthouse in Korea. Should I register a hostel business or file an accommodation business report?",
+      "conclusion": "Legally, a guesthouse falls into one of three categories depending on how it operates: urban homestay business for foreign tourists, an accommodation business report under the Public Health Control Act (공중위생관리법), or a hostel business, which is a tourist accommodation business. A hostel business requires both business plan approval and registration, and must have cultural and information exchange facilities.",
+      "branches": [
+        {"when": "A resident of an urban area offers lodging and meals to foreign tourists in the house they live in", "then": "Consider urban homestay business registration for foreign tourists."},
+        {"when": "You run a general accommodation business for the public at large", "then": "Check whether an accommodation business report under the Public Health Control Act applies."},
+        {"when": "You plan shared facilities and an exchange space for independent travellers such as backpackers", "then": "Proceed with business plan approval and registration as a hostel business."}
+      ],
+      "docs": "Building register; facility floor plan; operating plan (target guests and room layout)",
+      "period": "Hostel business registration 7 days / other schemes follow the processing periods in their own laws"
+    },
+    {
+      "id": "sit-hs-building-use",
+      "q": "Can I register a hostel business in a neighbourhood living facility building in Korea?",
+      "conclusion": "For a hostel business you must first check whether the building's use on the building register is accommodation; if not, a change of building use must come first. Where change-of-use design work is needed, that part belongs to a licensed architect.",
+      "branches": [
+        {"when": "The building register shows accommodation use", "then": "Proceed directly to business plan approval."},
+        {"when": "The building has another use, such as a neighbourhood living facility", "then": "Check whether a change to accommodation use is possible at that location, complete the change, then apply for business plan approval."}
+      ],
+      "docs": "Building register; land use plan confirmation; change of use documents",
+      "period": "Registration 7 days / in practice, the change of use period comes first"
+    },
+    {
+      "id": "sit-hs-dormitory",
+      "q": "Can a hostel with dormitory rooms and only shared showers and a shared kitchen be registered?",
+      "conclusion": "Yes. A hostel business may have guests share amenities such as toilets, showers and kitchens, and each room does not need its own bathroom. However, cultural and information exchange facilities for foreign and domestic tourists must be provided separately.",
+      "branches": [
+        {"when": "Rooms are mainly multi-bed and the bathrooms and kitchen are shared", "then": "Provide enough amenities to avoid inconvenience to guests and secure an exchange facility such as a lounge or tourist information area."},
+        {"when": "Safety rules for multi-use businesses may apply given the facility's size or structure", "then": "Check separately with the local fire station whether they apply."}
+      ],
+      "docs": "Facility floor and site plans; tourist accommodation facility list",
+      "period": "Registration 7 days / in practice, it depends on whether facilities need supplementing"
+    },
+    {
+      "id": "sit-hs-plan-approval",
+      "q": "What conditions apply to hostel business plan approval in a general residential zone in Korea?",
+      "conclusion": "The approval standards include that the business plan complies with the relevant laws and that you have the capacity and a plan to raise funds; in a general residential zone a road frontage requirement is added. A hostel business must adjoin a road at least 8 metres wide for at least 4 metres, and for hostel businesses of 20 rooms or fewer in certain areas, a 4-metre road standard applies.",
+      "branches": [
+        {"when": "The building is in a general residential zone", "then": "First check the width of the road the site faces and the length of frontage."},
+        {"when": "The building is not in a residential zone", "then": "Write the business plan focusing on compliance with the relevant laws and the funding plan."}
+      ],
+      "docs": "Business plan; funding plan; site location map and road status data; building register",
+      "period": "In practice, the business plan approval period depends on the competent authority's review and any supplements"
+    },
+    {
+      "id": "sit-hs-period",
+      "q": "How long does hostel business registration take in Korea, from business plan approval to the registration certificate?",
+      "conclusion": "The statutory processing period after the registration application is 7 days. The time needed for the earlier stages (business plan approval, facility works and securing title) is separate and grows if supplements are requested.",
+      "branches": [
+        {"when": "You lease a building whose facilities are already in place", "then": "File the registration application right after business plan approval and receive the tourism business registration certificate."},
+        {"when": "Remodelling or a change of use is needed", "then": "You apply for registration after the works or change of use are complete, so the overall schedule is longer."}
+      ],
+      "docs": "Tourism business registration application; business plan; facility floor and site plans; tourist accommodation facility list",
+      "period": "Statutory: registration 7 days / in practice, business plan approval and construction time are added"
+    },
+    {
+      "id": "sit-hs-cost",
+      "q": "To estimate the cost of hostel business registration, which preparation items should I look at first?",
+      "conclusion": "A hostel business has no capital or minimum room count requirement, so the preparation burden comes mainly from the facility standards and the building's use. Checking first whether the building is designated for accommodation, whether amenities and exchange facilities are in place, and the title documents for the land and building reduces extra works and supplements.",
+      "branches": [
+        {"when": "The building use and facilities already meet the standards", "then": "Focus on preparing the business plan approval and registration documents."},
+        {"when": "A change of use or works for exchange facilities are needed", "then": "Fix the scope of works first, then reflect it in the business plan."}
+      ],
+      "docs": "Building register; lease agreement or register extract; facility floor plan",
+      "period": "Registration 7 days / in practice, it depends on whether works or a change of use are needed"
+    },
+    {
+      "id": "sit-hs-agency",
+      "q": "If I hire an administrative agent for hostel business registration in Korea, what will they handle?",
+      "conclusion": "With your written authorization, an administrative agent prepares the business plan approval application, the tourism business registration application and attachments such as the facility list, files them with the si/gun/gu and responds to supplement requests. The agent does not handle building use determinations or building permits, fire safety or sanitation facility design, or booking operations.",
+      "branches": [
+        {"when": "The building and facility plan are settled", "then": "The agent checks compliance with the registration standards and prepares and files the approval and registration documents."},
+        {"when": "The building use or design itself must change first", "then": "Get a review from the relevant professional, such as an architect, first, then prepare the application documents based on the result."}
+      ],
+      "docs": "Letter of authorization; building register; lease agreement or register extract; facility floor plan",
+      "period": "Registration 7 days / acceptance and the outcome are decided by the competent authority"
+    },
+    {
+      "id": "sit-hs-transfer",
+      "q": "We took over a hostel already in operation. By when must we report the business transfer?",
+      "conclusion": "The transferee succeeds to the tourism business operator's rights and obligations and must file a report of succession to status with the registering authority within 1 month of the succession. The processing period for the report is 5 days.",
+      "branches": [
+        {"when": "An individual acquired the business", "then": "Check that the transferee has no grounds for disqualification and submit the report of succession to status."},
+        {"when": "The business was succeeded through a corporate merger", "then": "The surviving or newly formed corporation files the report, and you also check that none of its officers has grounds for disqualification."}
+      ],
+      "docs": "Report of succession to status; proof of succession such as the transfer agreement; transferee's personal details; existing tourism business registration certificate",
+      "period": "Statutory: report within 1 month of succession, processed in 5 days"
+    },
+    {
+      "id": "sit-hs-small-hotel",
+      "q": "If a hostel has more than 20 rooms, must it register as a small hotel business instead?",
+      "conclusion": "A hostel business has no minimum room count, so the business type is not decided by the number of rooms alone. With 20 or more but fewer than 30 rooms with bathrooms or showers, the small hotel business requirements apply; with 30 or more, the tourist hotel business requirements apply. If the focus is shared amenities and cultural and information exchange facilities, you register as a hostel business.",
+      "branches": [
+        {"when": "Each room has its own bathroom and you want a hotel rating", "then": "Review the small hotel or tourist hotel business requirements (both are subject to hotel rating)."},
+        {"when": "You plan shared bathrooms and kitchen with exchange facilities for independent travellers", "then": "Register as a hostel business (not subject to hotel rating)."}
+      ],
+      "docs": "Room composition table; facility floor plan; tourist accommodation facility list",
+      "period": "Tourist accommodation business registration 7 days"
+    },
+    {
+      "id": "sit-hs-change",
+      "q": "I want to add rooms to my hostel. By when must I file a change registration?",
+      "conclusion": "When the number or type of rooms or ancillary facilities change, apply for change registration within 30 days of the change. If the change involves the business plan, such as changing the site or land area or the total floor area by 10% or more of the originally approved area, obtain approval of the business plan change before making it.",
+      "branches": [
+        {"when": "You only rearrange rooms and the building area stays the same", "then": "Submit the tourism business change registration application within 30 days of the change."},
+        {"when": "An extension or similar work changes the total floor area by 10% or more of the approved area", "then": "Before the change, submit the business plan change approval application with a statement of reasons, then file the change registration after approval."}
+      ],
+      "docs": "Tourism business change registration application; proof of the change; facility floor plan after the change; business plan change approval application and statement of reasons (where applicable)",
+      "period": "Statutory: change registration within 30 days; business plan change approval processed in 12 days"
+    }
+  ],
+  "glossary": [
+    {"id": "term-hs-hostel", "term": "Hostel business (호스텔업)", "def": "A business providing facilities suited to independent travellers such as backpackers, together with amenities such as showers and kitchens and cultural and information exchange facilities for foreign and domestic tourists; it is a type of hotel business within tourist accommodation businesses."},
+    {"id": "term-hs-plan-approval", "term": "Business plan approval (사업계획 승인)", "def": "Approval that a person intending to run a tourist accommodation business obtains from the Mayor of a Special Self-Governing City, the Governor of a Special Self-Governing Province, or the head of the si/gun/gu by submitting a business plan before registration."},
+    {"id": "term-hs-exchange-facility", "term": "Cultural and information exchange facilities (문화·정보 교류시설)", "def": "Facilities provided so that services can be offered to foreign and domestic tourists; this registration standard is required only for hostel businesses."},
+    {"id": "term-hs-standards", "term": "Hostel business registration standards (호스텔업 등록기준)", "def": "Four items: rooms suited to independent travellers, amenities such as toilets, showers and kitchens, cultural and information exchange facilities, and ownership of or right to use the land and building."},
+    {"id": "term-hs-facility-list", "term": "Tourist accommodation facility list (관광숙박업 시설별 일람표)", "def": "A form describing the facilities, attached to the tourist accommodation business registration application together with floor and site plans."},
+    {"id": "term-hs-disqualification", "term": "Grounds for disqualification (결격사유)", "def": "Being under adult or limited guardianship, being bankrupt and not reinstated, having had a registration cancelled less than 2 years earlier, or being within 2 years of completing a prison sentence for violating the Tourism Promotion Act or under a suspended sentence; a corporation cannot register if any officer falls under these grounds."},
+    {"id": "term-hs-change", "term": "Change registration (변경등록)", "def": "Registration filed within 30 days of a change in items covered by business plan change approval, the trade name or representative, the number and type of rooms, or the location, area or type of ancillary facilities."},
+    {"id": "term-hs-succession", "term": "Report of succession to status (지위승계 신고)", "def": "A report filed with the registering authority within 1 month by a person who acquires a tourism business or succeeds to it through a merger."}
+  ]
+}

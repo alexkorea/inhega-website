@@ -1,0 +1,187 @@
+{
+ "slug": "rnd-support",
+ "lang": "en",
+ "label": "Government R&D Grant Application",
+ "kw": "Korea government R&D grant application agent",
+ "answer": "Applying for a Korean government R&D grant means taking part in a national R&D program (국가연구개발사업), in which central government agencies fund research and development from their budgets or funds on a statutory basis. A company submits a project plan and company profile documents in response to a call that the ministry pre-announces each year; after a pre-screening for participation restrictions and a selection evaluation, selected companies sign an agreement. Funding caps, the company's cost-sharing ratio and eligibility are set each year by ministry and specialized agency announcements, so start with that year's call. YouSun Administrative Agency prepares the application documents, organizes the formal requirements, files the application and handles supplementation requests.",
+ "services": [
+  {"name": "Preparing and filing government R&D grant application documents (정부 R&D 지원사업 신청)", "href": "#term-rnd-national-rnd"},
+  {"name": "Checking ministry and specialized agency pre-announcements and calls, and pre-reviewing eligibility (공고 확인·신청 자격 검토)", "href": "#term-rnd-announcement"},
+  {"name": "Organizing the project plan's formal requirements (table of contents aligned with the selection evaluation criteria) (사업계획서 형식 요건)", "href": "#term-rnd-selection-eval"},
+  {"name": "Organizing supporting documents such as the company profile, financial statements, business registration certificate and corporate register extract (증빙서류)", "href": "#svc-glance"},
+  {"name": "Preparing evidence for preferential status (venture company confirmation, Inno-Biz, Main-Biz, corporate R&D center recognition, intellectual property) (우대자격 증빙)", "href": "#sit-rnd-preference"},
+  {"name": "Pre-checking whether participation restrictions apply (참여제한 점검)", "href": "#term-rnd-participation-limit"},
+  {"name": "Organizing consortium documents such as participating-institution agreements for joint development projects (컨소시엄 협약서)", "href": "#sit-rnd-consortium"},
+  {"name": "Handling supplementation requests after filing (보완 대응)", "href": "#sit-rnd-period"},
+  {"name": "Guidance on documents for the agreement stage (협약 단계 서류)", "href": "#term-rnd-agreement"},
+  {"name": "Drafting written opinions in response to advance notice of sanctions (제재처분 사전통지 의견 제출)", "href": "#sit-rnd-misuse"}
+ ],
+ "clients": [
+  "Startups and SMEs applying for a government R&D project for the first time",
+  "Technology companies with a corporate R&D center or venture company confirmation preparing a follow-on project",
+  "SMEs and mid-sized companies forming joint development projects with universities or research institutes",
+  "Project-performing companies that must respond to participation restriction or sanction notices after the agreement"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "SMEs and mid-sized companies seeking to take part in national R&D programs funded from budgets or funds by central government agencies on a statutory basis (projects of the Ministry of SMEs and Startups, the Ministry of Trade, Industry and Energy, the Ministry of Science and ICT and other ministries)"},
+  {"label": "Requirements", "value": "Meeting the eligibility in that year's call, not being subject to participation restrictions, and passing the selection evaluation (creativity and soundness of the execution plan, R&D capability, impact and potential use of results, consistency with the governing laws and implementation plan)"},
+  {"label": "Process", "value": "Check implementation plans and pre-announcements → Review project fit → Write the project plan → Apply to the call and undergo participation restriction pre-screening → Document and presentation selection evaluation → Sign the agreement → Perform the project, stage and final evaluations, settlement and results management"},
+  {"label": "Documents", "value": "Project plan, company profile and financial statements (last 3 years, or simplified financial data for startups), technology development summary, business registration certificate and corporate register extract, SME confirmation and venture company, Inno-Biz or Main-Biz certificates, intellectual property holdings, consortium participating-institution agreement (joint development projects)"},
+  {"label": "Timeline", "value": "Call and selection evaluation schedules are set in each program's announcement. The agreement period is the project's full R&D period, which may not exceed 10 years"}
+ ],
+ "chooser": [
+  {"label": "Preparing a government project for the first time", "target": "sit-rnd-how-apply"},
+  {"label": "Unsure how to structure the project plan", "target": "sit-rnd-plan-writing"},
+  {"label": "Applying jointly with a university or research institute", "target": "sit-rnd-consortium"},
+  {"label": "Past record of abandoning or failing a project", "target": "sit-rnd-participation-history"},
+  {"label": "Received a sanction notice over research funds", "target": "sit-rnd-misuse"}
+ ],
+ "situations": [
+  {
+   "id": "sit-rnd-how-apply",
+   "q": "We are an SME applying for a Korean government R&D project for the first time. Where do we start?",
+   "conclusion": "Each year central government agencies set implementation plans for their programs and pre-announce R&D budgets and call schedules, so start by picking projects that fit your technology field from the pre-announcements and calls of the responsible ministry and specialized agency. Program names, funding caps and the company's cost-sharing ratio are finalized in each year's call.",
+   "branches": [
+    {"when": "You are looking for an SME technology innovation project", "then": "Check eligibility and project types in the Technology Innovation Development Program calls of the Ministry of SMEs and Startups (중소벤처기업부)."},
+    {"when": "You are looking for an industrial technology or ICT project", "then": "Check calls from the responsible ministries such as the Ministry of Trade, Industry and Energy (산업통상자원부) and the Ministry of Science and ICT (과학기술정보통신부), and review whether the technology scope fits."}
+   ],
+   "docs": "Business registration certificate, corporate register extract, SME confirmation, financial statements, technology development summary",
+   "period": "Call schedules follow each ministry's pre-announcements and calls",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-rnd-plan-writing",
+   "q": "How should a Korean government R&D project plan be structured to match the selection evaluation criteria?",
+   "conclusion": "The selection evaluation looks at the project's creativity and the soundness of its execution plan, R&D capability, impact and potential use of results, and consistency with the governing laws and implementation plan, so structure the plan in the order and wording of these criteria. Responsibility for writing the research content and technical plan lies with the applicant and its researchers.",
+   "branches": [
+    {"when": "The call prescribes a government template", "then": "Follow the template's sections exactly and place supporting evidence to correspond to the evaluation sheet items."},
+    {"when": "An open format is allowed", "then": "Build the table of contents in the order of the evaluation criteria so reviewers can easily find each item."},
+    {"when": "Some evaluation items do not apply given the program's nature", "then": "Adjust the weighting based on the evaluation sheet in the call."}
+   ],
+   "docs": "Project plan, technology development summary (core technology, differentiation, expected effects), intellectual property holdings",
+   "period": "Complete before the call's submission deadline"
+  },
+  {
+   "id": "sit-rnd-docs",
+   "q": "Besides the project plan, what documents do we need for a Korean government R&D grant application?",
+   "conclusion": "Prepare company documents such as the company profile, financial statements, business registration certificate, corporate register extract and SME confirmation, together with a technology development summary and a list of intellectual property holdings. Requirements may vary by project type and size.",
+   "branches": [
+    {"when": "You are a young startup", "then": "Check the call to see whether simplified financial data can be submitted instead of 3 years of financial statements."},
+    {"when": "You hold venture company, Inno-Biz or Main-Biz certification", "then": "Attach certificates within their validity so they count toward preference items."}
+   ],
+   "docs": "Project plan, company profile, financial statements, technology development summary, business registration certificate, corporate register extract, SME confirmation, venture company, Inno-Biz and Main-Biz certificates, intellectual property holdings",
+   "period": "Submit within the call's application period",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-rnd-cost",
+   "q": "How is the company's share of costs determined for a Korean government R&D grant?",
+   "conclusion": "The company's cost-sharing ratio and funding caps are set not by law but by ministry and specialized agency announcements each year, so check the project cost structure in that year's call before applying.",
+   "branches": [
+    {"when": "The call sets different funding caps by project type", "then": "Check the cap and cost-sharing basis for your company size and project type and build the budget plan accordingly."},
+    {"when": "You sign the agreement after selection", "then": "The agreement includes an outline plan for using R&D funds, so spend in line with that plan and its purposes."}
+   ],
+   "docs": "That year's program announcement, budget plan, financial statements",
+   "period": "Call criteria change every year, so use the call for the year you apply"
+  },
+  {
+   "id": "sit-rnd-period",
+   "q": "After applying to a Korean government R&D call, how long does it take to be selected and sign the agreement?",
+   "conclusion": "Selection evaluation and agreement schedules are set in each program's call, so there is no number of days fixed by law. Once selected, you sign an agreement whose term is the project's full R&D period.",
+   "branches": [
+    {"when": "No issues arise in the participation restriction pre-screening after filing", "then": "Selection is decided through document and presentation evaluations, and you move on to the agreement stage."},
+    {"when": "You are asked to supplement your submitted documents", "then": "Submit the supplementary documents within the deadline set in the call to remain in the evaluation."}
+   ],
+   "docs": "Full set of application documents, and supplementary documents if requested",
+   "period": "Follows the call schedule. The R&D period may not exceed 10 years and may be divided into stages"
+  },
+  {
+   "id": "sit-rnd-preference",
+   "q": "Are we at a disadvantage for Korean government R&D selection without venture company confirmation or Inno-Biz certification?",
+   "conclusion": "Venture company confirmation, Inno-Biz and Main-Biz, corporate R&D center recognition and intellectual property holdings are often used as preference items, but bonus points and whether any of them are mandatory are set in each program's call, not by law.",
+   "branches": [
+    {"when": "The call makes a specific certification a mandatory eligibility requirement", "then": "You must obtain that certification before applying, so plan backward from the deadline."},
+    {"when": "It only counts as a bonus item", "then": "You can apply without it; consider corporate R&D center recognition or venture company confirmation for the next call."}
+   ],
+   "docs": "Venture company confirmation, Inno-Biz and Main-Biz certificates, corporate R&D center recognition, proof of intellectual property registrations and applications",
+   "period": "Obtaining preferential status requires the separate processing time of each certification procedure"
+  },
+  {
+   "id": "sit-rnd-consortium",
+   "q": "What else is needed to apply for a Korean government R&D project jointly with a university or research institute?",
+   "conclusion": "For joint development projects, prepare a consortium participating-institution agreement in addition to company documents, and set out each participant's role and R&D fund usage plan consistently with the project plan.",
+   "branches": [
+    {"when": "The call has a joint development track", "then": "Check the division of roles between the lead and participating institutions and the eligibility requirements against the call."},
+    {"when": "One of the participating institutions has a participation restriction record", "then": "It may be excluded in pre-screening at the application stage, so check before forming the consortium."}
+   ],
+   "docs": "Consortium participating-institution agreement, project plan, profile documents for each participating institution",
+   "period": "Time to finalize the agreement among participants is added to application preparation"
+  },
+  {
+   "id": "sit-rnd-participation-history",
+   "q": "We once abandoned a Korean government R&D project midway. Can we apply again?",
+   "conclusion": "Abandoning a project without justifiable reason is a ground for participation restriction, and central government agencies pre-screen whether an applicant is subject to restrictions, so you will be excluded if you are within a restriction period.",
+   "branches": [
+    {"when": "You received a participation restriction and the period has not ended", "then": "Schedule your application for after the restriction period ends."},
+    {"when": "There was a justifiable reason for abandoning, or no restriction was imposed", "then": "Confirm your disposition record and apply with the project plan."}
+   ],
+   "docs": "Past project agreement, disposition notice (if any)",
+   "period": "Under the Act on the Promotion of Technology Innovation of Small and Medium Enterprises (중소기업 기술혁신 촉진법), participation restrictions are up to 5 years (up to 10 years if restricted in national R&D programs for the same reason)"
+  },
+  {
+   "id": "sit-rnd-failure",
+   "q": "If our Korean government R&D project is judged a failure in the final evaluation, do we have to return the research funds?",
+   "conclusion": "If R&D results are extremely poor and the project is determined to have failed or been discontinued, participation restrictions and recovery of project funds may follow, but if diligent performance of the R&D is recognized, the restriction period and recovery amount can be reduced.",
+   "branches": [
+    {"when": "You have records proving diligent performance", "then": "Organize performance records such as research notes and spending evidence and request recognition of diligent performance."},
+    {"when": "You received a recovery notice", "then": "If not paid by the deadline, the amount may be collected after a demand notice in the same manner as national tax arrears, so manage the deadline."}
+   ],
+   "docs": "Final evaluation result notice, R&D performance records, R&D spending evidence",
+   "period": "Follows the deadline stated in the notice"
+  },
+  {
+   "id": "sit-rnd-misuse",
+   "q": "We were told we used Korean government R&D funds for other purposes. What can we do after receiving a sanction notice?",
+   "conclusion": "The National Research and Development Innovation Act (국가연구개발혁신법) requires advance notice of sanctions and allows you to submit an opinion requesting reconsideration, with reasons, within 20 days of receiving the notice. Use for other purposes is a ground on which participation restrictions, sanction surcharges and recovery may be imposed together.",
+   "branches": [
+    {"when": "Your spending had a legitimate basis", "then": "Organize the usage plan under the agreement and spending evidence and submit your opinion within the deadline."},
+    {"when": "Use for other purposes is confirmed", "then": "Check the possibility of a sanction surcharge of up to 5 times the amount used and recovery of R&D funds already paid, and manage the payment deadline."}
+   ],
+   "docs": "Advance notice of sanctions, agreement, R&D spending evidence, written opinion",
+   "period": "Statutory: submit an opinion within 20 days of receiving the notice"
+  },
+  {
+   "id": "sit-rnd-royalty",
+   "q": "If we commercialize technology developed in a Korean government R&D project, do we have to pay technology royalties?",
+   "conclusion": "Technology royalties are paid by the licensee to the owner of the R&D results in return for the right to use those results; collection and use of royalties and payment of royalties to the government are governed by the National Research and Development Innovation Act. Royalty rates are set by the call and the agreement.",
+   "branches": [
+    {"when": "The agreement includes royalty payment terms", "then": "Check the payment timing and amount under the agreement and call criteria."},
+    {"when": "Royalties were not paid without justifiable reason", "then": "This is a ground for participation restriction, so manage the payment schedule."}
+   ],
+   "docs": "Agreement, program announcement, results utilization materials",
+   "period": "Follows the payment deadline in the agreement"
+  },
+  {
+   "id": "sit-rnd-agent",
+   "q": "If we hire an administrative agent for a Korean government R&D grant application, what exactly do they handle?",
+   "conclusion": "Under a letter of authorization, an administrative agent checks calls and reviews eligibility, prepares application documents and organizes formal requirements, files the application and handles supplementation, and guides you on agreement-stage documents. Writing the research content and technical plan is the job of the applicant and its researchers, and selection depends on the evaluation results.",
+   "branches": [
+    {"when": "You do not know which project fits", "then": "Check ministry and specialized agency calls and identify projects and eligibility that match your company profile."},
+    {"when": "You have a draft of the research content", "then": "Proceed with a table of contents aligned to the evaluation criteria, organizing supporting documents and filing."},
+    {"when": "You received a sanction notice after selection", "then": "Draft a written opinion on the advance notice within the deadline. Court cases and administrative appeals are not handled."}
+   ],
+   "docs": "Letter of authorization, business registration certificate, financial statements, draft project plan, copies of certificates",
+   "period": "Follows the call's application period and evaluation schedule"
+  }
+ ],
+ "glossary": [
+  {"id": "term-rnd-national-rnd", "term": "National R&D program (국가연구개발사업)", "def": "A program in which a central government agency funds research and development from its budget or funds on a statutory basis."},
+  {"id": "term-rnd-announcement", "term": "Pre-announcement and call (예고와 공모)", "def": "The procedure in which central government agencies announce R&D budgets and call schedules in advance each year and, as a rule, select R&D projects and performing institutions through open calls."},
+  {"id": "term-rnd-selection-eval", "term": "Selection evaluation (선정평가)", "def": "The procedure for selecting projects and performing institutions by evaluating creativity and soundness of the execution plan, R&D capability, impact and potential use of results, and consistency with the governing laws and implementation plan."},
+  {"id": "term-rnd-agreement", "term": "Agreement (협약)", "def": "The agreement a selected R&D institution concludes with the central government agency setting out the project execution plan (including an outline plan for using R&D funds); its term is the full R&D period."},
+  {"id": "term-rnd-participation-limit", "term": "Participation restriction (참여제한)", "def": "A disposition barring participation in national R&D programs for a certain period in cases such as a failure or discontinuation decision, abandonment of the project, use of contributions for other purposes, research misconduct or non-payment of royalties."},
+  {"id": "term-rnd-sanction-surcharge", "term": "Sanction surcharge (제재부가금)", "def": "A monetary sanction imposed and collected within 5 times the amount involved in misconduct such as using R&D funds for other purposes."},
+  {"id": "term-rnd-royalty", "term": "Technology royalty (기술료)", "def": "The amount a licensee pays to the owner of R&D results in return for the right to use those results."},
+  {"id": "term-rnd-honest-failure", "term": "Recognition of diligent failure (성실실패 인정)", "def": "A system under which, even if results are extremely poor and the project is determined to have failed or been discontinued, the participation restriction period and recovery of project funds can be reduced if diligent performance is recognized."}
+ ]
+}

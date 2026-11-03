@@ -1,0 +1,363 @@
+{
+  "slug": "women-enterprise",
+  "lang": "en",
+  "label": "Women-Owned Business Certification",
+  "kw": "Women-owned business certification agent in Korea",
+  "answer": "Women-owned business confirmation (여성기업 확인), commonly called women-owned business certification, is a system in which the authority examines whether a business is owned and managed by women and issues a women-owned business confirmation certificate. Companies under the Commercial Act (상법), sole proprietors and cooperatives each meet the requirements for their type and apply through the SME Products Public Procurement Information Network (중소기업제품 공공구매 종합정보망). Once confirmed after a document review and on-site inspection, a certificate valid for 3 years is issued. There is no statutory processing period, so the timeline depends on the inspection and whether documents need supplementation. YouSun Administrative Agency prepares the confirmation application and attachments and files them.",
+  "services": [
+    {
+      "name": "Preparing and filing the women-owned business confirmation application (여성기업 확인 신청)",
+      "href": "#term-we-confirmation"
+    },
+    {
+      "name": "Pre-checking the requirements for each type: company under the Commercial Act, sole proprietor or cooperative (여성기업 요건)",
+      "href": "#term-we-women-enterprise"
+    },
+    {
+      "name": "Reviewing the registered company representative and whether she is the largest investor by equity share (최대출자자)",
+      "href": "#term-we-largest-investor"
+    },
+    {
+      "name": "Organizing attachments by type, such as the shareholder register, member register and articles of incorporation",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Filing through the SME Products Public Procurement Information Network",
+      "href": "#term-we-portal"
+    },
+    {
+      "name": "Responding to requests for materials during the document review and on-site inspection (서면조사·현장조사)",
+      "href": "#sit-we-inspection"
+    },
+    {
+      "name": "Applying for reconfirmation (renewal) before the validity period expires (재확인)",
+      "href": "#sit-we-renewal"
+    },
+    {
+      "name": "Applying for reissuance of the confirmation certificate (확인서 재발급)",
+      "href": "#sit-we-reissue"
+    },
+    {
+      "name": "Applying to change certificate entries such as the address and branch details (기재사항 변경)",
+      "href": "#term-we-certificate"
+    },
+    {
+      "name": "Checking the reapplication restriction period and preparing a reapplication",
+      "href": "#sit-we-rejected"
+    }
+  ],
+  "clients": [
+    "SMEs whose CEO is a woman who is also the largest investor",
+    "Sole proprietorships registered by a woman owner",
+    "Cooperatives in which a majority of members and officers are women",
+    "Women-run businesses preparing to supply public institutions",
+    "Businesses with a foreign national woman representative operating lawfully in Korea"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Businesses owned and managed by women that meet the Enforcement Decree criteria as a company under the Commercial Act, a sole proprietor, or a cooperative (a cooperative under the Framework Act on Cooperatives (협동조합 기본법) or the Consumer Cooperatives Act (소비자생활협동조합법))"
+    },
+    {
+      "label": "Requirements",
+      "value": "Company: a woman registered as company representative is the largest investor (if there are 2 or more women representatives, their combined share is the largest). Sole proprietor: a woman has registered the business. Cooperative: a majority of members are women, a majority of capital units are contributed by women, the chairperson is a woman, and a majority of directors are women"
+    },
+    {
+      "label": "Process",
+      "value": "Review the requirements for your type → prepare the application and attachments → file through the public procurement information network → administrative information check, document review and on-site inspection → women-owned business confirmation certificate issued → manage reissuance, changes and reconfirmation"
+    },
+    {
+      "label": "Documents",
+      "value": "Women-owned business confirmation application; for companies, shareholder register, member register and articles of incorporation; for sole proprietors with co-owners, the partnership agreement; for cooperatives, the member register, investor register and officer register; a copy of the business registration certificate if you do not consent to administrative information sharing"
+    },
+    {
+      "label": "Timeline",
+      "value": "No statutory processing period (depends on the document review, on-site inspection and whether supplementation is needed); confirmation valid for 3 years"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "A corporation with a spouse or family member as co-CEO",
+      "target": "sit-we-joint-ceo"
+    },
+    {
+      "label": "Applying as a sole proprietor",
+      "target": "sit-we-sole-proprietor"
+    },
+    {
+      "label": "Applying as a cooperative",
+      "target": "sit-we-coop"
+    },
+    {
+      "label": "The certificate is about to expire",
+      "target": "sit-we-renewal"
+    },
+    {
+      "label": "Reapplying after a rejection",
+      "target": "sit-we-rejected"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-we-joint-ceo",
+      "q": "My husband and I are co-CEOs of a Korean corporation, but my share is smaller than his. Can we get women-owned business certification?",
+      "conclusion": "For a company under the Commercial Act, a woman registered as company representative must be the largest investor, so if the woman representative's share is not the largest, the requirement is not met. If 2 or more women are registered as company representatives, their shares are combined to see whether they are the largest.",
+      "branches": [
+        {
+          "when": "The woman representative holds the largest share in her own name",
+          "then": "The requirement is met even with co-CEOs, so apply with the shareholder register and articles of incorporation."
+        },
+        {
+          "when": "The male co-CEO holds a larger share",
+          "then": "The requirement is not met until the shareholding changes, so reconsider when to apply."
+        },
+        {
+          "when": "A stock company has non-voting shares",
+          "then": "Non-voting shares are excluded when determining the largest investor."
+        }
+      ],
+      "docs": "Women-owned business confirmation application, shareholder register, member register, articles of incorporation",
+      "period": "No statutory processing period; in practice, it depends on the document review, on-site inspection and whether supplementation is needed",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-we-spouse-company",
+      "q": "If I take over my spouse's shares in the company and become CEO, can I get women-owned business certification in Korea right away?",
+      "conclusion": "Once you meet the registered representative and largest investor requirements, you can apply, but the law treats a business actually managed by a woman as eligible. The authority checks this through the document review, on-site inspection and requests for materials.",
+      "branches": [
+        {
+          "when": "The registration and shareholding are settled and you actually run the business",
+          "then": "Apply with the shareholder register, articles of incorporation and materials showing how the business is actually managed."
+        },
+        {
+          "when": "Only the name was changed and the spouse still runs the business",
+          "then": "The business may be found not to be women-owned, and reapplication is then restricted for a set period."
+        }
+      ],
+      "docs": "Women-owned business confirmation application, shareholder register, member register, articles of incorporation, management-related materials requested during the inspection",
+      "period": "No statutory processing period; in practice, it depends on how the inspection proceeds"
+    },
+    {
+      "id": "sit-we-sole-proprietor",
+      "q": "Can a woman sole proprietor get women-owned business certification in Korea? What else is needed if there are co-owners?",
+      "conclusion": "A sole proprietorship whose business registration was made by a woman under the Income Tax Act (소득세법) or the Value-Added Tax Act (부가가치세법) qualifies as a type of women-owned business. Only when there are co-owners is a partnership agreement additionally submitted.",
+      "branches": [
+        {
+          "when": "A sole proprietorship owned by one woman",
+          "then": "Apply with the application alone; the business registration certificate is checked through administrative information sharing."
+        },
+        {
+          "when": "There are co-owners",
+          "then": "Attach 1 copy of the partnership agreement."
+        },
+        {
+          "when": "You do not consent to administrative information sharing",
+          "then": "Submit a copy of the business registration certificate."
+        }
+      ],
+      "docs": "Women-owned business confirmation application, partnership agreement (if there are co-owners), copy of the business registration certificate (if you do not consent to information sharing)",
+      "period": "No statutory processing period"
+    },
+    {
+      "id": "sit-we-coop",
+      "q": "Can a cooperative get women-owned business certification in Korea? What are the membership requirements?",
+      "conclusion": "Cooperatives under the Framework Act on Cooperatives and cooperatives under the Consumer Cooperatives Act are eligible. All 4 conditions must be met: a majority of all members are women, women members contribute a majority of all capital units, the chairperson is a woman member, and a majority of directors including the chairperson are women members.",
+      "branches": [
+        {
+          "when": "All 4 conditions are met",
+          "then": "Apply with the member register, investor register and officer register attached."
+        },
+        {
+          "when": "The cooperative is still being set up",
+          "then": "Design the membership and officer composition to meet the requirements from the start."
+        }
+      ],
+      "docs": "Women-owned business confirmation application, member register, investor register, officer register",
+      "period": "No statutory processing period"
+    },
+    {
+      "id": "sit-we-period",
+      "q": "How long does women-owned business certification take in Korea, from application to issuance of the certificate?",
+      "conclusion": "The Act on Support for Female-Owned Businesses (여성기업지원에 관한 법률) and its Enforcement Decree set no statutory processing period for confirmation. The actual time depends on how the document review and on-site inspection proceed and whether materials need supplementation.",
+      "branches": [
+        {
+          "when": "All attachments for your type are complete",
+          "then": "The certificate is issued after the administrative information check and inspection."
+        },
+        {
+          "when": "You receive a request for materials",
+          "then": "The period extends while the requested materials are submitted, so align your shareholding and registration records in advance."
+        }
+      ],
+      "docs": "Women-owned business confirmation application and attachments for your type",
+      "period": "No statutory processing period; in practice, it depends on the inspection and supplementation",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-we-cost",
+      "q": "Before looking into the cost of women-owned business certification in Korea, what documents should our company prepare?",
+      "conclusion": "The scope of preparation depends on the type of business. Companies attach the shareholder register, member register and articles of incorporation; sole proprietors with co-owners attach the partnership agreement; and cooperatives attach the member register, investor register and officer register to the application.",
+      "branches": [
+        {
+          "when": "A company under the Commercial Act",
+          "then": "Prepare 1 copy each of the shareholder register, member register and articles of incorporation, and check them against the registered company representative."
+        },
+        {
+          "when": "A sole proprietor or cooperative",
+          "then": "Prepare only the attachments for your type; corporate registration and business registration are checked through administrative information sharing."
+        }
+      ],
+      "docs": "Women-owned business confirmation application, attachments by type (shareholder register, member register and articles of incorporation / partnership agreement / member register, investor register and officer register)",
+      "period": "No statutory processing period"
+    },
+    {
+      "id": "sit-we-renewal",
+      "q": "Our women-owned business certificate in Korea is about to expire. When and how do we renew it?",
+      "conclusion": "Women-owned business confirmation is valid for 3 years, and after it expires you can no longer receive support under the Act, such as preferential purchasing by public institutions. Apply for confirmation again through the public procurement information network before expiry so that there is no gap.",
+      "branches": [
+        {
+          "when": "Shareholding, representative and membership are unchanged",
+          "then": "Apply for reconfirmation before expiry with up-to-date documents for your type, such as the latest shareholder register."
+        },
+        {
+          "when": "Shareholding or the representative has changed in the meantime",
+          "then": "First check whether the new structure meets the women-owned business requirements, then apply."
+        }
+      ],
+      "docs": "Women-owned business confirmation application, up-to-date attachments for your type",
+      "period": "Valid for 3 years; in practice, apply well before expiry"
+    },
+    {
+      "id": "sit-we-reissue",
+      "q": "What should we do in Korea if we lost our women-owned business certificate or our company address has changed?",
+      "conclusion": "If the certificate is damaged beyond use or lost, have it reissued through the public procurement information network. If the address or branch details on the certificate have changed, apply to change the entries with documents proving the change.",
+      "branches": [
+        {
+          "when": "Lost or damaged",
+          "then": "Apply for reissuance through the public procurement information network."
+        },
+        {
+          "when": "The address or branch details have changed",
+          "then": "Apply to change the entries with documents proving the change."
+        },
+        {
+          "when": "The representative or shareholding has changed",
+          "then": "This may change whether the women-owned business requirements themselves are met, not just the entries, so review the requirements again."
+        }
+      ],
+      "docs": "Reissuance application (lost or damaged), documents proving the change (change of address or branch details)",
+      "period": "In practice, it depends on the competent agency's processing"
+    },
+    {
+      "id": "sit-we-rejected",
+      "q": "Our women-owned business certification application in Korea was rejected. Can we reapply right away?",
+      "conclusion": "If a business is found not to be women-owned for the first time, it cannot reapply for 3 months from the date of the notice, and for 6 months if this has happened 2 or more times. If a confirmation obtained by false or fraudulent means is revoked, the period is 1 year from the revocation date.",
+      "branches": [
+        {
+          "when": "Rejected for the first time",
+          "then": "Address the reasons stated in the notice, fix the requirements and reapply after 3 months."
+        },
+        {
+          "when": "Rejected 2 or more times",
+          "then": "Correct the shareholding, registration and officer composition during the 6-month restriction period."
+        }
+      ],
+      "docs": "Notice stating the reasons for rejection, revised attachments for your type",
+      "period": "Reapplication restriction: 3 months, 6 months or 1 year (depending on the reason)"
+    },
+    {
+      "id": "sit-we-inspection",
+      "q": "What does the on-site inspection for women-owned business certification in Korea check, and how should we prepare?",
+      "conclusion": "The authority receiving the application may conduct a document review and an on-site inspection to confirm whether the business is women-owned, and may request materials if needed. Be prepared to explain that the ownership and management structure stated in the application matches reality.",
+      "branches": [
+        {
+          "when": "You receive a request for materials",
+          "then": "Organize and submit the requested materials within the deadline."
+        },
+        {
+          "when": "The inspection finds the business is not women-owned",
+          "then": "You receive a notice stating the reasons, and the reapplication restriction period applies."
+        }
+      ],
+      "docs": "Copies of the application and attachments, materials requested during the inspection",
+      "period": "No statutory processing period"
+    },
+    {
+      "id": "sit-we-procurement",
+      "q": "We are an SME supplying public institutions in Korea. How does women-owned business certification connect to public purchasing targets?",
+      "conclusion": "Heads of public institutions must promote purchases of products from women-owned businesses that are SMEs, and must include and meet purchasing targets for women-owned business products of at least 5% of total purchases for goods and for services, and 3% for construction, in their purchasing plans. The certificate is the document showing that you are eligible for these purchases.",
+      "branches": [
+        {
+          "when": "A women-owned business that is an SME under the Framework Act on Small and Medium Enterprises (중소기업기본법)",
+          "then": "Once you receive the certificate, you are included in public institution purchasing."
+        },
+        {
+          "when": "You also want to take part in procurement bids",
+          "then": "Prepare registration on KONEPS (나라장터), run by the Public Procurement Service (조달청), at the same time."
+        }
+      ],
+      "docs": "Women-owned business confirmation certificate, KONEPS registration documents if taking part in procurement",
+      "period": "Confirmation valid for 3 years"
+    },
+    {
+      "id": "sit-we-agent",
+      "q": "If we hire an administrative agent for women-owned business certification in Korea, what do they handle?",
+      "conclusion": "Acting on your authorization, YouSun Administrative Agency reviews the requirements for your type, drafts the application and register documents, files through the public procurement information network, responds to requests for materials, and applies for reissuance, changes and reconfirmation. The inspection and the decision on whether the business is women-owned are made by the authority.",
+      "branches": [
+        {
+          "when": "Applying for the first time",
+          "then": "We first check the shareholding, registration and officer composition, then draft and file the documents."
+        },
+        {
+          "when": "Expiry or a change is coming up",
+          "then": "We prepare and file the reconfirmation or entry change application documents."
+        }
+      ],
+      "docs": "Documents for your type such as the shareholder register and articles of incorporation, letter of authorization",
+      "period": "No statutory processing period; in practice, it depends on the inspection and supplementation",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-we-women-enterprise",
+      "term": "Women-owned business (여성기업)",
+      "def": "A business owned and managed by women that meets the Enforcement Decree criteria for a company under the Commercial Act, a sole proprietor or a cooperative."
+    },
+    {
+      "id": "term-we-confirmation",
+      "term": "Confirmation of a women-owned business (여성기업의 확인)",
+      "def": "The statutory procedure in which the authority confirms through a document review and on-site inspection whether a business is women-owned; in practice it is often called women-owned business certification (여성기업 인증)."
+    },
+    {
+      "id": "term-we-certificate",
+      "term": "Women-owned business confirmation certificate (여성기업 확인서)",
+      "def": "The document issued when a business is confirmed as women-owned; it is valid for 3 years and can be reissued if lost or damaged, with an entry change application if the address or branch details change."
+    },
+    {
+      "id": "term-we-largest-investor",
+      "term": "Largest investor (최대출자자)",
+      "def": "The person holding the largest equity share in their own name (for stock companies, excluding non-voting shares)."
+    },
+    {
+      "id": "term-we-ceo",
+      "term": "Company representative (회사대표)",
+      "def": "A person registered as an officer with authority to represent a company under the Commercial Act; under the women-owned business requirements, this woman must be the largest investor."
+    },
+    {
+      "id": "term-we-portal",
+      "term": "SME Products Public Procurement Information Network (중소기업제품 공공구매 종합정보망)",
+      "def": "The online channel for filing the women-owned business confirmation application and having the certificate reissued."
+    },
+    {
+      "id": "term-we-kowbea",
+      "term": "Korea Women Entrepreneurs Association (한국여성경제인협회)",
+      "def": "The organization entrusted with receiving women-owned business confirmation applications and carrying out the document reviews and on-site inspections."
+    },
+    {
+      "id": "term-we-purchase-target",
+      "term": "Purchasing target for women-owned business products (여성기업제품 구매목표)",
+      "def": "The share of purchases from women-owned businesses that public institutions must include in their purchasing plans and meet: at least 5% of total purchases for goods and for services, and 3% for construction."
+    }
+  ]
+}

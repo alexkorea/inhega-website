@@ -1,0 +1,349 @@
+{
+  "slug": "beauty-salon-business-report",
+  "lang": "en",
+  "label": "Beauty Salon Business Report",
+  "kw": "Beauty salon business report agent in Korea",
+  "answer": "A beauty business report (미용업 영업신고) is the procedure in which a licensed barber or beautician opening a hair salon, skin care shop, nail salon or similar business sets up the required facilities and equipment, such as containers for storing disinfected tools and disinfection equipment, completes 3 hours of hygiene training in advance, and files the business report with the competent city mayor, county head or district head. The authority issues the business report certificate immediately on receipt and, if a facility check is needed, checks within 30 days of issuance. YouSun Administrative Agency prepares and files the business report and the summary of business facilities and equipment.",
+  "services": [
+    {
+      "name": "Preparing and filing the beauty business report (미용업 영업신고)",
+      "href": "#term-bs-report"
+    },
+    {
+      "name": "Drafting the summary of business facilities and equipment (영업시설 및 설비개요서)",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Determining the type of beauty business: general, skin care, nail, makeup or comprehensive (미용업 종류)",
+      "href": "#term-bs-beauty"
+    },
+    {
+      "name": "Pre-checking facility and equipment standards, licenses and hygiene training completion (위생교육)",
+      "href": "#term-bs-education"
+    },
+    {
+      "name": "Report of changes to reported business details: trade name, address, floor area, representative, added business type (영업신고사항 변경신고)",
+      "href": "#term-bs-change"
+    },
+    {
+      "name": "Report of succession to business operator status (영업자 지위승계 신고)",
+      "href": "#term-bs-succession"
+    },
+    {
+      "name": "Preparing and filing the business closure report (폐업신고)",
+      "href": "#term-bs-closure"
+    },
+    {
+      "name": "Application for reissuance of the business report certificate",
+      "href": "#sit-bs-move"
+    },
+    {
+      "name": "Preparing documents in response to supplementation requests",
+      "href": "#sit-bs-building"
+    }
+  ],
+  "clients": [
+    "Licensed professionals opening a new hair salon, nail salon or skin care shop",
+    "Operators adding nail or skin care services to an existing salon",
+    "Beauticians taking over a salon already in operation",
+    "Operators moving or expanding their shop",
+    "Family members of a beauty business operator who need to handle closure or inheritance"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "General beauty, skin care, nail, makeup and comprehensive beauty businesses that groom customers' faces, hair, skin, fingernails, toenails and the like"
+    },
+    {
+      "label": "Requirements",
+      "value": "A barber or beautician license; containers that keep disinfected and non-disinfected tools separate, and disinfection equipment such as a sterilizer or UV sterilizer; completion of 3 hours of hygiene training before the business report"
+    },
+    {
+      "label": "Process",
+      "value": "Confirm the license → complete hygiene training → set up facilities and equipment → file the business report and attachments → business report certificate issued immediately → facility check within 30 days if needed"
+    },
+    {
+      "label": "Documents",
+      "value": "Business report, summary of business facilities and equipment, hygiene training certificate (if completed in advance); the building register, land use plan confirmation and license are checked by the authority through administrative information sharing"
+    },
+    {
+      "label": "Timeline",
+      "value": "Business report certificate issued immediately on filing; if facilities and equipment need checking, the check takes place within 30 days of issuance. Succession report within 1 month; closure report within 20 days of closing"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Opening a nail salon or skin care shop for the first time",
+      "target": "sit-bs-nail"
+    },
+    {
+      "label": "Adding a business type to an existing salon",
+      "target": "sit-bs-add-type"
+    },
+    {
+      "label": "Opening or taking over a salon without a license",
+      "target": "sit-bs-no-license"
+    },
+    {
+      "label": "Moving or expanding the shop",
+      "target": "sit-bs-move"
+    },
+    {
+      "label": "Wrapping up after the owner's death or closure",
+      "target": "sit-bs-inheritance"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-bs-nail",
+      "q": "I want to open a nail salon in Korea. What is the order of steps for the nail beauty business report?",
+      "conclusion": "A nail beauty business grooms and decorates fingernails and toenails and requires a business report. Confirm the license, complete 3 hours of hygiene training, set up containers for disinfected tools and disinfection equipment, and then file the business report.",
+      "branches": [
+        {
+          "when": "You already hold a beautician license",
+          "then": "Complete the hygiene training first, set up the shop facilities, and then file the business report and the summary of business facilities and equipment."
+        },
+        {
+          "when": "You do not have a license yet",
+          "then": "Only a licensed person can open a beauty business, so obtain the license first."
+        },
+        {
+          "when": "You also want to offer other beauty services, such as skin care, in the same shop",
+          "then": "Report those business types together; if two or more beauty businesses are run at the same location, hygiene training for one type is enough."
+        }
+      ],
+      "docs": "Business report, summary of business facilities and equipment, hygiene training certificate",
+      "period": "Business report certificate issued immediately on filing, with a facility check within 30 days if needed; in practice, training schedules and facility preparation take additional time",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-bs-add-type",
+      "q": "To add nail or skin care services to my existing hair salon in Korea, do I need to file a new report?",
+      "conclusion": "Switching between or adding beauty business types requires a report of changes to reported business details. File the change report with the business report certificate and documents proving the change.",
+      "branches": [
+        {
+          "when": "Adding a business type at the same shop",
+          "then": "File the change report; the authority checks facilities and equipment within 30 days of receiving it."
+        },
+        {
+          "when": "You are concerned about hygiene training for the added type",
+          "then": "If two or more beauty businesses are run at the same location, training for one of them counts for the others."
+        }
+      ],
+      "docs": "Report of changes to reported business details, business report certificate, documents proving the change",
+      "period": "Facility and equipment check within 30 days after the change report",
+      "href": "#term-bs-change"
+    },
+    {
+      "id": "sit-bs-no-license",
+      "q": "Can someone without a beautician license open or buy a salon in Korea and hire licensed staff?",
+      "conclusion": "No. Only a person holding a barber or beautician license can open a beauty business, and only a license holder can succeed to the operator's status.",
+      "branches": [
+        {
+          "when": "You want to open without a license",
+          "then": "A license holder must file the business report; opening or working without a license is punishable by a fine of up to KRW 3 million."
+        },
+        {
+          "when": "A license holder acquires an existing salon",
+          "then": "The license holder succeeds to the status and files a succession report within 1 month."
+        },
+        {
+          "when": "Someone only does assistant work under a license holder's supervision",
+          "then": "Assistant work is allowed as an exception."
+        }
+      ],
+      "docs": "Business report or succession report, license records, documents proving the transfer",
+      "period": "Succession report within 1 month of the succession",
+      "href": "#term-bs-license"
+    },
+    {
+      "id": "sit-bs-education",
+      "q": "I completed beauty business hygiene training a year ago. Do I have to take it again to open a new shop in Korea?",
+      "conclusion": "If you open the same type of business within 2 years of completing pre-report hygiene training, that training is treated as completed. For a different business type, you must take it again.",
+      "branches": [
+        {
+          "when": "Filing a new report for the same business type within 2 years",
+          "then": "File the report with your existing certificate."
+        },
+        {
+          "when": "You cannot attend training in advance because of a natural disaster, illness, overseas business trip or the like",
+          "then": "You can complete hygiene training within 6 months after the business report."
+        },
+        {
+          "when": "You are already operating",
+          "then": "Operators must complete hygiene training every year."
+        }
+      ],
+      "docs": "Hygiene training certificate, business report, summary of business facilities and equipment",
+      "period": "3 hours of training; within 6 months after the business report if there is an unavoidable reason",
+      "href": "#term-bs-education"
+    },
+    {
+      "id": "sit-bs-move",
+      "q": "If I move my hair salon to another building in the same district in Korea, how do I handle the business report?",
+      "conclusion": "A change of business address requires a report of changes to reported business details. The authority checks the facilities and equipment at the new shop within 30 days of receiving the change report.",
+      "branches": [
+        {
+          "when": "All facilities and equipment are in place at the new shop",
+          "then": "File the change report with the business report certificate and documents proving the change."
+        },
+        {
+          "when": "You have lost the business report certificate",
+          "then": "If you state the reason for the loss on the change report, you do not need to attach the certificate, and you can also apply separately for reissuance."
+        }
+      ],
+      "docs": "Report of changes to reported business details, business report certificate, documents proving the change",
+      "period": "Facility and equipment check within 30 days after the change report"
+    },
+    {
+      "id": "sit-bs-area",
+      "q": "We expanded our salon by opening up the space next door. Do we need to report it in Korea?",
+      "conclusion": "If the reported floor area increases or decreases by one third or more, a change report is required. Failing to report can lead to imprisonment of up to 6 months or a fine of up to KRW 5 million.",
+      "branches": [
+        {
+          "when": "The floor area changed by one third or more",
+          "then": "File the change report with supporting documents such as the post-change floor plan."
+        },
+        {
+          "when": "The change is less than one third",
+          "then": "No area change report is required, but report any other changes such as the trade name or representative."
+        }
+      ],
+      "docs": "Report of changes to reported business details, business report certificate, documents proving the change",
+      "period": "In practice, report right after the change"
+    },
+    {
+      "id": "sit-bs-building",
+      "q": "What should I check about the building before signing a lease for a hair salon in Korea?",
+      "conclusion": "The authority checks the building register and land use plan confirmation through administrative information sharing when the business report is filed, so checking the building's use before signing reduces supplementation requests.",
+      "branches": [
+        {
+          "when": "The use on the building register does not fit a beauty business",
+          "then": "First check whether a building use change is possible."
+        },
+        {
+          "when": "The premises are subject to an electrical safety inspection",
+          "then": "The electrical safety inspection certificate is also checked by the authority."
+        }
+      ],
+      "docs": "Building register, land use plan confirmation, summary of business facilities and equipment",
+      "period": "In practice, if there are no building issues, the business report certificate is issued immediately on filing"
+    },
+    {
+      "id": "sit-bs-inheritance",
+      "q": "The owner of a hair salon in Korea has died. What happens if a family member without a beautician license inherits it?",
+      "conclusion": "An heir without a license cannot succeed to the beauty business status and must file a closure report within 3 months of the inheritance.",
+      "branches": [
+        {
+          "when": "The heir has no license",
+          "then": "File the closure report within 3 months with documents proving heirship."
+        },
+        {
+          "when": "The heir holds a license",
+          "then": "The heir succeeds to the status and files a succession report within 1 month."
+        },
+        {
+          "when": "An ordinary closure",
+          "then": "File the closure report within 20 days of closing; a closure report cannot be filed during a business suspension period."
+        }
+      ],
+      "docs": "Closure report, documents proving heirship (not needed if confirmed via the family relationship certificate); the tax office closure report can be filed at the same time",
+      "period": "Unlicensed heir: closure report within 3 months; ordinary closure: within 20 days; succession: within 1 month",
+      "href": "#term-bs-closure"
+    },
+    {
+      "id": "sit-bs-unreported",
+      "q": "What happens if I open a hair salon in Korea before filing the business report?",
+      "conclusion": "Running a beauty business without a report can lead to imprisonment of up to 1 year or a fine of up to KRW 10 million, and is also a ground for administrative sanctions such as business suspension. Once facilities and training are in place and the report is filed, the business report certificate is issued immediately.",
+      "branches": [
+        {
+          "when": "License, training and facilities are all in place",
+          "then": "File the business report right away and start operating after receiving the certificate."
+        },
+        {
+          "when": "You have not completed hygiene training",
+          "then": "Check whether an unavoidable reason applies; if not, complete the training first."
+        }
+      ],
+      "docs": "Business report, summary of business facilities and equipment, hygiene training certificate",
+      "period": "Business report certificate issued immediately on filing"
+    },
+    {
+      "id": "sit-bs-cost",
+      "q": "How much does a beauty salon business report cost in Korea, and how long does it take?",
+      "conclusion": "The business report fee follows the competent city, county or district office's standards, and the hygiene training cost varies by training provider. Since the business report certificate is issued immediately on filing, preparing the license, training and facilities sets the actual schedule.",
+      "branches": [
+        {
+          "when": "You have a license and a training certificate",
+          "then": "Once facilities are in place, you can receive the certificate on the day you file."
+        },
+        {
+          "when": "You have not yet scheduled training",
+          "then": "Complete the 3-hour training first according to the training provider's schedule."
+        }
+      ],
+      "docs": "Business report, summary of business facilities and equipment, hygiene training certificate",
+      "period": "Issued immediately on filing; facility check, if any, within 30 days of issuance",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-bs-agent",
+      "q": "If I hire an administrative agent for a beauty salon business report in Korea, what do they handle?",
+      "conclusion": "We determine the business type and review reporting requirements, draft the business report and the summary of business facilities and equipment, file with the competent district office, handle supplementation, and file change, succession and closure reports. We do not handle beauty treatments, license exams or the hygiene training itself.",
+      "branches": [
+        {
+          "when": "Opening a new business",
+          "then": "We check the license, training and facilities, then draft and file the report."
+        },
+        {
+          "when": "Already operating",
+          "then": "We handle reports for added business types, relocation and floor area changes, as well as succession and closure reports."
+        }
+      ],
+      "docs": "License details, hygiene training certificate, shop floor plan and facility details, lease records",
+      "period": "Issued immediately on filing; in practice, it depends on the documents prepared"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-bs-public-hygiene",
+      "term": "Public hygiene business (공중위생영업)",
+      "def": "A business that provides hygiene management services to many people, namely lodging, public bath, barber, beauty, laundry and building sanitation management businesses."
+    },
+    {
+      "id": "term-bs-beauty",
+      "term": "Beauty business (미용업)",
+      "def": "A business that grooms customers' faces, hair, skin, fingernails, toenails and the like to enhance their appearance, divided into general, skin care, nail, makeup and comprehensive beauty businesses."
+    },
+    {
+      "id": "term-bs-license",
+      "term": "Beautician license (미용사 면허)",
+      "def": "A license granted by the city mayor, county head or district head to a person who meets the statutory requirements; without it, you cannot open a beauty business or work in it."
+    },
+    {
+      "id": "term-bs-report",
+      "term": "Business report certificate (영업신고증)",
+      "def": "A certificate issued immediately by the city mayor, county head or district head on receipt of a public hygiene business report."
+    },
+    {
+      "id": "term-bs-education",
+      "term": "Hygiene training (위생교육)",
+      "def": "Public hygiene training required before the business report and every year during operation; each session is 3 hours."
+    },
+    {
+      "id": "term-bs-change",
+      "term": "Report of changes to reported business details (영업신고사항 변경신고)",
+      "def": "A report filed when the trade name or address changes, the floor area increases or decreases by one third or more, the representative changes, or beauty business types are switched or added."
+    },
+    {
+      "id": "term-bs-succession",
+      "term": "Succession to business operator status (영업자 지위승계)",
+      "def": "Taking over the status of a public hygiene business operator through transfer, inheritance, merger or the like; for beauty businesses, only a license holder can succeed, and it is reported within 1 month."
+    },
+    {
+      "id": "term-bs-closure",
+      "term": "Business closure report (폐업신고)",
+      "def": "A report filed with the city mayor, county head or district head within 20 days of closing a public hygiene business."
+    }
+  ]
+}

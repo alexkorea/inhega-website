@@ -1,0 +1,302 @@
+{
+  "slug": "drone-business-registration",
+  "lang": "en",
+  "label": "Drone Business Registration (Ultralight Flying Device Use Business)",
+  "kw": "Drone business registration agent in Korea",
+  "answer": "Ultralight flying device use business registration (초경량비행장치사용사업 등록) is the business registration under the Aviation Business Act (항공사업법) for anyone who wants to run a business using drones or other ultralight flying devices. The registration application and business plan are filed with the Korea Transportation Safety Authority (한국교통안전공단). You need at least 1 pilot, at least 1 unmanned aircraft, insurance or mutual aid coverage, and capital or assessed asset value of KRW 30 million or more (not required if you use only unmanned aircraft with a maximum takeoff weight of 25 kg or less). The processing period on the application form is 14 days. YouSun Administrative Agency prepares and files the registration application and business plan.",
+  "services": [
+    {
+      "name": "Preparing and filing the ultralight flying device use business registration application (초경량비행장치사용사업 등록)",
+      "href": "#term-dr-business"
+    },
+    {
+      "name": "Drafting the business plan: purpose and scope, safety management measures, equipment and staff overview, planned start date (사업계획서)",
+      "href": "#term-dr-business-plan"
+    },
+    {
+      "name": "Pre-checking the registration requirements for pilots, aircraft, insurance and capital (등록요건)",
+      "href": "#term-dr-requirements"
+    },
+    {
+      "name": "Organizing documents proving the registration requirements are met",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Preparing proof of the right to use another person's property",
+      "href": "#sit-dr-where"
+    },
+    {
+      "name": "Checking whether any disqualification applies (결격사유)",
+      "href": "#term-dr-disqualification"
+    },
+    {
+      "name": "Responding to supplementation requests for missing documents",
+      "href": "#sit-dr-period"
+    },
+    {
+      "name": "Report of changes to registered details: capital reduction, business office, representative, trade name, business scope (변경신고)",
+      "href": "#term-dr-change"
+    }
+  ],
+  "clients": [
+    "Sole proprietors starting a business in drone aerial filming, crop spraying and similar services",
+    "Corporations adding drone services as a new line of business",
+    "Existing registered businesses that need a change report after a change of representative, trade name or business office"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Individuals and corporations that want to run a business using ultralight flying devices (unmanned aircraft) to meet other people's demand"
+    },
+    {
+      "label": "Requirements",
+      "value": "Paid-in capital for corporations or assessed asset value for individuals of KRW 30 million or more (not required if only unmanned aircraft of 25 kg or less maximum takeoff weight are used), at least 1 pilot, at least 1 unmanned aircraft, insurance or mutual aid coverage, no disqualification"
+    },
+    {
+      "label": "Process",
+      "value": "Prepare requirements (pilot, aircraft, insurance) → file the registration application and documents → supplementation request within 7 days if documents are missing → requirements review → entry in the registration ledger and registration certificate issued"
+    },
+    {
+      "label": "Documents",
+      "value": "Ultralight flying device use business registration application, documents proving the registration requirements are met, business plan (purpose and scope, safety management measures, capital, trade name, overview of facilities and equipment, overview of staff, planned start date), proof of the right to use another person's property (if applicable)"
+    },
+    {
+      "label": "Timeline",
+      "value": "14 days on the application form; supplementation request within 7 days if documents are missing; changes to registered details are reported within 30 days of the change"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Using only small drones of 25 kg or less",
+      "target": "sit-dr-small-drone"
+    },
+    {
+      "label": "Starting a new drone business such as spraying or filming",
+      "target": "sit-dr-new-business"
+    },
+    {
+      "label": "Confused with aircraft reporting or flight approval",
+      "target": "sit-dr-aircraft-report"
+    },
+    {
+      "label": "Trade name or representative changed after registration",
+      "target": "sit-dr-change"
+    },
+    {
+      "label": "A past registration was cancelled",
+      "target": "sit-dr-reregister"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-dr-new-business",
+      "q": "I want to start a drone crop spraying business in Korea. Do I need ultralight flying device use business registration?",
+      "conclusion": "To run a business using ultralight flying devices such as drones to meet other people's demand, you need ultralight flying device use business registration, not a permit. Meet the registration requirements and file the registration application and business plan.",
+      "branches": [
+        {
+          "when": "You fly drones on commission from others for payment",
+          "then": "Meet the pilot, aircraft, insurance and capital requirements and apply for registration."
+        },
+        {
+          "when": "You are already operating without registration",
+          "then": "Running the business without registration is punishable by imprisonment of up to 1 year or a fine of up to KRW 10 million, so prepare the registration right away."
+        }
+      ],
+      "docs": "Registration application, documents proving the registration requirements are met, business plan",
+      "period": "14 days on the application form",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-dr-small-drone",
+      "q": "Does a sole proprietor in Korea who uses only small drones of 25 kg or less still need to meet the KRW 30 million capital requirement?",
+      "conclusion": "If you use only unmanned aircraft with a maximum takeoff weight of 25 kg or less, the capital or assessed asset value requirement does not apply. You still need at least 1 pilot, at least 1 unmanned aircraft, and insurance or mutual aid coverage.",
+      "branches": [
+        {
+          "when": "Using only unmanned aircraft of 25 kg or less",
+          "then": "Prepare the documents for the pilot, aircraft and insurance requirements without proof of capital."
+        },
+        {
+          "when": "Using even one device over 25 kg",
+          "then": "Prove paid-in capital (corporations) or assessed asset value (individuals) of KRW 30 million or more."
+        }
+      ],
+      "docs": "Registration application, documents for the pilot, aircraft and insurance, capital or asset valuation documents (if using devices over 25 kg), business plan",
+      "period": "14 days on the application form"
+    },
+    {
+      "id": "sit-dr-insurance",
+      "q": "What insurance coverage do I need before registering a drone business in Korea?",
+      "conclusion": "To meet the registration requirements, you must take out insurance or mutual aid coverage for bodily injury and property damage, either for each ultralight flying device or for the business as a whole. Submit the certificate of coverage as a document proving the registration requirements.",
+      "branches": [
+        {
+          "when": "Operating several devices",
+          "then": "Decide whether to insure each device or the business as a whole, and check that every device falls within the coverage."
+        },
+        {
+          "when": "Adding devices after registration",
+          "then": "Check whether the added devices are covered by the insurance and follow any required change procedure."
+        }
+      ],
+      "docs": "Certificate of insurance or mutual aid coverage, list of devices",
+      "period": "14 days on the application form; arranging insurance takes separate time"
+    },
+    {
+      "id": "sit-dr-where",
+      "q": "Where do I file the application for ultralight flying device use business registration in Korea?",
+      "conclusion": "The Act requires registration with the Minister of Land, Infrastructure and Transport (국토교통부장관), and the Enforcement Rule provides that the registration application is submitted to the President of the Korea Transportation Safety Authority. Corporate and real estate registry certificates are checked through administrative information sharing.",
+      "branches": [
+        {
+          "when": "You lease an office or storage space",
+          "then": "Also submit documents proving that you can use another person's property."
+        },
+        {
+          "when": "You use property you own",
+          "then": "Submit the registration application, business plan and requirement documents without proof of the right to use."
+        }
+      ],
+      "docs": "Registration application, business plan, documents proving the registration requirements are met, proof of the right to use property (if it belongs to someone else)",
+      "period": "14 days on the application form"
+    },
+    {
+      "id": "sit-dr-period",
+      "q": "How long does ultralight flying device use business registration take in Korea after applying?",
+      "conclusion": "The processing period on the application form is 14 days. If documents are missing, supplementation is requested within 7 days, so the actual time depends on whether supplementation is needed.",
+      "branches": [
+        {
+          "when": "All requirement documents are complete",
+          "then": "After the requirements review, the business is entered in the registration ledger and the registration certificate is issued."
+        },
+        {
+          "when": "You receive a supplementation request",
+          "then": "The period extends while the requested documents are submitted, so align the business plan items and the insurance certificate before applying."
+        }
+      ],
+      "docs": "Registration application, documents proving the registration requirements are met, business plan",
+      "period": "14 days on the application form; supplementation requested within 7 days",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-dr-cost",
+      "q": "I am looking into the cost of drone business registration in Korea. Which requirements and documents should I prepare first?",
+      "conclusion": "The scope of preparation depends on the maximum takeoff weight of the devices you will use and the type of business. Put the pilot, aircraft and insurance in place first, add proof of capital if you use devices over 25 kg, and then write the business plan.",
+      "branches": [
+        {
+          "when": "Using only devices of 25 kg or less",
+          "then": "Prepare with at least 1 pilot, at least 1 device, and proof of insurance or mutual aid coverage."
+        },
+        {
+          "when": "Using devices over 25 kg",
+          "then": "In addition to the above, prove paid-in capital or assessed asset value of KRW 30 million or more."
+        }
+      ],
+      "docs": "Registration application, business plan (including safety management measures and an accident response manual), documents proving the registration requirements are met",
+      "period": "14 days on the application form"
+    },
+    {
+      "id": "sit-dr-aircraft-report",
+      "q": "Are drone aircraft reporting and ultralight flying device use business registration the same procedure in Korea?",
+      "conclusion": "No, they are different procedures. Business registration covers the requirements for running a business under the Aviation Business Act, while aircraft reporting and pilot certification fall under the Aviation Safety Act (항공안전법) and are handled separately.",
+      "branches": [
+        {
+          "when": "Operating drones as a business",
+          "then": "Apart from business registration, check whether Aviation Safety Act procedures such as aircraft reporting and pilot certification are required."
+        },
+        {
+          "when": "Working in places where flight approval is needed",
+          "then": "Go through the flight approval procedures separately, regardless of business registration."
+        }
+      ],
+      "docs": "Business registration: registration application, business plan and requirement documents; aircraft reporting and the like: documents under the Aviation Safety Act procedures",
+      "period": "Business registration: 14 days on the application form; other procedures vary by the competent agency"
+    },
+    {
+      "id": "sit-dr-change",
+      "q": "How do I report a change of trade name or representative after registering a drone business in Korea?",
+      "conclusion": "When registered details change, such as a capital reduction, opening or changing a business office, or a change of representative, trade name or business scope, you must report within 30 days of the change.",
+      "branches": [
+        {
+          "when": "The trade name or representative changed",
+          "then": "Report within 30 days of the change with documents proving the change."
+        },
+        {
+          "when": "Expanding the business scope or opening a new business office",
+          "then": "The business plan details also change, so report with the changed scope and facilities reflected."
+        }
+      ],
+      "docs": "Change report, documents proving the change",
+      "period": "Report within 30 days of the change"
+    },
+    {
+      "id": "sit-dr-reregister",
+      "q": "My drone business registration in Korea was cancelled in the past. Can I register again?",
+      "conclusion": "You cannot register until 2 years have passed since the cancellation. Being under adult guardianship or limited guardianship, or being bankrupt and not yet reinstated, are also disqualifications.",
+      "branches": [
+        {
+          "when": "2 years have passed since the cancellation date",
+          "then": "Confirm that no disqualification applies, meet the requirements again and apply for a new registration."
+        },
+        {
+          "when": "Less than 2 years have passed since the cancellation date",
+          "then": "You cannot register until that period has passed, so adjust the application timing."
+        }
+      ],
+      "docs": "Registration application, documents proving the registration requirements are met, business plan",
+      "period": "Disqualification period: 2 years after cancellation; registration: 14 days on the application form"
+    },
+    {
+      "id": "sit-dr-agent",
+      "q": "If I hire an administrative agent for drone business registration in Korea, what do they handle?",
+      "conclusion": "Acting on your authorization, YouSun Administrative Agency drafts documents such as the registration application and business plan, files them with the agency and handles supplementation. We do not provide pilot training, purchase insurance, build or maintain aircraft, or obtain airspace flight approvals, and whether the registration is granted is decided by the competent agency.",
+      "branches": [
+        {
+          "when": "The pilot, aircraft and insurance are in place",
+          "then": "We check the requirements, draft the business plan, file the registration application and handle supplementation."
+        },
+        {
+          "when": "There is no pilot qualification or insurance yet",
+          "then": "Obtain them first from the relevant institution or insurer, and we reflect the proof documents in the application."
+        }
+      ],
+      "docs": "Pilot qualification records, aircraft records, certificate of insurance, letter of authorization",
+      "period": "14 days on the application form",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-dr-business",
+      "term": "Ultralight flying device use business (초경량비행장치사용사업)",
+      "def": "Running a business using ultralight flying devices to meet other people's demand; it must be registered with the Minister of Land, Infrastructure and Transport under the Aviation Business Act."
+    },
+    {
+      "id": "term-dr-uav",
+      "term": "Unmanned aircraft (무인비행장치)",
+      "def": "An ultralight flying device with no one on board; the devices counted toward the use business registration requirements are limited to unmanned aircraft."
+    },
+    {
+      "id": "term-dr-mtow",
+      "term": "Maximum takeoff weight (최대이륙중량)",
+      "def": "The maximum weight at which a device can take off; if only unmanned aircraft of 25 kg or less are used, the capital requirement does not apply."
+    },
+    {
+      "id": "term-dr-requirements",
+      "term": "Registration requirements (등록요건)",
+      "def": "The standards under the Enforcement Decree, consisting of capital or assessed asset value, at least 1 pilot, at least 1 unmanned aircraft, and insurance or mutual aid coverage."
+    },
+    {
+      "id": "term-dr-business-plan",
+      "term": "Business plan (사업계획서)",
+      "def": "A document attached to the registration application covering the business purpose and scope, safety management measures (safety inspection plan and accident response manual), capital, trade name, overview of facilities and equipment, overview of staff, and the planned start date."
+    },
+    {
+      "id": "term-dr-disqualification",
+      "term": "Disqualification (결격사유)",
+      "def": "Grounds that prevent registration, such as being under adult guardianship or limited guardianship, being bankrupt and not yet reinstated, or less than 2 years having passed since a registration was cancelled."
+    },
+    {
+      "id": "term-dr-change",
+      "term": "Change report (변경신고)",
+      "def": "A report filed within 30 days of a change in registered details, such as a capital reduction, opening or changing a business office, or a change of representative, trade name or business scope."
+    }
+  ]
+}

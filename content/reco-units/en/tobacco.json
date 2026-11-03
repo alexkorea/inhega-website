@@ -1,0 +1,346 @@
+{
+ "slug": "tobacco",
+ "lang": "en",
+ "label": "Tobacco Import and Sales Business Registration",
+ "kw": "Tobacco import business registration agent in Korea",
+ "answer": "Tobacco import and sales business registration (담배수입판매업 등록) is a registration filed with the Mayor or Provincial Governor with jurisdiction over the head office or principal office by a person who wants to import tobacco and sell it to wholesalers or retailers; it is not filed with a central ministry. The registration requirement is a tobacco supply contract with a foreign tobacco manufacturer. When you submit the tobacco import and sales business registration application with a copy of the supply contract, a registration certificate is issued unless grounds for disqualification apply. YouSun Administrative Agency prepares the registration application, files it with the city or province, and handles sales price reports and change registration.",
+ "services": [
+  {
+   "name": "Preparing and filing the tobacco import and sales business registration application (담배수입판매업등록신청)",
+   "href": "#term-tb-import-sales"
+  },
+  {
+   "name": "Determining the business type (import and sales, wholesale, retail, manufacturing) and pre-checking disqualification grounds (결격사유)",
+   "href": "#term-tb-disqualification"
+  },
+  {
+   "name": "Reviewing the attachment requirements for the supply contract with a foreign tobacco manufacturer (담배 공급계약)",
+   "href": "#term-tb-supply-contract"
+  },
+  {
+   "name": "Receiving the registration certificate and handling supplementation requests",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Preparing and filing sales price reports (판매가격 신고)",
+   "href": "#term-tb-price-report"
+  },
+  {
+   "name": "Change registration applications (corporate name and representative, head office location, tobacco supplier) (변경등록)",
+   "href": "#term-tb-change-registration"
+  },
+  {
+   "name": "Preparing and filing tobacco wholesale business registration applications (담배도매업 등록)",
+   "href": "#term-tb-wholesale"
+  },
+  {
+   "name": "Preparing retailer designation applications and pre-checking the distance standards (소매인 지정)",
+   "href": "#term-tb-retailer"
+  },
+  {
+   "name": "Guidance on import registration for e-cigarettes (products made from nicotine)",
+   "href": "#sit-tb-cigar"
+  }
+ ],
+ "clients": [
+  "Import and trading companies bringing overseas tobacco brands into Korea for distribution",
+  "Sole proprietors importing specialty products such as cigars and pipe tobacco",
+  "Korean subsidiaries of overseas tobacco manufacturers and foreign-invested companies",
+  "Existing importers needing change registration due to a supplier change, head office move or the like",
+  "Distributors preparing wholesale registration or retailer designation alongside importing"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Corporations and sole proprietors that intend to import tobacco and sell it to wholesalers or retailers"
+  },
+  {
+   "label": "Requirements",
+   "value": "A tobacco supply contract with a foreign tobacco manufacturer and no grounds for disqualification (including the representative for a corporation); the law sets no capital or store floor area requirements"
+  },
+  {
+   "label": "Process",
+   "value": "Confirm the business type → check disqualification grounds → sign the supply contract → apply to the Mayor or Provincial Governor → registration certificate issued (the city or province notifies related agencies within 7 days) → sales price report → build the retail network"
+  },
+  {
+   "label": "Documents",
+   "value": "Tobacco import and sales business registration application, 1 copy of the tobacco supply contract signed with a foreign tobacco manufacturer"
+  },
+  {
+   "label": "Timeline",
+   "value": "Depends on the competent city or province's review and whether supplementation is needed; after registration, the city or province notifies related agencies within 7 days; sales price reports are due at least 6 days before sales begin"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Importing small volumes as a sole proprietor",
+   "target": "sit-tb-individual"
+  },
+  {
+   "label": "Bringing in specialty tobacco such as cigars",
+   "target": "sit-tb-cigar"
+  },
+  {
+   "label": "Selling imported tobacco directly to consumers",
+   "target": "sit-tb-retail"
+  },
+  {
+   "label": "Setting sales prices for imported tobacco",
+   "target": "sit-tb-price"
+  },
+  {
+   "label": "Changing the overseas supplier",
+   "target": "sit-tb-supplier-change"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-tb-capital",
+   "q": "Do I need a minimum capital or a warehouse to register a tobacco import business in Korea?",
+   "conclusion": "The law sets no capital or store floor area requirements for the tobacco import and sales business; the registration requirement is a supply contract with a foreign tobacco manufacturer. Storage facilities are a requirement for tobacco wholesale business registration.",
+   "branches": [
+    {
+     "when": "You import and sell only to wholesalers and retailers",
+     "then": "Apply for tobacco import and sales business registration with a copy of the supply contract."
+    },
+    {
+     "when": "You also want to run a wholesale business",
+     "then": "Separately register a tobacco wholesale business with the city mayor, county head or district head, using proof of the right to use tobacco storage facilities and the supply contract."
+    },
+    {
+     "when": "You want to manufacture in Korea",
+     "then": "That requires a tobacco manufacturing licence from the Minister of Economy and Finance, with capital (KRW 30 billion or more for non-liquid products, KRW 10 billion or more for liquid products), facility and staffing standards."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#term-tb-supply-contract"
+  },
+  {
+   "id": "sit-tb-authority",
+   "q": "Our head office is in Seoul and our warehouse is in Gyeonggi Province. Where do we register the tobacco import and sales business?",
+   "conclusion": "The tobacco import and sales business is registered with the Mayor or Provincial Governor with jurisdiction over the head office or principal office. It is based on the head office, not the warehouse location.",
+   "branches": [
+    {
+     "when": "You are registering an import and sales business",
+     "then": "Submit the registration application to the Mayor or Provincial Governor for the head office location (for example, the Mayor of Seoul)."
+    },
+    {
+     "when": "You keep a warehouse and also run a wholesale business",
+     "then": "Separately register the tobacco wholesale business with the city mayor, county head or district head with jurisdiction over the head office or principal office."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-tb-individual",
+   "q": "Can a sole proprietor register a tobacco import and sales business in Korea?",
+   "conclusion": "The Tobacco Business Act (담배사업법) and its Enforcement Decree do not limit registrants to corporations, so sole proprietors can register. For corporations, the representative's disqualification status is also checked.",
+   "branches": [
+    {
+     "when": "You are a sole proprietor",
+     "then": "Check that you are not a minor or under adult guardianship, not an undischarged bankrupt, not within 1 year of completing a prison sentence for violating this Act, not on a suspended sentence, and not within 2 years of a registration cancellation."
+    },
+    {
+     "when": "You are a corporation",
+     "then": "A corporation cannot register if its representative falls under the grounds for disqualification, so check the representative first."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#term-tb-disqualification"
+  },
+  {
+   "id": "sit-tb-cigar",
+   "q": "Do we need tobacco import and sales business registration in Korea to import and sell cigars or pipe tobacco?",
+   "conclusion": "Yes. Products made from tobacco leaf or nicotine in a form suitable for smoking, sucking, chewing or sniffing are tobacco under the Tobacco Business Act, so importing them for sale requires tobacco import and sales business registration.",
+   "branches": [
+    {
+     "when": "The products are cigars, pipe tobacco or chewing tobacco made from tobacco leaf",
+     "then": "Register a tobacco import and sales business with the supply contract with the foreign manufacturer."
+    },
+    {
+     "when": "The products are e-cigarettes such as nicotine liquids",
+     "then": "From April 24, 2026, products made from nicotine are also included in tobacco, so complete the same registration and prepare for liquid labeling duties and the like."
+    },
+    {
+     "when": "The products are pharmaceuticals or quasi-drugs under the Pharmaceutical Affairs Act (약사법)",
+     "then": "They are excluded from tobacco, so tobacco import and sales business registration does not apply."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#term-tb-import-sales"
+  },
+  {
+   "id": "sit-tb-documents",
+   "q": "What documents are attached to the tobacco import and sales business registration application in Korea?",
+   "conclusion": "Attach 1 copy of the tobacco supply contract signed with a foreign tobacco manufacturer to the tobacco import and sales business registration application and submit it to the Mayor or Provincial Governor for the head office location.",
+   "branches": [
+    {
+     "when": "The contract counterparty is an intermediate distributor rather than a foreign manufacturer",
+     "then": "The registration requirement is a supply contract with a foreign tobacco manufacturer, so first confirm who the contracting parties are."
+    },
+    {
+     "when": "You change suppliers after registration",
+     "then": "A change of tobacco supplier requires change registration."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the tobacco supply contract signed with a foreign tobacco manufacturer",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-tb-cost-period",
+   "q": "To plan the cost and timeline of tobacco import business registration in Korea, what schedule do we need?",
+   "conclusion": "The schedule centers on signing the supply contract, filing the registration application, and filing the sales price report at least 6 days before sales begin. The review period for registration itself depends on the competent city or province's review and whether supplementation is needed.",
+   "branches": [
+    {
+     "when": "You do not have a supply contract yet",
+     "then": "You can apply for registration only after signing a supply contract with a foreign manufacturer."
+    },
+    {
+     "when": "You have completed registration",
+     "then": "Set sales prices by product and report them to the Mayor or Provincial Governor at least 6 days before sales begin, then publish them."
+    }
+   ],
+   "docs": "Copy of the supply contract, registration application, sales price report",
+   "period": "Statutory: sales price report at least 6 days before sales begin, notification by the city or province to related agencies within 7 days of registration / In practice, the registration review period varies by city or province",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-tb-price",
+   "q": "By when, and to whom, must we report the sales price of imported tobacco in Korea?",
+   "conclusion": "An importer must report the sales price of imported tobacco by product to the Mayor or Provincial Governor at least 6 days before sales begin, and publish it after reporting. The same applies when changing prices.",
+   "branches": [
+    {
+     "when": "You are launching a new product",
+     "then": "Report the price by product at least 6 days before sales begin and publish it. Retailers sell at the published price."
+    },
+    {
+     "when": "You sold without reporting",
+     "then": "This is subject to a fine of up to KRW 2 million."
+    }
+   ],
+   "docs": "Sales price report (prices by product)",
+   "period": "Statutory: at least 6 days before sales begin",
+   "href": "#term-tb-price-report"
+  },
+  {
+   "id": "sit-tb-supplier-change",
+   "q": "If we change our overseas supplier after tobacco import and sales business registration, do we need change registration?",
+   "conclusion": "Yes. A change of tobacco supplier, like a change of corporate name or representative or of head office location, is a material item and requires change registration.",
+   "branches": [
+    {
+     "when": "The supplier, head office location, corporate name or representative has changed",
+     "then": "Submit the tobacco sales business registration change application with the original registration certificate and 1 copy of proof of the change."
+    },
+    {
+     "when": "The representative has come to fall under the grounds for disqualification",
+     "then": "If you replace the representative within 6 months, the registration cancellation rules do not apply, so complete change registration within that period."
+    }
+   ],
+   "docs": "Tobacco sales business registration change application, original registration certificate, 1 copy of proof of the change (new supply contract, etc.)",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#term-tb-change-registration"
+  },
+  {
+   "id": "sit-tb-retail",
+   "q": "Can we sell imported tobacco directly to consumers in our store or online shop in Korea?",
+   "conclusion": "Importers sell to wholesalers or retailers; to sell directly to consumers, you need a separate retailer designation from the city mayor, county head or district head for the business site. Even designated retailers cannot sell by mail order or electronic transactions.",
+   "branches": [
+    {
+     "when": "You want to sell in a physical store",
+     "then": "Submit the retailer designation application and proof of the right to use the store, and meet the designation standards such as a distance of 50 meters or more between outlets."
+    },
+    {
+     "when": "You want to sell through an online shop",
+     "then": "Selling to consumers by electronic transaction is prohibited, and a violation is subject to a fine of up to KRW 5 million."
+    }
+   ],
+   "docs": "Retailer designation application, proof of the right to use the store",
+   "period": "Statutory: retailer designation decided within 7 days (extendable by up to 4 days if unavoidable)",
+   "href": "#term-tb-retailer"
+  },
+  {
+   "id": "sit-tb-unregistered",
+   "q": "What penalties apply for importing and selling tobacco in Korea without tobacco import and sales business registration?",
+   "conclusion": "Running a tobacco import and sales business without registration is punishable by imprisonment of up to 6 months or a fine of up to KRW 5 million, and the related tobacco leaf, nicotine and tobacco are confiscated (or their value is collected if they cannot be confiscated).",
+   "branches": [
+    {
+     "when": "You are already preparing to import",
+     "then": "Complete registration with the Mayor or Provincial Governor and the sales price report before selling."
+    },
+    {
+     "when": "You sold to consumers without retailer designation",
+     "then": "This is separately punishable by imprisonment of up to 6 months or a fine of up to KRW 5 million."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-tb-agent",
+   "q": "If we hire an administrative agent for tobacco import business registration in Korea, what exactly do they handle?",
+   "conclusion": "We handle business type determination, disqualification checks, review of the supply contract attachment requirements, preparation of the registration application and filing with the city or province, receipt of the registration certificate, sales price reports, change registration, and wholesale registration and retailer designation applications. We do not handle import customs clearance (import declarations), contract negotiations with foreign manufacturers, or setting sales prices.",
+   "branches": [
+    {
+     "when": "You are registering for the first time",
+     "then": "We prepare the registration application and attachments, file them with the city or province for your head office, and respond to supplementation requests."
+    },
+    {
+     "when": "You need post-registration management",
+     "then": "We prepare and file sales price reports, change registration for supplier or representative changes, and retailer designation applications."
+    }
+   ],
+   "docs": "Letter of authorization, registration application, copy of the supply contract",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-tb-import-sales",
+   "term": "Tobacco import and sales business (담배수입판매업)",
+   "def": "A business that imports tobacco and sells it to wholesalers or retailers. It is registered with the Mayor or Provincial Governor with jurisdiction over the head office or principal office."
+  },
+  {
+   "id": "term-tb-tobacco",
+   "term": "Tobacco (담배)",
+   "def": "A product made wholly or partly from tobacco leaf or nicotine in a form suitable for smoking, sucking, inhaling as vapor, chewing or sniffing. Pharmaceuticals and quasi-drugs under the Pharmaceutical Affairs Act are excluded."
+  },
+  {
+   "id": "term-tb-supply-contract",
+   "term": "Tobacco supply contract (담배 공급계약)",
+   "def": "The registration requirement for the tobacco import and sales business. It is signed with a foreign tobacco manufacturer, and a copy is attached to the registration application."
+  },
+  {
+   "id": "term-tb-disqualification",
+   "term": "Grounds for disqualification (결격사유)",
+   "def": "Grounds that bar registration, such as being a minor or under adult or limited guardianship, being an undischarged bankrupt, being within 1 year of completing or being exempted from a prison sentence for violating this Act, being on a suspended sentence, being within 2 years of a registration cancellation, or being a corporation whose representative falls under any of these."
+  },
+  {
+   "id": "term-tb-change-registration",
+   "term": "Change registration (변경등록)",
+   "def": "A registration procedure carried out when a material item changes, such as the corporate name or representative, the head office or principal office location, or the tobacco supplier."
+  },
+  {
+   "id": "term-tb-price-report",
+   "term": "Sales price report (판매가격 신고)",
+   "def": "The obligation of an importer to report the sales price of imported tobacco by product to the Mayor or Provincial Governor at least 6 days before sales begin, and to publish it."
+  },
+  {
+   "id": "term-tb-wholesale",
+   "term": "Tobacco wholesale business (담배도매업)",
+   "def": "A business run with tobacco storage facilities and supply contracts with manufacturers, importers or other wholesalers. It is registered with the city mayor, county head or district head."
+  },
+  {
+   "id": "term-tb-retailer",
+   "term": "Retailer designation (소매인 지정)",
+   "def": "A designation that a person who wants to sell tobacco directly to consumers obtains from the city mayor, county head or district head for the business site. Standards include a distance of 50 meters or more between outlets."
+  }
+ ]
+}

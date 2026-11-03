@@ -1,0 +1,195 @@
+{
+  "slug": "car-dealer-rental-business-registration",
+  "lang": "en",
+  "label": "Used car dealer and car rental business registration",
+  "kw": "Used car dealer and car rental business registration agent in Korea",
+  "answer": "Motor vehicle trading business registration (자동차매매업 등록) is filed with the head of the si/gun/gu where the premises are located by anyone who wants to buy, sell or broker used cars as a business, after securing display facilities of at least 660㎡ total floor area and an office; the processing period stated on the form is 15 days. A rent-a-car business, the motor vehicle rental business (자동차대여사업), falls under a different law and authority: it is registered with the si/do governor after meeting fleet (at least 50 vehicles for a nationwide business area), garage and office standards, and the processing period stated on the form is 20 days. YouSun Administrative Agency prepares and files the registration applications and business plans for both businesses on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the motor vehicle management business (motor vehicle trading business) registration application (자동차관리사업(자동차매매업) 등록신청서)", "href": "#term-cd-dealer"},
+    {"name": "Preparing and filing the motor vehicle rental business registration application (자동차대여사업 등록신청서)", "href": "#term-cd-rental"},
+    {"name": "Drafting the business plan (사업계획서), including required funds and staffing plans", "href": "#term-cd-business-plan"},
+    {"name": "Pre-review of the dealer registration standards, such as display facility area and office location", "href": "#term-cd-display"},
+    {"name": "Pre-review of the rental registration standards, such as fleet size, garage and office", "href": "#term-cd-garage"},
+    {"name": "Preparing attachments such as the premises location map and floor plan and proof of the right to use the garage site", "href": "#svc-glance"},
+    {"name": "Checking whether the representative or corporate officers fall under any grounds for disqualification (결격사유)", "href": "#term-cd-disqualification"},
+    {"name": "Submitting documents and handling supplement requests after notice of a facility preparation period", "href": "#sit-cd-period"},
+    {"name": "Preparing and filing the motor vehicle trading business change registration (변경등록) application", "href": "#term-cd-management-business"},
+    {"name": "Guidance on checking local ordinance standards where the premises are located", "href": "#sit-cd-region"}
+  ],
+  "clients": [
+    "Sole proprietors and corporations opening a new used car dealership",
+    "Prospective tenants of a used car complex where several dealers will share one showroom",
+    "Corporations and local operators starting a rent-a-car business",
+    "Automotive businesses that want to run used car sales and car rental together",
+    "Existing dealers who must change registered details, for example after relocating"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to buy, sell or broker used cars as a business (motor vehicle trading business), and anyone who wants to rent out vehicles to others for a fee (motor vehicle rental business)"},
+    {"label": "Requirements", "value": "Trading: display facilities of at least 660㎡ total floor area (up to 30% relaxation when three or more dealers share them), an office adjoining the display facilities or in the same building, local ordinance standards / Rental: at least 50 vehicles for a nationwide business area (the number set by ordinance if operating only within one local government), a garage that is in principle owned by the operator, an office with office and communication equipment / Both: no grounds for disqualification"},
+    {"label": "Process", "value": "Secure premises and display facilities, or garage and vehicles → draft business plan → file registration application → review against registration standards → registration certificate issued"},
+    {"label": "Documents", "value": "Trading: motor vehicle management business registration application, premises location map and floor plan, business plan / Rental: motor vehicle rental business registration application, business plan, list of business vehicles held or vehicle purchase contract, proof of ownership or right to use the garage site"},
+    {"label": "Timeline", "value": "Per the application form, 15 days for the motor vehicle trading business and 20 days for the motor vehicle rental business (time to secure facilities and vehicles is separate)"}
+  ],
+  "chooser": [
+    {"label": "Opening a used car dealership for the first time", "target": "sit-cd-used-car-dealer-setup"},
+    {"label": "The showroom is too small and you are considering shared use", "target": "sit-cd-display-area"},
+    {"label": "Running a rent-a-car business in one area only", "target": "sit-cd-rental-fleet-local"},
+    {"label": "Running both a dealership and a rent-a-car business", "target": "sit-cd-which-business"},
+    {"label": "The showroom or garage is not fully secured yet", "target": "sit-cd-period"}
+  ],
+  "situations": [
+    {
+      "id": "sit-cd-used-car-dealer-setup",
+      "q": "What are the steps to register a motor vehicle trading business to open a used car dealership in Korea?",
+      "conclusion": "A used car dealership can operate only after registering as a motor vehicle trading business with the head of the si/gun/gu where the premises are located. Secure the display facilities and office first, then file the registration application with the business plan, and receive the motor vehicle management business registration certificate after the review against the registration standards.",
+      "branches": [
+        {"when": "You have already secured display facilities (at least 660㎡ total floor area) and an office", "then": "File the registration application with the premises location map, floor plan and business plan, and receive the certificate once the business is entered in the registration ledger."},
+        {"when": "You have not yet secured display facilities", "then": "The competent authority may set a facility preparation period (within 12 months) and notify you to submit documents, so secure the facilities and submit the supporting documents within that period."}
+      ],
+      "docs": "Motor vehicle management business registration application, premises location map and floor plan, business plan (including required funds and staffing plans)",
+      "period": "15 days per the application form / in practice, the time needed to secure display facilities is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-display-area",
+      "q": "My showroom is under 660㎡. Can I register a used car dealership in Korea if I share the space with other dealers?",
+      "conclusion": "The standard for display facilities is at least 660㎡ total floor area, but where three or more dealers jointly use premises at the same place, the area applied to each dealer may be relaxed by up to 30 percent.",
+      "branches": [
+        {"when": "Three or more dealers use the same place as shared premises", "then": "Organize the shared-use structure and area allocation and confirm with the competent authority whether the relaxed area standard can apply."},
+        {"when": "Two or fewer dealers share the space, or you use it alone", "then": "The relaxation does not apply, so you need display facilities of at least 660㎡ total floor area."}
+      ],
+      "docs": "Premises location map and floor plan, proof of the right to use the shared premises, business plan",
+      "period": "In practice, time to organize the shared-use structure and area calculation is added before filing",
+      "href": "#term-cd-display"
+    },
+    {
+      "id": "sit-cd-region",
+      "q": "Are there extra standards for opening a used car dealership in a Seoul district compared with other areas?",
+      "conclusion": "In autonomous districts with a population of 500,000 or more in a special or metropolitan city, a structural standard applies so that vehicles cannot be seen from outside the display facilities (unless the head of the gu finds it unnecessary). Other standards may be added by the ordinance of the si/do or of a city with a population of 500,000 or more.",
+      "branches": [
+        {"when": "The premises are in an autonomous district with a population of 500,000 or more", "then": "Check at the floor plan stage whether the structure keeps vehicles out of view from outside the display facilities."},
+        {"when": "The area has additional standards set by ordinance", "then": "Check the ordinance of the local government where the premises are located, reflect it in the facility plan, and then file."}
+      ],
+      "docs": "Premises location map and floor plan, business plan, motor vehicle management business registration application",
+      "period": "15 days per the application form / in practice, time to check ordinance standards and upgrade facilities may be added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-dealer-docs",
+      "q": "What application form and attachments do I need to register a used car dealership in Korea as a sole proprietor?",
+      "conclusion": "Submit the motor vehicle management business registration application to the head of the si/gun/gu, together with the premises location map and floor plan and a business plan covering required funds and staffing plans.",
+      "branches": [
+        {"when": "You apply as a sole proprietor", "then": "First check whether the representative falls under any grounds for disqualification, then prepare the application and attachments."},
+        {"when": "You apply as a corporation", "then": "Check the grounds for disqualification for all officers as well; the corporate register certificate is checked through administrative information sharing."}
+      ],
+      "docs": "Motor vehicle management business registration application, premises location map and floor plan, business plan (including required funds and staffing plans)",
+      "period": "15 days per the application form",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-period",
+      "q": "How long does used car dealer registration take in Korea, and what happens if I have not found a showroom yet?",
+      "conclusion": "The processing period stated on the form is 15 days, and the time to secure facilities is separate. If the facilities are not yet in place, the competent authority may set a preparation period of up to 12 months and notify you to submit documents.",
+      "branches": [
+        {"when": "You apply with the display facilities and office already in place", "then": "After the review against the registration standards, the business is entered in the registration ledger and the certificate is issued."},
+        {"when": "You have been notified of a facility preparation period", "then": "You must secure the facilities and submit the supporting documents within that period; if you do not submit them in time, registration may be refused."}
+      ],
+      "docs": "Motor vehicle management business registration application, premises location map and floor plan, business plan, proof that the facilities have been secured",
+      "period": "15 days per the application form, facility preparation period of up to 12 months / in practice, depends on the construction or lease schedule",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-cost",
+      "q": "What should I prepare first to estimate the cost of registering a used car dealership in Korea?",
+      "conclusion": "Most of the burden of preparing for registration comes from securing display facilities (at least 660㎡ total floor area) and an office. The business plan must state required funds and staffing plans, so start by organizing the facility conditions and the staffing plan.",
+      "branches": [
+        {"when": "You are setting up a stand-alone showroom", "then": "Plan the facilities around display facilities of at least 660㎡ and an office adjoining them or in the same building."},
+        {"when": "Three or more dealers will share the space, for example in a used car complex", "then": "Recalculate the required area reflecting the relaxation range (30 percent)."}
+      ],
+      "docs": "Business plan (required funds and staffing plans), premises location map and floor plan, motor vehicle management business registration application",
+      "period": "15 days per the application form / in practice, the time to secure facilities drives the overall schedule",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-rental-fleet-local",
+      "q": "I want to run a rent-a-car business in just one city in Korea. Can I register with fewer than 50 vehicles?",
+      "conclusion": "A nationwide business area requires at least 50 vehicles, but if the main office, branch offices and reservation offices are all within one local government and you operate only there, you need the number of vehicles set by that local government's ordinance, within a range below 50.",
+      "branches": [
+        {"when": "The main office, branch offices and reservation offices are all in one local government and you operate only in that area", "then": "Check the number set by that local government's ordinance and plan your fleet accordingly."},
+        {"when": "You will have branch or reservation offices in other areas, or operate nationwide", "then": "You need at least 50 vehicles."}
+      ],
+      "docs": "Motor vehicle rental business registration application, business plan, list of business vehicles held or vehicle purchase contract, proof of ownership or right to use the garage site",
+      "period": "20 days per the application form",
+      "href": "#term-cd-rental"
+    },
+    {
+      "id": "sit-cd-garage",
+      "q": "Does the garage for a rent-a-car business registration in Korea have to be owned by me?",
+      "conclusion": "The garage for a motor vehicle rental business must in principle be owned by the operator; other arrangements are accepted only in specified exceptions, such as holding a use permit for land managed by the state or a local government. The area is measured as length times width per vehicle held, or as the number of parking spaces under the parking standards.",
+      "branches": [
+        {"when": "You use your own land as the garage", "then": "Confirm that the area or number of parking spaces matches your fleet size and attach proof of ownership."},
+        {"when": "You want to use someone else's land", "then": "First check whether an exception applies, and if it does, prepare proof of the right to use the land."}
+      ],
+      "docs": "Proof of ownership or right to use the garage site, motor vehicle rental business registration application, business plan, list of business vehicles held",
+      "period": "20 days per the application form / in practice, the time to secure a garage is added",
+      "href": "#term-cd-garage"
+    },
+    {
+      "id": "sit-cd-rental-docs",
+      "q": "What documents does a corporation need to register a rent-a-car business in Korea?",
+      "conclusion": "Submit the motor vehicle rental business registration application to the si/do governor with the business plan, the list of business vehicles held or a vehicle purchase contract, and proof of ownership or right to use the garage site. The corporate register certificate is checked through information sharing.",
+      "branches": [
+        {"when": "You will set up a reservation office", "then": "Prepare additional documents for the reservation office, such as a parking lot use confirmation."},
+        {"when": "You have not bought the vehicles yet and prove the fleet with a purchase contract", "then": "The vehicles must be registered within 30 days of the date the registration certificate is issued, so align the delivery schedule."}
+      ],
+      "docs": "Motor vehicle rental business registration application, business plan, list of business vehicles held or vehicle purchase contract, proof of ownership or right to use the garage site, parking lot use confirmation if a reservation office is set up",
+      "period": "20 days per the application form; where the fleet is proven by a purchase contract, the vehicles must be registered within 30 days of the certificate issue date",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-which-business",
+      "q": "Do I need separate registrations in Korea to run both used car sales and car rental?",
+      "conclusion": "Yes. The motor vehicle trading business is registered with the head of the si/gun/gu under the Motor Vehicle Management Act (자동차관리법), and the motor vehicle rental business is registered with the si/do governor under the Passenger Transport Service Act (여객자동차 운수사업법), each with different registration standards.",
+      "branches": [
+        {"when": "You will run both businesses at the same premises", "then": "Review separately whether you meet the display facility and office standards (trading) and the garage and office standards (rental)."},
+        {"when": "You will start one business first", "then": "Complete registration for the business you start first, and apply separately for the other once its standards are met."}
+      ],
+      "docs": "Trading: motor vehicle management business registration application, location map, floor plan, business plan / Rental: motor vehicle rental business registration application, business plan, vehicle list, garage proof",
+      "period": "Per the application form, 15 days for trading and 20 days for rental",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-unregistered",
+      "q": "Is there a penalty in Korea for buying and selling used cars as a business without registration?",
+      "conclusion": "Running a motor vehicle trading business without registration may lead to imprisonment of up to 3 years or a fine of up to KRW 30 million, and running a motor vehicle rental business without registration may lead to imprisonment of up to 2 years or a fine of up to KRW 20 million.",
+      "branches": [
+        {"when": "You already buy, sell or broker cars as a business, or plan to", "then": "Meet the display facility and office standards and complete registration before operating."},
+        {"when": "You want to rent out vehicles for a fee", "then": "Meet the rental registration standards (fleet, garage, office) and register with the si/do governor."}
+      ],
+      "docs": "Motor vehicle management business registration application or motor vehicle rental business registration application, business plan, proof of facilities or garage",
+      "period": "Per the application form, 15 days for trading and 20 days for rental",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cd-agent",
+      "q": "If I hire an administrative agent for used car dealer registration in Korea, what do they handle?",
+      "conclusion": "Once engaged by you, YouSun Administrative Agency drafts the registration application, business plan and other attachments, pre-reviews the registration standards and grounds for disqualification, and handles submission to the authority and supplement requests. We do not perform vehicle performance or condition inspections, vehicle registration or transfer services, or tax and accounting work, and the competent authority decides on registration.",
+      "branches": [
+        {"when": "Before securing display facilities or a garage", "then": "We review at the facility planning stage whether the area, location and fleet standards are met."},
+        {"when": "You have the facilities and want to file right away", "then": "We draft the application, business plan and attachments, submit them to the competent authority and respond to supplement requests."}
+      ],
+      "docs": "Premises location map and floor plan or garage proof, personal details of the representative and officers, vehicle list (rental business)",
+      "period": "Per the application form, 15 days for trading and 20 days for rental / in practice, depends on securing facilities and any supplement requests",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-cd-dealer", "term": "Motor vehicle trading business (자동차매매업)", "def": "The business of buying, selling or brokering vehicles other than new vehicles and two-wheeled vehicles, and filing their registration on behalf of others; it must be registered with the head of the si/gun/gu."},
+    {"id": "term-cd-management-business", "term": "Motor vehicle management business (자동차관리사업)", "def": "Covers the motor vehicle trading, maintenance, and dismantling and recycling businesses; changing registered matters also requires a change registration with the registering authority."},
+    {"id": "term-cd-rental", "term": "Motor vehicle rental business (자동차대여사업)", "def": "The business of renting out vehicles for a fee in response to others' demand; the operator must prepare a business plan and register with the si/do governor."},
+    {"id": "term-cd-display", "term": "Display facilities (전시시설)", "def": "Facilities for displaying vehicles for sale under the trading business registration standards; the standard is at least 660㎡ total floor area, which may be relaxed by up to 30 percent when three or more dealers share them."},
+    {"id": "term-cd-garage", "term": "Garage (차고)", "def": "Under the rental business registration standards, a facility with an area of length times width per vehicle held, or the corresponding number of parking spaces; in principle it must be owned by the operator."},
+    {"id": "term-cd-business-plan", "term": "Business plan (사업계획서)", "def": "A document attached to the registration application; for the trading business it covers required funds and staffing plans, and for the rental business it covers the plan for operating the rental business."},
+    {"id": "term-cd-disqualification", "term": "Grounds for disqualification (결격사유)", "def": "Grounds that bar a person from the business, such as being under adult or limited guardianship, being declared bankrupt and not reinstated, or less than one year having passed since a registration was cancelled; for corporations, they also apply to officers."}
+  ]
+}

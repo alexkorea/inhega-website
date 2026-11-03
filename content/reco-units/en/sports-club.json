@@ -1,0 +1,189 @@
+{
+  "slug": "sports-club",
+  "lang": "en",
+  "label": "Designated sports club designation",
+  "kw": "Designated sports club designation agent in Korea",
+  "answer": "Designated sports club designation (지정스포츠클럽 지정) is a two-step process: a corporation or organization first registers as a sports club with the si/gun/gu, then submits a designation application to the Minister of Culture, Sports and Tourism. Registration is decided within 14 days once you apply with articles of association, an annual operating plan, a representative body and at least 10 members per sport; a designation is valid for 3 years and brings an obligation to take out insurance within 30 days. YouSun Administrative Agency prepares and files the sports club registration application and the designation application on your behalf.",
+  "services": [
+    {"name": "Preparing the sports club registration application (스포츠클럽 등록신청서) and filing it with the si/gun/gu", "href": "#term-sc-registration"},
+    {"name": "Pre-review of the registration requirements (articles of association, annual operating plan, representative body, 10 members per sport)", "href": "#sit-sc-members"},
+    {"name": "Support in drafting the sports club's articles of association (정관) and organization chart", "href": "#term-sc-club"},
+    {"name": "Support in drafting the annual operating plan (연간운영계획서), including the sports facility use plan and per-sport operating plan", "href": "#term-sc-annual-plan"},
+    {"name": "Organizing the per-sport member register and proof of membership fee payments", "href": "#svc-glance"},
+    {"name": "Preparing the designated sports club designation application (지정스포츠클럽 지정신청서) and filing it with the Ministry of Culture, Sports and Tourism (문화체육관광부)", "href": "#term-sc-designated"},
+    {"name": "Organizing proof of the designation requirements (staff, facilities and requirements in the Ministry's public notice)", "href": "#sit-sc-two-step"},
+    {"name": "Preparing and filing the sports club registration change report (스포츠클럽 등록 변경신고서)", "href": "#term-sc-change"},
+    {"name": "Preparing the designation renewal application (지정 갱신 신청서) and managing the schedule before the validity period ends", "href": "#term-sc-validity"},
+    {"name": "Guidance on the schedule for submitting proof of insurance after designation", "href": "#term-sc-insurance"},
+    {"name": "Handling supplement requests from the competent authority", "href": "#sit-sc-cancel"}
+  ],
+  "clients": [
+    "Organizers who want to register a hobby club or community sports group as a sports club",
+    "Sport-specific clubs and youth clubs founded by former athletes who now coach",
+    "Local sports clubs planning joint programs with school sports clubs and school athletic teams",
+    "Existing designated sports clubs facing a designation renewal or a change report",
+    "Organizations that want to run a sports club as a nonprofit corporation or social cooperative"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Corporations or organizations (including unincorporated organizations) run to promote sports activities in the local community that want designation after registering as a sports club"},
+    {"label": "Requirements", "value": "Registration: articles of association, annual operating plan, a representative and a members' representative body, at least 10 members per sport who pay fees regularly and take part in activities / Designation: staff and facilities to carry out the designated programs, plus the requirements in the Minister of Culture, Sports and Tourism's public notice"},
+    {"label": "Process", "value": "Requirement review → sports club registration application to the si/gun/gu → registration decision and certificate within 14 days → designation application to the Minister of Culture, Sports and Tourism → designation certificate issued → insurance within 30 days → renewal no later than 45 days before expiry"},
+    {"label": "Documents", "value": "Sports club registration application, articles of association and organization chart, annual operating plan, per-sport member register, proof of membership fee payments, designated sports club designation application, proof of staff and facility requirements, copy of the sports club registration certificate"},
+    {"label": "Timeline", "value": "Registration review within 14 days of the application; designation valid for 3 years from the designation date; insurance within 30 days of designation; renewal application no later than 45 days before expiry / the designation review period depends on the competent authority's review and any supplements"}
+  ],
+  "chooser": [
+    {"label": "You want to register a hobby club as a sports club and then get designated", "target": "sit-sc-two-step"},
+    {"label": "You are not sure your membership meets the requirement", "target": "sit-sc-members"},
+    {"label": "You want to apply as an organization without forming a corporation", "target": "sit-sc-no-corp"},
+    {"label": "Your designation is about to expire", "target": "sit-sc-renewal"},
+    {"label": "Your registered details have changed", "target": "sit-sc-change"},
+    {"label": "You want to hand over the application preparation", "target": "sit-sc-agent"}
+  ],
+  "situations": [
+    {
+      "id": "sit-sc-two-step",
+      "q": "We run an amateur football club. What is the first step to becoming a designated sports club in Korea?",
+      "conclusion": "You first register as a sports club with the si/gun/gu, and only registered clubs can apply to the Minister of Culture, Sports and Tourism for designation. You cannot be designated without registering first.",
+      "branches": [
+        {"when": "You have articles of association, an annual operating plan, a representative body and at least 10 members per sport", "then": "Submit a sports club registration application to the Mayor of the Special Self-Governing City, the Governor of the Special Self-Governing Province, or the mayor, county head or district head, and receive the registration certificate."},
+        {"when": "You want designation after completing registration", "then": "Submit the designation application with proof of the staff and facilities to carry out the designated programs, such as links with school sports clubs or training elite athletes in each sport, and a copy of the registration certificate."}
+      ],
+      "docs": "Sports club registration application, articles of association and organization chart, annual operating plan (including the sports facility use plan and per-sport operating plan), per-sport sports club member register, proof of membership fee payments / Designation stage: designated sports club designation application, proof of staff and facility requirements, proof of the requirements in the Minister of Culture, Sports and Tourism's public notice, copy of the sports club registration certificate",
+      "period": "Statutory: registration review within 14 days / in practice, the designation stage depends on preparing staff and facility evidence and any supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sc-members",
+      "q": "Can we register a sports club in Korea if we have fewer than 10 members in a sport?",
+      "conclusion": "To register, you must keep at least 10 members per sport at all times who pay fees regularly and take part in activities. If you are short of members, apply after recruiting enough.",
+      "branches": [
+        {"when": "You run several sports", "then": "Check separately with the per-sport member register that each sport has at least 10 members."},
+        {"when": "You have members but no record of fee payments", "then": "Prepare documents proving fee payments first. If you fail to meet the requirements after registration, you may face a supplement order and cancellation."}
+      ],
+      "docs": "Per-sport sports club member register, documents proving that sports club members have paid their fees",
+      "period": "In practice, you need time before applying to recruit members and build fee payment records (registration review within 14 days after the application)"
+    },
+    {
+      "id": "sit-sc-no-corp",
+      "q": "We are an unincorporated group. What documents do we need to register as a sports club in Korea?",
+      "conclusion": "A corporation or an organization can register, so an organization without legal personality can also register. However, you must show the substance of the organization on paper through the articles of association, representative body, member register and proof of fee payments.",
+      "branches": [
+        {"when": "You want to register as an organization", "then": "Submit the registration application with the articles of association and organization chart, annual operating plan, per-sport member register and proof of fee payments."},
+        {"when": "You want a corporate structure as your operating base", "then": "Review setting up a nonprofit incorporated association or a social cooperative at the same time, and apply for registration in the corporation's name after it is set up."}
+      ],
+      "docs": "Sports club registration application, articles of association and organization chart, annual operating plan (including the sports facility use plan and per-sport operating plan), per-sport sports club member register, proof of membership fee payments",
+      "period": "Statutory: registration review within 14 days / in practice, setting up a corporation first adds the time for that procedure"
+    },
+    {
+      "id": "sit-sc-period",
+      "q": "How long does it take to go from sports club registration to designation in Korea?",
+      "conclusion": "Registration is reviewed and decided within 14 days of the application date. The designation stage takes separate time to review the designation application and staff and facility evidence, and depends on the review and any supplements.",
+      "branches": [
+        {"when": "Your registration documents are complete", "then": "Registration is decided within 14 days and, if you qualify, a sports club registration certificate is issued."},
+        {"when": "You also want designation", "then": "Apply for designation after receiving the registration certificate, and once designated, schedule taking out insurance and submitting proof within 30 days."}
+      ],
+      "docs": "Sports club registration application, articles of association and organization chart, annual operating plan (including the sports facility use plan and per-sport operating plan), per-sport sports club member register, proof of membership fee payments / designated sports club designation application, proof of staff and facility requirements, proof of the requirements in the Minister of Culture, Sports and Tourism's public notice, copy of the sports club registration certificate",
+      "period": "Statutory: registration review within 14 days, insurance within 30 days after designation / in practice, the designation review period depends on any supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sc-cost",
+      "q": "How should we budget for designated sports club designation in Korea?",
+      "conclusion": "Rather than fixing a figure in advance, first check the obligations that arise before and after designation. Once designated, you must take out insurance to compensate members for harm within 30 days of the designation date, and you also take on obligations to assign coaches and keep facilities safe.",
+      "branches": [
+        {"when": "You are preparing only for registration", "then": "The work centres on documents such as the articles of association, operating plan, member register and proof of fee payments."},
+        {"when": "You also want designation", "then": "Build insurance, the assignment of qualified coaches and staff and facility evidence into your schedule. The insurance must cover at least the amount set by the Enforcement Decree of the Guarantee of Automobile Accident Compensation Act (자동차손해배상 보장법 시행령) per victim."}
+      ],
+      "docs": "Sports club registration application, articles of association and organization chart, annual operating plan (including the sports facility use plan and per-sport operating plan), per-sport sports club member register, proof of membership fee payments, proof of insurance",
+      "period": "Insurance within 30 days of designation / in practice, preparation time depends on how quickly you secure coaches and facilities"
+    },
+    {
+      "id": "sit-sc-insurance",
+      "q": "After designation as a sports club in Korea, by when must we take out insurance and what must it cover?",
+      "conclusion": "Take out the insurance within 30 days of the designation date and submit proof without delay to the Korea Sports Council (대한체육회) or the Korea Paralympic Committee (대한장애인체육회). Failing to take out insurance is a ground for cancelling the designation.",
+      "branches": [
+        {"when": "You are setting the coverage period and scope", "then": "Choose insurance that covers third-party loss of life, bodily injury and property damage from accidents during operation, from the insurance start date to the end of the designation validity period."},
+        {"when": "You are checking the coverage amount", "then": "Confirm that it covers at least the amount set by the Enforcement Decree of the Guarantee of Automobile Accident Compensation Act per victim."}
+      ],
+      "docs": "Proof of insurance",
+      "period": "Insurance within 30 days of designation; proof submitted without delay"
+    },
+    {
+      "id": "sit-sc-coach",
+      "q": "Our coach only holds a sports federation qualification. Can they serve as a coach at a designated sports club in Korea?",
+      "conclusion": "A coach must be a sports instructor under the National Sports Promotion Act (국민체육진흥법), or hold a qualification set by a sports federation, the Korea Sports Council or the Korea Paralympic Committee that is recognized by the Minister of Culture, Sports and Tourism.",
+      "branches": [
+        {"when": "The federation qualification is recognized by the Minister", "then": "You can assign the person as a coach and include a copy of the certificate and similar documents in the proof of staff requirements."},
+        {"when": "It is unclear whether the qualification is recognized", "then": "Before applying, ask the competent authority whether it is recognized, and consider also assigning a person who holds a sports instructor qualification."}
+      ],
+      "docs": "Proof of coach qualifications, proof of staff and facility requirements",
+      "period": "In practice, you need time before the designation application to confirm qualifications and secure coaches"
+    },
+    {
+      "id": "sit-sc-renewal",
+      "q": "Our 3-year sports club designation is about to expire. When and where do we apply for renewal in Korea?",
+      "conclusion": "Submit the designation renewal application to the Korea Sports Council or the Korea Paralympic Committee no later than 45 days before the validity period ends. That body reports its review to the Minister of Culture, Sports and Tourism and, if you qualify, a renewed designation certificate is issued.",
+      "branches": [
+        {"when": "You received the renewal notice 2 months before expiry", "then": "Follow the procedure in the notice and prepare the staff and facility evidence and proof of the public notice requirements again."},
+        {"when": "You could not apply at least 45 days before expiry", "then": "The designation lapses when the validity period ends, so set the schedule well before expiry."}
+      ],
+      "docs": "Designated sports club designation renewal application, proof of staff and facilities, proof of the public notice requirements, copy of the sports club registration certificate, designated sports club designation certificate",
+      "period": "Statutory: apply no later than 45 days before expiry; the Minister sends a renewal notice no later than 2 months before expiry"
+    },
+    {
+      "id": "sit-sc-change",
+      "q": "Where do we file a change report when the registered details of our sports club in Korea change?",
+      "conclusion": "Submit the change report with proof of the change and the sports club registration certificate to the si/gun/gu sports council or the si/gun/gu disabled sports council. The council reports its review to the administrative authority and, if appropriate, an amended registration certificate is issued.",
+      "branches": [
+        {"when": "It is a general sports club", "then": "Submit the change report to the si/gun/gu sports council."},
+        {"when": "It is a club for disabled sports", "then": "Submit the change report to the si/gun/gu disabled sports council."}
+      ],
+      "docs": "Sports club registration change report, proof of the change, sports club registration certificate",
+      "period": "In practice, it goes through the council's review and a report to the administrative authority, so it depends on any supplements"
+    },
+    {
+      "id": "sit-sc-cancel",
+      "q": "If our membership drops below the registration requirement, will our sports club registration in Korea be cancelled right away?",
+      "conclusion": "If you no longer meet the requirements, the authority can order you to remedy this within a period of up to 3 months, and can cancel the registration if you still fall short after that period. A registration obtained by false or fraudulent means must be cancelled, and a hearing is held beforehand in either case.",
+      "branches": [
+        {"when": "You received a supplement order", "then": "Recruit members and prepare proof of fee payments within the period, then submit the supplementary documents."},
+        {"when": "You are a designated sports club", "then": "Suspending operations for 6 months or more without good reason, or failing to take out insurance, is a ground for cancelling the designation, so review your operations as well."}
+      ],
+      "docs": "Updated member register, proof of membership fee payments, materials for submitting your opinion at the hearing",
+      "period": "Remedy period of up to 3 months (set by the administrative authority)"
+    },
+    {
+      "id": "sit-sc-benefit",
+      "q": "Does a designated sports club in Korea get priority use of public sports facilities?",
+      "conclusion": "Where a local government considers it necessary for the public interest, it can give a designated sports club priority permission to use sports facilities among its public property by private contract, or entrust their management to the club. This is support at the local government's discretion, not an obligation.",
+      "branches": [
+        {"when": "You want to use public sports facilities for events, classes or training", "then": "Check with the local government whether a fee reduction is available under its ordinance."},
+        {"when": "You want to use school sports facilities", "then": "The principal can open them as long as this does not interfere with school education, so consult the school."}
+      ],
+      "docs": "Copy of the designated sports club designation certificate, sports facility use plan",
+      "period": "Depends on the review period of the local government or school"
+    },
+    {
+      "id": "sit-sc-agent",
+      "q": "If we hire an administrative agent for designated sports club designation in Korea, what will they handle?",
+      "conclusion": "The agent covers pre-review of the registration and designation requirements, support in drafting the articles of association and annual operating plan, preparing the registration and designation applications and attachments, filing with the competent authority and handling supplement requests, and managing the renewal schedule. The club handles sports program planning, coach management and running its programs.",
+      "branches": [
+        {"when": "You are preparing from initial registration", "then": "The agent first checks the membership and representative body requirements, then prepares the registration documents and files them with the si/gun/gu."},
+        {"when": "Your club is already registered", "then": "The agent organizes the designation application and staff and facility evidence and submits them to the Ministry of Culture, Sports and Tourism."}
+      ],
+      "docs": "Sports club registration application, articles of association and organization chart, annual operating plan (including the sports facility use plan and per-sport operating plan), per-sport sports club member register, proof of membership fee payments / designated sports club designation application, proof of staff and facility requirements, proof of the requirements in the Minister of Culture, Sports and Tourism's public notice, copy of the sports club registration certificate",
+      "period": "Statutory: registration review within 14 days / in practice, it depends on how complete your documents are and any supplements",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-sc-club", "term": "Sports club (스포츠클럽)", "def": "A club run by a corporation or organization to promote sports activities in the local community that meets the registration requirements and is registered with the si/gun/gu."},
+    {"id": "term-sc-registration", "term": "Sports club registration (스포츠클럽 등록)", "def": "Registration filed with the Mayor of the Special Self-Governing City, the Governor of the Special Self-Governing Province, or the mayor, county head or district head by a corporation or organization that has articles of association, an annual operating plan, a representative body and at least 10 members per sport; it is decided within 14 days of the application."},
+    {"id": "term-sc-designated", "term": "Designated sports club (지정스포츠클럽)", "def": "A registered sports club designated by the Minister of Culture, Sports and Tourism to carry out programs such as links with school sports clubs, training elite athletes in each sport, and developing grassroots and less popular sports."},
+    {"id": "term-sc-annual-plan", "term": "Annual operating plan (연간운영계획서)", "def": "A one-year operating plan that a sports club must have as a registration requirement, including a sports facility use plan and a per-sport operating plan."},
+    {"id": "term-sc-validity", "term": "Designation validity period (지정 유효기간)", "def": "The period during which a designated sports club designation remains in effect: 3 years from the designation date. To keep it, apply for renewal no later than 45 days before expiry."},
+    {"id": "term-sc-insurance", "term": "Designated sports club insurance (지정스포츠클럽 보험)", "def": "Insurance that must be taken out within 30 days of the designation date, covering third-party loss of life, bodily injury and property damage from accidents during operation until the end of the designation validity period."},
+    {"id": "term-sc-coach", "term": "Coach (지도자)", "def": "A person a designated sports club must assign: a sports instructor under the National Sports Promotion Act, or a holder of a qualification set by a sports federation, the Korea Sports Council or the Korea Paralympic Committee that is recognized by the Minister of Culture, Sports and Tourism."},
+    {"id": "term-sc-change", "term": "Registration change report (등록 변경신고)", "def": "A report submitted to the si/gun/gu sports council or the si/gun/gu disabled sports council with the change report, proof of the change and the registration certificate when registered sports club details change."}
+  ]
+}

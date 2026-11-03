@@ -1,0 +1,177 @@
+{
+  "slug": "development-act-farmland-conversion-permit",
+  "lang": "en",
+  "label": "Development activity and farmland conversion permits",
+  "kw": "Development activity permit agent in Korea",
+  "answer": "A development activity permit (개발행위허가) is obtained from the mayor, county head or equivalent by anyone who wants to construct a building or install a structure, change the form and quality of land, extract earth and stone, or subdivide land; if the land is farmland, a farmland conversion permit (농지전용허가) or report is also needed and can be deemed included in the development activity permit. Unless there is a special reason, a decision on a development activity permit is made within 15 days of the application (excluding deliberation and consultation periods), and a farmland conservation charge is imposed on farmland conversion. YouSun Administrative Agency prepares and files the permit application, business plan and damage prevention plan on your behalf.",
+  "services": [
+    {"name": "Pre-review of the land's zoning, land category, agricultural promotion area status and deemed permit (인허가 의제) relationships", "href": "#term-dev-deemed"},
+    {"name": "Preparing and filing the development activity permit (개발행위허가) application", "href": "#term-dev-permit"},
+    {"name": "Preparing and filing the farmland conversion permit (농지전용허가) application and business plan", "href": "#term-dev-farmland-permit"},
+    {"name": "Preparing and filing a farmland conversion report (농지전용신고) (farmer housing, agricultural and livestock facilities, etc.)", "href": "#term-dev-farmland-report"},
+    {"name": "Drafting a plan to prevent damage to neighbouring farmland", "href": "#sit-dev-rejection"},
+    {"name": "Preparing an application to pay the farmland conservation charge (농지보전부담금) in instalments", "href": "#term-dev-charge"},
+    {"name": "Reviewing compliance with development activity permit standards (scale and plan conformity)", "href": "#svc-glance"},
+    {"name": "Handling consultations with related agencies and supplement requests", "href": "#sit-dev-period"},
+    {"name": "Applying for change permits and notifying minor changes", "href": "#svc-glance"},
+    {"name": "Preparing documents for the completion inspection (준공검사) application", "href": "#term-dev-completion"}
+  ],
+  "clients": [
+    "Individuals buying farmland or forest land to build a country house or warehouse",
+    "Corporations preparing a site for a factory or logistics warehouse",
+    "Farmers building agricultural facilities such as farmer housing or livestock barns",
+    "Landowners subdividing land to sell or develop it"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Constructing buildings or installing structures, changing the form and quality of land, extracting earth and stone, subdividing land, or stockpiling goods for 1 month or more in green, management or natural environment conservation areas / farmland conversion, i.e. using farmland for non-agricultural purposes"},
+    {"label": "Requirements", "value": "Development activity scale suited to the zoning (for example, land form and quality changes under 10,000 square metres in residential, commercial, natural green and production green areas); conformity with the urban/county management plan; harmony with the surrounding environment and landscape; a plan to secure infrastructure / for farmland conversion: appropriate purpose and area, no damage to neighbouring farmland, and a suitable business plan and funding plan"},
+    {"label": "Process", "value": "Check zoning, land category and deemed permits → prepare the business plan and design documents → submit the permit application → consultation with related agencies and urban planning committee deliberation (where applicable) → pay the farmland conservation charge (for farmland conversion) → permit decision → completion inspection after works"},
+    {"label": "Documents", "value": "Development activity permit application; proof of ownership of or right to use the land; project documents and design documents such as the site plan; public facilities statement, drawings and budget breakdown / farmland conversion permit application; business plan; cadastral map and topographic map; damage prevention plan (where applicable)"},
+    {"label": "Timeline", "value": "Development activity permit within 15 days (excluding deliberation and consultation periods) / farmland conversion permit decided by the Minister after a 10-day stage at the si/gun/gu and a 10-day stage at the province or metropolitan city; supplement time is separate"}
+  ],
+  "chooser": [
+    {"label": "Building a country house on farmland", "target": "sit-dev-farmland-house"},
+    {"label": "Preparing a warehouse or factory site", "target": "sit-dev-warehouse"},
+    {"label": "Using farmland in an agricultural promotion zone", "target": "sit-dev-promotion-area"},
+    {"label": "Subdividing land to sell", "target": "sit-dev-split"},
+    {"label": "Works were already done without a permit", "target": "sit-dev-unpermitted"}
+  ],
+  "situations": [
+    {
+      "id": "sit-dev-farmland-house",
+      "q": "What permits do I need to buy farmland in Korea and build a country house on it?",
+      "conclusion": "You need a development activity permit for the construction and the change in land form and quality, and a farmland conversion permit to use the farmland as a housing site. If you submit the farmland conversion documents together with the development activity permit application, the farmland conversion permit can be deemed granted.",
+      "branches": [
+        {"when": "An individual who is not a farmer builds a house", "then": "Submit the documents for the deemed farmland conversion permit (business plan, cadastral map, damage prevention plan, etc.) with the development activity permit application, and pay the farmland conservation charge before the permit."},
+        {"when": "A farmer builds farmer housing", "then": "First check whether a farmland conversion report to the head of the si/gun/gu applies instead of a farmland conversion permit."}
+      ],
+      "docs": "Development activity permit application; proof of ownership of or right to use the land; site plan and design documents; farmland conversion business plan; certified cadastral map and topographic map; damage prevention plan (where applicable)",
+      "period": "Development activity permit within 15 days (excluding deliberation and consultation periods) / in practice, farmland conversion consultation and supplement time are added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-dev-warehouse",
+      "q": "Is there an area limit for a land form and quality change permit to build a logistics warehouse on management area land in Korea?",
+      "conclusion": "Yes. The scale of land form and quality changes under a development activity permit is set by zoning: under 30,000 square metres in management and agricultural/forestry areas, under 30,000 square metres in industrial areas, and under 5,000 square metres in conservation green and natural environment conservation areas.",
+      "branches": [
+        {"when": "The planned area is within the scale for the zoning", "then": "Apply after meeting the remaining permit standards, such as conformity with the urban/county management plan, an infrastructure plan and harmony with the surroundings."},
+        {"when": "The site is farmland", "then": "Prepare the deemed farmland conversion documents along with the development activity permit and plan for the farmland conservation charge payment."}
+      ],
+      "docs": "Development activity permit application; proof of ownership of or right to use the land; project documents such as the site plan; building use and scale documents; public facilities statement, drawings and budget breakdown",
+      "period": "Within 15 days (excluding urban planning committee deliberation and consultation with related agencies)"
+    },
+    {
+      "id": "sit-dev-promotion-area",
+      "q": "Can farmland inside an agricultural promotion zone in Korea be converted to another use with a permit?",
+      "conclusion": "Farmland in an agricultural promotion area passes the conversion permit review only if it does not violate the rules on agricultural promotion areas, so the standard is stricter than for farmland outside such areas. The farmland conservation charge rate is also higher, at 30 percent of the officially assessed individual land price, compared with 20 percent outside promotion areas.",
+      "branches": [
+        {"when": "The planned use is permitted in the agricultural promotion area", "then": "Apply for the farmland conversion permit with an appropriate conversion purpose and area and a plan to prevent damage to neighbouring farmland."},
+        {"when": "The planned use is not permitted", "then": "Meeting the conversion permit review standards would be difficult, so consider a different site."}
+      ],
+      "docs": "Farmland conversion permit application; business plan (purpose of conversion, implementation period, site plan, funding plan, etc.); proof of ownership of or right to use the land; cadastral map and topographic map; damage prevention plan",
+      "period": "Decided by the Minister after a 10-day stage at the si/gun/gu and a 10-day stage at the province or metropolitan city / in practice, it depends on any supplements"
+    },
+    {
+      "id": "sit-dev-period",
+      "q": "How long does a development activity permit take in Korea, and does deliberation make it longer?",
+      "conclusion": "Unless there is a special reason, a development activity permit decision is made within 15 days of the application, but urban planning committee deliberation and consultation with related agencies are not counted in those 15 days. So if deliberation or consultation applies, the actual schedule is longer.",
+      "branches": [
+        {"when": "No deliberation or consultation is needed and the documents are complete", "then": "You receive a permit or refusal within 15 days; if farmland conversion is involved, you pay the farmland conservation charge before that."},
+        {"when": "Urban planning committee deliberation or consultation with related agencies is needed", "then": "The decision comes after supplements based on the deliberation or consultation results, so leave room in the schedule."}
+      ],
+      "docs": "Development activity permit application; project documents and design documents; consultation documents with related agencies (where applicable)",
+      "period": "Statutory: within 15 days (excluding deliberation and consultation periods) / in practice, deliberation and supplement time are added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-dev-cost",
+      "q": "What cost items come with a development activity permit in Korea, and is there a separate charge for farmland?",
+      "conclusion": "The largest statutory cost item is the farmland conservation charge imposed on farmland conversion: the officially assessed individual land price multiplied by 30 percent for promotion area farmland or 20 percent for other farmland, then by the converted area, subject to a cap. A performance deposit may be required as a condition of the development activity permit, but it is a deposit returned after the completion inspection.",
+      "branches": [
+        {"when": "The land is farmland", "then": "Pay the farmland conservation charge before the permit, and if needed submit an instalment payment application with it."},
+        {"when": "The permit carries a performance deposit condition", "then": "Deposit a performance deposit of up to 20 percent of the total construction cost and get it back after the completion inspection."},
+        {"when": "Design or surveying is needed", "then": "Design documents and surveying are done by specialist firms, so budget those costs separately from the permit."}
+      ],
+      "docs": "Development activity permit application; farmland conversion business plan; instalment payment application (where applicable)",
+      "period": "The charge is paid before the permit; the performance deposit is returned after the completion inspection"
+    },
+    {
+      "id": "sit-dev-split",
+      "q": "Do I need a land subdivision permit to split my land into several lots for sale in Korea?",
+      "conclusion": "Land subdivision is subject to a development activity permit. However, subdividing a building site that has a building on it is excluded from development activity permits.",
+      "branches": [
+        {"when": "You subdivide land without buildings", "then": "Apply to the mayor or county head with the development activity permit application and project documents."},
+        {"when": "You subdivide a site with a building on it", "then": "Check with the competent authority whether another procedure applies instead of a development activity permit."}
+      ],
+      "docs": "Development activity permit application; proof of ownership of or right to use the land; project documents",
+      "period": "Within 15 days (excluding deliberation and consultation periods)"
+    },
+    {
+      "id": "sit-dev-farm-facility",
+      "q": "I am a farmer. Do I need a farmland conversion permit to build a livestock barn or produce warehouse on my own farmland in Korea?",
+      "conclusion": "Agricultural and livestock facilities (with some exceptions) and facilities for distributing and processing agricultural and fishery products are subject to a farmland conversion report to the head of the si/gun/gu, not a farmland conversion permit. Whether a development activity permit is needed for the construction itself is assessed separately.",
+      "branches": [
+        {"when": "The facility is one subject to a report", "then": "Submit the farmland conversion report to the head of the si/gun/gu, and if construction or a land form change is involved, also prepare a development activity permit."},
+        {"when": "The facility is excluded from the report scheme", "then": "Proceed through the farmland conversion permit procedure."}
+      ],
+      "docs": "Farmland conversion report and the attachments required by the competent authority (business plan, proof of ownership of or right to use the land, cadastral map, etc.)",
+      "period": "Depends on the competent authority's review and any supplements"
+    },
+    {
+      "id": "sit-dev-unpermitted",
+      "q": "I changed the form and quality of land in Korea without a permit. What should I do now?",
+      "conclusion": "Changing land form and quality without a development activity permit can lead to imprisonment of up to 3 years or a fine of up to KRW 30 million, and if farmland was converted without a permit, penalties under the Farmland Act (농지법) may also apply separately. First confirm what measures the competent authority is taking, then respond.",
+      "branches": [
+        {"when": "Farmland outside a promotion area was converted without a permit", "then": "This can lead to imprisonment of up to 3 years or a fine of up to 50 percent of the land value, so decide how to proceed following the competent authority's guidance."},
+        {"when": "Farmland in an agricultural promotion area was converted without a permit", "then": "This can lead to imprisonment of up to 5 years or a fine of up to the land value."}
+      ],
+      "docs": "Notice from the competent authority; land registry and cadastral records; photos of the current state",
+      "period": "Depends on the competent authority's enforcement schedule"
+    },
+    {
+      "id": "sit-dev-rejection",
+      "q": "We applied for a development activity permit in Korea and got a supplement request over damage to nearby farmland and landscape issues.",
+      "conclusion": "Harmony with the surrounding environment and landscape and prevention of damage to neighbouring farmland are items in both the development activity permit standards and the farmland conversion review standards, so failing to submit plans that answer the supplement request becomes grounds for refusal.",
+      "branches": [
+        {"when": "Damage to farming or living conditions on neighbouring farmland was raised", "then": "Revise the damage prevention plan to show that the measures to prevent damage are sound."},
+        {"when": "Landscape, planting, or hazard and pollution prevention was raised", "then": "Revise the relevant design documents and budget breakdown, and reflect in advance any items likely to be attached as permit conditions."}
+      ],
+      "docs": "Supplement request; damage prevention plan; landscape, planting and hazard prevention design documents with budget breakdown",
+      "period": "Supplement time is excluded from the statutory processing period, and the review resumes after the supplement is submitted"
+    },
+    {
+      "id": "sit-dev-docs",
+      "q": "What documents does a land form and quality change permit in Korea require, and can they be submitted online?",
+      "conclusion": "You attach to the development activity permit application proof of ownership of or right to use the land, project documents such as the site plan, a public facilities statement with drawings and budget breakdown, and design documents with budget breakdowns for hazard prevention, pollution prevention, landscape and planting; the application can be submitted through the Korea Land Use Information System (국토이용정보체계).",
+      "branches": [
+        {"when": "You change the form and quality of land you are leasing", "then": "Prepare proof of the right to use the land instead of ownership."},
+        {"when": "Farmland is included", "then": "Also submit the business plan, cadastral map and damage prevention plan for the deemed farmland conversion permit."}
+      ],
+      "docs": "Development activity permit application; proof of ownership of or right to use the land; project documents such as the site plan; public facilities statement, drawings and budget breakdown; hazard prevention, landscape and planting design documents with budget breakdown",
+      "period": "Within 15 days (excluding deliberation and consultation periods)",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-dev-agency",
+      "q": "If I hire an administrative agent for a development activity permit in Korea, what will they handle?",
+      "conclusion": "YouSun Administrative Agency reviews zoning and deemed permit relationships, prepares the development activity permit application, farmland conversion business plan and damage prevention plan, and handles filing with the competent authority and supplement responses. Surveying, design and civil engineering documents, environmental impact assessment reports and property appraisals belong to specialist bodies and licensed professionals, so we do not handle them.",
+      "branches": [
+        {"when": "You are reviewing land before buying it", "then": "We first set out the zoning, land category, agricultural promotion area status and which permits are needed."},
+        {"when": "Design documents are ready", "then": "We prepare and file the application and deemed permit documents based on the design documents."}
+      ],
+      "docs": "Land registry and cadastral records; land use plan information; design documents (prepared by a design office); project outline",
+      "period": "Within 15 days (excluding deliberation and consultation periods) / in practice, design, consultation and supplement time are added",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-dev-permit", "term": "Development activity permit (개발행위허가)", "def": "A permit obtained from the Mayor of a Special or Metropolitan City, the Mayor of a Special Self-Governing City, the Governor of a Special Self-Governing Province, or a city mayor or county head by anyone who wants to construct buildings or install structures, change land form and quality, extract earth and stone, or subdivide land."},
+    {"id": "term-dev-land-alteration", "term": "Change of land form and quality (토지의 형질 변경)", "def": "An act that changes the form and quality of land; it is subject to a development activity permit, and the permitted scale is set by zoning."},
+    {"id": "term-dev-farmland-permit", "term": "Farmland conversion permit (농지전용허가)", "def": "A permit obtained through the head of the si/gun/gu where the farmland is located by anyone who wants to use farmland for purposes other than agriculture, such as crop cultivation; the permitting authority is the Minister of Agriculture, Food and Rural Affairs (농림축산식품부장관)."},
+    {"id": "term-dev-farmland-report", "term": "Farmland conversion report (농지전용신고)", "def": "A report filed with the head of the si/gun/gu when converting farmland for specified facilities such as farmer housing, agricultural and livestock facilities, and facilities for distributing and processing agricultural and fishery products."},
+    {"id": "term-dev-deemed", "term": "Deemed permits (인허가 의제)", "def": "A scheme under which obtaining a development activity permit is treated as obtaining the farmland conversion permit, consultation or report whose documents were submitted with it."},
+    {"id": "term-dev-charge", "term": "Farmland conservation charge (농지보전부담금)", "def": "A charge imposed on farmland conversion, based on a per-square-metre amount equal to the officially assessed individual land price multiplied by 30 percent for promotion area farmland or 20 percent for other farmland."},
+    {"id": "term-dev-bond", "term": "Performance deposit (이행보증금)", "def": "Money deposited, up to 20 percent of the total construction cost, to secure performance of development activity permit conditions, and returned after the completion inspection."},
+    {"id": "term-dev-completion", "term": "Completion inspection (준공검사)", "def": "The procedure for confirming, after works under a development activity permit are finished, that they were carried out as permitted."}
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "slug": "construction-business-registration",
+ "lang": "en",
+ "label": "Construction Business Registration",
+ "kw": "Construction business license agent in Korea",
+ "answer": "Construction business registration (건설업 등록) is registration by trade type with the Minister of Land, Infrastructure and Transport (국토교통부장관) by anyone intending to carry out general or specialty construction works; the application is submitted to the city or provincial governor or a designated registration agency. Apply after meeting the trade-specific standards for technical capability, capital (assessed assets for individuals), facilities and equipment and office, and obtaining a surety amount confirmation (보증가능금액확인서). The processing period depends on the receiving agency's review and on any on-site verification or supplementation. YouSun Administrative Agency prepares and files the construction business registration application.",
+ "services": [
+  {"name": "Preparing and filing the construction business registration application (건설업등록신청)", "href": "#term-cn-registration"},
+  {"name": "Choosing the trade type and pre-checking the registration standards (technical capability, capital, facilities and equipment, office) (등록기준)", "href": "#term-cn-criteria"},
+  {"name": "Organizing documents on technical staff holdings (기술인력 보유현황)", "href": "#term-cn-engineer"},
+  {"name": "Guidance on obtaining the surety amount confirmation and attaching it (보증가능금액확인서)", "href": "#term-cn-guarantee"},
+  {"name": "Checking the office standard and preparing a copy of the lease (사무실 기준)", "href": "#term-cn-office"},
+  {"name": "Preparing documents on construction facilities (건설공사용 시설 현황)", "href": "#svc-glance"},
+  {"name": "Pre-checking grounds for disqualification of the company and its officers (결격사유)", "href": "#sit-cn-disqualification"},
+  {"name": "Preparing registration documents for foreign nationals and foreign corporations (외국인·외국법인 등록 서류)", "href": "#sit-cn-foreign"},
+  {"name": "Preparing documents in response to supplementation requests and on-site verification by the receiving agency (보완·실제 확인 대응)", "href": "#sit-cn-supplement"},
+  {"name": "Applying for changes to registration certificate particulars (within 30 days) (기재사항 변경 신청)", "href": "#sit-cn-after"},
+  {"name": "Preparing construction business transfer reports (건설업 양도 신고)", "href": "#sit-cn-transfer"}
+ ],
+ "clients": [
+  "Sole proprietors whose interior or facility work has grown to the point of needing specialty construction registration",
+  "Construction companies seeking to win public and private projects as general contractors",
+  "Existing construction businesses adding a trade type or relocating their office",
+  "Foreign nationals and foreign corporations seeking to run a construction business in Korea"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Construction businesses in trade types carrying out general works and in trade types carrying out specialty works (except those doing only minor construction works)"},
+  {"label": "Requirements", "value": "Trade-specific technical capability, capital (assessed assets for individuals), facilities and equipment, a surety amount confirmation, an office in a building that has received use approval, and no grounds for disqualification, debarment as an unfit bidder or business suspension period"},
+  {"label": "Process", "value": "Choose the trade type and check the registration standards → Obtain the surety amount confirmation → Submit the registration application and documents → Review (on-site verification if needed) → Registration certificate and registration booklet issued → Construction business ethics and practice training within 6 months"},
+  {"label": "Documents", "value": "Construction business registration application, statement of financial position and income statement (corporations) or statement of business assets with supporting evidence (individuals), surety amount confirmation, copy of the office lease (if leased), documents on construction facilities, documents on technical staff holdings"},
+  {"label": "Timeline", "value": "Depends on the receiving agency's review and on any on-site verification or supplementation. Construction business ethics and practice training within 6 months of registration"}
+ ],
+ "chooser": [
+  {"label": "Registering a construction business for the first time", "target": "sit-cn-how"},
+  {"label": "Unsure whether small works require registration", "target": "sit-cn-minor"},
+  {"label": "Registering as a sole proprietor", "target": "sit-cn-individual"},
+  {"label": "A foreign corporation registering", "target": "sit-cn-foreign"},
+  {"label": "Changes or transfer needed after registration", "target": "sit-cn-after"}
+ ],
+ "situations": [
+  {
+   "id": "sit-cn-how",
+   "q": "What should we prepare first to register a building construction business in Korea for the first time?",
+   "conclusion": "First decide the trade type, then meet that trade's registration standards. A building construction business needs corporate capital of KRW 350 million or more, at least 5 construction engineers of junior grade or higher in the architecture field (including 2 who are certified architectural engineers or of intermediate grade or higher), and an office.",
+   "branches": [
+    {"when": "You already have the capital and technical staff", "then": "Obtain the surety amount confirmation and submit the registration application and attachments to the city or provincial governor or the designated registration agency."},
+    {"when": "You are short of technical staff", "then": "First fill the required headcount, then prepare the documents on technical staff holdings."}
+   ],
+   "docs": "Construction business registration application, statement of financial position and income statement, surety amount confirmation, copy of the office lease, documents on facilities, documents on technical staff holdings",
+   "period": "Depends on the receiving agency's review and whether on-site verification is carried out",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-period",
+   "q": "How long does construction business registration take in Korea, from application to certificate?",
+   "conclusion": "The number of processing days must be checked with each receiving agency, and it extends if you are asked for on-site verification of capital, facilities and equipment or for a financial condition diagnosis report. Registration must be granted unless standards are unmet or there is disqualification or a restriction violation; if registration is refused, the reasons are notified.",
+   "branches": [
+    {"when": "Documents and standards are all in order", "then": "After review, the registration certificate and registration booklet are issued."},
+    {"when": "On-site verification is required", "then": "Respond to the verification of capital, facilities and equipment or submit the diagnosis report."}
+   ],
+   "docs": "Construction business registration application and all attachments",
+   "period": "Depends on the receiving agency's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-cost",
+   "q": "How much does construction business registration cost in Korea, and what is needed besides capital?",
+   "conclusion": "The key is the trade-specific registration standards. Besides capital, you need technical staff, facilities and equipment and an office, and you must provide collateral or a cash deposit to a financial institution or similar body of between 25% and 60% of the trade's capital requirement and obtain a surety amount confirmation.",
+   "branches": [
+    {"when": "It is a civil engineering business", "then": "Meet that trade's standards, such as corporate capital of KRW 500 million or more."},
+    {"when": "It is a specialty construction business", "then": "Check the standards for each trade type and field separately."}
+   ],
+   "docs": "Statement of financial position and income statement, surety amount confirmation, office lease, documents on technical staff holdings",
+   "period": "In practice, time to obtain the surety amount confirmation and secure technical staff comes first",
+   "href": "#term-cn-guarantee"
+  },
+  {
+   "id": "sit-cn-minor",
+   "q": "Do we need construction business registration in Korea if we only do small interior projects?",
+   "conclusion": "If you do only minor construction works, you can do so without registration. The threshold is an estimated contract price per project under 50 million won for general works and under 15 million won for specialty works, with some types of work excluded.",
+   "branches": [
+    {"when": "The estimated contract price per project is below the threshold", "then": "Also check the type of work to confirm whether it can be done without registration."},
+    {"when": "You want to win projects at or above the threshold", "then": "Prepare for the relevant specialty or general construction business registration."}
+   ],
+   "docs": "Contract details (estimated contract price and type of work)",
+   "period": "If registration is required, depends on the receiving agency's review",
+   "href": "#term-cn-minor-work"
+  },
+  {
+   "id": "sit-cn-individual",
+   "q": "If we register a construction business in Korea as a sole proprietor, how is capital recognized?",
+   "conclusion": "Individuals meet the standard with the assessed value of assets provided to the construction business (assessed assets) instead of capital, and attach a statement of business assets with supporting evidence. For a building construction business, individual assessed assets must be KRW 700 million or more.",
+   "branches": [
+    {"when": "Assessed assets meet the trade's standard", "then": "Apply with the statement of business assets and supporting evidence."},
+    {"when": "Assessed assets fall short", "then": "Choose a different trade type or consider registering after setting up a corporation."}
+   ],
+   "docs": "Construction business registration application, statement of business assets with supporting evidence, surety amount confirmation, documents on technical staff holdings",
+   "period": "Depends on the receiving agency's review and whether on-site verification is carried out",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-foreign",
+   "q": "What conditions apply for a foreign corporation to register a construction business in Korea?",
+   "conclusion": "Foreign nationals and foreign corporations with their principal place of business abroad can also apply, but they must meet certain of the registration standards, and they cannot register if the same or similar grounds for disqualification exist in their home country. The application documents follow separate rules.",
+   "branches": [
+    {"when": "You apply while keeping the principal place of business abroad", "then": "Prepare documents in line with the rules for foreign nationals and foreign corporations."},
+    {"when": "You set up a new Korean company and apply", "then": "Prepare with the same registration standards and documents as a domestic company."}
+   ],
+   "docs": "Construction business registration application, separate documents for foreign nationals and foreign corporations, evidence of meeting the registration standards",
+   "period": "Depends on the receiving agency's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-disqualification",
+   "q": "Can a company register a construction business in Korea if one of its officers has a past criminal conviction?",
+   "conclusion": "Less than 3 years since completing a prison sentence of imprisonment without labor or heavier for violating the Framework Act on the Construction Industry (건설산업기본법) or the Housing Act (주택법), undischarged bankruptcy, and being under adult guardianship or limited guardianship are grounds for disqualification, and a corporation cannot register if any officer falls under them. If disqualification applies, the application may be returned without on-site verification.",
+   "branches": [
+    {"when": "An officer falls under grounds for disqualification", "then": "Reorganize the officers before applying."},
+    {"when": "You are within a debarment period as an unfit bidder or a business suspension period", "then": "Apply after that period ends."}
+   ],
+   "docs": "List of officers, corporate register extract (checked through shared administrative information)",
+   "period": "Apply after the grounds for disqualification or restriction are resolved",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-supplement",
+   "q": "Why are construction business registration applications in Korea sent back for supplementation or rejected?",
+   "conclusion": "Typical reasons are unmet standards for technical capability, capital, facilities, equipment or office, a missing surety amount confirmation, grounds for disqualification (including officers), and an unexpired debarment or business suspension period.",
+   "branches": [
+    {"when": "Documents are missing", "then": "Supplement documents such as the surety amount confirmation and technical staff documents."},
+    {"when": "Standards are not met", "then": "Bring capital, staff and office up to standard and resubmit."}
+   ],
+   "docs": "Details of the supplementation request, surety amount confirmation, documents on technical staff holdings, office documents",
+   "period": "In practice, depends on what must be supplemented",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-after",
+   "q": "After construction business registration in Korea, what must we do if we move the office or the representative changes?",
+   "conclusion": "If particulars on the registration certificate change, apply for the change within 30 days. Within 6 months of registration, construction business ethics and practice training must be completed (for corporations, by at least 1 officer).",
+   "branches": [
+    {"when": "Particulars on the registration certificate have changed", "then": "Apply for the change within 30 days."},
+    {"when": "You do not operate for a long time after registration", "then": "Not starting business within 1 year, or suspending business for 1 year or more while falling below the standards, is a ground for cancellation, so maintain the standards."}
+   ],
+   "docs": "Change application, registration certificate and registration booklet, evidence of the change",
+   "period": "Change application within 30 days; training within 6 months of registration",
+   "href": "#term-cn-registration"
+  },
+  {
+   "id": "sit-cn-transfer",
+   "q": "How is construction business registration handled in Korea when transferring a construction company to someone else?",
+   "conclusion": "A construction business operator must file a report to transfer its construction business. Lending the registration certificate or booklet, or lending your name or trade name, is punishable, so proceed through the transfer report procedure.",
+   "branches": [
+    {"when": "You transfer the construction business itself", "then": "Prepare and submit the transfer report documents."},
+    {"when": "Someone only wants to borrow your name", "then": "This is punishable, so do not do it."}
+   ],
+   "docs": "Construction business transfer report, transfer agreement documents, registration certificate and registration booklet",
+   "period": "Depends on the receiving agency's processing",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cn-agent",
+   "q": "If we hire an administrative agent for construction business registration in Korea, what exactly do they handle?",
+   "conclusion": "YouSun Administrative Agency handles trade type selection and pre-review of the registration standards, drafting the registration application, organizing attachments, filing with the receiving agency and handling supplementation, and preparing change applications and transfer reports. Financial condition diagnosis and issuance of the surety amount confirmation are done by the relevant institutions, and registration is decided by the competent authority.",
+   "branches": [
+    {"when": "You have not decided on a trade type", "then": "The agency first compares trade types and registration standards that fit your work."},
+    {"when": "You meet the standards", "then": "The agency organizes and files the application and attachments."}
+   ],
+   "docs": "Corporate documents or copy of ID, financial data, technical staff qualification documents, office lease, letter of authorization",
+   "period": "Depends on the receiving agency's review and on any on-site verification or supplementation",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-cn-registration", "term": "Construction business registration (건설업 등록)", "def": "Registration by trade type with the Minister of Land, Infrastructure and Transport by anyone intending to run a construction business; the application is submitted to the city or provincial governor or a designated registration agency."},
+  {"id": "term-cn-criteria", "term": "Registration standards (등록기준)", "def": "The standards each trade type must meet for technical capability, capital (assessed assets for individuals), facilities and equipment and other items."},
+  {"id": "term-cn-engineer", "term": "Construction engineer (건설기술인)", "def": "Staff counted toward technical capability under the registration standards; field, grade and headcount requirements are set for each trade type."},
+  {"id": "term-cn-guarantee", "term": "Surety amount confirmation (보증가능금액확인서)", "def": "A document in which a financial institution or similar body confirms that surety is available for at least the capital requirement amount; it is issued after collateral or a cash deposit of between 25% and 60% of the trade's capital requirement is provided."},
+  {"id": "term-cn-office", "term": "Office standard (사무실 기준)", "def": "A registration requirement that the office be located in a building that has received use approval under the Building Act (건축법) and meet standards such as location published by the Minister of Land, Infrastructure and Transport."},
+  {"id": "term-cn-minor-work", "term": "Minor construction work (경미한 건설공사)", "def": "Work that can be done without registration: general works with an estimated contract price per project under 50 million won and specialty works under 15 million won (some types of work excluded)."},
+  {"id": "term-cn-education", "term": "Construction business ethics and practice training (건설업 윤리·실무 교육)", "def": "Training that must be completed within 6 months of construction business registration; for corporations, at least 1 officer takes it."}
+ ]
+}

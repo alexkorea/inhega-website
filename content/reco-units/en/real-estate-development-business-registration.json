@@ -1,0 +1,173 @@
+{
+  "slug": "real-estate-development-business-registration",
+  "lang": "en",
+  "label": "Real estate development business registration",
+  "kw": "Real estate development business registration agent in Korea",
+  "answer": "Real estate development business registration (부동산개발업 등록) is the registration filed with the si/do governor by anyone who wants to carry on, as a business, real estate development above a set scale for supply to others (for example, buildings of 3,000 square meters total floor area or 5,000 square meters per year, or land of 5,000 square meters or 10,000 square meters per year). A corporation needs capital of KRW 300 million or more (an individual needs a business asset valuation of KRW 600 million or more), an office and at least 2 full-time real estate development professionals, and applies through the entrusted registration agency; the processing period on the application form is 20 days. YouSun Administrative Agency prepares and files the real estate development business registration application and attachments on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the real estate development business registration application (부동산개발업 등록신청서)", "href": "#term-red-business"},
+    {"name": "Pre-review of whether the project meets the registration scale (total floor area, land area)", "href": "#term-red-scale"},
+    {"name": "Pre-review of the registration requirements (capital, office, full-time professionals)", "href": "#term-red-capital"},
+    {"name": "Organizing proof of the real estate development professionals (부동산개발 전문인력): qualifications, experience, training completion and employment contracts", "href": "#term-red-professional"},
+    {"name": "Preparing attachments such as the statement of financial position and income statement or the statement of business assets", "href": "#svc-glance"},
+    {"name": "Preparing documents for foreign individual or foreign corporate applicants (proof of investment, disqualification check documents)", "href": "#sit-red-foreign"},
+    {"name": "Reviewing the registration requirements for a special purpose company (특수목적법인, SPC) and applying", "href": "#term-red-spc"},
+    {"name": "Applying for changes to matters stated on the registration certificate", "href": "#term-red-change"},
+    {"name": "Confirming the entrusted filing agency (등록등업무 수탁기관) and handling supplement requests", "href": "#term-red-entrusted-agency"}
+  ],
+  "clients": [
+    "Developers and development corporations that build and sell or supply buildings",
+    "Developers setting up a special purpose company for each project",
+    "Foreign-invested companies looking to take part in real estate development in Korea",
+    "Landowners who hold land and are considering a development project",
+    "Registered developers whose stated details, such as the representative or address, have changed"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to carry on, as a business, real estate development of buildings of 3,000 square meters total floor area (5,000 square meters per year) or land of 5,000 square meters (10,000 square meters per year) or more for supply to others (excluding the state and local governments, local public enterprises, registered housing construction business operators carrying out housing construction projects and others)"},
+    {"label": "Requirements", "value": "Capital (capital of a stock company, contributions of other companies, or net assets of other corporations of KRW 300 million, or a business asset valuation of KRW 600 million or more for individuals), an office, at least 2 full-time real estate development professionals (with pre-service and refresher training completed), and no grounds for disqualification"},
+    {"label": "Process", "value": "Check whether the scale and type are covered → secure capital and an office → secure professionals and confirm training completion → apply to the entrusted registration agency → check of registration requirements and registration by the si/do governor → registration certificate issued"},
+    {"label": "Documents", "value": "Real estate development business registration application, statement of financial position and income statement (for individuals, statement of business assets and supporting documents), copy of the office lease agreement (if leased), proof of the professionals' qualifications, degrees and experience, proof of pre-service and refresher training, copies of employment contracts"},
+    {"label": "Timeline", "value": "20 days per the application form (time to secure capital, set up an office and complete professional training is separate)"}
+  ],
+  "chooser": [
+    {"label": "Not sure whether your project meets the registration scale", "target": "sit-red-scale"},
+    {"label": "Running a development business as an individual", "target": "sit-red-individual"},
+    {"label": "Setting up a special purpose company for each project", "target": "sit-red-spc"},
+    {"label": "Registration by a foreign national or foreign corporation", "target": "sit-red-foreign"},
+    {"label": "A landowner developing the land directly", "target": "sit-red-landowner"}
+  ],
+  "situations": [
+    {
+      "id": "sit-red-scale",
+      "q": "We plan to build and sell a small building in Korea. Does it meet the area threshold for real estate development business registration?",
+      "conclusion": "Buildings of 3,000 square meters total floor area or 5,000 square meters per year, and land of 5,000 square meters or 10,000 square meters per year or more, are subject to registration (separate standards apply to mixed residential and non-residential buildings). Smaller projects can be developed without registration.",
+      "branches": [
+        {"when": "A single project has 3,000 square meters or more total floor area, or the total over one year is 5,000 square meters or more", "then": "To supply it as a business, register with the si/do governor."},
+        {"when": "A housing construction business operator registered under the Housing Act (주택법) carries out a housing construction project", "then": "It is excluded from real estate development business registration."},
+        {"when": "You only handle construction", "then": "Acting as the contractor is not included in real estate development."}
+      ],
+      "docs": "Floor area and land area data for the development, project plan outline",
+      "period": "In practice, the scale assessment is sorted out first, before filing"
+    },
+    {
+      "id": "sit-red-individual",
+      "q": "What are the requirements for registering a real estate development business in Korea as an individual without setting up a corporation?",
+      "conclusion": "An individual needs a business asset valuation of KRW 600 million or more, and must have an office and at least 2 full-time real estate development professionals, the same as a corporation.",
+      "branches": [
+        {"when": "You apply as an individual", "then": "Prove a business asset valuation of KRW 600 million or more with the statement of business assets and supporting documents."},
+        {"when": "You apply as a stock company", "then": "Prepare capital of KRW 300 million or more and the statement of financial position and income statement."}
+      ],
+      "docs": "Real estate development business registration application, statement of business assets and supporting documents, copy of the office lease agreement, proof of securing professionals",
+      "period": "20 days per the application form"
+    },
+    {
+      "id": "sit-red-professional",
+      "q": "Who can serve as the 2 real estate development professionals for registration in Korea, and when must they complete training?",
+      "conclusion": "At least 2 real estate development professionals must work full-time; a person who wants to become a professional must complete pre-service training, and to keep working in the role must complete refresher training every 3 years from the completion date.",
+      "branches": [
+        {"when": "The professional is a Korean national", "then": "Prepare proof of qualifications or degrees and experience, proof of training completion, and a copy of the employment contract."},
+        {"when": "The professional is a foreign national", "then": "Also confirm that they hold an intra-company transfer, corporate investment or trade management status of stay."}
+      ],
+      "docs": "Proof of the professionals' qualifications, degrees and experience, proof of pre-service and refresher training, copies of employment contracts",
+      "period": "Refresher training every 3 years from the completion date / in practice, the pre-service training schedule drives the registration timing"
+    },
+    {
+      "id": "sit-red-spc",
+      "q": "Does a special purpose company (SPC) for a development project in Korea also need real estate development business registration?",
+      "conclusion": "A special purpose company without full-time officers or employees registers under separate requirements. The standards are capital of KRW 500 million or more, a business entrustment contract with an asset management company or similar, and a contractor with at least 5 full-time professionals.",
+      "branches": [
+        {"when": "It is an SPC without full-time officers or employees", "then": "Secure capital of KRW 500 million or more and a business entrustment contract, and confirm that the contracted company has at least 5 full-time professionals."},
+        {"when": "It is an ordinary corporation with full-time staff", "then": "Register under the general requirements of capital of KRW 300 million or more and at least 2 full-time professionals."}
+      ],
+      "docs": "Real estate development business registration application, statement of financial position and income statement, business entrustment contract, proof of the contracted company's professionals",
+      "period": "20 days per the application form"
+    },
+    {
+      "id": "sit-red-foreign",
+      "q": "What additional documents does a foreign corporation need to register a real estate development business in Korea?",
+      "conclusion": "A foreign national or foreign corporation whose main business office is abroad must establish and register a domestic business office under the Commercial Act (상법). If foreign nationals or foreign corporations contribute 50/100 or more of the capital, proof of investment is required, and if the applicant is a foreign national, documents confirming there are no grounds identical or similar to the grounds for disqualification (with consular legalization or an apostille) are required.",
+      "branches": [
+        {"when": "It is a domestic corporation with foreign investment of 50/100 or more of the capital", "then": "Attach proof of investment in addition."},
+        {"when": "The applicant is a foreign national", "then": "Prepare home-country documents with consular legalization or an apostille, and submit some documents issued within 3 months before the application date."}
+      ],
+      "docs": "Proof of investment, disqualification check documents (consular legalization or apostille), registration documents for the domestic business office, real estate development business registration application and basic attachments",
+      "period": "20 days per the application form / in practice, time to obtain and authenticate documents from abroad is added"
+    },
+    {
+      "id": "sit-red-landowner",
+      "q": "Does an individual landowner in Korea need real estate development business registration to develop their own land?",
+      "conclusion": "A landowner who meets the requirements set by Presidential Decree can carry out real estate development as a joint project entity with a registered developer. The requirements include securing ownership of the land and cancelling mortgages and similar rights (or obtaining the right holders' consent).",
+      "branches": [
+        {"when": "You develop jointly with a registered developer", "then": "Meet the joint project entity requirements (securing ownership, cancelling mortgages or obtaining the right holders' consent)."},
+        {"when": "The landowner alone supplies the development as a business", "then": "If the project is above the scale threshold, meet the registration requirements yourself and register."}
+      ],
+      "docs": "Proof of land ownership, proof of mortgage cancellation or right holders' consent, joint project documents",
+      "period": "In practice, time to sort out property rights is needed first"
+    },
+    {
+      "id": "sit-red-office",
+      "q": "Can the office for real estate development business registration in Korea be leased, and what proves it?",
+      "conclusion": "The office may be leased; if it is, attach a copy of the lease agreement. The building register certificate or building ledger is checked through administrative information sharing.",
+      "branches": [
+        {"when": "The office is leased", "then": "Attach a copy of the lease agreement."},
+        {"when": "The registration requirements are checked on site", "then": "The si/do governor may check the office, staff and other items in person to assess eligibility, so make sure the office is actually in use."}
+      ],
+      "docs": "Copy of the office lease agreement (if leased)",
+      "period": "20 days per the application form"
+    },
+    {
+      "id": "sit-red-period",
+      "q": "How long does real estate development business registration take in Korea, and where do I file?",
+      "conclusion": "The processing period on the application form is 20 days. Registration is made by the si/do governor where the main business office is located, but filing and checking of the application are handled by an entrusted registration agency designated and announced by the Minister of Land, Infrastructure and Transport (국토교통부장관) or the si/do governor.",
+      "branches": [
+        {"when": "The documents are complete", "then": "After the entrusted agency's check, the si/do governor registers the business and the registration certificate is issued."},
+        {"when": "Proof of capital or professionals is insufficient", "then": "You will be asked to supplement, and the schedule grows accordingly."}
+      ],
+      "docs": "Real estate development business registration application and attachments",
+      "period": "20 days per the application form / time to secure capital, set up an office and complete training is separate"
+    },
+    {
+      "id": "sit-red-cost",
+      "q": "Which requirements should I prepare first to estimate the cost of real estate development business registration in Korea?",
+      "conclusion": "The statutory preparation items are capital (KRW 300 million for a corporation, business asset valuation of KRW 600 million or more for an individual), an office, and at least 2 full-time professionals with completed training.",
+      "branches": [
+        {"when": "You start as a corporation", "then": "Secure capital of KRW 300 million or more and prepare the statement of financial position and income statement."},
+        {"when": "You start as an SPC", "then": "Prepare on the basis of capital of KRW 500 million or more and a business entrustment contract."}
+      ],
+      "docs": "Statement of financial position and income statement or statement of business assets, copy of the office lease agreement, proof of securing professionals",
+      "period": "In practice, the order is securing capital → office → professional training → application, and the processing period on the form after filing is 20 days"
+    },
+    {
+      "id": "sit-red-change",
+      "q": "If the representative or address changes after real estate development business registration in Korea, by when must I report the change?",
+      "conclusion": "If any matter stated on the registration certificate that is specified by Presidential Decree changes, you must apply for the change to the si/do governor within 30 days.",
+      "branches": [
+        {"when": "An officer changes", "then": "Confirm that the new officer has no grounds for disqualification, then apply for the change."},
+        {"when": "A professional changes", "then": "Confirm that the requirement of at least 2 full-time professionals is still met."}
+      ],
+      "docs": "Change application, proof of the changes, registration certificate",
+      "period": "Statutory: application within 30 days of the change"
+    },
+    {
+      "id": "sit-red-recommend",
+      "q": "If I hire an administrative agent for real estate development business registration in Korea, what do they handle?",
+      "conclusion": "Once engaged, we review the registration scale and requirements, prepare the registration application and attachments, submit them to the entrusted agency, respond to supplement requests, and prepare change application documents. We do not handle project feasibility analysis, financing or investment advice, or sales and contract disputes, and the competent authority decides on registration.",
+      "branches": [
+        {"when": "You first need to determine whether registration is required", "then": "We review whether the project is covered or excluded based on the development area and business structure."},
+        {"when": "Capital, the office and professionals are ready", "then": "We prepare and submit the registration application and attachments and respond to supplement requests."}
+      ],
+      "docs": "Letter of authorization, real estate development business registration application, statement of financial position and income statement, copy of the office lease agreement, proof of securing professionals",
+      "period": "20 days per the application form (supplement period separate)",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-red-business", "term": "Real estate development business (부동산개발업)", "def": "The business of carrying out real estate development for supply to others; above a set scale, it must be registered with the si/do governor."},
+    {"id": "term-red-scale", "term": "Registration scale (등록 대상 규모)", "def": "Buildings of 3,000 square meters total floor area or 5,000 square meters per year, or land of 5,000 square meters or 10,000 square meters per year or more; carrying on development above this as a business requires registration."},
+    {"id": "term-red-capital", "term": "Capital requirement (자본금 요건)", "def": "The registration requirement of capital for a stock company, contributions for other companies, or net assets for other corporations of KRW 300 million or more, or a business asset valuation of KRW 600 million or more for individuals."},
+    {"id": "term-red-professional", "term": "Real estate development professional (부동산개발 전문인력)", "def": "Full-time staff with qualifications or degrees and experience who have completed pre-service training; a registered developer must have at least 2 and have them complete refresher training every 3 years."},
+    {"id": "term-red-entrusted-agency", "term": "Entrusted registration agency (등록등업무 수탁기관)", "def": "An institution designated and announced by the Minister of Land, Infrastructure and Transport or the si/do governor from among government-funded research institutes, public institutions and associations, and entrusted with receiving registration applications and checking their content."},
+    {"id": "term-red-spc", "term": "Special purpose company (특수목적법인)", "def": "A corporation set up for a development project without full-time officers or employees; it registers by meeting separate requirements such as capital of KRW 500 million or more and a business entrustment contract."},
+    {"id": "term-red-change", "term": "Change application (변경 신청)", "def": "The application made to the si/do governor within 30 days when a matter stated on the registration certificate that is specified by Presidential Decree changes."}
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "emission-facility-permit-report",
+  "lang": "en",
+  "label": "Emission facility installation permit and report",
+  "kw": "Air emission facility installation report agent in Korea",
+  "answer": "An air emission facility installation report (대기배출시설 설치신고) is the procedure a business files with the si/do governor under the Clean Air Conservation Act (대기환경보전법) before installing a facility that discharges air pollutants; facilities that discharge wastewater need a separate permit or report under the Water Environment Conservation Act (물환경보전법). Facilities that discharge specified hazardous substances above the threshold or are installed in special countermeasure areas and similar locations need a permit, and other facilities need a report. The processing period on the form is 10 days for air, and notice of acceptance of a wastewater discharge facility installation report is given within 10 days (60 days on the form for zero-discharge wastewater facilities). YouSun Administrative Agency prepares and files the installation permit application or installation report and the attachments on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the air pollutant emission facility installation permit application or installation report (대기오염물질 배출시설 설치허가신청서·설치신고서)", "href": "#term-ef-air-facility"},
+    {"name": "Preparing and filing the wastewater discharge facility installation permit application or installation report (폐수배출시설 설치허가신청서·설치신고서)", "href": "#term-ef-water-facility"},
+    {"name": "Pre-review of whether a permit or a report applies (separately for air and wastewater)", "href": "#sit-ef-permit-or-report"},
+    {"name": "Pre-review of whether the site is in an installation restriction area or special countermeasure area", "href": "#sit-ef-restricted-area"},
+    {"name": "Organizing application entries and attachments, such as raw material and fuel consumption and product output", "href": "#svc-glance"},
+    {"name": "Compiling the submission file with the emission forecast and pollution control facility (방지시설) specifications prepared by the control facility contractor", "href": "#term-ef-prevention"},
+    {"name": "Preparing and filing the start-of-operation report (가동개시·가동시작 신고서)", "href": "#term-ef-start-report"},
+    {"name": "Preparing and filing the change permit application or change report (변경허가·변경신고서)", "href": "#term-ef-change-permit"},
+    {"name": "Handling supplement requests on the permit or report", "href": "#svc-glance"}
+  ],
+  "clients": [
+    "Factories adding processes that release air pollutants, such as painting, printing or metalworking",
+    "Manufacturers planning to run processes that generate wastewater, such as cleaning or plating",
+    "Sites that need a change permit or change report for emission facilities after a plant expansion",
+    "Foreign-invested companies building production facilities in Korea",
+    "Sites with both air and wastewater facilities that want to handle the procedures under both laws together"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone installing an air pollutant emission facility (Clean Air Conservation Act) or a wastewater discharge facility (Water Environment Conservation Act)"},
+    {"label": "Requirements", "value": "Air: pollutants can be treated to within the permissible emission standards, and no violation of installation restrictions under other laws / Wastewater: the same, plus separation and collection facilities, control facilities for solid waste, and blocking and retention facilities for zero-discharge wastewater facilities / Installation is restricted upstream of water source protection areas, in special countermeasure areas and similar locations"},
+    {"label": "Process", "value": "Map out air and wastewater facilities and determine permit or report → prepare documents → file the installation permit application or installation report → receive the permit or report certificate → install the facilities → file the start-of-operation report and begin operation"},
+    {"label": "Documents", "value": "Air: installation permit application or installation report, statement of raw material and fuel consumption, product output and forecast pollutant emissions, specifications of emission facilities and air pollution control facilities, general drawing of control facilities, annual maintenance plan for control facilities / Wastewater: installation permit application or installation report, location map of the discharge facilities and wastewater process flow chart, statement of raw material (including water) use, product output and water pollutants, control facility specifications and drawings (a layout plan may substitute for drawings in a report)"},
+    {"label": "Timeline", "value": "Air emission facility installation permit or report: 10 days per the form / wastewater discharge facility installation report: notice of acceptance within 10 days (5 days for a change report), zero-discharge wastewater facilities: 60 days per the form / time to install control facilities is separate"}
+  ],
+  "chooser": [
+    {"label": "You are not sure whether a permit or a report applies", "target": "sit-ef-permit-or-report"},
+    {"label": "Processes that release air pollutants, such as painting or printing", "target": "sit-ef-air-paint"},
+    {"label": "Processes that generate wastewater, such as cleaning or washing", "target": "sit-ef-water-wash"},
+    {"label": "Installation is done and operation is about to start", "target": "sit-ef-start"},
+    {"label": "Expanding existing facilities", "target": "sit-ef-expansion"}
+  ],
+  "situations": [
+    {
+      "id": "sit-ef-permit-or-report",
+      "q": "We are adding new equipment to our factory in Korea. How do we tell whether it needs an emission facility installation permit or just a report?",
+      "conclusion": "Air and wastewater are assessed separately. For air, facilities that release specified hazardous air pollutants above the threshold or are installed in a special countermeasure area need a permit, and others need a report. For wastewater, facilities that release specified hazardous water pollutants above the threshold or are installed in a special countermeasure area, installation restriction area, water source protection area or similar location need a permit, and others need a report.",
+      "branches": [
+        {"when": "The facility releases only air pollutants", "then": "Determine permit or report under the Clean Air Conservation Act and apply to the si/do governor."},
+        {"when": "The facility releases only wastewater", "then": "Determine permit or report under the Water Environment Conservation Act and submit the wastewater discharge facility documents."},
+        {"when": "There are both air and wastewater facilities", "then": "Follow the procedure under each law separately."}
+      ],
+      "docs": "Equipment list, raw material and fuel consumption and product output data, site location information",
+      "period": "10 days per the form for air, notice of acceptance within 10 days for a wastewater discharge facility installation report / in practice, time to determine the category and prepare documents is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ef-air-paint",
+      "q": "What documents do I need for an air emission facility installation report to install a paint booth in Korea?",
+      "conclusion": "Submit the emission facility installation report to the si/do governor with the statement of raw material and fuel consumption, product output and forecast pollutant emissions, the specifications of the emission facilities and air pollution control facilities, the general drawing of the control facilities, and the annual maintenance plan for the control facilities.",
+      "branches": [
+        {"when": "Specified hazardous air pollutants are not released above the threshold and the site is not in a special countermeasure area", "then": "Proceed with an installation report."},
+        {"when": "Specified hazardous air pollutants are released above the threshold, or the site is in a special countermeasure area", "then": "File an installation permit application with the same attachments."}
+      ],
+      "docs": "Emission facility installation report (or installation permit application), emission forecast statement, specifications of emission facilities and air pollution control facilities, general drawing of control facilities, annual maintenance plan for control facilities",
+      "period": "10 days per the application form / time to install control facilities is separate",
+      "href": "#term-ef-air-facility"
+    },
+    {
+      "id": "sit-ef-water-wash",
+      "q": "Our cleaning process produces wastewater. How do we file a wastewater discharge facility installation report in Korea?",
+      "conclusion": "Under the Water Environment Conservation Act, submit the wastewater discharge facility installation report with the location map of the discharge facilities and the wastewater process flow chart, the statement of raw material (including water) use, product output and water pollutants, and the control facility specifications and drawings. For a report, a layout plan may substitute for the drawings.",
+      "branches": [
+        {"when": "Specified hazardous water pollutants are not released above the threshold and the site is not in a restricted area", "then": "Proceed with an installation report; you are notified within 10 days whether it is accepted."},
+        {"when": "Specified hazardous water pollutants are released above the threshold, or the facility is installed in a water source protection area or similar location", "then": "Review it as a facility requiring a wastewater discharge facility installation permit."}
+      ],
+      "docs": "Wastewater discharge facility installation report, location map of discharge facilities, wastewater process flow chart, statement of raw material (including water) use, product output and water pollutants, control facility specifications and layout plan",
+      "period": "Notice of acceptance within 10 days; if no notice is given within that period, the report is deemed accepted on the day after the period ends",
+      "href": "#term-ef-water-facility"
+    },
+    {
+      "id": "sit-ef-period",
+      "q": "How long does an air emission facility installation report take in Korea, and is it different for wastewater?",
+      "conclusion": "An air emission facility installation permit or report has a processing period of 10 days on the application form. For a wastewater discharge facility installation report, you are notified whether it is accepted within 10 days (5 days for a change report), and zero-discharge wastewater facilities have 60 days on the form.",
+      "branches": [
+        {"when": "No notice is given within the period for a wastewater discharge facility installation report", "then": "The report is deemed accepted on the day after the period ends."},
+        {"when": "Design and construction of the control facilities are still pending", "then": "Schedule the installation time separately from the permit or report processing period."}
+      ],
+      "docs": "Installation permit application or installation report and attachments for air and wastewater respectively",
+      "period": "Air: 10 days per the form / wastewater report: 10 days (5 days for changes), zero-discharge wastewater facilities: 60 days / in practice, supplement periods may be added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ef-cost",
+      "q": "What should we prepare to estimate the cost of an emission facility installation permit in Korea?",
+      "conclusion": "Permit and report fees must be checked separately with the competent authority, and most of the actual burden comes from technical preparation such as designing and building the control facilities and calculating emissions. Start by mapping out the air and wastewater facilities and determining permit or report, which narrows the range of documents needed.",
+      "branches": [
+        {"when": "The facility is confirmed as subject to a report", "then": "Prepare mainly the report form and attachments; for a wastewater report, a layout plan may substitute for drawings."},
+        {"when": "The facility is subject to a permit", "then": "Also prepare materials showing the permit standards are met (treatment to within the permissible emission standards, no violation of installation restrictions)."}
+      ],
+      "docs": "Equipment list, raw material and fuel consumption, product output, control facility specifications",
+      "period": "10 days per the form for air, notice of acceptance within 10 days for a wastewater report / time to install control facilities is separate",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ef-restricted-area",
+      "q": "Our factory is upstream of a water source protection area in Korea. Can we install a wastewater discharge facility?",
+      "conclusion": "In installation restriction areas such as upstream of water source protection areas and special countermeasure areas, installation is restricted in principle. Where specified hazardous water pollutants are released, there is an exception allowing installation as a zero-discharge wastewater facility.",
+      "branches": [
+        {"when": "You can use a zero-discharge structure that does not release wastewater into public waters", "then": "Consider a permit for a zero-discharge wastewater facility with separation and collection facilities, control facilities for solid waste, and blocking and retention facilities."},
+        {"when": "You want to install a facility with a normal discharge structure", "then": "This falls under the installation restriction, so first consider changing the location or the process."}
+      ],
+      "docs": "Site location information, wastewater process flow chart, control facility specifications and drawings",
+      "period": "60 days per the form for zero-discharge wastewater facilities / in practice, facility design time is added",
+      "href": "#term-ef-zero-discharge"
+    },
+    {
+      "id": "sit-ef-start",
+      "q": "We received an emission facility installation permit in Korea. Can we start operating as soon as installation is finished?",
+      "conclusion": "No. Once the emission facilities and control facilities are installed, you must file a start-of-operation report (가동개시 신고 for air, 가동시작 신고 for wastewater) before operating.",
+      "branches": [
+        {"when": "It is an air emission facility", "then": "File the start-of-operation report with the permitting or reporting authority before operating."},
+        {"when": "It is a wastewater discharge facility", "then": "File the start-of-operation report before operating, and file a change report if the reported start date changes."}
+      ],
+      "docs": "Start-of-operation report, permit or report certificate",
+      "period": "Must be reported in advance, before operation",
+      "href": "#term-ef-start-report"
+    },
+    {
+      "id": "sit-ef-expansion",
+      "q": "If we expand factory equipment in Korea, do we need a new emission facility change permit, or is a change report enough?",
+      "conclusion": "It depends on the scale of the expansion. For air, expanding by 50/100 or more of the total permitted or reported capacity (30/100 or more for facilities with specified hazardous air pollutants) or adding a use requires a change permit. For wastewater, a change permit is required if discharge increases by 50/100 or more over the permitted level (30/100 for facilities with specified hazardous water pollutants) or by 700 cubic meters or more per day. Other changes require a change report.",
+      "branches": [
+        {"when": "The expansion meets or exceeds the change permit threshold", "then": "Apply for a change permit with the installation permit attached."},
+        {"when": "The expansion is below the threshold", "then": "Submit a change report (for wastewater, notice of acceptance of a change report within 5 days)."}
+      ],
+      "docs": "Change permit application or change report, installation permit (for a change permit), details of the expansion and emission data",
+      "period": "Notice of acceptance of a wastewater change report within 5 days / change permits depend on the authority's review and any supplement requests",
+      "href": "#term-ef-change-permit"
+    },
+    {
+      "id": "sit-ef-unreported",
+      "q": "We are operating without reporting our emission facilities in Korea. What penalties could we face?",
+      "conclusion": "For air emission facilities, installing or operating without a permit may lead to imprisonment of up to 7 years or a fine of up to KRW 100 million, and without a report, imprisonment of up to 5 years or a fine of up to KRW 50 million. For wastewater discharge facilities, operating without a permit may lead to imprisonment of up to 7 years or a fine of up to KRW 70 million, and without a report, imprisonment of up to 5 years or a fine of up to KRW 50 million.",
+      "branches": [
+        {"when": "The facility is subject to a report", "then": "Prepare the installation report and attachments for air or wastewater and start the report procedure right away."},
+        {"when": "The facility is subject to a permit", "then": "Show whether pollutants can be treated to within the permissible emission standards and apply for an installation permit."}
+      ],
+      "docs": "Installation permit application or installation report, emission forecast and water pollutant data, control facility specifications",
+      "period": "10 days per the form for air, notice of acceptance within 10 days for a wastewater report",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ef-authority",
+      "q": "Which authority in Korea do we file air emission facility and wastewater discharge facility reports with?",
+      "conclusion": "Air emission facilities are permitted or reported to the si/do governor (or to the Minister of Climate, Energy and Environment (기후에너지환경부장관) for facilities installed by a si/do and similar cases), and under the law wastewater discharge facilities are permitted or reported to the Minister of Climate, Energy and Environment. Check the actual filing office and delegation with the environment department of the si/do where the site is located or with the river basin or regional environmental office.",
+      "branches": [
+        {"when": "You only have air facilities", "then": "Confirm that the environment department of the si/do where the site is located accepts the filing, then submit."},
+        {"when": "You have wastewater facilities", "then": "Confirm the delegated filing office, then submit the wastewater discharge facility documents separately."}
+      ],
+      "docs": "Installation permit application or installation report for air and wastewater respectively",
+      "period": "10 days per the form for air, notice of acceptance within 10 days for a wastewater report",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ef-agent",
+      "q": "If we hire an administrative agent for an air emission facility installation report in Korea, what do they handle?",
+      "conclusion": "Once engaged by you, YouSun Administrative Agency prepares the installation permit application or installation report and attachments, reviews requirements such as permit-or-report classification, handles submission to the authority and supplement requests, and prepares start-of-operation and change reports. We do not design or build control facilities, calculate emissions, measure pollutants or perform environmental technician duties, and the competent authority decides whether to accept the filing.",
+      "branches": [
+        {"when": "Design materials from the control facility contractor are available", "then": "We take those materials, align the application and attachments, and submit them."},
+        {"when": "You are still before the design stage", "then": "We first review the air and wastewater classification and any location restrictions."}
+      ],
+      "docs": "Equipment list, raw material and fuel consumption, product output, design materials from the control facility contractor",
+      "period": "10 days per the form for air, notice of acceptance within 10 days for a wastewater report / in practice, depends on the time to prepare design materials",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-ef-air-facility", "term": "Air pollutant emission facility (대기오염물질배출시설)", "def": "Structures, machinery, equipment and other objects that emit air pollutants into the air, as specified by Ordinance of the Ministry of Climate, Energy and Environment (기후에너지환경부); they require a permit or report under the Clean Air Conservation Act."},
+    {"id": "term-ef-water-facility", "term": "Wastewater discharge facility (폐수배출시설)", "def": "Structures, machinery, equipment and other objects that discharge water pollutants, as specified by Ordinance of the Ministry of Climate, Energy and Environment; they require a permit or report under the Water Environment Conservation Act."},
+    {"id": "term-ef-zero-discharge", "term": "Zero-discharge wastewater facility (폐수무방류배출시설)", "def": "A wastewater discharge facility that does not release wastewater into public waters, for example by treating it on site with water pollution control facilities or reusing it in the same facility."},
+    {"id": "term-ef-hazardous", "term": "Specified hazardous air pollutants and specified hazardous water pollutants (특정대기유해물질·특정수질유해물질)", "def": "Substances designated by law because they may harm human health or the growth of plants and animals; facilities releasing them above the threshold require an installation permit rather than a report."},
+    {"id": "term-ef-prevention", "term": "Pollution control facility (방지시설)", "def": "A facility that removes or reduces air or water pollutants from emission facilities; its specifications and drawings are attached to the permit or report documents."},
+    {"id": "term-ef-start-report", "term": "Start-of-operation report (가동개시 신고·가동시작 신고)", "def": "A report filed in advance, after installing the emission and control facilities and before operating them; the Clean Air Conservation Act calls it 가동개시 신고 and the Water Environment Conservation Act calls it 가동시작 신고."},
+    {"id": "term-ef-change-permit", "term": "Change permit and change report (변경허가·변경신고)", "def": "The procedure requiring a change permit when a permitted or reported emission facility is expanded beyond a set scale or a use is added, and a change report for other changes."},
+    {"id": "term-ef-emission-standard", "term": "Permissible emission standards (배출허용기준)", "def": "The limit on pollutants that may be released from an emission facility; an installation permit can be granted only if pollutants can be treated to within these standards."}
+  ]
+}

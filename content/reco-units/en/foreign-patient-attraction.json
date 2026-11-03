@@ -1,0 +1,360 @@
+{
+  "slug": "foreign-patient-attraction",
+  "lang": "en",
+  "label": "Foreign Patient Attraction Business Registration",
+  "kw": "Medical tourism facilitator registration agent in Korea",
+  "answer": "Foreign patient attraction business registration (외국인환자 유치업 등록) is the registration that medical institutions and medical tourism agencies file with the Mayor or Do Governor (시·도지사) to carry out attraction activities such as arranging and acting as agent for medical appointments and contracts, providing medical information, and guiding foreign patients on transport and lodging. A facilitator that is not a medical institution files the registration application after taking out surety insurance with coverage of KRW 100 million or more, holding capital of KRW 100 million or more and setting up an office in Korea. Registration is valid for 3 years. YouSun Administrative Agency prepares and files the registration application and business operation plan, and handles renewals and change reports.",
+  "services": [
+    {
+      "name": "Preparing and filing the foreign patient attraction facilitator registration application (외국인환자 유치사업자 등록)",
+      "href": "#term-fp-agency"
+    },
+    {
+      "name": "Preparing and filing the registration application for medical institutions attracting foreign patients (외국인환자 유치의료기관 등록)",
+      "href": "#term-fp-clinic"
+    },
+    {
+      "name": "Pre-checking the surety insurance, capital and office requirements (보증보험·자본금·사무소)",
+      "href": "#term-fp-bond"
+    },
+    {
+      "name": "Preparing attachments such as the business operation plan and articles of incorporation",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Preparing and filing the registration renewal application within 2 months before expiry (등록 갱신)",
+      "href": "#term-fp-validity"
+    },
+    {
+      "name": "Report of changes to registered details: name, address, representative, registration requirements (등록사항 변경 신고)",
+      "href": "#sit-fp-change"
+    },
+    {
+      "name": "Business suspension and closure reports (휴업·폐업 신고)",
+      "href": "#sit-fp-dormant"
+    },
+    {
+      "name": "Guidance on the schedule for reporting the previous year's business performance (사업실적 보고)",
+      "href": "#term-fp-report"
+    },
+    {
+      "name": "Checking disqualifications and grounds for cancellation of registration",
+      "href": "#sit-fp-referral"
+    }
+  ],
+  "clients": [
+    "Corporations and sole proprietors starting a medical tourism agency",
+    "Clinics and hospitals that want to attract foreign patients directly",
+    "Registered facilitators and institutions whose 3-year registration is about to expire",
+    "Foreign-invested companies planning to connect overseas patients with Korean providers",
+    "Existing facilitators that have moved offices or changed their representative"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Medical institutions and non-medical businesses that want to provide treatment-related services to foreign patients, such as arranging and acting as agent for medical appointments and contracts, providing medical information, and guiding them on transport and lodging"
+    },
+    {
+      "label": "Requirements",
+      "value": "Facilitators: surety insurance with coverage of KRW 100 million or more, capital of KRW 100 million or more (paid-in capital for corporations, assessed value of business assets for individuals), an office in Korea. Medical institutions: at least 1 specialist per medical department, and medical malpractice liability insurance (KRW 100 million for clinics and hospitals, KRW 200 million or more for general hospitals) or membership in a medical liability mutual aid association. No disqualification"
+    },
+    {
+      "label": "Process",
+      "value": "Check requirements → file the registration application and documents with the Mayor or Do Governor → registration certificate issued and posted on the city or province website → operate during the 3-year validity period → renew within 2 months before expiry"
+    },
+    {
+      "label": "Documents",
+      "value": "Facilitators: registration application, proof of surety insurance, proof of capital, proof of ownership or right to use the office, articles of incorporation (corporations only), business operation plan. Medical institutions: registration application, list of specialists by medical department, proof of liability insurance or mutual aid membership, business operation plan"
+    },
+    {
+      "label": "Timeline",
+      "value": "The review period depends on the competent city or province and whether documents need supplementation. Valid for 3 years; renew within 2 months before expiry; change, suspension and closure reports within 1 month"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Starting a new medical tourism agency",
+      "target": "sit-fp-agency"
+    },
+    {
+      "label": "Registering as a sole proprietor",
+      "target": "sit-fp-sole"
+    },
+    {
+      "label": "A hospital or clinic attracting patients directly",
+      "target": "sit-fp-clinic"
+    },
+    {
+      "label": "Registration is about to expire",
+      "target": "sit-fp-renewal"
+    },
+    {
+      "label": "Connecting patients without registration so far",
+      "target": "sit-fp-unregistered"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-fp-agency",
+      "q": "What are the requirements to register as a foreign patient attraction facilitator when starting a medical tourism agency in Korea?",
+      "conclusion": "A business that is not a medical institution must register with the Mayor or Do Governor after taking out surety insurance with coverage of KRW 100 million or more, holding capital of KRW 100 million or more and setting up an office in Korea.",
+      "branches": [
+        {
+          "when": "Starting as a corporation",
+          "then": "Hold paid-in capital of KRW 100 million or more and file the registration application with the articles of incorporation."
+        },
+        {
+          "when": "The representative has been sentenced for violating this Act",
+          "then": "Registration is not possible until 2 years after a prison sentence has been served or 1 year after a fine became final, so check this first."
+        },
+        {
+          "when": "Surety insurance has not been taken out yet",
+          "then": "Take out surety insurance (KRW 100 million or more) that covers liability for damage caused to foreign patients, from an insurer licensed by the Financial Services Commission (금융위원회)."
+        }
+      ],
+      "docs": "Registration application, proof of surety insurance, proof of capital, proof of ownership or right to use the office, articles of incorporation (corporations only), business operation plan",
+      "period": "In practice, it depends on the competent city or province's review and whether supplementation is needed",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-fp-sole",
+      "q": "Can a sole proprietor register a foreign patient attraction business in Korea, and how is capital assessed?",
+      "conclusion": "Yes. For a non-corporate business, capital is assessed as the value of business assets, which must be KRW 100 million or more; the surety insurance and office requirements are the same as for corporations.",
+      "branches": [
+        {
+          "when": "A sole proprietor",
+          "then": "Submit documents proving business assets of KRW 100 million or more; articles of incorporation are not required."
+        },
+        {
+          "when": "Converting to a corporation later",
+          "then": "Registration details such as the name and representative change, so check whether a change report is required."
+        }
+      ],
+      "docs": "Registration application, proof of surety insurance, proof of the assessed value of business assets, proof of right to use the office, business operation plan",
+      "period": "In practice, it depends on the competent city or province's review and whether supplementation is needed"
+    },
+    {
+      "id": "sit-fp-clinic",
+      "q": "What does a plastic surgery clinic in Korea need to register to attract foreign patients directly?",
+      "conclusion": "A medical institution registers with the Mayor or Do Governor as a medical institution attracting foreign patients. It must have at least 1 specialist for each medical department it wants to attract patients for, and take out medical malpractice liability insurance with an annual limit of KRW 100 million or more (clinic level) or join a medical liability mutual aid association.",
+      "branches": [
+        {
+          "when": "A clinic or hospital",
+          "then": "Take out insurance with a liability limit of KRW 100 million or more and file the registration application with the list of specialists."
+        },
+        {
+          "when": "A general hospital",
+          "then": "Insurance with a liability limit of KRW 200 million or more is required, and foreign patients cannot be admitted beyond the set number of beds."
+        },
+        {
+          "when": "Receiving patients through an agency",
+          "then": "Referrals and arrangements must come only from registered facilitators."
+        }
+      ],
+      "docs": "Registration application, list of specialists by medical department, proof of medical malpractice liability insurance or mutual aid membership, business operation plan (the medical institution establishment report and specialist certificates are checked by the authority through administrative information)",
+      "period": "In practice, it depends on the competent city or province's review and whether supplementation is needed",
+      "href": "#term-fp-clinic"
+    },
+    {
+      "id": "sit-fp-renewal",
+      "q": "What documents do I need to submit again when renewing a foreign patient attraction business registration in Korea?",
+      "conclusion": "File the renewal application with the Mayor or Do Governor within 2 months before the registration expires. Facilitators attach proof of surety insurance, capital and office again along with the existing registration certificate.",
+      "branches": [
+        {
+          "when": "A facilitator",
+          "then": "Renew with proof of surety insurance, capital and right to use the office, plus the registration certificate."
+        },
+        {
+          "when": "A medical institution",
+          "then": "Renew with the list of specialists by medical department, proof of liability insurance and the registration certificate."
+        },
+        {
+          "when": "The validity period has already passed",
+          "then": "Renewal must be done before expiry to continue, so after expiry, consider meeting the registration requirements again and filing a new application."
+        }
+      ],
+      "docs": "Registration renewal application, proof of surety insurance, capital and office (facilitators) or specialist list and liability insurance proof (medical institutions), existing registration certificate",
+      "period": "Valid for 3 years; apply within 2 months before expiry",
+      "href": "#term-fp-validity"
+    },
+    {
+      "id": "sit-fp-change",
+      "q": "Do I have to report a change in surety insurance or capital as a registered foreign patient attraction facilitator in Korea?",
+      "conclusion": "Not only changes in name, address or representative, but also changes in registration requirements such as surety insurance, capital or office, must be reported to the Mayor or Do Governor within 1 month of the change.",
+      "branches": [
+        {
+          "when": "The surety insurance was renewed or capital changed",
+          "then": "Report with documents proving the changed requirement and the registration certificate, and check that the requirements are still met."
+        },
+        {
+          "when": "The name or address changed",
+          "then": "Once reported, a new registration certificate is issued."
+        }
+      ],
+      "docs": "Report of changes to registered details, registration certificate, documents proving the change",
+      "period": "Within 1 month of the change"
+    },
+    {
+      "id": "sit-fp-report",
+      "q": "When and what do registered facilitators have to report on foreign patient attraction performance in Korea?",
+      "conclusion": "Registered medical institutions and facilitators must report the previous year's business performance to the Mayor or Do Governor by the end of February each year. Facilitators report patients' nationality, sex and year of birth, the medical institutions visited, medical departments, length of hospital stay, number of outpatient visit days and the like.",
+      "branches": [
+        {
+          "when": "A facilitator",
+          "then": "Compile and report the medical institutions visited, medical departments and similar details."
+        },
+        {
+          "when": "A medical institution",
+          "then": "Report medical departments, length of stay, main diagnoses and the like, and may include whether patients were referred by a facilitator."
+        }
+      ],
+      "docs": "Previous year's business performance (can be reported through the electronic system designated by the Minister of Health and Welfare (보건복지부장관))",
+      "period": "By the end of February each year"
+    },
+    {
+      "id": "sit-fp-referral",
+      "q": "Can a medical tourism agency in Korea refer foreign patients to a hospital that is not registered?",
+      "conclusion": "No. If a facilitator refers or arranges a treatment contract with a medical institution that is not a registered medical institution attracting foreign patients, it is a ground for cancellation of registration, and after cancellation, no new registration can be applied for for 1 year.",
+      "branches": [
+        {
+          "when": "The partner hospital is registered as a medical institution attracting foreign patients",
+          "then": "Confirm its registration through the city or province website listing before making referrals."
+        },
+        {
+          "when": "Commissions above the announced commission rate are charged",
+          "then": "This can be a serious market order violation and a ground for cancellation, so stay within the commission rate range."
+        }
+      ],
+      "docs": "Records confirming the partner medical institution's registration, attraction contract records",
+      "period": "No re-registration application for 1 year after cancellation"
+    },
+    {
+      "id": "sit-fp-dormant",
+      "q": "What happens if I register a foreign patient attraction business in Korea but never start attracting patients?",
+      "conclusion": "If, without a valid reason, you do not start attracting patients within 2 years of registration or suspend the business for 2 years or more, the registration may be cancelled. When suspending the business, file a suspension report within 1 month of the suspension date.",
+      "branches": [
+        {
+          "when": "Pausing the business temporarily",
+          "then": "File the suspension report and registration certificate (for corporations, the internal resolution) within 1 month."
+        },
+        {
+          "when": "Closing the business",
+          "then": "File the closure report within 1 month of the closure date."
+        }
+      ],
+      "docs": "Suspension or closure report, registration certificate, resolution of the corporation's internal decision-making body (corporations only)",
+      "period": "Report within 1 month of suspension or closure"
+    },
+    {
+      "id": "sit-fp-target",
+      "q": "Does a foreign national who is registered and working in Korea count as a foreign patient for attraction purposes?",
+      "conclusion": "A foreign patient is a foreign national who is not a National Health Insurance subscriber or dependent. Registered foreign nationals (except those with Miscellaneous (G-1) status) and overseas Koreans with a domestic residence report are excluded. Attracting someone who is not a foreign patient is a ground for cancellation of registration.",
+      "branches": [
+        {
+          "when": "An overseas patient entering on a short-term stay",
+          "then": "If not a health insurance subscriber or dependent, they can be attracted as a foreign patient."
+        },
+        {
+          "when": "A registered foreign worker or international student",
+          "then": "Unless they hold Miscellaneous (G-1) status, they are excluded from foreign patients and cannot be attracted."
+        }
+      ],
+      "docs": "Records confirming the patient's status of stay and health insurance enrollment",
+      "period": "Not applicable (check before attraction)"
+    },
+    {
+      "id": "sit-fp-unregistered",
+      "q": "Can I be penalized for connecting foreign patients with hospitals in Korea without registration?",
+      "conclusion": "Attracting foreign patients without registration can be punished by imprisonment of up to 3 years or a fine of up to KRW 30 million. To continue attraction activities, meet the requirements and register first.",
+      "branches": [
+        {
+          "when": "You can meet the requirements (surety insurance, capital, office)",
+          "then": "File the registration application and start attraction activities after receiving the registration certificate."
+        },
+        {
+          "when": "You only want to provide simple interpretation or similar services",
+          "then": "First assess whether the work counts as attraction activity, such as acting as agent for appointments and contracts or guiding transport and lodging."
+        }
+      ],
+      "docs": "Registration application, proof of surety insurance, proof of capital, proof of right to use the office, business operation plan",
+      "period": "In practice, it depends on the competent city or province's review and whether supplementation is needed"
+    },
+    {
+      "id": "sit-fp-cost",
+      "q": "How much does foreign patient attraction business registration cost in Korea, and what should I prepare first?",
+      "conclusion": "The registration fee follows the competent city or province's standards, and most of the preparation burden comes from the statutory requirements: taking out surety insurance (KRW 100 million or more), securing capital (KRW 100 million or more) and setting up an office. Putting these three in place comes first.",
+      "branches": [
+        {
+          "when": "Before incorporating",
+          "then": "Incorporate with paid-in capital of KRW 100 million or more and complete the office lease."
+        },
+        {
+          "when": "An existing corporation",
+          "then": "Prepare proof of capital and take out surety insurance, then draft the business operation plan."
+        }
+      ],
+      "docs": "Proof of surety insurance, proof of capital, proof of right to use the office, articles of incorporation, business operation plan",
+      "period": "In practice, it depends on the time needed for insurance enrollment and document preparation",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-fp-agent",
+      "q": "If I hire an administrative agent for medical tourism facilitator registration in Korea, what do they handle?",
+      "conclusion": "We review registration requirements and disqualifications, draft the registration application and business operation plan, organize attachments and file them with the city or province, handle supplementation, and file renewal, change, suspension and closure reports. We do not purchase the surety insurance for you, provide medical interpretation or market to patients.",
+      "branches": [
+        {
+          "when": "Registering for the first time",
+          "then": "We prepare and file the application documents from the requirements check through to issuance of the registration certificate."
+        },
+        {
+          "when": "Already registered",
+          "then": "We manage renewal before expiry, change reports and the performance reporting schedule."
+        }
+      ],
+      "docs": "Corporate documents or business details, surety insurance policy, proof of capital, office lease records",
+      "period": "In practice, it depends on the competent city or province's review and whether supplementation is needed"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-fp-patient",
+      "term": "Foreign patient (외국인환자)",
+      "def": "A foreign patient who is not a National Health Insurance subscriber or dependent; registered foreign nationals (except those with Miscellaneous (G-1) status) and overseas Koreans with a domestic residence report are excluded."
+    },
+    {
+      "id": "term-fp-attraction",
+      "term": "Foreign patient attraction (외국인환자 유치)",
+      "def": "Activities that provide treatment-related services so foreign patients can use Korean medical institutions, such as arranging and acting as agent for medical appointments and contracts, providing medical information, and guiding them on transport and lodging."
+    },
+    {
+      "id": "term-fp-clinic",
+      "term": "Medical institution attracting foreign patients (외국인환자 유치의료기관)",
+      "def": "A medical institution registered with the Mayor or Do Governor after meeting the requirements for specialists by medical department and medical malpractice liability insurance."
+    },
+    {
+      "id": "term-fp-agency",
+      "term": "Foreign patient attraction facilitator (외국인환자 유치사업자)",
+      "def": "A business other than a medical institution that is registered with the Mayor or Do Governor after meeting the surety insurance, capital and domestic office requirements."
+    },
+    {
+      "id": "term-fp-bond",
+      "term": "Surety insurance (보증보험)",
+      "def": "Insurance with coverage of KRW 100 million or more that covers liability for damage intentionally or negligently caused to foreign patients during attraction; it is a registration requirement for facilitators."
+    },
+    {
+      "id": "term-fp-validity",
+      "term": "Registration validity period (등록 유효기간)",
+      "def": "3 years from the registration date; to continue attracting patients, apply for renewal within 2 months before expiry."
+    },
+    {
+      "id": "term-fp-report",
+      "term": "Business performance report (사업실적 보고)",
+      "def": "The duty of registered medical institutions and facilitators to report the previous year's foreign patient attraction performance to the Mayor or Do Governor by the end of February each year."
+    },
+    {
+      "id": "term-fp-fee-rate",
+      "term": "Commission rate (수수료율)",
+      "def": "The range of attraction commissions announced by the Minister of Health and Welfare; demanding commissions above it is prohibited as a serious market order violation."
+    }
+  ]
+}

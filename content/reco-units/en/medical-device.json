@@ -1,0 +1,358 @@
+{
+ "slug": "medical-device",
+ "lang": "en",
+ "label": "Medical Device Import License",
+ "kw": "Medical device import license agent in Korea",
+ "answer": "A medical device import license consists of the import business license (수입업허가) obtained by a person intending to import medical devices as a business from the head of the Regional Office of Food and Drug Safety (지방식품의약품안전청장) with jurisdiction over the import premises, and the per-item import approval, certification or notification (수입허가·수입인증·수입신고) obtained for each product according to its class. When applying for the import business license, you must also apply for at least one item approval or certification, or file at least one notification, and you must have a quality manager, quality testing facilities and a quality management system. The license decision is notified within 25 days of the application date. YouSun Administrative Agency prepares the import business license application and attachments, files them and handles supplementation requests.",
+ "services": [
+  {
+   "name": "Preparing and filing the medical device import business license application (의료기기 수입업 허가신청)",
+   "href": "#term-md-import-business"
+  },
+  {
+   "name": "Preparing import approval, certification and notification applications and organizing the attachment list (수입허가·수입인증·수입신고)",
+   "href": "#term-md-item-approval"
+  },
+  {
+   "name": "Managing the schedule for filing the import business license and item licensing together",
+   "href": "#sit-md-simultaneous"
+  },
+  {
+   "name": "Guidance on preparing disqualification check documents (physician's certificate, etc.)",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Preparing the quality manager's qualification documents and certificate of employment (품질책임자)",
+   "href": "#term-md-quality-manager"
+  },
+  {
+   "name": "Preparing facility requirement documents when outsourcing testing",
+   "href": "#sit-md-no-lab"
+  },
+  {
+   "name": "Handling supplementation requests and receiving the license",
+   "href": "#sit-md-period"
+  },
+  {
+   "name": "Preparing and filing change approval, change certification and change notification applications",
+   "href": "#sit-md-after-import"
+  },
+  {
+   "name": "Managing the schedule for 5-year validity renewal applications (유효기간 갱신)",
+   "href": "#term-md-renewal"
+  },
+  {
+   "name": "Guidance on related licenses such as medical device sales business reports",
+   "href": "#sit-md-sales"
+  }
+ ],
+ "clients": [
+  "Trading companies importing overseas medical devices to supply hospitals and pharmacies in Korea",
+  "Korean subsidiaries of overseas manufacturers and foreign-invested companies",
+  "Businesses importing beauty or rehabilitation devices that are unsure whether they count as medical devices",
+  "Existing importers needing to add or change items and renew validity periods"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Anyone intending to import medical devices as a business (import business license), and each product to be imported (import approval, certification or notification depending on class)"
+  },
+  {
+   "label": "Requirements",
+   "value": "No grounds for disqualification, quality testing facilities and a manufacturing and quality management system (testing room may be waived if testing is outsourced), a quality manager, and at least one item approval or certification application or notification filed together with the import business license"
+  },
+  {
+   "label": "Process",
+   "value": "Determine class and licensing route → set up facilities and quality management system → appoint a quality manager → apply for the import business license (head of the Regional Office of Food and Drug Safety) → item approval (Minister of Food and Drug Safety), certification and notification (President of the Korea Medical Device Safety Information Institute (한국의료기기안전정보원장)) → receive the license and post-market management"
+  },
+  {
+   "label": "Documents",
+   "value": "Import business license application, physician's certificate that the applicant is not mentally ill or addicted to narcotics (issued within 6 months, not required for corporations), quality manager qualification documents and certificate of employment, item approval or certification application or notification, technical documentation, proof of the manufacturing site's quality management system, clinical trial data (if required)"
+  },
+  {
+   "label": "Timeline",
+   "value": "Import business license decision notified within 25 days of the application date (deemed granted if not notified); item licensing varies with class and supplementation; item approval, certification and notification are valid for 5 years"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Importing only Class 1 products",
+   "target": "sit-md-class1"
+  },
+  {
+   "label": "Importing a product another company has already licensed",
+   "target": "sit-md-same-product"
+  },
+  {
+   "label": "No in-house testing room",
+   "target": "sit-md-no-lab"
+  },
+  {
+   "label": "Unsure about products like beauty devices or in vitro diagnostics",
+   "target": "sit-md-borderline"
+  },
+  {
+   "label": "Need to bring in samples before licensing",
+   "target": "sit-md-sample"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-md-simultaneous",
+   "q": "Can we get the medical device import business license in Korea first and apply for the products later?",
+   "conclusion": "No. When applying for the import business license, you must apply for at least one import approval or certification, or file at least one import notification, at the same time, so plan the business license and item licensing to run in parallel.",
+   "branches": [
+    {
+     "when": "Your first import item is decided",
+     "then": "Prepare the approval, certification or notification documents for that item's class together with the import business license application."
+    },
+    {
+     "when": "Your items are not decided yet",
+     "then": "First confirm the items to import and their classes, then apply for the import business license."
+    }
+   ],
+   "docs": "Import business license application, item approval or certification application or notification, technical documentation, proof of the manufacturing site's quality management system",
+   "period": "Statutory: import business license decision notified within 25 days of the application date / Item licensing varies with class and supplementation",
+   "href": "#term-md-import-business"
+  },
+  {
+   "id": "sit-md-class1",
+   "q": "We only want to import Class 1 medical devices in Korea. Is an import notification enough?",
+   "conclusion": "Class 1 devices are in principle subject to import notification, but to import as a business you also need an import business license. File at least one import notification together with the import business license application.",
+   "branches": [
+    {
+     "when": "The product is Class 1",
+     "then": "Submit the import notification to the President of the Korea Medical Device Safety Information Institute and apply for the import business license to the head of the Regional Office of Food and Drug Safety at the same time."
+    },
+    {
+     "when": "The product is Class 2",
+     "then": "Products designated by notice of the Minister of Food and Drug Safety require import certification, and those not substantially equivalent to an already approved, certified or notified product require import approval."
+    }
+   ],
+   "docs": "Import notification, import business license application, quality manager documents, technical documentation",
+   "period": "Statutory: import business license decision within 25 days / Processing of import notifications depends on the state of the documents",
+   "href": "#term-md-class"
+  },
+  {
+   "id": "sit-md-same-product",
+   "q": "If we import the same medical device that another importer has already licensed in Korea, do we need to submit the technical documentation again?",
+   "conclusion": "If you prove, as set by the Minister of Food and Drug Safety, that it is the same product from the same manufacturer as an already approved medical device, you can omit the technical documentation. Proof of the manufacturing site's quality management system is submitted separately.",
+   "branches": [
+    {
+     "when": "You can prove it is the same product from the same manufacturer",
+     "then": "Prepare the item application on the basis that the technical documentation is omitted."
+    },
+    {
+     "when": "The structure, principle, performance, intended use or the like differ substantially from the existing product",
+     "then": "Prepare the technical documentation; if substantial equivalence is not recognized, clinical trial data may be required."
+    }
+   ],
+   "docs": "Item approval or certification application or notification, proof of identical product, proof of the manufacturing site's quality management system",
+   "period": "Item licensing varies with class and supplementation",
+   "href": "#term-md-equivalence"
+  },
+  {
+   "id": "sit-md-no-lab",
+   "q": "We are a small importer without a testing room. Can we still get a medical device import business license in Korea?",
+   "conclusion": "If you outsource quality control testing to a medical device testing and inspection body, a non-clinical testing institution, or a manufacturer recognized as compliant, you may operate without a testing room or testing facilities. You must still have a manufacturing and quality management system.",
+   "branches": [
+    {
+     "when": "You outsource quality control testing to an external body",
+     "then": "Prepare the outsourcing documents and apply without a testing room."
+    },
+    {
+     "when": "You want to test in-house",
+     "then": "Set up the facilities needed for quality testing before applying."
+    }
+   ],
+   "docs": "Import business license application, testing outsourcing documents, quality manager qualification documents and certificate of employment",
+   "period": "Statutory: import business license decision notified within 25 days of the application date",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-md-quality-manager",
+   "q": "Who should we appoint as quality manager when applying for a medical device import business license in Korea?",
+   "conclusion": "An importer must appoint a quality manager to handle import management, quality management and safety management, and submit qualification documents and a certificate of employment with the application. The quality manager must complete regular training.",
+   "branches": [
+    {
+     "when": "The qualification has already been confirmed through the integrated medical device information system",
+     "then": "Submission of qualification documents is waived, and only proof of employment such as a certificate of employment is submitted."
+    },
+    {
+     "when": "No quality manager is appointed, or someone who has not completed training performs the duties",
+     "then": "This is subject to administrative sanctions, so confirm the appointment and training schedule before applying."
+    }
+   ],
+   "docs": "Quality manager qualification documents, proof of employment such as a certificate of employment",
+   "period": "Statutory: import business license decision notified within 25 days of the application date",
+   "href": "#term-md-quality-manager"
+  },
+  {
+   "id": "sit-md-period",
+   "q": "How long does a medical device import license in Korea take, including item licensing?",
+   "conclusion": "The import business license decision must be notified within 25 days of the application date, and if no notice is given, the license is deemed granted on the day after the period ends. Item licensing can take several months depending on class and supplementation.",
+   "branches": [
+    {
+     "when": "It is a Class 1 notification or a designated Class 2 certification item",
+     "then": "It is filed with the President of the Korea Medical Device Safety Information Institute, and the schedule is relatively short once documents are complete."
+    },
+    {
+     "when": "It is Class 3 or 4, or an item without substantial equivalence",
+     "then": "It requires approval by the Minister of Food and Drug Safety, and review of technical documentation and clinical trial data can lengthen the timeline."
+    }
+   ],
+   "docs": "Import business license application, item approval or certification application or notification, technical documentation",
+   "period": "Statutory: import business license decision within 25 days (deemed granted if not notified) / In practice, item licensing varies with class and supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-md-cost-docs",
+   "q": "Before working out the cost of a medical device import license in Korea, what documents and preparation are needed?",
+   "conclusion": "Preparation centers on confirming the item class, appointing a quality manager, a quality management system (or outsourced testing), and obtaining proof of the overseas manufacturing site's quality management system and technical documentation. With these in hand, the business license and item licensing can proceed together.",
+   "branches": [
+    {
+     "when": "An individual is applying",
+     "then": "Submit a physician's certificate (issued within 6 months) that you are not mentally ill or addicted to narcotics."
+    },
+    {
+     "when": "A corporation is applying",
+     "then": "No physician's certificate is needed, and the corporate register extract is confirmed through shared administrative information."
+    }
+   ],
+   "docs": "Import business license application, physician's certificate (individuals), quality manager documents, item application, technical documentation, proof of the manufacturing site's quality management system",
+   "period": "Statutory: import business license decision within 25 days / In practice, time to receive documents from the overseas manufacturer is added",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-md-borderline",
+   "q": "Do beauty devices or in vitro diagnostic products also need a medical device import license in Korea?",
+   "conclusion": "A product is a medical device if it is intended for diagnosing, treating, alleviating or preventing disease; correcting injury or disability; examining, replacing or modifying structure or function; or controlling pregnancy. In vitro diagnostic products are governed by a separate law, the In Vitro Diagnostic Medical Devices Act (체외진단의료기기법).",
+   "branches": [
+    {
+     "when": "The intended use falls within the definition of a medical device",
+     "then": "Determine the class and proceed with the import business license and item licensing."
+    },
+    {
+     "when": "It is an in vitro diagnostic product",
+     "then": "Follow the procedures under the In Vitro Diagnostic Medical Devices Act, not the Medical Devices Act (의료기기법)."
+    },
+    {
+     "when": "It is a combination product whose main function is a pharmaceutical or quasi-drug and it has been approved or notified under the Pharmaceutical Affairs Act (약사법)",
+     "then": "It is treated as having been approved, certified or notified under the Medical Devices Act."
+    }
+   ],
+   "docs": "Description of the product's intended use and structure, overseas approval documents",
+   "period": "Once the applicable law is determined, its processing period applies",
+   "href": "#term-md-medical-device"
+  },
+  {
+   "id": "sit-md-sample",
+   "q": "Can we bring samples or test products into Korea before obtaining a medical device import license?",
+   "conclusion": "The law lists cases where devices may be imported without a license, such as devices imported to obtain import approval, certification or notification, devices for research purposes, products for physical inspection not intended for sale, and products for testing and inspection. The specific procedure and issuance of confirmation follow notices of the Minister of Food and Drug Safety.",
+   "branches": [
+    {
+     "when": "They are samples for preparing approval, certification or notification documents",
+     "then": "Import them after confirmation under the notice procedure."
+    },
+    {
+     "when": "They are products you intend to sell",
+     "then": "Obtain the import business license and item licensing first."
+    }
+   ],
+   "docs": "Documents confirming the import purpose, confirmation application documents under the notice",
+   "period": "Depends on the notice procedure of the Minister of Food and Drug Safety",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-md-after-import",
+   "q": "Do we need to obtain the medical device import license again after 5 years in Korea?",
+   "conclusion": "Import approval, certification and notification are valid for 5 years, and you must obtain renewal before expiry to keep importing. A device that was not imported during the validity period generally cannot be renewed.",
+   "branches": [
+    {
+     "when": "You actually imported during the validity period",
+     "then": "Submit renewal documents before expiry; the Minister of Food and Drug Safety may grant renewal on condition of changes."
+    },
+    {
+     "when": "The product details have changed",
+     "then": "File a change approval, change certification or change notification separately from renewal."
+    }
+   ],
+   "docs": "Renewal application and renewal documents, import record",
+   "period": "Statutory: 5 years from the date of approval, certification or acceptance of notification (for items subject to post-market surveillance, 5 years from the end of the surveillance review)",
+   "href": "#term-md-renewal"
+  },
+  {
+   "id": "sit-md-sales",
+   "q": "With a medical device import business license, do we still need a sales business report to sell directly to hospitals in Korea?",
+   "conclusion": "A medical device sales business report for domestic distribution and sales is a separate procedure from the import business license. Review it separately to match your sales channels.",
+   "branches": [
+    {
+     "when": "You distribute and sell imported products in Korea",
+     "then": "Separately check whether a sales business report is required and proceed."
+    },
+    {
+     "when": "You plan to advertise",
+     "then": "Advertising in broadcast, newspaper, internet and other media must be reviewed in advance by the self-regulatory review body, and the review is valid for 3 years."
+    }
+   ],
+   "docs": "Sales business report documents (separate), advertising review application materials",
+   "period": "Each procedure's processing period applies (advertising review valid for 3 years)",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-md-agent",
+   "q": "If we hire an administrative agent for a medical device import license in Korea, what exactly do they handle?",
+   "conclusion": "We handle preparation of the import business license application, item applications and attachment lists, preparation of disqualification and quality manager documents, filing with the competent authorities and supplementation responses, and change applications and renewal schedule management. We do not handle class determination, writing technical documentation or clinical data, testing and inspection, or building a quality management system.",
+   "branches": [
+    {
+     "when": "You are starting to import for the first time",
+     "then": "We prepare and file the documents for the import business license and item licensing together, and respond to supplementation requests."
+    },
+    {
+     "when": "You already hold an import business license",
+     "then": "We prepare and file documents for adding items, change approvals and change notifications, and validity renewals."
+    }
+   ],
+   "docs": "Letter of authorization, import business license application, item applications and attachments",
+   "period": "Statutory: import business license decision within 25 days / In practice, varies with supplementation of item documents",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-md-medical-device",
+   "term": "Medical device (의료기기)",
+   "def": "An instrument, machine, apparatus, material or the like used to diagnose, treat, alleviate or prevent disease; correct injury or disability; examine, replace or modify structure or function; or control pregnancy. Pharmaceuticals, quasi-drugs, and prostheses and orthoses among assistive devices for persons with disabilities are excluded."
+  },
+  {
+   "id": "term-md-import-business",
+   "term": "Import business license (수입업허가)",
+   "def": "A business license obtained by a person intending to import medical devices as a business from the head of the Regional Office of Food and Drug Safety with jurisdiction over the import premises."
+  },
+  {
+   "id": "term-md-item-approval",
+   "term": "Import approval, certification and notification (수입허가·수입인증·수입신고)",
+   "def": "Product-level licensing for each item (or item group). Approval is filed with the Minister of Food and Drug Safety, and certification and notification with the President of the Korea Medical Device Safety Information Institute."
+  },
+  {
+   "id": "term-md-class",
+   "term": "Medical device class (의료기기 등급)",
+   "def": "A classification from Class 1 (negligible) to Class 4 (high) according to the degree of potential risk, which determines whether approval, certification or notification applies."
+  },
+  {
+   "id": "term-md-equivalence",
+   "term": "Substantial equivalence (본질적 동등성)",
+   "def": "Whether a device is substantially the same as an already approved, certified or notified medical device in structure, principle, performance, intended use, method of use and the like. A Class 2 device that is not equivalent requires approval."
+  },
+  {
+   "id": "term-md-quality-manager",
+   "term": "Quality manager (품질책임자)",
+   "def": "A person an importer must appoint to handle import management, quality management and safety management, who must complete regular training."
+  },
+  {
+   "id": "term-md-renewal",
+   "term": "Validity renewal (유효기간 갱신)",
+   "def": "The procedure for continuing to import by renewing the 5-year validity of import approval, certification or notification before it expires."
+  }
+ ]
+}

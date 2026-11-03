@@ -1,0 +1,190 @@
+{
+  "slug": "money-lending-business-registration",
+  "lang": "en",
+  "label": "Money lending business registration",
+  "kw": "Money lending business registration agent in Korea",
+  "answer": "Money lending business registration (대부업 등록) is the registration that anyone intending to run a money lending or loan brokerage business (other than credit financial institutions) files for each business office with the competent si/do governor, or with the Financial Services Commission (금융위원회) in cases such as having offices in two or more si/do. You file the registration application after meeting the requirements of equity capital (KRW 300 million for a corporation, net assets of KRW 100 million for an individual, or KRW 30 million or more for loan brokerage only), completion of lending business training, a fixed place of business, and no grounds for disqualification for the representative and officers; registration is valid for 3 years from the registration date. YouSun Administrative Agency prepares and files the money lending business registration application and attachments on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the money lending business registration application (대부업등 등록신청서)", "href": "#term-ml-money-lending"},
+    {"name": "Preparing and filing the loan brokerage business (대부중개업) registration application", "href": "#term-ml-brokerage"},
+    {"name": "Pre-review of the registration requirements (equity capital, fixed place of business, training completion)", "href": "#term-ml-equity"},
+    {"name": "Pre-check of grounds for disqualification for the representative, officers and general manager (업무총괄 사용인)", "href": "#term-ml-general-manager"},
+    {"name": "Preparing attachments such as proof of the business office location and proof of equity capital (net assets)", "href": "#svc-glance"},
+    {"name": "Determining the registering authority (si/do or Financial Services Commission) and where to file", "href": "#sit-ml-two-regions"},
+    {"name": "Preparing documents in response to correction and supplement requests", "href": "#sit-ml-period"},
+    {"name": "Applying for registration renewal (등록갱신) before the validity period expires", "href": "#term-ml-renewal"},
+    {"name": "Applying for change registration (변경등록) of registered details", "href": "#term-ml-change-registration"},
+    {"name": "Filing the money lending business closure report", "href": "#sit-ml-closure"}
+  ],
+  "clients": [
+    "Companies and investors setting up a corporation to start a money lending business",
+    "Sole proprietors planning a small-scale money lending business",
+    "Prospective loan brokers who will only arrange or broker loans",
+    "Existing money lenders who need to renew before the registration validity period expires",
+    "Money lenders who need a change registration after relocating an office or replacing officers"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to run a money lending or loan brokerage business (other than credit financial institutions), and anyone who wants to run a loan receivables purchase and collection business"},
+    {"label": "Requirements", "value": "Equity capital (KRW 300 million for a corporation, net assets of KRW 100 million if not a corporation, KRW 30 million or more for loan brokerage only), completion of lending business training, a fixed place of business with staff and IT equipment, no grounds for disqualification for the representative, officers and general manager, and a guarantee deposit or insurance or mutual aid coverage"},
+    {"label": "Process", "value": "Complete lending business training → prepare equity capital, place of business and guarantee deposit (or insurance or mutual aid coverage) → submit registration application → check of facts and duplicate trade names (supplement request if needed) → entry in the register and issue of the registration certificate"},
+    {"label": "Documents", "value": "Money lending business registration application, proof of business office location (register certificate or copy of lease agreement), copy of training completion certificate, proof of equity capital (net assets), proof of guarantee deposit or insurance or mutual aid coverage, documents specified by Financial Services Commission notice"},
+    {"label": "Timeline", "value": "The number of processing days depends on the competent authority's review and any supplement requests (a correction and supplement period of up to 30 days is not counted in the processing period); registration is valid for 3 years from the registration date"}
+  ],
+  "chooser": [
+    {"label": "You will only broker loans", "target": "sit-ml-broker-only"},
+    {"label": "Starting as a sole proprietor", "target": "sit-ml-individual"},
+    {"label": "Offices in more than one si/do", "target": "sit-ml-two-regions"},
+    {"label": "The registration validity period is ending", "target": "sit-ml-renewal"},
+    {"label": "The representative or office has changed", "target": "sit-ml-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-ml-broker-only",
+      "q": "If I only broker loans without lending money myself, are the loan brokerage registration requirements in Korea different from those for money lending?",
+      "conclusion": "Arranging or brokering money loans as a business requires loan brokerage business registration, and under the si/do registration standards the equity capital (net assets for individuals) requirement is KRW 30 million or more, lower than for money lending. The training completion, fixed place of business and disqualification requirements must still be met.",
+      "branches": [
+        {"when": "You only broker loans and do not lend directly", "then": "Register as a loan brokerage business and prove equity capital or net assets of KRW 30 million or more."},
+        {"when": "You are a loan solicitor under an entrustment contract with a credit financial institution and broker only within the scope of that contract", "then": "Within the scope of that entrustment contract you are not subject to loan brokerage registration, so check the scope of the contract first."},
+        {"when": "You plan to broker through an online loan brokerage system", "then": "Registration is with the Financial Services Commission rather than the si/do, so determine the registering authority first."}
+      ],
+      "docs": "Money lending business registration application, proof of business office location, copy of training completion certificate, proof of equity capital (net assets), proof of guarantee deposit or insurance or mutual aid coverage",
+      "period": "In practice, time for training and document preparation is added, and the processing period depends on the competent authority's review and any supplement requests",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ml-individual",
+      "q": "How much equity capital do I need to register a money lending business in Korea as a sole proprietor without a corporation?",
+      "conclusion": "If you are not a corporation, net assets are used instead of equity capital, and under the si/do registration standards the requirement is KRW 100 million or more for money lending, or KRW 30 million or more for loan brokerage only.",
+      "branches": [
+        {"when": "You want to run a money lending business as an individual", "then": "Prepare documents proving net assets of KRW 100 million or more and confirm the representative has no grounds for disqualification."},
+        {"when": "You plan to convert to a corporation later", "then": "For a corporation the standard is equity capital (total of paid-in capital and similar items) of KRW 300 million or more, so after incorporating, meet the registration requirements anew in the corporation's name."}
+      ],
+      "docs": "Money lending business registration application, proof of net assets, proof of business office location (register certificate or copy of lease agreement), copy of training completion certificate, proof of guarantee deposit or insurance or mutual aid coverage",
+      "period": "The processing period depends on the competent authority's review and any supplement requests (a supplement period of up to 30 days is not counted in the processing period)"
+    },
+    {
+      "id": "sit-ml-two-regions",
+      "q": "If I have offices in both Seoul and Gyeonggi, do I register my money lending business in Korea with the Financial Services Commission instead of the city?",
+      "conclusion": "If you plan to set up offices in two or more si/do, you register with the Financial Services Commission. If all offices are within one si/do, you register each office with the competent si/do governor.",
+      "branches": [
+        {"when": "All offices are in one si/do", "then": "Register with the special city mayor, metropolitan city mayor, special self-governing city mayor, provincial governor or special self-governing province governor with jurisdiction over the office."},
+        {"when": "Offices span two or more si/do, or you want to run a loan receivables purchase and collection business", "then": "Register with the Financial Services Commission, and re-check the requirements for that registering authority."},
+        {"when": "You belong to a business group subject to cross-shareholding restrictions, or your largest shareholder is a credit financial institution", "then": "You must register with the Financial Services Commission regardless of the number of offices."}
+      ],
+      "docs": "Money lending business registration application, proof of location for each office, copy of training completion certificate, proof of equity capital, proof of guarantee deposit or insurance or mutual aid coverage, documents specified by Financial Services Commission notice",
+      "period": "The processing period depends on the registering authority's review and any supplement requests"
+    },
+    {
+      "id": "sit-ml-education",
+      "q": "I have not completed the money lending business training yet. Can I apply for registration in Korea first?",
+      "conclusion": "In principle, you must complete the lending business training before registration, and the training completion certificate must be for training taken within 6 months before the application date. If there is an unavoidable reason such as a natural disaster, your own illness or an overseas business trip, you may take the training within 1 month after registration.",
+      "branches": [
+        {"when": "You have not taken the training and have no unavoidable reason", "then": "Complete the training first and apply with a copy of the training completion certificate attached."},
+        {"when": "You have an unavoidable reason such as illness or an overseas business trip", "then": "Explain the reason and complete the training within 1 month after registration."},
+        {"when": "Your only training completion certificate is more than 6 months old", "then": "Take the training again based on the application date."}
+      ],
+      "docs": "Copy of training completion certificate (training within 6 months before the application date), materials explaining the unavoidable reason (if applicable)",
+      "period": "Training completion certificate must cover training within 6 months before the application date; with an unavoidable reason, training within 1 month after registration"
+    },
+    {
+      "id": "sit-ml-documents",
+      "q": "What documents do I attach to a money lending business registration application in Korea, and can I lease the office?",
+      "conclusion": "The business office location is proven with a register certificate or a copy of the lease agreement, so a leased office is possible. However, it must be a fixed place of business, and you also need staff and IT equipment.",
+      "branches": [
+        {"when": "You own the office", "then": "Prove the business office location with the register certificate."},
+        {"when": "You lease the office", "then": "Submit a copy of the lease agreement and confirm that the space can be used as a fixed place of business."}
+      ],
+      "docs": "Money lending business registration application, register certificate or copy of lease agreement, copy of training completion certificate, proof of equity capital (net assets), proof of guarantee deposit or insurance or mutual aid coverage, documents specified by Financial Services Commission notice",
+      "period": "In practice, time to sign the office contract and prepare evidence is needed first, and the processing period after filing depends on the competent authority's review"
+    },
+    {
+      "id": "sit-ml-period",
+      "q": "How long does money lending business registration take in Korea, from filing to receiving the registration certificate?",
+      "conclusion": "The registering authority checks the facts in the application and whether the trade name duplicates an existing one, and issues the registration certificate without delay if the requirements are met. If entries differ from the facts, it may request a supplement within a set deadline of up to 30 days, and this supplement period is not counted in the processing period.",
+      "branches": [
+        {"when": "The documents are complete and no supplement is requested", "then": "After the check, the business is entered in the register and the registration certificate is issued."},
+        {"when": "Entries in the application differ from the facts, or the trade name is already registered", "then": "You supplement the application or change the trade name and are checked again, so the schedule grows accordingly."}
+      ],
+      "docs": "Money lending business registration application and attachments, correction documents if a supplement is requested",
+      "period": "Supplement request deadline of up to 30 days (not counted in the processing period) / in practice, the number of processing days depends on the competent authority's review and any supplement requests"
+    },
+    {
+      "id": "sit-ml-cost",
+      "q": "What should I prepare in advance to work out the cost of money lending business registration in Korea?",
+      "conclusion": "The largest parts of preparing for registration are the statutory equity capital (KRW 300 million for a corporation, net assets of KRW 100 million for an individual, KRW 30 million or more for loan brokerage only), a fixed place of business, and a guarantee deposit or insurance or mutual aid coverage. Training completion and document preparation are also needed in sequence.",
+      "branches": [
+        {"when": "You want to run a money lending business as a corporation", "then": "Secure equity capital (total of paid-in capital and similar items) of KRW 300 million or more and prepare proof."},
+        {"when": "You only want to run a loan brokerage business", "then": "Prepare on the basis of equity capital or net assets of KRW 30 million or more."}
+      ],
+      "docs": "Proof of equity capital (net assets), proof of business office location, copy of training completion certificate, proof of guarantee deposit or insurance or mutual aid coverage",
+      "period": "In practice, the order is training → place of business and guarantee deposit → filing, and the processing period depends on the competent authority's review"
+    },
+    {
+      "id": "sit-ml-renewal",
+      "q": "My 3-year money lending business registration in Korea is about to expire. When should I apply for renewal?",
+      "conclusion": "To keep operating after the validity period, you must apply for registration renewal between 3 months and 1 month before the expiry date. The registering authority is required to notify you of the renewal procedure and deadline by 3 months before the expiry date.",
+      "branches": [
+        {"when": "You apply for renewal on time and still meet the registration requirements", "then": "After the requirements are checked, the renewal date is entered in the register and the registration certificate is reissued."},
+        {"when": "You do not apply for renewal on time", "then": "The validity period expires, and operating afterwards without registration counts as unregistered business, so you must meet the registration requirements anew."}
+      ],
+      "docs": "Registration renewal application, proof of equity capital (net assets), copy of training completion certificate, proof of guarantee deposit or insurance or mutual aid coverage",
+      "period": "Statutory: renewal application between 3 months and 1 month before the expiry date / registration is valid for 3 years from the registration date"
+    },
+    {
+      "id": "sit-ml-change",
+      "q": "Do I need a change registration if the representative or office address changes after registering a money lending business in Korea?",
+      "conclusion": "If matters entered in the registration application change (name and address, officers, general manager, office name and location, advertising phone number, equity capital and others), you must file a change registration within 15 days of the date the reason arises. Minor matters specified by Presidential Decree are excluded.",
+      "branches": [
+        {"when": "An officer or the general manager has changed", "then": "Confirm that the new officer or manager has no grounds for disqualification, then file the change registration."},
+        {"when": "You move an office to another si/do or add an office", "then": "First check whether the registering authority changes (si/do or Financial Services Commission)."}
+      ],
+      "docs": "Change registration application, proof of the changes (proof of office location, officer documents and others), registration certificate",
+      "period": "Statutory: change registration within 15 days of the date the reason for the change arises"
+    },
+    {
+      "id": "sit-ml-rejection",
+      "q": "What should I check before applying so that my money lending business registration in Korea is not rejected?",
+      "conclusion": "Typical obstacles are insufficient equity capital, training not completed, no fixed place of business, grounds for disqualification for the representative, officers or general manager, entries in the application that differ from the facts, and use of a trade name that is already registered.",
+      "branches": [
+        {"when": "The representative or an officer is a minor, under adult or limited guardianship, a bankrupt not reinstated, or someone for whom 5 years have not passed since completing a prison sentence without labor or heavier", "then": "This falls under the grounds for disqualification, so change the officer lineup before applying."},
+        {"when": "The corporation had a registration cancelled in the last 5 years or closed a business in the last 3 years", "then": "This conflicts with the corporate requirements, so first check whether the relevant period has passed."},
+        {"when": "The trade name you want is already registered with the same registering authority", "then": "You will be asked to use a different trade name, so settle the trade name before applying."}
+      ],
+      "docs": "Documents confirming the representative and officers have no grounds for disqualification, proof of equity capital, proof of business office location, copy of training completion certificate",
+      "period": "In practice, filing after checking disqualification and equity capital can shorten the supplement period"
+    },
+    {
+      "id": "sit-ml-closure",
+      "q": "Where do I file the closure report if I want to close my money lending business in Korea?",
+      "conclusion": "When a money lender closes its business, it must file a closure report with the si/do governor or the Financial Services Commission where it is registered.",
+      "branches": [
+        {"when": "You registered with a si/do", "then": "File the closure report with the si/do governor where you registered."},
+        {"when": "You registered with the Financial Services Commission", "then": "File the closure report with the Financial Services Commission."}
+      ],
+      "docs": "Closure report form, registration certificate",
+      "period": "The processing period depends on the registering authority"
+    },
+    {
+      "id": "sit-ml-recommend",
+      "q": "If I hire an administrative agent for money lending business registration in Korea, what do they handle?",
+      "conclusion": "Once engaged, we handle everything from pre-review of the registration requirements, preparation of the registration application and attachments, submission to the registering authority and supplement responses, to preparing renewal, change registration and closure report documents. We do not handle loan consultations or debt collection, surety insurance enrollment or tax matters, and the registering authority decides on registration.",
+      "branches": [
+        {"when": "You first need to determine the registering authority and requirements", "then": "We determine whether the si/do or the Financial Services Commission is the registering authority based on office locations and business model, and review whether the requirements are met."},
+        {"when": "Equity capital, the place of business and training are ready", "then": "We prepare and submit the registration application and attachments and respond to supplement requests."}
+      ],
+      "docs": "Letter of authorization, money lending business registration application, proof of business office location, copy of training completion certificate, proof of equity capital (net assets), proof of guarantee deposit or insurance or mutual aid coverage",
+      "period": "The processing period depends on the competent authority's review and any supplement requests",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-ml-money-lending", "term": "Money lending business (대부업)", "def": "Lending money (including discounting bills and transfer for security) continuously and repeatedly for profit, or acquiring and collecting receivables under loan agreements, as a business."},
+    {"id": "term-ml-brokerage", "term": "Loan brokerage business (대부중개업)", "def": "Effectively arranging or brokering money loans continuously and repeatedly for profit as a business."},
+    {"id": "term-ml-equity", "term": "Equity capital (자기자본)", "def": "The total of paid-in capital, capital surplus, retained earnings and similar items, as specified by Presidential Decree; if the applicant is not a corporation, net assets are used for the registration requirement."},
+    {"id": "term-ml-education", "term": "Lending business training (대부업 교육)", "def": "Training that a person intending to register a money lending business must complete before registration; a completion certificate for training within 6 months before the application date is attached."},
+    {"id": "term-ml-general-manager", "term": "General manager (업무총괄 사용인)", "def": "An employee who oversees the work of a business office; their name and address are entered in the registration application, and like the representative and officers they must have no grounds for disqualification."},
+    {"id": "term-ml-renewal", "term": "Registration renewal (등록갱신)", "def": "The procedure in which a money lender that wants to keep operating after the 3-year validity period from the registration date applies between 3 months and 1 month before the expiry date."},
+    {"id": "term-ml-change-registration", "term": "Change registration (변경등록)", "def": "The procedure for registering changes with the registering authority within 15 days of the date the reason arises when matters entered in the registration application change."},
+    {"id": "term-ml-loan-solicitor", "term": "Loan solicitor (대출모집인)", "def": "A person who brokers loans under an entrustment contract or similar with a credit financial institution; within the scope of that entrustment contract they are not subject to loan brokerage business registration."}
+  ]
+}

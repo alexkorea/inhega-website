@@ -1,0 +1,189 @@
+{
+ "slug": "kc-radio-certification",
+ "lang": "en",
+ "label": "KC Certification & Radio Certification",
+ "kw": "KC certification and radio certification agent in Korea",
+ "answer": "KC certification (KC 인증) is the process under the Electrical Appliances and Consumer Products Safety Control Act (전기용품 및 생활용품 안전관리법) in which products go through safety certification, safety confirmation filing or supplier's conformity confirmation depending on their category. Radio certification (전파인증) is the process under the Radio Waves Act (전파법) in which broadcasting and communications equipment undergoes one of four conformity assessments: conformity certification, conformity registration, self-conformity confirmation or provisional certification. The manufacturer or importer applies per model before shipment or customs clearance, and for safety certification the result must be notified within 45 days of the application. YouSun Administrative Agency prepares and files the application and filing documents; testing is carried out by testing bodies.",
+ "services": [
+  {"name": "Preparing and filing safety certification applications (안전인증 신청)", "href": "#term-kc-safety-cert"},
+  {"name": "Preparing and filing safety confirmation reports with the testing body's test report attached (안전확인신고)", "href": "#term-kc-safety-confirm"},
+  {"name": "Preparing supplier's conformity confirmation filing documents (공급자적합성확인 신고)", "href": "#term-kc-sdoc"},
+  {"name": "Pre-reviewing which product category applies (safety certification, safety confirmation or supplier's conformity confirmation) (제품 구분 검토)", "href": "#sit-kc-which-type"},
+  {"name": "Preparing and filing radio conformity certification applications (전파 적합인증 신청)", "href": "#term-kc-conformity-cert"},
+  {"name": "Preparing conformity registration documents (적합등록)", "href": "#term-kc-conformity-reg"},
+  {"name": "Organizing attachments (business registration certificate, product description, circuit diagrams, parts list, marking sample) (첨부서류)", "href": "#svc-glance"},
+  {"name": "Appointing a domestic agent for a foreign manufacturer and preparing application documents (국내 대리인 선임)", "href": "#sit-kc-foreign-maker"},
+  {"name": "Reviewing eligibility for conformity assessment exemption (testing, research, exhibition or export only) (적합성평가 면제)", "href": "#term-kc-exemption"},
+  {"name": "Filing changes to certified particulars (인증 사항 변경 신고)", "href": "#sit-kc-after-cert"},
+  {"name": "Handling supplementation requests after application or filing (보완 대응)", "href": "#sit-kc-supplement"}
+ ],
+ "clients": [
+  "Importers bringing in overseas electrical appliances and consumer products for sale in Korea",
+  "Companies manufacturing or importing broadcasting and communications equipment with wireless functions",
+  "Foreign manufacturers entering the Korean market and their domestic agents",
+  "Korean manufacturers checking which KC procedure applies before a product launch"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Anyone manufacturing (including foreign manufacturers) or importing electrical appliances and consumer products subject to safety control, and anyone intending to manufacture, sell or import broadcasting and communications equipment"},
+  {"label": "Requirements", "value": "Depending on product category, safety certification (product testing and factory audit), safety confirmation (testing by a designated safety confirmation testing body, then filing) or supplier's conformity confirmation (in-house or third-party testing); for radio, the applicable conformity assessment among conformity certification, conformity registration, self-conformity confirmation and provisional certification"},
+  {"label": "Process", "value": "Confirm product category → Testing by a testing body → Apply or file per model before shipment or customs clearance → Product testing and factory audit (safety certification) → Notification of result and certificate issued → Conformity marking → File any changes"},
+  {"label": "Documents", "value": "Safety certification application, copy of business registration certificate, proof of agency (for applications by an agent), product description, circuit diagrams and parts list, safety certification marking sample, test samples / Safety confirmation report and test report / Radio conformity certification application with documents specified by public notice such as parts layout and external view drawings"},
+  {"label": "Timeline", "value": "Safety certification results are notified within 45 days of receiving the application (extended by the excess if testing takes more than 30 days). Radio conformity assessment timing depends on the competent authority's schedule"}
+ ],
+ "chooser": [
+  {"label": "Not sure which certification an imported electrical product needs", "target": "sit-kc-which-type"},
+  {"label": "Wireless devices such as Bluetooth or Wi-Fi", "target": "sit-kc-wireless"},
+  {"label": "Certifying in the foreign manufacturer's name", "target": "sit-kc-foreign-maker"},
+  {"label": "Importing small quantities for research or testing", "target": "sit-kc-rnd-sample"},
+  {"label": "Product specifications changed after certification", "target": "sit-kc-after-cert"}
+ ],
+ "situations": [
+  {
+   "id": "sit-kc-which-type",
+   "q": "We want to import electrical products into Korea. How do we know whether they need KC safety certification, safety confirmation or supplier's conformity confirmation?",
+   "conclusion": "The category each product falls into is set by public notice, so check item by item. The procedure differs by category: safety certification involves product testing and a factory audit, safety confirmation involves testing by a testing body and then filing, and supplier's conformity confirmation involves self-confirmation and then filing.",
+   "branches": [
+    {"when": "The product is subject to safety certification", "then": "The manufacturer or importer applies to a safety certification body per model and submits samples."},
+    {"when": "The product is subject to safety confirmation", "then": "After testing by a safety confirmation testing body, file the report with the test report attached before shipment or customs clearance."},
+    {"when": "The product is subject to supplier's conformity confirmation", "then": "Confirm conformity through in-house or third-party testing; for electrical appliances, file the result."}
+   ],
+   "docs": "Product description, model name and specification data, circuit diagrams and parts list",
+   "period": "Confirming the category is a pre-application step; the period for each procedure is added afterward"
+  },
+  {
+   "id": "sit-kc-process",
+   "q": "What is the step-by-step process for KC safety certification of imported electrical products before customs clearance in Korea?",
+   "conclusion": "Before shipment or customs clearance, submit the application and documents per model to a safety certification body along with samples; the result is notified after product testing and a factory audit.",
+   "branches": [
+    {"when": "A Korean importer applies directly", "then": "Apply with a copy of the business registration certificate, product description, circuit diagrams and parts list, and a marking sample."},
+    {"when": "Applying in the foreign manufacturer's name", "then": "Appoint an agent residing in Korea and apply with proof of agency."}
+   ],
+   "docs": "Safety certification application, copy of business registration certificate, product description, circuit diagrams and parts list, safety certification marking sample, test samples",
+   "period": "Statutory: notification within 45 days of receiving the application (may be extended by any testing time over 30 days)",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-kc-period",
+   "q": "How long does KC safety certification take in Korea, from application to result?",
+   "conclusion": "The safety certification body must notify the result within 45 days of receiving the application. If testing takes more than 30 days due to the nature of the product, the period can be extended by the excess.",
+   "branches": [
+    {"when": "Documents and samples are complete and testing starts right away", "then": "The result comes within the statutory period according to the product testing and factory audit schedule."},
+    {"when": "You are asked to supplement missing documents", "then": "The schedule extends by the time taken to supplement, so check attachments before applying."}
+   ],
+   "docs": "Safety certification application and attachments, test samples",
+   "period": "Statutory: within 45 days (extended if testing exceeds 30 days) / In practice, leave a margin before your shipment or customs schedule"
+  },
+  {
+   "id": "sit-kc-cost",
+   "q": "How are radio certification fees determined in Korea?",
+   "conclusion": "Check the statutory fee with the competent authority when applying. The tests and documents required differ depending on whether you need conformity certification, conformity registration or self-conformity confirmation, so decide the type of assessment first.",
+   "branches": [
+    {"when": "The equipment poses potential hazards and requires conformity certification", "then": "After testing at a designated testing laboratory, apply to the Minister of Science and ICT (과학기술정보통신부장관) for conformity certification."},
+    {"when": "The equipment requires conformity registration or self-conformity confirmation", "then": "Register after testing or confirm conformity yourself, and keep the supporting documents."}
+   ],
+   "docs": "Product specification data, test reports, conformity certification application or conformity registration documents",
+   "period": "Depends on the type of assessment and the testing schedule"
+  },
+  {
+   "id": "sit-kc-wireless",
+   "q": "What type of radio certification is required in Korea when importing a device with Bluetooth?",
+   "conclusion": "To manufacture, sell or import broadcasting and communications equipment, you must obtain one of conformity certification, conformity registration, self-conformity confirmation or provisional certification; which one applies is determined by the category set according to the equipment's level of potential hazard.",
+   "branches": [
+    {"when": "The equipment is subject to conformity certification", "then": "After testing at a designated testing laboratory, apply with the documents specified by public notice, such as parts layout and external view drawings, attached to the application."},
+    {"when": "The equipment is subject to conformity registration", "then": "Register after testing and keep the supporting documents."},
+    {"when": "The product also runs on mains electricity", "then": "Separately from radio conformity assessment, also check its electrical appliance safety category."}
+   ],
+   "docs": "Product specifications, parts layout drawing, external view drawing, test reports",
+   "period": "Depends on the type of assessment and the testing schedule",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-kc-foreign-maker",
+   "q": "We import products from a Chinese manufacturer. Can KC certification be issued in the overseas manufacturer's name?",
+   "conclusion": "Foreign manufacturers are also eligible for safety certification and may appoint a person residing in Korea as an agent to apply. The importer can also apply in its own name.",
+   "branches": [
+    {"when": "You want certification in the overseas manufacturer's name", "then": "Appoint a domestic agent and apply with documents proving the agency."},
+    {"when": "You want certification in the importer's name", "then": "Apply per model with a copy of the importer's business registration certificate."}
+   ],
+   "docs": "Proof of agent appointment, manufacturer's product description, circuit diagrams and parts list, marking sample",
+   "period": "Safety certification statutory period of 45 days (extended if testing exceeds 30 days)"
+  },
+  {
+   "id": "sit-kc-docs",
+   "q": "What documents must be attached to a KC safety certification application in Korea?",
+   "conclusion": "Attach a copy of the business registration certificate, proof of agency for applications by an agent, the product description, circuit diagrams and parts list (for electrical appliances) and a safety certification marking sample to the application, and submit test samples.",
+   "branches": [
+    {"when": "It is a safety confirmation filing", "then": "Attach documents including the test report from the safety confirmation testing body to the safety confirmation report."},
+    {"when": "It is radio conformity certification", "then": "Attach the documents specified by public notice, such as parts layout and external view drawings, to the conformity certification application."}
+   ],
+   "docs": "Safety certification application, copy of business registration certificate, proof of agency, product description, circuit diagrams and parts list, safety certification marking sample, samples",
+   "period": "The statutory period runs from the date the documents are complete"
+  },
+  {
+   "id": "sit-kc-rnd-sample",
+   "q": "Do a few wireless devices imported into Korea for R&D purposes also need conformity assessment?",
+   "conclusion": "Equipment with a limited purpose of use, such as testing, research, technology development or exhibition, can be exempted from conformity assessment. Manufacturing solely for export, not for sale in Korea, can also qualify for exemption.",
+   "branches": [
+    {"when": "The devices are used only for research or testing", "then": "Check whether they qualify for exemption and prepare materials proving the purpose of use."},
+    {"when": "You plan to sell them in Korea later", "then": "The applicable conformity assessment must be obtained before sale."}
+   ],
+   "docs": "Explanation of purpose of use, quantity and specification data",
+   "period": "Processing time for exemption confirmation depends on the competent authority"
+  },
+  {
+   "id": "sit-kc-no-cert-penalty",
+   "q": "What are the penalties for selling products in Korea without KC certification?",
+   "conclusion": "Manufacturing or importing products subject to safety certification without it can lead to imprisonment of up to 3 years or a fine of up to KRW 30 million, and manufacturing or importing without a safety confirmation filing is also punishable. Selling equipment that has not undergone conformity assessment, or manufacturing or importing it for sale, carries penalty provisions at the same level.",
+   "branches": [
+    {"when": "You have already started selling", "then": "Stop sales and proceed with the certification or filing procedure that fits the product category."},
+    {"when": "You did not apply the conformity marking or did not keep supporting documents", "then": "This can be grounds for cancellation of the conformity assessment, so put marking and document retention in order."}
+   ],
+   "docs": "Product specification data, certification or filing application documents",
+   "period": "Follows the period for each certification procedure"
+  },
+  {
+   "id": "sit-kc-after-cert",
+   "q": "If parts or the exterior change after radio certification in Korea, do we need to certify again?",
+   "conclusion": "Changes to certified particulars must be reported. After certification, apply the conformity marking to the equipment or packaging, and for conformity registration and self-conformity confirmation, keep the supporting documents.",
+   "branches": [
+    {"when": "Certified particulars change", "then": "Document the changes and file a change report."},
+    {"when": "The model changes entirely", "then": "Certification is per model, so review whether the new model needs its own conformity assessment."}
+   ],
+   "docs": "Description of the changes, existing certificate, data on changed parts and exterior",
+   "period": "Depends on the competent authority's processing schedule"
+  },
+  {
+   "id": "sit-kc-supplement",
+   "q": "We filed a safety confirmation report for a consumer product in Korea and received a supplementation request. What should we check first?",
+   "conclusion": "A safety confirmation filing must include documents such as the test report, so first check whether the test report is missing and whether the details in the report match the tested model.",
+   "branches": [
+    {"when": "The test report is missing or covers a different model", "then": "Obtain the test report for the correct model from the safety confirmation testing body and reattach it."},
+    {"when": "Business documents or the product description are missing", "then": "Prepare the missing documents and submit them within the supplementation deadline."}
+   ],
+   "docs": "Safety confirmation report, safety confirmation test report, copy of business registration certificate, product description",
+   "period": "Depends on when the supplementary documents are submitted"
+  },
+  {
+   "id": "sit-kc-agent",
+   "q": "If we hire an administrative agent for KC certification in Korea, what exactly do they handle?",
+   "conclusion": "Under a letter of authorization, an administrative agent reviews the product category, prepares safety certification applications, safety confirmation reports and radio conformity certification applications with their attachments, files them, handles supplementation and files change reports. Product testing and factory audits are carried out by testing and certification bodies, and the competent authority decides on certification.",
+   "branches": [
+    {"when": "You do not know which procedure applies", "then": "Start by sorting out, from the product specifications, the category among safety certification, safety confirmation and supplier's conformity confirmation, and the radio conformity assessment type."},
+    {"when": "You already have test reports", "then": "Proceed with drafting applications and filings, checking attachments and filing."},
+    {"when": "You are an overseas manufacturer", "then": "Prepare the domestic agent appointment documents together with the application documents."}
+   ],
+   "docs": "Letter of authorization, copy of business registration certificate, product description, circuit diagrams and parts list, test reports",
+   "period": "Follows the competent authority's processing period and the testing schedule"
+  }
+ ],
+ "glossary": [
+  {"id": "term-kc-safety-cert", "term": "Safety certification (안전인증)", "def": "Proof of product safety through product testing and a factory audit, obtained per model from a safety certification body by the manufacturer or importer of a product subject to safety certification."},
+  {"id": "term-kc-safety-confirm", "term": "Safety confirmation (안전확인)", "def": "A procedure in which a product subject to safety confirmation is tested by a safety confirmation testing body to confirm it meets safety standards, and then reported."},
+  {"id": "term-kc-sdoc", "term": "Supplier's conformity confirmation (공급자적합성확인)", "def": "A procedure in which a product subject to supplier's conformity confirmation is self-confirmed through in-house or third-party testing; for electrical appliances, the result is reported."},
+  {"id": "term-kc-conformity-assessment", "term": "Conformity assessment (적합성평가)", "def": "The collective term for conformity certification, conformity registration, self-conformity confirmation and provisional certification that broadcasting and communications equipment must obtain under the Radio Waves Act."},
+  {"id": "term-kc-conformity-cert", "term": "Conformity certification (적합인증)", "def": "A conformity assessment obtained from the Minister of Science and ICT, after testing at a designated testing laboratory, for equipment that poses potential hazards."},
+  {"id": "term-kc-conformity-reg", "term": "Conformity registration (적합등록)", "def": "A conformity assessment in which equipment not subject to conformity certification is registered after testing; the registrant must keep the supporting documents."},
+  {"id": "term-kc-self-conformity", "term": "Self-conformity confirmation (자기적합확인)", "def": "A conformity assessment in which conformity of low-hazard equipment is confirmed through in-house testing or testing by a testing laboratory."},
+  {"id": "term-kc-exemption", "term": "Conformity assessment exemption (적합성평가 면제)", "def": "A system allowing exemption from conformity assessment for equipment with a limited purpose of use such as testing, research, technology development or exhibition, or for manufacturing solely for export and not for sale in Korea."}
+ ]
+}

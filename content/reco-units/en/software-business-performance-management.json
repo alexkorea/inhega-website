@@ -1,0 +1,174 @@
+{
+  "slug": "software-business-performance-management",
+  "lang": "en",
+  "label": "Software business operator report (general status management application)",
+  "kw": "Software business operator report agent in Korea",
+  "answer": "What is commonly called the software business operator report (소프트웨어사업자 신고) is not a business permit or registration but a general status management application (일반 현황 관리신청): a person engaged in software business submits data such as technical personnel and project performance records to the operator performance management agency, which keeps and manages them. You file the general status management application with performance evidence; the form states a processing period of 7 days, and on request a general status management confirmation and a project performance certificate are issued. YouSun Administrative Agency prepares and files the status management application and performance evidence on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the software business operator general status management application (소프트웨어사업자 일반 현황 관리신청서), new filing", "href": "#term-sw-general-application"},
+    {"name": "Preparing and filing the general status change application", "href": "#sit-sw-change"},
+    {"name": "Preparing and filing the software project performance management application (소프트웨어사업 수행 실적 관리신청서)", "href": "#term-sw-performance-application"},
+    {"name": "Organizing performance evidence such as contracts and performance confirmation documents", "href": "#sit-sw-performance"},
+    {"name": "Pre-review of the entries for business field, number of regular employees (number of software engineers) and financial status", "href": "#svc-glance"},
+    {"name": "Preparing attachments such as the mid-sized enterprise confirmation (중견기업확인서)", "href": "#sit-sw-midsize"},
+    {"name": "Preparing attachments where you do not consent to shared administrative information (corporate register certificate, business registration certificate, certified financial statements, etc.)", "href": "#sit-sw-docs"},
+    {"name": "Requesting the general status management confirmation (일반 현황 관리확인서) and the project performance certificate (수행 실적 증명서)", "href": "#term-sw-confirmation"},
+    {"name": "Handling supplement requests from the operator performance management agency", "href": "#sit-sw-supplement"}
+  ],
+  "clients": [
+    "Small and medium-sized corporations in software development and supply or computer-related services",
+    "Software developers who moved from freelancing to running a sole proprietorship",
+    "Foreign-invested companies and foreign IT companies that have set up a Korean corporation",
+    "Existing operators who want their completed software projects managed and certified as performance records"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Persons engaged in software business (software business operators): corporations and sole proprietors"},
+    {"label": "Requirements", "value": "No separate qualification or facility requirements in the law; a person engaged in software business fills in the business field, company details, number of regular employees (number of software engineers) and financial status on the application and has performance evidence ready"},
+    {"label": "Process", "value": "Prepare the application (can be filed through the integrated software industry information management system) → submit to the operator performance management agency → check through shared administrative information → on request, issuance of the general status management confirmation and project performance certificate"},
+    {"label": "Documents", "value": "Software business operator general status management application, mid-sized enterprise confirmation (mid-sized enterprises only), documents proving performance, and for project performance management the project performance management application, contracts and performance confirmation documents"},
+    {"label": "Timeline", "value": "7 days per the general status management application form"}
+  ],
+  "chooser": [
+    {"label": "You are starting a business and wonder whether a report is needed", "target": "sit-sw-need-report"},
+    {"label": "You need a management confirmation issued", "target": "sit-sw-certificate"},
+    {"label": "You are applying as a sole proprietor", "target": "sit-sw-docs"},
+    {"label": "You want completed projects recorded as performance", "target": "sit-sw-performance"},
+    {"label": "Your company details have changed", "target": "sit-sw-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-sw-need-report",
+      "q": "I set up a software development company in Korea. Do I have to file a software business operator report before I can start trading?",
+      "conclusion": "The operator procedure found in the Software Promotion Act (소프트웨어 진흥법) is not a permit or registration to start business but an application to keep and manage data such as performance records, and the rule says the operator may submit it. If you want your technical personnel and project performance managed as official records, file a general status management application.",
+      "branches": [
+        {"when": "You want your company status and performance managed as official records", "then": "Prepare the general status management application and submit it to the operator performance management agency."},
+        {"when": "You also want your completed project performance managed", "then": "After the general status management application, submit the project performance management application with contracts and performance confirmation documents."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it",
+      "period": "7 days per the form"
+    },
+    {
+      "id": "sit-sw-certificate",
+      "q": "A client is asking for our software business operator general status management confirmation. How do we get it issued in Korea?",
+      "conclusion": "Once an operator has completed the general status management application, the operator performance management agency must issue the general status management confirmation on request. If you have not applied yet, start with the management application.",
+      "branches": [
+        {"when": "You have not filed the management application yet", "then": "Submit the general status management application with performance evidence, and request the confirmation after it is processed."},
+        {"when": "You have already applied but your status has changed", "then": "Correct the status through a change application, then have the confirmation issued so it reflects the latest details."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it",
+      "period": "7 days per the management application form / in practice, longer if supplements are requested",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sw-docs",
+      "q": "Does a software business run as a sole proprietorship in Korea need different documents for the status management application than a corporation?",
+      "conclusion": "The application and performance evidence are the same; the difference is in the documents the operator performance management agency checks through shared administrative information. For a sole proprietor, the certified year-end financial statements and the VAT tax base certificate (부가가치세과세표준증명원) are checked.",
+      "branches": [
+        {"when": "You consent to shared administrative information", "then": "The agency checks the corporate register certificate (corporations), business registration certificate, certificate of business suspension or closure status, certified financial statements and similar documents directly."},
+        {"when": "You do not consent to shared administrative information", "then": "You must attach the documents to be checked yourself."},
+        {"when": "You are a small or medium-sized enterprise", "then": "The SME confirmation is also checked through shared administrative information."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it, and without consent to shared information: business registration certificate, certificate of business suspension or closure status, certified year-end financial statements, VAT tax base certificate (sole proprietors)",
+      "period": "7 days per the form"
+    },
+    {
+      "id": "sit-sw-period",
+      "q": "How many days does it take from filing the software business operator status management application to receiving the confirmation in Korea?",
+      "conclusion": "The general status management application form states a processing period of 7 days. The confirmation is issued on the operator's request after processing.",
+      "branches": [
+        {"when": "Your performance evidence matches the application entries", "then": "It is processed within the period stated on the form and you can request the confirmation."},
+        {"when": "Evidence is insufficient or the entries differ from the documents", "then": "If you receive a supplement request, it is delayed by the time the supplement takes."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it",
+      "period": "7 days per the form / in practice, it depends on any supplements"
+    },
+    {
+      "id": "sit-sw-cost",
+      "q": "I am looking into the cost of the software business operator report in Korea. What should I prepare first?",
+      "conclusion": "Fees for the data keeping and management work follow the standards set in the Enforcement Rules. Before looking at cost, organizing your business field, number of regular employees, financial status and performance evidence makes processing without supplements more likely.",
+      "branches": [
+        {"when": "You only want your general status managed", "then": "Prepare only the general status management application and its attachments."},
+        {"when": "You also want project performance managed", "then": "Additionally prepare contracts and performance confirmation documents for each project."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it, project performance management application, contracts, performance confirmation documents",
+      "period": "7 days per the form"
+    },
+    {
+      "id": "sit-sw-performance",
+      "q": "How do I register a completed software development project as a performance record in Korea?",
+      "conclusion": "An operator that has filed the general status management application and wants project performance managed submits the software project performance management application with contracts and performance confirmation documents to the operator performance management agency. On request, a project performance certificate is issued.",
+      "branches": [
+        {"when": "You have already filed the general status management application", "then": "Collect contracts and performance confirmation documents for each project and submit the project performance management application."},
+        {"when": "You have not filed the general status management application", "then": "File the general status management application first, then follow with the project performance management application."}
+      ],
+      "docs": "Software project performance management application, contracts, documents confirming the software project performance, other documents that objectively prove the performance",
+      "period": "In practice, it depends on how well the evidence is organized and any supplements"
+    },
+    {
+      "id": "sit-sw-change",
+      "q": "Our representative and number of regular employees have changed. How do we update our software business operator status in Korea?",
+      "conclusion": "File a change application using the change box on the general status management application, and attach documents that objectively prove the changes.",
+      "branches": [
+        {"when": "Company details such as the representative or company name have changed", "then": "Enter the changes on the application and attach documents showing the change."},
+        {"when": "The number of regular employees (number of software engineers) or financial status has changed", "then": "Enter the updated figures and prepare documents supporting them."}
+      ],
+      "docs": "Software business operator general status management application (change), documents that objectively prove the changes",
+      "period": "7 days per the form"
+    },
+    {
+      "id": "sit-sw-midsize",
+      "q": "Our software company has become a mid-sized enterprise. Are there extra documents for the status management application in Korea?",
+      "conclusion": "A software business operator that is a mid-sized enterprise attaches a mid-sized enterprise confirmation. The SME confirmation is a document checked through shared administrative information for small and medium-sized enterprises.",
+      "branches": [
+        {"when": "You qualify as a mid-sized enterprise", "then": "Attach the mid-sized enterprise confirmation to the application."},
+        {"when": "You qualify as a small or medium-sized enterprise", "then": "The agency checks the SME confirmation through shared administrative information; if you do not consent, attach it yourself."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it",
+      "period": "7 days per the form"
+    },
+    {
+      "id": "sit-sw-where",
+      "q": "Can the software business operator status management application in Korea be filed online?",
+      "conclusion": "It is submitted to the operator performance management agency that keeps and manages software business operators' performance data, and it can also be filed through the integrated software industry information management system (소프트웨어산업정보종합관리체계).",
+      "branches": [
+        {"when": "You apply online", "then": "Fill in the application and upload the evidence on the integrated software industry information management system."},
+        {"when": "You apply on paper", "then": "Submit the application and attachments to the operator performance management agency."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it",
+      "period": "7 days per the form"
+    },
+    {
+      "id": "sit-sw-supplement",
+      "q": "What should we do if we receive a supplement request saying our software performance evidence is insufficient?",
+      "conclusion": "The law does not set out specific grounds for returning the application, but supplements may be requested if documents objectively proving the performance are insufficient or the entries differ from the documents. Add evidence for the items requested, or correct the entries to match the documents.",
+      "branches": [
+        {"when": "Evidence documents are insufficient", "then": "Submit additional documents that objectively prove the performance, such as contracts and performance confirmation documents."},
+        {"when": "The entries differ from the documents", "then": "Correct the business field, number of employees, financial status and other entries on the application to match the evidence."}
+      ],
+      "docs": "Evidence for the items in the supplement request, corrected application",
+      "period": "In practice, processing restarts when the supplement is submitted, so it is extended by the supplement period"
+    },
+    {
+      "id": "sit-sw-agent",
+      "q": "If I hire an administrative agent for the software business operator report in Korea, what will they handle?",
+      "conclusion": "The agent prepares the general status management application and project performance management application, organizes the performance evidence, files with the operator performance management agency, handles supplement requests and requests issuance of the confirmation and certificate. Software development, quality certification testing, and tax or accounting work are not covered.",
+      "branches": [
+        {"when": "You are applying for the first time", "then": "The agent first reviews the entries for business field, number of regular employees and financial status, then prepares the application."},
+        {"when": "You also want performance management handled", "then": "The agent organizes contracts and performance confirmation documents for each project and submits the project performance management application."}
+      ],
+      "docs": "Software business operator general status management application, mid-sized enterprise confirmation (for mid-sized enterprises), documents that objectively prove the performance or changes to it, and for project performance management, contracts and performance confirmation documents",
+      "period": "7 days per the form / in practice, it depends on how ready the evidence is",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-sw-business-operator", "term": "Software business operator (소프트웨어사업자)", "def": "A person engaged in software business, which is economic activity related to the software industry."},
+    {"id": "term-sw-records-agency", "term": "Operator performance management agency (사업자실적관리기관)", "def": "The body that receives submissions and keeps and manages data such as software business operators' technical personnel and project performance records."},
+    {"id": "term-sw-general-application", "term": "Software business operator general status management application (소프트웨어사업자 일반 현황 관리신청서)", "def": "An application a software business operator submits to the operator performance management agency stating its business field, company name and business registration number, representative, number of regular employees, financial status and similar details; the same form is used for new filings and changes."},
+    {"id": "term-sw-performance-application", "term": "Software project performance management application (소프트웨어사업 수행 실적 관리신청서)", "def": "An application filed with contracts and performance confirmation documents by an operator that has filed the general status management application and wants its completed software projects managed as performance records."},
+    {"id": "term-sw-confirmation", "term": "Software business operator general status management confirmation (소프트웨어사업자 일반 현황 관리확인서)", "def": "A document the operator performance management agency issues on the operator's request, confirming the operator's general status that it manages."},
+    {"id": "term-sw-performance-certificate", "term": "Software project performance certificate (소프트웨어사업 수행 실적 증명서)", "def": "A performance certificate the operator performance management agency issues on request to an operator that has filed the project performance management application."},
+    {"id": "term-sw-engineer", "term": "Software engineer (소프트웨어기술자)", "def": "A person who holds a national technical qualification in information technology, or who has the education or experience in the software field prescribed by Presidential Decree."},
+    {"id": "term-sw-info-system", "term": "Integrated software industry information management system (소프트웨어산업정보종합관리체계)", "def": "An information management system through which the software business operator general status management application and similar filings can be made online."}
+  ]
+}

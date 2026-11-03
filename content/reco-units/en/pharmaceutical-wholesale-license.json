@@ -1,0 +1,173 @@
+{
+  "slug": "pharmaceutical-wholesale-license",
+  "lang": "en",
+  "label": "Pharmaceutical wholesale license",
+  "kw": "Pharmaceutical wholesale license agent in Korea",
+  "answer": "A pharmaceutical wholesale license (의약품 도매업 허가) is the permit that anyone who wants to become a pharmaceutical wholesaler obtains from the head of the si/gun/gu with jurisdiction over the business office; it requires a business office and a warehouse (165 square meters or more in principle), capital or equity capital of KRW 500 million or more (KRW 200 million or more if only certain products are handled), and a pharmacist serving as wholesale manager. The processing period on the application form is 7 days, and except for some wholesalers such as those handling herbal medicines, the license carries a condition that sales may begin only after a Good Supply Practice compliance determination. YouSun Administrative Agency prepares and files the pharmaceutical wholesaler license application and attachments on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the pharmaceutical wholesaler license application (의약품 도매상 허가신청서)", "href": "#term-pw-wholesaler"},
+    {"name": "Pre-review of warehouse area and capital standards according to the products handled", "href": "#term-pw-warehouse"},
+    {"name": "Preparing a checklist of business office and warehouse facility requirements", "href": "#sit-pw-warehouse-size"},
+    {"name": "Checking the representative's grounds for disqualification and guidance on the medical certificate", "href": "#sit-pw-disqualification"},
+    {"name": "Preparing proof of qualification for the wholesale manager (도매업무관리자, pharmacist)", "href": "#term-pw-manager"},
+    {"name": "Organizing attachments such as articles of incorporation, statement of financial position and statement of business capital", "href": "#svc-glance"},
+    {"name": "Reviewing the logistics outsourcing contract (유통관리업무 위탁계약서) and applying without a warehouse", "href": "#term-pw-logistics-outsourcing"},
+    {"name": "Applying for a change permit (변경허가) for licensed matters", "href": "#term-pw-change-permit"},
+    {"name": "Filing wholesale manager appointment reports and non-engagement reports", "href": "#sit-pw-manager-change"},
+    {"name": "Preparing documents in response to supplement requests", "href": "#sit-pw-period"}
+  ],
+  "clients": [
+    "Corporations and sole proprietors starting a new pharmaceutical distribution business",
+    "Trading companies that will handle only imported drugs, active pharmaceutical ingredients or reagents",
+    "Businesses that will wholesale only specific products such as herbal medicines or medical high-pressure gases",
+    "Pharmacists who want to manage wholesale operations themselves",
+    "Existing wholesalers that need change procedures after relocating or replacing the managing pharmacist"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Pharmaceutical wholesalers that acquire drugs for sale and supply them to pharmacies and others (excluding pharmacy owners)"},
+    {"label": "Requirements", "value": "A business office and warehouse (165 square meters or more; 66 square meters for imported drugs, reagents and active pharmaceutical ingredients only; 33 square meters or more for veterinary drugs only; no area standard for herbal medicines, medical high-pressure gases or radiopharmaceuticals only), capital or equity capital of KRW 500 million or more (KRW 200 million or more for certain products only), a pharmacist as wholesale manager, and no grounds for disqualification for the representative"},
+    {"label": "Process", "value": "Fix the product range → secure and fit out the business office and warehouse → secure capital and obtain a business diagnosis → secure a wholesale manager (pharmacist) → file the license application → license issued (with the compliance determination condition)"},
+    {"label": "Documents", "value": "Pharmaceutical wholesaler license application, articles of incorporation (corporations), representative's medical certificate, proof of the wholesale manager's qualification, statement of financial position or statement of business capital, business diagnosis report from a business diagnosis institution, list of equipment held such as delivery vehicles, logistics outsourcing contract (if outsourced)"},
+    {"label": "Timeline", "value": "7 days per the application form (time for facility fit-out, business diagnosis and the Good Supply Practice compliance determination is separate)"}
+  ],
+  "chooser": [
+    {"label": "Handling only imported drugs or active pharmaceutical ingredients", "target": "sit-pw-import-only"},
+    {"label": "Handling only herbal medicines or medical high-pressure gases", "target": "sit-pw-herbal-gas"},
+    {"label": "Outsourcing logistics without your own warehouse", "target": "sit-pw-no-warehouse"},
+    {"label": "The representative is not a pharmacist", "target": "sit-pw-non-pharmacist"},
+    {"label": "The managing pharmacist or business office changed after licensing", "target": "sit-pw-manager-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-pw-import-only",
+      "q": "If we only wholesale imported drugs and active pharmaceutical ingredients in Korea, are the warehouse area and capital standards lower?",
+      "conclusion": "If you handle only imported drugs, reagents and active pharmaceutical ingredients, a warehouse of 66 square meters or more is enough, and if you handle only certain products such as imported drugs, safety household drugs, reagents, active pharmaceutical ingredients and herbal medicines, the capital or equity capital requirement is KRW 200 million or more.",
+      "branches": [
+        {"when": "You handle only imported drugs, reagents and active pharmaceutical ingredients", "then": "Prepare on the basis of a warehouse of 66 square meters or more and capital or equity capital of KRW 200 million or more."},
+        {"when": "You also handle general finished drugs", "then": "The standards of a warehouse of 165 square meters or more and capital or equity capital of KRW 500 million or more apply."}
+      ],
+      "docs": "Pharmaceutical wholesaler license application, statement of financial position or statement of business capital, business diagnosis report, warehouse facility documents, proof of the wholesale manager's qualification",
+      "period": "7 days per the application form / in practice, warehouse fit-out and business diagnosis come first"
+    },
+    {
+      "id": "sit-pw-herbal-gas",
+      "q": "Do the warehouse area standard and the compliance determination condition apply if we only wholesale herbal medicines or medical high-pressure gases in Korea?",
+      "conclusion": "If you handle only herbal medicines, medical high-pressure gases or radiopharmaceuticals, the warehouse area standard does not apply, and wholesalers of these products are not subject to the Good Supply Practice compliance determination condition. You still need a business office and warehouse with storage facilities and a wholesale manager.",
+      "branches": [
+        {"when": "You handle only herbal medicines", "then": "Set up warehouse storage facilities without an area standard and prepare on the basis of capital or equity capital of KRW 200 million or more."},
+        {"when": "You handle only medical high-pressure gases or radiopharmaceuticals", "then": "Set up storage facilities suited to the product without an area standard and apply."}
+      ],
+      "docs": "Pharmaceutical wholesaler license application, representative's medical certificate, proof of the wholesale manager's qualification, statement of financial position or statement of business capital, business diagnosis report, list of equipment held",
+      "period": "7 days per the application form"
+    },
+    {
+      "id": "sit-pw-warehouse-size",
+      "q": "Besides floor area, what facilities does a pharmaceutical wholesaler warehouse in Korea need?",
+      "conclusion": "The warehouse needs facilities such as cold storage and light shielding, rodent and pest control, and temperature and humidity control, and depending on the products handled, storage for biological products and storage for narcotics and psychotropic drugs are added.",
+      "branches": [
+        {"when": "You handle biological products", "then": "Add storage facilities for biological products."},
+        {"when": "You handle narcotics or psychotropic drugs", "then": "Set up the relevant storage facilities and also review whether a separate handling license is needed."}
+      ],
+      "docs": "Warehouse floor plan and facility details, list of equipment held such as delivery vehicles",
+      "period": "In practice, facility fit-out often takes longer than the 7-day processing period"
+    },
+    {
+      "id": "sit-pw-no-warehouse",
+      "q": "Can I get a pharmaceutical wholesale license in Korea without my own warehouse by outsourcing logistics to another wholesaler?",
+      "conclusion": "If you outsource logistics management such as storage and delivery to another pharmaceutical wholesaler that meets the requirements, you may not need your own warehouse. The wholesaler taking on the work must meet requirements such as a warehouse with a net floor area of 800 square meters or more.",
+      "branches": [
+        {"when": "The contracted wholesaler meets the requirements", "then": "Sign a logistics outsourcing contract and apply with the contract attached."},
+        {"when": "The contracted wholesaler's warehouse falls short of the requirements", "then": "Find another contracted wholesaler or secure your own warehouse."}
+      ],
+      "docs": "Logistics outsourcing contract, pharmaceutical wholesaler license application, statement of financial position or statement of business capital, business diagnosis report",
+      "period": "7 days per the application form / in practice, time to sign the outsourcing contract is added"
+    },
+    {
+      "id": "sit-pw-non-pharmacist",
+      "q": "Can I get a pharmaceutical wholesale license in Korea if the representative is not a pharmacist?",
+      "conclusion": "Yes. However, a pharmaceutical wholesaler must have a pharmacist manage its operations, and only when the wholesaler is itself a pharmacist managing operations directly is a separate pharmacist not required.",
+      "branches": [
+        {"when": "The representative is not a pharmacist", "then": "Appoint a pharmacist as wholesale manager and attach proof of qualification."},
+        {"when": "The representative is a pharmacist managing operations directly", "then": "Apply on the basis of the representative's qualification without a separate managing pharmacist."}
+      ],
+      "docs": "Proof of the wholesale manager's qualification, representative's medical certificate, pharmaceutical wholesaler license application",
+      "period": "7 days per the application form"
+    },
+    {
+      "id": "sit-pw-disqualification",
+      "q": "What grounds for disqualification of the representative prevent a pharmaceutical wholesale license in Korea?",
+      "conclusion": "A medical certificate must show that the representative is not a person with a mental disorder (except where a specialist finds them fit), under adult or limited guardianship, or addicted to narcotics, cannabis or psychotropic drugs. A license is also not granted to persons for whom 1 year has not passed since a license was revoked, medical institution or pharmacy owners, or bankrupts not reinstated.",
+      "branches": [
+        {"when": "The representative owns a medical institution or a pharmacy", "then": "A license cannot be granted, so reconsider who the representative is (for a corporation, this also covers officers and employees of a corporation that operates a medical institution)."},
+        {"when": "A wholesaler license was previously revoked", "then": "First check whether 1 year has passed since the revocation."}
+      ],
+      "docs": "Representative's medical certificate, articles of incorporation (corporations)",
+      "period": "In practice, time to obtain the medical certificate is needed"
+    },
+    {
+      "id": "sit-pw-documents",
+      "q": "How do the documents differ between a sole proprietor and a corporation applying for a pharmaceutical wholesale license in Korea?",
+      "conclusion": "A corporation submits its articles of incorporation and statement of financial position, while an individual submits a statement of business capital (with evidence). The representative's medical certificate, proof of the wholesale manager's qualification, business diagnosis report and list of equipment held are common to both.",
+      "branches": [
+        {"when": "You apply as a corporation", "then": "Submit the articles of incorporation and statement of financial position; the corporate register certificate is checked through administrative information sharing."},
+        {"when": "You apply as an individual", "then": "Attach the statement of business capital and its supporting evidence."}
+      ],
+      "docs": "Corporation: articles of incorporation, representative's medical certificate, proof of the wholesale manager's qualification, statement of financial position, business diagnosis report, list of equipment held / Individual: representative's medical certificate, statement of business capital (with evidence), proof of the wholesale manager's qualification, business diagnosis report, list of equipment held",
+      "period": "7 days per the application form"
+    },
+    {
+      "id": "sit-pw-period",
+      "q": "How long does a pharmaceutical wholesale license take in Korea, and can we start selling right after it is issued?",
+      "conclusion": "The processing period on the application form is 7 days. Wholesalers other than those handling herbal medicines, medical high-pressure gases or radiopharmaceuticals are licensed on condition that they sell only after a Good Supply Practice compliance determination, so they cannot sell before that determination.",
+      "branches": [
+        {"when": "You are a general pharmaceutical wholesaler", "then": "After licensing, obtain the Good Supply Practice compliance determination and then start selling."},
+        {"when": "You handle only herbal medicines, medical high-pressure gases or radiopharmaceuticals", "then": "The compliance determination condition does not apply."}
+      ],
+      "docs": "Pharmaceutical wholesaler license application and attachments",
+      "period": "7 days per the application form; the license is reported to the Korea Pharmaceutical Information Service (의약품관리종합정보센터) within 15 days of the license date / time for facility fit-out, business diagnosis and the compliance determination is separate"
+    },
+    {
+      "id": "sit-pw-cost",
+      "q": "Which preparation items should I look at first to estimate the cost of a pharmaceutical wholesale license in Korea?",
+      "conclusion": "The statutory preparation items are capital or equity capital (KRW 500 million or more, or KRW 200 million or more for certain products only), a warehouse and storage facilities suited to the products, a pharmacist as wholesale manager, and a business diagnosis report from a business diagnosis institution.",
+      "branches": [
+        {"when": "You handle general finished drugs", "then": "Prepare on the basis of capital of KRW 500 million or more and a warehouse of 165 square meters or more."},
+        {"when": "You outsource logistics", "then": "Instead of a warehouse, sign a logistics outsourcing contract with a wholesaler that meets the requirements."}
+      ],
+      "docs": "Statement of financial position or statement of business capital, business diagnosis report, warehouse facility documents or logistics outsourcing contract, proof of the wholesale manager's qualification",
+      "period": "In practice, the order is securing capital → facility fit-out → business diagnosis → application, and the processing period on the form after filing is 7 days"
+    },
+    {
+      "id": "sit-pw-manager-change",
+      "q": "What do we need to report if the managing pharmacist leaves after we obtain a pharmaceutical wholesale license in Korea?",
+      "conclusion": "Appointing a wholesale manager is reported to the head of the si/gun/gu, and when the manager stops performing the management duties, a non-engagement report must be filed without delay. Changing licensed matters requires a change permit.",
+      "branches": [
+        {"when": "The managing pharmacist is replaced", "then": "File the non-engagement report for the outgoing pharmacist together with the appointment report for the new wholesale manager."},
+        {"when": "Licensed matters such as the business office change", "then": "Apply for a change permit and confirm that the new facilities meet the requirements."}
+      ],
+      "docs": "Wholesale manager appointment report and non-engagement report, proof of the new managing pharmacist's qualification, change permit application and proof of the changes",
+      "period": "Non-engagement report without delay / the change permit processing period depends on the competent authority's review"
+    },
+    {
+      "id": "sit-pw-recommend",
+      "q": "If I hire an administrative agent for a pharmaceutical wholesale license in Korea, what do they handle?",
+      "conclusion": "Once engaged, we review the requirements by product, prepare the license application and attachments, submit them to the competent authority, respond to supplement requests, and prepare change permit and manager report documents. We do not perform pharmacist duties, Good Supply Practice consulting or facility construction, or business diagnosis, and the competent authority decides on the license.",
+      "branches": [
+        {"when": "You first need to fix the product range and requirements", "then": "We review the warehouse area and capital standards by product and whether outsourcing is possible."},
+        {"when": "Facilities, capital and the pharmacist are ready", "then": "We prepare and submit the license application and attachments and respond to supplement requests."}
+      ],
+      "docs": "Letter of authorization, pharmaceutical wholesaler license application, representative's medical certificate, proof of the wholesale manager's qualification, statement of financial position or statement of business capital, business diagnosis report, list of equipment held",
+      "period": "7 days per the application form (supplement period separate)",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-pw-wholesaler", "term": "Pharmaceutical wholesaler (의약품 도매상)", "def": "A business that, with a license from the head of the si/gun/gu, may exceptionally sell drugs or acquire them for sale even though it is not a pharmacy owner."},
+    {"id": "term-pw-warehouse", "term": "Warehouse area standard (창고 면적 기준)", "def": "A pharmaceutical wholesaler's warehouse must in principle be 165 square meters or more, and depending on the products handled the standard becomes 66 square meters or 33 square meters or more, or no area standard applies."},
+    {"id": "term-pw-manager", "term": "Wholesale manager (도매업무관리자)", "def": "The pharmacist who manages a pharmaceutical wholesaler's operations; one must be appointed unless the wholesaler is itself a pharmacist managing operations directly."},
+    {"id": "term-pw-gsp", "term": "Good Supply Practice compliance determination (의약품 유통품질 관리기준 적합판정)", "def": "The determination of compliance with the Good Supply Practice standards that pharmaceutical wholesalers other than those handling herbal medicines, medical high-pressure gases or radiopharmaceuticals must obtain after licensing and before selling."},
+    {"id": "term-pw-logistics-outsourcing", "term": "Logistics outsourcing (유통관리업무 위탁)", "def": "Entrusting storage, delivery and similar work to another pharmaceutical wholesaler that meets the requirements; with such outsourcing, you may not need your own warehouse."},
+    {"id": "term-pw-change-permit", "term": "Change permit (변경허가)", "def": "The permit a pharmaceutical wholesaler must obtain from the head of the si/gun/gu when changing licensed matters."},
+    {"id": "term-pw-business-diagnosis", "term": "Business diagnosis report (기업진단서)", "def": "A document prepared by a business diagnosis institution after assessing whether the capital or equity capital requirement is met; it is attached to the license application."}
+  ]
+}

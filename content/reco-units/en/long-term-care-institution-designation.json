@@ -1,0 +1,173 @@
+{
+  "slug": "long-term-care-institution-designation",
+  "lang": "en",
+  "label": "Long-term care institution designation",
+  "kw": "Long-term care institution designation agent in Korea",
+  "answer": "Long-term care institution designation (장기요양기관 지정) is the designation that anyone wishing to provide in-home benefits such as home-visit care and day/night care, or facility benefits, obtains from the head of the si/gun/gu with jurisdiction over the location after securing facilities and staff under the Long-Term Care Insurance Act (노인장기요양보험법). An in-home elderly welfare facility first files an installation report under the Welfare of Older Persons Act (노인복지법); when you submit the designation application with general, staffing and facility status reports, a business plan and operating rules, the processing period shown on the application form is 30 days, and the designation is valid for 6 years. YouSun Administrative Agency prepares and files the installation report and the long-term care institution designation application on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the long-term care institution designation (장기요양기관 지정) application", "href": "#term-lt-designation"},
+    {"name": "Preparing and filing the installation report for an in-home elderly welfare facility (재가노인복지시설 설치신고)", "href": "#term-lt-installation-report"},
+    {"name": "Pre-review of facility and staffing standards (시설·인력 기준): floor area, equipment and facility director qualifications", "href": "#term-lt-facility-standard"},
+    {"name": "Preparing the general, staffing and facility status reports", "href": "#svc-glance"},
+    {"name": "Drafting the business plan and operating rules", "href": "#svc-glance"},
+    {"name": "Checking whether the operator or representative falls under any grounds for disqualification (결격사유)", "href": "#term-lt-disqualification"},
+    {"name": "Reviewing the choice of in-home benefit (재가급여) type: home-visit care, home-visit bathing, home-visit nursing, day/night care, short-term care", "href": "#term-lt-home-care"},
+    {"name": "Handling supplement requests during review by the designation review committee (장기요양기관 지정 심사위원회)", "href": "#term-lt-committee"},
+    {"name": "Applying for designation renewal (지정 갱신)", "href": "#term-lt-renewal"},
+    {"name": "Filing closure or suspension reports", "href": "#sit-lt-closure"}
+  ],
+  "clients": [
+    "Social workers and care professionals opening a new home-visit care centre",
+    "Sole proprietors and corporations opening a day/night care centre",
+    "Operators preparing to establish a nursing home (elderly care facility)",
+    "Existing long-term care institutions whose designation period is about to expire",
+    "Medical institutions that also want to provide home-visit nursing"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Elderly medical welfare facilities and in-home elderly welfare facilities that want to provide in-home benefits (home-visit care, home-visit bathing, home-visit nursing, day/night care, short-term care, etc.) or facility benefits"},
+    {"label": "Requirements", "value": "Facility and staffing standards under the Enforcement Rule of the Welfare of Older Persons Act (for home-visit care, bathing and nursing, a dedicated floor area of at least 16.5 square metres plus an office, communication equipment and furniture; for day/night care and short-term care, a total floor area of at least 90 square metres); facility director qualifications; an operating plan; no grounds for disqualification"},
+    {"label": "Process", "value": "Choice of service type → installation report and securing facilities and staff → prior consultation with the si/gun/gu (optional) → designation application → review by the designation review committee → issuance of the long-term care institution designation certificate → notification to the National Health Insurance Service"},
+    {"label": "Documents", "value": "Long-term care institution designation application; general, staffing and facility status reports; copy of the business registration certificate or unique number certificate (may be checked through shared administrative information); business plan; operating rules; installation report documents for the in-home elderly welfare facility"},
+    {"label": "Timeline", "value": "30 days per the application form; designation valid for 6 years; renewal to be applied for at least 90 days before expiry"}
+  ],
+  "chooser": [
+    {"label": "Opening a home-visit care centre", "target": "sit-lt-home-visit"},
+    {"label": "Opening a day/night care centre", "target": "sit-lt-day-care"},
+    {"label": "Establishing a nursing home", "target": "sit-lt-nursing-home"},
+    {"label": "Designation renewal is coming up", "target": "sit-lt-renewal"},
+    {"label": "Pausing or closing operations", "target": "sit-lt-closure"}
+  ],
+  "situations": [
+    {
+      "id": "sit-lt-home-visit",
+      "q": "What must I do first to set up a home-visit care centre in Korea before long-term care institution designation?",
+      "conclusion": "A home-visit care centre is an in-home elderly welfare facility, so you first file an installation report with the head of the si/gun/gu, secure an office with a dedicated floor area of at least 16.5 square metres, communication equipment and furniture, and a qualified facility director and staff, and then apply for long-term care institution designation.",
+      "branches": [
+        {"when": "You do not yet have an office or staff", "then": "Secure an office meeting the area standard, plan staffing such as the facility director and care workers, then file the installation report."},
+        {"when": "You have completed the installation report", "then": "Apply for designation, attaching the staffing and facility status reports, business plan and operating rules to the application."}
+      ],
+      "docs": "Installation report documents for the in-home elderly welfare facility; long-term care institution designation application; general, staffing and facility status reports; business plan; operating rules; copy of the business registration certificate or unique number certificate",
+      "period": "30 days per the designation application form / in practice, time to secure an office, file the installation report and hire staff comes first",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-lt-bath-nursing",
+      "q": "What else must a home-visit care centre have to add home-visit bathing or home-visit nursing in Korea?",
+      "conclusion": "Home-visit bathing additionally requires a portable bathtub or a mobile bathing vehicle, and home-visit nursing requires items such as a blood pressure monitor and thermometer. If a party that is not a medical institution provides home-visit nursing, it must appoint a nurse as the responsible manager.",
+      "branches": [
+        {"when": "You add home-visit bathing", "then": "Provide a portable bathtub or mobile bathing vehicle and reflect it in the facility status report."},
+        {"when": "An institution that is not a medical institution adds home-visit nursing", "then": "Appoint a nurse as the responsible manager for home-visit nursing and provide items such as a blood pressure monitor and thermometer."}
+      ],
+      "docs": "Facility status report (equipment and supplies list); staffing status report (responsible manager's qualification documents); long-term care institution designation application",
+      "period": "30 days per the designation application form"
+    },
+    {
+      "id": "sit-lt-day-care",
+      "q": "What floor area and designation procedure apply to setting up a day/night care centre in Korea?",
+      "conclusion": "A day/night care facility must have a total floor area of at least 90 square metres, and if capacity is 6 or more users, you must add at least 6.6 square metres of living room or bedroom space per person. After filing the installation report for the in-home elderly welfare facility, you apply for long-term care institution designation.",
+      "branches": [
+        {"when": "Capacity is fewer than 6 users", "then": "Secure a facility based on a total floor area of at least 90 square metres."},
+        {"when": "Capacity is 6 or more users", "then": "Plan the facility by adding at least 6.6 square metres of living room or bedroom space per person for the capacity."}
+      ],
+      "docs": "Installation report documents for the in-home elderly welfare facility; facility floor plan; general, staffing and facility status reports; business plan; operating rules; long-term care institution designation application",
+      "period": "30 days per the designation application form / in practice, facility works and installation report time are added"
+    },
+    {
+      "id": "sit-lt-nursing-home",
+      "q": "To set up a nursing home in Korea, do I need both an installation report and long-term care institution designation?",
+      "conclusion": "A nursing home is an elderly medical welfare facility (elderly care facility) under the Welfare of Older Persons Act, and anyone other than the State or a local government must file an installation report with the head of the si/gun/gu. To provide facility benefits, you must separately obtain long-term care institution designation, and elderly medical welfare facilities are eligible for designation.",
+      "branches": [
+        {"when": "You want to provide facility benefits as a residential facility", "then": "File the installation report for an elderly medical welfare facility, then apply for long-term care institution designation."},
+        {"when": "It is a small facility with home-like living conditions", "then": "Consider filing the installation report as an elderly care group home, then apply for designation."}
+      ],
+      "docs": "Installation report documents for the elderly medical welfare facility; long-term care institution designation application; general, staffing and facility status reports; business plan; operating rules",
+      "period": "30 days per the designation application form / in practice, facility construction and installation report time come first"
+    },
+    {
+      "id": "sit-lt-director",
+      "q": "Can I be the director of a home-visit care centre in Korea without a social worker qualification?",
+      "conclusion": "Besides social workers, medical personnel and people who have a certain period of work experience and have completed training, among others, can be facility directors for home-visit care and similar services. The specific qualifications follow the staff qualification standards in the Enforcement Rule of the Welfare of Older Persons Act.",
+      "branches": [
+        {"when": "You are a social worker or medical professional", "then": "Attach a copy of your licence or certificate to the staffing status report."},
+        {"when": "You plan to qualify through work experience and training", "then": "Prepare documents proving your work experience and completed training."}
+      ],
+      "docs": "Copy of the facility director's licence or proof of experience and training; staffing status report",
+      "period": "30 days per the designation application form"
+    },
+    {
+      "id": "sit-lt-period",
+      "q": "How long does long-term care institution designation take in Korea, from installation report to designation certificate?",
+      "conclusion": "The processing period on the designation application form is 30 days. Time to secure facilities, file the installation report and hire staff is separate, and the composition and operation of the review committee are set by the local government.",
+      "branches": [
+        {"when": "Facilities and staff are already in place", "then": "Apply for designation right after the installation report is accepted and go through the review committee."},
+        {"when": "Office lease, works or hiring are still pending", "then": "Schedule that time first and set the application date after prior consultation with the si/gun/gu on the designation standards."}
+      ],
+      "docs": "Installation report documents; long-term care institution designation application; staffing and facility status reports; business plan; operating rules",
+      "period": "Statutory: 30 days per the designation application form / in practice, it depends on preparation time and the review committee schedule"
+    },
+    {
+      "id": "sit-lt-cost",
+      "q": "To estimate the cost of long-term care institution designation in Korea, what should I check first?",
+      "conclusion": "The preparation burden comes mainly from securing space that meets the area standard for each service type and from recruiting the facility director and staff. Deciding first which benefits you will provide determines the required floor area (at least 16.5 or 90 square metres), equipment and staff.",
+      "branches": [
+        {"when": "You provide home-visit services such as care, bathing or nursing", "then": "Prepare based on an office with a dedicated floor area of at least 16.5 square metres and the equipment and supplies for each service."},
+        {"when": "You provide day/night care or short-term care", "then": "Prepare based on a total floor area of at least 90 square metres plus extra space according to capacity."}
+      ],
+      "docs": "Draft business plan; lease agreement or building information; staff hiring plan",
+      "period": "30 days per the designation application form / in practice, it depends on the time to secure space and staff"
+    },
+    {
+      "id": "sit-lt-agency",
+      "q": "If I hire an administrative agent for long-term care institution designation in Korea, what will they handle?",
+      "conclusion": "With your written authorization, an administrative agent reviews facility and staffing requirements and grounds for disqualification, prepares the installation report, designation application, business plan, operating rules and other documents, files them with the competent authority and responds to supplements. The agent does not handle care worker training, benefit claims or evaluation responses, or facility construction.",
+      "branches": [
+        {"when": "Facilities and staff are settled", "then": "The agent checks compliance with the standards and prepares and files the installation report and designation application documents."},
+        {"when": "You have no space or staffing plan yet", "then": "First organize the standards for each service type to identify what needs to be prepared."}
+      ],
+      "docs": "Letter of authorization; business registration certificate or unique number certificate; lease agreement; staff qualification documents",
+      "period": "30 days per the designation application form / whether designation is granted is decided by the competent authority"
+    },
+    {
+      "id": "sit-lt-history",
+      "q": "Is it harder to obtain long-term care institution designation in Korea if we have received administrative sanctions in the past?",
+      "conclusion": "When designating, the head of the si/gun/gu reviews the operator's history of providing long-term care benefits and any administrative sanctions the operator or staff received under the Long-Term Care Insurance Act, the Social Welfare Services Act (사회복지사업법), the Welfare of Older Persons Act and similar laws. Sanction history is a review factor along with the operating plan and local demand.",
+      "branches": [
+        {"when": "There is a sanction history", "then": "Reflect the sanctions and subsequent improvements in the operating plan and prepare explanatory materials."},
+        {"when": "Less than 5 years have passed since completing a sentence of imprisonment without labour or heavier, or a suspended sentence is in progress", "then": "This is a ground for disqualification and designation cannot be granted, so check before applying."}
+      ],
+      "docs": "Business plan; operating rules; representative's personal details",
+      "period": "30 days per the designation application form"
+    },
+    {
+      "id": "sit-lt-renewal",
+      "q": "When and how should we prepare to renew our long-term care institution designation in Korea?",
+      "conclusion": "The designation is valid for 6 years from the date of designation, and to keep operating you must apply for renewal at least 90 days before it expires. If the renewal review is not completed within the validity period, the designation is treated as valid until a decision is made.",
+      "branches": [
+        {"when": "More than 90 days remain before expiry", "then": "Check that facility and staffing standards are still met and prepare the renewal application documents."},
+        {"when": "Some aspects no longer meet the designation standards", "then": "This may be grounds for cancellation or suspension of operations, so bring them back into line before renewal."}
+      ],
+      "docs": "Renewal application; staffing and facility status reports; operating performance data",
+      "period": "Statutory: valid 6 years; apply for renewal at least 90 days before expiry"
+    },
+    {
+      "id": "sit-lt-closure",
+      "q": "Can I simply close my long-term care institution in Korea for a while without filing a report?",
+      "conclusion": "To close or suspend operations, you must file a report as required by law. Not providing long-term care benefits for 1 year or more without a report is a ground for cancellation of the designation.",
+      "branches": [
+        {"when": "You want to stop operating for a period", "then": "File a suspension report and set a date to resume."},
+        {"when": "You want to close down for good", "then": "File a closure report."}
+      ],
+      "docs": "Closure or suspension report; long-term care institution designation certificate",
+      "period": "In practice, the timing of the report follows the si/gun/gu's guidance (not providing benefits for 1 year or more without a report is a ground for cancellation)"
+    }
+  ],
+  "glossary": [
+    {"id": "term-lt-designation", "term": "Long-term care institution designation (장기요양기관 지정)", "def": "A designation that anyone wishing to provide in-home or facility benefits obtains from the head of the si/gun/gu with jurisdiction over the location after securing facilities and staff; the designation details are notified to the National Health Insurance Service (국민건강보험공단)."},
+    {"id": "term-lt-home-care", "term": "In-home benefits (재가급여)", "def": "Long-term care benefits received while the beneficiary lives at home, such as home-visit care, home-visit bathing, home-visit nursing, day/night care and short-term care."},
+    {"id": "term-lt-installation-report", "term": "Installation report for an in-home elderly welfare facility (재가노인복지시설 설치신고)", "def": "A report filed with the head of the si/gun/gu by anyone other than the State or a local government intending to install an in-home elderly welfare facility; it is accepted if it complies with the law."},
+    {"id": "term-lt-facility-standard", "term": "Facility and staffing standards (시설·인력 기준)", "def": "Standards on floor area, equipment and staff needed for long-term care, set by Ministry of Health and Welfare ordinance; for in-home benefits, the standards in the Enforcement Rule of the Welfare of Older Persons Act apply."},
+    {"id": "term-lt-committee", "term": "Long-term care institution designation review committee (장기요양기관 지정 심사위원회)", "def": "A local government committee that reviews designation applications; its composition and operation are set by the local government."},
+    {"id": "term-lt-renewal", "term": "Designation validity period and renewal (지정 유효기간과 갱신)", "def": "A long-term care institution designation is valid for 6 years from the date of designation, and to keep operating you apply for renewal at least 90 days before expiry."},
+    {"id": "term-lt-disqualification", "term": "Grounds for disqualification (결격사유)", "def": "Minors, persons under adult or limited guardianship, persons with mental illness (except those a specialist finds fit), drug addicts, bankrupts not reinstated, persons within 5 years of completing a sentence of imprisonment without labour or heavier, persons under a suspended sentence, and corporations represented by any of them cannot be designated."}
+  ]
+}

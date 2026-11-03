@@ -1,0 +1,184 @@
+{
+  "slug": "rural-minbak-business-report",
+  "lang": "en",
+  "label": "Rural homestay (minbak) business report",
+  "kw": "Rural homestay (minbak) report agent in Korea",
+  "answer": "A rural homestay report (농어촌민박 신고) is the rural homestay business operator report filed with the mayor, county head or district head by a resident of a rural or semi-rural area who wants to run a homestay business in a detached house (including a multi-household house) that the resident lives in and owns directly. The applicant must have lived in the si/gun/gu for 6 months or more and the house's total floor area must be under 230 m²; whether the report is accepted is notified within 10 days of receipt, and a report confirmation certificate is issued. YouSun Administrative Agency prepares and files the rural homestay business operator report on your behalf.",
+  "services": [
+    {"name": "Preparing the rural homestay business operator report (농어촌민박사업자 신고서) and filing it with the si/gun/gu", "href": "#term-rm-business"},
+    {"name": "Pre-review of the residency, residence period and house ownership requirements", "href": "#sit-rm-moved-in"},
+    {"name": "Reviewing the requirements for reporting a leased house (residence and leased operation periods)", "href": "#sit-rm-rented"},
+    {"name": "Checking the house's total floor area and whether it qualifies as a detached house (단독주택)", "href": "#term-rm-house"},
+    {"name": "Preparing attachments such as proof of the right of use, the drinking water quality test report and proof of inheritance", "href": "#svc-glance"},
+    {"name": "Receiving the report confirmation certificate (신고확인증) and guidance on obligations such as the price list and business sign", "href": "#term-rm-confirmation"},
+    {"name": "Preparing and filing the rural homestay business operator change report (농어촌민박사업자 변경신고서)", "href": "#term-rm-change"},
+    {"name": "Preparing and filing the rural homestay business closure report (농어촌민박사업 폐업신고서)", "href": "#sit-rm-closure"},
+    {"name": "Handling supplement requests from the competent authority", "href": "#sit-rm-period"}
+  ],
+  "clients": [
+    "Residents living in a rural house who want to run a homestay in their spare rooms",
+    "People who moved to the countryside or took up farming and want to start a homestay in their home",
+    "Family members who inherited a homestay house their parents ran",
+    "Rural residents who want to run a homestay in a leased house"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Rural homestay businesses providing lodging, cooking facilities and breakfast in a detached house (detached house or multi-household house) that a resident of a rural or semi-rural area lives in and owns"},
+    {"label": "Requirements", "value": "Resident of a rural or semi-rural area; continuous residence of 6 months or more in the si/gun/gu (except for an inherited house); a detached house the applicant lives in; owned directly by the applicant (exception where certain lease requirements are met); total floor area under 230 m² (except for houses designated as cultural heritage)"},
+    {"label": "Process", "value": "Check the residence and ownership requirements and the floor area → submit the report and documents → review of the report → notice of acceptance within 10 days → issue of the report confirmation certificate → display of the confirmation certificate and price list, and business sign"},
+    {"label": "Documents", "value": "Rural homestay business operator report; proof of the right of use (if not the owner); drinking water quality test report from the last 2 years (if groundwater is used); proof of inheritance (for an inherited house) / the resident registration abstract, family relationship certificate, building register and building certified register extract are checked through shared administrative information"},
+    {"label": "Timeline", "value": "Acceptance of a report or change report notified within 10 days of receipt (10 days per the form)"}
+  ],
+  "chooser": [
+    {"label": "You moved in only recently", "target": "sit-rm-moved-in"},
+    {"label": "You want to run it in a leased house", "target": "sit-rm-rented"},
+    {"label": "You inherited a homestay house", "target": "sit-rm-inherited"},
+    {"label": "Your house is large", "target": "sit-rm-area"},
+    {"label": "You live in an apartment or multi-unit house", "target": "sit-rm-apartment"},
+    {"label": "You want to hand over the report preparation", "target": "sit-rm-agent"}
+  ],
+  "situations": [
+    {
+      "id": "sit-rm-moved-in",
+      "q": "I moved to the countryside in Korea 3 months ago. Can I file a rural homestay (minbak) report now?",
+      "conclusion": "You can file a rural homestay report only after living continuously for 6 months or more in the si/gun/gu with jurisdiction over the area. If your residence period is too short, file after 6 months have passed.",
+      "branches": [
+        {"when": "You have lived continuously in the si/gun/gu for 6 months or more", "then": "Check that it is a detached house you live in and own directly, then submit the report."},
+        {"when": "You inherited a house already used for a rural homestay", "then": "The residence period requirement does not apply, so file with proof of inheritance."}
+      ],
+      "docs": "Rural homestay business operator report; proof of the right of use such as a copy of the house lease (if not the owner); drinking water quality test report from the last 2 years (if groundwater is used for breakfast); proof of inheritance (for an inherited house)",
+      "period": "In practice, file after completing 6 months of residence / statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-rented",
+      "q": "What conditions apply if I want to lease a country house in Korea and run a rural homestay there?",
+      "conclusion": "As a rule, it must be a detached house owned directly by the applicant, but a person who has lived in the si/gun/gu for 3 years or more, has run a rural homestay in a leased house continuously for 2 years or more, and has never received a business closure or a business suspension of 1 month or more, among others, can file without the ownership requirement.",
+      "branches": [
+        {"when": "You have already run a homestay in a leased house for 2 years or more", "then": "Confirm 3 or more years of residence and no history of such dispositions, then file with a copy of the lease."},
+        {"when": "You want to start in a newly leased house", "then": "You can file if you have lived continuously in the si/gun/gu for 3 years or more and intend to run it in the leased house continuously for 2 years or more."}
+      ],
+      "docs": "Rural homestay business operator report, proof of the right of use such as a copy of the house lease",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-inherited",
+      "q": "I inherited the homestay house my parents ran in Korea. Does the residence period requirement apply to me?",
+      "conclusion": "A person who inherits a house being used for a rural homestay business is exempt from the 6-month residence period requirement. However, you must still meet the residency requirement and the requirement that it is a detached house you live in.",
+      "branches": [
+        {"when": "You live in the inherited house", "then": "File with documents proving you are the heir."},
+        {"when": "You inherited it but live elsewhere", "then": "It must be a detached house the applicant lives in, so sort out your residence first."}
+      ],
+      "docs": "Rural homestay business operator report, documents proving you are the heir",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-area",
+      "q": "If my house's total floor area is over 230 m², can I still file a rural homestay report in Korea?",
+      "conclusion": "A rural homestay house must have a total floor area under 230 m². Houses designated as cultural heritage are not subject to this limit.",
+      "branches": [
+        {"when": "The total floor area is under 230 m²", "then": "Confirm the area on the building register, then submit the report."},
+        {"when": "It is 230 m² or more", "then": "You cannot file as a rural homestay, so consider other schemes such as a lodging business report."}
+      ],
+      "docs": "Rural homestay business operator report (the building register is checked through shared information)",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-docs",
+      "q": "We prepare breakfast with groundwater at our homestay. What extra documents does the rural homestay report in Korea require?",
+      "conclusion": "If you use groundwater rather than tap water for drinking or cooking to serve breakfast, attach a drinking water quality test report from the last 2 years. The cost of breakfast must be included in the homestay rate.",
+      "branches": [
+        {"when": "You use tap water", "then": "File with the basic documents, without a water quality test report."},
+        {"when": "You use groundwater", "then": "Prepare a water quality test report from the last 2 years."}
+      ],
+      "docs": "Rural homestay business operator report; proof of the right of use such as a copy of the house lease (if not the owner); drinking water quality test report from the last 2 years (if groundwater is used for breakfast); proof of inheritance (for an inherited house)",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-period",
+      "q": "What happens if I receive no acceptance notice after filing a rural homestay report in Korea?",
+      "conclusion": "The mayor, county head or district head must notify whether the report is accepted within 10 days of receipt. If they do not notify acceptance or an extension of the processing period within that time, the report is deemed accepted on the day after the period ends.",
+      "branches": [
+        {"when": "You received an acceptance notice within 10 days", "then": "Receive the report confirmation certificate and display it with the price list in a visible place in the homestay house."},
+        {"when": "You received a notice extending the processing period", "then": "Respond to supplement requests until the extended processing period ends."}
+      ],
+      "docs": "Rural homestay business operator report; proof of the right of use such as a copy of the house lease (if not the owner); drinking water quality test report from the last 2 years (if groundwater is used for breakfast); proof of inheritance (for an inherited house)",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-rm-cost",
+      "q": "What should I budget for when filing a rural homestay report in Korea?",
+      "conclusion": "The fee field on the rural homestay business operator report form reads 'None', and training costs are separate. Once you start operating, you must have an electrical and gas safety inspection once a year, so schedule that as well.",
+      "branches": [
+        {"when": "You use groundwater for breakfast", "then": "Have a drinking water quality test done and prepare the report."},
+        {"when": "It is a leased house", "then": "Prepare proof of the right of use, such as the lease."}
+      ],
+      "docs": "Rural homestay business operator report; proof of the right of use such as a copy of the house lease (if not the owner); drinking water quality test report from the last 2 years (if groundwater is used for breakfast); proof of inheritance (for an inherited house)",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-apartment",
+      "q": "Can I run a rural homestay in an apartment or multi-unit house in Korea?",
+      "conclusion": "A rural homestay can be run only in a detached house the applicant lives in, and a detached house here means a detached house or a multi-household house. Apartments and multi-unit houses fall outside this scope.",
+      "branches": [
+        {"when": "You live in a detached house or multi-household house", "then": "Check the residence and ownership requirements and the floor area, then file."},
+        {"when": "You live in multi-family housing", "then": "It is not eligible for a rural homestay report, so consider other lodging schemes."}
+      ],
+      "docs": "Rural homestay business operator report (the building register is checked through shared information)",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    },
+    {
+      "id": "sit-rm-display",
+      "q": "After starting a rural homestay in Korea, what must I display at the entrance and on my website?",
+      "conclusion": "You must put a sign showing that it is a rural homestay business at the entrance of the homestay house and on its website (if any), and display the report confirmation certificate and price list in a visible place in the house. A person who has not filed a report cannot display such a sign.",
+      "branches": [
+        {"when": "You run a website or booking page", "then": "Show the business sign on the website as well."},
+        {"when": "You continue operating", "then": "Follow the service and safety standards and complete training, keep the annual electrical and gas safety inspection confirmations, and submit copies."}
+      ],
+      "docs": "Report confirmation certificate, price list, electrical and gas safety inspection confirmations",
+      "period": "Safety inspection once a year"
+    },
+    {
+      "id": "sit-rm-change",
+      "q": "Do I need to file a change report when the details of my rural homestay report in Korea change?",
+      "conclusion": "You must also report to the mayor, county head or district head when changing the reported details, and acceptance of the change report is notified within 10 days of receipt. Running the business without filing a change report is subject to an administrative fine of up to KRW 1 million.",
+      "branches": [
+        {"when": "The reported details have changed", "then": "Submit a change report stating the changes, with supporting documents."},
+        {"when": "A report was filed by false or fraudulent means", "then": "This is punishable by imprisonment of up to 1 year or a fine of up to KRW 10 million, so correct it to reflect the facts."}
+      ],
+      "docs": "Rural homestay business operator change report, documents proving the changes",
+      "period": "Acceptance of the change report notified within 10 days"
+    },
+    {
+      "id": "sit-rm-closure",
+      "q": "If I close my rural homestay in Korea and also file a closure report with the tax office, what happens to my homestay report?",
+      "conclusion": "When closing, you must also file a closure report with the mayor, county head or district head, submitting the rural homestay business closure report with the report confirmation certificate. If you file a closure report with the tax office or your business registration is cancelled, the mayor, county head or district head may cancel the reported details ex officio.",
+      "branches": [
+        {"when": "You are stopping the homestay entirely", "then": "Submit the closure report with the report confirmation certificate to the si/gun/gu."},
+        {"when": "You only filed a closure report with the tax office", "then": "Your report may be cancelled ex officio, so also complete the si/gun/gu closure report."}
+      ],
+      "docs": "Rural homestay business closure report, report confirmation certificate",
+      "period": "In practice, it depends on the competent authority's processing schedule"
+    },
+    {
+      "id": "sit-rm-agent",
+      "q": "If I hire an administrative agent for a rural homestay report in Korea, what will they handle?",
+      "conclusion": "The agent covers pre-review of the residency, residence period, house ownership and floor area requirements, preparing the report and attachments, filing with the si/gun/gu and handling supplement requests, and change and closure reports. House design and construction, fire and electrical safety inspections, and tax work are not covered.",
+      "branches": [
+        {"when": "You are filing for a house you own", "then": "The agent checks the residence period and floor area, then prepares and files the report."},
+        {"when": "You are filing for a leased or inherited house", "then": "The agent first reviews whether you meet the exception requirements and prepares the lease or proof of inheritance."}
+      ],
+      "docs": "Rural homestay business operator report; proof of the right of use such as a copy of the house lease (if not the owner); drinking water quality test report from the last 2 years (if groundwater is used for breakfast); proof of inheritance (for an inherited house)",
+      "period": "Statutory: acceptance notified within 10 days of filing (10 days per the form); if no notice is given within the period, the report is deemed accepted on the day after the period ends",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-rm-business", "term": "Rural homestay business (농어촌민박사업)", "def": "A business in which a resident of a rural or semi-rural area uses a house they own and live in to provide guests with lodging, cooking facilities, breakfast and similar services, in order to raise rural incomes."},
+    {"id": "term-rm-house", "term": "Detached house for a rural homestay (단독주택(농어촌민박))", "def": "A house that can be used for a rural homestay: a detached house or multi-household house under the Building Act (건축법), with a total floor area under 230 m²."},
+    {"id": "term-rm-residency", "term": "Residence requirement (거주 요건)", "def": "The requirement that the applicant has lived continuously for 6 months or more in the si/gun/gu with jurisdiction over the rural or semi-rural area; it does not apply to a person who inherited the homestay house."},
+    {"id": "term-rm-confirmation", "term": "Report confirmation certificate (신고확인증)", "def": "A certificate the mayor, county head or district head issues to the applicant after confirming the report; it is displayed with the price list in a visible place in the homestay house."},
+    {"id": "term-rm-water", "term": "Drinking water quality test report (먹는물 수질검사성적서)", "def": "A test report from the last 2 years attached to the report where groundwater rather than tap water is used for drinking or cooking to serve breakfast."},
+    {"id": "term-rm-change", "term": "Change report (변경신고)", "def": "A report filed with the mayor, county head or district head when the details of a rural homestay business operator report change; acceptance is notified within 10 days of receipt."},
+    {"id": "term-rm-deemed", "term": "Deemed acceptance (수리 간주)", "def": "A rule under which, if the mayor, county head or district head does not notify acceptance or an extension within the processing period, the report is deemed accepted on the day after the period ends."}
+  ]
+}

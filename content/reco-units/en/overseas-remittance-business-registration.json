@@ -1,0 +1,333 @@
+{
+  "slug": "overseas-remittance-business-registration",
+  "lang": "en",
+  "label": "Small-Amount Overseas Remittance Business Registration",
+  "kw": "Small-amount overseas remittance business registration agent in Korea",
+  "answer": "Small-amount overseas remittance business registration (소액해외송금업 등록) is the advance registration with the Minister of Economy and Finance (재정경제부장관) under the Foreign Exchange Transactions Act (외국환거래법) required when a company that is not a financial institution wants to make payments and receipts between Korea and other countries as a business. A company under the Commercial Act (상법) files the application with the articles of incorporation and other designated documents after meeting the requirements: equity capital of KRW 1 billion or more, financial soundness, a network link to the foreign exchange information concentration agency, IT systems and IT specialists, and at least 2 people with foreign exchange experience or designated training. After registration, it deposits a performance deposit of KRW 300 million or more, which can be replaced by surety insurance. YouSun Administrative Agency prepares the registration application and attachments for filing.",
+  "services": [
+    {
+      "name": "Preparing the small-amount overseas remittance business registration application for filing (소액해외송금업무 등록 신청)",
+      "href": "#term-orm-business"
+    },
+    {
+      "name": "Pre-checking the registration requirements: equity capital, financial soundness, IT, staff and officer disqualifications (등록 요건)",
+      "href": "#term-orm-capital"
+    },
+    {
+      "name": "Organizing application entries for scope (target countries and currencies), operating method and foreign partners",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Preparing attachments such as the articles of incorporation",
+      "href": "#sit-orm-fintech"
+    },
+    {
+      "name": "Report of changes to registered details: name, location, scope, operating method, account, partners (등록사항 변경 신고)",
+      "href": "#term-orm-change"
+    },
+    {
+      "name": "Report of discontinuation of foreign exchange business (외국환업무 폐지 신고)",
+      "href": "#sit-orm-change"
+    },
+    {
+      "name": "Preparing reports on establishing or amending terms and conditions (약관 신고)",
+      "href": "#term-orm-terms"
+    },
+    {
+      "name": "Guidance on the schedule for depositing the performance deposit or replacing it with surety insurance (이행보증금)",
+      "href": "#term-orm-bond"
+    },
+    {
+      "name": "Preparing documents in response to supplementation requests",
+      "href": "#term-orm-fx-center"
+    }
+  ],
+  "clients": [
+    "Fintech startups preparing an overseas remittance service",
+    "Korean companies planning a remittance business for foreign workers",
+    "Foreign remittance companies that have set up a corporation in Korea",
+    "Existing small-amount overseas remittance businesses adding target countries or currencies",
+    "Electronic payment gateway and prepaid electronic payment instrument businesses"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Non-financial businesses that make payments and receipts between Korea and other countries as a business, together with the related buying and selling of foreign currency (small-amount overseas remittance business)"
+    },
+    {
+      "label": "Requirements",
+      "value": "A company under the Commercial Act with equity capital (net assets) of KRW 1 billion or more, the announced financial soundness standards, a network link to the foreign exchange information concentration agency, the announced IT systems and IT specialists, at least 2 people with 2 or more years of foreign exchange experience or designated training, and no officer disqualification"
+    },
+    {
+      "label": "Process",
+      "value": "Prepare requirements → file the registration application and announced documents → requirements check by the Governor of the Financial Supervisory Service (금융감독원장) and the foreign exchange information concentration agency (if needed) → registration and certificate issued → performance deposit and terms and conditions report"
+    },
+    {
+      "label": "Documents",
+      "value": "Application stating the name, head office and branch locations, scope including target countries and currencies, operating method, business account in the applicant's name, foreign partners, capital, facilities and specialist staff, and officers; articles of incorporation and other documents announced by the Minister of Economy and Finance"
+    },
+    {
+      "label": "Timeline",
+      "value": "The review period depends on the requirements check procedure and whether documents need supplementation. Changes to registered details and discontinuation of business are reported at least 7 days in advance."
+    }
+  ],
+  "chooser": [
+    {
+      "label": "A fintech starting overseas remittance",
+      "target": "sit-orm-fintech"
+    },
+    {
+      "label": "Meeting the specialist staff requirement",
+      "target": "sit-orm-staff"
+    },
+    {
+      "label": "Preparing the performance deposit",
+      "target": "sit-orm-bond"
+    },
+    {
+      "label": "Changing target countries or currencies, or closing the business",
+      "target": "sit-orm-change"
+    },
+    {
+      "label": "An electronic financial business adding foreign exchange services",
+      "target": "sit-orm-efin"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-orm-fintech",
+      "q": "What registration does a fintech startup need to offer an overseas remittance service through an app in Korea?",
+      "conclusion": "A company that is not a financial institution must register a small-amount overseas remittance business with the Minister of Economy and Finance under the Foreign Exchange Transactions Act before making cross-border payments and receipts as a business. Operating before registration is unregistered foreign exchange business.",
+      "branches": [
+        {
+          "when": "A company under the Commercial Act with equity capital (net assets) of KRW 1 billion or more",
+          "then": "Meet the network link, IT system and staff requirements, then file the application with the articles of incorporation and other announced documents."
+        },
+        {
+          "when": "Equity capital (net assets) is below KRW 1 billion",
+          "then": "First meet the capital requirement through a capital increase or similar."
+        },
+        {
+          "when": "You only want to offer currency exchange",
+          "then": "That requires currency exchange business registration rather than small-amount overseas remittance, so define the business scope first."
+        }
+      ],
+      "docs": "Registration application (name, location, scope, operating method, business account, foreign partners, capital, facilities, staff, officers), articles of incorporation and other announced documents",
+      "period": "In practice, it depends on the checks by the Governor of the Financial Supervisory Service and the foreign exchange information concentration agency and whether supplementation is needed",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-orm-capital",
+      "q": "Does a small-amount overseas remittance business in Korea have to keep equity capital (net assets) of KRW 1 billion after registration?",
+      "conclusion": "After registration, equity capital (net assets) must not fall below the minimum equity capital, which is 70% of KRW 1 billion. If it falls below the minimum at the end of a fiscal year, the KRW 1 billion equity capital requirement must be met again by the end of the next fiscal year.",
+      "branches": [
+        {
+          "when": "Equity capital has decreased because of operating losses",
+          "then": "Check at the end of each fiscal year whether the minimum equity capital is maintained, and plan a capital increase."
+        },
+        {
+          "when": "Equity capital (net assets) is below the minimum at the end of the fiscal year",
+          "then": "Restore equity capital (net assets) of KRW 1 billion or more by the end of the next fiscal year."
+        }
+      ],
+      "docs": "Records confirming equity capital such as financial statements",
+      "period": "Checked at the end of each fiscal year; if below the minimum, restore by the end of the next fiscal year",
+      "href": "#term-orm-capital"
+    },
+    {
+      "id": "sit-orm-staff",
+      "q": "We have no one with foreign exchange experience. Can staff training satisfy the specialist staff requirement for a small-amount overseas remittance business in Korea?",
+      "conclusion": "Yes. You need at least 2 people in total who have 2 or more years of foreign exchange business experience or have completed training designated by the Minister of Economy and Finance. IT specialists are a separate requirement and must meet the announced standards.",
+      "branches": [
+        {
+          "when": "No one has the experience",
+          "then": "Meet the requirement with at least 2 employees who have completed the designated training."
+        },
+        {
+          "when": "One person has the experience",
+          "then": "Add one person who has completed the training to reach at least 2."
+        }
+      ],
+      "docs": "Certificate of employment experience or training completion certificate, list of IT specialists",
+      "period": "In practice, set the application date around the training schedule"
+    },
+    {
+      "id": "sit-orm-bond",
+      "q": "What happens if a small-amount overseas remittance business in Korea runs short on its performance deposit?",
+      "conclusion": "The performance deposit is set by announcement at KRW 300 million or more, taking transaction volume into account. It is deposited in cash with a designated depository institution, or partly or fully replaced by recognized surety insurance. If the deposited or covered amount falls below the standard, the shortfall must be deposited again within the set period.",
+      "branches": [
+        {
+          "when": "Transaction volume has grown and the calculated amount has increased",
+          "then": "Cover the shortfall with an additional deposit or by increasing the surety insurance."
+        },
+        {
+          "when": "Replacing the deposit with surety insurance",
+          "then": "The cash deposit is waived only up to the coverage amount, so deposit any remaining amount in cash."
+        }
+      ],
+      "docs": "Records of the performance deposit calculation and deposits, surety insurance policy",
+      "period": "Maintained throughout the registration; if short, re-deposit within the announced period",
+      "href": "#term-orm-bond"
+    },
+    {
+      "id": "sit-orm-it",
+      "q": "What standards must the IT systems and security officer of a small-amount overseas remittance business in Korea meet?",
+      "conclusion": "At the registration stage, you must link your network to the foreign exchange information concentration agency and have the announced IT systems and IT specialists. After registration, you must follow the standards for the information technology sector and authentication methods, and appoint a qualified chief information security officer.",
+      "branches": [
+        {
+          "when": "Preparing for registration",
+          "then": "First set up the network link to the foreign exchange information concentration agency and the announced IT systems."
+        },
+        {
+          "when": "Operating after registration",
+          "then": "Appoint a chief information security officer and put in place procedures for handling customer complaints and compensating damage."
+        }
+      ],
+      "docs": "IT system details, list of IT specialists, records of the link to the foreign exchange information concentration agency",
+      "period": "In practice, the network link schedule drives the registration schedule",
+      "href": "#term-orm-fx-center"
+    },
+    {
+      "id": "sit-orm-change",
+      "q": "Do I need to report in advance to add remittance destination countries or currencies, or to close a small-amount overseas remittance business in Korea?",
+      "conclusion": "To change the name, head office or branch location, scope (target countries and currencies), operating method, business account or foreign partners, or to discontinue the foreign exchange business, submit the announced documents to the Minister of Economy and Finance at least 7 days before that date.",
+      "branches": [
+        {
+          "when": "Adding target countries or currencies",
+          "then": "File the change report at least 7 days before the planned change date, and include any new partners."
+        },
+        {
+          "when": "Discontinuing the business",
+          "then": "File the discontinuation report at least 7 days before the planned date. Filing a false discontinuation report and continuing the business is punishable."
+        }
+      ],
+      "docs": "Change or discontinuation report documents (documents announced by the Minister of Economy and Finance)",
+      "period": "At least 7 days before the planned change or discontinuation date",
+      "href": "#term-orm-change"
+    },
+    {
+      "id": "sit-orm-foreign",
+      "q": "Can a foreign remittance company set up a corporation in Korea and register a small-amount overseas remittance business?",
+      "conclusion": "The applicant must be a company under the Commercial Act, so set up a company in Korea and apply after meeting the requirements, such as equity capital (net assets) of KRW 1 billion or more. Foreign partners involved in the remittance process, such as the head office, are stated in the application.",
+      "branches": [
+        {
+          "when": "Setting up a new Korean corporation",
+          "then": "Incorporate to meet the equity capital requirement and check whether any officer disqualification applies."
+        },
+        {
+          "when": "The overseas head office is involved in processing remittances",
+          "then": "Describe the foreign partner details and the operating method specifically."
+        }
+      ],
+      "docs": "Registration application, articles of incorporation, officer details, foreign partner details",
+      "period": "In practice, it depends on the incorporation and network link schedules"
+    },
+    {
+      "id": "sit-orm-efin",
+      "q": "Does an electronic payment gateway or prepaid electronic payment instrument issuer in Korea need a separate registration to handle foreign exchange?",
+      "conclusion": "A business that holds an electronic money issuance license, prepaid electronic payment instrument issuance registration or electronic payment gateway registration under the Electronic Financial Transactions Act (전자금융거래법) can register foreign exchange business directly related to that work with the Minister of Economy and Finance as other specialized foreign exchange business. The electronic financial business registration must come first.",
+      "branches": [
+        {
+          "when": "You already hold an electronic financial business registration",
+          "then": "Apply according to the requirements and procedure for other specialized foreign exchange business."
+        },
+        {
+          "when": "You do not hold an electronic financial business registration",
+          "then": "Other specialized foreign exchange business cannot be registered, so if cross-border remittance is the goal, consider small-amount overseas remittance business registration."
+        }
+      ],
+      "docs": "Proof of electronic financial business license or registration, application documents for other specialized foreign exchange business registration",
+      "period": "In practice, it depends on the requirements check and whether supplementation is needed",
+      "href": "#term-orm-other"
+    },
+    {
+      "id": "sit-orm-unregistered",
+      "q": "Can I be penalized for sending money overseas on behalf of others in Korea without registration?",
+      "conclusion": "Carrying out foreign exchange business without registration or with a false registration can be punished by imprisonment of up to 3 years or a fine of up to KRW 300 million (or up to three times the value of the subject matter if that exceeds KRW 300 million), and imprisonment and a fine may be imposed together.",
+      "branches": [
+        {
+          "when": "You want to run remittance as a business",
+          "then": "Register after meeting the small-amount overseas remittance business requirements, then start operating."
+        },
+        {
+          "when": "You only want to offer currency exchange",
+          "then": "Check whether currency exchange business registration applies."
+        }
+      ],
+      "docs": "Registration application, articles of incorporation and other announced documents",
+      "period": "In practice, do not operate until registration is complete"
+    },
+    {
+      "id": "sit-orm-cost",
+      "q": "How much does small-amount overseas remittance business registration cost in Korea, and what should I prepare first?",
+      "conclusion": "The application fee follows the competent authority's guidance, and most of the preparation burden comes from the statutory requirements: equity capital of KRW 1 billion or more, a performance deposit of KRW 300 million or more, IT systems and the network link, and specialist staff. Start by checking whether you can meet these requirements.",
+      "branches": [
+        {
+          "when": "At the incorporation stage",
+          "then": "Start with incorporating to meet the equity capital requirement and checking officer disqualifications."
+        },
+        {
+          "when": "The corporation and capital are already in place",
+          "then": "Schedule the network link and specialist staff training first."
+        }
+      ],
+      "docs": "Articles of incorporation, financial records, IT system details, specialist staff experience and training records",
+      "period": "In practice, it depends on the time needed for the network link and staff preparation",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-orm-agent",
+      "q": "If I hire an administrative agent for small-amount overseas remittance business registration in Korea, what do they handle?",
+      "conclusion": "We pre-check registration requirements, organize the application entries (scope, operating method, account, partners, capital, facilities, staff, officers), draft the articles of incorporation and other attachments and prepare them for filing, handle supplementation, and prepare change, discontinuation and terms and conditions reports after registration. We do not develop remittance systems, carry out network link work, purchase surety insurance, or provide accounting or tax services.",
+      "branches": [
+        {
+          "when": "Registering for the first time",
+          "then": "We build a requirements checklist and prepare and file the application documents."
+        },
+        {
+          "when": "Already registered",
+          "then": "We prepare change reports due 7 days in advance and terms and conditions reports."
+        }
+      ],
+      "docs": "Corporate registry and articles of incorporation, financial statements, IT and staff details, partner contract records",
+      "period": "In practice, it depends on the requirements check and whether supplementation is needed"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-orm-business",
+      "term": "Small-amount overseas remittance business (소액해외송금업무)",
+      "def": "Payments and receipts between Korea and other countries, and the related buying or selling of foreign currency, carried out as a business by a person that is not a financial institution."
+    },
+    {
+      "id": "term-orm-capital",
+      "term": "Minimum equity capital (최저자기자본)",
+      "def": "The lower limit of equity capital (net assets) a small-amount overseas remittance business must maintain after registration, which is 70% of the KRW 1 billion registration requirement."
+    },
+    {
+      "id": "term-orm-bond",
+      "term": "Performance deposit (이행보증금)",
+      "def": "A deposit of KRW 300 million or more placed with a designated institution to ensure faithful performance of the business; it can be partly or fully replaced by surety insurance."
+    },
+    {
+      "id": "term-orm-fx-center",
+      "term": "Foreign exchange information concentration agency (외환정보집중기관)",
+      "def": "The agency that collects foreign exchange transaction information; an applicant for small-amount overseas remittance business registration must have a network link with it."
+    },
+    {
+      "id": "term-orm-change",
+      "term": "Report of changes to registered details (등록사항 변경 신고)",
+      "def": "A report filed with the Minister of Economy and Finance at least 7 days before changing the name, location, scope, operating method, business account or foreign partners, or discontinuing the business."
+    },
+    {
+      "id": "term-orm-terms",
+      "term": "Terms and conditions report (약관 신고)",
+      "def": "A report filed in advance with the Minister of Economy and Finance when establishing or amending the terms and conditions of a small-amount overseas remittance business; the terms must be published on the website or similar."
+    },
+    {
+      "id": "term-orm-other",
+      "term": "Other specialized foreign exchange business (기타전문외국환업무)",
+      "def": "Foreign exchange business, as set by announcement, directly related to issuing and managing electronic money, issuing and managing prepaid electronic payment instruments, or electronic payment gateway services."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "procurement",
+  "lang": "en",
+  "label": "KONEPS supplier registration",
+  "kw": "KONEPS supplier registration agent in Korea",
+  "answer": "KONEPS supplier registration (나라장터 등록) is the step in which a business that wants to bid for public-sector contracts registers its competitive bidding qualification in advance on the Korea ON-line E-Procurement System (KONEPS, 나라장터). You choose a registration category (construction, goods manufacturing/purchase, or services) and submit the registration application together with proof of any related permits or licences. Registration details posted on the e-procurement system are treated as registered with other central government agencies as well, so you do not register again with each agency, and the national contract laws set no statutory processing period. YouSun Administrative Agency prepares and files the KONEPS registration application and supporting documents on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the competitive bidding qualification registration (경쟁입찰참가자격 등록) application", "href": "#term-pc-registration"},
+    {"name": "Pre-review of bidding qualification requirements (sector-specific permits, authorizations, licences, registrations or reports, and business registration)", "href": "#term-pc-qualification"},
+    {"name": "Choosing the registration category (construction, goods manufacturing/purchase, services) and organizing business lines and product items", "href": "#sit-pc-category"},
+    {"name": "Preparing documents for goods manufacturing registration (물품제조등록): certified copy of the factory register or proof of direct production", "href": "#term-pc-manufacturing"},
+    {"name": "Preparing documents for e-procurement system user registration (전자조달시스템 이용자등록)", "href": "#term-pc-user-registration"},
+    {"name": "Organizing attachments when you do not consent to shared administrative information checks", "href": "#svc-glance"},
+    {"name": "Filing a change registration (변경등록) of registered details", "href": "#term-pc-change"},
+    {"name": "Guidance on when the direct production confirmation certificate (직접생산확인증명서) must be reapplied for or reissued", "href": "#term-pc-direct-production"},
+    {"name": "Guidance on requirements for multiple award schedule contracts (다수공급자계약) and the KONEPS online shopping mall", "href": "#term-pc-mas"},
+    {"name": "Handling requests for supplementary documents after filing", "href": "#sit-pc-agency"}
+  ],
+  "clients": [
+    "Small and medium manufacturers supplying public agencies for the first time",
+    "Corporations and sole proprietors planning to bid for public construction or service contracts",
+    "Goods suppliers preparing to list on the KONEPS online shopping mall",
+    "Registered suppliers whose representative or trade name has changed and must update their registration",
+    "Foreign-invested companies setting up a Korean entity to take part in public procurement"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Construction, goods (manufacturing/purchase) and service businesses that want to take part in competitive bidding by public agencies"},
+    {"label": "Requirements", "value": "Any permit, authorization, licence, registration or report required for the sector under other laws; a suitability decision where a security inspection or similar check is required; and a business registration certificate or unique identification number for the business concerned"},
+    {"label": "Process", "value": "Qualification review → choice of registration category → supplier registration application on KONEPS → issuance of the competitive bidding qualification registration certificate → product and contract registration → bidding and change registration management"},
+    {"label": "Documents", "value": "Competitive bidding qualification registration application; proof of related permits, authorizations, licences, registrations or reports (where required); for manufacturing registration, a certified copy of the factory register or proof of direct production; certificate of seal impression or certificate of personal signature (not needed when using the e-procurement system); business registration certificate and corporate register extract (checked through shared administrative information)"},
+    {"label": "Timeline", "value": "No statutory processing period under the national contract laws (it depends on the agency's workload and whether supplements are needed); for electronic bidding, user registration must be completed by the day before the bid submission deadline"}
+  ],
+  "chooser": [
+    {"label": "Bidding for a public contract for the first time", "target": "sit-pc-first-bid"},
+    {"label": "Registering as a manufacturer", "target": "sit-pc-manufacturing"},
+    {"label": "The bid deadline is close", "target": "sit-pc-deadline"},
+    {"label": "The representative or trade name has changed", "target": "sit-pc-rep-change"},
+    {"label": "Preparing to supply through the online shopping mall", "target": "sit-pc-mas"},
+    {"label": "A foreign company wants to participate", "target": "sit-pc-foreign"}
+  ],
+  "situations": [
+    {
+      "id": "sit-pc-first-bid",
+      "q": "How do I register on KONEPS to bid for a Korean public-sector contract for the first time?",
+      "conclusion": "First confirm that you hold the permits, licences or registrations your sector requires and a business registration, then choose a registration category on KONEPS and apply for competitive bidding qualification registration. Once registered, you receive a competitive bidding qualification registration certificate, which proves your qualification only for the registered business lines and product items.",
+      "branches": [
+        {"when": "Your sector needs a permit or registration under another law, such as a construction business licence", "then": "Obtain that permit or registration first and attach the certificate issued by the relevant authority to the application."},
+        {"when": "Your sector needs no separate permit", "then": "Have a business registration certificate or unique identification number for the business and submit the application."},
+        {"when": "You plan to submit bids electronically", "then": "Complete e-procurement system user registration by the day before the electronic bid submission deadline."}
+      ],
+      "docs": "Competitive bidding qualification registration application; proof of related permits, authorizations, licences, registrations or reports (where required); certificate of seal impression or certificate of personal signature (not needed when using the e-procurement system); business registration certificate or proof of unique identification number",
+      "period": "No statutory processing period / in practice it depends on document preparation and any supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-pc-manufacturing",
+      "q": "Do I need a factory registration to register on KONEPS as a manufacturer?",
+      "conclusion": "Goods manufacturing registration requires either a certified copy of the factory register or a document in which the head of a public agency confirms and certifies direct production. If no public agency head has confirmed it, you can instead submit a document in which the Administrator of the Public Procurement Service (조달청장) confirms and certifies direct production.",
+      "branches": [
+        {"when": "You have completed factory registration under the Industrial Cluster Development and Factory Establishment Act (산업집적활성화 및 공장설립에 관한 법률)", "then": "Submit a certified copy of the factory register as the manufacturing attachment (the factory registration certificate is checked through shared administrative information)."},
+        {"when": "You have no factory registration", "then": "Complete factory registration first, or prepare proof of direct production confirmed by the head of a public agency or the Administrator of the Public Procurement Service."},
+        {"when": "You buy goods and only supply them, without manufacturing", "then": "Apply for goods purchase registration rather than manufacturing; no additional manufacturing documents are needed."}
+      ],
+      "docs": "Registration application; certified copy of the factory register or proof of direct production; proof of related permits (where required)",
+      "period": "No statutory processing period / if you register a factory first, that time is added"
+    },
+    {
+      "id": "sit-pc-category",
+      "q": "Which KONEPS registration category should I choose: construction, goods or services?",
+      "conclusion": "There are three registration categories: construction, goods manufacturing/purchase, and services, and you choose the one matching the type of contract you actually intend to perform. Qualification is proven only for the registered business lines and product items, so how you set them at registration determines which tenders you can enter.",
+      "branches": [
+        {"when": "You want to win public construction contracts", "then": "Apply for construction registration and attach the relevant construction business licence or registration certificate."},
+        {"when": "You manufacture or purchase goods to supply", "then": "Apply for goods manufacturing/purchase registration; for manufacturing, add a certified copy of the factory register or proof of direct production."},
+        {"when": "You provide services such as cleaning, facility management or research", "then": "Apply for services registration and attach proof of any permits your sector requires."}
+      ],
+      "docs": "Registration application; proof of related permits for the category; for manufacturing, a certified copy of the factory register or proof of direct production",
+      "period": "No statutory processing period / adding business lines or product items also requires a change registration"
+    },
+    {
+      "id": "sit-pc-deadline",
+      "q": "A tender deadline is coming up. By when must my KONEPS registration be completed?",
+      "conclusion": "To take part in electronic bidding, you must complete e-procurement system user registration by the day before the electronic bid submission deadline. Competitive bidding qualification registration has no statutory processing period, so it is safer to register in advance rather than after you see a tender notice.",
+      "branches": [
+        {"when": "You saw the tender notice before registering", "then": "Collect the required documents at once, apply for registration and user registration together, and check that both are complete by the day before the deadline."},
+        {"when": "You are registered but your registered details have changed", "then": "Complete a change registration before bidding. A bid from a party without bidding qualification is invalid."}
+      ],
+      "docs": "Registration application; business registration certificate; proof of related permits; your own authentication means such as a joint certificate (managed by you)",
+      "period": "User registration by the day before the bid submission deadline / registration review depends on any supplements"
+    },
+    {
+      "id": "sit-pc-cost",
+      "q": "What can I prepare in advance to keep KONEPS registration costs down?",
+      "conclusion": "The time-consuming parts of preparation are proof of sector permits and manufacturing registration documents. The business registration certificate, corporate register extract and factory registration certificate are checked through shared administrative information, so consenting to that check reduces the documents you have to obtain yourself.",
+      "branches": [
+        {"when": "You consent to the shared administrative information check", "then": "The authority checks the corporate register extract, factory registration certificate, business registration certificate and similar records directly."},
+        {"when": "You do not consent to the check", "then": "You must attach those documents yourself (a copy of the business registration certificate)."},
+        {"when": "You apply through the e-procurement system", "then": "You do not need to submit a certificate of seal impression or certificate of personal signature."}
+      ],
+      "docs": "Registration application; proof of related permits; for manufacturing registration, a certified copy of the factory register or proof of direct production",
+      "period": "No statutory processing period / complete documents shorten the supplement stage"
+    },
+    {
+      "id": "sit-pc-agency",
+      "q": "If I hire an administrative agent for KONEPS registration, what will they handle?",
+      "conclusion": "With your written authorization, an administrative agent reviews your qualification requirements, sets the registration category, prepares and files the application and attachments, responds to supplement requests and handles change registrations. Your own authentication means, such as a joint certificate, must be managed by you.",
+      "branches": [
+        {"when": "You want to delegate registration or change registration documents", "then": "The agent checks your sector permits and business registration status, then prepares and files documents matching the registration category."},
+        {"when": "You want bidding strategy, proposal or quotation writing, or someone to bid for you", "then": "These are outside an administrative agent's scope, so your company handles them directly or uses another channel."}
+      ],
+      "docs": "Letter of authorization; business registration certificate; proof of sector permits or licences; factory registration documents for manufacturing registration",
+      "period": "No statutory processing period / whether you are registered is decided by the competent agency"
+    },
+    {
+      "id": "sit-pc-rep-change",
+      "q": "Our representative has changed. Do we also need to update our KONEPS registration and direct production confirmation?",
+      "conclusion": "If registered details change, you must file a change registration before bidding. A supplier holding a direct production confirmation certificate needs either reissuance or a new confirmation application, depending on the type of representative change.",
+      "branches": [
+        {"when": "The representative of a corporation has changed", "then": "File a KONEPS change registration and have the direct production confirmation certificate reissued."},
+        {"when": "The representative of a sole proprietorship has changed (other than a comprehensive transfer of the business)", "then": "File a KONEPS change registration and apply again for confirmation of direct production."},
+        {"when": "Only the trade name has changed", "then": "File a change registration and have the direct production confirmation certificate reissued."}
+      ],
+      "docs": "Documents proving the change (such as the corporate register extract); business registration certificate; existing direct production confirmation certificate",
+      "period": "Change registration before bidding / in practice, reissuance or reapplication time depends on any supplements"
+    },
+    {
+      "id": "sit-pc-mas",
+      "q": "We are preparing to supply through the KONEPS online shopping mall. What are the conditions for a multiple award schedule contract?",
+      "conclusion": "Supplying through the online shopping mall presupposes KONEPS bidding qualification registration and then a separate contract route, such as a multiple award schedule contract or a unit-price contract for third parties. A multiple award schedule contract is concluded with two or more suppliers so that user agencies can choose among goods of the same or similar quality and performance, and the contract price must be kept equal to or below the market transaction price.",
+      "branches": [
+        {"when": "You supply products reserved for competition among SMEs", "then": "Direct production confirmation is a precondition, so obtain the direct production confirmation certificate first."},
+        {"when": "After contracting, you set a market selling price below the contract price", "then": "If you breach the price-maintenance obligation without good reason, the Administrator of the Public Procurement Service may deduct the difference from the delivery amount or claim it, so manage your pricing."}
+      ],
+      "docs": "Competitive bidding qualification registration certificate; direct production confirmation certificate (for the product); product specifications and price data",
+      "period": "Registration itself has no statutory processing period / the contract schedule follows the Public Procurement Service notice"
+    },
+    {
+      "id": "sit-pc-factory-move",
+      "q": "We moved our factory. What happens to our direct production confirmation certificate?",
+      "conclusion": "If you move a factory that received direct production confirmation, you must apply again for confirmation of direct production. The certificate is valid for 2 years from the date of issue.",
+      "branches": [
+        {"when": "You moved the confirmed factory to another location", "then": "Reapply for confirmation of direct production and, if your KONEPS registered details changed, file a change registration before bidding."},
+        {"when": "You transferred, acquired or merged the business (other than a comprehensive transfer)", "then": "Reapply for confirmation of direct production."},
+        {"when": "The business was comprehensively transferred", "then": "Have the direct production confirmation certificate reissued."}
+      ],
+      "docs": "Factory registration change documents; existing direct production confirmation certificate; business registration certificate",
+      "period": "Direct production confirmation certificate valid 2 years from issue / reapplication time depends on any supplements"
+    },
+    {
+      "id": "sit-pc-small-business",
+      "q": "What difference does a small business or micro-enterprise confirmation make when bidding on KONEPS?",
+      "conclusion": "For goods and services below the publicly notified amount (excluding products reserved for competition among SMEs), public agencies must give priority procurement contracts to SMEs, and for products reserved for competition among SMEs they contract through restricted or designated competition limited to SMEs unless there is a special reason. To help small businesses and micro-enterprises win contracts jointly, a joint contracting group of five or more SMEs may receive preferential treatment.",
+      "branches": [
+        {"when": "The tender is for small-value goods or services below the notified amount", "then": "Check in the notice whether it is subject to SME priority procurement and prepare your confirmation."},
+        {"when": "The contract is too large to win alone", "then": "Consider forming a joint contracting group of five or more SMEs."}
+      ],
+      "docs": "Competitive bidding qualification registration certificate; SME confirmation or small business/micro-enterprise confirmation; joint contracting agreement (where applicable)",
+      "period": "Registration itself has no statutory processing period / issuance time for the confirmation depends on the issuing body"
+    },
+    {
+      "id": "sit-pc-foreign",
+      "q": "What does a foreign company need to register on KONEPS in Korea?",
+      "conclusion": "Under the national contract laws, the bidding qualification is the same as for domestic businesses: you need a business registration certificate or unique identification number for the business concerned and any sector permits or licences. The standard route is to set up a corporation or place of business in Korea, complete business registration and then register through the normal procedure.",
+      "branches": [
+        {"when": "You have set up a Korean corporation and completed business registration", "then": "Apply for competitive bidding qualification registration with the same category and documents as a domestic company."},
+        {"when": "You take part in a contract subject to international bidding", "then": "Bids may be required in person or by post at the place and time stated in the tender notice, so follow the submission method in the notice."}
+      ],
+      "docs": "Registration application; business registration certificate or proof of unique identification number; corporate register extract; proof of sector permits or licences",
+      "period": "No statutory processing period / in practice, time for incorporation and business registration is added first"
+    }
+  ],
+  "glossary": [
+    {"id": "term-pc-naramarket", "term": "Korea ON-line E-Procurement System, KONEPS (국가종합전자조달시스템, 나라장터)", "def": "The system that processes public agencies' bidding and contracting electronically under the Electronic Procurement Act (전자조달의 이용 및 촉진에 관한 법률); 나라장터 is its common name."},
+    {"id": "term-pc-registration", "term": "Competitive bidding qualification registration (경쟁입찰참가자격 등록)", "def": "A procedure in which the head of a central government agency or a contracting officer has bidders register their qualification in advance to run competitive bidding efficiently; on registration, a competitive bidding qualification registration certificate is issued."},
+    {"id": "term-pc-qualification", "term": "Bidding qualification (입찰 참가자격)", "def": "Holding the permits, authorizations, licences, registrations or reports required under other laws or meeting the qualification requirements, a suitability decision from a security inspection where required, and a business registration certificate or unique identification number."},
+    {"id": "term-pc-manufacturing", "term": "Goods manufacturing registration (물품제조등록)", "def": "Registration as a manufacturer within the goods manufacturing/purchase category; you additionally submit a certified copy of the factory register or a document confirming and certifying direct production."},
+    {"id": "term-pc-direct-production", "term": "Direct production confirmation certificate (직접생산확인증명서)", "def": "A certificate issued by the Minister of SMEs and Startups (중소벤처기업부장관) confirming that an SME directly produces the product, used in procurement contracts for products reserved for competition among SMEs and similar cases; it is valid for 2 years from issue."},
+    {"id": "term-pc-mas", "term": "Multiple award schedule contract (다수공급자계약)", "def": "A contract the Administrator of the Public Procurement Service concludes with two or more suppliers so that user agencies can choose among goods of the same or similar quality, performance or efficiency."},
+    {"id": "term-pc-user-registration", "term": "E-procurement system user registration (전자조달시스템 이용자등록)", "def": "Registration on the e-procurement system by anyone who wants to take part in electronic bidding or conclude contracts electronically; it must be done by the day before the electronic bid submission deadline."},
+    {"id": "term-pc-change", "term": "Change registration (변경등록)", "def": "The procedure for updating registered details in advance, before bidding, when your competitive bidding qualification registration details change."}
+  ]
+}

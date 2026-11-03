@@ -1,0 +1,160 @@
+{
+  "slug": "mainbiz-management-innovation-sme",
+  "lang": "en",
+  "label": "Mainbiz certification",
+  "kw": "Mainbiz certification agent in Korea",
+  "answer": "Mainbiz certification is, in legal terms, selection as a management innovation SME (경영혁신형 중소기업): under the selection procedure and evaluation criteria announced by the Minister of SMEs and Startups (중소벤처기업부장관), management innovation activities, management innovation results and other factors are evaluated, and SMEs with excellent results are selected. It is a selection based on evaluation rather than a permit or registration, and the application documents, evaluation schedule and calculation of evaluation costs are set out in the public notice and the ministerial notice. YouSun Administrative Agency prepares and files the application and supporting documents required by the notice on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the management innovation SME (Mainbiz, 경영혁신형 중소기업) selection application", "href": "#term-mbz-mainbiz"},
+    {"name": "Checking the selection notice (선정 공고: selection procedure and evaluation criteria) and organizing the application schedule", "href": "#term-mbz-notice"},
+    {"name": "Organizing a list of supporting materials for management innovation activities (경영혁신활동)", "href": "#term-mbz-activity"},
+    {"name": "Organizing evidence of management innovation results (경영혁신성과)", "href": "#term-mbz-performance"},
+    {"name": "Preparing attachments required by the notice and checking for omissions", "href": "#svc-glance"},
+    {"name": "Guidance on choosing between technology innovation SME (Innobiz, 이노비즈) and management innovation SME", "href": "#term-mbz-innobiz"},
+    {"name": "Guidance on the evaluation cost (평가 비용) payment procedure (per the ministerial notice)", "href": "#term-mbz-evaluation-cost"},
+    {"name": "Preparing documents in response to supplement requests", "href": "#sit-mbz-period"},
+    {"name": "Preparing re-selection application documents", "href": "#sit-mbz-reselection"}
+  ],
+  "clients": [
+    "SMEs that want their management innovation recognized as a qualification for government support programs",
+    "Service-sector SMEs outside manufacturing",
+    "Companies deciding whether to apply as a technology innovation SME (Innobiz) or a management innovation SME",
+    "Previously selected companies applying again after their selection period ends"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "SMEs carrying out management innovation activities"},
+    {"label": "Requirements", "value": "Excellent evaluation results under the announced evaluation criteria (management innovation activities, management innovation results and others)"},
+    {"label": "Process", "value": "Selection procedure and evaluation criteria announced → application → evaluation → selection of companies with excellent results → priority support for selected companies"},
+    {"label": "Documents", "value": "The application and evidence of management innovation activities and results specified in the selection notice"},
+    {"label": "Timeline", "value": "The evaluation schedule follows the notice and depends on the competent authority's review and any supplement requests"}
+  ],
+  "chooser": [
+    {"label": "Deciding between Mainbiz and Innobiz", "target": "sit-mbz-vs-innobiz"},
+    {"label": "A service-sector company", "target": "sit-mbz-service-industry"},
+    {"label": "Wondering about the benefits of selection", "target": "sit-mbz-benefits"},
+    {"label": "Worried about failing the evaluation", "target": "sit-mbz-fail"},
+    {"label": "Needing to be selected again", "target": "sit-mbz-reselection"}
+  ],
+  "situations": [
+    {
+      "id": "sit-mbz-vs-innobiz",
+      "q": "What is the difference between Mainbiz and Innobiz certification in Korea, and which one should our company apply for?",
+      "conclusion": "Innobiz (technology innovation SME) uses criteria such as technology innovation results and technology commercialization capability, while Mainbiz (management innovation SME) uses criteria such as management innovation activities and management innovation results. Choose based on whether the innovation your company wants to highlight is technological or managerial.",
+      "branches": [
+        {"when": "Your track record centers on technology development and commercialization", "then": "Prepare on the basis of the technology innovation SME selection notice."},
+        {"when": "Your management innovation activities matter more than technology", "then": "Prepare on the basis of the management innovation SME selection notice."}
+      ],
+      "docs": "Materials on the company's innovation activities (technology or management), application documents specified in each selection notice",
+      "period": "The evaluation schedule follows each selection notice"
+    },
+    {
+      "id": "sit-mbz-service-industry",
+      "q": "Can a service-sector SME in Korea, not a manufacturer, get Mainbiz certification?",
+      "conclusion": "Under the law, eligible companies are SMEs carrying out management innovation activities, and the evaluation criteria are management innovation activities and management innovation results, among others. Detailed evaluation items by industry are set in the notice, so check the industry conditions in the notice current at the time of application.",
+      "branches": [
+        {"when": "The notice has separate evaluation items for the service sector", "then": "Organize the supporting materials for management innovation activities to match those items."},
+        {"when": "The notice restricts eligible industries", "then": "First check whether you qualify, then decide whether to apply."}
+      ],
+      "docs": "The application specified in the selection notice, evidence of management innovation activities and results",
+      "period": "The evaluation schedule follows the notice"
+    },
+    {
+      "id": "sit-mbz-benefits",
+      "q": "What are the benefits of Mainbiz certification in Korea, and is it linked to government policy funding?",
+      "conclusion": "When the Minister of SMEs and Startups runs programs to discover and foster management innovation SMEs, selected companies may receive priority support. Support programs for promoting management innovation also include financial support and publicity related to management innovation, but specific preferential treatment is set in each support program's notice.",
+      "branches": [
+        {"when": "You are targeting preferential treatment in a specific support program", "then": "First check whether that program's notice includes preferential conditions for Mainbiz companies."},
+        {"when": "Selection itself is your goal", "then": "Prepare supporting materials to match the evaluation criteria in the selection notice."}
+      ],
+      "docs": "The selection notice and the notice of the support program you want to use",
+      "period": "The schedule for each support program follows its notice"
+    },
+    {
+      "id": "sit-mbz-documents",
+      "q": "What materials should our company gather before applying for Mainbiz certification in Korea?",
+      "conclusion": "The list of application documents is set in the selection notice, so follow the notice; but since the evaluation criteria are management innovation activities and management innovation results, it helps to gather supporting materials showing those activities and results in advance.",
+      "branches": [
+        {"when": "The notice has already been published", "then": "Prepare the application and evidence according to the document list in the notice."},
+        {"when": "The notice has not been published yet", "then": "Organize records of management innovation activities and results first, and adapt them to the forms once the notice is out."}
+      ],
+      "docs": "Records of management innovation activities, materials on management innovation results, the application specified in the notice",
+      "period": "The application period follows the notice"
+    },
+    {
+      "id": "sit-mbz-procedure",
+      "q": "What are the steps of the Mainbiz certification process in Korea, from application to selection?",
+      "conclusion": "Under the law, the procedure is: announcement of the selection procedure and evaluation criteria → evaluation → selection of companies with excellent results → priority support for selected companies. The actual filing and evaluation bodies and the detailed steps are set in the notice.",
+      "branches": [
+        {"when": "The evaluation results are excellent", "then": "The company is selected as a management innovation SME."},
+        {"when": "The evaluation results fall short of the criteria", "then": "The company is not selected, so apply again under the next notice with improved supporting materials."}
+      ],
+      "docs": "The application and evidence specified in the notice",
+      "period": "The evaluation schedule follows the notice"
+    },
+    {
+      "id": "sit-mbz-period",
+      "q": "How long does Mainbiz certification take in Korea after applying?",
+      "conclusion": "The law does not set a number of processing days and requires the selection procedure to be set by notice, so the evaluation schedule follows the notice current at the time of application.",
+      "branches": [
+        {"when": "The supporting documents are complete", "then": "The process follows the announced evaluation schedule."},
+        {"when": "You receive a supplement request", "then": "The schedule grows by the time needed for the supplement."}
+      ],
+      "docs": "The application and evidence specified in the notice",
+      "period": "Depends on the competent authority's review and any supplement requests"
+    },
+    {
+      "id": "sit-mbz-cost",
+      "q": "How is the cost of Mainbiz certification in Korea determined, and what should we prepare first?",
+      "conclusion": "The Minister of SMEs and Startups may require companies seeking selection to bear the costs of evaluation and related work, and the calculation and payment of these costs are set by ministerial notice. Preparing supporting materials that match the evaluation criteria affects the schedule more than the cost does, so start there.",
+      "branches": [
+        {"when": "You want to confirm the evaluation cost", "then": "Check the calculation and payment method in the Minister of SMEs and Startups' notice and the selection notice."},
+        {"when": "You want to start with document preparation", "then": "Organize the supporting materials for management innovation activities and results to fit the notice forms."}
+      ],
+      "docs": "Selection notice, ministerial notice on evaluation costs, evidence of management innovation activities and results",
+      "period": "The evaluation schedule follows the notice"
+    },
+    {
+      "id": "sit-mbz-fail",
+      "q": "Why do companies fail the Mainbiz evaluation in Korea, and how can we prepare?",
+      "conclusion": "Under the law, the deciding factor is whether management innovation activities and management innovation results are found to be excellent under the evaluation criteria. Only companies with excellent results are selected, so selection is difficult if supporting materials for the activities are lacking.",
+      "branches": [
+        {"when": "You carry out the activities but have no records", "then": "Document the activity records and results materials before applying."},
+        {"when": "You have already failed", "then": "Compare against the evaluation criteria in the notice, strengthen the weak items, and apply again under the next notice."}
+      ],
+      "docs": "Records of management innovation activities, materials on management innovation results, previous application documents",
+      "period": "The timing of a new application follows the next notice"
+    },
+    {
+      "id": "sit-mbz-reselection",
+      "q": "Our Mainbiz selection period in Korea is ending. How do we prepare for re-certification?",
+      "conclusion": "The selection period and re-selection procedure are set by notice rather than in the text of the law, so you are evaluated again and selected under the selection procedure in the current notice.",
+      "branches": [
+        {"when": "A notice is published within your current selection period", "then": "Prepare a new application with recent management innovation activity and results materials to match the notice criteria."},
+        {"when": "The evaluation criteria have changed", "then": "Reorganize the supporting materials to match the new criteria."}
+      ],
+      "docs": "The application specified in the notice, recent evidence of management innovation activities and results, documents from the previous selection",
+      "period": "The re-selection schedule follows the notice"
+    },
+    {
+      "id": "sit-mbz-recommend",
+      "q": "If we hire an administrative agent for Mainbiz certification in Korea, what do they handle?",
+      "conclusion": "Once engaged, we check the notice, prepare the application and supporting documents, submit them and respond to supplement requests. We do not provide management consulting, promise evaluation results, or handle tax and accounting work, and the Minister of SMEs and Startups decides on selection.",
+      "branches": [
+        {"when": "Your supporting materials are scattered", "then": "We organize a list of management innovation activity and results materials to fit the notice forms and prepare the application."},
+        {"when": "You have already completed the application", "then": "We check the attachments for omissions and handle submission and supplement responses."}
+      ],
+      "docs": "Letter of authorization, the application specified in the notice, evidence of management innovation activities and results",
+      "period": "The evaluation schedule follows the notice and depends on any supplement requests",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-mbz-mainbiz", "term": "Management innovation SME (경영혁신형 중소기업, Mainbiz)", "def": "An SME selected by the Minister of SMEs and Startups as having excellent results in an evaluation of management innovation activities, management innovation results and other factors."},
+    {"id": "term-mbz-innobiz", "term": "Technology innovation SME (기술혁신형 중소기업, Innobiz)", "def": "An SME selected using criteria such as technology innovation results and technology commercialization capability."},
+    {"id": "term-mbz-notice", "term": "Selection notice (선정 공고)", "def": "The public notice in which the Minister of SMEs and Startups sets out the selection procedure and evaluation criteria for management innovation SMEs; application documents and schedules are also set here."},
+    {"id": "term-mbz-activity", "term": "Management innovation activities (경영혁신활동)", "def": "One pillar of the management innovation SME evaluation criteria: the activities a company carries out for management innovation; detailed evaluation items are set in the notice."},
+    {"id": "term-mbz-performance", "term": "Management innovation results (경영혁신성과)", "def": "The results produced by management innovation activities; together with the activities, they form the evaluation criteria."},
+    {"id": "term-mbz-support-program", "term": "Management innovation promotion support programs (경영혁신 촉진 지원사업)", "def": "Support programs the Minister of SMEs and Startups may run to discover and foster management innovation SMEs, provide financial support related to management innovation, and carry out publicity."},
+    {"id": "term-mbz-evaluation-cost", "term": "Evaluation cost (평가 비용)", "def": "The cost of evaluation and related work that companies seeking selection may be required to bear; its calculation and payment are set by notice of the Minister of SMEs and Startups."}
+  ]
+}

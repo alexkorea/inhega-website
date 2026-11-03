@@ -1,0 +1,328 @@
+{
+ "slug": "currency-exchange",
+ "lang": "en",
+ "label": "Currency Exchange Business Registration",
+ "kw": "Currency exchange business registration agent in Korea",
+ "answer": "Currency exchange business registration (환전업무 등록) is a specialized foreign exchange business registration that a person other than a financial institution must obtain in advance under the Foreign Exchange Transactions Act (외국환거래법) to buy and sell foreign currency as a business. Registration authority is delegated to the Commissioner of the Korea Customs Service (관세청장), so applications are received in practice by the customs office with jurisdiction over the business premises. The legal requirements are two — business premises needed for currency exchange and the computer systems set by notice — and there is no minimum capital requirement. After registration, anti-money laundering duties such as customer due diligence and suspicious transaction reporting apply. YouSun Administrative Agency prepares and files the registration application and attachments.",
+ "services": [
+  {
+   "name": "Preparing and filing the currency exchange business registration application (환전업무 등록신청)",
+   "href": "#term-cx-dealer"
+  },
+  {
+   "name": "Pre-checking the business premises and computer system requirements (영업장·전산설비)",
+   "href": "#term-cx-facility"
+  },
+  {
+   "name": "Checking grounds for disqualification of the applicant and corporate officers (3 years after registration cancellation)",
+   "href": "#sit-cx-reregister"
+  },
+  {
+   "name": "Reviewing how to set the scope of currency exchange business (환전업무의 취급 범위)",
+   "href": "#term-cx-scope"
+  },
+  {
+   "name": "Filing with the competent customs office and handling supplementation requests",
+   "href": "#sit-cx-where"
+  },
+  {
+   "name": "Change reports for name, business location and scope of business (변경신고)",
+   "href": "#term-cx-change"
+  },
+  {
+   "name": "Report of discontinuation of currency exchange business (폐지신고)",
+   "href": "#sit-cx-close"
+  },
+  {
+   "name": "Guidance on separate registration per business when also running small-sum overseas remittance and similar businesses (소액해외송금업무)",
+   "href": "#term-cx-remittance"
+  },
+  {
+   "name": "Guidance on anti-money laundering duties (customer due diligence, suspicious transaction reports, currency transaction reports) (자금세탁방지 의무)",
+   "href": "#term-cx-aml"
+  }
+ ],
+ "clients": [
+  "Sole proprietors and corporations opening a currency exchange counter in tourist areas or commercial districts",
+  "Hotels, tax-exempt retailers and travel-related businesses with many foreign customers",
+  "Foreign nationals and foreign-invested companies planning a currency exchange business in Korea",
+  "Existing currency exchange operators facing a move, change of business scope or closure"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Sole proprietors and corporations, other than financial institutions, that intend to buy or sell foreign currency, or buy traveler's checks issued abroad, as a business"
+  },
+  {
+   "label": "Requirements",
+   "value": "Business premises needed for currency exchange, computer systems set by notice of the Minister of Economy and Finance, and no grounds for disqualification of the applicant (including officers for a corporation) (persons within 3 years of registration cancellation are barred)"
+  },
+  {
+   "label": "Process",
+   "value": "Check disqualification grounds → prepare business premises and computer systems → file for registration (received by the competent customs office) → review of premises, computer systems, documents and disqualification → registration certificate issued → anti-money laundering compliance and change or discontinuation reports"
+  },
+  {
+   "label": "Documents",
+   "value": "Currency exchange business registration application (stating name, business location, scope of business and officers), proof of business premises (lease agreement, etc.), proof of computer systems, corporate register extract (corporations), copy of business registration certificate, officers' disqualification check documents (corporations)"
+  },
+  {
+   "label": "Timeline",
+   "value": "The foreign exchange laws and regulations set no statutory processing period, so timing depends on the checks of the business premises and computer systems and on supplementation"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Not sure where to apply",
+   "target": "sit-cx-where"
+  },
+  {
+   "label": "Opening an exchange counter as a sole proprietor",
+   "target": "sit-cx-individual"
+  },
+  {
+   "label": "Also planning overseas remittance",
+   "target": "sit-cx-remittance"
+  },
+  {
+   "label": "Moving the office or closing the business",
+   "target": "sit-cx-move"
+  },
+  {
+   "label": "Questions about customer checks and reporting after registration",
+   "target": "sit-cx-aml"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-cx-where",
+   "q": "I want to open a currency exchange business in Korea. Do I register with the customs office rather than the Ministry of Economy and Finance?",
+   "conclusion": "By the wording of the law, the registering authority is the Minister of Economy and Finance, but the authority for currency exchange registration and change or discontinuation reports is delegated to the Commissioner of the Korea Customs Service, who may further delegate part of it to heads of customs offices. In practice, applications are received by the customs office with jurisdiction over the business location.",
+   "branches": [
+    {
+     "when": "Your business location is decided",
+     "then": "Confirm the filing route with the customs office for that location and submit the registration application."
+    },
+    {
+     "when": "You are supervised or inspected after registration",
+     "then": "Supervision and inspection are also carried out by the Commissioner of the Korea Customs Service, and joint inspections with the Governor of the Financial Supervisory Service may take place if there are concerns about harm to market order."
+    }
+   ],
+   "docs": "Currency exchange business registration application, proof of business premises, proof of computer systems, copy of business registration certificate",
+   "period": "In practice, depends on the competent customs office's checks of the premises and computer systems and on supplementation (no statutory processing period)"
+  },
+  {
+   "id": "sit-cx-individual",
+   "q": "Can I register a currency exchange business in Korea as a sole proprietor without setting up a corporation?",
+   "conclusion": "Yes. The Foreign Exchange Transactions Act provides for registration by persons other than financial institutions, and the officer details in the application are limited to corporations, so sole proprietors can also register.",
+   "branches": [
+    {
+     "when": "You are a sole proprietor",
+     "then": "Apply with a copy of your business registration certificate, identification documents, and evidence of business premises and computer systems."
+    },
+    {
+     "when": "You are a corporation",
+     "then": "Add the corporate register extract, articles of incorporation, officer details and officers' disqualification check documents."
+    }
+   ],
+   "docs": "Currency exchange business registration application, copy of business registration certificate, identification documents, proof of business premises, proof of computer systems",
+   "period": "In practice, depends on the checks of the premises and computer systems and on whether supplementation is needed"
+  },
+  {
+   "id": "sit-cx-location",
+   "q": "Can a currency exchange business be registered in an ordinary shopping arcade, not a special tourist zone or airport?",
+   "conclusion": "The Enforcement Decree only requires business premises needed for currency exchange and does not restrict location. However, whether the premises genuinely exist (signage, counter, storage equipment and so on) and whether the computer systems meet the notice are substantively reviewed.",
+   "branches": [
+    {
+     "when": "You have secured a separate business space",
+     "then": "Prove the premises with a lease agreement or similar, set up the computer systems, and apply."
+    },
+    {
+     "when": "You want to place a counter inside a store in another line of business",
+     "then": "First check whether you can show that the exchange premises genuinely exist."
+    }
+   ],
+   "docs": "Lease agreement or register extract for the premises, photos and layout of the premises, proof of computer systems, registration application",
+   "period": "In practice, depends on the premises inspection schedule"
+  },
+  {
+   "id": "sit-cx-period",
+   "q": "How long does currency exchange business registration in Korea take, from application to the registration certificate?",
+   "conclusion": "The Foreign Exchange Transactions Act and its Enforcement Decree set no statutory processing period for currency exchange registration. If the requirements are met and no grounds for refusal apply (inadequate premises or computer systems, defective documents, disqualification, or violation of other laws), registration must be granted, so the completeness of your documents drives the timeline.",
+   "branches": [
+    {
+     "when": "Your evidence of premises and computer systems is complete",
+     "then": "The registration certificate is issued after review, and anti-money laundering duties apply from that point."
+    },
+    {
+     "when": "Supplementation is requested due to defective documents or inadequate equipment",
+     "then": "Registration is delayed until the supplementation is completed."
+    }
+   ],
+   "docs": "Currency exchange business registration application, proof of business premises, proof of computer systems, corporate register extract (corporations)",
+   "period": "No statutory processing period / In practice, depends on the competent customs office's checks and supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-cx-cost",
+   "q": "I'm looking into the cost of currency exchange business registration in Korea. Do I need a minimum capital?",
+   "conclusion": "Currency exchange business has no legal minimum capital requirement; the registration requirements are business premises and the computer systems set by notice. However, measures such as a deposit or insurance or mutual aid enrollment may be imposed after registration.",
+   "branches": [
+    {
+     "when": "You have not prepared the premises and computer systems yet",
+     "then": "First lease the premises and set up the computer systems required by the notice."
+    },
+    {
+     "when": "You have been ordered to make a deposit or take out insurance",
+     "then": "Failing to comply is a ground for registration cancellation or business suspension, so comply within the deadline."
+    }
+   ],
+   "docs": "Lease agreement for the premises, proof of computer systems, currency exchange business registration application, copy of business registration certificate",
+   "period": "In practice, time to prepare the premises and computer systems is needed first"
+  },
+  {
+   "id": "sit-cx-remittance",
+   "q": "If our currency exchange counter also wants to offer overseas money transfers, do we need a separate registration?",
+   "conclusion": "Yes. The Enforcement Decree requires separate registration for each business when combining currency exchange, small-sum overseas remittance and other specialized foreign exchange businesses.",
+   "branches": [
+    {
+     "when": "You only buy and sell foreign currency",
+     "then": "Currency exchange business registration is sufficient."
+    },
+    {
+     "when": "You also handle payments and receipts between Korea and other countries",
+     "then": "You need a separate small-sum overseas remittance business registration, with different requirements and procedures."
+    }
+   ],
+   "docs": "Currency exchange business registration application, small-sum overseas remittance business registration application (if combined), documents required by notice for each business",
+   "period": "In practice, each business is reviewed separately"
+  },
+  {
+   "id": "sit-cx-move",
+   "q": "How do we move our currency exchange counter to a new location or expand the currencies we handle?",
+   "conclusion": "If the name, business location or scope of currency exchange business changes, you must file a change report at least 7 days before the change. Conducting foreign exchange business without a change report or with a false report is subject to a fine of up to KRW 100 million.",
+   "branches": [
+    {
+     "when": "You are relocating the business",
+     "then": "File the change report with evidence of the new premises at least 7 days before the move."
+    },
+    {
+     "when": "You want to go beyond the scope set at registration",
+     "then": "File a change report for the scope of business in advance."
+    }
+   ],
+   "docs": "Change report, lease agreement for the new premises (if relocating), proof of the change, registration certificate",
+   "period": "Statutory: report at least 7 days before the change"
+  },
+  {
+   "id": "sit-cx-close",
+   "q": "Do we have to report separately to customs to close our currency exchange business?",
+   "conclusion": "To discontinue foreign exchange business, you must file a discontinuation report at least 7 days before the discontinuation date, and failing to do so is subject to a fine.",
+   "branches": [
+    {
+     "when": "You are stopping currency exchange completely",
+     "then": "Submit the discontinuation report at least 7 days before the planned date."
+    },
+    {
+     "when": "You are stopping currency exchange but continuing another specialized foreign exchange business",
+     "then": "Registration is per business, so file a discontinuation report for currency exchange only."
+    }
+   ],
+   "docs": "Discontinuation report, registration certificate, documents required by notice",
+   "period": "Statutory: report at least 7 days before the discontinuation date"
+  },
+  {
+   "id": "sit-cx-aml",
+   "q": "After registering a currency exchange business in Korea, how do we verify customer identity and report transactions?",
+   "conclusion": "A registered currency exchange operator counts as a financial institution under the Act on Reporting and Using Specified Financial Transaction Information (특정금융정보법) and must carry out customer due diligence, suspicious transaction reporting, currency transaction reporting (within 30 days when cash at or above the amount set by Presidential Decree is exchanged), and appoint a reporting officer, set internal guidelines and train staff.",
+   "branches": [
+    {
+     "when": "A one-off transaction at or above a set amount occurs",
+     "then": "Verify the customer's identity and beneficial owner."
+    },
+    {
+     "when": "A transaction is suspected of involving illegal proceeds",
+     "then": "Report it to the Commissioner of the Korea Financial Intelligence Unit without delay and do not tell the counterparty about the report."
+    }
+   ],
+   "docs": "Reporting officer appointment documents, internal guidelines, customer due diligence records, transaction report records",
+   "period": "Statutory: currency transaction reports within 30 days, suspicious transaction reports without delay"
+  },
+  {
+   "id": "sit-cx-reregister",
+   "q": "Our currency exchange registration was cancelled in the past. Can we register again in Korea?",
+   "conclusion": "You cannot register again until 3 years have passed from the date of cancellation. This restriction also applies to officers and employees of a cancelled corporation who were responsible for the grounds for cancellation, and officers are also reviewed for disqualification when a corporation applies.",
+   "branches": [
+    {
+     "when": "3 years have passed since cancellation",
+     "then": "Set up the premises and computer systems again and file a new registration application."
+    },
+    {
+     "when": "A person within the 3-year period is an officer of a new corporation",
+     "then": "That corporation's registration may be refused, so review the officer lineup first."
+    }
+   ],
+   "docs": "Currency exchange business registration application, officers' disqualification check documents, evidence of premises and computer systems",
+   "period": "Statutory: re-registration restricted for 3 years from the cancellation date"
+  },
+  {
+   "id": "sit-cx-agency",
+   "q": "If we hire an administrative agent for currency exchange business registration in Korea, what exactly do they handle?",
+   "conclusion": "We handle pre-checks of disqualification grounds, premises and computer systems, preparation of the registration application and scope of business, filing with the competent customs office and supplementation responses, and post-registration change and discontinuation reports. Whether to register is decided by the competent authority.",
+   "branches": [
+    {
+     "when": "You are opening a new exchange counter",
+     "then": "After checking the requirements, we tell you which evidence is missing, then prepare and file the documents."
+    },
+    {
+     "when": "You need to build AML internal controls, assess the legality of foreign exchange transactions, or lease premises",
+     "then": "We do not handle these, so the business owner proceeds directly or with the relevant institutions."
+    }
+   ],
+   "docs": "Business registration certificate or corporate register extract, lease agreement for the premises, evidence of computer systems",
+   "period": "In practice, depends on document preparation and the customs office's inspection schedule",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-cx-dealer",
+   "term": "Currency exchange operator (환전영업자)",
+   "def": "A person, other than a financial institution, that has completed currency exchange business registration under the Foreign Exchange Transactions Act to buy and sell foreign currency as a business."
+  },
+  {
+   "id": "term-cx-specialized",
+   "term": "Specialized foreign exchange business (전문외국환업무)",
+   "def": "Foreign exchange business that a person other than a financial institution may conduct on condition of registration, divided into currency exchange, small-sum overseas remittance and other specialized foreign exchange business."
+  },
+  {
+   "id": "term-cx-scope",
+   "term": "Scope of currency exchange business (환전업무의 취급 범위)",
+   "def": "The scope of currency exchange business stated in the registration application. A change report is required to change it."
+  },
+  {
+   "id": "term-cx-facility",
+   "term": "Business premises and computer systems (영업장·전산설비)",
+   "def": "The two registration requirements for currency exchange: business premises needed for currency exchange, and the computer systems set by notice of the Minister of Economy and Finance for currency exchange and follow-up management."
+  },
+  {
+   "id": "term-cx-change",
+   "term": "Change report and discontinuation report (변경신고·폐지신고)",
+   "def": "Reports filed at least 7 days before the date when changing the name, business location or scope of business, or discontinuing the business."
+  },
+  {
+   "id": "term-cx-remittance",
+   "term": "Small-sum overseas remittance business (소액해외송금업무)",
+   "def": "A specialized foreign exchange business of making and receiving payments between Korea and other countries and the related buying and selling of foreign currency, registered separately from currency exchange."
+  },
+  {
+   "id": "term-cx-aml",
+   "term": "Financial institution for AML purposes (금융회사등, 자금세탁방지)",
+   "def": "An institution with duties under the Act on Reporting and Using Specified Financial Transaction Information, such as suspicious transaction reporting, currency transaction reporting and customer due diligence. Registered currency exchange operators fall into this category."
+  },
+  {
+   "id": "term-cx-cdd",
+   "term": "Customer due diligence (고객확인의무)",
+   "def": "The duty to verify a customer's identity and beneficial owner when opening a new account or conducting a one-off financial transaction at or above a set amount."
+  }
+ ]
+}

@@ -9,6 +9,9 @@ import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
 import { pullLawRefs } from '@/lib/law-refs'
 import { INDUSTRY_CARDS } from '@/lib/industry-cards'
+// AI-RECO-1103 12절: 항목 추천 블록(핵심 답변·처리 업무·한눈에 보기·상황 질문·용어·사무소 카드) — 원고 content/reco-units
+import { FocusPillarTop, FocusPillarGlossary } from '@/components/services/FocusPillar'
+import { getPillarView, situationQuestions, pillarServiceJsonLd, pillarGlossaryJsonLd } from '@/lib/focus-pillar-view'
 import {
   getIndustryLocales,
   type IndustryLocale,
@@ -128,7 +131,9 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
   const sections = page.sections.map((s) => ({ h2: s.h2, body: pull(s.body) }))
   const faqs = page.faq.map((f) => ({ q: pull(f.q), a: pull(f.a) }))
 
-  const serviceJsonLd = {
+  // 12절: 원고가 있으면 Service 는 @id·provider(@id 참조)·hasOfferCatalog 노드, FAQPage 는 원고 FAQ + 상황 질문 한 개, DefinedTermSet 추가.
+  const pillar = getPillarView(lang, slug)
+  const serviceJsonLd = pillar ? pillarServiceJsonLd(pillar, { name: page.h1, description: page.lead, url, image: photo.jsonLd }) : {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: page.h1,
@@ -143,14 +148,18 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
     url,
     image: photo.jsonLd,
   }
+  const glossaryJsonLd = pillar ? pillarGlossaryJsonLd(pillar, url) : null
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
+    mainEntity: [
+      ...faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+      ...(pillar ? situationQuestions(pillar) : []),
+    ],
   }
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -167,6 +176,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {glossaryJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(glossaryJsonLd) }} />}
       {/* zh/ja 는 keep-all 이면 공백 없는 문장이 줄바꿈되지 않아 390px 에서 히어로가 넘친다 */}
       <div style={{ paddingTop: '72px', ...(lang === 'zh' || lang === 'ja' ? { wordBreak: 'normal' as const } : {}) }}>
         {/* Hero */}
@@ -199,6 +209,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
             <div className={styles.contentGrid}>
               {/* Main Content — minWidth:0: 1fr 트랙 블로아웃 방지 */}
               <div style={{ minWidth: 0 }}>
+                <FocusPillarTop slug={slug} locale={lang} />
                 <section className="svc-overview-content" style={{ marginBottom: 'var(--block-gap)' }}>
                   <div className="svc-highlight">
                     <p style={{ fontWeight: 700, marginBottom: '0.5rem' }}>{page.summaryLabel}</p>
@@ -262,6 +273,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                     ))}
                   </div>
                 </section>
+                <FocusPillarGlossary slug={slug} locale={lang} />
 
                 {/* 관련 페이지 · 상담 안내 */}
                 <section className="svc-overview-content">

@@ -1,0 +1,328 @@
+{
+  "slug": "waste-treatment-business-permit",
+  "lang": "en",
+  "label": "Waste Treatment Business Permit",
+  "kw": "Waste treatment business permit agent in Korea",
+  "answer": "A waste treatment business permit (폐기물처리업 허가) is the permit under the Wastes Control Act (폐기물관리법) for anyone who wants to collect and transport, recycle or dispose of waste as a business. It is a two-step procedure: submit a waste treatment business plan and receive a suitability notice, then secure the facilities, equipment and technical capability and apply for the permit. Permits for designated waste are granted by the Minister of Climate, Energy and Environment (기후에너지환경부장관) through the regional environmental office, and permits for other waste by the Mayor or Do Governor (시·도지사). The processing periods on the forms are 30 days for the business plan (20 days for collection and transport) and 10 days for the permit application. YouSun Administrative Agency prepares and files the business plan, permit application and attachments.",
+  "services": [
+    {
+      "name": "Preparing and filing the waste treatment business plan (폐기물 처리 사업계획서)",
+      "href": "#term-wt-business-plan"
+    },
+    {
+      "name": "Preparing and filing the waste treatment business permit application (폐기물처리업 허가신청)",
+      "href": "#term-wt-permit"
+    },
+    {
+      "name": "Determining the business type (collection and transport, disposal, recycling) and the target waste",
+      "href": "#sit-wt-recycling"
+    },
+    {
+      "name": "Pre-checking the permit criteria for facilities, equipment and technical capability (기술능력)",
+      "href": "#term-wt-technical"
+    },
+    {
+      "name": "Checking whether any disqualification applies (결격사유)",
+      "href": "#sit-wt-disqualification"
+    },
+    {
+      "name": "Organizing attachments such as the facility and equipment specifications, plans and process flow chart",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Managing the permit application deadline after the suitability notice (적합통보)",
+      "href": "#term-wt-suitability"
+    },
+    {
+      "name": "Responding to supplementation requests from the competent authority",
+      "href": "#sit-wt-rejection"
+    },
+    {
+      "name": "Change permit applications and change reports (변경허가·변경신고)",
+      "href": "#term-wt-change"
+    }
+  ],
+  "clients": [
+    "Transport businesses starting a new waste collection and transport business",
+    "Corporations building a recycling plant to run a waste recycling business",
+    "Businesses preparing to collect and transport designated waste or medical waste",
+    "Existing waste treatment businesses changing facilities or sites after the permit"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Anyone who wants to collect and transport, recycle or dispose of waste as a business (excluding recyclers of household waste other than food waste and those who have filed a waste treatment report): collection and transport; intermediate, final and comprehensive disposal; and intermediate, final and comprehensive recycling businesses"
+    },
+    {
+      "label": "Requirements",
+      "value": "A suitability notice on the business plan (review of disqualifications, conflicts of the site with other laws, facilities, equipment and technical capability, and effects on the surrounding environment), facility, equipment and technical capability standards for each business type, and no disqualification"
+    },
+    {
+      "label": "Process",
+      "value": "Decide the business type and target waste → submit the waste treatment business plan → receive the suitability notice → secure facilities, equipment and technical capability within the deadline → file the permit application and attachments → permit issued"
+    },
+    {
+      "label": "Documents",
+      "value": "Waste treatment business plan, collection and transport plan or disposal and recycling plan, environmental review report (for incineration or landfill facilities and the like, if applicable), permit application, facility and equipment specifications, process flow chart, list of technical staff and proof of qualifications"
+    },
+    {
+      "label": "Timeline",
+      "value": "On the forms, 30 days for the business plan (20 days for collection and transport) and 10 days for the permit application; the permit application deadline after the suitability notice is 2 years (6 months for collection and transport, 3 years if incineration or landfill facilities must be installed); facility installation time is separate"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Starting a waste collection and transport business",
+      "target": "sit-wt-collection"
+    },
+    {
+      "label": "Handling designated or medical waste",
+      "target": "sit-wt-designated"
+    },
+    {
+      "label": "Building a recycling facility",
+      "target": "sit-wt-recycling"
+    },
+    {
+      "label": "Suitability notice received, facilities in preparation",
+      "target": "sit-wt-deadline"
+    },
+    {
+      "label": "Business details changing after the permit",
+      "target": "sit-wt-change"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-wt-collection",
+      "q": "What are the steps to get a waste collection and transport business permit in Korea?",
+      "conclusion": "First submit a waste treatment business plan and receive a suitability notice, then within 6 months of the notice date secure vehicles and other equipment and technical capability and file the permit application. The processing periods on the forms are 20 days for the business plan and 10 days for the permit application.",
+      "branches": [
+        {
+          "when": "Collecting and transporting waste other than designated waste",
+          "then": "Submit the business plan to the Mayor or Do Governor with jurisdiction over the contact point or office location."
+        },
+        {
+          "when": "Collecting and transporting designated waste",
+          "then": "Submit it to the head of the regional environmental office with jurisdiction over the parking lot location, and meet the parking lot and vehicle washing facility standards."
+        }
+      ],
+      "docs": "Waste treatment business plan, collection and transport plan (including plans to secure equipment and technical capability), permit application, facility and equipment specifications, list of technical staff and proof of qualifications",
+      "period": "On the forms, 20 days for the business plan and 10 days for the permit application; apply for the permit within 6 months of the suitability notice",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-wt-designated",
+      "q": "How do the requirements for a designated waste collection and transport permit in Korea differ from those for general waste?",
+      "conclusion": "Designated waste permits are granted by the Minister of Climate, Energy and Environment (head of the regional environmental office) and require a parking lot, a vehicle washing facility of 20 square meters or more, and at least 1 technical staff member such as an Industrial Engineer in Waste Treatment. Other waste falls under the Mayor or Do Governor.",
+      "branches": [
+        {
+          "when": "Collecting and transporting medical waste, which is a type of designated waste",
+          "then": "Also meet the medical waste standards, such as 3 or more refrigerated vehicles."
+        },
+        {
+          "when": "Handling only general business waste",
+          "then": "Submit the business plan to the Mayor or Do Governor and meet the equipment and technical capability standards for that business type."
+        }
+      ],
+      "docs": "Waste treatment business plan, collection and transport plan, facility and equipment specifications, proof of technical staff qualifications",
+      "period": "On the forms, 20 days for the business plan and 10 days for the permit application"
+    },
+    {
+      "id": "sit-wt-recycling",
+      "q": "How do I tell a waste recycling business permit apart from a disposal business permit when applying in Korea?",
+      "conclusion": "Waste treatment businesses are divided into 7 types: collection and transport; intermediate, final and comprehensive disposal; and intermediate, final and comprehensive recycling. You submit the business plan for the type that matches your treatment method. Attachments differ by type, so decide the type first.",
+      "branches": [
+        {
+          "when": "Recycling in a cement kiln (using waste as fuel) or an incineration heat recovery facility",
+          "then": "Also attach an environmental review report to the business plan."
+        },
+        {
+          "when": "Recycling household waste other than food waste",
+          "then": "This is excluded from the waste treatment business permit, so check whether a different procedure applies."
+        },
+        {
+          "when": "You want to haul waste yourself after obtaining a disposal or recycling permit",
+          "then": "You can collect and transport the waste you are permitted to treat yourself without a separate collection and transport permit."
+        }
+      ],
+      "docs": "Waste treatment business plan, recycling plan (including facility installation and plans to secure equipment and technical capability), environmental review report (if applicable), process flow chart",
+      "period": "On the forms, 30 days for the business plan and 10 days for the permit application; apply for the permit within 2 years of the suitability notice (3 years if installing an incineration facility)"
+    },
+    {
+      "id": "sit-wt-deadline",
+      "q": "We received a suitability notice in Korea, but facility construction is delayed. Will we miss the permit application deadline?",
+      "conclusion": "You must apply for the permit within 2 years of the suitability notice date (6 months for collection and transport, 3 years if incineration or landfill facilities must be installed). If there is an unavoidable reason such as a natural disaster, the application period may be extended.",
+      "branches": [
+        {
+          "when": "Construction was delayed for an unavoidable reason",
+          "then": "Before the deadline expires, prepare evidence of the reason and request an extension."
+        },
+        {
+          "when": "The deadline was missed because of ordinary preparation delays",
+          "then": "You cannot count on the suitability notice remaining effective, so build deadline management into the schedule from the start."
+        }
+      ],
+      "docs": "Suitability notice, facility installation progress records, evidence of the reason for an extension (if applicable)",
+      "period": "Within 2 years, 6 months or 3 years of the suitability notice (by business type and facility)"
+    },
+    {
+      "id": "sit-wt-period",
+      "q": "How long does a waste treatment business permit take in Korea, from submitting the business plan to receiving the permit?",
+      "conclusion": "On the forms, the business plan review takes 30 days (20 days for collection and transport) and the permit application 10 days. In between comes the time to install facilities and equipment and secure technical capability, so the overall schedule is longer.",
+      "branches": [
+        {
+          "when": "A collection and transport business that only needs equipment",
+          "then": "Secure vehicles and technical capability within 6 months of the suitability notice and file the permit application."
+        },
+        {
+          "when": "Building new disposal or recycling facilities",
+          "then": "Install the facilities and apply for the permit within 2 years of the suitability notice (3 years for incineration or landfill facilities)."
+        }
+      ],
+      "docs": "Waste treatment business plan, permit application, facility and equipment specifications, proof of technical staff qualifications",
+      "period": "On the forms, 30 days (20 days for collection and transport) plus 10 days; in practice, facility installation time is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-wt-cost",
+      "q": "Before working out the cost of a waste collection and transport permit in Korea, which equipment and staff do I need first?",
+      "conclusion": "The scope of preparation depends on the business type and target waste. Ask the city or province environment department or the regional environmental office about the permit application fee, and first draw up an acquisition plan that meets the facility, equipment and technical capability standards in the Enforcement Rule.",
+      "branches": [
+        {
+          "when": "A designated waste collection and transport business",
+          "then": "Provide a parking lot, a vehicle washing facility of 20 square meters or more, and at least 1 technical staff member such as an Industrial Engineer in Waste Treatment."
+        },
+        {
+          "when": "A medical waste collection and transport business",
+          "then": "Meet the medical waste standards, such as 3 or more refrigerated vehicles."
+        }
+      ],
+      "docs": "Collection and transport plan (plans to secure equipment and technical capability), facility and equipment specifications, proof of technical staff qualifications",
+      "period": "On the forms, 20 days for the business plan and 10 days for the permit application"
+    },
+    {
+      "id": "sit-wt-rejection",
+      "q": "In what cases does a waste treatment business plan in Korea fail to receive a suitability notice?",
+      "conclusion": "The business plan review looks at whether any disqualification applies, whether the facility site conflicts with other laws, whether facilities, equipment and technical capability meet the permit criteria, and whether the business affects the surrounding environment. If any one of these is a problem, a suitability notice is hard to obtain.",
+      "branches": [
+        {
+          "when": "The site may conflict with other laws",
+          "then": "First check the land use and regulations for the site and adjust the site plan in the business plan."
+        },
+        {
+          "when": "Facilities, equipment or technical capability fall short of the standards",
+          "then": "Revise the acquisition plan to meet the standards and submit the business plan."
+        }
+      ],
+      "docs": "Waste treatment business plan, disposal and recycling plan or collection and transport plan, site records",
+      "period": "On the form, 30 days for the business plan (20 days for collection and transport); in practice, it depends on whether supplementation is needed"
+    },
+    {
+      "id": "sit-wt-disqualification",
+      "q": "Can a corporation in Korea get a waste treatment permit if one of its officers has violated the Wastes Control Act?",
+      "conclusion": "A corporation with an officer or employee who falls under a disqualification cannot obtain the permit. Disqualifications include a person sentenced to imprisonment without labor or heavier for violating this Act for whom 10 years have not passed since the sentence was served, and a person for whom 10 years have not passed since a permit was revoked.",
+      "branches": [
+        {
+          "when": "An officer falls under a disqualification",
+          "then": "Reorganize the officers before submitting the business plan."
+        },
+        {
+          "when": "It is unclear whether the disqualification period has passed",
+          "then": "Check whether 10 years have passed from the date the sentence was served or the permit was revoked, then apply."
+        }
+      ],
+      "docs": "List of officers, corporate documents, waste treatment business plan",
+      "period": "Disqualification period: 10 years after the sentence was served or the permit was revoked"
+    },
+    {
+      "id": "sit-wt-change",
+      "q": "If the facilities or site of a permitted waste treatment business in Korea change, is that a change permit or a change report?",
+      "conclusion": "Changing material matters requires a change permit, and other matters set by the Enforcement Rule require a change report. For a change report, acceptance is notified within 20 days of receipt.",
+      "branches": [
+        {
+          "when": "The change concerns a material matter",
+          "then": "Apply to the permitting authority for a change permit before making the change."
+        },
+        {
+          "when": "The matter is subject to a change report",
+          "then": "File the change report with documents proving the change."
+        }
+      ],
+      "docs": "Change permit application or change report, documents proving the change",
+      "period": "Statutory: acceptance of a change report notified within 20 days; a change permit depends on the competent authority's review"
+    },
+    {
+      "id": "sit-wt-unlicensed",
+      "q": "What happens in Korea if I collect waste without a permit or borrow another company's permit?",
+      "conclusion": "Running a waste treatment business without a permit can be punished by imprisonment of up to 5 years or a fine of up to KRW 50 million. A waste treatment business must not let others treat waste under its name or trade name, or lend its permit.",
+      "branches": [
+        {
+          "when": "You are already collecting waste without a permit",
+          "then": "Stop operating and go through the procedure starting with the business plan suitability notice."
+        },
+        {
+          "when": "You want to work under a permitted company's name",
+          "then": "Lending a name or permit is prohibited, so obtain a permit in your own name."
+        }
+      ],
+      "docs": "Waste treatment business plan, permit application and attachments",
+      "period": "On the forms, 30 days for the business plan (20 days for collection and transport) and 10 days for the permit application"
+    },
+    {
+      "id": "sit-wt-agent",
+      "q": "If I hire an administrative agent for a waste treatment business permit in Korea, what do they handle?",
+      "conclusion": "Acting on your authorization, YouSun Administrative Agency drafts the business plan, permit application and attachments, reviews the requirements, files with the administrative authority and handles supplementation. We do not handle facility design or construction, environmental review reports or environmental impact assessments, or technical qualifications, and whether the permit is granted is decided by the competent authority.",
+      "branches": [
+        {
+          "when": "The business type and site are decided",
+          "then": "We compare against the standards for the business type, draft and file the business plan, manage the permit application deadline after the suitability notice, and file the permit application."
+        },
+        {
+          "when": "An environmental review report or facility design is needed",
+          "then": "We take the materials prepared by specialist institutions or qualified professionals and reflect them in the business plan and permit documents."
+        }
+      ],
+      "docs": "Site records, equipment and facility plans, technical staff qualification records, letter of authorization",
+      "period": "On the forms, 30 days for the business plan (20 days for collection and transport) and 10 days for the permit application",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-wt-permit",
+      "term": "Waste treatment business (폐기물처리업)",
+      "def": "Collecting and transporting, recycling or disposing of waste as a business; it is divided into 7 types (collection and transport; intermediate, final and comprehensive disposal; intermediate, final and comprehensive recycling) and requires a permit."
+    },
+    {
+      "id": "term-wt-business-plan",
+      "term": "Waste treatment business plan (폐기물 처리 사업계획서)",
+      "def": "The first-step document submitted before the permit, with attachments such as a collection and transport plan or a disposal and recycling plan (including facility installation and plans to secure equipment and technical capability)."
+    },
+    {
+      "id": "term-wt-suitability",
+      "term": "Suitability notice (적합통보)",
+      "def": "A notice, issued after reviewing the business plan, that it meets the permit criteria and other standards; the permit must be applied for within the set deadline from the date of receipt."
+    },
+    {
+      "id": "term-wt-designated",
+      "term": "Designated waste (지정폐기물)",
+      "def": "Business waste designated as harmful, such as waste oil and waste acid that can pollute the surrounding environment, or medical waste that can harm the human body; treatment business permits for it are handled by the Minister of Climate, Energy and Environment (regional environmental office)."
+    },
+    {
+      "id": "term-wt-technical",
+      "term": "Technical capability (기술능력)",
+      "def": "Staff holding qualifications such as Industrial Engineer in Waste Treatment, as set by the Enforcement Rule for each business type; together with facilities and equipment, it forms the permit criteria."
+    },
+    {
+      "id": "term-wt-env-survey",
+      "term": "Environmental review report (환경성조사서)",
+      "def": "A document additionally attached to the business plan when installing incineration or landfill facilities for a disposal business, or a cement kiln or incineration heat recovery facility for a recycling business."
+    },
+    {
+      "id": "term-wt-change",
+      "term": "Change permit and change report (변경허가·변경신고)",
+      "def": "The procedures for changing a permitted business: a change permit for material matters, and a change report for other matters set by the Enforcement Rule."
+    }
+  ]
+}

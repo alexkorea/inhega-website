@@ -1,0 +1,207 @@
+{
+ "slug": "academy-establishment-registration",
+ "lang": "en",
+ "label": "Private Academy (Hagwon) Registration",
+ "kw": "Hagwon registration agent in Korea",
+ "answer": "Private academy (hagwon) establishment registration (학원 설립 등록) is the registration filed with the Superintendent of Education (in practice, the competent district office of education, 교육지원청) by anyone who wants to run a facility teaching knowledge, skills or arts through courses of 30 days or more to 10 or more learners at the same time or to the general public, after setting up the facilities and equipment. Submit the hagwon establishment and operation registration application with the academy rules, a facility floor plan, proof of the right to use the premises and other documents; the processing period stated on the application form is 8 days. YouSun Administrative Agency prepares and files the hagwon establishment and operation registration application.",
+ "services": [
+  {"name": "Preparing and filing the hagwon establishment and operation registration application (학원설립ㆍ운영등록신청)", "href": "#term-ac-registration"},
+  {"name": "Drafting the academy rules (name, purpose of establishment, location, etc.) (원칙)", "href": "#term-ac-rules"},
+  {"name": "Pre-checking compliance with facility and equipment standards for each course (city or provincial ordinance) (시설·설비기준)", "href": "#term-ac-facility"},
+  {"name": "Preparing the facility floor plan and proof of the right to use the premises (시설평면도·사용권 증명서류)", "href": "#svc-glance"},
+  {"name": "Pre-checking grounds for disqualification of the founder-operator and corporate officers (결격사유)", "href": "#term-ac-disqualification"},
+  {"name": "Preparing copies of the articles of incorporation and board minutes for corporate-founded academies (정관·이사회회의록)", "href": "#sit-ac-corporation"},
+  {"name": "Organizing entries such as the instructor list and tuition and fees (강사명단·교습비등)", "href": "#term-ac-tuition"},
+  {"name": "Preparing documents in response to district office of education supplementation requests (보완 대응)", "href": "#sit-ac-supplement"},
+  {"name": "Applying for hagwon change registration (founder-operator, location, facilities and equipment, courses, etc.) (변경등록)", "href": "#term-ac-change"},
+  {"name": "Preparing and filing temporary suspension and closure reports (휴원·폐원 신고)", "href": "#sit-ac-closure"},
+  {"name": "Guidance on related permits such as a change of building use (건축물 용도변경)", "href": "#sit-ac-building"}
+ ],
+ "clients": [
+  "Individual directors opening a new tutoring or exam-prep hagwon",
+  "Companies running foreign language, arts or vocational skills education as a hagwon",
+  "Operators preparing a foreign language hagwon with foreign instructors",
+  "Existing hagwons needing change registration for a move, a change of director or added courses"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Facilities teaching knowledge, skills or arts through courses of 30 days or more to 10 or more learners at the same time or to the general public (school subject tutoring academies and lifelong vocational education academies)"},
+  {"label": "Requirements", "value": "Facility and equipment standards for each unit facility set by city or provincial ordinance for each course (fire safety facilities follow fire safety laws), no separate establishment of theory and practical courses, no grounds for disqualification of the founder-operator or corporate officers, and a suitable educational environment"},
+  {"label": "Process", "value": "Plan courses, instructors, tuition and facilities → Prepare facilities and equipment → Submit the registration application, academy rules and documents → Registration accepted after review of facility standards and educational environment → Hagwon establishment and operation registration certificate issued and posted"},
+  {"label": "Documents", "value": "Hagwon establishment and operation registration application, academy rules, hagwon facility floor plan, proof of the right to use the premises, copies of the articles of incorporation and board minutes on establishment (corporations)"},
+  {"label": "Timeline", "value": "Processing period of 8 days as stated on the application form (time for facility work and course preparation is separate)"}
+ ],
+ "chooser": [
+  {"label": "Opening a hagwon for the first time", "target": "sit-ac-how"},
+  {"label": "Checking facility standards before leasing premises", "target": "sit-ac-facility"},
+  {"label": "Establishing a hagwon in a company's name", "target": "sit-ac-corporation"},
+  {"label": "Planning to hire foreign instructors", "target": "sit-ac-foreign-teacher"},
+  {"label": "Moving or closing an existing hagwon", "target": "sit-ac-move"}
+ ],
+ "situations": [
+  {
+   "id": "sit-ac-how",
+   "q": "We are opening a tutoring hagwon in Korea for the first time. What is the step-by-step process for hagwon registration?",
+   "conclusion": "Plan your courses, instructors, tuition and facilities, set up the facilities and equipment, and then submit the registration application, academy rules and documents to the competent district office of education. If the facility standards and educational environment are met, registration is accepted and you receive a hagwon establishment and operation registration certificate to post at the hagwon.",
+   "branches": [
+    {"when": "You have not yet chosen the premises", "then": "First check the unit facility standards in the city or provincial ordinance and the educational environment, then choose the location."},
+    {"when": "You already have the premises and facilities", "then": "Prepare the facility floor plan and proof of the right to use the premises, and fill in capacity, the instructor list, tuition and fees and the planned opening date in the application."}
+   ],
+   "docs": "Hagwon establishment and operation registration application, academy rules, hagwon facility floor plan, proof of the right to use the premises",
+   "period": "Processing period of 8 days on the form / In practice, time for facility work and course preparation comes first",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-period",
+   "q": "How many days after applying for hagwon registration in Korea is the registration certificate issued?",
+   "conclusion": "The processing period stated on the registration application form is 8 days. Time for facility work and course preparation is separate, and any supplementation request adds to it.",
+   "branches": [
+    {"when": "Facility standards and documents are all in order", "then": "After registration is accepted, the hagwon establishment and operation registration certificate is issued."},
+    {"when": "Facilities, equipment or the educational environment do not meet the standards", "then": "Upgrade the facilities or correct the documents and undergo review again."}
+   ],
+   "docs": "Hagwon establishment and operation registration application, academy rules, facility floor plan, proof of the right to use the premises",
+   "period": "Processing period of 8 days on the form / In practice, depends on any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-cost",
+   "q": "How much does hagwon registration cost in Korea, and what should we prepare first?",
+   "conclusion": "Most of the preparation burden is the facilities. You need premises and equipment that meet the unit facility standards set by city or provincial ordinance for each course, and fire safety facilities follow fire safety laws.",
+   "branches": [
+    {"when": "You lease the premises", "then": "Check the facility standards and building use before signing the lease, and use the lease as proof of the right to use the premises."},
+    {"when": "There are experiment, practice or practical courses", "then": "These cannot be established separately from theory courses, so plan the necessary practice facilities within the same hagwon."}
+   ],
+   "docs": "Lease for the premises, facility floor plan, academy rules",
+   "period": "Processing period of 8 days on the form / In practice, facility work time is added",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-facility",
+   "q": "How do we check hagwon facility standards in Korea before signing a lease for commercial premises?",
+   "conclusion": "Hagwon facility standards are not a single national figure but unit facility standards set by city or provincial ordinance for each course. Checking the relevant ordinance and the suitability of the educational environment before signing reduces the risk of rejection at registration.",
+   "branches": [
+    {"when": "The premises meet the relevant city or provincial ordinance standards", "then": "Draw the floor plan to those standards and apply."},
+    {"when": "The building use or fire safety facilities do not fit", "then": "Review whether a change of building use or fire safety upgrades are needed first."}
+   ],
+   "docs": "Building details (the building register is checked through shared administrative information), draft facility floor plan, draft lease",
+   "period": "In practice, the pre-lease review period varies with the district office of education and the condition of the facilities",
+   "href": "#term-ac-facility"
+  },
+  {
+   "id": "sit-ac-corporation",
+   "q": "How does establishing a hagwon in a company's name in Korea differ from doing so as an individual?",
+   "conclusion": "A corporation additionally attaches copies of its articles of incorporation and the board minutes on establishment. Registration is also not possible if any corporate officer falls under grounds for disqualification.",
+   "branches": [
+    {"when": "No officer falls under grounds for disqualification", "then": "Attach copies of the articles of incorporation and board minutes; the corporate register extract is checked by the official through shared administrative information."},
+    {"when": "An officer falls under grounds for disqualification after registration", "then": "If that officer is replaced within 3 months, the registration remains valid."}
+   ],
+   "docs": "Hagwon establishment and operation registration application, academy rules, facility floor plan, proof of the right to use the premises, copy of the articles of incorporation, copy of the board minutes on establishment",
+   "period": "Processing period of 8 days on the form",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-disqualification",
+   "q": "Our hagwon registration was cancelled in the past. Can we register a hagwon in Korea again?",
+   "conclusion": "If less than 1 year has passed since the date of cancellation, this is a ground for disqualification and you cannot register. The Superintendent of Education may also refuse registration for the same course at the same location within 1 year of the cancellation disposition.",
+   "branches": [
+    {"when": "1 year has passed since the cancellation", "then": "Check that no other grounds for disqualification apply and file a new registration."},
+    {"when": "Less than 1 year has passed and you want the same location and course", "then": "This is a ground for refusal, so reschedule."}
+   ],
+   "docs": "Hagwon establishment and operation registration application, academy rules, facility floor plan, proof of the right to use the premises",
+   "period": "Apply after 1 year from the cancellation date; then the 8-day processing period on the form applies",
+   "href": "#term-ac-disqualification"
+  },
+  {
+   "id": "sit-ac-foreign-teacher",
+   "q": "What documents must we obtain to hire native-speaker instructors when registering a foreign language hagwon in Korea?",
+   "conclusion": "For foreign instructors, obtain and verify a criminal record check, a health certificate issued within 1 month (including cannabis and drug tests) and proof of academic qualifications before hiring, and keep copies of the passport and visa. Instructors' personal details must be posted at the hagwon.",
+   "branches": [
+    {"when": "The instructor holds the foreign language instructor status of stay (회화지도)", "then": "Submission of the criminal record check can be omitted."},
+    {"when": "The instructor holds another status of stay", "then": "Obtain and verify all documents, including the criminal record check."}
+   ],
+   "docs": "Criminal record check, health certificate (within 1 month), proof of academic qualifications, copy of passport, copy of visa",
+   "period": "In practice, depends on the time needed to obtain overseas documents",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-gyoseupso",
+   "q": "I want to teach on a small scale by myself. Should I file a tutoring center report rather than hagwon registration in Korea?",
+   "conclusion": "A hagwon is a facility teaching 10 or more learners at the same time or the general public for 30 days or more. Tutoring centers (교습소) and private tutors (개인과외교습자) are subject to separate reports distinct from hagwons, so decide your operating format first.",
+   "branches": [
+    {"when": "You teach 10 or more learners at the same time or the general public for 30 days or more", "then": "File hagwon establishment and operation registration."},
+    {"when": "It is small-scale teaching that does not qualify as a hagwon", "then": "Review, against the competent district office of education's criteria, whether a tutoring center report or a private tutor report applies."}
+   ],
+   "docs": "Operating plan (number of learners, subjects, period), proof of the right to use the premises",
+   "period": "Hagwon registration has a processing period of 8 days on the form",
+   "href": "#term-ac-academy"
+  },
+  {
+   "id": "sit-ac-supplement",
+   "q": "What should we do if the district office of education asks for supplementation after we apply for hagwon registration in Korea?",
+   "conclusion": "Supplementation requests mostly concern unmet facility and equipment standards or educational environment, a missing floor plan or proof of right of use, or separate establishment of theory and practical courses. Split the requested items into facility upgrades and document corrections and handle each.",
+   "branches": [
+    {"when": "Documents are missing", "then": "Correct and submit missing documents such as the facility floor plan and proof of the right to use the premises."},
+    {"when": "The facilities fall short of the standards", "then": "Fix the facilities, then draw and submit a new floor plan."}
+   ],
+   "docs": "Supplementation request, revised facility floor plan, proof of the right to use the premises",
+   "period": "In practice, depends on what must be supplemented",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-move",
+   "q": "If we move our operating hagwon to another building in Korea, do we need to register again?",
+   "conclusion": "Changing the hagwon's location and facilities and equipment requires change registration. Changes of the founder-operator and of courses, the instructor list and tuition and fees are also subject to change registration.",
+   "branches": [
+    {"when": "You move to a new location", "then": "Apply for change registration with the facility floor plan and proof of the right to use the new premises."},
+    {"when": "The director (founder-operator) changes", "then": "Check the new founder-operator for grounds for disqualification and file change registration."}
+   ],
+   "docs": "Change registration application, hagwon establishment and operation registration certificate, facility floor plan and proof of the right to use the new premises (when moving)",
+   "period": "Depends on the competent district office of education's review",
+   "href": "#term-ac-change"
+  },
+  {
+   "id": "sit-ac-closure",
+   "q": "Do we need to file a report to close our hagwon in Korea for a month or two, or to shut it down?",
+   "conclusion": "To suspend operations for 1 month or more or to close, report to the Superintendent of Education (the competent district office of education) without delay.",
+   "branches": [
+    {"when": "You suspend operations for 1 month or more", "then": "File a temporary suspension report without delay."},
+    {"when": "You close the hagwon", "then": "File a closure report and settle the registration certificate."}
+   ],
+   "docs": "Temporary suspension or closure report, hagwon establishment and operation registration certificate",
+   "period": "Report without delay once the reason arises",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-agent",
+   "q": "If we hire an administrative agent for hagwon registration in Korea, what exactly do they handle?",
+   "conclusion": "YouSun Administrative Agency pre-reviews facility standards and grounds for disqualification, drafts the registration application and academy rules, prepares attachments, files with the district office of education and handles supplementation, and files change registrations and temporary suspension and closure reports. Acceptance of registration is decided by the Superintendent of Education.",
+   "branches": [
+    {"when": "You have not yet chosen the premises", "then": "The agency first reviews the city or provincial ordinance facility standards and the building use."},
+    {"when": "The facilities are ready", "then": "The agency organizes and files the application, academy rules, floor plan and right-of-use documents."}
+   ],
+   "docs": "Copy of ID, lease, facility drawings, instructor list, tuition plan, letter of authorization",
+   "period": "Processing period of 8 days on the form / In practice, depends on facility preparation and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ac-building",
+   "q": "If the building's registered use does not suit a hagwon, what must we do before registration in Korea?",
+   "conclusion": "The building register is checked through shared administrative information during the registration review, so if the use does not suit a hagwon, first review a change of building use before registration. For hagwons in applicable facilities, an electrical safety inspection certificate is also checked.",
+   "branches": [
+    {"when": "The building use suits a hagwon", "then": "Set up the facilities and equipment and apply for registration right away."},
+    {"when": "The building use does not suit a hagwon", "then": "Complete the change of building use report or permit first, then register the hagwon."}
+   ],
+   "docs": "Building details, facility floor plan, change of use documents",
+   "period": "In practice, the change of use period comes before hagwon registration",
+   "href": "#sit-ac-facility"
+  }
+ ],
+ "glossary": [
+  {"id": "term-ac-academy", "term": "Hagwon, private academy (학원)", "def": "A facility in which a private person teaches knowledge, skills or arts through courses of 30 days or more to 10 or more learners at the same time or to the general public; divided into school subject tutoring academies and lifelong vocational education academies."},
+  {"id": "term-ac-registration", "term": "Hagwon establishment and operation registration (학원설립ㆍ운영등록)", "def": "Registration filed with the Superintendent of Education by anyone intending to establish and run a hagwon after setting up the facilities and equipment; once accepted, a hagwon establishment and operation registration certificate is issued."},
+  {"id": "term-ac-rules", "term": "Academy rules (원칙, 院則)", "def": "A document setting out basic operating matters such as the hagwon's name, purpose of establishment and location, attached to the registration application."},
+  {"id": "term-ac-facility", "term": "Unit facility standards (단위시설별 기준)", "def": "Facility and equipment standards set by city or provincial ordinance for each course, which a hagwon must meet and maintain."},
+  {"id": "term-ac-tuition", "term": "Tuition and fees (교습비등)", "def": "Tuition and other charges entered in the registration application; changing them requires change registration."},
+  {"id": "term-ac-disqualification", "term": "Grounds for disqualification (결격사유)", "def": "Grounds on which a hagwon cannot be registered, such as being under adult guardianship or limited guardianship, undischarged bankruptcy, less than 3 years since completing a sentence of imprisonment without labor or heavier, or less than 1 year since the date of registration cancellation."},
+  {"id": "term-ac-change", "term": "Change registration (변경등록)", "def": "Registration filed when the founder-operator, location, facilities and equipment, courses, instructor list or tuition and fees change."}
+ ]
+}

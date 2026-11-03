@@ -1,0 +1,185 @@
+{
+  "slug": "residential-lodging-business-report",
+  "lang": "en",
+  "label": "Residential lodging business report",
+  "kw": "Residential lodging business report agent in Korea",
+  "answer": "A residential lodging business report (생활숙박업 신고) is a lodging business report, not a permit, filed with the mayor, county head or district head where the facility is located by anyone who wants to provide lodging services in a residential lodging facility with cooking facilities, after meeting the lodging (residential) facility standards. You complete 3 hours of hygiene training before filing and submit the report with the outline of business facilities and equipment and proof of the right to use them; the business report certificate is issued immediately, and where needed the facilities are checked within 30 days of issue. YouSun Administrative Agency prepares and files the residential lodging business report on your behalf.",
+  "services": [
+    {"name": "Preparing the lodging (residential) business report (숙박업(생활) 영업신고서) and filing it with the si/gun/gu", "href": "#term-rld-business-type"},
+    {"name": "Pre-review of the use on the building register and the lodging (residential) facility standards", "href": "#sit-rld-building-use"},
+    {"name": "Preparing the outline of business facilities and equipment (영업시설 및 설비개요서)", "href": "#term-rld-facility-summary"},
+    {"name": "Reviewing the room count and floor area standards when reporting part of a building", "href": "#sit-rld-partial"},
+    {"name": "Preparing attachments such as proof of the right to use the premises and the liability insurance certificate (배상책임보험증서)", "href": "#term-rld-liability"},
+    {"name": "Guidance on scheduling the hygiene training (위생교육)", "href": "#term-rld-hygiene-education"},
+    {"name": "Preparing and filing the report of succession to business operator status (영업자 지위승계 신고)", "href": "#term-rld-succession"},
+    {"name": "Preparing and filing change reports and closure reports", "href": "#sit-rld-closure"},
+    {"name": "Preparing for the facility and equipment check after the business report certificate is issued", "href": "#term-rld-certificate"},
+    {"name": "Handling supplement requests from the competent authority", "href": "#svc-glance"}
+  ],
+  "clients": [
+    "Individual owners who bought a unit in a residential lodging facility and want to run it as lodging",
+    "Corporations that want to operate a lodging (residential) business in a serviced residence building",
+    "Building owners who want to use some floors of their building for residential lodging",
+    "Operators taking over or closing a residential lodging business already in operation"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Lodging (residential) businesses that provide facility and equipment services, including cooking facilities, so that guests can sleep and stay: residential lodging facilities"},
+    {"label": "Requirements", "value": "Business premises in an independent place or separated from other uses; cooking facilities and ventilation facilities or windows; a bathroom or shower room in each guest room / for part of a building: separate floors, 30 or more rooms, or a business area of at least one third of the total floor area / 3 hours of hygiene training completed in advance"},
+    {"label": "Process", "value": "Check the building register use and facility standards → complete 3 hours of hygiene training → submit the business report and documents → immediate issue of the business report certificate → facility and equipment check (within 30 days of issue)"},
+    {"label": "Documents", "value": "Lodging business report, outline of business facilities and equipment, proof of the right to use the premises, hygiene training completion certificate, and for part of a building, land and building certified register extracts and a liability insurance certificate (or notarized document)"},
+    {"label": "Timeline", "value": "Business report certificate issued immediately; facility and equipment check within 30 days of issue"}
+  ],
+  "chooser": [
+    {"label": "You want to operate a residential lodging unit you bought", "target": "sit-rld-permit-or-report"},
+    {"label": "You want to use only part of a building for lodging", "target": "sit-rld-partial"},
+    {"label": "You have not completed hygiene training yet", "target": "sit-rld-education"},
+    {"label": "You are taking over a business in operation", "target": "sit-rld-transfer"},
+    {"label": "You want to close the business", "target": "sit-rld-closure"}
+  ],
+  "situations": [
+    {
+      "id": "sit-rld-permit-or-report",
+      "q": "I bought a unit in a residential lodging facility in Korea. Do I need a permit to run it as lodging?",
+      "conclusion": "It is subject to a lodging business report, not a permit. A residential lodging facility is a facility that must file a lodging business report and meets the requirements announced by the Minister of Land, Infrastructure and Transport (국토교통부장관), so you meet the lodging (residential) facility standards and file the report with the mayor, county head or district head.",
+      "branches": [
+        {"when": "You will operate the rooms yourself", "then": "Complete the hygiene training and submit the business report with the outline of business facilities and equipment and proof of the right to use them."},
+        {"when": "You will operate only some rooms in the building", "then": "First check whether you meet the standards for reporting part of a building (one of: separate floors, 30 or more rooms, or at least one third of the total floor area)."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-rld-cooking",
+      "q": "Can a serviced residence with kitchens in the rooms be reported as a general lodging business in Korea?",
+      "conclusion": "Lodging (general) is a lodging service that excludes cooking facilities, and including cooking facilities makes it lodging (residential). If you operate with cooking facilities in the rooms, report it as lodging (residential).",
+      "branches": [
+        {"when": "The rooms have cooking facilities", "then": "Under the lodging (residential) facility standards, also provide ventilation facilities or windows and a bathroom or shower room in each room."},
+        {"when": "The rooms have no cooking facilities", "then": "Consider reporting it as lodging (general)."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first"
+    },
+    {
+      "id": "sit-rld-partial",
+      "q": "What standards must we meet to report only some floors of a building as a residential lodging business in Korea?",
+      "conclusion": "A lodging business covering part of a building requires the rooms to occupy separate floors, or 30 or more rooms, or a business area of at least one third of the building's total floor area. The business premises must also be separated from facilities and equipment used for other purposes.",
+      "branches": [
+        {"when": "The rooms occupy separate floors", "then": "Separate the business premises by floor and show this in the outline of facilities and equipment."},
+        {"when": "You operate rooms without dividing by floor", "then": "Calculate from the drawings and building register whether there are 30 or more rooms or the business area is at least one third of the total floor area."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance), land and building certified register extracts, insurance certificate covering the operator's liability for accidents in common areas or a notarized document on bearing that liability",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first"
+    },
+    {
+      "id": "sit-rld-docs",
+      "q": "What extra documents are needed for a residential lodging business report in Korea when only part of the building is reported?",
+      "conclusion": "In addition to the basic documents, attach the land and building certified register extracts and an insurance certificate covering the operator's liability for incidents and accidents in common areas (or a notarized document on bearing that liability). The building register and land use plan confirmation are checked through shared administrative information.",
+      "branches": [
+        {"when": "The whole building is used for lodging", "then": "Submit the business report, outline of facilities and equipment, proof of the right to use them and the training completion certificate."},
+        {"when": "The premises are subject to electrical safety inspection", "then": "Also prepare the electrical safety inspection certificate."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance), land and building certified register extracts, insurance certificate covering the operator's liability for accidents in common areas or a notarized document on bearing that liability",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first"
+    },
+    {
+      "id": "sit-rld-period",
+      "q": "When do I receive the business report certificate after filing a residential lodging business report in Korea?",
+      "conclusion": "The mayor, county head or district head who receives the report issues the business report certificate immediately. If the premises' facilities and equipment need checking, this is done within 30 days of issue.",
+      "branches": [
+        {"when": "The facility standards and documents are in order", "then": "You receive the business report certificate on filing, then prepare for the facility check."},
+        {"when": "The facility check finds a shortfall in the standards", "then": "Fix the facilities pointed out, such as cooking, ventilation or bathroom facilities."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first"
+    },
+    {
+      "id": "sit-rld-cost",
+      "q": "What should I check to estimate the cost of a residential lodging business report in Korea?",
+      "conclusion": "What you must have in place before filing drives the cost more than the report itself. Hygiene training costs are separate, and you need cooking, ventilation and bathroom facilities that meet the lodging (residential) facility standards and, when reporting part of a building, liability insurance.",
+      "branches": [
+        {"when": "You use the whole building", "then": "First check whether the facility standards are met and schedule the hygiene training."},
+        {"when": "You use part of the building", "then": "Build preparing the liability insurance certificate or notarized document into your schedule."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance), land and building certified register extracts, insurance certificate covering the operator's liability for accidents in common areas or a notarized document on bearing that liability",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first"
+    },
+    {
+      "id": "sit-rld-education",
+      "q": "I have not completed hygiene training yet. Can I file the residential lodging business report in Korea first?",
+      "conclusion": "A person who intends to file a lodging business report must complete 3 hours of hygiene training in advance. If there are unavoidable reasons, it can be completed within 6 months after filing.",
+      "branches": [
+        {"when": "You can schedule the training", "then": "Complete the training first and attach the completion certificate to the report."},
+        {"when": "You could not complete it in advance for unavoidable reasons", "then": "Complete the training within 6 months after filing."}
+      ],
+      "docs": "Hygiene training completion certificate, lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "Hygiene training 3 hours / where unavoidable, within 6 months after filing"
+    },
+    {
+      "id": "sit-rld-building-use",
+      "q": "Do I really need to check that the building register lists the use as a residential lodging facility before filing in Korea?",
+      "conclusion": "The competent authority checks the building register and land use plan confirmation through shared administrative information, so check the use on the building register before filing. Check the terms of your sales contract separately as well.",
+      "branches": [
+        {"when": "The building register shows lodging facility use", "then": "Check the facility standards, then prepare the report documents."},
+        {"when": "It shows a different use", "then": "First review whether a change of building use is possible. Change-of-use design and fire safety installations are handled by the relevant professionals."}
+      ],
+      "docs": "Building register (checked through shared information), land use plan confirmation (checked through shared information), lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "In practice, it depends on the time to confirm the use and prepare the facilities"
+    },
+    {
+      "id": "sit-rld-unreported",
+      "q": "What happens if I run lodging in a residential lodging facility in Korea without filing a report?",
+      "conclusion": "Running a lodging business without a report is punishable by imprisonment of up to 2 years or a fine of up to KRW 20 million. Complete the lodging (residential) report before you start operating.",
+      "branches": [
+        {"when": "You are already operating", "then": "Check the facility standards, complete the hygiene training and file the report documents right away."},
+        {"when": "You are planning to operate", "then": "Schedule the start of operations for after you receive the report certificate."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first"
+    },
+    {
+      "id": "sit-rld-transfer",
+      "q": "If I take over a residential lodging business in operation in Korea, do I need to file a new report?",
+      "conclusion": "When you acquire a business, you succeed to the operator's status and file a report of succession to status with the mayor, county head or district head within 1 month of the succession date. The same applies if you took over all facilities and equipment through an auction or similar process.",
+      "branches": [
+        {"when": "You take over through a transfer agreement", "then": "File the report of succession to status with copies of documents proving the transfer."},
+        {"when": "You took over all facilities through an auction or sale of seized property", "then": "File the report of succession to status with documents proving the takeover."}
+      ],
+      "docs": "Report of succession to business operator status, copies of documents proving the transfer",
+      "period": "Within 1 month of the succession date"
+    },
+    {
+      "id": "sit-rld-closure",
+      "q": "I want to close my residential lodging business in Korea. By when must I file a closure report?",
+      "conclusion": "File a closure report with the mayor, county head or district head within 20 days of the closure date. A closure report cannot be filed during a business suspension or similar period.",
+      "branches": [
+        {"when": "You close while operating normally", "then": "Submit the closure report within 20 days of the closure date."},
+        {"when": "You have filed a closure report with the tax office", "then": "The mayor, county head or district head may cancel the report ex officio, but it is safer to file a separate closure report within the deadline."}
+      ],
+      "docs": "Closure report",
+      "period": "Within 20 days of the closure date"
+    },
+    {
+      "id": "sit-rld-agent",
+      "q": "If I hire an administrative agent for a residential lodging business report in Korea, what will they handle?",
+      "conclusion": "The agent covers pre-review of the building register use and the lodging (residential) facility standards, preparing the business report and the outline of business facilities and equipment, preparing attachments, filing with the si/gun/gu and handling supplement requests, and succession and closure reports. Change-of-use design, fire safety installations and advice on sales contracts are not covered.",
+      "branches": [
+        {"when": "You are filing for the first time", "then": "The agent checks the facility standards and the part-of-building standards and prepares the documents in line with your hygiene training schedule."},
+        {"when": "You are taking over or closing a business", "then": "The agent prepares and files the documents within the deadline for the succession report or closure report."}
+      ],
+      "docs": "Lodging business report, outline of business facilities and equipment, proof of the right to use the business facilities and equipment, hygiene training completion certificate (if completed in advance)",
+      "period": "Business report certificate issued immediately; facility and equipment check within 30 days of issue / in practice, time for hygiene training and facility work comes first",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-rld-facility", "term": "Residential lodging facility (생활숙박시설)", "def": "A lodging facility that must file a lodging business report and meets the requirements set and announced by the Minister of Land, Infrastructure and Transport."},
+    {"id": "term-rld-business-type", "term": "Lodging (residential) business (숙박업(생활))", "def": "A business providing facility and equipment services, including cooking facilities, so that guests can sleep and stay."},
+    {"id": "term-rld-general", "term": "Lodging (general) business (숙박업(일반))", "def": "A business providing facility and equipment services, excluding cooking facilities, so that guests can sleep and stay."},
+    {"id": "term-rld-certificate", "term": "Business report certificate (영업신고증)", "def": "A certificate issued immediately by the mayor, county head or district head who receives the lodging business report. Where needed, the premises' facilities and equipment are checked within 30 days of issue."},
+    {"id": "term-rld-hygiene-education", "term": "Hygiene training (위생교육)", "def": "3 hours of training that a person intending to file a lodging business report must complete in advance; where there are unavoidable reasons, it is completed within 6 months after filing."},
+    {"id": "term-rld-facility-summary", "term": "Outline of business facilities and equipment (영업시설 및 설비개요서)", "def": "A document attached to the lodging business report describing the facilities and equipment of the business premises."},
+    {"id": "term-rld-liability", "term": "Liability insurance certificate (배상책임보험증서)", "def": "An insurance certificate attached when reporting a lodging business in part of a building, covering the operator's liability for incidents and accidents in common areas."},
+    {"id": "term-rld-succession", "term": "Succession to business operator status (영업자 지위승계)", "def": "Taking over the former operator's status by a person who acquires, inherits or merges a lodging business or takes over all its facilities and equipment through an auction or similar process; it is reported within 1 month."}
+  ]
+}

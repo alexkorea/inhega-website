@@ -83,6 +83,238 @@
 - 健康機能食品の輸入・販売 (https://inhega.co.kr/ja/services/health-food): 健康機能食品一般販売業の申告（건강기능식품일반판매업 신고）; 健康機能食品流通専門販売業の申告（自社商標の委託生産製品）（건강기능식품유통전문판매업 신고）; オーダーメイド健康機能食品販売業の申告（맞춤형건강기능식품판매업 신고）; 健康機能食品専門製造業・ベンチャー製造業の営業許可（건강기능식품전문제조업·벤처제조업 영업허가）; 品目製造申告の書類作成（품목제조신고）; 品質管理人の選任申告と優秀健康機能食品製造基準（GMP）の準備案内（품질관리인 선임신고·우수건강기능식품제조기준）; 輸入食品等輸入・販売業の営業登録（수입식품등 수입·판매업 영업등록）; 個別認定型機能性原料の認定申請手続きの案内（개별인정형 원료 인정 신청）; 営業前の安全衛生教育の受講案内（영업 전 안전위생교육）; 営業所の移転・代表者の変更などの変更申告と廃業申告（변경신고·폐업 신고）
 - 工場設立・工場登録 (https://inhega.co.kr/ja/services/factory): 工場立地の検討（用途地域・許認可みなし対象の確認）（공장 입지 검토·인허가 의제）; 工場設立等の承認申請（新設・増設・業種変更）（공장설립등의 승인）; 産業団地の入居契約申請書類の準備（산업단지 입주계약）; 工場設立等の完了申告（공장설립등의 완료신고）; 工場登録申請（工場建築面積500平方メートル未満の工場・賃借工場を含む）（공장등록）; 工場の変更登録（商号・代表者・業種・面積の変更）（공장 변경등록）; 工場登録証明書・工場登録台帳謄本の発行案内（공장등록증명서·공장등록대장 등본）; 外国人投資企業の工場設立手続きの案内（외국인투자기업 공장설립）; 建築物の用途変更との連携検討（건축물 용도변경）
 
+## 항목별 처리 업무 (Services handled per item)
+
+유선행정사사무소(YouSun Administrative Agency, 서울 중구 퇴계로 324 3층, +82-2-363-2251, 평일 09:30~17:30)가 업무 항목별로 처리하는 업무입니다. 각 페이지에 핵심 답변·처리 업무·한눈에 보기·상황별 질문·용어 설명·사무소 안내가 있습니다.
+
+### 한국어 — 항목별 처리 업무
+- 학원 설립 등록 (https://inhega.co.kr/services/academy-establishment-registration): 학원설립ㆍ운영등록신청서 작성·제출 대행; 원칙(院則) 작성(학원 명칭·설립목적·위치 등); 교습과정별 시설·설비기준(시·도 조례) 충족 여부 사전 검토; 학원 시설평면도·교습장소 사용권 증명서류 준비; 설립·운영자와 법인 임원의 결격사유 사전 점검; 법인 설립 학원의 정관·이사회회의록 사본 준비; 강사명단·교습비등 기재사항 정리; 교육지원청 보완 요구 대응 서류 작성; 학원 변경등록(설립·운영자·위치·시설과 설비·교습과정 등) 신청; 휴원·폐원 신고서 작성·제출; 건축물 용도변경 등 관련 인허가 연계 안내
+- 숙박업 영업신고 (https://inhega.co.kr/services/accommodation-business-report): 숙박업 영업신고서 작성·제출 대행; 숙박업(일반)·숙박업(생활) 구분과 시설·설비기준 사전 검토; 영업시설 및 설비개요서 작성; 시설 사용 권리 확보 증명서류(건물 일부 숙박업은 배상책임보험증서·공증서류) 준비; 신고 전 위생교육 이수 일정 안내; 시군구청 보완 요구 대응 서류 작성; 영업신고사항 변경신고(면적 3분의 1 이상 증감·업종 간 변경 등); 영업자 지위승계 신고·폐업신고; 영업신고증 재교부 신청; 외국인관광 도시민박업·한옥체험업·건축물 용도변경 등 관련 인허가 연계 안내
+- 미용업 영업신고 (https://inhega.co.kr/services/beauty-salon-business-report): 미용업 영업신고서 작성·제출 대행; 영업시설 및 설비개요서 작성; 미용업 종류(일반·피부·네일·화장분장·종합) 구분 검토; 시설·설비기준과 면허·위생교육 이수 여부 사전 검토; 영업신고사항 변경신고(상호·주소·면적·대표자·업종 추가); 영업자 지위승계 신고; 폐업신고서 작성·제출; 영업신고증 재교부 신청; 보완 요구 대응 서류 준비
+- 건축물 용도변경 (https://inhega.co.kr/services/building-usage): 현재·변경 용도의 시설군 판정과 허가·신고·기재변경 구분 검토; 용도지역·지구 입지 사전 검토(토지이용계획 확인); 건축·대수선·용도변경 허가 신청서 작성·제출 대행; 건축·대수선·용도변경 신고서 작성·제출 대행; 건축물대장 기재내용 변경 신청; 첨부도서 취합과 건축사 설계 대상(바닥면적 500제곱미터 이상) 여부 확인; 관할 건축 부서 접수와 보완 대응; 사용승인 준용 대상 확인과 사용승인 절차 연계; 위반건축물 시정명령 대응을 위한 용도변경 신청; 용도변경 후 영업 인허가(숙박·음식점·공장등록 등) 연계 안내
+- 야영장업 등록 (https://inhega.co.kr/services/campground-business-registration): 관광사업(야영장업) 등록신청서 작성·제출 대행; 사업계획서·시설별 일람표 작성; 등록기준(입지·안전시설·관리요원·면적) 충족 여부 사전 검토; 일반야영장업·자동차야영장업 구분 검토; 건축·농지·산지 등 다른 법령 인허가 연계 안내; 사용전점검 확인증·수질검사성적서 등 첨부서류 준비; 야영장업 변경등록 신청(부지 면적·시설 설치·폐지·상호·대표자); 관광사업자 지위승계 신고; 책임보험 가입 시점과 안전·위생기준 점검 안내; 보완 요구 대응 서류 준비
+- 자동차매매업·자동차대여사업 등록 (https://inhega.co.kr/services/car-dealer-rental-business-registration): 자동차관리사업(자동차매매업) 등록신청서 작성·제출 대행; 자동차대여사업 등록신청서 작성·제출 대행; 사업계획서(소요자금·종사원 확보계획 포함) 작성; 전시시설 면적·사무실 위치 등 매매업 등록기준 충족 여부 사전 검토; 보유 대수·차고·사무실 등 대여사업 등록기준 사전 검토; 사업장 위치도·평면도, 차고 부지 사용권 증명 등 첨부서류 준비; 대표자·법인 임원 결격사유 해당 여부 사전 검토; 시설 확보기간 통지 이후 서류 제출과 보완 대응; 자동차매매업 변경등록 신청서 작성·제출; 사업장 소재지 지방자치단체 조례 기준 확인 안내
+- 건설업 등록 (https://inhega.co.kr/services/construction-business-registration): 건설업등록신청서 작성·제출 대행; 업종 선택과 등록기준(기술능력·자본금·시설 및 장비·사무실) 충족 여부 사전 검토; 기술인력 보유현황 서류 정리; 보증가능금액확인서 발급 절차 안내와 첨부; 사무실 기준 확인과 임대차계약서 사본 준비; 건설공사용 시설 현황 서류 준비; 설립·임원 결격사유 사전 점검; 외국인·외국법인 등록 신청 서류 준비; 접수 기관 보완 요구·실제 확인 대응 서류 작성; 등록증 기재사항 변경 신청(30일 이내); 건설업 양도 신고 서류 작성
+- 협동조합 설립신고 (https://inhega.co.kr/services/cooperative-establishment-report): 협동조합 설립신고서 작성·제출 대행; 정관 작성(목적·명칭·조합원 자격·출자 1좌 금액과 납입 방법·사업 범위 등 기재사항 검토); 창립총회 개최 공고문·창립총회 의사록 작성; 발기인 및 설립동의서 제출자 명부·임원 명부 작성; 사업계획서·수입·지출 예산서 작성; 출자 1좌당 금액과 조합원별 출자좌수 서류 작성; 시·도 보완 요구 대응; 신고사항 변경신고; 신고수리 후 출자금 납입·설립등기 일정 안내; 사회적협동조합 설립인가 대상 여부 검토
+- 환전업 등록 (https://inhega.co.kr/services/currency-exchange): 환전업무 등록신청서 작성·제출 대행; 영업장·전산설비 요건 사전 점검; 신청인·법인 임원 결격사유(등록취소 후 3년) 확인; 환전업무 취급 범위 설정 검토; 관할 세관 접수와 보완 대응; 명칭·영업소 소재지·취급 범위 변경신고; 환전업무 폐지신고; 소액해외송금업무 등 겸영 시 업무별 등록 안내; 자금세탁방지 의무(고객확인·의심거래보고·고액현금거래보고) 안내
+- 개발행위허가·농지전용허가 (https://inhega.co.kr/services/development-act-farmland-conversion-permit): 대상 토지의 용도지역·지목·농업진흥지역 여부와 의제 관계 사전 검토; 개발행위허가신청서 작성·제출 대행; 농지전용허가신청서와 사업계획서 작성·제출 대행; 농지전용신고서 작성·제출(농업인 주택·농축산업용 시설 등); 인근 농지 피해방지계획서 작성; 농지보전부담금 분할납부신청서 작성; 개발행위허가 기준(규모·계획 적합성) 충족 여부 검토; 관계 행정기관 협의·보완 요구 대응; 변경허가 신청과 경미한 변경 통지; 준공검사 신청 서류 준비
+- 소독업 신고 (https://inhega.co.kr/services/disinfection-business-report): 소독업 신고서 작성·제출 대행; 시설·장비 및 인력 명세서 작성; 사무실·창고 구획과 환기·잠금 설비 등 시설 기준 사전 검토; 살포기·연막소독기·분무기·보호구 등 장비 기준 충족 여부 점검표 준비; 소독업무 종사자 확보 요건 검토; 소독업 신고사항 변경신고서 작성·제출; 휴업·폐업·재개업 신고서 작성·제출; 신고 후 소독 교육 이수 기한 안내; 건물위생관리업 등 공중위생영업과의 해당 법령 구분 검토; 신고 보완 요구 대응
+- 초경량비행장치사용사업 등록 (https://inhega.co.kr/services/drone-business-registration): 초경량비행장치사용사업 등록신청서 작성·제출 대행; 사업계획서 작성(사업목적·범위, 안전관리대책, 장비·인력 개요, 사업 개시 예정일); 등록요건(조종자·장치·보험·자본금) 충족 여부 사전 검토; 등록요건 충족 증명서류 정리; 타인 부동산 사용 증명서류 준비; 결격사유 해당 여부 확인; 서류 미비 보완 요구 대응; 등록사항 변경신고(자본금 감소, 사업소, 대표자·상호·사업 범위 변경)
+- 전자담배 수입 등록 (https://inhega.co.kr/services/ecig): 담배수입판매업등록신청서 작성·제출 대행(전자담배·니코틴 액상); 제품의 담배 해당 여부(연초·니코틴 원료, 의약품·의약외품 제외) 서류 검토; 결격사유 사전 검토(법인 대표자 포함); 외국 담배제조업자와의 공급계약서 첨부 요건 검토; 등록증 수령과 보완 대응; 판매가격 신고서 작성·제출; 니코틴 용액 용량·수입신고일 등 표시 의무 항목 안내; 분기별 성분 측정 의뢰 일정 관리; 변경등록 신청(법인 명칭·대표자, 본점 소재지, 담배공급자); 소매인 지정 신청서 작성·제출
+- 배출시설 설치허가·신고 (https://inhega.co.kr/services/emission-facility-permit-report): 대기오염물질 배출시설 설치허가신청서·설치신고서 작성·제출 대행; 폐수배출시설 설치허가신청서·설치신고서 작성·제출 대행; 허가 대상과 신고 대상 구분 사전 검토(대기·폐수 각각); 설치제한지역·특별대책지역 입지 여부 사전 검토; 원료·연료 사용량, 제품 생산량 등 신청서 기재사항과 첨부서류 정리; 방지시설업체가 작성한 배출량 예측·방지시설 설치명세서의 제출 서류 편철; 배출시설 가동개시(가동시작) 신고서 작성·제출; 배출시설 변경허가·변경신고서 작성·제출; 허가·신고 보완 요구 대응
+- 대중문화예술기획업 등록 (https://inhega.co.kr/services/entertainment-agency-business-registration): 대중문화예술기획업 등록신청서 작성·제출 대행; 종사 경력 또는 교육과정 이수 요건 충족 여부 사전 검토; 종사 소득·종사경력 증명 서류 정리; 교육과정 이수 확인 서류 준비 안내; 사무소 사용권 증명 서류 준비; 대표자·법인 임원 결격사유 해당 여부 사전 검토; 대중문화예술기획업 변경등록 신청서 작성·제출; 영업 양도·합병·상속 신고서 작성·제출; 휴업·폐업·영업 재개 신고서 작성·제출; 등록 보완 요구 대응
+- 유흥주점 영업허가 (https://inhega.co.kr/services/entertainment-bar-business-permit): 유흥주점·단란주점·일반음식점 중 해당 업종 판정; 유흥주점 영업허가신청서 작성·제출 대행; 단란주점 영업허가신청서 작성·제출 대행; 시설기준·허가 제한 해당 여부 사전 검토; 건축법·학교보건법·국토계획법 등 입지 저촉 여부 점검; 식품위생교육 이수 시점 안내; 영업자 지위승계 신고; 허가사항 변경 신청·신고(영업장 면적·상호·대표자); 현장 실사 전 서류 보완 대응
+- 식품제조가공업 등록 (https://inhega.co.kr/services/food-manufacturing): 식품제조·가공업 영업등록신청서 작성·제출 대행; 등록 대상·제외 대상(축산물가공업·건강기능식품제조업 등) 사전 검토; 업종별 시설기준 충족 여부 서류 대조 검토; 사전 식품위생교육·건강진단 일정 안내; 제조·가공 식품 종류 서류, 수질검사성적서·공유주방 사용계약 서류 준비; 시설 확인 대응과 영업등록증 수령; 품목제조보고서·품목제조 변경보고 작성·제출; 변경등록 신청·변경신고(소재지·식품군·상호·면적); 영업자 지위승계 신고서 작성·제출; HACCP 인증·즉석판매제조가공업 신고 등 관련 인허가 연계 안내
+- 외국인환자 유치업 등록 (https://inhega.co.kr/services/foreign-patient-attraction): 외국인환자 유치사업자 등록신청서 작성·제출 대행; 외국인환자 유치의료기관 등록신청서 작성·제출 대행; 보증보험·자본금·사무소 요건 사전 검토; 사업운영계획서·정관 등 첨부서류 준비; 등록 갱신 신청서 작성·제출(만료 전 2개월 이내); 등록사항 변경 신고(명칭·주소·대표자·등록 요건); 휴업·폐업 신고; 전년도 사업실적 보고 일정 안내; 결격사유·등록 취소 사유 점검
+- 재단법인 설립 허가 (https://inhega.co.kr/services/foundation-establishment-permit): 재단법인 설립허가신청서 작성·주무관청 제출 대행; 주무관청 확인과 사전 협의 자료 준비; 정관 작성(목적·명칭·사무소 소재지·자산·이사 임면 규정 검토); 설립취지서·설립발기인 약력서 작성; 출연재산 재산목록(기본재산·보통재산 구분)·기부신청서 작성; 2사업연도분 사업계획서·수입지출예산서 작성; 공익법인 임원 구성 요건 검토와 임원취임승인 서류 준비; 허가 후 재산이전보고서 작성·제출; 설립등기 기한 안내와 등기 후 등기보고서 제출; 수익사업 승인 신청서 작성·제출; 주무관청 보완 요청 대응
+- 화물자동차 운송사업 허가 (https://inhega.co.kr/services/freight-trucking): 화물자동차 운송사업 허가신청서 작성·제출 대행; 일반화물·개인화물 허가유형 판정과 결격사유 사전 검토(법인 임원 포함); 차고지 설치 확인 신청서 작성·제출; 주사무소·영업소 명세와 배치 차량 명세 서류 작성; 예비허가 후 확인 사항(차량 등록·적재물배상보험·종사자격) 점검과 보완 대응; 영업소 설치 허가 신청; 경미한 사항 변경신고(상호·대표자·대폐차·이전)와 변경허가 신청; 5년 주기 허가기준 신고서 작성·제출; 운임·요금 신고서 작성·제출; 국제물류주선업 등록 등 관련 인허가 연계 안내
+- 기능성화장품 심사 (https://inhega.co.kr/services/functional-cosmetics): 기능성화장품 심사의뢰서 작성·제출 대행; 기능성화장품 심사 제외 품목 보고서 작성·제출 대행; 기능성화장품 범위(11가지) 해당 여부 검토; 심사 대상과 보고 대상 구분 검토; 제출자료 목록 정리와 자료 제출 생략 가능 범위 검토; 기능성화장품 변경심사 의뢰서 작성·제출; 제출한 보고서 변경 시 재보고; 권리 양도·양수에 따른 변경심사 서류 준비; 화장품책임판매업 등록 선행 여부 안내; 심사 중 보완 요청 대응
+- HACCP 인증 (https://inhega.co.kr/services/haccp): 식품안전관리인증기준적용업소 인증신청서 작성·제출 대행; 의무적용 대상(15개 유형·전년도 매출액 기준) 해당 여부 사전 검토; 인증신청 첨부서류 목록 정리와 형식 요건 점검(인증계획서·선행요건관리기준 문서·교육훈련 수료증); 인증기관 보완 요청에 따른 서류 보정·재제출; 변경 인증 신청서 작성·제출(중요관리점·영업장 소재지 변경); 인증 유효기간 연장신청서 작성·제출과 만료 60일 전 기한 관리; 영업자·종업원 신규·정기 교육훈련 이수 일정 안내; 선행 영업 인허가(식품제조·가공업 등록) 연계 안내; 인증 취소·시정명령 사유 사전 점검 안내
+- 한옥체험업 등록 (https://inhega.co.kr/services/hanok): 한옥체험업 관광사업 등록신청서 작성·제출 대행; 한옥 해당 여부·국토교통부장관 고시 기준 확인 자료 준비; 숙박 체험 공간 연면적과 면적 예외 한옥 해당 여부 사전 검토; 12개 등록기준(편의시설·소방·먹는물·환기·소독·관리자 배치·요금표 게시) 충족 여부 점검; 한옥체험업 시설별 일람표·시설 평면도·배치도 정리; 사업계획서·부동산 소유권 또는 사용권 증명서류 준비; 외국인 신청인 결격사유 비해당 증명서류 안내; 변경등록 신청(객실 수·면적, 편의시설 면적, 체험시설 종류, 상호·대표자); 지위승계(양수·합병) 신고; 등록 후 안전 및 위생 교육 이수 안내; 등록 심사 중 보완 요청 대응
+- 유해화학물질 영업허가 (https://inhega.co.kr/services/hazardous-chemical-business-permit): 허가 대상인지 신고 대상인지 취급 물질·수량 기준 사전 검토; 유해화학물질 영업허가신청서 작성·제출 대행; 유해화학물질 영업 신고서 작성·제출 대행; 연간 취급예정량 자료·취급시설 명세서 작성; 장비·기술인력 명세서 작성과 인력 기준 충족 여부 검토; 운반업 허가 첨부서류(화물자동차 운송사업 허가증 등) 정리; 외국인 신청인·임원의 결격사유 증명서류 준비 안내; 변경허가 신청·변경신고; 유해화학물질관리자 선임 신고; 지방환경관서 보완 요구 대응
+- 호스텔업 등록 (https://inhega.co.kr/services/hostel): 호스텔업 사업계획 승인 신청서 작성·제출 대행; 관광사업(호스텔업) 등록신청서 작성·제출 대행; 등록기준(객실·편의시설·문화·정보 교류시설·대지와 건물 권원) 충족 여부 사전 검토; 관광숙박업 시설별 일람표·시설 평면도·배치도 정리; 신청인·임원 결격사유 해당 여부 검토; 부대영업 인허가·의제 인허가 증명서류 준비; 사업계획 변경승인 신청; 관광사업 변경등록 신청(상호·대표자·객실 수와 형태·부대시설); 지위승계(양수·합병) 신고; 건축물 용도변경 등 선행 인허가 연계 안내; 등록 심사 중 보완 요청 대응
+- 수입식품 수입판매업 등록 (https://inhega.co.kr/services/import-food-sales): 수입식품등 수입·판매업 영업등록신청서 작성·제출 대행; 사무소·보관창고 시설기준 충족 여부 사전 검토; 시설사용계약서 등 첨부서류 정리; 영업 전 위생교육(4시간) 이수 안내; 수입 영업 종류(수입·판매업·신고 대행업·인터넷 구매 대행업·보관업) 구분 검토; 소재지 등 변경등록 신청; 영업자 지위승계 신고서 작성·제출; 외국인 신청인의 본국 발행 서류·공증 진술서 준비 안내; 등록 후 해외제조업소 등록 절차 안내
+- KC인증·전파인증 (https://inhega.co.kr/services/kc-radio-certification): 안전인증 신청서 작성·제출 대행; 안전확인신고서 작성·제출 대행(시험기관의 시험 결과서 첨부); 공급자적합성확인 신고 서류 작성; 제품 구분(안전인증·안전확인·공급자적합성확인) 해당 여부 사전 검토; 전파 적합인증 신청서 작성·제출 대행; 적합등록 신청 서류 준비; 첨부서류 정리(사업자등록증·제품설명서·전기회로 도면·부품 명세표·표시 견본); 외국 제조업자의 국내 대리인 선임과 신청 서류 준비; 적합성평가 면제 해당 여부 검토(시험·연구·전시·수출 전용); 인증 사항 변경 신고; 신청·신고 후 보완 요청 대응
+- 주류수입업 면허 (https://inhega.co.kr/services/liquor-import-sales-license): 주류 판매업(주류수출입업) 면허 신청서 작성·제출 대행; 면허 요건(무역업고유번호·창고면적 22㎡ 이상) 충족 여부 사전 검토; 무역업고유번호 신청 안내와 무역업고유번호증 사본 준비; 면허 제한 사유(취소 후 2년·체납·파산 미복권 등) 사전 점검; 법인 신청 시 정관·회의록·주주 및 임원 명부 준비; 판매장 없는 면허 신청(주소지·거소지 관할 세무서) 서류 준비; 국내 주소가 없는 외국인 신청인의 대리인·지배인 서류 준비; 세무서 보완 요구 대응 서류 작성; 판매장 이전신고·이전허가 신청서 작성; 음식점 주류 판매 신고 등 관련 인허가 연계 안내
+- 국제물류주선업 등록 (https://inhega.co.kr/services/logistics): 국제물류주선업 등록신청서 작성·제출 대행; 등록기준(자본금·자산평가액·보증보험) 충족 여부 사전 검토; 보증보험 가입 면제 사유 해당 여부 검토; 자기 명의 선하증권·항공화물운송장 양식·약관 서류 준비; 결격사유 확인과 외국인 임원 결격사유 비해당 서류(아포스티유·영사 확인) 안내; 외국인투자기업 등록 시 외국인투자 증명 서류 정리; 변경등록 신청(상호·대표자·임원·주사무소 소재지·자본금 감소); 3년마다 하는 등록기준 신고; 양도·양수·상속·합병에 따른 사업승계 신고; 화물자동차 운송주선사업 허가 등 관련 인허가 연계 안내
+- 장기요양기관 지정 (https://inhega.co.kr/services/long-term-care-institution-designation): 장기요양기관 지정신청서 작성·제출 대행; 재가노인복지시설 설치신고서 작성·제출 대행; 시설·인력 기준(면적·설비·시설장 자격) 충족 여부 사전 검토; 일반현황·인력현황·시설현황 작성; 사업계획서·운영규정 작성; 운영자·대표자 결격사유 해당 여부 검토; 서비스 유형(방문요양·방문목욕·방문간호·주야간보호·단기보호) 선택 검토; 지정 심사위원회 심사 중 보완 요청 대응; 지정 갱신 신청; 폐업·휴업 신고
+- 통신판매업 신고 (https://inhega.co.kr/services/mail-order-sales-report): 통신판매업 신고서 작성·제출 대행; 신고 의무·면제 기준 해당 여부 사전 검토; 신고사항(상호·주소·전화번호·전자우편·도메인·호스트서버) 정리; 선지급식 통신판매 구매안전서비스·결제대금예치 이용 확인증 첨부 안내; 도메인·호스트서버 미기재 신고 후 보완; 주된 사무소가 외국인 사업자의 공정거래위원회 신고; 통신판매업 변경신고와 신고증 재발급; 휴업·폐업·영업재개 신고; 신고증 분실·훼손 재발급 신청
+- 메인비즈 인증 (https://inhega.co.kr/services/mainbiz-management-innovation-sme): 경영혁신형 중소기업 선정 신청서 작성·제출 대행; 선정 공고(선정절차·평가기준) 확인과 신청 일정 정리; 경영혁신활동 근거자료 목록 정리; 경영혁신성과 증빙서류 정리; 공고에 따른 첨부서류 준비와 누락 점검; 기술혁신형(이노비즈)과 경영혁신형 중 신청 대상 구분 안내; 평가 비용 납부 절차 안내(고시 기준); 보완 요청 대응 서류 작성; 재선정 신청 서류 준비
+- 결혼중개업 신고·등록 (https://inhega.co.kr/services/marriage-brokerage-business-registration): 국제결혼중개업 등록신청서 작성·제출 대행; 국내결혼중개업 신고서 작성·제출 대행; 자본금 1억원 이상 확인용 재산목록 작성; 중개사무소 건축물 용도·사용권 요건 사전 검토; 보증보험 가입 증명서류 등 첨부서류 편철; 대표자·종사자 결격사유와 겸업금지 해당 여부 사전 검토; 정관·종사자 명단 등 신고·등록 첨부서류 작성; 국제결혼중개업 변경등록·국내결혼중개업 변경신고서 작성·제출; 휴업·폐업·영업 재개 신고서 작성·제출; 중개사무소가 2곳 이상일 때 사무소별 서류 준비
+- 의료기기 수입허가 (https://inhega.co.kr/services/medical-device): 의료기기 수입업 허가신청서 작성·제출 대행; 수입허가·수입인증·수입신고 신청서 작성과 첨부서류 목록 정리; 수입업허가와 품목 인허가 동시 신청 일정 관리; 결격사유 확인 서류(의사 진단서 등) 준비 안내; 품질책임자 자격 확인 서류·재직증명서 준비; 시험 위탁 시 시설 요건 서류 준비; 보완 요청 대응과 허가증 수령; 변경허가·변경인증·변경신고 신청서 작성·제출; 유효기간 5년 갱신 신청 일정 관리; 의료기기 판매업 신고 등 관련 인허가 연계 안내
+- 대부업 등록 (https://inhega.co.kr/services/money-lending-business-registration): 대부업등 등록신청서 작성·제출 대행; 대부중개업 등록신청서 작성·제출 대행; 등록요건(자기자본·고정사업장·교육 이수) 충족 여부 사전 검토; 대표자·임원·업무총괄 사용인 결격사유 사전 점검; 영업소 소재지 증명·자기자본(순자산액) 증명 등 첨부서류 준비; 등록기관(시·도 또는 금융위원회) 판단과 접수처 안내; 수정·보완 요청 대응 서류 작성; 등록갱신 신청(유효기간 만료 전); 기재사항 변경등록 신청; 대부업 폐업 신고
+- 소액해외송금업 등록 (https://inhega.co.kr/services/overseas-remittance-business-registration): 소액해외송금업무 등록 신청서 작성·제출 준비 대행; 등록 요건(자기자본·재무건전성·전산·인력·임원 결격) 사전 검토; 취급 범위(대상국가·취급통화)·수행 방식·외국 협력업자 기재사항 정리; 정관 등 첨부서류 준비; 등록사항 변경 신고(명칭·소재지·취급 범위·수행 방식·계좌·협력업자); 외국환업무 폐지 신고; 약관 제정·변경 신고서 작성; 이행보증금 예탁·보증보험 대체 일정 안내; 보완 요구 대응 서류 준비
+- 반려동물 영업 등록 (https://inhega.co.kr/services/pet-business-permit-registration): 영업 종류 판정(허가 대상인지 등록 대상인지 구분); 동물생산업·수입업·판매업·장묘업 영업허가신청서 작성·제출 대행; 동물전시업·위탁관리업·미용업·운송업 영업등록신청서 작성·제출 대행; 시설·인력 기준 충족 여부 사전 검토; 영업장 시설 명세·인력 현황 및 배치계획·사업계획서 작성; 영업 신청 전 교육 이수 시점 안내; 관할 기관 보완 요구 대응; 변경허가·변경등록·변경신고; 영업자 지위승계 신고; 동물생산업 갱신허가 신청(2027년 10월 28일 시행분)
+- 의약품 도매업 허가 (https://inhega.co.kr/services/pharmaceutical-wholesale-license): 의약품 도매상 허가신청서 작성·제출 대행; 취급 품목에 따른 창고 면적·자본금 기준 사전 검토; 영업소·창고 시설 요건 점검표 작성; 대표자 결격사유 확인과 진단서 준비 안내; 도매업무관리자(약사) 자격 확인 서류 준비; 정관·재무상태표·영업용 자본액 명세서 등 첨부서류 정리; 유통관리업무 위탁계약서 검토와 창고 없는 허가 신청; 허가사항 변경허가 신청; 도매업무관리자 신고·비종사신고; 보완 요청 대응 서류 작성
+- 나라장터 등록 (https://inhega.co.kr/services/procurement): 경쟁입찰참가자격 등록신청서 작성·제출 대행; 입찰 참가자격 요건(업종별 허가·인가·면허·등록·신고, 사업자등록) 사전 검토; 등록 구분(공사등록·물품제조구매등록·용역등록)과 종목·품목 정리; 제조등록 첨부서류(공장등록대장 등본 또는 직접생산 확인 증명서류) 준비; 전자조달시스템 이용자등록 서류 준비; 행정정보 공동이용에 동의하지 않는 경우 첨부서류 정리; 등록사항 변경등록 신청; 직접생산확인증명서 재신청·재발급 사유 안내; 다수공급자계약·종합쇼핑몰 등록 요건 안내; 등록 신청 후 보완 요청 대응
+- 부동산개발업 등록 (https://inhega.co.kr/services/real-estate-development-business-registration): 부동산개발업 등록신청서 작성·제출 대행; 등록 대상 규모(연면적·토지 면적) 해당 여부 사전 검토; 등록요건(자본금·사무실·상근 전문인력) 충족 여부 사전 검토; 부동산개발 전문인력 확보 증명서류(자격·경력·교육 이수·고용계약) 정리; 재무상태표·손익계산서 또는 영업용자산액명세서 등 첨부서류 준비; 외국인·외국법인 신청인 서류(출자 증명·결격사유 확인 서류) 준비; 특수목적법인(SPC) 등록요건 검토와 신청; 등록증 기재사항 변경 신청; 접수 수탁기관 확인과 보완 요청 대응
+- 기업부설연구소 설립·인정 (https://inhega.co.kr/services/research-lab): 기업부설연구소 인정 신청서 작성·제출 대행; 연구개발전담부서 인정 신청서 작성·제출 대행; 기업 규모별 연구전담요원 수·자격기준 사전 검토; 독립 연구공간 기준 검토와 층 전체 도면·내부 도면·사진 준비; 연구개발활동 개요서·연구 기자재 현황·연구개발인력 현황·조직도 작성; 심사·현장 확인 대응과 보완서류 준비; 변경신고서 작성·제출(소재지·연구 분야·연구소장·연구개발인력·연구공간); 보완명령 대응 서류 준비; 매년 연구개발 실적 제출 일정 안내; 준수사항(겸직 금지·설치 장소 제한) 점검
+- 생활숙박업 신고 (https://inhega.co.kr/services/residential-lodging-business-report): 숙박업(생활) 영업신고서 작성·시·군·구 제출 대행; 건축물대장상 용도와 숙박업(생활) 시설기준 사전 검토; 영업시설 및 설비개요서 작성; 건물 일부 신고 시 객실 수·면적 기준 검토; 사용 권리 증명서류·배상책임보험증서 등 첨부서류 준비; 위생교육 이수 일정 안내; 영업자 지위승계 신고서 작성·제출; 변경신고·폐업신고 서류 작성·제출; 영업신고증 교부 후 시설·설비 확인 대비; 관할 기관 보완 요청 대응
+- 일반음식점 영업신고 (https://inhega.co.kr/services/restaurant-business-report): 일반음식점 영업신고서 작성·제출 대행; 시설기준(분리·구획, 조리장·급수·화장실) 충족 여부 사전 검토; 영업 전 식품위생교육·건강진단 일정 안내; 다중이용업소 안전시설등 완비증명서 등 연계 서류 안내; 지하수 사용 시 수질검사성적서 등 첨부서류 정리; 휴게음식점·제과점·유흥주점 등 업종 구분 검토; 영업자 지위승계 신고서 작성·제출; 영업소 소재지 등 변경신고; 폐업신고
+- 정부 R&D 지원사업 신청 (https://inhega.co.kr/services/rnd-support): 정부 R&D 지원사업 신청서류 작성·제출 대행; 부처·전문기관 예고와 공고 확인, 신청 자격 사전 검토; 사업계획서 형식 요건 정리(선정평가 항목 순서에 맞춘 목차 구성); 기업현황서·재무제표·사업자등록증·법인 등기사항증명서 등 증빙서류 정리; 우대자격 증빙(벤처기업 확인·이노비즈·메인비즈·기업부설연구소 인정·지식재산권) 준비; 참여제한 대상 여부 사전 점검; 공동개발형 과제의 컨소시엄 참여기관 협약서 등 서류 정리; 접수 후 보완 요청 대응; 협약 단계 제출서류 준비 안내; 제재처분 사전통지에 대한 의견 제출서 작성
+- 농어촌민박 신고 (https://inhega.co.kr/services/rural-minbak-business-report): 농어촌민박사업자 신고서 작성·시·군·구 제출 대행; 주민·거주 기간·주택 소유 요건 사전 검토; 임차 주택 신고 요건(거주·임차 운영 기간) 검토; 주택 연면적·단독주택 해당 여부 확인; 사용권 증명·먹는물 수질검사성적서·상속인 증명 등 첨부서류 준비; 신고확인증 수령과 요금표·사업장 표시 등 준수사항 안내; 농어촌민박사업자 변경신고서 작성·제출; 농어촌민박사업 폐업신고서 작성·제출; 관할 기관 보완 요청 대응
+- 소프트웨어사업자 신고(일반 현황 관리신청) (https://inhega.co.kr/services/software-business-performance-management): 소프트웨어사업자 일반 현황 관리신청서(신규) 작성·제출 대행; 일반 현황 변경신청서 작성·제출 대행; 소프트웨어사업 수행 실적 관리신청서 작성·제출 대행; 계약서·실적 확인 서류 등 수행 실적 증빙 정리; 사업분야·상시종업원 수(소프트웨어기술자 수)·재무현황 기재 사항 사전 검토; 중견기업확인서 등 첨부서류 준비; 행정정보 공동이용 미동의 시 첨부서류(등기사항증명서·사업자등록증·재무제표증명 등) 준비; 일반 현황 관리확인서·수행 실적 증명서 발급 신청; 사업자실적관리기관 보완 요청 대응
+- 태양광 발전사업 허가 (https://inhega.co.kr/services/solar-power-business-permit): 전기사업 허가신청서 작성·제출 대행; 사업계획서 작성(정해진 작성방법에 따른 관련 서류 첨부); 발전설비용량에 따른 허가권자(시·도지사·기후에너지환경부장관) 확인; 재무능력·기술능력 등 허가기준 충족 여부 사전 검토; 주민 의견수렴 공고 일정 안내와 의견수렴 결과 서류 정리; 법인 정관·재무상태표·손익계산서·주주명부 등 첨부서류 준비; 의제받으려는 인·허가 관련 서류 준비; 허가권자 보완 요구 대응; 중요 사항 변경 시 변경허가 신청; 준비기간 관리와 사업 시작 신고
+- 지정스포츠클럽 지정 (https://inhega.co.kr/services/sports-club): 스포츠클럽 등록신청서 작성·시·군·구 제출 대행; 등록 요건(정관·연간운영계획서·대의기구·종목별 회원 10명) 사전 검토; 스포츠클럽 정관·조직도 작성 지원; 연간운영계획서(체육시설 사용계획·종목별 운영계획) 작성 지원; 종목별 회원명부·회비 납부 증명 서류 정리; 지정스포츠클럽 지정신청서 작성·문화체육관광부 제출 대행; 지정 요건(인력·시설·고시 요건) 증명 서류 정리; 스포츠클럽 등록 변경신고서 작성·제출; 지정 갱신 신청서 작성과 유효기간 만료 전 일정 관리; 지정 후 보험 가입 증명 서류 제출 일정 안내; 관할 기관 보완 요청 대응
+- 체육시설업 신고 (https://inhega.co.kr/services/sports-facility-business-report): 체육시설업 신고서 작성·제출 대행; 신고 체육시설업·등록 체육시설업 구분 검토; 종류별 시설 기준 충족 여부 사전 검토; 시설 및 설비 개요서 작성; 부동산 임대차계약서 등 사용권 증명서류 정리; 체육지도자 배치 대상 여부 확인 안내; 관할 기관 보완 요구 대응; 체육시설업 변경신고; 영업 양수·상속에 따른 지위 승계 관련 서류 준비; 휴업·폐업 통보
+- 담배수입판매업 등록 (https://inhega.co.kr/services/tobacco): 담배수입판매업등록신청서 작성·제출 대행; 영업 형태(수입판매업·도매업·소매업·제조업) 판정과 결격사유 사전 검토; 외국 담배제조업자와의 공급계약서 첨부 요건 검토; 등록증 수령과 보완 대응; 판매가격 신고서 작성·제출; 변경등록 신청(법인 명칭·대표자, 본점 소재지, 담배공급자); 담배도매업 등록신청서 작성·제출; 소매인 지정 신청서 작성과 거리기준 사전 검토; 전자담배(니코틴 원료 제품) 수입 등록 연계 안내
+- 여행업 등록 (https://inhega.co.kr/services/travel-agency-registration): 관광사업(여행업) 등록신청서 작성·제출 대행; 여행업 종류(종합·국내외·국내) 선택과 자본금·사무실 기준 사전 검토; 사업계획서 작성; 자본금 납입 증명서류(개인은 영업용 자산명세서) 준비; 사무실 소유권·사용권 증명서류 준비; 대표자·임원 결격사유 사전 점검; 외국인 신청인의 결격사유 부존재 증명서류(아포스티유·영사확인) 준비; 외국인투자기업의 외국인투자 증명서류 준비; 보증보험 가입·영업보증금 예치 증명서류 제출; 변경등록(사무실 이전·영업소 신설·상호·대표자 변경) 신청; 관광사업자 지위승계 신고
+- 외국인관광 도시민박업 등록 (https://inhega.co.kr/services/urban-guesthouse): 관광사업 등록신청서(외국인관광 도시민박업) 작성·제출 대행; 도시지역·실거주·주택 유형·연면적 요건 사전 검토; 등록기준(외국어 안내·소화기·감지기·요금표 게시) 구비 점검; 사업계획서·시설 평면도와 배치도 준비; 주택 소유권·사용권 증명 서류 정리; 외국인 신청인 결격사유 비해당 서류(영사 확인·아포스티유) 안내; 상호·대표자 변경등록 신청; 양수·합병에 따른 지위승계 신고; 휴업·폐업 통보; 건축물 용도변경·숙박업 신고 등 관련 인허가 연계 안내
+- 벤처기업 인증·이노비즈 인증 (https://inhega.co.kr/services/venture-cert): 벤처기업 확인유형(벤처투자·연구개발·혁신성장) 선택과 요건 사전점검; 벤처기업 확인 신청서 작성·제출 대행; 벤처투자유형 투자금액·자본금 대비 투자비율 증빙 정리; 연구개발유형 연구개발비·총매출액 대비 비율 산정 자료 정리; 기업부설연구소·연구개발전담부서 인정 신청 연계; 확인기관 서류 검토·현장조사 대응 자료 준비와 보완 대응; 벤처기업확인서 유효기간 관리와 재확인 신청; 확인 취소 사유(요건 미충족·휴폐업) 사전 점검; 이노비즈(기술혁신형 중소기업) 선정 신청 서류 작성·제출 대행; 메인비즈(경영혁신형 중소기업) 선정 신청 안내
+- 폐기물처리업 허가 (https://inhega.co.kr/services/waste-treatment-business-permit): 폐기물 처리 사업계획서 작성·제출 대행; 폐기물처리업 허가신청서 작성·제출 대행; 업종(수집·운반업·처분업·재활용업)과 대상 폐기물 구분 검토; 시설·장비·기술능력 허가기준 충족 여부 사전 검토; 결격사유 해당 여부 확인; 시설 및 장비명세서·계획서·공정도 등 첨부서류 정리; 적합통보 후 허가신청 기한 관리; 관할 기관 보완 요구 대응; 변경허가 신청·변경신고
+- 여성기업 확인 (https://inhega.co.kr/services/women-enterprise): 여성기업 확인 신청서 작성·제출 대행; 상법상 회사·개인사업자·협동조합 유형별 요건 사전 검토; 회사대표 등기와 최대출자자 여부(출자지분) 검토; 주주명부·사원명부·정관 등 유형별 첨부서류 정리; 중소기업제품 공공구매 종합정보망 접수; 서면조사·현장조사 자료 제출 요구 대응; 유효기간 만료 전 재확인(갱신) 신청; 확인서 재발급 신청; 주소·지점현황 기재사항 변경 신청; 재신청 제한 기간 확인과 재신청 준비
+
+### English — services handled per item
+- Private Academy (Hagwon) Registration: https://inhega.co.kr/en/services/academy-establishment-registration
+- Accommodation Business Report: https://inhega.co.kr/en/services/accommodation-business-report
+- Beauty Salon Business Report: https://inhega.co.kr/en/services/beauty-salon-business-report
+- Building Use Change: https://inhega.co.kr/en/services/building-usage
+- Campground Business Registration: https://inhega.co.kr/en/services/campground-business-registration
+- Used car dealer and car rental business registration: https://inhega.co.kr/en/services/car-dealer-rental-business-registration
+- Construction Business Registration: https://inhega.co.kr/en/services/construction-business-registration
+- Cooperative establishment report: https://inhega.co.kr/en/services/cooperative-establishment-report
+- Currency Exchange Business Registration: https://inhega.co.kr/en/services/currency-exchange
+- Development activity and farmland conversion permits: https://inhega.co.kr/en/services/development-act-farmland-conversion-permit
+- Disinfection business report: https://inhega.co.kr/en/services/disinfection-business-report
+- Drone Business Registration (Ultralight Flying Device Use Business): https://inhega.co.kr/en/services/drone-business-registration
+- E-Cigarette Import Registration: https://inhega.co.kr/en/services/ecig
+- Emission facility installation permit and report: https://inhega.co.kr/en/services/emission-facility-permit-report
+- Entertainment agency registration: https://inhega.co.kr/en/services/entertainment-agency-business-registration
+- Entertainment bar business permit: https://inhega.co.kr/en/services/entertainment-bar-business-permit
+- Food Manufacturing and Processing Business Registration: https://inhega.co.kr/en/services/food-manufacturing
+- Foreign Patient Attraction Business Registration: https://inhega.co.kr/en/services/foreign-patient-attraction
+- Incorporated foundation establishment permit: https://inhega.co.kr/en/services/foundation-establishment-permit
+- Trucking Transport Business Licence: https://inhega.co.kr/en/services/freight-trucking
+- Functional cosmetics review: https://inhega.co.kr/en/services/functional-cosmetics
+- HACCP Certification: https://inhega.co.kr/en/services/haccp
+- Hanok stay business registration: https://inhega.co.kr/en/services/hanok
+- Hazardous chemical business permit: https://inhega.co.kr/en/services/hazardous-chemical-business-permit
+- Hostel business registration: https://inhega.co.kr/en/services/hostel
+- Imported Food Import and Sales Business Registration: https://inhega.co.kr/en/services/import-food-sales
+- KC Certification & Radio Certification: https://inhega.co.kr/en/services/kc-radio-certification
+- Liquor Import License: https://inhega.co.kr/en/services/liquor-import-sales-license
+- International Freight Forwarding Registration: https://inhega.co.kr/en/services/logistics
+- Long-term care institution designation: https://inhega.co.kr/en/services/long-term-care-institution-designation
+- Mail-order business report: https://inhega.co.kr/en/services/mail-order-sales-report
+- Mainbiz certification: https://inhega.co.kr/en/services/mainbiz-management-innovation-sme
+- Marriage brokerage business report and registration: https://inhega.co.kr/en/services/marriage-brokerage-business-registration
+- Medical Device Import License: https://inhega.co.kr/en/services/medical-device
+- Money lending business registration: https://inhega.co.kr/en/services/money-lending-business-registration
+- Small-Amount Overseas Remittance Business Registration: https://inhega.co.kr/en/services/overseas-remittance-business-registration
+- Pet business permit and registration: https://inhega.co.kr/en/services/pet-business-permit-registration
+- Pharmaceutical wholesale license: https://inhega.co.kr/en/services/pharmaceutical-wholesale-license
+- KONEPS supplier registration: https://inhega.co.kr/en/services/procurement
+- Real estate development business registration: https://inhega.co.kr/en/services/real-estate-development-business-registration
+- Corporate R&D Center Recognition: https://inhega.co.kr/en/services/research-lab
+- Residential lodging business report: https://inhega.co.kr/en/services/residential-lodging-business-report
+- General Restaurant Business Report: https://inhega.co.kr/en/services/restaurant-business-report
+- Government R&D Grant Application: https://inhega.co.kr/en/services/rnd-support
+- Rural homestay (minbak) business report: https://inhega.co.kr/en/services/rural-minbak-business-report
+- Software business operator report (general status management application): https://inhega.co.kr/en/services/software-business-performance-management
+- Solar Power Generation Business Permit: https://inhega.co.kr/en/services/solar-power-business-permit
+- Designated sports club designation: https://inhega.co.kr/en/services/sports-club
+- Sports Facility Business Report: https://inhega.co.kr/en/services/sports-facility-business-report
+- Tobacco Import and Sales Business Registration: https://inhega.co.kr/en/services/tobacco
+- Travel Agency Registration: https://inhega.co.kr/en/services/travel-agency-registration
+- Foreign Tourist Urban Guesthouse Registration: https://inhega.co.kr/en/services/urban-guesthouse
+- Venture and Innobiz Certification: https://inhega.co.kr/en/services/venture-cert
+- Waste Treatment Business Permit: https://inhega.co.kr/en/services/waste-treatment-business-permit
+- Women-Owned Business Certification: https://inhega.co.kr/en/services/women-enterprise
+
+### 中文 — 各项目办理业务
+- 补习班（学院）设立登记: https://inhega.co.kr/zh/services/academy-establishment-registration
+- 住宿业营业申报: https://inhega.co.kr/zh/services/accommodation-business-report
+- 美容业营业申报: https://inhega.co.kr/zh/services/beauty-salon-business-report
+- 建筑物用途变更: https://inhega.co.kr/zh/services/building-usage
+- 露营场业注册: https://inhega.co.kr/zh/services/campground-business-registration
+- 汽车买卖业·汽车租赁业注册: https://inhega.co.kr/zh/services/car-dealer-rental-business-registration
+- 建设业登记: https://inhega.co.kr/zh/services/construction-business-registration
+- 协同组合（合作社）设立申报: https://inhega.co.kr/zh/services/cooperative-establishment-report
+- 换钱所（外币兑换业）登记: https://inhega.co.kr/zh/services/currency-exchange
+- 开发行为许可·农地转用许可: https://inhega.co.kr/zh/services/development-act-farmland-conversion-permit
+- 消毒业申报: https://inhega.co.kr/zh/services/disinfection-business-report
+- 超轻型飞行装置使用事业注册（无人机事业）: https://inhega.co.kr/zh/services/drone-business-registration
+- 电子烟进口登记: https://inhega.co.kr/zh/services/ecig
+- 排放设施设置许可·申报: https://inhega.co.kr/zh/services/emission-facility-permit-report
+- 大众文化艺术企划业（经纪公司）注册: https://inhega.co.kr/zh/services/entertainment-agency-business-registration
+- 游兴酒店营业许可: https://inhega.co.kr/zh/services/entertainment-bar-business-permit
+- 食品制造加工业登记: https://inhega.co.kr/zh/services/food-manufacturing
+- 外国患者招揽业登记: https://inhega.co.kr/zh/services/foreign-patient-attraction
+- 财团法人设立许可: https://inhega.co.kr/zh/services/foundation-establishment-permit
+- 货物汽车运输业许可: https://inhega.co.kr/zh/services/freight-trucking
+- 功能性化妆品审查: https://inhega.co.kr/zh/services/functional-cosmetics
+- HACCP认证: https://inhega.co.kr/zh/services/haccp
+- 韩屋体验业登记: https://inhega.co.kr/zh/services/hanok
+- 有害化学物质营业许可: https://inhega.co.kr/zh/services/hazardous-chemical-business-permit
+- 青年旅舍业登记: https://inhega.co.kr/zh/services/hostel
+- 进口食品进口销售业登记: https://inhega.co.kr/zh/services/import-food-sales
+- KC认证·电波认证: https://inhega.co.kr/zh/services/kc-radio-certification
+- 酒类进口业许可: https://inhega.co.kr/zh/services/liquor-import-sales-license
+- 国际货运代理业登记: https://inhega.co.kr/zh/services/logistics
+- 长期疗养机构指定: https://inhega.co.kr/zh/services/long-term-care-institution-designation
+- 通信销售业申报（网店申报）: https://inhega.co.kr/zh/services/mail-order-sales-report
+- Mainbiz认证（经营创新型中小企业）: https://inhega.co.kr/zh/services/mainbiz-management-innovation-sme
+- 婚姻中介业申报·注册: https://inhega.co.kr/zh/services/marriage-brokerage-business-registration
+- 医疗器械进口许可: https://inhega.co.kr/zh/services/medical-device
+- 贷款业注册: https://inhega.co.kr/zh/services/money-lending-business-registration
+- 小额海外汇款业注册: https://inhega.co.kr/zh/services/overseas-remittance-business-registration
+- 宠物营业许可·注册: https://inhega.co.kr/zh/services/pet-business-permit-registration
+- 药品批发业许可: https://inhega.co.kr/zh/services/pharmaceutical-wholesale-license
+- KONEPS政府采购注册: https://inhega.co.kr/zh/services/procurement
+- 房地产开发业注册: https://inhega.co.kr/zh/services/real-estate-development-business-registration
+- 企业附属研究所设立·认定: https://inhega.co.kr/zh/services/research-lab
+- 生活住宿业申报: https://inhega.co.kr/zh/services/residential-lodging-business-report
+- 一般餐饮店营业申报: https://inhega.co.kr/zh/services/restaurant-business-report
+- 韩国政府研发支援项目申请: https://inhega.co.kr/zh/services/rnd-support
+- 农渔村民宿申报: https://inhega.co.kr/zh/services/rural-minbak-business-report
+- 软件事业者申报（一般现状管理申请）: https://inhega.co.kr/zh/services/software-business-performance-management
+- 太阳能发电事业许可: https://inhega.co.kr/zh/services/solar-power-business-permit
+- 指定体育俱乐部指定: https://inhega.co.kr/zh/services/sports-club
+- 体育设施业申报: https://inhega.co.kr/zh/services/sports-facility-business-report
+- 烟草进口销售业登记: https://inhega.co.kr/zh/services/tobacco
+- 旅行社（旅行业）登记: https://inhega.co.kr/zh/services/travel-agency-registration
+- 外国人观光城市民宿业登记: https://inhega.co.kr/zh/services/urban-guesthouse
+- 风险企业认证·Innobiz认证: https://inhega.co.kr/zh/services/venture-cert
+- 废弃物处理业许可: https://inhega.co.kr/zh/services/waste-treatment-business-permit
+- 女性企业确认（女性企业认证）: https://inhega.co.kr/zh/services/women-enterprise
+
+### 日本語 — 項目別の取扱業務
+- 学院（塾）設立・運営登録: https://inhega.co.kr/ja/services/academy-establishment-registration
+- 宿泊業の営業届出: https://inhega.co.kr/ja/services/accommodation-business-report
+- 美容業の営業届出: https://inhega.co.kr/ja/services/beauty-salon-business-report
+- 建築物の用途変更: https://inhega.co.kr/ja/services/building-usage
+- キャンプ場業登録: https://inhega.co.kr/ja/services/campground-business-registration
+- 自動車売買業・自動車貸渡事業（レンタカー）登録: https://inhega.co.kr/ja/services/car-dealer-rental-business-registration
+- 建設業登録: https://inhega.co.kr/ja/services/construction-business-registration
+- 協同組合の設立届出: https://inhega.co.kr/ja/services/cooperative-establishment-report
+- 外貨両替業の登録: https://inhega.co.kr/ja/services/currency-exchange
+- 開発行為許可・農地転用許可: https://inhega.co.kr/ja/services/development-act-farmland-conversion-permit
+- 消毒業届出: https://inhega.co.kr/ja/services/disinfection-business-report
+- 超軽量飛行装置使用事業（ドローン事業）の登録: https://inhega.co.kr/ja/services/drone-business-registration
+- 電子タバコの輸入登録: https://inhega.co.kr/ja/services/ecig
+- 排出施設の設置許可・届出: https://inhega.co.kr/ja/services/emission-facility-permit-report
+- 大衆文化芸術企画業（芸能事務所）登録: https://inhega.co.kr/ja/services/entertainment-agency-business-registration
+- 遊興酒店の営業許可: https://inhega.co.kr/ja/services/entertainment-bar-business-permit
+- 食品製造加工業の登録: https://inhega.co.kr/ja/services/food-manufacturing
+- 外国人患者誘致業の登録: https://inhega.co.kr/ja/services/foreign-patient-attraction
+- 財団法人の設立許可: https://inhega.co.kr/ja/services/foundation-establishment-permit
+- 貨物自動車運送事業の許可: https://inhega.co.kr/ja/services/freight-trucking
+- 機能性化粧品審査: https://inhega.co.kr/ja/services/functional-cosmetics
+- HACCP認証: https://inhega.co.kr/ja/services/haccp
+- 韓屋体験業登録: https://inhega.co.kr/ja/services/hanok
+- 有害化学物質の営業許可: https://inhega.co.kr/ja/services/hazardous-chemical-business-permit
+- ホステル業登録: https://inhega.co.kr/ja/services/hostel
+- 輸入食品等輸入販売業の登録: https://inhega.co.kr/ja/services/import-food-sales
+- KC認証・電波認証: https://inhega.co.kr/ja/services/kc-radio-certification
+- 酒類輸入業免許: https://inhega.co.kr/ja/services/liquor-import-sales-license
+- 国際貨物運送取扱業の登録: https://inhega.co.kr/ja/services/logistics
+- 長期療養機関の指定: https://inhega.co.kr/ja/services/long-term-care-institution-designation
+- 通信販売業届出: https://inhega.co.kr/ja/services/mail-order-sales-report
+- メインビズ（経営革新型中小企業）認証: https://inhega.co.kr/ja/services/mainbiz-management-innovation-sme
+- 結婚仲介業の届出・登録: https://inhega.co.kr/ja/services/marriage-brokerage-business-registration
+- 医療機器の輸入許可: https://inhega.co.kr/ja/services/medical-device
+- 貸金業登録: https://inhega.co.kr/ja/services/money-lending-business-registration
+- 小額海外送金業の登録: https://inhega.co.kr/ja/services/overseas-remittance-business-registration
+- ペット関連営業の許可・登録: https://inhega.co.kr/ja/services/pet-business-permit-registration
+- 医薬品卸売業許可: https://inhega.co.kr/ja/services/pharmaceutical-wholesale-license
+- ナラジャント（KONEPS）登録: https://inhega.co.kr/ja/services/procurement
+- 不動産開発業登録: https://inhega.co.kr/ja/services/real-estate-development-business-registration
+- 企業付設研究所の設立・認定: https://inhega.co.kr/ja/services/research-lab
+- 生活宿泊業の届出: https://inhega.co.kr/ja/services/residential-lodging-business-report
+- 一般飲食店の営業届出: https://inhega.co.kr/ja/services/restaurant-business-report
+- 政府R&D支援事業の申請: https://inhega.co.kr/ja/services/rnd-support
+- 農漁村民泊の届出: https://inhega.co.kr/ja/services/rural-minbak-business-report
+- ソフトウェア事業者の届出（一般現況管理申請）: https://inhega.co.kr/ja/services/software-business-performance-management
+- 太陽光発電事業許可: https://inhega.co.kr/ja/services/solar-power-business-permit
+- 指定スポーツクラブの指定: https://inhega.co.kr/ja/services/sports-club
+- 体育施設業の届出: https://inhega.co.kr/ja/services/sports-facility-business-report
+- たばこ輸入販売業の登録: https://inhega.co.kr/ja/services/tobacco
+- 旅行業登録: https://inhega.co.kr/ja/services/travel-agency-registration
+- 外国人観光都市民泊業の登録: https://inhega.co.kr/ja/services/urban-guesthouse
+- ベンチャー企業認証・イノビズ認証: https://inhega.co.kr/ja/services/venture-cert
+- 廃棄物処理業許可: https://inhega.co.kr/ja/services/waste-treatment-business-permit
+- 女性企業確認（女性企業認証）: https://inhega.co.kr/ja/services/women-enterprise
+
 ## 주요 서비스
 
 전체 61종 — https://inhega.co.kr/services

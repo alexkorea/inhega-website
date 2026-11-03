@@ -1,0 +1,382 @@
+{
+ "slug": "freight-trucking",
+ "lang": "en",
+ "label": "Trucking Transport Business Licence",
+ "kw": "Trucking business license agent in Korea",
+ "answer": "A trucking transport business licence (화물자동차 운송사업 허가) is a licence obtained from the Mayor or Provincial Governor with jurisdiction over the head office by a business that carries other people's freight by truck for a fee. It comes in two forms: the general trucking transport business with 20 or more vehicles and the individual trucking transport business with 1 vehicle. When you apply with the garage installation confirmation and vehicle documents, a provisional licence is issued, and the authority must issue the licence within 20 days of the application date after verifying vehicle registration, the garage, cargo liability insurance and the freight transport worker qualification. YouSun Administrative Agency prepares the licence application and attachments, files them with the competent authority and handles supplementation requests.",
+ "services": [
+  {
+   "name": "Preparing and filing the trucking transport business licence application (화물자동차 운송사업 허가신청)",
+   "href": "#term-ft-permit"
+  },
+  {
+   "name": "Determining the licence type (general or individual) and pre-checking disqualification grounds, including corporate officers (일반화물·개인화물)",
+   "href": "#term-ft-general"
+  },
+  {
+   "name": "Preparing and filing the garage installation confirmation application (차고지 설치 확인 신청)",
+   "href": "#term-ft-garage"
+  },
+  {
+   "name": "Preparing statements of the head office and branch offices and of assigned vehicles",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Checking post-provisional-licence verification items (vehicle registration, cargo liability insurance, worker qualification) and handling supplementation (예비허가)",
+   "href": "#term-ft-preliminary"
+  },
+  {
+   "name": "Branch office installation licence applications (영업소 설치 허가)",
+   "href": "#sit-ft-branch-office"
+  },
+  {
+   "name": "Minor change reports (trade name, representative, vehicle replacement, relocation) and change licence applications (대폐차·변경신고)",
+   "href": "#term-ft-replacement"
+  },
+  {
+   "name": "Preparing and filing the licensing criteria report due every 5 years (허가기준 신고)",
+   "href": "#term-ft-periodic-report"
+  },
+  {
+   "name": "Preparing and filing freight rate and charge reports (운임·요금 신고)",
+   "href": "#sit-ft-fare-report"
+  },
+  {
+   "name": "Guidance on related licences such as international freight forwarding business registration",
+   "href": "#sit-ft-forwarding"
+  }
+ ],
+ "clients": [
+  "Sole proprietors starting a transport business with one truck",
+  "Businesses setting up a new transport corporation with multiple trucks",
+  "Companies converting deliveries made with private-use trucks into a formal transport business",
+  "Existing transport operators whose licensed details change, such as adding branch offices, replacing vehicles or moving the head office",
+  "Logistics companies preparing both domestic trucking and international forwarding"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Anyone who, at the request of others, carries freight by truck for a fee (general trucking transport business with 20 or more vehicles, individual trucking transport business with 1 vehicle)"
+  },
+  {
+   "label": "Requirements",
+   "value": "Conformity with the supply standards for each business type, meeting the standards for number of trucks, garages and other transport facilities, no grounds for disqualification (including officers for a corporation), cargo liability insurance or mutual aid, and the freight transport worker qualification for drivers"
+  },
+  {
+   "label": "Process",
+   "value": "Review licence type and disqualification → secure a garage and obtain the installation confirmation → file the licence application → review of documents and supply standards and issuance of a provisional licence → verification of items and issuance of the licence → freight rate and charge report and ongoing compliance"
+  },
+  {
+   "label": "Documents",
+   "value": "Trucking transport business licence application; statement of the name, location and scale of the head office, branch offices and cargo handling points; statement of the number, type, model name, model, year and maximum load of assigned trucks; garage installation confirmation; vehicle sale contract and transfer certificate or vehicle registration certificate and manufacturer's certificate; certificate of cargo liability insurance or mutual aid"
+  },
+  {
+   "label": "Timeline",
+   "value": "Garage installation confirmation issued within 10 days of application; licence issued within 20 days of the application date (not from the date of the provisional licence)"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Starting alone with one truck",
+   "target": "sit-ft-one-truck"
+  },
+  {
+   "label": "Running multiple trucks as a corporation",
+   "target": "sit-ft-corporate-officers"
+  },
+  {
+   "label": "Garage not decided yet",
+   "target": "sit-ft-garage-location"
+  },
+  {
+   "label": "Have been delivering for pay with a private-use truck",
+   "target": "sit-ft-private-truck"
+  },
+  {
+   "label": "Already licensed and vehicles or trade name are changing",
+   "target": "sit-ft-change"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-ft-one-truck",
+   "q": "I want to start a trucking business on my own with one truck in Korea. Do I need an individual trucking transport business licence?",
+   "conclusion": "Yes. Carrying other people's freight for a fee using one truck requires an individual trucking transport business licence. It is a different licence type from the general trucking transport business, which operates with 20 or more vehicles.",
+   "branches": [
+    {
+     "when": "You are an individual carrying freight with one truck",
+     "then": "Apply for an individual trucking transport business licence, treating your address (or your office, if you keep one elsewhere) as the head office, and file with the competent Mayor or Provincial Governor."
+    },
+    {
+     "when": "You plan to grow to 20 or more vehicles",
+     "then": "Prepare vehicles and a garage to the general trucking transport business standard (20 or more vehicles) and apply."
+    },
+    {
+     "when": "You were a consigned truck owner whose temporary licence period has ended",
+     "then": "You can apply for a full licence within 3 months after the temporary licence expires, attaching the temporary licence."
+    }
+   ],
+   "docs": "Licence application; statement of the head office name, location and scale; statement of the number, type, model name, model, year and maximum load of vehicles; garage installation confirmation; vehicle sale contract or vehicle registration certificate; certificate of cargo liability insurance or mutual aid",
+   "period": "Statutory: licence issued within 20 days of the application date / In practice, depends on the published supply standards and the readiness of vehicles and insurance",
+   "href": "#term-ft-general"
+  },
+  {
+   "id": "sit-ft-period",
+   "q": "How long does a trucking business license in Korea take? Is it 20 days after the provisional licence?",
+   "conclusion": "The deadline for issuing the licence is within 20 days of the application date, not of the provisional licence date. If you start on vehicle registration, insurance and worker qualification only after the provisional licence, it is hard to meet the deadline.",
+   "branches": [
+    {
+     "when": "You prepared vehicles, the garage, insurance and worker qualification before applying",
+     "then": "After the provisional licence, the authority makes five checks (disqualification grounds, vehicle registration, licensing criteria such as the garage, cargo liability insurance, and freight transport worker qualification), and you receive the licence within 20 days."
+    },
+    {
+     "when": "You have not yet received the garage installation confirmation",
+     "then": "First apply for installation confirmation to the city mayor, county head or district head covering the garage site (issued within 10 days), then apply for the licence once you have it."
+    }
+   ],
+   "docs": "Garage installation confirmation, vehicle documents, certificate of cargo liability insurance or mutual aid, drivers' freight transport worker qualification records",
+   "period": "Statutory: garage installation confirmation within 10 days, licence within 20 days of the application date / In practice, longer if supplementation is requested",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ft-garage-location",
+   "q": "Our office is in Seoul. Can we still get a trucking business license in Korea if the garage is in another city?",
+   "conclusion": "The garage must be in the city or county where the head office or branch office is located (excluding counties of metropolitan cities), or in an adjoining city or county within the same province. If you use a shared garage, public garage, truck rest area, freight terminal or similar, facilities in an adjoining special city, metropolitan city, special self-governing city or province may also be used.",
+   "branches": [
+    {
+     "when": "You want to use an ordinary site as the garage",
+     "then": "Secure a site in the city or county of the head office or branch office, or an adjoining city or county in the same province, and apply for installation confirmation, attaching the lease agreement if you do not own it."
+    },
+    {
+     "when": "You want to use a shared garage, public garage or freight terminal",
+     "then": "Facilities in an adjoining special city, metropolitan city, special self-governing city or province can be used as the garage, so obtain installation confirmation with the facility use documents."
+    }
+   ],
+   "docs": "Garage installation confirmation application, lease agreement (if not owned)",
+   "period": "Statutory: garage installation confirmation issued within 10 days of application",
+   "href": "#term-ft-garage"
+  },
+  {
+   "id": "sit-ft-documents",
+   "q": "What documents do we prepare when filing a trucking transport business licence application in Korea?",
+   "conclusion": "File the licence application with statements of the offices and branch offices, a statement of assigned vehicles, the garage installation confirmation, and vehicle sale or ownership documents. The authority checks the corporate register extract through shared administrative information.",
+   "branches": [
+    {
+     "when": "You plan collection, sorting and delivery services, or only collection and delivery under an exclusive transport contract",
+     "then": "In addition to the basic attachments, submit the documents set by notice of the Minister of Land, Infrastructure and Transport."
+    },
+    {
+     "when": "You are applying after a temporary licence period has expired",
+     "then": "Also submit the temporary trucking transport business licence."
+    }
+   ],
+   "docs": "Licence application; statement of the name, location and scale of the head office, branch offices and cargo handling points; statement of the number, type, model name, model, year and maximum load of trucks; garage installation confirmation; sale contract and transfer certificate or vehicle registration certificate and manufacturer's certificate; certificate of cargo liability insurance or mutual aid",
+   "period": "Statutory: licence issued within 20 days of the application date",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ft-cost-items",
+   "q": "Before working out the cost of a trucking business license in Korea, what do we need to have in place?",
+   "conclusion": "What you actually need to arrange for the licence is the vehicles, the garage, cargo liability insurance or mutual aid, and the freight transport worker qualification for drivers. All four must be verified within 20 days of the application date for the licence to be issued.",
+   "branches": [
+    {
+     "when": "You have not bought the vehicles yet",
+     "then": "Apply with a sale contract or transfer certificate, and schedule vehicle registration to be completed before the licence is issued."
+    },
+    {
+     "when": "You are renting the garage",
+     "then": "Obtain garage installation confirmation with the lease agreement."
+    }
+   ],
+   "docs": "Vehicle sale contract or vehicle registration certificate, garage lease agreement, certificate of cargo liability insurance or mutual aid, freight transport worker qualification records",
+   "period": "Statutory: garage confirmation within 10 days, licence within 20 days of the application date / In practice, depends on vehicle delivery schedules",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ft-corporate-officers",
+   "q": "We are applying for a trucking business license as a corporation in Korea. What happens if one of our officers has a past violation of this law?",
+   "conclusion": "A corporation cannot be licensed if even one officer falls under the grounds for disqualification. These include being within 2 years of completing or being exempted from a prison sentence for violating this law, being on a suspended sentence, and being within 2 years of licence revocation (5 years if revoked for fraudulent means and the like).",
+   "branches": [
+    {
+     "when": "An officer falls under the grounds for disqualification",
+     "then": "Replace that officer before applying. If an officer becomes disqualified after licensing, the officer must be replaced within 3 months to avoid revocation."
+    },
+    {
+     "when": "No officer falls under the grounds for disqualification",
+     "then": "Check the applicant and all officers for disqualification, then file the licence application."
+    }
+   ],
+   "docs": "Licence application, list of officers, garage installation confirmation, vehicle documents, certificate of cargo liability insurance or mutual aid",
+   "period": "Statutory: licence issued within 20 days of the application date",
+   "href": "#term-ft-permit"
+  },
+  {
+   "id": "sit-ft-branch-office",
+   "q": "Do we need a separate licence to set up a branch office in another region and operate from there on a standing basis?",
+   "conclusion": "To operate on a standing basis from a place other than the head office, you need a branch office installation licence. However, individual trucking operators are not eligible for a branch office installation licence.",
+   "branches": [
+    {
+     "when": "You are a transport operator with 2 or more trucks",
+     "then": "Operating on a standing basis outside the head office without a branch office installation licence is a ground for revocation, business suspension or vehicle reduction, so obtain the branch office licence first."
+    },
+    {
+     "when": "You are an individual trucking operator",
+     "then": "You are not eligible for a branch office installation licence, so operate based on the head office."
+    }
+   ],
+   "docs": "Statement of the branch office name, location and scale, statement of trucks assigned to the branch office, garage installation confirmation",
+   "period": "Depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ft-change",
+   "q": "If we replace a truck with a new one or change our trade name, do we need a change licence or just a report?",
+   "conclusion": "Minor matters such as a change of trade name, change of corporate representative, installation or closure of a cargo handling point, vehicle replacement, or moving the head office within the same administrative jurisdiction are handled by a change report; other changes to licensed details require a change licence.",
+   "branches": [
+    {
+     "when": "It is a minor matter such as vehicle replacement or a change of trade name or representative",
+     "then": "File a change report; the authority notifies acceptance within 3 days of receipt (if no notice is given, the report is deemed accepted the day after the period ends)."
+    },
+    {
+     "when": "It involves adding vehicles or moving the head office outside the jurisdiction",
+     "then": "Obtain a change licence. Changes involving more vehicles are not allowed within 1 year of failing to comply with an improvement order or of a vehicle reduction order, and a change licence to move the head office is not granted during a business suspension."
+    }
+   ],
+   "docs": "Change report or change licence application, documents proving the change (vehicle documents, corporate register, etc.)",
+   "period": "Statutory: acceptance of a minor change report notified within 3 days / Change licences depend on the competent authority's review",
+   "href": "#term-ft-replacement"
+  },
+  {
+   "id": "sit-ft-periodic",
+   "q": "Our trucking transport licence is coming up on 5 years. Is there a report we need to file?",
+   "conclusion": "Transport operators must report matters relating to the licensing criteria every 5 years from the date of licensing. If the entries and attachments have no defects, the obligation is treated as fulfilled when the report reaches the receiving authority.",
+   "branches": [
+    {
+     "when": "You continue to meet the licensing criteria such as number of vehicles and garage",
+     "then": "Prepare the licensing criteria report based on your current status and submit it on time."
+    },
+    {
+     "when": "You fail to report or report falsely",
+     "then": "This is a ground for revocation, business suspension or vehicle reduction, so check that you meet the criteria before the deadline."
+    }
+   ],
+   "docs": "Licensing criteria report, vehicle statement, garage documents",
+   "period": "Statutory: every 5 years from the date of licensing",
+   "href": "#term-ft-periodic-report"
+  },
+  {
+   "id": "sit-ft-private-truck",
+   "q": "We have been making paid deliveries with a private-use truck. Can we keep doing this without a trucking business license in Korea?",
+   "conclusion": "Providing a private-use truck for freight transport for a fee (including operating expenses) or renting it out is prohibited unless it falls under an exception licensed by the Mayor or Provincial Governor. Operating a transport business without a licence is punishable by imprisonment of up to 2 years or a fine of up to KRW 20 million.",
+   "branches": [
+    {
+     "when": "You want to keep carrying freight for a fee",
+     "then": "Obtain a trucking transport business licence (individual with 1 vehicle or general with 20 or more) and operate commercially."
+    },
+    {
+     "when": "You only move your own goods in your own vehicle",
+     "then": "That is not paid transport at the request of others, so first examine the transport arrangement to see whether a licence is required."
+    }
+   ],
+   "docs": "Licence application, vehicle documents, garage installation confirmation, certificate of cargo liability insurance or mutual aid",
+   "period": "Statutory: licence issued within 20 days of the application date",
+   "href": "#term-ft-permit"
+  },
+  {
+   "id": "sit-ft-fare-report",
+   "q": "After getting a trucking transport licence in Korea, do we also have to report our freight rates and charges in advance?",
+   "conclusion": "Transport operators designated by Presidential Decree as subject to reporting must set their rates and charges and report them in advance, and the same applies when changing them. The authority notifies acceptance within 14 days.",
+   "branches": [
+    {
+     "when": "You are a transport operator subject to reporting",
+     "then": "Set rates and charges and report them before operating, and file a change report each time they change."
+    },
+    {
+     "when": "You are not subject to reporting",
+     "then": "Start operating after the licence is issued without a rate and charge report."
+    }
+   ],
+   "docs": "Freight rate and charge report, rate and charge table",
+   "period": "Statutory: acceptance notified within 14 days of receiving the report or change report (if no notice is given, deemed accepted the day after the period ends)",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ft-forwarding",
+   "q": "With a trucking transport licence, can we also do international freight forwarding in Korea?",
+   "conclusion": "A trucking transport business licence and international freight forwarding business registration are separate licences under different laws. To run both businesses, you must meet each set of requirements and obtain each separately.",
+   "branches": [
+    {
+     "when": "You only provide domestic truck transport",
+     "then": "A trucking transport business licence is sufficient."
+    },
+    {
+     "when": "You also want to arrange import and export cargo",
+     "then": "Separately prepare international freight forwarding business registration under the Logistics Policy Framework Act (물류정책기본법)."
+    }
+   ],
+   "docs": "Trucking transport business licence documents, international freight forwarding business registration documents (separate)",
+   "period": "Each licence has its own processing period and depends on the competent authority's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ft-agent",
+   "q": "If we hire an administrative agent for a trucking business license in Korea, what exactly do they handle?",
+   "conclusion": "We handle pre-checks of the licence type and disqualification grounds, the garage installation confirmation application, preparation and filing of the licence application and attachments, checks of post-provisional-licence verification items and supplementation responses, and post-licensing change reports and the 5-year licensing criteria report. We do not handle vehicle purchases or garage lease contracts, transport contracts or rate negotiations, or license plate registration.",
+   "branches": [
+    {
+     "when": "You are applying for a new licence",
+     "then": "We prepare the application and filing documents from garage confirmation to receipt of the licence, file them with the competent city or province, and respond to supplementation requests."
+    },
+    {
+     "when": "You are an already licensed transport operator",
+     "then": "We prepare and file documents for vehicle replacement, trade name and representative change reports, branch office installation licences, rate and charge reports, and the 5-year licensing criteria report."
+    }
+   ],
+   "docs": "Letter of authorization, licence application and all attachments",
+   "period": "Statutory: licence issued within 20 days of the application date / In practice, depends on the readiness of vehicles and the garage",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-ft-permit",
+   "term": "Trucking transport business (화물자동차 운송사업)",
+   "def": "A business that, at the request of others, carries freight by truck for a fee. It requires a licence under the Trucking Transport Business Act (화물자동차 운수사업법)."
+  },
+  {
+   "id": "term-ft-general",
+   "term": "General trucking transport business (일반화물자동차 운송사업)",
+   "def": "A business that carries freight using 20 or more trucks. A business using a single truck is an individual trucking transport business (개인화물자동차 운송사업)."
+  },
+  {
+   "id": "term-ft-garage",
+   "term": "Garage installation confirmation (차고지 설치 확인서)",
+   "def": "A document issued within 10 days of application by the city mayor, county head or district head covering the garage site, confirming the garage installation. It is an attachment to the licence application."
+  },
+  {
+   "id": "term-ft-preliminary",
+   "term": "Provisional licence (예비허가증)",
+   "def": "A certificate issued after the competent authority reviews whether the attachments are complete and whether the supply standards for the business type are met. The licence is issued after the subsequent verification procedure."
+  },
+  {
+   "id": "term-ft-supply-standard",
+   "term": "Supply standards (공급기준)",
+   "def": "Licensing standards published by the Minister of Land, Infrastructure and Transport for each business type in light of freight transport demand."
+  },
+  {
+   "id": "term-ft-insurance",
+   "term": "Cargo liability insurance (적재물배상 책임보험)",
+   "def": "Cargo liability insurance or mutual aid taken out by a trucking transport operator. The competent authority checks enrollment before issuing the licence."
+  },
+  {
+   "id": "term-ft-replacement",
+   "term": "Vehicle replacement (대폐차)",
+   "def": "Replacing a truck in operation with another vehicle. It is subject to a minor change report rather than a change licence."
+  },
+  {
+   "id": "term-ft-periodic-report",
+   "term": "Licensing criteria report (허가기준 신고)",
+   "def": "The obligation of a transport operator to report matters relating to the licensing criteria to the authority every 5 years from the date of licensing."
+  }
+ ]
+}

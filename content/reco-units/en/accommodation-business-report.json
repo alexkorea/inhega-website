@@ -1,0 +1,182 @@
+{
+ "slug": "accommodation-business-report",
+ "lang": "en",
+ "label": "Accommodation Business Report",
+ "kw": "Lodging business license agent in Korea",
+ "answer": "An accommodation business report (숙박업 영업신고) is a report, not a permit, filed after the facilities and equipment are ready with the mayor, county head or district head with jurisdiction over the premises by anyone who wants to provide facilities, equipment and services where guests can sleep and stay. Complete hygiene training (3 hours) in advance and submit the report with a business facilities and equipment outline, proof of the right to use the facilities and the training certificate; the business report certificate is issued immediately, and if needed the facilities are inspected within 30 days of issuance. YouSun Administrative Agency prepares and files the accommodation business report.",
+ "services": [
+  {"name": "Preparing and filing the accommodation business report (숙박업 영업신고)", "href": "#term-acc-report"},
+  {"name": "Pre-reviewing the general or residential accommodation category and facility and equipment standards (숙박업(일반)·숙박업(생활) 구분)", "href": "#term-acc-general-living"},
+  {"name": "Preparing the business facilities and equipment outline (영업시설 및 설비개요서)", "href": "#term-acc-facility-outline"},
+  {"name": "Preparing proof of the right to use the facilities (for accommodation in part of a building, a liability insurance certificate or notarized documents) (시설 사용 권리 증명서류)", "href": "#sit-acc-partial-building"},
+  {"name": "Guidance on the pre-report hygiene training schedule (위생교육)", "href": "#term-acc-hygiene-education"},
+  {"name": "Preparing documents in response to city, county or district office supplementation requests (보완 대응)", "href": "#sit-acc-supplement"},
+  {"name": "Change reports for reported particulars (area increase or decrease of one-third or more, change between accommodation categories, etc.) (변경신고)", "href": "#term-acc-change"},
+  {"name": "Reports of succession to business operator status and closure reports (영업자 지위승계 신고·폐업신고)", "href": "#sit-acc-transfer"},
+  {"name": "Applying for reissuance of the business report certificate (영업신고증 재교부)", "href": "#svc-glance"},
+  {"name": "Guidance on related licenses such as urban homestay for foreign tourists, hanok experience business and change of building use (관련 인허가 연계)", "href": "#sit-acc-other-system"}
+ ],
+ "clients": [
+  "Individuals and companies opening or acquiring motel- or hotel-type lodging",
+  "Operators preparing a residence (residential accommodation) business with cooking facilities",
+  "Building owners and tenants planning to use some floors of a building as lodging",
+  "Foreign investors starting an accommodation business in Korea"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Businesses providing facilities, equipment and services where guests can sleep and stay (general accommodation and residential accommodation), excluding rural homestays, urban homestays for foreign tourists and hanok experience facilities"},
+  {"label": "Requirements", "value": "Premises in an independent location or separated and partitioned from other uses; for residential accommodation, cooking and ventilation facilities and a bathroom or shower room in each guest room; for accommodation in part of a building, an independent floor, 30 or more guest rooms or at least one-third of the gross floor area; 3 hours of hygiene training before the report"},
+  {"label": "Process", "value": "Complete hygiene training → Complete facilities and equipment → Submit the report and attachments to the mayor, county head or district head → Business report certificate issued immediately → Facility and equipment inspection if needed"},
+  {"label": "Documents", "value": "Accommodation business report form, business facilities and equipment outline, proof of the right to use the facilities and equipment (for part of a building, including a liability insurance certificate or notarized documents), hygiene training certificate"},
+  {"label": "Timeline", "value": "Business report certificate issued immediately; facility and equipment inspection within 30 days of issuance (time for training, facility work and document preparation is separate)"}
+ ],
+ "chooser": [
+  {"label": "Opening a new motel or inn-type lodging", "target": "sit-acc-how"},
+  {"label": "Running a residence with in-room cooking", "target": "sit-acc-living"},
+  {"label": "Using only some floors of a building as lodging", "target": "sit-acc-partial-building"},
+  {"label": "Taking over an operating lodging business", "target": "sit-acc-transfer"},
+  {"label": "Confused with homestay or urban homestay", "target": "sit-acc-other-system"}
+ ],
+ "situations": [
+  {
+   "id": "sit-acc-how",
+   "q": "We are opening a new motel in Korea. What is the step-by-step process for an accommodation business report?",
+   "conclusion": "Complete hygiene training first, set up the facilities and equipment, then submit the report and attachments to the mayor, county head or district head with jurisdiction over the premises. Once the report is received, the business report certificate is issued immediately.",
+   "branches": [
+    {"when": "You use the whole building as lodging", "then": "Confirm the premises are an independent location and prepare the business facilities and equipment outline."},
+    {"when": "You will not install cooking facilities", "then": "File as general accommodation."}
+   ],
+   "docs": "Accommodation business report form, business facilities and equipment outline, proof of the right to use the facilities, hygiene training certificate",
+   "period": "Business report certificate issued immediately; facility inspection, if needed, within 30 days of issuance / In practice, time for training and facility work comes first",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-period",
+   "q": "After submitting an accommodation business report in Korea, how long until we can start operating?",
+   "conclusion": "The mayor, county head or district head receiving the report must issue the business report certificate immediately. If a facility and equipment inspection is needed, it is carried out within 30 days of issuance.",
+   "branches": [
+    {"when": "Facilities and documents are all in place", "then": "Receive the business report certificate on the day of filing and prepare for the subsequent facility inspection."},
+    {"when": "You have not yet completed hygiene training", "then": "Schedule the training first; if there is an unavoidable reason such as a natural disaster, illness or overseas business trip, it can be taken within 6 months after the report."}
+   ],
+   "docs": "Accommodation business report form, business facilities and equipment outline, proof of the right to use the facilities, training certificate",
+   "period": "Business report certificate issued immediately; facility inspection within 30 days of issuance",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-cost",
+   "q": "How much does an accommodation business report cost in Korea, and what must be in place before filing?",
+   "conclusion": "Preparation centers on the facility and equipment standards. The premises must be separated and partitioned from other uses; residential accommodation needs cooking and ventilation facilities and a bathroom or shower room in each guest room; and 3 hours of hygiene training must be completed before the report.",
+   "branches": [
+    {"when": "You are converting an existing building into lodging", "then": "First check the use recorded in the building register and the state of separation and partitioning."},
+    {"when": "You use only part of the building", "then": "Check whether it meets one of: an independent floor, 30 or more guest rooms, or at least one-third of the gross floor area."}
+   ],
+   "docs": "Building details, business facilities and equipment outline, proof of the right to use the facilities such as a lease",
+   "period": "Business report certificate issued immediately / In practice, facility work time is added",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-living",
+   "q": "To run a residence with in-room cooking in Korea, do we need to file as residential accommodation?",
+   "conclusion": "With cooking facilities it is residential accommodation; without them it is general accommodation. Residential accommodation must have cooking facilities, ventilation facilities (or windows) and a bathroom or shower room in each guest room.",
+   "branches": [
+    {"when": "Guest rooms have cooking facilities", "then": "Prepare the equipment outline to the residential accommodation standards and file the report."},
+    {"when": "There are no cooking facilities", "then": "File as general accommodation."}
+   ],
+   "docs": "Accommodation business report form, business facilities and equipment outline (stating cooking, ventilation and bathroom equipment), proof of the right to use the facilities, training certificate",
+   "period": "Business report certificate issued immediately; facility inspection within 30 days of issuance",
+   "href": "#term-acc-general-living"
+  },
+  {
+   "id": "sit-acc-partial-building",
+   "q": "We want to use only a few floors of a building as lodging. Can we file an accommodation business report in Korea?",
+   "conclusion": "Accommodation in part of a building requires that the guest rooms occupy an independent floor, that there are 30 or more guest rooms, or that the premises cover at least one-third of the building's gross floor area.",
+   "branches": [
+    {"when": "One of these standards is met", "then": "File with a liability insurance certificate or notarized documents included in the proof of the right to use the facilities; the land and building register extracts are checked by the authority."},
+    {"when": "None of the standards is met", "then": "You need to rework the floor layout, room count or area plan before you can file."}
+   ],
+   "docs": "Accommodation business report form, business facilities and equipment outline, proof of the right to use the facilities (liability insurance certificate or notarized documents), training certificate",
+   "period": "Business report certificate issued immediately; facility inspection within 30 days of issuance",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-other-system",
+   "q": "We want to host foreign guests in a house in Korea. Do we file an accommodation business report or register an urban homestay?",
+   "conclusion": "Urban homestay for foreign tourists and hanok experience facilities registered under the Tourism Promotion Act (관광진흥법), and rural homestay facilities under the Rearrangement of Agricultural and Fishing Villages Act (농어촌정비법), are excluded from the accommodation business and have their own registration systems.",
+   "branches": [
+    {"when": "You host foreign tourists in an urban house", "then": "Review the requirements for urban homestay for foreign tourists registration."},
+    {"when": "You host both Korean and foreign guests in a commercial building, not a house", "then": "Review the facility standards for an accommodation business report."}
+   ],
+   "docs": "Building details, operating plan",
+   "period": "Processing periods differ by system; for accommodation, the business report certificate is issued immediately",
+   "href": "#term-acc-business"
+  },
+  {
+   "id": "sit-acc-transfer",
+   "q": "We acquired a motel that is already operating in Korea. Do we need to file a new accommodation business report?",
+   "conclusion": "A person who acquires the business and succeeds to the operator's status files a succession report within 1 month, attaching copies of proof of transfer. If the previous operator closes the business, a closure report is filed within 20 days of the closure date.",
+   "branches": [
+    {"when": "You take over the business as a going concern", "then": "File a report of succession to business operator status within 1 month."},
+    {"when": "The existing business closes and you start anew", "then": "The previous operator files a closure report within 20 days, and the new operator files a business report."}
+   ],
+   "docs": "Report of succession to business operator status, copies of proof of transfer, business report certificate",
+   "period": "Succession report within 1 month; closure report within 20 days of the closure date",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-supplement",
+   "q": "What should we do if issues are found in the facility inspection after our accommodation business report in Korea?",
+   "conclusion": "Issues usually concern separation and partitioning, the cooking, ventilation and bathroom standards for residential accommodation, the room count and area standards for accommodation in part of a building, or a missing training certificate or right-of-use documents. Fix the facilities and correct the equipment outline and documents.",
+   "branches": [
+    {"when": "Documents are missing", "then": "Supplement documents such as the training certificate and proof of the right to use the facilities."},
+    {"when": "Facility standards are not met", "then": "Upgrade the partitioning and equipment, then submit a corrected outline."}
+   ],
+   "docs": "Details of the supplementation request, revised business facilities and equipment outline, missing documents",
+   "period": "Facility inspection within 30 days of issuance / In practice, the supplementation period depends on the state of the facilities",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-change",
+   "q": "If we add guest rooms or switch from general to residential accommodation in Korea, do we need to file a report?",
+   "conclusion": "An increase or decrease of one-third or more in the premises area and a change between accommodation categories, among others, require a change report.",
+   "branches": [
+    {"when": "One-third or more of the area changes", "then": "Revise the equipment outline for the changed facilities and file a change report."},
+    {"when": "You switch from general to residential accommodation", "then": "File a change report after meeting the cooking, ventilation and bathroom standards."}
+   ],
+   "docs": "Change report, business report certificate, revised business facilities and equipment outline",
+   "period": "Depends on the processing by the competent city, county or district office",
+   "href": "#term-acc-change"
+  },
+  {
+   "id": "sit-acc-closure-order",
+   "q": "Can we run an accommodation business in Korea at a location that previously received a business closure order?",
+   "conclusion": "For 6 months after a closure order, no one may run the same type of business at that location. The person who received the closure order may not run the same type of business until 1 year has passed (where the order was not for violating specific laws such as those on arranging prostitution).",
+   "branches": [
+    {"when": "A new operator wants to use the same location", "then": "Check whether 6 months have passed since the closure order."},
+    {"when": "The person who received the closure order wants to operate again", "then": "Check whether 1 year has passed."}
+   ],
+   "docs": "Accommodation business report form, business facilities and equipment outline, proof of the right to use the facilities, training certificate",
+   "period": "File after the restriction period ends; business report certificate issued immediately",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-acc-agent",
+   "q": "If we hire an administrative agent for an accommodation business report in Korea, what exactly do they handle?",
+   "conclusion": "YouSun Administrative Agency pre-reviews the accommodation category and facility standards, prepares the business report and equipment outline, prepares attachments, files with the city, county or district office and handles supplementation, and files change, succession and closure reports. Hygiene training must be completed by the applicant in person.",
+   "branches": [
+    {"when": "Facility work has not started", "then": "The agency first reviews separation and partitioning and the standards for accommodation in part of a building against the drawings."},
+    {"when": "The facilities are ready", "then": "The agency organizes and files the report, outline and right-of-use documents."}
+   ],
+   "docs": "Copy of ID, lease or proof of ownership, facility drawings, hygiene training certificate, letter of authorization",
+   "period": "Business report certificate issued immediately / In practice, depends on facility preparation and any supplementation",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-acc-business", "term": "Accommodation business (숙박업)", "def": "A public health business providing facilities, equipment and services where guests can sleep and stay."},
+  {"id": "term-acc-general-living", "term": "General accommodation and residential accommodation (숙박업(일반)·숙박업(생활))", "def": "Sub-categories of the accommodation business: general accommodation excludes cooking facilities, and residential accommodation includes them."},
+  {"id": "term-acc-report", "term": "Business report (영업신고)", "def": "A report filed with the mayor, county head or district head with jurisdiction over the premises after the facilities and equipment are ready; once received, the business report certificate is issued immediately."},
+  {"id": "term-acc-facility-outline", "term": "Business facilities and equipment outline (영업시설 및 설비개요서)", "def": "A document describing the facilities and equipment of the premises, attached to the business report."},
+  {"id": "term-acc-hygiene-education", "term": "Hygiene training (위생교육)", "def": "3 hours of training taken in advance by anyone intending to file an accommodation business report, delivered as a combination of in-person and online training."},
+  {"id": "term-acc-change", "term": "Change report (변경신고)", "def": "A report filed when reported particulars change, such as an increase or decrease of one-third or more in the premises area or a change between accommodation categories."},
+  {"id": "term-acc-succession", "term": "Succession to business operator status (영업자 지위승계)", "def": "Taking over the operator's status, for example by acquiring the business; the successor reports within 1 month."}
+ ]
+}

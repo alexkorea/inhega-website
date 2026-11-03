@@ -1,0 +1,179 @@
+{
+ "slug": "haccp",
+ "lang": "en",
+ "label": "HACCP Certification",
+ "kw": "HACCP certification agent in Korea",
+ "answer": "HACCP certification in Korea is certification as a HACCP-applied business (식품안전관리인증기준적용업소) under the Food Sanitation Act (식품위생법). A food business operator that has written and operates prerequisite programs and HACCP standards applies to a certification body such as the Korea Agency of HACCP Accreditation and Services (한국식품안전관리인증원), attaching a HACCP plan for each covered food to the application. HACCP is mandatory for designated foods such as kimchi, confectionery and beverages, and for food manufacturing and processing sites with total revenue of KRW 10 billion or more in the previous year; other operators may apply voluntarily. Certification is valid for 3 years. YouSun Administrative Agency prepares and files the application and attachments and handles requests for supplementation.",
+ "services": [
+  {"name": "Preparing and filing the application for certification as a HACCP-applied business (식품안전관리인증기준적용업소 인증신청)", "href": "#term-hac-certified-business"},
+  {"name": "Pre-checking whether mandatory HACCP applies (15 food types and the previous-year revenue threshold) (의무적용 대상 검토)", "href": "#sit-hac-mandatory-check"},
+  {"name": "Compiling the attachment list and checking formal requirements (HACCP plan, prerequisite program documents, training certificates) (첨부서류 점검)", "href": "#svc-glance"},
+  {"name": "Correcting and resubmitting documents in response to certification body supplementation requests (보완 대응)", "href": "#term-hac-certification-body"},
+  {"name": "Preparing and filing change certification applications (CCP or business site relocation) (변경 인증 신청)", "href": "#term-hac-change"},
+  {"name": "Preparing and filing the validity extension application and tracking the 60-day pre-expiry deadline (유효기간 연장신청)", "href": "#term-hac-renewal"},
+  {"name": "Guidance on initial and periodic training schedules for operators and employees (교육훈련)", "href": "#term-hac-training"},
+  {"name": "Guidance on the prerequisite business license (food manufacturing and processing business registration) (식품제조·가공업 등록)", "href": "#sit-hac-no-license"},
+  {"name": "Pre-checking grounds for certification revocation or corrective orders (인증 취소·시정명령)", "href": "#sit-hac-revocation"}
+ ],
+ "clients": [
+  "Food manufacturing and processing businesses producing mandatory-HACCP foods such as kimchi, confectionery, bread and beverages",
+  "Food manufacturers newly falling under mandatory HACCP as previous-year revenue grows",
+  "Food business operators preparing for voluntary certification without a legal obligation",
+  "Certified sites planning a factory relocation, a CCP change or a validity extension",
+  "Foreign-invested companies that have set up a food plant in Korea"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Operators handling mandatory-HACCP foods designated by Ordinance of the Prime Minister (fish paste and fish sausage; frozen fish, mollusks and seasoned processed products; frozen pizza, dumplings and noodles; confectionery, candy, bread and rice cakes; ice confections; beverages; retort foods; kimchi; chocolates; fried, fresh, cooked and dried noodles; foods for special dietary uses; foods for special medical purposes; ready-to-eat foods; sundae), food manufacturing and processing sites with total revenue of KRW 10 billion or more in the previous year, and other operators applying voluntarily"},
+  {"label": "Requirements", "value": "Writing and operating prerequisite programs (facility standards and hygiene management standards), writing and operating HACCP standards including hazard analysis and CCP determination, and completion of initial training by the operator and employees (operator up to 2 hours, employees up to 16 hours)"},
+  {"label": "Process", "value": "Determine mandatory or voluntary status → Put prerequisite programs in place → Hazard analysis and CCP determination → Complete training → File the certification application → Certification body audit → Certificate issued → Surveys and evaluations at least once a year"},
+  {"label": "Documents", "value": "Application for certification as a HACCP-applied business, HACCP plan for each covered food, prerequisite program documents, hazard analysis and CCP determination records, business registration certificate and other business documents, initial training certificates"},
+  {"label": "Timeline", "value": "The audit period depends on how the prerequisite programs are operated and on whether the certification body requests supplementation. Certification is valid for 3 years from the date of certification, and an extension must be applied for at least 60 days before expiry"}
+ ],
+ "chooser": [
+  {"label": "Not sure whether your product is subject to mandatory HACCP", "target": "sit-hac-mandatory-check"},
+  {"label": "Not required, but you want certification", "target": "sit-hac-voluntary"},
+  {"label": "Preparing a new plant before business registration", "target": "sit-hac-no-license"},
+  {"label": "Relocating a certified plant or changing a process", "target": "sit-hac-change"},
+  {"label": "The 3-year validity is about to expire", "target": "sit-hac-renewal"}
+ ],
+ "situations": [
+  {
+   "id": "sit-hac-mandatory-check",
+   "q": "We manufacture kimchi or confectionery in Korea. How do we check whether HACCP is mandatory for us?",
+   "conclusion": "The Enforcement Rule of the Food Sanitation Act (식품위생법 시행규칙) lists mandatory-HACCP foods exhaustively, so the question is whether your products fall within a listed food group or sub-category. Kimchi (made mainly from napa cabbage through salting and seasoning) and confectionery, candy, bread and rice cakes are on the list.",
+   "branches": [
+    {"when": "Your products are on the mandatory list", "then": "You must comply with HACCP standards, so schedule the prerequisite program work and the application. Failing to comply when HACCP is mandatory is punishable by imprisonment of up to 3 years or a fine of up to KRW 30 million."},
+    {"when": "You only produce products not on the list", "then": "Check separately whether the site had total revenue of KRW 10 billion or more in the previous year; if neither applies, consider voluntary certification."},
+    {"when": "The same plant makes both mandatory and non-mandatory products", "then": "HACCP plans are written per covered food, so identify the mandatory products first and set the scope of the application."}
+   ],
+   "docs": "Product list and food types, business registration certificate, previous-year revenue records",
+   "period": "Determining coverage is a pre-review step with no statutory processing period",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-hac-sales-100",
+   "q": "Our food products are not on the mandatory list. Does HACCP become mandatory in Korea once our revenue grows?",
+   "conclusion": "Yes. Foods manufactured or processed at a food manufacturing and processing site with total revenue of KRW 10 billion or more in the previous year are subject to mandatory HACCP regardless of product type.",
+   "branches": [
+    {"when": "The site is a food manufacturing and processing business with previous-year total revenue of KRW 10 billion or more", "then": "HACCP standards must be applied to the foods made at that site, so start preparing for certification."},
+    {"when": "The site is below the revenue threshold and makes no mandatory products", "then": "There is no obligation, but you can apply for voluntary certification."}
+   ],
+   "docs": "Previous-year revenue records, business registration certificate, product list",
+   "period": "In practice, plan from the point revenue is finalized, allowing time for prerequisite programs and training"
+  },
+  {
+   "id": "sit-hac-voluntary",
+   "q": "HACCP is not mandatory for us, but a buyer requires it. Can we get HACCP certification in Korea voluntarily?",
+   "conclusion": "Yes. The Minister of Food and Drug Safety may certify as a HACCP-applied business not only operators required to comply but also operators who wish to comply.",
+   "branches": [
+    {"when": "You already operate prerequisite programs and HACCP standards", "then": "Apply to a certification body with the application and a HACCP plan for each covered food."},
+    {"when": "Your hygiene facility and management standards are not yet documented", "then": "Write the prerequisite programs and actually operate them before applying. The audit looks at how they are operated, not just the paperwork."}
+   ],
+   "docs": "Certification application, HACCP plan for each covered food, prerequisite program documents, training certificates",
+   "period": "Depends on how the prerequisite programs are operated and on whether the certification body requests supplementation"
+  },
+  {
+   "id": "sit-hac-period",
+   "q": "How long does HACCP certification take in Korea, from application to receiving the certificate?",
+   "conclusion": "The certification body audits how the prerequisite programs and HACCP standards are written and operated before issuing the certificate, so the timeline depends on your readiness before applying and on any supplementation during the audit.",
+   "branches": [
+    {"when": "You already operate prerequisite programs and HACCP standards and have completed training", "then": "After filing, only the certification body audit and certificate issuance remain."},
+    {"when": "You need to put facility and hygiene management standards in place", "then": "Time for writing the documents, operating them and completing initial training is added before you can apply."}
+   ],
+   "docs": "Certification application, HACCP plan for each covered food, prerequisite program documents, initial training certificates",
+   "period": "In practice, depends on readiness and supplementation. Once granted, certification is valid for 3 years",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-hac-cost",
+   "q": "How are HACCP certification fees set in Korea?",
+   "conclusion": "Fees for certification applications (including extensions) and change applications are not fixed amounts in the Enforcement Rule. They are set by the head of the Korea Agency of HACCP Accreditation and Services with the approval of the Minister of Food and Drug Safety, so check the agency's notice at the time of application.",
+   "branches": [
+    {"when": "You are applying for new certification", "then": "Along with the application fee in the agency's notice, first define the scope of pre-application work such as prerequisite programs and training."},
+    {"when": "You are already certified and applying for an extension or change", "then": "Check the fees set in the same way for extension and change applications."},
+    {"when": "You are also looking into facility upgrade support", "then": "Certified sites may receive priority for loan programs run by provinces, cities, counties or districts to improve hygiene management and sanitation facilities."}
+   ],
+   "docs": "Certification application or extension or change application, attachments",
+   "period": "Fees are checked as at the time of application; the overall schedule depends on readiness"
+  },
+  {
+   "id": "sit-hac-no-license",
+   "q": "We are opening a new food plant in Korea. Can we get HACCP certification before registering the business?",
+   "conclusion": "HACCP certifies an operator's business site, so if you do not yet hold a manufacturing business license, complete food manufacturing and processing business registration (식품제조·가공업 등록) first. The certification application must include the business registration certificate and other business documents.",
+   "branches": [
+    {"when": "You have not yet registered as a food manufacturing and processing business", "then": "Complete business registration first, and fit out the facility with the HACCP prerequisite programs (facility and hygiene management standards) in mind."},
+    {"when": "You have completed business registration", "then": "File the certification application after operating the prerequisite programs and completing training."}
+   ],
+   "docs": "Business registration certificate, certification application, HACCP plan for each covered food, prerequisite program documents",
+   "period": "Business registration and certification are separate procedures, so their processing times add up"
+  },
+  {
+   "id": "sit-hac-change",
+   "q": "If we relocate a HACCP-certified plant in Korea, do we need to get certified again?",
+   "conclusion": "A change of business site location is subject to change certification. Submit a change application with the existing certificate and a description of the change to the certification body; it confirms the change by document review or on-site inspection and reissues the certificate.",
+   "branches": [
+    {"when": "You are relocating the business site", "then": "Submit the change application and existing certificate to the certification body and have the change confirmed."},
+    {"when": "A process change means a critical control point (CCP) changes", "then": "Apply for change certification with a description of the CCP change."},
+    {"when": "Change certification has been granted", "then": "The validity is not a new 3 years but the remaining period of the original certification."}
+   ],
+   "docs": "Change application, existing certificate, description of the CCP change",
+   "period": "Depends on the certification body's document review or on-site inspection schedule"
+  },
+  {
+   "id": "sit-hac-renewal",
+   "q": "How many months before expiry should we prepare for HACCP renewal in Korea?",
+   "conclusion": "Submit the extension application with a HACCP plan for each covered food to the certification body at least 60 days before the validity expires. The certification body notifies the operator of the application deadline and procedure at least 90 days before expiry.",
+   "branches": [
+    {"when": "You have received the certification body's notice", "then": "Update the HACCP plan to reflect current processes and file the extension application within the notified deadline and procedure."},
+    {"when": "Processes or location changed after certification without change certification", "then": "Before extending, first sort out whether change certification is required."}
+   ],
+   "docs": "Extension application, HACCP plan for each covered food",
+   "period": "Statutory: apply at least 60 days before expiry; the certification body notifies at least 90 days before expiry / Extensions are granted for up to 3 years",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-hac-oem",
+   "q": "Our output of HACCP-certified products is growing. What should we check before outsourcing production to another plant (OEM) in Korea?",
+   "conclusion": "As a rule, certified foods may not be outsourced to another site for manufacturing or processing. The only exceptions are those set by Presidential Decree, such as outsourcing to a site certified for the same food.",
+   "branches": [
+    {"when": "The contract plant is certified for the same food", "then": "Check that the exception applies and define the scope of outsourcing."},
+    {"when": "The contract plant is not certified", "then": "Outsourced manufacturing is prohibited, so first check whether the contract plant holds certification. Violating the outsourcing ban for mandatory foods is punishable by imprisonment of up to 3 years or a fine of up to KRW 30 million."}
+   ],
+   "docs": "Contract plant's certificate, list of foods to be outsourced",
+   "period": "Depends on the contract plant's certification status"
+  },
+  {
+   "id": "sit-hac-revocation",
+   "q": "If our food business is suspended in Korea, is our HACCP certification also revoked?",
+   "conclusion": "If you receive a business suspension of 2 months or more under the Food Sanitation Act or the Act on Labeling and Advertising of Foods (식품 등의 표시·광고에 관한 법률), the certification must be revoked. The same applies if certification was obtained by false or fraudulent means.",
+   "branches": [
+    {"when": "You received a business suspension of 2 months or more", "then": "The certification will be revoked, so check the disposition and plan the timing of recertification."},
+    {"when": "Non-compliance with HACCP standards or incomplete training was found", "then": "These are grounds for revocation or a corrective order, so bring your operating records and training completion up to date."}
+   ],
+   "docs": "Disposition notice, certificate, training completion records, operating records",
+   "period": "Depends on the disposition and whether corrections are made"
+  },
+  {
+   "id": "sit-hac-agent",
+   "q": "If we hire an administrative agent for HACCP certification in Korea, what exactly do they handle?",
+   "conclusion": "Under a letter of authorization, an administrative agent prepares the certification, change and extension applications and attachments, files them with the certification body and responds to supplementation requests. Hazard analysis and the technical content of the HACCP plan, facility upgrades and construction for prerequisite programs, and on-site audit consulting belong to the operator and technical specialists.",
+   "branches": [
+    {"when": "You are unsure about mandatory status and the application documents", "then": "Start by reviewing the mandatory list and revenue threshold and compiling the attachment list."},
+    {"when": "The technical content of the HACCP plan is ready", "then": "Proceed with drafting the application, checking the attachments' format, filing and handling supplementation."},
+    {"when": "Your site is already certified", "then": "Prepare change certification for location or CCP changes and the extension application due 60 days before expiry."}
+   ],
+   "docs": "Letter of authorization, business registration certificate, HACCP plan, prerequisite program documents, training certificates",
+   "period": "Whether certification is granted depends on the certification body's audit"
+  }
+ ],
+ "glossary": [
+  {"id": "term-hac-haccp", "term": "Hazard Analysis and Critical Control Points, HACCP (식품안전관리인증기준)", "def": "Standards for identifying, evaluating and focusing control on hazards at every stage from raw material control through manufacturing, processing, cooking, subdividing and distribution, set and published for each food by the Minister of Food and Drug Safety."},
+  {"id": "term-hac-certified-business", "term": "HACCP-applied business (식품안전관리인증기준적용업소)", "def": "A business site of an operator required to comply with, or wishing to comply with, HACCP standards that has been certified. Uncertified sites may not use this designation."},
+  {"id": "term-hac-prerequisite", "term": "Prerequisite programs (선행요건관리기준)", "def": "The facility standards and hygiene management standards that must be in place before HACCP standards can be applied."},
+  {"id": "term-hac-ccp", "term": "Critical control point, CCP (중요관리점)", "def": "A step or process at which food hazards can be prevented or eliminated to ensure safety."},
+  {"id": "term-hac-certification-body", "term": "Certification body (인증기관)", "def": "A body such as the Korea Agency of HACCP Accreditation and Services to which the Minister of Food and Drug Safety has delegated certification work; it receives applications, conducts audits and issues certificates."},
+  {"id": "term-hac-change", "term": "Change certification (변경 인증)", "def": "Certification required when changing a certified CCP or business site location. Its validity is the remaining period of the original certification."},
+  {"id": "term-hac-renewal", "term": "Validity extension application (유효기간 연장신청)", "def": "An application to the certification body at least 60 days before the 3-year validity, counted from the date of certification, expires. If the standards are met, validity is extended for up to 3 years."},
+  {"id": "term-hac-training", "term": "Training (교육훈련)", "def": "Initial training for operators and employees of certified sites (operator up to 2 hours, employees up to 16 hours), periodic employee training (at least once a year, up to 4 hours) and ordered training (up to 8 hours)."}
+ ]
+}

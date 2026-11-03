@@ -1,0 +1,355 @@
+{
+ "slug": "ecig",
+ "lang": "en",
+ "label": "E-Cigarette Import Registration",
+ "kw": "E-cigarette import license agent in Korea",
+ "answer": "What is commonly called an e-cigarette import license is not a 'license' in law but tobacco import and sales business registration (담배수입판매업 등록) under the Tobacco Business Act (담배사업법), filed with the Mayor or Provincial Governor with jurisdiction over the head office or principal office. From April 24, 2026, the definition of tobacco was broadened to products made from tobacco leaf or nicotine, so synthetic nicotine liquids are also subject to registration. The requirement is a supply contract with a foreign tobacco manufacturer. After registration, you must report sales prices at least 6 days before sales begin and label the nicotine solution volume and the import declaration date. YouSun Administrative Agency prepares the registration application, files it with the city or province, and handles sales price reports.",
+ "services": [
+  {
+   "name": "Preparing and filing the tobacco import and sales business registration application for e-cigarettes and nicotine liquids (담배수입판매업등록신청)",
+   "href": "#term-ec-import-sales"
+  },
+  {
+   "name": "Document review of whether the product is tobacco (made from tobacco leaf or nicotine; pharmaceuticals and quasi-drugs excluded) (담배 해당 여부)",
+   "href": "#term-ec-tobacco"
+  },
+  {
+   "name": "Pre-checking grounds for disqualification (including the corporate representative)",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Reviewing the attachment requirements for the supply contract with a foreign tobacco manufacturer (담배 공급계약)",
+   "href": "#term-ec-supply-contract"
+  },
+  {
+   "name": "Receiving the registration certificate and handling supplementation requests",
+   "href": "#sit-ec-period"
+  },
+  {
+   "name": "Preparing and filing sales price reports (판매가격 신고)",
+   "href": "#term-ec-price-report"
+  },
+  {
+   "name": "Guidance on mandatory labeling items such as nicotine solution volume and import declaration date (니코틴 용액 용량 표시)",
+   "href": "#term-ec-nicotine-volume"
+  },
+  {
+   "name": "Managing the schedule for quarterly ingredient testing requests (성분 측정 의뢰)",
+   "href": "#term-ec-component-test"
+  },
+  {
+   "name": "Change registration applications (corporate name and representative, head office location, tobacco supplier) (변경등록)",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Preparing and filing retailer designation applications (소매인 지정)",
+   "href": "#term-ec-retailer"
+  }
+ ],
+ "clients": [
+  "Import companies bringing in synthetic nicotine liquids from overseas for distribution",
+  "Sole proprietors and corporations importing liquid-type and heated tobacco e-cigarette products",
+  "Korean subsidiaries of overseas e-cigarette manufacturers and foreign-invested companies",
+  "Operators of e-cigarette shops that have been selling nicotine liquids",
+  "Existing importers needing change registration due to a supplier change or head office move"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Anyone intending to import e-cigarettes or nicotine liquids made from tobacco leaf or nicotine in a form suitable for inhaling as vapor or the like, and sell them to wholesalers or retailers (pharmaceuticals and quasi-drugs under the Pharmaceutical Affairs Act (약사법) excluded)"
+  },
+  {
+   "label": "Requirements",
+   "value": "A tobacco supply contract with a foreign tobacco manufacturer and no grounds for disqualification (including the representative for a corporation); no capital, office floor area or storage facility requirements"
+  },
+  {
+   "label": "Process",
+   "value": "Determine the product's nature → check disqualification grounds → sign the supply contract → apply to the Mayor or Provincial Governor → registration certificate issued (related agencies notified within 7 days) → sales price report and labeling preparation → sell to wholesalers and retailers after customs clearance"
+  },
+  {
+   "label": "Documents",
+   "value": "Tobacco import and sales business registration application, 1 copy of the tobacco supply contract signed with a foreign tobacco manufacturer; after registration, sales price report documents and labeling materials such as nicotine solution volume and import declaration date"
+  },
+  {
+   "label": "Timeline",
+   "value": "Registration review depends on the competent city or province's review and whether supplementation is needed; sales price report at least 6 days before sales begin; ingredient testing requested within 1 month from the start of each quarter"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Importing synthetic nicotine liquids",
+   "target": "sit-ec-synthetic"
+  },
+  {
+   "label": "Importing zero-nicotine liquids",
+   "target": "sit-ec-no-nicotine"
+  },
+  {
+   "label": "Bringing in heated tobacco devices and sticks",
+   "target": "sit-ec-heated-device"
+  },
+  {
+   "label": "Planning to sell online",
+   "target": "sit-ec-online"
+  },
+  {
+   "label": "Running an existing liquid shop",
+   "target": "sit-ec-existing-shop"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-ec-synthetic",
+   "q": "We have been importing synthetic nicotine liquids into Korea. Do imports after April 2026 now require registration?",
+   "conclusion": "The amended definition of tobacco applies from cases where tobacco is shipped out of a manufacturing site or declared for import under the Customs Act (관세법) after it took effect on April 24, 2026. To sell products declared for import after that date, you need tobacco import and sales business registration.",
+   "branches": [
+    {
+     "when": "The synthetic nicotine liquid is declared for import after the effective date",
+     "then": "Register with the Mayor or Provincial Governor for the head office location using the supply contract with the foreign manufacturer, and file the sales price report."
+    },
+    {
+     "when": "The nicotine product is designated as a pharmaceutical or quasi-drug under the Pharmaceutical Affairs Act",
+     "then": "It is excluded from tobacco, so follow the Pharmaceutical Affairs Act procedures."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract",
+   "period": "Registration review varies by city or province / Sales price report at least 6 days before sales begin",
+   "href": "#term-ec-tobacco"
+  },
+  {
+   "id": "sit-ec-no-nicotine",
+   "q": "Do we need tobacco import and sales business registration in Korea to import zero-nicotine e-liquids?",
+   "conclusion": "Under the Tobacco Business Act, tobacco is a product made wholly or partly from tobacco leaf or nicotine, so whether registration applies is decided by the liquid's raw ingredients. If the ingredients contain tobacco leaf or nicotine, registration is required.",
+   "branches": [
+    {
+     "when": "The ingredients contain nicotine or tobacco leaf components",
+     "then": "It is treated as tobacco, so proceed with tobacco import and sales business registration and the sales price report."
+    },
+    {
+     "when": "The manufacturer's documents show no tobacco leaf or nicotine is used as a raw ingredient",
+     "then": "Obtain the ingredient documents to determine whether it meets the definition of tobacco, and review obligations under other laws separately for each item."
+    }
+   ],
+   "docs": "Manufacturer's ingredient documents, product specifications",
+   "period": "After the product is classified, the processing period of the relevant procedure applies",
+   "href": "#term-ec-tobacco"
+  },
+  {
+   "id": "sit-ec-heated-device",
+   "q": "What registration do we need in Korea to import heated tobacco devices together with their dedicated sticks?",
+   "conclusion": "Sticks and cartridges made from tobacco leaf or nicotine are tobacco and require tobacco import and sales business registration. Other obligations for the device itself, such as radio equipment certification, differ by item and proceed separately from registration.",
+   "branches": [
+    {
+     "when": "You import products made from tobacco leaf or nicotine, such as sticks and cartridges",
+     "then": "Sign a supply contract with the foreign manufacturer and register a tobacco import and sales business with the Mayor or Provincial Governor."
+    },
+    {
+     "when": "You import only the devices",
+     "then": "Devices are not products made from tobacco leaf or nicotine, so review separately for each item whether the definition of tobacco applies and what device-related obligations apply."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract, product composition documents",
+   "period": "Registration review depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#term-ec-import-sales"
+  },
+  {
+   "id": "sit-ec-cessation",
+   "q": "Are smoking cessation aids such as nicotine patches and gum subject to tobacco import and sales business registration like e-cigarettes?",
+   "conclusion": "The Tobacco Business Act expressly excludes pharmaceuticals and quasi-drugs under the Pharmaceutical Affairs Act from tobacco. Cessation aids designated as pharmaceuticals or quasi-drugs fall under the Pharmaceutical Affairs Act, and other nicotine inhalation products fall under the Tobacco Business Act; the two are mutually exclusive.",
+   "branches": [
+    {
+     "when": "The product is designated as a pharmaceutical or quasi-drug",
+     "then": "Follow the Pharmaceutical Affairs Act procedures, not tobacco import and sales business registration."
+    },
+    {
+     "when": "It is a nicotine inhalation product that is not a pharmaceutical or quasi-drug",
+     "then": "It is treated as tobacco, so register a tobacco import and sales business."
+    }
+   ],
+   "docs": "Product classification documents",
+   "period": "Once the applicable law is determined, its processing period applies",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ec-documents",
+   "q": "What documents do we prepare for an e-cigarette import license in Korea? Do we need proof of capital?",
+   "conclusion": "The statutory attachment is 1 copy of the supply contract signed with a foreign tobacco manufacturer. The tobacco import and sales business has no capital, office floor area or storage facility requirements.",
+   "branches": [
+    {
+     "when": "You are applying for registration",
+     "then": "Attach 1 copy of the supply contract to the tobacco import and sales business registration application and submit it to the Mayor or Provincial Governor for the head office location."
+    },
+    {
+     "when": "You also want to run a wholesale business",
+     "then": "Set up tobacco storage facilities and separately register a tobacco wholesale business with the city mayor, county head or district head."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract signed with a foreign tobacco manufacturer",
+   "period": "Registration review depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#term-ec-supply-contract"
+  },
+  {
+   "id": "sit-ec-cost-items",
+   "q": "Before working out the cost of an e-cigarette import license in Korea, what obligations after registration should we plan for?",
+   "conclusion": "After registration come the sales price report, labeling of warnings, nicotine solution volume and import declaration date, and quarterly ingredient testing requests. Failing to report sales prices or to request ingredient testing is subject to a fine of up to KRW 2 million.",
+   "branches": [
+    {
+     "when": "You are about to make your first sale",
+     "then": "Report sales prices by product to the Mayor or Provincial Governor at least 6 days before sales begin and publish them."
+    },
+    {
+     "when": "You are continuing sales",
+     "then": "Each quarter, within 1 month from the start of the quarter, request ingredient testing by product from a designated testing body."
+    }
+   ],
+   "docs": "Sales price report, labeling materials, ingredient testing request documents",
+   "period": "Statutory: sales price report at least 6 days before sales begin, ingredient testing requested within 1 month from the start of each quarter",
+   "href": "#term-ec-component-test"
+  },
+  {
+   "id": "sit-ec-period",
+   "q": "How long does an e-cigarette import license in Korea take, and when can we start selling?",
+   "conclusion": "The registration review period depends on the competent city or province's review and whether supplementation is needed, and after registration you can sell only once you have reported sales prices at least 6 days before sales begin. The city or province notifies related agencies such as the Commissioner of the Korea Customs Service within 7 days of registration.",
+   "branches": [
+    {
+     "when": "The supply contract and disqualification check are complete",
+     "then": "Proceed in this order: registration application → registration certificate → sales price report → sales after customs clearance."
+    },
+    {
+     "when": "It is unclear whether the product counts as tobacco",
+     "then": "First complete the classification using ingredient documents, then apply."
+    }
+   ],
+   "docs": "Tobacco import and sales business registration application, 1 copy of the supply contract, sales price report",
+   "period": "Statutory: sales price report at least 6 days before sales begin, related agencies notified within 7 days / In practice, the registration review period varies by city or province",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ec-labeling",
+   "q": "What must be labeled on the container when importing nicotine liquids into Korea?",
+   "conclusion": "Liquid-type tobacco must show the nicotine solution volume instead of smoke constituents, and tobacco made from nicotine must show on the packaging the date it was declared for import under the Customs Act. Health warnings are also required, and misleading wording that downplays the risks cannot be used.",
+   "branches": [
+    {
+     "when": "It is a liquid product",
+     "then": "Show the nicotine solution volume, import declaration date and health warnings on the container and packaging."
+    },
+    {
+     "when": "It is a liquid-type product, not a tobacco that is lit and smoked",
+     "then": "The fire-safety performance standards for tobacco that is lit and smoked do not apply."
+    }
+   ],
+   "docs": "Labeling materials (health warnings, nicotine solution volume, import declaration date)",
+   "period": "Complete the labeling before sale",
+   "href": "#term-ec-nicotine-volume"
+  },
+  {
+   "id": "sit-ec-online",
+   "q": "Can we import e-liquids and sell them through an online shop in Korea?",
+   "conclusion": "Importers sell to wholesalers or retailers, and only those with retailer designation can sell to consumers. Even designated retailers cannot sell to consumers by mail order or electronic transactions.",
+   "branches": [
+    {
+     "when": "You want to sell directly to consumers online",
+     "then": "Selling by electronic transaction is prohibited and subject to a fine of up to KRW 5 million, so change your sales channel."
+    },
+    {
+     "when": "You sold to consumers without retailer designation",
+     "then": "This is punishable by imprisonment of up to 6 months or a fine of up to KRW 5 million."
+    }
+   ],
+   "docs": "Retailer designation application, proof of the right to use the store (for offline sales)",
+   "period": "Statutory: retailer designation 7 days (extendable by 4 days if unavoidable)",
+   "href": "#term-ec-retailer"
+  },
+  {
+   "id": "sit-ec-existing-shop",
+   "q": "We run an e-cigarette shop that has been selling nicotine liquids. What if the distance rule makes retailer designation difficult?",
+   "conclusion": "The supplementary provisions of the amended Act allow that, for a person who was selling tobacco under the new definition at the time of promulgation and applied for retailer designation before the effective date, the distance standards may be waived until 2 years from the effective date, on condition that only tobacco under the new definition is sold.",
+   "branches": [
+    {
+     "when": "You were designated under the special provision",
+     "then": "You must meet the distance standard between outlets by the end of the 2 years; if you do not, the designation is deemed cancelled."
+    },
+    {
+     "when": "You sold conventional tobacco (cigarettes, etc.) during the special period",
+     "then": "The city mayor, county head or district head must cancel the retailer designation."
+    }
+   ],
+   "docs": "Retailer designation application, proof of the right to use the store",
+   "period": "Statutory: special provision for 2 years from the effective date, retailer designation 7 days (extendable by 4 days)",
+   "href": "#term-ec-retailer"
+  },
+  {
+   "id": "sit-ec-domestic-manufacture",
+   "q": "What license do we need to make e-liquids ourselves in Korea instead of importing them?",
+   "conclusion": "Domestic manufacturing requires a tobacco manufacturing licence from the Minister of Economy and Finance. For liquid-type tobacco, the standards are capital of KRW 10 billion or more, integrated process facilities with annual capacity of 400,000 liters or more, 5 or more staff with 3 or more years of experience, laboratory equipment for ingredient analysis, and a hazardous chemical manufacturing or use business permit.",
+   "branches": [
+    {
+     "when": "You bring in a foreign manufacturer's products",
+     "then": "Proceed with tobacco import and sales business registration, not a manufacturing licence."
+    },
+    {
+     "when": "You manufacture both liquid-type and other tobacco",
+     "then": "You need capital of KRW 30 billion or more and must meet each set of facility and quality control standards."
+    }
+   ],
+   "docs": "Tobacco manufacturing licence application documents (capital, facilities, staffing and quality control materials)",
+   "period": "Depends on the Ministry of Economy and Finance's review",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ec-agent",
+   "q": "If we hire an administrative agent for an e-cigarette import license in Korea, what exactly do they handle?",
+   "conclusion": "We handle document review of whether the product is tobacco, disqualification checks, review of the supply contract attachment requirements, preparation of the registration application and filing with the city or province, sales price reports, ingredient testing schedule management, and retailer designation applications. We do not handle import customs clearance (import declarations), assessments of whether product ingredients or labeling comply, or building systems to prevent sales to minors.",
+   "branches": [
+    {
+     "when": "You are starting to import for the first time",
+     "then": "We prepare the registration application, file it with the city or province for your head office, and respond to supplementation requests."
+    },
+    {
+     "when": "You need post-registration management",
+     "then": "We prepare and file sales price reports, change registration such as supplier changes, and retailer designation documents."
+    }
+   ],
+   "docs": "Letter of authorization, tobacco import and sales business registration application, copy of the supply contract",
+   "period": "Registration review depends on the competent city or province's review and whether supplementation is needed",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-ec-tobacco",
+   "term": "Tobacco (담배)",
+   "def": "A product made wholly or partly from tobacco leaf or nicotine in a form suitable for smoking, sucking, inhaling as vapor, chewing or sniffing. Pharmaceuticals and quasi-drugs under the Pharmaceutical Affairs Act are excluded."
+  },
+  {
+   "id": "term-ec-import-sales",
+   "term": "Tobacco import and sales business registration (담배수입판매업 등록)",
+   "def": "A registration filed with the Mayor or Provincial Governor with jurisdiction over the head office or principal office by a person intending to import tobacco and sell it to wholesalers or retailers."
+  },
+  {
+   "id": "term-ec-supply-contract",
+   "term": "Tobacco supply contract (담배 공급계약)",
+   "def": "The registration requirement for the tobacco import and sales business. It is signed with a foreign tobacco manufacturer, and 1 copy is attached to the registration application."
+  },
+  {
+   "id": "term-ec-price-report",
+   "term": "Sales price report (판매가격 신고)",
+   "def": "The obligation of an importer to report sales prices by product to the Mayor or Provincial Governor at least 6 days before sales begin, and to publish them."
+  },
+  {
+   "id": "term-ec-nicotine-volume",
+   "term": "Nicotine solution volume labeling (니코틴 용액 용량 표시)",
+   "def": "The obligation to show the nicotine solution volume on liquid-type tobacco instead of smoke constituents."
+  },
+  {
+   "id": "term-ec-component-test",
+   "term": "Ingredient testing request (성분 측정 의뢰)",
+   "def": "The obligation of manufacturers and importers to request testing of tobacco on sale, by product, from a designated testing body each quarter within 1 month from the start of the quarter."
+  },
+  {
+   "id": "term-ec-retailer",
+   "term": "Retailer designation (소매인 지정)",
+   "def": "A designation that a person who wants to sell tobacco directly to consumers obtains from the city mayor, county head or district head. Standards include a distance of 50 meters or more between outlets."
+  }
+ ]
+}

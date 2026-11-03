@@ -1,0 +1,175 @@
+{
+  "slug": "hanok",
+  "lang": "en",
+  "label": "Hanok stay business registration",
+  "kw": "Hanok stay business registration agent in Korea",
+  "answer": "Hanok stay business registration (한옥체험업 등록) is a tourist-use facility business registration filed with the head of the si/gun/gu under the Tourism Promotion Act (관광진흥법) by anyone who wants to offer tourists a hanok equipped for overnight stays or for traditional culture experiences such as traditional games and crafts. If you meet the 12 registration standards, including compliance with the hanok criteria and a total floor area under 230 square metres for the stay space, and submit the registration application with the hanok stay facility list, the statutory processing period is 14 days; unlike tourist accommodation businesses, business plan approval is not mandatory. YouSun Administrative Agency prepares and files the hanok stay business registration application and supporting documents on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the tourism business registration application for a hanok stay business (한옥체험업)", "href": "#term-hk-hanok-stay"},
+    {"name": "Preparing materials to confirm the building is a hanok (한옥) and meets the criteria notified by the Minister of Land, Infrastructure and Transport (국토교통부장관)", "href": "#term-hk-hanok"},
+    {"name": "Pre-review of the stay space total floor area (숙박 체험 공간 연면적) and whether the hanok qualifies for the area exception", "href": "#term-hk-floor-area"},
+    {"name": "Checking the 12 registration standards (amenities, fire safety, drinking water, ventilation, disinfection, on-site manager, posted rate table)", "href": "#term-hk-standards"},
+    {"name": "Organizing the hanok stay facility list (한옥체험업 시설별 일람표), floor plans and site plans", "href": "#term-hk-facility-list"},
+    {"name": "Preparing the business plan and proof of ownership of or right to use the property", "href": "#svc-glance"},
+    {"name": "Guidance on documents proving that a foreign applicant has no grounds for disqualification", "href": "#sit-hk-foreign"},
+    {"name": "Filing a change registration (변경등록) for number and area of rooms, amenity area, type of experience facilities, trade name or representative", "href": "#term-hk-change"},
+    {"name": "Filing a report of succession to status (지위승계 신고) after a transfer or merger", "href": "#sit-hk-transfer"},
+    {"name": "Guidance on completing safety and hygiene training (안전 및 위생 교육) after registration", "href": "#term-hk-education"},
+    {"name": "Handling supplement requests during the registration review", "href": "#sit-hk-agency"}
+  ],
+  "clients": [
+    "Owners who want to use their hanok as a stay experience space",
+    "Sole proprietors leasing a hanok to open a hanok stay",
+    "Businesses that want to run a traditional craft or games experience space",
+    "Buyers taking over a hanok stay business already in operation",
+    "Foreign business owners who want to run a hanok accommodation business in Korea"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to offer tourists (domestic or foreign alike) a hanok equipped for overnight stays or for traditional culture experiences such as traditional games and crafts"},
+    {"label": "Requirements", "value": "A hanok meeting the criteria notified by the Minister of Land, Infrastructure and Transport; stay space total floor area under 230 square metres (exceptions for cultural heritage, outstanding architectural assets and hanok designated by ordinance); amenities such as bathrooms and showers; fire extinguishers and stand-alone smoke detectors; drinking water and ventilation facilities; disinfection at least once a month; a manager on site during business hours; a posted rate table; no grounds for disqualification (no capital requirement)"},
+    {"label": "Process", "value": "Hanok criteria and floor area review → facility and operating set-up → registration application → review and site inspection → issuance of the tourism business registration certificate → safety and hygiene training and change registration management"},
+    {"label": "Documents", "value": "Tourism business registration application; business plan; document stating the name and resident registration number of the applicant (for a corporation, the representative and officers); proof of ownership or right to use the property (where not confirmed by the register extract); facility floor and site plans; hanok stay facility list; documents confirming compliance with the hanok criteria"},
+    {"label": "Timeline", "value": "New registration 14 days; report of succession to status 5 days; change registration to be filed within 30 days of the change"}
+  ],
+  "chooser": [
+    {"label": "Starting an accommodation business in a hanok", "target": "sit-hk-airbnb"},
+    {"label": "The hanok has a large floor area", "target": "sit-hk-floor-area"},
+    {"label": "Operating in a leased hanok", "target": "sit-hk-rental"},
+    {"label": "You took over a hanok stay in operation", "target": "sit-hk-transfer"},
+    {"label": "A foreign national is applying", "target": "sit-hk-foreign"}
+  ],
+  "situations": [
+    {
+      "id": "sit-hk-airbnb",
+      "q": "What registration do I need to run a hanok in Korea as a short-term rental like Airbnb?",
+      "conclusion": "To offer tourists a stay experience in a hanok, you register a hanok stay business with the head of the si/gun/gu. It differs in target guests and building requirements from the urban homestay business for foreign tourists, in which a resident of an urban area offers lodging and meals only to foreign tourists in the house they live in.",
+      "branches": [
+        {"when": "The building is a hanok and you want to host both domestic and foreign tourists", "then": "Meet the 12 hanok stay business registration standards and apply for registration."},
+        {"when": "The building is not a hanok, or you want to host only foreign tourists in the house you live in", "then": "Consider another scheme, such as the urban homestay business for foreign tourists."}
+      ],
+      "docs": "Tourism business registration application; business plan; documents confirming compliance with the hanok criteria; facility floor and site plans; hanok stay facility list",
+      "period": "Statutory: registration 14 days / in practice, it depends on whether facilities need supplementing",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-hk-floor-area",
+      "q": "Can I still register a hanok stay business if the floor area used for stays exceeds 230 square metres?",
+      "conclusion": "The total floor area of the space used for stay experiences, such as rooms and amenities, must be under 230 square metres. However, hanok designated or registered as cultural heritage, hanok registered as outstanding architectural assets, and hanok set by si/gun/gu ordinance, such as those in hanok villages or historic houses, are not subject to this limit.",
+      "branches": [
+        {"when": "The hanok does not qualify for an exception", "then": "Reduce the space used for stays to under 230 square metres and reflect it in the floor plan and facility list."},
+        {"when": "The hanok is cultural heritage, an outstanding architectural asset or designated by ordinance", "then": "Prepare proof of the designation or registration and apply without the area limit."}
+      ],
+      "docs": "Building register; floor area table for the stay space; facility floor plan; proof of designation or registration (for an exception hanok)",
+      "period": "Registration 14 days"
+    },
+    {
+      "id": "sit-hk-hanok-criteria",
+      "q": "Does a modern building with a tiled roof count as a hanok for a hanok stay business?",
+      "conclusion": "The test is not the roofing material but whether the main structure is a timber frame of columns, beams and a traditional Korean roof frame. The \"hanok architectural style\", which recreates the hanok form with modern materials and techniques, is distinguished from a hanok, and to register the building must also meet the criteria notified by the Minister of Land, Infrastructure and Transport.",
+      "branches": [
+        {"when": "The main structure is a traditional timber frame", "then": "Prepare materials confirming compliance with the notified criteria and apply for registration."},
+        {"when": "Only roof tiles sit on another structure, such as reinforced concrete", "then": "It may not meet the hanok requirements, so check first with the competent authority using the building documents."}
+      ],
+      "docs": "Building register; architectural drawings and photos showing the structure; documents confirming compliance with the hanok criteria",
+      "period": "Registration 14 days / in practice, time to confirm hanok status may be added"
+    },
+    {
+      "id": "sit-hk-fire-safety",
+      "q": "Which alarms must I install to offer stays in a hanok with individual heating?",
+      "conclusion": "If you offer stays, install a stand-alone smoke detector in each room, and if the heating is an individual system, also install a carbon monoxide alarm. Keep at least one fire extinguisher inside or near each room.",
+      "branches": [
+        {"when": "You also provide cooking facilities", "then": "Install and manage them in line with the laws on city gas, liquefied petroleum gas, fire prevention and fire-fighting systems."},
+        {"when": "You offer only traditional culture experiences without stays", "then": "The per-room stand-alone smoke detector duty does not apply; meet the other standards, such as keeping fire extinguishers."}
+      ],
+      "docs": "Fire-fighting equipment installation status; facility floor plan; hanok stay facility list",
+      "period": "Registration 14 days / in practice, it depends on whether equipment needs supplementing"
+    },
+    {
+      "id": "sit-hk-rental",
+      "q": "Can I register a hanok stay business in a leased hanok?",
+      "conclusion": "The registration application includes proof of ownership of or right to use the property, so you can apply with a leased hanok if a lease agreement proves your right to use it. Where this is confirmed through the property register extract, no separate submission is needed.",
+      "branches": [
+        {"when": "You lease the hanok from its owner", "then": "Attach proof of the right to use, such as the lease agreement, and if facility changes are needed, check whether the owner consents."},
+        {"when": "You own the hanok", "then": "The property register extract is checked through shared administrative information."}
+      ],
+      "docs": "Lease agreement (proof of right to use); tourism business registration application; business plan; facility floor and site plans; hanok stay facility list",
+      "period": "Registration 14 days"
+    },
+    {
+      "id": "sit-hk-period",
+      "q": "I am buying a hanok to run as accommodation. How long does hanok stay business registration take?",
+      "conclusion": "The statutory processing period after the registration application is 14 days, longer than for tourist accommodation businesses (7 days). Time after purchase for repairs, fire equipment installation and setting up operations such as disinfection and an on-site manager is separate.",
+      "branches": [
+        {"when": "The hanok already has the facilities and operating set-up", "then": "Prepare the documents, apply for registration and receive the certificate after review and site inspection."},
+        {"when": "Remodelling is needed", "then": "After the works, recheck the stay space floor area and facility standards before applying."}
+      ],
+      "docs": "Tourism business registration application; business plan; property register extract; facility floor and site plans; hanok stay facility list",
+      "period": "Statutory: registration 14 days / in practice, construction and supplement time is added"
+    },
+    {
+      "id": "sit-hk-cost",
+      "q": "What should I check before applying to keep hanok stay business registration costs down?",
+      "conclusion": "A hanok stay business has no capital requirement, so the preparation burden comes mainly from upgrading facilities to the standards. Checking first whether the building is a hanok, the stay space floor area, and the fire safety, drinking water and ventilation equipment reduces supplements and rework after you apply.",
+      "branches": [
+        {"when": "Compliant facilities are already in place", "then": "Focus on the registration documents and the operating set-up (disinfection, on-site manager, posted rate table)."},
+        {"when": "Equipment is lacking", "then": "List the missing items, fix them all at once, then apply."}
+      ],
+      "docs": "Building register; facility floor plan; fire equipment status; information on the drinking water supply method",
+      "period": "Registration 14 days / in practice, it depends on the scope of supplements"
+    },
+    {
+      "id": "sit-hk-agency",
+      "q": "If I hire an administrative agent for hanok stay business registration in Korea, what will they handle?",
+      "conclusion": "With your written authorization, an administrative agent organizes materials confirming hanok status, checks the registration standards, prepares the registration application and attachments such as the facility list, files them with the si/gun/gu, responds to supplement requests and handles change registrations. The agent does not decide whether a building is recognized as a hanok, and does not handle architectural design or construction or the running of booking and advertising channels.",
+      "branches": [
+        {"when": "The hanok and facilities are ready", "then": "The agent checks compliance with the 12 standards and prepares and files the registration documents."},
+        {"when": "Structural or facility works are needed first", "then": "Complete the architectural review and works first, then prepare the registration documents based on the result."}
+      ],
+      "docs": "Letter of authorization; building register; property title documents; facility floor plan",
+      "period": "Registration 14 days / acceptance and the outcome are decided by the competent authority"
+    },
+    {
+      "id": "sit-hk-transfer",
+      "q": "If I take over a hanok stay in operation, do I need a new hanok stay business registration?",
+      "conclusion": "When you acquire the business, you as transferee succeed to the tourism business operator's rights and obligations, so you file a report of succession to status instead of a new registration. The report must be filed within 1 month of the succession, and the processing period is 5 days.",
+      "branches": [
+        {"when": "Only the operator changes and the facilities stay as they are", "then": "Submit the report of succession to status and check whether the transferee has any grounds for disqualification."},
+        {"when": "You change the number or area of rooms or the experience facilities along with the takeover", "then": "After the succession report, also file a change registration within 30 days of the change."}
+      ],
+      "docs": "Report of succession to status; transfer agreement; transferee's personal details; existing tourism business registration certificate",
+      "period": "Statutory: report within 1 month of succession, processed in 5 days"
+    },
+    {
+      "id": "sit-hk-foreign",
+      "q": "How do the documents differ when a foreign national applies for hanok stay business registration in Korea?",
+      "conclusion": "If the applicant (for a corporation, the representative or officers) is a foreign national, the proof of having no grounds for disqualification is a document confirmed by the consul at the Korean diplomatic mission in that country, or an apostille. For a foreign-invested company, add proof of foreign investment under the Foreign Investment Promotion Act (외국인투자 촉진법).",
+      "branches": [
+        {"when": "A foreign individual applies", "then": "Prepare home-country documents with consular confirmation or an apostille, and submit the other documents as a Korean applicant would."},
+        {"when": "A foreign-invested company applies", "then": "Submit proof that the representative and officers have no grounds for disqualification together with proof of foreign investment."}
+      ],
+      "docs": "Proof of no grounds for disqualification (consular confirmation or apostille); proof of foreign investment (foreign-invested company); tourism business registration application; business plan; hanok stay facility list",
+      "period": "Registration 14 days / in practice, time to obtain documents abroad is added"
+    },
+    {
+      "id": "sit-hk-change",
+      "q": "If I add one more room to my hanok stay, do I need a change registration?",
+      "conclusion": "When the number and area of rooms, the amenity area or the type of experience facilities change, apply for change registration within 30 days of the change. After adding rooms, recheck that the stay space total floor area is still under 230 square metres.",
+      "branches": [
+        {"when": "The area stays under 230 square metres after the addition", "then": "Submit the change registration application with the updated floor plan and facility list."},
+        {"when": "The area reaches 230 square metres or more", "then": "First check whether the hanok qualifies for the area exception; if not, adjust the scope of the addition."}
+      ],
+      "docs": "Tourism business change registration application; updated facility floor plan; hanok stay facility list",
+      "period": "Statutory: apply within 30 days of the change"
+    }
+  ],
+  "glossary": [
+    {"id": "term-hk-hanok-stay", "term": "Hanok stay business (한옥체험업)", "def": "A tourist-use facility business that equips a hanok with facilities suited to tourists' stay experiences or to traditional culture experiences such as traditional games and crafts, and lets tourists use them."},
+    {"id": "term-hk-hanok", "term": "Hanok (한옥)", "def": "A building, and its annexes, whose main structure is a timber frame of columns, beams and a traditional Korean roof frame and which reflects traditional Korean style."},
+    {"id": "term-hk-floor-area", "term": "Stay space total floor area (숙박 체험 공간 연면적)", "def": "The total floor area of the space used for stay experiences, such as rooms and amenities; unless the hanok qualifies for an exception, it must be under 230 square metres."},
+    {"id": "term-hk-architectural-asset", "term": "Outstanding architectural asset (우수건축자산)", "def": "An architectural asset registered under the Act on Value Enhancement of Hanok and Other Architectural Assets (한옥 등 건축자산의 진흥에 관한 법률); a hanok that is an outstanding architectural asset is not subject to the notified hanok criteria or the area limit."},
+    {"id": "term-hk-standards", "term": "Hanok stay business registration standards (한옥체험업 등록기준)", "def": "Twelve items: compliance with the hanok criteria, floor area limit, amenities, fire safety, cooking facilities, drinking water, disinfection, cleaning and laundry, ventilation, bathroom water quality, an on-site manager, and a posted rate table."},
+    {"id": "term-hk-facility-list", "term": "Hanok stay facility list (한옥체험업 시설별 일람표)", "def": "A facility form specific to hanok stay businesses, attached to the registration application together with floor and site plans."},
+    {"id": "term-hk-change", "term": "Change registration (변경등록)", "def": "Registration filed within 30 days of a change in the number and area of rooms, the amenity area, the type of experience facilities, or the trade name or representative."},
+    {"id": "term-hk-education", "term": "Safety and hygiene training (안전 및 위생 교육)", "def": "Training that a registered hanok stay business operator must complete; failure to do so is subject to an administrative fine of up to KRW 1 million."}
+  ]
+}

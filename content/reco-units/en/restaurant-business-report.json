@@ -1,0 +1,185 @@
+{
+ "slug": "restaurant-business-report",
+ "lang": "en",
+ "label": "General Restaurant Business Report",
+ "kw": "Restaurant business license agent in Korea",
+ "answer": "A general restaurant business report (일반음식점 영업신고) is the report filed when opening a restaurant where drinking alcohol is allowed incidentally with meals; it is a report, not a permit. Before opening, complete food hygiene training (6 hours) and health examinations and meet the facility standards, then submit the business report and documents such as the training certificate to the city, county or district office (si·gun·gu) with jurisdiction over the premises. Acceptance is notified within 3 days of receipt. YouSun Administrative Agency prepares and files the business report and attachments.",
+ "services": [
+  {"name": "Preparing and filing the general restaurant business report (일반음식점 영업신고)", "href": "#term-rs-business-report"},
+  {"name": "Pre-checking compliance with facility standards (separation and partitioning, kitchen, water supply, restrooms) (시설기준)", "href": "#term-rs-facility"},
+  {"name": "Guidance on pre-opening food hygiene training and health examination schedules (식품위생교육·건강진단)", "href": "#term-rs-hygiene-education"},
+  {"name": "Guidance on related documents such as the safety facilities completion certificate for multi-use establishments (안전시설등 완비증명서)", "href": "#term-rs-safety-cert"},
+  {"name": "Organizing attachments such as a water quality test report when using groundwater (첨부서류)", "href": "#svc-glance"},
+  {"name": "Reviewing the business category (snack restaurant, bakery, entertainment bar, etc.) (업종 구분)", "href": "#sit-rs-alcohol"},
+  {"name": "Preparing and filing the report of succession to business operator status (영업자 지위승계 신고)", "href": "#term-rs-succession"},
+  {"name": "Change reports such as a change of business premises location (변경신고)", "href": "#term-rs-change-report"},
+  {"name": "Business closure report (폐업신고)", "href": "#sit-rs-close"}
+ ],
+ "clients": [
+  "Sole proprietors opening a new restaurant or pub-style eatery",
+  "Buyers taking over a restaurant already in operation",
+  "Franchise headquarters and companies opening multiple franchise outlets",
+  "Foreign-invested companies starting a restaurant business in Korea"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Businesses that cook and sell food where drinking alcohol is allowed incidentally with meals (if drinking is not allowed, it is a snack restaurant business)"},
+  {"label": "Requirements", "value": "Meeting facility standards such as separation and partitioning of the premises, kitchen cooking and washing facilities, waste containers and handwashing facilities, tableware sterilization facilities, and water supply and restroom facilities; completing 6 hours of food hygiene training before opening; health examinations for cooking staff"},
+  {"label": "Process", "value": "Complete pre-opening food hygiene training → Health examination → Complete facilities → Submit business report and attachments → Notification of acceptance and receipt of the business report certificate"},
+  {"label": "Documents", "value": "Business report form, training certificate (if training was completed in advance), water quality test report (if using groundwater, etc.), safety facilities completion certificate (if a multi-use establishment); the land use plan confirmation and building register are checked by the authority through shared administrative information"},
+  {"label": "Timeline", "value": "Acceptance is notified within 3 days of receipt; if no notice is given within that period, the report is deemed accepted on the day after the period ends. Time for training, health examinations and facility work is separate"}
+ ],
+ "chooser": [
+  {"label": "Opening a restaurant that also serves alcohol", "target": "sit-rs-alcohol"},
+  {"label": "Opening your first restaurant and unsure of the steps", "target": "sit-rs-process"},
+  {"label": "Taking over a restaurant in operation", "target": "sit-rs-takeover"},
+  {"label": "Hygiene training not yet completed", "target": "sit-rs-education"},
+  {"label": "Planning to close the restaurant", "target": "sit-rs-close"}
+ ],
+ "situations": [
+  {
+   "id": "sit-rs-alcohol",
+   "q": "If we want to serve alcohol, like a Korean fried chicken restaurant, do we file as a general restaurant or a snack restaurant in Korea?",
+   "conclusion": "A business where drinking alcohol is allowed incidentally with meals is reported as a general restaurant. Snack bars, fast-food outlets and cafes where drinking is not allowed are snack restaurants.",
+   "branches": [
+    {"when": "You sell alcohol along with meals", "then": "File a general restaurant business report."},
+    {"when": "You run a snack bar or cafe that does not sell alcohol", "then": "Consider a snack restaurant business report."},
+    {"when": "You mainly make and sell bread, rice cakes or confectionery", "then": "Check whether it is a bakery business, where drinking is not allowed."}
+   ],
+   "docs": "Business report form, training certificate, menu and business format description",
+   "period": "Once the category is decided and the report filed, acceptance is notified within 3 days"
+  },
+  {
+   "id": "sit-rs-process",
+   "q": "We have signed a commercial lease. What is the step-by-step process for a general restaurant business report in Korea?",
+   "conclusion": "First complete pre-opening food hygiene training, health examinations and the facilities, then submit the business report and attachments and receive the business report certificate. Opening without a report can be punishable, so complete the report first.",
+   "branches": [
+    {"when": "Facility work is not yet finished", "then": "Check the scope of work against the standards for separation and partitioning, kitchen, water supply and restrooms."},
+    {"when": "Facilities, training and health examinations are all done", "then": "Submit the business report to the city, county or district office with jurisdiction over the premises."}
+   ],
+   "docs": "Business report form, training certificate, water quality test report (if using groundwater)",
+   "period": "Statutory: acceptance notified within 3 days of receipt / Time for training and facility preparation is separate",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-rs-period",
+   "q": "Our opening date is set. When should we file the general restaurant business report in Korea?",
+   "conclusion": "The authority must notify acceptance within 3 days of receiving the report; if no notice is given, it is deemed accepted on the day after the period ends. Training, health examinations and facility work must be finished before filing, so secure time for these first.",
+   "branches": [
+    {"when": "Facilities, training and health examinations are all done", "then": "File before the opening date, allowing for the 3-day notification period."},
+    {"when": "You expect a supplementation request", "then": "Supplementation for issues such as unmet facility standards causes delays, so leave a margin."}
+   ],
+   "docs": "Business report form, training certificate",
+   "period": "Statutory: acceptance notified within 3 days / In practice, depends on any supplementation"
+  },
+  {
+   "id": "sit-rs-docs",
+   "q": "Besides the business report form, what documents are needed for a general restaurant business report in Korea?",
+   "conclusion": "Attach the training certificate obtained in advance to the business report, and add a water quality test report if you use groundwater or similar. The land use plan confirmation and building register are checked by the authority through shared administrative information, and if the premises is a multi-use establishment, the safety facilities completion certificate is also checked.",
+   "branches": [
+    {"when": "You use tap water", "then": "Prepare mainly the business report and training certificate, without a water quality test report."},
+    {"when": "The size or layout makes it a multi-use establishment", "then": "Obtain the safety facilities completion certificate in advance."}
+   ],
+   "docs": "Business report form, training certificate, water quality test report (if using groundwater), safety facilities completion certificate (if a multi-use establishment)",
+   "period": "Once the documents are complete and received, acceptance is notified within 3 days",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-rs-cost",
+   "q": "What costs are involved in a general restaurant business report in Korea?",
+   "conclusion": "Check the statutory fee with the competent authority when filing. Beyond the report itself, you need pre-opening food hygiene training, health examinations and work to meet facility standards, so plan these items together.",
+   "branches": [
+    {"when": "You are moving into a former restaurant space", "then": "Check whether the existing facilities meet the standards to reduce the scope of additional work."},
+    {"when": "You are converting a space used for another purpose into a restaurant", "then": "Check whether kitchen, water supply and restroom facilities and separation and partitioning must be newly installed."}
+   ],
+   "docs": "Business report form, training certificate, facility layout",
+   "period": "Depends on the scope of preparation; acceptance is notified within 3 days of filing"
+  },
+  {
+   "id": "sit-rs-takeover",
+   "q": "We acquired a restaurant that is already operating in Korea. Do we need to file a new business report?",
+   "conclusion": "When you acquire a business, you succeed to the operator's status, so instead of a new business report you file a report of succession to business operator status within 1 month of succession. The authority notifies acceptance within 3 days.",
+   "branches": [
+    {"when": "The business was transferred to you", "then": "Submit the report of succession to business operator status to the authority."},
+    {"when": "You acquired all the business facilities through an auction or sale of seized property", "then": "You also succeed to the status in this case, so file within 1 month."}
+   ],
+   "docs": "Report of succession to business operator status, proof of transfer, training certificate",
+   "period": "Statutory: file within 1 month of succession; acceptance notified within 3 days of filing"
+  },
+  {
+   "id": "sit-rs-facility",
+   "q": "What facility standards must a restaurant in a commercial building in Korea meet?",
+   "conclusion": "The premises must be separated, partitioned or distinguished from facilities for other uses, and the kitchen needs cooking facilities, washing facilities, waste containers, handwashing facilities and tableware sterilization facilities. Water supply facilities and a restroom with handwashing facilities are also part of the standards.",
+   "branches": [
+    {"when": "You use tap water", "then": "The water supply standard is met, so focus on the kitchen and restroom facilities."},
+    {"when": "You use groundwater or similar", "then": "Confirm compliance with water quality standards with a water quality test report."}
+   ],
+   "docs": "Facility layout, water quality test report (if using groundwater)",
+   "period": "Facility work time is separate from the report processing period"
+  },
+  {
+   "id": "sit-rs-education",
+   "q": "We have not yet completed pre-opening hygiene training. Can we file the restaurant business report in Korea first?",
+   "conclusion": "Anyone intending to run the business must complete food hygiene training in advance (6 hours for a general restaurant, in-person group training). However, the law provides an exception allowing training after opening if there are unavoidable reasons.",
+   "branches": [
+    {"when": "You can attend the training", "then": "Complete the training first and attach the training certificate to the business report."},
+    {"when": "You have already completed training for a snack restaurant or bakery", "then": "These are treated as the same group of business types, so it may be recognized as general restaurant training; the annual regular training for that year is taken separately."}
+   ],
+   "docs": "Training certificate, business report form",
+   "period": "The training schedule is separate from the report processing period"
+  },
+  {
+   "id": "sit-rs-pub",
+   "q": "For a bar with hostesses or entertainers, can we just file as a general restaurant in Korea?",
+   "conclusion": "Unlike general restaurants, entertainment bar businesses (유흥주점영업) and karaoke bar businesses (단란주점영업) require a business permit, not a report. Submit a permit application to the city, county or district office with jurisdiction over the premises.",
+   "branches": [
+    {"when": "You sell alcohol incidentally with meals", "then": "A general restaurant business report applies."},
+    {"when": "It is an entertainment bar or karaoke bar", "then": "Apply for a business permit with the food hygiene training certificate, and prepare documents to be checked such as the safety facilities completion certificate."}
+   ],
+   "docs": "Business permit application, training certificate, safety facilities completion certificate",
+   "period": "The permit processing period follows the schedule of the hygiene department of the city, county or district office"
+  },
+  {
+   "id": "sit-rs-close",
+   "q": "When closing a restaurant in Korea, do we also need to file a closure report with the district office?",
+   "conclusion": "When closing a reported business, you must file a closure report with the authority. However, you cannot file a closure report during a period of administrative sanctions such as business suspension, or while such disposition proceedings are under way.",
+   "branches": [
+    {"when": "No administrative disposition is pending", "then": "File a closure report with the authority."},
+    {"when": "You filed a closure report only with the tax office", "then": "The authority may cancel the business report ex officio, but confirm with the hygiene department whether a closure report has been filed."}
+   ],
+   "docs": "Closure report, business report certificate",
+   "period": "When you can file depends on whether a disposition is pending"
+  },
+  {
+   "id": "sit-rs-prior-closure",
+   "q": "Can we open a restaurant in Korea at a location that previously received a closure order?",
+   "conclusion": "If fewer than 6 months have passed since a registration cancellation or a business premises closure order, you cannot file a report to run the same type of business at the same location.",
+   "branches": [
+    {"when": "Fewer than 6 months have passed since the closure order", "then": "Schedule the report for after the period has passed."},
+    {"when": "6 months have passed, or it is a different type of business", "then": "File after meeting the facility standards and training requirements."}
+   ],
+   "docs": "Records of previous businesses in the building, business report form",
+   "period": "Depends on whether the 6-month restriction period has passed"
+  },
+  {
+   "id": "sit-rs-agent",
+   "q": "If we hire an administrative agent for a restaurant business report in Korea, what exactly do they handle?",
+   "conclusion": "Under a letter of authorization, an administrative agent reviews the business category and facility standards, prepares the business report and attachments, files them with the city, county or district office, handles supplementation, and later files succession, change and closure reports. Training and health examinations must be completed by the operator in person, and the competent authority decides on acceptance.",
+   "branches": [
+    {"when": "You are starting a new business", "then": "The agent checks facility standards, guides you on training and health examination schedules and files the report."},
+    {"when": "You took over an existing restaurant", "then": "The agent prepares the report of succession to business operator status due within 1 month."}
+   ],
+   "docs": "Letter of authorization, business report form, training certificate, lease documents",
+   "period": "Acceptance notified within 3 days of receipt"
+  }
+ ],
+ "glossary": [
+  {"id": "term-rs-general-restaurant", "term": "General restaurant business (일반음식점영업)", "def": "A business that cooks and sells food where drinking alcohol is allowed incidentally with meals."},
+  {"id": "term-rs-rest-restaurant", "term": "Snack restaurant business (휴게음식점영업)", "def": "A business that mainly cooks and sells teas, ice cream and the like, or cooks and sells food in the form of a fast-food outlet or snack bar, where drinking alcohol is not allowed."},
+  {"id": "term-rs-business-report", "term": "Business report (영업신고)", "def": "A report filed, after the facilities are ready, by anyone intending to run a business type subject to reporting such as a general restaurant, with the mayor, county head or district head with jurisdiction over the premises; acceptance is notified within 3 days."},
+  {"id": "term-rs-facility", "term": "Facility standards (시설기준)", "def": "Facility requirements for the business, such as separation and partitioning of the premises, kitchen cooking, washing, sterilization and handwashing facilities, water supply facilities and restrooms."},
+  {"id": "term-rs-hygiene-education", "term": "Food hygiene training (식품위생교육)", "def": "Training taken in advance by anyone intending to run the business; 6 hours for a general restaurant, followed by 3 hours of training every year after opening."},
+  {"id": "term-rs-succession", "term": "Succession to business operator status (영업자 지위승계)", "def": "Taking over the previous operator's status by a person who acquires all business facilities through transfer, inheritance, corporate merger, auction or similar; reported within 1 month."},
+  {"id": "term-rs-change-report", "term": "Change report (변경신고)", "def": "A report filed when important reported particulars such as the business premises location change; a change of premises location is reported within 7 days of the change."},
+  {"id": "term-rs-safety-cert", "term": "Safety facilities completion certificate (안전시설등 완비증명서)", "def": "A document certifying that premises qualifying as a multi-use establishment have the required safety facilities; it is checked when the business report is filed."}
+ ]
+}

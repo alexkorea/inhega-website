@@ -1,0 +1,187 @@
+{
+  "slug": "functional-cosmetics",
+  "lang": "en",
+  "label": "Functional cosmetics review",
+  "kw": "Functional cosmetics review agent in Korea",
+  "answer": "Functional cosmetics review (기능성화장품 심사) is the procedure in which cosmetics manufacturers, cosmetics responsible distributors and others that want to sell cosmetics claiming effects set by the Cosmetics Act (화장품법), such as whitening, wrinkle improvement or UV protection, have each product reviewed for safety and efficacy by the President of the National Institute of Food and Drug Safety Evaluation (식품의약품안전평가원장); in cases such as products identical to a published item, a report is submitted instead of a review. When you submit the review request with data on origin and development history, safety, efficacy, and specifications and test methods, the processing period is 60 days. YouSun Administrative Agency prepares and files functional cosmetics review requests and reports on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the functional cosmetics review (기능성화장품 심사) request", "href": "#term-fc-review"},
+    {"name": "Preparing and filing the report for items excluded from review (심사 제외 품목 보고)", "href": "#term-fc-report"},
+    {"name": "Checking whether the product falls within the 11 functional cosmetics categories (기능성화장품의 범위)", "href": "#term-fc-scope"},
+    {"name": "Determining whether the product requires review or only a report", "href": "#sit-fc-review-or-report"},
+    {"name": "Organizing the list of required data and checking which data may be waived (자료 제출 생략)", "href": "#term-fc-data-waiver"},
+    {"name": "Preparing and filing an amended review (변경심사) request", "href": "#term-fc-change-review"},
+    {"name": "Re-filing a report when a submitted report changes", "href": "#term-fc-report"},
+    {"name": "Preparing amended review documents for a transfer of rights", "href": "#sit-fc-transfer"},
+    {"name": "Guidance on whether cosmetics responsible distributor registration (화장품책임판매업 등록) is needed first", "href": "#term-fc-responsible-seller"},
+    {"name": "Handling supplement requests during the review", "href": "#sit-fc-supplement"}
+  ],
+  "clients": [
+    "Cosmetics responsible distributors launching new whitening or anti-wrinkle products",
+    "Cosmetics brands developing sunscreens",
+    "Importing responsible distributors bringing functional products from abroad to sell in Korea",
+    "Cosmetics manufacturers making functional products with their own formulations",
+    "Universities and research institutes with functional research results"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Cosmetics manufacturers, cosmetics responsible distributors, and universities, research institutes and laboratories that want products recognized and sold as functional cosmetics"},
+    {"label": "Requirements", "value": "The effect falls within the 11 functional cosmetics categories; the raw materials and quantities are justified by the data and the purpose of the formulation is recognized; the efficacy claims fit the category; the dosage and administration are clear with no room for misuse"},
+    {"label": "Process", "value": "Category check → review or report decision → data preparation → submission of the review request or report → review → issuance of the result notice or entry in the report register → amended review or re-report when changes occur"},
+    {"label": "Documents", "value": "Functional cosmetics review request or report for items excluded from review; origin and development history data; safety data; efficacy or function data; evidence for setting the SPF and PA (UVA protection grade) for UV protection products; specifications and test methods data (including samples)"},
+    {"label": "Timeline", "value": "Review request 60 days; reports and amended reviews depend on confirmation by the National Institute of Food and Drug Safety Evaluation and any supplements"}
+  ],
+  "chooser": [
+    {"label": "The product uses published ingredients exactly as notified", "target": "sit-fc-review-or-report"},
+    {"label": "Launching a sunscreen", "target": "sit-fc-sunscreen"},
+    {"label": "Importing a product from abroad", "target": "sit-fc-import"},
+    {"label": "Changing a product that has already been reviewed", "target": "sit-fc-change-review"},
+    {"label": "You received a supplement request", "target": "sit-fc-supplement"}
+  ],
+  "situations": [
+    {
+      "id": "sit-fc-certificate",
+      "q": "A buyer is asking for our functional cosmetics certificate in Korea. What document should we provide?",
+      "conclusion": "The Cosmetics Act has no functional cosmetics \"certification\" scheme. If the product was reviewed, the evidence is the functional cosmetics review or amended review result notice; if it was reported, it is the entry in the report register. Give the buyer the result notice or report record for that product.",
+      "branches": [
+        {"when": "The product was reviewed", "then": "Provide the review or amended review result notice issued by the President of the National Institute of Food and Drug Safety Evaluation."},
+        {"when": "The product is subject to a report", "then": "Provide the report record showing the report number and report date."},
+        {"when": "The product has not yet been reviewed or reported", "then": "Complete the product's review or report before making any functional claim."}
+      ],
+      "docs": "Functional cosmetics review or amended review result notice, or report record",
+      "period": "Review request 60 days / reports are entered in the register after the requirements are confirmed",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-fc-review-or-report",
+      "q": "Does a whitening cream made with the published ingredients and concentrations still need a functional cosmetics review in Korea?",
+      "conclusion": "If the type and content of the active ingredient, the efficacy claims, the dosage and administration, and the specifications and test methods are all the same as an item published by the Minister of Food and Drug Safety (식품의약품안전처장), you submit a report instead of a review. If any of them differs, the product is subject to review.",
+      "branches": [
+        {"when": "All four items match the published item", "then": "Submit the report for items excluded from review to the President of the National Institute of Food and Drug Safety Evaluation."},
+        {"when": "The content, dosage and administration or another item differs from the published item", "then": "Obtain a review by submitting the review request with safety and efficacy data and other materials."}
+      ],
+      "docs": "Report for items excluded from review or review request; formulation data; specifications and test methods data",
+      "period": "Review 60 days / reports are entered in the register after the requirements are confirmed"
+    },
+    {
+      "id": "sit-fc-sunscreen",
+      "q": "To launch a sunscreen as a functional cosmetic in Korea, do we need SPF and PA test data?",
+      "conclusion": "A UV protection product undergoing review must submit evidence for setting its SPF and UVA protection grade (PA). However, products with published ingredients and concentrations may omit this data, and a product identical in all respects to an already reviewed item is handled by report.",
+      "branches": [
+        {"when": "You seek review for a new formulation", "then": "Submit the review request including the evidence for setting the SPF and UVA protection grade."},
+        {"when": "Raw materials, content, specifications, dosage and formulation are the same as an already reviewed item", "then": "If the measured SPF is within minus 20 percent, it is treated as the same efficacy and you submit a report."}
+      ],
+      "docs": "Review request or report; evidence for setting the SPF and UVA protection grade; specifications and test methods data",
+      "period": "Review 60 days / in practice, time to prepare test data comes first"
+    },
+    {
+      "id": "sit-fc-hair-loss",
+      "q": "Can an anti-hair-loss shampoo ever be sold as a functional cosmetic in Korea by report rather than review?",
+      "conclusion": "For a hair-loss relief functional cosmetic to be subject to a report on the ground that it is identical to an already reviewed item, the existing item must have had its efficacy proven by a comparative test against a control group. Otherwise it is subject to review.",
+      "branches": [
+        {"when": "Ingredients, content and other items all match a published item", "then": "Handle it as a report of a published item."},
+        {"when": "The product makes hair look thicker physically, for example by coating", "then": "It is excluded from the hair-loss relief functional cosmetics category, so it cannot be claimed as functional."}
+      ],
+      "docs": "Review request or report; efficacy data (efficacy tests and human application tests); specifications and test methods data",
+      "period": "Review 60 days"
+    },
+    {
+      "id": "sit-fc-period",
+      "q": "How long should we allow for a functional cosmetics review in Korea to meet our launch schedule?",
+      "conclusion": "The processing period for a review request is 60 days. Time to produce safety and efficacy test data and to respond to supplement requests is separate, so build that margin into the launch schedule.",
+      "branches": [
+        {"when": "The product is subject to a report", "then": "It is entered in the report register after the requirements are confirmed, without review, so the preparation burden is lighter than for a review."},
+        {"when": "The product is subject to review", "then": "Plan the schedule as test data preparation → review request → 60-day review → result notice."}
+      ],
+      "docs": "Review request; data on origin and development history, safety, efficacy, and specifications and test methods",
+      "period": "Statutory: review 60 days / in practice, test data preparation and supplement time are added"
+    },
+    {
+      "id": "sit-fc-cost",
+      "q": "We are concerned about functional cosmetics review costs. Are there cases where a report is enough?",
+      "conclusion": "A report is submitted instead of a review for functional cosmetics identical to a published item, items identical in all respects to an already reviewed item, and items combining reviewed UV protection ingredients with published whitening or anti-wrinkle ingredients. Even for products under review, items with published ingredients and concentrations may omit the origin, safety, efficacy and UV protection evidence data.",
+      "branches": [
+        {"when": "The product falls under one of the three report cases", "then": "Submit the report for items excluded from review."},
+        {"when": "The item's specifications and test methods are published", "then": "You may omit the specifications and test methods data."}
+      ],
+      "docs": "Report for items excluded from review or review request; the required data that cannot be waived",
+      "period": "Review 60 days / reports are entered in the register after the requirements are confirmed"
+    },
+    {
+      "id": "sit-fc-agency",
+      "q": "If I hire an administrative agent for a functional cosmetics review in Korea, what will they handle?",
+      "conclusion": "With your written authorization, an administrative agent checks whether the product falls within the functional categories and whether it needs review or a report, organizes the list of required data, prepares the review request or report, files it with the National Institute of Food and Drug Safety Evaluation and responds to supplements. The agent does not design or conduct toxicity, efficacy or human application tests, interpret results, set specifications and test methods, or design efficacy claims.",
+      "branches": [
+        {"when": "Test data is already available", "then": "The agent organizes the data to meet form requirements and submits it with the review request."},
+        {"when": "No test data is available", "then": "Have a testing laboratory carry out the tests first, then prepare the submission documents from the results."}
+      ],
+      "docs": "Letter of authorization; cosmetics responsible distributor or manufacturer registration details; formulation data; test reports",
+      "period": "Review 60 days / the outcome is decided by the National Institute of Food and Drug Safety Evaluation"
+    },
+    {
+      "id": "sit-fc-import",
+      "q": "If we import a functional product already sold overseas, does it need a new review in Korea?",
+      "conclusion": "To sell a product as a functional cosmetic in Korea, each product must be reviewed by the President of the National Institute of Food and Drug Safety Evaluation or covered by a report. Imported products follow the same standards, and cosmetics responsible distributor registration is needed first for distribution in Korea.",
+      "branches": [
+        {"when": "Ingredients, content and other items match a Korean published item", "then": "Handle it by submitting a report."},
+        {"when": "The formulation differs from the Korean published items", "then": "Organize the overseas test data to meet Korean submission requirements and obtain a review."}
+      ],
+      "docs": "Review request or report; data on origin and development history, safety and efficacy; specifications and test methods data (including samples)",
+      "period": "Review 60 days / in practice, time to organize overseas data is added"
+    },
+    {
+      "id": "sit-fc-double",
+      "q": "How do we apply for a dual-function product claiming both whitening and UV protection in Korea?",
+      "conclusion": "An item that combines the ingredients and content of an already reviewed UV protection functional cosmetic with published whitening or anti-wrinkle ingredients and content, and in which raw materials, efficacy, specifications, dosage and formulation are all the same, is subject to a report. Other combinations require review.",
+      "branches": [
+        {"when": "You add published whitening or anti-wrinkle ingredients to a reviewed UV protection formulation", "then": "Confirm that all items match and submit a report."},
+        {"when": "You use a new ingredient or new content", "then": "Prepare data for each function and submit a review request."}
+      ],
+      "docs": "Report or review request; existing review result notice (UV protection item); formulation data",
+      "period": "Review 60 days / reports are entered in the register after the requirements are confirmed"
+    },
+    {
+      "id": "sit-fc-change-review",
+      "q": "If we change the formulation or directions of a reviewed functional cosmetic, do we need another review?",
+      "conclusion": "To change reviewed items, submit an amended review request for functional cosmetics to the President of the National Institute of Food and Drug Safety Evaluation, attaching the earlier review result notice and documents proving the reason for the change. For a reported item, submit the report again.",
+      "branches": [
+        {"when": "You change the content of a reviewed item", "then": "Submit an amended review request."},
+        {"when": "You change the content of a reported item", "then": "Submit the report again with the changed content."}
+      ],
+      "docs": "Amended review request for functional cosmetics; existing review result notice; proof of the reason for the change",
+      "period": "In practice, it depends on the scope of the change and any supplements"
+    },
+    {
+      "id": "sit-fc-transfer",
+      "q": "What documents do we need to transfer the rights to a reviewed functional cosmetic to another company?",
+      "conclusion": "When the reviewed party changes through a transfer of rights, you also submit an amended review request, attaching the transfer agreement as proof of the reason for the change.",
+      "branches": [
+        {"when": "The acquiring company holds cosmetics responsible distributor registration", "then": "Submit the amended review request with the existing result notice and the transfer agreement."},
+        {"when": "The acquiring company does not yet hold responsible distributor registration", "then": "To sell the product, it must obtain responsible distributor registration first."}
+      ],
+      "docs": "Amended review request for functional cosmetics; existing review result notice; transfer agreement",
+      "period": "In practice, it depends on any supplements"
+    },
+    {
+      "id": "sit-fc-supplement",
+      "q": "How should we respond to a supplement request in a functional cosmetics review in Korea?",
+      "conclusion": "First identify which standard the request concerns (the justification of raw materials and quantities, the fit of the efficacy claims to the category, or the clarity of dosage and administration), then revise and resubmit the matching data.",
+      "branches": [
+        {"when": "Form entries or the list of submitted data are incomplete", "then": "Organize the missing documents and entries and submit a supplement."},
+        {"when": "The test data itself is insufficient", "then": "Have a testing laboratory run additional tests and submit the results as supplementary data."},
+        {"when": "The dosage and administration wording was flagged as unclear", "then": "Revise it into clear wording that leaves no room for misuse and resubmit."}
+      ],
+      "docs": "Supplement request; revised submission data; additional test data (where applicable)",
+      "period": "Review 60 days / the overall schedule extends by the time the supplement takes"
+    }
+  ],
+  "glossary": [
+    {"id": "term-fc-functional", "term": "Functional cosmetics (기능성화장품)", "def": "Cosmetics within the scope set by the cosmetics laws that help with skin whitening, wrinkle improvement, UV protection or tanning, changing hair colour, removing hair or relieving hair loss, or improving weakened skin or hair function."},
+    {"id": "term-fc-scope", "term": "Scope of functional cosmetics (기능성화장품의 범위)", "def": "The functions set in eleven items by the Enforcement Rule of the Cosmetics Act: two whitening functions, wrinkle improvement, tanning, UV protection, hair colour change, body hair removal, hair-loss relief, relief of acne-prone skin, skin barrier function restoration, and relief of red stretch marks."},
+    {"id": "term-fc-review", "term": "Functional cosmetics review (기능성화장품 심사)", "def": "A procedure in which the President of the National Institute of Food and Drug Safety Evaluation receives a review request with product-specific safety and efficacy data and assesses raw materials and quantities, efficacy claims, and dosage and administration against the standards."},
+    {"id": "term-fc-report", "term": "Report for items excluded from review (심사 제외 품목 보고)", "def": "A procedure in which, for functional cosmetics identical to a published item or identical in all respects to an already reviewed item, a report is submitted instead of a review and entered in the report register."},
+    {"id": "term-fc-change-review", "term": "Amended review (변경심사)", "def": "A review obtained again when changing reviewed items, by submitting an amended review request with the existing result notice and proof of the reason for the change."},
+    {"id": "term-fc-result-notice", "term": "Review and amended review result notice (심사·변경심사 결과통지서)", "def": "A document issued by the President of the National Institute of Food and Drug Safety Evaluation after the review number, product name, efficacy claims and other details are entered in the review register; it is not a \"certificate\"."},
+    {"id": "term-fc-data-waiver", "term": "Data submission waiver (자료 제출 생략)", "def": "A rule allowing items with published ingredients and content to omit origin, safety, efficacy and UV protection evidence data, and items with published specifications and test methods to omit the specifications and test methods data."},
+    {"id": "term-fc-responsible-seller", "term": "Cosmetics responsible distributor (화장품책임판매업자)", "def": "A party registered as a responsible distributor in order to distribute and sell cosmetics; it is one of the parties that can file functional cosmetics reviews and reports."}
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "slug": "sports-facility-business-report",
+  "lang": "en",
+  "label": "Sports Facility Business Report",
+  "kw": "Sports facility business report agent in Korea",
+  "answer": "A sports facility business report (체육시설업 신고) is the report that anyone who wants to run a report-type sports facility business, such as a martial arts studio, fitness center, billiard hall, golf driving range or swimming pool, files with the city mayor, county head or district head where the business is located after installing facilities that meet the standards for that type. When the report is filed with proof of the right to use the premises and a summary of facilities and equipment, acceptance is notified within 7 days (5 days for a change report) and a report certificate is issued. YouSun Administrative Agency prepares and files the sports facility business report.",
+  "services": [
+    {
+      "name": "Preparing and filing the sports facility business report (체육시설업 신고)",
+      "href": "#term-sf-report"
+    },
+    {
+      "name": "Determining whether the business is a report-type or registration-type sports facility business (신고·등록 체육시설업)",
+      "href": "#term-sf-registered"
+    },
+    {
+      "name": "Pre-checking compliance with the facility standards for each type (시설 기준)",
+      "href": "#term-sf-facility-standard"
+    },
+    {
+      "name": "Drafting the summary of facilities and equipment (시설 및 설비 개요서)",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Organizing proof of the right to use the premises, such as the lease agreement",
+      "href": "#sit-sf-dojang-lease"
+    },
+    {
+      "name": "Guidance on whether sports instructors must be assigned (체육지도자 배치)",
+      "href": "#term-sf-instructor"
+    },
+    {
+      "name": "Responding to supplementation requests from the competent authority",
+      "href": "#sit-sf-period"
+    },
+    {
+      "name": "Sports facility business change report (변경신고)",
+      "href": "#term-sf-change"
+    },
+    {
+      "name": "Preparing documents for succession to status after a business transfer or inheritance (지위 승계)",
+      "href": "#term-sf-succession"
+    },
+    {
+      "name": "Notice of business suspension or closure (휴업·폐업 통보)",
+      "href": "#sit-sf-closure"
+    }
+  ],
+  "clients": [
+    "Individual founders opening a new exercise facility such as a gym (fitness center)",
+    "Businesses starting a taekwondo studio, billiard hall or golf driving range in a leased building",
+    "People who have acquired or inherited a sports facility in operation",
+    "Corporations running sports facilities across multiple branches"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Report-type sports facility businesses such as martial arts studios, fitness centers, billiard halls, golf driving ranges, swimming pools, dance academies and sports instruction businesses (golf courses, ski resorts and motor racing tracks require registration)"
+    },
+    {
+      "label": "Requirements",
+      "value": "Installing and maintaining facilities that meet the standards for each type (including common standards such as toilets, changing rooms and water supply suited to capacity), and assigning sports instructors above a certain scale"
+    },
+    {
+      "label": "Process",
+      "value": "Confirm the business type (report or registration) → install facilities that meet the standards → file the report and attachments → notice of acceptance → report certificate issued"
+    },
+    {
+      "label": "Documents",
+      "value": "Sports facility business report, proof of the right to use the premises such as a real estate lease agreement (if the property is owned by someone else), summary of facilities and equipment, copy of the temporary use approval (if the building is in temporary use)"
+    },
+    {
+      "label": "Timeline",
+      "value": "Acceptance notified within 7 days for a report and 5 days for a change report; if no notice is given within the period, the report is deemed accepted on the day after the period ends"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Opening a new gym",
+      "target": "sit-sf-gym"
+    },
+    {
+      "label": "Preparing a golf driving range or screen golf",
+      "target": "sit-sf-golf-practice"
+    },
+    {
+      "label": "Opening a martial arts studio in a leased building",
+      "target": "sit-sf-dojang-lease"
+    },
+    {
+      "label": "Taking over a facility in operation",
+      "target": "sit-sf-takeover"
+    },
+    {
+      "label": "Reported details changing, or suspending or closing",
+      "target": "sit-sf-change"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-sf-gym",
+      "q": "I want to open a gym in Korea. What is the order of steps for the fitness center business report?",
+      "conclusion": "A fitness center business is a report-type sports facility business, so you first install facilities that meet the standards and then file the report with the city mayor, county head or district head where the business is located. Once accepted, the sports facility business report certificate is issued.",
+      "branches": [
+        {
+          "when": "Opening in a leased building",
+          "then": "Attach proof of the right to use the premises, such as the lease agreement, and the summary of facilities and equipment to the report."
+        },
+        {
+          "when": "The facility is large and may require sports instructors",
+          "then": "Check the scale and staffing standards for the type and prepare an instructor assignment plan at the same time."
+        }
+      ],
+      "docs": "Sports facility business report, proof of the right to use the premises (if the property is owned by someone else), summary of facilities and equipment",
+      "period": "Statutory: acceptance notified within 7 days; in practice, facility construction takes separate time",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sf-golf-practice",
+      "q": "I want to open a golf driving range in Korea. Do I have to register it like a golf course?",
+      "conclusion": "A golf driving range business is a report-type sports facility business; golf courses, ski resorts and motor racing tracks require registration. A golf driving range is reported to the city mayor, county head or district head after meeting the facility standards.",
+      "branches": [
+        {
+          "when": "Running an indoor or outdoor golf driving range",
+          "then": "Check the facility standards for golf driving ranges and file the report with the summary of facilities and equipment."
+        },
+        {
+          "when": "Running a golf course with a course layout",
+          "then": "It is a registration-type sports facility business, so follow the procedure of business plan approval followed by registration with the Mayor or Do Governor."
+        }
+      ],
+      "docs": "Sports facility business report, proof of the right to use the premises (if the property is owned by someone else), summary of facilities and equipment",
+      "period": "Acceptance notified within 7 days"
+    },
+    {
+      "id": "sit-sf-dojang-lease",
+      "q": "What documents do I need to report a martial arts studio, such as a taekwondo studio, in a leased commercial unit in Korea?",
+      "conclusion": "Attach proof of the right to use the property, such as the lease agreement, and the summary of facilities and equipment to the martial arts studio business report. The corporate registry certificate is checked by the official in charge through administrative information sharing.",
+      "branches": [
+        {
+          "when": "The building is in temporary use before use approval",
+          "then": "Also submit a copy of the temporary use approval."
+        },
+        {
+          "when": "Opening in a building you own",
+          "then": "No proof of the right to use is needed; prepare mainly the report and the summary of facilities and equipment."
+        }
+      ],
+      "docs": "Sports facility business report, proof of the right to use the premises such as the lease agreement, summary of facilities and equipment, copy of the temporary use approval (if applicable)",
+      "period": "Acceptance notified within 7 days"
+    },
+    {
+      "id": "sit-sf-period",
+      "q": "How many days does a sports facility business report take in Korea after it is filed?",
+      "conclusion": "The competent authority must notify whether the report is accepted within 7 days of receipt, or within 5 days for a change report. If it gives no notice of acceptance or an extension within that period, the report is deemed accepted on the day after the period ends.",
+      "branches": [
+        {
+          "when": "The documents and facilities meet the standards",
+          "then": "After acceptance and entry in the report (change report) register, the report certificate is issued."
+        },
+        {
+          "when": "There are problems with the facility standards or attachments",
+          "then": "A supplementation request delays the process by that much, so check the facilities and the right-to-use documents before filing."
+        }
+      ],
+      "docs": "Sports facility business report, proof of the right to use the premises, summary of facilities and equipment",
+      "period": "Statutory: acceptance notified within 7 days for a report and 5 days for a change report; in practice, it depends on whether supplementation is needed",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-sf-cost",
+      "q": "Before looking into the cost of a sports facility business report in Korea, what facilities and documents do I need?",
+      "conclusion": "The report fee is set by local government ordinance and differs by city, county or district; the core of preparation is the facility standards and attachments. Under the common standards, provide toilets, changing rooms and water supply suited to capacity, and meet the standards for your business type.",
+      "branches": [
+        {
+          "when": "A report-type sports facility business other than a swimming pool",
+          "then": "Check the common standards on whether a washroom can replace the changing room."
+        },
+        {
+          "when": "Toilets and similar facilities are shared with other facilities",
+          "then": "Shared facilities may not need to be provided separately, so describe the sharing arrangement in the summary."
+        }
+      ],
+      "docs": "Sports facility business report, summary of facilities and equipment, proof of the right to use the premises (if the property is owned by someone else)",
+      "period": "Acceptance notified within 7 days; in practice, facility preparation takes separate time"
+    },
+    {
+      "id": "sit-sf-instructor",
+      "q": "How can I tell whether my sports facility in Korea is subject to the sports instructor assignment standard?",
+      "conclusion": "Sports facilities above a certain scale must assign sports instructors, and the scale and number of instructors for each type are set by the Enforcement Rule. Compare your business type and facility scale against the standard to determine whether it applies.",
+      "branches": [
+        {
+          "when": "The facility scale meets or exceeds the assignment standard",
+          "then": "Plan to assign the required number of sports instructors and build it into the report preparation."
+        },
+        {
+          "when": "The facility is small and not subject to assignment",
+          "then": "There is no assignment duty, so focus on the facility standards and report documents."
+        }
+      ],
+      "docs": "Summary of facilities and equipment (area and scale), sports instructor qualification records (if assignment applies)",
+      "period": "In practice, it depends on the competent authority's check and whether supplementation is needed"
+    },
+    {
+      "id": "sit-sf-change",
+      "q": "How do I file a change report in Korea when the facilities or reported details of my sports facility business change?",
+      "conclusion": "A change report only needs documents that prove the change. The competent authority notifies whether it is accepted within 5 days of receipt.",
+      "branches": [
+        {
+          "when": "Facility or equipment details have changed",
+          "then": "File the change report with documents showing the changed facilities."
+        },
+        {
+          "when": "Moving the business to another building",
+          "then": "First check the right-to-use documents for the new premises and compliance with the facility standards, and ask the competent authority how to report."
+        }
+      ],
+      "docs": "Sports facility business change report, documents proving the change",
+      "period": "Statutory: acceptance of a change report notified within 5 days"
+    },
+    {
+      "id": "sit-sf-takeover",
+      "q": "If I take over a gym that is already operating in Korea, do I need to file a new sports facility business report from scratch?",
+      "conclusion": "When a business is transferred, or inherited after the operator's death, the buyer or heir succeeds to the rights and obligations under the sports facility business report. Ask the competent city, county or district about the documents and procedure needed for the succession.",
+      "branches": [
+        {
+          "when": "You acquired the business from the previous operator",
+          "then": "Prepare documents showing the succession, such as the transfer agreement, and notify the competent authority."
+        },
+        {
+          "when": "You want to change the facilities along with the takeover",
+          "then": "Apart from the succession, also check whether a change report is required."
+        }
+      ],
+      "docs": "Documents showing the succession (transfer agreement or inheritance documents), existing report certificate",
+      "period": "In practice, it depends on the competent authority's review and whether supplementation is needed"
+    },
+    {
+      "id": "sit-sf-closure",
+      "q": "What procedure do I follow in Korea to close my sports facility for a few months or shut it down?",
+      "conclusion": "If you suspend business for 3 months or more or close it, you must notify the competent authority within 30 days of the suspension or closure. To suspend or close for more than a certain period, you must also inform members at least 14 days before the planned date.",
+      "branches": [
+        {
+          "when": "The suspension lasts 3 months or more",
+          "then": "Notify the competent authority within 30 days of the suspension date."
+        },
+        {
+          "when": "Closing a facility that has members",
+          "then": "Notify members at least 14 days before the planned date, and notify the competent authority within 30 days of the closure date."
+        }
+      ],
+      "docs": "Notice of business suspension or closure, report certificate",
+      "period": "Statutory: notice within 30 days of suspension or closure; members notified at least 14 days before the planned date"
+    },
+    {
+      "id": "sit-sf-unreported",
+      "q": "What penalties apply in Korea if I am caught running a sports facility without filing the report?",
+      "conclusion": "Running a sports facility business without a report (except for small-scale types) is punishable by imprisonment of up to 1 year or a fine of up to KRW 10 million. Violating the facility, safety or hygiene standards, or not carrying insurance, is a ground for a corrective order.",
+      "branches": [
+        {
+          "when": "You are already operating without a report",
+          "then": "Check the facility standards and right-to-use documents and file the report right away."
+        },
+        {
+          "when": "It is unclear whether your business is a small-scale type",
+          "then": "The reporting duty and penalties differ by type, so ask the competent authority whether it applies."
+        }
+      ],
+      "docs": "Sports facility business report, proof of the right to use the premises, summary of facilities and equipment",
+      "period": "Acceptance notified within 7 days"
+    },
+    {
+      "id": "sit-sf-agent",
+      "q": "If I hire an administrative agent for a sports facility business report in Korea, what do they handle?",
+      "conclusion": "Acting on your authorization, YouSun Administrative Agency drafts documents such as the sports facility business report and the summary of facilities and equipment, files them with the competent authority and handles supplementation. We do not handle facility design or construction, sports instructor qualifications or safety inspections, and acceptance of the report is decided by the competent authority.",
+      "branches": [
+        {
+          "when": "The facilities are in place and only the paperwork remains",
+          "then": "We confirm the business type, compare the facilities against the standards, and draft and file the report and summary."
+        },
+        {
+          "when": "Facility construction or a qualification is needed",
+          "then": "This is handled by the relevant companies or institutions; we only take the materials needed for the report and reflect them in the documents."
+        }
+      ],
+      "docs": "Lease agreement, facility records such as floor plans and photos, letter of authorization",
+      "period": "Acceptance notified within 7 days; in practice, it depends on whether supplementation is needed",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-sf-report",
+      "term": "Report-type sports facility business (신고 체육시설업)",
+      "def": "A sports facility business, such as a martial arts studio, fitness center, billiard hall, golf driving range or swimming pool, that operates after installing facilities and reporting to the city mayor, county head or district head."
+    },
+    {
+      "id": "term-sf-registered",
+      "term": "Registration-type sports facility business (등록 체육시설업)",
+      "def": "A sports facility business, such as a golf course, ski resort or motor racing track, that registers with the Mayor or Do Governor after business plan approval."
+    },
+    {
+      "id": "term-sf-facility-standard",
+      "term": "Facility standards (시설 기준)",
+      "def": "The standards set by Ordinance of the Ministry of Culture, Sports and Tourism (문화체육관광부령) for each type of sports facility business for the facilities that must be installed, maintained and managed."
+    },
+    {
+      "id": "term-sf-instructor",
+      "term": "Sports instructor assignment (체육지도자 배치)",
+      "def": "The duty to have the standard number of sports instructors for the business type at sports facilities above a certain scale."
+    },
+    {
+      "id": "term-sf-certificate",
+      "term": "Sports facility business report certificate (체육시설업 신고증명서)",
+      "def": "A certificate issued by the competent authority after it accepts the report and records it in the report register."
+    },
+    {
+      "id": "term-sf-change",
+      "term": "Change report (변경신고)",
+      "def": "A report filed with documents proving the change when reported details change; acceptance is notified within 5 days."
+    },
+    {
+      "id": "term-sf-deemed",
+      "term": "Deemed acceptance of a report (신고 수리 간주)",
+      "def": "If the competent authority does not notify acceptance or an extension within the processing period, the report is treated as accepted on the day after the period ends."
+    },
+    {
+      "id": "term-sf-succession",
+      "term": "Succession to status (지위 승계)",
+      "def": "When a sports facility operator dies or transfers the business, the heir or buyer takes over the rights and obligations under the report."
+    }
+  ]
+}

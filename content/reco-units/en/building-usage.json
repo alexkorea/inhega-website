@@ -1,0 +1,349 @@
+{
+ "slug": "building-usage",
+ "lang": "en",
+ "label": "Building Use Change",
+ "kw": "Building use change agent in Korea",
+ "answer": "Building use change (건축물 용도변경) is the procedure for changing the use of a building that has received use approval. Under the Building Act (건축법), which groups uses into 9 facility groups, moving to a higher group requires a permit, moving to a lower group requires a report, and a change within the same facility group requires an application to amend the building register entry. The application is filed with the Mayor of a Special Self-Governing City, Governor of a Special Self-Governing Province, or the city mayor, county head or district head, with the post-change floor plan and drawings showing changes to fire resistance, fire protection, evacuation and building services. There is no separate statutory processing period, so the timeline depends on the review of related laws and consultations. YouSun Administrative Agency prepares and files permit applications and reports.",
+ "services": [
+  {
+   "name": "Determining the facility groups of the current and new use and whether a permit, report or register amendment applies (시설군 판정)",
+   "href": "#term-bu-facility-group"
+  },
+  {
+   "name": "Pre-checking zoning districts and areas (land use plan confirmation)",
+   "href": "#sit-bu-lodging"
+  },
+  {
+   "name": "Preparing and filing building, major repair and use change permit applications (용도변경 허가 신청)",
+   "href": "#term-bu-permit"
+  },
+  {
+   "name": "Preparing and filing building, major repair and use change reports (용도변경 신고)",
+   "href": "#term-bu-report"
+  },
+  {
+   "name": "Application to amend the building register entry (건축물대장 기재내용 변경 신청)",
+   "href": "#term-bu-register-change"
+  },
+  {
+   "name": "Compiling attached drawings and checking whether design by an architect is required (floor area of 500 square meters or more)",
+   "href": "#term-bu-design"
+  },
+  {
+   "name": "Filing with the competent building department and handling supplementation requests",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Checking whether use approval rules apply and coordinating the use approval procedure (사용승인)",
+   "href": "#term-bu-use-approval"
+  },
+  {
+   "name": "Use change applications in response to corrective orders for unauthorized buildings",
+   "href": "#sit-bu-violation"
+  },
+  {
+   "name": "Guidance on business licenses after the use change (lodging, restaurant, factory registration, etc.)",
+   "href": "#sit-bu-business-license"
+  }
+ ],
+ "clients": [
+  "Tenants and building owners converting offices, warehouses or homes into restaurants, cafes, private academies and the like",
+  "Businesses converting neighborhood commercial facilities into lodging facilities to start a lodging business",
+  "Companies that need to sort out a building's use before factory registration or business licensing",
+  "Building owners and holders who have received a corrective order for an unauthorized use change"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Building owners and holders who want to change the use of a building that has received use approval (tenants apply with the building owner's consent)"
+  },
+  {
+   "label": "Requirements",
+   "value": "Meeting the building standards for the new use, conformity with zoning district and area restrictions under the National Land Planning and Utilization Act (국토의 계획 및 이용에 관한 법률), and meeting parking, evacuation and fire protection standards. If a permit is required and the total floor area of the changed part is 500 square meters or more, design by an architect"
+  },
+  {
+   "label": "Process",
+   "value": "Determine the facility group → review location and building standards → prepare design and drawings → apply for a permit or file a report (or register amendment application) → receive the permit or report certificate → use approval (if applicable) and building register update"
+  },
+  {
+   "label": "Documents",
+   "value": "Building, major repair and use change (amendment) permit application or (amendment) report, post-change floor plan for the floors whose use changes, drawings showing changes to fire resistance, fire protection, evacuation and building services, land use plan confirmation, building owner's consent (if a tenant applies)"
+  },
+  {
+   "label": "Timeline",
+   "value": "The building laws and regulations set no statutory processing period for use change permits or reports, so timing depends on the review of compliance with related laws and consultations with related agencies"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Converting an office or home into a restaurant",
+   "target": "sit-bu-office-restaurant"
+  },
+  {
+   "label": "Converting a commercial unit into lodging",
+   "target": "sit-bu-lodging"
+  },
+  {
+   "label": "Converting a warehouse or factory into a neighborhood commercial facility",
+   "target": "sit-bu-warehouse"
+  },
+  {
+   "label": "Switching between Class 1 and Class 2 neighborhood commercial facilities",
+   "target": "sit-bu-1to2"
+  },
+  {
+   "label": "Received a corrective order for an unauthorized use change",
+   "target": "sit-bu-violation"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-bu-office-restaurant",
+   "q": "To convert an office (business facility) into a restaurant in Korea, do I need a use change permit or just a report?",
+   "conclusion": "Business facilities belong to the residential and business facility group (group 8), and neighborhood commercial facilities, which include restaurants, belong to the neighborhood commercial facility group (group 7). This is a move to a higher group with a smaller number, so a permit is required. Floor area does not decide permit versus report; it decides whether use approval and design by an architect are required.",
+   "branches": [
+    {
+     "when": "The total floor area of the changed part is 100 square meters or more",
+     "then": "The use approval procedure applies (except where it is under 500 square meters and involves no major repair work)."
+    },
+    {
+     "when": "The total floor area of the changed part is 500 square meters or more",
+     "then": "Since a permit is required, an architect must prepare the design."
+    }
+   ],
+   "docs": "Building, major repair and use change (amendment) permit application, post-change floor plan, drawings showing changes to fire resistance, fire protection, evacuation and building services, land use plan confirmation",
+   "period": "No statutory processing period / In practice, depends on the review of compliance with related laws and consultations"
+  },
+  {
+   "id": "sit-bu-1to2",
+   "q": "We are changing a Class 1 neighborhood commercial facility to a Class 2 one. Do we need to apply for a use change?",
+   "conclusion": "Within the use restrictions of related laws, changes between Class 1 and Class 2 neighborhood commercial facilities do not even require an application to amend the building register entry. However, this exception does not apply when changing to uses separately listed in the Enforcement Decree, such as public baths, medical facilities or residential lodging facilities.",
+   "branches": [
+    {
+     "when": "It is a change between ordinary neighborhood commercial uses not on the exception list",
+     "then": "Confirm that the use is allowed in the zoning district, then use the space."
+    },
+    {
+     "when": "You are changing to a listed use such as a public bath, medical facility or residential lodging facility",
+     "then": "Follow the formal procedure, such as an application to amend the building register entry."
+    }
+   ],
+   "docs": "Building register, land use plan confirmation, register amendment application (if applicable)",
+   "period": "In practice, depends on the procedure required after checking whether the exception applies"
+  },
+  {
+   "id": "sit-bu-lodging",
+   "q": "How do I change the use of part of a commercial building to a lodging facility in Korea?",
+   "conclusion": "Lodging facilities belong to the business facility group (group 5) and neighborhood commercial facilities to group 7, so this is a move to a higher group and requires a permit. Whether it is actually possible depends on the zoning restrictions under the National Land Planning and Utilization Act and on meeting parking, evacuation and fire protection standards.",
+   "branches": [
+    {
+     "when": "Lodging facilities are allowed in the zoning district",
+     "then": "Obtain the permit with the application and drawings, complete use approval and the building register update, then move on to lodging business licensing."
+    },
+    {
+     "when": "You are considering residence-based lodging for foreign tourists",
+     "then": "Compare the requirements of the foreign tourist urban guesthouse business or the hanok experience business, which use housing."
+    }
+   ],
+   "docs": "Use change permit application, post-change floor plan, drawings for fire resistance, fire protection, evacuation and building services, land use plan confirmation, structural safety and fire consultation documents (if construction is involved)",
+   "period": "No statutory processing period / In practice, depends on the location review, consultations and the use approval schedule"
+  },
+  {
+   "id": "sit-bu-warehouse",
+   "q": "Do I need a permit to convert a warehouse into a neighborhood commercial facility to open a cafe in Korea?",
+   "conclusion": "Warehouse facilities belong to the industrial facility group (group 2) and neighborhood commercial facilities to group 7, so this is a move to a lower group and requires a report.",
+   "branches": [
+    {
+     "when": "The total floor area of the changed part is 100 square meters or more",
+     "then": "Even for a report, the use approval procedure applies (except where it is under 500 square meters and involves no major repair work)."
+    },
+    {
+     "when": "The changed part is under 100 square meters",
+     "then": "Receive the report certificate, update the building register, then proceed to the business report."
+    }
+   ],
+   "docs": "Building, major repair and use change (amendment) report, post-change floor plan, drawings showing changes to fire resistance, fire protection, evacuation and building services",
+   "period": "No statutory processing period / In practice, depends on the review of entries and whether supplementation is needed"
+  },
+  {
+   "id": "sit-bu-design",
+   "q": "Can I file a building use change report in Korea without an architect?",
+   "conclusion": "Under the Building Act, the design rules apply when a permit is required and the total floor area of the changed part is 500 square meters or more. However, even a report must include the post-change floor plan and drawings for fire resistance, fire protection, evacuation and building services.",
+   "branches": [
+    {
+     "when": "A permit is required and the area is 500 square meters or more",
+     "then": "Design by an architect is required, so schedule the design work first."
+    },
+    {
+     "when": "It is a report, or the area is under 500 square meters",
+     "then": "Prepare the required drawings and file the report."
+    }
+   ],
+   "docs": "Use change report, post-change floor plan, drawings showing changes to fire resistance, fire protection, evacuation and building services",
+   "period": "In practice, the time to prepare drawings drives the schedule"
+  },
+  {
+   "id": "sit-bu-small-shop",
+   "q": "If I change the use of an 80-square-meter shop, do I need separate use approval?",
+   "conclusion": "The use approval rules apply to permit- or report-based use changes when the total floor area of the changed part is 100 square meters or more, so an 80-square-meter change is not subject to them. The permit or report procedure itself still applies depending on the direction of the facility group move.",
+   "branches": [
+    {
+     "when": "The area is under 100 square meters",
+     "then": "Finish by receiving the permit or report certificate and updating the building register."
+    },
+    {
+     "when": "Several units are combined to reach 100 square meters or more",
+     "then": "Reassess whether the use approval rules apply."
+    }
+   ],
+   "docs": "Permit application or report, post-change floor plan, drawings for fire resistance, fire protection, evacuation and building services",
+   "period": "No statutory processing period"
+  },
+  {
+   "id": "sit-bu-period",
+   "q": "How long does a building use change in Korea take, from application to permit?",
+   "conclusion": "The building laws and regulations set no statutory processing period for use change permits or reports. The timeline depends on how the permitting authority's review of compliance with related laws and its consultations with related agencies progress.",
+   "branches": [
+    {
+     "when": "There are no location or building standard issues and the drawings are complete",
+     "then": "Receive the permit (or report certificate for a report), go through use approval if needed, and update the register."
+    },
+    {
+     "when": "Supplementation arises on parking, evacuation or fire protection standards or in the fire consultation",
+     "then": "The timeline extends by the time needed for remedial work or drawing revisions."
+    }
+   ],
+   "docs": "Permit application or report, post-change floor plan, drawings for fire resistance, fire protection, evacuation and building services, land use plan confirmation",
+   "period": "No statutory processing period / In practice, depends on consultations, supplementation and the use approval schedule",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-bu-cost",
+   "q": "I'm looking into the cost of a building use change in Korea. What procedures and documents are involved?",
+   "conclusion": "The work involves determining the facility group, reviewing location and building standards, preparing drawings, the permit or report, use approval (if applicable) and the building register update. If a permit is required for 500 square meters or more, design by an architect is added, and if construction is involved, structural safety and fire consultation documents are added.",
+   "branches": [
+    {
+     "when": "You are only changing the use on paper without construction",
+     "then": "Proceed with the permit or report using the floor plan and change drawings."
+    },
+    {
+     "when": "Structural, evacuation or fire-related construction is needed",
+     "then": "Prepare the construction plan and consultation documents together."
+    }
+   ],
+   "docs": "Permit application or report, post-change floor plan, drawings for fire resistance, fire protection, evacuation and building services, land use plan confirmation, structural safety and fire consultation documents (if construction is involved)",
+   "period": "No statutory processing period / In practice, depends on the drawings and the scope of construction"
+  },
+  {
+   "id": "sit-bu-violation",
+   "q": "We received a corrective order for an unauthorized building use change in Korea. What should we do?",
+   "conclusion": "Within the correction period, either legalize the change by obtaining a permit or filing a report, or restore the original use. If you do not correct it, a compulsory enforcement charge is imposed repeatedly, up to twice a year from the date of the first corrective order, as many times as the local ordinance sets, and it is increased by up to 100 percent for profit-driven or repeated violations.",
+   "branches": [
+    {
+     "when": "The new use fits the location and building standards",
+     "then": "Apply for a use change permit or file a report to legalize it."
+    },
+    {
+     "when": "The use is not allowed by the location or standards",
+     "then": "Restore the original use; once corrected, new enforcement charges stop (amounts already imposed are still collected)."
+    }
+   ],
+   "docs": "Corrective order, use change permit application or report, post-change floor plan, drawings for fire resistance, fire protection, evacuation and building services",
+   "period": "In practice, complete the application within the correction period stated in the corrective order"
+  },
+  {
+   "id": "sit-bu-tenant-cafe",
+   "q": "I'm a tenant who wants to open a cafe. What do I need from the building owner to change the building use in Korea?",
+   "conclusion": "The Building Act does not limit applicants to owners, but in practice the building owner's consent is required. A use change alters the building register entries, and corrective orders and enforcement charges for violations can be imposed on building owners and others, including owners and occupants.",
+   "branches": [
+    {
+     "when": "The building owner consents",
+     "then": "Obtain the consent form and proceed with the permit or report that matches the facility group determination."
+    },
+    {
+     "when": "It is hard to get the owner's consent",
+     "then": "Settle whether a use change is possible and the consent terms at the lease contract stage first."
+    }
+   ],
+   "docs": "Building owner's consent, lease agreement, use change permit application or report, post-change floor plan",
+   "period": "In practice, proceed after securing the consent"
+  },
+  {
+   "id": "sit-bu-business-license",
+   "q": "Can I file a restaurant business report in Korea first, without changing the building use?",
+   "conclusion": "Follow-up procedures such as business licensing can proceed only after the use change is completed and the building register entry is changed. For buildings whose corrective orders have not been complied with, the permitting authority can ask related agencies not to grant business permits and the like under other laws.",
+   "branches": [
+    {
+     "when": "The business is possible under the current registered use",
+     "then": "Proceed with business licensing right away."
+    },
+    {
+     "when": "The registered use does not match the business",
+     "then": "Complete the use change first, then file the business report."
+    }
+   ],
+   "docs": "Building register, use change permit or report certificate, business license application documents",
+   "period": "In practice, business licensing follows completion of the use change"
+  },
+  {
+   "id": "sit-bu-agency",
+   "q": "If I hire an administrative agent for a building use change in Korea, what exactly do they handle?",
+   "conclusion": "We support facility group determination and the permit-or-report decision, pre-checks of zoning district and area conformity, organization of the application and attached drawings, filing with the competent building department and supplementation responses, and use approval and the building register update. Whether to grant the permit is decided by the permitting authority.",
+   "branches": [
+    {
+     "when": "You only need the permit or report documents",
+     "then": "We compile the drawings, prepare the application, and handle filing and supplementation."
+    },
+    {
+     "when": "You need architectural design or structural or fire-related construction",
+     "then": "Design and construction are handled by an architect and contractor, and our office focuses on the permit documents and schedule."
+    }
+   ],
+   "docs": "Building register, land use plan confirmation, lease agreement and building owner's consent (for tenants), existing drawings",
+   "period": "No statutory processing period / In practice, depends on drawing preparation and the consultation schedule",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-bu-usage-change",
+   "term": "Building use change (용도변경)",
+   "def": "Changing the use of a building that has received use approval to another use. It must meet the building standards for the new use and, depending on the facility group, go through a permit, a report or a building register amendment."
+  },
+  {
+   "id": "term-bu-facility-group",
+   "term": "Facility group (시설군)",
+   "def": "The Building Act's classification of building uses into 9 groups, from the automobile-related group to the other facilities group. The smaller the number, the higher the group."
+  },
+  {
+   "id": "term-bu-permit",
+   "term": "Use change permit (용도변경 허가)",
+   "def": "A permit obtained from the permitting authority when changing to a use in a higher facility group with a smaller number than the current one."
+  },
+  {
+   "id": "term-bu-report",
+   "term": "Use change report (용도변경 신고)",
+   "def": "A report filed with the permitting authority when changing to a use in a lower facility group with a larger number than the current one. A report certificate is issued after the entries are reviewed."
+  },
+  {
+   "id": "term-bu-register-change",
+   "term": "Application to amend the building register entry (건축물대장 기재내용 변경 신청)",
+   "def": "An application filed when changing the use within the same facility group. Failing to file it is subject to an administrative fine."
+  },
+  {
+   "id": "term-bu-use-approval",
+   "term": "Application of use approval rules (사용승인 준용)",
+   "def": "For permit- or report-based use changes, the use approval rules apply when the total floor area of the changed part is 100 square meters or more, except where it is under 500 square meters and involves no major repair work."
+  },
+  {
+   "id": "term-bu-design",
+   "term": "Application of design rules (설계 준용)",
+   "def": "When a permit is required and the total floor area of the changed part is 500 square meters or more, the design rules apply and an architect must prepare the design."
+  },
+  {
+   "id": "term-bu-enforcement",
+   "term": "Compulsory enforcement charge (이행강제금)",
+   "def": "A monetary charge imposed repeatedly, up to twice a year, on building owners and others who receive a corrective order and do not correct the violation within the period, until it is corrected."
+  }
+ ]
+}

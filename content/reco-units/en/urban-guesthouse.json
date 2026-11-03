@@ -1,0 +1,349 @@
+{
+ "slug": "urban-guesthouse",
+ "lang": "en",
+ "label": "Foreign Tourist Urban Guesthouse Registration",
+ "kw": "Foreign tourist urban guesthouse registration agent in Korea",
+ "answer": "Foreign tourist urban guesthouse business registration (외국인관광 도시민박업 등록) is a tourism business registration filed with the city mayor, county head or district head where the home is located, when a resident of an urban area wants to provide lodging and meals to foreign tourists in a detached house, multi-household house, apartment, row house or multi-family house that they actually live in. The registration standards are a home with total floor area under 230 square meters, a foreign-language guidance system, a fire extinguisher and a standalone smoke alarm in each guest room, and a posted rate table. The statutory processing period is 14 days. YouSun Administrative Agency prepares and files the registration application and attachments.",
+ "services": [
+  {
+   "name": "Preparing and filing the tourism business registration application for a foreign tourist urban guesthouse (관광사업 등록신청, 외국인관광 도시민박업)",
+   "href": "#term-ug-business"
+  },
+  {
+   "name": "Pre-checking the urban area, actual residence, housing type and floor area requirements",
+   "href": "#term-ug-house"
+  },
+  {
+   "name": "Checking the registration standards (foreign-language guidance, fire extinguisher, smoke alarms, posted rate table) (등록기준)",
+   "href": "#term-ug-standard"
+  },
+  {
+   "name": "Preparing the business plan, floor plan and site layout",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Organizing proof of ownership or right of use of the home",
+   "href": "#sit-ug-tenant"
+  },
+  {
+   "name": "Guidance on non-disqualification documents for foreign applicants (consular confirmation or apostille)",
+   "href": "#sit-ug-foreign-host"
+  },
+  {
+   "name": "Change registration for trade name or representative (변경등록)",
+   "href": "#term-ug-change"
+  },
+  {
+   "name": "Report of succession of status following acquisition or merger (지위승계 신고)",
+   "href": "#term-ug-succession"
+  },
+  {
+   "name": "Notification of temporary suspension or closure of business",
+   "href": "#sit-ug-close"
+  },
+  {
+   "name": "Guidance on related licenses such as building use change and lodging business reports",
+   "href": "#sit-ug-officetel"
+  }
+ ],
+ "clients": [
+  "Homeowners who want to host foreign tourists in the detached house or apartment they live in",
+  "Tenants on jeonse or monthly rent who want to run an urban guesthouse in the home they live in",
+  "Foreign residents of Korea who want to host on home-sharing platforms",
+  "Existing urban guesthouse operators facing a change of operator, transfer or closure"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Residents of an urban area under the National Land Planning and Utilization Act (국토의 계획 및 이용에 관한 법률), excluding rural and semi-rural areas, who provide lodging and meals to foreign tourists in the detached house, multi-household house, apartment, row house or multi-family house they live in"
+  },
+  {
+   "label": "Requirements",
+   "value": "Home total floor area under 230 square meters; a foreign-language guidance service system; at least 1 fire extinguisher and a standalone smoke alarm in each guest room (a carbon monoxide alarm if individually heated); a rate table posted and followed at the premises and on the online interface; no grounds for disqualification"
+  },
+  {
+   "label": "Process",
+   "value": "Review location and housing requirements → check disqualification grounds → meet the registration standards → prepare the rate table → file with the city mayor, county head or district head → review and on-site check → tourism business registration certificate issued → safety and hygiene training and change registration management"
+  },
+  {
+   "label": "Documents",
+   "value": "Tourism business registration application, business plan, document stating the applicant's name and resident registration number, proof of ownership or right of use of the home (if not confirmed by the property register), floor plan and site layout, proof of non-disqualification for foreign nationals, foreign investment certification documents for foreign-invested companies"
+  },
+  {
+   "label": "Timeline",
+   "value": "New registration 14 days, succession of status report 5 days (statutory processing periods)"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Planning to operate in an officetel or commercial building",
+   "target": "sit-ug-officetel"
+  },
+  {
+   "label": "Running it from a home on jeonse or monthly rent",
+   "target": "sit-ug-tenant"
+  },
+  {
+   "label": "Using a home you don't live in",
+   "target": "sit-ug-not-living"
+  },
+  {
+   "label": "Already operating without registration",
+   "target": "sit-ug-unregistered"
+  },
+  {
+   "label": "Foreign national registering as a host",
+   "target": "sit-ug-foreign-host"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-ug-officetel",
+   "q": "I want to run an Airbnb in an officetel or a neighborhood commercial building in Korea. Can it be registered as an urban guesthouse?",
+   "conclusion": "No. Eligible homes are limited to detached houses, multi-household houses, apartments, row houses and multi-family houses under the Enforcement Decree of the Building Act (건축법 시행령), so officetels and neighborhood commercial facilities cannot be registered as a foreign tourist urban guesthouse.",
+   "branches": [
+    {
+     "when": "The building register lists the use as housing and the applicant lives there",
+     "then": "Meet the urban guesthouse registration standards and file for registration."
+    },
+    {
+     "when": "The building's use is not housing",
+     "then": "First check whether a building use change is possible, or, for a business serving the general public, review the lodging business report requirements under the Public Health Control Act (공중위생관리법)."
+    }
+   ],
+   "docs": "Building register, land use plan confirmation, proof of ownership or right of use of the home",
+   "period": "In practice, the use is checked first; if eligible, the statutory processing period for new registration is 14 days"
+  },
+  {
+   "id": "sit-ug-tenant",
+   "q": "What documents do I need to run a foreign tourist guesthouse in an apartment I rent on jeonse in Korea?",
+   "conclusion": "Tenants can apply if they actually live in the home. Since the right of use is not confirmed by the property register, submit proof of right of use such as the lease agreement. Apartment management rules or local ordinances may set additional requirements, so also check the standards of the competent city, county or district.",
+   "branches": [
+    {
+     "when": "You actually live in the home",
+     "then": "File for registration with proof of right of use, the business plan, and the floor plan and site layout."
+    },
+    {
+     "when": "Management rules or ordinances require consent or similar",
+     "then": "Obtain the documents that meet those requirements in advance."
+    }
+   ],
+   "docs": "Tourism business registration application, business plan, proof of right of use such as the lease agreement, floor plan and site layout, document stating name and resident registration number",
+   "period": "Statutory: new registration 14 days / In practice, depends on the on-site check schedule"
+  },
+  {
+   "id": "sit-ug-not-living",
+   "q": "Can I rent a separate home that I don't live in and register it as an urban guesthouse for foreign tourists?",
+   "conclusion": "No. A foreign tourist urban guesthouse uses the home the resident actually lives in, so actual residence is a requirement.",
+   "branches": [
+    {
+     "when": "You actually move into and live in that home",
+     "then": "Apply for registration after meeting the residence requirement."
+    },
+    {
+     "when": "You only want to run a lodging business without living there",
+     "then": "Review other licenses, such as a lodging business report under the Public Health Control Act, that fit the building's use and the business type."
+    }
+   ],
+   "docs": "Proof of residence such as resident registration, proof of ownership or right of use of the home, building register",
+   "period": "In practice, once the residence requirement is met and you apply, the statutory processing period is 14 days"
+  },
+  {
+   "id": "sit-ug-rooms",
+   "q": "My detached house has 5 rooms. Is there a limit on the number of guest rooms for an urban guesthouse?",
+   "conclusion": "The law sets no limit on the number of rooms or the area per room; the only cap is that the home's total floor area must be under 230 square meters.",
+   "branches": [
+    {
+     "when": "The home's total floor area is under 230 square meters",
+     "then": "Install a standalone smoke alarm in each guest room, provide a fire extinguisher, and register."
+    },
+    {
+     "when": "The total floor area is 230 square meters or more",
+     "then": "It cannot be registered under this business type, so consider other lodging-related business types."
+    }
+   ],
+   "docs": "Building register (to confirm total floor area), floor plan and site layout, record of fire safety equipment installed",
+   "period": "Statutory: new registration 14 days"
+  },
+  {
+   "id": "sit-ug-rural",
+   "q": "If I want to host foreign tourists in a countryside home, not in a city, do I register as an urban guesthouse?",
+   "conclusion": "The urban guesthouse business covers only homes in urban areas under the National Land Planning and Utilization Act, excluding rural and semi-rural areas. In rural areas, the rural homestay business under the Rural Community Improvement Act (농어촌정비법) applies.",
+   "branches": [
+    {
+     "when": "The home is in an urban area",
+     "then": "Proceed with foreign tourist urban guesthouse registration."
+    },
+    {
+     "when": "The home is in a rural or semi-rural area",
+     "then": "Review the rural homestay business report requirements."
+    }
+   ],
+   "docs": "Land use plan confirmation (to confirm the zoning), building register",
+   "period": "In practice, the zoning is confirmed first and then the procedure for the relevant business type is followed"
+  },
+  {
+   "id": "sit-ug-korean-guests",
+   "q": "Can my registered urban guesthouse accept bookings from Korean tourists?",
+   "conclusion": "In principle, this business type is for foreign tourists. Only when a village enterprise operates it under an urban regeneration activation plan may it also serve domestic tourists visiting the area, to the extent this does not interfere with use by foreigners.",
+   "branches": [
+    {
+     "when": "An individual operates it in their own home",
+     "then": "Manage the booking platform settings so only foreign tourists are accepted."
+    },
+    {
+     "when": "An urban regeneration village enterprise operates it",
+     "then": "It can accept domestic tourists while giving priority to foreign tourists."
+    }
+   ],
+   "docs": "Tourism business registration certificate, booking platform settings",
+   "period": "This is an operating standard after registration"
+  },
+  {
+   "id": "sit-ug-period",
+   "q": "How long does foreign tourist urban guesthouse registration in Korea take, from preparing documents to receiving the certificate?",
+   "conclusion": "The statutory processing period for new registration is 14 days. Before that, you need time to meet the registration standards: installing a fire extinguisher and smoke alarms, preparing the rate table, and drawing the floor plan and site layout.",
+   "branches": [
+    {
+     "when": "You apply with all registration standards met",
+     "then": "The tourism business registration certificate is issued after review and the on-site check."
+    },
+    {
+     "when": "The on-site check finds missing equipment",
+     "then": "Registration is delayed until the supplementation is completed."
+    }
+   ],
+   "docs": "Tourism business registration application, business plan, floor plan and site layout, proof of right of use of the home",
+   "period": "Statutory: new registration 14 days / In practice, time for equipment and supplementation is added",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ug-cost",
+   "q": "I'm looking into the cost of registering an Airbnb in Korea. What does the home need before I start operating?",
+   "conclusion": "The registration standards are a foreign-language guidance service system, at least 1 fire extinguisher, a standalone smoke alarm in each guest room (plus a carbon monoxide alarm if individually heated), and a rate table posted at the premises and on the online interface. There is no capital requirement.",
+   "branches": [
+    {
+     "when": "The home has central heating",
+     "then": "Provide a fire extinguisher and a standalone smoke alarm in each guest room."
+    },
+    {
+     "when": "The home is individually heated",
+     "then": "Also install a carbon monoxide alarm in each guest room."
+    }
+   ],
+   "docs": "Record of fire safety equipment installed, rate table, foreign-language guidance materials, floor plan and site layout",
+   "period": "Statutory: new registration 14 days / In practice, time to install equipment is needed first"
+  },
+  {
+   "id": "sit-ug-unregistered",
+   "q": "I'm listing an unregistered property on Airbnb in Korea. Can I just register it now?",
+   "conclusion": "If the home meets the requirements, register now and operate after that. The Tourism Promotion Act (관광진흥법) has no penalty provision for operating an urban guesthouse without registration itself, but running a lodging business without registration or a lodging business report may be punishable under the Public Health Control Act by imprisonment of up to 2 years or a fine of up to KRW 20 million.",
+   "branches": [
+    {
+     "when": "It is a home you live in, in an urban area, with total floor area under 230 square meters",
+     "then": "Meet the registration standards and file for registration right away."
+    },
+    {
+     "when": "It is not eligible, such as an officetel or a home you don't live in",
+     "then": "Stop operating and first review whether a license suited to the building's use is possible."
+    }
+   ],
+   "docs": "Tourism business registration application, business plan, proof of ownership or right of use of the home, floor plan and site layout",
+   "period": "Statutory: new registration 14 days"
+  },
+  {
+   "id": "sit-ug-foreign-host",
+   "q": "I'm a foreign national. Can I register a foreign tourist urban guesthouse in the home I live in in Korea?",
+   "conclusion": "Yes. The document rules anticipate foreign applicants, so you can apply. Requirements such as actual residence are the same, and you submit a document proving you do not fall under the grounds for disqualification, with consular confirmation by the Korean mission in your country or an apostille.",
+   "branches": [
+    {
+     "when": "You apply as an individual",
+     "then": "Apply with the non-disqualification document and proof of right of use of the home you live in."
+    },
+    {
+     "when": "You plan to operate through a foreign-invested company",
+     "then": "Also submit foreign investment certification documents under the Foreign Investment Promotion Act (외국인투자 촉진법)."
+    }
+   ],
+   "docs": "Tourism business registration application, business plan, non-disqualification document (consular confirmation or apostille), proof of right of use of the home, floor plan and site layout",
+   "period": "Statutory: new registration 14 days / In practice, time to obtain documents in your home country is added"
+  },
+  {
+   "id": "sit-ug-close",
+   "q": "How do I report a temporary break or closure of my urban guesthouse in Korea?",
+   "conclusion": "If you suspend all or part of the business for 1 month or more, or close it, you must notify the head of the competent registration authority; failing to do so is a ground for administrative sanctions. If only the operator (representative) changes, file change registration within 30 days.",
+   "branches": [
+    {
+     "when": "You are pausing for 1 month or more or stopping",
+     "then": "Notify the competent city, county or district of the suspension or closure."
+    },
+    {
+     "when": "You are handing operation over to a family member or someone else",
+     "then": "For a change of representative, file change registration within 30 days of the change; for an acquisition of the business, file a succession of status report within 1 month."
+    }
+   ],
+   "docs": "Notice of suspension or closure, tourism business registration certificate, change registration application or succession of status report (if applicable)",
+   "period": "Statutory: change registration within 30 days, succession of status report within 1 month (processing 5 days)"
+  },
+  {
+   "id": "sit-ug-agency",
+   "q": "If I hire an administrative agent for foreign tourist urban guesthouse registration in Korea, what exactly do they handle?",
+   "conclusion": "We handle pre-checks of the home and location requirements, checks of the registration standards, preparation of the registration application, business plan and other attachments, filing with the city, county or district and supplementation responses, and change registration after registration. Whether to register is decided by the competent authority.",
+   "branches": [
+    {
+     "when": "You are registering for the first time",
+     "then": "We check the home requirements, tell you which equipment and documents are missing, then prepare and file the application."
+    },
+    {
+     "when": "You need booking channel management, home lease contracts or a determination of the building's use",
+     "then": "We do not handle these, so they proceed separately with the relevant specialists, and our office focuses on the registration documents."
+    }
+   ],
+   "docs": "Building register, proof of ownership or right of use of the home, identification documents, photos and layout of the facilities",
+   "period": "Statutory: new registration 14 days / In practice, time to install equipment is added",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-ug-business",
+   "term": "Foreign tourist urban guesthouse business (외국인관광 도시민박업)",
+   "def": "A tourist-use facility business in which a resident of an urban area (excluding rural and semi-rural areas) uses the home they live in, with suitable facilities, to provide lodging, meals and similar services so that foreign tourists can experience Korean home culture."
+  },
+  {
+   "id": "term-ug-urban",
+   "term": "Urban area (도시지역)",
+   "def": "An urban area under the National Land Planning and Utilization Act. For urban guesthouses, rural and semi-rural areas under the Rural Community Improvement Act are excluded."
+  },
+  {
+   "id": "term-ug-house",
+   "term": "Eligible home (대상 주택)",
+   "def": "A detached house, multi-household house, apartment, row house or multi-family house under the Enforcement Decree of the Building Act that the applicant actually lives in and whose total floor area is under 230 square meters."
+  },
+  {
+   "id": "term-ug-standard",
+   "term": "Registration standards (등록기준)",
+   "def": "Four standards: home total floor area under 230 square meters, a foreign-language guidance service system, safety equipment such as a fire extinguisher and standalone smoke alarms, and posting and following a rate table."
+  },
+  {
+   "id": "term-ug-detector",
+   "term": "Standalone smoke alarm (단독경보형 감지기)",
+   "def": "A detector that senses fire and sounds an alarm on its own. Urban guesthouses must install one in each guest room."
+  },
+  {
+   "id": "term-ug-online",
+   "term": "Online interface (온라인 인터페이스)",
+   "def": "An online sales screen under the E-Commerce Act (전자상거래법). If you use an online platform for the business, you must post the rate table there too and keep to those rates."
+  },
+  {
+   "id": "term-ug-change",
+   "term": "Change registration (변경등록)",
+   "def": "The procedure of submitting a tourism business change registration application within 30 days when a registered item such as the trade name or representative changes."
+  },
+  {
+   "id": "term-ug-succession",
+   "term": "Succession of status report (지위승계 신고)",
+   "def": "A report filed within 1 month of succession by a party that has acquired or merged with the business and succeeded to the tourism business operator's rights and obligations."
+  }
+ ]
+}

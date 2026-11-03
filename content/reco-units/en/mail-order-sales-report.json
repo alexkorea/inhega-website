@@ -1,0 +1,182 @@
+{
+  "slug": "mail-order-sales-report",
+  "lang": "en",
+  "label": "Mail-order business report",
+  "kw": "Mail-order business report (online store) agent in Korea",
+  "answer": "A mail-order business report (통신판매업 신고) is the procedure in which a business that wants to sell by mail order, such as through an online store, reports its trade name, address, phone number, email address, internet domain name, host server location and other details to the head of the si/gun/gu with jurisdiction over its main office (or to the Korea Fair Trade Commission (공정거래위원회) if the office is abroad). Once you submit the mail-order business report form and pay the registration and license tax (등록면허세) under the Local Tax Act (지방세법), a report certificate is issued; if the number and volume of transactions are at or below the thresholds in the Fair Trade Commission notice, there is no reporting obligation. YouSun Administrative Agency prepares and files the mail-order business report on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the mail-order business report (통신판매업 신고서)", "href": "#term-mo-mail-order-business"},
+    {"name": "Pre-review of whether the reporting obligation or exemption threshold (신고 면제 기준) applies", "href": "#term-mo-exemption"},
+    {"name": "Organizing the reportable details (신고사항): trade name, address, phone number, email, domain and host server", "href": "#term-mo-report-items"},
+    {"name": "Guidance on attaching the purchase safety service or escrow (결제대금예치) confirmation for prepaid mail-order sales", "href": "#term-mo-escrow"},
+    {"name": "Supplementing a report filed without the domain and host server", "href": "#sit-mo-no-domain"},
+    {"name": "Filing with the Fair Trade Commission for businesses whose main office is abroad", "href": "#sit-mo-overseas"},
+    {"name": "Mail-order business change report (변경신고) and reissue of the report certificate", "href": "#term-mo-change-report"},
+    {"name": "Suspension, closure and resumption reports", "href": "#sit-mo-closure"},
+    {"name": "Applying to reissue a lost or damaged report certificate (신고증)", "href": "#term-mo-certificate"}
+  ],
+  "clients": [
+    "Sole proprietors opening a store on Naver Smart Store or an open marketplace",
+    "Corporations launching their own online store",
+    "Foreign businesses with a main office abroad that want to sell to Korean consumers",
+    "Existing mail-order businesses that need to change their report after relocating or closing"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Mail-order businesses (online stores and similar); exempt from the reporting obligation if the number and volume of transactions are at or below the thresholds in the Fair Trade Commission notice"},
+    {"label": "Requirements", "value": "Accurate reporting of the reportable details (trade name, address, phone number, email address, internet domain name, host server location, and for individuals, name and resident registration number), proof of escrow use or a consumer damage compensation insurance contract for prepaid mail-order sales, and payment of the registration and license tax (Class 3)"},
+    {"label": "Process", "value": "Prepare the report form → submit it to the head of the si/gun/gu with jurisdiction over the main office (the Fair Trade Commission if abroad) → file and pay the registration and license tax → report certificate issued"},
+    {"label": "Documents", "value": "Mail-order business report form, purchase safety service confirmation or escrow use confirmation (prepaid mail-order sales), corporate register certificate and business registration certificate (checked through administrative information sharing)"},
+    {"label": "Timeline", "value": "The number of days until the report certificate is issued depends on the si/gun/gu's processing and any supplement requests (if the domain and server are left blank, supplement within 30 days of the certificate issue date)"}
+  ],
+  "chooser": [
+    {"label": "Starting small sales on Smart Store or similar platforms", "target": "sit-mo-small-seller"},
+    {"label": "You do not have a store domain yet", "target": "sit-mo-no-domain"},
+    {"label": "Selling with prepayment", "target": "sit-mo-prepayment"},
+    {"label": "Your office is abroad", "target": "sit-mo-overseas"},
+    {"label": "You need an address change or closure", "target": "sit-mo-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-mo-small-seller",
+      "q": "I am starting small-scale sales on Naver Smart Store in Korea. Do I really need to file a mail-order business report?",
+      "conclusion": "Mail-order businesses must in principle file a report, but if the number and volume of mail-order transactions are at or below the thresholds set by Fair Trade Commission notice, there is no reporting obligation. The threshold figures are in the notice.",
+      "branches": [
+        {"when": "The number or volume of transactions exceeds, or is expected to exceed, the thresholds in the notice", "then": "File a mail-order business report with the si/gun/gu with jurisdiction over your main office."},
+        {"when": "You are at or below the thresholds in the notice", "then": "There is no reporting obligation, but check again whether you exceed the thresholds as sales grow."}
+      ],
+      "docs": "Mail-order business report form, business registration certificate (checked through information sharing), purchase safety service confirmation (if prepaid)",
+      "period": "The processing period depends on the si/gun/gu's processing"
+    },
+    {
+      "id": "sit-mo-individual",
+      "q": "When I file an online store business report in Korea as a sole proprietor, are the reportable details different from a corporation's?",
+      "conclusion": "Individuals can also file a mail-order business report, and in addition to the common reportable details they report the business owner's name and resident registration number. For corporations, the administrative authority checks the corporate register certificate through information sharing.",
+      "branches": [
+        {"when": "You are a sole proprietor", "then": "Enter your name and resident registration number along with the trade name, address, phone number, email, domain and host server."},
+        {"when": "You are a corporation", "then": "Enter the corporation's trade name, address and other details; the corporate register certificate is checked through information sharing."}
+      ],
+      "docs": "Mail-order business report form, business registration certificate and corporate register certificate (checked through information sharing)",
+      "period": "The processing period depends on the si/gun/gu's processing"
+    },
+    {
+      "id": "sit-mo-no-domain",
+      "q": "I have not chosen my online store domain and hosting server yet. Can I file the mail-order business report in Korea first?",
+      "conclusion": "If you cannot yet enter the internet domain name and host server location in a new report, you can file first and supplement them within 30 days of the date the report certificate is issued. If you do not supplement them in time, this becomes a ground for a supplement demand.",
+      "branches": [
+        {"when": "The domain and server have not been decided", "then": "File with those fields blank and supplement them within 30 days."},
+        {"when": "The domain and server have already been decided", "then": "Enter them in the report form from the start and file without a supplement step."}
+      ],
+      "docs": "Mail-order business report form, domain and host server information when supplementing",
+      "period": "Statutory: domain and server supplement within 30 days of the report certificate issue date"
+    },
+    {
+      "id": "sit-mo-prepayment",
+      "q": "Does an online store in Korea that takes payment in advance need a purchase safety service confirmation for the mail-order business report?",
+      "conclusion": "To run prepaid mail-order sales, you must also submit documents proving use of escrow or a consumer damage compensation insurance contract. A purchase safety service confirmation or escrow use confirmation serves this purpose.",
+      "branches": [
+        {"when": "Consumers pay before receiving the goods", "then": "Obtain and attach the use confirmation (purchase safety service confirmation) from the escrow service you use."},
+        {"when": "There is no prepayment", "then": "Submit only the report form, without that document."}
+      ],
+      "docs": "Mail-order business report form, purchase safety service confirmation or escrow use confirmation, proof of a consumer damage compensation insurance contract",
+      "period": "In practice, time to obtain the confirmation is needed first"
+    },
+    {
+      "id": "sit-mo-overseas",
+      "q": "Where does a business headquartered abroad file a mail-order business report to sell online to Korean consumers?",
+      "conclusion": "If the main office is located abroad, the report form is submitted to the Fair Trade Commission rather than to a si/gun/gu.",
+      "branches": [
+        {"when": "The main office is abroad", "then": "Submit the mail-order business report form to the Fair Trade Commission."},
+        {"when": "You set up a Korean corporation and that corporation does the selling", "then": "File with the si/gun/gu with jurisdiction over the Korean corporation's main office."}
+      ],
+      "docs": "Mail-order business report form, information on the reportable details (trade name, address, phone number, email, domain, host server)",
+      "period": "The processing period depends on the receiving authority's processing"
+    },
+    {
+      "id": "sit-mo-cost",
+      "q": "What costs are involved in a mail-order business report in Korea, and when are they paid?",
+      "conclusion": "A mail-order business report is subject to the registration and license tax (Class 3) under the Local Tax Act, and the tax amount depends on where the office is located (a city with a population of 500,000 or more, other cities, or a gun). It is filed and paid before the report certificate, which counts as the license certificate, is issued or delivered.",
+      "branches": [
+        {"when": "The office is in a special or metropolitan city", "then": "The rate for cities with a population of 500,000 or more applies (the gun rate applies to gun areas of a metropolitan city)."},
+        {"when": "You run prepaid mail-order sales", "then": "Prepare the purchase safety service confirmation in addition to the registration and license tax."}
+      ],
+      "docs": "Mail-order business report form, proof of registration and license tax payment, purchase safety service confirmation (if prepaid)",
+      "period": "The registration and license tax is paid before the report certificate is issued or delivered"
+    },
+    {
+      "id": "sit-mo-period",
+      "q": "How many days after filing does it take to receive a mail-order business report certificate in Korea?",
+      "conclusion": "The authority receiving the report must issue the report certificate, but the number of days until issue differs by si/gun/gu. The certificate is issued once the registration and license tax is paid and any supplements are completed.",
+      "branches": [
+        {"when": "The reportable details and attachments are complete", "then": "You receive the report certificate after paying the registration and license tax."},
+        {"when": "Reportable details are missing or incorrect", "then": "You will be asked to supplement, which delays issue accordingly."}
+      ],
+      "docs": "Mail-order business report form and attachments",
+      "period": "Depends on the si/gun/gu's processing and any supplement requests"
+    },
+    {
+      "id": "sit-mo-change",
+      "q": "If my business address or phone number changes after filing a mail-order business report in Korea, by when must I file a change report?",
+      "conclusion": "If reportable details change, file a change report within 15 days of the date of the change and get a new report certificate showing the changes. Failing to file a change report can lead to an administrative fine.",
+      "branches": [
+        {"when": "The address changes within the same si/gun/gu", "then": "File the change report with the authority where you originally reported."},
+        {"when": "The main office moves to another si/gun/gu", "then": "The competent authority changes, so first confirm which authority to file the change report with."}
+      ],
+      "docs": "Mail-order business change report form, proof of the changes, existing report certificate",
+      "period": "Statutory: within 15 days of the date of the change"
+    },
+    {
+      "id": "sit-mo-closure",
+      "q": "How do I file a suspension or closure report for my mail-order business if I want to pause or shut down my online store in Korea?",
+      "conclusion": "Suspension, closure and resumption are reported 5 days in advance, and the previous report certificate is attached to a closure report. Even during a suspension or business suspension period, you must continue handling order withdrawals and refunds.",
+      "branches": [
+        {"when": "You are suspending the business", "then": "Continue handling order withdrawals and refunds even after filing the suspension report."},
+        {"when": "You are closing the business", "then": "File the closure report with the previous report certificate attached; if the business can no longer operate and no report is filed, the reported details may be cancelled ex officio."}
+      ],
+      "docs": "Suspension, closure or resumption report form, previous report certificate (for closure)",
+      "period": "Statutory: report suspension, closure or resumption 5 days in advance"
+    },
+    {
+      "id": "sit-mo-unreported",
+      "q": "What penalties apply in Korea if I am caught selling online without a mail-order business report?",
+      "conclusion": "Failing to report when required, or filing a false report, may lead to a fine of up to KRW 30 million. Failing to file change, suspension or closure reports can lead to an administrative fine.",
+      "branches": [
+        {"when": "You exceeded the exemption thresholds but did not report", "then": "Submit the report form right away and obtain the report certificate."},
+        {"when": "You reported, but your address or other details changed and were not updated", "then": "File a change report and get a new report certificate."}
+      ],
+      "docs": "Mail-order business report form or change report form",
+      "period": "Change reports within 15 days of the date of the change"
+    },
+    {
+      "id": "sit-mo-ad-display",
+      "q": "Where on my online store in Korea do I have to display the mail-order business report number?",
+      "conclusion": "After reporting, your advertising must display details that allow the report to be verified, such as the report number and the reporting authority.",
+      "branches": [
+        {"when": "You run your own online store", "then": "Display the report number and reporting authority in the business information on the store's pages."},
+        {"when": "You have received a new report certificate", "then": "Update the display with the changed report information."}
+      ],
+      "docs": "Mail-order business report certificate",
+      "period": "Display after receiving the report certificate and before advertising"
+    },
+    {
+      "id": "sit-mo-recommend",
+      "q": "If I hire an administrative agent for a mail-order business report in Korea, what do they handle?",
+      "conclusion": "Once engaged, we review whether the reporting obligation applies, prepare the report form, submit it to the competent authority, respond to supplement requests, and prepare change, suspension and closure report documents. Paying the registration and license tax is the reporting party's responsibility, and acceptance of the report is decided by the competent authority.",
+      "branches": [
+        {"when": "You first need to determine the sales model and competent authority", "then": "We sort out the attachments and filing authority based on whether you take prepayment and where your main office is."},
+        {"when": "The report details are settled", "then": "We prepare and submit the report form and follow up with the domain and server supplement or change reports."}
+      ],
+      "docs": "Letter of authorization, mail-order business report form, purchase safety service confirmation (if prepaid)",
+      "period": "Depends on the si/gun/gu's processing and any supplement requests",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-mo-mail-order-business", "term": "Mail-order business operator (통신판매업자)", "def": "A person who carries on mail-order sales, such as an online store, as a business; they must report their trade name, address, phone number and other details to the Fair Trade Commission or the head of the si/gun/gu."},
+    {"id": "term-mo-report-items", "term": "Reportable details (신고사항)", "def": "Trade name, address, phone number, email address, internet domain name, host server location and others; for individuals, name and resident registration number are also included."},
+    {"id": "term-mo-exemption", "term": "Reporting exemption threshold (신고 면제 기준)", "def": "The threshold under which there is no reporting obligation if the number and volume of mail-order transactions are at or below the levels in the Fair Trade Commission notice."},
+    {"id": "term-mo-escrow", "term": "Escrow (결제대금예치, purchase safety service)", "def": "A method in prepaid mail-order sales where a third party holds the consumer's payment; the use confirmation, or proof of a consumer damage compensation insurance contract, is submitted with the report."},
+    {"id": "term-mo-registration-tax", "term": "Registration and license tax (등록면허세)", "def": "A tax imposed under the Local Tax Act, treating the mail-order business report as a license; it is filed and paid before the report certificate is issued or delivered."},
+    {"id": "term-mo-certificate", "term": "Report certificate (신고증)", "def": "The certificate issued by the authority that receives the mail-order business report; if lost or damaged, it can be reissued by submitting a reissue application."},
+    {"id": "term-mo-change-report", "term": "Change report (변경신고)", "def": "A report filed within 15 days of the date reportable details change; a new report certificate showing the changes is issued."}
+  ]
+}

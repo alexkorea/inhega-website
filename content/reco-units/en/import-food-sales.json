@@ -1,0 +1,185 @@
+{
+ "slug": "import-food-sales",
+ "lang": "en",
+ "label": "Imported Food Import and Sales Business Registration",
+ "kw": "Imported food sales business registration agent in Korea",
+ "answer": "Imported food import and sales business registration (수입식품 수입판매업 등록) is a business registration (not a report) required for anyone who wants to import and sell imported food and related products in Korea. After setting up facilities such as an independent office and a hygienic storage warehouse and completing 4 hours of pre-opening hygiene training, the applicant submits the business registration application and the training certificate and other documents to the head of the Regional Office of Food and Drug Safety (지방식품의약품안전청). The office reviews the documents and issues a business registration certificate; after registration, each actual import requires a separate import declaration. YouSun Administrative Agency prepares and files the registration application and attachments.",
+ "services": [
+  {"name": "Preparing and filing the business registration application for the import and sales of imported food (수입식품등 수입·판매업 영업등록)", "href": "#term-ifs-import-sales"},
+  {"name": "Pre-checking compliance with office and storage warehouse facility standards (시설기준)", "href": "#term-ifs-facility"},
+  {"name": "Organizing attachments such as facility use agreements (시설사용계약서)", "href": "#svc-glance"},
+  {"name": "Guidance on the 4-hour pre-opening hygiene training (위생교육)", "href": "#term-ifs-hygiene-education"},
+  {"name": "Reviewing the type of import business (import and sales, declaration agency, internet purchase agency, storage) (영업 종류 구분)", "href": "#sit-ifs-which-type"},
+  {"name": "Change registration for changes such as location (변경등록)", "href": "#term-ifs-change-registration"},
+  {"name": "Preparing and filing the report of succession to business operator status (영업자 지위승계 신고)", "href": "#term-ifs-succession"},
+  {"name": "Guidance on home-country documents and notarized statements for foreign applicants (본국 발행 서류·공증 진술서)", "href": "#sit-ifs-foreigner"},
+  {"name": "Guidance on overseas manufacturing facility registration after business registration (해외제조업소 등록)", "href": "#term-ifs-overseas-facility"}
+ ],
+ "clients": [
+  "Sole proprietors and companies bringing in overseas food for distribution in Korea",
+  "Foreign-invested companies selling their overseas head office's products in Korea",
+  "Founders starting an imported food business through online sales",
+  "Operators taking over an existing import and sales business or relocating their office"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Anyone intending to run a business that imports and sells imported food and related products (imported food import and sales business)"},
+  {"label": "Requirements", "value": "An independent office for business activities (exception for sharing an office used for other purposes where it does not interfere), a hygienic storage warehouse (may be omitted if there are no direct sales to consumers; may be located elsewhere or leased), 4 hours of pre-opening hygiene training, and no grounds for disqualification or restriction"},
+  {"label": "Process", "value": "Complete pre-opening hygiene training → Prepare office, warehouse and other facilities → Submit the business registration application and documents → Document review → Business registration certificate issued"},
+  {"label": "Documents", "value": "Business registration application, training certificate (if training was completed in advance), facility use agreement (if leasing storage or using shared facilities); the land use plan confirmation, building register and corporate register extract are checked by the office through shared administrative information"},
+  {"label": "Timeline", "value": "The office reviews the application documents and then issues the business registration certificate; the schedule depends on the competent Regional Office of Food and Drug Safety and on any supplementation. Time for training and facility preparation is separate"}
+ ],
+ "chooser": [
+  {"label": "Selling imported food online", "target": "sit-ifs-which-type"},
+  {"label": "Starting from a shared office or small office", "target": "sit-ifs-shared-office"},
+  {"label": "Wholesale only, without a warehouse", "target": "sit-ifs-warehouse"},
+  {"label": "The representative is a foreign national", "target": "sit-ifs-foreigner"},
+  {"label": "Registration done and first import coming up", "target": "sit-ifs-first-import"}
+ ],
+ "situations": [
+  {
+   "id": "sit-ifs-which-type",
+   "q": "To import overseas snacks ourselves and sell them online in Korea, do we register as an import and sales business or an internet purchase agency?",
+   "conclusion": "Importing imported food directly and selling it is the imported food import and sales business. An internet purchase agency business is a separate business that imports by acting as a purchasing agent, for example by ordering from overseas sellers at the request of Korean consumers.",
+   "branches": [
+    {"when": "You import in your own name, hold inventory and sell", "then": "Register as an imported food import and sales business."},
+    {"when": "You take consumer orders and buy from overseas sellers on their behalf", "then": "Consider registering as an imported food internet purchase agency business."},
+    {"when": "You only want to file import declarations on behalf of importers", "then": "That falls under a different business type, the imported food declaration agency business."}
+   ],
+   "docs": "Description of the sales model, business registration application",
+   "period": "Schedule the registration application once the business type is decided"
+  },
+  {
+   "id": "sit-ifs-shared-office",
+   "q": "Can we register an imported food import and sales business in Korea using a single desk in a shared office?",
+   "conclusion": "An independent office for business activities is the rule, but sharing an office used for other purposes is an exception where it does not interfere with business activities. If you use a shared facility as your independent office, attach a facility use agreement.",
+   "branches": [
+    {"when": "You use a shared facility such as a coworking office", "then": "Prepare a facility use agreement and confirm with the office that it does not interfere with business activities."},
+    {"when": "You have leased a private office", "then": "Confirm it meets the independent office requirement and apply."}
+   ],
+   "docs": "Facility use agreement, business registration application, training certificate",
+   "period": "Depends on the office's document review schedule"
+  },
+  {
+   "id": "sit-ifs-warehouse",
+   "q": "We only supply distributors, not consumers. Do we need a separate storage warehouse to register an imported food business in Korea?",
+   "conclusion": "An import and sales business must have a warehouse where products can be stored hygienically, but if you do not sell directly to consumers, a separate warehouse may be omitted.",
+   "branches": [
+    {"when": "You do not sell directly to consumers", "then": "Consider registering based on the office alone, without a separate warehouse."},
+    {"when": "You also sell to consumers", "then": "Set up a hygienic storage warehouse; it may be at a different location from the registered address or leased. If leased, attach a facility use agreement."}
+   ],
+   "docs": "Business registration application, facility use agreement (if leasing a warehouse)",
+   "period": "Depends on the office's document review schedule"
+  },
+  {
+   "id": "sit-ifs-period",
+   "q": "How long does imported food import and sales business registration take in Korea, from application to certificate?",
+   "conclusion": "The office reviews the application documents before issuing the business registration certificate, so the timing depends on the competent Regional Office of Food and Drug Safety's review schedule and on any supplementation. Time for hygiene training and preparing the office and warehouse is needed separately before applying.",
+   "branches": [
+    {"when": "Training and facility preparation are complete", "then": "Submit the business registration application and attachments for review by the office."},
+    {"when": "Documents such as the facility use agreement are missing", "then": "If you receive a supplementation request, the schedule extends accordingly."}
+   ],
+   "docs": "Business registration application, training certificate, facility use agreement (if applicable)",
+   "period": "Depends on the competent office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ifs-docs",
+   "q": "Besides the application form, what documents are needed for imported food import and sales business registration in Korea?",
+   "conclusion": "Attach the training certificate obtained in advance to the business registration application, plus a facility use agreement if you lease storage facilities or use a shared facility as an independent office. The land use plan confirmation, building register and corporate register extract are checked by the office through shared administrative information.",
+   "branches": [
+    {"when": "Disqualification cannot easily be checked domestically", "then": "The office may request additional identity verification materials."},
+    {"when": "The applicant is a foreign national", "then": "You may be asked for documents issued by your home country's government or a statement notarized by a notary."}
+   ],
+   "docs": "Business registration application, training certificate, facility use agreement (if applicable), identity verification materials (if requested)",
+   "period": "Follows the office's review schedule once documents are complete",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ifs-cost",
+   "q": "What costs are involved in imported food import and sales business registration in Korea?",
+   "conclusion": "Check the statutory fee with the competent authority when applying. Beyond registration, you need to complete 4 hours of pre-opening hygiene training and secure an office and storage warehouse, so plan these preparation items together.",
+   "branches": [
+    {"when": "You do not sell directly to consumers", "then": "A separate warehouse may be omitted, reducing the scope of facility preparation."},
+    {"when": "You lease a warehouse at another location", "then": "Prepare a facility use agreement."}
+   ],
+   "docs": "Business registration application, training certificate, facility use agreement (if applicable)",
+   "period": "Depends on the scope of preparation"
+  },
+  {
+   "id": "sit-ifs-first-import",
+   "q": "We have completed imported food business registration in Korea. What else do we need to do for our first import?",
+   "conclusion": "Separately from business registration, importing imported food requires an import declaration, and the overseas manufacturing facility must be registered before the import declaration. Overseas manufacturing facility registration is valid for 2 years from the date of registration.",
+   "branches": [
+    {"when": "The overseas manufacturing facility is not yet registered", "then": "Apply for overseas manufacturing facility registration before the import declaration."},
+    {"when": "The overseas manufacturing facility was registered more than 2 years ago", "then": "Check whether the validity has expired and register again."}
+   ],
+   "docs": "Business registration certificate, overseas manufacturing facility information, product information",
+   "period": "Overseas manufacturing facility registration is valid for 2 years"
+  },
+  {
+   "id": "sit-ifs-foreigner",
+   "q": "Can a company whose representative is a foreign national register an imported food import and sales business in Korea?",
+   "conclusion": "Yes. However, if the applicant is a foreign national, you may be asked for documents issued by your home country's government or a statement notarized by a notary to check for disqualification.",
+   "branches": [
+    {"when": "The office requests home-country documents", "then": "Prepare and submit home-country documents or a notarized statement."},
+    {"when": "You apply as a corporation", "then": "The corporate register extract is checked by the office through shared administrative information."}
+   ],
+   "docs": "Business registration application, training certificate, home-country documents or notarized statement (if requested)",
+   "period": "Time to prepare home-country documents may be added"
+  },
+  {
+   "id": "sit-ifs-takeover",
+   "q": "If we acquire another company's imported food import and sales business in Korea, do we need a new registration?",
+   "conclusion": "If you acquire all business facilities through a business transfer, inheritance, corporate merger, auction or similar, you succeed to the operator's status, so report the succession within 1 month of the date of succession.",
+   "branches": [
+    {"when": "You acquired or merged with the business", "then": "File a report of succession to business operator status."},
+    {"when": "You also relocate the office along with the acquisition", "then": "For a change of location, file a change registration within 30 days of the change."}
+   ],
+   "docs": "Report of succession to business operator status, proof of transfer, business registration certificate",
+   "period": "Statutory: report within 1 month of succession; change registration for location within 30 days"
+  },
+  {
+   "id": "sit-ifs-no-registration",
+   "q": "What are the penalties for importing and selling food in Korea without business registration?",
+   "conclusion": "Operating without business registration is punishable by imprisonment of up to 5 years or a fine of up to KRW 50 million, or both.",
+   "branches": [
+    {"when": "You import for sale", "then": "Complete import and sales business registration before starting."},
+    {"when": "A food manufacturer imports only raw materials for its own products", "then": "It is deemed registered, so review separately whether the import is for sale."}
+   ],
+   "docs": "Business registration application, training certificate",
+   "period": "Set the business start date according to the registration processing schedule"
+  },
+  {
+   "id": "sit-ifs-annual-education",
+   "q": "After registering an imported food import and sales business in Korea, do we need hygiene training every year?",
+   "conclusion": "Yes. Pre-opening hygiene training is 4 hours, and after registration you take 3 hours of training every year. Training can be given in person or online.",
+   "branches": [
+    {"when": "You have not yet started the business", "then": "Complete the 4-hour training first and attach the training certificate to the application."},
+    {"when": "You are already registered", "then": "Manage the schedule for the 3-hour annual training."}
+   ],
+   "docs": "Training certificate",
+   "period": "4 hours before opening, 3 hours every year after registration"
+  },
+  {
+   "id": "sit-ifs-agent",
+   "q": "If we hire an administrative agent for imported food import and sales business registration in Korea, what exactly do they handle?",
+   "conclusion": "Under a letter of authorization, an administrative agent reviews the business type and facility standards, prepares the business registration application and attachments, files them with the Regional Office of Food and Drug Safety, handles supplementation, and later files change registrations and succession reports. The applicant takes the hygiene training in person, the import declaration is a procedure separate from business registration, and the competent authority decides on registration.",
+   "branches": [
+    {"when": "You have not yet chosen an office or warehouse", "then": "Start by reviewing facility standards and whether a facility use agreement is needed."},
+    {"when": "The applicant is a foreign national", "then": "The agent also advises on the scope of home-country documents or notarized statements."}
+   ],
+   "docs": "Letter of authorization, business registration application, training certificate, facility use agreement (if applicable)",
+   "period": "Depends on the competent office's review and any supplementation"
+  }
+ ],
+ "glossary": [
+  {"id": "term-ifs-import-sales", "term": "Imported food import and sales business (수입식품등 수입·판매업)", "def": "A business that imports and sells imported food and related products, excluding the import of machinery for harvesting, manufacturing or processing food."},
+  {"id": "term-ifs-registration", "term": "Business registration (영업등록)", "def": "Registration with the Minister of Food and Drug Safety by anyone intending to run an imported food import and sales, declaration agency, internet purchase agency or storage business; the application is submitted to the head of the Regional Office of Food and Drug Safety."},
+  {"id": "term-ifs-facility", "term": "Facility standards (시설기준)", "def": "Standards requiring an independent office for business activities and, for import and sales businesses, a warehouse where products can be stored hygienically."},
+  {"id": "term-ifs-hygiene-education", "term": "Hygiene training (위생교육)", "def": "4 hours of training taken in advance by anyone intending to run the business and 3 hours of training every year after registration, given in person or online."},
+  {"id": "term-ifs-change-registration", "term": "Change registration (변경등록)", "def": "Registration filed when important registered particulars change; a change of location is registered within 30 days of the change."},
+  {"id": "term-ifs-succession", "term": "Succession to business operator status (영업자 지위승계)", "def": "Taking over the previous operator's status by a person who acquires all business facilities through transfer, inheritance, corporate merger, auction or similar; reported within 1 month of succession."},
+  {"id": "term-ifs-overseas-facility", "term": "Overseas manufacturing facility registration (해외제조업소 등록)", "def": "A procedure for registering an overseas facility that manufactures imported food before the import declaration; valid for 2 years from the date of registration."},
+  {"id": "term-ifs-import-report", "term": "Import declaration (수입신고)", "def": "A declaration filed by a registered operator when actually importing imported food; it is a procedure separate from business registration."}
+ ]
+}

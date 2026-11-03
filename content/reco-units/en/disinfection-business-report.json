@@ -1,0 +1,183 @@
+{
+  "slug": "disinfection-business-report",
+  "lang": "en",
+  "label": "Disinfection business report",
+  "kw": "Disinfection (pest control) business report agent in Korea",
+  "answer": "A disinfection business report (소독업 신고) is filed with the head of the si/gun/gu where the business office is located by anyone who wants to carry out disinfection as a business, after securing an office, a separate storage room, the specified disinfection equipment and at least one disinfection worker besides the representative. When you submit the report form with the statement of facilities, equipment and staff, the processing period on the form is 7 days, and disinfection training must be completed within 6 months of the report date. YouSun Administrative Agency prepares and files the disinfection business report and statements on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the disinfection business report (소독업 신고서)", "href": "#term-ds-report"},
+    {"name": "Preparing the statement of facilities, equipment and staff (시설·장비 및 인력 명세서)", "href": "#term-ds-standards"},
+    {"name": "Pre-review of facility standards, such as separation of office and storage room and ventilation and locking", "href": "#term-ds-warehouse"},
+    {"name": "Preparing a checklist for equipment standards, such as sprayers, fogging machines, hand sprayers and protective gear", "href": "#sit-ds-equipment-small"},
+    {"name": "Reviewing the disinfection worker (소독업무 종사자) staffing requirement", "href": "#term-ds-worker"},
+    {"name": "Preparing and filing the report of changes to reported matters (변경신고서)", "href": "#term-ds-change-report"},
+    {"name": "Preparing and filing reports of suspension, closure and resumption of business", "href": "#sit-ds-suspend-close"},
+    {"name": "Guidance on the deadline for completing disinfection training after the report", "href": "#term-ds-education"},
+    {"name": "Reviewing which law applies as between this business and public health businesses such as building sanitation management (건물위생관리업)", "href": "#sit-ds-building-hygiene"},
+    {"name": "Handling supplement requests on the report", "href": "#svc-glance"}
+  ],
+  "clients": [
+    "Sole proprietors and corporations starting a new pest control or disinfection company",
+    "Cleaning and facility management companies adding disinfection services to their business",
+    "Existing disinfection operators who need a change report after moving offices or changing the representative",
+    "Disinfection operators about to suspend, close or resume their business"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to carry out disinfection as a business (some housing management operators, such as for apartment complexes, are excluded)"},
+    {"label": "Requirements", "value": "An office and a storage room separated from the office (separated from living space, with ventilation and locking), equipment such as 1 portable ultra-low-volume insecticide sprayer, 2 portable fogging machines, 3 manual sprayers, and at least 5 each of gas masks and protective goggles and 5 sets of protective clothing (per-worker standard for protective gear if there are 2 or fewer workers), and at least 1 disinfection worker besides the representative"},
+    {"label": "Process", "value": "Secure facilities, equipment and staff → submit the disinfection business report and statement → report accepted after review → disinfection business report certificate issued → complete disinfection training within 6 months of the report date"},
+    {"label": "Documents", "value": "Disinfection business report form, statement of facilities, equipment and staff / for changes: report of changes to reported matters, disinfection business report certificate, proof of the changes"},
+    {"label": "Timeline", "value": "7 days per the report form (time to secure facilities, equipment and staff is separate)"}
+  ],
+  "chooser": [
+    {"label": "Starting a new pest control company", "target": "sit-ds-startup"},
+    {"label": "Starting small with only 1 or 2 staff", "target": "sit-ds-equipment-small"},
+    {"label": "Using your home as the office", "target": "sit-ds-home-office"},
+    {"label": "Also offering building cleaning and sanitation services", "target": "sit-ds-building-hygiene"},
+    {"label": "Changes after the report, such as moving offices or suspending business", "target": "sit-ds-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-ds-startup",
+      "q": "What are the steps to file a disinfection business report when starting a pest control company in Korea?",
+      "conclusion": "A pest control company is a disinfection business under the Infectious Disease Control and Prevention Act (감염병의 예방 및 관리에 관한 법률), and it requires a report rather than a permit or registration. Secure the facilities, equipment and staff first, submit the report form and statement to the head of the si/gun/gu where the business office is located, and receive the report certificate once the report is accepted.",
+      "branches": [
+        {"when": "You have the office, storage room, equipment and workers in place", "then": "Submit the disinfection business report with the statement of facilities, equipment and staff, receive the certificate, and complete training within 6 months."},
+        {"when": "You do not yet have a storage room or the equipment", "then": "Failing to meet the standards is a reason the report will not be accepted, so file after securing them."}
+      ],
+      "docs": "Disinfection business report form, statement of facilities, equipment and staff",
+      "period": "7 days per the report form / in practice, the time to secure facilities, equipment and staff is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ds-equipment-small",
+      "q": "We are starting a disinfection business in Korea with 2 people including the owner. Do we still need 5 gas masks and 5 sets of protective clothing?",
+      "conclusion": "If there are 2 or fewer disinfection workers, gas masks, protective goggles and protective clothing only need to meet the per-worker standard. The other equipment standards, such as sprayers, fogging machines and hand sprayers, still apply as they are.",
+      "branches": [
+        {"when": "There are 2 or fewer workers", "then": "Prepare protective gear on a per-worker basis, and prepare at least 1 portable ultra-low-volume insecticide sprayer, 2 portable fogging machines, 3 manual sprayers, and the cleaning and disinfection machines and tools as specified."},
+        {"when": "There are 3 or more workers", "then": "Prepare at least 5 each of gas masks and protective goggles and at least 5 sets of protective clothing."}
+      ],
+      "docs": "Statement of facilities, equipment and staff, disinfection business report form",
+      "period": "7 days per the report form",
+      "href": "#term-ds-standards"
+    },
+    {
+      "id": "sit-ds-home-office",
+      "q": "I want to start a disinfection business from home in Korea. Do I need a separate storage room?",
+      "conclusion": "A disinfection business must have an office and a storage room separated from the office; the storage room must also be separated from living space and have ventilation and locking facilities.",
+      "branches": [
+        {"when": "You can set up a separate storage room apart from the living space", "then": "Confirm that it is separated and has ventilation and locking, and enter it in the statement."},
+        {"when": "You plan to store chemicals and equipment inside the living space", "then": "This does not meet the storage room standard, so set up a separate storage space before filing."}
+      ],
+      "docs": "Statement of facilities, equipment and staff (office and storage room details), disinfection business report form",
+      "period": "7 days per the report form / in practice, the time to set up a storage room is added",
+      "href": "#term-ds-warehouse"
+    },
+    {
+      "id": "sit-ds-worker",
+      "q": "Do I need an employee besides the representative to file a disinfection business report in Korea?",
+      "conclusion": "The staffing standard is at least 1 disinfection worker besides the representative. The representative alone does not meet the report standard.",
+      "branches": [
+        {"when": "You have already hired a worker", "then": "List the worker in the staff statement and schedule their training within 6 months of the date they start work."},
+        {"when": "You have not hired anyone yet", "then": "Secure at least 1 worker and then file the report."}
+      ],
+      "docs": "Statement of facilities, equipment and staff, disinfection business report form",
+      "period": "7 days per the report form",
+      "href": "#term-ds-worker"
+    },
+    {
+      "id": "sit-ds-period",
+      "q": "How long does a disinfection business report take in Korea, and is there anything else to do after filing?",
+      "conclusion": "The processing period on the report form is 7 days. After the report is accepted, the operator must receive disinfection training within 6 months of the report date, and must also have disinfection workers trained within 6 months of the date they start work.",
+      "branches": [
+        {"when": "The report is accepted", "then": "Receive the disinfection business report certificate and track the training deadlines."},
+        {"when": "Training is not completed on time", "then": "This can lead to a corrective order, so complete it within the deadline."}
+      ],
+      "docs": "Disinfection business report form, statement of facilities, equipment and staff",
+      "period": "7 days per the report form; training within 6 months of the report date (for workers, of the date they start work)",
+      "href": "#term-ds-education"
+    },
+    {
+      "id": "sit-ds-cost",
+      "q": "What should I prepare to estimate the cost of a disinfection business report in Korea?",
+      "conclusion": "The fee field on the report form reads \"None\", so the main burden comes from securing the office and storage room, equipment and workers. Training costs are paid by the person being trained.",
+      "branches": [
+        {"when": "You are buying new equipment", "then": "Decide the quantities based on the equipment list and the number of workers (per-worker protective gear if 2 or fewer)."},
+        {"when": "You are renting a new office and storage room", "then": "Before signing, confirm that the space meets the storage room standards for separation, ventilation and locking."}
+      ],
+      "docs": "Disinfection business report form, statement of facilities, equipment and staff",
+      "period": "7 days per the report form / in practice, the time to secure equipment and space is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ds-building-hygiene",
+      "q": "If I offer both building cleaning and disinfection in Korea, is a disinfection business report enough, or do I also need a building sanitation management business report?",
+      "conclusion": "The disinfection business falls under the Infectious Disease Control and Prevention Act, and the building sanitation management business falls under the Public Health Control Act (공중위생관리법); they are separate business types. First sort out which law covers each service you plan to offer, then meet the facility and equipment standards for each applicable business and report it to the head of the si/gun/gu.",
+      "branches": [
+        {"when": "You only offer disinfection (pest control) services", "then": "Submit the disinfection business report and the statement of facilities, equipment and staff."},
+        {"when": "You also offer building cleaning and sanitation services", "then": "Review the building sanitation management business report requirements under the Public Health Control Act separately and file a separate report."}
+      ],
+      "docs": "Disinfection business: report form, statement of facilities, equipment and staff / building sanitation management business: public health business report form and documents on facilities and equipment",
+      "period": "7 days per the disinfection business report form / for building sanitation management, depends on the competent authority's schedule",
+      "href": "#term-ds-building-hygiene"
+    },
+    {
+      "id": "sit-ds-change",
+      "q": "Do I have to file a change report if I move the office after filing a disinfection business report in Korea?",
+      "conclusion": "Yes. Changing reported matters also requires a report. Submit the report of changes to reported matters with the report certificate and documents proving the changes.",
+      "branches": [
+        {"when": "Facilities such as the office or storage room change", "then": "Confirm that the new location meets the office and storage room standards and file a change report."},
+        {"when": "The equipment or staffing changes", "then": "Confirm that the equipment and staffing standards are still met after the change and file with proof of the changes."}
+      ],
+      "docs": "Report of changes to reported matters, disinfection business report certificate, proof of the changes",
+      "period": "Depends on the competent authority's review and any supplement requests",
+      "href": "#term-ds-change-report"
+    },
+    {
+      "id": "sit-ds-suspend-close",
+      "q": "Where do I report if I want to pause my disinfection business in Korea for about a month or close it?",
+      "conclusion": "To suspend a disinfection business for 30 days or more or to close it, you must report to the head of the si/gun/gu with jurisdiction over the business office, and to reopen after a suspension you must file a resumption report.",
+      "branches": [
+        {"when": "You will pause for 30 days or more", "then": "File a suspension report, and file a resumption report when you reopen."},
+        {"when": "You are ending the business", "then": "File a closure report."}
+      ],
+      "docs": "Suspension, closure or resumption report form, disinfection business report certificate",
+      "period": "Depends on the competent authority's schedule",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ds-unreported",
+      "q": "Can I take on pest control jobs in Korea without filing a disinfection business report?",
+      "conclusion": "Operating a disinfection business without filing a report may lead to a fine of up to KRW 3 million. Complete the report before you start operating.",
+      "branches": [
+        {"when": "You are already taking disinfection jobs", "then": "Meet the facility, equipment and staffing standards and start the report procedure right away."},
+        {"when": "You are a housing management operator disinfecting the housing you manage", "then": "First check whether you fall under the exemption from the reporting obligation."}
+      ],
+      "docs": "Disinfection business report form, statement of facilities, equipment and staff",
+      "period": "7 days per the report form",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ds-agent",
+      "q": "If I hire an administrative agent for a disinfection business report in Korea, what do they handle?",
+      "conclusion": "Once engaged by you, YouSun Administrative Agency drafts the disinfection business report and the statement of facilities, equipment and staff, pre-reviews whether the standards are met, handles submission to the authority and supplement requests, and files change, suspension and closure reports. We do not carry out disinfection work, supply equipment or handle tax matters, and the competent authority decides whether to accept the report.",
+      "branches": [
+        {"when": "Before securing facilities and equipment", "then": "We check your office, storage room, equipment and staffing plans against the list of standards."},
+        {"when": "Everything is already in place", "then": "We prepare and submit the statement and report form and guide you on the training deadline."}
+      ],
+      "docs": "Office and storage room details, equipment list, workers' personal details",
+      "period": "7 days per the report form",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-ds-business", "term": "Disinfection business (소독업)", "def": "Carrying out disinfection as a business; it must be reported to the head of the si/gun/gu after securing the facilities, equipment and staff set by Ordinance of the Ministry of Health and Welfare (보건복지부)."},
+    {"id": "term-ds-report", "term": "Disinfection business report (소독업 신고)", "def": "The procedure in which a person intending to run a disinfection business submits the report form with the statement of facilities, equipment and staff to the competent authority; the authority must accept the report if it complies with the law."},
+    {"id": "term-ds-standards", "term": "Facility, equipment and staffing standards (시설·장비 및 인력 기준)", "def": "The report standards for a disinfection business: an office and storage room, equipment such as sprayers, fogging machines, hand sprayers and protective gear, and at least 1 disinfection worker besides the representative."},
+    {"id": "term-ds-warehouse", "term": "Storage room (창고)", "def": "Under the facility standards, a storage space separated from the office and from living space, with ventilation and locking facilities."},
+    {"id": "term-ds-worker", "term": "Disinfection worker (소독업무 종사자)", "def": "A person employed by the operator to carry out disinfection work; at least 1 is required besides the representative, and they must receive training within 6 months of the date they start work."},
+    {"id": "term-ds-education", "term": "Disinfection training (소독 교육)", "def": "Training the operator must complete within 6 months of the report date; failing to complete it can lead to a corrective order."},
+    {"id": "term-ds-change-report", "term": "Change report (변경신고)", "def": "A report filed when reported disinfection business matters change, by submitting the change report form with the report certificate and proof of the changes."},
+    {"id": "term-ds-building-hygiene", "term": "Building sanitation management business (건물위생관리업)", "def": "One of the public health businesses under the Public Health Control Act; unlike the disinfection business, it falls under a different law and is reported to the head of the si/gun/gu after securing its own facilities and equipment."}
+  ]
+}

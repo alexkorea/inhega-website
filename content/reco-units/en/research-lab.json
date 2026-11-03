@@ -1,0 +1,394 @@
+{
+  "slug": "research-lab",
+  "lang": "en",
+  "label": "Corporate R&D Center Recognition",
+  "kw": "Corporate R&D center registration agent in Korea",
+  "answer": "Setting up a corporate R&D center (기업부설연구소) is legally a recognition procedure. A company that meets the recognition criteria, including dedicated researchers and an independent research space, files a recognition application with the Korea Industrial Technology Association (한국산업기술진흥협회, KOITA), and the certificate of recognition is issued after document review and an on-site check. The governing law is the Act on Support for Research and Development of Corporate Research Institutes, etc. (기업부설연구소등의 연구개발 지원에 관한 법률), in force since February 1, 2026. A small enterprise needs at least 3 dedicated researchers (at least 2 for the first 3 years from its founding date), and a dedicated R&D department needs at least 1. YouSun Administrative Agency prepares the recognition application and attachments, files them with KOITA and handles change reports.",
+  "services": [
+    {
+      "name": "Preparing and filing the corporate R&D center recognition application (기업부설연구소 인정 신청)",
+      "href": "#term-rl-lab"
+    },
+    {
+      "name": "Preparing and filing the dedicated R&D department recognition application (연구개발전담부서 인정 신청)",
+      "href": "#term-rl-dept"
+    },
+    {
+      "name": "Pre-checking the required number and qualifications of dedicated researchers (연구전담요원) by company size",
+      "href": "#term-rl-researcher"
+    },
+    {
+      "name": "Reviewing the independent research space standard and preparing full-floor plans, interior plans and photos (독립 연구공간)",
+      "href": "#term-rl-space"
+    },
+    {
+      "name": "Drafting the R&D activity summary, research equipment list, R&D staff list and organization chart",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Handling the review and on-site check and preparing supplementary documents (인정기준 심사 대응)",
+      "href": "#term-rl-criteria"
+    },
+    {
+      "name": "Preparing and filing change reports for location, research field, head of the center, R&D staff and research space (변경신고)",
+      "href": "#term-rl-change"
+    },
+    {
+      "name": "Preparing documents in response to a supplementation order (보완명령)",
+      "href": "#term-rl-supplement"
+    },
+    {
+      "name": "Guidance on the annual R&D performance report schedule",
+      "href": "#sit-rl-cancel"
+    },
+    {
+      "name": "Checking compliance duties (no dual roles, location restrictions) to avoid revocation (인정취소)",
+      "href": "#term-rl-revocation"
+    }
+  ],
+  "clients": [
+    "Early-stage small enterprises and venture companies that have started in-house technology development",
+    "SMEs whose research team has grown and that want to convert a dedicated R&D department into a corporate R&D center",
+    "Companies already running an R&D center that need a change report after an office move or researcher turnover",
+    "Foreign-invested companies that have set up a Korean corporation",
+    "Companies that received a supplementation order for falling short of the recognition criteria"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "Research institutes (corporate R&D centers) or R&D departments (dedicated R&D departments) set up and run by businesses such as companies formed under the Commercial Act (상법) and SMEs"
+    },
+    {
+      "label": "Requirements",
+      "value": "Full-time dedicated researchers by company size (at least 3 for a small enterprise, 5 for a medium enterprise, 7 for a mid-sized enterprise and 10 for other companies; at least 1 for a dedicated R&D department), an independent research space separated by fixed walls and a separate entrance, and research equipment inside that space"
+    },
+    {
+      "label": "Process",
+      "value": "Review staffing and facility requirements → secure the research space → apply to KOITA for recognition → document review and on-site check → certificate of recognition issued → change reports and annual R&D performance reports"
+    },
+    {
+      "label": "Documents",
+      "value": "Recognition application, R&D activity summary, research equipment list, R&D staff list, organization chart of the company and the research unit, full-floor plan and interior plan of the floor where the research unit is located (including photos of the dedicated entrance sign and interior); if there are 10 or more dedicated researchers, a safety budget statement and proof of insurance; for service-sector companies, the SME criteria review sheet or VAT return"
+    },
+    {
+      "label": "Timeline",
+      "value": "The recognition review depends on document supplementation and the on-site check schedule. After recognition, change reports are due within 30 days of the change, and R&D performance is reported every year by April 30."
+    }
+  ],
+  "chooser": [
+    {
+      "label": "A small enterprise under 3 years old applying for the first time",
+      "target": "sit-rl-startup-two"
+    },
+    {
+      "label": "Only one researcher on staff",
+      "target": "sit-rl-dept-first"
+    },
+    {
+      "label": "A small office where the space would be divided by partitions",
+      "target": "sit-rl-partition"
+    },
+    {
+      "label": "A researcher has left or the office is moving",
+      "target": "sit-rl-resign"
+    },
+    {
+      "label": "A service-sector company setting up an R&D center",
+      "target": "sit-rl-service"
+    },
+    {
+      "label": "Worried about revocation of recognition",
+      "target": "sit-rl-cancel"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-rl-startup-two",
+      "q": "Our small company in Korea is two years old. Can we get corporate R&D center recognition with just two researchers?",
+      "conclusion": "Yes. A research institute set up by a small enterprise normally needs at least 3 dedicated researchers, but for the first 3 years from the founding date, 2 or more meet the staffing standard.",
+      "branches": [
+        {
+          "when": "A small enterprise less than 3 years from its founding date",
+          "then": "File the recognition application with 2 qualified dedicated researchers and an independent research space. Once 3 years have passed, the 3-person standard applies, so plan hiring before then."
+        },
+        {
+          "when": "An R&D-type SME or venture company founded by a researcher or faculty member",
+          "then": "The standard of at least 2 dedicated researchers applies, and documents proving the company's status are submitted with the application."
+        },
+        {
+          "when": "Only one qualified researcher on staff",
+          "then": "Consider getting recognition first as a dedicated R&D department (at least 1 person) instead of a corporate R&D center."
+        }
+      ],
+      "docs": "Corporate R&D center recognition application, R&D activity summary, research equipment list, R&D staff list, organization chart of the company and the research unit, full-floor and interior plans with photos, and proof of researcher or faculty founding if applicable",
+      "period": "In practice, it depends on document supplementation and the on-site check schedule. The 3-person standard applies once 3 years have passed from the founding date.",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-rl-dept-first",
+      "q": "We only have one researcher. Can we register a dedicated R&D department first and convert it into a corporate R&D center later?",
+      "conclusion": "Yes. A dedicated R&D department can be recognized with at least 1 dedicated researcher, and a common path is to apply for corporate R&D center recognition once staffing grows to meet the standard for the company's size.",
+      "branches": [
+        {
+          "when": "You currently have 1 or 2 dedicated researchers",
+          "then": "Apply using the dedicated R&D department recognition application form, and meet the research space and equipment standards as well."
+        },
+        {
+          "when": "You meet the staffing standard for your company size (such as 3 for a small enterprise)",
+          "then": "Apply using the corporate R&D center recognition application form to receive a corporate R&D center certificate of recognition."
+        }
+      ],
+      "docs": "Dedicated R&D department or corporate R&D center recognition application, R&D activity summary, research equipment list, R&D staff list, organization chart, full-floor and interior plans with photos",
+      "period": "In practice, it depends on document supplementation and the on-site check schedule."
+    },
+    {
+      "id": "sit-rl-partition",
+      "q": "Our office is small, so we divided the research area with partitions. Will it still qualify as a corporate R&D center in Korea?",
+      "conclusion": "Where a research institute set up by an SME, R&D-type SME or venture company, or the R&D department of an information service or software development and supply business, cannot secure more than 50 square meters, a research space separated by partitions is also treated as an independent space.",
+      "branches": [
+        {
+          "when": "The company falls into one of the above categories and cannot secure more than 50 square meters",
+          "then": "Place the research equipment in a space separated from other departments by partitions, and show the separation with plans, the entrance sign and interior photos."
+        },
+        {
+          "when": "Walls cannot reach the ceiling because of ventilation, heating and cooling or fire safety",
+          "then": "Separate the space with fixed walls at least 2 meters high from the floor and a separate entrance; it is recognized if it is identifiable as a dedicated research space and complies with building laws."
+        },
+        {
+          "when": "None of the above exceptions apply",
+          "then": "Provide an independent space separated from other departments by fixed walls and a separate entrance."
+        }
+      ],
+      "docs": "Full-floor plan and interior plan of the floor where the research unit is located, photos of the dedicated entrance sign and interior, research equipment list",
+      "period": "In practice, reviewing the plans before any construction work reduces supplementation requests.",
+      "href": "#term-rl-space"
+    },
+    {
+      "id": "sit-rl-house",
+      "q": "We use a detached house as our office. Can we set up a corporate R&D center inside it?",
+      "conclusion": "No. Under the compliance duties, corporate R&D centers may not be set up in detached houses or multi-unit housing under the Building Act (건축법), or in unpermitted or temporary buildings. A violation is a ground for revocation of recognition.",
+      "branches": [
+        {
+          "when": "The research space is inside a detached house or multi-unit housing",
+          "then": "Set up a separate research space in a permitted building that is not housing, then apply for recognition."
+        },
+        {
+          "when": "The building is permitted but the space is shared with other departments",
+          "then": "Divide the space to meet the independent space standard (fixed walls and a separate entrance, or the partition exception)."
+        }
+      ],
+      "docs": "Full-floor plan and interior plan of the floor with the new research space, photos of the dedicated entrance sign and interior",
+      "period": "In practice, the application date depends on when the space is ready."
+    },
+    {
+      "id": "sit-rl-dual-role",
+      "q": "Can a dedicated researcher at our Korean company also handle sales or production work?",
+      "conclusion": "No. A person dedicated to research must not take on other work such as production, sales or business development beyond R&D-related work. A violation breaches the compliance duties and is a ground for revocation of recognition.",
+      "branches": [
+        {
+          "when": "An employee researcher is also handling other work",
+          "then": "Reorganize the organization chart and job assignments around R&D work, and hire additional staff to meet the staffing standard if needed."
+        },
+        {
+          "when": "The CEO of a small enterprise less than 3 years from its founding date does R&D work",
+          "then": "This falls under the exception to the dual-role ban and the exclusion from dedicated researchers, so the CEO may be recognized as a dedicated researcher."
+        },
+        {
+          "when": "The CEO of a company more than 3 years old",
+          "then": "Recalculate whether the staffing standard is met without counting the CEO."
+        }
+      ],
+      "docs": "Organization chart, R&D staff list, and records proving employment such as health insurance and national pension enrollment lists",
+      "period": "In revocation proceedings, the grounds for revocation and how to submit an opinion are notified at least 15 days before the hearing."
+    },
+    {
+      "id": "sit-rl-resign",
+      "q": "A dedicated researcher quit and we are now below the staffing standard. What do we need to do, and by when?",
+      "conclusion": "A change in R&D staff requires a change report, filed with KOITA within 30 days of the change. If staffing falls below the standard, a supplementation order with a period of at least 1 month is issued, and recognition may be revoked if it is not complied with.",
+      "branches": [
+        {
+          "when": "You hired a replacement researcher right away",
+          "then": "File a change report reflecting the departing and new researchers, and check that the new researcher meets the qualification standards."
+        },
+        {
+          "when": "Hiring a replacement right away is difficult",
+          "then": "Plan to hire within the supplementation order period, keeping in mind that failing to comply within the period is a ground for revocation."
+        },
+        {
+          "when": "The change report deadline has passed",
+          "then": "Failing to report within 1 year of the change is a ground for revocation, so file the report now."
+        }
+      ],
+      "docs": "Change report, documents proving the change (departure and hiring records, proof of the new researcher's qualifications)",
+      "period": "Change report within 30 days; supplementation order period of at least 1 month; failure to report within 1 year of the change is a ground for revocation",
+      "href": "#term-rl-change"
+    },
+    {
+      "id": "sit-rl-move",
+      "q": "If our company moves offices, do we have to file a separate report for the corporate R&D center?",
+      "conclusion": "A change in the location of the company or the R&D center, or in the research space, requires a change report filed within 30 days of the change.",
+      "branches": [
+        {
+          "when": "The R&D center is moving to the new office too",
+          "then": "Lay out the new space to meet the independent space standard, and file a location and research space change report with the new plans and photos."
+        },
+        {
+          "when": "Only the head office is moving and the R&D center stays",
+          "then": "File a change report for the change in company location."
+        },
+        {
+          "when": "The new location is a detached house or multi-unit housing",
+          "then": "This is restricted as a location, so find another site."
+        }
+      ],
+      "docs": "Change report, documents proving the change, full-floor and interior plans with photos of the new research space",
+      "period": "Within 30 days of the change",
+      "href": "#term-rl-change"
+    },
+    {
+      "id": "sit-rl-service",
+      "q": "Can a service-sector company in Korea set up a corporate R&D center? Are the researcher qualification rules different?",
+      "conclusion": "Yes. For R&D in industrial design or R&D at a company whose main business is an eligible service-sector industry, researchers can qualify as dedicated researchers without a natural sciences major.",
+      "branches": [
+        {
+          "when": "The company's main business is an eligible service-sector industry",
+          "then": "Build the team of dedicated researchers from holders of a bachelor's degree or higher, holders of a Level 1 or higher national technical qualification in a service field and the like, and submit the SME criteria review sheet or VAT return."
+        },
+        {
+          "when": "The company is an SME",
+          "then": "An associate degree with 2 years of experience, or a Level 2 or single-level service-field qualification with 2 years of experience, is also accepted."
+        },
+        {
+          "when": "The research is in manufacturing or technology",
+          "then": "The basic qualification is a bachelor's degree or higher in natural sciences or engineering, or an engineer-level or higher technical qualification."
+        }
+      ],
+      "docs": "Recognition application, R&D activity summary, R&D staff list, SME criteria review sheet or VAT return, full-floor and interior plans with photos",
+      "period": "In practice, it depends on the industry eligibility review and document supplementation."
+    },
+    {
+      "id": "sit-rl-cancel",
+      "q": "After a corporate R&D center is recognized in Korea, what can lead to the recognition being revoked?",
+      "conclusion": "Recognition must be revoked if it was obtained by false or fraudulent means, or if the company requests revocation or closes down. It may be revoked for failing to file a change report within 1 year, not complying with a supplementation order, breaching compliance duties, refusing an on-site inspection, or having no R&D activity.",
+      "branches": [
+        {
+          "when": "Recognition was obtained by false or fraudulent means",
+          "then": "Recognition is revoked, no new application can be filed for 1 year from the revocation date, and an administrative fine of up to KRW 5 million may be imposed."
+        },
+        {
+          "when": "Staffing or space falls below the recognition criteria",
+          "then": "Hire or fix the space within the supplementation order period of at least 1 month."
+        },
+        {
+          "when": "Compliance duties (no dual roles, location, annual R&D performance report, submission of materials) are not met",
+          "then": "This is a ground for revocation, so manage the follow-up schedule, including filing the R&D performance report every year by April 30."
+        }
+      ],
+      "docs": "Proof of hiring or space corrections when responding to a supplementation order, opinion submission materials, R&D performance report",
+      "period": "Notice at least 15 days before the hearing; supplementation order period of at least 1 month; R&D performance report every year by April 30",
+      "href": "#term-rl-revocation"
+    },
+    {
+      "id": "sit-rl-cost",
+      "q": "How much does it cost to set up a corporate R&D center in Korea, and what should we prepare first?",
+      "conclusion": "Costs vary widely depending on which researchers and research space you already have and what still needs to be put in place, so the first step is to check which recognition criteria you fall short of. The recognition application is filed through KOITA's online system.",
+      "branches": [
+        {
+          "when": "You already have dedicated researchers and an independent research space",
+          "then": "The work centers on drafting documents, preparing plans and photos, and filing with KOITA."
+        },
+        {
+          "when": "The research space needs to be newly divided",
+          "then": "Before building walls or entrances, review the plans against the independent space standard and the partition exception."
+        },
+        {
+          "when": "Researcher qualifications are unclear",
+          "then": "First check the qualification standards against degree, qualification and experience records."
+        }
+      ],
+      "docs": "Recognition application, R&D activity summary, research equipment list, R&D staff list, organization chart, full-floor and interior plans with photos",
+      "period": "In practice, the overall schedule depends on the time needed to prepare the space and supplement documents.",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-rl-agent",
+      "q": "If we hire an administrative agent for corporate R&D center registration in Korea, what do they handle?",
+      "conclusion": "We review the number and qualifications of dedicated researchers for your company size, prepare plans and photos of the research space, draft the recognition application, R&D activity summary and staff and equipment lists, file with KOITA, handle the on-site check and supplementation, and file change reports after recognition. We do not carry out construction of the research space or file tax credit claims.",
+      "branches": [
+        {
+          "when": "Applying for recognition for the first time",
+          "then": "We prepare and file the application documents from the requirements review through to issuance of the certificate of recognition."
+        },
+        {
+          "when": "Already running a recognized R&D center",
+          "then": "We prepare change reports for researcher turnover or relocation and documents in response to supplementation orders."
+        },
+        {
+          "when": "Seeking the research and human resources development tax credit",
+          "then": "Applying for and claiming the tax credit is checked by a tax accountant or other tax professional."
+        }
+      ],
+      "docs": "Business registration details, researchers' degree, qualification and experience records, office plans and photos, organization chart",
+      "period": "In practice, it depends on space preparation and whether documents need supplementation."
+    },
+    {
+      "id": "sit-rl-foreign",
+      "q": "Can a foreign-invested Korean corporation get corporate R&D center recognition?",
+      "conclusion": "A company formed under the Commercial Act is eligible, and it needs to meet the same staffing standard for its size and the same independent research space standard.",
+      "branches": [
+        {
+          "when": "A Korean corporation sets up an R&D center in Korea",
+          "then": "Apply after meeting the staffing standard for your category (small, medium, mid-sized or other company: at least 3, 5, 7 or 10 people, etc.)."
+        },
+        {
+          "when": "The corporate research institute is located outside Korea",
+          "then": "The standard of at least 5 dedicated researchers applies."
+        }
+      ],
+      "docs": "Recognition application, R&D activity summary, research equipment list, R&D staff list, organization chart, full-floor and interior plans with photos, and proof of mid-sized enterprise status if applicable",
+      "period": "In practice, it depends on document supplementation and the on-site check schedule."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-rl-lab",
+      "term": "Corporate R&D center (기업부설연구소)",
+      "def": "A research institute set up and run by a company to carry out R&D that meets the recognition criteria and is recognized by the Minister of Science and ICT (과학기술정보통신부장관)."
+    },
+    {
+      "id": "term-rl-dept",
+      "term": "Dedicated R&D department (연구개발전담부서)",
+      "def": "A recognized department within a company that is dedicated to R&D; at least 1 dedicated researcher is required."
+    },
+    {
+      "id": "term-rl-researcher",
+      "term": "Dedicated researcher (연구전담요원)",
+      "def": "An employee of the company who meets the qualification standards, such as a bachelor's degree or higher in natural sciences or engineering or an engineer-level or higher technical qualification, and is dedicated to R&D activities."
+    },
+    {
+      "id": "term-rl-criteria",
+      "term": "Recognition criteria (인정기준)",
+      "def": "The standards for research staff (number and qualifications of dedicated researchers) and research facilities (independent research space and equipment) required for recognition as a corporate R&D center or dedicated R&D department."
+    },
+    {
+      "id": "term-rl-space",
+      "term": "Independent research space (독립 연구공간)",
+      "def": "A space used only for research, separated from other departments by fixed walls and a separate entrance; for certain SMEs and similar companies, separation by partitions is also accepted."
+    },
+    {
+      "id": "term-rl-change",
+      "term": "Change report (변경신고)",
+      "def": "A report filed with KOITA within 30 days of a change in the name, location, research field, head, R&D staff or research space of the company or its corporate R&D center or dedicated R&D department."
+    },
+    {
+      "id": "term-rl-supplement",
+      "term": "Supplementation order (보완명령)",
+      "def": "An order to remedy a shortfall within a set period of at least 1 month when a corporate R&D center or dedicated R&D department no longer meets the recognition criteria."
+    },
+    {
+      "id": "term-rl-revocation",
+      "term": "Revocation of recognition (인정취소)",
+      "def": "A measure revoking recognition after a hearing where there is false recognition, business closure, failure to file a change report within 1 year, non-compliance with a supplementation order, breach of compliance duties or the like."
+    }
+  ]
+}

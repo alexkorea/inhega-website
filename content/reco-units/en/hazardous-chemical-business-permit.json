@@ -1,0 +1,188 @@
+{
+  "slug": "hazardous-chemical-business-permit",
+  "lang": "en",
+  "label": "Hazardous chemical business permit",
+  "kw": "Hazardous chemical business permit agent in Korea",
+  "answer": "A hazardous chemical business permit (유해화학물질 영업허가) is a permit that operators who manufacture, sell, store, transport or use hazardous chemicals must obtain for each workplace; you submit the permit application, including a chemical accident prevention and management plan that has received a notice of suitability and an inspection report finding the handling facilities suitable, to the head of the regional environmental office with jurisdiction over the workplace. If the quantity handled is below the lower threshold quantity, a report applies instead, and under the Enforcement Rule the permit is to be granted within 15 days. YouSun Administrative Agency prepares and files permit, change and report applications and supporting documents on your behalf.",
+  "services": [
+    {"name": "Pre-review of whether a permit or report applies, based on the substances and threshold quantities (규정수량)", "href": "#term-hc-quantity"},
+    {"name": "Preparing and filing the hazardous chemical business (유해화학물질 영업) permit application", "href": "#term-hc-business"},
+    {"name": "Preparing and filing the hazardous chemical business report", "href": "#term-hc-quantity"},
+    {"name": "Preparing the annual planned handling quantity data and handling facility specification", "href": "#svc-glance"},
+    {"name": "Preparing the equipment and technical staff (기술인력) specification and checking staffing standards", "href": "#term-hc-tech"},
+    {"name": "Organizing attachments for a transport business permit (such as the freight vehicle transport business permit)", "href": "#sit-hc-transport"},
+    {"name": "Guidance on documents proving that foreign applicants or officers have no grounds for disqualification", "href": "#sit-hc-foreign"},
+    {"name": "Applying for change permits and filing change reports (변경허가·변경신고)", "href": "#term-hc-change"},
+    {"name": "Filing the appointment report for the hazardous chemical manager (유해화학물질관리자)", "href": "#term-hc-manager"},
+    {"name": "Handling supplement requests from the regional environmental office", "href": "#sit-hc-period"}
+  ],
+  "clients": [
+    "Trading and wholesale corporations distributing and selling industrial chemicals",
+    "Manufacturing plants using hazardous chemicals in cleaning or painting processes",
+    "Freight transport businesses planning to transport hazardous chemicals",
+    "Foreign-invested companies with workplaces in Korea"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Hazardous chemical manufacturing, sales, storage, transport and use businesses (a permit applies to operating handling facilities at or above the lower threshold quantity or transporting more than 1 tonne at a time; a report applies at or above the lowest threshold quantity but below the lower threshold quantity)"},
+    {"label": "Requirements", "value": "Handling facility, equipment and technical staff standards (changing rooms, personal protective equipment, fire-extinguishing and alarm equipment, detection and alarm devices, at least 1 technical staff member with a national technical qualification or equivalent); a chemical accident prevention and management plan with a notice of suitability; an inspection report with a suitability finding; no grounds for disqualification"},
+    {"label": "Process", "value": "Confirm substances and quantities → notice of suitability for the chemical accident prevention and management plan → suitability finding in the handling facility inspection → secure equipment and technical staff → submit the permit application → receive the permit → appoint and report the hazardous chemical manager before starting business"},
+    {"label": "Documents", "value": "Permit application; chemical accident prevention and management plan (with notice of suitability); handling facility inspection report (with suitability finding); annual planned handling quantity data; handling facility specification; equipment and technical staff specification; for transport businesses, a copy of the freight vehicle transport business permit or construction machinery rental business registration"},
+    {"label": "Timeline", "value": "Permit 15 days (per the Enforcement Rule and application form); the time for the plan's notice of suitability and the handling facility inspection is separate"}
+  ],
+  "chooser": [
+    {"label": "Buying and reselling hazardous chemicals", "target": "sit-hc-sales"},
+    {"label": "Transporting by truck", "target": "sit-hc-transport"},
+    {"label": "Using chemicals in a factory process", "target": "sit-hc-user"},
+    {"label": "Relocating the workplace", "target": "sit-hc-change"},
+    {"label": "The representative or officers are foreign nationals", "target": "sit-hc-foreign"}
+  ],
+  "situations": [
+    {
+      "id": "sit-hc-sales",
+      "q": "Does a trading company that imports or buys hazardous chemicals and resells them to customers in Korea need a sales business permit?",
+      "conclusion": "Selling hazardous chemicals commercially is a hazardous chemical sales business, and depending on the quantity handled it requires a permit or a report. Operating facilities that handle quantities at or above the lower threshold requires a permit; at or above the lowest threshold but below the lower threshold, a report applies.",
+      "branches": [
+        {"when": "You store and sell quantities at or above the lower threshold in a warehouse or similar facility", "then": "Obtain the notice of suitability for the chemical accident prevention and management plan and pass the handling facility inspection, then submit the sales business permit application."},
+        {"when": "The quantity handled is below the lower threshold", "then": "Confirm whether a report applies, then submit the report with only the required subset of documents attached."}
+      ],
+      "docs": "Permit application (or report); annual planned handling quantity data; handling facility specification; equipment and technical staff specification; notice of suitability for the chemical accident prevention and management plan; inspection report",
+      "period": "Permit 15 days / in practice, the plan's notice of suitability and facility inspection come first",
+      "href": "#term-hc-quantity"
+    },
+    {
+      "id": "sit-hc-transport",
+      "q": "Are there separate requirements for a transport business permit to carry hazardous chemicals by truck in Korea?",
+      "conclusion": "Transporting more than 1 tonne of hazardous chemicals at a time requires a permit, and a transport business must meet parking and vehicle washing facility standards in addition to the common facility, equipment and technical staff standards. Transport by aircraft, ship or rail is excluded from the transport business.",
+      "branches": [
+        {"when": "You already hold a freight vehicle transport business permit", "then": "Submit the transport business permit application with a copy of that permit."},
+        {"when": "You transport with construction machinery", "then": "Attach a copy of the construction machinery rental business registration."}
+      ],
+      "docs": "Permit application; copy of the freight vehicle transport business permit or construction machinery rental business registration; equipment and technical staff specification; parking and vehicle washing facility data",
+      "period": "Permit 15 days / in practice, it depends on any supplements"
+    },
+    {
+      "id": "sit-hc-user",
+      "q": "We use hazardous chemicals in cleaning and painting processes at our factory in Korea. Do we need a use business permit?",
+      "conclusion": "A business that uses hazardous chemicals in manufacturing products or in work processes such as cleaning or painting is a hazardous chemical use business. If the substances used and the quantity in the handling facilities are at or above the lower threshold, a permit applies; below that, a report.",
+      "branches": [
+        {"when": "Quantities in process tanks and storage facilities are at or above the lower threshold", "then": "Obtain the notice of suitability for the chemical accident prevention and management plan and a suitability finding in the handling facility inspection, then apply for the permit."},
+        {"when": "The quantity handled is small", "then": "Compare with the threshold quantities to confirm whether a report applies and prepare the report."}
+      ],
+      "docs": "Permit application (or report); annual planned handling quantity data; handling facility specification (area, capacity, quantity, location map and layout plan); equipment and technical staff specification",
+      "period": "Permit 15 days / in practice, the plan and inspection periods are added"
+    },
+    {
+      "id": "sit-hc-plan",
+      "q": "Must we have the chemical accident prevention and management plan approved before applying for a hazardous chemical business permit in Korea, and who prepares it?",
+      "conclusion": "Yes. The permit application must include a chemical accident prevention and management plan that has received a notice of suitability, so you must obtain that notice before applying. Preparing the plan and inspecting handling facilities belong to designated specialist bodies, and an administrative agency does not do them for you.",
+      "branches": [
+        {"when": "You already have the notice of suitability for the plan", "then": "Prepare the permit application with the suitability finding from the handling facility inspection and the equipment and staffing documents."},
+        {"when": "You have not yet prepared the plan", "then": "Start by scheduling preparation and submission of the plan through a specialist body to obtain the notice of suitability."}
+      ],
+      "docs": "Chemical accident prevention and management plan with notice of suitability; inspection report with suitability finding",
+      "period": "The plan's notice of suitability and the facility inspection take time separate from the 15-day permit period",
+      "href": "#term-hc-plan"
+    },
+    {
+      "id": "sit-hc-tech",
+      "q": "What qualifications must technical staff have for a hazardous chemical business permit in Korea?",
+      "conclusion": "You need at least 1 technical staff member with a national technical qualification (such as Engineer Chemical Industry, 화공기사) or a specified degree and experience. Technical staff are evidenced through the equipment and technical staff specification.",
+      "branches": [
+        {"when": "You have staff holding a qualification", "then": "Prepare the equipment and technical staff specification based on the qualification evidence."},
+        {"when": "You plan to meet the requirement with a degree and experience instead of a qualification", "then": "Check the degree and experience evidence against the standards, then reflect it in the specification."}
+      ],
+      "docs": "Equipment and technical staff specification; qualification certificate or degree and experience evidence",
+      "period": "Permit 15 days / in practice, hiring time is separate"
+    },
+    {
+      "id": "sit-hc-manager",
+      "q": "After obtaining a hazardous chemical business permit in Korea, what must we do before starting business?",
+      "conclusion": "Before starting business, you must appoint a hazardous chemical manager according to standards such as quantity handled and number of workers, and report the appointment without delay. Also, failing to start business within 2 years of the permit is a ground for permit cancellation or business suspension.",
+      "branches": [
+        {"when": "You start business soon after receiving the permit", "then": "Complete the manager appointment report first, then start operations."},
+        {"when": "The start of business is delayed", "then": "Business must start within 2 years of the permit, so manage the start date."}
+      ],
+      "docs": "Hazardous chemical manager appointment report; evidence of the manager's qualifications",
+      "period": "Appoint the manager before starting business and report without delay / start business within 2 years of the permit",
+      "href": "#term-hc-manager"
+    },
+    {
+      "id": "sit-hc-period",
+      "q": "How long does a hazardous chemical business permit take in Korea?",
+      "conclusion": "Under the Enforcement Rule and the application form, the permit is to be granted within 15 days. This assumes an application meeting all requirements, and the time for the notice of suitability for the chemical accident prevention and management plan and for the handling facility inspection is separate.",
+      "branches": [
+        {"when": "You have both the plan's notice of suitability and the inspection's suitability finding", "then": "You receive the permit within 15 days of submitting the application."},
+        {"when": "You receive a supplement request because facility or staffing standards are not met", "then": "The period extends by the time it takes to submit the supplementary documents."}
+      ],
+      "docs": "Permit application and all attachments",
+      "period": "Permit 15 days / in practice, plan, inspection and supplement time are added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-hc-cost",
+      "q": "How much does a hazardous chemical business permit cost in Korea, and what are the cost items?",
+      "conclusion": "Most permit preparation costs arise before the application stage. The main items are preparing the chemical accident prevention and management plan, installing and inspecting handling facilities, procuring equipment and securing technical staff, and these belong to specialist bodies and contractors.",
+      "branches": [
+        {"when": "Your existing facilities fall under the report scheme", "then": "First check whether obligations such as submitting the plan differ from the permit scheme, reducing what needs preparing."},
+        {"when": "A permit applies", "then": "Plan the schedule and budget in the order of the plan's notice of suitability, facility inspection, then equipment and staffing."}
+      ],
+      "docs": "Annual planned handling quantity data; handling facility specification; equipment and technical staff specification",
+      "period": "Permit 15 days / in practice, the preparation stages take most of the time"
+    },
+    {
+      "id": "sit-hc-change",
+      "q": "If we move a permitted hazardous chemical workplace to another location in Korea, do we need a new permit?",
+      "conclusion": "Changing the workplace location (other than the office) requires a change permit, so you must apply before moving. Changes to the workplace name, representative or office location require a change report within 30 days of the change (a change of representative may be filed within 60 days).",
+      "branches": [
+        {"when": "You relocate a workplace with handling facilities", "then": "Prepare the handling facility specification and other documents for the new workplace and apply for a change permit before the move."},
+        {"when": "Only the office moves or the representative changes", "then": "File a change report within the deadline."}
+      ],
+      "docs": "Change permit application or change report; evidence of the change; new handling facility specification (for relocation)",
+      "period": "Change permit before the change / change report within 30 days of the change (60 days for a change of representative)",
+      "href": "#term-hc-change"
+    },
+    {
+      "id": "sit-hc-foreign",
+      "q": "Can a corporation whose CEO is a foreign national obtain a hazardous chemical business permit in Korea, and are extra documents required?",
+      "conclusion": "Yes. If the applicant (for a corporation, including officers) is a foreign national, you additionally submit documents such as those issued by an authority of that country proving no grounds for disqualification. The corporate register extract and business registration certificate are checked by the official through shared administrative information.",
+      "branches": [
+        {"when": "There are foreign officers", "then": "Obtain in advance documents issued by an authority of their country proving no grounds for disqualification."},
+        {"when": "An officer falls under grounds for disqualification", "then": "A corporation with such an officer cannot operate the business, so sort out the board composition first."}
+      ],
+      "docs": "Permit application; proof that foreign officers have no grounds for disqualification; all standard attachments",
+      "period": "Permit 15 days / in practice, time to obtain documents abroad is added"
+    },
+    {
+      "id": "sit-hc-unpermitted",
+      "q": "What are the penalties if we are caught handling hazardous chemicals without a permit in Korea?",
+      "conclusion": "Operating a business with or handling hazardous chemicals without a permit can lead to imprisonment of up to 5 years or a fine of up to KRW 100 million. Obtaining a permit by false or improper means and failing to obtain a change permit are also grounds for cancellation or business suspension.",
+      "branches": [
+        {"when": "Your quantity falls under the permit threshold but you have no permit", "then": "Start the permit procedure with the plan and facility inspection."},
+        {"when": "You have a permit but have not reflected changes", "then": "Apply for a change permit or file a change report."}
+      ],
+      "docs": "Permit application or change permit application and attachments",
+      "period": "Permit 15 days / in practice, the plan and inspection periods are added"
+    },
+    {
+      "id": "sit-hc-agency",
+      "q": "If I hire an administrative agent for a hazardous chemical business permit in Korea, what will they handle?",
+      "conclusion": "YouSun Administrative Agency reviews whether a permit or report applies, prepares the permit application, annual planned handling quantity data, handling facility specification and equipment and technical staff specification, files them with the regional environmental office, responds to supplements, and handles change permits and change reports. Preparing the chemical accident prevention and management plan, handling facility inspections and safety diagnoses, and testing and measurement belong to specialist bodies, so we do not handle them.",
+      "branches": [
+        {"when": "The plan and inspection results are ready", "then": "We prepare and file the permit application and specifications based on them."},
+        {"when": "You do not yet know whether a permit or report applies", "then": "We first sort this out from your substance and quantity data."}
+      ],
+      "docs": "List of substances handled and quantity data; facility drawings; technical staff qualification evidence; plan's notice of suitability and inspection report",
+      "period": "Permit 15 days / in practice, it depends on preparation and supplement time",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-hc-business", "term": "Hazardous chemical business (유해화학물질 영업)", "def": "Business divided into five types: hazardous chemical manufacturing, sales, storage, transport and use."},
+    {"id": "term-hc-quantity", "term": "Threshold quantity (규정수량)", "def": "The quantity standard set for each hazardous chemical; handling at or above the lower threshold requires a permit, and at or above the lowest threshold but below the lower threshold, a report."},
+    {"id": "term-hc-plan", "term": "Chemical accident prevention and management plan (화학사고예방관리계획서)", "def": "A plan for preventing and responding to chemical accidents that must be prepared and receive a notice of suitability; it is included in the permit application."},
+    {"id": "term-hc-inspection", "term": "Handling facility inspection (취급시설 검사)", "def": "An inspection confirming that hazardous chemical handling facilities meet the standards; the inspection report with a suitability finding is included in the permit application."},
+    {"id": "term-hc-tech", "term": "Technical staff (기술인력)", "def": "Staff with a national technical qualification (such as Engineer Chemical Industry) or a specified degree and experience; a permitted workplace must have at least 1."},
+    {"id": "term-hc-manager", "term": "Hazardous chemical manager (유해화학물질관리자)", "def": "The responsible manager that a hazardous chemical business operator must appoint and report before starting business, according to quantity handled, number of workers and similar criteria."},
+    {"id": "term-hc-change", "term": "Change permit and change report (변경허가·변경신고)", "def": "The procedure under which a change of workplace location requires a change permit before the change, and changes of name, representative or office location require a change report."}
+  ]
+}

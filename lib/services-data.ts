@@ -1700,7 +1700,7 @@ export const services: Service[] = [
       { q: '해외 사업자도 위치기반서비스 신고를 해야 하나요?', a: '한국 법인이 없어도 신고가 불가능한 것은 아닙니다. 국내 대리인 지정 여부와 필요 서류는 사업자 형태에 따라 달라지므로 신고 전에 확인합니다.' },
       { q: '위치기반서비스 신고는 서울·경기 어디서 하나요?', a: '접수 기관이 지역별로 나뉘지 않고 방송미디어통신위원회 한 곳이므로 서울·경기 구분이 없습니다. 위치기반서비스사업 신고 대행은 서류 작성과 접수·보완 대응까지 맡으며, 업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 행정사 업무 범위 밖입니다.' },
     ],
-    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">위치기반서비스사업신고란?</a></li><li><a href="#svc-scope">신고 대상과 제외</a></li><li><a href="#svc-i5-1">앱 위치정보 수집, 신고 대상 여부 판단과 해외 사업자</a></li><li><a href="#svc-small">소상공인·1인 창조기업 특례</a></li><li><a href="#svc-documents">필요 서류</a></li><li><a href="#svc-process">진행 절차</a></li><li><a href="#svc-manage">변경·양수·휴폐업 신고</a></li><li><a href="#svc-i5-2">위치기반서비스 변경신고와 휴업·폐업 신고</a></li><li><a href="#svc-penalty">위반 시 제재</a></li><li><a href="#svc-i5-3">위치기반서비스사업 신고 대행, 행정사 업무범위</a></li><li><a href="#svc-case">실제 처리 사례</a></li><li><a href="#svc-faq">자주 묻는 질문</a></li></ol></div>
+    overview: `<div class="svc-toc"><p class="svc-toc-title">목차</p><ol><li><a href="#svc-overview">위치기반서비스사업신고란?</a></li><li><a href="#svc-scope">신고 대상과 제외</a></li><li><a href="#svc-i5-1">앱 위치정보 수집, 신고 대상 여부 판단과 해외 사업자</a></li><li><a href="#svc-small">소상공인·1인 창조기업 특례</a></li><li><a href="#svc-documents">필요 서류</a></li><li><a href="#svc-process-detail">진행 절차</a></li><li><a href="#svc-manage">변경·양수·휴폐업 신고</a></li><li><a href="#svc-i5-2">위치기반서비스 변경신고와 휴업·폐업 신고</a></li><li><a href="#svc-penalty">위반 시 제재</a></li><li><a href="#svc-i5-3">위치기반서비스사업 신고 대행, 행정사 업무범위</a></li><li><a href="#svc-case">실제 처리 사례</a></li><li><a href="#svc-faq">자주 묻는 질문</a></li></ol></div>
 <h2 id="svc-overview">위치기반서비스사업신고란?</h2>
 <p>GPS·IP·Wi-Fi 등을 이용해 이용자의 위치를 파악하고 이를 서비스에 활용하는 사업자는 「위치정보의 보호 및 이용 등에 관한 법률」에 따라 <strong>방송미디어통신위원회</strong>에 신고해야 합니다. 배달앱, 라이드헤일링, 물류 추적, 지역 기반 광고, B2B 인력관리 솔루션 등 개인의 위치 정보를 활용하는 서비스가 대상입니다.</p>
 <div class="svc-highlight">2025년 10월 1일 시행 개정으로 이 법의 소관 기관 명칭이 <strong>방송통신위원회에서 방송미디어통신위원회로</strong> 변경되었습니다. 신고서·이용약관·개인위치정보 처리방침 등 대외 문서에 기관명이 남아 있다면 정비가 필요합니다.</div>
@@ -1734,7 +1734,7 @@ export const services: Service[] = [
 <tr><td>행정정보 공동이용</td><td>법인 등기사항증명서 또는 사업자등록증명 — 원칙적으로 제출 불요(사업자등록증명 확인에 동의하지 않으면 첨부)</td></tr>
 </tbody></table>
 <p><strong>외국법인 실무 준비물</strong>은 자국 법인등기부등본(공증+아포스티유), 한국어 번역본, 대표자 신원 확인서, 자국 사업자등록번호(싱가포르 UEN, 미국 EIN 등)입니다. 이들은 법정 첨부서류 목록에 명시된 것은 아니지만, 신고인의 실체와 사업계획서 기재사항을 확인하기 위해 실무상 요구됩니다.</p>
-<h2 id="svc-process">진행 절차</h2>
+<h2 id="svc-process-detail">진행 절차</h2>
 <ol><li><strong>신고 대상 판정</strong> — 개인위치정보 처리 여부, 위치정보사업(등록) 해당 여부, 소상공인등 특례 해당 여부 확인</li><li><strong>보호조치 설계</strong> — 위치정보법에 따른 기술적·관리적 보호조치 구축과 증명 문서 작성</li><li><strong>서류 준비</strong> — 사업계획서, 주요설비 내용·설치 장소 확인 서류, 보호조치 증명 서류. 외국법인은 자국 서류 공증·아포스티유와 번역(국가별 1~4주)</li><li><strong>신고서 제출</strong> — 위치기반서비스사업신고서(전자문서 포함)를 방송미디어통신위원회에 제출</li><li><strong>보완 대응</strong> — 평균 1~2회</li><li><strong>신고 수리·확인증 수령</strong> — 행정청은 내용을 검토하여 이 법에 적합하면 신고를 수리</li></ol>
 <h2 id="svc-manage">변경·양수·휴폐업 신고</h2>
 <h3>변경신고 — 3가지로 한정</h3>

@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { getPillarView, pillarUi, EXPERTISE_UI, SERVICES_HEADING_KW, type FocusPageLocale, type PillarView } from '@/lib/focus-pillar-view'
+import { getPillarView, pillarUi, EXPERTISE_UI, SERVICES_HEADING_KW, UNIT_BADGE, type FocusPageLocale, type PillarView } from '@/lib/focus-pillar-view'
 import styles from './FocusPillar.module.css'
 
-// 중점 업무 필러(INHEGA-FOCUS-1103) — 중점 6개가 아니면 아무것도 그리지 않는다. ko·en·zh·ja 공용.
+// 중점 업무 필러(INHEGA-FOCUS-1103) + AI-RECO-1103 12절 항목 블록(55개, lib/reco-units) — 원고가 없는 slug 는 아무것도 그리지 않는다. ko·en·zh·ja 공용.
 // 순서: 핵심 답변(AI 답변용 직답) → 처리하는 업무(3차, 각 항목은 본문 앵커) → 이런 고객이 맡깁니다(3차) → 내 상황 고르기(앵커, JS 없음)
 //       → 한눈에 보기 → 외국기업 박스 → 단계 → 상황별 질문 → 상담. 맨 아래(FocusPillarGlossary): 용어 설명(DefinedTermSet) → 사무소 카드.
 const fill = (s: string, label: string) => s.replace('{label}', label)
@@ -47,7 +47,7 @@ function Expertise({ v }: { v: PillarView }) {
     <>
       {ex.services.length > 0 && (
         <div className={styles.services} id="svc-services">
-          <h2 className={styles.servicesHeading}>{ui.servicesHeading.replace('{kw}', SERVICES_HEADING_KW[v.locale]?.[v.slug] ?? v.label)}</h2>
+          <h2 className={styles.servicesHeading}>{ui.servicesHeading.replace('{kw}', SERVICES_HEADING_KW[v.locale]?.[v.slug] ?? v.kw ?? v.label)}</h2>
           <ul className={styles.servicesList}>
             {ex.services.map((s) => (
               <li key={s.name}>
@@ -77,7 +77,7 @@ export function FocusPillarTop({ slug, locale = 'ko' }: { slug: string; locale?:
   const ui = pillarUi(locale)
   return (
     <section className={`${styles.glance} fade-up`} id="svc-glance">
-      <span className="badge badge-burgundy text-label">{ui.badge}</span>
+      <span className="badge badge-burgundy text-label">{v.focus ? ui.badge : UNIT_BADGE[locale]}</span>
       {v.answer && (
         <div className={styles.answer} id="svc-answer">
           <p className={styles.answerLabel}>{ui.answerLabel}</p>

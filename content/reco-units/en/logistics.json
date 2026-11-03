@@ -1,0 +1,359 @@
+{
+ "slug": "logistics",
+ "lang": "en",
+ "label": "International Freight Forwarding Registration",
+ "kw": "International freight forwarder registration agent in Korea",
+ "answer": "International freight forwarding business registration (국제물류주선업 등록) is a statutory registration filed with the Mayor or Provincial Governor with jurisdiction over the head office by a business (freight forwarder) that arranges logistics for import and export cargo in its own name and on its own account, using other parties' logistics facilities and equipment. The applicant needs capital of KRW 300 million or more (for non-corporate applicants, assessed assets of KRW 600 million or more), surety insurance of KRW 100 million or more (exemptions apply), and no grounds for disqualification. The statutory processing period is 10 days. YouSun Administrative Agency prepares and files the registration application and attachments.",
+ "services": [
+  {
+   "name": "Preparing and filing the international freight forwarding business registration application (국제물류주선업 등록신청)",
+   "href": "#term-lg-forwarder"
+  },
+  {
+   "name": "Pre-checking the registration standards (capital, assessed assets, surety insurance) (등록기준)",
+   "href": "#term-lg-standard"
+  },
+  {
+   "name": "Reviewing whether a surety insurance exemption applies (보증보험 면제)",
+   "href": "#term-lg-surety"
+  },
+  {
+   "name": "Preparing house bill of lading and air waybill forms and terms issued in your own name (선하증권·항공화물운송장)",
+   "href": "#term-lg-bl"
+  },
+  {
+   "name": "Checking grounds for disqualification and guidance on non-disqualification documents for foreign officers (apostille or consular confirmation) (결격사유)",
+   "href": "#term-lg-disqualification"
+  },
+  {
+   "name": "Organizing foreign investment certification documents for foreign-invested companies",
+   "href": "#sit-lg-foreign-invested"
+  },
+  {
+   "name": "Change registration (trade name, representative, officers, head office location, capital reduction) (변경등록)",
+   "href": "#term-lg-change"
+  },
+  {
+   "name": "Registration standards report due every 3 years (등록기준 신고)",
+   "href": "#term-lg-periodic-report"
+  },
+  {
+   "name": "Business succession report following transfer, inheritance or merger (사업승계 신고)",
+   "href": "#term-lg-succession"
+  },
+  {
+   "name": "Guidance on related licenses such as the truck freight brokerage business permit (화물자동차 운송주선사업 허가)",
+   "href": "#sit-lg-domestic"
+  }
+ ],
+ "clients": [
+  "Corporations and sole proprietors setting up a new freight forwarding company",
+  "Foreign logistics companies establishing a Korean entity to provide international freight forwarding",
+  "Foreign-invested companies with foreign officers",
+  "Existing freight forwarders facing a head office move, change of representative or the 3-year report",
+  "Companies acquiring or merging with a freight forwarding business"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Corporations and individuals (freight forwarders) that, at the request of others, arrange logistics for import and export cargo in their own name and on their own account using other parties' logistics facilities and equipment"
+  },
+  {
+   "label": "Requirements",
+   "value": "Capital of KRW 300 million or more (assessed assets of KRW 600 million or more for non-corporate applicants); surety insurance of KRW 100 million or more (exempt if any one applies: capital of KRW 1 billion or more, ownership of a container yard, a bank payment bond (지급보증) of KRW 100 million or more, or cargo liability insurance of KRW 100 million or more); no grounds for disqualification"
+  },
+  {
+   "label": "Process",
+   "value": "Pre-check disqualification grounds and capital → meet the registration standards → prepare documents → file with the Mayor or Provincial Governor for the head office → review → registration certificate issued → change registration and registration standards report every 3 years"
+  },
+  {
+   "label": "Documents",
+   "value": "International freight forwarding business registration application, proof of meeting the registration standards (capital, surety insurance), B/L and AWB forms and terms in your own name, non-disqualification documents for foreign nationals, foreign investment certification documents for foreign-invested companies (all issued within 1 month before the application date)"
+  },
+  {
+   "label": "Timeline",
+   "value": "Registration 10 days, change registration 5 days, registration standards report 5 days, transfer report 2 days (statutory processing periods)"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Starting forwarding as a sole proprietor",
+   "target": "sit-lg-sole-proprietor"
+  },
+  {
+   "label": "Foreign logistics company registering a Korean entity",
+   "target": "sit-lg-foreign-invested"
+  },
+  {
+   "label": "Wondering if surety insurance can be waived",
+   "target": "sit-lg-surety-exempt"
+  },
+  {
+   "label": "3 years have passed since registration",
+   "target": "sit-lg-3year"
+  },
+  {
+   "label": "Moving the office or acquiring a company",
+   "target": "sit-lg-address"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-lg-sole-proprietor",
+   "q": "What are the requirements to register as an international freight forwarder in Korea as a sole proprietor, without a corporation?",
+   "conclusion": "Sole proprietors can register, but instead of a corporation's KRW 300 million in capital, they need assessed assets of KRW 600 million or more. The surety insurance requirement of KRW 100 million or more and the disqualification review are the same as for corporations.",
+   "branches": [
+    {
+     "when": "Your assessed assets in your own name are KRW 600 million or more",
+     "then": "File as a sole proprietor with proof of the asset assessment and of surety insurance."
+    },
+    {
+     "when": "Meeting the asset threshold is difficult",
+     "then": "Compare setting up a corporation with capital of KRW 300 million or more and registering in the corporation's name."
+    }
+   ],
+   "docs": "International freight forwarding business registration application, proof of assessed assets, proof of surety insurance, B/L and AWB forms and terms",
+   "period": "Statutory: registration 10 days / In practice, time to prepare asset assessment evidence is added"
+  },
+  {
+   "id": "sit-lg-surety-exempt",
+   "q": "We already have cargo liability insurance. Do we still need separate surety insurance for freight forwarder registration in Korea?",
+   "conclusion": "If you hold cargo liability insurance of KRW 100 million or more, you are not required to take out surety insurance. You are also exempt if you have capital (or assessed assets) of KRW 1 billion or more, own a container yard, or have a bank payment bond (지급보증) of KRW 100 million or more.",
+   "branches": [
+    {
+     "when": "Your cargo liability insurance coverage limit is KRW 100 million or more",
+     "then": "Submit the insurance policy as proof of meeting the registration standards."
+    },
+    {
+     "when": "None of the exemptions apply",
+     "then": "Take out surety insurance of KRW 100 million or more and attach proof."
+    }
+   ],
+   "docs": "Cargo liability insurance policy or proof of surety insurance, bank payment bond (지급보증서) if applicable, proof of capital",
+   "period": "Statutory: registration 10 days / In practice, the insurance must be arranged first"
+  },
+  {
+   "id": "sit-lg-foreign-invested",
+   "q": "A Chinese logistics company wants to set up its Korean branch as a corporation and register as a freight forwarder. What extra documents are needed?",
+   "conclusion": "Foreign nationals can register. However, if any corporate officer is a foreign national, submit a document confirming that they do not fall under the grounds for disqualification under their home country's laws (with an apostille or Korean consular confirmation), and if the company is foreign-invested, also submit foreign investment certification documents.",
+   "branches": [
+    {
+     "when": "One or more officers are foreign nationals",
+     "then": "Obtain a non-disqualification document in the home country, with an apostille if the country is party to the Apostille Convention, or otherwise confirmation by the Korean consulate there."
+    },
+    {
+     "when": "The corporation was established through foreign investment",
+     "then": "Attach foreign investment certification documents under the Foreign Investment Promotion Act (외국인투자 촉진법)."
+    }
+   ],
+   "docs": "Registration application, proof of meeting the registration standards, B/L and AWB forms and terms, non-disqualification documents for foreign officers, foreign investment certification documents",
+   "period": "Statutory: registration 10 days / In practice, time to obtain and authenticate overseas documents is added (attachments must be issued within 1 month before the application date)"
+  },
+  {
+   "id": "sit-lg-period",
+   "q": "How long does international freight forwarder registration in Korea take, from document preparation to receiving the certificate?",
+   "conclusion": "The statutory processing period for the Mayor or Provincial Governor after receipt is 10 days. Attachments must be issued within 1 month before the application date, so it is advisable to secure capital and surety insurance evidence first and then obtain all documents at once.",
+   "branches": [
+    {
+     "when": "No supplementation is requested",
+     "then": "After the disqualification and registration standards review, the registration certificate is issued and entered in the register."
+    },
+    {
+     "when": "Disqualification checks or attachments need supplementation",
+     "then": "The actual time extends by however long the supplementation takes."
+    }
+   ],
+   "docs": "International freight forwarding business registration application, proof of meeting the registration standards, B/L and AWB forms and terms",
+   "period": "Statutory: registration 10 days / In practice, depends on whether supplementation is needed",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lg-cost",
+   "q": "I'm looking into the cost of freight forwarder registration in Korea. Apart from capital, what do we need in place beforehand?",
+   "conclusion": "In addition to capital of KRW 300 million (assessed assets of KRW 600 million for individuals), you need surety insurance of KRW 100 million or more or an exemption, and the B/L and AWB forms and terms you will issue in your own name. The law sets no office size or facility standards.",
+   "branches": [
+    {
+     "when": "You have not yet paid in capital or arranged surety insurance",
+     "then": "Complete the capital evidence and surety insurance (or exemption evidence) first."
+    },
+    {
+     "when": "You already meet the registration standards",
+     "then": "Prepare the B/L and AWB forms and terms in Korean or English and complete the application."
+    }
+   ],
+   "docs": "Proof of capital or assessed assets, proof of surety insurance, B/L and AWB forms and terms, registration application",
+   "period": "Statutory: registration 10 days / In practice, time to meet the registration standards is added"
+  },
+  {
+   "id": "sit-lg-3year",
+   "q": "It has been 3 years since our freight forwarder registration. What happens if we don't file the registration standards report?",
+   "conclusion": "Each time 3 years pass from the registration date, you must file a registration standards report with the Mayor or Provincial Governor within 60 days from that point. Failing to report or filing a false report leads to a warning for a first violation, a 30-day business suspension for a second, a 60-day suspension for a third, and cancellation of registration for a fourth.",
+   "branches": [
+    {
+     "when": "You are within the 60-day deadline",
+     "then": "File the registration standards report with evidence of capital and other standards; the next reporting date is written on the registration certificate."
+    },
+    {
+     "when": "Your capital has fallen below the threshold",
+     "then": "Falling short of the standards is a ground for the same tiered sanctions, so increase capital or reinforce assets first and check whether change registration is also needed."
+    }
+   ],
+   "docs": "Registration standards report for international freight forwarding business, proof of capital, proof of surety insurance, registration certificate",
+   "period": "Statutory: report within 60 days after each 3-year point, processing 5 days"
+  },
+  {
+   "id": "sit-lg-address",
+   "q": "If we move our forwarding office to another region, do we need to update our freight forwarder registration in Korea?",
+   "conclusion": "Yes. The head office location is a registered item, so you must file change registration within 60 days of the move; otherwise a fine of up to KRW 2 million is imposed. If you move to another city or province, the Mayor or Provincial Governor transfers the registration files.",
+   "branches": [
+    {
+     "when": "You moved within the same city or province",
+     "then": "File the change registration application with the existing registration authority."
+    },
+    {
+     "when": "You moved to a different city or province",
+     "then": "Once you file change registration, the registration files are transferred to the new jurisdiction."
+    },
+    {
+     "when": "Your trade name, representative, officers or nationality changed, or your capital decreased",
+     "then": "These also require change registration, filed within 60 days of the change."
+    }
+   ],
+   "docs": "Change registration application, proof of the change, registration certificate",
+   "period": "Statutory: file within 60 days of the change, processing 5 days"
+  },
+  {
+   "id": "sit-lg-transfer",
+   "q": "We acquired an existing forwarding company. Does its international freight forwarder registration transfer to us?",
+   "conclusion": "The transferee, heir, or the surviving or newly formed corporation after a merger succeeds to the rights and obligations under the registration and must report to the Mayor or Provincial Governor within 30 days of succession. Disqualification grounds also apply to the successor, and failing to report is subject to a fine of up to KRW 2 million.",
+   "branches": [
+    {
+     "when": "You acquired the entire business",
+     "then": "Submit the transfer report and succession evidence, and have the transferee's disqualification status checked."
+    },
+    {
+     "when": "You succeeded through a merger",
+     "then": "File the succession report in the name of the surviving or newly formed corporation."
+    }
+   ],
+   "docs": "Transfer (succession) report, business transfer agreement or merger evidence, successor's disqualification check documents",
+   "period": "Statutory: report within 30 days of succession, transfer report processing 2 days"
+  },
+  {
+   "id": "sit-lg-domestic",
+   "q": "Is international freight forwarder registration enough if we also want to arrange domestic truck transport in Korea?",
+   "conclusion": "No. International freight forwarding covers import and export cargo. Brokering or acting as agent for freight transport contracts for a fee, or carrying freight in your own name using a trucking operator's vehicles, requires a truck freight brokerage business permit under the Trucking Transport Business Act (화물자동차 운수사업법).",
+   "branches": [
+    {
+     "when": "You only arrange import and export cargo",
+     "then": "Operate under international freight forwarding registration."
+    },
+    {
+     "when": "You also arrange domestic truck transport",
+     "then": "Obtain a separate truck freight brokerage business permit."
+    }
+   ],
+   "docs": "International freight forwarding business registration application, truck freight brokerage business permit application documents (if also arranging domestic transport)",
+   "period": "In practice, the two licenses have different authorities and review schedules and proceed separately"
+  },
+  {
+   "id": "sit-lg-unregistered",
+   "q": "Can we start issuing house B/Ls and operating before the freight forwarder registration certificate is issued?",
+   "conclusion": "Operating an international freight forwarding business without registration can be punished by imprisonment of up to 1 year or a fine of up to KRW 10 million, and if an employee of a corporation commits the violation, the corporation is also fined. Start operating after you receive the registration certificate.",
+   "branches": [
+    {
+     "when": "Your registration application has been received",
+     "then": "Hold off on signing forwarding contracts and issuing B/Ls in your own name until the certificate is issued."
+    },
+    {
+     "when": "You have already operated without registration",
+     "then": "Stop operating immediately, meet the registration standards and file for registration."
+    }
+   ],
+   "docs": "International freight forwarding business registration application, proof of meeting the registration standards, B/L and AWB forms and terms",
+   "period": "Statutory: registration 10 days"
+  },
+  {
+   "id": "sit-lg-office",
+   "q": "Can we register as an international freight forwarder in Korea with a shared office or a small office?",
+   "conclusion": "The Logistics Policy Framework Act (물류정책기본법) and its subordinate regulations set no office size or facility registration standards for international freight forwarding. However, the head office location is a registered item, so if you move after registration you must file change registration within 60 days.",
+   "branches": [
+    {
+     "when": "The office address can be used as a business place",
+     "then": "List that location as the head office and file with the competent Mayor or Provincial Governor."
+    },
+    {
+     "when": "You plan to move offices after registration",
+     "then": "Schedule change registration within 60 days of the move."
+    }
+   ],
+   "docs": "Registration application (with head office location), proof of meeting the registration standards, B/L and AWB forms and terms",
+   "period": "Statutory: registration 10 days, change registration 5 days"
+  },
+  {
+   "id": "sit-lg-agency",
+   "q": "If we hire an administrative agent for freight forwarder registration in Korea, what exactly do they handle?",
+   "conclusion": "We handle pre-checks of disqualification grounds and the capital and surety insurance requirements, preparation of the application and attachments, filing with the competent city or province and supplementation responses, and post-registration change registration and the 3-year registration standards report. Whether to register is decided by the Mayor or Provincial Governor.",
+   "branches": [
+    {
+     "when": "You are registering for the first time",
+     "then": "After checking the requirements, we tell you which evidence is missing, then prepare and file the documents."
+    },
+    {
+     "when": "You need capital financing, surety insurance, freight transport contracts or customs clearance",
+     "then": "We do not handle these, so they proceed with the relevant institutions and providers, and our office focuses on the registration documents."
+    }
+   ],
+   "docs": "Corporate register extract or business details, proof of capital, proof of surety insurance, B/L and AWB forms and terms",
+   "period": "Statutory: registration 10 days / In practice, document preparation time is added",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-lg-forwarder",
+   "term": "International freight forwarding business (국제물류주선업)",
+   "def": "A business that, at the request of others, arranges logistics for import and export cargo in its own name and on its own account using other parties' logistics facilities and equipment."
+  },
+  {
+   "id": "term-lg-standard",
+   "term": "Registration standards (등록기준)",
+   "def": "The standards required for international freight forwarding registration, including capital of KRW 300 million or more (assessed assets of KRW 600 million or more for non-corporate applicants) and surety insurance of KRW 100 million or more."
+  },
+  {
+   "id": "term-lg-asset",
+   "term": "Assessed assets (자산평가액)",
+   "def": "The assessed value of assets that a non-corporate sole proprietor must have instead of capital; for international freight forwarding, it must be KRW 600 million or more."
+  },
+  {
+   "id": "term-lg-surety",
+   "term": "Surety insurance (보증보험)",
+   "def": "Insurance that an international freight forwarder must in principle carry for KRW 100 million or more. It is waived if the forwarder has capital of KRW 1 billion or more, owns a container yard, has a bank payment bond (지급보증), or holds cargo liability insurance."
+  },
+  {
+   "id": "term-lg-bl",
+   "term": "Bill of lading and air waybill (선하증권·항공화물운송장)",
+   "def": "The transport documents (B/L and AWB) that a forwarder issues in its own name. Their forms and terms, in Korean or English, are attached to the registration application."
+  },
+  {
+   "id": "term-lg-disqualification",
+   "term": "Grounds for disqualification (결격사유)",
+   "def": "Grounds that bar registration, such as being under adult guardianship or limited guardianship, being within 2 years of a prison sentence or fine for violating logistics-related laws, or being within 2 years of a registration cancellation. For corporations, the representative and officers are also reviewed."
+  },
+  {
+   "id": "term-lg-change",
+   "term": "Change registration (변경등록)",
+   "def": "Registration filed within 60 days of the change when the trade name, name (officers for a corporation), head office location or nationality changes, or capital or assessed assets decrease."
+  },
+  {
+   "id": "term-lg-periodic-report",
+   "term": "Registration standards report (등록기준 신고)",
+   "def": "The obligation to report matters relating to the registration standards, such as capital, to the Mayor or Provincial Governor within 60 days each time 3 years pass from the registration date."
+  },
+  {
+   "id": "term-lg-succession",
+   "term": "Business succession report (사업승계 신고)",
+   "def": "A report filed with the Mayor or Provincial Governor within 30 days of succession by a party that has succeeded to the rights and obligations under the registration through transfer, inheritance or merger."
+  }
+ ]
+}

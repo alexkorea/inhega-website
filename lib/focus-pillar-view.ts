@@ -15,6 +15,8 @@ import { FOCUS_SITUATIONS } from './focus-situations'
 import { FOCUS_SERVICES } from './focus-services'
 import { ORG_ID } from './org-jsonld'
 import { FOCUS_EXPERTISE, type FocusExpertise } from './focus-expertise'
+// AI-RECO-1103 12절: 중점 6 밖 55개 항목도 같은 블록(원고 content/reco-units → lib/reco-units.generated.ts)
+import { RECO_UNITS } from './reco-units.generated'
 
 export type FocusPageLocale = 'ko' | PillarLocale
 
@@ -42,6 +44,27 @@ export interface PillarView {
   related: { title: string; href: string }[]
   /** 3차: 처리하는 업무·이런 고객이 맡깁니다·용어 설명(lib/focus-expertise.ts) */
   expertise?: FocusExpertise
+  /** 중점 6개(홈 카드·메뉴)면 true. 12절 항목 블록은 false — 배지 문구만 다르다 */
+  focus: boolean
+  /** 12절 항목: '처리하는 업무' 소제목 키워드(중점 6은 SERVICES_HEADING_KW) */
+  kw?: string
+}
+
+/** 12절 항목 블록 배지(중점 6 은 '중점 업무') */
+export const UNIT_BADGE: Record<FocusPageLocale, string> = { ko: '인허가 업무 안내', en: 'Licensing service', zh: '许可业务', ja: '許認可業務' }
+
+function unitView(locale: FocusPageLocale, slug: string): PillarView | null {
+  const u = RECO_UNITS[locale]?.[slug]
+  if (!u) return null
+  return {
+    slug, locale, label: u.label, focus: false, kw: u.kw,
+    answer: u.answer,
+    chooser: u.chooser,
+    glance: u.glance,
+    situations: u.situations,
+    related: [],
+    expertise: { services: u.services, clients: u.clients, glossary: u.glossary },
+  }
 }
 
 export interface PillarUi {
@@ -95,9 +118,9 @@ export function getPillarView(locale: FocusPageLocale, slug: string): PillarView
   if (locale === 'ko') {
     const p = FOCUS_PILLARS[slug]
     const f = FOCUS_SERVICES.find((x) => x.slug === slug)
-    if (!p || !f) return null
+    if (!p || !f) return unitView(locale, slug)
     return {
-      slug, locale, label: f.label,
+      slug, locale, label: f.label, focus: true,
       answer: sit?.answer,
       chooser: sit?.chooser ?? [],
       glance: p.glance,
@@ -110,9 +133,9 @@ export function getPillarView(locale: FocusPageLocale, slug: string): PillarView
     }
   }
   const p = FOCUS_PILLARS_I18N[locale]?.pillars[slug]
-  if (!p) return null
+  if (!p) return unitView(locale, slug)
   return {
-    slug, locale, label: p.label,
+    slug, locale, label: p.label, focus: true,
     answer: sit?.answer,
     chooser: sit?.chooser ?? [],
     glance: p.glance,

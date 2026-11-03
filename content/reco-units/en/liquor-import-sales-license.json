@@ -1,0 +1,184 @@
+{
+ "slug": "liquor-import-sales-license",
+ "lang": "en",
+ "label": "Liquor Import License",
+ "kw": "Liquor import license agent in Korea",
+ "answer": "A liquor import license (주류수입업 면허) is a liquor import/export business license (주류수출입업 면허), one type of liquor sales business license, which anyone intending to import alcohol must obtain for each sales premises from the head of the competent tax office. Obtain a trade business registration number first and, to import alcohol (excluding ethyl alcohol), secure a warehouse of at least 22㎡; then submit the application with a copy of the lease, corporate documents and a copy of the trade business registration number certificate. The processing period depends on the tax office's review and any supplementation. YouSun Administrative Agency prepares and files the liquor sales business license application.",
+ "services": [
+  {"name": "Preparing and filing the liquor sales business (liquor import/export business) license application (주류 판매업(주류수출입업) 면허 신청)", "href": "#term-lq-import-export"},
+  {"name": "Pre-checking license requirements (trade business registration number, warehouse of at least 22㎡) (면허 요건)", "href": "#term-lq-warehouse"},
+  {"name": "Guidance on applying for a trade business registration number and preparing a copy of the certificate (무역업고유번호)", "href": "#term-lq-trade-number"},
+  {"name": "Pre-checking grounds for license restriction (within 2 years of cancellation, tax arrears, undischarged bankruptcy, etc.) (면허 제한 사유)", "href": "#term-lq-restriction"},
+  {"name": "Preparing the articles of incorporation, meeting minutes and register of shareholders and officers for corporate applicants (법인 서류)", "href": "#svc-glance"},
+  {"name": "Preparing documents for a license without sales premises (tax office with jurisdiction over address or residence) (판매장 없는 면허 신청)", "href": "#sit-lq-no-store"},
+  {"name": "Preparing agent or manager documents for foreign applicants without a Korean address (대리인·지배인 서류)", "href": "#sit-lq-foreign"},
+  {"name": "Preparing documents in response to tax office supplementation requests (보완 대응)", "href": "#sit-lq-supplement"},
+  {"name": "Preparing sales premises relocation reports and relocation permit applications (판매장 이전신고·이전허가)", "href": "#term-lq-relocation"},
+  {"name": "Guidance on related licenses such as liquor sales reports for restaurants (음식점 주류 판매 신고)", "href": "#sit-lq-restaurant"}
+ ],
+ "clients": [
+  "Import founders bringing in overseas alcohol such as wine, beer or sake directly",
+  "Trading companies and distribution companies adding liquor imports to their business purposes",
+  "Foreign companies and foreign investors setting up a Korean entity to import alcohol from their home country",
+  "Existing liquor importers expanding from import into wholesale"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Individuals and companies intending to run a business exporting or importing alcohol (liquor import/export business)"},
+  {"label": "Requirements", "value": "Trade business registration number, a warehouse of at least 22㎡ when importing alcohol (excluding ethyl alcohol), resolution of any credit delinquency status, and no grounds for license restriction (less than 2 years since cancellation, national or local tax arrears, undischarged bankruptcy, etc.)"},
+  {"label": "Process", "value": "Obtain a trade business registration number → Prepare the warehouse and other requirements → Submit the license application and attachments to the head of the tax office with jurisdiction over the sales premises → Review of disqualification and restriction grounds → Decision on the license"},
+  {"label": "Documents", "value": "Liquor sales business license application (stating the sales premises location and warehouse area), copy of the lease (if the premises are leased), articles of incorporation, meeting minutes and register of shareholders and officers (corporations), copy of the trade business registration number certificate"},
+  {"label": "Timeline", "value": "Depends on the competent tax office's review and any supplementation. If requirements are not met, a supplementation order may be issued specifying what to supplement and by when"}
+ ],
+ "chooser": [
+  {"label": "Starting to import alcohol for the first time", "target": "sit-lq-how"},
+  {"label": "Importing only, without sales premises (a shop)", "target": "sit-lq-no-store"},
+  {"label": "A foreign national or foreign company importing", "target": "sit-lq-foreign"},
+  {"label": "Also wholesaling imported alcohol", "target": "sit-lq-wholesale"},
+  {"label": "Selling imported alcohol at a restaurant", "target": "sit-lq-restaurant"}
+ ],
+ "situations": [
+  {
+   "id": "sit-lq-how",
+   "q": "We want to import and sell overseas wine in Korea for the first time. How do we get a liquor import license?",
+   "conclusion": "You must obtain a liquor import/export business license from the head of the tax office with jurisdiction over the sales premises. Get a trade business registration number first, secure a warehouse of at least 22㎡ to store the imported alcohol, and then apply.",
+   "branches": [
+    {"when": "You do not yet have a trade business registration number", "then": "Obtain the trade business registration number first and attach a copy of its certificate to the license application."},
+    {"when": "You lease the sales premises and warehouse", "then": "Attach a copy of the lease and state the sales premises location and warehouse area in the application."},
+    {"when": "You apply in a company's name", "then": "Submit the articles of incorporation, meeting minutes and register of shareholders and officers, and check that no officer falls under grounds for license restriction."}
+   ],
+   "docs": "Liquor sales business license application, copy of the trade business registration number certificate, copy of the lease (if leased), articles of incorporation, meeting minutes and register of shareholders and officers (corporations)",
+   "period": "Depends on the competent tax office's review and any supplementation. In practice, time to obtain the trade business registration number and secure a warehouse is needed first",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lq-period",
+   "q": "How long does it take to get a liquor import license in Korea, from application to license?",
+   "conclusion": "There is no uniform number of days set by law; it depends on the competent tax office's review and any supplementation. If requirements are not met, the head of the tax office may order supplementation, specifying what to supplement and by when.",
+   "branches": [
+    {"when": "The trade business registration number, warehouse and attachments are all in place", "then": "The license decision is made after reviewing disqualification and restriction grounds."},
+    {"when": "The warehouse area or attachments are insufficient", "then": "You must supplement the warehouse lease and documents within the period set in the supplementation order, and the schedule extends accordingly."}
+   ],
+   "docs": "Liquor sales business license application, copy of the trade business registration number certificate, copy of the lease, corporate documents",
+   "period": "Depends on the competent tax office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lq-cost",
+   "q": "How much does a liquor import license cost in Korea? We want to know what to prepare first.",
+   "conclusion": "What drives cost is preparing the requirements. To import, you need a warehouse of at least 22㎡ and a trade business registration number, and if you lease sales premises, the lease must be signed first.",
+   "branches": [
+    {"when": "You only export and import alcohol", "then": "For the liquor import/export business, prepare mainly the trade business registration number and the warehouse requirement."},
+    {"when": "You also want to wholesale the imported alcohol yourself", "then": "The general liquor wholesale business has separate requirements such as paid-in capital (assessed assets for individuals) of KRW 50 million or more, so review it separately."}
+   ],
+   "docs": "Warehouse lease (if leased), copy of the trade business registration number certificate, corporate documents (corporations)",
+   "period": "In practice, time to secure a warehouse and obtain the registration number is needed first; the license review period varies by tax office",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lq-no-store",
+   "q": "We only want to sell online or supply business customers, with no shop. Can we get a liquor import license in Korea without sales premises?",
+   "conclusion": "If you intend to sell without sales premises, submit an application stating the reason to the head of the tax office with jurisdiction over your address or place of residence. For the liquor import/export business, you still attach a copy of the trade business registration number certificate.",
+   "branches": [
+    {"when": "You have no sales premises", "then": "State in the application the reason for selling without sales premises and submit it to the head of the tax office with jurisdiction over your address or residence."},
+    {"when": "You need a place to store imported alcohol", "then": "Importing alcohol (excluding ethyl alcohol) requires a warehouse of at least 22㎡, so also check whether you have secured one."}
+   ],
+   "docs": "License application stating the reason, copy of the trade business registration number certificate, corporate documents (corporations)",
+   "period": "Depends on the competent tax office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lq-warehouse",
+   "q": "How large must a liquor import warehouse be in Korea, and can an office storeroom count?",
+   "conclusion": "Importing alcohol (excluding ethyl alcohol) requires a warehouse area of at least 22㎡. The warehouse area must be stated in the application, and even after licensing, a supplementation order may be issued if the facilities fall below the standard.",
+   "branches": [
+    {"when": "The warehouse area is 22㎡ or more", "then": "Have proof of the right to use it, such as a lease, and state the area in the application."},
+    {"when": "The warehouse area is less than 22㎡", "then": "This is a ground for rejection or supplementation, so expand the warehouse or secure another one before applying."}
+   ],
+   "docs": "Copy of the warehouse lease (if leased), license application (stating the warehouse area)",
+   "period": "Depends on the competent tax office's review and any supplementation",
+   "href": "#term-lq-warehouse"
+  },
+  {
+   "id": "sit-lq-foreign",
+   "q": "What else does a foreign national need to get a liquor import license in Korea?",
+   "conclusion": "Foreign nationals apply with the same requirements (trade business registration number and warehouse area). For applicants without an address or residence in Korea, the review also checks whether their agent or manager falls under grounds for disqualification.",
+   "branches": [
+    {"when": "You set up a Korean company and apply", "then": "Obtain the trade business registration number in the company's name and attach the articles of incorporation, meeting minutes and register of shareholders and officers."},
+    {"when": "An individual without an address or residence in Korea applies", "then": "Appoint a domestic agent or manager and check whether that person falls under grounds for disqualification."}
+   ],
+   "docs": "License application, copy of the trade business registration number certificate, corporate documents (corporations), agent or manager documents (if no Korean address)",
+   "period": "Depends on the competent tax office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lq-restriction",
+   "q": "Will a liquor import license be refused in Korea if we have unpaid taxes?",
+   "conclusion": "If you have national or local tax arrears at the time of application, the license may be refused. Less than 2 years since a license cancellation, undischarged bankruptcy, and less than 5 years since completing a prison sentence of imprisonment without labor or heavier for violating laws such as the Punishment of Tax Offenses Act (조세범 처벌법) are also grounds for restriction.",
+   "branches": [
+    {"when": "You have tax arrears", "then": "Settle the arrears before applying."},
+    {"when": "New lending has been suspended because of credit delinquency information", "then": "You must apply after that status is resolved."},
+    {"when": "You want to locate sales premises in an area designated and announced by the Commissioner of the National Tax Service as at risk of supply-demand imbalance", "then": "The license may be restricted, so reconsider the premises location."}
+   ],
+   "docs": "License application, and for corporations the register of shareholders and officers",
+   "period": "Apply after the grounds for restriction are resolved; the review period varies by tax office",
+   "href": "#term-lq-restriction"
+  },
+  {
+   "id": "sit-lq-wholesale",
+   "q": "To wholesale imported alcohol to other businesses in Korea, is a liquor import license alone enough?",
+   "conclusion": "Liquor sales businesses are divided into general liquor wholesale, specific liquor wholesale, liquor import/export, liquor brokerage, liquor retail and others, and what you can do differs by license type. The general liquor wholesale business, which buys from liquor manufacturers or importers and wholesales, requires a separate license.",
+   "branches": [
+    {"when": "You only import and pass the goods to wholesalers", "then": "Structure the business within the scope of the liquor import/export business license."},
+    {"when": "You want to wholesale directly to businesses", "then": "Review the general liquor wholesale business requirements (paid-in capital of KRW 50 million or more, etc.) separately."}
+   ],
+   "docs": "Application for each license type, copy of the trade business registration number certificate (import/export business), corporate documents",
+   "period": "For each license type, depends on the competent tax office's review and any supplementation",
+   "href": "#term-lq-sales-license"
+  },
+  {
+   "id": "sit-lq-restaurant",
+   "q": "We want to sell imported wine at our restaurant in Korea. Do we also need a liquor import license?",
+   "conclusion": "Selling at a restaurant and importing directly are different. General restaurant operators and others who have filed a business report under the Food Sanitation Act (식품위생법) are deemed licensed by filing a liquor sales report; to bring alcohol in directly from overseas, you need a liquor import/export business license.",
+   "branches": [
+    {"when": "You buy from importers or wholesalers and sell at the restaurant", "then": "File a liquor sales report within 30 days of the business permit date or the business start date."},
+    {"when": "The restaurant operator wants to bring in overseas alcohol directly", "then": "Meet the trade business registration number and warehouse requirements and obtain a separate liquor import/export business license."}
+   ],
+   "docs": "Liquor sales report (restaurant), liquor import/export business license application and copy of the trade business registration number certificate (direct import)",
+   "period": "The restaurant liquor sales report is due within 30 days of the business start date or similar; the import license depends on the competent tax office's review",
+   "href": "#sit-lq-how"
+  },
+  {
+   "id": "sit-lq-supplement",
+   "q": "After applying for a liquor import license in Korea, the tax office asked us to supplement. What do we need to fix?",
+   "conclusion": "Typical supplementation grounds are not having a trade business registration number, a warehouse under 22㎡, and a missing lease, corporate documents or trade business registration number certificate. First check the items and deadline stated in the supplementation order and submit the documents within it.",
+   "branches": [
+    {"when": "Attachments are missing", "then": "Prepare the missing documents and submit them within the supplementation period."},
+    {"when": "A requirement such as warehouse area is not met", "then": "Secure a warehouse again and resubmit with the corrected lease and area."}
+   ],
+   "docs": "Supplementation order, missing documents (copy of the lease, corporate documents, copy of the trade business registration number certificate)",
+   "period": "Must be submitted within the period set in the supplementation order",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-lq-agent",
+   "q": "If we hire an administrative agent for a liquor import license in Korea, what exactly do they handle?",
+   "conclusion": "YouSun Administrative Agency pre-reviews the requirements, prepares the license application and attachments, files them with the competent tax office, handles supplementation and prepares sales premises relocation report documents. Customs procedures such as import declarations and the license decision are not part of an administrative agent's work; the license is decided by the head of the competent tax office.",
+   "branches": [
+    {"when": "You are unsure whether you meet the requirements", "then": "First check the trade business registration number, warehouse area and grounds for license restriction."},
+    {"when": "You want to delegate from document preparation onward", "then": "The agency drafts the application, compiles the attachment list, files it and handles supplementation."}
+   ],
+   "docs": "Copy of ID, business or corporate documents, lease for the sales premises and warehouse, copy of the trade business registration number certificate, letter of authorization",
+   "period": "Depends on the competent tax office's review and any supplementation",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-lq-sales-license", "term": "Liquor sales business license (주류 판매업 면허)", "def": "A license obtained for each sales premises from the head of the competent tax office by anyone intending to run a liquor sales business; divided into general liquor wholesale, specific liquor wholesale, ethyl alcohol wholesale, liquor import/export, liquor brokerage, liquor retail and ethyl alcohol retail."},
+  {"id": "term-lq-import-export", "term": "Liquor import/export business (주류수출입업)", "def": "A business that exports or imports alcohol; a license can be granted to a holder of a trade business registration number."},
+  {"id": "term-lq-trade-number", "term": "Trade business registration number (무역업고유번호)", "def": "A number assigned to traders under the Enforcement Decree of the Foreign Trade Act (대외무역법 시행령); a copy of its certificate is attached to the liquor import/export business license application."},
+  {"id": "term-lq-warehouse", "term": "Warehouse area requirement (창고면적 요건)", "def": "The standard requiring a warehouse area of at least 22㎡ when importing alcohol (excluding ethyl alcohol)."},
+  {"id": "term-lq-restriction", "term": "Grounds for license restriction (면허 제한 사유)", "def": "Grounds on which the head of the tax office may refuse a license, such as less than 2 years since a license cancellation, national or local tax arrears at the time of application, undischarged bankruptcy, or locating sales premises in an area at risk of supply-demand imbalance."},
+  {"id": "term-lq-condition", "term": "License conditions (면허 조건)", "def": "Conditions such as the scope of sales and compliance matters that the head of the tax office attaches to a license where necessary to protect liquor tax revenue."},
+  {"id": "term-lq-relocation", "term": "Sales premises relocation report or permit (판매장 이전신고·이전허가)", "def": "A report or permit application filed when moving licensed sales premises."}
+ ]
+}

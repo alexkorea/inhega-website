@@ -1,0 +1,189 @@
+{
+  "slug": "foundation-establishment-permit",
+  "lang": "en",
+  "label": "Incorporated foundation establishment permit",
+  "kw": "Foundation establishment agent in Korea",
+  "answer": "An incorporated foundation (재단법인) is formed when the founder contributes certain assets, prepares articles of incorporation, obtains an establishment permit from the competent authority in charge of the purpose business, and then registers the establishment at the main office location within 3 weeks of the permit. If the purpose is scholarships, tuition or research grants, or academic or charitable work, the public-interest corporation rules also apply, and the authority checks whether the purpose business can be carried out with income from the contributed assets and whether there are 5 to 15 directors and 2 auditors. YouSun Administrative Agency prepares the establishment permit application, articles of incorporation and business plan and files them with the competent authority on your behalf.",
+  "services": [
+    {"name": "Preparing the incorporated foundation establishment permit application (재단법인 설립허가신청서) and filing it with the competent authority", "href": "#term-fd-permit"},
+    {"name": "Identifying the competent authority (주무관청) and preparing materials for prior consultation", "href": "#term-fd-competent-authority"},
+    {"name": "Drafting the articles of incorporation (정관), reviewing the purpose, name, office location, asset provisions and director appointment provisions", "href": "#term-fd-articles"},
+    {"name": "Preparing the statement of purpose of establishment and the founders' background statements", "href": "#svc-glance"},
+    {"name": "Preparing the inventory of contributed property (basic and ordinary assets, 기본재산·보통재산) and the donation application", "href": "#term-fd-basic-property"},
+    {"name": "Preparing the business plan and income and expenditure budget for 2 business years", "href": "#sit-fd-requirements"},
+    {"name": "Reviewing officer composition requirements for public-interest corporations and preparing officer appointment approval documents", "href": "#sit-fd-board"},
+    {"name": "Preparing and submitting the property transfer report (재산이전보고서) after the permit", "href": "#term-fd-endowment"},
+    {"name": "Guidance on the establishment registration deadline and submitting the registration report after registration", "href": "#term-fd-registration"},
+    {"name": "Preparing and filing the application for approval of profit-making business (수익사업 승인)", "href": "#sit-fd-profit"},
+    {"name": "Handling supplement requests from the competent authority", "href": "#sit-fd-supplement"}
+  ],
+  "clients": [
+    "Individuals and families setting up a scholarship or research support foundation with personal assets",
+    "Companies that want to run their social contribution programs as a separate corporation",
+    "Founders who want to run academic, charitable or cultural programs based on contributed assets",
+    "Foreign nationals and overseas Koreans planning to establish a foundation in Korea"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Incorporated foundations set up by contributing assets for non-profit purposes such as academic, religious, charitable, artistic or social activities (public-interest corporations if the purpose is scholarships, research grants, academic or charitable work)"},
+    {"label": "Requirements", "value": "Contributed assets; articles of incorporation with the mandatory items (purpose, name, office location, assets, appointment and dismissal of directors); a specific and feasible purpose business; ability to carry out the purpose business smoothly with income from the contributed assets / public-interest corporations: 5 to 15 directors and 2 auditors, with a majority of directors being Korean nationals"},
+    {"label": "Process", "value": "Draft articles and secure contributed assets → submit the establishment permit application → examination and permit by the competent authority (conditions may be attached) → transfer of contributed assets and property transfer report → establishment registration within 3 weeks → registration report"},
+    {"label": "Documents", "value": "Corporation establishment permit application; founders' names, addresses and backgrounds; statement of purpose of establishment; articles of incorporation; property inventory and donation application; certificates from registry offices or financial institutions for the main assets; business plan and income and expenditure budget for 2 business years"},
+    {"label": "Timeline", "value": "The permit review depends on the competent authority's examination and any supplements; establishment registration within 3 weeks of the permit; for public-interest corporations, property transfer report within 3 months and registration report within 7 days of completing registration"}
+  ],
+  "chooser": [
+    {"label": "You want to set up a scholarship foundation with personal assets", "target": "sit-fd-scholarship"},
+    {"label": "You wonder whether your contributed assets are enough", "target": "sit-fd-requirements"},
+    {"label": "You want a board made up mainly of family members", "target": "sit-fd-board"},
+    {"label": "You are choosing between an incorporated association and a foundation", "target": "sit-fd-diff"},
+    {"label": "You are scheduling registration and reports after the permit", "target": "sit-fd-period"}
+  ],
+  "situations": [
+    {
+      "id": "sit-fd-scholarship",
+      "q": "What permit do I need to set up a scholarship foundation in Korea with my own assets?",
+      "conclusion": "You contribute assets, prepare articles of incorporation, obtain an establishment permit from the competent authority in charge of scholarship programs, and then register the establishment. If the purpose is paying scholarships or tuition support, the foundation is a public-interest corporation, so its permit criteria and officer requirements also apply.",
+      "branches": [
+        {"when": "The purpose is paying scholarships or tuition support", "then": "Following the public-interest corporation standards, set out whether the scholarship program can continue on income from the contributed assets and whether the director and auditor composition meets the requirements."},
+        {"when": "You also want to run programs other than scholarships", "then": "Describe the programs specifically in the purpose clause of the articles, and if they fall under two or more competent authorities, apply to the authority in charge of the main program."}
+      ],
+      "docs": "Corporation establishment permit application; founders' names, addresses and backgrounds; statement of purpose of establishment; articles of incorporation; property inventory (divided into basic and ordinary assets) and donation application; certificates from registry offices or financial institutions for the main assets; planned business start date and business plan and income and expenditure budget for 2 business years",
+      "period": "Establishment registration within 3 weeks of the permit / for public-interest corporations, property transfer report within 3 months of the permit and registration report within 7 days of completing registration / in practice, the permit review period depends on the competent authority's examination and any supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-fd-requirements",
+      "q": "How much in contributed assets do we need to get an incorporated foundation establishment permit in Korea?",
+      "conclusion": "The competent authority looks at whether the purpose business can be carried out smoothly with income from the contributed assets. The size of the assets is judged together with the content of the purpose business and the business plan and budget for 2 business years.",
+      "branches": [
+        {"when": "Income from the contributed assets can cover program costs", "then": "List basic and ordinary assets separately in the property inventory, and draft the budget so that asset income and program spending line up."},
+        {"when": "Asset income is small relative to the scale of the programs", "then": "Revise the business plan by narrowing the program scope or increasing the contributed assets, then apply."}
+      ],
+      "docs": "Property inventory (divided into basic and ordinary assets), donation application, certificates from registry offices or financial institutions for the main assets, business plan and income and expenditure budget",
+      "period": "In practice, time for prior consultation with the competent authority and revising the business plan is added"
+    },
+    {
+      "id": "sit-fd-docs",
+      "q": "We are contributing both real estate and bank deposits. What documents do we need to establish a foundation in Korea?",
+      "conclusion": "State clearly in the property inventory the type, quantity, value and rights of the contributed assets, and attach a registry office certificate for real estate and a financial institution certificate for deposits. The other establishment permit documents are the same regardless of the type of asset.",
+      "branches": [
+        {"when": "You are contributing real estate", "then": "Check the rights through the certified register extract and decide whether to list it as basic or ordinary assets in the property inventory."},
+        {"when": "You are contributing deposits or securities", "then": "Attach balance or holding certificates from the financial institution, and schedule the transfer into the corporation's name after the permit."}
+      ],
+      "docs": "Corporation establishment permit application; founders' names, addresses and backgrounds; statement of purpose of establishment; articles of incorporation; property inventory (divided into basic and ordinary assets) and donation application; certificates from registry offices or financial institutions for the main assets; planned business start date and business plan and income and expenditure budget for 2 business years",
+      "period": "Establishment registration within 3 weeks of the permit / for public-interest corporations, property transfer report within 3 months of the permit and registration report within 7 days of completing registration / in practice, the permit review period depends on the competent authority's examination and any supplements"
+    },
+    {
+      "id": "sit-fd-period",
+      "q": "After receiving an incorporated foundation establishment permit in Korea, by when must we register and file reports?",
+      "conclusion": "Once the permit is granted, you must register the establishment at the main office location within 3 weeks. A public-interest corporation transfers the contributed assets to the corporation without delay after the permit, submits a property transfer report within 3 months, and submits a registration report to the competent authority within 7 days of completing registration.",
+      "branches": [
+        {"when": "You are a public-interest corporation", "then": "Track the 3-month property transfer report and 7-day registration report deadlines in a table based on the permit date."},
+        {"when": "You are a non-profit foundation that is not a public-interest corporation", "then": "Check the reporting deadlines set in the competent ministry's rules together with the permit notice."}
+      ],
+      "docs": "Property transfer report and proof of transfer, registration report",
+      "period": "Establishment registration within 3 weeks of the permit / for public-interest corporations, property transfer report within 3 months and registration report within 7 days",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-fd-cost",
+      "q": "What cost items should we plan for when establishing an incorporated foundation in Korea?",
+      "conclusion": "The largest item is the contributed assets used to carry out the purpose business, and establishment registration may involve separate costs such as registration and licence tax. The budget must also show the funds to run the business plan for 2 business years.",
+      "branches": [
+        {"when": "You are deciding the size of the contributed assets", "then": "First calculate in the 2-business-year budget whether asset income can cover program costs."},
+        {"when": "You are contributing real estate", "then": "Transfer into the corporation's name and registration are needed separately after the permit, so plan that schedule and those cost items together."}
+      ],
+      "docs": "Property inventory, donation application, business plan and income and expenditure budget",
+      "period": "In practice, time is needed before applying to finalize the assets and prepare the budget"
+    },
+    {
+      "id": "sit-fd-board",
+      "q": "We want to set up a family foundation in Korea. How many directors and auditors do we need?",
+      "conclusion": "A public-interest corporation must have 5 to 15 directors and 2 auditors (the number can be changed with the competent authority's approval), and a majority of directors must be Korean nationals. Persons with a special relationship may not exceed one fifth of the current number of directors, so it is hard to fill the board with family members alone.",
+      "branches": [
+        {"when": "Family members will serve as directors", "then": "Include outside directors so that directors with a special relationship do not exceed one fifth of the current number."},
+        {"when": "You are choosing auditors", "then": "Auditors must have no special relationship with the directors, so appoint people who are not family members."},
+        {"when": "You are checking officer candidates for grounds for disqualification", "then": "Persons under 18, adults under full or limited guardianship, and bankrupts who have not been reinstated, among others, cannot be officers."}
+      ],
+      "docs": "Minutes of the officer appointment meeting, resumes, letters of acceptance of office, statements confirming no special relationship",
+      "period": "Officers take office with the competent authority's approval / in practice, the approval period varies by authority"
+    },
+    {
+      "id": "sit-fd-authority",
+      "q": "If we establish a foundation in Seoul, do we apply to the Seoul Metropolitan Government for the establishment permit?",
+      "conclusion": "The receiving body is decided not by region but by the competent authority in charge of the purpose business. If the programs fall under two or more competent authorities, you apply to the authority in charge of the main program, which consults the other authorities.",
+      "branches": [
+        {"when": "The permit power has been delegated to the head of a local government", "then": "The delegated city or province receives the application, so confirm the actual receiving body during prior consultation."},
+        {"when": "The purpose business spans several fields", "then": "Make the main program clear in the purpose clause of the articles and consult the competent authority for that program first."}
+      ],
+      "docs": "Draft articles of incorporation, statement of purpose of establishment and draft business plan for prior consultation",
+      "period": "In practice, the prior consultation period varies by competent authority"
+    },
+    {
+      "id": "sit-fd-diff",
+      "q": "To create a corporation in Korea with assets only and no members, should it be an incorporated association or an incorporated foundation?",
+      "conclusion": "A corporation set up by contributing assets is an incorporated foundation, and one formed by a union of members is an incorporated association (사단법인). If you want to run programs on contributed assets without a membership organization, choose an incorporated foundation.",
+      "branches": [
+        {"when": "You want to run programs on contributed assets", "then": "Prepare articles of incorporation, a property inventory and a donation application for an incorporated foundation."},
+        {"when": "You want to operate through member fees and a general meeting", "then": "As an incorporated association, include rules on acquiring and losing membership in the articles and prepare the inaugural general meeting minutes and member list."}
+      ],
+      "docs": "Incorporated foundation: corporation establishment permit application; founders' names, addresses and backgrounds; statement of purpose of establishment; articles of incorporation; property inventory (divided into basic and ordinary assets) and donation application; certificates from registry offices or financial institutions for the main assets; planned business start date and business plan and income and expenditure budget for 2 business years",
+      "period": "In practice, document preparation and consultation with the competent authority are added after you decide the corporate form"
+    },
+    {
+      "id": "sit-fd-supplement",
+      "q": "What should we do if we receive a supplement request for our foundation permit in Korea because the purpose business is not specific enough?",
+      "conclusion": "A public-interest corporation is permitted only if the purpose business is specific and feasible, can be achieved smoothly with income from the contributed assets, and is recognized as actively maintaining and promoting the public interest. If you receive a supplement request, revise the business plan and budget to state the program beneficiaries, methods and scale specifically.",
+      "branches": [
+        {"when": "The comment is that the program content is vague", "then": "Set out the beneficiaries, support methods and annual scale in figures in the business plan."},
+        {"when": "The comment is that funding is insufficient", "then": "Increase the contributed assets or scale the programs down to match asset income, and revise the budget."},
+        {"when": "The comment concerns missing items in the articles or incomplete documents", "then": "Add the mandatory items to the articles and supplement the property inventory and certificates."}
+      ],
+      "docs": "Revised business plan and income and expenditure budget, supplemented articles of incorporation, supplementary property certificates",
+      "period": "Re-examined after the supplement is submitted / in practice, longer with each round of supplements"
+    },
+    {
+      "id": "sit-fd-profit",
+      "q": "Does a foundation in Korea need separate approval to earn rental income from a building that was contributed to it?",
+      "conclusion": "For a public-interest corporation to run a profit-making business to achieve its purpose, it must obtain the competent authority's approval for each business as set out in the articles, and the same applies when changing a profit-making business.",
+      "branches": [
+        {"when": "You planned the profit-making business at the establishment stage", "then": "Put a basis for the profit-making business in the articles and state how the income will be used in the business plan and budget."},
+        {"when": "You want to start a new profit-making business after establishment", "then": "Confirm the basis in the articles, then apply to the competent authority for approval for each business."}
+      ],
+      "docs": "Application for approval of profit-making business, articles of incorporation, profit-making business plan",
+      "period": "In practice, it depends on the competent authority's review period"
+    },
+    {
+      "id": "sit-fd-property",
+      "q": "After the establishment permit, when does contributed real estate become the foundation's property in Korea?",
+      "conclusion": "When a foundation is established by an inter vivos disposition, the contributed assets become the corporation's property when the corporation is formed, that is, at establishment registration. A public-interest corporation transfers the contributed assets to the corporation without delay after the permit and submits a property transfer report within 3 months.",
+      "branches": [
+        {"when": "You contributed real estate", "then": "The competent authority confirms the transfer through the real estate register, so align the transfer registration schedule. Representation in filing the transfer registration is the work of a beopmusa (법무사)."},
+        {"when": "You contributed deposits or similar assets", "then": "Attach a financial institution certificate proving the transfer to the property transfer report."}
+      ],
+      "docs": "Property transfer report, financial institution certificate (where the transfer cannot be confirmed through the real estate register)",
+      "period": "Public-interest corporations: property transfer report within 3 months of the permit"
+    },
+    {
+      "id": "sit-fd-agent",
+      "q": "If I hire an administrative agent to establish a foundation in Korea, what will they handle?",
+      "conclusion": "The agent prepares the establishment permit application, statement of purpose, articles of incorporation, property inventory, business plan and budget, prepares and submits prior consultation materials to the competent authority, handles supplement requests, and submits the property transfer report and registration report after the permit. Representation in filing the establishment registration and the transfer registration of contributed assets is the work of a beopmusa (법무사), so the agent only guides you on the schedule.",
+      "branches": [
+        {"when": "You hand over the work from the pre-establishment stage", "then": "The agent reviews the purpose business and the size of the contributed assets and drafts the articles and business plan together."},
+        {"when": "You hand over only the post-permit stage", "then": "The agent manages the property transfer report and registration report deadlines and prepares and submits the reports."}
+      ],
+      "docs": "Corporation establishment permit application; founders' names, addresses and backgrounds; statement of purpose of establishment; articles of incorporation; property inventory (divided into basic and ordinary assets) and donation application; certificates from registry offices or financial institutions for the main assets; planned business start date and business plan and income and expenditure budget for 2 business years",
+      "period": "Establishment registration within 3 weeks of the permit / for public-interest corporations, property transfer report within 3 months of the permit and registration report within 7 days of completing registration / in practice, the permit review period depends on the competent authority's examination and any supplements",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-fd-foundation", "term": "Incorporated foundation (재단법인)", "def": "A corporation for non-profit purposes that is formed by establishment registration after the founder contributes certain assets, prepares articles of incorporation and obtains the competent authority's permit."},
+    {"id": "term-fd-endowment", "term": "Contributed assets (출연재산)", "def": "Assets the founder of an incorporated foundation puts up for the corporation's purpose business; when the foundation is established by an inter vivos disposition, they become the corporation's property when the corporation is formed."},
+    {"id": "term-fd-basic-property", "term": "Basic assets and ordinary assets (기본재산·보통재산)", "def": "The classification of assets listed separately in the property inventory when applying for the establishment permit; the type, quantity, value and rights of the contributed assets are stated according to this classification."},
+    {"id": "term-fd-competent-authority", "term": "Competent authority (주무관청)", "def": "The administrative body in charge of the purpose business the corporation intends to carry out; if the programs span two or more authorities, the authority in charge of the main program handles the establishment permit."},
+    {"id": "term-fd-permit", "term": "Establishment permit (설립허가)", "def": "A disposition by which the competent authority allows a corporation to be established after examining whether the purpose business is specific and feasible and whether it can be carried out with income from the contributed assets; conditions may be attached."},
+    {"id": "term-fd-public-interest", "term": "Public-interest corporation (공익법인)", "def": "A corporation whose purpose is subsidizing or paying tuition, scholarships or research grants, or academic or charitable work; separate rules apply, such as officer composition and approval of profit-making business."},
+    {"id": "term-fd-articles", "term": "Articles of incorporation (정관)", "def": "The corporation's basic rules, in which the founder of an incorporated foundation states the purpose, name, office location, provisions on assets and provisions on appointing and dismissing directors, and affixes their name and seal."},
+    {"id": "term-fd-registration", "term": "Establishment registration (설립등기)", "def": "Registration made at the main office location within 3 weeks of the establishment permit; the corporation is formed by this registration."}
+  ]
+}

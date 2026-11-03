@@ -1,0 +1,184 @@
+{
+  "slug": "entertainment-agency-business-registration",
+  "lang": "en",
+  "label": "Entertainment agency registration",
+  "kw": "Entertainment agency (pop culture and arts planning business) registration agent in Korea",
+  "answer": "Pop culture and arts planning business registration (대중문화예술기획업 등록) is the registration required for anyone who, like an entertainment agency, wants to provide or arrange the services of pop culture artists or train, coach and counsel them as a business, after meeting the requirement of at least 2 years of industry experience or completion of a related training course and securing an office. Under the Popular Culture and Arts Industry Development Act (대중문화예술산업발전법), registration is made with the Minister of Culture, Sports and Tourism, but the registration work is delegated to the si/do governor, so you file with the competent si/do; the processing period stated on the application form is 15 days. YouSun Administrative Agency prepares and files the registration application and supporting documents on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the pop culture and arts planning business registration application (대중문화예술기획업 등록신청서)", "href": "#term-ea-registration"},
+    {"name": "Pre-review of whether the industry experience or training course requirement is met", "href": "#term-ea-career"},
+    {"name": "Organizing proof of industry income and industry experience", "href": "#sit-ea-career-proof"},
+    {"name": "Guidance on preparing proof of training course completion", "href": "#term-ea-education"},
+    {"name": "Preparing proof of the right to use the office", "href": "#term-ea-office"},
+    {"name": "Checking whether the representative or corporate officers fall under any grounds for disqualification (결격사유)", "href": "#term-ea-disqualification"},
+    {"name": "Preparing and filing the change registration (변경등록) application", "href": "#term-ea-change"},
+    {"name": "Preparing and filing reports of business transfer, merger or inheritance", "href": "#sit-ea-succession"},
+    {"name": "Preparing and filing reports of suspension, closure or resumption of business", "href": "#svc-glance"},
+    {"name": "Handling supplement requests during the registration review", "href": "#svc-glance"}
+  ],
+  "clients": [
+    "Corporations and individuals setting up a new talent agency or entertainment company",
+    "Former managers starting their own artist management business",
+    "Companies expanding into model or influencer management",
+    "Foreign-invested companies that want to run an entertainment agency in Korea",
+    "Existing agencies that need a change registration after moving offices or changing the representative"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to provide or arrange the pop culture and arts services of pop culture artists, or train, coach and counsel them for that purpose, as a business (entertainment agencies and similar)"},
+    {"label": "Requirements", "value": "At least 2 years of experience in the pop culture and arts planning business or completion of a related training course at a designated institution (for a corporation, at least 1 officer), an office, and no grounds for disqualification"},
+    {"label": "Process", "value": "Gather proof of experience or complete a training course → secure an office → submit the registration application and documents → review of requirements → registration certificate issued"},
+    {"label": "Documents", "value": "Registration application, corporate register certificate (corporations), copy of the business registration certificate, proof of industry income and industry experience or proof of training course completion, proof of the right to use a leased office"},
+    {"label": "Timeline", "value": "15 days per the registration application form (time to obtain proof of experience or complete training is separate)"}
+  ],
+  "chooser": [
+    {"label": "You have industry experience and want to register right away", "target": "sit-ea-career-proof"},
+    {"label": "You have no experience and need to complete training first", "target": "sit-ea-no-career"},
+    {"label": "Setting up the agency as a corporation", "target": "sit-ea-corporation"},
+    {"label": "A small agency you run on your own", "target": "sit-ea-solo"},
+    {"label": "Taking over an existing agency", "target": "sit-ea-succession"}
+  ],
+  "situations": [
+    {
+      "id": "sit-ea-setup",
+      "q": "What are the steps to register as a pop culture and arts planning business when setting up an entertainment company in Korea?",
+      "conclusion": "First meet the personnel requirement (at least 2 years of industry experience or completion of a training course) and secure an office, then submit the registration application and supporting documents to the competent si/do; the registration certificate is issued after the review of requirements.",
+      "branches": [
+        {"when": "The representative or an officer has at least 2 years of industry experience", "then": "Collect proof of industry income and experience and apply right away."},
+        {"when": "No one has the required experience", "then": "Complete a training course at a designated institution first, then apply."}
+      ],
+      "docs": "Registration application, corporate register certificate (corporations), copy of the business registration certificate, proof of experience or training completion, proof of the right to use the office",
+      "period": "15 days per the registration application form / in practice, time to prepare proof or complete training is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ea-career-proof",
+      "q": "I have worked as a talent manager. How do I prove the 2 years of experience for entertainment agency registration in Korea?",
+      "conclusion": "Experience in the pop culture and arts planning business is proven with documents showing income from that work, and any experience that cannot be proven by income is supported with documents proving industry experience.",
+      "branches": [
+        {"when": "You were employed by an agency and have income records", "then": "Use proof of industry income to cover a period of at least 2 years."},
+        {"when": "Some periods lack income records, for example freelance work", "then": "Supplement those periods with documents proving industry experience."}
+      ],
+      "docs": "Proof of industry income, proof of industry experience, registration application, copy of the business registration certificate",
+      "period": "15 days per the registration application form / in practice, time to obtain proof of experience is added",
+      "href": "#term-ea-career"
+    },
+    {
+      "id": "sit-ea-no-career",
+      "q": "I want to start a talent agency in Korea but have no industry experience. Can I still register?",
+      "conclusion": "Even without experience, you can meet the personnel requirement by completing a pop culture and arts planning business training course at a designated institution. The course must be offered by an institution specified in the Enforcement Rule, such as a school under the Higher Education Act, a lifelong education institution, or the Korea Creative Content Agency (한국콘텐츠진흥원).",
+      "branches": [
+        {"when": "You have completed a training course", "then": "File the registration application with proof of completion attached."},
+        {"when": "One of your co-founders has industry experience", "then": "If you form a corporation, consider appointing that person as an officer to meet the requirement."}
+      ],
+      "docs": "Proof of training course completion, registration application, copy of the business registration certificate, proof of the right to use the office",
+      "period": "15 days per the registration application form / training time is separate",
+      "href": "#term-ea-education"
+    },
+    {
+      "id": "sit-ea-corporation",
+      "q": "To register an entertainment agency as a corporation in Korea, does the CEO personally need industry experience?",
+      "conclusion": "For a corporation, it is enough if at least 1 officer meets the requirement of at least 2 years of industry experience or training course completion. The officer does not have to be the CEO.",
+      "branches": [
+        {"when": "One of the officers meets the requirement", "then": "Attach that officer's proof of experience or training and apply with the corporate register certificate."},
+        {"when": "None of the officers meets the requirement", "then": "Appoint a qualified person as an officer, or have an officer complete a training course, and then apply."}
+      ],
+      "docs": "Registration application, corporate register certificate, copy of the business registration certificate, officer's proof of experience or training completion, proof of the right to use the office",
+      "period": "15 days per the registration application form",
+      "href": "#term-ea-career"
+    },
+    {
+      "id": "sit-ea-solo",
+      "q": "I want to start a small entertainment agency on my own in Korea. Do I really need a separate office?",
+      "conclusion": "Yes. Having an office is one of the registration requirements. If the office is leased, submit documents proving your right to use it.",
+      "branches": [
+        {"when": "You lease the office", "then": "Attach proof of the right to use it, such as the lease agreement."},
+        {"when": "The office is in a building you own", "then": "The building register certificate is checked through administrative information sharing."}
+      ],
+      "docs": "Proof of the right to use the office (if leased), registration application, copy of the business registration certificate, proof of experience or training completion",
+      "period": "15 days per the registration application form",
+      "href": "#term-ea-office"
+    },
+    {
+      "id": "sit-ea-period",
+      "q": "How long does entertainment agency registration take in Korea?",
+      "conclusion": "The processing period stated on the registration application form is 15 days. Plan separately for the time it takes to obtain proof of experience or complete a training course.",
+      "branches": [
+        {"when": "Proof of experience and the office are ready", "then": "After you apply, the requirements are reviewed and the registration certificate is issued."},
+        {"when": "Training course completion is still pending", "then": "You apply after the training ends, so the overall schedule grows accordingly."}
+      ],
+      "docs": "Registration application, copy of the business registration certificate, proof of experience or training completion, proof of the right to use the office",
+      "period": "15 days per the registration application form / in practice, depends on preparing proof and any supplement requests",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ea-cost",
+      "q": "What should I prepare first to estimate the cost of entertainment agency registration in Korea?",
+      "conclusion": "The main preparation burden comes from the personnel requirement (proof of experience or training course completion) and securing an office. Checking first whether you have someone with the required experience tells you whether training is needed and how long the schedule will be.",
+      "branches": [
+        {"when": "You have someone with the required experience", "then": "You only need proof of experience and an office, so the scope of preparation is narrow."},
+        {"when": "You have no one with the required experience", "then": "Schedule the training course first and secure the office in parallel."}
+      ],
+      "docs": "Registration application, proof of experience or training completion, proof of the right to use the office, copy of the business registration certificate",
+      "period": "15 days per the registration application form",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ea-disqualification",
+      "q": "I was once fined in a criminal case. Will that be a problem for entertainment agency registration in Korea?",
+      "conclusion": "If you were sentenced to a fine or heavier punishment for violating this Act, the Act on the Punishment of Arranging Commercial Sex Acts (성매매알선 등 행위의 처벌에 관한 법률), the Act on the Protection of Children and Youth against Sex Offenses (아동·청소년의 성보호에 관한 법률) or similar laws, and 3 years have not passed, you fall under the grounds for disqualification and cannot run or work in the business. The same applies to minors, persons under adult or limited guardianship, bankrupts not reinstated, and persons whose registration was cancelled less than 3 years ago.",
+      "branches": [
+        {"when": "The sentence was for violating one of the laws listed as grounds for disqualification", "then": "Check whether 3 years have passed since the sentencing date and decide when to apply."},
+        {"when": "The sentence is unrelated to the listed laws", "then": "Check that no other grounds for disqualification apply, then apply."}
+      ],
+      "docs": "Registration application, personal details of the representative and officers, proof of experience or training completion",
+      "period": "15 days per the registration application form",
+      "href": "#term-ea-disqualification"
+    },
+    {
+      "id": "sit-ea-succession",
+      "q": "If I acquire an existing talent agency in Korea, do I have to register the pop culture and arts planning business again?",
+      "conclusion": "A business transfer or merger must be reported, and an heir who wants to continue the business must report within 30 days of the date of death. You are notified within 7 days of the report date whether it is accepted.",
+      "branches": [
+        {"when": "You take over through a business transfer or merger", "then": "Prepare the transfer or merger report and submit it to the competent authority."},
+        {"when": "You continue the business through inheritance", "then": "File the inheritance report within 30 days of the date of death."}
+      ],
+      "docs": "Business transfer, merger or inheritance report, proof of the transfer, merger or inheritance, registration certificate",
+      "period": "Inheritance report within 30 days of the date of death; notice of acceptance within 7 days of the report date",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-ea-change",
+      "q": "Do I need a change registration if my entertainment agency moves offices or changes its representative in Korea?",
+      "conclusion": "Yes. Changing registered matters also requires registration, so you file a change registration. Change registration work is also delegated to the si/do governor, so you file with the competent si/do.",
+      "branches": [
+        {"when": "You are moving the office", "then": "Apply for a change registration with proof of the right to use the new office."},
+        {"when": "The officer who met the requirements is replaced", "then": "Confirm that at least 1 of the new officers meets the experience or training requirement and attach the proof."}
+      ],
+      "docs": "Change registration application, proof of the changes, registration certificate",
+      "period": "Depends on the si/do review and any supplement requests",
+      "href": "#term-ea-change"
+    },
+    {
+      "id": "sit-ea-agent",
+      "q": "If I hire an administrative agent for entertainment agency registration in Korea, what do they handle?",
+      "conclusion": "Once engaged by you, YouSun Administrative Agency prepares the registration application and supporting documents, reviews the experience, training, office and disqualification requirements, handles submission to the competent si/do and supplement requests, and files change registrations and other reports. We do not advise on or handle disputes over exclusive artist contracts, or handle tax matters, and the competent authority decides on registration.",
+      "branches": [
+        {"when": "It is unclear whether the requirements are met", "then": "We look at the experience records and officer lineup and decide whether to rely on the experience requirement or on training completion."},
+        {"when": "The requirements are met", "then": "We prepare and compile the application and proof and submit them."}
+      ],
+      "docs": "Experience and income records or training completion records, office lease records, personal details of the representative and officers",
+      "period": "15 days per the registration application form",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-ea-business", "term": "Pop culture and arts planning business (대중문화예술기획업)", "def": "The business of providing or arranging the pop culture and arts services of pop culture artists, or training, coaching and counseling them for that purpose."},
+    {"id": "term-ea-service", "term": "Pop culture and arts services (대중문화예술용역)", "def": "Services related to acting, dance, musical performance, singing, recitation and other entertainment in the pop culture and arts industry."},
+    {"id": "term-ea-registration", "term": "Pop culture and arts planning business registration (대중문화예술기획업 등록)", "def": "The registration a person intending to run the business makes with the Minister of Culture, Sports and Tourism (문화체육관광부장관) after meeting the requirements; registration and change registration work is delegated to the si/do governor."},
+    {"id": "term-ea-career", "term": "Industry experience requirement (종사 경력 요건)", "def": "At least 2 years of work in the pop culture and arts planning business; it is one of the personnel requirements alongside training course completion, and for a corporation at least 1 officer must meet it."},
+    {"id": "term-ea-education", "term": "Pop culture and arts planning business training course (대중문화예술기획업 관련 교육과정)", "def": "A course offered at institutions specified by Ordinance of the Ministry of Culture, Sports and Tourism (schools under the Higher Education Act, lifelong education institutions, the Korea Creative Content Agency and others); completing it meets the personnel requirement in place of experience."},
+    {"id": "term-ea-office", "term": "Office (사무소)", "def": "One of the registration requirements; if the office is leased, proof of the right to use it is submitted."},
+    {"id": "term-ea-disqualification", "term": "Grounds for disqualification (결격사유)", "def": "Grounds that bar a person from running or working in the business, such as being a minor or under adult or limited guardianship, being a bankrupt not reinstated, being sentenced to a fine or heavier punishment for violating related laws less than 3 years ago, or having a registration cancelled less than 3 years ago."},
+    {"id": "term-ea-change", "term": "Change registration (변경등록)", "def": "A registration made again when registered matters change, by submitting the change registration application and supporting documents."}
+  ]
+}

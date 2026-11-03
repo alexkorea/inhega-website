@@ -1,0 +1,342 @@
+{
+ "slug": "venture-cert",
+ "lang": "en",
+ "label": "Venture and Innobiz Certification",
+ "kw": "Venture business certification agent in Korea",
+ "answer": "Venture business certification (legally, venture business confirmation, 벤처기업 확인) is a system in which the head of a venture business confirmation body checks whether an SME under the Framework Act on Small and Medium Enterprises (중소기업기본법) falls under one of three types — venture investment, R&D, or innovation growth — and issues a venture business confirmation certificate valid for 3 years. The confirmation body notifies the result within 30 days of the request for the venture investment type and within 45 days for the R&D and innovation growth types. Innobiz certification is a separate system under the Act on the Promotion of Technology Innovation of SMEs (중소기업 기술혁신 촉진법), in which the Minister of SMEs and Startups (중소벤처기업부장관) selects technology-innovative SMEs after an evaluation. YouSun Administrative Agency prepares and files the confirmation and selection applications and supporting documents.",
+ "services": [
+  {
+   "name": "Choosing the confirmation type (venture investment, R&D, innovation growth) and pre-checking the requirements",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Preparing and filing the venture business confirmation application (벤처기업 확인 신청)",
+   "href": "#term-vc-confirmation"
+  },
+  {
+   "name": "Organizing evidence of the investment amount and the investment-to-capital ratio for the venture investment type",
+   "href": "#term-vc-investment-type"
+  },
+  {
+   "name": "Compiling R&D expenditure and R&D-to-total-revenue ratio calculations for the R&D type",
+   "href": "#term-vc-rnd-type"
+  },
+  {
+   "name": "Coordinating recognition of a corporate research institute or dedicated R&D department (기업부설연구소·연구개발전담부서 인정)",
+   "href": "#sit-vc-no-lab"
+  },
+  {
+   "name": "Preparing materials for the confirmation body's document review and on-site inspection, and handling supplementation requests",
+   "href": "#term-vc-committee"
+  },
+  {
+   "name": "Tracking the certificate's validity period and filing for re-confirmation",
+   "href": "#sit-vc-renewal"
+  },
+  {
+   "name": "Pre-checking grounds for cancellation (loss of requirements, suspension or closure of business)",
+   "href": "#sit-vc-cancel"
+  },
+  {
+   "name": "Preparing and filing Innobiz (technology-innovative SME) selection applications (기술혁신형 중소기업 선정 신청)",
+   "href": "#term-vc-innobiz"
+  },
+  {
+   "name": "Guidance on Mainbiz (management-innovative SME) selection applications (경영혁신형 중소기업 선정 신청)",
+   "href": "#term-vc-mainbiz"
+  }
+ ],
+ "clients": [
+  "Early-stage startups preparing for venture business confirmation",
+  "SMEs that have received investment from venture capital companies, venture investment funds and similar investors",
+  "Technology SMEs operating a corporate research institute or dedicated R&D department",
+  "Existing venture businesses whose confirmation certificate is about to expire",
+  "SMEs considering Innobiz or Mainbiz selection alongside venture business confirmation"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "SMEs under the Framework Act on Small and Medium Enterprises (for the innovation growth type, businesses in the process of being founded are included). For Innobiz, SMEs seeking selection as a technology-innovative SME under the Act on the Promotion of Technology Innovation of SMEs"
+  },
+  {
+   "label": "Requirements",
+   "value": "One of: venture investment type (total investment of KRW 50 million or more, and investment of 10% or more of capital); R&D type (a corporate research institute or dedicated R&D department, annual R&D expenditure of KRW 50 million or more, R&D expenditure of 5% or more of total revenue, and a strong growth evaluation); innovation growth type (a strong evaluation of technological innovation and business growth)"
+  },
+  {
+   "label": "Process",
+   "value": "Decide the confirmation type → pre-check requirements → file the application → document review and on-site inspection by the confirmation body → deliberation by the Venture Business Confirmation Committee → issuance of the confirmation certificate → validity management and re-confirmation"
+  },
+  {
+   "label": "Documents",
+   "value": "Venture business confirmation application (form set by notice of the Minister of SMEs and Startups), proof of the relevant type, business registration certificate and corporate register extract, financial statements and annual total revenue data, investment evidence or recognition certificate for the corporate research institute or dedicated R&D department, basis for R&D expenditure calculation"
+  },
+  {
+   "label": "Timeline",
+   "value": "Within 30 days of the request for the venture investment type and 45 days for the R&D and innovation growth types (one extension of up to 20 days if unavoidable). The certificate is valid for 3 years from the date of confirmation"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Early-stage company with little or no revenue",
+   "target": "sit-vc-startup"
+  },
+  {
+   "label": "Received investment and considering the venture investment type",
+   "target": "sit-vc-investment"
+  },
+  {
+   "label": "No corporate research institute yet",
+   "target": "sit-vc-no-lab"
+  },
+  {
+   "label": "Certificate expiring soon",
+   "target": "sit-vc-renewal"
+  },
+  {
+   "label": "Considering Innobiz after venture confirmation",
+   "target": "sit-vc-innobiz-vs"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-vc-startup",
+   "q": "Our company is less than a year old and has almost no revenue. Can we still get venture business certification in Korea?",
+   "conclusion": "Yes, some types are open to you. The innovation growth type includes businesses in the process of being founded, and the R&D type's R&D-to-total-revenue ratio requirement does not apply to companies within 3 years of founding.",
+   "branches": [
+    {
+     "when": "You have a corporate research institute or dedicated R&D department and are spending on R&D",
+     "then": "Consider the R&D type. If you are under 3 years old, the decision rests on the annual R&D expenditure threshold and the growth evaluation, without the ratio to total revenue."
+    },
+    {
+     "when": "You have no research unit but a clear technology and business model",
+     "then": "Apply under the innovation growth type, which evaluates technological excellence, product and service competitiveness, and market size and outlook."
+    },
+    {
+     "when": "You have received investment from a venture capital company or similar investor",
+     "then": "First calculate the investment amount and investment-to-capital ratio for the venture investment type."
+    }
+   ],
+   "docs": "Venture business confirmation application, business registration certificate and corporate register extract, business plan materials, intellectual property holdings and technology development records; for the R&D type, the recognition certificate for the corporate research institute or dedicated R&D department and the basis for R&D expenditure calculation",
+   "period": "Statutory: within 45 days of the request for the R&D and innovation growth types (one extension of up to 20 days if unavoidable) / In practice, depends on the on-site inspection schedule and supplementation requests",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-vc-investment",
+   "q": "We are a VC-backed startup. How much investment do we need to qualify for venture confirmation under the venture investment type in Korea?",
+   "conclusion": "Total investment from investors specified by law — venture capital companies, venture investment funds, Korea Venture Investment Corp., professional individual investors and so on — must be KRW 50 million or more, and that total must be 10% or more of the company's capital. An evaluation by the venture business confirmation body is added on top.",
+   "branches": [
+    {
+     "when": "Your investors are investment institutions or professional individual investors listed in the law",
+     "then": "Calculate the total investment and the ratio to capital from the investment agreements and payment evidence, then apply."
+    },
+    {
+     "when": "Your company is a corporate producer under the Framework Act on the Promotion of Cultural Industries (문화산업진흥 기본법)",
+     "then": "The investment-to-capital ratio threshold is lowered to 7% or more."
+    },
+    {
+     "when": "You have only received investment from acquaintances or ordinary individuals",
+     "then": "They may not count as recognized investors for the venture investment type, so also consider the R&D type or the innovation growth type."
+    }
+   ],
+   "docs": "Venture business confirmation application, investment agreements and evidence of payment, shareholder register, corporate register extract (to confirm capital), financial statements",
+   "period": "Statutory: within 30 days of the request for the venture investment type (one extension of up to 20 days if unavoidable) / In practice, depends on whether investment evidence needs supplementation"
+  },
+  {
+   "id": "sit-vc-no-lab",
+   "q": "Can we get venture business confirmation under the R&D type without a corporate research institute?",
+   "conclusion": "The R&D type requires a corporate research institute or dedicated R&D department (for cultural industries, a corporate creative research institute or dedicated creative department), so recognition must come first. To apply without a research unit, consider the innovation growth type.",
+   "branches": [
+    {
+     "when": "You can secure research staff and a dedicated space",
+     "then": "First apply for recognition of a corporate research institute or dedicated R&D department, then apply for venture business confirmation under the R&D type once recognized."
+    },
+    {
+     "when": "You cannot set up a research unit right now",
+     "then": "Prepare to be evaluated on technological innovation and business growth under the innovation growth type."
+    }
+   ],
+   "docs": "Recognition certificate for the corporate research institute or dedicated R&D department, basis for R&D expenditure calculation, financial statements and annual total revenue data, venture business confirmation application",
+   "period": "In practice, the research institute recognition period comes first; after that, venture business confirmation is within 45 days of the request (statutory)"
+  },
+  {
+   "id": "sit-vc-period",
+   "q": "How long does venture business certification in Korea take, from application to receiving the certificate?",
+   "conclusion": "The head of the confirmation body must notify the result within 30 days of the request for the venture investment type and within 45 days for the R&D and innovation growth types, and may extend this only once, by up to 20 days, if unavoidable.",
+   "branches": [
+    {
+     "when": "Your documents are complete and no supplementation is requested",
+     "then": "Document review and on-site inspection → deliberation by the Venture Business Confirmation Committee → certificate issuance all proceed within the statutory period."
+    },
+    {
+     "when": "Additional materials are requested during the on-site inspection",
+     "then": "The schedule extends by the time it takes to submit them, so organize your evidence before applying."
+    }
+   ],
+   "docs": "Venture business confirmation application, proof of the relevant type, business registration certificate and corporate register extract, financial statements",
+   "period": "Statutory: 30 days (venture investment type) / 45 days (R&D and innovation growth types), one extension of up to 20 days possible / In practice, document preparation time is added",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-vc-cost",
+   "q": "I'm looking into the cost of venture business certification in Korea. What should we prepare before applying?",
+   "conclusion": "The head of the confirmation body may charge the applicant for confirmation costs, and the calculation and payment method is set by notice of the Minister of SMEs and Startups, so check the confirmation body's announcement at the time you apply. What you need to prepare: choose the type, check the quantitative requirements for that type, and organize the supporting documents.",
+   "branches": [
+    {
+     "when": "You have not chosen a type yet",
+     "then": "Pick the right one of the three types based on whether you have raised investment, whether you have a research unit, and when you were founded."
+    },
+    {
+     "when": "Your type is decided",
+     "then": "Gather investment evidence or R&D expenditure calculations and business plan materials, then complete the application."
+    }
+   ],
+   "docs": "Venture business confirmation application, proof of the relevant type, financial statements and annual total revenue data, intellectual property holdings and technology development records",
+   "period": "Statutory: within 30 or 45 days of the request / In practice, depends on document preparation and the on-site inspection schedule"
+  },
+  {
+   "id": "sit-vc-renewal",
+   "q": "Our venture business confirmation certificate expires soon. How do we renew it?",
+   "conclusion": "The certificate is valid for 3 years from the date of confirmation and there is no automatic renewal, so you must apply for confirmation again (re-confirmation) before it expires. Once it expires, venture business tax relief may not apply from the tax year that includes the expiry date.",
+   "branches": [
+    {
+     "when": "You still meet the requirements of the type you were first confirmed under",
+     "then": "Apply for re-confirmation under the same type with your latest financial statements and evidence."
+    },
+    {
+     "when": "Your investment ratio or R&D expenditure position has changed",
+     "then": "Consider applying under a different type that fits your current situation."
+    }
+   ],
+   "docs": "Venture business confirmation application, existing confirmation certificate, latest financial statements, proof of the relevant type",
+   "period": "Statutory: re-confirmation is also within 30 or 45 days of the request / In practice, apply with enough margin for deliberation to finish before the expiry date"
+  },
+  {
+   "id": "sit-vc-cancel",
+   "q": "If we suspend business or no longer meet the requirements after venture confirmation, will the confirmation be cancelled?",
+   "conclusion": "It can be. Grounds for cancellation include no longer meeting the venture business requirements; not carrying on business activity for 6 months due to suspension, closure, bankruptcy and the like; and the representative or largest shareholder misappropriating or concealing company assets and causing harm to interested parties. If confirmation was obtained by false or fraudulent means, it must be cancelled.",
+   "branches": [
+    {
+     "when": "You are pausing operations temporarily",
+     "then": "Manage the schedule so the period without business activity does not reach 6 months."
+    },
+    {
+     "when": "Cancellation proceedings have started",
+     "then": "A hearing is held before cancellation, so prepare evidence that you still meet the requirements and a written opinion."
+    }
+   ],
+   "docs": "Financial statements, evidence of investment and R&D status, evidence of business operations, written opinion for the hearing",
+   "period": "In practice, whether cancellation occurs depends on the confirmation body's hearing and deliberation schedule"
+  },
+  {
+   "id": "sit-vc-innobiz-vs",
+   "q": "We already have venture business certification. Do we need to apply for Innobiz certification separately?",
+   "conclusion": "Yes. The two are separate systems with different governing laws and procedures, so if you want Innobiz, you apply for it separately. Venture business confirmation is a confirmation under the Special Act on the Promotion of Venture Businesses (벤처기업육성에 관한 특별법), while Innobiz is selection as a technology-innovative SME under the Act on the Promotion of Technology Innovation of SMEs.",
+   "branches": [
+    {
+     "when": "You want to showcase technology innovation results and commercialization capability",
+     "then": "Apply for the Innobiz (technology-innovative SME) selection evaluation according to that year's announcement."
+    },
+    {
+     "when": "Your strengths are management innovation activities and results",
+     "then": "Consider Mainbiz (management-innovative SME) selection."
+    }
+   ],
+   "docs": "Innobiz selection application documents (per that year's announcement), business registration certificate and corporate register extract, financial statements, technology development records and intellectual property materials",
+   "period": "In practice, the selection schedule and validity period are set by announcements and notices of the Ministry of SMEs and Startups rather than by statute, so follow that year's announcement"
+  },
+  {
+   "id": "sit-vc-innobiz-process",
+   "q": "How does the Innobiz certification selection process work in Korea, and what is evaluated?",
+   "conclusion": "The Minister of SMEs and Startups announces the selection procedure and evaluation criteria, conducts the evaluation, and selects companies with strong results as technology-innovative SMEs. The criteria include technology innovation results and technology commercialization capability.",
+   "branches": [
+    {
+     "when": "A selection announcement has been published",
+     "then": "Check the application requirements and evaluation indicators in the announcement, then prepare and file the application documents."
+    },
+    {
+     "when": "You want to know the evaluation costs",
+     "then": "The Minister may require companies seeking selection to bear the evaluation costs, with calculation and payment set by notice, so check that year's notice."
+    }
+   ],
+   "docs": "Selection application (announcement form), business registration certificate and corporate register extract, financial statements, technology development and intellectual property materials, technology commercialization records",
+   "period": "In practice, depends on the evaluation schedule set in the announcement"
+  },
+  {
+   "id": "sit-vc-mainbiz",
+   "q": "Should our company apply for Innobiz or Mainbiz in Korea?",
+   "conclusion": "Both are selection systems under the Act on the Promotion of Technology Innovation of SMEs, but the evaluation focus differs. If your record centers on technology development and commercialization, Innobiz (technology-innovative) fits; if it centers on improving how the business is managed and the results, Mainbiz (management-innovative) fits.",
+   "branches": [
+    {
+     "when": "You are a manufacturing or technology company with a record of patents, technology development and productization",
+     "then": "Organize your materials to the Innobiz criteria (technology innovation results and commercialization capability)."
+    },
+    {
+     "when": "You are a company, such as in services or distribution, whose strength is management innovation",
+     "then": "Prepare to the Mainbiz criteria (management innovation activities and results)."
+    }
+   ],
+   "docs": "Business registration certificate and corporate register extract, financial statements, technology development or management innovation records, that year's announcement forms",
+   "period": "In practice, depends on each system's announcement schedule"
+  },
+  {
+   "id": "sit-vc-agency",
+   "q": "If we hire an administrative agent for venture business certification in Korea, what exactly do they handle?",
+   "conclusion": "We handle type assessment and requirement pre-checks, preparation of the application and supporting documents, filing with the confirmation body, preparation of on-site inspection materials and supplementation responses, and validity management and re-confirmation. Whether the requirements are met and how technology and growth are evaluated is decided by the confirmation body and the Venture Business Confirmation Committee.",
+   "branches": [
+    {
+     "when": "You are applying for venture business confirmation for the first time",
+     "then": "We determine which of the three types fits your company, tell you which evidence is missing, then prepare and file the application."
+    },
+    {
+     "when": "You need investment fundraising, R&D planning or tax filings",
+     "then": "These are not administrative agent services, so they proceed separately with the relevant specialists, and our office focuses on the confirmation application documents."
+    }
+   ],
+   "docs": "Business registration certificate and corporate register extract, financial statements, investment evidence or research institute recognition certificate, business plan materials",
+   "period": "Statutory: within 30 or 45 days of the request / In practice, document preparation time is added",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-vc-confirmation",
+   "term": "Venture business confirmation (벤처기업 확인)",
+   "def": "A system in which the head of a venture business confirmation body confirms whether an SME meets the venture business requirements and issues a venture business confirmation certificate valid for 3 years. Commonly called venture business certification."
+  },
+  {
+   "id": "term-vc-agency",
+   "term": "Venture business confirmation body (벤처기업확인기관)",
+   "def": "A body designated by the Minister of SMEs and Startups to confirm whether a company is a venture business. The designation period is 3 years from the date of designation."
+  },
+  {
+   "id": "term-vc-committee",
+   "term": "Venture Business Confirmation Committee (벤처기업확인위원회)",
+   "def": "A committee made up mainly of private-sector experts, set up within the confirmation body to deliberate fairly on venture business confirmation and its cancellation. It decides with at least 7 members present and the approval of two-thirds or more of those present."
+  },
+  {
+   "id": "term-vc-investment-type",
+   "term": "Venture investment type (벤처투자유형)",
+   "def": "A type under which an SME is confirmed as a venture business when total investment from legally specified investment institutions and professional individual investors is KRW 50 million or more and that investment is 10% or more of its capital."
+  },
+  {
+   "id": "term-vc-rnd-type",
+   "term": "R&D type (연구개발유형)",
+   "def": "A type that confirms SMEs that have a corporate research institute or dedicated R&D department, meet the thresholds for annual R&D expenditure and R&D expenditure as a share of total revenue, and receive a strong growth evaluation."
+  },
+  {
+   "id": "term-vc-growth-type",
+   "term": "Innovation growth type (혁신성장유형)",
+   "def": "A type that confirms companies evaluated by the venture business confirmation body as strong in technological innovation and business growth. Businesses in the process of being founded are included."
+  },
+  {
+   "id": "term-vc-innobiz",
+   "term": "Technology-innovative SME, Innobiz (기술혁신형 중소기업, 이노비즈)",
+   "def": "An SME selected by the Minister of SMEs and Startups under the Act on the Promotion of Technology Innovation of SMEs after evaluating technology innovation results, technology commercialization capability and other factors."
+  },
+  {
+   "id": "term-vc-mainbiz",
+   "term": "Management-innovative SME, Mainbiz (경영혁신형 중소기업, 메인비즈)",
+   "def": "An SME selected by the Minister of SMEs and Startups under the Act on the Promotion of Technology Innovation of SMEs after evaluating management innovation activities, management innovation results and other factors."
+  }
+ ]
+}

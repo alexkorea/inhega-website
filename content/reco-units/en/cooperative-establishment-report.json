@@ -1,0 +1,179 @@
+{
+  "slug": "cooperative-establishment-report",
+  "lang": "en",
+  "label": "Cooperative establishment report",
+  "kw": "Cooperative establishment report agent in Korea",
+  "answer": "A cooperative establishment report (협동조합 설립신고) is filed with the si/do governor with jurisdiction over the principal office after five or more founders eligible to be members draw up the articles of association and obtain a resolution at a founding general meeting announced at least 7 days in advance. The governor notifies whether the report is accepted within 20 days of receipt, and after acceptance the cooperative comes into existence only when its establishment registration is made within 14 days of completing payment of capital contributions. YouSun Administrative Agency prepares the establishment report and attachments such as the articles of association, founding meeting minutes and business plan, and files them with the si/do on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the cooperative establishment report (acceptance and report confirmation, 신고수리·신고확인증)", "href": "#term-coop-acceptance"},
+    {"name": "Drafting the articles of association (reviewing required items such as purpose, name, membership eligibility, value and payment method of one contribution unit (출자 1좌), and scope of business)", "href": "#term-coop-share"},
+    {"name": "Preparing the founding general meeting (창립총회) notice and minutes", "href": "#term-coop-founding-meeting"},
+    {"name": "Preparing the list of founders (발기인) and consent submitters, and the list of officers", "href": "#term-coop-promoter"},
+    {"name": "Preparing the business plan and income and expenditure budget", "href": "#svc-glance"},
+    {"name": "Preparing the document on the value per contribution unit and units held by each member", "href": "#term-coop-share"},
+    {"name": "Handling supplement requests from the si/do", "href": "#sit-coop-period"},
+    {"name": "Filing change reports for reported details", "href": "#sit-coop-change"},
+    {"name": "Guidance on the schedule for capital payment and establishment registration (설립등기) after acceptance", "href": "#term-coop-registration"},
+    {"name": "Reviewing whether social cooperative (사회적협동조합) authorization applies", "href": "#term-coop-social"}
+  ],
+  "clients": [
+    "Groups of small business owners or freelancers in the same field starting a joint business",
+    "Founders setting up a business run jointly by local residents or producers",
+    "Organizers converting an unincorporated association into a cooperative corporation",
+    "Existing cooperatives whose articles, officers or other reported details have changed since establishment"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "General cooperatives and federations of cooperatives (social cooperatives require authorization, not a report)"},
+    {"label": "Requirements", "value": "Five or more founders eligible to be members; articles of association containing the statutory items (uniform value per contribution unit); a founding general meeting held after at least 7 days' notice; a resolution with a majority of consenting persons present and at least two-thirds of those present in favour"},
+    {"label": "Process", "value": "Form the founding group and draft the articles → give notice of the founding meeting (at least 7 days) → founding meeting resolution → submit the establishment report → acceptance and issuance of the report confirmation → payment of capital contributions → establishment registration"},
+    {"label": "Documents", "value": "Establishment report; copy of the articles of association; founding meeting notice; copy of the founding meeting minutes; list of officers; business plan; income and expenditure budget; document on the value per contribution unit and units per member; list of founders and consent submitters"},
+    {"label": "Timeline", "value": "Notification of acceptance within 20 days of receipt (if no notice is given within that period, the report is deemed accepted the following day); establishment registration within 14 days of completing payment of capital contributions"}
+  ],
+  "chooser": [
+    {"label": "Five people setting up a cooperative for the first time", "target": "sit-coop-five"},
+    {"label": "The founding meeting lacked a quorum", "target": "sit-coop-meeting"},
+    {"label": "Considering a public-interest social cooperative", "target": "sit-coop-social"},
+    {"label": "You have the report confirmation and need the next step", "target": "sit-coop-after-acceptance"},
+    {"label": "Reported details changed after establishment", "target": "sit-coop-change"}
+  ],
+  "situations": [
+    {
+      "id": "sit-coop-five",
+      "q": "Five business partners want to form a cooperative in Korea. What should we prepare first?",
+      "conclusion": "Five or more people eligible to be members act as founders and first draft the articles of association, then hold a founding general meeting after at least 7 days' notice to resolve on the articles, business plan and budget, election of officers and establishment expenses. After that, you file the establishment report with the si/do governor with jurisdiction over the principal office.",
+      "branches": [
+        {"when": "All five founders are eligible to be members", "then": "Prepare the draft articles and the founding meeting notice together, and hold the meeting once 7 days have passed after the notice."},
+        {"when": "Some founders do not meet the membership eligibility requirements", "then": "First settle the membership eligibility to be set in the articles, then rearrange the group so that at least five eligible founders take part."}
+      ],
+      "docs": "Draft articles of association; founding meeting notice; list of founders; draft business plan; draft income and expenditure budget",
+      "period": "Founding meeting notice at least 7 days / notification of acceptance within 20 days of the report",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-coop-meeting",
+      "q": "If fewer than half of those who submitted consent forms attended our cooperative's founding meeting, is the resolution invalid?",
+      "conclusion": "A founding general meeting resolution requires attendance by a majority of those who submitted consent forms before the meeting opened, and approval by at least two-thirds of those present. Without a majority in attendance, you cannot file the establishment report on that resolution, so you must give notice again and hold the founding meeting anew.",
+      "branches": [
+        {"when": "Attendance fell short of a majority", "then": "Give at least 7 days' notice again of the date, place, membership eligibility and matters for resolution, and hold a new founding meeting."},
+        {"when": "Attendance was sufficient but an item received less than two-thirds approval", "then": "Revise that item and resolve on it again, recording the quorum and number of votes in favour accurately in the minutes."}
+      ],
+      "docs": "Founding meeting notice; list of consent submitters; founding meeting minutes",
+      "period": "Held after at least 7 days' renewed notice",
+      "href": "#term-coop-founding-meeting"
+    },
+    {
+      "id": "sit-coop-articles",
+      "q": "Which items in a Korean cooperative's articles of association trigger supplement requests if left out?",
+      "conclusion": "The articles must contain the statutory items, including purpose, name and principal office location, membership eligibility, value and payment method of one contribution unit, and scope of business and accounting, and the value of one contribution unit must be uniform. Missing mandatory items in the articles is a typical reason for a supplement request.",
+      "branches": [
+        {"when": "You use the standard articles as they are", "then": "Adapt the scope of business and membership eligibility to your actual business and check that no blanks remain."},
+        {"when": "You want a different contribution unit value for each member", "then": "The unit value must be uniform, so differentiate by the number of units instead."}
+      ],
+      "docs": "Articles of association; document on the value per contribution unit and units per member",
+      "period": "The articles are resolved at the founding meeting and then attached to the establishment report"
+    },
+    {
+      "id": "sit-coop-capital",
+      "q": "When are capital contributions paid into a Korean cooperative? Do we need to collect them before filing the report?",
+      "conclusion": "Paying capital contributions is a step after acceptance of the report. At the time of the report, you submit a document stating the value per contribution unit and the number of units for each member, and once the report confirmation is issued, the chair has prospective members pay their contributions.",
+      "branches": [
+        {"when": "You are preparing the report", "then": "Fix the number of units for each member and set it out in a document."},
+        {"when": "You have received the report confirmation", "then": "The founders hand over establishment affairs to the chair, who receives the contributions and schedules the establishment registration within 14 days."}
+      ],
+      "docs": "Document on the value per contribution unit and units per member; articles of association",
+      "period": "Establishment registration within 14 days of completing payment of capital contributions",
+      "href": "#term-coop-share"
+    },
+    {
+      "id": "sit-coop-period",
+      "q": "How long does a cooperative establishment report take in Korea, and what is the overall schedule through registration?",
+      "conclusion": "The si/do governor must notify whether the report is accepted within 20 days of receipt; if neither acceptance nor an extension is notified within that period, the report is deemed accepted the day after the period ends. After acceptance, the establishment registration is made within 14 days of completing payment of capital contributions.",
+      "branches": [
+        {"when": "The report is accepted without supplements", "then": "It proceeds as founding meeting notice (at least 7 days) → report (notification within 20 days) → payment of contributions → registration (within 14 days)."},
+        {"when": "You receive a supplement request for missing documents or flaws in the founding meeting procedure", "then": "Put the documents in order following the si/do's guidance and resubmit; the schedule extends accordingly."}
+      ],
+      "docs": "Establishment report; copy of the articles; founding meeting notice; copy of the founding meeting minutes; list of officers; business plan; income and expenditure budget; contribution units document; list of founders and consent submitters",
+      "period": "Statutory: notification of acceptance within 20 days of the report; establishment registration within 14 days of completing payment / in practice, it depends on any supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-coop-cost",
+      "q": "How much does a cooperative establishment report cost in Korea, and at which stage do costs arise?",
+      "conclusion": "At the establishment report stage the key task is preparing the report and attachments; the stage that generates separate costs is the establishment registration. Registration may involve separate costs such as registration and licence tax.",
+      "branches": [
+        {"when": "You are at the report stage", "then": "Focus on preparing documents such as the articles, founding meeting minutes, business plan and budget."},
+        {"when": "You are at the registration stage after acceptance", "then": "Register within 14 days of paying in the contributions; filing the registration on your behalf is the work of a judicial affairs specialist (법무사)."}
+      ],
+      "docs": "Establishment report and all attachments",
+      "period": "Notification of acceptance within 20 days of the report; registration within 14 days of completing payment"
+    },
+    {
+      "id": "sit-coop-social",
+      "q": "We want to run a public-interest business in Korea. Should we set up a social cooperative rather than a general cooperative?",
+      "conclusion": "A social cooperative is a non-profit corporation established with authorization from the Minister of Planning and Budget (기획예산처장관), not by report, and whether authorization is granted is notified within 60 days of the application. A general cooperative is a corporation established by report to the si/do governor.",
+      "branches": [
+        {"when": "The business centres on public-interest purposes rather than members' benefit", "then": "Consider the social cooperative route, in which five or more founders draft the articles, hold a founding meeting and apply to the Minister of Planning and Budget for authorization."},
+        {"when": "The business serves members' common interests", "then": "File an establishment report for a general cooperative with the si/do governor."}
+      ],
+      "docs": "Articles of association; founding meeting minutes; business plan; income and expenditure budget; list of officers",
+      "period": "Social cooperative authorization: notified within 60 days of the application / general cooperative report: notified within 20 days",
+      "href": "#term-coop-social"
+    },
+    {
+      "id": "sit-coop-social-enterprise",
+      "q": "Can an administrative agent also handle social enterprise certification while setting up our cooperative in Korea?",
+      "conclusion": "No. The Social Enterprise Promotion Act (사회적기업 육성법) is among the labour laws listed in the Enforcement Decree of the Certified Labor Consultant Act (공인노무사법), so YouSun Administrative Agency does not handle social enterprise certification. We handle only the preparation and filing of the cooperative establishment report documents.",
+      "branches": [
+        {"when": "You first need to establish the cooperative", "then": "We prepare and file the establishment report and attachments."},
+        {"when": "You are preparing for social enterprise certification", "then": "Consult separately a professional qualified to handle certification."}
+      ],
+      "docs": "Cooperative establishment report and attachments",
+      "period": "Cooperative report: notification of acceptance within 20 days"
+    },
+    {
+      "id": "sit-coop-after-acceptance",
+      "q": "We received our cooperative report confirmation in Korea. What do we do next?",
+      "conclusion": "Once the report confirmation is issued, the founders hand over establishment affairs to the chair without delay, and the chair has prospective members pay their capital contributions and then makes the establishment registration at the principal office location within 14 days of completing payment. The cooperative comes into existence only upon establishment registration.",
+      "branches": [
+        {"when": "Payment of contributions is complete", "then": "The chair files the establishment registration as applicant within 14 days; filing on your behalf is entrusted to a judicial affairs specialist (법무사)."},
+        {"when": "Payment of contributions is delayed", "then": "The registration deadline counts from the date payment is completed, so keep a record of that date."}
+      ],
+      "docs": "Report confirmation; establishment report; founding meeting minutes; copy of the articles (to attach to the registration application)",
+      "period": "Establishment registration within 14 days of completing payment of capital contributions",
+      "href": "#term-coop-registration"
+    },
+    {
+      "id": "sit-coop-change",
+      "q": "If our cooperative's articles or reported details change after establishment in Korea, do we need to file a change report?",
+      "conclusion": "If you change any of the reported items specified by law, you must file a change report with the same si/do governor that received the establishment report, and the governor notifies whether it is accepted within 20 days of receipt.",
+      "branches": [
+        {"when": "The change is subject to a change report", "then": "Submit the change report with documents supporting the change, such as the general meeting resolution."},
+        {"when": "Registered details have also changed", "then": "A change registration is needed separately from the change report; filing it on your behalf is the work of a judicial affairs specialist (법무사)."}
+      ],
+      "docs": "Change report; general meeting minutes resolving the change; evidence of the change such as the amended articles",
+      "period": "Notification of acceptance within 20 days of receiving the change report"
+    },
+    {
+      "id": "sit-coop-agency",
+      "q": "If I hire an administrative agent for a cooperative establishment report in Korea, what will they handle?",
+      "conclusion": "YouSun Administrative Agency drafts the articles, the founding meeting notice and minutes, the lists of officers and founders, the business plan and income and expenditure budget, and the contribution units document, files them with the si/do and responds to supplements. We do not file the establishment registration (a judicial affairs specialist's work) or handle social enterprise certification, but we guide you on the registration schedule.",
+      "branches": [
+        {"when": "The founding meeting has not been held yet", "then": "We first prepare the articles and notice so that the notice period and voting quorum are met."},
+        {"when": "The founding meeting has already been held", "then": "We check that the minutes and notice meet the statutory procedure, then prepare the report."}
+      ],
+      "docs": "Founders' personal details; draft or adopted articles of association; founding meeting materials; business outline",
+      "period": "Notification of acceptance within 20 days of the report / in practice, it depends on document preparation and supplement time",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-coop-cooperative", "term": "Cooperative (협동조합)", "def": "A business organization that jointly carries out the purchase, production, sale or provision of goods or services; it is a corporation that comes into existence through an establishment report to the si/do governor and establishment registration."},
+    {"id": "term-coop-social", "term": "Social cooperative (사회적협동조합)", "def": "A cooperative in the form of a non-profit corporation, established with authorization from the Minister of Planning and Budget."},
+    {"id": "term-coop-promoter", "term": "Founders (발기인)", "def": "Persons eligible to be members who lead the establishment of a cooperative; there must be five or more."},
+    {"id": "term-coop-consent", "term": "Establishment consent form (설립동의서)", "def": "A form submitted to the founders before the founding meeting opens by those who agree to establish the cooperative; it is the basis for calculating the founding meeting quorum."},
+    {"id": "term-coop-founding-meeting", "term": "Founding general meeting (창립총회)", "def": "The establishment meeting, held after at least 7 days' notice of the date, place, membership eligibility and matters for resolution, that resolves on the articles, business plan, budget, election of officers and similar matters."},
+    {"id": "term-coop-share", "term": "One contribution unit (출자 1좌)", "def": "The unit in which members contribute capital; the articles set a uniform value for one unit, and each member's contribution is expressed as a number of units."},
+    {"id": "term-coop-acceptance", "term": "Acceptance of the report and report confirmation (신고수리·신고확인증)", "def": "The si/do governor's decision accepting the establishment report and the document confirming it; whether the report is accepted is notified within 20 days of filing."},
+    {"id": "term-coop-registration", "term": "Establishment registration (설립등기)", "def": "Registration made at the principal office location within 14 days of completing payment of capital contributions; the cooperative comes into existence through this registration."}
+  ]
+}

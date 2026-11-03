@@ -1,0 +1,363 @@
+{
+ "slug": "food-manufacturing",
+ "lang": "en",
+ "label": "Food Manufacturing and Processing Business Registration",
+ "kw": "Food manufacturing business registration agent in Korea",
+ "answer": "Food manufacturing and processing business registration (식품제조·가공업 영업등록) is the procedure in which a person who wants to manufacture or process food sets up facilities that meet the facility standards, completes 8 hours of advance food hygiene training, and then submits a business registration application to the city mayor, county head or district head with jurisdiction over the business premises (for liquor manufacturing, the Minister of Food and Drug Safety (식품의약품안전처장)). The registration authority checks the facilities and notifies whether registration is granted within 3 days of the application date. After registration, an item manufacturing report is filed before production starts or within 7 days after it starts. YouSun Administrative Agency prepares the business registration application and attachments, files them with the registration authority and handles supplementation requests.",
+ "services": [
+  {
+   "name": "Preparing and filing the food manufacturing and processing business registration application (식품제조·가공업 영업등록신청)",
+   "href": "#term-fm-registration"
+  },
+  {
+   "name": "Pre-checking whether registration applies or is excluded (livestock product processing, health functional food manufacturing, etc.)",
+   "href": "#sit-fm-exempt"
+  },
+  {
+   "name": "Document-based review of compliance with the facility standards for the business type (시설기준)",
+   "href": "#term-fm-facility-standard"
+  },
+  {
+   "name": "Scheduling guidance for advance food hygiene training and health checks (식품위생교육)",
+   "href": "#term-fm-hygiene-education"
+  },
+  {
+   "name": "Preparing the list of foods to be manufactured or processed, water quality test reports and shared kitchen use contract documents",
+   "href": "#svc-glance"
+  },
+  {
+   "name": "Handling the facility check and receiving the business registration certificate",
+   "href": "#sit-fm-period"
+  },
+  {
+   "name": "Preparing and filing item manufacturing reports and item manufacturing change reports (품목제조보고)",
+   "href": "#term-fm-item-report"
+  },
+  {
+   "name": "Change registration applications and change reports (location, food group, trade name, floor area) (변경등록)",
+   "href": "#term-fm-change-registration"
+  },
+  {
+   "name": "Preparing and filing the business operator status succession report (영업자 지위승계 신고)",
+   "href": "#term-fm-succession"
+  },
+  {
+   "name": "Guidance on related licences such as HACCP certification and instant sale manufacturing and processing business reports",
+   "href": "#sit-fm-instant-sale"
+  }
+ ],
+ "clients": [
+  "Sole proprietors and corporations setting up a new factory or workshop to manufacture food directly",
+  "Businesses expanding small-scale side dish, sauce or beverage production into wholesale supply",
+  "Founders planning to manufacture food in a rented shared kitchen",
+  "Existing operators who need change registration or status succession due to relocation, adding a food group or acquiring a business",
+  "Foreign-invested companies planning a production base in Korea"
+ ],
+ "glance": [
+  {
+   "label": "Who needs it",
+   "value": "Corporations and individuals intending to run a business that manufactures or processes food (excluding grain milling, businesses holding a livestock product processing permit or a health functional food manufacturing permit, simple processing and the like)"
+  },
+  {
+   "label": "Requirements",
+   "value": "Facility standards for the business type (building location, work area, food handling facilities, water supply, toilets, storage, testing room, transport facilities), 8 hours of advance food hygiene training (in-person), and health checks for workers directly handling food"
+  },
+  {
+   "label": "Process",
+   "value": "Confirm registration applies → complete food hygiene training → install facilities → health checks → apply for business registration → facility check and certificate issuance → item manufacturing report"
+  },
+  {
+   "label": "Documents",
+   "value": "Business registration application, food hygiene training completion certificate, types of food or food additives to be manufactured or processed, water quality test report (if using groundwater, etc.), shared kitchen use contract documents (if using a shared kitchen)"
+  },
+  {
+   "label": "Timeline",
+   "value": "Registration decision notified within 3 days of the application date (actual time varies with the facility check schedule); item manufacturing report before production starts or within 7 days after it starts; change registration within 7 days; status succession report within 1 month"
+  }
+ ],
+ "chooser": [
+  {
+   "label": "Renting a workshop and starting manufacturing for the first time",
+   "target": "sit-fm-new-start"
+  },
+  {
+   "label": "Selling the food you make directly in your shop",
+   "target": "sit-fm-instant-sale"
+  },
+  {
+   "label": "No space for a testing room",
+   "target": "sit-fm-lab"
+  },
+  {
+   "label": "Launching a new product",
+   "target": "sit-fm-new-product"
+  },
+  {
+   "label": "Moving the factory or taking over a business",
+   "target": "sit-fm-relocation"
+  }
+ ],
+ "situations": [
+  {
+   "id": "sit-fm-new-start",
+   "q": "If I rent a food factory and start manufacturing for the first time in Korea, do I need a permit or a registration?",
+   "conclusion": "The food manufacturing and processing business requires business registration, not a permit. Set up the facilities first, then apply for registration to the city mayor, county head or district head with jurisdiction over the business premises.",
+   "branches": [
+    {
+     "when": "You manufacture or process general food",
+     "then": "Complete the 8 hours of advance hygiene training and health checks, set up the workshop to the facility standards, then submit the business registration application."
+    },
+    {
+     "when": "You manufacture liquor",
+     "then": "Register with the Minister of Food and Drug Safety rather than the city mayor, county head or district head."
+    }
+   ],
+   "docs": "Business registration application, food hygiene training completion certificate, types of food to be manufactured or processed, water quality test report (if using groundwater)",
+   "period": "Statutory: registration decision notified within 3 days of the application date / In practice, depends on facility preparation and the facility check schedule",
+   "href": "#term-fm-registration"
+  },
+  {
+   "id": "sit-fm-exempt",
+   "q": "Do I also need food manufacturing business registration in Korea to make processed meat products or health functional foods?",
+   "conclusion": "If you hold a livestock product processing permit or a health functional food manufacturing business permit and run that business, you do not separately register as a food manufacturing and processing business. The governing laws and licensing methods differ, so confirm the product type first.",
+   "branches": [
+    {
+     "when": "You process livestock products",
+     "then": "Consider a livestock product processing permit under the Livestock Products Sanitary Control Act (축산물 위생관리법)."
+    },
+    {
+     "when": "You manufacture health functional foods",
+     "then": "Consider a health functional food manufacturing business permit under the Health Functional Foods Act (건강기능식품에 관한 법률)."
+    },
+    {
+     "when": "You only cut or dry agricultural products",
+     "then": "Simple processing without food additives and with no hygiene risk is excluded from registration, but processing for sale to institutional food service facilities or as fresh convenience food requires registration."
+    }
+   ],
+   "docs": "Description of the products to be manufactured, raw materials and processes",
+   "period": "Once the applicable licence is determined, its processing period applies",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-fm-education",
+   "q": "Can I take the hygiene training for food manufacturing business registration in Korea online?",
+   "conclusion": "The advance food hygiene training for prospective operators is 8 hours and must be taken in person, not as remote training. The completion certificate is an attachment to the registration application.",
+   "branches": [
+    {
+     "when": "You are a new operator before registration",
+     "then": "Take the 8-hour in-person training and attach the completion certificate to the registration application."
+    },
+    {
+     "when": "You are an already registered operator",
+     "then": "Take 3 hours of food hygiene training every year."
+    }
+   ],
+   "docs": "Food hygiene training completion certificate",
+   "period": "Statutory: 8 hours of advance training, 3 hours every year after registration",
+   "href": "#term-fm-hygiene-education"
+  },
+  {
+   "id": "sit-fm-lab",
+   "q": "Our food factory is small and has no space for a testing room. Can we still register?",
+   "conclusion": "If you outsource self-quality testing to a designated self-quality testing and inspection body or similar, you do not need a testing room or testing equipment.",
+   "branches": [
+    {
+     "when": "You outsource self-quality testing",
+     "then": "Apply for registration with the other facility standards met and no testing room, and keep testing records for 2 years."
+    },
+    {
+     "when": "You want to test in-house",
+     "then": "Set up a testing room capable of testing to the Standards and Specifications for Food."
+    }
+   ],
+   "docs": "Business registration application, documents on outsourced self-quality testing",
+   "period": "Statutory: registration decision notified within 3 days of the application date",
+   "href": "#term-fm-facility-standard"
+  },
+  {
+   "id": "sit-fm-period",
+   "q": "How long does food manufacturing business registration in Korea take? Can we start production as soon as we apply?",
+   "conclusion": "The registration authority must notify the decision within 3 days of the application date, but the certificate is issued after a facility check, so the actual time depends on facility preparation and the inspection schedule. Once registered, you must file an item manufacturing report when you produce.",
+   "branches": [
+    {
+     "when": "Neither a decision nor an extension notice is given within 3 days",
+     "then": "Registration is deemed granted on the day after the period ends."
+    },
+    {
+     "when": "The facility check finds that standards are not met",
+     "then": "Improve the facilities and have them checked again."
+    }
+   ],
+   "docs": "Business registration application, food hygiene training completion certificate, list of food types",
+   "period": "Statutory: registration decision notified within 3 days / In practice, the facility check schedule is added",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-fm-documents",
+   "q": "For food manufacturing business registration in Korea, do we need to submit the building register or health certificate separately?",
+   "conclusion": "The land use plan confirmation, building register and health check results are confirmed by the registration authority through shared administrative information, so in principle you do not submit them. However, if you do not consent to the authority checking the health check results, attach a copy.",
+   "branches": [
+    {
+     "when": "You use groundwater or another source instead of tap water",
+     "then": "Attach a water quality test report issued by a drinking water testing body."
+    },
+    {
+     "when": "You use a shared kitchen",
+     "then": "Attach the use contract stating the shared kitchen's location, area and other details."
+    }
+   ],
+   "docs": "Business registration application, food hygiene training completion certificate, types of food or food additives to be manufactured or processed, water quality test report, shared kitchen use contract documents",
+   "period": "Statutory: registration decision notified within 3 days of the application date",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-fm-cost-items",
+   "q": "Before looking into the cost of food manufacturing business registration in Korea, what preparation is needed?",
+   "conclusion": "Registration preparation centers on work area, water supply and storage facilities that meet the facility standards, 8 hours of advance hygiene training, and health checks. All three must be in place to pass the facility check and receive the certificate.",
+   "branches": [
+    {
+     "when": "The work area adjoins facilities used for other purposes",
+     "then": "Separate it from facilities not used for food manufacturing and processing, and separate or partition the raw material room, manufacturing and processing room and packaging room."
+    },
+    {
+     "when": "The interior wall and floor finishes do not meet the standards",
+     "then": "Provide waterproof floors with drainage and water-resistant interior wall finishes up to 1.5 meters from the floor, among other measures."
+    }
+   ],
+   "docs": "Food hygiene training completion certificate, facility layout, business registration application",
+   "period": "Statutory: registration decision notified within 3 days / In practice, depends on the facility construction period",
+   "href": "#term-fm-facility-standard"
+  },
+  {
+   "id": "sit-fm-instant-sale",
+   "q": "If I sell side dishes I make in my shop and also supply them to other businesses, is an instant sale manufacturing and processing business report enough?",
+   "conclusion": "The food manufacturing and processing business requires registration, while the instant sale manufacturing and processing business (즉석판매제조가공업) requires a report, and the two differ in how they operate and whom they sell to. The business type depends on your sales channels and production scale, so confirm the product type and sales route first.",
+   "branches": [
+    {
+     "when": "You supply or distribute your products to other businesses",
+     "then": "Consider food manufacturing and processing business registration. Processing for sale to institutional food service facilities also requires registration."
+    },
+    {
+     "when": "You make products at your premises and sell them to consumers on the spot",
+     "then": "Check whether an instant sale manufacturing and processing business report applies."
+    }
+   ],
+   "docs": "Sales routes and product details, application or report form for the relevant business type",
+   "period": "Registration is notified within 3 days of the application date; a report follows the procedure for that business type",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-fm-new-product",
+   "q": "After food manufacturing business registration in Korea, do we need to file anything separately to launch a new product?",
+   "conclusion": "For a new product, submit an item manufacturing report to the registration authority before production starts or within 7 days after it starts. For contract manufacturing, the client files the report.",
+   "branches": [
+    {
+     "when": "It is a new product in the same food group",
+     "then": "File the item manufacturing report with the manufacturing method description and the statement of reasons for the use-by date, among other documents."
+    },
+    {
+     "when": "You added facilities for a new food group",
+     "then": "Apply for change registration within 7 days of the change and file the item manufacturing report."
+    },
+    {
+     "when": "You are changing an existing product's name, formulation ratio or use-by date",
+     "then": "File an item manufacturing change report within the same deadline."
+    }
+   ],
+   "docs": "Item manufacturing report, manufacturing method description, statement of reasons for the use-by date",
+   "period": "Statutory: before production starts or within 7 days after it starts",
+   "href": "#term-fm-item-report"
+  },
+  {
+   "id": "sit-fm-relocation",
+   "q": "If we move our food factory to another location in Korea, by when must we file change registration?",
+   "conclusion": "If you change the business location, apply for change registration within 7 days of the change. If only the trade name or floor area of the premises changes, file a change report within the same period.",
+   "branches": [
+    {
+     "when": "You are relocating the business premises",
+     "then": "Make sure the new premises meet the facility standards, then submit the change registration application."
+    },
+    {
+     "when": "Only the operator's name, trade name or floor area of the premises changes",
+     "then": "File a change report rather than change registration."
+    }
+   ],
+   "docs": "Change registration application or change report, business registration certificate, proof of the change",
+   "period": "Statutory: apply within 7 days of the change; the registration authority notifies processing within 3 days",
+   "href": "#term-fm-change-registration"
+  },
+  {
+   "id": "sit-fm-succession",
+   "q": "We took over an operating food factory in Korea. By when must we file the business operator status succession report?",
+   "conclusion": "The transferee, heir or merged corporation must submit a business operator status succession report to the registration authority within 1 month of succession. A party that acquires all business facilities through an auction, sale of seized property or the like also succeeds to the status.",
+   "branches": [
+    {
+     "when": "You acquired or inherited the business",
+     "then": "File the status succession report; the registration authority notifies acceptance within 3 days."
+    },
+    {
+     "when": "You acquired all business facilities through an auction or similar",
+     "then": "You succeed to the status and the previous operator's registration loses effect, so proceed with the succession report."
+    }
+   ],
+   "docs": "Business operator status succession report, proof of transfer, inheritance or merger, business registration certificate",
+   "period": "Statutory: report within 1 month of succession, acceptance notified within 3 days",
+   "href": "#term-fm-succession"
+  },
+  {
+   "id": "sit-fm-agent",
+   "q": "If we hire an administrative agent for food manufacturing business registration in Korea, what exactly do they handle?",
+   "conclusion": "We handle determining whether registration applies, document-based review of the facility standard items, scheduling guidance for hygiene training and health checks, preparation of the business registration application and filing with the registration authority, handling the facility check and supplementation, and item manufacturing reports, change registration and status succession reports. We do not handle facility design or construction, hygiene or quality management consulting, or assessments of whether food ingredients comply.",
+   "branches": [
+    {
+     "when": "You are registering for the first time",
+     "then": "We gather the attachments, file them with the registration authority, and respond to the facility check and supplementation requests."
+    },
+    {
+     "when": "You are an already registered operator",
+     "then": "We prepare and file item manufacturing reports, change registration and change reports, and status succession reports."
+    }
+   ],
+   "docs": "Letter of authorization, business registration application and attachments",
+   "period": "Statutory: registration decision notified within 3 days / In practice, depends on the readiness of the facilities",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {
+   "id": "term-fm-registration",
+   "term": "Food manufacturing and processing business registration (식품제조·가공업 영업등록)",
+   "def": "A statutory registration filed by a person intending to manufacture or process food with the city mayor, county head or district head with jurisdiction over the business premises (the Minister of Food and Drug Safety for liquor manufacturing)."
+  },
+  {
+   "id": "term-fm-facility-standard",
+   "term": "Facility standards (시설기준)",
+   "def": "Facility requirements by business type, covering building location, work area, food handling facilities, water supply, toilets, storage and similar facilities, testing room and transport facilities."
+  },
+  {
+   "id": "term-fm-hygiene-education",
+   "term": "Food hygiene training (식품위생교육)",
+   "def": "Divided into 8 hours of in-person training taken in advance by prospective operators and 3 hours of training taken every year by operators."
+  },
+  {
+   "id": "term-fm-item-report",
+   "term": "Item manufacturing report (품목제조보고)",
+   "def": "A report a registered operator submits to the registration authority before production starts or within 7 days after it starts when actually manufacturing or processing a food."
+  },
+  {
+   "id": "term-fm-change-registration",
+   "term": "Change registration (변경등록)",
+   "def": "A registration procedure carried out within 7 days of the change when changing the business location or adding facilities to manufacture a new food group."
+  },
+  {
+   "id": "term-fm-succession",
+   "term": "Business operator status succession report (영업자 지위승계 신고)",
+   "def": "A report filed with the registration authority within 1 month of succession by a party that has taken over a business through transfer, inheritance, merger or the like."
+  },
+  {
+   "id": "term-fm-self-inspection",
+   "term": "Self-quality testing (자가품질검사)",
+   "def": "The duty of a food manufacturer or processor to test, directly or through an outsourced body, whether its products meet the standards and specifications. Records are kept for 2 years."
+  }
+ ]
+}

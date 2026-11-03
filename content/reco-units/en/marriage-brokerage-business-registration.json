@@ -1,0 +1,195 @@
+{
+  "slug": "marriage-brokerage-business-registration",
+  "lang": "en",
+  "label": "Marriage brokerage business report and registration",
+  "kw": "International marriage brokerage business registration agent in Korea",
+  "answer": "International marriage brokerage business registration (국제결혼중개업 등록) is the registration that anyone who wants to broker marriages between Korean nationals and foreign nationals as a business files with the head of the si/gun/gu with jurisdiction over the main brokerage office, after completing training and securing capital of KRW 100 million or more per brokerage office, surety insurance (보증보험) and a brokerage office that meets the standards. A domestic marriage brokerage business (국내결혼중개업), which brokers marriages between Korean nationals, is reported after securing surety insurance and a brokerage office that meets the standards, and the processing period on the application form is 30 days. YouSun Administrative Agency prepares and files the report or registration application, the property list and other documents on your behalf.",
+  "services": [
+    {"name": "Preparing and filing the international marriage brokerage business registration application (국제결혼중개업 등록신청서)", "href": "#term-mb-international"},
+    {"name": "Preparing and filing the domestic marriage brokerage business report (국내결혼중개업 신고서)", "href": "#term-mb-domestic"},
+    {"name": "Preparing the property list (재산목록) confirming capital of KRW 100 million or more", "href": "#term-mb-capital"},
+    {"name": "Pre-review of the building use and right-of-use requirements for the brokerage office (중개사무소)", "href": "#term-mb-office"},
+    {"name": "Compiling attachments such as proof of surety insurance (보증보험) coverage", "href": "#term-mb-guarantee"},
+    {"name": "Checking whether the representative or staff fall under any grounds for disqualification or the ban on concurrent business (결격사유·겸업금지)", "href": "#term-mb-disqualification"},
+    {"name": "Preparing report and registration attachments such as articles of incorporation and the staff list", "href": "#svc-glance"},
+    {"name": "Preparing and filing the international change registration or domestic change report", "href": "#sit-mb-change"},
+    {"name": "Preparing and filing reports of suspension, closure or resumption of business", "href": "#sit-mb-close"},
+    {"name": "Preparing documents for each office when there are two or more brokerage offices", "href": "#sit-mb-branch"}
+  ],
+  "clients": [
+    "Sole proprietors and corporations starting a new international marriage brokerage business",
+    "Founders setting up a matchmaking (marriage information) company",
+    "Existing marriage brokers expanding from domestic to international matchmaking",
+    "Marriage brokers adding or relocating a brokerage office",
+    "Foreign nationals who want to run a marriage brokerage business in Korea"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Anyone who wants to broker marriages as a business for money or other consideration: a domestic marriage brokerage business (report) between Korean nationals, or an international marriage brokerage business (registration) between Korean nationals and foreign nationals"},
+    {"label": "Requirements", "value": "Both: surety insurance coverage, a brokerage office with secured right of use in a building listed in the building register as a Class 1 or Class 2 neighborhood living facility, a neighborhood living facility within a sales facility, or a general business facility, and no grounds for disqualification or concurrent business ban / International additionally: completion of statutory training, and capital (asset valuation for individuals) of KRW 100 million or more per brokerage office held on an ongoing basis"},
+    {"label": "Process", "value": "Secure a brokerage office → take out surety insurance (for international: also complete training and secure capital) → submit the report or registration application → notice of acceptance → report certificate or registration certificate issued"},
+    {"label": "Documents", "value": "Report or registration application, articles of incorporation (corporations), proof that a foreign applicant has no grounds for disqualification, staff list, proof of surety insurance coverage, proof of the brokerage office / International additionally: copy of the training completion certificate, property list confirming capital of KRW 100 million or more"},
+    {"label": "Timeline", "value": "30 days per the application form (for a domestic report, notice of acceptance within 30 days; if no notice is given, the report is deemed accepted on the day after the period ends)"}
+  ],
+  "chooser": [
+    {"label": "Starting a new international marriage brokerage business", "target": "sit-mb-international-setup"},
+    {"label": "Opening a domestic matchmaking company", "target": "sit-mb-domestic-setup"},
+    {"label": "Meeting the capital requirement as a sole proprietor", "target": "sit-mb-capital-individual"},
+    {"label": "Still choosing an office building", "target": "sit-mb-office-building"},
+    {"label": "Opening an additional brokerage office", "target": "sit-mb-branch"}
+  ],
+  "situations": [
+    {
+      "id": "sit-mb-international-setup",
+      "q": "What do I need to have in place before registering an international marriage brokerage business in Korea?",
+      "conclusion": "Before registering an international marriage brokerage business, you must complete the statutory training and have capital of KRW 100 million or more per brokerage office, surety insurance, and a brokerage office that meets the building use requirements. Then submit the registration application to the head of the si/gun/gu with jurisdiction over the main brokerage office.",
+      "branches": [
+        {"when": "You have not yet completed the training", "then": "Complete the training first and obtain the training completion certificate."},
+        {"when": "You have completed the training and have the capital and office in place", "then": "Take out surety insurance, prepare the property list and attachments, and apply for registration."}
+      ],
+      "docs": "Registration application, copy of the training completion certificate, property list (confirming capital of KRW 100 million or more), proof of surety insurance coverage, proof of the brokerage office, staff list, articles of incorporation (corporations)",
+      "period": "30 days per the application form / in practice, time to complete training and secure an office is added",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-mb-domestic-setup",
+      "q": "Is a report enough to set up a matchmaking company in Korea that introduces Korean nationals to each other?",
+      "conclusion": "A domestic marriage brokerage business serving Korean nationals requires a report rather than registration. Take out surety insurance, secure a brokerage office that meets the building use requirements, and report to the competent head of the si/gun/gu.",
+      "branches": [
+        {"when": "All members are Korean nationals", "then": "Submit the domestic marriage brokerage business report and attachments."},
+        {"when": "You also want to broker marriages for foreign members", "then": "This is an international marriage brokerage business, so you must meet the training and capital requirements and register."}
+      ],
+      "docs": "Report form, articles of incorporation (corporations), staff list, proof of surety insurance coverage, proof of the brokerage office",
+      "period": "Notice of acceptance within 30 days of receipt of the report; if no notice is given, the report is deemed accepted on the day after the period ends",
+      "href": "#term-mb-domestic"
+    },
+    {
+      "id": "sit-mb-capital-individual",
+      "q": "How do I prove the KRW 100 million capital requirement for an international marriage brokerage business in Korea as a sole proprietor?",
+      "conclusion": "If you are not a corporation, you must hold KRW 100 million or more in asset valuation, and attach a property list confirming this to the registration application. This amount must continue to be held after registration.",
+      "branches": [
+        {"when": "You are a sole proprietor", "then": "Prepare the property list based on asset valuation and attach supporting evidence."},
+        {"when": "You are a corporation", "then": "Have the corporation's capital of KRW 100 million or more confirmed through the property list."}
+      ],
+      "docs": "Property list (confirming capital of KRW 100 million or more), registration application, copy of the training completion certificate, proof of surety insurance coverage",
+      "period": "30 days per the application form",
+      "href": "#term-mb-capital"
+    },
+    {
+      "id": "sit-mb-office-building",
+      "q": "Can I put my marriage brokerage office in an officetel or a house in Korea?",
+      "conclusion": "The brokerage office must be in a building listed in the building register as a Class 1 neighborhood living facility, Class 2 neighborhood living facility, neighborhood living facility within a sales facility, or general business facility. Check the use stated in the building register before signing a contract.",
+      "branches": [
+        {"when": "The use in the building register is one of the facilities above", "then": "Secure the right of use through ownership, jeonse, lease or loan for use, and submit proof."},
+        {"when": "The building is listed for another use, such as housing", "then": "It does not meet the office requirement and the filing may be returned, so look at other buildings."}
+      ],
+      "docs": "Building register, proof of the brokerage office such as the lease agreement",
+      "period": "30 days per the application form / in practice, the time to secure an office is added",
+      "href": "#term-mb-office"
+    },
+    {
+      "id": "sit-mb-period",
+      "q": "How long does international marriage brokerage business registration take in Korea?",
+      "conclusion": "The processing period on the application form is 30 days. Training, securing an office, taking out surety insurance and preparing the property list must be done before applying, so that time is separate.",
+      "branches": [
+        {"when": "You applied with all requirements and documents in place", "then": "You receive the registration certificate after the notice of acceptance."},
+        {"when": "You received a supplement request", "then": "The schedule grows by the time needed for the supplement."}
+      ],
+      "docs": "Registration application, copy of the training completion certificate, property list, proof of surety insurance coverage, proof of the brokerage office, staff list",
+      "period": "30 days per the application form / in practice, depends on any supplement requests",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-mb-cost",
+      "q": "Which requirements should I check first to estimate the cost of international marriage brokerage registration in Korea?",
+      "conclusion": "Among the statutory requirements, the heaviest are holding capital of KRW 100 million or more per brokerage office, taking out surety insurance, and securing an office that meets the building use requirements. Deciding first how many offices you will have sets the capital and the scope of documents.",
+      "branches": [
+        {"when": "You will have only 1 brokerage office", "then": "Prepare on the basis of capital of KRW 100 million or more, surety insurance and 1 office."},
+        {"when": "You will have 2 or more brokerage offices", "then": "Meet the capital requirement and prepare documents for each office."}
+      ],
+      "docs": "Property list, proof of surety insurance coverage, proof of the brokerage office, copy of the training completion certificate",
+      "period": "30 days per the application form",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-mb-branch",
+      "q": "Do I need to submit separate documents to open another marriage brokerage office in Korea?",
+      "conclusion": "If there are 2 or more brokerage offices, documents are submitted for each brokerage office. For an international marriage brokerage business, the capital requirement of KRW 100 million or more must also be met for each brokerage office.",
+      "branches": [
+        {"when": "You are adding an international marriage brokerage office", "then": "Meet the capital, surety insurance and office requirements for the additional office and submit documents for each office."},
+        {"when": "You are adding a domestic marriage brokerage office", "then": "Submit documents for each office showing the surety insurance and office requirements are met."}
+      ],
+      "docs": "Report or registration application for each office, proof of surety insurance coverage, proof of the brokerage office, property list (international)",
+      "period": "30 days per the application form",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-mb-foreign-owner",
+      "q": "Do I need extra documents to report a marriage brokerage business in Korea if the representative is a foreign national?",
+      "conclusion": "If the applicant is a foreign national, documents proving that they do not fall under any grounds for disqualification are attached in addition. All other requirements and documents are the same as for Korean nationals.",
+      "branches": [
+        {"when": "You are reporting a domestic marriage brokerage business", "then": "Submit the report form, proof of no grounds for disqualification, and the surety insurance and office documents."},
+        {"when": "You are registering an international marriage brokerage business", "then": "Add a copy of the training completion certificate and the property list to the same documents."}
+      ],
+      "docs": "Proof of no grounds for disqualification, report or registration application, staff list, proof of surety insurance coverage, proof of the brokerage office",
+      "period": "30 days per the application form / in practice, time to obtain certificates from abroad is added",
+      "href": "#term-mb-disqualification"
+    },
+    {
+      "id": "sit-mb-side-business",
+      "q": "I run a job placement agency in Korea. Can I also run a marriage brokerage business?",
+      "conclusion": "Job placement business operators under the Employment Security Act (직업안정법), temporary staffing business owners, and overseas emigration brokers cannot carry out a marriage brokerage business.",
+      "branches": [
+        {"when": "You run a job placement, temporary staffing or overseas emigration brokerage business", "then": "This falls under the concurrent business ban, so reporting or registering a marriage brokerage business is difficult."},
+        {"when": "You do not run any of those businesses", "then": "Check that no other grounds for disqualification apply, meet the requirements and apply."}
+      ],
+      "docs": "Report or registration application, staff list, proof of surety insurance and the office",
+      "period": "30 days per the application form",
+      "href": "#term-mb-disqualification"
+    },
+    {
+      "id": "sit-mb-change",
+      "q": "Do I need a change registration if I move the office after registering an international marriage brokerage business in Korea?",
+      "conclusion": "For an international marriage brokerage business, changing important registered matters specified by Ordinance of the Ministry of Gender Equality and Family (성평등가족부) requires a change registration, and for a domestic marriage brokerage business you file a change report.",
+      "branches": [
+        {"when": "Important matters of an international marriage brokerage business change", "then": "Submit the change registration application and proof of the changes."},
+        {"when": "Reported matters of a domestic marriage brokerage business change", "then": "File a change report; you are notified within 30 days whether it is accepted."}
+      ],
+      "docs": "Change registration application or change report, proof of the changes (such as proof of the right to use the new office), registration certificate or report certificate",
+      "period": "Domestic change report: notice of acceptance within 30 days / change registration depends on the authority's review and any supplement requests",
+      "href": "#term-mb-international"
+    },
+    {
+      "id": "sit-mb-close",
+      "q": "Where do I report if I want to pause or close my marriage brokerage business in Korea?",
+      "conclusion": "A marriage broker who suspends or closes the business, or resumes business after a suspension, must report to the competent head of the si/gun/gu.",
+      "branches": [
+        {"when": "You are suspending the business", "then": "File a suspension report, and file a resumption report when you reopen."},
+        {"when": "You are closing the business", "then": "File a closure report."}
+      ],
+      "docs": "Suspension, closure or resumption report form, registration certificate or report certificate",
+      "period": "Depends on the competent authority's schedule",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-mb-agent",
+      "q": "If I hire an administrative agent for international marriage brokerage registration in Korea, what do they handle?",
+      "conclusion": "Once engaged by you, YouSun Administrative Agency prepares the report or registration application, the property list and other documents, reviews the office use, disqualification and concurrent business requirements, handles submission to the competent authority and supplement requests, and files change, suspension and closure reports. We do not carry out marriage brokerage itself, such as introducing or matching partners, take out surety insurance for you, or handle accounting and tax, and the competent authority decides on acceptance and the outcome.",
+      "branches": [
+        {"when": "Before you find an office", "then": "We review the building register use and right-of-use requirements before you sign a contract."},
+        {"when": "The requirements are met", "then": "We prepare and compile the property list and attachments and submit them."}
+      ],
+      "docs": "Training completion certificate, asset and capital records, surety insurance policy, office lease records, staff list",
+      "period": "30 days per the application form",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-mb-business", "term": "Marriage brokerage business (결혼중개업)", "def": "Brokering marriages as a business in exchange for fees, membership dues or other money or valuables."},
+    {"id": "term-mb-domestic", "term": "Domestic marriage brokerage business (국내결혼중개업)", "def": "A marriage brokerage business serving persons with Korean nationality; it is reported to the head of the si/gun/gu after securing surety insurance and a brokerage office that meets the standards."},
+    {"id": "term-mb-international", "term": "International marriage brokerage business (국제결혼중개업)", "def": "A marriage brokerage business serving persons with Korean nationality and foreign nationals; it must be registered after meeting the training, capital, surety insurance and brokerage office standards."},
+    {"id": "term-mb-capital", "term": "Capital requirement (자본금 요건)", "def": "Capital of KRW 100 million or more (asset valuation if not a corporation) that an international marriage broker must hold for each brokerage office, on an ongoing basis even after registration."},
+    {"id": "term-mb-guarantee", "term": "Surety insurance (보증보험)", "def": "Insurance that must be taken out as a standard for reporting or registering a marriage brokerage business; proof of coverage is attached."},
+    {"id": "term-mb-office", "term": "Brokerage office (중개사무소)", "def": "A marriage brokerage office with secured right of use in a building listed in the building register as a Class 1 or Class 2 neighborhood living facility, a neighborhood living facility within a sales facility, or a general business facility."},
+    {"id": "term-mb-disqualification", "term": "Grounds for disqualification and concurrent business ban (결격사유·겸업금지)", "def": "Minors, persons under adult or limited guardianship, persons serving a prison sentence without labor or heavier or under a suspended sentence, and others cannot run or work in a marriage brokerage business, and job placement business operators, temporary staffing business owners and overseas emigration brokers cannot carry out a marriage brokerage business."}
+  ]
+}

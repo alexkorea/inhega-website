@@ -1,0 +1,178 @@
+{
+  "slug": "entertainment-bar-business-permit",
+  "lang": "en",
+  "label": "Entertainment bar business permit",
+  "kw": "Entertainment bar business permit agent in Korea",
+  "answer": "An entertainment bar business permit (유흥주점 영업허가) is a food service business permit required for anyone who wants to run a business that mainly prepares and sells alcohol, employs entertainment staff or installs entertainment facilities, and lets customers sing or dance; unlike a general restaurant, it cannot be started by a report. You complete 6 hours of food hygiene training in advance, meet the facility standards, and submit the business permit application to the head of the si/gun/gu with jurisdiction over the premises; the processing period shown on the application form is 3 days. YouSun Administrative Agency prepares the business permit application and other documents and files them with the authority on your behalf.",
+  "services": [
+    {"name": "Determining the business type: entertainment bar business (유흥주점영업), karaoke bar or general restaurant", "href": "#term-eb-entertainment-bar"},
+    {"name": "Preparing and filing the entertainment bar business permit application", "href": "#svc-glance"},
+    {"name": "Preparing and filing the karaoke bar business (단란주점영업) permit application", "href": "#term-eb-danran"},
+    {"name": "Pre-review of facility standards and whether any permit restrictions apply", "href": "#sit-eb-building"},
+    {"name": "Checking for location conflicts under the Building Act, School Health Act, National Land Planning and Utilization Act and similar laws", "href": "#sit-eb-building"},
+    {"name": "Guidance on when to complete food hygiene training (식품위생교육)", "href": "#term-eb-education"},
+    {"name": "Filing a report of succession to business operator status (영업자 지위승계)", "href": "#term-eb-succession"},
+    {"name": "Applying for or reporting changes to permitted details (허가사항 변경): premises area, trade name, representative", "href": "#term-eb-change"},
+    {"name": "Supplementing documents before the on-site inspection", "href": "#sit-eb-period"}
+  ],
+  "clients": [
+    "Businesses opening a new club, nightclub or lounge bar",
+    "Businesses preparing a singing-focused karaoke bar",
+    "Businesses planning to acquire an entertainment bar in operation",
+    "Existing operators changing the premises area or trade name"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Entertainment bar businesses (entertainment staff and entertainment facilities, singing and dancing allowed) and karaoke bar businesses (singing allowed), the food service businesses that require a permit"},
+    {"label": "Requirements", "value": "Compliance with the facility standards under the Food Sanitation Act (식품위생법) (no locks on private rooms; safety facilities such as fire-fighting equipment and evacuation passages under the Multi-Use Business Establishments Act); 6 hours of food hygiene training before opening; no grounds for disqualification; not a business type restricted by the si/do governor"},
+    {"label": "Process", "value": "Complete food hygiene training → fit out premises meeting the facility standards → submit the business permit application → document review, on-site inspection and facility check → issuance of the business permit"},
+    {"label": "Documents", "value": "Business permit application; training completion certificate; water quality test report if groundwater is used; ferry or pleasure boat licence or report certificate for businesses on floating structures (the land use plan confirmation, building register, electrical safety inspection confirmation and safety facilities completion certificate are checked through shared administrative information)"},
+    {"label": "Timeline", "value": "3 days at the Special Self-Governing City, Special Self-Governing Province or si/gun/gu per the application form; varies with the on-site inspection and any supplements"}
+  ],
+  "chooser": [
+    {"label": "Opening a dance club", "target": "sit-eb-club"},
+    {"label": "Opening a karaoke-style bar", "target": "sit-eb-danran"},
+    {"label": "Taking over an existing entertainment bar", "target": "sit-eb-transfer"},
+    {"label": "Expanding the premises area", "target": "sit-eb-area"},
+    {"label": "Checking first whether the building location is suitable", "target": "sit-eb-building"}
+  ],
+  "situations": [
+    {
+      "id": "sit-eb-club",
+      "q": "Do I need an entertainment bar permit to open a club where customers dance in Korea?",
+      "conclusion": "A business that mainly prepares and sells alcohol and allows customers to dance is an entertainment bar business and requires a permit. You cannot run that kind of business on a general restaurant report alone.",
+      "branches": [
+        {"when": "You install entertainment facilities such as a dance floor or sound system", "then": "Complete 6 hours of food hygiene training, meet the facility standards and fire safety facilities, and apply for the entertainment bar business permit."},
+        {"when": "Alcohol is sold only incidentally with meals", "then": "Judge from the operating model whether a general restaurant report applies."}
+      ],
+      "docs": "Business permit application; training completion certificate; water quality test report (if groundwater is used)",
+      "period": "3 days at the si/gun/gu per the application form / in practice, it depends on the on-site inspection and supplements",
+      "href": "#term-eb-entertainment-bar"
+    },
+    {
+      "id": "sit-eb-danran",
+      "q": "If customers can only sing at my bar in Korea, do I need a karaoke bar permit rather than an entertainment bar permit?",
+      "conclusion": "A business that mainly prepares and sells alcohol and allows customers only to sing is a karaoke bar business, which, like an entertainment bar, requires a permit from the head of the si/gun/gu. If you employ entertainment staff or allow dancing, it becomes an entertainment bar business.",
+      "branches": [
+        {"when": "You allow only singing, without entertainment staff", "then": "Apply for a karaoke bar business permit; food hygiene training before opening is 6 hours."},
+        {"when": "You want to employ entertainment staff or let customers dance", "then": "Apply for an entertainment bar business permit."}
+      ],
+      "docs": "Business permit application; training completion certificate; water quality test report (if groundwater is used)",
+      "period": "3 days at the si/gun/gu per the application form / in practice, it depends on the on-site inspection and supplements",
+      "href": "#term-eb-danran"
+    },
+    {
+      "id": "sit-eb-lounge",
+      "q": "Does a lounge bar or pub with music in Korea need an entertainment bar permit, or is a general restaurant report enough?",
+      "conclusion": "It is judged by the operating model, not the name. If you employ entertainment staff or install entertainment facilities and customers may sing or dance, it is an entertainment bar business; if drinking is allowed only incidentally with meals, a general restaurant report applies.",
+      "branches": [
+        {"when": "You have a DJ booth or dance space and let customers dance", "then": "Meet the entertainment bar business permit requirements (6 hours of training, facility standards, fire safety facilities)."},
+        {"when": "You serve food and alcohol together without dancing or singing", "then": "Consider whether a general restaurant report applies."}
+      ],
+      "docs": "Operating plan (space layout and menu); business permit application or business report",
+      "period": "Permit: 3 days at the si/gun/gu per the application form / in practice, it depends on the business type assessment and supplements"
+    },
+    {
+      "id": "sit-eb-building",
+      "q": "Before signing a lease for an entertainment bar in Korea, what should I check to know whether a permit can be granted there?",
+      "conclusion": "According to the notes on the application form, there must be no violation of or conflict with related laws such as the Building Act, the School Health Act and the National Land Planning and Utilization Act, and no permit is granted for a business type restricted by the si/do governor's designation and notice. Check the building use and location before signing.",
+      "branches": [
+        {"when": "There are no conflicts with the building use or location", "then": "Plan the facility standards and fire safety facilities, then proceed with the lease and works."},
+        {"when": "Location restrictions may apply, for example near a school", "then": "Hold off on the lease until you confirm whether related laws are breached."}
+      ],
+      "docs": "Land use plan confirmation; building register; details of the building you plan to lease",
+      "period": "Pre-check stage before applying for the permit",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-eb-fire",
+      "q": "What fire safety and private room standards must an entertainment bar in Korea meet to obtain a permit?",
+      "conclusion": "An entertainment bar must have fire-fighting equipment under the Multi-Use Business Establishments Act and safety facilities such as evacuation passages inside the premises, and private rooms may not have locks. At the permit stage, the safety facilities completion certificate and electrical safety inspection confirmation are checked.",
+      "branches": [
+        {"when": "Interior works have not started", "then": "Agree with your contractor to reflect evacuation passages, fire equipment layout and the ban on room locks in the design."},
+        {"when": "Works are complete", "then": "Obtain the safety facilities completion certificate and electrical safety inspection confirmation, then apply for the permit."}
+      ],
+      "docs": "Safety facilities completion certificate; electrical safety inspection confirmation (checked through shared administrative information); business permit application",
+      "period": "3 days at the si/gun/gu per the application form / in practice, time to obtain the fire safety completion certificate comes first",
+      "href": "#term-eb-safety"
+    },
+    {
+      "id": "sit-eb-transfer",
+      "q": "When an entertainment bar in Korea is sold, does the buyer get a new permit or file a succession report?",
+      "conclusion": "The buyer of the business succeeds to the former operator's status, so they file a report of succession to business operator status rather than obtaining a new permit. The report must be filed within 1 month of the succession, and the authority notifies whether it is accepted within 3 days of receipt.",
+      "branches": [
+        {"when": "You acquired the business through a transfer agreement", "then": "File the succession report within 1 month, and also check the food hygiene training requirement for the transferee."},
+        {"when": "You acquired all the business facilities through an auction or public sale", "then": "You also succeed to the status in this case, so file the report within 1 month."}
+      ],
+      "docs": "Report of succession to business operator status and the attachments required by the competent authority; training completion certificate",
+      "period": "Report within 1 month of succession; notification of acceptance within 3 days of receipt",
+      "href": "#term-eb-succession"
+    },
+    {
+      "id": "sit-eb-area",
+      "q": "Do I need a change permit to enlarge or reduce the premises area of an entertainment bar in Korea?",
+      "conclusion": "A change in premises area requires a change report, not a change permit: submit the application/report for changes to permitted details to the permitting authority within 7 days of the change. Moving the business location requires a change permit.",
+      "branches": [
+        {"when": "You change only the area at the same location", "then": "File a change report within 7 days; the authority also checks the safety facilities completion certificate."},
+        {"when": "You move the business to another location", "then": "You need a change permit and must prepare the documents again for the new location."}
+      ],
+      "docs": "Application/report for changes to permitted details; safety facilities completion certificate (checked through shared administrative information)",
+      "period": "Area change: report within 7 days of the change",
+      "href": "#term-eb-change"
+    },
+    {
+      "id": "sit-eb-period",
+      "q": "How long does an entertainment bar permit take in Korea, and can I open as soon as I apply?",
+      "conclusion": "The processing period on the application form is 3 days at the Special Self-Governing City, Special Self-Governing Province or si/gun/gu level, but you can open only after the document review, on-site inspection and facility check, once the business permit is issued. Supplements extend the period.",
+      "branches": [
+        {"when": "Training and facility and fire safety preparations are complete", "then": "After applying, you receive the business permit following the on-site inspection."},
+        {"when": "The on-site inspection finds the facilities non-compliant", "then": "Upgrade the facilities and have them checked again."}
+      ],
+      "docs": "Business permit application; training completion certificate; water quality test report where applicable",
+      "period": "3 days at the si/gun/gu per the application form / in practice, it depends on the on-site inspection and supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-eb-cost",
+      "q": "How much does an entertainment bar business permit cost in Korea, and which preparations generate costs?",
+      "conclusion": "Most permit preparation costs come from works to meet the facility standards and the fire safety facilities under the Multi-Use Business Establishments Act, and from completing food hygiene training. Interior design and construction and fire equipment installation belong to specialist contractors.",
+      "branches": [
+        {"when": "You take over a former entertainment bar site", "then": "Check whether the existing facilities meet the standards and whether you can proceed by a succession report."},
+        {"when": "You are building out new premises", "then": "Reflect the evacuation passage, fire equipment and room layout standards before the works to avoid rework."}
+      ],
+      "docs": "Business permit application; training completion certificate; facility layout materials",
+      "period": "3 days at the si/gun/gu per the application form / in practice, construction takes most of the time"
+    },
+    {
+      "id": "sit-eb-revoked",
+      "q": "Can I open an entertainment bar again at a site where the previous business permit was revoked in Korea?",
+      "conclusion": "If less than 6 months have passed since a business permit was revoked, a permit for the same type of business at the same location is restricted. Even after that period, check the facility standards and other grounds for disqualification again.",
+      "branches": [
+        {"when": "Less than 6 months have passed since the revocation", "then": "A permit for the same location and business type cannot be obtained, so adjust your schedule."},
+        {"when": "6 months have passed", "then": "Complete training, meet the facility standards and fire safety facilities, and apply for a new business permit."}
+      ],
+      "docs": "Business permit application; training completion certificate; records of sanctions against the previous business",
+      "period": "Restricted for 6 months from the revocation / thereafter 3 days at the si/gun/gu per the application form"
+    },
+    {
+      "id": "sit-eb-agency",
+      "q": "If I hire an administrative agent for an entertainment bar business permit in Korea, what will they handle?",
+      "conclusion": "YouSun Administrative Agency handles the business type determination, pre-checks on location and facility standards, preparation and filing of the business permit application with the si/gun/gu, supplement responses, succession reports and reports of changes to permitted details. We do not handle interior design or construction, fire equipment installation, or tax filings.",
+      "branches": [
+        {"when": "You have not yet signed a lease for the building", "then": "We first check the building use, location conflicts and whether any permit restriction applies."},
+        {"when": "Facility works are complete", "then": "We prepare and file the application with the training certificate and documents, and sort out supplements before the on-site inspection."}
+      ],
+      "docs": "Identification documents; lease agreement; premises drawings; training completion certificate",
+      "period": "3 days at the si/gun/gu per the application form / in practice, it depends on preparation and supplement time",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-eb-entertainment-bar", "term": "Entertainment bar business (유흥주점영업)", "def": "A business that mainly prepares and sells alcohol, may employ entertainment staff or install entertainment facilities, and allows customers to sing or dance."},
+    {"id": "term-eb-danran", "term": "Karaoke bar business (단란주점영업)", "def": "A business that mainly prepares and sells alcohol and allows customers to sing."},
+    {"id": "term-eb-hostess", "term": "Entertainment staff (유흥종사자)", "def": "Staff working in an entertainment bar business; they must complete 2 hours of food hygiene training every year."},
+    {"id": "term-eb-education", "term": "Food hygiene training (식품위생교육)", "def": "Training that anyone intending to operate must complete in advance; it is 6 hours for entertainment bar and karaoke bar businesses and may be taken after opening if there is an unavoidable reason."},
+    {"id": "term-eb-safety", "term": "Safety facilities completion certificate (안전시설등 완비증명서)", "def": "A document issued by the head of the fire headquarters or fire station under the Multi-Use Business Establishments Act certifying that safety facilities such as fire-fighting equipment are in place."},
+    {"id": "term-eb-succession", "term": "Succession to business operator status (영업자 지위승계)", "def": "A person who acquires a business, or all of its facilities through an auction or similar process, taking over the former operator's status; it is reported within 1 month."},
+    {"id": "term-eb-change", "term": "Changes to permitted details (허가사항 변경)", "def": "The procedure under which a change of business location requires a change permit, and changes to the operator's name, trade name or premises area require a change report within 7 days of the change."}
+  ]
+}

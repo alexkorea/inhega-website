@@ -1,0 +1,184 @@
+{
+ "slug": "travel-agency-registration",
+ "lang": "en",
+ "label": "Travel Agency Registration",
+ "kw": "Travel agency registration agent in Korea",
+ "answer": "Travel agency registration (여행업 등록) is the registration filed by anyone intending to run a travel business with the mayor, county head or district head (head of an autonomous district) with jurisdiction over the office. A general travel agency needs capital of KRW 50 million or more, an overseas and domestic travel agency KRW 30 million or more, and a domestic travel agency KRW 15 million or more, plus ownership of or the right to use an office. Submit the tourism business registration application with a business plan, proof of paid-in capital and other documents; a registration certificate is issued if the registration standards are met, and before starting business you must take out surety insurance or deposit a business security deposit. YouSun Administrative Agency prepares and files the tourism business registration application.",
+ "services": [
+  {"name": "Preparing and filing the tourism business (travel agency) registration application (관광사업(여행업) 등록신청)", "href": "#term-ta-registration"},
+  {"name": "Choosing the travel agency type (general, overseas and domestic, domestic) and pre-checking capital and office standards (여행업 종류 선택)", "href": "#term-ta-types"},
+  {"name": "Drafting the business plan (사업계획서)", "href": "#svc-glance"},
+  {"name": "Preparing proof of paid-in capital (a statement of business assets for individuals) (자본금 납입 증명서류)", "href": "#term-ta-capital"},
+  {"name": "Preparing proof of office ownership or right of use (사무실 소유권·사용권 증명서류)", "href": "#sit-ta-office"},
+  {"name": "Pre-checking grounds for disqualification of the representative and officers (결격사유)", "href": "#term-ta-disqualification"},
+  {"name": "Preparing proof of no grounds for disqualification for foreign applicants (apostille or consular confirmation) (결격사유 부존재 증명서류)", "href": "#sit-ta-foreign"},
+  {"name": "Preparing proof of foreign investment for foreign-invested companies (외국인투자 증명서류)", "href": "#sit-ta-fdi"},
+  {"name": "Submitting proof of surety insurance or business security deposit (보증보험·영업보증금)", "href": "#term-ta-guarantee"},
+  {"name": "Applying for change registration (office relocation, new branch, trade name or representative change) (변경등록)", "href": "#term-ta-change"},
+  {"name": "Reporting succession to tourism business operator status (관광사업자 지위승계 신고)", "href": "#sit-ta-acquire"}
+ ],
+ "clients": [
+  "Individual founders and small companies planning domestic travel products",
+  "Founders of travel agencies selling overseas package tours and air tickets",
+  "Foreign-invested companies bringing foreign tourists into Korea (inbound)",
+  "Existing travel agencies needing change procedures for an office move, a new representative or an acquisition"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Individuals and companies intending to run a travel business (general travel agency, overseas and domestic travel agency, domestic travel agency)"},
+  {"label": "Requirements", "value": "Capital (paid-in capital for corporations, assessed assets for individuals) of KRW 50 million or more for a general travel agency, KRW 30 million or more for an overseas and domestic travel agency and KRW 15 million or more for a domestic travel agency; ownership of or right to use an office; no grounds for disqualification; surety insurance or a business security deposit before starting business"},
+  {"label": "Process", "value": "Prepare capital and office → Submit the tourism business registration application and documents → Registration certificate issued if the standards are met → Take out surety insurance or deposit a business security deposit before starting business → Submit proof without delay"},
+  {"label": "Documents", "value": "Tourism business registration application, business plan, proof of paid-in capital (for individuals, a statement of business assets with supporting evidence), proof of real estate ownership or right of use (if not confirmed by the registry), proof of foreign investment (foreign-invested companies)"},
+  {"label": "Timeline", "value": "A registration certificate is issued if the registration standards are met; the timing depends on the competent city, county or district office's review and any supplementation"}
+ ],
+ "chooser": [
+  {"label": "Starting a travel agency for the first time", "target": "sit-ta-how"},
+  {"label": "Unsure which travel agency type to choose", "target": "sit-ta-type-choice"},
+  {"label": "The representative is a foreign national", "target": "sit-ta-foreign"},
+  {"label": "Using a shared office or leased office", "target": "sit-ta-office"},
+  {"label": "Acquiring an existing travel agency", "target": "sit-ta-acquire"}
+ ],
+ "situations": [
+  {
+   "id": "sit-ta-how",
+   "q": "We are starting a travel agency in Korea for the first time. What is the step-by-step process for travel agency registration?",
+   "conclusion": "Decide the travel agency type, prepare the capital and office that fit it, and submit the tourism business registration application to the competent mayor, county head or district head. After receiving the registration certificate and before starting business, take out surety insurance or deposit a business security deposit and submit the proof without delay.",
+   "branches": [
+    {"when": "You start as a corporation", "then": "Submit proof of paid-in capital; the corporate register extract is checked through shared administrative information."},
+    {"when": "You start as an individual", "then": "The assessed value of assets provided to the business is treated as capital, so submit a statement of business assets with supporting evidence."}
+   ],
+   "docs": "Tourism business registration application, business plan, proof of paid-in capital or statement of business assets, proof of right to use the office (if needed)",
+   "period": "Registration certificate issued if the standards are met / In practice, depends on the competent city, county or district office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-period",
+   "q": "How long does travel agency registration take in Korea, from application to receiving the certificate?",
+   "conclusion": "If the application meets the registration standards, a registration certificate must be issued; the specific number of days depends on the competent city, county or district office's review and any supplementation. Even after registration, you must complete surety insurance or the deposit before starting business.",
+   "branches": [
+    {"when": "Capital and office documents are in place", "then": "Receive the registration certificate after review and proceed with surety insurance."},
+    {"when": "Proof of the office right of use or of no disqualification is insufficient", "then": "Submit supplementary documents and undergo review again."}
+   ],
+   "docs": "Tourism business registration application, business plan, proof of capital, office documents",
+   "period": "Depends on the competent city, county or district office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-cost",
+   "q": "How much does travel agency registration cost in Korea, and how much capital and surety insurance are needed?",
+   "conclusion": "The statutory requirements are capital and surety insurance. Capital must be KRW 50 million or more for a general travel agency, KRW 30 million for an overseas and domestic travel agency and KRW 15 million for a domestic travel agency. The surety insurance amount is set by the previous fiscal year's revenue, and in the year business starts it is KRW 20 million for a domestic travel agency, KRW 30 million for an overseas and domestic travel agency and KRW 50 million for a general travel agency.",
+   "branches": [
+    {"when": "You plan to run overseas planned tours (package products)", "then": "Additionally take out planned tour surety insurance or make the equivalent deposit."},
+    {"when": "You will not run planned tours", "then": "Prepare only surety insurance for damages related to performance of travel contracts, or a business security deposit."}
+   ],
+   "docs": "Proof of paid-in capital, surety insurance policy or proof of business security deposit",
+   "period": "Surety insurance must be taken out before starting business and maintained throughout the business period",
+   "href": "#term-ta-guarantee"
+  },
+  {
+   "id": "sit-ta-type-choice",
+   "q": "To sell overseas travel products in Korea, should we register as an overseas and domestic travel agency or a general travel agency?",
+   "conclusion": "An overseas and domestic travel agency serves Korean nationals traveling in Korea and abroad, while a general travel agency serves both Korean nationals and foreign nationals and includes acting on visa procedures. The type depends on whether you will serve foreign customers.",
+   "branches": [
+    {"when": "You only handle overseas travel by Korean nationals", "then": "Register as an overseas and domestic travel agency (capital of KRW 30 million or more)."},
+    {"when": "You also bring in foreign tourists or act on visa procedures", "then": "Register as a general travel agency (capital of KRW 50 million or more)."},
+    {"when": "You only handle domestic travel by Korean nationals", "then": "Register as a domestic travel agency (capital of KRW 15 million or more)."}
+   ],
+   "docs": "Tourism business registration application, business plan, proof of paid-in capital",
+   "period": "Depends on the competent city, county or district office's review and any supplementation",
+   "href": "#term-ta-types"
+  },
+  {
+   "id": "sit-ta-office",
+   "q": "Is a leased office or shared office accepted for travel agency registration in Korea?",
+   "conclusion": "The office requirement is ownership or right of use, so a leased office qualifies if you prove the right of use. If ownership or right of use cannot be confirmed from the registry extract, submit separate proof of the right of use.",
+   "branches": [
+    {"when": "Ownership or right of use is confirmed by the registry", "then": "The real estate register extract is checked through shared administrative information."},
+    {"when": "You have the right of use only through a lease or similar", "then": "Attach proof of right of use such as the lease."}
+   ],
+   "docs": "Proof of right to use the office, such as a lease",
+   "period": "Depends on the competent city, county or district office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-foreign",
+   "q": "How do we prepare proof of no disqualification to register a travel agency in Korea with a foreign representative?",
+   "conclusion": "A foreign applicant (for corporations, the representative and officers) must submit documents proving that no grounds for disqualification apply. Accepted are documents issued by the government of the relevant country, a statement notarized by a notary and confirmed by a consul at a Korean diplomatic mission, or documents with an apostille certificate.",
+   "branches": [
+    {"when": "Your home country is a party to the Apostille Convention", "then": "Prepare documents bearing an apostille certificate."},
+    {"when": "An apostille cannot be obtained", "then": "Prepare a notarized statement confirmed by a consul at a Korean diplomatic mission."}
+   ],
+   "docs": "Proof of no grounds for disqualification (government-issued document, consular-confirmed statement or apostille), tourism business registration application, business plan, proof of capital",
+   "period": "In practice, time to obtain and authenticate overseas documents comes first",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-fdi",
+   "q": "Are additional documents needed to register a travel agency in Korea as a foreign-invested company?",
+   "conclusion": "A foreign-invested company submits proof of foreign investment in addition to the standard attachments. If there is a foreign representative or officer, proof of no grounds for disqualification is also required.",
+   "branches": [
+    {"when": "There is a foreign representative or officer", "then": "Also prepare proof of no grounds for disqualification."},
+    {"when": "The representative and officers are all Korean nationals", "then": "Apply through the standard procedure, adding proof of foreign investment."}
+   ],
+   "docs": "Proof of foreign investment, tourism business registration application, business plan, proof of paid-in capital",
+   "period": "Depends on the competent city, county or district office's review and any supplementation",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-disqualification",
+   "q": "Can we register a travel agency in Korea again if our registration was cancelled in the past?",
+   "conclusion": "You cannot register within 2 years of a registration cancellation or business closure, and the same applies to a corporation if any officer falls under this. Persons within 2 years of completing (or being exempted from) a prison sentence of imprisonment without labor or heavier, and persons on a suspended sentence, also cannot register.",
+   "branches": [
+    {"when": "2 years have passed since the cancellation or closure", "then": "Check that no other grounds for disqualification apply and file a new application."},
+    {"when": "An officer falls under these grounds", "then": "Reorganize the officers before applying."}
+   ],
+   "docs": "Tourism business registration application, business plan, proof of capital, list of officers",
+   "period": "Apply after the restriction period ends; the review period varies by city, county or district office",
+   "href": "#term-ta-disqualification"
+  },
+  {
+   "id": "sit-ta-acquire",
+   "q": "If we acquire an operating travel agency in Korea, do we need a new travel agency registration?",
+   "conclusion": "A person who succeeds to the travel agency operator's status reports within 1 month of the date of succession. If the trade name, representative or office changes after the acquisition, apply for change registration within 30 days of the change.",
+   "branches": [
+    {"when": "You succeed to the status as is", "then": "File a succession report within 1 month."},
+    {"when": "You change the trade name, representative or office after the acquisition", "then": "Apply for change registration within 30 days."}
+   ],
+   "docs": "Succession report, proof of transfer, registration certificate, change registration application (if changing)",
+   "period": "Succession report within 1 month; change registration within 30 days",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-supplement",
+   "q": "Why are travel agency registration applications in Korea sent back for supplementation or rejected?",
+   "conclusion": "Typical reasons are capital below the standard, insufficient proof of office ownership or right of use, grounds for disqualification (including officers), and missing proof of no disqualification for foreign applicants.",
+   "branches": [
+    {"when": "Documents are insufficient", "then": "Supplement the proof of right of use and proof of no disqualification."},
+    {"when": "Capital falls short of the standard", "then": "Increase capital or choose a different travel agency type and apply."}
+   ],
+   "docs": "Details of the supplementation request, proof of capital, proof of right to use the office, proof of no disqualification",
+   "period": "In practice, depends on what must be supplemented",
+   "href": "#svc-glance"
+  },
+  {
+   "id": "sit-ta-agent",
+   "q": "If we hire an administrative agent for travel agency registration in Korea, what exactly do they handle?",
+   "conclusion": "YouSun Administrative Agency pre-reviews the travel agency type and capital and office standards, drafts the registration application and business plan, prepares attachments, files with the competent city, county or district office and handles supplementation, submits surety insurance proof, and files change registrations and succession reports. Registration is decided by the competent mayor, county head or district head.",
+   "branches": [
+    {"when": "You have not decided on a travel agency type", "then": "The agency first settles the type based on your customer base and product structure."},
+    {"when": "Capital and office are in place", "then": "The agency organizes and files the application and attachments."}
+   ],
+   "docs": "ID or corporate documents, proof of capital, office lease, letter of authorization",
+   "period": "Depends on the competent city, county or district office's review and any supplementation",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-ta-registration", "term": "Travel agency registration (여행업 등록)", "def": "Tourism business registration filed with the mayor, county head or district head (head of an autonomous district) by anyone intending to run a travel business."},
+  {"id": "term-ta-types", "term": "General, overseas and domestic, and domestic travel agency (종합여행업·국내외여행업·국내여행업)", "def": "The three travel agency types: a general travel agency serves both Korean and foreign nationals (including acting on visa procedures), an overseas and domestic travel agency serves Korean nationals traveling in Korea and abroad, and a domestic travel agency serves Korean nationals traveling within Korea."},
+  {"id": "term-ta-capital", "term": "Capital, assessed assets (자본금(자산평가액))", "def": "The amount that serves as the travel agency registration standard: paid-in capital for corporations and, for individuals, the assessed value of assets provided to the business to be registered."},
+  {"id": "term-ta-guarantee", "term": "Surety insurance and business security deposit (보증보험·영업보증금)", "def": "Surety insurance or similar taken out, or a business security deposit made, by a travel agency before starting business to cover damages related to performance of travel contracts; it must be maintained throughout the business period."},
+  {"id": "term-ta-planned-tour", "term": "Planned tour (기획여행)", "def": "A tour for travelers going abroad in which the travel agency sets the destination, itinerary, transport, accommodation and other services and the price in advance and recruits participants; running one requires additional planned tour surety insurance or a deposit."},
+  {"id": "term-ta-disqualification", "term": "Grounds for disqualification (결격사유)", "def": "Grounds on which a travel agency cannot be registered, such as being under adult guardianship or limited guardianship, undischarged bankruptcy, or less than 2 years since a registration cancellation or business closure; for corporations, they also apply to officers."},
+  {"id": "term-ta-change", "term": "Change registration (변경등록)", "def": "Registration filed within 30 days of the change when the office location changes, a branch is opened, or the trade name or representative changes."}
+ ]
+}

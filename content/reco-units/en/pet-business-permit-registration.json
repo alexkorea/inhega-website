@@ -1,0 +1,182 @@
+{
+  "slug": "pet-business-permit-registration",
+  "lang": "en",
+  "label": "Pet business permit and registration",
+  "kw": "Pet business permit and registration agent in Korea",
+  "answer": "Pet business licensing in Korea (반려동물 영업 등록) falls into two groups by business type. Animal breeding, import, sales and funeral businesses need a permit, while animal exhibition, boarding (consignment care), grooming and transport businesses need a registration. You complete 3 hours of training within 1 year before the application date, meet the facility and staffing standards, and apply to the head of the si/gun/gu with jurisdiction over the premises; the processing period shown on the application form is 15 days. YouSun Administrative Agency prepares the business permit or registration application and supporting documents and files them with the competent authority on your behalf.",
+  "services": [
+    {"name": "Determining the business type (whether a business permit or business registration (영업허가와 영업등록) applies)", "href": "#term-pet-permit-vs-registration"},
+    {"name": "Preparing and filing business permit applications for animal breeding, import, sales (동물판매업) and funeral businesses", "href": "#term-pet-sales"},
+    {"name": "Preparing and filing business registration applications for animal exhibition, boarding (동물위탁관리업), grooming and transport businesses", "href": "#term-pet-boarding"},
+    {"name": "Pre-review of compliance with facility and staffing standards", "href": "#svc-glance"},
+    {"name": "Preparing the premises facility specification, staffing status and deployment plan, and business plan", "href": "#svc-glance"},
+    {"name": "Guidance on when to complete pre-application training (영업 신청 전 교육)", "href": "#term-pet-education"},
+    {"name": "Handling supplement requests from the competent authority", "href": "#sit-pet-period"},
+    {"name": "Change permits, change registrations (변경허가·변경등록) and change reports", "href": "#term-pet-change"},
+    {"name": "Filing a report of succession to business operator status (영업자 지위승계)", "href": "#term-pet-succession"},
+    {"name": "Applying for animal breeding business permit renewal (동물생산업 갱신허가) (rules taking effect on October 28, 2027)", "href": "#term-pet-renewal"}
+  ],
+  "clients": [
+    "Prospective boarding business founders opening a dog hotel or dog daycare",
+    "Groomers starting a pet grooming salon or mobile grooming in a vehicle",
+    "Businesses breeding or selling pets, such as pet shops and breeders",
+    "Businesses planning to operate an animal funeral facility",
+    "Operators acquiring an existing pet business or changing its facilities"
+  ],
+  "glance": [
+    {"label": "Who needs it", "value": "Permit: animal breeding, animal import, animal sales and animal funeral businesses / Registration: animal exhibition, animal boarding, animal grooming and animal transport businesses"},
+    {"label": "Requirements", "value": "Facility and staffing standards for each business type (separated premises, lighting and ventilation, temperature and humidity control, water supply and drainage, disinfection equipment, fire-fighting equipment, fixed CCTV and so on); 3 hours of training completed within 1 year before the application date; no grounds for disqualification"},
+    {"label": "Process", "value": "Fix the business type → complete 3 hours of training → prepare premises meeting the facility and staffing standards → submit the application and attachments → issuance of the permit or registration certificate"},
+    {"label": "Documents", "value": "Business permit application or business registration application; premises facility specification and layout; staffing status and deployment plan; business plan; proof of meeting facility and staffing standards; proof of completed training"},
+    {"label": "Timeline", "value": "15 days per the application form (training and facility preparation time are separate, and supplement requests extend it)"}
+  ],
+  "chooser": [
+    {"label": "Opening a dog hotel or dog daycare", "target": "sit-pet-hotel"},
+    {"label": "Running mobile grooming from a vehicle", "target": "sit-pet-mobile-grooming"},
+    {"label": "Selling puppies or kittens in a pet shop", "target": "sit-pet-shop"},
+    {"label": "A breeder selling animals you breed yourself", "target": "sit-pet-breeder"},
+    {"label": "Taking over existing premises", "target": "sit-pet-transfer"}
+  ],
+  "situations": [
+    {
+      "id": "sit-pet-hotel",
+      "q": "I want to open a dog hotel in Korea. Do I need a permit or a registration, and are there staffing requirements?",
+      "conclusion": "A dog hotel or dog daycare that temporarily keeps, trains or protects pets is an animal boarding business, which requires a registration, not a permit. In addition to the facility standards, you need at least 1 staff member per 20 dogs or cats.",
+      "branches": [
+        {"when": "You will look after 20 dogs or cats or fewer", "then": "Have at least 1 staff member, meet the common facility standards (separated premises, ventilation and temperature/humidity control, disinfection equipment, fixed CCTV and so on) and submit the business registration application."},
+        {"when": "You plan to look after more than 20", "then": "Plan staffing at a ratio of at least 1 per 20 and reflect it in the staffing status documents."},
+        {"when": "You also want to sell animals, not only look after them", "then": "The sales side requires an animal sales business permit, so consider that permit separately from the boarding registration."}
+      ],
+      "docs": "Business registration application; premises facility specification and layout; staffing status and deployment plan; business plan; proof of meeting facility and staffing standards; proof of completed training",
+      "period": "15 days per the application form / in practice, training and facility preparation time come first",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-pet-mobile-grooming",
+      "q": "Do I need an animal grooming business registration to run mobile dog grooming from a vehicle in Korea?",
+      "conclusion": "Yes. Grooming using a vehicle is also subject to animal grooming business registration, and in that case the competent authority checks the vehicle registration certificate instead of the building register.",
+      "branches": [
+        {"when": "You operate only from a grooming vehicle", "then": "First check that the vehicle interior meets the facility standards, then prepare the registration application and facility specification based on the vehicle."},
+        {"when": "You run both a grooming salon and a grooming vehicle", "then": "Agree with the si/gun/gu how the salon and the vehicle are each treated as registration units, then prepare separate applications."}
+      ],
+      "docs": "Business registration application; facility specification and layout; staffing status; business plan; proof of completed training (the vehicle registration certificate is checked by the competent authority)",
+      "period": "15 days per the application form / in practice, vehicle conversion and equipment time are separate"
+    },
+    {
+      "id": "sit-pet-shop",
+      "q": "Do I need an animal sales business permit to buy and resell puppies or broker pet adoptions from a pet shop in Korea?",
+      "conclusion": "Yes. A business that buys and sells pets, or arranges or brokers their sale, is an animal sales business and requires a permit. The business plan must include a care and management plan.",
+      "branches": [
+        {"when": "You sell animals in a shop or arrange or broker sales online", "then": "Prepare the animal sales business permit application and a business plan including a care and management plan."},
+        {"when": "You sell animals you have bred yourself", "then": "That requires an animal breeding business permit, not a sales permit, so confirm the business type again."}
+      ],
+      "docs": "Business permit application; facility specification and layout; staffing status and deployment plan; business plan including a care and management plan; proof of meeting facility and staffing standards; proof of completed training",
+      "period": "15 days per the application form / in practice, it depends on any supplements",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-pet-breeder",
+      "q": "I am a dog breeder in Korea. Is it true that animal breeding business permits will have a validity period?",
+      "conclusion": "Under the amendment to the Animal Protection Act (동물보호법) promulgated on October 27, 2026, from October 28, 2027 an animal breeding business permit will be valid for 5 years from the date it is granted, and you must obtain a renewal permit to keep operating. Until October 27, 2027, permits are granted under the current rules without a validity period.",
+      "branches": [
+        {"when": "You already held an animal breeding business permit before October 28, 2027", "then": "You must obtain a renewal permit within 2 years after the effective date; if you do not, the permit is treated as expired."},
+        {"when": "You obtain a new permit on or after October 28, 2027", "then": "It is valid for 5 years from the permit date, and to keep operating after expiry you apply for a renewal permit. At renewal you are assessed on meeting the facility and staffing standards, compliance with operator obligations, and any related violations and corrections."},
+        {"when": "You are preparing to breed and sell without a permit yet", "then": "Complete 3 hours of training, meet the facility and staffing standards, then submit the business permit application."}
+      ],
+      "docs": "Business permit application; facility specification and layout; staffing status and deployment plan; business plan including a care and management plan; proof of meeting facility and staffing standards; proof of completed training",
+      "period": "New permit: 15 days per the application form / renewal for existing permit holders: within 2 years from October 28, 2027",
+      "href": "#term-pet-renewal"
+    },
+    {
+      "id": "sit-pet-cafe",
+      "q": "I want to open a dog cafe in Korea. How do I tell whether it needs animal exhibition business registration?",
+      "conclusion": "If the cafe shows 5 or more animals owned by the operator to customers, it requires animal exhibition business registration. The business type depends on whether only customers' own pets come in or whether the cafe exhibits its own animals.",
+      "branches": [
+        {"when": "The cafe exhibits 5 or more animals it owns", "then": "Register an animal exhibition business and also meet the standard of at least 1 staff member per 20 dogs or cats."},
+        {"when": "Only pets accompanying customers come in and the cafe has no animals of its own", "then": "It may not fall under the animal exhibition business, so describe the operating model and confirm the business type with the si/gun/gu first."},
+        {"when": "You look after customers' pets by the hour", "then": "Also consider whether animal boarding business registration applies."}
+      ],
+      "docs": "Business registration application; facility specification and layout; staffing status and deployment plan; business plan; proof of completed training",
+      "period": "15 days per the application form / in practice, time to agree the business type may be added"
+    },
+    {
+      "id": "sit-pet-education",
+      "q": "When and for how many hours must I complete pet business operator training before applying in Korea?",
+      "conclusion": "Before applying for a permit or registration, you must complete 3 hours of training within 1 year before the application date; not completing it is a ground for disqualification. After you start operating, you also take 3 hours of regular training every year.",
+      "branches": [
+        {"when": "More than 1 year has passed since your training", "then": "You do not meet the within-1-year requirement, so complete the training again before applying."},
+        {"when": "You are already operating with a permit or registration", "then": "Take 3 hours of regular training every year, starting from the year that includes the first anniversary of the permit or registration."}
+      ],
+      "docs": "Proof of completed training (attached to the application)",
+      "period": "3 hours of training before applying (within 1 year before the application date); 3 hours every year after you start operating"
+    },
+    {
+      "id": "sit-pet-period",
+      "q": "How long does animal boarding business registration take in Korea, from training to registration certificate?",
+      "conclusion": "The processing period on the business registration application form is 15 days. Time to complete training and prepare the premises is separate, so the actual schedule depends on how ready you are.",
+      "branches": [
+        {"when": "You have completed training and the facilities meet the standards", "then": "After you submit the application and attachments, the registration certificate is issued once the facilities are confirmed as compliant."},
+        {"when": "You receive a supplement request because the facility specification or staffing falls short", "then": "Submit the supplementary documents; the schedule extends by the time the supplement takes."}
+      ],
+      "docs": "Business registration application; premises facility specification and layout; staffing status and deployment plan; business plan; proof of meeting facility and staffing standards; proof of completed training",
+      "period": "15 days per the application form / in practice, training and facility preparation time come first",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-pet-cost",
+      "q": "How much does animal boarding business registration cost in Korea, and what are the cost items?",
+      "conclusion": "Costs fall broadly into the application fee, training, and equipment needed to meet the facility and staffing standards. The biggest difference comes from whether the premises already meet the common facility standards (disinfection equipment, fire-fighting equipment, fixed CCTV and so on).",
+      "branches": [
+        {"when": "You use an existing shop as it is", "then": "Compare the facility specification with the standards, add only the missing equipment and apply."},
+        {"when": "You are fitting out new premises", "then": "Check the facility and staffing standards before construction, set the layout to the standards, then proceed with works and the application in that order."}
+      ],
+      "docs": "Business registration application; facility specification and layout; staffing status; business plan; proof of completed training",
+      "period": "15 days per the application form / in practice, it depends on the time to upgrade equipment"
+    },
+    {
+      "id": "sit-pet-unregistered",
+      "q": "What happens if I am caught running a pet grooming or boarding business in Korea without registration?",
+      "conclusion": "Operating a business subject to registration without registering can lead to imprisonment of up to 1 year or a fine of up to KRW 10 million, and operating a business subject to a permit without one can lead to imprisonment of up to 2 years or a fine of up to KRW 20 million.",
+      "branches": [
+        {"when": "You are already operating but have not registered", "then": "Start by completing training and checking the facility and staffing standards, and apply for registration promptly."},
+        {"when": "You registered but changed facilities without a change registration", "then": "Failing to file a change registration is also a ground for cancellation or business suspension, so file a change registration or change report."}
+      ],
+      "docs": "Business registration application (or change registration application); facility specification and layout; staffing status; proof of completed training",
+      "period": "15 days per the application form / in practice, it depends on whether facilities need upgrading"
+    },
+    {
+      "id": "sit-pet-transfer",
+      "q": "I took over a dog grooming salon already in operation in Korea. Do I need a new registration, or can I succeed to the existing one?",
+      "conclusion": "If you acquired the business, you file a report of succession to business operator status rather than a new registration. If you also change the facilities or the location of the premises, consider a change registration or change report separately.",
+      "branches": [
+        {"when": "You take over the business with the facilities and location unchanged", "then": "File a report of succession to business operator status with the si/gun/gu."},
+        {"when": "You change the facilities after the takeover", "then": "Separately from the succession report, file a change registration, or a change report for minor matters."}
+      ],
+      "docs": "Report of succession to business operator status and the attachments required by the competent authority",
+      "period": "Depends on the competent authority's review and any supplements",
+      "href": "#term-pet-succession"
+    },
+    {
+      "id": "sit-pet-agency",
+      "q": "If I hire an administrative agent for pet business registration in Korea, what will they handle?",
+      "conclusion": "YouSun Administrative Agency handles the business type determination, pre-review of facility and staffing standards, preparation of the business permit or registration application, facility specification and business plan, filing with the si/gun/gu, and responses to supplement requests. The applicant completes the training personally, and we do not handle veterinary work or facility construction.",
+      "branches": [
+        {"when": "You are unsure whether your business needs a permit or a registration", "then": "We hear how you plan to operate, fix the business type and prepare the matching application."},
+        {"when": "You have not yet signed a lease for the premises or started works", "then": "We first compare your plans with the facility and staffing standards and point out missing items, and apply once the preparation is complete."}
+      ],
+      "docs": "Applicant's identification; lease documents for the premises; premises drawings and photos; staffing status; proof of completed training",
+      "period": "15 days per the application form / in practice, it depends on document preparation and supplement time",
+      "href": "#svc-glance"
+    }
+  ],
+  "glossary": [
+    {"id": "term-pet-permit-vs-registration", "term": "Business permit and business registration (영업허가와 영업등록)", "def": "The split among pet businesses: animal breeding, import, sales and funeral businesses need a permit, while animal exhibition, boarding, grooming and transport businesses need a registration."},
+    {"id": "term-pet-sales", "term": "Animal sales business (동물판매업)", "def": "A business that buys and sells pets or arranges or brokers their sale; it requires a permit."},
+    {"id": "term-pet-boarding", "term": "Animal boarding business (동물위탁관리업)", "def": "A business that temporarily keeps, trains or protects animals entrusted by pet owners; it requires a registration."},
+    {"id": "term-pet-exhibition", "term": "Animal exhibition business (동물전시업)", "def": "A business that exhibits 5 or more pets owned by the operator; it requires a registration."},
+    {"id": "term-pet-education", "term": "Pre-application training (영업 신청 전 교육)", "def": "Three hours of training on animal protection and prevention of public health hazards that must be completed within 1 year before the application date, before obtaining a permit or registration."},
+    {"id": "term-pet-renewal", "term": "Animal breeding business permit renewal (동물생산업 갱신허가)", "def": "A permit that anyone wishing to keep operating must obtain after the validity period of an animal breeding business permit, set at 5 years from October 28, 2027, expires."},
+    {"id": "term-pet-change", "term": "Change permit and change registration (변경허가·변경등록)", "def": "The procedure for changing permitted or registered details; minor matters are handled by a change report."},
+    {"id": "term-pet-succession", "term": "Succession to business operator status (영업자 지위승계)", "def": "A transferee or similar party taking over the former operator's status; it is reported to the competent authority."}
+  ]
+}

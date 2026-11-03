@@ -1,0 +1,362 @@
+{
+  "slug": "campground-business-registration",
+  "lang": "en",
+  "label": "Campground Business Registration",
+  "kw": "Campground business registration agent in Korea",
+  "answer": "Campground business registration (야영장업 등록) is the procedure for anyone who wants to let tourists use a campsite or auto campground to register it as a tourist-facility business under the Tourism Promotion Act (관광진흥법). After meeting the registration standards, such as a safe location, evacuation routes, management staff and at least 15 square meters per tent or 50 square meters per vehicle, you file the tourism business registration application with the competent city mayor, county head or district head. The processing period on the application form is 7 days, and it takes longer if permits under other laws must be confirmed or documents supplemented. YouSun Administrative Agency prepares and files the registration application and business plan.",
+  "services": [
+    {
+      "name": "Preparing and filing the tourism business (campground business) registration application (관광사업 등록신청)",
+      "href": "#term-cg-campground"
+    },
+    {
+      "name": "Drafting the business plan and facility list (사업계획서·시설별 일람표)",
+      "href": "#svc-glance"
+    },
+    {
+      "name": "Pre-checking the registration standards for location, safety facilities, management staff and area (등록기준)",
+      "href": "#term-cg-standard"
+    },
+    {
+      "name": "Determining whether the site is a general campground or an auto campground business (일반야영장업·자동차야영장업)",
+      "href": "#term-cg-auto"
+    },
+    {
+      "name": "Guidance on related permits under other laws such as building, farmland and mountain land",
+      "href": "#sit-cg-farmland"
+    },
+    {
+      "name": "Preparing attachments such as the pre-use electrical inspection certificate and water quality test report (사용전점검 확인증)",
+      "href": "#term-cg-electric"
+    },
+    {
+      "name": "Campground business change registration for site area, facility installation or removal, trade name and representative (변경등록)",
+      "href": "#term-cg-change"
+    },
+    {
+      "name": "Report of succession to tourism business operator status (지위승계 신고)",
+      "href": "#sit-cg-transfer"
+    },
+    {
+      "name": "Guidance on when to take out liability insurance and checks against safety and hygiene standards (야영장 책임보험)",
+      "href": "#term-cg-insurance"
+    },
+    {
+      "name": "Preparing documents in response to supplementation requests",
+      "href": "#sit-cg-docs"
+    }
+  ],
+  "clients": [
+    "Sole proprietors preparing to open a campsite on farmland or forest land",
+    "Corporations opening campgrounds with glamping or caravan facilities",
+    "Buyers taking over a campground already in operation",
+    "Existing campground operators adding sites or facilities",
+    "Operators who have been running a campground without registration"
+  ],
+  "glance": [
+    {
+      "label": "Who needs it",
+      "value": "General campground and auto campground businesses that let tourists use a site equipped with facilities and equipment suitable for camping and that provide camping conveniences (youth campgrounds are excluded)"
+    },
+    {
+      "label": "Requirements",
+      "value": "A safe location with no risk of flooding, washout or landslides; posted site layout and emergency instructions; emergency alert equipment; fire extinguishers; shelters and evacuation routes; management staff on site during opening hours; total building floor area under 10% of the entire site; at least 15 square meters per tent (general) or 50 square meters per vehicle (auto); no disqualification"
+    },
+    {
+      "label": "Process",
+      "value": "Confirm the location and permits under other laws → install facilities that meet the registration standards → file the registration application and documents → review → registration certificate issued → take out liability insurance before starting business"
+    },
+    {
+      "label": "Documents",
+      "value": "Tourism business registration application, business plan, document stating the applicant's name and resident registration number (for foreign nationals, documents proving no disqualification applies), facility floor plan and site layout, facility list, proof of permits under other laws, pre-use electrical inspection certificate, and a water quality test report if groundwater or similar is used as drinking water"
+    },
+    {
+      "label": "Timeline",
+      "value": "7 days on the registration application form (varies if permits under other laws must be confirmed or documents supplemented); change registration must be filed within 30 days of the change"
+    }
+  ],
+  "chooser": [
+    {
+      "label": "Opening a glamping site",
+      "target": "sit-cg-glamping"
+    },
+    {
+      "label": "Opening a caravan or camper van campground",
+      "target": "sit-cg-caravan"
+    },
+    {
+      "label": "Building a campsite on farmland or forest land",
+      "target": "sit-cg-farmland"
+    },
+    {
+      "label": "Taking over a campground in operation",
+      "target": "sit-cg-transfer"
+    },
+    {
+      "label": "Adding sites or facilities",
+      "target": "sit-cg-change"
+    },
+    {
+      "label": "Operating without registration so far",
+      "target": "sit-cg-unregistered"
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit-cg-glamping",
+      "q": "Do I need campground business registration in Korea to run a glamping site with pre-pitched tents?",
+      "conclusion": "If the business lets tourists use a site equipped with facilities and equipment suitable for camping and provides camping conveniences, it must be registered as a campground business even in glamping form. It must meet the general campground standards (such as at least 15 square meters per tent) and the common standards.",
+      "branches": [
+        {
+          "when": "The site mainly offers tent-type facilities",
+          "then": "Register after meeting the individual standards for a general campground: at least 15 square meters per tent, sewage facilities, toilets and a vehicle lane for emergency transport."
+        },
+        {
+          "when": "Buildings such as a management building or shower block are also built",
+          "then": "Check that the total building floor area is under 10% of the entire campground area."
+        },
+        {
+          "when": "It is a youth campground under the Youth Activity Promotion Act (청소년활동진흥법)",
+          "then": "It is excluded from campground businesses under the Tourism Promotion Act, so follow the procedure under that Act."
+        }
+      ],
+      "docs": "Tourism business registration application, business plan, facility floor plan and site layout, facility list, pre-use electrical inspection certificate, proof of permits under other laws",
+      "period": "7 days on the registration application form; in practice, time for facility installation and permits under other laws is added",
+      "href": "#term-cg-general"
+    },
+    {
+      "id": "sit-cg-caravan",
+      "q": "Is a campground in Korea that takes caravans and camper vans registered as an auto campground business?",
+      "conclusion": "If you provide space to park a vehicle and set up camping equipment next to it, plus facilities suitable for cooking and the like, for tourists traveling by car, it is an auto campground business. It requires at least 50 square meters of camping space per vehicle, plus water supply and sewage, electricity, toilets and cooking facilities.",
+      "branches": [
+        {
+          "when": "Guests park and camp beside their vehicles",
+          "then": "Register after meeting the individual standards for an auto campground and the common standards."
+        },
+        {
+          "when": "There is also an area for tents only, without vehicles",
+          "then": "Check whether that area also meets the general campground standard (at least 15 square meters per tent)."
+        }
+      ],
+      "docs": "Tourism business registration application, business plan, facility floor plan and site layout, facility list, pre-use electrical inspection certificate, water quality test report (if groundwater or similar is used as drinking water)",
+      "period": "7 days on the registration application form; in practice, it depends on whether supplementation is needed",
+      "href": "#term-cg-auto"
+    },
+    {
+      "id": "sit-cg-farmland",
+      "q": "Which permits should I check before campground business registration if I want to build a campsite on farmland or forest land in Korea?",
+      "conclusion": "Before campground business registration, first confirm and obtain the permits under other laws, such as building, farmland and mountain land laws, that allow a campground on that land. Proof of those permits is submitted with the registration application.",
+      "branches": [
+        {
+          "when": "Facilities are installed on farmland or mountain land",
+          "then": "Obtain the permits under those laws first, then lay out the facilities within that scope to meet the registration standards."
+        },
+        {
+          "when": "The land is in a conservation management area or conservation green area",
+          "then": "Additional requirements such as area limits apply, so first check whether facilities can be installed."
+        },
+        {
+          "when": "The location is at risk of flooding, landslides or falling rocks",
+          "then": "It does not meet the common standard of a safe location, so reconsider the site."
+        }
+      ],
+      "docs": "Land use records, proof of permits under other laws, facility floor plan and site layout",
+      "period": "In practice, the permit period under other laws drives the overall schedule (campground business registration itself is 7 days on the form)",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cg-building",
+      "q": "How much building space, such as a management building or shower block, can a campground in Korea have?",
+      "conclusion": "The total floor area of buildings at a campground must be under 10% of the entire campground area. Additional limits apply in conservation management areas and conservation green areas.",
+      "branches": [
+        {
+          "when": "The campground is in an ordinary area",
+          "then": "Design so that the combined floor area of all buildings, including the management building, showers and toilets, is under 10% of the entire area."
+        },
+        {
+          "when": "The land is in a conservation management area or conservation green area",
+          "then": "Meet the additional requirements such as area limits as well."
+        }
+      ],
+      "docs": "Facility floor plan and site layout, facility list",
+      "period": "In practice, meeting the area standards at the design stage reduces supplementation requests"
+    },
+    {
+      "id": "sit-cg-insurance",
+      "q": "By when must a registered campground in Korea take out liability insurance?",
+      "conclusion": "A registered campground operator must, before starting business, take out liability insurance or mutual aid coverage that compensates users for damage caused by disasters or safety accidents at the campground facilities.",
+      "branches": [
+        {
+          "when": "You have the registration certificate and are preparing to open",
+          "then": "Before opening, take out liability insurance that meets the standards, such as coverage of up to KRW 100 million per victim for death and up to KRW 100 million per accident for property damage."
+        },
+        {
+          "when": "The campground is already operating",
+          "then": "Check that the insurance remains in force along with the safety and hygiene standards that apply after registration, such as fire prevention standards."
+        }
+      ],
+      "docs": "Tourism business registration certificate, proof of liability insurance or mutual aid coverage",
+      "period": "Before starting business",
+      "href": "#term-cg-insurance"
+    },
+    {
+      "id": "sit-cg-docs",
+      "q": "Our campground uses groundwater for drinking water. What extra documents are needed for campground business registration in Korea?",
+      "conclusion": "In addition to the basic documents, if groundwater or other non-tap water is used as drinking water, you must submit a water quality test report issued by a drinking water testing agency. The pre-use electrical inspection certificate and proof of permits under other laws are also additional documents required for campground businesses.",
+      "branches": [
+        {
+          "when": "Groundwater or similar is used as drinking water",
+          "then": "Obtain a water quality test report and attach it."
+        },
+        {
+          "when": "There are LPG-using facilities",
+          "then": "The completion inspection certificate is checked by the authority through administrative information sharing."
+        },
+        {
+          "when": "The applicant or a corporate officer is a foreign national",
+          "then": "Submit documents proving that no disqualification applies."
+        }
+      ],
+      "docs": "Tourism business registration application, business plan, document stating the applicant's name and resident registration number, facility floor plan and site layout, facility list, proof of permits under other laws, pre-use electrical inspection certificate, water quality test report",
+      "period": "7 days on the registration application form; missing documents add time for supplementation",
+      "href": "#term-cg-electric"
+    },
+    {
+      "id": "sit-cg-change",
+      "q": "If we add campsites or facilities to our campground in Korea, do we need to file a change registration?",
+      "conclusion": "For campground businesses, changes in site area, installation or removal of facilities, and changes of trade name or representative require change registration, and the tourism business change registration application is filed within 30 days of the change.",
+      "branches": [
+        {
+          "when": "The site was expanded or new sites or amenities were installed",
+          "then": "File the change registration with proof of the change, and check that the added facilities meet the registration standards (area and building ratio)."
+        },
+        {
+          "when": "Gas-using facilities were installed or removed",
+          "then": "Also check whether an LPG-using facility completion inspection is required."
+        },
+        {
+          "when": "Only the trade name or representative changed",
+          "then": "Apply with the change registration application and proof of the change."
+        }
+      ],
+      "docs": "Tourism business change registration application, documents proving the change, updated floor plan and site layout",
+      "period": "File within 30 days of the change",
+      "href": "#term-cg-change"
+    },
+    {
+      "id": "sit-cg-transfer",
+      "q": "If I buy a campground that is already operating in Korea, do I need a new campground business registration?",
+      "conclusion": "When a tourism business is transferred, the buyer succeeds to the operator's rights and obligations and must report the succession to the competent registration authority within 1 month of the succession date.",
+      "branches": [
+        {
+          "when": "You acquired the business by transfer",
+          "then": "Check whether any disqualification applies to the buyer and file the succession report within 1 month."
+        },
+        {
+          "when": "You acquired all major facilities through an auction or similar",
+          "then": "You succeed to the operator's status, so report within the same deadline."
+        },
+        {
+          "when": "The previous operator has received an administrative sanction",
+          "then": "The effect of the sanction may carry over, so check before the acquisition."
+        }
+      ],
+      "docs": "Succession report, documents proving the transfer, documents confirming the buyer's disqualification status",
+      "period": "Report within 1 month of the succession date"
+    },
+    {
+      "id": "sit-cg-unregistered",
+      "q": "We have been running a campsite in Korea without registration. How can we register it now?",
+      "conclusion": "Running a campground business without registration is punishable by imprisonment of up to 2 years or a fine of up to KRW 20 million, so check against the registration standards, put any missing facilities in place and apply for registration right away.",
+      "branches": [
+        {
+          "when": "The site mostly meets the location, area and safety facility standards",
+          "then": "Add whatever is missing, such as evacuation routes, fire extinguishers or posted notices, and file the registration application."
+        },
+        {
+          "when": "Facilities were built without permits under other laws",
+          "then": "Permit issues under building, farmland or mountain land laws must be resolved first before registration."
+        }
+      ],
+      "docs": "Tourism business registration application, business plan, facility floor plan and site layout, facility list, proof of permits under other laws, pre-use electrical inspection certificate",
+      "period": "7 days on the registration application form; in practice, time for facility fixes and permits is added"
+    },
+    {
+      "id": "sit-cg-cost",
+      "q": "How much does campground business registration cost in Korea, and what should I prepare first?",
+      "conclusion": "Costs vary widely depending on how much permit work for the location and facility upgrades are needed, so the first step is to check permits under other laws and whether the registration standards are met. The processing period for the registration application itself is 7 days on the form.",
+      "branches": [
+        {
+          "when": "Permits and facilities are already in place",
+          "then": "The work centers on drafting and filing the registration application, business plan, plans and facility list."
+        },
+        {
+          "when": "Facilities need to be newly installed",
+          "then": "Design them to meet the area, building ratio and safety facility standards before construction."
+        }
+      ],
+      "docs": "Tourism business registration application, business plan, facility floor plan and site layout, facility list, pre-use electrical inspection certificate, proof of permits under other laws",
+      "period": "7 days on the form; in practice, the time for permits and facility preparation sets the overall schedule",
+      "href": "#svc-glance"
+    },
+    {
+      "id": "sit-cg-agent",
+      "q": "If I hire an administrative agent for campground business registration in Korea, what do they handle?",
+      "conclusion": "We pre-check the registration standards, draft the tourism business registration application, business plan and facility list, organize attachments and file them with the competent city, county or district office, handle supplementation, and file change registrations and succession reports. We do not design or build facilities, carry out fire or electrical safety inspections, or do land surveys.",
+      "branches": [
+        {
+          "when": "Registering for the first time",
+          "then": "We prepare and file the documents from checking the location and permits under other laws through to issuance of the registration certificate."
+        },
+        {
+          "when": "The campground is already operating",
+          "then": "We handle change registrations and succession reports, and provide guidance on safety and hygiene standards."
+        }
+      ],
+      "docs": "Land and building records, facility plans, applicant documents, records of permits under other laws",
+      "period": "7 days on the form; in practice, it depends on whether supplementation is needed"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term-cg-campground",
+      "term": "Campground business (야영장업)",
+      "def": "A tourist-facility business that lets tourists use a site equipped with facilities and equipment suitable for camping and provides camping conveniences; youth campgrounds are excluded."
+    },
+    {
+      "id": "term-cg-general",
+      "term": "General campground business (일반야영장업)",
+      "def": "A business that provides space for setting up camping equipment together with facilities suitable for camping for use by tourists."
+    },
+    {
+      "id": "term-cg-auto",
+      "term": "Auto campground business (자동차야영장업)",
+      "def": "A business that provides space to park a vehicle and set up camping equipment next to it, plus facilities suitable for cooking and the like, for tourists traveling by car."
+    },
+    {
+      "id": "term-cg-standard",
+      "term": "Registration standards (등록기준)",
+      "def": "The common and individual standards required for campground business registration, including a safe location, emergency alerts, fire extinguishers and evacuation routes, on-site management staff, the building ratio and the area per tent or vehicle."
+    },
+    {
+      "id": "term-cg-change",
+      "term": "Change registration (변경등록)",
+      "def": "Registration filed within 30 days of a change in site area, installation or removal of facilities, or a change of trade name or representative of a campground business."
+    },
+    {
+      "id": "term-cg-electric",
+      "term": "Pre-use electrical inspection certificate (사용전점검 확인증)",
+      "def": "A document confirming that the pre-use inspection under the Electrical Safety Management Act (전기안전관리법) has been passed; it is attached to the campground business registration application."
+    },
+    {
+      "id": "term-cg-insurance",
+      "term": "Campground liability insurance (야영장 책임보험)",
+      "def": "Insurance or mutual aid coverage that compensates users for damage caused by disasters or safety accidents at the campground facilities; it must be in place before starting business."
+    },
+    {
+      "id": "term-cg-safety",
+      "term": "Safety and hygiene standards (안전·위생기준)",
+      "def": "Operating standards, such as fire prevention standards, set by Ordinance of the Ministry of Culture, Sports and Tourism (문화체육관광부령) that a registered campground operator must follow."
+    }
+  ]
+}
