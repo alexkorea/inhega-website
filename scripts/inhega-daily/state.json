@@ -71,6 +71,48 @@
       "topic": "lbs",
       "angle": "change-report",
       "slug": "location-based-service-change-report"
+    },
+    {
+      "date": "2026-10-28",
+      "ran_on": "2026-10-28",
+      "topic": "logistics",
+      "angle": "succession",
+      "slug": "international-logistics-business-succession"
+    },
+    {
+      "date": "2026-10-29",
+      "ran_on": "2026-10-29",
+      "topic": "nonprofit",
+      "angle": "procedure",
+      "slug": "nonprofit-dissolution-liquidation-procedure"
+    },
+    {
+      "date": "2026-10-30",
+      "ran_on": "2026-10-30",
+      "topic": "quasi-drug",
+      "angle": "comparison",
+      "slug": "quasi-drug-vs-cosmetics-classification"
+    },
+    {
+      "date": "2026-10-31",
+      "ran_on": "2026-10-31",
+      "topic": "urban-guesthouse",
+      "angle": "change-report",
+      "slug": "urban-guesthouse-change-registration"
+    },
+    {
+      "date": "2026-11-01",
+      "ran_on": "2026-11-01",
+      "topic": "venture-cert",
+      "angle": "comparison",
+      "slug": "venture-confirmation-types-comparison"
+    },
+    {
+      "date": "2026-11-02",
+      "ran_on": "2026-11-02",
+      "topic": "license-agency",
+      "angle": "procedure",
+      "slug": "administrative-license-agency-procedure-flow"
     }
   ]
 }

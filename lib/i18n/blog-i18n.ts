@@ -6651,6 +6651,894 @@ const blogData: BlogI18n[] = [
 </div>
 <div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── international-logistics-business-succession (inhega-daily 2026-10-28) ──
+  {
+    slug: 'international-logistics-business-succession',
+    locale: 'en',
+    title: 'International Freight Forwarding Business Transfer in Korea — Succession Report Within 30 Days',
+    metaTitle: 'Freight Forwarding Business Transfer in Korea — Succession Report',
+    metaDescription: 'Acquiring a Korean freight forwarding business by transfer, merger or inheritance? Report the succession within 30 days and check disqualification grounds.',
+    category: 'Logistics',
+    excerpt: 'A registered international freight forwarding business can pass to a new owner by transfer, inheritance or corporate merger. The rights and duties carry over, and the successor reports to the provincial governor within 30 days.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Three ways a business can be succeeded</li><li>Deadline, documents and steps</li><li>Disqualification rules and grace periods</li><li>FAQ</li></ol></div>
+<p><strong>When a registered international freight forwarding business (국제물류주선업) is transferred, or the operating company merges, the new owner does not register again. It succeeds to the rights and duties of the existing registration and must report the succession to the Mayor or Governor of the relevant metropolitan city or province within 30 days of the succession date.</strong> The same applies when an heir continues the business after the owner dies. Succession is a report, not a new registration, but the disqualification grounds for registration also apply to the successor, so they should be checked before signing.</p>
+<p>For first-time registration, see <a href="/en/blog/international-logistics-registration-guide">our registration guide</a>. This article covers only the transfer of a business that is already registered.</p>
+
+<h2>Three ways a business can be succeeded</h2>
+<p>Under the Framework Act on Logistics Policy, when a registered forwarder transfers its business, dies, or merges, the transferee, the heir, or the surviving or newly formed company succeeds to the rights and duties of the registration. Each case uses a different report form and attachments.</p>
+<table><thead><tr><th>Case</th><th>Successor</th><th>Form</th><th>Main attachments</th></tr></thead><tbody>
+<tr><td>Business transfer</td><td>Transferee</td><td>Transfer report</td><td>Copy of the transfer agreement; proof of foreign investment if the transferee is a foreign-invested company</td></tr>
+<tr><td>Inheritance</td><td>Heir</td><td>Inheritance report</td><td>Proof of relationship to the deceased, proof of death, consent of other heirs of the same rank</td></tr>
+<tr><td>Corporate merger</td><td>Surviving or new company</td><td>Merger report</td><td>Copy of the merger agreement; statement of business fixed assets of the merging companies from the last 1 year</td></tr>
+</tbody></table>
+<p>If the transferee, the heir, or an officer of the post-merger company is a foreign national, documents from the home country showing no disqualification (apostille or consular confirmation) are also required. Corporate registry records are checked by the authority through shared administrative data.</p>
+<p>All rights and duties of the registration pass to the successor. Registration standards such as paid-in capital (asset value for individuals) and guarantee insurance must still be met after succession; falling short can lead to cancellation or suspension. See <a href="/en/blog/freight-forwarder-capital-bond-requirements">capital and guarantee insurance requirements</a>.</p>
+
+<h2>Deadline, documents and steps</h2>
+<p>The report is due within 30 days of the date the rights and duties were succeeded, and it may be filed electronically. The processing period printed on the forms is 2 days. The transfer report is signed by both the transferor and the transferee. Because the authority may delegate intake and review of succession reports to a logistics association or similar body, confirm the actual filing desk with the province where the head office is located.</p>
+<p>A succession report and a change registration are separate procedures. If, after succession, you change the trade name, representative or officers, or head office location, or if capital decreases, a change registration must be filed within 60 days of the change.</p>
+<table><thead><tr><th>Procedure</th><th>Trigger</th><th>Deadline</th></tr></thead><tbody>
+<tr><td>Succession report</td><td>Transfer, inheritance, merger</td><td>Within 30 days of succession</td></tr>
+<tr><td>Change registration</td><td>Change of name, officers, head office; capital decrease</td><td>Within 60 days of the change</td></tr>
+<tr><td>Registration standards report</td><td>Every 3 years after registration</td><td>Within 60 days of the reporting point</td></tr>
+</tbody></table>
+<p>In practice, the following order helps you meet every deadline.</p>
+<ol>
+<li>Before signing, confirm that the transferee (and, for a company, its representative and officers) is not disqualified.</li>
+<li>State the succession date clearly in the transfer or merger agreement. The deadline runs from that date.</li>
+<li>File the report and attachments with the provincial authority within 30 days of succession.</li>
+<li>If the name, officers or location changed, apply for change registration within 60 days.</li>
+<li>Note the next registration standards reporting point written on the registration certificate.</li>
+</ol>
+<p>Failing to file the succession report, and failing to file a change registration, are each subject to an administrative fine. For how we handle the whole process, see <a href="/en/services/logistics">our freight forwarding registration service</a>.</p>
+
+<h2>Disqualification rules and grace periods</h2>
+<p>The disqualification grounds for new registration apply equally to a successor. The main grounds are:</p>
+<ul>
+<li>Persons under adult guardianship or limited guardianship</li>
+<li>Persons sentenced to imprisonment for violating the Framework Act on Logistics Policy, the Trucking Transport Business Act, the Aviation Business Act, the Aviation Safety Act, the Airport Facilities Act or the Marine Transportation Act, until 2 years after the sentence ends or is remitted</li>
+<li>Persons on probation for such violations, or fined for them within the last 2 years</li>
+<li>Persons whose registration was cancelled within the last 2 years</li>
+<li>Companies whose representative, or any other officer, falls under these grounds</li>
+</ul>
+<p>If the successor is disqualified, the registration must be cancelled, with two exceptions: a disqualified heir who transfers the business to another person within 3 months of the inheritance, and a company (including a post-merger company) that replaces a disqualified officer within 3 months of the ground arising (for a merger, the merger date). No such grace period exists for an individual transferee who is personally disqualified, so checking before the contract is the safest approach.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do I have to register again when I take over the business?</p><p class="faq-a">A. No. In a transfer, inheritance or merger, the rights and duties of the existing registration pass to the successor, who files a succession report within 30 days.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does the deadline run from the contract date?</p><p class="faq-a">A. It runs from the date the rights and duties were succeeded. Fix that date clearly in the agreement to avoid confusion.</p></div>
+<div class="faq-item"><p class="faq-q">Q. If the trade name changes after a merger, is the succession report enough?</p><p class="faq-a">A. Changing registered matters such as the name, officers or head office is a separate change registration, due within 60 days. Ask the provincial authority whether both can be handled together.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Will a disqualified heir lose the business?</p><p class="faq-a">A. If the heir transfers the business to another person within 3 months of the inheritance, cancellation on that ground can be avoided.</p></div>
+</div>
+
+<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'international-logistics-business-succession',
+    locale: 'zh',
+    title: '国际货运代理业转让受让·合并·继承 — 地位承继申报30日期限与欠格事由',
+    metaTitle: '韩国国际货运代理业转让受让申报 — 合并·继承承继与30日期限',
+    metaDescription: '在韩国通过转让、法人合并或继承接手已登记的国际货运代理业时，无需重新登记，但须自承继之日起30日内向市·道知事申报。本文说明申报材料、变更登记区别与欠格事由。',
+    category: '物流/配送',
+    excerpt: '已登记的国际货运代理业可通过转让受让、继承、法人合并三种方式转移。无论哪种情形，登记上的权利义务均被承继，承继人须在30日内向市·道知事申报。',
+    content: `<div class="toc"><p>目录</p><ol><li>认可事业承继的三种情形</li><li>承继申报期限·材料·办理顺序</li><li>欠格事由的准用与宽限期</li><li>常见问题</li></ol></div>
+<p><strong>国际货运代理业（국제물류주선업）发生转让受让或法人合并时，新经营者无需重新登记，而是承继原登记所产生的权利义务，并须自承继之日起30日内向市·道知事申报。</strong>经营者死亡、由继承人继续经营时也是同样的结构。承继属于申报程序而非登记，但登记的欠格事由同样适用于承继人，因此签约前需要先行确认。</p>
+<p>首次登记的流程请参阅<a href="/zh/blog/international-logistics-registration-guide">国际货运代理业登记指南</a>。本文只说明已登记事业的转让与接手。</p>
+
+<h2>认可事业承继的三种情形</h2>
+<p>根据《物流政策基本法》，国际货运代理业者转让事业、死亡或法人合并时，受让人、继承人、合并后存续或新设的法人承继登记上的权利义务。不同情形需提交的申报书和附件不同。</p>
+<table><thead><tr><th>情形</th><th>承继人</th><th>申报书</th><th>主要附件</th></tr></thead><tbody>
+<tr><td>事业转让受让</td><td>受让人</td><td>转让受让申报书</td><td>转让受让合同复印件；受让人为外商投资企业时提交外商投资证明</td></tr>
+<tr><td>继承</td><td>继承人</td><td>继承申报书</td><td>继承人与被继承人关系证明、死亡证明、同一顺位其他继承人的同意书</td></tr>
+<tr><td>法人合并</td><td>存续法人或新设法人</td><td>法人合并申报书</td><td>合并合同复印件、合并当事法人最近1年内的事业用固定资产明细</td></tr>
+</tbody></table>
+<p>受让人、继承人或合并后法人的高管为外国人时，还需提交本国出具的、证明不属于欠格事由的文件（海牙认证或领事确认）。法人登记事项证明等由主管机关通过行政信息共享查验。</p>
+<p>被承继的是登记上的全部权利与义务。资本金（个人为资产评估额）和保证保险等登记标准在承继后仍须持续满足，达不到标准可能被撤销登记或停业。具体标准见<a href="/zh/blog/freight-forwarder-capital-bond-requirements">资本金与保证保险要求</a>。</p>
+
+<h2>承继申报期限·材料·办理顺序</h2>
+<p>申报期限为自承继权利义务之日起30日内，也可以电子文件提交。表格上记载的处理期限为2日。转让受让申报书须由转让人与受让人共同签名。市·道知事可将承继申报的受理与审查委托给物流相关协会等机构，实际受理窗口请先向总部所在地的市·道确认。</p>
+<p>承继申报与变更登记是不同的程序。承继后变更商号、代表人或高管、总部所在地，或资本金减少时，须自变更事由发生之日起60日内另行申请变更登记。</p>
+<table><thead><tr><th>程序</th><th>事由</th><th>期限</th></tr></thead><tbody>
+<tr><td>承继申报</td><td>转让受让、继承、法人合并</td><td>自承继之日起30日内</td></tr>
+<tr><td>变更登记</td><td>商号·高管·总部变更，资本金减少</td><td>自变更事由发生之日起60日内</td></tr>
+<tr><td>登记标准申报</td><td>登记后每满3年</td><td>自申报时点起60日内</td></tr>
+</tbody></table>
+<p>实务中按以下顺序办理，可避免错过期限。</p>
+<ol>
+<li>签约前确认受让人（法人则包括代表人和高管）不属于欠格事由。</li>
+<li>在转让受让合同或合并合同中明确写明承继日，申报期限从该日起算。</li>
+<li>自承继日起30日内向市·道知事提交申报书和附件。</li>
+<li>商号、高管或所在地发生变更的，在60日内申请变更登记。</li>
+<li>确认登记证上记载的下一次登记标准申报时点。</li>
+</ol>
+<p>未进行承继申报，以及未办理变更登记，均属于罚款（过怠金）对象。整体办理流程可参阅<a href="/zh/services/logistics">国际货运代理业登记服务</a>。</p>
+
+<h2>欠格事由的准用与宽限期</h2>
+<p>新登记的欠格事由同样准用于承继人，主要包括：</p>
+<ul>
+<li>被成年监护人或被限定监护人</li>
+<li>因违反《物流政策基本法》《货物汽车运输事业法》《航空事业法》《航空安全法》《机场设施法》《海运法》被判处监禁以上实刑，执行完毕或免除之日起未满2年者</li>
+<li>因上述法律被判处监禁以上刑罚的缓刑期间内者，或被判处罚金后未满2年者</li>
+<li>登记被撤销后未满2年者</li>
+<li>代表人属于上述事由，或代表人以外的高管中有人属于刑罚·撤销登记事由的法人</li>
+</ul>
+<p>承继人属于欠格事由时，市·道知事应撤销登记。但有两种宽限：属于欠格事由的继承人自继承之日起3个月内将事业转让给他人的；法人（含合并后法人）的高管属于欠格事由时，自事由发生之日（合并时为合并日）起3个月内更换该高管的。个人受让人本人属于欠格事由时没有这类宽限，因此签约前确认最为稳妥。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 接手事业后需要重新登记国际货运代理业吗？</p><p class="faq-a">A. 不需要。转让受让、继承、法人合并时，原登记的权利义务被承继，承继人在30日内向市·道知事进行承继申报。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申报期限从签约日起算吗？</p><p class="faq-a">A. 起算点是承继权利义务之日。在合同中明确承继日，可避免期限上的混乱。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 合并后商号改变，只做承继申报就可以吗？</p><p class="faq-a">A. 变更商号、高管、总部等登记事项属于另外的变更登记，须在60日内申请。是否可与承继申报一并办理，建议向主管市·道确认。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 继承人属于欠格事由，会失去事业吗？</p><p class="faq-a">A. 自继承之日起3个月内将事业转让给他人的，可避免因该事由被撤销登记。</p></div>
+</div>
+
+<div class="cta-block"><h3>国际货运代理业转让受让申报咨询</h3><p>如需一次性检查承继日设定、欠格事由和变更登记，请联系유선행정사사무소。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">申请咨询</a></div>
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'international-logistics-business-succession',
+    locale: 'ja',
+    title: '国際物流周旋業の譲渡・譲受・合併・相続 — 地位承継届出の30日期限と欠格事由',
+    metaTitle: '韓国の国際物流周旋業 譲渡・譲受の届出 — 合併・相続による承継と30日期限',
+    metaDescription: '韓国で登録済みの国際物流周旋業を譲渡・譲受、法人合併、相続で引き継ぐ場合、新規登録ではなく承継日から30日以内に市・道知事への届出が必要です。書類、変更登録との違い、欠格事由を解説します。',
+    category: '物流・流通',
+    excerpt: '登録済みの国際物流周旋業は、譲渡・譲受、相続、法人合併の三つの方法で引き継がれます。いずれも登録上の権利・義務が承継され、承継人は30日以内に市・道知事へ届け出ます。',
+    content: `<div class="toc"><p>目次</p><ol><li>事業承継が認められる三つの場合</li><li>承継届出の期限・書類・手順</li><li>欠格事由の準用と猶予期間</li><li>よくある質問</li></ol></div>
+<p><strong>国際物流周旋業（국제물류주선업）を譲渡・譲受したり、法人が合併したりした場合、新しい事業者は改めて登録するのではなく、登録に基づく権利・義務を承継し、承継した日から30日以内に市・道知事へ届け出ます。</strong>代表者が死亡し、相続人が事業を引き継ぐ場合も同じ仕組みです。承継は登録ではなく届出の手続ですが、登録の欠格事由は承継人にもそのまま適用されるため、契約前に確認すべき点があります。</p>
+<p>初めて登録する手続は<a href="/ja/blog/international-logistics-registration-guide">国際物流周旋業 登録ガイド</a>をご覧ください。本記事では、すでに登録された事業を譲る・引き継ぐ場合だけを説明します。</p>
+
+<h2>事業承継が認められる三つの場合</h2>
+<p>「物流政策基本法」は、国際物流周旋業者が事業を譲渡したとき、死亡したとき、法人が合併したとき、譲受人・相続人・合併後に存続する法人または合併により設立される法人が登録に基づく権利・義務を承継すると定めています。場合ごとに届出書と添付書類が異なります。</p>
+<table><thead><tr><th>場合</th><th>承継する者</th><th>届出書</th><th>主な添付書類</th></tr></thead><tbody>
+<tr><td>事業の譲渡・譲受</td><td>譲受人</td><td>譲渡・譲受届出書</td><td>譲渡・譲受契約書の写し、譲受人が外国人投資企業の場合は外国人投資を証明する書類</td></tr>
+<tr><td>相続</td><td>相続人</td><td>相続届出書</td><td>相続人と被相続人の関係を証明する書類、死亡を証明する書類、同順位の他の相続人の同意書</td></tr>
+<tr><td>法人合併</td><td>存続法人または新設法人</td><td>法人合併届出書</td><td>合併契約書の写し、合併当事法人の直近1年以内の事業用固定資産明細書</td></tr>
+</tbody></table>
+<p>譲受人・相続人、または合併後の法人の役員が外国人である場合は、欠格事由に当たらないことを確認できる本国の書類（アポスティーユまたは領事確認）も提出します。法人登記事項証明書などは、市・道知事が行政情報の共同利用で確認します。</p>
+<p>承継されるのは登録に基づく権利と義務のすべてです。資本金（個人は資産評価額）や保証保険などの登録基準は承継後も満たし続ける必要があり、基準を下回ると登録取消しや事業停止の対象になります。基準の内容は<a href="/ja/blog/freight-forwarder-capital-bond-requirements">資本金・保証保険の要件</a>で確認できます。</p>
+
+<h2>承継届出の期限・書類・手順</h2>
+<p>届出期限は権利・義務を承継した日から30日以内で、電子文書でも提出できます。様式に記載された処理期間は2日です。譲渡・譲受届出書には譲渡人と譲受人が共に署名します。市・道知事は承継届出の受付・審査を物流関連協会などに委託できるため、実際の受付窓口は本社所在地を管轄する市・道に事前に確認するのが確実です。</p>
+<p>承継届出と変更登録は別の手続です。承継後に商号、代表者・役員、本社所在地を変更したり、資本金が減少したりした場合は、変更事由が生じた日から60日以内に変更登録を別途申請します。</p>
+<table><thead><tr><th>手続</th><th>事由</th><th>期限</th></tr></thead><tbody>
+<tr><td>承継届出</td><td>譲渡・譲受、相続、法人合併</td><td>承継した日から30日以内</td></tr>
+<tr><td>変更登録</td><td>商号・役員・本社の変更、資本金の減少</td><td>変更事由発生日から60日以内</td></tr>
+<tr><td>登録基準の届出</td><td>登録後3年経過ごと</td><td>届出時点から60日以内</td></tr>
+</tbody></table>
+<p>実務では次の順序で進めると、期限を逃さずに済みます。</p>
+<ol>
+<li>契約前に、譲受人（法人の場合は代表者と役員）が欠格事由に当たらないか確認します。</li>
+<li>譲渡・譲受契約書や合併契約書に承継日を明記します。届出期限はこの日から数えます。</li>
+<li>承継日から30日以内に届出書と添付書類を市・道知事に提出します。</li>
+<li>商号・役員・所在地が変わった場合は、60日以内に変更登録を申請します。</li>
+<li>登録証に記載された次回の登録基準届出時点を確認しておきます。</li>
+</ol>
+<p>承継届出をしない場合は過料の対象となり、変更登録の漏れも別途過料の対象です。登録から承継までの進め方は<a href="/ja/services/logistics">国際物流周旋業 登録サービス</a>でご案内しています。</p>
+
+<h2>欠格事由の準用と猶予期間</h2>
+<p>承継した者には、新規登録の欠格事由がそのまま準用されます。主な事由は次のとおりです。</p>
+<ul>
+<li>被成年後見人または被限定後見人</li>
+<li>「物流政策基本法」「貨物自動車運輸事業法」「航空事業法」「航空安全法」「空港施設法」「海運法」に違反して禁錮以上の実刑の言渡しを受け、執行が終わり、または免除された日から2年を経過しない者</li>
+<li>同じ法律違反で禁錮以上の刑の執行猶予期間中の者、罰金刑の言渡しを受けて2年を経過しない者</li>
+<li>登録が取り消された後2年を経過しない者</li>
+<li>代表者が上記の事由に当たる法人、または代表者以外の役員に刑罰・登録取消しの事由に当たる者がいる法人</li>
+</ul>
+<p>承継人が欠格事由に当たる場合、市・道知事は登録を取り消さなければなりません。ただし猶予が二つあります。欠格事由に当たる相続人が相続日から3か月以内に事業を他人に譲渡した場合と、法人（合併後の法人を含む）の役員が欠格事由に当たるとき、その事由が生じた日（合併の場合は合併日）から3か月以内に当該役員を改任した場合です。個人の譲受人本人が欠格事由に当たる場合にはこのような猶予はないため、契約前の確認が最も安全です。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 事業を引き継いだら、国際物流周旋業の登録をやり直す必要がありますか。</p><p class="faq-a">A. いいえ。譲渡・譲受、相続、法人合併では既存の登録に基づく権利・義務が承継され、承継人が30日以内に市・道知事へ承継届出をします。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 届出期限は契約日から数えますか。</p><p class="faq-a">A. 起算点は権利・義務を承継した日です。契約書で承継日を明確にしておけば、期限をめぐる混乱を防げます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 合併後に商号が変わる場合、承継届出だけで足りますか。</p><p class="faq-a">A. 商号・役員・本社などの登録事項の変更は、承継届出とは別の変更登録の対象で、60日以内に申請します。承継届出と一緒に処理できるかは管轄の市・道にご確認ください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 相続人が欠格事由に当たると、事業を失いますか。</p><p class="faq-a">A. 相続日から3か月以内に事業を他人に譲渡すれば、その事由による登録取消しを避けられます。</p></div>
+</div>
+
+<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、YouSun Administrative Agencyへお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── nonprofit-dissolution-liquidation-procedure (inhega-daily 2026-10-29) ──
+  {
+    slug: 'nonprofit-dissolution-liquidation-procedure',
+    locale: 'en',
+    title: 'Korean Nonprofit Association Dissolution Procedure — General Meeting, Registration, Creditor Notice and Liquidation',
+    metaTitle: 'Nonprofit Association Dissolution Procedure in Korea — Liquidation Steps',
+    metaDescription: 'Dissolving a Korean nonprofit association requires registration and a report to the competent ministry, not a permit. Steps, deadlines and creditor notices.',
+    category: 'Corporate Formation',
+    excerpt: 'Closing a nonprofit incorporated association in Korea follows a fixed order: dissolution resolution, liquidator, dissolution registration and report, creditor notices, distribution of remaining property, and the completion registration and report.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Grounds for dissolution and the general meeting resolution</li><li>Liquidation steps after dissolution</li><li>Deadlines at a glance</li><li>Remaining property and completion of liquidation</li><li>FAQ</li></ol></div>
+<p><strong>Dissolving an incorporated association under the Korean Civil Act does not require a permit from the competent ministry.</strong> Once a ground for dissolution arises, the liquidator registers the dissolution within 3 weeks of taking office and reports it to the competent ministry within the same period, calls for creditor claims by public notice, settles debts, hands over the remaining property, and registers and reports the completion of liquidation within 3 weeks.</p>
+<p>For the establishment stage, see our <a href="/en/blog/nonprofit-corporation-establishment-guide">nonprofit corporation establishment guide</a>.</p>
+
+<h2>Grounds for dissolution and the general meeting resolution</h2>
+<p>Under the Civil Act, any corporation dissolves on expiry of its duration, achievement or impossibility of its purpose, any other ground set in the articles of incorporation, bankruptcy, or revocation of its establishment permit. An incorporated association also dissolves when it has no members left or by resolution of the general meeting.</p>
+<p>A dissolution resolution needs the consent of <strong>at least 3/4 of all members</strong> — all members, not only those present — unless the articles provide otherwise. This is stricter than an ordinary resolution (a majority of members present and a majority of their votes). The meeting is convened by a notice stating the agenda sent 1 week in advance, and unless the articles say otherwise only the notified items can be resolved. Members may vote in writing or by proxy. For drafting dissolution clauses, see <a href="/en/blog/nonprofit-corporation-articles-and-approval-guide">articles of incorporation and approval</a>.</p>
+<p>If the corporation can no longer pay its debts in full, the directors must file for bankruptcy without delay. Dissolution by bankruptcy follows bankruptcy proceedings, not the registration and report steps below.</p>
+
+<h2>Liquidation steps after dissolution</h2>
+<p>A dissolved corporation has rights and duties only within the scope of liquidation. The steps are:</p>
+<ol>
+<li><strong>Liquidator</strong> — except in bankruptcy, the directors become liquidators unless the articles or a general meeting resolution decide otherwise. If no one can serve, the court may appoint one.</li>
+<li><strong>Dissolution registration</strong> — within 3 weeks of taking office, the liquidator registers, at the location of the principal office, the ground and date of dissolution, the liquidator's name and address, and any limit on the liquidator's power of representation.</li>
+<li><strong>Dissolution report</strong> — the same items are reported to the competent ministry within 3 weeks of taking office. Ministry rules require the report to be filed without delay after the registration; under the Ministry of Justice rule it is accompanied by the property inventory at dissolution, an outline of how the remaining property will be disposed of, the articles at dissolution, and the minutes of the general meeting if it resolved the dissolution.</li>
+<li><strong>Creditor notice</strong> — within 2 months of taking office, publish a notice at least 3 times asking creditors to file claims within a period of at least 2 months, stating that claims not filed in time will be excluded from liquidation. Known creditors must be notified individually.</li>
+<li><strong>Payment of debts</strong> — debts may not be paid during the claim period. If the assets are clearly insufficient, the liquidator must file for bankruptcy without delay and publish this.</li>
+<li><strong>Remaining property and completion</strong> — hand over the remaining property and, once liquidation is complete, register and report the completion within 3 weeks.</li>
+</ol>
+
+<h2>Deadlines at a glance</h2>
+<table><thead><tr><th>Step</th><th>Deadline</th><th>Where</th></tr></thead><tbody>
+<tr><td>Dissolution registration</td><td>Within 3 weeks of the liquidator taking office</td><td>Location of the principal office</td></tr>
+<tr><td>Dissolution report</td><td>Within 3 weeks of taking office; without delay after registration</td><td>Competent ministry</td></tr>
+<tr><td>Creditor notice</td><td>At least 3 times within 2 months of taking office</td><td>Same method as court notices of registered matters</td></tr>
+<tr><td>Claim period</td><td>At least 2 months</td><td>Creditors to the liquidator</td></tr>
+<tr><td>Completion registration and report</td><td>Within 3 weeks of completion</td><td>Principal office location and competent ministry</td></tr>
+</tbody></table>
+<p>The court inspects and supervises dissolution and liquidation. A liquidator who neglects registration, fails to publish or publishes an improper notice, files a false report, or pays debts during the claim period is subject to an administrative fine. Forms and attachments vary by ministry, so check the rule of your competent ministry.</p>
+
+<h2>Remaining property and completion of liquidation</h2>
+<p>The property of a dissolved corporation goes to the person designated in the articles. If the articles name no one and set no method, the directors or liquidators may dispose of it for a similar purpose with <strong>the permission of the competent ministry</strong>, and an incorporated association also needs a general meeting resolution. Property not disposed of this way vests in the national treasury. After completion, the liquidator registers it and, under the Ministry of Justice rule, files a completion report with the ministry after the registration.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Does dissolution itself need ministry approval?</p><p class="faq-a">A. No. Dissolution is registered and reported. Permission is needed only to dispose of remaining property when the articles name no recipient.</p></div>
+<div class="faq-item"><p class="faq-q">Q. How many members must agree to dissolve?</p><p class="faq-a">A. At least 3/4 of all members, unless the articles provide otherwise.</p></div>
+<div class="faq-item"><p class="faq-q">Q. When and how often is the creditor notice published?</p><p class="faq-a">A. At least 3 times within 2 months of the liquidator taking office, with a claim period of at least 2 months.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What happens to creditors who do not file in time?</p><p class="faq-a">A. They are excluded from liquidation and can claim only against property not yet handed over after all debts are paid. Known creditors cannot be excluded.</p></div>
+</div>
+
+<div class="cta-block"><h3>Need help with dissolution and liquidation filings?</h3><p>YouSun Administrative Agency prepares and submits ministry filings for <a href="/en/services/nonprofit">nonprofit associations</a>, including dissolution reports, applications for permission to dispose of remaining property, and completion reports. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'nonprofit-dissolution-liquidation-procedure',
+    locale: 'zh',
+    title: '韩国社团法人解散程序与清算 — 总会决议、解散登记、债权申报公告、清算终结',
+    metaTitle: '韩国社团法人解散程序 — 总会决议·解散登记·清算终结申报',
+    metaDescription: '韩国非营利社团法人的解散不是向主管机关申请许可，而是办理登记并向主管机关申报。本文按顺序说明解散决议、清算人、解散登记与申报期限、债权申报公告、剩余财产归属及清算终结登记与申报。',
+    category: '法人设立',
+    excerpt: '韩国非营利社团法人解散须按固定顺序和期限办理：解散决议、清算人、解散登记与申报、债权申报公告、剩余财产归属、清算终结登记与申报。',
+    content: `<div class="toc"><p>目录</p><ol><li>解散事由与总会解散决议</li><li>解散后的清算程序</li><li>解散·清算期限一览</li><li>剩余财产归属与清算终结</li><li>常见问题</li></ol></div>
+<p><strong>根据韩国《民法》，社团法人解散无需取得主管机关的许可。</strong>出现解散事由后，清算人应在就任后3周内办理解散登记，并在同一期间内向主管机关申报解散；之后通过公告催告债权人申报债权、清偿债务、移交剩余财产，清算终结后3周内办理登记并申报。</p>
+<p>设立阶段请参阅<a href="/zh/blog/nonprofit-corporation-establishment-guide">非营利社团法人设立指南</a>。</p>
+
+<h2>解散事由与总会解散决议</h2>
+<p>《民法》规定，所有法人因存续期间届满、目的达成或无法达成、章程规定的其他解散事由、破产或设立许可被撤销而解散。社团法人还因社员不复存在或社员总会决议而解散。</p>
+<p>总会作出解散决议须经<strong>全体社员3/4以上同意</strong>，以全体社员而非出席社员为准；章程另有规定的从其规定。这比一般决议（过半数社员出席、出席社员表决权过半数）要求更严。总会须提前1周发出载明会议目的事项的通知，除章程另有规定外，只能就通知事项作出决议。社员可以书面或委托代理人行使表决权。章程条款可参阅<a href="/zh/blog/nonprofit-corporation-articles-and-approval-guide">章程制定与许可指南</a>。</p>
+<p>法人无法清偿全部债务时，理事应立即申请破产。因破产而解散的，按破产程序进行，不适用下列解散登记与申报。</p>
+
+<h2>解散后的清算程序</h2>
+<p>解散后的法人仅在清算目的范围内享有权利、承担义务。程序如下：</p>
+<ol>
+<li><strong>确定清算人</strong>：除破产外由理事担任清算人，章程或总会决议另有规定的除外。无人可担任等情形下，法院可以选任。</li>
+<li><strong>解散登记</strong>：清算人就任后3周内，在主事务所所在地登记解散事由和日期、清算人姓名和住址，以及对代表权的限制（如有）。</li>
+<li><strong>解散申报</strong>：就任后3周内向主管机关申报同一事项。各部门规则要求在解散登记后立即提交申报书；法务部规则要求附上解散时的财产目录、剩余财产处分方法概要、解散时的章程，以及决议解散的总会会议记录。</li>
+<li><strong>债权申报公告与催告</strong>：就任之日起2个月内公告3次以上，催告债权人在不少于2个月的期间内申报债权，并注明逾期未申报将被排除在清算之外；对已知债权人须分别催告。</li>
+<li><strong>清偿债务</strong>：申报期间内不得清偿。财产明显不足以清偿债务时，应立即申请破产宣告并公告。</li>
+<li><strong>移交剩余财产与清算终结</strong>：将剩余财产移交归属权利人，清算终结后3周内登记并向主管机关申报。</li>
+</ol>
+
+<h2>解散·清算期限一览</h2>
+<table><thead><tr><th>步骤</th><th>期限</th><th>办理处</th></tr></thead><tbody>
+<tr><td>解散登记</td><td>清算人就任后3周内</td><td>主事务所所在地</td></tr>
+<tr><td>解散申报</td><td>就任后3周内，登记后立即</td><td>主管机关</td></tr>
+<tr><td>债权申报公告</td><td>就任后2个月内3次以上</td><td>与法院登记事项公告相同的方式</td></tr>
+<tr><td>债权申报期间</td><td>2个月以上</td><td>债权人向清算人申报</td></tr>
+<tr><td>清算终结登记·申报</td><td>清算终结后3周内</td><td>主事务所所在地·主管机关</td></tr>
+</tbody></table>
+<p>法人的解散和清算由法院检查、监督。清算人怠于登记、未公告或作不实公告、向主管机关作不实申报、在申报期间内清偿债务的，将被处以罚款（过怠金）。各主管部门规则的表格和附件不同，请确认所属部门的规则。</p>
+
+<h2>剩余财产归属与清算终结</h2>
+<p>解散法人的财产归属于章程指定的人。章程未指定归属权利人或指定方法时，理事或清算人可<strong>经主管机关许可</strong>，为与法人目的类似的目的处分财产；社团法人还须经总会决议。未如此处分的财产归属国库。清算终结后，清算人办理登记；按法务部规则，登记后向主管机关提交清算终结申报书。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 解散本身需要主管机关批准吗？</p><p class="faq-a">A. 不需要。解散通过登记和申报办理。只有章程未指定归属权利人而处分剩余财产时，才需取得主管机关的许可。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 解散决议需要多少社员同意？</p><p class="faq-a">A. 全体社员3/4以上同意；章程另有规定的从其规定。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 债权申报公告何时、几次？</p><p class="faq-a">A. 清算人就任之日起2个月内公告3次以上，申报期间不少于2个月。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 逾期未申报的债权人怎么办？</p><p class="faq-a">A. 将被排除在清算之外，只能在债务全部清偿后，就尚未移交归属权利人的财产请求清偿。已知债权人不得被排除。</p></div>
+</div>
+
+<div class="cta-block"><h3>需要准备社团法人解散·清算文件吗？</h3><p>유선행정사사무소（代表行政士 정유선）为<a href="/zh/services/nonprofit">非营利社团法人</a>撰写并提交解散申报书、剩余财产处分许可申请书、清算终结申报书等主管机关文件。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">申请咨询</a></div>
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'nonprofit-dissolution-liquidation-procedure',
+    locale: 'ja',
+    title: '韓国の社団法人解散手続と清算 — 総会決議・解散登記・債権申出の公告・清算結了',
+    metaTitle: '韓国の社団法人解散手続 — 総会決議・解散登記・清算結了の届出',
+    metaDescription: '韓国の非営利社団法人の解散は主務官庁の許可ではなく、登記と主務官庁への届出で進みます。解散決議、清算人、解散登記・届出の期限、債権申出の公告、残余財産の帰属、清算結了の登記・届出を順に解説します。',
+    category: '法人設立',
+    excerpt: '韓国の非営利社団法人を解散するには、解散決議から清算結了の届出まで決まった順序と期限を守る必要があります。解散事由、清算人、解散登記・届出、債権申出の公告、残余財産、清算結了をまとめました。',
+    content: `<div class="toc"><p>目次</p><ol><li>解散事由と総会の解散決議</li><li>解散後の清算手続</li><li>解散・清算の期限一覧</li><li>残余財産の帰属と清算結了</li><li>よくある質問</li></ol></div>
+<p><strong>韓国「民法」上、社団法人の解散に主務官庁の許可は必要ありません。</strong>解散事由が生じると、清算人は就任後3週間以内に解散登記を行い、同じ期間内に主務官庁へ解散を届け出ます。その後、公告で債権者に債権の申出を求めて債務を整理し、残余財産を引き渡し、清算結了後3週間以内に登記と届出を済ませれば終了です。</p>
+<p>設立段階については<a href="/ja/blog/nonprofit-corporation-establishment-guide">非営利社団法人設立ガイド</a>をご覧ください。</p>
+
+<h2>解散事由と総会の解散決議</h2>
+<p>「民法」は、すべての法人に共通する解散事由として、存立期間の満了、目的の達成または達成不能、定款で定めたその他の解散事由の発生、破産、設立許可の取消しを挙げています。社団法人は、社員がいなくなったとき、また社員総会の決議によっても解散します。</p>
+<p>総会で解散を決議するには<strong>総社員の3/4以上の同意</strong>が必要です。出席社員ではなく総社員が基準で、定款に別段の定めがあればそれに従います。一般の決議（社員の過半数の出席、出席社員の議決権の過半数）より要件が重くなっています。総会は1週間前に会議の目的事項を記載した通知を発して招集し、定款に別段の定めがなければ通知した事項についてのみ決議できます。社員は書面または代理人によって議決権を行使できます。定款については<a href="/ja/blog/nonprofit-corporation-articles-and-approval-guide">定款作成と許可のガイド</a>を参照してください。</p>
+<p>法人が債務を完済できなくなったときは、理事は遅滞なく破産の申立てをしなければなりません。破産による解散は破産手続で進み、以下の解散登記・届出の規定は適用されません。</p>
+
+<h2>解散後の清算手続</h2>
+<p>解散した法人は、清算の目的の範囲内でのみ権利を有し義務を負います。手続は次の順序で進みます。</p>
+<ol>
+<li><strong>清算人の確定</strong> — 破産の場合を除き理事が清算人となり、定款または総会決議で別に定めることもできます。清算人となる者がいない場合などは、裁判所が選任できます。</li>
+<li><strong>解散登記</strong> — 清算人は就任後3週間以内に、解散の事由と年月日、清算人の氏名と住所、代表権の制限があればその制限を主たる事務所の所在地で登記します。</li>
+<li><strong>解散の届出</strong> — 同じ事項を就任後3週間以内に主務官庁へ届け出ます。主務官庁ごとの規則は解散登記の後遅滞なく届出書を提出するよう定め、法務部所管の規則は解散時の財産目録、残余財産の処分方法の概要、解散時の定款、総会決議で解散した場合はその議事録の添付を求めています。</li>
+<li><strong>債権申出の公告と催告</strong> — 就任の日から2か月以内に3回以上公告し、2か月以上の期間を定めて債権の申出を求めます。期間内に申し出なければ清算から除外される旨を表示し、知れている債権者には個別に催告します。</li>
+<li><strong>債務の弁済</strong> — 申出期間内は弁済できません。財産が債務の完済に不足することが明らかになれば、遅滞なく破産宣告を申し立てて公告します。</li>
+<li><strong>残余財産の引渡しと清算結了</strong> — 残余財産を帰属権利者に引き渡し、清算が結了したら3週間以内に登記し主務官庁に届け出ます。</li>
+</ol>
+
+<h2>解散・清算の期限一覧</h2>
+<table><thead><tr><th>段階</th><th>期限</th><th>提出先</th></tr></thead><tbody>
+<tr><td>解散登記</td><td>清算人就任後3週間以内</td><td>主たる事務所の所在地</td></tr>
+<tr><td>解散の届出</td><td>就任後3週間以内、登記後遅滞なく</td><td>主務官庁</td></tr>
+<tr><td>債権申出の公告</td><td>就任後2か月以内に3回以上</td><td>裁判所の登記事項の公告と同じ方法</td></tr>
+<tr><td>債権申出期間</td><td>2か月以上</td><td>債権者から清算人へ</td></tr>
+<tr><td>清算結了の登記・届出</td><td>清算結了後3週間以内</td><td>主たる事務所の所在地・主務官庁</td></tr>
+</tbody></table>
+<p>法人の解散と清算は裁判所が検査・監督します。清算人が登記を怠ったり、公告をしなかったり不正な公告をしたり、主務官庁に事実でない届出をしたり、申出期間内に弁済したりすると過料の対象になります。様式や添付書類は主務官庁ごとの規則で異なるため、所管部処の規則を確認してください。</p>
+
+<h2>残余財産の帰属と清算結了</h2>
+<p>解散した法人の財産は定款で指定した者に帰属します。定款に帰属権利者やその指定方法がなければ、理事または清算人は<strong>主務官庁の許可</strong>を得て法人の目的に類似する目的のために財産を処分でき、社団法人は総会決議も必要です。こうして処分されなかった財産は国庫に帰属します。清算が結了すると清算人が登記し、法務部所管の規則では登記後に清算結了届出書を主務官庁へ提出します。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 解散そのものに主務官庁の承認は必要ですか？</p><p class="faq-a">A. 必要ありません。解散は登記と届出で行います。定款に帰属権利者がなく残余財産を処分する場合にのみ主務官庁の許可を受けます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 解散決議には何人の同意が必要ですか？</p><p class="faq-a">A. 総社員の3/4以上の同意が必要で、定款に別段の定めがあればそれに従います。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 債権申出の公告はいつ、何回行いますか？</p><p class="faq-a">A. 清算人の就任の日から2か月以内に3回以上公告し、申出期間は2か月以上とします。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 期間内に申し出なかった債権者はどうなりますか？</p><p class="faq-a">A. 清算から除外され、債務を完済した後、帰属権利者にまだ引き渡していない財産に対してのみ弁済を請求できます。知れている債権者は除外できません。</p></div>
+</div>
+
+<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>YouSun Administrative Agency（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── quasi-drug-vs-cosmetics-classification (inhega-daily 2026-10-30) ──
+  {
+    slug: 'quasi-drug-vs-cosmetics-classification',
+    locale: 'en',
+    title: 'Quasi-Drug vs Cosmetics in Korea — Legal Definitions, Product Examples and Licensing Routes',
+    metaTitle: 'Quasi-Drug vs Cosmetics in Korea — Definitions and Procedures Compared',
+    metaDescription: 'How Korean law separates quasi-drugs from cosmetics: legal definitions, designated products, functional cosmetics, and report, permit and registration routes.',
+    category: 'Quasi-drugs & Cosmetics',
+    excerpt: 'A quasi-drug in Korea goes through a manufacturing business report and a product permit or report under the Pharmaceutical Affairs Act, while cosmetics need business registration under the Cosmetics Act. Here is how to tell them apart.',
+    content: `<div class="toc"><p>Contents</p><ol><li>The legal definitions differ</li><li>Which products fall where</li><li>Procedures compared — report and permit vs registration and review</li><li>FAQ</li></ol></div>
+<p><strong>The difference between a quasi-drug and a cosmetic in Korea lies in the governing law and the business procedure.</strong> A quasi-drug (의약외품) is an article designated by the Minister of Food and Drug Safety under the Pharmaceutical Affairs Act, while a cosmetic is an article that meets the definition in the Cosmetics Act. The classification decides whether you file a manufacturing business report and obtain a product permit, or register as a cosmetics manufacturer or responsible distributor.</p>
+
+<h2>The legal definitions differ</h2>
+<p>The Cosmetics Act defines a cosmetic as an article applied to the body by rubbing, spreading, spraying or similar methods to cleanse or beautify the body, add attractiveness, brighten the appearance, or maintain or improve the health of skin and hair, <strong>with only a mild effect on the human body</strong>. Articles that are medicines under the Pharmaceutical Affairs Act are excluded.</p>
+<p>The Pharmaceutical Affairs Act defines a quasi-drug as an article in one of the three groups below <strong>that the Minister of Food and Drug Safety designates</strong>. Articles used to diagnose or treat disease, or to produce a pharmacological effect, are medicines rather than quasi-drugs.</p>
+<ul>
+<li>Textile or rubber products, or similar items, used to treat, relieve, manage or prevent disease</li>
+<li>Items with a weak effect on the body or no direct effect on it, which are not instruments or machines, and similar items</li>
+<li>Preparations used for sterilisation, insecticide or similar purposes to prevent infectious diseases</li>
+</ul>
+<p>Functional cosmetics are not governed by a separate law; they are <strong>a type of cosmetic</strong> that helps with effects set out in the Act, such as whitening, wrinkle improvement or UV protection, as specified by Ordinance of the Prime Minister.</p>
+
+<h2>Which products fall where</h2>
+<p>Specific quasi-drug items are listed in the MFDS public notice on the designation of the scope of quasi-drugs, and the scope of functional cosmetics is set by the Enforcement Rule of the Cosmetics Act.</p>
+<table><thead><tr><th>Category</th><th>Examples named in the rules</th></tr></thead><tbody>
+<tr><td>Quasi-drugs (textile and rubber products, etc.)</td><td>Sanitary pads, tampons and menstrual cups; surgical, health and droplet-blocking masks; eye patches, bandages, gauze, cotton wool and adhesive plasters</td></tr>
+<tr><td>Quasi-drugs (mild preparations, etc.)</td><td>Toothpaste, mouth fresheners, antiperspirants for body odour, prickly heat remedies, mosquito and tick repellents, contact lens care products, external disinfectants for human use, tooth whiteners, smoking cessation aids without nicotine</td></tr>
+<tr><td>Quasi-drugs (similar items)</td><td>Oral cleansing wet wipes, sterile swabs and gloves, portable oxygen inhalers</td></tr>
+<tr><td>Functional cosmetics</td><td>Whitening, wrinkle improvement, UV protection and tanning, hair dyeing and bleaching, hair removal, relief of hair-loss symptoms, acne-prone skin care (cleansing products only), skin barrier recovery, stretch mark redness</td></tr>
+<tr><td>General cosmetics</td><td>Products that fit the cosmetic definition and none of the above</td></tr>
+</tbody></table>
+<p>Hair dyes and hair-loss products are not on the current quasi-drug list; the Enforcement Rule treats them as functional cosmetics. Products that change hair colour only temporarily, remove hair physically, or merely make hair look thicker by coating are outside the functional scope. A safe order for classifying a product is:</p>
+<ol>
+<li>Check whether the purpose is to diagnose or treat disease or to cause a pharmacological effect. If so, review it as a medicine.</li>
+<li>Check whether it appears on the quasi-drug designation list.</li>
+<li>If not, check whether it claims an effect within the functional cosmetics scope.</li>
+<li>If none applies, treat it as a general cosmetic and decide on business registration.</li>
+</ol>
+
+<h2>Procedures compared — report and permit vs registration and review</h2>
+<p>Once the classification is settled, even the names of the procedures change. Quasi-drugs need a <strong>manufacturing business report</strong> and a <strong>product permit or product report</strong>; cosmetics need <strong>business registration</strong>; functional cosmetics add a <strong>product-by-product review or report submission</strong>.</p>
+<table><thead><tr><th>Item</th><th>Quasi-drugs</th><th>Cosmetics (incl. functional)</th></tr></thead><tbody>
+<tr><td>Business procedure</td><td>Manufacturing business report after meeting facility standards</td><td>Registration as a cosmetics manufacturer or responsible distributor</td></tr>
+<tr><td>Filed with</td><td>Regional Office of Food and Drug Safety</td><td>Regional Office with jurisdiction over the factory or distributor's office</td></tr>
+<tr><td>Product-level step</td><td>Product permit or product report for each item (report for items meeting standard manufacturing criteria, etc.)</td><td>No product permit for general cosmetics; safety and efficacy review or report for functional cosmetics</td></tr>
+<tr><td>Required staff</td><td>Manufacturing manager (pharmacist or herbal pharmacist; an approved technician if only textile or rubber products are made)</td><td>Responsible sales manager for distributors; facility standards for manufacturers</td></tr>
+</tbody></table>
+<p>When filing a quasi-drug manufacturing business report, you must apply for a permit for, or report, at least one product in that line at the same time, and changes may require a change report. Our post on the <a href="/en/blog/cosmetics-responsible-distributor">cosmetics responsible distributor registration</a> covers the distributor route.</p>
+<p>If you make cosmetics yourself, you need manufacturer registration; if you distribute or import them under your name, you need responsible distributor registration. Secondary packaging or labelling alone does not count as manufacturing. For functional cosmetics, a product identical in ingredients and content to a notified item can be reported to the National Institute of Food and Drug Safety Evaluation instead of reviewed; others are reviewed. See our <a href="/en/services/cosmetics">cosmetics registration</a> and <a href="/en/services/functional-cosmetics">functional cosmetics review</a> services.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Can a cosmetics responsible distributor registration cover making and selling toothpaste or masks?</p><p class="faq-a">A. Toothpaste and surgical, health and droplet-blocking masks are designated quasi-drugs. Making them requires a manufacturing business report and a product permit or report under the Pharmaceutical Affairs Act.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is an anti-hair-loss shampoo a quasi-drug or a functional cosmetic?</p><p class="faq-a">A. A cosmetic that helps relieve hair-loss symptoms is a functional cosmetic under the Enforcement Rule. A product that only makes hair look thicker physically is outside that scope.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do functional cosmetics need an MFDS permit?</p><p class="faq-a">A. No. They go through a product-by-product safety and efficacy review or report submission, filed by a cosmetics manufacturer, responsible distributor, or a qualifying university or research institute.</p></div>
+</div>
+
+<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. YouSun Administrative Agency reviews your product information and the reports or registrations you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'quasi-drug-vs-cosmetics-classification',
+    locale: 'zh',
+    title: '韩国医药外品与化妆品的区别 — 法律定义、品目示例与申报·登记程序比较',
+    metaTitle: '韩国医药外品与化妆品区别 — 定义与程序比较',
+    metaDescription: '韩国法律如何区分医药外品与化妆品？本文整理法律定义、告示指定的医药外品品目、功能性化妆品范围，并比较医药外品制造业申报、品目许可与化妆品营业登记、功能性审查的区别。',
+    category: '医药外品/化妆品',
+    excerpt: '在韩国，医药外品须依《药事法》办理制造业申报及品目许可或申报，化妆品则须依《化妆品法》办理制造业、责任销售业登记，功能性化妆品另需审查或提交报告书。',
+    content: `<div class="toc"><p>目录</p><ol><li>法律定义不同</li><li>哪些产品属于哪一类</li><li>程序比较 — 申报·许可与登记·审查</li><li>常见问题</li></ol></div>
+<p><strong>韩国医药外品与化妆品的区别，在于适用法律和营业程序。</strong>医药外品（의약외품）是依《药事法》由食品医药品安全处长指定的物品，化妆品则是符合《化妆品法》定义的物品。分类结果决定您要办理制造业申报和品目许可，还是办理化妆品制造业或责任销售业登记。</p>
+
+<h2>法律定义不同</h2>
+<p>《化妆品法》将化妆品定义为：为清洁、美化人体以增加魅力、使容貌明亮，或维持、增进皮肤与毛发健康，以涂抹、揉擦、喷洒等方式使用于人体，且<strong>对人体作用轻微</strong>的物品。属于《药事法》上医药品的物品不属于化妆品。</p>
+<p>《药事法》将医药外品定义为属于以下三类之一、<strong>并由食品医药品安全处长指定</strong>的物品。以诊断、治疗疾病或产生药理作用为目的的物品属于医药品，而非医药外品。</p>
+<ul>
+<li>用于治疗、减轻、处置或预防疾病的纤维、橡胶制品或类似物品</li>
+<li>对人体作用较弱或不直接作用于人体、且非器具或机械的物品及类似物品</li>
+<li>为预防传染病而用于杀菌、杀虫及类似用途的制剂</li>
+</ul>
+<p>功能性化妆品并非由另一部法律规范，而是<strong>化妆品的一种</strong>，指有助于美白、改善皱纹、防晒等法定功效、并由总理令规定的化妆品。</p>
+
+<h2>哪些产品属于哪一类</h2>
+<p>医药外品的具体品目由食品医药品安全处告示《医药外品范围指定》规定，功能性化妆品的范围由《化妆品法施行规则》规定。</p>
+<table><thead><tr><th>类别</th><th>法规列举的品目示例</th></tr></thead><tbody>
+<tr><td>医药外品（纤维·橡胶制品等）</td><td>卫生巾、卫生棉条、月经杯；手术用、保健用、飞沫阻隔用口罩；眼罩、绷带、纱布、脱脂棉、创可贴</td></tr>
+<tr><td>医药外品（作用较弱的制剂等）</td><td>牙膏、口腔清新剂、腋臭防止剂、痱子用剂、蚊虫及蜱虫驱避剂、隐形眼镜护理用品、人体用外用消毒剂、牙齿美白剂、不含尼古丁的戒烟辅助产品</td></tr>
+<tr><td>医药外品（类似物品）</td><td>口腔清洁湿巾、灭菌棉签与灭菌手套、便携式氧气吸入用品</td></tr>
+<tr><td>功能性化妆品</td><td>美白、改善皱纹、防晒与助晒、染发与脱色、脱毛、缓解脱发症状、缓解痤疮皮肤（限清洁产品）、修复皮肤屏障、淡化妊娠纹红线</td></tr>
+<tr><td>一般化妆品</td><td>符合化妆品定义且不属于上述任何一类的产品</td></tr>
+</tbody></table>
+<p>染发剂和脱发相关产品目前不在医药外品告示目录中，施行规则将其规定为功能性化妆品。但暂时改变发色、以物理方式除毛、或仅通过涂层使头发看起来更粗的产品，不属于功能性范围。建议按以下顺序判断：</p>
+<ol>
+<li>确认使用目的是否为诊断、治疗疾病或产生药理作用；如是，应按医药品研究。</li>
+<li>确认是否属于《医药外品范围指定》告示所列品目。</li>
+<li>如不属于，确认是否标榜功能性化妆品范围内的功效。</li>
+<li>均不属于时，按一般化妆品决定营业登记事项。</li>
+</ol>
+
+<h2>程序比较 — 申报·许可与登记·审查</h2>
+<p>分类确定后，所需程序的名称也随之不同。医药外品需要<strong>制造业申报</strong>和<strong>品目许可或品目申报</strong>，化妆品需要<strong>营业登记</strong>，功能性化妆品还需<strong>按品目审查或提交报告书</strong>。</p>
+<table><thead><tr><th>比较项目</th><th>医药外品</th><th>化妆品（含功能性）</th></tr></thead><tbody>
+<tr><td>营业程序</td><td>具备设施标准后办理制造业申报</td><td>化妆品制造业或化妆品责任销售业登记</td></tr>
+<tr><td>受理机关</td><td>地方食品医药品安全厅</td><td>制造所或责任销售业所所在地管辖的地方食品医药品安全厅</td></tr>
+<tr><td>品目程序</td><td>按品目办理许可或申报（符合标准制造基准的品目等为申报）</td><td>一般化妆品无品目许可；功能性化妆品须接受安全性·有效性审查或提交报告书</td></tr>
+<tr><td>必备人员</td><td>制造管理者（药师·韩药师；仅制造纤维·橡胶制品等时为经批准的技术人员）</td><td>责任销售业须设责任销售管理者；制造业须符合设施标准</td></tr>
+</tbody></table>
+<p>办理医药外品制造业申报时，须同时就该业种至少一个品目申请许可或办理申报；变更申报事项时也须确认是否需要变更申报。责任销售业的具体要求请参阅<a href="/zh/blog/cosmetics-responsible-distributor">化妆品责任销售业登记指南</a>。</p>
+<p>自行生产化妆品须办理制造业登记，以自己名义流通、销售或进口则须办理责任销售业登记。仅进行二次包装或标示的工序不属于制造。功能性化妆品若与告示品目的成分、含量等相同，可向食品医药品安全评价院长提交报告书代替审查，其他情况须接受审查。相关服务见<a href="/zh/services/cosmetics">化妆品登记</a>与<a href="/zh/services/functional-cosmetics">功能性化妆品审查</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 凭化妆品责任销售业登记，可以生产并销售牙膏或口罩吗？</p><p class="faq-a">A. 牙膏以及手术用、保健用、飞沫阻隔用口罩是告示指定的医药外品。制造这些产品须依《药事法》另行办理制造业申报及品目许可或品目申报。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 防脱发洗发水是医药外品还是功能性化妆品？</p><p class="faq-a">A. 有助于缓解脱发症状的化妆品，依施行规则属于功能性化妆品。仅以物理方式使头发看起来更粗的产品不在该范围内。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 功能性化妆品也需要食药处许可吗？</p><p class="faq-a">A. 不是许可，而是按品目接受安全性·有效性审查或提交报告书，由化妆品制造业者、责任销售业者或总理令规定的大学·研究所等办理。</p></div>
+</div>
+
+<div class="cta-block"><h3>请同时确认产品分类与许可路径</h3><p>产品属于医药外品还是化妆品，所需设施、人员和材料都不同。유선행정사사무소（代表行政士 정유선）将根据产品信息一并审查分类及所需申报·登记程序。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">申请咨询</a></div>
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'quasi-drug-vs-cosmetics-classification',
+    locale: 'ja',
+    title: '韓国の医薬外品と化粧品の違い — 法的定義・該当品目・製造業申告と化粧品登録の比較',
+    metaTitle: '韓国の医薬外品と化粧品の違い — 定義と手続きの比較',
+    metaDescription: '韓国法で医薬外品と化粧品はどう区別されるのか。法的定義、告示で指定された医薬外品の品目、機能性化粧品の範囲、製造業申告・品目許可と化粧品登録・審査の違いを整理しました。',
+    category: '医薬外品・化粧品',
+    excerpt: '韓国では、医薬外品は「薬事法」に基づく製造業申告と品目許可または品目申告、化粧品は「化粧品法」に基づく製造業・責任販売業の登録、機能性化粧品はさらに審査または報告書提出が必要です。',
+    content: `<div class="toc"><p>目次</p><ol><li>法的定義から異なります</li><li>どの製品がどちらに当たるか</li><li>手続きの比較 — 申告・許可と登録・審査</li><li>よくある質問</li></ol></div>
+<p><strong>韓国における医薬外品と化粧品の違いは、適用される法律と営業手続きにあります。</strong>医薬外品（의약외품）は「薬事法」に基づき食品医薬品安全処長が指定する物品であり、化粧品は「化粧品法」の定義に当たる物品です。どちらに分類されるかによって、製造業申告と品目許可を行うのか、化粧品製造業・責任販売業の登録を行うのかが決まります。</p>
+
+<h2>法的定義から異なります</h2>
+<p>「化粧品法」は化粧品を、人体を清潔・美化して魅力を加え、容貌を明るく変化させ、または皮膚・毛髪の健康を維持・増進するために、塗る・こする・噴霧するなどの方法で使用する物品であって、<strong>人体への作用が軽微なもの</strong>と定義しています。「薬事法」上の医薬品に当たる物品は化粧品から除かれます。</p>
+<p>「薬事法」は医薬外品を、次の三つのいずれかに当たる物品で<strong>食品医薬品安全処長が指定するもの</strong>と定義しています。疾病の診断・治療や薬理学的作用を目的とする物品は、医薬外品ではなく医薬品となります。</p>
+<ul>
+<li>疾病の治療・軽減・処置または予防を目的に使用される繊維・ゴム製品またはこれに類するもの</li>
+<li>人体への作用が弱いか人体に直接作用せず、器具・機械ではないもの及びこれに類するもの</li>
+<li>感染症予防のため殺菌・殺虫及びこれに類する用途に使用される製剤</li>
+</ul>
+<p>機能性化粧品は別の法律ではなく<strong>化粧品の一種</strong>であり、美白・しわ改善・紫外線防止など法定の効能に役立つ化粧品で、総理令で定めるものを指します。</p>
+
+<h2>どの製品がどちらに当たるか</h2>
+<p>医薬外品の具体的な品目は食品医薬品安全処の告示「医薬外品範囲指定」が、機能性化粧品の範囲は「化粧品法施行規則」が定めています。</p>
+<table><thead><tr><th>区分</th><th>法令に挙げられた品目の例</th></tr></thead><tbody>
+<tr><td>医薬外品（繊維・ゴム製品など）</td><td>生理用ナプキン・タンポン・月経カップ、手術用・保健用・飛沫遮断用マスク、眼帯・包帯・ガーゼ・脱脂綿・絆創膏</td></tr>
+<tr><td>医薬外品（作用の弱い製剤など）</td><td>歯磨き剤、口中清涼剤、腋臭防止剤、あせも・ただれ用剤、蚊・ダニ忌避剤、コンタクトレンズケア用品、人体用外用消毒剤、歯牙美白剤、ニコチンを含まない禁煙補助製品</td></tr>
+<tr><td>医薬外品（類似物品）</td><td>口腔清浄用ウェットティッシュ、滅菌綿棒・滅菌手袋、携帯用酸素吸入用品</td></tr>
+<tr><td>機能性化粧品</td><td>美白、しわ改善、紫外線防止・日焼け、染毛・脱染・脱色、除毛、脱毛症状の緩和、にきび肌の緩和（洗浄製品に限る）、皮膚バリア機能の回復、妊娠線の赤みの緩和</td></tr>
+<tr><td>一般化粧品</td><td>化粧品の定義に合い、上記のいずれにも当たらない製品</td></tr>
+</tbody></table>
+<p>染毛剤と脱毛関連製品は現在の医薬外品告示の目録になく、施行規則が機能性化粧品として定めています。ただし一時的に髪色を変える製品、物理的に体毛を除去する製品、コーティングなどで髪を太く見せるだけの製品は機能性の範囲から外れます。分類は次の順序で確認するのが安全です。</p>
+<ol>
+<li>使用目的が疾病の診断・治療や薬理学的作用かを確認します。該当すれば医薬品として検討します。</li>
+<li>「医薬外品範囲指定」告示の目録に当たる品目かを確認します。</li>
+<li>当たらなければ、機能性化粧品の範囲に入る効能を標榜しているかを確認します。</li>
+<li>いずれにも当たらなければ一般化粧品として営業登録の要否を決めます。</li>
+</ol>
+
+<h2>手続きの比較 — 申告・許可と登録・審査</h2>
+<p>分類が決まると、必要な手続きの名称から変わります。医薬外品は<strong>製造業「申告」</strong>と<strong>品目「許可」または「申告」</strong>、化粧品は<strong>営業「登録」</strong>、機能性化粧品はさらに<strong>品目ごとの「審査」または「報告書提出」</strong>が加わります。</p>
+<table><thead><tr><th>比較項目</th><th>医薬外品</th><th>化粧品（機能性を含む）</th></tr></thead><tbody>
+<tr><td>営業手続き</td><td>施設基準を備えて製造業申告</td><td>化粧品製造業または化粧品責任販売業の登録</td></tr>
+<tr><td>提出先</td><td>地方食品医薬品安全庁</td><td>製造所または責任販売業所の所在地を管轄する地方食品医薬品安全庁</td></tr>
+<tr><td>品目単位の手続き</td><td>品目ごとに品目許可または品目申告（標準製造基準に合う品目などは申告）</td><td>一般化粧品は品目許可なし、機能性化粧品は安全性・有効性の審査または報告書提出</td></tr>
+<tr><td>必要な人員</td><td>製造管理者（薬剤師・韓薬剤師、繊維・ゴム製品などのみ製造する場合は承認を受けた技術者）</td><td>責任販売業は責任販売管理者、製造業は施設基準の充足</td></tr>
+</tbody></table>
+<p>医薬外品の製造業申告をする際は、その業種に属する品目を一つ以上同時に許可申請または申告しなければなりません。申告事項を変更する場合も変更申告の対象か確認が必要です。責任販売業の要件は<a href="/ja/blog/cosmetics-responsible-distributor">化粧品責任販売業登録ガイド</a>をご覧ください。</p>
+<p>自ら化粧品を製造する場合は製造業、自社名で流通・販売または輸入する場合は責任販売業の登録が基準です。二次包装や表示のみの工程は製造に含まれません。機能性化粧品は、告示品目と成分・含量などが同じであれば審査に代えて食品医薬品安全評価院長に報告書を提出し、それ以外は審査を受けます。<a href="/ja/services/cosmetics">化粧品登録</a>と<a href="/ja/services/functional-cosmetics">機能性化粧品審査</a>のご案内もご参照ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 化粧品責任販売業の登録で歯磨き剤やマスクを製造・販売できますか？</p><p class="faq-a">A. 歯磨き剤と手術用・保健用・飛沫遮断用マスクは告示上の医薬外品です。これらを製造するには「薬事法」に基づく製造業申告と品目許可または品目申告が別途必要です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 脱毛防止シャンプーは医薬外品ですか、機能性化粧品ですか？</p><p class="faq-a">A. 脱毛症状の緩和に役立つ化粧品は施行規則上の機能性化粧品です。物理的に髪を太く見せるだけの製品はその範囲から外れます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 機能性化粧品にも食薬処の許可が必要ですか？</p><p class="faq-a">A. 許可ではなく、品目ごとに安全性・有効性の審査を受けるか報告書を提出する手続きです。化粧品製造業者、責任販売業者、または総理令で定める大学・研究所などが行います。</p></div>
+</div>
+
+<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。YouSun Administrative Agencyが製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── urban-guesthouse-change-registration (inhega-daily 2026-10-31) ──
+  {
+    slug: 'urban-guesthouse-change-registration',
+    locale: 'en',
+    title: 'Urban Guesthouse Change Registration in Korea — Business Name and Representative Changes, Succession Report, Suspension Notice',
+    metaTitle: 'Foreign Tourist Urban Guesthouse Change Registration in Korea',
+    metaDescription: 'Urban guesthouse owners in Korea must file a change registration within 30 days of a name or representative change. Succession and closure rules explained.',
+    category: 'Accommodation',
+    excerpt: 'Changed the business name or representative of your registered urban guesthouse? You have 30 days to file a change registration. This guide covers what counts as a change, where to file, the succession report after a transfer and the notice for suspension or closure.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Which changes need a change registration</li><li>Deadline and where to file</li><li>Succession report and suspension or closure notice</li><li>FAQ</li></ol></div>
+<p><strong>A foreign tourist urban guesthouse (외국인관광 도시민박업) is a tourist-use facility business that is <em>registered</em> with the city, county or district head under the Tourism Promotion Act. If the business name or the representative changes after registration, you must apply for a change registration within 30 days of the day the change occurred.</strong> It is a registration system, not a permit or a designation, so changes are recorded with the same office that registered you. If the business itself is taken over, the new operator files a succession report instead, and a suspension of 1 month or more or a closure must be notified.</p>
+<p>Initial requirements and documents are covered in <a href="/en/blog/urban-guesthouse-registration-guide">our urban guesthouse registration guide</a>, and day-to-day operation in <a href="/en/blog/urban-guesthouse-airbnb-operation-guide">our Airbnb host and urban guesthouse operation guide</a>. This page focuses on what happens after registration.</p>
+
+<h2>Which changes need a change registration</h2>
+<p>The Act requires a change registration when an important registered matter set by Presidential Decree changes, and the Enforcement Decree lists those matters by business type. For an urban guesthouse, the item that applies is a change of business name or representative. Changes in the number of rooms appear only as items for tourist accommodation businesses and hanok experience businesses, so they are not listed as change registration items for urban guesthouses.</p>
+<table><thead><tr><th>What changes</th><th>What to do</th></tr></thead><tbody>
+<tr><td>Business name</td><td>Change registration within 30 days</td></tr>
+<tr><td>Representative</td><td>Change registration within 30 days</td></tr>
+<tr><td>Number of rooms or floor area of the house</td><td>Not on the list, but recorded in the registry — confirm with the registering office before any works</td></tr>
+<tr><td>Transfer of the business, or takeover of the facilities by auction and similar procedures</td><td>Succession report within 1 month of succession</td></tr>
+<tr><td>Suspension of 1 month or more, or closure</td><td>Suspension or closure notice within 30 days</td></tr>
+</tbody></table>
+<p>The reason to be careful with room changes is the registration standards. If the business no longer meets them, the office may cancel the registration, suspend the business for up to 6 months or order improvements. An urban guesthouse is run by a resident of an urban area in the detached house, multi-household house, apartment, row house or multi-family house where that person lives. The main standards are:</p>
+<ul><li>total floor area of the house under 230㎡</li><li>a system able to provide guidance in foreign languages</li><li>at least 1 fire extinguisher, a stand-alone smoke detector in every guest room, and a carbon monoxide alarm where heating is individual</li></ul>
+
+<h2>Deadline and where to file</h2>
+<p>File the tourism business change registration application, with documents proving the change, with the head of the special self-governing city or province, city, county or district within 30 days of the change. If the application meets the standards, an amended registration certificate is issued.</p>
+<ol><li>Fix the date the change occurred, such as the day the name changed or the new representative took office.</li><li>Count 30 days from that date as your filing deadline.</li><li>Complete the change registration application and prepare documents showing the situation before and after the change.</li><li>Submit them to the registering office, such as the city, county or district office that issued your certificate.</li><li>Keep the amended registration certificate at the premises.</li></ol>
+<p>Missing the deadline leads, under the disposition standards, to a corrective order for the 1st violation, a 15-day business suspension for the 2nd, a 1-month suspension for the 3rd and cancellation of registration for the 4th. Name changes are easy to forget while updating signs and booking platforms, so schedule the filing on the day you rename.</p>
+
+<h2>Succession report and suspension or closure notice</h2>
+<p>A person who takes over an urban guesthouse succeeds to the operator's rights and duties under the registration. So does a person who acquires all the land, buildings and standard facilities through an auction, a bankruptcy sale or a sale of seized property. The successor must submit a tourism business transfer (succession) report to the registering office within 1 month of succession, and the office accepts the report if it complies with the Act.</p>
+<p>Attach a document with the successor's name and resident registration number (a foreign national submits proof of no disqualification) and proof of the transfer including a list of the facilities taken over. Cancellation, suspension or improvement orders against the previous operator also carry over unless the successor proves they did not know. Because the business assumes the operator lives in the house, check that the successor will live there too.</p>
+<p>If you suspend all or part of the business for 1 month or more, or close it, you must notify the registering office within 30 days of the suspension or closure. A tax office closure report may be filed together, and once a closure is reported to the tax office, the registering office may cancel the registration ex officio. A late succession report can lead to a corrective order for the 1st violation, and failing to notify a suspension or closure can lead to cancellation at the 2nd.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do I need a change registration if I add 1 room?</p><p class="faq-a">A. The room-number item in the Decree applies only to tourist accommodation and hanok experience businesses. However, the number of rooms is recorded in the registry and the house must stay under 230㎡, so confirm the procedure with the registering office before construction.</p></div>
+<div class="faq-item"><p class="faq-q">Q. I only changed the business name. Do I still have to file?</p><p class="faq-a">A. Yes. A name change, like a representative change, is a change registration item for urban guesthouses. File within 30 days.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if I hand the business over to a family member?</p><p class="faq-a">A. If the operator changes through a transfer, the new operator files a succession report within 1 month of succession. Also confirm whether the successor must live in the house.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do I need to notify a break of a few weeks in the off-season?</p><p class="faq-a">A. The Act makes a suspension of 1 month or more subject to notice. For help with any of these filings, see <a href="/en/services/urban-guesthouse">our urban guesthouse registration service</a>.</p></div>
+</div>
+
+<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>YouSun Administrative Agency helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'urban-guesthouse-change-registration',
+    locale: 'zh',
+    title: '外国人观光城市民宿业变更登记 — 商号·代表人变更期限、地位继承申报与停业·歇业通报',
+    metaTitle: '外国人观光城市民宿业变更登记 — 30日期限·地位继承申报·停业歇业通报',
+    metaDescription: '外国人观光城市民宿业属于登记业种，商号或代表人变更后须在30日内申请变更登记。本文说明客房数变化时的注意事项、受让后1个月内的地位继承申报及停业·歇业通报。',
+    category: '住宿/旅游',
+    excerpt: '外国人观光城市民宿业登记后，商号或代表人发生变化时须在30日内申请变更登记。本文整理变更登记的对象与提交机关、客房数变化的确认要点、受让经营时的地位继承申报以及停业·歇业通报期限。',
+    content: `<div class="toc"><p>目录</p><ol><li>需要变更登记的事项</li><li>变更登记的期限与提交机关</li><li>受让·地位继承申报与停业·歇业通报</li><li>常见问题</li></ol></div>
+<p><strong>外国人观光城市民宿业（외국인관광 도시민박업）是依据韩国《旅游振兴法》向市长·郡守·区厅长<em>登记</em>的观光客利用设施业。登记后商号或代表人发生变化的，须自变更事由发生之日起30日内申请变更登记。</strong>这是登记制度，而不是许可或指定，因此变更内容同样向原登记机关办理变更登记。若是整个营业被他人受让，则由受让人办理地位继承申报；停业1个月以上或歇业时，须进行通报。</p>
+<p>首次登记的条件与材料请参阅<a href="/zh/blog/urban-guesthouse-registration-guide">外国人城市民宿业登记条件与流程</a>，日常运营请参阅<a href="/zh/blog/urban-guesthouse-airbnb-operation-guide">爱彼迎房东与城市民宿业运营指南</a>。本文只讲登记之后发生的变化。</p>
+
+<h2>需要变更登记的事项</h2>
+<p>《旅游振兴法》规定，已登记事项中由总统令规定的重要事项发生变更时须办理变更登记，施行令按业种列出了这些事项。适用于外国人观光城市民宿业的是商号或代表人的变更。客房数变更仅列为观光住宿业和韩屋体验业的事项，因此从条文看并不属于城市民宿业的变更登记事项。</p>
+<table><thead><tr><th>变化内容</th><th>应办手续</th></tr></thead><tbody>
+<tr><td>商号变更</td><td>30日内申请变更登记</td></tr>
+<tr><td>代表人变更</td><td>30日内申请变更登记</td></tr>
+<tr><td>客房数·住宅总面积变化</td><td>不在变更登记清单中，但属于登记台账记载事项，施工前应向登记机关确认处理方式</td></tr>
+<tr><td>营业转让·受让，或通过拍卖等接收设施</td><td>自继承之日起1个月内办理地位继承申报</td></tr>
+<tr><td>停业1个月以上或歇业</td><td>30日内提交停业·歇业通报</td></tr>
+</tbody></table>
+<p>调整客房时要格外注意登记标准。不再符合登记标准的，可能被撤销登记、处以6个月以内的停业或改善命令。城市民宿业是城市地区居民利用本人居住的独栋住宅、多户住宅、公寓、联排住宅或多世代住宅经营的业种，主要登记标准如下：</p>
+<ul><li>住宅总面积未满230㎡</li><li>具备可提供外语接待的体制</li><li>配备1个以上灭火器，每间客房安装独立式火灾报警器，采用分户供暖的还须安装一氧化碳报警器</li></ul>
+
+<h2>变更登记的期限与提交机关</h2>
+<p>变更登记须自变更事由发生之日起30日内，将观光事业变更登记申请书连同证明变更事实的材料，提交给特别自治市长·特别自治道知事·市长·郡守·区厅长。申请内容符合登记标准的，将发给变更后的登记证。</p>
+<ol><li>先确定变更事由发生之日，例如商号变更日或新代表人就任日。</li><li>以该日起第30日作为申请期限。</li><li>填写观光事业变更登记申请书，准备能说明变更前后情况的证明材料。</li><li>向核发登记证的市·郡·区厅等登记机关提交。</li><li>领取变更后的登记证并保存在营业场所。</li></ol>
+<p>未在期限内办理变更登记的，按处分标准，第1次违规为纠正命令，第2次停业15日，第3次停业1个月，第4次撤销登记。更换招牌或预订平台名称时容易忘记申请，建议在更名当天同时安排申请日程。</p>
+
+<h2>受让·地位继承申报与停业·歇业通报</h2>
+<p>受让城市民宿业的人继承登记所产生的观光事业者权利与义务。通过拍卖、破产程序中的变价、扣押财产出售等方式接收营业所用土地·建筑物及全部登记标准设施的人，也继承其地位。继承人须自继承之日起1个月内向登记机关提交观光事业受让（地位继承）申报书，登记机关审查后认为符合法律的，予以受理。</p>
+<p>申报书须附上记载继承人姓名与居民登录号码的材料（外国人须提交无欠格事由的证明材料），以及包含设施接收明细的转让·受让证明材料。原经营者受到的撤销·停业处分或改善命令的效力也会转移给继承人，除非受让人能证明当时并不知情。此外，城市民宿业以经营者居住的住宅为前提，因此也要确认继承人是否居住在该住宅。</p>
+<p>全部或部分营业停业1个月以上或歇业的，须通知登记机关，并在停业或歇业之日起30日内提交停业·歇业通报书。可同时提交税务署歇业申报书；向税务署申报歇业后，登记机关可依职权注销登记。迟延地位继承申报的，第1次即为纠正命令；未通报停业·歇业的，第2次可能被撤销登记。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 增加1间客房需要变更登记吗？</p><p class="faq-a">A. 施行令中的客房数变更登记事项只适用于观光住宿业和韩屋体验业。但客房数记载于登记台账，住宅也须保持未满230㎡，施工前请向登记机关确认处理方式。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 只改了商号也要申请吗？</p><p class="faq-a">A. 是的。商号变更与代表人变更同属城市民宿业的变更登记事项，须在变更之日起30日内申请。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 把营业交给家人经营，要办什么手续？</p><p class="faq-a">A. 如果经营者通过转让·受让发生变化，由接手的人自继承之日起1个月内办理地位继承申报，同时确认继承人是否须居住在该住宅。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 淡季只休息几周也要通报吗？</p><p class="faq-a">A. 法律以停业1个月以上作为通报对象。具体办理可参阅<a href="/zh/services/urban-guesthouse">外国人观光城市民宿业登记服务</a>。</p></div>
+</div>
+
+<div class="cta-block"><h3>城市民宿业变更登记与地位继承申报，请在期限内准备</h3><p>유선행정사사무소（代表行政士 정유선）协助准备并提交变更登记、地位继承申报以及停业·歇业通报。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">申请咨询</a></div>
+<p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
+  },
+  {
+    slug: 'urban-guesthouse-change-registration',
+    locale: 'ja',
+    title: '外国人観光都市民泊業の変更登録 — 商号・代表者変更の期限、地位承継申告と休業・廃業通報',
+    metaTitle: '外国人観光都市民泊業の変更登録 — 30日の期限・地位承継申告・休廃業通報',
+    metaDescription: '外国人観光都市民泊業は登録業種のため、商号や代表者が変わったら30日以内に変更登録が必要です。客室数を変える際の確認点、譲受後1か月以内の地位承継申告、休業・廃業通報まで解説します。',
+    category: '宿泊/観光',
+    excerpt: '外国人観光都市民泊業の登録後に商号や代表者が変わった場合は、30日以内に変更登録を申請しなければなりません。変更登録の対象と提出先、客室数を変える際の確認点、営業を引き継いだときの地位承継申告、休業・廃業通報の期限をまとめました。',
+    content: `<div class="toc"><p>目次</p><ol><li>変更登録が必要な事項</li><li>変更登録の期限と提出先</li><li>譲受・地位承継申告と休業・廃業通報</li><li>よくある質問</li></ol></div>
+<p><strong>外国人観光都市民泊業（외국인관광 도시민박업）は、韓国「観光振興法」に基づき市長・郡守・区庁長に<em>登録</em>する観光客利用施設業です。登録後に商号や代表者が変わった場合は、その事由が生じた日から30日以内に変更登録を申請しなければなりません。</strong>許可や指定ではなく登録の制度なので、変更内容も最初に登録した官庁で変更登録として反映します。営業そのものを引き継いだ場合は変更登録ではなく地位承継申告を、1か月以上休む場合や廃業する場合は休業・廃業の通報を行います。</p>
+<p>最初の登録要件と書類は<a href="/ja/blog/urban-guesthouse-registration-guide">外国人都市民泊業登録ガイド</a>で、日々の運営は<a href="/ja/blog/urban-guesthouse-airbnb-operation-guide">エアビーアンドビーのホスト登録と都市民泊業の運営ガイド</a>で扱っています。ここでは登録後に変わる事項に絞って説明します。</p>
+
+<h2>変更登録が必要な事項</h2>
+<p>「観光振興法」は、登録事項のうち大統領令で定める重要事項を変更するときに変更登録をするよう定め、施行令がその項目を業種別に挙げています。外国人観光都市民泊業に当てはまるのは、商号または代表者の変更です。客室数の変更は観光宿泊業と韓屋体験業に限った項目として書かれているため、条文上は都市民泊業の変更登録事項に入っていません。</p>
+<table><thead><tr><th>変わる内容</th><th>必要な手続</th></tr></thead><tbody>
+<tr><td>商号の変更</td><td>30日以内に変更登録を申請</td></tr>
+<tr><td>代表者の変更</td><td>30日以内に変更登録を申請</td></tr>
+<tr><td>客室数・住宅の延べ面積の変更</td><td>変更登録の項目にはないが登録台帳の記載事項のため、工事前に登録官庁へ処理方法を確認</td></tr>
+<tr><td>営業の譲渡・譲受、競売などによる施設の引受け</td><td>承継した日から1か月以内に地位承継申告</td></tr>
+<tr><td>1か月以上の休業または廃業</td><td>30日以内に休業・廃業通報</td></tr>
+</tbody></table>
+<p>客室構成を変えるときに注意すべき理由は登録基準です。登録基準に適合しなくなると、登録取消し、6か月以内の事業停止、改善命令の対象になり得ます。都市民泊業は、都市地域の住民が自ら居住する一戸建て住宅・多世帯住宅・アパート・連立住宅・多世代住宅を利用する業であり、主な登録基準は次のとおりです。</p>
+<ul><li>住宅の延べ面積が230㎡未満であること</li><li>外国語による案内サービスができる体制を整えること</li><li>消火器を1個以上備え、客室ごとに単独警報型感知器を、個別暖房の場合は一酸化炭素警報器も設置すること</li></ul>
+
+<h2>変更登録の期限と提出先</h2>
+<p>変更登録は、変更事由が生じた日から30日以内に、観光事業変更登録申請書に変更事実を証明する書類を添えて、特別自治市長・特別自治道知事・市長・郡守・区庁長に提出します。申請内容が登録基準に適合すれば、変更後の登録証が交付されます。</p>
+<ol><li>商号を変えた日、代表者が交代した日など、変更事由が生じた日をまず確定します。</li><li>その日から30日目を申請期限として設定します。</li><li>観光事業変更登録申請書を作成し、変更前後が分かる証明書類を準備します。</li><li>登録証を受けた市・郡・区庁などの登録官庁に提出します。</li><li>変更後の登録証を受け取り、営業所に保管します。</li></ol>
+<p>期限内に変更登録をしないと、処分基準上、1次違反は是正命令、2次は事業停止15日、3次は事業停止1か月、4次は登録取消しです。看板や予約サイトの表示を変える際に申請を忘れがちなので、商号を変えるその日に申請日程も決めておくと安心です。</p>
+
+<h2>譲受・地位承継申告と休業・廃業通報</h2>
+<p>都市民泊業を譲り受けた人は、登録に基づく観光事業者の権利・義務を承継します。競売、破産手続での換価、差押財産の売却などにより、営業に使う土地・建物と登録基準の施設をすべて引き受けた人も地位を承継します。承継した人は承継した日から1か月以内に観光事業譲受（地位承継）申告書を登録官庁に提出しなければならず、登録官庁は内容が法に適合すれば申告を受理します。</p>
+<p>申告書には、承継人の氏名・住民登録番号を記載した書類（外国人の場合は欠格事由がないことを証明する書類）と、施設引受明細を含む譲渡・譲受の証明書類を添付します。前の事業者が受けた取消し・停止処分や改善命令の効果も承継人に引き継がれ、譲受人がその事実を知らなかったと証明できなければそのまま負うことになります。また都市民泊業は運営者が居住する住宅を前提とする業なので、承継人もその住宅に居住するかを確認する必要があります。</p>
+<p>事業の全部または一部を1か月以上休業したり廃業したりした場合は登録官庁に知らせなければならず、休業または廃業した日から30日以内に休業・廃業通報書を提出します。税務署への廃業申告書を一緒に提出することもでき、税務署に廃業申告をすると登録官庁が職権で登録を抹消することがあります。地位承継申告が遅れると1次で是正命令、休業・廃業を知らせないと2次で登録取消しに至ることがあります。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 客室を1室増やす場合、変更登録が必要ですか。</p><p class="faq-a">A. 施行令の客室数変更登録の項目は観光宿泊業と韓屋体験業にのみ適用されます。ただし客室数は登録台帳に記載され、延べ面積230㎡未満の基準も守る必要があるため、工事前に登録官庁へ処理方法を確認してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 商号だけ変えた場合も申請が必要ですか。</p><p class="faq-a">A. はい。商号の変更は代表者の変更と同じく都市民泊業の変更登録事項であり、変えた日から30日以内に申請します。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 家族に営業を引き継ぐ場合はどうなりますか。</p><p class="faq-a">A. 譲渡・譲受で運営者が変わるなら、引き継いだ人が承継した日から1か月以内に地位承継申告をします。承継人もその住宅に居住する必要があるかを併せて確認してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 閑散期に数週間だけ休む場合も通報が必要ですか。</p><p class="faq-a">A. 法は1か月以上の休業を通報の対象としています。手続の詳細は<a href="/ja/services/urban-guesthouse">外国人観光都市民泊業の登録サービス</a>をご覧ください。</p></div>
+</div>
+
+<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>YouSun Administrative Agencyが、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
+  },
+  // ── venture-confirmation-types-comparison (inhega-daily 2026-11-01) ──
+  {
+    slug: 'venture-confirmation-types-comparison',
+    locale: 'en',
+    title: 'Venture Company Confirmation Types in Korea Compared — Investment, R&D and Innovative Growth',
+    metaTitle: 'Venture Company Confirmation Types in Korea Compared',
+    metaDescription: 'Korea confirms venture companies under three types: investment, R&D and innovative growth. All certificates last 3 years; review deadlines are 30 or 45 days.',
+    category: 'Business Certification',
+    excerpt: 'Korean venture company confirmation has three types: venture investment, R&D and innovative growth. Which one fits depends on investment, an in-house research institute and your stage, and the result deadline is 30 or 45 days. Companies still being founded fall under innovative growth.',
+    content: `<div class="toc"><p>Contents</p><ol><li>The three types at a glance</li><li>Requirements and evaluation by type</li><li>Procedure, notice and objection deadlines</li><li>FAQ</li></ol></div>
+<p><strong>Under the Act on Special Measures for the Promotion of Venture Businesses, a venture company is confirmed under one of three types — venture investment, R&D, or innovative growth. Every type requires the company to be a small or medium enterprise, and the venture company confirmation certificate is valid for 3 years from the confirmation date.</strong> The Act has no separate "pre-venture" type; a company still being founded is evaluated under the innovative growth type. Evaluation content and result deadlines differ, so choosing the right type comes first.</p>
+<p>For what happens after expiry, see <a href="/en/blog/venture-innobiz-certification-guide">our venture and Inno-Biz guide</a>; for tax support after confirmation, see <a href="/en/blog/venture-tax-benefits">venture company tax benefits</a>; for the research institute needed for the R&D type, see <a href="/en/blog/corporate-research-lab-establishment-guide">our corporate research institute guide</a>.</p>
+
+<h2>The three types at a glance</h2>
+<p>All three types require SME status under the Framework Act on Small and Medium Enterprises, and businesses in excluded industries set by Presidential Decree, such as general entertainment bars, cannot be venture companies. On top of that, the company must meet one of the following types.</p>
+<table><thead><tr><th>Item</th><th>Venture investment</th><th>R&D</th><th>Innovative growth</th></tr></thead><tbody>
+<tr><td>Core requirement</td><td>Investment from eligible investors and its share of capital meet the thresholds</td><td>Recognized research institute or unit; R&D spending and R&D-to-sales ratio meet the thresholds</td><td>Excellent technological innovation and business growth potential</td></tr>
+<tr><td>What is evaluated</td><td>Whether the investment requirement is met</td><td>Growth potential (competitiveness, market size and outlook)</td><td>Technology, competitiveness, market size and outlook</td></tr>
+<tr><td>Result deadline</td><td>30 days from the request</td><td>45 days</td><td>45 days</td></tr>
+<tr><td>Objection decision</td><td>20 days from the objection</td><td>30 days</td><td>30 days</td></tr>
+<tr><td>Company being founded</td><td>No</td><td>No</td><td>Included</td></tr>
+</tbody></table>
+
+<h2>Requirements and evaluation by type</h2>
+<p><strong>Venture investment type:</strong> investment must come from investors listed in the law, such as venture capital companies and funds, new technology business finance companies and funds, Korea Venture Investment Corp., individual investment associations, accelerators, the Korea Technology Finance Corporation and professional individual investors. Total investment must reach the amount set by the Enforcement Decree, and its share of capital must be at least 10% (7% for a corporation that is a cultural content producer).</p>
+<p><strong>R&D type:</strong> the company must have a recognized corporate research institute or dedicated R&D department (or a corporate creative research institute or unit). Annual R&D spending must reach the amount set by the Decree, and R&D spending must be at least 5% of annual sales and at least the ratio announced for the industry, calculated over the 4 quarters before the quarter of the request. The sales ratio does not apply to companies within 3 years of founding.</p>
+<p><strong>Innovative growth type:</strong> no investment or research institute is assumed. The confirmation institution evaluates technological innovation and business growth potential under criteria announced by the Minister of SMEs and Startups.</p>
+
+<h2>Procedure, notice and objection deadlines</h2>
+<ol><li>Pick the type based on what you already meet: eligible investment points to the investment type, a recognized institute with R&D spending to the R&D type, and otherwise, or if still founding, the innovative growth type.</li><li>Submit the prescribed application with documents proving the requirements to the head of the venture company confirmation institution.</li><li>The institution reviews the documents and may have specialist bodies review them and inspect the site.</li><li>After review by the confirmation committee, the result is notified within 30 days for the investment type and 45 days for the other two, extendable once by up to 20 days.</li><li>If confirmed, a certificate valid for 3 years is issued.</li></ol>
+<p>If you disagree, file a written objection within 30 days of the notice. The institution must answer within 30 days (20 days for the investment type), extendable once by up to 15 days. Confirmation obtained by false means must be cancelled, and it may be cancelled after a hearing if requirements are no longer met or there is no business activity for 6 months due to suspension or closure.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Can a founder who has not yet incorporated be confirmed?</p><p class="faq-a">A. The Act includes companies being founded in the innovative growth type. Detailed methods are set by ministry notice, so check the institution's guidance first.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does the validity period differ by type?</p><p class="faq-a">A. No. The Decree sets 3 years from the confirmation date for all types.</p></div>
+<div class="faq-item"><p class="faq-q">Q. We are in our 2nd year with little revenue. Is the R&D type possible?</p><p class="faq-a">A. Within 3 years of founding, the R&D-to-sales ratio does not apply, but the institute recognition and annual R&D spending requirements still do.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Which type fits if we have no research institute?</p><p class="faq-a">A. Without eligible investment, consider the innovative growth type. For the R&D type, start with <a href="/en/services/research-lab">research institute recognition</a>.</p></div>
+</div>
+
+<div class="cta-block"><h3>Check which venture confirmation type fits before you apply</h3><p>YouSun Administrative Agency helps with choosing the type, organizing proof documents, preparing the application and objection documents. See <a href="/en/services/venture-cert">our venture confirmation service</a>. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'venture-confirmation-types-comparison',
+    locale: 'zh',
+    title: '韩国风险企业确认类型比较 — 风险投资型、研发型与创新成长型',
+    metaTitle: '韩国风险企业确认类型比较 — 投资型·研发型·创新成长型',
+    metaDescription: '韩国风险企业确认分为风险投资型、研发型和创新成长型三种，确认书有效期均为3年。各类型的条件与评估内容不同，结果通知期限分为30日和45日，异议结果期限也不同。',
+    category: '企业认证',
+    excerpt: '韩国风险企业确认有风险投资型、研发型和创新成长型三种。是否获得投资、是否设有企业附属研究所以及创业阶段不同，适合的类型也不同，结果通知期限分为30日和45日。创业中的企业归入创新成长型。',
+    content: `<div class="toc"><p>目录</p><ol><li>三种确认类型一览</li><li>各类型的条件与评估内容</li><li>确认程序与通知·异议期限</li><li>常见问题</li></ol></div>
+<p><strong>依据韩国《风险企业培育特别法》，风险企业确认分为风险投资型、研发型和创新成长型三种。无论哪种类型都必须是中小企业，风险企业确认书的有效期为自确认之日起3年。</strong>法律中没有单独的“预备风险企业”类型，创业中的企业纳入创新成长型的评估对象。各类型的评估内容和结果通知期限不同，因此第一步是选择适合公司情况的类型。</p>
+<p>有效期届满后的事项请参阅<a href="/zh/blog/venture-innobiz-certification-guide">风险企业与Inno-Biz认证指南</a>，确认后的税收支持请参阅<a href="/zh/blog/venture-tax-benefits">风险企业税收优惠</a>，研发型所需的研究所认定请参阅<a href="/zh/blog/corporate-research-lab-establishment-guide">企业附属研究所设立指南</a>。</p>
+
+<h2>三种确认类型一览</h2>
+<p>三种类型都要求属于《中小企业基本法》规定的中小企业，经营一般娱乐酒吧业等总统令规定行业的企业不属于风险企业。在此基础上，满足以下任一类型的条件即可。</p>
+<table><thead><tr><th>项目</th><th>风险投资型</th><th>研发型</th><th>创新成长型</th></tr></thead><tbody>
+<tr><td>核心条件</td><td>合格投资者的投资总额及其占资本金比例达到标准</td><td>设有经认定的企业附属研究所等，研发支出及其占销售额比例达到标准</td><td>技术创新性与事业成长性优秀</td></tr>
+<tr><td>评估内容</td><td>是否满足投资条件</td><td>成长性（产品·服务竞争力、市场规模与前景）</td><td>技术优秀性、产品·服务竞争力、市场规模与前景</td></tr>
+<tr><td>结果通知期限</td><td>自申请之日起30日</td><td>45日</td><td>45日</td></tr>
+<tr><td>异议结果通知</td><td>自异议申请之日起20日</td><td>30日</td><td>30日</td></tr>
+<tr><td>创业中的企业</td><td>不适用</td><td>不适用</td><td>包括</td></tr>
+</tbody></table>
+
+<h2>各类型的条件与评估内容</h2>
+<p><strong>风险投资型</strong>以法令规定的投资者的投资为标准，包括风险投资公司、风险投资组合、新技术事业金融业者及投资组合、韩国风险投资公司、个人投资组合、创业策划者（加速器）、技术保证基金和专业个人投资者等。投资总额须达到施行令规定的金额，且投资总额占资本金的比例须在10%以上（文化产业制作者法人为7%以上）。</p>
+<p><strong>研发型</strong>的对象是经认定设有企业附属研究所或研发专职部门（或企业附属创作研究所、企业创作专职部门）的企业。年度研发支出须达到施行令规定的金额，研发支出占年度总销售额的比例须在5%以上且不低于按行业公告的比例，以申请日所属季度之前的4个季度为准计算。创业未满3年的企业不适用销售额比例标准。</p>
+<p><strong>创新成长型</strong>不以获得投资或设有研究所为前提，由风险企业确认机构评估技术创新性与事业成长性，具体标准和方法由中小风险企业部长官公告。</p>
+
+<h2>确认程序与通知·异议期限</h2>
+<ol><li>按公司已具备的条件选择类型：获得合格投资选风险投资型，设有经认定的研究所并有研发支出选研发型，两者都不是或仍在创业中则先考虑创新成长型。</li><li>在公告的申请书上附上证明该类型条件的材料，提交给风险企业确认机构负责人。</li><li>确认机构审查材料，必要时委托各领域专业机构进行材料审查和现场实地调查。</li><li>经风险企业确认委员会审议，风险投资型在30日内、其余两型在45日内通知结果，确有必要时可在20日内延长一次。</li><li>符合条件的，签发有效期3年的风险企业确认书。</li></ol>
+<p>不服结果的，可在收到通知之日起30日内以书面形式提出异议，确认机构须在30日内（风险投资型为20日）通知审议结果，并可在15日范围内延长一次。以虚假或不正当方法获得确认的必须撤销；不再符合条件，或因停业·歇业等6个月没有经营活动的，经听证后可被撤销。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 尚未设立法人的预备创业者也能获得确认吗？</p><p class="faq-a">A. 法律规定创新成长型包括创业中的企业。具体评估方法由中小风险企业部公告规定，申请前请一并确认确认机构的说明。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 有效期会因类型不同而不同吗？</p><p class="faq-a">A. 不会。施行令规定所有类型均为自确认之日起3年。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 创业第2年、销售额很少，可以申请研发型吗？</p><p class="faq-a">A. 创业未满3年的，不适用研发支出占销售额比例标准，但仍须具备研究所认定和年度研发支出标准。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 没有研究所适合哪种类型？</p><p class="faq-a">A. 未获得合格投资的，可考虑创新成长型。想申请研发型的，请先了解<a href="/zh/services/research-lab">企业附属研究所认定</a>。</p></div>
+</div>
+
+<div class="cta-block"><h3>申请前先确认适合本公司的风险企业确认类型</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助选择类型、整理证明材料、撰写申请书及准备异议申请材料。详情请参阅<a href="/zh/services/venture-cert">风险企业确认服务</a>。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'venture-confirmation-types-comparison',
+    locale: 'ja',
+    title: '韓国ベンチャー企業確認の類型比較 — ベンチャー投資型・研究開発型・革新成長型',
+    metaTitle: '韓国ベンチャー企業確認の類型比較 — 投資型・研究開発型・革新成長型',
+    metaDescription: '韓国のベンチャー企業確認はベンチャー投資型・研究開発型・革新成長型の3類型で、確認書の有効期間はいずれも3年です。類型ごとに要件と評価内容が異なり、結果通知期限も30日と45日に分かれます。',
+    category: '企業認証',
+    excerpt: '韓国のベンチャー企業確認にはベンチャー投資型・研究開発型・革新成長型の3類型があります。投資の有無、企業附設研究所の有無、創業段階によって合う類型が異なり、結果通知期限も30日と45日に分かれます。創業中の企業は革新成長型に含まれます。',
+    content: `<div class="toc"><p>目次</p><ol><li>3つの確認類型の一覧</li><li>類型別の要件と評価内容</li><li>確認手続と通知・異議申立ての期限</li><li>よくある質問</li></ol></div>
+<p><strong>韓国の「ベンチャー企業育成に関する特別法」上、ベンチャー企業確認の類型はベンチャー投資型・研究開発型・革新成長型の3つで、いずれの類型でも中小企業であることが必要です。ベンチャー企業確認書の有効期間は確認された日から3年です。</strong>法律に「予備ベンチャー」という別の類型はなく、創業中の企業は革新成長型の評価対象に含まれます。類型ごとに評価内容と結果通知期限が異なるため、まず自社に合う類型を選ぶことが出発点です。</p>
+<p>有効期間満了後については<a href="/ja/blog/venture-innobiz-certification-guide">ベンチャー・イノビズ認証ガイド</a>、確認後の税制支援は<a href="/ja/blog/venture-tax-benefits">ベンチャー企業の税制優遇</a>、研究開発型に必要な研究所認定は<a href="/ja/blog/corporate-research-lab-establishment-guide">企業附設研究所設立ガイド</a>をご覧ください。</p>
+
+<h2>3つの確認類型の一覧</h2>
+<p>3類型とも「中小企業基本法」上の中小企業であることが前提で、一般遊興酒店業など大統領令で定める業種を営む企業はベンチャー企業に含まれません。そのうえで、次のいずれかの類型の要件を満たします。</p>
+<table><thead><tr><th>区分</th><th>ベンチャー投資型</th><th>研究開発型</th><th>革新成長型</th></tr></thead><tbody>
+<tr><td>主な要件</td><td>適格投資家の投資金額の合計と資本金に占める投資比率が基準以上</td><td>認定を受けた企業附設研究所等を保有し、研究開発費と売上高比率が基準以上</td><td>技術の革新性と事業の成長性が優秀</td></tr>
+<tr><td>評価内容</td><td>投資要件を満たしているか</td><td>成長性（製品・サービスの競争力、市場規模・見通し）</td><td>技術の優秀性、製品・サービスの競争力、市場規模・見通し</td></tr>
+<tr><td>結果通知期限</td><td>申請日から30日</td><td>45日</td><td>45日</td></tr>
+<tr><td>異議申立ての結果通知</td><td>申立日から20日</td><td>30日</td><td>30日</td></tr>
+<tr><td>創業中の企業</td><td>対象外</td><td>対象外</td><td>含む</td></tr>
+</tbody></table>
+
+<h2>類型別の要件と評価内容</h2>
+<p><strong>ベンチャー投資型</strong>は、ベンチャー投資会社、ベンチャー投資組合、新技術事業金融業者・投資組合、韓国ベンチャー投資、個人投資組合、創業企画者（アクセラレーター）、技術保証基金、専門個人投資家など法令で定める投資家からの投資が基準です。投資金額の合計が施行令で定める金額以上で、資本金に占める投資金額の合計の比率が10%以上（文化産業の制作者である法人は7%以上）でなければなりません。</p>
+<p><strong>研究開発型</strong>は、企業附設研究所または研究開発専担部署（企業附設創作研究所・企業創作専担部署を含む）の認定を受けた企業が対象です。年間研究開発費が施行令で定める金額以上で、年間総売上高に対する研究開発費の比率が5%以上かつ業種別告示比率以上である必要があり、確認申請日が属する四半期の直前4四半期を基準に計算します。売上高比率の基準は、創業後3年を経過していない企業には適用されません。</p>
+<p><strong>革新成長型</strong>は投資の誘致や研究所の保有を前提とせず、ベンチャー企業確認機関が技術の革新性と事業の成長性を評価します。具体的な評価基準と方法は中小ベンチャー企業部長官の告示で定められます。</p>
+
+<h2>確認手続と通知・異議申立ての期限</h2>
+<ol><li>自社がすでに満たす要件から類型を決めます。適格投資を受けていれば投資型、認定研究所があり研究開発費を支出していれば研究開発型、どちらでもないか創業中であれば革新成長型をまず検討します。</li><li>告示された申請書に類型の要件を証明する書類を添えて、ベンチャー企業確認機関の長に提出します。</li><li>確認機関が書類を検討し、必要に応じて分野別の専門機関に書類検討と現場の実地調査を任せます。</li><li>ベンチャー企業確認委員会の審議を経て、投資型は30日、研究開発型・革新成長型は45日以内に結果が通知されます。やむを得ない場合は20日以内で一度延長されます。</li><li>該当すれば有効期間3年のベンチャー企業確認書が発行されます。</li></ol>
+<p>結果に不服がある場合は、通知を受けた日から30日以内に書面で異議を申し立てることができ、確認機関は30日（投資型は20日）以内に審議結果を通知し、15日の範囲で一度延長できます。虚偽や不正な方法で確認を受けた場合は必ず取り消され、要件を満たさなくなった場合や休業・廃業などで6か月間企業活動がない場合は、聴聞を経て取り消されることがあります。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. まだ法人を設立していない予備創業者も確認を受けられますか？</p><p class="faq-a">A. 法律は革新成長型に創業中の企業を含むと定めています。詳しい評価方法は中小ベンチャー企業部の告示で定めるため、申請前に確認機関の案内もあわせてご確認ください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 類型によって有効期間は違いますか？</p><p class="faq-a">A. 違いません。施行令はすべての類型について確認された日から3年と定めています。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 創業2年目で売上がほとんどありませんが、研究開発型は可能ですか？</p><p class="faq-a">A. 創業後3年を経過していなければ売上高比率の基準は適用されません。ただし研究所等の認定と年間研究開発費の基準は満たす必要があります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 研究所がない場合はどの類型が合いますか？</p><p class="faq-a">A. 適格投資を受けていなければ革新成長型を検討します。研究開発型を希望する場合は<a href="/ja/services/research-lab">企業附設研究所の認定</a>から確認してください。</p></div>
+</div>
+
+<div class="cta-block"><h3>自社に合うベンチャー企業確認の類型を申請前に確認しましょう</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、類型の選択、要件証明書類の整理、申請書の作成と異議申立て書類の準備をお手伝いします。詳しくは<a href="/ja/services/venture-cert">ベンチャー企業確認サービス</a>をご覧ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── administrative-license-agency-procedure-flow (inhega-daily 2026-11-02) ──
+  {
+    slug: 'administrative-license-agency-procedure-flow',
+    locale: 'en',
+    title: 'Permit Application Procedure Through an Administrative Agent in Korea — From Delegation to Decision Notice',
+    metaTitle: 'Korean Permit Agency Procedure — Delegation to Decision Notice',
+    metaDescription: 'How a Korean permit filing runs when delegated to an Administrative Agent: scope of delegation, receipt, extensions, progress notices and the written decision.',
+    category: 'Licensing & Permits',
+    excerpt: 'A delegated permit filing in Korea moves through set stages: fixing the scope of delegation, preparing the power of attorney and documents, receipt, extension and progress notices, and the written decision. The Certified Administrative Agents Act and the Civil Petitions Treatment Act set deadlines for each.',
+    content: `<div class="toc"><p>Contents</p><ol><li>The procedure at a glance</li><li>Delegation — scope and power of attorney</li><li>From receipt to decision notice</li><li>FAQ</li></ol></div>
+<p><strong>A permit filing handled by an Administrative Agent runs in this order: you delegate a defined scope of work, the agency receives the application and decides within the processing period, and the result is notified in writing.</strong> An Administrative Agent may, on delegation, act for you in applying for authorizations, permits and licenses or filing reports, and may submit the documents prepared. Agencies set and publish processing periods for each type of statutory petition in advance.</p>
+<p>Supplement requests and returns are covered in <a href="/en/blog/administrative-license-agency-supplement-and-rejection">supplement requests and rejections</a>, the limits of delegable work in <a href="/en/blog/administrative-scrivener-scope-and-limits">scope and limits of an Administrative Agent</a>, and how to check qualifications in <a href="/en/blog/license-scrivener-qualification-check">checking an agent's qualification</a>.</p>
+
+<h2>The procedure at a glance</h2>
+<table><thead><tr><th>Stage</th><th>What happens</th><th>Statutory standard</th></tr></thead><tbody>
+<tr><td>Delegation</td><td>Fix the scope; the agent keeps a work register</td><td>Register kept for 1 year</td></tr>
+<tr><td>Prior review (optional)</td><td>Request an informal review before filing</td><td>Within 30 days for petitions with a period of 30 days or more</td></tr>
+<tr><td>Filing and receipt</td><td>File in writing or electronically; get a receipt</td><td>Online filings received within 8 working hours of arrival</td></tr>
+<tr><td>Processing</td><td>Handle supplements; watch for extension and progress notices</td><td>Progress notice if not finished 30 days after receipt</td></tr>
+<tr><td>Decision notice</td><td>Receive the written result and any permit</td><td>Uncollected documents may be closed 15 days after the expected completion date</td></tr>
+</tbody></table>
+
+<h2>Delegation — scope and power of attorney</h2>
+<p>First decide how much to delegate: drafting, submission, acting on the application, or advice. Work restricted by other laws cannot be done by an Administrative Agent, and only Administrative Agents who have filed a business report may do this work as a business, so check that first. Once delegated, the agent must keep a work register with a serial number, the delegation date, an outline of the work and the client's name and address, and keep it for 1 year.</p>
+<p>The agent may not disclose what they learn on the job, is liable for property damage caused to the client by intent or negligence, and may not refuse delegation without good reason or advertise personal ties to officials. Because the receiving agency may check whether the filer is the petitioner or a delegated person, prepare a power of attorney showing the delegation; the form may differ by agency and petition.</p>
+
+<h2>From receipt to decision notice</h2>
+<ol><li>For petitions involving a heavy financial burden such as buying land, or large losses if refused, you may request a prior review before filing; the result is notified in writing.</li><li>File in writing, including electronic documents. Petitions that need no visit may be filed by the delegated person online or by post. The agency may not ask for documents beyond those set by law, and documents it can verify through shared administrative data or its own records are checked by the officer directly.</li><li>The agency may not hold or refuse receipt, issues a receipt and explains whether documents are complete and the expected processing time. Simple clerical errors may be corrected with your consent.</li><li>If cooperation from other bodies or a site check is needed, the period may be extended once within the original period, and once more with your consent. The reason and expected completion date are notified in writing.</li><li>When processing ends, the result is notified in writing; a refusal must state the reasons and available remedies.</li></ol>
+<p>Workload or staff absence is not a valid reason for extension, and once the period passes you may demand correction. When a permit or report certificate is handed over in person, the agency first checks that the recipient is the petitioner or a delegated person.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Who receives the filing receipt when an agent files?</p><p class="faq-a">A. The receipt is issued to the petitioner; an agent filing in person receives it and passes it on. It may be omitted for filings made without a visit.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can we change or withdraw the application midway?</p><p class="faq-a">A. Yes, before processing is concluded, unless another law or the nature of the petition prevents it.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if there is no result after a month?</p><p class="faq-a">A. If processing is not finished 30 days after receipt, the agency should notify progress and the expected completion date every 30 days, and also on your request.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Must we resubmit documents for a change application?</p><p class="faq-a">A. For a change or renewal of the original petition, documents already submitted are not requested again without special reason. See <a href="/en/blog/administrative-license-permit-specialist-guide">choosing a permit specialist</a>.</p></div>
+</div>
+
+<div class="cta-block"><h3>Prepare your permit filing as one flow, from delegation to decision</h3><p>YouSun Administrative Agency helps fix the scope, prepare applications and documents, file on your behalf, respond to supplements and confirm the decision. The scope of work is explained during consultation. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'administrative-license-agency-procedure-flow',
+    locale: 'zh',
+    title: '韩国许可代办流程 — 从确定行政士委托范围到受理、处理期限延长与处分通知',
+    metaTitle: '韩国许可代办流程 — 从行政士委托到民愿受理与处分通知',
+    metaDescription: '在韩国委托行政士代办许可时，依次经过确定委托范围、民愿受理、处理期限延长与进度通知，最后以书面形式收到处分结果。受理证发放、延长理由通知及拒绝理由与救济程序的告知均由法律规定。',
+    category: '许可与执照',
+    excerpt: '韩国许可代办依次经过确定委托范围、准备委托书与材料、民愿受理与受理证、处理期限延长与进度通知、处分结果通知与领取。《行政士法》和《民愿处理法》对各阶段的期限与确认事项都有规定。',
+    content: `<div class="toc"><p>目录</p><ol><li>许可代办流程一览</li><li>委托阶段 — 确定范围与委托书</li><li>从受理到处分通知</li><li>常见问题</li></ol></div>
+<p><strong>许可代办流程的顺序是：确定交给行政士的业务范围并委托，行政机关受理民愿并在处理期限内作出处分，再以书面形式通知结果。</strong>行政士可受委托代理认可·许可·执照申请和申报，或代为提交所写材料；行政机关须按种类事先确定并公布法定民愿的处理期限。</p>
+<p>提交后的补正与退回请参阅<a href="/zh/blog/administrative-license-agency-supplement-and-rejection">许可代办中的补正要求与退回</a>，可委托业务的界限请参阅<a href="/zh/blog/administrative-scrivener-scope-and-limits">行政士业务范围与委托界限</a>，资格确认方法请参阅<a href="/zh/blog/license-scrivener-qualification-check">许可行政士资格确认</a>。</p>
+
+<h2>许可代办流程一览</h2>
+<table><thead><tr><th>阶段</th><th>主要事项</th><th>法定标准</th></tr></thead><tbody>
+<tr><td>委托</td><td>确定范围，行政士制作业务处理簿</td><td>业务处理簿保存1年</td></tr>
+<tr><td>事前审查（可选）</td><td>正式申请前请求简易审查</td><td>处理期限30日以上的民愿在30日内处理</td></tr>
+<tr><td>申请·受理</td><td>以书面或电子文件申请，领取受理证</td><td>电子民愿窗口送达后8个工作小时内受理</td></tr>
+<tr><td>处理</td><td>应对补正，留意延长与进度通知</td><td>受理后30日仍未完成的，通知进度</td></tr>
+<tr><td>处分通知</td><td>领取书面结果及许可证等</td><td>自预定完成日起超过15日未领取的可终结</td></tr>
+</tbody></table>
+
+<h2>委托阶段 — 确定范围与委托书</h2>
+<p>首先确定委托到哪一步：材料撰写、代为提交、申请代理还是咨询。其他法律限制的业务行政士不能办理，确定范围时一并确认。除其他法律允许的情形外，非行政士不得以此为业，因此也要先确认对方是否为已完成业务申报的行政士。行政士受托后须制作记载序号、受托日期、业务概要、委托人地址和姓名等的业务处理簿，并保存1年。</p>
+<p>行政士不得泄露职务上知悉的事实，因故意或过失给委托人造成财产损失的须承担赔偿责任；无正当理由拒绝委托、宣扬与公务员的私人关系也被禁止。受理机关可确认申请人是否为本人或受托人，因此应备好能证明委托事实的委托书，格式可能因机关和民愿而异。</p>
+
+<h2>从受理到处分通知</h2>
+<ol><li>需要购买土地等经济负担较大的民愿，或被拒绝时损失较大的民愿，可在正式申请前请求事前审查，结果以书面通知。</li><li>民愿以书面（含电子文件）申请，无需到访的民愿可由受托人通过网络或邮寄提交。机关不得要求法令规定以外的材料，可通过行政信息共同利用或本机关公簿确认的材料由负责人直接确认，无需另行提交。</li><li>机关不得保留或拒绝受理，须发给受理证，并说明材料是否齐全及预计处理时间。简单笔误可经申请人同意依职权更正。</li><li>需要相关机关协助或现场确认的，可在原处理期限范围内延长一次，仍难完成的经申请人同意再延长一次，延长理由与预定完成日以书面通知。</li><li>处理完毕后以书面通知结果；拒绝的，须同时写明拒绝理由与救济程序。</li></ol>
+<p>单纯业务繁忙或负责人缺席不能作为延长理由，超过处理期限的，申请人可要求纠正。直接领取许可证、申报证明等文件时，机关会先确认领取人是民愿人本人或受托人。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 委托行政士后，受理证由谁领取？</p><p class="faq-a">A. 受理证发给民愿人，受托行政士到访提交时当场领取后转交。未到访提交的民愿可省略发放受理证。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申请过程中可以修改或撤回吗？</p><p class="faq-a">A. 在处理终结前可以补正、变更或撤回，但其他法律另有规定或依性质不能的除外。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 超过一个月仍无结果怎么办？</p><p class="faq-a">A. 受理后30日仍未处理完毕的，原则上机关须每30日通知进度和预定完成日，申请人提出要求时也须通知。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 变更申请时需要重新提交已交过的材料吗？</p><p class="faq-a">A. 原民愿内容变更或更新申请时，若无特殊理由，不会再次要求已提交的材料。选择行政士的标准请参阅<a href="/zh/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。</p></div>
+</div>
+
+<div class="cta-block"><h3>许可申请，从委托到处分通知一次理顺</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助确定委托范围、撰写申请书与必备材料、代理提交、应对补正并确认处分结果。具体办理范围在咨询时说明。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'administrative-license-agency-procedure-flow',
+    locale: 'ja',
+    title: '韓国の許認可代行手続 — 行政士への委任範囲の確定から受付・処理期間延長・処分通知まで',
+    metaTitle: '韓国の許認可代行手続 — 行政士への委任から民願受付・処分通知まで',
+    metaDescription: '韓国で許認可を行政士に委任すると、委任範囲の確定、民願の受付、処理期間の延長と進行状況の通知を経て、処分結果を書面で受け取る流れになります。受付証の交付、延長理由の通知、拒否理由と救済手続の通知は法律で定められています。',
+    category: '許認可',
+    excerpt: '韓国の許認可代行は、委任範囲の確定、委任状と書類の準備、民願の受付と受付証、処理期間の延長・進行状況の通知、処分結果の通知と受領という順で進みます。「行政士法」と「民願処理に関する法律」が各段階の期限と確認事項を定めています。',
+    content: `<div class="toc"><p>目次</p><ol><li>許認可代行手続の全体像</li><li>委任段階 — 範囲の確定と委任状</li><li>受付から処分通知まで</li><li>よくある質問</li></ol></div>
+<p><strong>許認可代行の手続は、行政士に任せる業務範囲を定めて委任し、行政機関が民願を受け付けて処理期間内に処分し、その結果が書面で通知されるという順で進みます。</strong>行政士は委任を受けて認可・許可・免許の申請や届出を代理し、作成した書類の提出を代行できます。行政機関は法定民願の処理期間を種類ごとにあらかじめ定めて公表します。</p>
+<p>提出後の補正要求と返戻については<a href="/ja/blog/administrative-license-agency-supplement-and-rejection">許認可代行手続における補正要求と返戻</a>、委任できる業務の限界は<a href="/ja/blog/administrative-scrivener-scope-and-limits">行政士の業務範囲と委任の限界</a>、資格の確認方法は<a href="/ja/blog/license-scrivener-qualification-check">許認可行政士の資格確認</a>をご覧ください。</p>
+
+<h2>許認可代行手続の全体像</h2>
+<table><thead><tr><th>段階</th><th>行うこと</th><th>法律上の基準</th></tr></thead><tbody>
+<tr><td>委任</td><td>範囲の確定、行政士による業務処理簿の作成</td><td>業務処理簿は1年間保管</td></tr>
+<tr><td>事前審査（任意）</td><td>正式申請前に略式審査を請求</td><td>処理期間30日以上の民願は30日以内に処理</td></tr>
+<tr><td>申請・受付</td><td>書面・電子文書で申請し受付証を受領</td><td>電子民願窓口への到達後8勤務時間以内に受付</td></tr>
+<tr><td>処理</td><td>補正への対応、延長・進行状況通知の確認</td><td>受付後30日を過ぎても未完了なら進行状況を通知</td></tr>
+<tr><td>処分通知</td><td>結果文書と許可証等の受領</td><td>処理完了予定日から15日を過ぎて未受領なら終結可能</td></tr>
+</tbody></table>
+
+<h2>委任段階 — 範囲の確定と委任状</h2>
+<p>まず書類作成、提出代行、申請代理、相談のどこまでを任せるかを決めます。他の法律で制限された業務は行政士が行えないため、範囲を決める際にあわせて確認します。他の法律で認められる場合を除き行政士でない者はこの業務を業として行えないため、業務申告を済ませた行政士かどうかも先に確認します。行政士は委任を受けると、一連番号、委任を受けた日、業務の概要、委任者の住所・氏名などを記載した業務処理簿を作成し、1年間保管しなければなりません。</p>
+<p>行政士は職務上知った事実を漏らしてはならず、故意または過失で委任者に財産上の損害を与えた場合は賠償責任を負います。正当な理由なく委任を拒むことや、公務員との私的な縁故を宣伝することも禁止されています。受付機関は申請者が本人か委任を受けた者かを確認できるため、委任の事実を示す委任状を用意しておきます。様式は機関や民願によって異なる場合があります。</p>
+
+<h2>受付から処分通知まで</h2>
+<ol><li>土地の購入など経済的負担が大きい民願や、拒否されると損失が大きい民願は、正式申請の前に事前審査を請求でき、結果は書面で通知されます。</li><li>民願は書面（電子文書を含む）で申請し、訪問が不要な民願は委任を受けた者が情報通信網や郵便で提出できます。機関は法令で定める書類以外を追加で求めることはできず、行政情報の共同利用や機関が保有する公簿で確認できる書類は担当者が直接確認するため、別途提出する必要はありません。</li><li>機関は受付を保留・拒否できず、受付証を交付し、書類の完備状況や予想処理期間などを案内します。単純な誤記は申請者の同意を得て職権で補正できます。</li><li>関係機関の協力や現場確認が必要な場合は処理期間の範囲で一度延長され、それでも難しければ申請者の同意を得てもう一度延長されます。延長理由と処理完了予定日は書面で通知されます。</li><li>処理が終わると結果が書面で通知され、拒否する場合は拒否理由と救済手続もあわせて示されます。</li></ol>
+<p>単なる業務過多や担当者不在は延長理由にならず、処理期間を過ぎた場合、申請者は是正を求めることができます。許可証や届出済証などの文書を直接受け取る際、機関は受領者が民願人本人か委任を受けた者かを確認してから交付します。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 行政士に任せた場合、受付証は誰が受け取りますか？</p><p class="faq-a">A. 受付証は民願人に交付されるもので、委任を受けた行政士が窓口で受け取りお渡しします。訪問せずに申請した民願では交付が省略されることがあります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申請途中で内容を変えたり取り下げたりできますか？</p><p class="faq-a">A. 処理が終結する前であれば補正・変更・取下げができます。他の法律に特別な規定がある場合や性質上できない場合は除きます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 1か月以上結果が出ない場合はどうなりますか？</p><p class="faq-a">A. 受付後30日を過ぎても処理が終わらなければ、機関は進行状況と処理完了予定日を30日ごとに知らせるのが原則で、申請者が求めた場合も知らせなければなりません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 変更申請の際、すでに出した書類をまた出す必要がありますか？</p><p class="faq-a">A. もとの民願の内容変更や更新の申請であれば、特別な理由がない限り提出済みの書類を再度求められることはありません。行政士の選び方は<a href="/ja/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方ガイド</a>をご覧ください。</p></div>
+</div>
+
+<div class="cta-block"><h3>許認可申請は委任から処分通知まで一つの流れで準備を</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、委任範囲の確定、申請書と必要書類の作成、提出の代理、補正への対応、処分結果の確認までお手伝いします。進め方の範囲はご相談時にご案内します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
