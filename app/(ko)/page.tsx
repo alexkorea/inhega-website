@@ -20,6 +20,9 @@ const homeFaqs = [
   { q: '사업자등록 전에 인허가를 먼저 받아야 하나요?', a: '업종에 따라 인허가·등록·신고 시점이 달라 사업자등록과의 선후가 다릅니다. 업종별 서비스 페이지의 등록 절차를 확인한 뒤 순서를 정합니다.' },
   { q: '영업 양도양수나 영업자 지위승계도 행정사가 신고하나요?', a: '업종마다 지위승계 신고 절차가 있으며 서류 작성과 접수는 대행할 수 있습니다. 승계 기한과 서류는 업종 법령에 따라 달라 해당 서비스 페이지에서 확인합니다.' },
   { q: '행정사에게 인허가를 맡기면 어디까지 해 주나요?', a: '업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 행정사 업무 범위 밖입니다. 업종별 요건 검토와 서류 작성, 관청 접수와 보완 요청 대응을 맡습니다.' },
+  // QA1102 B-7: 홈의 글만 블록 두 개(I5 신설)를 FAQ 로 합쳤다 — 겹치지 않던 문장 2개만 새 문항으로.
+  { q: '심사 중 보완 요청이나 현장 확인이 오면 어떻게 하나요?', a: '보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다. 보완 요청·추가 서류 등 심사 과정의 모든 대응을 행정사가 처리합니다.' },
+  { q: '제 업종이 서비스 목록에 없으면 어떻게 하나요?', a: `${getDirectoryCount('ko')}종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.` },
 ]
 
 const homeFaqJsonLd = {
@@ -67,11 +70,19 @@ const process = [
 
 // inhega.com/index 「왜 인허가 업무에 행정사의 도움이 필요할까요?」 이식 — 원문 4블록 그대로
 const whyAttorney = [
-  { title: '복잡한 법령과 절차', desc: '업종별로 상이한 법적 요건과 제출 서류를 정확히 파악해야 합니다.' },
-  { title: '행정기관의 실무 대응', desc: '보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다.' },
-  { title: '시간과 비용 절감', desc: '오류 없는 서류 준비와 전략적 접근으로 불필요한 시간과 비용을 줄일 수 있습니다.' },
-  { title: '허가 실패 리스크 예방', desc: '경험이 부족하면 반려, 지연, 거절 등의 리스크가 높아집니다. 전문행정사의 검토는 곧 안정적인 허가의 시작입니다.' },
+  { icon: 'law', title: '복잡한 법령과 절차', desc: '업종별로 상이한 법적 요건과 제출 서류를 정확히 파악해야 합니다.' },
+  { icon: 'office', title: '행정기관의 실무 대응', desc: '보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다.' },
+  { icon: 'clock', title: '시간과 비용 절감', desc: '오류 없는 서류 준비와 전략적 접근으로 불필요한 시간과 비용을 줄일 수 있습니다.' },
+  { icon: 'shield', title: '허가 실패 리스크 예방', desc: '경험이 부족하면 반려, 지연, 거절 등의 리스크가 높아집니다. 전문행정사의 검토는 곧 안정적인 허가의 시작입니다.' },
 ]
+
+// QA1102 B-7: '왜 행정사' 4블록 아이콘(선 아이콘, 장식용 aria-hidden)
+const WHY_ICONS: Record<string, string> = {
+  law: 'M12 3v18M5 7h14M7 7l-3 7h6l-3-7zm10 0l-3 7h6l-3-7zM8 21h8',
+  office: 'M4 21V8l8-5 8 5v13M9 21v-6h6v6M8 11h.01M12 11h.01M16 11h.01',
+  clock: 'M12 7v5l3 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+  shield: 'M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3zm-3.5 9l2.5 2.5L16 10',
+}
 
 // 서비스 수 = 기존 24종 + 신규 업종 페이지(0949). "N종" 문구는 전부 이 값 — 하드코딩 금지.
 const serviceCount = getDirectoryCount('ko')
@@ -213,6 +224,9 @@ export default function HomePage() {
           <div className={styles.needGrid}>
             {whyAttorney.map((w, i) => (
               <div key={w.title} className={`${styles.needCard} fade-up delay-${i + 1}`}>
+                <span className={styles.needIcon} aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d={WHY_ICONS[w.icon]} /></svg>
+                </span>
                 <h3 className={styles.needTitle}>{w.title}</h3>
                 <p className={styles.needDesc}>{w.desc}</p>
               </div>
@@ -222,17 +236,6 @@ export default function HomePage() {
       </section>
 
 
-      {/* I5 신설 — 기존 홈·FAQ 문장 인용 */}
-      <section className={`section bg-cream`}>
-        <div className="container">
-          <div style={{ maxWidth: '760px' }}>
-            <h2 className={`text-h2 fade-up`}>인허가가 필요한 업종과 사업자등록 전 인허가, 영업자 지위승계·양도양수</h2>
-            <span className="accent-line" style={{ marginTop: '1rem' }} />
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업종에 따라 인허가·등록·신고 시점이 달라 사업자등록과의 선후가 다릅니다. 업종별 서비스 페이지의 등록 절차를 확인한 뒤 순서를 정합니다.</p>
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업종마다 지위승계 신고 절차가 있으며 서류 작성과 접수는 대행할 수 있습니다. 승계 기한과 서류는 업종 법령에 따라 달라 해당 서비스 페이지에서 확인합니다.</p>
-          </div>
-        </div>
-      </section>
 
       {/* PROCESS */}
       <section className={`section bg-navy`}>
@@ -259,18 +262,6 @@ export default function HomePage() {
       </section>
 
 
-      {/* I5 신설 — 기존 홈·FAQ 문장 인용 */}
-      <section className={`section bg-cream`}>
-        <div className="container">
-          <div style={{ maxWidth: '760px' }}>
-            <h2 className={`text-h2 fade-up`}>보완 요청 대응과 업종 추가 인허가</h2>
-            <span className="accent-line" style={{ marginTop: '1rem' }} />
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>보완 요청, 현장 확인 등 관할기관 대응에는 실무 경험이 중요합니다. 보완 요청·추가 서류 등 심사 과정의 모든 대응을 행정사가 처리합니다.</p>
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>업무범위는 서류 작성·접수 대행과 보완 요청 대응까지이며, 소송·행정심판 대리는 행정사 업무 범위 밖입니다.</p>
-            <p className={`text-body-lg`} style={{ marginTop: '1rem' }}>{serviceCount}종 업종 목록에서 해당 업종을 찾아 허가·등록·신고 구분과 요건을 확인하고, 목록에 없으면 상담으로 확인합니다.</p>
-          </div>
-        </div>
-      </section>
 
       {/* WHY US */}
       <section className={`section bg-white`}>

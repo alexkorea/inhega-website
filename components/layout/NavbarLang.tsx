@@ -150,12 +150,18 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
 
       <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
         <nav className={styles.mobileNav}>
+          {/* QA1102 B-2: 상담·견적을 서랍 맨 위에 둔다(13개 분야 목록 끝까지 내려야 보이던 문제). */}
+          <div className={styles.mobileCta}>
+            <Link prefetch={false} href={`${base}/contact`} className="btn btn-primary">{t.nav.quote}</Link>
+            <Link prefetch={false} href={`${base}/contact`} className="btn btn-outline-white">{t.nav.contact}</Link>
+          </div>
           <Link prefetch={false} href={base} className={styles.mobileNavLink}>{t.nav.home}</Link>
           <Link prefetch={false} href={`${base}/about`} className={styles.mobileNavLink}>{t.nav.about}</Link>
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>{t.nav.services}</p>
-            {serviceGroups.map((group) => (
-              <div key={group.id} className={`${styles.mobileServiceGroup} ${group.id === FOCUS_GROUP_ID ? styles.mobileServiceGroupFocus : ''}`}>
+            {/* QA1102 B-2: 중점 업무는 펼친 채로, 13개 분야는 아코디언(details)으로 접는다. */}
+            {serviceGroups.map((group) => group.id === FOCUS_GROUP_ID ? (
+              <div key={group.id} className={`${styles.mobileServiceGroup} ${styles.mobileServiceGroupFocus}`}>
                 <p className={styles.mobileServiceGroupLabel}>{group.label}</p>
                 {group.items.map((s) => (
                   <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
@@ -163,14 +169,22 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                   </Link>
                 ))}
               </div>
+            ) : (
+              <details key={group.id} className={`${styles.mobileServiceGroup} ${styles.mobileAccordion}`}>
+                <summary className={styles.mobileAccordionSummary}>
+                  <span>{group.label}</span>
+                  <span className={styles.mobileAccordionCount}>{group.items.length}</span>
+                </summary>
+                {group.items.map((s) => (
+                  <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
+                    {s.shortTitle}
+                  </Link>
+                ))}
+              </details>
             ))}
           </div>
           <Link prefetch={false} href={`${base}/blog`} className={styles.mobileNavLink}>{t.nav.blog}</Link>
           <Link prefetch={false} href={`${base}/news`} className={styles.mobileNavLink}>{t.nav.news}</Link>
-          <Link prefetch={false} href={`${base}/contact`} className={styles.mobileNavLink}>{t.nav.contact}</Link>
-          <Link prefetch={false} href={`${base}/contact`} className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
-            {t.nav.quote}
-          </Link>
           <LangFlags locale={locale} className={styles.mobileMenuLang} />
         </nav>
       </div>

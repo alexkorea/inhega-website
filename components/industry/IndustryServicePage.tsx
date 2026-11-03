@@ -8,6 +8,7 @@ import { Flag } from '@/components/ui/LangFlags'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
 import { pullLawRefs } from '@/lib/law-refs'
+import { INDUSTRY_CARDS } from '@/lib/industry-cards'
 import {
   getIndustryLocales,
   type IndustryLocale,
@@ -205,12 +206,44 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                       {summary.map((s) => <li key={s}>{s}</li>)}
                     </ul>
                   </div>
-                  {sections.map((s) => (
-                    <div key={s.h2}>
-                      <h2>{s.h2}</h2>
-                      {s.body.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>)}
-                    </div>
-                  ))}
+                  {sections.map((s) => {
+                    // QA1102 B-7: 서류·절차 절은 체크리스트·단계 카드로(lib/industry-cards, 원고 문장 그대로). 없으면 원래 글.
+                    const cards = lang === 'ko' ? INDUSTRY_CARDS[slug] : undefined
+                    if (cards?.docs && cards.docs.h2 === s.h2) {
+                      return (
+                        <div key={s.h2}>
+                          <h2>{s.h2}</h2>
+                          <ul className="svc-checklist">
+                            {cards.docs.items.map((d) => <li key={d}>{d}</li>)}
+                          </ul>
+                          {cards.docs.note && <p className="svc-card-note">{cards.docs.note}</p>}
+                        </div>
+                      )
+                    }
+                    if (cards?.steps && cards.steps.h2 === s.h2) {
+                      return (
+                        <div key={s.h2}>
+                          <h2>{s.h2}</h2>
+                          <ol className="svc-steps">
+                            {cards.steps.items.map((st, i) => (
+                              <li key={st.title}>
+                                <span className="svc-step-num" aria-hidden="true">{i + 1}</span>
+                                <span className="svc-step-title">{st.title}</span>
+                                {st.desc && <span className="svc-step-desc">{st.desc}</span>}
+                              </li>
+                            ))}
+                          </ol>
+                          {cards.steps.note && <p className="svc-card-note">{cards.steps.note}</p>}
+                        </div>
+                      )
+                    }
+                    return (
+                      <div key={s.h2}>
+                        <h2>{s.h2}</h2>
+                        {s.body.split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>)}
+                      </div>
+                    )
+                  })}
                 </section>
 
                 {/* FAQ */}

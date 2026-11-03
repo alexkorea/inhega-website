@@ -409,6 +409,64 @@
   color: white;
 }
 
+/* QA1102 B-2: 서랍 맨 위 상담·견적, 분야 아코디언 */
+.mobileCta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.mobileCta :global(.btn) {
+  justify-content: center;
+  min-height: 48px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+.mobileAccordion {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.mobileAccordionSummary {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 48px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobileAccordionSummary::-webkit-details-marker { display: none; }
+
+.mobileAccordionSummary::after {
+  content: '';
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid rgba(255,255,255,0.6);
+  border-bottom: 2px solid rgba(255,255,255,0.6);
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+
+.mobileAccordion[open] > .mobileAccordionSummary::after { transform: rotate(-135deg); }
+
+.mobileAccordionCount {
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.45);
+}
+
+.mobileAccordion[open] { padding-bottom: 0.5rem; }
+
 /* Responsive */
 .mobileLangSwitch {
   display: none;

@@ -506,3 +506,52 @@
     bottom: 1rem;
   }
 }
+
+/* ========= WHY AN ADMIN AGENT (QA1102 B-7) =========
+   ko 모듈에 needGrid 규칙이 없어 4블록이 글만 줄지어 보였다(en/zh/ja 는 app/page.module.css). 아이콘 카드로. */
+.needGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.needCard {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+}
+
+.needIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #FDF1EA;
+  color: var(--burgundy);
+  margin-bottom: 0.875rem;
+}
+
+.needTitle {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.needDesc {
+  font-size: 0.9rem;
+  color: var(--slate);
+  line-height: 1.75;
+}
+
+@media (max-width: 1024px) {
+  .needGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 560px) {
+  .needGrid { grid-template-columns: 1fr; }
+}

@@ -150,12 +150,18 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
         <nav className={styles.mobileNav}>
+          {/* QA1102 B-2: 상담·견적을 서랍 맨 위에 둔다(13개 분야 목록 끝까지 내려야 보이던 문제). */}
+          <div className={styles.mobileCta}>
+            <Link prefetch={false} href="/contact" className="btn btn-primary">견적 문의</Link>
+            <Link prefetch={false} href="/contact" className="btn btn-outline-white">상담문의</Link>
+          </div>
           <Link prefetch={false} href="/" className={styles.mobileNavLink}>홈</Link>
           <Link prefetch={false} href="/about" className={styles.mobileNavLink}>회사소개</Link>
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>서비스</p>
-            {menuGroups.map((group) => (
-              <div key={group.id} className={`${styles.mobileServiceGroup} ${group.id === FOCUS_GROUP_ID ? styles.mobileServiceGroupFocus : ''}`}>
+            {/* QA1102 B-2: 중점 업무는 펼친 채로, 13개 분야는 아코디언(details)으로 접는다. */}
+            {menuGroups.map((group) => group.id === FOCUS_GROUP_ID ? (
+              <div key={group.id} className={`${styles.mobileServiceGroup} ${styles.mobileServiceGroupFocus}`}>
                 <p className={styles.mobileServiceGroupLabel}>{group.label}</p>
                 {group.items.map((s) => (
                   <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
@@ -163,14 +169,22 @@ export default function Navbar() {
                   </Link>
                 ))}
               </div>
+            ) : (
+              <details key={group.id} className={`${styles.mobileServiceGroup} ${styles.mobileAccordion}`}>
+                <summary className={styles.mobileAccordionSummary}>
+                  <span>{group.label}</span>
+                  <span className={styles.mobileAccordionCount}>{group.items.length}</span>
+                </summary>
+                {group.items.map((s) => (
+                  <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>
+                    {s.shortTitle}
+                  </Link>
+                ))}
+              </details>
             ))}
           </div>
           <Link prefetch={false} href="/blog" className={styles.mobileNavLink}>블로그</Link>
           <Link prefetch={false} href="/news" className={styles.mobileNavLink}>인허가 뉴스</Link>
-          <Link prefetch={false} href="/contact" className={styles.mobileNavLink}>상담문의</Link>
-          <Link prefetch={false} href="/contact" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>
-            견적 문의
-          </Link>
           <LangFlags locale="ko" className={styles.mobileMenuLang} />
         </nav>
       </div>

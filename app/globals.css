@@ -173,6 +173,21 @@ body {
   overflow-wrap: break-word;
 }
 
+/* QA1102 A-2·B-6: zh·ja 글자 크기 섞임. 한자가 'Pretendard Fallback KR'(로컬 NanumGothic·Apple SD Gothic Neo,
+   size-adjust 86.4%)과 PingFang 으로 갈려 그려졌다(390px zh 홈 h1 실측 NanumGothic 5자·PingFang SC 10자).
+   한국어 폴백 면을 빼고 라틴은 Pretendard, 한자·가나는 그 언어의 CJK 서체 하나로 떨어지게 한다. */
+html:lang(zh) {
+  --font-cjk: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', 'Noto Sans CJK SC', 'Source Han Sans SC', 'WenQuanYi Micro Hei';
+}
+html:lang(ja) {
+  --font-cjk: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'YuGothic', 'Meiryo', 'Noto Sans JP', 'Noto Sans CJK JP', 'Source Han Sans JP';
+}
+html:lang(zh), html:lang(ja) {
+  --font-serif: var(--font-kr-face), 'Pretendard Variable', 'Pretendard', 'Pretendard Fallback Latin', var(--font-cjk), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-sans: var(--font-kr-face), 'Pretendard Variable', 'Pretendard', 'Pretendard Fallback Latin', var(--font-cjk), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Outfit', var(--font-kr-face), 'Pretendard Variable', 'Pretendard', 'Pretendard Fallback Latin', var(--font-cjk), sans-serif;
+}
+
 /* 띄어쓰기 없는 중·일 문장은 keep-all 이면 한 덩어리가 되어 모바일 폭을 넘긴다 */
 html:lang(zh) body,
 html:lang(ja) body {
@@ -615,6 +630,25 @@ input, textarea, select {
 .svc-hold { background: #FFF7ED; border: 1px dashed #C2410C; border-radius: 8px; padding: 0.875rem 1.125rem; margin: 1rem 0; color: #7C2D12; font-size: 0.9375rem; line-height: 1.7; }
 .svc-overview-content li.svc-hold { margin-left: 0; list-style: none; }
 .svc-overview-content .svc-hold strong { color: #7C2D12; }
+/* QA1102 B-7: 업종 페이지 서류 체크리스트·절차 단계 카드(lib/industry-cards) */
+.svc-overview-content ul.svc-checklist { list-style: none; margin: 0.75rem 0 1rem; padding: 0; display: grid; grid-template-columns: 1fr; gap: 0.5rem; }
+.svc-overview-content ul.svc-checklist li { position: relative; margin: 0; padding: 0.75rem 0.875rem 0.75rem 2.5rem; background: var(--white); border: 1px solid var(--border); border-radius: 10px; line-height: 1.6; }
+.svc-overview-content ul.svc-checklist li::before { content: ''; position: absolute; left: 0.875rem; top: 0.95rem; width: 1rem; height: 1rem; border-radius: 4px; background: #FDF1EA; border: 1.5px solid var(--burgundy); }
+.svc-overview-content ul.svc-checklist li::after { content: ''; position: absolute; left: 1.2rem; top: 1.12rem; width: 0.3rem; height: 0.55rem; border: solid var(--burgundy); border-width: 0 2px 2px 0; transform: rotate(45deg); }
+.svc-overview-content ol.svc-steps { list-style: none; margin: 0.75rem 0 1rem; padding: 0; display: grid; grid-template-columns: 1fr; gap: 0.5rem; counter-reset: none; }
+.svc-overview-content ol.svc-steps li { margin: 0; display: grid; grid-template-columns: 2rem 1fr; column-gap: 0.75rem; align-items: start; padding: 0.875rem; background: var(--white); border: 1px solid var(--border); border-left: 4px solid var(--navy); border-radius: 10px; }
+.svc-overview-content .svc-step-num { grid-row: span 2; display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--navy); color: var(--white); font-weight: 700; font-size: 0.9375rem; }
+.svc-overview-content .svc-step-title { font-weight: 700; color: var(--navy); line-height: 2rem; }
+.svc-overview-content .svc-step-desc { grid-column: 2; font-size: 0.875rem; color: var(--slate); line-height: 1.6; }
+.svc-overview-content .svc-card-note { font-size: 0.9rem; color: var(--slate); }
+@media (min-width: 768px) {
+  .svc-overview-content ul.svc-checklist { grid-template-columns: 1fr 1fr; }
+  .svc-overview-content ol.svc-steps { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .svc-overview-content ol.svc-steps li { grid-template-columns: 1fr; border-left-width: 1px; border-top: 4px solid var(--navy); row-gap: 0.375rem; }
+  .svc-overview-content .svc-step-num { grid-row: auto; }
+  .svc-overview-content .svc-step-title { line-height: 1.5; }
+  .svc-overview-content .svc-step-desc { grid-column: 1; }
+}
 .svc-overview-content h3 { color: var(--navy); font-size: 1.0625rem; font-weight: 700; margin: 1.125rem 0 0.5rem; }
 .svc-overview-content table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
 .svc-overview-content th, .svc-overview-content td { border: 1px solid var(--border); padding: 0.625rem 0.75rem; text-align: left; vertical-align: top; color: var(--charcoal); line-height: 1.7; }
@@ -646,6 +680,10 @@ input, textarea, select {
    트랙이 컨테이너에 맞춰지고, 표는 아래 overflow-x 규칙대로 안에서 가로 스크롤된다. */
 .blog-grid > article { min-width: 0; }
 .blog-content table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* QA1102 B-3: 원고 표(마크다운 table)에 테두리·칸 여백 8px·머리행 배경. .comparison-table 은 자체 규칙이 이긴다(선택자 더 구체적). */
+.blog-content table { border-collapse: collapse; margin: 1.25rem 0; font-size: 0.9375rem; line-height: 1.6; }
+.blog-content th, .blog-content td { border: 1px solid var(--border); padding: 8px; text-align: left; vertical-align: top; }
+.blog-content thead th, .blog-content tr:first-child > th { background: #FDF1EA; color: var(--navy); font-weight: 700; }
 
 /* "관련 전문 안내" 카드 — 다른 사무소 사이트로 보내는 링크에만, 해당 문맥 섹션 끝에
    1페이지 1개(맥7 20260927-2000 추가지시). 뼈대는 기존 카드 컴포넌트 .card 와 버튼 .btn.btn-primary

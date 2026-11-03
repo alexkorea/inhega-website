@@ -28,6 +28,9 @@ type FormData = {
 
 export default function QuoteForm() {
   const [step, setStep] = useState(0)
+  // QA1102 B-7: 1단계는 분야 카드부터 고르고, 고른 분야의 서비스만 펼친다(85종 버튼을 한 번에 늘어놓던 것 대신).
+  const [groupId, setGroupId] = useState<string | null>(null)
+  const activeGroup = serviceGroups.find((g) => g.id === groupId) ?? null
   const [form, setForm] = useState<FormData>({
     service: '', businessType: '', timeline: '', details: '',
     name: '', phone: '', email: '',
@@ -106,11 +109,29 @@ export default function QuoteForm() {
               <div>
                 <h2 className="text-h2" style={{ color: 'var(--navy)', marginBottom: '0.5rem' }}>어떤 인허가가 필요하신가요?</h2>
                 <p style={{ color: 'var(--slate)', marginBottom: '2rem', fontSize: '0.9375rem' }}>{serviceCount}종 인허가 중 해당하는 서비스를 선택해주세요.</p>
-                {serviceGroups.map((g) => (
-                  <div key={g.id} className={styles.pickGroup}>
-                    <p className={styles.pickGroupTitle}>{g.label}</p>
+                {!activeGroup ? (
+                  <div className={styles.fieldGrid}>
+                    {serviceGroups.map((g) => (
+                      <button
+                        key={g.id}
+                        type="button"
+                        onClick={() => setGroupId(g.id)}
+                        className={styles.fieldCard}
+                        data-selected={g.options.includes(form.service)}
+                      >
+                        <span className={styles.fieldCardTitle}>{g.label}</span>
+                        <span className={styles.fieldCardCount}>{g.options.length}종</span>
+                      </button>
+                    ))}
+                  </div>
+                ) : (
+                  <div className={styles.pickGroup}>
+                    <div className={styles.fieldHead}>
+                      <p className={styles.pickGroupTitle}>{activeGroup.label}</p>
+                      <button type="button" className={styles.fieldBack} onClick={() => setGroupId(null)}>← 다른 분야</button>
+                    </div>
                     <div className={styles.pickGrid}>
-                      {g.options.map((s) => (
+                      {activeGroup.options.map((s) => (
                         <button
                           key={s}
                           onClick={() => update('service', s)}
@@ -122,8 +143,8 @@ export default function QuoteForm() {
                       ))}
                     </div>
                   </div>
-                ))}
-                <div className={styles.pickGrid}>
+                )}
+                <div className={styles.pickGrid} style={{ marginTop: '1rem' }}>
                   <button
                     onClick={() => update('service', serviceOther)}
                     className={styles.selectBtn}
