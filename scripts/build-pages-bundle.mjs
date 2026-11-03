@@ -108,6 +108,33 @@ async function withEarlyHints(response) {
   return patched;
 }
 
+// A-3(INHEGA-QA1102-FIX, 맥7 승인 11-03): 블로그 상세는 빌드 때 프리렌더한 HTML·RSC 를 정적 자산
+// (_blog-static, scripts/blog-static-extract.mjs)에서 읽어 낸다 — 워커 번들에는 상세 라우트·본문이 없다.
+// 응답은 아래 공통 출구(조기 힌트·스크립트 지연·캐시 헤더)를 그대로 탄다. 자산이 없으면(옛 slug·없는 글) 앱으로 넘긴다.
+const BLOG_DETAIL = /^[/](?:(en|zh|ja)[/])?blog[/]([a-z0-9-]+)$/;
+const BLOG_VARY = "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch";
+async function blogStatic(request, url, env) {
+  if (request.method !== "GET" && request.method !== "HEAD") return null;
+  const m = BLOG_DETAIL.exec(url.pathname);
+  if (!m || !env.ASSETS) return null;
+  if (request.headers.get("next-router-segment-prefetch")) return null;
+  const isRsc = request.headers.get("rsc") === "1";
+  const key = "/_blog-static/" + (m[1] || "ko") + "/" + m[2] + (isRsc ? ".rsc" : ".page");
+  const r = await env.ASSETS.fetch(new Request(new URL(key, url.origin).toString(), { method: "GET" }));
+  if (r.status !== 200) { if (r.body) await r.body.cancel(); return null; }
+  const headers = new Headers({
+    "content-type": isRsc ? "text/x-component" : "text/html; charset=utf-8",
+    "cache-control": isRsc ? "s-maxage=31536000" : HTML_CACHE_CONTROL,
+    "vary": BLOG_VARY,
+    "x-opennext": "1",
+    "x-nextjs-prerender": "1",
+    "x-nextjs-stale-time": "300",
+    "x-powered-by": "Next.js",
+    "x-inhega-static": "blog",
+  });
+  return new Response(request.method === "HEAD" ? null : r.body, { status: 200, headers });
+}
+
 // INH-REC-1A(2026-10-11): 옛 slug 의 www 판이 www→apex 301 + 앱 308 두 단계였다(체인).
 // apex 에서 앱 리디렉션(next.config redirects)이 나오면 그 최종 주소로 바로 보낸다.
 async function finalApexUrl(url, request, env, ctx) {
@@ -136,7 +163,9 @@ export default {
       if (request.method === "GET" || request.method === "HEAD") url.href = await finalApexUrl(url, request, env, ctx);
       return Response.redirect(url.toString(), 301);
     }
-    let response = await opennextWorker.fetch(request, env, ctx);
+    // A-3: 정적 원본 폴더는 직접 열지 못하게 앱의 404 로 돌린다.
+    if (url.pathname.startsWith("/_blog-static/")) request = new Request(new URL("/_blog-static-blocked", url.origin).toString(), request);
+    let response = (await blogStatic(request, url, env)) || (await opennextWorker.fetch(request, env, ctx));
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
     if (request.method === "GET") response = await withEarlyHints(response);
@@ -186,6 +215,22 @@ if (fs.existsSync(cacheRoot)) {
   }
 }
 
+// A-3: 블로그 상세 정적 HTML·RSC(.blog-static, build.sh 끝의 blog-static-extract.mjs) → assets/_blog-static.
+// 이번 빌드(.next/BUILD_ID)에서 만든 것만 싣는다 — 중단·재시작된 실행의 옛 산출물로 배포하지 않는다(DEPLOY-LOCK 3).
+{
+  const BS = path.join(process.cwd(), '.blog-static')
+  const buildId = fs.readFileSync(path.join(process.cwd(), '.next', 'BUILD_ID'), 'utf8').trim()
+  const got = fs.existsSync(path.join(BS, 'BUILD_ID')) ? fs.readFileSync(path.join(BS, 'BUILD_ID'), 'utf8').trim() : ''
+  if (got !== buildId) {
+    console.error(`.blog-static 이 이번 빌드(${buildId}) 산출물이 아님(${got || '없음'}) — 배포 중단`)
+    process.exit(1)
+  }
+  fs.cpSync(BS, path.join(ASSETS, '_blog-static'), { recursive: true })
+  fs.rmSync(path.join(ASSETS, '_blog-static', 'BUILD_ID'), { force: true })
+  const n = ['ko', 'en', 'zh', 'ja'].map((l) => fs.readdirSync(path.join(ASSETS, '_blog-static', l)).filter((f) => f.endsWith('.page')).length)
+  console.log(`블로그 상세 정적 자산 ko/en/zh/ja = ${n.join('/')}`)
+}
+
 if (!fs.existsSync(path.join(ASSETS, '_routes.json'))) {
   console.error('assets/_routes.json 없음 — public/_routes.json 확인 필요')
   process.exit(1)
@@ -226,12 +271,20 @@ if (!fs.existsSync(path.join(ASSETS, '_routes.json'))) {
 // 수동 배포와 19:00 자동화(daily-blog-4am.mjs cfBuildAndDeploy)가 모두 이 스크립트를 거친다.
 {
   const { spawnSync } = await import('node:child_process')
+  // A-3: 상세 라우트를 빼기 전(build.sh)에 같은 게이트를 이미 통과했으면(이번 BUILD_ID 표식) 다시 돌리지 않는다 —
+  // 지금 .next 로 next start 하면 블로그 상세 표본이 404 라 오판한다.
+  const passMark = path.join(ROOT, '.next', 'bizno-gate.pass')
+  const bid = fs.readFileSync(path.join(ROOT, '.next', 'BUILD_ID'), 'utf8').trim()
+  if (fs.existsSync(passMark) && fs.readFileSync(passMark, 'utf8').trim() === bid) {
+    console.log(`풋터 사업자번호 게이트: build.sh 에서 이미 PASS(BUILD_ID ${bid})`)
+  } else {
   spawnSync('/bin/sh', ['-c', 'lsof -b -w -ti tcp:4396 | xargs kill 2>/dev/null'])
   const g = spawnSync(process.execPath, ['/Users/mac4/scripts/bizno-footer-gate.mjs', 'inhega',
     '--start', 'npx next start -p 4396', '--url', 'http://127.0.0.1:4396', '--sample', '30'], { cwd: ROOT, stdio: 'inherit' })
   if (g.status !== 0) {
     console.error('풋터 사업자번호 게이트 FAIL — 배포 중단')
     process.exit(1)
+  }
   }
 }
 

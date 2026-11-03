@@ -30,3 +30,10 @@ node scripts/nofree-gate.mjs .next/server/app
 node scripts/brandname-gate.mjs .next/server/app
 node scripts/seo-gate.mjs
 node scripts/url-preserve-gate.mjs
+# A-3(INHEGA-QA1102-FIX, 맥7 승인 11-03): 블로그 상세 정적 전용화.
+# 풋터 사업자번호 게이트는 상세 라우트를 빼기 전에 돌린다(next start 표본에 블로그 상세가 섞인다). 통과 표식은 이번 BUILD_ID.
+lsof -b -w -ti tcp:4396 | xargs kill 2>/dev/null || true
+node /Users/mac4/scripts/bizno-footer-gate.mjs inhega --start "npx next start -p 4396" --url http://127.0.0.1:4396 --sample 30
+cp .next/BUILD_ID .next/bizno-gate.pass
+# 상세 776쪽 프리렌더 HTML·RSC → .blog-static, .next 에서 상세 라우트·본문 청크 제거(OpenNext 가 남은 .next 로 워커를 묶는다).
+node scripts/blog-static-extract.mjs

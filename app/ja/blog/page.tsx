@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { blogPosts } from '@/lib/blog-posts-data'
-import { getAllTranslatedSlugs, getBlogI18n } from '@/lib/i18n/blog-i18n'
+// A-3: 목록은 본문 정본 대신 목록 전용 색인(prebuild 생성)을 읽는다 — 워커 번들에서 본문 제외.
+import { LIST_POSTS_I18N } from '@/lib/blog-list-index.generated'
 import type { Metadata } from 'next'
 import gridStyles from '@/app/services-list.module.css'
 import { ogCard } from '@/lib/og-thumbs.generated'
@@ -36,13 +36,9 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
 export default async function JaBlogPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const sp = await searchParams
 
-  const translatedSlugs = getAllTranslatedSlugs('ja')
-  const allPosts = translatedSlugs
-    .map((slug) => {
-      const i18n = getBlogI18n('ja', slug)!
-      const ko = blogPosts.find((p) => p.slug === slug)!
-      return { slug, i18n, ko }
-    })
+  const allPosts = LIST_POSTS_I18N
+    .filter((p) => p.locale === 'ja')
+    .map((i18n) => ({ slug: i18n.slug, i18n, ko: { slug: i18n.slug, created_at: i18n.created_at } }))
     .sort((a, b) => new Date(b.ko.created_at).getTime() - new Date(a.ko.created_at).getTime())
 
   const total = allPosts.length

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { createClient } from '@supabase/supabase-js'
-import { blogPosts } from '@/lib/blog-posts-data'
+// A-3: 목록은 본문 정본 대신 목록 전용 색인(prebuild 생성)을 읽는다 — 워커 번들에서 본문 제외.
+import { LIST_POSTS_KO } from '@/lib/blog-list-index.generated'
 import gridStyles from '@/app/services-list.module.css'
 import { ogCard } from '@/lib/og-thumbs.generated'
 import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, resolveBlogPage } from '@/lib/blog-pagination'
@@ -47,7 +48,7 @@ async function getPosts() {
       // fallthrough to static
     }
   }
-  return [...blogPosts].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+  return [...LIST_POSTS_KO].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
 }
 
 export default async function BlogPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
