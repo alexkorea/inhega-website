@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getPillarView, pillarUi, EXPERTISE_UI, type FocusPageLocale, type PillarView } from '@/lib/focus-pillar-view'
+import { getPillarView, pillarUi, EXPERTISE_UI, SERVICES_HEADING_KW, type FocusPageLocale, type PillarView } from '@/lib/focus-pillar-view'
 import styles from './FocusPillar.module.css'
 
 // 중점 업무 필러(INHEGA-FOCUS-1103) — 중점 6개가 아니면 아무것도 그리지 않는다. ko·en·zh·ja 공용.
@@ -47,7 +47,7 @@ function Expertise({ v }: { v: PillarView }) {
     <>
       {ex.services.length > 0 && (
         <div className={styles.services} id="svc-services">
-          <h2 className={styles.servicesHeading}>{ui.servicesHeading}</h2>
+          <h2 className={styles.servicesHeading}>{ui.servicesHeading.replace('{kw}', SERVICES_HEADING_KW[v.locale]?.[v.slug] ?? v.label)}</h2>
           <ul className={styles.servicesList}>
             {ex.services.map((s) => (
               <li key={s.name}>

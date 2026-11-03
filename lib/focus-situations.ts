@@ -165,7 +165,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-np-npo-registration",
-          "q": "법인 없이 비영리단체로 활동하면서 지원을 받으려면 무엇을 해야 하나요?",
+          "q": "법인 없이 비영리단체로 지원을 받으려면 비영리민간단체 등록을 해야 하나요?",
           "conclusion": "법인 설립 없이 공익활동 지원을 받으려면 비영리민간단체 등록을 검토합니다. 상시 구성원 100인 이상, 최근 1년 이상 공익활동 실적, 구성원 간 이익분배 금지, 불특정 다수가 수혜자일 것 등의 요건을 갖춰 신청합니다.",
           "branches": [
             {
@@ -245,7 +245,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-np-after-setup",
-          "q": "설립 후에 정관이나 임원이 바뀌면 무엇을 해야 하나요?",
+          "q": "설립 후 정관 변경 허가와 임원 변경 등기는 어떻게 하나요?",
           "conclusion": "정관 변경은 총사원 3분의 2 이상 동의(정관에 다른 정수가 있으면 그에 따름)와 주무관청 허가가 있어야 효력이 생기고, 이사 등 등기사항이 바뀌면 3주 안에 변경등기를 합니다. 법인 사무는 설립 후에도 주무관청의 검사·감독을 받습니다.",
           "branches": [
             {
@@ -623,7 +623,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-vs-location-info-business",
-          "q": "위치정보를 직접 수집해 다른 회사에 제공하려면 신고인가요, 등록인가요?",
+          "q": "위치정보를 직접 수집해 다른 회사에 제공하려면 위치정보사업 등록인가요, 신고인가요?",
           "conclusion": "위치정보를 수집해 위치기반서비스사업자에게 제공하는 위치정보사업은, 개인위치정보를 대상으로 하면 방송미디어통신위원회 등록(법인만 가능), 사물 위치정보만 다루면 신고 대상입니다. 수집된 위치를 받아 이용자에게 서비스만 하면 위치기반서비스사업 신고입니다.",
           "branches": [
             {
@@ -645,7 +645,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-iot-vehicle",
-          "q": "배송 차량·공유 킥보드 같은 사물의 위치만 쓰는 서비스도 신고해야 하나요?",
+          "q": "배송 차량·공유 킥보드 같은 사물 위치만 쓰는 서비스도 위치기반서비스사업 신고를 해야 하나요?",
           "conclusion": "특정 개인의 위치를 알 수 없는 사물 위치만 이용하는 위치기반서비스는 신고 대상에서 빠집니다. 다만 기사·대여자 정보와 쉽게 결합해 특정 개인의 위치를 알 수 있으면 개인위치정보로 보아 신고해야 합니다.",
           "branches": [
             {
@@ -703,7 +703,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-change-report",
-          "q": "위치기반서비스 신고 후 회사 이름이나 서버를 바꾸면 다시 신고하나요?",
+          "q": "위치기반서비스사업 신고 후 상호나 서버를 바꾸면 변경신고를 하나요?",
           "conclusion": "상호, 주된 사무소 소재지, 위치정보시스템을 변경하려면 방송미디어통신위원회에 변경신고를 해야 합니다. 서버 등 위치정보시스템을 신고 없이 바꾸면 형사처벌 대상이 될 수 있습니다.",
           "branches": [
             {
@@ -1002,7 +1002,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-change-registration",
-          "q": "화장품책임판매업 등록 후 상호·소재지·책임판매관리자가 바뀌면 어떻게 하나요?",
+          "q": "화장품책임판매업 등록 후 상호·소재지·책임판매관리자가 바뀌면 변경등록은 언제까지 하나요?",
           "conclusion": "화장품책임판매업자(법인은 대표자), 상호, 화장품책임판매업소 소재지, 책임판매관리자, 책임판매 유형이 바뀌면 변경 사유가 생긴 날부터 30일 이내에 변경등록을 해야 합니다. 행정구역 개편으로 소재지가 바뀐 경우는 90일 이내입니다.",
           "branches": [
             {
@@ -1079,6 +1079,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "화장품제조업 등록신청서, 시설 명세서, 품질검사 위탁 계약서(위탁하는 경우)",
           "period": "법정 서식 처리기간: 화장품제조업 등록 15일",
           "href": "/blog/cosmetics-manufacturing-facility-guide"
+        },
+        {
+          "id": "sit-cos-customs-report",
+          "q": "수입 화장품을 통관할 때 표준통관예정보고는 누가 하나요?",
+          "conclusion": "수입된 화장품을 유통·판매하는 화장품책임판매업자가 대외무역법에 따른 수출·수입요령을 지키고 전자무역문서로 표준통관예정보고를 합니다. 표준통관예정보고를 하고 수입한 경우에는 수입실적과 원료 목록 보고를 따로 하지 않을 수 있습니다.",
+          "branches": [
+            {
+              "when": "아직 화장품책임판매업 등록 전인 경우",
+              "then": "먼저 수입 화장품을 유통·판매하는 유형으로 화장품책임판매업을 등록하고 책임판매관리자를 둡니다."
+            },
+            {
+              "when": "표준통관예정보고를 하고 수입하는 경우",
+              "then": "수입실적과 원료 목록 보고를 생략할 수 있습니다. 수입관리기록서는 작성·보관합니다."
+            },
+            {
+              "when": "표준통관예정보고 없이 수입한 경우",
+              "then": "지난해 수입실적은 매년 2월 말까지, 원료 목록은 유통·판매 전까지 화장품업 단체를 통해 식품의약품안전처에 보고합니다."
+            }
+          ],
+          "docs": "화장품책임판매업 등록필증, 수입관리기록서(제조국·제조회사, 제조 및 판매증명서 등), 표준통관예정보고(전자무역문서)",
+          "period": "수입할 때마다 전자무역문서로 보고 / 보고 없이 수입하면 수입실적은 매년 2월 말까지 보고",
+          "href": "/blog/cosmetics-import-sales-registration-guide"
         }
       ]
     },
@@ -1273,7 +1295,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-new-ingredient",
-          "q": "고시되지 않은 원료로 건강기능식품을 만들고 싶으면 어떻게 하나요?",
+          "q": "고시되지 않은 원료로 건강기능식품을 만들려면 개별인정을 받아야 하나요?",
           "conclusion": "식품의약품안전처가 고시하지 않은 원료·성분은 건강기능식품제조업자, 수입·판매업자 등이 안전성·기능성 자료를 제출해 건강기능식품 원료로 인정받아야 사용할 수 있습니다.",
           "branches": [
             {
@@ -1360,6 +1382,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "건강기능식품 영업신고서, 안전위생교육 이수 증명 서류(미리 받은 경우), 본국 발행 서류 또는 공증 진술서(영사 확인 또는 아포스티유)",
           "period": "법정: 신고 수리 여부 3일 이내 통지 / 실무상 본국 서류 준비 기간이 더해집니다",
           "href": "/blog/health-functional-food-sales-registration-guide"
+        },
+        {
+          "id": "sit-hf-overseas-facility",
+          "q": "해외 제조사 건강기능식품을 수입하려면 해외제조업소 등록부터 해야 하나요?",
+          "conclusion": "네. 건강기능식품 등 수입식품을 들여오려면 첫 수입신고 전까지 해외 제조공장의 명칭·소재지·생산 품목 등을 식품의약품안전처에 해외제조업소로 등록해야 합니다. 수입자뿐 아니라 해외 제조공장의 설치·운영자도 신청할 수 있고, 등록하지 않으면 수입신고 수리가 거부될 수 있습니다.",
+          "branches": [
+            {
+              "when": "수입자가 등록하는 경우",
+              "then": "제조공장에서 명칭·소재지·대표자·연락처·생산 품목·영업의 종류 정보와 수출국에서 허가·등록·신고되었음을 증명하는 서류를 받아 식품안전정보원에 신청합니다."
+            },
+            {
+              "when": "수출국 허가·등록 증명서류를 낼 수 없는 경우",
+              "then": "정해진 서식의 해외제조업소 등록정보 확인서로 대신할 수 있습니다."
+            },
+            {
+              "when": "등록 사항이 바뀌거나 유효기간이 끝나가는 경우",
+              "then": "변경 사항은 수입신고 전까지 변경등록을 하고, 등록일부터 2년인 유효기간을 연장하려면 만료 7일 전까지 연장 신청을 합니다."
+            }
+          ],
+          "docs": "해외제조업소 등록신청서, 수출국에서 허가·등록·신고되었음을 증명하는 서류(또는 해외제조업소 등록정보 확인서)",
+          "period": "법정: 첫 수입신고 전까지 등록, 유효기간 2년(만료 7일 전까지 연장 신청)",
+          "href": "/services/import-food-sales"
         }
       ]
     },
@@ -2533,6 +2577,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "Product classification review, formula and claims",
           "period": "Classification before any filing",
           "href": "/en/blog/quasi-drug-vs-cosmetics-classification"
+        },
+        {
+          "id": "sit-cos-customs-report",
+          "q": "Who files the standard customs clearance pre-report (표준통관예정보고) when cosmetics are imported into Korea?",
+          "conclusion": "The cosmetics responsible seller (화장품책임판매업자) registered for selling imported cosmetics files it as an electronic trade document, following the export and import rules under the Foreign Trade Act (대외무역법). A seller that imports with this pre-report may skip the separate import performance report and ingredient list report.",
+          "branches": [
+            {
+              "when": "If no Korean company holds a cosmetics responsible seller registration yet",
+              "then": "A Korean entity first registers as a cosmetics responsible seller for imported cosmetics and appoints a responsible sales manager (책임판매관리자)."
+            },
+            {
+              "when": "If the cosmetics are imported with the pre-report",
+              "then": "The import performance report and ingredient list report may be skipped; the import management record is still kept."
+            },
+            {
+              "when": "If the cosmetics are imported without it",
+              "then": "Last year's import performance is reported by the end of February each year, and the ingredient list before distribution, through a cosmetics industry association to the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처)."
+            }
+          ],
+          "docs": "Cosmetics responsible seller registration certificate, import management record (country and manufacturer, certificate of manufacture and sale, etc.), standard customs clearance pre-report (electronic trade document)",
+          "period": "Filed for each import; without it, import performance is reported by the end of February each year",
+          "href": "/en/blog/cosmetics-import-sales-registration-guide"
         }
       ]
     },
@@ -3973,6 +4039,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "产品与制造方法说明、安全性评估资料、功效证明资料",
           "period": "按上述分阶段日期",
           "href": "/zh/blog/cosmetics-responsible-distributor"
+        },
+        {
+          "id": "sit-cos-customs-report",
+          "q": "化妆品进口韩国通关时，标准通关预定报告（표준통관예정보고）由谁办理？",
+          "conclusion": "由登记为进口化妆品流通销售类型的化妆品责任销售业者（화장품책임판매업자）按照《对外贸易法》（대외무역법）规定的进出口要领，以电子贸易文书办理。办理了标准通关预定报告后进口的，可以不再另行报告进口实绩和原料目录。",
+          "branches": [
+            {
+              "when": "在韩国还没有化妆品责任销售业登记",
+              "then": "先由韩国主体登记为进口化妆品流通销售类型的化妆品责任销售业，并配置责任销售管理人（책임판매관리자）。"
+            },
+            {
+              "when": "办理标准通关预定报告后进口",
+              "then": "可省略进口实绩报告和原料目录报告，但仍须制作并保存进口管理记录。"
+            },
+            {
+              "when": "未办理该报告就进口",
+              "then": "上一年度进口实绩须在每年2月底前、原料目录须在流通销售前，通过化妆品行业团体向食品医药品安全处（MFDS，식품의약품안전처）报告。"
+            }
+          ],
+          "docs": "化妆品责任销售业登记证、进口管理记录（制造国、制造公司、制造及销售证明书等）、标准通关预定报告（电子贸易文书）",
+          "period": "每次进口时办理；未办理的，进口实绩每年2月底前报告",
+          "href": "/zh/blog/cosmetics-import-sales-registration-guide"
         }
       ]
     },
@@ -5477,6 +5565,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "原料・製品の動物実験の有無と経緯がわかる資料（原料メーカーの証明など）",
           "period": "販売開始前に確認",
           "href": "/ja/services/cosmetics"
+        },
+        {
+          "id": "sit-cos-customs-report",
+          "q": "化粧品を韓国に輸入するとき、標準通関予定報告（표준통관예정보고）は誰が行いますか？",
+          "conclusion": "輸入化粧品を流通・販売する類型で登録した化粧品責任販売業者（화장품책임판매업자）が、対外貿易法（대외무역법）の輸出入要領に従い、電子貿易文書で行います。標準通関予定報告をして輸入した場合は、輸入実績と原料目録の報告を別に行わなくてもかまいません。",
+          "branches": [
+            {
+              "when": "韓国でまだ化粧品責任販売業の登録がない場合",
+              "then": "韓国の事業者が輸入化粧品を流通・販売する類型で化粧品責任販売業を登録し、責任販売管理者（책임판매관리자）を置きます。"
+            },
+            {
+              "when": "標準通関予定報告をして輸入する場合",
+              "then": "輸入実績と原料目録の報告を省略できます。輸入管理記録書は作成・保管します。"
+            },
+            {
+              "when": "報告をせずに輸入した場合",
+              "then": "前年の輸入実績は毎年2月末までに、原料目録は流通・販売の前に、化粧品業界団体を通じて食品医薬品安全処（MFDS、식품의약품안전처）に報告します。"
+            }
+          ],
+          "docs": "化粧品責任販売業の登録証、輸入管理記録書（製造国・製造会社、製造及び販売証明書など）、標準通関予定報告（電子貿易文書）",
+          "period": "輸入のたびに行う／報告しない場合、輸入実績は毎年2月末までに報告",
+          "href": "/ja/blog/cosmetics-import-sales-registration-guide"
         }
       ]
     },

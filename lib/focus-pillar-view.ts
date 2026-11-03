@@ -174,7 +174,7 @@ export function pillarServiceJsonLd(v: PillarView, opts: { name: string; descrip
  * 처리 사례 섹션은 두지 않는다(보스 제공 실제 사례가 없음 — 지어내기 금지).
  * ──────────────────────────────────────────────────────────────────────────── */
 export interface ExpertiseUi {
-  servicesHeading: string
+  servicesHeading: string // '{kw}' 자리표시 = SERVICES_HEADING_KW (AI-RECO-1103 11절)
   clientsHeading: string
   glossaryBadge: string
   glossaryHeading: string // '{label}' 자리표시
@@ -185,10 +185,21 @@ export interface ExpertiseUi {
   catalogName: string // '{label}' 자리표시 — Service.hasOfferCatalog 이름
 }
 
+/**
+ * AI-RECO-1103 11절(보스 msg 4822): '처리하는 업무' 소제목에 필러 주 키워드 + 추천형 질문 키워드(대행·代办·代行)를 싣는다.
+ * 키워드 원천: 보스 키워드 통합본 team-relay/seo-keywords/20261002/inhega.co.kr.txt → 매핑표는 보고서(bot-chat/mac4_mac7_AI-RECO-1103-KW.txt)에만.
+ */
+export const SERVICES_HEADING_KW: Record<FocusPageLocale, Record<string, string>> = {
+  ko: { nonprofit: '비영리사단법인 설립 대행', 'telecom-business': '부가통신사업 신고·기간통신사업 등록 대행', 'location-based-service': '위치기반서비스사업 신고 대행', cosmetics: '화장품책임판매업 등록 대행', 'health-food': '건강기능식품 판매업 신고·수입 대행', factory: '공장등록 대행' },
+  en: { nonprofit: 'Nonprofit association registration in Korea', 'telecom-business': 'Value-added telecom business filing in Korea', 'location-based-service': 'Location-based service business report in Korea', cosmetics: 'Cosmetics registration in Korea', 'health-food': 'Health functional food import registration in Korea', factory: 'Factory registration in Korea' },
+  zh: { nonprofit: '韩国非营利社团法人设立代办', 'telecom-business': '韩国增值电信业务申报代办', 'location-based-service': '韩国位置服务申报代办', cosmetics: '韩国化妆品责任销售业注册代办', 'health-food': '韩国保健食品进口代办', factory: '韩国工厂登记代办' },
+  ja: { nonprofit: '韓国の社団法人設立代行', 'telecom-business': '韓国の付加通信事業申告の代行', 'location-based-service': '韓国の位置情報サービス事業申告の代行', cosmetics: '韓国の化粧品責任販売業登録の代行', 'health-food': '韓国への健康機能食品輸入手続きの代行', factory: '韓国の工場設立・工場登録の代行' },
+}
+
 const PHONE_HREF = 'tel:+8223632251'
 export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
   ko: {
-    servicesHeading: '유선행정사사무소가 처리하는 업무',
+    servicesHeading: '{kw} — 유선행정사사무소가 처리하는 업무',
     clientsHeading: '이런 고객이 맡깁니다',
     glossaryBadge: '용어 설명',
     glossaryHeading: '{label} 용어 설명',
@@ -204,7 +215,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     catalogName: '{label} 처리 업무',
   },
   en: {
-    servicesHeading: 'Services handled by YouSun Administrative Agency',
+    servicesHeading: '{kw} — services handled by YouSun Administrative Agency',
     clientsHeading: 'Who typically engages us',
     glossaryBadge: 'Key terms',
     glossaryHeading: '{label}: key terms explained',
@@ -220,7 +231,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     catalogName: '{label} services',
   },
   zh: {
-    servicesHeading: 'YouSun Administrative Agency 办理的业务',
+    servicesHeading: '{kw} — YouSun Administrative Agency 办理的业务',
     clientsHeading: '委托我们的客户类型',
     glossaryBadge: '术语解释',
     glossaryHeading: '{label}术语解释',
@@ -236,7 +247,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     catalogName: '{label}办理业务',
   },
   ja: {
-    servicesHeading: 'YouSun Administrative Agency が扱う業務',
+    servicesHeading: '{kw} — YouSun Administrative Agency が扱う業務',
     clientsHeading: 'ご依頼の多いお客様',
     glossaryBadge: '用語解説',
     glossaryHeading: '{label}の用語解説',
