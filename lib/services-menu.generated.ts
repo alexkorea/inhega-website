@@ -134,7 +134,7 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
     {
       "slug": "health-food",
       "href": "/services/health-food",
-      "shortTitle": "건강기능식품 수입",
+      "shortTitle": "건강기능식품",
       "category": "식품/의약"
     },
     {
