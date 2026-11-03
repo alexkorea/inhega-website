@@ -75,29 +75,25 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
               <Link
                 key={slug}
                 href={`/zh/blog/${slug}`}
-                className={`fade-up delay-${Math.min(idx % 4 + 1, 4)}`}
+                className={`blog-card-link fade-up delay-${Math.min(idx % 4 + 1, 4)}`}
                 style={{ textDecoration: 'none' }}
               >
-                <article style={{
-                  background: 'var(--white)', borderRadius: '16px',
-                  border: '1px solid var(--border)', overflow: 'hidden',
-                  transition: 'all 0.3s ease',
-                }}>
+                <article className="blog-card">
                   {ogCard('zh', ko.slug) && (
-                    <div style={{ height: '200px', background: `url(${ogCard('zh', ko.slug)}) center/cover` }} />
+                    <div className="blog-card-thumb" style={{ background: `url(${ogCard('zh', ko.slug)}) center/cover` }} />
                   )}
-                  <div style={{ padding: '1.125rem 1.25rem' }}>
+                  <div className="blog-card-body">
                     {i18n.category && (
                       <span className="badge badge-navy" style={{ fontSize: '0.6875rem', marginBottom: '0.75rem' }}>{i18n.category}</span>
                     )}
-                    <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', fontWeight: 700, color: 'var(--charcoal)', marginBottom: '0.5rem', lineHeight: 1.4 }}>
+                    <h2 className="blog-card-title">
                       {i18n.title}
                     </h2>
-                    <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1rem' }}>
+                    <p className="blog-card-excerpt">
                       {i18n.excerpt.substring(0, 100)}...
                     </p>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                      <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
+                    <div className="blog-card-foot">
+                        <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
                         {new Date(ko.created_at).toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' })}
                       </span>
                       <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>阅读</span>

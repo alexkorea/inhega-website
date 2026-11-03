@@ -90,29 +90,25 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                   <Link
                     key={post.id || post.slug}
                     href={`/blog/${post.slug || post.id}`}
-                    className={`fade-up delay-${Math.min(i % 4 + 1, 4)}`}
+                    className={`blog-card-link fade-up delay-${Math.min(i % 4 + 1, 4)}`}
                     style={{ textDecoration: 'none' }}
                   >
-                    <article style={{
-                      background: 'var(--white)', borderRadius: '16px',
-                      border: '1px solid var(--border)', overflow: 'hidden',
-                      transition: 'all 0.3s ease',
-                    }}>
+                    <article className="blog-card">
                       {ogCard('ko', post.slug) && (
-                    <div style={{ height: '200px', background: `url(${ogCard('ko', post.slug)}) center/cover` }} />
+                    <div className="blog-card-thumb" style={{ background: `url(${ogCard('ko', post.slug)}) center/cover` }} />
                   )}
-                      <div style={{ padding: '1.125rem 1.25rem' }}>
+                      <div className="blog-card-body">
                         {post.category && (
                           <span className="badge badge-navy" style={{ fontSize: '0.6875rem', marginBottom: '0.75rem' }}>{post.category}</span>
                         )}
-                        <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', fontWeight: 700, color: 'var(--charcoal)', marginBottom: '0.5rem', lineHeight: 1.4 }}>
+                        <h2 className="blog-card-title">
                           {post.title}
                         </h2>
-                        <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', lineHeight: 1.6, marginBottom: '1rem' }}>
+                        <p className="blog-card-excerpt">
                           {post.excerpt || post.content?.substring(0, 80)}...
                         </p>
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                          <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
+                        <div className="blog-card-foot">
+                        <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
                             {new Date(post.created_at).toLocaleDateString('ko-KR')}
                           </span>
                           <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>읽기</span>

@@ -685,6 +685,17 @@ input, textarea, select {
 .blog-content th, .blog-content td { border: 1px solid var(--border); padding: 8px; text-align: left; vertical-align: top; }
 .blog-content thead th, .blog-content tr:first-child > th { background: #FDF1EA; color: var(--navy); font-weight: 700; }
 
+/* QA1102 B-5: 블로그 목록 카드 — 같은 줄 카드 높이를 맞추고(링크·카드 100%), 썸네일은 800×450 카드 원본 비율(16:9)로
+   잘리지 않게, 제목·요약은 2줄에서 자른다. 날짜·읽기 줄은 카드 바닥에 붙인다. */
+.blog-card-link { display: block; height: 100%; text-decoration: none; }
+.blog-card { display: flex; flex-direction: column; height: 100%; background: var(--white); border-radius: 16px; border: 1px solid var(--border); overflow: hidden; transition: all 0.3s ease; }
+.blog-card-thumb { aspect-ratio: 16 / 9; flex: none; background-color: var(--navy) !important; background-size: cover !important; background-position: center !important; }
+.blog-card-body { display: flex; flex: 1; flex-direction: column; padding: 1.125rem 1.25rem; }
+.blog-card-body .badge { align-self: flex-start; }
+.blog-card-title { font-family: var(--font-serif); font-size: 1.0625rem; font-weight: 700; color: var(--charcoal); margin-bottom: 0.5rem; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.8em; }
+.blog-card-excerpt { font-size: 0.8125rem; color: var(--slate); line-height: 1.6; margin-bottom: 1rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.blog-card-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; }
+
 /* "관련 전문 안내" 카드 — 다른 사무소 사이트로 보내는 링크에만, 해당 문맥 섹션 끝에
    1페이지 1개(맥7 20260927-2000 추가지시). 뼈대는 기존 카드 컴포넌트 .card 와 버튼 .btn.btn-primary
    를 그대로 쓰고, 본문 흐름에 넣는 데 필요한 값만 디자인 토큰으로 덮는다. 이미지·스크립트가 없어
