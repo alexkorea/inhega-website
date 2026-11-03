@@ -91,6 +91,9 @@
 }
 
 .card {
+  /* QA1102 B-4: 카드 높이가 달라도 버튼 줄은 맨 아래에 붙인다(.actions margin-top:auto). */
+  display: flex;
+  flex-direction: column;
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -181,6 +184,7 @@
 .detailRow:last-child { margin-bottom: 0; }
 
 .actions {
+  margin-top: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;

@@ -13,6 +13,9 @@ type BasicSource = {
   deadline: string
 }
 
+/** 확정·시행 단계의 날짜는 시행일, 그 밖(의견수렴·초안)은 의견 마감이다(QA1102 B-1). */
+export const isEffectiveStage = (stage: string) => stage === '확정' || stage === '시행'
+
 const clip = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s)
 
 const ymd = (v: string) => {
@@ -23,7 +26,7 @@ const ymd = (v: string) => {
 export function basicArticle(it: BasicSource): NewsArticle {
   const schedule: string[] = []
   if (it.stage) schedule.push(`현재 단계는 ‘${it.stage}’입니다.`)
-  if (it.deadline) schedule.push(`의견·시행 기한은 ${ymd(it.deadline)}입니다.`)
+  if (it.deadline) schedule.push(`${isEffectiveStage(it.stage) ? '시행일' : '의견 마감'}은 ${ymd(it.deadline)}입니다.`)
   const sections: NewsArticle['sections'] = []
   if (schedule.length) sections.push({ h2: '단계·일정', body: schedule })
   if (it.opportunity_reason) sections.push({ h2: '지금 확인할 것', body: [it.opportunity_reason] })

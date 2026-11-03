@@ -23,7 +23,10 @@ export type NewsStrings = {
   countTemplate: string
   product: string
   stage: string
+  /** 의견수렴·초안 단계의 날짜 라벨. */
   deadline: string
+  /** 확정·시행 단계의 날짜 라벨 — 이때 날짜는 시행일이다(QA1102 B-1). */
+  deadlineEffective: string
   deadlineNone: string
   impact: string
   opportunity: string
@@ -64,7 +67,8 @@ const ko: NewsStrings = {
   countTemplate: '{n}건',
   product: '품목',
   stage: '단계',
-  deadline: '기한',
+  deadline: '의견 마감',
+  deadlineEffective: '시행일',
   deadlineNone: '미정',
   impact: '영향',
   opportunity: '사업 기회',
@@ -74,7 +78,7 @@ const ko: NewsStrings = {
   published: '공개일',
   original: '원문 보기',
   cta: '관련 인허가 상담',
-  expand: '요약 더 보기',
+  expand: '자세히 보기',
   collapse: '접기',
   readMore: '자세히 보기',
   more: '더 보기',
@@ -107,7 +111,8 @@ const en: NewsStrings = {
   countTemplate: '{n} items',
   product: 'Product',
   stage: 'Stage',
-  deadline: 'Deadline',
+  deadline: 'Comment deadline',
+  deadlineEffective: 'Effective',
   deadlineNone: 'Not set',
   impact: 'Impact',
   opportunity: 'Business opportunity',
@@ -117,9 +122,9 @@ const en: NewsStrings = {
   published: 'Published',
   original: 'View original',
   cta: 'Ask about this licence',
-  expand: 'Details',
+  expand: 'Read more',
   collapse: 'Close',
-  readMore: 'Read article',
+  readMore: 'Read more',
   more: 'Load more',
   empty: 'Update in preparation',
   emptyHint: 'No regulatory updates have been collected yet. You can still send us a licensing enquiry.',
@@ -149,7 +154,8 @@ const zh: NewsStrings = {
   countTemplate: '{n} 条',
   product: '品类',
   stage: '阶段',
-  deadline: '截止日',
+  deadline: '意见截止',
+  deadlineEffective: '施行日',
   deadlineNone: '未定',
   impact: '影响',
   opportunity: '商机',
@@ -161,7 +167,7 @@ const zh: NewsStrings = {
   cta: '咨询相关许可',
   expand: '查看详情',
   collapse: '收起',
-  readMore: '阅读全文',
+  readMore: '查看详情',
   more: '加载更多',
   empty: '更新准备中',
   emptyHint: '尚未收集到法规动态。许可事务仍可随时咨询。',
@@ -191,7 +197,8 @@ const ja: NewsStrings = {
   countTemplate: '{n}件',
   product: '品目',
   stage: '段階',
-  deadline: '期限',
+  deadline: '意見締切',
+  deadlineEffective: '施行日',
   deadlineNone: '未定',
   impact: '影響',
   opportunity: '事業機会',
@@ -203,7 +210,7 @@ const ja: NewsStrings = {
   cta: '関連する許認可を相談',
   expand: '詳細を見る',
   collapse: '閉じる',
-  readMore: '記事を読む',
+  readMore: '詳細を見る',
   more: 'もっと見る',
   empty: '更新準備中',
   emptyHint: 'まだ収集された規制動向はありません。許認可のご相談はいつでも承ります。',

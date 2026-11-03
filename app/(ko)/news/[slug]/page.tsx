@@ -15,8 +15,9 @@ import { publisherLogo } from '@/lib/org-jsonld'
 import Link from 'next/link'
 import { getServiceMenuCount } from '@/lib/services-menu'
 import { notFound } from 'next/navigation'
-import { basicArticle } from '@/lib/news-basic-article'
+import { basicArticle, isEffectiveStage } from '@/lib/news-basic-article'
 import { findNewsBySlug, hasArticle, isHeld, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
+import { hasForeignScript } from '@/lib/news-script-gate'
 import { countryLabel } from '@/lib/news-country'
 import {
   ORG_NAME,
@@ -41,7 +42,8 @@ async function getArticleItem(slug: string): Promise<NewsItem | null> {
   if (!found || !(found.title_ko || '').trim()) return null
   const item = hasArticle(found.article) ? found : { ...found, article: basicArticle(found) }
   // 시행일 게이트(news-date-gate)에 걸린 항목은 게시 보류 — 원문과 다른 날짜를 내보내지 않는다.
-  if (isHeld(item)) return null
+  // 한자·가나가 섞인 자동번역(news-script-gate)도 보류 — 목록과 같은 기준.
+  if (isHeld(item) || hasForeignScript(item)) return null
 
   // 수신단 정화가 붙기 전에 들어온 원고가 KV 에 남아 있다(모델 종료 토큰 `<|im_end|>`
   // 가 본문 끝에 찍혀 라이브에 노출된 적이 있다). 본문 블록은 parseInline 이 걷어내고,
@@ -224,7 +226,7 @@ export default async function NewsArticlePage({ params }: { params: Promise<{ sl
                 {sourceLabel && <span><span className={styles.metaKey}>발표 기관</span>{sourceLabel}</span>}
                 {item.stage && <span><span className={styles.metaKey}>단계</span>{item.stage}</span>}
                 <span>
-                  <span className={styles.metaKey}>의견·시행 기한</span>
+                  <span className={styles.metaKey}>{isEffectiveStage(item.stage) ? '시행일' : '의견 마감'}</span>
                   {item.deadline ? formatNewsDate(item.deadline, 'ko') : '미정'}
                 </span>
               </div>

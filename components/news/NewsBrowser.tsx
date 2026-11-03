@@ -17,6 +17,7 @@ import type { NewsCard } from '@/lib/news-data'
 import { countryLabel } from '@/lib/news-country'
 import { formatNewsDate, type NewsLocale, type NewsStrings } from '@/lib/i18n/news-i18n'
 import styles from '@/app/news.module.css'
+import { isEffectiveStage } from '@/lib/news-basic-article'
 
 const PAGE_SIZE = 12
 
@@ -214,7 +215,7 @@ export default function NewsBrowser({
                     <span><span className={styles.metaKey}>{t.stage}</span>{it.stage}</span>
                   )}
                   <span>
-                    <span className={styles.metaKey}>{t.deadline}</span>
+                    <span className={styles.metaKey}>{isEffectiveStage(it.stage) ? t.deadlineEffective : t.deadline}</span>
                     {it.deadline ? formatNewsDate(it.deadline, locale) : t.deadlineNone}
                   </span>
                 </div>

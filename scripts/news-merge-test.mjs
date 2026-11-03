@@ -329,5 +329,22 @@ section('15. 조회 실패로 이미 보류된 KRLAW 10건 — 확인값(NEWS_LA
   eq((await one('KRLAW:291337')).date_check.effective, '2026-10-20', 'KV 에 시행일자 복원')
 }
 
+section('16. 한자·가나 게이트·품목 영문 괄호(QA1102 B-1)')
+{
+  const base = { source_key: 'wto_eping', url: 'https://eping.wto.org/x', published_date: '2026-11-01', summary_ko: '요약입니다.' }
+  const r = await M.upsertNews([
+    { ...base, doc_key: 'EPING:900001', title_ko: '형성木质复合材料 기준 갱신', product: '목재' },
+    { ...base, doc_key: 'EPING:900002', title_ko: '전동 휠체어 표준', product: '전동 휠체어 (Electrically powered wheelchair)' },
+  ])
+  eq(r.script_held.length, 1, '한자 섞인 1건만 script_held')
+  eq(r.script_held[0]?.doc_key, 'EPING:900001', 'script_held doc_key')
+  const shown = await M.readAllNews()
+  ok(!M.isListable(shown.find((x) => x.doc_key === 'EPING:900001')), '한자 섞인 항목은 목록에서 빠짐')
+  const ok2 = shown.find((x) => x.doc_key === 'EPING:900002')
+  ok(M.isListable(ok2), '한국어 항목은 게시')
+  eq(ok2.product, '전동 휠체어', '품목 영문 괄호 제거(표시)')
+  ok((await one('EPING:900002')).product.includes('(Electrically'), 'KV 원본 품목은 그대로')
+}
+
 console.log(failed ? `\n✗ 실패 ${failed}건` : '\n✓ 전부 통과')
 process.exit(failed ? 1 : 0)
