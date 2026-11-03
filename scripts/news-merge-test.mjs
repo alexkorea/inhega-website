@@ -316,12 +316,13 @@ section('15. 조회 실패로 이미 보류된 KRLAW 10건 — 확인값(NEWS_LA
 {
   const held = { doc_key: 'KRLAW:291337', slug: 'krlaw-291337', source_key: 'kr_law_go_kr', url: 'https://www.law.go.kr/DRF/lawService.do?OC=x&target=law&MST=291337&type=HTML', published_date: '2026-10-20', title_ko: '화장품법 일부 개정', summary_ko: '화장품법 개정이 2026년 10월 20일부터 시행됩니다.',
     date_check: { checked_at: '2026-10-27T09:00:00.000Z', effective: '', promulgated: '', partial: [], reasons: [], error: 'law.go.kr 응답에 시행일자가 없음' } }
-  const wrongDate = { ...held, doc_key: 'KRLAW:291321', slug: 'krlaw-291321', title_ko: '의료기기법 일부 개정', summary_ko: '의료기기법이 2026년 10월 20일부터 시행됩니다.' }
+  // QA1102-FIX-2 8(맥7 11-03): 291321 은 실제 정정(news-corrections-rw2)이 있어 표시값이 바로잡혀 시험이 깨졌다 — 정정 없는 확인값 항목(289983)으로 분리
+  const wrongDate = { ...held, doc_key: 'KRLAW:289983', slug: 'krlaw-289983', url: 'https://www.law.go.kr/DRF/lawService.do?OC=x&target=law&MST=289983&type=HTML', title_ko: '체외진단의료기기법 시행규칙 일부 개정', summary_ko: '체외진단의료기기법 시행규칙이 2026년 10월 20일부터 시행됩니다.' }
   store.set(M.NEWS_LIST_KEY, JSON.stringify([...(await read()), held, wrongDate]))
   ok(M.isHeld(M.hydrateItem(await one('KRLAW:291337'))), 'KV 원본은 보류 상태(재현)')
   const shown = await M.readAllNews()
   ok(M.isListable(shown.find((x) => x.doc_key === 'KRLAW:291337')), '표시 경로: 확인값과 맞으면 목록 복귀')
-  ok(!M.isListable(shown.find((x) => x.doc_key === 'KRLAW:291321')), '표시 경로: 확인값과 어긋나면 계속 보류')
+  ok(!M.isListable(shown.find((x) => x.doc_key === 'KRLAW:289983')), '표시 경로: 확인값과 어긋나면 계속 보류')
   ok(!!(await M.findNewsBySlug('krlaw-291337')), '상세 조회 가능')
   // 같은 내용을 다시 보내면(조회 또 실패) KV 에도 확인값 기준 대조가 저장된다
   const r = await M.upsertNews([{ doc_key: 'KRLAW:291337', title_ko: held.title_ko }], async () => { throw new Error('timeout') })
