@@ -721,3 +721,6 @@
 /ja/blog/administrative-license-agency-procedure-flow
 /zh/blog/administrative-license-agency-procedure-flow
 /services/telecom-business
+/en/services/telecom-business
+/ja/services/telecom-business
+/zh/services/telecom-business

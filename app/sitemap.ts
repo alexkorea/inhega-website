@@ -6,6 +6,7 @@ import { getServiceSlugs } from '@/lib/services-catalog'
 import { INDUSTRY_PHOTOS, industryPhotoSrc } from '@/lib/service-card-images'
 import { getIndustrySlugs } from '@/lib/industry-pages'
 import { PAGE_LASTMOD } from '@/lib/page-lastmod.generated'
+import { FOCUS_SLUGS } from '@/lib/focus-services'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
 // 배포 보류분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
@@ -13,6 +14,22 @@ const services = getServiceSlugs('ko')
 
 // 업종 상세 ↔ 그 업종 사진(INH-PHOTO60, 보스 msg 2341 ⑤) — <image:image><image:loc>.
 const photoOf = (slug: string) => (INDUSTRY_PHOTOS[slug] ? { images: [`https://inhega.co.kr${industryPhotoSrc(slug)}`] } : {})
+
+// INHEGA-FOCUS-1103 2차(보스 msg 4784): 중점 필러 6개는 네 언어 모두 있으므로 사이트맵에도 xhtml:link hreflang 을 싣는다.
+const focusAlternates = (slug: string) =>
+  FOCUS_SLUGS.has(slug) && (['en', 'zh', 'ja'] as const).every((l) => getServiceSlugs(l).includes(slug))
+    ? {
+        alternates: {
+          languages: {
+            ko: `https://inhega.co.kr/services/${slug}`,
+            en: `https://inhega.co.kr/en/services/${slug}`,
+            zh: `https://inhega.co.kr/zh/services/${slug}`,
+            ja: `https://inhega.co.kr/ja/services/${slug}`,
+            'x-default': `https://inhega.co.kr/services/${slug}`,
+          },
+        },
+      }
+    : {}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://inhega.co.kr'
@@ -42,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
     priority: 0.8,
     ...photoOf(slug),
+    ...focusAlternates(slug),
   }))
 
   // I2 신규 업종 페이지(lib/industry-pages.ts) — 원고가 있는 언어만. ko 20 + en/zh/ja 각 10.
@@ -85,6 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
       ...photoOf(slug),
+      ...focusAlternates(slug),
     }))
   )
   // /about 은 en/zh/ja 도 index·self canonical 이고 ko 가 hreflang 으로 가리킨다 (M1 2026-10-03)

@@ -17,6 +17,7 @@ type ServiceSlug =
   | 'research-lab' | 'ecig' | 'sports-club' | 'location-based-service'
   | 'medical-device' | 'health-food' | 'factory' | 'freight-trucking'
   | 'rnd-support' | 'functional-cosmetics'
+  | 'telecom-business'  // INHEGA-FOCUS-1103 2차 신설(en/zh/ja)
 
 const servicesEn: Record<ServiceSlug, ServiceI18n> = {
   'logistics': {
@@ -172,7 +173,7 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
     category: 'Legal Entity',
     description: 'Establishing a non-profit association (사단법인) in Korea requires ministerial approval and registration with the court. This structure is suitable for professional associations, industry groups, and charitable organizations.',
     faqs: [
-      { q: 'How many founding members are required?', a: 'Generally a minimum of 2–10 founding members, depending on the supervisory ministry.' },
+      { q: 'How many founding members are required?', a: 'The Civil Act sets no minimum number of members, but an association needs more than one member and its articles must state how membership is gained and lost. Some ministries expect a certain number of founders or members in their review, so confirm the competent ministry\'s criteria.' },
       { q: 'Which ministry has jurisdiction?', a: 'Jurisdiction depends on the organization\'s purposes — for example, cultural organizations fall under the Ministry of Culture, Sports and Tourism.' },
     ],
     processSteps: [
@@ -240,18 +241,18 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
     category: 'Pharmaceutical',
     description: 'Manufacturing or importing cosmetics and quasi-drugs (의약외품) in Korea requires registration or licensing with the Ministry of Food and Drug Safety. This is essential for beauty brands, OEM manufacturers, and importers operating in the Korean market.',
     faqs: [
-      { q: 'What is a quasi-drug?', a: 'Quasi-drugs (의약외품) are products between cosmetics and pharmaceuticals — such as disinfectants, whitening toothpaste, and hair dye. They require separate licensing.' },
-      { q: 'Is a manufacturing facility required for cosmetics?', a: 'For manufacturing, a GMP-compliant facility is required. For import, a Responsible Person (RP) must be appointed.' },
+      { q: 'What is a quasi-drug?', a: 'Quasi-drugs are products between cosmetics and pharmaceuticals — such as disinfectants and toothpaste. They fall under the Pharmaceutical Affairs Act, which requires a manufacturing report and a permit or report for each product. Hair-colour products are regulated as functional cosmetics under the Cosmetics Act.' },
+      { q: 'Is a manufacturing facility required for cosmetics?', a: 'Manufacturer registration requires facilities meeting the statutory standards — a work area, storage and a testing room with equipment, with testing outsourceable to approved bodies. MFDS\'s CGMP standard is recommended rather than a registration condition. Importers register as a cosmetics responsible distributor and appoint a qualified responsible manager.' },
       { q: 'How long does cosmetics manufacturing registration take?', a: 'Approximately 4–8 weeks after all documents and facility inspections are complete.' },
-      { q: 'Can foreign cosmetics be imported without a Korean company?', a: 'No. A Korean responsible person (company or individual) must be designated to import cosmetics into Korea.' },
+      { q: 'Can foreign cosmetics be imported without a Korean company?', a: 'Not directly. Imported cosmetics must be placed on the market by a business registered in Korea as a cosmetics responsible distributor — your own Korean subsidiary, or a Korean importer or distributor — with a qualified responsible manager.' },
     ],
     processSteps: [
       { step: 'License Type Determination', desc: 'Assessment of product category and required license type' },
-      { step: 'Facility / RP Setup', desc: 'GMP facility preparation or Responsible Person appointment' },
+      { step: 'Facility / Manager Setup', desc: 'Facilities meeting manufacturer standards, or appointment of a responsible manager for a responsible distributor' },
       { step: 'Filing', desc: 'Submission to Ministry of Food and Drug Safety' },
       { step: 'Completion', desc: 'Registration/license issuance' },
     ],
-    documents: ['Business registration certificate', 'Facility layout or RP appointment documents', 'Product formulation list', 'Safety assessment documents'],
+    documents: ['Business registration certificate', 'Facility layout or RP appointment documents', 'Product formulation list', 'Responsible manager qualification documents (responsible distributor)'],
   },
   'procurement': {
     title: 'Government Procurement Registration (PPS / KONEPS)',
@@ -325,21 +326,21 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
     title: 'Location-Based Service Business Notification',
     shortTitle: 'Location-Based Service',
     category: 'IT/Telecom',
-    description: 'Any business that collects, stores, or provides location information of individuals or objects must file a notification with the Korea Communications Commission (KCC) under the Act on the Protection and Use of Location Information. This applies to apps, platforms, and devices using GPS or cell tower data.',
+    description: 'Any business that provides a location-based service using personal location information to users in Korea must file a location-based service business report with the Korea Media and Communications Commission (KMCC) under the Act on the Protection and Use of Location Information. Collecting location information and supplying it to other businesses is a separate location information business that requires registration. This applies to apps, platforms, and devices using GPS or cell tower data.',
     faqs: [
-      { q: 'What types of services require this notification?', a: 'Any service that uses individual or object location data — including delivery apps, navigation, fleet tracking, location-based marketing, and telematics — requires this notification.' },
-      { q: 'Can foreign companies file this notification?', a: 'Yes, but they must establish a Korean entity (branch or subsidiary) and appoint a Korea-based location information protection officer.' },
-      { q: 'How long does the notification process take?', a: 'Approximately 1–2 weeks after all documents are submitted to the KCC.' },
-      { q: 'Are there ongoing compliance obligations?', a: 'Yes. Annual safety measures reporting, location data protection officer appointment, and user consent management are required.' },
-      { q: 'What are the penalties for non-compliance?', a: 'Fines of up to KRW 30 million and potential criminal liability for operators who collect location data without proper notification.' },
+      { q: 'What types of services require this notification?', a: 'Any service that uses personal location information — data showing where a specific person is, alone or when easily combined with other data — such as delivery, navigation, ride-hailing and family-locator services. A service that only processes the location of objects with no link to an individual falls outside the report.' },
+      { q: 'Can foreign companies file this notification?', a: 'Yes. A foreign corporation can file in its own name without a Korean branch or subsidiary, and the Location Information Act does not require a domestic agent. Home-country corporate documents are notarized, apostilled (or consular-legalized) and translated into Korean.' },
+      { q: 'How long does the notification process take?', a: 'In practice, 2 to 4 weeks once documents are complete, or 4 to 8 weeks for foreign corporations including home-country document preparation. The KMCC accepts the report once it confirms the filing complies with the Act.' },
+      { q: 'Are there ongoing compliance obligations?', a: 'Yes. Operators maintain administrative and technical protection measures (including designating a location information manager, limiting access rights and running regular internal checks), keep automatic records of location data collection, use and provision, obtain user consent under published terms of service, and file change reports for the trade name, main office or location information system.' },
+      { q: 'What are the penalties for non-compliance?', a: 'Operating a location-based service without filing the report is a criminal offence punishable by up to 3 years\' imprisonment or a fine of up to KRW 30 million, and the company can be fined as well. Running a location information business without registration carries up to 5 years\' imprisonment or a fine of up to KRW 50 million.' },
     ],
     processSteps: [
       { step: 'Consultation', desc: 'Assessment of service type and applicable obligations' },
-      { step: 'Document Prep', desc: 'KCC notification documents and privacy policy preparation' },
-      { step: 'KCC Submission', desc: 'Filing with the Korea Communications Commission' },
+      { step: 'Document Prep', desc: 'Business plan, equipment documents, proof of protection measures and, for foreign corporations, legalized corporate documents with Korean translation' },
+      { step: 'KMCC Submission', desc: 'Filing with the Korea Media and Communications Commission' },
       { step: 'Confirmation', desc: 'Receipt of notification confirmation and compliance setup' },
     ],
-    documents: ['Business registration certificate', 'Service description and technical overview', 'Location data protection officer appointment', 'Privacy policy draft', 'Security measures plan'],
+    documents: ['Location-based service business report form', 'Business plan covering the company and the service', 'Documents showing the main equipment (location information system) and where it is installed', 'Documents proving administrative and technical location data protection measures', 'Foreign corporations: notarized and apostilled corporate documents with Korean translation'],
   },
   'medical-device': {
     title: 'Medical Device Import License',
@@ -366,7 +367,7 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
   },
   'health-food': {
     title: 'Health Functional Food Import Notification',
-    shortTitle: 'Health Food Import',
+    shortTitle: 'Health Functional Food',
     category: 'Food',
     description: 'Importing health functional food requires two steps: registering an imported food sales business with the Regional Ministry of Food and Drug Safety office, then filing an import notification for each shipment. Registration takes 3 days; inspection turnaround ranges from 2 days for document review to 10 days for laboratory testing.',
     faqs: [
@@ -481,6 +482,27 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
       { step: 'Changes', desc: 'Any change to reviewed particulars or to a submitted report requires a further review or a fresh report.' },
     ],
     documents: ['Functional cosmetics review request (Form 7) or report for items excluded from review (Form 10)', 'Data on origin and development history', 'Safety data covering single-dose toxicity, primary skin irritation, eye mucosa irritation, skin sensitisation, phototoxicity and photosensitisation, and human patch testing', 'Efficacy or function data, including potency test data and human application test data', 'Supporting evidence for the sun protection factor and UVA protection grade (for UV protection products)', 'Specifications and test method data, including samples'],
+  },
+  'telecom-business': {
+    title: 'Value-Added Telecommunications Business Report and Registration',
+    shortTitle: 'Telecom Business',
+    category: 'IT & Telecom',
+    description: 'Companies offering telecom-based services in Korea file a value-added telecommunications business report with the Ministry of Science and ICT, register special-type services such as webhard, P2P and bulk SMS, or register facilities-based services as a corporation. YouSun Administrative Agency classifies the service and prepares the filing, including for foreign companies.',
+    faqs: [
+      { q: 'What is a value-added telecommunications business?', a: 'Under the Telecommunications Business Act, any telecom service other than facilities-based service is a value-added service, and app marketplaces and online video services are expressly included. Companies providing these services file a value-added telecommunications report with the Ministry of Science and ICT.' },
+      { q: 'Do small companies have to file?', a: 'Operators providing services over the internet with capital of KRW 100 million or less are treated as having reported. Once capital exceeds that amount, they must file within 1 month. Special-type services need registration regardless of capital.' },
+      { q: 'What is a special-type value-added service?', a: 'Webhard and P2P services that are special online service providers under the Copyright Act, and services that send text messages through a carrier\'s network. They require registration with technical-measure plans, staff and facilities, financial soundness, a business plan and a user protection plan; the certificate is issued within 30 days of application.' },
+      { q: 'Can a foreign company file?', a: 'The Act places no nationality restriction on the value-added report. A value-added operator with no address or office in Korea must appoint a domestic agent only if it averages 1 million or more daily users in Korea and at least 1% of domestic traffic. Facilities-based operators with their own line facilities are subject to a 49% foreign ownership limit, and a foreign corporation cannot register them directly.' },
+      { q: 'What happens if we operate without filing?', a: 'Operating a value-added service without the report can lead to up to 2 years\' imprisonment or a fine of up to KRW 100 million; operating a special-type or facilities-based service without registration, up to 3 years or KRW 150 million.' },
+    ],
+    processSteps: [
+      { step: 'Service classification', desc: 'Determine whether the service is value-added, special-type value-added or facilities-based, and whether the deemed report applies.' },
+      { step: 'Foreign company review', desc: 'Check filing structure, domestic-agent thresholds and, for facilities-based services, foreign ownership limits.' },
+      { step: 'Document preparation', desc: 'Prepare the report or registration application with the network diagram, personal information protection statement, business plan or user protection plan as required.' },
+      { step: 'Filing with MSIT', desc: 'File with the Ministry of Science and ICT; value-added reports are handled by its Central Radio Management Office.' },
+      { step: 'Supplements and certificate', desc: 'Respond to any supplement request within the period set (up to 10 days) and receive the report certificate or registration certificate.' },
+    ],
+    documents: ['Value-added telecommunications report form', 'Network diagram (for a new type of service, when requested)', 'Statement of personal information protection measures (if personal data is handled)', 'Special-type registration: articles of incorporation and documents proving the registration requirements', 'Business plan and user protection plan (registration)', 'Facilities-based registration: shareholder register, terms of service, equipment list and network diagram'],
   },
 }
 
@@ -627,9 +649,9 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
     title: '非营利社团法人设立',
     shortTitle: '非营利社团法人',
     category: '法人/团体',
-    description: '在韩国设立非营利社团法人需获得主管部门批准并在法院进行法人登记，适用于行业协会、社会团体及公益组织。',
+    description: '在韩国设立非营利社团法人需取得主管机关的设立许可，并在主事务所所在地的登记所办理设立登记，适用于行业协会、社会团体及公益组织。',
     faqs: [
-      { q: '需要多少名发起人？', a: '通常需要2~10名发起人，具体取决于主管部门。' },
+      { q: '需要多少名发起人？', a: '《民法》没有规定社团法人的最少发起人或会员人数，但社团需要多名会员，章程须写明会员资格的取得与丧失。部分主管机关在审查中会要求一定人数，申请前需先确认。' },
     ],
     processSteps: [
       { step: '规划', desc: '明确宗旨和范围，起草章程' },
@@ -691,15 +713,15 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
     title: '化妆品/准药品制造·进口许可',
     shortTitle: '化妆品/准药品许可',
     category: '医药',
-    description: '在韩国制造或进口化妆品和准药品（医药外品）需向食品药品安全部进行登记或许可。这对于进入韩国市场的美妆品牌、OEM厂商和进口商至关重要。',
+    description: '在韩国制造或进口销售化妆品，须向辖区地方食品医药品安全厅注册化妆品制造业或责任销售业；医药外品则依《药事法》另行申报制造业并办理品目许可或申报。这对于进入韩国市场的美妆品牌、OEM厂商和进口商至关重要。',
     faqs: [
       { q: '什么是准药品（医药外品）？', a: '准药品是介于化妆品和药品之间的产品，如消毒剂、美白牙膏、染发剂等，需单独申请许可。' },
-      { q: '化妆品制造是否需要生产设施？', a: '制造商需要GMP合规设施；进口商需在韩国指定责任人（RP）。' },
-      { q: '外国化妆品可以不通过韩国公司直接进口吗？', a: '不可以。进口化妆品至韩国必须指定韩国责任人（公司或个人）。' },
+      { q: '化妆品制造是否需要生产设施？', a: '注册制造业须具备作业所、保管所、试验室和检验设备等设施标准（只做部分工序可省略部分设施）。优良化妆品制造管理标准（CGMP）是MFDS建议遵守的标准，并非注册要件。进口销售则须由注册了责任销售业、配备责任销售管理人的韩国业者负责。' },
+      { q: '外国化妆品可以不通过韩国公司直接进口吗？', a: '不可以。在韩国流通销售进口化妆品的，须是向营业所所在地地方食品医药品安全厅注册的化妆品责任销售业者。境外品牌可在韩设立法人注册，或交由已注册的韩国责任销售业者进口销售。' },
     ],
     processSteps: [
       { step: '许可类型确认', desc: '评估产品类别和所需许可类型' },
-      { step: '设施/责任人设置', desc: 'GMP设施准备或责任人指定' },
+      { step: '设施/管理人配备', desc: '制造业按设施标准准备设施；责任销售业配备责任销售管理人并制定品质与安全管理规定' },
       { step: '申请提交', desc: '向食品药品安全部递交申请' },
       { step: '许可完成', desc: '登记/许可证签发' },
     ],
@@ -773,21 +795,21 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
     title: '位置信息服务事业申报',
     shortTitle: '位置信息服务',
     category: '信息通信',
-    description: '根据《位置信息的保护及利用法》，任何收集、存储或提供个人或物体位置信息的企业，须向放送通信委员会（KCC）进行申报。这适用于使用GPS或基站数据的应用程序、平台和设备。',
+    description: '以个人位置信息为对象、向韩国用户提供位置服务的经营者，须依《位置信息保护及利用法》向放送媒体通信委员会申报，没有韩国法人的外国企业也可以申报。仅以物品位置为对象的位置服务不在申报范围；自行采集个人位置信息并提供的位置信息事业须另行登记。',
     faqs: [
-      { q: '哪些类型的服务需要申报？', a: '使用个人或物体位置数据的任何服务——包括外卖应用、导航、车队追踪、基于位置的营销和车联网——均需进行申报。' },
-      { q: '外国企业可以申报吗？', a: '可以，但必须在韩国设立实体（分支机构或子公司）并任命驻韩位置信息保护负责人。' },
-      { q: '申报需要多长时间？', a: '向KCC提交所有材料后，约需1~2周。' },
-      { q: '有持续合规义务吗？', a: '是的，需要每年提交安全措施报告、任命位置数据保护负责人并管理用户同意。' },
-      { q: '不合规的处罚是什么？', a: '最高3000万韩元罚款，未经适当申报擅自收集位置数据的运营商可能承担刑事责任。' },
+      { q: '哪些类型的服务需要申报？', a: '以能识别特定个人位置的信息为对象提供服务的，需要申报，例如基于用户位置的外卖、导航、网约车、儿童定位等。仅以车辆、物品位置为对象且与个人无关的服务不属于申报对象，但与个人信息容易结合时仍可能被认定为个人位置信息。' },
+      { q: '外国企业可以申报吗？', a: '可以。没有韩国法人或分支机构，也可以用外国法人名义申报。《位置信息法》没有国内代理人或驻韩负责人义务，但本国法人文件需公证、海牙认证（或领事认证）并附韩文译本。' },
+      { q: '申报需要多长时间？', a: '主管机关审查内容，符合法律即受理。实务中材料齐全后约2~4周，外国法人连同本国文件准备约4~8周。' },
+      { q: '有持续合规义务吗？', a: '有。需持续实施技术与管理保护措施并自动保存位置信息采集、利用、提供记录，公开使用条款和处理方针，取得并管理用户同意，按期销毁位置信息；商号、主事务所、位置信息系统变更时还须办理变更申报。' },
+      { q: '不合规的处罚是什么？', a: '未申报经营位置服务，可处3年以下有期徒刑或3000万韩元以下罚金（刑事处罚）；未登记经营个人位置信息事业，可处5年以下有期徒刑或5000万韩元以下罚金。未经同意采集、利用个人位置信息也有刑事处罚，条款未公开等违规另可处过怠金。' },
     ],
     processSteps: [
       { step: '咨询', desc: '评估服务类型和适用义务' },
       { step: '材料准备', desc: '准备KCC申报文件和隐私政策' },
-      { step: 'KCC提交', desc: '向放送通信委员会递交申报材料' },
+      { step: '提交申报', desc: '向放送媒体通信委员会递交申报材料' },
       { step: '确认完成', desc: '接收申报确认并完成合规设置' },
     ],
-    documents: ['营业执照', '服务描述及技术概述', '位置信息保护负责人任命书', '隐私政策草案', '安全措施方案'],
+    documents: ['位置服务事业申报书', '事业计划书（含经营者概况与事业内容）', '主要设备内容及设置场所证明', '位置信息保护措施证明', '外国法人：法人登记文件的公证认证件及韩文译本'],
   },
   'medical-device': {
     title: '医疗器械进口许可',
@@ -814,7 +836,7 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
   },
   'health-food': {
     title: '健康功能食品进口申报',
-    shortTitle: '健康功能食品进口',
+    shortTitle: '健康功能食品',
     category: '食品',
     description: '进口健康功能食品须先向地方食品医药品安全厅办理进口食品等进口销售业营业登记，再按品目办理进口申报。登记处理期限3日；检验处理期限自书面检验2日至精密检验10日不等。',
     faqs: [
@@ -822,7 +844,7 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
       { q: '营业登记向何处办理？', a: '向营业场所所在地的地方食品医药品安全厅厅长提交营业登记申请书。登记机关是地方食品医药品安全厅，而非市、郡、区厅卫生科。地方食品医药品安全厅厅长审核申请文件后签发营业登记证；进口食品等保管业则在登记前确认营业场所设施。' },
       { q: '营业登记的处理期限是多久？', a: '处理期限为3日。' },
       { q: '进口申报何时办理？', a: '向通关地点所在地的地方食品医药品安全厅厅长提交进口申报书，可自进口食品等预定到达日前5日起预先申报。预先申报的到达港、预定到达日、搬入场所、预定搬入日等主要事项发生变更时，应立即以书面申报。' },
-      { q: '进口申报需要多长时间？', a: '视检验种类而定。以食品等、健康功能食品为准，书面检验2日、现场检验3日、随机抽样检验5日、精密检验10日；真菌数试验对象10日、食品辐照处理食品14日、加温保存试验对象15日（施行规则第25号格式）。若需补正文件或安排取样，实际所需时间可能延长。' },
+      { q: '进口申报需要多长时间？', a: '视检验种类而定。以食品等、健康功能食品为准，书面检验2日、现场检验3日、随机抽样检验5日、精密检验10日；真菌数试验对象10日、食品辐照处理食品14日、加温保存试验对象15日。若需补正文件或安排取样，实际所需时间可能延长。' },
       { q: '检验有哪些种类？', a: '《进口食品安全管理特别法施行规则》将检验分为四类：①书面检验——审核申报文件等判断是否合格；②现场检验——综合产品性状、口味、气味、色泽、标示、包装状态及精密检验履历判断；③精密检验——以物理、化学或微生物学方法实施；④随机抽样检验——按食品医药品安全处处长的抽样计划实施。' },
     ],
     processSteps: [
@@ -840,7 +862,7 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
     title: '工厂登记',
     shortTitle: '工厂登记',
     category: '建筑',
-    description: '工厂登记是依《产业集聚活性化及工厂设立相关法律》，经工厂设立批准与竣工申报后记载于工厂登记簿的程序。500平方米标准、个别选址与计划选址、许可拟制、2个月竣工申报期限均有法条依据。',
+    description: '工厂登记是依《产业集聚活性化及工厂设立相关法律》，经工厂设立批准与竣工申报后记载于工厂登记簿的程序。工厂建筑面积500平方米以上须先取得批准，建成并安装设备后2个月内竣工申报；不足500平方米的工厂所有人或占有人也可申请登记。',
     faqs: [
       { q: '什么是工厂？', a: '指具备建筑物或构筑物、构成物品制造工序的机械装置等制造设施及其附属设施，为经营制造业而设的营业场所，且从事统计厅厅长公告的韩国标准产业分类所定制造业（C，10~34）。非制造业不属于本法工厂登记对象。' },
       { q: '何时须取得工厂设立批准？', a: '工厂建筑面积在500平方米以上的工厂，新设、扩建或变更业种（合称"工厂设立等"）者，须取得市长、郡守或区厅长的批准，变更已批准事项时亦同。但轻微事项的变更以申报代替。' },
@@ -929,6 +951,27 @@ const servicesZh: Record<ServiceSlug, ServiceI18n> = {
       { step: '变更时重新审查或报告', desc: '变更已审查事项或已提交的报告书时，须重新接受审查或提交报告书。' },
     ],
     documents: ['功能性化妆品审查委托书（第7号格式）或审查除外品目报告书（第10号格式）', '起源及开发经过相关资料', '安全性相关资料（单次给药毒性、一次皮肤刺激、眼黏膜刺激、皮肤致敏性、光毒性与光致敏性、人体贴敷试验）', '有效性或功能相关资料（药效试验资料、人体适用试验资料）', '紫外线遮断指数及UVA遮断等级设定的依据资料（紫外线遮断产品）', '基准及试验方法相关资料（含检体）'],
+  },
+  'telecom-business': {
+    title: '增值电信业务申报·基础电信业务登记',
+    shortTitle: '增值电信业务申报',
+    category: 'IT·通信',
+    description: '在韩国提供App、平台、在线视频等增值电信服务，需依《电气通信事业法》向科学技术信息通信部申报；短信群发、网盘·P2P等特殊类型需登记，基础电信仅限法人登记。外国企业也可申报。',
+    faqs: [
+      { q: '什么是增值电信业务？', a: '基础电信（电话、网络接入等原样传输语音、数据、影像，或出租线路设备）以外的电信服务都属于增值电信，App市场、在线视频服务等在法律上明确属于增值电信。' },
+      { q: '资本金1亿韩元以下也要申报吗？', a: '通过互联网提供增值电信服务、资本金1亿韩元以下的经营者视为已申报。资本金超过1亿韩元后，须自事由发生之日起1个月内正式申报。短信群发、网盘·P2P等特殊类型不论资本金都要登记。' },
+      { q: '外国企业可以申报吗？', a: '可以。增值电信申报没有国籍限制。在韩国没有住所或营业所、且日均韩国用户100万人以上和韩国流量占比1%以上两项标准同时满足的，须书面指定境内代理人。一定范围的基础电信业务则不允许外国法人登记，外资合计持股不得超过49%。' },
+      { q: '向哪里申报，需要多久？', a: '向科学技术信息通信部提交，由中央电波管理所处理，可电子申报。材料有缺陷时会限期10日内补正。特殊类型增值电信与基础电信的登记证自申请日起30日内发放；一般申报实务中约2~4周。' },
+      { q: '不申报会怎样？', a: '未申报经营增值电信业务，可处2年以下有期徒刑或1亿韩元以下罚金；未登记经营基础电信或特殊类型增值电信，可处3年以下有期徒刑或1.5亿韩元以下罚金。' },
+    ],
+    processSteps: [
+      { step: '判定业务类型', desc: '区分基础电信、一般增值电信和特殊类型增值电信。' },
+      { step: '确认是否视为申报', desc: '核对是否为通过互联网提供、资本金1亿韩元以下的经营者。' },
+      { step: '准备材料', desc: '申报书或登记申请书及附件；外国企业另备本国法人证明及韩文译本。' },
+      { step: '提交与补正', desc: '向科学技术信息通信部（中央电波管理所）提交，按要求在限期内补正。' },
+      { step: '领证与后续管理', desc: '领取申报证明或登记证，1年内开展业务，并按期办理变更、转让、停业申报。' },
+    ],
+    documents: ['增值电信业务申报书', '网络结构图（新型服务且被要求时）', '个人信息保护措施明细（处理个人信息时）', '特殊类型登记申请书及登记要件证明材料（适用时）', '基础电信登记申请书、事业计划书、章程、股东名册（适用时）', '使用条款与用户保护计划、设备明细与网络结构图（基础电信）', '外国企业：本国法人证明及韩文译本（实务中需公证、认证）'],
   },
 }
 
@@ -1072,13 +1115,13 @@ const servicesJa: Record<ServiceSlug, ServiceI18n> = {
     category: '法人/団体',
     description: '韓国での非営利社団法人設立には、主務官庁の許可と裁判所への法人登記が必要です。業界団体、職能団体、公益組織に適した法人形態です。',
     faqs: [
-      { q: '何名の設立会員が必要ですか？', a: '一般的に主務官庁によって2〜10名の設立会員が必要です。' },
+      { q: '何名の設立会員が必要ですか？', a: '民法には最低人数の定めがありません。社団法人は人の集まりであるため、主務官庁が会員構成と目的事業を続けられる能力を審査し、実務上は継続的に活動できる会員数を求められることがあります。' },
     ],
     processSteps: [
       { step: '計画', desc: '目的・範囲の明確化と定款案作成' },
       { step: '書類準備', desc: '定款、設立総会議事録、会員名簿' },
       { step: '主務官庁許可', desc: '主務官庁への申請' },
-      { step: '法院登記', desc: '地区裁判所での法人登記' },
+      { step: '法院登記', desc: '許可から3週間以内に主たる事務所の所在地で設立登記' },
     ],
     documents: ['定款', '設立総会議事録', '設立会員名簿', '事業計画と予算'],
   },
@@ -1134,19 +1177,19 @@ const servicesJa: Record<ServiceSlug, ServiceI18n> = {
     title: '化粧品・医薬部外品製造・輸入許可',
     shortTitle: '化粧品・医薬部外品許可',
     category: '医薬品',
-    description: '韓国で化粧品や医薬部外品を製造・輸入するには、食品医薬品安全部への登録または許可が必要です。韓国市場に参入する美容ブランド、OEMメーカー、輸入業者にとって必須の許認可です。',
+    description: '韓国で化粧品や医薬部外品を製造・輸入するには、食品医薬品安全処（MFDS）への登録が必要です。韓国市場に参入する美容ブランド、OEMメーカー、輸入業者にとって必須の許認可です。',
     faqs: [
       { q: '医薬部外品とは何ですか？', a: '医薬部外品は化粧品と医薬品の中間に位置する製品で、消毒剤、美白歯磨き粉、染毛剤などが含まれます。別途許可が必要です。' },
-      { q: '化粧品の製造には施設が必要ですか？', a: '製造業者にはGMP適合施設が必要です。輸入業者は韓国での責任販売業者（RP）の指定が必要です。' },
-      { q: '韓国企業なしで外国化粧品を輸入できますか？', a: 'いいえ。韓国へ化粧品を輸入するには、韓国の責任販売業者（企業または個人）を指定する必要があります。' },
+      { q: '化粧品の製造には施設が必要ですか？', a: '製造業の登録には施設基準を満たす必要があります（一部工程のみなら一部省略可）。優秀化粧品製造管理基準（CGMP）は推奨制度で、義務ではありません。輸入品を流通・販売する事業者は、自ら化粧品責任販売業を登録します。' },
+      { q: '韓国企業なしで外国化粧品を輸入できますか？', a: '日本本社が直接登録することはできません。責任販売業の登録は韓国内の責任販売業所の所在地を管轄する地方食品医薬品安全庁に行うため、登録済みの韓国の輸入元（責任販売業者）を通すか、韓国法人を設けて自社で登録します。' },
     ],
     processSteps: [
       { step: '許可種別の確認', desc: '製品カテゴリと必要な許可種別の評価' },
       { step: '施設/RP設置', desc: 'GMP施設の準備または責任販売業者の指定' },
-      { step: '申請', desc: '食品医薬品安全部への申請' },
+      { step: '申請', desc: '地方食品医薬品安全庁への登録申請' },
       { step: '完了', desc: '登録/許可証の交付' },
     ],
-    documents: ['事業者登録証', '施設配置図またはRP指定書類', '製品成分リスト', '安全性評価書類'],
+    documents: ['事業者登録証', '施設配置図またはRP指定書類', '製品成分リスト', '（乳幼児・子ども用と表示する場合）製品別安全性資料'],
   },
   'procurement': {
     title: '政府調達登録（PPS/나라장터）',
@@ -1216,21 +1259,21 @@ const servicesJa: Record<ServiceSlug, ServiceI18n> = {
     title: '位置情報サービス業届出',
     shortTitle: '位置情報サービス業',
     category: 'IT/通信',
-    description: '位置情報の保護及び利用法に基づき、個人や物体の位置情報を収集・保存・提供する事業者は放送通信委員会（KCC）への届出が必要です。GPSや基地局データを使用するアプリ、プラットフォーム、デバイスに適用されます。',
+    description: '位置情報法に基づき、個人位置情報を使って位置基盤サービスを提供する事業者は放送メディア通信委員会に申告（届出）します。位置情報を自ら収集して他社に提供する個人位置情報事業は、申告ではなく登録の対象です。GPSや基地局データを使用するアプリ、プラットフォーム、デバイスに適用されます。',
     faqs: [
-      { q: 'どのようなサービスが届出の対象ですか？', a: '個人や物体の位置データを使用するサービス——デリバリーアプリ、ナビゲーション、車両追跡、位置情報マーケティング、テレマティクスなど——が届出の対象です。' },
-      { q: '外国企業でも届出できますか？', a: 'はい。ただし韓国に法人（支店または子会社）を設立し、韓国在住の位置情報保護管理者を任命する必要があります。' },
-      { q: '届出にはどれくらいかかりますか？', a: 'KCCへの全書類提出後、約1〜2週間です。' },
-      { q: '継続的なコンプライアンス義務はありますか？', a: 'はい。年次安全措置報告、位置データ保護管理者の任命、ユーザー同意の管理が必要です。' },
-      { q: 'コンプライアンス違反の罰則は？', a: '最大3,000万ウォンの罰金。適切な届出なしに位置情報を収集した事業者は刑事責任を問われる可能性があります。' },
+      { q: 'どのようなサービスが届出の対象ですか？', a: '個人位置情報（他の情報と容易に結びつけて特定の個人の位置がわかるものを含む）を使うサービス——デリバリーアプリ、ナビゲーション、運転者と結びつく車両追跡、位置情報マーケティングなど——が申告の対象です。個人と結びつかない物の位置だけを使うサービスは対象外です。' },
+      { q: '外国企業でも届出できますか？', a: 'はい。韓国に法人や支店がなくても外国法人名義で申告できます。位置情報法には国内代理人や韓国在住の管理者を置く義務はなく、本国の登記書類に公証・アポスティーユと韓国語翻訳を付けて申告します。' },
+      { q: '届出にはどれくらいかかりますか？', a: '行政庁は内容を検討し、法に適合すれば申告を受理します。実務上は書類完備から2〜4週間、外国法人は本国書類の準備を含めて4〜8週間を見込みます。' },
+      { q: '継続的なコンプライアンス義務はありますか？', a: 'はい。利用約款の公開、個人位置情報主体の同意取得、管理的・技術的保護措置、利用・提供事実の自動記録と保存、変更・休廃業の申告が必要です。' },
+      { q: 'コンプライアンス違反の罰則は？', a: '申告をせずに位置基盤サービス事業を行うと3年以下の懲役または3,000万ウォン以下の罰金、登録をせずに個人位置情報を対象とする位置情報事業を行うと5年以下の懲役または5,000万ウォン以下の罰金の対象になりえます。' },
     ],
     processSteps: [
       { step: '相談', desc: 'サービス種別と適用義務の評価' },
       { step: '書類準備', desc: 'KCC届出書類とプライバシーポリシーの準備' },
-      { step: 'KCC提出', desc: '放送通信委員会への届出' },
+      { step: 'KCC提出', desc: '放送メディア通信委員会への申告' },
       { step: '確認', desc: '届出確認書の受領とコンプライアンス設定' },
     ],
-    documents: ['事業者登録証', 'サービス説明と技術概要', '位置情報保護管理者任命書', 'プライバシーポリシー案', 'セキュリティ対策計画'],
+    documents: ['事業者登録証', 'サービス説明と技術概要', '位置情報の保護措置（管理的・技術的措置）を証明する書類', 'プライバシーポリシー案', 'セキュリティ対策計画'],
   },
   'medical-device': {
     title: '医療機器輸入許認可',
@@ -1257,7 +1300,7 @@ const servicesJa: Record<ServiceSlug, ServiceI18n> = {
   },
   'health-food': {
     title: '健康機能食品の輸入届出',
-    shortTitle: '健康機能食品輸入',
+    shortTitle: '健康機能食品',
     category: '食品',
     description: '健康機能食品を輸入するには、地方食品医薬品安全庁長に輸入食品等輸入販売業の営業登録を行い、品目ごとに輸入届出をします。登録の処理期間は3日、検査は書類検査2日から精密検査10日まで種類により異なります。',
     faqs: [
@@ -1372,6 +1415,28 @@ const servicesJa: Record<ServiceSlug, ServiceI18n> = {
       { step: '変更時の再審査・再報告', desc: '審査を受けた事項や提出した報告書を変更する際も、あらためて審査を受けるか報告書を提出しなければなりません。' },
     ],
     documents: ['機能性化粧品審査依頼書（様式第7号）または審査除外品目報告書（様式第10号）', '起源および開発経緯に関する資料', '安全性に関する資料（単回投与毒性、一次皮膚刺激、眼粘膜刺激、皮膚感作性、光毒性・光感作性、ヒトパッチテスト）', '有効性または機能に関する資料（効力試験資料、ヒト適用試験資料）', '紫外線遮断指数およびUVA遮断等級設定の根拠資料（紫外線遮断製品）', '基準および試験方法に関する資料（検体を含む）'],
+  },
+  'telecom-business': {
+    title: '情報通信分野の許認可 — 付加通信事業の申告・基幹通信事業の登録',
+    shortTitle: '付加通信事業の申告',
+    category: 'IT・通信',
+    description: '付加通信事業の申告と基幹通信事業の登録は、韓国の電気通信事業法に基づき科学技術情報通信部長官に行う許認可です。役務区分の判定、資本金1億ウォン以下のみなし申告、特殊な類型の登録、外国企業の国内代理人、書類と処理期間をまとめました。',
+    faqs: [
+      { q: '付加通信事業とは何ですか？', a: '電気通信事業法は、基幹通信役務以外の電気通信役務を付加通信役務とし、これを提供する事業者に申告を求めています。アプリマーケットやオンライン動画サービスは法律上、付加通信役務と定義されています。' },
+      { q: '資本金1億ウォン以下なら申告は不要ですか？', a: 'インターネットで付加通信役務を提供する資本金1億ウォン以下の事業者は、申告したものとみなされます。資本金が1億ウォンを超えたら、その日から1か月以内に申告します。特殊な類型の付加通信事業は資本金に関係なく登録が必要です。' },
+      { q: '外国企業も申告できますか？', a: '付加通信事業の申告には国籍の制限規定がありません。韓国に住所・営業所がない事業者で、1日平均の国内利用者100万人以上かつ国内トラフィック1%以上の両方に当たる場合は、国内代理人を書面で指定します。' },
+      { q: 'どこに申告しますか？', a: '科学技術情報通信部長官あてに申告し、受付・処理は中央電波管理所が行います。電子申請もできます。受理されると付加通信事業申告証明書が交付されます。' },
+      { q: '申告せずに事業をするとどうなりますか？', a: '申告をせずに付加通信事業を営むと2年以下の懲役または1億ウォン以下の罰金、登録をせずに基幹通信事業や特殊な類型の付加通信事業を営むと3年以下の懲役または1億5,000万ウォン以下の罰金の対象になりえます。' },
+    ],
+    processSteps: [
+      { step: '役務区分の判定', desc: 'サービスが基幹通信役務・付加通信役務・特殊な類型の付加通信役務のどれに当たるかを機能ごとに整理します。' },
+      { step: 'みなし申告の確認', desc: 'インターネットで提供する資本金1億ウォン以下の事業者は申告したものとみなされます。超えた場合は1か月以内に申告します。' },
+      { step: '書類の作成', desc: '申告書・登録申請書と、通信網構成図・個人情報保護措置構築明細書などの添付書類を準備します。外国企業は本国書類の公証・アポスティーユと韓国語翻訳も整えます。' },
+      { step: '提出', desc: '科学技術情報通信部長官あてに提出し、中央電波管理所が処理します。' },
+      { step: '補完への対応', desc: '不備があれば10日以内の期間を定めて補完を求められます。' },
+      { step: '交付と事後管理', desc: '申告証明書・登録証を受け、1年以内に事業を始めます。変更・譲渡・休廃業の申告も管理します。' },
+    ],
+    documents: ['付加通信事業申告書', '通信網構成図（新しい類型の役務で求められた場合）', '個人情報保護措置構築明細書（個人情報を扱う場合）', '特殊な類型の付加通信事業者登録申請書と登録要件の証明書類（該当事業者）', '基幹通信事業登録申請書・事業計画書・定款・株主名簿（基幹通信事業）', '利用約款と利用者保護機構の運営計画書、事業用主要設備の明細・通信網構成図（基幹通信事業）', '外国企業：本国の登記事項証明書（公証・アポスティーユ・韓国語翻訳）'],
   },
 }
 

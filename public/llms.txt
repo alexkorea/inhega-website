@@ -11,6 +11,42 @@
 **연락처:** 02-363-2251
 **이메일:** help@inhega.co.kr
 
+## 중점 업무 (Focus services)
+
+유선행정사사무소(YouSun Administrative Agency)가 가장 많이 처리하는 6개 분야입니다. 각 페이지 첫머리에 핵심 답변, 한눈에 보기(대상·요건·절차·서류·기간), 상황별 질문이 있습니다.
+
+### 한국어
+- 비영리사단법인 설립: https://inhega.co.kr/services/nonprofit
+- 정보통신분야 인허가(부가통신사업 신고·기간통신사업 등록): https://inhega.co.kr/services/telecom-business
+- 위치기반서비스사업 신고(외국기업 포함): https://inhega.co.kr/services/location-based-service
+- 화장품 인허가(책임판매업·제조업 등록, 기능성 심사, 안전성 자료): https://inhega.co.kr/services/cosmetics
+- 건강기능식품(판매업 신고·제조업 허가·수입 영업등록): https://inhega.co.kr/services/health-food
+- 공장등록(공장설립 승인·공장등록증명서): https://inhega.co.kr/services/factory
+
+### English
+- Register a nonprofit association in Korea: https://inhega.co.kr/en/services/nonprofit
+- Value-added telecommunications business registration in Korea: https://inhega.co.kr/en/services/telecom-business
+- Location-based service report under the Korea Location Information Act (incl. foreign companies): https://inhega.co.kr/en/services/location-based-service
+- South Korea cosmetic registration (responsible distributor, manufacturer, functional cosmetics): https://inhega.co.kr/en/services/cosmetics
+- Health functional food registration and import in South Korea: https://inhega.co.kr/en/services/health-food
+- Factory registration in South Korea: https://inhega.co.kr/en/services/factory
+
+### 中文
+- 韩国非营利社团法人设立: https://inhega.co.kr/zh/services/nonprofit
+- 韩国增值电信业务申报: https://inhega.co.kr/zh/services/telecom-business
+- 韩国位置信息法 位置服务事业申报（含外国企业）: https://inhega.co.kr/zh/services/location-based-service
+- 韩国化妆品责任销售业·制造业注册: https://inhega.co.kr/zh/services/cosmetics
+- 韩国健康功能食品（保健食品）进口与营业: https://inhega.co.kr/zh/services/health-food
+- 韩国工厂登记: https://inhega.co.kr/zh/services/factory
+
+### 日本語
+- 韓国の社団法人設立: https://inhega.co.kr/ja/services/nonprofit
+- 韓国の付加通信事業申告（電気通信事業法）: https://inhega.co.kr/ja/services/telecom-business
+- 韓国 位置情報法の位置情報サービス事業申告（外国企業を含む）: https://inhega.co.kr/ja/services/location-based-service
+- 韓国の化粧品規制・責任販売業登録: https://inhega.co.kr/ja/services/cosmetics
+- 韓国の健康機能食品の輸入・営業: https://inhega.co.kr/ja/services/health-food
+- 韓国の工場設立・工場登録: https://inhega.co.kr/ja/services/factory
+
 ## 주요 서비스
 
 전체 61종 — https://inhega.co.kr/services

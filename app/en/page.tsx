@@ -6,6 +6,7 @@ import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
+import FocusServices from '@/components/home/FocusServices'
 
 const HOME_TITLE = 'Licensing Specialist Administrative Agent — Korean Permit Procedures & Documents | YouSun Administrative Agency'
 const HOME_DESC = 'Business licensing specialist for foreign companies and individuals in Korea. We handle all Korean government permits — freight forwarding, currency exchange, cosmetics, food, and more.'
@@ -92,6 +93,9 @@ export default function EnHomePage() {
           <div className={styles.scrollLine} />
         </div>
       </section>
+
+      {/* INHEGA-FOCUS-1103 2차 중점 업무 6카드 — 첫 화면(히어로) 바로 아래, ko 와 같은 자리. 정본 lib/focus-services.ts */}
+      <FocusServices locale="en" />
 
       {/* TRUST STRIP */}
       <section className={styles.trustStrip}>

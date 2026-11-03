@@ -11,6 +11,7 @@ import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
 import { pullLawRefs } from '@/lib/law-refs'
 import { FocusPillarTop, FocusPillarRelated } from '@/components/services/FocusPillar'
+import { getPillarView, situationQuestions, pillarServiceJsonLd } from '@/lib/focus-pillar-view'
 
 const plainText = (h: string) =>
   h.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
@@ -82,18 +83,30 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const steps = svc.process.map((p) => ({ step: pullLawRefs(p.step, refs), desc: pullLawRefs(p.desc, refs) }))
   const faqs = svc.faqs.map((f) => ({ q: pullLawRefs(f.q, refs), a: pullLawRefs(f.a, refs) }))
 
-  const faqJsonLd = svc.faqs.length > 0 ? {
+  // INHEGA-FOCUS-1103 2차: 중점 필러는 상황별 질문도 같은 FAQPage 한 개에 싣는다(FAQPage 단일 원천).
+  const pillar = getPillarView('ko', slug)
+  const sitQs = pillar ? situationQuestions(pillar) : []
+  const faqJsonLd = svc.faqs.length + sitQs.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     // 답변 원문에 <strong> 등 강조 태그가 있다 — JSON-LD 에는 화면에 보이는 글자만 싣는다.
-    mainEntity: faqs.map((f) => ({
-      '@type': 'Question',
-      name: plainText(f.q),
-      acceptedAnswer: { '@type': 'Answer', text: plainText(f.a) },
-    })),
+    mainEntity: [
+      ...faqs.map((f) => ({
+        '@type': 'Question',
+        name: plainText(f.q),
+        acceptedAnswer: { '@type': 'Answer', text: plainText(f.a) },
+      })),
+      ...sitQs,
+    ],
   } : null
 
-  const serviceJsonLd = {
+  // 중점 필러는 @id·serviceType·provider(@id 참조)·inLanguage 를 갖춘 Service 노드(보스 msg 4784).
+  const serviceJsonLd = pillar ? pillarServiceJsonLd(pillar, {
+    name: svc.title,
+    description: svc.description,
+    url: `https://inhega.co.kr/services/${slug}`,
+    image: photo?.jsonLd,
+  }) : {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: svc.title,

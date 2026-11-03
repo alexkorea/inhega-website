@@ -63,7 +63,7 @@ export function gateArticle(entry, ctx) {
 
   // ── P. 주제 풀 ──────────────────────────────────────────────────────────────
   const topic = topicByKey(entry.topic)
-  add('P1 주제 풀(18개) 내', POOL_KEYS.has(entry.topic), `topic=${entry.topic}`)
+  add('P1 주제 풀(18+중점3) 내', POOL_KEYS.has(entry.topic), `topic=${entry.topic}`)
   add('P2 세부주제(angle) 카탈로그 내', ANGLE_KEYS.has(entry.angle), `angle=${entry.angle}`)
 
   // ── U. URL·중복 ────────────────────────────────────────────────────────────

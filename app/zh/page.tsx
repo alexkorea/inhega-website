@@ -6,6 +6,7 @@ import { getT } from '@/lib/i18n/translations'
 import type { Metadata } from 'next'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
+import FocusServices from '@/components/home/FocusServices'
 
 const HOME_TITLE = '许可专业行政士 — 韩国营业许可流程与材料 | YouSun Administrative Agency'
 const HOME_DESC = '专为外国企业和个人办理韩国政府各类营业许可证。国际货运代理、外汇兑换、食品制造、化妆品许可等一站式专业代办。'
@@ -92,6 +93,9 @@ export default function ZhHomePage() {
           <div className={styles.scrollLine} />
         </div>
       </section>
+
+      {/* INHEGA-FOCUS-1103 2차 중점 업무 6카드 — 첫 화면(히어로) 바로 아래, ko 와 같은 자리. 정본 lib/focus-services.ts */}
+      <FocusServices locale="zh" />
 
       {/* TRUST STRIP */}
       <section className={styles.trustStrip}>

@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
 import ArticleBody from '@/components/blog/ArticleBody'
+import FocusPillarLink from '@/components/blog/FocusPillarLink'
 import { publisherLogo } from '@/lib/org-jsonld'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
@@ -146,6 +147,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   </div>
                 )}
                 <ArticleBody html={post.content} locale="ko" />
+                {/* INHEGA-FOCUS-1103 2차: 중점 업무 글 → 필러 링크 */}
+                <FocusPillarLink postSlug={post.slug || post.id} locale="ko" />
               </article>
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>

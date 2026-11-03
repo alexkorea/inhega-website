@@ -24,7 +24,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { POOL, ANGLES, topicOfSlug, topicByKey } from './pool.mjs'
+import { POOL, ANGLES, topicOfSlug, topicByKey, FOCUS_TOPIC_KEYS, FOCUS_SHARE, FOCUS_WINDOW } from './pool.mjs'
 import { gateArticle, printGate } from './gates.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
@@ -161,16 +161,26 @@ function main() {
       picked = bank.find((e) => e.slug === FORCED)
       if (!picked) { console.error(`--slug=${FORCED} 원고를 은행에서 찾지 못했습니다`); return 3 }
     } else {
-      for (const { topic } of rankTopics(ctx, state)) {
+      // INHEGA-FOCUS-1103(보스 msg 4781·4787): 최근 FOCUS_WINDOW 건 중 중점 주제가 FOCUS_SHARE(70%) 아래로
+      // 떨어지게 되면 중점 주제를 먼저 고른다(그 안에서는 종전 로테이션 순서). 중점 원고가 없으면 종전대로.
+      const ranked = rankTopics(ctx, state)
+      const recent = [...state.history].sort((a, b) => a.date.localeCompare(b.date)).slice(-(FOCUS_WINDOW - 1))
+      const focusRecent = recent.filter((h) => FOCUS_TOPIC_KEYS.has(h.topic)).length
+      const focusFirst = focusRecent < Math.ceil(FOCUS_SHARE * FOCUS_WINDOW)
+      const order = focusFirst ? [...ranked.filter((r) => FOCUS_TOPIC_KEYS.has(r.topic.key)), ...ranked.filter((r) => !FOCUS_TOPIC_KEYS.has(r.topic.key))] : ranked
+      console.log(`중점 주제 비율: 최근 ${recent.length}건 중 ${focusRecent}건 → ${focusFirst ? '중점 우선' : '종전 로테이션'}`)
+      for (const { topic } of order) {
         const used = usedAngles(ctx, state, topic.key)
-        const cands = pending.filter((e) => e.topic === topic.key && !used.has(e.angle))
+        const cands = pending.filter((e) => e.topic === topic.key && (!used.has(e.angle) || e.angle === 'situation'))
         if (cands.length) {
-          const order = ANGLES.map((a) => a.key)
-          cands.sort((a, b) => order.indexOf(a.angle) - order.indexOf(b.angle))
+          // 상황형(situation)을 먼저, 그다음 세부주제 카탈로그 순서. 상황형은 질문마다 한 편이라 같은 주제에서 여러 번 쓸 수 있다.
+          const angleOrder = ['situation', ...ANGLES.map((a) => a.key).filter((k) => k !== 'situation')]
+          cands.sort((a, b) => angleOrder.indexOf(a.angle) - angleOrder.indexOf(b.angle))
           picked = cands[0]
           break
         }
       }
+      if (picked && focusFirst && !FOCUS_TOPIC_KEYS.has(picked.topic)) console.log('⚠ 중점 주제 원고가 은행에 없어 비중점 주제를 발행합니다 — bank/ 에 중점 상황형 원고 보충 필요')
     }
 
     if (!picked) {

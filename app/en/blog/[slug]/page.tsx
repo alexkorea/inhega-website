@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import ArticleBody from '@/components/blog/ArticleBody'
+import FocusPillarLink from '@/components/blog/FocusPillarLink'
 import Link from 'next/link'
 import { ContactLine } from '@/components/ui/ContactLineIcon'
 import { getServiceMenuCount } from '@/lib/services-menu'
@@ -146,6 +147,8 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                     <Link href={koBlogHref(slug)} style={{ color: 'var(--burgundy)' }}>Read in Korean</Link>
                   </div>
                 )}
+                {/* INHEGA-FOCUS-1103 2차: 중점 업무 글 → 필러 링크 */}
+                <FocusPillarLink postSlug={slug} locale="en" />
               </article>
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>

@@ -7,13 +7,21 @@ import type { Locale } from '@/lib/i18n/translations'
 import { getT } from '@/lib/i18n/translations'
 import { getServiceMenuByGroup } from '@/lib/services-menu'
 import LangFlags from '@/components/ui/LangFlags'
+import { FOCUS_SERVICES, FOCUS_SERVICES_I18N } from '@/lib/focus-services'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts 에서 구운 경량판 (하드코딩 금지, 2026-09-22)
 // 'use client' 라 catalog 를 직접 import 하면 본문 코퍼스 893KB 가 번들에 실린다 (2026-09-25)
 
+const FOCUS_GROUP_ID = 'focus'
+
 export default function NavbarLang({ locale }: { locale: Locale }) {
   const t = getT(locale)
-  const serviceGroups = getServiceMenuByGroup(locale)
+  // INHEGA-FOCUS-1103 2차: 메뉴 맨 앞에 중점 업무 6개(ko Navbar 와 같은 규칙). 기존 분야 묶음은 그대로 뒤에.
+  const focusText = FOCUS_SERVICES_I18N[locale as 'en' | 'zh' | 'ja']
+  const serviceGroups = [
+    ...(focusText ? [{ id: FOCUS_GROUP_ID, label: focusText.badge, items: FOCUS_SERVICES.map((f) => ({ slug: f.slug, href: `/${locale}${f.href}`, shortTitle: focusText.items[f.slug].label })) }] : []),
+    ...getServiceMenuByGroup(locale),
+  ]
   const base = `/${locale}`
 
   const [scrolled, setScrolled] = useState(false)
@@ -81,7 +89,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
                 </div>
                 <div className={styles.megaMenuGrid}>
                   {serviceGroups.map((group) => (
-                    <div key={group.id} className={styles.megaMenuGroup}>
+                    <div key={group.id} className={`${styles.megaMenuGroup} ${group.id === FOCUS_GROUP_ID ? styles.megaMenuGroupFocus : ''}`}>
                       <p className={styles.megaMenuGroupLabel}>{group.label}</p>
                       {group.items.map((s) => (
                         <Link key={s.slug} prefetch={false} href={s.href} className={styles.megaMenuItem}>
@@ -147,7 +155,7 @@ export default function NavbarLang({ locale }: { locale: Locale }) {
           <div className={styles.mobileServiceSection}>
             <p className={styles.mobileServiceLabel}>{t.nav.services}</p>
             {serviceGroups.map((group) => (
-              <div key={group.id} className={styles.mobileServiceGroup}>
+              <div key={group.id} className={`${styles.mobileServiceGroup} ${group.id === FOCUS_GROUP_ID ? styles.mobileServiceGroupFocus : ''}`}>
                 <p className={styles.mobileServiceGroupLabel}>{group.label}</p>
                 {group.items.map((s) => (
                   <Link prefetch={false} key={s.slug} href={s.href} className={styles.mobileServiceLink}>

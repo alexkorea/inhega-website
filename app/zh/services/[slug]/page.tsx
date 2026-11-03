@@ -9,6 +9,8 @@ import type { Metadata } from 'next'
 import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from '@/app/services-slug.module.css'
+import { FocusPillarTop, FocusPillarRelated } from '@/components/services/FocusPillar'
+import { getPillarView, getPillarMeta, situationQuestions, pillarServiceJsonLd } from '@/lib/focus-pillar-view'
 import { pullLawRefsCjk } from '@/lib/law-refs'
 
 export async function generateStaticParams() {
@@ -27,10 +29,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const svc = getServiceI18n('zh', slug)
   if (!svc) return {}
   const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'zh', svc.title) : null
-  const pageTitle = `${svc.title} | YouSun Administrative Agency`
+  // INHEGA-FOCUS-1103 2차: 중점 필러는 그 언어 실제 검색어로 쓴 제목·설명(lib/focus-pillars-i18n.ts)
+  const meta = getPillarMeta('zh', slug)
+  const pageTitle = `${meta?.seoTitle ?? svc.title} | YouSun Administrative Agency`
+  const metaDesc = meta?.description ?? svc.description
   return {
     title: pageTitle,
-    description: svc.description,
+    description: metaDesc,
     // 보스 확정 대기 페이지 — 색인 차단 (2026-09-17).
     ...(isDeployHold(slug) ? { robots: { index: false, follow: false } } : {}),
     alternates: {
@@ -45,14 +50,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     openGraph: {
       title: pageTitle,
-      description: svc.description,
+      description: metaDesc,
       url: `https://inhega.co.kr/zh/services/${slug}`,
       images: [photo ? photo.og : { url: '/images/hero-seoul.png', width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
       title: pageTitle,
-      description: svc.description,
+      description: metaDesc,
       images: [photo ? photo.og.url : '/images/hero-seoul.png'],
     },
   }
@@ -72,17 +77,26 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
   const steps = svc.processSteps?.map((p) => ({ step: pullLawRefsCjk(p.step, refs), desc: pullLawRefsCjk(p.desc, refs) }))
   const faqs = svc.faqs?.map((f) => ({ q: pullLawRefsCjk(f.q, refs), a: pullLawRefsCjk(f.a, refs) }))
 
-  const faqJsonLd = faqs ? {
+  // INHEGA-FOCUS-1103 2차: 중점 필러는 상황별 질문도 같은 FAQPage 한 개에, Service 는 @id·provider 참조 노드로.
+  const pillar = getPillarView('zh', slug)
+  const meta = getPillarMeta('zh', slug)
+  const sitQs = pillar ? situationQuestions(pillar) : []
+  const faqEntities = [
+    ...(faqs ?? []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    ...sitQs,
+  ]
+  const faqJsonLd = faqEntities.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
+    mainEntity: faqEntities,
   } : null
 
-  const serviceJsonLd = {
+  const serviceJsonLd = pillar ? pillarServiceJsonLd(pillar, {
+    name: meta?.h1 ?? svc.title,
+    description: meta?.description ?? svc.description,
+    url: `https://inhega.co.kr/zh/services/${slug}`,
+    image: photo?.jsonLd,
+  }) : {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: svc.title,
@@ -115,10 +129,10 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
             </div>
             <span className="badge badge-white" style={{ marginBottom: '0.75rem' }}>{svc.category}</span>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(2rem,4vw,3.5rem)', fontWeight: 700, color: 'white', lineHeight: 1.15, marginBottom: '1rem' }}>
-              {svc.title}
+              {meta?.h1 ?? svc.title}
             </h1>
             <p style={{ fontSize: '1.0625rem', color: 'rgba(255,255,255,0.88)', maxWidth: '60ch', lineHeight: 1.8 }}>
-              {svc.description}
+              {meta?.description ?? svc.description}
             </p>
             <div style={{ marginTop: '1.25rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <Link href="/zh/contact" className="btn btn-primary btn-lg">咨询</Link>
@@ -131,6 +145,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
           <div className="container">
             <div className={styles.contentGrid}>
               <div>
+                <FocusPillarTop slug={slug} locale="zh" />
                 {steps && (
                   <section className="fade-up" style={{ marginBottom: 'var(--block-gap)' }}>
                     <div style={{ marginBottom: '2rem' }}>
@@ -171,6 +186,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                     </div>
                   </section>
                 )}
+                <FocusPillarRelated slug={slug} locale="zh" />
                 <IndustryBacklinks pages={getIndustryBacklinks('zh', `/zh/services/${slug}`)} heading={BACKLINK_HEADING.zh} />
               </div>
 

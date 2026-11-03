@@ -1,4 +1,4 @@
-// inhega 일일 블로그 — 보스 영구지침 확정 주제 풀(18개).
+// inhega 일일 블로그 — 보스 영구지침 확정 주제 풀(18개) + 중점 업무 3개(보스 msg 4781, 2026-11-03).
 //
 // 출처: NAS `directives/inhega-블로그-발행지침서-v1.0.md` 제2장 2-1
 //   "확정 풀(18개, 이것만 작성가능)"
@@ -29,7 +29,16 @@ export const POOL = [
   { key: 'quasi-drug',           kw: '의약외품허가',          service: 'cosmetics',            slugStems: ['quasi-drug'] },
   { key: 'procurement',          kw: '조달청나라장터등록',    service: 'procurement',          slugStems: ['procurement-narajangteo', 'narajangteo', 'g2b', 'procurement-fix'] },  // procurement-fix(10-03 부정당업자 제재) 귀속 — FOLLOWUP-1029
   { key: 'lbs',                  kw: '위치기반서비스사업신고', service: 'location-based-service', slugStems: ['location-based-service', 'location-information'] },
+  // INHEGA-FOCUS-1103(보스 msg 4781·4787, 2026-11-03): 중점 6개 중 풀에 없던 3개를 추가 — 보스 지시가 근거.
+  { key: 'health-food',          kw: '건강기능식품판매업신고', service: 'health-food',           slugStems: ['health-food', 'health-functional-food'] },
+  { key: 'factory',              kw: '공장등록',              service: 'factory',              slugStems: ['factory'] },
+  { key: 'telecom',              kw: '부가통신사업신고',      service: 'telecom-business',     slugStems: ['telecom', 'value-added-telecom'] },
 ]
+
+// 중점 업무 6개(lib/focus-services.ts)에 해당하는 주제 — 일일 발행의 70% 이상을 여기서 고른다(run.mjs focusFirst).
+export const FOCUS_TOPIC_KEYS = new Set(['nonprofit', 'telecom', 'lbs', 'cosmetics-distributor', 'health-food', 'factory'])
+export const FOCUS_SHARE = 0.7
+export const FOCUS_WINDOW = 10
 
 // 세부주제(angle) 카탈로그 — 슬러그 뒤에 붙는 "회차"를 숫자가 아니라 낱말로 표현한다.
 // 지침서 제0장 X1(슬러그 날짜·연도 금지) + 제4장(자동번호 금지) 때문에
@@ -49,6 +58,8 @@ export const ANGLES = [
   { key: 'post-management', ko: '사후관리 의무' },
   { key: 'comparison',      ko: '유사 제도 비교' },
   { key: 'checklist',       ko: '준비 체크리스트' },
+  // INHEGA-FOCUS-1103 2차(보스 msg 4787): "○○인데 ○○하려면?" 상황형 글 — 중점 주제에서 먼저 고른다.
+  { key: 'situation',       ko: '상황별 질문' },
 ]
 
 export const POOL_KEYS = new Set(POOL.map((t) => t.key))

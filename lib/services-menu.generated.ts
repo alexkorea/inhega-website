@@ -266,6 +266,12 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
       "category": "Sports"
     },
     {
+      "slug": "telecom-business",
+      "href": "/en/services/telecom-business",
+      "shortTitle": "Telecom Business",
+      "category": "IT & Telecom"
+    },
+    {
       "slug": "location-based-service",
       "href": "/en/services/location-based-service",
       "shortTitle": "Location-Based Service",
@@ -280,7 +286,7 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
     {
       "slug": "health-food",
       "href": "/en/services/health-food",
-      "shortTitle": "Health Food Import",
+      "shortTitle": "Health Functional Food",
       "category": "Food"
     },
     {
@@ -412,6 +418,12 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
       "category": "体育/休闲"
     },
     {
+      "slug": "telecom-business",
+      "href": "/zh/services/telecom-business",
+      "shortTitle": "增值电信业务申报",
+      "category": "IT·通信"
+    },
+    {
       "slug": "location-based-service",
       "href": "/zh/services/location-based-service",
       "shortTitle": "位置信息服务",
@@ -426,7 +438,7 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
     {
       "slug": "health-food",
       "href": "/zh/services/health-food",
-      "shortTitle": "健康功能食品进口",
+      "shortTitle": "健康功能食品",
       "category": "食品"
     },
     {
@@ -558,6 +570,12 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
       "category": "スポーツ/レジャー"
     },
     {
+      "slug": "telecom-business",
+      "href": "/ja/services/telecom-business",
+      "shortTitle": "付加通信事業の申告",
+      "category": "IT・通信"
+    },
+    {
       "slug": "location-based-service",
       "href": "/ja/services/location-based-service",
       "shortTitle": "位置情報サービス業",
@@ -572,7 +590,7 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
     {
       "slug": "health-food",
       "href": "/ja/services/health-food",
-      "shortTitle": "健康機能食品輸入",
+      "shortTitle": "健康機能食品",
       "category": "食品"
     },
     {
