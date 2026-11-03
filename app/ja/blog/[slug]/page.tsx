@@ -101,7 +101,7 @@ export default async function JaBlogPostPage({ params }: { params: Promise<{ slu
 
   const displayTitle = post?.title ?? koPost.title
   const displayCategory = post?.category ?? koPost.category
-  const displayDate = new Date(koPost.created_at).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })
+  const displayDate = new Date(koPost.created_at).toLocaleDateString('ja-JP', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric' })
 
   return (
     <>

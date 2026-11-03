@@ -110,7 +110,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                         </p>
                         <div className="blog-card-foot">
                         <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
-                            {new Date(post.created_at).toLocaleDateString('ko-KR')}
+                            {new Date(post.created_at).toLocaleDateString('ko-KR', { timeZone: 'Asia/Seoul' })}
                           </span>
                           <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>읽기</span>
                         </div>

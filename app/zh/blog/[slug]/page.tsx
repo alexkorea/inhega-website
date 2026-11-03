@@ -101,7 +101,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
 
   const displayTitle = post?.title ?? koPost.title
   const displayCategory = post?.category ?? koPost.category
-  const displayDate = new Date(koPost.created_at).toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
+  const displayDate = new Date(koPost.created_at).toLocaleDateString('zh-CN', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric' })
 
   return (
     <>

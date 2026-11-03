@@ -90,7 +90,7 @@ export default async function ZhBlogPage({ searchParams }: { searchParams: Promi
                     </p>
                     <div className="blog-card-foot">
                         <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
-                        {new Date(ko.created_at).toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' })}
+                        {new Date(ko.created_at).toLocaleDateString('zh-CN', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'short', day: 'numeric' })}
                       </span>
                       <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>阅读</span>
                     </div>

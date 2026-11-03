@@ -90,7 +90,7 @@ export default async function JaBlogPage({ searchParams }: { searchParams: Promi
                     </p>
                     <div className="blog-card-foot">
                         <span style={{ fontSize: '0.75rem', color: 'var(--slate-light)' }}>
-                        {new Date(ko.created_at).toLocaleDateString('ja-JP', { year: 'numeric', month: 'short', day: 'numeric' })}
+                        {new Date(ko.created_at).toLocaleDateString('ja-JP', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'short', day: 'numeric' })}
                       </span>
                       <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--burgundy)' }}>読む</span>
                     </div>

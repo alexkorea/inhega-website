@@ -4,7 +4,8 @@
 # 서브셋을 다시 굽고 한 번 더 빌드한다. 홈 문구를 고쳤거나 코퍼스(소스) 밖 글자가 HTML 에 생겼을 때만 일어난다.
 set -e
 cd "$(dirname "$0")/.."
-# A-3: 블로그 상세는 프리렌더 HTML 을 그대로 낸다 — 날짜 표기(toLocaleDateString)를 종전 워커 실행 시간대(UTC)와 같게 빌드한다.
+# A-3: 블로그 상세는 프리렌더 HTML 을 그대로 낸다. 빌드 시간대는 UTC 로 고정(재현성).
+# QA1102-FIX-2 6(맥7 11-03): 블로그 날짜 표기는 각 페이지 toLocaleDateString 에 timeZone 'Asia/Seoul' 을 명시해 KST 로 낸다(TZ 와 무관).
 export TZ=UTC
 next build
 set +e
