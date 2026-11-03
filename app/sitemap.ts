@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
-import { blogPosts } from '@/lib/blog-posts-data'
-import { getAllTranslatedSlugs } from '@/lib/i18n/blog-i18n'
+// INHEGA-FOCUS-1103: 본문 정본 대신 경량 색인(prebuild scripts/build-blog-feed-index.mjs) — 워커 25 MiB 한도
+import { FEED_POSTS_KO as blogPosts, getFeedTranslatedSlugs as getAllTranslatedSlugs } from '@/lib/blog-feed-index.generated'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 import { getServiceSlugs } from '@/lib/services-catalog'
 import { INDUSTRY_PHOTOS, industryPhotoSrc } from '@/lib/service-card-images'

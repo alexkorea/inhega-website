@@ -515,3 +515,9 @@
   min-height: 44px;
   justify-content: center;
 }
+
+/* INHEGA-FOCUS-1103 메뉴 맨 앞 '중점 업무' 묶음 — 라벨만 강조(항목 모양은 다른 묶음과 같다) */
+.megaMenuGroupFocus .megaMenuGroupLabel,
+.mobileServiceGroupFocus .mobileServiceGroupLabel {
+  color: #F4B9A0;
+}

@@ -80,7 +80,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
   {
     id: 'it',
     label: { ko: 'IT·통신', en: 'IT & Telecom', zh: 'IT·通信', ja: 'IT・通信' },
-    slugs: ['location-based-service', 'software-business-performance-management'],
+    slugs: ['telecom-business', 'location-based-service', 'software-business-performance-management'],
   },
   {
     id: 'living',

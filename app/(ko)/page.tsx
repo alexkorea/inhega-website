@@ -5,13 +5,15 @@ import { getDirectoryCount } from '@/lib/service-directory'
 import ServiceDirectory from '@/components/services/ServiceDirectory'
 import TeamSection from '@/components/layout/TeamSection'
 import QRSection from '@/components/layout/QRSection'
+import FocusServices from '@/components/home/FocusServices'
 
 // `alternates` replaces the layout's whole object, so `languages` must be repeated here
 // or the KO home ships without any hreflang.
 // I5(2026-10-03) — 홈 title·description. 레이아웃 기본값을 홈에서만 덮는다.
 // INH-LAYOUT(10-05, 보스 msg 2273·2275): 히어로·title 의 외국인 한정 문구를 '인허가 전문 행정사'로, ko 는 고객을 외국인으로 좁히지 않는다.
 const HOME_TITLE = '인허가 전문 행정사 — 인허가 절차·서류 | 유선행정사사무소'
-const HOME_DESC = '위치기반서비스사업, 국제물류주선업, 건축물용도변경, 기업부설연구소, 전자담배수입등록, 비영리사단법인, 지정스포츠클럽, 호스텔업 등 사업 인허가·등록·신고를 행정사가 업종별 절차와 서류 기준으로 안내하고 접수까지 전담합니다. 한·영·중·일 상담이 가능합니다.'
+// INHEGA-FOCUS-1103: 중점 업무 6개를 앞에.
+const HOME_DESC = '비영리사단법인 설립, 부가통신사업 신고 등 정보통신분야 인허가, 외국기업 위치기반서비스사업 신고, 화장품 책임판매업·제조업 등록, 건강기능식품 영업, 공장등록을 중심으로 인허가·등록·신고를 행정사가 절차와 서류 기준으로 안내하고 접수까지 전담합니다. 한·영·중·일 상담이 가능합니다.'
 
 // 홈 FAQ — 화면 FAQ 와 FAQPage JSON-LD 는 이 배열 하나에서 나온다(레이아웃 전역 FAQ 는 제거됨).
 const homeFaqs = [
@@ -137,6 +139,9 @@ export default function HomePage() {
           <div className={styles.scrollLine} />
         </div>
       </section>
+
+      {/* INHEGA-FOCUS-1103 중점 업무 6카드 — 첫 화면(히어로) 바로 아래. 정본 lib/focus-services.ts */}
+      <FocusServices />
 
       {/* TRUST STRIP */}
       <section className={styles.trustStrip}>

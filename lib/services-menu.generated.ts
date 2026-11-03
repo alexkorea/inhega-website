@@ -114,6 +114,12 @@ export const SERVICE_MENU: Record<'ko' | 'en' | 'zh' | 'ja', ServiceMenuItem[]> 
       "category": "체육시설업"
     },
     {
+      "slug": "telecom-business",
+      "href": "/services/telecom-business",
+      "shortTitle": "정보통신분야 인허가",
+      "category": "IT·통신"
+    },
+    {
       "slug": "location-based-service",
       "href": "/services/location-based-service",
       "shortTitle": "위치기반서비스사업신고",

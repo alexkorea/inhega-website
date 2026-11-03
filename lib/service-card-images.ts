@@ -92,6 +92,7 @@ export const INDUSTRY_PHOTOS: Record<string, Photo> = {
   ecig: { pexels: 19901864, ko: '전자담배 기기 3종', en: 'Three electronic cigarette devices', zh: '三款电子烟设备', ja: '電子たばこ機器3種' },
   'mail-order-sales-report': { pexels: 6170458, ko: '배송 차량에 실린 택배 상자들', en: 'Parcels loaded in a delivery van', zh: '装在配送车里的快递箱', ja: '配送車に積まれた宅配の箱' },
   // IT·통신
+  'telecom-business': { pexels: 7862565, ko: '안테나가 달린 통신 철탑', en: 'Telecommunication tower with antennas', zh: '装有天线的通信铁塔', ja: 'アンテナが付いた通信鉄塔' },
   'location-based-service': { pexels: 15548360, ko: '차량 거치대 스마트폰의 지도 길안내', en: 'Smartphone map navigation in a car mount', zh: '车载支架上手机的地图导航', ja: '車載ホルダーのスマートフォン地図ナビ' },
   'software-business-performance-management': { pexels: 5380792, ko: '코드가 떠 있는 개발자 듀얼 모니터', en: 'Developer dual monitors showing code', zh: '显示代码的开发者双显示器', ja: 'コードを表示した開発者のデュアルモニター' },
   // 생활·위생 서비스

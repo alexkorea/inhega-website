@@ -10,6 +10,7 @@ import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEAD
 import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
 import { pullLawRefs } from '@/lib/law-refs'
+import { FocusPillarTop, FocusPillarRelated } from '@/components/services/FocusPillar'
 
 const plainText = (h: string) =>
   h.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
@@ -143,6 +144,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <div className={styles.contentGrid}>
             {/* Main Content */}
             <div>
+              {/* INHEGA-FOCUS-1103 중점 업무 6개만 — 한눈에 보기(대상·요건·절차·서류·처리기간)·단계·외국기업 박스 */}
+              <FocusPillarTop slug={slug} />
               {/* Overview (if present) */}
               {overview && (
                 <section className="fade-up" style={{ marginBottom: 'var(--block-gap)' }}>
@@ -208,6 +211,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 </div>
               </section>
               )}
+              <FocusPillarRelated slug={slug} />
               <IndustryBacklinks pages={getIndustryBacklinks('ko', `/services/${slug}`)} heading={BACKLINK_HEADING.ko} />
               {/* I4 3종 세트 — 허브 → 선택기준·문제해결 글 (lib/hub-guides.generated.ts) */}
               {(HUB_GUIDES[`/services/${slug}`] ?? []).length > 0 && (

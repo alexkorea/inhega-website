@@ -1,6 +1,7 @@
 // NAVER-RSS(10-23): 블로그 피드 원천 = lib/blog-posts-data.ts(ko) + lib/i18n/blog-i18n.ts(en/zh/ja). 사이트맵과 같은 제외 규칙(301 슬러그).
-import { blogPosts } from '@/lib/blog-posts-data'
-import { getAllTranslatedSlugs, getBlogI18n, type Locale } from '@/lib/i18n/blog-i18n'
+import type { Locale } from '@/lib/i18n/blog-i18n'
+// INHEGA-FOCUS-1103: 본문 정본 대신 경량 색인(prebuild scripts/build-blog-feed-index.mjs) — 워커 25 MiB 한도
+import { FEED_POSTS_KO as blogPosts, getFeedTranslatedSlugs as getAllTranslatedSlugs, getFeedI18n as getBlogI18n } from '@/lib/blog-feed-index.generated'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 import { buildRss, RSS_HEADERS } from '@/lib/rss'
 import { RSS_META } from '@/lib/rss-meta'
