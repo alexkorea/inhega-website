@@ -9,8 +9,8 @@ import type { Metadata } from 'next'
 import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from '@/app/services-slug.module.css'
-import { FocusPillarTop, FocusPillarRelated } from '@/components/services/FocusPillar'
-import { getPillarView, getPillarMeta, situationQuestions, pillarServiceJsonLd } from '@/lib/focus-pillar-view'
+import { FocusPillarTop, FocusPillarRelated, FocusPillarGlossary } from '@/components/services/FocusPillar'
+import { getPillarView, getPillarMeta, situationQuestions, pillarServiceJsonLd, pillarGlossaryJsonLd } from '@/lib/focus-pillar-view'
 import { pullLawRefsCjk } from '@/lib/law-refs'
 
 export async function generateStaticParams() {
@@ -91,6 +91,8 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
     mainEntity: faqEntities,
   } : null
 
+  // 3차: 용어 설명 → DefinedTermSet(화면 글자 그대로)
+  const glossaryJsonLd = pillar ? pillarGlossaryJsonLd(pillar, `https://inhega.co.kr/zh/services/${slug}`) : null
   const serviceJsonLd = pillar ? pillarServiceJsonLd(pillar, {
     name: meta?.h1 ?? svc.title,
     description: meta?.description ?? svc.description,
@@ -116,6 +118,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
     <>
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      {glossaryJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(glossaryJsonLd) }} />}
       <div style={{ paddingTop: '72px' }}>
         <section className={styles.hero}>
           {/* 업종 사진 원본 800·1200·2000·2880w + 글 뒤만 어둡게(INH-CARD-CLEAR) — components/ui/IndustryHeroImage */}
@@ -187,6 +190,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                   </section>
                 )}
                 <FocusPillarRelated slug={slug} locale="zh" />
+                <FocusPillarGlossary slug={slug} locale="zh" />
                 <IndustryBacklinks pages={getIndustryBacklinks('zh', `/zh/services/${slug}`)} heading={BACKLINK_HEADING.zh} />
               </div>
 

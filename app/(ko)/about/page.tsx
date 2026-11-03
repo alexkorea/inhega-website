@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { FOCUS_SERVICES } from '@/lib/focus-services'
 import Link from 'next/link'
 import { EmailOff } from '@/components/ui/EmailOff'
 import { qrHref } from '@/lib/qr-links'
@@ -19,7 +20,7 @@ export const metadata = {
   },
   openGraph: {
     title: '회사소개 | 인허가 전문 행정사 — 유선행정사사무소',
-    description: '유선행정사사무소. 3인의 행정사가 처음부터 끝까지 책임집니다.',
+    description: '유선행정사사무소. 4인의 행정사가 처음부터 끝까지 책임집니다.',
     url: 'https://inhega.co.kr/about',
     images: [{ url: '/images/hero-seoul.png', width: 1200, height: 630, alt: '유선행정사사무소 팀' }],
     type: 'website',
@@ -88,7 +89,7 @@ export default function AboutPage() {
               </h1>
               <span className="accent-line fade-up delay-2" style={{ marginTop: '1.5rem', background: 'var(--burgundy)' }} />
               <p className="text-body-lg fade-up delay-2" style={{ color: 'rgba(255,255,255,0.65)', marginTop: '1.5rem' }}>
-                유선행정사사무소는 업종별 사업 인허가를 처음부터 끝까지 맡는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무 사무장이 6대 핵심 분야(물류·유통, 금융·외환, 숙박·관광, 식품·위생, 기업인증, 공공조달)의 인허가를 지원합니다.
+                유선행정사사무소는 행정기관에 내는 인허가·등록·신고 서류의 작성과 제출 대행을 맡는 행정사사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무진이 비영리사단법인 설립·정보통신분야 인허가·위치기반서비스사업 신고·화장품·건강기능식품·공장등록을 중점으로, 물류·유통·금융·외환·숙박·관광·식품·위생·기업인증·공공조달 등 업종별 인허가를 처리합니다. 상담은 한국어·영어·중국어·일본어로 합니다.
               </p>
             </div>
             <div className="fade-in delay-3" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
@@ -202,16 +203,31 @@ export default function AboutPage() {
         <div className="container">
           <div className="section-header section-header-centered fade-up">
             <span className="badge badge-burgundy text-label">전문 분야</span>
-            <h2 className="text-h2" style={{ marginTop: '0.75rem' }}>6대 핵심 전문 분야</h2>
+            <h2 className="text-h2" style={{ marginTop: '0.75rem' }}>처리 업무 범위</h2>
             <span className="accent-line" style={{ marginInline: 'auto', marginTop: '1rem' }} />
           </div>
+          {/* INHEGA-FOCUS-1103 3차(보스 msg 4808): 중점 업무 6개 먼저(필러 링크), 기존 분야는 그대로 뒤에 */}
+          <h3 className="text-h3" style={{ color: 'var(--navy)', marginBottom: '1rem' }}>중점 업무</h3>
+          <div className="about-expertise-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginBottom: '2.5rem' }}>
+            {FOCUS_SERVICES.map((f) => (
+              <Link key={f.href} href={f.href} prefetch={false} style={{
+                display: 'block', background: 'var(--white)', borderRadius: '16px', padding: '2rem',
+                border: '1px solid var(--border)', borderTop: '3px solid var(--navy)', color: 'inherit',
+              }}>
+                <h4 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>{f.label}</h4>
+                <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>{f.desc}</p>
+                <span style={{ display: 'inline-block', marginTop: '0.75rem', fontSize: '0.875rem', fontWeight: 600, color: 'var(--navy)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>자세히 보기</span>
+              </Link>
+            ))}
+          </div>
+          <h3 className="text-h3" style={{ color: 'var(--navy)', marginBottom: '1rem' }}>그 밖의 주요 인허가 분야</h3>
           <div className="about-expertise-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {expertise.map((e, i) => (
               <div key={e.title} className={`fade-up delay-${i + 1}`} style={{
                 background: 'var(--white)', borderRadius: '16px', padding: '2rem',
                 border: '1px solid var(--border)', borderTop: '3px solid var(--burgundy)'
               }}>
-                <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>{e.title}</h3>
+                <h4 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>{e.title}</h4>
                 <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>{e.desc}</p>
               </div>
             ))}

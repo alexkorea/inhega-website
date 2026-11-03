@@ -9,8 +9,8 @@ import type { Metadata } from 'next'
 import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/industry-pages'
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import styles from '@/app/services-slug.module.css'
-import { FocusPillarTop, FocusPillarRelated } from '@/components/services/FocusPillar'
-import { getPillarView, getPillarMeta, situationQuestions, pillarServiceJsonLd } from '@/lib/focus-pillar-view'
+import { FocusPillarTop, FocusPillarRelated, FocusPillarGlossary } from '@/components/services/FocusPillar'
+import { getPillarView, getPillarMeta, situationQuestions, pillarServiceJsonLd, pillarGlossaryJsonLd } from '@/lib/focus-pillar-view'
 
 export async function generateStaticParams() {
   // 번역본이 없는 KO 전용 서비스는 이 로케일에 페이지가 없다 — 프리렌더 대상에서 제외한다.
@@ -86,6 +86,8 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
     mainEntity: faqEntities,
   } : null
 
+  // 3차: 용어 설명 → DefinedTermSet(화면 글자 그대로)
+  const glossaryJsonLd = pillar ? pillarGlossaryJsonLd(pillar, `https://inhega.co.kr/en/services/${slug}`) : null
   const serviceJsonLd = pillar ? pillarServiceJsonLd(pillar, {
     name: meta?.h1 ?? svc.title,
     description: meta?.description ?? svc.description,
@@ -111,6 +113,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
     <>
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      {glossaryJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(glossaryJsonLd) }} />}
       <div style={{ paddingTop: '72px' }}>
         {/* Hero */}
         <section className={styles.hero}>
@@ -186,6 +189,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
                   </section>
                 )}
                 <FocusPillarRelated slug={slug} locale="en" />
+                <FocusPillarGlossary slug={slug} locale="en" />
                 <IndustryBacklinks pages={getIndustryBacklinks('en', `/en/services/${slug}`)} heading={BACKLINK_HEADING.en} />
               </div>
 

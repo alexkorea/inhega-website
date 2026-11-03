@@ -14,6 +14,7 @@ import { FOCUS_PILLARS_I18N, type PillarLocale } from './focus-pillars-i18n'
 import { FOCUS_SITUATIONS } from './focus-situations'
 import { FOCUS_SERVICES } from './focus-services'
 import { ORG_ID } from './org-jsonld'
+import { FOCUS_EXPERTISE, type FocusExpertise } from './focus-expertise'
 
 export type FocusPageLocale = 'ko' | PillarLocale
 
@@ -39,6 +40,8 @@ export interface PillarView {
   note?: { heading: string; items: string[] }
   situations: Situation[]
   related: { title: string; href: string }[]
+  /** 3차: 처리하는 업무·이런 고객이 맡깁니다·용어 설명(lib/focus-expertise.ts) */
+  expertise?: FocusExpertise
 }
 
 export interface PillarUi {
@@ -103,6 +106,7 @@ export function getPillarView(locale: FocusPageLocale, slug: string): PillarView
       note: p.note,
       situations: sit?.situations ?? [],
       related: p.related,
+      expertise: FOCUS_EXPERTISE.ko[slug],
     }
   }
   const p = FOCUS_PILLARS_I18N[locale]?.pillars[slug]
@@ -117,6 +121,7 @@ export function getPillarView(locale: FocusPageLocale, slug: string): PillarView
     note: p.note,
     situations: sit?.situations ?? [],
     related: p.related,
+    expertise: FOCUS_EXPERTISE[locale]?.[slug],
   }
 }
 
@@ -144,6 +149,7 @@ const COUNTRY: Record<FocusPageLocale, string> = { ko: '대한민국', en: 'Repu
 
 /** 필러 Service 노드 — @id 고정, provider 는 조직 노드 @id 참조(lib/org-jsonld.ts). */
 export function pillarServiceJsonLd(v: PillarView, opts: { name: string; description: string; url: string; image?: unknown }) {
+  const catalog = pillarOfferCatalog(v, opts.url)
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -158,5 +164,131 @@ export function pillarServiceJsonLd(v: PillarView, opts: { name: string; descrip
     url: opts.url,
     mainEntityOfPage: opts.url,
     ...(opts.image ? { image: opts.image } : {}),
+    ...(catalog ? { hasOfferCatalog: catalog } : {}),
+  }
+}
+
+/* ────────────────────────────────────────────────────────────────────────────
+ * 3차(보스 msg 4803·4805~4808): 사무소가 처리하는 업무 · 이런 고객이 맡깁니다 · 용어 설명 · 사무소 카드.
+ * 사무소 카드 NAP 은 brand_registry D·lib/org-jsonld.ts 와 같은 값(상호·주소·대표전화·평일 09:30~17:30). 대표자 이름은 싣지 않는다.
+ * 처리 사례 섹션은 두지 않는다(보스 제공 실제 사례가 없음 — 지어내기 금지).
+ * ──────────────────────────────────────────────────────────────────────────── */
+export interface ExpertiseUi {
+  servicesHeading: string
+  clientsHeading: string
+  glossaryBadge: string
+  glossaryHeading: string // '{label}' 자리표시
+  officeHeading: string
+  officeName: string
+  officeIntro: string
+  officeRows: { label: string; value: string; href?: string }[]
+  catalogName: string // '{label}' 자리표시 — Service.hasOfferCatalog 이름
+}
+
+const PHONE_HREF = 'tel:+8223632251'
+export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
+  ko: {
+    servicesHeading: '유선행정사사무소가 처리하는 업무',
+    clientsHeading: '이런 고객이 맡깁니다',
+    glossaryBadge: '용어 설명',
+    glossaryHeading: '{label} 용어 설명',
+    officeHeading: '사무소 안내',
+    officeName: '유선행정사사무소',
+    officeIntro: '유선행정사사무소는 서울 중구 퇴계로에 있는 행정사사무소로, 행정기관에 내는 인허가·등록·신고 서류의 작성과 제출 대행을 맡습니다. 한국어·영어·중국어·일본어로 상담합니다.',
+    officeRows: [
+      { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층(성우빌딩)' },
+      { label: '대표전화', value: '02-363-2251', href: PHONE_HREF },
+      { label: '운영시간', value: '평일 09:30~17:30 (토·일·공휴일 휴무)' },
+      { label: '상담 언어', value: '한국어 · 영어 · 중국어 · 일본어' },
+    ],
+    catalogName: '{label} 처리 업무',
+  },
+  en: {
+    servicesHeading: 'Services handled by YouSun Administrative Agency',
+    clientsHeading: 'Who typically engages us',
+    glossaryBadge: 'Key terms',
+    glossaryHeading: '{label}: key terms explained',
+    officeHeading: 'Our office',
+    officeName: 'YouSun Administrative Agency',
+    officeIntro: 'YouSun Administrative Agency is a licensed administrative agent office (행정사사무소) on Toegye-ro in Jung-gu, Seoul. We prepare and file permit, registration and report applications with Korean government agencies on behalf of clients, in Korean, English, Chinese and Japanese.',
+    officeRows: [
+      { label: 'Address', value: '3F Seongwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul 04614, Korea' },
+      { label: 'Phone', value: '+82-2-363-2251', href: PHONE_HREF },
+      { label: 'Hours', value: 'Mon–Fri 09:30–17:30 (KST), closed weekends and public holidays' },
+      { label: 'Languages', value: 'Korean · English · Chinese · Japanese' },
+    ],
+    catalogName: '{label} services',
+  },
+  zh: {
+    servicesHeading: 'YouSun Administrative Agency 办理的业务',
+    clientsHeading: '委托我们的客户类型',
+    glossaryBadge: '术语解释',
+    glossaryHeading: '{label}术语解释',
+    officeHeading: '事务所信息',
+    officeName: 'YouSun Administrative Agency',
+    officeIntro: 'YouSun Administrative Agency 是位于首尔中区退溪路的行政士事务所（행정사사무소），代客户制作并向韩国行政机关提交许可、登记、申报材料，可使用韩语、英语、中文、日语沟通。',
+    officeRows: [
+      { label: '地址', value: '首尔特别市中区退溪路324号成宇大厦3层（04614）' },
+      { label: '电话', value: '+82-2-363-2251', href: PHONE_HREF },
+      { label: '办公时间', value: '周一至周五 09:30–17:30（韩国时间），周末及法定节假日休息' },
+      { label: '咨询语言', value: '韩语 · 英语 · 中文 · 日语' },
+    ],
+    catalogName: '{label}办理业务',
+  },
+  ja: {
+    servicesHeading: 'YouSun Administrative Agency が扱う業務',
+    clientsHeading: 'ご依頼の多いお客様',
+    glossaryBadge: '用語解説',
+    glossaryHeading: '{label}の用語解説',
+    officeHeading: '事務所のご案内',
+    officeName: 'YouSun Administrative Agency',
+    officeIntro: 'YouSun Administrative Agency はソウル市中区退溪路にある行政士事務所（행정사사무소）で、韓国の行政機関に提出する許認可・登録・申告書類の作成と提出代行を行います。韓国語・英語・中国語・日本語でご相談いただけます。',
+    officeRows: [
+      { label: '住所', value: 'ソウル特別市中区退溪路324 成宇ビル3F（04614）' },
+      { label: '電話', value: '+82-2-363-2251', href: PHONE_HREF },
+      { label: '営業時間', value: '月〜金 09:30–17:30（KST）、土・日・祝日休み' },
+      { label: '対応言語', value: '韓国語・英語・中国語・日本語' },
+    ],
+    catalogName: '{label}の取扱業務',
+  },
+}
+
+const absHref = (url: string, href: string) => (href.startsWith('#') ? `${url}${href}` : `https://inhega.co.kr${href}`)
+
+/** Service.hasOfferCatalog — 화면 '처리하는 업무' 목록 그대로(가격 없음). */
+export function pillarOfferCatalog(v: PillarView, url: string) {
+  const ex = v.expertise
+  if (!ex || ex.services.length === 0) return null
+  return {
+    '@type': 'OfferCatalog',
+    name: EXPERTISE_UI[v.locale].catalogName.replace('{label}', v.label),
+    itemListElement: ex.services.map((s) => ({
+      '@type': 'Offer',
+      itemOffered: { '@type': 'Service', name: s.name, url: absHref(url, s.href), provider: { '@id': ORG_ID } },
+    })),
+  }
+}
+
+/** 용어 설명 → DefinedTermSet(화면 글자 그대로). */
+export function pillarGlossaryJsonLd(v: PillarView, url: string) {
+  const ex = v.expertise
+  if (!ex || ex.glossary.length === 0) return null
+  const setId = `${url}#svc-glossary`
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    '@id': setId,
+    name: EXPERTISE_UI[v.locale].glossaryHeading.replace('{label}', v.label),
+    inLanguage: LANG_TAG[v.locale],
+    url: setId,
+    publisher: { '@id': ORG_ID },
+    hasDefinedTerm: ex.glossary.map((g) => ({
+      '@type': 'DefinedTerm',
+      '@id': `${url}#${g.id}`,
+      name: g.term,
+      description: g.def,
+      url: `${url}#${g.id}`,
+      inDefinedTermSet: setId,
+    })),
   }
 }

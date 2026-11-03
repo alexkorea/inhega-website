@@ -10,8 +10,8 @@ import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEAD
 import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
 import { pullLawRefs } from '@/lib/law-refs'
-import { FocusPillarTop, FocusPillarRelated } from '@/components/services/FocusPillar'
-import { getPillarView, situationQuestions, pillarServiceJsonLd } from '@/lib/focus-pillar-view'
+import { FocusPillarTop, FocusPillarRelated, FocusPillarGlossary } from '@/components/services/FocusPillar'
+import { getPillarView, situationQuestions, pillarServiceJsonLd, pillarGlossaryJsonLd } from '@/lib/focus-pillar-view'
 
 const plainText = (h: string) =>
   h.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
@@ -101,6 +101,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   } : null
 
   // 중점 필러는 @id·serviceType·provider(@id 참조)·inLanguage 를 갖춘 Service 노드(보스 msg 4784).
+  // 3차: 용어 설명 → DefinedTermSet(화면 글자 그대로)
+  const glossaryJsonLd = pillar ? pillarGlossaryJsonLd(pillar, `https://inhega.co.kr/services/${slug}`) : null
   const serviceJsonLd = pillar ? pillarServiceJsonLd(pillar, {
     name: svc.title,
     description: svc.description,
@@ -126,6 +128,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     <>
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      {glossaryJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(glossaryJsonLd) }} />}
       <div style={{ paddingTop: '72px' }}>
       {/* Hero */}
       <section className={styles.hero}>
@@ -225,6 +228,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               </section>
               )}
               <FocusPillarRelated slug={slug} />
+              <FocusPillarGlossary slug={slug} />
               <IndustryBacklinks pages={getIndustryBacklinks('ko', `/services/${slug}`)} heading={BACKLINK_HEADING.ko} />
               {/* I4 3종 세트 — 허브 → 선택기준·문제해결 글 (lib/hub-guides.generated.ts) */}
               {(HUB_GUIDES[`/services/${slug}`] ?? []).length > 0 && (

@@ -268,7 +268,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "telecom-business": {
-      "answer": "앱·웹서비스처럼 전기통신설비로 다른 사람의 통신을 매개하는 부가통신사업을 하려면 과학기술정보통신부(중앙전파관리소)에 부가통신사업 신고를 하며, 인터넷으로 서비스하는 자본금 1억원 이하 사업자는 신고한 것으로 봅니다. 웹하드·P2P와 문자메시지 발송 중계 같은 특수한 유형은 등록, 전화·인터넷접속 같은 기간통신사업은 법인만 등록할 수 있습니다. 등록증은 신청일부터 30일 이내에 발급되고, 신고·등록 후 1년 안에 사업을 시작해야 합니다.",
+      "answer": "앱·웹서비스처럼 전기통신설비로 다른 사람의 통신을 매개하는 부가통신사업을 하려면 전기통신사업법에 따라 과학기술정보통신부(중앙전파관리소)에 부가통신사업 신고를 하며, 인터넷으로 서비스하는 자본금 1억원 이하 사업자는 신고한 것으로 봅니다. 웹하드·P2P와 문자메시지 발송 중계 같은 특수한 유형은 등록, 전화·인터넷접속 같은 기간통신사업은 법인만 등록할 수 있습니다. 등록증은 신청일부터 30일 이내에 발급되고, 신고·등록 후 1년 안에 사업을 시작해야 합니다.",
       "chooser": [
         {
           "label": "국내 회사가 앱·웹서비스를 여는 경우",
@@ -374,7 +374,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-tel-foreign",
-          "q": "한국 법인이 없는 해외 회사가 한국 이용자 대상 서비스를 하려면 부가통신 신고를 할 수 있나요?",
+          "q": "한국 법인이 없는 해외 회사가 한국 이용자 대상 서비스를 하려면 부가통신사업 신고를 할 수 있나요?",
           "conclusion": "부가통신사업 신고에는 국적 제한 규정이 없어 외국기업도 신고할 수 있습니다. 다만 회선설비를 보유하는 기간통신사업은 외국정부·외국법인이 등록할 수 없습니다.",
           "branches": [
             {
@@ -450,7 +450,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-tel-shopping-mall",
-          "q": "온라인 쇼핑몰을 여는데 통신판매업 신고 말고 부가통신 신고도 필요한가요?",
+          "q": "온라인 쇼핑몰을 여는데 통신판매업 신고 말고 부가통신사업 신고도 필요한가요?",
           "conclusion": "두 신고는 적용 법률과 목적이 다른 별개 제도입니다. 자기 상품을 파는 쇼핑몰은 통신판매업 신고가 중심이고, 여러 판매자와 이용자 사이 거래·소통을 중개하는 플랫폼이면 부가통신역무 해당 여부를 함께 판단합니다.",
           "branches": [
             {
@@ -491,7 +491,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-software",
           "q": "소프트웨어사업자 신고를 했는데 부가통신사업 신고도 따로 해야 하나요?",
-          "conclusion": "소프트웨어사업자 신고와 부가통신사업 신고는 적용 법률과 목적이 다른 별개 절차라, 하나를 했다고 다른 하나가 대신되지 않습니다. 소프트웨어를 개발·납품만 하면 부가통신과 관계없을 수 있고, 직접 온라인 서비스를 운영하면 부가통신 신고 대상인지 따로 확인합니다.",
+          "conclusion": "소프트웨어사업자 신고와 부가통신사업 신고는 적용 법률과 목적이 다른 별개 절차라, 하나를 했다고 다른 하나가 대신되지 않습니다. 소프트웨어를 개발·납품만 하면 부가통신과 관계없을 수 있고, 직접 온라인 서비스를 운영하면 부가통신사업 신고 대상인지 따로 확인합니다.",
           "branches": [
             {
               "when": "고객사에 소프트웨어를 개발·납품만 하는 경우",
@@ -531,7 +531,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "location-based-service": {
-      "answer": "스마트폰 GPS 등으로 특정 개인의 위치정보를 이용해 서비스하는 사업자는 방송미디어통신위원회에 위치기반서비스사업 신고를 해야 하며, 한국 법인이 없는 외국기업도 외국법인 명의로 신고할 수 있습니다. 신고서에 사업계획서, 주요설비·설치 장소 서류, 위치정보 보호조치 증명 서류를 붙이고, 소상공인·1인 창조기업은 사업 개시 후 1개월 이내에 신고하면 됩니다. 실무상 서류 완비 후 2~4주, 외국법인은 자국 서류 준비를 포함해 4~8주가 걸립니다.",
+      "answer": "스마트폰 GPS 등으로 특정 개인의 위치정보를 이용해 서비스하는 사업자는 「위치정보의 보호 및 이용 등에 관한 법률」(위치정보법)에 따라 방송미디어통신위원회에 위치기반서비스사업 신고를 해야 하며, 한국 법인이 없는 외국기업도 외국법인 명의로 신고할 수 있습니다. 신고서에 사업계획서, 주요설비·설치 장소 서류, 위치정보 보호조치 증명 서류를 붙이고, 소상공인·1인 창조기업은 사업 개시 후 1개월 이내에 신고하면 됩니다. 실무상 서류 완비 후 2~4주, 외국법인은 자국 서류 준비를 포함해 4~8주가 걸립니다.",
       "chooser": [
         {
           "label": "국내 기업이 위치 기능 있는 앱을 출시하는 경우",
@@ -588,7 +588,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "한국 연락 창구가 없는 경우",
-              "then": "위치정보법에는 국내대리인 지정 의무가 없지만, 실무상 접수·보완 연락을 위해 국내 대리인을 두는 경우가 많습니다."
+              "then": "「위치정보의 보호 및 이용 등에 관한 법률」(위치정보법)에는 국내대리인 지정 의무가 없지만, 실무상 접수·보완 연락을 위해 국내 대리인을 두는 경우가 많습니다."
             },
             {
               "when": "개인정보·전기통신 관련 의무도 걱정되는 경우",
@@ -606,7 +606,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "소상공인 또는 1인 창조기업에 해당하는 경우",
-              "then": "소상공인등 증명 서류와 간이 신고서를 내거나 방송미디어통신위원회가 지정한 정보시스템에 입력합니다."
+              "then": "소상공인등 증명 서류와 소상공인등의 위치기반서비스사업신고서를 내거나 방송미디어통신위원회가 지정한 정보시스템에 입력합니다."
             },
             {
               "when": "사업이 커져 소상공인등에서 벗어난 경우",
@@ -672,7 +672,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "소상공인등이 사업 개시 후 1개월이 지나지 않은 경우",
-              "then": "기한 안에 간이 신고를 하면 미신고가 아닙니다."
+              "then": "기한 안에 사후 신고를 하면 미신고가 아닙니다."
             },
             {
               "when": "신고 대상인데 신고하지 않은 경우",
@@ -720,7 +720,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             }
           ],
           "docs": "위치기반서비스사업 변경신고서, 사업계획서 중 변경 부분(서버 등 주요설비), 변경 사항 확인 서류",
-          "period": "변경하려는 때 신고(간이 신고한 소상공인등의 상호·소재지 변경은 변경 후 1개월 이내)",
+          "period": "변경하려는 때 신고(사후 신고한 소상공인등의 상호·소재지 변경은 변경 후 1개월 이내)",
           "href": "/blog/location-based-service-change-report"
         },
         {
@@ -798,7 +798,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "자기 이름으로 화장품을 유통·판매하려면(위탁 제조한 브랜드·수입 화장품 포함) 책임판매업소 소재지를 관할하는 지방식품의약품안전청에 화장품책임판매업을 등록하고 책임판매관리자를 둬야 합니다. 직접 제조하거나 제조를 위탁받으면 시설기준을 갖춰 화장품제조업을, 내용물을 혼합·소분해 팔면 맞춤형화장품판매업을 따로 등록·신고합니다. 신청서 기준 처리기간은 책임판매업 10일, 제조업 15일이고, 기능성화장품은 판매 전에 품목별 심사 또는 보고를 거칩니다.",
+      "answer": "화장품법에 따라 자기 이름으로 화장품을 유통·판매하려면(위탁 제조한 브랜드·수입 화장품 포함) 화장품책임판매업소 소재지를 관할하는 지방식품의약품안전청에 화장품책임판매업을 등록하고 책임판매관리자를 둬야 합니다. 직접 제조하거나 제조를 위탁받으면 시설기준을 갖춰 화장품제조업을, 내용물을 혼합·소분해 팔면 맞춤형화장품판매업을 따로 등록·신고합니다. 신청서 기준 처리기간은 화장품책임판매업 10일, 화장품제조업 15일이고, 기능성화장품은 판매 전에 품목별 심사 또는 보고를 거칩니다.",
       "chooser": [
         {
           "label": "국내 브랜드사(OEM 위탁 제조)",
@@ -825,59 +825,59 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-china-brand-no-entity",
           "q": "한국 법인이 없는 중국 화장품 회사가 한국에서 판매하려면 어떻게 하나요?",
-          "conclusion": "한국에서 화장품을 유통·판매하려면 국내 책임판매업소를 두고 관할 지방식품의약품안전청에 화장품책임판매업을 등록한 자가 수입·판매해야 합니다. 한국 법인이 없는 해외 브랜드는 실무상 한국 수입·책임판매업자와 계약해 그 이름으로 수입하거나, 한국 법인·지사를 세워 직접 등록하는 방법 중 하나를 고릅니다.",
+          "conclusion": "한국에서 화장품을 유통·판매하려면 국내 화장품책임판매업소를 두고 관할 지방식품의약품안전청에 화장품책임판매업을 등록한 자가 수입·판매해야 합니다. 한국 법인이 없는 해외 브랜드는 실무상 한국 수입·화장품책임판매업자와 계약해 그 이름으로 수입하거나, 한국 법인·지사를 세워 직접 등록하는 방법 중 하나를 고릅니다.",
           "branches": [
             {
-              "when": "국내 수입·책임판매업자와 계약해 판매하는 경우",
-              "then": "그 업체가 수입관리기록서 작성, 품질검사, 표준통관예정보고 등 책임판매업자 의무를 집니다. 해외 제조사는 제조 및 판매증명서 등 자료를 제공합니다."
+              "when": "국내 수입·화장품책임판매업자와 계약해 판매하는 경우",
+              "then": "그 업체가 수입관리기록서 작성, 품질검사, 표준통관예정보고 등 화장품책임판매업자 의무를 집니다. 해외 제조사는 제조 및 판매증명서 등 자료를 제공합니다."
             },
             {
               "when": "한국 법인을 세워 직접 판매하는 경우",
-              "then": "법인 설립 후 책임판매관리자를 두고 수입 화장품 유통·판매 유형으로 책임판매업을 등록합니다."
+              "then": "법인 설립 후 책임판매관리자를 두고 수입 화장품 유통·판매 유형으로 화장품책임판매업을 등록합니다."
             },
             {
               "when": "국내 구매대행 업체를 통해 온라인으로만 파는 경우",
-              "then": "전자상거래 수입대행형 거래를 하는 그 업체가 책임판매업 등록 대상이고, 브랜드사는 판매 구조와 책임 범위를 계약으로 정합니다."
+              "then": "전자상거래 수입대행형 거래를 하는 그 업체가 화장품책임판매업 등록 대상이고, 브랜드사는 판매 구조와 책임 범위를 계약으로 정합니다."
             }
           ],
           "docs": "화장품책임판매업 등록신청서, 품질관리 및 책임판매 후 안전관리 기준에 관한 규정, 책임판매관리자 자격 확인 서류, 수입관리기록서 작성 자료(제조 및 판매증명서 등)",
-          "period": "법정 서식 처리기간: 책임판매업 등록 10일 / 실무상 해외 제조사 서류 준비 기간이 더해집니다",
+          "period": "법정 서식 처리기간: 화장품책임판매업 등록 10일 / 실무상 해외 제조사 서류 준비 기간이 더해집니다",
           "href": "/blog/cosmetics-import-sales-registration-guide"
         },
         {
           "id": "sit-cos-oem-brand",
           "q": "OEM으로 위탁 생산해 내 브랜드로 팔 때 화장품제조업 등록도 필요한가요?",
-          "conclusion": "제조를 맡기고 완제품을 자기 이름으로 유통·판매만 하면 화장품책임판매업 등록으로 충분하고, 제조업 등록은 필요 없습니다. 직접 제조하거나, 남의 제조를 위탁받거나, 1차 포장을 하면 제조업 등록 대상입니다.",
+          "conclusion": "제조를 맡기고 완제품을 자기 이름으로 유통·판매만 하면 화장품책임판매업 등록으로 충분하고, 화장품제조업 등록은 필요 없습니다. 직접 제조하거나, 남의 제조를 위탁받거나, 1차 포장을 하면 화장품제조업 등록 대상입니다.",
           "branches": [
             {
               "when": "제조를 전부 위탁하는 브랜드사인 경우",
-              "then": "위탁 제조 화장품 유통·판매 유형으로 책임판매업만 등록합니다."
+              "then": "위탁 제조 화장품 유통·판매 유형으로 화장품책임판매업만 등록합니다."
             },
             {
               "when": "1차 포장이나 일부 공정을 직접 하는 경우",
-              "then": "제조업 등록이 필요하며, 일부 공정만 하면 해당 공정에 필요한 시설만 갖출 수 있습니다."
+              "then": "화장품제조업 등록이 필요하며, 일부 공정만 하면 해당 공정에 필요한 시설만 갖출 수 있습니다."
             }
           ],
           "docs": "화장품책임판매업 등록신청서, 품질관리 및 책임판매 후 안전관리 기준에 관한 규정, 책임판매관리자 자격 확인 서류",
-          "period": "법정 서식 처리기간: 책임판매업 10일, 제조업 15일",
+          "period": "법정 서식 처리기간: 화장품책임판매업 10일, 화장품제조업 15일",
           "href": "/blog/cosmetics-manufacturing-registration"
         },
         {
           "id": "sit-cos-home-office",
           "q": "집 주소로 화장품책임판매업 등록을 할 수 있나요?",
-          "conclusion": "책임판매업에는 제조업 같은 시설기준이 없고, 품질관리·책임판매 후 안전관리 기준과 책임판매관리자를 갖추는 것이 요건입니다. 법령상 사무실 면적 요건은 없지만, 실무상 소재지 사용 가능 여부와 기록 보관 방법을 관할 지방식품의약품안전청에 미리 확인합니다.",
+          "conclusion": "화장품책임판매업에는 화장품제조업 같은 시설기준이 없고, 품질관리·책임판매 후 안전관리 기준과 책임판매관리자를 갖추는 것이 요건입니다. 법령상 사무실 면적 요건은 없지만, 실무상 소재지 사용 가능 여부와 기록 보관 방법을 관할 지방식품의약품안전청에 미리 확인합니다.",
           "branches": [
             {
               "when": "위탁 제조·수입 제품을 유통·판매만 하는 경우",
-              "then": "책임판매업소 소재지로 등록하고, 품질관리 기록·시험성적서 등을 보관할 수 있게 준비합니다."
+              "then": "화장품책임판매업소 소재지로 등록하고, 품질관리 기록·시험성적서 등을 보관할 수 있게 준비합니다."
             },
             {
               "when": "직접 제조하거나 덜어서 파는 경우",
-              "then": "제조업은 작업소·보관소·시험실 등 시설기준을, 맞춤형화장품판매업은 혼합·소분 공간 기준을 갖춰야 해 별도 공간이 필요합니다."
+              "then": "화장품제조업은 작업소·보관소·시험실 등 시설기준을, 맞춤형화장품판매업은 혼합·소분 공간 기준을 갖춰야 해 별도 공간이 필요합니다."
             }
           ],
           "docs": "화장품책임판매업 등록신청서, 품질관리 및 책임판매 후 안전관리 기준에 관한 규정, 책임판매관리자 자격 확인 서류",
-          "period": "법정 서식 처리기간: 책임판매업 등록 10일",
+          "period": "법정 서식 처리기간: 화장품책임판매업 등록 10일",
           "href": "/blog/cosmetics-responsible-distributor"
         },
         {
@@ -905,7 +905,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-export-only",
           "q": "국내에서는 팔지 않고 해외 수출만 하려는데도 화장품 영업 등록이 필요한가요?",
-          "conclusion": "수출만을 목적으로 하는 제품은 기능성 심사, 표시 기준 등 일부 규정 대신 수입국 규정을 따를 수 있지만, 이 특례에 영업 등록은 들어 있지 않습니다. 국내에서 제조하거나 제조를 맡겨 유통하는 구조라면 제조업·책임판매업 등록 대상인지 먼저 정리합니다.",
+          "conclusion": "수출만을 목적으로 하는 제품은 기능성 심사, 표시 기준 등 일부 규정 대신 수입국 규정을 따를 수 있지만, 이 특례에 영업 등록은 들어 있지 않습니다. 국내에서 제조하거나 제조를 맡겨 유통하는 구조라면 화장품제조업·화장품책임판매업 등록 대상인지 먼저 정리합니다.",
           "branches": [
             {
               "when": "국내 판매도 함께 하는 경우",
@@ -917,7 +917,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             }
           ],
           "docs": "화장품책임판매업 등록신청서, 품질관리 및 책임판매 후 안전관리 기준에 관한 규정, 책임판매관리자 자격 확인 서류",
-          "period": "법정 서식 처리기간: 책임판매업 10일, 제조업 15일",
+          "period": "법정 서식 처리기간: 화장품책임판매업 10일, 화장품제조업 15일",
           "href": "/blog/cosmetics-responsible-distributor"
         },
         {
@@ -944,12 +944,12 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-buying-agent",
-          "q": "해외 화장품을 구매대행으로 판매하려면 책임판매업 등록이 필요한가요?",
+          "q": "해외 화장품을 구매대행으로 판매하려면 화장품책임판매업 등록이 필요한가요?",
           "conclusion": "전자상거래로 소비자 주문을 받아 해외 화장품을 대신 들여오는 수입대행형 거래도 화장품책임판매업의 한 유형이라 등록해야 합니다. 이 유형은 품질관리 기준 규정과 책임판매관리자 자격 서류 제출, 책임판매관리자 자격기준 적용에서 빠집니다.",
           "branches": [
             {
               "when": "주문을 받아 구매를 대행만 하는 경우",
-              "then": "수입대행형 거래 유형으로 책임판매업을 등록합니다."
+              "then": "수입대행형 거래 유형으로 화장품책임판매업을 등록합니다."
             },
             {
               "when": "재고를 직접 수입해 판매하는 경우",
@@ -957,13 +957,13 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             }
           ],
           "docs": "화장품책임판매업 등록신청서(수입대행형은 기준 규정·관리자 서류 제출 생략)",
-          "period": "법정 서식 처리기간: 책임판매업 등록 10일",
+          "period": "법정 서식 처리기간: 화장품책임판매업 등록 10일",
           "href": "/blog/cosmetics-import-sales-registration-guide"
         },
         {
           "id": "sit-cos-sunscreen-functional",
           "q": "선크림·미백 제품을 기능성으로 표시해 팔려면 무엇을 해야 하나요?",
-          "conclusion": "기능성화장품으로 인정받아 판매하려면 제조업자·책임판매업자 등이 품목별로 안전성·유효성 심사를 받거나 보고서를 제출해야 합니다. 효능 성분의 종류·함량, 효능·효과, 용법·용량, 기준·시험방법이 고시 품목과 같으면 심사 대신 보고서 제출 대상입니다.",
+          "conclusion": "기능성화장품으로 인정받아 판매하려면 화장품제조업자·화장품책임판매업자 등이 품목별로 안전성·유효성 심사를 받거나 보고서를 제출해야 합니다. 효능 성분의 종류·함량, 효능·효과, 용법·용량, 기준·시험방법이 고시 품목과 같으면 심사 대신 보고서 제출 대상입니다.",
           "branches": [
             {
               "when": "고시 기준과 같은 처방인 경우",
@@ -985,7 +985,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-baby",
           "q": "영유아·어린이용이라고 표시해 화장품을 팔려면 따로 준비할 게 있나요?",
-          "conclusion": "영유아 또는 어린이가 쓸 수 있는 화장품임을 표시·광고하려면 책임판매업자가 제품별로 제품·제조방법 설명 자료, 안전성 평가 자료, 효능·효과 증명 자료를 작성·보관해야 합니다.",
+          "conclusion": "영유아 또는 어린이가 쓸 수 있는 화장품임을 표시·광고하려면 화장품책임판매업자가 제품별로 제품·제조방법 설명 자료, 안전성 평가 자료, 효능·효과 증명 자료를 작성·보관해야 합니다.",
           "branches": [
             {
               "when": "영유아·어린이용으로 표시·광고하는 경우",
@@ -1002,8 +1002,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-change-registration",
-          "q": "책임판매업 등록 후 상호·소재지·책임판매관리자가 바뀌면 어떻게 하나요?",
-          "conclusion": "책임판매업자(법인은 대표자), 상호, 책임판매업소 소재지, 책임판매관리자, 책임판매 유형이 바뀌면 변경 사유가 생긴 날부터 30일 이내에 변경등록을 해야 합니다. 행정구역 개편으로 소재지가 바뀐 경우는 90일 이내입니다.",
+          "q": "화장품책임판매업 등록 후 상호·소재지·책임판매관리자가 바뀌면 어떻게 하나요?",
+          "conclusion": "화장품책임판매업자(법인은 대표자), 상호, 화장품책임판매업소 소재지, 책임판매관리자, 책임판매 유형이 바뀌면 변경 사유가 생긴 날부터 30일 이내에 변경등록을 해야 합니다. 행정구역 개편으로 소재지가 바뀐 경우는 90일 이내입니다.",
           "branches": [
             {
               "when": "책임판매관리자가 바뀌는 경우",
@@ -1020,7 +1020,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-closure",
-          "q": "화장품 책임판매업을 폐업하거나 잠시 쉬려면 어떻게 하나요?",
+          "q": "화장품책임판매업을 폐업하거나 잠시 쉬려면 어떻게 하나요?",
           "conclusion": "폐업·휴업하거나 휴업 후 다시 시작하려면 신고서에 등록필증을 붙여 신고합니다. 휴업 기간이 1개월 미만이면 신고하지 않아도 되고, 세무서 폐업신고서와 함께 낼 수 있습니다.",
           "branches": [
             {
@@ -1039,7 +1039,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-retail-only",
           "q": "다른 브랜드의 완제품을 사서 온라인으로 되팔기만 해도 화장품 영업 등록이 필요한가요?",
-          "conclusion": "화장품법상 영업은 제조업·책임판매업·맞춤형화장품판매업 세 가지이고, 국내 책임판매업자가 이미 유통한 완제품을 사서 그대로 소매하는 것은 이 중 어디에도 해당하지 않아 화장품법상 영업 등록 대상이 아닙니다. 다만 직접 수입하거나, 자기 상표로 제조를 맡기거나, 덜어서 팔면 각각 등록·신고 대상이 됩니다.",
+          "conclusion": "화장품법상 영업은 화장품제조업·화장품책임판매업·맞춤형화장품판매업 세 가지이고, 국내 화장품책임판매업자가 이미 유통한 완제품을 사서 그대로 소매하는 것은 이 중 어디에도 해당하지 않아 화장품법상 영업 등록 대상이 아닙니다. 다만 직접 수입하거나, 자기 상표로 제조를 맡기거나, 덜어서 팔면 각각 등록·신고 대상이 됩니다.",
           "branches": [
             {
               "when": "국내 유통 완제품을 그대로 파는 경우",
@@ -1047,7 +1047,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "해외 제품을 직접 들여와 파는 경우",
-              "then": "책임판매업 등록 대상입니다."
+              "then": "화장품책임판매업 등록 대상입니다."
             },
             {
               "when": "용기에 덜어 팔거나 섞어 파는 경우",
@@ -1060,8 +1060,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-small-manufacturing",
-          "q": "작은 공방에서 직접 화장품을 만들어 팔려면 제조업 등록 시설은 어떻게 갖추나요?",
-          "conclusion": "화장품제조업을 등록하려면 쥐·해충·먼지를 막는 시설과 작업대 등을 갖춘 작업소, 원료·자재·제품 보관소, 품질검사 시험실과 검사 시설·기구를 갖춰야 합니다. 자기 이름으로 팔려면 제조업과 별도로 책임판매업도 등록합니다.",
+          "q": "작은 공방에서 직접 화장품을 만들어 팔려면 화장품제조업 등록 시설은 어떻게 갖추나요?",
+          "conclusion": "화장품제조업을 등록하려면 쥐·해충·먼지를 막는 시설과 작업대 등을 갖춘 작업소, 원료·자재·제품 보관소, 품질검사 시험실과 검사 시설·기구를 갖춰야 합니다. 자기 이름으로 팔려면 화장품제조업과 별도로 화장품책임판매업도 등록합니다.",
           "branches": [
             {
               "when": "품질검사를 시험·검사기관 등에 위탁하는 경우",
@@ -1073,17 +1073,17 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "정신질환자·마약류 중독자 등 결격사유에 해당하는 경우",
-              "then": "제조업 등록을 할 수 없습니다(전문의가 적합하다고 인정하면 예외)."
+              "then": "화장품제조업 등록을 할 수 없습니다(전문의가 적합하다고 인정하면 예외)."
             }
           ],
           "docs": "화장품제조업 등록신청서, 시설 명세서, 품질검사 위탁 계약서(위탁하는 경우)",
-          "period": "법정 서식 처리기간: 제조업 등록 15일",
+          "period": "법정 서식 처리기간: 화장품제조업 등록 15일",
           "href": "/blog/cosmetics-manufacturing-facility-guide"
         }
       ]
     },
     "health-food": {
-      "answer": "건강기능식품을 사서 파는 판매업은 영업소 소재지 시·군·구청에 신고하고, 직접 제조하려면 지방식품의약품안전청의 제조업 허가를, 해외 제품을 들여오려면 수입식품등 수입·판매업 영업등록과 품목별 수입신고를 거칩니다. 온라인으로만 팔고 구매자가 사무소를 찾아오지 않으면 집(주택 용도 건축물)을 사무소로 쓸 수 있고, 신고 전에 안전위생교육을 받아야 합니다. 판매업 신고는 3일, 제조업 허가는 20일 이내에 결과가 통지되며 그 안에 통지가 없으면 수리·허가된 것으로 봅니다.",
+      "answer": "「건강기능식품에 관한 법률」에 따라 건강기능식품을 사서 파는 건강기능식품일반판매업은 영업소 소재지 시·군·구청에 신고하고, 직접 제조하려면 지방식품의약품안전청의 건강기능식품제조업 영업허가를, 해외 제품을 들여오려면 수입식품등 수입·판매업 영업등록과 품목별 수입신고를 거칩니다. 온라인으로만 팔고 구매자가 사무소를 찾아오지 않으면 집(주택 용도 건축물)을 사무소로 쓸 수 있고, 신고 전에 안전위생교육을 받아야 합니다. 건강기능식품판매업 신고는 3일, 건강기능식품제조업 허가는 20일 이내에 결과가 통지되며 그 안에 통지가 없으면 수리·허가된 것으로 봅니다.",
       "chooser": [
         {
           "label": "집에서 온라인으로 판매만 하는 경우",
@@ -1118,7 +1118,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "다른 회사 완제품을 사서 파는 경우",
-              "then": "일반판매업으로 신고하고, 판매업은 영업소별로 매년 안전위생교육을 받습니다."
+              "then": "건강기능식품일반판매업으로 신고하고, 판매업은 영업소별로 매년 안전위생교육을 받습니다."
             },
             {
               "when": "내 상표로 OEM 제조한 제품을 파는 경우",
@@ -1136,7 +1136,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-oem-own-brand",
           "q": "OEM으로 소량 생산해 내 브랜드 건강기능식품을 팔려면 무엇이 필요한가요?",
-          "conclusion": "건강기능식품전문제조업자에게 의뢰해 만든 제품을 자기 상표로 유통·판매하면 건강기능식품유통전문판매업으로 신고합니다. 제조는 반드시 허가받은 전문제조업소의 시설을 이용해야 합니다.",
+          "conclusion": "건강기능식품전문제조업자에게 의뢰해 만든 제품을 자기 상표로 유통·판매하면 건강기능식품유통전문판매업으로 신고합니다. 제조는 반드시 허가받은 건강기능식품전문제조업소의 시설을 이용해야 합니다.",
           "branches": [
             {
               "when": "보관 창고를 따로 두지 않는 경우",
@@ -1165,7 +1165,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "수입·판매업 영업등록 후 품목별 수입신고를 하고, 원료·한글 표시사항이 국내 기준에 맞는지 미리 검토합니다."
             },
             {
-              "when": "건강기능식품 제조업자·유통전문판매업자가 자사 제품 원료로 수입하는 경우",
+              "when": "건강기능식품제조업자·유통전문판매업자가 자사 제품 원료로 수입하는 경우",
               "then": "수입·판매업 영업등록을 한 것으로 보지만 수입신고는 해야 합니다."
             },
             {
@@ -1197,7 +1197,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-pharmacy",
-          "q": "약국에서 건강기능식품을 팔 때도 판매업 신고를 하나요?",
+          "q": "약국에서 건강기능식품을 팔 때도 건강기능식품판매업 신고를 하나요?",
           "conclusion": "약사법에 따라 개설등록한 약국에서 파는 경우는 건강기능식품판매업 신고 대상이 아닙니다. 약국에서 맞춤형건강기능식품을 파는 경우도 맞춤형건강기능식품판매업 신고에서 빠집니다.",
           "branches": [
             {
@@ -1215,8 +1215,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-education",
-          "q": "건강기능식품 판매업 교육은 언제, 얼마나 자주 받나요?",
-          "conclusion": "건강기능식품 영업을 하려는 사람은 영업 전에 안전위생교육을 미리 받아야 하고, 판매업 영업자는 영업소별로 매년 받아야 합니다. 미리 받을 수 없는 정해진 사유가 있으면 영업 시작 후에 받을 수 있습니다.",
+          "q": "건강기능식품판매업 교육은 언제, 얼마나 자주 받나요?",
+          "conclusion": "건강기능식품 영업을 하려는 사람은 영업 전에 안전위생교육을 미리 받아야 하고, 건강기능식품판매업 영업자는 영업소별로 매년 받아야 합니다. 미리 받을 수 없는 정해진 사유가 있으면 영업 시작 후에 받을 수 있습니다.",
           "branches": [
             {
               "when": "영업자가 직접 영업에 종사하지 않는 경우",
@@ -1234,7 +1234,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-qualification",
           "q": "건강기능식품을 팔려면 자격증이 있어야 하나요?",
-          "conclusion": "판매업에는 별도 자격증 요건이 없고, 시설 기준을 갖추고 안전위생교육을 받은 뒤 영업신고를 하면 됩니다. 제조업은 품질관리인, 맞춤형건강기능식품판매업은 맞춤형건강기능식품관리사를 둬야 합니다.",
+          "conclusion": "건강기능식품판매업에는 별도 자격증 요건이 없고, 시설 기준을 갖추고 안전위생교육을 받은 뒤 영업신고를 하면 됩니다. 제조업은 품질관리인, 맞춤형건강기능식품판매업은 맞춤형건강기능식품관리사를 둬야 합니다.",
           "branches": [
             {
               "when": "판매업(일반·유통전문)인 경우",
@@ -1259,7 +1259,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "conclusion": "건강기능식품을 직접 제조하려면 영업소별로 식품의약품안전처(지방식품의약품안전청)의 건강기능식품전문제조업 허가를 받아야 하고, 시설기준·품질관리인·안전위생교육·우수건강기능식품제조기준을 갖춰야 합니다. 허가 뒤에는 품목마다 품목제조신고를 합니다.",
           "branches": [
             {
-              "when": "벤처기업이 전문제조업자에게 위탁 제조하는 경우",
+              "when": "벤처기업이 건강기능식품전문제조업자에게 위탁 제조하는 경우",
               "then": "건강기능식품벤처제조업 허가 대상입니다."
             },
             {
@@ -1274,7 +1274,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-new-ingredient",
           "q": "고시되지 않은 원료로 건강기능식품을 만들고 싶으면 어떻게 하나요?",
-          "conclusion": "식품의약품안전처가 고시하지 않은 원료·성분은 제조업자, 수입·판매업자 등이 안전성·기능성 자료를 제출해 건강기능식품 원료로 인정받아야 사용할 수 있습니다.",
+          "conclusion": "식품의약품안전처가 고시하지 않은 원료·성분은 건강기능식품제조업자, 수입·판매업자 등이 안전성·기능성 자료를 제출해 건강기능식품 원료로 인정받아야 사용할 수 있습니다.",
           "branches": [
             {
               "when": "고시된 원료만 쓰는 경우",
@@ -1300,7 +1300,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "소분·조합 시설이 없는 경우",
-              "then": "전문제조업자나 시설을 갖춘 다른 맞춤형 판매업자에게 소분·조합을 위탁할 수 있고, 온라인 판매·비방문이면 주택을 사무소로 쓸 수 있습니다."
+              "then": "건강기능식품전문제조업자나 시설을 갖춘 다른 맞춤형 판매업자에게 소분·조합을 위탁할 수 있고, 온라인 판매·비방문이면 주택을 사무소로 쓸 수 있습니다."
             }
           ],
           "docs": "건강기능식품 영업신고서, 맞춤형건강기능식품관리사 선임 신고서, 안전위생교육 이수 증명 서류",
@@ -1309,7 +1309,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-general-vs-distribution",
-          "q": "일반판매업과 유통전문판매업 중 무엇으로 신고해야 하나요?",
+          "q": "건강기능식품일반판매업과 유통전문판매업 중 무엇으로 신고해야 하나요?",
           "conclusion": "남이 만든 제품을 사서 팔면 일반판매업, 전문제조업자에게 의뢰해 만든 제품을 자기 상표로 팔면 유통전문판매업입니다. 둘 다 영업소 소재지 시·군·구청에 신고합니다.",
           "branches": [
             {
@@ -1327,7 +1327,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-change-closure",
-          "q": "판매업 신고 후 주소를 옮기거나 폐업하면 어떻게 하나요?",
+          "q": "건강기능식품판매업 신고 후 주소를 옮기거나 폐업하면 어떻게 하나요?",
           "conclusion": "영업자 성명, 영업소 명칭·상호, 영업소 소재지, 보관시설 소재지(사용계약한 경우), 유통전문판매업의 위탁 제조업소가 바뀌면 변경신고를, 영업을 그만두면 폐업신고를 합니다. 세무서에 폐업신고를 하거나 사업자등록이 말소되면 신고 사항이 직권 말소될 수 있습니다.",
           "branches": [
             {
@@ -1345,7 +1345,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-foreign-applicant",
-          "q": "외국인이나 외국 회사가 한국에서 건강기능식품 판매업 신고를 하려면 무엇이 더 필요한가요?",
+          "q": "외국인이나 외국 회사가 한국에서 건강기능식품판매업 신고를 하려면 무엇이 더 필요한가요?",
           "conclusion": "신고인이 외국인이면 결격사유가 없음을 확인하기 위해 본국 정부 등이 발행한 서류나 공증받은 진술서를 내야 하며, 대한민국 영사관 확인 또는 아포스티유를 받은 서류여야 합니다.",
           "branches": [
             {
@@ -1364,7 +1364,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "factory": {
-      "answer": "공장등록은 시장·군수·구청장(산업단지는 관리기관)이 공장등록대장에 공장을 올리는 절차로, 공장건축면적 500제곱미터 이상 공장은 공장설립 승인 → 건축·설비 설치 → 2개월 이내 완료신고를 거쳐 등록되고, 그 미만 공장은 소유자나 임차인 등 점유자가 바로 등록을 신청할 수 있습니다. 승인 신청은 20일(전부 시·군·구 권한이면 14일, 의제 처리가 없으면 7일) 이내에 결정되고, 소규모 공장등록 신청은 7일(인허가 의제 시 20일) 이내에 등록 결과가 통지됩니다. 등록 후에는 공장등록증명서를 관할 관청이나 공장설립온라인지원시스템에서 발급받습니다.",
+      "answer": "공장등록은 「산업집적활성화 및 공장설립에 관한 법률」(산업집적법)에 따라 시장·군수·구청장(산업단지는 관리기관)이 공장등록대장에 공장을 올리는 절차로, 공장건축면적 500제곱미터 이상 공장은 공장설립등의 승인 → 건축·설비 설치 → 2개월 이내 완료신고를 거쳐 등록되고, 그 미만 공장은 소유자나 임차인 등 점유자가 바로 등록을 신청할 수 있습니다. 승인 신청은 20일(전부 시·군·구 권한이면 14일, 의제 처리가 없으면 7일) 이내에 결정되고, 소규모 공장등록 신청은 7일(인허가 의제 시 20일) 이내에 등록 결과가 통지됩니다. 등록 후에는 공장등록증명서를 관할 관청이나 공장설립온라인지원시스템에서 발급받습니다.",
       "chooser": [
         {
           "label": "임대 공장을 쓰는 경우",
@@ -1391,7 +1391,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-leased",
           "q": "공장을 임대해서 쓰는데 임차인 이름으로 공장등록을 할 수 있나요?",
-          "conclusion": "할 수 있습니다. 공장설립 승인 대상이 아닌 공장은 소유자뿐 아니라 점유자도 공장등록을 신청할 수 있어 임차인이 자기 이름으로 등록할 수 있고, 건물 일부만 빌린 경우에는 임차한 부분의 바닥면적을 공장부지로 봅니다.",
+          "conclusion": "할 수 있습니다. 공장설립등의 승인 대상이 아닌 공장은 소유자뿐 아니라 점유자도 공장등록을 신청할 수 있어 임차인이 자기 이름으로 등록할 수 있고, 건물 일부만 빌린 경우에는 임차한 부분의 바닥면적을 공장부지로 봅니다.",
           "branches": [
             {
               "when": "공장건축면적 500제곱미터 미만을 임차한 경우",
@@ -1413,7 +1413,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-under-500",
           "q": "500제곱미터 미만 작은 공장도 공장등록을 해야 하나요?",
-          "conclusion": "공장건축면적 500제곱미터 미만이면 공장설립 승인 대상이 아니고, 공장등록은 의무가 아니라 소유자·점유자가 신청할 수 있는 절차입니다. 다른 인허가를 한꺼번에 의제받으려면 500제곱미터 미만이라도 공장설립 승인을 받을 수 있습니다.",
+          "conclusion": "공장건축면적 500제곱미터 미만이면 공장설립등의 승인 대상이 아니고, 공장등록은 의무가 아니라 소유자·점유자가 신청할 수 있는 절차입니다. 다른 인허가를 한꺼번에 의제받으려면 500제곱미터 미만이라도 공장설립등의 승인을 받을 수 있습니다.",
           "branches": [
             {
               "when": "공장등록증명서가 필요한 경우(거래처·지원사업 제출 등)",
@@ -1453,7 +1453,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-knowledge-center",
           "q": "지식산업센터에 입주해 제조업을 하려면 공장등록은 어떻게 하나요?",
-          "conclusion": "지식산업센터에는 제조업 시설이 입주할 수 있습니다. 산업단지 안의 지식산업센터는 관리기관과 입주계약을 맺으면 공장설립 승인을 받은 것으로 보고 사업개시 신고로 이어지며, 산업단지 밖이면 시·군·구청에 공장등록을 신청합니다.",
+          "conclusion": "지식산업센터에는 제조업 시설이 입주할 수 있습니다. 산업단지 안의 지식산업센터는 관리기관과 입주계약을 맺으면 공장설립등의 승인을 받은 것으로 보고 사업개시 신고로 이어지며, 산업단지 밖이면 시·군·구청에 공장등록을 신청합니다.",
           "branches": [
             {
               "when": "산업단지 안 지식산업센터인 경우",
@@ -1470,7 +1470,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-fac-conditions",
-          "q": "공장등록증을 받으려면 어떤 조건을 갖춰야 하나요?",
+          "q": "공장등록증명서를 받으려면 어떤 조건을 갖춰야 하나요?",
           "conclusion": "한국표준산업분류상 제조업을 하는 사업장으로서 제조시설 등을 갖추고, 건축법·국토계획법·대기·물환경·소음진동 관련 법령의 기준과 기준공장면적률에 맞아야 공장등록대장에 등록됩니다.",
           "branches": [
             {
@@ -1483,7 +1483,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "공장건축면적 500제곱미터 이상인 경우",
-              "then": "공장설립 승인 → 완료신고 순서로 등록됩니다."
+              "then": "공장설립등의 승인 → 완료신고 순서로 등록됩니다."
             }
           ],
           "docs": "공장등록신청서, 사업계획서(승인 대상 외 공장 사업계획서), 건축물대장(관청이 행정정보 공동이용으로 확인)",
@@ -1510,7 +1510,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-fac-approval-500",
-          "q": "500제곱미터 이상 공장을 새로 지으려면 공장설립 승인부터 받아야 하나요?",
+          "q": "500제곱미터 이상 공장을 새로 지으려면 공장설립등의 승인부터 받아야 하나요?",
           "conclusion": "네. 공장건축면적 500제곱미터 이상 공장을 신설·증설하거나 업종을 바꾸려면 시장·군수·구청장의 공장설립등의 승인을 받아야 합니다. 산업단지 입주계약이나 다른 법률에 따른 공장설립 허가 등을 받으면 승인을 받은 것으로 봅니다.",
           "branches": [
             {
@@ -1609,7 +1609,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-foreign-investor",
           "q": "외국인투자기업이 한국에 공장을 세우려면 절차가 다른가요?",
-          "conclusion": "공장설립 승인과 공장등록은 공장 단위로 보는 절차라, 외국인투자기업도 같은 순서(입지 검토 → 승인 또는 입주계약 → 건축·설비 → 완료신고 → 등록)로 진행합니다. 실무상 한국 법인 설립과 사업자등록을 먼저 마치고, 외국어 서류는 번역본을 준비합니다.",
+          "conclusion": "공장설립등의 승인과 공장등록은 공장 단위로 보는 절차라, 외국인투자기업도 같은 순서(입지 검토 → 승인 또는 입주계약 → 건축·설비 → 완료신고 → 등록)로 진행합니다. 실무상 한국 법인 설립과 사업자등록을 먼저 마치고, 외국어 서류는 번역본을 준비합니다.",
           "branches": [
             {
               "when": "500제곱미터 이상 공장을 짓는 경우",
@@ -1629,7 +1629,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
   },
   "en": {
     "nonprofit": {
-      "answer": "To register a nonprofit association in Korea, the founders adopt articles of association at a founding meeting, apply to the competent ministry (or the city or province it has delegated to) for a permit under the Civil Act, and register the corporation at the court registry for the main office within 3 weeks of the permit. Unless there is a special reason, the ministry decides within 20 days of receiving the application; in practice, pre-consultation, revisions and registration make the whole process longer. Foreign nationals can be founders and members, with documents issued abroad legalized and translated into Korean.",
+      "answer": "To register a nonprofit incorporated association (비영리사단법인) in Korea, the founders adopt articles of incorporation (정관) at an inaugural general meeting (창립총회), apply to the competent ministry (supervising authority, 주무관청), or the city or province it has delegated to, for an establishment permit (설립허가) under the Civil Act, and complete incorporation registration (설립등기) at the court registry for the main office within 3 weeks of the permit. Unless there is a special reason, the ministry decides within 20 days of receiving the application; in practice, pre-consultation, revisions and registration make the whole process longer. Foreign nationals can be founders and members, with documents issued abroad legalized and translated into Korean.",
       "chooser": [
         {
           "label": "Foreign founders in Korea",
@@ -1659,8 +1659,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-np-foreign-founders",
-          "q": "We are foreign residents in Korea and want to set up a nonprofit association — is that possible?",
-          "conclusion": "Yes. The Civil Act does not limit founders or members by nationality, so foreign residents can found a nonprofit association and apply to the competent ministry for a permit like Korean founders.",
+          "q": "We are foreign residents in Korea and want to set up a nonprofit incorporated association (비영리사단법인) — is that possible?",
+          "conclusion": "Yes. The Civil Act does not limit founders or members by nationality, so foreign residents can found a nonprofit incorporated association and apply to the competent ministry (supervising authority, 주무관청) for an establishment permit (설립허가) like Korean founders.",
           "branches": [
             {
               "when": "If all founders live in Korea",
@@ -1675,7 +1675,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Confirm in pre-consultation which ministry will accept the application before drafting the articles."
             }
           ],
-          "docs": "Permit application, founders' details, articles of association, list of assets with proof, business plan and budget, officer acceptance letters, founding meeting minutes",
+          "docs": "Permit application, founders' details, articles of incorporation (정관), list of assets with proof, business plan and budget, officer acceptance letters, minutes of the inaugural general meeting (창립총회 회의록)",
           "period": "Ministry review within 20 days of application unless there is a special reason; in practice, allow additional time for pre-consultation and revisions",
           "href": "/en/blog/nonprofit-corporation-establishment-guide"
         },
@@ -1693,11 +1693,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Have the documents legalized by the Korean embassy or consulate, then translated into Korean."
             },
             {
-              "when": "If they cannot attend the founding meeting in person",
+              "when": "If they cannot attend the inaugural general meeting in person",
               "then": "Plan how their participation and signatures will be recorded in the minutes and checked with the ministry in advance."
             }
           ],
-          "docs": "Notarized and apostilled (or consular-legalized) identity and signature documents, Korean translations, founders' list, founding meeting minutes",
+          "docs": "Notarized and apostilled (or consular-legalized) identity and signature documents, Korean translations, founders' list, minutes of the inaugural general meeting",
           "period": "In practice, 1 to 4 weeks for legalization depending on the country, before the permit application",
           "href": "/en/blog/nonprofit-corporation-articles-and-approval-guide"
         },
@@ -1719,14 +1719,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Check whether the ministry has delegated the permit to the city or province."
             }
           ],
-          "docs": "Draft articles of association and business plan for pre-consultation",
+          "docs": "Draft articles of incorporation and business plan for pre-consultation",
           "period": "Pre-consultation before filing; in practice, a few weeks depending on the ministry",
           "href": "/en/blog/nonprofit-corporation-articles-and-approval-guide"
         },
         {
           "id": "sit-np-informal-group",
-          "q": "We have operated as an informal group for years — how do we become an incorporated association?",
-          "conclusion": "You hold a founding meeting to adopt articles of association, apply for a permit from the competent ministry, and register the corporation; the group's track record supports the business plan.",
+          "q": "We have operated as an informal group for years — how do we become a nonprofit incorporated association?",
+          "conclusion": "You hold an inaugural general meeting to adopt articles of incorporation, apply for an establishment permit from the competent ministry, and complete incorporation registration (설립등기); the group's track record supports the business plan.",
           "branches": [
             {
               "when": "If the group already holds assets",
@@ -1737,14 +1737,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Show how the purpose will be funded through dues, donations or contributions in the business plan and budget."
             }
           ],
-          "docs": "Articles of association, founding meeting minutes, list of assets with proof, business plan and budget, officer documents",
+          "docs": "Articles of incorporation, minutes of the inaugural general meeting, list of assets with proof, business plan and budget, officer documents",
           "period": "Ministry review within 20 days unless there is a special reason; registration within 3 weeks of the permit",
           "href": "/en/blog/nonprofit-corporation-establishment-guide"
         },
         {
           "id": "sit-np-association-vs-foundation",
-          "q": "Should we set up an incorporated association or a foundation?",
-          "conclusion": "An incorporated association is built on its members; a foundation is built on donated assets. Both need a ministry permit under the Civil Act.",
+          "q": "Should we set up an incorporated association or an incorporated foundation (재단법인)?",
+          "conclusion": "An incorporated association is built on its members; an incorporated foundation is built on contributed assets. Both need a ministry permit under the Civil Act.",
           "branches": [
             {
               "when": "If members will run the organisation and vote at general meetings",
@@ -1752,21 +1752,21 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "If a donor is contributing assets to fund a purpose",
-              "then": "A foundation fits; there are no members, and the endowment carries the purpose."
+              "then": "An incorporated foundation fits; there are no members, and the endowment carries the purpose."
             }
           ],
-          "docs": "For either form: articles of association or foundation charter, list of assets, business plan, officer documents",
+          "docs": "For either form: articles of incorporation, list of assets, business plan, officer documents",
           "period": "The statutory steps and deadlines are the same: ministry review within 20 days and registration within 3 weeks of the permit",
           "href": "/en/blog/nonprofit-corporation-establishment-guide"
         },
         {
           "id": "sit-np-ngo-or-cooperative",
-          "q": "We want to earn revenue for a social mission — nonprofit association or social cooperative?",
-          "conclusion": "A nonprofit association can run revenue activities within the purpose in its articles, while a social cooperative is a separate form authorised under the Framework Act on Cooperatives.",
+          "q": "We want to earn revenue for a social mission — nonprofit incorporated association or social cooperative?",
+          "conclusion": "A nonprofit incorporated association can run revenue activities within the purpose in its articles, while a social cooperative is a separate form authorised under the Framework Act on Cooperatives.",
           "branches": [
             {
               "when": "If revenue supports a non-commercial purpose",
-              "then": "A nonprofit association can run revenue activities needed for its purpose, within its articles."
+              "then": "The association can run revenue activities needed for its purpose, within its articles."
             },
             {
               "when": "If you want a member-owned cooperative structure",
@@ -1779,7 +1779,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-np-members",
-          "q": "How many members does a nonprofit association in Korea need?",
+          "q": "How many members does a nonprofit incorporated association in Korea need?",
           "conclusion": "The Civil Act sets no minimum number of members, but an association needs more than one member and its articles must state how membership is gained and lost.",
           "branches": [
             {
@@ -1791,14 +1791,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Having no members is a ground for dissolution."
             }
           ],
-          "docs": "Founders' list and membership provisions in the articles of association",
-          "period": "Confirm during pre-consultation, before the founding meeting",
+          "docs": "Founders' list and membership provisions in the articles of incorporation",
+          "period": "Confirm during pre-consultation, before the inaugural general meeting",
           "href": "/en/blog/nonprofit-corporation-articles-and-approval-guide"
         },
         {
           "id": "sit-np-charity",
           "q": "We plan to give scholarships and run charity programmes — are there extra rules?",
-          "conclusion": "Scholarship, research, academic and charitable corporations can fall under the Public Interest Corporations Act, which adds governance requirements on top of the Civil Act permit.",
+          "conclusion": "Scholarship, research, academic and charitable corporations can fall under the Public Interest Corporations Act (공익법인의 설립·운영에 관한 법률), which adds governance requirements on top of the Civil Act permit.",
           "branches": [
             {
               "when": "If the Public Interest Corporations Act applies",
@@ -1809,13 +1809,13 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Auditors are optional under the Civil Act, and revenue activities only need to stay within the purpose in the articles."
             }
           ],
-          "docs": "Articles of association with board and auditor provisions, officer documents, business plan",
+          "docs": "Articles of incorporation with board and auditor provisions, officer documents, business plan",
           "period": "Ministry review within 20 days unless there is a special reason",
           "href": "/en/blog/nonprofit-corporation-establishment-guide"
         },
         {
           "id": "sit-np-how-long",
-          "q": "How long does it take to register a nonprofit association in South Korea?",
+          "q": "How long does it take to register a nonprofit incorporated association in South Korea?",
           "conclusion": "The statutory deadlines are short — 20 days for ministry review and 3 weeks for registration after the permit — but in practice the whole process takes longer because of pre-consultation and revisions.",
           "branches": [
             {
@@ -1834,7 +1834,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-after-permit",
           "q": "We received the permit — what must we do next and by when?",
-          "conclusion": "Register the corporation at the court registry for the main office within 3 weeks of the permit; the corporation only exists once registered.",
+          "conclusion": "Complete incorporation registration at the court registry for the main office within 3 weeks of the permit; the corporation only exists once registered.",
           "branches": [
             {
               "when": "If assets are being contributed",
@@ -1842,7 +1842,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "Once registration is complete",
-              "then": "Report it to the ministry within 10 days and obtain a tax ID number or business registration from the tax office."
+              "then": "Report it to the ministry within 10 days and obtain a unique number certificate (고유번호증) or business registration from the tax office."
             },
             {
               "when": "If you later change the articles",
@@ -1856,7 +1856,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "telecom-business": {
-      "answer": "Value-added telecommunications business registration in Korea is, for most online services, a report filed with the Ministry of Science and ICT (MSIT) under the Telecommunications Business Act, and internet-based operators with capital of KRW 100 million or less are treated as having reported. File-sharing (webhard and P2P) and bulk text-message sending services are a special type that requires registration, and facilities-based services such as phone or internet access require registration by a corporation, with certificates issued within 30 days of application. The Act places no nationality restriction on the value-added report, while facilities-based operators with their own line facilities face foreign ownership limits.",
+      "answer": "Value-added telecommunications business registration in Korea is, for most online services, a value-added telecommunications business report (부가통신사업 신고) filed with the Ministry of Science and ICT (MSIT, 과학기술정보통신부) under the Telecommunications Business Act (전기통신사업법), and internet-based operators with capital of KRW 100 million or less are treated as having reported. File-sharing (webhard and P2P) and bulk text-message sending services are a special type that requires registration (특수한 유형의 부가통신사업 등록), and facilities-based services such as phone or internet access require registration by a corporation (기간통신사업 등록), with certificates issued within 30 days of application. The Act places no nationality restriction on the value-added telecommunications business report, while facilities-based operators with their own line facilities face foreign ownership limits.",
       "chooser": [
         {
           "label": "Overseas app, no Korean entity",
@@ -1886,7 +1886,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-tel-foreign-app",
-          "q": "We are an overseas app company with Korean users but no Korean entity — do we need to file a value-added telecom report?",
+          "q": "We are an overseas app company with Korean users but no Korean entity — do we need to file a value-added telecommunications business report (부가통신사업 신고)?",
           "conclusion": "If your service is a value-added telecom service provided to users in Korea, the report applies, and the Act places no nationality restriction on who files it.",
           "branches": [
             {
@@ -1899,16 +1899,16 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "If your service reaches 1 million daily users in Korea and 1% of domestic traffic",
-              "then": "Appoint a domestic agent in writing as well."
+              "then": "Appoint a domestic agent (국내대리인) in writing as well."
             }
           ],
-          "docs": "Value-added telecom report form, statement of personal information protection measures if personal data is handled, network diagram if requested",
+          "docs": "Value-added telecommunications business report form, statement of personal information protection measures if personal data is handled, network diagram if requested",
           "period": "Supplement requests set a period of up to 10 days; in practice, the report is completed within a few weeks once documents are ready",
           "href": "/en/services/telecom-business"
         },
         {
           "id": "sit-tel-small-capital",
-          "q": "Our startup has small capital — do we still have to file a value-added telecom report?",
+          "q": "Our startup has small capital — do we still have to file a value-added telecommunications business report?",
           "conclusion": "If you provide the service over the internet with capital of KRW 100 million or less, you are treated as having reported; once capital goes above that, you must file within 1 month.",
           "branches": [
             {
@@ -1921,10 +1921,10 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "If the service is a special type (webhard, P2P or bulk SMS)",
-              "then": "Registration is required regardless of capital."
+              "then": "Special-type value-added telecommunications business registration (특수한 유형의 부가통신사업 등록) is required regardless of capital."
             }
           ],
-          "docs": "Value-added telecom report form, statement of personal information protection measures",
+          "docs": "Value-added telecommunications business report form, statement of personal information protection measures",
           "period": "Report within 1 month after capital exceeds the threshold",
           "href": "/en/services/telecom-business"
         },
@@ -1939,7 +1939,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "If you carry users' traffic unchanged or lease network lines",
-              "then": "That is facilities-based service, which needs registration."
+              "then": "That is facilities-based service, which needs facilities-based telecommunications business registration (기간통신사업 등록)."
             },
             {
               "when": "If you only sell goods online",
@@ -1953,11 +1953,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-app-market",
           "q": "We are launching an app marketplace or a video streaming (OTT) service in Korea — what do we file?",
-          "conclusion": "Both app marketplaces and online video services are value-added services under the Act, so they file a value-added telecom report with MSIT.",
+          "conclusion": "Both app marketplaces and online video services are value-added services under the Act, so they file a value-added telecommunications business report with the Ministry of Science and ICT (MSIT, 과학기술정보통신부).",
           "branches": [
             {
               "when": "If you run an online video service",
-              "then": "MSIT passes the report to the Ministry of Culture, Sports and Tourism and the Korea Media and Communications Commission within 3 months."
+              "then": "MSIT passes the report to the Ministry of Culture, Sports and Tourism and the Korea Media and Communications Commission (방송미디어통신위원회) within 3 months."
             },
             {
               "when": "If you run an app marketplace",
@@ -1968,14 +1968,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "Service-stability measures, an annual report and, without a Korean office, a domestic agent apply."
             }
           ],
-          "docs": "Value-added telecom report form, statement of personal information protection measures",
+          "docs": "Value-added telecommunications business report form, statement of personal information protection measures",
           "period": "Business must start within 1 year of the report",
           "href": "/en/services/telecom-business"
         },
         {
           "id": "sit-tel-bulk-sms",
           "q": "We send bulk SMS (A2P messages) to Korean phone numbers — is a report enough?",
-          "conclusion": "No. Sending text messages through a carrier's network is a special-type value-added service that requires registration with MSIT.",
+          "conclusion": "No. Sending text messages through a carrier's network is a special-type value-added service that requires special-type value-added telecommunications business registration with MSIT.",
           "branches": [
             {
               "when": "If you connect a messaging system to carriers directly or through another provider",
@@ -1993,7 +1993,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-file-sharing",
           "q": "We run a webhard or P2P file-sharing service for Korean users — what applies?",
-          "conclusion": "Webhard and P2P services that are special online service providers under the Copyright Act must register as a special-type value-added business, not just report.",
+          "conclusion": "Webhard and P2P services that are special online service providers under the Copyright Act must obtain special-type value-added telecommunications business registration, not just file a report.",
           "branches": [
             {
               "when": "If you are a special online service provider under the Copyright Act",
@@ -2011,7 +2011,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-facilities",
           "q": "We want to provide internet access or IoT connectivity in Korea — what registration do we need?",
-          "conclusion": "Providing phone, internet access or line-leasing services is facilities-based business, which only a corporation can register with MSIT.",
+          "conclusion": "Providing phone, internet access or line-leasing services is a facilities-based telecommunications business, which only a corporation can register with MSIT.",
           "branches": [
             {
               "when": "If your product only uses connectivity incidentally (for example, an IoT device sending data with no voice calls)",
@@ -2051,18 +2051,18 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-location-too",
           "q": "Our app uses users' location as well — is the telecom report enough?",
-          "conclusion": "No. A service that uses personal location information also needs a location-based service report with the Korea Media and Communications Commission, separate from the telecom report.",
+          "conclusion": "No. A service that uses personal location information also needs a location-based service business report (위치기반서비스사업 신고) with the Korea Media and Communications Commission, separate from the telecom report.",
           "branches": [
             {
               "when": "If you use personal location information",
-              "then": "File the location-based service report as well."
+              "then": "File the location-based service business report as well."
             },
             {
               "when": "If you collect location information and supply it to other businesses",
-              "then": "That is a location information business requiring registration."
+              "then": "That is a personal location information business, which requires personal location information business registration (개인위치정보사업 등록)."
             }
           ],
-          "docs": "Telecom report documents plus location-based service report documents",
+          "docs": "Telecom report documents plus location-based service business report documents",
           "period": "Two separate filings that can be prepared in parallel",
           "href": "/en/services/location-based-service"
         },
@@ -2072,7 +2072,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "conclusion": "Running a value-added service without the report, or a special-type or facilities-based service without registration, is a criminal offence, so file as soon as possible.",
           "branches": [
             {
-              "when": "If you should have filed a value-added report",
+              "when": "If you should have filed a value-added telecommunications business report",
               "then": "The penalty is up to 2 years' imprisonment or a fine of up to KRW 100 million."
             },
             {
@@ -2081,13 +2081,13 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             }
           ],
           "docs": "The report or registration documents for your service category",
-          "period": "File promptly; in practice, a few weeks for a value-added report",
+          "period": "File promptly; in practice, a few weeks for a value-added telecommunications business report",
           "href": "/en/services/telecom-business"
         }
       ]
     },
     "location-based-service": {
-      "answer": "Under Korea's Location Information Act, a business that provides a location-based service using personal location information to users in Korea must file a location-based service business report with the Korea Media and Communications Commission (KMCC); a foreign corporation can file in its own name without a Korean subsidiary or branch, and the Act does not require a domestic agent. Collecting personal location information and supplying it to other businesses is a different activity — a location information business — which requires registration by a corporation. In practice, a report takes 2 to 4 weeks once documents are complete, or 4 to 8 weeks for foreign corporations including notarization, apostille and translation of home-country documents.",
+      "answer": "Under Korea's Act on the Protection, Use, etc. of Location Information (Location Information Act, 위치정보법), a business that provides a location-based service using personal location information to users in Korea must file a location-based service business report (위치기반서비스사업 신고) with the Korea Media and Communications Commission (KMCC, 방송미디어통신위원회); a foreign corporation can file in its own name without a Korean subsidiary or branch, and the Act does not require a domestic agent (국내대리인). Collecting personal location information and supplying it to other businesses is a different activity — a personal location information business (개인위치정보사업) — which requires registration by a corporation. In practice, a report takes 2 to 4 weeks once documents are complete, or 4 to 8 weeks for foreign corporations including notarization, apostille and translation of home-country documents.",
       "chooser": [
         {
           "label": "Overseas company, no Korean entity",
@@ -2117,7 +2117,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-lbs-foreign-no-entity",
-          "q": "We are an overseas app company with users in Korea but no Korean office — can we file the location-based service report ourselves?",
+          "q": "We are an overseas app company with users in Korea but no Korean office — can we file the location-based service business report (위치기반서비스사업 신고) ourselves?",
           "conclusion": "Yes. The report can be filed in the name of the foreign corporation; a Korean subsidiary or branch is not required.",
           "branches": [
             {
@@ -2139,8 +2139,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-domestic-agent",
-          "q": "Do we have to appoint a domestic agent in Korea to file a location-based service report?",
-          "conclusion": "No. The Location Information Act does not require a domestic agent, and an agent appointment is not one of the required filing documents.",
+          "q": "Do we have to appoint a domestic agent (국내대리인) in Korea to file a location-based service business report?",
+          "conclusion": "No. The Location Information Act (위치정보법) does not require a domestic agent, and an agent appointment is not one of the required filing documents.",
           "branches": [
             {
               "when": "If you want someone in Korea to handle filing and supplement requests",
@@ -2180,15 +2180,15 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-lbs-report-vs-registration",
           "q": "We collect GPS data ourselves and supply it to other apps — is a report enough?",
-          "conclusion": "No. Collecting location information and supplying it to location-based service businesses is a location information business; with personal location information it requires registration with the KMCC.",
+          "conclusion": "No. Collecting location information and supplying it to location-based service businesses is a location information business; with personal location information it is a personal location information business (개인위치정보사업) requiring registration with the Korea Media and Communications Commission (KMCC, 방송미디어통신위원회).",
           "branches": [
             {
               "when": "If you collect personal location information and supply it to others",
-              "then": "Register as a location information business; only a corporation can register, and it needs physical facilities and protection measures."
+              "then": "Register as a personal location information business; only a corporation can register, and it needs physical facilities and protection measures."
             },
             {
               "when": "If you only use location data you obtain from a provider to serve your own users",
-              "then": "File a location-based service report."
+              "then": "File a location-based service business report."
             },
             {
               "when": "If you do both",
@@ -2220,11 +2220,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-lbs-small-business",
           "q": "We are a small startup — can we launch first and file the report later?",
-          "conclusion": "Small business owners and one-person creative companies can start without a report, but must file a simplified report within 1 month of starting if they continue.",
+          "conclusion": "Small business owners and one-person creative companies (소상공인등) can start without a report, but must file a follow-up report within 1 month of starting if they continue.",
           "branches": [
             {
               "when": "If you qualify as a small business owner or one-person creative company",
-              "then": "File the simplified report (trade name, main office, business type) within 1 month of starting."
+              "then": "File the follow-up report (trade name, main office, business type) within 1 month of starting."
             },
             {
               "when": "If you later stop qualifying",
@@ -2285,7 +2285,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "The penalty is up to 3 years' imprisonment or a fine of up to KRW 30 million, and the company can be fined as well."
             },
             {
-              "when": "If you run a location information business without registration",
+              "when": "If you run a personal location information business without registration",
               "then": "The penalty is up to 5 years' imprisonment or a fine of up to KRW 50 million."
             }
           ],
@@ -2318,7 +2318,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "South Korea cosmetic registration is mainly a business registration, not a product approval: the company that places cosmetics on the Korean market — including importers and brands using contract manufacturers — registers as a cosmetics responsible distributor with the regional MFDS office for its premises and appoints a qualified responsible manager. Companies that manufacture register separately as cosmetics manufacturers, and functional cosmetics such as whitening, anti-wrinkle, sunscreen and hair-colour products need a product-by-product MFDS review or report before sale. Every formula should first be checked against MFDS lists of banned ingredients and ingredients with use limits.",
+      "answer": "South Korea cosmetic registration is mainly a business registration, not a product approval: the company that places cosmetics on the Korean market — including importers and brands using contract manufacturers — registers as a cosmetics responsible seller (화장품책임판매업, also called responsible distributor) with the regional office (지방식품의약품안전청) of the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처) for its premises and appoints a qualified responsible sales manager (책임판매관리자). Companies that manufacture obtain a separate cosmetics manufacturer registration (화장품제조업), and functional cosmetics such as whitening, anti-wrinkle, sunscreen and hair-colour products need a product-by-product MFDS review or report (기능성화장품 심사·보고) before sale. Every formula should first be checked against MFDS lists of banned ingredients and ingredients with use limits.",
       "chooser": [
         {
           "label": "Overseas brand, no Korean entity",
@@ -2349,23 +2349,23 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-overseas-brand",
           "q": "We are an overseas skincare brand with no Korean entity — who can be our responsible seller in Korea?",
-          "conclusion": "A Korean company registered as a cosmetics responsible distributor must place your products on the market; that can be a Korean importer or distributor, or your own Korean subsidiary.",
+          "conclusion": "A Korean company registered as a cosmetics responsible seller (화장품책임판매업) must place your products on the market; that can be a Korean importer or distributor, or your own Korean subsidiary.",
           "branches": [
             {
               "when": "If you work with a Korean importer or distributor",
-              "then": "They hold the responsible distributor registration and take on quality control and post-market safety for your products."
+              "then": "They hold the responsible seller registration and take on quality control and post-market safety for your products."
             },
             {
               "when": "If you want control of the registration",
-              "then": "Set up a Korean subsidiary, register it as the responsible distributor and appoint a responsible manager."
+              "then": "Set up a Korean subsidiary, register it as the responsible seller and appoint a responsible sales manager (책임판매관리자)."
             },
             {
               "when": "If Korean consumers order from you through an online import-agency (buy-for-me) model",
-              "then": "The Korean business arranging those purchases registers as a responsible distributor for import-agency trades."
+              "then": "The Korean business arranging those purchases registers as a responsible seller for import-agency trades."
             }
           ],
-          "docs": "Responsible distributor registration application, responsible manager qualification documents, quality control documents",
-          "period": "Registration handled by the regional MFDS office; in practice, allow time to appoint a qualified responsible manager",
+          "docs": "Responsible seller registration application, responsible sales manager qualification documents, quality control documents",
+          "period": "Registration handled by the regional office (지방식품의약품안전청) of the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처); in practice, allow time to appoint a qualified responsible sales manager",
           "href": "/en/blog/cosmetics-responsible-distributor"
         },
         {
@@ -2375,57 +2375,57 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "If the product is a general cosmetic",
-              "then": "Sell under a responsible distributor registration after checking ingredients and labelling."
+              "then": "Sell under a responsible seller registration after checking ingredients and labelling."
             },
             {
               "when": "If the product makes a functional claim",
               "then": "Get the MFDS review or file a report for that product before sale."
             }
           ],
-          "docs": "Responsible distributor registration; for functional products, safety and efficacy data",
+          "docs": "Responsible seller registration; for functional products, safety and efficacy data",
           "period": "Business registration first; functional review or report before launch",
           "href": "/en/blog/cosmetics-import-sales-registration-guide"
         },
         {
           "id": "sit-cos-subsidiary",
           "q": "We set up a Korean subsidiary to import our cosmetics — what does it need to register?",
-          "conclusion": "The subsidiary registers as a cosmetics responsible distributor with the regional MFDS office for its premises and appoints a qualified responsible manager.",
+          "conclusion": "The subsidiary registers as a cosmetics responsible seller with the regional MFDS office for its premises and appoints a qualified responsible sales manager.",
           "branches": [
             {
               "when": "If the subsidiary has 10 or fewer regular employees",
-              "then": "Its representative can serve as responsible manager if qualified."
+              "then": "Its representative can serve as responsible sales manager if qualified."
             },
             {
               "when": "If it will also manufacture or repackage in Korea",
-              "then": "It needs a separate manufacturer registration and facilities."
+              "then": "It needs a separate cosmetics manufacturer registration (화장품제조업) and facilities."
             }
           ],
-          "docs": "Responsible distributor registration application, responsible manager qualification documents, quality control and safety management documents",
+          "docs": "Responsible seller registration application, responsible sales manager qualification documents, quality control and safety management documents",
           "period": "Handled by the regional MFDS office; in practice, a few weeks once the manager is in place",
           "href": "/en/blog/cosmetics-import-sales-registration-guide"
         },
         {
           "id": "sit-cos-oem-brand",
           "q": "Our brand uses a Korean OEM manufacturer — do we need a manufacturer registration too?",
-          "conclusion": "No. A brand that has products made by a registered contract manufacturer only needs a responsible distributor registration to sell them.",
+          "conclusion": "No. A brand that has products made by a registered contract manufacturer only needs a responsible seller registration to sell them.",
           "branches": [
             {
               "when": "If you only commission manufacturing",
-              "then": "Register as a responsible distributor; the OEM holds the manufacturer registration."
+              "then": "Register as a responsible seller; the OEM holds the manufacturer registration."
             },
             {
               "when": "If you do any manufacturing or primary packaging yourself",
               "then": "Register as a manufacturer as well and meet facility standards."
             }
           ],
-          "docs": "Responsible distributor registration application, contract manufacturing agreement, responsible manager documents",
+          "docs": "Responsible seller registration application, contract manufacturing agreement, responsible sales manager documents",
           "period": "Register before first sale",
           "href": "/en/blog/cosmetics-manufacturing-registration"
         },
         {
           "id": "sit-cos-sunscreen",
           "q": "We want to sell a sunscreen in Korea — what extra approval does it need?",
-          "conclusion": "Sunscreens are functional cosmetics, so each product needs an MFDS review or a report before sale.",
+          "conclusion": "Sunscreens are functional cosmetics, so each product needs an MFDS review or a report (기능성화장품 심사·보고) before sale.",
           "branches": [
             {
               "when": "If the UV filters, content, claims, usage and test methods match MFDS's published standards",
@@ -2447,7 +2447,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-functional-requirements",
           "q": "What are the requirements for registering functional cosmetics in Korea?",
-          "conclusion": "The responsible distributor or manufacturer submits a review request or report for each product, and applicants are limited to registered manufacturers, responsible distributors and qualifying universities or research institutions.",
+          "conclusion": "The responsible seller or manufacturer submits a review request or report for each product, and applicants are limited to registered manufacturers, responsible sellers and qualifying universities or research institutions.",
           "branches": [
             {
               "when": "If the product matches MFDS's published active ingredient standards",
@@ -2483,10 +2483,10 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-marketplace",
           "q": "We are a small cosmetics brand — what documents do Korean online and travel-retail marketplaces ask for?",
-          "conclusion": "Each marketplace sets its own onboarding list, but legally the products must be placed on the market by a registered responsible distributor, so in practice that registration is the core document.",
+          "conclusion": "Each marketplace sets its own onboarding list, but legally the products must be placed on the market by a registered responsible seller, so in practice that registration is the core document.",
           "branches": [
             {
-              "when": "If your Korean partner is the responsible distributor",
+              "when": "If your Korean partner is the responsible seller",
               "then": "Their registration certificate and product documents are used for onboarding."
             },
             {
@@ -2494,25 +2494,25 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "The review or report confirmation for each product is also needed."
             }
           ],
-          "docs": "Responsible distributor registration certificate, product ingredient list, functional review or report confirmation where relevant",
+          "docs": "Responsible seller registration certificate, product ingredient list, functional review or report confirmation where relevant",
           "period": "In practice, prepare these before marketplace onboarding",
           "href": "/en/blog/cosmetics-responsible-distributor"
         },
         {
           "id": "sit-cos-import-agency",
           "q": "We sell overseas cosmetics to Korean consumers online on a buy-for-me basis — what registration applies?",
-          "conclusion": "Online import-agency trade is a form of responsible distributor business, registered with the regional MFDS office, but it does not require a responsible manager.",
+          "conclusion": "Online import-agency trade is a form of responsible seller business, registered with the regional MFDS office, but it does not require a responsible sales manager.",
           "branches": [
             {
               "when": "If you only arrange online import-agency purchases",
-              "then": "Register as a responsible distributor for import-agency trades; no responsible manager is needed."
+              "then": "Register as a responsible seller for import-agency trades; no responsible sales manager is needed."
             },
             {
               "when": "If you import stock and sell it yourself",
-              "then": "A standard responsible distributor registration with a responsible manager applies."
+              "then": "A standard responsible seller registration with a responsible sales manager applies."
             }
           ],
-          "docs": "Responsible distributor registration application",
+          "docs": "Responsible seller registration application",
           "period": "Register before starting sales",
           "href": "/en/blog/cosmetics-import-sales-registration-guide"
         },
@@ -2537,7 +2537,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "health-food": {
-      "answer": "Health functional food registration in South Korea depends on your role: importers register an imported food import-and-sale business with the regional MFDS office (processing time 3 days), register the overseas manufacturing facility before the first import declaration, and declare each shipment for inspection; sellers file a sales business report with the local city, county or district office; manufacturers obtain a manufacturing licence from the regional MFDS office. Every functional ingredient must be one MFDS has published or individually recognised, so a food supplement sold abroad may not qualify as health functional food in Korea.",
+      "answer": "Health functional food (HFF, 건강기능식품) registration in South Korea depends on your role: importers obtain imported food import and sales business registration (수입식품등 수입·판매업 영업등록) from the regional office (지방식품의약품안전청) of the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처) (processing time 3 days), register the overseas manufacturing facility before the first import declaration, and declare each shipment for inspection; sellers file an HFF general sales business or HFF distribution sales business report with the city/county/district office (시장·군수·구청장); manufacturers obtain a manufacturing licence from the regional MFDS office. Every functional ingredient must be one MFDS has published or an individually recognized functional ingredient (개별인정형 원료), so a food supplement sold abroad may not qualify as health functional food in Korea.",
       "chooser": [
         {
           "label": "Overseas brand, no Korean entity",
@@ -2568,29 +2568,29 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-overseas-brand",
           "q": "We are an overseas supplement brand — how do we get our products registered for sale in South Korea?",
-          "conclusion": "Your products enter Korea through a registered importer, which registers your overseas factory and declares each shipment; the products must qualify as health functional food under Korean ingredient standards.",
+          "conclusion": "Your products enter Korea through a registered importer, which registers your overseas factory and declares each shipment; the products must qualify as health functional food (HFF, 건강기능식품) under Korean ingredient standards.",
           "branches": [
             {
               "when": "If you appoint a Korean importer",
-              "then": "The importer holds the import-and-sale registration and files the overseas facility registration and import declarations."
+              "then": "The importer holds the imported food import and sales business registration (수입식품등 수입·판매업 영업등록) and files the overseas facility registration and import declarations."
             },
             {
               "when": "If you set up a Korean company",
-              "then": "It registers as an import-and-sale business with premises that meet facility standards."
+              "then": "It registers as an import and sales business with premises that meet facility standards."
             },
             {
-              "when": "If an ingredient is not on MFDS's published list",
-              "then": "Ingredient recognition is needed before the product can be sold as health functional food."
+              "when": "If an ingredient is not on the published list of the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처)",
+              "then": "Individual recognition of the ingredient (개별인정형 원료) is needed before the product can be sold as health functional food."
             }
           ],
-          "docs": "Import-and-sale registration, overseas facility registration, import declaration, Korean labelling, ingredient and manufacturing method data",
-          "period": "Import-and-sale registration 3 days; shipment inspection 2 to 10 days depending on the type",
+          "docs": "Import and sales business registration, overseas facility registration, import declaration, Korean labelling, ingredient and manufacturing method data",
+          "period": "Import and sales business registration 3 days; shipment inspection 2 to 10 days depending on the type",
           "href": "/en/blog/health-functional-food-sales-registration-guide"
         },
         {
           "id": "sit-hf-importer",
           "q": "We are a Korean company planning to import health functional food — what do we register?",
-          "conclusion": "Register an imported food import-and-sale business with the regional MFDS office for your premises, then register each overseas factory and declare each shipment.",
+          "conclusion": "Obtain imported food import and sales business registration from the regional MFDS office (지방식품의약품안전청) for your premises, then register each overseas factory and declare each shipment.",
           "branches": [
             {
               "when": "If you will also sell to consumers yourself",
@@ -2608,11 +2608,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-importer-of-record",
           "q": "Can our overseas company act as the importer itself without a Korean entity?",
-          "conclusion": "The import-and-sale registration requires business premises in Korea that meet facility standards, so in practice an overseas company without a Korean presence uses a registered Korean importer or sets up a Korean company.",
+          "conclusion": "The import and sales registration requires business premises in Korea that meet facility standards, so in practice an overseas company without a Korean presence uses a registered Korean importer or sets up a Korean company.",
           "branches": [
             {
               "when": "If you open a Korean subsidiary or branch with premises",
-              "then": "It can register as an import-and-sale business."
+              "then": "It can register as an import and sales business."
             },
             {
               "when": "If you have no Korean presence",
@@ -2644,7 +2644,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-ingredient",
           "q": "Our supplement uses an ingredient that isn't in Korea's health functional food code — can we still sell it?",
-          "conclusion": "Not as health functional food until MFDS recognises the ingredient based on safety and functionality data.",
+          "conclusion": "Not as health functional food until MFDS recognizes the ingredient based on safety and functionality data.",
           "branches": [
             {
               "when": "If the ingredient is on MFDS's published list",
@@ -2656,7 +2656,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "If the ingredient is claimed to treat or prevent disease",
-              "then": "It cannot be recognised as a health functional food ingredient."
+              "then": "It cannot be recognized as a health functional food ingredient."
             }
           ],
           "docs": "Ingredient recognition application, safety data, functionality data, specifications",
@@ -2666,33 +2666,33 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-online-seller",
           "q": "We want to sell supplements online to Korean customers — what do we file?",
-          "conclusion": "Selling health functional food requires a sales business report to the local city, county or district office for each outlet, with hygiene training completed first.",
+          "conclusion": "Selling health functional food requires a sales business report to the city/county/district office (시장·군수·구청장) for each outlet, with hygiene training completed first.",
           "branches": [
             {
               "when": "If you sell products made or imported by others",
-              "then": "File a general sales business report."
+              "then": "File an HFF general sales business (건강기능식품일반판매업) report."
             },
             {
-              "when": "If you sell your own brand made by a specialised manufacturer",
-              "then": "File as a distribution-specialised seller with the contract manufacturing agreement."
+              "when": "If you sell your own brand made by a specialized HFF manufacturing business",
+              "then": "File an HFF distribution sales business (own-brand) (건강기능식품유통전문판매업) report with the contract manufacturing agreement."
             }
           ],
-          "docs": "Sales business report, training certificate, contract manufacturing agreement (distribution-specialised sellers)",
+          "docs": "Sales business report, training certificate, contract manufacturing agreement (HFF distribution sales business)",
           "period": "Decision within 3 days; deemed accepted if no notice is given; training every year",
           "href": "/en/blog/health-functional-food-sales-registration-guide"
         },
         {
           "id": "sit-hf-own-brand",
           "q": "We want our own supplement brand made by a Korean manufacturer — what licence do we need?",
-          "conclusion": "If a specialised manufacturer makes the product and you sell it under your brand, you file a distribution-specialised sales business report rather than getting a manufacturing licence.",
+          "conclusion": "If a specialized HFF manufacturing business makes the product and you sell it under your brand, you file an HFF distribution sales business report rather than getting a manufacturing licence.",
           "branches": [
             {
               "when": "If you only commission production",
-              "then": "File the distribution-specialised sales report with the contract manufacturing agreement."
+              "then": "File the HFF distribution sales business report with the contract manufacturing agreement."
             },
             {
               "when": "If you are a venture company commissioning production",
-              "then": "A venture manufacturing licence from the regional MFDS office is another route."
+              "then": "A venture HFF manufacturing business (건강기능식품벤처제조업) licence from the regional MFDS office is another route."
             }
           ],
           "docs": "Sales business report, contract manufacturing agreement, training certificate",
@@ -2702,11 +2702,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-manufacture",
           "q": "We plan to manufacture health functional food in Korea — what are the requirements?",
-          "conclusion": "A manufacturing licence from the regional MFDS office is needed for each site, with a quality manager, facilities meeting the standards and good manufacturing practice compliance.",
+          "conclusion": "A manufacturing licence from the regional MFDS office is needed for each site, with a quality manager (품질관리인), facilities meeting the standards and HFF GMP (우수건강기능식품제조기준) compliance.",
           "branches": [
             {
               "when": "Once licensed",
-              "then": "Report each product with its manufacturing method and other documents; MFDS responds within 10 days, otherwise the report is deemed accepted."
+              "then": "File a product manufacturing report (품목제조신고) for each product with its manufacturing method and other documents; MFDS responds within 10 days, otherwise the report is deemed accepted."
             },
             {
               "when": "If the applicant is a foreign national",
@@ -2741,7 +2741,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "conclusion": "Health functional food is food made with ingredients that have a useful function for the human body; the current definition has no dosage-form requirement, so gummies and drinks can qualify.",
           "branches": [
             {
-              "when": "If it uses functional ingredients MFDS has published or recognised",
+              "when": "If it uses functional ingredients MFDS has published or individually recognized",
               "then": "It can be sold as health functional food under the relevant licences."
             },
             {
@@ -2756,7 +2756,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "factory": {
-      "answer": "Factory registration in South Korea follows the Industrial Cluster Development and Factory Establishment Act: a factory with a building area of 500 square metres or more first obtains factory establishment approval from the city, county or district office (or an occupancy contract inside an industrial complex), then completes construction and equipment, files a completion report within 2 months, and is entered in the factory register. Smaller factories can apply for registration directly, and approval decisions are due within 20 days of application. Once registered, the manufacturer can obtain a factory registration certificate.",
+      "answer": "Factory registration in South Korea follows the Industrial Cluster Development and Factory Establishment Act (산업집적활성화 및 공장설립에 관한 법률): a factory with a factory building area (공장건축면적) of 500 square metres or more first obtains factory establishment approval (공장설립등의 승인) from the city/county/district office (시장·군수·구청장), or concludes a move-in contract (입주계약) inside an industrial complex, then completes construction and equipment, files a completion report (완료신고) within 2 months, and is entered in the factory register (factory registration, 공장등록). Smaller factories can apply for factory registration directly, and approval decisions are due within 20 days of application. Once registered, the manufacturer can obtain a factory registration certificate (공장등록증명서).",
       "chooser": [
         {
           "label": "Foreign investor building a plant",
@@ -2787,18 +2787,18 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-foreign-investor",
           "q": "We are a foreign investor building a manufacturing plant in Korea — what does factory registration involve?",
-          "conclusion": "The same process applies as for Korean companies: establishment approval for 500 square metres or more, construction and installation, a completion report and entry in the factory register in the name of the owner or occupier.",
+          "conclusion": "The same process applies as for Korean companies: factory establishment approval (공장설립등의 승인) for 500 square metres or more, construction and installation, a completion report (완료신고) and entry in the factory register in the name of the owner or occupier.",
           "branches": [
             {
               "when": "If the plant is on an individual site",
-              "then": "Apply to the city, county or district office for approval, which must decide within 20 days."
+              "then": "Apply to the city/county/district office (시장·군수·구청장) for approval, which must decide within 20 days."
             },
             {
               "when": "If it is in an industrial complex",
-              "then": "The occupancy contract counts as approval, and the management agency handles completion and registration."
+              "then": "The move-in contract (입주계약) counts as approval, and the management agency handles completion and registration."
             }
           ],
-          "docs": "Approval application or occupancy contract, building use approval, equipment installation proof, business plan, land and building documents",
+          "docs": "Approval application or move-in contract, building use approval, equipment installation proof, business plan, land and building documents",
           "period": "Approval within 20 days; completion report within 2 months of use approval and installation",
           "href": "/en/blog/factory-registration-application-guide"
         },
@@ -2859,10 +2859,10 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-industrial-complex",
           "q": "Our factory will be in an industrial complex — is the process different?",
-          "conclusion": "Yes. The occupancy contract with the complex's management agency counts as establishment approval, and completion reports go to the management agency.",
+          "conclusion": "Yes. The move-in contract with the complex's management agency counts as establishment approval, and completion reports go to the management agency.",
           "branches": [
             {
-              "when": "If you sign or amend an occupancy contract",
+              "when": "If you sign or amend an move-in contract",
               "then": "No separate establishment approval is needed."
             },
             {
@@ -2870,14 +2870,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "File the business start report with the management agency, which must decide within 10 days."
             }
           ],
-          "docs": "Occupancy contract, completion or business start report, building use approval",
+          "docs": "Move-in contract, completion or business start report, building use approval",
           "period": "Management agency decision on the start report within 10 days",
           "href": "/en/blog/factory-registration-application-guide"
         },
         {
           "id": "sit-fac-certificate",
-          "q": "A buyer or bank asks for our factory registration certificate — how do we get one?",
-          "conclusion": "A manufacturer operating in a registered factory can request a factory registration certificate from the city, county or district office or the management agency.",
+          "q": "A buyer or bank asks for our factory registration certificate (공장등록증명서) — how do we get one?",
+          "conclusion": "A manufacturer operating in a registered factory can request a factory registration certificate from the city/county/district office or the management agency.",
           "branches": [
             {
               "when": "If you are the manufacturer in the registered factory",
@@ -2895,7 +2895,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-certificate-online",
           "q": "Can we get or check a factory registration certificate online?",
-          "conclusion": "Yes. Through the online factory establishment support system you can obtain certificates, including for factories outside your local area.",
+          "conclusion": "Yes. Through the Factory-On online support system (공장설립온라인지원시스템) you can obtain certificates, including for factories outside your local area.",
           "branches": [
             {
               "when": "If the factory is registered",
@@ -2917,14 +2917,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "If only registered details change (for example, products or equipment)",
-              "then": "File a change registration within 2 months."
+              "then": "File a factory change registration (공장 변경등록) within 2 months."
             },
             {
               "when": "If you expand or change the business type of a factory of 500 square metres or more",
               "then": "Obtain approval for the change before building."
             },
             {
-              "when": "If you are in an industrial complex and amend your occupancy contract",
+              "when": "If you are in an industrial complex and amend your move-in contract",
               "then": "That amendment counts as the change registration application."
             }
           ],
@@ -2953,7 +2953,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-documents",
           "q": "What documents are needed to register a factory in South Korea?",
-          "conclusion": "The core set is the approval (or occupancy contract), the completion report, building use approval, proof that manufacturing equipment is installed, a business plan, and land and building documents.",
+          "conclusion": "The core set is the approval (or move-in contract), the completion report, building use approval, proof that manufacturing equipment is installed, a business plan, and land and building documents.",
           "branches": [
             {
               "when": "If the factory needed establishment approval",
@@ -2965,10 +2965,10 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "If the factory is in an industrial complex",
-              "then": "Use the occupancy contract and file with the management agency."
+              "then": "Use the move-in contract and file with the management agency."
             }
           ],
-          "docs": "Approval certificate or occupancy contract, completion report, building use approval, equipment installation proof, business plan, registry extracts or lease",
+          "docs": "Approval certificate or move-in contract, completion report, building use approval, equipment installation proof, business plan, registry extracts or lease",
           "period": "Completion report within 2 months of use approval and installation",
           "href": "/en/blog/factory-registration-application-guide"
         }
@@ -2977,7 +2977,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
   },
   "zh": {
     "nonprofit": {
-      "answer": "韩国的非营利社团法人，是以学术、宗教、慈善、技艺、社交等非营利事业为目的、由会员组成的团体，依《民法》取得主管机关设立许可后，在主事务所所在地办理设立登记即告成立。发起人向与法人目的事业对口的中央部门或受委托的市·道提出申请，主管机关原则上在收到申请后20日内审查并书面通知结果；获批后3周内须办理设立登记。实务中从事前沟通到登记完成，通常需要2~4个月。",
+      "answer": "韩国的非营利社团法人（비영리사단법인），是以学术、宗教、慈善、技艺、社交等非营利事业为目的、由会员组成的团体，依《民法》（민법）取得主管部门（주무관청）设立许可（설립허가）后，在主事务所所在地办理设立登记（설립등기）即告成立。发起人向与法人目的事业对口的中央部门或受委托的市·道（시·도）提出申请，主管部门原则上在收到申请后20日内审查并书面通知结果；获批后3周内须办理设立登记。实务中从事前沟通到登记完成，通常需要2~4个月。",
       "chooser": [
         {
           "label": "我是外国人，想在韩国成立协会",
@@ -3008,7 +3008,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-foreign-founder",
           "q": "我是在韩国生活的中国人，想和朋友成立一个非营利协会，外国人可以当发起人吗？",
-          "conclusion": "可以。《民法》没有限制发起人或会员的国籍，关键在于目的事业是否为非营利、能否实际开展，以及是否有足够的财产与计划。",
+          "conclusion": "可以。《民法》（민법）没有限制发起人或会员的国籍，关键在于目的事业是否为非营利、能否实际开展，以及是否有足够的财产与计划。",
           "branches": [
             {
               "when": "发起人均为个人",
@@ -3016,32 +3016,32 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "发起人中有外国法人",
-              "then": "需提交该法人的名称、主事务所、代表人信息及章程，以及法人作出设立决定的证明；境外文件实务中需公证、认证并附韩文译本。"
+              "then": "需提交该法人的名称、主事务所、代表人信息及章程（정관），以及法人作出设立决定的证明；境外文件实务中需公证、认证并附韩文译本。"
             },
             {
               "when": "理事、监事中有外国人",
-              "then": "法律未设国籍限制，但主管机关会审查运营能力，建议同时安排能对接韩文行政沟通的人选。"
+              "then": "法律未设国籍限制，但主管部门（주무관청）会审查运营能力，建议同时安排能对接韩文行政沟通的人选。"
             }
           ],
-          "docs": "设立许可申请书、发起人资料、章程、财产目录及证明、事业计划与预算、拟任人员资料与就任承诺书、创立大会会议记录",
-          "period": "主管机关审查原则上20日内；实务中含事前沟通与补正通常2~4个月",
+          "docs": "设立许可（설립허가）申请书、发起人资料、章程、财产目录及证明、事业计划与预算、拟任人员资料与就任承诺书、创立大会会议记录（창립총회 회의록）",
+          "period": "主管部门审查原则上20日内；实务中含事前沟通与补正通常2~4个月",
           "href": "/zh/blog/nonprofit-corporation-establishment-guide"
         },
         {
           "id": "sit-np-how-many-members",
           "q": "想在韩国注册非营利组织，最少需要几个人？",
-          "conclusion": "《民法》没有规定社团法人的最少会员人数，但社团本质上需要多名会员，章程必须写明会员资格的取得与丧失。",
+          "conclusion": "《民法》没有规定社团法人（비영리사단법인）的最少会员人数，但社团本质上需要多名会员，章程必须写明会员资格的取得与丧失。",
           "branches": [
             {
-              "when": "主管机关的内部审查标准有人数要求",
-              "then": "按该主管机关的标准准备发起人和会员名单，申请前应先确认。"
+              "when": "主管部门的内部审查标准有人数要求",
+              "then": "按该主管部门的标准准备发起人和会员名单，申请前应先确认。"
             },
             {
               "when": "会员全部退出",
               "then": "会员不存在时会成为解散事由，因此运营中也要维持会员。"
             },
             {
-              "when": "属于学术、慈善、奖学等公益法人",
+              "when": "属于学术、慈善、奖学等公益法人（공익법인）",
               "then": "还适用公益法人相关法律，理事须5~15名、监事2名。"
             }
           ],
@@ -3052,7 +3052,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-requirements",
           "q": "想把现有的同乡会、行业交流会升级为社团法人，需要满足哪些条件？",
-          "conclusion": "需要满足四点：目的为非营利事业；章程载明法定必备事项；有足以开展事业的财产和计划；取得主管机关许可。",
+          "conclusion": "需要满足四点：目的为非营利事业；章程载明法定必备事项；有足以开展事业的财产和计划；取得主管部门许可。",
           "branches": [
             {
               "when": "以会员间营利分配为目的",
@@ -3060,7 +3060,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "名称与已有法人相同",
-              "then": "主管机关不会许可，申请前需检索名称。"
+              "then": "主管部门不会许可，申请前需检索名称。"
             },
             {
               "when": "财产、财务基础不足",
@@ -3074,7 +3074,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-which-ministry",
           "q": "我们的协会做中韩文化交流，应该向哪个部门申请？",
-          "conclusion": "主管机关按目的事业确定，而不是按地区。文化交流类通常对应文化体育观光部或受委托的市·道，需先与对口部门确认。",
+          "conclusion": "主管部门按目的事业确定，而不是按地区。文化交流类通常对应文化体育观光部或受委托的市·道（시·도），需先与对口部门确认。",
           "branches": [
             {
               "when": "活动范围覆盖全国",
@@ -3086,7 +3086,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "目的事业横跨多个领域",
-              "then": "以主要目的事业确定主管机关，必要时先与多个部门沟通。"
+              "then": "以主要目的事业确定主管部门，必要时先与多个部门沟通。"
             }
           ],
           "docs": "事业计划概要、章程草案（用于事前沟通）",
@@ -3096,14 +3096,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-how-long",
           "q": "从准备到拿到法人登记，整个过程大概要多久？",
-          "conclusion": "法定的是各阶段期限：主管机关审查原则上20日内，获批后3周内登记。实务中加上事前沟通与补正，通常2~4个月。",
+          "conclusion": "法定的是各阶段期限：主管部门审查原则上20日内，获批后3周内登记。实务中加上事前沟通与补正，通常2~4个月。",
           "branches": [
             {
-              "when": "材料齐全、主管机关沟通顺利",
+              "when": "材料齐全、主管部门沟通顺利",
               "then": "可在较短时间内完成，主要取决于创立大会和财产证明的准备。"
             },
             {
-              "when": "主管机关要求补正或附加条件",
+              "when": "主管部门要求补正或附加条件",
               "then": "补正时间不计入审查期限，整体会延长。"
             },
             {
@@ -3117,8 +3117,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-np-association-vs-foundation",
-          "q": "我们是会员组织，还是用一笔资金做公益，应该设社团法人还是财团法人？",
-          "conclusion": "以“人”的集合为基础选社团法人；以出捐的“财产”为基础选财团法人。两者都需主管机关许可后登记。",
+          "q": "我们是会员组织，还是用一笔资金做公益，应该设社团法人还是财团法人（재단법인）？",
+          "conclusion": "以“人”的集合为基础选社团法人；以出捐的“财产”为基础选财团法人。两者都需主管部门许可后登记。",
           "branches": [
             {
               "when": "由会员组成、通过总会决定事项",
@@ -3130,7 +3130,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "两者特点都有",
-              "then": "按主要运营方式选择，并在事前沟通时与主管机关确认。"
+              "then": "按主要运营方式选择，并在事前沟通时与主管部门确认。"
             }
           ],
           "docs": "章程、财产目录（财团法人须区分基本财产与运营财产）、事业计划",
@@ -3140,7 +3140,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-chinese-chamber",
           "q": "中国企业想在韩国牵头成立行业协会或商会，具体流程是怎样的？",
-          "conclusion": "流程与一般社团法人相同：确定主管机关 → 章程与创立大会 → 设立许可 → 财产转移 → 设立登记。企业作为发起人时，需另附法人资料。",
+          "conclusion": "流程与一般社团法人相同：确定主管部门 → 章程与创立大会 → 设立许可 → 财产转移 → 设立登记（설립등기）。企业作为发起人时，需另附法人资料。",
           "branches": [
             {
               "when": "发起企业是韩国法人或在韩分支",
@@ -3148,7 +3148,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "发起企业是中国境内公司",
-              "then": "需准备营业执照、章程和设立决议，办理公证、海牙认证（附加证明书）并附韩文译本。"
+              "then": "需准备营业执照、章程和设立决议，办理公证、海牙认证（아포스티유，附加证明书）并附韩文译本。"
             },
             {
               "when": "协会以会员间营利为主要目的",
@@ -3161,12 +3161,12 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-np-unique-number",
-          "q": "社团法人登记完成后，还要办什么“固有号码证”吗？",
-          "conclusion": "需要。设立登记后，除了在10日内向主管机关报告外，实务中还要向税务署申请固有编号，用于开立账户、收取会费和捐款等。",
+          "q": "社团法人登记完成后，还要办什么“固有编号证（고유번호증）”吗？",
+          "conclusion": "需要。设立登记后，除了在10日内向主管部门报告外，实务中还要向税务署（세무서）申请固有编号证，用于开立账户、收取会费和捐款等。",
           "branches": [
             {
               "when": "只开展目的事业",
-              "then": "通常申请固有编号即可。"
+              "then": "通常申请固有编号证即可。"
             },
             {
               "when": "同时开展收益事业",
@@ -3174,7 +3174,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             }
           ],
           "docs": "法人登记事项证明、设立许可证、章程、代表人身份证明",
-          "period": "法定：登记后10日内报告主管机关；固有编号实务中数日内",
+          "period": "法定：登记后10日内报告主管部门；固有编号证实务中数日内",
           "href": "/zh/blog/nonprofit-corporation-establishment-guide"
         },
         {
@@ -3184,7 +3184,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "缺少必备事项",
-              "then": "主管机关会要求补正，甚至不予许可。"
+              "then": "主管部门会要求补正，甚至不予许可。"
             },
             {
               "when": "理事代表权有限制",
@@ -3192,7 +3192,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "日后要修改章程",
-              "then": "需总会员三分之二以上同意（章程另有规定除外）并取得主管机关许可。"
+              "then": "需总会员三分之二以上同意（章程另有规定除外）并取得主管部门许可。"
             }
           ],
           "docs": "韩文章程、创立大会会议记录",
@@ -3201,12 +3201,12 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-np-after-registration",
-          "q": "法人成立后每年要向主管机关报告什么？不报告会怎样？",
-          "conclusion": "主管机关对法人事务进行检查和监督。每个事业年度结束后需在规定期限内提交下年度事业计划和预算、本年度事业实绩和决算、财产目录。",
+          "q": "法人成立后每年要向主管部门报告什么？不报告会怎样？",
+          "conclusion": "主管部门对法人事务进行检查和监督。每个事业年度结束后需在规定期限内提交下年度事业计划和预算、本年度事业实绩和决算、财产目录。",
           "branches": [
             {
               "when": "从事目的以外的事业或违反许可条件",
-              "then": "主管机关可以撤销设立许可。"
+              "then": "主管部门可以撤销设立许可。"
             },
             {
               "when": "理事、章程、事务所发生变更",
@@ -3214,7 +3214,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "决定解散",
-              "then": "完成解散登记后向主管机关申报，剩余财产按章程或法律规定归属。"
+              "then": "完成解散登记后向主管部门申报，剩余财产按章程或法律规定归属。"
             }
           ],
           "docs": "事业计划与预算、事业实绩与决算、财产目录",
@@ -3224,7 +3224,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "telecom-business": {
-      "answer": "韩国的增值电信业务，是指基础电信（电话、网络接入等）以外、通过电信设施提供的各类服务，App市场、在线视频等都在此列。经营者依《电气通信事业法》向科学技术信息通信部申报（实际由中央电波管理所受理），申报对国籍没有限制，通过互联网提供服务且资本金在1亿韩元以下的视为已申报。短信群发、网盘·P2P等特殊类型需登记，法定在申请后30日内发证。",
+      "answer": "韩国的增值电信业务（부가통신사업），是指基础电信（기간통신，电话、网络接入等）以外、通过电信设施提供的各类服务，App市场、在线视频等都在此列。经营者依《电气通信事业法》（전기통신사업법）向科学技术信息通信部（과학기술정보통신부）申报（实际由中央电波管理所（중앙전파관리소）受理），申报对国籍没有限制，通过互联网提供服务且资本金在1亿韩元以下的视为已申报（신고 의제）。短信群发、网盘·P2P等特殊类型（특수한 유형의 부가통신사업）需登记，法定在申请后30日内发证。",
       "chooser": [
         {
           "label": "中国App上线韩国，没有韩国公司",
@@ -3254,12 +3254,12 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-tel-foreign-app",
-          "q": "中国社交App准备上线韩国，在韩国没有公司，需要先办增值电信申报吗？",
+          "q": "中国社交App准备上线韩国，在韩国没有公司，需要先办增值电信业务申报（부가통신사업 신고）吗？",
           "conclusion": "向韩国用户提供增值电信服务的，原则上应申报，申报对国籍没有限制，可以用外国法人名义办理。",
           "branches": [
             {
               "when": "通过互联网提供、资本金1亿韩元以下",
-              "then": "视为已申报，但仍是电信经营者，需遵守相关义务；资本金如何换算建议提前与受理机关确认。"
+              "then": "视为已申报（신고 의제），但仍是电信经营者，需遵守相关义务；资本金如何换算建议提前与受理机关确认。"
             },
             {
               "when": "资本金超过1亿韩元",
@@ -3267,7 +3267,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "App还处理用户位置信息",
-              "then": "另需判断是否属于位置服务申报对象。"
+              "then": "另需判断是否属于位置服务事业申报（위치기반서비스사업 신고）对象。"
             }
           ],
           "docs": "申报书、个人信息保护措施明细（处理个人信息时）、本国法人证明（公证、认证与韩文译本）",
@@ -3284,7 +3284,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "须自事由发生之日起1个月内正式申报。"
             },
             {
-              "when": "属于短信群发、网盘·P2P等特殊类型",
+              "when": "属于短信群发、网盘·P2P等特殊类型（특수한 유형의 부가통신사업）",
               "then": "不论资本金都要登记。"
             },
             {
@@ -3298,8 +3298,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-tel-icp-compare",
-          "q": "韩国的增值电信申报，和中国的ICP经营许可证是一回事吗？",
-          "conclusion": "不是一回事。韩国一般增值电信采用“申报”制，向科学技术信息通信部提交申报书后发放申报证明，不是逐项审批的经营许可证。",
+          "q": "韩国的增值电信业务申报，和中国的ICP经营许可证是一回事吗？",
+          "conclusion": "不是一回事。韩国一般增值电信采用“申报”制，向科学技术信息通信部（과학기술정보통신부）提交申报书后发放申报证明，不是逐项审批的经营许可证。",
           "branches": [
             {
               "when": "一般增值电信业务",
@@ -3310,7 +3310,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "登记制，需要技术措施计划、人员设施、财务健全性等，自申请日起30日内发证。"
             },
             {
-              "when": "基础电信业务",
+              "when": "基础电信业务（기간통신사업）",
               "then": "登记制，且只有法人可以登记。"
             }
           ],
@@ -3320,23 +3320,23 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-tel-domestic-agent",
-          "q": "我们的App在韩国用户很多，听说外国公司要指定韩国代理人，是真的吗？",
-          "conclusion": "只有满足规模标准时才需要。在韩国没有住所或营业所、且同时满足日均韩国用户100万人以上与韩国流量占比1%以上的增值电信经营者，须书面指定境内代理人。",
+          "q": "我们的App在韩国用户很多，听说外国公司要指定韩国国内代理人（국내대리인），是真的吗？",
+          "conclusion": "只有满足规模标准时才需要。在韩国没有住所或营业所、且同时满足日均韩国用户100万人以上与韩国流量占比1%以上的增值电信经营者，须书面指定国内代理人。",
           "branches": [
             {
               "when": "同时满足两项标准",
-              "then": "须指定境内代理人，负责用户诉求处理、资料提交、用户保护等事务；有在韩子公司等时应从中指定。"
+              "then": "须指定国内代理人，负责用户诉求处理、资料提交、用户保护等事务；有在韩子公司等时应从中指定。"
             },
             {
               "when": "未达到标准",
-              "then": "《电气通信事业法》不要求指定，但《个人信息保护法》等其他法律的境内代理人标准需另行判断。"
+              "then": "《电气通信事业法》（전기통신사업법）不要求指定，但《个人信息保护法》（개인정보 보호법）等其他法律的国内代理人标准需另行判断。"
             },
             {
               "when": "已在韩国设有营业所",
-              "then": "不适用该境内代理人制度。"
+              "then": "不适用该国内代理人制度。"
             }
           ],
-          "docs": "境内代理人书面指定文件、代理人联系方式",
+          "docs": "国内代理人书面指定文件、代理人联系方式",
           "period": "标准按前一年末前3个月日均数据判断",
           "href": "/zh/services/telecom-business"
         },
@@ -3347,7 +3347,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "对外提供短信群发服务",
-              "then": "须具备防止主叫号码伪造的技术措施计划、人员与设施、财务健全性、事业计划书和用户保护计划，适用者还须取得传送资格认证，然后登记。"
+              "then": "须具备防止主叫号码伪造的技术措施计划、人员与设施、财务健全性、事业计划书和用户保护计划（이용자 보호계획），适用者还须取得传送资格认证，然后登记。"
             },
             {
               "when": "只是自家App发送验证码，委托已登记服务商发送",
@@ -3365,7 +3365,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-ott-live",
           "q": "我们要在韩国上线视频直播或在线视频App，除了增值电信还要注意什么？",
-          "conclusion": "在线视频服务属于增值电信，需要申报；受理机关在受理后3个月内会把申报事实通报文化体育观光部和放送媒体通信委员会。",
+          "conclusion": "在线视频服务属于增值电信，需要申报；受理机关在受理后3个月内会把申报事实通报文化体育观光部（문화체육관광부）和放送媒体通信委员会（방송미디어통신위원회）。",
           "branches": [
             {
               "when": "资本金1亿韩元以下且通过互联网提供",
@@ -3373,7 +3373,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "用户与流量达到规模标准",
-              "then": "还要履行服务稳定性措施义务，在韩无营业所时须指定境内代理人。"
+              "then": "还要履行服务稳定性措施义务，在韩无营业所时须指定国内代理人。"
             },
             {
               "when": "内容中有影像分级等要求",
@@ -3391,7 +3391,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "branches": [
             {
               "when": "在韩设立的法人、外资持股在限制内",
-              "then": "可以准备事业计划书、章程、股东名册、使用条款、设备明细后申请登记。"
+              "then": "可以准备事业计划书、章程、股东名册、使用条款（이용약관）、设备明细后申请登记。"
             },
             {
               "when": "外国人为最大股东且持股15%以上的法人",
@@ -3453,29 +3453,29 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-device-app",
           "q": "我们卖智能手表和配套App到韩国，电信申报之外还需要哪些认证或申报？",
-          "conclusion": "通常要分三条线检查：设备本身的KC电波认证、App的增值电信申报（或视为申报）、处理用户位置时的位置服务申报。",
+          "conclusion": "通常要分三条线检查：设备本身的KC电波认证、App的增值电信业务申报（或视为申报）、处理用户位置时的位置服务事业申报。",
           "branches": [
             {
               "when": "设备有无线通信功能",
-              "then": "进口或销售前需办理KC适合性评估。"
+              "then": "进口或销售前需办理KC适合性评估（적합성평가）。"
             },
             {
               "when": "App处理个人位置信息",
-              "then": "需向放送媒体通信委员会申报位置服务。"
+              "then": "需向放送媒体通信委员会申报位置服务事业。"
             },
             {
               "when": "App只做设备控制，不收集位置",
-              "then": "通常只需确认增值电信申报与个人信息合规。"
+              "then": "通常只需确认增值电信业务申报与个人信息合规。"
             }
           ],
-          "docs": "KC认证资料、增值电信申报书、位置服务申报材料（如适用）",
+          "docs": "KC认证资料、增值电信业务申报书、位置服务事业申报材料（如适用）",
           "period": "各手续并行，实务中合计约1~3个月",
           "href": "/zh/services/kc-radio-certification"
         }
       ]
     },
     "location-based-service": {
-      "answer": "在韩国以个人位置信息为对象提供位置服务的经营者，须依《位置信息保护及利用法》向放送媒体通信委员会申报，没有韩国法人的外国企业也可以用外国法人名义申报。申报材料为事业计划书、主要设备及其设置场所证明、位置信息保护措施证明，外国法人的本国文件需公证、海牙认证（或领事认证）并附韩文译本。实务中材料齐全后约2~4周，外国法人连同境外文件准备约4~8周。",
+      "answer": "在韩国以个人位置信息（개인위치정보）为对象提供位置服务（위치기반서비스）的经营者，须依《位置信息保护及利用等相关法律》（위치정보의 보호 및 이용 등에 관한 법률，简称《位置信息法》）向放送媒体通信委员会（방송미디어통신위원회）申报，没有韩国法人的外国企业也可以用外国法人名义申报。申报材料为事业计划书、主要设备及其设置场所证明、位置信息保护措施（위치정보 보호조치）证明，外国法人的本国文件需公证、海牙认证（아포스티유）或领事认证并附韩文译本。实务中材料齐全后约2~4周，外国法人连同境外文件准备约4~8周。",
       "chooser": [
         {
           "label": "没有韩国法人，能否直接申报",
@@ -3505,8 +3505,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-lbs-no-korean-entity",
-          "q": "我们是中国的出海App公司，在韩国没有法人和分公司，能用中国公司的名义申报位置服务吗？",
-          "conclusion": "可以。《位置信息法》适用于向韩国用户提供个人位置服务的经营者，不要求先设韩国法人，可以用外国法人名义申报。",
+          "q": "我们是中国的出海App公司，在韩国没有法人和分公司，能用中国公司的名义申报位置服务（위치기반서비스）吗？",
+          "conclusion": "可以。《位置信息法》（위치정보법，全称《位置信息保护及利用等相关法律》）适用于向韩国用户提供个人位置服务的经营者，不要求先设韩国法人，可以用外国法人名义申报。",
           "branches": [
             {
               "when": "没有韩国法人、分支",
@@ -3517,8 +3517,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "以韩国子公司名义申报，可直接使用韩国登记资料。"
             },
             {
-              "when": "属于小商工人或一人创业企业",
-              "then": "可先开业，在开业后1个月内简易申报；外国法人是否符合这些身份需另行确认。"
+              "when": "属于小商工人（소상공인）或一人创业企业（1인 창조기업）",
+              "then": "可先开业，在开业后1个月内事后申报；外国法人是否符合这些身份需另行确认。"
             }
           ],
           "docs": "位置服务事业申报书、事业计划书、主要设备及设置场所证明、保护措施证明、法人登记文件的公证认证件与韩文译本",
@@ -3527,7 +3527,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-apostille",
-          "q": "申报需要的中国公司文件，要办海牙认证还是领事认证？翻译怎么处理？",
+          "q": "申报需要的中国公司文件，要办海牙认证（아포스티유）还是领事认证？翻译怎么处理？",
           "conclusion": "中国内地公司办理海牙认证（附加证明书）即可。中国自2023年11月7日起适用《取消外国公文书认证要求的公约》，韩国也是缔约国，送韩文件不再需要领事认证。",
           "branches": [
             {
@@ -3549,7 +3549,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-domestic-agent",
-          "q": "外国公司申报韩国位置服务，是不是必须指定韩国国内代理人？",
+          "q": "外国公司申报韩国位置服务，是不是必须指定韩国国内代理人（국내대리인）？",
           "conclusion": "《位置信息法》没有国内代理人义务。法定申报材料只有事业计划书、设备证明和保护措施证明，不包括代理人指定文件。",
           "branches": [
             {
@@ -3557,11 +3557,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "实务中通常委托韩国当地代理人对接受理、补正和通知，以免错过期限。"
             },
             {
-              "when": "用户与流量达到《电气通信事业法》标准",
-              "then": "须依该法另行指定境内代理人。"
+              "when": "用户与流量达到《电气通信事业法》（전기통신사업법）标准",
+              "then": "须依该法另行指定国内代理人。"
             },
             {
-              "when": "达到《个人信息保护法》的境内代理人标准",
+              "when": "达到《个人信息保护法》（개인정보 보호법）的国内代理人标准",
               "then": "须依该法另行指定，需按其标准单独判断。"
             }
           ],
@@ -3571,8 +3571,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-report-vs-register",
-          "q": "韩国的“位置服务申报”和“位置信息事业登记”有什么区别？我们属于哪一种？",
-          "conclusion": "看您是“采集并提供位置信息”，还是“利用位置信息为用户提供服务”。前者是位置信息事业，须登记且只限法人；后者是位置服务事业，申报即可。",
+          "q": "韩国的“位置服务事业申报”和“个人位置信息事业（개인위치정보사업）登记”有什么区别？我们属于哪一种？",
+          "conclusion": "看您是“采集并提供位置信息”，还是“利用位置信息为用户提供服务”。前者是个人位置信息事业，须登记且只限法人；后者是位置服务事业，申报即可。",
           "branches": [
             {
               "when": "自己采集个人位置并提供给其他企业",
@@ -3580,11 +3580,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "利用系统或第三方定位结果为用户提供服务",
-              "then": "属于位置服务事业，向放送媒体通信委员会申报。"
+              "then": "属于位置服务事业，向放送媒体通信委员会（방송미디어통신위원회）申报。"
             },
             {
               "when": "两者都做",
-              "then": "登记位置信息事业时一并附上位置服务申报材料，即视为已申报。"
+              "then": "登记个人位置信息事业时一并附上位置服务事业申报材料，即视为已申报。"
             }
           ],
           "docs": "登记：登记申请书、事业计划书、股东名册（设立中法人）；申报：申报书、事业计划书、设备证明、保护措施证明",
@@ -3593,7 +3593,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-which-agency",
-          "q": "位置服务申报到底向哪个机关提交？以前看到的是放送通信委员会。",
+          "q": "位置服务事业申报到底向哪个机关提交？以前看到的是放送通信委员会（방송통신위원회）。",
           "conclusion": "向放送媒体通信委员会提交。2025年10月1日起，《位置信息法》中的主管机关由放送通信委员会改为放送媒体通信委员会。",
           "branches": [
             {
@@ -3601,8 +3601,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "以书面或电子文件向放送媒体通信委员会提交。"
             },
             {
-              "when": "小商工人等简易申报",
-              "then": "可提交简易申报书，或在委员会指定的信息系统中录入。"
+              "when": "小商工人等事后申报",
+              "then": "可提交小商工人等的位置服务事业申报书，或在委员会指定的信息系统中录入。"
             },
             {
               "when": "在首尔还是其他地区",
@@ -3616,7 +3616,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-lbs-tracker-device",
           "q": "我们向韩国销售GPS定位器、儿童手表，配套App显示佩戴者位置，需要申报吗？",
-          "conclusion": "需要重点检查。显示特定佩戴者位置属于处理个人位置信息，提供该服务的经营者一般为位置服务申报对象。",
+          "conclusion": "需要重点检查。显示特定佩戴者位置属于处理个人位置信息（개인위치정보），提供该服务的经营者一般为位置服务事业申报对象。",
           "branches": [
             {
               "when": "由您的公司运营App和服务器",
@@ -3631,7 +3631,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "取得同意的方式有特别规定，需在条款和流程中反映。"
             }
           ],
-          "docs": "申报材料、使用条款、同意流程说明、设备KC认证资料",
+          "docs": "申报材料、使用条款（이용약관）、同意流程说明、设备KC认证资料",
           "period": "申报实务中2~4周；KC认证另计",
           "href": "/zh/services/kc-radio-certification"
         },
@@ -3646,7 +3646,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "采集骑手位置并提供给商家或第三方",
-              "then": "提供范围要写入条款并取得同意，必要时检查是否属于位置信息事业。"
+              "then": "提供范围要写入条款并取得同意，必要时检查是否属于个人位置信息事业。"
             },
             {
               "when": "只在App内用地图显示门店位置",
@@ -3672,7 +3672,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "条款未公开、处理方针不完整",
-              "then": "另可处过怠金。"
+              "then": "另可处罚款（과태료）。"
             }
           ],
           "docs": "补办时为全部申报材料",
@@ -3682,11 +3682,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-lbs-small-business",
           "q": "我们公司很小，听说韩国的小企业可以先上线再申报？",
-          "conclusion": "符合韩国小商工人或一人创业企业标准的，可先不申报直接开展业务，但持续经营超过1个月的，须在开业后1个月内简易申报。",
+          "conclusion": "符合韩国小商工人或一人创业企业标准的，可先不申报直接开展业务，但持续经营超过1个月的，须在开业后1个月内事后申报。",
           "branches": [
             {
               "when": "符合小商工人、一人创业企业标准",
-              "then": "提交身份证明材料和简易申报书，申报商号、主事务所所在地、事业内容。"
+              "then": "提交身份证明材料和小商工人等的位置服务事业申报书，申报商号、主事务所所在地、事业内容。"
             },
             {
               "when": "之后不再符合该标准",
@@ -3697,7 +3697,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "是否符合韩国小商工人等标准需个案确认，多数情况下按正式申报准备。"
             }
           ],
-          "docs": "简易申报书、小商工人等身份证明",
+          "docs": "小商工人等的位置服务事业申报书、小商工人等身份证明",
           "period": "法定：开业后1个月内；不再符合后1个月内",
           "href": "/zh/blog/location-based-service-domestic-registration-guide"
         },
@@ -3726,7 +3726,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "在韩国销售化妆品，必须由向辖区地方食品医药品安全厅注册的“化妆品责任销售业者”负责品质与安全管理，进口化妆品也不例外；境外品牌通常在韩设立法人注册，或交由已注册的韩国业者进口销售。一般化妆品没有逐个产品的上市审批，但美白、抗皱、防晒等功能性化妆品须按品目通过食品医药品安全处（MFDS）审查或提交报告。实务中责任销售业注册约2~4周，功能性审查另计。",
+      "answer": "在韩国销售化妆品，必须由向辖区地方食品医药品安全厅（지방식품의약품안전청）注册的“化妆品责任销售业者（화장품책임판매업자）”负责质量与安全管理，进口化妆品也不例外；境外品牌通常在韩设立法人注册，或交由已注册的韩国业者进口销售。一般化妆品没有逐个产品的上市审批，但美白、抗皱、防晒等功能性化妆品（기능성화장품）须按品目通过食品医药品安全处（식품의약품안전처，MFDS）审查或提交报告。实务中责任销售业注册约2~4周，功能性审查另计。",
       "chooser": [
         {
           "label": "中国品牌，没有韩国公司",
@@ -3757,29 +3757,29 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-china-brand-no-entity",
           "q": "我们是中国化妆品品牌，在韩国没有公司，怎样才能把产品卖进韩国？",
-          "conclusion": "必须有一家在韩国注册的化妆品责任销售业者负责进口和销售。境外公司本身无法用境外地址注册，因此需要自己在韩设立法人注册，或与已注册的韩国业者合作。",
+          "conclusion": "必须有一家在韩国注册的化妆品责任销售业者（화장품책임판매업자）负责进口和销售。境外公司本身无法用境外地址注册，因此需要自己在韩设立法人注册，或与已注册的韩国业者合作。",
           "branches": [
             {
               "when": "计划长期经营、自己掌握渠道",
-              "then": "在韩设立法人，在营业所所在地注册责任销售业，并配备责任销售管理人。"
+              "then": "在韩设立法人，在营业所所在地注册责任销售业，并配备责任销售管理人（책임판매관리자）。"
             },
             {
               "when": "先试水市场",
-              "then": "委托已注册的韩国进口商以其名义进口销售，品牌方配合提供成分、制造与品质资料。"
+              "then": "委托已注册的韩国进口商以其名义进口销售，品牌方配合提供成分、制造与质量资料。"
             },
             {
               "when": "只通过跨境电商直邮给消费者自用",
               "then": "属于消费者个人海外直购，但面向韩国流通销售时仍需韩国责任销售业者。"
             }
           ],
-          "docs": "责任销售业注册申请书、品质与安全管理规定、责任销售管理人资格证明、法人登记资料",
+          "docs": "责任销售业注册申请书、质量与安全管理规定、责任销售管理人资格证明、法人登记资料",
           "period": "注册实务中约2~4周；含在韩设立法人约1~2个月",
           "href": "/zh/blog/cosmetics-import-sales-registration-guide"
         },
         {
           "id": "sit-cos-what-certification",
-          "q": "化妆品出口韩国需要做什么认证？是要拿MFDS认证吗？",
-          "conclusion": "一般化妆品在韩国没有逐个产品的上市认证。需要的是：韩国责任销售业者注册、成分符合韩国标准、上市前报告原料目录、韩文标示；功能性化妆品另需MFDS审查或报告。",
+          "q": "化妆品出口韩国需要做什么认证？是要拿MFDS（食品医药品安全处，식품의약품안전처）认证吗？",
+          "conclusion": "一般化妆品在韩国没有逐个产品的上市认证。需要的是：韩国责任销售业者注册、成分符合韩国标准、上市前报告原料目录（원료 목록）、韩文标示；功能性化妆品（기능성화장품）另需MFDS审查或报告。",
           "branches": [
             {
               "when": "普通保湿、清洁类产品",
@@ -3790,8 +3790,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "须按品目接受功能性化妆品审查或提交报告。"
             },
             {
-              "when": "产品可能属于医药外品（如部分漱口、除臭类）",
-              "then": "适用《药事法》，需另行办理许可或申报。"
+              "when": "产品可能属于医药外品（의약외품，如部分漱口、除臭类）",
+              "then": "适用《药事法》（약사법），需另行办理许可或申报。"
             }
           ],
           "docs": "成分表与配方、原料规格、韩文标签草案、功能性资料（如适用）",
@@ -3801,7 +3801,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-sale-certificate",
           "q": "韩国进口商让我们提供化妆品“自由销售证明”，这是做什么用的？",
-          "conclusion": "这是韩国进口方编制进口管理记录所需的“制造及销售证明”，用来证明产品在制造国合法制造、销售。",
+          "conclusion": "这是韩国进口方编制进口管理记录（수입관리기록서）所需的“制造及销售证明（제조 및 판매증명서）”，用来证明产品在制造国合法制造、销售。",
           "branches": [
             {
               "when": "能取得制造国的制造及销售证明",
@@ -3809,7 +3809,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "暂时无法取得",
-              "then": "满足经指定机构确认与已有证明产品相同、并经检验机构按品质标准检验等条件时可以省略，但需逐案确认。"
+              "then": "满足经指定机构确认与已有证明产品相同、并经检验机构按质量标准检验等条件时可以省略，但需逐案确认。"
             },
             {
               "when": "同一产品由多家进口商进口",
@@ -3867,11 +3867,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-korean-oem",
           "q": "我们想在韩国找代工厂（OEM）生产，用自己的品牌在韩国卖，需要注册制造业吗？",
-          "conclusion": "不需要。只委托已注册的韩国制造业者生产的品牌方，注册责任销售业即可销售；制造业注册由代工厂负责。",
+          "conclusion": "不需要。只委托已注册的韩国制造业者生产的品牌方，注册责任销售业即可销售；制造业注册（화장품제조업 등록）由代工厂负责。",
           "branches": [
             {
               "when": "完全委托代工",
-              "then": "注册责任销售业，与代工厂签订委托合同，保存产品标准书和品质管理记录。"
+              "then": "注册责任销售业，与代工厂签订委托合同，保存产品标准书和质量管理记录。"
             },
             {
               "when": "品牌方自己做一次包装或部分工序",
@@ -3889,7 +3889,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-manager",
           "q": "责任销售管理人需要什么资格？我们小公司的代表可以兼任吗？",
-          "conclusion": "须为医师、药师，理工类或化妆品相关专业学士以上，相关专业专科毕业且有1年以上制造或品质管理经验，或完成MFDS指定专业课程等人员。",
+          "conclusion": "须为医师、药师，理工类或化妆品相关专业学士以上，相关专业专科毕业且有1年以上制造或质量管理经验，或完成MFDS指定专业课程等人员。",
           "branches": [
             {
               "when": "常时员工10人以下、代表本人符合资格",
@@ -3911,7 +3911,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-batch-testing",
           "q": "从中国工厂进口的化妆品，每一批都要在韩国做检测吗？",
-          "conclusion": "原则上按批号做品质检验后才能流通。但制造企业的品质管理标准获得国家间互认，或经MFDS现场审核认定达到韩国优良化妆品制造管理标准水平的，可以用制造企业的检验报告代替。",
+          "conclusion": "原则上按批号做质量检验后才能流通。但制造企业的质量管理标准获得国家间互认，或经MFDS现场审核认定达到韩国CGMP（优秀化妆品制造及质量管理标准，우수화장품 제조 및 품질관리기준）水平的，可以用制造企业的检验报告代替。",
           "branches": [
             {
               "when": "中国工厂未获认定",
@@ -3954,8 +3954,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-safety-assessment",
-          "q": "听说韩国要实行化妆品安全性评价，什么时候开始、我们要准备什么？",
-          "conclusion": "责任销售业者在销售前按产品编制安全性评价资料、经安全性评价人审核后保存的制度，自2028年1月1日起分阶段实施。",
+          "q": "听说韩国要实行化妆品安全性评估（화장품 안전성 평가），什么时候开始、我们要准备什么？",
+          "conclusion": "责任销售业者在销售前按产品编制安全性评估资料、经安全性评估人员（안전성 평가자）审核后保存的制度，自2028年1月1日起分阶段实施。",
           "branches": [
             {
               "when": "年生产、进口额10亿韩元以上或新注册业者",
@@ -3970,14 +3970,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "现在就须按产品编制并保存安全性资料。"
             }
           ],
-          "docs": "产品与制造方法说明、安全性评价资料、功效证明资料",
+          "docs": "产品与制造方法说明、安全性评估资料、功效证明资料",
           "period": "按上述分阶段日期",
           "href": "/zh/blog/cosmetics-responsible-distributor"
         }
       ]
     },
     "health-food": {
-      "answer": "保健品在韩国称为“健康功能食品”。从中国进口销售，需由韩国进口商先向地方食品医药品安全厅办理进口食品等进口销售业营业登记（处理期限3日），并在进口申报前为中国工厂办理海外制造业所注册，之后按品目进口申报，经书面、现场或精密检验后通关。所用原料未被MFDS公布的，还需先取得功能性原料认定。",
+      "answer": "保健品在韩国称为“健康功能食品（건강기능식품）”。从中国进口销售，需由韩国进口商先向地方食品医药品安全厅（지방식품의약품안전청）办理进口食品等进口·销售业营业登记（수입식품등 수입·판매업 영업등록；处理期限3日），并在进口申报前为中国工厂办理海外制造业所注册（해외제조업소 등록），之后按品目进口申报，经书面、现场或精密检验后通关。所用原料未被MFDS（食品医药品安全处，식품의약품안전처）公布的，还需先取得功能性原料认定（기능성 원료 인정）。",
       "chooser": [
         {
           "label": "中国保健品能否出口韩国",
@@ -4008,15 +4008,15 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-can-export",
           "q": "我们在中国生产保健品，可以出口到韩国当保健品卖吗？",
-          "conclusion": "可以，但要满足三件事：由韩国进口商办理进口销售业营业登记并进口申报；中国工厂完成海外制造业所注册；产品符合韩国健康功能食品的原料与规格标准。",
+          "conclusion": "可以，但要满足三件事：由韩国进口商办理进口·销售业营业登记（수입식품등 수입·판매업 영업등록）并进口申报；中国工厂完成海外制造业所注册（해외제조업소 등록）；产品符合韩国健康功能食品（건강기능식품）的原料与规格标准。",
           "branches": [
             {
-              "when": "所用原料都在MFDS公布清单内且符合规格",
+              "when": "所用原料都在MFDS（食品医药品安全处，식품의약품안전처）公布清单内且符合规格",
               "then": "可直接进入进口申报和检验。"
             },
             {
               "when": "含未公布的功能性原料",
-              "then": "须先申请功能性原料认定，取得后才能作为健康功能食品进口。"
+              "then": "须先申请功能性原料认定（기능성 원료 인정），取得后才能作为健康功能食品进口。"
             },
             {
               "when": "产品不符合健康功能食品标准",
@@ -4030,7 +4030,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-overseas-factory",
           "q": "韩国进口商说我们的工厂要先做“海外制造企业注册”，怎么办理？",
-          "conclusion": "进口申报前，须由韩国进口商或工厂方向MFDS（实际受理为食品安全信息院）办理海外制造业所注册，否则进口申报可能被拒绝受理。",
+          "conclusion": "进口申报前，须由韩国进口商或工厂方向MFDS（实际受理为食品安全信息院（식품안전정보원））办理海外制造业所注册，否则进口申报可能被拒绝受理。",
           "branches": [
             {
               "when": "工厂在中国已取得食品生产许可等",
@@ -4052,7 +4052,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-unlisted-ingredient",
           "q": "我们的产品用了一种中国常用、但韩国清单里没有的原料，还能进口吗？",
-          "conclusion": "以健康功能食品名义进口前，须先取得功能性原料认定。MFDS未公布的原料，由制造业者或进口销售业者等提交安全性与功能性资料申请认定。",
+          "conclusion": "以健康功能食品名义进口前，须先取得功能性原料认定。MFDS未公布的原料，由制造业者或进口·销售业者等提交安全性与功能性资料申请认定。",
           "branches": [
             {
               "when": "原料已被公布（公告型）",
@@ -4074,7 +4074,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-private-label",
           "q": "我们想在韩国用自己的品牌卖保健品，交给韩国工厂代工，需要办什么？",
-          "conclusion": "委托韩国健康功能食品专门制造业者生产、以自有商标销售的，属于流通专门销售业，须向营业所所在地市·郡·区申报。",
+          "conclusion": "委托韩国健康功能食品专门制造业者生产、以自有商标销售的，属于流通专门销售业（건강기능식품유통전문판매업），须向营业所所在地市长·郡守·区厅长（시장·군수·구청장）申报。",
           "branches": [
             {
               "when": "在韩法人自有品牌委托代工",
@@ -4082,14 +4082,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "自建工厂生产",
-              "then": "须取得健康功能食品制造业许可，并按品目办理品目制造申报。"
+              "then": "须取得健康功能食品制造业许可，并按品目办理品目制造申报（품목제조신고）。"
             },
             {
               "when": "仅在药店销售",
               "then": "不需申报销售业。"
             }
           ],
-          "docs": "营业申报书、安全卫生教育证明、委托生产合同、仓储设施使用合同（如适用）",
+          "docs": "营业申报书、安全卫生教育（안전위생교육）证明、委托生产合同、仓储设施使用合同（如适用）",
           "period": "申报后3日内通知是否受理，逾期未通知视为受理",
           "href": "/zh/blog/health-functional-food-sales-registration-guide"
         },
@@ -4118,7 +4118,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-failed-inspection",
           "q": "如果进口检验不合格，货物怎么处理？",
-          "conclusion": "地方食品医药品安全厅会向进口申报人发出不合格通知，申报人须在1年内选择退运或转运他国、经批准转为饲料、用于公共非食用目的，或废弃。",
+          "conclusion": "地方食品医药品安全厅（지방식품의약품안전청）会向进口申报人发出不合格通知，申报人须在1年内选择退运或转运他国、经批准转为饲料、用于公共非食用目的，或废弃。",
           "branches": [
             {
               "when": "问题可以通过标示更正解决",
@@ -4162,7 +4162,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-raw-material",
           "q": "我们是韩国食品工厂，要从中国进口功能性原料自用，也要办进口营业登记吗？",
-          "conclusion": "已依《食品卫生法》《健康功能食品法》等取得许可或登记的特定营业者，进口自家产品的制造用原料时，视为已办理进口销售业营业登记。",
+          "conclusion": "已依《食品卫生法》（식품위생법）《健康功能食品法》（건강기능식품에 관한 법률）等取得许可或登记的特定营业者，进口自家产品的制造用原料时，视为已办理进口·销售业营业登记。",
           "branches": [
             {
               "when": "用于自家产品制造",
@@ -4183,7 +4183,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-hf-education",
-          "q": "办理进口销售业营业登记前，要先上卫生教育课吗？",
+          "q": "办理进口·销售业营业登记前，要先上卫生教育课吗？",
           "conclusion": "要。拟经营进口食品营业的，须事先接受进口食品卫生管理等方面的教育；营业者此后每年须接受3小时卫生教育。",
           "branches": [
             {
@@ -4206,7 +4206,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-cross-border",
           "q": "我们想通过跨境电商把保健品直接卖给韩国消费者，也要办这些手续吗？",
-          "conclusion": "个人为自用从海外网店直接购买的，不同于以销售为目的的进口；而在韩国以销售为目的进货或流通的，须由办理进口销售业登记的业者进口申报。",
+          "conclusion": "个人为自用从海外网店直接购买的，不同于以销售为目的的进口；而在韩国以销售为目的进货或流通的，须由办理进口·销售业登记的业者进口申报。",
           "branches": [
             {
               "when": "消费者个人海外直购自用",
@@ -4214,11 +4214,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "由韩国业者接受消费者委托代购进口",
-              "then": "该业者须登记为进口食品等网络购买代行业。"
+              "then": "该业者须登记为进口食品等网络购买代行业（수입식품등 인터넷 구매대행업）。"
             },
             {
               "when": "入驻韩国本土电商、从韩国仓库发货",
-              "then": "属于在韩流通销售，须由韩国进口销售业者正式进口。"
+              "then": "属于在韩流通销售，须由韩国进口·销售业者正式进口。"
             }
           ],
           "docs": "视模式而定：营业登记与进口申报材料",
@@ -4228,7 +4228,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "factory": {
-      "answer": "韩国的工厂登记，是从事制造业的工厂依《产业集聚活性化及工厂设立法》记入工厂登记簿的程序。工厂建筑面积500平方米以上的新设、扩建或变更业种，须先取得市长、郡守、区厅长的工厂设立批准（产业园区以入驻合同代替），建成并安装设备后2个月内竣工申报即完成登记；不足500平方米的工厂，所有人或占有人也可以申请登记。批准原则上在20日内决定。",
+      "answer": "韩国的工厂登记（공장등록），是从事制造业的工厂依《产业集聚活性化及工厂设立相关法律》（산업집적활성화 및 공장설립에 관한 법률）记入工厂登记簿（공장등록대장）的程序。工厂建筑面积（공장건축면적）500平方米以上的新设、扩建或变更业种，须先取得市长·郡守·区厅长（시장·군수·구청장）的工厂设立批准（공장설립등의 승인；产业园区以入驻合同代替），建成并安装设备后2个月内完工申报（공장설립등의 완료신고）即完成登记；不足500平方米的工厂，所有人或占有人也可以申请登记。批准原则上在20日内决定。",
       "chooser": [
         {
           "label": "外资企业能否办工厂登记",
@@ -4258,7 +4258,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-fac-foreign-company",
-          "q": "中国企业想在韩国设立工厂，外资公司可以办理工厂登记吗？",
+          "q": "中国企业想在韩国设立工厂，外资公司可以办理工厂登记（공장등록）吗？",
           "conclusion": "可以。工厂登记法规没有国籍限制，在韩设立的外资法人与韩国企业按同样程序办理。关键在于是否属于制造业、选址是否允许建厂。",
           "branches": [
             {
@@ -4280,16 +4280,16 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-fac-500sqm",
-          "q": "我们的工厂建筑面积超过500平方米，在韩国必须先取得设厂批准吗？",
-          "conclusion": "必须。工厂建筑面积500平方米以上的新设、扩建或变更业种，须先取得市长、郡守、区厅长的工厂设立批准，变更已批准事项时也一样。",
+          "q": "我们的工厂建筑面积（공장건축면적）超过500平方米，在韩国必须先取得工厂设立批准（공장설립등의 승인）吗？",
+          "conclusion": "必须。工厂建筑面积500平方米以上的新设、扩建或变更业种，须先取得市长·郡守·区厅长（시장·군수·구청장）的工厂设立批准，变更已批准事项时也一样。",
           "branches": [
             {
-              "when": "入驻产业园区并签订入驻合同",
+              "when": "入驻产业园区（산업단지）并签订入驻合同（입주계약）",
               "then": "视为已取得批准，不必另行申请。"
             },
             {
               "when": "不足500平方米",
-              "then": "不必取得批准，但需要许可拟制时也可以申请。"
+              "then": "不必取得批准，但需要许可拟制（인허가 의제）时也可以申请。"
             },
             {
               "when": "未经批准就新设或扩建",
@@ -4325,11 +4325,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-industrial-complex",
           "q": "我们打算入驻韩国的产业园区，工厂设立流程有什么不同？",
-          "conclusion": "与园区管理机关签订入驻合同即视为取得工厂设立批准，竣工申报也向管理机关提交。",
+          "conclusion": "与园区管理机关（관리기관）签订入驻合同即视为取得工厂设立批准，完工申报（공장설립등의 완료신고）也向管理机关提交。",
           "branches": [
             {
               "when": "产业园区内",
-              "then": "与管理机关签订入驻合同，建成后向管理机关竣工申报，并符合标准建筑面积率。"
+              "then": "与管理机关签订入驻合同，建成后向管理机关完工申报，并符合标准建筑面积率。"
             },
             {
               "when": "自由贸易区等",
@@ -4340,13 +4340,13 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "向市·郡·区申请批准。"
             }
           ],
-          "docs": "入驻合同申请材料、事业计划书、竣工申报书",
-          "period": "竣工申报：设备安装完成后2个月内",
+          "docs": "入驻合同申请材料、事业计划书、完工申报书",
+          "period": "完工申报：设备安装完成后2个月内",
           "href": "/zh/blog/manufacturing-business-registration-procedure"
         },
         {
           "id": "sit-fac-knowledge-center",
-          "q": "在韩国的知识产业中心租一个单元做小型制造，可以办工厂登记吗？",
+          "q": "在韩国的知识产业中心（지식산업센터）租一个单元做小型制造，可以办工厂登记吗？",
           "conclusion": "可以按工厂登记程序处理，但受理机关和要件要看该知识产业中心是否位于产业园区。",
           "branches": [
             {
@@ -4368,30 +4368,30 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-fac-completion-report",
-          "q": "工厂建好、设备装完后，竣工申报有期限吗？",
-          "conclusion": "有。须自最终建筑物使用批准并完成机械设备安装之日起2个月内竣工申报，受理后记入工厂登记簿。",
+          "q": "工厂建好、设备装完后，完工申报有期限吗？",
+          "conclusion": "有。须自最终建筑物使用批准（사용승인）并完成机械设备安装之日起2个月内完工申报，受理后记入工厂登记簿（공장등록대장）。",
           "branches": [
             {
               "when": "工厂设立批准对象",
-              "then": "向市长、郡守、区厅长竣工申报。"
+              "then": "向市长·郡守·区厅长完工申报。"
             },
             {
               "when": "产业园区入驻企业",
-              "then": "向管理机关竣工申报。"
+              "then": "向管理机关完工申报。"
             },
             {
               "when": "未申报就开工运转",
-              "then": "可处200万韩元以下过怠金。"
+              "then": "可处200万韩元以下罚款（과태료）。"
             }
           ],
-          "docs": "竣工申报书、建筑物使用批准书、设备安装完毕证明",
+          "docs": "完工申报书、建筑物使用批准书、设备安装完毕证明",
           "period": "法定：2个月内",
           "href": "/zh/blog/factory-registration-application-guide"
         },
         {
           "id": "sit-fac-partial-operation",
           "q": "工厂还没全部建完，想先让部分生产线投产，可以吗？",
-          "conclusion": "可以，但须先申请部分运转登记。取得批准的工厂在全部建成前部分运转的，必须办理工厂登记。",
+          "conclusion": "可以，但须先申请部分运转登记（부분가동 등록）。取得批准的工厂在全部建成前部分运转的，必须办理工厂登记。",
           "branches": [
             {
               "when": "厂房已取得使用批准、设备未装",
@@ -4403,7 +4403,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "未登记就部分运转",
-              "then": "可处200万韩元以下过怠金。"
+              "then": "可处200万韩元以下罚款。"
             }
           ],
           "docs": "工厂登记申请书、使用批准书、已安装设备证明",
@@ -4413,7 +4413,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-no-registration",
           "q": "规模小的工厂不办工厂登记，会有什么问题？",
-          "conclusion": "不足500平方米、未申请批准的工厂，登记是可选的；但未登记就无法取得工厂登记证明书，也无法获得登记时的许可拟制。",
+          "conclusion": "不足500平方米、未申请批准的工厂，登记是可选的；但未登记就无法取得工厂登记证明书（공장등록증명서），也无法获得登记时的许可拟制。",
           "branches": [
             {
               "when": "不足500平方米",
@@ -4421,7 +4421,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "500平方米以上",
-              "then": "批准与竣工申报是义务，竣工申报受理后即登记。"
+              "then": "批准与完工申报是义务，完工申报受理后即登记。"
             },
             {
               "when": "需要以工厂身份办理其他手续",
@@ -4435,7 +4435,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-certificate",
           "q": "韩国客户或银行要我们提供“工厂登记证明书”，在哪里开？",
-          "conclusion": "已登记工厂的制造业经营者，可以向市长、郡守、区厅长或管理机关申请工厂登记证明书；所有人、占有人等利害关系人可以申请工厂登记簿副本。",
+          "conclusion": "已登记工厂的制造业经营者，可以向市长·郡守·区厅长或管理机关申请工厂登记证明书；所有人、占有人等利害关系人可以申请工厂登记簿副本。",
           "branches": [
             {
               "when": "在辖区内申请",
@@ -4443,10 +4443,10 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "工厂在其他地区",
-              "then": "通过工厂设立在线支援系统，也可以申请辖区外工厂的证明书。"
+              "then": "通过工厂设立在线支援系统（공장설립온라인지원시스템），也可以申请辖区外工厂的证明书。"
             },
             {
-              "when": "登记事项已变更但未办变更登记",
+              "when": "登记事项已变更但未办变更登记（변경등록）",
               "then": "须先在2个月内办理变更登记。"
             }
           ],
@@ -4457,11 +4457,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-change",
           "q": "工厂登记后，我们换了生产品目、增加设备，要办什么手续？",
-          "conclusion": "工厂登记簿所载事项发生变更的，须在2个月内向市长、郡守或区厅长申请变更登记；属于扩建或变更业种的，还可能需要先取得变更批准。",
+          "conclusion": "工厂登记簿所载事项发生变更的，须在2个月内向市长·郡守·区厅长申请变更登记；属于扩建或变更业种的，还可能需要先取得变更批准。",
           "branches": [
             {
               "when": "扩建后达到批准对象",
-              "then": "先取得批准，完成后竣工申报。"
+              "then": "先取得批准，完成后完工申报。"
             },
             {
               "when": "产业园区企业完成后申请入驻合同变更",
@@ -4469,7 +4469,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "未办变更登记",
-              "then": "可处200万韩元以下过怠金。"
+              "then": "可处200万韩元以下罚款。"
             }
           ],
           "docs": "变更登记申请书、变更内容证明材料",
@@ -4481,7 +4481,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
   },
   "ja": {
     "nonprofit": {
-      "answer": "韓国の社団法人（非営利社団法人）は、学術・文化交流・慈善など営利を目的としない事業のために集まった団体が、その事業を所管する主務官庁の設立許可を受け、主たる事務所の所在地で設立登記をすることで成立します。主務官庁の審査は、特別な事情がなければ多くの官庁で20日以内（官庁によっては14日以内）に行われ、許可を受けたら3週間以内に登記します。民法上、設立者や役員に国籍の制限はなく、日本人や日本企業も設立に参加できます。",
+      "answer": "韓国の社団法人（非営利社団法人・비영리사단법인）は、学術・文化交流・慈善など営利を目的としない事業のために集まった団体が、その事業を所管する主務官庁（주무관청）の設立許可（설립허가）を受け、主たる事務所の所在地で設立登記（설립등기）をすることで成立します。主務官庁の審査は、特別な事情がなければ多くの官庁で20日以内（官庁によっては14日以内）に行われ、許可を受けたら3週間以内に登記します。民法上、設立者や役員に国籍の制限はなく、日本人や日本企業も設立に参加できます。",
       "chooser": [
         {
           "label": "日本人が中心の団体をつくりたい",
@@ -4508,7 +4508,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-japanese-founders",
           "q": "韓国に住む日本人が中心になって社団法人をつくりたい。外国人だけでも設立できますか？",
-          "conclusion": "設立できます。民法には設立者や会員の国籍を制限する規定がなく、主務官庁の許可を受けて登記すれば、日本人が中心の団体でも社団法人になれます。審査されるのは国籍ではなく、目的事業の実現可能性と財政的な基礎です。",
+          "conclusion": "設立できます。民法には設立者や会員の国籍を制限する規定がなく、主務官庁（주무관청）の許可を受けて登記すれば、日本人が中心の団体でも社団法人になれます。審査されるのは国籍ではなく、目的事業の実現可能性と財政的な基礎です。",
           "branches": [
             {
               "when": "発起人・役員が韓国に外国人登録をしている場合",
@@ -4523,7 +4523,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "非営利法人の対象にならないため、株式会社など別の形態を検討します。"
             }
           ],
-          "docs": "設立許可申請書、定款、発起人・役員就任予定者の人的事項と就任承諾書、財産目録と証明書類、事業計画・収支予算書、創立総会議事録",
+          "docs": "設立許可（설립허가）申請書、定款（정관）、発起人・役員就任予定者の人的事項と就任承諾書、財産目録と証明書類、事業計画・収支予算書、創立総会議事録（창립총회 회의록）",
           "period": "主務官庁の審査は特別な事情がなければ20日以内（官庁により14日以内）。実務上は事前相談と書類準備を含めて数か月を見込みます",
           "href": "/ja/blog/nonprofit-corporation-establishment-guide"
         },
@@ -4608,7 +4608,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "人より財産が中心の場合",
-              "then": "社団法人ではなく、財産を出して設立する財団法人の方が合うことがあります。"
+              "then": "社団法人ではなく、財産を出して設立する財団法人（재단법인）の方が合うことがあります。"
             }
           ],
           "docs": "会員構成がわかる資料、定款、事業計画・収支予算書、創立総会議事録",
@@ -4618,7 +4618,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-np-timeline",
           "q": "設立許可から登記まで、どれくらいの期間がかかりますか？期限はありますか？",
-          "conclusion": "主務官庁の審査は特別な事情がなければ多くの官庁で20日以内（官庁により14日以内）です。許可後は財産を移転して1か月以内に証明を提出し、許可から3週間以内に設立登記、登記から10日以内に主務官庁へ報告します。",
+          "conclusion": "主務官庁の審査は特別な事情がなければ多くの官庁で20日以内（官庁により14日以内）です。許可後は財産を移転して1か月以内に証明を提出し、許可から3週間以内に設立登記（설립등기）、登記から10日以内に主務官庁へ報告します。",
           "branches": [
             {
               "when": "審査中に追加資料を求められた場合",
@@ -4728,7 +4728,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "telecom-business": {
-      "answer": "韓国で他人の通信を媒介するアプリやオンラインプラットフォーム、動画配信などのサービスを提供する事業は、電気通信事業法上の「付加通信事業」に当たり、科学技術情報通信部長官に申告します（受付・処理は中央電波管理所）。インターネットで提供する資本金1億ウォン以下の事業者は申告したものとみなされ、ウェブハード・P2PやSMS発送サービスなど特殊な類型は登録制、回線を提供する基幹通信事業は法人だけが登録できます。申告すると申告証明書が交付され、申告日から1年以内に事業を始めます。",
+      "answer": "韓国で他人の通信を媒介するアプリやオンラインプラットフォーム、動画配信などのサービスを提供する事業は、電気通信事業法（전기통신사업법）上の「付加通信事業」（부가통신사업）に当たり、科学技術情報通信部（과학기술정보통신부）長官に申告します（受付・処理は中央電波管理所・중앙전파관리소）。インターネットで提供する資本金1億ウォン以下の事業者は申告したものとみなされ、ウェブハード・P2PやSMS送信サービスなど特殊な類型の付加通信事業（특수한 유형의 부가통신사업）は登録制、回線を提供する基幹通信事業（기간통신사업）は法人だけが登録できます。申告すると申告証明書が交付され、申告日から1年以内に事業を始めます。",
       "chooser": [
         {
           "label": "日本からアプリ・SaaSを提供する",
@@ -4758,7 +4758,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-tel-app-from-japan",
-          "q": "日本からアプリやSaaSを韓国のユーザーに提供するだけでも、付加通信事業の申告が必要ですか？",
+          "q": "日本からアプリやSaaSを韓国のユーザーに提供するだけでも、付加通信事業の申告（부가통신사업 신고）が必要ですか？",
           "conclusion": "ユーザー同士のメッセージ・投稿・取引の仲介など、他人の通信を媒介するサービスを韓国で提供するなら付加通信事業に当たり、申告またはみなし申告の対象になります。まずアプリの機能ごとに、他人の通信を媒介するものかどうかを整理します。",
           "branches": [
             {
@@ -4770,8 +4770,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "申告したものとみなされますが、電気通信事業者としての義務は同じように負います。"
             },
             {
-              "when": "SMS発送やファイル共有（ウェブハード・P2P）の機能がある場合",
-              "then": "特殊な類型の付加通信事業として、申告ではなく登録が必要です。"
+              "when": "SMS送信やファイル共有（ウェブハード・P2P）の機能がある場合",
+              "then": "特殊な類型の付加通信事業（특수한 유형의 부가통신사업）として、申告ではなく登録が必要です。"
             }
           ],
           "docs": "付加通信事業申告書、通信網構成図（新しい類型の役務で求められた場合）、個人情報保護措置構築明細書（個人情報を扱う場合）",
@@ -4793,7 +4793,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "国内利用者が非常に多い場合",
-              "then": "1日平均100万人以上・トラフィック1%以上の両方に当たれば国内代理人の指定が必要です。"
+              "then": "1日平均100万人以上・トラフィック1%以上の両方に当たれば国内代理人（국내대리인）の指定が必要です。"
             }
           ],
           "docs": "付加通信事業申告書、日本の登記事項証明書（公証・アポスティーユ・韓国語翻訳）、個人情報保護措置構築明細書（該当時）",
@@ -4814,7 +4814,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "超えた日から1か月以内に申告します。"
             },
             {
-              "when": "SMS発送・ウェブハードなど特殊な類型の場合",
+              "when": "SMS送信・ウェブハードなど特殊な類型の場合",
               "then": "資本金に関係なく登録申請をします。"
             }
           ],
@@ -4825,7 +4825,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-domestic-agent",
           "q": "韓国で国内代理人を置かなければならないのは、どんな場合ですか？",
-          "conclusion": "電気通信事業法では、韓国に住所・営業所がない付加通信事業者のうち、前年末基準で直前3か月の1日平均国内利用者100万人以上、かつ国内トラフィックの1%以上という基準に両方当たる事業者が、国内代理人を書面で指定します。",
+          "conclusion": "電気通信事業法（전기통신사업법）では、韓国に住所・営業所がない付加通信事業者のうち、前年末基準で直前3か月の1日平均国内利用者100万人以上、かつ国内トラフィックの1%以上という基準に両方当たる事業者が、国内代理人を書面で指定します。",
           "branches": [
             {
               "when": "両方の基準に当たる場合",
@@ -4847,7 +4847,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-sms",
           "q": "韓国向けにSMSの一斉送信や認証SMSのサービスを提供したい。申告で足りますか？",
-          "conclusion": "SMS発送システムを通信事業者の設備に直接・間接に接続して送信するサービスは「特殊な類型の付加通信役務」に当たり、申告ではなく登録が必要です。発信番号の偽装を防ぐ技術的措置の計画、人員・物的施設、財務健全性などを備えます。",
+          "conclusion": "SMS送信システムを通信事業者の設備に直接・間接に接続して送信するサービスは「特殊な類型の付加通信役務」に当たり、申告ではなく登録が必要です。発信番号の偽装を防ぐ技術的措置の計画、人員・物的施設、財務健全性などを備えます。",
           "branches": [
             {
               "when": "自社システムから通信事業者の設備に接続して送る場合",
@@ -4869,7 +4869,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-ott",
           "q": "動画配信（OTT）サービスを韓国で始める場合、通信事業の手続きはどうなりますか？",
-          "conclusion": "オンライン動画サービスは電気通信事業法で付加通信役務と定義されており、付加通信事業の申告（またはみなし申告）の対象です。申告を受けた科学技術情報通信部は、3か月以内に文化体育観光部と放送メディア通信委員会にその事実を通知します。",
+          "conclusion": "オンライン動画サービスは電気通信事業法で付加通信役務と定義されており、付加通信事業の申告（またはみなし申告）の対象です。申告を受けた科学技術情報通信部（과학기술정보통신부）は、3か月以内に文化体育観光部と放送メディア通信委員会（방송미디어통신위원회）にその事実を通知します。",
           "branches": [
             {
               "when": "インターネット提供で資本金1億ウォン以下の場合",
@@ -4891,7 +4891,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-tel-app-market",
           "q": "アプリマーケット（アプリストア）を韓国で運営する場合、追加の義務はありますか？",
-          "conclusion": "モバイルコンテンツの登録・販売と購入を仲介するアプリマーケット事業者は付加通信事業者で、申告に加えて、決済・返金に関する事項を利用約款に明記するなど利用者の被害を防ぐ義務があります。運営の実態調査を受けることもあります。",
+          "conclusion": "モバイルコンテンツの登録・販売と購入を仲介するアプリマーケット事業者は付加通信事業者で、申告に加えて、決済・返金に関する事項を利用約款（이용약관）に明記するなど利用者の被害を防ぐ義務があります。運営の実態調査を受けることもあります。",
           "branches": [
             {
               "when": "自社アプリ内の課金だけの場合",
@@ -4912,7 +4912,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-tel-basic-vs-value",
-          "q": "基幹通信事業と付加通信事業の違いは？回線やIoT通信を提供する場合は？",
+          "q": "基幹通信事業（기간통신사업）と付加通信事業の違いは？回線やIoT通信を提供する場合は？",
           "conclusion": "音声・データ・映像を内容や形を変えずに送受信させる役務や、そのための回線設備を賃貸する役務は基幹通信事業で、法人だけが科学技術情報通信部長官に登録できます。財政・技術的能力と利用者保護計画が必要で、登録証は申請日から30日以内に交付されます。",
           "branches": [
             {
@@ -4925,7 +4925,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "回線設備を持たない基幹通信事業の場合",
-              "then": "登録の処理は中央電波管理所が行います。"
+              "then": "登録の処理は中央電波管理所（중앙전파관리소）が行います。"
             }
           ],
           "docs": "基幹通信事業登録申請書、事業計画書、定款、株主名簿、利用約款・利用者保護機構の運営計画書、事業用主要設備の明細・設置場所・通信網構成図",
@@ -4979,7 +4979,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "location-based-service": {
-      "answer": "韓国の利用者に個人の位置情報を使うサービスを提供する事業者は、位置情報法上の「位置基盤サービス事業」として放送メディア通信委員会に申告（届出）します。韓国に法人や支店がない外国企業も自社名義で申告でき、位置情報法には国内代理人を置く義務がありません。日本の登記書類は公証・アポスティーユと韓国語翻訳を付けて準備し、実務上は書類が揃ってから2〜4週間、日本側の準備を含めると4〜8週間を見込みます。",
+      "answer": "韓国の利用者に個人の位置情報を使うサービスを提供する事業者は、位置情報の保護及び利用等に関する法律（位置情報法）上の「位置情報サービス事業」（위치기반서비스사업）として放送メディア通信委員会（방송미디어통신위원회）に申告（届出）します。韓国に法人や支店がない外国企業も自社名義で申告でき、位置情報法には国内代理人（국내대리인）を置く義務がありません。日本の登記書類は公証・アポスティーユと韓国語翻訳を付けて準備し、実務上は書類が揃ってから2〜4週間、日本側の準備を含めると4〜8週間を見込みます。",
       "chooser": [
         {
           "label": "韓国法人がない",
@@ -5009,8 +5009,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-lbs-foreign-no-entity",
-          "q": "韓国法人のない日本企業の名義で、位置基盤サービス事業の申告はできますか？",
-          "conclusion": "できます。位置情報法は申告者の国籍や韓国法人の有無を要件にしておらず、韓国の利用者に個人位置情報を使うサービスを提供する外国企業は、日本法人の名義で申告します。",
+          "q": "韓国法人のない日本企業の名義で、位置情報サービス事業の申告（위치기반서비스사업 신고）はできますか？",
+          "conclusion": "できます。位置情報の保護及び利用等に関する法律（位置情報法）は申告者の国籍や韓国法人の有無を要件にしておらず、韓国の利用者に個人位置情報（개인위치정보）を使うサービスを提供する外国企業は、日本法人の名義で申告します。",
           "branches": [
             {
               "when": "日本本社がサービスを運営する場合",
@@ -5025,7 +5025,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "韓国の利用者に提供しないなら、韓国での申告の要否を個別に検討します。"
             }
           ],
-          "docs": "位置基盤サービス事業申告書、事業計画書、主要設備の内容・設置場所がわかる書類、保護措置の証明書類、登記書類（公証・アポスティーユ・韓国語翻訳）",
+          "docs": "位置情報サービス事業申告書、事業計画書、主要設備の内容・設置場所がわかる書類、保護措置の証明書類、登記書類（公証・アポスティーユ・韓国語翻訳）",
           "period": "実務上、書類完備から2〜4週間、日本側の書類準備を含めて4〜8週間",
           "href": "/ja/blog/location-based-service-business-registration-foreign-company"
         },
@@ -5053,7 +5053,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-domestic-agent",
-          "q": "位置情報法では、韓国に国内代理人を置く義務がありますか？",
+          "q": "位置情報法では、韓国に国内代理人（국내대리인）を置く義務がありますか？",
           "conclusion": "位置情報法には国内代理人の指定義務を定めた規定がありません。ただし受付や補完要求の連絡を受けるために、実務上は韓国の代理人を立てて申告することが多く、他の法律の国内代理人基準は別に確認します。",
           "branches": [
             {
@@ -5075,20 +5075,20 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-report-vs-register",
-          "q": "位置情報事業の「登録」と位置基盤サービス事業の「申告」は、何が違うのですか？",
-          "conclusion": "位置情報を自ら収集して位置基盤サービス事業者に提供する「位置情報事業」のうち、個人位置情報を対象とするものは登録制で、法人であることや物的施設・保護措置が要件です。収集された位置情報を使ってサービスを提供する「位置基盤サービス事業」は申告制です。",
+          "q": "位置情報事業の「登録」と位置情報サービス事業の「申告」は、何が違うのですか？",
+          "conclusion": "位置情報を自ら収集して位置情報サービス事業者に提供する「位置情報事業」のうち、個人位置情報を対象とするものは登録制で、法人であることや物的施設・保護措置が要件です。収集された位置情報を使ってサービスを提供する「位置情報サービス事業」は申告制です。",
           "branches": [
             {
               "when": "自社で端末・アプリから位置を収集し、他社に提供する場合",
-              "then": "個人位置情報事業として登録が必要です。登録申請時に申告書類を添えれば位置基盤サービス事業の申告もしたものとみなされます。"
+              "then": "個人位置情報事業（개인위치정보사업）として登録が必要です。登録申請時に申告書類を添えれば位置情報サービス事業の申告もしたものとみなされます。"
             },
             {
               "when": "他社が収集した位置情報を使ってサービスを提供する場合",
-              "then": "位置基盤サービス事業の申告をします。"
+              "then": "位置情報サービス事業の申告をします。"
             },
             {
               "when": "個人でない物の位置情報だけを収集して提供する場合",
-              "then": "個人位置情報を対象としない位置情報事業として申告します。"
+              "then": "事物位置情報事業（사물위치정보사업）として申告します。"
             }
           ],
           "docs": "登録：登録申請書・法人書類・物的施設と保護措置の資料／申告：申告書・事業計画書・主要設備と保護措置の資料",
@@ -5097,8 +5097,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-where-file",
-          "q": "位置基盤サービス事業の申告書はどこに出しますか？オンラインでも出せますか？",
-          "conclusion": "申告先は放送メディア通信委員会で、受理の事務は地域の放送メディア通信事務所長に委任されています。申告書と添付書類は電子文書でも提出できます。",
+          "q": "位置情報サービス事業の申告書はどこに出しますか？オンラインでも出せますか？",
+          "conclusion": "申告先は放送メディア通信委員会（방송미디어통신위원회）で、受理の事務は地域の放送メディア通信事務所長に委任されています。申告書と添付書類は電子文書でも提出できます。",
           "branches": [
             {
               "when": "韓国法人の場合",
@@ -5109,18 +5109,18 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "本国の登記書類を公証・アポスティーユ・翻訳して添付します。"
             },
             {
-              "when": "韓国の小商工人などの小規模事業者の場合",
-              "then": "申告なしで始められ、事業開始から1か月を超えて続けるなら1か月以内に簡易な申告をします。"
+              "when": "韓国の小商工人（소상공인）などの小規模事業者の場合",
+              "then": "申告なしで始められ、事業開始から1か月を超えて続けるなら1か月以内に事後申告をします。"
             }
           ],
-          "docs": "位置基盤サービス事業申告書、事業計画書、主要設備の内容・設置場所の書類、保護措置の証明書類",
+          "docs": "位置情報サービス事業申告書、事業計画書、主要設備の内容・設置場所の書類、保護措置の証明書類",
           "period": "実務上、書類完備から2〜4週間",
           "href": "/ja/blog/location-based-service-domestic-registration-guide"
         },
         {
           "id": "sit-lbs-share-feature",
           "q": "日本で提供している位置共有アプリを、韓国のユーザーにも使えるようにしたい。何が必要ですか？",
-          "conclusion": "家族・友人との位置共有のように個人位置情報を使う機能を韓国の利用者に提供するなら、位置基盤サービス事業の申告が必要です。あわせて、利用約款の公開、個人位置情報主体の同意取得、利用・提供事実の記録といった運用を整えます。",
+          "conclusion": "家族・友人との位置共有のように個人位置情報を使う機能を韓国の利用者に提供するなら、位置情報サービス事業の申告が必要です。あわせて、利用約款の公開、個人位置情報主体の同意取得、利用・提供事実の記録といった運用を整えます。",
           "branches": [
             {
               "when": "韓国向けに機能を公開する前の場合",
@@ -5132,21 +5132,21 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "位置を自社で収集して他社にも提供する場合",
-              "then": "位置情報事業の登録対象になるかを確認します。"
+              "then": "個人位置情報事業の登録対象になるかを確認します。"
             }
           ],
-          "docs": "位置基盤サービス事業申告書、事業計画書、主要設備の書類、保護措置の証明書類、韓国語の利用約款案",
+          "docs": "位置情報サービス事業申告書、事業計画書、主要設備の書類、保護措置の証明書類、韓国語の利用約款案",
           "period": "実務上、書類完備から2〜4週間",
           "href": "/ja/blog/location-based-service-domestic-registration-guide"
         },
         {
           "id": "sit-lbs-things-only",
           "q": "車両や荷物など「物」の位置だけを扱うサービスでも申告が必要ですか？",
-          "conclusion": "申告が必要な位置基盤サービス事業は、個人位置情報を対象とするものに限られます。ただし物の位置でも、他の情報と容易に結びつけて特定の個人の位置がわかる場合は個人位置情報に当たります。",
+          "conclusion": "申告が必要な位置情報サービス事業は、個人位置情報を対象とするものに限られます。ただし物の位置でも、他の情報と容易に結びつけて特定の個人の位置がわかる場合は個人位置情報に当たります。",
           "branches": [
             {
               "when": "運転者や持ち主と結びつかない物の位置だけを使う場合",
-              "then": "位置基盤サービス事業の申告は不要になりえます。"
+              "then": "位置情報サービス事業の申告は不要になりえます。"
             },
             {
               "when": "車両位置から運転者の位置がわかる場合",
@@ -5154,7 +5154,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "物の位置を収集して他社に提供する場合",
-              "then": "個人位置情報を対象としない位置情報事業として申告します。"
+              "then": "事物位置情報事業として申告します。"
             }
           ],
           "docs": "サービスの仕様書（収集項目と結合する情報の一覧）、該当する場合は申告書類一式",
@@ -5163,7 +5163,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-lbs-timeline",
-          "q": "外国企業が位置基盤サービス事業の申告をすると、どれくらいの期間がかかりますか？",
+          "q": "外国企業が位置情報サービス事業の申告をすると、どれくらいの期間がかかりますか？",
           "conclusion": "行政庁は内容を検討し、法に適合すれば申告を受理します。実務上は書類が揃ってから2〜4週間、外国法人は本国書類の公証・アポスティーユと翻訳を含めて4〜8週間を見込みます。",
           "branches": [
             {
@@ -5186,15 +5186,15 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-lbs-penalty",
           "q": "申告をしないまま、韓国で位置情報を使うサービスを始めてしまいました。罰則はありますか？",
-          "conclusion": "申告をせずに位置基盤サービス事業を行うと、3年以下の懲役または3,000万ウォン以下の罰金の対象になりえます。登録をせずに個人位置情報を対象とする位置情報事業を行うと、5年以下の懲役または5,000万ウォン以下の罰金です。",
+          "conclusion": "申告をせずに位置情報サービス事業を行うと、3年以下の懲役または3,000万ウォン以下の罰金の対象になりえます。登録をせずに個人位置情報事業を行うと、5年以下の懲役または5,000万ウォン以下の罰金です。",
           "branches": [
             {
-              "when": "位置基盤サービス事業に当たる場合",
+              "when": "位置情報サービス事業に当たる場合",
               "then": "速やかに申告し、同意取得と記録の仕組みを整えます。"
             },
             {
               "when": "位置を自ら収集して他社に提供している場合",
-              "then": "位置情報事業の登録要件を確認して申請します。"
+              "then": "個人位置情報事業の登録要件を確認して申請します。"
             },
             {
               "when": "個人位置情報を使っていない場合",
@@ -5230,7 +5230,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "韓国で化粧品を輸入・流通・販売するには、その事業者が食品医薬品安全処（MFDS）に化粧品責任販売業を登録し、品質管理と販売後の安全管理を担う責任販売管理者を置きます。登録は韓国内の責任販売業所の所在地を管轄する地方食品医薬品安全庁に申請するため、韓国に拠点のない日本ブランドは、登録済みの韓国の輸入元と組むか、韓国法人を設けて自社で登録します。美白・シワ改善・紫外線遮断などをうたう機能性化粧品は、品目ごとに審査または報告が必要です。",
+      "answer": "韓国で化粧品を輸入・流通・販売するには、その事業者が食品医薬品安全処（MFDS）に化粧品責任販売業（화장품책임판매업）を登録し、品質管理と販売後の安全管理を担う責任販売管理者（책임판매관리자）を置きます。登録は韓国内の責任販売業所の所在地を管轄する地方食品医薬品安全庁（지방식품의약품안전청）に申請するため、韓国に拠点のない日本ブランドは、登録済みの韓国の輸入元と組むか、韓国法人を設けて自社で登録します。美白・シワ改善・紫外線遮断などをうたう機能性化粧品は、品目ごとに審査または報告（기능성화장품 심사·보고）が必要です。",
       "chooser": [
         {
           "label": "韓国に法人がない日本ブランド",
@@ -5261,7 +5261,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-japan-brand-no-entity",
           "q": "韓国に法人がない日本の化粧品ブランドが、韓国で販売を始めるにはどうすればよいですか？",
-          "conclusion": "韓国で輸入化粧品を流通・販売するには、輸入する事業者が化粧品責任販売業を登録している必要があります。登録は韓国内の責任販売業所を前提とするため、日本本社が直接登録するのではなく、登録済みの韓国の輸入元と組むか、韓国法人を設けて自社で登録します。",
+          "conclusion": "韓国で輸入化粧品を流通・販売するには、輸入する事業者が化粧品責任販売業（화장품책임판매업）を登録している必要があります。登録は韓国内の責任販売業所を前提とするため、日本本社が直接登録するのではなく、登録済みの韓国の輸入元と組むか、韓国法人を設けて自社で登録します。",
           "branches": [
             {
               "when": "韓国の輸入元（代理店）と組む場合",
@@ -5269,10 +5269,10 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "韓国法人を設けて自社で登録する場合",
-              "then": "責任販売管理者を置き、品質管理・安全管理の基準を整えて地方食品医薬品安全庁に登録します。"
+              "then": "責任販売管理者（책임판매관리자）を置き、品質管理・安全管理の基準を整えて地方食品医薬品安全庁（지방식품의약품안전청）に登録します。"
             },
             {
-              "when": "機能性化粧品が含まれる場合",
+              "when": "機能性化粧品（기능성화장품）が含まれる場合",
               "then": "どちらの方法でも、品目ごとの審査または報告が別に必要です。"
             }
           ],
@@ -5283,7 +5283,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-korea-oem",
           "q": "韓国のOEM工場で自社ブランドの化粧品を作り、韓国でも販売したい。必要な登録は？",
-          "conclusion": "製造を委託して自社の名義で流通・販売する会社は化粧品責任販売業の登録が必要ですが、製造業の登録はいりません。製造業の登録が必要なのは、実際に製造するOEM工場の側です。",
+          "conclusion": "製造を委託して自社の名義で流通・販売する会社は化粧品責任販売業の登録が必要ですが、化粧品製造業（화장품제조업）の登録はいりません。製造業の登録が必要なのは、実際に製造するOEM工場の側です。",
           "branches": [
             {
               "when": "韓国内でも販売する場合",
@@ -5291,7 +5291,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "日本向けにだけ輸出する場合",
-              "then": "日本側では薬機法上の手続きが必要になり、韓国側の手続きは誰が輸出者になるかで変わるため個別に確認します。"
+              "then": "韓国側の手続きは誰が輸出者になるかで変わるため、個別に確認します。"
             },
             {
               "when": "機能性化粧品として作る場合",
@@ -5305,7 +5305,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-ingredients",
           "q": "日本で使える成分が、韓国では使えないことはありますか？",
-          "conclusion": "あります。MFDSは化粧品に使えない原料を告示し、保存剤・色素・紫外線遮断剤など特に制限が必要な原料には使用基準を定めています。使用基準が告示されていない保存剤・色素・紫外線遮断剤は使えないため、輸出前に全成分を照合します。",
+          "conclusion": "あります。食品医薬品安全処（MFDS）は化粧品に使えない原料を告示し、保存剤・色素・紫外線遮断剤など特に制限が必要な原料には使用基準（원료 사용기준）を定めています。使用基準が告示されていない保存剤・色素・紫外線遮断剤は使えないため、輸出前に全成分を照合します。",
           "branches": [
             {
               "when": "使用禁止原料が含まれる場合",
@@ -5393,7 +5393,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-manufacture-korea",
           "q": "韓国に自社工場をつくって化粧品を製造する場合、どんな登録が必要ですか？",
-          "conclusion": "製造所の所在地を管轄する地方食品医薬品安全庁に化粧品製造業を登録し、施設基準を満たします。優秀化粧品製造管理基準（CGMP）は推奨制度で、義務ではありません。工場そのものについては工場登録の要否も確認します。",
+          "conclusion": "製造所の所在地を管轄する地方食品医薬品安全庁に化粧品製造業を登録し、施設基準を満たします。CGMP（優秀化粧品製造及び品質管理基準・우수화장품 제조 및 품질관리기준）は推奨制度で、義務ではありません。工場そのものについては工場登録の要否も確認します。",
           "branches": [
             {
               "when": "全工程を製造する場合",
@@ -5437,7 +5437,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-cos-kids-safety",
           "q": "ベビー用・子ども用として売る場合や、新しい安全性評価制度への対応は？",
-          "conclusion": "乳幼児・子どもが使える化粧品だと表示・広告するなら、責任販売業者は製品と製造方法の説明、安全性評価、効能の証明を含む製品別安全性資料を作成・保管します。販売前の安全性評価制度は2028年1月1日から業所規模と製品区分に応じて段階的に施行されます。",
+          "conclusion": "乳幼児・子どもが使える化粧品だと表示・広告するなら、責任販売業者は製品と製造方法の説明、安全性評価、効能の証明を含む製品別安全性資料を作成・保管します。販売前の安全性評価制度（화장품 안전성 평가）は2028年1月1日から業所規模と製品区分に応じて段階的に施行されます。",
           "branches": [
             {
               "when": "子ども用と表示・広告する場合",
@@ -5481,7 +5481,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "health-food": {
-      "answer": "韓国に健康機能食品を輸入して販売するには、輸入者が地方食品医薬品安全庁に輸入食品等輸入・販売業の営業登録をし（処理期間3日）、日本の製造工場を輸入申告の前に海外製造業所として登録したうえで、品目ごとに通関地の地方食品医薬品安全庁に輸入申告をします。健康機能食品として売れるのは、MFDSが告示した原料か個別に認定を受けた原料を使い、基準・規格に適合する製品です。韓国に拠点のない日本メーカーは、登録済みの韓国の輸入者と組むか、韓国法人を設けて自社で登録します。",
+      "answer": "韓国に健康機能食品（건강기능식품）を輸入して販売するには、輸入者が地方食品医薬品安全庁（지방식품의약품안전청）に輸入食品等輸入・販売業の営業登録（수입식품등 수입·판매업 영업등록）をし（処理期間3日）、日本の製造工場を輸入申告の前に海外製造業所として登録したうえで、品目ごとに通関地の地方食品医薬品安全庁に輸入申告をします。健康機能食品として売れるのは、食品医薬品安全処（MFDS）が告示した原料か個別に認定を受けた原料（個別認定型原料・개별인정형 원료）を使い、基準・規格に適合する製品です。韓国に拠点のない日本メーカーは、登録済みの韓国の輸入者と組むか、韓国法人を設けて自社で登録します。",
       "chooser": [
         {
           "label": "韓国に拠点がない日本メーカー",
@@ -5512,7 +5512,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-no-korean-base",
           "q": "韓国に拠点のない日本の健康食品メーカーが、韓国で販売するにはどうすればよいですか？",
-          "conclusion": "韓国で輸入して販売するには、輸入者が輸入食品等輸入・販売業の営業登録をしている必要があり、この登録は韓国内の営業所と施設を前提とします。日本のメーカーは、登録済みの韓国の輸入者と組むか、韓国法人を設けて自社で登録します。",
+          "conclusion": "韓国で輸入して販売するには、輸入者が輸入食品等輸入・販売業の営業登録（수입식품등 수입·판매업 영업등록）をしている必要があり、この登録は韓国内の営業所と施設を前提とします。日本のメーカーは、登録済みの韓国の輸入者と組むか、韓国法人を設けて自社で登録します。",
           "branches": [
             {
               "when": "韓国の輸入者と組む場合",
@@ -5524,7 +5524,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "国内で小売・通販もする場合",
-              "then": "営業所ごとに健康機能食品販売業の申告も必要です。"
+              "then": "営業所ごとに健康機能食品一般販売業（건강기능식품일반판매업）の申告も必要です。"
             }
           ],
           "docs": "営業登録申請書、衛生教育の履修証、海外製造業所の登録情報、製品の成分配合・製造方法の資料",
@@ -5534,7 +5534,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-overseas-facility",
           "q": "日本の工場は、韓国に何か登録しなければなりませんか？",
-          "conclusion": "はい。輸入申告の前に、日本の製造工場の名称・所在地・生産品目などをMFDSに「海外製造業所」として登録します。輸入者だけでなく工場の運営者自身も申請でき、登録の有効期間は2年です。",
+          "conclusion": "はい。輸入申告の前に、日本の製造工場の名称・所在地・生産品目などを食品医薬品安全処（MFDS）に「海外製造業所」として登録します。輸入者だけでなく工場の運営者自身も申請でき、登録の有効期間は2年です。",
           "branches": [
             {
               "when": "輸入者が登録する場合",
@@ -5556,7 +5556,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-japan-supplement",
           "q": "日本のサプリメントや機能性表示食品は、韓国で「健康機能食品」として売れますか？",
-          "conclusion": "そのままでは決まりません。韓国で健康機能食品として売れるのは、MFDSが告示した原料・成分か、個別に認定を受けた原料を使い、健康機能食品の基準・規格に適合する製品です。日本の機能性表示食品の届出は韓国では使えないため、原料の扱いを先に確認します。",
+          "conclusion": "そのままでは決まりません。韓国で健康機能食品として売れるのは、MFDSが告示した原料・成分か、個別に認定を受けた原料（個別認定型原料・개별인정형 원료）を使い、健康機能食品の基準・規格に適合する製品です。日本の機能性表示食品の届出は韓国では使えないため、原料の扱いを先に確認します。",
           "branches": [
             {
               "when": "原料がすべて告示原料の場合",
@@ -5564,7 +5564,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "告示されていない原料を含む場合",
-              "then": "機能性原料の認定を受けるか、処方を見直します。"
+              "then": "個別認定型原料としての認定を受けるか、処方を見直します。"
             },
             {
               "when": "健康機能食品として売らない場合",
@@ -5578,7 +5578,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-new-ingredient",
           "q": "韓国で告示されていない独自原料を、健康機能食品に使いたいのですが？",
-          "conclusion": "告示されていない原料・成分は、健康機能食品の製造業者、登録済みの輸入食品等輸入・販売業者などが安全性・機能性の資料を出して、MFDSから原料の認定を受ければ使えます。",
+          "conclusion": "告示されていない原料・成分は、健康機能食品の製造業者、登録済みの輸入食品等輸入・販売業者などが安全性・機能性の資料を出して、食品医薬品安全処から個別認定型原料の認定を受ければ使えます。",
           "branches": [
             {
               "when": "韓国の輸入者が申請する場合",
@@ -5600,7 +5600,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-import-declaration",
           "q": "輸入申告はいつ、どこに出しますか？検査はどうなりますか？",
-          "conclusion": "品目ごとに、通関地を管轄する地方食品医薬品安全庁に輸入申告書を提出します。到着予定日の5日前から事前に申告でき、書類・現場・精密・無作為標本のいずれかの検査を経て適合すれば、輸入申告確認証が発給されます。",
+          "conclusion": "品目ごとに、通関地を管轄する地方食品医薬品安全庁（지방식품의약품안전청）に輸入申告書を提出します。到着予定日の5日前から事前に申告でき、書類・現場・精密・無作為標本のいずれかの検査を経て適合すれば、輸入申告確認証が発給されます。",
           "branches": [
             {
               "when": "初めて輸入する品目の場合",
@@ -5644,7 +5644,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-online-sales",
           "q": "韓国の通販サイトで健康機能食品を販売するには、販売業の申告が必要ですか？",
-          "conclusion": "韓国内で健康機能食品を販売する事業者は、営業所ごとに施設を整え、所在地の市・郡・区に健康機能食品販売業の申告をします。行政庁は3日以内に受理の可否を通知し、販売業は毎年の衛生教育が必要です。",
+          "conclusion": "韓国内で健康機能食品を販売する事業者は、営業所ごとに施設を整え、所在地の市長・郡守・区庁長（시장·군수·구청장）に健康機能食品一般販売業の申告をします。行政庁は3日以内に受理の可否を通知し、販売業は毎年の衛生教育が必要です。",
           "branches": [
             {
               "when": "輸入者が自ら通販もする場合",
@@ -5666,7 +5666,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-oem-korea",
           "q": "韓国のOEM工場で健康機能食品を作り、自社ブランドで販売したいのですが？",
-          "conclusion": "健康機能食品の専門製造業者に製造を依頼し、その製品を自社の商標で販売する営業は「流通専門販売業」で、営業所ごとに市・郡・区に申告します。申告には委託生産契約書が必要です。",
+          "conclusion": "健康機能食品の専門製造業者に製造を依頼し、その製品を自社の商標で販売する営業は「健康機能食品流通専門販売業」（건강기능식품유통전문판매업）で、営業所ごとに市長・郡守・区庁長に申告します。申告には委託生産契約書が必要です。",
           "branches": [
             {
               "when": "韓国法人が販売元になる場合",
@@ -5710,7 +5710,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-hf-manufacture-korea",
           "q": "韓国に工場をつくって健康機能食品を製造する場合は？",
-          "conclusion": "健康機能食品専門製造業として、営業所ごとに地方食品医薬品安全庁の許可を受けます。品質管理人を選任し、優秀健康機能食品製造基準に適合させ、許可後は品目ごとに品目製造申告をします。",
+          "conclusion": "健康機能食品専門製造業（건강기능식품전문제조업）として、営業所ごとに地方食品医薬品安全庁の許可を受けます。品質管理人（품질관리인）を選任し、優秀健康機能食品製造基準（GMP・우수건강기능식품제조기준）に適合させ、許可後は品目ごとに品目製造申告（품목제조신고）をします。",
           "branches": [
             {
               "when": "新しく工場を建てる場合",
@@ -5732,7 +5732,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "factory": {
-      "answer": "韓国で工場建築面積500平方メートル以上の工場を新設・増設したり業種を変えたりするには、市長・郡守・区庁長の工場設立承認を受けます（産業団地では入居契約で承認とみなされます）。建築物の使用承認と機械・装置の設置を終えたら2か月以内に完了届出をし、行政庁が工場登録台帳に登録します。承認は申請から20日以内（全部が市・郡・区の権限なら14日、許認可のみなし処理が不要なら7日）に決定されます。",
+      "answer": "韓国で工場建築面積（공장건축면적）500平方メートル以上の工場を新設・増設したり業種を変えたりするには、市長・郡守・区庁長（시장·군수·구청장）の工場設立承認（공장설립등의 승인）を受けます（産業団地では入居契約で承認とみなされます）。建築物の使用承認と機械・装置の設置を終えたら2か月以内に完了申告（공장설립등의 완료신고）をし、行政庁が工場登録台帳に登録します。承認は申請から20日以内（全部が市長・郡守・区庁長の権限なら14日、許認可のみなし処理が不要なら7日）に決定されます。",
       "chooser": [
         {
           "label": "日本企業が工場をつくる",
@@ -5762,7 +5762,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       "situations": [
         {
           "id": "sit-fac-japan-company",
-          "q": "日本企業が韓国に工場をつくるとき、工場設立承認や工場登録は誰の名義で行いますか？",
+          "q": "日本企業が韓国に工場をつくるとき、工場設立承認（공장설립등의 승인）や工場登録（공장등록）は誰の名義で行いますか？",
           "conclusion": "承認は工場設立等をしようとする者が、工場登録は工場を所有・占有して製造業を営む事業者が申請します。日本企業が韓国で自ら操業する場合は、まず韓国法人（または支店）を設け、その名義で土地・建物の確保から承認・登録まで進めるのが一般的です。",
           "branches": [
             {
@@ -5784,7 +5784,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-fac-under-500",
-          "q": "工場建築面積が500㎡未満の小さな工場でも、承認や登録は必要ですか？",
+          "q": "工場建築面積（공장건축면적）が500㎡未満の小さな工場でも、承認や登録は必要ですか？",
           "conclusion": "500平方メートル未満の工場は工場設立承認の対象外ですが、工場の所有者・占有者は工場登録を申請できます。また、他の法律の許認可をまとめてみなし処理してもらいたい場合は、500平方メートル未満でも承認を受けられます。",
           "branches": [
             {
@@ -5807,7 +5807,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-industrial-complex",
           "q": "韓国の産業団地に入居する場合、工場設立承認は別に必要ですか？",
-          "conclusion": "別途の承認はいりません。産業団地などで管理機関と入居契約（変更契約を含む）を結べば、工場設立等の承認を受けたものとみなされます。建設・設備設置を終えたら、管理機関に完了届出をして工場登録を受けます。",
+          "conclusion": "別途の承認はいりません。産業団地などで管理機関と入居契約（입주계약。変更契約を含む）を結べば、工場設立等の承認を受けたものとみなされます。建設・設備設置を終えたら、管理機関に完了申告（공장설립등의 완료신고）をして工場登録を受けます。",
           "branches": [
             {
               "when": "分譲・賃貸を受けて入居する場合",
@@ -5819,11 +5819,11 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
             },
             {
               "when": "個別立地（団地外）の場合",
-              "then": "市・郡・区に工場設立承認を申請します。"
+              "then": "市長・郡守・区庁長（시장·군수·구청장）に工場設立承認を申請します。"
             }
           ],
-          "docs": "入居契約申請書・事業計画書、入居契約書、完了届出書、建築物の使用承認書",
-          "period": "完了届出は使用承認・設置完了から2か月以内",
+          "docs": "入居契約申請書・事業計画書、入居契約書、完了申告書、建築物の使用承認書",
+          "period": "完了申告は使用承認・設置完了から2か月以内",
           "href": "/ja/services/factory"
         },
         {
@@ -5872,8 +5872,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-fac-completion",
-          "q": "工場が完成した後、いつまでに完了届出をすればよいですか？",
-          "conclusion": "最終の建築物の使用承認を受け、機械・装置の設置を完了した日から2か月以内に、市・郡・区または管理機関に完了届出をします。行政庁は工場登録台帳に登録し、完了届出から3日以内（みなし処理がある場合20日）に登録を通知します。",
+          "q": "工場が完成した後、いつまでに完了申告をすればよいですか？",
+          "conclusion": "最終の建築物の使用承認を受け、機械・装置の設置を完了した日から2か月以内に、市長・郡守・区庁長または管理機関に完了申告をします。行政庁は工場登録台帳に登録し、完了申告から3日以内（みなし処理がある場合20日）に登録を通知します。",
           "branches": [
             {
               "when": "建物は完成したが設備の設置がまだの場合",
@@ -5888,18 +5888,18 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "設備設置の完了日を確定し、書類を先に準備します。"
             }
           ],
-          "docs": "完了届出書、建築物の使用承認書、製造施設の設置完了を証明する書類",
+          "docs": "完了申告書、建築物の使用承認書、製造施設の設置完了を証明する書類",
           "period": "法定：使用承認・設置完了から2か月以内に届出、登録通知は3日以内（みなし処理がある場合20日）",
           "href": "/ja/blog/factory-registration-application-guide"
         },
         {
           "id": "sit-fac-certificate",
-          "q": "取引先や補助金の申請で「工場登録証明書」を求められました。どこで発給できますか？",
-          "conclusion": "登録された工場で製造業を営む事業者は、市長・郡守・区庁長または管理機関に工場登録証明書を申請できます。工場設立オンライン支援システムを使えば、管轄外の工場の証明書も発給を受けられます。",
+          "q": "取引先や補助金の申請で「工場登録証明書」（공장등록증명서）を求められました。どこで発行できますか？",
+          "conclusion": "登録された工場で製造業を営む事業者は、市長・郡守・区庁長または管理機関に工場登録証明書を申請できます。工場設立オンライン支援システム（공장설립온라인지원시스템）を使えば、管轄外の工場の証明書も発行を受けられます。",
           "branches": [
             {
               "when": "工場が登録されている場合",
-              "then": "証明書を申請して発給を受けます。"
+              "then": "証明書を申請して発行を受けます。"
             },
             {
               "when": "まだ登録していない場合",
@@ -5910,14 +5910,14 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "工場登録台帳の謄本を申請できます。"
             }
           ],
-          "docs": "工場登録証明書の発給申請（オンライン可）",
-          "period": "発給の手続きは管轄行政庁・システムの運用によります",
+          "docs": "工場登録証明書の発行申請（オンライン可）",
+          "period": "発行の手続きは管轄行政庁・システムの運用によります",
           "href": "/ja/services/factory"
         },
         {
           "id": "sit-fac-change",
           "q": "設備を増やしたり業種を追加したりしたら、手続きは必要ですか？",
-          "conclusion": "工場登録台帳に登録した事項のうち定められた事項を変えたら、2か月以内に市・郡・区に変更登録を申請します。増設で工場建築面積が500平方メートル以上になる場合や業種を変える場合は、工場設立承認（変更承認）が必要です。",
+          "conclusion": "工場登録台帳に登録した事項のうち定められた事項を変えたら、2か月以内に市長・郡守・区庁長に変更登録（공장 변경등록）を申請します。増設で工場建築面積が500平方メートル以上になる場合や業種を変える場合は、工場設立承認（変更承認）が必要です。",
           "branches": [
             {
               "when": "機械・装置だけを入れ替える場合",
@@ -5939,7 +5939,7 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "id": "sit-fac-no-registration",
           "q": "工場登録をしないまま操業すると、何か問題がありますか？",
-          "conclusion": "500平方メートル以上の工場は、承認を受けずに新設・増設することはできず、承認を受けた工場は完了届出を経て登録されます。承認対象外の小規模工場の登録は申請によるものですが、登録しないと工場登録証明書が発給されません。",
+          "conclusion": "500平方メートル以上の工場は、承認を受けずに新設・増設することはできず、承認を受けた工場は完了申告を経て登録されます。承認対象外の小規模工場の登録は申請によるものですが、登録しないと工場登録証明書が発行されません。",
           "branches": [
             {
               "when": "承認対象なのに承認を受けていない場合",

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import TeamSection from './TeamSection'
 import { EmailOff } from '@/components/ui/EmailOff'
 import { qrHref } from '@/lib/qr-links'
+import { FOCUS_SERVICES, FOCUS_SERVICES_I18N } from '@/lib/focus-services'
 
 type Locale = 'ko' | 'en' | 'zh' | 'ja'
 
@@ -34,7 +35,7 @@ const d: Record<Locale, LocaleData> = {
   ko: {
     badge: '회사소개',
     h1: ['인허가 전문,', '유선행정사사무소'],
-    heroBody: '유선행정사사무소는 전문 행정사 사무소입니다. 대표 정유선 행정사를 포함한 3인의 행정사와 4인의 실무 사무장들이 처음부터 끝까지 책임집니다.',
+    heroBody: '유선행정사사무소는 행정기관에 내는 인허가·등록·신고 서류의 작성과 제출 대행을 맡는 행정사사무소입니다. 대표 정유선 행정사를 포함한 4인의 행정사와 3인의 실무진이 비영리사단법인 설립·정보통신분야 인허가·위치기반서비스사업 신고·화장품·건강기능식품·공장등록을 중점으로 처리하며, 한국어·영어·중국어·일본어로 상담합니다.',
     stats: [
       { value: '09:30–17:30', label: '평일 상담시간' },
     ],
@@ -46,7 +47,7 @@ const d: Record<Locale, LocaleData> = {
     greetingAuthor: '대표 행정사 정유선',
     greetingTitle: '유선행정사사무소 대표 | 사업자등록번호 722-39-01297',
     expertiseBadge: '전문 분야',
-    expertiseH2: '6대 핵심 전문 분야',
+    expertiseH2: '처리 업무 범위',
     expertiseItems: [
       { title: '물류·유통 인허가', desc: '국제물류주선업, 담배수입판매업, 전자담배 등' },
       { title: '금융·외환 등록', desc: '환전업 등록, 외국환 관련 신고' },
@@ -71,7 +72,7 @@ const d: Record<Locale, LocaleData> = {
   en: {
     badge: 'About',
     h1: ['Visa & Licensing Specialists,', 'YouSun Administrative Agency'],
-    heroBody: 'Chief Admin Agent Jung Yu-sun leads a team of 3 licensed agents and 4 office managers who handle every case from start to finish.',
+    heroBody: 'YouSun Administrative Agency is a licensed administrative agent office in Seoul that prepares and files permit, registration and report applications with Korean government agencies. Four licensed administrative agents, including Chief Admin Agent Jung Yu-sun, and three staff focus on nonprofit associations, telecommunications, location-based services, cosmetics, health functional food and factory registration, in Korean, English, Chinese and Japanese.',
     stats: [
       { value: '09:30–17:30', label: 'Weekday Hours (KST)' },
     ],
@@ -83,7 +84,7 @@ const d: Record<Locale, LocaleData> = {
     greetingAuthor: 'Chief Admin Agent Jung Yu-sun',
     greetingTitle: 'YouSun Administrative Agency | Business No. 722-39-01297',
     expertiseBadge: 'Expertise',
-    expertiseH2: '6 Core Specialty Areas',
+    expertiseH2: 'What we handle',
     expertiseItems: [
       { title: 'Logistics & Distribution', desc: 'International freight forwarding, tobacco import/sales, e-cigarettes, etc.' },
       { title: 'Finance & Foreign Exchange', desc: 'Currency exchange registration, foreign exchange-related filings' },
@@ -108,7 +109,7 @@ const d: Record<Locale, LocaleData> = {
   zh: {
     badge: '公司介绍',
     h1: ['许可证专业，', 'YouSun Administrative Agency'],
-    heroBody: '代表郑有善行政士及3名专业行政士与4名实务事务长，从始至终全程负责。',
+    heroBody: 'YouSun Administrative Agency 是位于首尔的行政士事务所，代客户制作并向韩国行政机关提交许可、登记、申报材料。包括代表行政士郑有善在内的4名行政士与3名实务人员，重点办理非营利社团法人设立、电信业务、位置服务、化妆品、健康功能食品及工厂登记，可使用韩语、英语、中文、日语咨询。',
     stats: [
       { value: '09:30–17:30', label: '工作日咨询时间' },
     ],
@@ -120,7 +121,7 @@ const d: Record<Locale, LocaleData> = {
     greetingAuthor: '代表行政士 郑有善',
     greetingTitle: 'YouSun Administrative Agency 代表 | 营业执照号: 722-39-01297',
     expertiseBadge: '专业领域',
-    expertiseH2: '六大核心专业领域',
+    expertiseH2: '办理业务范围',
     expertiseItems: [
       { title: '物流·流通许可', desc: '国际货运代理、烟草进口销售、电子烟等' },
       { title: '金融·外汇登记', desc: '外汇兑换业登记、外汇相关申报' },
@@ -145,7 +146,7 @@ const d: Record<Locale, LocaleData> = {
   ja: {
     badge: '事務所案内',
     h1: ['許認可専門、', 'YouSun Administrative Agency'],
-    heroBody: 'YouSun Administrative Agencyは専門行政士事務所です。代表の鄭有善行政士を含む4名の行政士と4名の事務スタッフが最初から最後まで責任を持って対応いたします。',
+    heroBody: 'YouSun Administrative Agencyはソウルの行政士事務所で、韓国の行政機関に提出する許認可・登録・申告書類の作成と提出代行を行います。代表の鄭有善行政士を含む4名の行政士と3名のスタッフが、非営利社団法人の設立、通信事業、位置情報サービス、化粧品、健康機能食品、工場登録を重点に担当し、韓国語・英語・中国語・日本語でご相談いただけます。',
     stats: [
       { value: '09:30–17:30', label: '平日相談時間' },
     ],
@@ -157,7 +158,7 @@ const d: Record<Locale, LocaleData> = {
     greetingAuthor: '代表行政士 鄭有善',
     greetingTitle: 'YouSun Administrative Agency 代表 | 事業者番号: 722-39-01297',
     expertiseBadge: '専門分野',
-    expertiseH2: '6つの核心専門分野',
+    expertiseH2: '取扱業務の範囲',
     expertiseItems: [
       { title: '物流・流通許認可', desc: '国際物流取次業、たばこ輸入販売業、電子たばこ等' },
       { title: '金融・外国為替登録', desc: '両替業登録、外国為替関連申告' },
@@ -181,8 +182,22 @@ const d: Record<Locale, LocaleData> = {
   },
 }
 
+// INHEGA-FOCUS-1103 3차(보스 msg 4808): 사무소 소개 — 처리 업무 범위는 중점 6개 먼저(필러 링크), 그 밖의 분야는 그대로 뒤에.
+const SCOPE_TEXT: Record<Locale, { focus: string; other: string; more: string }> = {
+  ko: { focus: '중점 업무', other: '그 밖의 주요 인허가 분야', more: '자세히 보기' },
+  en: { focus: 'Focus services', other: 'Other permit areas', more: 'Learn more' },
+  zh: { focus: '重点业务', other: '其他主要许可领域', more: '了解详情' },
+  ja: { focus: '重点業務', other: 'その他の主な許認可分野', more: '詳しく見る' },
+}
+function focusItems(locale: Locale) {
+  if (locale === 'ko') return FOCUS_SERVICES.map((f) => ({ title: f.label, desc: f.desc, href: f.href }))
+  const tx = FOCUS_SERVICES_I18N[locale]
+  return FOCUS_SERVICES.map((f) => ({ title: tx.items[f.slug].label, desc: tx.items[f.slug].desc, href: `/${locale}${f.href}` }))
+}
+
 export default function AboutPage({ locale }: { locale: Locale }) {
   const s = d[locale]
+  const scope = SCOPE_TEXT[locale]
 
   return (
     <div>
@@ -268,13 +283,27 @@ export default function AboutPage({ locale }: { locale: Locale }) {
             <h2 className="text-h2" style={{ marginTop: '0.75rem' }}>{s.expertiseH2}</h2>
             <span className="accent-line" style={{ marginInline: 'auto', marginTop: '1rem' }} />
           </div>
+          <h3 className="text-h3" style={{ color: 'var(--navy)', marginBottom: '1rem' }}>{scope.focus}</h3>
+          <div className="about-expertise-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginBottom: '2.5rem' }}>
+            {focusItems(locale).map((e) => (
+              <Link key={e.href} href={e.href} prefetch={false} style={{
+                display: 'block', background: 'var(--white)', borderRadius: '16px', padding: '2rem',
+                border: '1px solid var(--border)', borderTop: '3px solid var(--navy)', color: 'inherit',
+              }}>
+                <h4 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>{e.title}</h4>
+                <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>{e.desc}</p>
+                <span style={{ display: 'inline-block', marginTop: '0.75rem', fontSize: '0.875rem', fontWeight: 600, color: 'var(--navy)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>{scope.more}</span>
+              </Link>
+            ))}
+          </div>
+          <h3 className="text-h3" style={{ color: 'var(--navy)', marginBottom: '1rem' }}>{scope.other}</h3>
           <div className="about-expertise-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {s.expertiseItems.map((e, i) => (
               <div key={e.title} className={`fade-up delay-${i + 1}`} style={{
                 background: 'var(--white)', borderRadius: '16px', padding: '2rem',
                 border: '1px solid var(--border)', borderTop: '3px solid var(--burgundy)',
               }}>
-                <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>{e.title}</h3>
+                <h4 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.0625rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>{e.title}</h4>
                 <p style={{ fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>{e.desc}</p>
               </div>
             ))}

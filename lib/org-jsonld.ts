@@ -62,19 +62,19 @@ const organizationBase = {
 const ORG_TEXT: Record<CatalogLocale, { description: string; knowsAbout: string[] }> = {
   ko: {
     description: '비영리사단법인 설립, 정보통신분야 인허가(부가통신사업 신고·기간통신사업 등록), 위치기반서비스사업 신고, 화장품 책임판매업·제조업 등록, 건강기능식품 영업 인허가, 공장등록을 중점으로 처리하는 인허가 전문 행정사사무소.',
-    knowsAbout: ['비영리사단법인 설립', '부가통신사업 신고', '기간통신사업 등록', '위치기반서비스사업 신고', '화장품책임판매업 등록', '화장품제조업 등록', '기능성화장품 심사', '건강기능식품 판매업 신고', '건강기능식품 제조업 허가', '건강기능식품 수입 영업등록', '공장등록', '국제물류주선업 등록', '건축물 용도변경 허가', '기업부설연구소 인정', '의약외품 허가·신고', '호스텔업 등록'],
+    knowsAbout: ['비영리사단법인 설립허가', '재단법인 설립허가', '부가통신사업 신고', '특수한 유형의 부가통신사업 등록', '기간통신사업 등록', '위치기반서비스사업 신고', '개인위치정보사업 등록', '사물위치정보사업 신고', '화장품책임판매업 등록', '화장품제조업 등록', '맞춤형화장품판매업 신고', '기능성화장품 심사·보고', '건강기능식품일반판매업 신고', '건강기능식품유통전문판매업 신고', '건강기능식품전문제조업 허가', '수입식품등 수입·판매업 영업등록', '공장설립등의 승인', '공장등록', '국제물류주선업 등록', '건축물 용도변경 허가', '기업부설연구소 인정', '의약외품 허가·신고', '호스텔업 등록'],
   },
   en: {
-    description: 'Licensed administrative agent office in Seoul handling Korean permits and registrations, focusing on nonprofit association incorporation, value-added telecommunications reports, location-based service reports, cosmetics responsible distributor and manufacturer registration, health functional food licensing and factory registration.',
-    knowsAbout: ['Nonprofit incorporated association in Korea', 'Value-added telecommunications business report', 'Facilities-based telecommunications business registration', 'Location-based service business report (Location Information Act)', 'Cosmetics responsible distributor registration', 'Cosmetics manufacturer registration', 'Functional cosmetics review', 'Health functional food import and sales business', 'Factory registration in Korea', 'International freight forwarding registration', 'Building use change permit', 'Corporate R&D center recognition'],
+    description: 'Licensed administrative agent office in Seoul handling Korean permits and registrations, focusing on nonprofit association incorporation, value-added telecommunications reports, location-based service reports, cosmetics responsible seller and manufacturer registration, health functional food licensing and factory registration.',
+    knowsAbout: ['Nonprofit incorporated association establishment permit (비영리사단법인 설립허가)', 'Value-added telecommunications business report (부가통신사업 신고)', 'Special-type value-added telecommunications business registration (특수한 유형의 부가통신사업 등록)', 'Facilities-based telecommunications business registration (기간통신사업 등록)', 'Location-based service business report (위치기반서비스사업 신고)', 'Personal location information business registration (개인위치정보사업 등록)', 'Cosmetics responsible seller registration (화장품책임판매업 등록)', 'Cosmetics manufacturer registration (화장품제조업 등록)', 'Functional cosmetics review or report (기능성화장품 심사·보고)', 'Health functional food sales business report (건강기능식품판매업 신고)', 'Imported food import and sales business registration (수입식품등 수입·판매업 영업등록)', 'Factory establishment approval and factory registration (공장설립등의 승인·공장등록)', 'International freight forwarding registration', 'Building use change permit', 'Corporate R&D center recognition'],
   },
   zh: {
     description: '位于首尔的行政士事务所，办理韩国各类许可与登记，重点业务为非营利社团法人设立、增值电信业务申报、位置服务事业申报、化妆品责任销售业与制造业注册、健康功能食品营业许可及工厂登记。',
-    knowsAbout: ['韩国非营利社团法人设立', '韩国增值电信业务申报', '韩国基础电信业务登记', '韩国位置服务事业申报', '韩国化妆品责任销售业注册', '韩国化妆品制造业注册', '功能性化妆品审查', '韩国健康功能食品进口与销售营业', '韩国工厂登记', '国际货运代理业登记', '建筑物用途变更许可', '企业附属研究所认定'],
+    knowsAbout: ['非营利社团法人设立许可（비영리사단법인 설립허가）', '增值电信业务申报（부가통신사업 신고）', '特殊类型增值电信业务登记（특수한 유형의 부가통신사업 등록）', '基础电信业务登记（기간통신사업 등록）', '位置服务事业申报（위치기반서비스사업 신고）', '个人位置信息事业登记（개인위치정보사업 등록）', '化妆品责任销售业注册（화장품책임판매업 등록）', '化妆品制造业注册（화장품제조업 등록）', '功能性化妆品审查·报告（기능성화장품 심사·보고）', '健康功能食品销售业申报（건강기능식품판매업 신고）', '进口食品等进口·销售业营业登记（수입식품등 수입·판매업 영업등록）', '工厂设立批准与工厂登记（공장설립등의 승인·공장등록）', '国际货运代理业登记', '建筑物用途变更许可', '企业附属研究所认定'],
   },
   ja: {
     description: 'ソウルの行政士事務所。韓国の許認可・登録を扱い、非営利社団法人の設立、付加通信事業の申告、位置情報サービス事業の申告、化粧品責任販売業・製造業の登録、健康機能食品の営業許認可、工場登録を重点業務としています。',
-    knowsAbout: ['韓国の非営利社団法人設立', '付加通信事業の申告', '基幹通信事業の登録', '位置情報サービス事業の申告', '化粧品責任販売業の登録', '化粧品製造業の登録', '機能性化粧品の審査', '健康機能食品の輸入・販売営業', '韓国の工場登録', '国際物流斡旋業の登録', '建築物の用途変更許可', '企業附属研究所の認定'],
+    knowsAbout: ['非営利社団法人の設立許可（비영리사단법인 설립허가）', '付加通信事業の申告（부가통신사업 신고）', '特殊な類型の付加通信事業の登録（특수한 유형의 부가통신사업 등록）', '基幹通信事業の登録（기간통신사업 등록）', '位置情報サービス事業の申告（위치기반서비스사업 신고）', '個人位置情報事業の登録（개인위치정보사업 등록）', '化粧品責任販売業の登録（화장품책임판매업 등록）', '化粧品製造業の登録（화장품제조업 등록）', '機能性化粧品の審査・報告（기능성화장품 심사·보고）', '健康機能食品販売業の申告（건강기능식품판매업 신고）', '輸入食品等輸入・販売業の営業登録（수입식품등 수입·판매업 영업등록）', '工場設立承認・工場登録（공장설립등의 승인·공장등록）', '国際物流斡旋業の登録', '建築物の用途変更許可', '企業附属研究所の認定'],
   },
 }
 
