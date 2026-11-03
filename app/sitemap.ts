@@ -2,14 +2,16 @@ import { MetadataRoute } from 'next'
 // INHEGA-FOCUS-1103: 본문 정본 대신 경량 색인(prebuild scripts/build-blog-feed-index.mjs) — 워커 25 MiB 한도
 import { FEED_POSTS_KO as blogPosts, getFeedTranslatedSlugs as getAllTranslatedSlugs } from '@/lib/blog-feed-index.generated'
 import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
-import { getServiceSlugs } from '@/lib/services-catalog'
 import { INDUSTRY_PHOTOS, industryPhotoSrc } from '@/lib/service-card-images'
-import { getIndustrySlugs } from '@/lib/industry-pages'
+// INHEGA-FOCUS-1103 A: 서비스·업종 본문 정본 대신 slug 경량 색인(prebuild scripts/build-sitemap-index.mjs) — 워커 25 MiB 한도
+import { SITEMAP_SERVICE_SLUGS, SITEMAP_INDUSTRY_SLUGS } from '@/lib/sitemap-index.generated'
 import { PAGE_LASTMOD } from '@/lib/page-lastmod.generated'
 import { FOCUS_SLUGS } from '@/lib/focus-services'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
 // 배포 보류분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
+const getServiceSlugs = (l: 'ko' | 'en' | 'zh' | 'ja') => SITEMAP_SERVICE_SLUGS[l]
+const getIndustrySlugs = (l: 'ko' | 'en' | 'zh' | 'ja') => SITEMAP_INDUSTRY_SLUGS[l]
 const services = getServiceSlugs('ko')
 
 // 업종 상세 ↔ 그 업종 사진(INH-PHOTO60, 보스 msg 2341 ⑤) — <image:image><image:loc>.
