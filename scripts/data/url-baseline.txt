@@ -796,3 +796,7 @@
 /zh/services/solar-power-business-permit
 /zh/services/sports-facility-business-report
 /zh/services/waste-treatment-business-permit
+/blog/telecom-report-online-mall-app
+/en/blog/telecom-report-online-mall-app
+/ja/blog/telecom-report-online-mall-app
+/zh/blog/telecom-report-online-mall-app
