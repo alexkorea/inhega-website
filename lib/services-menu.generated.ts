@@ -864,6 +864,126 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "mainbiz-management-innovation-sme",
       "href": "/en/services/mainbiz-management-innovation-sme",
       "shortTitle": "Mainbiz (Management Innovation SME) Selection"
+    },
+    {
+      "slug": "beauty-salon-business-report",
+      "href": "/en/services/beauty-salon-business-report",
+      "shortTitle": "Beauty Salon Business Report in Korea"
+    },
+    {
+      "slug": "campground-business-registration",
+      "href": "/en/services/campground-business-registration",
+      "shortTitle": "Campground Business Registration in Korea"
+    },
+    {
+      "slug": "car-dealer-rental-business-registration",
+      "href": "/en/services/car-dealer-rental-business-registration",
+      "shortTitle": "Used Car Dealer and Car Rental Business Registration in Korea"
+    },
+    {
+      "slug": "cooperative-establishment-report",
+      "href": "/en/services/cooperative-establishment-report",
+      "shortTitle": "Cooperative Establishment Report in Korea"
+    },
+    {
+      "slug": "development-act-farmland-conversion-permit",
+      "href": "/en/services/development-act-farmland-conversion-permit",
+      "shortTitle": "Development Activity Permit and Farmland Conversion Permit in Korea"
+    },
+    {
+      "slug": "disinfection-business-report",
+      "href": "/en/services/disinfection-business-report",
+      "shortTitle": "Disinfection Business Report in Korea"
+    },
+    {
+      "slug": "drone-business-registration",
+      "href": "/en/services/drone-business-registration",
+      "shortTitle": "Drone Business Registration in Korea (Ultralight Flying Device Use Business)"
+    },
+    {
+      "slug": "emission-facility-permit-report",
+      "href": "/en/services/emission-facility-permit-report",
+      "shortTitle": "Air and Wastewater Emission Facility Installation Permit and Report in Korea"
+    },
+    {
+      "slug": "entertainment-agency-business-registration",
+      "href": "/en/services/entertainment-agency-business-registration",
+      "shortTitle": "Pop Culture and Arts Planning Business (Entertainment Agency) Registration in Korea"
+    },
+    {
+      "slug": "entertainment-bar-business-permit",
+      "href": "/en/services/entertainment-bar-business-permit",
+      "shortTitle": "Entertainment Bar (Yuheung Jujeom) Business Permit in Korea"
+    },
+    {
+      "slug": "foundation-establishment-permit",
+      "href": "/en/services/foundation-establishment-permit",
+      "shortTitle": "Incorporated Foundation Establishment Permit in Korea"
+    },
+    {
+      "slug": "hazardous-chemical-business-permit",
+      "href": "/en/services/hazardous-chemical-business-permit",
+      "shortTitle": "Hazardous Chemical Business Permit in Korea"
+    },
+    {
+      "slug": "long-term-care-institution-designation",
+      "href": "/en/services/long-term-care-institution-designation",
+      "shortTitle": "Long-Term Care Institution Designation in Korea"
+    },
+    {
+      "slug": "marriage-brokerage-business-registration",
+      "href": "/en/services/marriage-brokerage-business-registration",
+      "shortTitle": "Marriage Brokerage Business Report and Registration in Korea"
+    },
+    {
+      "slug": "money-lending-business-registration",
+      "href": "/en/services/money-lending-business-registration",
+      "shortTitle": "Money Lending Business Registration in Korea"
+    },
+    {
+      "slug": "pet-business-permit-registration",
+      "href": "/en/services/pet-business-permit-registration",
+      "shortTitle": "Pet Business Permit and Registration in Korea"
+    },
+    {
+      "slug": "pharmaceutical-wholesale-license",
+      "href": "/en/services/pharmaceutical-wholesale-license",
+      "shortTitle": "Pharmaceutical Wholesale License in Korea"
+    },
+    {
+      "slug": "real-estate-development-business-registration",
+      "href": "/en/services/real-estate-development-business-registration",
+      "shortTitle": "Real Estate Development Business Registration in Korea"
+    },
+    {
+      "slug": "residential-lodging-business-report",
+      "href": "/en/services/residential-lodging-business-report",
+      "shortTitle": "Residential Lodging Facility Business Report in Korea"
+    },
+    {
+      "slug": "rural-minbak-business-report",
+      "href": "/en/services/rural-minbak-business-report",
+      "shortTitle": "Rural Homestay (Nongeochon Minbak) Business Report in Korea"
+    },
+    {
+      "slug": "software-business-performance-management",
+      "href": "/en/services/software-business-performance-management",
+      "shortTitle": "Software Business Operator Report and Status Management Application in Korea"
+    },
+    {
+      "slug": "solar-power-business-permit",
+      "href": "/en/services/solar-power-business-permit",
+      "shortTitle": "Solar Power Generation Business Permit in Korea"
+    },
+    {
+      "slug": "sports-facility-business-report",
+      "href": "/en/services/sports-facility-business-report",
+      "shortTitle": "Sports Facility Business Report in Korea"
+    },
+    {
+      "slug": "waste-treatment-business-permit",
+      "href": "/en/services/waste-treatment-business-permit",
+      "shortTitle": "Waste Treatment Business Permit in Korea"
     }
   ],
   "zh": [
@@ -926,6 +1046,126 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "mainbiz-management-innovation-sme",
       "href": "/zh/services/mainbiz-management-innovation-sme",
       "shortTitle": "Mainbiz(经营创新型中小企业)遴选"
+    },
+    {
+      "slug": "beauty-salon-business-report",
+      "href": "/zh/services/beauty-salon-business-report",
+      "shortTitle": "韩国美容业营业申报"
+    },
+    {
+      "slug": "campground-business-registration",
+      "href": "/zh/services/campground-business-registration",
+      "shortTitle": "韩国露营场业注册"
+    },
+    {
+      "slug": "car-dealer-rental-business-registration",
+      "href": "/zh/services/car-dealer-rental-business-registration",
+      "shortTitle": "韩国汽车买卖业·汽车租赁业注册"
+    },
+    {
+      "slug": "cooperative-establishment-report",
+      "href": "/zh/services/cooperative-establishment-report",
+      "shortTitle": "韩国协同组合(合作社)设立申报"
+    },
+    {
+      "slug": "development-act-farmland-conversion-permit",
+      "href": "/zh/services/development-act-farmland-conversion-permit",
+      "shortTitle": "韩国开发行为许可·农地转用许可"
+    },
+    {
+      "slug": "disinfection-business-report",
+      "href": "/zh/services/disinfection-business-report",
+      "shortTitle": "韩国消毒业申报"
+    },
+    {
+      "slug": "drone-business-registration",
+      "href": "/zh/services/drone-business-registration",
+      "shortTitle": "韩国无人机(超轻型飞行装置使用事业)事业注册"
+    },
+    {
+      "slug": "emission-facility-permit-report",
+      "href": "/zh/services/emission-facility-permit-report",
+      "shortTitle": "韩国大气·废水排放设施设置许可·申报"
+    },
+    {
+      "slug": "entertainment-agency-business-registration",
+      "href": "/zh/services/entertainment-agency-business-registration",
+      "shortTitle": "韩国大众文化艺术企划业(经纪公司)注册"
+    },
+    {
+      "slug": "entertainment-bar-business-permit",
+      "href": "/zh/services/entertainment-bar-business-permit",
+      "shortTitle": "韩国娱乐酒吧(游兴酒店)营业许可"
+    },
+    {
+      "slug": "foundation-establishment-permit",
+      "href": "/zh/services/foundation-establishment-permit",
+      "shortTitle": "韩国财团法人设立许可"
+    },
+    {
+      "slug": "hazardous-chemical-business-permit",
+      "href": "/zh/services/hazardous-chemical-business-permit",
+      "shortTitle": "韩国有害化学物质营业许可"
+    },
+    {
+      "slug": "long-term-care-institution-designation",
+      "href": "/zh/services/long-term-care-institution-designation",
+      "shortTitle": "韩国长期疗养机构指定"
+    },
+    {
+      "slug": "marriage-brokerage-business-registration",
+      "href": "/zh/services/marriage-brokerage-business-registration",
+      "shortTitle": "韩国婚姻中介业申报·注册"
+    },
+    {
+      "slug": "money-lending-business-registration",
+      "href": "/zh/services/money-lending-business-registration",
+      "shortTitle": "韩国贷款业注册"
+    },
+    {
+      "slug": "pet-business-permit-registration",
+      "href": "/zh/services/pet-business-permit-registration",
+      "shortTitle": "韩国宠物营业许可·注册"
+    },
+    {
+      "slug": "pharmaceutical-wholesale-license",
+      "href": "/zh/services/pharmaceutical-wholesale-license",
+      "shortTitle": "韩国药品批发业许可"
+    },
+    {
+      "slug": "real-estate-development-business-registration",
+      "href": "/zh/services/real-estate-development-business-registration",
+      "shortTitle": "韩国房地产开发业注册"
+    },
+    {
+      "slug": "residential-lodging-business-report",
+      "href": "/zh/services/residential-lodging-business-report",
+      "shortTitle": "韩国生活住宿设施住宿业申报"
+    },
+    {
+      "slug": "rural-minbak-business-report",
+      "href": "/zh/services/rural-minbak-business-report",
+      "shortTitle": "韩国农渔村民宿业申报"
+    },
+    {
+      "slug": "software-business-performance-management",
+      "href": "/zh/services/software-business-performance-management",
+      "shortTitle": "韩国软件事业者申报·现状管理申请"
+    },
+    {
+      "slug": "solar-power-business-permit",
+      "href": "/zh/services/solar-power-business-permit",
+      "shortTitle": "韩国太阳能发电事业许可"
+    },
+    {
+      "slug": "sports-facility-business-report",
+      "href": "/zh/services/sports-facility-business-report",
+      "shortTitle": "韩国体育设施业申报"
+    },
+    {
+      "slug": "waste-treatment-business-permit",
+      "href": "/zh/services/waste-treatment-business-permit",
+      "shortTitle": "韩国废弃物处理业许可"
     }
   ],
   "ja": [
@@ -988,6 +1228,126 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "mainbiz-management-innovation-sme",
       "href": "/ja/services/mainbiz-management-innovation-sme",
       "shortTitle": "メインビズ(経営革新型中小企業)選定"
+    },
+    {
+      "slug": "beauty-salon-business-report",
+      "href": "/ja/services/beauty-salon-business-report",
+      "shortTitle": "韓国の美容業 営業届出"
+    },
+    {
+      "slug": "campground-business-registration",
+      "href": "/ja/services/campground-business-registration",
+      "shortTitle": "韓国のキャンプ場業登録"
+    },
+    {
+      "slug": "car-dealer-rental-business-registration",
+      "href": "/ja/services/car-dealer-rental-business-registration",
+      "shortTitle": "韓国の自動車売買業・自動車貸渡事業 登録"
+    },
+    {
+      "slug": "cooperative-establishment-report",
+      "href": "/ja/services/cooperative-establishment-report",
+      "shortTitle": "韓国の協同組合 設立届出"
+    },
+    {
+      "slug": "development-act-farmland-conversion-permit",
+      "href": "/ja/services/development-act-farmland-conversion-permit",
+      "shortTitle": "韓国の開発行為許可・農地転用許可"
+    },
+    {
+      "slug": "disinfection-business-report",
+      "href": "/ja/services/disinfection-business-report",
+      "shortTitle": "韓国の消毒業 届出"
+    },
+    {
+      "slug": "drone-business-registration",
+      "href": "/ja/services/drone-business-registration",
+      "shortTitle": "韓国のドローン(超軽量飛行装置使用事業)事業登録"
+    },
+    {
+      "slug": "emission-facility-permit-report",
+      "href": "/ja/services/emission-facility-permit-report",
+      "shortTitle": "韓国の大気・廃水排出施設 設置許可・届出"
+    },
+    {
+      "slug": "entertainment-agency-business-registration",
+      "href": "/ja/services/entertainment-agency-business-registration",
+      "shortTitle": "韓国の大衆文化芸術企画業(芸能事務所)登録"
+    },
+    {
+      "slug": "entertainment-bar-business-permit",
+      "href": "/ja/services/entertainment-bar-business-permit",
+      "shortTitle": "韓国の遊興酒店 営業許可"
+    },
+    {
+      "slug": "foundation-establishment-permit",
+      "href": "/ja/services/foundation-establishment-permit",
+      "shortTitle": "韓国の財団法人 設立許可"
+    },
+    {
+      "slug": "hazardous-chemical-business-permit",
+      "href": "/ja/services/hazardous-chemical-business-permit",
+      "shortTitle": "韓国の有害化学物質 営業許可"
+    },
+    {
+      "slug": "long-term-care-institution-designation",
+      "href": "/ja/services/long-term-care-institution-designation",
+      "shortTitle": "韓国の長期療養機関 指定"
+    },
+    {
+      "slug": "marriage-brokerage-business-registration",
+      "href": "/ja/services/marriage-brokerage-business-registration",
+      "shortTitle": "韓国の結婚仲介業 届出・登録"
+    },
+    {
+      "slug": "money-lending-business-registration",
+      "href": "/ja/services/money-lending-business-registration",
+      "shortTitle": "韓国の貸金業 登録"
+    },
+    {
+      "slug": "pet-business-permit-registration",
+      "href": "/ja/services/pet-business-permit-registration",
+      "shortTitle": "韓国のペット関連営業 許可・登録"
+    },
+    {
+      "slug": "pharmaceutical-wholesale-license",
+      "href": "/ja/services/pharmaceutical-wholesale-license",
+      "shortTitle": "韓国の医薬品卸売業許可"
+    },
+    {
+      "slug": "real-estate-development-business-registration",
+      "href": "/ja/services/real-estate-development-business-registration",
+      "shortTitle": "韓国の不動産開発業登録"
+    },
+    {
+      "slug": "residential-lodging-business-report",
+      "href": "/ja/services/residential-lodging-business-report",
+      "shortTitle": "韓国の生活宿泊施設 宿泊業届出"
+    },
+    {
+      "slug": "rural-minbak-business-report",
+      "href": "/ja/services/rural-minbak-business-report",
+      "shortTitle": "韓国の農漁村民泊業 届出"
+    },
+    {
+      "slug": "software-business-performance-management",
+      "href": "/ja/services/software-business-performance-management",
+      "shortTitle": "韓国のソフトウェア事業者 届出・現況管理申請"
+    },
+    {
+      "slug": "solar-power-business-permit",
+      "href": "/ja/services/solar-power-business-permit",
+      "shortTitle": "韓国の太陽光発電事業許可"
+    },
+    {
+      "slug": "sports-facility-business-report",
+      "href": "/ja/services/sports-facility-business-report",
+      "shortTitle": "韓国の体育施設業届出"
+    },
+    {
+      "slug": "waste-treatment-business-permit",
+      "href": "/ja/services/waste-treatment-business-permit",
+      "shortTitle": "韓国の廃棄物処理業許可"
     }
   ]
 }

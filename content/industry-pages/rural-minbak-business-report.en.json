@@ -1,0 +1,104 @@
+{
+  "slug": "rural-minbak-business-report",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "Rural Homestay (Minbak) Business Report in Korea: Requirements & Procedure | YouSun Administrative Agency",
+  "h1": "Rural Homestay (Nongeochon Minbak) Business Report in Korea",
+  "lead": "A rural homestay business is run by a resident of a rural or fishing area using a detached house (including a multi-household house) that the resident lives in and owns, and it is reported to the head of the si/gun/gu (city, county or district). Whether the report is accepted is notified within 10 days of receipt, and the fee field on the report form reads \"None\". The house's total floor area must be under 230 m².",
+  "summaryLabel": "Summary",
+  "summary": [
+    "Scope: rural homestay businesses run by residents of rural, fishing or semi-rural areas.",
+    "Filed with: the head of the si/gun/gu.",
+    "Key requirements: a rural resident (living there 6 months or more), a detached house the applicant owns and lives in, and a total floor area under 230 m².",
+    "Processing period: acceptance notified within 10 days of filing (10 days per the form).",
+    "Statutory fee: the fee field on the report form reads \"None\"."
+  ],
+  "sections": [
+    {
+      "h2": "Is a rural homestay a permit or a report?",
+      "body": "It is subject to a report, not a permit. A person who intends to run a rural homestay business must file a rural homestay business report with the head of the si/gun/gu as prescribed by Ordinance of the Ministry of Agriculture, Food and Rural Affairs or the Ministry of Oceans and Fisheries, and the same applies when changing the reported details or closing the business. Facilities used for this business are excluded from the lodging business report under the Public Health Control Act."
+    },
+    {
+      "h2": "What are the requirements?",
+      "body": "The applicant must meet all of the following: (1) be a resident of a rural, fishing or semi-rural area; (2) have lived continuously in that si/gun/gu for 6 months or more (not required for a person who inherited a house already used for the business); (3) use a detached house (detached or multi-household house) in which the applicant lives; and (4) use a detached house that the applicant owns. Certain persons with a set record of operating on a lease may file without meeting the ownership requirement in (4). The house's total floor area must be under 230 m² (no limit for a house designated as a cultural heritage), and the operator must observe the service and safety standards."
+    },
+    {
+      "h2": "Which documents are needed?",
+      "body": "Attach to the rural homestay business report form: (1) documents proving the right of use, such as a copy of the house lease (if the applicant is not the owner); (2) a drinking-water quality test report issued within the last 2 years (if groundwater is used to serve breakfast); and (3) documents proving inheritance (for an inherited house). The resident registration abstract, family relationship certificate, building register and building registry certificate are checked through shared administrative information."
+    },
+    {
+      "h2": "What is the procedure?",
+      "body": "(1) Check the residence and ownership requirements and the floor area → (2) submit the report and documents → (3) review of the report → (4) issue of the report confirmation certificate. The confirmation certificate and price list must be displayed in a visible place in the homestay house, and the entrance and website must show a rural homestay business sign."
+    },
+    {
+      "h2": "How long does it take?",
+      "body": "The head of the si/gun/gu must notify whether a report or change report is accepted within 10 days of receipt, and the report form also states a processing period of 10 days."
+    },
+    {
+      "h2": "Which authority receives the report?",
+      "body": "File the report with the head of the si/gun/gu with jurisdiction over the house's location."
+    },
+    {
+      "h2": "What is the statutory fee?",
+      "body": "The fee field on the rural homestay business report form reads \"None\". Training costs are separate."
+    },
+    {
+      "h2": "Why is a report rejected or a penalty imposed?",
+      "body": "Typical reasons confirmed in the law are failing the residency or residence-period requirement, failing the requirement of a detached house the applicant lives in and owns, or exceeding the floor-area limit. A person who files a report by fraud or other improper means and runs a rural homestay business faces imprisonment of up to 1 year or a fine of up to KRW 10 million, and a person who runs the business without filing a change report faces an administrative fine of up to KRW 1 million."
+    },
+    {
+      "h2": "What can an administrative agent help with?",
+      "body": "YouSun Administrative Agency prepares documents such as the rural homestay business report and submits them to the authority on your authorization. House design or construction, fire or electrical safety inspections and tax work are not covered. Work restricted by other laws cannot be handled, and litigation or court representation is outside the scope of an administrative agent and is not offered. Acceptance is decided by the competent authority."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "Can anyone run a rural homestay?",
+      "a": "You must be a resident of a rural, fishing or semi-rural area who has lived in the si/gun/gu for 6 months or more, and run it in a detached house that you live in and own."
+    },
+    {
+      "q": "Can I run it in a rented house?",
+      "a": "If you meet certain requirements (such as living there 3 years or more and operating on a lease for 2 years or more), you can file without the ownership requirement; in that case you need documents proving the right of use, such as the lease."
+    },
+    {
+      "q": "Is there a limit on the house size?",
+      "a": "The house's total floor area must be under 230 m². There is no limit for a house designated as a cultural heritage."
+    },
+    {
+      "q": "Is there a report fee?",
+      "a": "The fee field on the report form reads \"None\"."
+    },
+    {
+      "q": "How soon is the report accepted?",
+      "a": "Acceptance is notified within 10 days of receipt."
+    },
+    {
+      "q": "Are there obligations while operating?",
+      "a": "Obligations include displaying the confirmation certificate and price list, observing the service and safety standards, completing training, keeping and submitting an annual electrical and gas safety inspection certificate, and displaying the business sign."
+    },
+    {
+      "q": "What if I close the business?",
+      "a": "Submit a rural homestay business closure report with the confirmation certificate attached to the head of the si/gun/gu."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Report: a person who intends to run a rural homestay business shall file a rural homestay business report with the head of the si/gun/gu as prescribed by Ordinance of the Ministry of Agriculture, Food and Rural Affairs or the Ministry of Oceans and Fisheries",
+      "source": "농어촌정비법 제86조"
+    },
+    {
+      "text": "Requirement: be a resident of a rural, fishing or semi-rural area",
+      "source": "농어촌정비법 제86조"
+    },
+    {
+      "text": "Attachment: one drinking-water quality test report issued within the last 2 years (only where groundwater rather than tap water is used as drinking water or for cooking to serve breakfast)",
+      "source": "농어촌정비법 시행규칙 제49조"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Agency (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}

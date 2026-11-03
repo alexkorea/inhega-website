@@ -1,0 +1,95 @@
+{
+  "slug": "drone-business-registration",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "Drone Business Registration in Korea: Requirements & Procedure | YouSun Administrative Agency",
+  "h1": "Drone Business Registration in Korea (Ultralight Flying Device Use Business)",
+  "lead": "To run a business using drones or other ultralight flying devices in Korea, you must register an ultralight flying device use business under the Aviation Business Act by submitting the registration application with a business plan. The processing period on the application form is 14 days. The capital requirement does not apply if you use only unmanned aircraft with a maximum takeoff weight of 25 kilograms or less.",
+  "summaryLabel": "Summary",
+  "summary": [
+    "Scope: businesses using ultralight flying devices (unmanned aircraft, etc.), such as filming, crop spraying or surveying.",
+    "Filed with: the Minister of Land, Infrastructure and Transport under the Act; under the Enforcement Rule, the application is submitted to the President of the Korea Transportation Safety Authority.",
+    "Key requirements: at least 1 pilot, at least 1 unmanned aircraft, insurance or mutual-aid coverage, and capital of KRW 30 million (not required if only unmanned aircraft of 25kg or less are used).",
+    "Processing period: 14 days on the application form."
+  ],
+  "sections": [
+    {
+      "h2": "Does a drone business need a permit or registration?",
+      "body": "It requires registration, not a permit. Anyone who intends to run an ultralight flying device use business must register with the Minister of Land, Infrastructure and Transport by attaching a business plan and other documents to the application, and must file a report to change certain registered matters set by Ordinance of the Ministry. This page covers business registration; aircraft reporting, pilot certification and the like fall under the Aviation Safety Act and need to be checked separately."
+    },
+    {
+      "h2": "What are the requirements for drone business registration?",
+      "body": "The registration requirements in the Enforcement Decree are: (1) capital or asset value: paid-in capital of at least KRW 30 million for a corporation, or assets valued at at least KRW 30 million for an individual (not required if only unmanned aircraft with a maximum takeoff weight of 25 kilograms or less are used); (2) at least 1 pilot; (3) at least 1 ultralight flying device (limited to unmanned aircraft); and (4) insurance or mutual-aid coverage. Disqualifications include being under adult or limited guardianship or being bankrupt and not reinstated, and a person whose registration was cancelled less than 2 years ago cannot register."
+    },
+    {
+      "h2": "Which documents are needed for drone business registration?",
+      "body": "Attach to the registration application: (1) documents proving or explaining that the registration requirements are met; (2) a business plan covering the business purpose and scope, safety management measures (including a safety inspection plan and an accident response manual), capital, trade name, facilities used, an outline of equipment, an outline of staff and the planned start date; and (3) proof that you may use the real estate, if you use someone else's property. The corporate register and real-estate register are checked through shared administrative information."
+    },
+    {
+      "h2": "What is the procedure for drone business registration?",
+      "body": "(1) Prepare the requirements (pilot, device, insurance) → (2) submit the registration application and documents → (3) if documents are incomplete, supplementation is requested within 7 days → (4) review of the requirements → (5) entry in the registration ledger and issuance of the registration certificate. Changes to registered matters (a decrease in capital, opening or changing a business office, changing the representative, trade name or business scope, etc.) must be reported within 30 days of the cause arising."
+    },
+    {
+      "h2": "How long does drone business registration take?",
+      "body": "The processing period on the application form is 14 days. If documents are incomplete, supplementation is requested within 7 days, so the actual time depends on whether supplementation is needed."
+    },
+    {
+      "h2": "Which authority receives drone business registration?",
+      "body": "The Act provides for registration with the Minister of Land, Infrastructure and Transport, and the Enforcement Rule provides that the registration application is submitted to the President of the Korea Transportation Safety Authority."
+    },
+    {
+      "h2": "Why is a drone business registration rejected?",
+      "body": "Typical reasons confirmed in the law are failing to meet the registration requirements (pilot, device, insurance, capital), falling under a disqualification, and incomplete documents. Running an ultralight flying device use business without registration can lead to imprisonment of up to 1 year or a fine of up to KRW 10 million."
+    },
+    {
+      "h2": "What can an administrative agent help with?",
+      "body": "YouSun Administrative Agency prepares documents such as the registration application and business plan and submits them to the authority on your authorization. Pilot training, taking out insurance, manufacturing or maintaining aircraft, and agency for airspace flight approvals are not handled. Work restricted by other laws cannot be handled, and litigation or court representation is outside the scope of an administrative agent and is not offered. Whether registration is granted is decided by the competent authority."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "Do I need to register to run a drone filming business?",
+      "a": "To run a business using ultralight flying devices to meet other people's demand, you need to register an ultralight flying device use business."
+    },
+    {
+      "q": "Must the capital really be KRW 30 million?",
+      "a": "The capital requirement does not apply if you use only unmanned aircraft with a maximum takeoff weight of 25 kilograms or less; otherwise, a corporation needs paid-in capital, or an individual needs assets valued, of at least KRW 30 million."
+    },
+    {
+      "q": "How many pilots are needed?",
+      "a": "At least 1 pilot."
+    },
+    {
+      "q": "Is insurance mandatory?",
+      "a": "Yes. You must take out insurance or mutual-aid coverage for bodily injury and property damage, either for each ultralight flying device or per business operator."
+    },
+    {
+      "q": "How many days does processing take?",
+      "a": "14 days on the application form; if documents are incomplete, supplementation may be requested within 7 days."
+    },
+    {
+      "q": "What happens if I run the business without registration?",
+      "a": "You may face imprisonment of up to 1 year or a fine of up to KRW 10 million."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Registration: a person who intends to run an ultralight flying device use business must register with the Minister of Land, Infrastructure and Transport by attaching a business plan and other documents set by Ordinance of the Ministry to the application",
+      "source": "항공사업법 제48조"
+    },
+    {
+      "text": "Requirement: meet the standards set by Presidential Decree, such as having at least 1 ultralight flying device",
+      "source": "항공사업법 제48조"
+    },
+    {
+      "text": "Attached document: proof that the real estate may be used (only where someone else's real estate is used)",
+      "source": "항공사업법 시행규칙 제47조"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Agency (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "residential-lodging-business-report",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "Residential Lodging Business Report in Korea: Requirements & Procedure | YouSun Administrative Agency",
+  "h1": "Residential Lodging Facility Business Report in Korea",
+  "lead": "A residential lodging facility is a facility that must file a lodging business report under the Public Health Control Act and meets requirements announced by the Minister of Land, Infrastructure and Transport. You prepare facilities that meet the lodging (residential) standards and file the report with the head of the si/gun/gu (city, county or district). The office issues the business report certificate immediately on receipt, and 3 hours of hygiene training must be completed before filing.",
+  "summaryLabel": "Summary",
+  "summary": [
+    "Scope: lodging (residential) — a business providing lodging services including cooking facilities (residential lodging facilities).",
+    "Filed with: the head of the si/gun/gu (for an autonomous district, the district head).",
+    "Key requirements: confirm the use on the building register, meet the lodging (residential) facility standards (cooking facilities, ventilation, a bathroom per room, etc.), and 3 hours of hygiene training.",
+    "Processing: the business report certificate is issued immediately on receipt (facilities are checked within 30 days after issue).",
+    "Fee: confirm the business report fee with the competent si/gun/gu office."
+  ],
+  "sections": [
+    {
+      "h2": "Is a residential lodging facility a permit or a report?",
+      "body": "The Enforcement Decree of the Building Act divides lodging facilities into general lodging facilities and residential lodging facilities, and defines a residential lodging facility as one that must file a lodging business report under the Public Health Control Act and meets requirements set and announced by the Minister of Land, Infrastructure and Transport. In other words, it is subject to a lodging business report, not a permit. The Enforcement Decree of the Public Health Control Act divides lodging into general (excluding cooking facilities) and residential (including cooking facilities)."
+    },
+    {
+      "h2": "What are the requirements?",
+      "body": "(1) Facility standards (lodging, residential): the business premises must be an independent place or separated from facilities and equipment used for other purposes, cooking facilities and ventilation facilities or windows must be installed, and each guest room must have a bathroom or shower room. A lodging business in part of a building requires the rooms to occupy separate floors, or 30 or more rooms, or a business area of at least one third of the building's total floor area.\n\n(2) Hygiene training: a person who intends to file must complete hygiene training in advance, which lasts 3 hours (within 6 months after filing where there are unavoidable reasons).\n\n(3) The same type of business cannot be operated until a set period has passed after a closure order. The use shown on the building register and the terms of the sales contract need to be checked separately."
+    },
+    {
+      "h2": "Which documents are needed?",
+      "body": "After meeting the facility and equipment standards, attach to the business report form an outline of the business facilities and equipment, documents proving the right to use those facilities and equipment, and the training completion certificate (if training was taken in advance). The building register and land-use plan confirmation are checked through shared administrative information, and land and building registry certificates are required where the report covers part of a building. An electrical safety inspection certificate applies where the premises are subject to inspection."
+    },
+    {
+      "h2": "What is the procedure?",
+      "body": "(1) Check the use on the building register and the facility standards → (2) complete 3 hours of hygiene training → (3) submit the business report and documents → (4) immediate issue of the business report certificate → (5) facility and equipment check (within 30 days after issue). The head of the si/gun/gu who receives the report issues the certificate immediately."
+    },
+    {
+      "h2": "How long does it take?",
+      "body": "The head of the si/gun/gu who receives the report issues the business report certificate immediately, and where the premises' facilities and equipment need checking, does so within 30 days after issue. Time for training and facility work is separate."
+    },
+    {
+      "h2": "Which authority receives the report?",
+      "body": "File the report with the head of the si/gun/gu (for an autonomous district, the district head) where the facility is located."
+    },
+    {
+      "h2": "What is the statutory fee?",
+      "body": "The lodging business report fee should be confirmed with the competent authority. Hygiene training costs are separate."
+    },
+    {
+      "h2": "Why is a report returned or supplementation requested?",
+      "body": "Typical reasons confirmed in the law are failing the lodging (residential) facility standards (cooking facilities, ventilation, a bathroom per room, an independent place), failing the room-count or floor-area criteria when filing for part of a building, missing documents proving the right of use, or incomplete hygiene training. Operating a lodging business without a report can lead to imprisonment of up to 2 years or a fine of up to KRW 20 million."
+    },
+    {
+      "h2": "What can an administrative agent help with?",
+      "body": "YouSun Administrative Agency prepares documents such as the business report and the facility and equipment outline and submits them to the authority on your authorization. Design for building use changes, fire-safety installations and advice on sales contracts are not covered. Work restricted by other laws cannot be handled, and litigation or court representation is outside the scope of an administrative agent and is not offered. Acceptance and the outcome are decided by the competent authority."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "How does a residential lodging facility differ from a general lodging business?",
+      "a": "Residential lodging provides lodging services including cooking facilities, while general lodging excludes cooking facilities."
+    },
+    {
+      "q": "Are cooking facilities mandatory?",
+      "a": "Lodging (residential) must have cooking facilities and ventilation facilities or windows, and each guest room must also have a bathroom or shower room."
+    },
+    {
+      "q": "Can only part of a building be used for lodging?",
+      "a": "A lodging business in part of a building requires the rooms to occupy separate floors, or 30 or more rooms, or a business area of at least one third of the building's total floor area."
+    },
+    {
+      "q": "Is hygiene training mandatory?",
+      "a": "Yes. You must take 3 hours of hygiene training before filing; where there are unavoidable reasons, it can be taken within 6 months after filing."
+    },
+    {
+      "q": "When is the business report certificate issued?",
+      "a": "The head of the si/gun/gu who receives the report issues it immediately, and checks the facilities and equipment within 30 days after issue."
+    },
+    {
+      "q": "What if I close the business?",
+      "a": "Report the closure to the head of the si/gun/gu within 20 days of closing."
+    },
+    {
+      "q": "What happens if I operate without a report?",
+      "a": "You can face imprisonment of up to 2 years or a fine of up to KRW 20 million."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Residential lodging facility: general lodging facilities and residential lodging facilities (facilities that must file a lodging business report under the Public Health Control Act and meet requirements set and announced by the Minister of Land, Infrastructure and Transport)",
+      "source": "건축법 시행령 별표 1"
+    },
+    {
+      "text": "Lodging (general): a business providing facilities (excluding cooking facilities) and equipment so that guests can sleep and stay",
+      "source": "공중위생관리법 시행령 제4조"
+    },
+    {
+      "text": "Lodging (residential) shall have a bathroom or shower room in each guest room",
+      "source": "공중위생관리법 시행규칙 별표 1"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [
+    {
+      "text": "Accommodation business report service",
+      "url": "/en/services/accommodation-business-report"
+    }
+  ],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Agency (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}

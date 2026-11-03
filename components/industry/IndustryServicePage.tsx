@@ -265,12 +265,17 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
 
                 {/* 관련 페이지 · 상담 안내 */}
                 <section className="svc-overview-content">
-                  <h2>{page.relatedHeading}</h2>
-                  <ul>
-                    {page.related.map((r) => (
-                      <li key={r.url}><Link href={r.url} style={{ color: 'var(--burgundy)', textDecoration: 'underline', textUnderlineOffset: '2px' }}>{r.text}</Link></li>
-                    ))}
-                  </ul>
+                  {/* QA1102 B-8: 그 언어판이 있는 관련 페이지가 없으면(번역 원고 related: []) 제목만 남기지 않는다. */}
+                  {page.related.length > 0 && (
+                    <>
+                      <h2>{page.relatedHeading}</h2>
+                      <ul>
+                        {page.related.map((r) => (
+                          <li key={r.url}><Link href={r.url} style={{ color: 'var(--burgundy)', textDecoration: 'underline', textUnderlineOffset: '2px' }}>{r.text}</Link></li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
                   <h2>{page.ctaHeading}</h2>
                   <CtaText text={page.cta} lang={lang} />
                 </section>

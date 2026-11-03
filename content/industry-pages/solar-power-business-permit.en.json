@@ -1,0 +1,104 @@
+{
+  "slug": "solar-power-business-permit",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "Solar Power Business Permit in Korea: Requirements, Documents, Procedure | YouSun Administrative Agency",
+  "h1": "Solar Power Generation Business Permit in Korea",
+  "lead": "A solar power generation business requires a permit under the Electricity Business Act. If the generating capacity is 3,000 kW or less, apply to the si/do governor (Mayor or Governor of the metropolitan city or province); above that, apply to the Minister of Climate, Energy and Environment. Before applying, residents' opinions must be gathered through a daily newspaper notice and public inspection, and the application form states a processing period of 60 days.",
+  "summaryLabel": "Summary",
+  "summary": [
+    "Scope: power generation businesses such as solar (one type of electricity business).",
+    "Filed with: the si/do governor for 3,000 kW or less; the Minister of Climate, Energy and Environment above that.",
+    "Key requirements: financial and technical capacity, ability to carry out the business as planned, and a residents' opinion-gathering procedure.",
+    "Processing period: 60 days per the application form.",
+    "Fee: confirm the permit application fee with the permitting authority."
+  ],
+  "sections": [
+    {
+      "h2": "Does a solar power business need a permit?",
+      "body": "Yes. A person who intends to run an electricity business must obtain a permit from the Minister of Climate, Energy and Environment or the si/do governor by type or scale of electricity business, and a change permit is also required for important changes. For a generation business, a permit may be granted for each power plant. The permitting authority is divided at a generating capacity of 3,000 kW."
+    },
+    {
+      "h2": "What are the permit requirements?",
+      "body": "The permit criteria for an electricity business are: (1) financial and technical capacity needed to carry out the business properly; (2) the business can be carried out as planned; (3) power plants or fuels are not concentrated in a particular region so as to hinder power grid operation; (4) for solar, wind and fuel-cell generation, a residents' opinion-gathering procedure through advance notice has been completed; and (5) other criteria required in the public interest set by Presidential Decree."
+    },
+    {
+      "h2": "Which documents are needed?",
+      "body": "Attach to the electricity business permit application form: (1) a business plan (prepared under the prescribed method with related documents attached); (2) for a corporation, the articles of incorporation, statement of financial position and income statement (only the articles for a corporation being established); (3) the applicant's shareholder register (not required for applicants of 3,000 kW or less); (4) the results of the residents' opinion gathering (for solar and similar projects); and (5) documents for the permits and approvals you want deemed granted. The corporate register certificate is checked by the official in charge through shared administrative information."
+    },
+    {
+      "h2": "What is the procedure?",
+      "body": "(1) Daily newspaper notice and public inspection (residents' opinion gathering) → (2) submit the permit application and documents → (3) review by the permitting authority (deliberation by the Electricity Regulatory Commission for more than 3,000 kW) → (4) permit and designation of a preparation period → (5) install the electrical facilities and start the business within the preparation period → (6) report the start of business (for a generation business, within 30 days of the first power trade). The opinion-gathering notice must be published 14 days before the permit application date for projects subject to environmental impact assessment, and 7 days before for projects subject to small-scale environmental impact assessment and the like."
+    },
+    {
+      "h2": "How long does it take?",
+      "body": "The application form states a processing period of 60 days. The preparation period is designated by the permitting authority and may not exceed the period announced by the Minister within a range of 10 years. Time for opinion gathering and deemed permits is separate."
+    },
+    {
+      "h2": "Which authority receives the application?",
+      "body": "For a generation business with a capacity of 3,000 kW or less, submit the application to the Mayor of a Special or Metropolitan City, Mayor of a Special Self-Governing City, Do Governor or Governor of a Special Self-Governing Province; above 3,000 kW, submit it to the Minister of Climate, Energy and Environment."
+    },
+    {
+      "h2": "What is the statutory fee?",
+      "body": "The electricity business permit application fee should be confirmed with the competent authority. Fees for electrical facility inspections and the like are set separately and are distinct from the permit application."
+    },
+    {
+      "h2": "Why is an application rejected?",
+      "body": "Typical reasons confirmed in the law are insufficient financial or technical capacity, an unrealistic business plan, or failure to complete the residents' opinion-gathering procedure. Running an electricity business without a permit or change permit can lead to imprisonment of up to 3 years or a fine of up to KRW 30 million. Development activity permits, farmland conversion and the like for the site fall under other laws, so check them in advance."
+    },
+    {
+      "h2": "What can an administrative agent help with?",
+      "body": "YouSun Administrative Agency prepares documents such as the electricity business permit application and business plan and submits them to the authority on your authorization. Design, construction and grid-connection work, electrical safety inspections and tax work are not covered. Work restricted by other laws cannot be handled, and litigation or court representation is outside the scope of an administrative agent and is not offered. Whether a permit is granted is decided by the permitting authority."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "Is a permit really required to build a solar power plant?",
+      "a": "A person who intends to run an electricity business must obtain a permit from the Minister of Climate, Energy and Environment or the si/do governor depending on the scale."
+    },
+    {
+      "q": "What is the difference between 3,000 kW or less and above?",
+      "a": "3,000 kW or less goes to the si/do governor and above that to the Minister of Climate, Energy and Environment, and the duty to submit a shareholder register applies only to applicants above 3,000 kW."
+    },
+    {
+      "q": "How are residents' opinions gathered?",
+      "a": "Publish the project name, location and area, main details, applicant, and the period and method for submitting opinions in a daily newspaper mainly circulated in the area where the plant is located, and make the details available for residents to inspect."
+    },
+    {
+      "q": "How long is the permit processing period?",
+      "a": "60 days per the application form."
+    },
+    {
+      "q": "By when must the business start after the permit?",
+      "a": "You must install the electrical facilities and start the business within the preparation period designated by the permitting authority, which is set within a range of 10 years."
+    },
+    {
+      "q": "Must I report when the business starts?",
+      "a": "Yes. Report to the permitting authority without delay once the business starts; a generation business must report within 30 days of its first power trade."
+    },
+    {
+      "q": "What happens if I run a generation business without a permit?",
+      "a": "You can face imprisonment of up to 3 years or a fine of up to KRW 30 million."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Permit: a person who intends to run an electricity business shall obtain a permit from the Minister of Climate, Energy and Environment or the si/do governor (permitting authority) by type or scale of electricity business, as prescribed by Presidential Decree",
+      "source": "전기사업법 제7조"
+    },
+    {
+      "text": "For a generation business, a permit may be granted for each power plant",
+      "source": "전기사업법 제7조"
+    },
+    {
+      "text": "Notice item: the period and method for submitting opinions",
+      "source": "전기사업법 시행령 제4조의2"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Agency (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}

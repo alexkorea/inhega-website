@@ -1,0 +1,109 @@
+{
+  "slug": "emission-facility-permit-report",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "Air & Wastewater Emission Facility Permit or Report in Korea | YouSun Administrative Agency",
+  "h1": "Air and Wastewater Emission Facility Installation Permit and Report in Korea",
+  "lead": "To install a facility that discharges air pollutants or wastewater at a factory or similar site in Korea, you must obtain an installation permit or file an installation report under the Clean Air Conservation Act and the Water Environment Conservation Act. Facilities that discharge specified hazardous substances or are installed in special countermeasure areas, among others, need a permit; other facilities need a report. For a wastewater discharge facility installation report, you are notified whether it is accepted within 10 days.",
+  "summaryLabel": "Summary",
+  "summary": [
+    "Scope: air pollutant emission facilities (Clean Air Conservation Act) and wastewater discharge facilities (Water Environment Conservation Act).",
+    "Permit: facilities discharging specified hazardous substances at or above the threshold, facilities installed in special countermeasure areas, etc. / Report: all other facilities.",
+    "Documents: installation permit application or installation report, plus a statement of projected emissions, a specification of the prevention facilities, and more.",
+    "Fees: confirm permit and report fees with the competent authority.",
+    "Processing: 10 days on the form (60 days for zero-discharge wastewater facilities)."
+  ],
+  "sections": [
+    {
+      "h2": "Is installing an emission facility subject to a permit or a report?",
+      "body": "It depends on the type of facility and where it is installed. For air pollutant emission facilities, facilities that generate specified hazardous air pollutants at or above the threshold and facilities installed in special countermeasure areas (with some exceptions) need a permit, and other emission facilities need an installation report. For wastewater discharge facilities, facilities that discharge specified hazardous water pollutants at or above the threshold and facilities installed in special countermeasure areas, installation restriction areas, water-source protection areas and the like need a permit, and other facilities need a report. If a site has both air and wastewater facilities, each must go through the procedure under its own law."
+    },
+    {
+      "h2": "What are the requirements for an emission facility permit or report?",
+      "body": "(1) Permit standards (air): the pollutants discharged must be treatable to the permissible emission standards or below, and the facility must not violate installation restrictions under other laws.\n\n(2) Permit standards (wastewater): the pollutants must be treatable to the permissible discharge standards or below and the facility must not violate installation restrictions under other laws; a zero-discharge wastewater facility must also have separation and collection facilities, prevention facilities that treat pollutants as solid waste, and blocking and retention facilities so that wastewater does not flow or leak into public waters.\n\n(3) Installation restrictions: installation may be restricted in areas upstream of water-source protection areas, special countermeasure areas and similar areas.\n\n(4) Report before operation: after installing the emission and prevention facilities, you must file a start-of-operation report in advance before operating them."
+    },
+    {
+      "h2": "Which documents are needed for an emission facility permit or report?",
+      "body": "Air: attach to the emission facility installation permit application or installation report a statement of raw material and fuel consumption, product output and projected pollutant emissions; a specification of the emission facilities and air pollution prevention facilities; general drawings of the prevention facilities; and an annual maintenance plan for the prevention facilities. Wastewater: attach to the wastewater discharge facility installation permit application or installation report a location map of the facilities and a wastewater discharge process flow chart; a statement of raw material (including water) use, product output and expected water pollutants; and a specification and drawings of the prevention facilities (for a report, a layout plan may replace the drawings). For a change permit, the installation permit is also attached."
+    },
+    {
+      "h2": "What is the procedure for an emission facility permit or report?",
+      "body": "(1) Check the configuration of emission and prevention facilities and whether a permit or a report applies → (2) prepare documents (including emission projections and prevention facility design) → (3) submit the installation permit application or installation report → (4) receive the permit or report certificate → (5) install the facilities → (6) file the start-of-operation report, then operate. Designing and building prevention facilities and calculating emissions are the domain of specialist firms, and our office does not do this work for you."
+    },
+    {
+      "h2": "How long does an emission facility permit or report take?",
+      "body": "On the application form, the processing period for an air emission facility installation permit or report is 10 days. The Enforcement Rule of the Water Environment Conservation Act sets the period for notifying acceptance of a wastewater discharge facility installation report at 10 days (5 days for a change report), and the form shows 60 days for zero-discharge wastewater facilities. If acceptance is not notified within the set period, the report is deemed accepted on the day after the period ends. Time for installing prevention facilities is separate."
+    },
+    {
+      "h2": "Which authority receives an emission facility permit or report?",
+      "body": "Under the law, air emission facilities are permitted by or reported to the si/do governor (the Minister of Climate, Energy and Environment for facilities installed by a si/do and similar cases), and wastewater discharge facilities are permitted by or reported to the Minister of Climate, Energy and Environment. Check the actual filing office and delegation arrangements with the environment department of the si/do where the site is located or the river basin or regional environmental office."
+    },
+    {
+      "h2": "What is the statutory fee for an emission facility permit or report?",
+      "body": "Confirm the emission facility installation permit and report fees with the competent authority."
+    },
+    {
+      "h2": "Why is an emission facility permit or report returned or supplementation requested?",
+      "body": "Typical reasons confirmed in the law are a risk of exceeding the permissible emission standards, violating installation restrictions under other laws, a site in an installation restriction area, and an inadequate plan for installing prevention facilities. Installing or operating an air emission facility without a permit can lead to imprisonment of up to 7 years or a fine of up to KRW 100 million, and doing so without a report can lead to imprisonment of up to 5 years or a fine of up to KRW 50 million. For wastewater discharge facilities, operating without a permit can lead to imprisonment of up to 7 years or a fine of up to KRW 70 million, and without a report to imprisonment of up to 5 years or a fine of up to KRW 50 million."
+    },
+    {
+      "h2": "What can an administrative agent help with?",
+      "body": "YouSun Administrative Agency prepares the installation permit application or installation report and attachments, reviews the requirements, and submits them to the authority on your authorization. Designing and building prevention facilities, measuring pollutants and the duties of environmental technicians belong to specialist firms and licensed professionals and are not handled. Work restricted by other laws cannot be handled, and litigation or court representation is outside the scope of an administrative agent and is not offered. Whether a permit is granted or a report accepted is decided by the competent authority."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "Is an emission facility subject to a permit or a report?",
+      "a": "Facilities that discharge specified hazardous substances at or above the threshold or are installed in special countermeasure areas and the like need a permit; other facilities need a report. The detailed criteria differ between the air and wastewater laws."
+    },
+    {
+      "q": "How soon after filing is a report accepted?",
+      "a": "For a wastewater discharge facility installation report, acceptance is notified within 10 days (5 days for a change report), and the processing period on the form for air emission facilities is also 10 days. If no notice is given within the period, the report is deemed accepted on the next day."
+    },
+    {
+      "q": "Can I start operating right after receiving the permit?",
+      "a": "No. After installing the facilities, you must file a start-of-operation report in advance before operating them."
+    },
+    {
+      "q": "Do I need a new change permit if I expand the facility?",
+      "a": "Important changes, such as an expansion of 50% or more (30% or more for facilities emitting specified hazardous air pollutants) of the total or cumulative scale of the permitted or reported emission facilities, require a change permit; other matters require a change report."
+    },
+    {
+      "q": "Can an emission facility be built in an installation restriction area?",
+      "a": "In installation restriction areas such as those upstream of water-source protection areas, installation is restricted in principle, but there is an exception allowing a facility that discharges specified hazardous water pollutants to be installed as a zero-discharge wastewater facility."
+    },
+    {
+      "q": "Can conditions be attached to the permit?",
+      "a": "Yes. The minimum conditions needed to protect residents' health or the surrounding environment (permit conditions) may be attached."
+    },
+    {
+      "q": "What happens if I install or operate a facility without a report?",
+      "a": "For an air emission facility, imprisonment of up to 5 years or a fine of up to KRW 50 million; for a wastewater discharge facility, also imprisonment of up to 5 years or a fine of up to KRW 50 million."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Air emission facility installation: a person who intends to install an emission facility must obtain a permit from, or file a report with, the si/do governor as prescribed by Presidential Decree",
+      "source": "대기환경보전법 제23조"
+    },
+    {
+      "text": "Permit scope: emission facilities generating specified hazardous air pollutants at or above the threshold set by Ordinance of the Ministry of Climate, Energy and Environment",
+      "source": "대기환경보전법 시행령 제11조"
+    },
+    {
+      "text": "Processing period: 10 days",
+      "source": "대기환경보전법 시행규칙 서식 2"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [
+    {
+      "text": "Factory establishment and registration service",
+      "url": "/en/services/factory"
+    }
+  ],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Agency (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}

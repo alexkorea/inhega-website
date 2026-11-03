@@ -1,0 +1,95 @@
+{
+  "slug": "software-business-performance-management",
+  "lang": "en",
+  "lawBasisDate": "2026-10-02",
+  "title": "Software Business Operator Status Application in Korea: Documents & Period | YouSun Administrative Agency",
+  "h1": "Software Business Operator Report and Status Management Application in Korea",
+  "lead": "Under the Software Promotion Act, the procedure for software business operators is not a business permit or registration but an application for management of the operator's general status (new or change). The prescribed application form is submitted to the operator performance management agency, and the form states a processing period of 7 days.",
+  "summaryLabel": "Summary",
+  "summary": [
+    "Scope: persons engaged in software business (software business operators).",
+    "Nature: not a business permit or registration but an application for keeping and managing data such as performance records (the rule says the operator \"may\" submit).",
+    "Filed with: the operator performance management agency that keeps and manages software business operators' performance data.",
+    "Processing period: 7 days per the application form."
+  ],
+  "sections": [
+    {
+      "h2": "Do software businesses need a permit or a report?",
+      "body": "The operator procedure found in the Software Promotion Act is not a permit or registration to start business but an application for keeping and managing data such as performance records. To promote the software industry, the Minister of Science and ICT may have software business operators submit data such as technical personnel and project performance records, and must keep and manage the data submitted. A software business operator means a person engaged in software business."
+    },
+    {
+      "h2": "What are the requirements for the status management application?",
+      "body": "The law sets no separate qualification or facility requirements; a person engaged in software business fills in and submits the general status management application. The application records the business field (computer-related services, packaged software development and supply, etc.), company name and business registration number, representative, number of regular employees (number of software engineers), financial status and similar details."
+    },
+    {
+      "h2": "Which documents are needed?",
+      "body": "Attach to the general status management application a mid-sized enterprise confirmation (only for mid-sized enterprises) and other documents that objectively prove the performance records or changes to them. The corporate register certificate, business registration certificate, certificate of business suspension or closure status, certified financial statements and SME confirmation are checked through shared administrative information. If you want project performance records kept and managed as well, submit the separate project performance management application with the contracts and documents confirming the performance."
+    },
+    {
+      "h2": "What is the procedure?",
+      "body": "(1) Prepare the application (it can also be filed through the integrated software industry information management system) → (2) submit it to the operator performance management agency → (3) items are checked through shared administrative information → (4) on request, a general status management confirmation and a project performance certificate are issued."
+    },
+    {
+      "h2": "How long does it take?",
+      "body": "The general status management application form states a processing period of 7 days."
+    },
+    {
+      "h2": "Which body receives the application?",
+      "body": "Submit it to the operator performance management agency that keeps and manages software business operators' performance data."
+    },
+    {
+      "h2": "Why is an application returned?",
+      "body": "No provision in the law sets out specific grounds for returning the application. If documents objectively proving the performance are insufficient or the application differs from the supporting documents, supplementation may be requested, so it is best to organize the evidence first."
+    },
+    {
+      "h2": "What can an administrative agent help with?",
+      "body": "YouSun Administrative Agency prepares the status management application and performance evidence and supports submission on your authorization. Software development, quality certification testing, and tax or accounting work are not covered. Work restricted by other laws cannot be handled, and litigation or court representation is outside the scope of an administrative agent and is not offered. The outcome is decided by the competent body."
+    }
+  ],
+  "faqHeading": "Frequently Asked Questions",
+  "faq": [
+    {
+      "q": "Must a software business always file a report?",
+      "a": "The Software Promotion Act provides that operators may submit the general status management application, and no business permit or registration system is found in it."
+    },
+    {
+      "q": "Where do I submit it?",
+      "a": "To the operator performance management agency; it can also be filed through the integrated software industry information management system."
+    },
+    {
+      "q": "How long is the processing period?",
+      "a": "7 days per the application form."
+    },
+    {
+      "q": "How do I get a project performance certificate?",
+      "a": "After applying for project performance management, the operator performance management agency issues the project performance certificate on request."
+    },
+    {
+      "q": "What if details change?",
+      "a": "File a change application by ticking the change box on the general status management application form."
+    },
+    {
+      "q": "Are extra documents needed for a mid-sized enterprise?",
+      "a": "A software business operator that is a mid-sized enterprise attaches a mid-sized enterprise confirmation."
+    }
+  ],
+  "citationsHeading": "Official Standards",
+  "citations": [
+    {
+      "text": "Performance management: may have software business operators submit data such as technical personnel and project performance records",
+      "source": "소프트웨어 진흥법 제58조"
+    },
+    {
+      "text": "Documents: attach the following documents to the software business operator general status management application in the prescribed form",
+      "source": "소프트웨어 진흥법 시행규칙 제17조"
+    },
+    {
+      "text": "Processing period: 7 days",
+      "source": "소프트웨어 진흥법 시행규칙 서식 25"
+    }
+  ],
+  "relatedHeading": "Related Pages",
+  "related": [],
+  "ctaHeading": "Contact",
+  "cta": "YouSun Administrative Agency (+82-2-363-2251) supports document review and filing with the competent authority. Contact: /en/contact"
+}
