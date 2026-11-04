@@ -141,6 +141,8 @@ export default function Navbar() {
             className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="메뉴"
+            aria-expanded={menuOpen}
+            aria-controls="site-mobile-menu"
           >
             <span /><span /><span />
           </button>
@@ -148,7 +150,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
+      <div id="site-mobile-menu" className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
         <nav className={styles.mobileNav}>
           {/* QA1102 B-2: 상담·견적을 서랍 맨 위에 둔다(13개 분야 목록 끝까지 내려야 보이던 문제). */}
           <div className={styles.mobileCta}>
