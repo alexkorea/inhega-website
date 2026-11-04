@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
 import ArticleBody from '@/components/blog/ArticleBody'
 import FocusPillarLink from '@/components/blog/FocusPillarLink'
-import { publisherLogo } from '@/lib/org-jsonld'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ContactLine } from '@/components/ui/ContactLineIcon'
@@ -94,8 +93,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     dateModified: post.updated_at ?? post.created_at,
     image: [`https://inhega.co.kr${ogThumb('ko', post.slug || post.id)}`],
     // NAVER-SEO-FIX-1031: 저자 = 등록부 브랜드 D 대표 행정사(Person), 소속 = 사무소 노드(@id)
-    author: { '@type': 'Person', name: '정유선', jobTitle: '대표 행정사', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization', name: '유선행정사사무소' } },
-    publisher: { '@type': 'Organization', name: '유선행정사사무소', url: 'https://inhega.co.kr', logo: publisherLogo },
+    author: { '@type': 'Person', name: '정유선', jobTitle: '대표 행정사', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' } },
+    publisher: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/blog/${post.slug || post.id}` },
   }
 
@@ -161,7 +160,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     상담 신청하기
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <ContactLine icon="pin">서울특별시 중구 퇴계로 324, 3층</ContactLine>
+                    <ContactLine icon="pin">서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩)</ContactLine>
                     <ContactLine icon="clock">평일 09:30~17:30 KST (토·일·공휴일 휴무)</ContactLine>
                     <ContactLine icon="chat">카카오·라인·위챗·왓츠앱: alexkorea</ContactLine>
                   </div>

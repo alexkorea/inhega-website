@@ -83,8 +83,8 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
     dateModified: koPost.updated_at ?? koPost.created_at,
     image: [`https://inhega.co.kr${ogThumb('en', slug)}`],
     // NAVER-SEO-FIX-1031: 저자 = 등록부 브랜드 D 대표 행정사(Person, 표기는 사이트 푸터와 같게)
-    author: { '@type': 'Person', name: 'Jung Yu-sun', jobTitle: 'Chief Administrative Agent', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization', name: 'YouSun Administrative Agency' } },
-    publisher: { '@type': 'Organization', name: 'YouSun Administrative Agency', url: 'https://inhega.co.kr/en' },
+    author: { '@type': 'Person', name: 'Jung Yu-sun', jobTitle: 'Chief Administrative Agent', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' } },
+    publisher: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/en/blog/${slug}` },
     inLanguage: 'en',
   }
@@ -161,7 +161,7 @@ export default async function EnBlogPostPage({ params }: { params: Promise<{ slu
                     Request a Consultation
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <ContactLine icon="pin">324 Toegyero, 3F, Jung-gu, Seoul</ContactLine>
+                    <ContactLine icon="pin">3F Seongwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul 04614, Korea</ContactLine>
                     <ContactLine icon="clock">Mon–Fri 09:30–17:30 KST</ContactLine>
                     <ContactLine icon="chat">KakaoTalk · LINE · WeChat · WhatsApp: alexkorea</ContactLine>
                   </div>

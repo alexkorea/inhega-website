@@ -83,8 +83,8 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
     dateModified: koPost.updated_at ?? koPost.created_at,
     image: [`https://inhega.co.kr${ogThumb('zh', slug)}`],
     // NAVER-SEO-FIX-1031: 저자 = 등록부 브랜드 D 대표 행정사(Person, 표기는 사이트 푸터와 같게)
-    author: { '@type': 'Person', name: '鄭有善', jobTitle: '代表行政士', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization', name: 'YouSun Administrative Agency' } },
-    publisher: { '@type': 'Organization', name: 'YouSun Administrative Agency', url: 'https://inhega.co.kr/zh' },
+    author: { '@type': 'Person', name: '鄭有善', jobTitle: '代表行政士', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' } },
+    publisher: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/zh/blog/${slug}` },
     inLanguage: 'zh-CN',
   }
@@ -161,7 +161,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
                     申请咨询
                   </Link>
                   <div style={{ marginTop: '1.25rem', fontSize: '0.75rem', color: 'var(--slate-light)', lineHeight: 1.7 }}>
-                    <ContactLine icon="pin">首尔中区退溪路324, 3层</ContactLine>
+                    <ContactLine icon="pin">首尔特别市中区退溪路324号成宇大厦3层（04614）</ContactLine>
                     <ContactLine icon="clock">周一至周五 09:30~17:30 KST</ContactLine>
                     <ContactLine icon="chat">微信 · KakaoTalk · LINE · WhatsApp: alexkorea</ContactLine>
                   </div>

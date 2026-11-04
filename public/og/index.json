@@ -10048,6 +10048,38 @@
    "slug": "telecom-report-online-mall-app",
    "generated_at": "2026-11-03T02:56:14.178Z",
    "version": "1.4"
+  },
+  "news/fr-2026-22203": {
+   "hash": "5429e58b8f36d2fe4fc91c85f60b492612fea75e495567643e76c7c683f5805d",
+   "source": "pexels",
+   "seed": 3469217004,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 40524239,
+   "pexels_author": "yao li",
+   "category": "의료기기",
+   "visa": null,
+   "lang": "ko",
+   "slug": "fr-2026-22203",
+   "generated_at": "2026-11-04T01:32:31.495Z",
+   "version": "1.4"
+  },
+  "news/fr-2026-22213": {
+   "hash": "f3d8261941e13dbf3c2265dd5c407edadd21be55348029733e8fcbe3840b81cd",
+   "source": "pexels",
+   "seed": 1013196328,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 19913593,
+   "pexels_author": "Cem Gizep",
+   "category": "차고문 자동개폐기",
+   "visa": null,
+   "lang": "ko",
+   "slug": "fr-2026-22213",
+   "generated_at": "2026-11-04T01:32:32.370Z",
+   "version": "1.4"
   }
  }
 }

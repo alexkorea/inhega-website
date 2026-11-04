@@ -22,10 +22,13 @@ const organizationBase = {
   '@type': ['Organization', 'ProfessionalService'],
   '@id': ORG_ID,
   name: '유선행정사사무소',
-  alternateName: 'YouSun Administrative Agency',
+  alternateName: ['YouSun Administrative Agency', 'inhega', '인허가'],
   legalName: '유선행정사사무소',
   url: SITE_URL,
   logo: ORG_LOGO_URL,
+  // AI-RECO-2 C-1(11-04): image = 실사진 OG(1200×630), availableLanguage = 상담 언어(화면 사무소 카드 '한국어·영어·중국어·일본어' 와 동일)
+  image: `${SITE_URL}/og-image.png`,
+  availableLanguage: ['ko', 'en', 'zh', 'ja'],
   sameAs: ['https://map.naver.com/p/entry/place/2048530498', 'https://blog.naver.com/yousunnyvisa'],
   knowsLanguage: ['ko', 'en', 'zh', 'ja'],
   taxID: '722-39-01297',
@@ -34,7 +37,7 @@ const organizationBase = {
   email: 'help@inhega.co.kr',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '퇴계로 324, 3층 (성우빌딩)',
+    streetAddress: '퇴계로 324, 3층(광희동2가, 성우빌딩)',
     addressLocality: '중구',
     addressRegion: '서울특별시',
     postalCode: '04614',

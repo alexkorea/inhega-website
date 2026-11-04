@@ -230,7 +230,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     officeName: '유선행정사사무소',
     officeIntro: '유선행정사사무소는 서울 중구 퇴계로에 있는 행정사사무소로, 행정기관에 내는 인허가·등록·신고 서류의 작성과 제출 대행을 맡습니다. 한국어·영어·중국어·일본어로 상담합니다.',
     officeRows: [
-      { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층(성우빌딩)' },
+      { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩)' },
       { label: '대표전화', value: '02-363-2251', href: PHONE_HREF },
       { label: '운영시간', value: '평일 09:30~17:30 (토·일·공휴일 휴무)' },
       { label: '상담 언어', value: '한국어 · 영어 · 중국어 · 일본어' },

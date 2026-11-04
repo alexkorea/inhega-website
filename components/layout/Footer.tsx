@@ -29,7 +29,7 @@ export default function Footer() {
                   <span>사업자등록번호 722-39-01297</span>
                 </p>
                 <p>
-                  <span>서울특별시 중구 퇴계로 324, 3층</span>
+                  <span>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩)</span>
                   <span>전화 <a href="tel:02-363-2251">02-363-2251</a></span>
                   <span><EmailOff><a href="mailto:help@inhega.co.kr">help@inhega.co.kr</a></EmailOff></span>
                 </p>

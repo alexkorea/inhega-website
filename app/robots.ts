@@ -14,6 +14,12 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: '/api/',
       },
+      // AI-RECO-2 A-3(2026-11-04): 검색봇 6종 명시 그룹(* 그룹을 대체하므로 disallow 그대로 복사)
+      ...['OAI-SearchBot', 'ChatGPT-User', 'Bingbot', 'PerplexityBot', 'Claude-SearchBot', 'Googlebot'].map((userAgent) => ({
+        userAgent,
+        allow: '/',
+        disallow: '/api/',
+      })),
       {
         userAgent: 'Amazonbot',
         disallow: '/',
