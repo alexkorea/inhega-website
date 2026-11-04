@@ -800,3 +800,7 @@
 /en/blog/telecom-report-online-mall-app
 /ja/blog/telecom-report-online-mall-app
 /zh/blog/telecom-report-online-mall-app
+/en/services/all
+/ja/services/all
+/services/all
+/zh/services/all
