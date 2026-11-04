@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
 import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
@@ -28,6 +29,10 @@ export default function JaContactPage() {
     <>
       <BreadcrumbLd items={[{ name: 'ホーム', path: '/ja' }, { name: 'お問い合わせ', path: '/ja/contact' }]} />
       <ContactForm />
+      {/* AI-RECO-2 E-2: 처리 업무 전체 목록 상호 링크 */}
+      <section className="container" style={{ padding: '0 0 var(--section-py-sm)' }}>
+        <p><Link prefetch={false} href="/ja/services/all" style={{ color: 'var(--navy)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px', display: 'inline-flex', alignItems: 'center', minHeight: '44px' }}>取扱業務一覧を見る</Link></p>
+      </section>
     </>
   )
 }

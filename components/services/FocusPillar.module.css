@@ -223,3 +223,11 @@
   .servicesList { grid-template-columns: 1fr; }
   .officeRows div { grid-template-columns: 1fr; gap: 0; }
 }
+
+/* AI-RECO-2 E-1·E-4(2026-11-04): 첫 화면 질문 소제목 · 최종 수정일 */
+.updated { margin: 0 0 0.75rem; font-size: 0.8125rem; color: var(--slate); }
+.ask { margin-top: 1rem; background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 1.125rem 1.25rem; scroll-margin-top: 6rem; }
+.askHeading { font-size: 1.125rem; font-weight: 700; color: var(--charcoal); line-height: 1.5; margin: 0 0 0.5rem; }
+.askList { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.25rem; }
+.askQ { margin: 0; font-size: 0.9875rem; font-weight: 600; line-height: 1.55; min-width: 0; overflow-wrap: anywhere; }
+.askQ a { display: inline-flex; align-items: center; min-height: 44px; color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }

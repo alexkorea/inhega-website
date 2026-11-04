@@ -220,6 +220,10 @@ export default function AboutPage() {
               </Link>
             ))}
           </div>
+          {/* AI-RECO-2 E-2: 처리 업무 전체 목록(정식 명칭·관할 기관·대상) 상호 링크 */}
+          <p style={{ marginBottom: '2rem' }}>
+            <Link href="/services/all" prefetch={false} style={{ color: 'var(--navy)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px' }}>처리 업무 전체 목록 보기(정식 명칭·관할 기관·대상)</Link>
+          </p>
           <h3 className="text-h3" style={{ color: 'var(--navy)', marginBottom: '1rem' }}>그 밖의 주요 인허가 분야</h3>
           <div className="about-expertise-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {expertise.map((e, i) => (

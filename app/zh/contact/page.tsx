@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import type { Metadata } from 'next'
 import ContactForm from './ContactForm'
 import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
@@ -28,6 +29,10 @@ export default function ZhContactPage() {
     <>
       <BreadcrumbLd items={[{ name: '首页', path: '/zh' }, { name: '联系我们', path: '/zh/contact' }]} />
       <ContactForm />
+      {/* AI-RECO-2 E-2: 처리 업무 전체 목록 상호 링크 */}
+      <section className="container" style={{ padding: '0 0 var(--section-py-sm)' }}>
+        <p><Link prefetch={false} href="/zh/services/all" style={{ color: 'var(--navy)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px', display: 'inline-flex', alignItems: 'center', minHeight: '44px' }}>查看办理业务一览</Link></p>
+      </section>
     </>
   )
 }

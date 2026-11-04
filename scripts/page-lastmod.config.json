@@ -82,12 +82,52 @@
    "lib/services-catalog.ts",
    "lib/i18n/services-i18n.ts",
    "app/ja/services/[slug]/page.tsx"
+  ],
+  "pillar-ui": [
+   "components/services/FocusPillar.tsx",
+   "lib/focus-pillar-view.ts",
+   "lib/page-lastmod.ts"
+  ],
+  "focus:ko": [
+   "lib/focus-pillars.ts",
+   "lib/focus-situations.ts",
+   "lib/focus-expertise.ts",
+   "lib/focus-services.ts"
+  ],
+  "focus:en": [
+   "lib/focus-pillars-i18n.ts",
+   "lib/focus-situations.ts",
+   "lib/focus-expertise.ts",
+   "lib/focus-services.ts"
+  ],
+  "focus:zh": [
+   "lib/focus-pillars-i18n.ts",
+   "lib/focus-situations.ts",
+   "lib/focus-expertise.ts",
+   "lib/focus-services.ts"
+  ],
+  "focus:ja": [
+   "lib/focus-pillars-i18n.ts",
+   "lib/focus-situations.ts",
+   "lib/focus-expertise.ts",
+   "lib/focus-services.ts"
+  ],
+  "svc-list": [
+   "lib/service-list.ts",
+   "lib/service-list-agency.ts",
+   "components/services/ServiceListPage.tsx",
+   "lib/service-directory.ts"
   ]
  },
  "dirs": [
   {
    "prefix": "ind:",
    "dir": "content/industry-pages",
+   "re": "\\.json$"
+  },
+  {
+   "prefix": "ru:",
+   "dir": "content/reco-units",
    "re": "\\.json$"
   }
  ]

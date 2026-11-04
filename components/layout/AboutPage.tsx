@@ -189,6 +189,14 @@ const SCOPE_TEXT: Record<Locale, { focus: string; other: string; more: string }>
   zh: { focus: '重点业务', other: '其他主要许可领域', more: '了解详情' },
   ja: { focus: '重点業務', other: 'その他の主な許認可分野', more: '詳しく見る' },
 }
+// AI-RECO-2 E-2: 처리 업무 전체 목록 링크 문구
+const SERVICE_LIST_LINK: Record<Locale, string> = {
+  ko: '처리 업무 전체 목록 보기(정식 명칭·관할 기관·대상)',
+  en: 'See the full list of services (official name, competent authority, who it applies to)',
+  zh: '查看办理业务一览(正式名称、主管机关、适用对象)',
+  ja: '取扱業務一覧を見る(正式名称・管轄機関・対象)',
+}
+
 function focusItems(locale: Locale) {
   if (locale === 'ko') return FOCUS_SERVICES.map((f) => ({ title: f.label, desc: f.desc, href: f.href }))
   const tx = FOCUS_SERVICES_I18N[locale]
@@ -296,6 +304,10 @@ export default function AboutPage({ locale }: { locale: Locale }) {
               </Link>
             ))}
           </div>
+          {/* AI-RECO-2 E-2: 처리 업무 전체 목록 상호 링크 */}
+          <p style={{ marginBottom: '2rem' }}>
+            <Link href={`${locale === 'ko' ? '' : `/${locale}`}/services/all`} prefetch={false} style={{ color: 'var(--navy)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px' }}>{SERVICE_LIST_LINK[locale]}</Link>
+          </p>
           <h3 className="text-h3" style={{ color: 'var(--navy)', marginBottom: '1rem' }}>{scope.other}</h3>
           <div className="about-expertise-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {s.expertiseItems.map((e, i) => (

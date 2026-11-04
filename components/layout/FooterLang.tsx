@@ -6,6 +6,9 @@ import { EmailOff } from '@/components/ui/EmailOff'
 import FooterServiceGroups from './FooterServiceGroups'
 import LangFlags from '@/components/ui/LangFlags'
 
+// AI-RECO-2 E-2: 처리 업무 전체 목록 링크(components/services/ServiceListPage.tsx 의 footer 문구와 같은 글자)
+const SERVICE_LIST_LABEL: Record<'en' | 'zh' | 'ja', string> = { en: 'Full list of services', zh: '办理业务一览', ja: '取扱業務一覧' }
+
 export default function FooterLang({ locale }: { locale: Locale }) {
   const t = getT(locale)
   const base = `/${locale}`
@@ -51,6 +54,7 @@ export default function FooterLang({ locale }: { locale: Locale }) {
               <p className={styles.colTitle}>{t.footer.company}</p>
               <ul className={styles.linkList}>
                 <li><Link prefetch={false} href={`${base}/about`} className={styles.link}>{t.footer.about}</Link></li>
+                <li><Link prefetch={false} href={`${base}/services/all`} className={styles.link}>{SERVICE_LIST_LABEL[locale as 'en' | 'zh' | 'ja'] ?? SERVICE_LIST_LABEL.en}</Link></li>
                 <li><Link prefetch={false} href={`${base}/contact`} className={styles.link}>{t.footer.contact}</Link></li>
                 <li><Link prefetch={false} href={`${base}/contact`} className={styles.link}>{t.footer.quoteLink}</Link></li>
               </ul>

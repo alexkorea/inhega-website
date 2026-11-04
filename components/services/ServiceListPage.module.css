@@ -1,0 +1,26 @@
+/* 처리 업무 전체 목록(AI-RECO-2 E-2) */
+.heroLinks { margin-top: 1rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+.heroLinks a { color: white; text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 44px; }
+.jump { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+.jump a { display: inline-flex; align-items: center; min-height: 40px; padding: 0.375rem 0.875rem; border: 1px solid var(--navy); border-radius: 999px; color: var(--navy); font-size: 0.875rem; font-weight: 600; background: var(--white); }
+.group { margin-top: 2rem; scroll-margin-top: 6rem; }
+.groupHeading { font-size: 1.25rem; font-weight: 700; color: var(--charcoal); margin: 0 0 0.75rem; }
+.tableWrap { overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; background: var(--white); border: 1px solid var(--border); border-radius: 12px; font-size: 0.9rem; line-height: 1.6; }
+.table th, .table td { text-align: left; vertical-align: top; padding: 0.75rem 0.875rem; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; }
+.table thead th { background: #F6F7FA; color: var(--navy); font-size: 0.8125rem; font-weight: 700; white-space: nowrap; }
+.table tbody th { color: var(--charcoal); font-weight: 700; width: 22%; }
+.table td:nth-child(2) { width: 26%; }
+.table td:last-child { width: 9rem; white-space: nowrap; }
+.table a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 44px; }
+.ko { display: block; font-weight: 400; color: var(--slate); font-size: 0.8125rem; }
+.footLinks { margin-top: 2rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+.footLinks a { color: var(--navy); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 768px) {
+  .table, .table tbody, .table tr, .table th, .table td { display: block; width: auto !important; }
+  .table thead { display: none; }
+  .table tr { border-bottom: 1px solid var(--border); padding: 0.5rem 0; }
+  .table th, .table td { border-bottom: none; padding: 0.25rem 0.875rem; }
+  .table td::before { content: attr(data-label); display: block; font-size: 0.75rem; font-weight: 700; color: var(--slate); }
+  .table td:last-child { white-space: normal; }
+}

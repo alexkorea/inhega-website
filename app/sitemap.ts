@@ -7,6 +7,8 @@ import { INDUSTRY_PHOTOS, industryPhotoSrc } from '@/lib/service-card-images'
 import { SITEMAP_SERVICE_SLUGS, SITEMAP_INDUSTRY_SLUGS } from '@/lib/sitemap-index.generated'
 import { PAGE_LASTMOD } from '@/lib/page-lastmod.generated'
 import { FOCUS_SLUGS } from '@/lib/focus-services'
+// AI-RECO-2 E-4: 업무 페이지 lastmod = 화면 '최종 수정일' = WebPage.dateModified (lib/page-lastmod.ts)
+import { servicePageLastmod } from '@/lib/page-lastmod'
 
 // 서비스 목록 단일 정본 — lib/services-catalog.ts (하드코딩 금지, 2026-09-22).
 // 배포 보류분(DEPLOY_HOLD_SLUGS)은 카탈로그 단계에서 이미 제외돼 있다.
@@ -39,6 +41,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // NAVER-SEO-FIX-1031: 정적·서비스·업종 페이지도 원천 파일 마지막 커밋일(prebuild scripts/page-lastmod.mjs → PAGE_LASTMOD,
   // [lastmod-skip] 커밋 제외)로 전 URL 에 lastmod. 블로그 목록 = 그 언어 최신 글 날짜.
   const lm = (key: string) => (PAGE_LASTMOD[key] ? { lastModified: new Date(PAGE_LASTMOD[key]) } : {})
+  const slm = (l: 'ko' | 'en' | 'zh' | 'ja', slug: string) => {
+    const d = servicePageLastmod(l, slug)
+    return d ? { lastModified: new Date(d) } : {}
+  }
   const latestPost = blogPosts.reduce((a, p) => ((p.updated_at ?? p.created_at) > a ? (p.updated_at ?? p.created_at) : a), '')
 
   const staticPages = [
@@ -57,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const servicePages = services.map((slug) => ({
     url: `${base}/services/${slug}`,
-    ...lm('svc:ko'),
+    ...slm('ko', slug),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
     ...photoOf(slug),
@@ -68,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const industryPages = (['ko', 'en', 'zh', 'ja'] as const).flatMap((l) =>
     getIndustrySlugs(l).map((slug) => ({
       url: `${base}${l === 'ko' ? '' : `/${l}`}/services/${slug}`,
-      ...lm(`ind:${slug}.${l}`),
+      ...slm(l, slug),
       changeFrequency: 'monthly' as const,
       priority: l === 'ko' ? 0.8 : 0.7,
       ...photoOf(slug),
@@ -101,7 +107,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const langServicePages = locales.flatMap((l) =>
     getServiceSlugs(l).map((slug) => ({
       url: `${base}/${l}/services/${slug}`,
-      ...lm(`svc:${l}`),
+      ...slm(l, slug),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
       ...photoOf(slug),
@@ -142,5 +148,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  return [...staticPages, ...servicePages, ...industryPages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langAboutPages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
+  // AI-RECO-2 E-2: 처리 업무 전체 목록(4언어 상호 hreflang)
+  const listAlt = {
+    languages: {
+      ko: `${base}/services/all`, en: `${base}/en/services/all`, zh: `${base}/zh/services/all`, ja: `${base}/ja/services/all`,
+      'x-default': `${base}/services/all`,
+    },
+  }
+  const serviceListPages = (['ko', 'en', 'zh', 'ja'] as const).map((l) => ({
+    url: `${base}${l === 'ko' ? '' : `/${l}`}/services/all`,
+    ...lm('svc-list'),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+    alternates: listAlt,
+  }))
+
+  return [...staticPages, ...serviceListPages, ...servicePages, ...industryPages, ...blogPages, ...langHomePages, ...langServiceIndexPages, ...langServicePages, ...langAboutPages, ...langContactPages, ...langBlogIndexPages, ...langBlogPostPages]
 }

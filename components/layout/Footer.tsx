@@ -48,6 +48,7 @@ export default function Footer() {
               <p className={styles.colTitle}>회사</p>
               <ul className={styles.linkList}>
                 <li><Link prefetch={false} href="/about" className={styles.link}>회사소개</Link></li>
+                <li><Link prefetch={false} href="/services/all" className={styles.link}>처리 업무 전체 목록</Link></li>
                 <li><Link prefetch={false} href="/blog" className={styles.link}>블로그</Link></li>
                 <li><Link prefetch={false} href="/news" className={styles.link}>인허가 뉴스</Link></li>
                 <li><Link prefetch={false} href="/contact" className={styles.link}>상담문의</Link></li>
