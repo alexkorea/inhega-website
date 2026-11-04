@@ -1,5 +1,5 @@
 /* INHEGA-COSMETICS 업무 연결 흐름 — FocusPillar.module.css 토큰과 같은 색·모서리 */
-.wrap { margin-top: 1.75rem; scroll-margin-top: 6rem; }
+.wrap { margin-top: 1.75rem; scroll-margin-top: 6rem; container-type: inline-size; container-name: cosflow; }
 .heading { font-size: 1.375rem; font-weight: 700; color: var(--charcoal); line-height: 1.4; margin: 0 0 0.5rem; }
 .lead { color: var(--slate); line-height: 1.75; margin: 0 0 1rem; max-width: 72ch; }
 .diagram { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.5rem; counter-reset: none; }
@@ -23,7 +23,8 @@
   .diagram { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 0.75rem; }
   .diagram li:nth-child(3n + 1)::before { content: none; }
 }
-@media (max-width: 720px) {
+/* 표는 본문 칸 폭이 960px 미만이면(데스크톱 사이드바 배치 포함) 라벨 붙은 카드로 — 가로 스크롤로 열이 잘리지 않게 */
+@container cosflow (max-width: 959px) {
   .tableWrap { border: 0; background: transparent; overflow: visible; }
   .table { min-width: 0; }
   .table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
