@@ -243,7 +243,7 @@ const servicesEn: Record<ServiceSlug, ServiceI18n> = {
     faqs: [
       { q: 'What is a quasi-drug?', a: 'Quasi-drugs are products between cosmetics and pharmaceuticals — such as disinfectants and toothpaste. They fall under the Pharmaceutical Affairs Act, which requires a manufacturing report and a permit or report for each product. Hair-colour products are regulated as functional cosmetics under the Cosmetics Act.' },
       { q: 'Is a manufacturing facility required for cosmetics?', a: 'Manufacturer registration requires facilities meeting the statutory standards — a work area, storage and a testing room with equipment, with testing outsourceable to approved bodies. MFDS\'s CGMP standard is recommended rather than a registration condition. Importers register as a cosmetics responsible distributor and appoint a qualified responsible manager.' },
-      { q: 'How long does cosmetics manufacturing registration take?', a: 'Approximately 4–8 weeks after all documents and facility inspections are complete.' },
+      { q: 'How long does cosmetics manufacturing registration take?', a: 'The processing period stated on the official application form is 15 days for cosmetics manufacturer registration (10 days for responsible seller registration), counted from filing. Preparing the facility and documents beforehand takes additional time.' },
       { q: 'Can foreign cosmetics be imported without a Korean company?', a: 'Not directly. Imported cosmetics must be placed on the market by a business registered in Korea as a cosmetics responsible distributor — your own Korean subsidiary, or a Korean importer or distributor — with a qualified responsible manager.' },
     ],
     processSteps: [

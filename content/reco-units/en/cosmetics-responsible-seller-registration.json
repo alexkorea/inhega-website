@@ -1,0 +1,198 @@
+{
+ "slug": "cosmetics-responsible-seller-registration",
+ "lang": "en",
+ "label": "Cosmetics responsible seller registration",
+ "kw": "Cosmetics responsible seller registration agent in Korea",
+ "answer": "Cosmetics responsible seller registration (화장품책임판매업 등록) is filed with the head of the regional office of the Ministry of Food and Drug Safety (지방식품의약품안전청) for the business premises by anyone who distributes and sells cosmetics they manufacture, have manufactured under contract or import, or who arranges and delivers cosmetics through e-commerce import-agency transactions; it requires rules on quality control and post-market safety management standards and a qualified responsible sales manager. The application form states a 10-day processing period, and after registration the seller must file change registrations within 30 days and report production or import performance and ingredient lists. YouSun Administrative Agency prepares and files the responsible seller registration application and attachments.",
+ "services": [
+  {"name": "Preparing and filing the cosmetics responsible seller registration application (화장품책임판매업 등록신청서)", "href": "#term-cosrs-responsible-seller"},
+  {"name": "Determining the responsible sales type (own manufacture, contract manufacture, import, import-agency transactions) and advance review (책임판매 유형)", "href": "#term-cosrs-sales-type"},
+  {"name": "Support drafting the rules on quality control and post-market safety management standards (품질관리 및 책임판매 후 안전관리 기준에 관한 규정)", "href": "#term-cosrs-quality-standard"},
+  {"name": "Preparing responsible sales manager qualification documents and reviewing whether the representative may perform the duties (책임판매관리자)", "href": "#term-cosrs-manager"},
+  {"name": "Advance check of disqualification grounds (결격사유)", "href": "#svc-glance"},
+  {"name": "Change registration for representative, trade name, address, manager or type (화장품책임판매업 변경등록)", "href": "#sit-cosrs-relocation"},
+  {"name": "Notice of non-engagement in management duties for a responsible sales manager (관리업무 비종사신고)", "href": "#sit-cosrs-manager-leaves"},
+  {"name": "Organising import management record items and explaining the standard customs clearance report (수입관리기록서·표준통관예정보고)", "href": "#term-cosrs-import-record"},
+  {"name": "Guidance on the schedule for production or import performance and ingredient list reports (생산·수입실적·원료목록 보고)", "href": "#sit-cosrs-annual-report"},
+  {"name": "Registration of a Korean cosmetics responsible seller for overseas brands (외국 브랜드의 국내 화장품책임판매업자 등록)", "href": "#sit-cosrs-foreign-brand"},
+  {"name": "Preparing responses to supplementation requests (보완 요청 대응)", "href": "#sit-cosrs-period"},
+  {"name": "Closure, suspension and resumption notices (폐업·휴업·재개 신고)", "href": "#svc-glance"}
+ ],
+ "clients": [
+  "Cosmetics brands selling OEM or ODM products under their own brand",
+  "Trading and distribution companies importing overseas cosmetics into Korea",
+  "Overseas cosmetics brands setting up a Korean corporation to start selling in Korea",
+  "Online sellers offering overseas cosmetics through e-commerce import-agency (buying agent) services",
+  "Existing responsible sellers whose representative, address or responsible sales manager has changed"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Anyone who distributes and sells cosmetics they manufacture, have manufactured under contract or import, or who arranges and delivers cosmetics for e-commerce import-agency transactions"},
+  {"label": "Requirements", "value": "Rules on quality control and post-market safety management standards; a responsible sales manager (doctor or pharmacist, bachelor's degree or higher in science/engineering or similar, associate degree in a cosmetics-related field plus 1 year or more in manufacturing/quality control, completion of an announced specialised course (announced product types), customized cosmetics preparation manager exam pass, or 2 years or more in manufacturing/quality control); no disqualification grounds. The import-agency type needs neither rules nor a manager"},
+  {"label": "Process", "value": "Decide the responsible sales type → check disqualification and manager qualifications → draft the standards rules → file the application (regional MFDS office for the premises) → review and approval → certificate issued"},
+  {"label": "Documents", "value": "Cosmetics responsible seller registration application, rules on standards suitable for quality control and post-market safety management, documents confirming the responsible sales manager's qualification (the corporate register is checked by the official through shared administrative information)"},
+  {"label": "Timeline", "value": "10 days per the application form (supplementation period separate); change registration 10 days (7 days for a change of responsible sales manager)"}
+ ],
+ "chooser": [
+  {"label": "I want to sell OEM-made products under my own brand", "target": "sit-cosrs-oem-brand"},
+  {"label": "I want to import and sell overseas cosmetics", "target": "sit-cosrs-import-brand"},
+  {"label": "I only run an overseas buying agent service", "target": "sit-cosrs-buying-agent"},
+  {"label": "We are a foreign brand without a Korean corporation", "target": "sit-cosrs-foreign-brand"},
+  {"label": "We are moving the office after registration", "target": "sit-cosrs-relocation"}
+ ],
+ "situations": [
+  {
+   "id": "sit-cosrs-oem-brand",
+   "q": "If I have cosmetics made by an OEM manufacturer and sell them under my own brand in Korea, is responsible seller registration enough?",
+   "conclusion": "If manufacturing is outsourced to a registered cosmetics manufacturer and you only distribute and sell, registration as a responsible seller of the contract-manufacture type is enough and no manufacturer registration is needed. You must instead supervise the contract manufacturer and keep its manufacturing and quality control records.",
+   "branches": [
+    {"when": "All manufacturing is outsourced to a registered cosmetics manufacturer", "then": "Register the contract-manufacture type and keep the product standard documents and quality control records received from the manufacturer."},
+    {"when": "You manufacture some processes yourself", "then": "Also consider cosmetics manufacturer registration."}
+   ],
+   "docs": "Cosmetics responsible seller registration application, rules on quality control and post-market safety management standards, responsible sales manager qualification documents",
+   "period": "10 days per the application form / in practice, drafting the rules and appointing a manager come first"
+  },
+  {
+   "id": "sit-cosrs-import-brand",
+   "q": "To import overseas cosmetics and sell them in Korea, which responsible sales type do I register and what do I prepare?",
+   "conclusion": "Register the import type, which covers distributing and selling imported cosmetics. After registration, you must keep import management records, test each batch and file a standard customs clearance report as an electronic trade document.",
+   "branches": [
+    {"when": "Testing is done in Korea", "then": "Test each batch yourself or outsource it to a public health and environment research institute, a cosmetics testing and inspection body, the Korea Pharmaceutical Traders Association or similar."},
+    {"when": "The overseas manufacturer's quality standards are mutually recognised or at least equivalent", "then": "Apply for an on-site inspection; once recognised, testing in Korea may be skipped."}
+   ],
+   "docs": "Registration application, standards rules, manager qualification documents / after registration, import management records (certificate of manufacture and sale, Korean product description sample, etc.)",
+   "period": "10 days per the application form / in practice, collecting documents from the overseas manufacturer adds time"
+  },
+  {
+   "id": "sit-cosrs-buying-agent",
+   "q": "Does an online shop that acts as a buying agent for overseas cosmetics need responsible seller registration in Korea?",
+   "conclusion": "Yes. Arranging and delivering cosmetics for import-agency transactions in e-commerce is a responsible seller business that must be registered. This type submits neither the standards rules nor manager documents and does not appoint a responsible sales manager.",
+   "branches": [
+    {"when": "You only act as a buying agent", "then": "Register the import-agency type and comply with parts of the quality control and post-market safety standards, some import record items and safety information reporting."},
+    {"when": "You import directly and hold stock", "then": "Register the import type, or add it by change registration, and submit the standards rules and manager documents."}
+   ],
+   "docs": "Cosmetics responsible seller registration application (no attachments for the import-agency type)",
+   "period": "10 days per the application form"
+  },
+  {
+   "id": "sit-cosrs-owner-manager",
+   "q": "Our company has only a few employees. Can the representative also act as the responsible sales manager?",
+   "conclusion": "If the business has 10 or fewer regular employees and the representative (or the sole proprietor) meets one of the manager qualifications, that person may perform the duties and the business is treated as having appointed a manager.",
+   "branches": [
+    {"when": "10 or fewer regular employees and the representative is qualified", "then": "Attach the representative's qualification documents to the application."},
+    {"when": "More than 10 regular employees, or the representative is not qualified", "then": "Appoint a qualified person as responsible sales manager."}
+   ],
+   "docs": "Qualification documents for the manager (representative), such as degree certificates, licences or employment certificates; registration application",
+   "period": "10 days per the application form / initial training within 6 months from starting the role"
+  },
+  {
+   "id": "sit-cosrs-manager-career",
+   "q": "Can someone without a cosmetics-related degree but with industry experience become a responsible sales manager in Korea?",
+   "conclusion": "Yes, with at least 2 years in cosmetics manufacturing or quality control work. With an associate degree in a cosmetics-related field, 1 year of the same work is enough.",
+   "branches": [
+    {"when": "The person holds an associate degree in a cosmetics-related field", "then": "Document at least 1 year in cosmetics manufacturing or quality control."},
+    {"when": "No degree, or a degree in an unrelated field", "then": "Check 2 years or more of manufacturing/quality control experience, a customized cosmetics preparation manager exam pass, or completion of an announced specialised course (announced product types)."}
+   ],
+   "docs": "Employment certificate confirming cosmetics manufacturing or quality control work, degree certificate or licence copy",
+   "period": "Time to obtain employment certificates depends on former employers"
+  },
+  {
+   "id": "sit-cosrs-manager-leaves",
+   "q": "If our responsible sales manager resigns, what must we file and by when?",
+   "conclusion": "Appoint a new manager and file a change registration within 30 days from the change; the departing manager may file a notice of non-engagement in management duties.",
+   "branches": [
+    {"when": "A successor has been appointed", "then": "File the change registration with the new manager's qualification documents and the certificate."},
+    {"when": "The representative is qualified and the business has 10 or fewer regular employees", "then": "File the change registration with the representative performing the duties."}
+   ],
+   "docs": "Change registration application, registration certificate, new manager's qualification documents, notice of non-engagement with statement of reasons",
+   "period": "Change registration within 30 days; 7 days per the form for a change of manager; 5 days for the notice of non-engagement"
+  },
+  {
+   "id": "sit-cosrs-documents",
+   "q": "What goes on the cosmetics responsible seller registration application, and what must be attached?",
+   "conclusion": "The applicant's name and resident or alien registration number, the trade name and address of the premises, the manager's name and qualification category, the responsible sales type and whether a manufacturing business is also run; the standards rules and manager qualification documents are attached.",
+   "branches": [
+    {"when": "Applying as a corporation", "then": "The corporate register is checked by the official through shared administrative information and need not be submitted."},
+    {"when": "Applying only for the import-agency type", "then": "Neither attachment is submitted."}
+   ],
+   "docs": "Registration application, rules on standards suitable for quality control and post-market safety management, manager qualification documents",
+   "period": "10 days per the application form"
+  },
+  {
+   "id": "sit-cosrs-period",
+   "q": "How long does cosmetics responsible seller registration take in Korea, from filing to certificate?",
+   "conclusion": "The form states 10 days, processed in the order receipt, review, approval, preparation and issue of the certificate. Any supplementation period is separate.",
+   "branches": [
+    {"when": "All documents are in order", "then": "Plan to receive the certificate within the period stated on the form."},
+    {"when": "Supplementation is requested on manager qualifications or the rules", "then": "Prepare and resubmit the supplementary documents."}
+   ],
+   "docs": "Registration application and attachments; supplementary documents if requested",
+   "period": "10 days per the form / in practice, drafting the rules and obtaining manager documents are needed before filing"
+  },
+  {
+   "id": "sit-cosrs-cost",
+   "q": "To estimate the cost of cosmetics responsible seller registration in Korea, which preparation items should I look at first?",
+   "conclusion": "The statutory items are business premises, a qualified responsible sales manager, the rules on quality control and post-market safety management standards, and a batch testing arrangement for imports or contract manufacture. Responsible sellers have no facility standards like manufacturers.",
+   "branches": [
+    {"when": "A small business whose representative is qualified", "then": "With 10 or fewer regular employees, the representative may perform the duties without a separate manager."},
+    {"when": "Import type", "then": "Also review a testing body for batch testing or recognition through an on-site inspection."}
+   ],
+   "docs": "Premises information, manager qualification documents, standards rules, testing outsourcing documents (if outsourcing)",
+   "period": "In practice: secure the manager → draft the rules → file; after filing, 10 days per the form"
+  },
+  {
+   "id": "sit-cosrs-relocation",
+   "q": "If we move our responsible seller premises to another region, where and by when do we file the change registration?",
+   "conclusion": "An address change must be registered within 30 days from the change, and a move to an area under a different office is filed with the regional MFDS office for the new address. If only the address changed due to district reorganisation, the deadline is 90 days.",
+   "branches": [
+    {"when": "The competent regional office changes", "then": "File the change registration and certificate with the office for the new address."},
+    {"when": "The address changed due to district reorganisation", "then": "File within 90 days."}
+   ],
+   "docs": "Change registration application, cosmetics responsible seller registration certificate",
+   "period": "Within 30 days (90 days for district reorganisation); 10 days per the form"
+  },
+  {
+   "id": "sit-cosrs-annual-report",
+   "q": "When and where do we report cosmetics import performance and ingredient lists in Korea?",
+   "conclusion": "The previous year's production or import performance is reported by the end of February each year, and the ingredient list before distribution or sale, to the Minister of Food and Drug Safety through a cosmetics industry association such as the Korea Cosmetic Association (including the Korea Pharmaceutical Traders Association). Failing to report is subject to an administrative fine of up to KRW 1 million.",
+   "branches": [
+    {"when": "Importing with a standard customs clearance report filed as an electronic trade document", "then": "Import performance and ingredient list reports may be skipped."},
+    {"when": "Contract-manufactured or own-manufactured products", "then": "Report production performance and ingredient lists on time and report again when the list changes."}
+   ],
+   "docs": "Production or import performance data, list of ingredients used in manufacture",
+   "period": "Performance by the end of February each year; ingredient list before distribution or sale"
+  },
+  {
+   "id": "sit-cosrs-foreign-brand",
+   "q": "How can a foreign cosmetics brand without a Korean corporation start selling in Korea?",
+   "conclusion": "The products must be imported by a cosmetics responsible seller with premises in Korea. The choice is between setting up a Korean corporation (subsidiary) that registers under the import type, and having a Korean importer or distributor act as the responsible seller.",
+   "branches": [
+    {"when": "Setting up a Korean corporation", "then": "After incorporation, the corporation appoints a responsible sales manager and registers as a responsible seller."},
+    {"when": "Working through a Korean importer or distributor", "then": "That company carries the import record, batch testing, standard customs clearance report and reporting duties as responsible seller."}
+   ],
+   "docs": "Registration application, standards rules, manager qualification documents / for imports, certificate of manufacture and sale, Korean product description sample, etc.",
+   "period": "10 days per the application form / in practice, incorporation and overseas documents take time first"
+  },
+  {
+   "id": "sit-cosrs-recommend",
+   "q": "If I hire an administrative agent for cosmetics responsible seller registration in Korea, what do they handle?",
+   "conclusion": "Once engaged by the client, we determine the responsible sales type, review disqualification grounds and manager qualifications in advance, support drafting the standards rules, prepare and file the application and attachments, respond to supplementation, and prepare change registrations, notices of non-engagement and closure notices. We do not carry out testing, perform quality control work or file customs import declarations, and registration is decided by the competent office.",
+   "branches": [
+    {"when": "The type and requirements still need to be decided", "then": "We review the responsible sales type that fits your business and whether the manager qualifications are met."},
+    {"when": "The manager and office are ready", "then": "We draft the standards rules and application, file them and respond to supplementation requests."}
+   ],
+   "docs": "Letter of authorisation, registration application, standards rules, manager qualification documents",
+   "period": "10 days per the application form (supplementation period separate)",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-cosrs-responsible-seller", "term": "Cosmetics responsible seller (화장품책임판매업)", "def": "A business that manages the quality and safety of the cosmetics it handles while distributing and selling them, or that arranges and delivers cosmetics for import-agency transactions; it registers with the regional MFDS office for its premises."},
+  {"id": "term-cosrs-sales-type", "term": "Responsible sales type (책임판매 유형)", "def": "The four sub-types of the business: own manufacture, contract manufacture, import, and arranging and delivering for import-agency transactions (e-commerce); the type is written on the certificate and a change requires change registration."},
+  {"id": "term-cosrs-import-agency", "term": "Import-agency transaction (수입대행형 거래)", "def": "A responsible sales type limited to e-commerce, arranging and delivering cosmetics for import-agency transactions; it does not submit the standards rules or manager documents and does not appoint a manager."},
+  {"id": "term-cosrs-manager", "term": "Responsible sales manager (책임판매관리자)", "def": "The person responsible for quality control under the quality control standards, safety assurance under the post-market safety management standards and supervision of the manufacturer's testing; statutory education or experience qualifications and annual training apply."},
+  {"id": "term-cosrs-quality-standard", "term": "Quality control standards (품질관리기준)", "def": "The responsible seller's standards requiring a quality control procedure manual covering manufacturing and quality control, defect handling, recalls, training, document control and market release records."},
+  {"id": "term-cosrs-post-market", "term": "Post-market safety management standards (책임판매 후 안전관리기준)", "def": "The responsible seller's standards requiring collection and review of safety information from academic societies, literature and similar sources, and safety measures such as recall, suspension of sale or reporting where needed."},
+  {"id": "term-cosrs-import-record", "term": "Import management record (수입관리기록서)", "def": "A record the responsible seller prepares and keeps for imported cosmetics, covering product name, ingredient specifications and content, country and company of manufacture, certificate of manufacture and sale, import quantities and test results by batch, and buyers."},
+  {"id": "term-cosrs-customs-report", "term": "Standard customs clearance report (표준통관예정보고)", "def": "A report filed as an electronic trade document by import-type responsible sellers; importing this way allows import performance and ingredient list reports to be skipped, and it is separate from the customs import declaration."}
+ ]
+}

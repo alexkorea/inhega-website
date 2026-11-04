@@ -67,6 +67,11 @@
 | 59 | 결혼중개업 신고·등록 | `marriage-brokerage-business-registration` | wedding rings hands | [30666743](https://www.pexels.com/photo/30666743/) ([원페이지](https://www.pexels.com/photo/romantic-wedding-couple-holding-hands-closeup-30666743/)) | [Dursun Yartaşı](https://www.pexels.com/@dursunyartasi) | 반지 낀 두 손과 부케 — 결혼중개업 |
 | 60 | 의약품 도매업 허가 | `pharmaceutical-wholesale-license` | pharmaceutical warehouse | [13119976](https://www.pexels.com/photo/13119976/) ([원페이지](https://www.pexels.com/photo/professional-pharmacist-in-modern-drugstore-space-for-text-13119976/)) | [Abdul batin](https://www.pexels.com/@abdul-batin-235375905) | 약국 선반에 의약품 상자를 진열·관리하는 모습 — 의약품 도매 |
 | 61 | 정보통신분야 인허가(부가통신사업 신고·기간통신사업 등록) | `telecom-business` | telecommunication tower antenna | [7862565](https://www.pexels.com/photo/7862565/) ([원페이지](https://www.pexels.com/photo/photo-of-a-wi-fi-tower-under-a-blue-sky-7862565/)) | [Edouard Matte](https://www.pexels.com/@edouard-matte-50967295) | 안테나가 달린 통신 철탑을 올려다본 사진 — 기간통신·부가통신 사업 (INHEGA-FOCUS-1103, 2026-11-03) |
+| 62 | 화장품책임판매업 등록 | `cosmetics-responsible-seller-registration` | cosmetic products shelf store | [3735631](https://www.pexels.com/photo/3735631/) | Polina Tankilevitch | 스프레이병·화장품 용기 진열 선반 — 유통·판매 |
+| 63 | 화장품제조업 등록 | `cosmetics-manufacturer-registration` | filling machine bottles factory | [5532669](https://www.pexels.com/photo/5532669/) | cottonbro studio | 스테인리스 자동 충전 설비 — 제조 공정 |
+| 64 | 수입화장품 성분·표시 검토 | `cosmetics-ingredient-labeling-review` | cosmetic ingredients label reading | [6167868](https://www.pexels.com/photo/6167868/) | Vie Studio | 라벨 붙이기 전 앰버 화장품 병 — 표시·성분 검토 |
+| 65 | CGMP 적합업소 | `cosmetics-cgmp` | laboratory quality control cosmetics | [37889383](https://www.pexels.com/photo/37889383/) | Elements Interactive | 위생모 차림 품질 시험실 — 우수화장품 제조·품질관리 |
+| 66 | 화장품 안전성 평가 | `cosmetics-safety-assessment` | scientist testing cream laboratory | [15831822](https://www.pexels.com/photo/15831822/) | Jonathan Borba | 보호구 차림 연구원 실험대 — 안전성 자료 |
 
 ## 블로그 썸네일(OG·목록 카드) 주제 사진 (INHEGA-QA1102-FIX B-5, 2026-11-03)
 

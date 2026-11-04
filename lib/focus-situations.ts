@@ -798,27 +798,31 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "화장품법에 따라 자기 이름으로 화장품을 유통·판매하려면(위탁 제조한 브랜드·수입 화장품 포함) 화장품책임판매업소 소재지를 관할하는 지방식품의약품안전청에 화장품책임판매업을 등록하고 책임판매관리자를 둬야 합니다. 직접 제조하거나 제조를 위탁받으면 시설기준을 갖춰 화장품제조업을, 내용물을 혼합·소분해 팔면 맞춤형화장품판매업을 따로 등록·신고합니다. 신청서 기준 처리기간은 화장품책임판매업 10일, 화장품제조업 15일이고, 기능성화장품은 판매 전에 품목별 심사 또는 보고를 거칩니다.",
+      "answer": "한국에서 화장품을 팔려면 판매하는 회사가 화장품책임판매업소 소재지를 관할하는 지방식품의약품안전청에 화장품책임판매업을 등록하고 책임판매관리자를 둬야 하며(위탁 제조 브랜드·수입사 포함, 등록신청서 처리기간 10일), 직접 제조·수탁 제조·1차 포장까지 하면 제조소 관할 지방식품의약품안전청에 화장품제조업도 등록합니다(처리기간 15일). 미백·주름 개선·자외선 차단 등 기능성을 내세우면 판매 전에 품목별로 식품의약품안전평가원의 심사를 받거나 보고서를 내고, 수입품은 전성분을 사용할 수 없는 원료 목록·사용기준 원료 한도와 대조한 뒤 한글 표시기재사항을 갖춥니다. 제조소의 CGMP(우수화장품 제조 및 품질관리기준) 적합판정은 의무가 아니라 권장 절차이고, 책임판매업자는 영유아·어린이용 제품의 안전성 자료 작성·보관과 안전성 정보 보고를 해야 하며 판매 전 화장품 안전성 평가는 2028년 1월 1일부터 단계적으로 시행됩니다.",
       "chooser": [
         {
-          "label": "국내 브랜드사(OEM 위탁 제조)",
+          "label": "해외 화장품 수입·판매",
+          "target": "sit-cos-import-start"
+        },
+        {
+          "label": "OEM으로 내 브랜드 판매",
           "target": "sit-cos-oem-brand"
+        },
+        {
+          "label": "미백·주름 기능성 표시",
+          "target": "sit-cos-sunscreen-functional"
+        },
+        {
+          "label": "직접 공장을 차려 제조",
+          "target": "sit-cos-small-manufacturing"
         },
         {
           "label": "외국 회사(한국 법인 없음)",
           "target": "sit-cos-china-brand-no-entity"
         },
         {
-          "label": "직접 제조까지 하는 경우",
-          "target": "sit-cos-small-manufacturing"
-        },
-        {
           "label": "덜어서 파는 소분·리필 판매",
           "target": "sit-cos-refill-store"
-        },
-        {
-          "label": "완제품을 사서 되팔기만 하는 경우",
-          "target": "sit-cos-retail-only"
         }
       ],
       "situations": [
@@ -846,21 +850,25 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-oem-brand",
-          "q": "OEM으로 위탁 생산해 내 브랜드로 팔 때 화장품제조업 등록도 필요한가요?",
-          "conclusion": "제조를 맡기고 완제품을 자기 이름으로 유통·판매만 하면 화장품책임판매업 등록으로 충분하고, 화장품제조업 등록은 필요 없습니다. 직접 제조하거나, 남의 제조를 위탁받거나, 1차 포장을 하면 화장품제조업 등록 대상입니다.",
+          "q": "OEM으로 만들어 내 브랜드로 팔려면 무엇이 필요한가요?",
+          "conclusion": "제조를 화장품제조업자에게 맡기고 완제품을 자기 이름으로 유통·판매하면 위탁 제조 화장품 유통·판매 유형으로 화장품책임판매업을 등록하고 책임판매관리자를 두면 되며, 화장품제조업 등록은 필요 없습니다. 브랜드사(책임판매업자)는 수탁 제조사의 제조·품질검사를 관리·감독하고 제조 및 품질관리 기록을 받아 보관하며, CGMP 적합판정을 받은 업소에 위탁하는 것이 권장됩니다.",
           "branches": [
             {
               "when": "제조를 전부 위탁하는 브랜드사인 경우",
-              "then": "위탁 제조 화장품 유통·판매 유형으로 화장품책임판매업만 등록합니다."
+              "then": "위탁 제조 화장품 유통·판매 유형으로 화장품책임판매업만 등록하고, 제조번호별 품질검사 결과를 확인한 뒤 유통합니다."
             },
             {
               "when": "1차 포장이나 일부 공정을 직접 하는 경우",
               "then": "화장품제조업 등록이 필요하며, 일부 공정만 하면 해당 공정에 필요한 시설만 갖출 수 있습니다."
+            },
+            {
+              "when": "미백·주름 개선 등 기능성을 표시하려는 경우",
+              "then": "브랜드사 또는 제조사가 판매 전에 품목별로 기능성화장품 심사를 받거나 보고서를 제출합니다."
             }
           ],
           "docs": "화장품책임판매업 등록신청서, 품질관리 및 책임판매 후 안전관리 기준에 관한 규정, 책임판매관리자 자격 확인 서류",
           "period": "법정 서식 처리기간: 화장품책임판매업 10일, 화장품제조업 15일",
-          "href": "/blog/cosmetics-manufacturing-registration"
+          "href": "/services/cosmetics-responsible-seller-registration"
         },
         {
           "id": "sit-cos-home-office",
@@ -962,24 +970,24 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-sunscreen-functional",
-          "q": "선크림·미백 제품을 기능성으로 표시해 팔려면 무엇을 해야 하나요?",
-          "conclusion": "기능성화장품으로 인정받아 판매하려면 화장품제조업자·화장품책임판매업자 등이 품목별로 안전성·유효성 심사를 받거나 보고서를 제출해야 합니다. 효능 성분의 종류·함량, 효능·효과, 용법·용량, 기준·시험방법이 고시 품목과 같으면 심사 대신 보고서 제출 대상입니다.",
+          "q": "미백·주름 기능성 표시를 하고 싶어요. 어떤 절차가 필요한가요?",
+          "conclusion": "미백·주름 개선 같은 기능성을 표시·광고하려면 판매 전에 품목별로 식품의약품안전평가원에 심사의뢰서를 내 안전성·유효성 심사를 받거나, 효능 성분의 종류·함량, 효능·효과, 용법·용량, 기준·시험방법이 고시 품목과 같으면 심사 제외 품목 보고서를 제출해야 합니다. 신청은 화장품제조업자·화장품책임판매업자 또는 대학·연구기관 등이 할 수 있고, 판매하는 제품 포장에는 '기능성화장품' 글자나 정해진 도안을 표시합니다.",
           "branches": [
             {
               "when": "고시 기준과 같은 처방인 경우",
-              "then": "보고서를 제출합니다."
+              "then": "심사 대신 보고서를 제출합니다."
             },
             {
-              "when": "이미 심사받은 자사 제품과 성분·효능·제형 등이 같은 경우",
-              "then": "보고서 제출 대상이 될 수 있습니다(자외선 차단지수 측정값이 일정 범위 안이면 같은 효능으로 봄)."
+              "when": "이미 심사받은 자사 제품과 효능 원료·효능·기준·용법·제형이 같은 경우",
+              "then": "보고서 제출 대상이 될 수 있습니다(자외선 차단 제품은 차단지수 측정값이 일정 범위 안이면 같은 효능으로 봄)."
             },
             {
               "when": "새로운 성분·함량이거나 고시와 다른 경우",
-              "then": "안전성·유효성 자료를 갖춰 심사를 받습니다."
+              "then": "안전성·유효성 자료와 기준 및 시험방법 자료를 갖춰 심사를 받습니다."
             }
           ],
-          "docs": "기능성화장품 심사의뢰서 또는 보고서, 안전성·유효성 자료(심사), 기준 및 시험방법 자료",
-          "period": "판매 전에 심사 완료 또는 보고서 제출",
+          "docs": "기능성화장품 심사의뢰서 또는 심사 제외 품목 보고서, 안전성·유효성 자료(심사), 기준 및 시험방법 자료",
+          "period": "법정 서식 처리기간: 심사의뢰서 60일 / 보고서는 판매 전 제출",
           "href": "/services/functional-cosmetics"
         },
         {
@@ -1060,8 +1068,8 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-small-manufacturing",
-          "q": "작은 공방에서 직접 화장품을 만들어 팔려면 화장품제조업 등록 시설은 어떻게 갖추나요?",
-          "conclusion": "화장품제조업을 등록하려면 쥐·해충·먼지를 막는 시설과 작업대 등을 갖춘 작업소, 원료·자재·제품 보관소, 품질검사 시험실과 검사 시설·기구를 갖춰야 합니다. 자기 이름으로 팔려면 화장품제조업과 별도로 화장품책임판매업도 등록합니다.",
+          "q": "직접 공장을 차려 화장품을 제조하려면 무엇을 갖춰야 하나요?",
+          "conclusion": "제조소 소재지를 관할하는 지방식품의약품안전청에 화장품제조업을 등록해야 하고, 쥐·해충·먼지를 막는 시설과 작업대 등을 갖춘 작업소, 원료·자재·제품 보관소, 품질검사 시험실과 검사 시설·기구를 갖춰야 합니다. 등록신청서에는 결격사유에 해당하지 않음을 증명하는 의사의 진단서와 시설 명세서를 붙이고, 자기 이름으로 팔려면 화장품책임판매업도 따로 등록합니다. CGMP(우수화장품 제조 및 품질관리기준) 적합판정은 의무가 아닌 권장 절차입니다.",
           "branches": [
             {
               "when": "품질검사를 시험·검사기관 등에 위탁하는 경우",
@@ -1072,13 +1080,13 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
               "then": "그 공정에 필요한 시설·기구만 갖추면 됩니다."
             },
             {
-              "when": "정신질환자·마약류 중독자 등 결격사유에 해당하는 경우",
-              "then": "화장품제조업 등록을 할 수 없습니다(전문의가 적합하다고 인정하면 예외)."
+              "when": "CGMP 적합판정을 받으려는 경우",
+              "then": "기준을 3회 이상 적용·운영한 자체평가표 등을 붙여 식품의약품안전처에 실시상황 평가를 신청합니다(처리기간 90일)."
             }
           ],
-          "docs": "화장품제조업 등록신청서, 시설 명세서, 품질검사 위탁 계약서(위탁하는 경우)",
+          "docs": "화장품제조업 등록신청서, 의사의 진단서, 시설 명세서, 품질검사 위탁 계약서(위탁하는 경우)",
           "period": "법정 서식 처리기간: 화장품제조업 등록 15일",
-          "href": "/blog/cosmetics-manufacturing-facility-guide"
+          "href": "/services/cosmetics-manufacturer-registration"
         },
         {
           "id": "sit-cos-customs-report",
@@ -1101,6 +1109,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "화장품책임판매업 등록필증, 수입관리기록서(제조국·제조회사, 제조 및 판매증명서 등), 표준통관예정보고(전자무역문서)",
           "period": "수입할 때마다 전자무역문서로 보고 / 보고 없이 수입하면 수입실적은 매년 2월 말까지 보고",
           "href": "/blog/cosmetics-import-sales-registration-guide"
+        },
+        {
+          "id": "sit-cos-import-start",
+          "q": "해외 화장품을 한국에 수입해 팔고 싶어요. 무엇부터 해야 하나요?",
+          "conclusion": "먼저 수입 화장품을 유통·판매하는 유형으로 화장품책임판매업소 소재지 관할 지방식품의약품안전청에 화장품책임판매업을 등록하고 책임판매관리자를 둡니다. 이어서 들여올 제품의 전성분을 사용할 수 없는 원료 목록과 보존제·색소·자외선차단제 등 사용기준 원료의 한도에 대조하고, 한글 표시기재사항과 한글 제품설명서 견본을 준비한 뒤 수입관리기록서를 작성하고 표준통관예정보고 또는 유통·판매 전 원료 목록 보고를 거쳐 판매합니다.",
+          "branches": [
+            {
+              "when": "미백·주름 개선·자외선 차단 등 기능성을 표시하려는 경우",
+              "then": "판매 전에 품목별로 기능성화장품 심사를 받거나 보고서를 제출합니다."
+            },
+            {
+              "when": "해외 제조사의 품질관리기준이 CGMP와 같은 수준 이상으로 인정되는 경우",
+              "then": "현지실사 신청을 거쳐 국내 제조번호별 품질검사를 생략할 수 있고, 그 밖에는 제조번호별 품질검사를 한 뒤 유통합니다."
+            },
+            {
+              "when": "영유아·어린이용으로 표시·광고하려는 경우",
+              "then": "제품별 안전성 자료(제품·제조방법 설명, 안전성 평가 자료, 효능·효과 증명 자료)를 작성·보관합니다."
+            }
+          ],
+          "docs": "화장품책임판매업 등록신청서, 품질관리 및 책임판매 후 안전관리 기준에 관한 규정, 책임판매관리자 자격 확인 서류, 전성분표, 제조 및 판매증명서, 한글 제품설명서 견본",
+          "period": "법정 서식 처리기간: 화장품책임판매업 등록 10일 / 원료 목록 보고는 유통·판매 전(표준통관예정보고로 수입하면 생략 가능)",
+          "href": "/services/cosmetics-ingredient-labeling-review"
         }
       ]
     },
@@ -2362,31 +2392,31 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "South Korea cosmetic registration is mainly a business registration, not a product approval: the company that places cosmetics on the Korean market — including importers and brands using contract manufacturers — registers as a cosmetics responsible seller (화장품책임판매업, also called responsible distributor) with the regional office (지방식품의약품안전청) of the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처) for its premises and appoints a qualified responsible sales manager (책임판매관리자). Companies that manufacture obtain a separate cosmetics manufacturer registration (화장품제조업), and functional cosmetics such as whitening, anti-wrinkle, sunscreen and hair-colour products need a product-by-product MFDS review or report (기능성화장품 심사·보고) before sale. Every formula should first be checked against MFDS lists of banned ingredients and ingredients with use limits.",
+      "answer": "To sell cosmetics in Korea, the company placing them on the market — including brands using contract manufacturers and importers — registers as a cosmetics responsible seller (화장품책임판매업) with the regional office (지방식품의약품안전청) of the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처) for its premises and appoints a responsible sales manager (책임판매관리자), with a 10-day processing period on the application form; a company that manufactures, contract-manufactures or does primary packaging also registers as a cosmetics manufacturer (화장품제조업) with the regional office for the manufacturing site (15 days). Products claiming whitening, wrinkle improvement, UV protection or other functions need a product-by-product review by, or report to, the National Institute of Food and Drug Safety Evaluation (식품의약품안전평가원) before sale, and imported products have their full ingredient list checked against the banned ingredient list and use limits and carry the required Korean label items. CGMP (우수화장품 제조 및 품질관리기준) compliance for a manufacturing site is recommended rather than mandatory, while responsible sellers must keep safety records for infant and children's products and report safety information, and a pre-market cosmetics safety assessment takes effect in phases from 1 January 2028.",
       "chooser": [
+        {
+          "label": "Importing to sell in Korea",
+          "target": "sit-cos-import-start"
+        },
+        {
+          "label": "OEM-made, sold under our brand",
+          "target": "sit-cos-oem-brand"
+        },
+        {
+          "label": "Whitening or anti-wrinkle claims",
+          "target": "sit-cos-functional-requirements"
+        },
+        {
+          "label": "Our own factory in Korea",
+          "target": "sit-cos-own-factory"
+        },
         {
           "label": "Overseas brand, no Korean entity",
           "target": "sit-cos-overseas-brand"
         },
         {
-          "label": "Korean subsidiary importing",
-          "target": "sit-cos-subsidiary"
-        },
-        {
-          "label": "Using a Korean OEM manufacturer",
-          "target": "sit-cos-oem-brand"
-        },
-        {
-          "label": "Sunscreen or other functional claims",
+          "label": "Sunscreen",
           "target": "sit-cos-sunscreen"
-        },
-        {
-          "label": "Ingredient compliance",
-          "target": "sit-cos-ingredients"
-        },
-        {
-          "label": "Selling via marketplaces",
-          "target": "sit-cos-marketplace"
         }
       ],
       "situations": [
@@ -2450,21 +2480,25 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-oem-brand",
-          "q": "Our brand uses a Korean OEM manufacturer — do we need a manufacturer registration too?",
-          "conclusion": "No. A brand that has products made by a registered contract manufacturer only needs a responsible seller registration to sell them.",
+          "q": "We want to have our products made by an OEM manufacturer and sell them under our own brand. What do we need?",
+          "conclusion": "A brand that has its products made by a registered cosmetics manufacturer and sells them under its own name registers as a cosmetics responsible seller for contract-manufactured cosmetics and appoints a responsible sales manager; it does not need a manufacturer registration. The brand supervises the contract manufacturer's manufacturing and quality testing, keeps the manufacturing and quality control records, and is recommended to use a CGMP-compliant facility.",
           "branches": [
             {
               "when": "If you only commission manufacturing",
-              "then": "Register as a responsible seller; the OEM holds the manufacturer registration."
+              "then": "Register as a responsible seller only, and confirm batch quality test results before distribution."
             },
             {
               "when": "If you do any manufacturing or primary packaging yourself",
-              "then": "Register as a manufacturer as well and meet facility standards."
+              "then": "Register as a manufacturer as well and meet facility standards for that process."
+            },
+            {
+              "when": "If you claim whitening, wrinkle improvement or another function",
+              "then": "The brand or the manufacturer obtains a functional cosmetics review or files a report for each product before sale."
             }
           ],
-          "docs": "Responsible seller registration application, contract manufacturing agreement, responsible sales manager documents",
-          "period": "Register before first sale",
-          "href": "/en/blog/cosmetics-manufacturing-registration"
+          "docs": "Responsible seller registration application, quality control and post-market safety standards, responsible sales manager documents, contract manufacturing agreement",
+          "period": "Processing period on the form: 10 days for responsible seller registration",
+          "href": "/en/services/cosmetics-responsible-seller-registration"
         },
         {
           "id": "sit-cos-sunscreen",
@@ -2490,20 +2524,24 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-functional-requirements",
-          "q": "What are the requirements for registering functional cosmetics in Korea?",
-          "conclusion": "The responsible seller or manufacturer submits a review request or report for each product, and applicants are limited to registered manufacturers, responsible sellers and qualifying universities or research institutions.",
+          "q": "We want to label our products as whitening or anti-wrinkle functional cosmetics. What procedure applies?",
+          "conclusion": "Before sale, each product needs either a safety and efficacy review by the National Institute of Food and Drug Safety Evaluation (식품의약품안전평가원) or, if the active ingredient type and content, claims, usage and test methods match the published standards, a review-exempt product report. Registered manufacturers, responsible sellers and qualifying universities or research institutes can apply, and the package shows the words '기능성화장품' (functional cosmetic) or the designated mark.",
           "branches": [
             {
-              "when": "If the product matches MFDS's published active ingredient standards",
-              "then": "Data on safety and efficacy can be partly omitted and a report may apply."
+              "when": "If the product matches the published active ingredient standards",
+              "then": "A report is filed instead of a review."
             },
             {
-              "when": "If it uses a new active ingredient or new claim",
-              "then": "Full safety and efficacy data are needed for review."
+              "when": "If it matches a product your company has already had reviewed",
+              "then": "A report may apply."
+            },
+            {
+              "when": "If it uses a new active ingredient or a different content",
+              "then": "Safety and efficacy data and specifications and test methods are submitted for review."
             }
           ],
-          "docs": "Review request or report, safety data, efficacy data, specifications and test methods",
-          "period": "Before sale of each functional product",
+          "docs": "Functional cosmetics review application or review-exempt product report, safety and efficacy data (review), specifications and test methods",
+          "period": "Processing period on the form: 60 days for a review / report filed before sale",
           "href": "/en/services/functional-cosmetics"
         },
         {
@@ -2599,6 +2637,50 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "Cosmetics responsible seller registration certificate, import management record (country and manufacturer, certificate of manufacture and sale, etc.), standard customs clearance pre-report (electronic trade document)",
           "period": "Filed for each import; without it, import performance is reported by the end of February each year",
           "href": "/en/blog/cosmetics-import-sales-registration-guide"
+        },
+        {
+          "id": "sit-cos-import-start",
+          "q": "We want to import overseas cosmetics into Korea and sell them. Where do we start?",
+          "conclusion": "Start by registering as a cosmetics responsible seller (화장품책임판매업) for imported cosmetics with the regional MFDS office for your Korean premises and appointing a responsible sales manager. Then check each product's full ingredient list against the banned ingredient list and the limits for preservatives, colourants, UV filters and other restricted ingredients, prepare the Korean label items and a Korean product description sample, keep an import management record, and file the standard customs clearance pre-report (표준통관예정보고) or report the ingredient list before sale.",
+          "branches": [
+            {
+              "when": "If you want to claim whitening, wrinkle improvement, UV protection or another function",
+              "then": "Each product needs a functional cosmetics review or report before sale."
+            },
+            {
+              "when": "If the overseas manufacturer's quality control is recognised as at least equivalent to CGMP",
+              "then": "After an on-site inspection application, batch-by-batch quality testing in Korea can be omitted; otherwise each batch is tested before distribution."
+            },
+            {
+              "when": "If you label or advertise the product for infants or children",
+              "then": "Product-specific safety records (product and manufacturing description, safety assessment data, proof of efficacy) must be prepared and kept."
+            }
+          ],
+          "docs": "Responsible seller registration application, quality control and post-market safety standards, responsible sales manager qualification documents, full ingredient list, certificate of manufacture and sale, Korean product description sample",
+          "period": "Processing period on the form: 10 days for responsible seller registration / ingredient list report before sale (can be skipped when importing with a standard customs clearance pre-report)",
+          "href": "/en/services/cosmetics-ingredient-labeling-review"
+        },
+        {
+          "id": "sit-cos-own-factory",
+          "q": "We want to set up our own factory to manufacture cosmetics in Korea. What do we need to have in place?",
+          "conclusion": "Register as a cosmetics manufacturer (화장품제조업) with the regional MFDS office for the manufacturing site and provide a work area protected against rodents, insects and dust, storage for raw materials, packaging and products, and a testing room with quality-testing equipment. The application includes a doctor's certificate on the disqualification grounds and a facility statement; to sell under your own name you also register as a responsible seller. CGMP (우수화장품 제조 및 품질관리기준) compliance is recommended, not mandatory.",
+          "branches": [
+            {
+              "when": "If quality testing is outsourced to a testing institution",
+              "then": "The testing room and testing equipment can be omitted."
+            },
+            {
+              "when": "If you carry out only part of the process",
+              "then": "Only the facilities needed for that part are required."
+            },
+            {
+              "when": "If you want a CGMP compliance determination",
+              "then": "Apply to MFDS for an implementation assessment with a self-assessment showing at least three rounds of applying the standards (90-day processing period)."
+            }
+          ],
+          "docs": "Manufacturer registration application, doctor's certificate, facility statement, quality-testing outsourcing contract (if outsourced)",
+          "period": "Processing period on the form: 15 days for manufacturer registration",
+          "href": "/en/services/cosmetics-manufacturer-registration"
         }
       ]
     },
@@ -3792,8 +3874,24 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "在韩国销售化妆品，必须由向辖区地方食品医药品安全厅（지방식품의약품안전청）注册的“化妆品责任销售业者（화장품책임판매업자）”负责质量与安全管理，进口化妆品也不例外；境外品牌通常在韩设立法人注册，或交由已注册的韩国业者进口销售。一般化妆品没有逐个产品的上市审批，但美白、抗皱、防晒等功能性化妆品（기능성화장품）须按品目通过食品医药品安全处（식품의약품안전처，MFDS）审查或提交报告。实务中责任销售业注册约2~4周，功能性审查另计。",
+      "answer": "在韩国销售化妆品，销售主体（含委托代工的品牌方和进口商）须向责任销售业所所在地辖区的地方食品医药品安全厅（지방식품의약품안전청）注册化妆品责任销售业（화장품책임판매업）并配备责任销售管理人（책임판매관리자），注册申请书处理期限为10日；自行制造、受托制造或进行一次包装的，还须向制造场所辖区的地方食品医药品安全厅注册化妆品制造业（화장품제조업，处理期限15日）。宣称美白、抗皱、防晒等功能的，销售前须按品目接受食品医药品安全评价院（식품의약품안전평가원）审查或提交报告；进口产品须将全成分与禁用原料目录及限用原料限量比对，并具备韩文标示事项。制造场所的CGMP（优秀化妆品制造及质量管理标准）合格判定属于劝导性程序而非义务，责任销售业者须编制、保存婴幼儿·儿童用产品安全性资料并报告安全性信息，销售前化妆品安全性评估自2028年1月1日起分阶段实施。",
       "chooser": [
+        {
+          "label": "进口海外化妆品销售",
+          "target": "sit-cos-import-start"
+        },
+        {
+          "label": "OEM代工、自有品牌",
+          "target": "sit-cos-korean-oem"
+        },
+        {
+          "label": "标示美白、抗皱功能",
+          "target": "sit-cos-functional"
+        },
+        {
+          "label": "在韩国自建工厂制造",
+          "target": "sit-cos-own-factory"
+        },
         {
           "label": "中国品牌，没有韩国公司",
           "target": "sit-cos-china-brand-no-entity"
@@ -3801,22 +3899,6 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         {
           "label": "出口韩国需要什么认证",
           "target": "sit-cos-what-certification"
-        },
-        {
-          "label": "自由销售证明怎么准备",
-          "target": "sit-cos-sale-certificate"
-        },
-        {
-          "label": "美白、防晒等功能性产品",
-          "target": "sit-cos-functional"
-        },
-        {
-          "label": "委托韩国代工厂生产",
-          "target": "sit-cos-korean-oem"
-        },
-        {
-          "label": "每批进口都要检测吗",
-          "target": "sit-cos-batch-testing"
         }
       ],
       "situations": [
@@ -3888,24 +3970,24 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-functional",
-          "q": "我们的美白精华和防晒霜要在韩国卖，需要额外审批吗？",
-          "conclusion": "需要。以美白、抗皱、防晒等功能性化妆品销售的，须由制造业者或责任销售业者按品目接受安全性与有效性审查，或提交报告。",
+          "q": "我们想标示美白、抗皱功能，需要什么程序？",
+          "conclusion": "要标示或宣传美白、改善皱纹等功能，须在销售前按品目向食品医药品安全评价院（식품의약품안전평가원）提交审查申请书接受安全性与有效性审查；功效成分的种类与含量、功效、用法用量、标准及试验方法与公告品目相同的，提交免审品目报告书即可。可由化妆品制造业者、化妆品责任销售业者或大学、研究机构等申请，产品包装上须标示“기능성화장품”（功能性化妆品）字样或规定图案。",
           "branches": [
             {
-              "when": "成分与含量符合MFDS公布的标准",
-              "then": "通常可走报告程序，资料较简化。"
+              "when": "成分与含量符合公告标准",
+              "then": "提交报告书，无需审查。"
             },
             {
               "when": "使用新成分或新含量",
-              "then": "须提交安全性与有效性资料接受审查。"
+              "then": "须提交安全性与有效性资料及标准和试验方法资料接受审查。"
             },
             {
               "when": "不宣称功能",
               "then": "按一般化妆品销售，但标签和广告不能出现功能性表述。"
             }
           ],
-          "docs": "功能性化妆品审查申请书或报告书、安全性与有效性资料、配方",
-          "period": "实务中数周到数月，视审查或报告而定",
+          "docs": "功能性化妆品审查申请书或免审品目报告书、安全性与有效性资料（审查时）、标准及试验方法资料",
+          "period": "法定处理期限：审查申请60日 / 报告书须在销售前提交",
           "href": "/zh/services/functional-cosmetics"
         },
         {
@@ -3932,25 +4014,25 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-korean-oem",
-          "q": "我们想在韩国找代工厂（OEM）生产，用自己的品牌在韩国卖，需要注册制造业吗？",
-          "conclusion": "不需要。只委托已注册的韩国制造业者生产的品牌方，注册责任销售业即可销售；制造业注册（화장품제조업 등록）由代工厂负责。",
+          "q": "我们想用OEM代工生产，以自己的品牌销售，需要什么？",
+          "conclusion": "委托已注册的化妆品制造业者生产、以自己名义流通销售的品牌方，以委托制造化妆品流通销售类型注册化妆品责任销售业并配备责任销售管理人即可，不需要注册制造业；制造业注册（화장품제조업 등록）由代工厂负责。品牌方须对代工厂的制造和质量检验进行管理监督，接收并保存制造及质量管理记录，并被劝导委托已取得CGMP合格判定的企业。",
           "branches": [
             {
               "when": "完全委托代工",
-              "then": "注册责任销售业，与代工厂签订委托合同，保存产品标准书和质量管理记录。"
+              "then": "只注册责任销售业，确认按批号的质量检验结果后再流通。"
             },
             {
               "when": "品牌方自己做一次包装或部分工序",
-              "then": "须注册制造业并满足相应设施标准。"
+              "then": "须注册制造业并满足该工序的设施标准。"
             },
             {
-              "when": "只做二次包装或贴标",
-              "then": "不属于制造业范围。"
+              "when": "要宣称美白、抗皱等功能",
+              "then": "由品牌方或代工厂在销售前按品目接受功能性化妆品审查或提交报告。"
             }
           ],
-          "docs": "责任销售业注册材料、委托制造合同、产品标准书",
-          "period": "注册实务中约2~4周",
-          "href": "/zh/blog/cosmetics-manufacturing-facility-guide"
+          "docs": "责任销售业注册申请书、质量管理及销售后安全管理标准规程、责任销售管理人资格材料、委托制造合同",
+          "period": "法定处理期限：责任销售业注册10日",
+          "href": "/zh/services/cosmetics-responsible-seller-registration"
         },
         {
           "id": "sit-cos-manager",
@@ -4061,6 +4143,50 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "化妆品责任销售业登记证、进口管理记录（制造国、制造公司、制造及销售证明书等）、标准通关预定报告（电子贸易文书）",
           "period": "每次进口时办理；未办理的，进口实绩每年2月底前报告",
           "href": "/zh/blog/cosmetics-import-sales-registration-guide"
+        },
+        {
+          "id": "sit-cos-import-start",
+          "q": "我们想把海外化妆品进口到韩国销售，应该先做什么？",
+          "conclusion": "首先以进口化妆品流通销售类型，向韩国业所所在地辖区的地方食品医药品安全厅注册化妆品责任销售业，并配备责任销售管理人。之后把拟进口产品的全成分与禁用原料目录以及防腐剂、色素、防晒剂等限用原料的限量比对，准备韩文标示事项和韩文产品说明书样本，编制进口管理记录书，并办理标准通关预定报告（표준통관예정보고）或在流通销售前报告原料目录，然后再销售。",
+          "branches": [
+            {
+              "when": "要宣称美白、抗皱、防晒等功能",
+              "then": "销售前须按品目接受功能性化妆品审查或提交报告。"
+            },
+            {
+              "when": "境外制造商的质量管理标准被认定不低于CGMP水平",
+              "then": "经申请现场实地审查后，可省略在韩国按批号进行的质量检验；否则须按批号检验后再流通。"
+            },
+            {
+              "when": "标示或宣传适用于婴幼儿、儿童",
+              "then": "须按产品编制并保存安全性资料（产品及制造方法说明、安全性评估资料、功效证明资料）。"
+            }
+          ],
+          "docs": "化妆品责任销售业注册申请书、质量管理及销售后安全管理标准规程、责任销售管理人资格证明材料、全成分表、制造及销售证明书、韩文产品说明书样本",
+          "period": "法定处理期限：责任销售业注册10日 / 原料目录须在流通销售前报告（以标准通关预定报告进口的可省略）",
+          "href": "/zh/services/cosmetics-ingredient-labeling-review"
+        },
+        {
+          "id": "sit-cos-own-factory",
+          "q": "我们想在韩国自建工厂制造化妆品，需要具备哪些条件？",
+          "conclusion": "须向制造场所所在地辖区的地方食品医药品安全厅注册化妆品制造业，并具备防鼠、防虫、防尘的作业场所，原料、包材和产品保管场所，以及质量检验试验室和检验设施、器具。注册申请书须附上证明不属于失格事由的医生诊断书和设施明细；以自己名义销售的，还须另行注册责任销售业。CGMP（优秀化妆品制造及质量管理标准）合格判定是劝导性程序，并非义务。",
+          "branches": [
+            {
+              "when": "质量检验委托试验检验机构",
+              "then": "可不设试验室和质量检验设施、器具。"
+            },
+            {
+              "when": "只自行进行部分工序",
+              "then": "只需具备该工序所需的设施和器具。"
+            },
+            {
+              "when": "希望取得CGMP合格判定",
+              "then": "附上按标准运行3次以上的自我评估表等，向食品医药品安全处申请实施情况评估（处理期限90日）。"
+            }
+          ],
+          "docs": "化妆品制造业注册申请书、医生诊断书、设施明细、质量检验委托合同（委托时）",
+          "period": "法定处理期限：化妆品制造业注册15日",
+          "href": "/zh/services/cosmetics-manufacturer-registration"
         }
       ]
     },
@@ -5318,31 +5444,31 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
       ]
     },
     "cosmetics": {
-      "answer": "韓国で化粧品を輸入・流通・販売するには、その事業者が食品医薬品安全処（MFDS）に化粧品責任販売業（화장품책임판매업）を登録し、品質管理と販売後の安全管理を担う責任販売管理者（책임판매관리자）を置きます。登録は韓国内の責任販売業所の所在地を管轄する地方食品医薬品安全庁（지방식품의약품안전청）に申請するため、韓国に拠点のない日本ブランドは、登録済みの韓国の輸入元と組むか、韓国法人を設けて自社で登録します。美白・シワ改善・紫外線遮断などをうたう機能性化粧品は、品目ごとに審査または報告（기능성화장품 심사·보고）が必要です。",
+      "answer": "韓国で化粧品を販売するには、販売する事業者（製造委託のブランド会社・輸入会社を含む）が責任販売業所の所在地を管轄する地方食品医薬品安全庁（지방식품의약품안전청）に化粧品責任販売業（화장품책임판매업）を登録し、責任販売管理者（책임판매관리자）を置きます（登録申請書の処理期間10日）。自ら製造・受託製造・1次包装を行うなら、製造所を管轄する地方食品医薬品安全庁に化粧品製造業（화장품제조업）も登録します（処理期間15日）。美白・シワ改善・紫外線遮断などの機能をうたう製品は販売前に品目ごとに食品医薬品安全評価院（식품의약품안전평가원）の審査を受けるか報告書を提出し、輸入品は全成分を使用できない原料の一覧・使用基準のある原料の上限と照らし合わせて韓国語の表示記載事項をそろえます。製造所のCGMP（優秀化粧品製造及び品質管理基準）適合判定は義務ではなく推奨の手続きで、責任販売業者は乳幼児・子ども用製品の安全性資料の作成・保管と安全性情報の報告を行い、販売前の化粧品安全性評価は2028年1月1日から段階的に施行されます。",
       "chooser": [
+        {
+          "label": "海外化粧品を輸入して販売",
+          "target": "sit-cos-import-start"
+        },
+        {
+          "label": "OEMで自社ブランド販売",
+          "target": "sit-cos-korea-oem"
+        },
+        {
+          "label": "美白・シワ改善の機能性表示",
+          "target": "sit-cos-functional"
+        },
+        {
+          "label": "自社工場で製造",
+          "target": "sit-cos-manufacture-korea"
+        },
         {
           "label": "韓国に法人がない日本ブランド",
           "target": "sit-cos-japan-brand-no-entity"
         },
         {
-          "label": "韓国のOEM工場で作る",
-          "target": "sit-cos-korea-oem"
-        },
-        {
           "label": "成分が韓国で使えるか",
           "target": "sit-cos-ingredients"
-        },
-        {
-          "label": "美白・シワ改善・UVをうたう",
-          "target": "sit-cos-functional"
-        },
-        {
-          "label": "越境ECで販売する",
-          "target": "sit-cos-cross-border"
-        },
-        {
-          "label": "子ども用として売る",
-          "target": "sit-cos-kids-safety"
         }
       ],
       "situations": [
@@ -5370,25 +5496,25 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-korea-oem",
-          "q": "韓国のOEM工場で自社ブランドの化粧品を作り、韓国でも販売したい。必要な登録は？",
-          "conclusion": "製造を委託して自社の名義で流通・販売する会社は化粧品責任販売業の登録が必要ですが、化粧品製造業（화장품제조업）の登録はいりません。製造業の登録が必要なのは、実際に製造するOEM工場の側です。",
+          "q": "OEMで作って自社ブランドで販売するには、何が必要ですか？",
+          "conclusion": "製造を登録済みの化粧品製造業者に委託し、完成品を自社の名義で流通・販売する会社は、製造委託化粧品の流通・販売の類型で化粧品責任販売業を登録し責任販売管理者を置けばよく、化粧品製造業（화장품제조업）の登録はいりません。ブランド会社は委託先の製造・品質検査を管理・監督して製造・品質管理の記録を受け取って保管し、CGMP適合判定を受けた業所への委託が勧められています。",
           "branches": [
             {
-              "when": "韓国内でも販売する場合",
-              "then": "自社（韓国法人）が責任販売業を登録するか、登録済みの責任販売業者に販売元になってもらいます。"
+              "when": "製造をすべて委託する場合",
+              "then": "責任販売業だけを登録し、製造番号ごとの品質検査結果を確認してから流通させます。"
             },
             {
-              "when": "日本向けにだけ輸出する場合",
-              "then": "韓国側の手続きは誰が輸出者になるかで変わるため、個別に確認します。"
+              "when": "1次包装や一部の工程を自社で行う場合",
+              "then": "化粧品製造業の登録が必要で、その工程に必要な施設を備えます。"
             },
             {
-              "when": "機能性化粧品として作る場合",
-              "then": "製造業者または責任販売業者が品目ごとに審査・報告を行います。"
+              "when": "美白・シワ改善などの機能をうたう場合",
+              "then": "ブランド会社または製造業者が販売前に品目ごとに審査を受けるか報告書を提出します。"
             }
           ],
-          "docs": "責任販売業登録申請書、責任販売管理者の資格確認書類、製造委託契約書、OEM工場の製造業登録の確認",
-          "period": "営業登録は管轄の地方食品医薬品安全庁が処理",
-          "href": "/ja/blog/cosmetics-responsible-distributor"
+          "docs": "責任販売業登録申請書、品質管理及び販売後の安全管理基準に関する規程、責任販売管理者の資格確認書類、製造委託契約書",
+          "period": "法定の処理期間：責任販売業の登録10日",
+          "href": "/ja/services/cosmetics-responsible-seller-registration"
         },
         {
           "id": "sit-cos-ingredients",
@@ -5414,24 +5540,24 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-functional",
-          "q": "美白・シワ改善・日焼け止めをうたう化粧品を韓国で売るには、何が必要ですか？",
-          "conclusion": "これらは韓国では「機能性化粧品」に当たり、製造業者・責任販売業者などが品目ごとに安全性・有効性の審査を受けるか、報告書を提出します。成分・含量・効能・用法などがMFDSの告示品目や審査済み品目と同じなら報告で足ります。",
+          "q": "美白・シワ改善の機能性表示をしたいです。どんな手続きが必要ですか？",
+          "conclusion": "美白・シワ改善などの機能を表示・広告するには、販売前に品目ごとに食品医薬品安全評価院（식품의약품안전평가원）へ審査依頼書を出して安全性・有効性の審査を受けるか、有効成分の種類・含量、効能・効果、用法・用量、基準・試験方法が告示品目と同じなら審査除外品目報告書を提出します。申請できるのは化粧品製造業者・化粧品責任販売業者または大学・研究機関などで、包装には「기능성화장품」（機能性化粧品）の文字または定められた図案を表示します。",
           "branches": [
             {
               "when": "告示された成分・含量・効能と同じ場合",
               "then": "審査ではなく報告書の提出で進められます。"
             },
             {
-              "when": "告示にない成分や効能の場合",
-              "then": "安全性・有効性の資料を出して審査を受けます。"
+              "when": "自社ですでに審査を受けた品目と同じ場合",
+              "then": "報告書の提出で足りることがあります。"
             },
             {
-              "when": "機能性をうたわない場合",
-              "then": "一般の化粧品として販売し、機能性の表示はしません。"
+              "when": "告示にない成分や含量の場合",
+              "then": "安全性・有効性の資料と基準及び試験方法の資料を出して審査を受けます。"
             }
           ],
-          "docs": "機能性化粧品の審査依頼書または報告書、成分・含量・規格と試験方法の資料、安全性・有効性の資料（審査時）",
-          "period": "審査は資料の内容で期間が変わるため、販売開始日から逆算して準備します",
+          "docs": "機能性化粧品の審査依頼書または審査除外品目報告書、安全性・有効性の資料（審査時）、基準及び試験方法の資料",
+          "period": "法定の処理期間：審査依頼60日／報告書は販売前に提出",
           "href": "/ja/services/functional-cosmetics"
         },
         {
@@ -5480,25 +5606,25 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
         },
         {
           "id": "sit-cos-manufacture-korea",
-          "q": "韓国に自社工場をつくって化粧品を製造する場合、どんな登録が必要ですか？",
-          "conclusion": "製造所の所在地を管轄する地方食品医薬品安全庁に化粧品製造業を登録し、施設基準を満たします。CGMP（優秀化粧品製造及び品質管理基準・우수화장품 제조 및 품질관리기준）は推奨制度で、義務ではありません。工場そのものについては工場登録の要否も確認します。",
+          "q": "自社で工場を設けて化粧品を製造するには、何をそろえる必要がありますか？",
+          "conclusion": "製造所の所在地を管轄する地方食品医薬品安全庁に化粧品製造業を登録し、ネズミ・害虫・ほこりを防ぐ設備と作業台などを備えた作業所、原料・資材・製品の保管所、品質検査の試験室と検査の施設・器具をそろえます。登録申請書には欠格事由に当たらないことを示す医師の診断書と施設の明細書を添え、自社名義で販売するなら責任販売業も別に登録します。CGMP（優秀化粧品製造及び品質管理基準・우수화장품 제조 및 품질관리기준）は推奨制度で、義務ではありません。工場そのものについては工場登録の要否も確認します。",
           "branches": [
             {
-              "when": "全工程を製造する場合",
-              "then": "施設基準を満たした製造所を整え、施設明細書を添えて登録します。"
+              "when": "品質検査を試験・検査機関などに委託する場合",
+              "then": "試験室と品質検査の施設・器具を備えなくてもかまいません。"
             },
             {
               "when": "一部工程（1次包装など）だけ行う場合",
-              "then": "施設の一部を備えなくてよいことがあります。"
+              "then": "その工程に必要な施設・器具だけを備えます。"
             },
             {
-              "when": "自社名義でも販売する場合",
-              "then": "製造業とは別に責任販売業の登録が必要です。"
+              "when": "CGMP適合判定を受けたい場合",
+              "then": "基準を3回以上適用・運用した自己評価表などを添えて食品医薬品安全処に実施状況評価を申請します（処理期間90日）。"
             }
           ],
-          "docs": "製造業登録申請書、代表者の診断書、施設の明細書、（工場）工場設立承認・登録関係書類",
-          "period": "営業登録は管轄の地方食品医薬品安全庁が処理。工場の承認は申請から20日以内などの法定期間",
-          "href": "/ja/blog/cosmetics-manufacturing-facility-guide"
+          "docs": "製造業登録申請書、医師の診断書、施設の明細書、品質検査の委託契約書（委託する場合）、（工場）工場設立承認・登録関係書類",
+          "period": "法定の処理期間：化粧品製造業の登録15日。工場の承認は申請から20日以内などの法定期間",
+          "href": "/ja/services/cosmetics-manufacturer-registration"
         },
         {
           "id": "sit-cos-label",
@@ -5587,6 +5713,28 @@ export const FOCUS_SITUATIONS: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, 
           "docs": "化粧品責任販売業の登録証、輸入管理記録書（製造国・製造会社、製造及び販売証明書など）、標準通関予定報告（電子貿易文書）",
           "period": "輸入のたびに行う／報告しない場合、輸入実績は毎年2月末までに報告",
           "href": "/ja/blog/cosmetics-import-sales-registration-guide"
+        },
+        {
+          "id": "sit-cos-import-start",
+          "q": "海外の化粧品を韓国に輸入して販売したいです。何から始めればよいですか？",
+          "conclusion": "まず、輸入化粧品を流通・販売する類型で、韓国の業所の所在地を管轄する地方食品医薬品安全庁に化粧品責任販売業を登録し、責任販売管理者を置きます。続いて、輸入する製品の全成分を使用できない原料の一覧や保存剤・色素・紫外線遮断剤など使用基準のある原料の上限と照らし合わせ、韓国語の表示記載事項と韓国語の製品説明書見本を準備し、輸入管理記録書を作成したうえで、標準通関予定報告（표준통관예정보고）または流通・販売前の原料目録報告を経て販売します。",
+          "branches": [
+            {
+              "when": "美白・シワ改善・紫外線遮断などの機能をうたう場合",
+              "then": "販売前に品目ごとに機能性化粧品の審査を受けるか報告書を提出します。"
+            },
+            {
+              "when": "海外製造元の品質管理基準がCGMPと同等以上と認められる場合",
+              "then": "現地実査の申請を経て、韓国内での製造番号ごとの品質検査を省略できます。それ以外は製造番号ごとに品質検査をしてから流通させます。"
+            },
+            {
+              "when": "乳幼児・子ども用と表示・広告する場合",
+              "then": "製品別の安全性資料（製品・製造方法の説明、安全性評価資料、効能・効果の証明資料）を作成・保管します。"
+            }
+          ],
+          "docs": "化粧品責任販売業登録申請書、品質管理及び販売後の安全管理基準に関する規程、責任販売管理者の資格確認書類、全成分表、製造及び販売証明書、韓国語の製品説明書見本",
+          "period": "法定の処理期間：責任販売業の登録10日／原料目録の報告は流通・販売前（標準通関予定報告で輸入すれば省略可）",
+          "href": "/ja/services/cosmetics-ingredient-labeling-review"
         }
       ]
     },

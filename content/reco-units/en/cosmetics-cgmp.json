@@ -1,0 +1,184 @@
+{
+ "slug": "cosmetics-cgmp",
+ "lang": "en",
+ "label": "CGMP compliant facility assessment for cosmetics",
+ "kw": "Cosmetics CGMP assessment agent in Korea",
+ "answer": "The CGMP assessment is the procedure in which a cosmetics manufacturer that has applied and operated the Standards for Good Cosmetics Manufacturing and Quality Control (우수화장품 제조 및 품질관리기준) at least 3 times applies to the Minister of Food and Drug Safety with a self-assessment, its operating organisation, facility details and manufacturing and quality control status, and receives a compliant facility certificate after document review and an on-site inspection. It is a recommended standard rather than an obligation, and the processing period on the application form is 90 days. YouSun Administrative Agency prepares and files the application for assessment of CGMP implementation and its attachments.",
+ "services": [
+  {"name": "Preparing and filing the application for assessment of CGMP implementation (우수화장품 제조 및 품질관리기준 실시상황 평가신청서)", "href": "#term-cosgmp-conformity"},
+  {"name": "Reviewing the application category: all processes or partial processes (bulk manufacturing, filling and packaging) (신청분류)", "href": "#sit-cosgmp-partial"},
+  {"name": "Compiling the self-assessment after applying and operating the standard at least 3 times (자체평가표)", "href": "#term-cosgmp-self-eval"},
+  {"name": "Organising operating organisation documents: organisation status, quality manager CV, training rules (운영조직)", "href": "#svc-glance"},
+  {"name": "Organising the attachment list for floor plan, ventilation and water treatment diagrams, facility and equipment lists (제조소 시설내역)", "href": "#sit-cosgmp-floor-plan"},
+  {"name": "Organising and checking the manufacturing control status and quality control status attachments (제조관리현황·품질관리현황)", "href": "#sit-cosgmp-documents"},
+  {"name": "Preparing documents in response to supplementation requests at the review stage", "href": "#term-cosgmp-site-survey"},
+  {"name": "Guidance on receiving the compliant facility certificate and the logo display rules (적합업소 증명서·로고)", "href": "#sit-cosgmp-logo"},
+  {"name": "Preparing documents in response to correction orders after follow-up inspections (사후관리)", "href": "#term-cosgmp-post-mgmt"},
+  {"name": "Guidance on waiving domestic quality testing of imported cosmetics and applying for an overseas site inspection (현지실사)", "href": "#sit-cosgmp-import"}
+ ],
+ "clients": [
+  "Manufacturers registered as cosmetics manufacturers that are preparing for a CGMP assessment",
+  "OEM and ODM contract manufacturers producing cosmetics for other brands",
+  "Facilities that carry out only bulk manufacturing or filling and primary packaging",
+  "Cosmetics responsible sellers importing products from overseas manufacturers and reviewing whether domestic quality testing can be waived"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Cosmetics manufacturers (all processes, or partial processes: bulk manufacturing or filling and primary packaging); a recommended standard, not an obligation"},
+  {"label": "Requirements", "value": "Applying and operating the Standards for Good Cosmetics Manufacturing and Quality Control at least 3 times, independent manufacturing and quality departments for each plant, standard documents and manufacturing and quality records"},
+  {"label": "Process", "value": "Applying and operating the standard and self-assessment → filing the application with the Minister of Food and Drug Safety → document review → on-site inspection → decision and notice → compliant facility certificate"},
+  {"label": "Documents", "value": "Application for assessment of CGMP implementation, self-assessment, operating organisation (organisation and operating status, quality manager CV, training rules and records), plant facility details (1/100 scale measured floor plan, ventilation system diagram, water treatment system diagram, manufacturing and testing facility and equipment lists), manufacturing control status, quality control status"},
+  {"label": "Timeline", "value": "90 days under the application form (time to operate the standard and supplementation time are additional)"}
+ ],
+ "chooser": [
+  {"label": "You first want to know whether CGMP is mandatory", "target": "sit-cosgmp-mandatory"},
+  {"label": "You are not yet registered as a manufacturer", "target": "sit-cosgmp-before-registration"},
+  {"label": "You carry out only part of the process, such as filling and packaging", "target": "sit-cosgmp-partial"},
+  {"label": "You want to use the logo after a compliance decision", "target": "sit-cosgmp-logo"},
+  {"label": "You import cosmetics made overseas", "target": "sit-cosgmp-import"}
+ ],
+ "situations": [
+  {
+   "id": "sit-cosgmp-mandatory",
+   "q": "We are registered as a cosmetics manufacturer in Korea. Do we need a CGMP compliance decision to operate?",
+   "conclusion": "No. CGMP is a standard that MFDS may recommend to manufacturers, and it is not a requirement for manufacturer registration. However, manufacturer obligations such as preparing and keeping standard documents and records, hygiene management and testing and inspection apply regardless of a compliance decision.",
+   "branches": [
+    {"when": "You only want to manufacture without a compliance decision", "then": "Meet the manufacturer obligations (standard documents and records, facility hygiene and inspection, testing from receipt to release) and operate."},
+    {"when": "You want the compliant facility logo or adjusted surveillance", "then": "Apply and operate the standard at least 3 times, then apply for the assessment."}
+   ],
+   "docs": "Manufacturing control standard, product standard, manufacturing records, quality control records (obligations) / for a compliance decision, the application for assessment and attachments",
+   "period": "If you apply, the processing period on the application form is 90 days"
+  },
+  {
+   "id": "sit-cosgmp-before-registration",
+   "q": "Our factory is still being built. Can we apply for a cosmetics CGMP assessment before registering as a manufacturer in Korea?",
+   "conclusion": "The standard is aimed at cosmetics manufacturers, and the application form asks for the plant's area, staff and operating record, so the order is to complete manufacturer registration first, apply and operate the standard at least 3 times, and then apply.",
+   "branches": [
+    {"when": "You are not yet registered as a manufacturer", "then": "Complete cosmetics manufacturer registration first."},
+    {"when": "You are registered but lack an operating record", "then": "Apply and operate the standard at least 3 times, prepare the self-assessment and then apply."}
+   ],
+   "docs": "Cosmetics manufacturer registration documents (registration stage) / self-assessment, operating organisation, facility details, manufacturing control status, quality control status (assessment stage)",
+   "period": "Registration and operating time come first; after filing, the processing period on the form is 90 days"
+  },
+  {
+   "id": "sit-cosgmp-partial",
+   "q": "Our plant receives bulk product from elsewhere and only does filling and packaging. Can we still get a CGMP compliance decision in Korea?",
+   "conclusion": "Yes. Partial processes are divided into bulk manufacturing and filling and packaging (primary packaging). You state the process on the application, and the certificate and logo are issued for partial processes.",
+   "branches": [
+    {"when": "You only do filling and packaging (primary packaging)", "then": "Select filling and packaging under partial processes in the application category."},
+    {"when": "You do everything from bulk manufacturing to packaging", "then": "Apply for all processes."}
+   ],
+   "docs": "Application for assessment (with the application category stated), self-assessment, operating organisation, plant facility details, manufacturing control status, quality control status",
+   "period": "90 days under the application form"
+  },
+  {
+   "id": "sit-cosgmp-self-eval",
+   "q": "How many times must we operate the Korean cosmetics CGMP standard before submitting the self-assessment?",
+   "conclusion": "The application must be accompanied by a self-assessment after applying and operating the Standards for Good Cosmetics Manufacturing and Quality Control at least 3 times.",
+   "branches": [
+    {"when": "You have operated the standard fewer than 3 times", "then": "Complete the required number of runs before preparing the self-assessment."},
+    {"when": "You have records of 3 or more runs", "then": "Prepare the self-assessment together with the other attachments and apply."}
+   ],
+   "docs": "Self-assessment after applying and operating the standard at least 3 times, operating records",
+   "period": "In practice, time to complete the required runs is needed before filing"
+  },
+  {
+   "id": "sit-cosgmp-floor-plan",
+   "q": "What level of floor plan and facility documents do we need for a cosmetics CGMP application in Korea?",
+   "conclusion": "Submit a 1/100 scale measured floor plan showing the names of workrooms, testing room, storage and auxiliary facilities as well as doors and corridors, a ventilation system diagram, a water treatment system diagram, and lists of manufacturing and testing facilities and equipment (name, specification, quantity).",
+   "branches": [
+    {"when": "Your drawings are not measured floor plans", "then": "Prepare a 1/100 scale measured floor plan again."},
+    {"when": "You outsource testing", "then": "Include the contract testing agreement and management status in the quality control status together with the testing facility list."}
+   ],
+   "docs": "1/100 scale measured floor plan, ventilation system diagram, water treatment system diagram, manufacturing facility and equipment list, testing facility and equipment list",
+   "period": "In practice, time to prepare drawings is needed"
+  },
+  {
+   "id": "sit-cosgmp-documents",
+   "q": "What goes into the manufacturing control status and quality control status for a Korean cosmetics CGMP application?",
+   "conclusion": "Manufacturing control status covers the manufacturing control standard and list of rules, contract manufacturing agreements and management status, workroom zoning and entry rules, cleaning and disinfection, and pest control. Quality control status covers calibration management, manufacturing water control and test examples, equipment inspection rules and equipment register, and contract testing agreements.",
+   "branches": [
+    {"when": "You are a contract manufacturer", "then": "Submit the contract manufacturing agreement and management status as well."},
+    {"when": "All testing is done in your own testing room", "then": "Organise the management records for your own testing facilities without contract testing agreements."}
+   ],
+   "docs": "Manufacturing control standard and list of rules, workroom zoning and entry rules, cleaning and disinfection records, pest control rules, calibration rules, manufacturing water control rules, equipment inspection rules and equipment register, contract agreements (if applicable)",
+   "period": "90 days under the application form (supplementation time additional)"
+  },
+  {
+   "id": "sit-cosgmp-period",
+   "q": "How long does a cosmetics CGMP compliance decision take in Korea, from filing to certificate?",
+   "conclusion": "The processing period on the application form is 90 days, following the order receipt → document review → on-site inspection → decision → notice and certificate.",
+   "branches": [
+    {"when": "A supplementation request is issued", "then": "The process may take longer by the time needed to submit supplementary documents."},
+    {"when": "You are still preparing", "then": "First estimate the time to apply and operate the standard at least 3 times."}
+   ],
+   "docs": "Application for assessment of CGMP implementation and attachments",
+   "period": "90 days under the application form / operating and supplementation time are additional"
+  },
+  {
+   "id": "sit-cosgmp-cost",
+   "q": "To estimate the cost of Korean cosmetics CGMP certification, which preparation items should we check first?",
+   "conclusion": "The items required by the standard are independent manufacturing and quality departments for each plant, standard documents and records, testing facilities and equipment with calibration management, manufacturing water control, and an operating record of at least 3 runs. The scope of preparation depends on which of these are already in place.",
+   "branches": [
+    {"when": "Facilities and standard documents are already in place", "then": "Focus on operating records, the self-assessment and organising the attachments."},
+    {"when": "You outsource testing or calibration", "then": "Arrange contract testing agreements and management records."}
+   ],
+   "docs": "Operating organisation documents, plant facility details, manufacturing control status, quality control status, self-assessment",
+   "period": "In practice: preparing the standard → operating at least 3 times → filing; after filing, the processing period on the form is 90 days"
+  },
+  {
+   "id": "sit-cosgmp-logo",
+   "q": "Can we use the Korean CGMP compliant facility logo on cosmetics packaging and in advertising?",
+   "conclusion": "A facility with a compliance decision may display the compliant facility logo on the plant and on cosmetics manufactured there, or advertise the decision. The logos for all processes and partial processes are different.",
+   "branches": [
+    {"when": "Your compliance decision covers only partial processes", "then": "Use the partial-process logo."},
+    {"when": "The product was made at a facility without a compliance decision", "then": "Do not display the logo or advertise compliant facility status."}
+   ],
+   "docs": "Compliant facility certificate, logo design (scaled proportionally, printed or engraved)",
+   "period": "The logo can be displayed once the certificate is issued"
+  },
+  {
+   "id": "sit-cosgmp-revoke",
+   "q": "If a follow-up inspection finds our facility non-compliant, will our Korean cosmetics CGMP decision be cancelled?",
+   "conclusion": "MFDS inspects compliant facilities at least once every 3 years and may order a non-compliant facility to correct within a set period or cancel its compliant facility decision.",
+   "branches": [
+    {"when": "You receive a correction order", "then": "Correct within the set period and submit the results."},
+    {"when": "Your manufacturing or quality control is considered problematic", "then": "An ad hoc inspection may take place in addition to the regular one."}
+   ],
+   "docs": "Correction results, standard documents and records, internal audit records",
+   "period": "Regular inspection at least once every 3 years / the correction period is set by MFDS"
+  },
+  {
+   "id": "sit-cosgmp-import",
+   "q": "If an overseas manufacturer's quality control is recognised, can we skip domestic quality testing of imported cosmetics in Korea?",
+   "conclusion": "A responsible seller importing cosmetics may skip domestic quality testing where the overseas manufacturer's quality control standard is mutually recognised between countries or recognised as equal to or higher than the Korean good manufacturing standard; the manufacturer's test report then replaces the quality control record.",
+   "branches": [
+    {"when": "You want to skip domestic quality testing", "then": "Apply to the Minister of Food and Drug Safety for a site inspection of the overseas manufacturer."},
+    {"when": "The recognition is cancelled", "then": "Domestic quality testing by batch is required again."}
+   ],
+   "docs": "Site inspection application documents (under the procedure set by MFDS), the overseas manufacturer's quality test report, import management record",
+   "period": "The site inspection schedule depends on MFDS review"
+  },
+  {
+   "id": "sit-cosgmp-recommend",
+   "q": "If we hire an administrative agent for a cosmetics CGMP application in Korea, what exactly do they handle?",
+   "conclusion": "When authorised by the client, we review the application category, prepare the application for assessment, organise the attachment list and check for omissions, file with MFDS and respond to supplementation requests. We do not provide on-site quality consulting, design standard documents, carry out facility construction, or perform validation, calibration or testing, and the compliance decision is made by MFDS.",
+   "branches": [
+    {"when": "You have finished operating the standard and the self-assessment", "then": "We organise the attachments according to the list, file them with the application and respond to supplementation requests."},
+    {"when": "You first need manufacturer registration", "then": "Cosmetics manufacturer registration is handled first."}
+   ],
+   "docs": "Letter of authorisation, application for assessment, self-assessment, operating organisation, plant facility details, manufacturing control status, quality control status",
+   "period": "90 days under the application form (supplementation time additional)",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-cosgmp-cgmp", "term": "CGMP (Korean cosmetics good manufacturing practice, 우수화장품 제조 및 품질관리기준)", "def": "Detailed cosmetics manufacturing and quality control standards published by MFDS, whose implementation is recommended to cosmetics manufacturers."},
+  {"id": "term-cosgmp-conformity", "term": "Compliance decision (assessment of implementation, 적합판정·실시상황 평가)", "def": "The procedure in which the Minister of Food and Drug Safety evaluates the application and documents and carries out an on-site inspection to decide whether the facility meets the standard."},
+  {"id": "term-cosgmp-self-eval", "term": "Self-assessment (자체평가표)", "def": "A document in which the facility assesses its own results after applying and operating the standard at least 3 times, attached to the application."},
+  {"id": "term-cosgmp-partial", "term": "Partial processes (일부 공정)", "def": "The application category for facilities carrying out only bulk manufacturing or filling and packaging (primary packaging); the process is stated on the certificate."},
+  {"id": "term-cosgmp-site-survey", "term": "On-site inspection (실태조사)", "def": "An inspection by MFDS of how a facility operates the standard, using the implementation checklist, both before the decision and during follow-up."},
+  {"id": "term-cosgmp-certificate", "term": "Compliant facility certificate (적합업소 증명서)", "def": "A certificate issued by the Minister of Food and Drug Safety to a facility found compliant, showing its name, representative, address and application category."},
+  {"id": "term-cosgmp-oos", "term": "Out-of-specification (기준일탈)", "def": "A test, measurement or inspection result that does not meet the acceptance criteria; it is reported to the responsible person, investigated and classed as a deviation, non-conforming or on hold."},
+  {"id": "term-cosgmp-post-mgmt", "term": "Follow-up management (사후관리)", "def": "The procedure under which MFDS inspects compliant facilities at least once every 3 years and may order correction or cancel the decision for non-compliance."}
+ ]
+}

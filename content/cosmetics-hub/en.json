@@ -1,0 +1,95 @@
+{
+  "lang": "en",
+  "heading": "How the Korean cosmetics licensing steps connect",
+  "lead": "To sell cosmetics in Korea, the company placing them on the market first registers as a cosmetics responsible seller (①), and a company that manufactures, contract-manufactures or does primary packaging adds a cosmetics manufacturer registration (②). Steps ③ to ⑥ build on ① or ② depending on the product and the premises: functional claims, ingredients and labelling of imported products, manufacturing-site quality management and product safety records.",
+  "diagramLabel": "Six-step map of Korean cosmetics licensing work",
+  "steps": [
+    {
+      "id": "hub-step-1",
+      "no": "①",
+      "short": "Responsible seller",
+      "name": "Cosmetics responsible seller registration (화장품책임판매업 등록)",
+      "agency": "Regional Office of Food and Drug Safety (지방식품의약품안전청) with jurisdiction over the responsible seller's business premises",
+      "target": "Anyone distributing and selling cosmetics under its own name — products it manufactures itself, products made by a contract manufacturer, imported products, and buy-for-me (수입대행형) e-commerce sales",
+      "when": "This is the starting point whenever cosmetics are placed on the Korean market. The company sets up quality control and post-market safety management standards and appoints a responsible sales manager (책임판매관리자); the processing period on the application form is 10 days. Simply buying finished products already distributed by another responsible seller and reselling them as they are is not one of the business types under the Cosmetics Act.",
+      "we": "We determine the responsible-seller type (own manufacturing, contract manufacturing, import or buy-for-me), prepare the quality control and post-market safety standards and the manager's qualification documents, draft and file the application, handle supplementary requests and file change registrations. We do not perform the responsible sales manager's duties ourselves.",
+      "href": "/en/services/cosmetics-responsible-seller-registration",
+      "linkText": "Cosmetics responsible seller registration in detail"
+    },
+    {
+      "id": "hub-step-2",
+      "no": "②",
+      "short": "Manufacturer",
+      "name": "Cosmetics manufacturer registration (화장품제조업 등록)",
+      "agency": "Regional Office of Food and Drug Safety (지방식품의약품안전청) with jurisdiction over the manufacturing site",
+      "target": "Anyone who manufactures cosmetics directly, manufactures them under contract for others, or does primary packaging",
+      "when": "Needed only for own manufacturing, contract manufacturing or primary packaging; a brand that outsources all manufacturing does not need it. The site needs a work area, storage area, testing room and quality-testing equipment (the testing room and equipment can be omitted if quality testing is outsourced, and a company doing only part of the process needs only the facilities for that part). The processing period on the application form is 15 days.",
+      "we": "We check the manufacturing type and whether the facility standards are met, prepare the facility statement, medical certificates and other attachments, draft and file the application, handle supplementary requests and file change registrations. We do not carry out construction or equipment design.",
+      "href": "/en/services/cosmetics-manufacturer-registration",
+      "linkText": "Cosmetics manufacturer registration in detail"
+    },
+    {
+      "id": "hub-step-3",
+      "no": "③",
+      "short": "Functional review",
+      "name": "Functional cosmetics review or report (기능성화장품 심사·보고)",
+      "agency": "National Institute of Food and Drug Safety Evaluation (식품의약품안전평가원), which receives review applications and review-exempt product reports",
+      "target": "Cosmetics manufacturers, cosmetics responsible sellers, or universities and research institutes that want a product recognised and sold as a functional cosmetic",
+      "when": "Required before sale for each product that claims a function such as whitening, wrinkle improvement, UV protection, changing hair colour or relieving hair-loss symptoms. If the active ingredients, content and other particulars match the published standards, a report is filed; otherwise the product goes through a review with safety and efficacy data (processing period on the review application: 60 days). General cosmetics with no functional claim are not covered.",
+      "we": "We determine whether a product falls under review or report, draft and file the review application or report with its list of attachments, respond to supplementary requests and handle change reviews. Efficacy and safety tests are carried out by testing laboratories.",
+      "href": "/en/services/functional-cosmetics",
+      "linkText": "Functional cosmetics review and report in detail"
+    },
+    {
+      "id": "hub-step-4",
+      "no": "④",
+      "short": "Ingredients & labels",
+      "name": "Ingredient and labelling review for imported cosmetics (수입화장품 성분·표시 검토)",
+      "agency": "No separate application — the standards are MFDS (식품의약품안전처) notices on prohibited ingredients, ingredients with use standards and labelling; ingredient lists and import performance are reported to MFDS through a cosmetics industry association",
+      "target": "Cosmetics responsible sellers that distribute imported cosmetics, and overseas manufacturers and brands preparing a Korean launch",
+      "when": "Before import and launch, the full ingredient list is checked against the list of ingredients that cannot be used and the limits for ingredients with use standards such as preservatives, colourants and UV filters, and the Korean-language label items (product name, business name and address, all ingredients, quantity, batch number, expiry date, precautions for use and others) are confirmed. Preservatives, colourants and UV filters without a designated use standard cannot be used.",
+      "we": "We compare the full ingredient list with the published ingredient lists, check the label items, help prepare the import management record and the Korean-language product description sample, and explain the ingredient list report. Ingredient testing and analysis are done by testing and inspection institutions, and import declarations by customs brokers.",
+      "href": "/en/services/cosmetics-ingredient-labeling-review",
+      "linkText": "Ingredient and labelling review in detail"
+    },
+    {
+      "id": "hub-step-5",
+      "no": "⑤",
+      "short": "CGMP facility",
+      "name": "CGMP (Korean cosmetics good manufacturing and quality control standards, 우수화장품 제조 및 품질관리기준) compliant facility",
+      "agency": "Ministry of Food and Drug Safety (MFDS, 식품의약품안전처), which receives the implementation assessment application",
+      "target": "Manufacturing sites of cosmetics manufacturers (all processes, or part of the process such as bulk manufacturing or filling and primary packaging)",
+      "when": "This is not a legal obligation but a standard the Minister of Food and Drug Safety recommends manufacturers follow. To obtain a compliance determination, a site applies with a self-assessment showing it has applied and operated the standards at least three times, among other documents, and goes through a document assessment and an on-site inspection (processing period on the application form: 90 days). After the determination, follow-up inspections take place at least once every three years.",
+      "we": "We draft and file the assessment application and attachments (organisation, facility details, manufacturing and quality control status) and handle supplementary requests. We do not provide on-site quality consulting, carry out the self-assessment or do construction work.",
+      "href": "/en/services/cosmetics-cgmp",
+      "linkText": "CGMP compliant facility in detail"
+    },
+    {
+      "id": "hub-step-6",
+      "no": "⑥",
+      "short": "Safety & info",
+      "name": "Cosmetics safety assessment and safety information management (화장품 안전성 평가·안전성 정보 관리)",
+      "agency": "Ministry of Food and Drug Safety (MFDS, 식품의약품안전처), which receives safety information reports and can request safety assessment data",
+      "target": "Cosmetics responsible sellers (customized cosmetics sellers also file safety information reports)",
+      "when": "Already in force: product-by-product safety records prepared and kept for products labelled or advertised for infants or children, expedited reports within 15 days of learning of serious adverse events and similar information, and periodic reports of other safety information within one month after each half-year. The pre-market, product-by-product cosmetics safety assessment (data reviewed by a qualified safety assessor and kept on file) was added on 30 December 2025 and takes effect in phases from 1 January 2028 by business size and product category; businesses below the annual production or import threshold follow from 1 January 2031. Buy-for-me sellers are excluded from the safety assessment.",
+      "we": "We support the preparation of safety assessment data (collecting and organising product and ingredient information, explaining how to keep records), organise product-specific safety records for infant and children's products and help draft safety information reports. The data is reviewed by a safety assessor who meets the qualification requirements, and we do not carry out tests or inspections.",
+      "href": "/en/services/cosmetics-safety-assessment",
+      "linkText": "Cosmetics safety assessment and safety information in detail"
+    }
+  ],
+  "cols": {
+    "name": "Official name",
+    "agency": "Competent authority",
+    "target": "Who it applies to",
+    "when": "When it is needed",
+    "we": "What we do",
+    "link": "Detail page"
+  },
+  "relations": [
+    "① is the prerequisite for distribution and sale in Korea. Brands that outsource manufacturing and importers can sell with ① alone, and a manufacturer registered under ② also registers ① to sell under its own name.",
+    "② is needed only for own manufacturing, contract manufacturing or primary packaging, and ⑤ is a recommended procedure obtained per ② manufacturing site. A ① company that outsources manufacturing is recommended to use a site with a compliance determination.",
+    "③ is completed product by product by a ① or ② registrant (or a university or research institute), and the product is sold as a functional cosmetic after the review or report.",
+    "④ ties into the duties of an importing ① company (keeping the import management record, reporting the ingredient list before distribution, and filing the standard customs clearance pre-report as an electronic trade document), so it is finished before import and customs clearance. If an overseas manufacturer's quality control standards are recognised as at least equivalent to CGMP, quality testing in Korea can be omitted.",
+    "⑥ is a duty of the ① responsible seller. The pre-market safety assessment applies first, from 1 January 2028, when a business at or above the annual production or import threshold, or one registered after 30 December 2025, sells a product that completed ③ review or report after that date."
+  ]
+}

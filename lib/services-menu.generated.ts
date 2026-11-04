@@ -802,6 +802,31 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "mainbiz-management-innovation-sme",
       "href": "/services/mainbiz-management-innovation-sme",
       "shortTitle": "메인비즈(경영혁신형 중소기업) 선정"
+    },
+    {
+      "slug": "cosmetics-responsible-seller-registration",
+      "href": "/services/cosmetics-responsible-seller-registration",
+      "shortTitle": "화장품책임판매업 등록"
+    },
+    {
+      "slug": "cosmetics-manufacturer-registration",
+      "href": "/services/cosmetics-manufacturer-registration",
+      "shortTitle": "화장품제조업 등록"
+    },
+    {
+      "slug": "cosmetics-ingredient-labeling-review",
+      "href": "/services/cosmetics-ingredient-labeling-review",
+      "shortTitle": "수입화장품 성분·표시 검토"
+    },
+    {
+      "slug": "cosmetics-cgmp",
+      "href": "/services/cosmetics-cgmp",
+      "shortTitle": "CGMP(우수화장품 제조 및 품질관리기준) 적합업소 판정"
+    },
+    {
+      "slug": "cosmetics-safety-assessment",
+      "href": "/services/cosmetics-safety-assessment",
+      "shortTitle": "화장품 안전성 평가·안전성 정보 관리"
     }
   ],
   "en": [
@@ -984,6 +1009,31 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "waste-treatment-business-permit",
       "href": "/en/services/waste-treatment-business-permit",
       "shortTitle": "Waste Treatment Business Permit in Korea"
+    },
+    {
+      "slug": "cosmetics-responsible-seller-registration",
+      "href": "/en/services/cosmetics-responsible-seller-registration",
+      "shortTitle": "Cosmetics responsible seller registration (화장품책임판매업 등록)"
+    },
+    {
+      "slug": "cosmetics-manufacturer-registration",
+      "href": "/en/services/cosmetics-manufacturer-registration",
+      "shortTitle": "Cosmetics Manufacturer Registration in Korea"
+    },
+    {
+      "slug": "cosmetics-ingredient-labeling-review",
+      "href": "/en/services/cosmetics-ingredient-labeling-review",
+      "shortTitle": "Ingredient and labelling review for imported cosmetics"
+    },
+    {
+      "slug": "cosmetics-cgmp",
+      "href": "/en/services/cosmetics-cgmp",
+      "shortTitle": "CGMP Compliant Facility Assessment for Cosmetics in Korea (우수화장품 제조 및 품질관리기준 적합업소)"
+    },
+    {
+      "slug": "cosmetics-safety-assessment",
+      "href": "/en/services/cosmetics-safety-assessment",
+      "shortTitle": "Cosmetics Safety Assessment and Safety Information Management in Korea"
     }
   ],
   "zh": [
@@ -1166,6 +1216,31 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "waste-treatment-business-permit",
       "href": "/zh/services/waste-treatment-business-permit",
       "shortTitle": "韩国废弃物处理业许可"
+    },
+    {
+      "slug": "cosmetics-responsible-seller-registration",
+      "href": "/zh/services/cosmetics-responsible-seller-registration",
+      "shortTitle": "韩国化妆品责任销售业注册（화장품책임판매업 등록）"
+    },
+    {
+      "slug": "cosmetics-manufacturer-registration",
+      "href": "/zh/services/cosmetics-manufacturer-registration",
+      "shortTitle": "韩国化妆品制造业注册"
+    },
+    {
+      "slug": "cosmetics-ingredient-labeling-review",
+      "href": "/zh/services/cosmetics-ingredient-labeling-review",
+      "shortTitle": "进口化妆品成分·标示审核"
+    },
+    {
+      "slug": "cosmetics-cgmp",
+      "href": "/zh/services/cosmetics-cgmp",
+      "shortTitle": "韩国化妆品CGMP（优秀化妆品制造及质量管理标准）合格企业评定"
+    },
+    {
+      "slug": "cosmetics-safety-assessment",
+      "href": "/zh/services/cosmetics-safety-assessment",
+      "shortTitle": "韩国化妆品安全性评估与安全性信息管理"
     }
   ],
   "ja": [
@@ -1348,6 +1423,31 @@ export const INDUSTRY_MENU: Record<'ko' | 'en' | 'zh' | 'ja', { slug: string; hr
       "slug": "waste-treatment-business-permit",
       "href": "/ja/services/waste-treatment-business-permit",
       "shortTitle": "韓国の廃棄物処理業許可"
+    },
+    {
+      "slug": "cosmetics-responsible-seller-registration",
+      "href": "/ja/services/cosmetics-responsible-seller-registration",
+      "shortTitle": "韓国の化粧品責任販売業登録（화장품책임판매업 등록）"
+    },
+    {
+      "slug": "cosmetics-manufacturer-registration",
+      "href": "/ja/services/cosmetics-manufacturer-registration",
+      "shortTitle": "韓国の化粧品製造業登録"
+    },
+    {
+      "slug": "cosmetics-ingredient-labeling-review",
+      "href": "/ja/services/cosmetics-ingredient-labeling-review",
+      "shortTitle": "輸入化粧品の成分・表示の検討"
+    },
+    {
+      "slug": "cosmetics-cgmp",
+      "href": "/ja/services/cosmetics-cgmp",
+      "shortTitle": "韓国の化粧品CGMP(優秀化粧品製造及び品質管理基準)適合業所判定"
+    },
+    {
+      "slug": "cosmetics-safety-assessment",
+      "href": "/ja/services/cosmetics-safety-assessment",
+      "shortTitle": "韓国の化粧品安全性評価と安全性情報管理"
     }
   ]
 }

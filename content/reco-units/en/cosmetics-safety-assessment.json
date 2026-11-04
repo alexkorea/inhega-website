@@ -1,0 +1,186 @@
+{
+ "slug": "cosmetics-safety-assessment",
+ "lang": "en",
+ "label": "Cosmetics safety assessment and safety information management",
+ "kw": "Cosmetics safety data preparation agent in Korea",
+ "answer": "The cosmetics safety assessment (화장품 안전성 평가) requires a cosmetics responsible seller to prepare product-level safety assessment data before distribution or sale, have it reviewed by a safety assessor and keep it; it will be phased in from 1 January 2028 by business and product category and is not yet in force. In force now are product-level safety data for products labelled or advertised for infants or children, and rapid (within 15 days of becoming aware) and periodic (within one month after each half-year) safety information reports to the Ministry of Food and Drug Safety (MFDS). YouSun Administrative Agency supports data lists and the preparation and filing of reports, but does not perform the safety assessor's review or testing.",
+ "services": [
+  {"name": "Advance review of when the safety assessment applies (start date category)", "href": "#sit-cossa-start-date"},
+  {"name": "Organising cosmetics safety assessment data lists and collecting ingredient safety data (화장품 안전성 평가 자료)", "href": "#term-cossa-assessment-data"},
+  {"name": "Compiling the data package for the safety assessor's review (the review itself is by the safety assessor)", "href": "#term-cossa-assessor"},
+  {"name": "Support with preparing and keeping product-level safety data for infant and children's cosmetics (제품별 안전성 자료)", "href": "#term-cossa-kids-data"},
+  {"name": "Review of whether labelling or advertising falls within the infant and children's scope", "href": "#sit-cossa-kids-label"},
+  {"name": "Preparing and filing cosmetics adverse event reports and safety information reports (rapid report, 신속보고)", "href": "#term-cossa-serious-ae"},
+  {"name": "Preparing and filing the cosmetics safety information list (periodic report, 정기보고)", "href": "#sit-cossa-periodic"},
+  {"name": "Organising record and reporting templates for the post-market safety management standards (책임판매 후 안전관리기준)", "href": "#term-cossa-pms"},
+  {"name": "Preparing and filing recall plans, disposal applications and recall completion reports (회수계획서)", "href": "#term-cossa-recall"},
+  {"name": "Preparing documents in response to data submission or supplementation requests", "href": "#svc-glance"}
+ ],
+ "clients": [
+  "Cosmetics responsible sellers that import cosmetics and distribute them in Korea",
+  "Cosmetics responsible sellers that sell their own brand made under contract manufacturing",
+  "Brands launching products labelled or advertised for infants or children",
+  "Companies that newly registered as cosmetics responsible sellers after the amended Cosmetics Act was promulgated"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Cosmetics responsible sellers (the safety assessment excludes e-commerce import-agency-type sellers and sellers specified by Ordinance of the Prime Minister); products labelled or advertised for infants or children; safety information reporting also applies to customized cosmetics sellers"},
+  {"label": "Requirements", "value": "Once in force, product-level safety assessment data before distribution or sale → safety assessor review → retention; for infant and children's products, three types of product-level safety data prepared before labelling or advertising and kept; rapid reports for serious adverse events etc.; periodic reports for other safety information; compliance with post-market safety management standards"},
+  {"label": "Process", "value": "Confirm scope and start date → build product data list → collect ingredient and manufacturing data → prepare data (safety assessor review once the assessment is in force) → manage retention periods → file forms for safety information reports and recalls"},
+  {"label": "Documents", "value": "Description of the product and manufacturing method, cosmetics safety assessment data, proof of efficacy and effects, cosmetics adverse event report, cosmetics safety information report, cosmetics safety information list, recall plan (copy of manufacturing or import record, sales volume and dates by buyer, statement of recall reason)"},
+  {"label": "Timeline", "value": "These are preparation, retention and reporting duties, not a licence review. Rapid reports within 15 days of becoming aware, periodic reports within one month after each half-year, recall plans within 5 days of learning that recall is required"}
+ ],
+ "chooser": [
+  {"label": "An existing business below the production and import threshold", "target": "sit-cossa-start-date"},
+  {"label": "Newly registered as a responsible seller after the amended Act", "target": "sit-cossa-new-registration"},
+  {"label": "Planning to label or advertise for infants or children", "target": "sit-cossa-kids-label"},
+  {"label": "A consumer reported a side effect", "target": "sit-cossa-adverse"},
+  {"label": "A product on sale needs to be recalled", "target": "sit-cossa-recall"}
+ ],
+ "situations": [
+  {
+   "id": "sit-cossa-start-date",
+   "q": "When does a smaller existing cosmetics responsible seller in Korea have to start the cosmetics safety assessment?",
+   "conclusion": "Businesses with annual production and import value under KRW 1 billion are covered from 1 January 2031. The threshold is not turnover but the sum of production value and import value for the year before the amended Act's promulgation date.",
+   "branches": [
+    {"when": "Production plus import value is under KRW 1 billion (not turnover)", "then": "Prepare safety assessment data for products manufactured or imported and sold from 1 January 2031."},
+    {"when": "The sum is KRW 1 billion or more (not turnover)", "then": "Prepare on the basis of 1 January 2028 for functional cosmetics reviewed or reported, 1 January 2030 for new launches, and 1 January 2031 otherwise."},
+    {"when": "A full previous year cannot be calculated because of a new business or suspension", "then": "Convert the actual operating period of the previous year to a one-year basis."}
+   ],
+   "docs": "Previous year's production and import records, product list (functional cosmetics review or report, launch dates)",
+   "period": "Not yet in force / start dates 1 January 2028, 1 January 2030 or 1 January 2031 depending on business and product"
+  },
+  {
+   "id": "sit-cossa-new-registration",
+   "q": "We newly registered as a cosmetics responsible seller in Korea. When does the safety assessment apply to us?",
+   "conclusion": "Businesses registered after the amended Act was promulgated (30 December 2025) follow the earlier start-date categories regardless of production or import value: 1 January 2028 for functional cosmetics reviewed or reported, 1 January 2030 for products first manufactured or imported and launched, and 1 January 2031 otherwise.",
+   "branches": [
+    {"when": "Selling products that passed functional cosmetics review or filed a report after promulgation", "then": "Have safety assessment data for those products from 1 January 2028."},
+    {"when": "Selling products first manufactured or imported and launched after promulgation", "then": "Prepare on the basis of 1 January 2030."}
+   ],
+   "docs": "Responsible seller registration certificate, product launch plan, functional cosmetics review result notice or report",
+   "period": "Not yet in force / applies to products manufactured or imported and sold after each start date"
+  },
+  {
+   "id": "sit-cossa-functional",
+   "q": "Do functional cosmetics that passed MFDS review also need separate cosmetics safety assessment data?",
+   "conclusion": "A business selling products that passed functional cosmetics review or filed a report after the amended Act was promulgated is covered from 1 January 2028 if its production and import value is KRW 1 billion or more (not turnover) or it registered after promulgation. Functional review and the safety assessment are separate duties.",
+   "branches": [
+    {"when": "Production and import value of KRW 1 billion or more (not turnover), or registered after promulgation", "then": "Prepare safety assessment data for those products manufactured or imported and sold from 1 January 2028."},
+    {"when": "An existing business under KRW 1 billion (not turnover)", "then": "Prepare on the basis of 1 January 2031."}
+   ],
+   "docs": "Functional cosmetics review result notice or report, ingredient safety data, product standard document",
+   "period": "Not yet in force / earliest start date 1 January 2028"
+  },
+  {
+   "id": "sit-cossa-kids-label",
+   "q": "If a cosmetic's name includes words like 'baby' or 'kids', do we need product-level safety data in Korea?",
+   "conclusion": "The rule covers specifically labelling the primary or secondary packaging as for infants or children, including where the product name contains an expression about infants or children. In that case all product-level safety data must be prepared and kept before labelling.",
+   "branches": [
+    {"when": "The packaging or product name uses an infant or children's expression", "then": "Prepare the three types of product-level safety data before labelling."},
+    {"when": "Only advertising (internet, leaflets, etc.) specifies use by infants or children, with no packaging label", "then": "Advertising is also covered, so prepare the same data before advertising (door-to-door advertising and demonstrations are excluded for children's cosmetics)."}
+   ],
+   "docs": "Description of the product and manufacturing method, safety assessment data for the cosmetic, proof of efficacy and effects, draft label and advertising",
+   "period": "Prepare in advance of labelling or advertising (in force now)"
+  },
+  {
+   "id": "sit-cossa-kids-retention",
+   "q": "How long must safety data for infant cosmetics be kept in Korea?",
+   "conclusion": "Where the primary packaging shows an expiry date, keep it from the labelling or advertising date until one year after the expiry date of the last product manufactured or imported; where it shows a period after opening, until three years after the manufacturing date of the last product.",
+   "branches": [
+    {"when": "The primary packaging shows an expiry date", "then": "Keep until one year after the expiry date of the last product manufactured or imported."},
+    {"when": "The primary packaging shows a period after opening", "then": "Keep until three years after the manufacturing date of the last product manufactured or imported."}
+   ],
+   "docs": "Product-level safety data, manufacturing date records by batch number (manufacture), customs clearance date records (import)",
+   "period": "Counted from the manufacturing date by batch number for manufacture and the customs clearance date for import"
+  },
+  {
+   "id": "sit-cossa-kids-docs",
+   "q": "What safety documents do we need to import and sell children's cosmetics in Korea?",
+   "conclusion": "Prepare and keep all three before labelling or advertising: a description of the product and manufacturing method, safety assessment data for the cosmetic, and proof of efficacy and effects. Children means ages 4 to 13 and infants age 3 and under.",
+   "branches": [
+    {"when": "Data can be obtained from the overseas manufacturer", "then": "Obtain manufacturing method and ingredient data and organise it into Korean-language documents."},
+    {"when": "Proof of efficacy and effects is insufficient", "then": "Adjust the labelling or advertising claims to what the data can prove, or consider tests by a testing institution."}
+   ],
+   "docs": "Description of the product and manufacturing method, safety assessment data for the cosmetic, proof of efficacy and effects, import management record",
+   "period": "Prepare before labelling or advertising / in practice, time for the overseas manufacturer's reply is added"
+  },
+  {
+   "id": "sit-cossa-adverse",
+   "q": "A consumer says they were hospitalised after using our cosmetic. How many days do we have to report to MFDS?",
+   "conclusion": "Hospitalisation or extended hospitalisation is a serious adverse event, so file a rapid report to the Minister of Food and Drug Safety with a cosmetics adverse event report within 15 days of becoming aware. It can be reportable even if a causal link with the product is not proven.",
+   "branches": [
+    {"when": "A serious adverse event such as death, a life-threatening condition, hospitalisation or persistent loss of function", "then": "File a rapid report with the cosmetics adverse event report within 15 days."},
+    {"when": "A non-serious adverse event", "then": "Include it in the cosmetics safety information list for the half-yearly periodic report."}
+   ],
+   "docs": "Cosmetics adverse event report, product name, batch number and expiry date, period of use and symptom information",
+   "period": "Within 15 days of becoming aware"
+  },
+  {
+   "id": "sit-cossa-periodic",
+   "q": "Do minor skin irritation complaints also have to be reported to MFDS as cosmetics safety information?",
+   "conclusion": "Safety information not subject to a rapid report is compiled into the cosmetics safety information list and reported periodically to the Minister of Food and Drug Safety within one month after the end of each half-year.",
+   "branches": [
+    {"when": "A general cosmetics responsible seller or customized cosmetics seller", "then": "Prepare and file the list every half-year."},
+    {"when": "Two or fewer regular employees selling only cosmetic soap made in-house", "then": "The periodic report may be skipped."}
+   ],
+   "docs": "Cosmetics safety information list (including an electronic file)",
+   "period": "Within one month after the end of each half-year"
+  },
+  {
+   "id": "sit-cossa-foreign-action",
+   "q": "A cosmetic we sell in Korea was suspended from sale abroad. What do we have to report?",
+   "conclusion": "On becoming aware of a foreign government measure equivalent to a sales suspension or recall, file a rapid report to the Minister of Food and Drug Safety with a cosmetics safety information report within 15 days of becoming aware.",
+   "branches": [
+    {"when": "A foreign government took a measure equivalent to a sales suspension or recall", "then": "File the safety information report within 15 days and consider safety measures for stock distributed in Korea."},
+    {"when": "Products distributed in Korea are cosmetics posing a risk", "then": "Proceed with the recall procedure, including filing a recall plan."}
+   ],
+   "docs": "Cosmetics safety information report, documents on the foreign government measure, domestic sales status",
+   "period": "Within 15 days of becoming aware"
+  },
+  {
+   "id": "sit-cossa-recall",
+   "q": "We found a prohibited ingredient in a cosmetic on sale in Korea. When must the recall plan be filed?",
+   "conclusion": "Take immediate measures such as suspending sales and submit a recall plan to the head of the regional MFDS office within 5 days of learning that the product is subject to recall. Cosmetics using prohibited ingredients are hazard grade A, so state a recall period within 15 days from the start of recall.",
+   "branches": [
+    {"when": "Hazard grade A", "then": "Prepare the recall plan with a recall period within 15 days."},
+    {"when": "Hazard grade B or C", "then": "Prepare it with a recall period within 30 days."},
+    {"when": "Filing or recall within the deadline is difficult", "then": "Request an extension from the head of the regional MFDS office, giving reasons."}
+   ],
+   "docs": "Recall plan, copy of the manufacturing or import record for the item, records of sales volume and dates by buyer, statement of recall reason",
+   "period": "Recall plan within 5 days / recall period within 15 days for grade A and 30 days for grades B and C"
+  },
+  {
+   "id": "sit-cossa-cost",
+   "q": "To estimate the cost of a cosmetics safety assessment in Korea, which preparation items should we look at first?",
+   "conclusion": "The scope of preparation depends on the number of products, whether ingredient safety data can be obtained, and whether safety assessor review and additional testing are needed. The scope and retention period of the assessment data are to be set by Ordinance of the Prime Minister, so for now start by organising the product list and the status of ingredient data.",
+   "branches": [
+    {"when": "Data can be obtained from ingredient suppliers and manufacturers", "then": "Build the data list and supplement only the missing items."},
+    {"when": "Ingredient data is lacking or testing is needed", "then": "Consider commissioning a testing institution (testing is not part of our work)."}
+   ],
+   "docs": "Product list, full ingredient list and ingredient specifications, ingredient safety data, product standard document",
+   "period": "Not yet in force / in practice, collecting ingredient data takes the longest"
+  },
+  {
+   "id": "sit-cossa-recommend",
+   "q": "What does an administrative agent in Korea actually do for cosmetics safety data preparation?",
+   "conclusion": "Under a written mandate, we review timing, organise data lists and collect ingredient data, support preparation of product-level safety data for infant products, prepare and file safety information reports and recall forms, and handle supplementation. We do not perform the safety assessor's review, testing or inspection, or medical assessment of the causal link of adverse events.",
+   "branches": [
+    {"when": "Preparing for the safety assessment start date", "then": "We organise the start-date category and product data lists."},
+    {"when": "A report such as an adverse event or recall is required", "then": "We prepare the report and attachments and support filing within the deadline."}
+   ],
+   "docs": "Letter of authorisation, product list, ingredient and manufacturing data, adverse event intake records, sales records",
+   "period": "Within the reporting deadlines (15 days, one month after each half-year, 5 days)",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-cossa-assessment", "term": "Cosmetics safety assessment (화장품 안전성 평가)", "def": "A system under which a cosmetics responsible seller prepares product-level safety assessment data before distribution or sale, has it reviewed by a safety assessor and keeps it, phased in from 1 January 2028."},
+  {"id": "term-cossa-assessment-data", "term": "Cosmetics safety assessment data (화장품 안전성 평가 자료)", "def": "Data that can prove each product is safe; its scope and retention period are to be set by Ordinance of the Prime Minister."},
+  {"id": "term-cossa-assessor", "term": "Safety assessor (안전성 평가자)", "def": "A person with education or experience in cosmetics safety as specified by Ordinance of the Prime Minister who reviews cosmetics safety assessment data."},
+  {"id": "term-cossa-kids-data", "term": "Product-level safety data (제품별 안전성 자료)", "def": "The product and manufacturing description, safety assessment data and proof of efficacy and effects that a responsible seller prepares and keeps to label or advertise a cosmetic for infants or children."},
+  {"id": "term-cossa-safety-info", "term": "Safety information (안전성 정보)", "def": "New data on safety or efficacy, and adverse event information, related to cosmetics that may directly affect public health."},
+  {"id": "term-cossa-serious-ae", "term": "Serious adverse event (중대한 유해사례)", "def": "An adverse event causing death or a life-threatening condition, hospitalisation or extended hospitalisation, persistent or significant disability or loss of function, congenital anomaly and the like, subject to a rapid report within 15 days."},
+  {"id": "term-cossa-pms", "term": "Post-market safety management standards (책임판매 후 안전관리기준)", "def": "Compliance standards requiring a responsible seller's responsible sales manager to collect and review safety management information and take safety assurance measures such as recall, sales suspension and reporting."},
+  {"id": "term-cossa-recall", "term": "Recall obligor and hazard grade (회수의무자·위해성 등급)", "def": "The business operator recalling a hazardous cosmetic is the recall obligor; hazards are graded A, B and C, setting a recall period of within 15 or 30 days."}
+ ]
+}

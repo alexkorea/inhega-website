@@ -45,7 +45,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
   {
     id: 'medical',
     label: { ko: '의료·제약·화장품·요양', en: 'Medical, Pharma, Cosmetics & Care', zh: '医疗·医药·化妆品·护理', ja: '医療・医薬・化粧品・介護' },
-    slugs: ['cosmetics', 'functional-cosmetics', 'medical-device', 'pharmaceutical-wholesale-license', 'foreign-patient-attraction', 'long-term-care-institution-designation'],
+    slugs: ['cosmetics', 'cosmetics-responsible-seller-registration', 'cosmetics-manufacturer-registration', 'functional-cosmetics', 'cosmetics-ingredient-labeling-review', 'cosmetics-cgmp', 'cosmetics-safety-assessment', 'medical-device', 'pharmaceutical-wholesale-license', 'foreign-patient-attraction', 'long-term-care-institution-designation'],
   },
   {
     id: 'finance',

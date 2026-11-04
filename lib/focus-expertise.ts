@@ -303,11 +303,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
       "services": [
         {
           "name": "화장품책임판매업 등록·변경등록",
-          "href": "#term-cos-rs"
+          "href": "/services/cosmetics-responsible-seller-registration"
         },
         {
           "name": "화장품제조업 등록·변경등록",
-          "href": "#term-cos-mfg"
+          "href": "/services/cosmetics-manufacturer-registration"
         },
         {
           "name": "맞춤형화장품판매업 신고",
@@ -315,11 +315,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "기능성화장품 심사·보고",
-          "href": "#term-cos-functional"
+          "href": "/services/functional-cosmetics"
         },
         {
           "name": "수입화장품 성분·원료 사용기준·표시 사항 검토",
-          "href": "#term-cos-use-standard"
+          "href": "/services/cosmetics-ingredient-labeling-review"
         },
         {
           "name": "표준화된 성분명이 없는 원료의 성분명 표준화 신청",
@@ -327,11 +327,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "CGMP(우수화장품 제조 및 품질관리기준) 적합업소 평가 신청 지원",
-          "href": "#term-cos-cgmp"
+          "href": "/services/cosmetics-cgmp"
         },
         {
           "name": "영유아·어린이용 제품 안전성 자료와 화장품 안전성 평가 자료 작성 지원",
-          "href": "#term-cos-safety"
+          "href": "/services/cosmetics-safety-assessment"
         },
         {
           "name": "책임판매관리자 선임과 의무 교육 안내",
@@ -387,7 +387,7 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         {
           "id": "term-cos-inci",
           "term": "표준화된 일반명(성분명)",
-          "def": "화장품 포장에 전성분을 표시할 때 쓰는 표준 성분명으로, 성분사전에 없는 원료는 화장품업 단체에 성분명 표준화를 신청해 정합니다."
+          "def": "화장품 포장에 전성분을 표시할 때 쓰는 표준 성분명으로, 표준화된 명칭이 아직 없는 원료는 명칭부터 정한 뒤 표시합니다."
         },
         {
           "id": "term-cos-cgmp",
@@ -898,11 +898,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
       "services": [
         {
           "name": "Cosmetics responsible seller registration and change registration (화장품책임판매업 등록·변경등록)",
-          "href": "#term-cos-rs"
+          "href": "/en/services/cosmetics-responsible-seller-registration"
         },
         {
           "name": "Cosmetics manufacturer registration and change registration (화장품제조업 등록·변경등록)",
-          "href": "#term-cos-mfg"
+          "href": "/en/services/cosmetics-manufacturer-registration"
         },
         {
           "name": "Customized cosmetics seller report (맞춤형화장품판매업 신고)",
@@ -910,11 +910,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "Functional cosmetics review or report (기능성화장품 심사·보고)",
-          "href": "#term-cos-functional"
+          "href": "/en/services/functional-cosmetics"
         },
         {
           "name": "Review of ingredients, ingredient use standards and labelling for imported cosmetics (원료 사용기준·표시 사항 검토)",
-          "href": "#term-cos-use-standard"
+          "href": "/en/services/cosmetics-ingredient-labeling-review"
         },
         {
           "name": "Applications to standardise the ingredient name of ingredients without a standardised name (성분명 표준화 신청)",
@@ -922,11 +922,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "Support with applications for CGMP (Korean cosmetics good manufacturing practice) compliant facility assessment (우수화장품 제조 및 품질관리기준 적합업소 평가)",
-          "href": "#term-cos-cgmp"
+          "href": "/en/services/cosmetics-cgmp"
         },
         {
           "name": "Support with preparing safety data for infant and children's products and cosmetics safety assessment data (화장품 안전성 평가)",
-          "href": "#term-cos-safety"
+          "href": "/en/services/cosmetics-safety-assessment"
         },
         {
           "name": "Appointment of a responsible sales manager and guidance on mandatory training (책임판매관리자 선임·교육)",
@@ -982,7 +982,7 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         {
           "id": "term-cos-inci",
           "term": "standardised generic (ingredient) name (표준화된 일반명·성분명)",
-          "def": "The standard ingredient name used when listing all ingredients on cosmetics packaging; for ingredients not in the ingredient dictionary, the name is set by applying to a cosmetics industry association for ingredient name standardisation."
+          "def": "The standard ingredient name used when listing all ingredients on cosmetics packaging; an ingredient without a standardised name needs one settled before it can be listed."
         },
         {
           "id": "term-cos-cgmp",
@@ -1493,11 +1493,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
       "services": [
         {
           "name": "化妆品责任销售业注册·变更注册（화장품책임판매업 등록·변경등록）",
-          "href": "#term-cos-rs"
+          "href": "/zh/services/cosmetics-responsible-seller-registration"
         },
         {
           "name": "化妆品制造业注册·变更注册（화장품제조업 등록·변경등록）",
-          "href": "#term-cos-mfg"
+          "href": "/zh/services/cosmetics-manufacturer-registration"
         },
         {
           "name": "定制化妆品销售业申报（맞춤형화장품판매업 신고）",
@@ -1505,11 +1505,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "功能性化妆品审查·报告（기능성화장품 심사·보고）",
-          "href": "#term-cos-functional"
+          "href": "/zh/services/functional-cosmetics"
         },
         {
           "name": "进口化妆品成分、原料使用标准及标示事项审核（수입화장품 성분·원료 사용기준·표시 사항 검토）",
-          "href": "#term-cos-use-standard"
+          "href": "/zh/services/cosmetics-ingredient-labeling-review"
         },
         {
           "name": "无标准化成分名的原料申请成分名标准化（성분명 표준화 신청）",
@@ -1517,11 +1517,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "协助申请CGMP（优秀化妆品制造及质量管理标准）合格企业评估（CGMP 적합업소 평가 신청）",
-          "href": "#term-cos-cgmp"
+          "href": "/zh/services/cosmetics-cgmp"
         },
         {
           "name": "协助编制婴幼儿·儿童用产品安全性资料及化妆品安全性评估资料（영유아·어린이 제품 안전성 자료·화장품 안전성 평가 자료）",
-          "href": "#term-cos-safety"
+          "href": "/zh/services/cosmetics-safety-assessment"
         },
         {
           "name": "责任销售管理人的选任与法定培训指引（책임판매관리자 선임·의무 교육 안내）",
@@ -1577,7 +1577,7 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         {
           "id": "term-cos-inci",
           "term": "标准化通用名（成分名）（표준화된 일반명）",
-          "def": "在化妆品包装上标示全成分时使用的标准成分名，成分词典中没有的原料须向化妆品行业团体申请成分名标准化后确定。"
+          "def": "在化妆品包装上标示全成分时使用的标准成分名，尚无标准化名称的原料须先确定名称再进行标示。"
         },
         {
           "id": "term-cos-cgmp",
@@ -2088,11 +2088,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
       "services": [
         {
           "name": "化粧品責任販売業の登録・変更登録（화장품책임판매업 등록·변경등록）",
-          "href": "#term-cos-rs"
+          "href": "/ja/services/cosmetics-responsible-seller-registration"
         },
         {
           "name": "化粧品製造業の登録・変更登録（화장품제조업 등록·변경등록）",
-          "href": "#term-cos-mfg"
+          "href": "/ja/services/cosmetics-manufacturer-registration"
         },
         {
           "name": "オーダーメイド化粧品販売業の申告（맞춤형화장품판매업 신고）",
@@ -2100,11 +2100,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "機能性化粧品の審査・報告（기능성화장품 심사·보고）",
-          "href": "#term-cos-functional"
+          "href": "/ja/services/functional-cosmetics"
         },
         {
           "name": "輸入化粧品の成分・原料使用基準・表示事項の検討（원료 사용기준）",
-          "href": "#term-cos-use-standard"
+          "href": "/ja/services/cosmetics-ingredient-labeling-review"
         },
         {
           "name": "標準化された成分名がない原料の成分名標準化申請（성분명 표준화 신청）",
@@ -2112,11 +2112,11 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         },
         {
           "name": "CGMP（優秀化粧品製造及び品質管理基準・우수화장품 제조 및 품질관리기준）適合業所評価の申請支援",
-          "href": "#term-cos-cgmp"
+          "href": "/ja/services/cosmetics-cgmp"
         },
         {
           "name": "乳幼児・子ども用製品の安全性資料と化粧品安全性評価資料の作成支援（화장품 안전성 평가）",
-          "href": "#term-cos-safety"
+          "href": "/ja/services/cosmetics-safety-assessment"
         },
         {
           "name": "責任販売管理者の選任と受講義務のある教育の案内（책임판매관리자）",
@@ -2172,7 +2172,7 @@ export const FOCUS_EXPERTISE: Record<'ko' | 'en' | 'zh' | 'ja', Record<string, F
         {
           "id": "term-cos-inci",
           "term": "標準化された一般名・成分名（표준화된 일반명）",
-          "def": "化粧品の包装に全成分を表示する際に使う標準成分名で、成分辞典にない原料は化粧品業界団体に成分名の標準化を申請して定めます。"
+          "def": "化粧品の包装に全成分を表示する際に使う標準成分名で、標準化された名称がまだない原料は名称を先に定めてから表示します。"
         },
         {
           "id": "term-cos-cgmp",

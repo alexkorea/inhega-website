@@ -3,6 +3,8 @@ import { getPillarView, pillarUi, EXPERTISE_UI, SERVICES_HEADING_KW, UNIT_BADGE,
 import styles from './FocusPillar.module.css'
 import { servicePageLastmod } from '@/lib/page-lastmod'
 import { ORG_ID } from '@/lib/org-jsonld'
+import CosmeticsFlow from './CosmeticsFlow'
+import { getCosmeticsHub } from '@/lib/cosmetics-hub'
 
 // 중점 업무 필러(INHEGA-FOCUS-1103) + AI-RECO-1103 12절 항목 블록(55개, lib/reco-units) — 원고가 없는 slug 는 아무것도 그리지 않는다. ko·en·zh·ja 공용.
 // 순서: 핵심 답변(AI 답변용 직답) → 처리하는 업무(3차, 각 항목은 본문 앵커) → 이런 고객이 맡깁니다(3차) → 내 상황 고르기(앵커, JS 없음)
@@ -142,6 +144,8 @@ export function FocusPillarTop({ slug, locale = 'ko' }: { slug: string; locale?:
         </nav>
       )}
       <Expertise v={v} />
+      {/* INHEGA-COSMETICS(보스 msg 4860): 화장품 허브는 처리 업무 목록 바로 아래 '업무 연결 흐름'(①~⑥ 단계도·표) — 아래 단계 블록 대신 */}
+      <CosmeticsFlow slug={slug} locale={locale} />
       <h2 className="text-h2" style={{ marginTop: '1.5rem', color: 'var(--charcoal)' }}>{fill(ui.glanceHeading, v.label)}</h2>
       <span className="accent-line" style={{ marginTop: '0.75rem' }} />
       <dl className={styles.glanceList}>
@@ -160,7 +164,7 @@ export function FocusPillarTop({ slug, locale = 'ko' }: { slug: string; locale?:
           </ul>
         </div>
       )}
-      {v.stages && v.stages.length > 0 && (
+      {!getCosmeticsHub(locale, slug) && v.stages && v.stages.length > 0 && (
         <div id="svc-stages" className={styles.stagesWrap}>
           <h3 className="text-h3" style={{ marginTop: '1.75rem', color: 'var(--charcoal)' }}>{v.stagesHeading ?? ui.stagesHeading}</h3>
           <ol className={styles.stages}>

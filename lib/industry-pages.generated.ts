@@ -145,6 +145,26 @@ import p140 from '@/content/industry-pages/sports-facility-business-report.ja.js
 import p141 from '@/content/industry-pages/waste-treatment-business-permit.en.json'
 import p142 from '@/content/industry-pages/waste-treatment-business-permit.zh.json'
 import p143 from '@/content/industry-pages/waste-treatment-business-permit.ja.json'
+import p144 from '@/content/industry-pages/cosmetics-responsible-seller-registration.ko.json'
+import p145 from '@/content/industry-pages/cosmetics-responsible-seller-registration.en.json'
+import p146 from '@/content/industry-pages/cosmetics-responsible-seller-registration.zh.json'
+import p147 from '@/content/industry-pages/cosmetics-responsible-seller-registration.ja.json'
+import p148 from '@/content/industry-pages/cosmetics-manufacturer-registration.ko.json'
+import p149 from '@/content/industry-pages/cosmetics-manufacturer-registration.en.json'
+import p150 from '@/content/industry-pages/cosmetics-manufacturer-registration.zh.json'
+import p151 from '@/content/industry-pages/cosmetics-manufacturer-registration.ja.json'
+import p152 from '@/content/industry-pages/cosmetics-ingredient-labeling-review.ko.json'
+import p153 from '@/content/industry-pages/cosmetics-ingredient-labeling-review.en.json'
+import p154 from '@/content/industry-pages/cosmetics-ingredient-labeling-review.zh.json'
+import p155 from '@/content/industry-pages/cosmetics-ingredient-labeling-review.ja.json'
+import p156 from '@/content/industry-pages/cosmetics-cgmp.ko.json'
+import p157 from '@/content/industry-pages/cosmetics-cgmp.en.json'
+import p158 from '@/content/industry-pages/cosmetics-cgmp.zh.json'
+import p159 from '@/content/industry-pages/cosmetics-cgmp.ja.json'
+import p160 from '@/content/industry-pages/cosmetics-safety-assessment.ko.json'
+import p161 from '@/content/industry-pages/cosmetics-safety-assessment.en.json'
+import p162 from '@/content/industry-pages/cosmetics-safety-assessment.zh.json'
+import p163 from '@/content/industry-pages/cosmetics-safety-assessment.ja.json'
 
 export const INDUSTRY_PAGES: IndustryPage[] = [
   p0 as IndustryPage,
@@ -291,4 +311,24 @@ export const INDUSTRY_PAGES: IndustryPage[] = [
   p141 as IndustryPage,
   p142 as IndustryPage,
   p143 as IndustryPage,
+  p144 as IndustryPage,
+  p145 as IndustryPage,
+  p146 as IndustryPage,
+  p147 as IndustryPage,
+  p148 as IndustryPage,
+  p149 as IndustryPage,
+  p150 as IndustryPage,
+  p151 as IndustryPage,
+  p152 as IndustryPage,
+  p153 as IndustryPage,
+  p154 as IndustryPage,
+  p155 as IndustryPage,
+  p156 as IndustryPage,
+  p157 as IndustryPage,
+  p158 as IndustryPage,
+  p159 as IndustryPage,
+  p160 as IndustryPage,
+  p161 as IndustryPage,
+  p162 as IndustryPage,
+  p163 as IndustryPage,
 ]

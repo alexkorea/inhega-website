@@ -1,0 +1,188 @@
+{
+ "slug": "cosmetics-manufacturer-registration",
+ "lang": "en",
+ "label": "Cosmetics manufacturer registration",
+ "kw": "Cosmetics manufacturer registration agent in Korea",
+ "answer": "Cosmetics manufacturer registration (화장품제조업 등록) under the Cosmetics Act (화장품법) is filed with the Regional Office of Food and Drug Safety (지방식품의약품안전청) that covers the manufacturing site by any business that manufactures cosmetics itself, manufactures them under contract, or does primary packaging. The applicant needs a work area, storage area, testing room and quality testing equipment, and attaches the representative's medical certificates and a facility specification. The application form sets a processing period of 15 days; a brand that outsources production and only sells under its own name registers as a cosmetics responsible seller (화장품책임판매업) instead. YouSun Administrative Agency prepares and files the cosmetics manufacturer registration application and attachments.",
+ "services": [
+  {"name": "Preparing and filing the cosmetics manufacturer registration application (화장품제조업 등록신청서)", "href": "#term-cosmf-manufacturer"},
+  {"name": "Reviewing the manufacturing type (direct, contract or primary packaging) and whether to also register as a responsible seller", "href": "#sit-cosmf-contract-maker"},
+  {"name": "Pre-checking the work area, storage area and testing room against the facility standards (시설기준)", "href": "#sit-cosmf-partial-process"},
+  {"name": "Drafting the facility specification (시설의 명세서)", "href": "#term-cosmf-facility-spec"},
+  {"name": "Reviewing whether outsourced quality testing allows the testing room to be omitted", "href": "#term-cosmf-qc-outsourcing"},
+  {"name": "Checking the representative's disqualification grounds and guiding the medical certificates", "href": "#sit-cosmf-diagnosis"},
+  {"name": "Cosmetics manufacturer change registration (화장품제조업 변경등록): representative, trade name, site location, manufacturing type", "href": "#sit-cosmf-relocation"},
+  {"name": "Preparing transfer documents and the administrative sanction disclosure confirmation (행정처분 내용 고지 확인서)", "href": "#sit-cosmf-acquisition"},
+  {"name": "Explaining the duty to prepare and keep the manufacturing control standard and product standard documents", "href": "#term-cosmf-mfg-standard"},
+  {"name": "Preparing filings related to a facility repair order (개수명령)", "href": "#term-cosmf-repair-order"},
+  {"name": "Closure, suspension and resumption reports", "href": "#svc-glance"}
+ ],
+ "clients": [
+  "Businesses that want to make cosmetics in their own factory or workshop",
+  "OEM and ODM manufacturers producing cosmetics for other brands",
+  "Packaging companies taking on filling and primary packaging",
+  "Registered cosmetics manufacturers relocating a site or taking over a factory",
+  "Foreign-invested companies setting up cosmetics production facilities in Korea"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Any business that manufactures all or part of a cosmetic product: direct manufacturing, contract manufacturing or primary packaging (processes limited to secondary packaging or labelling are excluded)"},
+  {"label": "Requirements", "value": "A work area (facilities against rodents, insects and dust, work benches and other manufacturing equipment, dust removal for powder rooms), a storage area, a testing room and quality testing equipment (facilities outside the relevant process may be omitted when only part of the process is done; the testing room and equipment may be omitted when quality testing is outsourced), and no disqualification of the representative"},
+  {"label": "Process", "value": "Decide the manufacturing type → secure and fit out the site → obtain the representative's medical certificates → file with the Regional Office of Food and Drug Safety covering the site → review and supplementation → cosmetics manufacturer registration certificate issued"},
+  {"label": "Documents", "value": "Cosmetics manufacturer registration application, a doctor's certificate that the representative is not a person with a mental illness (or a psychiatrist's certificate of suitability), a doctor's certificate that the representative is not addicted to narcotics, a facility specification (the corporate register is checked by the office through shared administrative information)"},
+  {"label": "Timeline", "value": "15 days per the application form (site fit-out, medical certificates and supplementation take extra time); 15 days per the change registration form"}
+ ],
+ "chooser": [
+  {"label": "You outsource production and sell under your own brand", "target": "sit-cosmf-oem-brand"},
+  {"label": "You will manufacture for other companies under contract", "target": "sit-cosmf-contract-maker"},
+  {"label": "You will only fill and pack containers", "target": "sit-cosmf-primary-pack"},
+  {"label": "You want to outsource quality testing instead of building a lab", "target": "sit-cosmf-no-lab"},
+  {"label": "You are relocating the site or taking over a factory", "target": "sit-cosmf-relocation"}
+ ],
+ "situations": [
+  {
+   "id": "sit-cosmf-oem-brand",
+   "q": "If we have no factory and use an OEM to produce our brand's cosmetics in Korea, do we also need cosmetics manufacturer registration?",
+   "conclusion": "If a registered cosmetics manufacturer does the production and you only distribute and sell the finished products under your name, you register as a cosmetics responsible seller, not as a cosmetics manufacturer. The registered manufacturer handles production.",
+   "branches": [
+    {"when": "You outsource the entire manufacturing process", "then": "Register as a cosmetics responsible seller of the type that distributes and sells cosmetics manufactured under contract."},
+    {"when": "You perform part of the process or the primary packaging yourself", "then": "That process also requires cosmetics manufacturer registration, so prepare both registrations."}
+   ],
+   "docs": "Responsible seller registration documents (see the responsible seller page) / if you perform a process yourself: cosmetics manufacturer registration application, representative's medical certificates, facility specification",
+   "period": "15 days per the cosmetics manufacturer registration form"
+  },
+  {
+   "id": "sit-cosmf-contract-maker",
+   "q": "Which manufacturing type should an OEM/ODM factory that produces cosmetics for other brands register under in Korea?",
+   "conclusion": "Cosmetics manufacturing has three sub-types: manufacturing cosmetics directly, manufacturing cosmetics under contract, and primary packaging only. A factory producing for other brands registers under the contract manufacturing type, and the application states the manufacturing type and whether the business also operates as a responsible seller.",
+   "branches": [
+    {"when": "You only produce under contract", "then": "Register only as a cosmetics manufacturer under the contract manufacturing type."},
+    {"when": "You also make and sell your own brand", "then": "Add the direct manufacturing type and also prepare responsible seller registration."}
+   ],
+   "docs": "Cosmetics manufacturer registration application (stating manufacturing type and dual operation as responsible seller), representative's medical certificates, facility specification",
+   "period": "15 days per the application form"
+  },
+  {
+   "id": "sit-cosmf-primary-pack",
+   "q": "Does a company that only fills cosmetic contents into containers and packs them need cosmetics manufacturer registration in Korea?",
+   "conclusion": "Primary packaging means the container in direct contact with the contents, so filling contents into containers requires cosmetics manufacturer registration under the primary packaging type. Secondary packaging such as boxing, or labelling only, is excluded from cosmetics manufacturing.",
+   "branches": [
+    {"when": "You fill contents into containers (primary packaging)", "then": "Register as a cosmetics manufacturer under the primary packaging type."},
+    {"when": "You only do secondary packaging or labelling", "then": "Cosmetics manufacturer registration is not required."},
+    {"when": "You later add direct or contract manufacturing to a primary packaging registration", "then": "File a manufacturing type change registration with a facility specification."}
+   ],
+   "docs": "Cosmetics manufacturer registration application, representative's medical certificates, facility specification",
+   "period": "15 days per the application form / type change registration within 30 days of the change"
+  },
+  {
+   "id": "sit-cosmf-partial-process",
+   "q": "We will handle only part of the cosmetics manufacturing process. Do we still need a full work area, storage area and testing room?",
+   "conclusion": "The rule is to have a work area, storage area, testing room and quality testing equipment, but a manufacturer doing only part of the process may omit facilities and equipment other than those needed for that process.",
+   "branches": [
+    {"when": "You perform the whole process", "then": "Provide the work area, storage area, testing room and quality testing equipment."},
+    {"when": "You perform only part of the process", "then": "Identify the facilities and equipment that process needs and set them out in the facility specification."}
+   ],
+   "docs": "Facility specification, cosmetics manufacturer registration application, representative's medical certificates",
+   "period": "15 days per the application form / the site fit-out comes first in practice"
+  },
+  {
+   "id": "sit-cosmf-no-lab",
+   "q": "Our small cosmetics workshop cannot have its own testing room. Can we register as a manufacturer in Korea if we outsource quality testing?",
+   "conclusion": "If you outsource quality testing of raw materials, packaging materials and products to a Research Institute of Public Health and Environment, a manufacturer with a testing room, a designated cosmetics testing and inspection institution, or the Korea Pharmaceutical Traders Association (한국의약품수출입협회), you may omit the testing room and testing equipment. The work area and storage area are still required.",
+   "branches": [
+    {"when": "You outsource testing to one of these bodies", "then": "Document the outsourcing arrangement and file with a facility specification that omits the testing room."},
+    {"when": "Your testing partner is not one of these bodies", "then": "Provide your own testing room and quality testing equipment."}
+   ],
+   "docs": "Facility specification (work area and storage area), documents showing the testing outsourcing arrangement, cosmetics manufacturer registration application, representative's medical certificates",
+   "period": "15 days per the application form"
+  },
+  {
+   "id": "sit-cosmf-diagnosis",
+   "q": "What medical certificates does the representative need for cosmetics manufacturer registration in Korea?",
+   "conclusion": "The applicant (the representative, for a corporation) submits a doctor's certificate that they are not a person with a mental illness (or a psychiatrist's certificate that they are suitable as a cosmetics manufacturer) and a doctor's certificate that they are not addicted to narcotics. These two grounds apply only to cosmetics manufacturers.",
+   "branches": [
+    {"when": "You register as a sole proprietor", "then": "Obtain both certificates in your own name."},
+    {"when": "You register as a corporation", "then": "Obtain the certificates for the representative; the office checks the corporate register through shared administrative information."}
+   ],
+   "docs": "Doctor's certificate of no mental illness or psychiatrist's certificate of suitability, doctor's certificate of no narcotics addiction",
+   "period": "Allow time to obtain the certificates / they are submitted again with a change registration when the representative changes"
+  },
+  {
+   "id": "sit-cosmf-period",
+   "q": "How long does cosmetics manufacturer registration take in Korea, and when can production start?",
+   "conclusion": "The cosmetics manufacturer registration form sets a processing period of 15 days. Once the requirements are met, the office enters the registration in the register and issues a cosmetics manufacturer registration certificate; production starts after the certificate is received.",
+   "branches": [
+    {"when": "The facilities and certificates are ready", "then": "The review runs within the 15-day processing period on the form."},
+    {"when": "You receive a request for supplementation", "then": "Registration is delayed by the time taken to submit the supplementary documents."}
+   ],
+   "docs": "Cosmetics manufacturer registration application, representative's medical certificates, facility specification",
+   "period": "15 days per the form / site fit-out, certificates and supplementation take extra time"
+  },
+  {
+   "id": "sit-cosmf-cost",
+   "q": "To estimate the cost of cosmetics manufacturer registration in Korea, which preparation items should we look at first?",
+   "conclusion": "The statutory items are the work area, storage area, testing room and quality testing equipment, the representative's two medical certificates and the facility specification. Whether you build a testing room or outsource testing changes the scope of preparation the most.",
+   "branches": [
+    {"when": "You test in-house", "then": "Prepare to the standard that includes the testing room and quality testing equipment."},
+    {"when": "You outsource testing", "then": "Prepare mainly the work area and storage area and document the outsourcing arrangement."}
+   ],
+   "docs": "Facility specification, testing outsourcing documents (if outsourcing), representative's medical certificates, cosmetics manufacturer registration application",
+   "period": "In practice: secure facilities → obtain certificates → apply; after filing, the form's processing period is 15 days"
+  },
+  {
+   "id": "sit-cosmf-relocation",
+   "q": "If we move our cosmetics manufacturing site to another region in Korea, when and where must we file a change registration?",
+   "conclusion": "A change of site location requires change registration within 30 days of the change (90 days when the address changes because of an administrative district reorganisation). If the move changes the competent office, file with the Regional Office of Food and Drug Safety covering the new location.",
+   "branches": [
+    {"when": "You move within the same jurisdiction", "then": "File with your current regional office, attaching the registration certificate and a new facility specification."},
+    {"when": "You move into a different office's jurisdiction", "then": "File with the regional office covering the new location."},
+    {"when": "Only the address changed through district reorganisation", "then": "File within 90 days; no facility specification is needed."}
+   ],
+   "docs": "Cosmetics manufacturer change registration application, cosmetics manufacturer registration certificate, facility specification",
+   "period": "Within 30 days of the change (90 days for district reorganisation) / 15 days per the change registration form"
+  },
+  {
+   "id": "sit-cosmf-acquisition",
+   "q": "When we acquire a cosmetics factory in Korea or the corporate representative changes, what goes into the manufacturer change registration?",
+   "conclusion": "A change of manufacturer (the representative, for a corporation) requires change registration with the new representative's two medical certificates and the registration certificate, plus proof of the transfer if the business was transferred. The transfer form includes a confirmation that the transferor informed the transferee of administrative sanctions in the last year.",
+   "branches": [
+    {"when": "The business was transferred", "then": "Prepare proof of the transfer and the administrative sanction disclosure confirmation as well."},
+    {"when": "Only the corporate representative changed", "then": "File the change registration with the new representative's two certificates and the registration certificate."}
+   ],
+   "docs": "Cosmetics manufacturer change registration application, registration certificate, new representative's certificates of no mental illness and no narcotics addiction, proof of transfer, administrative sanction disclosure confirmation",
+   "period": "Within 30 days of the change / 15 days per the change registration form"
+  },
+  {
+   "id": "sit-cosmf-repair-order",
+   "q": "If an inspection finds our cosmetics manufacturing facilities worn out, what measures can the authority take?",
+   "conclusion": "Where facilities do not meet the facility standards or are worn or damaged so that manufacturing with them raises safety or quality concerns, the authority can order repair of the facilities or ban use of all or part of them until the repair is finished. If one of the work area, storage area or testing room is missing, the first-violation measure is a repair order.",
+   "branches": [
+    {"when": "You receive a repair order", "then": "Repair the facilities as ordered and prepare the documents to submit to the office."},
+    {"when": "A repair order is not complied with", "then": "Breaching the order is punishable by a fine of up to KRW 2 million and is also a ground for administrative sanctions."}
+   ],
+   "docs": "Repair order, evidence of completed repairs (photos, updated facility specification, etc.), documents for the office",
+   "period": "The repair deadline follows the order"
+  },
+  {
+   "id": "sit-cosmf-recommend",
+   "q": "What does an administrative agent in Korea handle for cosmetics manufacturer registration?",
+   "conclusion": "On your authorization, we determine the manufacturing type, pre-check the facility standards, prepare the registration application and facility specification, file with the competent Regional Office of Food and Drug Safety, respond to supplementation requests, and handle change registrations and closure or suspension reports. Facility construction, quality testing and on-site CGMP consulting are not provided, and the registration decision rests with the competent authority.",
+   "branches": [
+    {"when": "You still need to decide the type and facility scope", "then": "We review the type (direct, contract or primary packaging) and whether to outsource quality testing."},
+    {"when": "Your facilities and certificates are ready", "then": "We prepare and file the application and attachments and respond to supplementation requests."}
+   ],
+   "docs": "Letter of authorization, cosmetics manufacturer registration application, representative's medical certificates, facility specification",
+   "period": "15 days per the application form (supplementation time extra)",
+   "href": "#svc-glance"
+  }
+ ],
+ "glossary": [
+  {"id": "term-cosmf-manufacturer", "term": "Cosmetics manufacturer (화장품제조업)", "def": "A business that manufactures all or part of a cosmetic product (excluding processes limited to secondary packaging or labelling); it has three types, direct manufacturing, contract manufacturing and primary packaging, and registers after meeting the facility standards."},
+  {"id": "term-cosmf-primary-packaging", "term": "Primary packaging (1차 포장)", "def": "The container in direct contact with the contents during manufacture; a business doing only primary packaging is also a cosmetics manufacturer."},
+  {"id": "term-cosmf-contract-mfg", "term": "Contract manufacturing (수탁 제조)", "def": "The cosmetics manufacturer type that manufactures cosmetics commissioned by another company, which then distributes and sells them as a cosmetics responsible seller."},
+  {"id": "term-cosmf-facility-spec", "term": "Facility specification (시설의 명세서)", "def": "A document listing the work area, storage area, testing room and other manufacturing facilities, attached to the registration application and also submitted when relocating the site or adding a manufacturing type to a primary packaging registration."},
+  {"id": "term-cosmf-qc-outsourcing", "term": "Outsourced quality testing (품질검사 위탁)", "def": "Entrusting quality testing of raw materials, packaging materials and products to a Research Institute of Public Health and Environment, a manufacturer with a testing room, a cosmetics testing and inspection institution or the Korea Pharmaceutical Traders Association, which allows the testing room and equipment to be omitted."},
+  {"id": "term-cosmf-mfg-standard", "term": "Manufacturing control standard (제조관리기준서)", "def": "A document setting the manufacturing control standards that a cosmetics manufacturer must prepare and keep together with the product standard, manufacturing control records and quality control records."},
+  {"id": "term-cosmf-product-standard", "term": "Product standard (제품표준서)", "def": "A product-level standard document prepared and kept by the cosmetics manufacturer; items needed for quality control are submitted to the cosmetics responsible seller."},
+  {"id": "term-cosmf-repair-order", "term": "Repair order (개수명령)", "def": "An order requiring a cosmetics manufacturer to repair facilities that do not meet the facility standards or are worn or damaged, or banning their use until the repair is finished."}
+ ]
+}

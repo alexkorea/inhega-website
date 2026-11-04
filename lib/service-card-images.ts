@@ -57,6 +57,12 @@ export const INDUSTRY_PHOTOS: Record<string, Photo> = {
   // 의료·제약·화장품·요양
   cosmetics: { pexels: 7670676, ko: '크림 단지와 화장품 용기들', en: 'Skincare jars and cosmetic bottles', zh: '护肤霜罐与化妆品瓶', ja: 'クリーム容器と化粧品ボトル' },
   'functional-cosmetics': { pexels: 10819538, ko: '앰버병 위 스포이트에서 떨어지는 세럼', en: 'Serum dropping from a dropper into an amber bottle', zh: '滴管中的精华液滴入琥珀色瓶', ja: '琥珀色の瓶に落ちるスポイトの美容液' },
+  // INHEGA-COSMETICS(보스 msg 4860, 11-04): 화장품 허브 아래 상세 5종
+  'cosmetics-responsible-seller-registration': { pexels: 3735631, ko: '나무 선반에 진열된 스프레이병과 화장품 용기', en: 'Spray bottles and cosmetic containers displayed on a wooden shelf', zh: '木架上陈列的喷雾瓶与化妆品容器', ja: '木の棚に並ぶスプレーボトルと化粧品容器' },
+  'cosmetics-manufacturer-registration': { pexels: 5532669, ko: '스테인리스 충전 노즐이 늘어선 자동 충전 설비', en: 'Automated filling line with rows of stainless steel nozzles', zh: '排列着不锈钢灌装嘴的自动灌装设备', ja: 'ステンレスの充填ノズルが並ぶ自動充填設備' },
+  'cosmetics-ingredient-labeling-review': { pexels: 6167868, ko: '라벨을 붙이기 전의 앰버 화장품 병들', en: 'Amber cosmetic bottles with blank labels', zh: '贴着空白标签的琥珀色化妆品瓶', ja: '無地ラベルの琥珀色の化粧品ボトル' },
+  'cosmetics-cgmp': { pexels: 37889383, ko: '위생모를 쓴 연구원들이 품질 시험을 하는 실험실', en: 'Lab staff in hairnets carrying out quality tests', zh: '戴防护帽的人员在实验室进行质量检测', ja: '衛生キャップ姿の職員が品質試験を行うラボ' },
+  'cosmetics-safety-assessment': { pexels: 15831822, ko: '보호구를 갖춘 연구원이 시료를 다루는 실험대', en: 'Researcher in protective gear handling samples at a lab bench', zh: '穿戴防护装备的研究人员在实验台处理样品', ja: '防護具を着けた研究者が試料を扱う実験台' },
   'medical-device': { pexels: 13176452, ko: '병원 영상검사실의 CT 스캐너', en: 'CT scanner in a hospital imaging room', zh: '医院影像检查室的CT扫描仪', ja: '病院の画像検査室のCTスキャナー' },
   'foreign-patient-attraction': { pexels: 8459996, ko: '밝은 병원 대기실과 접수대', en: 'Bright hospital waiting area and reception', zh: '明亮的医院候诊区与接待台', ja: '明るい病院の待合室と受付' },
   'long-term-care-institution-designation': { pexels: 16364306, ko: '요양시설에서 휠체어 어르신을 돕는 요양보호사', en: 'Caregiver assisting an elderly resident in a wheelchair at a care home', zh: '养老机构中护理员协助轮椅上的老人', ja: '介護施設で車いすの高齢者を支える介護職員' },

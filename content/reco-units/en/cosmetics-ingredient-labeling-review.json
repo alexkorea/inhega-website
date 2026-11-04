@@ -1,0 +1,184 @@
+{
+ "slug": "cosmetics-ingredient-labeling-review",
+ "lang": "en",
+ "label": "Ingredient and labelling review for imported cosmetics",
+ "kw": "Imported cosmetics ingredient and labelling review agent in Korea",
+ "answer": "An ingredient and labelling review for imported cosmetics (수입화장품 성분·표시 검토) compares the full ingredient list with the lists of ingredients that cannot be used and ingredients with use limits before import, and checks that the Korean-language packaging meets the required particulars and labelling method. The cosmetics responsible seller (화장품책임판매업자) must report the ingredient list to the Ministry of Food and Drug Safety (MFDS, 식품의약품안전처) before distribution and sale (this may be omitted when importing with a standard customs clearance pre-report filed as an electronic trade document) and prepare and keep an import management record. YouSun Administrative Agency supports document review of ingredient lists and label drafts and prepares filings such as the ingredient list report.",
+ "services": [
+  {"name": "Checking the full ingredient list against ingredients that cannot be used before import (사용할 수 없는 원료 대조)", "href": "#term-coslb-banned"},
+  {"name": "Reviewing use limits for preservatives, UV filters and hair dye ingredients (사용한도 검토)", "href": "#term-coslb-restricted"},
+  {"name": "Reviewing Korean label drafts for primary and secondary packaging particulars (1차·2차 포장 기재사항)", "href": "#term-coslb-packaging"},
+  {"name": "Checking the full ingredient listing method: font size, order, standardised generic names (전성분 표시 방법)", "href": "#term-coslb-generic-name"},
+  {"name": "Reviewing fragrance allergens and precautions-for-use wording (알레르기 유발성분·사용할 때의 주의사항)", "href": "#term-coslb-allergen"},
+  {"name": "Checking eligibility for simplified labelling of small-volume products and samples", "href": "#sit-coslb-small"},
+  {"name": "Checking advertising wording and preparing substantiation submissions (표시·광고 실증)", "href": "#term-coslb-substantiation"},
+  {"name": "Preparing the ingredient list report (원료목록 보고)", "href": "#term-coslb-ingredient-list"},
+  {"name": "Organising the items of the import management record (수입관리기록서)", "href": "#term-coslb-import-record"},
+  {"name": "Preparing and filing applications to designate or change an ingredient use standard (원료 사용기준 지정·변경 신청)", "href": "#sit-coslb-no-standard"}
+ ],
+ "clients": [
+  "Cosmetics responsible sellers bringing overseas cosmetics brands into Korea",
+  "Foreign cosmetics companies that have set up a Korean entity to import their own products",
+  "Importers and distributors finalising Korean labels and full ingredient lists before shipment",
+  "Businesses also importing small-volume products, samples or gift sets"
+ ],
+ "glance": [
+  {"label": "Who needs it", "value": "Cosmetics responsible sellers importing cosmetics manufactured abroad for distribution and sale in Korea"},
+  {"label": "Requirements", "value": "No ingredients that cannot be used; preservatives, UV filters, hair dye ingredients and similar within use limits; Korean particulars and full ingredient listing (5 points or more, descending order of content); fragrance allergen and precaution labelling; ingredient list report; import management record prepared and kept"},
+  {"label": "Process", "value": "Obtain formula and full ingredient data → check against prohibited and restricted ingredient lists → review Korean label draft and precautions → check advertising wording → ingredient list report or standard customs clearance pre-report as an electronic trade document → prepare and keep the import management record"},
+  {"label": "Documents", "value": "Ingredient specification and content data, certificate of manufacture and sale, sample product description in Korean, packaging label draft, copy of the functional cosmetics review result notice (if applicable), substantiation data for labelling and advertising (if applicable)"},
+  {"label": "Timeline", "value": "Ingredient list reported before distribution and sale; substantiation data submitted within 15 days of the request; the result of an application to designate or change an ingredient use standard is notified within 180 days of submission / the label review itself depends on how quickly formula data are received and whether supplementation is needed"}
+ ],
+ "chooser": [
+  {"label": "The product to be imported contains preservatives", "target": "sit-coslb-preservative"},
+  {"label": "It contains an ingredient not listed in the Korean notice", "target": "sit-coslb-no-standard"},
+  {"label": "Miniatures or testers are imported as well", "target": "sit-coslb-small"},
+  {"label": "The fragrance contains allergens", "target": "sit-coslb-fragrance"},
+  {"label": "You want efficacy wording on the product page", "target": "sit-coslb-ad-claim"}
+ ],
+ "situations": [
+  {
+   "id": "sit-coslb-preservative",
+   "q": "Our overseas product contains phenoxyethanol and parabens. How do we check whether it exceeds Korea's limits?",
+   "conclusion": "Compare the manufacturer's ingredient content data with the list of ingredients requiring use restrictions. Phenoxyethanol is limited to 1.0%, and parabens (excluding phenylparaben) to 0.4% as a single ingredient and 0.8% in mixtures (as acid); preservatives not on the list cannot be used.",
+   "branches": [
+    {"when": "All preservatives are within the limits", "then": "Move on to reviewing the full ingredient label draft."},
+    {"when": "A limit is exceeded or a preservative is not on the list", "then": "Adjust the formula for Korea or consider applying to designate or change an ingredient use standard."}
+   ],
+   "docs": "Ingredient specification and content data, manufacturer's full ingredient list",
+   "period": "Complete the check before import / in practice, allow time for the manufacturer to send content data"
+  },
+  {
+   "id": "sit-coslb-banned",
+   "q": "What happens if the cosmetics we want to import contain an ingredient prohibited in Korea?",
+   "conclusion": "Cosmetics using an ingredient that cannot be used may not be sold or imported, stored or displayed for sale, and violations are subject to imprisonment of up to 3 years or a fine of up to KRW 30 million. Lead and its compounds, mercury and its compounds, hydroquinone and antibiotics are among the listed ingredients.",
+   "branches": [
+    {"when": "The ingredient can be removed from the formula", "then": "Switch to a formula for the Korean market and check the full ingredient list again."},
+    {"when": "The ingredient is essential", "then": "Consider an application to lift or change the prohibition, and do not import until the result is notified."}
+   ],
+   "docs": "Ingredient specification and content data, manufacturer's full ingredient list, and for an application to lift or change a prohibition, data on the ingredient's origin, characteristics and safety",
+   "period": "The result of an application to lift or change a prohibition is notified within 180 days of submission"
+  },
+  {
+   "id": "sit-coslb-no-standard",
+   "q": "How can we import a product containing a preservative that has no use standard in Korea's notice?",
+   "conclusion": "Preservatives, colourants, UV filters and similar ingredients without a designated use standard cannot be used, so to import the product as it is, an application to designate an ingredient use standard must be filed with MFDS.",
+   "branches": [
+    {"when": "The formula can be changed", "then": "Switching to a listed preservative is faster."},
+    {"when": "You apply to designate an ingredient use standard", "then": "Attach a summary, data on the ingredient's origin, development history and use standards in Korea and abroad, its characteristics, safety and efficacy data, and a test report on its specifications and test methods."}
+   ],
+   "docs": "Application to lift or change an ingredient prohibition (designate or change a use standard), summary of submitted data, data on origin and current use, ingredient characteristics data, safety and efficacy data, test report",
+   "period": "Result notified within 180 days of submission (or of submitting supplementary data); if supplementation is requested, submit additional data or request an extension within 60 days"
+  },
+  {
+   "id": "sit-coslb-small",
+   "q": "Do 10 ml miniatures or tester samples also need the full ingredient list in Korea?",
+   "conclusion": "Products of 10 millilitres or 10 grams or less and samples not for sale may show only the name, the cosmetics responsible seller's business name, the price (for samples, a 'sample' or 'not for sale' mark), the batch number and the expiry date or period after opening.",
+   "branches": [
+    {"when": "10 ml (g) or less, or a sample", "then": "Only the five simplified items may be shown."},
+    {"when": "Over 10 ml (g) and up to 50 ml (g)", "then": "List only tar colours, gold leaf, phosphate types, fruit acids, functional ingredients and ingredients with published use limits, and make omitted ingredients available by phone, website or a booklet kept at the store."},
+    {"when": "External feminine washes or eyelash permanent wave products", "then": "They are not eligible for simplification, so label everything."}
+   ],
+   "docs": "Label drafts for each volume, phone number or website for full ingredient information, or a full ingredient booklet",
+   "period": "Finalise before printing / there is no separate application procedure"
+  },
+  {
+   "id": "sit-coslb-fragrance",
+   "q": "If the fragrance contains limonene or linalool, do they have to be listed separately in the full ingredients?",
+   "conclusion": "Fragrance may be shown as 'fragrance', but any of the 25 designated allergens (including limonene and linalool) present above 0.01% in rinse-off products or above 0.001% in leave-on products must be named.",
+   "branches": [
+    {"when": "Rinse-off products (shampoo, cleanser, etc.)", "then": "Name only components above 0.01%."},
+    {"when": "Leave-on products (cream, lotion, etc.)", "then": "Name components above 0.001%."}
+   ],
+   "docs": "Fragrance supplier's allergen content data, full ingredient label draft",
+   "period": "In practice, allow time to obtain content data from the fragrance supplier"
+  },
+  {
+   "id": "sit-coslb-label-korean",
+   "q": "Can cosmetics be imported in their original foreign-language packaging, and how much must be labelled in Korean?",
+   "conclusion": "The particulars must be shown accurately in easy-to-read Korean, and Chinese characters or foreign languages may be added. Imported cosmetics additionally show the country of manufacture and the manufacturer's name and address, distinguished from the domestic cosmetics manufacturer.",
+   "branches": [
+    {"when": "Only foreign-language labelling exists", "then": "Prepare a label draft with all statutory particulars in Korean."},
+    {"when": "The country of origin is shown under the Foreign Trade Act", "then": "The country of manufacture may be omitted, but the manufacturer's name and address are still shown."}
+   ],
+   "docs": "Photos or artwork of the original packaging, Korean label draft, sample product description in Korean",
+   "period": "Finalise before import / there is no separate application procedure"
+  },
+  {
+   "id": "sit-coslb-ad-claim",
+   "q": "What is needed to say 'suitable for acne-prone skin' on the product page of imported cosmetics in Korea?",
+   "conclusion": "Factual labelling and advertising claims must be capable of substantiation, and this wording is substantiated with human application test data. If the regional MFDS office requests it, the data must be submitted within 15 days of the request.",
+   "branches": [
+    {"when": "A general cosmetic effect claim", "then": "Have human application test data, in-vitro test data or survey data of an equivalent or higher level before using it."},
+    {"when": "A functional claim such as whitening, wrinkle improvement or UV protection", "then": "Complete the functional cosmetics review or report first."}
+   ],
+   "docs": "Substantiation data (test or survey results), a submission stating the substantiation method, the testing body's details and the content and results of substantiation",
+   "period": "Submit within 15 days of the request (extendable for justifiable reasons)"
+  },
+  {
+   "id": "sit-coslb-ingredient-report",
+   "q": "When and where is the ingredient list for imported cosmetics reported in Korea?",
+   "conclusion": "The cosmetics responsible seller reports the ingredient list to MFDS before the cosmetics are distributed or sold, and again when the list changes. When importing with a standard customs clearance pre-report filed as an electronic trade document, the import performance and ingredient list reports may be omitted.",
+   "branches": [
+    {"when": "Importing with a standard customs clearance pre-report as an electronic trade document", "then": "The import performance and ingredient list reports may be omitted."},
+    {"when": "Other cases", "then": "Report the ingredient list before distribution and sale, and report the previous year's import performance through a cosmetics industry association by the end of February each year."}
+   ],
+   "docs": "Ingredient list for each product, import performance data",
+   "period": "Ingredient list before distribution and sale, import performance by the end of February each year / failing to report is subject to an administrative fine of up to KRW 1 million"
+  },
+  {
+   "id": "sit-coslb-import-record",
+   "q": "What goes into the import management record, and is a certificate of manufacture and sale always required?",
+   "conclusion": "The import management record contains the product name, ingredient specifications and content, country of manufacture and manufacturer's name and address, a copy of the functional cosmetics review result notice, the certificate of manufacture and sale, a sample product description in Korean, the date of first import, import and quality test details by batch number, and buyers and sale quantities.",
+   "branches": [
+    {"when": "You hold a certificate of manufacture and sale", "then": "Attach it to the record and keep it."},
+    {"when": "The product is the same as one imported by a seller holding the certificate", "then": "The certificate may be omitted with confirmation from the import requirement confirmation body and a test report from a designated body's quality test."}
+   ],
+   "docs": "Certificate of manufacture and sale, ingredient specification and content data, sample product description in Korean, customs clearance records, quality test results by batch number, sales records",
+   "period": "Prepared for each import and kept on file"
+  },
+  {
+   "id": "sit-coslb-animal",
+   "q": "Can overseas cosmetics made with animal-tested ingredients be sold in Korea?",
+   "conclusion": "In principle, a cosmetics responsible seller may not distribute or sell cosmetics that were animal-tested or made or imported using animal-tested ingredients, and violations are subject to an administrative fine of up to KRW 1 million.",
+   "branches": [
+    {"when": "Testing was required under the importing country's law, or the ingredient was developed under another law, etc.", "then": "Check with documents whether a statutory exception applies."},
+    {"when": "No exception applies", "then": "Do not distribute or sell the product in Korea."}
+   ],
+   "docs": "Manufacturer's confirmation of whether animal testing was conducted, ingredient supplier documents",
+   "period": "Check before signing the import contract"
+  },
+  {
+   "id": "sit-coslb-agent",
+   "q": "Who can handle an ingredient and labelling review for imported cosmetics in Korea, and how far does an administrative agent go?",
+   "conclusion": "YouSun Administrative Agency compares full ingredient data with the prohibited and restricted ingredient lists on paper, reviews Korean label drafts, precautions and advertising wording, prepares ingredient list reports and substantiation submissions, prepares and files applications to designate or change an ingredient use standard, and responds to supplementation requests.",
+   "branches": [
+    {"when": "Ingredient content testing or human application tests are needed", "then": "These must be commissioned from a testing body; we reflect the results in the documents."},
+    {"when": "A customs import declaration is needed at clearance", "then": "A licensed customs broker handles it."}
+   ],
+   "docs": "Manufacturer's full ingredient and content data, original packaging artwork, draft advertising wording, letter of authorisation",
+   "period": "In practice, depends on how quickly formula data are received and whether supplementation is needed"
+  },
+  {
+   "id": "sit-coslb-cost",
+   "q": "What should we prepare first to estimate the cost of a label review for imported cosmetics in Korea?",
+   "conclusion": "The workload depends on the number of products, the length of the ingredient lists, the number of volume and set packages and whether advertising claims need substantiation, so start by collecting full ingredient and content data and packaging artwork for each product.",
+   "branches": [
+    {"when": "Only listed ingredients are used and only the label needs fixing", "then": "The work ends with the label review and preparing the ingredient list report."},
+    {"when": "An unlisted ingredient is used or efficacy wording is planned", "then": "An application to designate a use standard or preparation of substantiation data is added."}
+   ],
+   "docs": "Product list, full ingredient and content data for each product, packaging artwork for each volume, draft advertising wording",
+   "period": "If an application to designate a use standard is added, the result may take up to 180 days from submission"
+  }
+ ],
+ "glossary": [
+  {"id": "term-coslb-banned", "term": "Ingredients that cannot be used (사용할 수 없는 원료)", "def": "Ingredients MFDS has designated and published as not usable in manufacturing cosmetics; cosmetics using them may not be sold or imported, stored or displayed for sale."},
+  {"id": "term-coslb-restricted", "term": "Ingredients requiring use restrictions (사용상의 제한이 필요한 원료)", "def": "Ingredients such as preservatives, UV filters and hair dye ingredients with published use standards such as maximum limits; preservatives, UV filters and similar not listed cannot be used."},
+  {"id": "term-coslb-packaging", "term": "Primary and secondary packaging (1차 포장·2차 포장)", "def": "Primary packaging is the container in direct contact with the contents; secondary packaging is the packaging holding it, including protective materials and packaging for labelling purposes such as package inserts."},
+  {"id": "term-coslb-generic-name", "term": "Standardised generic name (표준화된 일반명)", "def": "The standardised ingredient name that must be used when listing ingredients on cosmetics packaging."},
+  {"id": "term-coslb-allergen", "term": "Fragrance allergens (착향제 알레르기 유발성분)", "def": "The 25 designated components of fragrances that must be named individually instead of being grouped as 'fragrance' when above set concentrations."},
+  {"id": "term-coslb-substantiation", "term": "Substantiation of labelling and advertising (표시·광고 실증)", "def": "Proof by test or survey results that factual matters in a business's or seller's own labelling and advertising are true."},
+  {"id": "term-coslb-ingredient-list", "term": "Ingredient list report (원료목록 보고)", "def": "The duty of a cosmetics responsible seller to report the list of ingredients used in manufacturing to MFDS before distribution and sale."},
+  {"id": "term-coslb-import-record", "term": "Import management record (수입관리기록서)", "def": "A record a cosmetics responsible seller prepares and keeps for each imported cosmetic, containing or attaching the product name, ingredient specifications and content, manufacturer, certificate of manufacture and sale, and import and sales details."}
+ ]
+}
