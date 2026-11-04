@@ -9,7 +9,7 @@ import styles from './ServiceListPage.module.css'
 /**
  * 처리 업무 전체 목록(AI-RECO-2 E-2) — /services/all, /en|zh|ja/services/all.
  * 정식 명칭·관할 기관·대상·관련 페이지 링크. 사무소 소개·상담 문의와 상호 링크(풋터·소개·문의 쪽에서 이 쪽으로).
- * 가격·'무료'·조문 번호·확인일 표기 없음.
+ * 가격·조문 번호·확인일 표기 없음.
  */
 const BASE = 'https://inhega.co.kr'
 const PREFIX: Record<AgencyLocale, string> = { ko: '', en: '/en', zh: '/zh', ja: '/ja' }
