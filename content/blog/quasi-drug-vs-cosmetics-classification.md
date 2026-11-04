@@ -53,5 +53,5 @@ slug: "quasi-drug-vs-cosmetics-classification"
 <div class="faq-item"><p class="faq-q">Q. 기능성화장품도 식약처 허가를 받아야 하나요?</p><p class="faq-a">A. 기능성화장품은 허가가 아니라 품목별 안전성·유효성 심사를 받거나 보고서를 제출하는 절차입니다. 화장품제조업자·책임판매업자 또는 총리령으로 정하는 대학·연구소 등이 신청합니다.<!-- 근거: 화장품법 제4조 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>제품 분류와 인허가 경로를 함께 점검하세요</h3><p>분류에 따라 준비할 시설·인력·서류가 달라집니다. 유선행정사사무소가 제품 정보를 바탕으로 분류와 필요한 신고·등록 절차를 함께 검토합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">상담 신청하기</a></div>
+<div class="cta-block"><h3>제품 분류와 인허가 경로를 함께 점검하세요</h3><p>분류에 따라 준비할 시설·인력·서류가 달라집니다. 유선행정사사무소가 제품 정보를 바탕으로 분류와 필요한 신고·등록 절차를 함께 검토합니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 약사법, 의약품 등의 안전에 관한 규칙, 화장품법, 화장품법 시행규칙, 식품의약품안전처 고시 「의약외품 범위 지정」 --></p>

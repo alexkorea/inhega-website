@@ -84,7 +84,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 제한 대신 다른 처분을 받는 경우도 있나요?</p><p class="faq-a">A. 책임이 경미하거나 제한으로 유효한 경쟁입찰이 성립하지 않는 경우에는 과징금으로 갈음할 수 있습니다. 해당 여부는 사유별로 따로 판단됩니다.<!-- 근거: 국가를 당사자로 하는 계약에 관한 법률 제27조의2 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>제한 통지 이후 점검과 서류 준비를 함께 하세요</h3><p>유선행정사사무소가 처분 사유 정리, 감경 사유 자료 준비, 나라장터 등록 정보 점검을 돕습니다. 진행 범위는 <a href="/services/procurement">조달청 나라장터 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>제한 통지 이후 점검과 서류 준비를 함께 하세요</h3><p>유선행정사사무소가 처분 사유 정리, 감경 사유 자료 준비, 나라장터 등록 정보 점검을 돕습니다. 진행 범위는 <a href="/services/procurement">조달청 나라장터 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 국가를 당사자로 하는 계약에 관한 법률 제27조·제27조의2, 같은 법 시행령 제76조, 같은 법 시행규칙 제76조·제77조·별표 2 --></p>`,
   },
 
@@ -131,7 +131,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Is there an alternative to the restriction?</p><p class="faq-a">A. Where responsibility is minor or the restriction would prevent valid competitive bidding, a penalty surcharge may replace it. For help, see <a href="/en/services/procurement">our KONEPS registration service</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>Review your position after a restriction notice</h3><p>YouSun Administrative Agency helps organise the grounds, prepare reduction materials and check KONEPS registration details. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Review your position after a restriction notice</h3><p>YouSun Administrative Agency helps organise the grounds, prepare reduction materials and check KONEPS registration details. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -178,7 +178,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 有替代限制的处分吗？</p><p class="faq-a">A. 责任轻微或限制会导致有效竞争投标无法成立时，可用课征金代替。相关协助请参阅<a href="/zh/services/procurement">Narajangteo登记服务</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>收到限制通知后，请尽早检查</h3><p>YouSun Administrative Agency 协助整理处分事由、准备减轻事由资料并检查Narajangteo登记信息。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>收到限制通知后，请尽早检查</h3><p>YouSun Administrative Agency 协助整理处分事由、准备减轻事由资料并检查Narajangteo登记信息。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -225,7 +225,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 制限の代わりになる処分はありますか。</p><p class="faq-a">A. 責任が軽微な場合や、制限により有効な競争入札が成立しない場合は、課徴金で代えることがあります。ご相談は<a href="/ja/services/procurement">ナラジャント登録サービス</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>制限の通知を受けたら早めに点検を</h3><p>YouSun Administrative Agency が処分事由の整理、減軽事由の資料準備、ナラジャント登録情報の点検をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>制限の通知を受けたら早めに点検を</h3><p>YouSun Administrative Agency が処分事由の整理、減軽事由の資料準備、ナラジャント登録情報の点検をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 

@@ -70,7 +70,7 @@ slug: "administrative-scrivener-scope-and-limits"
 
 <div class="cta-block">
  <h3>인허가 위임 범위부터 정리해 드립니다</h3>
- <p>업종·사안별로 어디까지 위임할 수 있는지, 어떤 서류가 필요한지 유선행정사사무소가 먼저 확인해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>업종·사안별로 어디까지 위임할 수 있는지, 어떤 서류가 필요한지 유선행정사사무소가 먼저 확인해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">무료 상담 신청하기</a>
 </div>
 

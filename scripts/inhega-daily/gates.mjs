@@ -150,7 +150,7 @@ export function gateArticle(entry, ctx) {
 
   // ── B. 구조·디자인 금칙(제6장) ──────────────────────────────────────────────
   add('B1 CTA 블록 존재', /class="cta-box"|class="cta-block"/.test(entry.ko?.content || ''), 'ok')
-  add('B2 대표번호 기재·개인번호 없음', /02-363-2251/.test(entry.ko?.content || '') && !/01[016789]-\d{3,4}-\d{4}/.test(entry.ko?.content || ''), 'ok')
+  add('B2 대표번호 기재·개인번호 없음', /02-325-8222/.test(entry.ko?.content || '') && !/01[016789]-\d{3,4}-\d{4}/.test(entry.ko?.content || ''), 'ok')
   add('B3 금지색 #3b82f6 없음', !/#3b82f6/i.test(JSON.stringify(entry)), 'ok')
   add('B4 --- 구분선·Q1. 형식 없음', !/^---$/m.test(entry.ko?.content || '') && !/Q\d\./.test(entry.ko?.content || ''), 'ok')
   // B5: C6(2026-10-03 맥7, 보스 msg 1698) — 법조 직역 명칭 0건(4언어·메타·FAQ 전부, 'power of attorney' 만 예외).

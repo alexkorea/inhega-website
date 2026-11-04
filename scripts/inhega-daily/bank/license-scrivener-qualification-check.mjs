@@ -124,7 +124,7 @@ export default {
 
 <div class="cta-block">
  <h3>인허가를 맡기기 전에 확인할 것부터 정리해 드립니다</h3>
- <p>담당 행정사의 신고확인증과 위임 범위를 먼저 안내하고, 업종별로 필요한 서류를 유선행정사사무소가 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>담당 행정사의 신고확인증과 위임 범위를 먼저 안내하고, 업종별로 필요한 서류를 유선행정사사무소가 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">상담 신청하기</a>
 </div>
 
@@ -202,7 +202,7 @@ export default {
 
 <div class="cta-block">
  <h3>Not sure what to check before you engage?</h3>
- <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a consultation</a>
 </div>
 
@@ -280,7 +280,7 @@ export default {
 
 <div class="cta-block">
  <h3>委托前不确定该核实什么？</h3>
- <p>유선행정사사무소会先出示负责行政士的业务申报确认证并说明委托范围，再按行业整理所需文件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先出示负责行政士的业务申报确认证并说明委托范围，再按行业整理所需文件。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请咨询</a>
 </div>
 
@@ -358,7 +358,7 @@ export default {
 
 <div class="cta-block">
  <h3>依頼前に何を確認すべきかお悩みの方へ</h3>
- <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をYouSun Administrative Agencyが整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">ご相談を申し込む</a>
 </div>
 

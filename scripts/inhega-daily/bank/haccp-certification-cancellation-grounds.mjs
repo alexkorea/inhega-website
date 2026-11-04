@@ -102,7 +102,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 인증이 취소된 뒤 남은 포장재의 HACCP 표시는 써도 되나요?</p><p class="faq-a">A. 인증 업소가 아닌 영업자는 그 명칭을 쓸 수 없고, 어기면 과태료 대상입니다. 표시가 남은 포장재와 광고물은 사용을 멈춰야 합니다.<!-- 근거: 식품위생법 제48조 제9항, 제101조 제2항 제6호 --></p></div>
 </div>
 
-<div class="cta-block"><h3>HACCP 처분 대응 상담</h3><p>처분 통지 내용 검토, 시정 결과 정리, 재인증 서류 준비는 유선행정사사무소에 문의해 주십시오. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>HACCP 처분 대응 상담</h3><p>처분 통지 내용 검토, 시정 결과 정리, 재인증 서류 준비는 유선행정사사무소에 문의해 주십시오. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 식품위생법, 같은 법 시행령, 같은 법 시행규칙 --></p>`,
   },
   en: {
@@ -160,7 +160,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. Can we use leftover packaging with the HACCP mark after cancellation?</p><p class="faq-a">A. A business that is not certified may not use the name, and doing so is subject to an administrative fine. Stop using such packaging and advertising.</p></div>
 </div>
 
-<div class="cta-block"><h3>Talk to us about a HACCP sanction</h3><p>To review a sanction notice, organize corrective action records or prepare recertification documents, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Talk to us about a HACCP sanction</h3><p>To review a sanction notice, organize corrective action records or prepare recertification documents, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -219,7 +219,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 认证撤销后，剩余包装上的HACCP标识还能用吗？</p><p class="faq-a">A. 非认证业所的营业者不得使用该名称，违者将被处以过怠金。应停止使用带有该标识的包装和广告物。</p></div>
 </div>
 
-<div class="cta-block"><h3>HACCP处分应对咨询</h3><p>处分通知审查、纠正结果整理、重新认证材料准备，请联系YouSun Administrative Agency（代表行政士 Jung Yu-sun）。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>HACCP处分应对咨询</h3><p>处分通知审查、纠正结果整理、重新认证材料准备，请联系YouSun Administrative Agency（代表行政士 Jung Yu-sun）。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -278,7 +278,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 取消後、残った包装材のHACCP表示は使えますか。</p><p class="faq-a">A. 認証業所でない営業者はその名称を使えず、違反すると過料の対象です。表示の残った包装材や広告物は使用をやめてください。</p></div>
 </div>
 
-<div class="cta-block"><h3>HACCPの処分対応のご相談</h3><p>処分通知の確認、是正結果の整理、再認証の書類準備は、YouSun Administrative Agency（代表行政士 Jung Yu-sun）にお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>HACCPの処分対応のご相談</h3><p>処分通知の確認、是正結果の整理、再認証の書類準備は、YouSun Administrative Agency（代表行政士 Jung Yu-sun）にお問い合わせください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 

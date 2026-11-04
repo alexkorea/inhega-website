@@ -69,7 +69,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 임의단체 통장에 있는 돈과 장비는 어떻게 옮기나요?</p><p class="faq-a">A. 신청할 때 재산목록과 그 증명서류, 출연 신청이 있으면 그 사실을 증명하는 서류를 붙이고, 허가를 받으면 지체 없이 법인으로 옮긴 뒤 1개월 이내에 이전 증명서를 주무관청에 냅니다.<!-- 근거: 위 규칙 제3조 제3호, 제5조 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>지금의 회칙과 활동 기록으로 시작하세요</h3><p>기존 회칙, 활동 내역, 단체 재산 현황을 보내 주시면 유선행정사사무소가 사단법인 설립허가 가능성과 준비할 서류를 정리해 드립니다. 진행 범위는 <a href="/services/nonprofit">비영리사단법인 설립 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>지금의 회칙과 활동 기록으로 시작하세요</h3><p>기존 회칙, 활동 내역, 단체 재산 현황을 보내 주시면 유선행정사사무소가 사단법인 설립허가 가능성과 준비할 서류를 정리해 드립니다. 진행 범위는 <a href="/services/nonprofit">비영리사단법인 설립 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 민법 제32조·제33조·제40조·제49조·제56조, 행정안전부 및 그 소속청 소관 비영리법인의 설립 및 감독에 관한 규칙 제3조~제5조 --></p>`,
   },
 
@@ -110,7 +110,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. How do we move the group's money and equipment?</p><p class="faq-a">A. Attach the property inventory, proof and any donation pledges to the application. After the permit, transfer them without delay and submit the transfer certificate within 1 month.</p></div>
 </div>
 
-<div class="cta-block"><h3>Start with your current rules and records</h3><p>Send us your club rules, activity history and assets, and YouSun Administrative Agency will assess the permit and list the documents. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Start with your current rules and records</h3><p>Send us your club rules, activity history and assets, and YouSun Administrative Agency will assess the permit and list the documents. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -151,7 +151,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 团体账户里的钱和器材怎么转？</p><p class="faq-a">A. 申请时附上财产目录及证明材料，有捐出承诺的附上证明；取得许可后立即转入法人，并在1个月内向主管机关提交转移证明。</p></div>
 </div>
 
-<div class="cta-block"><h3>从现有会则和活动记录开始</h3><p>发来会则、活动记录和团体财产情况，YouSun Administrative Agency为你评估设立许可的可能性并整理所需材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>从现有会则和活动记录开始</h3><p>发来会则、活动记录和团体财产情况，YouSun Administrative Agency为你评估设立许可的可能性并整理所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -192,7 +192,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 任意団体の口座のお金や備品はどう移しますか。</p><p class="faq-a">A. 申請時に財産目録とその証明書類、出捐の申し出があればその証明書類を添付し、許可を受けたら遅滞なく法人に移して、1か月以内に移転の証明書を主務官庁に提出します。</p></div>
 </div>
 
-<div class="cta-block"><h3>今の会則と活動記録から始めましょう</h3><p>会則、活動内容、団体財産の状況をお送りいただければ、YouSun Administrative Agencyが設立許可の見通しと準備書類を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>今の会則と活動記録から始めましょう</h3><p>会則、活動内容、団体財産の状況をお送りいただければ、YouSun Administrative Agencyが設立許可の見通しと準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

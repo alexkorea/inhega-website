@@ -34,5 +34,5 @@ slug: "administrative-license-agency-procedure-flow"
 <div class="faq-item"><p class="faq-q">Q. 이미 낸 서류를 변경 신청 때 또 내야 하나요?</p><p class="faq-a">A. 원래 민원의 내용 변경이나 갱신 신청이면 특별한 사유가 없는 한 이미 낸 서류를 다시 요구하지 않습니다. 행정사 선택 기준은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>를 참고하십시오.<!-- 근거: 민원 처리에 관한 법률 제10조 제7항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>인허가 신청, 위임부터 처분 통지까지 한 흐름으로 준비하세요</h3><p>유선행정사사무소가 위임 범위 확정, 신청서와 구비서류 작성, 제출 대리, 보완 대응과 처분 결과 확인까지 돕습니다. 진행 범위는 상담에서 안내합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">상담 신청하기</a></div>
+<div class="cta-block"><h3>인허가 신청, 위임부터 처분 통지까지 한 흐름으로 준비하세요</h3><p>유선행정사사무소가 위임 범위 확정, 신청서와 구비서류 작성, 제출 대리, 보완 대응과 처분 결과 확인까지 돕습니다. 진행 범위는 상담에서 안내합니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 행정사법 제2조·제21조·제22조·제23조·제24조, 같은 법 시행령 제22조, 민원 처리에 관한 법률 제8조·제9조·제10조·제17조·제22조·제27조·제30조, 같은 법 시행령 제5조·제6조·제18조·제21조·제23조·제25조·제33조·제34조 --></p>

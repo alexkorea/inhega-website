@@ -33,7 +33,7 @@ const organizationBase = {
   knowsLanguage: ['ko', 'en', 'zh', 'ja'],
   taxID: '722-39-01297',
   founder: { '@type': 'Person', name: '정유선' },
-  telephone: '+82-2-363-2251',
+  telephone: '+82-2-325-8222',
   email: 'help@inhega.co.kr',
   address: {
     '@type': 'PostalAddress',
@@ -47,7 +47,7 @@ const organizationBase = {
     {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      telephone: '+82-2-363-2251',
+      telephone: '+82-2-325-8222',
       areaServed: 'KR',
       email: 'help@inhega.co.kr',
     },

@@ -90,7 +90,7 @@ slug: "hostel-violation-penalties"
 
 <div class="cta-block">
  <h3>처분 통지를 받았거나 기한이 걱정된다면</h3>
- <p>등록사항과 처분 통지서를 보고 위반 차수, 과징금 전환 가능성, 청문 소명 자료를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>등록사항과 처분 통지서를 보고 위반 차수, 과징금 전환 가능성, 청문 소명 자료를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">무료 상담 신청하기</a>
 </div>
 

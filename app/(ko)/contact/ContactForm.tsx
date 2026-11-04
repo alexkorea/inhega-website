@@ -78,8 +78,8 @@ export default function ContactForm() {
                       </svg>
                     ),
                     label: '전화',
-                    value: '02-363-2251',
-                    href: 'tel:02-363-2251',
+                    value: '02-325-8222',
+                    href: 'tel:02-325-8222',
                   },
                   {
                     icon: (

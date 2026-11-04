@@ -219,7 +219,7 @@ export const SERVICES_HEADING_KW: Record<FocusPageLocale, Record<string, string>
   ja: { nonprofit: '韓国の社団法人設立代行', 'telecom-business': '韓国の付加通信事業申告の代行', 'location-based-service': '韓国の位置情報サービス事業申告の代行', cosmetics: '韓国の化粧品責任販売業登録の代行', 'health-food': '韓国への健康機能食品輸入手続きの代行', factory: '韓国の工場設立・工場登録の代行' },
 }
 
-const PHONE_HREF = 'tel:+8223632251'
+const PHONE_HREF = 'tel:+8223258222'
 export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
   ko: {
     servicesHeading: '{kw} — 유선행정사사무소가 처리하는 업무',
@@ -231,7 +231,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     officeIntro: '유선행정사사무소는 서울 중구 퇴계로에 있는 행정사사무소로, 행정기관에 내는 인허가·등록·신고 서류의 작성과 제출 대행을 맡습니다. 한국어·영어·중국어·일본어로 상담합니다.',
     officeRows: [
       { label: '주소', value: '(04614) 서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩)' },
-      { label: '대표전화', value: '02-363-2251', href: PHONE_HREF },
+      { label: '대표전화', value: '02-325-8222', href: PHONE_HREF },
       { label: '운영시간', value: '평일 09:30~17:30 (토·일·공휴일 휴무)' },
       { label: '상담 언어', value: '한국어 · 영어 · 중국어 · 일본어' },
     ],
@@ -247,7 +247,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     officeIntro: 'YouSun Administrative Agency is a licensed administrative agent office (행정사사무소) on Toegye-ro in Jung-gu, Seoul. We prepare and file permit, registration and report applications with Korean government agencies on behalf of clients, in Korean, English, Chinese and Japanese.',
     officeRows: [
       { label: 'Address', value: '3F Seongwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul 04614, Korea' },
-      { label: 'Phone', value: '+82-2-363-2251', href: PHONE_HREF },
+      { label: 'Phone', value: '+82-2-325-8222', href: PHONE_HREF },
       { label: 'Hours', value: 'Mon–Fri 09:30–17:30 (KST), closed weekends and public holidays' },
       { label: 'Languages', value: 'Korean · English · Chinese · Japanese' },
     ],
@@ -263,7 +263,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     officeIntro: 'YouSun Administrative Agency 是位于首尔中区退溪路的行政士事务所（행정사사무소），代客户制作并向韩国行政机关提交许可、登记、申报材料，可使用韩语、英语、中文、日语沟通。',
     officeRows: [
       { label: '地址', value: '首尔特别市中区退溪路324号成宇大厦3层（04614）' },
-      { label: '电话', value: '+82-2-363-2251', href: PHONE_HREF },
+      { label: '电话', value: '+82-2-325-8222', href: PHONE_HREF },
       { label: '办公时间', value: '周一至周五 09:30–17:30（韩国时间），周末及法定节假日休息' },
       { label: '咨询语言', value: '韩语 · 英语 · 中文 · 日语' },
     ],
@@ -279,7 +279,7 @@ export const EXPERTISE_UI: Record<FocusPageLocale, ExpertiseUi> = {
     officeIntro: 'YouSun Administrative Agency はソウル市中区退溪路にある行政士事務所（행정사사무소）で、韓国の行政機関に提出する許認可・登録・申告書類の作成と提出代行を行います。韓国語・英語・中国語・日本語でご相談いただけます。',
     officeRows: [
       { label: '住所', value: 'ソウル特別市中区退溪路324 成宇ビル3F（04614）' },
-      { label: '電話', value: '+82-2-363-2251', href: PHONE_HREF },
+      { label: '電話', value: '+82-2-325-8222', href: PHONE_HREF },
       { label: '営業時間', value: '月〜金 09:30–17:30（KST）、土・日・祝日休み' },
       { label: '対応言語', value: '韓国語・英語・中国語・日本語' },
     ],

@@ -113,7 +113,7 @@ export async function POST(req: NextRequest) {
                 <tr><td style="padding:8px;border:1px solid #ddd;background:#f5f5f5;font-weight:bold;">희망 기간</td><td style="padding:8px;border:1px solid #ddd;">${timeline || '-'}</td></tr>
                 <tr><td style="padding:8px;border:1px solid #ddd;background:#f5f5f5;font-weight:bold;">상세내용</td><td style="padding:8px;border:1px solid #ddd;">${details || '-'}</td></tr>
               </table>
-              <p style="margin-top:24px;color:#666;font-size:13px;">문의: 02-363-2251 | inhega.co.kr</p>
+              <p style="margin-top:24px;color:#666;font-size:13px;">문의: 02-325-8222 | inhega.co.kr</p>
             </div>
           `,
         }),
@@ -162,7 +162,7 @@ export async function POST(req: NextRequest) {
     if (!adminEmailOk && !notionOk && !inquiryId) {
       console.error('[quote API] 접수 경로 전부 실패', { name, phone, email, service })
       return NextResponse.json(
-        { error: '접수에 실패했습니다. 02-363-2251 로 연락해 주세요.' },
+        { error: '접수에 실패했습니다. 02-325-8222 로 연락해 주세요.' },
         { status: 500 },
       )
     }

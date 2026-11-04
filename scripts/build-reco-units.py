@@ -63,7 +63,7 @@ ts = ('// 자동 생성 — scripts/build-reco-units.py (AI-RECO-1103 12절). �
 # llms.txt — '## 항목별 처리 업무' 절(다른 절은 손대지 않는다)
 HEAD = '## 항목별 처리 업무 (Services handled per item)\n'
 END = '\n## 주요 서비스'
-lines = [HEAD, '\n유선행정사사무소(YouSun Administrative Agency, 서울 중구 퇴계로 324 3층, +82-2-363-2251, 평일 09:30~17:30)가 업무 항목별로 처리하는 업무입니다. 각 페이지에 핵심 답변·처리 업무·한눈에 보기·상황별 질문·용어 설명·사무소 안내가 있습니다.\n']
+lines = [HEAD, '\n유선행정사사무소(YouSun Administrative Agency, 서울 중구 퇴계로 324 3층, +82-2-325-8222, 평일 09:30~17:30)가 업무 항목별로 처리하는 업무입니다. 각 페이지에 핵심 답변·처리 업무·한눈에 보기·상황별 질문·용어 설명·사무소 안내가 있습니다.\n']
 HL = {'ko': '### 한국어 — 항목별 처리 업무', 'en': '### English — services handled per item', 'zh': '### 中文 — 各项目办理业务', 'ja': '### 日本語 — 項目別の取扱業務'}
 for l in LANGS:
     if not data[l]: continue

@@ -89,7 +89,7 @@ export default {
 
 <div class="cta-block">
  <h3>인허가 위임 범위부터 정리해 드립니다</h3>
- <p>업종·사안별로 어디까지 위임할 수 있는지, 어떤 서류가 필요한지 유선행정사사무소가 먼저 확인해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>업종·사안별로 어디까지 위임할 수 있는지, 어떤 서류가 필요한지 유선행정사사무소가 먼저 확인해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">상담 신청하기</a>
 </div>
 
@@ -164,7 +164,7 @@ export default {
 
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
- <p>YouSun Administrative Agency will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>YouSun Administrative Agency will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
@@ -240,7 +240,7 @@ export default {
 
 <div class="cta-block">
  <h3>先厘清可以委托的范围</h3>
- <p>YouSun Administrative Agency将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
+ <p>YouSun Administrative Agency将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-325-8222，工作日 09:30–17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
@@ -317,7 +317,7 @@ export default {
 
 <div class="cta-block">
  <h3>まず委任できる範囲を整理します</h3>
- <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かをYouSun Administrative Agencyが先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
+ <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かをYouSun Administrative Agencyが先に確認いたします。電話 02-325-8222、平日 09:30～17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 

@@ -86,7 +86,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 기간 안에 신고하지 않은 채권자는 어떻게 되나요?</p><p class="faq-a">A. 청산에서 제외되며, 채무를 모두 갚은 뒤 귀속권리자에게 넘기지 않은 재산에 대해서만 변제를 청구할 수 있습니다. 다만 청산인이 알고 있는 채권자는 제외할 수 없습니다.<!-- 근거: 민법 제89조, 제92조 --></p></div>
 </div>
 
-<div class="cta-block"><h3>사단법인 해산·청산 서류 준비가 필요하신가요?</h3><p>유선행정사사무소는 <a href="/services/nonprofit">비영리사단법인 업무</a>로 해산신고서, 잔여재산 처분허가 신청서, 청산종결 신고서 등 주무관청 제출 서류의 작성과 제출을 돕습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">상담 신청하기</a></div>
+<div class="cta-block"><h3>사단법인 해산·청산 서류 준비가 필요하신가요?</h3><p>유선행정사사무소는 <a href="/services/nonprofit">비영리사단법인 업무</a>로 해산신고서, 잔여재산 처분허가 신청서, 청산종결 신고서 등 주무관청 제출 서류의 작성과 제출을 돕습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 민법, 법무부 소관 비영리법인의 설립 및 감독에 관한 규칙 --></p>`,
   },
 
@@ -136,7 +136,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. What happens to creditors who do not file in time?</p><p class="faq-a">A. They are excluded from liquidation and can claim only against property not yet handed over after all debts are paid. Known creditors cannot be excluded.</p></div>
 </div>
 
-<div class="cta-block"><h3>Need help with dissolution and liquidation filings?</h3><p>YouSun Administrative Agency prepares and submits ministry filings for <a href="/en/services/nonprofit">nonprofit associations</a>, including dissolution reports, applications for permission to dispose of remaining property, and completion reports. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">Request a consultation</a></div>
+<div class="cta-block"><h3>Need help with dissolution and liquidation filings?</h3><p>YouSun Administrative Agency prepares and submits ministry filings for <a href="/en/services/nonprofit">nonprofit associations</a>, including dissolution reports, applications for permission to dispose of remaining property, and completion reports. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -186,7 +186,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 逾期未申报的债权人怎么办？</p><p class="faq-a">A. 将被排除在清算之外，只能在债务全部清偿后，就尚未移交归属权利人的财产请求清偿。已知债权人不得被排除。</p></div>
 </div>
 
-<div class="cta-block"><h3>需要准备社团法人解散·清算文件吗？</h3><p>유선행정사사무소（代表行政士 정유선）为<a href="/zh/services/nonprofit">非营利社团法人</a>撰写并提交解散申报书、剩余财产处分许可申请书、清算终结申报书等主管机关文件。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">申请咨询</a></div>
+<div class="cta-block"><h3>需要准备社团法人解散·清算文件吗？</h3><p>유선행정사사무소（代表行政士 정유선）为<a href="/zh/services/nonprofit">非营利社团法人</a>撰写并提交解散申报书、剩余财产处分许可申请书、清算终结申报书等主管机关文件。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -236,7 +236,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 期間内に申し出なかった債権者はどうなりますか？</p><p class="faq-a">A. 清算から除外され、債務を完済した後、帰属権利者にまだ引き渡していない財産に対してのみ弁済を請求できます。知れている債権者は除外できません。</p></div>
 </div>
 
-<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>YouSun Administrative Agency（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
+<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>YouSun Administrative Agency（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

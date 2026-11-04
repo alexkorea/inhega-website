@@ -72,7 +72,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 기능성화장품 심사는 누구 이름으로 받나요?</p><p class="faq-a">A. 심사나 보고는 화장품제조업자, 화장품책임판매업자, 정해진 대학·연구소 등이 품목별로 합니다. 한국 법인이 없으면 국내 책임판매업자 명의로 진행하는 것이 일반적입니다.<!-- 근거: 화장품법 제4조 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>판매 방식부터 정하고 시작하세요</h3><p>제품 목록과 성분표, 현지 제조사 정보를 보내 주시면 유선행정사사무소가 수입사 위탁과 직접 등록 중 맞는 길과 준비 서류를 정리해 드립니다. 진행 범위는 <a href="/services/cosmetics">화장품 제조업·책임판매업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>판매 방식부터 정하고 시작하세요</h3><p>제품 목록과 성분표, 현지 제조사 정보를 보내 주시면 유선행정사사무소가 수입사 위탁과 직접 등록 중 맞는 길과 준비 서류를 정리해 드립니다. 진행 범위는 <a href="/services/cosmetics">화장품 제조업·책임판매업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 화장품법 제3조·제4조·제5조·제10조·제36조, 시행령 제2조, 시행규칙 제4조·제8조·제12조·제13조 --></p>`,
   },
 
@@ -114,7 +114,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Must products made in our own factory be tested again?</p><p class="faq-a">A. Imported cosmetics are in principle tested by batch before release, but testing can be skipped if a designated testing body already has batch results.</p></div>
 </div>
 
-<div class="cta-block"><h3>Decide the route first</h3><p>Send us your product list, ingredient sheets and factory details, and YouSun Administrative Agency will set out the right route and documents. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Decide the route first</h3><p>Send us your product list, ingredient sheets and factory details, and YouSun Administrative Agency will set out the right route and documents. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -156,7 +156,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 在中国工厂生产的产品还要再检验吗？</p><p class="faq-a">A. 进口化妆品原则上按批号检验后流通；委托指定检验机构已有检验结果的，可以不再自行检验。</p></div>
 </div>
 
-<div class="cta-block"><h3>先确定销售路径</h3><p>发来产品清单、成分表和工厂信息，YouSun Administrative Agency为你判断适合的路径并整理所需材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>先确定销售路径</h3><p>发来产品清单、成分表和工厂信息，YouSun Administrative Agency为你判断适合的路径并整理所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -198,7 +198,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 自社工場で作った製品も品質検査をやり直しますか。</p><p class="faq-a">A. 輸入化粧品は原則として製造番号ごとに品質検査をしてから流通させます。指定検査機関に委託して結果がある場合は、自ら検査しなくてもよいとされています。</p></div>
 </div>
 
-<div class="cta-block"><h3>まず販売方法を決めましょう</h3><p>製品一覧、成分表、現地の製造会社の情報をお送りいただければ、YouSun Administrative Agencyが合う方法と準備書類を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>まず販売方法を決めましょう</h3><p>製品一覧、成分表、現地の製造会社の情報をお送りいただければ、YouSun Administrative Agencyが合う方法と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

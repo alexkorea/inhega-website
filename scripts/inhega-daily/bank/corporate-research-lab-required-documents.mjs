@@ -126,7 +126,7 @@ export default {
 
 <div class="cta-block">
  <h3>서류를 내기 전에 한 번 맞춰 보고 싶다면</h3>
- <p>인력 현황표, 조직도, 도면과 사진이 서로 같은 사실을 가리키는지 유선행정사사무소가 먼저 점검해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>인력 현황표, 조직도, 도면과 사진이 서로 같은 사실을 가리키는지 유선행정사사무소가 먼저 점검해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">상담 신청하기</a>
 </div>
 
@@ -222,7 +222,7 @@ export default {
 
 <div class="cta-block">
  <h3>Want your file checked before you submit?</h3>
- <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a consultation</a>
 </div>
 
@@ -317,7 +317,7 @@ export default {
 
 <div class="cta-block">
  <h3>提交前想先核对一遍材料？</h3>
- <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请咨询</a>
 </div>
 
@@ -412,7 +412,7 @@ export default {
 
 <div class="cta-block">
  <h3>提出前に書類を一度照合したい方へ</h3>
- <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、YouSun Administrative Agencyが先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、YouSun Administrative Agencyが先に点検します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">ご相談を申し込む</a>
 </div>
 

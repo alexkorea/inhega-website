@@ -51,7 +51,7 @@ slug: "food-manufacturing-online-sales-report"
 
 <div class="cta-block">
  <h3>만든 식품을 온라인으로 팔 계획이라면</h3>
- <p>판매 구조와 작업장 상황을 보고 맞는 영업 형태와 통신판매업 신고 대상 여부를 유선행정사사무소가 먼저 확인해 드립니다. 통신판매업 신고는 <a href="/services/mail-order-sales-report">통신판매업 신고 서비스</a>에서 함께 진행할 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>판매 구조와 작업장 상황을 보고 맞는 영업 형태와 통신판매업 신고 대상 여부를 유선행정사사무소가 먼저 확인해 드립니다. 통신판매업 신고는 <a href="/services/mail-order-sales-report">통신판매업 신고 서비스</a>에서 함께 진행할 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">상담 신청하기</a>
 </div>
 

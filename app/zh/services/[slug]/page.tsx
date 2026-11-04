@@ -106,7 +106,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
     provider: {
       '@type': 'ProfessionalService',
       name: 'YouSun Administrative Agency',
-      telephone: '02-363-2251',
+      telephone: '02-325-8222',
       url: 'https://inhega.co.kr/zh',
     },
     areaServed: { '@type': 'Country', name: '大韩民国' },
@@ -222,7 +222,7 @@ export default async function ZhServicePage({ params }: { params: Promise<{ slug
                   </Link>
                   <div style={{ marginTop: '1.25rem', paddingTop: '1.25rem', borderTop: '1px solid var(--border)' }}>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', marginBottom: '0.5rem' }}>直线电话</p>
-                    <a href="tel:02-363-2251" style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)' }}>02-363-2251</a>
+                    <a href="tel:02-325-8222" style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)' }}>02-325-8222</a>
                     <p style={{ fontSize: '0.75rem', color: 'var(--slate)', marginTop: '0.25rem' }}>周一至周五 09:30–17:30 (韩国时间)</p>
                     <p style={{ fontSize: '0.75rem', color: 'var(--slate)', marginTop: '0.5rem' }}>微信 / WhatsApp / Kakao / LINE: <strong>alexkorea</strong></p>
                   </div>

@@ -73,7 +73,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 해외 건강기능식품을 직접 들여와 팔려면요?</p><p class="faq-a">A. 판매업 신고만으로는 부족합니다. 지방식품의약품안전청에 수입식품등 수입·판매업 영업등록을 하고, 품목마다 수입신고와 검사를 거쳐야 국내에서 팔 수 있습니다.<!-- 근거: 1차 필러(focus-pillars health-food) 표기 — 수입식품안전관리 특별법 --></p></div>
 </div>
 
-<div class="cta-block"><h3>판매 방식만 알려 주셔도 업종이 정해집니다</h3><p>어떤 제품을 어디서 들여와 어떻게 팔지 알려 주시면 유선행정사사무소가 맞는 신고 업종과 준비 서류를 정리해 드립니다. 진행 범위는 <a href="/services/health-food">건강기능식품 판매업 신고 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>판매 방식만 알려 주셔도 업종이 정해집니다</h3><p>어떤 제품을 어디서 들여와 어떻게 팔지 알려 주시면 유선행정사사무소가 맞는 신고 업종과 준비 서류를 정리해 드립니다. 진행 범위는 <a href="/services/health-food">건강기능식품 판매업 신고 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 건강기능식품에 관한 법률 제4조~제6조·제13조·제44조, 시행령 제2조, 시행규칙 제5조·제17조·제19조·별표 1, 전자상거래법 제12조 --></p>`,
   },
 
@@ -117,7 +117,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. What if I import products myself?</p><p class="faq-a">A. A sales report is not enough. You need an imported food import and sales business registration with the regional MFDS office, then an import declaration and inspection for each product.</p></div>
 </div>
 
-<div class="cta-block"><h3>Tell us how you sell, and the type follows</h3><p>Share what you sell, where it comes from and how you sell it, and YouSun Administrative Agency will confirm the report type and documents. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Tell us how you sell, and the type follows</h3><p>Share what you sell, where it comes from and how you sell it, and YouSun Administrative Agency will confirm the report type and documents. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -161,7 +161,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 自己从国外进口来卖呢？</p><p class="faq-a">A. 只办销售业申报不够。须向地方食品医药品安全厅办理进口食品等进口·销售业营业登记，并按品目办理进口申报和检验后才能在韩国销售。</p></div>
 </div>
 
-<div class="cta-block"><h3>告诉我们销售方式，就能确定业态</h3><p>说明销售什么产品、从哪里进货、怎样销售，YouSun Administrative Agency为你整理适合的申报业态和所需材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>告诉我们销售方式，就能确定业态</h3><p>说明销售什么产品、从哪里进货、怎样销售，YouSun Administrative Agency为你整理适合的申报业态和所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -205,7 +205,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 海外の製品を自分で輸入して売る場合は？</p><p class="faq-a">A. 販売業の申告だけでは足りません。地方食品医薬品安全庁で輸入食品等輸入・販売業の営業登録をし、品目ごとに輸入申告と検査を経てから販売します。</p></div>
 </div>
 
-<div class="cta-block"><h3>販売方法を教えていただければ業種が決まります</h3><p>どの製品をどこから仕入れ、どう売るかをお知らせいただければ、YouSun Administrative Agencyが申告の業種と準備書類を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>販売方法を教えていただければ業種が決まります</h3><p>どの製品をどこから仕入れ、どう売るかをお知らせいただければ、YouSun Administrative Agencyが申告の業種と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

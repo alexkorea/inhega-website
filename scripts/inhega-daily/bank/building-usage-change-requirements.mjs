@@ -108,7 +108,7 @@ export default {
 
 <div class="cta-block">
  <h3>허가인지 신고인지부터 확인해 드립니다</h3>
- <p>건축물대장과 도면을 보고 시설군 판정, 준용 기준 검토, 필요 절차를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>건축물대장과 도면을 보고 시설군 판정, 준용 기준 검토, 필요 절차를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">상담 신청하기</a>
 </div>
 
@@ -186,7 +186,7 @@ export default {
 
 <div class="cta-block">
  <h3>We confirm whether it is a permit or a report first</h3>
- <p>We review your building register and drawings, settle the facility group classification and map the procedure. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your building register and drawings, settle the facility group classification and map the procedure. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a consultation</a>
 </div>
 
@@ -266,7 +266,7 @@ export default {
 
 <div class="cta-block">
  <h3>先替您确认是许可还是申报</h3>
- <p>유선행정사사무소会先看建筑物登记簿与图纸，整理设施群判断、准用标准检讨与所需程序。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先看建筑物登记簿与图纸，整理设施群判断、准用标准检讨与所需程序。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请咨询</a>
 </div>
 
@@ -346,7 +346,7 @@ export default {
 
 <div class="cta-block">
  <h3>許可か届出かを先に確認します</h3>
- <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">ご相談を申し込む</a>
 </div>
 

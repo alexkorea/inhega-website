@@ -381,6 +381,6 @@ slug: "small-food-manufacturing-license"
 
 **비전 행정사사무소 (VISION Administrative Office)**
 
-- 전화: **02-363-2251**
+- 전화: **02-325-8222**
 - 이메일: **help@inhega.co.kr**
 - 주소: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)

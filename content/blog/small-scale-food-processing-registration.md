@@ -139,7 +139,7 @@ slug: "small-scale-food-processing-registration"
 
 ---
 
-**지금 무료 상담 신청하기 → 02-363-2251 / 카카오톡: alexkorea**
+**지금 무료 상담 신청하기 → 02-325-8222 / 카카오톡: alexkorea**
 
 정확한 비용과 절차는 사례별로 차이가 크므로 상담을 통해 확인하세요.
 
@@ -259,7 +259,7 @@ HACCP은 품목과 매출 규모에 따라 의무·자율로 갈립니다.
 
 **비전 행정사사무소 (VISION Administrative Office)**
 
-- 전화: 02-363-2251
+- 전화: 02-325-8222
 - 이메일: help@inhega.co.kr
 - 주소: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)
 - 카카오톡: alexkorea

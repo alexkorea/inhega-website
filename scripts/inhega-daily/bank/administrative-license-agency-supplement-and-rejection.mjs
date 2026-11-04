@@ -120,7 +120,7 @@ export default {
 
 <div class="cta-block">
  <h3>보완요구서나 거부 통지를 받으셨다면</h3>
- <p>요구서와 통지서를 보고 요구 항목별 근거 조문, 보완기한과 연장 요청 가능 여부, 이의신청·행정심판 기한을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>요구서와 통지서를 보고 요구 항목별 근거 조문, 보완기한과 연장 요청 가능 여부, 이의신청·행정심판 기한을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">상담 신청하기</a>
 </div>
 
@@ -204,7 +204,7 @@ export default {
 
 <div class="cta-block">
  <h3>Received a supplement request or a refusal?</h3>
- <p>We map the provision behind each item, the deadline and the objection and appeal time limits. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We map the provision behind each item, the deadline and the objection and appeal time limits. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a consultation</a>
 </div>
 
@@ -287,7 +287,7 @@ export default {
 
 <div class="cta-block">
  <h3>收到补正要求或驳回通知？</h3>
- <p>유선행정사사무소会整理各项要求的依据条款、补正期限以及异议和复议期限。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会整理各项要求的依据条款、补正期限以及异议和复议期限。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请咨询</a>
 </div>
 
@@ -370,7 +370,7 @@ export default {
 
 <div class="cta-block">
  <h3>補正要求書や拒否通知を受け取った方へ</h3>
- <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をYouSun Administrative Agencyが整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">ご相談を申し込む</a>
 </div>
 

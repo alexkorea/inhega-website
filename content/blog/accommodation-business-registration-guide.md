@@ -217,8 +217,8 @@ A. 영업정지 처분을 받으면 해당 기간 동안 영업이 불가합니�
 
 서류 준비, 소방시설 완비증명 연계, 구청 신고 접수까지 전 과정을 지원합니다.
 
-📞 **02-363-2251** (월~금 09:30~17:30)
+📞 **02-325-8222** (월~금 09:30~17:30)
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="tel:02-363-2251" style="background:#A33344; color:#ffffff; padding:14px 32px; border-radius:6px; font-size:1.1rem; text-decoration:none; display:inline-block;">무료 상담 신청 → 02-363-2251</a>
+  <a href="tel:02-325-8222" style="background:#A33344; color:#ffffff; padding:14px 32px; border-radius:6px; font-size:1.1rem; text-decoration:none; display:inline-block;">무료 상담 신청 → 02-325-8222</a>
 </div>

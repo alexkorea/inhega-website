@@ -76,7 +76,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 폐업하면 인증서는 어떻게 하나요?</p><p class="faq-a">A. 폐업한 영업자는 인증서를 한국식품안전관리인증원장에게 지체 없이 반납해야 합니다.<!-- 근거: 고시 제14조 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>HACCP 변경신청, 일정부터 함께 잡겠습니다</h3><p>공장 이전이나 공정 변경을 앞두고 있다면 HACCP 변경신청과 영업 등록 변경을 한 번에 점검해 드립니다. <a href="/services/haccp">HACCP 인증</a> 업무를 맡는 유선행정사사무소, 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">상담 신청하기</a></div>
+<div class="cta-block"><h3>HACCP 변경신청, 일정부터 함께 잡겠습니다</h3><p>공장 이전이나 공정 변경을 앞두고 있다면 HACCP 변경신청과 영업 등록 변경을 한 번에 점검해 드립니다. <a href="/services/haccp">HACCP 인증</a> 업무를 맡는 유선행정사사무소, 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 식품위생법 제39조·제48조·제48조의2, 같은 법 시행령 제26조의3·제34조, 같은 법 시행규칙 제63조·제67조·제68조의2·별표 20·별지 제54호서식, 식품의약품안전처 고시 「식품 및 축산물 안전관리인증기준」 --></p>`,
   },
 
@@ -122,7 +122,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. What do I do with the certificate if I close the business?</p><p class="faq-a">A. A business that closes must return the certificate to the head of the agency without delay.</p></div>
 </div>
 
-<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. YouSun Administrative Agency handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
+<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. YouSun Administrative Agency handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -168,7 +168,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 停业后认证书怎么办？</p><p class="faq-a">A. 停业的经营者须及时将认证书返还给认证院院长。</p></div>
 </div>
 
-<div class="cta-block"><h3>计划迁厂或变更工序？</h3><p>我们可一并检查HACCP变更申请与营业登记变更。유선행정사사무소（代表行政士 정유선）办理<a href="/zh/services/haccp">HACCP认证</a>业务，电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">申请咨询</a></div>
+<div class="cta-block"><h3>计划迁厂或变更工序？</h3><p>我们可一并检查HACCP变更申请与营业登记变更。유선행정사사무소（代表行政士 정유선）办理<a href="/zh/services/haccp">HACCP认证</a>业务，电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -214,7 +214,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 廃業したら認証書はどうすればよいですか。</p><p class="faq-a">A. 廃業した営業者は、認証書を認証院長に遅滞なく返納しなければなりません。</p></div>
 </div>
 
-<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。YouSun Administrative Agencyは<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
+<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。YouSun Administrative Agencyは<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

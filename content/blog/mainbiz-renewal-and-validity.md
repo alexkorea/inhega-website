@@ -87,7 +87,7 @@ slug: "mainbiz-renewal-and-validity"
 
 <div class="cta-block">
  <h3>메인비즈 만료일이 다가오거나 회사 정보가 바뀌었다면</h3>
- <p>확인서와 재무·혁신 활동 자료를 보고 연장 신청 시점, 진단평가 준비 항목, 재발급·승계 요건을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>확인서와 재무·혁신 활동 자료를 보고 연장 신청 시점, 진단평가 준비 항목, 재발급·승계 요건을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">무료 상담 신청하기</a>
 </div>
 

@@ -70,7 +70,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 소상공인으로 간이 신고를 했는데 회사가 커지면요?</p><p class="faq-a">A. 소상공인이나 1인 창조기업에 해당하지 않게 되면 그날부터 1개월 이내에 일반 신고에 필요한 사항을 보완해 다시 신고해야 합니다.<!-- 근거: 위치정보법 제9조의2 제4항, 시행령 제10조 제3항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>앱 기능표 하나로 신고 대상 여부를 확인하세요</h3><p>화면별로 위치를 쓰는 기능을 알려 주시면 유선행정사사무소가 신고 대상 여부와 준비할 서류를 정리해 드립니다. 진행 범위는 <a href="/services/location-based-service">위치기반서비스사업 신고 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>앱 기능표 하나로 신고 대상 여부를 확인하세요</h3><p>화면별로 위치를 쓰는 기능을 알려 주시면 유선행정사사무소가 신고 대상 여부와 준비할 서류를 정리해 드립니다. 진행 범위는 <a href="/services/location-based-service">위치기반서비스사업 신고 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 위치정보법 제2조·제9조·제9조의2·제16조·제19조·제40조, 시행령 제9조·제10조 --></p>`,
   },
 
@@ -111,7 +111,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. I filed as a small business. What if we grow?</p><p class="faq-a">A. Once you no longer qualify, you must file the full report items within 1 month.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check your app with one feature list</h3><p>Send us the screens that use location, and YouSun Administrative Agency will confirm whether you must report and what to prepare. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Check your app with one feature list</h3><p>Send us the screens that use location, and YouSun Administrative Agency will confirm whether you must report and what to prepare. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -152,7 +152,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 以小商户身份简易申报后，公司规模变大怎么办？</p><p class="faq-a">A. 不再属于小商户或一人创业企业时，须自该日起1个月内补齐一般申报事项重新申报。</p></div>
 </div>
 
-<div class="cta-block"><h3>用一张功能表确认是否须申报</h3><p>告诉我们哪些画面使用位置，YouSun Administrative Agency为你确认是否须申报以及要准备的材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>用一张功能表确认是否须申报</h3><p>告诉我们哪些画面使用位置，YouSun Administrative Agency为你确认是否须申报以及要准备的材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -193,7 +193,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 小規模事業者として簡易申告した後、会社が大きくなったら？</p><p class="faq-a">A. 小規模事業者や一人創造企業に当たらなくなったら、その日から1か月以内に一般申告に必要な事項を補って申告し直します。</p></div>
 </div>
 
-<div class="cta-block"><h3>機能一覧ひとつで申告の要否を確認</h3><p>位置を使う画面を教えていただければ、YouSun Administrative Agencyが申告の要否と準備書類を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>機能一覧ひとつで申告の要否を確認</h3><p>位置を使う画面を教えていただければ、YouSun Administrative Agencyが申告の要否と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

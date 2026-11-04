@@ -98,7 +98,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 상속인이 결격사유에 해당하면 사업을 잃게 되나요?</p><p class="faq-a">A. 상속일부터 3개월 이내에 사업을 다른 사람에게 양도하면 결격사유를 이유로 한 등록취소를 피할 수 있습니다.<!-- 근거: 물류정책기본법 제47조 제1항 제4호 단서 --></p></div>
 </div>
 
-<div class="cta-block"><h3>국제물류주선업 양도·양수 신고 상담</h3><p>승계일 설정, 결격사유 확인, 변경등록까지 한 번에 점검하려면 유선행정사사무소에 문의해 주십시오. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>국제물류주선업 양도·양수 신고 상담</h3><p>승계일 설정, 결격사유 확인, 변경등록까지 한 번에 점검하려면 유선행정사사무소에 문의해 주십시오. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 물류정책기본법, 물류정책기본법 시행령, 물류정책기본법 시행규칙 --></p>`,
   },
 
@@ -158,7 +158,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. Will a disqualified heir lose the business?</p><p class="faq-a">A. If the heir transfers the business to another person within 3 months of the inheritance, cancellation on that ground can be avoided.</p></div>
 </div>
 
-<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -218,7 +218,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 继承人属于欠格事由，会失去事业吗？</p><p class="faq-a">A. 自继承之日起3个月内将事业转让给他人的，可避免因该事由被撤销登记。</p></div>
 </div>
 
-<div class="cta-block"><h3>国际货运代理业转让受让申报咨询</h3><p>如需一次性检查承继日设定、欠格事由和变更登记，请联系유선행정사사무소。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>国际货运代理业转让受让申报咨询</h3><p>如需一次性检查承继日设定、欠格事由和变更登记，请联系유선행정사사무소。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -278,7 +278,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 相続人が欠格事由に当たると、事業を失いますか。</p><p class="faq-a">A. 相続日から3か月以内に事業を他人に譲渡すれば、その事由による登録取消しを避けられます。</p></div>
 </div>
 
-<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、YouSun Administrative Agencyへお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、YouSun Administrative Agencyへお問い合わせください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

@@ -141,7 +141,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
     provider: {
       '@type': 'ProfessionalService',
       name: ui.brand,
-      telephone: '02-363-2251',
+      telephone: '02-325-8222',
       url: `${BASE}${prefix(lang)}`,
     },
     areaServed: { '@type': 'Country', name: ui.country },
@@ -346,7 +346,7 @@ function SidebarCta({ lang }: { lang: IndustryLocale }) {
       <Link href={`/${lang}/contact`} className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>{t.btn}</Link>
       <div style={{ marginTop: '1.25rem', paddingTop: '1.25rem', borderTop: '1px solid var(--border)' }}>
         <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', marginBottom: '0.5rem' }}>{t.line}</p>
-        <a href="tel:02-363-2251" style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)' }}>02-363-2251</a>
+        <a href="tel:02-325-8222" style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)' }}>02-325-8222</a>
         <p style={{ fontSize: '0.75rem', color: 'var(--slate)', marginTop: '0.25rem' }}>{t.hours}</p>
         <p style={{ fontSize: '0.75rem', color: 'var(--slate)', marginTop: '0.5rem' }}>{t.msg}<strong>alexkorea</strong></p>
       </div>

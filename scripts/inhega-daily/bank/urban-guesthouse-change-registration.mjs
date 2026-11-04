@@ -82,7 +82,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 비수기에 몇 주만 쉬어도 통보해야 하나요?</p><p class="faq-a">A. 법은 1개월 이상 휴업하는 경우를 통보 대상으로 정합니다. 영업일수 관련 규정은 <a href="/blog/foreigner-homestay-operating-days">외국인도시민박업 연간 영업일수 제한과 운영 규정</a>을 참고하십시오.<!-- 근거: 관광진흥법 제8조 제8항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>도시민박업 변경등록과 지위승계 신고, 기한 안에 준비하세요</h3><p>상호·대표자 변경, 양수 후 지위승계 신고, 휴업·폐업 통보까지 유선행정사사무소가 서류 준비와 제출을 돕습니다. 진행 범위는 <a href="/services/urban-guesthouse">외국인관광 도시민박업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>도시민박업 변경등록과 지위승계 신고, 기한 안에 준비하세요</h3><p>상호·대표자 변경, 양수 후 지위승계 신고, 휴업·폐업 통보까지 유선행정사사무소가 서류 준비와 제출을 돕습니다. 진행 범위는 <a href="/services/urban-guesthouse">외국인관광 도시민박업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 관광진흥법 제3조·제4조·제8조·제35조, 관광진흥법 시행령 제2조·제6조·별표 1·별표 2, 관광진흥법 시행규칙 제2조·제3조·제4조·제16조·제17조 --></p>`,
   },
 
@@ -125,7 +125,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Do I need to notify a break of a few weeks in the off-season?</p><p class="faq-a">A. The Act makes a suspension of 1 month or more subject to notice. For help with any of these filings, see <a href="/en/services/urban-guesthouse">our urban guesthouse registration service</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>YouSun Administrative Agency helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>YouSun Administrative Agency helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -168,7 +168,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 淡季只休息几周也要通报吗？</p><p class="faq-a">A. 法律以停业1个月以上作为通报对象。具体办理可参阅<a href="/zh/services/urban-guesthouse">外国人观光城市民宿业登记服务</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>城市民宿业变更登记与地位继承申报，请在期限内准备</h3><p>유선행정사사무소（代表行政士 정유선）协助准备并提交变更登记、地位继承申报以及停业·歇业通报。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>城市民宿业变更登记与地位继承申报，请在期限内准备</h3><p>유선행정사사무소（代表行政士 정유선）协助准备并提交变更登记、地位继承申报以及停业·歇业通报。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -211,7 +211,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 閑散期に数週間だけ休む場合も通報が必要ですか。</p><p class="faq-a">A. 法は1か月以上の休業を通報の対象としています。手続の詳細は<a href="/ja/services/urban-guesthouse">外国人観光都市民泊業の登録サービス</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>YouSun Administrative Agencyが、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>YouSun Administrative Agencyが、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

@@ -42,5 +42,5 @@ slug: "haccp-certification-change-application"
 <div class="faq-item"><p class="faq-q">Q. 폐업하면 인증서는 어떻게 하나요?</p><p class="faq-a">A. 폐업한 영업자는 인증서를 한국식품안전관리인증원장에게 지체 없이 반납해야 합니다.<!-- 근거: 고시 제14조 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>HACCP 변경신청, 일정부터 함께 잡겠습니다</h3><p>공장 이전이나 공정 변경을 앞두고 있다면 HACCP 변경신청과 영업 등록 변경을 한 번에 점검해 드립니다. <a href="/services/haccp">HACCP 인증</a> 업무를 맡는 유선행정사사무소, 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">상담 신청하기</a></div>
+<div class="cta-block"><h3>HACCP 변경신청, 일정부터 함께 잡겠습니다</h3><p>공장 이전이나 공정 변경을 앞두고 있다면 HACCP 변경신청과 영업 등록 변경을 한 번에 점검해 드립니다. <a href="/services/haccp">HACCP 인증</a> 업무를 맡는 유선행정사사무소, 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 식품위생법 제39조·제48조·제48조의2, 같은 법 시행령 제26조의3·제34조, 같은 법 시행규칙 제63조·제67조·제68조의2·별표 20·별지 제54호서식, 식품의약품안전처 고시 「식품 및 축산물 안전관리인증기준」 --></p>

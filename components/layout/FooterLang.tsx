@@ -37,7 +37,7 @@ export default function FooterLang({ locale }: { locale: Locale }) {
                 </p>
                 <p>
                   <span>{t.footer.address}</span>
-                  <span><a href="tel:02-363-2251">02-363-2251</a></span>
+                  <span><a href="tel:02-325-8222">02-325-8222</a></span>
                   <span><EmailOff><a href="mailto:help@inhega.co.kr">help@inhega.co.kr</a></EmailOff></span>
                 </p>
                 <p>

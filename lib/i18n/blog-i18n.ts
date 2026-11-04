@@ -3720,7 +3720,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Talk to a Licensed Specialist</h3>
- <p>YouSun Administrative Agency guides you from category assessment through business plan drafting and supplementation responses, for both registration and notification routes. Phone +82-2-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>YouSun Administrative Agency guides you from category assessment through business plan drafting and supplementation responses, for both registration and notification routes. Phone +82-2-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">Request a Consultation</a>
 </div>
 
@@ -3839,7 +3839,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>申请专家咨询</h3>
- <p>从类型判断到事业计划书撰写及补正应对，位置信息事业登记与位置基础服务事业申报全流程由YouSun Administrative Agency协助办理。电话 +82-2-363-2251，工作日 09:30~17:30 KST。</p>
+ <p>从类型判断到事业计划书撰写及补正应对，位置信息事业登记与位置基础服务事业申报全流程由YouSun Administrative Agency协助办理。电话 +82-2-325-8222，工作日 09:30~17:30 KST。</p>
  <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">申请咨询</a>
 </div>
 
@@ -3960,7 +3960,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>ご相談を申し込む</h3>
- <p>位置情報事業の登録および位置基盤サービス事業の届出について、類型判断から事業計画書の作成・補完対応まで、YouSun Administrative Agency（日本の行政書士事務所に相当する韓国の行政士事務所）がサポートいたします。電話 +82-2-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>位置情報事業の登録および位置基盤サービス事業の届出について、類型判断から事業計画書の作成・補完対応まで、YouSun Administrative Agency（日本の行政書士事務所に相当する韓国の行政士事務所）がサポートいたします。電話 +82-2-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-information-business-registration">ご相談を申し込む</a>
 </div>
 
@@ -4037,7 +4037,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Start by mapping what you can delegate</h3>
- <p>YouSun Administrative Agency will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>YouSun Administrative Agency will confirm how far a mandate can run for your industry and your case, and which documents you need. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">Request a consultation</a>
 </div>
 
@@ -4114,7 +4114,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>先厘清可以委托的范围</h3>
- <p>YouSun Administrative Agency将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-363-2251，工作日 09:30–17:30 KST。</p>
+ <p>YouSun Administrative Agency将先行确认您所在行业与个案可委托到哪一步、需要哪些文件。电话 02-325-8222，工作日 09:30–17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">申请咨询</a>
 </div>
 
@@ -4192,7 +4192,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>まず委任できる範囲を整理します</h3>
- <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かをYouSun Administrative Agencyが先に確認いたします。電話 02-363-2251、平日 09:30～17:30 KST。</p>
+ <p>業種・事案ごとにどこまで委任できるか、どの書類が必要かをYouSun Administrative Agencyが先に確認いたします。電話 02-325-8222、平日 09:30～17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-scrivener-scope-and-limits">ご相談を申し込む</a>
 </div>
 
@@ -4272,7 +4272,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>We confirm whether it is a permit or a report first</h3>
- <p>We review your building register and drawings, settle the facility group classification and map the procedure. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your building register and drawings, settle the facility group classification and map the procedure. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">Request a consultation</a>
 </div>
 
@@ -4353,7 +4353,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>先替您确认是许可还是申报</h3>
- <p>유선행정사사무소会先看建筑物登记簿与图纸，整理设施群判断、准用标准检讨与所需程序。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先看建筑物登记簿与图纸，整理设施群判断、准用标准检讨与所需程序。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">申请咨询</a>
 </div>
 
@@ -4434,7 +4434,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>許可か届出かを先に確認します</h3>
- <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>建築物台帳と図面を確認し、施設群の判定、準用基準の検討、必要な手続をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">ご相談を申し込む</a>
 </div>
 
@@ -4526,7 +4526,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Received a sanction notice or worried about a deadline?</h3>
- <p>We review your registration and the notice, then map the repetition count, the chance of conversion to a surcharge and the materials for the hearing. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your registration and the notice, then map the repetition count, the chance of conversion to a surcharge and the materials for the hearing. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a consultation</a>
 </div>
 
@@ -4617,7 +4617,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>收到处分通知或担心期限？</h3>
- <p>유선행정사사무소会先查看登记事项和处分通知书，整理违规次数、转换为课征金的可能性以及听证说明资料。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先查看登记事项和处分通知书，整理违规次数、转换为课征金的可能性以及听证说明资料。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请咨询</a>
 </div>
 
@@ -4708,7 +4708,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>処分通知を受けた、または期限が心配な方へ</h3>
- <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">ご相談を申し込む</a>
 </div>
 
@@ -4794,7 +4794,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Received a supplement request or a refusal?</h3>
- <p>We map the provision behind each item, the deadline and the objection and appeal time limits. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We map the provision behind each item, the deadline and the objection and appeal time limits. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">Request a consultation</a>
 </div>
 
@@ -4878,7 +4878,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>收到补正要求或驳回通知？</h3>
- <p>유선행정사사무소会整理各项要求的依据条款、补正期限以及异议和复议期限。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会整理各项要求的依据条款、补正期限以及异议和复议期限。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">申请咨询</a>
 </div>
 
@@ -4962,7 +4962,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>補正要求書や拒否通知を受け取った方へ</h3>
- <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>要求項目ごとの根拠条文、補正期限、異議申請・行政審判の期限をYouSun Administrative Agencyが整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">ご相談を申し込む</a>
 </div>
 
@@ -5047,7 +5047,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Planning a change of representative, name or address?</h3>
- <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a consultation</a>
 </div>
 
@@ -5130,7 +5130,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>即将变更代表人、商号或所在地？</h3>
- <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请咨询</a>
 </div>
 
@@ -5214,7 +5214,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>代表者・商号・所在地の変更を控えている方へ</h3>
- <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">ご相談を申し込む</a>
 </div>
 
@@ -5312,7 +5312,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Want your file checked before you submit?</h3>
- <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We check whether the personnel statement, organisation chart, plans and photos all point to the same facts. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">Request a consultation</a>
 </div>
 
@@ -5408,7 +5408,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>提交前想先核对一遍材料？</h3>
- <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先检查人员现况、组织图、平面图和照片是否指向同一事实。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">申请咨询</a>
 </div>
 
@@ -5504,7 +5504,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>提出前に書類を一度照合したい方へ</h3>
- <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、YouSun Administrative Agencyが先に点検します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>人力現況表、組織図、図面と写真が同じ事実を示しているかを、YouSun Administrative Agencyが先に点検します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">ご相談を申し込む</a>
 </div>
 
@@ -5594,7 +5594,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Is your Mainbiz term ending, or have your company details changed?</h3>
- <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a consultation</a>
 </div>
 
@@ -5680,7 +5680,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Mainbiz即将到期或企业信息有变更？</h3>
- <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请咨询</a>
 </div>
 
@@ -5767,7 +5767,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
- <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">ご相談を申し込む</a>
 </div>
 
@@ -5847,7 +5847,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Not sure what to check before you engage?</h3>
- <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We start by showing you the responsible administrative agent's business report certificate and the scope of delegation, then map the documents your industry needs. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">Request a consultation</a>
 </div>
 
@@ -5926,7 +5926,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>委托前不确定该核实什么？</h3>
- <p>유선행정사사무소会先出示负责行政士的业务申报确认证并说明委托范围，再按行业整理所需文件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先出示负责行政士的业务申报确认证并说明委托范围，再按行业整理所需文件。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">申请咨询</a>
 </div>
 
@@ -6005,7 +6005,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>依頼前に何を確認すべきかお悩みの方へ</h3>
- <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をYouSun Administrative Agencyが整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>担当行政士の業務申告確認証と委任範囲を先にご案内し、業種ごとの必要書類をYouSun Administrative Agencyが整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">ご相談を申し込む</a>
 </div>
 
@@ -6069,7 +6069,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Is the deadline the same if only the address changed due to district reorganization?</p><p class="faq-a">A. No. An address change caused by an administrative district reorganization may be filed within 90 days.</p></div>
 </div>
 
-<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>YouSun Administrative Agency prepares the document check and application with you. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
+<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>YouSun Administrative Agency prepares the document check and application with you. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -6129,7 +6129,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 因行政区划调整仅地址变化，期限相同吗？</p><p class="faq-a">A. 此类所在地变更可在90日内申请。</p></div>
 </div>
 
-<div class="cta-block"><h3>变更登记期限将至或需更换管理人？</h3><p>유선행정사사무소（代表行政士 정유선）协助核对材料并准备申请书。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">申请咨询</a></div>
+<div class="cta-block"><h3>变更登记期限将至或需更换管理人？</h3><p>유선행정사사무소（代表行政士 정유선）协助核对材料并准备申请书。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -6189,7 +6189,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 行政区域の改編で住所だけが変わった場合も期限は同じですか。</p><p class="faq-a">A. 行政区域改編による所在地変更は90日以内に申請すれば足ります。</p></div>
 </div>
 
-<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>YouSun Administrative Agencyが項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
+<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>YouSun Administrative Agencyが項目別の書類確認と申請書の準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── food-manufacturing-online-sales-report (inhega-daily 2026-10-25) ──
@@ -6246,7 +6246,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>Planning to sell food you make online?</h3>
- <p>YouSun Administrative Agency reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
+ <p>YouSun Administrative Agency reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">Request a consultation</a>
 </div>
 
@@ -6305,7 +6305,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>打算在网上销售自制食品？</h3>
- <p>유선행정사사무소会根据您的销售结构和作业场情况，先确认合适的营业类型以及是否需要通信销售业申报，也可以协助办理<a href="/zh/services/mail-order-sales-report">通信销售业申报</a>。电话 02-363-2251，工作日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会根据您的销售结构和作业场情况，先确认合适的营业类型以及是否需要通信销售业申报，也可以协助办理<a href="/zh/services/mail-order-sales-report">通信销售业申报</a>。电话 02-325-8222，工作日 09:30~17:30 KST。</p>
  <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">申请咨询</a>
 </div>
 
@@ -6364,7 +6364,7 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block">
  <h3>手作りの食品をオンラインで売る予定なら</h3>
- <p>YouSun Administrative Agencyが販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
+ <p>YouSun Administrative Agencyが販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-325-8222、平日 09:30~17:30 KST。</p>
  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">相談を申し込む</a>
 </div>
 
@@ -6415,7 +6415,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. What do I do with the certificate if I close the business?</p><p class="faq-a">A. A business that closes must return the certificate to the head of the agency without delay.</p></div>
 </div>
 
-<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. YouSun Administrative Agency handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
+<div class="cta-block"><h3>Planning a relocation or process change?</h3><p>We review your HACCP change application and business registration changes together. YouSun Administrative Agency handles <a href="/en/services/haccp">HACCP certification</a>. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -6462,7 +6462,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 停业后认证书怎么办？</p><p class="faq-a">A. 停业的经营者须及时将认证书返还给认证院院长。</p></div>
 </div>
 
-<div class="cta-block"><h3>计划迁厂或变更工序？</h3><p>我们可一并检查HACCP变更申请与营业登记变更。유선행정사사무소（代表行政士 정유선）办理<a href="/zh/services/haccp">HACCP认证</a>业务，电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">申请咨询</a></div>
+<div class="cta-block"><h3>计划迁厂或变更工序？</h3><p>我们可一并检查HACCP变更申请与营业登记变更。유선행정사사무소（代表行政士 정유선）办理<a href="/zh/services/haccp">HACCP认证</a>业务，电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -6509,7 +6509,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 廃業したら認証書はどうすればよいですか。</p><p class="faq-a">A. 廃業した営業者は、認証書を認証院長に遅滞なく返納しなければなりません。</p></div>
 </div>
 
-<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。YouSun Administrative Agencyは<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
+<div class="cta-block"><h3>工場移転や工程変更をご予定ですか</h3><p>HACCPの変更申請と営業登録の変更をまとめて確認します。YouSun Administrative Agencyは<a href="/ja/services/haccp">HACCP認証</a>業務を取り扱っています。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-change-application">ご相談はこちら</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── location-based-service-change-report (inhega-daily 2026-10-27) ──
@@ -6556,7 +6556,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Do services that do not handle personal location information need a report?</p><p class="faq-a">A. The Act excludes LBS businesses that do not target personal location information from the report requirement, but some duties, such as technical and managerial safeguards, still apply.</p></div>
 <div class="faq-item"><p class="faq-q">Q. We acquired a company. Do we file a new report?</p><p class="faq-a">A. For a business transfer or merger, you file a transfer or merger report rather than a new one, and you succeed to the former operator's status once it is accepted.</p></div>
 </div>
-<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
+<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -6602,7 +6602,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 不处理个人位置信息的服务也需申报吗？</p><p class="faq-a">A. 法律将不以个人位置信息为对象的位置基础服务事业排除在申报对象之外，但技术性·管理性保护措施等部分义务仍然适用。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 收购了公司，需要重新申报吗？</p><p class="faq-a">A. 属于事业受让或法人合并时，办理受让或合并申报而非新申报，受理后承继原经营者的地位。</p></div>
 </div>
-<div class="cta-block"><h3>协助准备变更申报与承继申报材料</h3><p>计划变更商号、所在地、服务器或收购事业，需要确认适用哪种申报时，请联系유선행정사사무소。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">申请咨询</a></div>
+<div class="cta-block"><h3>协助准备变更申报与承继申报材料</h3><p>计划变更商号、所在地、服务器或收购事业，需要确认适用哪种申报时，请联系유선행정사사무소。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -6648,7 +6648,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 個人位置情報を扱わないサービスも申告の対象ですか？</p><p class="faq-a">A. 法律は個人位置情報を対象としない位置基盤サービス事業を申告対象から除いています。ただし技術的・管理的保護措置など一部の義務は引き続き適用されます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 会社を買収した場合、新たに申告が必要ですか？</p><p class="faq-a">A. 事業の譲受や法人の合併であれば、新規の申告ではなく譲受または合併の申告を行い、受理されると従前の事業者の地位を承継します。</p></div>
 </div>
-<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
+<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── international-logistics-business-succession (inhega-daily 2026-10-28) ──
@@ -6710,7 +6710,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Will a disqualified heir lose the business?</p><p class="faq-a">A. If the heir transfers the business to another person within 3 months of the inheritance, cancellation on that ground can be avoided.</p></div>
 </div>
 
-<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">Request a consultation</a></div>
+<div class="cta-block"><h3>Talk to us about a forwarding business transfer</h3><p>To review the succession date, disqualification checks and change registration in one go, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -6771,7 +6771,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 继承人属于欠格事由，会失去事业吗？</p><p class="faq-a">A. 自继承之日起3个月内将事业转让给他人的，可避免因该事由被撤销登记。</p></div>
 </div>
 
-<div class="cta-block"><h3>国际货运代理业转让受让申报咨询</h3><p>如需一次性检查承继日设定、欠格事由和变更登记，请联系유선행정사사무소。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">申请咨询</a></div>
+<div class="cta-block"><h3>国际货运代理业转让受让申报咨询</h3><p>如需一次性检查承继日设定、欠格事由和变更登记，请联系유선행정사사무소。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -6832,7 +6832,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 相続人が欠格事由に当たると、事業を失いますか。</p><p class="faq-a">A. 相続日から3か月以内に事業を他人に譲渡すれば、その事由による登録取消しを避けられます。</p></div>
 </div>
 
-<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、YouSun Administrative Agencyへお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">相談を申し込む</a></div>
+<div class="cta-block"><h3>国際物流周旋業の譲渡・譲受届出のご相談</h3><p>承継日の設定、欠格事由の確認、変更登録までまとめて点検したい場合は、YouSun Administrative Agencyへお問い合わせください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=international-logistics-business-succession">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── nonprofit-dissolution-liquidation-procedure (inhega-daily 2026-10-29) ──
@@ -6884,7 +6884,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. What happens to creditors who do not file in time?</p><p class="faq-a">A. They are excluded from liquidation and can claim only against property not yet handed over after all debts are paid. Known creditors cannot be excluded.</p></div>
 </div>
 
-<div class="cta-block"><h3>Need help with dissolution and liquidation filings?</h3><p>YouSun Administrative Agency prepares and submits ministry filings for <a href="/en/services/nonprofit">nonprofit associations</a>, including dissolution reports, applications for permission to dispose of remaining property, and completion reports. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">Request a consultation</a></div>
+<div class="cta-block"><h3>Need help with dissolution and liquidation filings?</h3><p>YouSun Administrative Agency prepares and submits ministry filings for <a href="/en/services/nonprofit">nonprofit associations</a>, including dissolution reports, applications for permission to dispose of remaining property, and completion reports. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -6935,7 +6935,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 逾期未申报的债权人怎么办？</p><p class="faq-a">A. 将被排除在清算之外，只能在债务全部清偿后，就尚未移交归属权利人的财产请求清偿。已知债权人不得被排除。</p></div>
 </div>
 
-<div class="cta-block"><h3>需要准备社团法人解散·清算文件吗？</h3><p>유선행정사사무소（代表行政士 정유선）为<a href="/zh/services/nonprofit">非营利社团法人</a>撰写并提交解散申报书、剩余财产处分许可申请书、清算终结申报书等主管机关文件。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">申请咨询</a></div>
+<div class="cta-block"><h3>需要准备社团法人解散·清算文件吗？</h3><p>유선행정사사무소（代表行政士 정유선）为<a href="/zh/services/nonprofit">非营利社团法人</a>撰写并提交解散申报书、剩余财产处分许可申请书、清算终结申报书等主管机关文件。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -6986,7 +6986,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 期間内に申し出なかった債権者はどうなりますか？</p><p class="faq-a">A. 清算から除外され、債務を完済した後、帰属権利者にまだ引き渡していない財産に対してのみ弁済を請求できます。知れている債権者は除外できません。</p></div>
 </div>
 
-<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>YouSun Administrative Agency（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
+<div class="cta-block"><h3>社団法人の解散・清算書類の準備が必要ですか？</h3><p>YouSun Administrative Agency（代表行政士 チョン・ユソン）は、<a href="/ja/services/nonprofit">非営利社団法人</a>の解散届出書、残余財産処分許可申請書、清算結了届出書など主務官庁への提出書類の作成と提出をサポートします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── quasi-drug-vs-cosmetics-classification (inhega-daily 2026-10-30) ──
@@ -7045,7 +7045,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Do functional cosmetics need an MFDS permit?</p><p class="faq-a">A. No. They go through a product-by-product safety and efficacy review or report submission, filed by a cosmetics manufacturer, responsible distributor, or a qualifying university or research institute.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. YouSun Administrative Agency reviews your product information and the reports or registrations you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
+<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. YouSun Administrative Agency reviews your product information and the reports or registrations you need. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -7103,7 +7103,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 功能性化妆品也需要食药处许可吗？</p><p class="faq-a">A. 不是许可，而是按品目接受安全性·有效性审查或提交报告书，由化妆品制造业者、责任销售业者或总理令规定的大学·研究所等办理。</p></div>
 </div>
 
-<div class="cta-block"><h3>请同时确认产品分类与许可路径</h3><p>产品属于医药外品还是化妆品，所需设施、人员和材料都不同。유선행정사사무소（代表行政士 정유선）将根据产品信息一并审查分类及所需申报·登记程序。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">申请咨询</a></div>
+<div class="cta-block"><h3>请同时确认产品分类与许可路径</h3><p>产品属于医药外品还是化妆品，所需设施、人员和材料都不同。유선행정사사무소（代表行政士 정유선）将根据产品信息一并审查分类及所需申报·登记程序。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -7161,7 +7161,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 機能性化粧品にも食薬処の許可が必要ですか？</p><p class="faq-a">A. 許可ではなく、品目ごとに安全性・有効性の審査を受けるか報告書を提出する手続きです。化粧品製造業者、責任販売業者、または総理令で定める大学・研究所などが行います。</p></div>
 </div>
 
-<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。YouSun Administrative Agencyが製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
+<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。YouSun Administrative Agencyが製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── urban-guesthouse-change-registration (inhega-daily 2026-10-31) ──
@@ -7206,7 +7206,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Do I need to notify a break of a few weeks in the off-season?</p><p class="faq-a">A. The Act makes a suspension of 1 month or more subject to notice. For help with any of these filings, see <a href="/en/services/urban-guesthouse">our urban guesthouse registration service</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>YouSun Administrative Agency helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">Request a consultation</a></div>
+<div class="cta-block"><h3>File your urban guesthouse changes on time</h3><p>YouSun Administrative Agency helps prepare and submit change registrations, succession reports and suspension or closure notices. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -7250,7 +7250,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 淡季只休息几周也要通报吗？</p><p class="faq-a">A. 法律以停业1个月以上作为通报对象。具体办理可参阅<a href="/zh/services/urban-guesthouse">外国人观光城市民宿业登记服务</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>城市民宿业变更登记与地位继承申报，请在期限内准备</h3><p>유선행정사사무소（代表行政士 정유선）协助准备并提交变更登记、地位继承申报以及停业·歇业通报。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">申请咨询</a></div>
+<div class="cta-block"><h3>城市民宿业变更登记与地位继承申报，请在期限内准备</h3><p>유선행정사사무소（代表行政士 정유선）协助准备并提交变更登记、地位继承申报以及停业·歇业通报。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`
   },
   {
@@ -7294,7 +7294,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 閑散期に数週間だけ休む場合も通報が必要ですか。</p><p class="faq-a">A. 法は1か月以上の休業を通報の対象としています。手続の詳細は<a href="/ja/services/urban-guesthouse">外国人観光都市民泊業の登録サービス</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>YouSun Administrative Agencyが、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">相談を申し込む</a></div>
+<div class="cta-block"><h3>都市民泊業の変更登録・地位承継申告は期限内に</h3><p>YouSun Administrative Agencyが、変更登録、地位承継申告、休業・廃業通報の書類準備と提出をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`
   },
   // ── venture-confirmation-types-comparison (inhega-daily 2026-11-01) ──
@@ -7336,7 +7336,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Which type fits if we have no research institute?</p><p class="faq-a">A. Without eligible investment, consider the innovative growth type. For the R&D type, start with <a href="/en/services/research-lab">research institute recognition</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check which venture confirmation type fits before you apply</h3><p>YouSun Administrative Agency helps with choosing the type, organizing proof documents, preparing the application and objection documents. See <a href="/en/services/venture-cert">our venture confirmation service</a>. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">Request a consultation</a></div>
+<div class="cta-block"><h3>Check which venture confirmation type fits before you apply</h3><p>YouSun Administrative Agency helps with choosing the type, organizing proof documents, preparing the application and objection documents. See <a href="/en/services/venture-cert">our venture confirmation service</a>. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -7377,7 +7377,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 没有研究所适合哪种类型？</p><p class="faq-a">A. 未获得合格投资的，可考虑创新成长型。想申请研发型的，请先了解<a href="/zh/services/research-lab">企业附属研究所认定</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>申请前先确认适合本公司的风险企业确认类型</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助选择类型、整理证明材料、撰写申请书及准备异议申请材料。详情请参阅<a href="/zh/services/venture-cert">风险企业确认服务</a>。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">申请咨询</a></div>
+<div class="cta-block"><h3>申请前先确认适合本公司的风险企业确认类型</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助选择类型、整理证明材料、撰写申请书及准备异议申请材料。详情请参阅<a href="/zh/services/venture-cert">风险企业确认服务</a>。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   },
   {
@@ -7418,7 +7418,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 研究所がない場合はどの類型が合いますか？</p><p class="faq-a">A. 適格投資を受けていなければ革新成長型を検討します。研究開発型を希望する場合は<a href="/ja/services/research-lab">企業附設研究所の認定</a>から確認してください。</p></div>
 </div>
 
-<div class="cta-block"><h3>自社に合うベンチャー企業確認の類型を申請前に確認しましょう</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、類型の選択、要件証明書類の整理、申請書の作成と異議申立て書類の準備をお手伝いします。詳しくは<a href="/ja/services/venture-cert">ベンチャー企業確認サービス</a>をご覧ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">相談を申し込む</a></div>
+<div class="cta-block"><h3>自社に合うベンチャー企業確認の類型を申請前に確認しましょう</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、類型の選択、要件証明書類の整理、申請書の作成と異議申立て書類の準備をお手伝いします。詳しくは<a href="/ja/services/venture-cert">ベンチャー企業確認サービス</a>をご覧ください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   },
   // ── administrative-license-agency-procedure-flow (inhega-daily 2026-11-02) ──
@@ -7458,7 +7458,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Must we resubmit documents for a change application?</p><p class="faq-a">A. For a change or renewal of the original petition, documents already submitted are not requested again without special reason. See <a href="/en/blog/administrative-license-permit-specialist-guide">choosing a permit specialist</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>Prepare your permit filing as one flow, from delegation to decision</h3><p>YouSun Administrative Agency helps fix the scope, prepare applications and documents, file on your behalf, respond to supplements and confirm the decision. The scope of work is explained during consultation. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">Request a consultation</a></div>
+<div class="cta-block"><h3>Prepare your permit filing as one flow, from delegation to decision</h3><p>YouSun Administrative Agency helps fix the scope, prepare applications and documents, file on your behalf, respond to supplements and confirm the decision. The scope of work is explained during consultation. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -7497,7 +7497,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 变更申请时需要重新提交已交过的材料吗？</p><p class="faq-a">A. 原民愿内容变更或更新申请时，若无特殊理由，不会再次要求已提交的材料。选择行政士的标准请参阅<a href="/zh/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>许可申请，从委托到处分通知一次理顺</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助确定委托范围、撰写申请书与必备材料、代理提交、应对补正并确认处分结果。具体办理范围在咨询时说明。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">申请咨询</a></div>
+<div class="cta-block"><h3>许可申请，从委托到处分通知一次理顺</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助确定委托范围、撰写申请书与必备材料、代理提交、应对补正并确认处分结果。具体办理范围在咨询时说明。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   },
   {
@@ -7536,7 +7536,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 変更申請の際、すでに出した書類をまた出す必要がありますか？</p><p class="faq-a">A. もとの民願の内容変更や更新の申請であれば、特別な理由がない限り提出済みの書類を再度求められることはありません。行政士の選び方は<a href="/ja/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方ガイド</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>許認可申請は委任から処分通知まで一つの流れで準備を</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、委任範囲の確定、申請書と必要書類の作成、提出の代理、補正への対応、処分結果の確認までお手伝いします。進め方の範囲はご相談時にご案内します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">相談を申し込む</a></div>
+<div class="cta-block"><h3>許認可申請は委任から処分通知まで一つの流れで準備を</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、委任範囲の確定、申請書と必要書類の作成、提出の代理、補正への対応、処分結果の確認までお手伝いします。進め方の範囲はご相談時にご案内します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-procedure-flow">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   },
   // ── telecom-report-online-mall-app (inhega-daily 2026-11-03) ──
@@ -7579,7 +7579,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. Who processes the report?</p><p class="faq-a">A. It is filed with the Minister of Science and ICT, and the Central Radio Management Service handles value-added reports.</p></div>
 </div>
 
-<div class="cta-block"><h3>Find out whether your service must report</h3><p>Tell us your features and capital, and YouSun Administrative Agency will confirm what applies and which documents you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">Request a consultation</a></div>
+<div class="cta-block"><h3>Find out whether your service must report</h3><p>Tell us your features and capital, and YouSun Administrative Agency will confirm what applies and which documents you need. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
   },
   {
@@ -7621,7 +7621,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 由哪里受理？</p><p class="faq-a">A. 向科学技术信息通信部长官提交，增值电信业务申报由中央电波管理所处理。</p></div>
 </div>
 
-<div class="cta-block"><h3>先确认你的服务是否须申报</h3><p>告诉我们服务功能和资本情况，YouSun Administrative Agency为你整理是否须申报或登记以及所需材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">申请咨询</a></div>
+<div class="cta-block"><h3>先确认你的服务是否须申报</h3><p>告诉我们服务功能和资本情况，YouSun Administrative Agency为你整理是否须申报或登记以及所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   },
   {
@@ -7663,7 +7663,7 @@ const blogData: BlogI18n[] = [
 <div class="faq-item"><p class="faq-q">Q. 受付はどこが行いますか。</p><p class="faq-a">A. 科学技術情報通信部長官に提出し、付加通信事業の申告は中央電波管理所が処理します。</p></div>
 </div>
 
-<div class="cta-block"><h3>まずは申告が必要かを確認しましょう</h3><p>サービスの機能と資本金の状況をお知らせいただければ、YouSun Administrative Agencyが申告・登録の要否と必要書類を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">相談を申し込む</a></div>
+<div class="cta-block"><h3>まずは申告が必要かを確認しましょう</h3><p>サービスの機能と資本金の状況をお知らせいただければ、YouSun Administrative Agencyが申告・登録の要否と必要書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]

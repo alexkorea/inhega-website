@@ -41,5 +41,5 @@ slug: "location-based-service-change-report"
 <div class="faq-item"><p class="faq-q">Q. 개인위치정보를 다루지 않는 서비스도 신고 대상인가요?</p><p class="faq-a">A. 법률은 개인위치정보를 대상으로 하지 않는 위치기반서비스사업을 신고 대상에서 제외합니다. 다만 기술적·관리적 보호조치 등 일부 의무는 그대로 적용됩니다.<!-- 근거: 위치정보법 제9조 제1항 괄호, 제38조의3 --></p></div>
 <div class="faq-item"><p class="faq-q">Q. 회사를 인수했는데 새로 신고해야 하나요?</p><p class="faq-a">A. 사업 양수나 법인 합병이라면 새 신고가 아니라 양수 또는 합병 신고를 하고, 수리되면 종전 사업자의 지위를 승계합니다. 실무 절차는 <a href="/services/location-based-service">위치기반서비스사업 신고 서비스</a>에서 안내합니다.<!-- 근거: 위치정보법 제10조 제1항·제3항 --></p></div>
 </div>
-<div class="cta-block"><h3>변경신고·양수 신고 서류 준비를 도와드립니다</h3><p>상호·소재지·서버 변경이나 사업 인수를 앞두고 어떤 신고가 필요한지 정리가 필요하시면 유선행정사사무소로 문의해 주십시오. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">상담 신청하기</a></div>
+<div class="cta-block"><h3>변경신고·양수 신고 서류 준비를 도와드립니다</h3><p>상호·소재지·서버 변경이나 사업 인수를 앞두고 어떤 신고가 필요한지 정리가 필요하시면 유선행정사사무소로 문의해 주십시오. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 위치정보의 보호 및 이용 등에 관한 법률, 같은 법 시행령 --></p>

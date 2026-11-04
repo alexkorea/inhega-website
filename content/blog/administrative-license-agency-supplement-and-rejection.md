@@ -86,7 +86,7 @@ slug: "administrative-license-agency-supplement-and-rejection"
 
 <div class="cta-block">
  <h3>보완요구서나 거부 통지를 받으셨다면</h3>
- <p>요구서와 통지서를 보고 요구 항목별 근거 조문, 보완기한과 연장 요청 가능 여부, 이의신청·행정심판 기한을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>요구서와 통지서를 보고 요구 항목별 근거 조문, 보완기한과 연장 요청 가능 여부, 이의신청·행정심판 기한을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=administrative-license-agency-supplement-and-rejection">무료 상담 신청하기</a>
 </div>
 

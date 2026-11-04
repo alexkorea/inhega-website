@@ -194,8 +194,8 @@ A. 외국인도 학원 설립이 가능하지만, 외국어 교습 분야의 경
 
 서류 준비부터 교육지원청 제출, 현장 조사 대응까지 전 과정을 지원합니다.
 
-📞 **02-363-2251** (월~금 09:30~17:30)
+📞 **02-325-8222** (월~금 09:30~17:30)
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="tel:02-363-2251" style="background:#A33344; color:#ffffff; padding:14px 32px; border-radius:6px; font-size:1.1rem; text-decoration:none; display:inline-block;">무료 상담 신청 → 02-363-2251</a>
+  <a href="tel:02-325-8222" style="background:#A33344; color:#ffffff; padding:14px 32px; border-radius:6px; font-size:1.1rem; text-decoration:none; display:inline-block;">무료 상담 신청 → 02-325-8222</a>
 </div>

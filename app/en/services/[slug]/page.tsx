@@ -101,7 +101,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
     provider: {
       '@type': 'ProfessionalService',
       name: 'YouSun Administrative Agency',
-      telephone: '02-363-2251',
+      telephone: '02-325-8222',
       url: 'https://inhega.co.kr/en',
     },
     areaServed: { '@type': 'Country', name: 'Republic of Korea' },
@@ -222,7 +222,7 @@ export default async function EnServicePage({ params }: { params: Promise<{ slug
                   </Link>
                   <div style={{ marginTop: '1.25rem', paddingTop: '1.25rem', borderTop: '1px solid var(--border)' }}>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--slate)', marginBottom: '0.5rem' }}>Direct Line</p>
-                    <a href="tel:02-363-2251" style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)' }}>02-363-2251</a>
+                    <a href="tel:02-325-8222" style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', fontWeight: 700, color: 'var(--navy)' }}>02-325-8222</a>
                     <p style={{ fontSize: '0.75rem', color: 'var(--slate)', marginTop: '0.25rem' }}>Mon–Fri 09:30–17:30 KST</p>
                     <p style={{ fontSize: '0.75rem', color: 'var(--slate)', marginTop: '0.5rem' }}>WeChat / WhatsApp / Kakao / LINE: <strong>alexkorea</strong></p>
                   </div>

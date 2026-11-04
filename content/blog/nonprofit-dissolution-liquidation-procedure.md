@@ -47,5 +47,5 @@ slug: "nonprofit-dissolution-liquidation-procedure"
 <div class="faq-item"><p class="faq-q">Q. 기간 안에 신고하지 않은 채권자는 어떻게 되나요?</p><p class="faq-a">A. 청산에서 제외되며, 채무를 모두 갚은 뒤 귀속권리자에게 넘기지 않은 재산에 대해서만 변제를 청구할 수 있습니다. 다만 청산인이 알고 있는 채권자는 제외할 수 없습니다.<!-- 근거: 민법 제89조, 제92조 --></p></div>
 </div>
 
-<div class="cta-block"><h3>사단법인 해산·청산 서류 준비가 필요하신가요?</h3><p>유선행정사사무소는 <a href="/services/nonprofit">비영리사단법인 업무</a>로 해산신고서, 잔여재산 처분허가 신청서, 청산종결 신고서 등 주무관청 제출 서류의 작성과 제출을 돕습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">상담 신청하기</a></div>
+<div class="cta-block"><h3>사단법인 해산·청산 서류 준비가 필요하신가요?</h3><p>유선행정사사무소는 <a href="/services/nonprofit">비영리사단법인 업무</a>로 해산신고서, 잔여재산 처분허가 신청서, 청산종결 신고서 등 주무관청 제출 서류의 작성과 제출을 돕습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-dissolution-liquidation-procedure">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 민법, 법무부 소관 비영리법인의 설립 및 감독에 관한 규칙 --></p>

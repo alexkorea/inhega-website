@@ -71,7 +71,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 임차 기간이 끝나 다른 건물로 옮기거나 면적을 넓히면요?</p><p class="faq-a">A. 승인 대상 외로 등록한 공장은 소재지나 업종이 바뀌면 변경등록 절차를 따르고, 증설해도 공장건축면적이 500제곱미터 미만이면 변경등록으로 처리합니다. 증설로 500제곱미터 이상이 되면 공장설립등의 승인 대상이 됩니다.<!-- 근거: 시행규칙 제12조 제4항 제2호~제4호, 법 제13조 제1항, 제16조 제4항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>계약서에 서명하기 전에 확인하세요</h3><p>임차 예정 건물의 주소와 면적, 업종을 알려 주시면 유선행정사사무소가 공장등록 가능 여부와 필요한 절차를 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>계약서에 서명하기 전에 확인하세요</h3><p>임차 예정 건물의 주소와 면적, 업종을 알려 주시면 유선행정사사무소가 공장등록 가능 여부와 필요한 절차를 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 산업집적활성화 및 공장설립에 관한 법률 제13조·제15조·제16조, 시행규칙 제6조·제10조·제11조·제12조·제12조의3 --></p>`,
   },
 
@@ -112,7 +112,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. What if the lease ends and we move, or we expand?</p><p class="faq-a">A. For a factory registered outside approval, a new address or industry follows the change registration procedure, and an expansion that stays under 500 square metres is a change registration. If it reaches 500 square metres or more, approval is required.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check before you sign the lease</h3><p>Send the address, floor area and industry, and YouSun Administrative Agency will confirm whether registration works and which steps apply. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Check before you sign the lease</h3><p>Send the address, floor area and industry, and YouSun Administrative Agency will confirm whether registration works and which steps apply. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -153,7 +153,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 租期届满搬到别处或扩大面积怎么办？</p><p class="faq-a">A. 作为非批准对象登记的工厂，所在地或业种变更的按变更登记程序办理；扩建后工厂建筑面积仍不足500平方米的，以变更登记处理；扩建后达到500平方米以上的，属于工厂设立批准对象。</p></div>
 </div>
 
-<div class="cta-block"><h3>签租赁合同前先确认</h3><p>告诉我们拟租建筑的地址、面积和业种，YouSun Administrative Agency为你确认能否登记以及所需程序。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>签租赁合同前先确认</h3><p>告诉我们拟租建筑的地址、面积和业种，YouSun Administrative Agency为你确认能否登记以及所需程序。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -194,7 +194,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 賃貸借期間が終わって移転したり、面積を広げたりする場合は？</p><p class="faq-a">A. 承認対象外として登録した工場は、所在地や業種が変われば変更登録の手続に従い、増設後も工場建築面積が500平方メートル未満なら変更登録で処理します。増設で500平方メートル以上になれば工場設立等の承認の対象です。</p></div>
 </div>
 
-<div class="cta-block"><h3>契約書に署名する前に確認を</h3><p>賃借予定の建物の住所、面積、業種をお知らせいただければ、YouSun Administrative Agencyが工場登録の可否と必要な手続を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>契約書に署名する前に確認を</h3><p>賃借予定の建物の住所、面積、業種をお知らせいただければ、YouSun Administrative Agencyが工場登録の可否と必要な手続を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

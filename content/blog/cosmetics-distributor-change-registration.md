@@ -55,5 +55,5 @@ slug: "cosmetics-distributor-change-registration"
 <div class="faq-item"><p class="faq-q">Q. 행정구역 개편으로 주소만 바뀌어도 기한이 같나요?</p><p class="faq-a">A. 행정구역 개편에 따른 소재지 변경은 90일 이내에 신청하면 됩니다.<!-- 근거: 화장품법 시행규칙 제5조 제2항 괄호 --></p></div>
 </div>
 
-<div class="cta-block"><h3>변경등록 기한이 다가오거나 책임판매관리자를 바꿔야 한다면</h3><p>변경 사항별 서류 점검과 신청서 작성을 유선행정사사무소가 함께 준비합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">상담 신청하기</a></div>
+<div class="cta-block"><h3>변경등록 기한이 다가오거나 책임판매관리자를 바꿔야 한다면</h3><p>변경 사항별 서류 점검과 신청서 작성을 유선행정사사무소가 함께 준비합니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 화장품법, 화장품법 시행령, 화장품법 시행규칙 --></p>

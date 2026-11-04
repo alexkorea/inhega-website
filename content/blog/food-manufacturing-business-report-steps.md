@@ -87,7 +87,7 @@ slug: "food-manufacturing-business-report-steps"
 처리 기간은 지자체별로 차이가 있으며, 보완 요청이 들어가면 길어집니다.
 정확한 일정은 입지와 품목에 따라 달라지므로 사전 검토 후 안내드립니다.
 
-지금 무료 상담 신청하기 → 02-363-2251 / 카카오톡: alexkorea
+지금 무료 상담 신청하기 → 02-325-8222 / 카카오톡: alexkorea
 
 <h2 id="section-4">신고에 필요한 서류 목록과 작성 포인트</h2>
 
@@ -190,7 +190,7 @@ slug: "food-manufacturing-business-report-steps"
 <h2 id="section-9">비전 행정사사무소 서비스 안내</h2>
 
 - 사무소: 비전 행정사사무소
-- 전화: 02-363-2251
+- 전화: 02-325-8222
 - 이메일: help@inhega.co.kr
 - 카카오톡: alexkorea
 - 주소: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)

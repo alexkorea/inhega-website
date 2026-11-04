@@ -188,7 +188,7 @@ slug: "financial-advisory-investment-business-registration-guide"
 - ✅ 전문인력 자격 요건 검토
 - ✅ 변경 등록·폐업 신고 처리
 
-📞 **전화**: 02-363-2251
+📞 **전화**: 02-325-8222
 💬 **카카오톡·라인·위챗·왓츠앱**: @VisionAdmin
 🕐 **상담 시간**: 월~금 09:30 – 17:30 (KST)
 

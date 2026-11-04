@@ -114,7 +114,7 @@ export default {
 
 <div class="cta-block">
  <h3>처분 통지를 받았거나 기한이 걱정된다면</h3>
- <p>등록사항과 처분 통지서를 보고 위반 차수, 과징금 전환 가능성, 청문 소명 자료를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>등록사항과 처분 통지서를 보고 위반 차수, 과징금 전환 가능성, 청문 소명 자료를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">상담 신청하기</a>
 </div>
 
@@ -204,7 +204,7 @@ export default {
 
 <div class="cta-block">
  <h3>Received a sanction notice or worried about a deadline?</h3>
- <p>We review your registration and the notice, then map the repetition count, the chance of conversion to a surcharge and the materials for the hearing. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your registration and the notice, then map the repetition count, the chance of conversion to a surcharge and the materials for the hearing. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">Request a consultation</a>
 </div>
 
@@ -294,7 +294,7 @@ export default {
 
 <div class="cta-block">
  <h3>收到处分通知或担心期限？</h3>
- <p>유선행정사사무소会先查看登记事项和处分通知书，整理违规次数、转换为课征金的可能性以及听证说明资料。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先查看登记事项和处分通知书，整理违规次数、转换为课征金的可能性以及听证说明资料。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">申请咨询</a>
 </div>
 
@@ -384,7 +384,7 @@ export default {
 
 <div class="cta-block">
  <h3>処分通知を受けた、または期限が心配な方へ</h3>
- <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>登録事項と処分通知書を確認し、違反次数、課徴金への転換の可能性、聴聞での説明資料をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-violation-penalties">ご相談を申し込む</a>
 </div>
 

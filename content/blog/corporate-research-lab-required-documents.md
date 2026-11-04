@@ -96,7 +96,7 @@ slug: "corporate-research-lab-required-documents"
 
 <div class="cta-block">
  <h3>서류를 내기 전에 한 번 맞춰 보고 싶다면</h3>
- <p>인력 현황표, 조직도, 도면과 사진이 서로 같은 사실을 가리키는지 유선행정사사무소가 먼저 점검해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>인력 현황표, 조직도, 도면과 사진이 서로 같은 사실을 가리키는지 유선행정사사무소가 먼저 점검해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=corporate-research-lab-required-documents">무료 상담 신청하기</a>
 </div>
 

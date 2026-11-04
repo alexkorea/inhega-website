@@ -92,7 +92,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 기능성화장품도 식약처 허가를 받아야 하나요?</p><p class="faq-a">A. 기능성화장품은 허가가 아니라 품목별 안전성·유효성 심사를 받거나 보고서를 제출하는 절차입니다. 화장품제조업자·책임판매업자 또는 총리령으로 정하는 대학·연구소 등이 신청합니다.<!-- 근거: 화장품법 제4조 제1항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>제품 분류와 인허가 경로를 함께 점검하세요</h3><p>분류에 따라 준비할 시설·인력·서류가 달라집니다. 유선행정사사무소가 제품 정보를 바탕으로 분류와 필요한 신고·등록 절차를 함께 검토합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">상담 신청하기</a></div>
+<div class="cta-block"><h3>제품 분류와 인허가 경로를 함께 점검하세요</h3><p>분류에 따라 준비할 시설·인력·서류가 달라집니다. 유선행정사사무소가 제품 정보를 바탕으로 분류와 필요한 신고·등록 절차를 함께 검토합니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 약사법, 의약품 등의 안전에 관한 규칙, 화장품법, 화장품법 시행규칙, 식품의약품안전처 고시 「의약외품 범위 지정」 --></p>`,
   },
 
@@ -149,7 +149,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Do functional cosmetics need an MFDS permit?</p><p class="faq-a">A. No. They go through a product-by-product safety and efficacy review or report submission, filed by a cosmetics manufacturer, responsible distributor, or a qualifying university or research institute.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. YouSun Administrative Agency reviews your product information and the reports or registrations you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
+<div class="cta-block"><h3>Check product classification and licensing route together</h3><p>Facilities, staff and documents differ depending on whether your product is a quasi-drug or a cosmetic. YouSun Administrative Agency reviews your product information and the reports or registrations you need. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -206,7 +206,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 功能性化妆品也需要食药处许可吗？</p><p class="faq-a">A. 不是许可，而是按品目接受安全性·有效性审查或提交报告书，由化妆品制造业者、责任销售业者或总理令规定的大学·研究所等办理。</p></div>
 </div>
 
-<div class="cta-block"><h3>请同时确认产品分类与许可路径</h3><p>产品属于医药外品还是化妆品，所需设施、人员和材料都不同。유선행정사사무소（代表行政士 정유선）将根据产品信息一并审查分类及所需申报·登记程序。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">申请咨询</a></div>
+<div class="cta-block"><h3>请同时确认产品分类与许可路径</h3><p>产品属于医药外品还是化妆品，所需设施、人员和材料都不同。유선행정사사무소（代表行政士 정유선）将根据产品信息一并审查分类及所需申报·登记程序。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -263,7 +263,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 機能性化粧品にも食薬処の許可が必要ですか？</p><p class="faq-a">A. 許可ではなく、品目ごとに安全性・有効性の審査を受けるか報告書を提出する手続きです。化粧品製造業者、責任販売業者、または総理令で定める大学・研究所などが行います。</p></div>
 </div>
 
-<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。YouSun Administrative Agencyが製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
+<div class="cta-block"><h3>製品分類と許認可の経路を一緒に確認しましょう</h3><p>医薬外品か化粧品かによって、準備すべき施設・人員・書類が異なります。YouSun Administrative Agencyが製品情報をもとに分類と必要な申告・登録手続きを検討します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=quasi-drug-vs-cosmetics-classification">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

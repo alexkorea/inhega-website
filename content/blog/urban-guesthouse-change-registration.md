@@ -39,5 +39,5 @@ slug: "urban-guesthouse-change-registration"
 <div class="faq-item"><p class="faq-q">Q. 비수기에 몇 주만 쉬어도 통보해야 하나요?</p><p class="faq-a">A. 법은 1개월 이상 휴업하는 경우를 통보 대상으로 정합니다. 영업일수 관련 규정은 <a href="/blog/foreigner-homestay-operating-days">외국인도시민박업 연간 영업일수 제한과 운영 규정</a>을 참고하십시오.<!-- 근거: 관광진흥법 제8조 제8항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>도시민박업 변경등록과 지위승계 신고, 기한 안에 준비하세요</h3><p>상호·대표자 변경, 양수 후 지위승계 신고, 휴업·폐업 통보까지 유선행정사사무소가 서류 준비와 제출을 돕습니다. 진행 범위는 <a href="/services/urban-guesthouse">외국인관광 도시민박업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">상담 신청하기</a></div>
+<div class="cta-block"><h3>도시민박업 변경등록과 지위승계 신고, 기한 안에 준비하세요</h3><p>상호·대표자 변경, 양수 후 지위승계 신고, 휴업·폐업 통보까지 유선행정사사무소가 서류 준비와 제출을 돕습니다. 진행 범위는 <a href="/services/urban-guesthouse">외국인관광 도시민박업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=urban-guesthouse-change-registration">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 관광진흥법 제3조·제4조·제8조·제35조, 관광진흥법 시행령 제2조·제6조·별표 1·별표 2, 관광진흥법 시행규칙 제2조·제3조·제4조·제16조·제17조 --></p>

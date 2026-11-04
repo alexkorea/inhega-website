@@ -98,7 +98,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 신고 시점에 보증보험이 끝나 있으면 어떻게 하나요?</p><p class="faq-a">A. 보증보험은 면제 사유가 없는 한 등록기준이므로, 신고 전에 다시 가입해 기준을 갖춰야 합니다. 기준 미달은 경고부터 등록취소까지의 처분 대상입니다.<!-- 근거: 시행령 제30조의2, 물류정책기본법 제47조 제1항 제2호, 시행규칙 별표 2 제2호 나목 --></p></div>
 </div>
 
-<div class="cta-block"><h3>국제물류주선업 등록기준 신고 상담</h3><p>신고시점 확인, 자본금·보증보험 점검, 신고서와 첨부서류 준비는 유선행정사사무소에 문의해 주십시오. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>국제물류주선업 등록기준 신고 상담</h3><p>신고시점 확인, 자본금·보증보험 점검, 신고서와 첨부서류 준비는 유선행정사사무소에 문의해 주십시오. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 물류정책기본법, 같은 법 시행령, 같은 법 시행규칙 --></p>`,
   },
   en: {
@@ -149,7 +149,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. What if the guarantee insurance has expired at the reporting point?</p><p class="faq-a">A. Unless an exemption applies, guarantee insurance is a registration standard, so take out a new policy before reporting. Falling short of the standards is subject to the steps from warning to cancellation.</p></div>
 </div>
 
-<div class="cta-block"><h3>Talk to us about your registration standards report</h3><p>To check your reporting point, review capital and guarantee insurance, and prepare the form and attachments, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Talk to us about your registration standards report</h3><p>To check your reporting point, review capital and guarantee insurance, and prepare the form and attachments, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -201,7 +201,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 申报时保证保险已到期怎么办？</p><p class="faq-a">A. 除非有免除事由，保证保险属于登记标准，应在申报前重新投保。不符合标准的，适用从警告到撤销登记的处分。</p></div>
 </div>
 
-<div class="cta-block"><h3>国际货运代理业登记标准申报咨询</h3><p>确认申报时点、检查资本金与保证保险、准备申报书和附件，请联系YouSun Administrative Agency（代表行政士 Jung Yu-sun）。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>国际货运代理业登记标准申报咨询</h3><p>确认申报时点、检查资本金与保证保险、准备申报书和附件，请联系YouSun Administrative Agency（代表行政士 Jung Yu-sun）。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -253,7 +253,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 届出時点で保証保険が切れていたらどうしますか。</p><p class="faq-a">A. 免除事由がない限り保証保険は登録基準なので、届出の前に改めて加入して基準を満たす必要があります。基準を満たさない場合は警告から登録取消までの処分の対象です。</p></div>
 </div>
 
-<div class="cta-block"><h3>国際物流周旋業の登録基準届出のご相談</h3><p>届出時点の確認、資本金・保証保険の点検、届出書と添付書類の準備は、YouSun Administrative Agency（代表行政士 Jung Yu-sun）にお問い合わせください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>国際物流周旋業の登録基準届出のご相談</h3><p>届出時点の確認、資本金・保証保険の点検、届出書と添付書類の準備は、YouSun Administrative Agency（代表行政士 Jung Yu-sun）にお問い合わせください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 

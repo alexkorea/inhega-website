@@ -95,7 +95,7 @@ slug: "license-scrivener-qualification-check"
 
 <div class="cta-block">
  <h3>인허가를 맡기기 전에 확인할 것부터 정리해 드립니다</h3>
- <p>담당 행정사의 신고확인증과 위임 범위를 먼저 안내하고, 업종별로 필요한 서류를 유선행정사사무소가 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>담당 행정사의 신고확인증과 위임 범위를 먼저 안내하고, 업종별로 필요한 서류를 유선행정사사무소가 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=license-scrivener-qualification-check">무료 상담 신청하기</a>
 </div>
 

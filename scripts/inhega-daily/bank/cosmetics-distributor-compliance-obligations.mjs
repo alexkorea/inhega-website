@@ -80,7 +80,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 부작용 신고가 들어오면 어떻게 하나요?</p><p class="faq-a">A. 정보를 검토·기록하고 필요하면 회수·판매정지 등 조치를 하며, 고시에 따라 식약처에 보고합니다. 위해 화장품이면 회수계획을 미리 보고하고 회수합니다.<!-- 근거: 화장품법 시행규칙 제12조 제10호, 별표 2 제4호, 화장품법 제5조의2 제1항·제2항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>화장품책임판매업 사후관리, 일정부터 잡아 두세요</h3><p>실적·원료 목록 보고 일정, 책임판매관리자 교육, 관리자 교체에 따른 변경등록까지 유선행정사사무소가 서류 준비를 돕습니다. 진행 범위는 <a href="/services/cosmetics">화장품 제조업·책임판매업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>화장품책임판매업 사후관리, 일정부터 잡아 두세요</h3><p>실적·원료 목록 보고 일정, 책임판매관리자 교육, 관리자 교체에 따른 변경등록까지 유선행정사사무소가 서류 준비를 돕습니다. 진행 범위는 <a href="/services/cosmetics">화장품 제조업·책임판매업 등록 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 화장품법 제3조·제5조·제24조·제40조, 화장품법 시행령 제2조·제14조, 화장품법 시행규칙 제7조·제8조·제12조·제13조·제14조·별표 1·별표 2·별표 7 --></p>`,
   },
 
@@ -122,7 +122,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. What if a customer reports a side effect?</p><p class="faq-a">A. Review and record it, take steps such as recall if needed, and report it to the Ministry. See <a href="/en/services/cosmetics">our cosmetics registration service</a> for help.</p></div>
 </div>
 
-<div class="cta-block"><h3>Keep your cosmetics compliance calendar on track</h3><p>YouSun Administrative Agency helps prepare annual reports, ingredient list filings and change registrations when the manager changes. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Keep your cosmetics compliance calendar on track</h3><p>YouSun Administrative Agency helps prepare annual reports, ingredient list filings and change registrations when the manager changes. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -164,7 +164,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 收到副作用反映怎么办？</p><p class="faq-a">A. 审查并记录信息，必要时采取召回等措施，并按告示向食药处报告。需要协助请参阅<a href="/zh/services/cosmetics">化妆品登记服务</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>化妆品责任销售业的持续义务，提前安排日程</h3><p>YouSun Administrative Agency协助准备实绩报告、原料目录报告以及更换管理人时的变更登记材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>化妆品责任销售业的持续义务，提前安排日程</h3><p>YouSun Administrative Agency协助准备实绩报告、原料目录报告以及更换管理人时的变更登记材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -206,7 +206,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 副作用の申し出があった場合はどうしますか。</p><p class="faq-a">A. 情報を検討・記録し、必要なら回収などの措置をとり、告示に従い食薬処に報告します。サポートは<a href="/ja/services/cosmetics">化粧品登録サービス</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>化粧品責任販売業の事後管理は日程管理から</h3><p>YouSun Administrative Agencyが、実績報告、原料目録の報告、管理者交代に伴う変更登録の書類準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>化粧品責任販売業の事後管理は日程管理から</h3><p>YouSun Administrative Agencyが、実績報告、原料目録の報告、管理者交代に伴う変更登録の書類準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

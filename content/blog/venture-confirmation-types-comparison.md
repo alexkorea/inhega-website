@@ -36,5 +36,5 @@ slug: "venture-confirmation-types-comparison"
 <div class="faq-item"><p class="faq-q">Q. 연구소가 없으면 어떤 유형이 맞나요?</p><p class="faq-a">A. 적격 투자를 받지 않았다면 혁신성장 유형을 검토합니다. 연구개발 유형을 원한다면 <a href="/services/research-lab">기업부설연구소 설립 안내</a>에서 인정 절차부터 확인하십시오.</p></div>
 </div>
 
-<div class="cta-block"><h3>우리 회사에 맞는 벤처기업 확인 유형, 신청 전에 점검하세요</h3><p>유선행정사사무소가 유형 선택, 요건 증명 서류 정리, 신청서 작성과 이의신청 서류 준비를 돕습니다. 진행 범위는 <a href="/services/venture-cert">벤처기업 확인 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">상담 신청하기</a></div>
+<div class="cta-block"><h3>우리 회사에 맞는 벤처기업 확인 유형, 신청 전에 점검하세요</h3><p>유선행정사사무소가 유형 선택, 요건 증명 서류 정리, 신청서 작성과 이의신청 서류 준비를 돕습니다. 진행 범위는 <a href="/services/venture-cert">벤처기업 확인 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-confirmation-types-comparison">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 벤처기업육성에 관한 특별법 제2조의2·제3조·제25조·제25조의2·제25조의5, 같은 법 시행령 제2조의3·제2조의4·제18조의4·제18조의6, 같은 법 시행규칙 제8조 --></p>

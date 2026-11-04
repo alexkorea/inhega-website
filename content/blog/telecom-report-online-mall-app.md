@@ -37,5 +37,5 @@ slug: "telecom-report-online-mall-app"
 <div class="faq-item"><p class="faq-q">Q. 접수는 어디서 처리하나요?</p><p class="faq-a">A. 과학기술정보통신부장관에게 내며, 부가통신사업 신고의 접수·처리는 중앙전파관리소가 맡습니다.</p></div>
 </div>
 
-<div class="cta-block"><h3>우리 서비스가 신고 대상인지 먼저 판정해 보세요</h3><p>서비스 기능과 자본금 현황을 알려 주시면 유선행정사사무소가 신고·등록 대상 여부와 필요한 서류를 정리해 드립니다. 진행 범위는 <a href="/services/telecom-business">정보통신분야 인허가 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">상담 신청하기</a></div>
+<div class="cta-block"><h3>우리 서비스가 신고 대상인지 먼저 판정해 보세요</h3><p>서비스 기능과 자본금 현황을 알려 주시면 유선행정사사무소가 신고·등록 대상 여부와 필요한 서류를 정리해 드립니다. 진행 범위는 <a href="/services/telecom-business">정보통신분야 인허가 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-online-mall-app">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 전기통신사업법 제2조·제22조·제96조, 시행령 제29조·제30조, 전자상거래 등에서의 소비자보호에 관한 법률 제12조 --></p>

@@ -70,7 +70,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 접수는 어디서 처리하나요?</p><p class="faq-a">A. 과학기술정보통신부장관에게 내며, 부가통신사업 신고의 접수·처리는 중앙전파관리소가 맡습니다.</p></div>
 </div>
 
-<div class="cta-block"><h3>우리 서비스가 신고 대상인지 먼저 판정해 보세요</h3><p>서비스 기능과 자본금 현황을 알려 주시면 유선행정사사무소가 신고·등록 대상 여부와 필요한 서류를 정리해 드립니다. 진행 범위는 <a href="/services/telecom-business">정보통신분야 인허가 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>우리 서비스가 신고 대상인지 먼저 판정해 보세요</h3><p>서비스 기능과 자본금 현황을 알려 주시면 유선행정사사무소가 신고·등록 대상 여부와 필요한 서류를 정리해 드립니다. 진행 범위는 <a href="/services/telecom-business">정보통신분야 인허가 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 전기통신사업법 제2조·제22조·제96조, 시행령 제29조·제30조, 전자상거래 등에서의 소비자보호에 관한 법률 제12조 --></p>`,
   },
 
@@ -111,7 +111,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Who processes the report?</p><p class="faq-a">A. It is filed with the Minister of Science and ICT, and the Central Radio Management Service handles value-added reports.</p></div>
 </div>
 
-<div class="cta-block"><h3>Find out whether your service must report</h3><p>Tell us your features and capital, and YouSun Administrative Agency will confirm what applies and which documents you need. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Find out whether your service must report</h3><p>Tell us your features and capital, and YouSun Administrative Agency will confirm what applies and which documents you need. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -152,7 +152,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 由哪里受理？</p><p class="faq-a">A. 向科学技术信息通信部长官提交，增值电信业务申报由中央电波管理所处理。</p></div>
 </div>
 
-<div class="cta-block"><h3>先确认你的服务是否须申报</h3><p>告诉我们服务功能和资本情况，YouSun Administrative Agency为你整理是否须申报或登记以及所需材料。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>先确认你的服务是否须申报</h3><p>告诉我们服务功能和资本情况，YouSun Administrative Agency为你整理是否须申报或登记以及所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -193,7 +193,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 受付はどこが行いますか。</p><p class="faq-a">A. 科学技術情報通信部長官に提出し、付加通信事業の申告は中央電波管理所が処理します。</p></div>
 </div>
 
-<div class="cta-block"><h3>まずは申告が必要かを確認しましょう</h3><p>サービスの機能と資本金の状況をお知らせいただければ、YouSun Administrative Agencyが申告・登録の要否と必要書類を整理します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>まずは申告が必要かを確認しましょう</h3><p>サービスの機能と資本金の状況をお知らせいただければ、YouSun Administrative Agencyが申告・登録の要否と必要書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

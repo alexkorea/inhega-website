@@ -363,7 +363,7 @@ A. 외국인이 대표자여도 등록 자체는 가능하지만, **체류자격
   <h3 style="color:#1e40af;margin-top:0">무료 상담 신청하기
   <p><strong>비전 행정사사무소</strong></p>
   <ul style="list-style:none;padding-left:0">
-    <li>📞 전화: <strong>02-363-2251</strong></li>
+    <li>📞 전화: <strong>02-325-8222</strong></li>
     <li>✉️ 이메일: <strong>help@inhega.co.kr</strong></li>
     <li>📍 주소: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
   </ul>

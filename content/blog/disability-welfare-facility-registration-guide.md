@@ -196,7 +196,7 @@ slug: "disability-welfare-facility-registration-guide"
 - ✅ 활동지원기관 지정 지원
 - ✅ 변경 신고·폐업 신고 처리
 
-📞 **전화**: 02-363-2251
+📞 **전화**: 02-325-8222
 💬 **카카오톡·라인·위챗·왓츠앱**: @VisionAdmin
 🕐 **상담 시간**: 월~금 09:30 – 17:30 (KST)
 

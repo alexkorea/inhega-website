@@ -79,7 +79,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 개인위치정보를 다루지 않는 서비스도 신고 대상인가요?</p><p class="faq-a">A. 법률은 개인위치정보를 대상으로 하지 않는 위치기반서비스사업을 신고 대상에서 제외합니다. 다만 기술적·관리적 보호조치 등 일부 의무는 그대로 적용됩니다.<!-- 근거: 위치정보법 제9조 제1항 괄호, 제38조의3 --></p></div>
 <div class="faq-item"><p class="faq-q">Q. 회사를 인수했는데 새로 신고해야 하나요?</p><p class="faq-a">A. 사업 양수나 법인 합병이라면 새 신고가 아니라 양수 또는 합병 신고를 하고, 수리되면 종전 사업자의 지위를 승계합니다. 실무 절차는 <a href="/services/location-based-service">위치기반서비스사업 신고 서비스</a>에서 안내합니다.<!-- 근거: 위치정보법 제10조 제1항·제3항 --></p></div>
 </div>
-<div class="cta-block"><h3>변경신고·양수 신고 서류 준비를 도와드립니다</h3><p>상호·소재지·서버 변경이나 사업 인수를 앞두고 어떤 신고가 필요한지 정리가 필요하시면 유선행정사사무소로 문의해 주십시오. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">상담 신청하기</a></div>
+<div class="cta-block"><h3>변경신고·양수 신고 서류 준비를 도와드립니다</h3><p>상호·소재지·서버 변경이나 사업 인수를 앞두고 어떤 신고가 필요한지 정리가 필요하시면 유선행정사사무소로 문의해 주십시오. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 위치정보의 보호 및 이용 등에 관한 법률, 같은 법 시행령 --></p>`,
   },
 
@@ -124,7 +124,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. Do services that do not handle personal location information need a report?</p><p class="faq-a">A. The Act excludes LBS businesses that do not target personal location information from the report requirement, but some duties, such as technical and managerial safeguards, still apply.</p></div>
 <div class="faq-item"><p class="faq-q">Q. We acquired a company. Do we file a new report?</p><p class="faq-a">A. For a business transfer or merger, you file a transfer or merger report rather than a new one, and you succeed to the former operator's status once it is accepted.</p></div>
 </div>
-<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact YouSun Administrative Agency. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
+<div class="cta-block"><h3>Help with change and succession reports</h3><p>If you are planning a name, address or server change or an acquisition and need to know which report applies, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -169,7 +169,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 不处理个人位置信息的服务也需申报吗？</p><p class="faq-a">A. 法律将不以个人位置信息为对象的位置基础服务事业排除在申报对象之外，但技术性·管理性保护措施等部分义务仍然适用。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 收购了公司，需要重新申报吗？</p><p class="faq-a">A. 属于事业受让或法人合并时，办理受让或合并申报而非新申报，受理后承继原经营者的地位。</p></div>
 </div>
-<div class="cta-block"><h3>协助准备变更申报与承继申报材料</h3><p>计划变更商号、所在地、服务器或收购事业，需要确认适用哪种申报时，请联系유선행정사사무소。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">申请咨询</a></div>
+<div class="cta-block"><h3>协助准备变更申报与承继申报材料</h3><p>计划变更商号、所在地、服务器或收购事业，需要确认适用哪种申报时，请联系유선행정사사무소。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -214,7 +214,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 個人位置情報を扱わないサービスも申告の対象ですか？</p><p class="faq-a">A. 法律は個人位置情報を対象としない位置基盤サービス事業を申告対象から除いています。ただし技術的・管理的保護措置など一部の義務は引き続き適用されます。</p></div>
 <div class="faq-item"><p class="faq-q">Q. 会社を買収した場合、新たに申告が必要ですか？</p><p class="faq-a">A. 事業の譲受や法人の合併であれば、新規の申告ではなく譲受または合併の申告を行い、受理されると従前の事業者の地位を承継します。</p></div>
 </div>
-<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
+<div class="cta-block"><h3>変更申告・承継申告の書類準備をお手伝いします</h3><p>商号・所在地・サーバーの変更や事業の買収を控え、どの申告が必要か整理したい場合は、YouSun Administrative Agencyまでご相談ください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-change-report">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

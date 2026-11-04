@@ -88,7 +88,7 @@ slug: "building-usage-change-requirements"
 
 <div class="cta-block">
  <h3>허가인지 신고인지부터 확인해 드립니다</h3>
- <p>건축물대장과 도면을 보고 시설군 판정, 준용 기준 검토, 필요 절차를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>건축물대장과 도면을 보고 시설군 판정, 준용 기준 검토, 필요 절차를 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=building-usage-change-requirements">무료 상담 신청하기</a>
 </div>
 

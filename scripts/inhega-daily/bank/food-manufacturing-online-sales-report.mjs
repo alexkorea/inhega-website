@@ -87,7 +87,7 @@ const entry = {
 
 <div class="cta-block">
  <h3>만든 식품을 온라인으로 팔 계획이라면</h3>
- <p>판매 구조와 작업장 상황을 보고 맞는 영업 형태와 통신판매업 신고 대상 여부를 유선행정사사무소가 먼저 확인해 드립니다. 통신판매업 신고는 <a href="/services/mail-order-sales-report">통신판매업 신고 서비스</a>에서 함께 진행할 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>판매 구조와 작업장 상황을 보고 맞는 영업 형태와 통신판매업 신고 대상 여부를 유선행정사사무소가 먼저 확인해 드립니다. 통신판매업 신고는 <a href="/services/mail-order-sales-report">통신판매업 신고 서비스</a>에서 함께 진행할 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">상담 신청하기</a>
 </div>
 
@@ -144,7 +144,7 @@ const entry = {
 
 <div class="cta-block">
  <h3>Planning to sell food you make online?</h3>
- <p>YouSun Administrative Agency reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-363-2251, weekdays 09:30~17:30 KST.</p>
+ <p>YouSun Administrative Agency reviews your sales structure and workshop and confirms the right business type and whether you need the mail-order report. We can also handle the <a href="/en/services/mail-order-sales-report">mail-order business report</a>. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p>
  <a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">Request a consultation</a>
 </div>
 
@@ -201,7 +201,7 @@ const entry = {
 
 <div class="cta-block">
  <h3>打算在网上销售自制食品？</h3>
- <p>유선행정사사무소会根据您的销售结构和作业场情况，先确认合适的营业类型以及是否需要通信销售业申报，也可以协助办理<a href="/zh/services/mail-order-sales-report">通信销售业申报</a>。电话 02-363-2251，工作日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会根据您的销售结构和作业场情况，先确认合适的营业类型以及是否需要通信销售业申报，也可以协助办理<a href="/zh/services/mail-order-sales-report">通信销售业申报</a>。电话 02-325-8222，工作日 09:30~17:30 KST。</p>
  <a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">申请咨询</a>
 </div>
 
@@ -258,7 +258,7 @@ const entry = {
 
 <div class="cta-block">
  <h3>手作りの食品をオンラインで売る予定なら</h3>
- <p>YouSun Administrative Agencyが販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-363-2251、平日 09:30~17:30 KST。</p>
+ <p>YouSun Administrative Agencyが販売の形と作業場の状況を確認し、適切な営業形態と通信販売業申告の要否をまずご案内します。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせてお手伝いできます。電話 02-325-8222、平日 09:30~17:30 KST。</p>
  <a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-online-sales-report">相談を申し込む</a>
 </div>
 

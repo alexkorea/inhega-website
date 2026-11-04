@@ -76,7 +76,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 연구소가 없으면 어떤 유형이 맞나요?</p><p class="faq-a">A. 적격 투자를 받지 않았다면 혁신성장 유형을 검토합니다. 연구개발 유형을 원한다면 <a href="/services/research-lab">기업부설연구소 설립 안내</a>에서 인정 절차부터 확인하십시오.</p></div>
 </div>
 
-<div class="cta-block"><h3>우리 회사에 맞는 벤처기업 확인 유형, 신청 전에 점검하세요</h3><p>유선행정사사무소가 유형 선택, 요건 증명 서류 정리, 신청서 작성과 이의신청 서류 준비를 돕습니다. 진행 범위는 <a href="/services/venture-cert">벤처기업 확인 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>우리 회사에 맞는 벤처기업 확인 유형, 신청 전에 점검하세요</h3><p>유선행정사사무소가 유형 선택, 요건 증명 서류 정리, 신청서 작성과 이의신청 서류 준비를 돕습니다. 진행 범위는 <a href="/services/venture-cert">벤처기업 확인 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 벤처기업육성에 관한 특별법 제2조의2·제3조·제25조·제25조의2·제25조의5, 같은 법 시행령 제2조의3·제2조의4·제18조의4·제18조의6, 같은 법 시행규칙 제8조 --></p>`,
   },
 
@@ -116,7 +116,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Which type fits if we have no research institute?</p><p class="faq-a">A. Without eligible investment, consider the innovative growth type. For the R&D type, start with <a href="/en/services/research-lab">research institute recognition</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check which venture confirmation type fits before you apply</h3><p>YouSun Administrative Agency helps with choosing the type, organizing proof documents, preparing the application and objection documents. See <a href="/en/services/venture-cert">our venture confirmation service</a>. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Check which venture confirmation type fits before you apply</h3><p>YouSun Administrative Agency helps with choosing the type, organizing proof documents, preparing the application and objection documents. See <a href="/en/services/venture-cert">our venture confirmation service</a>. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -156,7 +156,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 没有研究所适合哪种类型？</p><p class="faq-a">A. 未获得合格投资的，可考虑创新成长型。想申请研发型的，请先了解<a href="/zh/services/research-lab">企业附属研究所认定</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>申请前先确认适合本公司的风险企业确认类型</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助选择类型、整理证明材料、撰写申请书及准备异议申请材料。详情请参阅<a href="/zh/services/venture-cert">风险企业确认服务</a>。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>申请前先确认适合本公司的风险企业确认类型</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助选择类型、整理证明材料、撰写申请书及准备异议申请材料。详情请参阅<a href="/zh/services/venture-cert">风险企业确认服务</a>。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -196,7 +196,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 研究所がない場合はどの類型が合いますか？</p><p class="faq-a">A. 適格投資を受けていなければ革新成長型を検討します。研究開発型を希望する場合は<a href="/ja/services/research-lab">企業附設研究所の認定</a>から確認してください。</p></div>
 </div>
 
-<div class="cta-block"><h3>自社に合うベンチャー企業確認の類型を申請前に確認しましょう</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、類型の選択、要件証明書類の整理、申請書の作成と異議申立て書類の準備をお手伝いします。詳しくは<a href="/ja/services/venture-cert">ベンチャー企業確認サービス</a>をご覧ください。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>自社に合うベンチャー企業確認の類型を申請前に確認しましょう</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、類型の選択、要件証明書類の整理、申請書の作成と異議申立て書類の準備をお手伝いします。詳しくは<a href="/ja/services/venture-cert">ベンチャー企業確認サービス</a>をご覧ください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

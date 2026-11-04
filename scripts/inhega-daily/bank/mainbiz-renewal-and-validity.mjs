@@ -118,7 +118,7 @@ export default {
 
 <div class="cta-block">
  <h3>메인비즈 만료일이 다가오거나 회사 정보가 바뀌었다면</h3>
- <p>확인서와 재무·혁신 활동 자료를 보고 연장 신청 시점, 진단평가 준비 항목, 재발급·승계 요건을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>확인서와 재무·혁신 활동 자료를 보고 연장 신청 시점, 진단평가 준비 항목, 재발급·승계 요건을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">상담 신청하기</a>
 </div>
 
@@ -206,7 +206,7 @@ export default {
 
 <div class="cta-block">
  <h3>Is your Mainbiz term ending, or have your company details changed?</h3>
- <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your certificate and records and map the timing, diagnosis items and reissuance or succession conditions. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">Request a consultation</a>
 </div>
 
@@ -291,7 +291,7 @@ export default {
 
 <div class="cta-block">
  <h3>Mainbiz即将到期或企业信息有变更？</h3>
- <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会先查看确认书与相关资料，整理申请时间、诊断评价准备事项以及补发、承继条件。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">申请咨询</a>
 </div>
 
@@ -377,7 +377,7 @@ export default {
 
 <div class="cta-block">
  <h3>メインビズの満了日が近い、または会社情報が変わった方へ</h3>
- <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>確認書と関連資料を確認し、延長申請の時期、診断評価の準備項目、再発給・承継の要件をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=mainbiz-renewal-and-validity">ご相談を申し込む</a>
 </div>
 

@@ -75,7 +75,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 이미 낸 서류를 변경 신청 때 또 내야 하나요?</p><p class="faq-a">A. 원래 민원의 내용 변경이나 갱신 신청이면 특별한 사유가 없는 한 이미 낸 서류를 다시 요구하지 않습니다. 행정사 선택 기준은 <a href="/blog/administrative-license-permit-specialist-guide">인허가 행정사 선택 가이드</a>를 참고하십시오.<!-- 근거: 민원 처리에 관한 법률 제10조 제7항 --></p></div>
 </div>
 
-<div class="cta-block"><h3>인허가 신청, 위임부터 처분 통지까지 한 흐름으로 준비하세요</h3><p>유선행정사사무소가 위임 범위 확정, 신청서와 구비서류 작성, 제출 대리, 보완 대응과 처분 결과 확인까지 돕습니다. 진행 범위는 상담에서 안내합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>인허가 신청, 위임부터 처분 통지까지 한 흐름으로 준비하세요</h3><p>유선행정사사무소가 위임 범위 확정, 신청서와 구비서류 작성, 제출 대리, 보완 대응과 처분 결과 확인까지 돕습니다. 진행 범위는 상담에서 안내합니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 행정사법 제2조·제21조·제22조·제23조·제24조, 같은 법 시행령 제22조, 민원 처리에 관한 법률 제8조·제9조·제10조·제17조·제22조·제27조·제30조, 같은 법 시행령 제5조·제6조·제18조·제21조·제23조·제25조·제33조·제34조 --></p>`,
   },
 
@@ -113,7 +113,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Must we resubmit documents for a change application?</p><p class="faq-a">A. For a change or renewal of the original petition, documents already submitted are not requested again without special reason. See <a href="/en/blog/administrative-license-permit-specialist-guide">choosing a permit specialist</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>Prepare your permit filing as one flow, from delegation to decision</h3><p>YouSun Administrative Agency helps fix the scope, prepare applications and documents, file on your behalf, respond to supplements and confirm the decision. The scope of work is explained during consultation. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Prepare your permit filing as one flow, from delegation to decision</h3><p>YouSun Administrative Agency helps fix the scope, prepare applications and documents, file on your behalf, respond to supplements and confirm the decision. The scope of work is explained during consultation. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -151,7 +151,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 变更申请时需要重新提交已交过的材料吗？</p><p class="faq-a">A. 原民愿内容变更或更新申请时，若无特殊理由，不会再次要求已提交的材料。选择行政士的标准请参阅<a href="/zh/blog/administrative-license-permit-specialist-guide">许可行政士选择指南</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>许可申请，从委托到处分通知一次理顺</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助确定委托范围、撰写申请书与必备材料、代理提交、应对补正并确认处分结果。具体办理范围在咨询时说明。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>许可申请，从委托到处分通知一次理顺</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助确定委托范围、撰写申请书与必备材料、代理提交、应对补正并确认处分结果。具体办理范围在咨询时说明。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -189,7 +189,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 変更申請の際、すでに出した書類をまた出す必要がありますか？</p><p class="faq-a">A. もとの民願の内容変更や更新の申請であれば、特別な理由がない限り提出済みの書類を再度求められることはありません。行政士の選び方は<a href="/ja/blog/administrative-license-permit-specialist-guide">許認可行政士の選び方ガイド</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>許認可申請は委任から処分通知まで一つの流れで準備を</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、委任範囲の確定、申請書と必要書類の作成、提出の代理、補正への対応、処分結果の確認までお手伝いします。進め方の範囲はご相談時にご案内します。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>許認可申請は委任から処分通知まで一つの流れで準備を</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、委任範囲の確定、申請書と必要書類の作成、提出の代理、補正への対応、処分結果の確認までお手伝いします。進め方の範囲はご相談時にご案内します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 }

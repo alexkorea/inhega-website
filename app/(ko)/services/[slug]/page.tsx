@@ -116,7 +116,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     provider: {
       '@type': 'ProfessionalService',
       name: '유선행정사사무소',
-      telephone: '02-363-2251',
+      telephone: '02-325-8222',
       url: 'https://inhega.co.kr',
     },
     areaServed: { '@type': 'Country', name: '대한민국' },

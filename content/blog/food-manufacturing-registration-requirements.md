@@ -522,7 +522,7 @@ A. 아니요. 등록은 영업장 단위로 한 번 받는 것이고, 신제품�
 <div style="background:#f0f7ff;padding:24px;border-radius:8px;margin:24px 0;border:1px solid #bfdbfe">
   <h3 style="color:#1e40af;margin-top:0">비전 행정사사무소
   <ul style="list-style:none;padding-left:0;line-height:1.8">
-    <li><strong>전화</strong>: 02-363-2251</li>
+    <li><strong>전화</strong>: 02-325-8222</li>
     <li><strong>이메일</strong>: help@inhega.co.kr</li>
     <li><strong>주소</strong>: (04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)</li>
   </ul>

@@ -85,7 +85,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 연구소를 집이나 가건물로 옮겨도 되나요?</p><p class="faq-a">A. 단독주택·공동주택, 허가받지 않은 건물이나 가건물에는 연구소를 둘 수 없고, 위반하면 취소 사유가 됩니다.<!-- 근거: 같은 법 제9조 제2호, 제8조 제1항 제7호 --></p></div>
 </div>
 
-<div class="cta-block"><h3>인정취소 전에 변경신고와 보완부터 점검하세요</h3><p>유선행정사사무소가 변경신고서 작성, 보완명령 대응 서류, 청문 의견서 준비를 돕습니다. 진행 범위는 <a href="/services/research-lab">기업부설연구소 설립 안내</a>에서 확인하실 수 있습니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
+<div class="cta-block"><h3>인정취소 전에 변경신고와 보완부터 점검하세요</h3><p>유선행정사사무소가 변경신고서 작성, 보완명령 대응 서류, 청문 의견서 준비를 돕습니다. 진행 범위는 <a href="/services/research-lab">기업부설연구소 설립 안내</a>에서 확인하실 수 있습니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 기업부설연구소등의 연구개발 지원에 관한 법률 제7조·제8조·제9조·제16조·제21조·제27조·부칙, 같은 법 시행령 제7조·제9조·제13조·제16조, 같은 법 시행규칙 제5조·제6조 --></p>`,
   },
 
@@ -130,7 +130,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. Can the center move to a house or a temporary structure?</p><p class="faq-a">A. No. Houses, multi-unit housing, unpermitted buildings and temporary structures are excluded, and a breach is a ground for cancellation. For help, see <a href="/en/services/research-lab">our corporate R&D center service</a>.</p></div>
 </div>
 
-<div class="cta-block"><h3>Check change reports and corrections before cancellation</h3><p>YouSun Administrative Agency helps prepare change reports, responses to correction orders and opinion statements for hearings. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
+<div class="cta-block"><h3>Check change reports and corrections before cancellation</h3><p>YouSun Administrative Agency helps prepare change reports, responses to correction orders and opinion statements for hearings. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -175,7 +175,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 研究所可以搬到住宅或临时建筑吗？</p><p class="faq-a">A. 不可以。住宅、未经许可的建筑和临时建筑均被排除，违反即构成撤销事由。相关协助请参阅<a href="/zh/services/research-lab">企业附属研究所设立服务</a>。</p></div>
 </div>
 
-<div class="cta-block"><h3>在撤销之前，先检查变更申报与补正</h3><p>YouSun Administrative Agency 协助撰写变更申报书、补正命令应对材料以及听证意见书。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
+<div class="cta-block"><h3>在撤销之前，先检查变更申报与补正</h3><p>YouSun Administrative Agency 协助撰写变更申报书、补正命令应对材料以及听证意见书。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">申请咨询</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 
@@ -220,7 +220,7 @@ const entry = {
 <div class="faq-item"><p class="faq-q">Q. 研究所を自宅や仮設建物に移してもよいですか。</p><p class="faq-a">A. いいえ。住宅、許可を受けていない建物や仮設建物には置けず、違反すれば取消事由になります。ご相談は<a href="/ja/services/research-lab">企業附設研究所設立サービス</a>をご覧ください。</p></div>
 </div>
 
-<div class="cta-block"><h3>取消しの前に変更申告と補完の点検を</h3><p>YouSun Administrative Agency が変更申告書の作成、補完命令への対応書類、聴聞の意見書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
+<div class="cta-block"><h3>取消しの前に変更申告と補完の点検を</h3><p>YouSun Administrative Agency が変更申告書の作成、補完命令への対応書類、聴聞の意見書の準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=${SLUG}">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`,
   },
 

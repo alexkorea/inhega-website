@@ -93,7 +93,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 행정구역 개편으로 주소만 바뀌어도 기한이 같나요?</p><p class="faq-a">A. 행정구역 개편에 따른 소재지 변경은 90일 이내에 신청하면 됩니다.<!-- 근거: 화장품법 시행규칙 제5조 제2항 괄호 --></p></div>
 </div>
 
-<div class="cta-block"><h3>변경등록 기한이 다가오거나 책임판매관리자를 바꿔야 한다면</h3><p>변경 사항별 서류 점검과 신청서 작성을 유선행정사사무소가 함께 준비합니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">상담 신청하기</a></div>
+<div class="cta-block"><h3>변경등록 기한이 다가오거나 책임판매관리자를 바꿔야 한다면</h3><p>변경 사항별 서류 점검과 신청서 작성을 유선행정사사무소가 함께 준비합니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p><a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">상담 신청하기</a></div>
 <p class="author-block">유선행정사사무소 (대표 행정사 정유선)<!-- 근거: 화장품법, 화장품법 시행령, 화장품법 시행규칙 --></p>`,
   },
 
@@ -152,7 +152,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. Is the deadline the same if only the address changed due to district reorganization?</p><p class="faq-a">A. No. An address change caused by an administrative district reorganization may be filed within 90 days.</p></div>
 </div>
 
-<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>YouSun Administrative Agency prepares the document check and application with you. Call 02-363-2251, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
+<div class="cta-block"><h3>Change registration deadline approaching or replacing your manager?</h3><p>YouSun Administrative Agency prepares the document check and application with you. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">Request a consultation</a></div>
 <p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`,
   },
 
@@ -211,7 +211,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 因行政区划调整仅地址变化，期限相同吗？</p><p class="faq-a">A. 此类所在地变更可在90日内申请。</p></div>
 </div>
 
-<div class="cta-block"><h3>变更登记期限将至或需更换管理人？</h3><p>유선행정사사무소（代表行政士 정유선）协助核对材料并准备申请书。电话 02-363-2251，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">申请咨询</a></div>
+<div class="cta-block"><h3>变更登记期限将至或需更换管理人？</h3><p>유선행정사사무소（代表行政士 정유선）协助核对材料并准备申请书。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">申请咨询</a></div>
 <p class="author-block">유선행정사사무소（代表行政士 정유선）</p>`,
   },
 
@@ -270,7 +270,7 @@ export default {
 <div class="faq-item"><p class="faq-q">Q. 行政区域の改編で住所だけが変わった場合も期限は同じですか。</p><p class="faq-a">A. 行政区域改編による所在地変更は90日以内に申請すれば足ります。</p></div>
 </div>
 
-<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>YouSun Administrative Agencyが項目別の書類確認と申請書の準備をお手伝いします。電話 02-363-2251、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
+<div class="cta-block"><h3>変更登録の期限が迫っている、または管理者を交代する場合</h3><p>YouSun Administrative Agencyが項目別の書類確認と申請書の準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-change-registration">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 チョン・ユソン）</p>`,
   },
 }

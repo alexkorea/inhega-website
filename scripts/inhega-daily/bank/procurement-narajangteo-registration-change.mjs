@@ -114,7 +114,7 @@ export default {
 
 <div class="cta-block">
  <h3>대표자·상호·소재지 변경을 앞두고 있다면</h3>
- <p>등기·사업자등록·면허 변경 일정과 진행 중인 입찰 공고를 함께 보고, 나라장터 변경등록 순서와 필요한 증빙을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>등기·사업자등록·면허 변경 일정과 진행 중인 입찰 공고를 함께 보고, 나라장터 변경등록 순서와 필요한 증빙을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">상담 신청하기</a>
 </div>
 
@@ -197,7 +197,7 @@ export default {
 
 <div class="cta-block">
  <h3>Planning a change of representative, name or address?</h3>
- <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-363-2251, weekdays 09:30–17:30 KST.</p>
+ <p>We review your register, business registration and licence timeline against pending tenders, then map the KONEPS change steps and evidence. Call 02-325-8222, weekdays 09:30–17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">Request a consultation</a>
 </div>
 
@@ -279,7 +279,7 @@ export default {
 
 <div class="cta-block">
  <h3>即将变更代表人、商号或所在地？</h3>
- <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-363-2251，平日 09:30~17:30 KST。</p>
+ <p>유선행정사사무소会结合登记、营业登记、执照变更日程与进行中的投标公告，先整理系统变更登记顺序和所需证明。电话 02-325-8222，平日 09:30~17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">申请咨询</a>
 </div>
 
@@ -362,7 +362,7 @@ export default {
 
 <div class="cta-block">
  <h3>代表者・商号・所在地の変更を控えている方へ</h3>
- <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をYouSun Administrative Agencyが先に整理します。電話 02-363-2251、平日 09:30〜17:30 KST。</p>
+ <p>登記・事業者登録・免許の変更日程と進行中の入札公告をあわせて確認し、ナラジャンテの変更登録の順序と証憑をYouSun Administrative Agencyが先に整理します。電話 02-325-8222、平日 09:30〜17:30 KST。</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">ご相談を申し込む</a>
 </div>
 

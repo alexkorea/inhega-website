@@ -80,7 +80,7 @@ slug: "procurement-narajangteo-registration-change"
 
 <div class="cta-block">
  <h3>대표자·상호·소재지 변경을 앞두고 있다면</h3>
- <p>등기·사업자등록·면허 변경 일정과 진행 중인 입찰 공고를 함께 보고, 나라장터 변경등록 순서와 필요한 증빙을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-363-2251, 평일 09:30~17:30 KST.</p>
+ <p>등기·사업자등록·면허 변경 일정과 진행 중인 입찰 공고를 함께 보고, 나라장터 변경등록 순서와 필요한 증빙을 유선행정사사무소가 먼저 정리해 드립니다. 전화 02-325-8222, 평일 09:30~17:30 KST.</p>
  <a href="/contact?utm_source=blog&utm_medium=cta&utm_campaign=procurement-narajangteo-registration-change">무료 상담 신청하기</a>
 </div>
 
