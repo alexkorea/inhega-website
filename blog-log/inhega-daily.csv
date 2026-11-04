@@ -18,3 +18,4 @@ date,topic,angle,slug,locales,gate_checks,gate_pass,ko_title
 2026-11-01,venture-cert,comparison,venture-confirmation-types-comparison,ko|en|zh|ja,66,PASS,"벤처기업 확인 유형 비교 — 벤처투자·연구개발·혁신성장 유형의 요건과 결과 통지 기한"
 2026-11-02,license-agency,procedure,administrative-license-agency-procedure-flow,ko|en|zh|ja,66,PASS,"인허가 대행 절차 — 행정사 위임 범위 확정부터 접수·처리기간 연장·처분 통지까지"
 2026-11-03,telecom,situation,telecom-report-online-mall-app,ko|en|zh|ja,66,PASS,"부가통신사업 신고 대상 — 쇼핑몰·앱을 운영하는데 신고해야 할까"
+2026-11-04,factory,situation,factory-registration-leased-building,ko|en|zh|ja,66,PASS,"임대 공장등록 — 건물을 빌려 공장을 돌리는데 공장등록이 될까"

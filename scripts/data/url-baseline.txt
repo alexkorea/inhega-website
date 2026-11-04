@@ -824,3 +824,7 @@
 /zh/services/cosmetics-manufacturer-registration
 /zh/services/cosmetics-responsible-seller-registration
 /zh/services/cosmetics-safety-assessment
+/blog/factory-registration-leased-building
+/en/blog/factory-registration-leased-building
+/ja/blog/factory-registration-leased-building
+/zh/blog/factory-registration-leased-building

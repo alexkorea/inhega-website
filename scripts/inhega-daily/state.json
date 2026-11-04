@@ -120,6 +120,13 @@
       "topic": "telecom",
       "angle": "situation",
       "slug": "telecom-report-online-mall-app"
+    },
+    {
+      "date": "2026-11-04",
+      "ran_on": "2026-11-04",
+      "topic": "factory",
+      "angle": "situation",
+      "slug": "factory-registration-leased-building"
     }
   ]
 }
