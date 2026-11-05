@@ -828,3 +828,7 @@
 /en/blog/factory-registration-leased-building
 /ja/blog/factory-registration-leased-building
 /zh/blog/factory-registration-leased-building
+/blog/health-functional-food-home-online-sales
+/en/blog/health-functional-food-home-online-sales
+/ja/blog/health-functional-food-home-online-sales
+/zh/blog/health-functional-food-home-online-sales

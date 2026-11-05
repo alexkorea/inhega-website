@@ -10080,6 +10080,22 @@
    "slug": "fr-2026-22213",
    "generated_at": "2026-11-04T01:32:32.370Z",
    "version": "1.4"
+  },
+  "news/egov-c02a948d": {
+   "hash": "1e81aa67d5e4c7dd622b9bad306521935dc64f4d68a1fd2821f6dbd1f1b87b7f",
+   "source": "pexels",
+   "seed": 1161483493,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 10582749,
+   "pexels_author": "Cz Jen",
+   "category": "의료기기",
+   "visa": null,
+   "lang": "ko",
+   "slug": "egov-c02a948d",
+   "generated_at": "2026-11-05T10:01:33.569Z",
+   "version": "1.4"
   }
  }
 }

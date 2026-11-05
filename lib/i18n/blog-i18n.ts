@@ -7792,6 +7792,142 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>契約書に署名する前に確認を</h3><p>賃借予定の建物の住所、面積、業種をお知らせいただければ、YouSun Administrative Agencyが工場登録の可否と必要な手続を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=factory-registration-leased-building">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── health-functional-food-home-online-sales (inhega-daily 2026-11-05) ──
+  {
+    slug: 'health-functional-food-home-online-sales',
+    locale: 'en',
+    title: 'Selling Health Functional Foods Online From Home in Korea — Do You Need a Sales Report?',
+    metaTitle: 'Selling Health Functional Foods Online From Home in Korea',
+    metaDescription: 'Selling health functional foods online from home in Korea still needs a sales business report. When a home office is allowed, training and the 3-day rule.',
+    category: 'Food',
+    excerpt: 'Even online-only sellers of health functional foods in Korea must file a sales business report. If buyers never visit your office, a home can be registered as the business premises. Complete hygiene training first, then report to the local district office. Selling your own brand made by a contract manufacturer is a distribution-specialist sales business.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Pick the report that fits how you sell</li><li>Documents and timelines</li><li>Moving, closing or a pop-up</li><li>How we help</li><li>FAQ</li></ol></div>
+<p><strong>Selling health functional foods only online from home in Korea still requires a health functional food sales business report. For e-commerce or mail-order sales where buyers never visit the office, a residential building may be used as the office, so you can report your home address as the business premises.</strong> The report goes to the city, county or district office where the premises are, after you complete the safety and hygiene training.</p>
+<p>For the general rules see <a href="/en/blog/health-functional-food-sales-registration-guide">our health functional food sales guide</a>.</p>
+
+<h2>Pick the report that fits how you sell</h2>
+<table><thead><tr><th>How you sell</th><th>What you need</th></tr></thead><tbody>
+<tr><td>Buy finished products and sell them only on an online store</td><td>General sales business report. A home office is allowed if buyers do not visit.</td></tr>
+<tr><td>Sell your own brand made by a licensed manufacturer (OEM)</td><td>Distribution-specialist sales report. A home office is allowed for e-commerce, but you need the contract manufacturing agreement and storage.</td></tr>
+<tr><td>Make the products yourself</td><td>A manufacturing licence from the regional MFDS office, not a sales report. The workshop must be a separate building or separated from other uses, so a home rarely works.</td></tr>
+<tr><td>Buyers come to your home to pick up</td><td>The home office rule requires no buyer visits, so consider separate premises.</td></tr>
+</tbody></table>
+<p>The mail-order (online sales) report under the E-Commerce Act is a separate filing; see <a href="/en/services/mail-order-sales-report">our online sales report page</a>. Decide early whether storage will be at home or in a contracted warehouse, so the report stays consistent.</p>
+<ol><li>Decide whether you are a general seller or a distribution specialist.</li><li>Complete the training before opening: 2 hours for general sales, 4 hours for distribution specialists.</li><li>Prepare the report with your home address as the premises.</li><li>File with the local district office and receive the report certificate.</li><li>File the online sales report and start selling.</li></ol>
+
+<h2>Documents and timelines</h2>
+<table><thead><tr><th>Type</th><th>Documents</th><th>Timeline</th></tr></thead><tbody>
+<tr><td>General sales</td><td>Report form, training certificate (not needed if the official can check it)</td><td>Decision notice within 3 days; if none, the report is treated as accepted</td></tr>
+<tr><td>Distribution specialist</td><td>Report form, training certificate, contract manufacturing agreement, storage contract if any</td><td>Same 3-day rule</td></tr>
+<tr><td>After reporting</td><td>Annual training</td><td>2 hours every year per premises</td></tr>
+</tbody></table>
+
+<h2>Moving, closing or a pop-up</h2>
+<p>If your home is the registered premises, file a change report when you move. Changes to the trade name, the representative, a contracted storage address or, for distribution specialists, the contract manufacturer also need a change report. When you stop selling, file a closure report with your certificate within 1 month of closing; it can be filed together with the tax office closure. A general seller who wants to sell briefly elsewhere, such as at an event, files a separate report with a copy of the certificate for up to 1 month.</p>
+
+<h2>How we help</h2>
+<p>YouSun Administrative Agency confirms which sales type fits, checks the report, manufacturing agreement and storage documents, files the report and handles corrections. If you plan to manufacture or import later, see the stages on <a href="/en/services/health-food">our health functional food service page</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do I need to report if I only sell a little on the side?</p><p class="faq-a">A. Yes. The law has no small-volume exemption; any sales business reports per premises.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if I sell without reporting?</p><p class="faq-a">A. Operating without the report can lead to criminal penalties, including imprisonment or a fine.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can I report before the training?</p><p class="faq-a">A. Training comes first in principle. If set reasons such as illness or an accident prevent it, you may take it after opening.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if I import products myself?</p><p class="faq-a">A. A sales report is not enough. You need an imported food import and sales business registration with the regional MFDS office, then an import declaration and inspection for each product.</p></div>
+</div>
+
+<div class="cta-block"><h3>Tell us how you sell, and the type follows</h3><p>Share what you sell, where it comes from and how you sell it, and YouSun Administrative Agency will confirm the report type and documents. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-home-online-sales">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'health-functional-food-home-online-sales',
+    locale: 'zh',
+    title: '在韩国居家网上卖保健食品（健康功能食品），需要办销售业申报吗？',
+    metaTitle: '韩国居家网上销售健康功能食品 — 申报、培训与材料',
+    metaDescription: '在韩国居家只在网上销售健康功能食品，也须办理销售业申报。买家不上门时可用住宅作为事务所，开业前须接受安全卫生教育，申报后3日内通知是否受理。本文按销售方式说明申报类型与材料。',
+    category: '食品',
+    excerpt: '在韩国即使只在网上销售健康功能食品（保健食品），也属于须申报的销售业。电商·通信销售且买家不上门的，可把住宅申报为营业所；开业前接受安全卫生教育后向市·郡·区申报。以自有品牌委托生产销售的，属于流通专门销售业。',
+    content: `<div class="toc"><p>目录</p><ol><li>按销售方式选择申报类型</li><li>材料与期限</li><li>搬家·停业·快闪销售时</li><li>我们可以协助的范围</li><li>常见问题</li></ol></div>
+<p><strong>在韩国，即使在家只通过网络销售，只要是销售健康功能食品（건강기능식품，相当于保健食品）的营业，就须办理健康功能食品销售业申报。电商·通信销售等买家不直接上门的营业，可以把住宅用途的建筑物用作事务所，因此可以用家庭住址申报营业所。</strong>申报向营业所所在地的市·郡·区提出，开业前须接受安全卫生教育。</p>
+<p>销售业申报的总体说明见<a href="/zh/blog/health-functional-food-sales-registration-guide">健康功能食品销售业申报指南</a>。</p>
+
+<h2>按销售方式选择申报类型</h2>
+<table><thead><tr><th>销售方式</th><th>须办理的申报与判断</th></tr></thead><tbody>
+<tr><td>采购其他公司的成品，只在网店销售</td><td>一般销售业申报。买家不上门的，可用住宅作事务所。</td></tr>
+<tr><td>以自有品牌委托专门制造企业生产（OEM）后销售</td><td>流通专门销售业申报。电商形式可用住宅作事务所，但须有与专门制造企业的委托生产合同和保管设施。</td></tr>
+<tr><td>自己生产后销售</td><td>不是销售业申报，而是向地方食品医药品安全厅申请制造业许可；作业场须为独立建筑或与其他用途分隔，在家中难以满足。</td></tr>
+<tr><td>买家到家中取货</td><td>不符合“买家不上门”的住宅事务所条件，须另设营业所。</td></tr>
+</tbody></table>
+<p>网上销售商品所需的通信销售业申报，是依据电子商务法的另一项手续，详见<a href="/zh/services/mail-order-sales-report">通信销售业申报</a>。委托生产的，还要先确定保管放在家中还是与其他仓库签订使用合同，申报内容才不会反复。</p>
+<ol><li>确定属于一般销售业还是流通专门销售业。</li><li>开业前完成安全卫生教育（一般销售业2小时，流通专门销售业4小时）。</li><li>以家庭住址为营业所填写营业申报书。</li><li>向管辖市·郡·区申报，领取营业申报证。</li><li>办理通信销售业申报后开始销售。</li></ol>
+
+<h2>材料与期限</h2>
+<table><thead><tr><th>类型</th><th>材料</th><th>期限</th></tr></thead><tbody>
+<tr><td>一般销售业</td><td>营业申报书、安全卫生教育完成证明（公务员可直接确认的可免）</td><td>自申报日起3日内通知是否受理，逾期未通知视为受理</td></tr>
+<tr><td>流通专门销售业</td><td>营业申报书、教育完成证明、与专门制造企业的委托生产合同、保管设施使用合同（如有）</td><td>同样适用3日通知标准</td></tr>
+<tr><td>申报后</td><td>每年安全卫生教育</td><td>每个营业所每年2小时</td></tr>
+</tbody></table>
+
+<h2>搬家·停业·快闪销售时</h2>
+<p>以住宅申报为营业所的，搬家时须办理营业所所在地变更申报；商号、代表人姓名、签约保管设施的所在地，以及流通专门销售业的委托制造企业发生变化时，也须办理变更申报。停止销售的，须自停业之日起1个月内附营业申报证办理停业申报，也可与税务署停业申报一并提交。一般销售业者想在活动现场等其他地点短期销售的，可附营业申报证复印件另行申报，期限在1个月范围内。</p>
+
+<h2>我们可以协助的范围</h2>
+<p>YouSun Administrative Agency根据你的销售方式确定适合的业态，检查营业申报书、委托生产合同和保管设施材料，负责申报提交和补正应对。今后打算扩展到生产或进口的，可一并参阅<a href="/zh/services/health-food">健康功能食品许可服务</a>的各阶段说明。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 只是副业少量销售，也要申报吗？</p><p class="faq-a">A. 法律没有按销售规模免除申报。只要是销售健康功能食品的营业，就须按营业所申报。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 未申报就销售会怎样？</p><p class="faq-a">A. 未办理营业申报而营业，属于刑事处罚（有期徒刑或罚金）对象。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 还没上培训课，能先申报吗？</p><p class="faq-a">A. 原则上须在开业前完成。因疾病、事故等规定事由无法事先参加的，可在开业后补上。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 自己从国外进口来卖呢？</p><p class="faq-a">A. 只办销售业申报不够。须向地方食品医药品安全厅办理进口食品等进口·销售业营业登记，并按品目办理进口申报和检验后才能在韩国销售。</p></div>
+</div>
+
+<div class="cta-block"><h3>告诉我们销售方式，就能确定业态</h3><p>说明销售什么产品、从哪里进货、怎样销售，YouSun Administrative Agency为你整理适合的申报业态和所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-home-online-sales">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'health-functional-food-home-online-sales',
+    locale: 'ja',
+    title: '韓国で自宅からネットだけで健康機能食品を売るとき、販売業の申告は必要？',
+    metaTitle: '韓国で自宅から健康機能食品をネット販売 — 申告・教育・書類',
+    metaDescription: '韓国で自宅からネットだけで健康機能食品を売る場合も販売業の申告が必要です。購入者が来訪しなければ住宅を事務所にでき、営業前の教育と3日以内の受理通知まで解説します。',
+    category: '食品',
+    excerpt: '韓国では、ネットだけで売る場合でも健康機能食品の販売業申告が必要です。購入者が事務所を訪れない電子商取引・通信販売なら自宅（住宅）を営業所として申告でき、営業前に安全衛生教育を受けてから市・郡・区に申告します。自社ブランドで製造を委託するなら流通専門販売業です。',
+    content: `<div class="toc"><p>目次</p><ol><li>販売方法に合う申告を選ぶ</li><li>書類と期間</li><li>引っ越し・廃業・ポップアップ販売のとき</li><li>サポートの範囲</li><li>よくある質問</li></ol></div>
+<p><strong>韓国では、自宅からネットだけで販売する場合でも、健康機能食品（건강기능식품）を販売する営業であれば健康機能食品販売業の申告が必要です。ただし電子商取引・通信販売のように購入者が事務所を直接訪れない営業なら、住宅用途の建築物を事務所として使えるため、自宅の住所で営業所を申告できます。</strong>申告は営業所所在地の市・郡・区に行い、営業開始前に安全衛生教育を受ける必要があります。</p>
+<p>販売業申告の全体像は<a href="/ja/blog/health-functional-food-sales-registration-guide">健康機能食品販売業の申告ガイド</a>をご覧ください。</p>
+
+<h2>販売方法に合う申告を選ぶ</h2>
+<table><thead><tr><th>販売方法</th><th>必要な申告と判断</th></tr></thead><tbody>
+<tr><td>他社が作った製品を仕入れ、ネットショップだけで販売</td><td>健康機能食品一般販売業の申告。購入者の来訪がなければ自宅を事務所にできます。</td></tr>
+<tr><td>自社ブランドで専門製造業者に委託した製品（OEM）を販売</td><td>健康機能食品流通専門販売業の申告。電子商取引なら住宅を事務所にできますが、専門製造業者との委託生産契約書と保管施設が必要です。</td></tr>
+<tr><td>自分で製造して販売</td><td>販売業の申告ではなく、地方食品医薬品安全庁の製造業許可の対象です。作業場は独立した建物か他の用途と分離されている必要があり、自宅では困難です。</td></tr>
+<tr><td>購入者が自宅に受け取りに来る</td><td>住宅を事務所にできる条件（購入者の来訪なし）に合わないため、別の営業所を検討します。</td></tr>
+</tbody></table>
+<p>商品をネットで売るための通信販売業の申告は、電子商取引法に基づく別の手続です。<a href="/ja/services/mail-order-sales-report">通信販売業申告</a>もあわせて確認してください。製造を委託する場合は、保管を自宅で行うか別の倉庫と使用契約を結ぶかも先に決めておくと、申告内容がぶれません。</p>
+<ol><li>一般販売業か流通専門販売業か、販売方法を決めます。</li><li>営業前に安全衛生教育を修了します（一般販売業2時間、流通専門販売業4時間）。</li><li>自宅住所を営業所とする営業申告書を作成します。</li><li>管轄の市・郡・区に申告し、営業申告証を受け取ります。</li><li>通信販売業の申告をして販売を始めます。</li></ol>
+
+<h2>書類と期間</h2>
+<table><thead><tr><th>区分</th><th>書類</th><th>期間</th></tr></thead><tbody>
+<tr><td>一般販売業</td><td>営業申告書、安全衛生教育の修了証明（担当公務員が確認できれば省略可）</td><td>申告日から3日以内に受理の可否を通知、期間内に通知がなければ受理したものとみなす</td></tr>
+<tr><td>流通専門販売業</td><td>営業申告書、教育修了証明、専門製造業者との委託生産契約書、保管施設の使用契約書（契約した場合）</td><td>同じく3日以内の通知</td></tr>
+<tr><td>申告後</td><td>毎年の安全衛生教育</td><td>営業所ごとに毎年2時間</td></tr>
+</tbody></table>
+
+<h2>引っ越し・廃業・ポップアップ販売のとき</h2>
+<p>自宅を営業所として申告した場合、引っ越すときは営業所所在地の変更申告が必要です。商号や代表者の氏名、契約した保管施設の所在地、流通専門販売業の委託先製造業者が変わるときも変更申告の対象です。販売をやめるときは、廃業する日から1か月以内に営業申告証を添えて廃業申告をし、税務署への廃業申告と一緒に出すこともできます。一般販売業者がイベント会場など別の場所で一時的に販売するときは、1か月の範囲で営業申告証の写しを添えて別に申告します。</p>
+
+<h2>サポートの範囲</h2>
+<p>YouSun Administrative Agencyは、販売方法をうかがって一般販売業と流通専門販売業のどちらが合うかを整理し、営業申告書と委託生産契約書・保管施設の書類の確認、申告、補正対応まで行います。製造や輸入まで広げる予定があれば、<a href="/ja/services/health-food">健康機能食品の許認可サービス</a>の各段階もあわせてご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 副業で少しだけ売る場合も申告が必要ですか。</p><p class="faq-a">A. 法律は販売規模による申告の免除を定めていません。健康機能食品を販売する営業なら営業所ごとに申告します。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申告せずに売るとどうなりますか。</p><p class="faq-a">A. 営業申告をせずに営業すると、懲役または罰金の刑事罰の対象です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 教育を先に受けられなかった場合でも申告できますか。</p><p class="faq-a">A. 原則は営業前の修了です。病気や事故など定められた事由で事前に受けられない場合は、営業開始後に受けることができます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 海外の製品を自分で輸入して売る場合は？</p><p class="faq-a">A. 販売業の申告だけでは足りません。地方食品医薬品安全庁で輸入食品等輸入・販売業の営業登録をし、品目ごとに輸入申告と検査を経てから販売します。</p></div>
+</div>
+
+<div class="cta-block"><h3>販売方法を教えていただければ業種が決まります</h3><p>どの製品をどこから仕入れ、どう売るかをお知らせいただければ、YouSun Administrative Agencyが申告の業種と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-home-online-sales">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
