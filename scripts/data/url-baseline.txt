@@ -832,3 +832,7 @@
 /en/blog/health-functional-food-home-online-sales
 /ja/blog/health-functional-food-home-online-sales
 /zh/blog/health-functional-food-home-online-sales
+/blog/cosmetics-foreign-brand-without-korean-entity
+/en/blog/cosmetics-foreign-brand-without-korean-entity
+/ja/blog/cosmetics-foreign-brand-without-korean-entity
+/zh/blog/cosmetics-foreign-brand-without-korean-entity

@@ -7928,6 +7928,136 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>販売方法を教えていただければ業種が決まります</h3><p>どの製品をどこから仕入れ、どう売るかをお知らせいただければ、YouSun Administrative Agencyが申告の業種と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-home-online-sales">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── cosmetics-foreign-brand-without-korean-entity (inhega-daily 2026-11-06) ──
+  {
+    slug: 'cosmetics-foreign-brand-without-korean-entity',
+    locale: 'en',
+    title: 'Selling a Foreign Cosmetics Brand in Korea Without a Korean Company',
+    metaTitle: 'Sell Foreign Cosmetics in Korea Without a Korean Entity — Two Routes',
+    metaDescription: 'Foreign cosmetics brands with no Korean entity sell via a registered Korean responsible distributor or open an office and register. Routes and documents.',
+    category: 'Cosmetics',
+    excerpt: 'A foreign cosmetics brand with no Korean company sells in Korea through a registered responsible distributor that imports under its own name. To sell directly, it needs an office in Korea, a responsible manager and its own registration. Whitening or anti-wrinkle claims need a separate functional cosmetics review.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Selling without an entity vs. registering yourself</li><li>Documents and timelines</li><li>How we help</li><li>FAQ</li></ol></div>
+<p><strong>Imported cosmetics can be distributed and sold in Korea only by a business registered as a cosmetics responsible distributor (화장품책임판매업) with the Ministry of Food and Drug Safety (MFDS). Registration is filed with the regional MFDS office for the distributor's business location, so a brand with no Korean company or office has two routes: sell through a registered Korean importer, or open an office in Korea and register itself.</strong> Selling without registration is a criminal offence.</p>
+<p>The importer's own registration is covered in <a href="/en/blog/cosmetics-import-sales-registration-guide">our cosmetics import registration guide</a>, and first-time requirements in <a href="/en/blog/cosmetics-responsible-distributor">our responsible distributor guide</a>.</p>
+
+<h2>Selling without an entity vs. registering yourself</h2>
+<table><thead><tr><th>Situation</th><th>Route</th></tr></thead><tbody>
+<tr><td>You want to start fast with no Korean company</td><td>Contract a registered Korean distributor. It keeps the import record, tests each batch and releases the products, and its name and address appear on the packaging.</td></tr>
+<tr><td>You want to control the brand directly</td><td>Set up a company or office in Korea and register, with quality and post-sale safety standards and a responsible manager.</td></tr>
+<tr><td>You claim whitening, anti-wrinkle or sun protection</td><td>On either route, functional cosmetics need a product review or a report.</td></tr>
+</tbody></table>
+<p>Even with an importer, the brand supplies much of the data. The import record covers the product name, ingredient specifications and amounts, country, maker and address, a certificate of manufacture and sale, a Korean-language product description and batch test results, so having these ready speeds up negotiations.</p>
+<ol><li>Choose the route: importer or own registration.</li><li>Check ingredients against Korea's banned and restricted lists.</li><li>Prepare the certificate of manufacture and sale and ingredient data.</li><li>For your own registration, secure an office and a responsible manager, then apply.</li><li>After customs, test each batch and release.</li></ol>
+
+<h2>Documents and timelines</h2>
+<table><thead><tr><th>Item</th><th>Documents</th><th>Timeline</th></tr></thead><tbody>
+<tr><td>Own registration</td><td>Application, rules on quality and post-sale safety standards, manager qualification documents</td><td>Certificate issued after review by the regional MFDS office</td></tr>
+<tr><td>Each imported product</td><td>Import record, certificate of manufacture and sale, Korean description, test results</td><td>Released after batch testing</td></tr>
+<tr><td>After registration</td><td>Ingredient list, last year's import results</td><td>Ingredient list before sale; import results by the end of February each year</td></tr>
+</tbody></table>
+<p>The responsible manager must hold a set qualification, such as a doctor or pharmacist, a science or cosmetics-related degree, or relevant experience. With 10 or fewer regular employees, a qualified owner may act as the manager.</p>
+<p>On either route, the responsible distributor answers for product safety in Korea. It reports safety information such as side effects and, if a harmful product is on the market, reports a recall plan in advance and recalls it. Agree with your importer who handles this and with what data.</p>
+
+<h2>How we help</h2>
+<p>YouSun Administrative Agency lists what to check before signing with an importer, and for your own registration prepares the standards rules and application, files them and handles corrections. For functional claims we also prepare the <a href="/en/services/functional-cosmetics">functional cosmetics review or report</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Can our overseas head office register directly?</p><p class="faq-a">A. The application goes to the regional office for the business location, so you need a business location in Korea. Without one, an importer is the practical route.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if we change importers?</p><p class="faq-a">A. The new importer prepares its own import record, testing and labeling. The name and address on the packaging change too, so check your stock labels.</p></div>
+<div class="faq-item"><p class="faq-q">Q. In whose name is the functional cosmetics review done?</p><p class="faq-a">A. A manufacturer, a responsible distributor or a designated university or institute files it product by product. Without a Korean entity, it is usually done in the Korean distributor's name.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Must products made in our own factory be tested again?</p><p class="faq-a">A. Imported cosmetics are in principle tested by batch before release, but testing can be skipped if a designated testing body already has batch results.</p></div>
+</div>
+
+<div class="cta-block"><h3>Decide the route first</h3><p>Send us your product list, ingredient sheets and factory details, and YouSun Administrative Agency will set out the right route and documents. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-foreign-brand-without-korean-entity">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'cosmetics-foreign-brand-without-korean-entity',
+    locale: 'zh',
+    title: '中国化妆品品牌没有韩国法人，怎样在韩国销售？',
+    metaTitle: '中国化妆品进入韩国销售 — 没有韩国法人的两条路径',
+    metaDescription: '没有韩国法人的中国化妆品品牌，要在韩国销售，须通过已登记的韩国化妆品责任销售业者进口，或在韩国设立营业所自行登记。说明两条路径的判断、材料与期限。',
+    category: '化妆品',
+    excerpt: '没有韩国法人的海外化妆品品牌，可以通过已登记的韩国责任销售业者（进口商）以其名义进口销售；想自己销售，就要在韩国设立责任销售业营业所、选任责任销售管理人并办理登记。宣称美白、抗皱的，还须另做功能性化妆品审查或报告。',
+    content: `<div class="toc"><p>目录</p><ol><li>无法人销售与自行登记</li><li>材料与期限</li><li>我们可以协助的范围</li><li>常见问题</li></ol></div>
+<p><strong>进口化妆品要在韩国流通销售，必须由已登记化妆品责任销售业（화장품책임판매업）的经营者负责。登记须向责任销售业营业所所在地管辖的地方食品医药品安全厅提出，因此没有韩国法人或营业所的中国品牌，只能在两条路中选择：通过韩国的责任销售业者（进口商）销售，或在韩国设立营业所自行登记。</strong>未登记销售属于刑事处罚对象。</p>
+<p>进口商自身的登记流程见<a href="/zh/blog/cosmetics-import-sales-registration-guide">化妆品进口销售登记指南</a>，首次登记条件见<a href="/zh/blog/cosmetics-responsible-distributor">化妆品责任销售业登记流程</a>。</p>
+
+<h2>无法人销售与自行登记</h2>
+<table><thead><tr><th>情形</th><th>判断</th></tr></thead><tbody>
+<tr><td>没有韩国法人，想尽快上市</td><td>与已登记的韩国责任销售业者签约。由进口商以自己名义制作进口管理记录、按批号质量检验后流通，包装上标示进口商的商号和地址。</td></tr>
+<tr><td>想自己掌控品牌</td><td>在韩国设立法人或营业所，登记责任销售业，具备质量管理·销售后安全管理标准并选任责任销售管理人。</td></tr>
+<tr><td>宣称美白、抗皱、防晒</td><td>无论哪条路径，以功能性化妆品销售都须按品目接受审查或提交报告。</td></tr>
+</tbody></table>
+<p>即使通过进口商，品牌方也要提供大量资料。进口管理记录包括产品名、原料成分规格与含量、制造国·制造公司名称与地址、制造及销售证明书、韩文产品说明书样本、各批号进口量与检验结果，提前备齐可加快合作谈判。</p>
+<ol><li>确定销售方式：委托进口商或自行登记。</li><li>确认成分是否涉及韩国禁用或限用原料。</li><li>准备制造及销售证明书和成分规格资料。</li><li>自行登记的，落实营业所和责任销售管理人后申请登记。</li><li>通关后完成按批号质量检验再流通。</li></ol>
+
+<h2>材料与期限</h2>
+<table><thead><tr><th>项目</th><th>材料</th><th>期限</th></tr></thead><tbody>
+<tr><td>责任销售业登记（自行）</td><td>登记申请书、质量管理·销售后安全管理标准规定、责任销售管理人资格证明</td><td>管辖地方食品医药品安全厅审查后发放登记证</td></tr>
+<tr><td>各进口品目</td><td>进口管理记录、制造及销售证明书、韩文说明书样本、检验结果</td><td>按批号检验后流通</td></tr>
+<tr><td>登记后报告</td><td>原料目录、上一年进口实绩</td><td>原料目录在流通销售前，进口实绩每年2月底前</td></tr>
+</tbody></table>
+<p>责任销售管理人须具备医师·药师、理工科或化妆品相关专业学士以上、化妆品制造·质量管理经历等法定资格；常勤员工10人以下的，具备资格的代表可兼任。</p>
+<p>无论选择哪条路径，在韩国市场对产品安全负责的都是责任销售业者。获知副作用等安全信息须按告示报告；有危害之虞的化妆品在流通中，须事先报告召回计划并召回。与进口商签约时，最好事先约定由谁、用什么资料来应对。</p>
+
+<h2>我们可以协助的范围</h2>
+<p>YouSun Administrative Agency按销售方式整理与进口商签约前须确认的资料清单；自行登记的，负责质量与安全管理标准规定和登记申请书的制作、提交及补正应对。宣称功能的产品，同时准备<a href="/zh/services/functional-cosmetics">功能性化妆品审查与报告</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 可以用中国总公司名义直接登记吗？</p><p class="faq-a">A. 登记向营业所所在地管辖的地方厅申请，必须在韩国境内有责任销售业营业所。没有法人时，通过进口商是现实的选择。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 更换进口商会怎样？</p><p class="faq-a">A. 新进口商要以自己名义重新准备进口管理记录、质量检验和标示，包装上的经营者商号和地址也会改变，请提前确认库存标签。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 功能性化妆品审查以谁的名义申请？</p><p class="faq-a">A. 由化妆品制造业者、责任销售业者或规定的大学·研究所等按品目申请。没有韩国法人的，一般以韩国责任销售业者名义进行。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 在中国工厂生产的产品还要再检验吗？</p><p class="faq-a">A. 进口化妆品原则上按批号检验后流通；委托指定检验机构已有检验结果的，可以不再自行检验。</p></div>
+</div>
+
+<div class="cta-block"><h3>先确定销售路径</h3><p>发来产品清单、成分表和工厂信息，YouSun Administrative Agency为你判断适合的路径并整理所需材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-foreign-brand-without-korean-entity">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'cosmetics-foreign-brand-without-korean-entity',
+    locale: 'ja',
+    title: '韓国法人がない海外コスメブランドが韓国で化粧品を販売するには？',
+    metaTitle: '韓国法人なしで化粧品を韓国販売 — 海外ブランドの二つの方法',
+    metaDescription: '韓国法人がない海外コスメブランドが韓国で販売するには、登録済みの韓国の化粧品責任販売業者を通すか、韓国に営業所を置いて自ら登録します。方法別の判断と書類・期間を解説します。',
+    category: '化粧品',
+    excerpt: '韓国法人のない海外ブランドは、登録済みの韓国の責任販売業者（輸入業者）がその名義で輸入・販売する形で販売できます。自社で販売するには、韓国に責任販売業所を置き、責任販売管理者を選任して登録します。美白・シワ改善をうたうなら機能性化粧品の審査・報告も別に必要です。',
+    content: `<div class="toc"><p>目次</p><ol><li>法人なしで売る場合と自社登録する場合</li><li>書類と期間</li><li>サポートの範囲</li><li>よくある質問</li></ol></div>
+<p><strong>輸入した化粧品を韓国で流通・販売するには、その営業を化粧品責任販売業（화장품책임판매업）として登録した事業者が必要です。登録は責任販売業所の所在地を管轄する地方食品医薬品安全庁に申請するため、韓国法人や営業所のない海外ブランドは、韓国の責任販売業者（輸入業者）を通して売るか、韓国に営業所を置いて自ら登録するかのどちらかを選びます。</strong>登録せずに販売すると刑事罰の対象です。</p>
+<p>輸入業者側の登録手続は<a href="/ja/blog/cosmetics-import-sales-registration-guide">化粧品の輸入販売登録ガイド</a>を、最初の登録要件は<a href="/ja/blog/cosmetics-responsible-distributor">化粧品責任販売業の登録手続</a>をご覧ください。</p>
+
+<h2>法人なしで売る場合と自社登録する場合</h2>
+<table><thead><tr><th>状況</th><th>判断</th></tr></thead><tbody>
+<tr><td>韓国法人なしで早く売りたい</td><td>登録済みの韓国の責任販売業者と契約します。輸入業者が自社名義で輸入管理記録書を作り、製造番号ごとの品質検査を経て流通させ、包装にはその輸入業者の商号と住所が表示されます。</td></tr>
+<tr><td>ブランドを自社で管理したい</td><td>韓国に法人や営業所を置き、責任販売業を登録します。品質管理・販売後安全管理の基準を整え、責任販売管理者を置きます。</td></tr>
+<tr><td>美白・シワ改善・紫外線カットをうたう</td><td>どちらの方法でも、機能性化粧品として売るには品目ごとに審査を受けるか報告書を出します。</td></tr>
+</tbody></table>
+<p>輸入業者を使う場合でも、ブランド側が渡す資料は多くあります。輸入管理記録書には製品名、原料成分の規格と含量、製造国・製造会社名と所在地、製造および販売証明書、韓国語の製品説明書見本、製造番号ごとの輸入量と品質検査結果が入るため、あらかじめそろえておくと契約交渉も早く進みます。</p>
+<ol><li>販売方法（輸入業者への委託か自社登録か）を決めます。</li><li>成分が韓国の使用禁止・使用基準のある原料に当たらないか確認します。</li><li>製造および販売証明書と成分規格の資料を準備します。</li><li>自社登録なら営業所と責任販売管理者を確保して登録を申請します。</li><li>通関後、製造番号ごとの品質検査を終えて流通させます。</li></ol>
+
+<h2>書類と期間</h2>
+<table><thead><tr><th>区分</th><th>書類</th><th>期間</th></tr></thead><tbody>
+<tr><td>責任販売業の登録（自社）</td><td>登録申請書、品質管理・販売後安全管理の基準に関する規定、責任販売管理者の資格確認書類</td><td>管轄の地方食品医薬品安全庁の審査後に登録証を発給</td></tr>
+<tr><td>輸入品目ごと</td><td>輸入管理記録書、製造および販売証明書、韓国語説明書見本、品質検査結果</td><td>製造番号ごとの品質検査後に流通</td></tr>
+<tr><td>登録後の報告</td><td>原料目録、前年の輸入実績</td><td>原料目録は流通・販売前、輸入実績は毎年2月末まで</td></tr>
+</tbody></table>
+<p>責任販売管理者は、医師・薬剤師、理工系や化粧品関連学科の学士以上、化粧品の製造・品質管理の経験者など定められた資格が必要で、常時勤労者が10人以下なら資格のある代表者が職務を兼ねられます。</p>
+<p>どちらの方法でも、韓国市場で製品の安全に責任を負うのは責任販売業者です。副作用などの安全性情報を知ったら告示に従って報告し、危害のおそれがある化粧品が流通していれば回収計画を事前に報告して回収します。輸入業者と契約する際は、誰がどの資料で対応するかを決めておくと安心です。</p>
+
+<h2>サポートの範囲</h2>
+<p>YouSun Administrative Agencyは、販売方法に合わせて輸入業者との契約前に確認すべき資料の一覧を整理し、自社登録の場合は品質管理・安全管理の基準規定と登録申請書の作成、提出、補正対応まで行います。機能性をうたう製品は<a href="/ja/services/functional-cosmetics">機能性化粧品の審査・報告</a>もあわせて準備します。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 海外本社の名義でそのまま登録できますか。</p><p class="faq-a">A. 登録は責任販売業所の所在地を管轄する地方庁に申請するため、韓国国内に責任販売業所が必要です。法人がなければ輸入業者を通すのが現実的です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 輸入業者を変えるとどうなりますか。</p><p class="faq-a">A. 新しい輸入業者が自社名義で輸入管理記録書、品質検査、表示をそろえ直します。包装の営業者の商号・住所も変わるため、在庫の表示を事前に確認してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 機能性化粧品の審査は誰の名義で受けますか。</p><p class="faq-a">A. 化粧品製造業者、責任販売業者、定められた大学・研究所などが品目ごとに行います。韓国法人がなければ、韓国の責任販売業者の名義で進めるのが一般的です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 自社工場で作った製品も品質検査をやり直しますか。</p><p class="faq-a">A. 輸入化粧品は原則として製造番号ごとに品質検査をしてから流通させます。指定検査機関に委託して結果がある場合は、自ら検査しなくてもよいとされています。</p></div>
+</div>
+
+<div class="cta-block"><h3>まず販売方法を決めましょう</h3><p>製品一覧、成分表、現地の製造会社の情報をお送りいただければ、YouSun Administrative Agencyが合う方法と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-foreign-brand-without-korean-entity">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
