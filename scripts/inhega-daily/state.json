@@ -141,6 +141,13 @@
       "topic": "cosmetics-distributor",
       "angle": "situation",
       "slug": "cosmetics-foreign-brand-without-korean-entity"
+    },
+    {
+      "date": "2026-11-07",
+      "ran_on": "2026-11-07",
+      "topic": "lbs",
+      "angle": "situation",
+      "slug": "location-based-service-map-feature-app"
     }
   ]
 }

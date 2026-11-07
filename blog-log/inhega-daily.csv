@@ -21,3 +21,4 @@ date,topic,angle,slug,locales,gate_checks,gate_pass,ko_title
 2026-11-04,factory,situation,factory-registration-leased-building,ko|en|zh|ja,66,PASS,"임대 공장등록 — 건물을 빌려 공장을 돌리는데 공장등록이 될까"
 2026-11-05,health-food,situation,health-functional-food-home-online-sales,ko|en|zh|ja,66,PASS,"건강기능식품 온라인 판매 자격 — 집에서 온라인으로만 팔 때 판매업 신고"
 2026-11-06,cosmetics-distributor,situation,cosmetics-foreign-brand-without-korean-entity,ko|en|zh|ja,66,PASS,"중국 화장품 한국 판매 — 한국 법인 없는 해외 브랜드가 팔려면"
+2026-11-07,lbs,situation,location-based-service-map-feature-app,ko|en|zh|ja,66,PASS,"위치기반서비스 신고 대상 — 앱에 지도·위치 기능만 넣어도 신고해야 할까"

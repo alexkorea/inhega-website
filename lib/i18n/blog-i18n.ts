@@ -8058,6 +8058,133 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>まず販売方法を決めましょう</h3><p>製品一覧、成分表、現地の製造会社の情報をお送りいただければ、YouSun Administrative Agencyが合う方法と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-foreign-brand-without-korean-entity">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── location-based-service-map-feature-app (inhega-daily 2026-11-07) ──
+  {
+    slug: 'location-based-service-map-feature-app',
+    locale: 'en',
+    title: 'Does My App Need a Location-Based Service Report in Korea If It Only Has a Map?',
+    metaTitle: 'Location-Based Service Report in Korea — Map and Location Features',
+    metaDescription: 'Does an app with a map or location feature need a location-based service report in Korea? Personal location data, the 1-month small business rule, documents.',
+    category: 'IT & Telecom',
+    excerpt: 'Showing a map or store locations is different from using a user\'s current position. In Korea, the report covers location-based services that use personal location data, and small businesses that start without reporting must file within 1 month.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Feature by feature</li><li>Documents and timelines</li><li>How we help</li><li>FAQ</li></ol></div>
+<p><strong>Adding a map to your app does not by itself trigger a report. Under Korea's Location Information Act, the report covers location-based service businesses that use personal location data. If your app takes the user's current device location for nearby search, location sharing or route tracking, you usually need to report to the Media and Communications Commission (방송미디어통신위원회).</strong> Services that do not use personal location data are excluded.</p>
+<p>The filing steps are in <a href="/en/blog/location-based-service-domestic-registration-guide">our location-based service report guide</a>, and the registration needed when you collect location data and supply it to others is in <a href="/en/blog/location-information-business-registration">our comparison of the two regimes</a>.</p>
+
+<h2>Feature by feature</h2>
+<p>Location information means where a moving person or object was at a given time, measured through telecom facilities. It is personal location data if it can be easily combined with other data to locate a specific person.</p>
+<table><thead><tr><th>App feature</th><th>Outcome</th></tr></thead><tbody>
+<tr><td>Store addresses on a map, map view only</td><td>Shows fixed places, not the user's position, so a report is unlikely.</td></tr>
+<tr><td>Nearby search from current location, delivery tracking, friend sharing, attendance check-in</td><td>Uses a user's position tied to an account, so it is a reportable location-based service.</td></tr>
+<tr><td>Vehicle or object tracking with no link to a person</td><td>Excluded if no personal location data is involved, but check whether it can be linked first.</td></tr>
+<tr><td>Location received from an outside provider</td><td>Even without measuring location yourself, using personal location data for a service is reportable.</td></tr>
+</tbody></table>
+<p>Small businesses and one-person creative businesses may start without reporting, but to continue past 1 month they must file a simplified report within 1 month of starting. A reportable service also needs terms of use describing the service and user rights, and the user's consent.</p>
+
+<h2>Documents and timelines</h2>
+<table><thead><tr><th>Case</th><th>Documents</th><th>Timeline</th></tr></thead><tbody>
+<tr><td>Standard report</td><td>Report form, business plan with company profile and service details, documents on main equipment and its location, proof of location data protection measures</td><td>Accepted after review; in practice 2~4 weeks once documents are complete</td></tr>
+<tr><td>Small business</td><td>Proof of small business status and the simplified form (can be entered online)</td><td>Within 1 month of starting</td></tr>
+</tbody></table>
+<ol><li>Find every point where the app or server receives location.</li><li>Check whether it is linked to account data.</li><li>Confirm whether you measure location yourself or receive it from a provider.</li><li>Prepare terms, consent screens and protection measures such as access control, encryption and logs.</li><li>File the report and respond to correction requests.</li></ol>
+
+<h2>How we help</h2>
+<p>YouSun Administrative Agency reviews your features, decides whether a report or a location information business registration applies, prepares the business plan, equipment and protection documents, files the report and handles corrections. Companies without a Korean entity should also read <a href="/en/blog/location-based-service-business-registration-foreign-company">our guide for foreign companies</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. If I only use a map API, do I need to report?</p><p class="faq-a">A. A plain map view is unlikely to need one, but if you take the user's current location for the service, it does. The test is whose location you use, not which API.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What happens if I operate without reporting?</p><p class="faq-a">A. Running a reportable service without reporting can lead to criminal penalties, including imprisonment or a fine.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if I ask for location permission but never use it?</p><p class="faq-a">A. Both the permission request and the actual data flow are reviewed. Not asking for permissions you will not use is the cleaner path.</p></div>
+<div class="faq-item"><p class="faq-q">Q. I filed as a small business. What if we grow?</p><p class="faq-a">A. Once you no longer qualify, you must file the full report items within 1 month.</p></div>
+</div>
+
+<div class="cta-block"><h3>Check your app with one feature list</h3><p>Send us the screens that use location, and YouSun Administrative Agency will confirm whether you must report and what to prepare. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-map-feature-app">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'location-based-service-map-feature-app',
+    locale: 'zh',
+    title: '韩国App只加了地图或定位功能，也要做位置基础服务申报吗？',
+    metaTitle: '韩国位置基础服务申报 — App地图·定位功能逐项判断',
+    metaDescription: '在韩国，App加入地图或定位功能是否须做位置基础服务事业申报？按功能说明是否使用个人位置信息、小商户开业后1个月内申报，以及所需材料和期限。',
+    category: 'IT·通信',
+    excerpt: '只显示地图或门店位置，与读取用户当前位置的功能，判断完全不同。韩国的申报对象是以个人位置信息为对象的位置基础服务事业，小商户·一人创业企业须在开业后1个月内申报。',
+    content: `<div class="toc"><p>目录</p><ol><li>按功能判断是否须申报</li><li>申报材料与期限</li><li>我们可以协助的范围</li><li>常见问题</li></ol></div>
+<p><strong>App里放了地图，并不因此就须申报。根据韩国《位置信息保护法》，申报对象是以特定个人的位置即个人位置信息为对象的位置基础服务事业；如果读取用户设备的当前位置，用于附近搜索、位置共享、行程追踪等服务，大多须向广播媒体通信委员会（방송미디어통신위원회）申报。</strong>不以个人位置信息为对象的服务不在申报范围内。</p>
+<p>首次申报流程见<a href="/zh/blog/location-based-service-domestic-registration-guide">位置基础服务事业申报指南</a>；自行收集位置信息并提供给其他事业者时的登记，见<a href="/zh/blog/location-information-business-registration">位置信息事业登记与位置基础服务申报的区别</a>。</p>
+
+<h2>按功能判断是否须申报</h2>
+<p>法律所说的位置信息，是指可移动的人或物在特定时间所在场所的信息，并通过电信设备测定；即使单凭位置看不出是谁，只要容易与其他信息结合而知道特定个人的位置，就是个人位置信息。</p>
+<table><thead><tr><th>App功能</th><th>判断</th></tr></thead><tbody>
+<tr><td>在地图上显示门店地址、只提供地图画面</td><td>只显示固定场所，不涉及用户位置，基本不属于申报对象。</td></tr>
+<tr><td>按当前位置搜索附近门店、配送追踪、好友位置共享、上下班打卡</td><td>使用与会员信息结合的用户位置，属于须申报的位置基础服务。</td></tr>
+<tr><td>只处理与个人无关的车辆·物品位置</td><td>不涉及个人位置信息则不在申报范围，但要先确认能否与个人结合。</td></tr>
+<tr><td>从外部位置信息事业者取得位置用于服务</td><td>即使不自行定位，只要用个人位置信息提供服务，就须申报。</td></tr>
+</tbody></table>
+<p>小商户或一人创业企业可以先开始服务，若超过1个月仍要继续，须在开业之日起1个月内做简易申报。属于申报对象的，还须在使用条款中写明服务内容和用户权利，并取得用户同意。</p>
+
+<h2>申报材料与期限</h2>
+<table><thead><tr><th>情形</th><th>材料</th><th>期限</th></tr></thead><tbody>
+<tr><td>一般申报</td><td>申报书、包含事业者概况和业务内容的事业计划书、主要设备内容及设置场所证明、位置信息保护措施证明</td><td>审查合规后受理，实务中材料齐全后约2~4周</td></tr>
+<tr><td>小商户·一人创业企业</td><td>小商户身份证明和简易申报书（可在指定系统录入）</td><td>开业之日起1个月内</td></tr>
+</tbody></table>
+<ol><li>找出App画面和服务器中所有读取位置的环节。</li><li>确认该位置是否与会员信息结合。</li><li>区分是自行定位还是从外部位置信息事业者取得。</li><li>准备使用条款、同意画面和保护措施（访问权限、加密、记录留存）。</li><li>提交申报书和附件，应对补正要求。</li></ol>
+
+<h2>我们可以协助的范围</h2>
+<p>YouSun Administrative Agency根据App功能判断是否须申报、是否须做位置信息事业登记，负责事业计划书、设备材料和保护措施证明的制作、提交及补正应对。在韩国没有法人的外国企业，请同时参阅<a href="/zh/blog/location-based-service-business-registration-foreign-company">外国法人申报指南</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 只用了地图API，也要申报吗？</p><p class="faq-a">A. 只显示地图一般不需要；但若读取用户当前位置用于服务，就须申报。标准是用了谁的位置，而不是用了哪个API。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 未申报就提供服务会怎样？</p><p class="faq-a">A. 属于申报对象却未申报经营，可能受到刑事处罚（有期徒刑或罚金）。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 只申请了定位权限但实际没用呢？</p><p class="faq-a">A. 会同时看权限申请和实际数据流向。用不到的定位权限，最好不要申请。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 以小商户身份简易申报后，公司规模变大怎么办？</p><p class="faq-a">A. 不再属于小商户或一人创业企业时，须自该日起1个月内补齐一般申报事项重新申报。</p></div>
+</div>
+
+<div class="cta-block"><h3>用一张功能表确认是否须申报</h3><p>告诉我们哪些画面使用位置，YouSun Administrative Agency为你确认是否须申报以及要准备的材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-map-feature-app">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'location-based-service-map-feature-app',
+    locale: 'ja',
+    title: '韓国でアプリに地図や位置情報機能を入れるだけでも位置基盤サービスの申告は必要？',
+    metaTitle: '韓国の位置基盤サービス申告 — アプリの地図・位置機能の判断基準',
+    metaDescription: '韓国でアプリに地図や位置情報機能を入れる場合、位置基盤サービス事業の申告が必要かを機能別に解説。個人位置情報の利用有無、小規模事業者の1か月以内の申告、書類と期間をまとめました。',
+    category: 'IT・通信',
+    excerpt: '地図や店舗の場所を表示するだけの機能と、利用者の現在地を取得する機能では判断が異なります。韓国で申告が必要なのは個人位置情報を対象とする位置基盤サービス事業で、小規模事業者は開始後1か月以内に申告します。',
+    content: `<div class="toc"><p>目次</p><ol><li>機能別に見る申告の要否</li><li>申告の書類と期間</li><li>サポートの範囲</li><li>よくある質問</li></ol></div>
+<p><strong>アプリに地図を入れただけで申告が必要になるわけではありません。韓国の「位置情報法」で申告が必要なのは、特定の個人の位置、つまり個人位置情報を対象とする位置基盤サービス事業です。利用者の端末の現在地を取得して周辺検索・位置共有・移動経路などのサービスに使う場合は、ほとんどが放送メディア通信委員会（방송미디어통신위원회）への申告対象になります。</strong>個人位置情報を対象としないサービスは申告対象から外れます。</p>
+<p>最初の申告手続は<a href="/ja/blog/location-based-service-domestic-registration-guide">位置基盤サービス事業申告ガイド</a>を、位置情報を自ら収集して他の事業者に提供する場合の登録は<a href="/ja/blog/location-information-business-registration">位置情報事業の登録と位置基盤サービス事業の申告の違い</a>をご覧ください。</p>
+
+<h2>機能別に見る申告の要否</h2>
+<p>法律上の位置情報とは、移動する人や物が特定の時間にいた場所の情報で、電気通信設備によって測位されたものです。位置だけでは誰か分からなくても、他の情報と容易に結びつけて特定の個人の位置が分かれば個人位置情報に当たります。</p>
+<table><thead><tr><th>アプリの機能</th><th>判断</th></tr></thead><tbody>
+<tr><td>店舗の住所を地図に表示、地図画面だけを提供</td><td>固定された場所を見せるだけで利用者の位置を扱わないため、申告対象とは考えにくい。</td></tr>
+<tr><td>現在地からの周辺検索、配達・移動の追跡、友だちとの位置共有、出退勤の記録</td><td>会員情報と結びついた利用者の位置を使うため、申告が必要な位置基盤サービスに当たります。</td></tr>
+<tr><td>人と結びつかない車両・物の位置だけを扱うサービス</td><td>個人位置情報を対象としなければ申告対象外ですが、結びつく可能性を先に確認します。</td></tr>
+<tr><td>外部の位置情報事業者から位置を受け取ってサービスに使う場合</td><td>自社で測位しなくても、個人位置情報を使ってサービスを提供すれば申告対象です。</td></tr>
+</tbody></table>
+<p>小規模事業者や一人創造企業は申告せずにサービスを始められますが、1か月を過ぎて続ける場合は事業開始日から1か月以内に簡易申告をします。申告対象であれば、利用規約にサービス内容と利用者の権利を明記し、個人位置情報の利用について同意を得る必要があります。</p>
+
+<h2>申告の書類と期間</h2>
+<table><thead><tr><th>区分</th><th>書類</th><th>期間</th></tr></thead><tbody>
+<tr><td>一般の申告</td><td>位置基盤サービス事業申告書、事業者の概要と事業内容を記載した事業計画書、主要設備の内容と設置場所を確認できる書類、位置情報の保護措置を証明する書類</td><td>内容を審査し適合すれば受理、実務上は書類がそろってから2~4週</td></tr>
+<tr><td>小規模事業者・一人創造企業</td><td>小規模事業者等の証明書類と簡易申告書（指定システムへの入力も可）</td><td>事業開始日から1か月以内</td></tr>
+</tbody></table>
+<ol><li>アプリ画面とサーバー処理で位置を受け取る箇所をすべて洗い出します。</li><li>その位置が会員情報と結びつくかを確認します。</li><li>自社で測位するのか、外部の位置情報事業者から受け取るのかを区別します。</li><li>利用規約・同意画面と保護措置（アクセス権限、暗号化、記録の保存）を整えます。</li><li>申告書と添付書類を提出し、補正要求に対応します。</li></ol>
+
+<h2>サポートの範囲</h2>
+<p>YouSun Administrative Agencyは、アプリの機能説明をもとに申告の要否と位置情報事業の登録が必要かを判断し、事業計画書・主要設備の書類・保護措置の証明書類の作成、申告、補正対応まで行います。韓国法人のない外国企業は<a href="/ja/blog/location-based-service-business-registration-foreign-company">外国法人向けの申告ガイド</a>もあわせてご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 地図APIを使うだけなら申告は不要ですか。</p><p class="faq-a">A. 地図を表示するだけなら申告とは考えにくいですが、利用者の現在地を取得してサービスに使えば申告対象です。基準はどのAPIかではなく、誰の位置を使うかです。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 申告せずにサービスを提供するとどうなりますか。</p><p class="faq-a">A. 申告対象なのに申告せず事業を行うと、懲役または罰金の刑事罰の対象になります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 位置情報の権限だけ求めて実際には使わない場合は？</p><p class="faq-a">A. 権限の要求と実際のデータの流れをあわせて見ます。使わない位置権限は求めないほうが、判断の面でも運用の面でも安全です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 小規模事業者として簡易申告した後、会社が大きくなったら？</p><p class="faq-a">A. 小規模事業者や一人創造企業に当たらなくなったら、その日から1か月以内に一般申告に必要な事項を補って申告し直します。</p></div>
+</div>
+
+<div class="cta-block"><h3>機能一覧ひとつで申告の要否を確認</h3><p>位置を使う画面を教えていただければ、YouSun Administrative Agencyが申告の要否と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-map-feature-app">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 

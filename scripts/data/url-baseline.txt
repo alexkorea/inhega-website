@@ -836,3 +836,7 @@
 /en/blog/cosmetics-foreign-brand-without-korean-entity
 /ja/blog/cosmetics-foreign-brand-without-korean-entity
 /zh/blog/cosmetics-foreign-brand-without-korean-entity
+/blog/location-based-service-map-feature-app
+/en/blog/location-based-service-map-feature-app
+/ja/blog/location-based-service-map-feature-app
+/zh/blog/location-based-service-map-feature-app
