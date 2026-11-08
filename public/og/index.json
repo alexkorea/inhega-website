@@ -10096,6 +10096,38 @@
    "slug": "egov-c02a948d",
    "generated_at": "2026-11-05T10:01:33.569Z",
    "version": "1.4"
+  },
+  "news/eping-121171": {
+   "hash": "b9a4fd4989023334269d38f63a71529d4d80f3f6045f26185e7f3ba6926fbdc2",
+   "source": "pexels",
+   "seed": 77837670,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 40792826,
+   "pexels_author": "Dominiquemel16 Ramos",
+   "category": "화학물질",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121171",
+   "generated_at": "2026-11-08T03:48:58.423Z",
+   "version": "1.4"
+  },
+  "news/eping-121224": {
+   "hash": "4b60165258cddb7393cf1f2ae6007858947f24aad193d629fda829df52008475",
+   "source": "pexels",
+   "seed": 2630165443,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 40792825,
+   "pexels_author": "Dominiquemel16 Ramos",
+   "category": "식품원료, 식품첨가제, 식품용기 및 포장재",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121224",
+   "generated_at": "2026-11-08T03:48:59.184Z",
+   "version": "1.4"
   }
  }
 }
