@@ -22,6 +22,8 @@ export type NewsCorrection = {
   article?: Partial<NewsArticle>
   /** 이 시각(ISO) 이전에 생성된 구 기사는 정정 필드로 만든 기본 기사로 바꾼다. 이후 생성된 새 기사는 건드리지 않는다. */
   staleArticleBefore?: string
+  /** 사람이 원문 대조로 정정한 시각(ISO). 표시용 updated_at(사이트맵 lastmod·dateModified)을 이 시각까지 올린다(INH-NEWS-TITLES 11-08). */
+  corrected_at?: string
 }
 
 /**
@@ -33,6 +35,147 @@ export const UNPUBLISHED_DOC_KEYS: ReadonlySet<string> = new Set(['FR:2026-19164
 
 export const NEWS_CORRECTIONS: Record<string, NewsCorrection> = {
   ...NEWS_CORRECTIONS_RW2,
+  // ── INH-NEWS-TITLES(맥7 11-08 승인): QA1107 CAND 16건 + EPING:121171, 연방관보 API·WTO 통보문 원문 대조 ──
+  // 원문 제목의 분류 꼬리표('Medical Devices; ○○ Devices;', '…; Guidance for Industry; Availability')를 세미콜론째 옮긴 제목.
+  // 본문(기사)이 같은 결함 제목을 되풀이하면 staleArticleBefore 로 기본 기사, 본문이 멀쩡하면 article.h1·meta_title 만 덮는다.
+  // URL·slug 는 그대로(404 금지).
+  'FR:2026-22180': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 섬유성 폐질환 소견 의뢰용 영상의학 소프트웨어 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 섬유성 폐질환 관련 소견의 의뢰를 돕는 영상의학 소프트웨어(radiology software for referral of findings related to fibrotic lung disease)를 영상의학 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 30일입니다(분류 적용은 2024년 1월 12일부터).',
+  },
+  'FR:2026-22181': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 척수·경막외 시술용 척추 영상 시스템 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 척수·경막외 등 신경축 시술에 쓰는 척추 영상 시스템(spinal imaging system for neuraxial procedures)을 마취과 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 30일입니다(분류 적용은 2024년 1월 19일부터).',
+  },
+  'FR:2026-22182': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 일반판매(OTC)용 수면무호흡 위험 평가 기기 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 일반판매(OTC)용 수면무호흡 위험 평가 기기(over-the-counter device to assess risk of sleep apnea)를 마취과 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 30일입니다(분류 적용은 2024년 2월 6일부터).',
+  },
+  // 구 기사 본문에 생성 프롬프트(원문 자료 블록)가 새어 있었다 → 기본 기사.
+  'FR:2026-22203': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 의약품·생물의약품 전달 기기의 필수 약물전달 성능 특성 가이드라인 개정 초안 공개',
+    summary_ko:
+      '미국 식품의약국(FDA)이 업계용 가이드라인 개정 초안 「의약품·생물의약품 전달용 기기의 필수 약물전달 성능 특성(Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products)」을 공개했습니다. 2024년 7월 1일 공고된 초안 「필수 약물전달 출력(Essential Drug Delivery Outputs)」을 개정·대체하며, 약물전달 기기와 기기 구성품을 포함한 복합제품의 성능 정보·자료 작성 방법을 권고합니다. 의견 제출 마감은 2027년 1월 28일입니다.',
+    staleArticleBefore: '2026-11-08T06:00:00.000Z',
+  },
+  'FR:2026-21516': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 처방의약품 사용 관련 소프트웨어 규제 고려사항 최종 가이드라인 공개',
+    summary_ko:
+      '미국 식품의약국(FDA)이 업계용 최종 가이드라인 「처방의약품 사용 관련 소프트웨어 규제 고려사항(Regulatory Considerations for Prescription Drug Use-Related Software)」을 공개했습니다. 의약품 스폰서가 처방의약품 또는 의약품 주도 의약품-기기 복합제품과 함께 배포하는 소프트웨어 출력물에 FDA의 의약품 표시(labeling) 권한을 어떻게 적용하는지 설명하며, 2023년 9월 19일 공개된 같은 제목의 초안을 확정한 것입니다.',
+    staleArticleBefore: '2026-11-08T06:00:00.000Z',
+  },
+  'FR:2026-20725': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 조혈세포 농축 키트 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 조혈세포 농축 키트(hematopoietic cell enrichment kit)를 면역학·미생물학 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 9일입니다(분류 적용은 2023년 11월 6일부터).',
+    staleArticleBefore: '2026-10-27T11:00:00Z',
+  },
+  'FR:2026-20726': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 일반판매(OTC)용 영아 맥박수·산소포화도 모니터 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 일반판매(OTC)용 영아 맥박수·산소포화도 모니터(infant pulse rate and oxygen saturation monitor for over-the-counter use)를 심혈관 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 9일입니다(분류 적용은 2023년 11월 8일부터).',
+    staleArticleBefore: '2026-11-08T06:00:00.000Z',
+  },
+  'FR:2026-20727': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 가정 채취 검체로 성매개감염 비바이러스성 병원체 핵산을 검출하는 시스템 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 가정에서 채취한 검체로 성매개감염을 일으키는 비바이러스성 미생물의 핵산을 검출하는 시스템(system for detection of nucleic acid from non-viral microorganism(s) causing sexually transmitted infections using home-collected specimens)을 면역학·미생물학 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 시행일은 2026년 10월 9일입니다(분류 적용은 2023년 11월 15일부터).',
+    article: {
+      h1: '미국 FDA, 가정 채취 검체로 성매개감염 비바이러스성 병원체 핵산을 검출하는 시스템 2등급(특별관리) 분류',
+      meta_title: '미국 FDA, 가정 채취 검체 성매개감염 핵산 검출 시스템 2등급(특별관리) 분류',
+    },
+  },
+  'FR:2026-20630': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 APHIS, 절화 수입규정 개정 — 국화 흰녹병 관련 조항 삭제',
+    summary_ko:
+      '미국 농무부 동식물검역소(APHIS)가 신선 절화 수입규정에서 품목별 수입요건을 삭제해 농산물 수입요건 데이터베이스(ACIR)로 옮기고, 국화 흰녹병(Puccinia horiana, CWR) 발생국산 국화속(Chrysanthemum)·Leucanthemella·Nipponanthemum 절화의 수입 제한을 모두 없애는 최종 규칙을 공고했습니다. 시행일은 2026년 11월 9일입니다.',
+    article: {
+      h1: '미국 APHIS, 절화 수입규정 개정 — 국화 흰녹병 관련 조항 삭제',
+      meta_title: '미국 APHIS, 절화 수입규정 개정 — 국화 흰녹병 관련 조항 삭제',
+    },
+  },
+  'FR:2026-20440': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 비열·기계적 조직 절제용 집속초음파 시스템 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 비열·기계적 조직 절제용 집속초음파 시스템(focused ultrasound system for non-thermal, mechanical tissue ablation)을 일반·성형외과 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 6일입니다(분류 적용은 2023년 10월 6일부터).',
+    article: {
+      h1: '미국 FDA, 비열·기계적 조직 절제용 집속초음파 시스템 2등급(특별관리) 분류',
+      meta_title: '미국 FDA, 비열·기계적 조직 절제용 집속초음파 시스템 2등급(특별관리) 분류',
+    },
+  },
+  'FR:2026-20441': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 맥박산소측정 보조용 고산소증 모니터링 기기 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 맥박산소측정 보조용 고산소증 모니터링 기기(hyperoxia monitoring device adjunct to pulse oximetry)를 심혈관 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 6일입니다(분류 적용은 2023년 10월 12일부터).',
+    staleArticleBefore: '2026-10-27T11:00:00Z',
+  },
+  'FR:2026-20443': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 유전성 암 소인 평가용 고처리량 DNA 시퀀싱 검사 시스템 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 유전성 암 소인 평가용 고처리량 DNA 시퀀싱 검사 시스템(high throughput DNA sequencing for hereditary cancer predisposition assessment test system)을 면역학·미생물학 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 10월 6일입니다(분류 적용은 2023년 9월 29일부터).',
+    staleArticleBefore: '2026-10-27T11:00:00Z',
+  },
+  'FR:2026-20448': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 일부 2등급 임상독성 검사 시스템 시판전신고(510(k)) 면제',
+    summary_ko:
+      '미국 식품의약국(FDA)이 일부 2등급 임상독성 검사 시스템(certain clinical toxicology test systems)을 일정 제한 아래 시판전신고(510(k)) 대상에서 면제하는 최종 명령을 공고하고, 연방규정집(CFR)의 해당 분류 조문을 고쳤습니다. 면제는 즉시 효력이 있으며 시행일은 2026년 10월 6일입니다.',
+    article: {
+      h1: '미국 FDA, 일부 2등급 임상독성 검사 시스템 시판전신고(510(k)) 면제',
+      meta_title: '미국 FDA, 일부 2등급 임상독성 검사 시스템 시판전신고(510(k)) 면제',
+    },
+  },
+  'FR:2026-20075': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 상온 혈관 자가이식편 세척·보관 용액 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 상온에서 쓰는 혈관 자가이식편 세척·보관 용액(flushing and storage solution for vascular autografts at room temperature)을 소화기·비뇨기 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 9월 30일입니다(분류 적용은 2023년 10월 4일부터).',
+    opportunity_reason: '미국에 해당 기기를 수출하는 기업은 2류 분류와 특별관리 항목(시행 2026-09-30)을 확인할 필요가 있습니다.', // RW2 값 유지
+    stage: '확정',
+    deadline: '2026-09-30',
+    staleArticleBefore: '2026-11-08T06:00:00.000Z',
+  },
+  'FR:2026-19074': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 FDA, 영상의학 컴퓨터 보조 검출·진단 기기와 컴퓨터 보조 분류·알림 기기 시판전신고 일부 면제',
+    summary_ko:
+      '미국 식품의약국(FDA)이 영상의학 컴퓨터 보조 검출·진단 기기(computer-aided detection and/or diagnosis devices)와 컴퓨터 보조 분류·알림 기기(computer-aided triage and notification devices)의 시판전신고(510(k)) 일부 면제 청원(2025년 12월 29일 연방관보 공고)에 대한 최종 결정을 명령으로 공고했습니다. 시행일은 2026년 9월 17일입니다.',
+    article: {
+      h1: '미국 FDA, 영상의학 컴퓨터 보조 검출·진단 기기와 컴퓨터 보조 분류·알림 기기 시판전신고 일부 면제',
+      meta_title: '미국 FDA, 영상의학 컴퓨터 보조 검출·진단·분류 기기 시판전신고 일부 면제',
+    },
+  },
+  'FR:2026-19177': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 농무부, 북동부 등 연방 우유 유통명령의 통일 가격 산정 규정 정정',
+    summary_ko:
+      '미국 농무부 농산물유통청(AMS)이 11개 연방 우유 유통명령(FMMO)의 가격 규정을 개정한 2025년 1월 17일 최종 규칙을 정정하는 규칙을 공고했습니다. 오하이오주 모건 카운티(Morgan County)의 1등급(Class I) 가격차를 바로잡고, 사우스다코타주 섀넌 카운티(Shannon County)를 1등급 가격차 표에서 삭제합니다. 시행일은 2026년 9월 18일입니다.',
+    staleArticleBefore: '2026-11-08T06:00:00.000Z',
+  },
+  // WTO G/TBT/N/USA/2289/Add.2(2026-11-06) = 연방관보 2026-22576 최종 규칙. 'Significant New Use Rules(SNUR)'를
+  // '중요한 신용 사용 규칙'으로 오역, 본문 전체가 같은 오역을 되풀이 → 기본 기사.
+  'EPING:121171': {
+    corrected_at: '2026-11-08T06:40:00.000Z',
+    title_ko: '미국 EPA, 특정 화학물질에 대한 중요 신규 사용 규칙(SNUR) 최종 공표(25-3.5e)',
+    summary_ko:
+      '미국 환경보호청(EPA)이 독성물질관리법(TSCA)에 따라 제조전신고(PMN) 대상이면서 TSCA 명령(Order)을 받은 특정 화학물질에 대해 중요 신규 사용 규칙(SNUR)을 최종 공표했습니다. 중요 신규 사용으로 지정된 활동을 위해 해당 물질을 제조(수입 포함)하거나 가공하려는 자는 시작 최소 90일 전에 EPA에 신고해야 하며, EPA가 신고를 검토·결정하기 전에는 그 활동을 시작할 수 없습니다. 연방관보 게재일은 2026년 11월 5일, 시행일은 2027년 1월 4일입니다(WTO 통보 G/TBT/N/USA/2289/Add.2).',
+    staleArticleBefore: '2026-11-08T06:00:00.000Z',
+  },
   // ── QA1107-INHEGA #1(맥6 실측 11-07): 제목 오역·세미콜론 꼬리표, 연방관보 API 원문 대조(11-08) ──
   // 'Unleashing the Power of Unlicensed Ultra-Wideband Devices; Petition of Robert Bosch LLC …'(FCC, Proposed rule)
   // 을 'ula 밴드 …'로 잘라 옮겼다. 단계 '초안'·마감 빈칸도 원문(의견 2026-12-02, 반론 2027-01-04)과 달랐다.
@@ -255,10 +398,12 @@ export const NEWS_CORRECTIONS: Record<string, NewsCorrection> = {
 export function applyNewsCorrection<T extends { doc_key: string; article: NewsArticle | null } & Parameters<typeof basicArticle>[0]>(item: T): T {
   const c = NEWS_CORRECTIONS[item.doc_key]
   if (!c) return item
-  const { article, staleArticleBefore, ...fields } = c
+  const { article, staleArticleBefore, corrected_at, ...fields } = c
+  const bumped = corrected_at && 'updated_at' in item && String((item as { updated_at?: string }).updated_at || '') < corrected_at
   const merged: T = {
     ...item,
     ...fields,
+    ...(bumped ? { updated_at: corrected_at } : {}),
     article: item.article && article ? { ...item.article, ...article } : item.article,
   }
   if (staleArticleBefore && merged.article && (merged.article.generated_at || '') < staleArticleBefore) {
