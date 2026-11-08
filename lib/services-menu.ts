@@ -58,8 +58,10 @@ export function getServiceMenuSelectOptions(locale: CatalogLocale): string[] {
 }
 
 /** 선택지를 분야 그룹으로 — <optgroup>·견적폼 소제목용. '기타'는 따로(getServiceMenuOther). */
-export function getServiceMenuSelectGroups(locale: CatalogLocale): { id: string; label: string; options: string[] }[] {
-  return getServiceMenuByGroup(locale).map((g) => ({ id: g.id, label: g.label, options: g.items.map((i) => i.shortTitle) }))
+export function getServiceMenuSelectGroups(locale: CatalogLocale): { id: string; label: string; options: string[]; thumbSlug: string }[] {
+  // thumbSlug(QA1107-INHEGA #3): 홈 분야 카드 묶음의 첫 카드 slug — 견적폼 분야 버튼 썸네일은 그 업종 사진 400w
+  // (/images/industry/<slug>-400.webp, photo-gate 가 존재를 보장). 'use client' 라 service-card-images 는 import 하지 않는다.
+  return getServiceMenuByGroup(locale).map((g) => ({ id: g.id, label: g.label, options: g.items.map((i) => i.shortTitle), thumbSlug: g.items[0]?.slug ?? '' }))
 }
 
 export function getServiceMenuOther(locale: CatalogLocale): string {

@@ -33,6 +33,45 @@ export const UNPUBLISHED_DOC_KEYS: ReadonlySet<string> = new Set(['FR:2026-19164
 
 export const NEWS_CORRECTIONS: Record<string, NewsCorrection> = {
   ...NEWS_CORRECTIONS_RW2,
+  // ── QA1107-INHEGA #1(맥6 실측 11-07): 제목 오역·세미콜론 꼬리표, 연방관보 API 원문 대조(11-08) ──
+  // 'Unleashing the Power of Unlicensed Ultra-Wideband Devices; Petition of Robert Bosch LLC …'(FCC, Proposed rule)
+  // 을 'ula 밴드 …'로 잘라 옮겼다. 단계 '초안'·마감 빈칸도 원문(의견 2026-12-02, 반론 2027-01-04)과 달랐다.
+  'FR:2026-22337': {
+    title_ko: '미국 FCC, 초광대역(UWB) 기술 발전에 따른 무선기기 규칙 개정 제안',
+    product: '초광대역(UWB) 무선기기',
+    stage: '의견수렴',
+    deadline: '2026-12-02',
+    summary_ko:
+      '미국 연방통신위원회(FCC)가 2002년에 처음 채택한 초광대역(UWB) 기기 규칙(Part 15 Subpart F)을 그동안의 기술 발전에 맞게 고치는 규칙 개정안을 공고했습니다. 로버트 보쉬(Robert Bosch LLC)와 자동차혁신연합(Alliance for Automotive Innovation) 등의 개정 청원을 함께 다룹니다. 의견 제출 마감은 2026년 12월 2일, 반론 의견 마감은 2027년 1월 4일입니다.',
+    opportunity_reason:
+      '미국에 UWB 기능이 들어간 위치 추적기·차량용 기기·스마트 기기를 수출하는 기업은 개정안의 기술 기준 변화가 FCC 장비 인증에 미치는 영향을 확인할 필요가 있습니다.',
+    staleArticleBefore: '2026-11-08T05:00:00.000Z',
+  },
+  // FDA 분류 명령 4건 — 원문 제목의 분류 꼬리표('Medical Devices; ○○ Devices;')를 세미콜론째 옮겼다.
+  'FR:2026-22589': {
+    title_ko: '미국 FDA, 정형외과용 웨어러블 진동기기 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 정형외과용 웨어러블 진동기기(wearable vibration device for orthopedic use)를 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 11월 5일입니다.',
+    staleArticleBefore: '2026-11-08T05:00:00.000Z',
+  },
+  'FR:2026-22590': {
+    title_ko: '미국 FDA, 경도인지장애 예후 평가 소프트웨어 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 경도인지장애 예후 평가 소프트웨어(prognostic assessment software of mild cognitive impairment)를 신경계 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 11월 5일입니다.',
+    staleArticleBefore: '2026-11-08T05:00:00.000Z',
+  },
+  'FR:2026-22593': {
+    title_ko: '미국 FDA, 인공지능 자궁경부 세포검사 디지털 슬라이드 영상 시스템 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 인공지능 알고리즘을 쓰는 자궁경부 세포검사 디지털 슬라이드 영상 시스템(digital cervical cytology slide imaging system with artificial intelligence algorithm)을 혈액학·병리학 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 시행일은 2026년 11월 5일입니다.',
+    staleArticleBefore: '2026-11-08T05:00:00.000Z',
+  },
+  'FR:2026-22179': {
+    title_ko: '미국 FDA, 피부암 의심 병변용 소프트웨어 보조 진단기기 2등급(특별관리) 분류',
+    summary_ko:
+      '미국 식품의약국(FDA)이 의사가 피부암이 의심되는 병변에 쓰는 소프트웨어 보조 진단기기(software-aided adjunctive diagnostic device)를 일반·성형외과 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 시행일은 2026년 10월 30일입니다.',
+    staleArticleBefore: '2026-11-08T05:00:00.000Z',
+  },
   // ── INHEGA-QA1102-FIX B-1(보스눈 11-02): 자동번역 오역·한자 혼입 재번역, 원문 대조 ──
   // garage door operators 를 '주차장 문 운반기'·'문장치기'로 오역. 연방관보 2026-22213(직접 최종규칙):
   // 시행 2026-12-29, 중대한 반대 의견 마감 2026-11-30 — '확정' 단계의 날짜는 시행일로 둔다.

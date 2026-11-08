@@ -18,6 +18,7 @@ import { notFound } from 'next/navigation'
 import { basicArticle, isEffectiveStage } from '@/lib/news-basic-article'
 import { findNewsBySlug, hasArticle, isHeld, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
 import { hasForeignScript } from '@/lib/news-script-gate'
+import { hasTitleDefect } from '@/lib/news-title-gate'
 import { countryLabel } from '@/lib/news-country'
 import {
   ORG_NAME,
@@ -43,7 +44,7 @@ async function getArticleItem(slug: string): Promise<NewsItem | null> {
   const item = hasArticle(found.article) ? found : { ...found, article: basicArticle(found) }
   // 시행일 게이트(news-date-gate)에 걸린 항목은 게시 보류 — 원문과 다른 날짜를 내보내지 않는다.
   // 한자·가나가 섞인 자동번역(news-script-gate)도 보류 — 목록과 같은 기준.
-  if (isHeld(item) || hasForeignScript(item)) return null
+  if (isHeld(item) || hasForeignScript(item) || hasTitleDefect(item)) return null
 
   // 수신단 정화가 붙기 전에 들어온 원고가 KV 에 남아 있다(모델 종료 토큰 `<|im_end|>`
   // 가 본문 끝에 찍혀 라이브에 노출된 적이 있다). 본문 블록은 parseInline 이 걷어내고,

@@ -117,6 +117,9 @@ function CtaText({ text, lang }: { text: string; lang: IndustryLocale }) {
   )
 }
 
+/** 단계 카드 번호 ①~⑩ */
+const CIRCLED = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩']
+
 export default function IndustryServicePage({ page }: { page: IndustryPage }) {
   const { slug, lang } = page
   const ui = UI[lang]
@@ -235,12 +238,15 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                       return (
                         <div key={s.h2}>
                           <h2>{s.h2}</h2>
-                          <ol className="svc-steps">
+                          {/* QA1107 #2: 식품제조가공업 '처리 프로세스' 와 같은 세로 단계 카드(①~⑤) */}
+                          <ol className="svc-steps-v" style={{ listStyle: 'none', margin: '1rem 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             {cards.steps.items.map((st, i) => (
-                              <li key={st.title}>
-                                <span className="svc-step-num" aria-hidden="true">{i + 1}</span>
-                                <span className="svc-step-title">{st.title}</span>
-                                {st.desc && <span className="svc-step-desc">{st.desc}</span>}
+                              <li key={st.title} style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start', background: 'var(--white)', borderRadius: '12px', padding: '1.25rem 1.5rem', border: '1px solid var(--border)', margin: 0 }}>
+                                <span aria-hidden="true" style={{ width: '40px', height: '40px', background: 'var(--navy)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.125rem', fontWeight: 700, color: 'white', flexShrink: 0 }}>{CIRCLED[i] ?? i + 1}</span>
+                                <span style={{ minWidth: 0 }}>
+                                  <span style={{ display: 'block', fontWeight: 700, color: 'var(--charcoal)', marginBottom: st.desc ? '0.25rem' : 0 }}>{st.title}</span>
+                                  {st.desc && <span style={{ display: 'block', fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>{st.desc}</span>}
+                                </span>
                               </li>
                             ))}
                           </ol>
@@ -295,6 +301,23 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
 
               {/* Sidebar — 기존 서비스 페이지 CTA 카드 그대로 */}
               <aside style={{ position: 'sticky', top: '6rem' }}>
+                {/* QA1107 #2: 식품제조가공업 쪽 사이드바와 같은 남색 '필요 서류' 박스 — lib/industry-cards 의 docs 가 있는 ko 쪽만 */}
+                {lang === 'ko' && INDUSTRY_CARDS[slug]?.docs && (
+                  <div className="industry-docs-box" style={{ background: 'var(--navy)', borderRadius: '16px', padding: '2rem', marginBottom: '1.5rem', color: 'white' }}>
+                    <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', marginBottom: '1.25rem' }}>필요 서류</h3>
+                    <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: '0.625rem' }}>
+                      {INDUSTRY_CARDS[slug]!.docs!.items.map((d) => (
+                        <li key={d} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.625rem', fontSize: '0.875rem', color: 'rgba(255,255,255,0.78)', lineHeight: 1.5 }}>
+                          <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e8b4bc" strokeWidth="3" style={{ flexShrink: 0, marginTop: '0.2rem' }}><path d="M20 6 9 17l-5-5" /></svg>
+                          {d}
+                        </li>
+                      ))}
+                    </ul>
+                    <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.5)', marginTop: '1rem', lineHeight: 1.6 }}>
+                      * 사업자 유형에 따라 추가 서류가 필요할 수 있습니다.
+                    </p>
+                  </div>
+                )}
                 <SidebarCta lang={lang} />
                 {otherLangs.length > 0 && (
                   <div style={{ marginTop: '1.5rem', background: 'var(--cream)', borderRadius: '12px', padding: '1.5rem', border: '1px solid var(--border)' }}>

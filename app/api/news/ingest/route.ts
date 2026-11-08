@@ -13,7 +13,7 @@
  *          "article_rejected":[{"doc_key":"...","reasons":["..."]}],
  *          "rejected":[{"doc_key":"...","reasons":["..."]}],
  *          "preserved":[{"doc_key":"...","fields":["title_ko"]}],
- *          "date_held":[{"doc_key":"...","reasons":["..."]}],"script_held":[{"doc_key":"...","reasons":["한자·가나 포함: title_ko"]}],"date_warned":[{"doc_key":"...","reasons":["..."]}]}
+ *          "date_held":[{"doc_key":"...","reasons":["..."]}],"script_held":[{"doc_key":"...","reasons":["한자·가나 포함: title_ko"]}],"title_held":[{"doc_key":"...","reasons":["제목에 세미콜론"]}],"date_warned":[{"doc_key":"...","reasons":["..."]}]}
  *
  * 법제처(kr_law_go_kr) 항목은 저장 전에 law.go.kr 원문 `<시행일자>` 와 제목·본문의 시행일을
  * 대조한다(lib/news-date-gate, QA1020-FIX). 불일치면 저장은 하되 **게시 보류**(목록·기사·
@@ -101,6 +101,9 @@ export async function POST(req: NextRequest) {
     }
     if (result.date_held.length) {
       console.warn('[news/ingest] 시행일 불일치 — 게시 보류', JSON.stringify(result.date_held))
+    }
+    if (result.title_held.length) {
+      console.warn('[news/ingest] 제목 품질 게이트 — 게시 보류', JSON.stringify(result.title_held))
     }
     if (result.script_held.length) {
       console.warn('[news/ingest] 한자·가나 포함 — 게시 보류', JSON.stringify(result.script_held))

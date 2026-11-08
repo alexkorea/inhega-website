@@ -689,6 +689,8 @@ input, textarea, select {
    잘리지 않게, 제목·요약은 2줄에서 자른다. 날짜·읽기 줄은 카드 바닥에 붙인다. */
 .blog-card-link { display: block; height: 100%; text-decoration: none; }
 .blog-card { display: flex; flex-direction: column; height: 100%; background: var(--white); border-radius: 16px; border: 1px solid var(--border); overflow: hidden; transition: all 0.3s ease; }
+/* QA1107-INHEGA #5: 목록 카드 썸네일 1x 800w 카드판 / 2x 1200w 정본 (app/(ko)/blog/page.tsx) */
+.blog-card-thumb-hd { background-image: var(--thumb-1x); background-image: image-set(var(--thumb-1x) 1x, var(--thumb-2x) 2x); }
 .blog-card-thumb { aspect-ratio: 16 / 9; flex: none; background-color: var(--navy) !important; background-size: cover !important; background-position: center !important; }
 .blog-card-body { display: flex; flex: 1; flex-direction: column; padding: 1.125rem 1.25rem; }
 .blog-card-body .badge { align-self: flex-start; }

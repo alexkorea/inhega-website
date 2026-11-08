@@ -9,6 +9,15 @@ export type IndustryCards = {
   steps?: { h2: string; items: { title: string; desc?: string }[]; note?: string }
 }
 
+/*
+ * QA1107-INHEGA #2(11-08): 식품제조가공업 쪽과 같은 모양 — 서류는 사이드바 남색 '필요 서류' 박스에도 싣고,
+ * 절차는 ①~⑤ 세로 단계 카드로 그린다(components/industry/IndustryServicePage). 사실 대조(11-08 law.go.kr 현행):
+ *  - 야영장업: 관광진흥법 제4조(시장·군수·구청장 등록)·시행령 제4조(등록기준 맞으면 등록증 발급)·
+ *    시행규칙 제2조 ①·②4호(LPG 완성검사 공동이용)·④3의2~3의4·4호(인허가 증명·사용전점검·수질검사·평면도)
+ *  - 태양광: 전기사업법 제7조①②⑤5호·제9조①④(준비기간·최초 전력거래일 30일 신고), 시행령 제4조의2
+ *    (일간신문 공고·14일/7일 전), 시행규칙 제4조①~③(3천kW 이하 시·도지사, 서류 1~5호, 법인 등기 공동이용)
+ */
+
 export const INDUSTRY_CARDS: Record<string, IndustryCards> = {
   'campground-business-registration': {
     docs: {
@@ -55,9 +64,8 @@ export const INDUSTRY_CARDS: Record<string, IndustryCards> = {
       items: [
         { title: '주민 의견수렴', desc: '일간신문 공고·열람' },
         { title: '신청서·서류 제출', desc: '3천kW 이하 시·도지사, 초과 장관' },
-        { title: '허가권자 검토', desc: '3천kW 초과는 전기위원회 심의' },
-        { title: '허가·준비기간 지정' },
-        { title: '설비 설치·사업 시작', desc: '준비기간 안에' },
+        { title: '검토·허가', desc: '3천kW 초과는 전기위원회 심의, 허가 때 준비기간 지정' },
+        { title: '설비 설치·사업 시작', desc: '지정된 준비기간 안에' },
         { title: '사업 시작 신고', desc: '최초 전력거래일부터 30일 이내' },
       ],
       note: '주민 의견수렴 공고는 환경영향평가 대상사업은 허가 신청일 14일 전, 소규모 환경영향평가 대상 등은 7일 전까지 해야 합니다.',

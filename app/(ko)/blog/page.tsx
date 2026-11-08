@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 // A-3: 목록은 본문 정본 대신 목록 전용 색인(prebuild 생성)을 읽는다 — 워커 번들에서 본문 제외.
 import { LIST_POSTS_KO } from '@/lib/blog-list-index.generated'
 import gridStyles from '@/app/services-list.module.css'
-import { ogCard } from '@/lib/og-thumbs.generated'
+import { ogCard, ogThumb } from '@/lib/og-thumbs.generated'
 import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, resolveBlogPage } from '@/lib/blog-pagination'
 
 const metadata = {
@@ -96,7 +96,12 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
                   >
                     <article className="blog-card">
                       {ogCard('ko', post.slug) && (
-                    <div className="blog-card-thumb" style={{ background: `url(${ogCard('ko', post.slug)}) center/cover` }} />
+                    <div
+                      className="blog-card-thumb blog-card-thumb-hd"
+                      // QA1107-INHEGA #5: 1x 는 목록 카드판(800×450), 2x 이상은 같은 레이아웃 1200w 정본(og/{slug}.png).
+                      // 파일 규격(THUMBNAIL_STANDARD §1)은 그대로 두고 고밀도 화면만 1200w 를 받는다 — globals.css .blog-card-thumb-hd
+                      style={{ ['--thumb-1x' as string]: `url(${ogCard('ko', post.slug)})`, ['--thumb-2x' as string]: `url(${ogThumb('ko', post.slug)})` }}
+                    />
                   )}
                       <div className="blog-card-body">
                         {post.category && (

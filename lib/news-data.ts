@@ -25,6 +25,7 @@ import { countryLabel, normalizeCountry } from './news-country'
 import { checkEffectiveDates, lawXmlUrl, mentionsEffectiveDate, parseLawXml } from './news-date-gate'
 import { applyNewsCorrection, dropHanKeywords, UNPUBLISHED_DOC_KEYS } from './news-corrections'
 import { cleanNewsProduct, foreignScriptFields, hasForeignScript } from './news-script-gate'
+import { hasTitleDefect, titleQualityReasons } from './news-title-gate'
 import { NEWS_LAW_DATES } from './news-date-verified'
 
 export { hasArticle }
@@ -438,6 +439,8 @@ export type UpsertResult = {
   date_held: ItemReject[]
   /** 한자·가나가 섞여 게시 보류된 항목(news-script-gate). 저장은 됐다 — 한국어로 다시 보내면 풀린다. */
   script_held: ItemReject[]
+  /** 제목 품질 게이트(news-title-gate)에 걸려 게시 보류된 항목 — 소문자 조각 시작·세미콜론·고유명사 누락. */
+  title_held: ItemReject[]
   /** 원문 재조회에 실패해 저장된 시행일자로 대조한 재수신 항목(보류 아님, 경고). */
   date_warned: ItemReject[]
 }
@@ -614,8 +617,13 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
     .map((it) => cleanNewsProduct(dropHanKeywords(applyNewsCorrection(it))))
     .map((it) => ({ doc_key: it.doc_key, reasons: foreignScriptFields(it).map((f) => `한자·가나 포함: ${f}`) }))
     .filter((r) => r.reasons.length > 0)
+  const title_held: ItemReject[] = merged
+    .filter((it) => sent.has(it.doc_key))
+    .map((it) => applyNewsCorrection(it))
+    .map((it) => ({ doc_key: it.doc_key, reasons: hasTitleDefect(it) ? titleQualityReasons(it) : [] }))
+    .filter((r) => r.reasons.length > 0)
 
-  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved, date_held, script_held, date_warned }
+  return { upserted, skipped, total: merged.length, articles, article_rejected, rejected, preserved, date_held, script_held, title_held, date_warned }
 }
 
 /**
@@ -665,13 +673,13 @@ export const toCard = ({ article, ...rest }: NewsItem): NewsCard => ({
  * 경우까지 막을 수는 없다. 렌더 쪽에서 한 번 더 거른다. **저장소에서 지우지는 않는다**
  * — readAllNews 가 걸러 버리면 upsert 의 read-modify-write 가 그 항목을 통째로 날린다.
  */
-export const isListable = (it: NewsItem) => Boolean((it.title_ko || '').trim()) && !isHeld(it) && !hasForeignScript(it)
+export const isListable = (it: NewsItem) => Boolean((it.title_ko || '').trim()) && !isHeld(it) && !hasForeignScript(it) && !hasTitleDefect(it)
 
 export const listableNews = (items: NewsItem[]) => items.filter(isListable)
 
 /** 기사가 붙어 색인 대상이 되는 항목만. 사이트맵·관련글에 쓴다. */
 export function articlesOf(items: NewsItem[]): NewsItem[] {
-  return items.filter((it) => it.slug && hasArticle(it.article) && !isHeld(it) && !hasForeignScript(it))
+  return items.filter((it) => it.slug && hasArticle(it.article) && !isHeld(it) && !hasForeignScript(it) && !hasTitleDefect(it))
 }
 
 /* ────────────────────────── 조회 ────────────────────────── */

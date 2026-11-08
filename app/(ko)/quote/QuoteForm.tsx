@@ -119,6 +119,10 @@ export default function QuoteForm() {
                         className={styles.fieldCard}
                         data-selected={g.options.includes(form.service)}
                       >
+                        {g.thumbSlug && (
+                          // QA1107 #3: 홈 분야 카드와 같은 업종 사진 400w(장식 — 글자 라벨이 이름을 말한다)
+                          <img className={styles.fieldThumb} src={`/images/industry/${g.thumbSlug}-400.webp`} alt="" width={400} height={250} loading="lazy" decoding="async" />
+                        )}
                         <span className={styles.fieldCardTitle}>{g.label}</span>
                         <span className={styles.fieldCardCount}>{g.options.length}종</span>
                       </button>
