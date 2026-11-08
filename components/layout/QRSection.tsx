@@ -27,8 +27,9 @@ const sectionData: Record<Locale, { title: string; subtitle: string }> = {
 const qrItems = [
   { src: '/images/qr/kakao-20260923', label: 'KakaoTalk' },
   { src: '/images/qr/wechat-20260923', label: 'WeChat' },
-  // LINEQR-HIRES(11-08, 맥7 지시): 보스 원본 765px 를 무손실 WebP 로만 옮긴 것(픽셀 동일). 표시 크기는 그대로 110px.
-  { src: '/images/qr/line-20261108', label: 'LINE', w: 765 },
+  // LINEQR-HIRES(11-08, 맥7 지시): 보스 원본 765px 를 무손실 WebP 로만 옮긴 것(픽셀 동일).
+  // LINEQR-SIZE(11-08, 보스 5765 ②): 원본 흰 여백(무늬 77.5%) 때문에 칸만 1.25배(110→138px)로 키워 무늬를 옆 QR 과 맞춘다. 이미지는 그대로.
+  { src: '/images/qr/line-20261108', label: 'LINE', w: 765, box: 138 },
   { src: '/images/qr/whatsapp-20260923', label: 'WhatsApp' },
 ]
 
@@ -63,11 +64,12 @@ export default function QRSection({ locale }: { locale: Locale }) {
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
+                justifyContent: 'flex-end',
                 gap: '0.5rem',
                 boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
               }}
             >
-              <a href={qrHref(item.src)} target="_blank" rel="noopener noreferrer" aria-label={item.label} style={{ display: 'block', position: 'relative', width: '110px', height: '110px', borderRadius: '8px', overflow: 'hidden' }}>
+              <a href={qrHref(item.src)} target="_blank" rel="noopener noreferrer" aria-label={item.label} style={{ display: 'block', position: 'relative', width: `${item.box ?? 110}px`, height: `${item.box ?? 110}px`, borderRadius: '8px', overflow: 'hidden' }}>
                 <FillImage
                   base={item.src}
                   small={item.w ?? 300}

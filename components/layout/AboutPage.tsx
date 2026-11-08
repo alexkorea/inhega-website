@@ -226,12 +226,12 @@ export default function AboutPage({ locale }: { locale: Locale }) {
             <div className="fade-in delay-3 about-qr-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               {[
                 { src: '/images/qr/kakao.jpg', label: 'KakaoTalk' },
-                { src: '/images/qr/line-20261108-765.jpg', label: 'LINE' },
+                { src: '/images/qr/line-20261108-765.jpg', label: 'LINE', box: 112 }, // LINEQR-SIZE(11-08 보스 5765 ②): 흰 여백 원본이라 칸만 1.25배
                 { src: '/images/qr/wechat.jpg', label: 'WeChat' },
                 { src: '/images/qr/whatsapp.jpg', label: 'WhatsApp' },
               ].map((qr) => (
-                <div key={qr.label} style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: '12px', padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
-                  <a href={qrHref(qr.src)} target="_blank" rel="noopener noreferrer" aria-label={qr.label} style={{ display: 'block', lineHeight: 0 }}><img src={qr.src} alt={qr.label + ' QR'} style={{ width: '90px', height: '90px', borderRadius: '8px', objectFit: 'cover' }} /></a>
+                <div key={qr.label} style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: '12px', padding: qr.box ? '1rem 0.5rem' : '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', gap: '0.75rem' }}>
+                  <a href={qrHref(qr.src)} target="_blank" rel="noopener noreferrer" aria-label={qr.label} style={{ display: 'block', lineHeight: 0 }}><img src={qr.src} alt={qr.label + ' QR'} style={{ width: `${qr.box ?? 90}px`, height: `${qr.box ?? 90}px`, borderRadius: '8px', objectFit: 'cover' }} /></a>
                   <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'rgba(255,255,255,0.75)' }}>{qr.label}</span>
                 </div>
               ))}
