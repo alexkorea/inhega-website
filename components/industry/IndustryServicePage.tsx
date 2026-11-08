@@ -242,7 +242,7 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                           <ol className="svc-steps-v" style={{ listStyle: 'none', margin: '1rem 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             {cards.steps.items.map((st, i) => (
                               <li key={st.title} style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start', background: 'var(--white)', borderRadius: '12px', padding: '1.25rem 1.5rem', border: '1px solid var(--border)', margin: 0 }}>
-                                <span aria-hidden="true" style={{ width: '40px', height: '40px', background: 'var(--navy)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.125rem', fontWeight: 700, color: 'white', flexShrink: 0 }}>{CIRCLED[i] ?? i + 1}</span>
+                                <span aria-hidden="true" style={{ width: '40px', display: 'flex', justifyContent: 'center', fontSize: '2rem', lineHeight: 1, fontWeight: 700, color: 'var(--navy)', flexShrink: 0 }}>{CIRCLED[i] ?? i + 1}</span>
                                 <span style={{ minWidth: 0 }}>
                                   <span style={{ display: 'block', fontWeight: 700, color: 'var(--charcoal)', marginBottom: st.desc ? '0.25rem' : 0 }}>{st.title}</span>
                                   {st.desc && <span style={{ display: 'block', fontSize: '0.875rem', color: 'var(--slate)', lineHeight: 1.6 }}>{st.desc}</span>}

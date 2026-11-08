@@ -55,12 +55,16 @@ export const NEWS_CORRECTIONS: Record<string, NewsCorrection> = {
     staleArticleBefore: '2026-11-08T05:00:00.000Z',
   },
   'FR:2026-22590': {
+    stage: '확정',
+    deadline: '2026-11-05', // 원문 'This order is effective November 5, 2026'
     title_ko: '미국 FDA, 경도인지장애 예후 평가 소프트웨어 2등급(특별관리) 분류',
     summary_ko:
       '미국 식품의약국(FDA)이 경도인지장애 예후 평가 소프트웨어(prognostic assessment software of mild cognitive impairment)를 신경계 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 해당 기기 유형에 적용되는 특별관리 항목이 명령에 명시되며, 시행일은 2026년 11월 5일입니다.',
     staleArticleBefore: '2026-11-08T05:00:00.000Z',
   },
   'FR:2026-22593': {
+    stage: '확정',
+    deadline: '2026-11-05', // 원문 'This order is effective November 5, 2026'
     title_ko: '미국 FDA, 인공지능 자궁경부 세포검사 디지털 슬라이드 영상 시스템 2등급(특별관리) 분류',
     summary_ko:
       '미국 식품의약국(FDA)이 인공지능 알고리즘을 쓰는 자궁경부 세포검사 디지털 슬라이드 영상 시스템(digital cervical cytology slide imaging system with artificial intelligence algorithm)을 혈액학·병리학 기기 중 2등급(특별관리, special controls)으로 분류하는 최종 명령을 공고했습니다. 시행일은 2026년 11월 5일입니다.',
