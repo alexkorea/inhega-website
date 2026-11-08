@@ -27,7 +27,8 @@ const sectionData: Record<Locale, { title: string; subtitle: string }> = {
 const qrItems = [
   { src: '/images/qr/kakao-20260923', label: 'KakaoTalk' },
   { src: '/images/qr/wechat-20260923', label: 'WeChat' },
-  { src: '/images/qr/line-20260923', label: 'LINE' },
+  // LINEQR-HIRES(11-08, 맥7 지시): 보스 원본 765px 를 무손실 WebP 로만 옮긴 것(픽셀 동일). 표시 크기는 그대로 110px.
+  { src: '/images/qr/line-20261108', label: 'LINE', w: 765 },
   { src: '/images/qr/whatsapp-20260923', label: 'WhatsApp' },
 ]
 
@@ -69,8 +70,8 @@ export default function QRSection({ locale }: { locale: Locale }) {
               <a href={qrHref(item.src)} target="_blank" rel="noopener noreferrer" aria-label={item.label} style={{ display: 'block', position: 'relative', width: '110px', height: '110px', borderRadius: '8px', overflow: 'hidden' }}>
                 <FillImage
                   base={item.src}
-                  small={300}
-                  large={300}
+                  small={item.w ?? 300}
+                  large={item.w ?? 300}
                   alt={item.label + ' QR'}
                   sizes="160px"
                 />
