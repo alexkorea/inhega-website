@@ -840,3 +840,7 @@
 /en/blog/location-based-service-map-feature-app
 /ja/blog/location-based-service-map-feature-app
 /zh/blog/location-based-service-map-feature-app
+/blog/nonprofit-informal-group-to-association
+/en/blog/nonprofit-informal-group-to-association
+/ja/blog/nonprofit-informal-group-to-association
+/zh/blog/nonprofit-informal-group-to-association
