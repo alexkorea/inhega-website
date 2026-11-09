@@ -844,3 +844,7 @@
 /en/blog/nonprofit-informal-group-to-association
 /ja/blog/nonprofit-informal-group-to-association
 /zh/blog/nonprofit-informal-group-to-association
+/blog/cosmetics-distributor-compliance-obligations
+/en/blog/cosmetics-distributor-compliance-obligations
+/ja/blog/cosmetics-distributor-compliance-obligations
+/zh/blog/cosmetics-distributor-compliance-obligations

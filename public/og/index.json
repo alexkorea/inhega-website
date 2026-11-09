@@ -10156,6 +10156,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-08T06:38:08.394Z",
    "version": "1.4"
+  },
+  "news/eping-121119": {
+   "hash": "d249f68b0ca1200ed1c1ff9913f55549e4f5d763dbaa83209aac2bedfebf413e",
+   "source": "pexels",
+   "seed": 2119215428,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 37436290,
+   "pexels_author": "Henry Acevedo",
+   "category": "식품첨가물",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121119",
+   "title": "실린디아이 산화물 사용 허가 변경",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-09T10:03:36.021Z",
+   "version": "1.4"
   }
  }
 }
