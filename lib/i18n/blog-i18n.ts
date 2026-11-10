@@ -8442,6 +8442,151 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>化粧品責任販売業の事後管理は日程管理から</h3><p>YouSun Administrative Agencyが、実績報告、原料目録の報告、管理者交代に伴う変更登録の書類準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-distributor-compliance-obligations">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── g2b-unfair-bidder-restriction-period (inhega-daily 2026-11-10) ──
+  {
+    slug: 'g2b-unfair-bidder-restriction-period',
+    locale: 'en',
+    title: 'Bidding Eligibility Restriction for Unfair Business Operators in Korea — Periods by Violation and Effect on KONEPS Bidding',
+    metaTitle: 'Bidding Eligibility Restriction in Korea — Periods by Violation and KONEPS Posting',
+    metaDescription: 'A bidding eligibility restriction in Korea runs from 1 month to 2 years and is posted on the e-procurement system. Periods by violation and wider effects.',
+    category: 'Public Procurement',
+    excerpt: 'Once restricted as an unfair business operator, a company cannot bid at any central government agency for the restriction period. Periods by violation, extension and reduction rules, KONEPS posting, the link to representatives and restrictions before contract signing.',
+    content: `<div class="toc"><p>Contents</p><ol><li>How the restriction works and what triggers it</li><li>Periods by violation, extension and reduction</li><li>Effect on KONEPS bidding</li><li>FAQ</li></ol></div>
+<p><strong>Under the Act on Contracts to Which the State Is a Party, a bidding eligibility restriction for an unfair business operator (부정당업자) is imposed by the head of a central government agency for 1 month to 2 years. It is posted on the e-procurement system, and for that period the company cannot bid at other central agencies either.</strong> It is a sanction separate from KONEPS (Narajangteo) bidder registration, so bidding is blocked even while the registration stays in place. The period follows a schedule by type of violation and can be extended or reduced.</p>
+<p>Registration basics are covered in <a href="/en/blog/procurement-narajangteo-registration-guide">our KONEPS registration guide</a>, and name or representative changes in <a href="/en/blog/procurement-narajangteo-registration-change">our change registration guide</a>. This page focuses on periods and practical effects.</p>
+
+<h2>How the restriction works and what triggers it</h2>
+<p>The Act lists the grounds, the Enforcement Decree sets the range and the Enforcement Rule schedule sets the period for each act. The agency must notify other central agencies immediately, and they must restrict the same company. Common triggers in bidding practice are:</p>
+<ol><li>agreeing bid amounts or volumes in advance, or colluding so a particular bidder wins</li><li>forging or altering bid or contract documents, or submitting false documents, including registration documents</li><li>failing to sign or perform a contract without justifiable reason</li><li>intentionally submitting an invalid bid</li><li>subcontracting in breach of the rules, such as without the ordering agency's approval</li><li>obstructing bidding, contract performance, supervision or inspection</li></ol>
+<p>No restriction is imposed if the act was committed by an agent or employee and the company exercised due care and supervision to prevent it, or if the violation resulted from a natural disaster or similar unavoidable cause.</p>
+
+<h2>Periods by violation, extension and reduction</h2>
+<table><thead><tr><th>Violation</th><th>Standard period</th></tr></thead><tbody>
+<tr><td>Leading collusion and winning the award</td><td>2 years</td></tr>
+<tr><td>Leading collusion</td><td>1 year</td></tr>
+<tr><td>Agreeing bid amounts or colluding</td><td>6 months</td></tr>
+<tr><td>Winning the award with forged, altered or false documents</td><td>1 year</td></tr>
+<tr><td>Submitting forged, altered or false documents</td><td>6 months</td></tr>
+<tr><td>Not signing or not performing a contract</td><td>6 months</td></tr>
+<tr><td>Intentionally submitting an invalid bid</td><td>6 months</td></tr>
+<tr><td>Subcontracting without the ordering agency's approval</td><td>6 months</td></tr>
+<tr><td>Breaching major contract conditions</td><td>3 months</td></tr>
+<tr><td>Obstructing bidding, performance, supervision or inspection</td><td>3 months</td></tr>
+</tbody></table>
+<p>The schedule is a starting point. If a new ground arises between the date of the restriction and 6 months after it ends, the period may be extended by up to 1/2, but the total cannot exceed 2 years. Where several acts are involved, the longest standard applies. The period may also be reduced by up to 1/2 considering motive, content and frequency, and by a further 1/2 where the violation is clearly minor. The reduced period must still be at least 1 month, and bribery cannot be reduced. No restriction may be imposed once 5 years have passed since the act ended (7 years for collusion and bribery).</p>
+
+<h2>Effect on KONEPS bidding</h2>
+<p>The agency posts the company name, representative, business registration number, period and specific grounds on the e-procurement system before the period starts. Every agency checks bidders against this system, so a restriction from one agency applies to bids at all central agencies. Restrictions by local governments or public institutions under other laws also block national bids once notified or posted.</p>
+<p>When a corporation is restricted, the representative in charge of the bid or contract is restricted too, and other corporations headed by that person cannot bid either. Ordering agencies must check corporate registration and licence or registration numbers to stop companies evading restrictions by changing names or representatives. If you receive a notice, check the following in order.</p>
+<ol><li>Match the stated ground to an act in the schedule.</li><li>Gather evidence of due care, unavoidable causes or other reduction factors.</li><li>Review pending awards: if the restriction starts before signing, the agency cannot sign with that winner.</li><li>For long-term continuing contracts, confirm whether annual contracts may still be signed after the first contract.</li><li>Adjust bid schedules of other corporations headed by the same representative.</li></ol>
+<p>Private (negotiated) contracts are in principle also unavailable during the period.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Is my KONEPS registration cancelled?</p><p class="faq-a">A. The rules do not cancel the registration. They bar bidding during the period and post the restriction on the e-procurement system, so bidding is blocked regardless of registration status.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can we bid after changing our name or setting up a new company?</p><p class="faq-a">A. Agencies must check corporate and licence or registration numbers, and other corporations headed by a restricted representative cannot bid.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can the period be shorter than the schedule?</p><p class="faq-a">A. Yes, by up to 1/2, and by a further 1/2 if clearly minor, but never below 1 month, and bribery is never reduced.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is there an alternative to the restriction?</p><p class="faq-a">A. Where responsibility is minor or the restriction would prevent valid competitive bidding, a penalty surcharge may replace it. For help, see <a href="/en/services/procurement">our KONEPS registration service</a>.</p></div>
+</div>
+
+<div class="cta-block"><h3>Review your position after a restriction notice</h3><p>YouSun Administrative Agency helps organise the grounds, prepare reduction materials and check KONEPS registration details. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=g2b-unfair-bidder-restriction-period">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'g2b-unfair-bidder-restriction-period',
+    locale: 'zh',
+    title: '不正当业者投标参与资格限制 — 按违规行为的限制期间与对Narajangteo投标的影响',
+    metaTitle: '不正当业者投标参与资格限制 — 按行为的限制期间与电子采购系统公示',
+    metaDescription: '韩国不正当业者投标参与资格限制期间为1个月以上2年以下，并在电子采购系统公示。限制期间内其他中央机关的投标也无法参与，期间按违规行为的类型分别确定。',
+    category: '公共采购',
+    excerpt: '被认定为不正当业者并受到投标参与资格限制后，限制期间内无法参与任何中央机关的投标。内容包括按行为的限制期间、加重与减轻标准、电子采购系统公示、与代表人的连动以及签约前受限的效果。',
+    content: `<div class="toc"><p>目录</p><ol><li>限制处分的框架与对象行为</li><li>按行为的限制期间与加重·减轻标准</li><li>对Narajangteo投标的影响</li><li>常见问题</li></ol></div>
+<p><strong>依据韩国《国家为当事人的合同法》，不正当业者（부정당업자）投标参与资格限制是由各中央机关首长在1个月以上2年以下范围内作出的处分。限制事实将在电子采购系统公示，限制期间内也无法参与其他中央机关的投标。</strong>这与Narajangteo（国家综合电子采购系统）投标参与资格登记是两回事，即使登记仍有效，限制期间内也无法投标。期间按行为类型的标准表确定，并可加重或减轻。</p>
+<p>登记基础请参阅<a href="/zh/blog/procurement-narajangteo-registration-guide">Narajangteo登记指南</a>，商号·代表人变更请参阅<a href="/zh/blog/procurement-narajangteo-registration-change">投标参与资格变更登记</a>。本文聚焦于期间与实际影响。</p>
+
+<h2>限制处分的框架与对象行为</h2>
+<p>法律列举限制事由，施行令规定期间范围，施行规则标准表规定各行为的期间。作出限制的机关须立即通报其他中央机关，接到通报的机关也须限制同一业者。投标实务中常见的对象行为如下：</p>
+<ol><li>事先协定投标价格、承接数量，或为使特定人中标而串通</li><li>伪造·变造投标或合同文件，或提交虚假文件（包括投标参与资格登记文件）</li><li>无正当理由不签订或不履行合同</li><li>故意提交无效投标</li><li>未经发包机关批准分包等违反分包限制规定</li><li>妨碍投标参与、合同履行或监督·检查</li></ol>
+<p>但如果事由由代理人、经理等使用人造成，而业者已尽相当的注意与监督义务，或违规由天灾等不得已事由引起，则不予限制。</p>
+
+<h2>按行为的限制期间与加重·减轻标准</h2>
+<table><thead><tr><th>违规行为</th><th>标准限制期间</th></tr></thead><tbody>
+<tr><td>主导串通并中标</td><td>2年</td></tr>
+<tr><td>主导串通</td><td>1年</td></tr>
+<tr><td>协定投标价格或串通</td><td>6个月</td></tr>
+<tr><td>以伪造·变造·虚假文件中标</td><td>1年</td></tr>
+<tr><td>提交伪造·变造·虚假文件</td><td>6个月</td></tr>
+<tr><td>不签订或不履行合同</td><td>6个月</td></tr>
+<tr><td>故意提交无效投标</td><td>6个月</td></tr>
+<tr><td>未经发包机关批准分包</td><td>6个月</td></tr>
+<tr><td>违反合同主要条件</td><td>3个月</td></tr>
+<tr><td>妨碍投标、履行或监督·检查</td><td>3个月</td></tr>
+</tbody></table>
+<p>标准表只是起点。自限制处分之日起至限制期间结束后6个月内再次发生事由的，可在该期间的1/2范围内延长，但合计不得超过2年。多个行为同时存在时，适用其中最长的标准。反之，可考虑动机·内容·次数在1/2范围内减轻；违规程度显著轻微的，可再减轻1/2。减轻后仍须为1个月以上，行贿不得减轻。行为结束后满5年（串通·行贿为7年）的，不得再限制。</p>
+
+<h2>对Narajangteo投标的影响</h2>
+<p>作出处分的机关须在限制期间开始日之前，将商号、代表人姓名、营业执照号码、限制期间和具体事由在电子采购系统公示并公开。各机关通过该系统确认投标人是否受限，因此一个机关的限制适用于所有中央机关的投标。地方政府或公共机构依其他法令作出的限制，经通报或公示后，同样阻止参与国家投标。</p>
+<p>法人受到限制时，负责该投标·合同业务的代表人也一并受限，该代表人担任代表的其他法人也不能投标。发包机关须核对法人登记号码、执照·登记号码等，防止通过变更商号或代表人规避限制。收到处分通知后，请按以下顺序检查：</p>
+<ol><li>确认通知书中的事由对应标准表中的哪一行为。</li><li>收集已尽注意·监督义务或存在不得已事由的资料及减轻事由资料。</li><li>检查进行中的中标案件：签约前受限的，机关不得与该中标人签约。</li><li>长期继续合同在首次签约后受限的，确认年度合同能否继续签订。</li><li>同时调整同一代表人担任代表的其他法人的投标日程。</li></ol>
+<p>限制期间内原则上也不能签订随意合同。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 受到限制后Narajangteo登记会被撤销吗？</p><p class="faq-a">A. 法令规定的不是撤销登记，而是限制期间内不得投标并在电子采购系统公示。无论登记状态如何，限制期间内都无法投标。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 更改商号或新设法人后能投标吗？</p><p class="faq-a">A. 发包机关须核对法人登记号码和执照·登记号码，受限代表人担任代表的其他法人也不能投标。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 限制期间能比标准表短吗？</p><p class="faq-a">A. 可在1/2范围内减轻，显著轻微时可再减轻1/2，但不得少于1个月，行贿不得减轻。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 有替代限制的处分吗？</p><p class="faq-a">A. 责任轻微或限制会导致有效竞争投标无法成立时，可用课征金代替。相关协助请参阅<a href="/zh/services/procurement">Narajangteo登记服务</a>。</p></div>
+</div>
+
+<div class="cta-block"><h3>收到限制通知后，请尽早检查</h3><p>YouSun Administrative Agency 协助整理处分事由、准备减轻事由资料并检查Narajangteo登记信息。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=g2b-unfair-bidder-restriction-period">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'g2b-unfair-bidder-restriction-period',
+    locale: 'ja',
+    title: '不正当業者の入札参加資格制限 — 違反行為別の制限期間とナラジャント入札への影響',
+    metaTitle: '不正当業者の入札参加資格制限 — 行為別の制限期間と電子調達システム掲載',
+    metaDescription: '韓国の不正当業者に対する入札参加資格制限は1か月以上2年以下で、電子調達システムに掲載されます。制限期間中は他の中央官庁の入札にも参加できず、期間は違反類型ごとに定まります。',
+    category: '公共調達',
+    excerpt: '不正当業者として入札参加資格制限を受けると、制限期間中はどの中央官庁の入札にも参加できません。行為別の制限期間、加重・減軽の基準、電子調達システムへの掲載、代表者への連動、契約締結前の制限の効果を扱います。',
+    content: `<div class="toc"><p>目次</p><ol><li>制限処分の枠組みと対象行為</li><li>行為別の制限期間と加重・減軽基準</li><li>ナラジャント入札への影響</li><li>よくある質問</li></ol></div>
+<p><strong>韓国の「国を当事者とする契約に関する法律」に基づく不正当業者（부정당업자）の入札参加資格制限は、各中央官庁の長が1か月以上2年以下の範囲で行う処分です。制限の事実は電子調達システムに掲載され、制限期間中は他の中央官庁の入札にも参加できなくなります。</strong>ナラジャント（国家総合電子調達システム）の入札参加資格登録とは別の制裁であり、登録が残っていても制限期間中は入札できません。期間は行為類型別の基準表で決まり、動機や程度により延長・短縮されます。</p>
+<p>登録の基本は<a href="/ja/blog/procurement-narajangteo-registration-guide">ナラジャント登録ガイド</a>、商号・代表者の変更は<a href="/ja/blog/procurement-narajangteo-registration-change">入札参加資格の変更登録</a>をご覧ください。ここでは期間と実際の影響に絞ります。</p>
+
+<h2>制限処分の枠組みと対象行為</h2>
+<p>法律が制限事由を列挙し、施行令が期間の範囲を、施行規則の基準表が行為別の期間を定めます。制限した官庁は直ちに他の中央官庁の長に通報し、通報を受けた官庁も同じ業者の入札参加資格を制限しなければなりません。入札実務でよく問題になる対象行為は次のとおりです。</p>
+<ol><li>入札価格や受注量を事前に協定し、または特定の者の落札のために談合する行為</li><li>入札・契約書類を偽造・変造し、または虚偽書類を提出する行為（入札参加資格登録書類を含む）</li><li>正当な理由なく契約を締結せず、または履行しない行為</li><li>故意に無効の入札をする行為</li><li>発注機関の承認なく下請けに出すなど下請け制限規定に違反する行為</li><li>入札参加、契約履行、監督・検査を妨害する行為</li></ol>
+<p>ただし、代理人・支配人など使用人の行為で事由が生じても、業者がそれを防ぐために相当の注意と監督を怠らなかった場合や、天災などやむを得ない事由による違反の場合は制限しません。</p>
+
+<h2>行為別の制限期間と加重・減軽基準</h2>
+<table><thead><tr><th>違反行為</th><th>基準制限期間</th></tr></thead><tbody>
+<tr><td>談合を主導して落札した場合</td><td>2年</td></tr>
+<tr><td>談合を主導した場合</td><td>1年</td></tr>
+<tr><td>入札価格等を協定し、または談合した場合</td><td>6か月</td></tr>
+<tr><td>偽造・変造・虚偽書類で落札した場合</td><td>1年</td></tr>
+<tr><td>偽造・変造・虚偽書類を提出した場合</td><td>6か月</td></tr>
+<tr><td>契約を締結または履行しなかった場合</td><td>6か月</td></tr>
+<tr><td>故意に無効の入札をした場合</td><td>6か月</td></tr>
+<tr><td>発注機関の承認なく下請けに出した場合</td><td>6か月</td></tr>
+<tr><td>契約上の主要条件に違反した場合</td><td>3か月</td></tr>
+<tr><td>入札・履行または監督・検査を妨害した場合</td><td>3か月</td></tr>
+</tbody></table>
+<p>基準表の期間は出発点です。制限処分日から制限期間終了後6か月が経過するまでに再び事由が生じた場合、その期間の1/2の範囲で延長できますが、合計は2年を超えられません。複数の行為が問題になる場合は、最も長い基準に従います。逆に、動機・内容・回数を考慮して1/2の範囲で短縮でき、違反の程度が著しく軽微なら、さらに1/2の範囲で短縮できます。短縮後も1か月以上でなければならず、贈賄は短縮できません。行為の終了から5年（談合・贈賄は7年）を過ぎると制限できません。</p>
+
+<h2>ナラジャント入札への影響</h2>
+<p>処分をした官庁は、商号、代表者氏名、事業者登録番号、制限期間と具体的な事由を、制限期間の開始日までに電子調達システムに掲載し公開します。各官庁はこのシステムで入札者の制限の有無を確認するため、一つの官庁で受けた制限がすべての中央官庁の入札にそのまま適用されます。地方自治体や公共機関が他の法令に基づいて行った制限も、通報または掲載されれば国の入札で同様に参加できません。</p>
+<p>法人が制限を受けると、その入札・契約業務を担当した代表者も併せて制限され、その代表者が代表を務める他の法人も入札に参加できません。発注機関は、商号や代表者の変更による制限逃れを防ぐため、法人登録番号や免許・登録番号などを確認しなければなりません。処分の通知を受けたら、次の順序で点検してください。</p>
+<ol><li>通知書の事由が基準表のどの行為に当たるかを確認します。</li><li>注意・監督を尽くしたこと、やむを得ない事由、減軽事由を示す資料を集めます。</li><li>進行中の落札案件を点検します。契約締結前に制限を受けると、その落札者とは契約できません。</li><li>長期継続契約では、最初の契約後に制限を受けても年次契約を締結できるか確認します。</li><li>同じ代表者が代表を務める他の法人の入札日程も調整します。</li></ol>
+<p>制限期間中は随意契約も原則として締結できません。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 制限を受けるとナラジャントの登録は取り消されますか。</p><p class="faq-a">A. 法令が定めるのは登録の取消しではなく、制限期間中の入札参加の禁止と電子調達システムへの掲載です。登録の状態に関係なく、制限期間中は入札できません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 商号を変えたり新しい法人を設立したりすれば入札できますか。</p><p class="faq-a">A. 発注機関は法人登録番号や免許・登録番号で確認しなければならず、制限された代表者が代表を務める他の法人も入札できません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 制限期間が基準表より短くなることはありますか。</p><p class="faq-a">A. 1/2の範囲で短縮でき、著しく軽微ならさらに1/2短縮できますが、1か月未満にはならず、贈賄は短縮されません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 制限の代わりになる処分はありますか。</p><p class="faq-a">A. 責任が軽微な場合や、制限により有効な競争入札が成立しない場合は、課徴金で代えることがあります。ご相談は<a href="/ja/services/procurement">ナラジャント登録サービス</a>をご覧ください。</p></div>
+</div>
+
+<div class="cta-block"><h3>制限の通知を受けたら早めに点検を</h3><p>YouSun Administrative Agency が処分事由の整理、減軽事由の資料準備、ナラジャント登録情報の点検をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=g2b-unfair-bidder-restriction-period">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
