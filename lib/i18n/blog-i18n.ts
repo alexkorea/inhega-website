@@ -8587,6 +8587,145 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>制限の通知を受けたら早めに点検を</h3><p>YouSun Administrative Agency が処分事由の整理、減軽事由の資料準備、ナラジャント登録情報の点検をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=g2b-unfair-bidder-restriction-period">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── rnd-center-recognition-cancellation-grounds (inhega-daily 2026-11-11) ──
+  {
+    slug: 'rnd-center-recognition-cancellation-grounds',
+    locale: 'en',
+    title: 'Cancellation of Corporate R&D Center Recognition in Korea — Mandatory Grounds and Consequences of a Missed Change Report',
+    metaTitle: 'Corporate R&D Center Recognition Cancellation in Korea — 10 Grounds',
+    metaDescription: 'Korean law lists 10 grounds for cancelling corporate R&D center recognition. Three are mandatory. Change reports, correction orders and hearings explained.',
+    category: 'Corporate R&D Center',
+    excerpt: 'Recognition of a corporate R&D center must be cancelled for false recognition, a company request or closure, and may be cancelled if a change report is not filed within 1 year or a correction order is ignored. Grounds, hearing procedure, the reapplication bar and loss of excellent-center designation.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Mandatory and discretionary grounds</li><li>How missed change reports and correction orders lead to cancellation</li><li>Procedure and what follows cancellation</li><li>FAQ</li></ol></div>
+<p><strong>The Act on Support for Research and Development of Corporate Research Institutes lists 10 grounds for cancelling the recognition of a corporate R&D center (기업부설연구소) or dedicated R&D department. Recognition or a change report obtained by false or fraudulent means, a request by the company and closure of the company lead to mandatory cancellation; the other 7, such as not filing a change report within 1 year, are discretionary.</strong> This is a <em>recognition</em> by the Minister of Science and ICT, not a permit or registration, and the Korea Industrial Technology Association (KOITA) handles filings and cancellations on the Minister's behalf. Centers recognised before the Act took effect on 1 February 2026 are treated as recognised under it, so the same rules apply.</p>
+<p>Recognition requirements are covered in <a href="/en/blog/corporate-rnd-center-requirements">our corporate R&D center requirements guide</a>. This page focuses on cancellation and its consequences.</p>
+
+<h2>Mandatory and discretionary grounds</h2>
+<table><thead><tr><th>Ground</th><th>Type</th></tr></thead><tbody>
+<tr><td>Recognition or a change report obtained by false or fraudulent means</td><td>Mandatory</td></tr>
+<tr><td>The company requests cancellation (unless another ground exists)</td><td>Mandatory</td></tr>
+<tr><td>The company closes its business</td><td>Mandatory</td></tr>
+<tr><td>Closure of the center is confirmed</td><td>Discretionary</td></tr>
+<tr><td>No change report within 1 year of the change</td><td>Discretionary</td></tr>
+<tr><td>A correction order is not carried out in time</td><td>Discretionary</td></tr>
+<tr><td>Breach of the compliance duties</td><td>Discretionary</td></tr>
+<tr><td>Research becomes impossible due to restrictions under other laws</td><td>Discretionary</td></tr>
+<tr><td>Refusing, obstructing or evading an on-site inspection without good reason</td><td>Discretionary</td></tr>
+<tr><td>Substantial reason to believe the center is inactive</td><td>Discretionary</td></tr>
+</tbody></table>
+<p>The compliance duties are broad. Dedicated researchers must not also handle production, sales or other business work; the center cannot be in a detached house, multi-unit housing, an unpermitted building or a temporary structure; and the company must submit R&D results every year and any data requested. The Decree adds that non-research staff must be employed, the center must be at one address and researchers must work in the research facility. A small company's representative within 3 years of founding may double as a dedicated researcher.</p>
+
+<h2>How missed change reports and correction orders lead to cancellation</h2>
+<p>A change report is required when the company's name, address, representative, company type or industry changes, or when the center's name, address, research field, head, research staff or research space changes. File it with KOITA, with supporting documents, within 30 days of the change. The 30 days are the filing deadline; failing to report for 1 year makes it a ground for cancellation. A false change report leads to mandatory cancellation regardless of timing.</p>
+<p>If the center no longer meets the recognition standards, for example because a researcher left, a correction order with a period of at least 1 month comes first. The period is 1 month in principle and can be extended by up to 2 months at the company's request. When something changes:</p>
+<ol><li>Fix the date of the change, such as a resignation, move or new representative.</li><li>Count 30 days from that date as your filing deadline.</li><li>Check whether staff or space now falls short of the standards.</li><li>If so, plan hiring or space fixes, and meet any correction order in time or request an extension.</li><li>File an accurate change report with supporting documents.</li></ol>
+
+<h2>Procedure and what follows cancellation</h2>
+<p>Cancellation requires a hearing. At least 15 days before it, the company is notified of the center's name and address, the facts behind the cancellation, how and by when to submit opinions, and the hearing and planned cancellation dates. The hearing may be skipped for cancellations on request or after closure, or where the company clearly waives its right to state an opinion. On-site inspections are in principle notified in writing at least 7 days in advance, and refusing one without good reason is both a ground for cancellation and subject to an administrative fine.</p>
+<p>A company whose recognition was cancelled for false or fraudulent recognition or change reporting cannot reapply until 1 year after cancellation. If the center was designated an excellent corporate R&D center, that designation must also be cancelled and the certificate returned. Continuing to present the center as recognised after cancellation is false representation subject to an administrative fine. For tax effects, see <a href="/en/blog/rnd-center-tax-credit">our R&D center tax credit guide</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Is recognition cancelled immediately if I file a change report after 30 days?</p><p class="faq-a">A. The 30 days are the filing deadline; the cancellation ground is failing to report within 1 year. If you are late, file accurately before 1 year passes.</p></div>
+<div class="faq-item"><p class="faq-q">Q. A researcher left and we are short of staff. Is recognition cancelled at once?</p><p class="faq-a">A. A correction order with a period of at least 1 month comes first. If you cannot hire in time, cancellation is possible, so consider requesting an extension.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can we be recognised again after cancellation?</p><p class="faq-a">A. Only cancellation for false or fraudulent means carries the 1-year bar. Otherwise you can reapply once you meet the standards again.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can the center move to a house or a temporary structure?</p><p class="faq-a">A. No. Houses, multi-unit housing, unpermitted buildings and temporary structures are excluded, and a breach is a ground for cancellation. For help, see <a href="/en/services/research-lab">our corporate R&D center service</a>.</p></div>
+</div>
+
+<div class="cta-block"><h3>Check change reports and corrections before cancellation</h3><p>YouSun Administrative Agency helps prepare change reports, responses to correction orders and opinion statements for hearings. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=rnd-center-recognition-cancellation-grounds">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'rnd-center-recognition-cancellation-grounds',
+    locale: 'zh',
+    title: '企业附属研究所认定撤销 — 必须撤销的事由与漏报变更申报的后果',
+    metaTitle: '企业附属研究所认定撤销 — 10项撤销事由与变更申报1年标准',
+    metaDescription: '韩国法律规定了10项企业附属研究所认定撤销事由，其中虚假认定、企业申请撤销和企业歇业属于必须撤销。另含变更申报30日与1年标准、补正命令、听证及重新申请限制。',
+    category: '企业附属研究所',
+    excerpt: '企业附属研究所存在虚假认定、歇业等事由时必须撤销认定；超过1年未办理变更申报或未履行补正命令的，也可能被撤销。内容包括事由分类、听证程序、撤销后的重新申请限制以及优秀研究所指定的撤销。',
+    content: `<div class="toc"><p>目录</p><ol><li>认定撤销事由 — 必须撤销与可以撤销</li><li>漏报变更申报与补正命令导致撤销的路径</li><li>撤销程序与撤销后的结果</li><li>常见问题</li></ol></div>
+<p><strong>韩国《企业附属研究所等研究开发支援法》规定了10项企业附属研究所（기업부설연구소）及研究开发专门部门的认定撤销事由。以虚假或不正当方法取得认定或办理变更申报、企业申请撤销、企业歇业的，必须撤销；自事由发生之日起1年内未办理变更申报等其余7项，属于可以撤销的事由。</strong>研究所不是许可或登记，而是由科学技术信息通信部长官作出的<em>认定</em>，受理与撤销实务委托韩国产业技术振兴协会（KOITA）办理。该法于2026年2月1日施行，施行前已获认定的研究所视为依该法认定，适用相同的撤销标准。</p>
+<p>认定条件请参阅<a href="/zh/blog/corporate-rnd-center-requirements">企业附属研究所设立条件</a>。本文聚焦于撤销事由及其后果。</p>
+
+<h2>认定撤销事由 — 必须撤销与可以撤销</h2>
+<table><thead><tr><th>撤销事由</th><th>分类</th></tr></thead><tbody>
+<tr><td>以虚假或不正当方法取得认定或办理变更申报</td><td>必须撤销</td></tr>
+<tr><td>企业自行申请撤销认定（另有撤销事由的除外）</td><td>必须撤销</td></tr>
+<tr><td>运营研究所的企业歇业</td><td>必须撤销</td></tr>
+<tr><td>确认研究所已关闭</td><td>可以撤销</td></tr>
+<tr><td>自事由发生之日起1年内未办理变更申报</td><td>可以撤销</td></tr>
+<tr><td>未在期限内履行补正命令</td><td>可以撤销</td></tr>
+<tr><td>违反遵守事项</td><td>可以撤销</td></tr>
+<tr><td>因其他法律的限制而无法进行研究开发</td><td>可以撤销</td></tr>
+<tr><td>无正当理由拒绝、妨碍或逃避现场调查</td><td>可以撤销</td></tr>
+<tr><td>有相当理由认定研究所无实际活动</td><td>可以撤销</td></tr>
+</tbody></table>
+<p>遵守事项范围很广。研究专职人员不得兼任生产、销售、营业等其他业务；研究所不得设在独栋住宅、共同住宅、未经许可的建筑或临时建筑；每年须提交研究开发业绩及被要求的资料。施行令还要求配备负责研究以外业务的常设员工、研究所设在一个地址、研究专职人员和研究辅助人员在研究设施内工作。创业未满3年的小企业代表人兼任研究专职人员的，属于兼职禁止的例外。</p>
+
+<h2>漏报变更申报与补正命令导致撤销的路径</h2>
+<p>企业的名称、所在地、代表人、企业类型、行业，或研究所的名称、所在地、研究领域、研究所所长、研究开发人员、研究空间发生变化的，须办理变更申报。须自事由发生之日起30日内，附上证明材料向韩国产业技术振兴协会提交。30日是应遵守的期限，超过1年仍未申报的，即构成认定撤销事由。虚假变更申报则无论时间长短都必须撤销。</p>
+<p>因研究人员离职等导致不符合认定标准时，会先下达期限为1个月以上的补正命令。补正期限原则上为1个月，企业申请时可在2个月范围内延长。发生变化时，请按以下顺序处理：</p>
+<ol><li>确定变化发生的日期（离职日、搬迁日、代表人变更日等）。</li><li>以该日起30日内作为申报期限。</li><li>同时确认人员和空间是否已低于认定标准。</li><li>如低于标准，提前制定补充人员或空间的计划，收到补正命令后在期限内履行或申请延长。</li><li>如实填写变更申报书并附证明材料提交。</li></ol>
+
+<h2>撤销程序与撤销后的结果</h2>
+<p>撤销认定须经过听证。听证15日前，会向企业通知研究所名称与地址、撤销原因事实、提交意见的方法与期限、听证日期及预定撤销日。因企业申请或歇业而撤销，或企业明确放弃陈述意见机会的，可以不举行听证。现场调查原则上在开始7日前书面通知，无正当理由拒绝的，既构成撤销事由，也会被处以过怠金。</p>
+<p>因以虚假或不正当方法取得认定或办理变更申报而被撤销的企业，自撤销之日起满1年前不得重新申请认定。若研究所曾被指定为优秀企业附属研究所，该指定也必须一并撤销，并须交还指定书。撤销后仍标示为已认定研究所的，属于冒称，会被处以过怠金。税收方面的影响请参阅<a href="/zh/blog/rnd-center-tax-credit">研究所税额抵免指南</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 超过30日才办理变更申报，会立即被撤销吗？</p><p class="faq-a">A. 30日是申报期限，法律上的撤销事由是自事由发生之日起1年内未申报。如已逾期，请在满1年前如实申报。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 研究人员离职导致人数不足，会立即被撤销吗？</p><p class="faq-a">A. 会先下达期限为1个月以上的补正命令。期限内无法补充人员的可能被撤销，请同时考虑申请延长。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 被撤销后还能再次获得认定吗？</p><p class="faq-a">A. 只有因虚假或不正当方法被撤销的，才有1年的重新申请限制。其他事由在重新具备认定标准后即可申请。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 研究所可以搬到住宅或临时建筑吗？</p><p class="faq-a">A. 不可以。住宅、未经许可的建筑和临时建筑均被排除，违反即构成撤销事由。相关协助请参阅<a href="/zh/services/research-lab">企业附属研究所设立服务</a>。</p></div>
+</div>
+
+<div class="cta-block"><h3>在撤销之前，先检查变更申报与补正</h3><p>YouSun Administrative Agency 协助撰写变更申报书、补正命令应对材料以及听证意见书。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=rnd-center-recognition-cancellation-grounds">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'rnd-center-recognition-cancellation-grounds',
+    locale: 'ja',
+    title: '企業附設研究所の認定取消し — 必ず取り消される事由と変更申告漏れの結果',
+    metaTitle: '企業附設研究所の認定取消し — 取消事由10項目と変更申告1年基準',
+    metaDescription: '韓国の企業附設研究所の認定取消事由は法律で10項目定められ、虚偽の認定、企業の要請、廃業は必ず取り消されます。変更申告の30日と1年の基準、補完命令、聴聞と再申請制限も扱います。',
+    category: '企業附設研究所',
+    excerpt: '企業附設研究所は、虚偽の認定や廃業などがあれば必ず、変更申告を1年以上しなかったり補完命令を履行しなかったりすれば裁量で認定が取り消されることがあります。事由の区分、聴聞手続、取消し後の再申請制限、優秀研究所指定の取消しまで扱います。',
+    content: `<div class="toc"><p>目次</p><ol><li>認定取消事由 — 必ず取消しと取り消すことができる場合</li><li>変更申告漏れと補完命令が取消しにつながる経路</li><li>取消手続と取消し後の結果</li><li>よくある質問</li></ol></div>
+<p><strong>韓国の「企業附設研究所等の研究開発支援に関する法律」は、企業附設研究所（기업부설연구소）と研究開発専担部署の認定取消事由を10項目定めています。虚偽・不正な方法による認定や変更申告、企業による取消しの要請、企業の廃業は必ず取り消され、事由発生日から1年以内に変更申告をしなかった場合など残りの7項目は、取り消すことができる事由です。</strong>研究所は許可や登録ではなく科学技術情報通信部長官の<em>認定</em>を受ける制度で、受付と認定取消しの実務は韓国産業技術振興協会（KOITA）が委託を受けて処理します。同法は2026年2月1日に施行され、それ以前に認定された研究所も同法による認定とみなされるため、同じ取消基準が適用されます。</p>
+<p>認定要件は<a href="/ja/blog/corporate-rnd-center-requirements">企業附設研究所の設立要件</a>をご覧ください。ここでは取消事由とその後の結果に絞ります。</p>
+
+<h2>認定取消事由 — 必ず取消しと取り消すことができる場合</h2>
+<table><thead><tr><th>取消事由</th><th>区分</th></tr></thead><tbody>
+<tr><td>虚偽その他不正な方法で認定を受け、または変更申告をした場合</td><td>必ず取消し</td></tr>
+<tr><td>企業が自ら認定取消しを要請した場合（別の取消事由がある場合を除く）</td><td>必ず取消し</td></tr>
+<tr><td>研究所を運営する企業が廃業した場合</td><td>必ず取消し</td></tr>
+<tr><td>研究所の閉鎖が確認された場合</td><td>取り消すことができる</td></tr>
+<tr><td>事由発生日から1年以内に変更申告をしなかった場合</td><td>取り消すことができる</td></tr>
+<tr><td>補完命令を期間内に履行しなかった場合</td><td>取り消すことができる</td></tr>
+<tr><td>遵守事項に違反した場合</td><td>取り消すことができる</td></tr>
+<tr><td>他の法律による制限で研究開発ができなくなった場合</td><td>取り消すことができる</td></tr>
+<tr><td>現場調査を正当な理由なく拒否・妨害・忌避した場合</td><td>取り消すことができる</td></tr>
+<tr><td>研究所の活動がないと認めるに足りる相当な理由がある場合</td><td>取り消すことができる</td></tr>
+</tbody></table>
+<p>遵守事項の範囲は広いです。研究専担要員は生産・販売・営業など他の業務を兼ねてはならず、一戸建て住宅・共同住宅や許可を受けていない建物・仮設建物に研究所を置くことはできず、毎年研究開発の実績と求められた資料を提出しなければなりません。施行令はさらに、研究以外の業務を担う常勤従業員を置くこと、一つの所在地に置くこと、研究専担要員と研究補助員が研究施設で勤務することを求めます。創業から3年が経過していない小企業の代表者が研究専担要員を兼ねる場合は、兼業禁止の例外です。</p>
+
+<h2>変更申告漏れと補完命令が取消しにつながる経路</h2>
+<p>企業の名称・所在地・代表者・企業類型・業種、または研究所の名称・所在地・研究分野・研究所長・研究開発人材・研究空間が変わると、変更申告の対象になります。事由が生じた日から30日以内に、変更を証明する書類を添えて韓国産業技術振興協会に提出します。30日は守るべき期限で、1年を過ぎても申告しなければ認定取消事由になります。虚偽の変更申告は期間に関係なく必ず取り消されます。</p>
+<p>研究員の退職などで認定基準を満たさなくなると、まず1か月以上の期間を定めた補完命令が出されます。補完期間は1か月が原則で、企業が申請すれば2か月の範囲で延長されることがあります。変更が生じたら、次の順序で対応してください。</p>
+<ol><li>変更が生じた日（退職日、移転日、代表者変更日など）を確定します。</li><li>その日から30日以内を申告期限とします。</li><li>人員・空間が認定基準を下回っていないか併せて確認します。</li><li>下回っていれば充員・空間補完の計画を立て、補完命令が出たら期間内に履行するか延長を申請します。</li><li>変更申告書と証明書類を事実どおりに作成して提出します。</li></ol>
+
+<h2>取消手続と取消し後の結果</h2>
+<p>認定を取り消すには聴聞を経なければならず、聴聞の15日前までに、研究所の名称と住所、取消しの原因となる事実、意見提出の方法と期限、聴聞日と取消予定日が企業に通知されます。企業の要請や廃業による取消し、意見陳述の機会を明確に放棄した場合は、聴聞を省略できます。現場調査は原則として開始の7日前までに書面で通知され、正当な理由なく拒否すると取消事由となるうえ、過怠料の対象にもなります。</p>
+<p>虚偽・不正な方法による認定や変更申告を理由に取り消された企業は、取消日から1年が経過するまで再び認定を申請できません。優秀企業附設研究所に指定されていた場合は、指定も必ず取り消され、指定書を返納しなければなりません。取消し後も認定研究所であると表示すると詐称となり、過怠料の対象です。税制面の影響は<a href="/ja/blog/rnd-center-tax-credit">研究所の税額控除ガイド</a>でご確認ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 変更申告が30日を過ぎたら、すぐに取り消されますか。</p><p class="faq-a">A. 30日は申告期限で、法律上の取消事由は事由発生日から1年以内に申告しなかった場合です。遅れた場合は、1年が経つ前に事実どおり申告してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 研究員が退職して人数が足りません。すぐに取り消されますか。</p><p class="faq-a">A. まず1か月以上の期間を定めた補完命令が出されます。期間内に充員できなければ取り消されることがあるため、延長申請も検討してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 取消し後に再び認定を受けられますか。</p><p class="faq-a">A. 1年の再申請制限があるのは、虚偽・不正な方法で取り消された場合だけです。その他の事由なら、認定基準を再び満たせば申請できます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 研究所を自宅や仮設建物に移してもよいですか。</p><p class="faq-a">A. いいえ。住宅、許可を受けていない建物や仮設建物には置けず、違反すれば取消事由になります。ご相談は<a href="/ja/services/research-lab">企業附設研究所設立サービス</a>をご覧ください。</p></div>
+</div>
+
+<div class="cta-block"><h3>取消しの前に変更申告と補完の点検を</h3><p>YouSun Administrative Agency が変更申告書の作成、補完命令への対応書類、聴聞の意見書の準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=rnd-center-recognition-cancellation-grounds">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 

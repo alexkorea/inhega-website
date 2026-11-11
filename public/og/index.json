@@ -10192,6 +10192,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-10T10:03:24.486Z",
    "version": "1.4"
+  },
+  "news/eping-121237": {
+   "hash": "2ac8023e8e47309c7645d5f51f30b7cb6635e88eeeaef4a9cf2b002b1d497ac5",
+   "source": "pexels",
+   "seed": 3813162502,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 36326844,
+   "pexels_author": "Xiang Qi",
+   "category": "유아용과 뒤이어용 식품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121237",
+   "title": "유아용과 뒤이어용 식품에서 농약 잔류물 최대 허용량 개정",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-11T10:03:26.133Z",
+   "version": "1.4"
   }
  }
 }

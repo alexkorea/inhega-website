@@ -852,3 +852,7 @@
 /en/blog/g2b-unfair-bidder-restriction-period
 /ja/blog/g2b-unfair-bidder-restriction-period
 /zh/blog/g2b-unfair-bidder-restriction-period
+/blog/rnd-center-recognition-cancellation-grounds
+/en/blog/rnd-center-recognition-cancellation-grounds
+/ja/blog/rnd-center-recognition-cancellation-grounds
+/zh/blog/rnd-center-recognition-cancellation-grounds
