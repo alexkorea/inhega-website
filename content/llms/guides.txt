@@ -1,0 +1,18 @@
+# public/llms.txt '주요 가이드' 절 — 한 줄에 ko 블로그 slug 하나 (순서 그대로 싣는다).
+# 고른 기준(INHEGA-1111 B-5, 2026-11-11): GSC 최근 90일 클릭 상위 ko 글. 301 글·없는 글이면 빌드가 멈춘다.
+# 설명은 글 요약문이 아니라 '관련 업무' 이름만 싣는다(요약문엔 조문·기간이 섞여 있음).
+women-enterprise-renewal-management-guide
+restaurant-food-service-license-guide
+hostel-room-fire-standards
+forwarder-startup-checklist
+currency-exchange-registration-guide
+corporate-rnd-center-requirements
+hanok-experience-registration-guide
+food-manufacturing-license-guide
+hostel-vs-guesthouse
+cosmetics-manufacturing-registration
+urban-guesthouse-registration-guide
+mainbiz-renewal-and-validity
+nonprofit-articles-drafting
+cosmetics-manufacturing-facility-guide
+building-usage-change-guide

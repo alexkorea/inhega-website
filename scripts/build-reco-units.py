@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AI-RECO-1103 12절(보스 msg 4823) — 항목별 추천 블록 원고 → lib/reco-units.generated.ts + public/llms.txt '항목별 처리 업무' 절.
+"""AI-RECO-1103 12절(보스 msg 4823) — 항목별 추천 블록 원고 → lib/reco-units.generated.ts (llms.txt 는 build-services-menu.mjs 가 굽는다).
 
 원고 정본: content/reco-units/<lang>/<slug>.json (ko 정본 → en/zh/ja 번역, id·href·개수 기계대조)
   · 화면에 싣는 키만 생성물로 옮긴다(sources·facts 는 보고서용 — 생성물·번들에 넣지 않는다).
@@ -11,7 +11,6 @@ import json, os, re, sys, glob
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'content', 'reco-units')
 OUT = os.path.join(ROOT, 'lib', 'reco-units.generated.ts')
-LLMS = os.path.join(ROOT, 'public', 'llms.txt')
 LANGS = ['ko', 'en', 'zh', 'ja']
 FOCUS = {'nonprofit', 'telecom-business', 'location-based-service', 'cosmetics', 'health-food', 'factory'}
 KEEP = ['label', 'kw', 'answer', 'services', 'clients', 'glance', 'chooser', 'situations', 'glossary']
@@ -60,37 +59,14 @@ ts = ('// 자동 생성 — scripts/build-reco-units.py (AI-RECO-1103 12절). �
       'export const RECO_UNITS: Record<\'ko\' | \'en\' | \'zh\' | \'ja\', Record<string, RecoUnit>> = '
       + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n')
 
-# llms.txt — '## 항목별 처리 업무' 절(다른 절은 손대지 않는다)
-HEAD = '## 항목별 처리 업무 (Services handled per item)\n'
-END = '\n## 주요 서비스'
-lines = [HEAD, '\n유선행정사사무소(YouSun Administrative Agency, 서울 중구 퇴계로 324 3층, +82-2-325-8222, 평일 09:30~17:30)가 업무 항목별로 처리하는 업무입니다. 각 페이지에 핵심 답변·처리 업무·한눈에 보기·상황별 질문·용어 설명·사무소 안내가 있습니다.\n']
-HL = {'ko': '### 한국어 — 항목별 처리 업무', 'en': '### English — services handled per item', 'zh': '### 中文 — 各项目办理业务', 'ja': '### 日本語 — 項目別の取扱業務'}
-for l in LANGS:
-    if not data[l]: continue
-    lines.append('\n' + HL[l] + '\n')
-    for slug in sorted(data[l]):
-        d = data[l][slug]
-        url = f'https://inhega.co.kr{PFX[l]}/services/{slug}'
-        if l == 'ko':
-            lines.append(f'- {d["label"]} ({url}): ' + '; '.join(s['name'] for s in d['services']) + '\n')
-        else:
-            lines.append(f'- {d["label"]}: {url}\n')
-sec = ''.join(lines)
-prev = open(LLMS, encoding='utf-8').read()
-i0 = prev.find(HEAD)
-i1 = prev.find(END)
-if i1 < 0:
-    print('[reco-units] llms.txt 에 "## 주요 서비스" 절이 없다'); sys.exit(1)
-body = (prev[:i0] if i0 >= 0 else prev[:i1].rstrip('\n') + '\n\n') + sec + prev[i1:]
+# public/llms.txt 는 더 이상 여기서 굽지 않는다 — INHEGA-1111 B-5 부터 scripts/build-services-menu.mjs 가 전체를 굽는다(이 원고의 처리 업무 앞 3개를 설명으로 읽음).
 
 cur = open(OUT, encoding='utf-8').read() if os.path.exists(OUT) else ''
 if check:
     bad = []
     if cur != ts: bad.append('lib/reco-units.generated.ts')
-    if body != prev: bad.append('public/llms.txt')
     if bad:
         print('[reco-units] 원고와 생성물이 어긋난다 — python3 scripts/build-reco-units.py 를 돌릴 것: ' + ', '.join(bad)); sys.exit(1)
     print('[reco-units] OK ' + ' '.join(f'{l}:{len(data[l])}' for l in LANGS)); sys.exit(0)
 open(OUT, 'w', encoding='utf-8').write(ts)
-open(LLMS, 'w', encoding='utf-8').write(body)
 print('[reco-units] 생성 ' + ' '.join(f'{l}:{len(data[l])}' for l in LANGS) + f' — {len(ts)//1024} KB')

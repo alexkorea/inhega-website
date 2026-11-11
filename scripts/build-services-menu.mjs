@@ -137,24 +137,64 @@ for (const locale of LOCALES) {
 }
 if (drift) process.exit(1)
 
-/* public/llms.txt '주요 서비스' 절도 레지스트리에서 굽는다(0949 추가 2026-10-04 — 손으로 쓴 11줄이 정본과 달랐다:
-   사이트에 없는 '직업소개사업 등록'이 있었고 신규 업종은 0건). 다른 절은 손대지 않는다. */
+/* public/llms.txt 전체를 여기서 굽는다 (INHEGA-1111 B-5, 2026-11-11 — llmstxt.org 형식:
+   "# 제목 → > 한 줄 요약 → ## 절 → - [쪽 이름](URL): 설명". Lighthouse 'llms-txt' 감사는 [..](..) 링크가 있어야 통과).
+   원고: content/llms/llms.template.md(사무소 정보·문의·다른 언어 등 손으로 쓰는 부분) + content/llms/guides.txt(주요 가이드 slug).
+   업무 목록·설명은 정본에서 읽는다 — 중점 6 = lib/focus-services.ts desc, 나머지 = content/reco-units/ko 처리 업무 앞 3개.
+   (설명에 금액·법령 근거·확인일을 싣지 않는다: 카드 desc 는 '~법에 따라' 가 섞여 있어 쓰지 않음.)
+   public/llms.txt 를 손으로 고치지 말 것 — 다음 빌드에서 원고대로 돌아간다. */
+const SITE = 'https://inhega.co.kr'
 const LLMS = join(ROOT, 'public/llms.txt')
-const llmsPrev = readFileSync(LLMS, 'utf8')
-const SEC_START = '## 주요 서비스\n'
-const SEC_END = '\n## 관련 사이트'
-const i0 = llmsPrev.indexOf(SEC_START), i1 = llmsPrev.indexOf(SEC_END)
-if (i0 < 0 || i1 < i0) {
-  console.error('[services-menu] public/llms.txt 의 "## 주요 서비스" ~ "## 관련 사이트" 절을 못 찾았다')
-  process.exit(1)
-}
+const LLMS_TPL = join(ROOT, 'content/llms/llms.template.md')
+const LLMS_GUIDES = join(ROOT, 'content/llms/guides.txt')
+const focusMod = await import(pathToFileURL(join(ROOT, 'lib/focus-services.ts')).href)
+const blogMod = await import(pathToFileURL(join(ROOT, 'lib/blog-posts-data.ts')).href)
+const redirMod = await import(pathToFileURL(join(ROOT, 'lib/blog-redirects.ts')).href)
+const topicMod = await import(pathToFileURL(join(ROOT, 'lib/blog-topic-map.ts')).href)
+const llmsErr = []
 const koGroups = directory.getServiceDirectory('ko')
-const llmsSec = `${SEC_START}\n전체 ${directory.getDirectoryCount('ko')}종 — https://inhega.co.kr/services\n\n` +
-  koGroups.map((g) => `- ${g.label}(${g.items.length}): ${g.items.map((e) => e.title).join(', ')}`).join('\n') + '\n'
-const llmsBody = llmsPrev.slice(0, i0) + llmsSec + llmsPrev.slice(i1)
+const koBySlug = new Map(koGroups.flatMap((g) => g.items.map((e) => [e.slug, e])))
+const focusSlugs = new Set(focusMod.FOCUS_SERVICES.map((f) => f.slug))
+const llmsFocus = focusMod.FOCUS_SERVICES.map((f) => {
+  if (!koBySlug.has(f.slug)) llmsErr.push(`중점 ${f.slug} 이 업무 목록에 없다`)
+  return `- [${f.label}](${SITE}${f.href}): ${f.desc}`
+}).join('\n')
+const recoDesc = (slug) => {
+  const fp = join(ROOT, 'content/reco-units/ko', slug + '.json')
+  if (!existsSync(fp)) { llmsErr.push(`처리 업무 원고 없음 content/reco-units/ko/${slug}.json`); return '' }
+  // 괄호 속 세부(기준 수치·근거)는 빼고, 숫자가 남는 항목(금액·면적·기간 기준)은 건너뛴다 — llms.txt 엔 금액·근거를 싣지 않는다.
+  const strip = (t) => { let o; do { o = t; t = t.replace(/\s*\(([^()]*)\)/g, (m, x) => (/^[\u4e00-\u9fff]+$/.test(x) ? `(${x})` : "")) } while (t !== o); return t.trim() }
+  const names = JSON.parse(readFileSync(fp, 'utf8')).services.map((x) => strip(x.name)).filter((t) => t && !/\d/.test(t))
+  if (names.length < 2) llmsErr.push(`처리 업무 설명이 2개 미만: ${slug}`)
+  return names.slice(0, 3).join(', ')
+}
+const llmsGroups = koGroups.map((g) => {
+  const rest = g.items.filter((e) => !focusSlugs.has(e.slug))
+  if (!rest.length) return ''
+  return `## ${g.label}\n\n` + rest.map((e) => `- [${e.title}](${SITE}${e.href}): ${recoDesc(e.slug)}`).join('\n')
+}).filter(Boolean).join('\n\n')
+const svcTitleByHref = new Map([...koBySlug.values()].map((e) => [e.href, e.title]))
+for (const f of focusMod.FOCUS_SERVICES) svcTitleByHref.set(f.href, f.label)
+const llmsGuides = readFileSync(LLMS_GUIDES, 'utf8').split('\n').map((x) => x.trim()).filter((x) => x && !x.startsWith('#')).map((slug) => {
+  const p = blogMod.getBlogPostBySlug(slug)
+  if (!p) { llmsErr.push(`가이드 slug 없음: ${slug}`); return '' }
+  if (redirMod.REDIRECTED_BLOG_SLUGS.has(slug)) llmsErr.push(`가이드 slug 가 301 글: ${slug}`)
+  const href = topicMod.BLOG_TOPIC_SERVICE[slug] ?? p.relatedServices?.[0]?.href
+  const svc = href && svcTitleByHref.get(href)
+  if (!svc) llmsErr.push(`가이드 관련 업무를 못 찾음: ${slug}`)
+  return `- [${p.title}](${SITE}/blog/${slug}): 관련 업무 — ${svc}`
+}).join('\n')
+const llmsBody = readFileSync(LLMS_TPL, 'utf8')
+  .replaceAll('{{COUNT}}', String(directory.getDirectoryCount('ko')))
+  .replace('{{FOCUS}}', llmsFocus).replace('{{GROUPS}}', llmsGroups).replace('{{GUIDES}}', llmsGuides)
+if (/\{\{[A-Z]+\}\}/.test(llmsBody)) llmsErr.push('템플릿 자리표시가 남았다')
+const llmsLinks = (llmsBody.match(/^- \[[^\]]+\]\(https?:\/\/[^)]+\)/gm) || []).length
+if (!/^# .+/.test(llmsBody) || !/^> .+/m.test(llmsBody) || llmsLinks < 20) llmsErr.push(`형식 확인 실패(H1·요약·링크 ${llmsLinks})`)
+if (llmsErr.length) { for (const e of llmsErr) console.error('[services-menu] llms.txt: ' + e); process.exit(1) }
+const llmsPrev = existsSync(LLMS) ? readFileSync(LLMS, 'utf8') : ''
 if (llmsBody !== llmsPrev) {
   if (isCheck) {
-    console.error('[services-menu] public/llms.txt 서비스 절이 정본과 어긋난다 — 생성기를 돌릴 것')
+    console.error('[services-menu] public/llms.txt 가 원고(content/llms)·정본과 어긋난다 — 생성기를 돌릴 것')
     process.exit(1)
   }
   writeFileSync(LLMS, llmsBody)
