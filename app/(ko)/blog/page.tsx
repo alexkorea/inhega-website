@@ -4,6 +4,7 @@ import { createClient } from '@supabase/supabase-js'
 import { LIST_POSTS_KO } from '@/lib/blog-list-index.generated'
 import gridStyles from '@/app/services-list.module.css'
 import { ogCard, ogThumb } from '@/lib/og-thumbs.generated'
+import { REDIRECTED_BLOG_SLUGS } from '@/lib/blog-redirects'
 import { BLOG_PAGE_SIZE, blogListMetadata, blogPageHref, requestedBlogPage, resolveBlogPage } from '@/lib/blog-pagination'
 
 const metadata = {
@@ -53,7 +54,8 @@ async function getPosts() {
 
 export default async function BlogPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const sp = await searchParams
-  const allPosts = await getPosts()
+  // INHEGA-1111 B-3: 301 로 옮겨진 글은 목록에 싣지 않는다(이동 대상 글이 이미 목록에 있음) — sitemap·rss 와 같은 기준.
+  const allPosts = (await getPosts()).filter((p: { slug: string }) => !REDIRECTED_BLOG_SLUGS.has(p.slug))
   const total = allPosts.length
   const totalPages = Math.ceil(total / BLOG_PAGE_SIZE)
   const currentPage = resolveBlogPage(sp, totalPages, '/blog')

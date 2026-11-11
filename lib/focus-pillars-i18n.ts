@@ -35,7 +35,7 @@ export const FOCUS_PILLARS_I18N: Record<PillarLocale, { ui: PillarUi; pillars: R
       "consult": "Request a consultation",
       "quote": "Get a quote",
       "contactHref": "/en/contact",
-      "quoteHref": "/en/quote"
+      "quoteHref": "/en/contact"
     },
     "pillars": {
       "nonprofit": {
@@ -540,7 +540,7 @@ export const FOCUS_PILLARS_I18N: Record<PillarLocale, { ui: PillarUi; pillars: R
       "consult": "申请咨询",
       "quote": "获取报价",
       "contactHref": "/zh/contact",
-      "quoteHref": "/zh/quote"
+      "quoteHref": "/zh/contact"
     },
     "pillars": {
       "nonprofit": {
@@ -1047,7 +1047,7 @@ export const FOCUS_PILLARS_I18N: Record<PillarLocale, { ui: PillarUi; pillars: R
       "consult": "相談を申し込む",
       "quote": "見積もりを依頼",
       "contactHref": "/ja/contact",
-      "quoteHref": "/ja/quote"
+      "quoteHref": "/ja/contact"
     },
     "pillars": {
       "nonprofit": {

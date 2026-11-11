@@ -4,6 +4,7 @@
 import IndustryHeroImage, { HERO_TEXT_CLASS } from '@/components/ui/IndustryHeroImage'
 import { industryPhotoMeta } from '@/lib/service-card-images'
 import Link from 'next/link'
+import { ServiceTopicGuides } from '@/components/blog/TopicLinks'
 import { Flag } from '@/components/ui/LangFlags'
 import type { Metadata } from 'next'
 import styles from '@/app/services-slug.module.css'
@@ -280,6 +281,8 @@ export default function IndustryServicePage({ page }: { page: IndustryPage }) {
                   </div>
                 </section>
                 <FocusPillarGlossary slug={slug} locale={lang} />
+                {/* INHEGA-1111 B-2: ko 만 — 이 업무로 묶인 블로그 글(lib/blog-topic-map.ts), 원고 '관련 페이지'에 이미 있는 글은 뺀다 */}
+                {lang === 'ko' && <ServiceTopicGuides href={`/services/${slug}`} exclude={page.related.map((r) => r.url)} />}
 
                 {/* 관련 페이지 · 상담 안내 */}
                 <section className="svc-overview-content">

@@ -11,6 +11,11 @@ import { isDeployHold } from '@/lib/services-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
 import { ogThumb } from '@/lib/og-thumbs.generated'
 import { ogHeroBox } from '@/lib/og-hero-full'
+import { BlogServiceLink, BlogSameTopic } from '@/components/blog/TopicLinks'
+
+// 저자 — JSON-LD author 와 화면 '작성' 줄이 같은 값을 쓰도록 한 곳에 둔다(INHEGA-1111 B-4).
+const AUTHOR = { name: '정유선', jobTitle: '대표 행정사' }
+const koDate = (iso: string) => new Date(iso).toLocaleDateString('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric' })
 
 export async function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }))
@@ -93,7 +98,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     dateModified: post.updated_at ?? post.created_at,
     image: [`https://inhega.co.kr${ogThumb('ko', post.slug || post.id)}`],
     // NAVER-SEO-FIX-1031: 저자 = 등록부 브랜드 D 대표 행정사(Person), 소속 = 사무소 노드(@id)
-    author: { '@type': 'Person', name: '정유선', jobTitle: '대표 행정사', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' } },
+    author: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.jobTitle, worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' } },
     publisher: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/blog/${post.slug || post.id}` },
   }
@@ -129,9 +134,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <h1 style={{ color: 'white', fontSize: 'clamp(1.5rem, 3vw, 2.25rem)', fontWeight: 700, lineHeight: 1.3, maxWidth: '800px' }}>
               {post.title}
             </h1>
-            <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem', marginTop: '1rem' }}>
-              {new Date(post.created_at).toLocaleDateString('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric' })}
-              {' · '}유선행정사사무소
+            {/* INHEGA-1111 B-4: JSON-LD author·datePublished·dateModified 와 같은 값. 기존 'YYYY년 M월 D일 · 유선행정사사무소' 줄을 대신한다. */}
+            <p className="blog-byline" style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.875rem', marginTop: '1rem' }}>
+              작성 {AUTHOR.name} {AUTHOR.jobTitle}
+              {' · '}게시 <time dateTime={articleJsonLd.datePublished}>{koDate(articleJsonLd.datePublished)}</time>
+              {' · '}수정 <time dateTime={articleJsonLd.dateModified}>{koDate(articleJsonLd.dateModified)}</time>
             </p>
           </div>
         </section>
@@ -145,9 +152,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     <img src={ogThumb('ko', post.slug || post.id)} alt={post.title} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
+                {/* INHEGA-1111 B-2: 본문 상단 대응 서비스 링크 1개(lib/blog-topic-map.ts) */}
+                <BlogServiceLink slug={post.slug || post.id} />
                 <ArticleBody html={post.content} locale="ko" />
                 {/* INHEGA-FOCUS-1103 2차: 중점 업무 글 → 필러 링크 */}
                 <FocusPillarLink postSlug={post.slug || post.id} locale="ko" />
+                <BlogSameTopic slug={post.slug || post.id} />
               </article>
 
               <aside className="blog-sidebar" style={{ position: 'sticky', top: '88px' }}>
