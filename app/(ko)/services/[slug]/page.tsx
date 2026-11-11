@@ -9,6 +9,8 @@ import { getIndustryPage, getIndustrySlugs, getIndustryBacklinks } from '@/lib/i
 import IndustryServicePage, { industryMetadata, IndustryBacklinks, BACKLINK_HEADING } from '@/components/industry/IndustryServicePage'
 import { HUB_GUIDES } from '@/lib/hub-guides.generated'
 import styles from './page.module.css'
+import BreadcrumbLd from '@/components/seo/BreadcrumbLd'
+import { ServiceTopicGuides, blogHrefsIn } from '@/components/blog/TopicLinks'
 import { pullLawRefs } from '@/lib/law-refs'
 import { FocusPillarTop, FocusPillarRelated, FocusPillarGlossary } from '@/components/services/FocusPillar'
 import { getPillarView, situationQuestions, pillarServiceJsonLd, pillarGlossaryJsonLd } from '@/lib/focus-pillar-view'
@@ -129,6 +131,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
       {glossaryJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(glossaryJsonLd) }} />}
+      {/* INHEGA-1111 B-1: 업종 페이지(IndustryServicePage)와 같은 3단계 — 홈 > 서비스 > H1 표기 그대로 */}
+      <BreadcrumbLd items={[{ name: '홈', path: '' }, { name: '서비스', path: '/services' }, { name: svc.title, path: `/services/${slug}` }]} />
       <div style={{ paddingTop: '72px' }}>
       {/* Hero */}
       <section className={styles.hero}>
@@ -247,6 +251,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   </ul>
                 </section>
               )}
+              {/* INHEGA-1111 B-2: 이 서비스로 묶인 블로그 글 중 위에서 아직 링크하지 않은 글(lib/blog-topic-map.ts) */}
+              <ServiceTopicGuides
+                href={`/services/${slug}`}
+                exclude={[...blogHrefsIn(overview), ...(HUB_GUIDES[`/services/${slug}`] ?? []).map((g) => g.href), ...(pillar?.related ?? []).map((r) => r.href)]}
+              />
             </div>
 
             {/* Sidebar */}
