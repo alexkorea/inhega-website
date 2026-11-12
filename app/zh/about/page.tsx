@@ -9,7 +9,7 @@ export const metadata = {
     languages: {
       'ko': 'https://inhega.co.kr/about',
       'en': 'https://inhega.co.kr/en/about',
-      'zh': 'https://inhega.co.kr/zh/about',
+      'zh-Hans': 'https://inhega.co.kr/zh/about',
       'ja': 'https://inhega.co.kr/ja/about',
       'x-default': 'https://inhega.co.kr/about',
     },

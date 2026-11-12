@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     languages: {
       ko: 'https://inhega.co.kr/services',
       en: 'https://inhega.co.kr/en/services',
-      zh: 'https://inhega.co.kr/zh/services',
+      'zh-Hans': 'https://inhega.co.kr/zh/services',
       ja: 'https://inhega.co.kr/ja/services',
       'x-default': 'https://inhega.co.kr/services',
     },

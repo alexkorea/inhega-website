@@ -57,7 +57,7 @@ const ko: NewsStrings = {
   heroSub: '국내외 정부·기관이 공개한 법령 제·개정과 규제 통보문을 매일 정리해 올립니다.',
   metaTitle: '인허가 뉴스 | 국내외 규제·법령 동향 — 유선행정사사무소',
   metaDescription:
-    '미국 연방관보, WTO ePing 통보문, 일본 e-Gov 의견공모, EU EUR-Lex, 법제처가 공개한 인허가·규제 동향을 매일 정리합니다. 품목·국가·영향도별로 확인하고 필요한 인허가는 행정사에게 바로 문의하세요.',
+    '미국 연방관보, WTO ePing 통보문, 일본 e-Gov 의견공모, EU EUR-Lex, 법제처가 공개한 인허가·규제 동향을 매일 정리합니다. 품목·국가·영향도별로 확인하고 필요한 인허가는 행정사에게 문의하세요.',
   tabs: { all: '전체', overseas: '해외 규제', domestic: '국내 법령' },
   filterCountry: '국가',
   filterProduct: '품목',

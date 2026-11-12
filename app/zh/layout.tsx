@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     languages: {
       'ko': 'https://inhega.co.kr',
       'en': 'https://inhega.co.kr/en',
-      'zh': 'https://inhega.co.kr/zh',
+      'zh-Hans': 'https://inhega.co.kr/zh',
       'ja': 'https://inhega.co.kr/ja',
       'x-default': 'https://inhega.co.kr',
     },
@@ -45,7 +45,7 @@ const jsonLd = organizationJsonLd('zh')
 
 export default function ZhLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh">
+    <html lang="zh-Hans">
       {/* hreflang is emitted from Metadata.alternates.languages (per-page); do not hardcode here — it double-outputs. */}
       <head>
         <Webfonts />

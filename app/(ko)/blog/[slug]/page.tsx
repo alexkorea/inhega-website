@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const image = ogPath ? `https://inhega.co.kr${ogPath}` : ''
   const languages: Record<string, string> = { ko: `https://inhega.co.kr/blog/${canonicalSlug}`, 'x-default': `https://inhega.co.kr/blog/${canonicalSlug}` }
   if (getBlogI18n('en', canonicalSlug)) languages.en = `https://inhega.co.kr/en/blog/${canonicalSlug}`
-  if (getBlogI18n('zh', canonicalSlug)) languages.zh = `https://inhega.co.kr/zh/blog/${canonicalSlug}`
+  if (getBlogI18n('zh', canonicalSlug)) languages['zh-Hans'] = `https://inhega.co.kr/zh/blog/${canonicalSlug}`
   if (getBlogI18n('ja', canonicalSlug)) languages.ja = `https://inhega.co.kr/ja/blog/${canonicalSlug}`
   return {
     title,

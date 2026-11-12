@@ -20,7 +20,7 @@ export const SERVICE_LIST_UI: Record<AgencyLocale, {
   about: string; contact: string; footer: string; crumbHome: string; inLanguage: string
 }> = {
   ko: {
-    title: (n) => `처리 업무 전체 목록 ${n}종 — 인허가 업무·관할 기관 | 유선행정사사무소`,
+    title: (n) => `처리 업무 전체 목록 ${n}종 | 유선행정사사무소`,
     h1: '처리 업무 전체 목록',
     lead: (n) => `유선행정사사무소가 처리하는 인허가 업무 ${n}종을 분야별로 정리했습니다. 업무마다 정식 명칭, 신청서를 내는 관할 기관, 대상과 자세한 안내 페이지를 확인할 수 있습니다.`,
     desc: (n) => `유선행정사사무소가 처리하는 인허가 업무 ${n}종의 정식 명칭·관할 기관·대상을 분야별 표로 정리했습니다. 업무마다 자세한 안내 페이지로 이동할 수 있습니다.`,
@@ -28,15 +28,15 @@ export const SERVICE_LIST_UI: Record<AgencyLocale, {
     about: '사무소 소개', contact: '상담 문의', footer: '처리 업무 전체 목록', crumbHome: '홈', inLanguage: 'ko-KR',
   },
   en: {
-    title: (n) => `Full List of Services (${n}) — Korean Licensing | YouSun Administrative Agency`,
+    title: (n) => `Full List of Services (${n}) | YouSun Administrative Agency`,
     h1: 'Full list of services we handle',
     lead: (n) => `The ${n} Korean licensing and permit services handled by YouSun Administrative Agency, grouped by field. For each service you can see the official name, the authority you file with, who it applies to and a link to the detailed guide.`,
-    desc: (n) => `All ${n} Korean licensing services handled by YouSun Administrative Agency in one table: official name, competent authority and who it applies to, with links to each guide.`,
+    desc: (n) => `All ${n} Korean licensing services handled by YouSun Administrative Agency in one table: official name, competent authority and who it applies to.`,
     colName: 'Service (official name)', colAgency: 'Competent authority', colTarget: 'Who it applies to', colLink: 'Guide', view: 'View guide',
     about: 'About us', contact: 'Contact', footer: 'Full list of services', crumbHome: 'Home', inLanguage: 'en',
   },
   zh: {
-    title: (n) => `业务一览(${n}项)— 韩国许可业务与受理机关 | YouSun Administrative Agency`,
+    title: (n) => `业务一览(${n}项)— 韩国许可业务 | YouSun Administrative Agency`,
     h1: '办理业务一览',
     lead: (n) => `按领域整理了 YouSun Administrative Agency 办理的 ${n} 项韩国许可业务。每项业务都列出正式名称、受理申请的主管机关、适用对象，并可进入详细说明页面。`,
     desc: (n) => `YouSun Administrative Agency 办理的 ${n} 项韩国许可业务一览:按领域列出正式名称、主管受理机关和适用对象,并附各业务详细说明页面链接,方便查找。`,
@@ -44,7 +44,7 @@ export const SERVICE_LIST_UI: Record<AgencyLocale, {
     about: '事务所介绍', contact: '咨询', footer: '办理业务一览', crumbHome: '首页', inLanguage: 'zh-CN',
   },
   ja: {
-    title: (n) => `取扱業務一覧(${n}件)— 韓国の許認可と管轄機関 | YouSun Administrative Agency`,
+    title: (n) => `取扱業務一覧(${n}件)— 韓国の許認可 | YouSun Administrative Agency`,
     h1: '取扱業務一覧',
     lead: (n) => `YouSun Administrative Agency が取り扱う韓国の許認可業務 ${n} 件を分野別にまとめました。業務ごとに正式名称、申請先の管轄機関、対象と詳しい案内ページを確認できます。`,
     desc: (n) => `YouSun Administrative Agency が取り扱う韓国の許認可業務 ${n} 件の正式名称・管轄機関・対象を分野別の表にまとめ、各業務の詳しい案内ページへのリンクも掲載しています。`,
@@ -67,7 +67,7 @@ export function serviceListMetadata(locale: AgencyLocale): Metadata {
       languages: {
         ko: `${BASE}/services/all`,
         en: `${BASE}/en/services/all`,
-        zh: `${BASE}/zh/services/all`,
+        'zh-Hans': `${BASE}/zh/services/all`,
         ja: `${BASE}/ja/services/all`,
         'x-default': `${BASE}/services/all`,
       },

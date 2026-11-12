@@ -11,7 +11,7 @@ export type FlagLang = 'ko' | 'en' | 'zh' | 'ja'
 export const LANG_LINKS: { key: FlagLang; href: string; name: string; hreflang: string }[] = [
   { key: 'ko', href: '/', name: '한국어', hreflang: 'ko' },
   { key: 'en', href: '/en', name: 'English', hreflang: 'en' },
-  { key: 'zh', href: '/zh', name: '中文', hreflang: 'zh' },
+  { key: 'zh', href: '/zh', name: '中文', hreflang: 'zh-Hans' },
   { key: 'ja', href: '/ja', name: '日本語', hreflang: 'ja' },
 ]
 

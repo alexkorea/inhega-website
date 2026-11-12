@@ -77,23 +77,25 @@ export function industryMetadata(page: IndustryPage): Metadata {
   const { slug, lang } = page
   const locales = getIndustryLocales(slug)
   const languages: Record<string, string> = {}
-  for (const l of locales) languages[l] = pageUrl(l, slug)
+  // 1SEO 3장(11-12): 중국어 간체 hreflang 은 'zh-Hans'(폴더·URL 은 /zh 그대로)
+  for (const l of locales) languages[l === 'zh' ? 'zh-Hans' : l] = pageUrl(l, slug)
   languages['x-default'] = pageUrl('ko', slug)
   const photo = industryPhotoMeta(slug, lang, page.h1)
+  const desc = page.metaDescription ?? page.lead
   return {
     title: page.title,
-    description: page.lead,
+    description: desc,
     alternates: { canonical: pageUrl(lang, slug), languages },
     openGraph: {
       title: page.title,
-      description: page.lead,
+      description: desc,
       url: pageUrl(lang, slug),
       images: [photo.og],
     },
     twitter: {
       card: 'summary_large_image',
       title: page.title,
-      description: page.lead,
+      description: desc,
       images: [photo.og.url],
     },
   }

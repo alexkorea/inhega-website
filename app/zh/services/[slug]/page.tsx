@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       languages: {
         'ko': `https://inhega.co.kr/services/${slug}`,
         'en': `https://inhega.co.kr/en/services/${slug}`,
-        'zh': `https://inhega.co.kr/zh/services/${slug}`,
+        'zh-Hans': `https://inhega.co.kr/zh/services/${slug}`,
         'ja': `https://inhega.co.kr/ja/services/${slug}`,
         'x-default': `https://inhega.co.kr/services/${slug}`,
       },

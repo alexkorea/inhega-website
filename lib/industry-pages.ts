@@ -32,6 +32,8 @@ export interface IndustryPage {
   title: string
   h1: string
   lead: string
+  /** 1SEO 5장(11-12): meta description 전용(lead 를 줄인 것). 없으면 lead. 화면·JSON-LD 는 lead 그대로. */
+  metaDescription?: string
   summaryLabel: string
   summary: string[]
   sections: { h2: string; body: string }[]

@@ -34,9 +34,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!svc) return {}
   const photo = INDUSTRY_PHOTOS[slug] ? industryPhotoMeta(slug, 'ko', svc.title) : null
   const pageTitle = svc.seoTitle ?? `${svc.title} | 유선행정사사무소`
+  const metaDesc = svc.seoDescription ?? svc.description
   return {
     title: pageTitle,
-    description: svc.description,
+    description: metaDesc,
     // 보스 확정 대기 페이지 — 라우트는 살려 두되 색인은 막는다 (2026-09-17).
     ...(isDeployHold(slug) ? { robots: { index: false, follow: false } } : {}),
     // 번역본이 없는 서비스는 en/zh/ja 페이지가 존재하지 않는다.
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         ? {
             'ko': `https://inhega.co.kr/services/${slug}`,
             'en': `https://inhega.co.kr/en/services/${slug}`,
-            'zh': `https://inhega.co.kr/zh/services/${slug}`,
+            'zh-Hans': `https://inhega.co.kr/zh/services/${slug}`,
             'ja': `https://inhega.co.kr/ja/services/${slug}`,
             'x-default': `https://inhega.co.kr/services/${slug}`,
           }
@@ -58,14 +59,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     openGraph: {
       title: pageTitle,
-      description: svc.description,
+      description: metaDesc,
       url: `https://inhega.co.kr/services/${slug}`,
       images: [photo ? photo.og : { url: '/images/hero-seoul.png', width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
       title: pageTitle,
-      description: svc.description,
+      description: metaDesc,
       images: [photo ? photo.og.url : '/images/hero-seoul.png'],
     },
   }

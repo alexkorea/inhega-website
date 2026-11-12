@@ -14,7 +14,7 @@ const metadata: Metadata = {
     languages: {
       ko: 'https://inhega.co.kr/blog',
       en: 'https://inhega.co.kr/en/blog',
-      zh: 'https://inhega.co.kr/zh/blog',
+      'zh-Hans': 'https://inhega.co.kr/zh/blog',
       ja: 'https://inhega.co.kr/ja/blog',
       'x-default': 'https://inhega.co.kr/blog',
     },

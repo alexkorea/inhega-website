@@ -27,7 +27,7 @@ const focusAlternates = (slug: string) =>
           languages: {
             ko: `https://inhega.co.kr/services/${slug}`,
             en: `https://inhega.co.kr/en/services/${slug}`,
-            zh: `https://inhega.co.kr/zh/services/${slug}`,
+            'zh-Hans': `https://inhega.co.kr/zh/services/${slug}`,
             ja: `https://inhega.co.kr/ja/services/${slug}`,
             'x-default': `https://inhega.co.kr/services/${slug}`,
           },
@@ -151,7 +151,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // AI-RECO-2 E-2: 처리 업무 전체 목록(4언어 상호 hreflang)
   const listAlt = {
     languages: {
-      ko: `${base}/services/all`, en: `${base}/en/services/all`, zh: `${base}/zh/services/all`, ja: `${base}/ja/services/all`,
+      ko: `${base}/services/all`, en: `${base}/en/services/all`, 'zh-Hans': `${base}/zh/services/all`, ja: `${base}/ja/services/all`,
       'x-default': `${base}/services/all`,
     },
   }
