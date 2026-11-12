@@ -10210,6 +10210,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-11T10:03:26.133Z",
    "version": "1.4"
+  },
+  "news/eping-121301": {
+   "hash": "8d3ed1128be5d75dc430ec9f77e16a9f5de6f1fdcf64fbffca88f8156fe269c1",
+   "source": "pexels",
+   "seed": 1537594076,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 31099106,
+   "pexels_author": "정규송 Nui MALAMA",
+   "category": "식품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121301",
+   "title": "EU 식품 안전 규칙 개정 - 특수 의료용 식품 농약 잔류물 최대 허용치 감소",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-12T05:09:53.552Z",
+   "version": "1.4"
   }
  }
 }
