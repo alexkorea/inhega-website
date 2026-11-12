@@ -86,7 +86,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
     author: { '@type': 'Person', name: '鄭有善', jobTitle: '代表行政士', worksFor: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' } },
     publisher: { '@type': 'Organization', '@id': 'https://inhega.co.kr/#organization' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://inhega.co.kr/zh/blog/${slug}` },
-    inLanguage: 'zh-CN',
+    inLanguage: 'zh-Hans',
   }
 
   const breadcrumbJsonLd = {

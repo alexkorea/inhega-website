@@ -41,7 +41,7 @@ export const SERVICE_LIST_UI: Record<AgencyLocale, {
     lead: (n) => `按领域整理了 YouSun Administrative Agency 办理的 ${n} 项韩国许可业务。每项业务都列出正式名称、受理申请的主管机关、适用对象，并可进入详细说明页面。`,
     desc: (n) => `YouSun Administrative Agency 办理的 ${n} 项韩国许可业务一览:按领域列出正式名称、主管受理机关和适用对象,并附各业务详细说明页面链接,方便查找。`,
     colName: '业务(正式名称)', colAgency: '主管机关', colTarget: '适用对象', colLink: '相关页面', view: '查看说明',
-    about: '事务所介绍', contact: '咨询', footer: '办理业务一览', crumbHome: '首页', inLanguage: 'zh-CN',
+    about: '事务所介绍', contact: '咨询', footer: '办理业务一览', crumbHome: '首页', inLanguage: 'zh-Hans',
   },
   ja: {
     title: (n) => `取扱業務一覧(${n}件)— 韓国の許認可 | YouSun Administrative Agency`,

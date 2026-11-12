@@ -86,7 +86,7 @@ const ASK_HEADING: Record<FocusPageLocale, string> = {
 /* AI-RECO-2 E-4: 업무 페이지 상단 '최종 수정일' 한 줄 + WebPage.dateModified(같은 값, lib/page-lastmod.ts). 확인일·근거·출처 표기는 하지 않는다. */
 const UPDATED_LABEL: Record<FocusPageLocale, string> = { ko: '최종 수정일', en: 'Last updated', zh: '最后更新', ja: '最終更新日' }
 const PAGE_BASE: Record<FocusPageLocale, string> = { ko: '', en: '/en', zh: '/zh', ja: '/ja' }
-const LANG_TAG_LD: Record<FocusPageLocale, string> = { ko: 'ko-KR', en: 'en', zh: 'zh-CN', ja: 'ja-JP' }
+const LANG_TAG_LD: Record<FocusPageLocale, string> = { ko: 'ko-KR', en: 'en', zh: 'zh-Hans', ja: 'ja-JP' }
 
 function askQuestions(v: PillarView): { id: string; q: string }[] {
   const byId = new Map(v.situations.map((s) => [s.id, s.q]))

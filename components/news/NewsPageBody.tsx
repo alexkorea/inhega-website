@@ -35,7 +35,7 @@ export default async function NewsPageBody({ locale }: { locale: NewsLocale }) {
       url: `${BASE}${pathFor(locale)}`,
       name: t.metaTitle,
       description: t.metaDescription,
-      inLanguage: locale === 'ko' ? 'ko-KR' : locale,
+      inLanguage: locale === 'ko' ? 'ko-KR' : locale === 'zh' ? 'zh-Hans' : locale,
       isPartOf: { '@type': 'WebSite', '@id': `${BASE}/#website`, url: BASE, name: '유선행정사사무소' },
       publisher: { '@id': `${BASE}/#organization` },
       ...(all.length > 0 ? { dateModified: all[0].published_date || undefined } : {}),
