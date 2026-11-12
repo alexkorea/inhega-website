@@ -856,3 +856,7 @@
 /en/blog/rnd-center-recognition-cancellation-grounds
 /ja/blog/rnd-center-recognition-cancellation-grounds
 /zh/blog/rnd-center-recognition-cancellation-grounds
+/blog/food-manufacturing-post-registration-duties
+/en/blog/food-manufacturing-post-registration-duties
+/ja/blog/food-manufacturing-post-registration-duties
+/zh/blog/food-manufacturing-post-registration-duties

@@ -8726,6 +8726,133 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>取消しの前に変更申告と補完の点検を</h3><p>YouSun Administrative Agency が変更申告書の作成、補完命令への対応書類、聴聞の意見書の準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=rnd-center-recognition-cancellation-grounds">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── food-manufacturing-post-registration-duties (inhega-daily 2026-11-12) ──
+  {
+    slug: 'food-manufacturing-post-registration-duties',
+    locale: 'en',
+    title: 'Food Manufacturing Product Reports, Self-Quality Testing and Hygiene Training in Korea — Duties After Registration',
+    metaTitle: 'Food Manufacturing Business Duties After Registration in Korea',
+    metaDescription: 'Duties after food manufacturing registration in Korea: product reports within 7 days, self-quality testing cycles, yearly hygiene training and output reports.',
+    category: 'Food',
+    excerpt: 'Once a food manufacturing and processing business is registered in Korea, each product needs a manufacturing report, testing runs every 1 to 3 months depending on the food type, hygiene training and health checks come every year, and production results are due by the end of February.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Product manufacturing reports and change reports</li><li>Self-quality testing cycles and records</li><li>Hygiene training, health checks and production reports</li><li>FAQ</li></ol></div>
+<p><strong>A food manufacturing and processing business (식품제조·가공업) is <em>registered</em> with the city, county or district head under the Food Sanitation Act. After registration it must file a manufacturing report for each product, test its products on a fixed cycle, and every year complete hygiene training and health checks and report its production results.</strong> It is a registration business, not a permit business, so the registering office (the Ministry of Food and Drug Safety for liquor) is the contact point.</p>
+<p>Initial steps and facility standards are covered in <a href="/en/blog/food-manufacturing-license-guide">our food manufacturing registration guide</a>, and management after HACCP certification in <a href="/en/blog/haccp-post-certification-management-guide">our HACCP post-certification guide</a>.</p>
+
+<h2>Product manufacturing reports and change reports</h2>
+<p>To make a food, a registered business reports each product to the registering office before production starts or within 7 days after it starts. If production is outsourced, the business that commissions it files the report.</p>
+<ol><li>Fix the product name, food type, ingredients and mixing ratios.</li><li>Prepare a description of the manufacturing method and a statement of reasons for the use-by period.</li><li>Submit the product manufacturing report before production or within 7 days after it starts.</li><li>If the name, reported ingredients or ratios, or the use-by period (extension) change, file a change report within the same window.</li></ol>
+<p>Failing to report, or reporting falsely, is subject to an administrative fine. Changes made only to produce food for export are excluded.</p>
+
+<h2>Self-quality testing cycles and records</h2>
+<p>The business tests whether its food meets the standards, either itself or through a designated testing body. Testing is done per product, or per food type where the same items apply, and the cycle runs from the day the product was first made.</p>
+<table><thead><tr><th>Food group (examples)</th><th>Cycle</th></tr></thead><tbody>
+<tr><td>Confectionery, candy, rice cakes, chocolate, jam, tofu, noodles, fermented sauces, pickles and similar</td><td>At least once every 3 months</td></tr>
+<tr><td>Bread, foods containing meat or eggs, some beverages such as fruit and vegetable drinks, carbonated drinks and soy milk, perilla oil</td><td>At least once every 2 months</td></tr>
+<tr><td>Other foods</td><td>At least once every 1 month (6 months for liquor)</td></tr>
+<tr><td>Announced food poisoning risk periods</td><td>3-month items monthly, 2-month items every 15 days, 1-month items weekly</td></tr>
+</tbody></table>
+<p>Test records are kept for 2 years. If in-house testing shows a possible hazard, it must be reported to the Ministry without delay. Selling food known to fail can lead to cancellation of the registration at the 1st violation, and skipping testing entirely means a 1-month product manufacturing suspension. A HACCP-certified site that scores 90% or more in its evaluation can be exempted from self-quality testing.</p>
+
+<h2>Hygiene training, health checks and production reports</h2>
+<p>Food manufacturers take 3 hours of food hygiene training every year (8 hours before opening). If the owner does not work on site or runs 2 or more sites, a designated staff member may attend instead, and untrained staff may not be put to work.</p>
+<p>Owners and staff who handle food directly get a health check before starting work, then every 1 year within 30 days before or after the expiry date. Last year's production results are reported through the registering office by the end of February.</p>
+<ul><li>Production, work and ingredient records: keep for 3 years from the last entry</li><li>Product transaction records: keep for 2 years</li><li>Outsourced production: inspect the contract site at least once every half year</li><li>Customer complaints such as foreign matter: record and keep for 2 years, and keep the evidence for 6 months</li><li>Groundwater instead of tap water: use only water tested by a drinking water lab every 1 year (6 months for beverages)</li></ul>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do I re-report if only the package size changes?</p><p class="faq-a">A. Change reports cover the product name, reported ingredients and ratios, and use-by extensions. Ask the registering office how other changes are handled.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Who tests outsourced products?</p><p class="faq-a">A. Either the commissioning business or the actual maker. Put the responsible party in the contract.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do I need training if I was closed all year?</p><p class="faq-a">A. If you filed a suspension with the tax office and were closed for the whole year, you may skip that year's training.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do I report a year with no production?</p><p class="faq-a">A. Check with the registering office in advance. For help, see <a href="/en/services/food-manufacturing">our food manufacturing registration service</a>.</p></div>
+</div>
+
+<div class="cta-block"><h3>Keep your food manufacturing duties on schedule</h3><p>YouSun Administrative Agency helps prepare product manufacturing reports, change reports and annual production reports. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-post-registration-duties">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'food-manufacturing-post-registration-duties',
+    locale: 'zh',
+    title: '韩国食品制造加工业品目制造报告·自主质量检验·卫生教育 — 登记后的义务与周期',
+    metaTitle: '韩国食品制造加工业登记后的义务：品目制造报告与检验周期',
+    metaDescription: '韩国食品制造加工业登记后，每个产品须在生产开始前或开始后7日内进行品目制造报告，按食品类型周期进行自主质量检验，并每年接受卫生教育、健康检查和报告生产实绩。',
+    category: '食品',
+    excerpt: '食品制造加工业完成登记后，每个产品都要进行品目制造报告，按1至3个月周期进行自主质量检验，每年接受3小时卫生教育和健康检查，在次年2月底前报告生产实绩，并将生产·原料记录保存3年。',
+    content: `<div class="toc"><p>目录</p><ol><li>品目制造报告与变更报告</li><li>自主质量检验周期与记录</li><li>卫生教育·健康检查·生产实绩报告</li><li>常见问题</li></ol></div>
+<p><strong>食品制造·加工业（식품제조·가공업）是依据韩国《食品卫生法》向市长·郡守·区厅长<em>登记</em>的营业。登记后须对每个产品进行品目制造报告，按规定周期进行自主质量检验，并每年接受卫生教育和健康检查、报告生产实绩。</strong>它属于登记业种而非许可业种，主管机关是登记机关（酒类制造为食品医药品安全处）。</p>
+<p>首次登记流程与设施标准请参阅<a href="/zh/blog/food-manufacturing-license-guide">食品制造加工业登记指南</a>，HACCP认证后的管理请参阅<a href="/zh/blog/haccp-post-certification-management-guide">HACCP认证后管理</a>。</p>
+
+<h2>品目制造报告与变更报告</h2>
+<p>已登记的营业者制造·加工食品时，须按品目向登记机关报告，期限为产品生产开始前或开始后7日内；委托其他营业者制造的，由委托方报告。</p>
+<ol><li>确定产品名、食品类型、原材料及配比。</li><li>准备制造方法说明书和消费期限设定理由书。</li><li>在生产开始前或开始后7日内提交品目制造报告书。</li><li>产品名、已报告的原材料·配比或消费期限（延长）变更时，在同一期限内提交变更报告书。</li></ol>
+<p>未报告或虚假报告的，属于罚款对象。仅为生产出口用食品而作的变更，不属于变更报告对象。</p>
+
+<h2>自主质量检验周期与记录</h2>
+<p>营业者须检验所制造的食品是否符合标准·规格，可自行检验，也可委托指定检验机构。原则上按品目检验，适用相同检验项目的可按食品类型检验，周期自首次制造产品之日起计算。</p>
+<table><thead><tr><th>食品区分（举例）</th><th>检验周期</th></tr></thead><tbody>
+<tr><td>饼干·糖果·年糕、巧克力、果酱、豆腐·凉粉、面类、酱类、腌渍·炖煮类等</td><td>每3个月1次以上</td></tr>
+<tr><td>面包、含肉加工品、含蛋加工品、果蔬汁·碳酸饮料·豆奶等部分饮料、紫苏油</td><td>每2个月1次以上</td></tr>
+<tr><td>其他食品</td><td>每1个月1次以上（酒类为6个月）</td></tr>
+<tr><td>食物中毒高风险公告期间</td><td>3个月周期品目改为1个月，2个月周期品目改为15日，1个月周期品目改为每周</td></tr>
+</tbody></table>
+<p>检验记录须保存2年。自行检验发现可能危害健康的，须立即向食药处报告；明知不合格仍流通的，按处分标准第1次即可能被撤销登记；完全未检验的，第1次为品目制造停止1个月。HACCP适用企业评估结果达满分90%以上的，可免除自主质量检验。</p>
+
+<h2>卫生教育·健康检查·生产实绩报告</h2>
+<p>食品制造·加工业者每年须接受3小时食品卫生教育（开业前新办教育为8小时）。营业者不直接从业或在两处以上营业的，可指定员工中的负责人代为受训；不得让未受训人员从事营业。</p>
+<p>直接从事食品制造·加工的营业者和员工须在从业前接受健康检查，此后每1年在有效期届满日前后30日内再次检查。上一年的生产实绩须在次年2月底前经登记机关报告。</p>
+<ul><li>生产·作业记录与原料出入库文件：自最后记载日起保存3年</li><li>产品交易记录：保存2年</li><li>委托制造时：每半年至少1次检查受托企业卫生状况</li><li>消费者异物投诉等：记录并保存2年，消费者提供的异物和证据品保存6个月</li><li>使用自来水以外的地下水等：每1年（饮料等为6个月）经饮用水水质检验机构检验合格后方可使用</li></ul>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 只改变包装规格，需要重新报告吗？</p><p class="faq-a">A. 变更报告对象是产品名、已报告的原材料·配比及消费期限延长。其他变更请向登记机关确认处理方式。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 委托制造时由谁进行自主质量检验？</p><p class="faq-a">A. 由委托方或实际制造方其中一方检验，建议在合同中写明责任方。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 全年停业也要接受卫生教育吗？</p><p class="faq-a">A. 已向税务署申报停业且全年停业的，可以不接受当年的卫生教育。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 没有生产实绩也要报告吗？</p><p class="faq-a">A. 请事先向登记机关确认。需要协助请参阅<a href="/zh/services/food-manufacturing">食品制造加工业登记服务</a>。</p></div>
+</div>
+
+<div class="cta-block"><h3>食品制造加工业登记后的义务，按日程管理</h3><p>YouSun Administrative Agency协助准备品目制造报告、变更报告和生产实绩报告材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-post-registration-duties">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'food-manufacturing-post-registration-duties',
+    locale: 'ja',
+    title: '韓国の食品製造加工業 品目製造報告・自家品質検査・衛生教育 — 登録後の義務と周期',
+    metaTitle: '韓国の食品製造加工業 登録後の義務：品目製造報告と検査周期',
+    metaDescription: '韓国の食品製造加工業は登録後、製品ごとに生産開始前か開始後7日以内に品目製造報告をし、食品類型別の周期で自家品質検査を行い、毎年衛生教育・健康診断・生産実績報告が必要です。',
+    category: '食品',
+    excerpt: '食品製造加工業の登録を終えたら、製品ごとの品目製造報告、1か月から3か月周期の自家品質検査、毎年3時間の衛生教育と健康診断、翌年2月末までの生産実績報告、生産・原料記録の3年保管が続きます。',
+    content: `<div class="toc"><p>目次</p><ol><li>品目製造報告と変更報告</li><li>自家品質検査の周期と記録</li><li>衛生教育・健康診断・生産実績報告</li><li>よくある質問</li></ol></div>
+<p><strong>食品製造・加工業（식품제조·가공업）は、韓国の「食品衛生法」に基づき市長・郡守・区庁長に<em>登録</em>する営業です。登録後は製品ごとに品目製造報告をし、定められた周期で自家品質検査を行い、毎年衛生教育と健康診断を受け、生産実績を報告しなければなりません。</strong>許可業種ではなく登録業種なので、窓口は登録官庁（酒類の製造は食品医薬品安全処）です。</p>
+<p>最初の登録手続と施設基準は<a href="/ja/blog/food-manufacturing-license-guide">食品製造加工業の登録ガイド</a>を、HACCP認証後の管理は<a href="/ja/blog/haccp-post-certification-management-guide">HACCP認証後の事後管理</a>をご覧ください。</p>
+
+<h2>品目製造報告と変更報告</h2>
+<p>登録した営業者が食品を製造・加工するときは、品目ごとに登録官庁へ報告します。期限は製品の生産開始前か開始後7日以内で、他の営業者に委託して製造する場合は委託者が報告します。</p>
+<ol><li>製品名、食品類型、原材料と配合比率を確定します。</li><li>製造方法説明書と消費期限設定理由書を準備します。</li><li>品目製造報告書を生産開始前か開始後7日以内に提出します。</li><li>製品名、報告済みの原材料・配合比率、消費期限（延長）が変わる場合は、同じ期限内に変更報告書を提出します。</li></ol>
+<p>品目製造報告をしない、または虚偽の報告をすると過料の対象です。輸出用食品を製造するための変更は変更報告の対象外です。</p>
+
+<h2>自家品質検査の周期と記録</h2>
+<p>営業者は、製造した食品が基準・規格に適合するかを自ら検査するか、指定された検査機関に委託して検査します。検査は品目ごとに行い、同じ検査項目が適用される場合は食品類型ごとにでき、周期は最初に製品を製造した日から数えます。</p>
+<table><thead><tr><th>食品の区分（例）</th><th>検査周期</th></tr></thead><tbody>
+<tr><td>菓子・キャンディ類・餅類、チョコレート類、ジャム類、豆腐・ムク類、麺類、醤類、漬物・煮物類など</td><td>3か月ごとに1回以上</td></tr>
+<tr><td>パン類、食肉含有加工品、卵含有加工品、果実・野菜飲料・炭酸飲料・豆乳など一部の飲料、えごま油</td><td>2か月ごとに1回以上</td></tr>
+<tr><td>その他の食品</td><td>1か月ごとに1回以上（酒類は6か月）</td></tr>
+<tr><td>食中毒の危険が高いと告示された期間</td><td>3か月周期の品目は1か月、2か月周期の品目は15日、1か月周期の品目は1週間ごと</td></tr>
+</tbody></table>
+<p>検査記録書は2年間保管します。自ら検査して健康被害のおそれがあれば遅滞なく食薬処に報告し、不適合と知りながら流通させると処分基準上1次で登録取消しの対象です。検査をまったくしない場合は1次で品目製造停止1か月です。HACCP適用業所は、調査・評価の結果が満点の90%以上なら自家品質検査を免除されることがあります。</p>
+
+<h2>衛生教育・健康診断・生産実績報告</h2>
+<p>食品製造・加工業者は毎年3時間の食品衛生教育を受けます（営業開始前の新規教育は8時間）。営業者が直接従事しない場合や2か所以上で営業する場合は、従業員の中から責任者を指定して代わりに受講させることができ、教育を受けていない人を従事させてはいけません。</p>
+<p>食品を直接製造・加工する営業者と従業員は従事前に健康診断を受け、その後は1年ごとに有効期間満了日の前後30日以内に受け直します。前年の生産実績は翌年2月末日までに登録官庁を経由して報告します。</p>
+<ul><li>生産・作業記録と原料出納書類：最終記載日から3年保管</li><li>製品の取引記録：2年保管</li><li>委託製造の場合：受託業所の衛生状態を半期ごとに1回以上点検</li><li>異物などの苦情：内容を記録して2年保管し、消費者が示した異物と証拠品は6か月保管</li><li>水道水以外の地下水などを使う場合：1年（飲料など飲む食品は6か月）ごとに飲用水水質検査機関で検査を受けた水のみ使用</li></ul>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 包装単位だけを変える場合も報告し直しますか。</p><p class="faq-a">A. 変更報告の対象は製品名、報告済みの原材料・配合比率、消費期限の延長です。その他の変更は登録官庁に扱いを確認してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 委託製造では誰が自家品質検査をしますか。</p><p class="faq-a">A. 委託者か実際に製造する者のどちらかが検査します。契約書に責任者を明記しておくと安心です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 1年間ずっと休業していても衛生教育は必要ですか。</p><p class="faq-a">A. 税務署に休業申告をしてその年の全期間休業した場合は、その年の衛生教育を受けないことができます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 生産実績がなくても報告しますか。</p><p class="faq-a">A. 登録官庁に事前に確認してください。サポートは<a href="/ja/services/food-manufacturing">食品製造加工業の登録サービス</a>をご覧ください。</p></div>
+</div>
+
+<div class="cta-block"><h3>食品製造加工業の登録後の義務は日程表で管理</h3><p>YouSun Administrative Agencyが、品目製造報告、変更報告、生産実績報告の書類準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-post-registration-duties">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
