@@ -21,4 +21,12 @@ export function ogCard(locale: string, slug: string): string {
   return p ? p.replace(/\.png(\?|$)/, '-card.png$1') : ''
 }
 
+/** 블로그 상세 히어로 srcset — 2배판이 있는 키만(없으면 ''). 1배 PNG(1200w)와 짝. */
+const OG_2X: Record<string, string> = {"ko/real-estate-brokerage-registration":"135bdf6e"}
+export function ogHeroSrcSet(locale: string, slug: string): string {
+  const src = ogThumb(locale, slug)
+  const k = src.slice('/og/'.length).split('.png')[0]
+  return src && OG_2X[k] ? `${src} 1200w, /og/${k}-2x.webp?v=${OG_2X[k]} 2400w` : ''
+}
+
 export const OG_COUNT = 637

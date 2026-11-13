@@ -1,10 +1,12 @@
 import Link from 'next/link'
-import { FOCUS_SERVICES, FOCUS_SERVICES_I18N, type FocusLocale } from '@/lib/focus-services'
+import { FOCUS_SERVICES, FOCUS_SERVICES_I18N, FOCUS_PHOTOS, type FocusLocale } from '@/lib/focus-services'
 import { industryPhotoBase, industryPhotoAlt } from '@/lib/service-card-images'
 import styles from './FocusServices.module.css'
 
 // 홈 '중점 업무' 6카드(INHEGA-FOCUS-1103, 보스 msg 4781) — 히어로 바로 아래. 정본 lib/focus-services.ts
-// 사진은 업종 사진 정본(lib/service-card-images.ts) 400·800w. 첫 화면 밖이라 lazy(히어로 LCP 와 대역 경쟁 금지).
+// 사진: ko 홈은 중점 업무 전용 사진(lib/focus-services.ts FOCUS_PHOTOS) 400·800w — 아래 업종 목록의 업종 사진과 겹치지 않게(QA01-FIX-1114).
+// 외국어 홈은 지시 범위 밖이라 아직 업종 사진 정본(lib/service-card-images.ts) 그대로(후보 보고, 승인 후 같은 표로 전환).
+// 첫 화면 밖이라 lazy(히어로 LCP 와 대역 경쟁 금지).
 const SIZES = '(max-width: 560px) 34vw, (max-width: 1024px) calc(50vw - 2rem), 360px'
 
 const KO_TEXT = {
@@ -33,7 +35,8 @@ export default function FocusServices({ locale = 'ko' }: { locale?: 'ko' | Focus
         </div>
         <ul className={styles.grid}>
           {items.map((f, i) => {
-            const base = industryPhotoBase(f.slug)
+            const ph = locale === 'ko' ? FOCUS_PHOTOS[f.slug] : undefined
+            const base = ph ? `/images/focus/${ph.file}` : industryPhotoBase(f.slug)
             return (
               <li key={f.slug}>
                 <Link prefetch={false} href={f.href} className={styles.card}>
@@ -42,7 +45,7 @@ export default function FocusServices({ locale = 'ko' }: { locale?: 'ko' | Focus
                       src={`${base}-800.webp`}
                       srcSet={`${base}-400.webp 400w, ${base}-800.webp 800w`}
                       sizes={SIZES}
-                      alt={industryPhotoAlt(f.slug, locale, f.label)}
+                      alt={ph ? `${ph.ko} — ${f.label}` : industryPhotoAlt(f.slug, locale as FocusLocale, f.label)}
                       width={800}
                       height={500}
                       loading="lazy"

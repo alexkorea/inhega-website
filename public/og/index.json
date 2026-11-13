@@ -1727,7 +1727,8 @@
    "lang": "ko",
    "slug": "real-estate-brokerage-registration",
    "generated_at": "2026-11-03T04:59:12.001Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "135bdf6e"
   },
   "ko/academy-establishment-registration": {
    "hash": "1da76f35f754c7f7d1cc8a73ca2236a3bb770e906716a812e3487ffeb800c2be",

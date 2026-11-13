@@ -274,3 +274,17 @@
 | `women-enterprise-select` | office desk documents | [9655624](https://www.pexels.com/photo/9655624/) | cottonbro studio |
 | `women-owned-business-certification` | office desk documents | [8872649](https://www.pexels.com/photo/8872649/) | MART  PRODUCTION |
 | `yongdo-byeongyeong-haengjengsa` | building facade architecture | [40082960](https://www.pexels.com/photo/40082960/) | Jan van der Wolf |
+
+
+## 홈 '중점 업무' 6카드 전용 사진 (QA01-FIX-1114, 2026-11-14)
+
+아래 업종 목록과 같은 사진이 홈에 두 번 나오지 않게 6카드만 다른 사진을 쓴다. 원본(src.original, 폭 3000px 이상) 1.6:1 가운데 크롭 → 400·800w webp(q80), 업스케일 0. 표: `lib/focus-services.ts` FOCUS_PHOTOS, 게이트: `scripts/photo-gate.mjs` 5).
+
+| # | 중점 업무 | slug | 검색어 | Pexels | 사진가 | 고른 이유 |
+|---|---|---|---|---|---|---|
+| 1 | 비영리사단법인 설립 | `nonprofit` | volunteers food bank | [6995212](https://www.pexels.com/photo/6995212/) | Julia M Cameron | 기부 식품을 나눠 담는 자원봉사자 — 비영리 활동 |
+| 2 | 정보통신분야 인허가 | `telecom-business` | server room data center | [4682189](https://www.pexels.com/photo/4682189/) | Brett Sayles | 통신 랙의 광케이블 — 통신 설비 |
+| 3 | 위치기반서비스사업 신고 | `location-based-service` | smartphone map location pin | [5226497](https://www.pexels.com/photo/5226497/) | Samson Katt | 스마트폰 지도 앱 — 위치정보 서비스 |
+| 4 | 화장품 인허가 | `cosmetics` | skincare products flat lay | [8101134](https://www.pexels.com/photo/8101134/) | Polina | 무라벨 세럼 병·크림 용기 — 화장품 |
+| 5 | 건강기능식품 | `health-food` | vitamin supplements bottles | [13534598](https://www.pexels.com/photo/13534598/) | Odin Mcraig | 오메가3 연질 캡슐 — 건강기능식품 |
+| 6 | 공장등록 | `factory` | factory production line machines | [38852436](https://www.pexels.com/photo/38852436/) | YIHAI LASER | 가공 설비가 줄지은 공장 내부 — 공장등록 |

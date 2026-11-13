@@ -29,6 +29,21 @@ export const FOCUS_SERVICES: FocusService[] = [
 
 export const FOCUS_SLUGS = new Set(FOCUS_SERVICES.map((f) => f.slug))
 
+/* 홈 '중점 업무' 6카드 전용 사진(QA01-FIX-1114 3, 2026-11-14) — 예전엔 업종 사진 정본(lib/service-card-images.ts)을
+ * 그대로 써서 같은 홈 아래 업종 목록(ServiceDirectory)과 같은 사진이 두 번 나왔다(IMG-DUP). 업종 사진과 다른 Pexels 사진 6장.
+ * 파일: public/images/focus/<file>-{400,800}.webp(16:10, 원본 폭 3000px 이상 가운데 크롭, 업스케일 0) · 출처 docs/IMAGE-CREDITS.md
+ * scripts/photo-gate.mjs 가 파일·pexels 중복(업종 사진 포함)·크레딧을 검사한다. */
+export type FocusPhoto = { file: string; pexels: number; ko: string; en: string; zh: string; ja: string }
+export const FOCUS_PHOTOS: Record<string, FocusPhoto> = {
+  nonprofit: { file: 'focus-nonprofit-6995212', pexels: 6995212, ko: '기부 식품을 나눠 담는 자원봉사자들', en: 'Volunteers sorting donated food', zh: '分装捐赠食品的志愿者', ja: '寄付食品を仕分けるボランティア' },
+  'telecom-business': { file: 'focus-telecom-business-4682189', pexels: 4682189, ko: '통신 랙에 빽빽이 꽂힌 광케이블', en: 'Fiber-optic cables packed into a network rack', zh: '网络机柜中密集插接的光纤', ja: '通信ラックに密集した光ファイバーケーブル' },
+  'location-based-service': { file: 'focus-location-based-service-5226497', pexels: 5226497, ko: '스마트폰 지도 앱을 손가락으로 넘기는 손', en: 'Hands scrolling a map app on a smartphone', zh: '用手指滑动手机地图应用', ja: 'スマートフォンの地図アプリを操作する手' },
+  cosmetics: { file: 'focus-cosmetics-8101134', pexels: 8101134, ko: '세럼 병과 나무 뚜껑 크림 용기', en: 'Serum bottles and wooden-lid cream jars', zh: '精华瓶与木盖面霜罐', ja: '美容液ボトルと木蓋のクリーム容器' },
+  'health-food': { file: 'focus-health-food-13534598', pexels: 13534598, ko: '유리병에서 쏟아진 오메가3 연질 캡슐', en: 'Omega-3 softgels spilling from a glass jar', zh: '从玻璃瓶倒出的欧米伽3软胶囊', ja: 'ガラス瓶からこぼれたオメガ3ソフトカプセル' },
+  factory: { file: 'focus-factory-38852436', pexels: 38852436, ko: '가공 설비가 줄지어 놓인 넓은 공장 내부', en: 'Spacious factory floor lined with machining equipment', zh: '整齐排列加工设备的宽敞厂房', ja: '加工設備が並ぶ広い工場内部' },
+}
+
+
 /* 외국어 홈 카드·헤더 메뉴 '중점 업무'(INHEGA-FOCUS-1103 2차, 보스 msg 4784) — 순서·slug 는 위 배열과 같다.
    이름은 그 언어 사용자가 찾는 말로(직역 아님). 필러 본문은 lib/focus-pillars-i18n.ts(서버 전용). */
 export type FocusLocale = 'en' | 'zh' | 'ja'

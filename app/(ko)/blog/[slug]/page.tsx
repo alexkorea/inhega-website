@@ -9,7 +9,7 @@ import type { Metadata } from 'next'
 import { blogPosts, type BlogPost } from '@/lib/blog-posts-data'
 import { isDeployHold } from '@/lib/services-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
-import { ogThumb } from '@/lib/og-thumbs.generated'
+import { ogThumb, ogHeroSrcSet } from '@/lib/og-thumbs.generated'
 import { ogHeroBox } from '@/lib/og-hero-full'
 import { BlogServiceLink, BlogSameTopic } from '@/components/blog/TopicLinks'
 
@@ -149,7 +149,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <article>
                 {ogThumb('ko', post.slug || post.id) && (
                   <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '1.5rem', ...ogHeroBox(ogThumb('ko', post.slug || post.id)) }}>
-                    <img src={ogThumb('ko', post.slug || post.id)} alt={post.title} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    {/* QA01-FIX-1114 2: 2배판(2400w)이 있는 글만 srcset — PC 본문 888px×DPR2 에서 1200px 이 흐렸다. 모바일은 1200w 그대로. */}
+                    <img src={ogThumb('ko', post.slug || post.id)} srcSet={ogHeroSrcSet('ko', post.slug || post.id) || undefined} sizes={ogHeroSrcSet('ko', post.slug || post.id) ? '(max-width: 768px) calc(100vw - 32px), 888px' : undefined} alt={post.title} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
                 {/* INHEGA-1111 B-2: 본문 상단 대응 서비스 링크 1개(lib/blog-topic-map.ts) */}

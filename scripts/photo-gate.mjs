@@ -107,6 +107,30 @@ for (const [slug, p] of Object.entries(INDUSTRY_PHOTOS)) {
 const credits = existsSync(join(ROOT, 'docs/IMAGE-CREDITS.md')) ? readFileSync(join(ROOT, 'docs/IMAGE-CREDITS.md'), 'utf8') : ''
 for (const [slug, p] of Object.entries(INDUSTRY_PHOTOS)) if (!credits.includes(`/${p.pexels}/`)) fail(`크레딧 누락: ${slug} (pexels ${p.pexels}) — docs/IMAGE-CREDITS.md`)
 
+// 5) 홈 '중점 업무' 6카드 전용 사진(QA01-FIX-1114) — 업종 사진과 pexels·바이트 겹침 0, 파일 400·800 규격, 크레딧
+const focus = await import(pathToFileURL(join(ROOT, 'lib/focus-services.ts')).href)
+const industryIds = new Set(Object.values(INDUSTRY_PHOTOS).map((p) => p.pexels))
+const focusIds = new Set()
+for (const f of focus.FOCUS_SERVICES) {
+  const p = focus.FOCUS_PHOTOS[f.slug]
+  if (!p) { fail(`중점 업무 사진 없음: ${f.slug}`); continue }
+  if (industryIds.has(p.pexels)) fail(`중점 업무 사진이 업종 사진과 같음: ${f.slug} (pexels ${p.pexels})`)
+  if (focusIds.has(p.pexels)) fail(`중점 업무 사진 중복: ${f.slug} (pexels ${p.pexels})`)
+  focusIds.add(p.pexels)
+  if (!credits.includes(`/${p.pexels}/`)) fail(`크레딧 누락: 중점 ${f.slug} (pexels ${p.pexels}) — docs/IMAGE-CREDITS.md`)
+  for (const w of [400, 800]) {
+    const rel = `public/images/focus/${p.file}-${w}.webp`
+    const fp = join(ROOT, rel)
+    if (!existsSync(fp)) { fail(`파일 없음: ${rel}`); continue }
+    const b = readFileSync(fp)
+    const d = webpSize(b)
+    if (!d || d.w !== w || d.h !== w * 5 / 8) fail(`규격 불일치: ${rel} ${d?.w}×${d?.h} (기대 ${w}×${w * 5 / 8})`)
+    const h = createHash('sha256').update(b).digest('hex')
+    if (seenHash.has(h)) fail(`같은 파일 바이트: ${seenHash.get(h)} = ${rel}`)
+    seenHash.set(h, rel)
+  }
+}
+
 if (errors.length) {
   console.error(`[photo-gate] FAIL ${errors.length}건`)
   for (const e of errors) console.error('  - ' + e)
