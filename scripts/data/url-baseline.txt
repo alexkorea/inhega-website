@@ -860,3 +860,7 @@
 /en/blog/food-manufacturing-post-registration-duties
 /ja/blog/food-manufacturing-post-registration-duties
 /zh/blog/food-manufacturing-post-registration-duties
+/blog/haccp-certification-cancellation-grounds
+/en/blog/haccp-certification-cancellation-grounds
+/ja/blog/haccp-certification-cancellation-grounds
+/zh/blog/haccp-certification-cancellation-grounds

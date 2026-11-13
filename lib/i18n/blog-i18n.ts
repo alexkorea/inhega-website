@@ -8853,6 +8853,187 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>食品製造加工業の登録後の義務は日程表で管理</h3><p>YouSun Administrative Agencyが、品目製造報告、変更報告、生産実績報告の書類準備をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=food-manufacturing-post-registration-duties">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── haccp-certification-cancellation-grounds (inhega-daily 2026-11-13) ──
+  {
+    slug: 'haccp-certification-cancellation-grounds',
+    locale: 'en',
+    title: 'HACCP Certification Cancellation in Korea — Corrective Orders vs. Immediate Cancellation',
+    metaTitle: 'HACCP Certification Cancellation in Korea — Grounds and Score Rules',
+    metaDescription: 'Korean HACCP certification can be cancelled or met with a corrective order. Fraud or a business suspension of 2 months or more means mandatory cancellation.',
+    category: 'Food',
+    excerpt: 'When a HACCP-certified site in Korea breaks the standards, it faces either a corrective order or cancellation. Which violations lead where, the inspection score bands, the two mandatory cancellation cases and what changes afterwards.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Legal grounds for cancellation and corrective orders</li><li>Sanction standards by violation</li><li>What to do before and after a sanction</li><li>FAQ</li></ol></div>
+<p><strong>Under the Food Sanitation Act, HACCP (Hazard Analysis and Critical Control Point) certification can be cancelled, or a corrective order issued, when an inspection shows the site is not following the standards. Cancellation is mandatory if the certification was obtained by fraud or if the business received a suspension of 2 months or more.</strong> HACCP is a certification, separate from the business license or registration. Once it is cancelled, the site may no longer call itself a HACCP-certified site, and businesses for which HACCP is mandatory still have to follow the standards.</p>
+<p>For the first application, see <a href="/en/blog/haccp-certification-guide">our HACCP certification guide</a>. For relocation or changes to critical control points, see <a href="/en/blog/haccp-certification-change-application">HACCP certification change applications</a>.</p>
+
+<h2>Legal grounds for cancellation and corrective orders</h2>
+<p>The Minister of Food and Drug Safety must inspect and evaluate each certified site at least 1 time a year for compliance and training, and this power, together with cancellation and corrective orders, is delegated to the regional food and drug safety offices. The grounds are:</p>
+<ul>
+<li>Not following the HACCP standards</li>
+<li>Obtaining certification by fraud or other improper means (mandatory cancellation)</li>
+<li>Receiving a business suspension of 2 months or more (mandatory cancellation)</li>
+<li>The operator or employees not completing the required training</li>
+<li>Outsourcing production of a certified food to another site, or failing to apply for a change of location or critical control points</li>
+</ul>
+<p>Outsourcing is allowed in some cases, for example to another site certified for the same food. HACCP for livestock product plants falls under the Livestock Products Sanitary Control Act, which has its own cancellation rules.</p>
+
+<h2>Sanction standards by violation</h2>
+<p>The Enforcement Rule divides violations into those leading to cancellation and those leading to a corrective order.</p>
+<table><thead><tr><th>Violation</th><th>Sanction</th></tr></thead><tbody>
+<tr><td>No supplier test reports for raw materials and no in-house testing</td><td>Cancellation</td></tr>
+<tr><td>No cleaning or disinfection of the workplace and no staff hygiene control</td><td>Cancellation</td></tr>
+<tr><td>No monitoring of critical control points, or no corrective action after a critical limit is breached</td><td>Cancellation</td></tr>
+<tr><td>No hazard analysis at all for a new product or added process</td><td>Cancellation</td></tr>
+<tr><td>Not following the production method in the HACCP plan</td><td>Corrective order</td></tr>
+<tr><td>Failed inspection with under 60% in prerequisite programs or HACCP management</td><td>Cancellation</td></tr>
+<tr><td>Failed inspection with 60% to under 85%</td><td>Corrective order</td></tr>
+<tr><td>Training not completed; change application not filed</td><td>Corrective order</td></tr>
+<tr><td>Outsourcing a certified food to another site</td><td>Cancellation</td></tr>
+<tr><td>Business suspension of 2 months or more, or a penalty surcharge in its place</td><td>Cancellation</td></tr>
+</tbody></table>
+<p>A corrective order can still end in cancellation. Ignoring 2 or more corrective orders for production method, training or change application violations, or ignoring an order issued for the 60% to 85% score band, leads to cancellation. Regular employee training is required at least 1 time every year except the year of certification, so keep completion records.</p>
+
+<h2>What to do before and after a sanction</h2>
+<p>Cancellation requires a hearing, so you have a chance to present your position. Respond in this order:</p>
+<ol>
+<li>Check whether each violation in the notice is a corrective order item or a cancellation item in the standards table.</li>
+<li>Gather records such as critical control point monitoring logs, corrective action records and training records.</li>
+<li>If you receive a corrective order, comply within the deadline and keep proof. Repeated non-compliance leads to cancellation.</li>
+<li>At the hearing, explain the facts and the improvements already made.</li>
+<li>If the certification is cancelled, remove the HACCP name from packaging and advertising at once. Continued use is subject to an administrative fine.</li>
+</ol>
+<p>Businesses for which HACCP is mandatory must keep following the standards even after cancellation. For food manufacturing and processing businesses, a breach carries a business suspension of 7 days for a first violation, 15 days for a second and 1 month for a third. For help with recertification, see <a href="/en/services/haccp">our HACCP certification service</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Does a failed inspection mean immediate cancellation?</p><p class="faq-a">A. It depends on the score. Under 60% in prerequisite programs or HACCP management means cancellation; 60% to under 85% means a corrective order, and ignoring that order leads to cancellation.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do we also lose HACCP certification after a business suspension?</p><p class="faq-a">A. A suspension of 2 months or more, or a penalty surcharge in its place, means mandatory cancellation. Shorter suspensions do not fall under this ground.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if employees miss regular training?</p><p class="faq-a">A. Missing training leads to a corrective order. Ignoring 2 or more corrective orders becomes a ground for cancellation.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can we use leftover packaging with the HACCP mark after cancellation?</p><p class="faq-a">A. A business that is not certified may not use the name, and doing so is subject to an administrative fine. Stop using such packaging and advertising.</p></div>
+</div>
+
+<div class="cta-block"><h3>Talk to us about a HACCP sanction</h3><p>To review a sanction notice, organize corrective action records or prepare recertification documents, contact YouSun Administrative Agency. Phone 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-cancellation-grounds">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'haccp-certification-cancellation-grounds',
+    locale: 'zh',
+    title: 'HACCP认证撤销 — 以纠正命令了结的违规与直接撤销的违规',
+    metaTitle: '韩国HACCP认证撤销事由 — 与纠正命令的区别及评估分数标准',
+    metaDescription: '韩国HACCP认证可依调查评估结果被撤销或收到纠正命令。以虚假方式取得认证或受到2个月以上停业处分的，必须撤销认证；评估分数低于60%也属撤销对象。',
+    category: '食品',
+    excerpt: 'HACCP适用业所未遵守标准时，将被撤销认证或收到纠正命令。按违规类型区分处分、调查评估分数区间、必须撤销的两种情形，以及撤销后的变化。',
+    content: `<div class="toc"><p>目录</p><ol><li>撤销认证与纠正命令的法定事由</li><li>按违规类型的处分标准</li><li>处分前后应做的事</li><li>常见问题</li></ol></div>
+<p><strong>根据韩国《食品卫生法》，HACCP（食品安全管理认证标准）适用业所经调查评估未遵守标准的，可被撤销认证或被命令纠正；以虚假或其他不正当方式取得认证，或受到2个月以上停业处分的，必须撤销认证。</strong>HACCP属于“认证”，与营业许可·登记是不同的制度。认证被撤销后不得再使用认证业所名称，属于强制适用对象的营业者仍须遵守标准。</p>
+<p>首次认证流程请参阅<a href="/zh/blog/haccp-certification-guide">HACCP认证指南</a>，营业场所迁移或关键控制点变更请参阅<a href="/zh/blog/haccp-certification-change-application">HACCP认证变更申请</a>。</p>
+
+<h2>撤销认证与纠正命令的法定事由</h2>
+<p>食品药品安全处长须每年1次以上对认证业所的标准遵守情况和教育培训完成情况进行调查评估，该权限及撤销认证·纠正命令权限已委任给地方食品药品安全厅长。处分事由如下：</p>
+<ul>
+<li>未遵守食品安全管理认证标准</li>
+<li>以虚假或其他不正当方式取得认证（必须撤销）</li>
+<li>受到2个月以上停业处分（必须撤销）</li>
+<li>营业者及员工未接受规定的教育培训</li>
+<li>将认证食品委托其他业所生产加工，或未申请营业场所·关键控制点变更</li>
+</ul>
+<p>委托生产也有例外，例如委托给就同一食品取得认证的其他业所。畜产品加工场等的安全管理认证另由《畜产品卫生管理法》规定撤销事由，与这里所说的标准不同。</p>
+
+<h2>按违规类型的处分标准</h2>
+<p>施行规则的处分标准按违规内容分为撤销认证和纠正命令。</p>
+<table><thead><tr><th>违规内容</th><th>处分</th></tr></thead><tbody>
+<tr><td>未取得原辅料检验报告，也未进行自检</td><td>撤销认证</td></tr>
+<tr><td>未清洗消毒作业场所，也未进行从业人员卫生管理</td><td>撤销认证</td></tr>
+<tr><td>未监控关键控制点，或超出关键限值仍未采取改进措施</td><td>撤销认证</td></tr>
+<tr><td>对新产品或新增工序完全未进行危害分析</td><td>撤销认证</td></tr>
+<tr><td>未按计划书规定的方法生产加工</td><td>纠正命令</td></tr>
+<tr><td>调查评估不合格，前提条件或HACCP管理领域低于60%</td><td>撤销认证</td></tr>
+<tr><td>调查评估不合格，60%以上未满85%</td><td>纠正命令</td></tr>
+<tr><td>未完成教育培训、未申请变更</td><td>纠正命令</td></tr>
+<tr><td>将认证食品委托其他业所生产</td><td>撤销认证</td></tr>
+<tr><td>停业2个月以上或以课征金代替停业</td><td>撤销认证</td></tr>
+</tbody></table>
+<p>以纠正命令了结的违规若置之不理，也会导致撤销。因生产方法、教育培训、变更申请违规受到2次以上纠正命令仍未履行，或未履行按分数区间下达的纠正命令的，将撤销认证。员工定期培训除取得认证当年外须每年1次以上，应一并保存完成记录。</p>
+
+<h2>处分前后应做的事</h2>
+<p>撤销认证前须经过听证程序，收到通知后有陈述意见的机会。建议按以下顺序应对：</p>
+<ol>
+<li>确认通知书所列违规项目在处分标准表中属于纠正命令还是撤销认证。</li>
+<li>收集关键控制点监控记录、改进措施记录、培训完成记录等证明事实的资料。</li>
+<li>收到纠正命令的，在期限内履行并留存结果。反复不履行将构成撤销事由。</li>
+<li>在听证中说明事实及已完成的改进内容。</li>
+<li>认证被撤销后，立即从包装和广告中撤下HACCP适用业所名称。继续使用将被处以过怠金。</li>
+</ol>
+<p>强制适用对象即使认证被撤销，仍须遵守标准。食品制造加工业等违反时，另有第1次停业7日、第2次15日、第3次1个月的营业处分标准。重新认证的准备请参阅<a href="/zh/services/haccp">HACCP认证服务</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 调查评估不合格会立即撤销吗？</p><p class="faq-a">A. 视分数而定。前提条件或HACCP管理领域低于60%的撤销认证，60%以上未满85%的为纠正命令，未履行该命令的将被撤销。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 受到停业处分，HACCP认证也会失去吗？</p><p class="faq-a">A. 停业2个月以上或以课征金代替停业的，必须撤销认证。更短的停业不属于此事由。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 员工漏掉定期培训会怎样？</p><p class="faq-a">A. 未完成培训属于纠正命令对象。受到2次以上纠正命令仍未履行的，构成撤销事由。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 认证撤销后，剩余包装上的HACCP标识还能用吗？</p><p class="faq-a">A. 非认证业所的营业者不得使用该名称，违者将被处以过怠金。应停止使用带有该标识的包装和广告物。</p></div>
+</div>
+
+<div class="cta-block"><h3>HACCP处分应对咨询</h3><p>处分通知审查、纠正结果整理、重新认证材料准备，请联系YouSun Administrative Agency（代表行政士 Jung Yu-sun）。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-cancellation-grounds">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'haccp-certification-cancellation-grounds',
+    locale: 'ja',
+    title: 'HACCP認証取消 — 是正命令で済む違反と直ちに取り消される違反',
+    metaTitle: '韓国のHACCP認証取消事由 — 是正命令との違いと評価点数の基準',
+    metaDescription: '韓国のHACCP認証は調査・評価の結果により取消または是正命令を受けます。虚偽の認証と2か月以上の営業停止は必ず取消となり、評価点数60%未満も取消の対象です。',
+    category: '食品',
+    excerpt: 'HACCP適用業所が基準を守らない場合、認証取消か是正命令を受けます。違反の種類ごとの処分、調査・評価の点数区分、必ず取り消される二つの場合、取消後に変わる点を説明します。',
+    content: `<div class="toc"><p>目次</p><ol><li>認証取消と是正命令の法的事由</li><li>違反の種類別の処分基準</li><li>処分の前後にすべきこと</li><li>よくある質問</li></ol></div>
+<p><strong>韓国の「食品衛生法」により、HACCP（食品安全管理認証基準）適用業所が調査・評価で基準を守っていないと判断されると、認証の取消または是正命令を受けることがあります。虚偽その他不正な方法で認証を受けた場合と、2か月以上の営業停止処分を受けた場合は、必ず認証が取り消されます。</strong>HACCPは営業許可・登録とは別の「認証」です。取り消されると認証業所の名称は使えなくなり、義務適用の対象となる営業者は引き続き基準を守らなければなりません。</p>
+<p>最初の認証手続きは<a href="/ja/blog/haccp-certification-guide">HACCP認証の取得方法と手続き</a>、営業所の移転や重要管理点の変更は<a href="/ja/blog/haccp-certification-change-application">HACCP認証の変更申請</a>をご覧ください。</p>
+
+<h2>認証取消と是正命令の法的事由</h2>
+<p>食品医薬品安全処長は認証業所の基準遵守と教育訓練の修了状況を年1回以上調査・評価しなければならず、この権限と認証取消・是正命令の権限は地方食品医薬品安全庁長に委任されています。処分事由は次のとおりです。</p>
+<ul>
+<li>食品安全管理認証基準を守らなかった場合</li>
+<li>虚偽その他不正な方法で認証を受けた場合（必ず取消）</li>
+<li>2か月以上の営業停止処分を受けた場合（必ず取消）</li>
+<li>営業者と従業員が定められた教育訓練を受けなかった場合</li>
+<li>認証を受けた食品を他の業所に委託して製造・加工した場合、または所在地・重要管理点の変更申請をしなかった場合</li>
+</ul>
+<p>委託製造には、同じ食品で認証を受けた他の業所に委託する場合などの例外があります。畜産物加工場などの安全管理認証は「畜産物衛生管理法」に別の取消規定があり、ここでの基準とは異なります。</p>
+
+<h2>違反の種類別の処分基準</h2>
+<p>施行規則の処分基準は、違反の内容によって認証取消と是正命令に分かれています。</p>
+<table><thead><tr><th>違反の内容</th><th>処分</th></tr></thead><tbody>
+<tr><td>原材料・副材料の検査成績書を受け取らず、自主検査もしない</td><td>認証取消</td></tr>
+<tr><td>作業場の洗浄・消毒も従事者の衛生管理もしない</td><td>認証取消</td></tr>
+<tr><td>重要管理点のモニタリングをしない、または管理基準の逸脱後も改善措置をしない</td><td>認証取消</td></tr>
+<tr><td>新製品・追加工程の危害要因分析をまったくしない</td><td>認証取消</td></tr>
+<tr><td>基準書に定めた製造・加工方法どおりに作らない</td><td>是正命令</td></tr>
+<tr><td>調査・評価で不適合、前提条件またはHACCP管理分野が60%未満</td><td>認証取消</td></tr>
+<tr><td>調査・評価で不適合、60%以上85%未満</td><td>是正命令</td></tr>
+<tr><td>教育訓練の未修了、変更申請の漏れ</td><td>是正命令</td></tr>
+<tr><td>認証食品を他の業所に委託製造</td><td>認証取消</td></tr>
+<tr><td>2か月以上の営業停止、またはそれに代わる課徴金</td><td>認証取消</td></tr>
+</tbody></table>
+<p>是正命令で済む違反も放置すれば取消につながります。製造方法、教育訓練、変更申請の違反で2回以上是正命令を受けても履行しない場合や、点数区分による是正命令を履行しない場合は認証取消です。従業員の定期教育は認証を受けた年を除き毎年1回以上なので、修了記録もあわせて管理してください。</p>
+
+<h2>処分の前後にすべきこと</h2>
+<p>認証を取り消すには聴聞を経なければならないため、通知を受けたら意見を述べる機会があります。次の順で対応します。</p>
+<ol>
+<li>通知書の違反項目が処分基準表で是正命令の対象か認証取消の対象かを確認します。</li>
+<li>重要管理点のモニタリング記録、改善措置の記録、教育修了記録など事実関係を示す資料を集めます。</li>
+<li>是正命令であれば期限内に履行し、結果を残します。不履行が重なると取消事由になります。</li>
+<li>聴聞では事実関係とすでに終えた改善内容を説明します。</li>
+<li>取り消された場合は、包装や広告からHACCP適用業所の名称を直ちに外します。使い続けると過料の対象です。</li>
+</ol>
+<p>義務適用の業所は、認証が取り消されても基準を守る義務が残ります。食品製造・加工業などが違反すると、1回目は営業停止7日、2回目は15日、3回目は1か月という営業処分の基準が別にあります。再認証の準備は<a href="/ja/services/haccp">HACCP認証サービス</a>でご案内しています。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 調査・評価で不適合になると、すぐに取り消されますか。</p><p class="faq-a">A. 点数によります。前提条件またはHACCP管理分野が60%未満なら認証取消、60%以上85%未満なら是正命令で、その命令を履行しないと取り消されます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 営業停止処分を受けるとHACCP認証も失いますか。</p><p class="faq-a">A. 2か月以上の営業停止、またはそれに代わる課徴金の処分であれば、認証は必ず取り消されます。それより短い停止はこの事由に当たりません。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 従業員が定期教育を受け忘れたらどうなりますか。</p><p class="faq-a">A. 教育訓練の未修了は是正命令の対象です。2回以上是正命令を受けても履行しなければ取消事由になります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 取消後、残った包装材のHACCP表示は使えますか。</p><p class="faq-a">A. 認証業所でない営業者はその名称を使えず、違反すると過料の対象です。表示の残った包装材や広告物は使用をやめてください。</p></div>
+</div>
+
+<div class="cta-block"><h3>HACCPの処分対応のご相談</h3><p>処分通知の確認、是正結果の整理、再認証の書類準備は、YouSun Administrative Agency（代表行政士 Jung Yu-sun）にお問い合わせください。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=haccp-certification-cancellation-grounds">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
