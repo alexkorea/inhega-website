@@ -864,3 +864,7 @@
 /en/blog/haccp-certification-cancellation-grounds
 /ja/blog/haccp-certification-cancellation-grounds
 /zh/blog/haccp-certification-cancellation-grounds
+/blog/international-logistics-registration-standards-report
+/en/blog/international-logistics-registration-standards-report
+/ja/blog/international-logistics-registration-standards-report
+/zh/blog/international-logistics-registration-standards-report

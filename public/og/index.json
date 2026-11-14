@@ -10229,6 +10229,42 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-12T05:09:53.552Z",
    "version": "1.4"
+  },
+  "news/eping-121415": {
+   "hash": "33922e0f2ca89daba044e9b5fb7f381cdaffb793113703378d8307938e2644e6",
+   "source": "pexels",
+   "seed": 1250585313,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 10870651,
+   "pexels_author": "Jimmy Liao",
+   "category": "중형 및 무거운 트럭, 버스",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121415",
+   "title": "EU의 중형 및 무거운 트럭과 버스의 CO2 배출량과 연료 소비량 결정을 위한 인증 절차 개정안",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-14T10:03:29.961Z",
+   "version": "1.4"
+  },
+  "news/eping-121008": {
+   "hash": "d39eac5f0c545292f32b92c70a496ce6b0263309f6d1eef315b5f5fd00e14799",
+   "source": "pexels",
+   "seed": 1611532252,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 10149139,
+   "pexels_author": "Jimmy Liao",
+   "category": "식품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121008",
+   "title": "캐나다 식품의 화학적, 물리적, 영양적 특성 표 수정 제안",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-14T10:03:30.767Z",
+   "version": "1.4"
   }
  }
 }
