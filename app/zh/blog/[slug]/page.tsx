@@ -7,7 +7,7 @@ import { getServiceMenuCount } from '@/lib/services-menu'
 import type { Metadata } from 'next'
 import { blogPosts } from '@/lib/blog-posts-data'
 import { getBlogI18n } from '@/lib/i18n/blog-i18n'
-import { ogThumb } from '@/lib/og-thumbs.generated'
+import { ogThumb, ogHeroSrcSet } from '@/lib/og-thumbs.generated'
 import { ogHeroBox } from '@/lib/og-hero-full'
 import { koBlogHref } from '@/lib/blog-redirects'
 
@@ -136,7 +136,7 @@ export default async function ZhBlogPostPage({ params }: { params: Promise<{ slu
               <article>
                 {ogThumb('zh', slug) && (
                   <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '1.5rem', ...ogHeroBox(ogThumb('zh', slug)) }}>
-                    <img src={ogThumb('zh', slug)} alt={displayTitle} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src={ogThumb('zh', slug)} srcSet={ogHeroSrcSet('zh', slug) || undefined} sizes={ogHeroSrcSet('zh', slug) ? '(max-width: 768px) calc(100vw - 32px), 888px' : undefined} alt={displayTitle} width={1200} height={630} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                 )}
                 {post ? (

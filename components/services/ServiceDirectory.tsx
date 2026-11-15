@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { FillImage } from '@/components/ui/FillImage'
 import { getServiceCatalog, type CatalogLocale } from '@/lib/services-catalog'
 import { getServiceDirectory, type DirectoryEntry, type DirectoryGroup } from '@/lib/service-directory'
-import { industryPhotoBase, industryPhotoAlt } from '@/lib/service-card-images'
+import { industryPhotoBase, industryPhotoAlt, HOME_CARD_PHOTOS, HOME_CARD_PHOTO_DIR } from '@/lib/service-card-images'
 import DirectoryTabs from './DirectoryTabs'
 import styles from './ServiceDirectory.module.css'
 
@@ -79,12 +79,19 @@ function PhotoGroups({ locale, groups, page }: { locale: CatalogLocale; groups: 
                     <div className={styles.photoImage}>
                       {/* 전부 lazy — 홈은 첫 화면 밖, /services 는 LCP 가 히어로 제목(텍스트)이다.
                           sizes = 실제 카드 폭(CARD_SIZES). */}
-                      <FillImage
-                        base={cardImageBase(e.slug, catalogImage)}
-                        widths={[400, 800, 1200]}
-                        alt={industryPhotoAlt(e.slug, locale, e.title)}
-                        sizes={CARD_SIZES}
-                      />
+                      {/* EYE-FIX-INH-1115: ko 홈만 상세 히어로와 다른 카드 전용 사진(HOME_CARD_PHOTOS) — cardImageBase 검사는 그대로 거친다. */}
+                      {(() => {
+                        const base = cardImageBase(e.slug, catalogImage)
+                        const hp = page === 'home' && locale === 'ko' ? HOME_CARD_PHOTOS[e.slug] : undefined
+                        return (
+                          <FillImage
+                            base={hp ? `${HOME_CARD_PHOTO_DIR}/${hp.file}` : base}
+                            widths={[400, 800, 1200]}
+                            alt={hp ? `${hp.ko} — ${e.title}` : industryPhotoAlt(e.slug, locale, e.title)}
+                            sizes={CARD_SIZES}
+                          />
+                        )
+                      })()}
                     </div>
                     {/* INH-CARD-SPLIT(맥7, 보스 msg 2417): 사진은 위에 원색 그대로(덮개·그라데이션 0), 글은 사진 아래 흰 영역.
                         글 묶음은 제목 2줄·설명 2줄 높이 고정 + 맨 아래 한 줄(분야 배지 왼쪽·자세히 보기 오른쪽) — 같은 행 카드의 세로 위치가 같다.

@@ -110,6 +110,16 @@ export const INDUSTRY_PHOTOS: Record<string, Photo> = {
 
 export const INDUSTRY_PHOTO_DIR = '/images/industry'
 
+/**
+ * EYE-FIX-INH-1115(맥7): ko 홈 업종 카드 전용 사진 — 업종 상세 히어로(아래 업종 사진)와 같은 사진이 홈 카드에 또 나오지 않게.
+ * 홈 카드만 바꾼다(/services 목록·상세 히어로·og·JSON-LD 는 INDUSTRY_PHOTOS 그대로). 파일 public/images/home-cards/<file>-{400,800,1200}.webp(16:10),
+ * pexels 는 업종·중점 업무 사진과 겹치면 안 된다 — scripts/photo-gate.mjs 6) 이 검사. 크레딧 docs/IMAGE-CREDITS.md.
+ */
+export const HOME_CARD_PHOTO_DIR = '/images/home-cards'
+export const HOME_CARD_PHOTOS: Record<string, { file: string; pexels: number; ko: string }> = {
+  'kc-radio-certification': { file: 'home-kc-radio-certification-32698507', pexels: 32698507, ko: '안테나 두 개가 달린 무선 공유기' },
+}
+
 // 같은 사진이 두 업종에 걸리면 모듈 로드 시점에 throw → next build 실패(보스 msg 2341 ⑥).
 {
   const seen = new Map<number, string>()

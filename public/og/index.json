@@ -15,7 +15,8 @@
    "lang": "ko",
    "slug": "international-logistics-registration-guide",
    "generated_at": "2026-11-03T04:44:48.114Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fb25e976"
   },
   "ko/currency-exchange-registration-guide": {
    "hash": "49acd550991e1d974f61505ac58a071e940c1b3946666199a111d745516d59cf",
@@ -31,7 +32,8 @@
    "lang": "ko",
    "slug": "currency-exchange-registration-guide",
    "generated_at": "2026-11-03T04:26:05.481Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "df310481"
   },
   "ko/building-usage-change-guide": {
    "hash": "56371f0e3ac544579658e71ddaa6da000cbcb5e843745a66b3a2d9694469a1d1",
@@ -47,7 +49,8 @@
    "lang": "ko",
    "slug": "building-usage-change-guide",
    "generated_at": "2026-11-03T04:23:31.550Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "77ff9360"
   },
   "ko/food-manufacturing-license-guide": {
    "hash": "bb67ff26a3d0418afbacc1fa7b3a995b57fb62e4a0507c0c26c85fd08f327d5d",
@@ -63,7 +66,8 @@
    "lang": "ko",
    "slug": "food-manufacturing-license-guide",
    "generated_at": "2026-11-03T04:32:03.526Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "aea541fa"
   },
   "ko/women-enterprise-certification-guide": {
    "hash": "a9b7e4b7eb56d302aae10303cdebdd6830e4d529973da4237e0ca074e623d629",
@@ -79,7 +83,8 @@
    "lang": "ko",
    "slug": "women-enterprise-certification-guide",
    "generated_at": "2026-11-03T05:08:34.981Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f8b69002"
   },
   "ko/haccp-certification-guide": {
    "hash": "b31d7ca788472885b5fd11ef82c8143aa2789bda523b886d1117600a6dad1ffa",
@@ -95,7 +100,8 @@
    "lang": "ko",
    "slug": "haccp-certification-guide",
    "generated_at": "2026-11-03T04:38:38.083Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "befcc852"
   },
   "ko/venture-innobiz-certification-guide": {
    "hash": "404d75ff773197d9c918fa122f1b42be2cc8e41e65838e085abe466752d8a76a",
@@ -111,7 +117,8 @@
    "lang": "ko",
    "slug": "venture-innobiz-certification-guide",
    "generated_at": "2026-11-03T05:06:34.611Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6872ed81"
   },
   "ko/procurement-narajangteo-registration-guide": {
    "hash": "d7e62f11f50ba6547d2ba40861331ad9b72aedf8e7d0b96dc71ec637fe518a6f",
@@ -127,7 +134,8 @@
    "lang": "ko",
    "slug": "procurement-narajangteo-registration-guide",
    "generated_at": "2026-11-03T05:16:28.444Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1ce24949"
   },
   "ko/urban-guesthouse-registration-guide": {
    "hash": "85dcdd1091a6939a2299d5d221613914e02d16fa0a9ece536990a93ccf855458",
@@ -143,7 +151,8 @@
    "lang": "ko",
    "slug": "urban-guesthouse-registration-guide",
    "generated_at": "2026-11-03T05:05:24.017Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "825624bb"
   },
   "ko/hostel-registration-guide": {
    "hash": "2a18262141bf0374f6408dd542b2c76df7c528b9cb52dcc87ca604ea37ffbaec",
@@ -159,7 +168,8 @@
    "lang": "ko",
    "slug": "hostel-registration-guide",
    "generated_at": "2026-11-03T04:42:24.532Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "12396895"
   },
   "ko/hanok-experience-registration-guide": {
    "hash": "8688ccfe4df60a63c8b3785bececef5e90eaa57b4b000b1f2842027b2ba5f586",
@@ -175,7 +185,8 @@
    "lang": "ko",
    "slug": "hanok-experience-registration-guide",
    "generated_at": "2026-11-03T05:15:28.179Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "98a5df1c"
   },
   "ko/tobacco-import-sales-guide": {
    "hash": "07ff7f4da6139ca589e1dfd57090d6714b16e32201965794bb37ca955c5ae6e7",
@@ -191,7 +202,8 @@
    "lang": "ko",
    "slug": "tobacco-import-sales-guide",
    "generated_at": "2026-11-03T05:03:49.861Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a288cc05"
   },
   "ko/nonprofit-corporation-establishment-guide": {
    "hash": "f8ed3911974e72d6a3e13aca4ecfc7d988c6666cff133dac912dd28100f855c4",
@@ -223,7 +235,8 @@
    "lang": "ko",
    "slug": "corporate-research-lab-establishment-guide",
    "generated_at": "2026-11-03T04:24:44.451Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "228eb77a"
   },
   "ko/e-cigarette-import-license-guide": {
    "hash": "f5689736deb68baa1bbf8a5d5eff75bcb6b388c2ba62b9d872be32a96ca05c34",
@@ -239,7 +252,8 @@
    "lang": "ko",
    "slug": "e-cigarette-import-license-guide",
    "generated_at": "2026-11-03T04:27:30.240Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "82da23ae"
   },
   "ko/international-logistics-capital-funding-guide": {
    "hash": "d9c5adc71f82f7880eb0beb139442bf21b97a430367ced600064eec0967123e1",
@@ -255,7 +269,8 @@
    "lang": "ko",
    "slug": "international-logistics-capital-funding-guide",
    "generated_at": "2026-11-03T04:44:44.438Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ef781e1e"
   },
   "ko/urban-guesthouse-airbnb-operation-guide": {
    "hash": "817c5a324d30b43c058d6c5af4e51f819868906f9e9c9b759de338052f60e1c1",
@@ -271,7 +286,8 @@
    "lang": "ko",
    "slug": "urban-guesthouse-airbnb-operation-guide",
    "generated_at": "2026-11-03T05:05:17.610Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3c5bf957"
   },
   "ko/nonprofit-corporation-articles-and-approval-guide": {
    "hash": "a4c0f34daf4149a18a9c34f1d05e8d2a6a4f47272acc646d599912a98b950625",
@@ -287,7 +303,8 @@
    "lang": "ko",
    "slug": "nonprofit-corporation-articles-and-approval-guide",
    "generated_at": "2026-11-03T04:52:43.058Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fa0f57de"
   },
   "ko/women-enterprise-renewal-management-guide": {
    "hash": "e3f764c773bdbadd62c718589aeb86ca48ca4454d605a6de2214cce8c1bd70aa",
@@ -303,7 +320,8 @@
    "lang": "ko",
    "slug": "women-enterprise-renewal-management-guide",
    "generated_at": "2026-11-03T05:08:36.651Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "585b8841"
   },
   "ko/currency-exchange-aml-internal-control-guide": {
    "hash": "d1ef3aa3c416063cc86bce948d53628d119dfc911d754859725fad2ca5bc6c41",
@@ -319,7 +337,8 @@
    "lang": "ko",
    "slug": "currency-exchange-aml-internal-control-guide",
    "generated_at": "2026-11-03T04:25:59.608Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "80d967bf"
   },
   "ko/haccp-post-certification-management-guide": {
    "hash": "ce6a6631de42eb00a04a7f295982e1debce172f0efd0d68c3476ec3cecb78498",
@@ -335,7 +354,8 @@
    "lang": "ko",
    "slug": "haccp-post-certification-management-guide",
    "generated_at": "2026-11-03T04:38:41.401Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1d039448"
   },
   "ko/building-usage-change-case-studies-guide": {
    "hash": "c71bb2610a15b37a575c505e1c3bdf20b7ab50057aed4c60e7b2a277bd051398",
@@ -351,7 +371,8 @@
    "lang": "ko",
    "slug": "building-usage-change-case-studies-guide",
    "generated_at": "2026-11-03T04:23:29.958Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "aa0bf6bb"
   },
   "ko/narajangteo-bidding-price-strategy-guide": {
    "hash": "f3f224210bc0b40dafbe2cb11e87351e74f0c182380379c77df64c2c27c8fb64",
@@ -367,7 +388,8 @@
    "lang": "ko",
    "slug": "narajangteo-bidding-price-strategy-guide",
    "generated_at": "2026-11-03T05:16:26.831Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c5b9beee"
   },
   "ko/corporate-research-lab-agency-risk-guide": {
    "hash": "ef6adfce23f9bd9ddb94d4e62ee23d073018417627ed2a23b8f477b0fe3592da",
@@ -383,7 +405,8 @@
    "lang": "ko",
    "slug": "corporate-research-lab-agency-risk-guide",
    "generated_at": "2026-11-03T04:24:42.864Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ebe6bf5d"
   },
   "ko/cosmetics-manufacturing-registration": {
    "hash": "4bc7a1e7849120c989f9e7c0d05fe22861a2c6772cd6fb22d9700e04a4124138",
@@ -399,7 +422,8 @@
    "lang": "ko",
    "slug": "cosmetics-manufacturing-registration",
    "generated_at": "2026-11-03T04:25:14.853Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0a08ac7b"
   },
   "ko/corporate-rnd-center-requirements": {
    "hash": "2a1898f17c80592d6fac08ef63b8dd3bf7f2dbffcce042a3a75a50192a17c824",
@@ -415,7 +439,8 @@
    "lang": "ko",
    "slug": "corporate-rnd-center-requirements",
    "generated_at": "2026-11-03T04:24:47.814Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ba61abf5"
   },
   "ko/cosmetics-manufacturing-facility-guide": {
    "hash": "396cbc7b80dd08b36e698efb941bd0546bfba49a41a4ae9fd3da579a4d91a2b7",
@@ -431,7 +456,8 @@
    "lang": "ko",
    "slug": "cosmetics-manufacturing-facility-guide",
    "generated_at": "2026-11-03T04:25:11.069Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e6c5d7d8"
   },
   "ko/freight-forwarder-capital-bond-requirements": {
    "hash": "43e4e6bff46f8bb17b61481aeb6b084ec1edc92fb171d293f2c87e5446fdfc35",
@@ -447,7 +473,8 @@
    "lang": "ko",
    "slug": "freight-forwarder-capital-bond-requirements",
    "generated_at": "2026-11-03T04:33:41.988Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e4de1b4f"
   },
   "ko/sports-club-establishment-guide": {
    "hash": "089ef148cfc93745d958f344a21a781fea76126db12e3c58c017547a7bbe9581",
@@ -463,7 +490,8 @@
    "lang": "ko",
    "slug": "sports-club-establishment-guide",
    "generated_at": "2026-11-03T05:02:37.572Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5adb7787"
   },
   "ko/manufacturing-business-registration-procedure": {
    "hash": "6a576eb5a3809783f9fb8906f6c6bb851429ce9b164a5aeb90f78ae6f0d629e3",
@@ -479,7 +507,8 @@
    "lang": "ko",
    "slug": "manufacturing-business-registration-procedure",
    "generated_at": "2026-11-03T04:50:09.248Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8068ee23"
   },
   "ko/factory-registration-application-guide": {
    "hash": "4d2ea3454b21513bfa410f1aa8d5cd3d46e2dd146664185ed792623a67a98838",
@@ -495,7 +524,8 @@
    "lang": "ko",
    "slug": "factory-registration-application-guide",
    "generated_at": "2026-11-03T04:28:56.323Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "634c3d9c"
   },
   "ko/venture-tax-benefits": {
    "hash": "30a25695bf5f9fccc5eda82150b9df3dca0f2f32a4ffb34b7256a3709c8ddb17",
@@ -511,7 +541,8 @@
    "lang": "ko",
    "slug": "venture-tax-benefits",
    "generated_at": "2026-11-03T05:06:38.291Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2d119bd4"
   },
   "ko/rnd-center-tax-credit": {
    "hash": "9ef1aefd2e782c27097ec5a5ece92b656aee2c2be4a3a81ce4d5ad262e6994b2",
@@ -527,7 +558,8 @@
    "lang": "ko",
    "slug": "rnd-center-tax-credit",
    "generated_at": "2026-11-03T05:01:32.065Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "507b13c2"
   },
   "ko/cosmetics-responsible-distributor": {
    "hash": "b9ea57772d9aa74a51e01695157979d019e2e4473d011b488b565c9d0a77410b",
@@ -543,7 +575,8 @@
    "lang": "ko",
    "slug": "cosmetics-responsible-distributor",
    "generated_at": "2026-11-03T04:25:16.418Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b82fe5f5"
   },
   "ko/academy-establishment-registration-guide": {
    "hash": "ec6ed9724ea4b788d8531481af747aa1338ebf476e2c9b2faca3a5ff1ccac347",
@@ -559,7 +592,8 @@
    "lang": "ko",
    "slug": "academy-establishment-registration-guide",
    "generated_at": "2026-11-03T04:20:42.865Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ee9de1b5"
   },
   "ko/laundry-business-permit-guide": {
    "hash": "ea5e366ceab8f17c20638d9ef6d5d8a9fb8a30f087e83383271e73c8627e7651",
@@ -575,7 +609,8 @@
    "lang": "ko",
    "slug": "laundry-business-permit-guide",
    "generated_at": "2026-11-03T04:46:20.805Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "41082482"
   },
   "ko/real-estate-agency-registration-guide": {
    "hash": "447f89cda624ada6a1138471f7e3a046429bd61fb9e6cf9d1ca1796a3e4721c1",
@@ -591,7 +626,8 @@
    "lang": "ko",
    "slug": "real-estate-agency-registration-guide",
    "generated_at": "2026-11-03T04:59:10.411Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ac804f03"
   },
   "ko/restaurant-food-service-license-guide": {
    "hash": "6b9ea1252c49034db6c7ed2bc126ebd3068d7402f506e8e90abb87323da55389",
@@ -607,7 +643,8 @@
    "lang": "ko",
    "slug": "restaurant-food-service-license-guide",
    "generated_at": "2026-11-03T05:01:06.255Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8d7d9df2"
   },
   "ko/medical-clinic-establishment-guide": {
    "hash": "c9d0fef0daef189f9a3ec6055678907e97e642a88af2b29657e2b943465753da",
@@ -623,7 +660,8 @@
    "lang": "ko",
    "slug": "medical-clinic-establishment-guide",
    "generated_at": "2026-11-03T04:51:13.574Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "08f7ea98"
   },
   "ko/postpartum-care-center-permit-guide": {
    "hash": "deb20fcb28c15ca100028904fbca5a5c8d2f18a164f2a8177ea539a7e3c3720a",
@@ -639,7 +677,8 @@
    "lang": "ko",
    "slug": "postpartum-care-center-permit-guide",
    "generated_at": "2026-11-03T04:56:53.253Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f8d5d40a"
   },
   "ko/building-use-change-permit-guide": {
    "hash": "a2e791fbaa11eaa7656d6bf771d302b883efa21a590d35b3cc64af35d8a65897",
@@ -655,7 +694,8 @@
    "lang": "ko",
    "slug": "building-use-change-permit-guide",
    "generated_at": "2026-11-03T04:23:38.999Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "adb17122"
   },
   "ko/administrative-license-permit-specialist-guide": {
    "hash": "044c059a40c09d2a98c05bd532424004f2edd74f554c6ec6792b2b424a2de105",
@@ -671,7 +711,8 @@
    "lang": "ko",
    "slug": "administrative-license-permit-specialist-guide",
    "generated_at": "2026-11-03T04:21:46.812Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "41b2db50"
   },
   "ko/location-based-service-business-registration-foreign-company": {
    "hash": "f7842da30b75fa01af2ecdcef1b5493aa1fb80368c20ea7f2c0adc208319841f",
@@ -687,7 +728,8 @@
    "lang": "ko",
    "slug": "location-based-service-business-registration-foreign-company",
    "generated_at": "2026-11-03T05:16:02.182Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2c6f376c"
   },
   "ko/online-shop-communication-sales-registration-guide": {
    "hash": "747e9ea2859d721fe28fbe3a8a9ab151800191ab59f2e7e3fd3807bd6f8f9853",
@@ -703,7 +745,8 @@
    "lang": "ko",
    "slug": "online-shop-communication-sales-registration-guide",
    "generated_at": "2026-11-03T04:53:19.245Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4ace0c31"
   },
   "ko/health-functional-food-sales-registration-guide": {
    "hash": "b671888f10f267826fcf26bb6aec68b9bbf8a7a48581aed7010af5d56d81918c",
@@ -719,7 +762,8 @@
    "lang": "ko",
    "slug": "health-functional-food-sales-registration-guide",
    "generated_at": "2026-11-03T04:41:26.429Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "99aa16f1"
   },
   "ko/yongdo-byeongyeong-haengjengsa": {
    "hash": "d363a46e99490af646a2c8353281890f1e3d975d395af2cfa6a0c2a0e0ad99fe",
@@ -735,7 +779,8 @@
    "lang": "ko",
    "slug": "yongdo-byeongyeong-haengjengsa",
    "generated_at": "2026-11-03T05:09:17.452Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "aa3ac4fd"
   },
   "ko/beauty-salon-notification-guide": {
    "hash": "2ebcddc4fd03129aa44001aea1421436cab2982b0f735c8995cbb8499376c240",
@@ -751,7 +796,8 @@
    "lang": "ko",
    "slug": "beauty-salon-notification-guide",
    "generated_at": "2026-11-03T04:22:31.365Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "10a63e64"
   },
   "ko/pet-shop-animal-sales-registration-guide": {
    "hash": "59a1995a25c9fa50c081c673cfe55f70852175cd0bd4a0fedad6589d0d9783bc",
@@ -767,7 +813,8 @@
    "lang": "ko",
    "slug": "pet-shop-animal-sales-registration-guide",
    "generated_at": "2026-11-03T04:55:26.922Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e2849ec1"
   },
   "ko/cosmetics-import-sales-registration-guide": {
    "hash": "a6ed6054cdd60b3a3ccec6834a7338feb722e2f1af11dcfb5cf8b5a07b8f2192",
@@ -783,7 +830,8 @@
    "lang": "ko",
    "slug": "cosmetics-import-sales-registration-guide",
    "generated_at": "2026-11-03T05:10:36.178Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "447a524a"
   },
   "ko/location-based-service-domestic-registration-guide": {
    "hash": "7d7842d6a314c43a5c096ebf6f112f1d2363f9a438a00081868d4fa072b3a403",
@@ -799,7 +847,8 @@
    "lang": "ko",
    "slug": "location-based-service-domestic-registration-guide",
    "generated_at": "2026-11-03T04:48:49.720Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "358b94da"
   },
   "ko/freight-forwarder-capital-bond": {
    "hash": "dcd7b5a6f53353386f28236796a77fb16512e1efabfd82fb52d2a79a40999610",
@@ -815,7 +864,8 @@
    "lang": "ko",
    "slug": "freight-forwarder-capital-bond",
    "generated_at": "2026-11-03T04:33:41.141Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4f05de46"
   },
   "ko/currency-exchange-registration": {
    "hash": "be713936338860b9acb0370a59c2e9ff4dc9fa69ec4d05982cc9b3097dced712",
@@ -831,7 +881,8 @@
    "lang": "ko",
    "slug": "currency-exchange-registration",
    "generated_at": "2026-11-03T04:26:04.647Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b3a576a2"
   },
   "ko/hostel-registration-facility": {
    "hash": "2e28545744cdac6c0126beb391f806b17b8a1cc42c81db178acebe9a2a1fffc3",
@@ -847,7 +898,8 @@
    "lang": "ko",
    "slug": "hostel-registration-facility",
    "generated_at": "2026-11-03T04:42:23.663Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "37a1804d"
   },
   "ko/foreigner-urban-homestay-registration": {
    "hash": "a41fc90d1e50d88b0aafb70d93db422597d12a761f42e0db48b16fd5c9b2b901",
@@ -863,7 +915,8 @@
    "lang": "ko",
    "slug": "foreigner-urban-homestay-registration",
    "generated_at": "2026-11-03T04:32:44.972Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ebe630ab"
   },
   "ko/hanok-stay-registration-requirements": {
    "hash": "d0a0f207b7b6e4d6ec2d237b381f1209d44edbaeb6dba6d6a2f1f37e6f8491af",
@@ -879,7 +932,8 @@
    "lang": "ko",
    "slug": "hanok-stay-registration-requirements",
    "generated_at": "2026-11-03T04:40:49.782Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4b2ff426"
   },
   "ko/nonprofit-association-permit": {
    "hash": "afd978857df193003677d9ebd74135bfed13b40131f7cddd98e470cd2a5ad985",
@@ -895,7 +949,8 @@
    "lang": "ko",
    "slug": "nonprofit-association-permit",
    "generated_at": "2026-11-03T04:52:41.425Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "66e335b4"
   },
   "ko/tobacco-import-registration": {
    "hash": "2e7578bf1de24fbe370e243ba559654f87893b1452f55f019fd0fc0fd8a0f1e5",
@@ -911,7 +966,8 @@
    "lang": "ko",
    "slug": "tobacco-import-registration",
    "generated_at": "2026-11-03T05:03:48.348Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "62840cf5"
   },
   "ko/e-cigarette-import-permit": {
    "hash": "d5a63a5f9049e29baf3e8f34fb6278fd0beab605fa2a9f91e496651e5d614dad",
@@ -927,7 +983,8 @@
    "lang": "ko",
    "slug": "e-cigarette-import-permit",
    "generated_at": "2026-11-03T05:18:32.490Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b23e598a"
   },
   "ko/women-owned-business-certification": {
    "hash": "5c26efee51141049bac5ae2777a50f0b17161648a09a814c3dc312ce03512e1c",
@@ -943,7 +1000,8 @@
    "lang": "ko",
    "slug": "women-owned-business-certification",
    "generated_at": "2026-11-03T05:08:39.003Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "66a64141"
   },
   "ko/g2b-registration-procedure": {
    "hash": "ad874503eb4222e6a6e1a2dd2715d1f25a368234476f234031f2aa99d0d03dd8",
@@ -959,7 +1017,8 @@
    "lang": "ko",
    "slug": "g2b-registration-procedure",
    "generated_at": "2026-11-03T04:36:00.247Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a9e14619"
   },
   "ko/freight-forwarder-registration-guide": {
    "hash": "903ce064c2e2897d4c73e8a092580752032dd4b339bcae43902eb4a1cbdccf61",
@@ -975,7 +1034,8 @@
    "lang": "ko",
    "slug": "freight-forwarder-registration-guide",
    "generated_at": "2026-11-03T04:33:43.970Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a7a59f81"
   },
   "ko/currency-exchange-compliance": {
    "hash": "925534bdcb26da6a45fc4d969b1332640211670c01e3fa456e32ea811600a5cc",
@@ -991,7 +1051,8 @@
    "lang": "ko",
    "slug": "currency-exchange-compliance",
    "generated_at": "2026-11-03T04:26:02.694Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b8aaa1b4"
   },
   "ko/hostel-vs-guesthouse": {
    "hash": "cba080a6e1361141526c4fb922dbaebd6b7cb99c60b65c4b4b42faaa7c29008f",
@@ -1007,7 +1068,8 @@
    "lang": "ko",
    "slug": "hostel-vs-guesthouse",
    "generated_at": "2026-11-03T04:42:29.147Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "565b4f3f"
   },
   "ko/foreigner-homestay-operating-days": {
    "hash": "2007a344dc1846292b2c7016f131e440d47c3e490cc8c9a2f70bc5398073c07c",
@@ -1023,7 +1085,8 @@
    "lang": "ko",
    "slug": "foreigner-homestay-operating-days",
    "generated_at": "2026-11-03T04:32:44.134Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b16ad777"
   },
   "ko/hanok-stay-operation-rules": {
    "hash": "5f93b1aac7b7a9a5fd62c22b5d9c8d408e711ccc503116864c496e92506afa20",
@@ -1039,7 +1102,8 @@
    "lang": "ko",
    "slug": "hanok-stay-operation-rules",
    "generated_at": "2026-11-03T04:40:48.003Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cd49715e"
   },
   "ko/nonprofit-articles-drafting": {
    "hash": "401b6ac6d62ef95b0dbea3615f02ed67c03a4cd9f4033152d4cff758e8fe91ea",
@@ -1055,7 +1119,8 @@
    "lang": "ko",
    "slug": "nonprofit-articles-drafting",
    "generated_at": "2026-11-03T04:52:40.574Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0066ccef"
   },
   "ko/tobacco-license-tax-bond": {
    "hash": "0077de03f70964606097d21cee3e3bf80128f3ea578ea99b0d5dea4bf6449fce",
@@ -1071,7 +1136,8 @@
    "lang": "ko",
    "slug": "tobacco-license-tax-bond",
    "generated_at": "2026-11-03T05:03:54.153Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "34429fdf"
   },
   "ko/e-cigarette-liquid-regulation": {
    "hash": "d92149a3b64fa600a80c05c7dc8a3f940692e05d9d7b7776e664309f8c698241",
@@ -1087,7 +1153,8 @@
    "lang": "ko",
    "slug": "e-cigarette-liquid-regulation",
    "generated_at": "2026-11-03T04:27:32.593Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4b56f3f7"
   },
   "ko/women-business-renewal": {
    "hash": "822ca8a65a19838079564f2830ddc4ea34e31d99e1ac87b4fc5c4d54603290ba",
@@ -1103,7 +1170,8 @@
    "lang": "ko",
    "slug": "women-business-renewal",
    "generated_at": "2026-11-03T05:08:34.161Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ccfb81b6"
   },
   "ko/g2b-direct-production-certification": {
    "hash": "98e1b62caa5756b59e8734ba671f141592c12be4c4f0e3be3f8f90c6da328740",
@@ -1119,7 +1187,8 @@
    "lang": "ko",
    "slug": "g2b-direct-production-certification",
    "generated_at": "2026-11-03T04:35:58.155Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "257c8559"
   },
   "ko/innobiz-evaluation-criteria": {
    "hash": "da2fa8701cefa19f6d7d9e8672b4aa1f8d990db6cc7e25d7ace61c3840094005",
@@ -1135,7 +1204,8 @@
    "lang": "ko",
    "slug": "innobiz-evaluation-criteria",
    "generated_at": "2026-11-03T04:43:41.820Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "871e540d"
   },
   "ko/rnd-department-vs-center": {
    "hash": "3642964274837e256d552a2e2c48710c4899836d19887ef62dc9a94e6ebe610a",
@@ -1151,7 +1221,8 @@
    "lang": "ko",
    "slug": "rnd-department-vs-center",
    "generated_at": "2026-11-03T05:01:33.624Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "70f3f78a"
   },
   "ko/quasi-drug-manufacturing-permit": {
    "hash": "56ed498e673c26c45442fc5596315fcf908a99792ab9c9a3fc4dfdf09ffec0e0",
@@ -1167,7 +1238,8 @@
    "lang": "ko",
    "slug": "quasi-drug-manufacturing-permit",
    "generated_at": "2026-11-03T04:58:12.532Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "26290aa5"
   },
   "ko/freight-forwarder-vs-domestic": {
    "hash": "21f9764eb7aac10f99d291abaedd88bac50d382847b82fcb02ac840431a4e783",
@@ -1183,7 +1255,8 @@
    "lang": "ko",
    "slug": "freight-forwarder-vs-domestic",
    "generated_at": "2026-11-03T04:33:45.107Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "53ef4058"
   },
   "ko/hostel-room-fire-standards": {
    "hash": "53772088f03639a061319e85f1ef025299d9bc39739e39d01f95af37e28d7723",
@@ -1199,7 +1272,8 @@
    "lang": "ko",
    "slug": "hostel-room-fire-standards",
    "generated_at": "2026-11-03T04:42:26.208Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9469b162"
   },
   "ko/foreigner-homestay-fire-tax": {
    "hash": "2130e4912afdd6e9ef61d4161f8cf3a43174118ee534afb92003582b58dd475f",
@@ -1215,7 +1289,8 @@
    "lang": "ko",
    "slug": "foreigner-homestay-fire-tax",
    "generated_at": "2026-11-03T04:32:43.292Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5485400d"
   },
   "ko/nonprofit-association-vs-foundation": {
    "hash": "94706eca52934a9bf3a769cdff8a623e19836714cef5d715c05706c29d336a61",
@@ -1231,7 +1306,8 @@
    "lang": "ko",
    "slug": "nonprofit-association-vs-foundation",
    "generated_at": "2026-11-03T04:52:42.274Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9ab37813"
   },
   "ko/tobacco-advertising-rules": {
    "hash": "a6daca1871537ec1f98f84bef34e99ad839eac556807f6c54fd5cd328100f7a1",
@@ -1247,7 +1323,8 @@
    "lang": "ko",
    "slug": "tobacco-advertising-rules",
    "generated_at": "2026-11-03T05:03:43.000Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e3c6e439"
   },
   "ko/g2b-bidding-qualifications": {
    "hash": "3201ad42268792b16ec92cbfedf1fbc50abb7fc15fdca56340ceaa2591ea6a03",
@@ -1263,7 +1340,8 @@
    "lang": "ko",
    "slug": "g2b-bidding-qualifications",
    "generated_at": "2026-11-03T04:35:57.128Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1a4cdd4e"
   },
   "ko/innobiz-benefits": {
    "hash": "8ee3577e891ef5c5dca54a8fbb3323a19b9a2d6458a3e7493383f9d20d130194",
@@ -1279,7 +1357,8 @@
    "lang": "ko",
    "slug": "innobiz-benefits",
    "generated_at": "2026-11-03T04:43:39.883Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "525cce20"
   },
   "ko/rnd-center-post-management": {
    "hash": "06dc703d16894c7a8df3ae407d3a5ac18cfcf31de6fa7dac0a7815d721e64c8c",
@@ -1295,7 +1374,8 @@
    "lang": "ko",
    "slug": "rnd-center-post-management",
    "generated_at": "2026-11-03T05:01:30.049Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2b321ec9"
   },
   "ko/quasi-drug-import-permit": {
    "hash": "ac2b823945c062d7e9a1600399a11bb39a2cffaa20d6870fb1cb1b5cc87dc36d",
@@ -1311,7 +1391,8 @@
    "lang": "ko",
    "slug": "quasi-drug-import-permit",
    "generated_at": "2026-11-03T04:58:11.736Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6e0ff0d1"
   },
   "ko/forwarder-startup-checklist": {
    "hash": "6a085cd3ce94163c489a32e9bac39efc6f9a89c23bfe175045f50cbb9ce105c7",
@@ -1327,7 +1408,8 @@
    "lang": "ko",
    "slug": "forwarder-startup-checklist",
    "generated_at": "2026-11-03T04:33:40.328Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "be31d7c5"
   },
   "ko/nonprofit-tax-reporting": {
    "hash": "7d1aad89fe759bb551a76155325c4a723dfada1cae00f5d2ad9ca000120174e7",
@@ -1343,7 +1425,8 @@
    "lang": "ko",
    "slug": "nonprofit-tax-reporting",
    "generated_at": "2026-11-03T04:52:48.590Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e7f180d7"
   },
   "ko/tobacco-customs-hs-code": {
    "hash": "7f509d649ad1a40298066e130a90fe1c631a647e336f2d02da9e6d508f852eda",
@@ -1359,7 +1442,8 @@
    "lang": "ko",
    "slug": "tobacco-customs-hs-code",
    "generated_at": "2026-11-03T05:03:44.547Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "490f5e9d"
   },
   "ko/venture-renewal-procedure": {
    "hash": "1f90562e77c63694459c1a514a8681eef871e49a4d3c7cd4d715037edd19e10a",
@@ -1375,7 +1459,8 @@
    "lang": "ko",
    "slug": "venture-renewal-procedure",
    "generated_at": "2026-11-03T05:06:36.253Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0c86dbc1"
   },
   "ko/tobacco-license-renewal": {
    "hash": "263bb2b35f0b73605863d0892aee247863388437b205469e542ee45da38f2525",
@@ -1391,7 +1476,8 @@
    "lang": "ko",
    "slug": "tobacco-license-renewal",
    "generated_at": "2026-11-03T05:03:52.964Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6f567725"
   },
   "ko/tobacco-import-documents": {
    "hash": "cd890f07c2364d342ecdc01822d4b0398ffed99bcd8f74a3bc0f90932657f19a",
@@ -1407,7 +1493,8 @@
    "lang": "ko",
    "slug": "tobacco-import-documents",
    "generated_at": "2026-11-03T05:03:46.857Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5f5d17ac"
   },
   "ko/food-import-sales-registration": {
    "hash": "ceb684a76fba85c0b7e0b64f9722944d5b43f406edf89b03ddd3a4c14b9450a4",
@@ -1423,7 +1510,8 @@
    "lang": "ko",
    "slug": "food-import-sales-registration",
    "generated_at": "2026-11-03T04:32:01.602Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3159e8d9"
   },
   "ko/venture-certification-renewal": {
    "hash": "997e9b0a9ec71065f622820943ee3809272ce4c01e63ca3d66c6172e1018b727",
@@ -1439,7 +1527,8 @@
    "lang": "ko",
    "slug": "venture-certification-renewal",
    "generated_at": "2026-11-03T05:06:31.854Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ec63ec31"
   },
   "ko/haccp-mandatory-industries": {
    "hash": "e226e470982c27b730dba84bc0fb04e483d23e8fd4ee76b9d525ef3bfb6cfd48",
@@ -1455,7 +1544,8 @@
    "lang": "ko",
    "slug": "haccp-mandatory-industries",
    "generated_at": "2026-11-03T04:38:40.564Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "db4949b6"
   },
   "ko/g2b-direct-production-renewal": {
    "hash": "0f8a4b24d165b72cfbfe8ad4a9bda0832632ed421b34539582436475c9cfa072",
@@ -1471,7 +1561,8 @@
    "lang": "ko",
    "slug": "g2b-direct-production-renewal",
    "generated_at": "2026-11-03T04:35:58.966Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c3de437a"
   },
   "ko/restaurant-permit-checklist": {
    "hash": "5e4d27610c5a71fe3361bf0ed593230ec56113186a039f2c66c0ee77c66cc2fa",
@@ -1487,7 +1578,8 @@
    "lang": "ko",
    "slug": "restaurant-permit-checklist",
    "generated_at": "2026-11-03T05:01:09.275Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "140760a3"
   },
   "ko/cleaning-business-report": {
    "hash": "826594af19dd6531cf5396267749e174ab902b87d739350ed1c1dd7cf4e002de",
@@ -1503,7 +1595,8 @@
    "lang": "ko",
    "slug": "cleaning-business-report",
    "generated_at": "2026-11-03T04:24:20.001Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a3112b64"
   },
   "ko/real-estate-agency-registration": {
    "hash": "86d1ef689d50a9c84f960f9671e28842f9536f6acef6f56f736398e35f94fcc4",
@@ -1519,7 +1612,8 @@
    "lang": "ko",
    "slug": "real-estate-agency-registration",
    "generated_at": "2026-11-03T04:59:09.599Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8375ce31"
   },
   "ko/rnd-center-relocation-dissolution-guide": {
    "hash": "c51532e59871187859e02bfa8f504db648962db0124148f14187d0e719b6c190",
@@ -1535,7 +1629,8 @@
    "lang": "ko",
    "slug": "rnd-center-relocation-dissolution-guide",
    "generated_at": "2026-11-03T05:01:30.842Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c8883036"
   },
   "ko/liquor-sales-license": {
    "hash": "62fdb3966aa4de682e973144e88ef77b00bf9966586735ef1d16d805ae78284f",
@@ -1551,7 +1646,8 @@
    "lang": "ko",
    "slug": "liquor-sales-license",
    "generated_at": "2026-11-03T04:47:59.237Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "474ddcb4"
   },
   "ko/health-functional-food-registration": {
    "hash": "2dde5eaed234062dd06c999aa297e3d9b432558eb403cabb5c8719e32d5ba88d",
@@ -1567,7 +1663,8 @@
    "lang": "ko",
    "slug": "health-functional-food-registration",
    "generated_at": "2026-11-03T04:41:24.878Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fbcff247"
   },
   "ko/travel-agency-registration": {
    "hash": "05e6889313b693a4c219e491783fc4f6ddd32cf0a522d228bbb4ff1f7d1ce0fd",
@@ -1583,7 +1680,8 @@
    "lang": "ko",
    "slug": "travel-agency-registration",
    "generated_at": "2026-11-03T05:04:54.398Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3a577b8c"
   },
   "ko/medical-device-sales-registration": {
    "hash": "a6e85aa81bea43e23dd929ace8fc202dce6ebfff971d14db740c6561c4436722",
@@ -1599,7 +1697,8 @@
    "lang": "ko",
    "slug": "medical-device-sales-registration",
    "generated_at": "2026-11-03T04:51:41.941Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cd01ce89"
   },
   "ko/pesticide-sales-registration": {
    "hash": "47cfbe6d4e7b583ec82ea452c0b4969c2a5babda15e5e34d1a870bc7164a9d95",
@@ -1615,7 +1714,8 @@
    "lang": "ko",
    "slug": "pesticide-sales-registration",
    "generated_at": "2026-11-03T04:54:17.390Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "db88fc61"
   },
   "ko/environmental-facility-permit": {
    "hash": "8ce499f950b93b7904827adf554a21587ff13e80c9b42c8a310d7833679f5b7f",
@@ -1631,7 +1731,8 @@
    "lang": "ko",
    "slug": "environmental-facility-permit",
    "generated_at": "2026-11-03T04:28:08.482Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a18a314c"
   },
   "ko/public-hygiene-business-permit": {
    "hash": "8125eacaa745e52c248fbfc13107b75eafb19b2ee90b46e684711daa8afcb748",
@@ -1647,7 +1748,8 @@
    "lang": "ko",
    "slug": "public-hygiene-business-permit",
    "generated_at": "2026-11-03T04:57:32.835Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fc1b476e"
   },
   "ko/gas-station-dangerous-goods-permit": {
    "hash": "b40742d38f38a62eae5cbee49cf09690a39c72b2c6f0b1d8d03a9ddb1be7b2eb",
@@ -1663,7 +1765,8 @@
    "lang": "ko",
    "slug": "gas-station-dangerous-goods-permit",
    "generated_at": "2026-11-03T04:38:01.707Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "56b6f935"
   },
   "ko/waste-treatment-permit": {
    "hash": "6c8f2b78d557be15dce4357a9a2b48b486c429744997ab6c69e2dcf648c842b1",
@@ -1679,7 +1782,8 @@
    "lang": "ko",
    "slug": "waste-treatment-permit",
    "generated_at": "2026-11-03T05:08:09.048Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b634e371"
   },
   "ko/food-manufacturing-permit": {
    "hash": "2f0a5ba9f0b4e8eac64089f0191f3012ed66a6d9d5318295e41fa790dddd682c",
@@ -1695,7 +1799,8 @@
    "lang": "ko",
    "slug": "food-manufacturing-permit",
    "generated_at": "2026-11-03T04:32:06.915Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3637acd7"
   },
   "ko/karaoke-business-report": {
    "hash": "5d67d9320a5d210e421b44e3aeab483cf76cb7d8755fbd5d0d85a2b0782a8383",
@@ -1711,7 +1816,8 @@
    "lang": "ko",
    "slug": "karaoke-business-report",
    "generated_at": "2026-11-03T04:45:53.164Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9aa602ba"
   },
   "ko/real-estate-brokerage-registration": {
    "hash": "789753404336a43baf7edd1a904843989235fbc9d69ae5f3a23236b58ac5b0e7",
@@ -1744,7 +1850,8 @@
    "lang": "ko",
    "slug": "academy-establishment-registration",
    "generated_at": "2026-11-03T04:20:41.082Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "36ef4597"
   },
   "ko/accommodation-business-report": {
    "hash": "7937fe0be145a82e84ef969afb6b4680b57a69597ed31824ddba6634605affca",
@@ -1760,7 +1867,8 @@
    "lang": "ko",
    "slug": "accommodation-business-report",
    "generated_at": "2026-11-03T04:21:21.512Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "51dff448"
   },
   "ko/game-providing-business-permit": {
    "hash": "4e02f15bfd064ff12ec0717831f60084e0c19a80690549d0a23e9e741936093b",
@@ -1792,7 +1900,8 @@
    "lang": "ko",
    "slug": "karaoke-business-facility-report",
    "generated_at": "2026-11-03T04:45:51.778Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "84cb4025"
   },
   "ko/medical-device-import-permit": {
    "hash": "ae103b16acf22f4a63d106c59e3ad9f6f9d2ac7a140a208f81ca6b51f70dffa4",
@@ -1808,7 +1917,8 @@
    "lang": "ko",
    "slug": "medical-device-import-permit",
    "generated_at": "2026-11-03T04:51:40.844Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "726c3184"
   },
   "ko/online-shopping-mall-notification": {
    "hash": "d12f5b07fd11fee4c6737a13cb69e457be05ec2668141d9f1e273bd58d6b57c9",
@@ -1824,7 +1934,8 @@
    "lang": "ko",
    "slug": "online-shopping-mall-notification",
    "generated_at": "2026-11-03T04:53:20.817Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4c494107"
   },
   "ko/building-use-change-permit": {
    "hash": "dde2b8f4c35e045a7f3c18e685d74ec3e93a2187d8ad14d4f5dd1090e970b087",
@@ -1840,7 +1951,8 @@
    "lang": "ko",
    "slug": "building-use-change-permit",
    "generated_at": "2026-11-03T04:23:37.071Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cbf0aa01"
   },
   "ko/fire-safety-contractor-registration": {
    "hash": "ae53675890fe8dc7d83ae33249b4cab6cdfcac28df124cdd1a9fd9ad4aac5e12",
@@ -1872,7 +1984,8 @@
    "lang": "ko",
    "slug": "rnd-service-business-registration",
    "generated_at": "2026-11-03T05:01:34.377Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2bfb3962"
   },
   "ko/real-estate-development-registration": {
    "hash": "2a400bfe6bd56c2ad367d879206898e7d30dbd96f5d3852bb3848c0431fb2078",
@@ -1888,7 +2001,8 @@
    "lang": "ko",
    "slug": "real-estate-development-registration",
    "generated_at": "2026-11-03T05:00:08.494Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f5953e5d"
   },
   "ko/pharmaceutical-wholesale-license": {
    "hash": "64db4945dac9345407e72ef2199e2d1e31d5fe652ad16234a3e8a6550a59c5a7",
@@ -1904,7 +2018,8 @@
    "lang": "ko",
    "slug": "pharmaceutical-wholesale-license",
    "generated_at": "2026-11-03T04:55:55.011Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ae1107d7"
   },
   "ko/venture-startup-confirmation": {
    "hash": "e19354710b33de7431b0b750ad87dd83e6a3ad9d62994aff57aef93626f78c92",
@@ -1920,7 +2035,8 @@
    "lang": "ko",
    "slug": "venture-startup-confirmation",
    "generated_at": "2026-11-03T05:06:37.073Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "be60cbe9"
   },
   "ko/food-business-hygiene-permit": {
    "hash": "3cce0010967f672fc0de4c440a59134354e230735162d04607bd7de51de29933",
@@ -1936,7 +2052,8 @@
    "lang": "ko",
    "slug": "food-business-hygiene-permit",
    "generated_at": "2026-11-03T04:30:17.399Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "63be35b7"
   },
   "ko/cosmetics-manufacturing-permit": {
    "hash": "914d30ae4a91ccfe07041fd1a1ab18dac90471eba3df85ec0061b786215ec107",
@@ -1968,7 +2085,8 @@
    "lang": "ko",
    "slug": "waste-collection-transport-permit",
    "generated_at": "2026-11-03T05:07:46.432Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a1a1ac41"
   },
   "ko/mainbiz-certification-requirements-process": {
    "hash": "dfe5e9e532623ae71679df661ff9f179f1cb5c32a6fac71ebad1f613f30c5320",
@@ -1984,7 +2102,8 @@
    "lang": "ko",
    "slug": "mainbiz-certification-requirements-process",
    "generated_at": "2026-11-03T04:49:28.877Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0bcdf577"
   },
   "ko/innobiz-vs-mainbiz-comparison-guide": {
    "hash": "978f48fbd0137484fdac4fa8be95686f1ba62b6df6e31bce16ff2712e2e63252",
@@ -2000,7 +2119,8 @@
    "lang": "ko",
    "slug": "innobiz-vs-mainbiz-comparison-guide",
    "generated_at": "2026-11-03T04:43:42.611Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5dcfb44d"
   },
   "ko/hagwon-establishment-registration": {
    "hash": "4a959db32c6985999100f4db42d148d26aad99ba84d058a7637bfbdac037b40e",
@@ -2016,7 +2136,8 @@
    "lang": "ko",
    "slug": "hagwon-establishment-registration",
    "generated_at": "2026-11-03T04:39:45.925Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "950acf5b"
   },
   "ko/rest-restaurant-notification": {
    "hash": "6eef4791191c38acd11c9e89ed464a9807dacd65d09212d6522d7b13dcc0a947",
@@ -2032,7 +2153,8 @@
    "lang": "ko",
    "slug": "rest-restaurant-notification",
    "generated_at": "2026-11-03T05:01:03.872Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7181a601"
   },
   "ko/accommodation-business-registration": {
    "hash": "1816ae60e3e0406b732a2612f18d572dc0cdccdd71e948cfc4884a5e2cd0e8c6",
@@ -2048,7 +2170,8 @@
    "lang": "ko",
    "slug": "accommodation-business-registration",
    "generated_at": "2026-11-03T04:21:19.965Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1134e447"
   },
   "ko/location-information-business-registration": {
    "hash": "74e1fa9b28068a1bb9cf52fdb917d237a8f2368ad6bb53316f861eddc2d1599e",
@@ -2064,7 +2187,8 @@
    "lang": "ko",
    "slug": "location-information-business-registration",
    "generated_at": "2026-11-03T04:48:52.172Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "308e4eea"
   },
   "en/international-logistics-registration-guide": {
    "hash": "f20976bd771167d34738d72bafc0f94ff6e1340cc2d19d62262a6eedf0aa149a",
@@ -2080,7 +2204,8 @@
    "lang": "en",
    "slug": "international-logistics-registration-guide",
    "generated_at": "2026-11-03T04:44:48.883Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "89163e4b"
   },
   "en/currency-exchange-registration-guide": {
    "hash": "cf26700634fb099956ea9d5814bf3f5345fcd1662545fa11ea45f8cf8e0289b7",
@@ -2096,7 +2221,8 @@
    "lang": "en",
    "slug": "currency-exchange-registration-guide",
    "generated_at": "2026-11-03T04:26:05.898Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4855d7c7"
   },
   "en/building-usage-change-guide": {
    "hash": "98902d6c773b1c769c16eaf06c15eb5fbf6acb5a57c0f0ec128f0ca3e7ce791b",
@@ -2112,7 +2238,8 @@
    "lang": "en",
    "slug": "building-usage-change-guide",
    "generated_at": "2026-11-03T04:23:31.967Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "857ba4f7"
   },
   "en/food-manufacturing-license-guide": {
    "hash": "5b1d5810cf9aa82a64296f666cafa6b8c53f281766a7ad0bf873ae01e6607ba5",
@@ -2128,7 +2255,8 @@
    "lang": "en",
    "slug": "food-manufacturing-license-guide",
    "generated_at": "2026-11-03T04:32:03.937Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "22359ca0"
   },
   "en/women-enterprise-certification-guide": {
    "hash": "01f01e814dcfe61fb54cdc6aab862a3b0fcdeac55191a0a5f9d253e3c31af41a",
@@ -2144,7 +2272,8 @@
    "lang": "en",
    "slug": "women-enterprise-certification-guide",
    "generated_at": "2026-11-03T05:08:35.418Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "70c83bb3"
   },
   "en/haccp-certification-guide": {
    "hash": "6987f624ae53862c9c3d00dc1d8f4299405b42fa790275999dacf823302c765d",
@@ -2160,7 +2289,8 @@
    "lang": "en",
    "slug": "haccp-certification-guide",
    "generated_at": "2026-11-03T04:38:38.773Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9026e1f4"
   },
   "en/venture-innobiz-certification-guide": {
    "hash": "1f6987986bd7f2b181d47a914387d11e9eb804199c0639f80d60551123950f83",
@@ -2176,7 +2306,8 @@
    "lang": "en",
    "slug": "venture-innobiz-certification-guide",
    "generated_at": "2026-11-03T05:06:35.024Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e91768ca"
   },
   "en/procurement-narajangteo-registration-guide": {
    "hash": "0bae7b19824094c6c9385cc98e9d7d70fbc7c30638ff5122bd842cdae428219a",
@@ -2192,7 +2323,8 @@
    "lang": "en",
    "slug": "procurement-narajangteo-registration-guide",
    "generated_at": "2026-11-03T05:16:28.871Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "90c03e5c"
   },
   "en/urban-guesthouse-registration-guide": {
    "hash": "4f5b901a9f369f83a7cd56785a1ebc69ed50def1ddd76dad71f7e2a4df91ce4e",
@@ -2208,7 +2340,8 @@
    "lang": "en",
    "slug": "urban-guesthouse-registration-guide",
    "generated_at": "2026-11-03T05:05:24.764Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "99d78874"
   },
   "en/hostel-registration-guide": {
    "hash": "957be044511abcb94d187c6b155b2054c57f364e19d863c83769464f1805087e",
@@ -2224,7 +2357,8 @@
    "lang": "en",
    "slug": "hostel-registration-guide",
    "generated_at": "2026-11-03T04:42:24.967Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8b7bf107"
   },
   "en/hanok-experience-registration-guide": {
    "hash": "37d3c515e9b9f5d1c0cdbbf5b6d501b1d02829d75afff0f8173f66b128610b8e",
@@ -2240,7 +2374,8 @@
    "lang": "en",
    "slug": "hanok-experience-registration-guide",
    "generated_at": "2026-11-03T05:15:29.070Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fe911b7c"
   },
   "en/tobacco-import-sales-guide": {
    "hash": "6643807743a894c972a3cf33acdac1b586ddd0ee2c860643686cd2adcac4c6f7",
@@ -2256,7 +2391,8 @@
    "lang": "en",
    "slug": "tobacco-import-sales-guide",
    "generated_at": "2026-11-03T05:03:50.646Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "aca58b59"
   },
   "en/nonprofit-corporation-establishment-guide": {
    "hash": "8a664ebf05e7ad14fa83eeadf1ddb79964cdf005148ec23399691905539483f7",
@@ -2272,7 +2408,8 @@
    "lang": "en",
    "slug": "nonprofit-corporation-establishment-guide",
    "generated_at": "2026-11-03T04:52:45.000Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8d9140bd"
   },
   "en/corporate-research-lab-establishment-guide": {
    "hash": "96227052681f5f66603dc92f470dadd596a7fb66f1edf388707581a2f8b0de60",
@@ -2288,7 +2425,8 @@
    "lang": "en",
    "slug": "corporate-research-lab-establishment-guide",
    "generated_at": "2026-11-03T04:24:44.851Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "22e99ec6"
   },
   "en/e-cigarette-import-license-guide": {
    "hash": "9cea4e0222a81083f3a47749f46c6f78a154404b0e51d2e7855a7f4e9475a727",
@@ -2304,7 +2442,8 @@
    "lang": "en",
    "slug": "e-cigarette-import-license-guide",
    "generated_at": "2026-11-03T04:27:30.658Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "681e4977"
   },
   "en/international-logistics-capital-funding-guide": {
    "hash": "328dfb7c366e196bd5e2723438f08540c67e06f835d26ef755225c3d52d5f6ad",
@@ -2320,7 +2459,8 @@
    "lang": "en",
    "slug": "international-logistics-capital-funding-guide",
    "generated_at": "2026-11-03T04:44:45.196Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6379c411"
   },
   "en/urban-guesthouse-airbnb-operation-guide": {
    "hash": "c5709ec6671acf0458b70816fe2b1a2b91d6ac67a16884207b3436acc792b4d3",
@@ -2336,7 +2476,8 @@
    "lang": "en",
    "slug": "urban-guesthouse-airbnb-operation-guide",
    "generated_at": "2026-11-03T05:05:18.344Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c0eec740"
   },
   "en/nonprofit-corporation-articles-and-approval-guide": {
    "hash": "c06ba521c6369336df6dff0341c4d6fefd91867f836fcb90fed98d6ca66e1975",
@@ -2352,7 +2493,8 @@
    "lang": "en",
    "slug": "nonprofit-corporation-articles-and-approval-guide",
    "generated_at": "2026-11-03T04:52:43.450Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e6806bbe"
   },
   "en/women-enterprise-renewal-management-guide": {
    "hash": "cc5f33b75f4f3f4932d7407df3103148cfdd175cb98beb596103caa4f15ae2a8",
@@ -2368,7 +2510,8 @@
    "lang": "en",
    "slug": "women-enterprise-renewal-management-guide",
    "generated_at": "2026-11-03T05:08:37.056Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "229658fc"
   },
   "en/currency-exchange-aml-internal-control-guide": {
    "hash": "6aca3dec0b9fda77e0f6ea1a22fe978515fed679e0a5e08ca428233c0f4d96ac",
@@ -2384,7 +2527,8 @@
    "lang": "en",
    "slug": "currency-exchange-aml-internal-control-guide",
    "generated_at": "2026-11-03T04:26:00.394Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7f3bc04f"
   },
   "en/haccp-post-certification-management-guide": {
    "hash": "980c8202b3cdd1f847ae6da4ec1360575329ae163a5450248691a86c4a9e4850",
@@ -2400,7 +2544,8 @@
    "lang": "en",
    "slug": "haccp-post-certification-management-guide",
    "generated_at": "2026-11-03T04:38:41.837Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d48532fc"
   },
   "en/building-usage-change-case-studies-guide": {
    "hash": "3616a43a6a4792699c0c8c486072c34834e0a7d02c19fe94fdf209a8f6f40a05",
@@ -2416,7 +2561,8 @@
    "lang": "en",
    "slug": "building-usage-change-case-studies-guide",
    "generated_at": "2026-11-03T04:23:30.372Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "30a75665"
   },
   "en/narajangteo-bidding-price-strategy-guide": {
    "hash": "e1f347736bf7ca145832e25bf7e620e49f8cd7a97775e32a0b40b1cef80dafbb",
@@ -2432,7 +2578,8 @@
    "lang": "en",
    "slug": "narajangteo-bidding-price-strategy-guide",
    "generated_at": "2026-11-03T05:16:27.236Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7952aa95"
   },
   "en/corporate-research-lab-agency-risk-guide": {
    "hash": "77eb0b0ae55ba54937866500ac863cfd8acd71dd80420c4cec099087a04dd229",
@@ -2448,7 +2595,8 @@
    "lang": "en",
    "slug": "corporate-research-lab-agency-risk-guide",
    "generated_at": "2026-11-03T04:24:43.264Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "39a8c982"
   },
   "en/cosmetics-manufacturing-registration": {
    "hash": "f00537b03382fed33ded5647630a317e3288c0c7100229ac1a7c5984c2d89fef",
@@ -2464,7 +2612,8 @@
    "lang": "en",
    "slug": "cosmetics-manufacturing-registration",
    "generated_at": "2026-11-03T04:25:15.249Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4c2da1a2"
   },
   "en/corporate-rnd-center-requirements": {
    "hash": "a92fd448d6fb914a1d96559c582dccdfdae5a3f838fdcb3f7a547fbdc3c59ac2",
@@ -2480,7 +2629,8 @@
    "lang": "en",
    "slug": "corporate-rnd-center-requirements",
    "generated_at": "2026-11-03T04:24:48.233Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "55910817"
   },
   "en/cosmetics-manufacturing-facility-guide": {
    "hash": "2bd9774e14b69ed6d20a0431566e4a3b0a5dc10ab965dc47405ae75ae440c156",
@@ -2496,7 +2646,8 @@
    "lang": "en",
    "slug": "cosmetics-manufacturing-facility-guide",
    "generated_at": "2026-11-03T04:25:11.499Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bf458d3c"
   },
   "en/freight-forwarder-capital-bond-requirements": {
    "hash": "6846956721b0fe35786e54a3e1062ea915cf94419e9a6689bc5e744f1da70d71",
@@ -2512,7 +2663,8 @@
    "lang": "en",
    "slug": "freight-forwarder-capital-bond-requirements",
    "generated_at": "2026-11-03T04:33:42.415Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a3c2fb37"
   },
   "en/sports-club-establishment-guide": {
    "hash": "df913c29b2c879e9b6c3a2b2dfc552288c9b24b5d3b16892f45fd943b5a36894",
@@ -2528,7 +2680,8 @@
    "lang": "en",
    "slug": "sports-club-establishment-guide",
    "generated_at": "2026-11-03T05:02:38.075Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d5aa709e"
   },
   "en/manufacturing-business-registration-procedure": {
    "hash": "5d6b0f263457e18be6e4153d1b68d840c20ac0cf44e9505883f330adad409fb3",
@@ -2544,7 +2697,8 @@
    "lang": "en",
    "slug": "manufacturing-business-registration-procedure",
    "generated_at": "2026-11-03T04:50:10.050Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "71b20158"
   },
   "en/factory-registration-application-guide": {
    "hash": "56d25d028339a7d46ac2841345f0f034818ce1f9fef980071c501d3ec2da2982",
@@ -2560,7 +2714,8 @@
    "lang": "en",
    "slug": "factory-registration-application-guide",
    "generated_at": "2026-11-03T04:28:56.781Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fa20cca0"
   },
   "en/venture-tax-benefits": {
    "hash": "8c1785724a6d3623e0ac83e0800eed0895da93b4ca891e199e3227066f176f0e",
@@ -2576,7 +2731,8 @@
    "lang": "en",
    "slug": "venture-tax-benefits",
    "generated_at": "2026-11-03T05:06:38.698Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f7c85424"
   },
   "en/rnd-center-tax-credit": {
    "hash": "c403e56b25a25b27c4a5734420b86f0f7d739423e2556ec81f9c8034441a7a45",
@@ -2592,7 +2748,8 @@
    "lang": "en",
    "slug": "rnd-center-tax-credit",
    "generated_at": "2026-11-03T05:01:32.459Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "40fff5f7"
   },
   "en/cosmetics-responsible-distributor": {
    "hash": "829c7119122593b71cab2768c62932f84244f55873259e64f9b0c62708618d08",
@@ -2608,7 +2765,8 @@
    "lang": "en",
    "slug": "cosmetics-responsible-distributor",
    "generated_at": "2026-11-03T04:25:16.819Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d93c5cb3"
   },
   "en/academy-establishment-registration-guide": {
    "hash": "bf1fa6eef6db4f6a285a783e20817da8eb75b346cc08f273b0c4905e9032dbd0",
@@ -2624,7 +2782,8 @@
    "lang": "en",
    "slug": "academy-establishment-registration-guide",
    "generated_at": "2026-11-03T04:20:43.665Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4152f78b"
   },
   "en/laundry-business-permit-guide": {
    "hash": "92525cb43665f039b6bd6978343817390c181617cc72a95d009cd638bccc8f64",
@@ -2640,7 +2799,8 @@
    "lang": "en",
    "slug": "laundry-business-permit-guide",
    "generated_at": "2026-11-03T04:46:21.288Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ff347e87"
   },
   "en/real-estate-agency-registration-guide": {
    "hash": "6cc4d8e09976aa2bf443100cc66899b48c61d693aaa4eceb204c0421184e36a6",
@@ -2656,7 +2816,8 @@
    "lang": "en",
    "slug": "real-estate-agency-registration-guide",
    "generated_at": "2026-11-03T04:59:10.817Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f0156255"
   },
   "en/restaurant-food-service-license-guide": {
    "hash": "4ab4902c02d6645f3d006355b57edc441c05d4c426982b7d926c99c21708880b",
@@ -2672,7 +2833,8 @@
    "lang": "en",
    "slug": "restaurant-food-service-license-guide",
    "generated_at": "2026-11-03T05:01:07.027Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "12dcb951"
   },
   "en/medical-clinic-establishment-guide": {
    "hash": "d8a5ec2c8cce39d79744686fb85708b4028509586f0a25179f93d19c62a5946d",
@@ -2688,7 +2850,8 @@
    "lang": "en",
    "slug": "medical-clinic-establishment-guide",
    "generated_at": "2026-11-03T04:51:13.982Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a24b9aeb"
   },
   "en/postpartum-care-center-permit-guide": {
    "hash": "7e183ca208c26fafc6f2a617d1c85205bb5cedc9f74e61846105edccf11532bc",
@@ -2704,7 +2867,8 @@
    "lang": "en",
    "slug": "postpartum-care-center-permit-guide",
    "generated_at": "2026-11-03T04:56:53.657Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7bd557cd"
   },
   "en/building-use-change-permit-guide": {
    "hash": "74ec77a459841e1426cd58c48b5a9bd5ba345b24fbf455af994ab77a0ee72ee7",
@@ -2720,7 +2884,8 @@
    "lang": "en",
    "slug": "building-use-change-permit-guide",
    "generated_at": "2026-11-03T04:23:39.396Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4c3ebdd5"
   },
   "en/administrative-license-permit-specialist-guide": {
    "hash": "933b611df638b8aca1bec075b83c9a2e6d606bdf7b7e556fc7f3af1894bd4529",
@@ -2736,7 +2901,8 @@
    "lang": "en",
    "slug": "administrative-license-permit-specialist-guide",
    "generated_at": "2026-11-03T04:21:47.210Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "105b9250"
   },
   "en/location-based-service-business-registration-foreign-company": {
    "hash": "59b020f9fd32157727b5a41564c5dd98906448b93d8f0c76c801e384dde1d791",
@@ -2752,7 +2918,8 @@
    "lang": "en",
    "slug": "location-based-service-business-registration-foreign-company",
    "generated_at": "2026-11-03T05:16:02.638Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c8e62017"
   },
   "en/online-shop-communication-sales-registration-guide": {
    "hash": "f7fcfaa423d2e59df4be124f5c09daaadcb934e8dd1c373df3cfd4541f76804f",
@@ -2768,7 +2935,8 @@
    "lang": "en",
    "slug": "online-shop-communication-sales-registration-guide",
    "generated_at": "2026-11-03T04:53:19.642Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "71556df1"
   },
   "en/health-functional-food-sales-registration-guide": {
    "hash": "b47c53311d322463c0f01f0cd36bf912cdb113512a011013599726e4155744c4",
@@ -2784,7 +2952,8 @@
    "lang": "en",
    "slug": "health-functional-food-sales-registration-guide",
    "generated_at": "2026-11-03T04:41:27.444Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1e568f39"
   },
   "en/yongdo-byeongyeong-haengjengsa": {
    "hash": "f7df84c4bde412fbeb85f56b5e1d1ba84a8e4d050833d72a9cda84b836d2d30c",
@@ -2800,7 +2969,8 @@
    "lang": "en",
    "slug": "yongdo-byeongyeong-haengjengsa",
    "generated_at": "2026-11-03T05:09:17.862Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b82b6862"
   },
   "en/beauty-salon-notification-guide": {
    "hash": "f36492bdaea90e792602c09691fe8dbad06b7b38f195c70e4cd3ebfc163ef439",
@@ -2816,7 +2986,8 @@
    "lang": "en",
    "slug": "beauty-salon-notification-guide",
    "generated_at": "2026-11-03T04:22:32.163Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ebfb12c7"
   },
   "en/pet-shop-animal-sales-registration-guide": {
    "hash": "87b13cc82e230023e5d0ecd2a9e06177275475094830d041b266972dbcf76838",
@@ -2832,7 +3003,8 @@
    "lang": "en",
    "slug": "pet-shop-animal-sales-registration-guide",
    "generated_at": "2026-11-03T04:55:27.356Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7eb2f28e"
   },
   "en/cosmetics-import-sales-registration-guide": {
    "hash": "e130f0690656e044e09397e99b07ee96ebdf19e50d4fd57d58d61d44d0d377c8",
@@ -2848,7 +3020,8 @@
    "lang": "en",
    "slug": "cosmetics-import-sales-registration-guide",
    "generated_at": "2026-11-03T05:10:36.606Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5e5f7d71"
   },
   "en/location-based-service-domestic-registration-guide": {
    "hash": "9103502067a9db268a347e2c30f8fca294e747320efa2aeebbed0de31eae07be",
@@ -2864,7 +3037,8 @@
    "lang": "en",
    "slug": "location-based-service-domestic-registration-guide",
    "generated_at": "2026-11-03T04:48:50.143Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3a55532c"
   },
   "en/mainbiz-certification-requirements-process": {
    "hash": "2f9c8061ff0395450b1f7df78803eeba5f6fae20ad378193dbb285a2582928aa",
@@ -2880,7 +3054,8 @@
    "lang": "en",
    "slug": "mainbiz-certification-requirements-process",
    "generated_at": "2026-11-03T04:49:29.674Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f74dd4c0"
   },
   "en/innobiz-vs-mainbiz-comparison-guide": {
    "hash": "d76ef612ae7f6ceaceb49f016b060651daad2ba6e448ae34d0722d366770760d",
@@ -2912,7 +3087,8 @@
    "lang": "en",
    "slug": "location-information-business-registration",
    "generated_at": "2026-11-03T04:48:52.612Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3dd83da4"
   },
   "zh/international-logistics-registration-guide": {
    "hash": "a4b2afa7d128866534c799f7757d7e2263255406f0abf26aea599e7448774bdf",
@@ -2928,7 +3104,8 @@
    "lang": "zh",
    "slug": "international-logistics-registration-guide",
    "generated_at": "2026-11-03T04:44:49.653Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "490e957d"
   },
   "zh/currency-exchange-registration-guide": {
    "hash": "71ea6deeed014644a7bb9955ac153a1f0b40723276193cab5d96efca70b2efc2",
@@ -2944,7 +3121,8 @@
    "lang": "zh",
    "slug": "currency-exchange-registration-guide",
    "generated_at": "2026-11-03T04:26:06.308Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ea486458"
   },
   "zh/building-usage-change-guide": {
    "hash": "7855abd5b2c473d84d615ce4e4742fa98a62bb3e8380ab9faa74e4c0fc293b24",
@@ -2960,7 +3138,8 @@
    "lang": "zh",
    "slug": "building-usage-change-guide",
    "generated_at": "2026-11-03T04:23:32.364Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bdc3b569"
   },
   "zh/food-manufacturing-license-guide": {
    "hash": "bffa8ea1e1cb2692602460ac17e33b999985ba171bdc6f37e4562e72367b5493",
@@ -2976,7 +3155,8 @@
    "lang": "zh",
    "slug": "food-manufacturing-license-guide",
    "generated_at": "2026-11-03T04:32:04.337Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "52728d10"
   },
   "zh/women-enterprise-certification-guide": {
    "hash": "417bd0730c1c3e9482e8737a21c127b72e81336e7f824d90029d6a97594aa8ba",
@@ -2992,7 +3172,8 @@
    "lang": "zh",
    "slug": "women-enterprise-certification-guide",
    "generated_at": "2026-11-03T05:08:35.831Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0cd7e444"
   },
   "zh/haccp-certification-guide": {
    "hash": "484139f47e2e245d2556318e55581e9f282d3dc2e4c4fab416649cfa094ccba3",
@@ -3008,7 +3189,8 @@
    "lang": "zh",
    "slug": "haccp-certification-guide",
    "generated_at": "2026-11-03T04:38:39.456Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cda75659"
   },
   "zh/venture-innobiz-certification-guide": {
    "hash": "3106144d0b1b7c6a122f6c7e706715973f3014bebe08e2cc1574fcffdf2f20b2",
@@ -3024,7 +3206,8 @@
    "lang": "zh",
    "slug": "venture-innobiz-certification-guide",
    "generated_at": "2026-11-03T05:06:35.428Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0f3030f6"
   },
   "zh/procurement-narajangteo-registration-guide": {
    "hash": "ed5ba21476fd4fbaae23b89928ba706cb9ed2cba20a836081495056e2b58d50d",
@@ -3040,7 +3223,8 @@
    "lang": "zh",
    "slug": "procurement-narajangteo-registration-guide",
    "generated_at": "2026-11-03T05:16:29.275Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d30c0d5c"
   },
   "zh/urban-guesthouse-registration-guide": {
    "hash": "659a8887037c5a800e5d874174f3492261bcef3a5438b7a57f67a40b2e298ec3",
@@ -3056,7 +3240,8 @@
    "lang": "zh",
    "slug": "urban-guesthouse-registration-guide",
    "generated_at": "2026-11-03T05:05:25.513Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "626d8dbb"
   },
   "zh/hostel-registration-guide": {
    "hash": "10d153be6b9cad4b326d94781c4f519b2ffb6abbe8b726c407b549a43e8846c9",
@@ -3072,7 +3257,8 @@
    "lang": "zh",
    "slug": "hostel-registration-guide",
    "generated_at": "2026-11-03T04:42:25.389Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "40b88dfc"
   },
   "zh/hanok-experience-registration-guide": {
    "hash": "8c4b5736414ea8570f6ac2ca432b32f0a09eabaef38366b239f32422bcb48b31",
@@ -3088,7 +3274,8 @@
    "lang": "zh",
    "slug": "hanok-experience-registration-guide",
    "generated_at": "2026-11-03T05:15:29.895Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ed133933"
   },
   "zh/tobacco-import-sales-guide": {
    "hash": "c13c87f79905d734e57dcb529215e53b550a8c7d894bc3336e4b10439af49909",
@@ -3104,7 +3291,8 @@
    "lang": "zh",
    "slug": "tobacco-import-sales-guide",
    "generated_at": "2026-11-03T05:03:51.415Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "652e3f9f"
   },
   "zh/nonprofit-corporation-establishment-guide": {
    "hash": "274674e15dcbf96d491067576492132e4b94736b7c0f6bfe91bad4fd4c2f6aa4",
@@ -3120,7 +3308,8 @@
    "lang": "zh",
    "slug": "nonprofit-corporation-establishment-guide",
    "generated_at": "2026-11-03T04:52:45.384Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "883d30c4"
   },
   "zh/corporate-research-lab-establishment-guide": {
    "hash": "f5151d399026e33e2d1c873648d184ef32943d19d690cadd30ed9ce97b1a56d7",
@@ -3136,7 +3325,8 @@
    "lang": "zh",
    "slug": "corporate-research-lab-establishment-guide",
    "generated_at": "2026-11-03T04:24:45.239Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9bc808b3"
   },
   "zh/e-cigarette-import-license-guide": {
    "hash": "e026e16ef948e8908c89221e78c1e9aacb856995d194a019a619d2c8cd912175",
@@ -3152,7 +3342,8 @@
    "lang": "zh",
    "slug": "e-cigarette-import-license-guide",
    "generated_at": "2026-11-03T04:27:31.071Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4e7c2dab"
   },
   "zh/international-logistics-capital-funding-guide": {
    "hash": "8649e76be65025eca5f799c9de5194ff16f3e1991ba6402460d3f8a5926a789e",
@@ -3168,7 +3359,8 @@
    "lang": "zh",
    "slug": "international-logistics-capital-funding-guide",
    "generated_at": "2026-11-03T04:44:45.926Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d1351bea"
   },
   "zh/urban-guesthouse-airbnb-operation-guide": {
    "hash": "ad9873284406dfa64a079b56ad218866ec3bf5477889ce7c74caab4b37198f1d",
@@ -3184,7 +3376,8 @@
    "lang": "zh",
    "slug": "urban-guesthouse-airbnb-operation-guide",
    "generated_at": "2026-11-03T05:05:19.057Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "52770f65"
   },
   "zh/nonprofit-corporation-articles-and-approval-guide": {
    "hash": "dfc832ab2040f65757210f3c3b286a14a5407a6e64f5108b7b84cb07ed4ec5e8",
@@ -3200,7 +3393,8 @@
    "lang": "zh",
    "slug": "nonprofit-corporation-articles-and-approval-guide",
    "generated_at": "2026-11-03T04:52:43.829Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bd1eaf1e"
   },
   "zh/women-enterprise-renewal-management-guide": {
    "hash": "65af4fee326406c2e941b20f34a98076b4b7abdcfdc6f4f69ed29f4ac7ace15d",
@@ -3216,7 +3410,8 @@
    "lang": "zh",
    "slug": "women-enterprise-renewal-management-guide",
    "generated_at": "2026-11-03T05:08:37.465Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "90658f38"
   },
   "zh/currency-exchange-aml-internal-control-guide": {
    "hash": "65f6e5f0945a6c46ca308d8b691c9976202e5df07eb432cfc2139f4e864e47a2",
@@ -3232,7 +3427,8 @@
    "lang": "zh",
    "slug": "currency-exchange-aml-internal-control-guide",
    "generated_at": "2026-11-03T04:26:01.159Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f77e9200"
   },
   "zh/haccp-post-certification-management-guide": {
    "hash": "b370abd9abd11652b1ba6dcaf82135d6f54bce1dd51e0f3605b69e6dcc7f84f5",
@@ -3248,7 +3444,8 @@
    "lang": "zh",
    "slug": "haccp-post-certification-management-guide",
    "generated_at": "2026-11-03T04:38:42.257Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2515970a"
   },
   "zh/building-usage-change-case-studies-guide": {
    "hash": "a1094185fdcba848217ced1fc750368e9fb37d538ba3e85a38bbf536560b2bb4",
@@ -3264,7 +3461,8 @@
    "lang": "zh",
    "slug": "building-usage-change-case-studies-guide",
    "generated_at": "2026-11-03T04:23:30.760Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2cd824c3"
   },
   "zh/narajangteo-bidding-price-strategy-guide": {
    "hash": "39b545f2848017d2cc5ff242c1f2fc02bf4b2dcfc71f7474fe3f76c2c652cff5",
@@ -3280,7 +3478,8 @@
    "lang": "zh",
    "slug": "narajangteo-bidding-price-strategy-guide",
    "generated_at": "2026-11-03T05:16:27.638Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "65a57786"
   },
   "zh/corporate-research-lab-agency-risk-guide": {
    "hash": "9a41f6e0b3efa9af8c25fd8b9ffd8e4f964de95a3ba6a2d9e7c7d323451515c9",
@@ -3296,7 +3495,8 @@
    "lang": "zh",
    "slug": "corporate-research-lab-agency-risk-guide",
    "generated_at": "2026-11-03T04:24:43.657Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9b6ecc3b"
   },
   "zh/cosmetics-manufacturing-registration": {
    "hash": "ff94996cd0881f82ff83707b3e1d6298589397cda564e7263f370444486c4212",
@@ -3312,7 +3512,8 @@
    "lang": "zh",
    "slug": "cosmetics-manufacturing-registration",
    "generated_at": "2026-11-03T04:25:15.636Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "69989925"
   },
   "zh/corporate-rnd-center-requirements": {
    "hash": "6794f8fd07a013693a1da66c2d676ea26b2c06307cc81dc269faacbebb146d5e",
@@ -3328,7 +3529,8 @@
    "lang": "zh",
    "slug": "corporate-rnd-center-requirements",
    "generated_at": "2026-11-03T04:24:48.631Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "912ee312"
   },
   "zh/cosmetics-manufacturing-facility-guide": {
    "hash": "1741376041daf60ab72c15e72e70697735afa468e154f7b7da37a7d24c26b293",
@@ -3344,7 +3546,8 @@
    "lang": "zh",
    "slug": "cosmetics-manufacturing-facility-guide",
    "generated_at": "2026-11-03T04:25:11.922Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3f81d6a9"
   },
   "zh/freight-forwarder-capital-bond-requirements": {
    "hash": "2b6d8a0906d1694e8d09882f858c5797be94d074724315142925a7eade753f15",
@@ -3360,7 +3563,8 @@
    "lang": "zh",
    "slug": "freight-forwarder-capital-bond-requirements",
    "generated_at": "2026-11-03T04:33:42.834Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8feba92f"
   },
   "zh/sports-club-establishment-guide": {
    "hash": "9badf3bb0e0817e5ad4ab59368d5cd2c0593c5ac1c861abf3d63f8ed94864989",
@@ -3376,7 +3580,8 @@
    "lang": "zh",
    "slug": "sports-club-establishment-guide",
    "generated_at": "2026-11-03T05:02:38.636Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d9062a48"
   },
   "zh/manufacturing-business-registration-procedure": {
    "hash": "6139d92bbdb2c25f3cf7f44a4732afc976dc6a6dc7fd68b829e084bc7367f7d1",
@@ -3392,7 +3597,8 @@
    "lang": "zh",
    "slug": "manufacturing-business-registration-procedure",
    "generated_at": "2026-11-03T04:50:10.826Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "44a6b843"
   },
   "zh/factory-registration-application-guide": {
    "hash": "d7cc26cbf26669bb427ddf94989b784df354a650e583ea9d6ec9e1297b3bea86",
@@ -3408,7 +3614,8 @@
    "lang": "zh",
    "slug": "factory-registration-application-guide",
    "generated_at": "2026-11-03T04:28:57.305Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "370b2744"
   },
   "zh/venture-tax-benefits": {
    "hash": "e7bbaffe29f3a4a1d134de0cb4db8edeb0e6c53dc993351b9660f2c977402d9a",
@@ -3424,7 +3631,8 @@
    "lang": "zh",
    "slug": "venture-tax-benefits",
    "generated_at": "2026-11-03T05:06:39.095Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "333e2b1a"
   },
   "zh/rnd-center-tax-credit": {
    "hash": "53b7ce9ea8bcd8afcecb01e9f7733b82bdbbae6165114568ab36bde8212729a8",
@@ -3440,7 +3648,8 @@
    "lang": "zh",
    "slug": "rnd-center-tax-credit",
    "generated_at": "2026-11-03T05:01:32.847Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ac4f7ce8"
   },
   "zh/cosmetics-responsible-distributor": {
    "hash": "b076b62a3f5495552527e2ac75f65824341cb6c5d0e5334a04370d5abf3ac34f",
@@ -3456,7 +3665,8 @@
    "lang": "zh",
    "slug": "cosmetics-responsible-distributor",
    "generated_at": "2026-11-03T04:25:17.212Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "da6b983c"
   },
   "zh/academy-establishment-registration-guide": {
    "hash": "8ed2ca80e10f6c8c2d05eb0ff97ac8991726c7424eccc6349d27cec203c2aca6",
@@ -3472,7 +3682,8 @@
    "lang": "zh",
    "slug": "academy-establishment-registration-guide",
    "generated_at": "2026-11-03T04:20:44.418Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2713969d"
   },
   "zh/laundry-business-permit-guide": {
    "hash": "5d361269f012f0750970584e5b0cffafbcbc6120ecbc228427364f6e84195a92",
@@ -3488,7 +3699,8 @@
    "lang": "zh",
    "slug": "laundry-business-permit-guide",
    "generated_at": "2026-11-03T04:46:21.708Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "97bfcb08"
   },
   "zh/real-estate-agency-registration-guide": {
    "hash": "c1261a51a7fe15c957d74a9aeefde48764e206dab0ba165784c8fc33d2731ff9",
@@ -3504,7 +3716,8 @@
    "lang": "zh",
    "slug": "real-estate-agency-registration-guide",
    "generated_at": "2026-11-03T04:59:11.211Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "745314f2"
   },
   "zh/restaurant-food-service-license-guide": {
    "hash": "8041e70877adb24ad6a6dbedcdfc29a7b3c9b97fc885eadc1dd197b4ca1f7abb",
@@ -3520,7 +3733,8 @@
    "lang": "zh",
    "slug": "restaurant-food-service-license-guide",
    "generated_at": "2026-11-03T05:01:07.789Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "04fc6ba2"
   },
   "zh/medical-clinic-establishment-guide": {
    "hash": "7e4a87519afd51648f513545138ee0de5772029ea3776a3512147c43af5bdec5",
@@ -3536,7 +3750,8 @@
    "lang": "zh",
    "slug": "medical-clinic-establishment-guide",
    "generated_at": "2026-11-03T04:51:14.380Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ba4a0cc6"
   },
   "zh/postpartum-care-center-permit-guide": {
    "hash": "696160bb0d801d77a4d03707a879cdf6e6003ab134809e460e744845b7e81b2c",
@@ -3552,7 +3767,8 @@
    "lang": "zh",
    "slug": "postpartum-care-center-permit-guide",
    "generated_at": "2026-11-03T04:56:54.051Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7f7fb7ef"
   },
   "zh/building-use-change-permit-guide": {
    "hash": "e93434ee1a9ee104d0f6f2af003bc131878576bca7e5c016c82a9ba52666c937",
@@ -3568,7 +3784,8 @@
    "lang": "zh",
    "slug": "building-use-change-permit-guide",
    "generated_at": "2026-11-03T04:23:39.785Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5593daed"
   },
   "zh/administrative-license-permit-specialist-guide": {
    "hash": "5b917cf99fa9c1800d2f41c97ad199f2e6fdd954e047561a5615db21919d72f7",
@@ -3584,7 +3801,8 @@
    "lang": "zh",
    "slug": "administrative-license-permit-specialist-guide",
    "generated_at": "2026-11-03T04:21:47.598Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a64697d6"
   },
   "zh/location-based-service-business-registration-foreign-company": {
    "hash": "a512d923a1cf0413cde549cfc965e8a92a20467b38db6c0cac420319e6a94496",
@@ -3600,7 +3818,8 @@
    "lang": "zh",
    "slug": "location-based-service-business-registration-foreign-company",
    "generated_at": "2026-11-03T05:16:03.068Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4ddaeddc"
   },
   "zh/online-shop-communication-sales-registration-guide": {
    "hash": "d769cce00290eefec3424a6e9b40dcb022d23753924cdce77953d960060abffe",
@@ -3616,7 +3835,8 @@
    "lang": "zh",
    "slug": "online-shop-communication-sales-registration-guide",
    "generated_at": "2026-11-03T04:53:20.031Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9bcdc789"
   },
   "zh/health-functional-food-sales-registration-guide": {
    "hash": "4dce421e08854a1c10ed5a3ee2551e396c92a1059931af280f55adb7703ab440",
@@ -3632,7 +3852,8 @@
    "lang": "zh",
    "slug": "health-functional-food-sales-registration-guide",
    "generated_at": "2026-11-03T04:41:28.438Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0dfa91a9"
   },
   "zh/yongdo-byeongyeong-haengjengsa": {
    "hash": "27172a93f3511069db26484fd232c13228c49e308167856bff616f7a3d772591",
@@ -3648,7 +3869,8 @@
    "lang": "zh",
    "slug": "yongdo-byeongyeong-haengjengsa",
    "generated_at": "2026-11-03T05:09:18.264Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "20d60891"
   },
   "zh/beauty-salon-notification-guide": {
    "hash": "3fe6e940f6f830a5c8bcbffcaa61049b6d012528b50ba320e9fce8e80ce5fd1b",
@@ -3664,7 +3886,8 @@
    "lang": "zh",
    "slug": "beauty-salon-notification-guide",
    "generated_at": "2026-11-03T04:22:32.961Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b409d321"
   },
   "zh/pet-shop-animal-sales-registration-guide": {
    "hash": "a03303b7708995f417c7bab9758fb513bc0e409b4117908a550db4d09d46a2af",
@@ -3680,7 +3903,8 @@
    "lang": "zh",
    "slug": "pet-shop-animal-sales-registration-guide",
    "generated_at": "2026-11-03T04:55:27.779Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "35b5c54d"
   },
   "zh/cosmetics-import-sales-registration-guide": {
    "hash": "ba296a9ca2eb8a57bc3e34e0ce209d0b0fb7b351e028ebed3827594f5a3f5f5a",
@@ -3696,7 +3920,8 @@
    "lang": "zh",
    "slug": "cosmetics-import-sales-registration-guide",
    "generated_at": "2026-11-03T05:10:37.089Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2001f495"
   },
   "zh/location-based-service-domestic-registration-guide": {
    "hash": "3f15dca636ac5da2c3172565e5ee2b5ece8e980e6399302e4637b2afa066e2d8",
@@ -3712,7 +3937,8 @@
    "lang": "zh",
    "slug": "location-based-service-domestic-registration-guide",
    "generated_at": "2026-11-03T04:48:50.560Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "47f076d2"
   },
   "zh/mainbiz-certification-requirements-process": {
    "hash": "355e75357d21fe53e30402fd59700f8feee2912d608e752701c6a1ad09a79580",
@@ -3728,7 +3954,8 @@
    "lang": "zh",
    "slug": "mainbiz-certification-requirements-process",
    "generated_at": "2026-11-03T04:49:30.440Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "369666b4"
   },
   "zh/innobiz-vs-mainbiz-comparison-guide": {
    "hash": "a9198611cd3ce4a902eb94b88ca311347551984356acdf7fcbd9cc0ada5b2f0a",
@@ -3760,7 +3987,8 @@
    "lang": "zh",
    "slug": "location-information-business-registration",
    "generated_at": "2026-11-03T04:48:53.022Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c4482058"
   },
   "ja/international-logistics-registration-guide": {
    "hash": "20c6e539da2939d3b86ffa7b10b5e74d755ec7e12b1464bd98ffdd5bfb384349",
@@ -3776,7 +4004,8 @@
    "lang": "ja",
    "slug": "international-logistics-registration-guide",
    "generated_at": "2026-11-03T04:44:50.427Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1b603c95"
   },
   "ja/currency-exchange-registration-guide": {
    "hash": "28fbb92b2d82fbce49c097612f1d88aa8caf4f7e6baee6ad37123c6fc5d4d784",
@@ -3792,7 +4021,8 @@
    "lang": "ja",
    "slug": "currency-exchange-registration-guide",
    "generated_at": "2026-11-03T04:26:06.713Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2e3781cc"
   },
   "ja/building-usage-change-guide": {
    "hash": "b90f2057c25c3e5736b28a2e0d711c581163ca9c81f9ad54dd3fdb4ebc65fe14",
@@ -3808,7 +4038,8 @@
    "lang": "ja",
    "slug": "building-usage-change-guide",
    "generated_at": "2026-11-03T04:23:32.761Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3fb1d94c"
   },
   "ja/food-manufacturing-license-guide": {
    "hash": "c8f3e8063c51d702e658f71c2ea9fc32c6d4b775611f52aa21e9f711d877c04a",
@@ -3824,7 +4055,8 @@
    "lang": "ja",
    "slug": "food-manufacturing-license-guide",
    "generated_at": "2026-11-03T04:32:04.742Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7bcf25bd"
   },
   "ja/women-enterprise-certification-guide": {
    "hash": "0df240aa4ffa19be10d108f91e440b2f6520a93a3ce69e7a8ad6cd529e837643",
@@ -3840,7 +4072,8 @@
    "lang": "ja",
    "slug": "women-enterprise-certification-guide",
    "generated_at": "2026-11-03T05:08:36.251Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0090f766"
   },
   "ja/haccp-certification-guide": {
    "hash": "cf32c18e7f13128ae46db67eaddb42f1e280866797362711b39d56638784eaf1",
@@ -3856,7 +4089,8 @@
    "lang": "ja",
    "slug": "haccp-certification-guide",
    "generated_at": "2026-11-03T04:38:40.146Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9844805f"
   },
   "ja/venture-innobiz-certification-guide": {
    "hash": "74225d3102ebf4fab756c6fd1f4487746a0431b7d98d69410f0c431fc8abe942",
@@ -3872,7 +4106,8 @@
    "lang": "ja",
    "slug": "venture-innobiz-certification-guide",
    "generated_at": "2026-11-03T05:06:35.831Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "96c58fb6"
   },
   "ja/procurement-narajangteo-registration-guide": {
    "hash": "f63168eaa7d80969f196f28f2d214f8c2fab8536150b02692467b272be895ba9",
@@ -3888,7 +4123,8 @@
    "lang": "ja",
    "slug": "procurement-narajangteo-registration-guide",
    "generated_at": "2026-11-03T05:16:29.678Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6e72f183"
   },
   "ja/urban-guesthouse-registration-guide": {
    "hash": "d3e7f08d70b1c69f2948704bbf57f0e38cd009e230c641fc1804b0ba67f80a9d",
@@ -3904,7 +4140,8 @@
    "lang": "ja",
    "slug": "urban-guesthouse-registration-guide",
    "generated_at": "2026-11-03T05:05:26.260Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9b1236bd"
   },
   "ja/hostel-registration-guide": {
    "hash": "039881e78ea466474fee1bff873624c8ed86a9c642786be034de1abd3cbf21ea",
@@ -3920,7 +4157,8 @@
    "lang": "ja",
    "slug": "hostel-registration-guide",
    "generated_at": "2026-11-03T04:42:25.812Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "60989a52"
   },
   "ja/hanok-experience-registration-guide": {
    "hash": "379683e025f909d64e013d6c115d6c4609050df06244dca0479d1470444dbea9",
@@ -3936,7 +4174,8 @@
    "lang": "ja",
    "slug": "hanok-experience-registration-guide",
    "generated_at": "2026-11-03T05:15:30.816Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3347b894"
   },
   "ja/tobacco-import-sales-guide": {
    "hash": "074aebc13edab9943486b8c80dde3b7dc5020119125818978a307bc214318f4c",
@@ -3952,7 +4191,8 @@
    "lang": "ja",
    "slug": "tobacco-import-sales-guide",
    "generated_at": "2026-11-03T05:03:52.184Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "55032eee"
   },
   "ja/nonprofit-corporation-establishment-guide": {
    "hash": "a42f2a5c582fafc546445d2df55a5cd5653c0fdd3034562b409d3de697734863",
@@ -3968,7 +4208,8 @@
    "lang": "ja",
    "slug": "nonprofit-corporation-establishment-guide",
    "generated_at": "2026-11-03T04:52:45.772Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "76c18dc2"
   },
   "ja/corporate-research-lab-establishment-guide": {
    "hash": "32ebe3d069c473186f2bc6ba23ac9108cdbd13fbe4cdc7f3dc69c48ea16cb598",
@@ -3984,7 +4225,8 @@
    "lang": "ja",
    "slug": "corporate-research-lab-establishment-guide",
    "generated_at": "2026-11-03T04:24:45.628Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c026f6b9"
   },
   "ja/e-cigarette-import-license-guide": {
    "hash": "f1229d6030aa0dbbc18df0cba56cb1110a458039c08c6015e4ff08cfa0e46edf",
@@ -4000,7 +4242,8 @@
    "lang": "ja",
    "slug": "e-cigarette-import-license-guide",
    "generated_at": "2026-11-03T04:27:31.483Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d994b112"
   },
   "ja/international-logistics-capital-funding-guide": {
    "hash": "50b7d0e153b5f89dd65600efdc65765b76b5a077f242ae801bfc0a671b71abda",
@@ -4016,7 +4259,8 @@
    "lang": "ja",
    "slug": "international-logistics-capital-funding-guide",
    "generated_at": "2026-11-03T04:44:46.657Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "97b85e58"
   },
   "ja/urban-guesthouse-airbnb-operation-guide": {
    "hash": "c71280cca2202dbb06e589ec8f7dc2bb6d610f0e84289fda3e711a79366bda5d",
@@ -4032,7 +4276,8 @@
    "lang": "ja",
    "slug": "urban-guesthouse-airbnb-operation-guide",
    "generated_at": "2026-11-03T05:05:19.784Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3de2606b"
   },
   "ja/nonprofit-corporation-articles-and-approval-guide": {
    "hash": "4a5cbaa971d335506ce83c5c71dc1468040f9316994573f2d448b8996c8d27ec",
@@ -4048,7 +4293,8 @@
    "lang": "ja",
    "slug": "nonprofit-corporation-articles-and-approval-guide",
    "generated_at": "2026-11-03T04:52:44.212Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "27147d11"
   },
   "ja/women-enterprise-renewal-management-guide": {
    "hash": "8fae48504c38735f4dae6a292554bd3a6e0bec0b375df41adee86d12589d3257",
@@ -4064,7 +4310,8 @@
    "lang": "ja",
    "slug": "women-enterprise-renewal-management-guide",
    "generated_at": "2026-11-03T05:08:37.871Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7f5af9ad"
   },
   "ja/currency-exchange-aml-internal-control-guide": {
    "hash": "90f86caba11b942f9927efafd8b96e4b95f77efe69a92926543fddf7822ece27",
@@ -4080,7 +4327,8 @@
    "lang": "ja",
    "slug": "currency-exchange-aml-internal-control-guide",
    "generated_at": "2026-11-03T04:26:01.929Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "91d51151"
   },
   "ja/haccp-post-certification-management-guide": {
    "hash": "75092e94920120ac3c9e2e9ec3c926f2c9c7421db7c74fee3fa22f7bd91c284d",
@@ -4096,7 +4344,8 @@
    "lang": "ja",
    "slug": "haccp-post-certification-management-guide",
    "generated_at": "2026-11-03T04:38:42.678Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7ce313c3"
   },
   "ja/building-usage-change-case-studies-guide": {
    "hash": "32fa2f99587f75b71e25a43d0fba6c62e5a0d6ac2f4cd56642a4e6cc2a8f9e1a",
@@ -4112,7 +4361,8 @@
    "lang": "ja",
    "slug": "building-usage-change-case-studies-guide",
    "generated_at": "2026-11-03T04:23:31.150Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "834cf987"
   },
   "ja/narajangteo-bidding-price-strategy-guide": {
    "hash": "63660531ca2d196d44039dcf599ab3f5a6fa98afb4bb36e66be8730a5a11a168",
@@ -4128,7 +4378,8 @@
    "lang": "ja",
    "slug": "narajangteo-bidding-price-strategy-guide",
    "generated_at": "2026-11-03T05:16:28.037Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9e47e340"
   },
   "ja/corporate-research-lab-agency-risk-guide": {
    "hash": "a5de0209270263c0e6a3300709b4177b6087ee33477e51cb4bad1dff320e45d1",
@@ -4144,7 +4395,8 @@
    "lang": "ja",
    "slug": "corporate-research-lab-agency-risk-guide",
    "generated_at": "2026-11-03T04:24:44.059Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "76512272"
   },
   "ja/cosmetics-manufacturing-registration": {
    "hash": "b4269ac9eaeea54e6440ebe4caeff53c2fff91d43972ceec0757736d0d175785",
@@ -4160,7 +4412,8 @@
    "lang": "ja",
    "slug": "cosmetics-manufacturing-registration",
    "generated_at": "2026-11-03T04:25:16.024Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "992c483f"
   },
   "ja/corporate-rnd-center-requirements": {
    "hash": "fb71cfbe0a525d5e5b79e3cdeee676e19df3fd3d822377c056a183ad047d8bb8",
@@ -4176,7 +4429,8 @@
    "lang": "ja",
    "slug": "corporate-rnd-center-requirements",
    "generated_at": "2026-11-03T04:24:49.025Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8176e056"
   },
   "ja/cosmetics-manufacturing-facility-guide": {
    "hash": "1e518f9baea5ed6c6f7a7ba56a501d1af2597233dbef9ceaaf39e6ac066e03d6",
@@ -4192,7 +4446,8 @@
    "lang": "ja",
    "slug": "cosmetics-manufacturing-facility-guide",
    "generated_at": "2026-11-03T04:25:12.345Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "60411f86"
   },
   "ja/freight-forwarder-capital-bond-requirements": {
    "hash": "53728c6277ef532437964a7f678527fd0abc24433cf3a0e2d9eac522b2dd68a8",
@@ -4208,7 +4463,8 @@
    "lang": "ja",
    "slug": "freight-forwarder-capital-bond-requirements",
    "generated_at": "2026-11-03T04:33:43.255Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e4c4decf"
   },
   "ja/sports-club-establishment-guide": {
    "hash": "4a901199a8c83958f2982a8c28482ef8ef014df48a52df863fb234289708894e",
@@ -4224,7 +4480,8 @@
    "lang": "ja",
    "slug": "sports-club-establishment-guide",
    "generated_at": "2026-11-03T05:02:39.166Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4f409a96"
   },
   "ja/manufacturing-business-registration-procedure": {
    "hash": "5ed7957700096261a557ae0d3de4d58d92a9d47cdfb3d7c77b967154cb528a66",
@@ -4240,7 +4497,8 @@
    "lang": "ja",
    "slug": "manufacturing-business-registration-procedure",
    "generated_at": "2026-11-03T04:50:11.606Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "11729478"
   },
   "ja/factory-registration-application-guide": {
    "hash": "1baf78efe8e0b0672b3e5b3632afd07c31338585e89460a4acbb8ccb2736f957",
@@ -4256,7 +4514,8 @@
    "lang": "ja",
    "slug": "factory-registration-application-guide",
    "generated_at": "2026-11-03T04:28:57.803Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cbb2a562"
   },
   "ja/venture-tax-benefits": {
    "hash": "77d08de8546f200f817e127a72ad53655fde0d62693c7e2434ed31a2d46583f8",
@@ -4272,7 +4531,8 @@
    "lang": "ja",
    "slug": "venture-tax-benefits",
    "generated_at": "2026-11-03T05:06:39.496Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a19f7945"
   },
   "ja/rnd-center-tax-credit": {
    "hash": "983d0092c104d825c43ee4fb510717f14bd5813c8568ac7f2e9a23b2d8793a9e",
@@ -4288,7 +4548,8 @@
    "lang": "ja",
    "slug": "rnd-center-tax-credit",
    "generated_at": "2026-11-03T05:01:33.236Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "94ea4ccf"
   },
   "ja/cosmetics-responsible-distributor": {
    "hash": "fe387e03fefd0f05e1cbf42ff8a1fa7138742c7cd7f74280722898e1b0a1d2aa",
@@ -4304,7 +4565,8 @@
    "lang": "ja",
    "slug": "cosmetics-responsible-distributor",
    "generated_at": "2026-11-03T04:25:17.607Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "36c9b117"
   },
   "ja/academy-establishment-registration-guide": {
    "hash": "c59e6e8daaf5813d48ef14066ad8b2e13218569b2cc86fd00fe11ab294116d48",
@@ -4320,7 +4582,8 @@
    "lang": "ja",
    "slug": "academy-establishment-registration-guide",
    "generated_at": "2026-11-03T04:20:45.170Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e35363eb"
   },
   "ja/laundry-business-permit-guide": {
    "hash": "31243fbc483713041065136e0effe3f3634f9ce2a602a2ef1bdeb4a623395039",
@@ -4336,7 +4599,8 @@
    "lang": "ja",
    "slug": "laundry-business-permit-guide",
    "generated_at": "2026-11-03T04:46:22.132Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "16229b1b"
   },
   "ja/real-estate-agency-registration-guide": {
    "hash": "ac3d8727c2f50ee2f1e0b8dce9c94edbff71716a2569188beb1c42e959fcefc5",
@@ -4352,7 +4616,8 @@
    "lang": "ja",
    "slug": "real-estate-agency-registration-guide",
    "generated_at": "2026-11-03T04:59:11.613Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0b50f365"
   },
   "ja/restaurant-food-service-license-guide": {
    "hash": "74006c3637402b2aaa194aa3501b7cd116324cb75e079fc80454a1342f3916fc",
@@ -4368,7 +4633,8 @@
    "lang": "ja",
    "slug": "restaurant-food-service-license-guide",
    "generated_at": "2026-11-03T05:01:08.547Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1e3b6d8a"
   },
   "ja/medical-clinic-establishment-guide": {
    "hash": "3752eefcc6ed839362d431704af37162c0a802960dab281b6b4102168a381431",
@@ -4384,7 +4650,8 @@
    "lang": "ja",
    "slug": "medical-clinic-establishment-guide",
    "generated_at": "2026-11-03T04:51:14.778Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "64497d92"
   },
   "ja/postpartum-care-center-permit-guide": {
    "hash": "4529f8b36e2d64ba0e7e00396d0b216617c642578cc95619b31eea5049069d57",
@@ -4400,7 +4667,8 @@
    "lang": "ja",
    "slug": "postpartum-care-center-permit-guide",
    "generated_at": "2026-11-03T04:56:54.445Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a34c4ded"
   },
   "ja/building-use-change-permit-guide": {
    "hash": "33c60f9d58fe98280a049634df5c88e1fbb0a107591a15440b1a27b54efbf30e",
@@ -4416,7 +4684,8 @@
    "lang": "ja",
    "slug": "building-use-change-permit-guide",
    "generated_at": "2026-11-03T04:23:40.173Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2140032f"
   },
   "ja/administrative-license-permit-specialist-guide": {
    "hash": "d09d25c69f3b040014ddb2cea9b4ebd35e0e0130fa57b893d3b0dd7baf74cb07",
@@ -4432,7 +4701,8 @@
    "lang": "ja",
    "slug": "administrative-license-permit-specialist-guide",
    "generated_at": "2026-11-03T04:21:47.993Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d5bdb81c"
   },
   "ja/location-based-service-business-registration-foreign-company": {
    "hash": "9920e00f8b57a2969864091f1d0a002728dca4e5bca309cabeddfe35cc5d7f3d",
@@ -4448,7 +4718,8 @@
    "lang": "ja",
    "slug": "location-based-service-business-registration-foreign-company",
    "generated_at": "2026-11-03T05:16:03.500Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "37e82c08"
   },
   "ja/online-shop-communication-sales-registration-guide": {
    "hash": "923e082367b41dfae18bf523264a0e79073fab2b6de8a880da74a1a3ffe87922",
@@ -4464,7 +4735,8 @@
    "lang": "ja",
    "slug": "online-shop-communication-sales-registration-guide",
    "generated_at": "2026-11-03T04:53:20.420Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4707001f"
   },
   "ja/health-functional-food-sales-registration-guide": {
    "hash": "6cd6b62442e506585d12c0694131ebe57972274f5155e3997761828fac2283e6",
@@ -4480,7 +4752,8 @@
    "lang": "ja",
    "slug": "health-functional-food-sales-registration-guide",
    "generated_at": "2026-11-03T04:41:29.416Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3bfb28f6"
   },
   "ja/yongdo-byeongyeong-haengjengsa": {
    "hash": "2b87734678803d54e70eb7be8deda9233164e3dbca7cbeea1404cc9a129c75e7",
@@ -4496,7 +4769,8 @@
    "lang": "ja",
    "slug": "yongdo-byeongyeong-haengjengsa",
    "generated_at": "2026-11-03T05:09:18.664Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2b901408"
   },
   "ja/beauty-salon-notification-guide": {
    "hash": "690356b6f6a2f4f8c945b1afb5ca52a78233edd74593cc34bb2df3a8c4d80cae",
@@ -4512,7 +4786,8 @@
    "lang": "ja",
    "slug": "beauty-salon-notification-guide",
    "generated_at": "2026-11-03T04:22:33.763Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "517e282a"
   },
   "ja/pet-shop-animal-sales-registration-guide": {
    "hash": "ff0d1ba64a3cd350eba943413dc7499118e51abb5b82f6f2b72c5bf31cdd2235",
@@ -4528,7 +4803,8 @@
    "lang": "ja",
    "slug": "pet-shop-animal-sales-registration-guide",
    "generated_at": "2026-11-03T04:55:28.208Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9172a7b9"
   },
   "ja/cosmetics-import-sales-registration-guide": {
    "hash": "7f023c1957c21aea6a1462f56998b64007976e317d36a7d5c8927886ca84fb9b",
@@ -4544,7 +4820,8 @@
    "lang": "ja",
    "slug": "cosmetics-import-sales-registration-guide",
    "generated_at": "2026-11-03T05:10:37.543Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1713e41e"
   },
   "ja/location-based-service-domestic-registration-guide": {
    "hash": "9c3d66b65bd94c5e209a817f89d122d560d73a6b7ff8e616da5c4ad3b2b858ae",
@@ -4560,7 +4837,8 @@
    "lang": "ja",
    "slug": "location-based-service-domestic-registration-guide",
    "generated_at": "2026-11-03T04:48:50.980Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c1543daa"
   },
   "ja/mainbiz-certification-requirements-process": {
    "hash": "552ecc8fdf28db03d092cb2243f096955ff1880b451fe168b35b1f62e2058381",
@@ -4576,7 +4854,8 @@
    "lang": "ja",
    "slug": "mainbiz-certification-requirements-process",
    "generated_at": "2026-11-03T04:49:31.218Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e7912fff"
   },
   "ja/innobiz-vs-mainbiz-comparison-guide": {
    "hash": "9fb514fc22ce1ea2dda485ec5a90259cde983b7f2f91f44be2bd7a792858a7d8",
@@ -4608,7 +4887,8 @@
    "lang": "ja",
    "slug": "location-information-business-registration",
    "generated_at": "2026-11-03T04:48:53.432Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bfae0605"
   },
   "zh/freight-forwarder-capital-bond": {
    "hash": "050d75e3bdf1b9e3829d304d830984220945fd738b3b976614eaa68d7507ee0d",
@@ -6176,7 +6456,8 @@
    "lang": "ko",
    "slug": "administrative-scrivener-scope-and-limits",
    "generated_at": "2026-11-03T04:21:48.688Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "04191cf1"
   },
   "en/administrative-scrivener-scope-and-limits": {
    "hash": "8642c0fc87e83099747952180e78ee8d5f16dbecd3677d8c640766e45500cabf",
@@ -6192,7 +6473,8 @@
    "lang": "en",
    "slug": "administrative-scrivener-scope-and-limits",
    "generated_at": "2026-11-03T04:21:49.384Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "281e054c"
   },
   "zh/administrative-scrivener-scope-and-limits": {
    "hash": "f9138f5ff8916e4895dade5bffd7bed4eb0cfe2c108c7eac27e128b65887a2d9",
@@ -6208,7 +6490,8 @@
    "lang": "zh",
    "slug": "administrative-scrivener-scope-and-limits",
    "generated_at": "2026-11-03T04:21:50.073Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "467e0645"
   },
   "ja/administrative-scrivener-scope-and-limits": {
    "hash": "d5841a6865f11797a63921a24db848c0fb68936d5a2b5472255fe8ea724179a2",
@@ -6224,7 +6507,8 @@
    "lang": "ja",
    "slug": "administrative-scrivener-scope-and-limits",
    "generated_at": "2026-11-03T04:21:50.757Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e2f318c5"
   },
   "ko/building-usage-change-requirements": {
    "hash": "9bde174ffbd2e631b46d884703893d5d8360718f3528a455feef406b88ab7061",
@@ -6240,7 +6524,8 @@
    "lang": "ko",
    "slug": "building-usage-change-requirements",
    "generated_at": "2026-11-03T04:23:33.552Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bd99dc23"
   },
   "en/building-usage-change-requirements": {
    "hash": "bbc54327d821391a9274e161e00a0cbba424b5e36fa0210aa80bd27ddca18be8",
@@ -6256,7 +6541,8 @@
    "lang": "en",
    "slug": "building-usage-change-requirements",
    "generated_at": "2026-11-03T04:23:34.357Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ac4e7c65"
   },
   "zh/building-usage-change-requirements": {
    "hash": "f9107990df5665584897b608f2f201a4d12eca15189a93b06811b5e4313a7dba",
@@ -6272,7 +6558,8 @@
    "lang": "zh",
    "slug": "building-usage-change-requirements",
    "generated_at": "2026-11-03T04:23:35.136Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6bb1dae5"
   },
   "ja/building-usage-change-requirements": {
    "hash": "b244fec05bf0291996ac545eae085557c173b5367f2b4f8ddb31042f08a384eb",
@@ -6288,7 +6575,8 @@
    "lang": "ja",
    "slug": "building-usage-change-requirements",
    "generated_at": "2026-11-03T04:23:35.921Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "52379138"
   },
   "ko/hostel-violation-penalties": {
    "hash": "82f32d4053662d1d03abdea1dbe5a2ea9e91c0e7e4e556270e19d4f5dd48a76a",
@@ -6304,7 +6592,8 @@
    "lang": "ko",
    "slug": "hostel-violation-penalties",
    "generated_at": "2026-11-03T04:42:27.465Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "96d79232"
   },
   "en/hostel-violation-penalties": {
    "hash": "f8323d1b76975bbe6184a6836b1dd6ca991b96fab96922eec4d1eb5c4a834508",
@@ -6320,7 +6609,8 @@
    "lang": "en",
    "slug": "hostel-violation-penalties",
    "generated_at": "2026-11-03T04:42:27.901Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "777c0b6a"
   },
   "zh/hostel-violation-penalties": {
    "hash": "bcee44069e691b99ccdf7d02889ba5407c1b8601e16912ab3d960242899a3fa5",
@@ -6336,7 +6626,8 @@
    "lang": "zh",
    "slug": "hostel-violation-penalties",
    "generated_at": "2026-11-03T04:42:28.301Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "42f7f8bd"
   },
   "ja/hostel-violation-penalties": {
    "hash": "a565336092800246249c264ea50d9ce54e3c4de4be823c8bdfd664912919fe86",
@@ -6352,7 +6643,8 @@
    "lang": "ja",
    "slug": "hostel-violation-penalties",
    "generated_at": "2026-11-03T04:42:28.733Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "228f4a33"
   },
   "ko/building-usage-fix": {
    "hash": "59fc8850254d0acb425cd22a8a69b726e510c46f0805b85938f80206a570db4f",
@@ -6368,7 +6660,8 @@
    "lang": "ko",
    "slug": "building-usage-fix",
    "generated_at": "2026-11-03T04:23:36.311Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b9254acd"
   },
   "ko/cosmetics-fix": {
    "hash": "6edd082bbf80b2258fcef16772a7d96aac53e14ebb03c98f8d965060b36af49d",
@@ -6384,7 +6677,8 @@
    "lang": "ko",
    "slug": "cosmetics-fix",
    "generated_at": "2026-11-03T04:25:09.129Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "39ca85fb"
   },
   "ko/cosmetics-select": {
    "hash": "983f463e42c6f5af3aad15f0f4a221c6aced6fdf092a9b4991426e2287d9db5f",
@@ -6400,7 +6694,8 @@
    "lang": "ko",
    "slug": "cosmetics-select",
    "generated_at": "2026-11-03T04:25:17.971Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "daf5477f"
   },
   "ko/currency-exchange-fix": {
    "hash": "e1682706b86bf3f62ebbefc7bc9f5362c75a77588a036d49e57c1dec08af5906",
@@ -6416,7 +6711,8 @@
    "lang": "ko",
    "slug": "currency-exchange-fix",
    "generated_at": "2026-11-03T04:26:04.216Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "68156c98"
   },
   "ko/currency-exchange-select": {
    "hash": "085bfc9ad1aa00431f5cc6d225c8b71f7712ab1edf383c7ff6ff701561325111",
@@ -6432,7 +6728,8 @@
    "lang": "ko",
    "slug": "currency-exchange-select",
    "generated_at": "2026-11-03T04:26:07.156Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ca7b21c0"
   },
   "ko/ecig-fix": {
    "hash": "8a9e0c1c35558980dd58753c579b50a26c736354b2db78d173b5a6fc56361346",
@@ -6448,7 +6745,8 @@
    "lang": "ko",
    "slug": "ecig-fix",
    "generated_at": "2026-11-03T05:12:32.010Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7818b419"
   },
   "ko/ecig-select": {
    "hash": "83ed6f66880a3dff83a2079c63c8888e409ec1a76609f31f98e5657ec51f5313",
@@ -6464,7 +6762,8 @@
    "lang": "ko",
    "slug": "ecig-select",
    "generated_at": "2026-11-03T05:12:32.718Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1a894f2e"
   },
   "ko/factory-fix": {
    "hash": "325d5d76df8319d104e410558ecfe44ea8721c989eff7eb32de26a5618d0aaee",
@@ -6480,7 +6779,8 @@
    "lang": "ko",
    "slug": "factory-fix",
    "generated_at": "2026-11-03T04:28:55.906Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "00fb1726"
   },
   "ko/factory-select": {
    "hash": "802934d17bec984da93d1d37d5042f81c5864d47c5973fb6950dcef67a686ee3",
@@ -6496,7 +6796,8 @@
    "lang": "ko",
    "slug": "factory-select",
    "generated_at": "2026-11-03T04:28:58.222Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "21194d91"
   },
   "ko/food-manufacturing-fix": {
    "hash": "3998afd2e567c81bcedcc536b056ef83b38908316823b8ef5a0e4046f420b8e4",
@@ -6512,7 +6813,8 @@
    "lang": "ko",
    "slug": "food-manufacturing-fix",
    "generated_at": "2026-11-03T04:32:03.119Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "39faa1fa"
   },
   "ko/food-manufacturing-select": {
    "hash": "39ad8929b9bcdb08c29f35b730008ab4c31cd6090b356c56f15ca73411bad2ab",
@@ -6528,7 +6830,8 @@
    "lang": "ko",
    "slug": "food-manufacturing-select",
    "generated_at": "2026-11-03T04:32:07.761Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "176f1567"
   },
   "ko/freight-trucking-fix": {
    "hash": "6b0976f5f542d484ec52103444f80cf555af9b5114350940b2053716cf56aa2e",
@@ -6544,7 +6847,8 @@
    "lang": "ko",
    "slug": "freight-trucking-fix",
    "generated_at": "2026-11-03T04:34:35.534Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ea225153"
   },
   "ko/freight-trucking-select": {
    "hash": "b99d2fb4fb25422ec02519ca9dce5154a0c3fb238262d10c079e38c6b4a716ef",
@@ -6560,7 +6864,8 @@
    "lang": "ko",
    "slug": "freight-trucking-select",
    "generated_at": "2026-11-03T04:35:11.290Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "75adf93d"
   },
   "ko/functional-cosmetics-fix": {
    "hash": "2dffef2411f4e19f4fea573b1deecf82927dffc7a91c3f5363fd73b32b7471d5",
@@ -6576,7 +6881,8 @@
    "lang": "ko",
    "slug": "functional-cosmetics-fix",
    "generated_at": "2026-11-03T04:35:32.799Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e266cdb5"
   },
   "ko/functional-cosmetics-select": {
    "hash": "7295521c26c9d8ed1f009aa13bd6b092ea3037a2f65ad0bd9781126e5d7ba3c0",
@@ -6592,7 +6898,8 @@
    "lang": "ko",
    "slug": "functional-cosmetics-select",
    "generated_at": "2026-11-03T04:35:33.200Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3e0cc991"
   },
   "ko/haccp-select": {
    "hash": "dcde0155aa10329356206c0286068fae4e8f53263bd0717eadeb5c37b6a19892",
@@ -6608,7 +6915,8 @@
    "lang": "ko",
    "slug": "haccp-select",
    "generated_at": "2026-11-03T04:38:43.087Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ff4324b2"
   },
   "ko/hanok-fix": {
    "hash": "43db64b82b067db1bbf87a612c5dad0670bd68f07ee743c8a665da4d57eb95dd",
@@ -6624,7 +6932,8 @@
    "lang": "ko",
    "slug": "hanok-fix",
    "generated_at": "2026-11-03T04:40:46.278Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "857acdb9"
   },
   "ko/hanok-select": {
    "hash": "ed11e5d7e3d5a3886d9426eab73c2d07a48285a59813b9dd3f047344942ba0e0",
@@ -6640,7 +6949,8 @@
    "lang": "ko",
    "slug": "hanok-select",
    "generated_at": "2026-11-03T04:40:47.165Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7c0995ff"
   },
   "ko/health-food-fix": {
    "hash": "f7825eaf736e6ebc804924a592941eaabce0260694dc91f8b865b004850f87a5",
@@ -6656,7 +6966,8 @@
    "lang": "ko",
    "slug": "health-food-fix",
    "generated_at": "2026-11-03T04:41:23.861Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "82dcdfb1"
   },
   "ko/health-food-select": {
    "hash": "92b30900166305d1af42df64d747b2e82d4f42c3b17a2569ca9b489b352a8404",
@@ -6672,7 +6983,8 @@
    "lang": "ko",
    "slug": "health-food-select",
    "generated_at": "2026-11-03T04:41:24.335Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "48325f36"
   },
   "ko/hostel-select": {
    "hash": "d3f479eb4df5d9ef40ec2dec67a6acbdd62bcc35304beb194dd9d0eea501ae8b",
@@ -6688,7 +7000,8 @@
    "lang": "ko",
    "slug": "hostel-select",
    "generated_at": "2026-11-03T04:42:27.043Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "846a7663"
   },
   "ko/innobiz-cert-fix": {
    "hash": "bdd04efc64245bf85b40b15f6e4e77b19b4c410a00732a570d21b230b0c406bf",
@@ -6704,7 +7017,8 @@
    "lang": "ko",
    "slug": "innobiz-cert-fix",
    "generated_at": "2026-11-03T04:43:40.706Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3fad7298"
   },
   "ko/innobiz-cert-select": {
    "hash": "8e2c17667a3f5c4fa79d915ed5fd94f81cf1c8ba5e6ce3963f7ac231ec932afc",
@@ -6720,7 +7034,8 @@
    "lang": "ko",
    "slug": "innobiz-cert-select",
    "generated_at": "2026-11-03T04:43:41.409Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ed3c5013"
   },
   "ko/international-logistics-fix": {
    "hash": "426a18e9c8c9c14f182112a4e7d3e43284c3fd168588dbb0eec891e3a8408724",
@@ -6736,7 +7051,8 @@
    "lang": "ko",
    "slug": "international-logistics-fix",
    "generated_at": "2026-11-03T04:44:47.359Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3635c36b"
   },
   "ko/international-logistics-select": {
    "hash": "8f61a8abefc9c2056bdb9dcdc3a6df85ff9b5fa029f77323c466a72a56a45313",
@@ -6752,7 +7068,8 @@
    "lang": "ko",
    "slug": "international-logistics-select",
    "generated_at": "2026-11-03T04:44:50.850Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "913a850a"
   },
   "ko/license-common-fix": {
    "hash": "c78806518248f505c471b8e6487d2e02351f99811e43bfd18b7c720b3353b68e",
@@ -6768,7 +7085,8 @@
    "lang": "ko",
    "slug": "license-common-fix",
    "generated_at": "2026-11-03T04:46:40.394Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d1a85094"
   },
   "ko/location-based-service-fix": {
    "hash": "a020fe5a749af203f621b6d6486d58faa669374a46ead6490b19ff97ecf51fd0",
@@ -6784,7 +7102,8 @@
    "lang": "ko",
    "slug": "location-based-service-fix",
    "generated_at": "2026-11-03T04:48:51.355Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "084aa990"
   },
   "ko/location-based-service-select": {
    "hash": "5d57fcbae6d2a0f19f1495c8c152f84524ec707b6d8af50b44392dc3a1a9b263",
@@ -6800,7 +7119,8 @@
    "lang": "ko",
    "slug": "location-based-service-select",
    "generated_at": "2026-11-03T04:48:51.760Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "88fb2075"
   },
   "ko/medical-device-fix": {
    "hash": "4708a6cdc1e683c83ed00be449d9ef3a7b6c911b2c5fb6625442494c45441e98",
@@ -6816,7 +7136,8 @@
    "lang": "ko",
    "slug": "medical-device-fix",
    "generated_at": "2026-11-03T04:51:40.494Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2bb43939"
   },
   "ko/medical-device-select": {
    "hash": "dfbeda61ef4a900c6ded24952b803b57f5f9b93db63d386dc188b7ee74a83a0f",
@@ -6832,7 +7153,8 @@
    "lang": "ko",
    "slug": "medical-device-select",
    "generated_at": "2026-11-03T04:51:42.731Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "87c9bade"
   },
   "ko/nonprofit-fix": {
    "hash": "959f5e3dc22d8c6fd14a71e91da6a75e8fb828c909311793596d92a12d829160",
@@ -6848,7 +7170,8 @@
    "lang": "ko",
    "slug": "nonprofit-fix",
    "generated_at": "2026-11-03T04:52:47.786Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "faf79cf5"
   },
   "ko/nonprofit-select": {
    "hash": "ad2f3b8d7ec95beb2a3f4234b82dcc2b28a29bd81a1dd5ea6234efecc2595eea",
@@ -6864,7 +7187,8 @@
    "lang": "ko",
    "slug": "nonprofit-select",
    "generated_at": "2026-11-03T04:52:48.190Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5316e0f6"
   },
   "ko/procurement-fix": {
    "hash": "9839d544252ad373225728b16ef435c644c510580ef51dad9bcd58aaa4bf8e28",
@@ -6880,7 +7204,8 @@
    "lang": "ko",
    "slug": "procurement-fix",
    "generated_at": "2026-11-03T04:56:54.861Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5884a328"
   },
   "ko/procurement-select": {
    "hash": "dc652d7b75eca1ed6a161bd16e4d858f2b750b5c58450cea6706cf18700ea17f",
@@ -6896,7 +7221,8 @@
    "lang": "ko",
    "slug": "procurement-select",
    "generated_at": "2026-11-03T04:56:58.344Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2824e898"
   },
   "ko/quasi-drug-fix": {
    "hash": "0a9dc6df098b76c65aebdbe00efd0a4843804dfde1e35d0cab2fffcbb66bb6b5",
@@ -6912,7 +7238,8 @@
    "lang": "ko",
    "slug": "quasi-drug-fix",
    "generated_at": "2026-11-03T04:58:11.323Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "993fba3c"
   },
   "ko/quasi-drug-select": {
    "hash": "4e7d5be5bfdedb19f738fadeb1449c93d229f05ac8e30535539bd20cac5d74b1",
@@ -6928,7 +7255,8 @@
    "lang": "ko",
    "slug": "quasi-drug-select",
    "generated_at": "2026-11-03T04:58:13.326Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c788ff35"
   },
   "ko/rnd-support-fix": {
    "hash": "7a1d8d84b647ab3b907f98f31ca39128a6c1aeb741cf127186e4df7f2f294647",
@@ -6944,7 +7272,8 @@
    "lang": "ko",
    "slug": "rnd-support-fix",
    "generated_at": "2026-11-03T05:01:35.529Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a98b4348"
   },
   "ko/rnd-support-select": {
    "hash": "6a178814bf9c5c221ea68ed8740c10e5af645929ca7a5c7e2560d80382f3ca21",
@@ -6960,7 +7289,8 @@
    "lang": "ko",
    "slug": "rnd-support-select",
    "generated_at": "2026-11-03T05:01:35.937Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9c3d549a"
   },
   "ko/sports-club-fix": {
    "hash": "f9d3b4ab85afd70509d266245b8479137b2c0f7f28a19e5593a122be55e696a5",
@@ -6976,7 +7306,8 @@
    "lang": "ko",
    "slug": "sports-club-fix",
    "generated_at": "2026-11-03T05:02:39.584Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ffad3cf0"
   },
   "ko/sports-club-select": {
    "hash": "290dee428f5954e76400e472ea01045da1c07f458c6b32ec2fb797265ffa1dcd",
@@ -6992,7 +7323,8 @@
    "lang": "ko",
    "slug": "sports-club-select",
    "generated_at": "2026-11-03T05:02:40.011Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3f7974d2"
   },
   "ko/tobacco-fix": {
    "hash": "bba564675bf6aef2cab10425b6159e643836b6350545a22591a485ee3e4bc1a4",
@@ -7008,7 +7340,8 @@
    "lang": "ko",
    "slug": "tobacco-fix",
    "generated_at": "2026-11-03T05:03:46.098Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2694ba5c"
   },
   "ko/tobacco-select": {
    "hash": "ced266330e63ca518bb03cae6ebcda2471b5e45233597ff062859ea99e67afea",
@@ -7024,7 +7357,8 @@
    "lang": "ko",
    "slug": "tobacco-select",
    "generated_at": "2026-11-03T05:03:54.973Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4b6f8636"
   },
   "ko/urban-guesthouse-fix": {
    "hash": "a3e6399e0d1ac0bfd46fd7c2fb7352a277e1b8b8d97463ac2641d9f76e4f22aa",
@@ -7040,7 +7374,8 @@
    "lang": "ko",
    "slug": "urban-guesthouse-fix",
    "generated_at": "2026-11-03T05:05:23.286Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "748f66a9"
   },
   "ko/urban-guesthouse-select": {
    "hash": "a71f9452c1d2962d5a829dd4c66890c9b1dba2e39c0181b2086e3537686b3cd0",
@@ -7056,7 +7391,8 @@
    "lang": "ko",
    "slug": "urban-guesthouse-select",
    "generated_at": "2026-11-03T05:05:53.637Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a8cc1a4b"
   },
   "ko/venture-cert-fix": {
    "hash": "16d489d8a66d7d192e76a4430b358156970b789fbbcd7eb04e589c79b538a16d",
@@ -7072,7 +7408,8 @@
    "lang": "ko",
    "slug": "venture-cert-fix",
    "generated_at": "2026-11-03T05:06:31.022Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a5e3420e"
   },
   "ko/venture-cert-select": {
    "hash": "e9754d20db64355de1b972fa94c69e6a187d206cc6908ffe65696c4bb5419999",
@@ -7088,7 +7425,8 @@
    "lang": "ko",
    "slug": "venture-cert-select",
    "generated_at": "2026-11-03T05:06:31.435Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ecf46b00"
   },
   "ko/women-enterprise-select": {
    "hash": "9732e55a210b69f0676b43e89fe6d771a0e9d754262fc165441bd8bc86c54e86",
@@ -7104,7 +7442,8 @@
    "lang": "ko",
    "slug": "women-enterprise-select",
    "generated_at": "2026-11-03T05:08:38.291Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bbe90da2"
   },
   "ko/administrative-license-agency-supplement-and-rejection": {
    "hash": "c0bca5db5306b1893c51e02c8b0cb52b351a79dd95d8b306b68f800eb6e888e4",
@@ -7120,7 +7459,8 @@
    "lang": "ko",
    "slug": "administrative-license-agency-supplement-and-rejection",
    "generated_at": "2026-11-03T04:21:45.172Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d5bf52b9"
   },
   "en/administrative-license-agency-supplement-and-rejection": {
    "hash": "c9be5cfab0a7ce7ad155b60048498031cf90728396cc4e5c49a9ec3159a9cd26",
@@ -7136,7 +7476,8 @@
    "lang": "en",
    "slug": "administrative-license-agency-supplement-and-rejection",
    "generated_at": "2026-11-03T04:21:45.600Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ff94bdd8"
   },
   "zh/administrative-license-agency-supplement-and-rejection": {
    "hash": "2b6ac50bda75afb42b83f2ff2ecd6ba5abe0ec8fa3e1cc961f77b93d5d98e912",
@@ -7152,7 +7493,8 @@
    "lang": "zh",
    "slug": "administrative-license-agency-supplement-and-rejection",
    "generated_at": "2026-11-03T04:21:46.004Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ea0fb35c"
   },
   "ja/administrative-license-agency-supplement-and-rejection": {
    "hash": "a222f640904cb62492a4ad2de0c4b73a28a6864937c9f6f13a23100d6aaa20c1",
@@ -7168,7 +7510,8 @@
    "lang": "ja",
    "slug": "administrative-license-agency-supplement-and-rejection",
    "generated_at": "2026-11-03T04:21:46.408Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b984013f"
   },
   "ko/procurement-narajangteo-registration-change": {
    "hash": "eb1146bb09b45dda041073a589067477463710a08f3405b9cec04aa18c3a492e",
@@ -7184,7 +7527,8 @@
    "lang": "ko",
    "slug": "procurement-narajangteo-registration-change",
    "generated_at": "2026-11-03T04:56:55.254Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6880d509"
   },
   "en/procurement-narajangteo-registration-change": {
    "hash": "7334e99aba22dcb2eb69289f0d5df96b87c7494683d3c8cd96e0cb333efc58be",
@@ -7200,7 +7544,8 @@
    "lang": "en",
    "slug": "procurement-narajangteo-registration-change",
    "generated_at": "2026-11-03T04:56:55.679Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "25fea362"
   },
   "zh/procurement-narajangteo-registration-change": {
    "hash": "116328d61ecb47078c2dc382629499de35fa47d9eec8dd69629508a00e5c44bb",
@@ -7216,7 +7561,8 @@
    "lang": "zh",
    "slug": "procurement-narajangteo-registration-change",
    "generated_at": "2026-11-03T04:56:56.078Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "80d4cffa"
   },
   "ja/procurement-narajangteo-registration-change": {
    "hash": "998fdeb93c22e33772ff5f18ee89bc9ed46784e116ff425a4ad23b2b82873c68",
@@ -7232,7 +7578,8 @@
    "lang": "ja",
    "slug": "procurement-narajangteo-registration-change",
    "generated_at": "2026-11-03T04:56:56.473Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "84b792ef"
   },
   "ko/corporate-research-lab-required-documents": {
    "hash": "ea598858552a490503d4e7ff160640bac708d17ed1a1dccd2e3ddc413281f43d",
@@ -7248,7 +7595,8 @@
    "lang": "ko",
    "slug": "corporate-research-lab-required-documents",
    "generated_at": "2026-11-03T04:24:46.070Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "1a01ca74"
   },
   "en/corporate-research-lab-required-documents": {
    "hash": "354d3b2e9cf1b57f3f5c72c59ab04d7ae1156fe6714253925fc5df16412e78a9",
@@ -7264,7 +7612,8 @@
    "lang": "en",
    "slug": "corporate-research-lab-required-documents",
    "generated_at": "2026-11-03T04:24:46.537Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0f945be9"
   },
   "zh/corporate-research-lab-required-documents": {
    "hash": "d5d6549df9d5833c143a86444d72b5858d11c2da2caa34bd1a49333bf63cc63b",
@@ -7280,7 +7629,8 @@
    "lang": "zh",
    "slug": "corporate-research-lab-required-documents",
    "generated_at": "2026-11-03T04:24:46.974Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "dfad1a34"
   },
   "ja/corporate-research-lab-required-documents": {
    "hash": "83c9e21d3c2d7a3f7d52230c2f32a1b17e4bc601a2ef2a52e6d51c0b0a1c18dc",
@@ -7296,7 +7646,8 @@
    "lang": "ja",
    "slug": "corporate-research-lab-required-documents",
    "generated_at": "2026-11-03T04:24:47.416Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9135f0c1"
   },
   "ko/mainbiz-renewal-and-validity": {
    "hash": "9a05fb43f372661cb92aab0fc975697160dd6509abfad79aaa098480152a4b96",
@@ -7312,7 +7663,8 @@
    "lang": "ko",
    "slug": "mainbiz-renewal-and-validity",
    "generated_at": "2026-11-03T04:49:31.634Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bb2c3100"
   },
   "en/mainbiz-renewal-and-validity": {
    "hash": "0f6f4246878a3a2c5399861f20e53396f15b6467ae27aeb0b110b9e667fa1bc5",
@@ -7328,7 +7680,8 @@
    "lang": "en",
    "slug": "mainbiz-renewal-and-validity",
    "generated_at": "2026-11-03T04:49:32.075Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "92042996"
   },
   "zh/mainbiz-renewal-and-validity": {
    "hash": "53fdfc275b0df6683d64d451299c141af1dcaa413d52609ac8b74febc5efc0d4",
@@ -7344,7 +7697,8 @@
    "lang": "zh",
    "slug": "mainbiz-renewal-and-validity",
    "generated_at": "2026-11-03T04:49:32.487Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cd0e8577"
   },
   "ja/mainbiz-renewal-and-validity": {
    "hash": "71b183162a2af8a428255961aa16ca3ddb6ce486ff8edb14b8450b06b01c69f0",
@@ -7360,7 +7714,8 @@
    "lang": "ja",
    "slug": "mainbiz-renewal-and-validity",
    "generated_at": "2026-11-03T04:49:32.904Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b44ec1e8"
   },
   "ko/license-scrivener-qualification-check": {
    "hash": "636f3745172ac2ede7894a483c2098b5c1bc33d01633e09b581260ada76e9b99",
@@ -7376,7 +7731,8 @@
    "lang": "ko",
    "slug": "license-scrivener-qualification-check",
    "generated_at": "2026-11-03T04:46:40.813Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2e0783be"
   },
   "en/license-scrivener-qualification-check": {
    "hash": "d891f9a45d6d9f06dfab35bc8be3bbd9b1a165c538e17c21241a8be5e824bdb2",
@@ -7392,7 +7748,8 @@
    "lang": "en",
    "slug": "license-scrivener-qualification-check",
    "generated_at": "2026-11-03T04:46:41.279Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "142bdf12"
   },
   "zh/license-scrivener-qualification-check": {
    "hash": "772baa85f1c59e60176ca8dc6699331e6aecd001435ecc9eb3afa46a3dbedab0",
@@ -7408,7 +7765,8 @@
    "lang": "zh",
    "slug": "license-scrivener-qualification-check",
    "generated_at": "2026-11-03T04:46:41.697Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7a8c678e"
   },
   "ja/license-scrivener-qualification-check": {
    "hash": "7884412d66e5b2b33859c061af3da469bbbab2bf980a46b0157ea49170181eeb",
@@ -7424,7 +7782,8 @@
    "lang": "ja",
    "slug": "license-scrivener-qualification-check",
    "generated_at": "2026-11-03T04:46:42.119Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d8c0135e"
   },
   "news/eping-120498": {
    "hash": "9d26eaec40c499794d945b929795365f1d2f8619c5b9d246b5b387013100a833",
@@ -8208,7 +8567,8 @@
    "lang": "ko",
    "slug": "cosmetics-distributor-change-registration",
    "generated_at": "2026-11-03T04:25:07.456Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "85c446f5"
   },
   "en/cosmetics-distributor-change-registration": {
    "hash": "13e1ea99fe59cb2cfe895a8bb96ba7116d516d79fe626ff1a6c728ae9f224bc5",
@@ -8224,7 +8584,8 @@
    "lang": "en",
    "slug": "cosmetics-distributor-change-registration",
    "generated_at": "2026-11-03T04:25:07.911Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9f642014"
   },
   "zh/cosmetics-distributor-change-registration": {
    "hash": "bcccaa7ead9fa2b1626f818d9b3bd3346ea38d0e9444c96fafd0f4701f6a89b3",
@@ -8240,7 +8601,8 @@
    "lang": "zh",
    "slug": "cosmetics-distributor-change-registration",
    "generated_at": "2026-11-03T04:25:08.336Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6d07e7c2"
   },
   "ja/cosmetics-distributor-change-registration": {
    "hash": "aadd3943b63e397d455864a4fb6d85054c933c55cdb42ecbd81a08c2a71cadc5",
@@ -8256,7 +8618,8 @@
    "lang": "ja",
    "slug": "cosmetics-distributor-change-registration",
    "generated_at": "2026-11-03T04:25:08.758Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "56c24a43"
   },
   "ko/food-manufacturing-online-sales-report": {
    "hash": "d6e4da2047588a92e7a104a05935e04dd8b0db0af6426ab00a4595611225725a",
@@ -8272,7 +8635,8 @@
    "lang": "ko",
    "slug": "food-manufacturing-online-sales-report",
    "generated_at": "2026-11-03T04:32:05.161Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c500b1d3"
   },
   "en/food-manufacturing-online-sales-report": {
    "hash": "5485ddaa127acb7b8263dd8a75ed8a787b3c9b75e39d8fd2c6b5bac8492ada47",
@@ -8288,7 +8652,8 @@
    "lang": "en",
    "slug": "food-manufacturing-online-sales-report",
    "generated_at": "2026-11-03T04:32:05.629Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "52881e9f"
   },
   "zh/food-manufacturing-online-sales-report": {
    "hash": "8467f4de56fda93815750ff01b0720bdbcf1d0519b606eeaaa3c5a29b405e022",
@@ -8304,7 +8669,8 @@
    "lang": "zh",
    "slug": "food-manufacturing-online-sales-report",
    "generated_at": "2026-11-03T04:32:06.046Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fed771bb"
   },
   "ja/food-manufacturing-online-sales-report": {
    "hash": "4b687ba9196e26cd8e9f741fa7b0de2d59f488749f4663a7e63ea8c6e60e7275",
@@ -8320,7 +8686,8 @@
    "lang": "ja",
    "slug": "food-manufacturing-online-sales-report",
    "generated_at": "2026-11-03T04:32:06.475Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9ddda6a5"
   },
   "ko/haccp-certification-change-application": {
    "hash": "793986c0ac9bbf8af218276e2ce1ceaf0ce347ebf1bb5e84e1ef0ba5be8e4f24",
@@ -8336,7 +8703,8 @@
    "lang": "ko",
    "slug": "haccp-certification-change-application",
    "generated_at": "2026-11-03T04:38:35.923Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3c9c1d1f"
   },
   "en/haccp-certification-change-application": {
    "hash": "ebc646d659a1511b546b44b0e58915ea3c15ee08e3ed39ce5e27c456c091c5fe",
@@ -8352,7 +8720,8 @@
    "lang": "en",
    "slug": "haccp-certification-change-application",
    "generated_at": "2026-11-03T04:38:36.453Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fc3206ff"
   },
   "zh/haccp-certification-change-application": {
    "hash": "09ed6844afd9512c76de5b39531a1ebde93b4e9ef9913e0d4955ffd0ccff98d8",
@@ -8368,7 +8737,8 @@
    "lang": "zh",
    "slug": "haccp-certification-change-application",
    "generated_at": "2026-11-03T04:38:36.924Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fbe2f02b"
   },
   "ja/haccp-certification-change-application": {
    "hash": "008beb2207ea697703f2c122361f9d9b8a3a3fee48e6d38aecfe0e3a6939db89",
@@ -8384,7 +8754,8 @@
    "lang": "ja",
    "slug": "haccp-certification-change-application",
    "generated_at": "2026-11-03T04:38:37.399Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "10215f46"
   },
   "ko/international-logistics-business-succession": {
    "hash": "87860508b2fbb989b540e5a06a7167f7d2739f9723e46530b89ec0c3ade246c3",
@@ -8400,7 +8771,8 @@
    "lang": "ko",
    "slug": "international-logistics-business-succession",
    "generated_at": "2026-11-03T04:44:41.505Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b75d0c84"
   },
   "en/international-logistics-business-succession": {
    "hash": "0b1e279a50bcfdc67b8db2f5890781a9868ddc9154686c8263e1636a6631ecb7",
@@ -8416,7 +8788,8 @@
    "lang": "en",
    "slug": "international-logistics-business-succession",
    "generated_at": "2026-11-03T04:44:42.262Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "60e9c1d4"
   },
   "zh/international-logistics-business-succession": {
    "hash": "25fe814543a475744ac9f4de780f17203aa5ade9417886aa9d03bbfadfc15f5e",
@@ -8432,7 +8805,8 @@
    "lang": "zh",
    "slug": "international-logistics-business-succession",
    "generated_at": "2026-11-03T04:44:42.982Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "f7ede30f"
   },
   "ja/international-logistics-business-succession": {
    "hash": "3511a0ebd5b165f5493e594da7d22d6003f6d685f622c64b309388148ac022dc",
@@ -8448,7 +8822,8 @@
    "lang": "ja",
    "slug": "international-logistics-business-succession",
    "generated_at": "2026-11-03T04:44:43.714Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "28ee776b"
   },
   "ko/location-based-service-change-report": {
    "hash": "d331d6bae16068c81beb9cf8a453a12f32ad80366bf55b625e3dd159f03cab9c",
@@ -8464,7 +8839,8 @@
    "lang": "ko",
    "slug": "location-based-service-change-report",
    "generated_at": "2026-11-03T04:48:48.134Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3ce2f8e8"
   },
   "en/location-based-service-change-report": {
    "hash": "a975df7ef3c49b1594d58112dfb7bfb6c0deeae8fd2eb7fb4fb0f56992ac3310",
@@ -8480,7 +8856,8 @@
    "lang": "en",
    "slug": "location-based-service-change-report",
    "generated_at": "2026-11-03T04:48:48.543Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "83c63016"
   },
   "zh/location-based-service-change-report": {
    "hash": "ad62aa5ae325c999e1ea3d52cd9ee3becaee23e20049f324bf360cbdfc1702dd",
@@ -8496,7 +8873,8 @@
    "lang": "zh",
    "slug": "location-based-service-change-report",
    "generated_at": "2026-11-03T04:48:48.924Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ae722d0d"
   },
   "ja/location-based-service-change-report": {
    "hash": "8dce710485c14dcd7a84fa39e7183eee56fa7049592469e7c597548a77d86eca",
@@ -8512,7 +8890,8 @@
    "lang": "ja",
    "slug": "location-based-service-change-report",
    "generated_at": "2026-11-03T04:48:49.303Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "25260e25"
   },
   "ko/nonprofit-dissolution-liquidation-procedure": {
    "hash": "b13dff8c5ab30cffa4fd7d8e2fb28f72b88ba565873f369eb1e4bc1fcd251b1b",
@@ -8528,7 +8907,8 @@
    "lang": "ko",
    "slug": "nonprofit-dissolution-liquidation-procedure",
    "generated_at": "2026-11-03T04:52:46.161Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "99c88317"
   },
   "en/nonprofit-dissolution-liquidation-procedure": {
    "hash": "6e1251bde05372fe600b274f1e76cb06d7a440ded8d77d55d4a500c67c53932e",
@@ -8544,7 +8924,8 @@
    "lang": "en",
    "slug": "nonprofit-dissolution-liquidation-procedure",
    "generated_at": "2026-11-03T04:52:46.586Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b2b0a958"
   },
   "zh/nonprofit-dissolution-liquidation-procedure": {
    "hash": "6f20cbe796cfd8fa701909e154447bdeb3298f25a25de6dd0ba60b17e739adf7",
@@ -8560,7 +8941,8 @@
    "lang": "zh",
    "slug": "nonprofit-dissolution-liquidation-procedure",
    "generated_at": "2026-11-03T04:52:46.979Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "fb250269"
   },
   "ja/nonprofit-dissolution-liquidation-procedure": {
    "hash": "eb1340e8981fe3065ee4978e0d166dc2bf18454fc0cf2270ba60b8c42003cd87",
@@ -8576,7 +8958,8 @@
    "lang": "ja",
    "slug": "nonprofit-dissolution-liquidation-procedure",
    "generated_at": "2026-11-03T04:52:47.375Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c647f54b"
   },
   "ko/quasi-drug-vs-cosmetics-classification": {
    "hash": "7f81ce3fba4e14485be6e5392795f5e527c7e14ec7d55a433f9747eff06ddc69",
@@ -8592,7 +8975,8 @@
    "lang": "ko",
    "slug": "quasi-drug-vs-cosmetics-classification",
    "generated_at": "2026-11-03T04:58:32.466Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "99b69bfb"
   },
   "en/quasi-drug-vs-cosmetics-classification": {
    "hash": "1773666fb158945ff990c6f37fb416917093bc7541b220bff6612f48a51e44b7",
@@ -8608,7 +8992,8 @@
    "lang": "en",
    "slug": "quasi-drug-vs-cosmetics-classification",
    "generated_at": "2026-11-03T04:58:32.929Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "603d8fca"
   },
   "zh/quasi-drug-vs-cosmetics-classification": {
    "hash": "e9d53fa01a9a03304881519c902190fb884a53db8954693dcf95cc2a81c20306",
@@ -8624,7 +9009,8 @@
    "lang": "zh",
    "slug": "quasi-drug-vs-cosmetics-classification",
    "generated_at": "2026-11-03T04:58:33.304Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4b6c28f0"
   },
   "ja/quasi-drug-vs-cosmetics-classification": {
    "hash": "4c09b9382a16c6a27e4651827716f07b5f891118a3f75de56001275b17970711",
@@ -8640,7 +9026,8 @@
    "lang": "ja",
    "slug": "quasi-drug-vs-cosmetics-classification",
    "generated_at": "2026-11-03T04:58:33.687Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e7e0064f"
   },
   "ko/urban-guesthouse-change-registration": {
    "hash": "7f494f3c003649ade3d5cf23dd4ae96ad056e8efc29fa5cedea373fcc752cbf6",
@@ -8656,7 +9043,8 @@
    "lang": "ko",
    "slug": "urban-guesthouse-change-registration",
    "generated_at": "2026-11-03T05:05:20.541Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "5cc5e503"
   },
   "en/urban-guesthouse-change-registration": {
    "hash": "7983cf0fcfd2aabd5a45a6da6e6c364a30b0749278479f4b473bb913d3569bda",
@@ -8672,7 +9060,8 @@
    "lang": "en",
    "slug": "urban-guesthouse-change-registration",
    "generated_at": "2026-11-03T05:05:21.343Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "238b595a"
   },
   "zh/urban-guesthouse-change-registration": {
    "hash": "2e6b09a2096ed442a5f990865df2fedcd2dcd06bba5727975f09ecc0ac205338",
@@ -8688,7 +9077,8 @@
    "lang": "zh",
    "slug": "urban-guesthouse-change-registration",
    "generated_at": "2026-11-03T05:05:22.113Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "72b93e30"
   },
   "ja/urban-guesthouse-change-registration": {
    "hash": "d3f39d0f3498b0a7ef90eb193e60e42265e25a3716a2df0d2bc1497a9ded8fd8",
@@ -8704,7 +9094,8 @@
    "lang": "ja",
    "slug": "urban-guesthouse-change-registration",
    "generated_at": "2026-11-03T05:05:22.881Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2d3d61a4"
   },
   "news/eping-120659": {
    "hash": "10c71c85a331b2984c791f6134b5b375bbcfab206402fc6e5db672cb3a131a3b",
@@ -8912,7 +9303,8 @@
    "lang": "ko",
    "slug": "administrative-license-agency-procedure-flow",
    "generated_at": "2026-11-03T04:21:43.474Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7ec3de24"
   },
   "ko/cosmetics-distributor-compliance-obligations": {
    "hash": "f67388bfc6cc13ab3ba099b0d876344e92dd9339e9e85e64f6d68dfa8d2f1f29",
@@ -8928,7 +9320,8 @@
    "lang": "ko",
    "slug": "cosmetics-distributor-compliance-obligations",
    "generated_at": "2026-10-29T02:21:24.214Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2d71b01d"
   },
   "ko/food-manufacturing-post-registration-duties": {
    "hash": "ed2209d03385a56c1693a4e61ec82551c210640d1dc9985ca7f815f3c178e12e",
@@ -8944,7 +9337,8 @@
    "lang": "ko",
    "slug": "food-manufacturing-post-registration-duties",
    "generated_at": "2026-10-29T02:21:26.167Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "39028f2d"
   },
   "ko/g2b-unfair-bidder-restriction-period": {
    "hash": "e0d8af8b20a28181183babdd95be67baa33b343addec86dbfe9b2a0415b4eb19",
@@ -8960,7 +9354,8 @@
    "lang": "ko",
    "slug": "g2b-unfair-bidder-restriction-period",
    "generated_at": "2026-10-29T02:21:28.942Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "80aa7914"
   },
   "ko/haccp-certification-cancellation-grounds": {
    "hash": "154aae602ec42a9421ed9532f9aff38afdcd7b6bab8abf46578965dcb5b94fb7",
@@ -8976,7 +9371,8 @@
    "lang": "ko",
    "slug": "haccp-certification-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:31.010Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "09905fd5"
   },
   "ko/international-logistics-registration-standards-report": {
    "hash": "d0c516a2b90f4dd2477ea99ceecdb396d45e6f2024e53c86c43984a358970ff6",
@@ -8992,7 +9388,8 @@
    "lang": "ko",
    "slug": "international-logistics-registration-standards-report",
    "generated_at": "2026-10-29T02:21:33.788Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3d6f3aec"
   },
   "ko/rnd-center-recognition-cancellation-grounds": {
    "hash": "33b65cee5f946e0cded17ac42a82047f60d01343fbae5194994e0f8a11a46418",
@@ -9008,7 +9405,8 @@
    "lang": "ko",
    "slug": "rnd-center-recognition-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:35.483Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cd29cf51"
   },
   "ko/venture-confirmation-types-comparison": {
    "hash": "27a510f7b04bc19f2c529db1b2a1b7a015e620f48db4ebcf82079af880b3ac7f",
@@ -9024,7 +9422,8 @@
    "lang": "ko",
    "slug": "venture-confirmation-types-comparison",
    "generated_at": "2026-11-03T05:06:32.813Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ee3ad0fc"
   },
   "en/administrative-license-agency-procedure-flow": {
    "hash": "bc8e3b019050e058c6753fc251c90d8e6942a29ea0926b6c7928a696a61671ff",
@@ -9040,7 +9439,8 @@
    "lang": "en",
    "slug": "administrative-license-agency-procedure-flow",
    "generated_at": "2026-11-03T04:21:43.930Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "c482aed5"
   },
   "zh/administrative-license-agency-procedure-flow": {
    "hash": "ee25732f4c587a8c0fd8f319ce38628760a9d7bc2ac303167879cdc8b9a027f2",
@@ -9056,7 +9456,8 @@
    "lang": "zh",
    "slug": "administrative-license-agency-procedure-flow",
    "generated_at": "2026-11-03T04:21:44.347Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a488aa8d"
   },
   "ja/administrative-license-agency-procedure-flow": {
    "hash": "349f9dca7d6beec6c389ef830b60bf124968b50e399c3793a6974fdf2730ed46",
@@ -9072,7 +9473,8 @@
    "lang": "ja",
    "slug": "administrative-license-agency-procedure-flow",
    "generated_at": "2026-11-03T04:21:44.770Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "8f9e3fa0"
   },
   "en/cosmetics-distributor-compliance-obligations": {
    "hash": "152620b89cab6631f33be92345ef43e65f622223d1b478accc79fbe474cc173a",
@@ -9088,7 +9490,8 @@
    "lang": "en",
    "slug": "cosmetics-distributor-compliance-obligations",
    "generated_at": "2026-10-29T02:21:52.770Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d2e7b019"
   },
   "zh/cosmetics-distributor-compliance-obligations": {
    "hash": "3dffd83bb324e384dedc5e380c7753bc121e0fc690cd3e504260ef35b07f7858",
@@ -9104,7 +9507,8 @@
    "lang": "zh",
    "slug": "cosmetics-distributor-compliance-obligations",
    "generated_at": "2026-10-29T02:21:53.134Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3478ea4b"
   },
   "ja/cosmetics-distributor-compliance-obligations": {
    "hash": "e9d8a9be16e0f37220faa0fa40ae6340824bb8e67b429dcc4aa42f66663cfec9",
@@ -9120,7 +9524,8 @@
    "lang": "ja",
    "slug": "cosmetics-distributor-compliance-obligations",
    "generated_at": "2026-10-29T02:21:53.502Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "aeaff45d"
   },
   "en/food-manufacturing-post-registration-duties": {
    "hash": "ac7d9f84a210aae2055fcd095fdaf0d84f6593b43e155a2ab869a88bd08ea6a1",
@@ -9136,7 +9541,8 @@
    "lang": "en",
    "slug": "food-manufacturing-post-registration-duties",
    "generated_at": "2026-10-29T02:21:54.268Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "09e14e55"
   },
   "zh/food-manufacturing-post-registration-duties": {
    "hash": "8b651ee55a1cbb737db2c3f05934164c826c6e0f7aafb94920194b76b4b203b2",
@@ -9152,7 +9558,8 @@
    "lang": "zh",
    "slug": "food-manufacturing-post-registration-duties",
    "generated_at": "2026-10-29T02:21:27.752Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "cbb3ac8f"
   },
   "ja/food-manufacturing-post-registration-duties": {
    "hash": "cb240d0f8a65b6ea4122bd49fedd4d439cbc4344333b354ea18d5714c7de451f",
@@ -9168,7 +9575,8 @@
    "lang": "ja",
    "slug": "food-manufacturing-post-registration-duties",
    "generated_at": "2026-10-29T02:21:55.050Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "47318330"
   },
   "en/g2b-unfair-bidder-restriction-period": {
    "hash": "5d987ba533bd92dae25746278e9e26e759dec8e27cb350c28bcba03445cfad7b",
@@ -9184,7 +9592,8 @@
    "lang": "en",
    "slug": "g2b-unfair-bidder-restriction-period",
    "generated_at": "2026-10-29T02:21:55.475Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bf56b96c"
   },
   "zh/g2b-unfair-bidder-restriction-period": {
    "hash": "ef5780a9248356671f77b5a76919b9270e3e947fe85c234d180d992afedc561a",
@@ -9200,7 +9609,8 @@
    "lang": "zh",
    "slug": "g2b-unfair-bidder-restriction-period",
    "generated_at": "2026-10-29T02:21:29.817Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "72023cce"
   },
   "ja/g2b-unfair-bidder-restriction-period": {
    "hash": "8ee362a27c73d8b9c869299a1bbe73b27c4c8b92486b6bd16b5a000c6efc1143",
@@ -9216,7 +9626,8 @@
    "lang": "ja",
    "slug": "g2b-unfair-bidder-restriction-period",
    "generated_at": "2026-10-29T02:21:30.237Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3711dd15"
   },
   "en/haccp-certification-cancellation-grounds": {
    "hash": "44f640fafb02dab6833de9ba8148af02648dcfe62a04a8d7f6c66b5207324620",
@@ -9232,7 +9643,8 @@
    "lang": "en",
    "slug": "haccp-certification-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:31.807Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "dfd9f8e5"
   },
   "zh/haccp-certification-cancellation-grounds": {
    "hash": "f085168aec6b0823e1e0a3c3517d4c0ddd7668d4b2ce1c8ae5474a69cb9d5ea7",
@@ -9248,7 +9660,8 @@
    "lang": "zh",
    "slug": "haccp-certification-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:32.589Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "51d79c6b"
   },
   "ja/haccp-certification-cancellation-grounds": {
    "hash": "2da1e3704d5d379877d933dbb25069fbb4f801417f0c8879e8a3f30e70c015be",
@@ -9264,7 +9677,8 @@
    "lang": "ja",
    "slug": "haccp-certification-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:33.368Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e908e1b3"
   },
   "en/international-logistics-registration-standards-report": {
    "hash": "cfeeed36a171bfc964edb1c47c4c36516223b6d7241fbc49ea2f0d38598d5c33",
@@ -9280,7 +9694,8 @@
    "lang": "en",
    "slug": "international-logistics-registration-standards-report",
    "generated_at": "2026-10-29T02:21:34.226Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bdb7f896"
   },
   "zh/international-logistics-registration-standards-report": {
    "hash": "397326fd753ba84dc0c6f22bec286bd2beddc73efe7fe03d9794ec704804ef5f",
@@ -9296,7 +9711,8 @@
    "lang": "zh",
    "slug": "international-logistics-registration-standards-report",
    "generated_at": "2026-10-29T02:21:34.643Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3e71c891"
   },
   "ja/international-logistics-registration-standards-report": {
    "hash": "00a06b2bd6d60d56397490343634a81242f9dc7aa23a07c9ff17012f73984152",
@@ -9312,7 +9728,8 @@
    "lang": "ja",
    "slug": "international-logistics-registration-standards-report",
    "generated_at": "2026-10-29T02:21:35.068Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "155d62b1"
   },
   "en/rnd-center-recognition-cancellation-grounds": {
    "hash": "f9a5652bb528b3478e1e246a390f79b3983e144650e8782a91414c94c6000e4b",
@@ -9328,7 +9745,8 @@
    "lang": "en",
    "slug": "rnd-center-recognition-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:55.890Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a575e987"
   },
   "zh/rnd-center-recognition-cancellation-grounds": {
    "hash": "d4dd3356ff15ba53b3386b84179d758e65efc713e5902675d1c7dc61bf83a66a",
@@ -9344,7 +9762,8 @@
    "lang": "zh",
    "slug": "rnd-center-recognition-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:36.353Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "2f035b5d"
   },
   "ja/rnd-center-recognition-cancellation-grounds": {
    "hash": "9e591a0881b91b8b2c4c555c468eb499b487d123ff6b9069351bfde304fb63a1",
@@ -9360,7 +9779,8 @@
    "lang": "ja",
    "slug": "rnd-center-recognition-cancellation-grounds",
    "generated_at": "2026-10-29T02:21:36.768Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0be4fc93"
   },
   "en/venture-confirmation-types-comparison": {
    "hash": "b3aec5a3df7ef36cb042d23013edc9dc639ffc51e900eff70476e7814db83c70",
@@ -9376,7 +9796,8 @@
    "lang": "en",
    "slug": "venture-confirmation-types-comparison",
    "generated_at": "2026-11-03T05:06:33.298Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "98813e30"
   },
   "zh/venture-confirmation-types-comparison": {
    "hash": "902ccb5294778772949490831288ede06425b533a45c5ab81d984a558aba8ff4",
@@ -9392,7 +9813,8 @@
    "lang": "zh",
    "slug": "venture-confirmation-types-comparison",
    "generated_at": "2026-11-03T05:06:33.710Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "a6f52679"
   },
   "ja/venture-confirmation-types-comparison": {
    "hash": "580cd7e34f7bb4702549a26252824c29a431348b3c1eb5c95c4cf302ad474550",
@@ -9408,7 +9830,8 @@
    "lang": "ja",
    "slug": "venture-confirmation-types-comparison",
    "generated_at": "2026-11-03T05:06:34.208Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "795d12e1"
   },
   "news/fr-2026-22273": {
    "hash": "d7534ffac14e239b925f88748b3466aa514ff2bd07ce3a1ce65b8e221a3a8832",
@@ -9488,7 +9911,8 @@
    "lang": "ko",
    "slug": "cosmetics-foreign-brand-without-korean-entity",
    "generated_at": "2026-11-03T02:56:01.749Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "50251a2a"
   },
   "en/cosmetics-foreign-brand-without-korean-entity": {
    "hash": "1a6cd56b42699cf02410c6217d1e2d060a39f56b8cc3653eabd6ba9c92e5d003",
@@ -9504,7 +9928,8 @@
    "lang": "en",
    "slug": "cosmetics-foreign-brand-without-korean-entity",
    "generated_at": "2026-11-03T02:56:02.217Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "0def0836"
   },
   "zh/cosmetics-foreign-brand-without-korean-entity": {
    "hash": "fa8242963e5ab314046860eb9d181e460b83cb935b9d592663b6ebb06fbba153",
@@ -9520,7 +9945,8 @@
    "lang": "zh",
    "slug": "cosmetics-foreign-brand-without-korean-entity",
    "generated_at": "2026-11-03T02:56:02.747Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "490a111c"
   },
   "ja/cosmetics-foreign-brand-without-korean-entity": {
    "hash": "e787d1d751c44960420a68050306633a7efaac9f1fda3287324a7a3b86221517",
@@ -9536,7 +9962,8 @@
    "lang": "ja",
    "slug": "cosmetics-foreign-brand-without-korean-entity",
    "generated_at": "2026-11-03T02:56:03.256Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "160944dc"
   },
   "ko/factory-registration-leased-building": {
    "hash": "94ea13f64993fe933d0bbd16c24361793cfc4e1dc550c216bf1e47e4080ff99d",
@@ -9552,7 +9979,8 @@
    "lang": "ko",
    "slug": "factory-registration-leased-building",
    "generated_at": "2026-11-03T02:56:04.033Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "4cac6336"
   },
   "en/factory-registration-leased-building": {
    "hash": "cb3984d46cd982a5f32c4f6bb95c59471eca52f7bd7a5a4fccac97ca9d3cad5c",
@@ -9568,7 +9996,8 @@
    "lang": "en",
    "slug": "factory-registration-leased-building",
    "generated_at": "2026-11-03T02:56:04.819Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3bc1855a"
   },
   "zh/factory-registration-leased-building": {
    "hash": "ee1755278db549630a8de493b45d5be4bb9b17b76f10fd3a2d126c723204fbd7",
@@ -9584,7 +10013,8 @@
    "lang": "zh",
    "slug": "factory-registration-leased-building",
    "generated_at": "2026-11-03T02:56:05.601Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "e14d0c74"
   },
   "ja/factory-registration-leased-building": {
    "hash": "9b7e918a80818a21540419abe5f11dc2468132a674c87c9f8ae5802c346e2e5b",
@@ -9600,7 +10030,8 @@
    "lang": "ja",
    "slug": "factory-registration-leased-building",
    "generated_at": "2026-11-03T02:56:06.389Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "be41fbae"
   },
   "ko/health-functional-food-home-online-sales": {
    "hash": "56e14a5fc770a31027d3e86afa796702e7b35e9c287ba12772ae7556e4329723",
@@ -9616,7 +10047,8 @@
    "lang": "ko",
    "slug": "health-functional-food-home-online-sales",
    "generated_at": "2026-11-03T02:56:06.800Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b9a563dd"
   },
   "en/health-functional-food-home-online-sales": {
    "hash": "f9f45243d6801f0790008b38699e5fd38c388ec71e02e24dd4f58a8f56ad9854",
@@ -9632,7 +10064,8 @@
    "lang": "en",
    "slug": "health-functional-food-home-online-sales",
    "generated_at": "2026-11-03T02:56:07.233Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "7f0a1a70"
   },
   "zh/health-functional-food-home-online-sales": {
    "hash": "3ac75143c152251431c9d529c910b675eb7e7edd133aa708d649741589052b54",
@@ -9648,7 +10081,8 @@
    "lang": "zh",
    "slug": "health-functional-food-home-online-sales",
    "generated_at": "2026-11-03T02:56:07.643Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "d3282949"
   },
   "ja/health-functional-food-home-online-sales": {
    "hash": "663cb8014945ad53a6b8c6aada78fcd5ddb1ed7802f3741c4349b659fd0504a7",
@@ -9664,7 +10098,8 @@
    "lang": "ja",
    "slug": "health-functional-food-home-online-sales",
    "generated_at": "2026-11-03T02:56:08.053Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "ead42c54"
   },
   "ko/location-based-service-map-feature-app": {
    "hash": "d24bd9a52a55df737e4867ab9cbf3544cce5c5ce8e8368721ec24bf1af5f740f",
@@ -9680,7 +10115,8 @@
    "lang": "ko",
    "slug": "location-based-service-map-feature-app",
    "generated_at": "2026-11-03T02:56:08.461Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "6a7d9177"
   },
   "en/location-based-service-map-feature-app": {
    "hash": "fc2bbc3dab5b7e9cc707c2d925e9f265ae28e6bf57feeeb07e594d002ee66d67",
@@ -9696,7 +10132,8 @@
    "lang": "en",
    "slug": "location-based-service-map-feature-app",
    "generated_at": "2026-11-03T02:56:08.884Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "b4816a17"
   },
   "zh/location-based-service-map-feature-app": {
    "hash": "774c8623aea58f7116962e228548a4a46ab5fc134dea7f8bbfd9aad1d275dd5a",
@@ -9712,7 +10149,8 @@
    "lang": "zh",
    "slug": "location-based-service-map-feature-app",
    "generated_at": "2026-11-03T02:56:09.290Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bdd84aea"
   },
   "ja/location-based-service-map-feature-app": {
    "hash": "127f201c3048ae2de5f197921d8f5be7e324aba5bbd1f9b8ec4dbee4dae345ca",
@@ -9728,7 +10166,8 @@
    "lang": "ja",
    "slug": "location-based-service-map-feature-app",
    "generated_at": "2026-11-03T02:56:09.707Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "14b270ba"
   },
   "ko/nonprofit-informal-group-to-association": {
    "hash": "880ef1b20aa0868d0a26757f689a5740bd6c5a9988d93a8bc5776d8b2dcb58ba",
@@ -9744,7 +10183,8 @@
    "lang": "ko",
    "slug": "nonprofit-informal-group-to-association",
    "generated_at": "2026-11-03T02:56:10.414Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "3ac46287"
   },
   "en/nonprofit-informal-group-to-association": {
    "hash": "021c109c174c78ec72b81321c5baf7150fb7441650362fea2a611189cb3e615f",
@@ -9760,7 +10200,8 @@
    "lang": "en",
    "slug": "nonprofit-informal-group-to-association",
    "generated_at": "2026-11-03T02:56:11.135Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "95358d32"
   },
   "zh/nonprofit-informal-group-to-association": {
    "hash": "a913711374897cdd7351defb0a43d4bb914a14b4eded71861536c33b387e1a7a",
@@ -9776,7 +10217,8 @@
    "lang": "zh",
    "slug": "nonprofit-informal-group-to-association",
    "generated_at": "2026-11-03T02:56:11.852Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "664d4360"
   },
   "ja/nonprofit-informal-group-to-association": {
    "hash": "08acf6c73b1caf39e4614aee9f45eaee74be1c089ffc5714384b4c9cc12187c7",
@@ -9792,7 +10234,8 @@
    "lang": "ja",
    "slug": "nonprofit-informal-group-to-association",
    "generated_at": "2026-11-03T02:56:12.557Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "dc19563c"
   },
   "ko/telecom-report-online-mall-app": {
    "hash": "16906209bb99cd3ec2093fc5bea0794d02b05d61f3ce6b81e2c96753e9a4b330",
@@ -9808,7 +10251,8 @@
    "lang": "ko",
    "slug": "telecom-report-online-mall-app",
    "generated_at": "2026-11-03T02:56:12.959Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "29da7ae6"
   },
   "en/telecom-report-online-mall-app": {
    "hash": "6e3dc5f271aafbfd5b204705b75ee644405dc14a3f46084f84ddd3f11ea4c413",
@@ -9824,7 +10268,8 @@
    "lang": "en",
    "slug": "telecom-report-online-mall-app",
    "generated_at": "2026-11-03T02:56:13.378Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "9792627b"
   },
   "zh/telecom-report-online-mall-app": {
    "hash": "f0b5cf38ab5f0db531f4577a4a178c139538e72f8a8091e2b7e158f2cf982174",
@@ -9840,7 +10285,8 @@
    "lang": "zh",
    "slug": "telecom-report-online-mall-app",
    "generated_at": "2026-11-03T02:56:13.777Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "bea985b4"
   },
   "ja/telecom-report-online-mall-app": {
    "hash": "39f370ea3a9999bda7e04fb393f9646a2d5a78c4177a06dc1cacefed6f7750e7",
@@ -9856,7 +10302,8 @@
    "lang": "ja",
    "slug": "telecom-report-online-mall-app",
    "generated_at": "2026-11-03T02:56:14.178Z",
-   "version": "1.4"
+   "version": "1.4",
+   "hires2x": "85f3d875"
   },
   "news/fr-2026-22213": {
    "hash": "f3d8261941e13dbf3c2265dd5c407edadd21be55348029733e8fcbe3840b81cd",

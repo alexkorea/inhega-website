@@ -131,6 +131,25 @@ for (const f of focus.FOCUS_SERVICES) {
   }
 }
 
+// 6) ko 홈 업종 카드 전용 사진(EYE-FIX-INH-1115) — 업종·중점 사진과 pexels 겹침 0, 400·800·1200 16:10, 바이트 겹침 0, 크레딧
+const { HOME_CARD_PHOTOS } = await import(pathToFileURL(join(ROOT, 'lib/service-card-images.ts')).href)
+for (const [slug, p] of Object.entries(HOME_CARD_PHOTOS)) {
+  if (!INDUSTRY_PHOTOS[slug]) fail(`홈 카드 사진의 업종 없음: ${slug}`)
+  if (industryIds.has(p.pexels) || focusIds.has(p.pexels)) fail(`홈 카드 사진이 업종·중점 사진과 같음: ${slug} (pexels ${p.pexels})`)
+  if (!credits.includes(`/${p.pexels}/`)) fail(`크레딧 누락: 홈 카드 ${slug} (pexels ${p.pexels}) — docs/IMAGE-CREDITS.md`)
+  for (const w of [400, 800, 1200]) {
+    const rel = `public/images/home-cards/${p.file}-${w}.webp`
+    const fp = join(ROOT, rel)
+    if (!existsSync(fp)) { fail(`파일 없음: ${rel}`); continue }
+    const b = readFileSync(fp)
+    const d = webpSize(b)
+    if (!d || d.w !== w || d.h !== w * 5 / 8) fail(`규격 불일치: ${rel} ${d?.w}×${d?.h} (기대 ${w}×${w * 5 / 8})`)
+    const h = createHash('sha256').update(b).digest('hex')
+    if (seenHash.has(h)) fail(`같은 파일 바이트: ${seenHash.get(h)} = ${rel}`)
+    seenHash.set(h, rel)
+  }
+}
+
 if (errors.length) {
   console.error(`[photo-gate] FAIL ${errors.length}건`)
   for (const e of errors) console.error('  - ' + e)
