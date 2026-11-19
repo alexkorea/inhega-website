@@ -197,6 +197,13 @@
       "topic": "logistics",
       "angle": "renewal",
       "slug": "international-logistics-registration-standards-report"
+    },
+    {
+      "date": "2026-11-19",
+      "ran_on": "2026-11-19",
+      "topic": "telecom",
+      "angle": "procedure",
+      "slug": "telecom-value-added-report-procedure"
     }
   ]
 }

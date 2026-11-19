@@ -868,3 +868,7 @@
 /en/blog/international-logistics-registration-standards-report
 /ja/blog/international-logistics-registration-standards-report
 /zh/blog/international-logistics-registration-standards-report
+/blog/telecom-value-added-report-procedure
+/en/blog/telecom-value-added-report-procedure
+/ja/blog/telecom-value-added-report-procedure
+/zh/blog/telecom-value-added-report-procedure
