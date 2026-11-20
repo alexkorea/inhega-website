@@ -204,6 +204,13 @@
       "topic": "telecom",
       "angle": "procedure",
       "slug": "telecom-value-added-report-procedure"
+    },
+    {
+      "date": "2026-11-20",
+      "ran_on": "2026-11-20",
+      "topic": "factory",
+      "angle": "requirements",
+      "slug": "factory-registration-zoning-requirements"
     }
   ]
 }

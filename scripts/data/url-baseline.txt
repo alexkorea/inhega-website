@@ -872,3 +872,7 @@
 /en/blog/telecom-value-added-report-procedure
 /ja/blog/telecom-value-added-report-procedure
 /zh/blog/telecom-value-added-report-procedure
+/blog/factory-registration-zoning-requirements
+/en/blog/factory-registration-zoning-requirements
+/ja/blog/factory-registration-zoning-requirements
+/zh/blog/factory-registration-zoning-requirements
