@@ -876,3 +876,7 @@
 /en/blog/factory-registration-zoning-requirements
 /ja/blog/factory-registration-zoning-requirements
 /zh/blog/factory-registration-zoning-requirements
+/blog/health-functional-food-import-procedure
+/en/blog/health-functional-food-import-procedure
+/ja/blog/health-functional-food-import-procedure
+/zh/blog/health-functional-food-import-procedure

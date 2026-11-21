@@ -9472,6 +9472,142 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>住所と業種をお知らせください</h3><p>地番、建物、業種、予定面積をお知らせいただければ、YouSun Administrative Agencyが工場登録の条件に合うかと、先に解決すべき点を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=factory-registration-zoning-requirements">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── health-functional-food-import-procedure (inhega-daily 2026-11-21) ──
+  {
+    slug: 'health-functional-food-import-procedure',
+    locale: 'en',
+    title: 'Importing Health Functional Foods Into Korea — Registration, Declaration and Inspection Steps',
+    metaTitle: 'Importing Health Functional Foods Into Korea: Step by Step',
+    metaDescription: 'Importing health functional foods into Korea for sale: business registration, foreign manufacturer registration, then an import declaration and inspection.',
+    category: 'Food',
+    excerpt: 'To bring health functional foods into Korea for sale, register an imported food import and sales business with the regional MFDS office, register the foreign manufacturing site before declaring, then file an import declaration and pass inspection for every shipment.',
+    content: `<div class="toc"><p>Contents</p><ol><li>Who imports, and how</li><li>Import steps</li><li>Points for foreign companies</li><li>How we help</li><li>FAQ</li></ol></div>
+<p><strong>Importing health functional foods into Korea for sale takes three steps in order. Register an imported food import and sales business with the regional Ministry of Food and Drug Safety (MFDS) office, register the foreign manufacturing site before your first declaration, and file an import declaration for every shipment. Only after passing inspection and receiving the import declaration certificate may you sell.</strong> A health functional food sales report alone does not allow importing.</p>
+<p>For selling in Korea once goods have cleared, see <a href="/en/blog/health-functional-food-home-online-sales">selling health functional foods online from home</a>.</p>
+
+<h2>Who imports, and how</h2>
+<table><thead><tr><th>Import model</th><th>What is needed</th></tr></thead><tbody>
+<tr><td>A Korean company imports and sells</td><td>Import and sales business registration, then a declaration per product</td></tr>
+<tr><td>Buying from overseas sites on behalf of consumers</td><td>Online purchase agency registration and a declaration before customs clearance</td></tr>
+<tr><td>A licensed manufacturer or distribution specialist importing raw materials for its own products</td><td>Treated as registered, but the import declaration is still required</td></tr>
+<tr><td>An individual buying for personal use</td><td>Not an import for sale; reselling requires registration and declaration</td></tr>
+</tbody></table>
+
+<h2>Import steps</h2>
+<ol><li>Complete 4 hours of imported food hygiene training before opening.</li><li>Set up an independent office and a hygienic warehouse; the warehouse may be leased elsewhere, and is optional if you never sell directly to consumers.</li><li>Apply to the regional MFDS office and receive the business registration certificate.</li><li>Register the foreign manufacturer's name, address and products before declaring.</li><li>When goods arrive, file the declaration with the MFDS office covering the customs location and undergo inspection.</li><li>Sell after receiving the import declaration certificate.</li></ol>
+<table><thead><tr><th>Step</th><th>Where</th><th>Key documents and timing</th></tr></thead><tbody>
+<tr><td>Business registration</td><td>Regional MFDS office</td><td>Application, training certificate, facility lease if the warehouse is leased</td></tr>
+<tr><td>Foreign manufacturer registration</td><td>Korea Food Safety Information Service</td><td>Application and proof of licensing in the exporting country; valid for 2 years</td></tr>
+<tr><td>Import declaration</td><td>MFDS office for the customs location</td><td>Declaration form, Korean-language label or label document, product photos; may be filed from 5 days before arrival</td></tr>
+<tr><td>Inspection</td><td>Regional MFDS office</td><td>Document, on-site, laboratory or random sampling inspection; first imports get laboratory testing</td></tr>
+</tbody></table>
+<p>An unregistered manufacturer can lead to a rejected declaration, and products that fail Korean standards and specifications cannot be declared at all, so review ingredients and labels against Korean standards before the first shipment.</p>
+
+<h2>Points for foreign companies</h2>
+<p>The overseas factory operator may itself register the manufacturing site. Business registration, however, requires an office and warehouse meeting the facility standards, so without a Korean base consider importing through an already registered importer. A foreign applicant may be asked for documents issued by home-country authorities or a notarised statement confirmed by a Korean consulate, and may appoint an employee as manager to attend hygiene training. For own-brand products made under contract abroad, arrange an on-site hygiene assessment by a designated assessment body, keep test records for 2 years, and submit a shelf-life rationale with the declaration.</p>
+
+<h2>How we help</h2>
+<p>YouSun Administrative Agency identifies the right business type, prepares the registration and facility documents, files the foreign manufacturer registration and assembles foreign applicant documents. See <a href="/en/services/health-food">our health functional food service page</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Is every repeat shipment tested in a laboratory?</p><p class="faq-a">A. If the product matches a lab-tested one in country, manufacturer, name, method, ingredients and ratios and is re-imported within 5 years, it falls under document inspection.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is foreign manufacturer registration permanent?</p><p class="faq-a">A. It is valid for 2 years; apply for an extension at least 7 days before expiry, and register any changes.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What recurs after registration?</p><p class="faq-a">A. Annual hygiene training of 3 hours, and a change registration within 30 days if the business moves.</p></div>
+</div>
+
+<div class="cta-block"><h3>Get the order right before the first shipment</h3><p>Tell us the products, the foreign manufacturer and how you will sell, and YouSun Administrative Agency will set out the registrations, declarations and documents needed. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-import-procedure">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'health-functional-food-import-procedure',
+    locale: 'zh',
+    title: '向韩国进口健康功能食品的流程 — 从登记、申报到检验',
+    metaTitle: '向韩国进口健康功能食品 — 营业登记、海外工厂登记与进口申报',
+    metaDescription: '向韩国进口健康功能食品（保健食品）用于销售，须依次办理进口·销售业营业登记、海外制造企业登记，以及每批货物的进口申报和检验。本文说明外国企业须准备的材料。',
+    category: '食品',
+    excerpt: '以销售为目的向韩国进口健康功能食品，须先向地方食品医药品安全厅办理进口食品等进口·销售业营业登记，在进口申报前登记海外制造企业，然后每批货物办理进口申报并通过检验，取得进口申报确认证后方可销售。',
+    content: `<div class="toc"><p>目录</p><ol><li>谁以何种方式进口</li><li>进口步骤</li><li>外国企业须注意的事项</li><li>我们可以协助的范围</li><li>常见问题</li></ol></div>
+<p><strong>以销售为目的向韩国进口健康功能食品（건강기능식품，相当于保健食品），须依次完成三项手续：先向地方食品医药品安全厅办理进口食品等进口·销售业营业登记；在进口申报前登记海外制造企业；每批货物入境时办理进口申报，检验合格并取得进口申报确认证后才能销售。</strong>仅办理健康功能食品销售业申报不能进口。</p>
+<p>通关后在韩国销售的说明，见<a href="/zh/blog/health-functional-food-home-online-sales">居家网上销售健康功能食品</a>。</p>
+
+<h2>谁以何种方式进口</h2>
+<table><thead><tr><th>进口方式</th><th>所需手续</th></tr></thead><tbody>
+<tr><td>韩国公司直接进口并销售</td><td>进口·销售业营业登记，之后按品目进口申报</td></tr>
+<tr><td>接受消费者委托在海外网站代购</td><td>进口食品等网络代购业营业登记，通关前办理代购进口申报</td></tr>
+<tr><td>制造业者、流通专门销售业者为自家产品进口原料</td><td>视为已登记，但仍须进口申报</td></tr>
+<tr><td>个人为自用在海外网站购买</td><td>不属于以销售为目的的进口；如要转售，须办理登记和申报</td></tr>
+</tbody></table>
+
+<h2>进口步骤</h2>
+<ol><li>开业前接受4小时进口食品卫生教育。</li><li>具备独立办公室和卫生的保管仓库；仓库可在别处租用，不直接向消费者销售的可不设仓库。</li><li>向地方食品医药品安全厅申请营业登记，领取营业登记证。</li><li>进口申报前登记海外制造企业的名称、所在地和生产品目。</li><li>货物到达后，向管辖通关地点的地方食品医药品安全厅申报并接受检验。</li><li>检验合格、取得进口申报确认证后销售。</li></ol>
+<table><thead><tr><th>步骤</th><th>提交机关</th><th>主要材料与时点</th></tr></thead><tbody>
+<tr><td>营业登记</td><td>地方食品医药品安全厅</td><td>营业登记申请书、教育完成证、租用仓库的设施使用合同</td></tr>
+<tr><td>海外制造企业登记</td><td>食品安全信息院</td><td>登记申请书及在出口国取得许可·登记的证明材料，有效期2年</td></tr>
+<tr><td>进口申报</td><td>管辖通关地点的地方食品医药品安全厅</td><td>进口申报书、有韩文标示的包装或韩文标示材料、产品照片；可自预计到达日前5日起提前申报</td></tr>
+<tr><td>检验</td><td>地方食品医药品安全厅</td><td>按对象实施书面、现场、精密或随机抽样检验；首次进口的产品须精密检验</td></tr>
+</tbody></table>
+<p>未登记海外制造企业的，进口申报可能不被受理；不符合韩国标准·规格的健康功能食品不能申报进口，因此首批发货前应先按韩国标准检查成分和标示。</p>
+
+<h2>外国企业须注意的事项</h2>
+<p>海外制造企业登记除韩国进口商外，海外工厂的运营者也可以直接申请。而营业登记须具备符合设施标准的办公室和仓库，在韩国没有据点的，可考虑通过已登记的进口·销售业者进口。申请人为外国人的，可能被要求提交本国机关签发的材料或经公证的陈述书并经韩国领事馆确认；卫生教育可指定员工中的管理责任人代为参加。以自有品牌委托海外工厂生产的产品，须由海外食品卫生评价机构进行现场卫生评价，检验记录保存2年，并在进口申报时提交保质期设定理由书。</p>
+
+<h2>我们可以协助的范围</h2>
+<p>YouSun Administrative Agency根据进口方式确定营业种类，准备营业登记申请和设施材料，办理海外制造企业登记，并协助整理外国申请人材料。详见<a href="/zh/services/health-food">健康功能食品许可服务</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 同一产品再次进口，每次都要精密检验吗？</p><p class="faq-a">A. 与已接受精密检验的产品在制造国、海外制造企业、产品名、制造方法、原料及配比上完全相同，且在5年内再次进口的，归为书面检验对象。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 海外制造企业登记一次就够了吗？</p><p class="faq-a">A. 有效期为2年，须在到期前7日前申请延长；登记事项变更时须办理变更登记。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 登记后每年还要做什么？</p><p class="faq-a">A. 每年接受3小时卫生教育；营业所迁移的，须在30日内办理变更登记。</p></div>
+</div>
+
+<div class="cta-block"><h3>首批发货前先理顺顺序</h3><p>告诉我们要进口的产品、海外制造商和销售方式，YouSun Administrative Agency为你整理所需的登记、申报和材料。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-import-procedure">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'health-functional-food-import-procedure',
+    locale: 'ja',
+    title: '韓国へ健康機能食品を輸入する手順 — 登録・輸入申告・検査の順番',
+    metaTitle: '韓国への健康機能食品の輸入 — 営業登録・海外製造業所登録・輸入申告',
+    metaDescription: '韓国へ健康機能食品を販売目的で輸入するには、輸入・販売業の営業登録、海外製造業所の登録、輸入ごとの申告と検査が必要です。外国企業が準備する書類も解説します。',
+    category: '食品',
+    excerpt: '韓国で販売するために健康機能食品を輸入するには、地方食品医薬品安全庁で輸入食品等輸入・販売業の営業登録をし、輸入申告の前までに海外製造業所を登録したうえで、輸入のたびに申告と検査を経て輸入申告確認証を受ける必要があります。',
+    content: `<div class="toc"><p>目次</p><ol><li>誰がどの方法で輸入するか</li><li>輸入の手順</li><li>外国企業が押さえる点</li><li>サポートの範囲</li><li>よくある質問</li></ol></div>
+<p><strong>韓国で販売する目的で健康機能食品（건강기능식품）を輸入するには、三つの手続を順に進めます。まず地方食品医薬品安全庁で輸入食品等輸入・販売業の営業登録をし、輸入申告の前までに海外製造業所を登録し、製品が届くたびに輸入申告をして検査に適合し、輸入申告確認証を受けてから販売します。</strong>健康機能食品販売業の申告だけでは輸入できません。</p>
+<p>通関後に韓国で販売する方法は<a href="/ja/blog/health-functional-food-home-online-sales">自宅から健康機能食品をネット販売する場合</a>をご覧ください。</p>
+
+<h2>誰がどの方法で輸入するか</h2>
+<table><thead><tr><th>輸入の形</th><th>必要な手続</th></tr></thead><tbody>
+<tr><td>韓国の会社が直接輸入して販売</td><td>輸入・販売業の営業登録の後、品目ごとに輸入申告</td></tr>
+<tr><td>消費者の注文を受けて海外サイトで購入を代行</td><td>輸入食品等インターネット購入代行業の営業登録、通関前の購入代行輸入申告</td></tr>
+<tr><td>製造業者・流通専門販売業者が自社製品の原料として輸入</td><td>営業登録をしたものとみなされますが、輸入申告は必要です</td></tr>
+<tr><td>個人が自分で食べるために海外サイトで購入</td><td>販売目的の輸入ではありません。転売するなら登録と申告が必要です</td></tr>
+</tbody></table>
+
+<h2>輸入の手順</h2>
+<ol><li>営業前に輸入食品の衛生教育を4時間受けます。</li><li>独立した事務所と衛生的な保管倉庫を用意します。倉庫は別の場所を借りてもよく、消費者に直接販売しなければ設けなくても構いません。</li><li>地方食品医薬品安全庁に営業登録を申請し、営業登録証を受け取ります。</li><li>輸入申告の前までに海外製造業所の名称・所在地・生産品目を登録します。</li><li>製品が到着したら、通関場所を管轄する地方食品医薬品安全庁に輸入申告をして検査を受けます。</li><li>適合となり輸入申告確認証を受けてから販売します。</li></ol>
+<table><thead><tr><th>段階</th><th>提出先</th><th>主な書類・時期</th></tr></thead><tbody>
+<tr><td>営業登録</td><td>地方食品医薬品安全庁</td><td>営業登録申請書、教育修了証、倉庫を借りる場合は施設使用契約書</td></tr>
+<tr><td>海外製造業所登録</td><td>食品安全情報院</td><td>登録申請書と輸出国で許可・登録を受けたことを示す書類、有効期間2年</td></tr>
+<tr><td>輸入申告</td><td>通関場所を管轄する地方食品医薬品安全庁</td><td>輸入申告書、ハングル表示のある包装またはハングル表示の書類、製品写真。到着予定日の5日前から事前申告可</td></tr>
+<tr><td>検査</td><td>地方食品医薬品安全庁</td><td>書類・現場・精密・無作為標本検査のいずれか。初めて輸入する製品は精密検査</td></tr>
+</tbody></table>
+<p>海外製造業所を登録していないと輸入申告が受理されないことがあり、韓国の基準・規格に合わない健康機能食品はそもそも輸入申告ができません。初回の船積み前に、成分と表示を韓国の基準で確認しておくと安全です。</p>
+
+<h2>外国企業が押さえる点</h2>
+<p>海外製造業所の登録は、韓国の輸入者だけでなく海外工場を運営する会社も直接申請できます。一方、営業登録には施設基準を満たす事務所と倉庫が必要なため、韓国に拠点がなければ、すでに営業登録をした輸入・販売業者を通じて輸入する方法を検討します。申請人が外国人の場合、本国の機関が発行した書類や公証を受けた陳述書で韓国の領事館の確認を受けたものを求められることがあり、衛生教育は従業員の中から管理責任者を指定して代わりに受けさせることができます。自社ブランドで海外工場に製造を委託した製品は、海外食品衛生評価機関による現地衛生評価を受けさせ、検査記録を2年間保管し、輸入申告の際に消費期限の設定理由書を提出します。</p>
+
+<h2>サポートの範囲</h2>
+<p>YouSun Administrative Agencyは、輸入の形に合う営業の種類を決め、営業登録申請と施設書類、海外製造業所の登録申請、外国人申請人の書類準備まで対応します。<a href="/ja/services/health-food">健康機能食品の許認可サービス</a>もご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 同じ製品を再び輸入しても毎回精密検査ですか。</p><p class="faq-a">A. 精密検査を受けた製品と製造国・海外製造業所・製品名・製造方法・原料・配合比率がすべて同じで、5年以内に再輸入する場合は書類検査の対象になります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 海外製造業所の登録は一度で終わりですか。</p><p class="faq-a">A. 有効期間は2年なので、輸入を続けるなら満了の7日前までに延長を申請します。登録事項が変わったときは変更登録も必要です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 営業登録の後、毎年することはありますか。</p><p class="faq-a">A. 毎年3時間の衛生教育を受け、営業所を移したときは30日以内に変更登録をします。</p></div>
+</div>
+
+<div class="cta-block"><h3>初回の船積み前に順番を整えましょう</h3><p>輸入する製品、海外の製造業者、販売方法をお知らせいただければ、YouSun Administrative Agencyが必要な登録・申告と準備書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=health-functional-food-import-procedure">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 

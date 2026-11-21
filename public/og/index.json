@@ -11848,6 +11848,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-20T10:03:43.389Z",
    "version": "1.4"
+  },
+  "news/fr-2026-23435": {
+   "hash": "8bd8d8e9ea2e9dc78206bd264abc8de88d4b6f0749d27a62d34a9b06eab87efe",
+   "source": "pexels",
+   "seed": 169745894,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 11200884,
+   "pexels_author": "정규송 Nui MALAMA",
+   "category": "배터리, 콘소머 제품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "fr-2026-23435",
+   "title": "코인 배터리와 콘소머 제품 안전기준 업데이트",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-21T10:03:39.492Z",
+   "version": "1.4"
   }
  }
 }
