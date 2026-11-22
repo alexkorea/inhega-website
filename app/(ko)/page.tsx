@@ -1,4 +1,5 @@
 import { FillImage } from '@/components/ui/FillImage'
+import { HERO_DESKTOP_WIDTHS, heroMobile } from '@/lib/home-hero'
 import Link from 'next/link'
 import styles from './page.module.css'
 import { getDirectoryCount } from '@/lib/service-directory'
@@ -102,7 +103,8 @@ export default function HomePage() {
               같은 주제의 Pexels 11687718(6915px) 에서 768/1280/2000/2880w 를 구웠다(같은 오버레이 합성, q60). */}
           <FillImage
             base="/images/hero-seoul-ko-flat-20261006"
-            widths={[768, 1280, 2000, 2880]}
+            widths={HERO_DESKTOP_WIDTHS}
+            mobile={heroMobile('ko')}
             alt="서울 도심 전경"
             sizes="100vw"
             priority

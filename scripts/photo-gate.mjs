@@ -150,6 +150,31 @@ for (const [slug, p] of Object.entries(HOME_CARD_PHOTOS)) {
   }
 }
 
+// INHEGA-HERO-1122: 홈 히어로 폭 후보(lib/home-hero.ts)마다 파일이 있고 폭이 맞는지 — 없으면 srcset 이 404 를 고른다.
+// 모바일(-m-) 은 q30 대역용이라 3200w ≤450KB.
+{
+  const src = readFileSync(join(ROOT, 'lib/home-hero.ts'), 'utf8')
+  const arr = (name) => (src.match(new RegExp(`${name} = \\[([^\\]]+)\\]`))?.[1] ?? '').split(',').map((x) => +x.trim()).filter(Boolean)
+  const sets = [
+    ['hero-seoul-20261006', arr('HERO_DESKTOP_WIDTHS'), 700_000],
+    ['hero-seoul-ko-flat-20261006', arr('HERO_DESKTOP_WIDTHS'), 700_000],
+    ['hero-seoul-m-20261122', arr('HERO_MOBILE_WIDTHS'), 450_000],
+    ['hero-seoul-ko-flat-m-20261122', arr('HERO_MOBILE_WIDTHS'), 450_000],
+  ]
+  for (const [base, ws, max] of sets) {
+    if (!ws.length) fail(`히어로 폭 목록을 lib/home-hero.ts 에서 못 읽음: ${base}`)
+    for (const w of ws) {
+      const rel = `public/images/${base}-${w}.webp`
+      const fp = join(ROOT, rel)
+      if (!existsSync(fp)) { fail(`히어로 파일 없음: ${rel}`); continue }
+      const b = readFileSync(fp)
+      const d = webpSize(b)
+      if (!d || d.w !== w) fail(`히어로 폭 불일치: ${rel} ${d?.w} (기대 ${w})`)
+      if (b.length > max) fail(`히어로 용량 초과: ${rel} ${b.length} > ${max}`)
+    }
+  }
+}
+
 if (errors.length) {
   console.error(`[photo-gate] FAIL ${errors.length}건`)
   for (const e of errors) console.error('  - ' + e)

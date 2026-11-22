@@ -1,4 +1,5 @@
 import { FillImage } from '@/components/ui/FillImage'
+import { HERO_DESKTOP_WIDTHS, heroMobile } from '@/lib/home-hero'
 import Link from 'next/link'
 import styles from '../page.module.css'
 import ServiceDirectory from '@/components/services/ServiceDirectory'
@@ -49,7 +50,8 @@ export default function JaHomePage() {
         <div className={styles.heroBg}>
           <FillImage
             base="/images/hero-seoul-20261006"
-            widths={[768, 1280, 2000, 2880]}
+            widths={HERO_DESKTOP_WIDTHS}
+            mobile={heroMobile('ja')}
             alt="ソウルの都市景観"
             sizes="100vw"
             priority

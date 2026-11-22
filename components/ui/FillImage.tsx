@@ -21,19 +21,60 @@ type Props = {
   /** LCP 요소면 true. 프리로드 + fetchpriority=high 를 준다. */
   priority?: boolean
   objectPosition?: string
+  /**
+   * 모바일 전용 후보(INHEGA-HERO-1122). 주면 <picture><source media> 로 감싼다.
+   * cover 칸이 세로로 길어 100vw 보다 훨씬 넓게 그려질 때 그 폭을 sizes 로 알리고,
+   * 대역 때문에 낮은 품질의 별도 파일을 쓰기 위함. 프리로드도 media 로 나눈다.
+   */
+  mobile?: { base: string; widths: number[]; media: string; sizes: string }
 }
 
-export function FillImage({ base, small, large, widths, alt, sizes, priority = false, objectPosition }: Props) {
+export function FillImage({ base, small, large, widths, alt, sizes, priority = false, objectPosition, mobile }: Props) {
   // small === large 면 후보가 하나뿐인 자산(예: 고정 크기 QR)이다.
   const ws = widths ?? (small === large ? [small!] : [small!, large!])
   const srcSet = ws.map((w) => `${base}-${w}.webp ${w}w`).join(', ')
   const src = `${base}-${ws[0]}.webp`
+  const mSrcSet = mobile ? mobile.widths.map((w) => `${mobile.base}-${w}.webp ${w}w`).join(', ') : ''
+  // 모바일 media 의 반대(데스크톱) — 프리로드가 두 장 받지 않게 서로 배타적으로 건다.
+  const desktopMedia = mobile ? `not all and ${mobile.media}` : undefined
+
+  const img = (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
+      srcSet={srcSet}
+      sizes={sizes}
+      alt={alt}
+      loading={priority ? 'eager' : 'lazy'}
+      fetchPriority={priority ? 'high' : 'auto'}
+      decoding="async"
+      style={{
+        position: 'absolute',
+        inset: 0,
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+        ...(objectPosition ? { objectPosition } : null),
+      }}
+    />
+  )
 
   return (
     <>
       {/* next/image 의 priority 가 넣어주던 프리로드를 직접 넣는다(React 19 가 head 로
           끌어올린다). imageSrcSet/imageSizes 를 함께 줘야 img 와 같은 후보를 고른다 —
           빠뜨리면 두 장을 받는다. */}
+      {priority && mobile ? (
+        <link
+          rel="preload"
+          as="image"
+          href={`${mobile.base}-${mobile.widths[0]}.webp`}
+          imageSrcSet={mSrcSet}
+          imageSizes={mobile.sizes}
+          media={mobile.media}
+          fetchPriority="high"
+        />
+      ) : null}
       {priority ? (
         <link
           rel="preload"
@@ -41,27 +82,18 @@ export function FillImage({ base, small, large, widths, alt, sizes, priority = f
           href={src}
           imageSrcSet={srcSet}
           imageSizes={sizes}
+          media={desktopMedia}
           fetchPriority="high"
         />
       ) : null}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={src}
-        srcSet={srcSet}
-        sizes={sizes}
-        alt={alt}
-        loading={priority ? 'eager' : 'lazy'}
-        fetchPriority={priority ? 'high' : 'auto'}
-        decoding="async"
-        style={{
-          position: 'absolute',
-          inset: 0,
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          ...(objectPosition ? { objectPosition } : null),
-        }}
-      />
+      {mobile ? (
+        <picture>
+          <source media={mobile.media} srcSet={mSrcSet} sizes={mobile.sizes} type="image/webp" />
+          {img}
+        </picture>
+      ) : (
+        img
+      )}
     </>
   )
 }
