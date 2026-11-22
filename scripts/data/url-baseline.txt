@@ -880,3 +880,7 @@
 /en/blog/health-functional-food-import-procedure
 /ja/blog/health-functional-food-import-procedure
 /zh/blog/health-functional-food-import-procedure
+/blog/location-based-service-report-documents
+/en/blog/location-based-service-report-documents
+/ja/blog/location-based-service-report-documents
+/zh/blog/location-based-service-report-documents

@@ -218,6 +218,13 @@
       "topic": "health-food",
       "angle": "procedure",
       "slug": "health-functional-food-import-procedure"
+    },
+    {
+      "date": "2026-11-22",
+      "ran_on": "2026-11-22",
+      "topic": "lbs",
+      "angle": "documents",
+      "slug": "location-based-service-report-documents"
     }
   ]
 }
