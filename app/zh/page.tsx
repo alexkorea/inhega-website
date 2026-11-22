@@ -1,5 +1,5 @@
 import { FillImage } from '@/components/ui/FillImage'
-import { HERO_DESKTOP_WIDTHS, heroMobile } from '@/lib/home-hero'
+import { HERO_DESKTOP_WIDTHS, heroSources } from '@/lib/home-hero'
 import Link from 'next/link'
 import styles from '../page.module.css'
 import ServiceDirectory from '@/components/services/ServiceDirectory'
@@ -51,7 +51,7 @@ export default function ZhHomePage() {
           <FillImage
             base="/images/hero-seoul-20261006"
             widths={HERO_DESKTOP_WIDTHS}
-            mobile={heroMobile('zh')}
+            sources={heroSources('zh')}
             alt="首尔城市风景"
             sizes="100vw"
             priority

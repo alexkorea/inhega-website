@@ -160,6 +160,8 @@ for (const [slug, p] of Object.entries(HOME_CARD_PHOTOS)) {
     ['hero-seoul-ko-flat-20261006', arr('HERO_DESKTOP_WIDTHS'), 700_000],
     ['hero-seoul-m-20261122', arr('HERO_MOBILE_WIDTHS'), 450_000],
     ['hero-seoul-ko-flat-m-20261122', arr('HERO_MOBILE_WIDTHS'), 450_000],
+    ['hero-seoul-mc-20261122', arr('HERO_CROP_WIDTHS'), 300_000],
+    ['hero-seoul-ko-flat-mc-20261122', arr('HERO_CROP_WIDTHS'), 300_000],
   ]
   for (const [base, ws, max] of sets) {
     if (!ws.length) fail(`히어로 폭 목록을 lib/home-hero.ts 에서 못 읽음: ${base}`)

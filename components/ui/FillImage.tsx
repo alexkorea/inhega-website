@@ -22,19 +22,20 @@ type Props = {
   priority?: boolean
   objectPosition?: string
   /**
-   * 모바일 전용 후보(INHEGA-HERO-1122). 주면 <picture><source media> 로 감싼다.
+   * 모바일 전용 후보들(INHEGA-HERO-1122, 앞에서부터 media 가 맞는 첫 것을 쓴다). 주면 <picture><source media> 로 감싼다.
    * cover 칸이 세로로 길어 100vw 보다 훨씬 넓게 그려질 때 그 폭을 sizes 로 알리고,
    * 대역 때문에 낮은 품질의 별도 파일을 쓰기 위함. 이때 프리로드는 걸지 않는다(아래 주석).
    */
-  mobile?: { base: string; widths: number[]; media: string; sizes: string }
+  sources?: { base: string; widths: number[]; media: string; sizes: string }[]
 }
 
-export function FillImage({ base, small, large, widths, alt, sizes, priority = false, objectPosition, mobile }: Props) {
+export function FillImage({ base, small, large, widths, alt, sizes, priority = false, objectPosition, sources }: Props) {
   // small === large 면 후보가 하나뿐인 자산(예: 고정 크기 QR)이다.
   const ws = widths ?? (small === large ? [small!] : [small!, large!])
   const srcSet = ws.map((w) => `${base}-${w}.webp ${w}w`).join(', ')
   const src = `${base}-${ws[0]}.webp`
-  const mSrcSet = mobile ? mobile.widths.map((w) => `${mobile.base}-${w}.webp ${w}w`).join(', ') : ''
+  const mobile = sources && sources.length ? sources : null
+  const setOf = (b: string, list: number[]) => list.map((w) => `${b}-${w}.webp ${w}w`).join(', ')
 
   const img = (
     // eslint-disable-next-line @next/next/no-img-element
@@ -77,7 +78,9 @@ export function FillImage({ base, small, large, widths, alt, sizes, priority = f
       ) : null}
       {mobile ? (
         <picture>
-          <source media={mobile.media} srcSet={mSrcSet} sizes={mobile.sizes} type="image/webp" />
+          {mobile.map((m) => (
+            <source key={m.media} media={m.media} srcSet={setOf(m.base, m.widths)} sizes={m.sizes} type="image/webp" />
+          ))}
           {img}
         </picture>
       ) : (

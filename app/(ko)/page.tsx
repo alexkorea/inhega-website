@@ -1,5 +1,5 @@
 import { FillImage } from '@/components/ui/FillImage'
-import { HERO_DESKTOP_WIDTHS, heroMobile } from '@/lib/home-hero'
+import { HERO_DESKTOP_WIDTHS, heroSources } from '@/lib/home-hero'
 import Link from 'next/link'
 import styles from './page.module.css'
 import { getDirectoryCount } from '@/lib/service-directory'
@@ -104,7 +104,7 @@ export default function HomePage() {
           <FillImage
             base="/images/hero-seoul-ko-flat-20261006"
             widths={HERO_DESKTOP_WIDTHS}
-            mobile={heroMobile('ko')}
+            sources={heroSources('ko')}
             alt="서울 도심 전경"
             sizes="100vw"
             priority
