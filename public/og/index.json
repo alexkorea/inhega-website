@@ -11866,6 +11866,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-21T10:03:39.492Z",
    "version": "1.4"
+  },
+  "news/fr-2026-23366": {
+   "hash": "e16e499f4c0670112e7d9137ced73140e924fe407aafea8b65c92a91402f95a8",
+   "source": "pexels",
+   "seed": 1642909771,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 41143872,
+   "pexels_author": "Asia Culture Center",
+   "category": "비타민 주사제",
+   "visa": null,
+   "lang": "ko",
+   "slug": "fr-2026-23366",
+   "title": "M.V.I. ADULT(주요 비타민 주사제) 판매 중단 결정 취소",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-22T02:22:27.480Z",
+   "version": "1.4"
   }
  }
 }
