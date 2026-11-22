@@ -7,7 +7,9 @@ import styles from './FocusServices.module.css'
 // 사진: 중점 업무 전용 사진(lib/focus-services.ts FOCUS_PHOTOS) 400·800w — 아래 업종 목록의 업종 사진과 겹치지 않게(QA01-FIX-1114 ko,
 // QAFIX-1117 IMG-DUP 에서 en·zh·ja 홈도 같은 표로 전환 — 그전엔 6장이 한 홈에 두 번씩 나왔다). alt 는 언어별 설명.
 // 첫 화면 밖이라 lazy(히어로 LCP 와 대역 경쟁 금지).
-const SIZES = '(max-width: 560px) 34vw, (max-width: 1024px) calc(50vw - 2rem), 360px'
+// IMGQA-1122: ≤560px 는 사진이 카드 높이만큼 세로로 늘어난 34% 칸(cover)이라 폭만으로 고르면 DPR3 에서 흐리다
+// (EN 은 설명이 길어 칸이 118×193 까지 커진다). 그려지는 폭 ≈ 칸 높이×1.6 ≈ 80vw 로 알려 1200w 를 고르게 한다.
+const SIZES = '(max-width: 560px) 80vw, (max-width: 1024px) calc(50vw - 2rem), 360px'
 
 const KO_TEXT = {
   badge: '중점 업무',
@@ -43,7 +45,7 @@ export default function FocusServices({ locale = 'ko' }: { locale?: 'ko' | Focus
                   <div className={styles.photo}>
                     <img
                       src={`${base}-800.webp`}
-                      srcSet={`${base}-400.webp 400w, ${base}-800.webp 800w`}
+                      srcSet={`${base}-400.webp 400w, ${base}-800.webp 800w, ${base}-1200.webp 1200w`}
                       sizes={SIZES}
                       alt={ph ? `${ph[locale]} — ${f.label}` : industryPhotoAlt(f.slug, locale as FocusLocale, f.label)}
                       width={800}

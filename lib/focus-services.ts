@@ -31,7 +31,7 @@ export const FOCUS_SLUGS = new Set(FOCUS_SERVICES.map((f) => f.slug))
 
 /* 홈 '중점 업무' 6카드 전용 사진(QA01-FIX-1114 3, 2026-11-14) — 예전엔 업종 사진 정본(lib/service-card-images.ts)을
  * 그대로 써서 같은 홈 아래 업종 목록(ServiceDirectory)과 같은 사진이 두 번 나왔다(IMG-DUP). 업종 사진과 다른 Pexels 사진 6장.
- * 파일: public/images/focus/<file>-{400,800}.webp(16:10, 원본 폭 3000px 이상 가운데 크롭, 업스케일 0) · 출처 docs/IMAGE-CREDITS.md
+ * 파일: public/images/focus/<file>-{400,800,1200}.webp(16:10, 원본 폭 3000px 이상 가운데 크롭, 업스케일 0) · 출처 docs/IMAGE-CREDITS.md
  * scripts/photo-gate.mjs 가 파일·pexels 중복(업종 사진 포함)·크레딧을 검사한다. */
 export type FocusPhoto = { file: string; pexels: number; ko: string; en: string; zh: string; ja: string }
 export const FOCUS_PHOTOS: Record<string, FocusPhoto> = {

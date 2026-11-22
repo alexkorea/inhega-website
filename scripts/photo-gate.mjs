@@ -118,7 +118,7 @@ for (const f of focus.FOCUS_SERVICES) {
   if (focusIds.has(p.pexels)) fail(`중점 업무 사진 중복: ${f.slug} (pexels ${p.pexels})`)
   focusIds.add(p.pexels)
   if (!credits.includes(`/${p.pexels}/`)) fail(`크레딧 누락: 중점 ${f.slug} (pexels ${p.pexels}) — docs/IMAGE-CREDITS.md`)
-  for (const w of [400, 800]) {
+  for (const w of [400, 800, 1200]) { // 1200: IMGQA-1122 모바일 cover 칸 DPR3
     const rel = `public/images/focus/${p.file}-${w}.webp`
     const fp = join(ROOT, rel)
     if (!existsSync(fp)) { fail(`파일 없음: ${rel}`); continue }
