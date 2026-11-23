@@ -884,3 +884,7 @@
 /en/blog/location-based-service-report-documents
 /ja/blog/location-based-service-report-documents
 /zh/blog/location-based-service-report-documents
+/blog/nonprofit-association-required-documents
+/en/blog/nonprofit-association-required-documents
+/ja/blog/nonprofit-association-required-documents
+/zh/blog/nonprofit-association-required-documents

@@ -9729,6 +9729,142 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>位置基盤サービス申告の書類を漏れなく準備</h3><p>サービス構造、サーバーの所在地、本社情報をお知らせいただければ、YouSun Administrative Agencyが書類リストを作り、作成と提出をサポートします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=location-based-service-report-documents">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── nonprofit-association-required-documents (inhega-daily 2026-11-23) ──
+  {
+    slug: 'nonprofit-association-required-documents',
+    locale: 'en',
+    title: 'Documents to Establish an Incorporated Association in Korea — The 6 Attachments and Registration Papers',
+    metaTitle: 'Korean Incorporated Association: Required Documents',
+    metaDescription: 'A Korean incorporated association permit needs 6 attachments: founder details, articles, property list, plan and budget, officer papers and inaugural minutes.',
+    category: 'Corporate Formation',
+    excerpt: 'A nonprofit incorporated association in Korea applies for an establishment permit with 6 attachments set by the competent ministry\'s rule. Forms differ by ministry, but the structure is the same, and after the permit come proof of property transfer and incorporation registration.',
+    content: `<div class="toc"><p>Contents</p><ol><li>The 6 attachments</li><li>After the permit: property transfer and registration</li><li>How we help</li><li>FAQ</li></ol></div>
+<p><strong>To establish a nonprofit incorporated association in Korea, you file the establishment permit application set by the competent ministry's rule with 6 attachments: founder details, the articles of association, a property list with supporting proof, the business plan and budget, papers for incoming officers with their letters of acceptance, and the minutes of the inaugural general meeting.</strong> Each ministry has its own rule, so form numbers and extra requests vary, but the 6-item structure is almost identical.</p>
+<p>For the overall procedure, see <a href="/en/blog/nonprofit-corporation-establishment-guide">our nonprofit association establishment guide</a>, and for an existing group becoming a legal entity, see <a href="/en/blog/nonprofit-informal-group-to-association">informal group to incorporated association</a>.</p>
+
+<h2>The 6 attachments</h2>
+<table><thead><tr><th>Document</th><th>Content</th><th>What to check</th></tr></thead><tbody>
+<tr><td>Founder details</td><td>Name, date of birth, address and background of each founder</td><td>A corporate founder submits its name, main office, representative and its own articles.</td></tr>
+<tr><td>Articles of association</td><td>Purpose, name, office location, assets, appointment of directors, membership, duration or dissolution grounds</td><td>Missing mandatory items lead to a correction request.</td></tr>
+<tr><td>Property list and proof</td><td>Assets to be transferred to the association</td><td>The ministry checks land and building records electronically; pledged contributions need proof.</td></tr>
+<tr><td>Business plan and budget</td><td>Activities and income and expenditure for the current business year</td><td>Must match the purposes in the articles.</td></tr>
+<tr><td>Officer papers</td><td>Details of incoming officers and letters of acceptance</td><td>Names and posts must match the officers elected at the inaugural meeting.</td></tr>
+<tr><td>Inaugural meeting minutes</td><td>Approval of the articles and election of officers</td><td>A corporate founder submits proof of its own decision instead.</td></tr>
+</tbody></table>
+<p>The ministry grants the permit if the purpose is feasible, the association has the ability and financial basis to carry it out, and its name is not the same as another entity's. Most ministry rules require a decision within 20 days unless there is a special reason, and the ministry may set a deadline for extra materials or explanations, such as proof of office use.</p>
+<ol><li>List the founders and their backgrounds.</li><li>Draft the articles and fix the purpose activities.</li><li>Prepare the property list, proof, plan and budget together.</li><li>Approve the articles and elect officers at the inaugural meeting, and keep minutes.</li><li>Collect letters of acceptance and file everything with the ministry.</li></ol>
+
+<h2>After the permit: property transfer and registration</h2>
+<table><thead><tr><th>Step</th><th>Documents</th><th>Deadline</th></tr></thead><tbody>
+<tr><td>Property transfer</td><td>Certificate from the registry or a financial institution showing transfer to the association</td><td>Submit to the ministry within 1 month</td></tr>
+<tr><td>Incorporation registration</td><td>Application with the articles, proof of directors' status, the permit or a certified copy, and the property list</td><td>Within 3 weeks of the permit, at the registry for the main office</td></tr>
+<tr><td>Report</td><td>Report that registration is complete</td><td>Within 10 days of registration</td></tr>
+</tbody></table>
+<p>The association comes into existence only on registration, so the registration date is the real start date. The register shows the purpose, name, office, permit date, total assets and directors, so keep the officer papers and property list consistent from the start.</p>
+
+<h2>How we help</h2>
+<p>YouSun Administrative Agency helps identify the competent ministry, prepares the application and the 6 attachments in that ministry's format, organises the inaugural minutes and handles correction requests, then tracks the transfer proof and registration report. See <a href="/en/services/nonprofit">our nonprofit association service</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do documents differ by ministry?</p><p class="faq-a">A. The 6 items are nearly the same, but forms and details differ. For example, one rule requires a photo on officers' résumés. Check the specific rule before filing.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can foreign nationals be founders or officers?</p><p class="faq-a">A. The common rules set no nationality limit, and the Ministry of Justice rule asks foreign founders to state an alien registration number instead of a date of birth.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Is an office lease required?</p><p class="faq-a">A. It is not one of the 6 items, but the ministry may ask for proof of office use, so preparing it early saves time.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if the permit has conditions?</p><p class="faq-a">A. The ministry may attach conditions, which continue to apply after the permit. Keep the permit with your registration papers.</p></div>
+</div>
+
+<div class="cta-block"><h3>Get the documents right first</h3><p>Tell us your purpose, likely ministry and founding members, and YouSun Administrative Agency will set out the document list and timeline for that ministry's rule. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-association-required-documents">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'nonprofit-association-required-documents',
+    locale: 'zh',
+    title: '韩国社团法人设立需要哪些材料 — 许可申请6项附件与设立登记材料',
+    metaTitle: '韩国社团法人设立材料 — 许可申请附件6项与登记材料',
+    metaDescription: '在韩国申请社团法人设立许可，须附发起人材料、章程、财产目录、事业计划与预算、高管材料和创立大会会议记录6项。本文说明各项要点及许可后的财产转移和设立登记材料。',
+    category: '法人设立',
+    excerpt: '韩国非营利社团法人按主管机关规则的设立许可申请书附6项材料提出申请。各部门规则不同，格式有差异，但框架相同；取得许可后还需提交财产转移证明并办理设立登记。',
+    content: `<div class="toc"><p>目录</p><ol><li>申请书须附的6项材料</li><li>许可后的财产转移与设立登记</li><li>我们可以协助的范围</li><li>常见问题</li></ol></div>
+<p><strong>在韩国设立非营利社团法人，须按主管机关规则规定的设立许可申请书，附上设立发起人材料、章程、财产目录及证明材料、事业计划及收支预算、拟任高管材料及就任承诺书、创立大会会议记录共6项提出申请。</strong>非营利法人设立和监督规则由各部门分别制定，格式编号和细节要求不同，但6项框架几乎相同。</p>
+<p>整体流程见<a href="/zh/blog/nonprofit-corporation-establishment-guide">非营利社团法人设立指南</a>，已在活动的团体转为法人见<a href="/zh/blog/nonprofit-informal-group-to-association">任意团体转为社团法人</a>。</p>
+
+<h2>申请书须附的6项材料</h2>
+<table><thead><tr><th>材料</th><th>内容</th><th>注意事项</th></tr></thead><tbody>
+<tr><td>发起人材料</td><td>发起人的姓名、出生日期、住址、履历</td><td>发起人为法人的，提交名称、主事务所、代表人信息及该法人章程。</td></tr>
+<tr><td>章程</td><td>目的、名称、事务所所在地、资产、理事任免、社员资格得失、存续期间或解散事由</td><td>缺少必要记载事项会被要求补正。</td></tr>
+<tr><td>财产目录及证明</td><td>拟转入法人的财产明细</td><td>土地和建筑由主管机关通过行政信息确认登记事项；有出资约定的附证明。</td></tr>
+<tr><td>事业计划与收支预算</td><td>当年度的事业和预算</td><td>须与章程的目的事业一致。</td></tr>
+<tr><td>高管材料</td><td>拟任高管的个人信息与就任承诺书</td><td>须与创立大会选任的人员和职务一致。</td></tr>
+<tr><td>创立大会会议记录</td><td>批准章程和选任高管的决议</td><td>发起人为法人的，以其意思决定证明材料代替。</td></tr>
+</tbody></table>
+<p>主管机关审查目的和事业是否可行、是否具备执行能力和财务基础、名称是否与其他法人相同。大多数部门规则规定无特殊理由时在20日内审查，必要时可限期要求补充材料或说明，例如事务所使用依据。</p>
+<ol><li>整理发起人名单和履历。</li><li>起草章程并确定目的事业。</li><li>同步编制财产目录、证明材料、事业计划和预算。</li><li>在创立大会上批准章程、选任高管并留存会议记录。</li><li>取得就任承诺书后与申请书一并向主管机关提交。</li></ol>
+
+<h2>许可后的财产转移与设立登记</h2>
+<table><thead><tr><th>阶段</th><th>材料</th><th>期限</th></tr></thead><tbody>
+<tr><td>财产转移</td><td>登记所或金融机构出具的转移证明</td><td>1个月内向主管机关提交</td></tr>
+<tr><td>设立登记</td><td>登记申请书附章程、理事资格证明、许可书或其认证副本、财产目录</td><td>自许可之日起3周内，向主事务所所在地登记所申请</td></tr>
+<tr><td>登记报告</td><td>完成设立登记的报告</td><td>登记后10日内</td></tr>
+</tbody></table>
+<p>法人自设立登记时成立，因此登记日才是实际成立日。登记簿记载目的、名称、事务所、许可日期、资产总额和理事等，所以从申请阶段起就应让高管材料和财产目录与登记材料保持一致。</p>
+
+<h2>我们可以协助的范围</h2>
+<p>YouSun Administrative Agency从确定主管机关开始，按该部门规则格式制作申请书和6项附件，整理创立大会会议记录，应对补正要求，并跟进财产转移证明和登记报告。详见<a href="/zh/services/nonprofit">非营利社团法人设立服务</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 不同主管机关的材料不一样吗？</p><p class="faq-a">A. 6项框架基本相同，但格式和细节不同，例如有的规则要求高管履历贴照片。申请前应确认相应规则。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国人可以担任发起人或高管吗？</p><p class="faq-a">A. 通用规则没有国籍限制；法务部所管规则规定外国人发起人填写外国人登录号码代替出生日期。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 需要提交事务所租赁合同吗？</p><p class="faq-a">A. 不在6项之内，但主管机关审查需要时可要求提供事务所使用依据，提前准备可缩短补正时间。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 许可附有条件怎么办？</p><p class="faq-a">A. 主管机关可在许可时附加条件，许可后仍须遵守，请将许可证与登记材料一并保管。</p></div>
+</div>
+
+<div class="cta-block"><h3>先把材料备齐备准</h3><p>告诉我们设立目的、拟定主管机关和发起人构成，YouSun Administrative Agency为你整理该部门规则下的材料清单和日程。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-association-required-documents">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'nonprofit-association-required-documents',
+    locale: 'ja',
+    title: '韓国の社団法人設立に必要な書類 — 許可申請の添付6種と設立登記の書類',
+    metaTitle: '韓国の社団法人設立書類 — 許可申請の添付6種と登記書類',
+    metaDescription: '韓国で社団法人の設立許可を申請するには、発起人書類、定款、財産目録、事業計画・予算、役員書類、創立総会議事録の6種が必要です。書類ごとの要点と許可後の財産移転・設立登記を解説します。',
+    category: '法人設立',
+    excerpt: '韓国の非営利社団法人は、主務官庁の規則で定める設立許可申請書に6種の書類を添えて申請します。規則は省庁ごとに別にあり様式は異なりますが、枠組みは同じで、許可後は財産移転の証明と設立登記が続きます。',
+    content: `<div class="toc"><p>目次</p><ol><li>申請書に添える6種の書類</li><li>許可後の財産移転と設立登記</li><li>サポートの範囲</li><li>よくある質問</li></ol></div>
+<p><strong>韓国で非営利社団法人を設立するには、主務官庁の規則で定める設立許可申請書に、設立発起人の書類、定款、財産目録とその証明書類、事業計画と収支予算、役員就任予定者の書類と就任承諾書、創立総会議事録の6種を添えて申請します。</strong>非営利法人の設立・監督規則は省庁ごとに別に定められ、様式番号や細かな要求は異なりますが、6種の枠組みはほぼ共通です。</p>
+<p>設立全体の流れは<a href="/ja/blog/nonprofit-corporation-establishment-guide">非営利社団法人設立ガイド</a>、活動中の任意団体を法人にする場合は<a href="/ja/blog/nonprofit-informal-group-to-association">任意団体から社団法人へ</a>をご覧ください。</p>
+
+<h2>申請書に添える6種の書類</h2>
+<table><thead><tr><th>書類</th><th>内容</th><th>準備のポイント</th></tr></thead><tbody>
+<tr><td>発起人の書類</td><td>発起人の氏名・生年月日・住所・略歴</td><td>発起人が法人なら、名称、主たる事務所、代表者の情報とその法人の定款を出します。</td></tr>
+<tr><td>定款</td><td>目的、名称、事務所の所在地、資産、理事の任免、社員資格の得喪、存立時期・解散事由</td><td>必要的記載事項が一つでも欠けると補正を求められます。</td></tr>
+<tr><td>財産目録と証明書類</td><td>法人に移す財産の内訳</td><td>土地・建物は主務官庁が行政情報で登記事項を確認し、出捐の約束があればその証明を添えます。</td></tr>
+<tr><td>事業計画・収支予算</td><td>当該事業年度の事業と予算</td><td>定款の目的事業と一致させます。</td></tr>
+<tr><td>役員の書類</td><td>役員就任予定者の氏名・生年月日・住所・略歴と就任承諾書</td><td>創立総会で選任した人物・役職と一致させます。</td></tr>
+<tr><td>創立総会議事録</td><td>定款承認と役員選任の決議</td><td>発起人が法人なら設立の意思決定を証明する書類で代えます。</td></tr>
+</tbody></table>
+<p>主務官庁は、目的と事業が実現可能か、事業を行う能力と財政的基礎があるか、他の法人と同じ名称でないかを見て許可します。多くの省庁の規則は特別な事情がなければ20日以内に審査するとし、必要なら期限を定めて資料の提出や説明を求めることができます。事務所の使用根拠を求められるのはこの場合です。</p>
+<ol><li>発起人の名簿と略歴を整理します。</li><li>定款案を作り目的事業を確定します。</li><li>財産目録・証明書類・事業計画・予算をそろえて作成します。</li><li>創立総会で定款を承認し役員を選任して議事録を残します。</li><li>就任承諾書を受け取り、申請書とともに主務官庁へ提出します。</li></ol>
+
+<h2>許可後の財産移転と設立登記</h2>
+<table><thead><tr><th>段階</th><th>書類</th><th>期限</th></tr></thead><tbody>
+<tr><td>財産移転</td><td>登記所や金融機関などが発行する移転の証明書</td><td>1か月以内に主務官庁へ提出</td></tr>
+<tr><td>設立登記</td><td>登記申請書に定款、理事の資格を証明する書面、許可書またはその認証謄本、財産目録を添付</td><td>許可から3週間以内、主たる事務所の管轄登記所</td></tr>
+<tr><td>登記の報告</td><td>設立登記を終えた旨の報告</td><td>登記から10日以内</td></tr>
+</tbody></table>
+<p>法人は設立登記によって成立するため、登記日が実際のスタート日になります。登記簿には目的、名称、事務所、許可年月日、資産の総額、理事などが載るので、申請時の役員書類と財産目録を登記書類と同じ基準で作っておくと安心です。</p>
+
+<h2>サポートの範囲</h2>
+<p>YouSun Administrative Agencyは、主務官庁の特定から、その省庁の規則の様式に合わせた申請書と6種の添付書類の作成、創立総会議事録の整理、補正対応までを行い、許可後の財産移転証明と登記報告の日程も管理します。詳しくは<a href="/ja/services/nonprofit">非営利社団法人設立サービス</a>をご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 主務官庁によって書類は違いますか。</p><p class="faq-a">A. 6種の枠組みはほぼ同じですが、様式や細部が異なります。たとえば役員の履歴書に写真を求める規則もあります。申請前に該当する規則を確認してください。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国人も発起人や役員になれますか。</p><p class="faq-a">A. 共通の規則に国籍の制限はなく、法務部所管の規則は外国人の発起人について生年月日の代わりに外国人登録番号を記載するよう定めています。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 事務所の賃貸借契約書も必要ですか。</p><p class="faq-a">A. 6種には含まれませんが、審査に必要として事務所の使用根拠を求められることがあるため、早めに準備すると補正期間を短くできます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 許可に条件が付いたら？</p><p class="faq-a">A. 主務官庁は許可に条件を付けることができ、条件は許可後も守る必要があります。許可証は登記書類と一緒に保管してください。</p></div>
+</div>
+
+<div class="cta-block"><h3>まず書類を正確にそろえましょう</h3><p>設立の目的、予定する主務官庁、発起人・役員の構成をお知らせいただければ、YouSun Administrative Agencyがその省庁の規則に合わせた書類リストと日程を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-association-required-documents">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 

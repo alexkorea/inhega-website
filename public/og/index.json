@@ -11884,6 +11884,42 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-22T02:22:27.480Z",
    "version": "1.4"
+  },
+  "news/egov-4c094ce2": {
+   "hash": "3f7a7c300c2f2710c0335f8451a62ee684fcbbaf3e41f6afbe4495bff31cef1e",
+   "source": "pexels",
+   "seed": 3120899385,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 41206362,
+   "pexels_author": "MH Jeong",
+   "category": "자동차부품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "egov-4c094ce2",
+   "title": "도로운송 차량 안전기준 개정안 의견 수렴",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-23T10:03:45.815Z",
+   "version": "1.4"
+  },
+  "news/eping-121441": {
+   "hash": "e87f5e494f9b2dda5871e366662f148762c0e6c7d44d452db77ff7afe854ec73",
+   "source": "pexels",
+   "seed": 1033081733,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 41206364,
+   "pexels_author": "MH Jeong",
+   "category": "해양 자율 무선 장치(AMRD)용 무선 장비 (Radio equipment of autonomous maritime radio devices(AMRD))",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121441",
+   "title": "해양 자율 무선 장치용 무선 장비 기술 요구사항 개정",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-23T10:03:46.267Z",
+   "version": "1.4"
   }
  }
 }

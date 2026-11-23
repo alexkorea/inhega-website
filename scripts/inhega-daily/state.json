@@ -225,6 +225,13 @@
       "topic": "lbs",
       "angle": "documents",
       "slug": "location-based-service-report-documents"
+    },
+    {
+      "date": "2026-11-23",
+      "ran_on": "2026-11-23",
+      "topic": "nonprofit",
+      "angle": "documents",
+      "slug": "nonprofit-association-required-documents"
     }
   ]
 }
