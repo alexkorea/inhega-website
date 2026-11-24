@@ -9865,6 +9865,151 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>まず書類を正確にそろえましょう</h3><p>設立の目的、予定する主務官庁、発起人・役員の構成をお知らせいただければ、YouSun Administrative Agencyがその省庁の規則に合わせた書類リストと日程を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=nonprofit-association-required-documents">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── cosmetics-child-product-safety-file (inhega-daily 2026-11-24) ──
+  {
+    slug: 'cosmetics-child-product-safety-file',
+    locale: 'en',
+    title: 'Safety Files for Baby and Children\'s Cosmetics in Korea — Documents and Retention',
+    metaTitle: 'Baby and Children\'s Cosmetics Safety Files in Korea',
+    metaDescription: 'Before claiming a cosmetic is for infants or children in Korea, a product safety file must be prepared and kept. Ages, claims covered, contents and retention.',
+    category: 'Cosmetics',
+    excerpt: 'A responsible distributor in Korea that labels or advertises a cosmetic as usable by infants (3 or under) or children (4 to 13) must first prepare a product safety file with three parts and keep it for a set period.',
+    content: `<div class="toc"><p>Contents</p><ol><li>When the duty applies</li><li>What the safety file contains</li><li>Retention and handling</li><li>FAQ</li></ol></div>
+<p><strong>A responsible distributor in Korea that wants to label or advertise a cosmetic as usable by infants (aged 3 or under) or children (aged 4 to 13) must first prepare a product safety file, made up of a product and manufacturing description, safety assessment data and proof of claims, and keep it for a set period.</strong> It is not filed with the MFDS in advance but kept on hand; failing to prepare or keep it can lead to cancellation of registration and criminal penalties. The MFDS surveys how files are kept every 5 years.</p>
+<p>See <a href="/en/blog/cosmetics-distributor-compliance-obligations">ongoing duties of a responsible distributor</a> and <a href="/en/blog/cosmetics-import-sales-registration-guide">our guide to registering for cosmetics import and sale</a>.</p>
+
+<h2>When the duty applies</h2>
+<table><thead><tr><th>Item</th><th>Covered when</th></tr></thead><tbody>
+<tr><td>Labelling</td><td>The inner or outer packaging specifically states use by infants or children, including where the product name refers to them.</td></tr>
+<tr><td>Advertising</td><td>Newspapers, broadcasting, magazines, leaflets, samples, the internet, posters, signs, videos, books, door-to-door sales or demonstrations specifically target infant or child use; for children's products, door-to-door sales and demonstrations are excluded.</td></tr>
+<tr><td>Ages</td><td>Infants are 3 or under; children are 4 to 13.</td></tr>
+</tbody></table>
+<p>Such claims also require the content of designated preservatives on the packaging. Some preservatives, such as salicylic acid and its salts and iodopropynyl butylcarbamate, cannot be used in infant products or products claimed for children aged 13 or under (with some exceptions such as shampoo), and infant products face stricter microbial limits.</p>
+<ol>
+<li>Find every infant or child reference on packaging, product names, product pages and ads.</li>
+<li>Check the preservatives in the formula against the restrictions.</li>
+<li>Prepare all three parts of the file before the claim is made.</li>
+<li>Add preservative content to the label.</li>
+<li>Calculate the retention end date and record it.</li>
+</ol>
+
+<h2>What the safety file contains</h2>
+<table><thead><tr><th>Part</th><th>Contents</th></tr></thead><tbody>
+<tr><td>Product and manufacturing description</td><td>Name, claims, precautions, ingredients and amounts, storage, shelf life and the manufacturing method. A product standard, manufacturing control standard or, for imports, the import control record may be used instead if it covers these.</td></tr>
+<tr><td>Safety assessment</td><td>Review of each ingredient's properties, toxicity and specifications; review against the finished product safety standards; adverse event collection and follow-up; and the overall assessment result.</td></tr>
+<tr><td>Proof of claims</td><td>For functional cosmetics, the review result or report; and substantiation for factual claims in labels and ads.</td></tr>
+</tbody></table>
+<p>The file is prepared, revised and approved under the document control procedures of the quality control standards. A new cosmetic safety assessment system is being phased in from 2028 to 2031 depending on business size and product, and the safety assessment part for infant and children's products links to it from 2029, so detailed rules may change.</p>
+
+<h2>Retention and handling</h2>
+<p>If the inner packaging shows an expiry date, keep the file from the first claim until 1 year after the expiry of the last batch made or imported; if it shows a period after opening, until 3 years after the manufacturing date of the last batch. Manufacture counts from the batch's manufacturing date and imports from the customs clearance date.</p>
+<p>Keep it in print or electronic form with copies or backups, and after the period it may be destroyed under the responsibility of the responsible manager. Because the period runs from the last batch, retention continues after sales end. YouSun Administrative Agency reviews label and ad wording and sets up the file index and retention log alongside <a href="/en/services/cosmetics">responsible distributor work</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Do we submit the file to the MFDS?</p><p class="faq-a">A. No advance submission is required, but it must be ready to show during surveys or inspections.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Does "kids" in the product name count?</p><p class="faq-a">A. A product name referring to infants or children counts as labelling. Wording without a specific age needs case-by-case review before you finalise it.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if the overseas manufacturer will not share ingredient data?</p><p class="faq-a">A. The Korean responsible distributor carries the duty, so build ingredient, manufacturing and adverse event data sharing into the supply contract.</p></div>
+</div>
+
+<div class="cta-block"><h3>Check before using baby or kids wording</h3><p>Send the packaging text, ad drafts and formula, and YouSun Administrative Agency will confirm whether the duty applies, list the file contents and calculate retention. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-child-product-safety-file">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'cosmetics-child-product-safety-file',
+    locale: 'zh',
+    title: '韩国婴幼儿化妆品安全性资料 — 标示儿童使用前须准备的文件与保管期限',
+    metaTitle: '韩国婴幼儿·儿童化妆品安全性资料 — 对象·构成·保管期限',
+    metaDescription: '在韩国标示或广告化妆品可供婴幼儿·儿童使用前，须事先制作并保管三类产品安全性资料。本文说明对象年龄、标示·广告范围、资料构成以及保管期限的计算方法。',
+    category: '化妆品',
+    excerpt: '韩国化妆品责任销售业者若要标示或广告产品可供婴幼儿（3岁以下）或儿童（4岁以上13岁以下）使用，须事先制作产品·制造方法说明资料、安全性评价资料、功效证明资料，并在规定期间内保管。',
+    content: `<div class="toc"><p>目录</p><ol><li>何时产生制作义务</li><li>产品安全性资料的构成</li><li>保管期限与管理</li><li>常见问题</li></ol></div>
+<p><strong>在韩国，化妆品责任销售业者若要标示或广告产品可供婴幼儿（3岁以下）或儿童（4岁以上13岁以下）使用，须在此之前制作产品安全性资料，即产品·制造方法说明资料、安全性评价资料、功效证明资料，并在规定期间内保管。</strong>这不是事先向食品药品安全处提交的文件，而是须备置的义务；未制作或保管的，可能受到撤销登记等行政处分及刑事处罚。食品药品安全处每5年对资料制作·保管情况等进行实态调查。</p>
+<p>登记后的一般义务见<a href="/zh/blog/cosmetics-distributor-compliance-obligations">化妆品责任销售业者的遵守事项</a>，进口登记和标示见<a href="/zh/blog/cosmetics-import-sales-registration-guide">化妆品进口销售登记指南</a>。</p>
+
+<h2>何时产生制作义务</h2>
+<table><thead><tr><th>类型</th><th>属于制作对象的情形</th></tr></thead><tbody>
+<tr><td>标示</td><td>在内包装或外包装上特定标示可供婴幼儿·儿童使用，包括产品名称中含有婴幼儿·儿童相关表述的情形。</td></tr>
+<tr><td>广告</td><td>通过报纸·广播·杂志、传单·宣传册·样品、互联网、海报·招牌·电子屏、录像·书籍·出版物、上门推销·现场演示等特定宣传供婴幼儿·儿童使用；儿童产品不含上门推销·现场演示。</td></tr>
+<tr><td>年龄</td><td>婴幼儿为3岁以下，儿童为4岁以上13岁以下。</td></tr>
+</tbody></table>
+<p>作此类标示·广告的，须在包装上标示已指定使用标准的防腐剂含量。水杨酸及其盐类、碘丙炔醇丁基氨甲酸酯等部分防腐剂不得用于婴幼儿用产品或特定标示供13岁以下儿童使用的产品（洗发水等部分除外），婴幼儿用产品的微生物限度也比一般产品更严。</p>
+<ol>
+<li>在包装文案、产品名、详情页、广告方案中找出所有婴幼儿·儿童表述。</li>
+<li>如有，将配方中的防腐剂与婴幼儿·儿童禁用条件核对。</li>
+<li>在标示·广告前制作全部三类资料。</li>
+<li>在包装上加入防腐剂含量标示。</li>
+<li>计算保管截止日并记入文件管理台账。</li>
+</ol>
+
+<h2>产品安全性资料的构成</h2>
+<table><thead><tr><th>资料</th><th>内容</th></tr></thead><tbody>
+<tr><td>产品及制造方法说明资料</td><td>产品名、功效（功能性化妆品）、使用注意事项、原料名及分量、保管条件、使用期限等产品信息和至成品的制造方法。内容齐备的，可用产品标准书、制造管理标准书副本代替，进口化妆品可用进口管理记录书副本代替。</td></tr>
+<tr><td>安全性评价资料</td><td>各原料的理化特性·毒性·标准规格审查（制造中去除的成分除外）、成品是否符合流通化妆品安全管理标准的审查、使用后不良事例的收集·审查·评价·处置资料，以及综合得出的产品安全性评价结果。</td></tr>
+<tr><td>功效证明资料</td><td>功能性化妆品的审查结果资料或已提交的报告书，以及标示·广告中事实部分的实证资料。</td></tr>
+</tbody></table>
+<p>资料须按质量管理标准中的文件·记录管理程序制作、修订和批准。化妆品安全性评价制度将根据企业规模和产品在2028年至2031年间分阶段导入，婴幼儿·儿童产品的安全性评价资料项目也将自2029年起与该制度衔接，具体制作标准可能变化。</p>
+
+<h2>保管期限与管理</h2>
+<p>内包装标示使用期限的产品，自作婴幼儿·儿童使用标示·广告之日起，保管至最后一批制造·进口产品使用期限届满后1年；标示开封后使用期间的产品，保管至最后一批产品制造年月日后3年。制造以制造编号对应的制造日期为准，进口以通关日期为准。</p>
+<p>可用纸质或电子介质保管，并可备份；期限届满后可在责任销售管理者负责下销毁。期限以最后一批产品计算，因此停止销售后仍须继续保管。YouSun Administrative Agency可配合<a href="/zh/services/cosmetics">化妆品责任销售业相关业务</a>，检查标示·广告文案并整理资料目录和保管台账。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 资料要提交给食品药品安全处吗？</p><p class="faq-a">A. 没有事先提交义务，而是制作·保管义务；但在实态调查或检查中被要求时须能立即出示。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 产品名里只有"kids"也算吗？</p><p class="faq-a">A. 产品名称含有婴幼儿·儿童相关表述即属于标示。不特定年龄的表述需个别判断，确定文案前先审查较为稳妥。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 海外生产商不提供原料信息怎么办？</p><p class="faq-a">A. 制作责任在韩国的化妆品责任销售业者，建议在进口合同中加入提供原料信息、制造方法和不良事例信息的条款。</p></div>
+</div>
+
+<div class="cta-block"><h3>使用婴儿·儿童表述前先确认</h3><p>发送包装文案、广告方案和配方表，YouSun Administrative Agency为你确认是否属于制作对象、须备资料清单和保管期限。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-child-product-safety-file">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'cosmetics-child-product-safety-file',
+    locale: 'ja',
+    title: '韓国の乳幼児化粧品の安全性資料 — 子ども向け表示の前に準備する書類と保管期間',
+    metaTitle: '韓国の乳幼児・子ども用化粧品の安全性資料 — 対象・構成・保管期間',
+    metaDescription: '韓国で化粧品を乳幼児・子どもが使えると表示・広告する前に、製品別の安全性資料3種を作成して保管する必要があります。対象年齢、表示・広告の範囲、資料の構成、保管期間の計算を解説します。',
+    category: '化粧品',
+    excerpt: '韓国の化粧品責任販売業者が乳幼児（3歳以下）や子ども（4歳以上13歳以下）が使える化粧品だと表示・広告するには、事前に製品・製造方法の説明資料、安全性評価資料、効能・効果の証明資料を作成し、定められた期間保管する必要があります。',
+    content: `<div class="toc"><p>目次</p><ol><li>いつ作成義務が生じるか</li><li>製品別安全性資料の構成</li><li>保管期間と管理</li><li>よくある質問</li></ol></div>
+<p><strong>韓国の化粧品責任販売業者が、乳幼児（3歳以下）や子ども（4歳以上13歳以下）が使用できる化粧品であると表示・広告するには、その前に製品別安全性資料である製品・製造方法の説明資料、安全性評価資料、効能・効果の証明資料をすべて作成し、定められた期間保管する必要があります。</strong>食品医薬品安全処に事前に提出する書類ではなく備えておく義務で、作成・保管しなければ登録取消などの行政処分や刑事罰の対象になります。食品医薬品安全処は5年ごとに資料の作成・保管状況などの実態調査を行います。</p>
+<p>登録後の一般的な遵守事項は<a href="/ja/blog/cosmetics-distributor-compliance-obligations">化粧品責任販売業者の遵守事項</a>、輸入の登録と表示は<a href="/ja/blog/cosmetics-import-sales-registration-guide">化粧品の輸入販売登録ガイド</a>で扱っています。</p>
+
+<h2>いつ作成義務が生じるか</h2>
+<table><thead><tr><th>区分</th><th>作成対象になる場合</th></tr></thead><tbody>
+<tr><td>表示</td><td>一次包装または二次包装に乳幼児・子どもが使用できる化粧品であることを特定して表示する場合。製品名に乳幼児・子どもに関する表現が入る場合も含みます。</td></tr>
+<tr><td>広告</td><td>新聞・放送・雑誌、チラシ・パンフレット・見本、インターネット、ポスター・看板・電光掲示板、ビデオ・書籍・刊行物、訪問広告・実演などで乳幼児・子ども用であることを特定して広告する場合。子ども用製品は訪問広告・実演を除きます。</td></tr>
+<tr><td>年齢</td><td>乳幼児は3歳以下、子どもは4歳以上13歳以下です。</td></tr>
+</tbody></table>
+<p>このような表示・広告をする場合は、使用基準が指定された防腐剤の含有量を包装に記載する必要があります。サリチル酸及びその塩類、ヨウ化プロピニルブチルカルバミン酸などの一部の防腐剤は、乳幼児用製品類や13歳以下の子どもの使用を特定して表示する製品には使えず（シャンプーなど一部例外あり）、乳幼児用製品類は微生物限度も一般製品より厳しくなっています。</p>
+<ol>
+<li>包装の文言・製品名・詳細ページ・広告案から乳幼児・子どもの表現をすべて洗い出します。</li>
+<li>表現があれば、処方の防腐剤を乳幼児・子ども向けの使用禁止条件と照合します。</li>
+<li>表示・広告の前に安全性資料3種を作成します。</li>
+<li>包装に防腐剤の含有量表示を入れます。</li>
+<li>保管終了日を計算して文書管理台帳に記録します。</li>
+</ol>
+
+<h2>製品別安全性資料の構成</h2>
+<table><thead><tr><th>資料</th><th>内容</th></tr></thead><tbody>
+<tr><td>製品及び製造方法の説明資料</td><td>製品名、効能・効果（機能性化粧品）、使用上の注意、原料名と分量、保管条件、使用期限などの製品情報と完成品までの製造方法。内容が含まれていれば製品標準書・製造管理基準書の写し、輸入化粧品は輸入管理記録書の写しで代えられます。</td></tr>
+<tr><td>安全性評価資料</td><td>原料ごとの物理化学的特性・毒性・規格の検討（製造中に除去される成分を除く）、完成品が流通化粧品の安全管理基準に適合するかの検討、使用後の有害事例の収集・検討・評価・措置の資料、それらを総合した製品の安全性評価結果</td></tr>
+<tr><td>効能・効果の証明資料</td><td>機能性化粧品なら審査結果の資料または提出した報告書、表示・広告のうち事実に関する実証資料</td></tr>
+</tbody></table>
+<p>資料は品質管理基準の文書・記録管理手順に従って作成・改訂・承認します。化粧品の安全性評価制度が事業所の規模と製品に応じて2028年から2031年にかけて段階的に導入され、乳幼児・子ども用製品の安全性評価資料の項目も2029年からその制度とつながるため、細かな作成基準は変わる可能性があります。</p>
+
+<h2>保管期間と管理</h2>
+<p>一次包装に使用期限を表示する製品は、乳幼児・子ども用の表示・広告をした日から、最後に製造・輸入された製品の使用期限満了日の後1年まで、開封後の使用期間を表示する製品は、最後の製品の製造年月日の後3年まで保管します。製造は製造番号に基づく製造日、輸入は通関日が基準です。</p>
+<p>保管は印刷物または電子媒体で行い、写し・バックアップを置くことができ、期間経過後は責任販売管理者の責任のもとで廃棄できます。期間は最後の製品を基準に計算するため、販売終了後も保管は続きます。YouSun Administrative Agencyは表示・広告の文言チェックと資料目録・保管台帳の整理を<a href="/ja/services/cosmetics">化粧品責任販売業の業務</a>とあわせて進めます。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 資料を食品医薬品安全処に提出する必要がありますか。</p><p class="faq-a">A. 事前の提出義務ではなく作成・保管の義務です。ただし実態調査や点検で求められたときにすぐ示せるよう整理しておく必要があります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 製品名に「キッズ」と入るだけでも該当しますか。</p><p class="faq-a">A. 製品名に乳幼児・子どもに関する表現が入れば表示に該当します。年齢を特定しない表現は個別の判断が必要なため、文言を決める前に検討するのが安全です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 海外メーカーが原料情報を出さない場合は？</p><p class="faq-a">A. 作成の責任は韓国の化粧品責任販売業者にあります。輸入契約に原料情報、製造方法、有害事例情報の提供条項を入れておくのがよいでしょう。</p></div>
+</div>
+
+<div class="cta-block"><h3>赤ちゃん・子ども向けの表現を使う前に確認を</h3><p>包装の文言と広告案、処方表をお送りいただければ、YouSun Administrative Agencyが作成対象かどうか、備える資料の一覧、保管期間の計算を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-child-product-safety-file">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 

@@ -888,3 +888,7 @@
 /en/blog/nonprofit-association-required-documents
 /ja/blog/nonprofit-association-required-documents
 /zh/blog/nonprofit-association-required-documents
+/blog/cosmetics-child-product-safety-file
+/en/blog/cosmetics-child-product-safety-file
+/ja/blog/cosmetics-child-product-safety-file
+/zh/blog/cosmetics-child-product-safety-file
