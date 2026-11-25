@@ -195,4 +195,5 @@ export const BLOG_TOPIC_SERVICE: Record<string, string> = {
   'cosmetics-distributor-compliance-obligations': '/services/cosmetics',
   'g2b-unfair-bidder-restriction-period': '/services/procurement',
   'rnd-center-recognition-cancellation-grounds': '/services/research-lab',
+  'venture-innovative-growth-certificate-case': '/services/venture-cert',
 }

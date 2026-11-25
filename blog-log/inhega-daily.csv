@@ -35,3 +35,4 @@ date,topic,angle,slug,locales,gate_checks,gate_pass,ko_title
 2026-11-22,lbs,documents,location-based-service-report-documents,ko|en|zh|ja,66,PASS,"위치기반서비스사업 신고 서류 — 사업계획서·설비 자료·보호조치 서류와 외국기업 추가 서류"
 2026-11-23,nonprofit,documents,nonprofit-association-required-documents,ko|en|zh|ja,66,PASS,"사단법인 설립 서류 — 설립허가 신청서에 붙이는 6가지와 허가 후 등기 서류"
 2026-11-24,cosmetics-distributor,documents,cosmetics-child-product-safety-file,ko|en|zh|ja,66,PASS,"영유아 화장품 안전성 자료 — 어린이 사용 표시 전 준비할 서류와 보관 기간"
+2026-11-25,venture-cert,procedure,venture-innovative-growth-certificate-case,ko|en|zh|ja,66,PASS,"혁신성장유형 벤처기업확인서 발급 사례 — 확인서 읽는 법과 준비자료"

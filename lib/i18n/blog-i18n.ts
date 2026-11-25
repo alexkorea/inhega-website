@@ -7324,6 +7324,7 @@ const blogData: BlogI18n[] = [
 <p><strong>Venture investment type:</strong> investment must come from investors listed in the law, such as venture capital companies and funds, new technology business finance companies and funds, Korea Venture Investment Corp., individual investment associations, accelerators, the Korea Technology Finance Corporation and professional individual investors. Total investment must reach the amount set by the Enforcement Decree, and its share of capital must be at least 10% (7% for a corporation that is a cultural content producer).</p>
 <p><strong>R&D type:</strong> the company must have a recognized corporate research institute or dedicated R&D department (or a corporate creative research institute or unit). Annual R&D spending must reach the amount set by the Decree, and R&D spending must be at least 5% of annual sales and at least the ratio announced for the industry, calculated over the 4 quarters before the quarter of the request. The sales ratio does not apply to companies within 3 years of founding.</p>
 <p><strong>Innovative growth type:</strong> no investment or research institute is assumed. The confirmation institution evaluates technological innovation and business growth potential under criteria announced by the Minister of SMEs and Startups.</p>
+<p>For the innovative growth indicators and how to read a real certificate, see <a href="/en/blog/venture-innovative-growth-certificate-case">innovative growth venture certificate: a real case</a>.</p>
 
 <h2>Procedure, notice and objection deadlines</h2>
 <ol><li>Pick the type based on what you already meet: eligible investment points to the investment type, a recognized institute with R&D spending to the R&D type, and otherwise, or if still founding, the innovative growth type.</li><li>Submit the prescribed application with documents proving the requirements to the head of the venture company confirmation institution.</li><li>The institution reviews the documents and may have specialist bodies review them and inspect the site.</li><li>After review by the confirmation committee, the result is notified within 30 days for the investment type and 45 days for the other two, extendable once by up to 20 days.</li><li>If confirmed, a certificate valid for 3 years is issued.</li></ol>
@@ -7365,6 +7366,7 @@ const blogData: BlogI18n[] = [
 <p><strong>风险投资型</strong>以法令规定的投资者的投资为标准，包括风险投资公司、风险投资组合、新技术事业金融业者及投资组合、韩国风险投资公司、个人投资组合、创业策划者（加速器）、技术保证基金和专业个人投资者等。投资总额须达到施行令规定的金额，且投资总额占资本金的比例须在10%以上（文化产业制作者法人为7%以上）。</p>
 <p><strong>研发型</strong>的对象是经认定设有企业附属研究所或研发专职部门（或企业附属创作研究所、企业创作专职部门）的企业。年度研发支出须达到施行令规定的金额，研发支出占年度总销售额的比例须在5%以上且不低于按行业公告的比例，以申请日所属季度之前的4个季度为准计算。创业未满3年的企业不适用销售额比例标准。</p>
 <p><strong>创新成长型</strong>不以获得投资或设有研究所为前提，由风险企业确认机构评估技术创新性与事业成长性，具体标准和方法由中小风险企业部长官公告。</p>
+<p>创新成长型的评估指标及实际确认书的解读，请参阅<a href="/zh/blog/venture-innovative-growth-certificate-case">创新成长型风险企业确认书实例</a>。</p>
 
 <h2>确认程序与通知·异议期限</h2>
 <ol><li>按公司已具备的条件选择类型：获得合格投资选风险投资型，设有经认定的研究所并有研发支出选研发型，两者都不是或仍在创业中则先考虑创新成长型。</li><li>在公告的申请书上附上证明该类型条件的材料，提交给风险企业确认机构负责人。</li><li>确认机构审查材料，必要时委托各领域专业机构进行材料审查和现场实地调查。</li><li>经风险企业确认委员会审议，风险投资型在30日内、其余两型在45日内通知结果，确有必要时可在20日内延长一次。</li><li>符合条件的，签发有效期3年的风险企业确认书。</li></ol>
@@ -7406,6 +7408,7 @@ const blogData: BlogI18n[] = [
 <p><strong>ベンチャー投資型</strong>は、ベンチャー投資会社、ベンチャー投資組合、新技術事業金融業者・投資組合、韓国ベンチャー投資、個人投資組合、創業企画者（アクセラレーター）、技術保証基金、専門個人投資家など法令で定める投資家からの投資が基準です。投資金額の合計が施行令で定める金額以上で、資本金に占める投資金額の合計の比率が10%以上（文化産業の制作者である法人は7%以上）でなければなりません。</p>
 <p><strong>研究開発型</strong>は、企業附設研究所または研究開発専担部署（企業附設創作研究所・企業創作専担部署を含む）の認定を受けた企業が対象です。年間研究開発費が施行令で定める金額以上で、年間総売上高に対する研究開発費の比率が5%以上かつ業種別告示比率以上である必要があり、確認申請日が属する四半期の直前4四半期を基準に計算します。売上高比率の基準は、創業後3年を経過していない企業には適用されません。</p>
 <p><strong>革新成長型</strong>は投資の誘致や研究所の保有を前提とせず、ベンチャー企業確認機関が技術の革新性と事業の成長性を評価します。具体的な評価基準と方法は中小ベンチャー企業部長官の告示で定められます。</p>
+<p>革新成長型の評価指標と実際の確認書の読み方は<a href="/ja/blog/venture-innovative-growth-certificate-case">革新成長型ベンチャー企業確認書の実例</a>で扱っています。</p>
 
 <h2>確認手続と通知・異議申立ての期限</h2>
 <ol><li>自社がすでに満たす要件から類型を決めます。適格投資を受けていれば投資型、認定研究所があり研究開発費を支出していれば研究開発型、どちらでもないか創業中であれば革新成長型をまず検討します。</li><li>告示された申請書に類型の要件を証明する書類を添えて、ベンチャー企業確認機関の長に提出します。</li><li>確認機関が書類を検討し、必要に応じて分野別の専門機関に書類検討と現場の実地調査を任せます。</li><li>ベンチャー企業確認委員会の審議を経て、投資型は30日、研究開発型・革新成長型は45日以内に結果が通知されます。やむを得ない場合は20日以内で一度延長されます。</li><li>該当すれば有効期間3年のベンチャー企業確認書が発行されます。</li></ol>
@@ -10009,6 +10012,148 @@ const blogData: BlogI18n[] = [
 </div>
 
 <div class="cta-block"><h3>赤ちゃん・子ども向けの表現を使う前に確認を</h3><p>包装の文言と広告案、処方表をお送りいただければ、YouSun Administrative Agencyが作成対象かどうか、備える資料の一覧、保管期間の計算を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=cosmetics-child-product-safety-file">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── venture-innovative-growth-certificate-case (inhega-daily 2026-11-25) ──
+  {
+    slug: 'venture-innovative-growth-certificate-case',
+    locale: 'en',
+    title: 'Innovative Growth Venture Certificate in Korea — A Real Issued Case and How to Prepare',
+    metaTitle: 'Innovative Growth Venture Certificate in Korea: A Real Case',
+    metaDescription: 'A real innovative growth venture certificate from Korea: its 3-year validity, evaluation indicators by company age, documents and re-confirmation timing.',
+    category: 'Business Certification',
+    excerpt: 'Using a real innovative growth venture company certificate issued on 24 November 2026, this guide explains each field, the evaluation indicators that change with company age, the documents to prepare and what to do after issuance.',
+    content: `<div class="toc"><p>Contents</p><ol><li>How to read the certificate</li><li>Evaluation indicators and documents</li><li>After the certificate is issued</li><li>FAQ</li></ol></div>
+<p><strong>The innovative growth type is the venture company confirmation route in which the designated confirmation agency evaluates the innovativeness of your technology and the growth potential of your business, with no investment or in-house research institute required. The certificate is valid for 3 years from the confirmation date.</strong> Below is a real certificate issued on 24 November 2026 for a client of YouSun Administrative Agency, with company details masked.</p>
+<figure style="margin:1.5rem auto;max-width:420px"><img src="/images/blog-cases/venture-innovative-growth-certificate.webp" alt="Innovative growth type venture company certificate (issued November 2026, company details masked)" width="607" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;border:1px solid #e2e8f0;border-radius:8px"><figcaption style="font-size:0.8125rem;color:#718096;text-align:center;margin-top:0.5rem">Real innovative growth venture company certificate (company details masked; Korean original)</figcaption></figure>
+<p>For the differences between the three types, see <a href="/en/blog/venture-confirmation-types-comparison">venture company confirmation types compared</a>; for tax support after confirmation, see <a href="/en/blog/venture-tax-benefits">venture company tax benefits</a>.</p>
+
+<h2>How to read the certificate</h2>
+<table><thead><tr><th>Field</th><th>This certificate</th><th>Meaning</th></tr></thead><tbody>
+<tr><td>Confirmation type</td><td>Innovative growth</td><td>Confirmed through an evaluation of technology and growth, not through investment or R&amp;D spending thresholds</td></tr>
+<tr><td>Issue date</td><td>24 November 2026</td><td>The day the certificate was issued after review by the Venture Company Confirmation Committee</td></tr>
+<tr><td>Validity</td><td>24 November 2026 – 23 November 2029</td><td>Not an early re-confirmation, so the 3 years run from the issue date</td></tr>
+<tr><td>Legal wording</td><td>The confirmation provision of the Act on Special Measures for the Promotion of Venture Businesses</td><td>The company has been confirmed as a venture company under the Act, the starting point for support under it</td></tr>
+<tr><td>Issuer</td><td>Venture company confirmation agency</td><td>An agency designated by the Minister of SMEs and Startups issues it through the venture confirmation management system</td></tr>
+</tbody></table>
+<p>When the validity starts on the issue date, the certificate is not an early re-confirmation. If a company is re-confirmed within 6 months before expiry, the new period starts the day after the old one ends.</p>
+
+<h2>Evaluation indicators and documents</h2>
+<p>You apply through the venture confirmation management system, and the evaluation includes an on-site review. The result is due within 45 days from the day you receive the receipt for a complete application, extendable once by up to 20 days. The indicators depend on company age.</p>
+<table><thead><tr><th>Area</th><th>Under 3 years since founding</th><th>3 years or more</th></tr></thead><tbody>
+<tr><td>Technology innovation</td><td>Research team and staff expertise, development plan, R&amp;D record, technical differentiation, intellectual property</td><td>Same, plus R&amp;D investment</td></tr>
+<tr><td>Business growth</td><td>Target market, entrepreneurship-based business plan, partnerships, ESG management, funding plan</td><td>Same, plus employment growth (insured employees)</td></tr>
+</tbody></table>
+<p>At re-confirmation 3 years later, business performance over the last 3 years is added. Prepare documents in this order:</p>
+<ol><li>Business registration certificate and corporate register extract (sole proprietors may be exempt from the register)</li><li>Business plan showing the problem, solution, growth strategy and team</li><li>Technology materials: research team and technical staff, R&amp;D record for the product or service, related intellectual property</li><li>Business materials: target market evidence, domestic and overseas partnerships, funding plan</li><li>Any further documents set by the agency's detailed guidelines</li></ol>
+<p>An incomplete application is not treated as received until you supplement it. For the scope of our support, see <a href="/en/services/venture-cert">our venture confirmation service</a>.</p>
+
+<h2>After the certificate is issued</h2>
+<ol><li>Plan re-confirmation: the agency notifies you 6 months before expiry, and to continue without a gap you must apply at least 140 days before expiry, which for this certificate means by 6 July 2029.</li><li>Reissue after changes: a change of company name, location or representative (not for sole proprietors), a merger or a change of corporate form requires reissue, and the validity stays the same.</li><li>English or Chinese certificate: available on request for overseas partners.</li><li>Venture mark: may be displayed at your premises and in promotion until the certificate expires.</li><li>Keep the requirements: confirmation obtained by false means must be cancelled, and losing the requirements or 6 months without business activity can lead to cancellation after a hearing.</li></ol>
+<p>The broader picture of venture confirmation and Innobiz is covered in <a href="/en/blog/venture-innobiz-certification-guide">our venture and Innobiz guide</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Can we apply without investment or a research institute?</p><p class="faq-a">A. Yes. The innovative growth type does not require either. If you have a research institute, it counts in the research team indicator.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if the deadline falls on a holiday?</p><p class="faq-a">A. If the last day is a Saturday or public holiday, the deadline moves to the next day.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What if we disagree with the result?</p><p class="faq-a">A. You may file a written objection within 30 days of the notice. The agency answers within 30 days, extendable once by up to 15 days.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do we need a new evaluation after changing our company name?</p><p class="faq-a">A. No. You apply for reissue, and the reissued certificate keeps the same validity.</p></div>
+</div>
+
+<div class="cta-block"><h3>Check whether the innovative growth type fits your company</h3><p>YouSun Administrative Agency helps with type assessment, a business plan built around the indicators, document preparation and re-confirmation scheduling. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-innovative-growth-certificate-case">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'venture-innovative-growth-certificate-case',
+    locale: 'zh',
+    title: '韩国创新成长型风险企业确认书实例 — 确认书解读与准备材料',
+    metaTitle: '韩国创新成长型风险企业确认书实例：评估指标与准备材料',
+    metaDescription: '通过一份实际签发的韩国创新成长型风险企业确认书，解读确认类型与3年有效期，并说明按创业年限不同的评估指标、准备材料及到期前140日的再确认申请。',
+    category: '企业认证',
+    excerpt: '以2026年11月24日签发的创新成长型风险企业确认书为例，说明各栏目含义、随创业年限变化的评估指标、准备材料以及签发后的再确认与补发时点。',
+    content: `<div class="toc"><p>目录</p><ol><li>如何解读确认书</li><li>评估指标与准备材料</li><li>签发后需要做的事</li><li>常见问题</li></ol></div>
+<p><strong>创新成长型是风险企业确认的一种类型：无需引进投资或设立企业附属研究所，由指定的风险企业确认机构评估技术创新性与事业成长性后予以确认，确认书有效期为自确认之日起3年。</strong>下图是YouSun Administrative Agency协助申请、于2026年11月24日签发的实际确认书，企业信息已遮盖。</p>
+<figure style="margin:1.5rem auto;max-width:420px"><img src="/images/blog-cases/venture-innovative-growth-certificate.webp" alt="创新成长型风险企业确认书（2026年11月签发，企业信息已遮盖）" width="607" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;border:1px solid #e2e8f0;border-radius:8px"><figcaption style="font-size:0.8125rem;color:#718096;text-align:center;margin-top:0.5rem">创新成长型风险企业确认书实际签发件（企业信息已遮盖，韩文原件）</figcaption></figure>
+<p>三种类型的条件差异请参阅<a href="/zh/blog/venture-confirmation-types-comparison">风险企业确认类型比较</a>，确认后的税收支持请参阅<a href="/zh/blog/venture-tax-benefits">风险企业税收优惠</a>。</p>
+
+<h2>如何解读确认书</h2>
+<table><thead><tr><th>栏目</th><th>本确认书</th><th>含义</th></tr></thead><tbody>
+<tr><td>确认类型</td><td>创新成长型</td><td>不是依据投资或研发费标准，而是通过技术创新性与事业成长性评估获得确认</td></tr>
+<tr><td>签发日</td><td>2026年11月24日</td><td>经风险企业确认委员会审议后签发确认书的日期</td></tr>
+<tr><td>有效期</td><td>2026年11月24日～2029年11月23日</td><td>不属于到期前的提前再确认，因此自签发日起算3年</td></tr>
+<tr><td>依法文字</td><td>《风险企业培育特别法》的确认规定</td><td>表示已依法获得风险企业确认，是享受该法支持的起点</td></tr>
+<tr><td>签发机构</td><td>风险企业确认机构</td><td>由中小风险企业部长官指定的确认机构通过风险确认综合管理系统签发</td></tr>
+</tbody></table>
+<p>有效期起始日与签发日相同，说明这不是到期前的提前再确认。若在到期前6个月内提前获得再确认，新有效期从原到期日次日开始。</p>
+
+<h2>评估指标与准备材料</h2>
+<p>申请通过风险确认综合管理系统提交，评估以现场考察方式进行。结果自材料齐全并取得受理凭证之日起45日内通知，如有不得已的情况可在20日内延长一次。评估指标因创业年限而不同。</p>
+<table><thead><tr><th>领域</th><th>创业未满3年</th><th>创业3年以上</th></tr></thead><tbody>
+<tr><td>技术创新性</td><td>研究组织与人员专业性、技术开发计划、研发实绩、技术差异性、知识产权</td><td>在左列基础上增加研发费投入情况</td></tr>
+<tr><td>事业成长性</td><td>目标市场设定、基于企业家精神的事业计划、合作实绩、ESG经营、资金运用计划</td><td>在左列基础上增加雇用增长率（以雇用保险参保人为准）</td></tr>
+</tbody></table>
+<p>3年后申请再确认时，还会增加最近3年的经营成果指标。准备材料可按以下顺序整理：</p>
+<ol><li>营业执照（事业者登记证）与法人登记事项全部证明书（个人事业者可免交登记材料）</li><li>事业计划书：写清问题定义、解决方案、成长战略与团队构成</li><li>技术材料：研究组织与技术人员情况、申请技术（产品或服务）的研发实绩、相关知识产权</li><li>事业材料：目标市场依据、国内外合作实绩、资金筹措与运用计划</li><li>确认机构细则规定的其他材料</li></ol>
+<p>材料不全时视为未完成受理，并会被要求补正。我们的协助范围请参阅<a href="/zh/services/venture-cert">风险企业确认服务</a>。</p>
+
+<h2>签发后需要做的事</h2>
+<ol><li>安排再确认：确认机构会在到期前6个月通知；如需不间断延续，须在到期前140日之前提出申请，本确认书即为2029年7月6日之前。</li><li>信息变更时补发：企业名称、所在地或代表人（个人事业者除外）变更、合并或组织形式变更时须申请补发，有效期不变。</li><li>海外客户用确认书：可申请英文或中文确认书。</li><li>确认标志：可在经营场所展示或用于宣传，使用期限至确认书有效期届满。</li><li>维持条件：以虚假方式获得确认的必须撤销；丧失条件或因停业等6个月无经营活动的，经听证后可能被撤销。</li></ol>
+<p>风险企业与Innobiz的整体介绍请参阅<a href="/zh/blog/venture-innobiz-certification-guide">风险企业与Innobiz指南</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 没有投资或研究所也能申请创新成长型吗？</p><p class="faq-a">A. 可以。创新成长型不以引进投资或设立研究所为前提。若设有研究所，会反映在研究组织指标中。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 通知期限的最后一天是节假日怎么办？</p><p class="faq-a">A. 最后一天为星期六或公休日时，顺延至次日。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 对结果有异议怎么办？</p><p class="faq-a">A. 可自收到通知之日起30日内以书面形式提出异议，确认机构在30日内通知审议结果，可在15日范围内延长一次。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 取得确认书后变更公司名称需要重新评估吗？</p><p class="faq-a">A. 不需要。申请补发即可，补发确认书的有效期与原确认书相同。</p></div>
+</div>
+
+<div class="cta-block"><h3>先确认贵公司是否适合创新成长型</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）协助判断类型、按评估指标撰写事业计划书、整理准备材料并管理再确认日程。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-innovative-growth-certificate-case">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'venture-innovative-growth-certificate-case',
+    locale: 'ja',
+    title: '韓国の革新成長型ベンチャー企業確認書の実例 — 確認書の読み方と準備書類',
+    metaTitle: '韓国の革新成長型ベンチャー企業確認書の実例：評価指標と準備書類',
+    metaDescription: '実際に発給された韓国の革新成長型ベンチャー企業確認書をもとに、確認類型と有効期間3年の意味、創業年数で変わる評価指標、準備書類、満了140日前の再確認申請までを説明します。',
+    category: '企業認証',
+    excerpt: '2026年11月24日に発給された革新成長型ベンチャー企業確認書を例に、各項目の意味、創業年数で変わる評価指標、準備書類、発給後の再確認・再発給の時期を説明します。',
+    content: `<div class="toc"><p>目次</p><ol><li>確認書の項目の読み方</li><li>評価指標と準備書類</li><li>発給後にすること</li><li>よくある質問</li></ol></div>
+<p><strong>革新成長型は、投資の誘致や企業附設研究所がなくても、指定されたベンチャー企業確認機関が技術の革新性と事業の成長性を評価してベンチャー企業であることを確認する類型で、確認書の有効期間は確認された日から3年です。</strong>下の画像は、YouSun Administrative Agencyが申請を支援し2026年11月24日に発給された実際の確認書で、企業情報は伏せています。</p>
+<figure style="margin:1.5rem auto;max-width:420px"><img src="/images/blog-cases/venture-innovative-growth-certificate.webp" alt="革新成長型ベンチャー企業確認書（2026年11月発給、企業情報は非表示）" width="607" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;border:1px solid #e2e8f0;border-radius:8px"><figcaption style="font-size:0.8125rem;color:#718096;text-align:center;margin-top:0.5rem">革新成長型ベンチャー企業確認書の実際の発給例（企業情報は非表示、韓国語原本）</figcaption></figure>
+<p>3つの類型の要件の違いは<a href="/ja/blog/venture-confirmation-types-comparison">ベンチャー企業確認の類型比較</a>、確認後の税制支援は<a href="/ja/blog/venture-tax-benefits">ベンチャー企業の税制優遇</a>で扱っています。</p>
+
+<h2>確認書の項目の読み方</h2>
+<table><thead><tr><th>項目</th><th>この確認書</th><th>意味</th></tr></thead><tbody>
+<tr><td>確認類型</td><td>革新成長型</td><td>投資や研究開発費の基準ではなく、技術の革新性と事業の成長性の評価で確認を受けたという意味</td></tr>
+<tr><td>発給日</td><td>2026年11月24日</td><td>ベンチャー企業確認委員会の審議を経て確認書が発給された日</td></tr>
+<tr><td>有効期間</td><td>2026年11月24日～2029年11月23日</td><td>満了前の再確認ではないため、発給日から3年</td></tr>
+<tr><td>法令の文言</td><td>「ベンチャー企業育成に関する特別法」の確認規定</td><td>法律に基づくベンチャー企業該当の確認を受けたという意味で、同法による支援を受ける出発点</td></tr>
+<tr><td>発給機関</td><td>ベンチャー企業確認機関</td><td>中小ベンチャー企業部長官が指定した確認機関が、ベンチャー確認総合管理システムを通じて発給</td></tr>
+</tbody></table>
+<p>有効期間の開始日が発給日と同じなのは、従前の確認書の満了前の再確認ではないことを示します。満了前6か月以内に前もって再確認を受けると、新しい有効期間は従前の満了日の翌日から続きます。</p>
+
+<h2>評価指標と準備書類</h2>
+<p>申請はベンチャー確認総合管理システムで行い、評価は現地調査で実施されます。結果は書類をすべて揃えて受付証を受け取った日から45日以内に通知され、やむを得ない場合は20日以内で一度延長されます。評価指標は創業年数によって異なります。</p>
+<table><thead><tr><th>区分</th><th>創業3年未満</th><th>創業3年以上</th></tr></thead><tbody>
+<tr><td>技術革新性</td><td>研究組織・人材の専門性、技術開発計画、研究開発実績、技術の差別性、知的財産権</td><td>左の指標に研究開発費の投資状況を追加</td></tr>
+<tr><td>事業成長性</td><td>目標市場の設定、起業家精神に基づく事業計画、協業実績、ESG経営、資金運用計画</td><td>左の指標に雇用上昇率（雇用保険の被保険者基準）を追加</td></tr>
+</tbody></table>
+<p>3年後に再確認を申請するときは、直近3年間の事業成果の指標が加わります。準備書類は次の順で揃えます。</p>
+<ol><li>事業者登録証と法人登記事項全部証明書（個人事業者は登記書類の提出を免除される場合あり）</li><li>事業計画書：課題の定義、解決策、成長戦略、チーム構成が分かるように</li><li>技術資料：研究組織・技術人材の状況、申請技術（製品・サービス）の研究開発実績、関連する知的財産権</li><li>事業資料：目標市場の根拠となる資料、国内外の提携実績、資金調達・運用計画</li><li>確認機関の細部指針が定める追加書類</li></ol>
+<p>書類が欠けていると受付が完了していないものとみなされ、補完を求められます。当事務所の支援範囲は<a href="/ja/services/venture-cert">ベンチャー企業確認サービス</a>をご覧ください。</p>
+
+<h2>発給後にすること</h2>
+<ol><li>再確認の日程を立てる：確認機関は満了6か月前までに通知し、満了日までに確認を引き継ぐには満了140日前までに申請する必要があります。この確認書なら2029年7月6日までです。</li><li>会社情報が変わったら再発給：企業名・所在地・代表者（個人事業者を除く）の変更、合併、組織変更の際は再発給を申請し、有効期間は従前と同じです。</li><li>海外取引先向けの確認書：申請すれば英文または中文の確認書を受け取れます。</li><li>確認マーク：事業所での掲示や広報に使え、使用期間は確認書の有効期間までです。</li><li>要件の維持：虚偽で確認を受けた場合は必ず取り消され、要件を失ったり休業などで6か月間企業活動がなかったりすると、聴聞を経て取り消されることがあります。</li></ol>
+<p>ベンチャー企業確認とInnobizの全体像は<a href="/ja/blog/venture-innobiz-certification-guide">ベンチャー・Innobizガイド</a>で扱っています。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. 投資や研究所がなくても革新成長型を申請できますか？</p><p class="faq-a">A. できます。革新成長型は投資の誘致や研究所の保有を前提としません。研究所がある場合は評価表の研究組織の指標に反映されます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 通知期限の最終日が祝日の場合はどうなりますか？</p><p class="faq-a">A. 最終日が土曜日または祝日の場合は、その翌日が期限の最終日になります。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 結果に納得できない場合はどうすればよいですか？</p><p class="faq-a">A. 通知を受けた日から30日以内に確認機関へ書面で異議を申し立てることができ、確認機関は30日以内に審議結果を通知し、15日の範囲で一度延長できます。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 確認書を受けた後に社名を変えると再評価が必要ですか？</p><p class="faq-a">A. 不要です。再発給を申請すればよく、再発給された確認書の有効期間は従前と同じです。</p></div>
+</div>
+
+<div class="cta-block"><h3>革新成長型が自社に合うか、まず確認しましょう</h3><p>YouSun Administrative Agency（代表行政士 Jung Yu-sun）が、類型の判断、評価指標に沿った事業計画書の構成、準備書類の整理、再確認の日程管理をお手伝いします。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=venture-innovative-growth-certificate-case">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]

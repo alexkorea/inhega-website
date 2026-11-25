@@ -1041,7 +1041,7 @@ export const services: Service[] = [
 <p>중소벤처기업부장관은 선정받으려는 기업에 평가 등에 소요되는 비용을 부담하게 할 수 있으며, 비용 산정·납부는 고시로 정합니다. 구체적 배점과 선정 유효기간은 법령이 아닌 공고·고시 사안이므로 해당 연도 공고를 확인해야 합니다.<!-- [확인필요] 이노비즈·메인비즈 유효기간은 법령에 규정이 없고 중소벤처기업부 공고·고시 사안 --> 평가 준비는 <a href="/blog/innobiz-evaluation-criteria">이노비즈 평가기준과 점수 관리</a>, 혜택은 <a href="/blog/innobiz-benefits">이노비즈 인증 혜택 정리</a>를 참고하세요.</p>
 <h2 id="svc-expert">전문가 상담</h2>
 <p>유선행정사사무소는 기업 인허가·확인 신청 업무를 수행하는 행정사 사무소입니다. 대표 행정사 정유선을 포함한 행정사와 실무 사무장이 확인유형 선택과 요건 사전점검, 투자·연구개발비 증빙 정리, 신청서 작성과 보완 대응, 현장조사 준비, 유효기간 관리와 재확인 신청까지 지원합니다.</p>
-<p>연구개발유형을 준비한다면 <a href="/services/research-lab">기업부설연구소 설립</a>이 선행되어야 하고, 확인 이후 정부과제 참여는 <a href="/services/rnd-support">R&amp;D지원사업</a>에서 이어집니다. 재확인 실무는 <a href="/blog/venture-certification-renewal">벤처기업 재확인 절차와 준비</a>를, 제도 전반은 <a href="/blog/venture-innobiz-certification-guide">벤처기업·이노비즈 완벽 가이드</a>를 참고하세요. 개별 사안 검토는 <a href="/quote">견적 문의</a> 또는 <a href="/contact">상담</a>으로 신청하실 수 있습니다. 전화 02-325-8222.</p>`,
+<p>연구개발유형을 준비한다면 <a href="/services/research-lab">기업부설연구소 설립</a>이 선행되어야 하고, 확인 이후 정부과제 참여는 <a href="/services/rnd-support">R&amp;D지원사업</a>에서 이어집니다. 혁신성장유형의 평가 지표와 실제 발급 확인서는 <a href="/blog/venture-innovative-growth-certificate-case">혁신성장유형 벤처기업확인서 발급 사례</a>를, 재확인 실무는 <a href="/blog/venture-certification-renewal">벤처기업 재확인 절차와 준비</a>를, 제도 전반은 <a href="/blog/venture-innobiz-certification-guide">벤처기업·이노비즈 완벽 가이드</a>를 참고하세요. 개별 사안 검토는 <a href="/quote">견적 문의</a> 또는 <a href="/contact">상담</a>으로 신청하실 수 있습니다. 전화 02-325-8222.</p>`,
   },
   {
     slug: 'haccp',

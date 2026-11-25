@@ -7,6 +7,10 @@
 // 여기서 대신하지 않는다. 이 게이트는 "형식·정량·중복·금칙"의 자동 방어선이다.
 
 import { POOL_KEYS, ANGLE_KEYS, topicByKey } from './pool.mjs'
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..')
 import { c6Hits } from '../lib/c6-banned.mjs'
 import { scanHtml } from '../nocite-gate.mjs'
 import { scanText as nofreeHits } from '../nofree-gate.mjs'
@@ -236,7 +240,9 @@ export function gateArticle(entry, ctx) {
     const wrong = (entry.wrongTerms || []).filter((w) => shown.includes(w))
     add('S6 인허가 구분 오기(wrongTerms) 0건', Array.isArray(entry.wrongTerms) && wrong.length === 0, Array.isArray(entry.wrongTerms) ? (wrong.length ? `발견: ${wrong.join(', ')}` : `${entry.wrongTerms.length}개 검사`) : 'wrongTerms 미선언')
     // 사진: 이 글 전용 Pexels 사진 ID 선언(중복 검사는 photo-check.mjs 가 og index·전 사이트 대조)
-    add('S7 전용 사진(pexelsId) 선언', Number.isInteger(entry.pexelsId) && entry.pexelsId > 0, `pexelsId=${entry.pexelsId}`)
+    // INHE-VENTURE-CASE-1125: 보스가 준 실제 사진(localPhoto, public/ 아래 경로)도 전용 사진으로 인정 — 파일이 실제로 있어야 한다.
+    const localOk = typeof entry.localPhoto === 'string' && /^\/images\/[a-z0-9/_-]+\.(webp|jpg|png)$/.test(entry.localPhoto) && fs.existsSync(path.join(ROOT, 'public', entry.localPhoto))
+    add('S7 전용 사진(pexelsId 또는 localPhoto) 선언', (Number.isInteger(entry.pexelsId) && entry.pexelsId > 0) || localOk, entry.localPhoto ? `localPhoto=${entry.localPhoto} ${localOk ? '있음' : '없음'}` : `pexelsId=${entry.pexelsId}`)
   }
 
   // INHEGA-EN-BRAND 2(맥7 10-28): 모든 글·4언어 '무료/free/免费/無料' 0건(scripts/nofree-gate.mjs 와 같은 패턴)

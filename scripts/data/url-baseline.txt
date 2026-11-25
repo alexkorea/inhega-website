@@ -892,3 +892,7 @@
 /en/blog/cosmetics-child-product-safety-file
 /ja/blog/cosmetics-child-product-safety-file
 /zh/blog/cosmetics-child-product-safety-file
+/blog/venture-innovative-growth-certificate-case
+/en/blog/venture-innovative-growth-certificate-case
+/ja/blog/venture-innovative-growth-certificate-case
+/zh/blog/venture-innovative-growth-certificate-case
