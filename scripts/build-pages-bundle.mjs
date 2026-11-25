@@ -53,6 +53,7 @@ const APEX_HOST = "inhega.co.kr";
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const NEWS_CACHE_CONTROL = "public, max-age=0, must-revalidate, s-maxage=600";
 const NEWS_PATH = /^[/](?:(?:en|zh|ja)[/])?news(?:[/]|$)/;
+const NEWS_DETAIL_PATH = /^[/]news[/][^/]+[/]?$/;
 const LONG_S_MAXAGE_SECONDS = 60;
 const BODYLESS_STATUS = new Set([101, 204, 205, 304]);
 const HEAD_PEEK_LIMIT = 65536;
@@ -167,6 +168,11 @@ export default {
     // A-3: 정적 원본 폴더는 직접 열지 못하게 앱의 404 로 돌린다.
     if (url.pathname.startsWith("/_blog-static/")) request = new Request(new URL("/_blog-static-blocked", url.origin).toString(), request);
     let response = (await blogStatic(request, url, env)) || (await opennextWorker.fetch(request, env, ctx));
+    // WQA1125-FIX(11-25): 목록에서 빠진 /news/<slug> 는 앱이 permanentRedirect(308)를 낸다 — 301 로 바꿔 내보낸다.
+    if (response.status === 308 && NEWS_DETAIL_PATH.test(url.pathname)) {
+      const loc = response.headers.get("location") || "";
+      if (new URL(loc, url).pathname === "/news") return new Response(null, { status: 301, headers: { location: new URL("/news", url).toString(), "cache-control": "public, max-age=0, s-maxage=600" } });
+    }
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
     if (request.method === "GET") response = await withEarlyHints(response);

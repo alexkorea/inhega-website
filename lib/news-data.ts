@@ -34,6 +34,12 @@ export type { NewsArticle, NewsArticleFaq, NewsArticleSection } from './news-art
 export const NEWS_LIST_KEY = 'news:list:v1'
 export const NEWS_MAX_ITEMS = 1500
 export const NEWS_MAX_BATCH = 200
+/**
+ * WQA1125-FIX(2026-11-25): 목록(KV)에서 빠진 항목의 슬러그. `/news/<slug>` 가 404 대신 /news 로 301 하는 근거다.
+ * 삭제(deleteNews)·절단(upsertNews 의 MAX_ITEMS)에서 사라진 항목의 슬러그를 쌓는다. 롤링 블롭과 같은 쓰기 주체만 쓴다.
+ */
+export const NEWS_RETIRED_KEY = 'news:retired:v1'
+const NEWS_RETIRED_MAX = 5000
 
 export const SOURCE_KEYS = [
   'us_federal_register',
@@ -607,8 +613,10 @@ export async function upsertNews(rawItems: unknown[], fetchLaw: LawFetcher = fet
     }
   }
 
-  const merged = sortNews([...byKey.values()]).slice(0, NEWS_MAX_ITEMS)
+  const sorted = sortNews([...byKey.values()])
+  const merged = sorted.slice(0, NEWS_MAX_ITEMS)
   await kv.put(NEWS_LIST_KEY, JSON.stringify(merged))
+  await retireSlugs(kv, sorted.slice(NEWS_MAX_ITEMS))
 
   // 이번에 받은 항목 중 한자·가나 게이트에 걸린 것 — 정정 레이어를 덮은 표시값 기준으로 본다.
   const sent = new Set(rawItems.map((r) => (typeof r === 'object' && r ? str((r as Record<string, unknown>).doc_key, 200) : '')))
@@ -642,9 +650,54 @@ export async function deleteNews(docKeys: string[]): Promise<{ deleted: number; 
 
   const before = await readStoredNews()
   const kept = before.filter((it) => !want.has(it.doc_key))
-  if (kept.length !== before.length) await kv.put(NEWS_LIST_KEY, JSON.stringify(kept))
+  if (kept.length !== before.length) {
+    await kv.put(NEWS_LIST_KEY, JSON.stringify(kept))
+    await retireSlugs(kv, before.filter((it) => want.has(it.doc_key)))
+  }
 
   return { deleted: before.length - kept.length, total: kept.length }
+}
+
+/** 목록에서 빠진 항목의 슬러그를 기록한다. 실패해도 목록 쓰기는 이미 끝났으므로 삼킨다. */
+async function retireSlugs(kv: NewsKv, gone: NewsItem[]): Promise<void> {
+  const add = gone.map((it) => it.slug).filter(Boolean)
+  if (!add.length) return
+  try {
+    const prev = await readRetiredSlugs()
+    const next = [...new Set([...add, ...prev])].slice(0, NEWS_RETIRED_MAX)
+    await kv.put(NEWS_RETIRED_KEY, JSON.stringify(next))
+  } catch {
+    /* 기록 실패 — 해당 슬러그는 형식 규칙(isNewsSlugShape)으로만 301 된다 */
+  }
+}
+
+export async function readRetiredSlugs(): Promise<string[]> {
+  const kv = getNewsKv()
+  if (!kv) return []
+  try {
+    const parsed = JSON.parse((await kv.get(NEWS_RETIRED_KEY, 'text')) || '[]')
+    return Array.isArray(parsed) ? parsed.filter((v): v is string => typeof v === 'string') : []
+  } catch {
+    return []
+  }
+}
+
+/**
+ * doc_key 로 자동 생성된 슬러그 꼴(eping-120296·fr-2026-19164·egov-c375490c·krlaw-289781).
+ * 기록(news:retired:v1)이 생기기 전에 빠진 항목은 이 꼴로만 알아본다. 엉터리 경로는 301 하지 않는다(404 유지).
+ */
+export const isNewsSlugShape = (slug: string) => /^(?:eping-\d{4,}|fr-\d{4}-\d{3,}|egov-[0-9a-f]{8}|krlaw-\d{4,})$/.test(slug)
+
+/**
+ * `/news/<slug>` 가 목록에 없을 때 — 'retired' 면 /news 로 301, 'held' 면 404(게시 보류는 다시 돌아올 수 있다), 'unknown' 이면 404.
+ * 보류 항목은 readAllNews 에는 있다(isListable 만 거짓).
+ */
+export async function missingNewsKind(slug: string): Promise<'retired' | 'held' | 'unknown'> {
+  const want = slugify(slug)
+  if (!want || want !== slug) return 'unknown'
+  if ((await readAllNews()).some((it) => it.slug === want)) return 'held'
+  if (isNewsSlugShape(want)) return 'retired'
+  return (await readRetiredSlugs()).includes(want) ? 'retired' : 'unknown'
 }
 
 /** `/news/<slug>` 렌더용 단건 조회. 슬러그는 고유하므로 첫 일치가 답이다. */

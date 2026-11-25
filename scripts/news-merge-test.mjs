@@ -347,5 +347,22 @@ section('16. 한자·가나 게이트·품목 영문 괄호(QA1102 B-1)')
   ok((await one('EPING:900002')).product.includes('(Electrically'), 'KV 원본 품목은 그대로')
 }
 
+section('17. 목록에서 빠진 슬러그 301 판정(WQA1125-FIX)')
+{
+  const base = { source_key: 'wto_eping', url: 'https://eping.wto.org/y', published_date: '2026-11-02', summary_ko: '요약입니다.' }
+  await M.upsertNews([{ ...base, doc_key: 'EPING:910001', title_ko: '전동 공구 안전 기준', slug: 'power-tool-safety-standard', article: article('전동 공구 안전 기준 개정') }])
+  const slug = (await one('EPING:910001')).slug
+  eq(await M.missingNewsKind(slug), 'held', '목록에 있는 슬러그는 retired 아님')
+  await M.deleteNews(['EPING:910001'])
+  eq(await M.missingNewsKind(slug), 'retired', '삭제된 영문 슬러그 → retired 기록')
+  eq(await M.missingNewsKind('eping-120296'), 'retired', '기록 전 삭제분(doc_key 꼴) → retired')
+  eq(await M.missingNewsKind('krlaw-289781'), 'retired', 'krlaw 꼴 → retired')
+  eq(await M.missingNewsKind('egov-e39d31cc'), 'retired', 'egov 꼴 → retired')
+  eq(await M.missingNewsKind('fr-2026-19164'), 'retired', 'fr 꼴 → retired')
+  eq(await M.missingNewsKind('random-junk'), 'unknown', '엉터리 경로 → 404 유지')
+  eq(await M.missingNewsKind('EPING-120296'), 'unknown', '대문자 → 404 유지')
+  eq(await M.missingNewsKind('eping-12'), 'unknown', '짧은 번호 → 404 유지')
+}
+
 console.log(failed ? `\n✗ 실패 ${failed}건` : '\n✓ 전부 통과')
 process.exit(failed ? 1 : 0)

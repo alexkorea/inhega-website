@@ -14,9 +14,9 @@ import type { Metadata } from 'next'
 import { publisherLogo } from '@/lib/org-jsonld'
 import Link from 'next/link'
 import { getServiceMenuCount } from '@/lib/services-menu'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import { basicArticle, isEffectiveStage } from '@/lib/news-basic-article'
-import { findNewsBySlug, hasArticle, isHeld, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
+import { findNewsBySlug, missingNewsKind, hasArticle, isHeld, SOURCE_LABELS, type NewsItem } from '@/lib/news-data'
 import { hasForeignScript } from '@/lib/news-script-gate'
 import { hasTitleDefect } from '@/lib/news-title-gate'
 import { countryLabel } from '@/lib/news-country'
@@ -79,6 +79,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const item = await getArticleItem(slug)
   if (!item?.article) {
+    // WQA1125-FIX: 목록에서 빠진 뉴스는 /news 로 영구 이동(워커가 308→301 로 바꾼다).
+    if ((await missingNewsKind(slug)) === 'retired') permanentRedirect('/news')
     // 기사가 없으면 404 가 될 URL 이다 — 색인 신호를 남기지 않는다.
     return { title: '페이지를 찾을 수 없습니다', robots: { index: false, follow: false } }
   }
@@ -116,7 +118,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function NewsArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const item = await getArticleItem(slug)
-  if (!item?.article) notFound()
+  if (!item?.article) {
+    if ((await missingNewsKind(slug)) === 'retired') permanentRedirect('/news')
+    notFound()
+  }
 
   const a = item.article
   const url = `${SITE}/news/${item.slug}`
