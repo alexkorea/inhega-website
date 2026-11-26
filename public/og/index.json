@@ -12000,6 +12000,24 @@
    "version": "1.4",
    "local_photo": "~/venture_cert_case_1125.jpg",
    "hires2x": "8022d87a"
+  },
+  "news/eping-121605": {
+   "hash": "0caddd9fa2e205dd2248a10d787e332abdaf58586aba481b055d8ddabb811ee3",
+   "source": "pexels",
+   "seed": 2712292483,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 41266327,
+   "pexels_author": "Murthii Vsn",
+   "category": "냉장고",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121605",
+   "title": "가정용 냉장고 안전 규정 변경, 의견 제출 마감 2027-01-23",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-26T10:03:37.988Z",
+   "version": "1.4"
   }
  }
 }

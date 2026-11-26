@@ -896,3 +896,7 @@
 /en/blog/venture-innovative-growth-certificate-case
 /ja/blog/venture-innovative-growth-certificate-case
 /zh/blog/venture-innovative-growth-certificate-case
+/blog/telecom-report-foreign-company
+/en/blog/telecom-report-foreign-company
+/ja/blog/telecom-report-foreign-company
+/zh/blog/telecom-report-foreign-company
