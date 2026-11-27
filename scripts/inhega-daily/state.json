@@ -253,6 +253,13 @@
       "topic": "telecom",
       "angle": "foreign",
       "slug": "telecom-report-foreign-company"
+    },
+    {
+      "date": "2026-11-27",
+      "ran_on": "2026-11-27",
+      "topic": "hostel",
+      "angle": "change-report",
+      "slug": "hostel-change-registration"
     }
   ]
 }

@@ -900,3 +900,7 @@
 /en/blog/telecom-report-foreign-company
 /ja/blog/telecom-report-foreign-company
 /zh/blog/telecom-report-foreign-company
+/blog/hostel-change-registration
+/en/blog/hostel-change-registration
+/ja/blog/hostel-change-registration
+/zh/blog/hostel-change-registration

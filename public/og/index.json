@@ -12018,6 +12018,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-26T10:03:37.988Z",
    "version": "1.4"
+  },
+  "news/krlaw-292311": {
+   "hash": "d542f510014d1ecadc3f11fea6fe179ac781987eb4cadc18e83835633a12ee45",
+   "source": "pexels",
+   "seed": 786141227,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 41293819,
+   "pexels_author": "MH Jeong",
+   "category": "화장품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "krlaw-292311",
+   "title": "화장품법 시행규칙 개정, 2026년 11월 26일 공포",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-27T10:03:45.307Z",
+   "version": "1.4"
   }
  }
 }

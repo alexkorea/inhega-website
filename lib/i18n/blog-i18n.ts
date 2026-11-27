@@ -10273,6 +10273,130 @@ const blogData: BlogI18n[] = [
 
 <div class="cta-block"><h3>海外サービスの韓国での申告義務を確認しましょう</h3><p>サービス構造と韓国の利用者規模をお知らせいただければ、YouSun Administrative Agencyが申告・国内代理人の要否と必要書類を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=telecom-report-foreign-company">相談を申し込む</a></div>
 <p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  // ── hostel-change-registration (inhega-daily 2026-11-27) ──
+  {
+    slug: 'hostel-change-registration',
+    locale: 'en',
+    title: 'Hostel Change Registration in Korea — 30-Day Deadline for Name, Representative, Rooms and Facilities',
+    metaTitle: 'Hostel Change Registration in Korea: Scope and Deadline',
+    metaDescription: 'A Korean hostel is tourist accommodation, so changes to its name, representative, rooms or ancillary facilities need change registration within 30 days.',
+    category: 'Accommodation',
+    excerpt: 'Under the Tourism Promotion Act, a hostel is a type of hotel business. Changes to the trade name, representative, number and type of rooms or ancillary facilities require change registration within 30 days, and large area changes or a switch to another hotel type need prior business plan change approval.',
+    content: `<div class="toc"><p>Contents</p><ol><li>What needs change registration and prior approval</li><li>Documents and steps</li><li>How we help</li><li>FAQ</li></ol></div>
+<p><strong>A hostel in Korea is a type of hotel business within tourist accommodation under the Tourism Promotion Act, so after registration, changes to the trade name or representative, the number and type of rooms, or the location, area and type of ancillary facilities require a change registration application to the city, county or district office within 30 days of the change.</strong> A foreign tourist urban homestay is a different category with different change items, so do not mix the two.</p>
+<p>See <a href="/en/blog/urban-guesthouse-change-registration">urban homestay change registration</a>, <a href="/en/blog/hostel-violation-penalties">hostel violation penalties</a> and <a href="/en/blog/hostel-registration-guide">our hostel registration guide</a>.</p>
+
+<h2>What needs change registration and prior approval</h2>
+<table><thead><tr><th>Change</th><th>Procedure</th><th>Deadline</th></tr></thead><tbody>
+<tr><td>Trade name, representative</td><td>Change registration</td><td>Within 30 days</td></tr>
+<tr><td>Number and type of rooms</td><td>Change registration; rooms for individual travellers, shared facilities and a cultural exchange space must still meet the standards</td><td>Within 30 days</td></tr>
+<tr><td>Location, area or type of ancillary facilities</td><td>Change registration</td><td>Within 30 days</td></tr>
+<tr><td>Site or floor area change of 10% or more of the approved plan, or a switch to another hotel type such as a small hotel</td><td>Business plan change approval first, then change registration</td><td>Within 30 days after approval</td></tr>
+<tr><td>Acquisition, merger or purchase of all main facilities at auction</td><td>Succession report</td><td>Within 1 month</td></tr>
+<tr><td>Suspension of 1 month or more, closure</td><td>Notice</td><td>Within 30 days</td></tr>
+</tbody></table>
+<p>If only the representative director of a corporate hostel changes, the operator stays the same, so it is a change registration. If an individual operator sells the business, the operator itself changes, so the buyer files a succession report. Moving the premises is not on the list of change items for tourist accommodation, so confirm the process with the registration office first.</p>
+
+<h2>Documents and steps</h2>
+<p>Attach documents proving the change. Where an electrical safety inspection is needed, the official checks the inspection record electronically unless you decline. The form lists 4 days for processing, and a new certificate is issued. Changes to tourist accommodation registrations generally go through the registration review committee, except minor changes involving two or fewer agencies.</p>
+<ol><li>Decide whether the change needs change registration, plan change approval or a succession report.</li><li>Apply for plan change approval before works or conversion.</li><li>Prepare plans and photos proving room or facility changes.</li><li>File within the deadline.</li><li>Receive the new certificate and update your premises.</li></ol>
+<p>Missing the change registration deadline is a ground for cancellation, suspension or an improvement order.</p>
+
+<h2>How we help</h2>
+<p>YouSun Administrative Agency classifies the change, applies for plan change approval, prepares the application and proof, responds to committee requests and files succession reports. See <a href="/en/services/hostel">our hostel registration service</a>.</p>
+
+<div class="faq-section"><h2>FAQ</h2>
+<div class="faq-item"><p class="faq-q">Q. Does a name change alone need change registration?</p><p class="faq-a">A. Yes, within 30 days.</p></div>
+<div class="faq-item"><p class="faq-q">Q. What does a foreign buyer of a hostel submit?</p><p class="faq-a">A. Proof of the transfer including the facilities taken over, and proof that the buyer (for a corporation, its representative and officers) is not disqualified: a government-issued document or notarised statement with consular confirmation or an apostille.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Can a hostel become a small hotel?</p><p class="faq-a">A. Yes, if it meets the new standards, through plan change approval followed by change registration.</p></div>
+<div class="faq-item"><p class="faq-q">Q. Do past sanctions pass to the buyer?</p><p class="faq-a">A. In principle yes, unless the buyer proves it did not know of them at the time of acquisition.</p></div>
+</div>
+
+<div class="cta-block"><h3>Decide the procedure before you change</h3><p>Send your registration certificate and planned change, and YouSun Administrative Agency will set out the procedure, documents and deadline. Call 02-325-8222, weekdays 09:30~17:30 KST.</p><a href="/en/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-change-registration">Request a consultation</a></div>
+<p class="author-block">YouSun Administrative Agency (Chief Administrative Agent Jung Yu-sun)</p>`
+  },
+  {
+    slug: 'hostel-change-registration',
+    locale: 'zh',
+    title: '韩国青年旅舍业变更登记 — 商号、代表人、客房、附属设施变化时的30日期限与材料',
+    metaTitle: '韩国青年旅舍业变更登记 — 对象、30日期限与材料',
+    metaDescription: '韩国青年旅舍业属于观光住宿业，商号、代表人、客房数量和形态、附属设施变化时须在30日内办理变更登记。本文还说明面积变更10%以上或业种变更时的事业计划变更批准及受让申报的区别。',
+    category: '住宿/旅游',
+    excerpt: '根据旅游振兴法，青年旅舍业是酒店业的一种。商号、代表人、客房数量和形态、附属设施变化时须在30日内办理变更登记；大幅变更面积或转为其他酒店业种的，须先取得事业计划变更批准。',
+    content: `<div class="toc"><p>目录</p><ol><li>变更登记对象与须先取得的批准</li><li>材料与步骤</li><li>我们可以协助的范围</li><li>常见问题</li></ol></div>
+<p><strong>韩国青年旅舍业（호스텔업）在旅游振兴法上属于观光住宿业中酒店业的一种，登记后商号或代表人、客房数量和形态、附属设施的位置·面积·种类发生变化的，须自变更事由发生之日起30日内向特别自治市长、特别自治道知事、市长、郡守、区厅长提交变更登记申请书。</strong>外国人观光城市民宿业属于观光客利用设施业，变更登记事项不同，不可混为一谈。</p>
+<p>城市民宿的变更见<a href="/zh/blog/urban-guesthouse-change-registration">外国人观光城市民宿业变更登记</a>，逾期处分见<a href="/zh/blog/hostel-violation-penalties">青年旅舍业违规制裁</a>，登记总体见<a href="/zh/blog/hostel-registration-guide">青年旅舍业登记指南</a>。</p>
+
+<h2>变更登记对象与须先取得的批准</h2>
+<table><thead><tr><th>变更事项</th><th>程序</th><th>期限</th></tr></thead><tbody>
+<tr><td>商号、代表人</td><td>变更登记</td><td>30日内</td></tr>
+<tr><td>客房数量和形态</td><td>变更登记；变更后仍须满足个人游客客房、卫生间·淋浴·厨房等便利设施、文化信息交流设施标准</td><td>30日内</td></tr>
+<tr><td>附属设施的位置·面积·种类</td><td>变更登记</td><td>30日内</td></tr>
+<tr><td>用地或建筑面积变更达原批准面积10%以上，或转为小型酒店业等其他酒店业种</td><td>先取得事业计划变更批准，再办理变更登记</td><td>批准后30日内</td></tr>
+<tr><td>受让、合并或通过拍卖接收全部主要设施</td><td>地位承继申报</td><td>1个月内</td></tr>
+<tr><td>停业1个月以上、歇业</td><td>停业·歇业通报</td><td>30日内</td></tr>
+</tbody></table>
+<p>法人旅舍仅更换代表理事的，经营者不变，属于代表人变更登记；个人经营者将业务转让他人的，经营者本身变化，由受让人办理地位承继申报。迁移营业场所不在观光住宿业变更登记事项中，应事先与登记机关确认处理方式。</p>
+
+<h2>材料与步骤</h2>
+<p>变更登记申请书须附证明变更事实的材料各1份。因面积变更等须接受电气安全检查的，由经办公务员通过行政信息确认检查确认书，不同意确认的由申请人自行附上。表格所列处理期限为4日，符合标准即发放变更登记证。观光住宿业登记事项的变更原则上须经登记审议委员会审议，仅涉及两个以下相关机关的轻微变更可免审议。</p>
+<ol><li>区分属于变更登记、事业计划变更批准还是地位承继。</li><li>面积或业种变更的，在施工或转换前申请事业计划变更批准。</li><li>客房或附属设施变更的，准备图纸、照片等证明材料。</li><li>在期限内提交变更登记申请书。</li><li>领取变更登记证并在营业场所反映新内容。</li></ol>
+<p>未在变更登记期限内办理的，构成取消登记、停业或改善命令的事由。</p>
+
+<h2>我们可以协助的范围</h2>
+<p>YouSun Administrative Agency负责区分程序、申请事业计划变更批准、制作变更登记申请书和证明材料、应对审议补正，以及受让时的地位承继申报。详见<a href="/zh/services/hostel">青年旅舍业登记服务</a>。</p>
+
+<div class="faq-section"><h2>常见问题</h2>
+<div class="faq-item"><p class="faq-q">Q. 只改旅舍名称也要变更登记吗？</p><p class="faq-a">A. 要。商号变更属于变更登记事项，须在30日内申请。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国人收购旅舍需要哪些材料？</p><p class="faq-a">A. 地位承继申报书须附转让证明（含设施接收明细），以及证明外国人受让人（法人为代表人和高管）不属于欠格事由的材料，须为该国政府等出具的文件或公证陈述书，并经领事确认或附海牙认证。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 可以把青年旅舍改为小型酒店吗？</p><p class="faq-a">A. 符合新业种登记标准的，作为酒店业种之间的变更，取得事业计划变更批准后办理变更登记。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 收购时以前的处分也会承继吗？</p><p class="faq-a">A. 原则上承继，但受让人能证明受让时不知情的除外。</p></div>
+</div>
+
+<div class="cta-block"><h3>变更前先确定程序</h3><p>告诉我们登记证内容和拟变更事项，YouSun Administrative Agency为你整理所需程序、材料和期限。电话 02-325-8222，工作日 09:30~17:30 KST。</p><a href="/zh/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-change-registration">申请咨询</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
+  },
+  {
+    slug: 'hostel-change-registration',
+    locale: 'ja',
+    title: '韓国のホステル業の変更登録 — 商号・代表者・客室・付帯施設が変わるときの30日期限と書類',
+    metaTitle: '韓国のホステル業の変更登録 — 対象・30日期限・書類',
+    metaDescription: '韓国のホステル業は観光宿泊業なので、商号・代表者、客室の数と形態、付帯施設が変われば30日以内に変更登録が必要です。面積10%以上の変更や業種変更時の事業計画変更承認、譲受届出との区別も解説します。',
+    category: '宿泊/観光',
+    excerpt: '観光振興法上、ホステル業はホテル業の一種です。商号・代表者、客室の数と形態、付帯施設が変われば事由発生日から30日以内に変更登録をし、面積を大きく変えたり他のホテル業に変えたりするには先に事業計画の変更承認を受けます。',
+    content: `<div class="toc"><p>目次</p><ol><li>変更登録の対象と先に受ける承認</li><li>書類と進め方</li><li>サポートの範囲</li><li>よくある質問</li></ol></div>
+<p><strong>韓国のホステル業は観光振興法上、観光宿泊業のうちホテル業の一種であり、登録後に商号や代表者、客室の数と形態、付帯施設の位置・面積・種類が変われば、変更事由が生じた日から30日以内に変更登録申請書を特別自治市長・特別自治道知事・市長・郡守・区庁長に提出しなければなりません。</strong>外国人観光都市民泊業は観光客利用施設業で変更登録の事項が異なるため、混同しないよう注意が必要です。</p>
+<p>都市民泊業の変更は<a href="/ja/blog/urban-guesthouse-change-registration">外国人観光都市民泊業の変更登録</a>、期限を逃した場合の処分は<a href="/ja/blog/hostel-violation-penalties">ホステル業の違反と制裁</a>、登録全般は<a href="/ja/blog/hostel-registration-guide">ホステル業登録ガイド</a>をご覧ください。</p>
+
+<h2>変更登録の対象と先に受ける承認</h2>
+<table><thead><tr><th>変わるもの</th><th>手続</th><th>期限</th></tr></thead><tbody>
+<tr><td>商号、代表者</td><td>変更登録</td><td>30日以内</td></tr>
+<tr><td>客室の数と形態</td><td>変更登録。変更後も個人旅行者向け客室、トイレ・シャワー・炊事場などの便益施設、文化・情報交流施設の基準を保つ必要があります。</td><td>30日以内</td></tr>
+<tr><td>付帯施設の位置・面積・種類</td><td>変更登録</td><td>30日以内</td></tr>
+<tr><td>敷地・建築延べ面積を当初承認面積の10%以上変更、小型ホテル業など他のホテル業への業種変更</td><td>変更前に事業計画の変更承認を受け、承認事項を変更登録</td><td>承認後30日以内</td></tr>
+<tr><td>事業の譲受、法人の合併、競売などによる主要施設全部の引受け</td><td>地位承継の届出</td><td>1か月以内</td></tr>
+<tr><td>1か月以上の休業、廃業</td><td>休業・廃業の通報</td><td>30日以内</td></tr>
+</tbody></table>
+<p>法人ホステルで代表理事だけが代わる場合は事業者は同じなので代表者の変更登録です。個人の運営者が事業を他人に譲る場合は事業者そのものが代わるため、変更登録ではなく譲受人の地位承継の届出になります。事業所の移転は観光宿泊業の変更登録事項に含まれていないため、計画段階で登録官庁に手続を確認してください。</p>
+
+<h2>書類と進め方</h2>
+<p>変更登録申請書には変更事実を証明する書類を各1部添えます。面積の変更などで電気安全点検が必要なホテル業の変更登録では、担当公務員が点検確認書を行政情報で確認し、同意しない場合は申請人が添付します。様式上の処理期間は4日で、基準に合えば変更登録証が発給されます。観光宿泊業の登録事項の変更は原則として登録審議委員会の審議を経ますが、関係機関が二つ以下の軽微な変更は審議を省略できます。</p>
+<ol><li>変更登録、事業計画の変更承認、地位承継のどれに当たるかを分けます。</li><li>面積・業種の変更なら工事や転換の前に変更承認を申請します。</li><li>客室・付帯施設を変えるなら図面や写真などの証明書類を用意します。</li><li>期限内に変更登録申請書を提出します。</li><li>変更登録証を受け取り、事業所に新しい登録内容を反映します。</li></ol>
+<p>変更登録期間内に変更登録をしないと、登録取消し、事業停止または改善命令の事由になります。</p>
+
+<h2>サポートの範囲</h2>
+<p>YouSun Administrative Agencyは、手続の区分、事業計画の変更承認の申請、変更登録申請書と証明書類の作成、審議の補正対応、譲受時の地位承継の届出まで行います。詳しくは<a href="/ja/services/hostel">ホステル業登録サービス</a>をご覧ください。</p>
+
+<div class="faq-section"><h2>よくある質問</h2>
+<div class="faq-item"><p class="faq-q">Q. ホステルの名前を変えるだけでも変更登録ですか。</p><p class="faq-a">A. はい。商号の変更は変更登録事項で、30日以内に申請します。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 外国人がホステルを買い取るときの書類は？</p><p class="faq-a">A. 地位承継届出書に譲渡・譲受の証明書類（施設引受けの明細を含む）と、外国人の譲受人（法人は代表者・役員）が欠格事由に当たらないことを証明する書類を添えます。その国の政府などが発行した書類または公証を受けた陳述書で、領事の確認かアポスティーユを受けたものが必要です。</p></div>
+<div class="faq-item"><p class="faq-q">Q. ホステルを小型ホテルに変えられますか。</p><p class="faq-a">A. 新しい業種の登録基準を満たせば、ホテル業の種類間の業種変更として事業計画の変更承認を受けた後に変更登録をします。</p></div>
+<div class="faq-item"><p class="faq-q">Q. 買い取ると過去の処分も引き継がれますか。</p><p class="faq-a">A. 原則として引き継がれますが、譲受時にその事実を知らなかったことを証明すれば引き継がれません。</p></div>
+</div>
+
+<div class="cta-block"><h3>変える前に手続を決めましょう</h3><p>登録証と変更予定の内容をお知らせいただければ、YouSun Administrative Agencyが必要な手続、書類、期限を整理します。電話 02-325-8222、平日 09:30~17:30 KST。</p><a href="/ja/contact?utm_source=blog&utm_medium=cta&utm_campaign=hostel-change-registration">相談を申し込む</a></div>
+<p class="author-block">YouSun Administrative Agency（代表行政士 Jung Yu-sun）</p>`
   }
 ]
 
