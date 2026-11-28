@@ -904,3 +904,7 @@
 /en/blog/hostel-change-registration
 /ja/blog/hostel-change-registration
 /zh/blog/hostel-change-registration
+/blog/quasi-drug-change-permit-report
+/en/blog/quasi-drug-change-permit-report
+/ja/blog/quasi-drug-change-permit-report
+/zh/blog/quasi-drug-change-permit-report

@@ -12036,6 +12036,24 @@
    "site_name": "inhega.co.kr",
    "generated_at": "2026-11-27T10:03:45.307Z",
    "version": "1.4"
+  },
+  "news/eping-121735": {
+   "hash": "9b8c3ea1e8b37ec7bc03028178542771e2a93e4762570a24f0f1c51d38b83d30",
+   "source": "pexels",
+   "seed": 1403297634,
+   "theme": "default",
+   "prompt_subject": "seoul city skyline",
+   "map_version": null,
+   "pexels_id": 41282517,
+   "pexels_author": "Ivan B",
+   "category": "살생물제품",
+   "visa": null,
+   "lang": "ko",
+   "slug": "eping-121735",
+   "title": "청결 및 위생용품 규제 개정안 의견 수렴",
+   "site_name": "inhega.co.kr",
+   "generated_at": "2026-11-28T10:03:36.236Z",
+   "version": "1.4"
   }
  }
 }

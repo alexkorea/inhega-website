@@ -260,6 +260,13 @@
       "topic": "hostel",
       "angle": "change-report",
       "slug": "hostel-change-registration"
+    },
+    {
+      "date": "2026-11-28",
+      "ran_on": "2026-11-28",
+      "topic": "quasi-drug",
+      "angle": "change-report",
+      "slug": "quasi-drug-change-permit-report"
     }
   ]
 }
